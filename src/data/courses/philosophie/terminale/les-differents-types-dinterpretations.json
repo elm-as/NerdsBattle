@@ -1,0 +1,173 @@
+{
+  "id": "philosophie-terminale-les-differents-types-dinterpretations",
+  "subjectId": "philosophie",
+  "levelId": "terminale",
+  "slug": "les-differents-types-dinterpretations",
+  "title": "L’interprétation en sciences humaines",
+  "summary": "Ce cours explore la notion d’interprétation dans les sciences humaines : définition, typologie (texte, œuvre d’art, comportement, systèmes formels), herméneutique et niveaux de lecture (littéral, allégorique, moral, anagogique). Il illustre chaque type par des exemples (Bible, Dante, peinture, musique) et montre comment le sens est construit à partir d’un donné.",
+  "lesson": "# L’interprétation en sciences humaines\n\n## 1. Définition générale\nL’interprétation consiste à partir d’un **donné** (texte, comportement, objet) pour lui attribuer une **signification** en le mettant en correspondance avec autre chose (une idée, une action, un monde).\n\n## 2. Typologie des objets interprétés\n| Objet interprété | Type d’interprétation |\n|-----------------|----------------------|\n| **Animaux** | philosophie de l’intentionnalité |\n| **Hommes** – Actions | sciences humaines (histoire, sociologie) |\n| **Hommes** – Œuvres d’art | histoire de l’art, critique, esthétique |\n| **Hommes** – Textes | herméneutique, droit |\n| **Monde** – Objets sensibles | perception |\n| **Monde** – Monde en général | langage, philosophie, science |\n\n## 3. L’interprétation du texte\n- **Herméneutique** : recherche du sens littéral et du sens allégorique.\n- Exemple : la Bible ou les écrits de Dante, qui possèdent quatre niveaux de lecture :\n  1. **Littéral** – le sens apparent des mots.\n  2. **Allégorique** – le sens symbolique ou théologique.\n  3. **Moral** – la leçon éthique.\n  4. **Anagogique** – la portée spirituelle ou eschatologique.\n\n> *« Quand Israël sortit de l’Égypte… »* – lecture littérale : sortie historique; allégorique : rachat du Christ; morale : conversion de l’âme; anagogique : libération de l’âme vers la gloire éternelle.\n\n## 4. L’interprétation de l’œuvre d’art\n- On cherche l’**intention de l’artiste** en remontant du signe matériel (peinture, musique) à la forme/idéé.\n- Exemples célèbres :\n  - Tableau *Sainte Anne* de Léonard de Vinci – lecture freudienne.\n  - Rêve de Dalí – symbolique de la guêpe et de la grenade.\n  - Kafka – totalitarisme vs. comédie surréaliste.\n  - *Mulholland Drive* de David Lynch – multiples lectures.\n\n## 5. Interprétation d’une œuvre musicale et d’une recette\n- Partition → performance : chaque musicien apporte son **interprétation**.\n- Recette → plat : chaque chef adapte les gestes et les saveurs.\n\n## 6. Conclusion\nL’interprétation est un **acte de sens** qui dépend du contexte, du sujet interprétant et du cadre théorique employé. Elle montre la richesse des sciences humaines où le même objet peut générer une infinité de significations.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "philosophie",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le point de départ de toute interprétation selon le cours ?",
+      "options": [
+        "Le sens littéral",
+        "Le donné (texte, objet, comportement)",
+        "L’intention de l’auteur",
+        "La conclusion finale"
+      ],
+      "answer": 1,
+      "explanation": "L’interprétation part toujours d’un donné, qu’il s’agisse d’un texte, d’un comportement ou d’un objet."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La herméneutique ne s’intéresse qu’au sens littéral d’un texte.",
+      "answer": false,
+      "explanation": "La herméneutique recherche à la fois le sens littéral et les sens allégoriques, moraux et anagogiques."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le philosophe qui a proposé les quatre niveaux de lecture du texte est _____.",
+      "answer": "Dante Alighieri",
+      "explanation": "Dante a décrit les niveaux littéral, allégorique, moral et anagogique."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans la typologie présentée, quel type d’interprétation correspond à l’étude du comportement animal ?",
+      "options": [
+        "Philosophie de l’intentionnalité",
+        "Sciences humaines",
+        "Esthétique",
+        "Perception"
+      ],
+      "answer": 0,
+      "explanation": "Le comportement animal est étudié sous l’angle de la philosophie de l’intentionnalité."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel niveau de lecture associe le texte à une leçon éthique ?",
+      "options": [
+        "Littéral",
+        "Allégorique",
+        "Moral",
+        "Anagogique"
+      ],
+      "answer": 2,
+      "explanation": "Le niveau moral vise la dimension éthique du texte."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Selon le cours, une partition musicale ne nécessite aucune interprétation, elle se joue telle quelle.",
+      "answer": false,
+      "explanation": "Chaque musicien interprète la partition, apportant sa propre nuance."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Le terme grec « anagogê » désigne le chemin de l’âme vers le _____.",
+      "answer": "salut",
+      "explanation": "L’anagogê est le trajet de l’âme vers le salut."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel exemple illustre une interprétation freudienne d’une œuvre d’art ?",
+      "options": [
+        "Le tableau de Léonard de Vinci « Sainte Anne »",
+        "Le film « Mulholland Drive »",
+        "Le poème de Dante",
+        "La recette de cuisine de Julia Child"
+      ],
+      "answer": 0,
+      "explanation": "L’interprétation freudienne du tableau « Sainte Anne » est citée dans le texte."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Dans la table de typologie, les « objets sensibles » sont interprétés par la perception.",
+      "answer": true,
+      "explanation": "Les objets sensibles relèvent de la perception."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel auteur voit le désir comme un phénomène triangulaire dans la littérature ?",
+      "options": [
+        "René Girard",
+        "David Lynch",
+        "Franz Kafka",
+        "Kundera"
+      ],
+      "answer": 0,
+      "explanation": "René Girard a développé la théorie du désir triangulaire."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Le sens allégorique du verset biblique cité renvoie au ____ du Christ.",
+      "answer": "rachat",
+      "explanation": "L’allégorie du verset évoque le rachat par le Christ."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel type d’interprétation s’applique à l’étude du droit ?",
+      "options": [
+        "Herméneutique",
+        "Esthétique",
+        "Perception",
+        "Sciences naturelles"
+      ],
+      "answer": 0,
+      "explanation": "Le droit utilise l’herméneutique pour interpréter les textes légaux."
+    },
+    {
+      "id": "q13",
+      "type": "truefalse",
+      "prompt": "La lecture anagogique d’un texte porte sur son sens historique uniquement.",
+      "answer": false,
+      "explanation": "La lecture anagogique vise la dimension spirituelle ou eschatologique, pas l’historique."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel niveau de lecture considère le texte comme une simple description factuelle ?",
+      "options": [
+        "Moral",
+        "Anagogique",
+        "Littéral",
+        "Allégorique"
+      ],
+      "answer": 2,
+      "explanation": "Le niveau littéral correspond à la description factuelle."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Dans l’exemple de la cuisine, chaque chef donne son propre _____ à la recette.",
+      "answer": "interprétation",
+      "explanation": "La notion d’interprétation s’applique aussi aux recettes culinaires."
+    },
+    {
+      "id": "q16",
+      "type": "truefalse",
+      "prompt": "Selon le cours, le même objet peut générer une infinité de significations selon le sujet interprétant.",
+      "answer": true,
+      "explanation": "C’est le principe même de l’interprétation en sciences humaines."
+    }
+  ]
+}

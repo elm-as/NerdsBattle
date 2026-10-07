@@ -1,0 +1,166 @@
+{
+  "id": "espagnol-quatrieme-l12-demander-une-opinion",
+  "subjectId": "espagnol",
+  "levelId": "quatrieme",
+  "slug": "l12-demander-une-opinion",
+  "title": "Demander une opinion en espagnol – Leçon 4",
+  "summary": "Cette leçon de 4e porte sur la compétence d’exprimer et de demander des opinions en espagnol. Elle présente le vocabulaire, les expressions grammaticales, des activités d’écoute et de production, ainsi que des exercices de compréhension et de production orale. Les élèves apprennent à utiliser des formules comme « ¿Qué piensas…? », « ¿Qué te parece…? », et à formuler leurs propres opinions sur divers sujets.",
+  "lesson": "# Demander une opinion en espagnol – Leçon 4\n\n## 1. Compétence\n- **Compétence** : *Traiter une situation relative à l’expression d’opinion*.\n- **Objectif** : Savoir demander et exprimer une opinion en espagnol.\n\n## 2. Vocabulaire\n- **Pedir una opinión** : demander l’avis de quelqu’un.\n- **Un aficionado** : fan, supporter.\n- **El futuro de Mbappé** : thème de l’activité.\n\n## 3. Grammaire\n- **Expressions pour demander l’opinion** :\n  - ¿Qué piensas (de)…?\n  - ¿Qué le parece a usted…?\n  - ¿Cuál es tu/su opinión (sobre)…?\n  - ¿Qué opinas/opina usted (de)…?\n- **Structure** : Sujet + verbe + complément.\n\n## 4. Activités d’application\n1. **Écoute** : Réponses aux questions sur l’équipe, Messi, le transfert.\n2. **Situation d’évaluation** : Après conférence sur le coronavirus, l’ambassadeur demande votre opinion.\n\n## 5. Exercices\n- **Exercice 1** : Choisir la bonne expression pour demander l’opinion.\n- **Exercice 2** : Vrai/Faux sur les formules d’opinion.\n- **Exercice 3** : Répondre aux questions sur Mbappé.\n- **Situation d’évaluation 1 & 2** : Demander l’opinion sur le sport et la fête traditionnelle.\n\n## 6. Résumé\nCette leçon permet aux élèves de 4e de maîtriser les expressions clés pour demander et exprimer des opinions en espagnol, de les utiliser dans des contextes variés (sport, culture, santé) et de développer leur compréhension orale et leur production écrite.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "espagnol",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la bonne expression pour demander l’opinion de quelqu’un ?",
+      "options": [
+        "¿Qué piensas de…?",
+        "¿Dónde vives?",
+        "¿Cuántos años tienes?",
+        "¿Qué hora es?"
+      ],
+      "answer": 0,
+      "explanation": "La phrase « ¿Qué piensas de…? » est une formule courante pour demander l’opinion."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Comment demander l’opinion de manière formelle ?",
+      "options": [
+        "¿Qué opinas?",
+        "¿Qué piensas?",
+        "¿Qué piensa usted?",
+        "¿Qué haces?"
+      ],
+      "answer": 2,
+      "explanation": "« ¿Qué piensa usted? » est la forme polie et formelle."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "« ¿Qué te parece…? » est une formule pour demander l’opinion d’un ami proche.",
+      "answer": true,
+      "explanation": "Cette expression est couramment utilisée entre amis."
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "« ¿Qué piensa usted? » sert à demander l’opinion d’un ami.",
+      "answer": false,
+      "explanation": "C’est une formule formelle, pas pour un ami."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "« ¿Cuál es tu opinión sobre…? » est une expression pour demander l’opinion d’une personne que l’on respecte.",
+      "answer": false,
+      "explanation": "Cette formule est neutre, pas spécifiquement respectueuse."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Complétez : ___ es un buen tema porque me ha permitido tener las buenas informaciones sobre el coronavirus.",
+      "answer": "Pienso",
+      "explanation": ""
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est le thème de l’activité d’expression orale ?",
+      "options": [
+        "El futuro de Mbappé",
+        "La fiesta tradicional",
+        "El coronavirus",
+        "El deporte"
+      ],
+      "answer": 0,
+      "explanation": "L’activité porte sur le futur de Mbappé."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quelle est la réponse attendue à la question : ¿Qué piensas de vuestro equipo?",
+      "options": [
+        "Nosotros pensamos que tenemos un buen equipo.",
+        "No sé.",
+        "Me gusta.",
+        "No me importa."
+      ],
+      "answer": 0,
+      "explanation": "C’est la réponse donnée dans le texte."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel est le rôle de l’ambassadeur à la fin de la conférence ?",
+      "options": [
+        "Donner un discours",
+        "Demander l’opinion des participants",
+        "Faire un discours de clôture",
+        "Organiser une fête"
+      ],
+      "answer": 1,
+      "explanation": "Il veut connaître les impressions des participants."
+    },
+    {
+      "id": "q13",
+      "type": "truefalse",
+      "prompt": "Dans la situation d’évaluation 2, l’expression « ¿Qué te parece…? » est utilisée pour demander l’opinion d’un ami.",
+      "answer": true,
+      "explanation": "C’est une formule familière."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Complétez : Según ellos, el deporte es importante para ___ salud.",
+      "answer": "mantener",
+      "explanation": ""
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quelle expression est utilisée pour demander l’opinion sur la fête traditionnelle ?",
+      "options": [
+        "¿Qué piensas?",
+        "¿Qué te parece?",
+        "¿Dónde vives?",
+        "¿Cuántos años tienes?"
+      ],
+      "answer": 1,
+      "explanation": "« ¿Qué te parece? » est approprié."
+    },
+    {
+      "id": "q16",
+      "type": "truefalse",
+      "prompt": "La phrase « ¿Qué opinas de Messi? » est une question d’opinion.",
+      "answer": true,
+      "explanation": "C’est une question d’opinion."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quel est le sujet de la question : ¿Cuál es la opinión de los aficionados sobre el traslado?",
+      "options": [
+        "El futuro de Mbappé",
+        "El tema del coronavirus",
+        "El traslado",
+        "El deporte"
+      ],
+      "answer": 2,
+      "explanation": "La question porte sur le transfert."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "prompt": "Complétez : ___ es un buen amigo.",
+      "answer": "Para",
+      "explanation": ""
+    }
+  ]
+}

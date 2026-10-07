@@ -1,0 +1,168 @@
+{
+  "id": "francais-cinquieme-l2-othographe-grammaire-5eme-l2-s4",
+  "subjectId": "francais",
+  "levelId": "cinquieme",
+  "slug": "l2-othographe-grammaire-5eme-l2-s4",
+  "title": "Leçon 2 – Accord des adjectifs de couleur (5e)",
+  "summary": "Apprenez les règles d’accord des adjectifs simples et composés de couleur en français, avec exemples, exceptions (marron, orange, noisette, etc.) et exercices d’application pour les élèves de 5e.",
+  "lesson": "# I – L’adjectif simple de couleur\n\n- En règle générale, l’adjectif de couleur s’accorde en genre et en nombre avec le nom qu’il qualifie.\n  - Exemple : *des cartables **verts*** (masc. plur.)\n- Exceptions : les noms *marron, orange, noisette…* restent invariables lorsqu’ils sont employés comme adjectifs de couleur.\n  - Exemple : *des chemises **noisette***\n- Exceptions qui s’accordent : *écarlate, fauve, mauve, incarnat, pourpre, rose*.\n  - Exemple : *des chemises **roses***\n\n# II – L’adjectif composé de couleur\n\n- Les adjectifs composés (deux adjectifs ou adjectif + nom) restent invariables.\n  - Exemple : *une cravate **bleu foncé***, *des jupes **bleu roi***\n- Formes possibles :\n  1. Deux adjectifs de couleur → *une veste aux reflets **bleu gris***\n  2. Un adjectif de couleur + un autre adjectif → *une voiture **bleu clair***\n  3. Un adjectif de couleur + un nom → *une armoire **vert olive***\n\n# Évaluation\n\n## Exercice I\n\nDans le texte suivant, choisissez l’adjectif de couleur correctement accordé :\n> « Je sens le souffle chaud du vent qui fait danser mes cheveux **(blonds / blond)** dans tous les sens. Les rayons **(jaune étincelant / jaunes étincelants)** du soleil réchauffent mon visage. J’entends le bruit des feuilles **(jaune‑orange / jaune‑oranges / jaunes‑orange / jaunes‑oranges)**. »\n\n## Exercice II\n\nRédigez, en 5 lignes, la description de votre chambre à coucher en utilisant les adjectifs de couleur suivants : *vert clair, marron, pourpre, jaune*.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "francais",
+    "cinquieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel adjectif de couleur s’accorde toujours, même au pluriel, lorsqu’il désigne une couleur ?",
+      "options": [
+        "marron",
+        "orange",
+        "rose",
+        "pourpre"
+      ],
+      "answer": 2,
+      "explanation": "*Rose* s’accorde comme un adjectif ordinaire (ex. : des chemises **roses**)."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "L’adjectif composé « bleu marine » reste invariable quel que soit le genre et le nombre du nom.",
+      "answer": true,
+      "explanation": "Les adjectifs composés de couleur sont invariables."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Complétez : « Des chemises ___ (noisette) sont très élégantes. »",
+      "answer": "noisette",
+      "explanation": "*Noisette* reste invariable lorsqu’il est adjectif de couleur."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans la phrase « Elle portait une robe vert clair. », l’adjectif de couleur est :",
+      "options": [
+        "vert clair",
+        "vert",
+        "clair",
+        "vert‑clair"
+      ],
+      "answer": 0,
+      "explanation": "L’adjectif composé « vert clair » reste invariable."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "« Des jupes bleu roi » est correct même si le nom est au pluriel féminin.",
+      "answer": true,
+      "explanation": "L’adjectif composé « bleu roi » ne s’accorde pas."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Quel adjectif complète correctement : « Une cravate ___ (bleu foncé) était posée sur la table. »",
+      "answer": "bleu foncé",
+      "explanation": "L’adjectif composé reste invariable."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Parmi les propositions suivantes, laquelle contient un accord correct ?",
+      "options": [
+        "des cahiers orange",
+        "des cahiers oranges",
+        "des cahiers orangees",
+        "des cahiers orangee"
+      ],
+      "answer": 0,
+      "explanation": "*Orange* reste invariable lorsqu’il désigne la couleur."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "« Des chemises pourpres » est une forme correcte.",
+      "answer": true,
+      "explanation": "*Pourpre* s’accorde comme un adjectif ordinaire."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Complétez avec l’adjectif correctement accordé : « Les feuilles ___ (jaune‑orange) tombent en automne. »",
+      "answer": "jaune‑orange",
+      "explanation": "L’adjectif composé reste invariable."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est le type d’accord de l’adjectif dans « une armoire vert olive » ?",
+      "options": [
+        "accord en genre et nombre",
+        "invariable",
+        "accord partiel",
+        "accord en genre seulement"
+      ],
+      "answer": 1,
+      "explanation": "« vert olive » est un adjectif composé et reste invariable."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "« Des cartables verts » illustre l’accord habituel d’un adjectif simple de couleur.",
+      "answer": true,
+      "explanation": "L’adjectif simple s’accorde en genre et nombre."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Dans la phrase « Ma mère m’a acheté des chaussures ___ (bleu marine). », quel est l’adjectif correct ?",
+      "answer": "bleu marine",
+      "explanation": "Adjectif composé, invariable."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel adjectif de couleur ne change jamais, même au féminin pluriel ?",
+      "options": [
+        "rouge",
+        "pourpre",
+        "marron",
+        "violet"
+      ],
+      "answer": 2,
+      "explanation": "*Marron* reste invariable lorsqu’il désigne la couleur."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "« Des chemises écarlates » est correct car *écarlate* s’accorde.",
+      "answer": true,
+      "explanation": "*Écarlate* s’accorde comme un adjectif ordinaire."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Complétez : « Je préfère les cahiers ___ (orange). »",
+      "answer": "orange",
+      "explanation": "*Orange* reste invariable."
+    },
+    {
+      "id": "q17",
+      "type": "truefalse",
+      "prompt": "« Les rayons jaunes étincelants » est la forme correcte dans l’exercice I.",
+      "answer": true,
+      "explanation": "Le nom *rayons* est pluriel, l’adjectif s’accorde."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "prompt": "Dans l’exercice I, choisissez la forme correcte pour les feuilles :",
+      "answer": "jaune‑orange",
+      "explanation": "L’adjectif composé reste invariable, même au pluriel."
+    }
+  ]
+}

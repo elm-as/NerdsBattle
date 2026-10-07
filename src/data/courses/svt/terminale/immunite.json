@@ -1,0 +1,14 @@
+{
+  "id": "svt-terminale-immunite",
+  "title": "Le système immunitaire",
+  "summary": "Immunité innée et adaptative : défenses contre les pathogènes.",
+  "lesson": "L'immunité innée est rapide, non spécifique (phagocytose, inflammation). L'immunité adaptative est plus lente mais spécifique : lymphocytes B (anticorps) et lymphocytes T (cellulaire). La mémoire immunitaire fonde la vaccination.",
+  "estimatedMinutes": 14,
+  "tags": ["immunologie"],
+  "questions": [
+    { "id": "q1", "type": "mcq", "prompt": "Les anticorps sont produits par les :", "options": ["LT", "LB", "macrophages", "neurones"], "answer": 1, "explanation": "Lymphocytes B (plasmocytes)." },
+    { "id": "q2", "type": "truefalse", "prompt": "L'immunité innée est spécifique d'un antigène.", "answer": false, "explanation": "Elle est non spécifique. L'adaptative est spécifique." },
+    { "id": "q3", "type": "fill", "prompt": "Le principe de la vaccination repose sur la ___ immunitaire.", "answer": "mémoire", "explanation": "Lymphocytes mémoire produits lors d'une primo-infection." },
+    { "id": "q4", "type": "mcq", "prompt": "La phagocytose relève de l'immunité :", "options": ["adaptative", "humorale", "innée", "passive"], "answer": 2, "explanation": "Réponse rapide non spécifique." }
+  ]
+}

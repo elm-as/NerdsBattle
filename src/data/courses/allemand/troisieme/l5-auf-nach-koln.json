@@ -1,0 +1,167 @@
+{
+  "id": "allemand-troisieme-l5-auf-nach-koln",
+  "subjectId": "allemand",
+  "levelId": "troisieme",
+  "slug": "l5-auf-nach-koln",
+  "title": "Leçon 5 – Auf nach Köln! – Analyse du texte et de la légende de la Loreley",
+  "summary": "Cette leçon de troisième porte sur la ville de Cologne, le Rhin et la légende de la Loreley. Les élèves décrivent des images, identifient le fleuve sur une carte, extraient des informations sur les personnages, les lieux et les monuments, et révisent le passé composé et le participe passé. Ils répondent ensuite à des questions de compréhension et de grammaire.",
+  "lesson": "## Contexte\n- Classe : 3ème, Lycée Moderne Leboutou (Dabou, Côte d’Ivoire)\n- Thème : L’Allemagne – Cologne, le Rhin, la Loreley\n- Documents : texte *Auf dem Rhein* (p.70), légende *Die Loreley* (p.70), photos de la cathédrale de Cologne et du Rhin.\n\n## Objectifs\n1. Décrire une image en allemand (vocabulaire du patrimoine et du tourisme).  \n2. Localiser le Rhin sur une carte de l’Allemagne.  \n3. Identifier personnes, lieux et monuments dans un texte.  \n4. Réviser le passé composé (Perfekt) et le participe passé des verbes forts.  \n5. Produire des réponses courtes (fill‑in) et choisir la bonne option (MCQ, vrai/faux).\n\n## Vocabulaire clé\n- **der Kölner Dom** – la cathédrale de Cologne\n- **der Rhein** – le Rhin\n- **die Loreley** – la légende de la Loreley\n- **die Burg**, **die Weinberge**, **das Romantische Rheintal**\n- **das Schiff**, **der Zug**, **der Tourist**\n\n## Grammaire révisée\n| Infinitif | Participe passé |\n|-----------|-----------------|\n| wissen    | gewusst         |\n| kennen    | gekannt         |\n| denken    | gedacht         |\n| bringen   | gebracht        |\n\n- Formation du participe passé des verbes forts : radical + voyelle modifiée + **‑t** (ex. *denken → gedacht*).\n\n## Déroulement de la séance\n1. **Activité 1** – Numérotation et description des photos (allemand/français).  \n2. **Activité 2** – Lecture des objectifs (p.69).  \n3. **Activité 3** – Observation du Rhin, localisation sur carte.  \n4. **Activité 4** – Extraction d’informations (personnes, moyens de transport, lieux, sites touristiques).  \n5. **Activité 5** – Lecture de la légende *Die Loreley* et mise en ordre des phrases.  \n6. **Grammaire** – Soulignement des verbes au Perfekt dans le dialogue (p.72) et tableau de conjugaison.  \n7. **Production** – Réponses aux questions de compréhension et exercices de remplissage.\n\n## Évaluation formative\n- Questions à choix multiples (MCQ)\n- Vrai/Faux\n- Complétion de phrases (fill‑in)\n- Explications courtes attendues pour chaque réponse.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "allemand",
+    "troisieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le nom complet de la cathédrale présentée sur la photo 1?",
+      "options": [
+        "Kölner Dom",
+        "Dom zu Köln",
+        "Kölner Münster",
+        "Kölner Kathedrale"
+      ],
+      "answer": 0,
+      "explanation": "Le texte indique que la cathédrale est connue sous le nom de « Kölner Dom »."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le Rhin est un fleuve navigable en Allemagne.",
+      "answer": true,
+      "explanation": "Le texte précise que le Rhin est \"schiffbar\" (navigable)."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Complétez : Le Kölner Dom mesure ___ mètres de hauteur.",
+      "answer": "162",
+      "explanation": "Le texte indique que la cathédrale culmine à 162 mètres."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Parmi les personnes suivantes, laquelle n’est pas mentionnée dans la partie A2 du texte?",
+      "options": [
+        "Adama",
+        "Nina",
+        "Sara",
+        "Lukas"
+      ],
+      "answer": 3,
+      "explanation": "Lukas n’apparaît pas dans la liste (Adama, Nina, Sara, Markus)."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La Burg Stahleck est aujourd’hui une jeunesse‑herberge.",
+      "answer": true,
+      "explanation": "Le texte indique que la Burg Stahleck est aujourd’hui une Jugendherberge."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Quel moyen de transport est mentionné comme circulant sur le Rhin? (un seul mot)",
+      "answer": "Schiff",
+      "explanation": "Le texte parle d’un \"Schiff\" qui navigue sur le Rhin."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quelle région allemande est citée comme \"capitale\" de la Rhénanie‑Westphalie?",
+      "options": [
+        "Köln",
+        "Düsseldorf",
+        "Dortmund",
+        "Essen"
+      ],
+      "answer": 0,
+      "explanation": "Cologne (Köln) est la capitale de la région mentionnée."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Essis se trouve déjà à Cologne lorsqu’il parle de la légende de la Loreley.",
+      "answer": false,
+      "explanation": "Essis est en Allemagne mais il se rend encore à Cologne."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Dans la légende, la Loreley a les cheveux ___ (couleur).",
+      "answer": "blond",
+      "explanation": "Le texte décrit la Loreley avec des cheveux blonds."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est le principal thème de la leçon?",
+      "options": [
+        "La géographie du Rhin",
+        "La légende de la Loreley",
+        "Les monuments de Cologne",
+        "Les transports en Allemagne"
+      ],
+      "answer": 1,
+      "explanation": "La leçon combine la description de Cologne et la légende de la Loreley, mais le thème central demandé est la légende."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Le tableau de conjugaison (Infinitif → Partizip Perfekt) comprend le verbe \"bringen\".",
+      "answer": true,
+      "explanation": "Le tableau montre \"bringen → gebracht\"."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Complétez la phrase au passé composé : \"Ich ___ (sehen) den Kölner Dom gestern.\"",
+      "answer": "habe gesehen",
+      "explanation": "Le verbe \"sehen\" se conjugue avec \"haben\" → \"habe gesehen\"."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel site touristique n’est pas listé dans le texte?",
+      "options": [
+        "Le Loreley‑Felsen",
+        "Le Romantische Rheintal",
+        "Le Château de Neuschwanstein",
+        "Les vignobles du Rhin"
+      ],
+      "answer": 2,
+      "explanation": "Le Château de Neuschwanstein n’est pas mentionné."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Le texte indique que le Rhin traverse la ville de Rüdesheim.",
+      "answer": true,
+      "explanation": "Rüdesheim est cité comme un lieu où les touristes se trouvent le long du Rhin."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Quel adjectif décrit le Rhin selon Markus? (un seul mot)",
+      "answer": "romantisch",
+      "explanation": "Markus trouve le Rhin \"romantisch\"."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quelle consigne est donnée pour l’activité 4?",
+      "options": [
+        "Lire le texte A2 et marquer les touristes",
+        "Décrire le Rhin sur la carte",
+        "Lister les verbes au parfait",
+        "Numéroter les images"
+      ],
+      "answer": 0,
+      "explanation": "L’activité 4 consiste à lire le texte A2 et à marquer ce qui concerne les touristes."
+    }
+  ]
+}

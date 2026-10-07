@@ -1,0 +1,99 @@
+{
+  "id": "maths-cinquieme-l5-math-5eme-lecon-1-nombre-premier-fin",
+  "subjectId": "maths",
+  "levelId": "cinquieme",
+  "slug": "l5-math-5eme-lecon-1-nombre-premier-fin",
+  "title": "Cinquième : Puissances entières et Division euclidienne",
+  "summary": "Cette leçon de mathématiques pour la classe de cinquième aborde deux concepts fondamentaux : les puissances entières d'un nombre entier naturel et la division euclidienne. Elle définit la notation $a^n$, les règles de priorité des opérations et les propriétés de calcul des puissances. Elle introduit également la division euclidienne avec ses termes (dividende, diviseur, quotient, reste) et la notion d'encadrement d'un nombre par des multiples consécutifs.",
+  "lesson": "# Leçon : Puissances entières et Division euclidienne\n\n## I. Puissances entières d’un nombre entier naturel\n\n### 1. Définition\nSoit $a$ un nombre entier naturel et $n$ un nombre entier naturel plus grand que 1.\n$a^n$ désigne le produit de $n$ facteurs égaux au nombre $a$.\n$$a^n = \\underbrace{a \\times a \\times \\dots \\times a}_{n \\text{ facteurs}}$$\n\n**Vocabulaire :**\n- $a^n$ est une puissance.\n- $a$ est la base.\n- $n$ est l’exposant.\n- $a^2$ se lit « $a$ au carré ».\n- $a^3$ se lit « $a$ au cube ».\n\n**Cas particuliers :**\n- $0^n = 0$ (si $n > 0$)\n- $1^n = 1$\n- $a^1 = a$\n- $a^0 = 1$ (par convention)\n\n### 2. Règle de priorité des opérations\nDans une suite d'opérations :\n1. Les calculs entre parenthèses sont prioritaires.\n2. En l'absence de parenthèses :\n   - Les puissances.\n   - La multiplication et la division.\n   - Les additions et les soustractions.\n\n**Exemple :** $3 \\times (15 - 8) = 3 \\times 7 = 21$.\n\n### 3. Propriétés des puissances\n- **Propriété 1 :** $a^n \\times b^n = (a \\times b)^n$\n- **Propriété 2 :** $a^n \\times a^m = a^{n+m}$\n\n## II. Division dans $\\mathbb{N}$\n\n### 1. Division euclidienne\nSoit $a$ et $b$ deux nombres entiers naturels avec $b \\neq 0$.\nIl existe deux nombres entiers naturels $q$ et $r$ tels que :\n$$a = b \\times q + r \\quad \\text{et} \\quad r < b$$\n\n**Terminologie :**\n- $a$ : dividende\n- $b$ : diviseur\n- $q$ : quotient\n- $r$ : reste\n\n**Exemple :** $57 = 4 \\times 14 + 1$ (Le reste 1 est inférieur au diviseur 4).\n\n**Remarque :** Si $a$ est un multiple de $b$, alors $r = 0$ et $a = b \\times q$.\n\n### 2. Encadrement d’un nombre\nSi $a$ n'est pas un multiple de $b$, on peut trouver $q$ tel que :\n$$b \\times q < a < b \\times (q + 1)$$\n\n**Exemple :** Encadrer 17 par des multiples de 6.\n$6 \\times 2 = 12$ et $6 \\times 3 = 18$.\nDonc $12 < 17 < 18$.",
+  "estimatedMinutes": 15,
+  "tags": [
+    "maths",
+    "cinquieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Que représente l'exposant dans la puissance $a^n$ ?",
+      "options": [
+        "Le nombre de facteurs égaux à a",
+        "La base de la puissance",
+        "Le résultat du produit",
+        "Le diviseur"
+      ],
+      "answer": 0,
+      "explanation": "L'exposant n indique le nombre de facteurs égaux à la base a dans le produit."
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "prompt": "Par convention, pour tout entier naturel a, a^0 est égal à ______.",
+      "answer": "1",
+      "explanation": "La convention mathématique stipule que a^0 = 1."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la valeur de 2^3 ?",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "5"
+      ],
+      "answer": 1,
+      "explanation": "2^3 = 2 × 2 × 2 = 8."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "prompt": "Dans la division euclidienne de 57 par 4, le quotient est ______.",
+      "answer": "0",
+      "explanation": "57 = 4 × 14 + 1. Le quotient est 14."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle propriété est correcte ?",
+      "options": [
+        "a^n × b^n = (a+b)^n",
+        "a^n × a^m = a^(n×m)",
+        "a^n × b^n = (a×b)^n",
+        "a^n + a^m = a^(n+m)"
+      ],
+      "answer": 2,
+      "explanation": "La propriété est a^n × b^n = (a × b)^n."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Dans l'égalité 24 = 2 × 12, le nombre 24 est appelé le ______.",
+      "answer": "2",
+      "explanation": "Le nombre qui est divisé est le dividende."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Si a est un multiple de b, que vaut le reste de la division euclidienne de a par b ?",
+      "options": [
+        "1",
+        "0",
+        "b",
+        "a"
+      ],
+      "answer": 1,
+      "explanation": "Si a est un multiple de b, la division est exacte et le reste est nul."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "2^2 × 2^3 est égal à 2^______.",
+      "answer": "0",
+      "explanation": "Selon la propriété a^n × a^m = a^(n+m), on a 2^(2+3) = 2^5."
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "id": "physique-sixieme-combustion-dun-solide-et-dun-liquide-dans-lair",
+  "subjectId": "physique",
+  "levelId": "sixieme",
+  "slug": "combustion-dun-solide-et-dun-liquide-dans-lair",
+  "title": "Combustion d'un solide et d'un liquide dans l'air",
+  "summary": "Découvre comment le charbon de bois et l'alcool brûlent dans l'air en produisant des corps bien identifiables. Apprends à écrire les équations chimiques littérales de ces réactions.",
+  "lesson": "## Introduction\n\nLa combustion est une réaction chimique courante : elle se produit lorsque des corps brûlent dans l'air. Dans cette leçon, nous étudions la combustion de deux combustibles : le charbon de bois (solide) et l'alcool (liquide). Nous verrons comment identifier les produits formés et comment écrire les équations chimiques littérales correspondantes.\n\n## 1. Définitions & Notions clés\n\n- **Combustion** : transformation chimique au cours de laquelle un combustible brûle dans un comburant en produisant de nouveaux corps.\n- **Combustible** : corps qui peut s'enflammer ou brûler. Exemples : charbon de bois, bois sec, alcool, essence, gaz butane.\n- **Comburant** : corps qui permet au combustible de brûler. Exemple : le gaz oxygène.\n- **Réaction chimique** : transformation au cours de laquelle les corps de départ (réactifs) disparaissent pour former de nouveaux corps (produits).\n- **Réactifs** : corps de départ qui sont consommés.\n- **Produits** : nouveaux corps formés.\n- **Équation chimique littérale** : écriture symbolique d'une réaction chimique utilisant les noms des réactifs et des produits.\n\n### Combustion du charbon de bois\n\nLe charbon de bois est essentiellement constitué de carbone. Sa combustion dans le gaz oxygène produit du dioxyde de carbone (gaz carbonique).\n\n**Équation chimique littérale :**\nCarbone + gaz oxygène → dioxyde de carbone\n\n### Combustion de l'alcool\n\nL'alcool s'enflamme avec une flamme bleue. Sa combustion dans le gaz oxygène produit de l'eau et du dioxyde de carbone.\n\n**Équation chimique littérale :**\nAlcool + gaz oxygène → dioxyde de carbone + eau\n\n### Identification des produits\n\n- Le **dioxyde de carbone** est identifié par l'eau de chaux qui devient trouble.\n- L'**eau** est identifiée par le sulfate de cuivre anhydre qui bleuit.\n\n## 2. Applications & Méthodes\n\n### Comment écrire une équation chimique littérale ?\n\n1. Identifier les réactifs (combustible + comburant).\n2. Identifier les produits formés.\n3. Écrire : Réactifs → Produits.\n\n**Exemple :**\nCarbone + gaz oxygène → dioxyde de carbone\n\n### Différence entre réaction chimique et transformation physique\n\n- **Réaction chimique** : les corps de départ disparaissent et de nouveaux corps apparaissent. Exemple : combustion du carbone.\n- **Transformation physique** : le corps de départ change d'état physique mais reste le même corps. Exemple : solidification de l'eau (liquide → solide).\n\n### Rôle de l'éventail\n\nL'éventail apporte davantage de gaz oxygène (comburant) pour activer la combustion.\n\n## 3. Pièges fréquents\n\n- **Confondre combustible et comburant** : le combustible brûle, le comburant permet la combustion.\n- **Oublier un produit** : la combustion de l'alcool produit deux corps : dioxyde de carbone et eau.\n- **Confondre transformation chimique et physique** : la solidification de l'eau est physique, la combustion est chimique.\n- **Croire que tous les gaz troublent l'eau de chaux** : seul le dioxyde de carbone trouble l'eau de chaux.\n- **Écrire une équation sans flèche** : l'équation doit indiquer le sens de la transformation (→).\n\n## Synthèse\n\n- La combustion du charbon de bois (carbone) dans l'oxygène produit du dioxyde de carbone.\n- La combustion de l'alcool dans l'oxygène produit du dioxyde de carbone et de l'eau.\n- Une réaction chimique transforme des réactifs en produits.\n- Le dioxyde de carbone trouble l'eau de chaux ; l'eau bleuit le sulfate de cuivre anhydre.\n- Le combustible brûle grâce au comburant (gaz oxygène).",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le constituant essentiel du charbon de bois ?",
+      "options": [
+        "Le carbone",
+        "L'oxygène",
+        "L'alcool",
+        "L'eau"
+      ],
+      "answer": 0,
+      "explanation": "Le charbon de bois est essentiellement constitué de carbone."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel gaz est produit lors de la combustion du charbon de bois dans l'oxygène ?",
+      "options": [
+        "Le dioxyde de carbone",
+        "Le gaz oxygène",
+        "La vapeur d'eau",
+        "L'azote"
+      ],
+      "answer": 0,
+      "explanation": "La combustion du charbon de bois produit du dioxyde de carbone (gaz carbonique)."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quels sont les produits de la combustion de l'alcool dans l'oxygène ?",
+      "options": [
+        "Dioxyde de carbone et eau",
+        "Carbone et eau",
+        "Oxygène et eau",
+        "Dioxyde de carbone seulement"
+      ],
+      "answer": 0,
+      "explanation": "La combustion de l'alcool produit du dioxyde de carbone et de l'eau."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "prompt": "Le sulfate de cuivre anhydre bleuit en présence d'______.",
+      "answer": "eau",
+      "explanation": "Le sulfate de cuivre anhydre permet de détecter l'eau : il bleuit en sa présence."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'une réaction chimique ?",
+      "options": [
+        "Une transformation où les réactifs disparaissent pour former des produits",
+        "Un changement d'état physique",
+        "Un mélange de corps",
+        "Une simple dissolution"
+      ],
+      "answer": 0,
+      "explanation": "Une réaction chimique est une transformation au cours de laquelle les corps de départ (réactifs) disparaissent pour former de nouveaux corps (produits)."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quels sont les réactifs de la combustion du carbone ?",
+      "options": [
+        "Carbone et gaz oxygène",
+        "Carbone et dioxyde de carbone",
+        "Gaz oxygène et eau",
+        "Alcool et gaz oxygène"
+      ],
+      "answer": 0,
+      "explanation": "Les réactifs de la combustion du carbone sont le carbone et le gaz oxygène."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'un combustible ?",
+      "options": [
+        "Un corps qui peut s'enflammer ou brûler",
+        "Un corps qui permet au combustible de brûler",
+        "Un produit de combustion",
+        "Un gaz qui trouble l'eau de chaux"
+      ],
+      "answer": 0,
+      "explanation": "Un combustible est un corps qui peut s'enflammer ou brûler."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est le comburant dans la combustion du charbon de bois ?",
+      "options": [
+        "Le gaz oxygène",
+        "Le carbone",
+        "Le dioxyde de carbone",
+        "L'eau"
+      ],
+      "answer": 0,
+      "explanation": "Le comburant est le corps qui permet au combustible de brûler : ici, c'est le gaz oxygène."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "L'équation chimique littérale de la combustion du carbone s'écrit : Carbone + gaz oxygène → ______.",
+      "answer": "dioxyde de carbone",
+      "explanation": "La combustion du carbone produit du dioxyde de carbone."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Pourquoi le charbon de bois s'éteint-il dans un bocal fermé ?",
+      "options": [
+        "Parce que le gaz oxygène a été totalement consommé",
+        "Parce que le dioxyde de carbone a disparu",
+        "Parce que l'eau de chaux a été ajoutée",
+        "Parce que le charbon a fondu"
+      ],
+      "answer": 0,
+      "explanation": "Le charbon s'éteint lorsque le gaz oxygène (comburant) est totalement consommé."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel est le rôle de l'éventail lorsqu'on attise un feu de charbon de bois ?",
+      "options": [
+        "Apporter davantage de gaz oxygène",
+        "Refroidir le feu",
+        "Éliminer le dioxyde de carbone",
+        "Ajouter de l'eau"
+      ],
+      "answer": 0,
+      "explanation": "L'éventail permet d'apporter davantage de gaz oxygène à la combustion."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "L'équation chimique littérale de la combustion de l'alcool s'écrit : Alcool + gaz oxygène → dioxyde de carbone + ______.",
+      "answer": "eau",
+      "explanation": "La combustion de l'alcool produit du dioxyde de carbone et de l'eau."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Comment identifie-t-on l'eau formée lors de la combustion de l'alcool ?",
+      "options": [
+        "En utilisant du sulfate de cuivre anhydre qui bleuit",
+        "En utilisant de l'eau de chaux qui se trouble",
+        "En utilisant du papier pH",
+        "En utilisant une flamme"
+      ],
+      "answer": 0,
+      "explanation": "L'eau est mise en évidence par le bleuissement du sulfate de cuivre anhydre."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Parmi ces propositions, laquelle est une transformation physique ?",
+      "options": [
+        "La solidification de l'eau",
+        "La combustion du charbon",
+        "La combustion de l'alcool",
+        "La formation de dioxyde de carbone"
+      ],
+      "answer": 0,
+      "explanation": "La solidification de l'eau est un changement d'état physique, pas une réaction chimique."
+    },
+    {
+      "id": "q19",
+      "type": "fill",
+      "prompt": "Dans une réaction chimique, les corps de départ sont appelés ______.",
+      "answer": "réactifs",
+      "explanation": "Les corps de départ sont les réactifs ; les nouveaux corps formés sont les produits."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Quel est le produit de la combustion du charbon de bois qui trouble l'eau de chaux ?",
+      "options": [
+        "Le dioxyde de carbone",
+        "Le gaz oxygène",
+        "La vapeur d'eau",
+        "Le carbone"
+      ],
+      "answer": 0,
+      "explanation": "Le dioxyde de carbone est le gaz qui trouble l'eau de chaux."
+    }
+  ]
+}

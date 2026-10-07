@@ -1,0 +1,70 @@
+{
+  "id": "francais-cinquieme-accords-participe-passe",
+  "title": "L'accord du participe passé avec être et avoir",
+  "summary": "Maîtrisez les règles d'accord du participe passé avec les auxiliaires être et avoir, un pilier de la grammaire française. Ce chapitre vous donne les clés pour éviter les fautes les plus courantes et réussir vos dictées et rédactions.",
+  "lesson": "## Introduction & Mise en situation\n\nAs-tu déjà hésité en écrivant : « Les fleurs que j'ai **cueillies** » ou « Les fleurs que j'ai **cueilli** » ? Ou encore : « Elles sont **parties** » ou « Elles sont **parti** » ? Ces hésitations sont normales ! L'accord du participe passé est l'une des règles les plus délicates de la grammaire française. Pourtant, en comprenant quelques principes simples, tu pourras éviter la plupart des pièges. Ce chapitre est crucial car il te permettra d'écrire sans fautes, que ce soit dans tes rédactions, tes dictées, ou plus tard dans ta vie professionnelle. Les examens comme le BEPC testent souvent ces accords.\n\n## 1. Définitions et Principes Fondamentaux\n\nLe **participe passé** est une forme du verbe qui sert à former les temps composés (passé composé, plus-que-parfait, etc.) avec les auxiliaires **être** ou **avoir**. Il peut aussi être utilisé comme adjectif.\n\n- **Auxiliaire être** : Le participe passé s'accorde en genre et en nombre avec le **sujet** du verbe.\n  - Exemple : *Elles sont **parties**.* (sujet *elles* est féminin pluriel → *parties*)\n- **Auxiliaire avoir** : Le participe passé ne s'accorde **jamais** avec le sujet. Il s'accorde avec le **complément d'objet direct (COD)** si celui-ci est placé **avant** le verbe.\n  - Exemple : *Les fleurs que j'ai **cueillies**.* (COD *que* = *fleurs* est placé avant → accord)\n  - Exemple : *J'ai **cueilli** des fleurs.* (COD *des fleurs* est placé après → pas d'accord)\n\n**Formules clés :**\n\n- Avec **être** : $\\text{participe passé} \\equiv \\text{sujet} \\; (\\text{genre, nombre})$\n- Avec **avoir** : $\\text{accord} \\iff \\text{COD avant} \\; (\\text{genre, nombre})$\n\n## 2. Propriétés et Méthodes d'application\n\n**Méthode pas-à-pas pour l'accord avec avoir :**\n\n1. Identifie l'auxiliaire (avoir).\n2. Cherche le COD en posant la question *« quoi ? »* ou *« qui ? »* après le verbe.\n3. Si le COD est placé **avant** le verbe (souvent un pronom relatif *que*, ou un pronom *le, la, les, l'*), alors accorde le participe passé avec ce COD.\n4. Sinon, pas d'accord.\n\n**Exemples concrets :**\n\n- *Les pommes que j'ai **mangées**.* → COD *que* (pommes) est avant → accord féminin pluriel.\n- *J'ai **mangé** des pommes.* → COD *des pommes* est après → pas d'accord.\n- *La lettre qu'il a **écrite**.* → COD *que* (lettre) avant → accord.\n- *Il a **écrit** une lettre.* → COD après → pas d'accord.\n\n**Cas particulier avec l'auxiliaire avoir et un COD pronominal :**\n\n- *Les livres, je les ai **lus**.* → COD *les* (livres) avant → accord masculin pluriel.\n- *La chanson, il l'a **chantée**.* → COD *l'* (chanson) avant → accord féminin singulier.\n\n**Avec l'auxiliaire être :**\n\n- *Elles sont **venues**.* → Sujet *elles* féminin pluriel → accord.\n- *Nous sommes **partis**.* → Sujet *nous* masculin pluriel (ou mixte) → accord.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Piège 1 : Confondre le COD et le sujet.** Avec *avoir*, on n'accorde jamais avec le sujet. Exemple : *Elles ont **mangé** des gâteaux.* (ne pas écrire *mangées*).\n- **Piège 2 : Oublier l'accord quand le COD est *que*.** Exemple : *Les histoires que tu m'as **racontées**.* (ne pas écrire *raconté*).\n- **Piège 3 : Les verbes pronominaux.** Ils se conjuguent avec *être*, mais l'accord se fait avec le COD si celui-ci est placé avant. Exemple : *Elles se sont **lavées**.* (COD *se* = elles, avant → accord). Mais *Elles se sont **lavé** les mains.* (COD *les mains* est après → pas d'accord).\n- **Piège 4 : Les participes passés suivis d'un infinitif.** Exemple : *La chanson que j'ai **entendu** chanter.* Ici, le COD *que* (chanson) est sujet de l'infinitif *chanter*, donc pas d'accord. Mais *La chanson que j'ai **entendue**.* (COD direct de *entendre* → accord).\n\n## Synthèse\n\n1. **Avec être** : accord avec le sujet.\n2. **Avec avoir** : accord avec le COD si celui-ci est placé avant, sinon pas d'accord.\n3. **Attention aux verbes pronominaux et aux participes suivis d'un infinitif** : applique la règle du COD.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "grammaire",
+    "participe passé",
+    "accord",
+    "auxiliaire",
+    "BEPC"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est l'accord correct du participe passé dans la phrase : « Elles sont _____ (partir) » ?",
+      "options": [
+        "parti",
+        "partie",
+        "partis",
+        "parties"
+      ],
+      "answer": 3,
+      "explanation": "Avec l'auxiliaire être, le participe passé s'accorde avec le sujet « elles » (féminin pluriel), donc « parties »."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Dans la phrase « Les fleurs que j'ai cueillies », le participe passé s'accorde avec le COD placé avant.",
+      "answer": true,
+      "explanation": "Le COD « que » (représentant « fleurs ») est placé avant le verbe, donc l'accord est obligatoire."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Complète : « Ils ont _____ (manger) des pommes. » (écris le participe passé correct)",
+      "answer": "mangé",
+      "explanation": "Avec l'auxiliaire avoir, le COD « des pommes » est placé après le verbe, donc pas d'accord : « mangé »."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Choisis la forme correcte : « Les lettres que j'ai _____ (écrire) ».",
+      "options": [
+        "écrit",
+        "écrite",
+        "écrits",
+        "écrites"
+      ],
+      "answer": 3,
+      "explanation": "Le COD « que » (lettres) est avant, donc accord au féminin pluriel : « écrites »."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Dans la phrase « Elle s'est lavée », le participe passé s'accorde avec le sujet.",
+      "answer": true,
+      "explanation": "Pour les verbes pronominaux, l'accord se fait avec le sujet si le COD est le pronom réfléchi (ici « se » = elle)."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Complète : « Nous sommes _____ (partir) » (sujet masculin pluriel).",
+      "answer": "partis",
+      "explanation": "Avec être, accord avec le sujet « nous » (masculin pluriel) → « partis »."
+    }
+  ]
+}

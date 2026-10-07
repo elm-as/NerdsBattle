@@ -1,0 +1,164 @@
+{
+  "id": "espagnol-quatrieme-l5-se-presenter-presenter-quelquun",
+  "subjectId": "espagnol",
+  "levelId": "quatrieme",
+  "slug": "l5-se-presenter-presenter-quelquun",
+  "title": "Presentations in Spanish: Se Presentar y Presentar a Otros",
+  "summary": "This lesson teaches 4th‑grade Spanish students how to introduce themselves and others using \"me llamo\", \"soy\", and \"se llama\". It covers key vocabulary (encantado, despedirse), grammar rules, sample dialogues, and practical activities. Students will practice speaking, listening, and writing through structured exercises and evaluation scenarios.",
+  "lesson": "# 1. Context\nLa clase de español en la escuela de Abidjan se centra en la presentación de personas. Los estudiantes practican saludos, presentaciones y despedidas.\n\n# 2. Vocabulary\n- **Me llamo** – I am called\n- **Soy** – I am\n- **Se llama** – He/She is called\n- **Encantado / Encantada** – Nice to meet you\n- **Despedirse** – To say goodbye\n\n# 3. Grammar\nUse **llamarse** for self‑introduction and **ser** for identity. Example: *Me llamo Sery.* *Es Fanta.*\n\n# 4. Sample Dialogue\nA: ¡Hola! B: ¡Hola! A: Yo soy Konan y ¿tú? B: Me llamo Traoré. Éste es Yavo. Ésta es Affia. A: Encantado. B: Encantado.\n\n# 5. Practice Activities\n- Complete dialogues\n- Match verbs to sentences\n- Role‑play introductions\n\n# 6. Evaluation\nStudents will present themselves and a classmate, use correct verbs, and respond appropriately to greetings and goodbyes.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "espagnol",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Which verb is used to introduce oneself in Spanish?",
+      "options": [
+        "llamarse",
+        "ser",
+        "estar",
+        "tener"
+      ],
+      "answer": 0,
+      "explanation": "The verb \"llamarse\" is used for self‑introduction: \"Me llamo…\"."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "How do you say \"Nice to meet you\" in Spanish?",
+      "options": [
+        "Adiós",
+        "Encantado",
+        "Gracias",
+        "Hola"
+      ],
+      "answer": 1,
+      "explanation": "\"Encantado\" (or \"Encantada\") is the expression for \"Nice to meet you.\""
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Which phrase introduces another person?",
+      "options": [
+        "Me llamo",
+        "Es",
+        "Se llama",
+        "Tengo"
+      ],
+      "answer": 2,
+      "explanation": "\"Se llama\" introduces someone: \"Se llama Yavo.\""
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "prompt": "Complete: Yo ___ Konan y ¿tú?",
+      "answer": "soy",
+      "explanation": "The correct form is \"soy\" for self‑identification."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "What is the correct way to say \"This is Yavo\"?",
+      "options": [
+        "Éste es Yavo",
+        "Éste se llama Yavo",
+        "Éste soy Yavo",
+        "Éste tengo Yavo"
+      ],
+      "answer": 0,
+      "explanation": "Use \"Éste es Yavo\" to identify a person."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Which verb is used to say goodbye?",
+      "options": [
+        "Despedirse",
+        "Saludar",
+        "Hablar",
+        "Comer"
+      ],
+      "answer": 0,
+      "explanation": "\"Despedirse\" means to say goodbye."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Complete: ___ se llama Yavo.",
+      "answer": "Éste",
+      "explanation": "Use \"Éste se llama Yavo\" to introduce Yavo."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "In the dialogue, who says \"Encantado\"?",
+      "options": [
+        "A",
+        "B",
+        "Both",
+        "Neither"
+      ],
+      "answer": 1,
+      "explanation": "B responds \"Encantado\" after being introduced."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Which phrase is NOT a correct introduction?",
+      "options": [
+        "Me llamo Traoré",
+        "Ésta es Affia",
+        "Yo soy Konan",
+        "Éste tengo Yavo"
+      ],
+      "answer": 3,
+      "explanation": "\"Éste tengo Yavo\" is incorrect; use \"Éste es Yavo\"."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Complete: ___ se llama Affia.",
+      "answer": "Ésta",
+      "explanation": "Use \"Ésta se llama Affia\" to introduce Affia."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "What is the gender agreement for \"Encantado\"?",
+      "options": [
+        "Encantado for male, Encantada for female",
+        "Encantado for female, Encantada for male",
+        "No gender agreement",
+        "Encantado for both"
+      ],
+      "answer": 0,
+      "explanation": "Use \"Encantado\" for males, \"Encantada\" for females."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Which sentence correctly uses \"se llama\"?",
+      "options": [
+        "Éste es Yavo",
+        "Éste se llama Yavo",
+        "Éste soy Yavo",
+        "Éste tengo Yavo"
+      ],
+      "answer": 1,
+      "explanation": "\"Éste se llama Yavo\" introduces Yavo."
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "prompt": "Complete: Yo ___ Konan y ¿tú?",
+      "answer": "soy",
+      "explanation": "The correct form is \"soy\"."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "francais-cinquieme-l1-grammaire-5eme-l1-s3-2",
+  "subjectId": "francais",
+  "levelId": "cinquieme",
+  "slug": "l1-grammaire-5eme-l1-s3-2",
+  "title": "5e Français : Le complément du nom",
+  "summary": "Cette leçon de grammaire pour la classe de 5e aborde le complément du nom, une expansion du groupe nominal qui précise le nom principal. Elle détaille les classes grammaticales possibles (GN, pronom, infinitif, adverbe), les constructions prépositionnelles ou sans préposition, les différentes valeurs sémantiques (lieu, matière, possesseur, etc.) et les règles d'accord. Des exercices pratiques permettent d'identifier et de compléter des compléments du nom dans des contextes variés.",
+  "lesson": "# Le Complément du Nom\n\n## 1. Définition\nLe complément du nom est une expansion du groupe nominal qui peut généralement être supprimée sans rendre la phrase agrammaticale. Il sert à préciser et à compléter le nom auquel il se rattache.\n\n*Exemple :* Le pagne **de ma mère**.\n\n## 2. Classes grammaticales du complément du nom\nLe complément du nom peut être constitué par :\n*   **Un groupe nominal (GN)** : *La bouillie **de maïs** est très délicieuse.*\n*   **Un pronom** : *Voici une statue en souvenir **de lui**.*\n*   **Un verbe à l’infinitif** : *J’ai une envie **de manger**.*\n*   **Un adverbe** : *Le grand vent **d’hier** a tout détruit.*\n\n## 3. Constructions du complément du nom\n\n### A. Avec une préposition\nC'est la construction la plus courante. Les prépositions utilisées sont : *de, en, à, pour, par, sans, avec*...\n*   *Un homme **sans** femme*\n*   *Une terre **à** riz*\n*   *Un sac **à** laine*\n\n> **Remarque importante :** Le sens du complément peut changer selon la préposition utilisée.\n> *   *Un sac **en** coton* (matière) ≠ *Un sac **de** coton* (contenu ou origine).\n\n### B. Sans préposition\nDans certains cas, le complément est directement accolé au nom.\n*   *Le rallye **Paris-Dakar***\n*   *Un vélo **tout-terrain***\n\n## 4. Valeurs du complément du nom\nLe complément du nom peut exprimer différentes relations avec le nom principal :\n*   **Le possesseur** : *La fille **de ma voisine***\n*   **La matière** : *Le pot **de terre***\n*   **Le lieu** : *Le départ **pour la campagne***\n*   **La cause** : *Condamnation **pour meurtre***\n*   **Autres valeurs** : *Les filles **des pays riches***, *Une caisse **d’oranges***.\n\n## 5. L’accord du complément du nom\nLe complément du nom peut être au singulier ou au pluriel, en fonction du sens et de la logique, et non pas nécessairement de l'accord avec le nom principal.\n*   **Au singulier** : *Une caisse **de beurre***, *un fruit **à noyau***.\n*   **Au pluriel** : *Une caisse **d’oranges***, *des fruits **à pépins***.\n\n## 6. Exercices d'application\n\n### Exercice 1 : Identification\nRelève les compléments du nom dans le texte suivant :\n*« C’est le jour **de la rentrée**, les enfants jouent **dans la cour** **de la recréation**. Le Directeur **de l’école** visite les salles **de classe**, accompagné **de quelques parents d’élèves** et **du chef du village**. »*\n\n### Exercice 2 : Complétion\nComplète les phrases par un complément du nom approprié :\n*   Un pot **de fleurs**\n*   Une bouteille **d’eau**\n*   Un pantalon **en jean**\n*   Le président **de la République**\n*   Un plat **de riz**",
+  "estimatedMinutes": 10,
+  "tags": [
+    "francais",
+    "cinquieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Qu'est-ce que le complément du nom ?",
+      "options": [
+        "Une expansion du groupe nominal qui précise le nom",
+        "Le sujet de la phrase",
+        "Le verbe conjugué",
+        "Un adverbe de lieu"
+      ],
+      "answer": 0,
+      "explanation": "Le complément du nom est une expansion qui précise et complète le nom auquel il se rattache."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Dans la phrase 'La bouillie de maïs', le complément du nom est 'de maïs'. Quelle est sa classe grammaticale ?",
+      "answer": "0",
+      "explanation": "'De maïs' est un groupe nominal introduit par la préposition 'de'."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans 'Voici une statue en souvenir de lui', quel est le complément du nom ?",
+      "options": [
+        "en souvenir",
+        "de lui",
+        "une statue",
+        "Voici"
+      ],
+      "answer": 1,
+      "explanation": "'De lui' complète le nom 'souvenir' (ou le groupe 'en souvenir') et est un pronom."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle préposition est utilisée dans 'Un homme sans femme' ?",
+      "options": [
+        "de",
+        "en",
+        "sans",
+        "à"
+      ],
+      "answer": 2,
+      "explanation": "La préposition utilisée est 'sans'."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Complète : 'Une terre ___ riz'.",
+      "answer": "1",
+      "explanation": "La construction correcte est 'une terre à riz'."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quelle est la différence de sens entre 'Un sac en coton' et 'Un sac de coton' ?",
+      "options": [
+        "Aucune différence",
+        "'En' indique la matière, 'de' peut indiquer le contenu ou l'origine",
+        "'De' indique la matière, 'en' indique le contenu",
+        "Les deux sont incorrects"
+      ],
+      "answer": 1,
+      "explanation": "Le sens varie selon la préposition : 'en' pour la matière, 'de' pour d'autres relations."
+    }
+  ]
+}

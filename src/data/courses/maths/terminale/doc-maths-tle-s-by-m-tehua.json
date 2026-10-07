@@ -1,0 +1,143 @@
+{
+  "id": "maths-terminale-doc-maths-tle-s-by-m-tehua",
+  "subjectId": "maths",
+  "levelId": "terminale",
+  "slug": "doc-maths-tle-s-by-m-tehua",
+  "title": "Manuel MENA CI – Mathématiques Terminale D",
+  "summary": "Ce manuel propose une approche pratique des mathématiques pour les élèves de Terminale D en Côte d’Ivoire. Il présente des conseils de résolution, des éléments de logique mathématique, des outils de base, des chapitres couvrant probabilités, statistiques, nombres complexes, limites, dérivées, intégrales, suites, courbes paramétrées et géométrie dans l’espace, ainsi qu’un répertoire de travaux. La structure vise à rendre la discipline accessible et motivante.",
+  "lesson": "# Introduction\n\nLe manuel **MENA CI** est conçu pour les élèves de Terminale D afin de rendre les mathématiques pratiques et motivantes. Il se compose de cinq parties :\n\n1. **Conception de l’apprentissage** – conseils pour résoudre un problème.\n2. **Logique mathématique** – éléments utiles pour comprendre les cours.\n3. **Outils de base** – inégalités, équations, trigonométrie, etc.\n4. **Cours détaillés** – chaque chapitre contient un rappel historique, des exercices variés, des outils et des corrigés.\n5. **Répertoire de travaux** – exemples de projets et d’activités.\n\n## Chapitres clés\n\n- **Probabilités** (p.13) : calculs de probabilités simples et conditionnelles.\n- **Statistiques à deux variables** (p.38) : corrélation, régression.\n- **Nombres complexes** (p.48) : forme algébrique et trigonométrique.\n- **Limites et continuité** (p.81) : définition, théorèmes.\n- **Calcul différentiel** (p.98) : dérivées, règles de dérivation.\n- **Fonctions logarithmes et exponentielles** (p.127) : propriétés et applications.\n- **Calcul intégral** (p.157) : primitives, intégrales définies.\n- **Suites numériques** (p.203) : convergence, suites arithmétiques et géométriques.\n- **Courbes paramétrées** (p.249) : dérivées et tangentes.\n- **Géométrie dans l’espace** (p.286) : vecteurs, plans, sphères.\n\n## Méthodologie\n\nChaque chapitre commence par un rappel historique, suivi d’un cours explicatif, d’exercices classés par difficulté, puis d’un corrigé détaillé. Les outils sont présentés sous forme de fiches pratiques.\n\n## Objectifs pédagogiques\n\n- Comprendre les concepts clés de chaque domaine.\n- Appliquer les outils de base pour résoudre des problèmes.\n- Développer une approche logique et structurée.\n- Encourager la recherche et la créativité à travers des travaux pratiques.\n\n---\n\n## Ressources supplémentaires\n\n- Site officiel : [http://apodeyao.e-monsite.com](http://apodeyao.e-monsite.com)\n- Contact : ngnamou@gmail.com, goyn11@yahoo.fr\n- Téléphone : 50 36 00 86 / 70 29 26 66 / 75 59 80 80 / 78 85 55 12",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Soit $f(x) = e^{2x}$. Quelle est la dérivée $f'(x)$ ?",
+      "options": [
+        "$2e^{2x}$",
+        "$e^{2x}$",
+        "$\\frac{1}{2}e^{2x}$",
+        "$2xe^{2x}$"
+      ],
+      "answer": 0,
+      "explanation": "La dérivée de $e^{u(x)}$ est $u'(x)e^{u(x)}$. Ici $u(x) = 2x$ donc $u'(x) = 2$."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle est la forme exponentielle du nombre complexe $z = 1 + i$ ?",
+      "options": [
+        "$\\sqrt{2} e^{i\\frac{\\pi}{4}}$",
+        "$2 e^{i\\frac{\\pi}{4}}$",
+        "$\\sqrt{2} e^{i\\frac{\\pi}{2}}$",
+        "$e^{i\\frac{\\pi}{4}}$"
+      ],
+      "answer": 0,
+      "explanation": "Le module est $|z| = \\sqrt{1^2 + 1^2} = \\sqrt{2}$ et l'argument principal est $\\frac{\\pi}{4}$."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle est la limite de référence $\\lim_{x \\to +\\infty} \\frac{\\ln(x)}{x}$ ?",
+      "options": [
+        "$0$",
+        "$1$",
+        "$+\\infty$",
+        "$-\\infty$"
+      ],
+      "answer": 0,
+      "explanation": "Par croissance comparée, la puissance $x$ l'emporte sur $\\ln(x)$ en $+\\infty$, donc la limite vaut 0."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Si $A$ et $B$ sont deux événements indépendants, quelle est l'expression de $P(A \\cap B)$ ?",
+      "options": [
+        "$P(A) \\times P(B)$",
+        "$P(A) + P(B)$",
+        "$P(A) / P(B)$",
+        "$P(A) - P(B)$"
+      ],
+      "answer": 0,
+      "explanation": "Par définition de l'indépendance de deux événements, $P(A \\cap B) = P(A) \\times P(B)$."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle est une primitive sur $\\mathbb{R}$ de la fonction $f(x) = 2x + 3$ ?",
+      "options": [
+        "$F(x) = x^2 + 3x$",
+        "$F(x) = 2x^2 + 3x$",
+        "$F(x) = x^2 + 3$",
+        "$F(x) = 2$"
+      ],
+      "answer": 0,
+      "explanation": "Une primitive de $2x$ est $x^2$ et une primitive de $3$ est $3x$."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel est le module du nombre complexe $z = 3 - 4i$ ?",
+      "options": [
+        "$5$",
+        "$\\sqrt{7}$",
+        "$7$",
+        "$25$"
+      ],
+      "answer": 0,
+      "explanation": "$|z| = \\sqrt{3^2 + (-4)^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Une suite $(u_n)$ définie par $u_{n+1} = u_n + 5$ avec $u_0 = 1$ est :",
+      "options": [
+        "Arithmétique de raison 5",
+        "Géométrique de raison 5",
+        "Constante",
+        "Convergente vers 0"
+      ],
+      "answer": 0,
+      "explanation": "La différence entre deux termes consécutifs est constante égale à 5, c'est donc une suite arithmétique de raison 5."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "La fonction $f(x) = \\ln(x)$ est strictement croissante sur $]0, +\\infty[$.",
+      "answer": true,
+      "explanation": "Sa dérivée $f'(x) = \\frac{1}{x} > 0$ sur $]0, +\\infty[$, elle est donc strictement croissante."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Soit $X \\sim \\mathcal{B}(n, p)$ une variable aléatoire binomiale. Son espérance $E(X)$ vaut :",
+      "options": [
+        "$np$",
+        "$np(1-p)$",
+        "$\\sqrt{np(1-p)}$",
+        "$n/p$"
+      ],
+      "answer": 0,
+      "explanation": "Pour une loi binomiale $\\mathcal{B}(n, p)$, l'espérance est $E(X) = np$ et la variance est $V(X) = np(1-p)$."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quelle est la valeur de l'intégrale $\\int_{0}^{1} 2x \\, dx$ ?",
+      "options": [
+        "$1$",
+        "$2$",
+        "$0$",
+        "$0.5$"
+      ],
+      "answer": 0,
+      "explanation": "Une primitive de $2x$ est $x^2$. $[x^2]_0^1 = 1^2 - 0^2 = 1$."
+    }
+  ]
+}

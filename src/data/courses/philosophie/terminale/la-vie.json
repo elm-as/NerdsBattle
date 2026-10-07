@@ -1,0 +1,167 @@
+{
+  "id": "philosophie-terminale-la-vie",
+  "subjectId": "philosophie",
+  "levelId": "terminale",
+  "slug": "la-vie",
+  "title": "La vie et les désirs : perspectives philosophiques et biologiques",
+  "summary": "Ce cours explore comment différents courants de pensée – évolution darwinienne, philosophie de Schopenhauer, Spinoza et Nietzsche – expliquent que les désirs humains (faim, amour, pouvoir) servent la survie de l’individu, de l’espèce ou l’expansion de la vie. On examine les arguments, leurs limites et les liens avec Kant et Freud.",
+  "lesson": "# La vie et les désirs\n## Introduction\nLe désir, entendu au sens large d’effort ou de tendance, apparaît chez tout être vivant. Le texte propose que tous les désirs visent, d’une façon ou d’une autre, la préservation ou l’expansion de la vie.\n## 1. Approche phylogénétique – Darwin\n- **Phylogénèse vs ontogenèse** : développement de l’espèce vs de l’individu.\n- Le désir est une caractéristique des êtres vivants.\n- Sélection naturelle : seules les pulsions qui favorisent la survie de l’espèce sont conservées (« survival of the fittest »).\n- Implication : les désirs fondamentaux (faim, sécurité) sont orientés vers la survie.\n## 2. Conséquences existentielles – Schopenhauer\n- L’amour est vu comme un mécanisme de reproduction favorisant la viabilité de la descendance.\n- « Illusion voluptueuse » : le plaisir immédiat n’est pas le critère ultime, mais la santé génétique du partenaire.\n- Les critères de beauté reflètent des indicateurs de santé.\n- L’individu amoureux devient « dupe de l’espèce ».\n## 3. Persévérance de l’être – Spinoza\n- Tout ce qui existe tend à persévérer dans son être.\n- La destruction provient d’une cause extérieure.\n- Cette loi s’applique à toute entité organisée, pas seulement aux organismes vivants.\n## 4. Volonté de puissance – Nietzsche\n- Au‑delà de la simple conservation, la vie cherche l’expansion, la puissance.\n- Le désir de se dépasser peut même contredire la conservation de soi.\n- La lutte pour la vie n’est qu’une situation de détresse temporaire.\n## Conclusion\nLes philosophes convergent sur l’idée que les désirs sont liés à la vie, mais divergent quant à la finalité : simple survie (Darwin, Spinoza), reproduction (Schopenhauer, Kant, Freud) ou expansion créatrice (Nietzsche). Cette pluralité invite à réfléchir sur la façon dont la culture et l’esprit peuvent « détourner » les désirs biologiques.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "philosophie",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Selon Darwin, quel mécanisme principal assure la transmission des désirs favorables à la survie?",
+      "options": [
+        "Mutation aléatoire",
+        "Sélection naturelle",
+        "Transmission culturelle",
+        "Imitation sociale"
+      ],
+      "answer": 1,
+      "explanation": "La sélection naturelle conserve les traits qui augmentent la survie et la reproduction."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Schopenhauer considère que le plaisir sexuel maximal guide le choix du partenaire.",
+      "answer": false,
+      "explanation": "Il affirme que le choix vise la viabilité génétique, pas le plaisir immédiat."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Spinoza affirme que toute chose tend à persévérer dans son _____.",
+      "answer": "être",
+      "explanation": "C’est la formulation centrale de son éthique."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel philosophe associe le désir à une volonté d'expansion plutôt qu'à la simple conservation?",
+      "options": [
+        "Darwin",
+        "Schopenhauer",
+        "Spinoza",
+        "Nietzsche"
+      ],
+      "answer": 3,
+      "explanation": "Nietzsche développe la notion de volonté de puissance."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Kant place l'instinct sexuel après l'instinct de nutrition dans la hiérarchie des besoins biologiques.",
+      "answer": true,
+      "explanation": "Kant voit le sexe comme essentiel à la conservation de l'espèce."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Dans le texte, quels deux désirs fondamentaux sont distingués?",
+      "options": [
+        "Faim et pouvoir",
+        "Amour et curiosité",
+        "Faim et amour",
+        "Sécurité et prestige"
+      ],
+      "answer": 2,
+      "explanation": "Le texte regroupe les désirs de survie (faim) et les désirs tournés vers autrui (amour)."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Selon Freud, les pulsions de « faim » assurent la cohésion de l'_____ du monde.",
+      "answer": "individu",
+      "explanation": "Freud lie la faim à la conservation de l'individu."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "La théorie darwinienne implique que les désirs humains sont entièrement déterminés biologiquement, sans influence culturelle.",
+      "answer": false,
+      "explanation": "Le texte mentionne la sublimation culturelle qui peut détourner les désirs."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel critère de beauté est, d’après les scientifiques cités, le plus souvent recherché?",
+      "options": [
+        "Symétrie faciale",
+        "Couleur des yeux",
+        "Taille du corps",
+        "Voix mélodieuse"
+      ],
+      "answer": 0,
+      "explanation": "La symétrie est un indicateur de santé génétique."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Nietzsche décrit la volonté de puissance comme une forme de _____.",
+      "answer": "expansion",
+      "explanation": "C’est le cœur de sa critique de la simple conservation."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Spinoza considère que la mort peut être interne, résultant d’une faiblesse intrinsèque de l’être.",
+      "answer": false,
+      "explanation": "Il affirme que la destruction vient d’une cause extérieure."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel philosophe a introduit la notion de « pulsions narcissiques et pulsions d’objet »?",
+      "options": [
+        "Kant",
+        "Freud",
+        "Schopenhauer",
+        "Nietzsche"
+      ],
+      "answer": 1,
+      "explanation": "Freud distingue ces deux types de pulsions."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Le terme latin « survival of the fittest » se traduit en français par « survie du _____.\"",
+      "answer": "plus apte",
+      "explanation": "Traduction courante du concept darwinien."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Selon le texte, la lutte pour la vie serait toujours la motivation première de tous les désirs humains.",
+      "answer": false,
+      "explanation": "Nietzsche montre que d’autres motivations, comme la volonté de puissance, existent."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel auteur du texte souligne que les désirs peuvent être « détournés » par l’esprit et la culture?",
+      "options": [
+        "Darwin",
+        "Spinoza",
+        "Freud",
+        "Nietzsche"
+      ],
+      "answer": 2,
+      "explanation": "Freud parle de sublimation comme détournement des désirs biologiques."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Le texte mentionne que la « volonté de puissance » peut parfois sacrifier la _____.",
+      "answer": "conservation de soi",
+      "explanation": "Nietzsche indique que l’expansion peut aller à l’encontre de la survie individuelle."
+    }
+  ]
+}

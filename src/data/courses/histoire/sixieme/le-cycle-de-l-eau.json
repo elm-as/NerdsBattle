@@ -1,0 +1,173 @@
+{
+  "id": "histoire-sixieme-le-cycle-de-l-eau",
+  "subjectId": "histoire",
+  "levelId": "sixieme",
+  "slug": "le-cycle-de-l-eau",
+  "title": "Le cycle de l'eau et les formes d'eau en Côte d'Ivoire",
+  "summary": "Cette leçon de 2 h pour les élèves de 6e décrit les états de l'eau (solide, liquide, gazeux), les types d'eau à la surface terrestre (continentale et océanique) et explique le cycle hydrologique ainsi que des gestes simples de préservation. Elle s'inscrit dans le thème « L'homme et son milieu local » du programme MENA Côte d'Ivoire.",
+  "lesson": "# Leçon 2 – Le cycle de l'eau\n\n## Introduction\nLa Terre est appelée « planète bleue » parce que 70 % de sa surface est couverte d’eau. L’eau est indispensable à la vie, mais l’eau potable reste rare et source de conflits.\n\n## Objectifs\n- Identifier les différents états de l’eau.\n- Décrire et schématiser le cycle de l’eau.\n- Connaître les types d’eau à la surface de la Terre.\n- Proposer des actions de gestion rationnelle et de sensibilisation.\n\n## I – Les différentes formes d’eau\n### 1. États de l’eau\n- **Solide** : glaciers, banquises, icebergs (≈ 2 % des eaux de surface).\n- **Liquide** : océans, mers, fleuves, rivières, nappes souterraines, lacs (≈ 98 %).\n- **Gazeux** : vapeur d’eau dans l’atmosphère (≈ 0,001 %).\n\n### 2. Types d’eau à la surface\n- **Eaux continentales** : \n  - *Eaux courantes* : fleuves, rivières, ruisseaux, torrents.\n  - *Eaux stagnantes* : lacs, marais, étangs, mares.\n  - *Eaux souterraines* : nappes d’infiltration.\n- **Eaux océaniques** : océans et mers.\n\n## II – Le cycle de l’eau\n1. **Évaporation** – L’eau des surfaces continentales et marines s’évapore sous l’effet du rayonnement solaire.\n2. **Transpiration** – Les êtres vivants libèrent de la vapeur d’eau.\n3. **Condensation** – La vapeur se refroidit et forme des nuages.\n4. **Précipitations** – Les nuages libèrent de l’eau sous forme de pluie, neige, grêle.\n5. **Infiltration & ruissellement** – Une partie s’infiltre dans le sol (alimentation des nappes), l’autre rejoint les cours d’eau.\n6. **Retour aux océans** – L’eau des rivières retourne aux océans, le cycle recommence.\n\n## III – Actions de préservation de l’eau\n- Réparer les robinets qui fuient.\n- Fermer le robinet pendant le brossage des dents ou la douche.\n- Collecter l’eau de pluie pour la lessive ou le lavage des voitures.\n- Sensibiliser la communauté à travers des affiches et des campagnes locales.\n\n## Conclusion\nL’eau est un bien précieux. Sa gestion rationnelle et la sensibilisation sont essentielles pour garantir son accès aux générations futures.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "histoire",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel pourcentage approximatif des eaux de surface est constitué d’eau liquide ?",
+      "options": [
+        "2 %",
+        "98 %",
+        "0,001 %",
+        "50 %"
+      ],
+      "answer": 1,
+      "explanation": "L’eau liquide représente environ 98 % des eaux de surface."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Parmi les états de l’eau, lequel est le moins présent à la surface de la Terre ?",
+      "options": [
+        "Solide",
+        "Liquide",
+        "Gazeux",
+        "Tous sont égaux"
+      ],
+      "answer": 2,
+      "explanation": "La vapeur d’eau (état gazeux) ne représente que 0,001 %."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Les glaciers et les icebergs font partie des eaux continentales.",
+      "answer": false,
+      "explanation": "Ce sont des eaux de type solide, mais elles sont classées parmi les eaux de surface, pas spécifiquement continentales."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Complétez : L'évaporation est provoquée principalement par le __________ solaire.",
+      "answer": "rayonnement",
+      "explanation": "Le rayonnement solaire fournit l’énergie nécessaire à l’évaporation."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle étape du cycle de l’eau suit immédiatement la condensation ?",
+      "options": [
+        "Évaporation",
+        "Précipitation",
+        "Infiltration",
+        "Transpiration"
+      ],
+      "answer": 1,
+      "explanation": "Après la condensation, l’eau retombe sous forme de précipitations."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "L’eau souterraine fait partie des eaux continentales.",
+      "answer": true,
+      "explanation": "Les eaux d’infiltration ou souterraines sont classées comme eaux continentales."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel geste contribue à la réduction du gaspillage d’eau domestique ?",
+      "options": [
+        "Laisser le robinet ouvert pendant le brossage des dents",
+        "Réparer les fuites de robinets",
+        "Utiliser le lave‑vaisselle à pleine charge uniquement",
+        "Toutes les réponses précédentes"
+      ],
+      "answer": 3,
+      "explanation": "Toutes ces actions permettent d’économiser l’eau."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Les nuages se forment grâce à la __________ de la vapeur d’eau.",
+      "answer": "condensation",
+      "explanation": "La condensation transforme la vapeur en gouttelettes qui forment les nuages."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Les précipitations qui retombent sur les montagnes ne peuvent jamais rejoindre les océans.",
+      "answer": false,
+      "explanation": "L’eau des précipitations s’infiltre, alimente les rivières et finit par rejoindre les océans."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Parmi les éléments suivants, lequel n’est pas une forme d’eau continentale ?",
+      "options": [
+        "Lac",
+        "Océan",
+        "Rivière",
+        "Marais"
+      ],
+      "answer": 1,
+      "explanation": "L’océan fait partie des eaux océaniques, pas continentales."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Le processus par lequel les plantes libèrent de l’eau dans l’atmosphère s’appelle la __________.",
+      "answer": "transpiration",
+      "explanation": "La transpiration est l’émission de vapeur d’eau par les végétaux."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Le cycle de l’eau est un processus fermé sans perte d’eau sur Terre.",
+      "answer": true,
+      "explanation": "Dans le cycle global, l’eau se recycle continuellement sans perte nette."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel pourcentage des eaux de surface est constitué d’eau solide (glaciers, icebergs) ?",
+      "options": [
+        "2 %",
+        "5 %",
+        "10 %",
+        "20 %"
+      ],
+      "answer": 0,
+      "explanation": "Les eaux solides représentent environ 2 % des eaux de surface."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Collecter l’eau de pluie pour la lessive est une action de __________ de l’eau.",
+      "answer": "préservation",
+      "explanation": "Cette pratique vise à préserver les ressources en eau."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "L’évaporation ne se produit que sur les surfaces d’eau liquide.",
+      "answer": false,
+      "explanation": "L’évaporation peut aussi se produire sur les surfaces humides, les plantes (transpiration) et même le sol."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel terme décrit le retour de l’eau des rivières aux océans ?",
+      "options": [
+        "Infiltration",
+        "Ruissellement",
+        "Déversement",
+        "Recyclage"
+      ],
+      "answer": 2,
+      "explanation": "Le ruissellement transporte l’eau des cours d’eau vers les océans."
+    }
+  ]
+}

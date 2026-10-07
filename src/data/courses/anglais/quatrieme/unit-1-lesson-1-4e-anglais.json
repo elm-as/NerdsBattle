@@ -1,0 +1,167 @@
+{
+  "id": "anglais-quatrieme-unit-1-lesson-1-4e-anglais",
+  "subjectId": "anglais",
+  "levelId": "quatrieme",
+  "slug": "unit-1-lesson-1-4e-anglais",
+  "title": "English Past Holiday Activities – 4ème (MENA CI)",
+  "summary": "Lesson for 4ème students teaching the simple past to describe where they spent holidays and what they did, using vocabulary such as \"went fishing\", \"helped my father\" and structures like \"I spent my holidays in…\". Includes practice, communication activity and homework.",
+  "lesson": "## Learning Context\nAfter the school holidays, the pupil’s father sends him to Ghana. New friends ask about the holidays.\n\n## Vocabulary\n- **to spend holidays** – to have a vacation\n- **holiday time** – opposite of school time\n- **countryside** – rural area\n- **to go hunting** – chase animals\n- **to go fishing** – catch fish\n- **to do a holiday job** – small work during vacation\n- **to play a tournament** – take part in a competition\n- **to help parents** – assist at home or plantation\n- **to learn English** – study English lessons\n- **to meet new friends** – make new acquaintances\n- **to sell things** – exchange goods for money\n- **to buy things** – purchase goods\n\n## Language Functions\n- **WH‑questions in the simple past**\n  - *Where did you spend your holidays?* → *I spent my holidays in Abidjan.*\n  - *What did you do during the holidays?* → *During the holidays, I went fishing in the lagoon.*\n- **Answer patterns**\n  - *During the holidays, we played a football tournament.*\n  - *During the holidays, I helped my father in the cocoa plantation.*\n  - *During the holidays, I danced for an artist.*\n\n## Grammar\n- Simple past affirmative: **subject + did + base verb** (question) / **subject + verb‑ed** (regular) / irregular forms.\n- Negative: **subject + did not (didn’t) + base verb**.\n- Question formation: **Wh‑word + did + subject + base verb?**\n\n## Practice Activities\n### Activity 1 – Fill the gaps with the correct past‑tense form\n1. I ……… my last holidays with my parents in the countryside. *(to spend)*\n2. During the holidays last year, we ……… many things. *(to do)*\n3. I ……… a card game with my friends yesterday. *(to play)*\n\n### Activity 2 – Oral production\n- Students answer the two WH‑questions in front of the class.\n\n### Activity 3 – Put the verbs in brackets into the simple past\n1. Last week, I ……… for an artist in a big ceremony. *(to dance)*\n2. My friends and I ……… hunting rats during the last holidays. *(to go)*\n3. I ……… a wonderful vacation in 2018. *(to have)*\n4. I ……… pleased to spend my holidays in the countryside last year. *(to be)*\n\n## Communication Activity\nStudents must:\n1. State where they spent their holidays.\n2. Mention the people they met.\n3. List at least two activities they did.\n\n## Homework – Irregular verbs\nComplete a worksheet with irregular verb forms used in the lesson.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "anglais",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "fill",
+      "prompt": "I ______ (to spend) my last holidays in the countryside with my parents.",
+      "answer": "spent",
+      "explanation": "The simple past of \"to spend\" is \"spent\"."
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "prompt": "During the holidays, we ______ (to do) many activities.",
+      "answer": "did",
+      "explanation": "The simple past of \"to do\" is \"did\"."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "I ______ (to play) cards with my friends yesterday.",
+      "answer": "played",
+      "explanation": "Regular verb adds -ed: \"play\" → \"played\"."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Which sentence is correct in the simple past?",
+      "options": [
+        "I go fishing yesterday.",
+        "I went fishing yesterday.",
+        "I gone fishing yesterday.",
+        "I fishing went yesterday."
+      ],
+      "answer": 1,
+      "explanation": "\"Went\" is the past form of \"go\"."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Choose the right answer: \"During the holidays, I ______ my father in the cocoa plantation.\"",
+      "options": [
+        "help",
+        "helped",
+        "helps",
+        "helping"
+      ],
+      "answer": 1,
+      "explanation": "Past simple of \"help\" is \"helped\"."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "The sentence \"During the holidays, we played a football tournament\" is in the simple past tense.",
+      "answer": true,
+      "explanation": "\"Played\" is the past form of \"play\"."
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "\"I am happy to spend my holidays\" uses the simple past tense.",
+      "answer": false,
+      "explanation": "It uses the present simple (am)."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Which question uses the correct past‑simple structure?",
+      "options": [
+        "Where did you spend your holidays?",
+        "Where you did spend your holidays?",
+        "Where you spent your holidays?",
+        "Where did you spends your holidays?"
+      ],
+      "answer": 0,
+      "explanation": "WH‑question format: \"Did + subject + base verb?\""
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Last week, I ______ (to dance) for an artist in a big ceremony.",
+      "answer": "danced",
+      "explanation": "Regular verb, add -ed."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "My friends and I ______ (to go) hunting rats during the last holidays.",
+      "answer": "went",
+      "explanation": "Irregular verb: go → went."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Select the sentence that correctly uses a negative past‑simple form.",
+      "options": [
+        "I didn't went to the market.",
+        "I didn't go to the market.",
+        "I didn't went to the market yesterday.",
+        "I didn't go to market."
+      ],
+      "answer": 1,
+      "explanation": "Negative uses base verb after did not: \"didn't go\"."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "\"During the holidays, I bought new books for 4è\" is an example of a past‑simple sentence.",
+      "answer": true,
+      "explanation": "\"Bought\" is the past of \"buy\"."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Which verb is irregular in the past tense?",
+      "options": [
+        "to help",
+        "to play",
+        "to have",
+        "to learn"
+      ],
+      "answer": 2,
+      "explanation": "\"Have\" becomes \"had\" in the past."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "I ______ (to be) pleased to spend my holidays in the countryside last year.",
+      "answer": "was",
+      "explanation": "Past of \"be\" for first person singular is \"was\"."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Which of the following is NOT a holiday activity mentioned in the lesson?",
+      "options": [
+        "to go fishing",
+        "to sell things",
+        "to write a novel",
+        "to meet new friends"
+      ],
+      "answer": 2,
+      "explanation": "Writing a novel is not listed among the activities."
+    },
+    {
+      "id": "q16",
+      "type": "truefalse",
+      "prompt": "The phrase \"During the holidays, I met new friends\" uses the correct past‑simple form of \"meet\".",
+      "answer": true,
+      "explanation": "\"Met\" is the past form of \"meet\"."
+    }
+  ]
+}

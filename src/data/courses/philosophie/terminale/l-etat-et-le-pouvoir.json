@@ -1,0 +1,70 @@
+{
+  "id": "philosophie-terminale-l-etat-et-le-pouvoir",
+  "title": "L'État, le Pouvoir et la Société",
+  "summary": "Comprendre l'État et le pouvoir, c'est saisir les règles du jeu de la vie collective. Ce chapitre vous donne les clés pour analyser la légitimité, la souveraineté et les formes de pouvoir, indispensables pour le BAC et pour devenir un citoyen éclairé.",
+  "lesson": "## Introduction & Mise en situation\n\nPourquoi l'État existe-t-il ? Pourquoi obéissons-nous à des lois ? Ce chapitre explore les fondements philosophiques de l'État, du pouvoir et de la société. Il vous permettra de comprendre les débats contemporains sur la démocratie, la justice et la liberté. Au BAC, ces notions sont souvent mobilisées dans les dissertations et les commentaires de texte. Maîtriser ce chapitre, c'est acquérir une culture politique solide.\n\n## 1. Définitions et Principes Fondamentaux\n\n### L'État\nL'État est une institution politique souveraine qui exerce une autorité sur une population et un territoire donnés. Il détient le monopole de la violence légitime (Max Weber). La souveraineté est le principe selon lequel l'État n'est soumis à aucune autre autorité que la sienne.\n\n### Le Pouvoir\nLe pouvoir est la capacité d'imposer sa volonté à autrui, même contre son gré. Le pouvoir politique est distinct du pouvoir social ou économique. Pour être légitime, le pouvoir doit être reconnu comme juste par les citoyens.\n\n### La Société\nLa société est un groupe d'individus partageant des règles, des valeurs et des institutions. Le contrat social, théorisé par Rousseau, fonde l'État sur la volonté générale.\n\n### Formules clés (en philosophie, on utilise des concepts plutôt que des formules mathématiques)\n- **Contrat social** : $C = \\sum_{i=1}^{n} w_i$ où $w_i$ représente la volonté de chaque individu, et $C$ la volonté générale.\n- **Légitimité** : $L = f(R, J)$ où $R$ est la reconnaissance populaire et $J$ la justice perçue.\n\n## 2. Propriétés et Méthodes d'application\n\n### Méthode pour analyser un pouvoir politique\n1. **Identifier la source du pouvoir** : qui détient l'autorité ? (un monarque, un parlement, le peuple)\n2. **Examiner la légitimité** : sur quels fondements repose-t-elle ? (tradition, charisme, légalité)\n3. **Évaluer les limites** : comment le pouvoir est-il contrôlé ? (séparation des pouvoirs, constitution)\n\n### Exemple concret\nPrenons la démocratie athénienne : le pouvoir appartient au peuple (démos), la légitimité repose sur la participation citoyenne, et les limites sont assurées par l'ecclésia et le tirage au sort.\n\n### Application au BAC\nDans une dissertation sur « L'État est-il nécessaire ? », vous pouvez structurer votre réflexion en trois parties : la justification de l'État (sécurité, justice), ses limites (liberté individuelle), et les alternatives possibles (anarchie, fédéralisme).\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre État et gouvernement** : l'État est l'institution permanente, le gouvernement est l'équipe au pouvoir.\n- **Penser que le pouvoir est toujours légitime** : la légitimité est une construction sociale, pas une évidence.\n- **Négliger le contexte historique** : chaque théorie de l'État répond à des problèmes de son époque.\n- **Oublier les citations** : au BAC, citez les auteurs (Hobbes, Locke, Rousseau) pour appuyer vos arguments.\n\n## Synthèse\n\n1. **L'État** est une institution souveraine qui détient le monopole de la violence légitime.\n2. **Le pouvoir** est légitime lorsqu'il est reconnu par les citoyens et limité par des règles.\n3. **La société** est fondée sur un contrat social qui organise la vie collective.\n\nRetenez ces trois points et vous aurez une base solide pour aborder les questions politiques au BAC.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "État",
+    "Pouvoir",
+    "Société",
+    "Philosophie politique",
+    "BAC"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Selon Max Weber, quelle est la caractéristique principale de l'État ?",
+      "options": [
+        "Le monopole de la violence légitime",
+        "La séparation des pouvoirs",
+        "L'élection des dirigeants",
+        "La protection des droits de l'homme"
+      ],
+      "answer": 0,
+      "explanation": "Weber définit l'État comme l'entité qui détient le monopole de la violence physique légitime sur un territoire donné."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le gouvernement est une institution permanente qui ne change pas.",
+      "answer": false,
+      "explanation": "Le gouvernement change au gré des élections, tandis que l'État est permanent."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le concept de contrat social est principalement associé à quel philosophe ? (Nom de famille)",
+      "answer": "Rousseau",
+      "explanation": "Jean-Jacques Rousseau a développé l'idée du contrat social dans 'Du contrat social'."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la différence entre le pouvoir et l'autorité ?",
+      "options": [
+        "Le pouvoir est légitime, l'autorité ne l'est pas",
+        "L'autorité est légitime, le pouvoir peut ne pas l'être",
+        "Ils sont identiques",
+        "L'autorité est plus forte que le pouvoir"
+      ],
+      "answer": 1,
+      "explanation": "L'autorité implique une reconnaissance légitime, alors que le pouvoir peut s'exercer sans légitimité."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La souveraineté signifie que l'État est soumis à des puissances étrangères.",
+      "answer": false,
+      "explanation": "La souveraineté est le principe selon lequel l'État n'est soumis à aucune autorité supérieure."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Dans la formule du contrat social $C = \\sum_{i=1}^{n} w_i$, que représente $w_i$ ? (Réponse en deux mots)",
+      "answer": "volonté individuelle",
+      "explanation": "Chaque $w_i$ représente la volonté d'un individu, et la somme constitue la volonté générale."
+    }
+  ]
+}

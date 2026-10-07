@@ -1,0 +1,181 @@
+{
+  "id": "info-sixieme-l7-tic-6eme-l7",
+  "subjectId": "info",
+  "levelId": "sixieme",
+  "slug": "l7-tic-6eme-l7",
+  "title": "Saisie et mise en forme de textes",
+  "summary": "Cette leçon explique comment saisir un texte dans un logiciel de traitement de textes et appliquer différentes mises en forme. Elle couvre la création de documents, la saisie, le formatage des caractères et des paragraphes, ainsi que l'enregistrement.",
+  "lesson": "# Saisie et mise en forme de textes\n\n## 1. Introduction\nLa saisie et la mise en forme de textes sont des compétences essentielles pour produire des documents clairs et professionnels. Dans cette leçon, nous allons apprendre à utiliser un logiciel de traitement de textes comme Microsoft Word pour saisir, mettre en forme et enregistrer un document.\n\n## 2. Situation d'apprentissage\nLe Collège Municipal de Tafiré organise une remise de prix aux meilleurs élèves. Le major de la classe de 6ème2 est choisi pour lire le discours de remerciement des lauréats. Pour rendre son discours présentable et agréable à lire, il décide avec ses camarades de classe de le saisir à l'aide d'un logiciel de traitement de textes.\n\n## 3. Saisie et mise en forme de textes\n\n### 3.1. Saisie du texte\n- Ouvrir le logiciel de traitement de textes (Microsoft Word).\n- Créer un nouveau document.\n- Saisir le texte à l'aide du clavier.\n\n### 3.2. Mise en forme des caractères\n- **Police** : choisir la police (ex. Times New Roman, Arial, Cambria).\n- **Taille** : définir la taille des caractères (ex. 15, 32, 42).\n- **Style** : mettre en gras, italique, souligné.\n- **Couleur** : appliquer une couleur au texte (rouge, bleu, vert, violet, gris).\n\n### 3.3. Mise en forme des paragraphes\n- **Alignement** : centrer, aligner à gauche, à droite ou justifier.\n- **Retraits** : ajouter des retraits.\n- **Espacement** : régler l'espacement entre les lignes et les paragraphes.\n\n### 3.4. Enregistrement\n- Enregistrer le document sous un nom spécifique (ex. « Exercice 6 », « CAN 2015 »).\n- Choisir l'emplacement de sauvegarde (ex. dossier « TP_MiseEnForme »).\n\n## 4. Astuces de mise en forme et mise en page\n- Utiliser les raccourcis clavier (Ctrl+G pour gras, Ctrl+I pour italique, Ctrl+U pour souligné).\n- Utiliser les styles prédéfinis pour uniformiser la mise en forme.\n- Vérifier l'orthographe et la grammaire.\n\n## 5. Exercices d'application\n\n### Exercice 1\n1. Démarrer Microsoft Word.\n2. Créer dans le dossier « TP_MiseEnForme » un nouveau document nommé « Exercice 3 ».\n3. Saisir le texte donné.\n4. Enregistrer le document sous le nom « CAN 2015 ».\n5. Quitter le document.\n\n### Exercice 2\n1. Ouvrir le document « CAN 2015 ».\n2. Appliquer les consignes :\n   - Titre en rouge, gras, police Arial, taille 32.\n   - Noms des joueurs évoluant dans le championnat anglais en gras italique.\n   - Centrer le texte.\n   - Nom du sélectionneur en gras, violet et souligné.\n\n### Exercice 3\n1. Ouvrir le document « CAN 2015 ».\n2. Aligner le texte à droite.\n3. Mettre le deuxième paragraphe en italique, police Cambria, taille 42.\n4. Écrire le mot « Anglais » en bleu, les noms des joueurs en vert brillant et Hervé Renard en gris.\n\n## 6. Conclusion\nLa maîtrise de la saisie et de la mise en forme de textes permet de produire des documents de qualité. Il est important de suivre les consignes de mise en forme pour répondre aux attentes.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "info",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le titre de la leçon 7 ?",
+      "options": [
+        "Saisie et mise en forme de textes",
+        "Traitement de textes",
+        "Microsoft Word",
+        "Mise en page"
+      ],
+      "answer": 0,
+      "explanation": "Le titre de la leçon est « Saisie et mise en forme de textes »."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le Collège Municipal de Tafiré organise une remise de prix aux meilleurs élèves.",
+      "answer": true,
+      "explanation": "C'est exact, d'après la situation d'apprentissage."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le major de la classe de 6ème2 est choisi pour lire le discours de remerciement des ________.",
+      "answer": "lauréats",
+      "explanation": "Le texte indique « des lauréats »."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel logiciel est utilisé pour saisir le discours ?",
+      "options": [
+        "Microsoft Word",
+        "Excel",
+        "PowerPoint",
+        "Paint"
+      ],
+      "answer": 0,
+      "explanation": "Il s'agit d'un logiciel de traitement de textes, comme Microsoft Word."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Dans l'exercice 1, le document doit être enregistré sous le nom « Exercice 3 ».",
+      "answer": false,
+      "explanation": "Le document doit être enregistré sous le nom « CAN 2015 »."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Dans l'exercice 2, le titre doit être écrit en ________.",
+      "answer": "rouge",
+      "explanation": "La consigne est : « Ecris le titre en rouge »."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quelle police et quelle taille doivent être utilisées pour le titre dans l'exercice 2 ?",
+      "options": [
+        "Arial, 32",
+        "Times New Roman, 15",
+        "Cambria, 42",
+        "Arial, 15"
+      ],
+      "answer": 0,
+      "explanation": "La consigne est : « Mets le titre en gras avec police Arial et la taille 32 »."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Dans l'exercice 2, les noms des joueurs évoluant dans le championnat anglais doivent être mis en gras italique.",
+      "answer": true,
+      "explanation": "C'est exact, selon la consigne."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Dans l'exercice 2, le nom du sélectionneur des éléphants doit être mis en gras, en ________ et souligné.",
+      "answer": "violet",
+      "explanation": "La consigne est : « Mets en gras, en violet et souligne le nom du sélectionneur des éléphants »."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Dans l'exercice 3, comment doit être aligné le texte ?",
+      "options": [
+        "À droite",
+        "À gauche",
+        "Centré",
+        "Justifié"
+      ],
+      "answer": 0,
+      "explanation": "La consigne est : « Aligne le texte saisi à droite »."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Dans l'exercice 3, le deuxième paragraphe doit être mis en italique avec la police Cambria et la taille 42.",
+      "answer": true,
+      "explanation": "C'est exact, selon la consigne."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Dans l'exercice 3, le mot « Anglais » doit être écrit en ________.",
+      "answer": "bleu",
+      "explanation": "La consigne est : « Ecris le mot ʺAnglaisʺ en bleu »."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel est le nom du dossier à créer sur le bureau pour les exercices ?",
+      "options": [
+        "TP_MiseEnForme",
+        "Exercices",
+        "TP_Word",
+        "MiseEnForme"
+      ],
+      "answer": 0,
+      "explanation": "Le document indique : « crée sur le bureau un dossier nommé « TP_MiseEnForme » »."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Dans l'exercice 1, le texte à saisir est un extrait du Nouveau Réveil.",
+      "answer": true,
+      "explanation": "Le texte est suivi de la mention « D.B in Le Nouveau Réveil du Mercredi 7 janvier 2015, p.12. »"
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Dans l'exercice 1, le document doit être enregistré sous le nom « ________ ».",
+      "answer": "CAN 2015",
+      "explanation": "La consigne est : « Enregistre le document sous le nom «CAN 2015» »."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel est le nom du sélectionneur des Éléphants mentionné dans le texte ?",
+      "options": [
+        "Hervé Renard",
+        "Kolo",
+        "Yaya",
+        "Bony"
+      ],
+      "answer": 0,
+      "explanation": "Le texte mentionne « Hervé Renard, le sélectionneur des Eléphants »."
+    },
+    {
+      "id": "q17",
+      "type": "truefalse",
+      "prompt": "Dans l'exercice 3, les noms des joueurs doivent être écrits en vert brillant.",
+      "answer": true,
+      "explanation": "La consigne est : « les noms des joueurs en vert brillant »."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "prompt": "Dans l'exercice 3, Hervé Renard doit être écrit en ________.",
+      "answer": "gris",
+      "explanation": "La consigne est : « Hervé Renard en gris »."
+    }
+  ]
+}

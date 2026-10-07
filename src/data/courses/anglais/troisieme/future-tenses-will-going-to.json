@@ -1,0 +1,70 @@
+{
+  "id": "anglais-troisieme-future-tenses-will-going-to",
+  "title": "Expressing the Future (Will, Be Going To)",
+  "summary": "Maîtrisez les deux temps du futur en anglais pour exprimer des prédictions, des décisions spontanées ou des intentions planifiées. Ce chapitre vous donne les clés pour choisir le bon temps et éviter les pièges classiques du BEPC.",
+  "lesson": "## Introduction & Mise en situation\n\nImagine que tu veux parler de tes projets pour les vacances, prédire la météo, ou prendre une décision soudaine. En anglais, il existe deux formes principales pour exprimer le futur : **will** et **be going to**. Bien les utiliser est essentiel pour communiquer clairement et obtenir une bonne note à l'examen.\n\n## 1. Définitions et Principes Fondamentaux\n\n### **Will** (futur simple)\n- **Forme affirmative** : $S + will + V_{base}$\n- **Forme négative** : $S + will + not + V_{base}$ (ou won't)\n- **Forme interrogative** : $Will + S + V_{base}$ ?\n\n**Usages principaux** :\n- **Prédictions** (souvent avec I think, probably, maybe) : *I think it will rain tomorrow.*\n- **Décisions spontanées** (prises au moment de parler) : *I'm thirsty. I will buy a drink.*\n- **Promesses, offres, menaces** : *I will help you.* / *I will never lie to you.*\n\n### **Be going to** (futur proche)\n- **Forme affirmative** : $S + am/is/are + going to + V_{base}$\n- **Forme négative** : $S + am/is/are + not + going to + V_{base}$\n- **Forme interrogative** : $Am/Is/Are + S + going to + V_{base}$ ?\n\n**Usages principaux** :\n- **Intentions ou projets** (décidés avant le moment de parler) : *I am going to visit my grandmother next week.*\n- **Prédictions basées sur des preuves** (on voit que quelque chose va se passer) : *Look at those black clouds! It is going to rain.*\n\n## 2. Propriétés et Méthodes d'application\n\nPour choisir entre **will** et **be going to**, suis ces étapes :\n\n1. **Identifie le contexte** : S'agit-il d'une décision prise au moment de parler ? → **will**. S'agit-il d'un projet déjà prévu ? → **be going to**.\n2. **Vérifie s'il y a des preuves visibles** : Si oui, utilise **be going to**.\n3. **Pour les prédictions générales** : utilise **will** (sauf s'il y a une preuve).\n\n**Exemples concrets** :\n- *I am going to study English tonight.* (projet déjà décidé)\n- *Wait, I will open the door for you.* (décision spontanée)\n- *She will probably pass her exam.* (prédiction sans preuve)\n- *The sky is dark. It is going to snow.* (preuve visible)\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Piège 1** : Utiliser **will** pour un projet déjà planifié. ❌ *I will visit Paris next month.* (si c'est déjà réservé, c'est faux) ✅ *I am going to visit Paris next month.*\n- **Piège 2** : Oublier que **be going to** se conjugue avec *am/is/are*. ❌ *She going to come.* ✅ *She is going to come.*\n- **Piège 3** : Utiliser **will** après *when, if, as soon as* dans les subordonnées de temps. ❌ *When I will arrive, I will call you.* ✅ *When I arrive, I will call you.* (présent simple)\n- **Piège 4** : Confondre la forme négative : **will not** (won't) et **be not going to** (am not/isn't/aren't going to).\n\n## Synthèse\n\n1. **Will** pour décisions spontanées, prédictions sans preuve, promesses.\n2. **Be going to** pour projets planifiés et prédictions avec preuves.\n3. Attention à la conjugaison de *be* et aux subordonnées de temps (présent simple).",
+  "estimatedMinutes": 12,
+  "tags": [
+    "future",
+    "will",
+    "going-to",
+    "grammar",
+    "BEPC"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence to express a spontaneous decision:",
+      "options": [
+        "I am going to help you.",
+        "I will help you.",
+        "I help you.",
+        "I am helping you."
+      ],
+      "answer": 1,
+      "explanation": "A spontaneous decision made at the moment of speaking uses 'will'."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "'Look at those clouds! It is going to rain.' is a prediction based on evidence.",
+      "answer": true,
+      "explanation": "Yes, the dark clouds are visible evidence, so 'be going to' is correct."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Complete the sentence: 'She has bought a ticket. She ______ (fly) to London tomorrow.' (use the correct form of 'be going to')",
+      "answer": "is going to fly",
+      "explanation": "The plan is already made, so we use 'be going to' with the correct form of 'be' (is)."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Which sentence is grammatically correct?",
+      "options": [
+        "I will call you when I will arrive.",
+        "I will call you when I arrive.",
+        "I am going to call you when I will arrive.",
+        "I call you when I arrive."
+      ],
+      "answer": 1,
+      "explanation": "In time clauses with 'when', we use the present simple, not 'will'."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "'I am going to buy a new phone tomorrow.' expresses a spontaneous decision.",
+      "answer": false,
+      "explanation": "It expresses a planned intention, not a spontaneous decision. Spontaneous decisions use 'will'."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Complete the sentence: 'I think it ______ (rain) later.' (use 'will' or 'be going to')",
+      "answer": "will rain",
+      "explanation": "A general prediction without evidence uses 'will'."
+    }
+  ]
+}

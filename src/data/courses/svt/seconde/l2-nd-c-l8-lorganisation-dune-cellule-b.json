@@ -1,0 +1,180 @@
+{
+  "id": "svt-seconde-l2-nd-c-l8-lorganisation-dune-cellule-b",
+  "subjectId": "svt",
+  "levelId": "seconde",
+  "slug": "l2-nd-c-l8-lorganisation-dune-cellule-b",
+  "title": "Organisation de la cellule animale et végétale – Leçon 8 (SVT 2nde C)",
+  "summary": "Cette leçon décrit l'organisation interne des cellules animales et végétales, leurs constituants communs et spécifiques, ainsi que l'équipement chromosomique humain (caryotype). Elle inclut une activité de classification des organites et une analyse du caryotype masculin et féminin.",
+  "lesson": "## Situation d’apprentissage\nLors d’une conférence du club scientifique, les élèves découvrent que la cellule est l’unité structurale de tout être vivant. Ils décident d’identifier les constituants d’une cellule animale et végétale, de les comparer et d’étudier leur équipement chromosomique.\n\n## Contenu du cours\n### Comment la cellule est‑elle organisée ?\nLa cellule est organisée par ses constituants et par son équipement chromosomique.\n\n### I – La cellule est‑elle organisée par ses constituants ?\n1. **Observation** : document montrant une cellule animale et une cellule végétale au microscope électronique.\n2. **Résultats** :\n   - **Constituants communs** : membrane plasmique, cytoplasme, nucléoplasme, nucléole, chromatine, enveloppe nucléaire, réticulum endoplasmique (granuleux et lisse), appareil de Golgi, mitochondries, vésicules, lysosomes, grains de sécrétion, gouttelettes lipidiques.\n   - **Spécifiques à la cellule animale** : centrioles (centrosomes).\n   - **Spécifiques à la cellule végétale** : chloroplastes, vacuole, membrane pectocellulosique.\n3. **Analyse** : les organites communs assurent les fonctions vitales de base, tandis que les organites spécifiques confèrent des fonctions particulières (motilité, photosynthèse, stockage d’eau, etc.).\n4. **Conclusion** : la cellule est effectivement organisée par ses constituants.\n\n#### Activité d’application\nClasser les organites suivants dans le tableau :\n- Membrane plasmique\n- Chloroplastes\n- Ribosomes\n- Réticulum endoplasmique\n- Mitochondries\n- Paroi pectocellulosique\n- Centrosome\n- Vacuoles\n\n**Corrigé**\n| Organite | Cellule animale | Cellule végétale |\n|---|---|---|\n| Membrane plasmique | X | X |\n| Ribosomes | X | X |\n| Réticulum endoplasmique | X | X |\n| Mitochondries | X | X |\n| Vacuole | X | X |\n| Centrosome | X | |\n| Chloroplastes | | X |\n| Paroi pectocellulosique | | X |\n\n### II – La cellule est‑elle organisée par son équipement chromosomique ?\n1. **Observation** : document montrant le caryotype humain (23 paires de chromosomes).\n2. **Résultats** :\n   - Figure a : caryotype femme (46 chromosomes, 22 paires d’autosomes + XX).\n   - Figure b : caryotype homme (46 chromosomes, 22 paires d’autosomes + XY).\n3. **Analyse** : le nombre de chromosomes est identique (46) ; les 22 premières paires sont autosomiques, la 23ᵉ paire est sexuelle (XX ou XY).\n4. **Interprétation** : les chromosomes homologues portent les mêmes gènes ; les hétérochromosomes déterminent le sexe.\n\n## Conclusion générale\nLa cellule animale et végétale partagent de nombreux organites qui assurent les fonctions essentielles. Leur différence réside dans des organites spécifiques qui confèrent des capacités particulières. Le caryotype humain montre que l’organisation chromosomique suit également un principe d’ordre et de paires, avec une paire sexuelle distincte selon le sexe.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "svt",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel organite est présent uniquement dans la cellule végétale ?",
+      "options": [
+        "Mitochondrie",
+        "Centrosome",
+        "Chloroplaste",
+        "Ribosome"
+      ],
+      "answer": 2,
+      "explanation": "Le chloroplaste est spécifique aux cellules végétales et permet la photosynthèse."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Le réticulum endoplasmique dépourvu de ribosomes est appelé :",
+      "options": [
+        "Réticulum granuleux",
+        "Réticulum lisse",
+        "Réticulum rugueux",
+        "Réticulum mitochondriale"
+      ],
+      "answer": 1,
+      "explanation": "Le réticulum endoplasmique lisse (REL) ne possède pas de ribosomes et participe à la synthèse de stérols et au métabolisme des lipides."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Les centrioles sont présents dans les cellules végétales.",
+      "answer": false,
+      "explanation": "Les centrioles (ou centrosomes) sont typiques des cellules animales."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Le nombre total de chromosomes chez l’homme est de ___ chromosomes.",
+      "answer": "46",
+      "explanation": "Chaque cellule humaine diploïde possède 46 chromosomes, soit 23 paires."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle paire de chromosomes détermine le sexe chez l’humain ?",
+      "options": [
+        "1ère paire",
+        "22ᵉ paire",
+        "23ᵉ paire",
+        "Toutes les paires"
+      ],
+      "answer": 2,
+      "explanation": "La 23ᵉ paire (XX ou XY) est la paire sexuelle."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Le noyau communique avec le cytoplasme via les pores nucléaires.",
+      "answer": true,
+      "explanation": "Les pores nucléaires permettent les échanges entre le nucléoplasme et le cytoplasme."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel organite stocke de l’eau et des substances dans la cellule végétale ?",
+      "options": [
+        "Lysosome",
+        "Vacuole",
+        "Centrosome",
+        "Peroxysome"
+      ],
+      "answer": 1,
+      "explanation": "La vacuole végétale est un grand compartiment de stockage d’eau et de nutriments."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Le site de la conversion énergétique dans la cellule est la ___ mitochondriale.",
+      "answer": "membrane interne",
+      "explanation": "La membrane interne mitochondriale contient les enzymes de la chaîne respiratoire."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Le réticulum endoplasmique granuleux contient des ribosomes attachés à sa surface.",
+      "answer": true,
+      "explanation": "Le RE granuleux (ou rugueux) possède des ribosomes qui synthétisent les protéines."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Parmi les organites suivants, lequel n’est pas considéré comme une vésicule membranaire ?",
+      "options": [
+        "Lysosome",
+        "Peroxysome",
+        "Mitochondrie",
+        "Granule de sécrétion"
+      ],
+      "answer": 2,
+      "explanation": "Le peroxysome est une organite contenant des enzymes oxydatives, pas une vésicule de transport."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Le terme « hétérochromosome » désigne les chromosomes sexuels, notés ___ chez l’homme.",
+      "answer": "XY",
+      "explanation": "Chez l’homme, les chromosomes sexuels sont XY, ce qui les rend hétérochromosomes."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Les chloroplastes possèdent leur propre ADN circulaire.",
+      "answer": true,
+      "explanation": "Les chloroplastes contiennent un ADN circulaire, hérité d’une origine endosymbiotique."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel organite est responsable de la synthèse des protéines ?",
+      "options": [
+        "Mitochondrie",
+        "Ribosome",
+        "Lysosome",
+        "Chloroplaste"
+      ],
+      "answer": 1,
+      "explanation": "Les ribosomes sont les sites de synthèse des protéines."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Le nombre de paires d’autosomes chez l’humain est de ___ paires.",
+      "answer": "22",
+      "explanation": "Il y a 22 paires d’autosomes, plus la paire sexuelle."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "La membrane pectocellulosique se trouve uniquement dans les cellules animales.",
+      "answer": false,
+      "explanation": "La membrane pectocellulosique (ou paroi pectocellulosique) est caractéristique des cellules végétales."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel organite est impliqué dans la dégradation des macromolécules inutiles ?",
+      "options": [
+        "Réticulum endoplasmique",
+        "Lysosome",
+        "Golgi",
+        "Vacuole"
+      ],
+      "answer": 1,
+      "explanation": "Les lysosomes contiennent des enzymes hydrolytiques qui dégradent les macromolécules."
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "prompt": "Le caryotype d’une femme se note ___ (paires de chromosomes sexuels).",
+      "answer": "XX",
+      "explanation": "Chez la femme, les chromosomes sexuels sont deux chromosomes X, notés XX."
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "id": "physique-terminale-auto-induction",
+  "subjectId": "physique",
+  "levelId": "terminale",
+  "slug": "auto-induction",
+  "title": "Auto‑induction en physique",
+  "summary": "Ce cours de 4 h présente l’auto‑induction : mise en évidence expérimentale, flux propre, inductance, force électromotrice et énergie magnétique d’une bobine. Il combine théorie, démonstrations et exercices pour maîtriser les lois de l’électromagnétisme appliquées à ce phénomène.",
+  "lesson": "# Auto‑induction\n\n## Objectif spécifique\nAppliquer les lois de l’électromagnétisme pour expliquer le phénomène d’auto‑induction.\n\n## Plan du cours\n1. **Mise en évidence expérimentale**\n   - Expérience 1 : retard d’allumage des lampes L1 et L2.\n   - Expérience 2 : observation de la tension et du courant sur un oscilloscope.\n2. **Flux propre et inductance**\n   - Définition du flux propre ϕp.\n   - Relation ϕp = L i et formule de l’inductance L = μ N²S/ℓ.\n3. **Force électromotrice d’auto‑induction**\n   - e = –L di/dt.\n4. **Énergie magnétique**\n   - Puissance : P = i²r + L i di/dt.\n   - Énergie : W = ½ L i².\n\n## Expériences\n- **Expérience 1** : L1 s’allume avec retard, démontrant la résistance de la bobine à l’établissement du courant.\n- **Expérience 2** : Sur l’oscilloscope, la tension UAM et le courant I montrent que le courant ne s’annule pas instantanément.\n\n## Formules clés\n- Flux propre : ϕp = μ N²S/ℓ · i.\n- Inductance : L = μ N²S/ℓ.\n- F.é.m. : e = –L di/dt.\n- Énergie : W = ½ L i².\n\n## Points importants\n- L’auto‑induction ne se manifeste qu’en régime variable.\n- La bobine oppose l’établissement et la rupture du courant.\n- L’énergie magnétique est stockée dans le champ magnétique de la bobine.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel phénomène se produit lorsqu’une bobine oppose l’établissement du courant dans son circuit?",
+      "options": [
+        "Auto‑induction",
+        "Auto‑conduction",
+        "Auto‑résistance",
+        "Auto‑capacité"
+      ],
+      "answer": 0,
+      "explanation": "La bobine crée une force électromotrice qui s’oppose à la variation du courant, phénomène appelé auto‑induction."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La bobine ne peut pas stocker d’énergie magnétique.",
+      "answer": false,
+      "explanation": "Une bobine stocke de l’énergie magnétique proportionnelle à ½ L i²."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "La formule de la force électromotrice d’auto‑induction est e = –L di/dt.",
+      "answer": "L",
+      "explanation": "La force électromotrice est proportionnelle à la dérivée du courant et à l’inductance."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans l’expérience 1, quel est le retard observé?",
+      "options": [
+        "Retard de L1 par rapport à L2",
+        "Retard de L2 par rapport à L1",
+        "Pas de retard",
+        "Retard aléatoire"
+      ],
+      "answer": 0,
+      "explanation": "L1 s’allume avec un léger retard par rapport à L2."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Le flux propre d’une bobine est proportionnel à la surface S de ses spires.",
+      "answer": true,
+      "explanation": "ϕp = μ N²S/ℓ · i, donc il dépend de S."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle constante apparaît dans la formule de l’inductance L = μ N²S/ℓ?",
+      "options": [
+        "Perméabilité du vide μ0",
+        "Perméabilité relative μr",
+        "Constante de Faraday",
+        "Constante de Coulomb"
+      ],
+      "answer": 0,
+      "explanation": "La formule utilise la perméabilité du vide μ0."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "L’énergie magnétique stockée dans une bobine est W = ½ L i².",
+      "answer": "½",
+      "explanation": "L’énergie est la moitié du produit inductance par courant au carré."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "La puissance électrique reçue par une bobine est toujours égale à la puissance dissipée par sa résistance interne.",
+      "answer": false,
+      "explanation": "La puissance totale se décompose en PJ = i²r et Pm = L i di/dt."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel instrument permet d’observer la tension et le courant dans l’expérience 2?",
+      "options": [
+        "Oscilloscope",
+        "Multimètre",
+        "Générateur de fréquence",
+        "Amplificateur"
+      ],
+      "answer": 0,
+      "explanation": "L’oscilloscope affiche la tension UAM et le courant I."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "La force électromotrice d’auto‑induction est toujours positive.",
+      "answer": false,
+      "explanation": "Elle est négative (e = –L di/dt) pour s’opposer à la variation du courant."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel est le rôle du noyau de fer dans une bobine?",
+      "options": [
+        "Augmenter l’inductance",
+        "Réduire la résistance",
+        "Améliorer la conductivité",
+        "Aucun rôle"
+      ],
+      "answer": 0,
+      "explanation": "Le noyau de fer augmente la perméabilité et donc l’inductance."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Dans la formule ϕp = μ N²S/ℓ · i, le terme ℓ représente la ___.",
+      "answer": "longueur",
+      "explanation": "ℓ est la longueur de la bobine."
+    },
+    {
+      "id": "q13",
+      "type": "truefalse",
+      "prompt": "Lorsque le générateur délivre une tension nulle, le courant dans la bobine s’annule instantanément.",
+      "answer": false,
+      "explanation": "Le courant diminue lentement, pas instantanément, en raison de l’auto‑induction."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel phénomène explique le fait que le courant ne soit jamais discontinu dans une bobine?",
+      "options": [
+        "Auto‑induction",
+        "Auto‑conduction",
+        "Auto‑résistance",
+        "Auto‑capacité"
+      ],
+      "answer": 0,
+      "explanation": "L’auto‑induction empêche les variations brusques du courant."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "La puissance électrique emmagasinée ou restituée par la bobine est donnée par Pm = L i di/dt.",
+      "answer": "L",
+      "explanation": "Pm est la partie de la puissance liée à l’inductance."
+    },
+    {
+      "id": "q16",
+      "type": "truefalse",
+      "prompt": "L’inductance d’une bobine est indépendante du nombre de spires N.",
+      "answer": false,
+      "explanation": "L’inductance est proportionnelle à N²."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quel est l’unité de l’inductance?",
+      "options": [
+        "Henry (H)",
+        "Volt (V)",
+        "Ampère (A)",
+        "Ohm (Ω)"
+      ],
+      "answer": 0,
+      "explanation": "L’inductance s’unit en Henry."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "prompt": "La formule de la puissance dissipée par la résistance interne est Pj = i²r.",
+      "answer": "i²",
+      "explanation": "La puissance dissipée par la résistance est le carré du courant multiplié par la résistance."
+    }
+  ]
+}

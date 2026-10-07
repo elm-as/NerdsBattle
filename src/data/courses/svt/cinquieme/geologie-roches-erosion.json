@@ -1,0 +1,70 @@
+{
+  "id": "svt-cinquieme-geologie-roches-erosion",
+  "title": "Érosion, transport et sédimentation des roches",
+  "summary": "Ce chapitre explique comment les roches se dégradent à la surface de la Terre sous l'action de l'eau, du vent et de la glace, puis comment ces débris sont transportés et déposés pour former de nouvelles roches. Comprendre ces processus est essentiel pour expliquer la formation des paysages et la dynamique de notre planète.",
+  "lesson": "## Introduction & Mise en situation\n\nAs-tu déjà observé des montagnes aux sommets pointus et des vallées profondes ? Ou remarqué que l'eau des rivières est parfois boueuse après une pluie ? Ces observations sont les témoins d'un phénomène géologique majeur : l'érosion. L'érosion, le transport et la sédimentation sont des processus naturels qui façonnent sans cesse la surface de la Terre. Ils sont responsables de la formation des plages, des deltas, des dunes de sable et même de certaines roches comme le grès ou le calcaire. En comprenant ces mécanismes, tu pourras expliquer pourquoi les paysages changent et comment se forment les roches sédimentaires, qui renferment souvent des fossiles, véritables archives de la vie passée.\n\n## 1. Définitions et Principes Fondamentaux\n\n### 1.1. L'érosion\n\n**Définition :** L'érosion est l'ensemble des processus qui dégradent (usent, désagrègent) les roches à la surface de la Terre. Elle peut être due à plusieurs agents : l'eau (pluie, rivières, vagues), le vent, la glace (glaciers), les variations de température et les êtres vivants.\n\n**Formule clé :** On peut quantifier l'érosion d'un sol par la perte de masse par unité de surface et par unité de temps :\n\n$$\\text{Taux d'érosion} = \\frac{\\text{masse de sol perdue (kg)}}{\\text{surface (m}^2\\text{)} \\times \\text{temps (année)}}$$\n\nExemple : si un champ perd 500 kg de sol sur une surface de 1000 m² en un an, le taux d'érosion est de $0.5 \\, \\text{kg/m}^2/\\text{an}$.\n\n### 1.2. Le transport\n\n**Définition :** C'est le déplacement des débris rocheux (appelés sédiments) par les agents d'érosion. L'eau transporte les sédiments par charriage (roulement au fond), par saltation (sauts) ou en suspension (particules fines). Le vent transporte les particules fines sur de longues distances, et les glaciers transportent des blocs de toutes tailles.\n\n**Capacité de transport :** Elle dépend de la vitesse du courant. Pour l'eau, la vitesse minimale nécessaire pour transporter des particules de diamètre $d$ (en mm) est approximativement :\n\n$$v_{\\text{min}} = 0.2 \\sqrt{d} \\quad (\\text{en m/s})$$\n\nExemple : pour transporter des graviers de 10 mm, il faut une vitesse d'au moins $0.2 \\sqrt{10} \\approx 0.63 \\, \\text{m/s}$.\n\n### 1.3. La sédimentation\n\n**Définition :** C'est le dépôt des sédiments lorsque l'agent de transport perd de l'énergie (baisse de vitesse). Les sédiments se déposent en couches horizontales appelées strates. La sédimentation se produit dans les mers, les lacs, les rivières, les deltas, etc.\n\n**Principe de superposition :** Dans une série de couches non déformées, les couches les plus anciennes sont en bas, les plus récentes en haut.\n\n## 2. Propriétés et Méthodes d'application\n\n### 2.1. Étapes de la formation d'une roche sédimentaire\n\n1. **Érosion** : une roche mère (granite, basalte, calcaire) est attaquée par les agents d'érosion.\n2. **Transport** : les débris sont transportés par l'eau, le vent ou la glace.\n3. **Dépôt** : les sédiments se déposent dans un bassin de sédimentation (mer, lac).\n4. **Diagenèse** : les sédiments sont compactés sous le poids des couches supérieures et cimentés par des minéraux précipités, formant une roche solide.\n\n### 2.2. Exemple concret : formation du grès\n\nPrenons un granite qui s'érode. Le quartz (minéral résistant) se transforme en grains de sable. Ces grains sont transportés par une rivière jusqu'à la mer. Ils se déposent sur le fond marin. Avec le temps, ils sont recouverts par d'autres sédiments et subissent la diagenèse : les grains de sable sont cimentés par de la silice ou du calcaire, formant ainsi du grès.\n\n### 2.3. Calcul de la vitesse de sédimentation\n\nLa vitesse de chute d'une particule dans l'eau est donnée par la loi de Stokes (pour des particules sphériques) :\n\n$$v = \\frac{2}{9} \\frac{(\\rho_p - \\rho_f) g r^2}{\\eta}$$\n\nOù :\n- $\\rho_p$ : masse volumique de la particule (kg/m³)\n- $\\rho_f$ : masse volumique du fluide (kg/m³)\n- $g$ : accélération de la pesanteur (9.81 m/s²)\n- $r$ : rayon de la particule (m)\n- $\\eta$ : viscosité dynamique de l'eau (Pa·s)\n\nExemple : une particule de quartz ($\\rho_p = 2650 \\, \\text{kg/m}^3$) de rayon $r = 0.0001 \\, \\text{m}$ (0.1 mm) dans l'eau ($\\rho_f = 1000 \\, \\text{kg/m}^3$, $\\eta = 0.001 \\, \\text{Pa·s}$) :\n\n$$v = \\frac{2}{9} \\frac{(2650 - 1000) \\times 9.81 \\times (0.0001)^2}{0.001} \\approx 0.036 \\, \\text{m/s} = 3.6 \\, \\text{cm/s}$$\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre érosion et altération** : l'altération est la décomposition chimique ou physique des roches sur place, tandis que l'érosion inclut le transport des débris.\n- **Croire que les roches sédimentaires se forment uniquement en milieu marin** : elles peuvent se former aussi dans les lacs, les déserts (dunes), les rivières (alluvions).\n- **Oublier que le vent ne transporte que des particules fines** : le vent ne peut pas transporter de gros galets, contrairement à l'eau ou la glace.\n- **Ne pas considérer l'action des êtres vivants** : les racines des plantes, les animaux fouisseurs et l'homme (déforestation) accélèrent l'érosion.\n- **Inverser le principe de superposition** : attention à l'ordre des couches dans les exercices.\n\n## Synthèse\n\n1. **L'érosion** dégrade les roches sous l'action de l'eau, du vent, de la glace et des êtres vivants.\n2. **Le transport** déplace les sédiments selon la vitesse et l'énergie de l'agent (eau, vent, glace).\n3. **La sédimentation** dépose les sédiments en couches qui, compactées et cimentées, forment les roches sédimentaires.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "géologie",
+    "érosion",
+    "sédimentation",
+    "roches",
+    "5ème"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est l'agent d'érosion le plus efficace pour transporter de gros blocs rocheux ?",
+      "options": [
+        "Le vent",
+        "L'eau courante",
+        "Les glaciers",
+        "La gravité seule"
+      ],
+      "answer": 2,
+      "explanation": "Les glaciers peuvent transporter d'énormes blocs, car ils se déplacent lentement mais avec une force énorme, contrairement au vent qui ne transporte que des particules fines."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La diagenèse est le processus qui transforme des sédiments en roche sédimentaire.",
+      "answer": true,
+      "explanation": "La diagenèse comprend la compaction et la cimentation des sédiments pour former une roche cohérente."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le principe de superposition indique que dans une série de couches sédimentaires non déformées, les couches les plus anciennes sont situées en ______.",
+      "answer": "bas",
+      "explanation": "Les couches inférieures se sont déposées en premier, donc elles sont plus anciennes."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la formule pour calculer la vitesse minimale de transport d'une particule de diamètre d par l'eau ?",
+      "options": [
+        "$v = 0.2 \\sqrt{d}$",
+        "$v = 0.5 d^2$",
+        "$v = 2 \\sqrt{d}$",
+        "$v = d \\times 0.2$"
+      ],
+      "answer": 0,
+      "explanation": "La formule est $v = 0.2 \\sqrt{d}$ où d est en mm et v en m/s."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Le vent peut transporter des graviers de 10 mm sur de longues distances.",
+      "answer": false,
+      "explanation": "Le vent ne peut transporter que des particules fines (sable, poussière) ; les graviers sont trop lourds."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Le taux d'érosion d'un sol est de 0.5 kg/m²/an. Si la surface est de 2000 m², quelle masse de sol est perdue en 2 ans ? (en kg)",
+      "answer": "2000",
+      "explanation": "Masse perdue = taux × surface × temps = 0.5 × 2000 × 2 = 2000 kg."
+    }
+  ]
+}

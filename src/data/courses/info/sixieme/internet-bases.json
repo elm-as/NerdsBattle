@@ -1,0 +1,13 @@
+{
+  "id": "info-sixieme-internet-bases",
+  "title": "Internet : les bases",
+  "summary": "Comment fonctionne le réseau qui relie le monde.",
+  "lesson": "Internet est un réseau mondial reliant des ordinateurs. Le Web (WWW) est un service d'Internet : pages reliées par des liens. Une URL identifie une page. Un navigateur (Chrome, Firefox) sert à les consulter. Un moteur de recherche (Google, DuckDuckGo) trouve des pages.",
+  "estimatedMinutes": 7,
+  "tags": ["réseau", "web"],
+  "questions": [
+    { "id": "q1", "type": "truefalse", "prompt": "Internet et le Web, c'est la même chose.", "answer": false, "explanation": "Le Web est un service d'Internet, pas Internet lui-même." },
+    { "id": "q2", "type": "mcq", "prompt": "Lequel n'est PAS un navigateur ?", "options": ["Chrome", "Firefox", "Google", "Safari"], "answer": 2, "explanation": "Google est un moteur de recherche." },
+    { "id": "q3", "type": "fill", "prompt": "L'adresse d'une page web s'appelle une ___.", "answer": "URL", "explanation": "Uniform Resource Locator." }
+  ]
+}

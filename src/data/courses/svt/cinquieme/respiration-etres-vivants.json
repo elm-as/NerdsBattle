@@ -1,0 +1,70 @@
+{
+  "id": "svt-cinquieme-respiration-etres-vivants",
+  "title": "La respiration dans différents milieux de vie",
+  "summary": "Ce chapitre t'explique comment les êtres vivants respirent dans l'air ou dans l'eau, et comment ils prélèvent le dioxygène nécessaire à leur vie. Tu découvriras les adaptations respiratoires des animaux et des plantes, et tu sauras interpréter des expériences simples pour comprendre les échanges gazeux.",
+  "lesson": "## Introduction & Mise en situation\n\nAs-tu déjà observé un poisson dans un aquarium ? Il ouvre et ferme ses ouïes sans arrêt. Et toi, quand tu cours, tu respires plus vite. Pourquoi ? Parce que tous les êtres vivants ont besoin de **dioxygène** (O₂) pour vivre. C'est ce qu'on appelle la **respiration**. Dans ce chapitre, nous allons découvrir comment les animaux et les plantes respirent dans leur milieu de vie : l'air ou l'eau. Nous verrons que selon le milieu, les organes respiratoires sont différents.\n\n## 1. Définitions et Principes Fondamentaux\n\n- **Respiration** : ensemble des mécanismes par lesquels un être vivant prélève du dioxygène (O₂) dans son milieu et rejette du dioxyde de carbone (CO₂).\n- **Dioxygène (O₂)** : gaz indispensable à la vie. Il est présent dans l'air (environ 21%) et dissous dans l'eau.\n- **Dioxyde de carbone (CO₂)** : gaz rejeté par la respiration.\n- **Organe respiratoire** : structure spécialisée permettant les échanges de gaz avec le milieu (ex : poumons, branchies, trachées, stomates).\n- **Milieu de vie** : l'air ou l'eau, où l'être vivant puise son dioxygène.\n\nLa respiration peut être schématisée par l'équation :\n\n$$ \\text{Glucose} + \\text{O}_2 \\rightarrow \\text{CO}_2 + \\text{H}_2\\text{O} + \\text{énergie} $$\n\nCette énergie est utilisée pour toutes les activités de l'organisme.\n\n## 2. Propriétés et Méthodes d'application\n\n### 2.1 Respiration dans l'air\n\n- **Les mammifères, les oiseaux, les reptiles** respirent grâce à des **poumons**. L'air entre par les narines, passe par la trachée, puis les bronches, et arrive dans les alvéoles pulmonaires où se font les échanges gazeux.\n- **Les insectes** respirent par des **trachées** : de petits tubes qui amènent l'air directement aux organes.\n- **Les plantes terrestres** respirent par des **stomates** situés sur les feuilles.\n\n**Exemple d'expérience** : Place des graines en germination dans un flacon fermé. Après quelques heures, introduis de l'eau de chaux. Elle se trouble, prouvant la présence de CO₂. Les graines ont donc respiré.\n\n### 2.2 Respiration dans l'eau\n\n- **Les poissons** respirent par des **branchies**. L'eau entre par la bouche, passe sur les branchies, et le dioxygène dissous est capté par le sang.\n- **Les vers de terre** respirent à travers leur **peau** humide. C'est pourquoi ils sortent quand il pleut : l'humidité facilite les échanges gazeux.\n- **Les plantes aquatiques** respirent par toute leur surface, mais aussi par des **stomates** sur leurs feuilles flottantes.\n\n**Méthode** : Pour montrer qu'un poisson respire, on peut utiliser de l'eau additionnée d'un colorant inoffensif (comme du bleu de méthylène). On observe que le colorant entre par la bouche et sort par les ouïes.\n\n### 2.3 Comparaison des échanges gazeux\n\n| Milieu | Organe respiratoire | Exemples |\n|--------|---------------------|----------|\n| Air    | Poumons | Homme, chien, oiseau |\n| Air    | Trachées | Criquet, abeille |\n| Air    | Stomates | Plantes terrestres |\n| Eau    | Branchies | Poisson, crabe |\n| Eau    | Peau | Ver de terre, grenouille |\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre respiration et digestion** : la respiration concerne les échanges gazeux, pas la transformation des aliments.\n- **Penser que les plantes ne respirent pas** : si, elles respirent en permanence, mais elles font aussi la photosynthèse à la lumière.\n- **Croire que les poissons respirent l'air de l'eau** : non, ils respirent le dioxygène dissous dans l'eau, pas les bulles d'air.\n- **Oublier que la respiration produit de l'énergie** : c'est une réaction qui libère de l'énergie utilisable par la cellule.\n- **Ne pas connaître les organes respiratoires des insectes** : ce sont les trachées, pas des poumons.\n\n## Synthèse\n\n1. **Tous les êtres vivants respirent** : ils prélèvent du dioxygène et rejettent du dioxyde de carbone.\n2. **Le dioxygène provient de l'air ou de l'eau** selon le milieu de vie.\n3. **Chaque milieu a des organes respiratoires adaptés** : poumons et trachées dans l'air, branchies et peau dans l'eau, stomates pour les plantes.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "respiration",
+    "êtres vivants",
+    "milieux de vie",
+    "dioxygène",
+    "apc"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est l'organe respiratoire des poissons ?",
+      "options": [
+        "Poumons",
+        "Branchies",
+        "Trachées",
+        "Peau"
+      ],
+      "answer": 1,
+      "explanation": "Les poissons respirent grâce à des branchies qui captent le dioxygène dissous dans l'eau."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Les plantes ne respirent pas.",
+      "answer": false,
+      "explanation": "Les plantes respirent en permanence, elles prélèvent du dioxygène et rejettent du dioxyde de carbone."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le gaz indispensable à la respiration est le ____________.",
+      "answer": "dioxygène",
+      "explanation": "Le dioxygène (O₂) est le gaz nécessaire à la respiration."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel organe respiratoire possèdent les insectes ?",
+      "options": [
+        "Poumons",
+        "Branchies",
+        "Trachées",
+        "Stomates"
+      ],
+      "answer": 2,
+      "explanation": "Les insectes respirent par des trachées, de fins tubes qui amènent l'air directement aux organes."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Le ver de terre respire par sa peau.",
+      "answer": true,
+      "explanation": "Le ver de terre respire à travers sa peau humide, ce qui nécessite un milieu humide."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "L'équation de la respiration s'écrit : Glucose + O₂ → CO₂ + H₂O + ____________.",
+      "answer": "énergie",
+      "explanation": "La respiration libère de l'énergie utilisable par l'organisme."
+    }
+  ]
+}

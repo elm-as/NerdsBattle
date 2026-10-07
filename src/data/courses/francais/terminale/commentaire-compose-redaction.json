@@ -1,0 +1,69 @@
+{
+  "id": "francais-terminale-commentaire-compose-redaction",
+  "title": "Commentaire composé : analyse stylistique et rédaction",
+  "summary": "Maîtrisez l'art du commentaire composé, une épreuve clé du BAC, en apprenant à analyser méthodiquement un texte littéraire et à rédiger une réponse structurée et argumentée. Ce cours vous donne les outils pour identifier les procédés stylistiques et construire un commentaire qui impressionne le correcteur.",
+  "lesson": "## Introduction & Mise en situation\n\nLe commentaire composé est l'une des épreuves les plus importantes du BAC de français. Il exige de lire attentivement un texte, d'en dégager les axes de lecture pertinents, et de rédiger une analyse organisée et argumentée. Ce chapitre vous donne les clés pour réussir cette épreuve, que ce soit pour l'écrit ou l'oral.\n\n## 1. Définitions et Principes Fondamentaux\n\n- **Commentaire composé** : exercice d'analyse littéraire qui consiste à étudier un texte de manière structurée, en dégageant ses centres d'intérêt (axes de lecture) et en les illustrant par des procédés stylistiques.\n- **Procédés stylistiques** : figures de style, champs lexicaux, registres de langue, rythme, sonorités, etc. Ils servent à produire un effet sur le lecteur.\n- **Axe de lecture** : angle d'analyse qui organise le commentaire (ex : l'expression de la passion, la critique sociale, la description symbolique).\n- **Plan du commentaire** : introduction, développement (2 ou 3 axes), conclusion.\n\n**Formule clé** : Un bon commentaire = pertinence des axes + choix judicieux des procédés + intégration de citations précises + interprétation.\n\n## 2. Propriétés et Méthodes d'application\n\n### Méthode pas-à-pas pour réussir le commentaire composé :\n\n1. **Lecture attentive du texte** : Lisez le texte plusieurs fois. Soulignez les mots importants, les figures de style, les champs lexicaux.\n2. **Dégagez les axes de lecture** : Demandez-vous : qu'est-ce qui est important dans ce texte ? Quels thèmes, quels effets ? Formulez 2 ou 3 axes pertinents.\n3. **Construisez le plan détaillé** : Pour chaque axe, trouvez des procédés et des citations qui l'illustrent.\n4. **Rédigez l'introduction** : Présentez l'auteur, l'œuvre, le contexte, puis annoncez la problématique et le plan.\n5. **Rédigez le développement** : Chaque paragraphe doit suivre le schéma : idée directrice, citation, analyse du procédé, interprétation.\n6. **Rédigez la conclusion** : Faites le bilan de l'analyse et ouvrez vers une autre œuvre ou une réflexion plus large.\n\n### Exemple concret :\n\nPrenons un extrait de *Madame Bovary* de Flaubert : « La conversation de Charles était plate comme un trottoir de rue, et les idées de tout le monde y défilaient dans leur costume ordinaire, sans émouvoir, sans rire ni rêver. »\n\n- **Axe possible** : La médiocrité de Charles.\n- **Procédés** : Comparaison (« plate comme un trottoir »), champ lexical de la banalité (« ordinaire », « défilaient »), rythme monotone.\n- **Interprétation** : Flaubert dénonce l'ennui et la médiocrité du personnage.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Ne pas faire de paraphrase** : Évitez de raconter le texte ; analysez-le.\n- **Ne pas oublier les citations** : Chaque idée doit être appuyée par une citation exacte.\n- **Ne pas négliger l'interprétation** : Dites pourquoi l'auteur utilise tel procédé et quel effet cela produit.\n- **Éviter le hors-sujet** : Restez centré sur le texte et l'axe annoncé.\n- **Soigner la structure** : Une introduction et une conclusion claires, des transitions entre les parties.\n\n## Synthèse\n\n1. **Lire et analyser** : Identifiez les procédés et les axes de lecture.\n2. **Organiser** : Structurez votre commentaire avec un plan clair.\n3. **Rédiger** : Intégrez citations et interprétations, sans paraphrase.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "commentaire composé",
+    "analyse stylistique",
+    "BAC",
+    "rédaction"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est l'objectif principal du commentaire composé ?",
+      "options": [
+        "Résumer le texte",
+        "Analyser le texte en dégageant des axes de lecture",
+        "Donner son opinion personnelle sur le texte",
+        "Raconter l'histoire de l'auteur"
+      ],
+      "answer": 1,
+      "explanation": "Le commentaire composé vise à analyser méthodiquement un texte, en dégageant des axes de lecture et en les illustrant par des procédés stylistiques."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Dans un commentaire composé, il est recommandé de faire une paraphrase détaillée du texte.",
+      "answer": false,
+      "explanation": "La paraphrase est un piège : il faut analyser, pas raconter le texte."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Complétez : Un bon commentaire composé doit comporter une introduction, un développement en ___ axes, et une conclusion.",
+      "answer": "2 ou 3",
+      "explanation": "Le développement s'organise généralement autour de deux ou trois axes de lecture."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est l'ordre correct des étapes pour rédiger un commentaire composé ?",
+      "options": [
+        "Lecture, plan, rédaction, introduction",
+        "Lecture, axes, plan, rédaction",
+        "Plan, lecture, rédaction, conclusion",
+        "Rédaction, lecture, plan, conclusion"
+      ],
+      "answer": 1,
+      "explanation": "On commence par une lecture attentive, puis on dégage les axes, on construit le plan, et enfin on rédige."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Dans l'analyse d'un procédé stylistique, il suffit de nommer la figure de style sans l'interpréter.",
+      "answer": false,
+      "explanation": "Il faut toujours interpréter le procédé : dire quel effet il produit et pourquoi l'auteur l'utilise."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Dans l'exemple de Flaubert, la figure de style utilisée dans « plate comme un trottoir » est une ___.",
+      "answer": "comparaison",
+      "explanation": "La comparaison est une figure qui rapproche deux éléments à l'aide d'un outil comparant (comme)."
+    }
+  ]
+}

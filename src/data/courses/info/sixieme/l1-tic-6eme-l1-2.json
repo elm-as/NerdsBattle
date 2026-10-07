@@ -1,0 +1,213 @@
+{
+  "id": "info-sixieme-l1-tic-6eme-l1-2",
+  "subjectId": "info",
+  "levelId": "sixieme",
+  "slug": "l1-tic-6eme-l1-2",
+  "title": "Leçon 1 : Les constituants d’un ordinateur – Sixième",
+  "summary": "Cette leçon présente les notions de base de l’informatique : définition d’une information et d’un ordinateur, les deux grandes parties d’un ordinateur (hardware et software), les unités centrales, les périphériques d’entrée, de sortie et de stockage ainsi que les principaux ports et connecteurs. Elle inclut une situation d’évaluation et des exercices d’application.",
+  "lesson": "# Leçon 1 – Les constituants d’un ordinateur\n\n## 1. Généralités\n- **Information / donnée** : ensemble de renseignements compréhensibles par l’esprit humain.\n- **Ordinateur** : système informatique qui traite automatiquement de grandes quantités d’informations.\n- Types courants : ordinateur de bureau (desktop) et ordinateur portable (laptop).\n\n## 2. Parties d’un ordinateur\n- **Matérielle (hardware)** : éléments physiques (unité centrale, périphériques, stockage).\n- **Logicielle (software)** : programmes qui traitent l’information.\n\n### 2.1 Unité centrale\nBoîtier contenant les composants électroniques (processeur, carte mère, etc.). Le clavier, la souris et l’écran y sont reliés.\n\n### 2.2 Périphériques d’entrée\n- **Clavier** : saisie de texte, chiffres, commandes.\n- **Souris** : pointage, sélection, déplacement.\n- **Scanner** : numérisation d’images/documents.\n- **Microphone** : capture du son.\n- **Webcam** : capture vidéo.\n\n### 2.3 Périphériques de sortie\n- **Écran** : affichage texte et image.\n- **Imprimante** : impression sur papier.\n- **Haut‑parleurs** : restitution du son.\n\n### 2.4 Supports de stockage\n- **Disque dur** : 4500‑7200 tours/min, 60‑500 Go.\n- **Disquette** : 5\" ¼ ou 3\" ½.\n- **CD / CD‑R / CD‑RW** : 650 Mo.\n- **DVD / DVD‑R / DVD‑RW** : 4,7 Go (simple couche).\n- **Clé USB / Flash** : de 64 Mo à plusieurs Go.\n\n## 3. Ports et connecteurs\n- **Port PS/2** : clavier (violet) et souris (vert), remplacé par l’USB.\n- **USB** : connecteur universel, présent à l’avant, à l’arrière et parfois sur l’écran.\n- **VGA / DVI** : connexion vidéo (bleu pour VGA, blanc pour DVI).\n- **Ports audio** : rose (micro), bleu (haut‑parleurs), vert (sortie ligne).\n- **Port parallèle** : ancien port d’imprimante, remplacé par l’USB.\n- **Port LAN** : connexion réseau locale.\n\n## 4. Situation d’évaluation\nL’écran d’un ordinateur de bureau reste noir alors que l’unité centrale est sous tension. Parmi les propositions suivantes, quelles sont des causes possibles ?\n- a) L’écran n’est pas alimenté.\n- b) La souris et le clavier ne sont pas correctement connectés.\n- c) L’écran n’est pas correctement connecté à l’unité centrale.\n\n## 5. Exercices\n1. **Identification** : nommer les composants numérotés sur une figure.\n2. **Association** : relier chaque périphérique à sa description.\n3. **Classification** : classer une liste de périphériques en entrée, sortie ou stockage.\n\n---\n*Durée estimée : 10 minutes*",
+  "estimatedMinutes": 10,
+  "tags": [
+    "info",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel terme désigne la partie physique d’un ordinateur ?",
+      "options": [
+        "Software",
+        "Hardware",
+        "Firmware",
+        "Middleware"
+      ],
+      "answer": 1,
+      "explanation": "La partie physique s’appelle le hardware."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Lequel de ces périphériques est un dispositif de sortie ?",
+      "options": [
+        "Clavier",
+        "Souris",
+        "Imprimante",
+        "Scanner"
+      ],
+      "answer": 2,
+      "explanation": "L’imprimante reçoit les données de l’unité centrale et les imprime sur papier, c’est donc un périphérique de sortie."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Un disque dur possède généralement une capacité de 60 à 500 Go.",
+      "answer": true,
+      "explanation": "Les spécifications du texte indiquent une capacité de 60 à 500 Go."
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "Le port PS/2 peut être utilisé alors que l’ordinateur est déjà allumé.",
+      "answer": false,
+      "explanation": "Le texte précise que le branchement PS/2 doit être fait avant l’allumage."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "prompt": "Le câble qui relie l’écran à l’unité centrale et possède un embout bleu s’appelle _______.",
+      "answer": "VGA",
+      "explanation": "Le câble VGA a un connecteur bleu."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel support de stockage a une capacité d’environ 4,7 Go ?",
+      "options": [
+        "CD‑R",
+        "DVD‑R",
+        "Clé USB",
+        "Disquette"
+      ],
+      "answer": 1,
+      "explanation": "Un DVD‑R possède environ 4,7 Go de capacité."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Parmi les propositions suivantes, laquelle explique le problème d’un écran noir alors que l’unité centrale est sous tension ?",
+      "options": [
+        "a) L’écran n’est pas alimenté",
+        "b) La souris et le clavier ne sont pas correctement connectés",
+        "c) L’écran n’est pas correctement connecté à l’unité centrale",
+        "d) Toutes les réponses"
+      ],
+      "answer": 0,
+      "explanation": "Si l’écran n’est pas alimenté, il restera noir même si l’unité centrale fonctionne."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Le port USB a remplacé le port parallèle pour la connexion des imprimantes.",
+      "answer": true,
+      "explanation": "Le texte indique que le port parallèle tend à disparaître au profit de l’USB."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Le périphérique qui permet de saisir du texte s’appelle le _______.",
+      "answer": "clavier",
+      "explanation": "Le clavier est le dispositif d’entrée destiné à la saisie de texte."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel type de périphérique est le microphone ?",
+      "options": [
+        "Entrée",
+        "Sortie",
+        "Stockage",
+        "Réseau"
+      ],
+      "answer": 0,
+      "explanation": "Le microphone capte le son, il s’agit donc d’un périphérique d’entrée."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel port permet de connecter un ordinateur à un réseau local ?",
+      "options": [
+        "Port VGA",
+        "Port LAN",
+        "Port PS/2",
+        "Port audio"
+      ],
+      "answer": 1,
+      "explanation": "Le port LAN (Local Area Network) sert à la connexion réseau locale."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Un CD‑RW peut être réécrit plusieurs fois.",
+      "answer": true,
+      "explanation": "Le CD‑RW est réinscriptible, donc réécrivable plusieurs fois."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Le périphérique qui affiche les informations sous forme d’image ou de texte s’appelle l’_______ .",
+      "answer": "écran",
+      "explanation": "L’écran est le dispositif de sortie visuel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel périphérique sert à transférer des images d’un document vers l’ordinateur ?",
+      "options": [
+        "Scanner",
+        "Webcam",
+        "Clé USB",
+        "Haut‑parleur"
+      ],
+      "answer": 0,
+      "explanation": "Le scanner numérise les documents."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Les haut‑parleurs sont des périphériques d’entrée.",
+      "answer": false,
+      "explanation": "Les haut‑parleurs reproduisent le son, ce qui en fait des périphériques de sortie."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel type de support de stockage était utilisé avant les CD et possède une capacité d’environ 650 Mo ?",
+      "options": [
+        "Disquette",
+        "DVD",
+        "Clé USB",
+        "Disque dur"
+      ],
+      "answer": 0,
+      "explanation": "La disquette était le support précédent, mais le texte indique que le CD a 650 Mo, la disquette a une capacité bien moindre."
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "prompt": "Le connecteur qui permet de brancher un clavier et une souris avant l’avènement de l’USB s’appelle le port _______.",
+      "answer": "PS/2",
+      "explanation": "Le port PS/2 était utilisé pour clavier et souris."
+    },
+    {
+      "id": "q18",
+      "type": "truefalse",
+      "prompt": "Un ordinateur portable possède son unité centrale sous le clavier.",
+      "answer": true,
+      "explanation": "Le texte précise que, dans un portable, l’unité centrale se trouve sous le clavier."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Quel périphérique est à la fois un dispositif d’entrée et de sortie lorsqu’il est utilisé pour la visioconférence ?",
+      "options": [
+        "Webcam",
+        "Microphone",
+        "Clavier",
+        "Imprimante"
+      ],
+      "answer": 0,
+      "explanation": "La webcam capte la vidéo (entrée) et peut afficher l’image à l’écran (sortie indirecte)."
+    },
+    {
+      "id": "q20",
+      "type": "fill",
+      "prompt": "Le câble qui transporte le son vers les haut‑parleurs est généralement de couleur _______.",
+      "answer": "verte",
+      "explanation": "Le port audio vert sert à envoyer le son vers des systèmes de traitement de son."
+    }
+  ]
+}

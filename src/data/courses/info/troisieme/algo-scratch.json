@@ -1,0 +1,13 @@
+{
+  "id": "info-troisieme-algo-scratch",
+  "title": "Algorithmique avec Scratch",
+  "summary": "Variables, boucles, conditions : les blocs fondamentaux.",
+  "lesson": "Un programme manipule des variables (nombre, texte). Les structures essentielles : la séquence (instructions à la suite), la condition (si...alors...sinon), la boucle (répéter, tant que). Scratch permet d'apprendre par les blocs colorés.",
+  "estimatedMinutes": 8,
+  "tags": ["algorithmique", "scratch"],
+  "questions": [
+    { "id": "q1", "type": "mcq", "prompt": "Quelle structure répète des instructions ?", "options": ["condition", "boucle", "variable", "fonction"], "answer": 1, "explanation": "Boucle : répéter, tant que..." },
+    { "id": "q2", "type": "truefalse", "prompt": "Une variable peut changer de valeur.", "answer": true, "explanation": "C'est même son rôle." },
+    { "id": "q3", "type": "fill", "prompt": "Le bloc 'si...alors' est une ___.", "answer": "condition", "explanation": "Structure conditionnelle." }
+  ]
+}

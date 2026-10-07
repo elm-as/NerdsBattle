@@ -1,0 +1,167 @@
+{
+  "id": "physique-terminale-quelques-tests-en-chimie-terminale-d",
+  "subjectId": "physique",
+  "levelId": "terminale",
+  "slug": "quelques-tests-en-chimie-terminale-d",
+  "title": "Tests de détection des fonctions carbonylées et oxydation des alcools (Terminale)",
+  "summary": "Ce cours décrit les procédures de laboratoire utilisées en terminale pour identifier les aldéhydes et les alcools : test au DNPH, test de Tollens, test de Fehling et oxydation ménagée avec dichromate. Les principes chimiques, le protocole pas‑à‑pas, les précautions de sécurité et l’interprétation des résultats sont présentés.",
+  "lesson": "# Tests de détection des fonctions carbonylées et oxydation des alcools\n\n## 1. Introduction\nLes composés carbonylés (aldéhydes, cétones) et les alcools sont identifiés en classe grâce à des réactions d’oxydation ou de formation d’additifs colorés. Les réactions sont rapides, visibles à l’œil nu et permettent de différencier les fonctions.\n\n## 2. Test à la 2,4‑dinitrophénylhydrazine (DNPH)\n- **Principe** : Le DNPH réagit avec les carbonyles pour former des hydrazones jaunes ou orange‑rouge, peu solubles dans l’éthanol.\n- **Protocole**\n  1. Dans un tube à essais, ajouter 2 cm³ de la solution à tester.\n  2. Ajouter 2 cm³ d’eau puis 3 cm³ de solution de dichromate de potassium 1 mol·L⁻¹ acidifiée.\n  3. Ajouter 2 cm³ d’hexane, agiter, laisser la phase organique se séparer.\n  4. Prélever 2‑3 cm³ de la phase organique, y ajouter 2‑3 cm³ de solution de DNPH dans l’éthanol + quelques gouttes d’H₂SO₄.\n  5. Observer la formation d’un précipité jaune (hydrazone).\n- **Interprétation** : précipité → présence d’un carbonyle (aldéhyde ou cétone). Absence → pas de carbonyle ou concentration trop faible.\n\n## 3. Test au nitrate d’argent ammoniacal (réactif de Tollens)\n- **Préparation du réactif**\n  - Verser lentement NH₃(aq) dans une solution de AgNO₃. Un précipité brun d’Ag₂O se forme puis se dissout dans l’excès d’ammoniaque, donnant le réactif de Tollens.\n- **Test**\n  1. Ajouter quelques cm³ de réactif de Tollens dans un tube.\n  2. Ajouter 1 cm³ d’éthanal (ou autre aldéhyde).\n  3. Agiter, placer le tube dans un bain‑marie à ~50 °C.\n  4. Le mélange noircit progressivement et un dépôt argenté brillant apparaît sur les parois.\n- **Interprétation** : dépôt argenté → aldéhyde (réduction de Ag⁺ en Ag⁰). Aucun dépôt → cétone ou composé non réducteur.\n\n## 4. Test à la liqueur de Fehling\n- **Principe** : Fehling I (CuSO₄) + Fehling II (tartrate + NaOH) forme un complexe Cu²⁺ bleu. Les aldéhydes le réduisent en Cu₂O rouge brique.\n- **Test**\n  1. Mélanger quelques cm³ de liqueur de Fehling (1:1) dans un tube.\n  2. Ajouter 1 cm³ d’éthanal.\n  3. Chauffer doucement au-dessus d’une flamme.\n  4. Observation d’un précipité rouge brique.\n- **Interprétation** : précipité rouge → aldéhyde réducteur. Absence → cétone ou aldéhyde non réducteur.\n\n## 5. Oxydation ménagée des alcools\n- **Réaction**\n  - Dans un tube, mélanger 2 cm³ d’alcool, 2 cm³ d’eau et 3 cm³ de K₂Cr₂O₇ 1 mol·L⁻¹ acidifié (H₂SO₄).\n  - Agiter, chauffer légèrement.\n- **Extraction**\n  - Ajouter 2 cm³ d’hexane, agiter. La phase organique incolore (hexane) contient le produit oxydé (cétone ou acide carboxylique).\n- **Analyse**\n  - Le produit organique peut être testé avec le DNPH (voir §2) pour confirmer la présence d’une fonction carbonylée.\n- **Interprétation** : formation d’une hydrazone → alcool oxydé en carbonyle.\n\n## 6. Sécurité\n- Porter lunettes, gants, blouse.\n- Manipuler l’ammoniaque, le nitrate d’argent et le dichromate avec précaution (toxiques, corrosifs).\n- Utiliser le bain‑marie pour éviter les flambées.\n- Évacuer les déchets argentés avec du HNO₃ chaud avant élimination.\n\n## 7. Tableau récapitulatif\n| Test | Réactif | Produit attendu | Observation positive |\n|------|---------|----------------|----------------------|\n| DNPH | DNPH/H₂SO₄ | Hydrazone jaune | Précipité jaune |\n| Tollens | Ag(NH₃)₂⁺ | Argent métallique | Dépôt brillant noir |\n| Fehling | Cu²⁺/tartrate | Cu₂O rouge | Précipité rouge brique |\n| Oxydation + DNPH | K₂Cr₂O₇/H₂SO₄ + hexane | Aldéhyde/cétone | Hydrazone jaune après extraction |\n\n---\n*Ce cours doit être réalisé sous la supervision d’un enseignant de chimie.*",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le rôle de l’ammoniaque lors de la préparation du réactif de Tollens ?",
+      "options": [
+        "Réduire l’Ag⁺",
+        "Dissoudre le précipité d’Ag₂O",
+        "Complexer le nitrate d’argent",
+        "Neutraliser l’acide"
+      ],
+      "answer": 1,
+      "explanation": "L’ammoniaque dissout le précipité brun d’Ag₂O, formant le complexe [Ag(NH₃)₂]⁺."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le test de Fehling réagit uniquement avec les cétones.",
+      "answer": false,
+      "explanation": "Fehling réagit avec les aldéhydes réducteurs, pas avec les cétones."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Dans le test au DNPH, le précipité formé est appelé __________.",
+      "answer": "hydrazone",
+      "explanation": ""
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel produit se forme lorsqu’un aldéhyde est testé avec le réactif de Tollens ?",
+      "options": [
+        "Cu₂O",
+        "Ag⁰",
+        "Fe₂O₃",
+        "PbSO₄"
+      ],
+      "answer": 1,
+      "explanation": "Le réactif de Tollens réduit Ag⁺ en argent métallique (Ag⁰) qui se dépose sous forme de miroir."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Le bain‑marie à 50 °C est utilisé pour accélérer la réaction du test de Tollens.",
+      "answer": true,
+      "explanation": "La chaleur douce favorise la réduction de l’Ag⁺ et la formation du dépôt argenté."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Le réactif de Fehling est un mélange de deux solutions appelées Fehling I et Fehling __________.",
+      "answer": "II",
+      "explanation": ""
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel est le principal danger lié à l’utilisation du dichromate de potassium en laboratoire ?",
+      "options": [
+        "Inflammabilité",
+        "Toxicité et corrosivité",
+        "Instabilité thermique",
+        "Réactivité avec l’eau"
+      ],
+      "answer": 1,
+      "explanation": "Le dichromate est un oxydant puissant, toxique et corrosif."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Après l’oxydation ménagée, la phase organique (hexane) contient le produit oxydé.",
+      "answer": true,
+      "explanation": "Le produit carbonylé, plus apolaire, se solubilise dans l’hexane."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Le précipité rouge brique observé avec le test de Fehling correspond à __________.",
+      "answer": "Cu₂O",
+      "explanation": ""
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel type d’alcool (primaire, secondaire, tertiaire) est oxydé en aldéhyde par le dichromate ?",
+      "options": [
+        "Primaire",
+        "Secondaire",
+        "Tertiaire",
+        "Aucun"
+      ],
+      "answer": 0,
+      "explanation": "Les alcools primaires sont oxydés en aldéhydes (ou acides) selon les conditions."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Le test au DNPH permet de distinguer les aldéhydes des cétones.",
+      "answer": false,
+      "explanation": "Le DNPH réagit avec les deux, formant des hydrazones similaires."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Le dépôt argenté brillant formé dans le test de Tollens indique la présence d’un __________.",
+      "answer": "aldéhyde",
+      "explanation": ""
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quelle étape permet de nettoyer le tube contenant du réactif de Tollens après usage ?",
+      "options": [
+        "Rinçage à l’eau distillée",
+        "Traitement à l’acide nitrique chaud",
+        "Bain‑marie à 100 °C",
+        "Essuyage à l’alcool"
+      ],
+      "answer": 1,
+      "explanation": "L’acide nitrique chaud dissout les résidus d’argent."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Le test de Fehling nécessite un chauffage vigoureux pour fonctionner.",
+      "answer": false,
+      "explanation": "Un chauffage doux suffit ; un feu trop fort peut décomposer le complexe."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Le précipité jaune formé avec le DNPH est le résultat de la formation d’une __________.",
+      "answer": "hydrazone",
+      "explanation": ""
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel indicateur visuel est commun à tous les tests présentés (DNPH, Tollens, Fehling) ?",
+      "options": [
+        "Formation d’un précipité",
+        "Changement de couleur du liquide",
+        "Émission de gaz",
+        "Augmentation de la température"
+      ],
+      "answer": 0,
+      "explanation": "Tous les tests produisent un précipité caractéristique (jaune, noir, rouge)."
+    }
+  ]
+}

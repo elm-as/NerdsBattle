@@ -1,0 +1,173 @@
+{
+  "id": "philosophie-terminale-conclusion-et-annexe-de-cours-de-philo-porta",
+  "subjectId": "philosophie",
+  "levelId": "terminale",
+  "slug": "conclusion-et-annexe-de-cours-de-philo-porta",
+  "title": "Culture et transformation : nature, facticité et civilisation",
+  "summary": "Ce cours explore la relation entre nature et culture, la facticité hybride de l'homme, le processus de civilisation et les débats entre relativisme et universalité. Il analyse les concepts de culture individuelle et collective, les théories de Rousseau, Kant, Freud, Marcuse et Lévi‑Strauss, et propose une réflexion sur la transformation culturelle nécessaire à l'époque contemporaine.",
+  "lesson": "# Introduction\n- **Culture individuelle** : culture de soi, développement personnel, épanouissement.\n- **Culture collective** : pratiques transmises de génération en génération.\n- **Citation** : « la culture, c’est ce qui reste quand on a tout oublié ». \n\n# I. Nature et culture\n## A. L’homme et l’animal\n1. **Spécificité humaine ?**\n   - Deux sens du mot *nature* : large vs. étroit (opposé à *culture*).\n   - Existence d’une culture animale (langage, technique, art, religion, pudeur).\n2. **Prohibition de l’inceste**\n   - Rupture entre nature et culture, règle universelle, fondement de l’échange.\n## B. Y a‑t‑il une nature humaine ?\n1. **Culture comme seconde nature**\n   - Pascal : « La coutume est une seconde nature ». \n   - Merleau‑Ponty : « Tout est fabriqué et tout est naturel chez l’homme ». \n2. **Être naturel**\n   - Être spontané = être culturel (conformité à la culture intériorisée).\n   - Exemple du cynisme de Diogène de Sinope.\n3. **Existence précède l’essence**\n   - Sartre, Heidegger, facticité comme condition humaine.\n\n# II. Le procès de civilisation\n## A. Culture comme éducation\n1. **Perfectibilité** (Rousseau) – liberté et capacité d’amélioration.\n2. **Conflit moteur du développement** (Kant, Héraclite).\n3. **Progrès ou régression ?** – débats Kant, Hegel, Marx vs Rousseau.\n## B. Renoncement pulsionnel\n1. **Malaise dans la culture** (Freud) – double répression, surmoi, sublimation.\n2. **Répression et révolution** (Marcuse) – dépassement de la répression, mai 68.\n\n# III. Culture particulière et universelle\n## A. Relativisme culturel\n1. **Montaigne** – critique nuancée, garde la nature comme modèle.\n2. **Lévi‑Strauss** – critique de l’ethnocentrisme, différences qualitatives.\n## B. Critique du relativisme\n1. **Idée de progrès et supériorité** – critères de jugement.\n2. **Réhabilitation de la pensée** (Finkielkraut) – objectivité, hiérarchie culturelle.\n\n# Définition de la culture (Freud)\n- Protection de l’homme contre la nature et régulation des relations humaines.\n- **Éléments** :\n  1. L’utile – domination de la nature.\n  2. L’inutile – beauté, propreté, ordre.\n  3. Productions psychiques supérieures – religions, idéaux.\n  4. Régulation de la vie en commun.\n\n# Illustrations et citations\n- « La culture, c’est ce qui reste quand on a tout oublié. » – Edouard Herriot\n- « Cultura animi filosofia est. » – Cicéron\n- « Chassez la nature avec une fourche, elle reviendra toujours en courant. » – Horace\n- « Quand j’entends le mot culture, je sors mon revolver. » – Goebbels\n- « La culture, c’est comme la confiture. Moins on en a, plus on l’étale. »\n\n# Bibliographie\n- Claude Lévi‑Strauss, *Race et histoire* (1952).",
+  "estimatedMinutes": 10,
+  "tags": [
+    "philosophie",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel philosophe affirme que « l’existence précède l’essence » ?",
+      "options": [
+        "Sartre",
+        "Heidegger",
+        "Kant",
+        "Marx"
+      ],
+      "answer": 0,
+      "explanation": "Sartre soutient que l'existence précède l'essence, opposé à la vision essentialiste."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Selon Freud, la culture protège l'homme contre la nature.",
+      "answer": true,
+      "explanation": "Freud définit la culture comme protection contre la nature et régulation des relations humaines."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Complétez la citation de Pascal : « La coutume est une __________ ».",
+      "answer": "seconde nature",
+      "explanation": "Pascal écrit que la coutume devient une seconde nature qui détruit la première."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle règle universelle est citée comme rupture entre nature et culture ?",
+      "options": [
+        "La prohibition de l’inceste",
+        "Le tabou du cannibalisme",
+        "Le respect des ancêtres",
+        "Le droit de propriété"
+      ],
+      "answer": 0,
+      "explanation": "La prohibition de l’inceste est présentée comme une règle universelle marquant la séparation nature‑culture."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Le cynisme de Diogène de Sinope illustre la possibilité d’être totalement naturel, hors de toute culture.",
+      "answer": false,
+      "explanation": "Diogène se présente comme un provocateur culturel, montrant que même le « naturel » est une construction culturelle."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel penseur associe la perfectibilité à la liberté ?",
+      "options": [
+        "Rousseau",
+        "Kant",
+        "Freud",
+        "Marcuse"
+      ],
+      "answer": 0,
+      "explanation": "Rousseau lie la perfectibilité de l'homme à sa liberté innée."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Selon Marcuse, la répression culturelle a atteint le point de __________.",
+      "answer": "dépasser les limites",
+      "explanation": "Marcuse critique la société pour avoir poussé la répression au-delà de ce qui est supportable."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Le relativisme de Montaigne accepte pleinement toutes les pratiques culturelles sans jugement.",
+      "answer": false,
+      "explanation": "Montaigne reste critique et ne se montre pas totalement relativiste ; il garde la nature comme étalon."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel auteur critique l’ethnocentrisme et propose des différences qualitatives entre cultures ?",
+      "options": [
+        "Montaigne",
+        "Lévi‑Strauss",
+        "Finkielkraut",
+        "Kant"
+      ],
+      "answer": 1,
+      "explanation": "Lévi‑Strauss critique l’ethnocentrisme et souligne les différences qualitatives."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Finkielkraut défend l’idée d’une hiérarchie objective de la __________.",
+      "answer": "pensée",
+      "explanation": "Il soutient qu'il existe une objectivité dans la hiérarchie des productions culturelles."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quelle fonction la culture remplit‑elle selon Freud ?",
+      "options": [
+        "Domination de la nature",
+        "Beauté uniquement",
+        "Régulation des relations humaines",
+        "Toutes les réponses précédentes"
+      ],
+      "answer": 3,
+      "explanation": "Freud inclut l'utile, l'inutile, les productions psychiques supérieures et la régulation sociale."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Heidegger affirme que l’essence du Dasein est d’exister.",
+      "answer": true,
+      "explanation": "Pour Heidegger, l’essence du Dasein (être‑humain) réside dans son existence."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel concept désigne la capacité de l’homme à se transformer culturellement ?",
+      "options": [
+        "Facticité",
+        "Habitus",
+        "Perfectibilité",
+        "All of the above"
+      ],
+      "answer": 3,
+      "explanation": "Facticité, habitus et perfectibilité décrivent tous la capacité de transformation."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "« La culture, c’est ce qui reste quand on a tout __________. »",
+      "answer": "oublié",
+      "explanation": "Citation attribuée à Edouard Herriot."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Selon Kant, le conflit est un frein au développement culturel.",
+      "answer": false,
+      "explanation": "Kant voit le conflit comme moteur du développement culturel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel phénomène illustre la critique de la technique comme source de problèmes environnementaux ?",
+      "options": [
+        "Banalisation du mal",
+        "Progrès technologique illimité",
+        "Industrialisation du XIXᵉ siècle",
+        "Aucun"
+      ],
+      "answer": 0,
+      "explanation": "La banalisation du mal montre comment la technique peut être critiquée pour ses impacts environnementaux."
+    }
+  ]
+}

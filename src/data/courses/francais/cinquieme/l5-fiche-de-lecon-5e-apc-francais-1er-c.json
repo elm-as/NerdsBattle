@@ -1,0 +1,98 @@
+{
+  "id": "francais-cinquieme-l5-fiche-de-lecon-5e-apc-francais-1er-c",
+  "subjectId": "francais",
+  "levelId": "cinquieme",
+  "slug": "l5-fiche-de-lecon-5e-apc-francais-1er-c",
+  "title": "Leçon de français 5e : Le portrait simple (MENA CI)",
+  "summary": "Cette fiche de cours de la 5e classe au programme ivoirien traite de la rédaction du portrait simple. Elle définit la notion, détaille les outils lexicaux et grammaticaux (adjectifs, comparaisons, temps verbaux), structure le devoir en introduction, développement et conclusion, et guide la recherche et l'organisation des idées pour une description fidèle d'une personne statique.",
+  "lesson": "# Le portrait simple (5e)\n\n## I. Définition de la notion\nLe **portrait simple** est la représentation la plus fidèle possible des caractéristiques physiques ou morales d’une personne ou d’un animal qui est **statique** (ne faisant pas de mouvements).\n\n## II. Les outils de la langue\nPour rédiger un bon portrait, l'élève doit mobiliser :\n\n### 1. Les outils lexicaux\n- **Vocabulaire évaluatif** : appréciatif (positif) ou dépréciatif (négatif).\n- **Images** : utilisation de comparaisons pour enrichir la description.\n- **Champs lexicaux** : regroupement de mots liés au thème (visage, corps, caractère).\n\n### 2. Les outils grammaticaux\n- **Temps verbaux** : usage de l'**imparfait** et du **présent de l'indicatif** pour rendre le portrait réaliste et ancré dans le temps.\n- **Adjectifs qualificatifs** : pour préciser les traits physiques et moraux.\n- **Verbes d'état** : être, sembler, paraître, avoir l'air, etc.\n\n## III. Le corps du devoir (Structure)\nLe devoir se compose de trois parties distinctes :\n\n1. **L'introduction**\n   - Mettre en évidence l'aspect général de la personne.\n   - Éléments clés : taille, âge, démarche, corpulence.\n\n2. **Le développement**\n   - Détail des caractéristiques physiques et morales.\n   - **Ordre logique** : Commencer par le **portrait physique** (tête, visage, corps) avant de passer au **portrait moral**.\n   - **Portrait physique** : Décrire les traits du visage, la coiffure, la tenue, etc.\n   - **Portrait moral** : Faire ressortir le caractère, le comportement et les habitudes.\n   - *Note* : Il ne faut pas oublier de mentionner les actions effectuées par la personne si elles sont liées à la situation.\n\n3. **La conclusion**\n   - Lieu où l'on exprime ses sentiments, ses impressions ou son opinion finale sur la personne décrite.\n\n## IV. Recherche et organisation des idées\n\n### 1. Recherche des idées\n- Brainstorming des traits distinctifs (physiques et moraux).\n\n### 2. Organisation des idées\n- **Ordre de description** : Choisir soit du bas vers le haut, soit du haut vers le bas.\n- **Progression** : Du général (silhouette) au particulier (traits du visage).\n- **Enrichissement** : Utiliser des adjectifs expressifs, des verbes précis et des comparaisons.\n- **Syntaxe** : Privilégier des phrases simples et claires.\n- **Placement** : Assigner chaque idée à la partie correspondante (Intro, Dév, Concl).\n\n## V. Rédaction collective et Évaluation\n- **Rédaction collective** : L'enseignant guide les élèves pour rédiger un exemple complet.\n- **Exemple d'évaluation** : \n  - *Situation* : Ton chien a disparu. Tu croises un ami qui ne le connaît pas. Tu dois faire le portrait de ton chien pour l'aider à le retrouver.\n  - *Tâche* : Identifier le type d'exercice (portrait simple) et rédiger l'introduction.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "francais",
+    "cinquieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le principal critère qui définit un portrait simple par rapport à un portrait dynamique ?",
+      "options": [
+        "La personne doit être en mouvement",
+        "La personne ou l'animal est statique (ne bouge pas)",
+        "Il doit être écrit au futur",
+        "Il ne doit pas contenir d'adjectifs"
+      ],
+      "answer": 1,
+      "explanation": "Le portrait simple décrit une personne ou un animal statique, c'est-à-dire ne faisant pas de mouvements."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le portrait simple est la représentation fidèle des caractéristiques physiques ou __________ d'une personne.",
+      "answer": "morales",
+      "explanation": "La définition inclut les caractéristiques physiques et morales."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle partie du devoir met en évidence l'aspect général (taille, âge, corpulence) ?",
+      "options": [
+        "Le développement",
+        "La conclusion",
+        "L'introduction",
+        "Le titre"
+      ],
+      "answer": 2,
+      "explanation": "L'introduction sert à présenter l'aspect général de la personne."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Dans le développement du portrait, quel ordre est recommandé pour la description ?",
+      "options": [
+        "Du moral au physique",
+        "Du physique au moral",
+        "Du plus petit détail au plus grand",
+        "Aléatoire"
+      ],
+      "answer": 1,
+      "explanation": "Il faut toujours commencer par le portrait physique avant d'arriver au portrait moral."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Pour enrichir le portrait, on peut utiliser des adjectifs expressifs ou des __________.",
+      "answer": "comparaisons",
+      "explanation": "Le cours suggère d'enrichir le portrait par le choix d'adjectifs, de verbes expressifs ou de comparaisons."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quelle est la fonction principale de la conclusion dans un portrait ?",
+      "options": [
+        "Décrire le visage en détail",
+        "Exprimer ses sentiments et impressions",
+        "Donner le nom de la personne",
+        "Raconter une histoire"
+      ],
+      "answer": 1,
+      "explanation": "La conclusion est le lieu où l'on fait ressortir ses sentiments et ses impressions."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel type de vocabulaire est recommandé pour évaluer les traits de la personne ?",
+      "options": [
+        "Vocabulaire technique",
+        "Vocabulaire évaluatif (appréciatif ou dépréciatif)",
+        "Vocabulaire abstrait",
+        "Vocabulaire scientifique"
+      ],
+      "answer": 1,
+      "explanation": "Le cours mentionne l'usage d'un vocabulaire évaluatif, soit appréciatif, soit dépréciatif."
+    }
+  ]
+}

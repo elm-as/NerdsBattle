@@ -1,0 +1,201 @@
+{
+  "id": "histoire-terminale-l1-le-salaire-tle-g1-et-g2",
+  "subjectId": "histoire",
+  "levelId": "terminale",
+  "slug": "l1-le-salaire-tle-g1-et-g2",
+  "title": "Leçon 8 – Le Salaire : notions, formes, calcul et paiement",
+  "summary": "Cette leçon décrit le salaire comme contrepartie du travail, ses deux conceptions (civiliste et alimentaire), ses formes (espèces et avantages en nature), les méthodes de calcul (au temps ou au rendement), la composition (base et accessoires), les principes et limites de fixation ainsi que les exigences de paiement (lieu, date, périodicité).",
+  "lesson": "## 1. Notion de salaire\n- **Conception civiliste** : contrepartie de la prestation de travail, lien synallagmatique.\n- **Conception alimentaire** : revenu vital versé même sans exécution du travail dans certains cas légaux.\n- **Définition globale** : toute somme ou avantage accordé au salarié à l’occasion du contrat de travail.\n\n## 2. Formes du salaire\n- **Salaire en espèces** : paiement en monnaie légale, directement ou par chèque (encaissé).\n- **Avantages en nature** : logement, eau, électricité, nourriture, vêtements de travail, outils, voiture de fonction, etc.\n\n## 3. Méthodes de calcul\n- **Au temps** : à l’heure, jour, semaine, quinzaine ou mois; salaire fixe, sécurisant pour le salarié mais peu incitatif pour l’employeur.\n- **Au rendement** : à la tâche ou à la pièce; rémunération proportionnelle à la production, favorise le rendement.\n\n## 4. Consistance du salaire\n- **Salaire de base** : fixé selon la catégorie professionnelle, correspond au travail réellement accompli.\n- **Accessoires du salaire**\n  - *À nature juridique* (intégrés au calcul du congé payé) : heures supplémentaires, sursalaire, primes de rendement, primes d’ancienneté, gratifications.\n  - *Sans nature juridique* (remboursements) : indemnités de déplacement, primes d’outillage, primes de risque, primes de salissure, primes de panier.\n\n## 5. Fixation du montant\n- **Principe** : libre accord entre les parties.\n- **Limites** : SMIG fixé par le législateur, salaire minimum par catégorie via convention collective, pratiques imposées par l’employeur.\n\n## 6. Paiement du salaire\n- **Lieu** : sur le lieu de travail ou au bureau de l’employeur (sauf force majeure). Interdit dans les débits de boisson, magasins, ou le jour de repos.\n- **Date** : paiement à la date convenue, généralement mensuelle.\n- **Périodicité** : mensuelle, bi‑hebdomadaire ou autre selon accord.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "histoire",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la différence principale entre la conception civiliste et la conception alimentaire du salaire?",
+      "options": [
+        "Le salaire est toujours versé en espèces",
+        "Le salaire est considéré comme contrepartie du travail vs revenu vital",
+        "La conception civile s’applique uniquement aux cadres",
+        "Il n’y a aucune différence"
+      ],
+      "answer": 1,
+      "explanation": "La conception civiliste voit le salaire comme contrepartie du travail, alors que la conception alimentaire le considère comme revenu vital même sans exécution du travail dans certains cas."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le salaire en espèces ne peut être payé que par chèque.",
+      "answer": false,
+      "explanation": "Il peut être payé en espèces directement ou par chèque, à condition que le chèque soit encaissé."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Les avantages en nature comprennent le logement, l’eau, l’électricité et la _______.",
+      "answer": "nourriture",
+      "explanation": "La nourriture est listée parmi les avantages en nature."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel mode de calcul du salaire incite le plus le rendement?",
+      "options": [
+        "Salaire au temps",
+        "Salaire au rendement",
+        "Salaire fixe mensuel",
+        "Salaire à la semaine"
+      ],
+      "answer": 1,
+      "explanation": "Le salaire au rendement, calculé à la tâche ou à la pièce, encourage la productivité."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Les heures supplémentaires font partie des accessoires n’ayant pas la nature juridique du salaire.",
+      "answer": false,
+      "explanation": "Les heures supplémentaires sont des accessoires ayant la nature juridique du salaire."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Le salaire de base est fixé en fonction de la _______ professionnelle du travailleur.",
+      "answer": "catégorie",
+      "explanation": "Le salaire de base dépend de la catégorie professionnelle."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Parmi les accessoires à nature juridique, lequel n’est pas inclus?",
+      "options": [
+        "Prime d’ancienneté",
+        "Indemnité de déplacement",
+        "Gratification",
+        "Prime de rendement"
+      ],
+      "answer": 1,
+      "explanation": "L’indemnité de déplacement est un accessoire n’ayant pas la nature juridique du salaire."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Le SMIG est fixé par la convention collective.",
+      "answer": false,
+      "explanation": "Le SMIG est fixé par le législateur, la convention collective fixe les salaires minima par catégorie."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Le paiement du salaire ne peut être effectué dans un _______ de boisson.",
+      "answer": "débit",
+      "explanation": "Il est interdit de payer le salaire dans un débit de boisson."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel élément n’est pas une condition du paiement du salaire?",
+      "options": [
+        "Lieu",
+        "Date",
+        "Périodicité",
+        "Couleur du bulletin de paie"
+      ],
+      "answer": 3,
+      "explanation": "La couleur du bulletin de paie n’est pas une exigence légale."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Le salaire au temps ne tient pas compte de la production réalisée.",
+      "answer": true,
+      "explanation": "Il est calculé uniquement sur le temps de travail, sans considération de la production."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Les primes de _______ sont versées pour récompenser la fidélité du travailleur à son entreprise.",
+      "answer": "rendement",
+      "explanation": "La prime de rendement récompense la fidélité et la performance."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel type d’avantage en nature est exclu de la catégorie « avantages en nature »?",
+      "options": [
+        "Logement",
+        "Vêtements de travail",
+        "Nourriture",
+        "Électricité"
+      ],
+      "answer": 1,
+      "explanation": "Les vêtements de travail sont considérés comme outils, pas comme avantage en nature."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Le salaire peut être fixé librement sans aucune limite légale.",
+      "answer": false,
+      "explanation": "Il existe des limites : SMIG, salaire minimum conventionnel et pratiques imposées."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Le salaire au rendement peut être calculé à la _______ ou à la pièce.",
+      "answer": "tâche",
+      "explanation": "Le salaire au rendement se calcule à la tâche ou à la pièce."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel accessoire du salaire est pris en compte dans le calcul de l’allocation de congé payé?",
+      "options": [
+        "Prime d’outillage",
+        "Prime de risque",
+        "Heures supplémentaires",
+        "Indemnité de déplacement"
+      ],
+      "answer": 2,
+      "explanation": "Les heures supplémentaires font partie des accessoires à nature juridique, donc prises en compte pour le congé payé."
+    },
+    {
+      "id": "q17",
+      "type": "truefalse",
+      "prompt": "Le paiement du salaire peut être effectué le jour de repos du salarié.",
+      "answer": false,
+      "explanation": "Le paiement ne doit pas être fait le jour où le travailleur a droit au repos."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "prompt": "Le salaire en espèces doit être payé en monnaie ayant _______.",
+      "answer": "cours légal",
+      "explanation": "Le paiement doit être en monnaie ayant cours légal."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Quel document fixe le salaire minimum par catégorie professionnelle?",
+      "options": [
+        "Le Code du travail",
+        "La convention collective",
+        "Le SMIG",
+        "Le contrat individuel"
+      ],
+      "answer": 1,
+      "explanation": "La convention collective fixe le salaire minimum par catégorie professionnelle."
+    },
+    {
+      "id": "q20",
+      "type": "truefalse",
+      "prompt": "Les primes de panier sont considérées comme des accessoires n’ayant pas la nature juridique du salaire.",
+      "answer": true,
+      "explanation": "Les primes de panier font partie des remboursements, donc n’ont pas la nature juridique du salaire."
+    }
+  ]
+}

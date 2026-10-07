@@ -1,0 +1,184 @@
+{
+  "id": "physique-sixieme-je-recherche-une-panne-dans-un-circuit-electriqu",
+  "subjectId": "physique",
+  "levelId": "sixieme",
+  "slug": "je-recherche-une-panne-dans-un-circuit-electriqu",
+  "title": "Pannes et dangers du courant électrique",
+  "summary": "Apprends à détecter une panne dans un circuit électrique et à réparer ta torche. Découvre aussi les dangers du courant et comment t'en protéger.",
+  "lesson": "# Je recherche une panne dans un circuit électrique pour la réparer\n\n## Introduction\n\nLorsqu'une lampe ne s'allume pas, il faut trouver l'origine de la panne. Cette leçon t'apprend à tester les éléments d'un circuit, à réparer une panne, et à te protéger des dangers du courant électrique.\n\n## 1. Définitions & Notions clés\n\n- **Panne** : dysfonctionnement d'un élément du circuit qui empêche le courant de circuler.\n- **Circuit témoin (ou test)** : circuit qui fonctionne bien et qui sert à tester un à un les éléments du circuit défectueux.\n- **Court-circuit** : liaison des bornes d'un appareil par un fil de connexion.\n- **Fusible** : fil très fin placé dans le circuit ; en cas de court-circuit, il chauffe et fond rapidement, ouvrant le circuit.\n- **Disjoncteur** : appareil qui ouvre automatiquement le circuit en cas de court-circuit.\n\n## 2. Applications & Méthodes\n\n### Détecter une panne\n1. Tester un à un les éléments du circuit défectueux en les plaçant dans le circuit test.\n2. Observer : si la lampe du circuit test s'allume, l'élément est bon ; sinon, il est mauvais.\n3. Remplacer l'élément défectueux par un autre en bon état.\n\n**Exemple** : Dans l'expérience, l'interrupteur testé ne fait pas allumer L2 : il est défectueux. On le remplace.\n\n### Dangers du court-circuit\nLorsqu'on court-circuite une lampe avec un fil, la lampe s'éteint, la paille de fer rougit et brûle, les fils et la pile chauffent. Dangers : destruction des éléments du circuit et incendie.\n\n### Protection des installations\n- **Fusible** : fond et ouvre le circuit.\n- **Disjoncteur** : ouvre automatiquement le circuit.\n\n### Protection de la personne\nLe corps humain conduit le courant. Toucher un fil dénudé du secteur peut provoquer la mort. Précautions :\n- Ne pas toucher avec les mains humides un appareil branché.\n- Ne pas démonter un appareil sous tension.\n- Ne pas introduire n'importe quoi dans une prise.\n- Ne pas tirer sur les rallonges.\n- Ne pas utiliser de rallonges aux fils dénudés.\n\n## 3. Pièges fréquents\n\n- Croire qu'un court-circuit est sans danger : il peut détruire le circuit ou provoquer un incendie.\n- Confondre fusible et disjoncteur : le fusible fond, le disjoncteur ouvre automatiquement.\n- Oublier que le corps humain est conducteur : ne jamais toucher un fil dénudé sous tension.\n- Tester un élément sans circuit témoin : on ne peut pas savoir s'il est bon.\n\n## Synthèse\n\nPour réparer une panne, on teste les éléments un à un dans un circuit témoin et on remplace l'élément défectueux. Le court-circuit est dangereux : il détruit le circuit et peut causer un incendie. On se protège avec un fusible ou un disjoncteur, et en respectant les consignes de sécurité.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans l'expérience, quel élément du circuit défectueux est mauvais ?",
+      "options": [
+        "Le fil noir",
+        "Le fil bleu",
+        "L'interrupteur",
+        "La lampe L1"
+      ],
+      "answer": 2,
+      "explanation": "L'interrupteur testé ne fait pas allumer L2 : il est mauvais."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le fusible est un fil très ______ placé dans le circuit électrique.",
+      "answer": "fin",
+      "explanation": "Le fusible est un fil très fin qui fond en cas de court-circuit."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Que se passe-t-il lorsque le fusible fond ?",
+      "options": [
+        "Le circuit se ferme",
+        "Le circuit s'ouvre",
+        "La lampe brille plus",
+        "La pile se recharge"
+      ],
+      "answer": 1,
+      "explanation": "En fondant, le fusible ouvre le circuit."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel élément faut-il remplacer après avoir détecté la panne ?",
+      "options": [
+        "La pile",
+        "L'interrupteur défectueux",
+        "La lampe",
+        "Le fil"
+      ],
+      "answer": 1,
+      "explanation": "On remplace l'interrupteur défectueux par un autre en bon état."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "On court-circuite un appareil en reliant ses bornes avec un ______ de connexion.",
+      "answer": "fil",
+      "explanation": "On relie les bornes avec un fil de connexion."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel est le danger du court-circuit ?",
+      "options": [
+        "La destruction des éléments du circuit",
+        "L'augmentation de la lumière",
+        "Le refroidissement du circuit",
+        "La recharge de la pile"
+      ],
+      "answer": 0,
+      "explanation": "Le court-circuit peut détruire les éléments du circuit et provoquer un incendie."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Que faut-il faire avant de démonter un appareil électrique ?",
+      "options": [
+        "Le brancher",
+        "Le débrancher",
+        "Le mouiller",
+        "Le secouer"
+      ],
+      "answer": 1,
+      "explanation": "Il ne faut pas démonter un appareil sous tension (branché)."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Le ______ est un appareil placé dans le circuit qui ouvre automatiquement le circuit en cas de court-circuit.",
+      "answer": "disjoncteur",
+      "explanation": "Le disjoncteur ouvre automatiquement le circuit."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Dans l'expérience, que fait la paille de fer lorsqu'on court-circuite la lampe ?",
+      "options": [
+        "Elle fond",
+        "Elle rougit et brûle",
+        "Elle s'éteint",
+        "Elle refroidit"
+      ],
+      "answer": 1,
+      "explanation": "La paille de fer rougit et brûle."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel est le rôle du circuit témoin ?",
+      "options": [
+        "Tester les éléments un à un",
+        "Remplacer la pile",
+        "Éclairer la pièce",
+        "Chauffer le circuit"
+      ],
+      "answer": 0,
+      "explanation": "Le circuit témoin sert à tester un à un les éléments du circuit défectueux."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Lorsqu'il y a un court-circuit, le fusible chauffe et ______ rapidement.",
+      "answer": "fond",
+      "explanation": "Le fusible chauffe et fond rapidement."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Que peut provoquer le fait de toucher un fil électrique dénudé du secteur ?",
+      "options": [
+        "Rien",
+        "Une légère sensation",
+        "La mort",
+        "Une recharge"
+      ],
+      "answer": 2,
+      "explanation": "Cela peut provoquer la mort."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Dans la solution au problème, que doit tester Fatou en premier ?",
+      "options": [
+        "Le boîtier",
+        "L'ampoule et la pile",
+        "L'interrupteur",
+        "Les fils"
+      ],
+      "answer": 1,
+      "explanation": "Fatou doit tester un à un l'ampoule électrique et la pile dans une torche qui fonctionne bien."
+    },
+    {
+      "id": "q19",
+      "type": "fill",
+      "prompt": "Le ______ est un fil très fin qui fond en cas de court-circuit.",
+      "answer": "fusible",
+      "explanation": "Le fusible est un fil très fin."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Que faut-il faire si l'ampoule et la pile sont en bon état mais que la torche ne s'allume pas ?",
+      "options": [
+        "Changer la pile",
+        "Changer l'ampoule",
+        "Vérifier le boîtier",
+        "Jeter la torche"
+      ],
+      "answer": 2,
+      "explanation": "Si ces deux éléments sont bons, alors c'est le boîtier de la lampe qui est défectueux."
+    }
+  ]
+}

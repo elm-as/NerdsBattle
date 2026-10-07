@@ -1,0 +1,70 @@
+{
+  "id": "philosophie-terminale-la-justice-et-le-droit",
+  "title": "La Justice, la Loi et le Droit",
+  "summary": "Ce chapitre explore les fondements de la justice, de la loi et du droit, essentiels pour comprendre les débats contemporains et réussir l'épreuve de philosophie au BAC. Il vous fournit des distinctions claires et des méthodes d'analyse pour argumenter avec rigueur.",
+  "lesson": "## Introduction & Mise en situation\n\nLa question de la justice est au cœur de la vie en société. Chaque jour, nous jugeons des actions, nous invoquons des droits, nous obéissons à des lois. Mais qu'est-ce qu'une loi juste ? Le droit est-il toujours au service de la justice ? Ce chapitre vous donne les outils pour penser ces notions fondamentales, indispensables pour les dissertations et les commentaires de texte au BAC.\n\n## 1. Définitions et Principes Fondamentaux\n\n- **Justice** : Idéal moral et politique visant à l'équité, à la juste répartition des biens et des charges, et au respect des droits de chacun. Elle se distingue en justice commutative (égalité arithmétique dans les échanges) et justice distributive (proportionnalité selon le mérite).\n- **Loi** : Règle édictée par une autorité compétente (l'État) et sanctionnée par la contrainte publique. Elle est générale et abstraite. On distingue les lois naturelles (régularités physiques) et les lois positives (règles humaines).\n- **Droit** : Ensemble des règles qui régissent la vie en société, mais aussi la faculté reconnue à un individu (droit subjectif). Le droit objectif (l'ensemble des lois) vise à organiser la vie sociale.\n\n**Formule de la justice distributive selon Aristote** :\n$$ \\frac{A_1}{B_1} = \\frac{A_2}{B_2} $$\nOù $A_i$ représente la part attribuée à la personne $i$ et $B_i$ son mérite. La justice exige que les parts soient proportionnelles aux mérites.\n\n## 2. Propriétés et Méthodes d'application\n\n- **Distinguer légalité et légitimité** : Une loi peut être légale (conforme au droit) mais illégitime (contraire à la justice). Exemple : les lois ségrégationnistes étaient légales mais injustes.\n- **Analyser un sujet de dissertation** :\n  1. Définir les termes (justice, loi, droit).\n  2. Problématiser : y a-t-il une tension entre la loi et la justice ?\n  3. Mobiliser des références (Platon, Aristote, Rousseau, Kant, Rawls).\n  4. Construire un plan dialectique (thèse, antithèse, synthèse).\n\n**Exemple concret** : La formule de Rawls pour une société juste : les inégalités sont acceptables si elles profitent aux plus défavorisés (principe de différence).\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre droit et morale** : Le droit est sanctionné par l'État, la morale par la conscience. Ne pas les assimiler.\n- **Croire que la loi est toujours juste** : Une loi peut être injuste ; il faut distinguer le point de vue juridique et le point de vue moral.\n- **Oublier la dimension sociale** : La justice ne se réduit pas à l'application de la loi ; elle implique une réflexion sur l'égalité, la liberté et la solidarité.\n- **Erreur de calcul** : Dans la formule d'Aristote, bien identifier qui est $A_1$, $B_1$, etc.\n\n## Synthèse\n\n1. **La justice est un idéal** qui dépasse la simple légalité.\n2. **La loi est une règle positive** qui peut être évaluée à l'aune de la justice.\n3. **Le droit est un système** qui doit concilier ordre social et équité.\n\nRetenez : une société juste ne se contente pas de suivre la loi, elle la critique et l'améliore.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "justice",
+    "loi",
+    "droit",
+    "philosophie",
+    "bac"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Selon Aristote, la justice distributive repose sur :",
+      "options": [
+        "L'égalité arithmétique",
+        "La proportionnalité des parts au mérite",
+        "La volonté du plus fort",
+        "L'utilité sociale"
+      ],
+      "answer": 1,
+      "explanation": "La justice distributive vise une répartition proportionnelle aux mérites, contrairement à la justice commutative qui est égalitaire."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Une loi peut être légale mais illégitime.",
+      "answer": true,
+      "explanation": "Oui, une loi peut être conforme au droit positif mais contraire à la justice, comme les lois discriminatoires."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Dans la formule d'Aristote, si A1 = 10, B1 = 5, B2 = 3, alors A2 doit être égal à ______ pour respecter la justice distributive.",
+      "answer": "6",
+      "explanation": "On a A1/B1 = A2/B2 => 10/5 = A2/3 => A2 = 6."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Le droit objectif désigne :",
+      "options": [
+        "L'ensemble des règles juridiques",
+        "La faculté d'un individu",
+        "Les lois naturelles",
+        "La morale"
+      ],
+      "answer": 0,
+      "explanation": "Le droit objectif est l'ensemble des règles qui s'imposent à tous, tandis que le droit subjectif est la prérogative individuelle."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La loi est toujours juste.",
+      "answer": false,
+      "explanation": "La loi peut être injuste ; la justice est un idéal qui permet de critiquer la loi."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Le principe de différence de Rawls stipule que les inégalités sont justes si elles profitent aux plus ______.",
+      "answer": "défavorisés",
+      "explanation": "Rawls admet les inégalités si elles améliorent la situation des plus désavantagés."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "anglais-cinquieme-present-simple",
+  "title": "Present Simple",
+  "summary": "Le présent simple anglais : habitudes, vérités générales.",
+  "lesson": "Forme affirmative : I/you/we/they + V ; he/she/it + V-s. Négation : don't / doesn't + V. Question : Do/Does + sujet + V ?",
+  "estimatedMinutes": 7,
+  "tags": ["grammar", "tenses"],
+  "questions": [
+    { "id": "q1", "type": "mcq", "prompt": "She ___ to school every day.", "options": ["go", "goes", "going", "went"], "answer": 1, "explanation": "3ᵉ personne du singulier : -s/-es." },
+    { "id": "q2", "type": "fill", "prompt": "Complete: They ___ (not / like) coffee. (réponse en 2 mots)", "answer": "don't like", "explanation": "Négation au présent simple, sujet pluriel." },
+    { "id": "q3", "type": "truefalse", "prompt": "« He doesn't goes. » est correct.", "answer": false, "explanation": "Après doesn't, on utilise la base verbale : he doesn't go." },
+    { "id": "q4", "type": "mcq", "prompt": "Question form: ___ you speak English?", "options": ["Are", "Do", "Does", "Is"], "answer": 1, "explanation": "Sujet 'you' → Do." }
+  ]
+}

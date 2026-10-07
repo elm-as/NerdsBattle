@@ -1,0 +1,184 @@
+{
+  "id": "physique-sixieme-les-constituants-de-lair",
+  "subjectId": "physique",
+  "levelId": "sixieme",
+  "slug": "les-constituants-de-lair",
+  "title": "Les constituants de l'air",
+  "summary": "Découvre les deux gaz essentiels qui composent l'air que tu respires et apprends à lutter contre sa pollution. Une leçon essentielle pour comprendre ton environnement et agir pour le protéger.",
+  "lesson": "## Introduction\n\nL'air est partout autour de nous, mais que contient-il exactement ? Cette leçon t'apprendra à identifier les constituants essentiels de l'air, à reconnaître les sources de pollution et à proposer des actions pour réduire cette pollution. Tu pourras ainsi participer à des campagnes de sensibilisation comme celle du club environnement de ton établissement.\n\n## 1. Définitions & Notions clés\n\n### 1.1. Les constituants essentiels de l'air\n\nL'air est un **mélange** de plusieurs gaz. Ses deux constituants essentiels sont :\n- le **gaz oxygène** (environ **1/5** ou **20%** du volume d'air) ;\n- le **gaz azote** (environ **4/5** ou **80%** du volume d'air).\n\n> **À retenir** : L'air contient environ 4 fois plus d'azote que d'oxygène.\n\n### 1.2. Expérience mettant en évidence ces proportions\n\nOn place une bougie allumée sur un support dans une cuve remplie d'eau, puis on la recouvre d'une éprouvette graduée.\n\n**Observations :**\n- La bougie s'éteint.\n- L'eau monte dans l'éprouvette.\n- Le volume occupé par l'eau est égal à **1/5** du volume total de l'éprouvette.\n\n**Interprétation :** Le gaz oxygène (1/5 de l'air) est consommé par la combustion, ce qui provoque la montée de l'eau. Le gaz azote (4/5) reste.\n\n### 1.3. Quelques sources de pollution de l'air\n\n- Les ordures ménagères\n- Les déchets déversés par les usines\n- Les gaz d'échappement des véhicules et des usines\n- Les feux de brousse\n- Les herbicides\n- Les eaux usées\n\n### 1.4. Actions pour réduire la pollution de l'air\n\n- Déposer les ordures ménagères dans des endroits aménagés.\n- Installer les usines loin des lieux d'habitation.\n- Effectuer régulièrement les vidanges des véhicules.\n- Éviter les feux de brousse.\n- Éviter d'utiliser abusivement les herbicides.\n- Déverser les eaux usées dans les canaux d'évacuation.\n\n## 2. Applications & Méthodes\n\n### 2.1. Vérifier des affirmations (Vrai/Faux)\n\nPour chaque proposition, il faut vérifier si elle est conforme aux proportions de l'air :\n- L'air est constitué essentiellement de gaz oxygène et de gaz carbonique. → **Faux** (c'est azote et oxygène).\n- Un litre d'air contient 0,8 L de gaz oxygène et 0,2 L de gaz azote. → **Faux** (c'est l'inverse).\n- Un litre d'air contient 0,8 L de gaz azote et 0,2 L de gaz oxygène. → **Vrai**.\n\n### 2.2. Compléter des phrases\n\n- L'air est un **mélange** de plusieurs **gaz**.\n- L'air est constitué essentiellement de deux gaz : **le gaz azote** et **le gaz oxygène**.\n- L'air contient en volume **1/5** de gaz oxygène et **4/5** de gaz azote.\n\n### 2.3. Expliquer des phénomènes\n\n**Exemple :** Une bougie recouverte d'un récipient s'éteint au bout d'un moment.\n- Le mélange gazeux présent est l'air.\n- Ses constituants essentiels sont le gaz oxygène et le gaz azote.\n- Le gaz oxygène entretient la combustion.\n- La flamme s'éteint car tout l'oxygène du récipient a été consommé.\n\n### 2.4. Proposer des actions\n\nPour chaque source de pollution, on peut proposer une action :\n- Ordures ménagères → les déposer dans des endroits aménagés.\n- Gaz d'échappement → effectuer régulièrement les vidanges des véhicules.\n- Eaux usées → les déverser dans les canaux d'évacuation.\n\n## 3. Pièges fréquents\n\n- **Confondre azote et oxygène** : l'azote est le gaz le plus abondant (4/5), l'oxygène est minoritaire (1/5).\n- **Penser que le gaz carbonique est un constituant essentiel** : il est présent en très faible quantité (moins de 0,04%), ce n'est pas un constituant essentiel.\n- **Inverser les proportions** : 1/5 d'oxygène et 4/5 d'azote, pas l'inverse.\n- **Oublier que l'air est un mélange** : ce n'est pas un corps pur.\n- **Croire que l'oxygène est le gaz le plus abondant** : c'est l'azote.\n\n## Synthèse\n\n- L'air est un mélange de gaz.\n- Ses constituants essentiels sont le gaz azote (4/5 ou 80%) et le gaz oxygène (1/5 ou 20%).\n- L'oxygène entretient la combustion et est nécessaire à la vie.\n- La pollution de l'air a plusieurs sources : ordures, usines, véhicules, feux de brousse, herbicides, eaux usées.\n- Des actions simples peuvent réduire cette pollution : gestion des déchets, entretien des véhicules, plantation d'arbres, etc.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quels sont les deux constituants essentiels de l'air ?",
+      "options": [
+        "Le gaz carbonique et le gaz azote",
+        "Le gaz oxygène et le gaz azote",
+        "Le gaz oxygène et le gaz carbonique",
+        "Le gaz hydrogène et le gaz oxygène"
+      ],
+      "answer": 1,
+      "explanation": "D'après la leçon, l'air est constitué essentiellement de gaz oxygène et de gaz azote."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel gaz est le plus abondant dans l'air ?",
+      "options": [
+        "Le gaz oxygène",
+        "Le gaz carbonique",
+        "Le gaz azote",
+        "Le gaz hydrogène"
+      ],
+      "answer": 2,
+      "explanation": "L'azote représente environ 4/5 de l'air, c'est donc le gaz le plus abondant."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Complète : L'air est un ………………… de plusieurs gaz.",
+      "answer": "mélange",
+      "explanation": "L'air est un mélange, car il contient plusieurs substances gazeuses."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Lors de l'expérience de la bougie, pourquoi l'eau monte-t-elle dans l'éprouvette ?",
+      "options": [
+        "Parce que l'azote est consommé",
+        "Parce que l'oxygène est consommé",
+        "Parce que le gaz carbonique est produit",
+        "Parce que la bougie fond"
+      ],
+      "answer": 1,
+      "explanation": "La combustion consomme l'oxygène, ce qui crée un vide partiel et l'eau monte pour occuper 1/5 du volume."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quelle proportion du volume d'air le gaz azote représente-t-il ?",
+      "options": [
+        "1/5",
+        "2/5",
+        "3/5",
+        "4/5"
+      ],
+      "answer": 3,
+      "explanation": "L'azote représente environ 4/5 (ou 80%) du volume d'air."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Complète : L'air contient en volume ……… de gaz oxygène et ……… de gaz azote.",
+      "answer": "1/5 et 4/5",
+      "explanation": "L'air contient 1/5 d'oxygène et 4/5 d'azote."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Parmi ces propositions, laquelle est une source de pollution de l'air ?",
+      "options": [
+        "Les ordures ménagères",
+        "La photosynthèse",
+        "La respiration des plantes",
+        "L'évaporation de l'eau"
+      ],
+      "answer": 0,
+      "explanation": "Les ordures ménagères sont citées comme source de pollution de l'air."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quelle action permet de réduire la pollution due aux gaz d'échappement des véhicules ?",
+      "options": [
+        "Déposer les ordures dans des endroits aménagés",
+        "Effectuer régulièrement les vidanges des véhicules",
+        "Éviter les feux de brousse",
+        "Utiliser plus d'herbicides"
+      ],
+      "answer": 1,
+      "explanation": "Effectuer régulièrement les vidanges des véhicules permet de réduire les gaz d'échappement polluants."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Complète : Pour réduire la pollution, il faut déposer les ordures ménagères dans des endroits ………………… .",
+      "answer": "aménagés",
+      "explanation": "L'action proposée est de déposer les ordures ménagères dans des endroits aménagés."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel constituant de l'air entretient la combustion ?",
+      "options": [
+        "Le gaz azote",
+        "Le gaz carbonique",
+        "Le gaz oxygène",
+        "L'argon"
+      ],
+      "answer": 2,
+      "explanation": "Le gaz oxygène est nécessaire à la combustion ; sans lui, la flamme s'éteint."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Pourquoi la bougie s'éteint-elle lorsqu'elle est recouverte d'un récipient ?",
+      "options": [
+        "Parce que l'azote a été consommé",
+        "Parce que l'oxygène a été consommé",
+        "Parce que le gaz carbonique a été consommé",
+        "Parce que l'eau a éteint la flamme"
+      ],
+      "answer": 1,
+      "explanation": "La combustion consomme tout l'oxygène disponible dans le récipient, donc la flamme s'éteint."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Complète : L'air est constitué essentiellement de deux gaz : le gaz …………… et le gaz …………… .",
+      "answer": "azote et oxygène",
+      "explanation": "Les deux gaz essentiels sont l'azote et l'oxygène."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quel est l'avantage du planting d'arbres pour lutter contre la pollution de l'air ?",
+      "options": [
+        "Les arbres absorbent l'oxygène et rejettent du gaz carbonique",
+        "Les arbres absorbent le gaz carbonique et rejettent de l'oxygène",
+        "Les arbres absorbent l'azote et rejettent de l'oxygène",
+        "Les arbres n'ont aucun effet sur la pollution"
+      ],
+      "answer": 1,
+      "explanation": "Par la photosynthèse, les arbres absorbent le gaz carbonique et rejettent de l'oxygène, réduisant ainsi la pollution."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Parmi ces propositions, laquelle n'est pas une source de pollution de l'air ?",
+      "options": [
+        "Les herbicides",
+        "Les eaux usées",
+        "La respiration des êtres vivants",
+        "Les déchets des usines"
+      ],
+      "answer": 2,
+      "explanation": "La respiration des êtres vivants n'est pas citée comme source de pollution dans la leçon."
+    },
+    {
+      "id": "q20",
+      "type": "fill",
+      "prompt": "Complète : Le constituant de l'air nécessaire à la vie est le gaz …………… .",
+      "answer": "oxygène",
+      "explanation": "Le gaz oxygène est indispensable à la vie."
+    }
+  ]
+}

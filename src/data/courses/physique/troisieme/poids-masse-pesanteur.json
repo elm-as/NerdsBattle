@@ -1,0 +1,70 @@
+{
+  "id": "physique-troisieme-poids-masse-pesanteur",
+  "title": "Poids, masse et champ de pesanteur",
+  "summary": "Le poids et la masse sont deux grandeurs souvent confondues, mais leur distinction est essentielle pour comprendre les phénomènes physiques. Ce chapitre vous permettra de maîtriser la relation entre ces grandeurs et de calculer le poids d'un objet sur Terre ou sur d'autres astres.",
+  "lesson": "## Introduction & Mise en situation\n\nPourquoi un objet tombe-t-il toujours vers le sol ? Pourquoi les astronautes flottent-ils dans l'espace ? La réponse réside dans le **poids** et le **champ de pesanteur**. Comprendre la différence entre **masse** et **poids** est fondamental en physique. La masse mesure la quantité de matière d'un objet, tandis que le poids est la force que la gravité exerce sur cette masse. Ce chapitre vous donnera les outils pour calculer le poids d'un objet sur Terre, sur la Lune ou sur Mars, et pour éviter les confusions classiques aux examens.\n\n## 1. Définitions et Principes Fondamentaux\n\n### Masse (m)\n- **Définition** : La masse est une mesure de la quantité de matière contenue dans un objet. Elle est **invariante** : elle ne change pas quel que soit le lieu (Terre, Lune, espace).\n- **Unité** : Le kilogramme (kg) dans le Système International.\n- **Instrument de mesure** : La balance (balance de Roberval, balance électronique).\n\n### Poids (P)\n- **Définition** : Le poids est la force d'attraction gravitationnelle exercée par un astre (comme la Terre) sur un objet. C'est une **force** qui s'exerce à distance.\n- **Unité** : Le newton (N), en hommage à Isaac Newton.\n- **Instrument de mesure** : Le dynamomètre.\n- **Direction et sens** : Le poids est toujours dirigé verticalement vers le bas, vers le centre de l'astre.\n\n### Champ de pesanteur (g)\n- **Définition** : Le champ de pesanteur est une propriété de l'espace autour d'un astre. Il représente l'intensité de la force de gravité en un point donné.\n- **Unité** : Le newton par kilogramme (N/kg) ou le mètre par seconde au carré (m/s²).\n- **Valeur sur Terre** : $g = 9,8 \\, \\text{N/kg}$ (souvent arrondi à 10 N/kg pour simplifier les calculs).\n\n### Relation entre poids et masse\nLe poids est proportionnel à la masse :\n$$P = m \\times g$$\n- $P$ : poids en newtons (N)\n- $m$ : masse en kilogrammes (kg)\n- $g$ : intensité de la pesanteur en N/kg\n\n**Exemple** : Un objet de masse $m = 5 \\, \\text{kg}$ sur Terre ($g = 9,8 \\, \\text{N/kg}$) a un poids :\n$$P = 5 \\times 9,8 = 49 \\, \\text{N}$$\n\n## 2. Propriétés et Méthodes d'application\n\n### Méthode pour calculer le poids ou la masse\n1. **Identifier les données** : masse ($m$) ou poids ($P$) et l'intensité de la pesanteur ($g$).\n2. **Utiliser la formule** $P = m \\times g$.\n3. **Isoler la grandeur demandée** :\n   - Pour le poids : $P = m \\times g$.\n   - Pour la masse : $m = \\frac{P}{g}$.\n4. **Vérifier les unités** : masse en kg, poids en N, $g$ en N/kg.\n\n### Exemple concret\n**Problème** : Sur la Lune, $g_{\\text{Lune}} = 1,6 \\, \\text{N/kg}$. Un astronaute a une masse de 80 kg. Quel est son poids sur la Lune ?\n**Solution** :\n- Données : $m = 80 \\, \\text{kg}$, $g = 1,6 \\, \\text{N/kg}$.\n- Formule : $P = m \\times g = 80 \\times 1,6 = 128 \\, \\text{N}$.\n- Conclusion : Le poids de l'astronaute sur la Lune est de 128 N.\n\n### Comparaison Terre/Lune\nSur Terre, le même astronaute pèse $P_{\\text{Terre}} = 80 \\times 9,8 = 784 \\, \\text{N}$. Ainsi, le poids est environ 6 fois plus faible sur la Lune, mais sa masse reste identique (80 kg).\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre masse et poids** : La masse est en kg, le poids en N. Ne jamais dire \"je pèse 60 kg\" en physique ; on dit \"ma masse est de 60 kg\" et \"mon poids est d'environ 588 N\".\n- **Oublier la conversion des unités** : Si la masse est donnée en grammes, il faut la convertir en kg (diviser par 1000). Exemple : $m = 500 \\, \\text{g} = 0,5 \\, \\text{kg}$.\n- **Utiliser une valeur de $g$ incorrecte** : Sur Terre, $g$ vaut environ 9,8 N/kg, mais on peut arrondir à 10 N/kg si l'énoncé le précise. Ne pas utiliser 9,8 sur la Lune !\n- **Inverser la formule** : Pour calculer la masse, il faut diviser le poids par $g$, et non multiplier. Vérifiez toujours les unités.\n- **Oublier que le poids dépend du lieu** : La masse est constante, mais le poids varie selon l'astre. Un objet peut avoir un poids nul en apesanteur, mais sa masse reste la même.\n\n## Synthèse\n\n1. **La masse** ($m$) mesure la quantité de matière et s'exprime en kilogrammes (kg). Elle est constante partout.\n2. **Le poids** ($P$) est une force due à la gravité, s'exprime en newtons (N) et varie selon l'astre. Il se calcule par $P = m \\times g$.\n3. **L'intensité de la pesanteur** ($g$) dépend de l'astre : sur Terre, $g \\approx 9,8 \\, \\text{N/kg}$ ; sur la Lune, $g \\approx 1,6 \\, \\text{N/kg}$.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "poids",
+    "masse",
+    "pesanteur",
+    "force",
+    "BEPC"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est l'unité du poids dans le Système International ?",
+      "options": [
+        "Le kilogramme (kg)",
+        "Le newton (N)",
+        "Le gramme (g)",
+        "Le newton par kilogramme (N/kg)"
+      ],
+      "answer": 1,
+      "explanation": "Le poids est une force, son unité SI est le newton (N). La masse s'exprime en kg, et g en N/kg."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La masse d'un objet change lorsqu'on le déplace de la Terre à la Lune.",
+      "answer": false,
+      "explanation": "La masse est une propriété intrinsèque de l'objet, elle ne change pas. Seul le poids varie avec l'intensité de la pesanteur."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Sur Terre, g = 9,8 N/kg. Calcule le poids d'un objet de masse 5 kg. (Donne la valeur numérique en N)",
+      "answer": "49",
+      "explanation": "P = m × g = 5 × 9,8 = 49 N."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel instrument permet de mesurer le poids d'un objet ?",
+      "options": [
+        "Une balance",
+        "Un dynamomètre",
+        "Un mètre ruban",
+        "Un thermomètre"
+      ],
+      "answer": 1,
+      "explanation": "Le dynamomètre mesure les forces, donc le poids. La balance mesure la masse."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Sur la Lune, un astronaute a une masse plus faible que sur Terre.",
+      "answer": false,
+      "explanation": "La masse reste identique, c'est le poids qui est plus faible car la gravité lunaire est plus petite."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Un objet a un poids de 20 N sur Terre (g = 10 N/kg). Quelle est sa masse en kg ?",
+      "answer": "2",
+      "explanation": "m = P/g = 20/10 = 2 kg."
+    }
+  ]
+}

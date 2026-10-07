@@ -1,0 +1,219 @@
+{
+  "id": "physique-sixieme-les-gaz",
+  "subjectId": "physique",
+  "levelId": "sixieme",
+  "slug": "les-gaz",
+  "title": "Les Gaz : Propriétés Physiques",
+  "summary": "Découvre comment l'air et les gaz se comportent : compressibilité, expansibilité, élasticité et pression. Ces propriétés expliquent des phénomènes quotidiens comme la crevaison d'un pneu !",
+  "lesson": "## Introduction\n\nL'air qui nous entoure est un gaz, mais il est invisible. Pourtant, il possède des propriétés physiques étonnantes que nous pouvons observer dans la vie courante, comme lorsqu'un pneu crevé laisse échapper des bulles dans l'eau. Cette leçon explore l'existence des gaz et leurs propriétés fondamentales.\n\n## 1. Définitions & Notions clés\n\n### 1.1 Existence d'un gaz : l'air\n- **L'air** est la couche gazeuse qui enveloppe la Terre.\n- Il est formé de plusieurs gaz : oxygène, gaz carbonique, azote, etc.\n- D'autres gaz existent : butane, propane, méthane.\n\n**Expérience clé** : Un tube à essai apparemment vide, plongé dans l'eau, ne se remplit pas d'eau. En l'inclinant, des bulles s'échappent et l'eau prend la place de l'air. Cela prouve que le tube contenait de l'air.\n\n### 1.2 Propriétés des gaz\n- **Compressibilité** : Un gaz peut voir son volume diminuer sous l'effet d'une compression.\n- **Expansibilité** : Un gaz occupe tout l'espace qui lui est offert ; il se détend.\n- **Élasticité** : Un gaz reprend son volume initial lorsque la pression cesse.\n\n### 1.3 Pression d'un gaz\n- La **pression** est la poussée exercée par un gaz sur la surface avec laquelle il est en contact.\n- Lorsqu'on comprime un gaz, son volume diminue et sa pression augmente.\n- Lorsqu'on détend un gaz, son volume augmente et sa pression diminue.\n\n### 1.4 Transvasement et recueillement\n- **Transvasement** : On peut déplacer un gaz d'un récipient à un autre par **déplacement d'eau**.\n- **Recueillement** : On recueille un gaz dans un bocal retourné rempli d'eau.\n- **Conservation** : Pour conserver un gaz, on maintient le bocal retourné dans l'eau ; l'eau empêche le gaz de s'échapper.\n\n### 1.5 Règles de sécurité\n- Les gaz combustibles (butane, propane, méthane) sont dangereux.\n- Les pièces où on utilise du gaz butane doivent être bien aérées.\n- Une fuite peut provoquer un incendie ; il faut manipuler ces gaz avec précaution.\n\n## 2. Applications & Méthodes\n\n### 2.1 Détecter une fuite de gaz\n- Plonger l'objet contenant le gaz (chambre à air, ballon) dans l'eau.\n- Si des bulles apparaissent, il y a fuite.\n- La propriété mise en évidence est l'**expansibilité** : le gaz s'échappe et occupe l'espace sous forme de bulles.\n\n### 2.2 Transvaser un gaz\n- Utiliser la méthode par déplacement d'eau : le gaz chasse l'eau du récipient.\n- Exemple : transvaser l'air d'un tube à essai dans un bocal.\n\n### 2.3 Comprendre la pression\n- Seringue bouchée : en appuyant sur le piston, le volume diminue, la pression augmente.\n- En tirant sur le piston, le volume augmente, la pression diminue.\n- Si on relâche, le piston revient à sa position initiale : élasticité.\n\n## 3. Pièges fréquents\n\n- **Confondre compressibilité et expansibilité** : Compressibilité = réduction de volume ; expansibilité = occupation de tout l'espace disponible.\n- **Croire que tous les gaz sont identiques** : Ils ont des propriétés communes mais des comportements différents (certains sont combustibles).\n- **Oublier que l'air est un mélange** : L'air n'est pas un gaz pur, mais un mélange de gaz.\n- **Penser qu'un gaz n'a pas de masse** : Un gaz a une masse, mais elle est souvent négligeable.\n- **Mal appliquer la relation pression-volume** : Quand le volume diminue, la pression augmente (et inversement).\n\n## Synthèse\n\n- L'air est un gaz, mélange de plusieurs gaz.\n- Les gaz sont compressibles, expansibles et élastiques.\n- La pression d'un gaz est la poussée qu'il exerce sur une surface.\n- On peut transvaser et recueillir un gaz par déplacement d'eau.\n- Les gaz combustibles nécessitent des précautions d'utilisation.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Qu'est-ce que l'air ?",
+      "options": [
+        "Un gaz pur",
+        "La couche gazeuse qui enveloppe la Terre",
+        "Un liquide",
+        "Un solide"
+      ],
+      "answer": 1,
+      "explanation": "L'air est la couche gazeuse qui enveloppe la Terre, formée de plusieurs gaz."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "L'air est formé d'un seul gaz.",
+      "answer": false,
+      "explanation": "L'air est un mélange de plusieurs gaz : oxygène, gaz carbonique, azote, etc."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle propriété des gaz est mise en évidence lorsqu'on comprime l'air dans une seringue ?",
+      "options": [
+        "L'élasticité",
+        "L'expansibilité",
+        "La compressibilité",
+        "La pression"
+      ],
+      "answer": 2,
+      "explanation": "La compressibilité est la propriété d'un gaz de voir son volume diminuer sous l'effet d'une compression."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Un gaz occupe tout l'espace qui lui est offert : le gaz est dit ....................",
+      "answer": "expansible",
+      "explanation": "L'expansibilité est la propriété d'un gaz d'occuper tout l'espace disponible."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Lorsqu'on détend un gaz, que se passe-t-il ?",
+      "options": [
+        "Son volume diminue et sa pression augmente",
+        "Son volume augmente et sa pression diminue",
+        "Son volume et sa pression augmentent",
+        "Son volume et sa pression diminuent"
+      ],
+      "answer": 1,
+      "explanation": "Lorsqu'on détend un gaz, son volume augmente et sa pression diminue."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "La pression d'un gaz est la poussée qu'il exerce sur la surface avec laquelle il est en contact.",
+      "answer": true,
+      "explanation": "C'est la définition de la pression d'un gaz."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Comment peut-on transvaser un gaz d'un récipient à un autre ?",
+      "options": [
+        "Par déplacement d'eau",
+        "En le chauffant",
+        "En le refroidissant",
+        "En le comprimant"
+      ],
+      "answer": 0,
+      "explanation": "Le transvasement d'un gaz se fait par déplacement d'eau."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Pour recueillir un gaz, on procède par .................... d'eau.",
+      "answer": "déplacement",
+      "explanation": "On recueille un gaz par déplacement d'eau."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quelle propriété des gaz est mise en évidence lorsqu'on plonge une chambre à air crevée dans l'eau et qu'on voit des bulles ?",
+      "options": [
+        "La compressibilité",
+        "L'élasticité",
+        "L'expansibilité",
+        "La pression"
+      ],
+      "answer": 2,
+      "explanation": "Les bulles montrent que le gaz s'échappe et occupe l'espace : c'est l'expansibilité."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "L'air comme tout gaz est élastique.",
+      "answer": true,
+      "explanation": "L'élasticité est une propriété des gaz : ils reprennent leur volume initial après compression ou détente."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel gaz est présent dans un ballon de football ?",
+      "options": [
+        "Le butane",
+        "Le propane",
+        "L'air",
+        "Le méthane"
+      ],
+      "answer": 2,
+      "explanation": "Le gaz présent dans un ballon est l'air."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Lorsqu'on comprime un gaz, son volume diminue et sa pression ....................",
+      "answer": "augmente",
+      "explanation": "La compression d'un gaz fait diminuer son volume et augmenter sa pression."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Parmi ces gaz, lequel est combustible et dangereux ?",
+      "options": [
+        "L'oxygène",
+        "L'azote",
+        "Le butane",
+        "Le gaz carbonique"
+      ],
+      "answer": 2,
+      "explanation": "Le butane est un gaz combustible, il doit être manipulé avec précaution."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Les gaz ont une forme propre.",
+      "answer": false,
+      "explanation": "Les gaz n'ont pas de forme propre, ils occupent tout l'espace disponible."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Comment conserver un gaz recueilli dans un bocal ?",
+      "options": [
+        "En le laissant à l'air libre",
+        "En maintenant le bocal retourné dans l'eau",
+        "En le chauffant",
+        "En le comprimant"
+      ],
+      "answer": 1,
+      "explanation": "Pour conserver un gaz, on maintient le bocal retourné dans l'eau ; l'eau empêche le gaz de s'échapper."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "L'air est la couche gazeuse qui enveloppe la ....................",
+      "answer": "Terre",
+      "explanation": "L'air est la couche gazeuse qui enveloppe la Terre."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Que se passe-t-il lorsqu'on appuie sur le piston d'une seringue bouchée ?",
+      "options": [
+        "Le volume diminue et la pression augmente",
+        "Le volume augmente et la pression diminue",
+        "Le volume et la pression diminuent",
+        "Le volume et la pression augmentent"
+      ],
+      "answer": 0,
+      "explanation": "En comprimant un gaz, son volume diminue et sa pression augmente."
+    },
+    {
+      "id": "q18",
+      "type": "truefalse",
+      "prompt": "Le transvasement d'un gaz se fait par la méthode de déplacement de liquide.",
+      "answer": true,
+      "explanation": "Le transvasement d'un gaz se fait par déplacement d'eau (liquide)."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Pourquoi les cuisines utilisant du gaz butane doivent-elles être aérées ?",
+      "options": [
+        "Pour éviter les mauvaises odeurs",
+        "Pour éviter les incendies en cas de fuite",
+        "Pour refroidir le gaz",
+        "Pour augmenter la pression du gaz"
+      ],
+      "answer": 1,
+      "explanation": "Une fuite de gaz butane peut provoquer un incendie ; une bonne aération permet de disperser le gaz."
+    },
+    {
+      "id": "q20",
+      "type": "fill",
+      "prompt": "Lorsqu'un gaz se détend, sa pression ....................",
+      "answer": "diminue",
+      "explanation": "La détente d'un gaz fait augmenter son volume et diminuer sa pression."
+    }
+  ]
+}

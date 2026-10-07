@@ -1,0 +1,70 @@
+{
+  "id": "philosophie-terminale-l-art-et-esthetique",
+  "title": "L'Art et l'Esthétique",
+  "summary": "Ce chapitre explore la nature de l'art, du beau et de l'expérience esthétique, en confrontant les grandes théories philosophiques. Il vous permettra de développer un regard critique et argumenté sur les œuvres d'art, compétence essentielle pour l'épreuve de philosophie au BAC.",
+  "lesson": "## Introduction & Mise en situation\n\nL'art est partout : dans les musées, la musique, le cinéma, la mode, l'architecture. Mais qu'est-ce qui fait qu'un objet est une œuvre d'art ? Pourquoi certaines choses sont-elles jugées belles et d'autres non ? Ce chapitre vous invite à réfléchir sur ces questions fondamentales. En maîtrisant les concepts d'art, de beau, de goût et de jugement esthétique, vous serez capable d'analyser des œuvres et de construire une dissertation philosophique solide, ce qui est un atout majeur pour le BAC.\n\n## 1. Définitions et Principes Fondamentaux\n\n**L'art** : Le terme vient du latin *ars* qui signifie « habileté, métier ». Il désigne à la fois une technique (l'art de bâtir) et une production visant à la beauté (l'art au sens esthétique). On distingue souvent l'artisanat (production d'objets utiles) et l'art (production d'objets beaux).\n\n**Le beau** : C'est une valeur qui suscite un plaisir désintéressé et universel. Selon Kant, le beau est ce qui plaît universellement sans concept. En formule : $$\\text{Beau} = \\text{plaisir désintéressé} + \\text{universalité subjective}$$\n\n**Le jugement esthétique** : C'est le jugement que l'on porte sur la beauté d'une œuvre. Il est subjectif (dépend du sujet) mais prétend à l'universalité (on attend que tous soient d'accord).\n\n**Le goût** : C'est la faculté de juger du beau. Il est personnel mais peut être éduqué.\n\n## 2. Propriétés et Méthodes d'application\n\n**Les grandes théories de l'art :**\n\n- **Le mimétisme (Platon, Aristote)** : L'art imite la réalité. Pour Platon, l'art est une copie de la copie (l'Idée), donc trompeur. Pour Aristote, la mimésis est positive car elle permet de purger les passions (catharsis).\n- **L'art comme expression (Hegel, expressionnisme)** : L'art exprime les émotions, les idées, l'esprit d'une époque. L'œuvre est le reflet de l'intériorité de l'artiste.\n- **L'art pour l'art (Théophile Gautier)** : L'art n'a pas de fonction utilitaire ou morale, il est autonome. Sa seule fin est la beauté.\n- **L'art comme jeu (Schiller)** : L'art est un jeu libre des facultés, il nous libère de la contrainte.\n\n**Méthode d'analyse d'une œuvre :**\n1. **Description** : Décrivez objectivement ce que vous voyez (sujet, formes, couleurs, composition).\n2. **Interprétation** : Cherchez le sens, les symboles, les intentions de l'artiste.\n3. **Évaluation** : Portez un jugement esthétique en justifiant par des critères (composition, originalité, émotion).\n\n**Exemple concret :**\nPrenons *La Joconde* de Léonard de Vinci.\n- Description : Un portrait de femme, fond de paysage, technique du sfumato.\n- Interprétation : Le sourire ambigu, la perspective atmosphérique, l'humanisme de la Renaissance.\n- Évaluation : L'œuvre est considérée comme un chef-d'œuvre pour sa maîtrise technique et son mystère.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre le beau et l'agréable** : L'agréable est subjectif et lié aux sens (ex: un plat), le beau prétend à l'universalité.\n- **Réduire l'art à la technique** : L'art n'est pas seulement une question de savoir-faire, il implique une intention esthétique.\n- **Nier la dimension cognitive de l'art** : L'art n'est pas qu'émotion, il peut être une forme de connaissance.\n- **Oublier de contextualiser** : Une œuvre doit être comprise dans son époque et son courant artistique.\n\n## Synthèse\n\n1. **L'art** se distingue de la technique par sa finalité esthétique.\n2. **Le jugement esthétique** est subjectif mais prétend à l'universalité.\n3. **Les théories de l'art** sont multiples : imitation, expression, jeu, etc. Il faut les connaître pour argumenter.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "art",
+    "esthétique",
+    "philosophie",
+    "bac",
+    "beauté"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Selon Platon, l'art est une imitation (mimésis) de :",
+      "options": [
+        "la réalité sensible",
+        "les Idées",
+        "les émotions",
+        "la nature"
+      ],
+      "answer": 0,
+      "explanation": "Pour Platon, l'art imite le monde sensible, qui est lui-même une copie des Idées. Donc l'art est une copie de copie."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Pour Kant, le jugement de goût est subjectif mais prétend à l'universalité.",
+      "answer": true,
+      "explanation": "Kant affirme que le jugement esthétique est subjectif (il repose sur le sentiment de plaisir) mais il est accompagné d'une prétention à l'universalité, car on attend que tous soient d'accord."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le terme 'art' vient du latin ______, qui signifie habileté ou métier.",
+      "answer": "ars",
+      "explanation": "Le mot 'art' dérive du latin 'ars', qui désigne une compétence technique."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle théorie considère que l'art doit exprimer les émotions et les idées de l'artiste ?",
+      "options": [
+        "Le mimétisme",
+        "L'expressionnisme",
+        "L'art pour l'art",
+        "Le formalisme"
+      ],
+      "answer": 1,
+      "explanation": "L'expressionnisme (Hegel, etc.) voit dans l'art une expression de l'intériorité de l'artiste."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Selon la théorie de l'art pour l'art, l'art doit avoir une fonction morale.",
+      "answer": false,
+      "explanation": "L'art pour l'art (Gautier) affirme que l'art n'a pas de fonction utilitaire ou morale, il est autonome."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Dans l'analyse d'une œuvre, la première étape est la ______.",
+      "answer": "description",
+      "explanation": "La méthode d'analyse commence par une description objective de l'œuvre."
+    }
+  ]
+}

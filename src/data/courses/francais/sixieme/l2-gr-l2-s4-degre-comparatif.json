@@ -1,0 +1,191 @@
+{
+  "id": "francais-sixieme-l2-gr-l2-s4-degre-comparatif",
+  "subjectId": "francais",
+  "levelId": "sixieme",
+  "slug": "l2-gr-l2-s4-degre-comparatif",
+  "title": "Les degrés de comparaison de l'adjectif qualificatif",
+  "summary": "Cette leçon explique comment comparer des éléments à l'aide de l'adjectif qualificatif. On distingue trois comparatifs : infériorité, égalité et supériorité, formés avec 'moins', 'aussi' et 'plus' suivis de 'que'.",
+  "lesson": "# Les degrés de comparaison de l'adjectif qualificatif\n\n## Introduction\n\nL'adjectif qualificatif peut exprimer une comparaison entre deux éléments. On distingue trois degrés de comparaison, appelés **comparatifs** :\n\n- Le comparatif d'infériorité\n- Le comparatif d'égalité\n- Le comparatif de supériorité\n\n## I. Le comparatif d'infériorité\n\nLe comparatif d'infériorité montre qu'un élément est inférieur à un autre.\n\n**Formation :** `moins + adjectif qualificatif + que`\n\n**Exemple :** La tortue est **moins rapide que** le lièvre.\n\n## II. Le comparatif d'égalité\n\nLe comparatif d'égalité montre que deux éléments sont semblables ou égaux.\n\n**Formation :** `aussi + adjectif qualificatif + que`\n\n**Exemple :** Le Sida est **aussi dangereux que** l'Ébola.\n\n## III. Le comparatif de supériorité\n\nLe comparatif de supériorité montre qu'un élément est supérieur à un autre.\n\n**Formation :** `plus + adjectif qualificatif + que`\n\n**Exemple :** La voiture est **plus rapide que** le vélo.\n\n## Résumé\n\n| Comparatif | Formation | Exemple |\n|------------|-----------|---------|\n| Infériorité | moins + adj + que | La tortue est moins rapide que le lièvre. |\n| Égalité | aussi + adj + que | Le Sida est aussi dangereux que l'Ébola. |\n| Supériorité | plus + adj + que | La voiture est plus rapide que le vélo. |\n\n## Exercices d'application\n\n### Exercice 1\nIndique le degré de comparaison mis en relief dans chaque phrase :\n\n1. Le mont Cameroun est moins élevé que le mont Kilimandjaro.\n2. Ma mère a des paroles aussi douces que le miel.\n3. Le renard est plus rusé que la tortue.\n\n### Exercice 2\nRétablis les comparatifs en prenant garde au sens de la phrase :\n\n1. Malgré les efforts des paysans la récolte de cacao a été … bonne que l'an dernier.\n2. Ce câble d'acier supporte des charges … lourdes que l'ancienne corde végétale.\n3. Un kilo de plume est … lourd qu'un kilo de plomb.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "francais",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Combien de degrés de comparaison de l'adjectif qualificatif distingue-t-on ?",
+      "options": [
+        "Deux",
+        "Trois",
+        "Quatre",
+        "Cinq"
+      ],
+      "answer": 1,
+      "explanation": "Le document indique : 'On distingue trois degrés de comparaison de l’adjectif qualificatif.'"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel est le comparatif qui montre l'infériorité d'un élément par rapport à un autre ?",
+      "options": [
+        "Le comparatif d'égalité",
+        "Le comparatif de supériorité",
+        "Le comparatif d'infériorité",
+        "Le comparatif de quantité"
+      ],
+      "answer": 2,
+      "explanation": "Le comparatif d'infériorité montre dans la comparaison l'infériorité d'un élément par rapport à un autre."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Comment se forme le comparatif d'infériorité ?",
+      "options": [
+        "aussi + adjectif + que",
+        "plus + adjectif + que",
+        "moins + adjectif + que",
+        "moins + adjectif + de"
+      ],
+      "answer": 2,
+      "explanation": "Il se forme à partir de l'adverbe « moins » suivi de l'adjectif qualificatif et « que »."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel comparatif permet de montrer les traits communs entre deux éléments ?",
+      "options": [
+        "Le comparatif d'infériorité",
+        "Le comparatif d'égalité",
+        "Le comparatif de supériorité",
+        "Le comparatif de ressemblance"
+      ],
+      "answer": 1,
+      "explanation": "Le comparatif d'égalité permet de montrer les traits communs entre deux éléments."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle est la formation du comparatif d'égalité ?",
+      "options": [
+        "aussi + adjectif + que",
+        "plus + adjectif + que",
+        "moins + adjectif + que",
+        "autant + adjectif + que"
+      ],
+      "answer": 0,
+      "explanation": "Il se forme à partir de l’adverbe « aussi » suivi de l'adjectif qualificatif et de « que »."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel comparatif montre la grandeur d'un élément par rapport à un autre ?",
+      "options": [
+        "Le comparatif d'infériorité",
+        "Le comparatif d'égalité",
+        "Le comparatif de supériorité",
+        "Le comparatif de taille"
+      ],
+      "answer": 2,
+      "explanation": "Le comparatif de supériorité montre la grandeur d'un élément par rapport à un autre."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Comment se forme le comparatif de supériorité ?",
+      "options": [
+        "aussi + adjectif + que",
+        "plus + adjectif + que",
+        "moins + adjectif + que",
+        "plus + adjectif + de"
+      ],
+      "answer": 1,
+      "explanation": "Il se forme à partir de l’adverbe « plus » suivi de l'adjectif qualificatif et de « que »."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Complétez : Le comparatif d'infériorité se forme avec l'adverbe ____ suivi de l'adjectif et de 'que'.",
+      "answer": "moins",
+      "explanation": "Le document précise : 'Il se forme à partir de l'adverbe « moins » suivi de l'adjectif qualificatif et « que ».'"
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Complétez : Le comparatif d'égalité se forme avec l'adverbe ____ suivi de l'adjectif et de 'que'.",
+      "answer": "aussi",
+      "explanation": "Le document indique : 'Il se forme à partir de l’adverbe « aussi » suivi de l'adjectif qualificatif et de « que ».'"
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Complétez : Le comparatif de supériorité se forme avec l'adverbe ____ suivi de l'adjectif et de 'que'.",
+      "answer": "plus",
+      "explanation": "Le document précise : 'Il se forme à partir de l’adverbe « plus » suivi de l'adjectif qualificatif et de « que ».'"
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Dans la phrase 'Le mont Cameroun est moins élevé que le mont Kilimandjaro', quel est le degré de comparaison ?",
+      "options": [
+        "Comparatif d'infériorité",
+        "Comparatif d'égalité",
+        "Comparatif de supériorité",
+        "Aucun comparatif"
+      ],
+      "answer": 0,
+      "explanation": "On utilise 'moins... que', donc c'est un comparatif d'infériorité."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Dans la phrase 'Ma mère a des paroles aussi douces que le miel', quel est le degré de comparaison ?",
+      "options": [
+        "Comparatif d'infériorité",
+        "Comparatif d'égalité",
+        "Comparatif de supériorité",
+        "Aucun comparatif"
+      ],
+      "answer": 1,
+      "explanation": "On utilise 'aussi... que', donc c'est un comparatif d'égalité."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Dans la phrase 'Le renard est plus rusé que la tortue', quel est le degré de comparaison ?",
+      "options": [
+        "Comparatif d'infériorité",
+        "Comparatif d'égalité",
+        "Comparatif de supériorité",
+        "Aucun comparatif"
+      ],
+      "answer": 2,
+      "explanation": "On utilise 'plus... que', donc c'est un comparatif de supériorité."
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "prompt": "Complétez la phrase avec le comparatif qui convient : 'Malgré les efforts des paysans la récolte de cacao a été ____ bonne que l'an dernier.'",
+      "answer": "moins",
+      "explanation": "Le sens de la phrase indique une infériorité : la récolte a été moins bonne que l'an dernier."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "prompt": "Complétez la phrase avec le comparatif qui convient : 'Ce câble d'acier supporte des charges ____ lourdes que l'ancienne corde végétale.'",
+      "answer": "plus",
+      "explanation": "Le sens de la phrase indique une supériorité : le câble supporte des charges plus lourdes."
+    },
+    {
+      "id": "q19",
+      "type": "fill",
+      "prompt": "Complétez la phrase avec le comparatif qui convient : 'Un kilo de plume est ____ lourd qu'un kilo de plomb.'",
+      "answer": "aussi",
+      "explanation": "Un kilo de plume et un kilo de plomb ont le même poids, donc on utilise le comparatif d'égalité : aussi lourd que."
+    }
+  ]
+}

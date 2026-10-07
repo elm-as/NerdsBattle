@@ -1,0 +1,138 @@
+{
+  "id": "svt-premiere-l1-cours-svt-1iere-d-apc-ecole-online-b",
+  "subjectId": "svt",
+  "levelId": "premiere",
+  "slug": "l1-cours-svt-1iere-d-apc-ecole-online-b",
+  "title": "Les mouvements réflexes innés chez l'organisme",
+  "summary": "Ce document expose les principes fondamentaux des mouvements réflexes innés, illustrés par des expériences sur grenouilles. Il détaille la structure de l'arc réflexe, les organes impliqués (récepteurs, conducteurs, centre nerveux, effecteurs) et la distinction entre réflexes innés et acquis. Les conclusions soulignent l'automatisme et l'inconscience de ces mouvements, essentiels à la survie.",
+  "lesson": "# Les mouvements réflexes innés\n\n## 1. Introduction\nLes réflexes innés sont des réponses automatiques, rapides et stéréotypées à un stimulus. Ils se produisent sans l'intervention du cerveau et sont présents dès la naissance.\n\n## 2. Expérience 1 – Grenouille spinale\n- **Objectif** : Montrer un réflexe de retrait chez une grenouille sans cerveau.\n- **Méthode** : La grenouille est suspendue, son pied gauche est trempé dans une solution acide de concentration croissante.\n- **Résultat** : À faible concentration, pas de retrait. À concentration élevée, la grenouille retire brusquement son pied.\n- **Analyse** : Le retrait dépend de la concentration de l'acide.\n- **Interprétation** : Le réflexe est inné, automatique, et ne nécessite pas le cerveau.\n\n## 3. Expérience 2 – Interférence avec les organes\n- **a)** Application d'éther sur la patte droite : pas de retrait pendant 15 min, puis retrait.\n- **b)** Section du nerf sciatique droit : pas de retrait définitif.\n- **c)** Destruction complète de la moelle épinière : pas de retrait définitif.\n- **Analyse** : L'éther rend les récepteurs insensibles; la section du nerf ou de la moelle empêche la transmission.\n- **Interprétation** : Les récepteurs (peau), conducteurs (nerfs), centre nerveux (moelle) et effecteurs (muscles) forment l'arc réflexe.\n\n## 4. L'arc réflexe\n```\nRécepteur → Conducteur sensitif → Centre nerveux → Conducteur moteur → Effecteur\n```\n- **Récepteur** : peau, yeux, oreilles, etc.\n- **Conducteur sensitif** : nerfs qui transmettent l'information.\n- **Centre nerveux** : moelle épinière.\n- **Conducteur moteur** : nerfs qui commandent les muscles.\n- **Effecteur** : muscles qui se contractent.\n\n## 5. Conclusion\nLes mouvements réflexes sont effectués de manière inconsciente et sont innés. Ils dépendent d'un réseau précis d'organes et de voies nerveuses, garantissant une réponse rapide et fiable aux stimuli dangereux.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "svt",
+    "premiere",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le principal avantage d'un réflexe inné?",
+      "options": [
+        "Il nécessite l'apprentissage",
+        "Il est rapide et automatique",
+        "Il dépend du cerveau",
+        "Il est volontaire"
+      ],
+      "answer": 1,
+      "explanation": "Les réflexes innés sont rapides et automatiques, ne nécessitant pas d'apprentissage."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le récepteur de la peau est appelé ________.",
+      "answer": "récepteur",
+      "explanation": ""
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans l'expérience de la grenouille, quel stimulus provoque le retrait du pied?",
+      "options": [
+        "Chaleur",
+        "Acide",
+        "Lumière",
+        "Son"
+      ],
+      "answer": 1,
+      "explanation": "L'acide est le stimulus qui provoque le retrait."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel organe est considéré comme l'effecteur dans l'arc réflexe?",
+      "options": [
+        "Peau",
+        "Nerf sensitif",
+        "Muscle",
+        "Moelle épinière"
+      ],
+      "answer": 2,
+      "explanation": "Le muscle est l'effecteur qui se contracte."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Le centre nerveux qui convertit le message sensitif en message moteur est la ________.",
+      "answer": "moelle épinière",
+      "explanation": ""
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel type de stimulus est nécessaire pour déclencher un réflexe inné?",
+      "options": [
+        "Stimulus relatif",
+        "Stimulus absolu",
+        "Stimulus visuel",
+        "Stimulus auditif"
+      ],
+      "answer": 1,
+      "explanation": "Un stimulus absolu est nécessaire pour déclencher un réflexe inné."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel est le rôle du nerf moteur dans l'arc réflexe?",
+      "options": [
+        "Recevoir le stimulus",
+        "Transmettre l'information sensitif",
+        "Transmettre l'information moteur",
+        "Contrôler le cerveau"
+      ],
+      "answer": 2,
+      "explanation": "Le nerf moteur transmet l'information du centre nerveux aux muscles."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "La partie de l'organisme qui reçoit le stimulus est appelée ________.",
+      "answer": "récepteur",
+      "explanation": ""
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel est le résultat d'une destruction complète de la moelle épinière?",
+      "options": [
+        "Retrait du pied",
+        "Pas de retrait",
+        "Retrait plus rapide",
+        "Pas de réponse musculaire"
+      ],
+      "answer": 3,
+      "explanation": "La moelle épinière est nécessaire pour transmettre le message, donc pas de réponse musculaire."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Le trajet complet de l'influx nerveux dans un réflexe est appelé ________.",
+      "answer": "arc réflexe",
+      "explanation": ""
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quel est le principal organe impliqué dans la transmission du message nerveux?",
+      "options": [
+        "Peau",
+        "Muscle",
+        "Nerf sensitif",
+        "Cerveau"
+      ],
+      "answer": 2,
+      "explanation": "Le nerf sensitif transmet le message du récepteur au centre nerveux."
+    }
+  ]
+}

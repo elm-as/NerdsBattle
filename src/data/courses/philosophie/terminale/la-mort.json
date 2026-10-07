@@ -1,0 +1,138 @@
+{
+  "id": "philosophie-terminale-la-mort",
+  "subjectId": "philosophie",
+  "levelId": "terminale",
+  "slug": "la-mort",
+  "title": "La mort et le désir : une exploration philosophique",
+  "summary": "Ce document examine comment le désir, de l’auto‑négation à la quête d’éternité, conduit à la mort, en s’appuyant sur les théories de Lacan, Nietzsche et Freud. Il expose la structure kamikaze du désir, l’agressivité introjectée, la pulsion de mort et le plaisir de se perdre.",
+  "lesson": "# Introduction\nLe texte explore la relation entre le désir humain et la mort, en s’appuyant sur trois grands penseurs : Lacan, Nietzsche et Freud. Il montre comment le désir, en cherchant la satisfaction, se dirige vers sa propre disparition, et comment la mort devient la jouissance suprême.\n\n## 1. La structure kamikaze du désir\n- Le désir vise la satisfaction, mais la satisfaction met fin au désir.\n- Cette auto‑négation crée une tension qui aspire à la détente ultime : la mort.\n- La mort est perçue comme le repos suprême, l’achèvement du désir.\n\n## 2. L’agressivité introjectée (Nietzsche)\n- La volonté de mort est une agressivité retournée contre soi.\n- Dans la morale chrétienne, la culpabilité est un retour de la cruauté naturelle.\n- L’ascète, en réprimant ses désirs, trouve un plaisir intense dans l’auto‑cruauté.\n\n## 3. La nature conservatrice des pulsions (Freud)\n- Les pulsions cherchent à restaurer un état passé, une « trace mnésique ».\n- La pulsion buccale vise le plaisir de la succion maternelle.\n- Le désir ne trouve pas de satisfaction dans le présent, il aspire à un souvenir révolu.\n\n## 4. Le plaisir de se perdre\n- Le désir de se dissoudre dans le cosmos est présent chez les mystiques et dans la musique, la danse, la transe.\n- Ce sentiment est lié à la schizophrénie, où la distinction entre soi et le monde s’efface.\n\n# Conclusion\nLe désir, en quête d’éternité, se transforme en une volonté de mort. La mort devient la jouissance ultime, un retour à un état non‑vivant, et le plaisir de se perdre est une manifestation de cette quête.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "philosophie",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le résultat de la satisfaction du désir selon la théorie kamikaze ?",
+      "options": [
+        "Il augmente le désir",
+        "Il le met fin",
+        "Il le transforme en pulsion",
+        "Il le rend illimité"
+      ],
+      "answer": 1,
+      "explanation": "La satisfaction met fin au désir, créant une tension qui aspire à la mort."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Selon Nietzsche, la volonté de mort est souvent appelée ___ dans la philosophie.",
+      "answer": "nihilisme",
+      "explanation": "Nietzsche l’appelle « nihilisme »."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel concept lacanien est mentionné pour expliquer la structure du désir ?",
+      "options": [
+        "Le stade du miroir",
+        "La jouissance",
+        "Le principe de plaisir",
+        "Le complexe d’Œdipe"
+      ],
+      "answer": 1,
+      "explanation": "Lacan parle de la jouissance comme structure du désir."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "La pulsion buccale vise à retrouver quel souvenir ?",
+      "options": [
+        "Le plaisir de la succion maternelle",
+        "Le goût du sucre",
+        "La chaleur du foyer",
+        "La liberté d’expression"
+      ],
+      "answer": 0,
+      "explanation": "Elle vise le plaisir de la succion maternelle."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel est le lien entre la schizophrénie et le désir de se perdre ?",
+      "options": [
+        "Elle renforce la distinction soi/monde",
+        "Elle efface la distinction soi/monde",
+        "Elle crée une nouvelle identité",
+        "Elle n’a aucun lien"
+      ],
+      "answer": 1,
+      "explanation": "La schizophrénie efface la distinction entre soi et le monde."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Le texte mentionne que la mort est la ___ du désir.",
+      "answer": "fin",
+      "explanation": "La mort est la fin du désir."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel auteur est cité pour expliquer la pulsion de mort ?",
+      "options": [
+        "Nietzsche",
+        "Freud",
+        "Lacan",
+        "Alquié"
+      ],
+      "answer": 1,
+      "explanation": "Freud introduit la pulsion de mort."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel est le rôle de la culpabilité dans la morale chrétienne selon Nietzsche ?",
+      "options": [
+        "Elle libère l’homme",
+        "Elle l’induit",
+        "Elle le rend heureux",
+        "Elle l’ignore"
+      ],
+      "answer": 1,
+      "explanation": "La culpabilité est induite par les prêtres."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Le texte fait référence à la ___ de Freud pour expliquer le retour à l’état non‑vivant.",
+      "answer": "pulsion de mort",
+      "explanation": "Freud parle de la pulsion de mort."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel est le principal argument de Nietzsche contre la morale chrétienne ?",
+      "options": [
+        "Elle encourage la liberté",
+        "Elle promeut la compassion",
+        "Elle retourne la cruauté contre soi",
+        "Elle favorise la science"
+      ],
+      "answer": 2,
+      "explanation": "Il critique le retour de la cruauté contre soi."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "prompt": "Le texte cite ___ Rolland pour parler du sentiment océanique.",
+      "answer": "Romain",
+      "explanation": "Romain Rolland parle du sentiment océanique."
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "philosophie-terminale-les-sens-sont-ils-trompeurs",
+  "subjectId": "philosophie",
+  "levelId": "terminale",
+  "slug": "les-sens-sont-ils-trompeurs",
+  "title": "Les sens sont-ils trompeurs ? Analyse philosophique",
+  "summary": "Ce texte explore la fiabilité des sens en philosophie. Il interroge la relation entre perception et réalité, les phénomènes d’illusion et de rêve, et les arguments classiques (Descartes, Hume, le scepticisme). La leçon propose une réflexion structurée et des outils pour évaluer la confiance que l’on peut accorder à nos sens.",
+  "lesson": "# Introduction\nLa perception semble simple : le monde se présente à nos sens, notre cerveau le reconstitue. Mais la fidélité de cette image est-elle garantie ?\n\n# 1. La perception comme construction\n- Les organes sensoriels captent des stimuli physiques.\n- Le cerveau interprète ces données selon des schémas cognitifs.\n- Exemple : l’illusion d’optique du « verre d’eau » sur le sol.\n\n# 2. Le doute cartésien\n- *Cogito, ergo sum* : Descartes doute de tout ce qui peut être mis en doute, y compris les sens.\n- Le rêve : comment distinguer le rêve de la réalité ?\n- Le « malin génie » hypothétique qui tromperait nos sens.\n\n# 3. Le scepticisme empirique (Hume)\n- Les impressions sont vivaces, les idées sont copies affaiblies.\n- Le problème de la causalité : nous n’observons que la succession d’événements, pas le lien nécessaire.\n\n# 4. Réponses philosophiques\n- **Réalisme modéré** : les sens sont imparfaits mais corrigés par la raison et la science.\n- **Idéalisme** : la réalité est constituée par la perception (Berkeley).\n- **Phénoménologie** : l’expérience vécue est le point de départ, sans présupposer une réalité objective.\n\n# 5. Méthodes de vérification\n- Répétition et intersubjectivité : plusieurs observateurs confirment la même perception.\n- Instruments scientifiques qui étendent nos capacités sensorielles.\n- Cohérence logique et prédiction.\n\n# Conclusion\nLes sens peuvent nous tromper, mais le doute absolu n’est pas tenable. La philosophie propose des stratégies pour juger de la fiabilité de nos perceptions et construire une connaissance critique.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "philosophie",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Selon Descartes, pourquoi les sens sont-ils sources de doute?",
+      "options": [
+        "Parce qu'ils sont parfois trompeurs",
+        "Parce qu'ils sont fiables",
+        "Parce qu'ils sont inutiles",
+        "Parce qu'ils sont contrôlés par le corps"
+      ],
+      "answer": 0,
+      "explanation": "Descartes souligne que les sens peuvent nous tromper, d'où le doute méthodologique."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Hume distingue les impressions des _______.",
+      "answer": "idées",
+      "explanation": "Chez Hume, les impressions sont les perceptions vives, les idées en sont les copies affaiblies."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel philosophe affirme que \"être est être perçu\"?",
+      "options": [
+        "Descartes",
+        "Berkeley",
+        "Kant",
+        "Hume"
+      ],
+      "answer": 1,
+      "explanation": "George Berkeley soutient que l'existence des objets dépend de leur perception."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle méthode permet de réduire les erreurs sensorielles?",
+      "options": [
+        "L'intuition pure",
+        "L'expérimentation répétée",
+        "Le hasard",
+        "L'opinion populaire"
+      ],
+      "answer": 1,
+      "explanation": "La répétition et l'intersubjectivité permettent de vérifier la fiabilité des perceptions."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Le « malin génie » est une hypothèse hypothétique de _______.",
+      "answer": "Descartes",
+      "explanation": "Descartes introduit le malin génie pour pousser le doute au maximum."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel domaine scientifique aide à dépasser les limites de nos sens?",
+      "options": [
+        "La métaphysique",
+        "La physique expérimentale",
+        "La rhétorique",
+        "L'esthétique"
+      ],
+      "answer": 1,
+      "explanation": "Les instruments scientifiques étendent nos capacités sensorielles."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel problème philosophique soulève Hume concernant la causalité?",
+      "options": [
+        "L'absence de cause première",
+        "L'impossibilité de percevoir les causes",
+        "La confusion entre cause et effet",
+        "La nécessité de Dieu"
+      ],
+      "answer": 1,
+      "explanation": "Hume montre que nous n'observons que la succession d'événements, pas le lien nécessaire."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "La phénoménologie commence par l'étude de l'_______ vécue.",
+      "answer": "expérience",
+      "explanation": "La phénoménologie se fonde sur l'expérience vécue comme point de départ."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel critère n'est PAS utilisé pour valider une perception?",
+      "options": [
+        "La cohérence logique",
+        "L'accord intersubjectif",
+        "La popularité du phénomène",
+        "La capacité prédictive"
+      ],
+      "answer": 2,
+      "explanation": "La popularité n'est pas un critère épistémologique de validation."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel philosophe a introduit le concept de « tableau de la perception »?",
+      "options": [
+        "Kant",
+        "Locke",
+        "Descartes",
+        "Berkeley"
+      ],
+      "answer": 0,
+      "explanation": "Kant parle de la représentation phénoménale comme un tableau construit par l'esprit."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Le doute méthodologique vise à atteindre une certitude _______.",
+      "answer": "indubitable",
+      "explanation": "Descartes cherche une certitude qui ne puisse être mise en doute."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quel phénomène illustre le mieux la différence entre perception et réalité?",
+      "options": [
+        "Le mirage",
+        "Le bruit blanc",
+        "Le parfum",
+        "Le goût sucré"
+      ],
+      "answer": 0,
+      "explanation": "Le mirage montre une perception (eau) qui n'existe pas réellement."
+    }
+  ]
+}

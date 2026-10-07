@@ -1,0 +1,173 @@
+{
+  "id": "svt-terminale-comment-le-muscle-strie-squelettique-se-cont",
+  "subjectId": "svt",
+  "levelId": "terminale",
+  "slug": "comment-le-muscle-strie-squelettique-se-cont",
+  "title": "Contraction du muscle strié squelettique – Structure et mécanisme",
+  "summary": "Ce cours décrit la structure macroscopique et ultrastructurale du muscle strié squelettique, les composants cellulaires (sarcolemme, sarcoplasme, myofibrilles, sarcomères) ainsi que le mécanisme de contraction basé sur l’interaction actine‑myosine, le rôle du calcium et de l’ATP. Il propose des activités d’observation, d’analyse et de synthèse pour les élèves de Terminale D.",
+  "lesson": "# 1. Introduction\nLes mouvements physiques que nous réalisons reposent sur la contraction du muscle strié squelettique. Ce cours explique comment la structure du muscle permet cette contraction.\n\n# 2. Organisation macroscopique du muscle\n- Le muscle est constitué de **faisceaux** de fibres musculaires séparés par du tissu conjonctif (endomysium, périmysium, épimysium).\n- Chaque faisceau est vascularisé et innervé.\n\n# 3. Ultrastructure de la fibre musculaire\n| Élément | Description |\n|---|---|\n| **Sarcolemme** | Membrane plasmique spécialisée, conduit le potentiel d’action. |\n| **Sarcoplasme** | Cytoplasme riche en mitochondries, glycogène et réticulum sarcoplasmique. |\n| **Myofibrilles** | Cylindres contractiles composés de sarcomères en série. |\n| **Sarcomère** | Unité contractile définie par deux lignes Z; contient bandes I (claires) et A (noires). |\n| **Filaments** | **Myosine** (épais) et **actine** (mince) s’entrelacent dans le sarcomère. |\n\n# 4. Mécanisme de contraction (théorie du glissement des filaments)\n1. **Dépolarisation** du sarcolemme → potentiel d’action se propage.\n2. **Libération de Ca²⁺** du réticulum sarcoplasmique dans le sarcoplasme.\n3. Le Ca²⁺ se lie à la troponine, modifiant la conformation de la tropomyosine et exposant les sites actifs de l’actine.\n4. La tête de myosine, hydrolysant l’ATP, se lie à l’actine → formation du pont actine‑myosine.\n5. Le pont effectue un **coup de puissance** (power stroke) qui glisse le filament d’actine vers le centre du sarcomère.\n6. L’ATP se lie à la myosine, provoquant la dissociation du pont; l’ATP est hydrolysé, rechargant la myosine pour un nouveau cycle.\n7. Répétition du cycle → raccourcissement du sarcomère → contraction du muscle.\n\n# 5. Rôle du calcium et de l’ATP\n- **Ca²⁺** : déclencheur de la liaison actine‑myosine.\n- **ATP** : source d’énergie, permet le détachement et le repositionnement de la myosine.\n\n# 6. Observation pratique\n- Découpe transversale d’un muscle strié pour identifier les fibres, les myofibrilles et les sarcomères.\n- Comparaison d’un muscle au repos et contracté (réduction de la distance Z‑Z).\n\n# 7. Synthèse\nLe muscle strié squelettique se contracte grâce à une architecture hiérarchique (muscle → faisceau → fibre → myofibrille → sarcomère) et à un mécanisme biochimique précis (potentiel d’action → Ca²⁺ → interaction actine‑myosine → ATP).",
+  "estimatedMinutes": 10,
+  "tags": [
+    "svt",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel tissu sépare les faisceaux de fibres musculaires?",
+      "options": [
+        "Épimysium",
+        "Endomysium",
+        "Périmysium",
+        "Sarcoplasme"
+      ],
+      "answer": 2,
+      "explanation": "Le périmysium entoure chaque faisceau de fibres."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le sarcolemme est la membrane plasmique de la fibre musculaire.",
+      "answer": true,
+      "explanation": "Exact, le sarcolemme conduit le potentiel d’action."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le réticulum sarcoplasmique libère des ions ______ lors de la contraction.",
+      "answer": "Ca2+",
+      "explanation": "Le calcium (Ca²⁺) déclenche la liaison actine‑myosine."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle protéine forme les filaments épais du sarcomère?",
+      "options": [
+        "Actine",
+        "Myosine",
+        "Tropomyosine",
+        "Troponine"
+      ],
+      "answer": 1,
+      "explanation": "La myosine constitue les filaments épais."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Dans le sarcomère, les lignes Z marquent les limites de:",
+      "options": [
+        "Bande A",
+        "Bande I",
+        "Sarcomère",
+        "Myofibrille"
+      ],
+      "answer": 2,
+      "explanation": "Les lignes Z délimitent chaque sarcomère."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "L’ATP est nécessaire uniquement pour le détachement de la myosine de l’actine.",
+      "answer": true,
+      "explanation": "L’ATP permet le détachement et le rechargement de la myosine."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Le processus de raccourcissement du sarcomère s’appelle le ______ des filaments.",
+      "answer": "glissement",
+      "explanation": "C’est la théorie du glissement des filaments."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel événement suit immédiatement la dépolarisation du sarcolemme?",
+      "options": [
+        "Libération d’ATP",
+        "Libération de Ca²⁺",
+        "Formation du pont actine‑myosine",
+        "Rétraction du muscle"
+      ],
+      "answer": 1,
+      "explanation": "Le potentiel d’action provoque la libération de calcium du réticulum sarcoplasmique."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Les bandes I sont composées uniquement de filaments d’actine.",
+      "answer": false,
+      "explanation": "Les bandes I contiennent des filaments d’actine et la zone où les filaments de myosine sont absents."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel organite est abondant dans le sarcoplasme pour fournir l’énergie nécessaire à la contraction?",
+      "options": [
+        "Noyau",
+        "Réticulum endoplasmique rugueux",
+        "Mitochondrie",
+        "Lysosome"
+      ],
+      "answer": 2,
+      "explanation": "Les mitochondries sont très nombreuses dans le sarcoplasme."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Le point de jonction entre deux lignes Z s’appelle le ______.",
+      "answer": "sarcomère",
+      "explanation": "Le sarcomère est l’unité contractile entre deux lignes Z."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Le tropomyosine bloque les sites actifs de l’actine en l’absence de calcium.",
+      "answer": true,
+      "explanation": "En l’absence de Ca²⁺, la tropomyosine recouvre les sites d’attache de la myosine."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel type de muscle est étudié dans ce cours?",
+      "options": [
+        "Cardiaque",
+        "Lisse",
+        "Strié squelettique",
+        "Lisse et cardiaque"
+      ],
+      "answer": 2,
+      "explanation": "Le cours porte sur le muscle strié squelettique."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Le raccourcissement du muscle se mesure par la diminution de la distance entre les lignes ______.",
+      "answer": "Z",
+      "explanation": "La contraction réduit la distance Z‑Z."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Le sarcolemme possède des canaux ioniques voltage‑dépendants.",
+      "answer": true,
+      "explanation": "Ces canaux permettent la propagation du potentiel d’action."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel phénomène permet de visualiser la contraction au microscope?",
+      "options": [
+        "Augmentation du diamètre du sarcolemme",
+        "Réduction de la distance Z‑Z",
+        "Disparition des bandes I",
+        "Fusion des myofibrilles"
+      ],
+      "answer": 1,
+      "explanation": "La contraction raccourcit la distance entre les lignes Z."
+    }
+  ]
+}

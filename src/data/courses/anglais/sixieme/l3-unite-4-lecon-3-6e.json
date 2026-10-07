@@ -1,0 +1,204 @@
+{
+  "id": "anglais-sixieme-l3-unite-4-lecon-3-6e",
+  "subjectId": "anglais",
+  "levelId": "sixieme",
+  "slug": "l3-unite-4-lecon-3-6e",
+  "title": "Jobs and Occupations: Where does Aunt Enoh work?",
+  "summary": "Cette leçon apprend à parler des lieux de travail et à décrire des lieux, objets et performances. Les élèves découvrent le vocabulaire des métiers et des lieux, et s'entraînent à poser des questions avec 'Where does... work?'.",
+  "lesson": "# Jobs and Occupations: Where does Aunt Enoh work?\n\n## 1. Vocabulaire des lieux de travail\n\n- **a building site** : un chantier de construction. *Exemple : An engineer works at a building site.*\n- **a law court** : un tribunal. *Exemple : A lawyer works at a law court.*\n- **a shop** : un magasin. *Exemple : The barber and the greengrocer work in a shop.*\n- **a car wash** : une station de lavage de voitures. *Exemple : The car washer washes cars in a car wash.*\n- **a plane** : un avion (lieu de travail du pilote).\n- **a dental clinic** : un cabinet dentaire.\n- **a workshop** : un atelier.\n\n## 2. Adjectifs pour décrire\n\n- **smelly** : qui sent mauvais.\n- **crowded** : bondé, plein de monde.\n- **fast** : rapide.\n- **fragrant** : parfumé.\n- **muddy** : boueux.\n- **dusty** : poussiéreux.\n- **cool** : frais.\n\n## 3. Parler des lieux de travail\n\nPour demander où travaille une personne :\n\n- **Where does a car washer work?** → He works in a car wash.\n- **Where does the cook work?** → He/She works in a kitchen.\n- **Where do accountants work?** → They work in offices.\n\n## 4. Décrire des lieux, objets et performances\n\n- The socks of Tom are **smelly**.\n- SOTRA’s buses are **crowded**.\n- Muriel Ahouré runs **fast**.\n- Road building sites are generally **dusty**.\n- The air-conditioner makes the headmaster’s office **cool**.\n- Akoua’s house is **fragrant** because of the good perfume she uses.\n\n## 5. Exercices pratiques\n\n### Activité 1 : Associer métiers et lieux\n\n| Métier | Lieu de travail |\n|--------|-----------------|\n| An engineer | a building site |\n| A lawyer | a law court |\n| Barbers and greengrocers | a shop |\n| A car washer | a car wash |\n| Pilots | a plane |\n| A housemaid | a house |\n| A cook | a restaurant |\n\n### Activité 2 : Remettre les lettres dans l'ordre\n\n1. R A C H A W S → CAR WASH\n2. E C I F O F → OFFICE\n3. R K W O H O S P → WORKSHOP\n4. N K T H I E C → KITCHEN\n5. T N A R R A T S E U → RESTAURANT\n6. A W L T R C O U → LAW COURT\n\n### Activité 3 : Compléter avec l'adjectif qui convient\n\n1. Road building sites are generally **dusty**.\n2. ‘Adjamé Forum’ market is always **crowded**.\n3. The air-conditioner makes the headmaster’s office **cool**.\n4. Akoua’s house is **fragrant** because of the good perfume she uses.\n5. During the Olympic Games, Ta Lou Marie Josée ran **fast** to be the first.\n6. In front of the shop, there is a big dustbin that makes it **smelly**.\n\n### Activité 4 : Poser des questions\n\n- **Q:** Where does the dentist work?  \n  **A:** The dentist works in a dental clinic.\n- **Q:** Where do architects work?  \n  **A:** Architects work on building sites.\n- **Q:** Where does the car washer work?  \n  **A:** The car washer works in a car wash.\n- **Q:** Where do you work?  \n  **A:** I don’t work. I am a student.\n\n## 6. Tâche de communication\n\nÉcrire un dialogue avec un ami ghanéen sur le travail et le lieu de travail de vos parents. Puis, rédiger un paragraphe sur le métier d'un membre de votre famille en indiquant :\n\n1. Le membre de la famille.\n2. Son métier.\n3. Le nom et une brève description de son lieu de travail.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "anglais",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Where does an engineer work?",
+      "options": [
+        "In a law court",
+        "At a building site",
+        "In a car wash",
+        "In a shop"
+      ],
+      "answer": 1,
+      "explanation": "D'après le document, un ingénieur travaille sur un chantier de construction (building site)."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Where does a lawyer work?",
+      "options": [
+        "At a law court",
+        "In a dental clinic",
+        "In a workshop",
+        "On a plane"
+      ],
+      "answer": 0,
+      "explanation": "Le document indique qu'un avocat travaille dans un tribunal (law court)."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Who works in a shop?",
+      "options": [
+        "A pilot",
+        "A car washer",
+        "A barber and a greengrocer",
+        "A cook"
+      ],
+      "answer": 2,
+      "explanation": "Le barbier et le marchand de légumes travaillent dans un magasin (shop)."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Where does a car washer work?",
+      "options": [
+        "In a car wash",
+        "In a workshop",
+        "At a building site",
+        "In an office"
+      ],
+      "answer": 0,
+      "explanation": "Le laveur de voitures travaille dans une station de lavage (car wash)."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Where do pilots work?",
+      "options": [
+        "In a plane",
+        "In a law court",
+        "In a restaurant",
+        "In a house"
+      ],
+      "answer": 0,
+      "explanation": "Les pilotes travaillent dans un avion (plane)."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Where does a housemaid work?",
+      "options": [
+        "In a house",
+        "In a shop",
+        "In a car wash",
+        "On a building site"
+      ],
+      "answer": 0,
+      "explanation": "Une femme de ménage travaille dans une maison (house)."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Where does a cook work?",
+      "options": [
+        "In a restaurant",
+        "In a law court",
+        "In a plane",
+        "In a dental clinic"
+      ],
+      "answer": 0,
+      "explanation": "Un cuisinier travaille dans un restaurant."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Complete : Road building sites are generally __________.",
+      "answer": "dusty",
+      "explanation": "D'après le document, les chantiers de construction de routes sont généralement poussiéreux (dusty)."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Complete : ‘Adjamé Forum’ market is always __________.",
+      "answer": "crowded",
+      "explanation": "Le marché d'Adjamé Forum est toujours bondé (crowded)."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Complete : The air-conditioner makes the headmaster’s office __________.",
+      "answer": "cool",
+      "explanation": "Le climatiseur rend le bureau du directeur frais (cool)."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Complete : Akoua’s house is __________ because of the good perfume she uses.",
+      "answer": "fragrant",
+      "explanation": "La maison d'Akoua est parfumée (fragrant) à cause du bon parfum qu'elle utilise."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Complete : During the Olympic Games, Ta Lou Marie Josée ran __________ to be the first.",
+      "answer": "fast",
+      "explanation": "Pendant les Jeux Olympiques, Ta Lou Marie Josée a couru vite (fast) pour être première."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Complete : In front of the shop, there is a big dustbin that makes it __________.",
+      "answer": "smelly",
+      "explanation": "Devant le magasin, il y a une grande poubelle qui le rend malodorant (smelly)."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "What is the question for: 'The dentist works in a dental clinic'?",
+      "options": [
+        "Where does the dentist work?",
+        "Where do dentists work?",
+        "Where does the dentist works?",
+        "Where the dentist works?"
+      ],
+      "answer": 0,
+      "explanation": "La question correcte est 'Where does the dentist work?' car le sujet est singulier (the dentist)."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "What is the question for: 'Architects work on building sites'?",
+      "options": [
+        "Where does architects work?",
+        "Where do architects work?",
+        "Where architects work?",
+        "Where does architect work?"
+      ],
+      "answer": 1,
+      "explanation": "La question correcte est 'Where do architects work?' car le sujet est pluriel (architects)."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "What is the question for: 'The car washer works in a car wash'?",
+      "options": [
+        "Where does the car washer work?",
+        "Where do the car washer work?",
+        "Where does the car washer works?",
+        "Where the car washer works?"
+      ],
+      "answer": 0,
+      "explanation": "La question correcte est 'Where does the car washer work?' car le sujet est singulier."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "What is the question for: 'I don’t work. I am a student'?",
+      "options": [
+        "Where do you work?",
+        "Where does you work?",
+        "Where you work?",
+        "Where are you work?"
+      ],
+      "answer": 0,
+      "explanation": "La question correcte est 'Where do you work?' car le sujet est 'you'."
+    }
+  ]
+}

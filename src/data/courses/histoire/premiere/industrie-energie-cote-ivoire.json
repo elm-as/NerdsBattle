@@ -1,0 +1,70 @@
+{
+  "id": "histoire-premiere-industrie-energie-cote-ivoire",
+  "title": "L'industrie et l'énergie en Côte d'Ivoire",
+  "summary": "Ce chapitre vous plonge au cœur du développement économique ivoirien : l'industrie et l'énergie, deux piliers de la croissance. Comprendre ces secteurs vous permettra de saisir les enjeux de l'émergence de la Côte d'Ivoire et de réussir vos examens.",
+  "lesson": "## Introduction & Mise en situation\n\nLa Côte d'Ivoire, longtemps dépendante de l'agriculture, a entrepris depuis les années 1960 une industrialisation progressive. Aujourd'hui, l'industrie et l'énergie sont des moteurs essentiels de son économie, créant des emplois, générant des revenus et modernisant le pays. Ce chapitre vous aidera à comprendre comment ces secteurs fonctionnent, leur importance stratégique et les défis à relever pour un développement durable.\n\n## 1. Définitions et Principes Fondamentaux\n\n**Industrie** : Ensemble des activités économiques qui transforment les matières premières en produits finis ou semi-finis. On distingue :\n- **Industries extractives** : exploitation des ressources naturelles (pétrole, mines).\n- **Industries manufacturières** : transformation (agroalimentaire, textile, chimie).\n- **Industries énergétiques** : production d'électricité, de carburants.\n\n**Énergie** : Capacité à produire un travail, à provoquer un changement. En économie, on parle de l'énergie comme ressource nécessaire à la production.\n\n**Formule clé** : Pour mesurer la croissance industrielle, on utilise le **taux de croissance** :\n$$ Taux = \\frac{Valeur\\ finale - Valeur\\ initiale}{Valeur\\ initiale} \\times 100 $$\n\n**Exemple** : Si la production industrielle passe de 100 milliards FCFA à 115 milliards, le taux est :\n$$ \\frac{115 - 100}{100} \\times 100 = 15\\% $$\n\n**Principes fondamentaux** :\n- **Les industries ont besoin d'énergie** pour fonctionner (électricité, pétrole).\n- **Le développement industriel** dépend de l'accès à l'énergie et des infrastructures.\n- **La diversification** des sources d'énergie (hydroélectricité, gaz, solaire) est un enjeu stratégique.\n\n## 2. Propriétés et Méthodes d'application\n\n**Méthode : Analyse d'un secteur industriel**\n\nÉtapes :\n1. **Identifier les ressources** : matières premières, énergie, main-d'œuvre.\n2. **Évaluer la production** : quantités, valeurs.\n3. **Analyser les débouchés** : marché local, exportation.\n4. **Étudier les impacts** : économiques, sociaux, environnementaux.\n\n**Application concrète : Le secteur agroalimentaire**\n\n- **Ressources** : cacao, café, huile de palme.\n- **Production** : transformation en chocolat, café soluble, huile raffinée.\n- **Débouchés** : exportation vers l'Europe, l'Asie.\n- **Impact** : création d'emplois, augmentation des revenus.\n\n**Exemple chiffré** : Une usine produit 10 000 tonnes de chocolat par an. Si elle augmente sa production de 10%, elle produira 11 000 tonnes (calcul : 10 000 × 1,10).\n\n**Méthode : Calcul de la consommation d'énergie**\n\n$$ Consommation = Puissance \\times Temps $$\n\nExemple : Un moteur de 50 kW fonctionne 8 heures par jour. Consommation journalière :\n$$ 50 \\times 8 = 400 \\ kWh $$\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre industrie et agriculture** : l'industrie transforme, l'agriculture produit les matières premières.\n- **Oublier les unités** : dans les calculs, vérifiez toujours les unités (milliards, millions, kWh).\n- **Négliger les énergies renouvelables** : dans les examens, on attend que vous citiez l'hydroélectricité (barrage de Taï), le solaire, la biomasse.\n- **Erreur de pourcentage** : ne pas diviser par la valeur initiale, mais par la valeur de départ.\n- **Ne pas lier industrie et énergie** : sans énergie, l'industrie ne peut fonctionner ; c'est un lien essentiel.\n\n## Synthèse\n\n1. **L'industrie** transforme les matières premières en produits finis, créant de la valeur et des emplois.\n2. **L'énergie** est le carburant de l'industrie ; la Côte d'Ivoire dispose de ressources variées (pétrole, gaz, hydroélectricité).\n3. **La croissance industrielle** se mesure par des taux de croissance et dépend de l'énergie et des infrastructures.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "industrie",
+    "énergie",
+    "Côte d'Ivoire",
+    "économie",
+    "développement"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la principale source d'énergie utilisée en Côte d'Ivoire pour la production d'électricité ?",
+      "options": [
+        "Le charbon",
+        "Le pétrole",
+        "L'hydroélectricité",
+        "L'énergie nucléaire"
+      ],
+      "answer": 2,
+      "explanation": "La Côte d'Ivoire utilise principalement l'hydroélectricité (barrages) et le gaz, mais l'hydroélectricité est une source majeure."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "L'industrie agroalimentaire en Côte d'Ivoire transforme essentiellement le cacao et le café.",
+      "answer": true,
+      "explanation": "Le cacao et le café sont les principales matières premières transformées par l'industrie agroalimentaire ivoirienne."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Si la production industrielle d'un pays passe de 200 milliards à 240 milliards de FCFA, le taux de croissance est de ____ %.",
+      "answer": "20",
+      "explanation": "Taux = (240 - 200) / 200 × 100 = 40/200 × 100 = 20%."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est le rôle principal de l'énergie dans le secteur industriel ?",
+      "options": [
+        "Réduire les coûts de main-d'œuvre",
+        "Alimenter les machines et les processus de production",
+        "Augmenter la production agricole",
+        "Améliorer la qualité des produits"
+      ],
+      "answer": 1,
+      "explanation": "L'énergie est indispensable pour faire fonctionner les machines et les équipements industriels."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La Côte d'Ivoire importe la totalité de son énergie.",
+      "answer": false,
+      "explanation": "La Côte d'Ivoire dispose de ressources énergétiques locales (pétrole, gaz, hydroélectricité) et exporte même de l'électricité."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Une usine consomme 500 kWh par jour. Si elle fonctionne 10 heures, la puissance installée est de ____ kW.",
+      "answer": "50",
+      "explanation": "Puissance = Consommation / Temps = 500 / 10 = 50 kW."
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "id": "maths-terminale-l2-document-maths-tle-g2-g3-by-tehua",
+  "subjectId": "maths",
+  "levelId": "terminale",
+  "slug": "l2-document-maths-tle-g2-g3-by-tehua",
+  "title": "Programme des Terminals G2–G3 – Mathématiques Générales MENA CI",
+  "summary": "Ce document présente le programme officiel des terminales G2–G3 en mathématiques générales de la MENA Côte d’Ivoire. Il détaille les chapitres, les thèmes abordés (fonctions numériques, logarithmes, exponentielles, intégrales, statistiques, suites), les objectifs pédagogiques et les compétences attendues. L’enseignant peut l’utiliser comme base pour la planification, la conception de leçons et l’évaluation des élèves.",
+  "lesson": "# Programme des Terminals G2–G3 – Mathématiques Générales\n\n## Chapitre 0 – Importance des mathématiques\n- Définition des mathématiques\n- Branches et domaines de connaissance\n- Rôle des mathématiques dans la société\n\n## Chapitre 1 – Fonctions numériques\n- Ensemble de définition\n- Limites (limites de référence, opérations, formes indéterminées)\n- Continuité (en un point, sur un intervalle, théorèmes)\n- Dérivation (dérivabilité, tangente, fonction dérivée, dérivées usuelles, formules, applications)\n- Sens de variation, monotonicité, bijection, valeurs intermédiaires\n\n## Chapitre 2 – Logarithme népérien\n- Définition, ensemble de définition\n- Propriétés (monotonicité, identité, changement de base)\n- Équations, inéquations, systèmes\n- Dérivée et limites (limites de référence, applications)\n- Logarithme de base a\n\n## Chapitre 3 – Fonction exponentielle\n- Définition, ensemble de définition\n- Propriétés (croissance, identité, changement de base)\n- Équations, inéquations, systèmes\n- Dérivée et limites (limites de référence, applications)\n- Exponentielle de base a\n\n## Chapitre 4 – Primitives et calcul intégral\n- Définition d’une primitive, ensemble des primitives, condition initiale\n- Tableau des primitives usuelles\n- Recherche de primitives\n- Intégrale d’une fonction continue (définition, propriétés, valeur moyenne)\n- Intégration par parties, notion d’aire\n\n## Chapitre 5 – Statistique à deux variables\n- Ajustement linéaire (affine)\n- Nuage de points, point moyen G\n- Droite d’ajustement (méthode de MAYER, moindres carrés)\n- Droites de régression y en x et x en y\n- Coefficient de corrélation, relation avec les coefficients de régression\n\n## Chapitre 6 – Suites numériques\n- Généralités, détermination, convergence, divergence\n\n---\n\n## Compétences clés\n- Analyser et étudier les fonctions\n- Appliquer les concepts de dérivation et d’intégration\n- Résoudre des problèmes statistiques et probabilistes\n- Utiliser les suites numériques pour modéliser des phénomènes\n\n## Méthodes pédagogiques\n- Cours magistraux, travaux dirigés, exercices pratiques\n- Utilisation de logiciels de calcul (GeoGebra, Python)\n- Évaluations formatives et sommatives\n\n## Ressources complémentaires\n- Livres de référence, sites web, vidéos pédagogiques\n- Exercices corrigés, banques de problèmes\n\n## Évaluation\n- QCM, vrai/faux, questions ouvertes\n- Projets de recherche, présentations\n- Contrôles écrits et oraux",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le domaine de définition de la fonction ln(x) ?",
+      "options": [
+        "x>0",
+        "x<0",
+        "x≠0",
+        "x≥0"
+      ],
+      "answer": 0,
+      "explanation": "Le logarithme népérien est défini pour les réels strictement positifs."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La fonction exp(x) est croissante sur ℝ.",
+      "answer": true,
+      "explanation": "exp(x) est strictement croissante sur l’ensemble des réels."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La dérivée de ln(x) est :",
+      "options": [
+        "1/x",
+        "x",
+        "1",
+        "ln(x)"
+      ],
+      "answer": 0,
+      "explanation": "d/dx ln(x)=1/x."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la valeur de lim_{x→∞} ln(x)/x ?",
+      "options": [
+        "0",
+        "∞",
+        "1",
+        "-∞"
+      ],
+      "answer": 0,
+      "explanation": "ln(x) croît plus lentement que x, donc le rapport tend vers 0."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Une fonction continue sur un intervalle fermé est intégrable sur cet intervalle.",
+      "answer": true,
+      "explanation": "Tout fonction continue sur un intervalle compact est intégrable."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "La formule d’intégration par parties est :",
+      "options": [
+        "∫u dv = uv - ∫v du",
+        "∫u dv = uv + ∫v du",
+        "∫u dv = u + v",
+        "∫u dv = u/v"
+      ],
+      "answer": 0,
+      "explanation": "C’est la règle classique d’intégration par parties."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Le coefficient de corrélation r est lié aux coefficients de régression par :",
+      "options": [
+        "r = b_{xy} / sqrt(b_{xx}b_{yy})",
+        "r = b_{xy} * sqrt(b_{xx}b_{yy})",
+        "r = sqrt(b_{xy})",
+        "r = b_{xy} + b_{xx} + b_{yy}"
+      ],
+      "answer": 0,
+      "explanation": "La formule classique relie r aux coefficients de régression."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "La fonction exp(-x) est décroissante sur ℝ.",
+      "answer": true,
+      "explanation": "exp(-x) est décroissante car la dérivée est -exp(-x) < 0."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est le résultat de la limite lim_{x→0} (exp(x)-1)/x ?",
+      "options": [
+        "1",
+        "0",
+        "∞",
+        "-1"
+      ],
+      "answer": 0,
+      "explanation": "Cette limite vaut 1, propriété fondamentale de l’exponentielle."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "La dérivée de x^n est ___x^{n-1}___, pour n∈ℕ.",
+      "answer": "n",
+      "explanation": "Règle de puissance : d/dx x^n = n x^{n-1}."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "La méthode des moindres carrés minimise :",
+      "options": [
+        "la somme des carrés des résidus",
+        "la somme des résidus",
+        "la moyenne des résidus",
+        "le produit des résidus"
+      ],
+      "answer": 0,
+      "explanation": "On minimise la somme des carrés des résidus."
+    },
+    {
+      "id": "q13",
+      "type": "truefalse",
+      "prompt": "Une suite géométrique de raison r=1 converge vers 0.",
+      "answer": false,
+      "explanation": "Si r=1, la suite est constante, elle ne converge pas vers 0 sauf si le terme initial est 0."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Le théorème des valeurs intermédiaires s’applique à :",
+      "options": [
+        "une fonction continue sur un intervalle fermé",
+        "une fonction dérivable sur ℝ",
+        "une fonction monotone sur ℝ",
+        "une fonction discontinue sur ℝ"
+      ],
+      "answer": 0,
+      "explanation": "Il s’applique aux fonctions continues sur un intervalle fermé."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "La primitive de 1/x est :",
+      "options": [
+        "ln|x|+C",
+        "x+C",
+        "e^x+C",
+        "1/(x^2)+C"
+      ],
+      "answer": 0,
+      "explanation": "∫1/x dx = ln|x| + C."
+    }
+  ]
+}

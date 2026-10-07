@@ -1,0 +1,217 @@
+{
+  "id": "francais-sixieme-l4-gr-l4-s1-morph-verbes-1er-gpe",
+  "subjectId": "francais",
+  "levelId": "sixieme",
+  "slug": "l4-gr-l4-s1-morph-verbes-1er-gpe",
+  "title": "Le verbe : forme et emplois (1er et 2e groupe)",
+  "summary": "Le verbe est le noyau de la phrase. Il se compose d'un radical et d'une terminaison. Les verbes du 1er groupe se terminent par -er, ceux du 2e groupe par -ir et font leur participe présent en -issant.",
+  "lesson": "# Le verbe : forme et emplois\n\n## Définition\nLe verbe est le noyau de la phrase (particulièrement du GV). Il indique les actions, les pensées, les attitudes, l’état, les sentiments des personnes, des choses, des animaux.\n\nLe verbe se compose d’un **radical** (porte le sens du verbe) et d’une **terminaison** (désinence) qui indique le mode, le temps, le nombre, la personne, le groupe du verbe.\n\n## I. Morphologie des verbes du 1er groupe\n\n### 1. La base ou le radical\n- Les verbes du premier groupe se terminent à l’infinitif par **-er**.\n- Ils conservent dans leur majorité leur radical quels que soient le mode, le temps, le nombre, la personne, le genre et la voix.\n- Ils font leur participe présent en **-ant**.\n\n**Exemple :** Conjugaison du verbe « aimer » au présent de l’indicatif et au conditionnel présent :\n\n- Présent de l’indicatif : J’aime ; tu aimes ; il/elle aime ; nous aimons ; vous aimez ; ils/elles aiment.\n- Conditionnel présent : J’aimerais ; tu aimerais ; il/elle aimerait ; nous aimerions ; vous aimeriez ; ils/elles aimeraient.\n\n### 2. La désinence ou la terminaison\nConjugaison du verbe « chanter » au mode indicatif :\n\n| Personne | Présent | Imparfait | Passé simple | Futur simple | Passé composé | Plus-que-parfait | Futur antérieur | Passé antérieur |\n|----------|---------|-----------|--------------|--------------|---------------|------------------|-----------------|-----------------|\n| Je | chante | chantais | chantai | chanterai | j’ai chanté | j’avais chanté | j’aurai chanté | j’eus chanté |\n| Tu | chantes | chantais | chantas | chanteras | tu as chanté | tu avais chanté | tu auras chanté | tu eus chanté |\n| Il/elle | chante | chantait | chanta | chantera | il/elle a chanté | il/elle avait chanté | il/elle aura chanté | il/elle eut chanté |\n| Nous | chantons | chantions | chantâmes | chanterons | nous avons chanté | nous avions chanté | nous aurons chanté | nous eûmes chanté |\n| Vous | chantez | chantiez | chantâtes | chanterez | vous avez chanté | vous aviez chanté | vous aurez chanté | vous eûtes chanté |\n| Ils/elles | chantent | chantaient | chantèrent | chanteront | ils/elles ont chanté | ils/elles avaient chanté | ils/elles auront chanté | ils/elles eurent chanté |\n\n## II. Morphologie des verbes du 2e groupe\n\n### 1. La base ou le radical\n- Les verbes du deuxième groupe se terminent à l’infinitif par **-ir** et font leur participe présent en **-issant**.\n- Ils conservent leur radical quels que soient le mode, le temps, le nombre, la personne, le genre et la voix.\n\n**Exemple :** Conjugaison du verbe « grandir » au passé simple de l’indicatif et à l’impératif présent :\n\n- Passé simple : Je grandis ; tu grandis ; il/elle grandit ; nous grandîmes ; vous grandîtes ; ils/elles grandirent.\n- Impératif présent : Grandis ; grandissons ; grandissez.\n\n### 2. La désinence ou la terminaison\nConjugaison du verbe « grandir » au mode indicatif :\n\n| Personne | Présent | Imparfait | Passé simple | Futur simple | Passé composé | Plus-que-parfait | Futur antérieur | Passé antérieur |\n|----------|---------|-----------|--------------|--------------|---------------|------------------|-----------------|-----------------|\n| Je | grandis | grandissais | grandis | grandirai | j’ai grandi | j’avais grandi | j’aurai grandi | j’eus grandi |\n| Tu | grandis | grandissais | grandis | grandiras | tu as grandi | tu avais grandi | tu auras grandi | tu eus grandi |\n| Il/elle | grandit | grandissait | grandit | grandira | il/elle a grandi | il/elle avait grandi | il/elle aura grandi | il/elle eut grandi |\n| Nous | grandissons | grandissions | grandîmes | grandirons | nous avons grandi | nous avions grandi | nous aurons grandi | nous eûmes grandi |\n| Vous | grandissez | grandissiez | grandîtes | grandirez | vous avez grandi | vous aviez grandi | vous aurez grandi | vous eûtes grandi |\n| Ils/elles | grandissent | grandissaient | grandirent | grandiront | ils/elles ont grandi | ils/elles avaient grandi | ils/elles auront grandi | ils/elles eurent grandi |\n\n## Exercices\n1. Range ces verbes dans le tableau ci-dessous :\n   Rassurer ; tromper ; remplir ; surgir ; redouter ; tricher ; refroidir ; grossir ; applaudir ; vieillir ; avertir ; dévaliser ; apprécier ; publier.\n\n   | 1er groupe | 2e groupe |\n   |------------|-----------|\n   |            |           |\n\n2. Détermine le radical de chacun de ces verbes.\n3. Conjugue les verbes **étudier** et **réussir** au présent, à l’imparfait, au passé simple et au futur de l’indicatif.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "francais",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'un verbe ?",
+      "options": [
+        "Le noyau de la phrase (particulièrement du GV)",
+        "Un mot invariable",
+        "Un complément circonstanciel",
+        "Un déterminant"
+      ],
+      "answer": 0,
+      "explanation": "D'après la définition, le verbe est le noyau de la phrase (particulièrement du GV)."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "De quoi se compose un verbe ?",
+      "options": [
+        "D'un radical et d'une terminaison",
+        "D'un préfixe et d'un suffixe",
+        "D'un article et d'un nom",
+        "D'un sujet et d'un complément"
+      ],
+      "answer": 0,
+      "explanation": "Le verbe se compose d’un radical (porte le sens du verbe) et d’une terminaison (désinence)."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Que porte le radical du verbe ?",
+      "options": [
+        "Le sens du verbe",
+        "Le mode et le temps",
+        "La personne et le nombre",
+        "Le groupe du verbe"
+      ],
+      "answer": 0,
+      "explanation": "Le radical porte le sens du verbe."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Que indique la terminaison (désinence) du verbe ?",
+      "options": [
+        "Le mode, le temps, le nombre, la personne, le groupe du verbe",
+        "Le sens du verbe",
+        "Le genre et la voix uniquement",
+        "La fonction du verbe dans la phrase"
+      ],
+      "answer": 0,
+      "explanation": "La terminaison indique le mode, le temps, le nombre, la personne, le groupe du verbe."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Par quoi se terminent les verbes du 1er groupe à l'infinitif ?",
+      "options": [
+        "-er",
+        "-ir",
+        "-ant",
+        "-issant"
+      ],
+      "answer": 0,
+      "explanation": "Les verbes du premier groupe se terminent à l’infinitif par « er »."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Par quoi se terminent les verbes du 2e groupe à l'infinitif ?",
+      "options": [
+        "-ir",
+        "-er",
+        "-ant",
+        "-issant"
+      ],
+      "answer": 0,
+      "explanation": "Les verbes du deuxième groupe se terminent à l’infinitif par « ir »."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Comment font leur participe présent les verbes du 1er groupe ?",
+      "options": [
+        "-ant",
+        "-issant",
+        "-é",
+        "-i"
+      ],
+      "answer": 0,
+      "explanation": "Les verbes du 1er groupe font leur participe présent en « ant »."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Comment font leur participe présent les verbes du 2e groupe ?",
+      "options": [
+        "-issant",
+        "-ant",
+        "-é",
+        "-i"
+      ],
+      "answer": 0,
+      "explanation": "Les verbes du 2e groupe font leur participe présent en « issant »."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Les verbes du 1er groupe conservent dans leur majorité leur radical quels que soient le mode, le temps, le nombre, la personne, le genre et la voix.",
+      "answer": true,
+      "explanation": "C'est exact : les verbes du 1er groupe conservent dans leur majorité leur radical."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Les verbes du 2e groupe ne conservent pas leur radical selon le mode, le temps, le nombre, la personne, le genre et la voix.",
+      "answer": false,
+      "explanation": "Faux : les verbes du 2e groupe conservent leur radical quels que soient le mode, le temps, le nombre, la personne, le genre et la voix."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Complétez : Le verbe est le ______ de la phrase (particulièrement du GV).",
+      "answer": "noyau",
+      "explanation": "Le verbe est le noyau de la phrase."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Complétez : Le verbe se compose d’un radical et d’une ______.",
+      "answer": "terminaison",
+      "explanation": "Le verbe se compose d’un radical et d’une terminaison (désinence)."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Conjuguez le verbe « chanter » au présent de l'indicatif, 1re personne du singulier : ______.",
+      "answer": "je chante",
+      "explanation": "Au présent de l'indicatif, le verbe chanter donne : je chante."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Conjuguez le verbe « grandir » au présent de l'indicatif, 1re personne du singulier : ______.",
+      "answer": "je grandis",
+      "explanation": "Au présent de l'indicatif, le verbe grandir donne : je grandis."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel est le radical du verbe « chanter » ?",
+      "options": [
+        "chant-",
+        "chanter",
+        "chante-",
+        "chant- et -er"
+      ],
+      "answer": 0,
+      "explanation": "Le radical du verbe chanter est « chant- » (la terminaison est -er à l'infinitif)."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel est le radical du verbe « grandir » ?",
+      "options": [
+        "grand-",
+        "grandir",
+        "grandi-",
+        "grand- et -ir"
+      ],
+      "answer": 0,
+      "explanation": "Le radical du verbe grandir est « grand- » (la terminaison est -ir à l'infinitif)."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Parmi ces verbes, lequel appartient au 2e groupe ?",
+      "options": [
+        "remplir",
+        "tromper",
+        "redouter",
+        "tricher"
+      ],
+      "answer": 0,
+      "explanation": "Remplir se termine par -ir et fait son participe présent en -issant, c'est un verbe du 2e groupe."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Parmi ces verbes, lequel appartient au 1er groupe ?",
+      "options": [
+        "rassurer",
+        "surgir",
+        "refroidir",
+        "grossir"
+      ],
+      "answer": 0,
+      "explanation": "Rassurer se termine par -er, c'est un verbe du 1er groupe."
+    }
+  ]
+}

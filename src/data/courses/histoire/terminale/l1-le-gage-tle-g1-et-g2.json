@@ -1,0 +1,136 @@
+{
+  "id": "histoire-terminale-l1-le-gage-tle-g1-et-g2",
+  "subjectId": "histoire",
+  "levelId": "terminale",
+  "slug": "l1-le-gage-tle-g1-et-g2",
+  "title": "Le Gage – Civil et Commercial",
+  "summary": "Ce cours expose les principes fondamentaux du gage civil et commercial, ses formes, la formation, les effets, ainsi que les droits et obligations du créancier gagiste. Il prépare les élèves à comprendre les mécanismes de garantie et à appliquer les règles OHADA en matière de sûreté.",
+  "lesson": "# Le Gage – Civil et Commercial\n\n## 1. Introduction\nLe gage est une sûreté réelle qui permet au créancier de garantir le paiement d’une dette en se servant d’un bien mobilier. Il existe deux formes principales : le **gage civil** et le **gage commercial**.\n\n## 2. Gage Civil\n\n### 2.1 Définition\nLe gage civil est un contrat par lequel le débiteur remet à son créancier (ou à un tiers convenu) un bien meuble pour assurer le paiement d’une dette.\n\n### 2.2 Formation\n- Le gage peut porter sur tout meuble, corporel ou incorporel.\n- Le gage sur les choses futures est exclu par la législation OHADA.\n- Accord de volonté entre le créancier et le donneur de gage, qui doit être propriétaire du bien.\n- L’accord doit être écrit : acte notarié, acte sous seing privé authentifié, etc.\n- Le bien doit être remis et rester en possession du créancier ou d’un tiers convenu.\n\n## 3. Gage Commercial (Nantisement)\n\n### 3.1 Définition\nLe gage commercial est une garantie offerte par l’exploitant d’un fonds à ses créanciers, permettant de poursuivre l’exploitation du fonds avec les éléments garantis, sans déposséder le débiteur.\n\n### 3.2 Constitution\n- Le gage porte obligatoirement sur la clientèle, l’enseigne, le nom commercial, le droit au bail et les licences d’exploitation.\n- L’accord doit être écrit authentique ou sous seing privé enregistré, identifiant les parties et les éléments du fonds, sans mention du montant de la créance.\n\n## 4. Effets du Gage\n\n### 4.1 Droits du créancier gagiste\n- Droit de suite : saisir et vendre le bien gagé.\n- Droit de préférence sur le prix de vente.\n- En matière civile, droit de rétention : conserver le bien tant que la dette n’est pas intégralement payée.\n\n### 4.2 Obligations du créancier gagiste\n- Ne pas utiliser le bien pour usage personnel.\n- Ne pas disposer des fruits du bien sans rendre compte.\n- Veiller à la conservation du bien et réparer les dommages causés par sa faute.\n- Restituer le bien après paiement intégral de la dette.\n\n## 5. Conclusion\nLe gage est un outil juridique essentiel pour sécuriser les créances. La distinction entre gage civil et commercial, ainsi que la connaissance des droits et obligations du créancier gagiste, sont indispensables pour la pratique du droit OHADA.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "histoire",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel type de bien peut être gagé selon la législation OHADA ?",
+      "options": [
+        "Un bien corporel uniquement",
+        "Un bien incorporel uniquement",
+        "Tout meuble, corporel ou incorporel",
+        "Aucun bien n’est gagé"
+      ],
+      "answer": 2,
+      "explanation": "Le gage peut porter sur tout meuble, qu’il soit corporel ou incorporel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel document est obligatoire pour la formation d’un gage civil ?",
+      "options": [
+        "Un simple verbal",
+        "Un acte sous seing privé authentifié",
+        "Un contrat verbal signé par les deux parties",
+        "Un reçu de paiement"
+      ],
+      "answer": 1,
+      "explanation": "L’accord doit obligatoirement être passé par écrit, par acte notarié ou acte sous seing privé authentifié."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans le gage commercial, quel élément n’est pas garanti ?",
+      "options": [
+        "La clientèle",
+        "Le droit au bail",
+        "Le capital social",
+        "Les licences d’exploitation"
+      ],
+      "answer": 2,
+      "explanation": "Le gage commercial porte sur la clientèle, l’enseigne, le nom commercial, le droit au bail et les licences d’exploitation, mais pas sur le capital social."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel droit permet au créancier gagiste de saisir le bien gagé ?",
+      "options": [
+        "Droit de préférence",
+        "Droit de suite",
+        "Droit de rétention",
+        "Droit de substitution"
+      ],
+      "answer": 1,
+      "explanation": "Le droit de suite permet de saisir et de vendre le bien gagé."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Le créancier gagiste doit :",
+      "options": [
+        "Utiliser le bien pour son usage personnel",
+        "Disposer librement des fruits du bien",
+        "Conserver le bien et réparer les dommages causés par sa faute",
+        "Restituer le bien avant le paiement de la dette"
+      ],
+      "answer": 2,
+      "explanation": "Il doit veiller à la conservation du bien et réparer les dommages causés par sa faute."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel est le principal avantage du gage commercial pour l’exploitant ?",
+      "options": [
+        "Il perd la possession du fonds",
+        "Il peut continuer l’exploitation du fonds",
+        "Il doit rembourser immédiatement la dette",
+        "Il ne peut pas vendre le fonds"
+      ],
+      "answer": 1,
+      "explanation": "Le gage commercial permet à l’exploitant de poursuivre l’exploitation du fonds."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel document doit identifier les parties et les éléments du fonds dans le gage commercial ?",
+      "options": [
+        "Un contrat verbal",
+        "Un acte sous seing privé enregistré",
+        "Un reçu de paiement",
+        "Un certificat d’authenticité"
+      ],
+      "answer": 1,
+      "explanation": "L’accord doit être écrit authentique ou sous seing privé enregistré, identifiant les parties et les éléments du fonds."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Le droit de rétention permet au créancier gagiste de :",
+      "options": [
+        "Restituer le bien immédiatement",
+        "Conserver le bien tant que la dette n’est pas payée",
+        "Vendre le bien sans restriction",
+        "Prendre possession du bien sans paiement"
+      ],
+      "answer": 1,
+      "explanation": "Le droit de rétention permet de conserver le bien tant que la dette n’est pas entièrement payée."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel est le rôle de la possession du bien gagé ?",
+      "options": [
+        "Garantir la dette",
+        "Permettre la vente du bien",
+        "Servir de preuve de propriété",
+        "Aucune des réponses"
+      ],
+      "answer": 0,
+      "explanation": "La possession du bien gagé sert à garantir la dette."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "physique-quatrieme-atomes-molecules-symboles",
+  "title": "Atomes, molécules et formules chimiques",
+  "summary": "Découvre les briques élémentaires de la matière : atomes et molécules. Apprends à lire et écrire les formules chimiques pour comprendre le langage universel de la chimie.",
+  "lesson": "## Introduction & Mise en situation\n\nPourquoi étudier les atomes et les molécules ? Parce que tout ce qui t'entoure, l'air que tu respires, l'eau que tu bois, les aliments que tu manges, est constitué de minuscules particules invisibles à l'œil nu. Comprendre leur structure et leur langage (les formules chimiques) te permettra de décoder le monde matériel et de résoudre des problèmes concrets en chimie, en biologie, ou même en géologie. Ce chapitre est la clé de voûte de toute la chimie !\n\n## 1. Définitions et Principes Fondamentaux\n\n### Qu'est-ce qu'un atome ?\n\nUn **atome** est la plus petite partie d'un élément chimique qui puisse exister et qui conserve les propriétés de cet élément. Il est constitué d'un noyau (chargé positivement) autour duquel gravitent des électrons (chargés négativement). Le noyau contient des protons (+) et des neutrons (0).\n\n- **Numéro atomique (Z)** : nombre de protons dans le noyau. Il identifie l'élément.\n- **Nombre de masse (A)** : nombre de nucléons (protons + neutrons).\n\n### Qu'est-ce qu'une molécule ?\n\nUne **molécule** est un ensemble d'atomes liés entre eux par des liaisons chimiques. Elle représente la plus petite quantité d'un corps pur qui puisse exister à l'état libre.\n\n### Symboles et formules chimiques\n\n- Chaque élément a un **symbole chimique** (ex. H pour hydrogène, O pour oxygène, C pour carbone).\n- Une **formule chimique** indique la nature et le nombre d'atomes dans une molécule. Par exemple :\n  - $H_2O$ : 2 atomes d'hydrogène et 1 atome d'oxygène.\n  - $CO_2$ : 1 atome de carbone et 2 atomes d'oxygène.\n  - $C_6H_{12}O_6$ : 6 carbones, 12 hydrogènes, 6 oxygènes.\n\n### Masse atomique et masse moléculaire\n\n- La **masse atomique** d'un élément est la masse d'un atome, exprimée en unité de masse atomique (u).\n- La **masse moléculaire** est la somme des masses atomiques des atomes de la formule.\n\nExemple : Pour l'eau $H_2O$ : masse moléculaire = $2 \\times 1 + 16 = 18$ u (si on prend H=1, O=16).\n\n## 2. Propriétés et Méthodes d'application\n\n### Comment écrire une formule chimique ?\n\n1. Identifier les éléments présents et leurs symboles.\n2. Utiliser les indices pour indiquer le nombre d'atomes de chaque élément (si un seul atome, pas d'indice).\n3. Respecter l'ordre conventionnel (souvent le métal ou l'élément le plus électropositif en premier, puis l'autre).\n\n**Exemple** : L'eau : hydrogène (H) et oxygène (O). Deux atomes d'hydrogène pour un oxygène → $H_2O$.\n\n### Comment calculer une masse moléculaire ?\n\n**Méthode pas à pas :**\n\n1. Écrire la formule de la molécule.\n2. Relever les masses atomiques de chaque élément (données en u).\n3. Multiplier chaque masse atomique par le nombre d'atomes de l'élément dans la formule.\n4. Additionner toutes les contributions.\n\n**Exemple concret :** Calculons la masse moléculaire du dioxyde de carbone $CO_2$.\n\n- Masse atomique du carbone : 12 u.\n- Masse atomique de l'oxygène : 16 u.\n- Pour $CO_2$ : $1 \\times 12 + 2 \\times 16 = 12 + 32 = 44$ u.\n\n### Comment interpréter une formule chimique ?\n\n- Le nombre d'atomes de chaque élément est donné par l'indice.\n- Le nombre total d'atomes dans la molécule est la somme des indices.\n\n**Exemple :** Dans $C_6H_{12}O_6$ (glucose), il y a 6 atomes de carbone, 12 d'hydrogène, 6 d'oxygène, soit 24 atomes au total.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre symbole et formule** : $H$ est un atome d'hydrogène, $H_2$ est une molécule de dihydrogène (deux atomes).\n- **Oublier les indices** : Écrire $H_2O$ et non $HO$ ou $H2O$ (l'indice doit être en bas et en petit).\n- **Confondre les masses atomiques** : Ne pas utiliser les valeurs approchées sans vérifier l'énoncé.\n- **Erreur dans le calcul de la masse moléculaire** : Oublier de multiplier par l'indice. Par exemple, pour $CO_2$, beaucoup oublient de multiplier 16 par 2 et trouvent 28 au lieu de 44.\n- **Inverser l'ordre des éléments** : Dans la formule, le métal ou l'élément le plus électropositif vient en premier (ex. $NaCl$ et non $ClNa$).\n\n## Synthèse\n\n1. **Un atome** est la plus petite particule d'un élément ; il est représenté par un symbole chimique (ex. O).\n2. **Une molécule** est un assemblage d'atomes ; sa formule chimique indique la nature et le nombre de chaque atome (ex. $H_2O$).\n3. **La masse moléculaire** se calcule en additionnant les masses atomiques de tous les atomes de la molécule, en tenant compte des indices.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "atomes",
+    "molécules",
+    "formules chimiques",
+    "chimie",
+    "collège"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la formule chimique de l'eau ?",
+      "options": [
+        "$H_2O$",
+        "$CO_2$",
+        "$O_2$",
+        "$H_2O_2$"
+      ],
+      "answer": 0,
+      "explanation": "La formule de l'eau est $H_2O$ : deux atomes d'hydrogène et un atome d'oxygène."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Une molécule de dioxyde de carbone ($CO_2$) contient deux atomes d'oxygène.",
+      "answer": true,
+      "explanation": "L'indice 2 après O indique qu'il y a deux atomes d'oxygène dans la molécule."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Combien d'atomes d'hydrogène y a-t-il dans une molécule de glucose de formule $C_6H_{12}O_6$ ?",
+      "answer": "12",
+      "explanation": "L'indice 12 après H indique qu'il y a 12 atomes d'hydrogène."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la masse moléculaire de l'eau ($H_2O$) si H=1 u et O=16 u ?",
+      "options": [
+        "17 u",
+        "18 u",
+        "16 u",
+        "20 u"
+      ],
+      "answer": 1,
+      "explanation": "Masse moléculaire = 2 × 1 + 16 = 18 u."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Le symbole chimique de l'oxygène est O.",
+      "answer": true,
+      "explanation": "O est bien le symbole de l'oxygène."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Combien d'atomes au total y a-t-il dans une molécule de dioxyde de carbone ($CO_2$) ?",
+      "answer": "3",
+      "explanation": "1 atome de carbone + 2 atomes d'oxygène = 3 atomes."
+    }
+  ]
+}

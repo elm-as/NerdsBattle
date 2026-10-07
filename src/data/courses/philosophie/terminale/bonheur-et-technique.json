@@ -1,0 +1,173 @@
+{
+  "id": "philosophie-terminale-bonheur-et-technique",
+  "subjectId": "philosophie",
+  "levelId": "terminale",
+  "slug": "bonheur-et-technique",
+  "title": "Bonheur et technique : philosophie du terminale",
+  "summary": "Ce cours examine la relation entre le bonheur humain et le progrès technique. Il analyse les positions de Descartes, Freud et Rousseau, en montrant comment la technique peut être perçue comme un moyen d’augmenter le niveau de vie et la santé, mais aussi comme une source d’aliénation et de dépendance qui ne garantit pas le bonheur durable.",
+  "lesson": "# V. Bonheur et technique\n\n## Introduction\nSi le bonheur est le but ultime de la vie, la question centrale est de savoir **comment** y parvenir. L’histoire humaine, marquée par le développement fulgurant de la technique, semble offrir une réponse, mais les philosophes s’opposent sur son efficacité réelle.\n\n## A. La technique peut mener au bonheur (Descartes)\n\n> *« Par la science et la technique, l’homme extrait de la nature ce dont il a besoin avec peu d’efforts… »* – Freud, *Le Malaise dans la culture*.\n\nDescartes voit la technique comme un moyen d’**améliorer les conditions de vie** :\n- La connaissance des forces naturelles (feu, eau, air) permet de créer des artifices qui soulagent le travail physique.\n- La médecine, fruit de la technique, protège la santé, « premier fondement de tous les autres biens ».\n- La technique rend les hommes **plus sages et plus habiles**, favorisant ainsi le bien‑être collectif.\n\n### Points clés\n1. **Utilité** : la technique augmente le niveau de vie.\n2. **Santé** : la médecine prolonge la vie et améliore la qualité de celle‑ci.\n3. **Progrès collectif** : le partage des connaissances conduit à un bonheur partagé.\n\n## B. La technique nous éloigne du bonheur (Rousseau)\n\n> *« Avec la technique, les hommes eurent du loisir ; ils l’utilisèrent à se procurer de nouvelles commodités… »* – Rousseau, *Discours sur l’origine…*.\n\nRousseau souligne les **effets pervers** de la technique :\n- L’outil crée un **loisir artificiel** qui affaiblit le corps et l’esprit.\n- L’habitude transforme les commodités en **besoins** permanents, générant une dépendance.\n- La perte de l’outil entraîne une **cruauté de la privation**, plus douloureuse que l’absence de plaisir initial.\n\n### Points clés\n1. **Aliénation** : la dépendance aux objets réduit l’autonomie.\n2. **Habituation** : le plaisir initial s’éteint, les besoins se multiplient.\n3. **Fragilité** : la perte d’un outil cause une souffrance accrue.\n\n## Conclusion\nLa technique possède un **double visage** : elle peut améliorer les conditions matérielles et la santé, mais elle risque d’engendrer une dépendance qui ne conduit pas nécessairement à un bonheur durable. Le débat philosophique invite les élèves à réfléchir sur le **sens du progrès** et sur la manière dont ils souhaitent intégrer la technique dans leur quête du bonheur.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "philosophie",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Selon Descartes, quel domaine de la technique est le plus directement lié au bonheur selon le texte?",
+      "options": [
+        "La mécanique",
+        "La médecine",
+        "L’astronomie",
+        "La navigation"
+      ],
+      "answer": 1,
+      "explanation": "Descartes insiste sur la médecine comme moyen de préserver la santé, premier fondement du bonheur."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel philosophe affirme que la technique crée de nouveaux besoins qui finissent par rendre les hommes malheureux?",
+      "options": [
+        "Descartes",
+        "Freud",
+        "Rousseau",
+        "Kant"
+      ],
+      "answer": 2,
+      "explanation": "C’est Rousseau qui décrit l’habituation aux commodités et la transformation en besoins."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Freud considère la technique comme une voie possible vers le bonheur collectif.",
+      "answer": true,
+      "explanation": "Dans le passage cité, Freud évoque la technique guidée par la science comme moyen de travailler au bonheur de tous."
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "Descartes pense que la philosophie spéculative est plus utile que la technique pour le bonheur.",
+      "answer": false,
+      "explanation": "Il critique la philosophie spéculative et valorise la technique pratique."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "prompt": "Selon Rousseau, la perte d’un outil technique provoque une souffrance plus ______ que le plaisir initial de le posséder.",
+      "answer": "cruelle",
+      "explanation": "Rousseau parle de la « privation en devint beaucoup plus cruelle que la possession n’en était douce »."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel élément n’est PAS mentionné par Descartes comme bénéfice de la technique?",
+      "options": [
+        "Amélioration du niveau de vie",
+        "Allongement de l’espérance de vie",
+        "Réduction du travail manuel",
+        "Création d’une société sans lois"
+      ],
+      "answer": 3,
+      "explanation": "Descartes ne parle pas d’une société sans lois, mais de santé, savoir et confort."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dans le texte, quel auteur cite Freud pour soutenir l’idée que la technique peut contribuer au bonheur?",
+      "options": [
+        "Freud lui‑même",
+        "Descartes",
+        "Rousseau",
+        "Kant"
+      ],
+      "answer": 0,
+      "explanation": "Le passage est tiré de *Le Malaise dans la culture* de Freud."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Rousseau estime que la technique a permis aux hommes de devenir plus forts physiquement.",
+      "answer": false,
+      "explanation": "Il affirme au contraire que les hommes se sont « ramollis » grâce aux commodités techniques."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Descartes affirme que la connaissance des forces de la nature permet de les employer « en même façon à tous les usages auxquels ils sont propres », ce qui rend les hommes « _______ » de la nature.",
+      "answer": "maîtres",
+      "explanation": "Citation directe du texte de Descartes."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel concept philosophique sous‑tend la critique de Rousseau sur la technique?",
+      "options": [
+        "Le contrat social",
+        "L’aliénation",
+        "Le déterminisme",
+        "Le nihilisme"
+      ],
+      "answer": 1,
+      "explanation": "Rousseau met en avant l’aliénation de l’homme à ses propres créations."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Selon le texte, la technique peut contribuer à la santé, qui est décrite comme le « premier lieu » du bonheur.",
+      "answer": true,
+      "explanation": "Descartes souligne que la santé est le fondement de tous les autres biens."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Freud, dans *Le Malaise dans la culture*, voit la technique comme un moyen de travailler au ______ de tous les hommes.",
+      "answer": "bonheur",
+      "explanation": "Citation exacte du texte."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel problème soulevé par Rousseau est appelé aujourd’hui « obsolescence programmée »?",
+      "options": [
+        "La perte de valeur des objets",
+        "L’augmentation du temps de travail",
+        "La réduction de la créativité",
+        "L’essor du consumérisme"
+      ],
+      "answer": 0,
+      "explanation": "Rousseau décrit la perte d’utilité et la dépendance, proche du concept moderne d’obsolescence programmée."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Descartes considère que la technique doit remplacer entièrement la philosophie spéculative.",
+      "answer": false,
+      "explanation": "Il critique la philosophie spéculative mais ne propose pas de la remplacer totalement."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Rousseau affirme que les nouvelles commodités se transforment en de vrais ______, créant une souffrance accrue lorsqu’ils manquent.",
+      "answer": "besoins",
+      "explanation": "Citation du texte de Rousseau."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel enseignement peut‑on tirer du débat entre Descartes et Rousseau pour un élève de terminale?",
+      "options": [
+        "La technique est toujours bénéfique",
+        "Le bonheur dépend uniquement du niveau de vie",
+        "Il faut évaluer les effets à la fois matériels et psychologiques de la technique",
+        "La philosophie ne concerne pas la technique"
+      ],
+      "answer": 2,
+      "explanation": "Le texte montre la nécessité d’une analyse double : bénéfices matériels vs impacts psychologiques."
+    }
+  ]
+}

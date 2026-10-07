@@ -1,0 +1,164 @@
+{
+  "id": "svt-seconde-l2-nd-c-l14-le-devenir-des-substances-a",
+  "subjectId": "svt",
+  "levelId": "seconde",
+  "slug": "l2-nd-c-l14-le-devenir-des-substances-a",
+  "title": "Nutrition minérale de la plante verte – Leçon 14",
+  "summary": "Cette leçon explore comment l’eau et les sels minéraux absorbés par la plante verte sont transportés vers les parties supérieures, leur rôle dans la photosynthèse et la transpiration, ainsi que les mécanismes d’osmose, de diffusion et de transport actif. Elle détaille les circulations horizontale et verticale, la fonction des stomates, et distingue la sève brute de la sève élaborée.",
+  "lesson": "# Leçon 14 : Le devenir des substances absorbées par la plante verte\n\n## I. Situation d’apprentissage\n- Séance de travaux pratiques : envelopper une feuille de plante avec un sachet transparent.\n- Observation de la buée le lendemain.\n- Objectif : comprendre les phénomènes responsables de l’émission d’eau et déterminer le devenir de la sève brute.\n\n## II. Contenu du cours\n### 1. Utilisation de l’eau et des sels minéraux\n- **Transport** : osmose, diffusion, transport actif.\n- **Circulation horizontale** : racines → endoderme → xylème.\n- **Circulation verticale** : tige → feuilles.\n\n### 2. Expérience de coloration\n- Plante plongée dans de l’eau rouge neutre → couleur rouge.\n- Conclusion : substances absorbées montent dans la plante.\n\n### 3. Mécanismes de transport\n- **Osmose** : mouvement d’eau vers zone de faible concentration.\n- **Transport actif** : pompage de sels minéraux contre gradient.\n- **Poussée racinaire** : force générée par osmose et transport actif.\n\n### 4. Transpiration et stomates\n- Stomates : deux cellules de garde entourant l’ostiole.\n- Ouverture/fermeture régulée par turgescence.\n- Transpiration : perte d’eau vers l’air.\n\n### 5. Sève brute vs sève élaborée\n- **Sève brute** : eau + sels minéraux, transportée dans le xylème.\n- **Sève élaborée** : matières organiques (photosynthèse), transportée dans le phloème.\n- Organe de circulation : bourgeon, feuille, fruit, racine, tubercule, tronc.\n\n## Conclusion\nUne partie de l’eau absorbée est rejetée dans l’air par transpiration grâce aux stomates, tandis que l’eau et les sels minéraux montent vers les parties supérieures via des circulations horizontale et verticale.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "svt",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel mécanisme permet le transport actif des sels minéraux dans la plante?",
+      "options": [
+        "Osmose",
+        "Diffusion",
+        "Pompage ATP",
+        "Gravité"
+      ],
+      "answer": 2,
+      "explanation": "Les sels minéraux sont transportés contre leur gradient de concentration par des pompes ATP."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La couleur rouge observée après l’expérience indique que :",
+      "options": [
+        "La plante a absorbé de l’eau rouge",
+        "Les sels minéraux sont colorés",
+        "Les deux",
+        "Aucune de ces réponses"
+      ],
+      "answer": 2,
+      "explanation": "La coloration rouge montre que l’eau et les sels minéraux ont monté dans la plante."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "La perte d’eau à travers les stomates crée un appel d’eau vers le haut appelé ________.",
+      "answer": "aspiration foliaire",
+      "explanation": "L’aspiration foliaire est le phénomène qui attire l’eau vers les feuilles."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel tissu conduit la sève brute?",
+      "options": [
+        "Phloème",
+        "Xylème",
+        "Parenchyme",
+        "Cambium"
+      ],
+      "answer": 1,
+      "explanation": "Le xylème transporte la sève brute (eau + sels)."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel tissu conduit la sève élaborée?",
+      "options": [
+        "Phloème",
+        "Xylème",
+        "Parenchyme",
+        "Cambium"
+      ],
+      "answer": 0,
+      "explanation": "Le phloème transporte la sève élaborée (matières organiques)."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "La poussée racinaire est due à :",
+      "options": [
+        "La photosynthèse",
+        "La transpiration",
+        "L’osmose et le transport actif",
+        "La respiration cellulaire"
+      ],
+      "answer": 2,
+      "explanation": "La poussée racinaire résulte de l’osmose et du transport actif dans les racines."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Le processus de photosynthèse se produit principalement dans les ________ des feuilles.",
+      "answer": "chloroplastes",
+      "explanation": "Les chloroplastes contiennent les pigments nécessaires à la photosynthèse."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est le rôle principal de la turgescence des cellules stomatiques?",
+      "options": [
+        "Stockage d’eau",
+        "Réponse aux stimuli lumineux",
+        "Ouverture/fermeture de l’ostiole",
+        "Production de sucres"
+      ],
+      "answer": 2,
+      "explanation": "La turgescence fait varier la forme des cellules stomatiques, ouvrant ou fermant l’ostiole."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel phénomène explique la montée d’eau dans les tiges?",
+      "options": [
+        "Diffusion passive",
+        "Osmose et poussée racinaire",
+        "Transport actif uniquement",
+        "Gravité"
+      ],
+      "answer": 1,
+      "explanation": "L’eau monte grâce à l’osmose et à la poussée racinaire."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Les cellules de garde qui entourent l’ostiole sont appelées ________.",
+      "answer": "cellules stomatiques",
+      "explanation": "Les cellules de garde régulent l’ouverture de l’ostiole."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel organes ne reçoit pas la sève élaborée?",
+      "options": [
+        "Feuille",
+        "Fruit",
+        "Racine",
+        "Tronc"
+      ],
+      "answer": 2,
+      "explanation": "La sève élaborée ne circule pas dans les racines."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel gradient est responsable de l’osmose dans les racines?",
+      "options": [
+        "Gradient de pression osmotique",
+        "Gradient de température",
+        "Gradient de lumière",
+        "Gradient de pH"
+      ],
+      "answer": 0,
+      "explanation": "L’osmose dépend du gradient de pression osmotique."
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "prompt": "Le transport actif des sels minéraux dans la plante est souvent appelé ________.",
+      "answer": "transport actif",
+      "explanation": "Le transport actif désigne le déplacement contre gradient."
+    }
+  ]
+}

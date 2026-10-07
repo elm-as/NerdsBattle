@@ -1,0 +1,70 @@
+{
+  "id": "physique-cinquieme-melanges-solutions-aqueuses",
+  "title": "Mélanges, corps purs et solutions aqueuses",
+  "summary": "Ce chapitre vous permettra de distinguer un corps pur d'un mélange et de comprendre comment caractériser une solution aqueuse. Vous apprendrez à utiliser la masse volumique et la concentration en masse pour identifier des substances et préparer des solutions, des compétences essentielles en chimie et dans la vie courante.",
+  "lesson": "## Introduction & Mise en situation\n\nAvez-vous déjà observé de l'eau boueuse ? Ou préparé du thé sucré ? Ce sont des mélanges ! En chimie, il est fondamental de savoir si une substance est pure ou mélangée, car cela influence ses propriétés et ses usages. Par exemple, pour préparer une boisson, il faut connaître la quantité de sucre à dissoudre pour obtenir la bonne concentration. Ce chapitre vous donne les outils pour analyser les mélanges et les solutions, que ce soit au laboratoire ou dans la vie quotidienne.\n\n## 1. Définitions et Principes Fondamentaux\n\n### Corps pur et mélange\n- **Corps pur** : constitué d'une seule espèce chimique (ex: eau distillée, sel pur).\n- **Mélange** : constitué de plusieurs espèces chimiques (ex: eau salée, air).\n\n### Mélanges homogènes et hétérogènes\n- **Homogène** : on ne peut pas distinguer les constituants à l'œil nu (ex: eau sucrée).\n- **Hétérogène** : on peut distinguer les constituants (ex: eau + huile).\n\n### Solution aqueuse\nUne solution aqueuse est un mélange homogène obtenu par dissolution d'un soluté (solide, liquide ou gaz) dans de l'eau (le solvant).\n\n### Masse volumique\nLa masse volumique $\\rho$ d'un corps est le quotient de sa masse $m$ par son volume $V$ :\n$$\\rho = \\frac{m}{V}$$\nElle s'exprime en kg/m³ ou en g/cm³. Par exemple, la masse volumique de l'eau est $\\rho_{eau} = 1 \\text{ g/cm}^3$.\n\n### Concentration en masse\nLa concentration en masse $C_m$ d'un soluté dans une solution est le quotient de la masse de soluté $m_{soluté}$ par le volume de la solution $V_{solution}$ :\n$$C_m = \\frac{m_{soluté}}{V_{solution}}$$\nElle s'exprime en g/L. Par exemple, une solution de concentration $C_m = 20 \\text{ g/L}$ contient 20 g de soluté dans 1 L de solution.\n\n## 2. Propriétés et Méthodes d'application\n\n### Comment distinguer un corps pur d'un mélange ?\n- **Test de la température de changement d'état** : un corps pur change d'état à température constante (palier de température), tandis qu'un mélange change d'état sur une plage de températures.\n- **Test de la chromatographie** : on dépose une goutte de la substance sur une feuille de papier et on la met dans un solvant. Si plusieurs taches apparaissent, c'est un mélange.\n\n### Comment séparer les constituants d'un mélange ?\n- **Décantation** : laisser reposer un mélange hétérogène pour que les constituants se séparent par densité (ex: eau + sable).\n- **Filtration** : utiliser un filtre pour retenir les particules solides (ex: filtrer de l'eau boueuse).\n- **Distillation** : chauffer un mélange homogène pour évaporer le liquide le plus volatil, puis le condenser (ex: eau salée -> eau pure).\n\n### Calcul de la masse volumique\n**Exemple** : Un morceau de métal a une masse $m = 25,2 \\text{ g}$ et un volume $V = 9,3 \\text{ cm}^3$. Calculer sa masse volumique.\n\n$$\\rho = \\frac{m}{V} = \\frac{25,2 \\text{ g}}{9,3 \\text{ cm}^3} \\approx 2,71 \\text{ g/cm}^3$$\n\nCe métal est probablement de l'aluminium (dont la masse volumique est environ 2,7 g/cm³).\n\n### Préparation d'une solution par dissolution\n**Étapes** :\n1. Peser la masse de soluté nécessaire avec une balance.\n2. Introduire le soluté dans une fiole jaugée.\n3. Ajouter de l'eau distillée jusqu'à la moitié, agiter pour dissoudre.\n4. Compléter avec de l'eau distillée jusqu'au trait de jauge.\n5. Agiter pour homogénéiser.\n\n**Exemple** : On veut préparer 250 mL d'une solution de concentration en masse $C_m = 8 \\text{ g/L}$ en glucose. Quelle masse de glucose faut-il dissoudre ?\n\nConvertir le volume en litres : $V = 250 \\text{ mL} = 0,250 \\text{ L}$.\n\n$$m = C_m \\times V = 8 \\text{ g/L} \\times 0,250 \\text{ L} = 2 \\text{ g}$$\n\nIl faut peser 2 g de glucose.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre masse et volume** : la masse se mesure en grammes (g) avec une balance, le volume en litres (L) ou millilitres (mL) avec une éprouvette graduée. Ne pas les intervertir dans les formules.\n- **Oublier de convertir les unités** : si le volume est en mL, il faut le convertir en L pour la concentration en g/L (1 L = 1000 mL).\n- **Ne pas tenir compte du volume du soluté** : lors de la préparation d'une solution, on complète avec de l'eau jusqu'au trait de jauge, donc le volume total est exactement celui de la fiole.\n- **Penser que l'eau salée est un corps pur** : non, c'est un mélange homogène. Un corps pur est constitué d'une seule espèce chimique.\n- **Utiliser la masse volumique sans unités** : toujours vérifier les unités, car $1 \\text{ g/cm}^3 = 1000 \\text{ kg/m}^3$.\n\n## Synthèse\n\n1. **Corps pur vs mélange** : un corps pur contient une seule espèce chimique, un mélange en contient plusieurs. Les mélanges peuvent être homogènes ou hétérogènes.\n2. **Formules clés** : masse volumique $\\rho = m/V$ et concentration en masse $C_m = m_{soluté}/V_{solution}$.\n3. **Savoir-faire** : calculer une masse volumique, préparer une solution par dissolution, et utiliser des techniques de séparation (décantation, filtration, distillation).",
+  "estimatedMinutes": 12,
+  "tags": [
+    "mélanges",
+    "solutions",
+    "masse volumique",
+    "concentration",
+    "chimie"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le solvant dans une solution aqueuse ?",
+      "options": [
+        "Le soluté",
+        "L'eau",
+        "Le sel",
+        "Le sucre"
+      ],
+      "answer": 1,
+      "explanation": "Dans une solution aqueuse, le solvant est l'eau, car c'est elle qui dissout le soluté."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Un mélange homogène est un corps pur.",
+      "answer": false,
+      "explanation": "Un mélange homogène est un mélange dont on ne peut pas distinguer les constituants à l'œil nu, mais il contient plusieurs espèces chimiques. Un corps pur est constitué d'une seule espèce chimique."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Calcule la masse volumique (en g/cm³) d'un solide de masse 45 g et de volume 15 cm³. Réponse :",
+      "answer": "3",
+      "explanation": "ρ = m/V = 45 g / 15 cm³ = 3 g/cm³."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Pour séparer un mélange hétérogène de sable et d'eau, quelle technique est la plus adaptée ?",
+      "options": [
+        "Distillation",
+        "Filtration",
+        "Décantation",
+        "Évaporation"
+      ],
+      "answer": 1,
+      "explanation": "La filtration permet de retenir les particules solides (sable) avec un filtre, tandis que l'eau passe à travers."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La concentration en masse se calcule en divisant la masse de soluté par le volume de solvant.",
+      "answer": false,
+      "explanation": "La concentration en masse se calcule en divisant la masse de soluté par le volume de la solution (pas le volume de solvant)."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Quelle masse de sucre (en g) faut-il dissoudre pour préparer 500 mL d'une solution de concentration 12 g/L ? Réponse :",
+      "answer": "6",
+      "explanation": "V = 500 mL = 0,5 L ; m = Cm × V = 12 g/L × 0,5 L = 6 g."
+    }
+  ]
+}

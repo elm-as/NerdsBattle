@@ -1,0 +1,14 @@
+{
+  "id": "histoire-terminale-guerre-froide",
+  "title": "La Guerre froide",
+  "summary": "1947-1991 : un monde bipolaire entre USA et URSS.",
+  "lesson": "Après 1945, deux blocs s'opposent : l'Ouest (USA, OTAN, capitalisme) et l'Est (URSS, Pacte de Varsovie, communisme). Crises majeures : Berlin (1948, 1961), Cuba (1962), Vietnam. Chute du mur de Berlin en 1989, dissolution de l'URSS en 1991.",
+  "estimatedMinutes": 14,
+  "tags": ["xxe siècle", "géopolitique"],
+  "questions": [
+    { "id": "q1", "type": "mcq", "prompt": "Année de la chute du mur de Berlin ?", "options": ["1961", "1989", "1991", "1968"], "answer": 1, "explanation": "9 novembre 1989." },
+    { "id": "q2", "type": "truefalse", "prompt": "L'OTAN est l'alliance militaire du bloc soviétique.", "answer": false, "explanation": "L'OTAN est occidentale. Le bloc soviétique = Pacte de Varsovie." },
+    { "id": "q3", "type": "fill", "prompt": "La crise des fusées de ___ a eu lieu en 1962.", "answer": "Cuba", "explanation": "Confrontation Kennedy-Khrouchtchev." },
+    { "id": "q4", "type": "mcq", "prompt": "L'URSS est dissoute en :", "options": ["1989", "1990", "1991", "1993"], "answer": 2, "explanation": "Décembre 1991." }
+  ]
+}

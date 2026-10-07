@@ -1,0 +1,173 @@
+{
+  "id": "anglais-quatrieme-unit-4-lesson-1-4e-anglais",
+  "subjectId": "anglais",
+  "levelId": "quatrieme",
+  "slug": "unit-4-lesson-1-4e-anglais",
+  "title": "U4-FASHION: Fashion and Opinions for 4th Grade English",
+  "summary": "Lesson for 4th‑grade English focusing on fashion vocabulary, present simple vs. continuous, expressing opinions and related practice activities. Includes worksheets, fill‑in‑the‑gap, verb‑choice, and communication tasks.",
+  "lesson": "## Vocabulary\n- **young people**: adolescents\n- **clothes**: jeans, dresses, T‑shirts …\n- **fashion**: style\n- **fashionable**: new, attractive, stylish\n- **old‑fashioned**: past, ancient\n- **to wear**: to put on clothes\n- **to wash**: to clean with water\n- **hairstyles**: Afro, Punk, dreadlocks\n- **hairdresser**: person who does women’s hair\n- **a pair of sneakers**\n- **shoemaker**: makes/repairs shoes\n- **to give up**: abandon, stop\n\n## Language Functions\n1. **Describing repetitive actions** – *Present simple* (e.g., “I wear a jacket every day.”)\n2. **Describing actions in progress** – *Present continuous* (e.g., “Look! Seka is wearing a nice polo T‑shirt today.”)\n3. **Expressing opinions** – phrases such as “I think that…”, “In my opinion…”, “From my point of view…”.\n\n## Grammar\n- Present simple vs. present continuous\n- Verb choice in context (wear / are wearing, etc.)\n\n## Practice Activities\n### Activity 1 – Fill the gaps (vocabulary)\n`fashion – fashionable – young – clothes – old‑fashioned – wear – wash`\n### Activity 2 – Choose the correct verb form\n### Activity 3 – Fill the gaps (hairstyle & shoe vocab)\n`pick up – hairdresser – hairstyle – a pair of sneakers – shoemaker – give up`\n### Activity 4 – Write 5 opinions using different opinion expressions.\n### Communication Tasks\n- Interview a club member (questionnaire)\n- Write a paragraph describing a friend’s fashion trend\n- Write a paragraph describing a birthday ceremony (10‑5 lines).\n\n## Estimated Teaching Time\n10 minutes",
+  "estimatedMinutes": 10,
+  "tags": [
+    "anglais",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Which word best completes: \"I ______ my hands before eating.\"",
+      "options": [
+        "wear",
+        "wash",
+        "give up",
+        "pick up"
+      ],
+      "answer": 1,
+      "explanation": "The correct verb is \"wash\"."
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "prompt": "Students ______ khaki uniforms, take their schoolbags and go to school.",
+      "answer": "wear",
+      "explanation": "Present simple for habitual action."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "People aged from 13 to 21 are the ______ generation.",
+      "options": [
+        "young",
+        "fashionable",
+        "old‑fashioned",
+        "fashion"
+      ],
+      "answer": 0,
+      "explanation": "They are the \"young\" generation."
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "\"Old‑fashioned\" means modern and attractive.",
+      "answer": false,
+      "explanation": "Old‑fashioned means past or not modern."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "prompt": "Everybody will put their new ______ to look attractive at the ceremony.",
+      "answer": "clothes",
+      "explanation": "The noun needed is \"clothes\"."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Which sentence uses the present continuous correctly?",
+      "options": [
+        "Muslims usually are wearing bubus to go to the mosque every Friday.",
+        "Muslims usually wear bubus to go to the mosque every Friday.",
+        "Muslims usually wearing bubus to go to the mosque every Friday.",
+        "Muslims usually is wearing bubus to go to the mosque every Friday."
+      ],
+      "answer": 1,
+      "explanation": "Habitual actions use present simple: \"wear\"."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Choose the correct form: \"What does the chief ______ during traditional ceremonies?\"",
+      "options": [
+        "wear",
+        "is wearing",
+        "wears",
+        "are wearing"
+      ],
+      "answer": 2,
+      "explanation": "Third‑person singular present simple: \"wears\"."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "The sentence \"I am putting on the new clothes\" is present continuous.",
+      "answer": true,
+      "explanation": "\"am putting on\" is present continuous."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "If you want to see some new haircuts, look in this ______ album!",
+      "answer": "hairstyle",
+      "explanation": "The word from the list is \"hairstyle\"."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "If you want to win, don’t ______ the competition!",
+      "answer": "give up",
+      "explanation": "The phrase is \"give up\"."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Which expression is NOT a way to give an opinion?",
+      "options": [
+        "I think that…",
+        "In my opinion…",
+        "From my point of view…",
+        "What is your name?"
+      ],
+      "answer": 3,
+      "explanation": "\"What is your name?\" is not an opinion expression."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "\"Fashionable\" can be used to describe an old‑fashioned pair of shoes.",
+      "answer": false,
+      "explanation": "\"Fashionable\" means modern; \"old‑fashioned\" is the opposite."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Select the correct pair: a person who makes shoes – ______.",
+      "options": [
+        "hairdresser",
+        "shoemaker",
+        "designer",
+        "tailor"
+      ],
+      "answer": 1,
+      "explanation": "A shoemaker makes or repairs shoes."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "I ______ a jacket every day.",
+      "answer": "wear",
+      "explanation": "Present simple for a habitual action."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Which verb form completes the sentence? \"Muslims usually ______ bubus on Fridays.\"",
+      "options": [
+        "are wearing",
+        "wear",
+        "wears",
+        "is wearing"
+      ],
+      "answer": 1,
+      "explanation": "Habitual action uses present simple \"wear\"."
+    },
+    {
+      "id": "q16",
+      "type": "truefalse",
+      "prompt": "The phrase \"From my point of view, fashion is not always good for young people\" is an opinion statement.",
+      "answer": true,
+      "explanation": "It explicitly expresses a personal viewpoint."
+    }
+  ]
+}

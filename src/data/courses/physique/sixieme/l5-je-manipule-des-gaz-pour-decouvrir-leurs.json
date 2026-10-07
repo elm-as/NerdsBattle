@@ -1,0 +1,184 @@
+{
+  "id": "physique-sixieme-l5-je-manipule-des-gaz-pour-decouvrir-leurs",
+  "subjectId": "physique",
+  "levelId": "sixieme",
+  "slug": "l5-je-manipule-des-gaz-pour-decouvrir-leurs",
+  "title": "L'air et ses propriétés physiques",
+  "summary": "Découvre comment l'air, invisible mais bien réel, se comprime, se détend et reprend sa forme. Explore ses propriétés étonnantes à travers des expériences simples.",
+  "lesson": "# L'air et ses propriétés physiques\n\n## Introduction\n\nL'air est partout autour de nous, mais il est invisible. Pourtant, il possède des propriétés physiques étonnantes qui expliquent de nombreux phénomènes de la vie courante. Dans cette leçon, nous allons découvrir comment mettre en évidence l'air, ses caractéristiques et ses comportements lorsqu'il est soumis à des forces.\n\n## 1. Définitions et notions clés\n\n- **L'air** : mélange de gaz invisible, inodore et sans saveur dans des conditions normales.\n- **Gaz** : état de la matière qui n'a pas de forme propre et occupe tout l'espace disponible.\n- **Dioxyde d'azote** : exemple de gaz coloré (bleu) et à odeur suffocante, toxique pour les êtres vivants.\n- **Pictogramme T** : symbole indiquant qu'un produit est toxique.\n- **Compressible** : qui peut être comprimé, c'est-à-dire dont on peut réduire le volume.\n- **Expansible** : qui peut se détendre, c'est-à-dire dont on peut augmenter le volume.\n- **Élastique** : qui reprend sa forme ou son volume initial après avoir été comprimé ou étiré.\n\n## 2. Applications et méthodes\n\n### 2.1. Montrer l'existence de l'air\n\n- **Expérience du verre retourné** : on plonge un verre vide à l'envers dans l'eau. L'eau ne remplit pas complètement le verre car l'air qu'il contient l'en empêche. Si on incline le verre, des bulles d'air s'échappent et l'eau monte.\n- **Interprétation** : l'air est bien présent, il occupe l'espace.\n\n### 2.2. Transvaser de l'air\n\n- **Expérience du déplacement d'eau** : on relie un tube à essai rempli d'air à un bocal rempli d'eau. L'air passe du tube au bocal en faisant descendre l'eau. On recueille ainsi l'air.\n- **Conclusion** : l'air n'a pas de forme propre, il prend la forme du récipient qui le contient.\n\n### 2.3. Propriétés de l'air\n\n- **Compressibilité** : en appuyant sur le piston d'une seringue bouchée, on réduit le volume de l'air.\n- **Expansibilité** : en tirant sur le piston, on augmente le volume de l'air.\n- **Élasticité** : lorsque l'on cesse d'appuyer ou de tirer, le piston revient à sa position initiale. L'air reprend son volume initial.\n\n## 3. Pièges fréquents\n\n- **Confondre compressible et expansible** : compressible signifie que l'on peut réduire le volume ; expansible signifie que l'on peut augmenter le volume.\n- **Penser que l'air n'a pas de masse** : l'air a une masse, mais elle est très faible.\n- **Oublier que l'air est un mélange** : l'air n'est pas un corps pur, il contient plusieurs gaz (dioxygène, diazote, etc.).\n- **Ne pas tenir compte de la toxicité** : certains gaz sont dangereux, il faut respecter les pictogrammes.\n\n## Synthèse\n\nL'air est un gaz invisible mais réel. Il n'a pas de forme propre et occupe tout l'espace disponible. Il est compressible, expansible et élastique. Ces propriétés expliquent pourquoi un ballon déformé reprend sa forme initiale : l'air qu'il contient se comprime puis reprend son volume grâce à son élasticité.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la propriété de l'air qui lui permet de reprendre sa forme initiale après avoir été comprimé ?",
+      "options": [
+        "Compressibilité",
+        "Expansibilité",
+        "Élasticité",
+        "Toxicité"
+      ],
+      "answer": 2,
+      "explanation": "L'élasticité est la propriété qui permet à l'air de reprendre sa forme ou son volume initial après avoir été comprimé ou étiré."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "L'air est compressible, expansible et ______.",
+      "answer": "élastique",
+      "explanation": "L'air est compressible, expansible et élastique."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel gaz est décrit comme ayant une couleur bleue et une odeur suffocante ?",
+      "options": [
+        "Le dioxygène",
+        "Le dioxyde de carbone",
+        "Le dioxyde d'azote",
+        "Le diazote"
+      ],
+      "answer": 2,
+      "explanation": "Le dioxyde d'azote est un gaz qui a une couleur bleue et une odeur suffocante."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Que signifie le pictogramme T ?",
+      "options": [
+        "Gaz inoffensif",
+        "Gaz toxique",
+        "Gaz inflammable",
+        "Gaz explosif"
+      ],
+      "answer": 1,
+      "explanation": "Le pictogramme T signale les gaz toxiques pour les êtres vivants."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "L'air n'a pas de forme propre, il prend la forme du ______ qui le contient.",
+      "answer": "récipient",
+      "explanation": "L'air prend la forme du récipient qui le contient."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Dans l'expérience du verre retourné dans l'eau, pourquoi l'eau ne remplit-elle pas complètement le verre ?",
+      "options": [
+        "À cause de la pression de l'eau",
+        "À cause de l'air contenu dans le verre",
+        "À cause de la forme du verre",
+        "À cause de la température"
+      ],
+      "answer": 1,
+      "explanation": "L'air contenu dans le verre empêche l'eau de le remplir complètement."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quelle propriété de l'air est mise en évidence lorsqu'on appuie sur le piston d'une seringue bouchée ?",
+      "options": [
+        "La compressibilité",
+        "L'expansibilité",
+        "L'élasticité",
+        "La toxicité"
+      ],
+      "answer": 0,
+      "explanation": "En appuyant sur le piston, on réduit le volume de l'air : c'est la compressibilité."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Lorsqu'on tire sur le piston, le volume de l'air augmente : l'air est ______.",
+      "answer": "expansible",
+      "explanation": "L'air se détend, il est expansible."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Que se passe-t-il lorsque l'on cesse d'appuyer sur le piston ?",
+      "options": [
+        "Le piston reste enfoncé",
+        "Le piston revient à sa position initiale",
+        "Le piston sort complètement",
+        "Le piston ne bouge pas"
+      ],
+      "answer": 1,
+      "explanation": "Quand on cesse d'appuyer, le piston reprend sa position initiale : l'air est élastique."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel est le phénomène observé lorsqu'on incline le verre retourné dans l'eau ?",
+      "options": [
+        "L'eau entre dans le verre",
+        "Des bulles d'air s'échappent",
+        "Le verre se remplit d'air",
+        "Rien ne se passe"
+      ],
+      "answer": 1,
+      "explanation": "L'air s'échappe du verre par bulles, ce qui permet à l'eau d'entrer."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "L'air passe du tube à essai au bocal par ______ d'eau.",
+      "answer": "déplacement",
+      "explanation": "L'air passe du tube à essai au bocal par déplacement d'eau."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Pourquoi le ballon se déforme-t-il lorsqu'un taxi monte dessus ?",
+      "options": [
+        "Parce que l'air s'échappe",
+        "Parce que l'air se comprime",
+        "Parce que le ballon est mou",
+        "Parce que l'air se dilate"
+      ],
+      "answer": 1,
+      "explanation": "Le ballon se déforme car l'air qu'il contient se comprime."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Parmi ces propositions, laquelle n'est pas une propriété de l'air ?",
+      "options": [
+        "Compressible",
+        "Expansible",
+        "Élastique",
+        "Toxique"
+      ],
+      "answer": 3,
+      "explanation": "L'air n'est pas toxique en lui-même. La toxicité concerne certains gaz comme le dioxyde d'azote."
+    },
+    {
+      "id": "q19",
+      "type": "fill",
+      "prompt": "Le dioxyde d'azote est un gaz qui a une couleur ______ et une odeur suffocante.",
+      "answer": "bleue",
+      "explanation": "Le dioxyde d'azote a une couleur bleue et une odeur suffocante."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Quelle expérience permet de montrer que l'air est compressible ?",
+      "options": [
+        "Le verre retourné dans l'eau",
+        "Le transvasement par déplacement d'eau",
+        "Le piston que l'on appuie",
+        "Le ballon qui rebondit"
+      ],
+      "answer": 2,
+      "explanation": "En appuyant sur le piston, on comprime l'air, ce qui montre sa compressibilité."
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "id": "info-sixieme-l3-tic-6eme-l3",
+  "subjectId": "info",
+  "levelId": "sixieme",
+  "slug": "l3-tic-6eme-l3",
+  "title": "Leçon 3 : Utilisation du clavier (6ème)",
+  "summary": "Apprenez les différences entre claviers AZERTY et QWERTY, la gestion des touches à plusieurs symboles, et la saisie des accents (circonflexe, tréma). Exercices pratiques de saisie sous Word et d’utilisation de caractères spéciaux.",
+  "lesson": "## Situation d’apprentissage\n- Vidéo d’introduction : https://youtu.be/ENHYxHy8qXY\n\n## Résumé de la leçon\n1. **Le clavier** : périphérique d’entrée permettant de saisir textes, chiffres et caractères.\n2. **Types de claviers**\n   - **AZERTY** (français) – les premières touches sont A Z E R T Y.\n   - **QWERTY** (anglais) – les premières touches sont Q W E R T Y.\n3. **Touches à plusieurs symboles**\n   - Exemple : la touche `0` donne `0` (chiffre), `à` (lettre) ou `@` (symbole) selon le mode (majuscules/minuscules/Alt Gr).\n4. **Accents**\n   - **Circonflexe** : appuyer sur la touche d’accent (située à droite du clavier alphanumérique) puis la voyelle.\n   - **Tréma** : maintenir `Maj` puis appuyer sur la touche d’accent avant la voyelle.\n5. **Exercices pratiques**\n   - Saisie d’un texte long dans Word.\n   - Saisie de phrases contenant des caractères en rouge.\n   - Saisie d’un mot‑de‑passe complexe `{ ¤ _ & ] ç : ! ~ \\ # ^ @ }`.\n\n## Consignes d’évaluation\n- Saisir le texte fourni en respectant les majuscules, minuscules et caractères spéciaux.\n- Réaliser les exercices d’écriture sous Microsoft Word.\n- Utiliser correctement les combinaisons d’accentuation.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "info",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le nom du clavier utilisé en France et dans la plupart des pays francophones ?",
+      "options": [
+        "QWERTY",
+        "AZERTY",
+        "DVORAK",
+        "COLEMAK"
+      ],
+      "answer": 1,
+      "explanation": "Le clavier français standard est l'AZERTY."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Sur un clavier AZERTY, quelle combinaison permet d’obtenir le symbole @ ?",
+      "options": [
+        "Maj + 0",
+        "Alt Gr + 0",
+        "Ctrl + Alt + 0",
+        "Maj + Alt Gr + 0"
+      ],
+      "answer": 1,
+      "explanation": "Le symbole @ se tape avec Alt Gr + la touche 0."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Sur un clavier QWERTY, la touche située à la même position que la touche \"A\" d’un AZERTY produit la lettre \"Q\".",
+      "answer": true,
+      "explanation": "En QWERTY, la première rangée alphabétique commence par Q."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Pour ajouter un accent circonflexe à la lettre \"e\", on appuie d’abord sur la touche d’accent puis sur la lettre ___ .",
+      "answer": "e",
+      "explanation": "L’accent circonflexe se compose en appuyant sur la touche d’accent puis sur la voyelle désirée."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel caractère apparaît si l’on maintient Alt Gr et que l’on appuie sur la touche \"2\" d’un clavier AZERTY ?",
+      "options": [
+        "@",
+        "\"",
+        "~",
+        "2"
+      ],
+      "answer": 2,
+      "explanation": "Sur AZERTY, Alt Gr + 2 donne le caractère ~."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Le clavier QWERTY possède plus de touches dédiées aux caractères accentués que le clavier AZERTY.",
+      "answer": false,
+      "explanation": "AZERTY intègre directement plusieurs caractères accentués, contrairement à QWERTY."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Dans l’exercice 2, le mot de passe commence par le caractère ___ (symbole monétaire).",
+      "answer": "¤",
+      "explanation": "Le premier caractère du mot de passe fourni est le symbole monétaire ¤."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel raccourci clavier permet d’insérer le caractère « ç » sur un clavier AZERTY ?",
+      "options": [
+        "Alt Gr + ,",
+        "Alt Gr + c",
+        "Alt + 0231",
+        "Maj + ,"
+      ],
+      "answer": 1,
+      "explanation": "Alt Gr + c produit le caractère « ç »."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Pour saisir la lettre « à », le clavier doit être en majuscule.",
+      "answer": false,
+      "explanation": "La lettre « à » s’obtient en minuscule, sans majuscule."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Dans la phrase « Le caïman a sorti sa tête de l’eau… », le caractère accentué sur le « i » est le ___ .",
+      "answer": "ï",
+      "explanation": "Le mot « caïman » comporte le tréma sur le i : ï."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel symbole se trouve généralement sur la même touche que le chiffre 3 sur un clavier AZERTY ?",
+      "options": [
+        "#",
+        "£",
+        "&",
+        "%"
+      ],
+      "answer": 0,
+      "explanation": "Sur AZERTY, la touche 3 donne le chiffre 3 et le symbole # avec Maj."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Sur un clavier AZERTY, la combinaison Maj + 2 donne le caractère « é ».",
+      "answer": true,
+      "explanation": "Maj + 2 produit le caractère « é »."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Dans l’exercice 1, la phrase b) mentionne le segment [___].",
+      "answer": "AB",
+      "explanation": "Le segment d’extrémités A et B se note [AB]."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel est le nombre maximal de caractères que peut contenir le titre demandé dans les directives ?",
+      "options": [
+        "60",
+        "70",
+        "80",
+        "100"
+      ],
+      "answer": 2,
+      "explanation": "Le titre doit être limité à 80 caractères."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Le texte d’évaluation doit être saisi en respectant les caractères en rouge uniquement pour les mots clés, pas pour la ponctuation.",
+      "answer": true,
+      "explanation": "Les consignes précisent de bien écrire les caractères en rouge, ce qui concerne les mots clés."
+    }
+  ]
+}

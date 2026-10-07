@@ -1,0 +1,70 @@
+{
+  "id": "maths-premiere-etude-fonctions-variations",
+  "title": "Applications de la dérivation et étude de fonctions",
+  "summary": "La dérivation est l'outil clé pour analyser les variations d'une fonction et tracer sa courbe. Maîtriser ce chapitre vous permet de résoudre des problèmes d'optimisation et de comprendre le comportement global des fonctions, une compétence essentielle pour le Bac.",
+  "lesson": "## Introduction & Mise en situation\n\nImaginez que vous lancez une balle en l'air. Sa hauteur en fonction du temps suit une parabole. Vous voulez savoir quand elle atteint son point le plus haut, ou quand elle commence à redescendre. Sans calcul, c'est difficile. Mais grâce à la dérivation, on peut déterminer précisément les instants où la fonction change de sens. Ce chapitre est crucial car il fournit une méthode systématique pour étudier n'importe quelle fonction : son sens de variation, ses extremums, et la forme de sa courbe. C'est un outil fondamental pour la résolution de problèmes concrets en sciences, économie, et bien sûr, pour réussir vos examens.\n\n## 1. Définitions et Principes Fondamentaux\n\n### Nombre dérivé et fonction dérivée\n\nSoit $f$ une fonction définie sur un intervalle $I$. Pour $a \\in I$, le **nombre dérivé** de $f$ en $a$, noté $f'(a)$, est la limite (si elle existe) du taux de variation :\n\n$$ f'(a) = \\lim_{h \\to 0} \\frac{f(a+h) - f(a)}{h} $$\n\nSi $f$ admet un nombre dérivé en tout point de $I$, on définit la **fonction dérivée** $f'$ qui à tout $x \\in I$ associe $f'(x)$.\n\n### Dérivées des fonctions usuelles\n\n| Fonction $f(x)$ | Dérivée $f'(x)$ |\n|-----------------|----------------|\n| $k$ (constante) | $0$ |\n| $x$ | $1$ |\n| $x^n$ ($n \\in \\mathbb{N}$) | $n x^{n-1}$ |\n| $\\frac{1}{x}$ ($x \\neq 0$) | $-\\frac{1}{x^2}$ |\n| $\\sqrt{x}$ ($x > 0$) | $\\frac{1}{2\\sqrt{x}}$ |\n\n### Opérations sur les dérivées\n\nSoient $u$ et $v$ deux fonctions dérivables sur un intervalle $I$, et $k$ une constante.\n\n- Somme : $(u+v)' = u' + v'$\n- Produit : $(uv)' = u'v + uv'$\n- Quotient : $\\left(\\frac{u}{v}\\right)' = \\frac{u'v - uv'}{v^2}$ (si $v \\neq 0$)\n- Multiplication par une constante : $(ku)' = ku'$\n\n## 2. Propriétés et Méthodes d'application\n\n### Lien entre signe de la dérivée et variations de la fonction\n\n**Théorème fondamental :** Soit $f$ une fonction dérivable sur un intervalle $I$.\n\n- Si $f'(x) > 0$ pour tout $x \\in I$, alors $f$ est **strictement croissante** sur $I$.\n- Si $f'(x) < 0$ pour tout $x \\in I$, alors $f$ est **strictement décroissante** sur $I$.\n- Si $f'(x) = 0$ pour tout $x \\in I$, alors $f$ est **constante** sur $I$.\n\n**Remarque :** Si la dérivée s'annule en un point isolé sans changer de signe, la monotonie n'est pas affectée (exemple $f(x)=x^3$).\n\n### Extremums locaux\n\n**Définition :** $f$ admet un **maximum local** en $a$ s'il existe un intervalle ouvert contenant $a$ tel que pour tout $x$ dans cet intervalle, $f(x) \\le f(a)$. De même pour un minimum local.\n\n**Théorème :** Si $f$ est dérivable et admet un extremum local en $a$ (intérieur à l'intervalle de définition), alors $f'(a) = 0$.\n\n**Méthode pour trouver les extremums :**\n1. Calculer $f'(x)$.\n2. Résoudre $f'(x) = 0$ pour trouver les points critiques.\n3. Étudier le signe de $f'(x)$ autour de ces points. Si la dérivée change de $+$ à $-$, c'est un maximum ; si elle change de $-$ à $+$, c'est un minimum.\n\n### Étude complète d'une fonction\n\nPour étudier une fonction $f$, on suit les étapes :\n\n1. **Ensemble de définition** : déterminer où $f$ est définie.\n2. **Dérivée** : calculer $f'(x)$.\n3. **Signe de la dérivée** : étudier le signe de $f'(x)$ (souvent en factorisant).\n4. **Tableau de variations** : dresser le tableau avec les variations de $f$.\n5. **Extremums** : indiquer les valeurs maximales et minimales.\n6. **Courbe représentative** : tracer la courbe en utilisant les informations.\n\n### Exemple concret\n\nÉtudions la fonction $f(x) = x^3 - 3x + 2$ sur $\\mathbb{R}$.\n\n1. **Dérivée :** $f'(x) = 3x^2 - 3 = 3(x^2 - 1) = 3(x-1)(x+1)$.\n2. **Signe de $f'(x)$ :** $3 > 0$, donc le signe dépend de $(x-1)(x+1)$.\n   - Pour $x < -1$ : $(x-1) < 0$ et $(x+1) < 0$ donc produit positif, $f'(x) > 0$.\n   - Pour $-1 < x < 1$ : $(x-1) < 0$ et $(x+1) > 0$ donc produit négatif, $f'(x) < 0$.\n   - Pour $x > 1$ : $(x-1) > 0$ et $(x+1) > 0$ donc produit positif, $f'(x) > 0$.\n3. **Tableau de variations :**\n\n| $x$ | $-\\infty$ | $-1$ | $1$ | $+\\infty$ |\n|-----|-----------|------|-----|-----------|\n| $f'(x)$ | $+$ | $0$ | $-$ | $0$ | $+$ |\n| $f(x)$ | $\\nearrow$ | $4$ | $\\searrow$ | $0$ | $\\nearrow$ |\n\n   Calculs : $f(-1) = (-1)^3 - 3(-1) + 2 = -1 + 3 + 2 = 4$ ; $f(1) = 1 - 3 + 2 = 0$.\n\n4. **Extremums :** Maximum local en $x=-1$ avec $f(-1)=4$, minimum local en $x=1$ avec $f(1)=0$.\n\n5. **Courbe :** On peut tracer la courbe en plaçant ces points et en respectant les variations.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre $f'(a)$ et $f(a)$** : Le nombre dérivé est une pente, pas une valeur de la fonction.\n- **Oublier de vérifier le domaine de dérivabilité** : Certaines fonctions ne sont pas dérivables partout (exemple $\\sqrt{x}$ en $0$).\n- **Erreur dans la dérivée d'un quotient** : On utilise $(u/v)' = (u'v - uv')/v^2$, attention à l'ordre.\n- **Croire que si $f'(a)=0$ alors $a$ est un extremum** : C'est une condition nécessaire mais pas suffisante. Il faut vérifier le changement de signe.\n- **Ne pas justifier le signe de la dérivée** : Il faut factoriser et étudier le signe de chaque facteur.\n- **Dans un tableau de variations, oublier les valeurs aux bornes ou les limites** : Il faut toujours indiquer les limites aux bornes de l'ensemble de définition.\n\n## Synthèse\n\n1. **La dérivée indique le sens de variation** : $f' > 0$ signifie que $f$ croît, $f' < 0$ signifie que $f$ décroît.\n2. **Les extremums se trouvent en résolvant $f'(x)=0$ et en étudiant le signe de la dérivée autour de ces points.**\n3. **L'étude complète d'une fonction suit un plan méthodique : domaine, dérivée, signe, tableau de variations, courbe.**",
+  "estimatedMinutes": 12,
+  "tags": [
+    "dérivation",
+    "fonctions",
+    "variations",
+    "extremums",
+    "bac"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le signe de la dérivée d'une fonction strictement croissante sur un intervalle ?",
+      "options": [
+        "Toujours positive",
+        "Toujours négative",
+        "Positive ou nulle",
+        "Négative ou nulle"
+      ],
+      "answer": 0,
+      "explanation": "Si une fonction est strictement croissante, sa dérivée est strictement positive sur l'intervalle (sauf éventuellement en des points isolés)."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Si $f'(a) = 0$, alors $f$ admet nécessairement un extremum local en $a$.",
+      "answer": false,
+      "explanation": "C'est une condition nécessaire mais pas suffisante. Il faut que la dérivée change de signe autour de $a$ pour avoir un extremum."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Soit $f(x) = x^2 - 4x + 3$. La dérivée $f'(x)$ est égale à :",
+      "answer": "2x-4",
+      "explanation": "En dérivant terme à terme : $(x^2)' = 2x$, $(-4x)' = -4$, $(3)' = 0$, donc $f'(x) = 2x - 4$."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Pour la fonction $f(x) = x^3 - 3x + 2$, quel est le maximum local ?",
+      "options": [
+        "4",
+        "0",
+        "2",
+        "-1"
+      ],
+      "answer": 0,
+      "explanation": "La dérivée s'annule en $x=-1$ et $x=1$. En $x=-1$, la dérivée passe de positif à négatif, donc maximum local, et $f(-1)=4$."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La fonction $f(x) = x^3$ est strictement croissante sur $\\mathbb{R}$.",
+      "answer": true,
+      "explanation": "Sa dérivée $f'(x) = 3x^2$ est positive ou nulle, et ne s'annule qu'en $x=0$. Comme elle ne change pas de signe, la fonction est strictement croissante."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Combien de points critiques (où la dérivée s'annule) possède la fonction $f(x) = x^2 - 6x + 5$ ?",
+      "answer": "1",
+      "explanation": "La dérivée est $f'(x) = 2x - 6$. En résolvant $2x - 6 = 0$, on obtient $x = 3$, donc un seul point critique."
+    }
+  ]
+}

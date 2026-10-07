@@ -1,0 +1,69 @@
+{
+  "id": "maths-terminale-nombres-complexes-algebrique",
+  "title": "Nombres complexes : forme algébrique",
+  "summary": "Les nombres complexes étendent l'ensemble des réels et permettent de résoudre des équations qui semblaient impossibles, comme $x^2 = -1$. Leur forme algébrique $a+ib$ est la clé pour maîtriser les opérations et les applications géométriques, indispensables pour le BAC.",
+  "lesson": "## Introduction & Mise en situation\n\nVous avez appris que le carré d'un nombre réel est toujours positif. Mais que se passe-t-il si on veut résoudre $x^2 = -1$ ? Aucun réel ne convient ! Pour dépasser cette limite, les mathématiciens ont inventé un nouvel ensemble de nombres : les nombres complexes. Ils sont omniprésents en physique (électricité, ondes), en ingénierie et même en informatique. Au BAC, ils sont un chapitre incontournable, souvent combiné avec la géométrie et les suites. Ce cours vous donne les fondations : la forme algébrique et ses opérations.\n\n## 1. Définitions et Principes Fondamentaux\n\n### Le nombre $i$\nOn définit un nombre imaginaire noté $i$ tel que :\n$$i^2 = -1$$\n\n### Forme algébrique\nUn nombre complexe $z$ s'écrit sous la forme :\n$$z = a + ib$$\noù $a$ et $b$ sont des réels.\n- $a$ est la **partie réelle**, notée $\\Re(z)$.\n- $b$ est la **partie imaginaire**, notée $\\Im(z)$.\n\nSi $b = 0$, $z$ est réel ; si $a = 0$, $z$ est imaginaire pur.\n\n### Égalité de deux nombres complexes\nDeux nombres complexes $z_1 = a+ib$ et $z_2 = c+id$ sont égaux si et seulement si :\n$$a = c \\quad \\text{et} \\quad b = d$$\n\n### Conjugué d'un nombre complexe\nLe conjugué de $z = a+ib$ est :\n$$\\bar{z} = a - ib$$\n\n## 2. Propriétés et Méthodes d'application\n\n### Opérations dans $\\mathbb{C}$\nSoient $z_1 = a+ib$ et $z_2 = c+id$.\n\n- **Addition** : $(a+ib) + (c+id) = (a+c) + i(b+d)$\n- **Multiplication** : $(a+ib)(c+id) = (ac - bd) + i(ad + bc)$ (en utilisant $i^2 = -1$)\n- **Division** : $\\frac{a+ib}{c+id} = \\frac{(a+ib)(c-id)}{c^2+d^2}$ (on multiplie par le conjugué du dénominateur)\n\n### Exemple 1 : Addition et multiplication\nCalculons $z = (2+3i) + (4-5i)$ :\n$$z = (2+4) + i(3-5) = 6 - 2i$$\n\nCalculons $z = (1+2i)(3-i)$ :\n$$z = 1\\cdot 3 + 1\\cdot(-i) + 2i\\cdot 3 + 2i\\cdot(-i) = 3 - i + 6i - 2i^2 = 3 + 5i + 2 = 5 + 5i$$\n\n### Exemple 2 : Division\nCalculons $z = \\frac{1+2i}{3-i}$.\nOn multiplie numérateur et dénominateur par le conjugué de $3-i$, soit $3+i$ :\n$$z = \\frac{(1+2i)(3+i)}{(3-i)(3+i)} = \\frac{3 + i + 6i + 2i^2}{9 + 1} = \\frac{3 + 7i - 2}{10} = \\frac{1 + 7i}{10} = \\frac{1}{10} + \\frac{7}{10}i$$\n\n### Représentation géométrique\nDans le plan complexe (repère orthonormé), $z = a+ib$ est associé au point $M(a;b)$ et au vecteur $\\overrightarrow{OM}$. Le conjugué $\\bar{z}$ est le symétrique de $M$ par rapport à l'axe des abscisses.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre $i$ et $1$** : Ne jamais écrire $i^2 = 1$. C'est l'erreur la plus grave !\n- **Oublier de simplifier les puissances de $i$** : $i^3 = i^2 \\cdot i = -i$, $i^4 = 1$. Pensez à réduire les puissances.\n- **Ne pas multiplier par le conjugué** : Pour diviser, il est obligatoire de multiplier par le conjugué du dénominateur pour obtenir un réel au dénominateur.\n- **Erreur de signe dans le conjugué** : Le conjugué de $a+ib$ est $a-ib$, pas $-a+ib$.\n\n## Synthèse\n\n1. **Définition** : Un nombre complexe s'écrit $z = a+ib$ avec $a, b \\in \\mathbb{R}$ et $i^2 = -1$.\n2. **Opérations** : On additionne et multiplie comme des polynômes en utilisant $i^2 = -1$ ; pour diviser, on multiplie par le conjugué du dénominateur.\n3. **Conjugué** : $\\bar{z} = a-ib$ ; il est essentiel pour la division et la géométrie.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "nombres complexes",
+    "algèbre",
+    "bac",
+    "mathématiques"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la valeur de $i^2$ ?",
+      "options": [
+        "1",
+        "-1",
+        "$i$",
+        "$-i$"
+      ],
+      "answer": 1,
+      "explanation": "Par définition, $i^2 = -1$."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le nombre $3 + 4i$ est un imaginaire pur.",
+      "answer": false,
+      "explanation": "Un imaginaire pur a une partie réelle nulle. Ici, la partie réelle est 3, donc ce n'est pas un imaginaire pur."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Calculer $(2+3i) + (1-5i)$ et donner la partie réelle du résultat.",
+      "answer": "3",
+      "explanation": "L'addition donne $(2+1) + i(3-5) = 3 - 2i$, donc la partie réelle est 3."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est le conjugué de $z = -2 + 7i$ ?",
+      "options": [
+        "$2 - 7i$",
+        "$-2 - 7i$",
+        "$-2 + 7i$",
+        "$2 + 7i$"
+      ],
+      "answer": 1,
+      "explanation": "Le conjugué change le signe de la partie imaginaire : $\\bar{z} = -2 - 7i$."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Le produit d'un nombre complexe par son conjugué est toujours un nombre réel positif.",
+      "answer": true,
+      "explanation": "$(a+ib)(a-ib) = a^2 + b^2$, qui est un réel positif ou nul."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Calculer $(1+i)^2$ et donner la partie imaginaire du résultat.",
+      "answer": "2",
+      "explanation": "$(1+i)^2 = 1 + 2i + i^2 = 1 + 2i - 1 = 2i$, donc la partie imaginaire est 2."
+    }
+  ]
+}

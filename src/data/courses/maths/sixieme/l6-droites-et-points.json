@@ -1,0 +1,193 @@
+{
+  "id": "maths-sixieme-l6-droites-et-points",
+  "subjectId": "maths",
+  "levelId": "sixieme",
+  "slug": "l6-droites-et-points",
+  "title": "Géométrie du plan – Droites et points (6e)",
+  "summary": "Cette leçon présente les notions de point, droite, demi‑droite, droites sécantes, perpendiculaires et parallèles, ainsi que les propriétés d’appartenance et d’alignement attendues en classe de sixième.",
+  "lesson": "## 1. Points et droites\n- Un **point** est représenté par une petite croix et noté d’une lettre majuscule (ex. A).\n- Une **droite** est une ligne infinie, notée entre parenthèses (ex. (D)).\n\n## 2. Appartenance d’un point à une droite\n- On écrit **C∈(D)** si le point C appartient à la droite (D).\n- On écrit **A∉(D)** si le point A n’appartient pas à (D).\n\n## 3. Points alignés\n- Des points sont **alignés** lorsqu’ils appartiennent à la même droite.\n\n## 4. Droites déterminées par des points\n- Par **un point** passent une infinité de droites.\n- Par **deux points distincts** passe **une seule** droite, notée (AB) ou (BA).\n\n## 5. Demi‑droite\n- Une demi‑droite part d’un point d’origine et passe par un autre point.  Notation : **[AB)**.\n- Un point détermine deux demi‑droites opposées.\n\n## 6. Droites sécantes\n- Deux droites sont **sécantes** lorsqu’elles ont exactement **un** point commun (point d’intersection).\n\n## 7. Droites perpendiculaires\n- Deux droites sont **perpendiculaires** lorsqu’elles sont sécantes et forment un angle droit.\n- Notation : **(L)⊥(H)**.\n- Par un point extérieur à une droite, il n’existe **qu’une** droite perpendiculaire à celle‑ci.\n\n## 8. Droites parallèles\n- Deux droites sont **parallèles** lorsqu’elles sont **perpendiculaires à une même droite**.\n- Notation : **(Q)//(L)**.\n- Par un point n’appartenant pas à une droite, il n’existe **qu’une** droite parallèle à celle‑ci.\n\n## 9. Propriétés combinées\n- Si deux droites sont parallèles, toute droite parallèle à l’une l’est aussi à l’autre.\n- Si deux droites sont parallèles, toute droite perpendiculaire à l’une l’est aussi à l’autre.\n\n## 10. Situation d’évaluation\n- Exemple d’application : identifier droites parallèles, justifier avec la propriété « perpendiculaires à une même droite », et déterminer qui a raison dans un raisonnement sur des droites sécantes.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle notation représente la droite passant par les points A et B ?",
+      "options": [
+        "(AB)",
+        "[AB)",
+        "(BA)",
+        "[BA)"
+      ],
+      "answer": 0,
+      "explanation": "(AB) ou (BA) désignent la droite qui passe par A et B."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La droite (D) et la droite (L) sont sécantes si elles n’ont aucun point commun.",
+      "answer": false,
+      "explanation": "Sécantes signifie qu’elles ont exactement un point commun."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Complète : M ______ (L) signifie que le point M appartient à la droite (L).",
+      "answer": "∈",
+      "explanation": "Le symbole ∈ indique l’appartenance."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Par combien de droites passe un point donné ?",
+      "options": [
+        "Une seule",
+        "Deux",
+        "Une infinité",
+        "Aucune"
+      ],
+      "answer": 2,
+      "explanation": "Un point est l’origine d’une infinité de droites."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Deux droites parallèles sont toujours perpendiculaires entre elles.",
+      "answer": false,
+      "explanation": "Parallèles signifie qu’elles ne se rencontrent jamais; elles ne sont pas perpendiculaires."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Si (AB)⊥(CD) et (EF)⊥(CD), alors :",
+      "options": [
+        "(AB)//(EF)",
+        "(AB)∥(EF)",
+        "(AB)=(EF)",
+        "Aucune de ces réponses"
+      ],
+      "answer": 0,
+      "explanation": "Deux droites perpendiculaires à une même droite sont parallèles."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Notation de la demi‑droite d’origine A passant par B :",
+      "answer": "[AB)",
+      "explanation": "La demi‑droite part du point d’origine A et passe par B."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel est le point d’intersection des droites (D) et (L) dans l’exemple du cours ?",
+      "options": [
+        "E",
+        "A",
+        "C",
+        "B"
+      ],
+      "answer": 0,
+      "explanation": "Le texte indique que le point commun est E."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Si deux droites sont perpendiculaires à une même droite, elles sont forcément parallèles.",
+      "answer": true,
+      "explanation": "C’est la propriété utilisée dans la situation d’évaluation."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Complète : (Q)//(L) signifie que les droites (Q) et (L) sont ______.",
+      "answer": "parallèles",
+      "explanation": "Le symbole // indique la parallélité."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quelle propriété justifie qu’il n’existe qu’une seule droite perpendiculaire à (D) passant par le point A (A∉(D)) ?",
+      "options": [
+        "Unicité de la perpendiculaire",
+        "Unicité de la parallèle",
+        "Existence d’une infinité de perpendiculaires",
+        "Aucune"
+      ],
+      "answer": 0,
+      "explanation": "Par un point extérieur, il n’y a qu’une droite perpendiculaire à une droite donnée."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Les points A, B et C sont alignés si et seulement si ils sont tous sur la même demi‑droite.",
+      "answer": false,
+      "explanation": "Ils sont alignés s’ils sont sur la même droite, pas nécessairement sur la même demi‑droite."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Dans l’exercice d’évaluation, quelles sont les deux droites parallèles identifiées ?",
+      "options": [
+        "(AB) et (GF)",
+        "(BC) et (FG)",
+        "(AB) et (BC)",
+        "(GF) et (FG)"
+      ],
+      "answer": 0,
+      "explanation": "Le corrigé indique (AB)//(GF)."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Complète : (L)⊥(H) → les droites (L) et (H) forment un angle de ______ degrés.",
+      "answer": "90",
+      "explanation": "Un angle droit mesure 90°."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel schéma représente deux droites perpendiculaires ?",
+      "options": [
+        "Deux droites qui se croisent avec un petit carré au point d’intersection",
+        "Deux droites qui ne se touchent jamais",
+        "Deux droites qui se croisent sans symbole",
+        "Deux droites parallèles"
+      ],
+      "answer": 0,
+      "explanation": "Le petit carré indique la perpendiculaire."
+    },
+    {
+      "id": "q16",
+      "type": "truefalse",
+      "prompt": "Une droite (P) peut être notée (QP) si elle passe par les points Q et P.",
+      "answer": true,
+      "explanation": "L’ordre des points n’a pas d’importance pour la notation d’une droite."
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "prompt": "Dans la notation (AB), le point A est le ______ de la droite et B le ______.",
+      "answer": "premier point,second point",
+      "explanation": "Les deux points définissent la droite."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Quel est le nombre maximal de droites parallèles qui peuvent passer par un même point ?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "Infini"
+      ],
+      "answer": 1,
+      "explanation": "Par un point, il n’y a qu’une seule droite parallèle à une droite donnée."
+    }
+  ]
+}

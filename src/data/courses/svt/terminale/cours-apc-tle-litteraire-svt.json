@@ -1,0 +1,199 @@
+{
+  "id": "svt-terminale-cours-apc-tle-litteraire-svt",
+  "subjectId": "svt",
+  "levelId": "terminale",
+  "slug": "cours-apc-tle-litteraire-svt",
+  "title": "Cellular Biology: Structure and Function of Cells",
+  "summary": "This lesson explores the fundamental concepts of cell biology, including the discovery of cells, their essential structures, the differences between animal and plant cells, and the roles of key organelles. Students will learn how microscopy techniques reveal cellular organization and how organelles contribute to life processes.",
+  "lesson": "# Introduction\nThe cell is the basic unit of life. It was first observed by Robert Hooke in 1665 and later described by Schleiden and Schwann in 1839. All living organisms are composed of cells that contain genetic information and perform essential functions.\n\n## Cell Structure\n- **Plasma membrane**: controls material exchange.\n- **Cytoplasm**: fluid containing organelles.\n- **Nucleus**: houses DNA.\n\n### Plant vs. Animal Cells\n| Feature | Plant | Animal |\n|---------|-------|--------|\n| Cell wall | Yes | No |\n| Chloroplasts | Yes | No |\n| Central vacuole | Large | Small |\n\n## Microscopy\n- **Optical microscopy**: visualizes overall cell shape.\n- **Electron microscopy**: reveals detailed organelle structure.\n\n## Key Organelles\n- **Nucleus**: genetic control.\n- **Rough ER**: protein synthesis.\n- **Smooth ER**: lipid synthesis.\n- **Golgi apparatus**: protein modification.\n- **Mitochondria**: energy production.\n- **Chloroplasts** (plants): photosynthesis.\n- **Vacuoles**: storage.\n\n## Functions\nEach organelle performs specific tasks that maintain cellular life and enable interaction with the environment.\n\n# Conclusion\nUnderstanding cell structure and function is essential for biology and medicine. Microscopy techniques allow us to observe these structures and appreciate the complexity of life at the microscopic level.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "svt",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Which scientist first observed cells in 1665?",
+      "options": [
+        "Robert Hooke",
+        "Matthias Schleiden",
+        "Theodor Schwann",
+        "Charles Darwin"
+      ],
+      "answer": 0,
+      "explanation": "Robert Hooke described cells in his book *Micrographia*."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "What is the primary function of the plasma membrane?",
+      "options": [
+        "Store genetic material",
+        "Produce proteins",
+        "Control material exchange",
+        "Generate ATP"
+      ],
+      "answer": 2,
+      "explanation": "The plasma membrane regulates what enters and leaves the cell."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "All cells have a cell wall.",
+      "answer": false,
+      "explanation": "Only plant, fungal, and bacterial cells have cell walls; animal cells do not."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Which organelle is responsible for photosynthesis?",
+      "options": [
+        "Mitochondria",
+        "Rough ER",
+        "Chloroplast",
+        "Golgi apparatus"
+      ],
+      "answer": 2,
+      "explanation": "Chloroplasts contain chlorophyll and perform photosynthesis."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "prompt": "The organelle that stores water and nutrients in plant cells is called the ________.",
+      "answer": "central vacuole",
+      "explanation": "Central vacuoles are large storage organelles in plant cells."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Which structure is present in both plant and animal cells?",
+      "options": [
+        "Cell wall",
+        "Chloroplast",
+        "Central vacuole",
+        "Nucleus"
+      ],
+      "answer": 3,
+      "explanation": "The nucleus is common to all eukaryotic cells."
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "The rough endoplasmic reticulum is studded with ribosomes.",
+      "answer": true,
+      "explanation": "Rough ER has ribosomes for protein synthesis."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Which organelle is the powerhouse of the cell?",
+      "options": [
+        "Nucleus",
+        "Mitochondria",
+        "Golgi apparatus",
+        "Lysosome"
+      ],
+      "answer": 1,
+      "explanation": "Mitochondria produce ATP through cellular respiration."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "The process by which DNA is copied is called ________.",
+      "answer": "replication",
+      "explanation": "DNA replication duplicates genetic material before cell division."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Which microscopy technique provides the highest resolution?",
+      "options": [
+        "Optical microscopy",
+        "Electron microscopy",
+        "Phase-contrast microscopy",
+        "Fluorescence microscopy"
+      ],
+      "answer": 1,
+      "explanation": "Electron microscopy uses electrons for higher resolution."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "The Golgi apparatus modifies proteins before they are transported.",
+      "answer": true,
+      "explanation": "Golgi modifies, sorts, and packages proteins."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Which organelle is involved in lipid synthesis?",
+      "options": [
+        "Rough ER",
+        "Smooth ER",
+        "Mitochondria",
+        "Nucleus"
+      ],
+      "answer": 1,
+      "explanation": "Smooth ER synthesizes lipids and detoxifies substances."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "The organelle that digests cellular waste is the ________.",
+      "answer": "lysosome",
+      "explanation": "Lysosomes contain enzymes that break down waste."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Which of the following is NOT found in animal cells?",
+      "options": [
+        "Chloroplast",
+        "Mitochondria",
+        "Nucleus",
+        "Rough ER"
+      ],
+      "answer": 0,
+      "explanation": "Chloroplasts are only in plant cells."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "All eukaryotic cells contain a nucleus.",
+      "answer": true,
+      "explanation": "The nucleus is a defining feature of eukaryotes."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Which structure stores genetic information in the cell?",
+      "options": [
+        "Mitochondria",
+        "Nucleus",
+        "Golgi apparatus",
+        "Rough ER"
+      ],
+      "answer": 1,
+      "explanation": "The nucleus contains chromosomes and DNA."
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "prompt": "The process of converting DNA into RNA is called ________.",
+      "answer": "transcription",
+      "explanation": "Transcription transcribes DNA into messenger RNA."
+    },
+    {
+      "id": "q18",
+      "type": "truefalse",
+      "prompt": "Plant cells have a large central vacuole that occupies most of the cell volume.",
+      "answer": true,
+      "explanation": "The central vacuole can occupy up to 90% of a plant cell's volume."
+    }
+  ]
+}

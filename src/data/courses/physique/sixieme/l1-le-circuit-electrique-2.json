@@ -1,0 +1,225 @@
+{
+  "id": "physique-sixieme-l1-le-circuit-electrique-2",
+  "subjectId": "physique",
+  "levelId": "sixieme",
+  "slug": "l1-le-circuit-electrique-2",
+  "title": "Le circuit électrique : pile, lampe et schématisation",
+  "summary": "Découvre comment allumer une lampe avec une pile et réaliser un circuit électrique. Apprends à schématiser, reconnaître les conducteurs et isolants, et comprendre le sens du courant.",
+  "lesson": "## Introduction\n\nDans un quartier où les coupures d'électricité sont fréquentes, savoir réaliser un circuit électrique simple permet d'éclairer sa chambre. Cette leçon t'apprend à identifier les bornes d'une pile et d'une lampe, à monter un circuit, à le schématiser et à distinguer conducteurs et isolants.\n\n## 1. Définitions & Notions clés\n\n### Bornes d'une pile\n- **Pile plate** : ses deux bornes sont ses lames. La **petite lame** est la borne **positive (+)** ; la **grande lame** est la borne **négative (–)**.\n- **Pile cylindrique** : ses deux bornes sont le **bouton central** (borne **positive +**) et l'**enveloppe métallique** (borne **négative –**).\n\n### Bornes d'une lampe électrique\nUne lampe (à baïonnette ou à vis) possède deux bornes : le **culot** et le **plot central**.\n\n### Circuit électrique\nUn **circuit électrique** est une chaîne d'éléments électriques reliés les uns aux autres directement ou par des fils de connexion aux bornes d'un générateur.\n- La **pile** est un **générateur** : elle fait circuler le courant.\n- La **lampe** est un **récepteur** : elle utilise le courant.\n- Lorsqu'on **ferme** le circuit, un courant circule ; lorsqu'il est **ouvert**, le courant ne circule pas.\n\n### Symboles normalisés\n| Élément | Symbole |\n|---|---|\n| Pile | (grande barre + petite barre) |\n| Lampe | cercle avec une croix |\n| Fil de connexion | trait |\n| Interrupteur ouvert | trait avec un point levé |\n| Interrupteur fermé | trait avec un point baissé |\n| Moteur | cercle avec M |\n\n### Sens conventionnel du courant\nLe courant électrique sort du générateur par la borne **positive (+)** et revient par la borne **négative (–)**. C'est le **sens conventionnel**.\n\n### Conducteurs et isolants\n- **Conducteur électrique** : corps qui laisse passer le courant. Ex. : métaux (fer, cuivre, aluminium), mine de crayon, fil de fer.\n- **Isolant électrique** : corps qui ne laisse pas passer le courant. Ex. : plastique, gomme, air, bois sec, feuille sèche.\n\n## 2. Applications & Méthodes\n\n### Allumer une lampe avec une pile plate\nMettre en contact le **plot** de la lampe avec une borne de la pile et le **culot** avec l'autre borne.\n\n### Allumer une lampe avec une pile cylindrique\nRelier le **plot** à une borne de la pile et le **culot** à l'autre borne **à l'aide d'un fil de connexion**.\n\n### Schématiser un circuit\n1. Identifier les éléments : pile, lampe, interrupteur, fils.\n2. Remplacer chaque élément par son symbole normalisé.\n3. Relier les symboles par des traits pour former une boucle.\n4. Indiquer le sens conventionnel du courant (de la borne + vers la borne – à l'extérieur du générateur).\n\n### Méthode pour vérifier si un corps conduit\nRemplacer l'interrupteur par le corps à tester : si la lampe s'allume, le corps est conducteur ; sinon, il est isolant.\n\n## 3. Pièges fréquents\n\n- **Confondre les bornes de la pile plate** : la petite lame est le **+**, la grande lame le **–**.\n- **Oublier le fil de connexion** avec une pile cylindrique : sans fil, le circuit n'est pas fermé.\n- **Croire que tous les métaux sont les seuls conducteurs** : la mine de crayon (graphite) conduit aussi.\n- **Penser qu'un isolant laisse passer un peu de courant** : non, il ne laisse pas passer le courant.\n- **Inverser le sens conventionnel** : le courant sort par le + et entre par le –.\n- **Schématiser sans respecter les symboles normalisés**.\n\n## Synthèse\n\n- Une pile a deux bornes (+ et –) ; une lampe a un culot et un plot central.\n- Un circuit électrique est une boucle avec un générateur, un récepteur et des fils.\n- Le courant circule de la borne + vers la borne – à l'extérieur du générateur.\n- Les conducteurs laissent passer le courant ; les isolants ne le laissent pas passer.\n- Savoir schématiser un circuit avec les symboles normalisés est essentiel.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Sur une pile plate, quelle est la borne positive ?",
+      "options": [
+        "La grande lame",
+        "La petite lame",
+        "Le bouton central",
+        "L'enveloppe métallique"
+      ],
+      "answer": 1,
+      "explanation": "La petite lame de la pile plate est la borne positive (+)."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Sur une pile cylindrique, quelle est la borne négative ?",
+      "options": [
+        "Le bouton central",
+        "La petite lame",
+        "L'enveloppe métallique",
+        "Le plot central"
+      ],
+      "answer": 2,
+      "explanation": "L'enveloppe métallique de la pile cylindrique est la borne négative (–)."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelles sont les deux bornes d'une lampe électrique ?",
+      "options": [
+        "Le bouton central et l'enveloppe",
+        "Le culot et le plot central",
+        "La petite lame et la grande lame",
+        "Le fil et l'interrupteur"
+      ],
+      "answer": 1,
+      "explanation": "Une lampe électrique a deux bornes : le culot et le plot central."
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "Un circuit électrique est une chaîne d'éléments électriques reliés les uns aux autres aux bornes d'un générateur.",
+      "answer": true,
+      "explanation": "C'est la définition exacte du circuit électrique donnée dans la leçon."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La lampe électrique est un générateur car elle fait circuler le courant.",
+      "answer": false,
+      "explanation": "La lampe est un récepteur ; c'est la pile qui est un générateur."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel élément est un générateur électrique ?",
+      "options": [
+        "La lampe",
+        "L'interrupteur",
+        "La pile",
+        "Le fil de connexion"
+      ],
+      "answer": 2,
+      "explanation": "La pile est un générateur car elle fait circuler le courant électrique."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dans quel sens circule le courant électrique à l'extérieur du générateur ?",
+      "options": [
+        "De la borne – vers la borne +",
+        "De la borne + vers la borne –",
+        "Dans les deux sens",
+        "Cela dépend de la lampe"
+      ],
+      "answer": 1,
+      "explanation": "Le courant sort par la borne positive (+) et revient par la borne négative (–)."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Le sens conventionnel du courant est le sens de sortie par la borne positive du générateur.",
+      "answer": true,
+      "explanation": "Le courant sort du générateur par la borne positive (+)."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Parmi ces corps, lequel est un conducteur électrique ?",
+      "options": [
+        "Règle en plastique",
+        "Gomme",
+        "Fil de fer",
+        "Bois sec"
+      ],
+      "answer": 2,
+      "explanation": "Le fil de fer est un métal, donc un conducteur électrique."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Parmi ces corps, lequel est un isolant électrique ?",
+      "options": [
+        "Cuivre",
+        "Aluminium",
+        "Mine de crayon",
+        "Règle en plastique"
+      ],
+      "answer": 3,
+      "explanation": "La règle en plastique est un isolant : elle ne laisse pas passer le courant."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "L'air est un conducteur électrique.",
+      "answer": false,
+      "explanation": "L'air est un isolant : dans l'expérience, la lampe reste éteinte avec l'air."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Tous les conducteurs électriques sont des métaux.",
+      "answer": false,
+      "explanation": "Faux : la mine de crayon (graphite) conduit le courant sans être un métal."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Une lampe électrique s'allume lorsque son ______ est relié à la borne positive de la pile et son ______ à la borne négative.",
+      "answer": "['plot central', 'culot']",
+      "explanation": "Le plot central se relie au + et le culot au – (ou inversement, mais le circuit doit être fermé)."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Avec une pile cylindrique, pour allumer une lampe, il faut mettre en contact l'une de ses bornes avec le ______ de la pile et l'autre avec la ______ à l'aide d'un fil conducteur.",
+      "answer": "['bouton central', 'base métallique']",
+      "explanation": "Le bouton central est la borne + et la base métallique (enveloppe) la borne –."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel est le symbole normalisé de la lampe électrique ?",
+      "options": [
+        "Un cercle avec une croix",
+        "Un trait",
+        "Un cercle avec M",
+        "Deux barres parallèles"
+      ],
+      "answer": 0,
+      "explanation": "La lampe est représentée par un cercle avec une croix à l'intérieur."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel est le symbole normalisé du moteur électrique ?",
+      "options": [
+        "Un cercle avec une croix",
+        "Un cercle avec la lettre M",
+        "Un trait",
+        "Un rectangle"
+      ],
+      "answer": 1,
+      "explanation": "Le moteur est symbolisé par un cercle contenant la lettre M."
+    },
+    {
+      "id": "q17",
+      "type": "truefalse",
+      "prompt": "Un interrupteur ouvert laisse passer le courant électrique.",
+      "answer": false,
+      "explanation": "Un interrupteur ouvert empêche le courant de circuler ; c'est l'interrupteur fermé qui le laisse passer."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Dans l'expérience avec le moteur, que se passe-t-il si on inverse les connexions de la pile ?",
+      "options": [
+        "Le moteur tourne plus vite",
+        "Le moteur s'arrête",
+        "Le moteur tourne dans l'autre sens",
+        "Le moteur chauffe"
+      ],
+      "answer": 2,
+      "explanation": "Le sens de rotation du moteur dépend de la connexion des bornes ; en inversant, il tourne dans l'autre sens."
+    },
+    {
+      "id": "q19",
+      "type": "fill",
+      "prompt": "Un ______ électrique est un corps qui se laisse traverser par le courant électrique. Un ______ électrique ne se laisse pas traverser par le courant.",
+      "answer": "['conducteur', 'isolant']",
+      "explanation": "Conducteur : laisse passer le courant ; isolant : ne le laisse pas passer."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Dans la situation d'évaluation, pourquoi la lampe ne s'allume-t-elle pas ?",
+      "options": [
+        "La pile est déchargée",
+        "La règle en bois est un isolant",
+        "La lampe est grillée",
+        "Les fils sont trop courts"
+      ],
+      "answer": 1,
+      "explanation": "La règle en bois est un isolant électrique : elle ne laisse pas passer le courant."
+    }
+  ]
+}

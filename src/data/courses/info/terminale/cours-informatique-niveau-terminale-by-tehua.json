@@ -1,0 +1,223 @@
+{
+  "id": "info-terminale-cours-informatique-niveau-terminale-by-tehua",
+  "subjectId": "info",
+  "levelId": "terminale",
+  "slug": "cours-informatique-niveau-terminale-by-tehua",
+  "title": "Programmation et bases de données – Leçon 1 : Les logiciels systèmes et d’application",
+  "summary": "Cette leçon présente les différents types de logiciels (systèmes, d’application, utilitaires), les notions de fichiers et dossiers, ainsi que l’utilisation de l’invite de commande sous Windows. Elle permet aux apprenants de distinguer les logiciels, de connaître les formats de fichiers et de maîtriser des commandes de base comme dir, cd, ping et md.",
+  "lesson": "# Leçon 1 : Les logiciels systèmes et d’application\n\n## Introduction\nL'ordinateur se compose de deux parties principales : la partie matérielle (hardware) et la partie logicielle (software). La partie logicielle comprend les logiciels systèmes et les logiciels d’application.\n\n## I. Les différents types de logiciels\n\n### 1. Logiciels systèmes\n- **Systèmes d’exploitation** : interface entre le matériel et les applications (ex. Windows, Linux, macOS).\n- **Pilotes** : interface entre les périphériques et le système d’exploitation (ex. pilote clavier, pilote souris).\n\n### 2. Logiciels d’application et utilitaires\n- **Applications** : résolvent des problèmes spécifiques (ex. Microsoft Office, Photoshop, VLC, Notepad, navigateurs).\n- **Utilitaires** : optimisent ou entretiennent le système (ex. Explorateur de fichiers, panneau de configuration, WinRAR, pare-feu).\n\n### 3. Contrat d’acquisition\n- **Logiciels propriétaires** : achat obligatoire, modification interdite.\n- **Logiciels gratuits** : utilisation libre sans frais.\n- **Logiciels open source** : gratuits et modifiables.\n- **Partagiciels** : autorisation de modification.\n\n## II. Fichiers et dossiers\n- **Fichier** : ensemble de données codées avec un format (ex. freedom.mp3).\n- **Répertoire (dossier)** : contient des fichiers ou d’autres répertoires (ex. Documents et paramètres).\n- **Formats courants** :\n  - Texte : txt, docx, pdf\n  - Audio : mp3, mgg, wma\n  - Vidéo : avi, mpeg, mp4\n  - Image : jpeg, png, gif, tiff\n\n## III. Invite de commande ou terminal\nL’invite de commande permet d’exécuter des commandes système. Sous Windows, l’ouvrir via Démarrer > Tous les programmes > Accessoires > Invite de commande.\n\n### Commandes courantes\n- **dir** : affiche le contenu d’un répertoire.\n- **cd** : change de répertoire.\n- **ping** : teste la connectivité réseau.\n- **md** : crée un nouveau répertoire.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "info",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel type de logiciel sert d’interface entre le matériel et les applications ?",
+      "options": [
+        "Pilotes",
+        "Applications",
+        "Systèmes d’exploitation",
+        "Utilitaires"
+      ],
+      "answer": 2,
+      "explanation": "Les systèmes d’exploitation agissent comme interface entre le matériel et les logiciels d’application."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel est le rôle principal d’un pilote ?",
+      "options": [
+        "Créer des fichiers",
+        "Gérer les applications",
+        "Interface entre périphériques et OS",
+        "Exécuter des commandes"
+      ],
+      "answer": 2,
+      "explanation": "Les pilotes servent d’interface entre les périphériques et le système d’exploitation."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel format n’est pas un format de fichier audio ?",
+      "options": [
+        "mp3",
+        "avi",
+        "wma",
+        "mgg"
+      ],
+      "answer": 1,
+      "explanation": "AVI est un format vidéo, pas audio."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel logiciel d’application est utilisé pour la bureautique ?",
+      "options": [
+        "VLC",
+        "Notepad",
+        "Microsoft Office",
+        "WinRAR"
+      ],
+      "answer": 2,
+      "explanation": "Microsoft Office est un logiciel de bureautique."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel type de logiciel est libre et modifiable par l’utilisateur ?",
+      "options": [
+        "Logiciel propriétaire",
+        "Logiciel gratuit",
+        "Logiciel open source",
+        "Partagiciel"
+      ],
+      "answer": 2,
+      "explanation": "Les logiciels open source sont gratuits et modifiables."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle commande crée un nouveau répertoire sous Windows ?",
+      "options": [
+        "cd",
+        "dir",
+        "md",
+        "ping"
+      ],
+      "answer": 2,
+      "explanation": "La commande md (make directory) crée un répertoire."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel est le format d’un fichier texte couramment utilisé ?",
+      "options": [
+        ".mp4",
+        ".pdf",
+        ".jpeg",
+        ".avi"
+      ],
+      "answer": 1,
+      "explanation": "PDF est un format de fichier texte couramment utilisé."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel outil est un utilitaire pour optimiser le système ?",
+      "options": [
+        "Notepad",
+        "Explorer de fichiers",
+        "VLC",
+        "Firefox"
+      ],
+      "answer": 1,
+      "explanation": "L’Explorateur de fichiers est un utilitaire pour gérer le système."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quelle commande teste la connectivité réseau ?",
+      "options": [
+        "dir",
+        "cd",
+        "ping",
+        "md"
+      ],
+      "answer": 2,
+      "explanation": "La commande ping teste la connectivité réseau."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est le rôle d’un fichier ?",
+      "options": [
+        "Stocker des données liées",
+        "Créer des dossiers",
+        "Exécuter des programmes",
+        "Afficher des images"
+      ],
+      "answer": 0,
+      "explanation": "Un fichier stocke un ensemble de données liées."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Les logiciels gratuits ne peuvent pas être partagés sans frais.",
+      "answer": false,
+      "explanation": "Les logiciels gratuits peuvent être partagés sans frais."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Le format .gif est utilisé pour les images.",
+      "answer": true,
+      "explanation": "Le format .gif est un format d’image."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "La commande ______ permet d’afficher le contenu d’un répertoire sous Windows.",
+      "answer": "dir",
+      "explanation": "La commande dir affiche le contenu d’un répertoire."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel type de logiciel est un navigateur web ?",
+      "options": [
+        "Logiciel d’application",
+        "Pilote",
+        "Utilitaire",
+        "Système d’exploitation"
+      ],
+      "answer": 0,
+      "explanation": "Un navigateur web est un logiciel d’application."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel format est utilisé pour les fichiers vidéo ?",
+      "options": [
+        ".mp3",
+        ".jpeg",
+        ".mp4",
+        ".pdf"
+      ],
+      "answer": 2,
+      "explanation": "Le format .mp4 est un format vidéo."
+    },
+    {
+      "id": "q16",
+      "type": "truefalse",
+      "prompt": "Un répertoire est un fichier qui contient d’autres fichiers ou répertoires.",
+      "answer": true,
+      "explanation": "Un répertoire est un fichier contenant d’autres fichiers ou répertoires."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quel logiciel est un utilitaire de compression de fichiers ?",
+      "options": [
+        "WinRAR",
+        "Notepad",
+        "VLC",
+        "Firefox"
+      ],
+      "answer": 0,
+      "explanation": "WinRAR est un utilitaire de compression."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "prompt": "La commande ______ est utilisée pour changer de répertoire sous Windows.",
+      "answer": "cd",
+      "explanation": "La commande cd change de répertoire."
+    }
+  ]
+}

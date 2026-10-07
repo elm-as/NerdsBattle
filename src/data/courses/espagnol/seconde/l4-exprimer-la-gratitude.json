@@ -1,0 +1,172 @@
+{
+  "id": "espagnol-seconde-l4-exprimer-la-gratitude",
+  "subjectId": "espagnol",
+  "levelId": "seconde",
+  "slug": "l4-exprimer-la-gratitude",
+  "title": "Exprimer la gratitude en espagnol – Leçon 2",
+  "summary": "Cette leçon porte sur l’expression de la gratitude en espagnol, en s’appuyant sur le texte « Mensaje al pueblo guineoecuatoriano ». Les élèves apprennent les expressions courantes (gracias por …, estoy agradecido…), identifient les phrases de gratitude, et pratiquent la rédaction d’un discours de remerciement. La leçon inclut une activité d’application, des exercices de correspondance, et une évaluation sous forme de questions à choix multiples, vrai/faux et à réponse libre.",
+  "lesson": "# Leçon 2 – Exprimer la gratitude\n\n## 1. Situation d’apprentissage\n- Fin du premier trimestre.\n- Une ONG espagnole apporte des dictionnaires au club de 2nde.\n- Les élèves expriment leur gratitude envers l’ONG.\n\n## 2. Contenus\n### Vocabulaire\n- **Gratitud** : remerciement après une récompense.\n- **Oportunidad** : occasion, par ex. la fête de Noël.\n- **Soberanía** : indépendance, ex. Côte d’Ivoire.\n\n### Grammaire\n- **Expressions de gratitude** :\n  - *gracias por + infinitif / nom* (ex. *gracias por la oportunidad*).\n  - *estoy agradecido/a con*.\n  - *es muy amable*.\n\n### Texte de référence\n- *Mensaje al pueblo guineoecuatoriano* (p. 20, L1‑L14).\n- Le ministre exprime sa gratitude au peuple guineoecuatoriano.\n\n## 3. Activité d’application\n- Lire le texte.\n- Identifier les phrases de gratitude (ex. *gracias por la oportunidad*).\n- Échanger des expressions de remerciement en classe.\n\n## 4. Situation d’évaluation\n- Rappel du texte.\n- Questions sur les expressions de gratitude.\n- Rédaction d’un court discours de remerciement.\n\n## 5. Exercices\n1. **Correspondance** – Relier mots à synonymes.\n2. **Liste** – Énumérer les phrases de gratitude.\n3. **Compréhension** – Répondre aux questions sur le texte.\n\n## 6. Discours de remerciement\n- Exemple de discours pour une ONG ou une municipalité.\n- Utilisation des expressions apprises.\n\n## 7. Récapitulatif\n- Rappel des expressions clés.\n- Importance de la gratitude dans les relations interculturelles.\n\n---\n\n**Objectif pédagogique** : À la fin de la leçon, les élèves seront capables d’identifier, d’utiliser et de rédiger des expressions de gratitude en espagnol dans un contexte scolaire ou officiel.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "espagnol",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle expression est correcte pour remercier quelqu’un pour un cadeau ?",
+      "options": [
+        "gracias por el regalo",
+        "gracias a el regalo",
+        "gracias con el regalo",
+        "gracias en el regalo"
+      ],
+      "answer": 0,
+      "explanation": "La construction correcte est *gracias por + nom*."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel est le sens de *soberanía* ?",
+      "options": [
+        "Indépendance",
+        "Gratitude",
+        "Oportunité",
+        "Récompense"
+      ],
+      "answer": 2,
+      "explanation": "En espagnol, *soberanía* signifie indépendance."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "La phrase « Estoy agradecido con vosotros por vuestra gran movilización » est une expression de gratitude.",
+      "answer": true,
+      "explanation": "C’est une phrase typique exprimant la gratitude."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Complétez : ___ por la oportunidad.",
+      "answer": "Gracias",
+      "explanation": "La phrase complète est *Gracias por la oportunidad*."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Dans le texte, qui reçoit la gratitude du ministre ?",
+      "options": [
+        "Le journaliste",
+        "Le peuple guineoecuatoriano",
+        "Les ONG espagnoles",
+        "Les étudiants"
+      ],
+      "answer": 1,
+      "explanation": "Le ministre remercie le peuple guineoecuatoriano."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "La phrase « Te invito hoy. » exprime de la gratitude.",
+      "answer": false,
+      "explanation": "C’est une invitation, pas une expression de gratitude."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel synonyme correspond à *benevolencia* ?",
+      "options": [
+        "Gratitud",
+        "Discurso",
+        "Ocasión",
+        "Independencia"
+      ],
+      "answer": 0,
+      "explanation": "Benevolencia signifie bienveillance, souvent liée à la gratitude."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Écrivez une phrase de gratitude utilisant *estoy agradecido*.",
+      "answer": "Estoy agradecido por su ayuda",
+      "explanation": "Exemple d’utilisation correcte."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quelle expression ne fait pas partie des expressions de gratitude enseignées ?",
+      "options": [
+        "Gracias por el tiempo",
+        "Gracias a la amistad",
+        "Gracias con el esfuerzo",
+        "Gracias por la oportunidad"
+      ],
+      "answer": 2,
+      "explanation": "*Gracias con* n’est pas une construction correcte."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Le ministre a exprimé sa gratitude envers le journaliste.",
+      "answer": true,
+      "explanation": "Le texte indique qu’il remercie d’abord le journaliste."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel est le thème principal de la leçon ?",
+      "options": [
+        "La souveraineté",
+        "La gratitude",
+        "La météo",
+        "Les sports"
+      ],
+      "answer": 1,
+      "explanation": "La leçon porte sur l’expression de la gratitude."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Complétez : ___ por su buena conducta.",
+      "answer": "Gracias",
+      "explanation": "La phrase complète est *Gracias por su buena conducta*."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel est le rôle de l’ONG espagnole dans la leçon ?",
+      "options": [
+        "Donner des dictionnaires",
+        "Organiser un examen",
+        "Proposer un cours de maths",
+        "Faire un discours"
+      ],
+      "answer": 0,
+      "explanation": "L’ONG apporte des dictionnaires."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Les élèves doivent identifier les phrases de gratitude dans le texte.",
+      "answer": true,
+      "explanation": "C’est une activité d’application."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quelle expression exprime la politesse envers l’ONG ?",
+      "options": [
+        "Es muy amable",
+        "Estoy agradecido con",
+        "Gracias por la oportunidad",
+        "No lo sé"
+      ],
+      "answer": 0,
+      "explanation": "*Es muy amable* est une expression de politesse."
+    }
+  ]
+}

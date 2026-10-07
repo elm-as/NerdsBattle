@@ -1,0 +1,179 @@
+{
+  "id": "physique-terminale-chimie-minerale-meileur-doc-tle-d-et-c",
+  "subjectId": "physique",
+  "levelId": "terminale",
+  "slug": "chimie-minerale-meileur-doc-tle-d-et-c",
+  "title": "Chimie générale – Solutions aqueuses et pH (Terminale C/D)",
+  "summary": "Ce cours présente les notions fondamentales des solutions aqueuses : définition, rôle de l'eau comme solvant, dissolution des composés ioniques et moléculaires, concentration molaire, dilution et électroneutralité. Il prépare les élèves aux réactions acido‑basiques et aux calculs de pH en terminale C/D.",
+  "lesson": "# Solutions aqueuses – notion de pH\n\n## 1. Généralités\n- **Solution aqueuse** : mélange d’eau (solvant) et d’un soluté (ionique ou moléculaire). L’eau est l’espèce ultramajoritaire.\n- **Soluté** : substance dissoute, peut être un sel ionique (ex. NaCl, BaCl₂) ou une molécule polaire (ex. HCl, NH₃).\n\n## 2. Pouvoir solvant de l’eau\n### 2.1 Dissolution d’un composé ionique\n1. Dislocation/dissociation du solide.\n2. Hydratation des ions.\n3. Dispersion des ions hydratés.\n> Exemple : `NaCl(s) → Na⁺ + Cl⁻`  \n> `Al₂(SO₄)₃(s) → 2 Al³⁺ + 3 SO₄²⁻`\n\n### 2.2 Dissolution d’un composé moléculaire polaire\n1. Ionisation du soluté (ex. HCl → H₃O⁺ + Cl⁻).\n2. Hydratation des ions formés.\n> Exemple : `HCl + H₂O → H₃O⁺ + Cl⁻`  \n> `NH₃ + H₂O → NH₄⁺ + OH⁻`\n\n## 3. Caractéristiques d’une solution aqueuse\n### 3.1 Concentration molaire **c**\n`c = n(soluté) / V(solution)`  \nUnité : mol·L⁻¹.\n\n### 3.2 Concentration d’une espèce **[A]**\n`[A] = n(A) / V(solution)`  \nIdentique à **c** lorsqu’on parle de la concentration d’un ion ou d’une molécule.\n\n### 3.3 Dilution\nConservation de la quantité de matière : `c₁·V₁ = c₂·V₂`.\n- **Dilution simple** : ajout d’eau.\n- **Dilution par mélange** : ajout d’une autre solution.\n\n### 3.4 Électroneutralité\nDans toute solution, la somme des charges positives égale celle des charges négatives : `Σ n(q⁺) = Σ n(q⁻)`.\n\n## 4. Notion de pH (rappel rapide)\n`pH = -log₁₀[H₃O⁺]`  \n- Acide fort → dissociation totale, pH < 7.\n- Base forte → production d’OH⁻, pH > 7.\n- Solutions tampons : résistance aux variations de pH.\n\n## 5. Exercices d’application (extraits du programme)\n1. Calculer la concentration d’une solution de CuSO₄ (n = 5·10⁻² mol, V = 0,500 L).\n2. Déterminer la concentration massique de BaCl₂ (m = 4,17 g, V = 0,250 L).\n3. Convertir un volume de gaz HCl (V = 392 mL, Vm = 24,5 L·mol⁻¹) en concentration.\n4. Appliquer la relation de dilution pour préparer 250 mL d’une solution 0,10 M à partir de 1,00 M.\n\n---\n*Ce cours couvre les 4 h prévues sur les solutions aqueuses et prépare aux 6,5 h de couples acide/base et aux 4‑8 h de solutions tampons.*",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle affirmation décrit le mieux le rôle de l’eau dans la dissolution d’un sel ionique ?",
+      "options": [
+        "Réagit chimiquement avec les ions",
+        "Hydrate les ions dissociés",
+        "Neutralise les charges des ions",
+        "Forme un précipité"
+      ],
+      "answer": 1,
+      "explanation": "L’eau entoure chaque ion dissocié, formant une couche d’hydratation qui stabilise les ions en solution."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel est le produit de la dissolution de NH₃ dans l’eau ?",
+      "options": [
+        "NH₃·H₂O",
+        "NH₄⁺ + OH⁻",
+        "NH₂⁻ + H₃O⁺",
+        "NH₄OH"
+      ],
+      "answer": 1,
+      "explanation": "NH₃ accepte un proton de l’eau, donnant l’ion ammonium NH₄⁺ et l’ion hydroxyde OH⁻."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Dans une solution aqueuse, la concentration molaire c et la concentration d’une espèce [A] sont toujours différentes.",
+      "answer": false,
+      "explanation": "Lorsque l’on parle de la concentration d’un ion ou d’une molécule, c et [A] désignent la même grandeur (mol·L⁻¹)."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Écrire la formule de la concentration molaire : c = ___ / ___ .",
+      "answer": "n(soluté),V(solution)",
+      "explanation": "c = quantité de matière du soluté (n) divisée par le volume de la solution (V)."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle est la concentration (mol·L⁻¹) d’une solution contenant 5·10⁻² mol de CuSO₄ dans 0,500 L d’eau ?",
+      "options": [
+        "0,10",
+        "0,20",
+        "0,05",
+        "0,025"
+      ],
+      "answer": 0,
+      "explanation": "c = n/V = 5·10⁻² mol / 0,500 L = 0,10 mol·L⁻¹."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel volume de solution 1,00 M doit‑on prélever pour préparer 250 mL d’une solution 0,10 M ?",
+      "options": [
+        "25 mL",
+        "250 mL",
+        "2,5 mL",
+        "0,25 mL"
+      ],
+      "answer": 0,
+      "explanation": "c₁V₁ = c₂V₂ → 1,00·V₁ = 0,10·250 mL ⇒ V₁ = 25 mL."
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Une solution dite « moléculaire » conduit très faiblement le courant électrique.",
+      "answer": true,
+      "explanation": "Si les espèces présentes ne sont pas ionisées, la conductivité est très faible (ex. eau sucrée)."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "L’équation d’électroneutralité s’écrit ___ .",
+      "answer": "Σ n(q⁺) = Σ n(q⁻)",
+      "explanation": "Le nombre de charges positives doit être égal au nombre de charges négatives dans la solution."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel est le pH d’une solution contenant [H₃O⁺] = 1·10⁻³ mol·L⁻¹ ?",
+      "options": [
+        "3",
+        "7",
+        "-3",
+        "10"
+      ],
+      "answer": 0,
+      "explanation": "pH = -log₁₀(1·10⁻³) = 3."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Dans la dissolution de BaCl₂, quel(s) ion(s) apparaît(ent) en solution ?",
+      "options": [
+        "Ba²⁺ uniquement",
+        "Cl⁻ uniquement",
+        "Ba²⁺ et Cl⁻",
+        "BaCl₂ (non dissocié)"
+      ],
+      "answer": 2,
+      "explanation": "BaCl₂ se dissocie complètement en Ba²⁺ + 2 Cl⁻."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Le volume du soluté est toujours négligeable comparé à celui de l’eau dans la préparation d’une solution aqueuse.",
+      "answer": true,
+      "explanation": "Dans la plupart des cas de laboratoire, le volume du soluté est très petit par rapport à celui de l’eau, d’où l’approximation V(solution)≈V(eau)."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Pour une dilution simple, la relation entre les concentrations et les volumes est ___ .",
+      "answer": "c₁·V₁ = c₂·V₂",
+      "explanation": "La quantité de matière du soluté reste constante pendant la dilution."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel gaz, lorsqu’il se dissout dans l’eau, forme l’ion H₃O⁺ ?",
+      "options": [
+        "NH₃",
+        "CO₂",
+        "HCl",
+        "SO₂"
+      ],
+      "answer": 2,
+      "explanation": "HCl réagit avec l’eau : HCl + H₂O → H₃O⁺ + Cl⁻."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Une solution tampon contient à la fois un acide faible et sa base conjuguée en quantités comparables.",
+      "answer": true,
+      "explanation": "C’est la présence d’un couple acide/base conjugué qui confère la capacité de résistance aux variations de pH."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Si la concentration d’une solution est 0,20 mol·L⁻¹ et que l’on dilue à 0,05 mol·L⁻¹, le facteur de dilution est ___ .",
+      "answer": "4",
+      "explanation": "Facteur de dilution = c₁/c₂ = 0,20/0,05 = 4."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel est le produit de la dissolution de HCl dans l’eau ?",
+      "options": [
+        "HCl·H₂O",
+        "H₃O⁺ + Cl⁻",
+        "Cl₂ + H₂O",
+        "H₂ + Cl₂"
+      ],
+      "answer": 1,
+      "explanation": "HCl se protonise en donnant l’ion hydronium H₃O⁺ et le ion chlorure Cl⁻."
+    }
+  ]
+}

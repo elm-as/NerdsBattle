@@ -1,0 +1,14 @@
+{
+  "id": "physique-seconde-principe-inertie",
+  "title": "Principe d'inertie",
+  "summary": "Le principe d'inertie est une loi fondamentale de la mécanique qui permet de comprendre le mouvement des objets. Découvrez comment un corps persévère dans son état de repos ou de mouvement rectiligne uniforme en l'absence de forces extérieures. Cette notion est essentielle pour analyser les forces et les mouvements dans la vie quotidienne.",
+  "lesson": "## Introduction\nLe principe d'inertie, énoncé par Isaac Newton, est la première loi du mouvement. Il stipule que, dans un référentiel galiléen, un corps soumis à des forces qui se compensent (ou à aucune force) reste au repos ou en mouvement rectiligne uniforme. Cela signifie que sans force nette, la vitesse du corps ne change pas.\n\n## Points clés\n### 1. Référentiel galiléen\nUn référentiel galiléen est un repère dans lequel le principe d'inertie s'applique. En pratique, le référentiel terrestre est souvent considéré comme galiléen pour des expériences courantes.\n\n### 2. Énoncé du principe\nDans un référentiel galiléen :\n- Si un corps est soumis à des forces qui se compensent (résultante des forces nulle : $\\sum \\vec{F} = \\vec{0}$), alors il est soit au repos, soit en mouvement rectiligne uniforme.\n- Inversement, si un corps est au repos ou en mouvement rectiligne uniforme, alors les forces qui s'exercent sur lui se compensent.\n\n### 3. Lien avec la variation de vitesse\nLa variation du vecteur vitesse $\\Delta \\vec{v}$ est liée à la résultante des forces. Si $\\sum \\vec{F} = \\vec{0}$, alors $\\vec{v}$ est constant.\n\n### 4. Exemples concrets\n- **Exemple 1** : Une balle posée sur une table reste immobile car son poids est compensé par la réaction de la table.\n- **Exemple 2** : Une voiture roulant à vitesse constante sur une route rectiligne : le moteur exerce une force qui compense les forces de frottement.\n- **Exemple 3** : Dans l'espace, une sonde lancée continue à se déplacer en ligne droite à vitesse constante si aucun moteur n'agit.\n\n### 5. Erreurs fréquentes\n- **Erreur :** Penser qu'une force est nécessaire pour maintenir un mouvement. En réalité, sans force, le mouvement se poursuit indéfiniment.\n- **Erreur :** Confondre inertie et masse. L'inertie est la tendance à conserver l'état de mouvement, la masse en est la mesure quantitative.\n- **Erreur :** Appliquer le principe dans un référentiel non galiléen (ex : un manège).\n\n## Conclusion\nLe principe d'inertie est fondamental pour comprendre la dynamique. Il établit que l'absence de force nette implique une vitesse constante. Cette loi permet d'analyser les situations où les forces se compensent et de prévoir le comportement des objets.",
+  "estimatedMinutes": 15,
+  "tags": [
+    "principe d'inertie",
+    "Newton",
+    "forces",
+    "mouvement rectiligne uniforme",
+    "référentiel galiléen"
+  ]
+}

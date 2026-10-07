@@ -1,0 +1,118 @@
+{
+  "id": "info-cinquieme-tice-s5-insertion-images-texte",
+  "subjectId": "info",
+  "levelId": "cinquieme",
+  "slug": "tice-s5-insertion-images-texte",
+  "title": "L’insertion d’images et d’objets graphiques dans un texte",
+  "summary": "Cette leçon enseigne l'insertion d'images, de formes et de zones de texte dans un document de traitement de texte. Elle couvre l'alignement des objets, l'utilisation de cliparts et de photos pour enrichir le contenu, ainsi que la mise en page pour des documents spécifiques comme des affiches ou des cartes d'identité.",
+  "lesson": "# L’insertion d’images dans un texte\n\n## 1. Introduction et Objectifs\nPour rendre un document plus expressif et professionnel, il est essentiel de savoir insérer des objets graphiques. Cette leçon vise à maîtriser l'insertion d'images, de formes géométriques et de zones de texte dans un logiciel de traitement de texte (comme Microsoft Word).\n\n## 2. Types d'objets graphiques\n- **Cliparts** : Images prédéfinies intégrées au logiciel.\n- **Photos** : Images numériques importées depuis un disque dur ou Internet.\n- **Formes géométriques** : Carrés, cercles, flèches, etc.\n- **Zones de texte** : Boîtes contenant du texte qui peuvent être déplacées librement.\n\n## 3. Procédure d'insertion\n### A. Insérer une image\n1. Placer le curseur à l'endroit souhaité.\n2. Aller dans l'onglet **Insertion**.\n3. Cliquer sur **Images**.\n4. Sélectionner le fichier image depuis l'ordinateur.\n5. Ajuster la taille et la position de l'image.\n\n### B. Insérer une forme\n1. Dans l'onglet **Insertion**, cliquer sur **Formes**.\n2. Choisir la forme désirée (ex: rectangle, étoile).\n3. Tracer la forme sur la page en maintenant le clic de la souris.\n4. Modifier la couleur de remplissage et le contour.\n\n### C. Insérer une zone de texte\n1. Dans l'onglet **Insertion**, cliquer sur **Zone de texte**.\n2. Sélectionner un modèle ou une zone vide.\n3. Taper le texte souhaité.\n4. Déplacer la zone pour l'aligner correctement.\n\n## 4. Alignement et Mise en page\nLes objets graphiques peuvent être alignés par rapport au texte de plusieurs façons :\n- **En ligne avec le texte** : L'image se comporte comme un caractère.\n- **Derrière le texte** : L'image est en arrière-plan.\n- **Devant le texte** : L'image masque le texte.\n- **En retrait** : Le texte s'adapte autour de l'image.\n\n## 5. Applications Pratiques\n- **Affiche de fête** : Utilisation de cliparts (sapin, Père Noël) et de titres colorés.\n- **Carte de vœux** : Insertion d'une photo (ex: Tom et Jerry) et de messages personnalisés.\n- **Carte d'identité scolaire (CIS)** : Mise en page précise avec photo (3x3 cm), nom, classe et logo de l'établissement dans un format 9x6 cm.\n\n## 6. Conseils pour une belle mise en page\n- Respecter les marges.\n- Utiliser des polices de caractères lisibles.\n- Assurer la cohérence des couleurs.\n- Vérifier l'alignement des éléments visuels.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "info",
+    "cinquieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel onglet du logiciel de traitement de texte contient les outils pour insérer des images ?",
+      "options": [
+        "Accueil",
+        "Insertion",
+        "Mise en page",
+        "Révision"
+      ],
+      "answer": 1,
+      "explanation": "Les outils d'insertion d'objets graphiques se trouvent dans l'onglet Insertion."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Pour insérer une forme géométrique, on utilise l'outil ______.",
+      "answer": "0",
+      "explanation": "L'outil 'Formes' permet d'ajouter des figures géométriques."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la taille standard d'une photo pour une carte d'identité scolaire selon l'exercice ?",
+      "options": [
+        "2 cm x 2 cm",
+        "3 cm x 3 cm",
+        "5 cm x 5 cm",
+        "1 cm x 1 cm"
+      ],
+      "answer": 1,
+      "explanation": "L'exercice 3 précise un format de photo de 3 cm sur 3 cm."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Pour rendre un message plus expressif, on peut insérer :",
+      "options": [
+        "Uniquement du texte noir",
+        "Des objets graphiques",
+        "Des codes source",
+        "Des macros"
+      ],
+      "answer": 1,
+      "explanation": "Les objets graphiques (images, formes) enrichissent le texte."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Le format de la CIS demandé dans l'exercice est de ______ cm de longueur sur 6 cm de hauteur.",
+      "answer": "0",
+      "explanation": "L'exercice 3 indique une longueur de 9 cm."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel objet graphique est souvent utilisé pour une affiche de Noël ?",
+      "options": [
+        "Un graphique en barres",
+        "Un clipart de sapin",
+        "Un tableau de calcul",
+        "Une équation"
+      ],
+      "answer": 1,
+      "explanation": "Le sapin est un symbole visuel associé aux fêtes de fin d'année."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Où trouve-t-on généralement les outils pour aligner les objets graphiques par rapport au texte ?",
+      "options": [
+        "Dans les options de l'imprimante",
+        "Dans les outils de formatage des objets",
+        "Dans le menu fichier",
+        "Dans la barre de formule"
+      ],
+      "answer": 1,
+      "explanation": "Les options d'alignement sont liées au formatage des objets insérés."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Pour insérer une image depuis Internet, il faut d'abord la ______ sur l'ordinateur.",
+      "answer": "0",
+      "explanation": "Il faut télécharger l'image localement avant de l'insérer."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel est le but principal de l'insertion d'images dans un texte ?",
+      "options": [
+        "Ralentir le traitement",
+        "Rendre le message plus expressif",
+        "Augmenter la taille du fichier inutilement",
+        "Masquer le texte"
+      ],
+      "answer": 1,
+      "explanation": "L'objectif est l'expressivité et la clarté visuelle."
+    }
+  ]
+}

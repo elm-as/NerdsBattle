@@ -1,0 +1,69 @@
+{
+  "id": "maths-premiere-barycentres-plan",
+  "title": "Barycentre de points pondérés",
+  "summary": "Le barycentre est un outil puissant pour réduire des systèmes de points pondérés à un seul point, simplifiant ainsi de nombreux problèmes géométriques. Maîtrisez cette notion essentielle pour réussir vos exercices de géométrie et préparer le baccalauréat.",
+  "lesson": "## Introduction & Mise en situation\n\nLe barycentre est un concept fondamental en géométrie qui permet de résumer un ensemble de points affectés de coefficients (ou poids) en un unique point, appelé barycentre. Cette notion est omniprésente dans les problèmes de géométrie, de physique (centre de gravité) et d'algèbre linéaire. En Première, vous apprendrez à le définir, à le calculer et à utiliser ses propriétés pour simplifier des expressions vectorielles et résoudre des problèmes de géométrie plane.\n\n## 1. Définitions et Principes Fondamentaux\n\n**Définition :** Soient $A_1, A_2, \\ldots, A_n$ des points du plan et $\\alpha_1, \\alpha_2, \\ldots, \\alpha_n$ des réels tels que $\\alpha_1 + \\alpha_2 + \\cdots + \\alpha_n \\neq 0$. Le **barycentre** du système de points pondérés $(A_i, \\alpha_i)$ est l'unique point $G$ vérifiant :\n\n$$ \\sum_{i=1}^n \\alpha_i \\overrightarrow{GA_i} = \\overrightarrow{0} $$\n\nou de manière équivalente :\n\n$$ \\sum_{i=1}^n \\alpha_i \\overrightarrow{OA_i} = \\left( \\sum_{i=1}^n \\alpha_i \\right) \\overrightarrow{OG} $$\n\npour tout point $O$ du plan.\n\n**Cas particulier :** Si $\\sum \\alpha_i = 0$, le barycentre n'existe pas (sauf cas dégénéré où les points sont alignés et les coefficients s'annulent).\n\n**Notation :** On note souvent $G = \\text{Bar}\\{(A_1, \\alpha_1), \\ldots, (A_n, \\alpha_n)\\}$.\n\n**Exemple simple :** Soient $A$ et $B$ deux points, et $G$ le barycentre de $(A, 2)$ et $(B, 3)$. Alors $G$ vérifie $2\\overrightarrow{GA} + 3\\overrightarrow{GB} = \\overrightarrow{0}$. En prenant $O = A$, on obtient $3\\overrightarrow{AB} = 5\\overrightarrow{AG}$, donc $\\overrightarrow{AG} = \\frac{3}{5}\\overrightarrow{AB}$. Ainsi $G$ est sur le segment $[AB]$ et $AG = \\frac{3}{5} AB$.\n\n## 2. Propriétés et Méthodes d'application\n\n### Propriété 1 : Homogénéité\n\nSi $G$ est le barycentre de $(A_i, \\alpha_i)$, alors pour tout réel non nul $k$, $G$ est aussi le barycentre de $(A_i, k\\alpha_i)$. Autrement dit, on peut multiplier tous les coefficients par un même facteur non nul sans changer le barycentre.\n\n### Propriété 2 : Associativité (ou barycentre partiel)\n\nOn peut regrouper certains points en un barycentre partiel, à condition que la somme des coefficients de ce groupe soit non nulle. Par exemple, si $G_1$ est le barycentre de $(A_1, \\alpha_1)$ et $(A_2, \\alpha_2)$ avec $\\alpha_1+\\alpha_2 \\neq 0$, alors le barycentre de $(A_1, \\alpha_1), (A_2, \\alpha_2), (A_3, \\alpha_3)$ est aussi le barycentre de $(G_1, \\alpha_1+\\alpha_2)$ et $(A_3, \\alpha_3)$.\n\n### Propriété 3 : Réduction de sommes vectorielles\n\nPour tout point $M$, on a :\n\n$$ \\sum_{i=1}^n \\alpha_i \\overrightarrow{MA_i} = \\left( \\sum_{i=1}^n \\alpha_i \\right) \\overrightarrow{MG} $$\n\nCette formule est très utile pour simplifier des expressions vectorielles.\n\n### Méthode pas-à-pas pour déterminer un barycentre\n\n1. **Vérifier** que la somme des coefficients est non nulle.\n2. **Utiliser la définition** pour écrire l'égalité vectorielle.\n3. **Choisir un point de référence** (souvent l'un des points) pour exprimer la position de $G$.\n4. **Résoudre** l'équation vectorielle pour obtenir $\\overrightarrow{AG}$ ou une relation.\n\n**Exemple concret :** Soient $A$, $B$, $C$ trois points non alignés. Trouver le barycentre $G$ de $(A,1)$, $(B,2)$, $(C,3)$.\n\n- On a $1+2+3=6 \\neq 0$, donc $G$ existe.\n- On écrit : $\\overrightarrow{GA} + 2\\overrightarrow{GB} + 3\\overrightarrow{GC} = \\overrightarrow{0}$.\n- En prenant $O=A$, on a : $\\overrightarrow{AA} + 2\\overrightarrow{AB} + 3\\overrightarrow{AC} = 6\\overrightarrow{AG}$.\n- Donc $6\\overrightarrow{AG} = 2\\overrightarrow{AB} + 3\\overrightarrow{AC}$, d'où $\\overrightarrow{AG} = \\frac{1}{3}\\overrightarrow{AB} + \\frac{1}{2}\\overrightarrow{AC}$.\n\nAinsi, $G$ est le point tel que $\\overrightarrow{AG}$ est la somme des vecteurs $\\frac{1}{3}\\overrightarrow{AB}$ et $\\frac{1}{2}\\overrightarrow{AC}$.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Oublier la condition d'existence :** Ne pas vérifier que la somme des coefficients est non nulle. Si elle est nulle, le barycentre n'existe pas (sauf cas particulier où les points sont confondus et les coefficients se compensent).\n- **Confondre les coefficients :** Dans la formule $\\sum \\alpha_i \\overrightarrow{MA_i} = (\\sum \\alpha_i) \\overrightarrow{MG}$, il faut bien faire attention aux signes et aux indices.\n- **Utiliser la propriété d'associativité avec une somme partielle nulle :** Si la somme des coefficients d'un sous-groupe est nulle, on ne peut pas utiliser l'associativité pour ce groupe.\n- **Ne pas simplifier :** Parfois, on peut multiplier tous les coefficients par un même facteur pour simplifier les calculs, mais il faut le faire correctement.\n\n## Synthèse\n\n1. **Définition :** Le barycentre d'un système de points pondérés est l'unique point $G$ tel que $\\sum \\alpha_i \\overrightarrow{GA_i} = \\overrightarrow{0}$ (si la somme des coefficients est non nulle).\n2. **Propriétés clés :** Homogénéité (multiplier tous les coefficients par un même non nul ne change pas le barycentre) et associativité (regrouper des points en un barycentre partiel).\n3. **Formule de réduction :** $\\sum \\alpha_i \\overrightarrow{MA_i} = (\\sum \\alpha_i) \\overrightarrow{MG}$ pour tout point $M$, ce qui permet de simplifier des expressions vectorielles.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "barycentre",
+    "géométrie",
+    "vecteurs",
+    "bac"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la condition pour qu'un barycentre de points pondérés existe ?",
+      "options": [
+        "La somme des coefficients doit être nulle",
+        "La somme des coefficients doit être positive",
+        "La somme des coefficients doit être non nulle",
+        "Le nombre de points doit être pair"
+      ],
+      "answer": 2,
+      "explanation": "Le barycentre n'existe que si la somme des coefficients est différente de zéro."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Si on multiplie tous les coefficients d'un barycentre par un même nombre non nul, le barycentre change.",
+      "answer": false,
+      "explanation": "La propriété d'homogénéité stipule que multiplier tous les coefficients par un même facteur non nul ne change pas le barycentre."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Soient A et B deux points. Le barycentre G de (A, 2) et (B, 3) vérifie la relation vectorielle : $2\\overrightarrow{GA} + 3\\overrightarrow{GB} = \\overrightarrow{0}$. En prenant O = A, on obtient $\\overrightarrow{AG} = \\frac{?}{5}\\overrightarrow{AB}$. (Donner la valeur manquante)",
+      "answer": "3",
+      "explanation": "On a $2\\overrightarrow{GA} + 3\\overrightarrow{GB} = \\overrightarrow{0}$. En prenant O=A, on a $2\\overrightarrow{AA} + 3\\overrightarrow{AB} = 5\\overrightarrow{AG}$, donc $3\\overrightarrow{AB} = 5\\overrightarrow{AG}$, d'où $\\overrightarrow{AG} = \\frac{3}{5}\\overrightarrow{AB}$."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la propriété qui permet de remplacer un groupe de points par leur barycentre partiel ?",
+      "options": [
+        "L'homogénéité",
+        "L'associativité",
+        "La commutativité",
+        "La distributivité"
+      ],
+      "answer": 1,
+      "explanation": "L'associativité (ou barycentre partiel) permet de regrouper certains points en un barycentre partiel, à condition que la somme de leurs coefficients soit non nulle."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Pour tout point M, on a : $\\sum_{i=1}^n \\alpha_i \\overrightarrow{MA_i} = (\\sum_{i=1}^n \\alpha_i) \\overrightarrow{MG}$ où G est le barycentre.",
+      "answer": true,
+      "explanation": "C'est la propriété de réduction des sommes vectorielles, une conséquence directe de la définition du barycentre."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Soient A, B, C trois points. Le barycentre G de (A, 1), (B, 2), (C, 3) vérifie : $\\overrightarrow{AG} = \\frac{1}{3}\\overrightarrow{AB} + \\frac{?}{2}\\overrightarrow{AC}$. (Donner la valeur manquante)",
+      "answer": "1",
+      "explanation": "En utilisant la définition avec O=A, on obtient $\\overrightarrow{AG} = \\frac{2}{6}\\overrightarrow{AB} + \\frac{3}{6}\\overrightarrow{AC} = \\frac{1}{3}\\overrightarrow{AB} + \\frac{1}{2}\\overrightarrow{AC}$."
+    }
+  ]
+}

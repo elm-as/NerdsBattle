@@ -1,0 +1,97 @@
+{
+  "id": "philosophie-terminale-sujets-d-evaluation-de-philosophie-portant-s",
+  "subjectId": "philosophie",
+  "levelId": "terminale",
+  "slug": "sujets-d-evaluation-de-philosophie-portant-s",
+  "title": "Bonheur et philosophie : guide de réflexion",
+  "summary": "Ce document propose une approche structurée de la philosophie du bonheur, couvrant auto-évaluation, dissertations, morale, liberté, politique et temporalité. Il offre un aperçu des écoles hédonistes, stoïciennes, épicuriennes et spinozistes, ainsi que des questions critiques sur la quête du bonheur. Le contenu est conçu pour stimuler la réflexion, la discussion et l’évaluation active des concepts clés.",
+  "lesson": "# Bonheur et philosophie\n\n## 1. Questions d’auto‑évaluation\n- Quelle est votre conception du bonheur ?\n- Donnez 4 manières de penser le rapport entre bonheur et désir.\n- Qu’est‑ce que l’hédonisme ? Donnez‑en deux versions.\n- Qu’est‑ce que le stoïcisme ? Comment peut‑on critiquer cette conception ?\n- Qu’est‑ce qui distingue Spinoza des Stoïciens classiques (2 différences) ?\n- Qu’est‑ce que l’ataraxie ?\n- Qu’est‑ce que l’épicurisme ? Quelle est la différence entre l’épicurisme et le stoïcisme ?\n- Quels obstacles rendent périlleuse la quête du bonheur dans l’amour ? Quelles solutions peut‑on imaginer ?\n- Faut‑il espérer pour être heureux ?\n- Puis‑je rendre autrui heureux sans l’être moi‑même ?\n- Trouvez cinq idées importantes sur le bonheur qui ne sont pas dans ce cours.\n\n## 2. Sujets de dissertation\n- La recherche du bonheur est‑elle un idéal égoïste ?\n- La recherche du bonheur est‑elle nécessairement immorale ?\n- L’homme injuste peut‑il être heureux ?\n- Ai‑je le devoir de faire le bonheur des autres ?\n\n## 3. Bonheur et morale\n- Le bonheur est‑il le but de la vie ?\n- Le bonheur est‑il le but de toute action humaine ?\n- Le bonheur est‑il la fin de toute vie humaine ?\n- Le bonheur est‑il nécessairement le but de nos actions ?\n- Le bonheur est‑il le bien suprême ?\n- Peut‑on donner pour fin à la réflexion philosophique la recherche du bonheur ?\n\n## 4. Bonheur et finalité\n- Peut‑on être heureux sans être libre ?\n- Faut‑il choisir entre bonheur et liberté ?\n- L’État doit‑il faire le bonheur des citoyens ?\n- Peut‑on se contenter de vivre en paix ?\n- La recherche du bonheur est‑elle une affaire privée ?\n- Peut‑on dire que les peuples heureux n’ont pas d’histoire ?\n- Le bonheur dépend‑il du régime politique sous lequel on vit ?\n- Le bonheur est‑il un droit ?\n\n## 5. Bonheur et politique\n- Le bonheur existe‑t‑il ?\n- Le bonheur n’est‑il qu’illusion ?\n- Peut‑on atteindre le bonheur ?\n- Le bonheur est‑il inaccessible à l’homme ?\n- Un bonheur sans illusion est‑il concevable ?\n- Est‑ce seulement l’espoir d’être heureux qui rend heureux ?\n- Dans quelle mesure l’imagination contribue‑t‑elle au bonheur de l’homme ?\n- Peut‑on être à la fois lucide et heureux ?\n- Faut‑il s’abstenir de penser pour être heureux ?\n\n## 6. Bonheur et illusion\n- N’y a‑t‑il de bonheur que dans l’instant ?\n- Qu’attendons‑nous pour être heureux ?\n- Serions‑nous plus heureux si nous étions immortels ?\n\n## 7. Bonheur et temps\n- La raison conduit‑elle toujours au bonheur ?\n- Que nous apprend‑on sur le bonheur l’expérience du malheur ?\n- La recherche du bonheur peut‑elle être un esclavage ?\n- Faut‑il pour être heureux n’avoir plus de désirs ?\n- Est‑il vrai qu’« il n’y a pas d’amour heureux » ?\n- Le bonheur est‑il une question de chance ?\n\n## 8. Autres\n- Comment la gratitude influence‑t‑elle le bien‑être ?\n- Le bonheur est‑il individuel ou collectif ?\n- Quelle est la place de la résilience dans la quête du bonheur ?\n- Le bonheur est‑il lié à la santé mentale ?\n- Comment la culture façonne‑t‑elle notre conception du bonheur ?",
+  "estimatedMinutes": 10,
+  "tags": [
+    "philosophie",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le principal objectif de l’épicurisme ?",
+      "options": [
+        "Éviter la douleur",
+        "Poursuivre le plaisir",
+        "Atteindre la paix intérieure",
+        "Connaître la vérité"
+      ],
+      "answer": 1,
+      "explanation": "L’épicurisme vise à maximiser le plaisir tout en minimisant la douleur, mais il distingue le plaisir intellectuel du plaisir sensoriel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle différence majeure distingue Spinoza du stoïcisme classique ?",
+      "options": [
+        "Spinoza croit en un Dieu créateur",
+        "Spinoza voit Dieu comme la nature",
+        "Spinoza rejette la logique",
+        "Spinoza ne parle pas de liberté"
+      ],
+      "answer": 1,
+      "explanation": "Spinoza considère Dieu comme la nature (pantheisme), contrairement aux stoïciens qui voient Dieu comme un principe rationnel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "L’ataraxie est :",
+      "options": [
+        "Un état de joie intense",
+        "Un état de tranquillité intérieure",
+        "Un état de désespoir",
+        "Un état de colère"
+      ],
+      "answer": 1,
+      "explanation": "L’ataraxie désigne la tranquillité de l’âme, libre de troubles."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel est l’argument principal contre le bonheur comme fin ultime ?",
+      "options": [
+        "Il est trop subjectif",
+        "Il est impossible à atteindre",
+        "Il est immoral",
+        "Il est trop coûteux"
+      ],
+      "answer": 0,
+      "explanation": "Le principal argument est que le bonheur est trop subjectif pour être une fin universelle."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quelle école philosophique met l’accent sur la maîtrise des désirs pour atteindre le bonheur ?",
+      "options": [
+        "Hédonisme",
+        "Stoïcisme",
+        "Épicurisme",
+        "Existentialisme"
+      ],
+      "answer": 1,
+      "explanation": "Le stoïcisme enseigne la maîtrise des désirs comme voie vers le bonheur."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel est le rôle de l’imagination dans le bonheur selon certains philosophes ?",
+      "options": [
+        "La rendre illusoire",
+        "La renforcer",
+        "La limiter",
+        "La supprimer"
+      ],
+      "answer": 1,
+      "explanation": "L’imagination peut enrichir la perception du bonheur en créant des scénarios positifs."
+    }
+  ]
+}

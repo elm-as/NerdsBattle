@@ -1,0 +1,70 @@
+{
+  "id": "francais-sixieme-conjugaison-present-futur-imparfait",
+  "title": "Conjugaison : Présent, Futur et Imparfait",
+  "summary": "Maîtrisez les temps essentiels du français pour raconter, décrire et projeter. Ce chapitre vous donne les clés pour conjuguer sans faute et enrichir vos écrits.",
+  "lesson": "## Introduction & Mise en situation\n\nLa conjugaison est le squelette de la phrase en français. Sans elle, impossible de situer une action dans le temps. Que vous racontiez une histoire au passé, que vous décriviez une scène au présent ou que vous imaginiez l'avenir, le choix du temps est crucial. Ce chapitre vous rendra maître des trois temps les plus utilisés : le **présent** (ce qui se passe maintenant), le **futur simple** (ce qui se passera plus tard) et l'**imparfait** (ce qui se passait habituellement ou en continu dans le passé).\n\n## 1. Définitions et Principes Fondamentaux\n\n- **Présent de l'indicatif** : Il exprime une action qui se déroule au moment où l'on parle, une vérité générale, ou une habitude. Exemple : *Je mange une pomme.*\n- **Futur simple** : Il exprime une action qui se produira dans l'avenir. Exemple : *Je mangerai une pomme demain.*\n- **Imparfait** : Il exprime une action passée qui a duré ou qui se répétait. Exemple : *Quand j'étais petit, je mangeais souvent des pommes.*\n\n**Formation des temps** :\n- **Présent** : radical du verbe + terminaisons spécifiques à chaque groupe (par exemple, pour les verbes du 1er groupe : -e, -es, -e, -ons, -ez, -ent).\n- **Futur simple** : infinitif du verbe + terminaisons (-ai, -as, -a, -ons, -ez, -ont). Pour les verbes du 3e groupe, on utilise souvent une base modifiée (ex : *être* → *ser-*).\n- **Imparfait** : radical de la 1re personne du pluriel au présent (nous) + terminaisons (-ais, -ais, -ait, -ions, -iez, -aient).\n\n## 2. Propriétés et Méthodes d'application\n\n**Méthode pour conjuguer au présent** :\n1. Identifier le groupe du verbe (1er, 2e ou 3e).\n2. Trouver le radical (pour le 1er groupe, on retire -er de l'infinitif).\n3. Ajouter les terminaisons du présent.\n\n*Exemple* : verbe *parler* (1er groupe) :\n- Je parl**e**, tu parl**es**, il parl**e**, nous parl**ons**, vous parl**ez**, ils parl**ent**.\n\n**Méthode pour le futur simple** :\n1. Prendre l'infinitif complet (pour les 1er et 2e groupes).\n2. Ajouter les terminaisons du futur.\n\n*Exemple* : verbe *finir* (2e groupe) :\n- Je finir**ai**, tu finir**as**, il finir**a**, nous finir**ons**, vous finir**ez**, ils finir**ont**.\n\n*Exception* : certains verbes comme *être* (je serai), *avoir* (j'aurai), *aller* (j'irai) ont des radicaux irréguliers.\n\n**Méthode pour l'imparfait** :\n1. Conjuguer au présent avec \"nous\".\n2. Prendre le radical (sans -ons).\n3. Ajouter les terminaisons de l'imparfait.\n\n*Exemple* : verbe *manger* :\n- Nous mangeons → radical *mange-* → je mange**ais**, tu mange**ais**, il mange**ait**, nous mange**ions**, vous mange**iez**, ils mange**aient**.\n\n**Astuce** : Pour l'imparfait, les terminaisons sont toujours les mêmes pour tous les verbes !\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confusion entre imparfait et passé simple** : L'imparfait décrit une action de fond, le passé simple une action ponctuelle. Exemple : *Il pleuvait* (imparfait) *quand je suis sorti* (passé simple).\n- **Oubli du -e au futur des verbes du 1er groupe** : On écrit *je mangerai* (et non *je mangerais*, qui est le conditionnel).\n- **Erreur sur les terminaisons de l'imparfait** : Ne jamais mettre de -t à la 3e personne du singulier (il mangeait, pas il mangeait).\n- **Verbes du 3e groupe** : Attention aux radicaux irréguliers (ex : *aller* → j'irai, *faire* → je ferai, *voir* → je verrai).\n- **Accord du participe passé** : Ce n'est pas le sujet ici, mais attention aux temps composés.\n\n## Synthèse\n\n1. **Présent** : action actuelle, habitude, vérité générale. Terminaisons : -e, -es, -e, -ons, -ez, -ent (1er groupe).\n2. **Futur simple** : action à venir. Infinitif + -ai, -as, -a, -ons, -ez, -ont.\n3. **Imparfait** : action passée continue ou répétée. Radical de \"nous\" + -ais, -ais, -ait, -ions, -iez, -aient.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "conjugaison",
+    "présent",
+    "futur",
+    "imparfait",
+    "6ème"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la terminaison de la 1re personne du pluriel au présent pour un verbe du 1er groupe ?",
+      "options": [
+        "-ons",
+        "-ez",
+        "-ent",
+        "-ont"
+      ],
+      "answer": 0,
+      "explanation": "Au présent, pour le 1er groupe, on a : nous parlons, avec la terminaison -ons."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "L'imparfait exprime une action ponctuelle dans le passé.",
+      "answer": false,
+      "explanation": "L'imparfait exprime une action qui dure ou qui se répète dans le passé, pas une action ponctuelle."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Conjuguez le verbe 'finir' au futur simple, à la 2e personne du pluriel : vous ______.",
+      "answer": "finirez",
+      "explanation": "Le futur simple se forme avec l'infinitif + terminaison : finir + ez = finirez."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est le radical utilisé pour conjuguer 'manger' à l'imparfait ?",
+      "options": [
+        "mang-",
+        "mange-",
+        "mangions-",
+        "manger-"
+      ],
+      "answer": 1,
+      "explanation": "On prend la 1re personne du pluriel au présent (nous mangeons) et on enlève -ons, ce qui donne 'mange-'."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Au futur simple, les terminaisons sont les mêmes pour tous les verbes.",
+      "answer": true,
+      "explanation": "Oui, les terminaisons du futur simple sont toujours : -ai, -as, -a, -ons, -ez, -ont, quel que soit le groupe."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Complétez : Quand j'étais petit, je ______ (jouer) souvent au ballon. (imparfait)",
+      "answer": "jouais",
+      "explanation": "On utilise l'imparfait pour une habitude passée : je jouais."
+    }
+  ]
+}

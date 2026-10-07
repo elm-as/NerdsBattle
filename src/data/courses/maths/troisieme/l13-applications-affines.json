@@ -1,0 +1,184 @@
+{
+  "id": "maths-troisieme-l13-applications-affines",
+  "subjectId": "maths",
+  "levelId": "troisieme",
+  "slug": "l13-applications-affines",
+  "title": "Applications affines : cours et méthodes",
+  "summary": "Découvre les applications affines et leurs représentations graphiques. Apprends à calculer images et antécédents, et à résoudre des problèmes concrets.",
+  "lesson": "# Applications affines\n\n## Introduction\n\nUne application affine est une fonction qui à tout nombre réel \\(x\\) associe le nombre \\(ax + b\\), où \\(a\\) et \\(b\\) sont des constantes. Elle est très utile pour modéliser des situations de la vie courante, comme le choix d'un tarif de location.\n\n## 1. Définitions et notions clés\n\n**Définition** : Soit \\(a\\) et \\(b\\) deux nombres fixés. On appelle application affine de coefficient \\(a\\) et de terme constant \\(b\\), la correspondance \\(f\\) qui à chaque nombre réel \\(x\\) associe le nombre réel \\(ax + b\\). On note : \\(f: x \\mapsto ax + b\\).\n\n- \\(ax + b\\) est l'image de \\(x\\) par \\(f\\), notée \\(f(x) = ax + b\\).\n- Si \\(f(x) = y\\), on dit que \\(y\\) est l'image de \\(x\\) par \\(f\\).\n- \\(a\\) est le coefficient, \\(b\\) est le terme constant.\n\n**Exemple** : \\(f: x \\mapsto 2x + 1\\) est une application affine. Le coefficient est 2, le terme constant est 1.\n\n**Représentation graphique** : Dans un repère \\((O, I, J)\\), la représentation graphique de \\(f(x) = ax + b\\) est la droite d'équation \\(y = ax + b\\). Le coefficient \\(a\\) est le coefficient directeur, \\(b\\) est l'ordonnée à l'origine.\n\n## 2. Applications et méthodes\n\n### Calcul de l'image d'un nombre\nPour calculer l'image de \\(t\\) par \\(f\\), on remplace \\(x\\) par \\(t\\) dans \\(f(x)\\) et on calcule.\n\n**Exemple** : \\(f(x) = -5x + 7\\).\n- \\(f(2) = -5 \\times 2 + 7 = -3\\).\n- \\(f(-1) = -5 \\times (-1) + 7 = 12\\).\n\n### Détermination d'un antécédent\nPour trouver \\(x\\) tel que \\(f(x) = y\\), on résout l'équation \\(ax + b = y\\).\n\n**Exemple** : \\(g(x) = 5x - 7\\). Trouver \\(x\\) tel que \\(g(x) = 8\\).\n\\[5x - 7 = 8 \\iff 5x = 15 \\iff x = 3.\\]\n\n### Détermination de l'expression d'une application affine connaissant deux images\nSi \\(f(2) = -3\\) et \\(f(4) = 1\\), on cherche \\(a\\) et \\(b\\) tels que \\(f(x) = ax + b\\).\nOn résout le système :\n\\[\\begin{cases} 2a + b = -3 \\\\ 4a + b = 1 \\end{cases}\\]\nPar substitution, on trouve \\(a = 2\\) et \\(b = -7\\), donc \\(f(x) = 2x - 7\\).\n\n### Représentation graphique\nPour tracer la droite représentative de \\(f\\), on choisit deux valeurs de \\(x\\), on calcule leurs images, on place les points et on trace la droite.\n\n**Exemple** : \\(f(x) = 0,5x - 3\\).\n- \\(f(0) = -3\\) donne le point \\(A(0; -3)\\).\n- \\(f(4) = -1\\) donne le point \\(B(4; -1)\\).\nLa droite \\((AB)\\) est la représentation graphique de \\(f\\).\n\n### Utilisation de la représentation graphique\n- **Image** : Pour trouver l'image de \\(m\\), on trace la droite verticale \\(x = m\\), elle coupe la droite de \\(f\\) en un point dont l'ordonnée est l'image.\n- **Antécédent** : Pour trouver \\(x\\) tel que \\(f(x) = n\\), on trace la droite horizontale \\(y = n\\), elle coupe la droite de \\(f\\) en un point dont l'abscisse est l'antécédent.\n\n### Détermination de l'expression à partir d'une équation de droite\nSi la droite a pour équation \\(px + qy + r = 0\\), on l'écrit sous la forme \\(y = ax + b\\).\n\n**Exemple** : \\(3x + y - 5 = 0 \\iff y = -3x + 5\\), donc \\(f(x) = -3x + 5\\).\n\n### Détermination de l'expression à partir du graphique\nOn choisit deux points de la droite, on lit leurs coordonnées et on résout le système pour trouver \\(a\\) et \\(b\\).\n\n## 3. Pièges fréquents\n\n- **Confondre application affine et fonction linéaire** : une fonction linéaire est un cas particulier d'application affine avec \\(b = 0\\).\n- **Erreur de signe** lors du calcul d'image ou de la résolution d'équation.\n- **Oublier de vérifier** si une expression est bien de la forme \\(ax + b\\). Par exemple, \\(4x^2 - 5\\) n'est pas affine.\n- **Confondre coefficient directeur et ordonnée à l'origine** dans l'équation \\(y = ax + b\\).\n- **Ne pas tracer correctement** la droite : il faut au moins deux points.\n\n## Synthèse\n\n- Une application affine est définie par \\(f(x) = ax + b\\).\n- Sa représentation graphique est une droite.\n- Pour calculer une image, on remplace \\(x\\). Pour un antécédent, on résout une équation.\n- On peut déterminer l'expression à partir de deux images ou d'une équation de droite.\n- Les applications affines permettent de modéliser des situations concrètes comme des tarifs.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "troisieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'une application affine ?",
+      "options": [
+        "Une fonction de la forme f(x) = ax + b",
+        "Une fonction de la forme f(x) = ax^2 + b",
+        "Une fonction de la forme f(x) = a/x + b",
+        "Une fonction de la forme f(x) = a√x + b"
+      ],
+      "answer": 0,
+      "explanation": "Une application affine est définie par f(x) = ax + b, où a et b sont des constantes."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Parmi les correspondances suivantes, laquelle n'est pas une application affine ?",
+      "options": [
+        "l : x ↦ -3x + 1/3",
+        "m : x ↦ 16x - 5",
+        "n : x ↦ 4x^2 - 5",
+        "p : x ↦ -4 + (1/7)x"
+      ],
+      "answer": 2,
+      "explanation": "n : x ↦ 4x^2 - 5 n'est pas affine car elle contient un terme en x^2."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Complétez : Pour l'application affine f(x) = -5x + 7, l'image de 2 est ______.",
+      "answer": "-3",
+      "explanation": "f(2) = -5×2 + 7 = -10 + 7 = -3."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Soit g(x) = 5x - 7. Quelle est la valeur de x telle que g(x) = 8 ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "On résout 5x - 7 = 8 ⇒ 5x = 15 ⇒ x = 3."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dans l'équation y = ax + b, que représente b ?",
+      "options": [
+        "Le coefficient directeur",
+        "L'ordonnée à l'origine",
+        "L'abscisse à l'origine",
+        "La pente"
+      ],
+      "answer": 1,
+      "explanation": "b est l'ordonnée à l'origine, c'est-à-dire l'image de 0 par f."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Soit f une application affine telle que f(2) = -3 et f(4) = 1. L'expression de f(x) est ______.",
+      "answer": "2x - 7",
+      "explanation": "On résout le système : 2a + b = -3 et 4a + b = 1. On trouve a = 2 et b = -7."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quelle est l'équation de la droite représentant l'application affine f(x) = 3x - 2 ?",
+      "options": [
+        "y = 3x - 2",
+        "y = -3x + 2",
+        "y = 2x - 3",
+        "y = -2x + 3"
+      ],
+      "answer": 0,
+      "explanation": "La représentation graphique de f(x) = 3x - 2 est la droite d'équation y = 3x - 2."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Soit la droite (D) d'équation 3x + y - 5 = 0. Quelle est l'expression de l'application affine représentée ?",
+      "options": [
+        "f(x) = 3x + 5",
+        "f(x) = -3x + 5",
+        "f(x) = 3x - 5",
+        "f(x) = -3x - 5"
+      ],
+      "answer": 1,
+      "explanation": "3x + y - 5 = 0 ⇒ y = -3x + 5, donc f(x) = -3x + 5."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Soit g(x) = 5x - 7. Le nombre x tel que g(x) = 8 est ______.",
+      "answer": "3",
+      "explanation": "5x - 7 = 8 ⇒ 5x = 15 ⇒ x = 3."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Dans un repère, la droite (D) représente une application affine f. Pour déterminer graphiquement l'image de 1 par f, on trace :",
+      "options": [
+        "La droite d'équation x = 1",
+        "La droite d'équation y = 1",
+        "La droite d'équation y = x",
+        "La droite d'équation x = 0"
+      ],
+      "answer": 0,
+      "explanation": "On trace la droite verticale x = 1, elle coupe (D) en un point dont l'ordonnée est l'image de 1."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quelle est l'image de -1 par l'application affine f(x) = -5x + 7 ?",
+      "options": [
+        "-12",
+        "12",
+        "-2",
+        "2"
+      ],
+      "answer": 1,
+      "explanation": "f(-1) = -5×(-1) + 7 = 5 + 7 = 12."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Soit f(x) = 0,5x - 3. L'image de 4 par f est ______.",
+      "answer": "-1",
+      "explanation": "f(4) = 0,5×4 - 3 = 2 - 3 = -1."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "La droite (Δ) d'équation 2x - 3y - 15 = 0 représente une application affine g. Quelle est l'expression de g(x) ?",
+      "options": [
+        "g(x) = (2/3)x - 5",
+        "g(x) = (2/3)x + 5",
+        "g(x) = (-2/3)x - 5",
+        "g(x) = (-2/3)x + 5"
+      ],
+      "answer": 0,
+      "explanation": "2x - 3y - 15 = 0 ⇒ -3y = -2x + 15 ⇒ 3y = 2x - 15 ⇒ y = (2/3)x - 5."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Soit f une application affine telle que f(-1) = 5 et f(3) = 1. Quelle est l'expression de f(x) ?",
+      "options": [
+        "f(x) = -x + 4",
+        "f(x) = x + 6",
+        "f(x) = -2x + 3",
+        "f(x) = 2x + 7"
+      ],
+      "answer": 0,
+      "explanation": "On résout : -a + b = 5 et 3a + b = 1. On trouve a = -1 et b = 4, donc f(x) = -x + 4."
+    },
+    {
+      "id": "q20",
+      "type": "fill",
+      "prompt": "Soit f(x) = 2x - 7. Le nombre x tel que f(x) = 0 est ______.",
+      "answer": "3.5",
+      "explanation": "2x - 7 = 0 ⇒ 2x = 7 ⇒ x = 3,5."
+    }
+  ]
+}

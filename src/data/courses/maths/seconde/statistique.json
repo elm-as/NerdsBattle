@@ -1,0 +1,72 @@
+{
+  "id": "maths-seconde-statistique",
+  "subjectId": "maths",
+  "levelId": "seconde",
+  "slug": "statistique",
+  "title": "Statistiques de base : effectifs cumulés, moyenne et médiane",
+  "summary": "Ce module présente les notions fondamentales de statistiques pour les élèves de seconde : calcul des effectifs cumulés décroissants, des fréquences cumulées décroissantes, de la moyenne et de la médiane d’une série statistique. Les concepts sont illustrés par des exemples concrets et des exercices pratiques, permettant aux apprenants de maîtriser les outils d’analyse de données quantitatives.",
+  "lesson": "# Statistiques de base\n\n## 1. Effectifs cumulés décroissants\n\nLes effectifs cumulés décroissants d’une modalité sont la somme des effectifs des modalités supérieures ou égales à celle‑ci.\n\n**Exemple**\n\n| Modalité | 12 | 14 | 15 | 16 | 17 |\n|---|---|---|---|---|---|\n| Effectif | 1 | 5 | 19 | 17 | 8 |\n| Effectif cumulé décroissant | 50 | 49 | 44 | 25 | 8 |\n\n## 2. Fréquences cumulées décroissantes\n\nLa fréquence cumulée décroissante d’une modalité est la somme des fréquences des modalités supérieures ou égales à celle‑ci.\n\n**Exemple**\n\n| Modalité | 12 | 14 | 15 | 16 | 17 |\n|---|---|---|---|---|---|\n| Fréquence (%) | 2 | 10 | 38 | 34 | 16 |\n| Fréquence cumulée décroissante | 100 | 98 | 88 | 50 | 16 |\n\n## 3. Moyenne d’une série statistique\n\nLa moyenne ÅXÅ est calculée par :\n\n\\[\\bar{X}=\\frac{\\sum_{i}x_i n_i}{\\sum_{i}n_i}\\]\n\n**Exemple**\n\n| Note | 7 | 8 | 9 | 10 | 12 | 13 | 15 | 17 |\n|---|---|---|---|---|---|---|---|---|\n| Effectif | 3 | 6 | 5 | 9 | 4 | 5 | 3 | 1 |\n\n\\[\\bar{X}=\\frac{7\\times3+8\\times6+9\\times5+10\\times9+12\\times4+13\\times5+15\\times3+17\\times1}{36}=10,5\\]\n\n## 4. Médiane d’une série statistique\n\n- Si le total N est impair, la médiane est la \\(\\frac{N+1}{2}\\)ᵉ valeur.\n- Si N est pair, la médiane est la moyenne des deux valeurs centrales.\n\n**Exemple**\n\nPour la série suivante (N=10) : 5, 7, 8, 9, 10, 12, 13, 14, 15, 18, la médiane est \\(\\frac{9+10}{2}=9,5\\).\n\n## 5. Exercices pratiques\n\n1. Complétez le tableau suivant :\n\n| Modalité | 8 | 10 | 15 | 18 | 22 |\n|---|---|---|---|---|---|\n| Effectif | 7 | 13 | 16 | 4 | 5 |\n| Effectif cumulé décroissant | 45 | 38 | 25 | 9 | 5 |\n| Fréquence cumulée décroissante (%) | 100 | 84 | 56 | 20 | 11 |\n\n2. Calculez la moyenne d’une classe dont les notes sont : 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.\n\n3. Déterminez la médiane de la série suivante : 3, 5, 7, 9, 11, 13, 15.\n\n4. Si un professeur veut récompenser une classe dont la moitié des élèves ont une moyenne ≥13, quel est le nombre minimal d’élèves qui doivent atteindre cette moyenne dans une classe de 20 élèves ?",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est l’effectif cumulé décroissant de la modalité 14 dans l’exemple 1 ?",
+      "options": [
+        "49",
+        "44",
+        "50",
+        "45"
+      ],
+      "answer": 0,
+      "explanation": "L’effectif cumulé décroissant de 14 est la somme des effectifs de 14, 15, 16, 17 = 5+19+17+8 = 49."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Dans la formule de la moyenne, le dénominateur est le _______ total.",
+      "answer": "0",
+      "explanation": "Le dénominateur est le nombre total d’observations, c’est l’effectif total."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Pour une série de 9 valeurs, la médiane est la valeur _______ ?",
+      "options": [
+        "5ᵉ",
+        "4ᵉ",
+        "6ᵉ",
+        "3ᵉ"
+      ],
+      "answer": 0,
+      "explanation": "Avec N=9, (N+1)/2 = 5, donc la 5ᵉ valeur."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Dans l’exemple de moyenne de la classe d’anglais, quel est le total des effectifs ?",
+      "options": [
+        "36",
+        "35",
+        "34",
+        "37"
+      ],
+      "answer": 0,
+      "explanation": "La somme des effectifs est 3+6+5+9+4+5+3+1 = 36."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "La moyenne d’une série avec centres 7, 9, 11, 13, 15 et effectifs 9, 20, 18, 15, 10 est _______.",
+      "answer": "0",
+      "explanation": "Calcul : (7×9+9×20+11×18+13×15+15×10)/72 = 10,92."
+    }
+  ]
+}

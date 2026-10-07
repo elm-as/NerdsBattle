@@ -1,0 +1,70 @@
+{
+  "id": "maths-terminale-nombres-complexes-trigonometrique",
+  "title": "Nombres complexes : forme trigonométrique et exponentielle",
+  "summary": "La forme trigonométrique et exponentielle des nombres complexes est un outil puissant pour simplifier les calculs de produits, quotients, puissances et racines. Maîtriser ce chapitre vous permettra de résoudre facilement des problèmes géométriques et algébriques, et c'est un incontournable pour le BAC.",
+  "lesson": "## Introduction & Mise en situation\n\nLes nombres complexes ont été introduits pour résoudre des équations comme $x^2+1=0$. Mais leur puissance se révèle pleinement lorsqu'on les représente dans le plan complexe. La forme algébrique $z=a+bi$ est pratique pour l'addition, mais pour la multiplication, la division, les puissances et les racines, la forme trigonométrique ou exponentielle est bien plus efficace. Ce chapitre est crucial pour le BAC : il est fréquent de tomber sur des exercices demandant de passer d'une forme à l'autre, de calculer des puissances (formule de Moivre) ou de résoudre des équations complexes.\n\n## 1. Définitions et Principes Fondamentaux\n\n### Module et argument\n\nSoit $z=a+bi$ un nombre complexe (avec $a,b \\in \\mathbb{R}$). On appelle **module** de $z$, noté $|z|$, le nombre réel positif :\n\n$$|z| = \\sqrt{a^2+b^2}$$\n\nGéométriquement, $|z|$ est la distance entre le point $M(z)$ et l'origine $O$.\n\nOn appelle **argument** de $z$, noté $\\arg(z)$, une mesure de l'angle orienté $(\\vec{u}, \\overrightarrow{OM})$ où $\\vec{u}$ est l'axe des réels positifs. Si $z \\neq 0$, on a :\n\n$$\\cos\\theta = \\frac{a}{|z|}, \\quad \\sin\\theta = \\frac{b}{|z|}$$\n\nL'argument est défini modulo $2\\pi$.\n\n### Forme trigonométrique\n\nTout nombre complexe non nul $z$ peut s'écrire sous la forme :\n\n$$z = r(\\cos\\theta + i\\sin\\theta)$$\n\noù $r = |z| > 0$ et $\\theta = \\arg(z) \\ [2\\pi]$.\n\n### Forme exponentielle\n\nEn utilisant la formule d'Euler $e^{i\\theta} = \\cos\\theta + i\\sin\\theta$, on obtient la forme exponentielle :\n\n$$z = r e^{i\\theta}$$\n\n### Exemple\n\nSoit $z = 1 + i\\sqrt{3}$. On a $|z| = \\sqrt{1^2 + (\\sqrt{3})^2} = \\sqrt{4} = 2$. Ensuite, $\\cos\\theta = \\frac{1}{2}$ et $\\sin\\theta = \\frac{\\sqrt{3}}{2}$, donc $\\theta = \\frac{\\pi}{3} \\ (2\\pi)$. Ainsi, $z = 2e^{i\\pi/3}$.\n\n## 2. Propriétés et Méthodes d'application\n\n### Opérations avec les formes trigonométriques et exponentielles\n\nSoient $z_1 = r_1 e^{i\\theta_1}$ et $z_2 = r_2 e^{i\\theta_2}$.\n\n- **Produit** : $z_1 z_2 = r_1 r_2 e^{i(\\theta_1 + \\theta_2)}$\n- **Quotient** (si $z_2 \\neq 0$) : $\\frac{z_1}{z_2} = \\frac{r_1}{r_2} e^{i(\\theta_1 - \\theta_2)}$\n- **Puissance** (formule de Moivre) : $z^n = r^n e^{in\\theta}$\n\n### Exemple 1 : Produit et quotient\n\nSoit $z_1 = 2e^{i\\pi/3}$ et $z_2 = 3e^{-i\\pi/6}$. Calculer $z_1 z_2$ et $\\frac{z_1}{z_2}$.\n\n- $z_1 z_2 = 2 \\times 3 e^{i(\\pi/3 - \\pi/6)} = 6 e^{i(\\pi/6)}$\n- $\\frac{z_1}{z_2} = \\frac{2}{3} e^{i(\\pi/3 + \\pi/6)} = \\frac{2}{3} e^{i(\\pi/2)}$\n\n### Exemple 2 : Formule de Moivre\n\nCalculer $(1+i)^{10}$.\n\nD'abord, $1+i = \\sqrt{2} e^{i\\pi/4}$. Donc $(1+i)^{10} = (\\sqrt{2})^{10} e^{i(10 \\times \\pi/4)} = 2^5 e^{i(5\\pi/2)} = 32 e^{i(\\pi/2)} = 32i$.\n\n### Passer de la forme exponentielle à la forme algébrique\n\nPour $z = r e^{i\\theta}$, on a $z = r\\cos\\theta + i r\\sin\\theta$.\n\n### Exemple : Écrire $2e^{i\\pi/3}$ sous forme algébrique.\n\n$2e^{i\\pi/3} = 2(\\cos\\pi/3 + i\\sin\\pi/3) = 2(1/2 + i\\sqrt{3}/2) = 1 + i\\sqrt{3}$.\n\n### Résolution d'équations du type $z^n = a$\n\nPour résoudre $z^n = a$ avec $a \\neq 0$, on écrit $a = r e^{i\\theta}$ et on cherche $z = \\rho e^{i\\alpha}$. On a $\\rho^n = r$ et $n\\alpha \\equiv \\theta \\ (2\\pi)$. Donc $\\rho = \\sqrt[n]{r}$ et $\\alpha = \\frac{\\theta + 2k\\pi}{n}$ pour $k = 0, 1, \\dots, n-1$.\n\n### Exemple : Résoudre $z^3 = 8i$\n\n$8i = 8 e^{i\\pi/2}$. Donc $\\rho = \\sqrt[3]{8} = 2$ et $\\alpha = \\frac{\\pi/2 + 2k\\pi}{3}$ pour $k=0,1,2$.\n\n- $k=0$ : $\\alpha = \\pi/6$, $z_0 = 2e^{i\\pi/6} = \\sqrt{3}+i$\n- $k=1$ : $\\alpha = \\pi/6 + 2\\pi/3 = 5\\pi/6$, $z_1 = 2e^{i5\\pi/6} = -\\sqrt{3}+i$\n- $k=2$ : $\\alpha = \\pi/6 + 4\\pi/3 = 3\\pi/2$, $z_2 = 2e^{i3\\pi/2} = -2i$\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Oublier le module** : Ne pas oublier que la forme trigonométrique exige $r > 0$. Si $r$ est négatif, on peut utiliser $r e^{i\\theta} = (-r) e^{i(\\theta+\\pi)}$.\n- **Confondre argument et angle** : L'argument est défini modulo $2\\pi$. Il faut toujours préciser $[2\\pi]$.\n- **Erreur dans le signe** : Lors du passage de la forme algébrique à la forme trigonométrique, vérifier le quadrant du point pour déterminer le bon argument.\n- **Oublier les racines** : Pour $z^n = a$, il y a exactement $n$ solutions distinctes. Ne pas oublier les $k$ de $0$ à $n-1$.\n- **Utiliser la forme exponentielle pour additionner** : La forme exponentielle n'est pas adaptée à l'addition ; il faut repasser en forme algébrique.\n\n## Synthèse\n\n1. **Forme trigonométrique** : $z = r(\\cos\\theta + i\\sin\\theta)$ et **forme exponentielle** : $z = r e^{i\\theta}$, avec $r=|z|$ et $\\theta=\\arg(z)$.\n2. **Opérations** : Pour multiplier, diviser, élever à une puissance, on utilise les formes trigonométriques/exponentielles : les modules se multiplient/divisent, les arguments s'additionnent/soustraient.\n3. **Formule de Moivre** : $(\\cos\\theta + i\\sin\\theta)^n = \\cos(n\\theta) + i\\sin(n\\theta)$, et pour les racines $n$-ièmes, il y a $n$ solutions.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "nombres complexes",
+    "trigonométrie",
+    "exponentielle",
+    "bac",
+    "mathématiques"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la forme trigonométrique du nombre complexe $z = -1 + i$ ?",
+      "options": [
+        "$\\sqrt{2}(\\cos(3\\pi/4) + i\\sin(3\\pi/4))$",
+        "$\\sqrt{2}(\\cos(\\pi/4) + i\\sin(\\pi/4))$",
+        "$2(\\cos(3\\pi/4) + i\\sin(3\\pi/4))$",
+        "$\\sqrt{2}(\\cos(-3\\pi/4) + i\\sin(-3\\pi/4))$"
+      ],
+      "answer": 0,
+      "explanation": "Le module est $\\sqrt{(-1)^2+1^2}=\\sqrt{2}$. L'argument est $3\\pi/4$ car le point est dans le deuxième quadrant."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Pour tous nombres complexes $z_1$ et $z_2$ non nuls, on a $\\arg(z_1 z_2) = \\arg(z_1) + \\arg(z_2) \\ [2\\pi]$.",
+      "answer": true,
+      "explanation": "C'est la propriété fondamentale des arguments pour un produit."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Calculer $(1+i)^{8}$ sous forme algébrique. Réponse : $\\_\\_\\_$",
+      "answer": "16",
+      "explanation": "$1+i = \\sqrt{2} e^{i\\pi/4}$, donc $(1+i)^8 = (\\sqrt{2})^8 e^{i 2\\pi} = 16$."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est le module de $3 - 4i$ ?",
+      "options": [
+        "5",
+        "7",
+        "1",
+        "25"
+      ],
+      "answer": 0,
+      "explanation": "$|3-4i| = \\sqrt{3^2 + (-4)^2} = \\sqrt{25} = 5$."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Si $z = r e^{i\\theta}$ avec $r>0$, alors $\\frac{1}{z} = \\frac{1}{r} e^{-i\\theta}$.",
+      "answer": true,
+      "explanation": "L'inverse d'un nombre complexe non nul a pour module l'inverse du module et pour argument l'opposé de l'argument."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Combien y a-t-il de solutions distinctes à l'équation $z^4 = 1$ ? Réponse : $\\_\\_\\_$",
+      "answer": "4",
+      "explanation": "Une équation de degré 4 a exactement 4 racines complexes distinctes (ici les racines quatrièmes de l'unité)."
+    }
+  ]
+}

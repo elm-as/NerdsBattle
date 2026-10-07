@@ -1,0 +1,187 @@
+{
+  "id": "maths-sixieme-l6-symetrie-par-rapport-a-une-droite",
+  "subjectId": "maths",
+  "levelId": "sixieme",
+  "slug": "l6-symetrie-par-rapport-a-une-droite",
+  "title": "Symétrie axiale – cours de mathématiques 6e (MENA CI)",
+  "summary": "Ce cours explique la symétrie par rapport à une droite (symétrie axiale) : définitions, construction du symétrique d’un point, propriétés (alignement, longueurs, angles, aires) et liens avec médiatrice et bissectrice. Des exemples et exercices permettent de maîtriser le concept.",
+  "lesson": "# Symétrie axiale (symétrie par rapport à une droite)\n\n## I) Figures symétriques – axes de symétrie\n- **Définition** : Deux figures sont symétriques par rapport à une droite \\(d\\) si, en pliant le plan le long de \\(d\\), elles se superposent.\n- **Axe de symétrie** : Une droite \\(d\\) est axe de symétrie d’une figure \\(F\\) lorsque la figure symétrique de \\(F\\) par rapport à \\(d\\) est \\(F\\) elle‑même.\n\n## II) Points symétriques\n- **Définition** : Le symétrique \\(M'\\) d’un point \\(M\\) par rapport à \\(d\\) est le point tel que \\(d\\) est la médiatrice du segment \\([MM']\\).\n- **Construction** (méthode 1 – équerre & compas) :\n  1. Tracer la perpendiculaire à \\(d\\) passant par \\(M\\); elle coupe \\(d\\) en \\(O\\).\n  2. Reporter la distance \\(OM\\) de l’autre côté de \\(d\\) pour obtenir \\(M'\\).\n- **Construction** (méthode 2 – compas) : placer deux points \\(U,V\\) sur \\(d\\), tracer des arcs de centre \\(U\\) et \\(V\\) passant par \\(M\\); leur intersection donne \\(M'\\).\n\n## III) Propriétés de la symétrie axiale\n- Les images de points alignés restent alignées.\n- Le symétrique d’un segment a la même longueur.\n- Le symétrique d’une droite est une droite (ex. \\(d_1\\) ↔ \\(d_2\\)).\n- Le symétrique d’un cercle a même rayon et centre symétrique.\n- Les angles symétriques sont égaux.\n- Les aires de figures symétriques sont égales.\n\n## IV) Médiatrice et bissectrice comme axes de symétrie\n- **Médiatrice** d’un segment : axe de symétrie du segment; tout point de la médiatrice est à égale distance des extrémités.\n- **Bissectrice** d’un angle : axe de symétrie de l’angle; elle divise l’angle en deux angles égaux.\n\n> **Remarque** : La médiatrice et la bissectrice sont des droites infinies ; on les prolonge au-delà du segment ou de l’angle étudié.\n\n---\n*Fin du cours.*",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le critère pour qu’une droite \\(d\\) soit axe de symétrie d’une figure \\(F\\) ?",
+      "options": [
+        "\\(F\\) et son image sont superposables après un pliage le long de \\(d\\)",
+        "\\(F\\) possède un sommet sur \\(d\\)",
+        "\\(d\\) coupe \\(F\\) en son centre de gravité",
+        "\\(F\\) est un cercle"
+      ],
+      "answer": 0,
+      "explanation": "Par définition, \\(d\\) est axe de symétrie si la figure se superpose à elle‑même après pliage le long de \\(d\\)."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le symétrique d’un point appartenant à l’axe de symétrie est le même point.",
+      "answer": true,
+      "explanation": "Si le point est sur \\(d\\), la médiatrice du segment \\([MM']\\) coïncide avec \\(d\\), donc \\(M'=M\\)."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Dans la construction du symétrique d’un point \\(M\\) par la méthode 1, le point \\(O\\) est le ______ de \\([MM']\\).",
+      "answer": "milieu",
+      "explanation": "\\(O\\) est le point d’intersection de la perpendiculaire à \\(d\\) passant par \\(M\\) et de \\(d\\); il est le milieu du segment \\([MM']\\)."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Si deux points \\(A\\) et \\(B\\) sont alignés avec \\(C\\), leurs symétriques \\(A'\\), \\(B'\\), \\(C'\\) le sont‑elles aussi ?",
+      "options": [
+        "Oui, toujours",
+        "Non, seulement si \\(d\\) est perpendiculaire au segment",
+        "Oui, mais seulement pour les triangles isocèles",
+        "Non, jamais"
+      ],
+      "answer": 0,
+      "explanation": "La symétrie conserve l’alignement des points."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel est le symétrique du segment \\([BC]\\) par rapport à \\(d\\) ?",
+      "options": [
+        "Un segment de même longueur, noté \\([B'C']\\)",
+        "Un segment plus long",
+        "Un segment de même longueur mais inversé de direction",
+        "Un cercle"
+      ],
+      "answer": 0,
+      "explanation": "La symétrie conserve la longueur des segments."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Le symétrique d’un cercle de centre \\(E\\) est toujours un cercle de même rayon.",
+      "answer": true,
+      "explanation": "Le centre devient le symétrique \\(E'\\) mais le rayon reste identique."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Dans un triangle isocèle \\(ABC\\) avec \\(AB=AC\\), le point \\(A\\) appartient à la ______ du segment \\([BC]\\).",
+      "answer": "médiatrice",
+      "explanation": "Dans un triangle isocèle, le sommet de l’égalité est sur la médiatrice de la base."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quelle propriété caractérise la bissectrice d’un angle ?",
+      "options": [
+        "Elle partage l’angle en deux angles égaux",
+        "Elle est perpendiculaire à la base de l’angle",
+        "Elle passe par le sommet et le centre du cercle inscrit",
+        "Elle est parallèle à la hauteur"
+      ],
+      "answer": 0,
+      "explanation": "Par définition, la bissectrice divise l’angle en deux parties égales."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "La médiatrice d’un segment est toujours perpendiculaire à ce segment.",
+      "answer": true,
+      "explanation": "C’est la définition même de la médiatrice."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Si \\(M\\) et \\(N\\) sont les extrémités d’un segment, tout point \\(P\\) tel que \\(PM=PN\\) appartient à la ______ du segment \\([MN]\\).",
+      "answer": "médiatrice",
+      "explanation": "Égalité des distances caractérise les points de la médiatrice."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel outil suffit pour construire le symétrique d’un point avec la méthode 2 ?",
+      "options": [
+        "Règle et équerre",
+        "Compas uniquement",
+        "Règle uniquement",
+        "Rapporteur"
+      ],
+      "answer": 1,
+      "explanation": "On place deux points sur \\(d\\) puis on trace deux arcs de même rayon avec le compas."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Les aires de deux figures symétriques sont toujours différentes.",
+      "answer": false,
+      "explanation": "Les aires sont égales pour des figures symétriques."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Le symétrique d’un angle droit est un angle ______.",
+      "answer": "droit",
+      "explanation": "La symétrie conserve la mesure de l’angle."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Dans la figure suivante, \\(d\\) est la médiatrice de \\([MN]\\). Quel est le rapport entre \\(PM\\) et \\(PN\\) pour un point \\(P\\) situé sur \\(d\\) ?",
+      "options": [
+        "\\(PM=PN\\)",
+        "\\(PM>PN\\)",
+        "\\(PM<PN\\)",
+        "Aucun lien"
+      ],
+      "answer": 0,
+      "explanation": "Tout point de la médiatrice est à égale distance des extrémités du segment."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Une droite qui est axe de symétrie d’une figure doit toujours couper la figure.",
+      "answer": false,
+      "explanation": "Une droite peut être axe de symétrie sans intersecter la figure (ex. cercle)."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Le symétrique d’un point \\(M\\) par rapport à \\(d\\) se note généralement \\(\\_\\).",
+      "answer": "M'",
+      "explanation": "Notation usuelle du point symétrique."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quel est le résultat de appliquer deux symétries axiales successives par rapport à deux droites parallèles distinctes ?",
+      "options": [
+        "Une translation",
+        "Une rotation",
+        "Une homothétie",
+        "Une symétrie centrale"
+      ],
+      "answer": 0,
+      "explanation": "Deux symétries axiales parallèles équivalentes à une translation perpendiculaire aux deux axes."
+    },
+    {
+      "id": "q18",
+      "type": "truefalse",
+      "prompt": "Si un point est sur la bissectrice d’un angle, il est équidistant des deux côtés de l’angle.",
+      "answer": true,
+      "explanation": "C’est la propriété caractéristique de la bissectrice."
+    }
+  ]
+}

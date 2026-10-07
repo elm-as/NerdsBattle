@@ -1,0 +1,192 @@
+{
+  "id": "francais-seconde-l2-pl-pl-2nde-les-fonctions-du-langage",
+  "subjectId": "francais",
+  "levelId": "seconde",
+  "slug": "l2-pl-pl-2nde-les-fonctions-du-langage",
+  "title": "Fonctions du langage – Leçon 2 – MENA CI",
+  "summary": "Cette leçon approfondit les six fonctions du langage (émotive, conative, phatique, poétique, métalinguistique, référentielle) à travers des exemples concrets et un texte poétique. Les élèves identifient les facteurs de communication, analysent les fonctions dominantes et appliquent leurs connaissances à des exercices pratiques.",
+  "lesson": "# Leçon 2 – Les fonctions du langage\n\n## 1. Introduction\nLes fonctions du langage permettent de comprendre comment un message est construit et reçu. Elles découlent de six facteurs de communication : émetteur, destinataire, canal, code, message et référent.\n\n## 2. Les six fonctions\n\n| Fonction | Facteur lié | Caractéristiques | Exemple |\n|----------|-------------|------------------|---------|\n| **Émotive** | Émetteur | Sentiment, émotion | *« Quelle belle voiture ! »* |\n| **Conative** | Destinataire | Impératif, incitation | *« Seigneur, garde ta puissante main sur moi. »* |\n| **Phatique** | Canal | Vérification de la communication | *« Allo, vous m’entendez ? »* |\n| **Poétique** | Message | Style, figures de style | *« N’écoutez pas ce que dit cette femme. »* |\n| **Métalinguistique** | Code | Explication du code | *« En d’autres termes, on parle de sexualité. »* |\n| **Référentielle** | Référent | Information, contexte | *« Le fleuve SASANDRA passe par la ville de Soubré. »* |\n\n## 3. Analyse d’un texte poétique\nExemple : *« Peuples ! écoutez le poète ! … Homme, il est doux comme une femme. »*\n- **Facteurs** :\n  - Émetteur : Victor Hugo\n  - Destinataire : Peuples, lecteurs\n  - Canal : Poème\n  - Code : Français\n  - Message : La poésie est sacrée\n  - Référent : Poésie\n- **Fonctions dominantes** :\n  - *« Peuples ! écoutez le poète ! »* → Émotive + Conative\n  - *« Homme, il est doux comme une femme. »* → Référentielle + Poétique\n\n## 4. Exercices pratiques\n1. Identifiez les facteurs de communication dans un extrait de votre choix.\n2. Classez chaque vers d’un poème selon la fonction dominante.\n3. Rédigez un court dialogue illustrant les fonctions conative et phatique.\n\n## 5. Évaluation\n- QCM sur les caractéristiques des fonctions.\n- Vrai/Faux sur les facteurs de communication.\n- Questions à réponse courte pour analyser un texte.\n\n## 6. Conclusion\nMaîtriser les fonctions du langage permet d’analyser, de produire et de comprendre les textes de façon plus fine, essentielle pour la réussite aux examens de français.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "francais",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel facteur est lié à la fonction émotive ?",
+      "options": [
+        "Émetteur",
+        "Destinataire",
+        "Canal",
+        "Code"
+      ],
+      "answer": 0,
+      "explanation": "La fonction émotive concerne les sentiments de l’émetteur."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La fonction conative est principalement liée à :",
+      "options": [
+        "Le message",
+        "Le destinataire",
+        "Le référent",
+        "Le code"
+      ],
+      "answer": 1,
+      "explanation": "Elle vise à influencer le destinataire."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel exemple illustre la fonction poétique ?",
+      "options": [
+        "« Allo, vous m’entendez ? »",
+        "« Quelle belle voiture ! »",
+        "« N’écoutez pas ce que dit cette femme. »",
+        "« En d’autres termes, on parle de sexualité. »"
+      ],
+      "answer": 2,
+      "explanation": "Il s’agit d’un effet de style."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "La fonction métalinguistique sert à :",
+      "options": [
+        "Exprimer une émotion",
+        "Vérifier le canal",
+        "Expliquer le code",
+        "Décrire le référent"
+      ],
+      "answer": 2,
+      "explanation": "Elle clarifie le code utilisé."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "La fonction référentielle est caractérisée par :",
+      "options": [
+        "Les sentiments",
+        "Les indices du destinataire",
+        "Les indices du référent",
+        "Les effets de style"
+      ],
+      "answer": 2,
+      "explanation": "Elle concerne le référent du message."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "La fonction phatique est liée au canal de communication.",
+      "answer": true,
+      "explanation": "Vrai, elle vérifie le bon fonctionnement du canal."
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Dans le vers « Peuples ! écoutez le poète ! », la fonction dominante est uniquement conative.",
+      "answer": false,
+      "explanation": "Il y a aussi une fonction émotive."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Le facteur « code » est associé à la fonction référentielle.",
+      "answer": false,
+      "explanation": "Le code est lié à la fonction métalinguistique."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "La fonction qui exprime l’émotion de l’émetteur est la fonction _______.",
+      "answer": "émotive",
+      "explanation": "La fonction émotive."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Le facteur qui vérifie que le destinataire entend le message est le _______.",
+      "answer": "canal",
+      "explanation": "Le canal assure la vérification."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel facteur est lié à la fonction référentielle ?",
+      "options": [
+        "Émetteur",
+        "Destinataire",
+        "Référent",
+        "Code"
+      ],
+      "answer": 2,
+      "explanation": "Le référent est le sujet du message."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Dans l’exemple « En d’autres termes, on parle de sexualité. », quelle fonction est illustrée ?",
+      "options": [
+        "Émotive",
+        "Conative",
+        "Métalinguistique",
+        "Poétique"
+      ],
+      "answer": 2,
+      "explanation": "Il s’agit d’une explication du code."
+    },
+    {
+      "id": "q13",
+      "type": "truefalse",
+      "prompt": "La fonction conative ne cohabite jamais avec la fonction émotive.",
+      "answer": false,
+      "explanation": "Les deux fonctions peuvent coexister."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Le facteur qui représente le destinataire est le _______.",
+      "answer": "destinataire",
+      "explanation": "Le destinataire reçoit le message."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel facteur est lié à la fonction poétique ?",
+      "options": [
+        "Émetteur",
+        "Message",
+        "Code",
+        "Référent"
+      ],
+      "answer": 1,
+      "explanation": "La fonction poétique concerne le message."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Dans le vers « Homme, il est doux comme une femme. », la fonction dominante est :",
+      "options": [
+        "Émotive",
+        "Conative",
+        "Référentielle",
+        "Poétique"
+      ],
+      "answer": 3,
+      "explanation": "Il s’agit d’un effet de style."
+    },
+    {
+      "id": "q17",
+      "type": "truefalse",
+      "prompt": "Le facteur « code » est le même que le facteur « canal ».",
+      "answer": false,
+      "explanation": "Le code est le langage, le canal est le support."
+    }
+  ]
+}

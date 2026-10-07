@@ -1,0 +1,93 @@
+{
+  "id": "philosophie-terminale-sujet-de-dissertation-de-philo-portant-sur-l",
+  "subjectId": "philosophie",
+  "levelId": "terminale",
+  "slug": "sujet-de-dissertation-de-philo-portant-sur-l",
+  "title": "Philosophie Terminale – Échanges, intérêts et société",
+  "summary": "Ce cours explore la notion d’échange dans la société, le rôle des intérêts, du don, de la morale et du travail. Il analyse si la société se réduit à un groupement d’intérêts, la portée du marchand, la valeur du don, la relation entre économie et vie sociale, et la place de la morale dans les échanges.",
+  "lesson": "# Échanges et société\n## 1. Le lien social et les intérêts\n- Une société peut être vue comme un **groupement d’intérêts** mais les liens affectifs, culturels et symboliques dépassent le simple calcul d’utilité.\n- **Communauté politique** : partage de valeurs et de projets communs, pas uniquement d’intérêts matériels.\n\n## 2. L’échange comme fondement du lien social\n- **Échange marchand** : mécanisme de répartition des ressources, mais ne garantit pas l’unité sociale.\n- **Échange non‑marchand** (don, aide, partage) crée des obligations réciproques et renforce la confiance.\n\n## 3. Peut‑on tout échanger ?\n- Certains biens (vie, dignité, santé) échappent à la marchandisation.\n- La **valeur symbolique** d’une œuvre d’art dépasse souvent sa valeur économique.\n\n## 4. Le don\n- Le **don gratuit** existe théoriquement (ex. : altruisme), mais il est souvent accompagné d’une attente implicite de reconnaissance.\n- Le don peut être **désintéressé** ou **stratégique** ; il participe à la construction du capital social.\n\n## 5. Morale et économie\n- La morale intervient dans la régulation des échanges (justice, équité, droits de propriété).\n- La **propriété** n’est pas seulement un support de liberté, elle est aussi une construction sociale.\n\n## 6. Travail\n- Le travail peut être perçu comme **« gagner sa vie »**, une nécessité économique, ou comme une **réalisation de soi**.\n- La critique du travail (ex. : aliénation) montre ses dimensions morales et existentielles.\n\n## 7. Échange d’idées\n- **Échanger une idée** signifie la communiquer, la transformer, la confronter à d’autres points de vue.\n- Le commerce des idées n’est pas réductible à une logique marchande ; il repose sur le dialogue et la créativité.\n\n## 8. Synthèse\n- L’échange, sous ses formes marchandes et non‑marchandes, constitue un **mécanisme central** du lien social, mais il n’est pas l’unique.\n- La **morale**, le **don**, le **travail** et la **culture** complètent le tableau d’une société complexe.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "philosophie",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Selon le cours, quel élément ne suffit pas à expliquer le lien social ?",
+      "options": [
+        "Les intérêts économiques",
+        "Les valeurs culturelles",
+        "Les échanges marchands",
+        "La répartition des richesses"
+      ],
+      "answer": 1,
+      "explanation": "Les valeurs culturelles, le sentiment d’appartenance et les symboles complètent les intérêts économiques."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le don gratuit n’existe jamais dans les sociétés humaines.",
+      "answer": false,
+      "explanation": "Des actes altruistes peuvent être motivés par l’empathie et ne recherchent aucune contre‑partie."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le terme désignant la capacité d’une société à répartir les ressources par le biais du marché est _______.",
+      "answer": "échange marchand",
+      "explanation": "L’échange marchand est le mécanisme économique principal de répartition."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle affirmation caractérise le mieux la propriété selon le cours ?",
+      "options": [
+        "Un fait naturel immuable",
+        "Un support exclusif de liberté",
+        "Une construction sociale",
+        "Un droit divin"
+      ],
+      "answer": 2,
+      "explanation": "La propriété est présentée comme une construction sociale qui organise les rapports de pouvoir."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Toutes les œuvres d’art ont une valeur économique supérieure à leur valeur symbolique.",
+      "answer": false,
+      "explanation": "Souvent la valeur symbolique dépasse la valeur marchande."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Le concept qui désigne les attentes implicites qui accompagnent un don est le _______.",
+      "answer": "capital social",
+      "explanation": "Le don crée des obligations réciproques, constituant du capital social."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel rôle joue la morale dans les échanges économiques selon le texte ?",
+      "options": [
+        "Elle n’intervient jamais",
+        "Elle régule la justice et l’équité",
+        "Elle favorise le profit maximal",
+        "Elle supprime la propriété"
+      ],
+      "answer": 1,
+      "explanation": "La morale intervient pour assurer justice, équité et régulation."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Le travail est uniquement une malédiction selon la philosophie étudiée.",
+      "answer": false,
+      "explanation": "Le travail peut être aliénant, mais il est aussi source de réalisation et de revenu."
+    }
+  ]
+}

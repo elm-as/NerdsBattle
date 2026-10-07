@@ -1,0 +1,184 @@
+{
+  "id": "physique-sixieme-l9-je-mesure-le-volume-d-un-liquide-et-d-un",
+  "subjectId": "physique",
+  "levelId": "sixieme",
+  "slug": "l9-je-mesure-le-volume-d-un-liquide-et-d-un",
+  "title": "Mesure du volume et de la masse en 6ème",
+  "summary": "Découvre comment mesurer le volume des liquides et des solides, et apprends à utiliser la balance Roberval pour déterminer une masse. Deviens un pro des mesures comme Adjoua !",
+  "lesson": "## Introduction\n\nDans notre vie quotidienne, nous mesurons souvent des volumes et des masses : un litre d'huile, un demi-kilogramme de viande... Mais comment faire pour mesurer précisément ? Cette leçon t'apprend à déterminer le volume d'un liquide ou d'un solide, et à utiliser une balance pour mesurer une masse.\n\n## 1. Définitions & Notions clés\n\n### Le volume\n- **Définition** : Le volume d'un corps est l'espace qu'il occupe.\n- **Unité légale** : le mètre cube (m³). On utilise aussi le litre (L) et ses multiples/sous-multiples.\n- **Correspondances** : 1 dm³ = 1 L ; 1 cm³ = 1 mL.\n\n### La capacité\n- **Définition** : La contenance (ou capacité) d'un récipient est le volume maximum qu'il peut contenir.\n\n### La masse\n- **Définition** : La masse représente la quantité de matière d'un corps. Elle se mesure avec une balance.\n- **Unité légale** : le kilogramme (kg). On utilise aussi le gramme (g) et ses multiples/sous-multiples.\n\n### La balance Roberval\n- **Description** : Une balance à deux plateaux suspendus à un fléau. Elle permet de comparer des masses.\n- **Accessoires** : une boîte de masses marquées.\n\n## 2. Applications & Méthodes\n\n### Mesurer le volume d'un liquide\n- **Matériel** : éprouvette graduée, bécher gradué, verre à pied gradué.\n- **Méthode** : Placer les yeux horizontalement au niveau du bas du ménisque (la surface courbe du liquide). Lire la graduation en face.\n- **Exemple** : V = 16 cm³.\n\n### Mesurer le volume d'un solide de forme quelconque\n- **Méthode** : Utiliser une éprouvette graduée contenant un liquide.\n  1. Noter le volume initial V₁.\n  2. Immerger le solide et noter le nouveau volume V₂.\n  3. Le volume du solide est V = V₂ – V₁.\n- **Exemple** : V₁ = 18 mL, V₂ = 32 mL, donc V = 14 mL.\n\n### Mesurer la masse d'un solide\n- **Simple pesée** : Placer le solide sur un plateau, ajouter les masses marquées sur l'autre jusqu'à équilibre. La masse du solide est égale à la somme des masses marquées.\n\n### Mesurer la masse d'un liquide\n- **Double pesée** :\n  1. Peser le récipient vide : masse m₁.\n  2. Peser le récipient rempli de liquide : masse m₂.\n  3. Masse du liquide : m = m₂ – m₁.\n- **Méthode de la tare** : Placer un récipient identique vide sur l'autre plateau pour équilibrer, puis verser le liquide et ajouter des masses marquées.\n\n### Calculer le volume de solides géométriques\n- **Cube** : V = a × a × a (a = arête).\n- **Pavé droit** : V = L × ℓ × h (L = longueur, ℓ = largeur, h = hauteur).\n- **Cylindre** : V = π × R × R × h (R = rayon de la base, h = hauteur).\n\n## 3. Pièges fréquents\n\n- **Lecture du ménisque** : Ne pas placer les yeux au niveau du bas du ménisque fausse la mesure.\n- **Unités** : Ne pas confondre les unités de volume (m³, L) et de masse (kg, g).\n- **Double pesée** : Oublier de soustraire la masse du récipient vide.\n- **Solide insoluble** : Pour mesurer le volume d'un solide, il ne doit pas flotter ni se dissoudre dans le liquide.\n- **Correspondances** : 1 L = 1 dm³, 1 mL = 1 cm³.\n\n## Synthèse\n\n- Le volume mesure l'espace occupé, la masse mesure la quantité de matière.\n- Pour un liquide, on lit le volume au bas du ménisque.\n- Pour un solide quelconque, on utilise la méthode de déplacement d'eau.\n- La balance Roberval permet de mesurer une masse par simple ou double pesée.\n- Les unités : m³ et L pour le volume ; kg et g pour la masse.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est l'unité légale (internationale) du volume ?",
+      "options": [
+        "Le litre (L)",
+        "Le mètre cube (m³)",
+        "Le centimètre cube (cm³)",
+        "Le kilogramme (kg)"
+      ],
+      "answer": 1,
+      "explanation": "L'unité légale du volume est le mètre cube, symbole m³. Le litre est une unité usuelle."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle est la formule du volume d'un cube ?",
+      "options": [
+        "V = L × ℓ × h",
+        "V = π × R × R × h",
+        "V = a × a × a",
+        "V = a + a + a"
+      ],
+      "answer": 2,
+      "explanation": "Pour un cube, le volume est V = a × a × a, où a est l'arête."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "La contenance ou la ______ d'un récipient est le volume maximum qu'il peut contenir.",
+      "answer": "capacité",
+      "explanation": "Le document définit la contenance ou capacité comme le volume maximum qu'un récipient peut contenir."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Pour mesurer le volume d'un liquide, on utilise :",
+      "options": [
+        "Une balance Roberval",
+        "Un récipient gradué",
+        "Une règle",
+        "Un chronomètre"
+      ],
+      "answer": 1,
+      "explanation": "On utilise des récipients gradués tels que l'éprouvette, le bécher ou le verre à pied."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quelle est la correspondance correcte entre le litre et le décimètre cube ?",
+      "options": [
+        "1 L = 1 cm³",
+        "1 L = 1 dm³",
+        "1 L = 1 m³",
+        "1 L = 10 dm³"
+      ],
+      "answer": 1,
+      "explanation": "1 litre correspond à 1 décimètre cube (1 L = 1 dm³)."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Le volume d'un solide de forme quelconque est donné par la formule V = V₂ – ______.",
+      "answer": "V₁",
+      "explanation": "On soustrait le volume initial V₁ du volume final V₂ pour obtenir le volume du solide."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Dans l'expérience de mesure du volume d'un solide, on a V₁ = 18 mL et V₂ = 32 mL. Quel est le volume du solide ?",
+      "options": [
+        "50 mL",
+        "14 mL",
+        "18 mL",
+        "32 mL"
+      ],
+      "answer": 1,
+      "explanation": "V = V₂ – V₁ = 32 – 18 = 14 mL."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quelle est l'unité légale de la masse ?",
+      "options": [
+        "Le litre (L)",
+        "Le mètre cube (m³)",
+        "Le kilogramme (kg)",
+        "Le gramme (g)"
+      ],
+      "answer": 2,
+      "explanation": "L'unité légale de la masse est le kilogramme (kg). Le gramme est un sous-multiple."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Pour mesurer la masse d'un liquide, on peut utiliser la méthode de la double pesée ou la méthode de la ______.",
+      "answer": "tare",
+      "explanation": "La méthode de la tare consiste à équilibrer avec un récipient vide identique."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quelle est la formule du volume d'un cylindre ?",
+      "options": [
+        "V = L × ℓ × h",
+        "V = π × R × R × h",
+        "V = a × a × a",
+        "V = 2 × π × R"
+      ],
+      "answer": 1,
+      "explanation": "Le volume d'un cylindre est V = π × R × R × h, où R est le rayon de la base et h la hauteur."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Dans la situation problème, Adjoua achète un quart de litre d'huile. Quelle quantité en mL cela représente-t-il ?",
+      "options": [
+        "100 mL",
+        "250 mL",
+        "500 mL",
+        "750 mL"
+      ],
+      "answer": 1,
+      "explanation": "Un quart de litre = 1/4 × 1000 mL = 250 mL."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Le symbole du mètre cube est ______.",
+      "answer": "m³",
+      "explanation": "Le symbole du mètre cube est m³."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quel matériel n'est pas utilisé pour mesurer un volume de liquide ?",
+      "options": [
+        "Éprouvette graduée",
+        "Bécher gradué",
+        "Verre à pied gradué",
+        "Balance Roberval"
+      ],
+      "answer": 3,
+      "explanation": "La balance Roberval sert à mesurer une masse, pas un volume."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Quelle est la correspondance correcte entre le millilitre et le centimètre cube ?",
+      "options": [
+        "1 mL = 1 cm³",
+        "1 mL = 1 dm³",
+        "1 mL = 1 L",
+        "1 mL = 10 cm³"
+      ],
+      "answer": 0,
+      "explanation": "1 millilitre correspond à 1 centimètre cube (1 mL = 1 cm³)."
+    },
+    {
+      "id": "q20",
+      "type": "fill",
+      "prompt": "Pour mesurer le volume d'un solide de forme quelconque, on utilise une éprouvette graduée et on note le volume initial V₁ puis le volume final V₂. Le volume du solide est V = ______.",
+      "answer": "V₂ – V₁",
+      "explanation": "Le volume du solide est la différence entre le volume final et le volume initial."
+    }
+  ]
+}

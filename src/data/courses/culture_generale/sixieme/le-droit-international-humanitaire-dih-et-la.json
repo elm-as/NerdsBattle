@@ -1,0 +1,199 @@
+{
+  "id": "culture_generale-sixieme-le-droit-international-humanitaire-dih-et-la",
+  "subjectId": "culture_generale",
+  "levelId": "sixieme",
+  "slug": "le-droit-international-humanitaire-dih-et-la",
+  "title": "Le Droit International Humanitaire (DIH) et la préservation de la dignité humaine",
+  "summary": "Le DIH est un ensemble de règles qui protègent les personnes ne participant pas aux combats et limitent les moyens de guerre. Il s'applique en temps de conflit armé, contrairement aux droits humains qui valent en temps de paix.",
+  "lesson": "# Leçon 3 : Le Droit International Humanitaire (DIH) et la préservation de la dignité humaine\n\n## 1. Qu'est-ce que le Droit International Humanitaire (DIH) ?\n\nLe Droit International Humanitaire (DIH) est l’ensemble des règles qui visent, en temps de conflits armés :\n- à protéger les personnes qui ne participent pas ou plus aux combats ;\n- à limiter les moyens et méthodes utilisés pendant les opérations militaires.\n\n## 2. Différence entre droits de l'homme et DIH\n\n- Les **Droits Humains** sont appliqués en **temps de paix**.\n- Le **DIH** est appliqué en **temps de guerre**.\n\n## 3. Les règles du Droit International Humanitaire (DIH)\n\n- Les civils ne peuvent pas être attaqués.\n- Les armes chimiques et biologiques, les armes aveuglantes, le poison, les mines antipersonnel, etc. sont interdites.\n- Application des conventions de Genève.\n- Application des règles de justice qui protègent les populations vulnérables.\n\n## 4. L’importance du respect du Droit International Humanitaire (DIH)\n\n- Préservation de la vie humaine et de la dignité humaine.\n- Réglementation de la guerre car la vie humaine est sacrée.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "culture_generale",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Que signifie l'acronyme DIH ?",
+      "options": [
+        "Droit International Humanitaire",
+        "Défense Internationale des Hommes",
+        "Droit International des Hommes",
+        "Développement International Humanitaire"
+      ],
+      "answer": 0,
+      "explanation": "DIH signifie Droit International Humanitaire."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel est l'objectif principal du DIH ?",
+      "options": [
+        "Protéger les personnes et limiter les moyens de guerre",
+        "Favoriser le commerce international",
+        "Promouvoir la paix en temps de paix",
+        "Organiser les élections"
+      ],
+      "answer": 0,
+      "explanation": "Le DIH vise à protéger les personnes qui ne participent pas ou plus aux combats et à limiter les moyens et méthodes utilisés pendant les opérations militaires."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Le DIH s'applique en temps de paix.",
+      "answer": false,
+      "explanation": "Le DIH s'applique en temps de guerre, contrairement aux droits humains qui s'appliquent en temps de paix."
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "Les droits humains sont appliqués en temps de paix.",
+      "answer": true,
+      "explanation": "Les droits humains sont appliqués en temps de paix."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Qui est protégé par le DIH ?",
+      "options": [
+        "Les personnes qui ne participent pas ou plus aux combats",
+        "Les combattants uniquement",
+        "Les chefs d'État",
+        "Les militaires en service"
+      ],
+      "answer": 0,
+      "explanation": "Le DIH protège les personnes qui ne participent pas ou plus aux combats."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Parmi ces propositions, laquelle est une règle du DIH ?",
+      "options": [
+        "Les civils ne peuvent pas être attaqués",
+        "Les civils peuvent être attaqués",
+        "Les armes chimiques sont autorisées",
+        "Les mines antipersonnel sont permises"
+      ],
+      "answer": 0,
+      "explanation": "Selon le DIH, les civils ne peuvent pas être attaqués."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel type d'arme est interdit par le DIH ?",
+      "options": [
+        "Les armes chimiques et biologiques",
+        "Les armes blanches",
+        "Les armes à feu",
+        "Les chars"
+      ],
+      "answer": 0,
+      "explanation": "Les armes chimiques et biologiques, les armes aveuglantes, le poison, les mines antipersonnel, etc. sont interdites."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Les mines antipersonnel sont autorisées par le DIH.",
+      "answer": false,
+      "explanation": "Les mines antipersonnel font partie des armes interdites par le DIH."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quelles conventions sont applicables selon le DIH ?",
+      "options": [
+        "Les conventions de Genève",
+        "Les conventions de Vienne",
+        "Les conventions de New York",
+        "Les conventions de Paris"
+      ],
+      "answer": 0,
+      "explanation": "Le DIH prévoit l'application des conventions de Genève."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Pourquoi le DIH est-il important ?",
+      "options": [
+        "Pour préserver la vie humaine et la dignité humaine",
+        "Pour augmenter les profits de guerre",
+        "Pour favoriser les conflits",
+        "Pour interdire la paix"
+      ],
+      "answer": 0,
+      "explanation": "Le DIH permet la préservation de la vie humaine et de la dignité humaine."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Le DIH réglemente la guerre car la vie humaine est sacrée.",
+      "answer": true,
+      "explanation": "L'importance du respect du DIH inclut la réglementation de la guerre car la vie humaine est sacrée."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Le DIH est l'ensemble des règles qui visent en temps de conflits armés à protéger les personnes qui ne participent pas ou plus aux ______.",
+      "answer": "combats",
+      "explanation": "Le DIH protège les personnes qui ne participent pas ou plus aux combats."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Les droits humains sont appliqués en temps de ______.",
+      "answer": "paix",
+      "explanation": "Les droits humains sont appliqués en temps de paix."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Le DIH s'applique en temps de ______.",
+      "answer": "guerre",
+      "explanation": "Le DIH s'applique en temps de guerre."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel est le but du DIH envers les populations vulnérables ?",
+      "options": [
+        "Leur appliquer des règles de justice",
+        "Les ignorer",
+        "Les attaquer",
+        "Les déplacer"
+      ],
+      "answer": 0,
+      "explanation": "Le DIH prévoit l'application des règles de justice qui protègent les populations vulnérables."
+    },
+    {
+      "id": "q16",
+      "type": "truefalse",
+      "prompt": "Le DIH autorise l'utilisation du poison.",
+      "answer": false,
+      "explanation": "Le poison fait partie des moyens interdits par le DIH."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Qu'est-ce que le DIH limite pendant les opérations militaires ?",
+      "options": [
+        "Les moyens et méthodes utilisés",
+        "Le nombre de soldats",
+        "La durée de la guerre",
+        "Les frontières"
+      ],
+      "answer": 0,
+      "explanation": "Le DIH limite les moyens et méthodes utilisés pendant les opérations militaires."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "prompt": "Les armes ______ et biologiques sont interdites par le DIH.",
+      "answer": "chimiques",
+      "explanation": "Les armes chimiques et biologiques sont interdites."
+    }
+  ]
+}

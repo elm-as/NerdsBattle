@@ -1,0 +1,167 @@
+{
+  "id": "physique-terminale-tres-bon-doc-cours-chimie-tle-d",
+  "subjectId": "physique",
+  "levelId": "terminale",
+  "slug": "tres-bon-doc-cours-chimie-tle-d",
+  "title": "Alcools : définition, classification, préparation et propriétés (Terminale C/D)",
+  "summary": "Ce cours présente les alcools : définition du groupe hydroxyle, formule générale (R‑OH, CnH2n+2O), nomenclature, classification (primaire, secondaire, tertiaire), méthodes de préparation (fermentation du glucose, hydratation d’alcènes avec la règle de Markovnikov) et quelques propriétés chimiques comme la déshydratation. Des activités d’application et 16 questions d’évaluation sont proposées.",
+  "lesson": "# Alcools\n## 1. Rappels\n### 1.1 Définition\nUn alcool est un composé organique saturé contenant un groupe fonctionnel hydroxyle **‑OH** lié à un carbone tétravalent.\n\n### 1.2 Formules générales\n- Formule fonctionnelle : **R‑OH** ou **CnH2n+1‑OH** où *R* est un groupe alkyle.\n- Formule brute : **CnH2n+2O** (n = nombre de carbones).\n\n### 1.3 Nomenclature\n| Formule brute | Nom usuel |\n|---|---|\n| CH3‑OH | méthanol |\n| CH3‑CH2‑OH | éthanol |\n| CH3‑CH(OH)‑CH3 | propan‑2‑ol |\n\n## 2. Classification des alcools\n| Classe | Définition du carbone fonctionnel | Formule générale | Exemple (C4H10O) |\n|---|---|---|---|\n| Primaire (I) | Le carbone portant le –OH est lié à 0 ou 1 autre carbone | R‑CH2‑OH | **CH3‑CH2‑CH2‑CH2‑OH** (butan‑1‑ol) |\n| Secondaire (II) | Le carbone portant le –OH est lié à 2 carbones | R‑CH‑R'‑OH | **CH3‑CH(OH)‑CH2‑CH3** (butan‑2‑ol) |\n| Tertiaire (III) | Le carbone portant le –OH est lié à 3 carbones | R‑C(R')(R'')‑OH | **(CH3)3C‑OH** (tert‑butanol) |\n\n## 3. Préparation des alcools\n### 3.1 Fermentation du glucose\n```text\nC6H12O6  →[enzymes]  2 C2H5OH + 2 CO2\n```\nCette réaction se déroule en absence d’air et produit de l’éthanol.\n\n### 3.2 Hydratation d’un alcène (acide sulfurique concentré)\n- **Alcène symétrique** → un seul alcool.\n- **Alcène asymétrique** → deux isomères ; l’alcool de classe supérieure est majoritaire (règle de Markovnikov).\n#### Exemple 1 (éthène) :\n```text\nCH2=CH2 + H2O  →[H2SO4]  CH3‑CH2‑OH (éthanol)\n```\n#### Exemple 2 (but‑2‑ène) :\n```text\nCH3‑CH=CH‑CH3 + H2O  →[H2SO4]  CH3‑CH(OH)‑CH2‑CH3 (butan‑2‑ol)\n```\n#### Exemple 3 (propène) :\n```text\nCH3‑CH=CH2 + H2O  →[H2SO4]  CH3‑CH(OH)‑CH3 (propan‑2‑ol, majoritaire) + CH3‑CH2‑CH2‑OH (propan‑1‑ol, minoritaire)\n```\n\n## 4. Propriétés chimiques\n### 4.1 Déshydratation\nEn présence d’un acide fort (H2SO4) et à haute température, les alcools se déshydratent pour former des alcènes et de l’eau.\n\n---\n*Activités d’application* :\n1. Identifier et nommer les isomères C4H10O.\n2. Compléter les équations d’hydratation d’alcènes.\n3. Classer les alcools obtenus selon leur classe.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le groupe fonctionnel caractéristique d’un alcool ?",
+      "options": [
+        "-COOH",
+        "-NH2",
+        "-OH",
+        "-SH"
+      ],
+      "answer": 2,
+      "explanation": "Le groupe hydroxyle -OH définit les alcools."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La formule brute générale des alcools est CnH2n+2O.",
+      "answer": true,
+      "explanation": "En comptant le groupe OH, on obtient CnH2n+2O."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Écrivez la formule développée du méthanol.",
+      "answer": "CH3OH",
+      "explanation": "Le méthanol possède un groupe méthyle lié à un groupe hydroxyle."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel alcool appartient à la classe III (tertiaire) ?",
+      "options": [
+        "butan‑1‑ol",
+        "butan‑2‑ol",
+        "tert‑butanol",
+        "propan‑1‑ol"
+      ],
+      "answer": 2,
+      "explanation": "Le tert‑butanol possède le carbone fonctionnel lié à trois carbones."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Lors de l’hydratation du propène, quel alcool est majoritaire ?",
+      "options": [
+        "propan‑1‑ol",
+        "propan‑2‑ol",
+        "butan‑1‑ol",
+        "butan‑2‑ol"
+      ],
+      "answer": 1,
+      "explanation": "Selon la règle de Markovnikov, le -OH se fixe sur le carbone le plus substitué, donnant le propan‑2‑ol."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "L’hydratation d’un alcène symétrique donne toujours deux alcools différents.",
+      "answer": false,
+      "explanation": "Un alcène symétrique ne possède qu’un seul site de protonation, donc un seul alcool."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Complétez l’équation de fermentation du glucose : C6H12O6 → ____ + 2 CO2",
+      "answer": "2 C2H5OH",
+      "explanation": "La fermentation produit deux molécules d’éthanol."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel est le nombre d’isomères d’alcools possibles pour la formule brute C4H10O ?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1,
+      "explanation": "Il existe trois isomères : butan‑1‑ol, butan‑2‑ol et tert‑butanol."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Dans la règle de Markovnikov, le groupe –OH se fixe préférentiellement sur le carbone le moins substitué.",
+      "answer": false,
+      "explanation": "Il se fixe sur le carbone le plus substitué."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Donnez la formule semi‑développée du butan‑2‑ol.",
+      "answer": "CH3‑CH(OH)‑CH2‑CH3",
+      "explanation": "Le groupe OH est sur le deuxième carbone."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel réactif catalyse la déshydratation des alcools ?",
+      "options": [
+        "NaOH",
+        "H2SO4",
+        "K2CO3",
+        "CuSO4"
+      ],
+      "answer": 1,
+      "explanation": "L’acide sulfurique concentré agit comme catalyseur."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Tous les alcools sont solubles dans l’eau.",
+      "answer": false,
+      "explanation": "La solubilité diminue avec la taille de la chaîne carbonée."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Quel est le nom usuel de CH3‑CH2‑OH ?",
+      "answer": "éthanol",
+      "explanation": "CH3‑CH2‑OH correspond à l’éthanol."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel type d’alcool possède le carbone fonctionnel lié à deux atomes de carbone ?",
+      "options": [
+        "Primaire",
+        "Secondaire",
+        "Tertiaire",
+        "Aucun"
+      ],
+      "answer": 1,
+      "explanation": "C’est la définition d’un alcool secondaire (classe II)."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "La formule CnH2n+1‑OH représente un alcool primaire uniquement.",
+      "answer": false,
+      "explanation": "Cette formule décrit la fonction –OH, mais la classe dépend du nombre de substituants sur le carbone fonctionnel."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Écrivez la réaction d’hydratation du but‑2‑ène en présence d’H2SO4.",
+      "answer": "CH3‑CH=CH‑CH3 + H2O →[H2SO4] CH3‑CH(OH)‑CH2‑CH3",
+      "explanation": "Le produit est le butan‑2‑ol, alcool secondaire."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "physique-seconde-forces-principe-inertie",
+  "title": "Forces et principe d'inertie de Newton",
+  "summary": "Ce chapitre te permet de comprendre comment les forces modifient ou non le mouvement des objets. Le principe d'inertie, pierre angulaire de la mécanique, t'explique pourquoi un objet continue de bouger ou s'arrête, et il est indispensable pour analyser toutes les situations de la vie courante et les exercices d'examen.",
+  "lesson": "## Introduction & Mise en situation\n\nAs-tu déjà réfléchi à pourquoi une balle lancée sur le sol finit par s'arrêter ? Ou pourquoi toi, dans un bus qui freine brusquement, es projeté vers l'avant ? La réponse se trouve dans le concept de **force** et le **principe d'inertie** de Newton. Ce chapitre est crucial car il pose les bases de la mécanique, une partie essentielle de la physique que tu retrouveras au bac et dans la vie quotidienne. Comprendre ces notions te permettra d'analyser le mouvement des objets et de prévoir leur comportement.\n\n## 1. Définitions et Principes Fondamentaux\n\n### 1.1. Force\n\nUne **force** est une action mécanique capable de modifier le mouvement d'un objet ou de le déformer. Elle est modélisée par un vecteur, c'est-à-dire qu'elle possède :\n\n- **un point d'application** : l'endroit où la force s'exerce.\n- **une direction** : la droite selon laquelle elle s'exerce.\n- **un sens** : l'orientation de la force.\n- **une intensité** : sa valeur, mesurée en newtons (N).\n\nOn note une force $\\vec{F}$ ou simplement $F$ pour sa valeur.\n\n### 1.2. Principe d'inertie (Première loi de Newton)\n\nÉnoncé : *Tout corps persévère dans son état de repos ou de mouvement rectiligne uniforme, à moins qu'une force ne l'oblige à changer cet état.*\n\nEn d'autres termes :\n\n- Si un objet est **au repos** (vitesse nulle), il reste au repos tant qu'aucune force ne s'exerce sur lui (ou que les forces se compensent).\n- Si un objet est en **mouvement rectiligne uniforme** (vitesse constante en direction et en valeur), il continue ce mouvement tant que les forces se compensent.\n\n**Cas particulier :** Si les forces se compensent (leur somme vectorielle est nulle), l'objet est soit au repos, soit en mouvement rectiligne uniforme. On dit alors que l'objet est **isolé** (aucune force) ou **pseudo-isolé** (forces qui se compensent).\n\n### 1.3. Vecteur force et somme des forces\n\nLa somme des forces s'écrit : $\\sum \\vec{F} = \\vec{F_1} + \\vec{F_2} + \\dots$\n\nSi $\\sum \\vec{F} = \\vec{0}$, alors les forces se compensent.\n\n## 2. Propriétés et Méthodes d'application\n\n### 2.1. Comment appliquer le principe d'inertie ?\n\n**Méthode pas-à-pas :**\n\n1. **Identifier le système** : l'objet dont on étudie le mouvement.\n2. **Faire le bilan des forces extérieures** : toutes les forces exercées par l'extérieur sur le système (poids, réaction du support, tension, frottements, etc.).\n3. **Déterminer le mouvement** : est-il au repos, rectiligne uniforme, ou accéléré ?\n4. **Appliquer le principe d'inertie** :\n   - Si le mouvement est **repos ou rectiligne uniforme**, alors $\\sum \\vec{F} = \\vec{0}$.\n   - Si le mouvement est **accéléré** (ou curviligne), alors $\\sum \\vec{F} \\neq \\vec{0}$.\n\n### 2.2. Exemple concret : le livre posé sur une table\n\nUn livre de masse $m = 0,5\\, \\text{kg}$ est posé immobile sur une table. Il est soumis à deux forces :\n\n- **Son poids** $\\vec{P}$ : vertical, vers le bas, de valeur $P = m \\times g$, avec $g = 9,8\\, \\text{N/kg}$. Donc $P = 0,5 \\times 9,8 = 4,9\\, \\text{N}$.\n- **La réaction de la table** $\\vec{R}$ : verticale, vers le haut, de valeur $R$.\n\nLe livre est immobile, donc d'après le principe d'inertie, les forces se compensent : $\\vec{P} + \\vec{R} = \\vec{0}$. Ainsi, $R = P = 4,9\\, \\text{N}$.\n\n### 2.3. Exemple avec mouvement rectiligne uniforme\n\nUne voiture roule à vitesse constante de $90\\, \\text{km/h}$ sur une route droite et horizontale. Les forces qui s'exercent sont : le poids $\\vec{P}$, la réaction du sol $\\vec{R}$, la force motrice $\\vec{F_m}$ et les frottements $\\vec{f}$. Comme le mouvement est rectiligne uniforme, la somme vectorielle est nulle : $\\vec{P} + \\vec{R} + \\vec{F_m} + \\vec{f} = \\vec{0}$. En projetant sur l'horizontale, on obtient $F_m = f$ (les frottements compensent la force motrice).\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre vitesse et accélération** : Un objet peut avoir une vitesse constante et être soumis à des forces qui se compensent. Ce n'est pas parce qu'il y a un mouvement qu'il y a une force résultante non nulle.\n- **Oublier les forces de frottement** : Dans les exercices, on néglige parfois les frottements, mais il faut toujours vérifier l'énoncé. Si on les néglige, l'objet peut être considéré comme pseudo-isolé.\n- **Ne pas faire le bilan des forces** : Il est indispensable de lister toutes les forces pour appliquer correctement le principe d'inertie. Une force oubliée peut fausser tout le raisonnement.\n- **Penser que le principe d'inertie ne s'applique qu'à l'arrêt** : Il s'applique aussi au mouvement rectiligne uniforme.\n- **Confondre vecteur et valeur** : La somme des forces est une somme vectorielle, il faut tenir compte des directions et sens, pas seulement des valeurs.\n\n## Synthèse\n\n1. **Force** : action mécanique modélisée par un vecteur (point d'application, direction, sens, intensité).\n2. **Principe d'inertie** : si un objet est au repos ou en mouvement rectiligne uniforme, alors la somme des forces qui s'exercent sur lui est nulle.\n3. **Méthode** : faire le bilan des forces, déterminer le mouvement, puis appliquer le principe pour conclure sur la somme des forces.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "forces",
+    "principe d'inertie",
+    "Newton",
+    "mécanique",
+    "seconde"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la condition pour qu'un objet soit en mouvement rectiligne uniforme ?",
+      "options": [
+        "La somme des forces est nulle",
+        "La somme des forces est constante non nulle",
+        "Il n'y a aucune force qui s'exerce sur lui",
+        "La vitesse est nulle"
+      ],
+      "answer": 0,
+      "explanation": "D'après le principe d'inertie, un objet est en mouvement rectiligne uniforme si la somme vectorielle des forces est nulle (forces qui se compensent)."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Un objet qui ralentit sur une route est soumis à des forces qui se compensent.",
+      "answer": false,
+      "explanation": "Si l'objet ralentit, son mouvement n'est pas rectiligne uniforme, donc la somme des forces n'est pas nulle."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Un livre de masse 2 kg est posé immobile sur une table. Calculer la valeur de la réaction normale du support (en N) si g = 10 N/kg. Réponse :",
+      "answer": "20",
+      "explanation": "Puisque le livre est immobile, les forces se compensent : R = P = m × g = 2 × 10 = 20 N."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est l'unité de l'intensité d'une force ?",
+      "options": [
+        "Le kilogramme",
+        "Le newton",
+        "Le mètre",
+        "La seconde"
+      ],
+      "answer": 1,
+      "explanation": "L'intensité d'une force se mesure en newtons (N)."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Le principe d'inertie s'applique uniquement aux objets au repos.",
+      "answer": false,
+      "explanation": "Il s'applique aussi aux objets en mouvement rectiligne uniforme."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Un objet est soumis à deux forces de même direction, même sens, de valeurs 5 N et 7 N. Quelle est la valeur de la force résultante (en N) ?",
+      "answer": "12",
+      "explanation": "Les forces s'additionnent car elles sont de même direction et même sens : 5 + 7 = 12 N."
+    }
+  ]
+}

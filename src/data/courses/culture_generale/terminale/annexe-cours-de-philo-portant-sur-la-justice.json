@@ -1,0 +1,179 @@
+{
+  "id": "culture_generale-terminale-annexe-cours-de-philo-portant-sur-la-justice",
+  "subjectId": "culture_generale",
+  "levelId": "terminale",
+  "slug": "annexe-cours-de-philo-portant-sur-la-justice",
+  "title": "Les justifications du châtiment et la logique des règles – MENA CI",
+  "summary": "Ce document explore les fondements philosophiques du châtiment, la tension entre règle et absurdité, le duel médiéval, le pardon et les devoirs envers la nature. Il relie Nietzsche, Baudelaire, Hegel, Arendt et Kant pour éclairer la morale et la justice en terminale.",
+  "lesson": "# Introduction\nLes notions de châtiment, de règle et de justice sont au cœur de la philosophie morale. Ce texte propose une analyse critique des justifications classiques et des paradoxes inhérents aux systèmes juridiques.\n\n## 1. Justifications du châtiment\n- **Dissuasion** : la crainte du châtiment éloigne les futurs délinquants.\n- **Protection physique** : confinement ou exécution pour protéger la société.\n- **Rééducation** : transformation du délinquant.\n- **Réparation** : satisfaction symbolique des victimes.\n\nNietzsche et Baudelaire soulignent que le châtiment vise aussi à améliorer le châtier et à sauver spirituellement la société.\n\n## 2. Règle et absurdité\n- Les règles précises peuvent conduire à des applications absurdes lorsqu’elles ne servent pas l’objectif visé.\n- La nécessité de préciser les moyens est un compromis pour neutraliser les conflits humains.\n- Exemple : sanctionner une infraction sans danger ou exiger un formulaire inutile.\n\n## 3. Le jugement de Dieu\n- Au Moyen Âge, le duel était un moyen simple de justice, basé sur la croyance que Dieu trancherait.\n- Le principe « Rendez à César ce qui est à César » illustre la soumission à l’autorité divine.\n\n## 4. Le pardon\n- Deux types d’injustice : intérêt personnel vs intérêt d’autrui.\n- Le pardon, selon Hannah Arendt, est une action morale essentielle.\n\n## 5. Droit de la nature et des animaux\n- Kant distingue les humains comme fins en soi, mais la nature mérite aussi un respect.\n- La protection de l’environnement est un devoir envers les générations futures.\n- Lévi‑Strauss montre le lien entre respect universel et sens de la fin.\n\n## Conclusion\nLes justifications du châtiment, la logique des règles et le respect de la nature forment un ensemble complexe. Comprendre ces tensions aide les élèves à réfléchir de façon critique sur la justice et la morale.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "culture_generale",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle justification du châtiment vise à protéger la société en enfermant le coupable?",
+      "options": [
+        "Dissuasion",
+        "Protection physique",
+        "Rééducation",
+        "Réparation"
+      ],
+      "answer": 1,
+      "explanation": "La protection physique consiste à enfermer ou exécuter le coupable pour protéger la société."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Nietzsche affirme que le châtiment a pour but d’améliorer celui qui le donne.",
+      "answer": true,
+      "explanation": "Nietzsche écrit que le châtiment a pour but d’améliorer celui qui châtie."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel philosophe avance que le châtiment rend la dignité du coupable?",
+      "options": [
+        "Hegel",
+        "Nietzsche",
+        "Arendt",
+        "Kant"
+      ],
+      "answer": 0,
+      "explanation": "Hegel soutient que le châtiment rend la dignité du coupable."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Les règles précises éliminent les conflits humains.",
+      "answer": false,
+      "explanation": "Les règles précises peuvent créer des conflits et des applications absurdes."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Le principe médiéval de « Rendez à ___ ce qui est à ___ » souligne la soumission à l’autorité divine.",
+      "answer": "César",
+      "explanation": "Le principe complet est « Rendez à César ce qui est à César »."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel type d’injustice est liée à l’intérêt d’autrui?",
+      "options": [
+        "Vol",
+        "Impolitesse",
+        "Pardonner",
+        "Bavardage"
+      ],
+      "answer": 2,
+      "explanation": "Pardonner est une action qui enfreint la loi dans l’intérêt d’autrui."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Arendt considère le pardon comme une action morale.",
+      "answer": true,
+      "explanation": "Hannah Arendt insiste sur la nécessité du pardon."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Selon Kant, qui constitue une fin en soi?",
+      "options": [
+        "Les humains",
+        "Les animaux",
+        "La nature",
+        "Les deux"
+      ],
+      "answer": 0,
+      "explanation": "Kant considère uniquement les humains comme fins en soi."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Respecter l’environnement est un devoir envers les générations futures.",
+      "answer": true,
+      "explanation": "Respecter l’environnement protège les générations futures."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel philosophe relie le respect de la nature à la fin en soi?",
+      "options": [
+        "Kant",
+        "Levi‑Strauss",
+        "Nietzsche",
+        "Hegel"
+      ],
+      "answer": 1,
+      "explanation": "Levi‑Strauss montre le lien entre le respect universel et la nature."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Le duel était un moyen de justice basé sur l’idée que ___ fera vaincre celui qui a raison.",
+      "answer": "Dieu",
+      "explanation": "Le duel reposait sur la croyance que Dieu trancherait."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quelle justification du châtiment est d’ordre moral?",
+      "options": [
+        "Dissuasion",
+        "Protection physique",
+        "Rééducation",
+        "Réparation"
+      ],
+      "answer": 3,
+      "explanation": "La réparation est la seule justification d’ordre moral."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Les règles précises ne peuvent jamais être appliquées de façon absurde.",
+      "answer": false,
+      "explanation": "Les règles précises peuvent conduire à des applications absurdes."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel est le but de la rééducation du délinquant?",
+      "options": [
+        "Dissuasion",
+        "Protection physique",
+        "Transformation du délinquant",
+        "Réparation"
+      ],
+      "answer": 2,
+      "explanation": "La rééducation vise à transformer le délinquant."
+    },
+    {
+      "id": "q16",
+      "type": "truefalse",
+      "prompt": "Le châtiment est toujours justifié pour protéger la société.",
+      "answer": false,
+      "explanation": "Le châtiment peut être justifié pour d’autres raisons, pas uniquement la protection."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quel concept explique que la règle doit parfois être suspendue?",
+      "options": [
+        "Dissuasion",
+        "Absurdité",
+        "Règle purement rationnelle",
+        "Conflit humain"
+      ],
+      "answer": 1,
+      "explanation": "La logique de l’absurdité explique que la règle doit parfois être suspendue."
+    }
+  ]
+}

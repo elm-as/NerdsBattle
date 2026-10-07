@@ -1,0 +1,119 @@
+{
+  "id": "physique-cinquieme-les-grossesses-precoces-et-lepanouissement-m",
+  "subjectId": "physique",
+  "levelId": "cinquieme",
+  "slug": "les-grossesses-precoces-et-lepanouissement-m",
+  "title": "Grossesses précoces : causes, conséquences et prévention",
+  "summary": "Les grossesses précoces, survenues avant 18 ans, exposent la jeune mère à des risques sanitaires et sociaux majeurs. Elles résultent de facteurs comme le manque d’éducation sexuelle, la pauvreté et les mauvaises fréquentations. Les conséquences touchent la santé, la scolarité et l’insertion sociale. La prévention repose sur l’éducation, l’accès aux méthodes contraceptives et le soutien familial, favorisant ainsi l’épanouissement moral, physique et social de la mère.",
+  "lesson": "## Définition\nLes grossesses précoces sont des grossesses contractées avant l’âge de 18 ans, souvent avant la pleine maturation des organes sexuels, ce qui met en danger la santé de la mère et de l’enfant.\n\n## Causes\n- Mauvaises fréquentations\n- Manque d’information sur l’éducation sexuelle\n- Pauvreté et précarité économique\n\n## Conséquences\n- Échec scolaire et abandon des études\n- Avenir professionnel compromis\n- Altération physique (déformations, stérilité, voire mortalité)\n- Impact moral et social (isolement, déséquilibre familial)\n\n## Mesures de prévention\n- **Éducation** : inculquer des valeurs de préservation et d’autonomie.\n- **Méthodes contraceptives** : abstinence, méthode d’Ogino, méthode de la température, préservatif, pilule.\n- **Soutien communautaire** : programmes de sensibilisation et accompagnement des familles.\n\n## Importance de la prévention\n- **Moral et social** : dignité familiale, réussite scolaire, insertion sociale harmonieuse, autonomie financière.\n- **Physique** : développement harmonieux, bonne santé générale.\n\n> La prévention des grossesses précoces est un levier essentiel pour garantir l’épanouissement complet de la jeune fille et de sa communauté.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "cinquieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "À quel âge une grossesse est‑elle considérée comme précoce selon le texte?",
+      "options": [
+        "Avant 16 ans",
+        "Avant 18 ans",
+        "Avant 20 ans",
+        "Après 18 ans"
+      ],
+      "answer": 1,
+      "explanation": "Le texte précise que les grossesses précoces sont contractées avant l’âge de 18 ans."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Complétez : Les grossesses précoces peuvent entraîner une _______ scolaire.",
+      "answer": "échec",
+      "explanation": "Le texte indique que l’échec scolaire est une des conséquences."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle méthode contraceptive n’est PAS mentionnée dans le texte?",
+      "options": [
+        "Pilule",
+        "Implant hormonal",
+        "Méthode d’Ogino",
+        "Préservatif"
+      ],
+      "answer": 1,
+      "explanation": "L’implant hormonal n’est pas listé parmi les méthodes évoquées."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Une grossesse précoce peut compromettre l’______ professionnel de la jeune femme.",
+      "answer": "avenir",
+      "explanation": "Le texte parle d’un avenir compromis."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel bénéfice n’est PAS associé à la prévention des grossesses précoces?",
+      "options": [
+        "Autonomie financière",
+        "Développement harmonieux",
+        "Stérilité accrue",
+        "Insertion sociale harmonieuse"
+      ],
+      "answer": 2,
+      "explanation": "La stérilité accrue est une conséquence, pas un bénéfice."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Le texte indique que les grossesses précoces peuvent entraîner la _______ de certains organes sexuels.",
+      "answer": "déformation",
+      "explanation": "Il est mentionné une altération ou déformation physique."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel secteur n’est PAS directement affecté par les grossesses précoces selon le texte?",
+      "options": [
+        "Moral",
+        "Physique",
+        "Économique",
+        "Climatique"
+      ],
+      "answer": 3,
+      "explanation": "Le texte ne parle pas d’impact climatique."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Une des conséquences physiques possibles d’une grossesse précoce est la _______.",
+      "answer": "stérilité",
+      "explanation": "Le texte cite la stérilité comme conséquence."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel élément est essentiel pour une bonne éducation préventive?",
+      "options": [
+        "Valeurs de préservation",
+        "Connaissance des réseaux sociaux",
+        "Compétences sportives",
+        "Maîtrise de la cuisine"
+      ],
+      "answer": 0,
+      "explanation": "Le texte insiste sur l’inculcation de valeurs de préservation."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Le texte associe la prévention des grossesses précoces à la _______ morale.",
+      "answer": "dignité",
+      "explanation": "Il parle de dignité de la famille préservée."
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "physique-quatrieme-l-ombre-propre-et-lombre-portee-physique-4em",
+  "subjectId": "physique",
+  "levelId": "quatrieme",
+  "slug": "l-ombre-propre-et-lombre-portee-physique-4em",
+  "title": "Comprendre les ombres, les phases de la lune et les éclipses – Leçon 4 MENA CI",
+  "summary": "Cette leçon explore les ombres (propre, portée, pénombre), les phases lunaires et les éclipses. Les élèves expérimentent avec des sources ponctuelles et étendues, identifient les phases de la lune et expliquent les éclipses de lune et de soleil. Des activités pratiques et des questions évaluent la compréhension.",
+  "lesson": "# Leçon 4 – Ombres, phases de la lune et éclipses\n\n## Objectifs\n- Identifier l’ombre propre, l’ombre portée et la pénombre d’un objet éclairé.\n- Identifier et représenter les phases de la lune.\n- Identifier les éclipses de lune et de soleil.\n\n## 1. Ombres\n\n### 1.1 Source ponctuelle\n- **Expérience** : placer une lampe de poche devant une balle.\n- **Observations** :\n  - Ombre propre sur la balle.\n  - Ombre portée sur l’écran.\n- **Conclusion** : la source ponctuelle crée une ombre propre et une ombre portée.\n\n### 1.2 Source étendue\n- **Expérience** : éclairer la balle avec une lampe à lumière diffuse.\n- **Observations** :\n  - Ombre propre sur la balle.\n  - Ombre portée + pénombre sur l’écran.\n- **Conclusion** : la source étendue crée une pénombre.\n\n## 2. Phases de la lune\n\n| Phase | Observation | Explication |\n|-------|-------------|-------------|\n| Nouvelle lune | Invisible | Lisse entre Soleil et Terre |\n| Premier croissant | Petite bande | Lune visible après coucher |\n| Premier quartier | Demi‑lune | Lune visible au début de la nuit |\n| Gibbeuse croissante | Plus de la moitié | Lune visible plus tard |\n| Pleine lune | Ronde | Lune visible toute la nuit |\n| Gibbeuse décroissante | Moins de la moitié | Lune visible avant l’aube |\n| Dernier croissant | Petite bande | Lune visible juste avant lever |\n\n## 3. Éclipses\n\n- **Définition** : disparition passagère d’un astre lorsqu’il est occulté par un autre.\n- **Éclipse de lune** : la lune pénètre dans le cône d’ombre de la Terre, se produit pendant la pleine lune.\n- **Éclipse de soleil** : la Terre pénètre dans le cône d’ombre de la lune, se produit pendant la nouvelle lune.\n\n## 4. Résolution de la situation problème\n- Le père de Boris voit une lune ronde car il se trouve dans l’ombre propre de la Terre (nuit) alors que Boris est dans la zone éclairée (jour). La lune apparaît ronde lorsqu’elle est pleine.\n\n## 5. Activités\n- **Activité 1** : QCM sur les ombres, phases et éclipses.\n- **Activité 2** : Correspondance des phases lunaires.\n- **Activité 3** : Observation d’un calendrier lunaire.\n- **Activité 4** : Analyse d’un schéma d’éclipse.\n- **Activité 5** : Compléter les noms des phases à partir de schémas.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est l’ombre qui se forme sur l’objet lorsqu’une source ponctuelle l’éclaire ?",
+      "options": [
+        "Ombre propre",
+        "Ombre portée",
+        "Pénombre",
+        "Cône d’ombre"
+      ],
+      "answer": 0,
+      "explanation": "Une source ponctuelle crée une ombre propre sur l’objet."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Qu’observes‑tu sur l’écran lorsqu’une source étendue éclaire un objet opaque ?",
+      "options": [
+        "Ombre propre uniquement",
+        "Ombre portée uniquement",
+        "Ombre portée et pénombre",
+        "Aucune ombre"
+      ],
+      "answer": 2,
+      "explanation": "Une source étendue produit une ombre portée et une pénombre."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "La pénombre est visible à l’œil nu.",
+      "answer": false,
+      "explanation": "Le cône d’ombre n’est pas visible à l’œil nu."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "La phase de la lune où elle est invisible est appelée :",
+      "options": [
+        "Nouvelle lune",
+        "Pleine lune",
+        "Dernier croissant",
+        "Premier croissant"
+      ],
+      "answer": 0,
+      "explanation": "La nouvelle lune est invisible car son côté éclairé fait face au Soleil."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel phénomène se produit lorsque la Terre entre dans le cône d’ombre de la lune ?",
+      "options": [
+        "Éclipse de lune",
+        "Éclipse de soleil",
+        "Lune pleine",
+        "Lune nouvelle"
+      ],
+      "answer": 1,
+      "explanation": "C’est une éclipse de soleil."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel type d’éclipse se produit pendant la pleine lune ?",
+      "options": [
+        "Éclipse de lune",
+        "Éclipse de soleil",
+        "Éclipse solaire totale",
+        "Éclipse solaire partielle"
+      ],
+      "answer": 0,
+      "explanation": "La lune passe dans l’ombre de la Terre."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "La phase où la lune est visible juste avant le lever du jour est :",
+      "options": [
+        "Dernier croissant",
+        "Premier croissant",
+        "Gibbeuse décroissante",
+        "Nouvelle lune"
+      ],
+      "answer": 0,
+      "explanation": "Le dernier croissant apparaît juste avant le lever."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Une source ponctuelle ne crée jamais de pénombre.",
+      "answer": true,
+      "explanation": "La pénombre ne se forme qu’avec une source étendue."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Le cône d’ombre est :",
+      "options": [
+        "Une zone lumineuse",
+        "Une zone d’ombre invisible",
+        "Une zone d’ombre visible",
+        "Un type d’ombre portée"
+      ],
+      "answer": 1,
+      "explanation": "Le cône d’ombre n’est pas visible à l’œil nu."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "La phase où la lune est visible au début de la nuit et montre un demi‑disque est appelée ________.",
+      "answer": "premier quartier",
+      "explanation": "C’est le premier quartier."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel phénomène explique que le père de Boris voit une lune ronde alors qu’il fait jour pour lui ?",
+      "options": [
+        "Il est dans l’ombre propre de la Terre",
+        "Il est dans la zone éclairée",
+        "Il voit une illusion d’optique",
+        "Il est dans la pénombre"
+      ],
+      "answer": 0,
+      "explanation": "Il se trouve dans l’ombre propre (nuit)."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "La lune pleine est visible toute la nuit.",
+      "answer": true,
+      "explanation": "La lune pleine se lève à l’est et reste visible jusqu’au lever du soleil."
+    }
+  ]
+}

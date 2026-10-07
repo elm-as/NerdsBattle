@@ -1,0 +1,167 @@
+{
+  "id": "svt-seconde-l2-alteration-chimique-des-roches-magma",
+  "subjectId": "svt",
+  "levelId": "seconde",
+  "slug": "l2-alteration-chimique-des-roches-magma",
+  "title": "Altération chimique du granite sous l'action de l'eau – Séance 1 (2e)",
+  "summary": "Cette leçon de 2 h pour les élèves de 2nde C explique le mécanisme d'altération chimique des roches magmatiques, en particulier le granite. À partir d'observations de blocs sains et altérés, les élèves identifient les minéraux détruits, le rôle de l'eau contenant du CO₂, les réactions d'hydrolyse et la formation d'argile et de rouille. Le cours combine projection, exploitation de tableaux, analyses, interprétations et conclusions.",
+  "lesson": "## Objectif général\nComprendre le mécanisme d’altération chimique des roches magmatiques.\n\n## Niveau & durée\n- Niveau : 2nde C\n- Durée : 2 h (séance 1)\n\n## Matériel\n- Planches, transparents, rétroprojecteur\n- Textes et documents\n- Échantillons de granite sain et altéré\n\n## Objectifs spécifiques\n- **OST1** : Expliquer le mécanisme d’altération chimique du granite.\n- **OST2** : Citer les produits d’altération (argile, oxydes, etc.).\n\n## Déroulement de la leçon\n| Temps | Activité prof. | Activité élève | Contenu |\n|------|----------------|----------------|---------|\n|5 min|Projection d’images du massif à T0 et T1|Observation, réponses libres|Constat : le granite se décompose sous la pluie|\n|10 min|Questionnement sur les hypothèses|Notes individuelles|Hypothèse : l’eau dissout certains minéraux du granite|\n|20 min|Exploitation d’un tableau comparatif (granite sain vs altéré)|Remplissage du tableau, collecte de données|Identification des minéraux disparus (feldspath, mica) et apparus (argile, rouille)|\n|25 min|Analyse des résultats|Discussion en groupe|Le quartz reste intact, les feldspaths et micas disparaissent, formation d’argile et d’oxyde de fer|\n|40 min|Interprétation|Rédaction d’une explication|L’eau contient du CO₂ → H₂CO₃ (acide carbonique) qui hydrolyse feldspaths et micas, libérant SiO₂ (quartz) et formant argile et rouille|\n|5 min|Conclusion générale|Synthèse orale|Récapitulatif du mécanisme d’altération chimique|\n\n## Analyse détaillée\n- **Tableau** montre la perte de feldspaths et micas, apparition d’argile (kaolinite) et d’oxyde de fer.\n- **Réaction type** : \\(\\text{KAlSi₃O₈ + H₂CO₃ + H₂O → Al₂Si₂O₅(OH)₄ + K⁺ + HCO₃⁻ + SiO₂}\\)\n- Le quartz (SiO₂) reste stable.\n\n## Interprétation\nL’acide carbonique, issu du CO₂ dissous dans l’eau de pluie, attaque les minéraux silicatés (feldspaths, micas). L’hydrolyse libère des ions qui précipitent sous forme d’argile et d’oxyde de fer, tandis que le quartz, plus résistant, persiste.\n\n## Conclusion générale\nL’eau, enrichie en CO₂, provoque une altération chimique sélective du granite : disparition des minéraux les plus réactifs, formation de phases secondaires (argile, rouille) et conservation du quartz. Cette altération contribue à la désagrégation des massifs magmatiques en milieu superficiel.",
+  "estimatedMinutes": 60,
+  "tags": [
+    "svt",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel minéral du granite reste intact après l'altération chimique décrite?",
+      "options": [
+        "Feldspath",
+        "Mica",
+        "Quartz",
+        "Argile"
+      ],
+      "answer": 2,
+      "explanation": "Le quartz est le minéral le plus résistant aux réactions d'hydrolyse par l'acide carbonique."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "L'eau de pluie contient du dioxyde de carbone dissous qui forme de l'acide carbonique responsable de l'altération.",
+      "answer": true,
+      "explanation": "Le CO₂ se dissout dans l'eau, formant H₂CO₃, qui hydrolyse les minéraux silicatés."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "L'acide carbonique est noté chimiquement ___.",
+      "answer": "H2CO3",
+      "explanation": "Formule de l'acide carbonique."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel minéral disparaît du granite altéré?",
+      "options": [
+        "Quartz",
+        "Feldspath",
+        "Mica",
+        "Toutes les réponses"
+      ],
+      "answer": 1,
+      "explanation": "Le feldspath est hydrolysé, tandis que le quartz persiste."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel produit secondaire apparaît suite à l'altération du feldspath?",
+      "options": [
+        "Argile",
+        "Quartz",
+        "Calcite",
+        "Gypse"
+      ],
+      "answer": 0,
+      "explanation": "L'hydrolyse du feldspath libère des ions qui précipitent sous forme d'argile (kaolinite)."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "La rouille observée sur le granite altéré provient de l'oxydation du fer contenu dans les minéraux.",
+      "answer": true,
+      "explanation": "Le fer des micas ou d'autres phases s'oxyde, formant des oxydes de fer (rouille)."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "La réaction d'hydrolyse du feldspath libère des ions ___.",
+      "answer": "K⁺ et HCO₃⁻",
+      "explanation": "Le feldspath libère potassium et bicarbonate lors de l'hydrolyse."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel est le rôle principal de l'eau dans l'altération chimique du granite?",
+      "options": [
+        "Fournir de la chaleur",
+        "Transporter le CO₂",
+        "Agir comme solvant pour les réactions d'hydrolyse",
+        "Créer une pression mécanique"
+      ],
+      "answer": 2,
+      "explanation": "L'eau agit comme solvant, permettant aux ions de se déplacer et aux réactions d'hydrolyse de se produire."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Le mica se transforme directement en quartz lors de l'altération.",
+      "answer": false,
+      "explanation": "Le mica se décompose en argile et en oxydes, le quartz reste inchangé."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Le temps T0 représente le __ du massif granitique.",
+      "answer": "état initial",
+      "explanation": "T0 correspond à l'état du granite avant l'action de la pluie."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quelle étape suit l'exploitation du tableau comparatif?",
+      "options": [
+        "Motivation",
+        "Analyse",
+        "Conclusion",
+        "Évaluation"
+      ],
+      "answer": 1,
+      "explanation": "Après le tableau, les élèves passent à l'analyse des résultats."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "L'altération chimique ne modifie que la couleur du granite, pas sa composition minéralogique.",
+      "answer": false,
+      "explanation": "Elle modifie la composition en éliminant feldspaths et micas et en créant de nouvelles phases."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Le processus d'altération chimique du granite est un exemple d'_____.",
+      "answer": "altération superficielle",
+      "explanation": "Il s'agit d'une altération qui agit en surface, sous l'influence de l'eau."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel gaz dissous dans l'eau est à l'origine de l'acide carbonique?",
+      "options": [
+        "O₂",
+        "N₂",
+        "CO₂",
+        "CH₄"
+      ],
+      "answer": 2,
+      "explanation": "Le dioxyde de carbone (CO₂) forme H₂CO₃ lorsqu'il se dissout dans l'eau."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Le quartz peut être hydrolysé par l'acide carbonique présent dans l'eau de pluie.",
+      "answer": false,
+      "explanation": "Le quartz est très résistant à l'hydrolyse par H₂CO₃."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Le tableau montre que le feldspath passe de __ à __ après altération.",
+      "answer": "présent à absent",
+      "explanation": "Le feldspath disparaît dans le granite altéré."
+    }
+  ]
+}

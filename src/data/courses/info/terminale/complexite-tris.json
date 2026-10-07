@@ -1,0 +1,14 @@
+{
+  "id": "info-terminale-complexite-tris",
+  "title": "Complexité et algorithmes de tri",
+  "summary": "Notation O, tri par insertion, tri rapide, tri fusion.",
+  "lesson": "Complexité : on mesure le nombre d'opérations en fonction de la taille n des données. Tri par sélection / insertion : O(n²). Tri fusion / tri rapide (en moyenne) : O(n log n). Recherche dichotomique : O(log n).",
+  "estimatedMinutes": 13,
+  "tags": ["algorithmique", "complexité"],
+  "questions": [
+    { "id": "q1", "type": "mcq", "prompt": "Complexité du tri par insertion ?", "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"], "answer": 3, "explanation": "Quadratique dans le pire cas." },
+    { "id": "q2", "type": "mcq", "prompt": "Complexité moyenne du tri fusion ?", "options": ["O(n)", "O(n log n)", "O(n²)", "O(2ⁿ)"], "answer": 1, "explanation": "Diviser pour régner." },
+    { "id": "q3", "type": "truefalse", "prompt": "La recherche dichotomique nécessite un tableau trié.", "answer": true, "explanation": "Sinon on ne peut pas couper en deux." },
+    { "id": "q4", "type": "fill", "prompt": "Notation pour la complexité asymptotique : grand ___", "answer": "O", "explanation": "O(...) ou Big-O." }
+  ]
+}

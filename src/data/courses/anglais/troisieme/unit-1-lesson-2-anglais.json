@@ -1,0 +1,181 @@
+{
+  "id": "anglais-troisieme-unit-1-lesson-2-anglais",
+  "subjectId": "anglais",
+  "levelId": "troisieme",
+  "slug": "unit-1-lesson-2-anglais",
+  "title": "Primary School Memories – Past Habits (Used to / Would)",
+  "summary": "Students explore English structures for past habits (used to, would) while revisiting school‑life vocabulary (queue up, flag‑raising, bully, weep). Activities include gap‑fills, sentence matching, and personal writing, preparing them for a debate on primary‑school memories.",
+  "lesson": "## Learning Context\nThe English Club at Lycée Moderne Bonoua will debate *Primary School Memories*. 3ème students prepare by discussing past habits and actions using **used to** and **would**.\n\n## Vocabulary\n- **queue up** – line up\n- **flag‑raising** – ceremony of raising the national flag\n- **national anthem** – *l’Abidjanaise*\n- **bully** – to intimidate or hurt\n- **weep** – to cry\n\n## Grammar\n### Used to\n- *used to + base verb* (past habit)  \n- Negative: *didn’t use to*\n- Question: *Did you use to …?*\n### Would (past habitual)\n- *would + base verb* (repeated past action)\n- Often used with time markers (every day, at lunch)\n\n## Practice Activities\n### Activity 1 – Gap‑fill\nComplete the sentences with the correct word from the box: **queue up, flag‑raising, national anthem, bully, memories**.\n1. Every morning, we **queue up** before entering class.\n2. We all assembled in the school yard for **_____** every Monday.\n3. At a signal from the headmaster, all pupils started singing the **_____**.\n4. The bigger boys **_____** the smaller ones.\n5. I still remember many things from primary school. Some of these **_____** are really good.\n\n### Activity 2 – “Used to” sentences\nChoose three past actions you no longer do and write sentences with *used to* (e.g., *I used to bring presents to bullies*).\n\n### Activity 3 – Sentence matching (Column A ↔ Column B)\n1‑5 in A with a‑e in B to form complete sentences.\n\n### Activity 4 – “Would” paragraph (fill‑in)\nComplete the paragraph with: **compulsory, stand to attention, snatch away, cherish, whipped**.\n\n### Activity 5 – Reorder words\nCreate meaningful sentences from the scrambled words (examples provided).\n\n### Activity 6 – Matching (A ↔ B)\nCombine sentence halves to describe past school situations.\n\n## Communication Task\nStudents role‑play a conversation in Accra, describing their favourite primary‑school memory and asking peers about theirs, using *used to* and *would*.\n\n## Assessment\nStudents will be evaluated on correct use of the target structures, accurate vocabulary, and ability to convey past habits fluently.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "anglais",
+    "troisieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Which sentence correctly uses *used to* for a past habit?",
+      "options": [
+        "I used to go to school yesterday",
+        "She used to play marbles when she was five",
+        "Did you used to eat pizza?",
+        "We didn’t use to study yesterday"
+      ],
+      "answer": 1,
+      "explanation": "\"She used to play marbles when she was five\" expresses a past habit correctly."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "The sentence \"Did you use to steal your mother’s money?\" is grammatically correct.",
+      "answer": true,
+      "explanation": "The question form is \"Did you use to…?\" (no -s after use)."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Complete: Every Monday morning, we ______ the national anthem.",
+      "answer": "sing",
+      "explanation": "The verb \"sing\" fits the context of a habitual action."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "What does *queue up* mean?",
+      "options": [
+        "to argue",
+        "to line up",
+        "to run away",
+        "to study"
+      ],
+      "answer": 1,
+      "explanation": "*Queue up* means to form a line."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "*Would* can be used to talk about a single past event that happened only once.",
+      "answer": false,
+      "explanation": "*Would* is used for repeated or habitual past actions, not a single occurrence."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Negative form of \"used to\" for the verb *play*: I _______ play video games after school.",
+      "answer": "didn’t use to",
+      "explanation": "The correct negative is \"didn’t use to\"."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Which word completes the sentence: \"The flag‑raising ceremony was ______ for all the students.\"",
+      "options": [
+        "optional",
+        "compulsory",
+        "optional",
+        "mandatory"
+      ],
+      "answer": 1,
+      "explanation": "The lesson states the ceremony was *compulsory*."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "\"The big boys would snatch our food away at lunch time\" uses *would* correctly.",
+      "answer": true,
+      "explanation": "The sentence shows a repeated past action."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Match the column: 3‑_____ (Column A) with e‑_____ (Column B).",
+      "answer": "Every Monday morning, we used to – sing the national anthem",
+      "explanation": "Column A 3 matches with B e."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Which of the following is NOT a past‑habit verb in the lesson?",
+      "options": [
+        "used to",
+        "would",
+        "is",
+        "did"
+      ],
+      "answer": 2,
+      "explanation": "\"is\" expresses present state, not past habit."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "\"I used to be a bully\" is a correct use of *used to* for a past habit.",
+      "answer": true,
+      "explanation": "It correctly describes a former habit."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Write a sentence with *would* about playing in the school yard.",
+      "answer": "We would play in the school yard every day.",
+      "explanation": "The sentence shows a repeated past action."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "In the sentence \"The teacher would ______ the culpable,\" which word fits best?",
+      "options": [
+        "cherish",
+        "snatch away",
+        "whipped",
+        "stand to attention"
+      ],
+      "answer": 2,
+      "explanation": "The context is that the teacher would *whip* the culprit."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "\"Did you use to queue up before entering class?\" is a correct question form.",
+      "answer": true,
+      "explanation": "The question correctly uses \"Did you use to…?\""
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Complete the phrase: \"I still ______ many things from primary school.\"",
+      "answer": "remember",
+      "explanation": "\"remember\" fits the meaning of recalling memories."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Which activity asks students to write three sentences with *used to*?",
+      "options": [
+        "Activity 1",
+        "Activity 2",
+        "Activity 3",
+        "Activity 4"
+      ],
+      "answer": 1,
+      "explanation": "Activity 2 requires three *used to* sentences."
+    },
+    {
+      "id": "q17",
+      "type": "truefalse",
+      "prompt": "The phrase \"to stand to attention\" means to move around freely.",
+      "answer": false,
+      "explanation": "It means to stand still, motionless."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "prompt": "What is the national anthem of Côte d’Ivoire called?",
+      "answer": "l’Abidjanaise",
+      "explanation": "The lesson notes the anthem is *l’Abidjanaise*."
+    }
+  ]
+}

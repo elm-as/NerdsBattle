@@ -1,0 +1,150 @@
+{
+  "id": "svt-seconde-l2-formation-des-roches-sedimentaires-s",
+  "subjectId": "svt",
+  "levelId": "seconde",
+  "slug": "l2-formation-des-roches-sedimentaires-s",
+  "title": "Formation des roches sédimentaires – Leçon de SVT – Seconde",
+  "summary": "Cette leçon vise à faire comprendre aux élèves de seconde comment les produits d’altération des roches magmatiques se transforment en roches sédimentaires consolidées. Elle introduit les concepts de sédimentation, de transport, de dépôt et de lithification à travers une expérience pratique avec kaolin, sable, grès et arène granitique. Les objectifs spécifiques sont de déterminer le mode de sédimentation, citer des roches sédimentaires et expliquer le mécanisme de formation consolidée.",
+  "lesson": "# Formation des roches sédimentaires\n\n## Objectif général\nComprendre le mécanisme de la formation de roches sédimentaires consolidées.\n\n## Niveau & Durée\n- Niveau : Seconde C\n- Durée : 1 séance de 2 h\n\n## Matériel\n- Argile, sable, grès, conglomérat\n- Béchers, balance, masses marquées\n- Éprouvette graduée, eau, arène granitique\n- Texte, planche, rétroprojecteur, transparent\n\n## Déroulement de la leçon\n1. **Motivation** : Présentation d’une roche sédimentaire (kaolin) et rappel des produits d’altération des roches magmatiques.\n2. **Problématique** : Comment les produits d’altération se transforment‑ils en d’autres roches ?\n3. **Observation** : Analyse de la kaolinite (composition, origine, constat).\n4. **Hypothèses** : Les produits d’altération se transforment en roches après transport et dépôt.\n5. **Expérience** : Agitation d’une éprouvette contenant eau et arène granitique, observation du dépôt gradué.\n6. **Analyse** : Observation de la stratification (grosses, moyennes, fines) et interprétation de la lithification.\n7. **Synthèse** : Récapitulatif des étapes de la formation des roches sédimentaires consolidées.\n\n## Points clés\n- **Sédimentation** : dépôt gradué selon la taille des grains.\n- **Lithification** : compaction et cimentation des grains déposés.\n- **Roches sédimentaires** : kaolin, grès, conglomérat, siltstone, etc.\n- **Produit d’altération** : argile, sable, grès issus de l’érosion des roches magmatiques.\n\n## Réflexion finale\nLes élèves doivent être capables de décrire le processus complet, de citer des exemples et de proposer des hypothèses sur la formation de roches sédimentaires consolidées.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "svt",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le principal constituant de la kaolinite présentée en classe ?",
+      "options": [
+        "Argile",
+        "Sable",
+        "Grès",
+        "Conglomérat"
+      ],
+      "answer": 0,
+      "explanation": "La kaolinite est une roche sédimentaire composée majoritairement d’argile."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel matériel est utilisé pour mesurer la masse des échantillons ?",
+      "options": [
+        "Balance",
+        "Éprouvette graduée",
+        "Béchers",
+        "Rétroprojecteur"
+      ],
+      "answer": 0,
+      "explanation": "La balance permet de mesurer la masse des échantillons."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Les produits d’altération se déposent d’abord selon leur ___.",
+      "answer": "masse",
+      "explanation": "Les grains plus lourds se déposent en premier, suivis des grains plus fins."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel phénomène explique la séparation graduée des grains dans l’expérience ?",
+      "options": [
+        "Diffusion",
+        "Adhésion",
+        "Gravité",
+        "Érosion"
+      ],
+      "answer": 2,
+      "explanation": "La gravité entraîne la séparation graduée des grains selon leur densité."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel type de roche sédimentaire est formé par la cimentation de grains de sable ?",
+      "options": [
+        "Grès",
+        "Conglomérat",
+        "Kaolin",
+        "Siltstone"
+      ],
+      "answer": 0,
+      "explanation": "Le grès est une roche sédimentaire constituée de grains de sable cimentés."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quelle étape suit l’analyse des résultats de l’expérience ?",
+      "options": [
+        "Interprétation",
+        "Observation",
+        "Expérience",
+        "Conclusion"
+      ],
+      "answer": 1,
+      "explanation": "Après l’observation, les élèves interprètent les résultats."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel terme désigne la répartition des grains selon leur taille ?",
+      "options": [
+        "Sédimentation",
+        "Lithification",
+        "Stratification",
+        "Granulation"
+      ],
+      "answer": 2,
+      "explanation": "La stratification est la répartition graduée des grains."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel est le rôle de l’arène granitique dans l’expérience ?",
+      "options": [
+        "Cimenter les grains",
+        "Agiter l’eau",
+        "Simuler le dépôt",
+        "Mesurer la densité"
+      ],
+      "answer": 2,
+      "explanation": "L’arène granitique sert à simuler le dépôt des grains dans l’éprouvette."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel type de roche sédimentaire est caractérisé par des fragments grossiers ?",
+      "options": [
+        "Conglomérat",
+        "Grès",
+        "Kaolin",
+        "Siltstone"
+      ],
+      "answer": 0,
+      "explanation": "Le conglomérat est composé de fragments grossiers cimentés."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "La lithification est le processus de ___.",
+      "answer": "consolidation",
+      "explanation": "La lithification consolide les grains déposés en roche solide."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel instrument est utilisé pour observer l’échantillon de roche ?",
+      "options": [
+        "Rétroprojecteur",
+        "Transparent",
+        "Planche",
+        "Béchers"
+      ],
+      "answer": 0,
+      "explanation": "Le rétroprojecteur permet d’observer l’échantillon en détail."
+    }
+  ]
+}

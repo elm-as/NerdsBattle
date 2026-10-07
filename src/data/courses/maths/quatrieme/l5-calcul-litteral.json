@@ -1,0 +1,167 @@
+{
+  "id": "maths-quatrieme-l5-calcul-litteral",
+  "subjectId": "maths",
+  "levelId": "quatrieme",
+  "slug": "l5-calcul-litteral",
+  "title": "Calcul littéral – 4ᵉ (MENA Côte d’Ivoire)",
+  "summary": "Apprentissage des expressions littérales, priorité des opérations, suppression de parenthèses, développements et produits remarquables. La leçon propose définitions, règles, exemples et exercices corrigés pour consolider les compétences de calcul algébrique en classe de 4ᵉ.",
+  "lesson": "## A. Situation d’apprentissage\nUne élève de 4ᵉ possède 1 000 F et ajoute chaque mois 200 F. Elle veut une formule du type **S(n)=1000+200 n** pour connaître son épargne au nᵉ mois.\n\n## B. Contenu de la leçon\n### I. Expressions littérales\n- **Définition** : une expression contenant une ou plusieurs lettres.\n- **Valeur numérique** : remplacer chaque lettre par la valeur donnée.\n- **Règle d’écriture** : on omet le signe « × » devant une lettre ou une parenthèse.\n- **Suppression de parenthèses**\n  - *Règle 1* : si la parenthèse est précédée de « + » ou n’a aucun signe, on enlève les parenthèses sans changer les signes.\n  - *Règle 2* : si la parenthèse est précédée de « ‑ », on change les signes à l’intérieur.\n- **Priorité des opérations** :\n  1. Parenthèses\n  2. Puissances\n  3. Multiplications et divisions\n  4. Additions et soustractions\n\n### II. Développement et réduction d’un produit\n- **Développer** : transformer un produit en somme.\n- **Formules** :\n  - a(x+y)=ax+ay ; a(x‑y)=ax‑ay\n  - (a+b)(x+y)=ax+ay+bx+by\n- **Produits remarquables** : (a+b)² = a²+2ab+b²\n\n### Exercices de fixation (corrigés dans le document)\n1. Valeur de A=3x+4 pour x=5 → 19.\n2. Valeur de E=a‑5b pour a=7, b=1 → 2.\n3. Suppression de parenthèses, priorité des opérations, développements de produits simples et composés.\n\n**Objectif** : maîtriser la manipulation d’expressions littérales et être capable de rédiger et simplifier des formules algébriques.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la formule qui donne le montant d’épargne après n mois ?",
+      "options": [
+        "S(n)=1000+200n",
+        "S(n)=200+1000n",
+        "S(n)=1000‑200n",
+        "S(n)=200n"
+      ],
+      "answer": 0,
+      "explanation": "On ajoute 200 F chaque mois à la somme initiale de 1000 F : S(n)=1000+200n."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Dans l’expression 2x on peut écrire 2×x.",
+      "answer": false,
+      "explanation": "Le signe de multiplication est omis devant une lettre : on écrit 2x, pas 2×x."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Donnez la valeur numérique de l’expression A=3x+4 pour x=5.",
+      "answer": "19",
+      "explanation": "3×5+4=15+4=19."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Après suppression des parenthèses, quelle est l’expression équivalente de (2‑3a+b)+(‑m+t)‑x ?",
+      "options": [
+        "2‑3a+b‑m+t‑x",
+        "2‑3a+b‑m‑t‑x",
+        "2‑3a+b+m‑t‑x",
+        "2‑3a‑b‑m+t‑x"
+      ],
+      "answer": 0,
+      "explanation": "On enlève les parenthèses sans changer les signes car elles sont précédées de + ou n’ont aucun signe."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Dans la somme algébrique x‑(3a‑b)‑(‑m+t‑y) le signe devant chaque terme du deuxième groupe doit être inversé.",
+      "answer": true,
+      "explanation": "Le signe «‑» devant une parenthèse impose l’inversion de tous les signes à l’intérieur."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Simplifiez l’expression x‑(3a‑b)‑(‑m+t‑y).",
+      "answer": "x‑3a+b+m‑t+y",
+      "explanation": "En appliquant la règle 2, on obtient x‑3a+b+m‑t+y."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel est le résultat de la somme algébrique X=43+8(1‑3/4)‑6×2/3‑3 ?",
+      "options": [
+        "59",
+        "61",
+        "57",
+        "55"
+      ],
+      "answer": 0,
+      "explanation": "8×1/4=2 ; 6×2/3=4 ; 43+2‑4‑3=59."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Dans le produit 5(x+7) on doit d’abord multiplier 5 par 7 puis ajouter 5x.",
+      "answer": false,
+      "explanation": "On distribue 5 à chaque terme : 5x+35."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Développez le produit (x+5)(y+3).",
+      "answer": "xy+3x+5y+15",
+      "explanation": "Application de (a+b)(c+d)=ac+ad+bc+bd."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est le développement de (3x+2)(2y‑1) ?",
+      "options": [
+        "6xy‑3x+4y‑2",
+        "6xy+3x‑4y‑2",
+        "6xy‑3x‑4y+2",
+        "6xy+3x+4y+2"
+      ],
+      "answer": 0,
+      "explanation": "(3x)(2y)=6xy ; (3x)(‑1)=‑3x ; (2)(2y)=4y ; (2)(‑1)=‑2."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "(a+b)² = a² + b².",
+      "answer": false,
+      "explanation": "Il manque le terme du double produit : (a+b)² = a²+2ab+b²."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Écrivez la forme développée de (a+b)².",
+      "answer": "a^2+2ab+b^2",
+      "explanation": "Produit remarquable."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel ordre d’opérations doit‑on suivre pour calculer 7×3²‑2(5+1/2)+4 ?",
+      "options": [
+        "Puissances → Multiplications → Parenthèses → Additions",
+        "Parenthèses → Puissances → Multiplications → Additions",
+        "Multiplications → Parenthèses → Puissances → Additions",
+        "Parenthèses → Multiplications → Puissances → Additions"
+      ],
+      "answer": 1,
+      "explanation": "On commence par les parenthèses, puis les puissances, ensuite les multiplications/divisions, enfin les additions/soustractions."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Dans l’expression 2( x‑7) le symbole de multiplication doit être écrit explicitement.",
+      "answer": false,
+      "explanation": "Le symbole de multiplication est omis devant la parenthèse : on écrit 2(x‑7)."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Donnez la valeur numérique de E=a‑5b pour a=7 et b=1.",
+      "answer": "2",
+      "explanation": "7‑5×1=2."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel est le résultat de la suppression des parenthèses dans l’expression (‑7+a)+(b‑3+c) ?",
+      "options": [
+        "‑7+a+b‑3+c",
+        "‑7‑a+b‑3‑c",
+        "‑7+a‑b+3‑c",
+        "‑7‑a‑b+3+c"
+      ],
+      "answer": 0,
+      "explanation": "Les parenthèses sont précédées de +, on enlève simplement les parenthèses."
+    }
+  ]
+}

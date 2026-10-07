@@ -1,0 +1,184 @@
+{
+  "id": "physique-sixieme-j-allume-une-ampoule-electrique-pour-decouvrir-u",
+  "subjectId": "physique",
+  "levelId": "sixieme",
+  "slug": "j-allume-une-ampoule-electrique-pour-decouvrir-u",
+  "title": "Je commande un circuit électrique : interrupteurs et commutateurs",
+  "summary": "Découvre comment allumer, éteindre et commander une lampe avec des interrupteurs, boutons poussoirs et commutateurs. Apprends à schématiser un circuit électrique et à réaliser un montage va-et-vient.",
+  "lesson": "## Introduction\n\nDans cette leçon, tu vas apprendre à commander un circuit électrique pour allumer ou éteindre une lampe. Tu découvriras les organes de commande comme l'interrupteur simple, le bouton poussoir et le commutateur. Tu apprendras aussi à schématiser un circuit et à réaliser un montage va-et-vient.\n\n## 1. Définitions et notions clés\n\n- **Circuit électrique** : ensemble d'éléments reliés par des fils de connexion permettant le passage du courant électrique.\n- **Circuit fermé** : circuit dans lequel le courant peut circuler (la lampe brille).\n- **Circuit ouvert** : circuit dans lequel le courant ne circule pas (la lampe est éteinte).\n- **Conducteur électrique** : objet qui se laisse traverser par le courant électrique (ex : fer, pièce d'argent).\n- **Isolant électrique** : objet qui ne se laisse pas traverser par le courant électrique (ex : plastique, bois sec).\n- **Organes de commande** :\n  - **Interrupteur simple** : permet d'ouvrir ou de fermer le circuit de façon permanente.\n  - **Bouton poussoir** : permet de fermer le circuit momentanément (il faut maintenir la pression).\n  - **Commutateur** : permet de diriger le courant vers un circuit ou un autre (allumage alterné de deux lampes).\n- **Montage va-et-vient** : montage permettant d'allumer ou d'éteindre une lampe depuis deux endroits différents à l'aide de deux commutateurs.\n\n## 2. Applications et méthodes\n\n### 2.1. Allumer une ampoule avec une pile\n\n- **Avec une pile plate** : mettre une borne de la pile en contact avec le culot de l'ampoule et l'autre borne avec le plot central.\n- **Avec une pile ronde** : utiliser des fils de connexion pour relier les deux bornes de l'ampoule aux deux bornes de la pile.\n\n### 2.2. Symboles normalisés\n\n| Élément | Symbole |\n|--------|---------|\n| Pile | —| |— (grand trait = +, petit trait = -) |\n| Ampoule | ⊗ |\n| Fil de connexion | ligne droite |\n| Interrupteur simple | —/ — |\n| Bouton poussoir | —( )— |\n| Commutateur | —/ — avec deux directions |\n\n### 2.3. Schématiser un circuit simple allumage\n\n1. Placer la pile.\n2. Relier une borne de la pile à l'interrupteur.\n3. Relier l'interrupteur à l'ampoule.\n4. Relier l'ampoule à l'autre borne de la pile.\n\n### 2.4. Distinguer conducteurs et isolants\n\n- **Conducteurs** : fer, argent, cuivre, etc.\n- **Isolants** : plastique, bois sec, verre, etc.\n\n### 2.5. Réaliser un montage va-et-vient\n\n- Utiliser deux commutateurs à deux directions.\n- Relier les bornes des deux commutateurs entre elles par deux fils.\n- Relier la lampe et la pile aux bornes restantes.\n\n## 3. Pièges fréquents\n\n- **Confondre interrupteur simple et bouton poussoir** : le bouton poussoir ne reste pas enclenché, il faut le maintenir.\n- **Oublier de fermer le circuit** : si le circuit est ouvert, la lampe ne brille pas.\n- **Mauvais branchement de la pile** : respecter les bornes + et -.\n- **Utiliser un isolant comme fil de connexion** : le courant ne passe pas.\n- **Schématiser sans respecter les symboles** : utiliser les symboles normalisés.\n\n## Synthèse\n\nPour commander un circuit électrique, on utilise des organes de commande : interrupteur simple, bouton poussoir ou commutateur. Un circuit doit être fermé pour que le courant circule. Les conducteurs laissent passer le courant, les isolants non. Le montage va-et-vient permet de commander une lampe depuis deux endroits différents.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel organe de commande permet d'allumer ou d'éteindre une lampe de façon permanente ?",
+      "options": [
+        "Bouton poussoir",
+        "Interrupteur simple",
+        "Commutateur",
+        "Pile"
+      ],
+      "answer": 1,
+      "explanation": "L'interrupteur simple permet d'ouvrir ou de fermer le circuit de façon permanente."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel matériau est un isolant électrique ?",
+      "options": [
+        "Fer",
+        "Argent",
+        "Plastique",
+        "Cuivre"
+      ],
+      "answer": 2,
+      "explanation": "Le plastique est un isolant ; le fer, l'argent et le cuivre sont des conducteurs."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Un circuit dans lequel le courant circule est un circuit ............",
+      "answer": "fermé",
+      "explanation": "Un circuit fermé permet au courant de circuler."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel organe de commande permet un allumage momentané ?",
+      "options": [
+        "Interrupteur simple",
+        "Bouton poussoir",
+        "Commutateur",
+        "Fil de connexion"
+      ],
+      "answer": 1,
+      "explanation": "Le bouton poussoir ne ferme le circuit que tant qu'on appuie dessus."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel est le symbole normalisé d'une ampoule ?",
+      "options": [
+        "⊗",
+        "—| |—",
+        "—/ —",
+        "—( )—"
+      ],
+      "answer": 0,
+      "explanation": "Le symbole de l'ampoule est un cercle avec une croix : ⊗."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Un objet qui ne se laisse pas traverser par le courant électrique est un ............",
+      "answer": "isolant",
+      "explanation": "Un isolant ne conduit pas le courant électrique."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Avec une pile plate, comment brancher une ampoule pour qu'elle s'allume ?",
+      "options": [
+        "Relier le culot au plot central",
+        "Mettre une borne de la pile sur le culot et l'autre sur le plot central",
+        "Utiliser un isolant",
+        "Relier les deux bornes de la pile entre elles"
+      ],
+      "answer": 1,
+      "explanation": "Il faut mettre une borne de la pile en contact avec le culot et l'autre avec le plot central."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel organe de commande permet de diriger le courant vers deux circuits différents ?",
+      "options": [
+        "Interrupteur simple",
+        "Bouton poussoir",
+        "Commutateur",
+        "Pile"
+      ],
+      "answer": 2,
+      "explanation": "Le commutateur permet de diriger le courant vers un circuit ou un autre."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Pour schématiser un circuit, on utilise des ............ normalisés.",
+      "answer": "symboles",
+      "explanation": "On utilise les symboles normalisés des éléments du circuit."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel élément est nécessaire pour réaliser un montage va-et-vient ?",
+      "options": [
+        "Un interrupteur simple",
+        "Un bouton poussoir",
+        "Deux commutateurs",
+        "Une seule lampe"
+      ],
+      "answer": 2,
+      "explanation": "Le montage va-et-vient nécessite deux commutateurs."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel objet testé dans l'expérience a allumé la lampe ?",
+      "options": [
+        "Règle en plastique",
+        "Pointe en fer",
+        "Morceau de bois sec",
+        "Gomme"
+      ],
+      "answer": 1,
+      "explanation": "La pointe en fer est un conducteur, donc la lampe s'allume."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Un interrupteur simple permet d'ouvrir ou de fermer le circuit de façon ............",
+      "answer": "permanente",
+      "explanation": "L'interrupteur simple reste dans la position choisie."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quel est le rôle d'un fil de connexion ?",
+      "options": [
+        "Isoler le circuit",
+        "Relier les éléments du circuit",
+        "Commander le circuit",
+        "Produire le courant"
+      ],
+      "answer": 1,
+      "explanation": "Le fil de connexion relie les différents éléments du circuit."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Quel est le symbole normalisé d'un interrupteur simple ?",
+      "options": [
+        "⊗",
+        "—| |—",
+        "—/ —",
+        "—( )—"
+      ],
+      "answer": 2,
+      "explanation": "Le symbole de l'interrupteur simple est une ligne brisée avec un point : —/ —."
+    },
+    {
+      "id": "q20",
+      "type": "fill",
+      "prompt": "Pour allumer une ampoule avec une pile ronde, on utilise des ............ de connexion.",
+      "answer": "fils",
+      "explanation": "On utilise des fils de connexion pour relier les bornes de l'ampoule à celles de la pile."
+    }
+  ]
+}

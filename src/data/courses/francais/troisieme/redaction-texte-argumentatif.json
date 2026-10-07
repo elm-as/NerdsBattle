@@ -1,0 +1,70 @@
+{
+  "id": "francais-troisieme-redaction-texte-argumentatif",
+  "title": "Production écrite : le texte argumentatif",
+  "summary": "Maîtrisez l'art de convaincre et de persuader à travers le texte argumentatif, une compétence clé pour le BEPC et la vie citoyenne. Apprenez à structurer vos idées, à utiliser des arguments solides et à éviter les pièges courants pour réussir brillamment votre rédaction.",
+  "lesson": "## Introduction & Mise en situation\n\nLe texte argumentatif est partout : dans les débats, les publicités, les discours politiques, les lettres de motivation... Savoir défendre une opinion de manière claire et structurée est essentiel pour réussir son BEPC, mais aussi pour s'affirmer dans la vie. Ce chapitre vous donne les clés pour construire un texte argumentatif efficace et convaincant.\n\n## 1. Définitions et Principes Fondamentaux\n\n**Qu'est-ce qu'un texte argumentatif ?**\nC'est un texte qui vise à **convaincre** (faire appel à la raison) et/ou à **persuader** (faire appel aux émotions) le lecteur de partager une opinion ou une thèse. Il s'oppose au texte narratif (raconter) ou descriptif (décrire).\n\n**La structure de base :**\n- **Thèse** : l'opinion défendue (la réponse à la question posée).\n- **Arguments** : les raisons qui soutiennent la thèse. Chaque argument est souvent appuyé par un **exemple**.\n- **Connecteurs logiques** : mots de liaison qui organisent le raisonnement (d'abord, ensuite, enfin, mais, cependant, donc...).\n\n**Modèle mathématique de la说服 :**\nOn peut schématiser la force d'un texte argumentatif par la formule : $$\\text{Force} = \\sum_{i=1}^{n} (\\text{Argument}_i + \\text{Exemple}_i) \\times \\text{Clarté}$$\nPlus vos arguments sont nombreux et bien illustrés, plus votre texte est convaincant. La clarté est un facteur multiplicateur : un texte confus perd toute sa force.\n\n## 2. Propriétés et Méthodes d'application\n\n**Méthode en 4 étapes :**\n\n1. **Analyser le sujet** : Lisez attentivement le sujet. Repérez les mots-clés (pensez-vous que... ? Êtes-vous d'accord avec... ?) et la consigne (développez, argumentez...).\n2. **Choisir sa thèse** : Prenez position clairement. Vous pouvez être pour, contre, ou nuancé.\n3. **Chercher des arguments** : Notez toutes les idées qui viennent, puis sélectionnez les 2 ou 3 plus solides. Pour chaque argument, trouvez un exemple précis (fait historique, expérience personnelle, citation...).\n4. **Rédiger en suivant un plan** :\n   - **Introduction** : Amorce (phrase d'accroche), énoncé du sujet, annonce du plan.\n   - **Développement** : Un paragraphe par argument. Chaque paragraphe suit un schéma : **argument** → **exemple** → **explication**.\n   - **Conclusion** : Rappel de la thèse, résumé des arguments, ouverture (élargissement du débat).\n\n**Exemple concret :**\nSujet : « Pensez-vous que les réseaux sociaux sont une bonne chose pour les jeunes ? »\n- Thèse : Oui, mais avec des limites.\n- Argument 1 : Ils permettent de rester en contact avec ses amis. Exemple : Un adolescent qui déménage peut garder le lien avec ses anciens camarades.\n- Argument 2 : Ils offrent un accès à l'information. Exemple : Des pages éducatives partagent des vidéos de cours.\n- Argument 3 : Cependant, ils peuvent créer une dépendance. Exemple : Certains jeunes passent des heures à scroller au lieu de travailler.\n\n**Utilisation des connecteurs logiques :**\n- Pour ajouter : *d'abord, ensuite, de plus, en outre*\n- Pour opposer : *mais, cependant, toutefois, en revanche*\n- Pour conclure : *donc, ainsi, en conclusion, pour conclure*\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Hors-sujet** : Ne pas répondre à la question posée. → Toujours relire le sujet et vérifier que chaque argument y répond.\n- **Arguments sans exemples** : Affirmer sans prouver affaiblit votre texte. → Chaque argument doit être illustré.\n- **Mélanger les paragraphes** : Passer d'une idée à l'autre sans transition. → Utilisez un paragraphe par idée et des connecteurs.\n- **Oublier la conclusion** : La conclusion est obligatoire. → Prévoyez du temps pour la rédiger.\n- **Confondre convaincre et persuader** : Ne pas confondre raison et émotion. Un bon texte peut faire les deux, mais il faut être conscient de l'effet recherché.\n\n## Synthèse\n\n1. **Structure** : Un texte argumentatif comporte une introduction, un développement (2-3 arguments avec exemples) et une conclusion.\n2. **Méthode** : Analyser le sujet, choisir sa thèse, chercher des arguments et des exemples, puis rédiger avec des connecteurs logiques.\n3. **Qualité** : Clarté, logique et exemples précis sont les clés de la persuasion.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "argumentation",
+    "rédaction",
+    "BEPC",
+    "persuasion",
+    "français"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la fonction principale d'un texte argumentatif ?",
+      "options": [
+        "Raconter une histoire",
+        "Décrire un lieu",
+        "Convaincre ou persuader le lecteur",
+        "Donner des instructions"
+      ],
+      "answer": 2,
+      "explanation": "Le texte argumentatif vise à convaincre (raison) ou persuader (émotion) le lecteur d'adopter une opinion."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Un texte argumentatif doit contenir des exemples pour appuyer les arguments.",
+      "answer": true,
+      "explanation": "Les exemples rendent les arguments concrets et plus convaincants."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Dans un texte argumentatif, l'opinion défendue s'appelle la ______.",
+      "answer": "thèse",
+      "explanation": "La thèse est la position que l'auteur défend."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la structure typique d'un paragraphe argumentatif ?",
+      "options": [
+        "Exemple - Argument - Explication",
+        "Argument - Exemple - Explication",
+        "Explication - Argument - Exemple",
+        "Argument - Explication - Exemple"
+      ],
+      "answer": 1,
+      "explanation": "On commence par l'argument, puis on donne un exemple, et on explique en quoi l'exemple prouve l'argument."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La conclusion d'un texte argumentatif doit introduire de nouveaux arguments.",
+      "answer": false,
+      "explanation": "La conclusion résume la thèse et les arguments, et peut ouvrir sur une perspective, mais elle n'introduit pas de nouveaux arguments."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Quel mot de liaison utilise-t-on pour introduire une opposition ? (exemple : '______, certains pensent que...')",
+      "answer": "cependant",
+      "explanation": "Des connecteurs comme 'cependant', 'toutefois', 'en revanche' introduisent une opposition."
+    }
+  ]
+}

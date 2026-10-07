@@ -1,0 +1,126 @@
+{
+  "id": "physique-quatrieme-l4-qualite-de-leau",
+  "subjectId": "physique",
+  "levelId": "quatrieme",
+  "slug": "l4-qualite-de-leau",
+  "title": "Qualité de l'eau potable – Leçon de Physique-Chimie 4ème",
+  "summary": "Cette leçon introduit les paramètres de qualité de l'eau, les normes de l'OMS, l'identification des ions responsables de la dureté et la réalisation d'expériences simples pour détecter Ca²⁺, SO₄²⁻ et Cl⁻. Elle souligne l'importance des ions dans l'alimentation et la nécessité de vérifier la potabilité de l'eau.",
+  "lesson": "# Qualité de l'eau potable\n\n## I. Situation d’apprentissage\nLa famille d’un élève de 4ᵉ ne boit que de l’eau minérale. Sous la supervision du professeur, les élèves décident de connaître les critères de potabilité, d’identifier une eau potable à partir de sa composition et d’indiquer l’importance de quelques ions.\n\n## II. Contenu de la leçon\n\n### 1. Paramètres de qualité de l’eau\n- **Organoleptiques** : couleur, transparence, saveur, odeur (pas de valeur sanitaire directe).\n- **Physico-chimiques** : pouvoir de dilution, pH, taux d’oxygène, dureté, etc.\n- **Substances toxiques** : métaux lourds (plomb, chrome, etc.).\n\n### 2. Notion de l’eau potable\n- **Définition** : eau pouvant être consommée sans danger, respectant les normes de l’OMS.\n- **Normes OMS** (extraits) :\n  - pH : 6,5 < pH < 8,5\n  - Conductivité : 500 µS/cm\n  - Chlore résiduel : 5 mg/L\n  - Sulfates : 500 mg/L\n  - Chlorures : 200 mg/L\n  - Fer (Fe²⁺) : 0,3 mg/L\n  - Magnésium : 50 mg/L\n  - Manganèse (Mn²⁺) : 0,5 mg/L\n  - Nitrates : 50 mg/L\n  - Ammonium (NH₄⁺) : 0,5 mg/L\n  - Nitrites : 0,2 mg/L\n\n### 3. Étiquette d’eau minérale AWA\n| Ion | mg/L |\n|-----|------|\n| Calcium | 52,00 |\n| Magnésium | 2,82 |\n| Potassium | 3,60 |\n| Sodium | 18,50 |\n| Bicarbonate | 264,70 |\n| Sulfate | 6,20 |\n| Chlorure | 8,50 |\n| Nitrate | 0,0 |\n\n### 4. Dureté de l’eau\n- **Ion responsable** : Ca²⁺.\n- **Tableau de dureté** :\n  - 0‑28 mg/L Ca²⁺ → très douce (0‑7 degrés)\n  - 28‑60 mg/L Ca²⁺ → douce (7‑15 degrés)\n  - 60‑120 mg/L Ca²⁺ → plutôt dure (15‑30 degrés)\n  - >160 mg/L Ca²⁺ → très dure (+40 degrés).\n\n### 5. Identification des ions\n- **Ca²⁺** : précipité blanc avec oxalate d’ammonium.\n- **SO₄²⁻** : précipité blanc avec chlorure de baryum.\n- **Cl⁻** : précipité blanc qui noircit à la lumière avec nitrate d’argent.\n\n### 6. Importance des ions\nLes ions présents dans l’eau potable (Ca²⁺, Mg²⁺, Na⁺, K⁺, etc.) sont essentiels à l’alimentation humaine, contribuant à la santé osseuse, au métabolisme et à l’équilibre électrolytique.\n\n## III. Activités d’application\n- Écrire la lettre correspondant à la bonne réponse sur la définition de l’eau potable.\n- Donner le nom et la formule de l’ion responsable de la dureté.\n- Mettre en évidence les observations pour Ca²⁺ et Cl⁻.\n\n## IV. Évaluation\nQuestions ci‑dessous pour vérifier la compréhension.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Une eau potable est une eau qui est :",
+      "options": [
+        "Boueuse",
+        "Limpide",
+        "Claire",
+        "Sans danger pour la santé"
+      ],
+      "answer": 3,
+      "explanation": "La définition d'eau potable exige qu'elle soit sans danger pour la santé."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le pH idéal pour l'eau potable se situe entre 6,5 et 8,5.",
+      "answer": true,
+      "explanation": "Les normes OMS fixent 6,5<pH<8,5."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le test de l'ion calcium utilise l'oxalate d'ammonium pour former un précipité de _________.",
+      "answer": "oxalate de calcium",
+      "explanation": "Ca²⁺ + C2O4²⁻ → CaC2O4 (précipité blanc)."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel ion est responsable de la dureté de l'eau ?",
+      "options": [
+        "Na⁺",
+        "Cl⁻",
+        "Ca²⁺",
+        "SO₄²⁻"
+      ],
+      "answer": 2,
+      "explanation": "La dureté est principalement due aux ions calcium."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Un précipité blanc qui noircit à la lumière indique la présence de l'ion chlorure.",
+      "answer": true,
+      "explanation": "Cl⁻ réagit avec Ag⁺ pour former AgCl, qui noircit à la lumière."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel paramètre n'est pas directement sanitaire mais est mentionné dans la leçon ?",
+      "options": [
+        "pH",
+        "Conductivité",
+        "Couleur",
+        "Taux d’oxygène"
+      ],
+      "answer": 2,
+      "explanation": "La couleur est un paramètre organoleptique sans valeur sanitaire directe."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Les métaux lourds comme le ________ ou le chrome sont considérés comme des substances toxiques dans l'eau.",
+      "answer": "plomb",
+      "explanation": "Le plomb et le chrome sont des métaux lourds toxiques."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel ion est détecté par le chlorure de baryum ?",
+      "options": [
+        "Ca²⁺",
+        "SO₄²⁻",
+        "Cl⁻",
+        "Na⁺"
+      ],
+      "answer": 1,
+      "explanation": "SO₄²⁻ réagit avec Ba²⁺ pour former BaSO₄."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "La dureté de l'eau est mesurée en degrés, où 0‑7 indique une eau très douce.",
+      "answer": true,
+      "explanation": "Le tableau de dureté classe 0‑7 degrés comme très douce."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel ion est présent en 18,50 mg/L dans l'étiquette de l'eau minérale AWA ?",
+      "options": [
+        "Calcium",
+        "Sodium",
+        "Potassium",
+        "Chlorure"
+      ],
+      "answer": 1,
+      "explanation": "L'étiquette indique 18,50 mg/L de sodium."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Le test de l'ion sulfate utilise le ________ de baryum pour former un précipité blanc.",
+      "answer": "chlorure",
+      "explanation": "SO₄²⁻ + BaCl₂ → BaSO₄ (précipité blanc)."
+    }
+  ]
+}

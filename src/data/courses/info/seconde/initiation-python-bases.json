@@ -1,0 +1,70 @@
+{
+  "id": "info-seconde-initiation-python-bases",
+  "title": "Initiation à Python : variables, types et opérations",
+  "summary": "Ce chapitre vous donne les clés pour écrire vos premiers programmes en Python, le langage le plus utilisé au monde. Vous saurez manipuler des variables, comprendre les types de données et effectuer des opérations pour résoudre des problèmes concrets.",
+  "lesson": "## Introduction & Mise en situation\n\nPython est un langage de programmation puissant et facile à apprendre, utilisé dans des domaines variés : développement web, intelligence artificielle, analyse de données, etc. En Seconde, vous allez découvrir ses bases : les variables, les types de données et les opérations. Ces notions sont le socle de tout programme. Maîtriser ces concepts vous permettra de créer des scripts simples pour automatiser des tâches, résoudre des équations ou même créer de petits jeux.\n\n## 1. Définitions et Principes Fondamentaux\n\n### Variables\n\nUne **variable** est un espace mémoire nommé qui stocke une valeur. En Python, on crée une variable en lui affectant une valeur avec le signe `=`.\n\n```python\nage = 16\nnom = \"Aya\"\n```\n\n### Types de données\n\nChaque valeur a un **type** qui détermine ce que l'on peut faire avec. Les types de base en Python sont :\n\n- **int** : nombres entiers (ex: 5, -3, 0)\n- **float** : nombres décimaux (ex: 3.14, -0.5)\n- **str** : chaînes de caractères (ex: \"Bonjour\", 'A')\n- **bool** : booléens (True ou False)\n\nOn peut connaître le type d'une variable avec la fonction `type()`.\n\n### Opérations\n\nPython supporte les opérations arithmétiques classiques :\n\n- Addition : `+`\n- Soustraction : `-`\n- Multiplication : `*`\n- Division : `/` (retourne un float)\n- Division entière : `//` (retourne un entier)\n- Modulo : `%` (reste de la division)\n- Puissance : `**`\n\nLes opérations suivent les règles de priorité mathématiques : parenthèses, exposants, multiplication/division, addition/soustraction.\n\n## 2. Propriétés et Méthodes d'application\n\n### Affectation et réaffectation\n\nOn peut changer la valeur d'une variable en la réaffectant.\n\n```python\nx = 5\nx = x + 3  # x vaut maintenant 8\n```\n\n### Opérations sur les chaînes\n\n- Concaténation : `+` (ex: \"Bonjour\" + \" \" + \"Aya\" → \"Bonjour Aya\")\n- Répétition : `*` (ex: \"Ha\" * 3 → \"HaHaHa\")\n\n### Conversion de types\n\nOn peut convertir un type en un autre avec `int()`, `float()`, `str()`, `bool()`.\n\n```python\nage = \"16\"\nage_int = int(age)  # convertit en entier\n```\n\n### Exemple concret\n\nCalculons l'aire d'un rectangle de longueur 5.2 et largeur 3.8.\n\n```python\nlongueur = 5.2\nlargeur = 3.8\naire = longueur * largeur\nprint(aire)  # affiche 19.76\n```\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Oublier les guillemets pour les chaînes** : `nom = Aya` provoque une erreur. Il faut écrire `nom = \"Aya\"`.\n- **Confondre `=` et `==`** : `=` est pour l'affectation, `==` pour la comparaison.\n- **Mélanger les types** : `\"5\" + 3` provoque une erreur. Il faut convertir : `int(\"5\") + 3`.\n- **Utiliser des noms de variables réservés** : `if`, `for`, `while` sont des mots-clés.\n- **Priorité des opérations** : sans parenthèses, `2 + 3 * 4` vaut 14, pas 20.\n\n## Synthèse\n\n1. **Variable** : un nom qui stocke une valeur (avec `=`).\n2. **Types** : int, float, str, bool – chaque type a ses opérations.\n3. **Opérations** : +, -, *, /, //, %, ** – attention aux priorités et aux conversions.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "python",
+    "programmation",
+    "variables",
+    "types",
+    "opérations"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la sortie de `print(type(3.14))` ?",
+      "options": [
+        "<class 'int'>",
+        "<class 'float'>",
+        "<class 'str'>",
+        "<class 'bool'>"
+      ],
+      "answer": 1,
+      "explanation": "3.14 est un nombre décimal, donc son type est float."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "L'expression `2 + 3 * 4` vaut 20.",
+      "answer": false,
+      "explanation": "La multiplication est prioritaire : 3 * 4 = 12, puis 2 + 12 = 14."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Quelle est la valeur de `17 % 5` ?",
+      "answer": "2",
+      "explanation": "Le modulo donne le reste de la division : 17 divisé par 5 donne 3 et il reste 2."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel type de données est `True` en Python ?",
+      "options": [
+        "int",
+        "float",
+        "str",
+        "bool"
+      ],
+      "answer": 3,
+      "explanation": "True est une valeur booléenne, donc de type bool."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "On peut concaténer deux chaînes de caractères avec le signe `+`.",
+      "answer": true,
+      "explanation": "En Python, l'opérateur + sur les chaînes effectue une concaténation."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Écris le code Python pour déclarer une variable `prenom` contenant la chaîne \"Aya\" (sans espaces inutiles).",
+      "answer": "prenom = \"Aya\"",
+      "explanation": "La syntaxe correcte est : nom_variable = valeur, avec les guillemets pour une chaîne."
+    }
+  ]
+}

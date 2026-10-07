@@ -1,0 +1,70 @@
+{
+  "id": "anglais-troisieme-reading-comprehension-bepc",
+  "title": "Reading Comprehension & BEPC Exam Practice",
+  "summary": "This lesson equips you with essential strategies to master reading comprehension, a key component of the BEPC English exam. You'll learn to identify main ideas, infer meaning, and manage your time effectively, boosting your confidence and score.",
+  "lesson": "## Introduction & Mise en situation\n\nReading comprehension is a crucial skill for the BEPC exam. It tests your ability to understand a text, extract key information, and answer questions accurately. This chapter is designed to give you a clear strategy to approach any reading passage with confidence. Whether it's a short story, an article, or a dialogue, you'll learn how to tackle it efficiently and avoid common pitfalls.\n\n## 1. Définitions et Principes Fondamentaux\n\n**Reading comprehension** is the ability to process text, understand its meaning, and integrate it with what you already know. It involves several sub-skills:\n\n- **Skimming**: Quickly reading a text to get the general idea (gist).\n- **Scanning**: Looking for specific information (names, dates, numbers) without reading every word.\n- **Main Idea**: The central point or message of a paragraph or the whole text.\n- **Supporting Details**: Facts, examples, or explanations that back up the main idea.\n- **Inference**: Reading between the lines to understand what is implied but not directly stated.\n- **Vocabulary in Context**: Guessing the meaning of unknown words from surrounding words.\n\n**Key Formula for Main Idea**: \n$$\\text{Main Idea} = \\text{What the text is mostly about}$$\n\n## 2. Propriétés et Méthodes d'application\n\n### Step-by-Step Method for Approaching a Text\n\n1. **Preview the Text**: Read the title, headings, and any bold or italicized words to get a sense of the topic.\n2. **Skim for Gist**: Read the first and last paragraphs, and the first sentence of each paragraph. This gives you the overall structure.\n3. **Scan for Specifics**: When you see a question, scan for keywords (e.g., names, dates) to locate the relevant part.\n4. **Read Carefully**: Once you find the relevant section, read it slowly and carefully to understand the details.\n5. **Answer the Questions**: Use the text to support your answers. For inference questions, think about what the author is implying.\n6. **Manage Your Time**: Allocate about 15-20 minutes for the reading section. Don't spend too long on one question.\n\n### Example\n\n**Text**: \"The Amazon rainforest is often called the 'lungs of the Earth' because it produces 20% of the world's oxygen. However, deforestation is destroying this vital ecosystem at an alarming rate.\"\n\n**Question**: What is the main idea of this passage?\n- A) The Amazon is a beautiful place.\n- B) The Amazon is important and in danger.\n- C) Deforestation is good for the economy.\n\n**Answer**: B) The Amazon is important and in danger. The text highlights its role in oxygen production and the threat of deforestation.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Pitfall 1: Choosing an answer that is true but not the main idea.** Always ask: \"Is this the most important point?\"\n- **Pitfall 2: Ignoring context clues for unknown words.** Don't skip them; try to guess from the surrounding text.\n- **Pitfall 3: Rushing through the text.** You may miss key details. Skim first, then read carefully.\n- **Pitfall 4: Misinterpreting inference questions.** Remember, inference is about what is implied, not directly stated.\n- **Pitfall 5: Not managing time.** Spend too long on one question and you may run out of time.\n\n## Synthèse\n\n1. **Skim and Scan**: Use these techniques to quickly grasp the main idea and locate specific information.\n2. **Understand the Main Idea**: Always identify the central message of the text.\n3. **Practice Inference**: Read between the lines to answer questions that require deeper understanding.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "reading",
+    "comprehension",
+    "bepc",
+    "strategies",
+    "exam"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "What is the first step in the recommended reading method?",
+      "options": [
+        "Read the questions first",
+        "Preview the text",
+        "Skim the text",
+        "Scan for details"
+      ],
+      "answer": 1,
+      "explanation": "Previewing the text (title, headings) gives you a framework before reading in detail."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Skimming is reading quickly to find specific information like names or dates.",
+      "answer": false,
+      "explanation": "Skimming is for the general idea; scanning is for specific information."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "The central point of a text is called the ______ idea.",
+      "answer": "main",
+      "explanation": "The main idea is the most important point the author is making."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "When you encounter an unknown word, what should you do?",
+      "options": [
+        "Skip it and move on",
+        "Look it up in a dictionary immediately",
+        "Use context clues to guess the meaning",
+        "Ask your neighbor"
+      ],
+      "answer": 2,
+      "explanation": "Using context clues helps you understand without breaking your reading flow."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Inference questions require you to find information that is directly stated in the text.",
+      "answer": false,
+      "explanation": "Inference questions ask you to read between the lines and understand implied meanings."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "To manage your time well, you should spend about ______ minutes on the reading section.",
+      "answer": "15-20",
+      "explanation": "Allocating 15-20 minutes ensures you have enough time to read and answer all questions."
+    }
+  ]
+}

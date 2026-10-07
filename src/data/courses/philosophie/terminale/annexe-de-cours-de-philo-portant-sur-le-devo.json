@@ -1,0 +1,159 @@
+{
+  "id": "philosophie-terminale-annexe-de-cours-de-philo-portant-sur-le-devo",
+  "subjectId": "philosophie",
+  "levelId": "terminale",
+  "slug": "annexe-de-cours-de-philo-portant-sur-le-devo",
+  "title": "Philosophie MENA CI : Taoïsme, Pardon, Magie et Morale",
+  "summary": "Ce document explore les concepts taoïstes de l’interdépendance du bien et du mal, la notion de pardon selon Arendt, une théorie de la magie basée sur l’absurdité conjointe, le devoir kantien d’être heureux, la critique montaignienne de l’égoïsme, les réflexions goetheennes sur la vertu, et la remise en question de la morale par Nietzsche.",
+  "lesson": "# Introduction\nCe cours présente des idées philosophiques clés abordées dans le document officiel MENA CI. Il s’agit d’une synthèse des concepts taoïstes, du pardon, d’une théorie de la magie, du devoir kantien, des perspectives de Montaigne et Goethe, ainsi que de la critique de Nietzsche.\n\n## 1. Taoïsme\n- **Valeur non morale** : Le bien n’existe pas sans le mal. Le contraste est nécessaire pour apprécier la valeur.\n- **Valeur morale** : La bonté morale dépend de la possibilité du mal. Sans la liberté de faire le mal, le bien ne serait pas une vertu.\n- **Conséquence** : Le taoïsme rejette le manichéisme et l’idée d’un monde purement bon.\n\n## 2. Le Pardon\n- Deux formes d’injustice : \n  1. Enfreindre la loi pour son propre intérêt.\n  2. Enfreindre la loi pour le bien d’autrui (pardon).\n- **Arendt** : Le pardon est essentiel pour la coexistence.\n\n## 3. Théorie de la Magie\n- Principe : « Ne pas faire à autrui ce que l’on ne voudrait pas qu’il nous fasse ».\n- Absence de contrat explicite rend la maxime illogique, mais la conjonction de deux actes illogiques crée un sens.\n- Référence à Pascal et Baudelaire : l’irrationalité peut devenir raisonnable lorsqu’elle est partagée.\n\n## 4. Devoir d’être heureux (Kant)\n- Kant affirme que le devoir d’être heureux empêche la tentation du mal.\n- Exemple : Un individu malheureux pourrait être tenté de commettre un vol.\n\n## 5. Montaigne\n- Critique de la suspicion envers les bonnes actions.\n- Montaigne rappelle que même les actions vertueuses peuvent contenir des intentions égoïstes.\n\n## 6. Goethe\n- La perception de la grandeur nécessite une certaine noblesse intérieure.\n- La vraie beauté intérieure est nécessaire pour la reconnaître.\n\n## 7. Nietzsche\n- Questionne la base morale : est-elle fondée sur l’erreur, le mensonge et l’ignorance?\n- Contradiction entre déterminisme et libre arbitre.\n\n## Conclusion\nCes idées montrent la complexité de la moralité et de la vertu. Elles invitent à réfléchir sur la nature du bien, du mal, de la liberté et de la responsabilité.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "philosophie",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel principe taoïste affirme que le bien ne peut exister sans le mal?",
+      "options": [
+        "A. Valeur morale",
+        "B. Valeur non morale",
+        "C. Dualité absolue",
+        "D. Harmonie cosmique"
+      ],
+      "answer": 1,
+      "explanation": "Le Taoïsme de la valeur non morale stipule que le bien n’existe pas sans le mal."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le taoïsme soutient que le mal peut disparaître pour laisser place au bien.",
+      "answer": false,
+      "explanation": "Le taoïsme rejette l’idée qu’un monde purement bon puisse exister."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Selon Arendt, le pardon est un exemple de quoi?",
+      "options": [
+        "A. Injustice personnelle",
+        "B. Injustice pour autrui",
+        "C. Justice punitive",
+        "D. Justice rétributive"
+      ],
+      "answer": 1,
+      "explanation": "Le pardon est un acte d’injustice pour le bien d’autrui."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle philosophie souligne que l’irrationalité peut devenir raisonnable lorsqu’elle est partagée?",
+      "options": [
+        "A. Kant",
+        "B. Pascal",
+        "C. Nietzsche",
+        "D. Baudelaire"
+      ],
+      "answer": 3,
+      "explanation": "Baudelaire mentionne que l’irrationalité devient raisonnable lorsqu’elle est partagée."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Kant considère que le devoir d’être heureux est un moyen de prévenir le mal.",
+      "answer": true,
+      "explanation": "Kant affirme que le devoir d’être heureux empêche la tentation du mal."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Montaigne critique la suspicion envers les bonnes actions en soulignant que :",
+      "options": [
+        "A. Elles sont toujours altruistes",
+        "B. Elles contiennent souvent des intentions égoïstes",
+        "C. Elles sont purement vertueuses",
+        "D. Elles sont sans défaut"
+      ],
+      "answer": 1,
+      "explanation": "Montaigne rappelle que même les bonnes actions peuvent avoir des intentions égoïstes."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Goethe affirme que pour percevoir la beauté, il faut posséder cette beauté intérieure.",
+      "answer": true,
+      "explanation": "Goethe souligne que la perception de la beauté nécessite une beauté intérieure."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Nietzsche remet en question la morale en se demandant si elle repose sur :",
+      "options": [
+        "A. La raison pure",
+        "B. L’amour universel",
+        "C. L’erreur, le mensonge et l’ignorance",
+        "D. La loi divine"
+      ],
+      "answer": 2,
+      "explanation": "Nietzsche questionne si la morale repose sur l’erreur, le mensonge et l’ignorance."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Le taoïsme considère que la bonté morale peut exister sans la possibilité du mal.",
+      "answer": false,
+      "explanation": "Le taoïsme de la valeur morale affirme que la bonté dépend de la possibilité du mal."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel philosophe a insisté sur la nécessité de pardonner?",
+      "options": [
+        "A. Kant",
+        "B. Arendt",
+        "C. Nietzsche",
+        "D. Montaigne"
+      ],
+      "answer": 1,
+      "explanation": "Hannah Arendt a insisté sur la nécessité de pardonner."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Le principe de la magie est illogique à moins d’un ___ explicite avec autrui.",
+      "answer": "contrat",
+      "explanation": "Un contrat explicite est nécessaire pour rendre le principe logique."
+    },
+    {
+      "id": "q13",
+      "type": "truefalse",
+      "prompt": "Kant estime que le mal peut être justifié si l’on est malheureux.",
+      "answer": false,
+      "explanation": "Kant ne justifie pas le mal ; il considère que le devoir d’être heureux empêche la tentation."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Selon le document, l’absurdité conjointe de deux actes illogiques :",
+      "options": [
+        "A. Les rend tous deux illogiques",
+        "B. Les rend tous deux raisonnables",
+        "C. Les rend tous deux sans sens",
+        "D. Les rend tous deux pleins de sens"
+      ],
+      "answer": 3,
+      "explanation": "L’addition de deux absurdités rend les deux actes pleins de sens."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Le devoir d’être heureux est un concept de Kant.",
+      "answer": true,
+      "explanation": "Kant introduit le devoir d’être heureux comme principe moral."
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "id": "svt-sixieme-l6-la-reproduction-chez-les-mammiferes",
+  "subjectId": "svt",
+  "levelId": "sixieme",
+  "slug": "l6-la-reproduction-chez-les-mammiferes",
+  "title": "Reproduction chez les mammifères – 6ème SVT",
+  "summary": "Cette leçon explique comment les mammifères se reproduisent à travers leurs caractères sexuels externes et internes, l’union des gamètes et la formation de la cellule‑œuf. Elle s’appuie sur l’observation de lapins, la dissection d’appareils reproducteurs et la description des étapes de la fécondation, avec des activités d’application pour chaque partie.",
+  "lesson": "## I. Situation d’apprentissage\nLes élèves élèvent un lapin mâle et une femelle pendant 5 min, les séparent puis découvrent des lapereaux. Ils doivent identifier les caractères sexuels et expliquer la naissance.\n\n## II. Contenu de la leçon\n### 1. Caractères sexuels externes\n- Observation de la face ventrale : pénis et bourses (mâle) ; mamelles et vulve (femelle).\n- Conclusion : les organes externes permettent de distinguer les sexes.\n\n**Activité** : citer les caractères externes du mâle de la souris → *pénis, bourses*.\n\n### 2. Caractères sexuels internes\n- Dissection :\n  - Mâle : 2 testicules, 2 spermatiques, prostate, vésicules séminales.\n  - Femelle : 2 ovaires, 2 oviductes, utérus, vagin.\n- Tableau comparatif des organes internes.\n- Conclusion : les organes internes assurent la production et le transport des gamètes.\n\n**Activité** : relever les organes internes parmi la liste → *testicules, prostate, ovaires, utérus*.\n\n### 3. Union des cellules reproductrices\n- Étapes de la fécondation :\n  1. Accouplement\n  2. Émission des spermatozoïdes\n  3. Attraction et déplacement des spermatozoïdes\n  4. Pénétration d’un spermatozoïde dans l’ovule\n  5. Rapprochement des noyaux\n  6. Fusion des noyaux → formation de la cellule‑œuf.\n- La fécondation est interne.\n\n**Activité** : classer les étapes désordonnées → d ; b ; c ; a.\n\n## III. Synthèse\nLes mammifères se reproduisent grâce à leurs caractères sexuels externes et internes, à l’union des gamètes mâle et femelle et à la formation de la cellule‑œuf.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "svt",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel organe externe est présent uniquement chez le lapin mâle ?",
+      "options": [
+        "Pénis",
+        "Vulve",
+        "Mamelles",
+        "Uterus"
+      ],
+      "answer": 0,
+      "explanation": "Le pénis est l’organe sexuel externe du mâle."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Parmi les organes suivants, lequel est interne chez la femelle ?",
+      "options": [
+        "Vulve",
+        "Testicules",
+        "Ovaires",
+        "Bourses"
+      ],
+      "answer": 2,
+      "explanation": "Les ovaires font partie de l’appareil reproducteur interne de la femelle."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Chez le lapin mâle, la prostate fait partie de l’appareil reproducteur interne.",
+      "answer": true,
+      "explanation": "La prostate est une glande interne du mâle."
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "La fécondation chez les mammifères se déroule toujours à l’extérieur du corps de la femelle.",
+      "answer": false,
+      "explanation": "Chez les mammifères la fécondation est interne."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "prompt": "Le premier organe sexuel externe observé chez le lapin femelle est la __________.",
+      "answer": "vulve",
+      "explanation": "La vulve est l’organe externe de la femelle."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel conduit transporte les spermatozoïdes du testicule à l’urètre ?",
+      "options": [
+        "Spermiducte",
+        "Oviducte",
+        "Uretère",
+        "Canal de Fallope"
+      ],
+      "answer": 0,
+      "explanation": "Le spermiducte (ou canal déférent) transporte les spermatozoïdes."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Après l’accouplement, où les spermatozoïdes rencontrent‑ils l’ovule chez le lapin ?",
+      "options": [
+        "Vagin",
+        "Uterus",
+        "Oviducte",
+        "Vésicule séminale"
+      ],
+      "answer": 2,
+      "explanation": "Les spermatozoïdes remontent les oviductes pour atteindre l’ovule."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Le pénis et les bourses sont des caractères sexuels internes.",
+      "answer": false,
+      "explanation": "Ce sont des caractères sexuels externes."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "L’union du noyau du spermatozoïde et du noyau de l’ovule forme la __________.",
+      "answer": "cellule‑œuf",
+      "explanation": "La fusion des noyaux crée la cellule‑œuf."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel organe interne du mâle produit les spermatozoïdes ?",
+      "options": [
+        "Prostate",
+        "Testicules",
+        "Vésicules séminales",
+        "Uretère"
+      ],
+      "answer": 1,
+      "explanation": "Les testicules sont les gonades mâles productrices de spermatozoïdes."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel organe interne de la femelle assure la nidation de l’embryon ?",
+      "options": [
+        "Ovaires",
+        "Vagin",
+        "Utérus",
+        "Oviducte"
+      ],
+      "answer": 2,
+      "explanation": "L’utérus accueille l’embryon en nidation."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Chez les mammifères, la production des gamètes mâles et femelles se fait dans les mêmes organes.",
+      "answer": false,
+      "explanation": "Les gamètes mâles sont produits dans les testicules, les femelles dans les ovaires."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Le processus d’attraction des spermatozoïdes vers l’ovule s’appelle la __________.",
+      "answer": "chemotactisme",
+      "explanation": "Le chemotactisme guide les spermatozoïdes vers l’ovule."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel terme décrit la fusion des deux noyaux après la pénétration du spermatozoïde ?",
+      "options": [
+        "Syngamie",
+        "Cytokinèse",
+        "Fécondation",
+        "Gemmation"
+      ],
+      "answer": 0,
+      "explanation": "La syngamie désigne la fusion des noyaux gamétiques."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Les mamelles sont considérées comme des caractères sexuels externes chez le lapin femelle.",
+      "answer": true,
+      "explanation": "Les mamelles sont visibles à l’extérieur et sont un caractère sexuel externe."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Dans le tableau comparatif, le nombre d’oviductes chez la femelle est __________.",
+      "answer": "2",
+      "explanation": "La femelle possède deux oviductes."
+    }
+  ]
+}

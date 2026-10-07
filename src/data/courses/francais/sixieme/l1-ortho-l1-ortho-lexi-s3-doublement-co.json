@@ -1,0 +1,199 @@
+{
+  "id": "francais-sixieme-l1-ortho-l1-ortho-lexi-s3-doublement-co",
+  "subjectId": "francais",
+  "levelId": "sixieme",
+  "slug": "l1-ortho-l1-ortho-lexi-s3-doublement-co",
+  "title": "Orthographe lexicale : le doublement des consonnes dans les adverbes en -ment",
+  "summary": "Cette leçon explique la règle de doublement de la consonne dans les adverbes en -ment formés à partir d'adjectifs. Elle présente la règle générale, les exceptions et propose des exercices d'application.",
+  "lesson": "# Orthographe lexicale : le doublement des consonnes dans les adverbes en -ment\n\n## Introduction\n\nDans le cadre du concours d'orthographe du club littéraire, les élèves de 6ème s'entraînent à corriger les fautes d'orthographe lexicale. Ils étudient notamment les accents, l'apostrophe, l'élision, les homophones et les règles de doublement de la consonne dans les adverbes en -ment.\n\n## Définition de l'adverbe\n\nLes adverbes sont des mots invariables, presque toujours facultatifs. Ils peuvent modifier :\n- un verbe\n- un adjectif\n- un autre adverbe\n- une phrase\n\nDe nombreux adverbes se terminent par -ment. Ils sont construits à partir d'un adjectif qualificatif. Dans certains cas, ces adverbes doublent leur consonne.\n\n**Exemple :** prudent → prudemment\n\n## Règle du doublement de la consonne\n\nOn double la consonne dans les adverbes en -ment lorsque l'adverbe dérive d'un adjectif au masculin se terminant par -ent ou -ant.\n\n**Exemples :**\n- violent → violemment\n- puissant → puissamment\n- vaillant → vaillamment\n- courant → couramment\n\n## Exceptions\n\nCertains adjectifs en -ent ne suivent pas cette règle. C'est le cas de :\n- lent → lentement\n- présent → présentement\n- véhément → véhémentement\n\n## Exercices\n\n1. Indique les adjectifs à partir desquels ces adverbes ont été formés : impatiemment, fréquemment, imprudemment, élégamment, couramment.\n2. Compose un adverbe en -ment à partir de chacun de ces adjectifs : triste, nouveau, diligent, actif, récent.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "francais",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quand double-t-on la consonne dans les adverbes en -ment ?",
+      "options": [
+        "Lorsque l'adverbe dérive d'un adjectif au masculin en -ent ou -ant",
+        "Lorsque l'adverbe dérive d'un adjectif au féminin",
+        "Lorsque l'adverbe est invariable",
+        "Lorsque l'adverbe modifie un verbe"
+      ],
+      "answer": 0,
+      "explanation": "La règle générale stipule que l'on double la consonne dans les adverbes en -ment lorsque l'adverbe dérive d'un adjectif au masculin en -ent ou -ant."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel est l'adverbe formé à partir de l'adjectif 'violent' ?",
+      "options": [
+        "Violentement",
+        "Violemment",
+        "Violamment",
+        "Violentemment"
+      ],
+      "answer": 1,
+      "explanation": "L'adjectif 'violent' se termine par -ent, donc l'adverbe double la consonne : 'violemment'."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel est l'adverbe formé à partir de l'adjectif 'puissant' ?",
+      "options": [
+        "Puissament",
+        "Puissamment",
+        "Puissament",
+        "Puissemment"
+      ],
+      "answer": 1,
+      "explanation": "L'adjectif 'puissant' se termine par -ant, donc l'adverbe double la consonne : 'puissamment'."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est l'adverbe formé à partir de l'adjectif 'courant' ?",
+      "options": [
+        "Courrament",
+        "Courramment",
+        "Couramment",
+        "Courrement"
+      ],
+      "answer": 2,
+      "explanation": "L'adjectif 'courant' se termine par -ant, donc l'adverbe double la consonne : 'couramment'."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Parmi ces adjectifs, lequel ne double pas sa consonne dans l'adverbe en -ment ?",
+      "options": [
+        "Lent",
+        "Violent",
+        "Puissant",
+        "Vaillant"
+      ],
+      "answer": 0,
+      "explanation": "L'adjectif 'lent' est une exception : il donne 'lentement' sans doublement de consonne."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Les adverbes sont des mots invariables.",
+      "answer": true,
+      "explanation": "D'après la définition, les adverbes sont des mots invariables, presque toujours facultatifs."
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Tous les adjectifs en -ent forment des adverbes en -ment avec doublement de la consonne.",
+      "answer": false,
+      "explanation": "Il existe des exceptions comme 'lent', 'présent', 'véhément' qui ne doublent pas la consonne."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "L'adverbe 'présentement' est formé à partir de l'adjectif 'présent'.",
+      "answer": true,
+      "explanation": "L'adjectif 'présent' donne l'adverbe 'présentement' sans doublement de consonne."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Complétez : L'adverbe formé à partir de 'vaillant' est ______.",
+      "answer": "vaillamment",
+      "explanation": "L'adjectif 'vaillant' se termine par -ant, donc l'adverbe double la consonne : 'vaillamment'."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Complétez : L'adverbe formé à partir de 'véhément' est ______.",
+      "answer": "véhémentement",
+      "explanation": "L'adjectif 'véhément' est une exception : il donne 'véhémentement' sans doublement de consonne."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel adjectif correspond à l'adverbe 'impatiemment' ?",
+      "options": [
+        "Impatient",
+        "Impatiente",
+        "Impatiemment",
+        "Impatience"
+      ],
+      "answer": 0,
+      "explanation": "L'adverbe 'impatiemment' est formé à partir de l'adjectif 'impatient'."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel adjectif correspond à l'adverbe 'fréquemment' ?",
+      "options": [
+        "Fréquent",
+        "Fréquente",
+        "Fréquence",
+        "Fréquemment"
+      ],
+      "answer": 0,
+      "explanation": "L'adverbe 'fréquemment' est formé à partir de l'adjectif 'fréquent'."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel adjectif correspond à l'adverbe 'imprudemment' ?",
+      "options": [
+        "Imprudent",
+        "Imprudente",
+        "Imprudence",
+        "Imprudemment"
+      ],
+      "answer": 0,
+      "explanation": "L'adverbe 'imprudemment' est formé à partir de l'adjectif 'imprudent'."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel adjectif correspond à l'adverbe 'élégamment' ?",
+      "options": [
+        "Élégant",
+        "Élégante",
+        "Élégance",
+        "Élégamment"
+      ],
+      "answer": 0,
+      "explanation": "L'adverbe 'élégamment' est formé à partir de l'adjectif 'élégant'."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Complétez : L'adverbe formé à partir de 'diligent' est ______.",
+      "answer": "diligemment",
+      "explanation": "L'adjectif 'diligent' se termine par -ent, donc l'adverbe double la consonne : 'diligemment'."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Complétez : L'adverbe formé à partir de 'actif' est ______.",
+      "answer": "activement",
+      "explanation": "L'adjectif 'actif' ne se termine pas par -ent ou -ant, donc l'adverbe ne double pas la consonne : 'activement'."
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "prompt": "Complétez : L'adverbe formé à partir de 'récent' est ______.",
+      "answer": "récemment",
+      "explanation": "L'adjectif 'récent' se termine par -ent, donc l'adverbe double la consonne : 'récemment'."
+    },
+    {
+      "id": "q18",
+      "type": "truefalse",
+      "prompt": "L'adverbe 'couramment' est formé à partir de l'adjectif 'courant'.",
+      "answer": true,
+      "explanation": "L'adjectif 'courant' donne l'adverbe 'couramment' avec doublement de la consonne."
+    }
+  ]
+}

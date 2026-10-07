@@ -1,0 +1,154 @@
+{
+  "id": "allemand-troisieme-l7-2-reise-nach-berlinvoyage-a-berlin",
+  "subjectId": "allemand",
+  "levelId": "troisieme",
+  "slug": "l7-2-reise-nach-berlinvoyage-a-berlin",
+  "title": "Leçon 7 – Voyage à Berlin : histoire, culture et grammaire",
+  "summary": "Cette leçon de troisième en allemand porte sur la visite de Berlin. Les élèves réactivent leurs connaissances historiques et culturelles, travaillent la compréhension de textes A1‑A5, découvrent le masculin faible, le passif et le conditionnel, et s’exercent à la phonétique des noms de pays. Ils terminent par une production écrite invitant un correspondant à découvrir deux sites historiques et deux manifestations culturelles de la Côte d’Ivoire.",
+  "lesson": "## I. Contenus de la leçon\n**Objectif communicationnel** : à l’issue de la séquence, les élèves peuvent s’exprimer sur l’histoire et la culture d’une ville ou d’un pays.\n\n### Phases\n1. **Mise en train** – réactivation des prérequis sur Berlin (timeline, repères géographiques).\n2. **Exploitation des textes A1‑A3** – *Ihr und Wir* (p.102). Compréhension globale puis détaillée ; mise en évidence des expressions de voyage (z. B. *auf dem Weg nach…*, *nachdem wir…*).\n3. **Structures**\n   - B1‑B3 : le masculin faible (der *Student*, *der *Lehrer* → *der *Studenten*).\n   - B4‑B7 : le passif (wird *gesehen*, *wurde *gebaut*).\n4. **Exploitation des textes A4‑A5** – compréhension détaillée, focus sur le vocabulaire des manifestations culturelles (Festival, Parade, Ausstellung).\n5. **Structure B8‑B11** – le conditionnel (würde *gehen*, *würde *sehen*).\n6. **Phonétique** – accentuation des noms de pays et des adjectifs de nationalité (Deutsch, Französisch, Ivorisch).\n\n## II. Exercices (Arbeitsheft)\n| Domaine | Référence | Pages |\n|---|---|---|\n| Compréhension | Textes A1‑A3 | 1‑3 |\n|  | Textes A4‑A5 | 4‑6 |\n| Structures | B1‑B3 | 7 |\n|  | B4‑B7 | 8‑10 |\n|  | B8‑B11 | 11‑15 |\n| Phonétique | – | 16‑17 |\n\n## III. Situation d’évaluation\n**Consigne** : rédige un courrier à ton correspondant allemand pour l’inviter à découvrir les sites et la vie culturelle de la Côte d’Ivoire.\n1. Cite deux sites historiques que tu aimerais lui faire découvrir.\n2. Décris deux manifestations culturelles intéressantes de ton pays.\n*Utilise le registre approprié (formel, descriptif).*",
+  "estimatedMinutes": 10,
+  "tags": [
+    "allemand",
+    "troisieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel texte est utilisé pour la première phase de compréhension globale ?",
+      "options": [
+        "A1 – Geschichte Berlins",
+        "A2 – Kultur Berlin",
+        "A3 – Ihr und Wir",
+        "A4 – Berlin heute"
+      ],
+      "answer": 2,
+      "explanation": "Le texte A1‑A3 provient du manuel *Ihr und Wir* (p.102) et sert à la compréhension globale."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le masculin faible en allemand se forme toujours en ajoutant -en au nominatif.",
+      "answer": false,
+      "explanation": "Le masculin faible ajoute -e au nominatif et -en au génitif, datif ou accusatif selon le cas."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Complétez la forme passive du verbe « bauen » au Präteritum : \"Das Haus ___ von den Arbeitern gebaut.\"",
+      "answer": "wurde",
+      "explanation": "Le passif Präteritum de *bauen* est *wurde gebaut*."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle expression signifie « sur le chemin de » en allemand ?",
+      "options": [
+        "auf dem Weg nach",
+        "nach dem Weg",
+        "unter dem Weg zu",
+        "vor dem Weg von"
+      ],
+      "answer": 0,
+      "explanation": "« auf dem Weg nach » traduit littéralement « sur le chemin de »."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Le conditionnel allemand se forme avec le suffixe -te au verbe principal.",
+      "answer": false,
+      "explanation": "Le conditionnel se forme avec *würde* + infinitif."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Donnez la forme conditionnelle du verbe « sehen » (je verrais).",
+      "answer": "ich würde sehen",
+      "explanation": "Structure *würde* + infinitif."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Parmi les sites suivants, lequel n’est pas situé à Berlin ?",
+      "options": [
+        "Brandenburger Tor",
+        "Reichstag",
+        "Mont Saint‑Michel",
+        "Potsdamer Platz"
+      ],
+      "answer": 2,
+      "explanation": "Le Mont Saint‑Michel se trouve en France, pas à Berlin."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Le mot « Ivorien » s’écrit « Ivoirisch » en allemand.",
+      "answer": true,
+      "explanation": "L’adjectif de nationalité pour la Côte d’Ivoire est *ivorisch*."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Complétez la phrase avec le bon article défini : \"___ Berliner Dom ist beeindruckend.\"",
+      "answer": "Der",
+      "explanation": "Le nom *Dom* est masculin, donc l’article défini est *der*."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quelle manifestation culturelle ivoirienne est mentionnée dans le programme ?",
+      "options": [
+        "Fête du Masque",
+        "Fête du Bissau",
+        "Fête du Feu",
+        "Fête du Soleil"
+      ],
+      "answer": 0,
+      "explanation": "La Fête du Masque est une manifestation culturelle importante en Côte d’Ivoire."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Le texte A5 porte sur les festivals de musique à Berlin.",
+      "answer": false,
+      "explanation": "Le texte A5 traite de la vie culturelle ivoirienne, pas de Berlin."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Écrivez le pluriel du nom « Student » (masculin faible).",
+      "answer": "Studenten",
+      "explanation": "Le pluriel du masculin faible se forme en -en."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel est le numéro de page du manuel où se trouve le texte A1‑A3 ?",
+      "options": [
+        "98",
+        "100",
+        "102",
+        "104"
+      ],
+      "answer": 2,
+      "explanation": "Le texte se trouve à la page 102 du manuel."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Dans la phonétique, l’accent tonique tombe toujours sur la première syllabe des noms de pays en allemand.",
+      "answer": false,
+      "explanation": "L’accent tonique varie ; par ex. *Deutschland* a l’accent sur la première syllabe, mais *Frankreich* sur la première également, mais ce n’est pas une règle absolue."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Complétez la phrase avec le bon pronom relatif : \"Das Museum, ___ wir besucht haben, war sehr modern.\"",
+      "answer": "das",
+      "explanation": "Le pronom relatif neutre *das* se rapporte à *Museum*."
+    }
+  ]
+}

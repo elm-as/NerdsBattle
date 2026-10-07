@@ -1,0 +1,70 @@
+{
+  "id": "physique-seconde-elements-chimiques-tableau-periodique",
+  "title": "Structure de l'atome et classification périodique",
+  "summary": "Comprendre la structure de l'atome est essentiel pour expliquer les propriétés de la matière et les réactions chimiques. La classification périodique, outil fondamental du chimiste, organise les éléments selon leur structure électronique, permettant de prédire leur comportement.",
+  "lesson": "## Introduction & Mise en situation\n\nPourquoi ce chapitre est-il crucial ? Parce qu'il pose les bases de toute la chimie : la structure de l'atome explique comment les éléments se combinent, pourquoi certains sont réactifs et d'autres inertes. La classification périodique, quant à elle, est un outil de prédiction : elle permet de connaître les propriétés d'un élément sans avoir à les mémoriser toutes. Ce chapitre est donc au cœur de la compréhension de la matière et des transformations chimiques.\n\n## 1. Définitions et Principes Fondamentaux\n\n### L'atome\n\nUn atome est la plus petite unité d'un élément chimique qui conserve ses propriétés. Il est constitué d'un **noyau** (contenant des **protons** et des **neutrons**) et d'un **nuage électronique** (contenant des **électrons**).\n\n- **Proton** : particule de charge positive (+e), de masse $m_p \\approx 1,67 \\times 10^{-27}$ kg.\n- **Neutron** : particule de charge nulle, de masse $m_n \\approx 1,67 \\times 10^{-27}$ kg.\n- **Électron** : particule de charge négative (-e), de masse $m_e \\approx 9,11 \\times 10^{-31}$ kg, très petite devant celle du proton.\n\n### Numéro atomique et nombre de masse\n\n- **Numéro atomique (Z)** : nombre de protons dans le noyau. Il définit l'élément chimique. Dans un atome neutre, le nombre d'électrons est aussi égal à Z.\n- **Nombre de masse (A)** : nombre total de nucléons (protons + neutrons) dans le noyau.\n\nOn représente un nucléide par la notation $^A_Z X$ où X est le symbole chimique de l'élément.\n\n### Masse d'un atome\n\nLa masse d'un atome est essentiellement concentrée dans le noyau (car les électrons sont très légers). On peut calculer la masse approchée d'un atome par :\n$$m_{atome} \\approx A \\times m_{nucléon}$$\navec $m_{nucléon} \\approx 1,67 \\times 10^{-27}$ kg.\n\n### Le cortège électronique\n\nLes électrons se répartissent autour du noyau en **couches électroniques** (K, L, M, ...). Chaque couche peut contenir un nombre maximal d'électrons :\n- Couche K : 2 électrons\n- Couche L : 8 électrons\n- Couche M : 18 électrons (mais en seconde, on se limite souvent à 8 pour les éléments légers)\n\nLa **configuration électronique** d'un atome s'écrit en indiquant le nombre d'électrons dans chaque couche, par exemple :\n- $^{12}C$ : $K^2 L^4$\n- $^{16}O$ : $K^2 L^6$\n- $^{23}Na$ : $K^2 L^8 M^1$\n\n### La classification périodique\n\nLes éléments sont classés par **numéro atomique croissant** dans le tableau périodique. Les lignes sont appelées **périodes** (7 périodes) et les colonnes **groupes** (18 groupes). Les éléments d'un même groupe ont la même configuration électronique externe (les électrons de la couche la plus externe), ce qui leur confère des propriétés chimiques similaires.\n\n## 2. Propriétés et Méthodes d'application\n\n### Déterminer la composition d'un atome\n\n**Méthode :**\n1. Identifier Z et A à partir de la notation $^A_Z X$.\n2. Le nombre de protons = Z.\n3. Le nombre de neutrons = A - Z.\n4. Le nombre d'électrons = Z (pour un atome neutre).\n\n**Exemple :** Pour l'atome de sodium $^{23}_{11}Na$ :\n- Protons : 11\n- Neutrons : 23 - 11 = 12\n- Électrons : 11\n\n### Écrire la configuration électronique\n\n**Méthode :**\n1. Remplir les couches dans l'ordre K, L, M, ... en respectant les capacités maximales.\n2. On remplit la couche K d'abord (2 électrons), puis L (8), puis M (8 pour les éléments de la 3e période).\n\n**Exemple :** Pour $^{16}S$ (Z=16) :\n- K : 2\n- L : 8\n- M : 6 (car 16 - 2 - 8 = 6)\nDonc $K^2 L^8 M^6$.\n\n### Trouver la position d'un élément dans le tableau périodique\n\n**Méthode :**\n1. Écrire la configuration électronique.\n2. La **période** correspond au numéro de la couche externe (la plus grande couche occupée).\n3. Le **groupe** correspond au nombre d'électrons sur la couche externe (pour les éléments des groupes 1, 2 et 13 à 18 ; pour les groupes 3 à 12, c'est plus complexe, mais en seconde on se limite souvent aux éléments représentatifs).\n\n**Exemple :** Pour $^{12}Mg$ (Z=12) : configuration $K^2 L^8 M^2$. Couche externe : M (3e couche) donc période 3. Nombre d'électrons externes : 2 donc groupe 2 (ou IIA).\n\n### Calcul de la masse approchée d'un atome\n\n**Méthode :**\n1. Connaître A.\n2. Utiliser la formule $m_{atome} \\approx A \\times 1,67 \\times 10^{-27}$ kg.\n\n**Exemple :** Pour $^{56}Fe$ (A=56) : $m \\approx 56 \\times 1,67 \\times 10^{-27} = 9,35 \\times 10^{-26}$ kg.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre numéro atomique et nombre de masse** : Z est le nombre de protons, A est le nombre de nucléons. Ne pas les inverser.\n- **Oublier que l'atome est neutre** : dans un atome, nombre d'électrons = nombre de protons. Ce n'est que pour les ions que cela change.\n- **Mal remplir les couches électroniques** : il faut respecter l'ordre de remplissage K, L, M... et ne pas dépasser les capacités (2, 8, 8). Par exemple, pour Z=19 (potassium), la configuration est $K^2 L^8 M^8 N^1$ et non $K^2 L^8 M^9$.\n- **Confondre période et groupe** : la période est une ligne (horizontale), le groupe est une colonne (verticale).\n- **Ne pas utiliser la notation $^A_Z X$ correctement** : le numéro atomique Z est en bas à gauche, le nombre de masse A en haut à gauche.\n\n## Synthèse\n\n1. **Un atome est constitué d'un noyau (protons + neutrons) et d'électrons.** Le numéro atomique Z détermine l'élément, et la masse de l'atome est approximativement $A \\times 1,67 \\times 10^{-27}$ kg.\n2. **La configuration électronique se construit en remplissant les couches K, L, M selon les capacités 2, 8, 8.** Elle explique les propriétés chimiques et la position dans le tableau périodique.\n3. **La classification périodique organise les éléments par Z croissant ; la période est la ligne, le groupe est la colonne.** Les éléments d'un même groupe ont le même nombre d'électrons externes.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "atome",
+    "classification périodique",
+    "chimie",
+    "seconde",
+    "structure électronique"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la charge électrique d'un neutron ?",
+      "options": [
+        "Positive",
+        "Négative",
+        "Nulle",
+        "Variable"
+      ],
+      "answer": 2,
+      "explanation": "Le neutron est électriquement neutre, comme son nom l'indique."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Dans un atome neutre, le nombre d'électrons est égal au nombre de protons.",
+      "answer": true,
+      "explanation": "Par définition, un atome neutre a autant de protons que d'électrons."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Combien de neutrons possède l'atome de carbone 14 ($^{14}_{6}C$) ?",
+      "answer": "8",
+      "explanation": "Le nombre de neutrons est A - Z = 14 - 6 = 8."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est le nombre d'électrons sur la couche externe de l'atome d'oxygène ($^{16}_{8}O$) ?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "answer": 2,
+      "explanation": "La configuration électronique de l'oxygène est K² L⁶, donc 6 électrons sur la couche externe L."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Le numéro atomique Z correspond au nombre de neutrons dans le noyau.",
+      "answer": false,
+      "explanation": "Z est le nombre de protons, pas de neutrons. Le nombre de neutrons est A - Z."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Quel est le symbole de l'élément dont le numéro atomique est 11 ?",
+      "answer": "Na",
+      "explanation": "L'élément de numéro atomique 11 est le sodium, de symbole Na."
+    }
+  ]
+}

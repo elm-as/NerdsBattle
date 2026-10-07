@@ -1,0 +1,181 @@
+{
+  "id": "svt-terminale-cours-de-svt-niveau-terminale-a",
+  "subjectId": "svt",
+  "levelId": "terminale",
+  "slug": "cours-de-svt-niveau-terminale-a",
+  "title": "Origine de la vie : explication et faits scientifiques",
+  "summary": "Cette leçon de Terminale SVT explore les bases scientifiques de l'origine de la vie. Les élèves identifient les faits paléontologiques, formulent des hypothèses et construisent un résumé explicatif, tout en confrontant les points de vue scientifiques et religieux.",
+  "lesson": "## Objectifs\n- Identifier des faits paléontologiques relatifs à l’origine de la vie.\n- Expliquer les principales hypothèses scientifiques sur l’apparition de la vie.\n- Développer une démarche d’investigation (hypothèse → vérification).\n\n## Compétences visées\n- **Compétence 2** : Traiter une situation relative à la reproduction et à l’hérédité.\n- **Compétence 1** : Traiter une situation relative à la communication.\n\n## Matériel\n- Textes de la conférence (fournis par le professeur).\n- Documents bibliographiques : *Biologie Terminale D* (Escalier, ADN).\n- Tableau blanc, marqueurs, fiches de prise de notes.\n\n## Déroulement (3 semaines)\n### Séance 1 – Mise en contexte (45 min)\n1. **Questionnaire de prérequis** (jeu de Q/R) – 5 min.\n2. Lecture collective du texte de la conférence – 10 min.\n3. Discussion guidée : « De quoi parle le texte ? » – 10 min.\n4. Mise en évidence du constat : la vie a une origine – 5 min.\n5. Présentation du problème de la leçon : *Comment l’origine de la vie s’explique‑t‑elle ?* – 5 min.\n6. Prise de notes individuelle – 10 min.\n\n### Séance 2 – Recherche et hypothèses (45 min)\n1. Brainstorming en groupe sur les hypothèses possibles (faits historiques, chimiques, biologiques) – 15 min.\n2. Formulation d’une première hypothèse sous forme interrogative – 10 min.\n3. Recherche documentaire (documents fournis) – 15 min.\n4. Partage des résultats en grand groupe – 5 min.\n\n### Séance 3 – Construction du résumé (45 min)\n1. Élaboration d’un résumé introductif intégrant le constat et les hypothèses – 20 min.\n2. Vérification des hypothèses : quels éléments les soutiennent ? – 15 min.\n3. Rédaction finale du résumé dans le cahier – 10 min.\n\n### Séance 4 – Évaluation formative (30 min)\n- QCM, vrai/faux et questions à réponse courte sur les faits paléontologiques et les hypothèses étudiées.\n\n## Évaluation sommative\n- **Évaluation du thème 1** (origine de la vie) – 1 h.\n- **Remédiation** si besoin – 1 h.\n\n## Suivi pédagogique\n- Tableau de suivi des compétences acquises.\n- Retour oral du professeur sur la qualité des résumés.",
+  "estimatedMinutes": 60,
+  "tags": [
+    "svt",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel groupe de fossiles est le plus souvent cité comme preuve de la première vie multicellulaire ?",
+      "options": [
+        "Trilobites",
+        "Ediacara biota",
+        "Ammonites",
+        "Dinosaures"
+      ],
+      "answer": 1,
+      "explanation": "Les organismes d'Ediacara (≈ 600 Ma) sont les plus anciens fossiles multicellulaires connus."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La théorie de la soupe primordiale propose que la vie est apparue à partir de molécules organiques simples formées dans l’atmosphère terrestre.",
+      "answer": true,
+      "explanation": "Cette hypothèse, développée par Oparin‑Haldane, décrit une atmosphère réductrice favorisant la synthèse de molécules organiques."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Complétez : La première forme de vie connue est apparue il y a environ ___ millions d'années.",
+      "answer": "3800",
+      "explanation": "Les stromatolites microbiennes datent d’environ 3,8 milliards d’années."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel processus permet la formation d’acides aminés à partir de composés simples dans la « soupe primordiale » ?",
+      "options": [
+        "Photosynthèse",
+        "Frittage",
+        "Synthèse de Miller‑Urey",
+        "Fermentation"
+      ],
+      "answer": 2,
+      "explanation": "L’expérience de Miller‑Urey (1953) a montré la synthèse d’acides aminés sous simulation d’une atmosphère primitive."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Les virus sont considérés comme les premières formes de vie sur Terre.",
+      "answer": false,
+      "explanation": "Les virus ne remplissent pas tous les critères de la vie (pas de métabolisme autonome)."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Nom du processus par lequel les premières cellules ont pu encapsuler leurs molécules organiques : ___ .",
+      "answer": "formation de membranes lipidiques",
+      "explanation": "Les lipides auto‑assemblés forment des vésicules, précurseurs des membranes cellulaires."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel événement géologique a fortement influencé l’apparition de la vie en augmentant la disponibilité d’oxygène ?",
+      "options": [
+        "Formation du cratère Chicxulub",
+        "Grande Oxydation",
+        "Début du Gondwana",
+        "Formation du supercontinent Rodinia"
+      ],
+      "answer": 1,
+      "explanation": "La Grande Oxydation (≈ 2,4 Ga) a introduit de l’O₂ libre, modifiant les voies métaboliques."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Les stromatolites modernes sont créées par des cyanobactéries photosynthétiques.",
+      "answer": true,
+      "explanation": "Les stromatolites actuelles sont le résultat de l’activité de cyanobactéries qui piègent des sédiments."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Le terme latin désignant l’ensemble des organismes vivants à un moment donné est ___ .",
+      "answer": "biocénose",
+      "explanation": "Biocénose = communauté d’êtres vivants d’un même milieu."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quelle molécule est considérée comme le « premier génome » hypothétique ?",
+      "options": [
+        "ARN ribosomique",
+        "ARN messager",
+        "ADN double‑brin",
+        "ARN auto‑réplicatif"
+      ],
+      "answer": 3,
+      "explanation": "Le modèle de l’ARN‑monde propose un ARN capable de s’auto‑répliquer comme premier support génétique."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "La découverte de microfossiles dans les roches de 3,5 Ga soutient l’idée d’une vie très ancienne sur Terre.",
+      "answer": true,
+      "explanation": "Des microfossiles de 3,5 milliards d’années ont été identifiés dans le craton du Pilbara."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Le processus par lequel les molécules organiques se concentrent dans les mares d’évaporation est appelé ___ .",
+      "answer": "concentration par évaporation",
+      "explanation": "L’évaporation favorise la concentration des précurseurs organiques, facilitant les réactions chimiques."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel facteur a probablement limité la formation spontanée de protéines complexes dans les premières étapes de la vie ?",
+      "options": [
+        "Température élevée",
+        "Absence de catalyseurs enzymatiques",
+        "Manque d’azote",
+        "Présence d’oxygène"
+      ],
+      "answer": 1,
+      "explanation": "Sans enzymes, la synthèse de longues chaînes peptidiques était très inefficace."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Les hypothèses de l’« argile‑catalyse » suggèrent que les surfaces minérales ont pu aider à l’assemblage des premières molécules organiques.",
+      "answer": true,
+      "explanation": "Les argiles offrent des sites actifs qui peuvent orienter et catalyser les réactions prébiotiques."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Nom du phénomène où l’énergie solaire est convertie en énergie chimique par les premiers organismes photosynthétiques : ___ .",
+      "answer": "photophosphorylation",
+      "explanation": "La photophosphorylation est le processus de production d’ATP à partir de la lumière."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel type de données paléontologiques permet de dater les premières traces de vie ?",
+      "options": [
+        "Radiocarbone",
+        "Uranium‑Plomb",
+        "Datation par dendrochronologie",
+        "Datation par magnétisme terrestre"
+      ],
+      "answer": 1,
+      "explanation": "La datation U‑Pb est utilisée pour les roches très anciennes, incluant les stromatolites."
+    },
+    {
+      "id": "q17",
+      "type": "truefalse",
+      "prompt": "Selon la théorie de la panspermie, la vie aurait pu arriver sur Terre depuis l’espace.",
+      "answer": true,
+      "explanation": "La panspermie propose que des micro‑organismes ou leurs spores voyagent via des météorites."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "prompt": "Le terme « abiogenèse » désigne ___ .",
+      "answer": "l’apparition de la vie à partir de matière non‑vivante",
+      "explanation": "Abiogenèse = processus de formation de la vie à partir de composés inorganiques."
+    }
+  ]
+}

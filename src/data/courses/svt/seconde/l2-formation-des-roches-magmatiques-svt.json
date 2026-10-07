@@ -1,0 +1,167 @@
+{
+  "id": "svt-seconde-l2-formation-des-roches-magmatiques-svt",
+  "subjectId": "svt",
+  "levelId": "seconde",
+  "slug": "l2-formation-des-roches-magmatiques-svt",
+  "title": "Formation du granite et du basalte – cours de SVT 2nde",
+  "summary": "Ce cours guide les élèves de seconde à identifier le problème géologique lié à la formation du granite et du basalte, à formuler des hypothèses, à analyser des textes scientifiques et à comprendre les processus magmatiques (solidification du magma et du basalte). Il combine lecture, discussion, expériences de laboratoire et activités de synthèse pour atteindre les objectifs OST3 et OST4.",
+  "lesson": "# Motivation\n- Problème géologique : comment le granite et le basalte se forment‑ils ?\n- Texte de référence (planche 1, texte 1) → constat : les deux roches se forment, mais par des mécanismes différents.\n\n# Objectifs\n- **Général** : Comprendre le mode de formation des roches magmatiques.\n- **Spécifiques** :\n  - OST3 – Déterminer l’origine du granite et du basalte.\n  - OST4 – Expliquer les processus de formation du granite et du basalte.\n\n# Niveau & durée\n- Niveau : 2nde C\n- Durée : 3 h (≈ 180 min)\n\n# Matériel didactique\n- Planches, textes, bichromate de potassium, matériel de laboratoire (gaz, tubes à essai, bécher, glace, loupe, verre de montre), rétroprojecteur, transparents.\n\n# Déroulement de la leçon\n## 1. Introduction (15 min)\n- Distribution du texte 1, lecture silencieuse (2‑3 min).\n- Questions guidées : sujet du texte, problème géologique à dégager, formulation d’hypothèses.\n- Consignation des hypothèses en rouge sur une nouvelle page.\n\n## 2. Analyse du granite (45 min)\n- Lecture du texte 2 (granite) et collage des réponses.\n- Étapes d’analyse :\n  1. **Résultat** – Le granite provient du refroidissement d’un liquide chaud.\n  2. **Analyse** – Ce liquide est du magma issu de la fusion de sédiments argilo‑quartzeux et de roches préexistantes sous haute température et pression.\n  3. **Interprétation** – Le magma se solidifie lentement, formant une roche à grains visibles (granite).\n- Discussion : qualification du granite (roche intrusive, plutonique).\n\n## 3. Analyse du basalte (45 min)\n- Lecture d’un texte analogue sur le basalte.\n- Étapes similaires :\n  1. **Résultat** – Le basalte provient du refroidissement d’un liquide chaud à la surface.\n  2. **Analyse** – Le magma (ou lave) atteint la surface, se refroidit rapidement.\n  3. **Interprétation** – Refroidissement rapide → cristaux microscopiques, roche d‑extrusion (basalte).\n- Discussion : qualification du basalte (roche extrusive, volcanique).\n\n## 4. Synthèse et comparaison (30 min)\n- Tableau comparatif (granite vs basalte) : origine du magma, lieu de solidification, vitesse de refroidissement, taille des cristaux, type de roche.\n- Réponse collective à la question initiale.\n\n## 5. Évaluation formative (15 min)\n- Questions à choix multiples, vrai/faux et remplissage de blancs (voir section *questions*).\n- Retour rapide sur les réponses et clarification des points difficiles.\n\n# Conclusion\n- Le granite et le basalte proviennent du même matériau (magma) mais diffèrent par le lieu et la vitesse de refroidissement, ce qui explique leurs textures et leurs usages géologiques.",
+  "estimatedMinutes": 60,
+  "tags": [
+    "svt",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le principal facteur qui différencie la formation du granite et du basalte ?",
+      "options": [
+        "La composition chimique du magma",
+        "La température du magma",
+        "Le lieu et la vitesse de refroidissement",
+        "La présence d’eau dans le magma"
+      ],
+      "answer": 2,
+      "explanation": "Le granite se solidifie lentement en profondeur (refroidissement lent), tandis que le basalte se solidifie rapidement à la surface."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le granite est une roche intrusive.",
+      "answer": true,
+      "explanation": "Le granite se forme à partir d’un magma qui refroidit lentement sous la surface terrestre."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le magma qui donne le granite se refroidit _______________, ce qui produit de gros cristaux visibles à l’œil nu.",
+      "answer": "lentement",
+      "explanation": "Un refroidissement lent permet la croissance de cristaux de grande taille."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel terme désigne la roche formée par le refroidissement rapide du magma à la surface ?",
+      "options": [
+        "Granite",
+        "Gabbro",
+        "Basalte",
+        "Diorite"
+      ],
+      "answer": 2,
+      "explanation": "Le basalte résulte d’un refroidissement rapide du magma (ou de la lave) à la surface."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Le basalte possède généralement des cristaux plus gros que le granite.",
+      "answer": false,
+      "explanation": "Le basalte a des cristaux très fins, souvent invisibles à l’œil nu, à cause du refroidissement rapide."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Le processus de solidification du magma en profondeur forme des roches _______________ (plutonique).",
+      "answer": "intrusives",
+      "explanation": "Les roches qui se forment en profondeur sont appelées intrusives ou plutoniques."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dans le texte étudié, quel type de roches préexistantes contribue à la formation du granite ?",
+      "options": [
+        "Roches sédimentaires argilo‑quartzeuses",
+        "Roches métamorphiques",
+        "Roches volcaniques",
+        "Roches sédimentaires carbonatées"
+      ],
+      "answer": 0,
+      "explanation": "Le texte indique que le granite provient de la fusion de sédiments argilo‑quartzeux et de roches préexistantes de la croûte continentale."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Le basalte se forme uniquement à partir de magma provenant du manteau terrestre.",
+      "answer": false,
+      "explanation": "Le basalte peut provenir de magma issu de la fusion partielle du manteau mais aussi de la croûte, selon le contexte tectonique."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Le terme « lava » désigne le magma lorsqu’il atteint la _______________.",
+      "answer": "surface",
+      "explanation": "Une fois que le magma atteint la surface, on l’appelle lava."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel instrument est le plus adapté pour observer la texture du granite en classe ?",
+      "options": [
+        "Loupe binoculaire",
+        "Microscope électronique",
+        "Téléscope",
+        "Stéthoscope"
+      ],
+      "answer": 0,
+      "explanation": "Une loupe binoculaire permet de voir les gros cristaux du granite."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Le granite et le basalte ont la même densité moyenne.",
+      "answer": false,
+      "explanation": "Le basalte est généralement plus dense que le granite en raison de sa composition minérale."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Dans le tableau comparatif, la colonne « Vitesse de refroidissement » pour le basalte doit contenir le mot __________.",
+      "answer": "rapide",
+      "explanation": "Le basalte se refroidit rapidement à la surface."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quelle expérience de laboratoire peut illustrer la différence de vitesse de refroidissement entre les deux roches ?",
+      "options": [
+        "Faire fondre du sucre et le laisser refroidir à l’air libre",
+        "Faire fondre du sable et le refroidir dans de l’eau glacée",
+        "Faire fondre du chocolat et le refroidir sur une plaque chaude",
+        "Faire fondre du fer et le refroidir dans du sable chaud"
+      ],
+      "answer": 1,
+      "explanation": "Refroidir un liquide chaud dans de l’eau glacée reproduit un refroidissement rapide, analogue à la formation du basalte."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Le granite est généralement utilisé comme matériau de construction en raison de sa résistance mécanique.",
+      "answer": true,
+      "explanation": "Le granite possède une bonne résistance à la compression, ce qui le rend adapté aux constructions."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Le processus de formation du basalte est appelé __________ magmatique.",
+      "answer": "extrusif",
+      "explanation": "Le basalte se forme par un processus magmatique extrusif."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel type de texte était fourni aux élèves pour identifier le problème géologique ?",
+      "options": [
+        "Un texte narratif",
+        "Un texte descriptif",
+        "Un texte argumentatif",
+        "Un texte scientifique (extrait de manuel)"
+      ],
+      "answer": 3,
+      "explanation": "Le texte était un extrait scientifique décrivant la formation des roches magmatiques."
+    }
+  ]
+}

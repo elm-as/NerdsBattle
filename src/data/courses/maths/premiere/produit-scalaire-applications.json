@@ -1,0 +1,70 @@
+{
+  "id": "maths-premiere-produit-scalaire-applications",
+  "title": "Produit scalaire et applications",
+  "summary": "Le produit scalaire est un outil puissant pour mesurer des angles, des longueurs et des orthogonalités dans le plan. Il permet de résoudre des problèmes de géométrie et de physique, et constitue une base essentielle pour le programme de Première et le BAC.",
+  "lesson": "## Introduction & Mise en situation\n\nLe produit scalaire est un concept fondamental en mathématiques, notamment en géométrie et en analyse. Il permet de quantifier le lien entre deux vecteurs : leur direction, leur sens et leur longueur. Grâce à lui, vous pouvez calculer des angles, des distances, et déterminer si des droites sont perpendiculaires. C'est un outil indispensable pour résoudre des problèmes concrets, comme en physique (travail d'une force) ou en géométrie (calcul d'aires). Dans ce chapitre, nous allons explorer sa définition, ses propriétés et ses applications pratiques.\n\n## 1. Définitions et Principes Fondamentaux\n\nLe produit scalaire de deux vecteurs $\\vec{u}$ et $\\vec{v}$, noté $\\vec{u} \\cdot \\vec{v}$, est un nombre réel. Il se définit de plusieurs manières équivalentes :\n\n- **Définition géométrique** : Si $\\vec{u}$ et $\\vec{v}$ sont non nuls, alors\n$$\\vec{u} \\cdot \\vec{v} = \\|\\vec{u}\\| \\times \\|\\vec{v}\\| \\times \\cos(\\theta)$$\noù $\\theta$ est l'angle entre les deux vecteurs. Si l'un des vecteurs est nul, le produit scalaire vaut $0$.\n\n- **Définition analytique** : Dans un repère orthonormé $(O; \\vec{i}, \\vec{j})$, si $\\vec{u}(x; y)$ et $\\vec{v}(x'; y')$, alors\n$$\\vec{u} \\cdot \\vec{v} = xx' + yy'$$\n\n- **Propriété avec les normes** : $\\vec{u} \\cdot \\vec{v} = \\frac{1}{2} \\left( \\|\\vec{u}+\\vec{v}\\|^2 - \\|\\vec{u}\\|^2 - \\|\\vec{v}\\|^2 \\right)$\n\n**Conséquences immédiates :**\n- $\\vec{u} \\cdot \\vec{u} = \\|\\vec{u}\\|^2$ (carré scalaire)\n- $\\vec{u} \\cdot \\vec{v} = 0$ si et seulement si $\\vec{u} \\perp \\vec{v}$ (vecteurs orthogonaux)\n\n## 2. Propriétés et Méthodes d'application\n\n### Propriétés algébriques\nLe produit scalaire est **symétrique** : $\\vec{u} \\cdot \\vec{v} = \\vec{v} \\cdot \\vec{u}$\nIl est **linéaire** : $\\vec{u} \\cdot (\\vec{v} + \\vec{w}) = \\vec{u} \\cdot \\vec{v} + \\vec{u} \\cdot \\vec{w}$ et $(k\\vec{u}) \\cdot \\vec{v} = k(\\vec{u} \\cdot \\vec{v})$\n\n### Méthodes pour calculer un produit scalaire\n1. **Si vous avez les coordonnées** : utilisez la formule $xx' + yy'$.\n2. **Si vous avez les normes et l'angle** : utilisez $\\|\\vec{u}\\| \\|\\vec{v}\\| \\cos\\theta$.\n3. **Si vous avez une configuration géométrique** : projetez un vecteur sur l'autre.\n\n**Exemple 1** : Dans un repère orthonormé, $\\vec{u}(2; -3)$ et $\\vec{v}(-1; 4)$. Calculer $\\vec{u} \\cdot \\vec{v}$.\n\nSolution : $2 \\times (-1) + (-3) \\times 4 = -2 - 12 = -14$.\n\n**Exemple 2** : $\\|\\vec{u}\\| = 3$, $\\|\\vec{v}\\| = 5$, et l'angle entre eux est $60^\\circ$. Calculer $\\vec{u} \\cdot \\vec{v}$.\n\nSolution : $3 \\times 5 \\times \\cos 60^\\circ = 15 \\times \\frac{1}{2} = 7,5$.\n\n### Applications\n- **Calcul d'angle** : $\\cos\\theta = \\frac{\\vec{u} \\cdot \\vec{v}}{\\|\\vec{u}\\| \\|\\vec{v}\\|}$\n- **Orthogonalité** : Deux vecteurs sont orthogonaux si leur produit scalaire est nul.\n- **Théorème de la médiane** : Dans un triangle $ABC$, si $I$ est le milieu de $[BC]$, alors $AB^2 + AC^2 = 2AI^2 + \\frac{BC^2}{2}$.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre produit scalaire et produit de normes** : $\\vec{u} \\cdot \\vec{v} \\neq \\|\\vec{u}\\| \\times \\|\\vec{v}\\|$ sauf si les vecteurs sont colinéaires et de même sens.\n- **Oublier le cosinus** : Dans la formule géométrique, il ne faut pas oublier $\\cos\\theta$.\n- **Erreur de signe** : Le produit scalaire peut être négatif si l'angle est obtus.\n- **Ne pas vérifier l'orthogonalité** : Pour montrer que deux droites sont perpendiculaires, il faut montrer que le produit scalaire de leurs vecteurs directeurs est nul.\n- **Utiliser la formule analytique dans un repère non orthonormé** : La formule $xx' + yy'$ n'est valable que dans un repère orthonormé.\n\n## Synthèse\n\n1. **Définition** : Le produit scalaire de deux vecteurs est un nombre qui mesure leur alignement ; il se calcule par $xx' + yy'$ en coordonnées, ou par $\\|\\vec{u}\\| \\|\\vec{v}\\| \\cos\\theta$ géométriquement.\n2. **Propriétés** : Il est symétrique, linéaire, et permet de caractériser l'orthogonalité ($\\vec{u} \\cdot \\vec{v} = 0$).\n3. **Applications** : Calcul d'angles, de longueurs, et preuve de perpendicularité ; il est essentiel pour la résolution de problèmes géométriques et physiques.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "produit scalaire",
+    "géométrie",
+    "vecteurs",
+    "bac",
+    "première"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Soient $\\vec{u}(3; -2)$ et $\\vec{v}(-1; 4)$. Que vaut $\\vec{u} \\cdot \\vec{v}$ ?",
+      "options": [
+        "-11",
+        "11",
+        "5",
+        "-5"
+      ],
+      "answer": 0,
+      "explanation": "On calcule $3 \\times (-1) + (-2) \\times 4 = -3 - 8 = -11$."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le produit scalaire de deux vecteurs orthogonaux est toujours nul.",
+      "answer": true,
+      "explanation": "Par définition, si les vecteurs sont orthogonaux, l'angle entre eux est de 90°, donc $\\cos 90° = 0$, ce qui rend le produit scalaire nul."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Si $\\|\\vec{u}\\| = 4$, $\\|\\vec{v}\\| = 3$ et l'angle entre eux est de $60°$, alors $\\vec{u} \\cdot \\vec{v} =$ ______ (donner la valeur exacte).",
+      "answer": "6",
+      "explanation": "On utilise la formule : $4 \\times 3 \\times \\cos 60° = 12 \\times 0.5 = 6$."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans un repère orthonormé, $\\vec{u}(2; 5)$ et $\\vec{v}(-3; 1)$. Ces deux vecteurs sont-ils orthogonaux ?",
+      "options": [
+        "Oui",
+        "Non",
+        "Cela dépend",
+        "Impossible à savoir"
+      ],
+      "answer": 1,
+      "explanation": "Le produit scalaire vaut $2 \\times (-3) + 5 \\times 1 = -6 + 5 = -1 \\neq 0$, donc ils ne sont pas orthogonaux."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Le produit scalaire est commutatif, c'est-à-dire $\\vec{u} \\cdot \\vec{v} = \\vec{v} \\cdot \\vec{u}$.",
+      "answer": true,
+      "explanation": "C'est une propriété fondamentale du produit scalaire : il est symétrique."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Soient $\\vec{u}(1; 2)$ et $\\vec{v}(3; -1)$. Le produit scalaire $\\vec{u} \\cdot \\vec{v}$ vaut ______.",
+      "answer": "1",
+      "explanation": "On calcule $1 \\times 3 + 2 \\times (-1) = 3 - 2 = 1$."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "anglais-seconde-modal-verbs",
+  "title": "Modal verbs",
+  "summary": "Can, must, may, should : exprimer la modalité.",
+  "lesson": "Les modaux ne prennent pas de -s à la 3ᵉ pers. et sont suivis de la base verbale. Can = capacité/permission. Must = obligation forte. May = possibilité/permission formelle. Should = conseil. Pour le passé : could, had to, might.",
+  "estimatedMinutes": 9,
+  "tags": ["grammar", "modals"],
+  "questions": [
+    { "id": "q1", "type": "mcq", "prompt": "You ___ wear a helmet on a bike.", "options": ["can", "should", "may", "would"], "answer": 1, "explanation": "Conseil → should." },
+    { "id": "q2", "type": "truefalse", "prompt": "« She musts go » est correct.", "answer": false, "explanation": "Modaux invariables : 'she must go'." },
+    { "id": "q3", "type": "fill", "prompt": "Past form of 'can' (capacité) = ___", "answer": "could", "explanation": "Ex : I could swim at age 5." },
+    { "id": "q4", "type": "mcq", "prompt": "Strong obligation:", "options": ["may", "might", "must", "could"], "answer": 2, "explanation": "Must = obligation." }
+  ]
+}

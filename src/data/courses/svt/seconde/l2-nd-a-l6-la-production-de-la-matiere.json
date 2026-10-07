@@ -1,0 +1,173 @@
+{
+  "id": "svt-seconde-l2-nd-a-l6-la-production-de-la-matiere",
+  "subjectId": "svt",
+  "levelId": "seconde",
+  "slug": "l2-nd-a-l6-la-production-de-la-matiere",
+  "title": "Production de la matière organique chez la plante verte (SVT 2nde)",
+  "summary": "Cette leçon explique comment la plante verte fabrique la matière organique par photosynthèse, les conditions nécessaires (lumière, CO₂, chlorophylle) et l’influence des grands ensembles environnementaux (atmosphère, lithosphère, hydrosphère, biosphère). Elle s’appuie sur trois expériences (lumière, CO₂, chlorophylle) et conclut sur les échanges entre végétaux et environnement.",
+  "lesson": "## 1. Introduction\nLes élèves de 2nde A ont découvert des tubercules de manioc et se sont interrogés sur leur origine. Le professeur a expliqué que les tubercules sont des réserves d’organismes produits dans les feuilles par la photosynthèse.\n\n## 2. Conditions de production de la matière organique\n### 2.1 Expérience A – Influence de la lumière\n- Feuille 1 : exposée à la lumière 24 h\n- Feuille 2 : dans l’obscurité 24 h\n- Après décapage à l’alcool, test à l’iode → **bleu‑violet** uniquement sur la feuille éclairée → production d’amidon.\n### 2.2 Expérience B – Influence du CO₂\n- Deux lots de feuilles sous même éclairage.\n- Lot 2 : CO₂ éliminé par solution de potasse + chaux.\n- Test à l’iode → **bleu‑violet** seulement sur le lot avec CO₂.\n### 2.3 Expérience C – Influence de la chlorophylle\n- Plante à feuilles panachées (parties vertes et dépigmentées) sous lumière et CO₂.\n- Test à l’iode → **bleu‑violet** uniquement sur les zones vertes.\n\n## 3. Analyse et interprétation\n- La **lumière** active la chlorophylle qui capte l’énergie.\n- Le **CO₂** est le carbone fixé.\n- La **chlorophylle** est indispensable : sans pigment vert, pas de photosynthèse.\n- Réaction globale :\n```\n6 CO₂ + 6 H₂O  →  C₆H₁₂O₆ + 6 O₂   (énergie lumineuse)\n```\n- Le glucose ainsi formé est la matière organique ; il sert au développement végétal ou est stocké (fruits, tubercules).\n\n## 4. Influence de l’environnement\n| Ensemble | Apport à la plante |\n|----------|-------------------|\n| Atmosphère | CO₂, lumière, température |\n| Lithosphère | Sels minéraux |\n| Hydrosphère | Eau |\n| Biosphère | O₂ (produit) |\n- Les végétaux utilisent l’eau et les minéraux, libèrent O₂ et captent CO₂, participant à la régulation des cycles biogéochimiques.\n\n## 5. Conclusions\n- La matière organique est produite **uniquement** lorsque lumière, CO₂ et chlorophylle sont présents.\n- Les grands ensembles environnementaux fournissent les ressources indispensables et bénéficient des échanges gazeux de la photosynthèse.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "svt",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle condition est indispensable pour que la chlorophylle devienne active ?",
+      "options": [
+        "Présence d’eau",
+        "Présence de lumière",
+        "Température élevée",
+        "Présence de nitrate"
+      ],
+      "answer": 1,
+      "explanation": "La chlorophylle capte l’énergie lumineuse ; sans lumière elle reste inactive."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Dans l’expérience B, la feuille exposée à l’air dépourvu de CO₂ ne produit pas d’amidon.",
+      "answer": true,
+      "explanation": "Le test à l’iode ne montre pas de coloration bleue‑violette, indiquant l’absence d’amidon."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "L’équation globale de la photosynthèse est 6 CO₂ + 6 H₂O → ______ + 6 O₂.",
+      "answer": "C6H12O6",
+      "explanation": "Le produit organique est le glucose (C₆H₁₂O₆)."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel ensemble environnemental fournit les sels minéraux aux plantes ?",
+      "options": [
+        "Atmosphère",
+        "Lithosphère",
+        "Hydrosphère",
+        "Biosphère"
+      ],
+      "answer": 1,
+      "explanation": "Les minéraux proviennent de la lithosphère (sol, roches)."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Dans l’expérience C, quelle partie de la feuille montre la coloration bleue‑violette après le test à l’iode ?",
+      "options": [
+        "La zone dépigmentée",
+        "La zone verte",
+        "Toute la feuille",
+        "Aucune zone"
+      ],
+      "answer": 1,
+      "explanation": "Seules les zones contenant de la chlorophylle (vertes) produisent de l’amidon."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "La photosynthèse libère du dioxyde de carbone dans l’atmosphère.",
+      "answer": false,
+      "explanation": "Elle libère du dioxygène (O₂) et consomme du CO₂."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Le pigment vert des végétaux s’appelle ______.",
+      "answer": "chlorophylle",
+      "explanation": "La chlorophylle absorbe la lumière et initie la photosynthèse."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel est le rôle principal de l’eau dans la photosynthèse ?",
+      "options": [
+        "Fournir du carbone",
+        "Fournir des électrons et des protons",
+        "Servir de support physique",
+        "Réguler la température"
+      ],
+      "answer": 1,
+      "explanation": "L’eau est scindée en H₂ (électrons/protons) et O₂."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Les tubercules de manioc stockent la matière organique produite par les feuilles.",
+      "answer": true,
+      "explanation": "Les tubercules sont des organes de réserve où le glucose est stocké sous forme d’amidon."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel facteur n’est PAS mentionné comme influençant la production d’amidon dans les expériences ?",
+      "options": [
+        "Température",
+        "Lumière",
+        "CO₂",
+        "Chlorophylle"
+      ],
+      "answer": 0,
+      "explanation": "La température n’est pas étudiée dans les trois expériences décrites."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Le processus qui transforme le CO₂ et l’eau en glucose s’appelle ______.",
+      "answer": "photosynthèse",
+      "explanation": "Définition du processus étudié."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Les plantes utilisent le glucose uniquement pour leur croissance, jamais pour le stockage.",
+      "answer": false,
+      "explanation": "Une partie du glucose est stockée dans les fruits, tubercules, etc."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel ensemble environnemental reçoit de l’oxygène produit par les plantes ?",
+      "options": [
+        "Lithosphère",
+        "Hydrosphère",
+        "Atmosphère",
+        "Biosphère"
+      ],
+      "answer": 2,
+      "explanation": "L’oxygène libéré par la photosynthèse enrichit l’atmosphère."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Lors de la décoloration à l’alcool, on élimine le pigment ______ pour révéler la présence d’amidon avec l’iode.",
+      "answer": "chlorophylle",
+      "explanation": "L’alcool retire la chlorophylle, facilitant le test à l’iode."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Dans l’expérience A, la feuille placée dans l’obscurité a montré une coloration bleue‑violette après le test à l’iode.",
+      "answer": false,
+      "explanation": "Sans lumière, aucune production d’amidon, donc pas de coloration."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel est le produit gazeux libéré lors de la photosynthèse ?",
+      "options": [
+        "CO₂",
+        "N₂",
+        "O₂",
+        "CH₄"
+      ],
+      "answer": 2,
+      "explanation": "L’oxygène (O₂) est libéré comme sous‑produit."
+    }
+  ]
+}

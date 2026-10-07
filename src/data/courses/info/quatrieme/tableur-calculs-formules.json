@@ -1,0 +1,70 @@
+{
+  "id": "info-quatrieme-tableur-calculs-formules",
+  "title": "Découverte du tableur : cellules, calculs et formules",
+  "summary": "Ce chapitre vous apprend à utiliser un tableur pour organiser des données et effectuer des calculs automatiques. Vous découvrirez comment créer des formules simples et des fonctions de base, des compétences essentielles pour la vie quotidienne et professionnelle.",
+  "lesson": "## Introduction & Mise en situation\n\nImaginez que vous devez calculer la moyenne de vos notes sur l'année, ou que vos parents veulent gérer un budget familial. Faire ces calculs à la main peut être long et source d'erreurs. Le tableur est un outil informatique puissant qui permet de saisir des données dans un tableau et d'effectuer des calculs automatiquement. C'est un outil indispensable dans le monde du travail, que ce soit pour gérer des finances, des statistiques ou des listes d'élèves. Dans ce chapitre, vous allez apprendre les bases du tableur : les cellules, les formules et les fonctions.\n\n## 1. Définitions et Principes Fondamentaux\n\nUn **tableur** est un logiciel qui permet de créer et de manipuler des tableaux de données. Les logiciels de tableur les plus connus sont Microsoft Excel, LibreOffice Calc et Google Sheets.\n\n- **Classeur** : Un fichier créé avec un tableur. Il peut contenir plusieurs feuilles de calcul.\n- **Feuille de calcul** : Une grille composée de lignes et de colonnes. Chaque feuille est identifiée par un onglet en bas de l'écran.\n- **Cellule** : L'intersection d'une ligne et d'une colonne. C'est l'élément de base où l'on saisit des données (texte, nombre, date, formule).\n- **Référence de cellule** : Chaque cellule a une adresse unique, formée par la lettre de la colonne et le numéro de la ligne. Par exemple, la cellule à la colonne B et à la ligne 3 est notée **B3**.\n- **Plage de cellules** : Un ensemble de cellules contiguës, noté par la première et la dernière cellule séparées par deux points. Par exemple, **A1:B3** représente les cellules A1, A2, A3, B1, B2, B3.\n\n**Formules et fonctions** : Une **formule** est une expression mathématique qui commence par le signe égal (=) et qui peut contenir des nombres, des références de cellules, des opérateurs (+, -, *, /) et des fonctions. Une **fonction** est une formule prédéfinie qui effectue un calcul spécifique, comme SOMME, MOYENNE, MAX, MIN.\n\n## 2. Propriétés et Méthodes d'application\n\n### Saisie de données et sélection\n\nPour saisir une donnée, cliquez sur une cellule et tapez. Pour sélectionner une plage, cliquez sur la première cellule et faites glisser la souris jusqu'à la dernière.\n\n### Création de formules simples\n\nPour additionner deux cellules, par exemple A1 et B1, vous pouvez écrire dans une autre cellule :\n\n$$=A1+B1$$\n\nLes opérateurs de base sont :\n- **+** pour l'addition\n- **-** pour la soustraction\n- **\\*** pour la multiplication\n- **/** pour la division\n\n**Exemple concret** : Dans un tableau de notes, la cellule B2 contient 15, la cellule C2 contient 18. Pour calculer la somme, tapez dans D2 : `=B2+C2`. Le résultat affiché sera 33.\n\n### Utilisation de fonctions de base\n\nLes fonctions sont très utiles pour éviter d'écrire de longues formules. Voici les plus courantes :\n\n- **SOMME(plage)** : additionne tous les nombres d'une plage. Exemple : `=SOMME(B2:B10)` calcule la somme des valeurs de B2 à B10.\n- **MOYENNE(plage)** : calcule la moyenne arithmétique. Exemple : `=MOYENNE(B2:B10)`.\n- **MAX(plage)** : renvoie la valeur maximale. Exemple : `=MAX(B2:B10)`.\n- **MIN(plage)** : renvoie la valeur minimale. Exemple : `=MIN(B2:B10)`.\n\n**Exemple calculé** : Supposons que les notes de 5 élèves sont en B2:B6 : 12, 15, 18, 10, 14. Pour calculer la moyenne, on écrit `=MOYENNE(B2:B6)`. Le résultat est (12+15+18+10+14)/5 = 69/5 = 13.8.\n\n### Recopie de formule\n\nL'un des grands avantages du tableur est la possibilité de recopier une formule vers le bas ou vers la droite. Lorsque vous recopiez une formule, les références de cellules s'ajustent automatiquement (c'est ce qu'on appelle les références relatives). Par exemple, si vous avez la formule `=A1+B1` en C1 et que vous la recopiez en C2, elle deviendra `=A2+B2`. Pour cela, cliquez sur la cellule contenant la formule, puis tirez la poignée de recopie (le petit carré en bas à droite de la cellule).\n\n## 3. Pièges fréquents & Mises en garde\n\n1. **Oublier le signe égal** : Une formule doit toujours commencer par `=`. Si vous tapez `A1+B1` sans le signe égal, le tableur considère que c'est du texte et n'effectue pas le calcul.\n2. **Confondre la virgule et le point** : Dans la saisie des nombres décimaux, utilisez le point (.) comme séparateur décimal, car la virgule est utilisée pour séparer les arguments des fonctions. Exemple : `=MOYENNE(12,5;14)` est correct en français, mais attention à la configuration.\n3. **Ne pas utiliser les références de cellules** : Si vous saisissez directement les nombres dans une formule, par exemple `=15+18`, le calcul se fera, mais si vous modifiez les valeurs en A1 et B1, la formule ne se mettra pas à jour. Il est préférable d'utiliser les références.\n4. **Erreur #DIV/0!** : Cela se produit lorsqu'on divise par zéro. Vérifiez vos données.\n5. **Erreur #NOM?** : Cela indique que le nom d'une fonction est mal orthographié ou que la fonction n'existe pas.\n\n## Synthèse\n\n1. **Le tableur est un outil de calcul et d'organisation de données** : les cellules sont les éléments de base, identifiées par une lettre et un numéro (ex : B3).\n2. **Les formules commencent toujours par =** et utilisent des références de cellules pour effectuer des calculs dynamiques. Les fonctions comme SOMME et MOYENNE simplifient les calculs sur des plages.\n3. **La recopie de formule** permet de gagner du temps, mais il faut être attentif aux références relatives et absolues (absolues non vues ici).\n\nAvec ces bases, vous pouvez créer des tableaux de notes, des budgets, et bien plus encore. Entraînez-vous régulièrement pour devenir un expert !",
+  "estimatedMinutes": 12,
+  "tags": [
+    "tableur",
+    "formules",
+    "fonctions",
+    "calculs",
+    "TICE"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la référence de la cellule située à l'intersection de la colonne B et de la ligne 3 ?",
+      "options": [
+        "B3",
+        "3B",
+        "B:3",
+        "3:B"
+      ],
+      "answer": 0,
+      "explanation": "La référence d'une cellule est formée par la lettre de la colonne suivie du numéro de la ligne. Donc B3."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Une formule dans un tableur doit toujours commencer par le signe égal (=).",
+      "answer": true,
+      "explanation": "Oui, sans le signe =, le tableur considère la saisie comme du texte et n'effectue pas le calcul."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Dans un tableur, pour additionner les cellules A1 et B1, on écrit la formule : =A1___B1 (opérateur à utiliser).",
+      "answer": "+",
+      "explanation": "L'opérateur d'addition est le signe plus (+)."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle fonction permet de calculer la moyenne d'une plage de cellules ?",
+      "options": [
+        "SOMME",
+        "MOYENNE",
+        "MAX",
+        "MIN"
+      ],
+      "answer": 1,
+      "explanation": "La fonction MOYENNE calcule la moyenne arithmétique d'une plage."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Si vous recopiez une formule contenant des références relatives, les références s'ajustent automatiquement.",
+      "answer": true,
+      "explanation": "C'est le principe de la recopie : les références relatives se déplacent en fonction de la nouvelle position."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Quelle erreur s'affiche lorsqu'on divise par zéro dans un tableur ? (réponse en format #ERREUR)",
+      "answer": "#DIV/0!",
+      "explanation": "L'erreur #DIV/0! indique une division par zéro."
+    }
+  ]
+}

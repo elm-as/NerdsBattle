@@ -1,0 +1,173 @@
+{
+  "id": "physique-terminale-mouvements-dans-un-champ-uniforme-physique-t",
+  "subjectId": "physique",
+  "levelId": "terminale",
+  "slug": "mouvements-dans-un-champ-uniforme-physique-t",
+  "title": "Mouvements dans un champ uniforme – projectile et particule chargée",
+  "summary": "Ce cours traite du mouvement d’un solide soumis à la pesanteur uniforme (projectile) puis du mouvement d’une particule chargée dans un champ électrostatique uniforme. On y présente les bilans de forces, les équations horaires, la trajectoire, la flèche, la portée et les relations du champ électrique entre deux plaques parallèles. Les notions sont illustrées par des formules, des diagrammes et des exemples d’application.",
+  "lesson": "# I. Mouvement d’un solide dans un champ de pesanteur uniforme\n## 1. Étude dynamique\n- Référentiel terrestre (galiléen).\n- Bilan des forces : seul le poids **P = m g j** agit.\n- Application du principe fondamental de la dynamique (PFD) :\n  $$m\\,\\vec a = \\vec P \\;\\Rightarrow\\; \\vec a = \\vec g = -g\\,\\hat j$$\n## 2. Étude cinématique\n### 2.1. Équations horaires\n- Vecteur vitesse initiale : \\(\\vec V_0 = V_0(\\cos\\alpha\\,\\hat i + \\sin\\alpha\\,\\hat j)\\).\n- Position à l’instant \\(t\\):\n  $$x(t)=V_0\\cos\\alpha\\,t$$\n  $$y(t)=V_0\\sin\\alpha\\,t-\\frac12gt^2$$\n  $$z(t)=0$$\n### 2.2. Trajectoire\n- En éliminant \\(t\\) :\n  $$y = x\\tan\\alpha - \\frac{g}{2V_0^2\\cos^2\\alpha}\\,x^2$$\n  forme paraboliques.\n#### 2.2.1. Flèche \\(H\\)\n- Hauteur maximale obtenue pour \\(\\dot y=0\\) :\n  $$H = \\frac{V_0^2\\sin^2\\alpha}{2g}$$\n#### 2.2.2. Portée \\(x_P\\)\n- Condition \\(y=0\\) donne :\n  $$x_P = \\frac{2V_0^2\\sin\\alpha\\cos\\alpha}{g}=\\frac{V_0^2\\sin2\\alpha}{g}$$\n- Portée maximale pour \\(\\alpha=45°\\): \\(x_{max}=\\frac{V_0^2}{g}\\).\n\n# II. Mouvement d’une particule chargée dans un champ électrostatique uniforme\n## 1. Rappel sur le champ électrostatique\n- Deux plaques parallèles séparées de distance \\(d\\) avec tension \\(U\\) créent un champ uniforme :\n  $$\\vec E = \\frac{U}{d}\\,\\hat n$$\n- Direction : du potentiel élevé vers le potentiel bas.\n## 2. Étude du mouvement\n- Force électrique : \\(\\vec F = q\\,\\vec E\\).\n- PFD : \\(m\\,\\vec a = q\\,\\vec E\\) ⇒ \\(\\vec a = \\frac{q}{m}\\,\\vec E\\) (accélération constante).\n- Équations horaires (si la vitesse initiale est \\(\\vec V_0\\)) :\n  $$\\vec r(t)=\\vec r_0+\\vec V_0 t+\\frac12\\frac{q}{m}\\vec E t^2$$\n- La trajectoire est une parabole dans le plan contenant \\(\\vec V_0\\) et \\(\\vec E\\).",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est l’expression de l’accélération d’un projectile soumis uniquement à la pesanteur?",
+      "options": [
+        "\\(\\vec a = -g\\,\\hat i\\)",
+        "\\(\\vec a = -g\\,\\hat j\\)",
+        "\\(\\vec a = g\\,\\hat j\\)",
+        "\\(\\vec a = 0\\)"
+      ],
+      "answer": 1,
+      "explanation": "Le poids agit verticalement vers le bas, donc \\(\\vec a = \\vec g = -g\\,\\hat j\\)."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Pour un projectile lancé avec vitesse \\(V_0\\) et angle \\(\\alpha\\), quelle est la formule de la portée maximale?",
+      "options": [
+        "\\(\\frac{V_0^2\\sin\\alpha}{g}\\)",
+        "\\(\\frac{V_0^2\\sin2\\alpha}{g}\\)",
+        "\\(\\frac{2V_0^2\\sin\\alpha\\cos\\alpha}{g}\\)",
+        "Les deux dernières réponses sont équivalentes"
+      ],
+      "answer": 3,
+      "explanation": "\\(\\frac{2V_0^2\\sin\\alpha\\cos\\alpha}{g}=\\frac{V_0^2\\sin2\\alpha}{g}\\)."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "La flèche \\(H\\) d’un projectile est maximale lorsque l’angle de lancement est de 90°.",
+      "answer": true,
+      "explanation": "Pour \\(\\alpha=90°\\), \\(\\sin\\alpha=1\\) et \\(H=V_0^2/(2g)\\) est maximal."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Écrire l’équation cartésienne de la trajectoire d’un projectile en fonction de \\(x\\), \\(V_0\\), \\(\\alpha\\) et \\(g\\).",
+      "answer": "y = x*tan(alpha) - (g*x^2)/(2*V_0^2*cos(alpha)^2)",
+      "explanation": "On élimine \\(t\\) entre les équations horaires."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Dans un champ électrostatique uniforme entre deux plaques, l’intensité du champ vaut:",
+      "options": [
+        "\\(E=U\\cdot d\\)",
+        "\\(E=U/d\\)",
+        "\\(E=U\\)",
+        "\\(E=d/U\\)"
+      ],
+      "answer": 1,
+      "explanation": "Le champ est la différence de potentiel divisée par la distance: \\(E=U/d\\)."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Une particule chargée négative se déplace dans le même sens que le vecteur \\(\\vec E\\) si elle est placée entre deux plaques parallèles.",
+      "answer": false,
+      "explanation": "La force électrique est \\(\\vec F = q\\vec E\\); pour \\(q<0\\) la force est opposée à \\(\\vec E\\)."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quelle est l’expression de l’accélération d’une particule de charge \\(q\\) et de masse \\(m\\) dans un champ \\(\\vec E\\) uniforme?",
+      "options": [
+        "\\(\\vec a = \\frac{q}{m}\\,\\vec E\\)",
+        "\\(\\vec a = \\frac{m}{q}\\,\\vec E\\)",
+        "\\(\\vec a = q\\,\\vec E\\)",
+        "\\(\\vec a = \\frac{\\vec E}{q}\\)"
+      ],
+      "answer": 0,
+      "explanation": "PFD donne \\(m\\vec a = q\\vec E\\) ⇒ \\(\\vec a = \\frac{q}{m}\\vec E\\)."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Si une particule part du repos dans un champ \\(E\\) de valeur 5·10⁴ V/m, porte une charge de +2 µC et une masse de 1 g, quelle est son accélération (en m·s⁻²) ?",
+      "answer": "100000",
+      "explanation": "a = qE/m = (2·10⁻⁶ C)(5·10⁴ V/m)/(1·10⁻³ kg)=1·10⁵ m/s²."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel est le temps de vol total d’un projectile lancé avec \\(V_0=20\\,\\text{m·s}^{-1}\\) à \\(\\alpha=30°\\) (g=9.81 m·s⁻²) ?",
+      "options": [
+        "2.04 s",
+        "2.00 s",
+        "1.99 s",
+        "2.10 s"
+      ],
+      "answer": 2,
+      "explanation": "Temps de vol = \\(2V_0\\sin\\alpha/g = 2·20·0.5/9.81≈2.04\\) s, arrondi à 1.99 s selon le choix le plus proche."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Dans le plan (xOy) du projectile, la composante z de la position reste toujours nulle.",
+      "answer": true,
+      "explanation": "Le mouvement est plan, donc \\(z(t)=0\\)."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Donner la valeur de la portée maximale d’un projectile de vitesse initiale \\(V_0=25\\,\\text{m·s}^{-1}\\) (g=10 m·s⁻²).",
+      "answer": "62.5",
+      "explanation": "Portée max = V_0^2/g = 25^2/10 = 62.5 m."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel paramètre influence la forme de la trajectoire d’un projectile?",
+      "options": [
+        "Masse du projectile",
+        "Valeur du champ gravitationnel",
+        "Angle de lancement",
+        "Toutes les réponses précédentes"
+      ],
+      "answer": 2,
+      "explanation": "La forme (parabole) dépend de l’angle de lancement; la masse n’intervient pas dans la trajectoire."
+    },
+    {
+      "id": "q13",
+      "type": "truefalse",
+      "prompt": "Dans un champ électrique uniforme, la trajectoire d’une particule chargée est toujours une droite.",
+      "answer": false,
+      "explanation": "Avec une vitesse initiale non nulle, la trajectoire est une parabole (accélération constante)."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Exprimer la vitesse verticale \\(V_y\\) d’un projectile au temps \\(t\\) en fonction de \\(V_0\\), \\(\\alpha\\) et \\(g\\).",
+      "answer": "V_y = V_0*sin(alpha) - g*t",
+      "explanation": "Dérivée de \\(y(t)\\) donne \\(V_y(t)\\)."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Si la tension entre deux plaques est doublée, que se passe-t-il pour le champ \\(E\\) entre elles?",
+      "options": [
+        "Il reste inchangé",
+        "Il double",
+        "Il est multiplié par quatre",
+        "Il diminue de moitié"
+      ],
+      "answer": 1,
+      "explanation": "E = U/d, donc E double lorsque U double."
+    },
+    {
+      "id": "q16",
+      "type": "truefalse",
+      "prompt": "La portée d’un projectile est indépendante de la hauteur de lancement lorsqu’elle est nulle.",
+      "answer": true,
+      "explanation": "Si le point de départ et d’arrivée sont au même niveau (y=0), la formule de portée ne dépend pas de la hauteur initiale."
+    }
+  ]
+}

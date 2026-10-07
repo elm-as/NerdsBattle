@@ -1,0 +1,139 @@
+{
+  "id": "culture_generale-quatrieme-l2-edhc-4eme-l-2-la-lutte-contre-le-rec",
+  "subjectId": "culture_generale",
+  "levelId": "quatrieme",
+  "slug": "l2-edhc-4eme-l-2-la-lutte-contre-le-rec",
+  "title": "Leçon 2 : Lutte contre le recrutement des enfants-soldats et préservation de la paix sociale",
+  "summary": "Cette leçon explore la définition, les causes et les conséquences du recrutement d’enfants-soldats, ainsi que les stratégies de réinsertion. Elle propose des activités d’application et d’évaluation pour renforcer la compréhension et la participation des élèves à la cohésion sociale.",
+  "lesson": "# Leçon 2 : Lutte contre le recrutement des enfants-soldats et préservation de la paix sociale\n\n## 1. Situation d’apprentissage\nUn élève informe ses camarades que des adolescents ex‑combattants habitent le même quartier. Les habitants se méfient d’eux et ont peur de les fréquenter. Les élèves décident de s’informer sur la réinsertion des enfants‑soldats pour comprendre l’importance de cette démarche.\n\n## 2. Les enfants‑soldats\n\n### 2.1 Définition\nUn **enfant‑soldat** est un membre de groupes armés âgé de moins de 16 ans.\n\n### 2.2 Causes du recrutement\n| Niveau | Motif |\n|--------|-------|\n| Recruteurs | Besoin en combattants, utilisation comme boucliers humains, docilité et maniabilité |\n| Enfants | Recherche de sécurité, désir de vengeance, insouciance |\n\n### 2.3 Conséquences\n| Niveau | Conséquence |\n|--------|-------------|\n| Individuel | Traumatismes, mutilations, délinquance, déshumanisation, mort |\n| Social | Insécurité sociale |\n\n## 3. Actions de réinsertion\n- Associer l’enfant‑soldat aux jeux des enfants\n- Éviter de le stigmatiser\n- Ne pas lui rappeler les atrocités de la guerre\n- L’initier à l’apprentissage de métiers\n- L’encourager à participer aux travaux d’intérêt public\n- Le scolariser\n\n## 4. Résumé\nLa lutte contre le recrutement des enfants‑soldats favorise la cohésion sociale et contribue à la préservation de la paix. Chaque citoyen doit se sentir concerné pour participer à leur réinsertion.\n\n## 5. Activités d’application\n\n### 5.1 Définition\n**Question** : Un enfant soldat est :\n1. Tout élève militaire de l’EMPT de Bingerville.\n2. Tout combattant âgé de moins de 16 ans.\n3. L’enfant dont le père est soldat.\n\n### 5.2 Causes\nCochez les causes du recrutement :\n1. Le besoin en combattants\n2. La recherche de sécurité par les enfants\n3. Le désir de vengeance de certains enfants\n4. La docilité des enfants\n5. La décision de certains parents d’encourager leurs enfants à embrasser la carrière militaire\n\n### 5.3 Actions de réinsertion (Vrai/Faux)\na. Jouer avec eux – Vrai\nb. Donner de l’argent de poche – Faux\nc. Scolariser les plus jeunes – Vrai\n\nd. Éviter la stigmatisation – Vrai\ne. Leur rappeler les atrocités de la guerre – Faux\nf. Féliciter les enfants soldats pour leur bravoure – Faux\n\n### 5.4 Conséquences\nSélectionnez les conséquences du recrutement :\n1. Des traumatismes dus aux horreurs de la guerre\n2. Des mutilations\n3. La délinquance\n4. Le besoin en combattants\n5. La docilité et la maniabilité des enfants soldats\n\n## 6. Situation d’évaluation\n1. Identifiez le problème posé.\n2. Citez deux actions de réinsertion.\n3. Donnez les raisons du refus de suivre tes camarades.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "culture_generale",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le critère d’âge pour qu’un enfant soit considéré comme un enfant‑soldat ?",
+      "options": [
+        "Moins de 12 ans",
+        "Moins de 14 ans",
+        "Moins de 16 ans",
+        "Moins de 18 ans"
+      ],
+      "answer": 2,
+      "explanation": "La définition précise que l’enfant doit avoir moins de 16 ans."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Les enfants‑soldats sont recrutés uniquement par des groupes armés internationaux.",
+      "answer": false,
+      "explanation": "Les groupes armés locaux recrutent également des enfants, pas seulement les internationaux."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel est l’un des motifs des recruteurs pour utiliser les enfants‑soldats ?",
+      "options": [
+        "Pour les former à la diplomatie",
+        "Pour les utiliser comme boucliers humains",
+        "Pour les envoyer à l’étranger",
+        "Pour les faire travailler dans l’agriculture"
+      ],
+      "answer": 1,
+      "explanation": "Les recruteurs utilisent les enfants comme boucliers humains."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Les enfants‑soldats recherchent souvent la ________ pour se protéger.",
+      "answer": "sécurité",
+      "explanation": "La recherche de sécurité est un motif de recrutement."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle conséquence individuelle est liée à l’utilisation d’enfants‑soldats ?",
+      "options": [
+        "Amélioration de la santé mentale",
+        "Délinquance",
+        "Augmentation de la productivité",
+        "Réduction de la criminalité"
+      ],
+      "answer": 1,
+      "explanation": "L’utilisation d’enfants‑soldats favorise la délinquance."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Le recrutement d’enfants‑soldats favorise l’insécurité sociale.",
+      "answer": true,
+      "explanation": "Au niveau social, il favorise l’insécurité."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quelle action de réinsertion consiste à éviter de rappeler les atrocités de la guerre ?",
+      "options": [
+        "Scolariser l’enfant",
+        "L’initier à un métier",
+        "Éviter de le stigmatiser",
+        "Éviter de lui rappeler les atrocités"
+      ],
+      "answer": 3,
+      "explanation": "Il faut éviter de rappeler les atrocités."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Il est recommandé d’intégrer les enfants‑soldats dans les jeux des enfants pour leur réinsertion.",
+      "answer": true,
+      "explanation": "Associer l’enfant aux jeux aide à la réinsertion."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel est le principal objectif de la réinsertion des enfants‑soldats ?",
+      "options": [
+        "Les récompenser pour leur bravoure",
+        "Les stigmatiser pour les dissuader",
+        "Les intégrer pour éviter la marginalisation",
+        "Les renvoyer dans les zones de conflit"
+      ],
+      "answer": 2,
+      "explanation": "L’objectif est d’intégrer pour éviter la marginalisation."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Une action de réinsertion est de ________ l’enfant à l’apprentissage de métiers.",
+      "answer": "initier",
+      "explanation": "L’initiation à l’apprentissage de métiers est une action clé."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel est le résultat de la stigmatisation des enfants‑soldats ?",
+      "options": [
+        "Renforcement de la cohésion sociale",
+        "Réduction de la violence",
+        "Marginalisation",
+        "Amélioration de la santé"
+      ],
+      "answer": 2,
+      "explanation": "La stigmatisation conduit à la marginalisation."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Les enfants‑soldats sont souvent recrutés pour leur désir de vengeance.",
+      "answer": true,
+      "explanation": "Le désir de vengeance est un motif de recrutement."
+    }
+  ]
+}

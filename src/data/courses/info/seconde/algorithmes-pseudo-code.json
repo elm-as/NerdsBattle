@@ -1,0 +1,70 @@
+{
+  "id": "info-seconde-algorithmes-pseudo-code",
+  "title": "Algorithmes : variables, conditions et boucles",
+  "summary": "Ce chapitre vous apprend à écrire des algorithmes en pseudo-code, en utilisant des variables, des conditions et des boucles. C'est la base de la programmation et de la résolution de problèmes informatiques, essentielle pour le Bac et la vie numérique.",
+  "lesson": "## Introduction & Mise en situation\n\nAvez-vous déjà suivi une recette de cuisine ? Chaque étape est une instruction précise, et le résultat dépend de l'ordre et des conditions (par exemple, \"si le gâteau est doré, sortez-le du four\"). Un algorithme, c'est exactement cela : une suite d'instructions claires et ordonnées pour résoudre un problème. Dans ce chapitre, vous allez apprendre à écrire vos propres algorithmes en pseudo-code, un langage proche du français qui permet de décrire la logique sans se soucier de la syntaxe d'un vrai langage de programmation. C'est une compétence fondamentale en informatique, utilisée dans tous les domaines : jeux vidéo, applications mobiles, intelligence artificielle, etc.\n\n## 1. Définitions et Principes Fondamentaux\n\n### Variable\nUne **variable** est un espace mémoire nommé qui peut contenir une valeur (nombre, texte, booléen). En pseudo-code, on la déclare avec `Variable nom` ou `nom ← valeur`. Exemple : `age ← 16`.\n\n### Types de données\n- **Entier** : nombre entier (ex: 5, -3)\n- **Réel** : nombre décimal (ex: 3.14)\n- **Chaîne de caractères** : texte (ex: \"Bonjour\")\n- **Booléen** : vrai ou faux (VRAI/FAUX)\n\n### Condition\nUne **condition** permet d'exécuter des instructions seulement si une expression est vraie. En pseudo-code, on utilise `SI...ALORS...SINON...FINSI`.\n\n### Boucle\nUne **boucle** répète un bloc d'instructions plusieurs fois. Deux types principaux :\n- **Boucle POUR** : quand on connaît le nombre de répétitions (ex: `POUR i DE 1 À 10 FAIRE`)\n- **Boucle TANT QUE** : quand on répète tant qu'une condition est vraie (ex: `TANT QUE x < 10 FAIRE`)\n\n### Expressions et opérateurs\n- **Arithmétiques** : +, -, *, /, mod (reste de division)\n- **Comparaisons** : =, ≠, <, >, ≤, ≥\n- **Logiques** : ET, OU, NON\n\n## 2. Propriétés et Méthodes d'application\n\n### Méthode pour résoudre un problème avec un algorithme\n1. **Comprendre le problème** : identifier les entrées, les sorties et les traitements.\n2. **Décomposer** en étapes simples.\n3. **Écrire l'algorithme** en pseudo-code.\n4. **Tester** avec des exemples.\n\n### Exemple 1 : Calcul de la moyenne de deux nombres\n\n```\nAlgorithme Moyenne\nVariables : a, b, moy : réels\nDébut\n  Écrire(\"Entrez le premier nombre : \")\n  Lire(a)\n  Écrire(\"Entrez le deuxième nombre : \")\n  Lire(b)\n  moy ← (a + b) / 2\n  Écrire(\"La moyenne est : \", moy)\nFin\n```\n\n### Exemple 2 : Vérifier si un nombre est pair ou impair\n\n```\nAlgorithme PairImpair\nVariables : n : entier\nDébut\n  Écrire(\"Entrez un entier : \")\n  Lire(n)\n  SI n mod 2 = 0 ALORS\n    Écrire(\"Pair\")\n  SINON\n    Écrire(\"Impair\")\n  FINSI\nFin\n```\n\n### Exemple 3 : Afficher les nombres de 1 à 10\n\nAvec une boucle POUR :\n```\nAlgorithme AfficherNombres\nVariables : i : entier\nDébut\n  POUR i DE 1 À 10 FAIRE\n    Écrire(i)\n  FINPOUR\nFin\n```\n\nAvec une boucle TANT QUE :\n```\nAlgorithme AfficherNombres2\nVariables : i : entier\nDébut\n  i ← 1\n  TANT QUE i ≤ 10 FAIRE\n    Écrire(i)\n    i ← i + 1\n  FINTANTQUE\nFin\n```\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Ne pas initialiser les variables** : toujours donner une valeur de départ avant de les utiliser.\n- **Confondre = et ==** : en pseudo-code, on utilise `←` pour l'affectation et `=` pour la comparaison.\n- **Boucles infinies** : si la condition d'une boucle TANT QUE ne devient jamais fausse, le programme ne se termine pas. Vérifiez que la variable de contrôle est modifiée.\n- **Erreurs de logique dans les conditions** : bien réfléchir aux cas limites (ex: division par zéro).\n- **Ne pas tester l'algorithme** : toujours essayer avec des valeurs concrètes pour vérifier le résultat.\n\n## Synthèse\n\n1. **Les variables** sont des conteneurs pour stocker des données ; on les déclare et on les initialise.\n2. **Les conditions** (SI...ALORS...SINON) permettent de prendre des décisions selon des critères.\n3. **Les boucles** (POUR, TANT QUE) permettent de répéter des actions, mais attention aux boucles infinies !",
+  "estimatedMinutes": 12,
+  "tags": [
+    "algorithmique",
+    "pseudo-code",
+    "variables",
+    "conditions",
+    "boucles"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la bonne syntaxe pour affecter la valeur 5 à la variable x en pseudo-code ?",
+      "options": [
+        "x = 5",
+        "x ← 5",
+        "x := 5",
+        "x == 5"
+      ],
+      "answer": 1,
+      "explanation": "En pseudo-code, on utilise la flèche ← pour l'affectation, tandis que = est utilisé pour la comparaison."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Une boucle TANT QUE s'exécute au moins une fois.",
+      "answer": false,
+      "explanation": "Une boucle TANT QUE teste la condition avant d'exécuter le bloc, donc si la condition est fausse au départ, le bloc ne s'exécute pas."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Dans l'algorithme suivant, quelle est la valeur affichée à la fin ?\n\n```\nVariables : i, somme : entiers\nDébut\n  somme ← 0\n  POUR i DE 1 À 5 FAIRE\n    somme ← somme + i\n  FINPOUR\n  Écrire(somme)\nFin\n```",
+      "answer": "15",
+      "explanation": "La boucle additionne les entiers de 1 à 5 : 1+2+3+4+5 = 15."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est le rôle de la condition SI...ALORS...SINON ?",
+      "options": [
+        "Répéter des instructions plusieurs fois",
+        "Déclarer des variables",
+        "Exécuter des instructions selon une condition",
+        "Afficher des résultats à l'écran"
+      ],
+      "answer": 2,
+      "explanation": "La structure conditionnelle permet d'exécuter un bloc d'instructions uniquement si une condition est vraie, sinon un autre bloc."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Une variable peut changer de type en cours d'exécution.",
+      "answer": false,
+      "explanation": "En algorithmique, une variable a un type fixe défini lors de sa déclaration (entier, réel, chaîne, booléen)."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Écrivez l'expression en pseudo-code pour vérifier si un nombre n est compris entre 10 et 20 inclus (utilisez ET).",
+      "answer": "n ≥ 10 ET n ≤ 20",
+      "explanation": "On utilise les opérateurs de comparaison et l'opérateur logique ET pour vérifier les deux conditions simultanément."
+    }
+  ]
+}

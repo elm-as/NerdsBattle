@@ -1,0 +1,14 @@
+{
+  "id": "anglais-sixieme-to-be-have",
+  "title": "To be & to have",
+  "summary": "Les deux verbes les plus fondamentaux de l'anglais.",
+  "lesson": "To be : I am, you are, he/she/it is, we/you/they are. To have : I have, he/she/it has, we/you/they have. Forme négative : isn't, aren't, doesn't have, don't have.",
+  "estimatedMinutes": 6,
+  "tags": ["grammar", "verbs"],
+  "questions": [
+    { "id": "q1", "type": "mcq", "prompt": "She ___ a student.", "options": ["am", "is", "are", "be"], "answer": 1, "explanation": "3ᵉ pers. sing. : is." },
+    { "id": "q2", "type": "fill", "prompt": "Complete: They ___ two cats. (verbe avoir)", "answer": "have", "explanation": "Pluriel → have." },
+    { "id": "q3", "type": "truefalse", "prompt": "« He have a car » est correct.", "answer": false, "explanation": "Il faut 'has' (3ᵉ pers. sing.)." },
+    { "id": "q4", "type": "mcq", "prompt": "I ___ ten years old.", "options": ["am", "is", "have", "has"], "answer": 0, "explanation": "Anglais : be + age." }
+  ]
+}

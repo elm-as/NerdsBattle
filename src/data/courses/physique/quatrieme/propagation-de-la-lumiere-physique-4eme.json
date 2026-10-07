@@ -1,0 +1,157 @@
+{
+  "id": "physique-quatrieme-propagation-de-la-lumiere-physique-4eme",
+  "subjectId": "physique",
+  "levelId": "quatrieme",
+  "slug": "propagation-de-la-lumiere-physique-4eme",
+  "title": "Propagation de la lumière et chambre noire",
+  "summary": "Ce document présente les principes de la propagation rectiligne de la lumière, l’utilisation d’une chambre noire pour observer des images réelles et inversées, la formation de faisceaux lumineux et la vitesse de la lumière. Il inclut des activités pratiques et un ensemble de questions pour évaluer la compréhension.",
+  "lesson": "# Leçon 3 : Propagation de la lumière\n\n## 1. Chambre noire\n- **Objectif** : observer une image réelle, inversée et colorée d’un objet lumineux.\n- **Matériel** : boîte de conserve vide ou boîte en carton, papier calque, colle, petite perforation.\n- **Procédure** :\n  1. Couvrir la face ouverte avec du papier calque.\n  2. Percez un petit trou au centre de l’autre face.\n  3. Placez une source lumineuse (bougie, torche) devant le trou.\n  4. Observez l’image projetée sur le papier calque.\n- **Conclusion** : le papier calque est l’écran, le trou le diaphragme. L’image est réelle, inversée et conserve les couleurs.\n\n## 2. Cheminement de la lumière\n- **Expérience** : utiliser un peigne pour diviser le faisceau lumineux.\n- **Observations** : les traits lumineux sont des droites, formant des « pinceaux ».\n- **Conclusion** : la lumière se propage en ligne droite (propagation rectiligne).\n\n## 3. Vitesse de la lumière\n- En air ou vide : **300 000 km/s**.\n- **Année lumière** : distance parcourue en une année, ≈ 9,5 × 10⁹ km.\n\n## 4. Images d’objets lumineux\n- L’image sur l’écran est en couleur, réelle et inversée.\n- L’image grandit quand la source s’approche.\n- Les rayons lumineux se croisent au diaphragme.\n\n## 5. Activités d’évaluation\n1. Dessiner le faisceau d’une torche.\n2. Tracer les taches lumineuses après le peigne.\n3. Représenter une chambre noire.\n4. Expliciter les dispositions pour focaliser la lumière sur un point.\n\n## 6. Critères d’évaluation\n- Identification des données du problème (5 pts)\n- Identification des outils de résolution (5 pts)\n- Mise en œuvre correcte des outils (5 pts)\n- Cohérence de la réponse (5 pts)",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le rôle du trou dans la chambre noire ?",
+      "options": [
+        "Créer un diaphragme",
+        "Protéger l’écran",
+        "Réduire la lumière",
+        "Aucune de ces réponses"
+      ],
+      "answer": 0,
+      "explanation": "Le trou agit comme diaphragme, laissant passer la lumière pour former l’image."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "La vitesse de la lumière dans le vide est de ___ km/s.",
+      "answer": "300 000",
+      "explanation": "La valeur standard est 300 000 km/s."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel phénomène explique l’image inversée dans la chambre noire ?",
+      "options": [
+        "Réflexion interne",
+        "Réfraction",
+        "Réflexion directe",
+        "Réflexion interne et réfraction"
+      ],
+      "answer": 2,
+      "explanation": "La lumière traverse le trou et se projette directement, inversant l’image."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle est la distance parcourue par la lumière en une année (année lumière) ?",
+      "options": [
+        "9,5 × 10⁶ km",
+        "9,5 × 10⁹ km",
+        "9,5 × 10¹² km",
+        "9,5 × 10¹⁵ km"
+      ],
+      "answer": 1,
+      "explanation": "1 a.l ≈ 9,5 × 10⁹ km."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel outil divise le faisceau lumineux en petits faisceaux ?",
+      "options": [
+        "Peigne",
+        "Règle",
+        "Boîte noire",
+        "Papier calque"
+      ],
+      "answer": 0,
+      "explanation": "Le peigne crée des dents qui séparent le faisceau."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Les rayons lumineux se croisent au niveau du ___.",
+      "answer": "diaphragme",
+      "explanation": "Le trou (diaphragme) est le point de croisement."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est le résultat d’une source lumineuse proche de la chambre noire ?",
+      "options": [
+        "L’image diminue",
+        "L’image grandit",
+        "L’image reste la même",
+        "L’image disparaît"
+      ],
+      "answer": 1,
+      "explanation": "Plus la source est proche, plus l’image grandit."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel est le terme pour la distance parcourue par la lumière en une année ?",
+      "options": [
+        "Année solaire",
+        "Année lumière",
+        "Année lunaire",
+        "Année terrestre"
+      ],
+      "answer": 1,
+      "explanation": "C’est l’année lumière."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel est le principal avantage d’une chambre noire pour l’observation d’images ?",
+      "options": [
+        "Réduction de la lumière",
+        "Contrôle de la couleur",
+        "Observation d’images réelles",
+        "Création de l’effet de profondeur"
+      ],
+      "answer": 2,
+      "explanation": "Elle permet d’observer des images réelles et inversées."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel est le rôle de la colle dans la construction de la chambre noire ?",
+      "options": [
+        "Fixer le papier calque",
+        "Fixer la boîte",
+        "Créer un trou",
+        "Aucune de ces réponses"
+      ],
+      "answer": 0,
+      "explanation": "La colle maintient le papier calque en place."
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "prompt": "Le faisceau lumineux issu d’une torche est appelé ___.",
+      "answer": "faisceau lumineux",
+      "explanation": "C’est le terme général pour le groupe de rayons."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Quelle est la vitesse de la lumière dans l’air ?",
+      "options": [
+        "300 000 km/s",
+        "200 000 km/s",
+        "250 000 km/s",
+        "350 000 km/s"
+      ],
+      "answer": 0,
+      "explanation": "La vitesse est la même dans l’air et le vide, ≈ 300 000 km/s."
+    }
+  ]
+}

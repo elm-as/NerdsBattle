@@ -1,0 +1,154 @@
+{
+  "id": "maths-quatrieme-l3-nombres-rationnels",
+  "subjectId": "maths",
+  "levelId": "quatrieme",
+  "slug": "l3-nombres-rationnels",
+  "title": "Leçon 3 : Nombres rationnels et calculs algébriques (4ème)",
+  "summary": "Cette leçon porte sur le PPCM, le PGCD et les nombres rationnels. Elle explique les définitions, méthodes de calcul, exemples corrigés et propose des exercices d'application pour les élèves de 4ème en Côte d'Ivoire.",
+  "lesson": "## Situation d'apprentissage\nLe collège compte 400 élèves dont 120 filles. Les élèves veulent former le plus grand nombre d’équipes contenant le même nombre de filles et de garçons.\n\n## Résumé de cours\n### I. PPCM et PGCD de deux entiers\n#### 1) PPCM\n- **Définition** : Plus Petit Commun Multiple non nul de a et b.\n- **Méthode** : décomposer chaque nombre en facteurs premiers, prendre chaque facteur au plus grand exposant.\n- **Exemple** : PPCM(10,15)=30 ; PPCM(360,700)=12 600.\n- **Exercices corrigés** :\n  - a) PPCM(2·3² , 2³·3·5)=180\n  - b) PPCM(18,30)=90\n  - c) PPCM(90,60)=180\n#### 2) PGCD\n- **Définition** : Plus Grand Commun Diviseur de a et b.\n- **Méthode** : décomposer en facteurs premiers, prendre chaque facteur commun au plus petit exposant.\n- **Exemple** : PGCD(18,12)=6 ; PGCD(360,700)=20.\n- **Exercices corrigés** :\n  - a) PGCD(2²·3³·5² , 2³·3·5·7)=60\n  - b) PGCD(36,45)=9\n  - c) PGCD(90,60)=30\n### II. Nombres rationnels\n#### 1) Définition\nUn nombre rationnel est une fraction a/b avec a,b entiers relatifs, b≠0. Notation ℚ.\n#### 2) Écriture\n- a/b = -a/(-b) = -(a/b).\n- Tout nombre décimal est rationnel.\n#### 3) Opérations\n- **Produit** : (a/b)·(c/d)=ac/bd.\n- **Exemples** :\n  - (-9/5)·(4/7)= -36/35\n  - (-9/5)·(7/‑2)=63/10\n  - 3·(8/11)=24/11\n\n---\n*Fin de la leçon.*",
+  "estimatedMinutes": 60,
+  "tags": [
+    "maths",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le PPCM de 12 et 18 ?",
+      "options": [
+        "36",
+        "54",
+        "72",
+        "108"
+      ],
+      "answer": 0,
+      "explanation": "Les multiples communs les plus petits sont 36, donc PPCM(12,18)=36."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le PGCD de 20 et 30 est 10.",
+      "answer": true,
+      "explanation": "Les diviseurs communs sont 1,2,5,10 ; le plus grand est 10."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Exprimez le nombre décimal 0,75 sous forme de fraction irréductible.",
+      "answer": "3/4",
+      "explanation": "0,75 = 75/100 = 3/4 après simplification."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est le PGCD de 360 et 700 ?",
+      "options": [
+        "20",
+        "30",
+        "40",
+        "50"
+      ],
+      "answer": 0,
+      "explanation": "Facteurs communs 2²·5 → 4·5=20."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Le PPCM de 7 et 9 est 63.",
+      "answer": true,
+      "explanation": "7 et 9 sont premiers entre eux, donc PPCM = 7·9 = 63."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Donnez la forme fractionnaire de -9/‑5 simplifiée.",
+      "answer": "9/5",
+      "explanation": "-9/‑5 = 9/5 car le signe négatif se simplifie."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dans la situation d’apprentissage, combien d’équipes de 5 filles et 5 garçons peuvent être formées au maximum ?",
+      "options": [
+        "12",
+        "20",
+        "24",
+        "30"
+      ],
+      "answer": 2,
+      "explanation": "Il y a 120 filles → 120/5=24 équipes ; 280 garçons → 280/5=56 ; le nombre limité est 24."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Tout nombre entier est un nombre rationnel.",
+      "answer": true,
+      "explanation": "Un entier n peut s’écrire n/1, donc il est rationnel."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Calculez (‑3/4)·(8/‑5).",
+      "answer": "6/5",
+      "explanation": "(-3·8)/(4·-5)= -24/-20 = 6/5 après simplification."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est le plus petit multiple commun non nul de 0 et 5 ?",
+      "options": [
+        "0",
+        "5",
+        "10",
+        "Impossible"
+      ],
+      "answer": 3,
+      "explanation": "Par définition le PPCM ne s’applique qu’aux nombres non nuls."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Le nombre 7/2 appartient à ℚ.",
+      "answer": true,
+      "explanation": "Il s’écrit comme fraction de deux entiers avec dénominateur non nul."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Écrivez -7/‑2 sous forme a/b avec a>0 et b>0.",
+      "answer": "7/2",
+      "explanation": "Les deux signes négatifs se compensent."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel est le résultat de 3·(8/11) ?",
+      "options": [
+        "24/11",
+        "11/24",
+        "8/33",
+        "3/8"
+      ],
+      "answer": 0,
+      "explanation": "Multiplication donne 24/11."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Le PGCD de deux nombres premiers distincts est toujours 1.",
+      "answer": true,
+      "explanation": "Deux nombres premiers distincts n’ont aucun facteur commun autre que 1."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Donnez le PPCM de 18 et 30 sous forme factorisée (produit de puissances de premiers).",
+      "answer": "2^1·3^2·5",
+      "explanation": "18=2·3^2, 30=2·3·5 → exposants max : 2^1·3^2·5."
+    }
+  ]
+}

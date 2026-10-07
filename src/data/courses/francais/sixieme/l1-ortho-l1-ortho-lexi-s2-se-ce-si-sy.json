@@ -1,0 +1,248 @@
+{
+  "id": "francais-sixieme-l1-ortho-l1-ortho-lexi-s2-se-ce-si-sy",
+  "subjectId": "francais",
+  "levelId": "sixieme",
+  "slug": "l1-ortho-l1-ortho-lexi-s2-se-ce-si-sy",
+  "title": "Orthographe lexicale : les homophones (6ème)",
+  "summary": "Cette leçon explique la notion d'homophones et présente les principaux cas : se/ce/ceux, c'est/s'est, ses/ces, si/s'y, ni/n'y, la/là, quel/quelle/qu'elle. Des exercices permettent de s'entraîner à les distinguer en contexte.",
+  "lesson": "# Orthographe lexicale : les homophones\n\n## Définition\nLes **homophones** sont des mots qui se prononcent de la même manière mais qui ont des sens différents.\n\n## I. Les différents homophones\n\n### 1. Se / ce / ceux\n- **Se** : pronom personnel, se place uniquement devant un verbe.  \n  *Exemple : Yao se lave.*\n- **Ce** : adjectif démonstratif, se place devant un nom.  \n  *Exemple : Ce livre est intéressant.*\n- **Ceux** : pronom démonstratif, remplace un nom déjà connu.  \n  *Exemples : Ceux qui se lèvent tôt arrivent à l'heure à l'école. / Que ceux qui sont d'accord lèvent le doigt.*\n\n### 2. C'est / S'est ; Ses / Ces\n- **C'est** : présentatif, peut être remplacé par « ce sont » au pluriel.  \n  *Exemple : C'est une moto. → Ce sont des motos.*\n- **S'est** : forme contractée de « se » + « est », appartient à la forme pronominale.  \n  *Exemple : Le bébé s'est réveillé.*\n- **Ses** : adjectif possessif, pluriel de « sa » ou « son ».  \n  *Exemple : Son cahier. → Ses cahiers.*\n- **Ces** : adjectif démonstratif, pluriel de « ce, cet, cette ».  \n  *Exemple : Ce chien. → Ces chiens.*\n\n### 3. Si / S'y\n- **Si** : conjonction. Il peut introduire :\n  - une subordonnée complétive : *Je te dirai demain si je viens.*\n  - une subordonnée de condition : *Si tu mangeais bien, j'en serai heureuse.*\n- **S'y** : indique la notion de lieu.  \n  *Exemple : Il va à l'école, il s'y rend à pied.*\n\n### 4. Ni / N'y\n- **Ni** : on l'écrit quand on peut le remplacer à la forme affirmative par « et ».  \n  *Exemple : Cet homme n'est ni petit ni élégant. → Cet homme est petit et élégant.*\n- **N'y** : on l'écrit quand on peut le remplacer par « là-bas ».  \n  *Exemple : Je n'y suis jamais allé. → Je ne suis jamais allé là-bas.*\n\n### 5. La / Là\n- **La** : article défini, peut être remplacé par « une ».  \n  *Exemple : La voiture → Une voiture.*\n- **La** devant un verbe : pronom, peut être remplacé par un groupe nominal féminin.  \n  *Exemple : Il la lave → Il lave sa fille.*\n- **Là** : adverbe, peut être remplacé par « ici ».  \n  *Exemple : L'élève était là. → L'élève était ici.*\n\n### 6. Quelle / Quel / Qu'elle\n- **Quelle** : adjectif interrogatif féminin.  \n  *Exemple : Quelle heure est-il ?*\n- **Quelle** : adjectif exclamatif féminin.  \n  *Exemple : Quelle belle mélodie !*\n- **Quel** : adjectif interrogatif masculin.  \n  *Exemple : Quel est son nom ?*\n- **Quel** : adjectif exclamatif masculin.  \n  *Exemple : Quel beau costume !*\n- **Qu'elle** : contraction du pronom relatif « que » et du pronom personnel « elle ».  \n  *Exemple : Les mangues qu'elle a cueillies sont belles.*\n\n## Exercices\nRemplace les pointillés par les homophones suivants : ceux ; se ; ni ; ce ; quelle ; quel ; n'y.\n\n1. …..n'est pas la peine de pleurer. Si tu n'as pas de souliers, prends ….de ton frère. Il ….pourrait qu'il soit absent. ….qui sont en retard repartiront à la maison.\n2. ………est la couleur de ma chaussure ? Je n'ai …..Chaussures …… vêtements. Papa dit que ……..qui ne finiront pas leurs exercices ne mangeront …….. Soir. Il ……coupe les ongles avec un coupe-ongle.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "francais",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Que sont des homophones ?",
+      "options": [
+        "Des mots qui s'écrivent de la même manière mais ont des sens différents",
+        "Des mots qui se prononcent de la même manière mais ont des sens différents",
+        "Des mots qui ont le même sens mais s'écrivent différemment",
+        "Des mots qui se prononcent et s'écrivent de la même manière"
+      ],
+      "answer": 1,
+      "explanation": "D'après la définition : « Les homophones sont des mots que l'on prononce de la même manière, cependant, ils sont de sens différents. »"
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Dans la phrase « Yao se lave », quelle est la nature de « se » ?",
+      "options": [
+        "Adjectif démonstratif",
+        "Pronom personnel",
+        "Pronom démonstratif",
+        "Conjonction"
+      ],
+      "answer": 1,
+      "explanation": "« Se » se place uniquement devant un verbe : c'est un pronom personnel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Dans « Ce livre est intéressant », quelle est la nature de « ce » ?",
+      "options": [
+        "Pronom personnel",
+        "Adjectif démonstratif",
+        "Pronom démonstratif",
+        "Article défini"
+      ],
+      "answer": 1,
+      "explanation": "« Ce » se place devant un nom ; c'est un adjectif démonstratif."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans « Ceux qui se lèvent tôt arrivent à l'heure », quelle est la nature de « ceux » ?",
+      "options": [
+        "Adjectif démonstratif",
+        "Pronom personnel",
+        "Pronom démonstratif",
+        "Adjectif possessif"
+      ],
+      "answer": 2,
+      "explanation": "« Ceux » remplace un nom déjà connu, c'est un pronom démonstratif."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Dans « Le bébé s'est réveillé », « s'est » est la forme contractée de :",
+      "options": [
+        "se + est",
+        "si + est",
+        "ce + est",
+        "sa + est"
+      ],
+      "answer": 0,
+      "explanation": "« S'est est la forme contractée de « se et est » appartient à la forme pronominale. »"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quelle est la nature de « ses » dans « Ses cahiers » ?",
+      "options": [
+        "Adjectif démonstratif",
+        "Adjectif possessif",
+        "Pronom personnel",
+        "Pronom démonstratif"
+      ],
+      "answer": 1,
+      "explanation": "« Ses » est un adjectif possessif. Il est le pluriel de sa ou son."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quelle est la nature de « ces » dans « Ces chiens » ?",
+      "options": [
+        "Adjectif possessif",
+        "Adjectif démonstratif",
+        "Pronom démonstratif",
+        "Article défini"
+      ],
+      "answer": 1,
+      "explanation": "« Ces est un adjectif démonstratif. Il est le pluriel de ce, cet, cette. »"
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Dans « Je te dirai demain si je viens », « si » introduit :",
+      "options": [
+        "Une subordonnée de condition",
+        "Une subordonnée complétive",
+        "Une subordonnée relative",
+        "Une proposition indépendante"
+      ],
+      "answer": 1,
+      "explanation": "« Si est une conjonction. Il peut introduire une subordonnée complétive. Ex : Je te dirai demain si je viens. »"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Dans « Il va à l'école, il s'y rend à pied », « s'y » indique :",
+      "options": [
+        "La condition",
+        "La possession",
+        "Le lieu",
+        "Le temps"
+      ],
+      "answer": 2,
+      "explanation": "« S'y indique la notion de lieu. »"
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "On écrit « ni » quand on peut le remplacer à la forme affirmative par :",
+      "options": [
+        "ou",
+        "et",
+        "mais",
+        "car"
+      ],
+      "answer": 1,
+      "explanation": "« On écrit ni quand on peut le remplacer à la forme affirmative par et. »"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "On écrit « n'y » quand on peut le remplacer par :",
+      "options": [
+        "ici",
+        "là-bas",
+        "et",
+        "une"
+      ],
+      "answer": 1,
+      "explanation": "« On écrit n'y quand on peut le remplacer par là-bas. »"
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Dans « La voiture », quelle est la nature de « la » ?",
+      "options": [
+        "Pronom personnel",
+        "Article défini",
+        "Adverbe",
+        "Adjectif démonstratif"
+      ],
+      "answer": 1,
+      "explanation": "« La est un article défini. On peut le remplacer par une. »"
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Dans « L'élève était là », quelle est la nature de « là » ?",
+      "options": [
+        "Article défini",
+        "Pronom personnel",
+        "Adverbe",
+        "Conjonction"
+      ],
+      "answer": 2,
+      "explanation": "« Là est un adverbe. On peut le remplacer par ici. »"
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Dans « Quelle heure est-il ? », « quelle » est :",
+      "options": [
+        "Un adjectif interrogatif féminin",
+        "Un adjectif exclamatif féminin",
+        "Un adjectif interrogatif masculin",
+        "Une contraction de « que » et « elle »"
+      ],
+      "answer": 0,
+      "explanation": "« Quelle adjectif interrogatif féminin. Ex : Quelle heure est-il ? »"
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Dans « Quel beau costume ! », « quel » est :",
+      "options": [
+        "Un adjectif interrogatif masculin",
+        "Un adjectif exclamatif masculin",
+        "Un adjectif interrogatif féminin",
+        "Une contraction de « que » et « elle »"
+      ],
+      "answer": 1,
+      "explanation": "« Quel peut être adjectif exclamatif masculin : Ex : Quel beau costume ! »"
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Dans « Les mangues qu'elle a cueillies sont belles », « qu'elle » est :",
+      "options": [
+        "Un adjectif interrogatif",
+        "Un adjectif exclamatif",
+        "La contraction du pronom relatif « que » et du pronom personnel « elle »",
+        "Un pronom démonstratif"
+      ],
+      "answer": 2,
+      "explanation": "« Qu'elle est une contraction du pronom relatif que et du pronom personnel elle. »"
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "prompt": "Complétez : « …..n'est pas la peine de pleurer. » (Choisissez entre : Ce, Se, Ceux)",
+      "answer": "Ce",
+      "explanation": "On écrit « Ce n'est pas la peine de pleurer. » car « ce » est un présentatif (c'est)."
+    },
+    {
+      "id": "q19",
+      "type": "fill",
+      "prompt": "Complétez : « Si tu n'as pas de souliers, prends ….de ton frère. » (Choisissez entre : ceux, se, ce)",
+      "answer": "ceux",
+      "explanation": "On écrit « prends ceux de ton frère » car « ceux » remplace un nom déjà connu (les souliers)."
+    },
+    {
+      "id": "q20",
+      "type": "fill",
+      "prompt": "Complétez : « Je n'ai …..Chaussures …… vêtements. » (Choisissez entre : ni, n'y)",
+      "answer": "ni",
+      "explanation": "On écrit « ni » car on peut le remplacer par « et » à la forme affirmative : « J'ai des chaussures et des vêtements. »"
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "id": "physique-terminale-cours-de-chimie-terminales-c-d-e-dosage-acid",
+  "subjectId": "physique",
+  "levelId": "terminale",
+  "slug": "cours-de-chimie-terminales-c-d-e-dosage-acid",
+  "title": "Dosage acido‑basique du vinaigre – Leçon Terminale (Physique‑Chimie)",
+  "summary": "Cette leçon explique le principe du dosage acido‑basique, le protocole expérimental, le calcul de la concentration d’une solution de vinaigre commercial à partir d’un dosage colorimétrique avec la phénolphtaléine, et propose des activités d’application et un exercice d’entraînement.",
+  "lesson": "## 1. Situation d’apprentissage\nUne élève de Terminale C voit à la télé que le vinaigre « 8° » serait essentiellement de l’acide éthanoïque. Elle décide, avec sa classe, de doser le vinaigre pour déterminer sa concentration molaire volumique.\n\n## 2. Généralités\n### 2.1 Protocole expérimental\n1. Prélever un volume *Vₐ* de la solution à doser et le placer dans un erlenmeyer.\n2. Ajouter quelques gouttes d’un indicateur coloré.\n3. Verser goutte à goutte la solution titrante (burette) jusqu’à changement de couleur.\n4. Noter le volume à l’équivalence *V_eq*.\n\n### 2.2 Principe du dosage\nOn fait réagir une espèce A de concentration inconnue *C_A* avec une espèce B de concentration connue *C_B* :\n```\nA + B → AB\n```\nÀ l’équivalence : `n_A = n_B` → `C_A·V_A = C_B·V_eq`.\n\n### 2.3 Types de dosage acido‑basique\n- **pH‑métrique** (mesure du pH)\n- **colorimétrique** (indicateur de virage)\n\n## 3. Dosage colorimétrique du vinaigre commercial (8°)\n### 3.1 Solution diluée\n- *V₀ = 10 mL* de vinaigre 8° prélevés.\n- Dilution 10× → *V_dil = 100 mL*.\n- pH de la solution diluée = 2,9.\n\n### 3.2 Montage expérimental\nBurette de soude (*C_B = 1·10⁻¹ mol L⁻¹*) → erlenmeyer contenant la solution diluée + quelques gouttes de phénolphtaléine.\n\n### 3.3 Observation\nLe mélange passe de incolore à rose‑violacé à *V_eq = 13 mL* de soude. pH à l’équivalence ≈ 8,8.\n\n### 3.4 Calculs\n- `C_A = C_B·V_eq / V_A = (1·10⁻¹ mol L⁻¹ × 13·10⁻³ L) / 10·10⁻³ L = 0,13 mol L⁻¹` (concentration de la solution diluée).\n- Concentration du vinaigre commercial : `C₀ = 10·C_A = 1,3 mol L⁻¹`.\n\n### 3.5 Choix de l’indicateur\nPhénolphtaléine : zone de virage 8,2‑10, pH_eq = 8,8 → indicateur approprié.\n\n### 3.6 Concentrations des espèces à l’équivalence\n- `[H₃O⁺] = 10⁻ᵖᴴ = 1,6·10⁻⁹ mol L⁻¹`\n- `[OH⁻] = 6,25·10⁻⁶ mol L⁻¹`\n- `[Na⁺] = C_B·V_eq/(V_A+V_eq) ≈ 5,6·10⁻² mol L⁻¹`\n- `[CH₃COO⁻] ≈ [Na⁺]`\n- `[CH₃COOH] ≈ [OH⁻]`\n\n## 4. Intérêt du dosage\nDéterminer la concentration molaire volumique d’une espèce chimique présente dans une solution.\n\n## 5. Activité d’application – Choix des indicateurs\n| Indicateur | Teinte acide | Zone de virage | Teinte basique |\n|------------|--------------|----------------|----------------|\n| Héliantine | Rouge | 3,1‑4,4 | Jaune |\n| Bleu de bromothymol (BBT) | Jaune | 6‑7,6 | Bleu |\n| Phénolphtaléine | Incolore | 8,2‑10 | Rose‑violacé |\n\n**Question** : quels indicateurs peuvent être utilisés pour les dosages suivants ?\n1. Acide fort / base forte\n2. Base forte / acide fort\n3. Acide faible / base forte\n4. Base faible / acide fort\n\n## 6. Exercice d’application\nUn élève dose 50 mL d’acide benzoïque avec de la soude (*C_B = 1·10⁻¹ mol L⁻¹*). Le virage de la phénolphtaléine apparaît à *V_B = 20 mL*.\n- Schéma du dispositif (à réaliser).\n- Rôle de la phénolphtaléine.\n- Équation bilan.\n- Calcul de la concentration de l’acide benzoïque.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la formule utilisée pour calculer la concentration inconnue C_A à l’équivalence ?",
+      "options": [
+        "C_A = C_B·V_A / V_eq",
+        "C_A = C_B·V_eq / V_A",
+        "C_A = V_A·V_eq / C_B",
+        "C_A = C_B·(V_A+V_eq)"
+      ],
+      "answer": 1,
+      "explanation": "À l’équivalence, n_A = n_B → C_A·V_A = C_B·V_eq → C_A = C_B·V_eq / V_A."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le pH à l’équivalence du dosage acide fort / base forte est toujours proche de 7.",
+      "answer": false,
+      "explanation": "Pour un acide fort/base forte, le point d’équivalence se situe à pH≈7, mais pour un acide faible/base forte il est >7."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le volume de soude versé pour atteindre l’équivalence dans le dosage du vinaigre était de ___ mL.",
+      "answer": "13",
+      "explanation": "L’observation indique un virage à 13 mL de soude."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel indicateur est le plus adapté pour titrer un acide fort par une base forte ?",
+      "options": [
+        "Phénolphtaléine",
+        "Héliantine",
+        "Bleu de bromothymol",
+        "Aucun de ces indicateurs"
+      ],
+      "answer": 2,
+      "explanation": "Le BBT change de jaune à bleu autour de pH 7, idéal pour un titrage acide fort/base forte."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La phénolphtaléine est incolore en milieu acide et rose‑violacé en milieu basique.",
+      "answer": true,
+      "explanation": "C’est la caractéristique de cet indicateur (zone de virage 8,2‑10)."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "La concentration du vinaigre commercial (C₀) calculée dans la leçon est de ___ mol·L⁻¹.",
+      "answer": "1,3",
+      "explanation": "C₀ = 10·C_A = 10·0,13 = 1,3 mol L⁻¹."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dans le mélange à l’équivalence, quelle espèce est majoritaire parmi les anions ?",
+      "options": [
+        "CH₃COO⁻",
+        "OH⁻",
+        "Cl⁻",
+        "NO₃⁻"
+      ],
+      "answer": 0,
+      "explanation": "L’anion provenant du vinaigre, CH₃COO⁻, est présent en concentration ≈[Na⁺] ≈ 5,6·10⁻² mol L⁻¹, bien plus que OH⁻."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Le volume total du mélange à l’équivalence est V_A + V_eq = 23 mL.",
+      "answer": true,
+      "explanation": "V_A = 10 mL, V_eq = 13 mL → total = 23 mL."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "La concentration de Na⁺ à l’équivalence est approximativement ___·10⁻² mol·L⁻¹.",
+      "answer": "5,6",
+      "explanation": "Calculé à partir de C_B·V_eq/(V_A+V_eq)."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est le pH de la solution diluée de vinaigre avant le titrage ?",
+      "options": [
+        "2,9",
+        "3,5",
+        "4,0",
+        "5,2"
+      ],
+      "answer": 0,
+      "explanation": "Le texte indique pH = 2,9."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Dans un dosage acide faible / base forte, le point d’équivalence se situe à pH > 7.",
+      "answer": true,
+      "explanation": "L’acide faible ne se dissocie pas complètement, la base forte domine le pH à l’équivalence."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Le volume de soude utilisé dans l’exercice d’application (acide benzoïque) était de ___ mL.",
+      "answer": "20",
+      "explanation": "Donné dans l’énoncé."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel rôle joue la phénolphtaléine dans le dosage ?",
+      "options": [
+        "Catalyse la réaction",
+        "Indique le point d’équivalence par changement de couleur",
+        "Modifie le pH du mélange",
+        "Neutralise les ions H⁺"
+      ],
+      "answer": 1,
+      "explanation": "C’est un indicateur colorimétrique qui signale le virage."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "La dilution 10× du vinaigre augmente sa concentration molaire de 10 fois.",
+      "answer": false,
+      "explanation": "La dilution diminue la concentration d’un facteur 10."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Parmi les indicateurs suivants, lequel ne convient pas pour titrer un acide faible par une base forte ?",
+      "options": [
+        "Phénolphtaléine",
+        "Héliantine",
+        "Bleu de bromothymol",
+        "Tous conviennent"
+      ],
+      "answer": 1,
+      "explanation": "Héliantine change de couleur entre pH 3,1‑4,4, trop acide pour ce titrage."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "La concentration de la solution diluée de vinaigre (C_A) est de ___ mol·L⁻¹.",
+      "answer": "0,13",
+      "explanation": "Calculée à partir du volume d’équivalence."
+    },
+    {
+      "id": "q17",
+      "type": "truefalse",
+      "prompt": "Le point d’équivalence d’un dosage acide fort / base faible se situe à pH < 7.",
+      "answer": true,
+      "explanation": "L’acide fort domine, le point d’équivalence est acide."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Quel paramètre permet de choisir l’indicateur adéquat ?",
+      "options": [
+        "Couleur du réactif",
+        "Zone de virage du pH à l’équivalence",
+        "Température du mélange",
+        "Concentration de la burette"
+      ],
+      "answer": 1,
+      "explanation": "On compare la zone de virage de l’indicateur avec le pH attendu à l’équivalence."
+    },
+    {
+      "id": "q19",
+      "type": "fill",
+      "prompt": "Le pH à l’équivalence du dosage du vinaigre était de ___ .",
+      "answer": "8,8",
+      "explanation": "Indiqué dans l’observation."
+    }
+  ]
+}

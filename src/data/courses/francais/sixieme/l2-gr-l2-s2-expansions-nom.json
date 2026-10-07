@@ -1,0 +1,204 @@
+{
+  "id": "francais-sixieme-l2-gr-l2-s2-expansions-nom",
+  "subjectId": "francais",
+  "levelId": "sixieme",
+  "slug": "l2-gr-l2-s2-expansions-nom",
+  "title": "Les expansions du groupe nominal",
+  "summary": "Une expansion du nom précise le nom noyau sans être obligatoire. Il en existe trois types : l'adjectif qualificatif, le complément du nom et la proposition subordonnée relative.",
+  "lesson": "# Les expansions du groupe nominal\n\n## Définition\nUne **expansion du nom** est un mot ou groupe de mots qui fait partie du groupe nominal. Elle n'est **pas obligatoire**, mais elle apporte une **précision** sur la quantité ou la qualité du nom noyau.\n\n## Les trois types d'expansions\n\n### 1. L'adjectif qualificatif\nIl peut être :\n- **épithète** : lié directement au nom qu'il qualifie.\n  - *Exemple :* Ce tissu **déchiré** ne peut servir.\n- **apposé** : séparé du nom qu'il qualifie par une virgule.\n  - *Exemple :* **Déchiré**, ce tissu ne peut servir.\n\n> **NB :** L'adjectif qualificatif épithète ou apposé peut se placer avant ou après le nom qu'il qualifie.\n\n### 2. Le complément du nom (groupe prépositionnel)\nIl est constitué d'une **préposition** (à, de, en, par, pour, sans, avec, …) et d'un mot ou groupe de mots rattaché au nom noyau.\n- *Exemples :* La maison **de repos** ; La maison **en bois** ; La maison **à vendre** ; Un jouet **pour enfant**.\n\n### 3. La proposition subordonnée relative\nElle complète un nom de la proposition principale. Elle est introduite par un **pronom relatif** (qui, que, quoi, dont, où, lequel, laquelle, lesquels, auxquels…).\n- *Exemples :* Ce tissu **qui est déchiré** ne peut servir. C'est une grande ville **où foisonnent les rythmes musicaux de divers horizons**.\n\n## Exercice d'application\nSoient les phrases :\n- P1 : Ma mère est de retour de son voyage.\n- P2 : La famille dont je fais partie est très célèbre.\n- P3 : Il prend un bon bain avant de sortir.\n- P4 : Hermine est sa fille préférée.\n\n1. Souligne le GN qui comporte des expansions du nom.\n2. Donne la composition de chaque groupe nominal sous la forme GN = … + … + …\n3. Ajoute des expansions aux groupes nominaux ci-dessous :\n   - Les lunettes ;\n   - La maison ;\n   - Une femme ;\n   - Un jardin ;\n   - Un élève.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "francais",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'une expansion du nom ?",
+      "options": [
+        "Un mot ou groupe de mots obligatoire dans le GN",
+        "Un mot ou groupe de mots qui précise le nom noyau sans être obligatoire",
+        "Un mot qui remplace le nom",
+        "Un type de phrase"
+      ],
+      "answer": 1,
+      "explanation": "D'après la définition, une expansion du nom apporte une précision sur la quantité ou la qualité du nom noyau, mais n'est pas obligatoire."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Combien de types d'expansions du groupe nominal distingue-t-on ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "Le document indique trois types : l'adjectif qualificatif, le complément du nom et la proposition subordonnée relative."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quand l'adjectif qualificatif est-il épithète ?",
+      "options": [
+        "Quand il est séparé du nom par une virgule",
+        "Quand il est lié directement au nom qu'il qualifie",
+        "Quand il est introduit par un pronom relatif",
+        "Quand il est précédé d'une préposition"
+      ],
+      "answer": 1,
+      "explanation": "L'adjectif épithète est lié directement au nom, sans virgule."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans « Déchiré, ce tissu ne peut servir. », l'adjectif « déchiré » est :",
+      "options": [
+        "épithète",
+        "apposé",
+        "complément du nom",
+        "attribut"
+      ],
+      "answer": 1,
+      "explanation": "L'adjectif est séparé du nom par une virgule, il est donc apposé."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "L'adjectif qualificatif épithète peut se placer avant ou après le nom qu'il qualifie.",
+      "answer": true,
+      "explanation": "Le NB du document précise que l'adjectif épithète ou apposé peut se placer avant ou après le nom."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Dans « La maison de repos », le complément du nom est « ______ ». (Écris le groupe prépositionnel)",
+      "answer": "de repos",
+      "explanation": "Le complément du nom est introduit par la préposition « de » suivie de « repos »."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel est le pronom relatif dans la phrase : « Ce tissu qui est déchiré ne peut servir. » ?",
+      "options": [
+        "Ce",
+        "tissu",
+        "qui",
+        "est"
+      ],
+      "answer": 2,
+      "explanation": "Le pronom relatif est « qui », il introduit la proposition subordonnée relative."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "La proposition subordonnée relative est introduite par :",
+      "options": [
+        "une conjonction de coordination",
+        "un pronom relatif",
+        "une préposition",
+        "un adverbe"
+      ],
+      "answer": 1,
+      "explanation": "Elle est introduite par un pronom relatif (qui, que, quoi, dont, où, lequel, etc.)."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Dans « La famille dont je fais partie est très célèbre. », « dont je fais partie » est une proposition subordonnée relative.",
+      "answer": true,
+      "explanation": "« dont » est un pronom relatif, la proposition complète le nom « famille »."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel est le GN avec expansion dans : « Il prend un bon bain avant de sortir. » ?",
+      "options": [
+        "Il prend",
+        "un bon bain",
+        "avant de sortir",
+        "un bain"
+      ],
+      "answer": 1,
+      "explanation": "« un bon bain » contient l'adjectif épithète « bon » qui est une expansion du nom « bain »."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Dans « Hermine est sa fille préférée. », quelle est la fonction de « préférée » ?",
+      "options": [
+        "épithète",
+        "apposé",
+        "complément du nom",
+        "sujet"
+      ],
+      "answer": 0,
+      "explanation": "« préférée » est directement lié au nom « fille », c'est un adjectif épithète."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Complète : Une expansion du nom n'est pas ______, mais apporte une précision.",
+      "answer": "obligatoire",
+      "explanation": "Le document précise qu'elle n'est pas obligatoire."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Parmi ces groupes nominaux, lequel contient un complément du nom ?",
+      "options": [
+        "Le vieux gardien",
+        "La pâte à modeler",
+        "Fort et solide",
+        "Le coq qui chante"
+      ],
+      "answer": 1,
+      "explanation": "« à modeler » est un complément du nom introduit par la préposition « à »."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Dans « Le coq qui chante les matins m'appartient. », la proposition subordonnée relative est :",
+      "options": [
+        "Le coq",
+        "qui chante les matins",
+        "m'appartient",
+        "les matins"
+      ],
+      "answer": 1,
+      "explanation": "« qui chante les matins » est introduite par le pronom relatif « qui » et complète « coq »."
+    },
+    {
+      "id": "q16",
+      "type": "truefalse",
+      "prompt": "Dans « Fort et solide, Zekia a remporté le tournoi. », « Fort et solide » est un expansion du nom.",
+      "answer": true,
+      "explanation": "Ce sont des adjectifs apposés (séparés par une virgule) qui qualifient « Zekia »."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quel est le type d'expansion dans « La maison en bois » ?",
+      "options": [
+        "adjectif qualificatif épithète",
+        "adjectif qualificatif apposé",
+        "complément du nom",
+        "proposition subordonnée relative"
+      ],
+      "answer": 2,
+      "explanation": "« en bois » est un groupe prépositionnel (préposition « en » + nom « bois ») qui complète « maison »."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "prompt": "Dans « Un jouet pour enfant », la préposition est « ______ ».",
+      "answer": "pour",
+      "explanation": "Le complément du nom est introduit par la préposition « pour »."
+    }
+  ]
+}

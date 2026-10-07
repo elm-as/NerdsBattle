@@ -1,0 +1,184 @@
+{
+  "id": "physique-sixieme-l4-je-manipule-des-solides-et-des-liquides",
+  "subjectId": "physique",
+  "levelId": "sixieme",
+  "slug": "l4-je-manipule-des-solides-et-des-liquides",
+  "title": "Solides, liquides et gaz : propriétés physiques",
+  "summary": "Découvre comment distinguer solides, liquides et gaz grâce à leurs propriétés. Manipule, observe et apprends à identifier chaque état de la matière.",
+  "lesson": "## Introduction\nDans notre quotidien, nous côtoyons en permanence des solides, des liquides et des gaz. Mais comment les reconnaître et les différencier ? Cette leçon t'invite à manipuler et observer pour comprendre leurs propriétés physiques.\n\n## 1. Définitions & Notions clés\n\n### Les solides\nUn solide est un corps que l'on peut saisir dans la main. On distingue deux catégories :\n\n- **Solides compacts** : constitués d'un seul bloc, ils ont une forme propre.\n  - *Solides rigides* : un caillou, un bic...\n  - *Solides déformables* : un chiffon, un tissu...\n- **Solides divisés** : constitués de plusieurs grains (sable, riz, sel). Ils n'ont pas de forme propre et prennent la forme du récipient qui les contient.\n\n### Les liquides\nL'huile, l'eau sont des liquides :\n- On ne peut pas les saisir.\n- Ils n'ont pas de forme propre.\n- Ils prennent la forme du récipient qui les contient.\n- Leurs surfaces libres sont toujours planes et horizontales.\n\n### Les gaz\nUn gaz est un corps à l'état gazeux, souvent invisible. L'air est un gaz. Les gaz sont :\n- **Compressibles** : on peut réduire leur volume en augmentant la pression.\n- **Expansibles** : ils occupent tout l'espace disponible.\n- **Élastiques** : ils reprennent leur volume initial quand la pression redevient normale.\n- **Incolores** et **inodores** : ils sont souvent sans couleur ni odeur.\n\n### Pictogrammes\nUn pictogramme est un dessin normalisé destiné à nous informer sur les dangers des produits chimiques.\n\n## 2. Applications & Méthodes\n\n### Distinguer un solide d'un liquide\n- **Test de la main** : un solide peut être saisi, un liquide non.\n- **Test de la forme** : un solide compact a une forme propre, un liquide prend la forme du récipient.\n- **Surface libre** : celle d'un liquide est plane et horizontale.\n\n### Mettre en évidence l'existence de l'air\n- Utiliser une seringue : boucher l'extrémité, pousser le piston. L'air est compressible.\n- Transvaser de l'air d'un récipient à un autre en le conservant.\n\n### Transvaser et conserver un gaz\n- On peut transvaser l'air d'un ballon à un autre à l'aide d'un dispositif approprié.\n- On peut conserver l'air recueilli dans un flacon fermé.\n\n### Nettoyer une terrasse après un verre brisé\n1. Ramasser les gros morceaux de verre avec la main (précaution).\n2. Balayer les petits morceaux.\n3. Essuyer l'eau avec un chiffon ou une serpillière.\n\n## 3. Pièges fréquents\n- **Confondre solide divisé et liquide** : le sable prend la forme du récipient mais ne coule pas comme un liquide ; ses grains sont solides.\n- **Croire qu'un gaz n'a pas de masse** : l'air a une masse, même s'il est invisible.\n- **Oublier que la surface libre d'un liquide est horizontale** : même si on incline le récipient, la surface reste horizontale.\n- **Négliger les pictogrammes** : ils indiquent des dangers, il faut les connaître.\n\n## Synthèse\n- **Solides** : saisisables, forme propre (compacts) ou non (divisés).\n- **Liquides** : non saisisables, pas de forme propre, surface libre plane et horizontale.\n- **Gaz** : compressibles, expansibles, élastiques, souvent incolores et inodores.\n- **Pictogrammes** : dessins normalisés indiquant les dangers des produits chimiques.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Parmi ces corps, lequel est un solide compact ?",
+      "options": [
+        "Le sable",
+        "Le riz",
+        "Un caillou",
+        "L'eau"
+      ],
+      "answer": 2,
+      "explanation": "Un caillou est un solide compact car il est constitué d'un seul bloc et a une forme propre."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Les solides qui sont constitués d'un seul bloc et ont une forme propre sont appelés solides ________.",
+      "answer": "compacts",
+      "explanation": "Les solides compacts sont constitués d'un seul bloc et ont une forme propre."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est le point commun entre un chiffon et un tissu ?",
+      "options": [
+        "Ce sont des solides rigides",
+        "Ce sont des solides déformables",
+        "Ce sont des liquides",
+        "Ce sont des gaz"
+      ],
+      "answer": 1,
+      "explanation": "Un chiffon et un tissu sont des solides déformables car ils peuvent se déformer."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Comment se comporte la surface libre d'un liquide au repos ?",
+      "options": [
+        "Elle est toujours plane et horizontale",
+        "Elle est courbée",
+        "Elle est verticale",
+        "Elle dépend du récipient"
+      ],
+      "answer": 0,
+      "explanation": "La surface libre d'un liquide est toujours plane et horizontale."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Le sable, le riz et le sel sont des solides ________.",
+      "answer": "divisés",
+      "explanation": "Ces solides sont constitués de plusieurs grains, donc divisés."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel est le rôle d'un pictogramme ?",
+      "options": [
+        "Décorer les emballages",
+        "Informer sur les dangers des produits chimiques",
+        "Indiquer le prix",
+        "Donner la composition"
+      ],
+      "answer": 1,
+      "explanation": "Un pictogramme est un dessin normalisé destiné à nous informer sur les dangers des produits chimiques."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quelle propriété permet à un gaz d'occuper tout l'espace disponible ?",
+      "options": [
+        "La compressibilité",
+        "L'expansibilité",
+        "L'élasticité",
+        "La rigidité"
+      ],
+      "answer": 1,
+      "explanation": "L'expansibilité est la propriété d'un gaz d'occuper tout l'espace disponible."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Un gaz qui reprend son volume initial après compression est dit ________.",
+      "answer": "élastique",
+      "explanation": "L'élasticité est la propriété de reprendre son volume initial."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Parmi ces propositions, laquelle n'est pas une propriété des liquides ?",
+      "options": [
+        "Ils prennent la forme du récipient",
+        "Leur surface libre est plane et horizontale",
+        "On peut les saisir",
+        "Ils n'ont pas de forme propre"
+      ],
+      "answer": 2,
+      "explanation": "On ne peut pas saisir un liquide ; c'est une propriété des solides."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Comment nettoie-t-on une terrasse après avoir brisé un verre ?",
+      "options": [
+        "On ramasse les gros morceaux avec la main, on balaie les petits, on essuie l'eau",
+        "On jette de l'eau",
+        "On utilise un aimant",
+        "On attend que ça sèche"
+      ],
+      "answer": 0,
+      "explanation": "La solution au problème indique de ramasser les gros morceaux, balayer les petits et essuyer l'eau."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Les gaz sont souvent ________ et inodores, c'est-à-dire sans couleur ni odeur.",
+      "answer": "incolores",
+      "explanation": "Incolore signifie sans couleur, inodore signifie sans odeur."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel matériel permet de mettre en évidence la compressibilité de l'air ?",
+      "options": [
+        "Un cristallisoir",
+        "Une seringue",
+        "Un ballon à fond plat",
+        "Un flacon"
+      ],
+      "answer": 1,
+      "explanation": "La seringue permet de comprimer l'air et de montrer sa compressibilité."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Parmi ces corps, lequel est un liquide ?",
+      "options": [
+        "Le sable",
+        "Le riz",
+        "L'huile",
+        "Un caillou"
+      ],
+      "answer": 2,
+      "explanation": "L'huile est un liquide : on ne peut pas la saisir, elle prend la forme du récipient."
+    },
+    {
+      "id": "q19",
+      "type": "fill",
+      "prompt": "Un solide qui peut être déformé, comme un chiffon, est un solide ________.",
+      "answer": "déformable",
+      "explanation": "Un chiffon est un solide déformable."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Quelle est la propriété d'un gaz qui lui permet de reprendre son volume initial après compression ?",
+      "options": [
+        "La compressibilité",
+        "L'expansibilité",
+        "L'élasticité",
+        "La plasticité"
+      ],
+      "answer": 2,
+      "explanation": "L'élasticité est la propriété de reprendre son volume initial."
+    }
+  ]
+}

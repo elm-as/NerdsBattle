@@ -1,0 +1,173 @@
+{
+  "id": "physique-quatrieme-je-respecte-les-regles-de-securite-pour-prev",
+  "subjectId": "physique",
+  "levelId": "quatrieme",
+  "slug": "je-respecte-les-regles-de-securite-pour-prev",
+  "title": "Sécurité du courant secteur – prévention des incendies",
+  "summary": "Ce cours explique le fonctionnement d’une prise secteur (phase, neutre, terre), les caractéristiques de la tension (220 V eff, 50 Hz), les dangers du courant sur le corps humain (secousses, brûlures, tétanisation, électrocution) et sur les installations (surcharge, court‑circuit). Il décrit les dispositifs de protection (mise à la terre, disjoncteur différentiel, fusible) afin de prévenir les incendies comme celui du marché.",
+  "lesson": "## 1. Le courant délivré par une prise électrique\n- **Phase** : borne femelle qui fait briller le testeur.\n- **Neutre** : borne femelle qui ne fait pas briller le testeur.\n- **Terre** : borne mâle, reliée au châssis métallique des appareils.\n\n### 1.2 Caractéristiques du secteur\n- Tension alternative sinusoïdale : \n  - Période **T = 0,02 s**\n  - Fréquence **N = 50 Hz**\n  - Valeur efficace **Ueff = 220 V**\n  - Valeur maximale **Umax ≈ 310 V**\n\n## 2. Dangers du courant sur les personnes\n- **Secousses** : seuils de tension : 24 V (humide), 50 V (sec), 12 V (dans l’eau). Intensité dangereuse ≥ 20 mA.\n- **Brûlures** : tension élevée provoque des lésions cutanées.\n- **Tétanisation** : à partir de 30 mA, les muscles se crispent et ne se relâchent pas.\n- **Électrocution** : passage du courant dans les organes vitaux (cœur, poumons, cerveau) → mort.\n- Les effets ne surviennent que si le corps relie **phase‑neutre** ou **phase‑terre**.\n\n## 3. Dangers pour l’installation et les appareils\n- **Surcharge** : trop d’appareils sur une même prise → surintensité → échauffement.\n- **Court‑circuit** : contact direct phase‑neutre ou phase‑terre → échauffement rapide, fonte des isolants, risque d’incendie.\n\n## 4. Dispositifs de prévention et protection\n- **Mise à la terre** : le troisième fil relie le châssis métallique à la terre, évitant les chocs.\n- **Disjoncteur différentiel** : détecte une fuite de courant vers la terre et coupe le circuit.\n- **Fusible** : fond lorsqu’une intensité excessive le traverse, interrompant le circuit.\n\n---\n**Application pratique** : en cas de court‑circuit, le fusible ou le disjoncteur différentiel doit se déclencher, limitant le courant et évitant le déclenchement d’un incendie comme celui du marché décrit dans le problème initial.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle borne de la prise fait briller le testeur ?",
+      "options": [
+        "Phase",
+        "Neutre",
+        "Terre",
+        "Aucune"
+      ],
+      "answer": 0,
+      "explanation": "La borne femelle qui allume le testeur correspond à la phase."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle est la fréquence du courant secteur en Côte d’Ivoire ?",
+      "options": [
+        "60 Hz",
+        "50 Hz",
+        "55 Hz",
+        "45 Hz"
+      ],
+      "answer": 1,
+      "explanation": "Le secteur est à 50 Hz (T=0,02 s)."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Une tension de 30 V peut provoquer une électrocution grave chez une personne sèche.",
+      "answer": false,
+      "explanation": "Le seuil dangereux pour un corps sec est d’environ 50 V."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "L’intensité minimale considérée dangereuse pour le cœur humain est de ___ mA.",
+      "answer": "20",
+      "explanation": "20 mA peuvent entraîner un arrêt cardiaque."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel phénomène apparaît à partir de 30 mA d’intensité ?",
+      "options": [
+        "Secousse légère",
+        "Brûlure cutanée",
+        "Tétanisation",
+        "Électrocution"
+      ],
+      "answer": 2,
+      "explanation": "À 30 mA les muscles se crispent (tétanisation)."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Le fil de terre joue le même rôle que le neutre dans une prise moderne.",
+      "answer": false,
+      "explanation": "Le neutre assure le retour du courant, la terre protège contre les défauts."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel dispositif coupe le circuit lorsqu’une fuite vers la terre est détectée ?",
+      "options": [
+        "Fusible",
+        "Disjoncteur magnétique",
+        "Disjoncteur différentiel",
+        "Interrupteur manuel"
+      ],
+      "answer": 2,
+      "explanation": "Le disjoncteur différentiel détecte les courants de fuite."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "La valeur maximale (pic) de la tension secteur est d’environ ___ V.",
+      "answer": "310",
+      "explanation": "Umax ≈ √2 × Ueff ≈ 310 V."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Un court‑circuit correspond à un contact direct entre le fil de phase et le neutre.",
+      "answer": true,
+      "explanation": "C’est exactement la définition du court‑circuit."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est le principal risque d’une surcharge sur une prise ?",
+      "options": [
+        "Déclenchement du fusible",
+        "Échauffement des conducteurs",
+        "Perte de tension",
+        "Aucun"
+      ],
+      "answer": 1,
+      "explanation": "La surcharge provoque un échauffement qui peut faire fondre les isolants."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Le seuil de tension dangereux pour un corps humide est de ___ V.",
+      "answer": "24",
+      "explanation": "En milieu humide le seuil est plus bas, 24 V."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Le fusible fond uniquement en cas de court‑circuit, jamais en surcharge.",
+      "answer": false,
+      "explanation": "Le fusible fond dès que l’intensité dépasse sa valeur nominale, que ce soit surcharge ou court‑circuit."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel dispositif protège les personnes contre les chocs lorsqu’un appareil possède un châssis métallique ?",
+      "options": [
+        "Fusible",
+        "Mise à la terre",
+        "Disjoncteur différentiel",
+        "Interrupteur différentiel"
+      ],
+      "answer": 1,
+      "explanation": "La mise à la terre relie le châssis à la terre, évitant les chocs."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Une tension de 220 V mesurée avec un voltmètre indique toujours un danger immédiat pour l’homme.",
+      "answer": false,
+      "explanation": "Le danger dépend de l’intensité et du chemin du courant dans le corps."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Le temps d’une période complète du courant secteur est de ___ s.",
+      "answer": "0.02",
+      "explanation": "T = 1/N = 1/50 Hz = 0.02 s."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel est le rôle principal du disjoncteur magnétique (ou coupe‑circuit) ?",
+      "options": [
+        "Détecter les fuites à la terre",
+        "Protéger contre les surintensités",
+        "Limiter la tension",
+        "Aucun"
+      ],
+      "answer": 1,
+      "explanation": "Il coupe le circuit en cas de surintensité, comme lors d’un court‑circuit."
+    }
+  ]
+}

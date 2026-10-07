@@ -1,0 +1,177 @@
+{
+  "id": "francais-sixieme-l1-gr-l1-s5-phrases-emphatiques",
+  "subjectId": "francais",
+  "levelId": "sixieme",
+  "slug": "l1-gr-l1-s5-phrases-emphatiques",
+  "title": "La phrase emphatique et les présentatifs",
+  "summary": "Cette leçon explique comment mettre en relief un élément de la phrase grâce à l'emphase. Elle présente les procédés emphatiques et les présentatifs, avec des exemples concrets.",
+  "lesson": "# La phrase emphatique et les présentatifs\n\n## Définition\nUne phrase emphatique consiste à mettre en relief, à insister sur un constituant de la phrase. On parle aussi de procédé de mise en emphase.\n\n**Exemple :** Les mathématiques, je les aime.\n\n## I. Quelques procédés emphatiques\nPour construire la phrase emphatique, on peut procéder par :\n\n- **Le changement de l'ordre de la phrase.**\n  - Exemple : Belle, est cette maison !\n- **La répétition à l'aide d'un pronom.**\n  - Exemple : Ce professeur, je l'aime bien.\n- **L'utilisation de présentatifs.**\n  - Exemple : C'est ce jeune garçon qui se baignait hier dans le grand fleuve.\n- **L'utilisation de quant à ou de quant aux.**\n  - Exemple : Les élèves filles sont de plus en plus intelligentes. Quant aux garçons, ils sont de plus en plus paresseux.\n\n## II. Les présentatifs\nLes présentatifs de la forme emphatique peuvent se former à partir de :\n\n- **c'est** suivi d'un pronom relatif comme *qui, que, dont, lequel, laquelle*…\n  - Exemple : C'est le médecin dont Serge avait parlé.\n- **Il y a** ou **ce sont** suivi de *que* ou *qui*.\n  - Exemple : Il y a beaucoup de gens qui parlent bien le français.\n\n**N.B :** On peut aussi utiliser *voilà, voici*.\n- Exemple : Voici la robe que j'ai portée le jour de mon anniversaire.\n\n## Situation d'apprentissage\nAu cours de leurs recherches en bibliothèque, les élèves de 6ème de ton établissement découvrent le corpus de phrases suivant :\n\n- P1 : Belle, est cette plage !\n- P2 : Ton frère, je le connais bien.\n- P3 : C'est son fils qui a été le premier de son centre d'examen.\n- P4 : C'est son fils que j'ai eu en classe deux années de suite.\n- P5 : Il y a beaucoup de personnes qui ne croient plus aux rumeurs.\n\nIntéressés par ces phrases, ils s'organisent pour connaître différentes phrases, les définir et les utiliser en contexte.\n\n## Exercices\n1. Indique le type et la forme de chacune des phrases suivantes.\n   - P1 : Yao aime le lait chaud.\n   - P2 : Il a réussi par son travail.\n   - P3 : As-tu retrouvé mon chien chez les voisins ?\n   - P4 : Ce meuble n'est ni confortable ni beau.\n   - P5 : Que ce cheval est beau !\n\n2. Associe à ces types de phrase, la forme emphatique en utilisant :\n   - la répétition à l'aide d'un pronom\n   - l'utilisation de présentatifs",
+  "estimatedMinutes": 10,
+  "tags": [
+    "francais",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'une phrase emphatique ?",
+      "options": [
+        "Une phrase qui met en relief un constituant de la phrase",
+        "Une phrase qui pose une question",
+        "Une phrase qui exprime un ordre",
+        "Une phrase qui nie une action"
+      ],
+      "answer": 0,
+      "explanation": "La phrase emphatique consiste à mettre en relief, à insister sur un constituant de la phrase."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Parmi les procédés suivants, lequel n'est pas un procédé emphatique selon le cours ?",
+      "options": [
+        "Le changement de l'ordre de la phrase",
+        "La répétition à l'aide d'un pronom",
+        "L'utilisation de présentatifs",
+        "L'utilisation de la négation"
+      ],
+      "answer": 3,
+      "explanation": "Les procédés emphatiques cités sont : changement de l'ordre, répétition à l'aide d'un pronom, utilisation de présentatifs, utilisation de quant à/quant aux. La négation n'est pas mentionnée."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel présentatif est utilisé dans la phrase : 'C'est ce jeune garçon qui se baignait hier dans le grand fleuve.' ?",
+      "options": [
+        "C'est",
+        "Il y a",
+        "Voici",
+        "Quant à"
+      ],
+      "answer": 0,
+      "explanation": "Le présentatif utilisé est 'C'est'."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "prompt": "Complétez : Les présentatifs de la forme emphatique peuvent se former à partir de 'c'est' suivi d'un pronom relatif comme qui, que, dont, ______, laquelle…",
+      "answer": "lequel",
+      "explanation": "Le cours mentionne : 'c'est suivi d'un pronom relatif comme qui, que, dont, lequel, laquelle…'"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle phrase utilise 'quant aux' comme procédé emphatique ?",
+      "options": [
+        "Les élèves filles sont de plus en plus intelligentes. Quant aux garçons, ils sont de plus en plus paresseux.",
+        "Belle, est cette maison !",
+        "Ce professeur, je l'aime bien.",
+        "C'est ce jeune garçon qui se baignait hier dans le grand fleuve."
+      ],
+      "answer": 0,
+      "explanation": "L'exemple donné pour 'quant aux' est : 'Les élèves filles sont de plus en plus intelligentes. Quant aux garçons, ils sont de plus en plus paresseux.'"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Dans la phrase 'Il y a beaucoup de gens qui parlent bien le français.', quel est le présentatif ?",
+      "options": [
+        "Il y a",
+        "beaucoup",
+        "gens",
+        "qui"
+      ],
+      "answer": 0,
+      "explanation": "Le présentatif est 'Il y a'."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Complétez la phrase : 'Voici la robe ______ j'ai portée le jour de mon anniversaire.'",
+      "answer": "que",
+      "explanation": "La phrase complète est : 'Voici la robe que j'ai portée le jour de mon anniversaire.'"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est le type de la phrase : 'As-tu retrouvé mon chien chez les voisins ?'",
+      "options": [
+        "Interrogative",
+        "Déclarative",
+        "Exclamative",
+        "Impérative"
+      ],
+      "answer": 0,
+      "explanation": "C'est une phrase interrogative car elle pose une question et se termine par un point d'interrogation."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quelle est la forme de la phrase : 'Ce meuble n'est ni confortable ni beau.' ?",
+      "options": [
+        "Négative",
+        "Affirmative",
+        "Exclamative",
+        "Interrogative"
+      ],
+      "answer": 0,
+      "explanation": "La phrase est à la forme négative car elle utilise 'ne... ni... ni...'."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel procédé emphatique est utilisé dans : 'Ce professeur, je l'aime bien.' ?",
+      "options": [
+        "La répétition à l'aide d'un pronom",
+        "Le changement de l'ordre de la phrase",
+        "L'utilisation de présentatifs",
+        "L'utilisation de quant à"
+      ],
+      "answer": 0,
+      "explanation": "Le pronom 'l'' reprend 'Ce professeur', c'est une répétition à l'aide d'un pronom."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Complétez : 'C'est le médecin ______ Serge avait parlé.'",
+      "answer": "dont",
+      "explanation": "La phrase correcte est : 'C'est le médecin dont Serge avait parlé.'"
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quelle phrase est une phrase emphatique selon le cours ?",
+      "options": [
+        "Les mathématiques, je les aime.",
+        "Yao aime le lait chaud.",
+        "Il a réussi par son travail.",
+        "As-tu retrouvé mon chien chez les voisins ?"
+      ],
+      "answer": 0,
+      "explanation": "L'exemple donné pour la phrase emphatique est : 'Les mathématiques, je les aime.'"
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quel est le type de la phrase : 'Yao aime le lait chaud.' ?",
+      "options": [
+        "Déclarative",
+        "Interrogative",
+        "Exclamative",
+        "Impérative"
+      ],
+      "answer": 0,
+      "explanation": "C'est une phrase déclarative car elle déclare un fait."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "prompt": "Complétez : 'Il y a beaucoup de personnes ______ ne croient plus aux rumeurs.'",
+      "answer": "qui",
+      "explanation": "La phrase complète est : 'Il y a beaucoup de personnes qui ne croient plus aux rumeurs.'"
+    }
+  ]
+}

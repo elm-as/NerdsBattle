@@ -1,0 +1,70 @@
+{
+  "id": "maths-sixieme-fractions-ecriture",
+  "title": "Écritures fractionnaires et partage",
+  "summary": "Maîtrisez les fractions pour partager équitablement et comparer des quantités, une compétence essentielle dans la vie quotidienne et en mathématiques. Ce chapitre vous donne les clés pour lire, écrire et utiliser les fractions avec aisance.",
+  "lesson": "## Introduction & Mise en situation\n\nImagine que tu partages une pizza avec des amis. Si vous êtes 4 et que vous voulez une part égale chacun, vous coupez la pizza en 4 parts égales. Chaque part représente **un quart** de la pizza. Ce partage, c'est exactement ce que les fractions permettent de décrire ! Les fractions servent à représenter des parts d'un tout, mais aussi des mesures (comme 1,5 L de lait), des distances, etc. Elles sont partout dans la vie courante et dans les mathématiques. Comprendre les fractions, c'est savoir lire et écrire les nombres qui ne sont pas entiers, et c'est la base pour les calculs plus avancés.\n\n## 1. Définitions et Principes Fondamentaux\n\nUne **fraction** est un nombre qui représente une ou plusieurs parties égales d'un tout. Elle s'écrit sous la forme $\\frac{a}{b}$, où $a$ et $b$ sont des nombres entiers, avec $b \\neq 0$.\n\n- **Numérateur** : le nombre au-dessus de la barre (ici $a$). Il indique combien de parts on prend.\n- **Dénominateur** : le nombre en dessous de la barre (ici $b$). Il indique en combien de parts égales le tout est divisé.\n\n**Exemple :** Dans la fraction $\\frac{3}{5}$, le numérateur est 3 et le dénominateur est 5. Cela signifie qu'on a découpé un tout en 5 parts égales et qu'on en prend 3.\n\n**Lecture :** $\\frac{1}{2}$ se lit \"un demi\", $\\frac{1}{3}$ \"un tiers\", $\\frac{1}{4}$ \"un quart\", $\\frac{1}{5}$ \"un cinquième\", etc. Pour les autres, on dit \"trois cinquièmes\", \"sept huitièmes\", etc.\n\n**Fraction partage :** Si on partage une quantité en $b$ parts égales, chaque part vaut $\\frac{1}{b}$ de la quantité. Par exemple, $\\frac{1}{4}$ de 20 €, c'est 20 € divisé par 4, soit 5 €.\n\n## 2. Propriétés et Méthodes d'application\n\n### 2.1 Prendre une fraction d'une quantité\n\nPour calculer $\\frac{a}{b}$ d'une quantité $Q$, on divise $Q$ par $b$ puis on multiplie par $a$ :\n\n$$ \\frac{a}{b} \\times Q = \\frac{a \\times Q}{b} $$\n\n**Exemple :** Calculer $\\frac{3}{4}$ de 24 €.\n\n- Méthode 1 : $24 \\div 4 = 6$, puis $6 \\times 3 = 18$ €.\n- Méthode 2 : $\\frac{3 \\times 24}{4} = \\frac{72}{4} = 18$ €.\n\nDonc $\\frac{3}{4}$ de 24 € vaut 18 €.\n\n### 2.2 Fractions égales et simplification\n\nUne fraction ne change pas de valeur si on multiplie ou divise son numérateur et son dénominateur par un même nombre non nul.\n\n$$ \\frac{a}{b} = \\frac{a \\times k}{b \\times k} \\quad \\text{et} \\quad \\frac{a}{b} = \\frac{a \\div k}{b \\div k} $$\n\n**Exemple :** $\\frac{2}{3} = \\frac{2 \\times 4}{3 \\times 4} = \\frac{8}{12}$. On a multiplié en haut et en bas par 4.\n\n**Simplifier** une fraction, c'est trouver une fraction égale avec un numérateur et un dénominateur plus petits. On divise le numérateur et le dénominateur par un diviseur commun.\n\n**Exemple :** Simplifier $\\frac{12}{18}$. On peut diviser par 6 : $\\frac{12 \\div 6}{18 \\div 6} = \\frac{2}{3}$. On dit que $\\frac{2}{3}$ est une fraction irréductible (on ne peut plus la simplifier).\n\n### 2.3 Comparer des fractions\n\n- Si deux fractions ont le **même dénominateur**, la plus grande est celle qui a le plus grand numérateur.\n  *Exemple :* $\\frac{3}{7} < \\frac{5}{7}$ car $3 < 5$.\n- Si elles ont le **même numérateur**, la plus grande est celle qui a le plus petit dénominateur.\n  *Exemple :* $\\frac{2}{5} > \\frac{2}{9}$ car les parts sont plus grandes quand on coupe en moins de morceaux.\n- Si les dénominateurs sont différents, on les met au même dénominateur en utilisant les fractions égales.\n\n**Exemple :** Comparer $\\frac{3}{4}$ et $\\frac{5}{6}$. On cherche un dénominateur commun, par exemple 12 (multiple de 4 et 6).\n\n$\\frac{3}{4} = \\frac{3 \\times 3}{4 \\times 3} = \\frac{9}{12}$ et $\\frac{5}{6} = \\frac{5 \\times 2}{6 \\times 2} = \\frac{10}{12}$. Comme $9 < 10$, on a $\\frac{3}{4} < \\frac{5}{6}$.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Oublier que le dénominateur ne doit jamais être nul.** Une fraction avec un dénominateur de 0 n'existe pas.\n- **Confondre numérateur et dénominateur.** Le numérateur est en haut, le dénominateur en bas. Astuce : \"Dénominateur\" commence par \"D\" comme \"dessous\".\n- **Ne pas simplifier avant de calculer.** Parfois, simplifier avant de multiplier rend les calculs plus faciles. Par exemple, $\\frac{2}{3} \\times \\frac{3}{4}$ : on peut simplifier le 3 en haut et en bas, ce qui donne $\\frac{2}{4} = \\frac{1}{2}$.\n- **Croire que $\\frac{1}{2}$ est plus grand que $\\frac{1}{3}$** parce que 2 est plus grand que 3 ? Non, c'est le contraire : plus le dénominateur est grand, plus les parts sont petites.\n- **Ne pas mettre au même dénominateur pour comparer.** Comparer directement $\\frac{3}{4}$ et $\\frac{5}{6}$ sans les mettre au même dénominateur est une erreur courante.\n\n## Synthèse\n\n1. **Une fraction $\\frac{a}{b}$ représente $a$ parts d'un tout divisé en $b$ parts égales.** Le dénominateur indique le nombre de parts, le numérateur le nombre de parts choisies.\n2. **Pour prendre une fraction d'une quantité, on divise par le dénominateur et on multiplie par le numérateur.**\n3. **Pour comparer des fractions, on les met au même dénominateur, ou on utilise les règles de comparaison selon les cas.**",
+  "estimatedMinutes": 12,
+  "tags": [
+    "fractions",
+    "partage",
+    "numérateur",
+    "dénominateur",
+    "6ème"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Que représente le dénominateur dans une fraction $\\frac{a}{b}$ ?",
+      "options": [
+        "Le nombre de parts prises",
+        "Le nombre total de parts égales",
+        "Le nombre qui indique si la fraction est positive",
+        "Le résultat de la division"
+      ],
+      "answer": 1,
+      "explanation": "Le dénominateur (en bas) indique en combien de parts égales le tout est divisé."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La fraction $\\frac{3}{5}$ est plus grande que $\\frac{3}{7}$.",
+      "answer": true,
+      "explanation": "Lorsque les numérateurs sont égaux, la fraction avec le plus petit dénominateur est la plus grande. Ici, 5 < 7, donc $\\frac{3}{5} > \\frac{3}{7}$."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Calcule : $\\frac{2}{3}$ de 27 = ?",
+      "answer": "18",
+      "explanation": "$27 \\div 3 = 9$, puis $9 \\times 2 = 18$."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle fraction est égale à $\\frac{2}{5}$ ?",
+      "options": [
+        "$\\frac{4}{10}$",
+        "$\\frac{2}{10}$",
+        "$\\frac{6}{15}$",
+        "$\\frac{1}{5}$"
+      ],
+      "answer": 0,
+      "explanation": "En multipliant numérateur et dénominateur par 2, on obtient $\\frac{4}{10}$."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Pour comparer $\\frac{3}{4}$ et $\\frac{5}{6}$, on peut les mettre au même dénominateur 12.",
+      "answer": true,
+      "explanation": "12 est un multiple commun de 4 et 6, donc on peut écrire $\\frac{3}{4} = \\frac{9}{12}$ et $\\frac{5}{6} = \\frac{10}{12}$."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Simplifie la fraction $\\frac{15}{25}$ : le résultat est $\\frac{...}{5}$.",
+      "answer": "3",
+      "explanation": "On divise numérateur et dénominateur par 5 : $\\frac{15 \\div 5}{25 \\div 5} = \\frac{3}{5}$."
+    }
+  ]
+}

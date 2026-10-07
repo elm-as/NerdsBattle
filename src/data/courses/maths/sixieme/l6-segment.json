@@ -1,0 +1,174 @@
+{
+  "id": "maths-sixieme-l6-segment",
+  "subjectId": "maths",
+  "levelId": "sixieme",
+  "slug": "l6-segment",
+  "title": "Géométrie du plan : Segments et médiatrices (6ᵉ)",
+  "summary": "Apprentissage du concept de segment, de sa notation, de la mesure, du milieu et de la médiatrice. Mise en pratique avec constructions à l’échelle, comparaison de longueurs et résolution de problèmes de localisation d’un point à égale distance de deux villages.",
+  "lesson": "## A. Situation d’apprentissage\nDeux villages A et B sont séparés de 6 km sur une route droite. L’école doit être placée à égale distance des deux villages, donc au milieu du segment [AB].\n\n## B. Contenu\n### I. Segment\n- **Définition** : partie d’une droite (D) comprise entre deux points A et B distincts. Notation : `[AB]` (ou `[BA]`).\n- **Longueur** : notée `AB`. Mesurée avec une règle graduée.\n- **Comparaison** : on utilise un compas pour vérifier l’égalité de deux longueurs.\n\n### II. Milieu d’un segment\n- **Définition** : point I appartenant à `[AB]` tel que `AI = IB`.\n- **Construction** : tracer les arcs de même rayon à partir de A et B qui se coupent; le segment reliant les points d’intersection coupe `[AB]` en son milieu.\n\n### III. Médiatrice d’un segment\n- **Définition** : droite perpendiculaire au support du segment et passant par son milieu.\n- **Construction** : à partir du milieu I, tracer une droite perpendiculaire à `(AB)`.\n\n## C. Situation d’évaluation\nVillages A et B séparés de 8 km. Le moulin M et le dispensaire D doivent être à égale distance des deux villages, respectivement à 5 km et 4 km. On trace `[AB]` à l’échelle 1 cm = 1 km, on construit la médiatrice (W) et on repère les points M et D sur cette droite.\n\n## IV. Exercices de renforcement et d’approfondissement\n- Citer les segments d’une figure donnée.\n- Construire le milieu d’un segment.\n- Tracer la médiatrice d’un segment.\n- Identifier la médiatrice d’un segment à partir d’une configuration.\n\n---\n*Toutes les constructions se font à l’aide d’une règle graduée, d’un compas et d’une équerre.*",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "truefalse",
+      "prompt": "Le symbole (AB) désigne un segment.",
+      "answer": false,
+      "explanation": "(AB) désigne la droite support du segment, pas le segment lui‑même."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "[AB] et [BA] représentent le même segment.",
+      "answer": true,
+      "explanation": "L’ordre des extrémités n’affecte pas le segment."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "La longueur du segment [AB] se note ___ .",
+      "answer": "AB",
+      "explanation": "On écrit la longueur sans crochets."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel outil permet de comparer deux longueurs de segments sans les mesurer ?",
+      "options": [
+        "Règle graduée",
+        "Compas",
+        "Équerre",
+        "Rapporteur"
+      ],
+      "answer": 1,
+      "explanation": "Le compas permet de transférer une longueur et de vérifier l’égalité."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Dans la construction du milieu d’un segment, quels sont les deux points de départ des arcs ?",
+      "options": [
+        "Les extrémités du segment",
+        "Le milieu et une extrémité",
+        "Deux points quelconques du plan",
+        "Les points d’intersection de la médiatrice"
+      ],
+      "answer": 0,
+      "explanation": "On trace des arcs de même rayon à partir des deux extrémités."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "La médiatrice d’un segment passe toujours par le milieu du segment.",
+      "answer": true,
+      "explanation": "C’est la définition même de la médiatrice."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Une droite perpendiculaire à (AB) qui passe par le milieu I est la ___ du segment [AB].",
+      "answer": "médiatrice",
+      "explanation": "Définition de la médiatrice."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Sur une échelle 1 cm = 1 km, quelle longueur en cm représente le segment [AB] de 8 km ?",
+      "options": [
+        "6 cm",
+        "8 cm",
+        "10 cm",
+        "12 cm"
+      ],
+      "answer": 1,
+      "explanation": "8 km → 8 cm à l’échelle donnée."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Dans la situation d’évaluation, le moulin M et le dispensaire D sont situés sur la même droite que la médiatrice (W).",
+      "answer": true,
+      "explanation": "Ils doivent être à égale distance des deux villages, donc sur la médiatrice."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Si le point I est le milieu de [AB] et AI = 3 cm, alors AB = ___ cm.",
+      "answer": "6",
+      "explanation": "La longueur totale est le double de la moitié."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel est le résultat de la comparaison BE = GF dans l’exercice de fixation ?",
+      "options": [
+        "BE est plus grand que GF",
+        "BE est plus petit que GF",
+        "BE = GF",
+        "Impossible à déterminer"
+      ],
+      "answer": 2,
+      "explanation": "Le compas a montré que les deux segments sont égaux."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "[AB) est une notation correcte pour désigner un segment.",
+      "answer": false,
+      "explanation": "La notation correcte est [AB] ou [BA]."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Dans le tableau de l’exercice de fixation, la réponse à « (AB) est un segment » est ___ .",
+      "answer": "F",
+      "explanation": "(AB) est une droite, pas un segment."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel outil est indispensable pour tracer la médiatrice d’un segment ?",
+      "options": [
+        "Compas",
+        "Règle graduée",
+        "Équerre",
+        "Rapporteur"
+      ],
+      "answer": 0,
+      "explanation": "Le compas permet de reporter la même distance à partir des extrémités pour obtenir le milieu."
+    },
+    {
+      "id": "q16",
+      "type": "truefalse",
+      "prompt": "Si deux villages sont à 6 km l’un de l’autre, l’école placée au milieu sera à 3 km de chaque village.",
+      "answer": true,
+      "explanation": "Le milieu divise le segment en deux parties égales."
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "prompt": "Le point M, situé à 5 km des villages A et B, se trouve à ___ cm du segment [AB] sur l’échelle 1 cm = 1 km.",
+      "answer": "0",
+      "explanation": "M est sur la médiatrice, donc perpendiculaire au segment, mais la distance le long de la médiatrice n’est pas mesurée en cm sur le segment."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Quel est le nombre total de segments que l’on peut former avec trois points alignés A, B et F ?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "Les segments sont [AB], [AF] et [BF]."
+    }
+  ]
+}

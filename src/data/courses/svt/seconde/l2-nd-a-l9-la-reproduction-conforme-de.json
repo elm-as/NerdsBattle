@@ -1,0 +1,163 @@
+{
+  "id": "svt-seconde-l2-nd-a-l9-la-reproduction-conforme-de",
+  "subjectId": "svt",
+  "levelId": "seconde",
+  "slug": "l2-nd-a-l9-la-reproduction-conforme-de",
+  "title": "Mise en pratique de la mitose en SVT – 2nd A",
+  "summary": "Ce document présente la division cellulaire (mitose) en SVT, ses quatre phases (prophase, métaphase, anaphase, télophase), son importance pour la cicatrisation et la reproduction cellulaire, ainsi qu’une activité d’application pour associer phases et caractéristiques.",
+  "lesson": "# La mitose\n\n## 1. Contexte\nUn élève de 2nd A a subi une blessure profonde. La cicatrisation de son bras est assurée par la multiplication des cellules, c’est‑à‑dire la mitose.\n\n## 2. Phases de la mitose\n1. **Prophase** – Le noyau se condense, les centrosomes se divisent et migrent vers les pôles, le fuseau se forme, les chromosomes deviennent visibles.\n2. **Métaphase** – Les chromosomes s’alignent à l’équateur du fuseau.\n3. **Anaphase** – Les chromatides sœurs se séparent et migrent vers les pôles opposés.\n4. **Télophase** – Deux nouveaux noyaux se forment, les chromosomes se décondenser, la membrane nucléaire se ré‑reconstitue.\n\n## 3. Importance\n- **Cicatrisation** : remplace les cellules endommagées.\n- **Croissance** : augmente le nombre de cellules.\n- **Reproduction** : assure la transmission du matériel génétique.\n\n## 4. Activité d’application\nAssociez chaque phase à la caractéristique correspondante (voir tableau).\n\n## 5. Conclusion\nLa mitose est essentielle pour la vie de l’organisme : réparation, croissance et reproduction cellulaire.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "svt",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel événement caractérise la prophase?",
+      "options": [
+        "Les chromosomes se séparent",
+        "Les chromatides sœurs migrent vers les pôles",
+        "Le noyau se condense",
+        "Les microtubules se raccourcissent"
+      ],
+      "answer": 2,
+      "explanation": "En prophase, le noyau se condense et les chromosomes deviennent visibles."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "À quel stade les chromosomes s’alignent-ils à l’équateur?",
+      "options": [
+        "Prophase",
+        "Métaphase",
+        "Anaphase",
+        "Télophase"
+      ],
+      "answer": 1,
+      "explanation": "La métaphase est le stade d’alignement des chromosomes."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Qu’est‑ce qui se produit en anaphase?",
+      "options": [
+        "Les chromatides sœurs se séparent",
+        "Les chromosomes se condensent",
+        "Le fuseau se forme",
+        "Le noyau se ré‑reconstitue"
+      ],
+      "answer": 0,
+      "explanation": "En anaphase, les chromatides sœurs se séparent et migrent vers les pôles."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est le rôle du fuseau mitotique?",
+      "options": [
+        "Séparer les chromatides sœurs",
+        "Former le noyau",
+        "Déplacer les chromosomes",
+        "Décomposer les microtubules"
+      ],
+      "answer": 2,
+      "explanation": "Le fuseau mitotique déplace les chromosomes vers les pôles."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel stade est caractérisé par la formation de deux nouveaux noyaux?",
+      "options": [
+        "Prophase",
+        "Métaphase",
+        "Anaphase",
+        "Télophase"
+      ],
+      "answer": 3,
+      "explanation": "La télophase forme deux nouveaux noyaux."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "La mitose produit-elle des cellules filles identiques à la cellule mère?",
+      "options": [
+        "Oui",
+        "Non",
+        "Seulement en métaphase",
+        "Seulement en télophase"
+      ],
+      "answer": 0,
+      "explanation": "La mitose produit deux cellules filles identiques à la mère."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel terme désigne la division du cytoplasme?",
+      "options": [
+        "Cytokinèse",
+        "Mitosis",
+        "Meiose",
+        "Cytoplasme"
+      ],
+      "answer": 0,
+      "explanation": "La cytokinèse est la division du cytoplasme."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel est l’outil principal de séparation des chromatides?",
+      "options": [
+        "Centrosome",
+        "Noyau",
+        "Microtubules",
+        "Chromatine"
+      ],
+      "answer": 2,
+      "explanation": "Les microtubules du fuseau séparent les chromatides."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel est le rôle de la cicatrisation?",
+      "options": [
+        "Remplacer les cellules endommagées",
+        "Réduire le nombre de cellules",
+        "Augmenter la taille des cellules",
+        "Changer le matériel génétique"
+      ],
+      "answer": 0,
+      "explanation": "La cicatrisation remplace les cellules endommagées."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel stade est le plus court?",
+      "options": [
+        "Prophase",
+        "Métaphase",
+        "Anaphase",
+        "Télophase"
+      ],
+      "answer": 1,
+      "explanation": "La métaphase est généralement la plus courte."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "En ________, les chromatides sœurs migrent vers les pôles opposés.",
+      "answer": "2",
+      "explanation": "En anaphase, les chromatides migrent vers les pôles."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Le processus de division du cytoplasme s’appelle ________.",
+      "answer": "0",
+      "explanation": "La division du cytoplasme s’appelle cytokinèse."
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "culture_generale-sixieme-les-principes-democratiques-et-la-justice-so",
+  "subjectId": "culture_generale",
+  "levelId": "sixieme",
+  "slug": "les-principes-democratiques-et-la-justice-so",
+  "title": "Leçon 6 : Les principes démocratiques et la justice sociale",
+  "summary": "La démocratie est un système politique où le peuple choisit ses dirigeants lors d'élections libres et transparentes. Le respect des principes démocratiques comme la souveraineté du peuple, la liberté d'expression et la séparation des pouvoirs favorise la paix et la cohésion sociale.",
+  "lesson": "# Leçon 6 : Les principes démocratiques et la justice sociale\n\n## La démocratie\n\nLa démocratie est un système politique dans lequel le peuple choisit ses dirigeants à intervalles réguliers lors d’élections libres, transparentes et pluripartites. Le pouvoir appartient donc aux citoyens qui l’exercent à travers leurs représentants qu’ils élisent et qui en retour doivent leur rendre compte. C’est le gouvernement du peuple par le peuple et pour le peuple.\n\n## Quelques principes démocratiques de base\n\n- **La souveraineté du peuple** : signifie que le pouvoir est exercé au nom du peuple par ses élus.\n- **Des élections libres** : chaque électeur est libre de choisir son candidat parmi plusieurs autres candidats.\n- **La liberté de pensée, d’opinion et d’expression** : chaque citoyen est libre de donner son avis sans risque d’être inquiété.\n- **La séparation des pouvoirs (exécutif, législatif, judiciaire)** : Le but de la séparation des pouvoirs est de s’assurer qu’un seul pouvoir ne monopolise pas tous les pouvoirs. Ce principe donne une indépendance à chaque pouvoir. Cela permet de prévenir les abus de pouvoir et la dictature.\n\n## Importance du respect des principes démocratiques\n\nLe respect des principes démocratiques favorise la paix sociale et la cohésion sociale.\n\nExemple d’application de principes démocratiques : exprimer ses opinions sans aucun risque d’être inquiété.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "culture_generale",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Qu'est-ce que la démocratie selon le document ?",
+      "options": [
+        "Un système politique où le peuple choisit ses dirigeants lors d'élections libres, transparentes et pluripartites.",
+        "Un système où un seul parti dirige le pays.",
+        "Un système où le pouvoir est héréditaire.",
+        "Un système où les militaires prennent le pouvoir."
+      ],
+      "answer": 0,
+      "explanation": "Le document définit la démocratie comme un système politique dans lequel le peuple choisit ses dirigeants à intervalles réguliers lors d’élections libres, transparentes et pluripartites."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "La démocratie est le gouvernement du peuple par le peuple et pour le ______.",
+      "answer": "peuple",
+      "explanation": "Le document précise que la démocratie est le gouvernement du peuple par le peuple et pour le peuple."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Que signifie la souveraineté du peuple ?",
+      "options": [
+        "Le pouvoir est exercé au nom du peuple par ses élus.",
+        "Le peuple n'a pas le droit de vote.",
+        "Le pouvoir appartient à une seule personne.",
+        "Les élus ne rendent pas compte au peuple."
+      ],
+      "answer": 0,
+      "explanation": "La souveraineté du peuple signifie que le pouvoir est exercé au nom du peuple par ses élus."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle liberté permet à chaque citoyen de donner son avis sans risque d'être inquiété ?",
+      "options": [
+        "La liberté de pensée, d'opinion et d'expression.",
+        "La liberté de circulation.",
+        "La liberté de culte.",
+        "La liberté de commerce."
+      ],
+      "answer": 0,
+      "explanation": "Le document mentionne la liberté de pensée, d’opinion et d’expression comme le droit de donner son avis sans risque d’être inquiété."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "La séparation des pouvoirs concerne les pouvoirs exécutif, législatif et ______.",
+      "answer": "judiciaire",
+      "explanation": "Le document cite les trois pouvoirs : exécutif, législatif et judiciaire."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel est le but de la séparation des pouvoirs ?",
+      "options": [
+        "S'assurer qu'un seul pouvoir ne monopolise pas tous les pouvoirs.",
+        "Donner tout le pouvoir au président.",
+        "Empêcher le peuple de voter.",
+        "Créer une dictature."
+      ],
+      "answer": 0,
+      "explanation": "Le but de la séparation des pouvoirs est de s’assurer qu’un seul pouvoir ne monopolise pas tous les pouvoirs."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Que permet de prévenir la séparation des pouvoirs ?",
+      "options": [
+        "Les abus de pouvoir et la dictature.",
+        "La paix sociale.",
+        "La liberté d'expression.",
+        "Les élections libres."
+      ],
+      "answer": 0,
+      "explanation": "Le document indique que la séparation des pouvoirs permet de prévenir les abus de pouvoir et la dictature."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Le respect des principes démocratiques favorise la paix sociale et la ______ sociale.",
+      "answer": "cohésion",
+      "explanation": "Le document dit que le respect des principes démocratiques favorise la paix sociale et la cohésion sociale."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel est un exemple d'application des principes démocratiques cité dans le document ?",
+      "options": [
+        "Exprimer ses opinions sans aucun risque d'être inquiété.",
+        "Voter pour un seul candidat.",
+        "Ne pas payer d'impôts.",
+        "Manifester sans autorisation."
+      ],
+      "answer": 0,
+      "explanation": "Le document donne comme exemple d’application : exprimer ses opinions sans aucun risque d’être inquiété."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Qu'est-ce que des élections pluripartites ?",
+      "options": [
+        "Des élections où plusieurs partis peuvent participer.",
+        "Des élections avec un seul parti.",
+        "Des élections sans candidats.",
+        "Des élections non transparentes."
+      ],
+      "answer": 0,
+      "explanation": "Le terme 'pluripartites' signifie que plusieurs partis politiques peuvent participer aux élections, comme mentionné dans la définition de la démocratie."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "La démocratie est un système politique dans lequel le peuple choisit ses dirigeants à intervalles ______.",
+      "answer": "réguliers",
+      "explanation": "Le document indique que le peuple choisit ses dirigeants à intervalles réguliers."
+    }
+  ]
+}

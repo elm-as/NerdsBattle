@@ -1,0 +1,70 @@
+{
+  "id": "physique-premiere-chimie-organique-alcanes-alcenes",
+  "title": "Hydrocarbures saturés et insaturés (alcanes, alcènes)",
+  "summary": "Ce chapitre vous plonge au cœur de la chimie organique en explorant les alcanes et les alcènes, les briques essentielles des combustibles et des plastiques. Vous maîtriserez leurs formules, leurs réactions et leurs propriétés, des outils indispensables pour réussir vos examens et comprendre le monde qui vous entoure.",
+  "lesson": "## Introduction & Mise en situation\n\nImaginez le carburant de votre voiture, le gaz de cuisine, ou encore les plastiques qui composent vos objets du quotidien : tous proviennent d'hydrocarbures. Ces molécules, constituées uniquement de carbone et d'hydrogène, sont au cœur de l'industrie chimique. Comprendre leur structure et leurs réactions, c'est comprendre comment fonctionne une grande partie de notre monde moderne. Dans ce chapitre, nous allons nous concentrer sur deux grandes familles : les **alcanes** (saturés) et les **alcènes** (insaturés). Leur différence clé réside dans la présence de liaisons doubles, ce qui modifie radicalement leurs propriétés et leur réactivité.\n\n## 1. Définitions et Principes Fondamentaux\n\n### Les hydrocarbures\n\nUn **hydrocarbure** est un composé organique moléculaire constitué uniquement d'atomes de carbone (C) et d'hydrogène (H). Les atomes de carbone se lient entre eux pour former des chaînes, et chaque carbone doit respecter la règle de l'octet en formant 4 liaisons covalentes.\n\n### Les alcanes : hydrocarbures saturés\n\nLes alcanes sont des hydrocarbures **saturés**, c'est-à-dire qu'ils ne contiennent que des liaisons simples carbone-carbone (C-C) et carbone-hydrogène (C-H). Leur formule générale est :\n\n$$C_nH_{2n+2}$$\n\noù $n$ est un entier naturel ($n \\geq 1$).\n\n**Exemples :**\n\n- Méthane : $CH_4$ (n=1)\n- Éthane : $C_2H_6$ (n=2)\n- Propane : $C_3H_8$ (n=3)\n- Butane : $C_4H_{10}$ (n=4)\n\n### Les alcènes : hydrocarbures insaturés\n\nLes alcènes sont des hydrocarbures **insaturés** car ils possèdent au moins une liaison double carbone-carbone (C=C). Leur formule générale est :\n\n$$C_nH_{2n}$$\n\npour un alcène avec une seule double liaison (monoalcène).\n\n**Exemples :**\n\n- Éthène (éthylène) : $C_2H_4$\n- Propène (propylène) : $C_3H_6$\n- But-1-ène : $C_4H_8$\n\n### Nomenclature des alcanes et alcènes\n\nPour nommer un alcane, on utilise le préfixe indiquant le nombre d'atomes de carbone (méth-, éth-, prop-, but-, pent-, hex-, etc.) suivi du suffixe **-ane**. Pour un alcène, on utilise le même préfixe mais avec le suffixe **-ène**, et on indique la position de la double liaison par un numéro (si nécessaire) en respectant la règle de la numérotation la plus basse.\n\n**Exemple :** $CH_3-CH=CH-CH_3$ se nomme but-2-ène (la double liaison est entre les carbones 2 et 3).\n\n## 2. Propriétés et Méthodes d'application\n\n### 2.1 Isomérie\n\nLes alcanes et les alcènes peuvent présenter des **isomères**, c'est-à-dire des molécules ayant la même formule brute mais des formules développées différentes.\n\n- **Isomérie de chaîne** : pour les alcanes, par exemple, le butane ($C_4H_{10}$) a deux isomères : le butane normal ($CH_3-CH_2-CH_2-CH_3$) et le méthylpropane ($CH_3-CH(CH_3)-CH_3$).\n- **Isomérie de position** : pour les alcènes, par exemple, le butène ($C_4H_8$) a deux isomères de position : le but-1-ène ($CH_2=CH-CH_2-CH_3$) et le but-2-ène ($CH_3-CH=CH-CH_3$).\n\n### 2.2 Réactions caractéristiques\n\n#### Combustion des alcanes\n\nLes alcanes brûlent dans le dioxygène pour produire du dioxyde de carbone et de l'eau, avec dégagement de chaleur (réaction exothermique).\n\n$$C_nH_{2n+2} + \\frac{3n+1}{2}O_2 \\rightarrow nCO_2 + (n+1)H_2O$$\n\n**Exemple :** Combustion du méthane : $CH_4 + 2O_2 \\rightarrow CO_2 + 2H_2O$.\n\n#### Addition électrophile sur les alcènes\n\nLa double liaison des alcènes est un site riche en électrons, ce qui permet des réactions d'addition. Par exemple, l'hydrogénation (addition de $H_2$) transforme un alcène en alcane.\n\n$$C_2H_4 + H_2 \\rightarrow C_2H_6$$\n\nAutre exemple : l'addition de dibrome ($Br_2$) décolore une solution de dibrome (test caractéristique des insaturations).\n\n### 2.3 Test de reconnaissance\n\nPour distinguer un alcane d'un alcène, on utilise une solution de **dibrome** ($Br_2$) ou d'eau de brome. L'eau de brome est orangée ; en présence d'un alcène, elle se décolore (addition de $Br_2$ sur la double liaison). Avec un alcane, elle reste orangée.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Erreur de formule générale** : Ne confondez pas les formules générales des alcanes ($C_nH_{2n+2}$) et des alcènes ($C_nH_{2n}$). Vérifiez toujours le nombre d'hydrogènes en fonction du nombre de carbones.\n- **Oubli de la numérotation** : Pour nommer un alcène ramifié, il faut numéroter la chaîne la plus longue contenant la double liaison, en donnant l'indice le plus bas possible à la double liaison, même si cela donne des indices plus élevés pour les ramifications.\n- **Confusion entre isomères** : Ne pas confondre isomérie de chaîne et isomérie de position. L'isomérie de chaîne concerne la structure du squelette carboné, tandis que l'isomérie de position concerne la position de la double liaison ou d'un groupement fonctionnel.\n- **Réaction de combustion incomplète** : La combustion des alcanes peut être incomplète en présence d'un défaut de dioxygène, produisant du monoxyde de carbone (CO) toxique au lieu de $CO_2$. Écrivez toujours l'équation équilibrée avec le bon coefficient.\n\n## Synthèse : Les 3 points à retenir absolument\n\n1. **Formules générales** : Alcanes : $C_nH_{2n+2}$ ; Alcènes : $C_nH_{2n}$ (avec une double liaison).\n2. **Test de reconnaissance** : L'eau de brome se décolore avec un alcène, pas avec un alcane.\n3. **Réactions clés** : Les alcanes subissent la combustion ; les alcènes subissent des réactions d'addition (hydrogénation, addition de dibrome).",
+  "estimatedMinutes": 12,
+  "tags": [
+    "chimie organique",
+    "alcanes",
+    "alcènes",
+    "hydrocarbures",
+    "première"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la formule générale d'un alcane ?",
+      "options": [
+        "$C_nH_{2n}$",
+        "$C_nH_{2n+2}$",
+        "$C_nH_{2n-2}$",
+        "$C_nH_{2n+1}$"
+      ],
+      "answer": 1,
+      "explanation": "Les alcanes sont saturés, donc chaque carbone a 4 liaisons simples, ce qui donne la formule $C_nH_{2n+2}$."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "L'eau de brome se décolore en présence d'un alcane.",
+      "answer": false,
+      "explanation": "Les alcanes sont saturés et ne réagissent pas avec le dibrome à température ambiante ; l'eau de brome reste orangée."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le composé de formule $C_4H_8$ est un alcène. Combien d'isomères de position (sans compter les isomères de chaîne) possède-t-il ?",
+      "answer": "2",
+      "explanation": "Le butène ($C_4H_8$) a deux isomères de position : but-1-ène et but-2-ène."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est le nom du composé $CH_3-CH=CH-CH_2-CH_3$ ?",
+      "options": [
+        "pent-2-ène",
+        "pent-3-ène",
+        "but-2-ène",
+        "pent-1-ène"
+      ],
+      "answer": 0,
+      "explanation": "La chaîne la plus longue contient 5 carbones, la double liaison est entre C2 et C3, donc pent-2-ène."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La combustion complète d'un alcane produit du dioxyde de carbone et de l'eau.",
+      "answer": true,
+      "explanation": "La combustion complète des alcanes dans le dioxygène donne toujours $CO_2$ et $H_2O$."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Écrire la formule brute de l'éthène (éthylène).",
+      "answer": "C2H4",
+      "explanation": "L'éthène a 2 carbones et 4 hydrogènes, conformément à la formule générale $C_nH_{2n}$ avec n=2."
+    }
+  ]
+}

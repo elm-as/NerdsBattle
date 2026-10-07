@@ -1,0 +1,68 @@
+{
+  "id": "maths-master1-integration",
+  "title": "Intégration de Lebesgue",
+  "summary": "Maîtrisez la théorie de l'intégration de Lebesgue, une généralisation puissante de l'intégrale de Riemann, essentielle en analyse moderne.",
+  "lesson": "L'intégrale de Lebesgue, introduite par Henri Lebesgue au début du 20e siècle, étend l'intégrale de Riemann à une classe plus large de fonctions. Elle repose sur la théorie de la mesure, qui attribue une 'taille' à des ensembles plus généraux que les intervalles. L'idée clé est de partitionner l'ensemble de départ (l'axe des ordonnées) plutôt que l'ensemble d'arrivée (l'axe des abscisses), permettant d'intégrer des fonctions 'irrégulières'.\n\nFormellement, soit $(X, \\mathcal{A}, \\mu)$ un espace mesuré. Une fonction $f: X \\to \\mathbb{R}$ est dite mesurable si l'image réciproque de tout borélien est dans $\\mathcal{A}$. L'intégrale de Lebesgue de $f$ est définie d'abord pour les fonctions simples (combinaisons linéaires de fonctions indicatrices), puis par passage à la limite pour les fonctions mesurables positives, et enfin pour les fonctions intégrables (dont la valeur absolue a une intégrale finie).\n\nUn résultat fondamental est le théorème de convergence dominée de Lebesgue : si $f_n$ est une suite de fonctions mesurables convergeant ponctuellement vers $f$, et s'il existe une fonction intégrable $g$ telle que $|f_n| \\leq g$ pour tout $n$, alors $\\lim \\int f_n = \\int f$. Ce théorème est un outil puissant pour échanger limite et intégrale.\n\nExemple : Considérons la fonction de Dirichlet $f(x) = 1$ si $x \\in \\mathbb{Q}$, $0$ sinon sur $[0,1]$. Elle n'est pas intégrable au sens de Riemann, mais elle est mesurable et son intégrale de Lebesgue vaut $0$ car l'ensemble des rationnels est de mesure nulle. Ainsi, l'intégrale de Lebesgue capture mieux le comportement 'moyen' des fonctions.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "Théorie de la mesure",
+    "Intégrale de Lebesgue",
+    "Convergence dominée"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la principale différence entre l'intégrale de Riemann et l'intégrale de Lebesgue ?",
+      "explanation": "L'intégrale de Riemann partitionne l'intervalle de définition (axe des x), tandis que Lebesgue partitionne l'ensemble des valeurs (axe des y) en utilisant la mesure.",
+      "options": [
+        "Lebesgue partitionne l'axe des abscisses, Riemann l'axe des ordonnées",
+        "Lebesgue partitionne l'axe des ordonnées, Riemann l'axe des abscisses",
+        "Lebesgue utilise des sommes de Darboux, Riemann des sommes de Riemann",
+        "Lebesgue n'utilise pas la notion de mesure"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La fonction de Dirichlet sur $[0,1]$ est intégrable au sens de Riemann.",
+      "explanation": "La fonction de Dirichlet est discontinue en tout point, donc elle n'est pas Riemann-intégrable, mais elle est Lebesgue-intégrable (intégrale nulle).",
+      "answer": false
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le théorème qui permet d'échanger limite et intégrale sous une hypothèse de domination s'appelle le théorème de convergence ______.",
+      "explanation": "Le théorème de convergence dominée de Lebesgue est l'outil clé pour intervertir limite et intégrale.",
+      "answer": "dominée"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Soit $f$ une fonction mesurable positive. Que vaut $\\int f \\, d\\mu$ si $\\mu(\\{x : f(x) > 0\\}) = 0$ ?",
+      "explanation": "Si $f$ est positive et nulle presque partout, son intégrale de Lebesgue est nulle.",
+      "options": [
+        "$+\\infty$",
+        "$1$",
+        "$0$",
+        "On ne peut pas déterminer"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Toute fonction Riemann-intégrable sur un intervalle borné est Lebesgue-intégrable.",
+      "explanation": "Les fonctions Riemann-intégrables sont bornées et continues presque partout, donc Lebesgue-intégrables avec la même valeur.",
+      "answer": true
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "L'intégrale de Lebesgue d'une fonction simple $\\sum_{i=1}^n a_i \\mathbf{1}_{A_i}$ vaut $\\sum_{i=1}^n a_i \\, \\mu(A_i)$ si les $A_i$ sont disjoints et de mesure ______.",
+      "explanation": "Pour définir l'intégrale d'une fonction simple, on suppose que chaque $A_i$ est de mesure finie, sinon l'intégrale peut être infinie.",
+      "answer": "finie"
+    }
+  ]
+}

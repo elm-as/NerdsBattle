@@ -1,0 +1,140 @@
+{
+  "id": "philosophie-terminale-liberte-et-morale-cours-de-philo",
+  "subjectId": "philosophie",
+  "levelId": "terminale",
+  "slug": "liberte-et-morale-cours-de-philo",
+  "title": "Liberté et Morale : Kant, Sartre et la Question de la Responsabilité",
+  "summary": "Ce cours examine la relation entre liberté et moralité à travers les perspectives de Kant et de Sartre, en soulignant que la liberté conditionne la responsabilité morale. Il analyse les arguments kantiennes sur l’obligation morale et la liberté, puis la conception existentialiste de l’homme libre et condamné. Enfin, il propose des pistes critiques et des implications pédagogiques.",
+  "lesson": "# Introduction\nLa liberté est souvent présentée comme la condition première de la moralité. Si l’on ne peut agir moralement que lorsqu’on est libre de ses actes, alors la responsabilité morale dépend de la liberté.\n\n## 1. Kant : La liberté comme condition de la moralité\n- **Principe** : On ne peut juger moralement qu’une personne pour les actes qu’elle a commis librement.\n- **Argument** : La présence d’un devoir moral dans l’esprit d’une personne prouve qu’elle est capable d’obéir à la loi morale, donc qu’elle est libre de ses penchants.\n- **Limite** : Ce raisonnement ne démontre pas l’existence d’une liberté métaphysique, seulement une liberté d’action par rapport aux instincts.\n\n## 2. Sartre : L’homme condamné à être libre\n- **Essence vs existence** : L’essence d’un objet précède son existence, mais pour l’homme, l’existence précède l’essence.\n- **Conséquence** : L’homme n’a pas de nature prédéterminée ; il est libre de se choisir.\n- **Condamnation** : L’homme est « condamné » à être libre parce qu’il ne peut renoncer à sa liberté.\n- **Critique** : Cette position est moraliste ; elle ne décrit pas la réalité empirique mais impose une posture morale.\n\n## 3. Comparaison et critiques\n- **Kant** insiste sur la loi morale comme fondement de la liberté, tandis que **Sartre** met l’accent sur l’absurdité et la responsabilité individuelle.\n- **Limites** : Kant ne traite pas de la liberté métaphysique ; Sartre ignore les contraintes sociales et biologiques.\n- **Implications** : Les enseignants peuvent utiliser ces perspectives pour stimuler la réflexion critique sur la responsabilité et l’autonomie.\n\n## 4. Conclusion\nLa liberté et la moralité sont indissociables, mais leur compréhension varie selon les philosophes. En classe, il est essentiel d’encourager les élèves à questionner leurs propres libertés et responsabilités, tout en reconnaissant les limites de chaque approche philosophique.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "philosophie",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel principe Kantien est central pour établir la responsabilité morale ?",
+      "options": [
+        "La liberté conditionnée par la nature",
+        "La liberté conditionnée par la loi morale",
+        "La liberté conditionnée par la société",
+        "La liberté conditionnée par la religion"
+      ],
+      "answer": 1,
+      "explanation": "Kant affirme que la liberté conditionne la responsabilité morale, et que la loi morale est le fondement de cette liberté."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Kant démontre l’existence d’une liberté métaphysique.",
+      "answer": false,
+      "explanation": "Kant ne prouve que la liberté d’action par rapport aux instincts, pas une liberté métaphysique."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Selon Sartre, l’homme est “condamné à être …”",
+      "answer": "libre",
+      "explanation": "Sartre affirme que l’homme est condamné à être libre, car il ne peut renoncer à sa liberté."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans la philosophie de Sartre, l’essence d’un objet :",
+      "options": [
+        "Précède son existence",
+        "Suit son existence",
+        "Est identique à son existence",
+        "N’a aucune relation avec son existence"
+      ],
+      "answer": 0,
+      "explanation": "Pour Sartre, l’essence d’un objet précède son existence, contrairement à l’homme."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Sartre considère que l’homme a une nature humaine prédéterminée.",
+      "answer": false,
+      "explanation": "Sartre soutient que l’homme n’a pas de nature prédéterminée, son existence précède son essence."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel est l’argument principal de Kant pour prouver la liberté d’une personne ?",
+      "options": [
+        "La capacité de résister à l’instinct",
+        "La présence d’un devoir moral",
+        "La conformité aux lois sociales",
+        "La capacité de choisir un destin"
+      ],
+      "answer": 1,
+      "explanation": "Kant utilise la présence d’un devoir moral comme preuve de la capacité d’obéir, donc de liberté."
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Sartre affirme que l’homme peut choisir de renoncer à sa liberté.",
+      "answer": false,
+      "explanation": "Sartre soutient que l’homme ne peut pas renoncer à sa liberté ; il peut seulement nier cette liberté dans la mauvaise foi."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "La critique de Sartre est qu’il impose une “posture morale” plutôt qu’une “description des faits”.",
+      "answer": "posture morale",
+      "explanation": "Sartre est vu comme imposant une posture morale plutôt que décrivant les faits."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel philosophe est associé à l’idée que \"tout est permis si Dieu n’existe pas\" ?",
+      "options": [
+        "Kant",
+        "Sartre",
+        "Spinoza",
+        "Dostoïevski"
+      ],
+      "answer": 3,
+      "explanation": "Dostoïevski a écrit cette phrase, illustrant l’existentialisme."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Kant considère que la liberté est la condition de la moralité.",
+      "answer": true,
+      "explanation": "Kant affirme que la liberté conditionne la moralité."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel est le principal point de divergence entre Kant et Sartre sur la liberté ?",
+      "options": [
+        "Kant parle de liberté morale, Sartre de liberté métaphysique",
+        "Kant parle de liberté métaphysique, Sartre de liberté morale",
+        "Kant parle de liberté sociale, Sartre de liberté individuelle",
+        "Kant parle de liberté individuelle, Sartre de liberté sociale"
+      ],
+      "answer": 0,
+      "explanation": "Kant se concentre sur la liberté morale, tandis que Sartre parle de liberté métaphysique."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Sartre affirme que l’homme est créé par Dieu.",
+      "answer": false,
+      "explanation": "Sartre soutient que Dieu n’existe pas et que l’homme n’est pas créé par Dieu."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "La liberté conditionne la “responsabilité morale” selon Kant.",
+      "answer": "responsabilité morale",
+      "explanation": "Kant affirme que la liberté conditionne la responsabilité morale."
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "id": "info-sixieme-cours-tice-6eme-2022-2023-by-tehua",
+  "subjectId": "info",
+  "levelId": "sixieme",
+  "slug": "cours-tice-6eme-2022-2023-by-tehua",
+  "title": "Histoire et notions fondamentales de l'informatique - Cycle 6",
+  "summary": "Ce cours présente l'origine du terme informatique, les grandes étapes de l'histoire des ordinateurs, les notions clés (information, automatisme, système informatique, logiciel) ainsi que le processus de traitement de l'information et ses principaux domaines d'application (industrie, télécommunications, santé, éducation, emploi).",
+  "lesson": "## 1. Introduction\nL’informatique est aujourd’hui indispensable dans les affaires, l’éducation, la santé et bien d’autres secteurs. Son histoire débute au milieu du XXᵉ siècle.\n\n## 2. Origine du terme « informatique »\n- **Création du mot** : 1962 par Philippe Dreyfus, contraction de *information* et *automatique*.\n- **Premiers concepts** : traitement automatique de l’information, système informatique, logiciels.\n\n## 3. Chronologie rapide\n- **1936‑1938** : Konrad Zuse conçoit le Z1, premier ordinateur programmable.\n- **Après la Seconde Guerre mondiale** : apparition des premiers ordinateurs électroniques.\n- **1962** : le mot « informatique » est officialisé.\n\n## 4. Définitions essentielles\n- **Information** : message ou symbole codé (texte, chiffres, images).\n- **Automatisme** : machine qui exécute une tâche sans intervention humaine continue.\n- **Système informatique** : ensemble matériel + logiciel permettant d’automatiser le traitement de l’information.\n- **Logiciel** : programme qui indique à la machine quelles opérations réaliser.\n\n## 5. Le traitement automatique de l’information\n1. **Collecte** des données\n2. **Enregistrement**\n3. **Élaboration / traitement**\n4. **Modification**\n5. **Conservation**\n6. **Destruction** (si nécessaire)\n7. **Diffusion / édition**\n\n## 6. Domaines d’application\n- **Industrie** : conception, production, contrôle qualité.\n- **Télécommunications & multimédia** : accès internet, réseaux, streaming.\n- **Science & électronique** : simulations, calculs complexes.\n- **Médical** : dossiers patients informatisés, imagerie.\n- **Éducation & formation** : plateformes d’apprentissage, outils pédagogiques.\n- **Emploi** : métiers liés aux bases de données, réseaux, développement, cybersécurité, formation.\n\n## 7. Vérification des acquis\n- **Exercice Vrai/Faux** (ex. : le mot informatique a été créé en 1962 – Vrai).\n- **QCM** (ex. : qui a créé le Z1 ? → Konrad Zuse).\n- **Complétion** (ex. : « L’informatique est une ___ du traitement ___ de l’information… »).\n\n---\nCe cours doit permettre aux élèves de comprendre les bases historiques et conceptuelles de l’informatique avant de passer à la pratique des outils numériques.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "info",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "truefalse",
+      "prompt": "Le mot « informatique » a été créé en 1962 par Philippe Dreyfus.",
+      "answer": true,
+      "explanation": "Vrai : Philippe Dreyfus a effectivement introduit le terme en 1962."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le Z1, premier ordinateur programmable, a été conçu par Konrad Zuse entre 1936 et 1938.",
+      "answer": true,
+      "explanation": "Vrai : le Z1 a été réalisé par l’ingénieur allemand Konrad Zuse à cette période."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "L’informatique est la contraction des mots « information » et « ordinateur ».",
+      "answer": false,
+      "explanation": "Faux : le terme résulte de la contraction de *information* et *automatique*."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est le premier sens du mot « information » dans le contexte informatique ?",
+      "options": [
+        "Un ordinateur",
+        "Un message codé",
+        "Un logiciel",
+        "Un réseau"
+      ],
+      "answer": 1,
+      "explanation": "Dans l’informatique, l’information désigne un message ou un symbole codé."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Parmi les étapes suivantes, laquelle ne fait pas partie du processus de traitement de l’information ?",
+      "options": [
+        "Collecte",
+        "Diffusion",
+        "Destruction",
+        "Impression"
+      ],
+      "answer": 3,
+      "explanation": "L’impression n’est pas listée parmi les étapes classiques du traitement de l’information."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel domaine n’est PAS mentionné comme application de l’informatique dans le cours ?",
+      "options": [
+        "Agriculture",
+        "Industrie",
+        "Médical",
+        "Éducation"
+      ],
+      "answer": 0,
+      "explanation": "L’agriculture n’est pas citée dans la liste des domaines d’application présentée."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Complétez : L’informatique est une __________ du traitement __________ de l’information.",
+      "answer": "science du traitement automatique",
+      "explanation": "La phrase complète est « L’informatique est une science du traitement automatique de l’information »."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Le terme informatique a été créé en ____ par _____.",
+      "answer": "1962, Philippe Dreyfus",
+      "explanation": "Le mot a été introduit en 1962 par Philippe Dreyfus."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel métier n’est pas listé parmi ceux créés par l’informatique ?",
+      "options": [
+        "Architecte réseau",
+        "Chef de projet informatique",
+        "Pilote d’avion",
+        "Formateur en informatique"
+      ],
+      "answer": 2,
+      "explanation": "Pilote d’avion n’est pas un métier directement issu de l’informatique."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Les premiers ordinateurs portables sont apparus à la fin des années 1980.",
+      "answer": true,
+      "explanation": "Vrai : les premiers laptops commerciaux datent de la fin des années 1980."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel acronyme désigne « Personal Computer » ?",
+      "options": [
+        "PC",
+        "CPU",
+        "GPU",
+        "RAM"
+      ],
+      "answer": 0,
+      "explanation": "PC signifie *Personal Computer* (ordinateur personnel)."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "INTEL et IBM sont uniquement des entreprises de construction d’ordinateurs.",
+      "answer": false,
+      "explanation": "Faux : elles conçoivent aussi des processeurs, des logiciels et d’autres solutions."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel est le rôle principal d’un logiciel ?",
+      "options": [
+        "Fournir de l’énergie à la machine",
+        "Déterminer les tâches que la machine peut exécuter",
+        "Construire le matériel",
+        "Stocker les données uniquement"
+      ],
+      "answer": 1,
+      "explanation": "Le logiciel indique à la machine quelles tâches réaliser."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "L’informatique ne peut pas être utilisée dans le domaine de la communication.",
+      "answer": false,
+      "explanation": "Faux : l’informatique est essentielle aux télécommunications et aux médias numériques."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Le premier ordinateur programmable nommé Z1 a été créé par l’allemand _____.",
+      "answer": "Konrad Zuse",
+      "explanation": "Le Z1 a été conçu par Konrad Zuse."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel processus suit généralement le traitement de l’information ?",
+      "options": [
+        "Collecte → Enregistrement → Élaboration → Modification → Conservation → Destruction → Diffusion",
+        "Enregistrement → Collecte → Diffusion → Modification → Conservation → Élaboration → Destruction",
+        "Conservation → Collecte → Enregistrement → Élaboration → Diffusion → Modification → Destruction",
+        "Diffusion → Collecte → Enregistrement → Élaboration → Modification → Conservation → Destruction"
+      ],
+      "answer": 0,
+      "explanation": "L’ordre présenté dans le cours est celui du premier choix."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "physique-premiere-force-laplace-induction",
+  "title": "Force de Laplace et induction électromagnétique",
+  "summary": "Ce chapitre vous fait découvrir comment un courant électrique peut créer une force mécanique (force de Laplace) et comment un champ magnétique variable peut générer un courant électrique (induction électromagnétique). Ces phénomènes sont à la base du fonctionnement des moteurs électriques, des générateurs et de nombreuses technologies modernes.",
+  "lesson": "## Introduction & Mise en situation\n\nImaginez que vous êtes dans un parc d'attractions, sur une montagne russe électrique. Comment la voiture se déplace-t-elle sans câble tirant ? C'est grâce à des moteurs électriques qui utilisent la **force de Laplace**. Plus tard, quand vous rechargez votre téléphone sans fil, c'est l'**induction électromagnétique** qui entre en jeu. Ces deux phénomènes, découverts au XIXe siècle, ont révolutionné notre monde en permettant de convertir l'énergie électrique en mouvement et vice-versa. Dans ce cours, nous allons explorer ces concepts fondamentaux de la physique, indispensables pour comprendre les technologies modernes et réussir vos examens.\n\n## 1. Définitions et Principes Fondamentaux\n\n### Force de Laplace\n\nUne force de Laplace est la force mécanique qui s'exerce sur un conducteur parcouru par un courant électrique lorsqu'il est placé dans un champ magnétique. Cette force est due à l'interaction entre le champ magnétique et les charges en mouvement dans le conducteur.\n\n**Expression vectorielle :**\n\n$$\\vec{F} = I \\cdot \\vec{L} \\wedge \\vec{B}$$\n\n- $\\vec{F}$ : force de Laplace en newtons (N)\n- $I$ : intensité du courant en ampères (A)\n- $\\vec{L}$ : vecteur longueur du conducteur, orienté dans le sens du courant, en mètres (m)\n- $\\vec{B}$ : champ magnétique en teslas (T)\n- $\\wedge$ : produit vectoriel\n\n**Valeur de la force :**\n\n$$F = I \\cdot L \\cdot B \\cdot \\sin(\\theta)$$\n\nOù $\\theta$ est l'angle entre le vecteur $\\vec{L}$ et le vecteur $\\vec{B}$.\n\n**Règle des trois doigts de la main droite (ou règle de Fleming) :** pour déterminer le sens de la force, on utilise la main droite : pouce = sens du courant, index = champ magnétique, majeur = force.\n\n### Induction électromagnétique\n\nL'induction électromagnétique est le phénomène qui crée une force électromotrice (f.é.m.) dans un circuit lorsqu'il est soumis à un flux magnétique variable. Ce phénomène a été découvert par Michael Faraday en 1831.\n\n**Loi de Faraday :**\n\n$$e = -\\frac{d\\Phi}{dt}$$\n\n- $e$ : force électromotrice induite en volts (V)\n- $\\Phi$ : flux magnétique en webers (Wb)\n- $t$ : temps en secondes (s)\n- Le signe moins est lié à la loi de Lenz.\n\n**Flux magnétique :**\n\n$$\\Phi = B \\cdot S \\cdot \\cos(\\alpha)$$\n\n- $B$ : champ magnétique (T)\n- $S$ : surface du circuit (m²)\n- $\\alpha$ : angle entre la normale à la surface et le champ $\\vec{B}$.\n\n**Loi de Lenz :** Le courant induit a un sens tel qu'il s'oppose par ses effets à la cause qui lui a donné naissance.\n\n## 2. Propriétés et Méthodes d'application\n\n### Application de la force de Laplace\n\n**Exemple :** Un conducteur rectiligne de longueur $L = 10\\,\\text{cm}$ est parcouru par un courant $I = 2\\,\\text{A}$. Il est placé perpendiculairement à un champ magnétique uniforme $B = 0,5\\,\\text{T}$. Calculer la force de Laplace.\n\n**Solution :** Comme le conducteur est perpendiculaire au champ, $\\theta = 90°$, donc $\\sin(\\theta) = 1$.\n\n$$F = I \\cdot L \\cdot B \\cdot \\sin(\\theta) = 2 \\times 0,10 \\times 0,5 \\times 1 = 0,1\\,\\text{N}$$\n\n**Méthode pour déterminer le sens de la force :**\n1. Identifier le sens du courant (de + vers – dans le circuit extérieur).\n2. Identifier la direction et le sens du champ magnétique.\n3. Appliquer la règle de la main droite pour trouver le sens de la force.\n\n### Application de l'induction électromagnétique\n\n**Exemple :** Une bobine plate de surface $S = 200\\,\\text{cm}^2$ est placée perpendiculairement à un champ magnétique uniforme qui varie de $0,2\\,\\text{T}$ à $0,8\\,\\text{T}$ en $0,5\\,\\text{s}$. Calculer la f.é.m. moyenne induite.\n\n**Solution :**\n- Surface en m² : $S = 200 \\times 10^{-4} = 0,02\\,\\text{m}^2$\n- Variation de champ : $\\Delta B = 0,8 - 0,2 = 0,6\\,\\text{T}$\n- Variation de flux : $\\Delta \\Phi = \\Delta B \\cdot S \\cdot \\cos(0°) = 0,6 \\times 0,02 = 0,012\\,\\text{Wb}$\n- f.é.m. moyenne : $e = -\\frac{\\Delta \\Phi}{\\Delta t} = -\\frac{0,012}{0,5} = -0,024\\,\\text{V}$\n\nLa valeur absolue est $0,024\\,\\text{V}$.\n\n**Méthode générale pour calculer une f.é.m. induite :**\n1. Calculer le flux initial et final.\n2. Calculer la variation de flux.\n3. Diviser par la durée.\n4. Le signe est donné par la loi de Lenz.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Oublier le sinus dans la force de Laplace :** Beaucoup d'élèves utilisent $F = I \\cdot L \\cdot B$ sans tenir compte de l'angle. Si le conducteur est parallèle au champ, la force est nulle.\n- **Confondre le sens du courant et le sens du vecteur $\\vec{L}$ :** Le vecteur $\\vec{L}$ est orienté dans le sens conventionnel du courant (de + vers – à l'extérieur du générateur).\n- **Négliger le signe moins dans la loi de Faraday :** Ce signe indique que la f.é.m. induite s'oppose à la variation de flux. Dans les calculs de valeur absolue, on peut l'ignorer, mais pour le sens, il est essentiel.\n- **Utiliser des unités incohérentes :** Toujours convertir en mètres, secondes, teslas, etc.\n- **Oublier que la loi de Lenz détermine le sens du courant induit :** Le courant induit crée un champ magnétique qui s'oppose à la variation du flux.\n\n## Synthèse\n\n1. **Force de Laplace :** $\\vec{F} = I \\cdot \\vec{L} \\wedge \\vec{B}$, sa valeur est $F = I \\cdot L \\cdot B \\cdot \\sin(\\theta)$. Elle est utilisée dans les moteurs électriques.\n2. **Induction électromagnétique :** La f.é.m. induite est $e = -\\frac{d\\Phi}{dt}$, avec $\\Phi = B \\cdot S \\cdot \\cos(\\alpha)$. Elle est à la base des générateurs et des transformateurs.\n3. **Loi de Lenz :** Le courant induit s'oppose toujours à la cause qui l'a créé. C'est une conséquence de la conservation de l'énergie.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "électromagnétisme",
+    "force de Laplace",
+    "induction",
+    "loi de Faraday",
+    "moteur électrique"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est l'expression de la force de Laplace sur un conducteur rectiligne parcouru par un courant I, de longueur L, placé dans un champ magnétique B ?",
+      "options": [
+        "$F = I \\cdot L \\cdot B$",
+        "$F = I \\cdot L \\cdot B \\cdot \\sin(\\theta)$",
+        "$F = I \\cdot L \\cdot B \\cdot \\cos(\\theta)$",
+        "$F = \\frac{I \\cdot L}{B}$"
+      ],
+      "answer": 1,
+      "explanation": "La force de Laplace dépend de l'angle entre le conducteur et le champ : $F = I \\cdot L \\cdot B \\cdot \\sin(\\theta)$."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La force de Laplace est nulle lorsque le conducteur est parallèle au champ magnétique.",
+      "answer": true,
+      "explanation": "Si le conducteur est parallèle au champ, $\\theta = 0$ ou $180°$, donc $\\sin(\\theta) = 0$, la force est nulle."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Un conducteur de 20 cm est parcouru par un courant de 3 A et est placé perpendiculairement à un champ magnétique de 0,4 T. Calculez la force de Laplace en newtons (arrondir à deux décimales).",
+      "answer": "0.24",
+      "explanation": "$F = I \\cdot L \\cdot B \\cdot \\sin(90°) = 3 \\times 0,20 \\times 0,4 = 0,24 \\,\\text{N}$."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est l'unité du flux magnétique ?",
+      "options": [
+        "Tesla (T)",
+        "Weber (Wb)",
+        "Volt (V)",
+        "Henry (H)"
+      ],
+      "answer": 1,
+      "explanation": "Le flux magnétique se mesure en webers (Wb)."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La loi de Lenz stipule que le courant induit s'oppose à la variation du flux magnétique qui l'a créé.",
+      "answer": true,
+      "explanation": "C'est exactement l'énoncé de la loi de Lenz."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Une bobine de surface 0,02 m² est soumise à un champ magnétique qui passe de 0,1 T à 0,5 T en 0,2 s. Calculez la f.é.m. moyenne induite en volts (valeur absolue).",
+      "answer": "0.04",
+      "explanation": "$\\Delta \\Phi = \\Delta B \\cdot S = 0,4 \\times 0,02 = 0,008 \\,\\text{Wb}$ ; $e = \\frac{0,008}{0,2} = 0,04 \\,\\text{V}$."
+    }
+  ]
+}

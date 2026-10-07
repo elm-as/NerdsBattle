@@ -1,0 +1,104 @@
+{
+  "id": "svt-terminale-la-reproduction-sexuee-chez-les-angiospermes",
+  "subjectId": "svt",
+  "levelId": "terminale",
+  "slug": "la-reproduction-sexuee-chez-les-angiospermes",
+  "title": "Reproduction sexuée chez les angiospermes – Leçon de SVT Terminale",
+  "summary": "Cette leçon expose les bases de la reproduction sexuée chez les angiospermes, en détaillant la structure des fruits et des fleurs, le rôle des organes reproducteurs, la formation des grains de pollen, et les mécanismes de mitose et de division cellulaire. Elle prépare les élèves à comprendre les processus génétiques et morphologiques essentiels à la botanique.",
+  "lesson": "# Reproduction sexuée chez les angiospermes\n\n## 1. Définition\nLes angiospermes sont des plantes à fleurs dont les graines sont enfermées dans un fruit. La reproduction sexuée implique la fusion de gamètes provenant de deux organes reproducteurs distincts.\n\n## 2. Observation d’un fruit (Pisum sativum)\n- **Placenta**\n- **Graine**\n- **Valve**\n- **Fente de déhiscence**\n- **Sépale**\n- **Pédoncule floral**\n\n## 3. Observation d’une fleur\n- **Pédoncule floral**\n- **Sépales** (calice)\n- **Pétales** (corolle)\n- **Étamines** (androcée)\n- **Pistil** (gynécée)\n\n## 4. Organisation générale d’une fleur\n1. Anthère\n2. Filet\n3. Étamine\n4. Pétale\n5. Stigmate\n6. Style\n7. Ovaire\n8. Pistil\n9. Sépale\n10. Pédoncule floral\n\n## 5. Origine du fruit\nLe fruit provient du développement de la fleur. Le pistil et les étamines jouent un rôle crucial dans ce processus.\n\n## 6. Expérience de vérification\n- **Témoin** : fleur non manipulée.\n- **Manipulation** : section des étamines, enveloppe de la fleur dans un sac hermétique, pulvérisation de pollen sur le stigmate.\n- **Résultat** : la fleur se transforme en fruit, le pistil conserve sa forme initiale.\n\n## 7. Conclusions\n- Le pistil et les étamines sont les organes reproducteurs.\n- Le pistil pollinisé se transforme en fruit.\n\n## 8. Étapes de la transformation\n1. Formation et maturation des organes reproducteurs.\n2. Pollinisation du pistil.\n3. Développement de l’ovaire en fruit.\n\n## 9. Structure de l’étamine\n- **Sac pollinique**\n- **Fente de déhiscence**\n- **Anthère**\n- **Filet**\n\n## 10. Coupe transversale d’étamine\n- Épiderme\n- Parenchyme\n- Faisceau conducteur\n- Cellules mères du pollen\n- Assises nourricières\n- Future assise mécanique\n- Sac pollinique\n- Fente de déhiscence\n\n## 11. Structure du grain de pollen\n- Paroi externe\n- Paroi interne\n- Cellule reproductrice\n- Cellule végétative\n- Membranes cytoplasmiques (2)\n\n## 12. Cellule végétale\n- Cytoplasme\n- Noyau (enveloppe nucléaire, nucléoplasme, nucléole, chromatine)\n- Vacuole\n- Paroi pectocellulosique\n\n## 13. Mitose\n- Prophase\n- Métaphase\n- Anaphase\n- Télophase\n- Interphase\n\n## 14. Division cellulaire\n- **Mitos** : division diploïde → deux cellules diploïdes.\n- **Réduction** : division diploïde → deux cellules haploïdes (gamètes).\n\n## 15. Chromosomes\n- Diploïde : 2n (ex. 2n=16 chez l’oignon).\n- Haploïde : n (ex. n=8 chez les gamètes d’oignon).\n- Chromosome : unité de transmission génétique.\n\n## 16. Conclusion générale\nLa reproduction sexuée chez les angiospermes repose sur la coordination précise des organes reproducteurs, la pollinisation, et la division cellulaire, assurant la diversité génétique et la formation de fruits.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "svt",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel organe est responsable de la production de pollen chez la fleur?",
+      "options": [
+        "Pistil",
+        "Étamine",
+        "Pétale",
+        "Sépale"
+      ],
+      "answer": 1,
+      "explanation": "L’étamine est l’organe reproducteur mâle qui produit le pollen."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Dans quel organe se trouve l’ovaire?",
+      "options": [
+        "Pétale",
+        "Pistil",
+        "Étamine",
+        "Sépale"
+      ],
+      "answer": 1,
+      "explanation": "L’ovaire est une partie du pistil, l’organe reproducteur femelle."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est le rôle de la fente de déhiscence?",
+      "options": [
+        "Réception du pollen",
+        "Libération du pollen",
+        "Formation du fruit",
+        "Protection de la graine"
+      ],
+      "answer": 1,
+      "explanation": "La fente de déhiscence permet la libération du pollen depuis l’anthère."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "prompt": "Le processus de division cellulaire qui réduit le nombre de chromosomes de moitié est appelé ________.",
+      "answer": "division réductionnelle",
+      "explanation": "La division réductionnelle produit des gamètes haploïdes."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel organe est appelé calice?",
+      "options": [
+        "Pétale",
+        "Sépale",
+        "Pistil",
+        "Étamine"
+      ],
+      "answer": 1,
+      "explanation": "Le calice est constitué des sépales, la partie extérieure de la fleur."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel est le contenu principal de la paroi interne du grain de pollen?",
+      "options": [
+        "Membranes cytoplasmiques",
+        "Cellule reproductrice",
+        "Paroi externe",
+        "Cellule végétative"
+      ],
+      "answer": 1,
+      "explanation": "La cellule reproductrice (spermatozoïde) est située dans la paroi interne."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel organe de la fleur est appelé androcée?",
+      "options": [
+        "Pistil",
+        "Étamine",
+        "Pétale",
+        "Sépale"
+      ],
+      "answer": 1,
+      "explanation": "L’androcée est l’ensemble des étamines, l’organe mâle."
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "id": "francais-cinquieme-l1-grammaire-5eme-l1-s1",
+  "subjectId": "francais",
+  "levelId": "cinquieme",
+  "slug": "l1-grammaire-5eme-l1-s1",
+  "title": "Le groupe nominal : l'adjectif qualificatif (5e)",
+  "summary": "Cette leçon explique ce qu’est une expansion du nom, précise le rôle et la place de l’adjectif qualificatif dans le groupe nominal, et propose des activités d’identification, de création et d’application pour les élèves de 5e.",
+  "lesson": "## Définition\r\nUne **expansion du nom** est un mot ou un groupe de mots ajouté au groupe nominal pour apporter plus d’informations. L’adjectif qualificatif est la forme la plus courante d’expansion.\r\n\r\n## Rôle de l’adjectif qualificatif\r\n- **Enrichit** le nom en précisant une qualité ou une caractéristique.\r\n- **Varie** en genre (masc./fém.) et en nombre (sg./pl.) avec le nom qu’il qualifie.\r\n\r\n### Exemple\r\n- *Le paludisme est une maladie **dangereuse**.*\r\n\r\n## Position dans le groupe nominal\r\nL’adjectif peut se placer **avant** ou **après** le nom :\r\n- Avant : *une **grande** maison*.\r\n- Après : *une maison **grande** (rare, style littéraire).* \r\n\r\n## Exercices d’application\r\n1. **Identifier** les adjectifs qualificatifs dans le texte suivant :\r\n> « Quand les deux amies **inséparables** revinrent le lendemain, les habits étaient **prêts**. Elles les essayèrent en se regardant dans une **grande** glace. »\r\n2. **Proposer** un adjectif pour chaque mot : *un pays, un élève, un fruit, une maison*.\r\n3. **Créer** un court portrait en ajoutant au moins trois adjectifs qualificatifs pour décrire un personnage.\r\n\r\n## Points clés à retenir\r\n- L’adjectif qualifie le nom et s’accorde avec lui.\r\n- Il peut être placé avant ou après le nom selon le registre et le style.\r\n- L’usage d’adjectifs variés enrichit le texte et rend la description plus précise.\r\n\r\n---\r\n*Cette leçon est destinée aux élèves de 5e du Collège Moderne Alassane Ouattara (Ouaninou).*",
+  "estimatedMinutes": 10,
+  "tags": [
+    "francais",
+    "cinquieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le rôle principal d’un adjectif qualificatif ?",
+      "options": [
+        "Indiquer le temps",
+        "Enrichir le nom",
+        "Former un verbe",
+        "Marquer le sujet"
+      ],
+      "answer": 1,
+      "explanation": "L’adjectif qualificatif apporte une précision ou une qualité au nom."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "L’adjectif qualificatif s’accorde toujours en genre et en nombre avec le nom qu’il qualifie.",
+      "answer": true,
+      "explanation": "C’est une règle d’accord obligatoire en français."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Dans la phrase « Une maison ___ », complétez avec un adjectif qualificatif au féminin singulier qui décrit la taille.",
+      "answer": "grande",
+      "explanation": "« Grande » s’accorde avec « maison » (féminin singulier)."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Parmi les mots suivants, lequel n’est pas un adjectif qualificatif dans le texte proposé : « inséparables », « revinrent », « prêts », « grande » ?",
+      "options": [
+        "inséparables",
+        "revinrent",
+        "prêts",
+        "grande"
+      ],
+      "answer": 1,
+      "explanation": "« Revinrent » est un verbe, les trois autres sont des adjectifs."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "On ne peut placer l’adjectif qualificatif qu’avant le nom, jamais après.",
+      "answer": false,
+      "explanation": "L’adjectif peut se placer avant ou après le nom, selon le style."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Donnez un adjectif qualificatif pour le mot « pays » qui évoque la beauté naturelle.",
+      "answer": "pittoresque",
+      "explanation": "« Pittoresque » décrit un pays aux paysages charmants."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel accord faut‑il faire pour l’adjectif dans « des élèves ___ » ?",
+      "options": [
+        "intelligent",
+        "intelligents",
+        "intelligente",
+        "intelligentes"
+      ],
+      "answer": 1,
+      "explanation": "Le nom « élèves » est masculin pluriel, donc « intelligents »."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Dans la phrase « Le paludisme est une maladie dangereuse », l’adjectif « dangereuse » se place après le nom.",
+      "answer": true,
+      "explanation": "L’adjectif est placé après le nom « maladie »."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Complétez : « Un fruit ___ » (adjectif au masculin singulier qui indique la couleur rouge).",
+      "answer": "rouge",
+      "explanation": "« Rouge » qualifie le fruit au masculin singulier."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel type d’expansion du nom est l’adjectif qualificatif ?",
+      "options": [
+        "Complément du verbe",
+        "Complément du nom",
+        "Complément d’objet direct",
+        "Complément circonstanciel"
+      ],
+      "answer": 1,
+      "explanation": "L’adjectif qualifie le nom, il est donc un complément du nom."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "L’adjectif qualificatif peut être utilisé pour exprimer une opinion subjective.",
+      "answer": true,
+      "explanation": "Les adjectifs comme « magnifique », « ennuyeux » reflètent souvent une appréciation personnelle."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Proposez un adjectif qualificatif au féminin pluriel pour le groupe « des maisons ___ ».",
+      "answer": "spacieuses",
+      "explanation": "« Spacieuses » s’accorde avec « maisons » (féminin pluriel)."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Dans la phrase « Elles les essayèrent en se regardant dans une grande glace », quel est le groupe nominal contenant l’adjectif ?",
+      "options": [
+        "une grande glace",
+        "elles les",
+        "une glace",
+        "elles"
+      ],
+      "answer": 0,
+      "explanation": "« Une grande glace » est le groupe nominal où « grande » est l’adjectif."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Un adjectif qualificatif peut être placé entre le déterminant et le nom uniquement en français moderne.",
+      "answer": false,
+      "explanation": "Il peut aussi être placé après le nom, surtout dans la langue littéraire ou poétique."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Complétez la phrase : « Un élève ___ réussit l’examen. » (adjectif au masculin singulier indiquant la diligence).",
+      "answer": "studieux",
+      "explanation": "« Studieux » qualifie l’élève au masculin singulier."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel est le nombre d’adjectifs à ajouter au minimum dans le portrait demandé aux élèves ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "Le consigne indique « au moins trois adjectifs ». L’indice 2 correspond à l’option « 3 »."
+    }
+  ]
+}

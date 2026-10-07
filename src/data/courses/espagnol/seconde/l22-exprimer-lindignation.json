@@ -1,0 +1,154 @@
+{
+  "id": "espagnol-seconde-l22-exprimer-lindignation",
+  "subjectId": "espagnol",
+  "levelId": "seconde",
+  "slug": "l22-exprimer-lindignation",
+  "title": "Exprésate: Indignación en Español (2nde)",
+  "summary": "Lección para estudiantes de 2.º de secundaria que estudian español. Se trabaja el vocabulario y las estructuras para expresar indignación, con ejemplos, actividades de completado y redacción de textos críticos sobre la explotación sexual infantil y la violencia escolar.",
+  "lesson": "## Vocabulario\n- **Indignar(se)** – provocar una fuerte sensación de injusticia. Ej.: *La matanza frecuente de negros por policías blancos indigna al mundo entero.*\n- **Explotar** – abusar, aprovecharse. Ej.: *Explotar a los menores es una lacra.*\n- **Una lacra** – algo nocivo que afecta a la sociedad.\n\n## Gramática\n### Expresiones de indignación\n- **¡Qué pena!**\n- **Me apena que + subjuntivo**\n- **Me indigna que + subjuntivo**\n- **Nos indigna** + sustantivo\n### Verbos\n- *apenarse* (sentir pena)\n- *indignarse* (sentir indignación) + complemento directo.\n\n## Ejemplos\n- *Me apena mucho que no estudies tus lecciones.*\n- *Nos indigna la situación de los inmigrantes ilegales en Europa.*\n- *Me indigna que la administración no actúe frente al robo en el instituto.*\n\n## Actividad de aplicación\nRellena los huecos con **se apenan**, **indigna que**, **apena que**, **indignan**.\n1. Me **_____** mucho que personas maltraten a los menores.\n2. Nos **_____** la injusticia, la violencia, las personas abandonadas.\n3. Los ciudadanos **_____** por la mala gestión de las autoridades.\n4. Te **_____** que la delincuencia sexual aumente.\n\n## Situación de evaluación\nRedacta una intervención breve expresando tu indignación ante un robo de dinero en el patio. Usa al menos dos expresiones aprendidas.\n\n## Ejercicios adicionales\n1. Completa con *una lacra*, *explota*, *barato*, *me indigna*.\n2. Copia las expresiones de indignación del texto.\n3. Preguntas de comprensión sobre UNICEF y ECPAT.\n\n---\n**Tiempo estimado:** 10 minutos",
+  "estimatedMinutes": 10,
+  "tags": [
+    "espagnol",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "¿Cuál de las siguientes frases expresa indignación?",
+      "options": [
+        "¡Qué pena!",
+        "Me apena que sea tarde",
+        "Me indigna que no haya justicia",
+        "Me alegro de verte"
+      ],
+      "answer": 2,
+      "explanation": "'Me indigna que no haya justicia' usa la estructura de indignación con subjuntivo."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "En la frase «Los ciudadanos se apenan por la mala gestión», el verbo ‘apenar’ está en forma:",
+      "options": [
+        "Infinitivo",
+        "Gerundio",
+        "Participio",
+        "Pronombre reflexivo + infinitivo"
+      ],
+      "answer": 3,
+      "explanation": "‘Se apenan’ es pronombre reflexivo + infinitivo del verbo en presente."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "¿Cuál es la traducción correcta de ‘una lacra’ al francés?",
+      "options": [
+        "une maladie",
+        "une lacune",
+        "une plaie",
+        "une fléau"
+      ],
+      "answer": 3,
+      "explanation": "‘Una lacra’ se traduce como ‘un fléau’, algo nocivo."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Selecciona la opción que completa correctamente: «Me ___ mucho que la violencia escolar ___».",
+      "options": [
+        "indigna, aumente",
+        "indigna, aumente",
+        "apena, aumente",
+        "indigna, aumente"
+      ],
+      "answer": 0,
+      "explanation": "Se necesita el verbo ‘indigna’ y el subjuntivo ‘aumente’."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "¿Cuál de los siguientes verbos NO se usa típicamente para expresar indignación?",
+      "options": [
+        "indignarse",
+        "apenarse",
+        "alegrarse",
+        "lamentarse"
+      ],
+      "answer": 2,
+      "explanation": "‘Alegrarse’ expresa alegría, no indignación."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "La expresión «¡Qué pena!» solo se usa para expresar alegría.",
+      "answer": false,
+      "explanation": "Se usa para expresar tristeza o pena, no alegría."
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "En español, después de ‘Me indigna que’ se emplea siempre el modo subjuntivo.",
+      "answer": true,
+      "explanation": "La construcción requiere el subjuntivo."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "‘Una lacra’ es sinónimo de ‘una bendición’.",
+      "answer": false,
+      "explanation": "‘Una lacra’ significa algo negativo, no una bendición."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "‘Se apenan’ es la forma correcta para expresar que varios sujetos sienten pena.",
+      "answer": true,
+      "explanation": "‘Se apenan’ concuerda con un sujeto plural."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "‘Me indigna que la administración no haga nada’ es una frase correcta para expresar indignación.",
+      "answer": true,
+      "explanation": "La frase sigue la estructura adecuada."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Completa: Me ______ mucho que la explotación sexual infantil siga existiendo.",
+      "answer": "indigna",
+      "explanation": "Se usa ‘indigna’ con subjuntivo."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Completa: Nos ______ la falta de recursos en las escuelas rurales.",
+      "answer": "indigna",
+      "explanation": "‘Nos indigna’ concuerda con el sujeto plural."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Completa: La violencia en la escuela es ______ que debemos erradicar.",
+      "answer": "una lacra",
+      "explanation": "‘Una lacra’ describe algo nocivo."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Completa: El precio de los libros es tan bajo que resulta ______.",
+      "answer": "barato",
+      "explanation": "‘Barato’ completa la idea de bajo costo."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Completa: Los niños ______ cuando ven que sus derechos son vulnerados.",
+      "answer": "se apenan",
+      "explanation": "‘Se apenan’ indica que sienten pena."
+    }
+  ]
+}

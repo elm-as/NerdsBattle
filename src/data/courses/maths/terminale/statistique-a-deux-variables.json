@@ -1,0 +1,104 @@
+{
+  "id": "maths-terminale-statistique-a-deux-variables",
+  "subjectId": "maths",
+  "levelId": "terminale",
+  "slug": "statistique-a-deux-variables",
+  "title": "Statistique à deux variables – Prévision de la pluviométrie",
+  "summary": "Cette leçon introduit la statistique à deux variables en se concentrant sur l’analyse de la relation entre la pluviométrie et la température. Les élèves apprennent à construire une série statistique double, à calculer les marges, à appliquer la méthode des moindres carrés pour ajuster un modèle linéaire, et à estimer la pluviométrie d’un mois futur. L’exercice synthèse permet de mettre en pratique ces concepts sur un jeu de données réel.",
+  "lesson": "# Statistique à deux variables\n\n## 1. Série statistique double\n\nUne série statistique double est un tableau à double entrée où chaque cellule contient l’effectif du couple ((X,Y)).\\n\\n- **X** : variable explicative (ex. température).\\n- **Y** : variable à expliquer (ex. pluviométrie).\\n- **n** : nombre total d’observations.\n\n### Exemple\n\n| X | Y | Effectif |\n|---|---|----------|\n| 23 | 13 | 1 |\n| 17 | 23 | 1 |\n| 14 | 10 | 1 |\n…\n\n## 2. Marges et fréquences marginales\n\n- **Marge X** : somme des effectifs sur chaque colonne.\\n- **Marge Y** : somme des effectifs sur chaque ligne.\\n- **Fréquence marginale** : (f_{X}=n_{X}/n) ou (f_{Y}=n_{Y}/n).\n\n## 3. Ajustement linéaire – Méthode des moindres carrés\n\nOn cherche une droite ( hat{Y}=a+bX ) qui minimise la somme des carrés des résidus :\n\\[ S(a,b)=sum_{i=1}^{n}(Y_i-(a+bX_i))^2 \\]\n\nLes estimations de (a) et (b) sont données par :\n\\[ b=\frac{sum (X_i-\bar{X})(Y_i-\bar{Y})}{sum (X_i-\bar{X})^2} \\]\n\\[ a=\bar{Y}-b\bar{X} \\]\n\n## 4. Estimation de la pluviométrie\n\nUne fois (a) et (b) calculés, on peut estimer la pluviométrie pour un mois donné en remplaçant (X) par la température correspondante.\n\n## 5. Exercice synthèse\n\nAppliquez la méthode aux données de septembre 2018 à août 2019 pour prévoir la pluviométrie d’octobre 2019.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le rôle de la variable X dans une série statistique double?",
+      "options": [
+        "Déterminer la moyenne",
+        "Décrire la variable à expliquer",
+        "Décrire la variable explicative",
+        "Calculer la variance"
+      ],
+      "answer": 2,
+      "explanation": "X est la variable explicative, Y la variable à expliquer."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La méthode des moindres carrés minimise :",
+      "options": [
+        "La somme des résidus",
+        "La somme des carrés des résidus",
+        "La moyenne des résidus",
+        "La variance des résidus"
+      ],
+      "answer": 1,
+      "explanation": "On minimise la somme des carrés des résidus pour obtenir le meilleur ajustement linéaire."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Dans un ajustement linéaire d'une série double (X, Y), quel est le but principal de la droite de régression ?",
+      "options": [
+        "Calculer la moyenne des observations",
+        "Évaluer le nombre de modalités",
+        "Estimer la valeur de Y pour une valeur donnée de X",
+        "Déterminer la variance totale"
+      ],
+      "answer": 2,
+      "explanation": "La droite de régression permet de prédire ou estimer la variable à expliquer Y en fonction de la variable explicative X."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "La fréquence marginale de X=23 est calculée comme :",
+      "options": [
+        "(n_{X=23}/n)",
+        "(n_{X=23})",
+        "(n_{Y=23}/n)",
+        "(n_{Y=23})"
+      ],
+      "answer": 0,
+      "explanation": "Fréquence marginale = effectif de la modalité divisé par le total."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel est le rôle de l’ordonnée à l’origine (a) dans la droite (hat{Y}=a+bX)?",
+      "options": [
+        "Déterminer la pente",
+        "Déterminer l’intersection avec l’axe Y",
+        "Déterminer la moyenne de Y",
+        "Déterminer la variance de Y"
+      ],
+      "answer": 1,
+      "explanation": "(a) est l’ordonnée à l’origine, l’intersection avec l’axe Y."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Dans un modèle affine $\\hat{Y} = a + bX$, pour estimer la valeur future de Y, on remplace X par :",
+      "options": [
+        "La moyenne générale de Y",
+        "La valeur numérique correspondante de la variable explicative X",
+        "La variance de Y",
+        "L'effectif total N"
+      ],
+      "answer": 1,
+      "explanation": "On injecte la valeur de la variable explicative X dans l'équation de régression pour obtenir l'estimation de Y."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "La formule de l’ordonnée à l’origine est : \\(a=\\bar{Y}-b\\bar{X}\\)",
+      "answer": "a=\\bar{Y}-b\\bar{X}",
+      "explanation": "C’est la formule standard pour l’ordonnée à l’origine."
+    }
+  ]
+}

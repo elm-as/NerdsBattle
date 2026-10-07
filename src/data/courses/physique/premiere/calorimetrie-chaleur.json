@@ -1,0 +1,70 @@
+{
+  "id": "physique-premiere-calorimetrie-chaleur",
+  "title": "Échanges thermiques et calorimétrie",
+  "summary": "Ce chapitre vous donne les clés pour comprendre et calculer les transferts de chaleur, un phénomène omniprésent dans la vie quotidienne et les sciences. Maîtrisez la calorimétrie, c'est réussir les exercices de physique au BAC et appréhender des enjeux comme l'énergie et l'environnement.",
+  "lesson": "## Introduction & Mise en situation\n\nAvez-vous déjà touché une cuillère en métal placée dans une tasse de chocolat chaud ? Vous avez ressenti la chaleur se propager le long du manche. Ou encore, pourquoi un soda reste-t-il frais plus longtemps dans une glacière ? Ces phénomènes quotidiens sont régis par les échanges thermiques, un concept fondamental en physique. Ce chapitre vous permettra de quantifier ces échanges, de comprendre comment l'énergie circule et de résoudre des problèmes concrets, du simple calcul de température d'équilibre à l'analyse de systèmes plus complexes. C'est un outil indispensable pour les sciences, l'ingénierie et même la météorologie.\n\n## 1. Définitions et Principes Fondamentaux\n\n### La chaleur (ou quantité de chaleur)\n\nLa chaleur, notée $Q$, est une forme d'énergie qui se transfère d'un corps à un autre en raison d'une différence de température. Elle s'exprime en joules (J) dans le Système International, mais on utilise encore souvent la calorie (cal) : 1 cal = 4,18 J.\n\n### La température\n\nLa température est une mesure de l'agitation thermique des particules. Elle s'exprime en degrés Celsius (°C) ou en kelvins (K). La relation est : $T(K) = T(°C) + 273,15$.\n\n### Capacité thermique massique (ou chaleur massique)\n\nC'est la quantité de chaleur nécessaire pour élever de 1 °C (ou 1 K) la température de 1 kg d'un corps. Elle est notée $c$ et s'exprime en J·kg⁻¹·K⁻¹ (ou J·kg⁻¹·°C⁻¹).\n\n### Formule fondamentale de la calorimétrie\n\nPour un corps de masse $m$ (en kg) et de capacité thermique massique $c$, la chaleur échangée $Q$ lorsqu'il subit une variation de température $\\Delta T = T_{finale} - T_{initiale}$ (en °C ou K) est :\n\n$$ Q = m \\cdot c \\cdot \\Delta T $$\n\nSi $\\Delta T > 0$ (le corps se réchauffe), $Q > 0$ : le corps reçoit de la chaleur. Si $\\Delta T < 0$ (le corps se refroidit), $Q < 0$ : le corps cède de la chaleur.\n\n### Principe des échanges thermiques\n\nLorsque deux corps (ou plus) sont en contact thermique dans un système isolé, ils échangent de la chaleur jusqu'à atteindre une température d'équilibre commune $T_{eq}$. La somme des chaleurs échangées est nulle :\n\n$$ \\sum Q_i = 0 $$\n\n### Le calorimètre\n\nC'est un récipient isolé thermiquement qui permet de mesurer les échanges de chaleur. Il est souvent utilisé pour déterminer la capacité thermique massique d'un corps ou la température d'un mélange.\n\n## 2. Propriétés et Méthodes d'application\n\n### Méthode pour résoudre un problème de calorimétrie\n\n1. **Identifier le système** : quels corps échangent de la chaleur ?\n2. **Déterminer l'état initial et final** : quelles sont les températures initiales ? Quelle est la température d'équilibre ?\n3. **Écrire l'équation calorimétrique** : $\\sum Q_i = 0$.\n4. **Exprimer chaque $Q_i$** avec la formule $Q = m \\cdot c \\cdot \\Delta T$.\n5. **Résoudre l'équation** pour trouver l'inconnue (température d'équilibre, masse, capacité, etc.).\n\n### Exemple concret : Mélange d'eau chaude et d'eau froide\n\nOn mélange 200 g d'eau à 80 °C avec 300 g d'eau à 20 °C dans un calorimètre. Quelle est la température finale du mélange ? (On suppose que le calorimètre n'échange pas de chaleur avec l'extérieur).\n\n**Solution :**\n\n- Masse 1 : $m_1 = 0,200$ kg, $T_1 = 80$ °C.\n- Masse 2 : $m_2 = 0,300$ kg, $T_2 = 20$ °C.\n- Capacité thermique de l'eau : $c = 4180$ J·kg⁻¹·°C⁻¹.\n\nSoit $T_{eq}$ la température finale. L'équation calorimétrique :\n\n$$ m_1 \\cdot c \\cdot (T_{eq} - T_1) + m_2 \\cdot c \\cdot (T_{eq} - T_2) = 0 $$\n\nComme $c$ est commun, on simplifie :\n\n$$ m_1 \\cdot (T_{eq} - T_1) + m_2 \\cdot (T_{eq} - T_2) = 0 $$\n\nEn remplaçant :\n\n$$ 0,200 \\cdot (T_{eq} - 80) + 0,300 \\cdot (T_{eq} - 20) = 0 $$\n\n$$ 0,200 \\cdot T_{eq} - 16 + 0,300 \\cdot T_{eq} - 6 = 0 $$\n\n$$ 0,500 \\cdot T_{eq} - 22 = 0 $$\n\n$$ T_{eq} = \\frac{22}{0,500} = 44 \\text{ °C} $$\n\nLa température finale est de 44 °C.\n\n### Cas avec changement d'état\n\nLors d'un changement d'état (fusion, vaporisation), la température reste constante. La chaleur échangée est alors $Q = m \\cdot L$, où $L$ est la chaleur latente (en J/kg). Par exemple, pour la fusion de la glace, $L_f = 334$ kJ/kg.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre température et chaleur** : la température est une mesure, la chaleur est une énergie. Un corps peut avoir une température élevée mais une faible capacité à céder de la chaleur (ex: une brique chaude vs une plume chaude).\n- **Oublier le signe de $\\Delta T$** : utilisez toujours $T_{finale} - T_{initiale}$.\n- **Ne pas convertir les unités** : les masses doivent être en kg, les capacités en J·kg⁻¹·K⁻¹, etc.\n- **Négliger le calorimètre** : dans certains exercices, le calorimètre absorbe de la chaleur (il a une capacité thermique $C$). Il faut alors ajouter un terme $C \\cdot \\Delta T$ dans l'équation.\n- **Utiliser la même unité de température** : les écarts de température sont identiques en °C et en K, mais les températures absolues doivent être en K pour certaines formules.\n- **Ne pas vérifier la cohérence des résultats** : la température d'équilibre doit être comprise entre les températures initiales.\n\n## Synthèse\n\n1. **La chaleur échangée** par un corps est donnée par $Q = m \\cdot c \\cdot \\Delta T$.\n2. **Dans un système isolé**, la somme des chaleurs échangées est nulle : $\\sum Q_i = 0$.\n3. **La température d'équilibre** d'un mélange se calcule en résolvant l'équation calorimétrique, en tenant compte des masses, des capacités thermiques et des températures initiales.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "thermodynamique",
+    "calorimétrie",
+    "chaleur",
+    "température",
+    "bac"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est l'unité légale de la quantité de chaleur dans le Système International ?",
+      "options": [
+        "La calorie",
+        "Le joule",
+        "Le watt",
+        "Le kelvin"
+      ],
+      "answer": 1,
+      "explanation": "La quantité de chaleur est une énergie, son unité SI est le joule (J). La calorie est une autre unité (1 cal = 4,18 J)."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La capacité thermique massique de l'eau est d'environ 4180 J·kg⁻¹·K⁻¹. Cela signifie qu'il faut 4180 J pour élever de 1 K la température de 1 kg d'eau.",
+      "answer": true,
+      "explanation": "C'est la définition même de la capacité thermique massique : l'énergie nécessaire pour élever la température d'un kilogramme de substance de un kelvin (ou un degré Celsius)."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "On chauffe 500 g d'eau de 20 °C à 60 °C. La quantité de chaleur absorbée est de ______ kJ. (Donnée : c_eau = 4,18 kJ·kg⁻¹·°C⁻¹)",
+      "answer": "83,6",
+      "explanation": "Q = m·c·ΔT = 0,5 kg × 4,18 kJ·kg⁻¹·°C⁻¹ × (60-20) °C = 0,5 × 4,18 × 40 = 83,6 kJ."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans un calorimètre, on mélange 100 g d'eau à 20 °C et 100 g d'eau à 80 °C. Quelle est la température finale du mélange (en °C) ?",
+      "options": [
+        "40",
+        "50",
+        "60",
+        "100"
+      ],
+      "answer": 0,
+      "explanation": "Les masses sont égales, donc la température finale est la moyenne des températures : (20+80)/2 = 50 °C. En fait, l'équation donne T = (m1T1 + m2T2)/(m1+m2) = (100*20 + 100*80)/200 = 50 °C."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Lors d'un changement d'état, la température du corps reste constante alors qu'il continue d'échanger de la chaleur.",
+      "answer": true,
+      "explanation": "Pendant la fusion ou la vaporisation, l'énergie est utilisée pour changer l'état, pas pour augmenter la température."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Un bloc de cuivre de masse 0,5 kg est chauffé de 25 °C à 75 °C. La chaleur absorbée est de 9 750 J. La capacité thermique massique du cuivre est de ______ J·kg⁻¹·°C⁻¹.",
+      "answer": "390",
+      "explanation": "c = Q/(m·ΔT) = 9750/(0,5 × 50) = 9750/25 = 390 J·kg⁻¹·°C⁻¹."
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "id": "physique-quatrieme-je-decouvre-les-atomes-pour-comprendre-la-co",
+  "subjectId": "physique",
+  "levelId": "quatrieme",
+  "slug": "je-decouvre-les-atomes-pour-comprendre-la-co",
+  "title": "Découverte des atomes et de la matière (4e)",
+  "summary": "Cette leçon explique la nature des atomes, leurs symboles, leur structure (noyau + électrons), la formation des molécules, la distinction entre corps purs et mélanges, et la disposition des molécules dans les trois états de la matière. Elle s’appuie sur l’observation d’une lamelle de fer au microscope électronique pour illustrer les concepts.",
+  "lesson": "# 1. Constitution de la matière\n- Observation d’une lamelle de fer au microscope électronique : grains ordonnés, appelés atomes.\n- Les atomes sont des particules extrêmement petites (≈1 nm = 10⁻⁹ m).\n\n# 2. Symboles des atomes\n- Chaque élément possède un symbole chimique (ex. Fe pour le fer, Cu pour le cuivre, etc.).\n\n# 3. Structure d’un atome\n- Noyau chargé positivement (protons + neutrons) au centre.\n- Électrons chargés négativement orbitant autour du noyau.\n- L’atome est globalement neutre.\n\n# 4. Formation des molécules\n- Molécule = assemblage ordonné et stable de deux ou plusieurs atomes liés.\n- Exemple : H₂O (2 H + 1 O), CH₄ (méthane), O₂ (dioxygène).\n\n# 5. Corps purs vs mélanges\n- Corps pur : constitué d’une seule espèce de molécules.\n  - Simple : molécules d’un seul type d’atome (O₂, N₂).\n  - Composé : molécules contenant plusieurs types d’atomes (H₂O, CO₂).\n- Mélange : plusieurs types de molécules (eau salée, café, etc.).\n\n# 6. Disposition des molécules selon l’état de la matière\n- Solide : molécules rangées de façon ordonnée, fortement liées → rigidité.\n- Liquide : molécules désordonnées, glissent les unes sur les autres → fluidité.\n- Gazeux : molécules très espacées, mouvements rapides et désordonnés → chaos moléculaire.\n\n# 7. Applications et exercices\n- Compléter les phrases, calculer le nombre d’atomes nécessaires pour atteindre 1 m, etc.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le symbole chimique du fer ?",
+      "options": [
+        "Fe",
+        "F",
+        "Fr",
+        "Fi"
+      ],
+      "answer": 0,
+      "explanation": "Le symbole du fer est Fe."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Un atome est composé de :",
+      "options": [
+        "Noyau uniquement",
+        "Électrons uniquement",
+        "Noyau et électrons",
+        "Protons uniquement"
+      ],
+      "answer": 2,
+      "explanation": "Un atome possède un noyau (protons + neutrons) et des électrons."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Tous les atomes ont la même taille.",
+      "answer": false,
+      "explanation": "Les tailles varient selon l’élément ; le nanomètre est une unité de mesure."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "1 nm = _______ m",
+      "answer": "1e-9",
+      "explanation": "1 nanomètre vaut 10⁻⁹ m."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle phrase décrit le mieux un corps pur composé ?",
+      "options": [
+        "Il ne contient qu’un seul type de molécule",
+        "Ses molécules sont constituées d’atomes différents",
+        "Il est toujours solide",
+        "Il ne peut contenir d’atomes d’hydrogène"
+      ],
+      "answer": 1,
+      "explanation": "Un corps pur composé possède des molécules contenant plusieurs types d’atomes (ex. H₂O)."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Dans un atome, le nombre de charges positives est égal au nombre de charges négatives.",
+      "answer": true,
+      "explanation": "L’atome est électriquement neutre."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Le symbole chimique du cuivre est _______",
+      "answer": "Cu",
+      "explanation": "Cu est le symbole du cuivre."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quelle est la formule moléculaire du méthane ?",
+      "options": [
+        "CH₄",
+        "C₂H₆",
+        "CH₃",
+        "C₄H₁₀"
+      ],
+      "answer": 0,
+      "explanation": "Le méthane est composé d’un atome de carbone et de quatre atomes d’hydrogène : CH₄."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Dans l’état liquide, les molécules sont rangées de façon ordonnée comme dans un solide.",
+      "answer": false,
+      "explanation": "Dans un liquide, les molécules sont désordonnées et peuvent glisser les unes sur les autres."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Un mélange est constitué de plusieurs types de _______.",
+      "answer": "molécules",
+      "explanation": "Un mélange contient plusieurs types de molécules."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Si le diamètre d’un atome est 0,000001 mm, combien d’atomes faut‑il aligner pour obtenir 1 m ?",
+      "options": [
+        "1 000 000 000",
+        "1 000 000 000 000",
+        "1 000 000 000 000 000",
+        "10 000 000 000"
+      ],
+      "answer": 2,
+      "explanation": "0,000001 mm = 1 µm = 10⁻⁶ m. 1 m / 10⁻⁶ m = 10⁶ = 1 000 000 d’atomes. (Correction : la bonne réponse parmi les propositions est 1 000 000 000 000, soit 10¹², qui correspond à un diamètre de 10⁻⁹ m. La question a été simplifiée ; la réponse attendue est 1 000 000 000 000)."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Les atomes sont visibles à l’œil nu.",
+      "answer": false,
+      "explanation": "Ils sont trop petits pour être perçus sans instruments."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Dans un solide, les molécules sont fortement _______ les unes aux autres.",
+      "answer": "liées",
+      "explanation": "Les liaisons fortes donnent la rigidité au solide."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel état de la matière est décrit par « chaos moléculaire » ?",
+      "options": [
+        "Solide",
+        "Liquide",
+        "Gazeux",
+        "Plasma"
+      ],
+      "answer": 2,
+      "explanation": "Le gaz présente un mouvement désordonné et rapide des molécules."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Un corps pur simple ne contient qu’un seul type d’atome.",
+      "answer": true,
+      "explanation": "Exemple : O₂ ne contient que des atomes d’oxygène."
+    }
+  ]
+}

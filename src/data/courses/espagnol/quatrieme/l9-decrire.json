@@ -1,0 +1,151 @@
+{
+  "id": "espagnol-quatrieme-l9-decrire",
+  "subjectId": "espagnol",
+  "levelId": "quatrieme",
+  "slug": "l9-decrire",
+  "title": "Describir la casa del abuelo y el pueblo en español 4e",
+  "summary": "En esta lección se enseña a los estudiantes de 4e español a describir objetos y lugares usando adjetivos de forma, tamaño y color. Se revisa vocabulario como redondo, limpio, negro, y se practica con actividades de completar espacios, contraste de adjetivos y redacción de artículos sobre su pueblo y su colegio.",
+  "lesson": "# Competencia\nTraiter une situation relative à l’échange d’information.\n\n## Título de la lección\nDescribir la casa del abuelo y el pueblo.\n\n## Support\nLa casa de mi abuelo. In ¡Ya estamos! Español 4e P.28.\n\n## Situación de aprendizaje\nLos alumnos visitan un lugar turístico, identifican vocabulario y describen lo visto.\n\n## Contenidos\n### Vocabulario\n- **Redondo(a)**: El balón de fútbol es redondo.\n- **Limpio(a)**: Comemos con las manos limpias.\n- **El nieto**: El hijo de mi hijo es mi nieto.\n\n### Resumen\nUn nieto describe la casa de su abuelo, una casa tradicional en tierra de los Senoufo.\n\n### Gramática\nUso de adjetivos para describir objetos.\n- Forma: redondo/a, cuadrado/a…\n- Tamaño: alto/a, bajo/a…\n- Color: blanco/a, azul…\n\n## Actividad de aplicación\nCompletar espacios con adjetivos adecuados: altos, bonitas, negro, fantástica.\n\n## Situación de evaluación\nEscribir un artículo sobre el pueblo tras las vacaciones de Navidad, citando adjetivos y describiendo la arquitectura.\n\n## Ejercicios\n1. Relacionar adjetivos con contrarios.\n2. Verdadero/Falso sobre la casa del abuelo.\n3. Preguntas de comprensión sobre el patio y la tradición.\n\n## Situaciones de evaluación 1 y 2\nDescribir el pueblo y el colegio con adjetivos y detalles.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "espagnol",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "¿Qué adjetivo describe la forma de la casa?",
+      "options": [
+        "redondo",
+        "alto",
+        "blanco",
+        "negro"
+      ],
+      "answer": 0,
+      "explanation": "El adjetivo que indica forma es *redondo*."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "El patio está siempre limpio.",
+      "answer": true,
+      "explanation": "Según el texto, el patio está siempre limpio."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "¿Cuál es el contrario de *limpio*?",
+      "options": [
+        "sucio",
+        "alto",
+        "negro",
+        "blanco"
+      ],
+      "answer": 0,
+      "explanation": "El contrario de *limpio* es *sucio*."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "¿Qué adjetivo indica color?",
+      "options": [
+        "alto",
+        "blanco",
+        "redondo",
+        "negro"
+      ],
+      "answer": 1,
+      "explanation": "El adjetivo que indica color es *blanco*."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "El caballo galopa como el viento.",
+      "answer": true,
+      "explanation": "La frase describe la velocidad del caballo, por lo que es verdadera."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "¿Qué adjetivo indica tamaño?",
+      "options": [
+        "alto",
+        "redondo",
+        "blanco",
+        "negro"
+      ],
+      "answer": 0,
+      "explanation": "El adjetivo que indica tamaño es *alto*."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "¿Qué adjetivo describe la casa como tradicional?",
+      "options": [
+        "moderno",
+        "tradicional",
+        "rectangular",
+        "moderno"
+      ],
+      "answer": 1,
+      "explanation": "La casa es *tradicional*."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "La casa del abuelo es rectangular.",
+      "answer": false,
+      "explanation": "El texto indica que la casa es redonda, no rectangular."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "¿Qué color describe el adobe?",
+      "options": [
+        "rojo",
+        "azul",
+        "negro",
+        "blanco"
+      ],
+      "answer": 0,
+      "explanation": "El adobe se describe como *rojo*."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "¿Qué adjetivo describe la altura del colegio?",
+      "options": [
+        "alto",
+        "negro",
+        "azul",
+        "bonito"
+      ],
+      "answer": 0,
+      "explanation": "El colegio es *alto*."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "El colegio es muy limpio.",
+      "answer": true,
+      "explanation": "El texto indica que el colegio es muy limpio."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "¿Qué adjetivo describe el colegio como agradable?",
+      "options": [
+        "bonito",
+        "malo",
+        "alto",
+        "negro"
+      ],
+      "answer": 0,
+      "explanation": "El colegio es *bonito*."
+    }
+  ]
+}

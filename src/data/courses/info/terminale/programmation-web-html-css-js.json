@@ -1,0 +1,76 @@
+{
+  "id": "info-terminale-programmation-web-html-css-js",
+  "title": "Développement Web : HTML5, CSS3 et JavaScript",
+  "summary": "Ce chapitre vous donne les clés pour créer des pages web modernes et interactives, une compétence essentielle dans un monde numérique. Maîtrisez le trio HTML5, CSS3 et JavaScript pour transformer vos idées en sites web réels, prêts pour le BAC et au-delà.",
+  "lesson": "## Introduction & Mise en situation\n\nDans un monde de plus en plus connecté, savoir créer des pages web est une compétence fondamentale. Ce chapitre vous apprendra les trois piliers du développement web : **HTML5** pour la structure, **CSS3** pour le style, et **JavaScript** pour l'interactivité. Que vous rêviez de devenir développeur web, de créer votre propre blog ou simplement de comprendre comment fonctionnent les sites que vous utilisez quotidiennement, ces bases sont indispensables. Au BAC, vous pourriez être amené à analyser ou à créer une page web simple. Ce cours vous prépare à cela.\n\n## 1. Définitions et Principes Fondamentaux\n\n### HTML5 (HyperText Markup Language)\nHTML est un langage de **balisage** qui structure le contenu d'une page web. Il utilise des balises (tags) pour définir les éléments : titres, paragraphes, images, liens, etc. Chaque balise a une signification sémantique.\n\n- **Balises de structure** : `<html>`, `<head>`, `<body>`.\n- **Balises de contenu** : `<h1>` à `<h6>` pour les titres, `<p>` pour les paragraphes, `<a>` pour les liens, `<img>` pour les images.\n- **Balises sémantiques HTML5** : `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`.\n\n**Exemple de structure HTML5 :**\n```html\n<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Ma page</title>\n</head>\n<body>\n    <header>Mon site</header>\n    <nav>Accueil | Contact</nav>\n    <main>\n        <article>\n            <h1>Bienvenue</h1>\n            <p>Ceci est un paragraphe.</p>\n        </article>\n    </main>\n    <footer>© 2024</footer>\n</body>\n</html>\n```\n\n### CSS3 (Cascading Style Sheets)\nCSS est un langage de **présentation** qui contrôle l'apparence des éléments HTML : couleurs, polices, espacements, positionnement, animations, etc. Il suit le principe de **cascade** : les règles s'appliquent dans un ordre de priorité.\n\n- **Sélecteurs** : ciblent les éléments HTML (par balise, classe, id).\n- **Propriétés** : définissent le style (color, font-size, margin, padding, etc.).\n- **Valeurs** : assignées aux propriétés (ex: `color: blue;`).\n\n**Exemple de CSS3 :**\n```css\nbody {\n    font-family: Arial, sans-serif;\n    background-color: #f0f0f0;\n}\nh1 {\n    color: #333;\n    text-align: center;\n}\n```\n\n### JavaScript (JS)\nJavaScript est un langage de **programmation** qui rend les pages web interactives. Il peut manipuler le contenu HTML (DOM), réagir aux événements (clics, saisies), effectuer des calculs, et communiquer avec des serveurs.\n\n- **Variables** : `let`, `const`, `var`.\n- **Fonctions** : blocs de code réutilisables.\n- **Événements** : `onclick`, `onmouseover`, etc.\n- **DOM (Document Object Model)** : représentation de la page HTML sous forme d'objet manipulable.\n\n**Exemple de JavaScript :**\n```javascript\nfunction afficherMessage() {\n    alert(\"Bonjour !\");\n}\ndocument.getElementById(\"bouton\").addEventListener(\"click\", afficherMessage);\n```\n\n## 2. Propriétés et Méthodes d'application\n\n### Méthode pour créer une page web complète\n1. **Structure HTML** : Définir la structure sémantique avec les balises HTML5.\n2. **Style CSS** : Appliquer les styles via une feuille de style externe ou interne.\n3. **Interaction JavaScript** : Ajouter des scripts pour rendre la page dynamique.\n\n### Exemple concret : une page de calcul de moyenne\n\n**HTML** :\n```html\n<!DOCTYPE html>\n<html>\n<head>\n    <title>Calcul de moyenne</title>\n    <link rel=\"stylesheet\" href=\"style.css\">\n</head>\n<body>\n    <h1>Calcul de moyenne</h1>\n    <input type=\"number\" id=\"note1\" placeholder=\"Note 1\">\n    <input type=\"number\" id=\"note2\" placeholder=\"Note 2\">\n    <button onclick=\"calculerMoyenne()\">Calculer</button>\n    <p id=\"resultat\"></p>\n    <script src=\"script.js\"></script>\n</body>\n</html>\n```\n\n**CSS** (style.css) :\n```css\nbody { font-family: Arial; margin: 20px; }\ninput { margin: 5px; padding: 5px; }\nbutton { padding: 5px 10px; }\n#resultat { font-weight: bold; margin-top: 10px; }\n```\n\n**JavaScript** (script.js) :\n```javascript\nfunction calculerMoyenne() {\n    let n1 = parseFloat(document.getElementById(\"note1\").value);\n    let n2 = parseFloat(document.getElementById(\"note2\").value);\n    let moyenne = (n1 + n2) / 2;\n    document.getElementById(\"resultat\").textContent = \"La moyenne est : \" + moyenne;\n}\n```\n\n**Explication** : On récupère les valeurs saisies, on calcule la moyenne, puis on affiche le résultat dans le paragraphe.\n\n### Formule mathématique en LaTeX\nLa moyenne de deux notes $a$ et $b$ est donnée par : $$m = \\frac{a + b}{2}$$\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Oublier la balise `<!DOCTYPE html>`** : Cela peut entraîner un mode de compatibilité (quirks mode) qui rend le rendu incohérent. **Solution** : Toujours l'inclure.\n- **Confondre les balises et les attributs** : Par exemple, `<img src=\"image.png\" alt=\"description\">` : `src` et `alt` sont des attributs, pas des balises.\n- **Ne pas fermer les balises** : En HTML5, certaines balises sont auto-fermantes (`<img>`, `<br>`), mais pour les autres, il faut les fermer (`<p>...</p>`).\n- **Utiliser des styles inline à outrance** : Cela rend le code difficile à maintenir. Privilégier les classes CSS.\n- **Placer le script dans le `<head>` sans attendre le chargement du DOM** : Cela peut provoquer des erreurs. Utiliser `defer` ou placer le script à la fin du `<body>`.\n- **Ne pas valider les saisies utilisateur** : En JavaScript, vérifier que les valeurs sont numériques pour éviter des résultats NaN (Not a Number).\n\n## Synthèse\n\n1. **HTML5** définit la structure sémantique de la page.\n2. **CSS3** gère la présentation et le design.\n3. **JavaScript** apporte l'interactivité et la logique.\n\nCes trois technologies sont complémentaires et indispensables pour tout développeur web.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "développement web",
+    "BAC"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel langage est utilisé pour structurer le contenu d'une page web ?",
+      "options": [
+        "CSS",
+        "JavaScript",
+        "HTML",
+        "PHP"
+      ],
+      "answer": 2,
+      "explanation": "HTML (HyperText Markup Language) est le langage de balisage qui structure le contenu."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle balise HTML5 est utilisée pour définir une section de navigation ?",
+      "options": [
+        "<main>",
+        "<nav>",
+        "<header>",
+        "<footer>"
+      ],
+      "answer": 1,
+      "explanation": "La balise <nav> est spécifiquement dédiée à la navigation."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "CSS est un langage de programmation.",
+      "answer": false,
+      "explanation": "CSS est un langage de style, pas de programmation. Il ne contient pas de logique."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "En JavaScript, quelle fonction est utilisée pour afficher une boîte de dialogue avec un message ? (Réponse : alert)",
+      "answer": "alert",
+      "explanation": "La fonction alert() affiche une boîte de dialogue avec un message."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle propriété CSS permet de changer la couleur du texte ?",
+      "options": [
+        "background-color",
+        "color",
+        "font-style",
+        "text-decoration"
+      ],
+      "answer": 1,
+      "explanation": "La propriété 'color' définit la couleur du texte."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "La balise <img> est une balise auto-fermante.",
+      "answer": true,
+      "explanation": "En HTML5, la balise <img> n'a pas de balise fermante, elle est auto-fermante."
+    }
+  ]
+}

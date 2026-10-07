@@ -1,0 +1,79 @@
+{
+  "id": "maths-cinquieme-l5-cours-de-maths-5ieme-apc-ecole-onlin",
+  "subjectId": "maths",
+  "levelId": "cinquieme",
+  "slug": "l5-cours-de-maths-5ieme-apc-ecole-onlin",
+  "title": "Cinquième : Puissances et Division Euclidienne",
+  "summary": "Cette leçon de mathématiques pour la classe de cinquième aborde deux concepts fondamentaux : les puissances entières et la division euclidienne dans l'ensemble des entiers naturels. Elle définit la notion de puissance (base, exposant), présente les règles de priorité des opérations et les propriétés de calcul des puissances. Elle introduit également la division euclidienne, ses termes (dividende, diviseur, quotient, reste) et l'encadrement d'un nombre par des multiples consécutifs.",
+  "lesson": "# Leçon : Puissances et Division Euclidienne\n\n## I. Puissances entières d’un nombre entier naturel\n\n### 1. Définition\nSoit $a$ un nombre entier naturel et $n$ un nombre entier naturel plus grand que 1.\n$a^n$ désigne le produit de $n$ facteurs égaux au nombre $a$.\n$$a^n = \\underbrace{a \\times a \\times \\dots \\times a}_{n \\text{ facteurs}}$$\n\n**Vocabulaire :**\n- $a^n$ est une puissance.\n- $a$ est la base.\n- $n$ est l’exposant.\n- $a^2$ se lit « $a$ au carré ».\n- $a^3$ se lit « $a$ au cube ».\n\n**Cas particuliers :**\n- $0^n = 0$ (si $n \\neq 0$)\n- $1^n = 1$\n- $a^1 = a$\n- $a^0 = 1$ (par convention)\n\n### 2. Règle de priorité des opérations\nDans une suite d’opérations :\n1. Les calculs entre parenthèses sont prioritaires.\n2. En l’absence de parenthèses, l’ordre est :\n   - Les puissances ;\n   - La multiplication et la division ;\n   - Les additions et les soustractions.\n\n**Exemple :** $3 \\times (15 - 8) = 3 \\times 7 = 21$.\n\n### 3. Propriétés de calcul avec les puissances\n\n**Propriété 1 :**\nPour $a, b \\in \\mathbb{N}$ et $n \\in \\mathbb{N}^*$ :\n$$a^n \\times b^n = (a \\times b)^n$$\n*Exemple :* $7^4 \\times 8^4 = (7 \\times 8)^4$.\n\n**Propriété 2 :**\nPour $a \\in \\mathbb{N}$ et $n, m \\in \\mathbb{N}^*$ :\n$$a^n \\times a^m = a^{n+m}$$\n*Exemple :* $2^2 \\times 2^3 = 2^{2+3} = 2^5$.\n\n---\n\n## II. Division dans $\\mathbb{N}$\n\n### 1. Division euclidienne\nSoit $a$ et $b$ deux nombres entiers naturels avec $b \\neq 0$.\nIl existe deux nombres entiers naturels uniques $q$ et $r$ tels que :\n$$a = b \\times q + r \\quad \\text{et} \\quad r < b$$\n\n**Termes de la division :**\n- $a$ : Dividende\n- $b$ : Diviseur\n- $q$ : Quotient\n- $r$ : Reste\n\n**Remarque :** Si $a$ est un multiple de $b$, alors le reste $r$ est nul ($r=0$) et $a = b \\times q$.\n\n### 2. Encadrement par des multiples consécutifs\nSi $a$ n’est pas un multiple de $b$, alors $a$ peut être encadré par deux multiples consécutifs de $b$ :\n$$b \\times q < a < b \\times (q + 1)$$\n\n**Exemple :** Encadrer 17 par des multiples de 6.\n$6 \\times 2 = 12$ et $6 \\times 3 = 18$.\nDonc $12 < 17 < 18$.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "cinquieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Que représente l'exposant dans une puissance $a^n$ ?",
+      "options": [
+        "Le nombre de facteurs égaux à $a$ dans le produit",
+        "La base de la puissance",
+        "Le résultat du calcul",
+        "Le diviseur de la division"
+      ],
+      "answer": 0,
+      "explanation": "L'exposant $n$ indique le nombre de fois que la base $a$ est multipliée par elle-même."
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "prompt": "Par convention, pour tout entier naturel $a$, $a^0$ est égal à ______.",
+      "answer": "1",
+      "explanation": "La convention mathématique stipule que tout nombre non nul élevé à la puissance 0 vaut 1."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la valeur de $3^2$ ?",
+      "options": [
+        "6",
+        "9",
+        "12",
+        "32"
+      ],
+      "answer": 1,
+      "explanation": "$3^2 = 3 \\times 3 = 9$."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "prompt": "Dans la division euclidienne de 57 par 4, le quotient est ______.",
+      "answer": "1",
+      "explanation": "$57 = 4 \\times 14 + 1$. Le quotient est 14."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Dans l'égalité $a = b \\times q + r$, quel est le terme désigné par $r$ ?",
+      "options": [
+        "Le dividende",
+        "Le diviseur",
+        "Le quotient",
+        "Le reste"
+      ],
+      "answer": 3,
+      "explanation": "$r$ représente le reste de la division euclidienne."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Selon la propriété 1, $a^n \\times b^n$ est égal à ______.",
+      "answer": "0",
+      "explanation": "La propriété des puissances de même exposant est $a^n \\times b^n = (a \\times b)^n$."
+    }
+  ]
+}

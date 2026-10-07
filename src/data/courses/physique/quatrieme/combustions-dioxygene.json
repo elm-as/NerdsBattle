@@ -1,0 +1,70 @@
+{
+  "id": "physique-quatrieme-combustions-dioxygene",
+  "title": "Combustions du carbone et du fer dans le dioxygène",
+  "summary": "Ce chapitre te permet de comprendre les transformations chimiques qui produisent de l'énergie, comme la combustion du charbon ou la rouille du fer. Tu apprendras à identifier les réactifs et les produits, et à écrire des équations de réaction, une compétence clé pour le BEPC et la vie courante.",
+  "lesson": "## Introduction & Mise en situation\n\nAs-tu déjà observé un feu de bois ou une bougie qui brûle ? Ce sont des **combustions**, des transformations chimiques qui libèrent de l'énergie sous forme de chaleur et de lumière. Dans ce chapitre, nous allons étudier deux combustions importantes : celle du **carbone** (comme dans le charbon) et celle du **fer** (comme dans la paille de fer). Ces réactions sont essentielles dans la vie quotidienne : le chauffage, la cuisson, mais aussi la corrosion des métaux. Comprendre ces réactions te permettra de prévoir les produits formés et d'écrire des équations chimiques équilibrées, une compétence fondamentale en chimie.\n\n## 1. Définitions et Principes Fondamentaux\n\n### Qu'est-ce qu'une combustion ?\n\nUne **combustion** est une réaction chimique entre un **combustible** (la substance qui brûle) et un **comburant** (généralement le dioxygène $O_2$). Elle produit de la chaleur et souvent de la lumière. Pour qu'une combustion se produise, il faut trois éléments (le triangle du feu) :\n\n- Un combustible\n- Un comburant (dioxygène)\n- Une source d'énergie (chaleur, étincelle)\n\n### Combustion du carbone\n\nLe **carbone** (C) brûle dans le dioxygène pour former du **dioxyde de carbone** ($CO_2$).\n\nÉquation chimique :\n$$C_{(s)} + O_{2(g)} \\rightarrow CO_{2(g)}$$\n\nCette réaction est **exothermique** : elle libère de l'énergie.\n\n### Combustion du fer\n\nLe **fer** (Fe) brûle dans le dioxygène pour former de l'**oxyde de fer** (rouille). En réalité, il se forme de l'oxyde magnétique de fer, de formule $Fe_3O_4$.\n\nÉquation chimique :\n$$3Fe_{(s)} + 2O_{2(g)} \\rightarrow Fe_3O_{4(s)}$$\n\nCette combustion se fait avec une flamme vive et produit des étincelles (comme dans une paille de fer).\n\n### Les réactifs et les produits\n\n- **Réactifs** : les substances qui disparaissent (carbone, fer, dioxygène)\n- **Produits** : les substances qui apparaissent (dioxyde de carbone, oxyde de fer)\n\n## 2. Propriétés et Méthodes d'application\n\nPour résoudre des exercices sur les combustions, suis cette méthode pas à pas :\n\n1. **Identifier les réactifs et les produits** à partir de l'énoncé.\n2. **Écrire l'équation de réaction** avec les formules chimiques.\n3. **Équilibrer l'équation** : le nombre d'atomes de chaque élément doit être le même des deux côtés.\n4. **Utiliser les masses molaires** si nécessaire pour calculer des quantités.\n\n### Exemple concret 1 : Combustion du carbone\n\nOn brûle 12 g de carbone dans un excès de dioxygène. Quelle masse de dioxyde de carbone se forme ?\n\n- Masse molaire : $M(C) = 12\\,g/mol$, $M(CO_2) = 44\\,g/mol$\n- Équation : $C + O_2 \\rightarrow CO_2$\n- Quantité de carbone : $n(C) = \\frac{m}{M} = \\frac{12}{12} = 1\\,mol$\n- D'après l'équation, 1 mol de C donne 1 mol de $CO_2$.\n- Masse de $CO_2$ : $m = n \\times M = 1 \\times 44 = 44\\,g$\n\n### Exemple concret 2 : Combustion du fer\n\nOn brûle 16,8 g de fer. Quelle quantité de dioxygène est nécessaire ?\n\n- Masse molaire : $M(Fe) = 56\\,g/mol$\n- Quantité de fer : $n(Fe) = \\frac{16.8}{56} = 0.3\\,mol$\n- Équation : $3Fe + 2O_2 \\rightarrow Fe_3O_4$\n- D'après l'équation, 3 mol de Fe réagissent avec 2 mol de $O_2$, donc 0.3 mol de Fe réagit avec $\\frac{2}{3} \\times 0.3 = 0.2\\,mol$ de $O_2$.\n- Volume de dioxygène (si conditions normales) : $V = n \\times 22.4 = 0.2 \\times 22.4 = 4.48\\,L$\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Oublier d'équilibrer** : Une équation non équilibrée est fausse. Vérifie toujours le nombre d'atomes.\n- **Confondre produit et réactif** : Dans la combustion du carbone, le dioxyde de carbone est un produit, pas un réactif.\n- **Utiliser la mauvaise formule** : Pour le fer, le produit est $Fe_3O_4$ et non $Fe_2O_3$ (qui est la rouille ordinaire).\n- **Ne pas convertir les masses en moles** : Les calculs de quantités nécessitent d'utiliser les moles.\n- **Ignorer les conditions de la réaction** : La combustion complète du carbone donne $CO_2$, mais une combustion incomplète donne $CO$ (monoxyde de carbone), qui est toxique.\n\n## Synthèse\n\n1. **Combustion du carbone** : $C + O_2 \\rightarrow CO_2$ (produit : dioxyde de carbone).\n2. **Combustion du fer** : $3Fe + 2O_2 \\rightarrow Fe_3O_4$ (produit : oxyde de fer).\n3. **Équilibrer les équations** est essentiel pour respecter la conservation de la masse.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "combustion",
+    "carbone",
+    "fer",
+    "dioxygène",
+    "équation chimique"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quels sont les produits de la combustion complète du carbone dans le dioxygène ?",
+      "options": [
+        "Dioxyde de carbone",
+        "Monoxyde de carbone",
+        "Carbone et oxygène",
+        "Oxyde de carbone"
+      ],
+      "answer": 0,
+      "explanation": "La combustion complète du carbone produit du dioxyde de carbone (CO2)."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle est l'équation équilibrée de la combustion du fer ?",
+      "options": [
+        "Fe + O2 → FeO",
+        "3Fe + 2O2 → Fe3O4",
+        "2Fe + O2 → 2FeO",
+        "Fe + O2 → Fe2O3"
+      ],
+      "answer": 1,
+      "explanation": "L'équation correcte est 3Fe + 2O2 → Fe3O4."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "La combustion est une réaction chimique qui libère de l'énergie.",
+      "answer": true,
+      "explanation": "Les combustions sont exothermiques, elles libèrent de la chaleur et souvent de la lumière."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Dans la combustion du carbone, le dioxygène est le ______.",
+      "answer": "comburant",
+      "explanation": "Le dioxygène est l'oxydant (comburant) dans une combustion."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "prompt": "Si on brûle 24 g de carbone (M(C)=12 g/mol), quelle masse de CO2 (M=44 g/mol) se forme ? (en g)",
+      "answer": "88",
+      "explanation": "Quantité de C : 24/12 = 2 mol, donc 2 mol de CO2, masse = 2*44 = 88 g."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "La rouille du fer est une combustion lente.",
+      "answer": true,
+      "explanation": "La rouille est une oxydation lente du fer par le dioxygène, c'est une forme de combustion."
+    }
+  ]
+}

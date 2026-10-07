@@ -1,0 +1,219 @@
+{
+  "id": "info-sixieme-cours-d-informatique-chap-2-informatique-et",
+  "subjectId": "info",
+  "levelId": "sixieme",
+  "slug": "cours-d-informatique-chap-2-informatique-et",
+  "title": "Convergence des TIC : architecture informatique et bases des réseaux",
+  "summary": "Ce cours présente aux élèves de 6ᵉ la structure d’un ordinateur, les notions fondamentales des réseaux (débit, latence, topologies) et les différences entre Wi‑Fi, Internet et le Web, afin de comprendre comment l’information est codée, traitée et transportée.",
+  "lesson": "## Objectifs\n- **Objectif général** : Comprendre l’architecture d’un système informatique et les principes des systèmes de communication.\n- **Objectifs spécifiques**\n  - Identifier les composants d’un ordinateur.\n  - Expliquer les différences entre les systèmes de communication de base.\n  - Distinguer débit et latence et illustrer leur impact.\n\n## Contenu du cours\n1. **Mise en route – activer les idées**\n   - Le Wi‑Fi, c’est Internet ? → différences entre Wi‑Fi, Internet et le Web.\n2. **L’information numérique : du bit au fichier**\n   - Bit, octet, unités (kB, KiB, MB, MiB…).\n   - Codage texte : ASCII vs UTF‑8.\n   - Mini‑exercices de conversion binaire‑décimal.\n3. **À l’intérieur d’un ordinateur**\n   - Processeur, mémoire vive, stockage, carte mère, alimentation, périphériques.\n4. **Les bases des réseaux & d’Internet**\n   - Types de signaux (analogique vs numérique).\n   - Supports (câble cuivre, fibre, ondes radio).\n   - Sens d’échange (unidirectionnel, bidirectionnel).\n   - Synchronisme, topologie (bus, étoile, maillage), mode de connexion (point‑à‑point, broadcast).\n5. **Qualité d’une connexion : débit vs latence**\n   - Définition du débit (bits/s) et de la latence (ms).\n   - Exemple d’impact : streaming vidéo vs jeu en ligne.\n6. **Naviguer en sécurité**\n   - Bonnes pratiques (HTTPS, mots de passe, mises à jour).\n\n## Exemple d’impact débit/latence\n- **Débit élevé, latence élevée** : téléchargement rapide d’un fichier volumineux, mais retard perceptible lors d’un appel vidéo.\n- **Débit faible, latence faible** : navigation web basique sans retard notable, mais transfert de gros fichiers lent.\n\n## Glossaire rapide\n- **Wi‑Fi** : technologie radio locale permettant l’accès à un réseau local.\n- **Internet** : réseau mondial d’interconnexions.\n- **Web** : ensemble de services (HTTP) accessibles via Internet.\n- **Topologie** : façon dont les nœuds d’un réseau sont reliés.\n\n---\n*Durée estimée : 10 minutes*",
+  "estimatedMinutes": 10,
+  "tags": [
+    "info",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le plus petit unité d’information numérique ?",
+      "options": [
+        "Octet",
+        "Byte",
+        "Bit",
+        "Nibble"
+      ],
+      "answer": 2,
+      "explanation": "Le bit (0 ou 1) est la plus petite unité d’information."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Combien de bits compose un octet ?",
+      "options": [
+        "4",
+        "8",
+        "16",
+        "32"
+      ],
+      "answer": 1,
+      "explanation": "Un octet regroupe 8 bits."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Le Wi‑Fi est synonyme d’Internet.",
+      "answer": false,
+      "explanation": "Le Wi‑Fi est une technologie d’accès local, il permet d’accéder à un réseau qui peut ou non être connecté à Internet."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "En UTF‑8, le caractère « é » occupe __ octets.",
+      "answer": "2",
+      "explanation": "Dans UTF‑8, les caractères accentués comme « é » sont codés sur 2 octets."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel composant exécute les instructions d’un programme ?",
+      "options": [
+        "RAM",
+        "CPU",
+        "GPU",
+        "SSD"
+      ],
+      "answer": 1,
+      "explanation": "Le CPU (processeur) exécute les instructions."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel support de transmission est le plus rapide en débit brut ?",
+      "options": [
+        "Câble coaxial",
+        "Fibre optique",
+        "Wi‑Fi 2.4 GHz",
+        "Bluetooth"
+      ],
+      "answer": 1,
+      "explanation": "La fibre optique offre les débits les plus élevés parmi les options listées."
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "La latence se mesure en bits par seconde (bps).",
+      "answer": false,
+      "explanation": "La latence se mesure en temps (millisecondes)."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Le mode de diffusion où un émetteur envoie simultanément à tous les récepteurs s’appelle le mode __.",
+      "answer": "broadcast",
+      "explanation": "Le broadcast diffuse le même signal à tous les nœuds du réseau."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Dans une topologie en étoile, quel élément central assure la communication ?",
+      "options": [
+        "Hub",
+        "Switch",
+        "Routeur",
+        "Modem"
+      ],
+      "answer": 1,
+      "explanation": "Un switch (ou hub) connecte tous les nœuds dans une topologie en étoile."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Un débit de 10 Mbps garantit une latence inférieure à 10 ms.",
+      "answer": false,
+      "explanation": "Débit et latence sont indépendants ; un haut débit ne garantit pas une faible latence."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quelle unité représente approximativement 1 000 octets dans le marketing ?",
+      "options": [
+        "KiB",
+        "MiB",
+        "kB",
+        "GiB"
+      ],
+      "answer": 2,
+      "explanation": "kB (kilobyte) est souvent utilisé comme 1 000 octets dans le marketing."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Le protocole sécurisé pour la navigation web s’appelle __.",
+      "answer": "HTTPS",
+      "explanation": "HTTPS (HyperText Transfer Protocol Secure) chiffre les échanges."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel type de signal est utilisé par la fibre optique ?",
+      "options": [
+        "Électrique",
+        "Optique",
+        "Radio",
+        "Magnétique"
+      ],
+      "answer": 1,
+      "explanation": "La fibre optique transmet la lumière, donc un signal optique."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Le mode point‑à‑point implique toujours deux appareils uniquement.",
+      "answer": true,
+      "explanation": "En point‑à‑point, la communication se fait directement entre deux nœuds."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel composant stocke de façon permanente les données même sans alimentation ?",
+      "options": [
+        "RAM",
+        "CPU",
+        "SSD",
+        "Cache"
+      ],
+      "answer": 2,
+      "explanation": "Le SSD (Solid State Drive) conserve les données sans énergie."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Convertir le nombre binaire 1011₂ en décimal donne __.",
+      "answer": "11",
+      "explanation": "1011₂ = 1·2³+0·2²+1·2¹+1·2⁰ = 8+0+2+1 = 11."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quel facteur influence le plus la fluidité d’un jeu en ligne ?",
+      "options": [
+        "Débit élevé",
+        "Latence faible",
+        "Capacité du disque dur",
+        "Taille de l’écran"
+      ],
+      "answer": 1,
+      "explanation": "Une latence faible réduit le délai entre l’action du joueur et la réponse du serveur."
+    },
+    {
+      "id": "q18",
+      "type": "truefalse",
+      "prompt": "Le Web et Internet désignent exactement la même chose.",
+      "answer": false,
+      "explanation": "Internet est l’infrastructure réseau globale, le Web est un service (HTTP) qui fonctionne sur Internet."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Quel terme décrit la direction du flux d’information dans un réseau ?",
+      "options": [
+        "Synchronisme",
+        "Sens d’échange",
+        "Topologie",
+        "Mode de diffusion"
+      ],
+      "answer": 1,
+      "explanation": "Le sens d’échange indique si le flux est unidirectionnel ou bidirectionnel."
+    },
+    {
+      "id": "q20",
+      "type": "fill",
+      "prompt": "Le composant qui alimente l’ordinateur s’appelle le __.",
+      "answer": "alimentation",
+      "explanation": "L’alimentation fournit l’énergie électrique à tous les composants."
+    }
+  ]
+}

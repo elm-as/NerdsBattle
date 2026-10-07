@@ -1,0 +1,98 @@
+{
+  "id": "maths-cinquieme-rectangle-losange-carre",
+  "subjectId": "maths",
+  "levelId": "cinquieme",
+  "slug": "rectangle-losange-carre",
+  "title": "Rectangle, Losange et Carré : Définitions et Reconnaissances",
+  "summary": "Cette leçon de mathématiques de classe de 5ème détaille les propriétés géométriques du rectangle, du losange et du carré. Elle couvre les définitions, les axes et centres de symétrie, ainsi que les critères spécifiques pour reconnaître chaque quadrilatère particulier, en s'appuyant sur les propriétés des diagonales et des côtés.",
+  "lesson": "# Rectangle, Losange et Carré\n\n## I. Le Rectangle\n\n### a) Définitions et propriétés\n**Définition** : Un rectangle est un quadrilatère dont les quatre angles sont droits.\n\nLe rectangle est un parallélogramme particulier. Il possède donc toutes les propriétés du parallélogramme :\n*   Les diagonales ont le même milieu.\n*   Les côtés opposés sont parallèles.\n*   Les côtés opposés sont de même longueur.\n\n**Propriétés spécifiques au rectangle** :\n1.  **Symétrie** :\n    *   Deux axes de symétrie : les médiatrices de ses côtés.\n    *   Un centre de symétrie : le point d'intersection des diagonales.\n2.  **Diagonales** : Les diagonales d'un rectangle ont la même longueur.\n\n### b) Reconnaître un rectangle\nPour prouver qu'un quadrilatère est un rectangle, on peut utiliser l'une des propriétés suivantes :\n*   Si un quadrilatère a **trois angles droits**, alors c'est un rectangle.\n*   Si un parallélogramme possède **un angle droit**, alors c'est un rectangle.\n*   Si un parallélogramme possède des **diagonales de même longueur**, alors c'est un rectangle.\n\n---\n\n## II. Le Losange\n\n### a) Définitions et propriétés\n**Définition** : Un losange est un quadrilatère dont les quatre côtés ont la même longueur.\n\nLe losange est un parallélogramme particulier.\n\n**Propriétés spécifiques au losange** :\n1.  **Symétrie** :\n    *   Deux axes de symétrie : ses diagonales.\n    *   Un centre de symétrie : le point d'intersection des diagonales.\n2.  **Diagonales** : Les diagonales d'un losange sont **perpendiculaires**.\n\n### b) Reconnaître un losange\nPour prouver qu'un quadrilatère est un losange, on peut utiliser l'une des propriétés suivantes :\n*   Si un parallélogramme a **deux côtés consécutifs de même longueur**, alors c'est un losange.\n*   Si un parallélogramme a **deux diagonales perpendiculaires**, alors c'est un losange.\n\n---\n\n## III. Le Carré\n\n### a) Définitions et propriétés\n**Définition** : Un carré est un quadrilatère qui a quatre angles droits et quatre côtés de même longueur.\n\nLe carré est un parallélogramme particulier. Il est à la fois un rectangle et un losange. Il possède donc toutes les propriétés de ces deux figures.\n\n**Propriétés spécifiques au carré** :\n1.  **Symétrie** :\n    *   Quatre axes de symétrie : ses diagonales et les médiatrices de ses côtés.\n    *   Un centre de symétrie : le point d'intersection des diagonales.\n2.  **Diagonales** : Les diagonales sont perpendiculaires, de même longueur et se coupent en leur milieu.\n\n### b) Reconnaître un carré\nPour montrer qu'un quadrilatère est un carré, il faut montrer qu'il est à la fois un **losange** et un **rectangle**.\n\n**Exemple de raisonnement** :\nSi les diagonales d'un quadrilatère se coupent en leur milieu (parallélogramme), sont perpendiculaires (losange) et sont de même longueur (rectangle), alors le quadrilatère est un carré.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "cinquieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la définition d'un rectangle ?",
+      "options": [
+        "Un quadrilatère à quatre côtés égaux",
+        "Un quadrilatère dont les quatre angles sont droits",
+        "Un quadrilatère dont les diagonales sont perpendiculaires",
+        "Un quadrilatère à trois angles droits"
+      ],
+      "answer": 1,
+      "explanation": "Un rectangle est défini comme un quadrilatère dont les quatre angles sont droits."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Un rectangle possède deux axes de symétrie qui sont les __________ de ses côtés.",
+      "answer": "médiatrices",
+      "explanation": "Les axes de symétrie d'un rectangle sont les médiatrices de ses côtés."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Comment reconnaître un rectangle à partir d'un parallélogramme ?",
+      "options": [
+        "S'il a deux côtés consécutifs égaux",
+        "S'il a un angle droit",
+        "S'il a des diagonales perpendiculaires",
+        "S'il a quatre côtés égaux"
+      ],
+      "answer": 1,
+      "explanation": "Si un parallélogramme possède un angle droit, alors c'est un rectangle."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle est la définition d'un losange ?",
+      "options": [
+        "Un quadrilatère à quatre angles droits",
+        "Un quadrilatère dont les diagonales sont de même longueur",
+        "Un quadrilatère dont les quatre côtés ont la même longueur",
+        "Un quadrilatère à trois angles droits"
+      ],
+      "answer": 2,
+      "explanation": "Un losange est un quadrilatère dont les quatre côtés ont la même longueur."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Les diagonales d'un losange sont __________.",
+      "answer": "perpendiculaires",
+      "explanation": "Une propriété fondamentale du losange est que ses diagonales sont perpendiculaires."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quels sont les axes de symétrie d'un losange ?",
+      "options": [
+        "Les médiatrices de ses côtés",
+        "Ses diagonales",
+        "Les droites passant par les sommets et le centre",
+        "Il n'a pas d'axes de symétrie"
+      ],
+      "answer": 1,
+      "explanation": "Un losange a deux axes de symétrie : ses diagonales."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Comment reconnaître un losange à partir d'un parallélogramme ?",
+      "options": [
+        "S'il a un angle droit",
+        "S'il a des diagonales de même longueur",
+        "S'il a deux côtés consécutifs de même longueur",
+        "S'il a trois angles droits"
+      ],
+      "answer": 2,
+      "explanation": "Si un parallélogramme a deux côtés consécutifs de même longueur, alors c'est un losange."
+    }
+  ]
+}

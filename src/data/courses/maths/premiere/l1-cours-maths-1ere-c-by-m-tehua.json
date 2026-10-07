@@ -1,0 +1,160 @@
+{
+  "id": "maths-premiere-l1-cours-maths-1ere-c-by-m-tehua",
+  "subjectId": "maths",
+  "levelId": "premiere",
+  "slug": "l1-cours-maths-1ere-c-by-m-tehua",
+  "title": "Présentation du projet Grandprofs de maths – 2ᵉ édition (MENA CI)",
+  "summary": "Ce texte décrit le projet Grandprofs de maths (GPM), né du groupe WhatsApp « Grandprofs de maths » le 12‑05‑2017. Il détaille la deuxième édition, les 13 ateliers, les administrateurs, les chefs d’ateliers, la structure du recueil (164 chapitres, conformité au nouveau programme) et les modalités d’utilisation et de contact.",
+  "lesson": "# Présentation du projet Grandprofs de maths – 2ᵉ édition\n\n## Contexte et origine\n- Le groupe **WhatsApp « Grandprofs de maths »** a été créé le **12‑05‑2017**.\n- Son objectif principal : produire des documents d’appui pour les enseignants du secondaire, en conformité avec le nouveau programme MENA Côte d’Ivoire.\n\n## Historique de la 2ᵉ édition\n- **Deuxième édition** après trois mois de travail intensif.\n- Réalisée par **13 ateliers** (sous‑groupes) coordonnés par les administrateurs.\n- Contient **164 chapitres** couvrant l’ensemble du programme de première (et du cycle 6ᵉ).\n\n## Équipe dirigeante\n| Rôle | Nom | Contact |\n|------|-----|---------|\n| Administrateurs | M. Guela Kamdem Pierre, M. Pouokam Léopold Lucien, M. Tachago Wabo Wilfried Anderson, M. Ntakendo Emmanuel | Voir texte |\n| Fondateur | M. Ntakendo Emmanuel | – |\n| Chefs d’ateliers | M. Siyapdje Henri (6ᵉ), M. Joseph Fogang (5ᵉ), M. Ngongang Nivel (4ᵉ), M. Jidas Tchouan (3ᵉ), M. Simplice Dongmo (2nde A4), M. Guela Kamdem Pierre (2nde C), M. Tachago Wabo Wilfried Anderson (1ère A4), Nguefo Takongmo (1ère C), M. Jidas Tchouan (1ère D‑TI), M. Bayiha André Ghislain (Tle A4), M. Ouafeu Tokam Guy Paulin (Tle C), M. Nganmeni Konguep Hervé Battiston (Tle D‑TI) | – |\n\n## Structure du recueil\n- **Table des matières** : 15 parties (Polynômes, Équations, Géométrie analytique, Barycentres, Espaces vectoriels, Applications linéaires, Fonctions, Applications, Limites, Dérivations, Représentation graphique, Dénombrements, Trigonométrie, Nombres complexes, Transformations du plan).\n- Chaque partie indique l’auteur, l’établissement et le numéro de téléphone.\n- Conformité à l’**APC** (Analyse, Problèmes, Constructions) pour les classes de 6ᵉ à la première.\n\n## Usage et droits\n- Destiné **exclusivement aux enseignants** ; ne remplace pas les manuels officiels.\n- **Interdiction** de toute utilisation lucrative.\n- Ouvert aux suggestions et corrections.\n\n## Participation future\n- Appel aux enseignants souhaitant rejoindre le groupe ou la **3ᵉ édition (mai 2020)**.\n- Contacts des administrateurs :\n  - M. Guela Kamdem Pierre : 697 473 953 / 678 009 612\n  - M. Pouokam Léopold Lucien : 696 090 236 / 651 993 749\n  - M. Tachago Wabo Wilfried Anderson : 699 494 671\n  - M. Ntakendo Emmanuel : 676 519 464\n\n---\n*Ce cours synthétise les informations essentielles du document officiel MENA CI (maths/première) afin de familiariser les inspecteurs pédagogiques avec le projet Grandprofs de maths.*",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "premiere",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est la date de création du groupe WhatsApp « Grandprofs de maths » ?",
+      "options": [
+        "12‑05‑2016",
+        "12‑05‑2017",
+        "01‑01‑2018",
+        "15‑03‑2017"
+      ],
+      "answer": 1,
+      "explanation": "Le groupe a été créé le 12‑05‑2017."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La deuxième édition du projet comprend 13 ateliers.",
+      "answer": true,
+      "explanation": "Le texte indique explicitement 13 ateliers."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Combien de chapitres le projet compte‑t‑il au total ?",
+      "answer": "164",
+      "explanation": "Le texte mentionne « au moins l’un des 164 chapitres du projet »."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel administrateur n’est PAS listé parmi les quatre principaux ?",
+      "options": [
+        "M. Guela Kamdem Pierre",
+        "M. Pouokam Léopold Lucien",
+        "M. Tachago Wabo Wilfried Anderson",
+        "M. Ngoua Bamba"
+      ],
+      "answer": 3,
+      "explanation": "M. Ngoua Bamba n’apparaît pas dans la liste."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Le recueil peut être utilisé à des fins lucratives.",
+      "answer": false,
+      "explanation": "Le texte précise que toute utilisation à but lucratif est proscrite."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel atelier est responsable de la partie « Espaces vectoriels réels » ?",
+      "options": [
+        "Nguefo Takongmo Amour",
+        "Awono Messie Thierry Nathanael",
+        "Kounga Tagne Guy",
+        "Sayou Lynda epse koloupe"
+      ],
+      "answer": 0,
+      "explanation": "Nguefo Takongmo Amour est indiqué comme auteur de la partie 5."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Quel est le numéro de téléphone de M. Guela Kamdem Pierre (administrateur) ?",
+      "answer": "697473953",
+      "explanation": "Le texte donne 697 473 953 comme premier numéro."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel sujet apparaît en page 92‑104 ?",
+      "options": [
+        "Dérivations",
+        "Limites et continuité",
+        "Applications linéaires",
+        "Trigonométrie"
+      ],
+      "answer": 0,
+      "explanation": "La partie 10, Dérivations, couvre les pages 92‑104."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Le fondateur du groupe est M. Ntakendo Emmanuel.",
+      "answer": true,
+      "explanation": "Le texte le désigne explicitement comme fondateur."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Quel est le nom complet de l’auteur de la partie « Nombres complexes » ?",
+      "answer": "Pouokam Léopold Lucien",
+      "explanation": "La partie 14 indique cet auteur."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel établissement est associé à M. Tchio Serge ?",
+      "options": [
+        "Lycée bilingue de Bokito",
+        "Lycée moderne de Nkozoa",
+        "Lycée Technique d'Edéa",
+        "Lycée Classique d'Edéa"
+      ],
+      "answer": 0,
+      "explanation": "M. Tchio Serge est rattaché au Lycée bilingue de Bokito."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "La 3ᵉ édition du projet était prévue pour mai 2020.",
+      "answer": true,
+      "explanation": "Le texte indique que la 3ᵉ édition débutera en mai 2020."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel chapitre traite des « Barycentres‑lignes de niveau » ?",
+      "options": [
+        "Chapitre 4",
+        "Chapitre 5",
+        "Chapitre 6",
+        "Chapitre 7"
+      ],
+      "answer": 0,
+      "explanation": "La table des matières place les Barycentres‑lignes de niveau au chapitre 4."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Quel est le numéro de téléphone de M. Pouokam Léopold Lucien (administrateur) ?",
+      "answer": "696090236",
+      "explanation": "Le texte donne 696 090 236 comme premier numéro."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Tous les enseignants souhaitant rejoindre le groupe doivent écrire à l’un des administrateurs listés.",
+      "answer": true,
+      "explanation": "Le texte invite les enseignants à écrire à l’un des administrateurs."
+    }
+  ]
+}

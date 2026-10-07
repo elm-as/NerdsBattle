@@ -1,0 +1,18 @@
+node_modules
+dist
+dev-dist
+.DS_Store
+*.log
+.env
+.env.local
+.env.*.local
+.env.production
+
+# Local Netlify folder
+.netlify
+
+# Local uploads & large scraping / SQL dumps (3.6+ GB)
+.uploads
+docs/fomesoutra_courses/
+docs/*.sql
+docs/sql/

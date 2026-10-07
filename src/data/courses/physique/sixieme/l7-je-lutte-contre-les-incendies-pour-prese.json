@@ -1,0 +1,219 @@
+{
+  "id": "physique-sixieme-l7-je-lutte-contre-les-incendies-pour-prese",
+  "subjectId": "physique",
+  "levelId": "sixieme",
+  "slug": "l7-je-lutte-contre-les-incendies-pour-prese",
+  "title": "Combustion et lutte contre les incendies",
+  "summary": "Découvre les secrets de la combustion : flamme bleue ou jaune, produits dangereux et comment éteindre un feu. Apprends à protéger ta vie et l'environnement.",
+  "lesson": "## Introduction\n\nLa combustion est une transformation chimique qui dégage de la chaleur et de la lumière. Elle peut être complète ou incomplète, produire des gaz toxiques et provoquer des incendies. Dans cette leçon, tu apprendras à distinguer ces deux types de combustion, à identifier les produits formés, à reconnaître les dangers et à lutter contre les incendies.\n\n## 1. Définitions et notions clés\n\n### Combustion complète et incomplète\n- **Combustion complète** : elle se produit lorsqu'il y a suffisamment d'air (dioxygène). La flamme est **bleue**, peu éclairante.\n- **Combustion incomplète** : elle se produit lorsqu'il y a un manque d'air. La flamme est **jaune orangée**, plus éclairante, et laisse un dépôt noir de carbone.\n\n### Produits de la combustion\nLes produits de la combustion sont :\n- **le carbone** (dépôt noir),\n- **le gaz carbonique** (CO₂), incolore, inodore et peu dangereux,\n- **la vapeur d'eau** (gouttelettes d'eau).\n\nDe plus, il peut se former du **monoxyde de carbone** (CO), gaz incolore, inodore et très toxique.\n\n### Mise en évidence\n- **Gaz carbonique** : l'eau de chaux se trouble en sa présence.\n- **Vapeur d'eau** : buée sur une paroi froide.\n- **Carbone** : dépôt noir sur une soucoupe.\n\n### Dangers de la combustion\n- **Intoxication** par les gaz toxiques (CO, dioxyde de soufre, dioxyde d'azote).\n- **Asphyxie** pouvant entraîner la mort.\n- **Pollution de l'environnement**.\n- **Incendies** : feux de brousse, de champs, de maisons.\n- **Explosions** et inflammation des corps portant les pictogrammes O (comburant), F (inflammable), E (explosif).\n\n### Triangle du feu\nPour qu'une combustion se produise, il faut réunir trois éléments :\n- un **combustible** (ce qui brûle),\n- un **comburant** (le dioxygène de l'air),\n- une **source de chaleur** (étincelle, flamme, etc.).\n\nPour arrêter une combustion, il suffit de supprimer l'un de ces trois éléments.\n\n### Règles de sécurité\n- Ne pas faire de feu dans un local fermé.\n- Ne pas faire de feu à côté des corps portant les pictogrammes O, F ou E.\n- Éteindre un feu après utilisation.\n\n## 2. Applications et méthodes\n\n### Distinguer une combustion complète et incomplète\n- **Expérience** : on fait brûler une bougie et un labogaz bien réglé.\n- **Observation** :\n  - Labogaz : flamme bleue, petite, peu éclairante → combustion complète (suffisamment de dioxygène).\n  - Bougie : flamme jaune orangée, grande, plus éclairante → combustion incomplète (insuffisance de dioxygène).\n\n### Identifier les produits de la combustion\n- **Test du gaz carbonique** : on recueille le gaz dans un verre, puis on ajoute de l'eau de chaux. Si elle se trouble, le gaz carbonique est présent.\n- **Test de la vapeur d'eau** : on souffle dans un verre froid, de la buée se forme sur les parois.\n- **Test du carbone** : on approche une soucoupe froide de la flamme, un dépôt noir apparaît.\n\n### Lutter contre un incendie\n- **Supprimer le combustible** : étouffer le feu avec du sable, une couverture.\n- **Supprimer le comburant** : couvrir le feu pour empêcher l'air d'arriver.\n- **Supprimer la chaleur** : utiliser un extincteur, de l'eau.\n\n### Résoudre une situation problème\n- **Situation** : Une épaisse fumée s'échappe de la maison de ton voisin. Tu le trouves couché, respirant difficilement.\n- **Solution** : Transporter le voisin dehors pour qu'il respire de l'air frais. Étouffer le feu avec du sable pour séparer le combustible du comburant.\n\n## 3. Pièges fréquents\n\n- **Confondre combustion complète et incomplète** : la couleur de la flamme est un indice (bleue = complète, jaune orangée = incomplète).\n- **Oublier le monoxyde de carbone** : il est incolore et inodore, donc très dangereux car indétectable.\n- **Penser que l'eau de chaux se trouble avec tous les gaz** : elle ne se trouble qu'avec le gaz carbonique.\n- **Croire qu'il faut les trois éléments du triangle du feu pour l'arrêter** : il suffit d'en supprimer un seul.\n- **Négliger les pictogrammes** : les corps marqués O, F ou E peuvent exploser ou s'enflammer au contact de la chaleur.\n\n## Synthèse\n\nLa combustion est une réaction chimique qui peut être complète (flamme bleue) ou incomplète (flamme jaune orangée). Elle produit du carbone, du gaz carbonique et de la vapeur d'eau, mais aussi des gaz toxiques comme le monoxyde de carbone. Pour lutter contre un incendie, on supprime l'un des éléments du triangle du feu : combustible, comburant ou source de chaleur. Il est essentiel de respecter les règles de sécurité pour préserver l'environnement et sauver des vies.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la couleur de la flamme lors d'une combustion complète ?",
+      "options": [
+        "Jaune orangée",
+        "Bleue",
+        "Verte",
+        "Rouge"
+      ],
+      "answer": 1,
+      "explanation": "La combustion complète se produit avec suffisamment d'air et donne une flamme bleue."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quand une combustion est-elle incomplète ?",
+      "options": [
+        "Quand il y a trop d'air",
+        "Quand il y a un manque d'air",
+        "Quand la flamme est bleue",
+        "Quand il n'y a pas de flamme"
+      ],
+      "answer": 1,
+      "explanation": "La combustion incomplète se produit lorsqu'il y a un manque d'air (dioxygène)."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Le gaz carbonique est un gaz incolore, inodore et peu dangereux.",
+      "answer": true,
+      "explanation": "D'après le document, le gaz carbonique est incolore, inodore et peu dangereux."
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "Le monoxyde de carbone est un gaz coloré et sans danger.",
+      "answer": false,
+      "explanation": "Le monoxyde de carbone est incolore, inodore et très toxique."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "prompt": "Les produits de la combustion sont : le carbone, le gaz carbonique et la ______ d'eau.",
+      "answer": "vapeur",
+      "explanation": "La combustion produit de la vapeur d'eau."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel test permet de mettre en évidence le gaz carbonique ?",
+      "options": [
+        "L'eau de chaux",
+        "Le papier pH",
+        "L'eau salée",
+        "Le sulfate de cuivre"
+      ],
+      "answer": 0,
+      "explanation": "L'eau de chaux se trouble en présence de gaz carbonique."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quels sont les trois éléments du triangle du feu ?",
+      "options": [
+        "Combustible, comburant, chaleur",
+        "Eau, air, terre",
+        "Flamme, fumée, cendre",
+        "Oxygène, azote, carbone"
+      ],
+      "answer": 0,
+      "explanation": "Le triangle du feu est constitué d'un combustible, d'un comburant et d'une source de chaleur."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Pour arrêter une combustion, il faut supprimer les trois éléments du triangle du feu.",
+      "answer": false,
+      "explanation": "Il suffit de supprimer l'un des trois éléments du triangle du feu."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "La combustion incomplète produit un dépôt noir de ______.",
+      "answer": "carbone",
+      "explanation": "La combustion incomplète laisse un dépôt noir de carbone."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel gaz toxique se forme pendant la combustion ?",
+      "options": [
+        "Le dioxygène",
+        "Le monoxyde de carbone",
+        "L'azote",
+        "L'hélium"
+      ],
+      "answer": 1,
+      "explanation": "Le monoxyde de carbone est un gaz incolore, inodore et très toxique."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Que faut-il faire si on trouve une personne intoxiquée par la fumée ?",
+      "options": [
+        "La laisser sur place",
+        "La transporter dehors pour qu'elle respire",
+        "Fermer les fenêtres",
+        "Allumer un ventilateur"
+      ],
+      "answer": 1,
+      "explanation": "Il faut transporter la personne dehors pour qu'elle puisse bien respirer."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Il est conseillé de faire du feu dans un local fermé.",
+      "answer": false,
+      "explanation": "Il ne faut pas faire de feu dans un local fermé car les gaz toxiques s'accumulent."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Le triangle du feu est composé d'un combustible, d'un comburant et d'une source de ______.",
+      "answer": "chaleur",
+      "explanation": "La source de chaleur est l'un des trois éléments du triangle du feu."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel est le pictogramme qui indique un corps explosif ?",
+      "options": [
+        "O",
+        "F",
+        "E",
+        "T"
+      ],
+      "answer": 2,
+      "explanation": "Le pictogramme E indique un corps explosif."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Comment peut-on étouffer un feu ?",
+      "options": [
+        "Avec de l'essence",
+        "Avec du sable",
+        "Avec de l'alcool",
+        "Avec du papier"
+      ],
+      "answer": 1,
+      "explanation": "On peut étouffer le feu avec du sable pour séparer le combustible du comburant."
+    },
+    {
+      "id": "q16",
+      "type": "truefalse",
+      "prompt": "La combustion de matières plastiques produit des gaz toxiques comme le dioxyde de soufre.",
+      "answer": true,
+      "explanation": "La combustion de certains corps (matière plastique, soufre...) produit des gaz toxiques tels que le dioxyde de soufre et le dioxyde d'azote."
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "prompt": "Lors de la combustion incomplète, la flamme est de couleur ______ orangée.",
+      "answer": "jaune",
+      "explanation": "La flamme d'une combustion incomplète est jaune orangée."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Quel est le test qui met en évidence la vapeur d'eau ?",
+      "options": [
+        "L'eau de chaux",
+        "La buée sur une paroi froide",
+        "Le dépôt noir",
+        "L'odeur"
+      ],
+      "answer": 1,
+      "explanation": "La vapeur d'eau se met en évidence par la formation de buée sur une paroi froide."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Quel danger peut entraîner la combustion ?",
+      "options": [
+        "La pollution de l'environnement",
+        "La production d'oxygène",
+        "Le refroidissement",
+        "La purification de l'air"
+      ],
+      "answer": 0,
+      "explanation": "La combustion produit des gaz toxiques qui polluent l'environnement."
+    },
+    {
+      "id": "q20",
+      "type": "truefalse",
+      "prompt": "Le gaz carbonique trouble l'eau de chaux.",
+      "answer": true,
+      "explanation": "L'eau de chaux se trouble en présence de gaz carbonique."
+    }
+  ]
+}

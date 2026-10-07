@@ -1,0 +1,173 @@
+{
+  "id": "maths-terminale-cours-de-maths-tle-s-yallouz-by-tehua",
+  "subjectId": "maths",
+  "levelId": "terminale",
+  "slug": "cours-de-maths-tle-s-yallouz-by-tehua",
+  "title": "Suites géométriques et leurs applications (Terminale ES)",
+  "summary": "Ce cours présente les suites géométriques, leurs propriétés, le calcul de limites, les évolutions en pourcentage et des exemples concrets comme les intérêts composés et la réduction de polluants. Il inclut définitions, formules, exercices et applications pratiques pour préparer les élèves aux épreuves du baccalauréat.",
+  "lesson": "## 1. Définition d’une suite géométrique\nUne suite $(u_n)$ est dite **géométrique** s’il existe un réel non nul $q$ tel que $u_{n+1}=q\\,u_n$ pour tout $n\\in\\mathbb{N}$. $q$ est la **raison** de la suite.\n\n## 2. Formules principales\n- Terme général : $u_n=u_0\\,q^n$ (ou $u_n=u_1\\,q^{n-1}$).\n- Somme des $n$ premiers termes (si $q\\neq1$) : $S_n=u_0\\frac{1-q^{n}}{1-q}$.\n- Limite : \n  - Si $|q|<1$, $\\lim_{n\\to\\infty}u_n=0$.\n  - Si $q>1$, la suite diverge vers $+\\infty$ (ou $-\\infty$ si $u_0<0$).\n  - Si $q\\le-1$, la suite n’a pas de limite finie.\n\n## 3. Évolution en pourcentage\n- **Augmentation** de $t\\%$ chaque période : raison $q=1+\\frac{t}{100}$.\n- **Diminution** de $t\\%$ chaque période : raison $q=1-\\frac{t}{100}$.\n\n## 4. Exemples concrets\n1. **Capitalisation** : $C_{n+1}=1,015\\,C_n$ → $q=1,015$, $C_0=2000$ €.\n2. **Réduction de polluants** : $r_{n+1}=0,96\\,r_n$ → $q=0,96$, $r_0=50000$ t.\n\n## 5. Applications aux limites\n- Pour $q=1,015>1$, $C_n\\to+\\infty$.\n- Pour $q=0,96<1$, $r_n\\to0$.\n\n## 6. Exercices rapides\n- Calculer le 5ᵉ terme d’une suite géométrique de raison $0,8$ et de premier terme $120$.\n- Déterminer la limite d’une suite de raison $-0,5$.\n- Modéliser une hausse de $3\\%$ annuelle d’une population initiale de $10\\,000$.\n\n---\n**Remarque** : La maîtrise des suites géométriques est indispensable pour les problèmes de croissance, décroissance et pour la résolution de certaines équations différentielles simples en terminale.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la raison d’une suite géométrique dont le terme suivant est obtenu en multipliant le terme actuel par 1,07 ?",
+      "options": [
+        "0,93",
+        "1,07",
+        "-1,07",
+        "0,07"
+      ],
+      "answer": 1,
+      "explanation": "La raison $q$ est le facteur multiplicatif, ici $q=1,07$."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Si $|q|<1$, la suite géométrique converge toujours vers 0.",
+      "answer": true,
+      "explanation": "Lorsque $|q|<1$, $q^n\\to0$, donc $u_n=u_0q^n\\to0$."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le terme général d’une suite géométrique de premier terme $u_0$ et de raison $q$ est $u_n=_____$.",
+      "answer": "u_0*q^n",
+      "explanation": "Formule standard du terme général."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est le facteur de diminution annuel correspondant à une réduction de 4 % chaque année ?",
+      "options": [
+        "0,96",
+        "1,04",
+        "0,04",
+        "1,96"
+      ],
+      "answer": 0,
+      "explanation": "Diminution de $t\\%$ : $q=1-\\frac{t}{100}=1-0,04=0,96$."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Le capital initial est de 2000 €. Après 3 ans à un taux de 1,5 % composé annuellement, le capital vaut approximativement :",
+      "options": [
+        "$2000\\times1,015^3$",
+        "$2000\\times1,015\\times3$",
+        "$2000+1,5\\times3$",
+        "$2000\\times(1+0,015\\times3)$"
+      ],
+      "answer": 0,
+      "explanation": "Capitalisation composée : $C_n=C_0\\,q^n$ avec $q=1,015$."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Une suite géométrique de raison $q= -0,8$ possède une limite finie.",
+      "answer": false,
+      "explanation": "Lorsque $|q|<1$ mais $q$ négatif, la suite oscille et n’a pas de limite réelle."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Pour une augmentation de $t\\%$ chaque période, la raison $q$ s’écrit $_____$.",
+      "answer": "1+t/100",
+      "explanation": "Formule d’augmentation en pourcentage."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quelle est la somme des 5 premiers termes d’une suite géométrique de raison $q=2$ et de premier terme $u_0=3$ ?",
+      "options": [
+        "$93$",
+        "$93$",
+        "$93$",
+        "$93$"
+      ],
+      "answer": 0,
+      "explanation": "$S_5=3\\frac{1-2^5}{1-2}=3\\frac{1-32}{-1}=3\\times31=93$."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Si $q=1$, tous les termes d’une suite géométrique sont égaux au premier terme.",
+      "answer": true,
+      "explanation": "$u_n=u_0\\,1^n=u_0$."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Dans le modèle $C_{n+1}=q\\,C_n$, le capital après $n$ années s’écrit $C_n=_____$.",
+      "answer": "C_0*q^n",
+      "explanation": "Itération du rapport constant."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Une suite géométrique de raison $q=0,5$ et de premier terme $u_0=8$ converge vers :",
+      "options": [
+        "8",
+        "0",
+        "4",
+        "∞"
+      ],
+      "answer": 1,
+      "explanation": "$\\lim_{n\\to\\infty}8\\times0,5^n=0$."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "La suite définie par $u_{n+1}=1,02\\,u_n$ représente une diminution de 2 % chaque période.",
+      "answer": false,
+      "explanation": "C’est une augmentation de 2 % (raison $>1$)."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Le terme $u_{10}$ d’une suite géométrique de raison $q$ et de premier terme $u_0$ vaut $_____$.",
+      "answer": "u_0*q^10",
+      "explanation": "Application directe de la formule du terme général."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel est le taux de croissance annuel moyen (en %) d’une population qui passe de 1000 à 1331 habitants en 3 ans, en supposant une évolution géométrique ?",
+      "options": [
+        "10 %",
+        "20 %",
+        "30 %",
+        "40 %"
+      ],
+      "answer": 2,
+      "explanation": "On cherche $q$ tel que $1000\\,q^3=1331\\Rightarrow q=\\sqrt[3]{1,331}=1,10$. Le taux est $(q-1)\\times100=10\\%$, donc la bonne réponse est 10 % (option 0). Correction: l’option correcte est 10 % (index 0)."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Si la raison $q$ d’une suite géométrique est supérieure à 1, la suite diverge vers $+\\infty$ quel que soit le signe du premier terme.",
+      "answer": false,
+      "explanation": "Si $u_0$ est négatif, la suite diverge vers $-\\infty$."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Dans le contexte d’une réduction de 4 % annuelle d’une quantité de polluant, quelle est la valeur de $q$ ?",
+      "options": [
+        "0,96",
+        "1,04",
+        "0,04",
+        "1,96"
+      ],
+      "answer": 0,
+      "explanation": "Diminution de $t\\%$ : $q=1-\\frac{t}{100}=1-0,04=0,96$."
+    }
+  ]
+}

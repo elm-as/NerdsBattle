@@ -1,0 +1,173 @@
+{
+  "id": "anglais-cinquieme-l2-unite-6-lecon-2-5e",
+  "subjectId": "anglais",
+  "levelId": "cinquieme",
+  "slug": "l2-unite-6-lecon-2-5e",
+  "title": "5ème English Listening: Diet, Health & Advice",
+  "summary": "Students listen to dialogues about diet and health, learn vocabulary (fit, thin, fat, weight, healthy), practice making suggestions with “how about + verb‑ing” and giving advice using should/shouldn’t. Activities include gap‑fills, listening for specific information, and creating health‑related suggestions.",
+  "lesson": "## Objectives\n- Understand spoken English about diet and health.\n- Use vocabulary: fit, thin, fat, weight, healthy, diet, organic, fatty, sugary, salty, spicy.\n- Make suggestions with **how about + verb‑ing**.\n- Give advice using **should / shouldn’t**.\n\n## Vocabulary\n| Word | Meaning |\n|------|---------|\n| keep fit | stay healthy |\n| thin / fat | body size |\n| lose/gain weight | change body weight |\n| healthy diet | balanced nutrition |\n| organic food | food grown without chemicals |\n| fatty, sugary, salty, spicy food | types of unhealthy food |\n\n## Language Functions\n- **Making suggestions**: *How about drinking a glass of lemon juice?* (how about + verb‑ing)\n- **Giving advice**: *You should eat organic food.* / *You shouldn’t eat too much sugary food.*\n\n## Listening Passages\n1. **Passage 1** – Emma wants to lose weight; her sister wants to gain weight.\n2. **Passage 2** – Patient complains of headache and gaining weight; doctor gives advice.\n3. **Passage 3** – Doctor explains treatment for a sick student.\n\n## Activities\n- **Gap‑fill**: Complete sentences with words from the box (healthy, diet, lose, weight, thin, gain).\n- **Transcription**: Write only the patient’s lines from the dialogues.\n- **Table completion**: Classify foods (fatty, salty, spicy, sugary).\n- **Suggestion writing**: Use the given structures to advise on headaches, weight loss, fatigue, etc.\n- **Homework**: Create three “How about …?” suggestions (e.g., *How about practising sport?*).\n\n## Assessment\nStudents are evaluated on listening comprehension, correct use of suggestion and advice structures, and accurate vocabulary recall.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "anglais",
+    "cinquieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Which phrase correctly uses the suggestion structure?",
+      "options": [
+        "How about you eat healthy food?",
+        "How about eating a glass of lemon juice?",
+        "How about you to drink water?",
+        "How about drink water?"
+      ],
+      "answer": 1,
+      "explanation": "The pattern is *how about + verb‑ing*."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "In Passage 1, what does Aya want to do?",
+      "options": [
+        "Gain weight",
+        "Lose weight",
+        "Stay the same weight",
+        "Eat more junk food"
+      ],
+      "answer": 1,
+      "explanation": "Aya wants to lose weight after eating too much junk food."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "\"You should not eat fatty food\" is an example of giving good advice.",
+      "answer": true,
+      "explanation": "It uses *should* to recommend a healthy action."
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "The word \"thin\" means \"to gain weight\".",
+      "answer": false,
+      "explanation": "Thin means having little body fat; the opposite of gaining weight."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "prompt": "Complete: \"You ______ eat too much sugary food.\"",
+      "answer": "shouldn't",
+      "explanation": "Negative advice uses *shouldn't*."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Which food is classified as \"organic\" in the lesson?",
+      "options": [
+        "Canned soup",
+        "Avocado",
+        "Cheese",
+        "Chocolate"
+      ],
+      "answer": 1,
+      "explanation": "Avocado is listed as an organic food example."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "What does the doctor suggest after the patient says he feels bad?",
+      "options": [
+        "Take a rest",
+        "Practice sport",
+        "Change your diet",
+        "All of the above"
+      ],
+      "answer": 3,
+      "explanation": "The doctor recommends rest, diet change, and sport."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "\"How about practising sport\" is a correct suggestion sentence.",
+      "answer": true,
+      "explanation": "It follows the *how about + verb‑ing* pattern."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "In the dialogue, the patient says: \"I am ______ weight.\"",
+      "answer": "gaining",
+      "explanation": "The patient mentions gaining weight."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Which adjective describes someone who is \"too fat\"?",
+      "options": [
+        "thin",
+        "slim",
+        "overweight",
+        "lean"
+      ],
+      "answer": 2,
+      "explanation": "\"Overweight\" matches the description."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "\"You should eat sugary food\" is a recommended action in the lesson.",
+      "answer": false,
+      "explanation": "Sugary food is advised against."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Make a suggestion for a headache: \"How about taking some ______?\"",
+      "answer": "aspirin",
+      "explanation": "Aspirin is the suggested remedy."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Which pair correctly matches the food type with its description?\nA) Fatty food – makes you thin\nB) Salty food – contains much salt\nC) Spicy food – contains no spices\nD) Sugary food – low in sugar",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 1,
+      "explanation": "Salty food contains much salt."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "The phrase \"You should eat organic food\" expresses a bad action.",
+      "answer": false,
+      "explanation": "It expresses a good, recommended action."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Complete the advice: \"You ______ practise sport every day.\"",
+      "answer": "should",
+      "explanation": "Use *should* for a positive recommendation."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "In Session 3, what is the first symptom listed for Dali?",
+      "options": [
+        "He aches all over",
+        "He has a headache",
+        "He feels weak",
+        "He is losing weight"
+      ],
+      "answer": 0,
+      "explanation": "The table starts with \"He aches all over.\""
+    }
+  ]
+}

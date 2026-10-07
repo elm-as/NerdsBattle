@@ -1,0 +1,184 @@
+{
+  "id": "svt-troisieme-l3-la-protection-et-lamelioration-des-sols",
+  "subjectId": "svt",
+  "levelId": "troisieme",
+  "slug": "l3-la-protection-et-lamelioration-des-sols",
+  "title": "Protection et amélioration des sols",
+  "summary": "Découvre comment protéger les sols contre l'érosion et restaurer leur fertilité grâce à des techniques comme le reboisement, la jachère ou l'apport d'engrais. Un enjeu crucial pour une agriculture durable.",
+  "lesson": "## Introduction\n\nLa culture continue sur une même parcelle épuise le sol et fait chuter les rendements. Comment protéger et améliorer les sols pour une agriculture durable ? Ce cours présente les moyens de protection et les techniques d'amélioration des sols.\n\n## 1. Définitions & Notions clés\n\n- **Érosion** : dégradation du sol par l'eau de ruissellement ou le vent.\n- **Jachère** : laisser le sol au repos pour qu'il se reconstitue.\n- **Assolement (rotation des cultures)** : alterner les cultures sur une parcelle pour éviter l'épuisement du sol.\n- **Paillage** : couvrir le sol de pailles pour limiter l'érosion par l'eau.\n- **Terrassement** : aménagement des flancs de montagne pour cultiver sans éroder.\n- **Brise-vent et haie** : obstacles végétaux qui ralentissent le vent et limitent l'érosion éolienne.\n- **Reboisement** : replanter des arbres pour reconstituer le couvert végétal.\n- **Engazonnement** : couvrir le sol d'herbe pour le protéger.\n- **Amendement** : apport d'engrais pour enrichir le sol en éléments minéraux.\n\n## 2. Applications & Méthodes\n\n### Protection des sols\n- **Reboisement, engazonnement, jachère** : reconstituent le couvert végétal et protègent le sol.\n- **Paillage et terrassement** : protègent contre l'érosion hydrique.\n- **Brise-vent et haie** : protègent contre l'érosion éolienne.\n- **Assolement** : ralentit l'épuisement du sol.\n\n### Amélioration des sols\n- **Apport d'engrais** : enrichit le sol en sels minéraux et augmente les rendements.\n- **Rotation des cultures** : les plantes n'ayant pas les mêmes besoins, alterner évite l'épuisement.\n- **Jachère** : permet la reconstitution du sol.\n\n### Expérience clé\nDeux parcelles A et B cultivées en maïs. La 3e année, on ajoute de l'engrais à A. Résultats : rendement de A augmente (2000 kg/ha) alors que B continue de baisser (500 kg/ha). L'engrais améliore la fertilité.\n\n## 3. Pièges fréquents\n\n- Ne pas confondre **protection** (contre l'érosion) et **amélioration** (fertilité).\n- L'**assolement** ne restaure pas la fertilité comme la jachère, il ralentit seulement l'épuisement.\n- Le **terrassement** est spécifique aux terrains en pente.\n- L'**engrais** est un amendement, pas un moyen de protection.\n- Les **feux de brousse** et **cultures sur brûlis** sont à abandonner.\n\n## Synthèse\n\nProtéger les sols (reboisement, jachère, paillage, terrassement, haies, brise-vent) et les améliorer (engrais, assolement, jachère) permet de lutter contre la dégradation et d'augmenter les rendements. La sensibilisation et l'abandon des pratiques destructrices sont essentiels.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "svt",
+    "troisieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel moyen de protection des sols consiste à laisser le sol au repos pendant un certain temps ?",
+      "options": [
+        "Le reboisement",
+        "La jachère",
+        "Le paillage",
+        "L'assolement"
+      ],
+      "answer": 1,
+      "explanation": "La jachère est la technique qui consiste à laisser le sol au repos pour qu'il se reconstitue."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "L'alternance des cultures sur une même parcelle s'appelle l'______.",
+      "answer": "0",
+      "explanation": "L'assolement, ou rotation des cultures, consiste à changer de culture chaque année pour éviter l'épuisement du sol."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est l'effet du paillage sur le sol ?",
+      "options": [
+        "Il enrichit le sol en minéraux",
+        "Il protège le sol contre l'érosion par l'eau",
+        "Il protège le sol contre le vent",
+        "Il reconstitue le couvert végétal"
+      ],
+      "answer": 1,
+      "explanation": "Le paillage empêche l'érosion du sol par l'eau de ruissellement."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Dans l'expérience avec les parcelles A et B, quel est le rendement de la parcelle A la troisième année ?",
+      "options": [
+        "1000 kg/ha",
+        "700 kg/ha",
+        "2000 kg/ha",
+        "500 kg/ha"
+      ],
+      "answer": 2,
+      "explanation": "La troisième année, la parcelle A qui reçoit de l'engrais a un rendement de 2000 kg/ha."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Le ______ est un aménagement sur les flancs de montagne qui empêche l'érosion.",
+      "answer": "0",
+      "explanation": "Le terrassement est un aménagement sur les flancs de montagne pour éviter l'érosion lors de la mise en culture."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quelle technique permet la reconstitution du couvert végétal et protège le sol ?",
+      "options": [
+        "Le paillage",
+        "Le terrassement",
+        "Le reboisement",
+        "L'assolement"
+      ],
+      "answer": 2,
+      "explanation": "Le reboisement permet la reconstitution du couvert végétal et protège le sol contre l'érosion."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est l'effet de l'engazonnement sur le sol ?",
+      "options": [
+        "Il protège contre l'érosion éolienne",
+        "Il protège contre l'érosion par l'eau",
+        "Il enrichit le sol en minéraux",
+        "Il épuise le sol"
+      ],
+      "answer": 1,
+      "explanation": "L'engazonnement empêche l'érosion du sol par l'eau de ruissellement."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "L'apport d'engrais au sol est un ______.",
+      "answer": "0",
+      "explanation": "L'apport d'engrais est un amendement qui enrichit le sol en éléments minéraux."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Pourquoi les rendements baissent-ils la deuxième année sur les deux parcelles ?",
+      "options": [
+        "À cause de l'érosion",
+        "Parce que les sols s'épuisent en éléments minéraux",
+        "Parce qu'il n'y a pas assez d'eau",
+        "À cause des mauvaises herbes"
+      ],
+      "answer": 1,
+      "explanation": "Les rendements baissent car les sols s'épuisent en éléments minéraux."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel moyen protège le sol contre l'érosion éolienne ?",
+      "options": [
+        "Le paillage",
+        "Le terrassement",
+        "La haie",
+        "L'engrais"
+      ],
+      "answer": 2,
+      "explanation": "La haie et le brise-vent protègent le sol contre l'érosion éolienne."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "La ______ consiste à laisser le sol au repos pendant un certain temps.",
+      "answer": "0",
+      "explanation": "La jachère est la technique qui consiste à laisser le sol au repos pour qu'il se reconstitue."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel est l'effet de l'assolement sur le sol ?",
+      "options": [
+        "Il protège contre l'érosion",
+        "Il enrichit le sol en minéraux",
+        "Il ralentit l'épuisement du sol",
+        "Il reconstitue le couvert végétal"
+      ],
+      "answer": 2,
+      "explanation": "L'assolement ralentit l'épuisement du sol en alternant les cultures."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Quelle technique culturale consiste à changer de parcelle cultivée chaque année ?",
+      "options": [
+        "La jachère",
+        "L'assolement",
+        "Le paillage",
+        "Le terrassement"
+      ],
+      "answer": 1,
+      "explanation": "L'assolement, ou rotation des cultures, consiste à changer de parcelle cultivée chaque année."
+    },
+    {
+      "id": "q19",
+      "type": "fill",
+      "prompt": "Le ______ et la haie ralentissent la vitesse du vent.",
+      "answer": "0",
+      "explanation": "Le brise-vent et la haie ralentissent la vitesse du vent et empêchent l'érosion éolienne."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Quel est l'effet du terrassement sur le sol ?",
+      "options": [
+        "Il enrichit le sol",
+        "Il protège contre l'érosion sur les flancs de montagne",
+        "Il reconstitue le couvert végétal",
+        "Il ralentit l'épuisement du sol"
+      ],
+      "answer": 1,
+      "explanation": "Le terrassement est un aménagement sur les flancs de montagne qui empêche l'érosion lors de la mise en culture."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "svt-sixieme-sol-composants-vie",
+  "title": "Le sol : composantes et êtres vivants",
+  "summary": "Le sol est bien plus qu'un simple support : c'est un écosystème vivant et dynamique, essentiel à la vie sur Terre. Comprendre ses composantes et ses habitants, c'est comprendre les bases de l'agriculture, de l'environnement et de la biodiversité.",
+  "lesson": "## Introduction & Mise en situation\n\nLe sol est la couche superficielle de la croûte terrestre, là où poussent les plantes. Sans lui, pas de forêts, pas de cultures, pas de nourriture. Mais le sol n'est pas un simple caillou : c'est un milieu complexe, peuplé d'êtres vivants invisibles à l'œil nu et d'autres plus visibles. En Côte d'Ivoire, le sol est au cœur de l'agriculture (cacao, café, etc.) et de la vie quotidienne. Ce chapitre te permettra de découvrir ce qui se cache sous tes pieds et pourquoi il faut le préserver.\n\n## 1. Définitions et Principes Fondamentaux\n\n**Le sol** est la couche superficielle de la lithosphère, formée par la dégradation de la roche mère sous l'action du climat et des êtres vivants. Il est composé de plusieurs éléments :\n\n- **Les particules minérales** (sable, argile, limon) issues de la roche.\n- **La matière organique** (débris de végétaux et d'animaux en décomposition).\n- **L'eau** et **l'air** qui occupent les espaces entre les particules.\n- **Les êtres vivants** : bactéries, champignons, vers de terre, insectes, etc.\n\nLa formation du sol est un processus lent : on estime qu'il faut environ 100 ans pour former 1 cm de sol. On peut représenter la composition idéale d'un sol par la formule :\n\n$$\\text{Volume du sol} = \\text{particules minérales (45\\%)} + \\text{matière organique (5\\%)} + \\text{air (25\\%)} + \\text{eau (25\\%)}$$\n\nCette répartition varie selon les sols et leur usage.\n\n## 2. Propriétés et Méthodes d'application\n\n**Propriétés physiques et chimiques** :\n- **Texture** : proportion de sable, argile et limon. On la détermine par le toucher ou par sédimentation.\n- **Structure** : arrangement des particules en agrégats.\n- **pH** : mesure de l'acidité ou de l'alcalinité. La plupart des plantes préfèrent un pH entre 6 et 7.\n\n**Méthode pour étudier un sol** :\n1. **Observation à l'œil nu** : couleur, présence de débris, vers de terre.\n2. **Test du toucher** : si le sol est collant, il contient de l'argile ; s'il est granuleux, c'est du sable.\n3. **Sédimentation** : mettre un échantillon dans de l'eau, secouer, laisser décanter. Les particules se déposent en couches : sable en bas, argile en haut.\n4. **Test à l'eau oxygénée** : si ça mousse, il y a de la matière organique.\n\n**Exemple concret** :\nPrenons un échantillon de sol de 100 g. On le sèche, on obtient 80 g de particules minérales, 10 g de matière organique, et 10 g d'eau. Le pourcentage de matière organique est : $\\frac{10}{100} \\times 100 = 10\\%$.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre sol et sous-sol** : le sol est la couche arable (riche en humus), le sous-sol est la roche altérée en dessous.\n- **Penser que le sol est inerte** : il contient des milliards de micro-organismes.\n- **Oublier que l'humus vient de la décomposition** : c'est la matière organique décomposée, pas les débris frais.\n- **Ne pas distinguer les êtres vivants du sol** : les vers de terre sont des animaux, les bactéries sont des micro-organismes.\n- **Erreur de calcul de pourcentage** : toujours diviser par la masse totale.\n\n## Synthèse\n\n1. Le sol est composé de particules minérales, de matière organique, d'eau, d'air et d'êtres vivants.\n2. Les êtres vivants du sol (vers, insectes, bactéries) participent à la décomposition et au recyclage de la matière.\n3. Il faut protéger le sol car il met très longtemps à se former et il est essentiel pour la vie.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "sol",
+    "écosystème",
+    "matière organique",
+    "êtres vivants",
+    "6ème"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la proportion approximative d'air et d'eau dans un sol idéal ?",
+      "options": [
+        "25% chacun",
+        "10% chacun",
+        "50% chacun",
+        "75% chacun"
+      ],
+      "answer": 0,
+      "explanation": "Dans un sol idéal, l'air et l'eau occupent chacun environ 25% du volume."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le sol est une couche morte et inerte.",
+      "answer": false,
+      "explanation": "Le sol est vivant : il contient des milliards de micro-organismes et de petits animaux."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Quel est le pourcentage de matière organique dans un sol qui contient 5 g de matière organique sur 100 g de sol sec ? (réponse en chiffre, sans le signe %)",
+      "answer": "5",
+      "explanation": "5 g / 100 g × 100 = 5%."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est le rôle des vers de terre dans le sol ?",
+      "options": [
+        "Ils n'ont aucun rôle",
+        "Ils aèrent le sol et le fertilisent",
+        "Ils compactent le sol",
+        "Ils détruisent les racines"
+      ],
+      "answer": 1,
+      "explanation": "Les vers de terre creusent des galeries qui aèrent le sol et leurs déjections enrichissent le sol en nutriments."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "L'humus est constitué de débris végétaux et animaux en décomposition.",
+      "answer": true,
+      "explanation": "L'humus est la matière organique décomposée, riche en nutriments."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Combien de temps faut-il environ pour former 1 cm de sol ? (réponse en années, en chiffre)",
+      "answer": "100",
+      "explanation": "La formation du sol est très lente : environ 100 ans pour 1 cm."
+    }
+  ]
+}

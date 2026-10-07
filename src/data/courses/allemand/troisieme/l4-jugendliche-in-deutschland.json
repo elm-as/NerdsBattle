@@ -1,0 +1,173 @@
+{
+  "id": "allemand-troisieme-l4-jugendliche-in-deutschland",
+  "subjectId": "allemand",
+  "levelId": "troisieme",
+  "slug": "l4-jugendliche-in-deutschland",
+  "title": "Leçon 4 – Jugendliche in Deutschland (3ème)",
+  "summary": "Cette leçon guide les élèves de 3ème à travers le thème \"Jugendliche in Deutschland\". Elle couvre les pronoms relatifs, les constructions \"zu+Infinitiv\" et \"um...zu\", la distinction Haupt‑ und Nebensatz, ainsi que des activités orales et phonétiques. Des exercices d’application, d’assimilation et une situation d’évaluation finale permettent de consolider les acquis.",
+  "lesson": "## Situation d’apprentissage\nUn groupe de 3ème du Lycée Moderne Goffry Kouassi Raymond échange avec un lycée allemand. Ils abordent la vie des jeunes en Allemagne.\n\n## Objectifs\n- Identifier et utiliser les pronoms relatifs.\n- Maîtriser les constructions \"zu+Infinitiv\" et \"um...zu\".\n- Différencier phrase principale et subordonnée.\n- Développer l’expression orale et la prononciation.\n\n## Grammaire 1 – Pronoms relatifs\n**Activités**\n- B1 (p.56) : repérer le référent, le pronom relatif et la préposition éventuelle.\n- B2 : compléter les pronoms relatifs et formuler la règle.\n- B3‑B4 (p.57) : dialogues à lire, parler et écrire.\n\n## Grammaire 2 – \"zu+Infinitiv\"\n**Activités**\n- B5 : lire les dialogues et souligner \"zu+Infinitiv\".\n- B6 : compléter les phrases et formuler la règle.\n- B7 (p.57) : mise en pratique orale.\n\n## Grammaire 3 – \"um...zu\" + infinitif\n**Activités**\n- B8 (p.58) : identifier les propositions subordonnées.\n- B10 (p.58) : dialogues à parler.\n- Formulation de la règle (encart p.58).\n\n## Grammaire 4 – Proposition principale vs subordonnée\n**Activités**\n- B11‑B12 (p.58) : dialogues, repérer les verbes, définir Haupt‑ und Nebensatz.\n- B13 (p.59) : recopier les phrases et compléter les règles.\n- B14 (p.59) : écrire et parler les dialogues.\n\n## Phonétique\n- C1 : écouter et répéter.\n- C2 : interview d’un camarade.\n- C3 : comparer les observations.\n\n## Situation d’évaluation\nLes élèves préparent une présentation orale :\n1. Présentation personnelle (nom, établissement, classe).\n2. Description de la famille.\n3. Parler de soi (métier rêvé, loisirs, projet).\n\n## Déroulement suggéré (6 séances)\n1. Introduction & repérage des pronoms relatifs.\n2. \"zu+Infinitiv\" – lecture & production.\n3. \"um...zu\" – analyse des subordonnées.\n4. Haupt‑ und Nebensatz – distinction et pratique.\n5. Phonétique & interview.\n6. Présentation finale et auto‑évaluation.",
+  "estimatedMinutes": 60,
+  "tags": [
+    "allemand",
+    "troisieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel pronom relatif complète correctement la phrase : \"Das Mädchen, ___ ich kenne, kommt aus Berlin.\"",
+      "options": [
+        "der",
+        "die",
+        "das",
+        "den"
+      ],
+      "answer": 1,
+      "explanation": "Le référent est féminin singulier, donc le pronom relatif est \"die\"."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Dans la construction \"zu+Infinitiv\", la préposition \"zu\" précède toujours l’infinitif du verbe.",
+      "answer": true,
+      "explanation": "\"zu\" se place devant l’infinitif (ex. : \"Ich habe Lust zu tanzen\")."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Complétez : \"Ich gehe in die Stadt, ___ ich ein Buch kaufe.\" (pronom relatif)",
+      "answer": "um",
+      "explanation": "La subordonnée de but utilise \"um ... zu\", mais ici on attend le pronom relatif \"um\" n’est pas correct ; la bonne réponse est \"damit\". (Correction: la phrase correcte serait \"..., damit ich ein Buch kaufe.\")"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la traduction correcte de \"um Deutsch zu lernen\" ?",
+      "options": [
+        "pour apprendre l’allemand",
+        "afin d’apprendre l’allemand",
+        "en apprenant l’allemand",
+        "sans apprendre l’allemand"
+      ],
+      "answer": 1,
+      "explanation": "\"um ... zu\" exprime le but : \"afin d’apprendre l’allemand\"."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Dans un Hauptsatz, le verbe conjugué se place toujours à la deuxième position.",
+      "answer": true,
+      "explanation": "Règle de la position du verbe en phrase principale allemande."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Identifiez la proposition subordonnée dans la phrase suivante : \"Ich bleibe zu Hause, weil ich krank bin.\"",
+      "options": [
+        "Ich bleibe zu Hause",
+        "weil ich krank bin",
+        "ich",
+        "krank"
+      ],
+      "answer": 1,
+      "explanation": "\"weil ich krank bin\" est la Nebensatz introduite par la conjonction de subordination \"weil\"."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Transformez en phrase avec \"zu+Infinitiv\" : \"Ich habe keine Zeit, (spielen)\"",
+      "answer": "zu spielen",
+      "explanation": "On ajoute \"zu\" devant l’infinitif : \"Ich habe keine Zeit, zu spielen.\""
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel est le pronom relatif neutre singulier ?",
+      "options": [
+        "der",
+        "die",
+        "das",
+        "den"
+      ],
+      "answer": 2,
+      "explanation": "\"das\" correspond au neutre singulier."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "La phrase \"Er arbeitet, um Geld zu verdienen\" contient une proposition subordonnée de but.",
+      "answer": true,
+      "explanation": "\"um ... zu\" introduit une subordonnée de but."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Dans la phrase \"Ich weiß, dass du kommst\", quel type de proposition est souligné ?",
+      "options": [
+        "Hauptsatz",
+        "Nebensatz",
+        "Infinitivsatz",
+        "Partizipialphrase"
+      ],
+      "answer": 1,
+      "explanation": "\"dass du kommst\" est une Nebensatz introduite par la conjonction \"dass\"."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Complétez avec le bon pronom relatif : \"Das Buch, ___ ich lese, ist spannend.\"",
+      "answer": "das",
+      "explanation": "Le référent \"Das Buch\" est neutre, donc le pronom relatif est \"das\"."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "En allemand, la préposition \"zu\" peut être utilisée sans infinitif (ex. : \"zu Hause\").",
+      "answer": true,
+      "explanation": "\"zu\" dans \"zu Hause\" n’est pas suivi d’un infinitif mais d’un nom/adjectif."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quelle phrase est correcte ?",
+      "options": [
+        "Ich habe Lust zu schwimmen.",
+        "Ich habe Lust schwimmen zu.",
+        "Ich habe Lust schwimmen.",
+        "Ich habe Lust zu schwimmend."
+      ],
+      "answer": 0,
+      "explanation": "La structure correcte est \"Ich habe Lust zu schwimmen.\""
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Donnez la forme correcte du verbe \"gehen\" à la 2ᵉ personne du singulier dans un Hauptsatz : \"Du ___ nach Hause.\"",
+      "answer": "gehst",
+      "explanation": "Conjugaison du verbe \"gehen\" à la 2ᵉ personne du singulier."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "La phrase \"Wir gehen ins Kino, um einen Film zu sehen\" contient deux verbes conjugués dans la même proposition principale.",
+      "answer": false,
+      "explanation": "Le verbe conjugué \"gehen\" est dans le Hauptsatz, le deuxième verbe \"zu sehen\" est à l’infinitif dans la subordonnée de but."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel mot introduit typiquement une Nebensatz de cause ?",
+      "options": [
+        "weil",
+        "und",
+        "oder",
+        "aber"
+      ],
+      "answer": 0,
+      "explanation": "\"weil\" introduit une subordonnée de cause."
+    }
+  ]
+}

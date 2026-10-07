@@ -1,0 +1,173 @@
+{
+  "id": "info-sixieme-l10-tic-6eme-l10",
+  "subjectId": "info",
+  "levelId": "sixieme",
+  "slug": "l10-tic-6eme-l10",
+  "title": "Leçon 10 – Découverte d’un moteur de recherche (6e)",
+  "summary": "Cette leçon introduit les moteurs de recherche, les URL et la rédaction de requêtes efficaces. Les élèves visionnent deux vidéos explicatives, puis utilisent Google pour répondre à des questions d’actualité et d’histoire. Des exercices pratiques les aident à identifier les requêtes pertinentes et à comprendre le rôle des moteurs de recherche dans la recherche d’informations fiables.",
+  "lesson": "## Situation d'apprentissage\nAu cours d’une leçon d’Histoire‑Géographie, le professeur évoque brièvement Félix Houphouët‑Boigny. Les élèves curieux sont invités à approfondir leurs connaissances en utilisant le moteur de recherche Google (www.google.ci).\n\n## Résumé de la leçon\nDeux vidéos couvrent les compétences essentielles :\n1. **Les moteurs de recherche** – définition, rôle d’une URL, fonctionnement général.  \n   https://youtu.be/mAXoowLBFRY\n2. **Rédiger des requêtes** – comment formuler des requêtes précises pour obtenir des résultats pertinents.  \n   https://youtu.be/GHZYTcxzV1g\n\n## Situation d'évaluation\nUtiliser Google pour répondre aux questions suivantes :\n1. Capitale de la Papouasie Nouvelle‑Guinée ?\n2. Nom du président de la Russie ?\n3. Pays de l’Afrique occidentale ?\n4. Équipe gagnante de la première CAN ?\n5. Meilleur buteur de la CAN 1994 ?\n6. Pays anglophones d’Afrique ?\n7. Année de la conquête musulmane de l’Afrique du Nord ?\n8. Année où Albert Einstein reçoit le Prix Nobel de Physique ?\n9. Pays hôte de la Coupe du monde 2014 ?\n10. Année de découverte du VIH et par qui ?\n\n## Exercices / Documentation\n**Exercice 1**\n1. Citer le rôle d’un moteur de recherche sur Internet.\n2. Citer trois moteurs de recherche.\n\n**Exercice 2**\nMaury veut rechercher des informations sur les produits vivriers en Côte d’Ivoire. Parmi les requêtes suivantes, indiquer celles qui sont pertinentes :\n- a) Conflits terriens en Côte d’Ivoire\n- b) Produits vivrières\n- c) Cultures vivrières en Côte d’Ivoire\n- d) École d’agriculture en Côte d’Ivoire\n- e) Café cacao Côte d’Ivoire\n\n## Directives pédagogiques\n- Durée estimée : 10 minutes\n- Utiliser le format MCQ, vrai/faux et réponses libres pour évaluer la compréhension.\n- Encourager la reformulation des requêtes pour améliorer la pertinence des résultats.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "info",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le rôle principal d’un moteur de recherche ?",
+      "options": [
+        "Indexer les sites web",
+        "Créer du contenu",
+        "Vendre des publicités",
+        "Héberger des serveurs"
+      ],
+      "answer": 0,
+      "explanation": "Un moteur de recherche parcourt le web, indexe les pages et les rend consultables."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Parmi les propositions suivantes, quel est un moteur de recherche populaire ?",
+      "options": [
+        "Facebook",
+        "Twitter",
+        "Bing",
+        "Instagram"
+      ],
+      "answer": 2,
+      "explanation": "Bing est un moteur de recherche développé par Microsoft."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Une URL commence toujours par \"http://\" ou \"https://\".",
+      "answer": true,
+      "explanation": "Les URL indiquent le protocole utilisé, généralement http ou https."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Écrivez l’acronyme de l’organisation qui attribue le Prix Nobel de la Paix.",
+      "answer": "Nobel Committee",
+      "explanation": "Le comité Nobel du Comité Nobel de la Paix attribue ce prix."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle requête est la plus pertinente pour obtenir des informations sur les cultures vivrières en Côte d’Ivoire ?",
+      "options": [
+        "Conflits terriens en Côte d’Ivoire",
+        "Produits vivrières",
+        "Cultures vivrières en Côte d’Ivoire",
+        "Café cacao Côte d’Ivoire"
+      ],
+      "answer": 2,
+      "explanation": "La requête précise le sujet recherché et le pays, ce qui maximise la pertinence des résultats."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Google est le seul moteur de recherche disponible en Côte d’Ivoire.",
+      "answer": false,
+      "explanation": "Il existe d’autres moteurs comme Bing, Yahoo ou DuckDuckGo."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Quel est le nom du premier président de la Côte d’Ivoire ?",
+      "answer": "Félix Houphouët‑Boigny",
+      "explanation": "Il a dirigé le pays de 1960 à 1993."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quelle est la capitale de la Papouasie Nouvelle‑Guinée ?",
+      "options": [
+        "Port Moresby",
+        "Suva",
+        "Apia",
+        "Nadi"
+      ],
+      "answer": 0,
+      "explanation": "Port Moresby est la capitale de la Papouasie Nouvelle‑Guinée."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Qui était le président de la Russie en 2023 ?",
+      "options": [
+        "Vladimir Poutine",
+        "Dmitri Medvedev",
+        "Boris Eltsine",
+        "Nikolai Koudrnov"
+      ],
+      "answer": 0,
+      "explanation": "Vladimir Poutine était le président en 2023."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "En quelle année le virus du VIH a-t-il été découvert ?",
+      "answer": "1983",
+      "explanation": "Le VIH a été identifié pour la première fois en 1983."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "La première Coupe d’Afrique des Nations (CAN) a été remportée par le Ghana.",
+      "answer": true,
+      "explanation": "Le Ghana a gagné la première édition en 1957."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel pays a accueilli la Coupe du monde FIFA en 2014 ?",
+      "options": [
+        "Brésil",
+        "Russie",
+        "Afrique du Sud",
+        "Allemagne"
+      ],
+      "answer": 0,
+      "explanation": "Le Brésil a été le pays hôte en 2014."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Nom du joueur qui a marqué le plus de buts lors de la CAN 1994.",
+      "answer": "Rashidi Yekini",
+      "explanation": "Rashidi Yekini (Nigeria) a été le meilleur buteur de la CAN 1994."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel est le principal avantage d’utiliser des guillemets dans une requête Google ?",
+      "options": [
+        "Augmenter le nombre de résultats",
+        "Limiter la recherche à une langue précise",
+        "Rechercher l’expression exacte",
+        "Accélérer le temps de recherche"
+      ],
+      "answer": 2,
+      "explanation": "Les guillemets forcent le moteur à chercher l’expression exacte."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Les pays anglophones d’Afrique comprennent le Nigeria, le Kenya et le Ghana.",
+      "answer": true,
+      "explanation": "Ces trois pays utilisent l’anglais comme langue officielle."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "En quelle année a eu lieu la conquête musulmane de l’Afrique du Nord ?",
+      "answer": "7ᵉ siècle",
+      "explanation": "La conquête s’est déroulée au 7ᵉ siècle, notamment après la bataille de Carthage en 698."
+    }
+  ]
+}

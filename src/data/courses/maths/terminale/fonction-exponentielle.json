@@ -1,0 +1,70 @@
+{
+  "id": "maths-terminale-fonction-exponentielle",
+  "title": "Fonction Exponentielle népérienne",
+  "summary": "La fonction exponentielle est l'une des fonctions les plus importantes en mathématiques, car elle modélise la croissance et la décroissance dans de nombreux domaines. Maîtriser ses propriétés et sa dérivée est essentiel pour réussir le BAC et aborder les études supérieures.",
+  "lesson": "## Introduction & Mise en situation\n\nLa fonction exponentielle est omniprésente en sciences : croissance d'une population, désintégration radioactive, intérêts composés, refroidissement d'un corps, etc. Elle est la fonction qui est sa propre dérivée, ce qui lui confère des propriétés uniques. Dans ce chapitre, nous allons découvrir sa définition, ses propriétés algébriques et analytiques, et apprendre à l'utiliser pour résoudre des problèmes concrets.\n\n## 1. Définitions et Principes Fondamentaux\n\n### 1.1 Définition\n\nLa fonction exponentielle de base $e$ (où $e \\approx 2.71828$) est la fonction notée $\\exp$ ou $x \\mapsto e^x$, définie et dérivable sur $\\mathbb{R}$, et vérifiant :\n\n- $\\exp(0) = 1$\n- $\\exp'(x) = \\exp(x)$ pour tout $x \\in \\mathbb{R}$\n\nOn note $e^x$ pour $\\exp(x)$.\n\n### 1.2 Propriétés algébriques\n\nPour tous réels $a$ et $b$, et tout entier relatif $n$ :\n\n- $e^{a+b} = e^a \\times e^b$\n- $e^{a-b} = \\frac{e^a}{e^b}$\n- $e^{-a} = \\frac{1}{e^a}$\n- $(e^a)^n = e^{a \\times n}$\n- $e^0 = 1$ et $e^1 = e$\n\n### 1.3 Propriétés analytiques\n\n- $\\exp$ est strictement croissante sur $\\mathbb{R}$.\n- $\\lim_{x \\to -\\infty} e^x = 0$ et $\\lim_{x \\to +\\infty} e^x = +\\infty$.\n- Pour tout $x$, $e^x > 0$.\n- La fonction $\\exp$ est bijective de $\\mathbb{R}$ sur $]0, +\\infty[$. Sa réciproque est la fonction logarithme népérien : $\\ln(e^x) = x$ et $e^{\\ln x} = x$ pour $x>0$.\n\n## 2. Propriétés et Méthodes d'application\n\n### 2.1 Dérivée et variations\n\nLa dérivée de $e^x$ est $e^x$ elle-même. Plus généralement, si $u$ est une fonction dérivable, alors la dérivée de $e^{u(x)}$ est $u'(x) e^{u(x)}$.\n\n**Exemple :** Soit $f(x) = e^{2x+1}$. Alors $f'(x) = 2 e^{2x+1}$.\n\n### 2.2 Étude de fonctions contenant des exponentielles\n\nPour étudier les variations d'une fonction $f(x) = e^{u(x)}$, on étudie le signe de $f'(x) = u'(x) e^{u(x)}$. Comme $e^{u(x)} > 0$, le signe de $f'$ est celui de $u'$.\n\n**Exemple :** Étudions $f(x) = x e^{-x}$ sur $\\mathbb{R}$.\n\n1. Dérivée : $f'(x) = e^{-x} + x(-e^{-x}) = e^{-x}(1-x)$.\n2. Signe de $f'$ : $e^{-x} > 0$, donc $f'(x) \\geq 0$ si $1-x \\geq 0$, i.e. $x \\leq 1$.\n3. Tableau de variations :\n   - $f$ croissante sur $]-\\infty, 1]$ et décroissante sur $[1, +\\infty[$.\n   - Maximum en $x=1$ : $f(1) = 1 \\times e^{-1} = \\frac{1}{e}$.\n\n### 2.3 Limites et croissances comparées\n\nEn $+\\infty$, $e^x$ l'emporte sur toute puissance de $x$ : $\\lim_{x \\to +\\infty} \\frac{e^x}{x^n} = +\\infty$ pour tout entier $n$.\n\nEn $-\\infty$, $x^n e^x \\to 0$.\n\n**Exemple :** $\\lim_{x \\to +\\infty} \\frac{e^x}{x^2} = +\\infty$.\n\n### 2.4 Résolution d'équations et inéquations\n\n- $e^a = e^b \\iff a = b$\n- $e^a > e^b \\iff a > b$ (car $\\exp$ est strictement croissante)\n\n**Exemple :** Résoudre $e^{2x} = 3$.\n\n$2x = \\ln 3$, donc $x = \\frac{\\ln 3}{2}$.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Erreur :** Confondre $e^{a+b}$ et $e^a + e^b$. Rappel : $e^{a+b} = e^a \\times e^b$, jamais une somme.\n- **Erreur :** Oublier que $e^x$ est toujours strictement positif. Une équation comme $e^x = -1$ n'a pas de solution.\n- **Erreur :** Croire que la dérivée de $e^{u(x)}$ est $u'(x) e^{u(x)}$ est correct, mais attention à la dérivée de $e^{2x}$ : c'est $2e^{2x}$, pas $e^{2x}$.\n- **Erreur :** Pour résoudre $e^{x^2} = e^{2x}$, on peut simplifier par $e$, mais il faut que les bases soient identiques. Ici, on a $x^2 = 2x$, donc $x=0$ ou $x=2$. Vérifiez toujours.\n- **Erreur :** Dans les limites, ne pas appliquer les règles de croissances comparées si l'expression n'est pas de la forme $\\frac{e^x}{x^n}$ ou $x^n e^x$.\n\n## Synthèse\n\n1. **Définition et propriétés :** $e^x$ est la fonction qui est sa propre dérivée, avec $e^0=1$, et elle vérifie des propriétés algébriques similaires aux puissances.\n2. **Dérivation et variations :** Pour $e^{u(x)}$, la dérivée est $u'(x)e^{u(x)}$, et le signe de la dérivée est celui de $u'$.\n3. **Limites et équations :** $\\lim_{x \\to +\\infty} e^x = +\\infty$, $\\lim_{x \\to -\\infty} e^x = 0$, et pour résoudre $e^a = e^b$, on utilise l'égalité des exposants.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "analyse",
+    "fonctions",
+    "exponentielle",
+    "bac",
+    "mathématiques"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la dérivée de la fonction $f(x) = e^{3x}$ ?",
+      "options": [
+        "$3e^{3x}$",
+        "$e^{3x}$",
+        "$3e^{x}$",
+        "$\\frac{1}{3}e^{3x}$"
+      ],
+      "answer": 0,
+      "explanation": "La dérivée de $e^{u(x)}$ est $u'(x)e^{u(x)}$. Ici $u(x)=3x$, donc $u'(x)=3$, d'où $f'(x)=3e^{3x}$."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La fonction exponentielle $e^x$ est strictement croissante sur $\\mathbb{R}$.",
+      "answer": true,
+      "explanation": "La dérivée de $e^x$ est $e^x$, qui est toujours positive, donc la fonction est strictement croissante."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Résoudre l'équation $e^{2x} = 5$. Donner la valeur exacte de $x$ en termes de $\\ln$.",
+      "answer": "$\\frac{\\ln 5}{2}$",
+      "explanation": "On applique le logarithme népérien : $2x = \\ln 5$, donc $x = \\frac{\\ln 5}{2}$."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la limite de $\\frac{e^x}{x}$ quand $x$ tend vers $+\\infty$ ?",
+      "options": [
+        "0",
+        "1",
+        "$+\\infty$",
+        "n'existe pas"
+      ],
+      "answer": 2,
+      "explanation": "Par croissance comparée, $e^x$ l'emporte sur $x$, donc la limite est $+\\infty$."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Pour tout réel $x$, on a $e^{x^2} = (e^x)^2$.",
+      "answer": false,
+      "explanation": "$(e^x)^2 = e^{2x}$, pas $e^{x^2}$. L'égalité n'est vraie que si $x^2 = 2x$, c'est-à-dire $x=0$ ou $x=2$."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Calculer la limite de $x e^{x}$ quand $x$ tend vers $-\\infty$.",
+      "answer": "0",
+      "explanation": "Par croissance comparée, $x e^{x} \\to 0$ quand $x \\to -\\infty$."
+    }
+  ]
+}

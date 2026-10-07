@@ -1,0 +1,132 @@
+{
+  "id": "espagnol-quatrieme-l19-exprimer-ses-preferences",
+  "subjectId": "espagnol",
+  "levelId": "quatrieme",
+  "slug": "l19-exprimer-ses-preferences",
+  "title": "La localisation des pays de l’Amérique hispanique",
+  "summary": "Cette leçon explore la géographie et la diversité des pays d’Amérique hispanique, leurs frontières, leurs capitales et leurs communautés autonomes. Elle vise à renforcer la compréhension orale et écrite des élèves de 4e en espagnol, tout en développant leurs compétences de présentation et d’analyse géographique.",
+  "lesson": "# La localisation des pays de l’Amérique hispanique\n\n## 1. Introduction\nL’Amérique hispanique regroupe les pays d’Amérique où l’espagnol est la langue officielle. Elle comprend 20 États souverains, 5 territoires et de nombreuses communautés indigènes.\n\n## 2. Vocabulaire clé\n- **Amérique hispanique** : ensemble des pays d’Amérique où l’espagnol est langue dominante.\n- **Communauté autonome** : subdivision administrative d’un pays, souvent avec un degré d’autonomie politique.\n- **Frontière** : limite physique entre deux pays.\n- **Capitale** : ville principale d’un pays.\n\n## 3. Cartographie générale\n- **Nord** : Canada, États‑Unis, Mexique.\n- **Centre** : États du centre‑sud de l’Amérique latine.\n- **Sud** : Argentine, Chili, Uruguay.\n- **Océanie** : Guyane française, Suriname.\n\n## 4. Pays majeurs et leurs capitales\n| Pays | Capitale | Région | Frontières principales |\n|------|----------|--------|------------------------|\n| Mexique | Mexico | Nord | États‑Unis, Guatemala, Belize |\n| Guatemala | Guatemala | Centre | Mexique, Belize, Honduras |\n| Argentine | Buenos Aires | Sud | Chili, Uruguay, Paraguay |\n| Chili | Santiago | Sud | Argentine, Bolivie |\n| Colombie | Bogotá | Centre | Venezuela, Panama |\n\n## 5. Communautés autonomes\n- **Andalousie** (Espagne) – capitale Séville.\n- **Cataluña** (Espagne) – capitale Barcelone.\n- **La Rioja** (Espagne) – capitale Logroño.\n\n## 6. Exercices de compréhension\n- Complétez les phrases.\n- Identifiez les pays voisins.\n- Localisez les îles majeures.\n\n## 7. Conclusion\nCette leçon permet aux élèves de situer géographiquement les pays d’Amérique hispanique, de connaître leurs capitales et leurs frontières, et de comprendre la diversité culturelle et linguistique de la région.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "espagnol",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel pays est le plus grand d’Amérique hispanique en superficie ?",
+      "options": [
+        "Mexique",
+        "Colombie",
+        "Argentine",
+        "Cuba"
+      ],
+      "answer": 0,
+      "explanation": "Le Mexique couvre environ 1,96 million de km², plus grand que les autres pays hispanophones."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle est la capitale du Chili ?",
+      "options": [
+        "Santiago",
+        "Buenos Aires",
+        "Caracas",
+        "Bogotá"
+      ],
+      "answer": 0,
+      "explanation": "Santiago est la capitale politique et économique du Chili."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "La capitale de la Colombie est ____.",
+      "answer": "0",
+      "explanation": "Bogotá est la capitale politique, culturelle et économique de la Colombie."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel pays hispanique possède la plus grande population ?",
+      "options": [
+        "Mexique",
+        "Argentine",
+        "Espagne",
+        "Cuba"
+      ],
+      "answer": 0,
+      "explanation": "Le Mexique compte plus de 120 millions d’habitants, surpassant les autres pays hispanophones."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Les îles Canaries font partie de ____.",
+      "answer": "0",
+      "explanation": "Les Canaries sont un archipel espagnol situé au large de la côte nord‑ouest de l’Afrique."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel pays hispanique est le plus densément peuplé ?",
+      "options": [
+        "Mexique",
+        "Espagne",
+        "Colombie",
+        "Cuba"
+      ],
+      "answer": 1,
+      "explanation": "L’Espagne a la densité de population la plus élevée parmi les pays hispanophones."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "La capitale de l’Uruguay est ____.",
+      "answer": "0",
+      "explanation": "Montevideo est la capitale et le centre économique de l’Uruguay."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel pays hispanique possède la plus grande superficie d’îles ?",
+      "options": [
+        "Mexique",
+        "Espagne",
+        "Colombie",
+        "Cuba"
+      ],
+      "answer": 1,
+      "explanation": "L’Espagne possède les Baléares, les Canaries et d’autres îles, totalisant la plus grande superficie insulaire."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "La capitale de la République dominicaine est ____.",
+      "answer": "0",
+      "explanation": "Santo Domingo est la capitale historique et administrative de la République dominicaine."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel pays hispanique est le plus grand en termes de superficie d’îles ?",
+      "options": [
+        "Mexique",
+        "Espagne",
+        "Colombie",
+        "Cuba"
+      ],
+      "answer": 1,
+      "explanation": "L’Espagne possède les Baléares, les Canaries et d’autres îles, totalisant la plus grande superficie insulaire."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "La capitale de la République du Salvador est ____.",
+      "answer": "0",
+      "explanation": "San Salvador est la capitale politique et économique du Salvador."
+    }
+  ]
+}

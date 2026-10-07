@@ -1,0 +1,167 @@
+{
+  "id": "svt-premiere-l1-structure-du-globe-terrestre-svt-1er",
+  "subjectId": "svt",
+  "levelId": "premiere",
+  "slug": "l1-structure-du-globe-terrestre-svt-1er",
+  "title": "Manifestations internes du globe terrestre – Séance de SVT 1ère",
+  "summary": "Cette séance de deux heures vise à faire connaître aux élèves de 1ère les manifestations de l’activité interne de la Terre (séismes, volcanisme, mouvements de plaques). À travers un questionnement, l’observation de documents, des hypothèses et des analyses, les élèves identifieront les phénomènes, formuleront des questions scientifiques et rédigeront une conclusion synthétique.",
+  "lesson": "## Objectifs\n- **Général** : Connaître les manifestations internes du globe terrestre.\n- **Spécifiques** :\n  - OST 1 : Citer quelques manifestations résultantes de l’activité interne.\n  - OST 2 : Identifier les plaques lithosphériques.\n\n## Matériel\n- Projecteur et diapositives\n- Planches et feutres\n- Documents illustrés (photos de séismes, cartes de failles, images de volcans)\n- Cahier d’élève\n\n## Déroulement (2 h)\n1. **Motivation – Problème géologique** (10 min)  \n   - Question déclencheur : *« L’intérieur du globe terrestre est‑il au repos ? »*  \n   - Recueil des réponses spontanées.\n2. **Observation de documents** (20 min)  \n   - Analyse d’une photo de séisme, d’une carte de failles et d’une image d’éruption volcanique.\n   - Consignes de prise de notes (quoi, où, quelles conséquences).\n3. **Formulation d’hypothèses** (15 min)  \n   - En groupes, les élèves proposent des hypothèses sur les causes des phénomènes observés.\n   - Chaque hypothèse est reformulée sous forme interrogative.\n4. **Vérification des hypothèses** (30 min)  \n   - Recherche d’informations dans le manuel ou sur internet (séismes = libération d’énergie le long des failles, volcanisme = remontée de magma, etc.).\n   - Discussion collective pour valider ou infirmer chaque hypothèse.\n5. **Synthèse et rédaction** (20 min)  \n   - Rédaction d’un résumé introductif intégrant les hypothèses validées.\n   - Élaboration d’une conclusion : *« L’activité interne du globe terrestre se manifeste principalement par les séismes et le volcanisme, liés aux mouvements des plaques lithosphériques. »*\n6. **Évaluation formative** (15 min)  \n   - Questions rapides (voir section questions).\n\n## Structure de la leçon (tableau simplifié)\n| Temps | Activité du professeur | Activité de l’élève |\n|------|------------------------|---------------------|\n|10 min| Pose le problème, recueille les réponses | Réfléchit, exprime ses idées |\n|20 min| Présente les documents | Observe, note les faits |\n|15 min| Guide la formulation d’hypothèses | Propose, reformule |\n|30 min| Anime la recherche d’informations | Recherche, compare, débat |\n|20 min| Supervise la rédaction | Rédige résumé et conclusion |\n|15 min| Pose les questions d’évaluation | Répond aux items |\n\n## Conclusion\nL’activité interne du globe terrestre se manifeste par des phénomènes violents (séismes, éruptions volcaniques) et par le déplacement des plaques lithosphériques. Comprendre ces manifestations permet d’interpréter les risques naturels et d’appréhender la dynamique de notre planète.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "svt",
+    "premiere",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel phénomène résulte directement du déplacement le long d’une faille géologique ?",
+      "options": [
+        "Volcanisme",
+        "Séisme",
+        "Érosion",
+        "Météorologie"
+      ],
+      "answer": 1,
+      "explanation": "Le déplacement le long d’une faille libère de l’énergie sous forme d'ondes sismiques, provoquant un séisme."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le magma provient du manteau terrestre et peut atteindre la surface lors d’une éruption volcanique.",
+      "answer": true,
+      "explanation": "Le magma, issu du manteau, remonte et peut s’exprimer à la surface sous forme de lave."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le point à la surface du globe où les secousses d’un séisme sont maximales s’appelle l’_______.",
+      "answer": "épicentre",
+      "explanation": "L’épicentre est la projection à la surface du foyer (hypocentre) du séisme."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Parmi les propositions suivantes, laquelle n’est pas une manifestation de l’activité interne de la Terre ?",
+      "options": [
+        "Séisme",
+        "Volcanisme",
+        "Érosion fluviale",
+        "Formation de montagnes"
+      ],
+      "answer": 2,
+      "explanation": "L’érosion fluviale est un processus de surface, pas une manifestation interne."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Les plaques lithosphériques se déplacent uniquement à la surface de la Terre, sans influence du manteau.",
+      "answer": false,
+      "explanation": "Le mouvement des plaques est entraîné par les courants de convection du manteau."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Le point où débute la rupture d’une faille s’appelle le _______.",
+      "answer": "foyer",
+      "explanation": "Le foyer (ou hypocentre) est le lieu de l’initiation du séisme."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel type de vague sismique se propage le plus rapidement à travers le manteau ?",
+      "options": [
+        "Onde de surface (L)",
+        "Onde de volume (P)",
+        "Onde de volume (S)",
+        "Onde Love"
+      ],
+      "answer": 1,
+      "explanation": "Les ondes P (primaires) sont les plus rapides et traversent tous les milieux."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Tous les volcans sont situés au bord des plaques tectoniques.",
+      "answer": false,
+      "explanation": "Certains volcans, comme ceux du hotspot d’Hawaï, se trouvent à l’intérieur d’une plaque."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Le processus par lequel le manteau transmet la chaleur vers la surface s’appelle la _______.",
+      "answer": "convection",
+      "explanation": "La convection mantellique transporte la chaleur et entraîne le mouvement des plaques."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quelle affirmation décrit le mieux le lien entre séismes et volcanisme ?",
+      "options": [
+        "Ils sont toujours simultanés",
+        "Ils proviennent tous deux de la libération d’énergie interne",
+        "Ils n’ont aucun lien",
+        "Le volcanisme cause les séismes uniquement"
+      ],
+      "answer": 1,
+      "explanation": "Séismes et volcanisme sont deux manifestations de la libération d’énergie interne, mais ne sont pas systématiquement liés."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Une faille transformante implique un mouvement latéral des blocs de roche.",
+      "answer": true,
+      "explanation": "Les failles transformantes (ou décrochantes) sont caractérisées par un glissement horizontal."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Le mouvement des plaques qui s’éloignent les unes des autres s’appelle la _______.",
+      "answer": "divergence",
+      "explanation": "La divergence correspond à l’écartement des plaques, souvent associé à la création de nouvelle croûte."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel document serait le plus approprié pour illustrer le phénomène de volcanisme ?",
+      "options": [
+        "Photo d’une fissure sismique",
+        "Carte des limites de plaques",
+        "Image d’une éruption de lave",
+        "Schéma d’une chaîne de montagnes"
+      ],
+      "answer": 2,
+      "explanation": "Une image d’éruption montre directement le volcanisme."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Le manteau terrestre est solide mais peut se comporter comme un fluide à l’échelle géologique.",
+      "answer": true,
+      "explanation": "Le manteau est viscoélastique : solide à courte échelle, fluide à long terme."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Le processus de formation d’une chaîne de montagnes par la collision de deux plaques continentales s’appelle la _______.",
+      "answer": "orogenèse",
+      "explanation": "L’orogenèse désigne la formation de montagnes lors de la convergence des plaques."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel type d’énergie est libéré lors d’un séisme ?",
+      "options": [
+        "Énergie thermique",
+        "Énergie cinétique",
+        "Énergie nucléaire",
+        "Énergie solaire"
+      ],
+      "answer": 1,
+      "explanation": "Le séisme libère principalement de l’énergie cinétique sous forme d’ondes sismiques."
+    }
+  ]
+}

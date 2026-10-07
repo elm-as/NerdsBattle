@@ -1,0 +1,70 @@
+{
+  "id": "maths-cinquieme-parallelogrammes",
+  "title": "Parallélogrammes et propriétés",
+  "summary": "Maîtrisez les parallélogrammes, ces figures géométriques aux propriétés étonnantes, et apprenez à les reconnaître et à les utiliser pour résoudre des problèmes complexes. Ce chapitre est la clé pour comprendre de nombreuses constructions géométriques et est incontournable pour réussir vos évaluations.",
+  "lesson": "## Introduction & Mise en situation\n\nLes parallélogrammes sont partout autour de nous : dans les grilles, les motifs de tissus, les structures métalliques, et même dans les écrans de téléphone ! Comprendre leurs propriétés vous permet de déduire des longueurs et des angles sans les mesurer, de prouver que des droites sont parallèles, et de résoudre des problèmes de géométrie avec élégance. Ce chapitre est un pilier pour la suite de votre scolarité, notamment en classe de 4ème et 3ème.\n\n## 1. Définitions et Principes Fondamentaux\n\nUn **parallélogramme** est un quadrilatère (polygone à 4 côtés) dont les côtés opposés sont parallèles deux à deux. Autrement dit, si on note $ABCD$ un parallélogramme, alors $(AB) \\parallel (CD)$ et $(BC) \\parallel (AD)$.\n\n**Propriétés fondamentales :**\n- Les côtés opposés sont de même longueur : $AB = CD$ et $BC = AD$.\n- Les angles opposés sont égaux : $\\widehat{A} = \\widehat{C}$ et $\\widehat{B} = \\widehat{D}$.\n- Les angles consécutifs sont supplémentaires : $\\widehat{A} + \\widehat{B} = 180^\\circ$.\n- Les diagonales se coupent en leur milieu. Si $O$ est le point d'intersection des diagonales $[AC]$ et $[BD]$, alors $OA = OC$ et $OB = OD$.\n\n**Cas particuliers :**\n- **Rectangle** : parallélogramme avec un angle droit.\n- **Losange** : parallélogramme avec deux côtés consécutifs égaux.\n- **Carré** : parallélogramme qui est à la fois rectangle et losange.\n\n## 2. Propriétés et Méthodes d'application\n\n**Méthode 1 : Montrer qu'un quadrilatère est un parallélogramme**\nPour prouver qu'un quadrilatère est un parallélogramme, on peut utiliser l'une des conditions suivantes :\n1. Les côtés opposés sont parallèles.\n2. Les côtés opposés sont de même longueur.\n3. Les diagonales se coupent en leur milieu.\n4. Deux côtés opposés sont parallèles et de même longueur.\n\n*Exemple :* Soit $ABCD$ un quadrilatère tel que $AB = CD$ et $AB \\parallel CD$. Montrer que $ABCD$ est un parallélogramme.\n\n*Solution :* D'après la propriété 4, c'est immédiat : $ABCD$ est un parallélogramme.\n\n**Méthode 2 : Utiliser les propriétés pour calculer des longueurs ou des angles**\n\n*Exemple :* Dans un parallélogramme $ABCD$, on sait que $AB = 5$ cm, $BC = 3$ cm et $\\widehat{A} = 60^\\circ$. Calculer $CD$, $AD$ et les autres angles.\n\n*Solution :*\n- $CD = AB = 5$ cm (côtés opposés égaux).\n- $AD = BC = 3$ cm.\n- $\\widehat{C} = \\widehat{A} = 60^\\circ$ (angles opposés égaux).\n- $\\widehat{B} = 180^\\circ - 60^\\circ = 120^\\circ$ (angles consécutifs supplémentaires).\n- $\\widehat{D} = \\widehat{B} = 120^\\circ$.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre parallélogramme et rectangle** : Un rectangle est un parallélogramme, mais un parallélogramme n'est pas forcément un rectangle. Ne pas supposer qu'un parallélogramme a des angles droits.\n- **Oublier que les diagonales se coupent en leur milieu** : Beaucoup d'élèves oublient cette propriété. Elle est très utile pour trouver le centre ou pour démontrer qu'un quadrilatère est un parallélogramme.\n- **Utiliser une propriété non vérifiée** : Par exemple, on ne peut pas dire qu'un quadrilatère est un parallélogramme simplement parce que ses côtés opposés sont égaux ; il faut aussi vérifier le parallélisme ou utiliser une autre condition.\n- **Erreur de calcul d'angles** : Se rappeler que la somme des angles d'un quadrilatère est $360^\\circ$, mais pour un parallélogramme, les angles opposés sont égaux et les consécutifs supplémentaires.\n\n## Synthèse\n\n1. **Définition** : Un parallélogramme a ses côtés opposés parallèles.\n2. **Propriétés** : Les côtés opposés sont égaux, les angles opposés sont égaux, les angles consécutifs sont supplémentaires, et les diagonales se coupent en leur milieu.\n3. **Utilisation** : Pour démontrer qu'un quadrilatère est un parallélogramme, on peut utiliser ces propriétés ; pour calculer des mesures, on les applique directement.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "géométrie",
+    "parallélogramme",
+    "quadrilatères",
+    "propriétés",
+    "collège"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans un parallélogramme ABCD, que peut-on dire des longueurs AB et CD ?",
+      "options": [
+        "AB = CD",
+        "AB > CD",
+        "AB < CD",
+        "On ne peut pas savoir"
+      ],
+      "answer": 0,
+      "explanation": "Dans un parallélogramme, les côtés opposés sont de même longueur, donc AB = CD."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Les diagonales d'un parallélogramme se coupent en leur milieu.",
+      "answer": true,
+      "explanation": "C'est une propriété fondamentale des parallélogrammes : les diagonales se coupent en leur milieu."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Dans un parallélogramme, la somme de deux angles consécutifs est égale à ___ degrés.",
+      "answer": "180",
+      "explanation": "Les angles consécutifs d'un parallélogramme sont supplémentaires, leur somme vaut 180°."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel quadrilatère est toujours un parallélogramme ?",
+      "options": [
+        "Un trapèze",
+        "Un rectangle",
+        "Un cerf-volant",
+        "Un quadrilatère quelconque"
+      ],
+      "answer": 1,
+      "explanation": "Un rectangle est un parallélogramme car il a ses côtés opposés parallèles."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Si un quadrilatère a ses diagonales qui se coupent en leur milieu, alors c'est un parallélogramme.",
+      "answer": true,
+      "explanation": "C'est une condition suffisante pour qu'un quadrilatère soit un parallélogramme."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Dans un parallélogramme ABCD, si AB = 7 cm et BC = 4 cm, alors CD = ___ cm.",
+      "answer": "7",
+      "explanation": "Les côtés opposés sont égaux, donc CD = AB = 7 cm."
+    }
+  ]
+}

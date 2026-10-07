@@ -1,0 +1,173 @@
+{
+  "id": "svt-sixieme-consequences-des-actions-nefastes-de-l-homme",
+  "subjectId": "svt",
+  "levelId": "sixieme",
+  "slug": "consequences-des-actions-nefastes-de-l-homme",
+  "title": "Conséquences des actions néfastes de l'homme (6e)",
+  "summary": "Leçon de SVT pour les élèves de 6e visant à identifier les impacts environnementaux et sanitaires des activités humaines néfastes (déforestation, pollution, braconnage, etc.). Les élèves observent des documents, formulent des hypothèses, les vérifient par enquête et proposent des actions préventives, développant compétences scientifiques et citoyennes.",
+  "lesson": "## Objectifs\n- Identifier les conséquences écologiques et sanitaires des actions néfastes de l'homme.\n- Formuler et vérifier des hypothèses à partir de documents visuels.\n- Proposer des mesures pour éviter ces impacts.\n\n## Compétences visées\n- **CD2** : Interagir avec l’environnement pour un développement durable.\n- **CB1** : Analyser des documents et déduire les conséquences des actions humaines.\n\n## Matériel\n- Planches illustrant déforestation, feux de brousse, pollution, braconnage, etc.\n- Fiches d’enquête, tableau de résultats, documents EVF/EMP.\n- Tableau blanc, marqueurs.\n\n## Séance 1 (1h30) – Motivation & première hypothèse\n1. **Motivation** (10 min) : Distribution des planches; observation libre (2 min) puis mise en commun des observations.\n2. **Questionnement** (10 min) : « Qui est responsable ? », « Quels sont les constats ? »\n3. **Formulation d’hypothèses** (15 min) : En groupe, les élèves rédigent deux hypothèses (ex. : les actions néfastes affectent l’environnement et la santé).\n4. **Vérification partielle** (30 min) : Analyse de documents (statistiques, photos) ; remplissage de la fiche d’enquête.\n5. **Synthèse** (15 min) : Chaque groupe partage ses constats, le professeur note les points clés sur le tableau.\n\n## Séance 2 (1h30) – Deuxième hypothèse & intégration\n1. **Rappel des hypothèses** (5 min).\n2. **Vérification de la deuxième hypothèse** (30 min) : Étude de cas (pollution de l’eau) ; tableau de corrélation cause‑effet.\n3. **Activité d’intégration** (35 min) : Élaboration d’un plan d’action (affiches, slogans) pour prévenir les impacts identifiés.\n4. **Évaluation formative** (15 min) : Quiz interactif et discussion.\n\n## Évaluation\n- Observation des productions (fiches, affiches).\n- Quiz de 10 questions (voir ci‑dessous).\n- Participation orale lors des débats.\n\n## Remarques pédagogiques\n- Favoriser le travail collectif puis individuel pour consolider les acquis.\n- Insister sur le respect de l’environnement comme valeur citoyenne.\n- Adapter les documents aux niveaux de lecture des élèves.",
+  "estimatedMinutes": 60,
+  "tags": [
+    "svt",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle activité humaine est directement liée à la perte de biodiversité locale?",
+      "options": [
+        "Agriculture intensive",
+        "Pêche industrielle",
+        "Déforestation",
+        "Pollution de l’air"
+      ],
+      "answer": 2,
+      "explanation": "La déforestation détruit les habitats et entraîne la perte de nombreuses espèces."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Les feux de brousse peuvent augmenter les émissions de gaz à effet de serre.",
+      "answer": true,
+      "explanation": "Les feux libèrent du CO₂ et d’autres gaz qui contribuent au réchauffement climatique."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le braconnage affecte principalement la ___ des espèces sauvages.",
+      "answer": "population",
+      "explanation": "Le braconnage réduit la taille des populations animales."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel indicateur montre la pollution de l’eau dans un cours d’eau?",
+      "options": [
+        "Turbidité élevée",
+        "pH neutre",
+        "Température basse",
+        "Présence de macroalgues"
+      ],
+      "answer": 0,
+      "explanation": "Une turbidité élevée indique la présence de particules en suspension, signe de pollution."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La pollution des sols n’a aucune influence sur la santé humaine.",
+      "answer": false,
+      "explanation": "Les contaminants du sol peuvent pénétrer la chaîne alimentaire et affecter la santé."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Parmi les propositions suivantes, laquelle est une mesure de prévention contre la déforestation?",
+      "options": [
+        "Planter des arbres",
+        "Augmenter la chasse",
+        "Construire plus de routes",
+        "Utiliser des engrais chimiques"
+      ],
+      "answer": 0,
+      "explanation": "Le reboisement compense la perte d’arbres et protège les sols."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "La pollution de l’air peut provoquer des problèmes respiratoires comme l'___.",
+      "answer": "asthme",
+      "explanation": "L’asthme est une maladie respiratoire aggravée par la mauvaise qualité de l’air."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel document les élèves ont‑ils analysé pour vérifier l’hypothèse sur la santé?",
+      "options": [
+        "Tableau de mortalité infantile",
+        "Carte des forêts",
+        "Rapport sur la pêche",
+        "Diagramme du cycle de l’eau"
+      ],
+      "answer": 0,
+      "explanation": "Le tableau de mortalité infantile montre les effets sanitaires des pollutions."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "L’agriculture extensive utilise généralement moins de produits chimiques que l’agriculture intensive.",
+      "answer": true,
+      "explanation": "L’agriculture extensive repose sur de grandes surfaces avec moins d’intrants chimiques."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Le terme \"___\" désigne l’ensemble des actions visant à réduire l’impact humain sur la nature.",
+      "answer": "développement durable",
+      "explanation": "Le développement durable vise à concilier besoins humains et préservation de l’environnement."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel résultat attend‑on d’une enquête sur la pollution des sols?",
+      "options": [
+        "Identifier les sources de contamination",
+        "Mesurer la vitesse du vent",
+        "Compter le nombre d’arbres",
+        "Évaluer la luminosité"
+      ],
+      "answer": 0,
+      "explanation": "L’enquête vise à localiser les polluants et leurs origines."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Les enfants malnutris peuvent être un indicateur indirect de la dégradation environnementale.",
+      "answer": true,
+      "explanation": "La dégradation des ressources alimentaires affecte la nutrition des populations."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quelle action permet de limiter la pêche intensive?",
+      "options": [
+        "Création de réserves marines",
+        "Augmentation des quotas",
+        "Construction de barrages",
+        "Utilisation de filets plus grands"
+      ],
+      "answer": 0,
+      "explanation": "Les réserves marines protègent les espèces et régulent la pêche."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Le phénomène où les sols perdent leurs nutriments à cause de l’érosion s’appelle ___.",
+      "answer": "dégradation du sol",
+      "explanation": "L’érosion entraîne la perte de matière organique et de nutriments."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Distribuer les résultats de l’enquête aux élèves favorise la prise de décision collective.",
+      "answer": true,
+      "explanation": "Le partage d’informations permet aux élèves de proposer des actions communes."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel support les élèves utilisent‑ils pour résumer leurs observations?",
+      "options": [
+        "Fiche d’enquête",
+        "Tableau blanc",
+        "Poster publicitaire",
+        "Vidéo YouTube"
+      ],
+      "answer": 0,
+      "explanation": "La fiche d’enquête consigne les observations et les hypothèses formulées."
+    }
+  ]
+}

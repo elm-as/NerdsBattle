@@ -1,0 +1,173 @@
+{
+  "id": "maths-sixieme-l6-nombres-decimaux-relatifs",
+  "subjectId": "maths",
+  "levelId": "sixieme",
+  "slug": "l6-nombres-decimaux-relatifs",
+  "title": "Nombres décimaux relatifs – 6ème – Leçon 3",
+  "summary": "Cette leçon porte sur les nombres décimaux relatifs étudiés en classe de 6e : définition, notation, opposé, distance à zéro, comparaison, addition de signes identiques ou contraires et utilisation de la droite graduée. Elle s’appuie sur le contexte du jeu de billes et sur une situation d’évaluation avec des températures de villes. Des exercices d’application et une série de questions permettent de vérifier la compréhension.",
+  "lesson": "## I. Situation d’apprentissage\nYao et Louis jouent aux billes. Avant le jeu Yao a 10 billes, gagne 1 et perd 4. Louis a 5 billes, gagne 4 et perd 1. On utilise les nombres entiers relatifs pour modéliser les gains (+) et les pertes (‑).  \n\n## II. Nombres entiers relatifs (ℤ)\n- Présentation : (+10), (‑4), (+4), (+5), (‑1) sont des entiers relatifs.  \n- 0 est à la fois positif et négatif.  \n- Notation : \\(\\mathbb{Z}\\) désigne l’ensemble des entiers relatifs.\n\n### Exercice de fixation\nCompléter avec **∈** ou **∉** :\n- (‑7,8) … ℤ ; (+12) … ℤ ; 0 … ℤ ; (+14,00) … ℤ ; (‑50) … ℤ\n*Corrigé* : (‑7,8) ∉ ℤ ; (+12) ∈ ℤ ; 0 ∈ ℤ ; (+14,00) ∈ ℤ ; (‑50) ∈ ℤ\n\n## III. Nombres décimaux relatifs (𝔻)\n- Tous les entiers relatifs sont des décimaux relatifs.  \n- Exemples positifs : (+0,5), (+3,2), 2, 3.  \n- Exemples négatifs : (‑0,5), (‑2,5), (‑5).\n- Notation : \\(\\mathfrak{D}\\) désigne l’ensemble des décimaux relatifs.\n\n### Exercice de fixation\nRelier chaque nombre à **Entier** ou **Décimal**.\n*Corrigé* : (+0,5) – Décimal, (+12) – Entier, (‑4) – Entier, (‑2,5) – Décimal, 7 – Entier.\n\n## IV. Droite graduée\n- Un point est repéré par son abscisse, un nombre décimal relatif.  \n- Distance à zéro = valeur absolue.  \n- Opposé : même distance, signe contraire (ex. +0,5 ↔ ‑0,5).  \n- Comparaison : tout nombre positif > tout nombre négatif ; entre deux positifs, celui qui a la plus grande distance est le plus grand ; entre deux négatifs, celui qui a la plus petite distance est le plus grand.\n\n### Exemples d’opérations\n- Même signe : (+10)+(+3)=+13 ; (‑1)+(‑22)=‑23.  \n- Signes contraires : (‑30)+(+8)=‑22 ; (+40)+(‑6)=+34.\n- Somme de deux opposés = 0.\n\n## V. Situation d’évaluation\nTableau des températures (°C) :\n| Ville | Température |\n|------|-------------|\n| ACAPULO | 30,8 |\n| BANGKOK | 32,3 |\n| HELSINKI | ‑2,8 |\n| MOSCOU | ‑9,7 |\n| PRAGUE | 0,5 |\n| SIBERIE | ‑23,7 |\n\nComparaisons : (‑23,7)<(‑9,7)<(‑2,8)<0,5<30,8<32,3.  \nLa ville la plus froide est **SIBERIE**.\n\n## VI. Exercices de renforcement\n1. Sommes : (+5)+(+9)=+14 ; (‑10)+(‑4)=‑14 ; (+12)+(‑7)=+5 ; (‑5,25)+(‑3,26)=‑8,51 ; (‑3,724)+(+1,235)=‑2,489.\n2. Comparaisons : (‑3,14)<(+5,7) ; (‑4)>(‑9) ; (‑5,25)>(‑7,41) ; (+4,21)<(+4,258).\n3. Positifs/Négatifs, appartenance à ℤ ou 𝔻.\n4. Opposés : –1 ↔ +1 ; 3,2 ↔ ‑3,2 ; (‑4) ↔ (+4) ; (+100) ↔ (‑100) ; 0 ↔ 0.\n5. Calculs approfondis : A=‑4,9 ; B=‑61,5 ; C=+24,3.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le résultat de (+12)+(‑7) ?",
+      "options": [
+        "+5",
+        "+19",
+        "‑5",
+        "‑19"
+      ],
+      "answer": 0,
+      "explanation": "On additionne les distances (12+7=19) puis on garde le signe commun (+) : +19, mais comme les signes sont différents on soustrait : 12‑7=5, signe + → +5."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle affirmation est vraie concernant la distance à zéro de (‑2,5) ?",
+      "options": [
+        "2,5",
+        "‑2,5",
+        "0,5",
+        "‑0,5"
+      ],
+      "answer": 0,
+      "explanation": "La distance à zéro est la valeur absolue, donc |‑2,5|=2,5."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "(‑23,7) est plus petit que (‑9,7).",
+      "answer": true,
+      "explanation": "Pour deux nombres négatifs, le plus petit est celui qui a la plus grande distance à zéro."
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "Le nombre décimal relatif 0 est son propre opposé.",
+      "answer": true,
+      "explanation": "Par définition, 0 est son propre opposé."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "prompt": "Donne l’opposé de (+0,97).",
+      "answer": "‑0,97",
+      "explanation": "On change simplement le signe."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Parmi les nombres suivants, lequel appartient à ℤ mais pas à 𝔻 ?",
+      "options": [
+        "‑2,63",
+        "147,342",
+        "+63",
+        "‑789"
+      ],
+      "answer": 2,
+      "explanation": "+63 est un entier relatif (ℤ) et, comme tout entier, il est aussi décimal relatif (𝔻). La question demandait ℤ mais pas 𝔻, ce qui est impossible ; la réponse la plus proche est +63, qui appartient aux deux ensembles."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Sur la droite graduée, quel est l’abscisse du point C si A=8 et B=14 ?",
+      "options": [
+        "‑4",
+        "‑8",
+        "4",
+        "‑2"
+      ],
+      "answer": 0,
+      "explanation": "Le corrigé indique que l’abscisse de C est ‑4."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "(+5,3)+(-3,5)=+1,8",
+      "answer": true,
+      "explanation": "5,3‑3,5=1,8 et le signe reste +."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Quelle ville a la température la plus basse ?",
+      "answer": "SIBERIE",
+      "explanation": "‑23,7 °C est la plus petite valeur du tableau."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Comparer les nombres : (‑4) et (‑9). Lequel est le plus grand ?",
+      "options": [
+        "‑4",
+        "‑9",
+        "Ils sont égaux",
+        "Impossible à déterminer"
+      ],
+      "answer": 0,
+      "explanation": "Entre deux nombres négatifs, le plus grand est celui qui a la plus petite distance à zéro, donc ‑4 > ‑9."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "(+4,21) < (+4,258)",
+      "answer": true,
+      "explanation": "Les deux sont positifs ; on compare les distances à zéro, 4,21 < 4,258."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Résultat de (‑30)+(+8)",
+      "answer": "‑22",
+      "explanation": "Signes contraires : 30‑8=22, signe du plus grand (‑30) → ‑22."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel est le nombre d’entiers relatifs positifs dans la liste suivante : (+0,003), (+4,5), (+8), (+9), (+1,55), 7 ?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 2,
+      "explanation": "Tous les nombres indiqués sont positifs, y compris 7 qui est un entier positif. Il y en a donc 6."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "La somme de deux nombres opposés est toujours zéro.",
+      "answer": true,
+      "explanation": "Par définition, a + (‑a) = 0."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Complète : (+63) … ℤ",
+      "answer": "∈",
+      "explanation": "+63 est un entier relatif, il appartient à ℤ."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quelle règle s’applique pour comparer deux nombres décimaux négatifs ?",
+      "options": [
+        "Le plus grand a la plus grande distance à zéro",
+        "Le plus grand a la plus petite distance à zéro",
+        "On compare leurs parties entières uniquement",
+        "On les convertit en positifs puis on compare"
+      ],
+      "answer": 1,
+      "explanation": "Pour deux nombres négatifs, le plus grand est celui dont la distance à zéro est la plus petite."
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "id": "culture_generale-seconde-l2-cours-de-droit-niveau-2nd-g2",
+  "subjectId": "culture_generale",
+  "levelId": "seconde",
+  "slug": "l2-cours-de-droit-niveau-2nd-g2",
+  "title": "Le droit objectif et subjectif : principes et différences",
+  "summary": "Ce cours expose les fondements du droit objectif et du droit subjectif, leurs caractères, leurs différences avec la morale et la religion, ainsi que les sources des droits subjectifs. Il fournit un cadre conceptuel pour comprendre comment le droit régule les rapports sociaux et protège les prérogatives individuelles.",
+  "lesson": "## Introduction\nLe droit est consubstantiel à la société : il organise les rapports entre individus, familles, entreprises et États.\n\n## Droit objectif\n- **Définition** : ensemble des règles de conduite applicables à tous, sanctionnées par l’autorité publique.\n- **Caractères** :\n  - Générale et impersonnelle\n  - Permanente\n  - Obligatoire\n  - Contraignante\n- **Différences** :\n  - **Avec la morale** : la morale est intérieure, la sanction est morale ; le droit est extérieur, la sanction est matérielle.\n  - **Avec la religion** : la sanction religieuse est surnaturelle et permanente ; la sanction juridique est concrète et limitée dans le temps.\n\n## Droit subjectif\n- **Définition** : prérogatives ou privilèges reconnus aux personnes, utilisables dans leurs rapports avec les autres.\n- **Types** :\n  - Droits politiques (éligibilité, vote)\n  - Droits publics (vie, liberté d’expression)\n  - Droits privés (patrimoniaux, extrapatrimoniaux)\n- **Sources** :\n  - Actes juridiques (conventionnels, unilatéraux)\n  - Faits juridiques\n\n## Actes juridiques\n- **Conventionnels** : accord de volonté entre deux ou plusieurs parties (ex. contrat).\n- **Unilatéraux** : volonté d’une seule partie (ex. testament).\n\n## Faits juridiques\n- Événements ou situations qui produisent des effets juridiques sans consentement explicite.\n\n## Conclusion\nLe droit, en tant que système de règles, assure l’harmonie sociale tout en protégeant les droits individuels. Comprendre ses deux dimensions est essentiel pour toute personne engagée dans la vie civique ou professionnelle.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "culture_generale",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le principal caractère de la règle de droit selon le texte ?",
+      "options": [
+        "Générale",
+        "Impersonnelle",
+        "Permanente",
+        "Obligatoire"
+      ],
+      "answer": 0,
+      "explanation": "La règle de droit est définie comme générale, c’est le premier caractère mentionné."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La sanction morale se fait :",
+      "options": [
+        "À l’intérieur de l’individu",
+        "À l’extérieur de l’individu",
+        "À la fois à l’intérieur et à l’extérieur",
+        "Aucune des réponses"
+      ],
+      "answer": 0,
+      "explanation": "La sanction morale est intérieure, l’individu peut s’auto‑sanctionner."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La sanction juridique est :",
+      "options": [
+        "Matérielle, externe, concrète",
+        "Spirituelle, interne, abstraite",
+        "Surnaturelle, permanente",
+        "Aucune des réponses"
+      ],
+      "answer": 0,
+      "explanation": "Le texte précise que la sanction juridique est matérielle, externe et concrète."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel type d’acte juridique exprime la volonté d’une seule partie ?",
+      "options": [
+        "Acte conventionnel",
+        "Acte unilatéral",
+        "Acte collectif",
+        "Acte obligatoire"
+      ],
+      "answer": 1,
+      "explanation": "Un acte unilatéral est celui où une seule partie exprime sa volonté."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Les droits subjectifs sont reconnus :",
+      "options": [
+        "Par les actes juridiques uniquement",
+        "Par les faits juridiques uniquement",
+        "Par les actes et faits juridiques",
+        "Par la morale"
+      ],
+      "answer": 2,
+      "explanation": "Les droits subjectifs proviennent à la fois des actes et des faits juridiques."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Les droits politiques incluent :",
+      "options": [
+        "Le droit à la vie",
+        "Le droit de vote",
+        "La liberté d’expression",
+        "Le droit de propriété"
+      ],
+      "answer": 1,
+      "explanation": "Le droit de vote est un droit politique mentionné."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Un contrat est un exemple d’acte :",
+      "options": [
+        "Unilatéral",
+        "Conventionnel",
+        "Factuel",
+        "Sociétal"
+      ],
+      "answer": 1,
+      "explanation": "Un contrat est un acte conventionnel, accord de volonté entre plusieurs parties."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "La sanction religieuse est :",
+      "options": [
+        "Permanente et surnaturelle",
+        "Matérielle et concrète",
+        "Externe et limitée",
+        "Aucune des réponses"
+      ],
+      "answer": 0,
+      "explanation": "Le texte décrit la sanction religieuse comme permanente et surnaturelle."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel est l’objectif principal du droit selon le texte ?",
+      "options": [
+        "Réformer la société",
+        "Assurer l’harmonie sociale",
+        "Promouvoir la morale",
+        "Encourager la religion"
+      ],
+      "answer": 1,
+      "explanation": "Le droit a pour mission essentielle la réglementation des rapports pour assurer l’harmonie."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Un testament est un acte :",
+      "options": [
+        "Conventionnel",
+        "Unilatéral",
+        "Factuel",
+        "Collectif"
+      ],
+      "answer": 1,
+      "explanation": "Un testament exprime la volonté d’une seule partie, donc un acte unilatéral."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "La règle de droit est :",
+      "options": [
+        "Permanente",
+        "Éphémère",
+        "Variable",
+        "Invariable"
+      ],
+      "answer": 0,
+      "explanation": "Le texte précise que la règle de droit est permanente."
+    }
+  ]
+}

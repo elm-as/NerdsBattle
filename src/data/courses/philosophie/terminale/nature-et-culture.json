@@ -1,0 +1,70 @@
+{
+  "id": "philosophie-terminale-nature-et-culture",
+  "title": "Nature et Culture",
+  "summary": "Ce chapitre explore la distinction entre ce qui est inné (nature) et ce qui est acquis (culture), une question fondamentale pour comprendre l'être humain. Il vous aidera à analyser des textes philosophiques et à argumenter avec rigueur lors de l'épreuve du BAC.",
+  "lesson": "## Introduction & Mise en situation\n\nPourquoi ce chapitre est-il crucial ? Parce qu'il interroge ce qui fait de nous des humains. Sommes-nous le produit de notre biologie ou de notre éducation ? Cette question traverse toute la philosophie et vous permet de décrypter les débats contemporains : genre, intelligence artificielle, diversité culturelle. Au BAC, vous serez amené à mobiliser ces concepts pour commenter des textes ou disserter. Maîtriser cette distinction vous donnera une base solide pour argumenter.\n\n## 1. Définitions et Principes Fondamentaux\n\n**Nature** : ensemble des caractéristiques innées, universelles et immuables de l'être humain. Elle renvoie à ce qui est donné avant toute intervention humaine. Par exemple, le besoin de manger, la capacité de raisonner, les instincts.\n\n**Culture** : ensemble des acquisitions, des savoirs, des croyances, des arts, des lois, des coutumes propres à une société. Elle est transmise par l'éducation et la tradition. Elle est variable selon les groupes et évolue dans le temps.\n\n**Relation nature/culture** : L'homme est un être à la fois naturel et culturel. Sa nature lui donne des potentialités, mais c'est la culture qui les actualise. La culture transforme la nature : elle la canalise, la sublime, la dépasse. Par exemple, la sexualité (nature) est régulée par des règles matrimoniales (culture).\n\n**Formules symboliques** : \n- $\\text{Homme} = \\text{Nature} + \\text{Culture}$\n- $\\text{Culture} = \\sum (\\text{acquis})$\n- $\\text{Nature} = \\bigcap (\\text{inné})$\n\nCes formules ne sont pas mathématiques au sens strict, mais elles aident à conceptualiser.\n\n## 2. Propriétés et Méthodes d'application\n\nPour analyser une situation ou un texte, suivez cette méthode :\n\n1. **Identifier** ce qui relève de la nature (données biologiques, instincts, universaux).\n2. **Identifier** ce qui relève de la culture (coutumes, lois, techniques, langues).\n3. **Examiner** les interactions : la culture transforme-t-elle la nature ? La nature contraint-elle la culture ?\n4. **Conclure** en montrant que l'homme est un être historiquement et socialement construit.\n\n**Exemple concret** : Le langage. La capacité de parler est naturelle (innée), mais la langue parlée est culturelle (acquise). Un enfant privé de contact humain ne développera pas le langage articulé (cas des enfants sauvages). On voit donc que la culture est nécessaire pour actualiser la potentialité naturelle.\n\n**Exemple calculé** : Imaginons une société où l'espérance de vie est de 60 ans. Si les progrès médicaux (culture) ajoutent 10 ans, alors l'espérance de vie devient 70 ans. On peut écrire : $\\text{Espérance de vie} = \\text{Base naturelle} + \\text{Apport culturel}$. Ici, $60 + 10 = 70$.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre nature et culture** : Ne dites pas que tout est naturel. Par exemple, la monogamie n'est pas naturelle, elle est culturelle.\n- **Croire que la culture s'oppose totalement à la nature** : Elle la transforme, mais elle s'appuie sur elle.\n- **Négliger le rôle de l'éducation** : La culture ne s'hérite pas biologiquement, elle se transmet.\n- **Utiliser des exemples stéréotypés** : Évitez les clichés sur les \"sauvages\" ou les \"civilisés\".\n\n## Synthèse\n\n1. La nature désigne l'inné, l'universel ; la culture désigne l'acquis, le particulier.\n2. L'homme est un être naturellement culturel : sa nature est d'être culturel.\n3. La culture transforme la nature, mais elle ne l'élimine jamais totalement.\n\nRetenez ces trois points pour réussir vos dissertations.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "philosophie",
+    "nature",
+    "culture",
+    "bac",
+    "anthropologie"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Laquelle de ces caractéristiques relève de la nature chez l'être humain ?",
+      "options": [
+        "La langue française",
+        "Le besoin de respirer",
+        "La pratique du football",
+        "Le code de la route"
+      ],
+      "answer": 1,
+      "explanation": "Le besoin de respirer est un besoin biologique inné, donc naturel. Les autres sont des acquisitions culturelles."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La culture est transmise par l'éducation et la tradition.",
+      "answer": true,
+      "explanation": "La culture se transmet de génération en génération par l'apprentissage, l'éducation, etc."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Complète la phrase : 'L'homme est un être à la fois naturel et ______.'",
+      "answer": "culturel",
+      "explanation": "L'homme possède une nature biologique mais il est aussi façonné par la culture."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Selon la formule simplifiée, si la nature apporte une base de 50 et la culture ajoute 30, quel est le total ?",
+      "options": [
+        "80",
+        "20",
+        "1500",
+        "0.6"
+      ],
+      "answer": 0,
+      "explanation": "50 + 30 = 80. La culture s'ajoute à la nature."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La monogamie est un comportement naturel chez l'être humain.",
+      "answer": false,
+      "explanation": "La monogamie est une institution culturelle, variable selon les sociétés."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Complète : 'La ______ désigne ce qui est inné, universel, immuable.'",
+      "answer": "nature",
+      "explanation": "La nature renvoie aux caractéristiques biologiques et innées."
+    }
+  ]
+}

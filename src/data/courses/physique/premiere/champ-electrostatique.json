@@ -1,0 +1,76 @@
+{
+  "id": "physique-premiere-champ-electrostatique",
+  "title": "Champ électrostatique et force de Coulomb",
+  "summary": "Ce chapitre vous permet de comprendre comment les charges électriques interagissent à distance, une notion fondamentale pour expliquer l'électricité et le magnétisme. La maîtrise de la loi de Coulomb et du champ électrostatique est indispensable pour résoudre de nombreux exercices de physique au lycée et au bac.",
+  "lesson": "## Introduction & Mise en situation\n\nPourquoi les cheveux se dressent-ils quand on les frotte avec un ballon ? Pourquoi une règle en plastique attire-t-elle de petits morceaux de papier ? Ces phénomènes sont dus à l'électricité statique. Pour les expliquer, les physiciens ont introduit les concepts de **charge électrique**, de **force électrostatique** et de **champ électrostatique**. Ces notions sont essentielles pour comprendre le fonctionnement des condensateurs, des écrans tactiles, ou encore la foudre. Dans ce cours, nous allons étudier la loi de Coulomb qui décrit la force entre deux charges, puis le champ électrostatique qui représente l'influence d'une charge sur l'espace environnant.\n\n## 1. Définitions et Principes Fondamentaux\n\n### Charge électrique\n\nLa charge électrique est une propriété de la matière qui peut être positive ou négative. Elle se note $q$ et s'exprime en coulombs (C). Les protons portent une charge positive, les électrons une charge négative. La charge élémentaire est $e = 1,6 \\times 10^{-19}\\,\\text{C}$.\n\n### Loi de Coulomb\n\nDeux charges ponctuelles $q_1$ et $q_2$ placées à une distance $r$ exercent l'une sur l'autre une force électrostatique dont la valeur est :\n\n$$ F = k \\cdot \\frac{|q_1 \\cdot q_2|}{r^2} $$\n\navec $k$ la constante de Coulomb : $k = 9 \\times 10^9\\,\\text{N·m}^2/\\text{C}^2$.\n\nLa force est attractive si les charges sont de signes opposés, répulsive si elles sont de même signe. Elle est portée par la droite joignant les deux charges.\n\n### Champ électrostatique\n\nLe champ électrostatique créé par une charge ponctuelle $Q$ en un point M situé à une distance $r$ est une grandeur vectorielle notée $\\vec{E}$ :\n\n$$ \\vec{E} = k \\cdot \\frac{Q}{r^2} \\cdot \\vec{u} $$\n\noù $\\vec{u}$ est un vecteur unitaire dirigé de la charge vers le point M (si $Q>0$) ou du point M vers la charge (si $Q<0$). La valeur du champ est $E = k \\cdot \\frac{|Q|}{r^2}$ et s'exprime en volts par mètre (V/m).\n\nLe champ électrostatique est une propriété de l'espace : il existe même en l'absence de charge témoin. Une charge $q$ placée dans un champ $\\vec{E}$ subit une force $\\vec{F} = q \\cdot \\vec{E}$.\n\n## 2. Propriétés et Méthodes d'application\n\n### Méthode pour calculer la force de Coulomb\n\n1. Identifier les deux charges et leur distance.\n2. Calculer la valeur de la force avec la formule $F = k \\cdot \\frac{|q_1 \\cdot q_2|}{r^2}$.\n3. Déterminer le sens : attractif si les signes sont opposés, répulsif sinon.\n\n**Exemple :** Deux charges $q_1 = +2\\,\\mu\\text{C}$ et $q_2 = -3\\,\\mu\\text{C}$ sont séparées de $5\\,\\text{cm}$. Calculer la force.\n\n- Convertir : $2\\,\\mu\\text{C} = 2 \\times 10^{-6}\\,\\text{C}$, $3\\,\\mu\\text{C} = 3 \\times 10^{-6}\\,\\text{C}$, $r = 0,05\\,\\text{m}$.\n- $F = 9 \\times 10^9 \\times \\frac{(2 \\times 10^{-6})(3 \\times 10^{-6})}{(0,05)^2} = 9 \\times 10^9 \\times \\frac{6 \\times 10^{-12}}{2,5 \\times 10^{-3}} = 9 \\times 10^9 \\times 2,4 \\times 10^{-9} = 21,6\\,\\text{N}$.\n- La force est attractive car les signes sont opposés.\n\n### Méthode pour calculer le champ électrostatique\n\n1. Identifier la charge source $Q$ et le point M.\n2. Calculer la distance $r$ entre la charge et le point.\n3. Calculer la valeur $E = k \\cdot \\frac{|Q|}{r^2}$.\n4. Tracer le vecteur $\\vec{E}$ : dirigé vers l'extérieur si $Q>0$, vers la charge si $Q<0$.\n\n**Exemple :** Une charge $Q = -4\\,\\mu\\text{C}$ est à l'origine. Calculer le champ à $30\\,\\text{cm}$.\n\n- $r = 0,30\\,\\text{m}$.\n- $E = 9 \\times 10^9 \\times \\frac{4 \\times 10^{-6}}{(0,30)^2} = 9 \\times 10^9 \\times \\frac{4 \\times 10^{-6}}{0,09} = 9 \\times 10^9 \\times 4,44 \\times 10^{-5} = 4 \\times 10^5\\,\\text{V/m}$.\n- Le champ est dirigé vers la charge (car $Q<0$).\n\n### Principe de superposition\n\nSi plusieurs charges créent un champ en un point, le champ total est la somme vectorielle des champs individuels : $\\vec{E}_{total} = \\sum_i \\vec{E}_i$.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Oublier les valeurs absolues dans la loi de Coulomb :** La force est toujours positive, on prend $|q_1 \\cdot q_2|$.\n- **Confondre le signe de la charge dans la formule du champ :** La valeur $E$ est toujours positive, mais le sens du vecteur dépend du signe de $Q$.\n- **Ne pas convertir les unités :** Toujours convertir les distances en mètres et les charges en coulombs (attention aux microcoulombs $\\mu\\text{C}$ : $1\\,\\mu\\text{C} = 10^{-6}\\,\\text{C}$).\n- **Oublier que la force et le champ sont des vecteurs :** Il faut préciser la direction et le sens.\n- **Appliquer la formule de la force avec des charges non ponctuelles :** La loi de Coulomb n'est valable que pour des charges ponctuelles ou des sphères chargées uniformément (on considère alors la distance entre les centres).\n\n## Synthèse\n\n1. **Loi de Coulomb :** $F = k \\cdot \\frac{|q_1 \\cdot q_2|}{r^2}$ avec $k = 9 \\times 10^9\\,\\text{N·m}^2/\\text{C}^2$.\n2. **Champ électrostatique :** $E = k \\cdot \\frac{|Q|}{r^2}$ ; le vecteur $\\vec{E}$ est radial, sortant si $Q>0$, rentrant si $Q<0$.\n3. **Relation force-champ :** $\\vec{F} = q \\cdot \\vec{E}$ ; une charge positive subit une force dans le sens du champ, une charge négative dans le sens contraire.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "électrostatique",
+    "loi de Coulomb",
+    "champ électrique",
+    "première",
+    "physique"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Deux charges ponctuelles de +2 μC et -3 μC sont séparées de 10 cm. Quelle est la valeur de la force électrostatique entre elles ?",
+      "options": [
+        "5,4 N",
+        "54 N",
+        "0,54 N",
+        "540 N"
+      ],
+      "answer": 0,
+      "explanation": "F = k * |q1*q2| / r² = 9e9 * (2e-6 * 3e-6) / (0,1)² = 9e9 * 6e-12 / 0,01 = 9e9 * 6e-10 = 5,4 N."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Le champ électrostatique créé par une charge positive en un point est dirigé :",
+      "options": [
+        "vers la charge",
+        "dans le sens opposé à la charge",
+        "perpendiculairement à la charge",
+        "dans le sens du vecteur unitaire radial sortant"
+      ],
+      "answer": 3,
+      "explanation": "Pour une charge positive, le champ est radial sortant, donc dirigé dans le sens du vecteur unitaire radial."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "La force électrostatique entre deux charges de même signe est attractive.",
+      "answer": false,
+      "explanation": "Deux charges de même signe se repoussent, la force est répulsive."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Une charge de 4 μC est placée dans un champ électrostatique de valeur E = 2500 V/m. Calculer la force électrostatique exercée sur la charge (en N).",
+      "answer": "0,01",
+      "explanation": "F = q * E = 4e-6 * 2500 = 0,01 N."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle est l'unité du champ électrostatique dans le Système International ?",
+      "options": [
+        "newton (N)",
+        "volt par mètre (V/m)",
+        "coulomb (C)",
+        "joule (J)"
+      ],
+      "answer": 1,
+      "explanation": "Le champ électrostatique s'exprime en volts par mètre (V/m), équivalent à N/C."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Le principe de superposition stipule que le champ électrostatique total en un point est la somme vectorielle des champs créés par chaque charge.",
+      "answer": true,
+      "explanation": "C'est le principe de superposition : les champs s'additionnent vectoriellement."
+    }
+  ]
+}

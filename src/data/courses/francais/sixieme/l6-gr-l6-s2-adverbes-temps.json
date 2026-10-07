@@ -1,0 +1,199 @@
+{
+  "id": "francais-sixieme-l6-gr-l6-s2-adverbes-temps",
+  "subjectId": "francais",
+  "levelId": "sixieme",
+  "slug": "l6-gr-l6-s2-adverbes-temps",
+  "title": "Grammaire : Les adverbes de temps (6e)",
+  "summary": "Cette leçon définit l'adverbe de temps, présente ses formes simples et composées, et explique son emploi pour indiquer une date, une durée ou une période. Des exemples et exercices tirés du document officiel permettent de s'entraîner.",
+  "lesson": "# Grammaire : Les adverbes de temps\n\n## Définition\nL'adverbe de temps est un mot ou un groupe de mots qui indique le moment où se déroule l'action exprimée par le verbe.\n\n**Exemple :** Je mangeais **souvent** les légumes.\n\n## I. Les formes de l'adverbe de temps\nLes adverbes de temps se présentent sous deux formes :\n\n- **Forme simple** : un seul mot.\n  - Exemples : demain, hier, maintenant, souvent, bientôt.\n  - *Exemple :* Mon chien viendra **bientôt**.\n\n- **Forme composée** : plusieurs mots.\n  - Exemples : plus tard, aujourd'hui, après-demain, tout de suite, avant-hier.\n  - *Exemple :* Ils iront à la rizière **après-demain**.\n\n## II. L'emploi de l'adverbe de temps\nL'adverbe de temps s'emploie pour désigner :\n\n- **Une date**\n  - *Exemple :* **Demain**, nous laverons la moto.\n\n- **Une durée**\n  - *Exemple :* Mon grand-père vécut **longtemps** avant de mourir.\n\n- **Une période**\n  - *Exemple :* **Avant** j'étais pauvre, **maintenant** je suis devenu riche.\n\n## Exercices\n1. Remplace les pointillés par les adverbes de temps suivants : ici ; souvent ; maintenant ; demain ; avant.\n   - Je viens …… pour qu'on parle de mon avenir.\n   - Papa dit de laver les chiots …… de vaquer à nos occupations.\n   - Il dit de ne pas le laisser sortir car …… son propriétaire viendra le prendre.\n   - Il se cachait …… sous le canapé.\n\n2. Construis une phrase avec chacun de ces adverbes de temps : souvent ; maintenant ; demain ; avant.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "francais",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'un adverbe de temps ?",
+      "options": [
+        "Un mot qui indique le lieu de l'action",
+        "Un mot ou un groupe de mots qui indique le moment où se déroule l'action",
+        "Un mot qui indique la manière de l'action",
+        "Un mot qui indique la cause de l'action"
+      ],
+      "answer": 1,
+      "explanation": "D'après la définition, l'adverbe de temps indique le moment où se déroule l'action exprimée par le verbe."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Parmi les adverbes suivants, lequel est de forme simple ?",
+      "options": [
+        "après-demain",
+        "tout de suite",
+        "hier",
+        "avant-hier"
+      ],
+      "answer": 2,
+      "explanation": "« hier » est un adverbe de forme simple (un seul mot), tandis que les autres sont des formes composées."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel adverbe de temps est de forme composée ?",
+      "options": [
+        "souvent",
+        "bientôt",
+        "maintenant",
+        "tout de suite"
+      ],
+      "answer": 3,
+      "explanation": "« tout de suite » est composé de plusieurs mots, c'est donc une forme composée."
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "L'adverbe de temps peut indiquer une date, une durée ou une période.",
+      "answer": true,
+      "explanation": "Le document précise que l'adverbe de temps s'emploie pour désigner une date, une durée ou une période."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Dans la phrase « Mon chien viendra bientôt », l'adverbe « bientôt » est de forme composée.",
+      "answer": false,
+      "explanation": "« bientôt » est un adverbe de forme simple (un seul mot)."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Complétez : « Ils iront à la rizière ……… » avec l'adverbe de temps composé donné dans le document.",
+      "answer": "après-demain",
+      "explanation": "Le document donne l'exemple : « Ils iront à la rizière après-demain. »"
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Complétez : « Mon grand-père vécut ……… avant de mourir. » (adverbe de temps exprimant la durée)",
+      "answer": "longtemps",
+      "explanation": "L'exemple du document est : « Mon grand-père vécut longtemps avant de mourir. »"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Dans la phrase « Avant j'étais pauvre, maintenant je suis devenu riche », les adverbes « avant » et « maintenant » désignent :",
+      "options": [
+        "une date",
+        "une durée",
+        "une période",
+        "un lieu"
+      ],
+      "answer": 2,
+      "explanation": "Le document indique que ces adverbes servent à désigner une période."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel adverbe de temps est utilisé dans la phrase « j'irai demain au champ » ?",
+      "options": [
+        "j'irai",
+        "demain",
+        "au",
+        "champ"
+      ],
+      "answer": 1,
+      "explanation": "« demain » est l'adverbe de temps qui indique le moment de l'action."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Dans la phrase « Elle vient me voir souvent », « souvent » est un adverbe de temps.",
+      "answer": true,
+      "explanation": "« souvent » est un adverbe de temps de forme simple."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Complétez la phrase : « Le rat est rentré dans ce trou ……… » avec l'adverbe de temps du corpus.",
+      "answer": "hier",
+      "explanation": "Dans le corpus, la phrase P3 est : « Le rat est rentré dans ce trou hier. »"
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel adverbe de temps est de forme composée ?",
+      "options": [
+        "demain",
+        "hier",
+        "aujourd'hui",
+        "souvent"
+      ],
+      "answer": 2,
+      "explanation": "« aujourd'hui » est composé de plusieurs mots, c'est une forme composée."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Dans l'exercice 1, quel adverbe complète correctement : « Je viens …… pour qu'on parle de mon avenir. » ?",
+      "options": [
+        "ici",
+        "souvent",
+        "maintenant",
+        "demain"
+      ],
+      "answer": 2,
+      "explanation": "D'après le contexte, « maintenant » est l'adverbe de temps qui convient."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "L'adverbe de temps « souvent » indique une date précise.",
+      "answer": false,
+      "explanation": "« souvent » indique une fréquence, pas une date précise."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Complétez : « Papa dit de laver les chiots ……… de vaquer à nos occupations. » avec l'adverbe de temps donné dans l'exercice.",
+      "answer": "avant",
+      "explanation": "Dans l'exercice 1, l'adverbe « avant » complète cette phrase."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel adverbe de temps est de forme simple ?",
+      "options": [
+        "après-demain",
+        "avant-hier",
+        "bientôt",
+        "tout de suite"
+      ],
+      "answer": 2,
+      "explanation": "« bientôt » est un adverbe de forme simple (un seul mot)."
+    },
+    {
+      "id": "q17",
+      "type": "truefalse",
+      "prompt": "Dans la phrase « Demain, nous laverons la moto », l'adverbe « demain » désigne une date.",
+      "answer": true,
+      "explanation": "Le document donne cet exemple pour illustrer l'emploi de l'adverbe de temps pour désigner une date."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Quel adverbe de temps est utilisé dans la phrase « Pourquoi ne pas aller tout de suite voir le marchand de vêtements ? »",
+      "options": [
+        "pourquoi",
+        "ne pas",
+        "tout de suite",
+        "voir"
+      ],
+      "answer": 2,
+      "explanation": "« tout de suite » est l'adverbe de temps (forme composée) dans cette phrase."
+    }
+  ]
+}

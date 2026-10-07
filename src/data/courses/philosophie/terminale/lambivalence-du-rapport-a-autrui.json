@@ -1,0 +1,173 @@
+{
+  "id": "philosophie-terminale-lambivalence-du-rapport-a-autrui",
+  "subjectId": "philosophie",
+  "levelId": "terminale",
+  "slug": "lambivalence-du-rapport-a-autrui",
+  "title": "L’ambivalence du rapport à autrui – conflit et coopération",
+  "summary": "Analyse philosophique du double visage du rapport humain : la violence et la guerre (Hobbes, Hegel, Pascal, Sartre) contre l’entraide et la raison (Spinoza). Le texte explore comment ces visions structurent la pensée sociale et politique.",
+  "lesson": "## I. Introduction\nLe rapport à autrui oscille entre **hostilité** et **solidarité**. Cette ambivalence est centrale en philosophie morale et politique.\n\n## II. Le conflit comme fondement du rapport à autrui\n### A. Hobbes – « l’homme est un loup pour l’homme »\n- État de guerre de chacun contre chacun sans pouvoir commun.\n- Trois causes de querelle : rivalité (gain), défiance (sécurité), fierté (réputation).\n- La guerre justifie la création d’un État souverain.\n### B. Hegel – reconnaissance par le conflit\n- La reconnaissance se réalise à travers la lutte pour la reconnaissance mutuelle.\n### C. Pascal et Sartre – la haine et l’enfer des autres\n- Pascal : l’homme se hait naturellement, le moi est tyrannique.\n- Sartre : « L’enfer, c’est les autres » – autrui comme source d’angoisse.\n### D. Foucault & Clausewitz – guerre comme matrice sociale\n- La guerre comme continuation de la politique ou inversement.\n\n## III. La coopération comme idéal du rapport à autrui\n### A. Spinoza – l’homme est un Dieu pour l’homme\n- Les passions génèrent le conflit ; la raison conduit à l’accord.\n- Proposition 35 : sous la conduite de la Raison, les hommes s’accordent naturellement.\n### B. La raison et le commerce\n- Le commerce et la coopération sont des expressions de la rationalité humaine.\n\n## IV. Synthèse\n- Le conflit révèle les mécanismes de domination et de peur.\n- La raison offre une voie vers la coopération et la paix.\n- La société oscille entre ces deux pôles, influencée par les institutions et les discours philosophiques.\n\n## V. Applications pédagogiques\n- Débats en classe sur les citations de Hobbes, Pascal, Spinoza.\n- Études de cas historiques (guerres, traités de commerce).\n- Réflexion sur les institutions modernes (État, marché, réseaux sociaux).",
+  "estimatedMinutes": 10,
+  "tags": [
+    "philosophie",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Selon Hobbes, quelle condition met fin à la guerre de chacun contre chacun?",
+      "options": [
+        "La religion",
+        "Le commerce",
+        "Un pouvoir commun capable de les dominer par la peur",
+        "La démocratie"
+      ],
+      "answer": 2,
+      "explanation": "Hobbes affirme qu’un pouvoir souverain qui impose la peur met fin à l’état de guerre."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Hegel considère que la reconnaissance mutuelle s’obtient essentiellement à travers des relations conflictuelles.",
+      "answer": true,
+      "explanation": "Pour Hegel, la lutte est le moyen par lequel les individus se reconnaissent."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Pascal affirme que « Tous les hommes se ______ naturellement l’un l’autre. »",
+      "answer": "haïssent",
+      "explanation": "Citation exacte des Pensées de Pascal."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la troisième cause de querelle identifiée par Hobbes?",
+      "options": [
+        "Rivalité",
+        "Défiance",
+        "Fierté",
+        "Envie"
+      ],
+      "answer": 2,
+      "explanation": "Hobbes classe la fierté comme la troisième cause, liée à la réputation."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Selon Sartre, l’enfer est une métaphore de la solitude absolue.",
+      "answer": false,
+      "explanation": "Sartre dit « L’enfer, c’est les autres », soulignant l’angoisse d’être jugé."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel philosophe renverse la formule de Clausewitz en affirmant que la politique est la continuation de la guerre?",
+      "options": [
+        "Hobbes",
+        "Foucault",
+        "Spinoza",
+        "Kant"
+      ],
+      "answer": 1,
+      "explanation": "Foucault propose que la politique continue la guerre par d’autres moyens."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Spinoza affirme que les hommes ne s’opposent que lorsqu’ils sont mus par les ______.",
+      "answer": "passions",
+      "explanation": "Spinoza lie le conflit aux passions, opposées à la raison."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quelle proposition de Spinoza résume son optimisme rationnel?",
+      "options": [
+        "Proposition 12",
+        "Proposition 35",
+        "Proposition 48",
+        "Proposition 7"
+      ],
+      "answer": 1,
+      "explanation": "La Proposition 35 stipule que les hommes s’accordent sous la conduite de la Raison."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Pour Hobbes, la guerre est uniquement un phénomène historique observé chez les « sauvages » d’Amérique.",
+      "answer": false,
+      "explanation": "Hobbes utilise la guerre comme idée théorique pour justifier l’État."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est le rôle du commerce dans la vision spinoziste du rapport à autrui?",
+      "options": [
+        "Instrument de domination",
+        "Expression de la raison et de la coopération",
+        "Source de passion",
+        "Moyen de guerre économique"
+      ],
+      "answer": 1,
+      "explanation": "Spinoza voit le commerce comme une manifestation de la raison qui unit les hommes."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Selon Hobbes, l’égalité naturelle engendre la ______, qui conduit à la guerre.",
+      "answer": "défiance",
+      "explanation": "Hobbes lie égalité, défiance et guerre."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "La fierté, selon Hobbes, pousse les hommes à attaquer pour des raisons insignifiantes comme un sourire ou une opinion différente.",
+      "answer": true,
+      "explanation": "Hobbes décrit la fierté comme cause de querelle pour des bagatelles."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel texte de Sartre contient la phrase « L’enfer, c’est les autres »?",
+      "options": [
+        "Les Mouches",
+        "Huis-clos",
+        "La Nausée",
+        "Les Chemins de la liberté"
+      ],
+      "answer": 1,
+      "explanation": "La phrase provient de la pièce « Huis-clos »."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Hobbes écrit que sans pouvoir commun, les hommes vivent dans un état de ______.",
+      "answer": "guerre",
+      "explanation": "Citation directe du Léviathan, chap. 13."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Spinoza considère que la raison est opposée aux intérêts matériels des individus.",
+      "answer": false,
+      "explanation": "Pour Spinoza, la raison guide les intérêts vers le bien commun, non les oppose."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel philosophe affirme que chaque moi est l’ennemi et voudrait être le tyran de tous les autres?",
+      "options": [
+        "Hobbes",
+        "Pascal",
+        "Sartre",
+        "Kant"
+      ],
+      "answer": 1,
+      "explanation": "C’est la pensée de Pascal dans les Pensées, §§451‑455."
+    }
+  ]
+}

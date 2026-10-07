@@ -1,0 +1,70 @@
+{
+  "id": "maths-troisieme-equations-inequations",
+  "title": "Équations produits et inéquations",
+  "summary": "Maîtrisez les équations produits et les inéquations pour résoudre des problèmes complexes et réussir le BEPC. Ce chapitre vous donne les outils pour factoriser, étudier le signe d'un produit et résoudre des inéquations du premier degré.",
+  "lesson": "## Introduction & Mise en situation\n\nLes équations produits et les inéquations sont des outils fondamentaux en mathématiques. Ils permettent de résoudre des problèmes concrets où plusieurs facteurs interviennent, comme le calcul de bénéfices, la géométrie, ou la physique. Par exemple, pour déterminer quand une entreprise est rentable, on peut être amené à résoudre une inéquation. Ce chapitre vous apprendra à résoudre ces équations et inéquations de manière systématique, une compétence clé pour le BEPC et pour la suite de vos études.\n\n## 1. Définitions et Principes Fondamentaux\n\n### Équation produit\n\nUne **équation produit** est une équation de la forme $(ax + b)(cx + d) = 0$, où $a$, $b$, $c$, $d$ sont des nombres réels avec $a \\neq 0$ et $c \\neq 0$.\n\n**Propriété fondamentale :** Un produit de facteurs est nul si et seulement si au moins un des facteurs est nul.\n\n$$(ax + b)(cx + d) = 0 \\iff ax + b = 0 \\quad \\text{ou} \\quad cx + d = 0.$$\n\n### Inéquation du premier degré\n\nUne **inéquation du premier degré** à une inconnue est une inéquation qui peut se ramener à la forme $ax + b > 0$ (ou $< 0$, $\\geq 0$, $\\leq 0$), avec $a \\neq 0$.\n\n**Règle de résolution :** On isole $x$ en ajoutant ou soustrayant des termes, puis en multipliant ou divisant par un nombre. **Attention :** si on multiplie ou divise par un nombre négatif, il faut inverser le sens de l'inégalité.\n\n## 2. Propriétés et Méthodes d'application\n\n### Méthode pour résoudre une équation produit\n\n1. **Factoriser** si nécessaire pour obtenir un produit de facteurs du premier degré.\n2. **Appliquer la propriété :** poser chaque facteur égal à zéro.\n3. **Résoudre** chaque équation simple.\n4. **Donner l'ensemble des solutions** $S$.\n\n**Exemple :** Résoudre $(2x + 3)(x - 4) = 0$.\n\n- $2x + 3 = 0 \\Rightarrow x = -\\frac{3}{2}$\n- $x - 4 = 0 \\Rightarrow x = 4$\n\nDonc $S = \\{-\\frac{3}{2}; 4\\}$.\n\n### Méthode pour résoudre une inéquation produit\n\nPour résoudre une inéquation du type $(ax + b)(cx + d) > 0$ (ou $< 0$, etc.) :\n\n1. **Trouver les valeurs qui annulent** chaque facteur : $x_1 = -\\frac{b}{a}$ et $x_2 = -\\frac{d}{c}$.\n2. **Construire un tableau de signes** : on étudie le signe de chaque facteur selon les intervalles délimités par $x_1$ et $x_2$.\n3. **Utiliser la règle des signes** pour le produit.\n4. **Conclure** avec l'ensemble des solutions en fonction du sens de l'inégalité.\n\n**Exemple :** Résoudre $(x + 2)(x - 3) > 0$.\n\n- Facteurs : $x + 2$ s'annule en $-2$, $x - 3$ s'annule en $3$.\n- Tableau de signes :\n\n| $x$ | $-\\infty$ | $-2$ | $3$ | $+\\infty$ |\n|------|-------------|------|------|-------------|\n| $x+2$ | $-$ | $0$ | $+$ | $+$ |\n| $x-3$ | $-$ | $-$ | $0$ | $+$ |\n| Produit | $+$ | $0$ | $-$ | $0$ | $+$ |\n\n- On cherche $>0$ donc les intervalles où le produit est positif : $]-\\infty, -2[ \\cup ]3, +\\infty[$.\n\n### Résolution d'inéquations simples\n\n**Exemple :** Résoudre $3x - 7 \\leq 5$.\n\n- Ajouter 7 : $3x \\leq 12$\n- Diviser par 3 (positif) : $x \\leq 4$\n\nDonc $S = ]-\\infty, 4]$.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Oublier d'inverser le sens de l'inégalité** lorsqu'on divise par un nombre négatif. Par exemple, dans $-2x > 6$, diviser par $-2$ donne $x < -3$.\n- **Confondre équation produit et équation somme** : pour $(x + 2)(x - 3) = 0$, on ne développe pas, on applique la propriété du produit nul.\n- **Ne pas exclure les valeurs interdites** dans une inéquation avec dénominateur. Par exemple, pour $\\frac{1}{x-2} > 0$, il faut $x \\neq 2$.\n- **Erreur de signe dans le tableau** : toujours vérifier le signe de chaque facteur sur un intervalle test.\n\n## Synthèse\n\n1. **Équation produit** : $(ax + b)(cx + d) = 0 \\iff ax + b = 0$ ou $cx + d = 0$.\n2. **Inéquation produit** : utiliser un tableau de signes pour déterminer le signe du produit.\n3. **Règle d'or** : lorsqu'on multiplie ou divise une inéquation par un nombre négatif, on inverse le sens de l'inégalité.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "équations",
+    "inéquations",
+    "produit",
+    "BEPC",
+    "tableau de signes"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la solution de l'équation $(x - 5)(2x + 4) = 0$ ?",
+      "options": [
+        "x = 5 ou x = -2",
+        "x = -5 ou x = 2",
+        "x = 5 ou x = 2",
+        "x = -5 ou x = -2"
+      ],
+      "answer": 0,
+      "explanation": "On applique le produit nul : x - 5 = 0 donne x = 5, et 2x + 4 = 0 donne x = -2."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "L'ensemble des solutions de l'inéquation $-3x > 9$ est $x > -3$.",
+      "answer": false,
+      "explanation": "En divisant par -3, on inverse le sens : x < -3."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Résoudre l'équation $(x + 1)(x - 7) = 0$. Les solutions sont x = ___ et x = ___ (séparez par une virgule).",
+      "answer": "-1,7",
+      "explanation": "x+1=0 donne x=-1, x-7=0 donne x=7."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est l'ensemble des solutions de l'inéquation $(x - 2)(x + 3) \\leq 0$ ?",
+      "options": [
+        "[-3, 2]",
+        "]-∞, -3] ∪ [2, +∞[",
+        "]-3, 2[",
+        "]-∞, -3[ ∪ ]2, +∞["
+      ],
+      "answer": 0,
+      "explanation": "Le tableau de signes donne un produit négatif ou nul sur [-3, 2]."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Pour résoudre l'équation $(x - 1)(x + 2) = 0$, on peut développer et utiliser le discriminant.",
+      "answer": false,
+      "explanation": "Il est plus simple d'utiliser la propriété du produit nul : x-1=0 ou x+2=0."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Résoudre l'inéquation $5x - 3 \\geq 2x + 6$. La solution est $x \\geq$ ___.",
+      "answer": "3",
+      "explanation": "On soustrait 2x : 3x - 3 ≥ 6, puis on ajoute 3 : 3x ≥ 9, donc x ≥ 3."
+    }
+  ]
+}

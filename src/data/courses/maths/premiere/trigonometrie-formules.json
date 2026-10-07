@@ -1,0 +1,70 @@
+{
+  "id": "maths-premiere-trigonometrie-formules",
+  "title": "Formules d'addition et de duplication",
+  "summary": "Maîtrisez les formules d'addition et de duplication pour simplifier les expressions trigonométriques et résoudre des équations complexes. Ces outils sont indispensables pour réussir les exercices de trigonométrie au BAC et dans le supérieur.",
+  "lesson": "## Introduction & Mise en situation\n\nLes formules d'addition et de duplication sont des outils fondamentaux en trigonométrie. Elles permettent de transformer des expressions compliquées en formes plus simples, de résoudre des équations trigonométriques, et de calculer des valeurs exactes de cosinus et sinus pour des angles non usuels. Que ce soit en physique pour les ondes, en ingénierie ou en mathématiques pures, ces formules sont partout. En Première, vous les utiliserez pour simplifier des expressions, prouver des identités et résoudre des équations. Au BAC, elles sont souvent la clé pour débloquer des problèmes.\n\n## 1. Définitions et Principes Fondamentaux\n\nLes formules d'addition permettent d'exprimer le cosinus et le sinus d'une somme ou d'une différence d'angles en fonction des cosinus et sinus de chaque angle.\n\nPour tous réels $a$ et $b$ :\n\n- $$\\cos(a+b) = \\cos a \\cos b - \\sin a \\sin b$$\n- $$\\cos(a-b) = \\cos a \\cos b + \\sin a \\sin b$$\n- $$\\sin(a+b) = \\sin a \\cos b + \\cos a \\sin b$$\n- $$\\sin(a-b) = \\sin a \\cos b - \\cos a \\sin b$$\n\nLes formules de duplication sont des cas particuliers des formules d'addition lorsque $a = b$. Elles permettent d'exprimer le cosinus et le sinus d'un angle double en fonction de l'angle simple.\n\nPour tout réel $a$ :\n\n- $$\\sin(2a) = 2 \\sin a \\cos a$$\n- $$\\cos(2a) = \\cos^2 a - \\sin^2 a$$\n\nCette dernière formule peut aussi s'écrire sous les formes suivantes (en utilisant $\\cos^2 a + \\sin^2 a = 1$) :\n\n- $$\\cos(2a) = 2 \\cos^2 a - 1$$\n- $$\\cos(2a) = 1 - 2 \\sin^2 a$$\n\nCes formules sont au cœur de nombreuses simplifications.\n\n## 2. Propriétés et Méthodes d'application\n\n### Application 1 : Calcul de valeurs exactes\n\n**Exemple** : Calculer $\\cos\\left(\\frac{\\pi}{12}\\right)$.\n\nOn remarque que $\\frac{\\pi}{12} = \\frac{\\pi}{3} - \\frac{\\pi}{4}$. On applique la formule de $\\cos(a-b)$ :\n\n$$\\cos\\left(\\frac{\\pi}{3} - \\frac{\\pi}{4}\\right) = \\cos\\frac{\\pi}{3}\\cos\\frac{\\pi}{4} + \\sin\\frac{\\pi}{3}\\sin\\frac{\\pi}{4}$$\n\nOn remplace par les valeurs connues : $\\cos\\frac{\\pi}{3} = \\frac{1}{2}$, $\\sin\\frac{\\pi}{3} = \\frac{\\sqrt{3}}{2}$, $\\cos\\frac{\\pi}{4} = \\frac{\\sqrt{2}}{2}$, $\\sin\\frac{\\pi}{4} = \\frac{\\sqrt{2}}{2}$.\n\nDonc :\n\n$$\\cos\\left(\\frac{\\pi}{12}\\right) = \\frac{1}{2} \\cdot \\frac{\\sqrt{2}}{2} + \\frac{\\sqrt{3}}{2} \\cdot \\frac{\\sqrt{2}}{2} = \\frac{\\sqrt{2}}{4} + \\frac{\\sqrt{6}}{4} = \\frac{\\sqrt{2} + \\sqrt{6}}{4}$$\n\n### Application 2 : Résolution d'équations\n\n**Exemple** : Résoudre dans $\\mathbb{R}$ l'équation $\\sin(2x) = \\sin x$.\n\nOn utilise la formule de duplication : $\\sin(2x) = 2\\sin x \\cos x$. L'équation devient :\n\n$$2\\sin x \\cos x = \\sin x \\iff 2\\sin x \\cos x - \\sin x = 0 \\iff \\sin x (2\\cos x - 1) = 0$$\n\nUn produit est nul si et seulement si l'un des facteurs est nul :\n\n- $\\sin x = 0$ : $x \\equiv 0 \\pmod{\\pi}$.\n- $2\\cos x - 1 = 0$ : $\\cos x = \\frac{1}{2}$, donc $x \\equiv \\frac{\\pi}{3} \\pmod{2\\pi}$ ou $x \\equiv -\\frac{\\pi}{3} \\pmod{2\\pi}$.\n\nL'ensemble des solutions est donc $S = \\{k\\pi, \\pm\\frac{\\pi}{3} + 2k\\pi, k \\in \\mathbb{Z}\\}$.\n\n### Application 3 : Linéarisation (pour plus tard)\n\nLes formules de duplication inversées permettent de linéariser des puissances de cosinus ou sinus, ce qui est utile en intégration. Par exemple, $\\cos^2 x = \\frac{1+\\cos(2x)}{2}$.\n\n## 3. Pièges fréquents & Mises en garde\n\n1. **Confondre les signes dans les formules d'addition** : Pour $\\cos(a+b)$, le signe est moins entre les deux produits, alors que pour $\\cos(a-b)$, c'est plus. Pour $\\sin(a+b)$ et $\\sin(a-b)$, le signe suit la formule. Beaucoup d'élèves font l'erreur d'écrire $\\cos(a+b) = \\cos a \\cos b + \\sin a \\sin b$ (signe incorrect).\n\n2. **Oublier les parenthèses** : Lorsqu'on remplace $a$ et $b$ par des expressions, il faut bien mettre des parenthèses. Par exemple, $\\cos(2x + \\frac{\\pi}{3})$ ne doit pas devenir $\\cos 2x + \\cos \\frac{\\pi}{3}$.\n\n3. **Confondre $\\sin(2a)$ et $2\\sin a$** : $\\sin(2a)$ est une fonction de $2a$, pas le double de $\\sin a$. Par exemple, $\\sin(2 \\times 30°) = \\sin 60° = \\frac{\\sqrt{3}}{2}$, alors que $2 \\sin 30° = 1$. Les deux sont différents.\n\n4. **Ne pas vérifier le domaine de définition** : Lorsqu'on résout une équation avec des fractions, il faut s'assurer que les dénominateurs ne sont pas nuls. Par exemple, si on divise par $\\sin x$, il faut exclure les valeurs où $\\sin x = 0$.\n\n## Synthèse\n\n- **Formules d'addition** : $\\cos(a \\pm b) = \\cos a \\cos b \\mp \\sin a \\sin b$ et $\\sin(a \\pm b) = \\sin a \\cos b \\pm \\cos a \\sin b$.\n- **Formules de duplication** : $\\sin(2a) = 2\\sin a \\cos a$ et $\\cos(2a) = \\cos^2 a - \\sin^2 a = 2\\cos^2 a - 1 = 1 - 2\\sin^2 a$.\n- **Méthode** : Pour simplifier ou résoudre, identifier la formule à appliquer, remplacer soigneusement et vérifier les signes.\n\nRetenez ces formules par cœur, car elles sont la base de nombreuses techniques en trigonométrie.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "trigonométrie",
+    "formules",
+    "première",
+    "bac",
+    "mathématiques"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la valeur exacte de $\\cos\\left(\\frac{\\pi}{12}\\right)$ ?",
+      "options": [
+        "$\\frac{\\sqrt{6}-\\sqrt{2}}{4}$",
+        "$\\frac{\\sqrt{6}+\\sqrt{2}}{4}$",
+        "$\\frac{\\sqrt{2}-\\sqrt{6}}{4}$",
+        "$\\frac{1}{2}$"
+      ],
+      "answer": 1,
+      "explanation": "En utilisant $\\cos(a-b)$ avec $a=\\frac{\\pi}{3}$ et $b=\\frac{\\pi}{4}$, on obtient $\\frac{\\sqrt{2}+\\sqrt{6}}{4}$."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La formule $\\cos(2a) = 2\\cos^2 a - 1$ est correcte.",
+      "answer": true,
+      "explanation": "C'est une des formes équivalentes de $\\cos(2a)$ dérivée de $\\cos^2 a + \\sin^2 a = 1$."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Simplifier $\\sin\\left(x + \\frac{\\pi}{2}\\right)$ : $\\sin\\left(x + \\frac{\\pi}{2}\\right) = $ ?",
+      "answer": "cos(x)",
+      "explanation": "En utilisant $\\sin(a+b) = \\sin a \\cos b + \\cos a \\sin b$, avec $a=x$ et $b=\\frac{\\pi}{2}$, on obtient $\\sin x \\cdot 0 + \\cos x \\cdot 1 = \\cos x$."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est l'expression de $\\sin(2a)$ ?",
+      "options": [
+        "$2\\sin a$",
+        "$\\sin a \\cos a$",
+        "$2\\sin a \\cos a$",
+        "$\\cos^2 a - \\sin^2 a$"
+      ],
+      "answer": 2,
+      "explanation": "La formule de duplication pour le sinus est $\\sin(2a) = 2\\sin a \\cos a$."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La formule $\\cos(a+b) = \\cos a \\cos b + \\sin a \\sin b$ est correcte.",
+      "answer": false,
+      "explanation": "Le signe correct est un moins : $\\cos(a+b) = \\cos a \\cos b - \\sin a \\sin b$."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Résoudre $\\cos(2x) = \\cos x$ pour $x \\in [0, 2\\pi]$. Donner la plus petite solution positive (en radians).",
+      "answer": "0",
+      "explanation": "En utilisant $\\cos(2x) = 2\\cos^2 x - 1$, on a $2\\cos^2 x - 1 = \\cos x$, soit $2\\cos^2 x - \\cos x - 1 = 0$. En factorisant, on obtient $(2\\cos x + 1)(\\cos x - 1) = 0$, donc $\\cos x = 1$ ou $\\cos x = -\\frac{1}{2}$. Les solutions dans $[0,2\\pi]$ sont $0, \\frac{2\\pi}{3}, \\frac{4\\pi}{3}, 2\\pi$. La plus petite est 0."
+    }
+  ]
+}

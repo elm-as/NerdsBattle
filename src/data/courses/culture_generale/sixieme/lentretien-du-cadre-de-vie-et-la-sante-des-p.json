@@ -1,0 +1,183 @@
+{
+  "id": "culture_generale-sixieme-lentretien-du-cadre-de-vie-et-la-sante-des-p",
+  "subjectId": "culture_generale",
+  "levelId": "sixieme",
+  "slug": "lentretien-du-cadre-de-vie-et-la-sante-des-p",
+  "title": "L'entretien du cadre de vie et la santé des populations",
+  "summary": "Le cadre de vie est l'espace aménagé où vivent les individus. Un cadre de vie sain est bien entretenu et protège des infections, tandis qu'un cadre insalubre expose aux maladies comme le paludisme, la bilharziose, le choléra et la fièvre typhoïde.",
+  "lesson": "# Leçon 11 : L'entretien du cadre de vie et la santé des populations\n\n## 1. Qu'est-ce que le cadre de vie ?\nLe cadre de vie est l'espace aménagé dans lequel vivent des individus.\n\n### Exemples :\n- **Cadre de vie familial** : habitations, jardin, sanitaires…\n- **Cadre de vie scolaire** : salles de classes, latrines, espaces verts, aires de jeux.\n\n## 2. Cadre de vie sain et cadre de vie insalubre\n- **Cadre de vie sain** : les éléments sont bien entretenus et protégés des infections.\n- **Cadre de vie insalubre** : les éléments sont mal entretenus et exposés aux infections ou maladies.\n\n## 3. Pratiques qui rendent le cadre de vie insalubre\n- Les ordures ménagères déversées partout et non ramassées.\n- Les eaux usées déversées partout.\n- L'absence de latrines dans les écoles.\n- La cour familiale ou l'espace scolaire non entretenus.\n\n## 4. Conséquences de l'insalubrité sur la santé\nL'insalubrité du cadre de vie peut entraîner :\n- Le paludisme\n- La bilharziose\n- Le choléra\n- La fièvre typhoïde\n\n## 5. Mesures d'entretien du cadre de vie\nLes actions à mener :\n- Balayer\n- Traiter les ordures\n- Désinfecter\n- Assainir les latrines et caniveaux\n\n## 6. Matériel d'entretien du cadre de vie\n- Le balai\n- La brosse\n- Le sceau\n- Les produits d'entretien\n\n## 7. Règles de propreté\n- Utiliser les poubelles et les toilettes\n- Élaguer régulièrement les grands arbres\n- Tondre les pelouses\n\n## 8. Bienfaits de la salubrité du cadre de vie\nL'entretien du cadre de vie permet d'éviter les infections afin de vivre en bonne santé.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "culture_generale",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Qu'est-ce que le cadre de vie ?",
+      "options": [
+        "Un espace aménagé dans lequel vivent des individus",
+        "Un espace naturel sans aménagement",
+        "Un lieu de travail uniquement",
+        "Un espace réservé aux loisirs"
+      ],
+      "answer": 0,
+      "explanation": "D'après le document, le cadre de vie est un espace aménagé dans lequel vivent des individus."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Parmi les éléments suivants, lequel fait partie du cadre de vie familial ?",
+      "options": [
+        "Les salles de classes",
+        "Les latrines",
+        "Les habitations",
+        "Les aires de jeux"
+      ],
+      "answer": 2,
+      "explanation": "Le cadre de vie familial comprend les habitations, le jardin, les sanitaires…"
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel élément ne fait pas partie du cadre de vie scolaire ?",
+      "options": [
+        "Les salles de classes",
+        "Les latrines",
+        "Les espaces verts",
+        "Le jardin familial"
+      ],
+      "answer": 3,
+      "explanation": "Le cadre de vie scolaire comprend les salles de classes, les latrines, les espaces verts, des aires de jeux. Le jardin familial fait partie du cadre de vie familial."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle pratique rend le cadre de vie insalubre ?",
+      "options": [
+        "Balayer régulièrement",
+        "Déverser les ordures ménagères partout",
+        "Utiliser les poubelles",
+        "Assainir les latrines"
+      ],
+      "answer": 1,
+      "explanation": "Les ordures ménagères déversées partout et non ramassées rendent le cadre de vie insalubre."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Parmi ces conséquences, laquelle n'est pas citée comme conséquence de l'insalubrité ?",
+      "options": [
+        "Le paludisme",
+        "La bilharziose",
+        "Le choléra",
+        "La grippe"
+      ],
+      "answer": 3,
+      "explanation": "Les conséquences citées sont : le paludisme, la bilharziose, le choléra, la fièvre typhoïde. La grippe n'est pas mentionnée."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quelle maladie est causée par l'insalubrité du cadre de vie ?",
+      "options": [
+        "La fièvre typhoïde",
+        "La rougeole",
+        "Le tétanos",
+        "La varicelle"
+      ],
+      "answer": 0,
+      "explanation": "La fièvre typhoïde fait partie des conséquences de l'insalubrité citées dans le document."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quelle action permet d'entretenir le cadre de vie ?",
+      "options": [
+        "Jeter les ordures dans la rue",
+        "Balayer",
+        "Laisser les eaux usées stagner",
+        "Éviter d'utiliser les toilettes"
+      ],
+      "answer": 1,
+      "explanation": "Parmi les actions à mener pour entretenir le cadre de vie, il y a balayer."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel matériel est utilisé pour l'entretien du cadre de vie ?",
+      "options": [
+        "Le balai",
+        "Le marteau",
+        "La calculatrice",
+        "Le stylo"
+      ],
+      "answer": 0,
+      "explanation": "Le matériel d'entretien comprend le balai, la brosse, le sceau, les produits d'entretien."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Parmi ces règles de propreté, laquelle est citée dans le document ?",
+      "options": [
+        "Utiliser les poubelles et les toilettes",
+        "Brûler les ordures dans la cour",
+        "Laisser les feuilles mortes s'accumuler",
+        "Déverser les eaux usées dans la rue"
+      ],
+      "answer": 0,
+      "explanation": "Les règles de propreté incluent : utiliser les poubelles, les toilettes ; élaguer régulièrement les grands arbres ; tondre les pelouses."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel est le bienfait de la salubrité du cadre de vie ?",
+      "options": [
+        "Vivre en bonne santé",
+        "Attraper des maladies",
+        "Avoir plus de déchets",
+        "Polluer l'environnement"
+      ],
+      "answer": 0,
+      "explanation": "L'entretien du cadre de vie permet d'éviter les infections afin de vivre en bonne santé."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Le cadre de vie est un espace aménagé dans lequel vivent des ______.",
+      "answer": "individus",
+      "explanation": "D'après le document, le cadre de vie est un espace aménagé dans lequel vivent des individus."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Dans un cadre de vie insalubre, les éléments sont mal entretenus et exposés aux infections ou ______.",
+      "answer": "maladies",
+      "explanation": "Le document précise : 'exposés aux infections ou maladies'."
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "prompt": "Parmi les conséquences de l'insalubrité, on trouve le paludisme, la bilharziose, le choléra et la fièvre ______.",
+      "answer": "typhoïde",
+      "explanation": "La fièvre typhoïde est citée comme conséquence de l'insalubrité."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Quel élément ne fait pas partie du matériel d'entretien du cadre de vie ?",
+      "options": [
+        "Le balai",
+        "La brosse",
+        "Le sceau",
+        "Le téléphone"
+      ],
+      "answer": 3,
+      "explanation": "Le matériel d'entretien comprend le balai, la brosse, le sceau, les produits d'entretien. Le téléphone n'en fait pas partie."
+    }
+  ]
+}

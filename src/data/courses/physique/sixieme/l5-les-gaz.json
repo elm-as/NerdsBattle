@@ -1,0 +1,152 @@
+{
+  "id": "physique-sixieme-l5-les-gaz",
+  "subjectId": "physique",
+  "levelId": "sixieme",
+  "slug": "l5-les-gaz",
+  "title": "Les gaz : propriétés physiques",
+  "summary": "Découvre pourquoi l'air est un gaz aux propriétés étonnantes : compressible, expansible et élastique. Grâce à des expériences simples, tu comprendras comment expliquer la formation des bulles dans l'eau.",
+  "lesson": "# Les gaz : propriétés physiques\n\n## Introduction\n\nL'air qui nous entoure est un gaz, souvent invisible, mais bien réel. Dans cette leçon, nous allons découvrir comment mettre en évidence son existence et quelles sont ses propriétés physiques : compressibilité, expansibilité et élasticité. Nous verrons aussi comment transvaser et conserver un gaz, et quelles précautions prendre avec les gaz combustibles.\n\n## 1. Définitions & Notions clés\n\n- **Gaz** : état de la matière, souvent invisible, qui occupe tout l'espace disponible.\n- **Air** : mélange de gaz (oxygène, azote, gaz carbonique, etc.) qui enveloppe la Terre.\n- **Compressibilité** : propriété d'un gaz dont le volume diminue lorsqu'on le comprime.\n- **Expansibilité** : propriété d'un gaz qui occupe tout le volume qui lui est offert.\n- **Élasticité** : propriété d'un gaz qui reprend son volume initial après compression ou détente.\n- **Pression d'un gaz** : poussée exercée par le gaz sur la surface avec laquelle il est en contact.\n- **Transvasement** : action de faire passer un gaz d'un récipient à un autre, souvent par déplacement d'eau.\n- **Recueillement** : méthode pour recueillir un gaz, par exemple par déplacement d'eau.\n- **Conservation** : maintien d'un gaz dans un récipient retourné sur l'eau pour l'empêcher de s'échapper.\n\n## 2. Applications & Méthodes\n\n### 2.1. Mise en évidence de l'existence de l'air\n- **Expérience** : On plonge un tube à essais retourné dans l'eau. L'eau ne pénètre pas dans le tube. En inclinant le tube, des bulles s'échappent et l'eau prend la place de l'air.\n- **Conclusion** : L'air est bien présent, même s'il est invisible.\n\n### 2.2. Propriétés des gaz\n- **Compressibilité** : Lorsqu'on comprime l'air d'une seringue en poussant le piston, son volume diminue.\n- **Expansibilité** : Lorsqu'on détend l'air en tirant le piston, il occupe tout le volume offert.\n- **Élasticité** : Lorsqu'on relâche le piston, il revient à sa position initiale.\n\n### 2.3. Pression d'un gaz\n- La pression est la poussée exercée par le gaz sur une surface.\n- **Relation** :\n  - Compression → volume diminue, pression augmente.\n  - Détente → volume augmente, pression diminue.\n\n### 2.4. Transvasement et recueillement\n- **Transvasement** : On peut faire passer un gaz d'un récipient à un autre par déplacement d'eau.\n- **Recueillement** : On recueille un gaz dans un bocal retourné rempli d'eau.\n- **Conservation** : On maintient le bocal retourné dans l'eau pour empêcher le gaz de s'échapper.\n\n### 2.5. Règles de sécurité\n- Les gaz combustibles (butane, propane, méthane) sont dangereux.\n- Les pièces où on les utilise doivent être aérées.\n- Manipuler avec précaution.\n\n## 3. Pièges fréquents\n\n- **Confondre compressibilité et expansibilité** : La compressibilité concerne la réduction de volume, l'expansibilité l'occupation de tout l'espace.\n- **Croire que tous les gaz sont élastiques** : Oui, tous les gaz le sont.\n- **Penser que les gaz ont une forme propre** : Non, ils n'en ont pas.\n- **Oublier que la pression augmente lors de la compression** : Retiens la relation inverse entre volume et pression.\n- **Ne pas différencier transvasement et recueillement** : Le transvasement est le passage d'un récipient à un autre, le recueillement est la collecte du gaz.\n\n## Synthèse\n\n- L'air est un gaz, mélange de plusieurs gaz.\n- Les gaz sont compressibles, expansibles et élastiques.\n- La pression d'un gaz dépend de son volume : plus le volume diminue, plus la pression augmente.\n- On peut transvaser et recueillir un gaz par déplacement d'eau.\n- Les gaz combustibles doivent être manipulés avec précaution.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le gaz présent dans le ballon de football ?",
+      "options": [
+        "Le butane",
+        "L'air",
+        "Le propane",
+        "Le méthane"
+      ],
+      "answer": 1,
+      "explanation": "D'après l'exercice 4, le gaz présent dans le ballon est l'air."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Un gaz occupe tout l'espace qui lui est offert : le gaz est dit .....................",
+      "answer": "1",
+      "explanation": "Un gaz qui occupe tout l'espace offert est expansible."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle propriété des gaz est mise en évidence lorsqu'on plonge une chambre à air crevée dans l'eau et qu'on observe des bulles ?",
+      "options": [
+        "La compressibilité",
+        "L'expansibilité",
+        "L'élasticité",
+        "La pression"
+      ],
+      "answer": 1,
+      "explanation": "Les bulles montrent que le gaz s'échappe et occupe l'espace : c'est l'expansibilité."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Lorsqu'on détend un gaz, son volume augmente et sa pression .....................",
+      "answer": "1",
+      "explanation": "La détente augmente le volume et diminue la pression."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Comment appelle-t-on la poussée exercée par un gaz sur une surface ?",
+      "options": [
+        "La force",
+        "La pression",
+        "L'élasticité",
+        "La compressibilité"
+      ],
+      "answer": 1,
+      "explanation": "La pression est la poussée du gaz sur la surface en contact."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Pour recueillir un gaz, on procède par .....................",
+      "answer": "1",
+      "explanation": "On recueille un gaz par déplacement d'eau."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel gaz est utilisé comme exemple de gaz combustible dans la leçon ?",
+      "options": [
+        "L'oxygène",
+        "Le gaz carbonique",
+        "Le butane",
+        "L'azote"
+      ],
+      "answer": 2,
+      "explanation": "Le butane est cité comme gaz combustible."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Le volume d'une quantité de gaz peut être réduit : le gaz est .....................",
+      "answer": "1",
+      "explanation": "Un gaz dont le volume peut être réduit est compressible."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Que se passe-t-il lorsqu'on incline le tube à essais rempli d'air et plongé dans l'eau ?",
+      "options": [
+        "L'eau entre dans le tube",
+        "Des bulles d'air s'échappent",
+        "Le tube se remplit d'eau",
+        "Rien ne se passe"
+      ],
+      "answer": 1,
+      "explanation": "En inclinant, des bulles d'air s'échappent et l'eau prend la place de l'air."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "L'air est la couche gazeuse qui enveloppe la .....................",
+      "answer": "1",
+      "explanation": "L'air est la couche gazeuse qui enveloppe la Terre."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quelle est la propriété des gaz mise en évidence lorsqu'on tire sur le piston d'une seringue et que l'air occupe tout le volume ?",
+      "options": [
+        "Compressibilité",
+        "Expansibilité",
+        "Élasticité",
+        "Pression"
+      ],
+      "answer": 1,
+      "explanation": "L'air occupe tout le volume offert : c'est l'expansibilité."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "prompt": "Lorsqu'on appuie sur le piston d'une seringue, on ressent une poussée sur le doigt. On dit que le gaz exerce une .....................",
+      "answer": "1",
+      "explanation": "Le gaz exerce une pression sur le doigt."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Pourquoi les cuisines utilisant du gaz butane doivent-elles être aérées ?",
+      "options": [
+        "Pour éviter les mauvaises odeurs",
+        "Pour éviter les incendies en cas de fuite",
+        "Pour refroidir le gaz",
+        "Pour faciliter la combustion"
+      ],
+      "answer": 1,
+      "explanation": "Une fuite de gaz combustible peut provoquer un incendie, d'où l'aération."
+    }
+  ]
+}

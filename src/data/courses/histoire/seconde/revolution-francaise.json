@@ -1,0 +1,14 @@
+{
+  "id": "histoire-seconde-revolution-francaise",
+  "title": "La Révolution française",
+  "summary": "1789-1799 : la fin de l'Ancien Régime et la naissance des droits modernes.",
+  "lesson": "Le 14 juillet 1789, prise de la Bastille. Le 26 août 1789, Déclaration des droits de l'homme et du citoyen. La monarchie est abolie en 1792 (proclamation de la République). Louis XVI est exécuté en 1793. La Révolution se termine avec le coup d'État de Bonaparte en 1799 (18 brumaire).",
+  "estimatedMinutes": 12,
+  "tags": ["xviiie siècle", "révolution"],
+  "questions": [
+    { "id": "q1", "type": "mcq", "prompt": "Date de la prise de la Bastille ?", "options": ["14 juillet 1789", "4 août 1789", "21 sept. 1792", "9 thermidor"], "answer": 0, "explanation": "Symbole du début de la Révolution." },
+    { "id": "q2", "type": "truefalse", "prompt": "La République française est proclamée en 1789.", "answer": false, "explanation": "En 1792 (21 sept.). En 1789, monarchie constitutionnelle." },
+    { "id": "q3", "type": "fill", "prompt": "Le texte fondateur des droits de 1789 s'appelle la ___ des droits de l'homme et du citoyen.", "answer": "Déclaration", "explanation": "Adoptée le 26 août 1789." },
+    { "id": "q4", "type": "mcq", "prompt": "Le coup d'État qui termine la Révolution est mené par :", "options": ["Robespierre", "Napoléon Bonaparte", "Danton", "La Fayette"], "answer": 1, "explanation": "18 brumaire an VIII (9 nov. 1799)." }
+  ]
+}

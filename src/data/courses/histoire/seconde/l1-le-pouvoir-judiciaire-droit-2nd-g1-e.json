@@ -1,0 +1,137 @@
+{
+  "id": "histoire-seconde-l1-le-pouvoir-judiciaire-droit-2nd-g1-e",
+  "subjectId": "histoire",
+  "levelId": "seconde",
+  "slug": "l1-le-pouvoir-judiciaire-droit-2nd-g1-e",
+  "title": "Pouvoir judiciaire en Côte d'Ivoire",
+  "summary": "Ce document expose la structure du pouvoir judiciaire ivoirien, rappelant la théorie de Montesquieu sur les trois pouvoirs. Il détaille les magistrats du siège et du parquet, le principe du double degré de juridiction, la Cour Suprême et ses trois entités, ainsi que la Haute Cour de Justice et le Conseil Constitutionnel, leurs missions et modes de nomination.",
+  "lesson": "# Pouvoir judiciaire en Côte d'Ivoire\n\n## 1. Cadre théorique\n- **Montesquieu** : séparation des pouvoirs en exécutif, législatif et judiciaire.\n- Le **pouvoir judiciaire** est exercé par les magistrats.\n\n## 2. Types de magistrats\n- **Magistrats du siège** : souverains, inamovibles, indépendants, rendent justice au nom du peuple.\n- **Magistrats du parquet** : indépendants mais subordonnés à leur chef, qui dépend du ministre de la Justice. Représentent l'État et défendent la société.\n\n## 3. Organisation de la justice\n- **Double degré de juridiction** :\n  - *Premier ressort* : Tribunaux de Première Instance.\n  - *Second ressort* : Cours d'Appels.\n  - *Supérieur* : Cour Suprême.\n- **Appel** : le jugement d'un tribunal de première instance peut être contesté devant la cour d'appel correspondante.\n\n## 4. Cour Suprême\n- Depuis la Constitution de 2000, elle est scindée en trois entités :\n  1. Cour de Cassation\n  2. Cour des Comptes\n  3. Cour du Conseil d'État\n\n## 5. Haute Cour de Justice\n- Prévue par la Constitution de 2000, non encore installée.\n- Juge uniquement le Président de la République, les ministres en activité et les présidents d'institutions.\n\n## 6. Conseil Constitutionnel\n- Créé pour contrôler la régularité des institutions (Présidence, Assemblée Nationale, lois).\n- **Composition** : 1 président nommé par le Président de la République pour 6 ans non renouvelables, 6 membres (3 proposés par le président de l'Assemblée Nationale, 3 nommés par le Président de la République).\n- **Fonction** : contrôle constitutionnel des lois et des institutions.\n\n# Conclusion\nLa justice ivoirienne repose sur un système hiérarchisé, avec des magistrats distincts et des institutions de contrôle constitutionnel, garantissant l'équilibre des pouvoirs et la protection des droits des citoyens.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "histoire",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le rôle principal des magistrats du siège ?",
+      "options": [
+        "Veiller sur l'ordre public",
+        "Représenter l'État",
+        "Rendre justice au nom du peuple",
+        "Sanctionner les fautes de l'État"
+      ],
+      "answer": 2,
+      "explanation": "Les magistrats du siège sont souverains et inamovibles, ils rendent justice au nom du peuple ivoirien."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Les magistrats du parquet sont indépendants mais :",
+      "options": [
+        "Ils ne dépendent d'aucun chef",
+        "Ils dépendent de leur chef qui dépend du ministre de la Justice",
+        "Ils dépendent directement du Président de la République",
+        "Ils dépendent de la Cour Suprême"
+      ],
+      "answer": 1,
+      "explanation": "Les magistrats du parquet dépendent de leur chef, qui dépend du ministre de la Justice."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle entité n'est pas une composante de la Cour Suprême depuis 2000 ?",
+      "options": [
+        "Cour de Cassation",
+        "Cour des Comptes",
+        "Cour du Conseil d'État",
+        "Tribunal de Première Instance"
+      ],
+      "answer": 3,
+      "explanation": "Le Tribunal de Première Instance fait partie du premier ressort, pas de la Cour Suprême."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "prompt": "La Haute Cour de Justice juge uniquement le ______ de la République, les ministres en activité et les présidents d'institutions.",
+      "answer": "Président",
+      "explanation": "La Haute Cour de Justice est prévue pour juger le Président de la République, les ministres en activité et les présidents d'institutions."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Combien de membres compose le Conseil Constitutionnel ?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 2,
+      "explanation": "Le Conseil Constitutionnel compte 1 président et 6 membres, soit 7 au total, mais la question porte sur les membres, donc 6."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Les trois entités de la Cour Suprême sont :",
+      "options": [
+        "Cour de Cassation, Cour des Comptes, Cour du Conseil d'État",
+        "Cour de Cassation, Cour d'Appel, Cour Suprême",
+        "Cour des Comptes, Cour d'Appel, Cour de Justice",
+        "Cour du Conseil d'État, Tribunal de Première Instance, Cour de Cassation"
+      ],
+      "answer": 0,
+      "explanation": "Depuis 2000, la Cour Suprême se compose de la Cour de Cassation, la Cour des Comptes et la Cour du Conseil d'État."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel est le rôle principal du Conseil Constitutionnel ?",
+      "options": [
+        "Juger les ministres",
+        "Contrôler la régularité des institutions",
+        "Organiser les élections",
+        "Définir les lois"
+      ],
+      "answer": 1,
+      "explanation": "Le Conseil Constitutionnel contrôle la régularité de la mise en place des institutions et des lois."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel type de magistrat est souverain et inamovible ?",
+      "options": [
+        "Magistrat du parquet",
+        "Magistrat du siège",
+        "Magistrat de la Cour Suprême",
+        "Magistrat de la Haute Cour de Justice"
+      ],
+      "answer": 1,
+      "explanation": "Les magistrats du siège sont souverains et inamovibles."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Le premier ressort de la justice ivoirienne est constitué des ______ de Première Instance.",
+      "answer": "Tribunaux",
+      "explanation": "Le premier ressort est constitué des tribunaux de première instance."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Qui nomme les trois membres du Conseil Constitutionnel proposés par le président de l'Assemblée Nationale ?",
+      "options": [
+        "Le Président de la République",
+        "Le Premier Ministre",
+        "Le Président de l'Assemblée Nationale",
+        "Le Ministre de la Justice"
+      ],
+      "answer": 2,
+      "explanation": "Le président de l'Assemblée Nationale propose trois membres, mais ils sont nommés par le Président de la République."
+    }
+  ]
+}

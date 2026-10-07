@@ -1,0 +1,98 @@
+{
+  "id": "physique-cinquieme-cours-de-pc-niveau-5ieume-collection-le-dojo",
+  "subjectId": "physique",
+  "levelId": "cinquieme",
+  "slug": "cours-de-pc-niveau-5ieume-collection-le-dojo",
+  "title": "Généralités sur les aimants et leurs propriétés magnétiques",
+  "summary": "Cette leçon de physique pour la classe de cinquième introduit le magnétisme. Elle définit l'aimant (naturel et artificiel), identifie les matériaux ferromagnétiques, et explique les interactions entre pôles (attraction et répulsion). L'objectif est de comprendre le comportement des aimants et de distinguer les métaux attirés par le magnétisme.",
+  "lesson": "# Généralités sur les Aimants\n\n## 1. Introduction au Magnétisme\nLe **magnétisme** est la propriété qu'ont certains corps pour attirer des morceaux de fer. Cette propriété est à l'origine du fonctionnement des aimants.\n\n## 2. Définition de l'Aimant\nUn **aimant** (naturel ou artificiel) est tout corps possédant des propriétés magnétiques, capable d'attirer tout objet ferromagnétique.\n\n### Types d'aimants\nOn distingue deux grandes catégories :\n1. **L'aimant naturel** : C'est une roche riche en minerai de fer, spécifiquement la **magnétite** ($Fe_3O_4$).\n2. **L'aimant artificiel** : Ce sont les aimants fabriqués par l'homme, utilisés couramment. Ils se présentent sous plusieurs formes :\n   - L'aimant en U (ou en fer à cheval)\n   - Le barreau aimanté\n   - L'aiguille aimantée\n   - L'aimant circulaire\n\n## 3. Caractéristiques des Aimants\n\n### A. L'attraction sélective\nUn aimant n'attire pas tous les objets métalliques. Il n'attire que les objets contenant des substances **ferromagnétiques**.\n- **Matériaux ferromagnétiques** : Le fer pur, l'acier, le nickel, le cobalt.\n- **Matériaux non ferromagnétiques** : Le bois, le plastique, le cuivre, l'aluminium, le zinc, l'or, l'argent. Avec ces matériaux, aucune interaction magnétique ne se produit.\n\n> **Note importante** : Un objet ferromagnétique est composé en partie de fer pur ou d'alliages du fer (comme l'acier). D'autres métaux ordinaires comme le cuivre ou le zinc ne sont pas attirés par un aimant.\n\n### B. Les Pôles Magnétiques\nLes aimants sont plus attractifs au niveau de leurs extrémités, appelées **pôles**.\n- Chaque aimant possède exactement **deux pôles**, quelle que soit sa forme ou sa nature.\n- On distingue :\n  - Le **pôle Nord** (souvent noté N ou rouge)\n  - Le **pôle Sud** (souvent noté S ou bleu)\n\n> **Définition** : Les pôles sont les extrémités d'un aimant par où se produisent les interactions magnétiques.\n\n## 4. Interactions entre les Aimants\nLes interactions sont des phénomènes d'attraction ou de répulsion qui se produisent entre les pôles des aimants.\n\n### Règles fondamentales\n1. **Attraction** : Les pôles de **nature différente** s'attirent.\n   - Nord attire Sud (N - S)\n   - Sud attire Nord (S - N)\n2. **Répulsion** : Les pôles de **même nature** se repoussent.\n   - Nord repousse Nord (N - N)\n   - Sud repousse Sud (S - S)\n\n## 5. Résumé des points clés\n- Un aimant attire les matériaux ferromagnétiques (fer, acier, nickel).\n- Il ne attire pas les métaux non ferromagnétiques (cuivre, aluminium, etc.).\n- Tout aimant possède deux pôles : Nord et Sud.\n- Pôles opposés = Attraction.\n- Pôles identiques = Répulsion.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "cinquieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le nom de la roche naturelle qui possède des propriétés magnétiques ?",
+      "options": [
+        "La magnétite",
+        "La silice",
+        "Le granit",
+        "Le calcaire"
+      ],
+      "answer": 0,
+      "explanation": "L'aimant naturel est une roche riche en minerai de fer appelée magnétite (Fe3O4)."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Les extrémités d'un aimant par où se produisent les interactions magnétiques sont appelées les ___.",
+      "answer": "0",
+      "explanation": "Les pôles sont les zones spécifiques de l'aimant où l'attraction est la plus forte."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Que se passe-t-il lorsque le pôle Nord d'un aimant approche le pôle Nord d'un autre aimant ?",
+      "options": [
+        "Ils s'attirent",
+        "Ils se repoussent",
+        "Rien ne se passe",
+        "Ils fusionnent"
+      ],
+      "answer": 1,
+      "explanation": "Les pôles de même nature (Nord-Nord ou Sud-Sud) se repoussent."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Lequel de ces matériaux est ferromagnétique ?",
+      "options": [
+        "Le cuivre",
+        "Le plastique",
+        "L'acier",
+        "Le bois"
+      ],
+      "answer": 2,
+      "explanation": "L'acier est un alliage de fer et est donc ferromagnétique. Le cuivre, le plastique et le bois ne le sont pas."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Les pôles de nature ___ s'attirent.",
+      "answer": "0",
+      "explanation": "L'attraction se produit entre un pôle Nord et un pôle Sud, c'est-à-dire des pôles de nature différente."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Combien de pôles possède un aimant, quelle que soit sa forme ?",
+      "options": [
+        "Un",
+        "Deux",
+        "Trois",
+        "Quatre"
+      ],
+      "answer": 1,
+      "explanation": "Tout aimant possède toujours deux pôles : un pôle Nord et un pôle Sud."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quelle est la formule chimique de la magnétite ?",
+      "options": [
+        "FeO",
+        "Fe2O3",
+        "Fe3O4",
+        "Fe"
+      ],
+      "answer": 2,
+      "explanation": "La magnétite est un oxyde de fer de formule chimique Fe3O4."
+    }
+  ]
+}

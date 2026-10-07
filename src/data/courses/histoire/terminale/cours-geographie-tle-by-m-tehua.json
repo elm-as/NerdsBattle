@@ -1,0 +1,180 @@
+{
+  "id": "histoire-terminale-cours-geographie-tle-by-m-tehua",
+  "subjectId": "histoire",
+  "levelId": "terminale",
+  "slug": "cours-geographie-tle-by-m-tehua",
+  "title": "Développement économique de la Côte d'Ivoire – Leçon 1",
+  "summary": "Cette leçon explore la géographie, les ressources naturelles, humaines et historiques de la Côte d'Ivoire, en mettant l'accent sur son relief, son climat, son hydrographie et ses ressources minières. Elle vise à comprendre les bases du développement économique ivoirien et à préparer les élèves à analyser les enjeux actuels.",
+  "lesson": "# Leçon 1 : Les fondements du développement économique de la Côte d'Ivoire\n\n## 1. Localisation et limites géographiques\n- **Position** : Afrique de l'Ouest, bordée par l'océan Atlantique au sud.\n- **Pays limitrophes** : Ghana (est), Burkina Faso & Mali (nord), Liberia & Guinée (ouest).\n- **Superficie** : 322 462 km².\n- **Population** : ~23 000 000 habitants.\n\n## 2. Milieu physique\n### 2.1 Relief\n- **Sud** : plaines fertiles, idéale pour l'agriculture.\n- **Centre & nord** : plateaux, moins accidentés.\n- **Ouest & nord-ouest** : montagnes, sources d'eau.\n- **Avantage** : relief peu accidenté favorise l'aménagement du territoire.\n\n### 2.2 Climat\n- **Climat subéquatorial** (sud) : humidité élevée, pluviométrie moyenne 1400 mm.\n- **Climat tropical humide** (nord) : varié, adapté à la savane.\n- **Impact** : conditions favorables à l'agriculture et à la biodiversité.\n\n### 2.3 Végétation\n- **Forêt** (sud) : bois de qualité, biodiversité.\n- **Savane** (centre & nord) : pâturages, cultures.\n- **Mangrove** (lagunes) : protection côtière, pêche.\n\n### 2.4 Hydrographie\n- **Réseau dense** : 4 sous-ensembles – grands fleuves (Cavally, Sassandra, Bandama, Comoé), fleuves côtiers, lagunes, affluents de la Volta et du Niger.\n- **Utilisations** : irrigation, pêche, pisciculture, énergie hydroélectrique (barrages Taabo, Kosso, Ayamé), transport maritime, tourisme.\n\n## 3. Ressources naturelles\n- **Minérales** : fer, manganèse, bauxite, phosphates, or, diamants.\n- **Agricoles** : cacao, café, coton, huile de palme, arachides.\n- **Eau** : abondante, source d'énergie et de transport.\n\n## 4. Ressources humaines\n- **Population** : jeune, diversifiée, compétences agricoles et artisanales.\n- **Éducation** : programmes nationaux pour renforcer les compétences techniques.\n\n## 5. Ressources politiques\n- **Stabilité** : institutions démocratiques, politiques de développement.\n- **Investissements** : zones franches, partenariats public‑privé.\n\n## 6. Synthèse\nLa Côte d'Ivoire possède un ensemble de ressources naturelles, humaines et politiques qui, lorsqu'elles sont bien gérées, offrent un potentiel de croissance durable. Le défi consiste à équilibrer exploitation, conservation et inclusion sociale.\n\n---\n\n## 7. Questions de révision",
+  "estimatedMinutes": 10,
+  "tags": [
+    "histoire",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel pays ne partage pas de frontière avec la Côte d'Ivoire ?",
+      "options": [
+        "Ghana",
+        "Burkina Faso",
+        "Mali",
+        "Sénégal"
+      ],
+      "answer": 3,
+      "explanation": "La Côte d'Ivoire est bordée par le Ghana, le Burkina Faso, le Mali, le Liberia et la Guinée, mais pas le Sénégal."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle est la superficie de la Côte d'Ivoire ?",
+      "options": [
+        "322 462 km²",
+        "250 000 km²",
+        "400 000 km²",
+        "150 000 km²"
+      ],
+      "answer": 0,
+      "explanation": "La superficie officielle est de 322 462 km²."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Le climat subéquatorial domine la moitié nord de la Côte d'Ivoire.",
+      "answer": false,
+      "explanation": "Le climat subéquatorial domine le sud ; le nord est tropical humide."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Les grands fleuves ivoiriens comprennent le ______, le Sassandra, le Bandama et le Comoé.",
+      "answer": "Cavally",
+      "explanation": "Le fleuve Cavally est l'un des quatre grands fleuves."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel type de végétation prédomine dans la savane ivoirienne ?",
+      "options": [
+        "Forêt tropicale",
+        "Mangrove",
+        "Prairie",
+        "Forêt de savane"
+      ],
+      "answer": 3,
+      "explanation": "La savane est caractérisée par une forêt de savane."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Les barrages hydroélectriques de Taabo et Kosso sont situés sur le fleuve Bandama.",
+      "answer": false,
+      "explanation": "Ils sont sur le fleuve Bandama et le fleuve Comoé, mais Taabo et Kosso sont sur le Bandama."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel minéral est majoritairement extrait dans les zones montagneuses de l'ouest ivoirien ?",
+      "options": [
+        "Or",
+        "Bauxite",
+        "Fer",
+        "Manganèse"
+      ],
+      "answer": 2,
+      "explanation": "Le fer est extrait dans les zones montagneuses de l'ouest."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "La mangrove pousse principalement le long des ______.",
+      "answer": "lagunes",
+      "explanation": "La mangrove se trouve le long des lagunes."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "La Côte d'Ivoire possède une zone de climat tropical humide dans sa moitié sud.",
+      "answer": false,
+      "explanation": "Le climat tropical humide domine la moitié nord, le sud est subéquatorial."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est le principal produit d'exportation de la Côte d'Ivoire ?",
+      "options": [
+        "Cacao",
+        "Café",
+        "Coton",
+        "Huile de palme"
+      ],
+      "answer": 0,
+      "explanation": "Le cacao est le produit d'exportation le plus important."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Le réseau hydrographique ivoirien est divisé en quatre sous-ensembles, dont les ______.",
+      "answer": "grands fleuves",
+      "explanation": "Les quatre sous-ensembles incluent les grands fleuves."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "La population ivoirienne est estimée à plus de 30 000 000 habitants.",
+      "answer": false,
+      "explanation": "Elle est estimée à environ 23 000 000."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel type de sol est majoritairement présent dans la Côte d'Ivoire ?",
+      "options": [
+        "Sol ferrugineux",
+        "Sol sablonneux",
+        "Sol argileux",
+        "Sol calcéaire"
+      ],
+      "answer": 0,
+      "explanation": "Les sols ferrugineux dominent la région."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Le fleuve ______ est l'un des fleuves côtiers ivoiriens.",
+      "answer": "Bia",
+      "explanation": "Le fleuve Bia est un fleuve côtier."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Les zones de montagne de l'ouest ivoirien sont peu accidentées.",
+      "answer": false,
+      "explanation": "Les montagnes de l'ouest sont accidentées, mais le relief général est peu accidenté."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel est l'impact principal de l'hydrographie sur l'économie ivoirienne ?",
+      "options": [
+        "Pêche et transport",
+        "Tourisme uniquement",
+        "Agriculture uniquement",
+        "Énergie solaire"
+      ],
+      "answer": 0,
+      "explanation": "L'hydrographie favorise la pêche, le transport et l'énergie hydroélectrique."
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "prompt": "La Côte d'Ivoire est bordée par l'océan ______ au sud.",
+      "answer": "Atlantique",
+      "explanation": "L'océan Atlantique borde le sud."
+    }
+  ]
+}

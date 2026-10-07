@@ -1,0 +1,173 @@
+{
+  "id": "philosophie-terminale-lorigine-du-concept-de-liberte-interieure",
+  "subjectId": "philosophie",
+  "levelId": "terminale",
+  "slug": "lorigine-du-concept-de-liberte-interieure",
+  "title": "La liberté intérieure – Origine et évolution du concept",
+  "summary": "Ce texte analyse la transition du concept de liberté, d’une notion politique d’absence d’entrave observable aux actions, vers une notion métaphysique d’intimité de la volonté. Il montre que la liberté intérieure se fonde d’abord sur l’expérience concrète d’une liberté extérieure, puis devient un attribut de la pensée et de la volonté.",
+  "lesson": "## I. Contexte historique\n- La liberté était d’abord perçue comme **absence d’entrave** dans le domaine politique.\n- Elle était observable dans les actions humaines et liée aux systèmes politiques.\n\n## II. Mutation du concept\n- Le passage du **politique** au **métaphysique** : la liberté s’applique à la volonté et à l’intériorité.\n- Cette mutation implique une réflexion sur la **liberté intérieure** non‑politique.\n\n## III. Rôle de l’expérience concrète\n- L’homme ne peut concevoir la liberté intérieure sans d’abord vivre une liberté tangible dans le monde.\n- La conscience de la liberté naît du **commerce avec autrui**, pas du dialogue intérieur.\n\n## IV. Citation d’Hannah Arendt\n> « Le cœur humain est un lieu très obscur… La liberté comme fait démontrable et la politique coïncident… »\n- Met en évidence le lien entre liberté démontrable (politique) et liberté intérieure (subjective).\n\n## V. Synthèse\n- La liberté intérieure repose sur une première expérience extérieure.\n- Elle devient ensuite un **attribut de la pensée**, une qualité de la volonté, tout en restant liée à son origine politique.\n\n---\n*Ce cours prépare les élèves de terminale à comprendre la dimension historique et philosophique du concept de liberté intérieure.*",
+  "estimatedMinutes": 10,
+  "tags": [
+    "philosophie",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel était le sens premier du concept de liberté selon le texte?",
+      "options": [
+        "Absence d’obstacle dans la pensée",
+        "Absence d’obstacle dans les actions politiques",
+        "Liberté de la volonté intérieure",
+        "Liberté métaphysique"
+      ],
+      "answer": 1,
+      "explanation": "Le texte indique que la liberté était d’abord comprise comme absence d’entrave observable dans les actions humaines et le domaine politique."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Selon le texte, la liberté intérieure est née de:",
+      "options": [
+        "La méditation solitaire",
+        "L’expérience d’une liberté extérieure tangible",
+        "La lecture de textes philosophiques",
+        "Le rejet du politique"
+      ],
+      "answer": 1,
+      "explanation": "L’auteur affirme que l’homme ne saurait rien de la liberté intérieure s’il n’a d’abord expérimenté une liberté tangible dans le monde."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Le texte affirme que la liberté intérieure a toujours été un problème philosophique abstrait.",
+      "answer": false,
+      "explanation": "Il précise que la liberté intérieure n’était pas perçue comme un problème mais comme un fait de la vie quotidienne, lié au domaine politique."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Complétez : Avant de devenir un attribut de la pensée, la liberté était comprise comme le ______ de l’homme libre.",
+      "answer": "statut",
+      "explanation": "Le texte indique que la liberté était comprise comme le statut de l’homme libre."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle auteure est citée dans le texte?",
+      "options": [
+        "Simone de Beauvoir",
+        "Hannah Arendt",
+        "Jean-Paul Sartre",
+        "Marguerite Yourcenar"
+      ],
+      "answer": 1,
+      "explanation": "La citation provient de Hannah Arendt, La Crise de la culture."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Selon le texte, la liberté intérieure est totalement indépendante de toute expérience politique.",
+      "answer": false,
+      "explanation": "Le texte montre que la liberté intérieure trouve son origine dans l’expérience d’une liberté politique concrète."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel terme décrit le cœur humain dans la citation d’Arendt?",
+      "options": [
+        "Clair",
+        "Obscur",
+        "Luminescent",
+        "Transparent"
+      ],
+      "answer": 1,
+      "explanation": "Arendt décrit le cœur humain comme « un lieu très obscur »."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "La liberté comme fait démontrable et la politique sont présentées comme deux ______ d’une même chose.",
+      "answer": "côtés",
+      "explanation": "La phrase d’Arendt indique que les deux sont deux côtés d’une même chose."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Le texte suggère que la liberté intérieure peut être démontrée de façon empirique comme la liberté politique.",
+      "answer": true,
+      "explanation": "Il affirme que la liberté comme fait démontrable coïncide avec la politique."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est le lien entre le commerce avec autrui et la conscience de la liberté?",
+      "options": [
+        "Il la rend secondaire",
+        "Il la rend possible",
+        "Il la rend impossible",
+        "Il n’a aucun lien"
+      ],
+      "answer": 1,
+      "explanation": "Le texte indique que l’on prend conscience de la liberté d’abord dans le commerce avec d’autres."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Le passage du concept politique au concept ______ a conduit à la notion de liberté intérieure.",
+      "answer": "métaphysique",
+      "explanation": "Le texte parle du déplacement du concept politique vers un concept métaphysique."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quelle affirmation résume le mieux la relation entre liberté extérieure et intérieure?",
+      "options": [
+        "La liberté intérieure précède toujours la liberté extérieure",
+        "La liberté intérieure naît de la liberté extérieure",
+        "Les deux sont totalement indépendantes",
+        "La liberté extérieure est une illusion"
+      ],
+      "answer": 1,
+      "explanation": "Le texte insiste sur le fait que la liberté intérieure repose sur une première expérience de liberté extérieure."
+    },
+    {
+      "id": "q13",
+      "type": "truefalse",
+      "prompt": "Selon le texte, la liberté intérieure est uniquement une qualité de la volonté, sans aucune dimension sociale.",
+      "answer": false,
+      "explanation": "Bien que la liberté intérieure devienne une qualité de la volonté, elle reste liée à son origine sociale et politique."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel domaine était le premier lieu où la liberté était reconnue comme un fait quotidien?",
+      "options": [
+        "La religion",
+        "Le domaine politique",
+        "L’art",
+        "La science"
+      ],
+      "answer": 1,
+      "explanation": "Le texte mentionne que le champ où la liberté était connue comme un fait quotidien était le domaine politique."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Le texte utilise le terme « ______ » pour désigner la liberté comme absence d’entrave.",
+      "answer": "simple",
+      "explanation": "Il décrit le concept de liberté comme absence d’entrave comme un concept simple."
+    },
+    {
+      "id": "q16",
+      "type": "truefalse",
+      "prompt": "La liberté intérieure, selon le texte, est décrite comme un fait démontrable.",
+      "answer": true,
+      "explanation": "Arendt affirme que la liberté comme fait démontrable coïncide avec la politique, incluant la dimension intérieure."
+    }
+  ]
+}

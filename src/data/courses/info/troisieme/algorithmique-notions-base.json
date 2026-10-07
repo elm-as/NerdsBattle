@@ -1,0 +1,70 @@
+{
+  "id": "info-troisieme-algorithmique-notions-base",
+  "title": "Notions d'algorithme : instructions et organigrammes",
+  "summary": "Ce chapitre vous apprend à formaliser vos idées pour résoudre un problème avec un ordinateur, en utilisant des instructions simples et des organigrammes. C'est la base de la programmation et une compétence clé pour le BEPC.",
+  "lesson": "## Introduction & Mise en situation\n\nImaginez que vous deviez expliquer à un ami comment préparer un plat. Vous lui donnez une suite d'étapes précises : laver les légumes, les couper, les mettre dans une casserole, etc. Un algorithme, c'est exactement cela, mais pour un ordinateur : une suite d'instructions ordonnées qui permettent de résoudre un problème. Dans ce chapitre, nous allons apprendre à écrire ces instructions et à les représenter visuellement avec des organigrammes. C'est une compétence fondamentale pour comprendre comment fonctionnent les programmes et pour réussir votre BEPC.\n\n## 1. Définitions et Principes Fondamentaux\n\n**Algorithme** : Un algorithme est une suite finie et non ambiguë d'instructions permettant de résoudre un problème. Chaque instruction doit être simple et exécutable sans interprétation personnelle.\n\n**Organigramme** : C'est une représentation graphique de l'algorithme. Il utilise des symboles normalisés reliés par des flèches pour montrer l'ordre des opérations.\n\n**Les symboles de base** :\n\n- **Début/Fin** : un ovale (ou rectangle arrondi) contenant 'Début' ou 'Fin'.\n- **Instruction** : un rectangle où l'on écrit une action (ex: 'Calculer A = B + C').\n- **Entrée** : un parallélogramme pour la saisie de données (ex: 'Lire N').\n- **Sortie** : un parallélogramme pour afficher un résultat (ex: 'Afficher S').\n- **Test / Condition** : un losange avec une question (ex: 'N > 0 ?') et deux sorties Oui/Non (ou Vrai/Faux).\n\n**Variables** : Une variable est un espace mémoire nommé qui peut contenir une valeur modifiable. Par exemple, $x$ peut contenir 5, puis 10. En algorithmique, on utilise souvent des lettres comme $A$, $B$, $N$.\n\n**Expressions et affectation** : L'affectation se note avec une flèche ($\\leftarrow$) ou le signe '='. Par exemple, $S \\leftarrow A + B$ signifie que l'on calcule la somme de A et B et qu'on la stocke dans S.\n\n## 2. Propriétés et Méthodes d'application\n\n**Propriétés d'un algorithme** :\n- **Finitude** : il doit se terminer après un nombre fini d'étapes.\n- **Non-ambiguïté** : chaque instruction doit être claire et sans double sens.\n- **Efficacité** : il doit résoudre le problème en un temps raisonnable.\n\n**Méthode pour construire un algorithme** :\n1. **Comprendre le problème** : identifier les données d'entrée, les traitements à effectuer, et les résultats attendus.\n2. **Décomposer en étapes simples** : écrire une suite d'instructions.\n3. **Représenter avec un organigramme** : utiliser les symboles appropriés.\n4. **Tester** : exécuter mentalement avec des valeurs simples.\n\n**Exemple concret** : Calculer la somme de deux nombres saisis par l'utilisateur.\n\n- **Algorithme** :\n  1. Début\n  2. Lire A\n  3. Lire B\n  4. S $\\leftarrow$ A + B\n  5. Afficher S\n  6. Fin\n\n- **Organigramme** :\n  (Début) $\\rightarrow$ (Lire A) $\\rightarrow$ (Lire B) $\\rightarrow$ (S $\\leftarrow$ A + B) $\\rightarrow$ (Afficher S) $\\rightarrow$ (Fin)\n\n**Exemple avec condition** : Déterminer si un nombre est pair ou impair.\n\n- **Algorithme** :\n  1. Début\n  2. Lire N\n  3. Si N mod 2 = 0, alors afficher 'Pair', sinon afficher 'Impair'\n  4. Fin\n\n- **Organigramme** :\n  (Début) $\\rightarrow$ (Lire N) $\\rightarrow$ (N mod 2 = 0 ?) --Oui--> (Afficher 'Pair') $\\rightarrow$ (Fin)\n  \\--Non--> (Afficher 'Impair') $\\rightarrow$ (Fin)\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Ne pas inverser l'ordre des instructions** : Par exemple, dans l'exemple de la somme, si on affiche S avant de la calculer, on aura une valeur erronée.\n- **Oublier de déclarer les variables** : En algorithmique, on doit toujours préciser les variables utilisées (souvent au début).\n- **Confondre le symbole de l'affectation avec l'égalité mathématique** : $A = A + 1$ est une affectation valide en algorithmique, mais pas une équation.\n- **Ne pas mettre de condition de sortie dans une boucle** : Cela provoque une boucle infinie (l'algorithme ne se termine jamais).\n- **Dans un organigramme, oublier les flèches ou les sorties du losange** : Chaque test doit avoir deux sorties clairement indiquées.\n- **Utiliser des instructions ambiguës** : Par exemple, 'Ajouter un peu de sel' n'est pas une instruction algorithmique, car 'un peu' n'est pas défini.\n\n## Synthèse\n\n1. **Un algorithme est une suite d'instructions ordonnées et non ambiguës pour résoudre un problème.**\n2. **Un organigramme est la représentation graphique de l'algorithme avec des symboles normalisés.**\n3. **Pour réussir, il faut identifier les entrées, les traitements et les sorties, et tester son algorithme.**",
+  "estimatedMinutes": 12,
+  "tags": [
+    "algorithme",
+    "organigramme",
+    "instruction",
+    "BEPC",
+    "TICE"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel symbole utilise-t-on pour représenter une opération de lecture (entrée) dans un organigramme ?",
+      "options": [
+        "Rectangle",
+        "Losange",
+        "Parallélogramme",
+        "Ovale"
+      ],
+      "answer": 2,
+      "explanation": "Le parallélogramme est utilisé pour les entrées et sorties."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Un algorithme doit toujours avoir un nombre fini d'instructions.",
+      "answer": true,
+      "explanation": "C'est une propriété fondamentale : l'algorithme doit se terminer."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Dans un organigramme, le symbole utilisé pour une condition (test) est un __________.",
+      "answer": "losange",
+      "explanation": "Le losange est le symbole standard pour une décision."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Que fait l'instruction 'A ← A + 1' ?",
+      "options": [
+        "Elle compare A à 1",
+        "Elle ajoute 1 à la valeur de A",
+        "Elle affiche A+1",
+        "Elle déclare une variable"
+      ],
+      "answer": 1,
+      "explanation": "L'affectation '←' signifie qu'on calcule la valeur de droite et qu'on la stocke dans la variable de gauche."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Dans un organigramme, les flèches entre les symboles indiquent l'ordre d'exécution des instructions.",
+      "answer": true,
+      "explanation": "Les flèches montrent le déroulement logique."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Quelle est la valeur de S après l'exécution de l'algorithme : Lire A (A=5), Lire B (B=3), S ← A + B, Afficher S ?",
+      "answer": "8",
+      "explanation": "S = 5 + 3 = 8."
+    }
+  ]
+}

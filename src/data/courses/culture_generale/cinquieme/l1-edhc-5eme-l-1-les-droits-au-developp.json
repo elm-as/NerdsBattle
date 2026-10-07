@@ -1,0 +1,105 @@
+{
+  "id": "culture_generale-cinquieme-l1-edhc-5eme-l-1-les-droits-au-developp",
+  "subjectId": "culture_generale",
+  "levelId": "cinquieme",
+  "slug": "l1-edhc-5eme-l-1-les-droits-au-developp",
+  "title": "Droits au développement et participation de l'enfant",
+  "summary": "Cette leçon de 5ème aborde les droits fondamentaux de l'enfant en Côte d'Ivoire. Elle distingue les droits au développement (éducation, santé, loisirs) des droits à la participation (expression, association). L'objectif est de comprendre l'importance du respect de ces droits pour la croissance harmonieuse de l'enfant et l'harmonie familiale, tout en identifiant les violations courantes.",
+  "lesson": "# Les droits au développement et à la participation de l'enfant\n\n## I. Définitions et catégories de droits\n\n### 1. Les droits au développement\nCe sont les droits aux ressources, aux compétences et à l'aide dont un enfant a besoin pour survivre et se développer au mieux de ses capacités.\n\n**Droits principaux :**\n- Le droit à l'éducation\n- Le droit à la santé\n- Le droit aux ressources\n- Le droit aux loisirs et à la détente\n\n### 2. Les droits à la participation\nCe sont les droits de l'enfant à s'exprimer ou à donner son avis sur des questions qui ont une incidence sur sa vie socioéconomique, religieuse, culturelle et politique.\n\n**Droits principaux :**\n- La liberté de pensée\n- La liberté d'expression\n- La liberté d'association\n- Le droit à l'information\n\n## II. L'importance du respect de ces droits\n\n### 1. Pour l'enfant\nLe respect de ces droits permet :\n- Sa croissance harmonieuse\n- L'ouverture de son esprit\n- La compréhension des réalités qui l'entourent\n\n### 2. Pour la famille\nLe respect de ces droits favorise :\n- La quiétude de la famille\n- L'harmonie au sein de la famille\n\n## III. Identification des violations\n\nIl est crucial de distinguer les mesures de protection légitimes des violations des droits de l'enfant.\n\n**Exemples de violations :**\n- Interdire à un enfant d'aller à l'école (violation du droit à l'éducation).\n- Interdire à un enfant d'avoir des amis (violation de la liberté d'association/participation).\n\n**Exemples de mesures de protection (non-violations) :**\n- Interdire de sortir tard le soir (sécurité).\n- Interdire d'appartenir à un gang (protection physique et morale).\n\n## IV. Résumé\nLe respect des droits au développement et à la participation de l'enfant est source de bien-être pour l'enfant et de quiétude pour la famille. L'enfant a le droit de donner son avis sur les questions qui le concernent, ce qui participe à son insertion harmonieuse dans la société.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "culture_generale",
+    "cinquieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quels sont les droits au développement de l'enfant ?",
+      "options": [
+        "Liberté d'expression, liberté de pensée",
+        "Droit à l'éducation, droit à la santé, droit aux loisirs",
+        "Droit à l'information, liberté d'association",
+        "Droit de vote, droit de grève"
+      ],
+      "answer": 1,
+      "explanation": "Les droits au développement concernent les ressources et compétences pour survivre et grandir : éducation, santé, loisirs."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La liberté d'expression relève de quelle catégorie de droits ?",
+      "options": [
+        "Droits au développement",
+        "Droits à la participation",
+        "Droits civils uniquement",
+        "Droits économiques"
+      ],
+      "answer": 1,
+      "explanation": "La liberté d'expression permet à l'enfant de donner son avis, ce qui est un droit à la participation."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Les droits à la participation permettent à l'enfant de s'exprimer ou de donner son ______ sur des questions qui l'incitent.",
+      "answer": "0",
+      "explanation": "La définition précise que ces droits concernent le droit de donner son avis."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel est un avantage du respect des droits de l'enfant pour la famille ?",
+      "options": [
+        "L'augmentation des dépenses",
+        "La quiétude et l'harmonie au sein de la famille",
+        "L'indépendance totale de l'enfant",
+        "La réduction des devoirs parentaux"
+      ],
+      "answer": 1,
+      "explanation": "Le texte indique que le respect de ces droits favorise la quiétude et l'harmonie familiale."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Lequel des éléments suivants est un droit à la participation ?",
+      "options": [
+        "Le droit à la santé",
+        "Le droit aux loisirs",
+        "La liberté d'association",
+        "Le droit aux ressources"
+      ],
+      "answer": 2,
+      "explanation": "La liberté d'association permet à l'enfant de se regrouper et de participer à la vie sociale, relevant de la participation."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Le respect des droits de l'enfant permet sa croissance ______.",
+      "answer": "0",
+      "explanation": "Le texte mentionne spécifiquement la 'croissance harmonieuse' comme bénéfice pour l'enfant."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel droit permet à l'enfant d'accéder à des informations sur ses propres droits ?",
+      "options": [
+        "Droit à l'éducation",
+        "Droit à l'information",
+        "Droit à la santé",
+        "Droit aux loisirs"
+      ],
+      "answer": 1,
+      "explanation": "Le droit à l'information est explicitement listé sous les droits à la participation."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Les droits au développement sont les droits aux ______, aux compétences et à l'aide.",
+      "answer": "0",
+      "explanation": "La définition officielle inclut les ressources, les compétences et l'aide."
+    }
+  ]
+}

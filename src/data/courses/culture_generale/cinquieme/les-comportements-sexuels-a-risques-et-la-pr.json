@@ -1,0 +1,72 @@
+{
+  "id": "culture_generale-cinquieme-les-comportements-sexuels-a-risques-et-la-pr",
+  "subjectId": "culture_generale",
+  "levelId": "cinquieme",
+  "slug": "les-comportements-sexuels-a-risques-et-la-pr",
+  "title": "Comportements sexuels à risques, IST et VIH/SIDA",
+  "summary": "Cette leçon de 5e aborde les comportements sexuels à risques, leurs causes (mauvaises fréquentations, préjugés) et conséquences (IST, VIH/SIDA, grossesses non désirées). Elle détaille les modes de transmission du VIH et les symptômes des IST courantes (gonococcie, syphilis, herpès). L'accent est mis sur la prévention et la prise de décision responsable pour protéger sa santé et son avenir scolaire.",
+  "lesson": "# Les comportements sexuels à risques et la propagation des IST et du VIH/SIDA\n\n## 1. Définition des comportements sexuels à risques\nLes **comportements sexuels à risques** sont l'ensemble des conduites qui mettent en danger la vie de leur auteur et celle des autres. Ces actions compromettent la santé physique, psychologique et sociale de l'adolescent.\n\n### Les principaux comportements à risques :\n- Les **rapports sexuels non protégés** (sans préservatif).\n- La **multiplicité de partenaires** sexuels.\n- Les rapports avec des populations considérées à haut risque (prostitués, etc.).\n- Les **rapports sexuels précoces** (avant la maturité physique et psychologique).\n\n## 2. Les causes de ces comportements\nPlusieurs facteurs poussent les jeunes à adopter ces comportements :\n- **Les mauvaises fréquentations** : L'influence de camarades indisciplinés ou de milieux malsains.\n- **Les activités malsaines** : La consommation d'alcool et de drogues qui altère le jugement.\n- **La méconnaissance du VIH/SIDA** : Due aux préjugés, aux mythes et aux coutumes qui minimisent le danger.\n- **Les problèmes familiaux** : La dislocation familiale et l'extrême pauvreté créent un vide affectif et un manque de supervision.\n\n## 3. Les conséquences\nLes conséquences de ces comportements sont graves et durables :\n- **Les IST** : Infections Sexuellement Transmissibles.\n- **Le VIH/SIDA** : Contamination par le virus de l'Immunodéficience Humaine.\n- **Les grossesses à risques** : Grossesses non désirées, souvent précoces.\n- **La réputation entachée** : Stigmatisation sociale.\n- **L'interruption des études** : Abandon scolaire lié à la grossesse ou à la maladie.\n\n## 4. Le SIDA et les IST courantes\n\n### Le SIDA\nLe **SIDA** signifie **Syndrome d'Immunodéficience Acquise**. C'est une maladie grave provoquée par le **VIH** (Virus de l'Immunodéficience Humaine). Le VIH détruit progressivement le système immunitaire, rendant le corps incapable de se défendre contre les infections.\n\n### Les formes courantes des IST\n1. **La gonococcie (ou blennorragie)** :\n   - Caractérisée par un écoulement de pus au niveau du sexe.\n   - Douleurs urinaires, parfois au niveau des testicules chez les garçons.\n2. **La syphilis** :\n   - Se manifeste par des **plaies indolores** sur le sexe.\n3. **L'herpès génital** :\n   - Apparition de petits furoncles (boutons) sur le sexe, les lèvres ou dans la bouche.\n4. **Le chancre mou** :\n   - Provoque des **plaies douloureuses** au niveau de l'organe génital.\n\n> **Note importante** : Ces maladies peuvent conduire à la **stérilité** si elles ne sont pas traitées correctement et rapidement.\n\n## 5. Les modes de transmission du VIH\nLe VIH se transmet principalement de trois façons :\n1. **Par les rapports sexuels** : Non protégés avec une personne séropositive.\n2. **Par le sang** : À travers les transfusions sanguines non contrôlées ou le partage d'objets souillés par du sang contaminé (seringues, rasoirs, lames de rasoir).\n3. **De la mère à l'enfant** : Pendant la grossesse, lors de l'accouchement ou par le lait maternel.\n\n## 6. Stratégie de prise de décision face aux risques\nFace à la pression sociale ou aux tentations, l'adolescent doit développer une stratégie de prise de décision :\n- **S'informer** : Connaître les faits scientifiques sur le VIH et les IST.\n- **Refuser** : Savoir dire non aux mauvaises fréquentations et aux rapports non protégés.\n- **Se protéger** : Utiliser le préservatif en cas de rapports (prévention) et consulter un médecin en cas de symptômes.\n- **Communiquer** : Parler avec des adultes de confiance (parents, enseignants, conseillers) pour obtenir de l'aide.\n- **Préserver son avenir** : Comprendre que la santé et les études sont les piliers d'une vie épanouie.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "culture_generale",
+    "cinquieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Que signifie l'acronyme SIDA ?",
+      "options": [
+        "Syndrome d'Immunodéficience Acquise",
+        "Syndrome d'Infection Douloureuse Aiguë",
+        "Syndrome d'Immunité Défaillante Avancée",
+        "Syndrome d'Infection Sexuelle Acquise"
+      ],
+      "answer": 0,
+      "explanation": "Le SIDA signifie Syndrome d'Immunodéficience Acquise."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le virus responsable du SIDA est le __________ (VIH).",
+      "answer": "0",
+      "explanation": "Le VIH signifie Virus de l'Immunodéficience Humaine."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Laquelle de ces situations est un comportement sexuel à risque ?",
+      "options": [
+        "Utiliser un préservatif systématiquement",
+        "Avoir un seul partenaire fidèle",
+        "Avoir des rapports sexuels non protégés",
+        "Attendre la maturité pour les rapports"
+      ],
+      "answer": 2,
+      "explanation": "Les rapports sexuels non protégés sont un comportement à risque majeur."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel symptôme caractérise la gonococcie (blennorragie) ?",
+      "options": [
+        "Plaies indolores",
+        "Écoulement de pus et douleurs urinaires",
+        "Petits furoncles sur les lèvres",
+        "Plaies douloureuses"
+      ],
+      "answer": 1,
+      "explanation": "La gonococcie se caractérise par un écoulement de pus et des douleurs urinaires."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Les IST peuvent conduire à la __________ si elles ne sont pas traitées.",
+      "answer": "0",
+      "explanation": "Les IST non traitées peuvent entraîner la stérilité."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "physique-premiere-oxydoreduction-couples",
+  "title": "Réactions d'oxydoréduction et couples redox",
+  "summary": "Ce chapitre t'ouvre les portes de la chimie moderne : comprendre les transferts d'électrons, c'est comprendre les piles, la corrosion, et bien d'autres phénomènes du quotidien. Maîtrise les couples redox et tu sauras prédire le sens des réactions, une compétence clé pour réussir au BAC.",
+  "lesson": "## Introduction & Mise en situation\n\nAs-tu déjà observé un clou rouiller ? Ou utilisé une pile pour faire fonctionner une lampe ? Ces phénomènes, apparemment différents, reposent sur un même principe : **les réactions d'oxydoréduction**. Elles impliquent un transfert d'électrons entre espèces chimiques. Comprendre ce chapitre, c'est comprendre comment fonctionnent les batteries, comment protéger les métaux de la corrosion, et même comment fonctionnent certains processus biologiques. Au lycée, c'est un chapitre incontournable pour aborder l'électrochimie et la chimie organique.\n\n## 1. Définitions et Principes Fondamentaux\n\n### Oxydation et réduction\n\n- **Oxydation** : perte d'électrons par une espèce chimique.\n  Exemple : $\\text{Fe}^{2+} \\rightarrow \\text{Fe}^{3+} + e^-$ (oxydation de l'ion fer(II) en ion fer(III)).\n- **Réduction** : gain d'électrons par une espèce chimique.\n  Exemple : $\\text{Cu}^{2+} + 2e^- \\rightarrow \\text{Cu}$ (réduction de l'ion cuivre(II) en cuivre métal).\n\n### Oxydant et réducteur\n\n- **Oxydant** : espèce capable de capter des électrons (elle est réduite).\n- **Réducteur** : espèce capable de céder des électrons (elle est oxydée).\n\n### Couple oxydant/réducteur (redox)\n\nUn couple redox est noté **Ox/Red**. La demi-équation associée s'écrit :\n$$\\text{Ox} + n\\,e^- \\rightleftharpoons \\text{Red}$$\n\nExemples de couples :\n- $\\text{Cu}^{2+}/\\text{Cu}$ : $\\text{Cu}^{2+} + 2e^- \\rightleftharpoons \\text{Cu}$\n- $\\text{Fe}^{3+}/\\text{Fe}^{2+}$ : $\\text{Fe}^{3+} + e^- \\rightleftharpoons \\text{Fe}^{2+}$\n- $\\text{Zn}^{2+}/\\text{Zn}$ : $\\text{Zn}^{2+} + 2e^- \\rightleftharpoons \\text{Zn}$\n\n### Réaction d'oxydoréduction\n\nC'est une réaction entre un oxydant d'un couple et un réducteur d'un autre couple. Elle résulte de la combinaison de deux demi-équations. Le transfert d'électrons est simultané.\n\n**Exemple** : Réaction entre le zinc métal et les ions cuivre(II) :\n- Couple 1 : $\\text{Cu}^{2+}/\\text{Cu}$ : $\\text{Cu}^{2+} + 2e^- \\rightarrow \\text{Cu}$ (réduction)\n- Couple 2 : $\\text{Zn}^{2+}/\\text{Zn}$ : $\\text{Zn} \\rightarrow \\text{Zn}^{2+} + 2e^-$ (oxydation)\n\nEn additionnant : $\\text{Zn} + \\text{Cu}^{2+} \\rightarrow \\text{Zn}^{2+} + \\text{Cu}$\n\n## 2. Propriétés et Méthodes d'application\n\n### Écrire une équation bilan\n\n**Méthode pas à pas :**\n1. Identifier les deux couples mis en jeu (à partir des espèces présentes).\n2. Écrire les deux demi-équations avec le même nombre d'électrons.\n3. Additionner les deux demi-équations en simplifiant les électrons.\n4. Vérifier la conservation des éléments et de la charge.\n\n**Exemple concret :**\nOn fait réagir l'ion permanganate $\\text{MnO}_4^-$ (en milieu acide) avec l'ion fer(II) $\\text{Fe}^{2+}$.\n- Couples : $\\text{MnO}_4^-/\\text{Mn}^{2+}$ et $\\text{Fe}^{3+}/\\text{Fe}^{2+}$.\n- Demi-équations :\n  - $\\text{MnO}_4^- + 8\\text{H}^+ + 5e^- \\rightarrow \\text{Mn}^{2+} + 4\\text{H}_2\\text{O}$\n  - $\\text{Fe}^{2+} \\rightarrow \\text{Fe}^{3+} + e^-$\n- Multiplier la deuxième par 5 : $5\\text{Fe}^{2+} \\rightarrow 5\\text{Fe}^{3+} + 5e^-$\n- Additionner : $\\text{MnO}_4^- + 8\\text{H}^+ + 5\\text{Fe}^{2+} \\rightarrow \\text{Mn}^{2+} + 4\\text{H}_2\\text{O} + 5\\text{Fe}^{3+}$\n\n### Prévoir le sens d'une réaction\n\nOn compare les pouvoirs réducteurs/oxydants des couples. En général, le réducteur le plus fort (celui qui a tendance à céder des électrons) réagit avec l'oxydant le plus fort. Ceci peut être déterminé expérimentalement ou à l'aide d'une échelle des potentiels standards (hors programme ici).\n\n### Application aux piles\n\nUne pile électrochimique utilise une réaction d'oxydoréduction spontanée pour produire du courant. Les électrons circulent de l'électrode où a lieu l'oxydation (anode) vers celle où a lieu la réduction (cathode).\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Oublier de balancer les électrons** : Le nombre d'électrons échangés doit être le même dans les deux demi-équations avant addition.\n- **Confondre oxydation et réduction** : Retiens : **O**xydation = **P**erte d'électrons, **R**éduction = **G**ain d'électrons (OPRG).\n- **Négliger le milieu acide ou basique** : Dans les milieux acides, on équilibre avec $\\text{H}^+$ et $\\text{H}_2\\text{O}$ ; en milieu basique, avec $\\text{OH}^-$ et $\\text{H}_2\\text{O}$.\n- **Écrire une demi-équation avec des électrons du mauvais côté** : Les électrons doivent être du côté de l'oxydant.\n- **Ne pas vérifier la conservation de la charge** : La charge totale doit être la même des deux côtés.\n\n## Synthèse\n\n1. **Oxydation** = perte d'électrons, **réduction** = gain d'électrons. Un couple redox est noté Ox/Red.\n2. Une réaction d'oxydoréduction combine deux demi-équations : l'une d'oxydation, l'autre de réduction, avec le même nombre d'électrons.\n3. Pour équilibrer, on utilise la méthode des demi-équations en tenant compte du milieu (acide ou basique) et on vérifie toujours la conservation de la matière et de la charge.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "oxydoréduction",
+    "redox",
+    "chimie",
+    "première",
+    "bac"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans la réaction : $\\text{Zn} + \\text{Cu}^{2+} \\rightarrow \\text{Zn}^{2+} + \\text{Cu}$, quelle espèce est l'oxydant ?",
+      "options": [
+        "Zn",
+        "Cu^{2+}",
+        "Zn^{2+}",
+        "Cu"
+      ],
+      "answer": 1,
+      "explanation": "L'oxydant est l'espèce qui capte des électrons : ici Cu^{2+} est réduit en Cu, donc c'est l'oxydant."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Une oxydation est un gain d'électrons.",
+      "answer": false,
+      "explanation": "Une oxydation est une perte d'électrons. Le gain d'électrons est une réduction."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Combien d'électrons sont échangés dans la réaction entre $\\text{Al}$ et $\\text{Cu}^{2+}$ si l'équation bilan est $2\\text{Al} + 3\\text{Cu}^{2+} \\rightarrow 2\\text{Al}^{3+} + 3\\text{Cu}$ ? (répondre par un nombre)",
+      "answer": "6",
+      "explanation": "Chaque Al cède 3 électrons (Al → Al^{3+} + 3e^-), donc 2 Al cèdent 6 électrons ; chaque Cu^{2+} gagne 2 électrons, donc 3 Cu^{2+} gagnent 6 électrons."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la demi-équation correcte pour le couple $\\text{Fe}^{3+}/\\text{Fe}^{2+}$ ?",
+      "options": [
+        "$\\text{Fe}^{3+} + e^- \\rightarrow \\text{Fe}^{2+}$",
+        "$\\text{Fe}^{2+} + e^- \\rightarrow \\text{Fe}^{3+}$",
+        "$\\text{Fe}^{3+} \\rightarrow \\text{Fe}^{2+} + e^-$",
+        "$\\text{Fe}^{2+} \\rightarrow \\text{Fe}^{3+} + 2e^-$"
+      ],
+      "answer": 0,
+      "explanation": "Le fer(III) est l'oxydant, il capte un électron pour devenir fer(II) : Fe^{3+} + e^- → Fe^{2+}."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Dans une pile, l'anode est le siège de la réduction.",
+      "answer": false,
+      "explanation": "L'anode est le siège de l'oxydation (perte d'électrons). La cathode est le siège de la réduction."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Équilibrer la demi-équation en milieu acide : $\\text{MnO}_4^- + 8\\text{H}^+ + 5e^- \\rightarrow \\text{Mn}^{2+} + 4\\text{H}_2\\text{O}$. Quel est le nombre de molécules d'eau produites ?",
+      "answer": "4",
+      "explanation": "On équilibre les atomes d'oxygène : 4 atomes O à gauche, donc 4 H2O à droite."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "maths-seconde-ordre-valeur-absolue",
+  "title": "Ordre dans R, encadrements et valeur absolue",
+  "summary": "Maîtrisez la comparaison des nombres réels et les encadrements pour résoudre des problèmes concrets. La valeur absolue devient votre outil pour mesurer des distances et encadrer des erreurs.",
+  "lesson": "## Introduction & Mise en situation\n\nCe chapitre est le fondement de toute l'analyse mathématique. Il vous permet de comparer des nombres, d'encadrer des valeurs (comme des mesures physiques) et de manipuler des inégalités, compétences indispensables pour la résolution de problèmes en sciences et en économie. La valeur absolue, quant à elle, est un outil puissant pour exprimer des distances et des incertitudes.\n\n## 1. Définitions et Principes Fondamentaux\n\n### Ordre dans $\\mathbb{R}$\n\n- **Comparaison** : Pour tous réels $a$ et $b$, on a $a < b$ si et seulement si $b - a > 0$.\n- **Propriétés de l'ordre** :\n  - Si $a < b$ et $b < c$, alors $a < c$ (transitivité).\n  - Si $a < b$, alors $a + c < b + c$ pour tout réel $c$.\n  - Si $a < b$ et $c > 0$, alors $ac < bc$.\n  - Si $a < b$ et $c < 0$, alors $ac > bc$ (le sens change).\n\n### Encadrements\n\nUn encadrement d'un nombre $x$ est une double inégalité $a \\le x \\le b$, où $a$ est un minorant et $b$ un majorant. L'amplitude de l'encadrement est $b - a$.\n\n### Valeur absolue\n\nPour tout réel $x$, la valeur absolue de $x$, notée $|x|$, est définie par :\n\n$$|x| = \\begin{cases} x & \\text{si } x \\ge 0 \\\\ -x & \\text{si } x < 0 \\end{cases}$$\n\nInterprétation géométrique : $|x|$ est la distance entre $x$ et $0$ sur la droite numérique. De manière générale, $|x - a|$ est la distance entre $x$ et $a$.\n\n## 2. Propriétés et Méthodes d'application\n\n### Propriétés de la valeur absolue\n\n- $|x| \\ge 0$ pour tout $x$, et $|x| = 0$ si et seulement si $x = 0$.\n- $|xy| = |x| \\cdot |y|$.\n- $\\left|\\frac{x}{y}\\right| = \\frac{|x|}{|y|}$ si $y \\neq 0$.\n- Inégalité triangulaire : $|x + y| \\le |x| + |y|$.\n\n### Résolution d'équations et inéquations avec valeur absolue\n\n- **Équation** $|x| = a$ (avec $a \\ge 0$) a pour solutions $x = a$ ou $x = -a$.\n- **Inéquation** $|x| \\le a$ (avec $a \\ge 0$) équivaut à $-a \\le x \\le a$.\n- **Inéquation** $|x| \\ge a$ (avec $a \\ge 0$) équivaut à $x \\le -a$ ou $x \\ge a$.\n\n**Exemple** : Résoudre $|x - 2| \\le 3$.\n\nOn a : $-3 \\le x - 2 \\le 3$, donc en ajoutant 2 : $-1 \\le x \\le 5$. L'ensemble solution est $[-1; 5]$.\n\n### Encadrements et opérations\n\n- Si $a \\le x \\le b$ et $c \\le y \\le d$, alors $a + c \\le x + y \\le b + d$.\n- Si $a \\le x \\le b$ et $c \\le y \\le d$ avec $a,b,c,d \\ge 0$, alors $ac \\le xy \\le bd$.\n- Attention : pour la soustraction, on peut écrire $x - y = x + (-y)$ et encadrer $-y$.\n\n**Exemple** : Encadrer $x^2$ si $2 \\le x \\le 5$.\n\nComme $x$ est positif, on a $2^2 \\le x^2 \\le 5^2$, donc $4 \\le x^2 \\le 25$.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Erreur classique** : Multiplier ou diviser une inégalité par un nombre négatif sans inverser le sens. Par exemple, de $x < 3$, on ne peut pas déduire $2x < 6$ si on multiplie par $-2$ (il faut inverser).\n- **Piège** : Croire que $|x|$ est toujours égal à $x$. Pour $x$ négatif, $|x| = -x$.\n- **Piège** : Dans un encadrement, additionner membre à membre des inégalités de sens contraires. Il faut d'abord les aligner.\n- **Piège** : Pour $|x| \\le a$, oublier que $a$ doit être positif. Si $a$ est négatif, l'inéquation n'a pas de solution.\n- **Piège** : Pour résoudre $|x - a| \\le b$, ne pas oublier que cela représente un intervalle centré en $a$, de rayon $b$.\n\n## Synthèse\n\n1. **Comparer** des nombres réels en utilisant la différence $b - a$ et les propriétés de l'ordre (addition, multiplication par un positif ou négatif).\n2. **Encadrer** des expressions en utilisant les règles d'addition et de multiplication, en vérifiant les signes.\n3. **Utiliser la valeur absolue** pour exprimer des distances et résoudre équations/inéquations : $|x| = a$, $|x| \\le a$, $|x| \\ge a$.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "ordre",
+    "encadrement",
+    "valeur absolue",
+    "inégalités",
+    "analyse"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la solution de l'équation $|x - 3| = 5$ ?",
+      "options": [
+        "$x = 8$ ou $x = -2$",
+        "$x = 8$ ou $x = 2$",
+        "$x = -8$ ou $x = 2$",
+        "$x = -8$ ou $x = -2$"
+      ],
+      "answer": 0,
+      "explanation": "On a $x-3 = 5$ ou $x-3 = -5$, donc $x = 8$ ou $x = -2$."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Si $a < b$ et $c < 0$, alors $ac > bc$.",
+      "answer": true,
+      "explanation": "Multiplier une inégalité par un nombre négatif inverse le sens."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Si $2 \\le x \\le 5$, alors $x^2$ est encadré entre $4$ et $\\_\\_$.",
+      "answer": "25",
+      "explanation": "Comme $x$ est positif, on élève au carré les bornes : $2^2=4$ et $5^2=25$."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "L'inéquation $|x - 1| \\le 4$ a pour ensemble solution :",
+      "options": [
+        "$[-3; 5]$",
+        "$[-5; 3]$",
+        "$[-4; 4]$",
+        "$[-1; 5]$"
+      ],
+      "answer": 0,
+      "explanation": "On a $-4 \\le x-1 \\le 4$, donc en ajoutant 1 : $-3 \\le x \\le 5$, soit $[-3;5]$."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Pour tout réel $x$, $|x| = x$ est toujours vrai.",
+      "answer": false,
+      "explanation": "Si $x$ est négatif, $|x| = -x$, pas $x$."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Si $3 \\le x \\le 7$ et $2 \\le y \\le 4$, alors $xy$ est compris entre $6$ et $\\_\\_$.",
+      "answer": "28",
+      "explanation": "Comme tous les nombres sont positifs, on multiplie les bornes : $3 \\times 2 = 6$ et $7 \\times 4 = 28$."
+    }
+  ]
+}

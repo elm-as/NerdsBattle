@@ -1,0 +1,15 @@
+{
+  "id": "maths-sixieme-operations-base",
+  "title": "Les opérations de base",
+  "summary": "Addition, soustraction, multiplication, division : maîtriser les fondations.",
+  "lesson": "Les quatre opérations sont les piliers du calcul. L'addition et la multiplication sont commutatives (a+b = b+a). La soustraction et la division ne le sont pas. La priorité des opérations : parenthèses, puis × et ÷, puis + et −.",
+  "estimatedMinutes": 8,
+  "tags": ["arithmétique", "calcul"],
+  "questions": [
+    { "id": "q1", "type": "mcq", "prompt": "Combien font 7 × 8 ?", "options": ["54", "56", "64", "48"], "answer": 1, "explanation": "Table de 8 : 7 × 8 = 56." },
+    { "id": "q2", "type": "mcq", "prompt": "Résultat de 144 ÷ 12 ?", "options": ["10", "11", "12", "14"], "answer": 2, "explanation": "12 × 12 = 144." },
+    { "id": "q3", "type": "truefalse", "prompt": "13 + 17 = 30", "answer": true, "explanation": "10+10 + 3+7 = 20 + 10 = 30." },
+    { "id": "q4", "type": "fill", "prompt": "5 × ___ = 45", "answer": "9", "explanation": "45 / 5 = 9." },
+    { "id": "q5", "type": "mcq", "prompt": "2 + 3 × 4 = ?", "options": ["20", "14", "24", "10"], "answer": 1, "explanation": "Priorité au ×. 3×4 = 12, puis 2+12 = 14." }
+  ]
+}

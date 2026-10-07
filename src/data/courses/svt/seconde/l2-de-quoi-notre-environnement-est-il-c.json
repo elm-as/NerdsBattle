@@ -1,0 +1,167 @@
+{
+  "id": "svt-seconde-l2-de-quoi-notre-environnement-est-il-c",
+  "subjectId": "svt",
+  "levelId": "seconde",
+  "slug": "l2-de-quoi-notre-environnement-est-il-c",
+  "title": "Les grands ensembles environnementaux et leurs caractéristiques",
+  "summary": "Cette leçon décrit les quatre grands ensembles qui composent notre environnement – atmosphère, lithosphère, hydrosphère et biosphère – ainsi que leurs épaisseurs, compositions et fonctions. Elle détaille les sous‑couches de l’atmosphère, les rôles géologiques de la lithosphère, les états de l’eau dans l’hydrosphère et l’interaction de la biosphère avec les trois autres ensembles, avant de conclure sur l’importance d’une gestion intégrée de l’environnement.",
+  "lesson": "# Introduction\nL’environnement terrestre se compose de matières solides, liquides et gazeuses. Ces matières s’organisent en quatre grands ensembles environnementaux qui interagissent pour former un système harmonieux.\n\n## I. Les grands ensembles environnementaux\n| Ensemble | Description | Épaisseur approximative |\n|---|---|---|\n| **Atmosphère** | Enveloppe gazeuse autour de la Terre | 500‑1000 km |\n| **Lithosphère** | Couche superficielle solide (croûte + manteau supérieur) | ~100 km |\n| **Hydrosphère** | Ensemble des eaux (océans, mers, fleuves, lacs, glaces) | moyenne 3,8 km |\n| **Biosphère** | Partie du globe où vivent les êtres vivants (intègre les trois premiers ensembles) | - |\n\n## II. Caractéristiques de chaque ensemble\n### a) Atmosphère\n- Principaux gaz : N₂, O₂, CO₂, H₂O, etc.\n- Stratification par température :\n  - **Troposphère** (0‑7/16 km) : 90 % de la masse, météo, vapeur d’eau.\n  - **Stratosphère** (16‑50 km) : ozone, vents jusqu’à 350 km/h.\n  - **Mésosphère** (50‑80 km) : températures jusqu’à -90 °C.\n  - **Thermosphère** (80‑500 km) : forte variation diurne, températures très élevées.\n  - **Ionosphère** (>500 km) : couches ionisées, rôle électromagnétique.\n### b) Lithosphère\n- Constituée de sol, sous‑sol, roches altérées et mères.\n- Lieu de formation et métamorphose des roches, gisements minéraux, support des êtres vivants.\n### c) Hydrosphère\n- Couvre ~75 % de la surface terrestre.\n- États de la matière : glace (solide), eau douce/salée (liquide), vapeur d’eau (gazeux).\n- Source indispensable de vie.\n### d) Biosphère\n- Intègre atmosphère, lithosphère et hydrosphère.\n- Habitat principal des organismes vivants, assure l’équilibre biocénose.\n\n## Conclusion générale\nL’environnement n’est plus limité au milieu naturel ; il inclut le cadre de vie façonné par l’homme. Une gestion intégrée, alliant protection et utilisation durable, est indispensable pour assurer le développement harmonieux de la planète.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "svt",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est l’épaisseur moyenne de l’hydrosphère ?",
+      "options": [
+        "3,8 km",
+        "10 km",
+        "100 km",
+        "500 km"
+      ],
+      "answer": 0,
+      "explanation": "Le texte indique une épaisseur moyenne de 3,8 km pour l’hydrosphère."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La lithosphère s’étend jusqu’à 500 km de profondeur.",
+      "answer": false,
+      "explanation": "La lithosphère ne dépasse pas environ 100 km d’épaisseur."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "L’atmosphère représente ___% de la masse totale de l’atmosphère terrestre.",
+      "answer": "90",
+      "explanation": "La troposphère contient 90 % de la masse de l’atmosphère."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle couche atmosphérique contient l’ozone ?",
+      "options": [
+        "Troposphère",
+        "Stratosphère",
+        "Mésosphère",
+        "Thermosphère"
+      ],
+      "answer": 1,
+      "explanation": "L’ozone se forme principalement dans la stratosphère (ozonosphère)."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La biosphère est constituée uniquement de la lithosphère et de l’hydrosphère.",
+      "answer": false,
+      "explanation": "La biosphère comprend l’atmosphère, la lithosphère et l’hydrosphère."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "La température moyenne de la stratosphère est de ___°C.",
+      "answer": "0",
+      "explanation": "Le texte indique une température moyenne de 0 °C pour la stratosphère."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel gaz n’est pas mentionné comme composant majeur de l’atmosphère ?",
+      "options": [
+        "Azote",
+        "Dioxyde de carbone",
+        "Dihydrogène",
+        "Ozone"
+      ],
+      "answer": 2,
+      "explanation": "Le dihydrogène (H₂) n’est pas listé parmi les gaz majeurs de l’atmosphère."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "La troposphère s’étend jusqu’à 16 km d’altitude aux pôles.",
+      "answer": false,
+      "explanation": "Aux pôles, la troposphère atteint 7 km d’altitude, pas 16 km."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "La température minimale observée dans la mésosphère est d’environ ___°C.",
+      "answer": "-90",
+      "explanation": "La mésosphère descend jusqu’à -90 °C."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel phénomène électromagnétique est lié à l’ionosphère ?",
+      "options": [
+        "Aurore polaire",
+        "Pluie",
+        "Séismes",
+        "Tremblements de terre"
+      ],
+      "answer": 0,
+      "explanation": "L’ionosphère participe à la formation des aurores polaires."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "L’hydrosphère ne comprend que les océans et les mers.",
+      "answer": false,
+      "explanation": "Elle comprend aussi fleuves, lacs, rivières, étangs et les trois états de l’eau."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Le support solide de la vie sur Terre est fourni par la ___ .",
+      "answer": "lithosphère",
+      "explanation": "La lithosphère constitue le support solide des êtres vivants."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel est le rôle principal de la thermosphère ?",
+      "options": [
+        "Formation d’ozone",
+        "Variation diurne de température",
+        "Réflexion des ondes radio",
+        "Production de vapeur d’eau"
+      ],
+      "answer": 1,
+      "explanation": "La thermosphère présente une forte variation diurne de la température."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "La troposphère contient 100 % de la vapeur d’eau atmosphérique.",
+      "answer": true,
+      "explanation": "Le texte précise que la troposphère contient 100 % de la vapeur d’eau."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Le cadre de vie façonné par l’homme depuis ses origines s’appelle aujourd’hui ___ de l’environnement.",
+      "answer": "gestion",
+      "explanation": "Le texte indique qu’on parle de « gérer l’environnement » en plus de le protéger."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel ensemble environnemental regroupe les glaciers, la neige et la glace ?",
+      "options": [
+        "Atmosphère",
+        "Lithosphère",
+        "Hydrosphère",
+        "Biosphère"
+      ],
+      "answer": 2,
+      "explanation": "Ces états solides d’eau font partie de l’hydrosphère."
+    }
+  ]
+}

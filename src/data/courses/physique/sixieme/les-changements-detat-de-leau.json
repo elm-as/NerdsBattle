@@ -1,0 +1,184 @@
+{
+  "id": "physique-sixieme-les-changements-detat-de-leau",
+  "subjectId": "physique",
+  "levelId": "sixieme",
+  "slug": "les-changements-detat-de-leau",
+  "title": "Les changements d'état de l'eau",
+  "summary": "Découvre comment l'eau se transforme : solide, liquide, gaz. Explore la fusion, la solidification, la vaporisation et la condensation à travers des expériences simples.",
+  "lesson": "## Introduction\nL'eau est une substance qui peut exister sous trois états physiques : solide (glace), liquide (eau) et gazeux (vapeur d'eau). Ces états changent sous l'effet de la température. Cette leçon t'apprend à reconnaître et nommer ces transformations.\n\n## 1. Définitions & Notions clés\n- **Solidification** : passage de l'état liquide à l'état solide. Elle se produit à 0°C pour l'eau pure.\n- **Fusion** : passage de l'état solide à l'état liquide. Elle se produit à 0°C pour la glace.\n- **Vaporisation** : passage de l'état liquide à l'état gazeux. Elle peut se faire par ébullition (à 100°C) ou par évaporation (à température ambiante).\n- **Condensation (ou liquéfaction)** : passage de l'état gazeux à l'état liquide.\n- **Cycle de l'eau** : ensemble des transformations de l'eau dans la nature (évaporation, condensation, solidification, fusion, etc.).\n\n## 2. Applications & Méthodes\n### Expériences clés\n- **Solidification** : on place de l'eau liquide dans un mélange réfrigérant (glace pilée + sel). L'eau se solidifie et la température reste à 0°C.\n- **Fusion** : on chauffe de la glace. La température monte jusqu'à 0°C puis reste constante jusqu'à disparition totale de la glace.\n- **Vaporisation** : on chauffe de l'eau. Elle bout à 100°C et se transforme en vapeur.\n- **Condensation** : la vapeur d'eau au contact d'une surface froide (couvercle) redevient liquide.\n\n### Conservation de la masse et variation du volume\n- Lors de la fusion : le volume diminue, la masse ne change pas.\n- Lors de la solidification : le volume augmente, la masse ne change pas.\n\n### Cycle de l'eau\nL'eau s'évapore sous l'effet du soleil, forme des nuages par condensation, retombe en pluie ou neige, ruisselle ou s'infiltre, puis le cycle recommence.\n\n## 3. Pièges fréquents\n- Ne pas confondre **fusion** (solide → liquide) et **solidification** (liquide → solide).\n- La **vaporisation** peut être lente (évaporation) ou rapide (ébullition).\n- La **condensation** est le passage de gazeux à liquide ; ne pas la confondre avec la solidification.\n- Pendant un changement d'état, la température reste constante (palier de température).\n- La masse se conserve toujours, mais le volume change.\n\n## Synthèse\nL'eau change d'état à des températures précises : 0°C pour la fusion et la solidification, 100°C pour l'ébullition. Ces transformations sont réversibles et constituent le cycle de l'eau dans la nature. La masse est conservée, mais le volume varie.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le passage de l'état liquide à l'état solide ?",
+      "options": [
+        "La fusion",
+        "La solidification",
+        "La vaporisation",
+        "La condensation"
+      ],
+      "answer": 1,
+      "explanation": "La solidification est le passage de l'état liquide à l'état solide."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "À quelle température se produit la fusion de la glace ?",
+      "options": [
+        "0°C",
+        "100°C",
+        "-10°C",
+        "50°C"
+      ],
+      "answer": 0,
+      "explanation": "La fusion de la glace se produit à 0°C."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Le passage de l'état liquide à l'état gazeux s'appelle la ________.",
+      "answer": "2",
+      "explanation": "La vaporisation est le passage de l'état liquide à l'état gazeux."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel changement d'état se produit lorsque la vapeur d'eau devient liquide ?",
+      "options": [
+        "La fusion",
+        "La solidification",
+        "La vaporisation",
+        "La condensation"
+      ],
+      "answer": 3,
+      "explanation": "La condensation (ou liquéfaction) est le passage de l'état gazeux à l'état liquide."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Que se passe-t-il pour la masse de l'eau lors de la solidification ?",
+      "options": [
+        "Elle augmente",
+        "Elle diminue",
+        "Elle reste constante",
+        "Elle disparaît"
+      ],
+      "answer": 2,
+      "explanation": "La masse de l'eau ne change pas lors de la solidification."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "L'eau bout à ________°C.",
+      "answer": "2",
+      "explanation": "L'eau bout à 100°C."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel est le nom du phénomène qui se produit quand l'eau liquide devient de la glace ?",
+      "options": [
+        "Fusion",
+        "Solidification",
+        "Vaporisation",
+        "Condensation"
+      ],
+      "answer": 1,
+      "explanation": "La solidification est le passage de l'état liquide à l'état solide."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel est l'état de l'eau lorsque la température est inférieure à 0°C ?",
+      "options": [
+        "Liquide",
+        "Gazeux",
+        "Solide",
+        "Plasma"
+      ],
+      "answer": 2,
+      "explanation": "En dessous de 0°C, l'eau est à l'état solide (glace)."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Le passage de l'état solide à l'état liquide s'appelle la ________.",
+      "answer": "1",
+      "explanation": "La fusion est le passage de l'état solide à l'état liquide."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Que se passe-t-il pour le volume de l'eau lors de la solidification ?",
+      "options": [
+        "Il augmente",
+        "Il diminue",
+        "Il reste constant",
+        "Il disparaît"
+      ],
+      "answer": 0,
+      "explanation": "Lors de la solidification, le volume de l'eau augmente."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel est le changement d'état qui se produit lorsque l'eau bout ?",
+      "options": [
+        "Fusion",
+        "Solidification",
+        "Vaporisation",
+        "Condensation"
+      ],
+      "answer": 2,
+      "explanation": "L'ébullition est une vaporisation (passage de liquide à gazeux)."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Le mélange réfrigérant est composé de glace pilée et de ________.",
+      "answer": "1",
+      "explanation": "Le mélange réfrigérant est composé de glace pilée et de sel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Pourquoi une bouteille remplie d'eau et fermée hermétiquement se brise-t-elle au congélateur ?",
+      "options": [
+        "Parce que la masse augmente",
+        "Parce que le volume augmente",
+        "Parce que la température augmente",
+        "Parce que l'eau disparaît"
+      ],
+      "answer": 1,
+      "explanation": "Lors de la solidification, le volume de l'eau augmente, ce qui peut briser le récipient fermé."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Quel est le nom du cycle qui décrit les transformations de l'eau dans la nature ?",
+      "options": [
+        "Cycle de l'azote",
+        "Cycle de l'eau",
+        "Cycle du carbone",
+        "Cycle de l'oxygène"
+      ],
+      "answer": 1,
+      "explanation": "Le cycle de l'eau décrit les transformations de l'eau dans la nature."
+    },
+    {
+      "id": "q20",
+      "type": "fill",
+      "prompt": "Lors de la condensation, l'eau passe de l'état gazeux à l'état ________.",
+      "answer": "1",
+      "explanation": "La condensation est le passage de l'état gazeux à l'état liquide."
+    }
+  ]
+}

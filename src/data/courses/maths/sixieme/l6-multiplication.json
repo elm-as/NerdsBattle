@@ -1,0 +1,213 @@
+{
+  "id": "maths-sixieme-l6-multiplication",
+  "subjectId": "maths",
+  "levelId": "sixieme",
+  "slug": "l6-multiplication",
+  "title": "Multiplication – concepts, properties and techniques (6ème)",
+  "summary": "Ce cours présente la définition de la multiplication, les cas particuliers (×1, ×0), les propriétés de déplacement de la virgule (×10, ×0,1…), la commutativité, l’estimation d’ordre de grandeur et la méthode posée avec gestion des retenues et du placement de la virgule.",
+  "lesson": "# I. Définition\n- La multiplication consiste à additionner un même nombre plusieurs fois.\n- Exemple : 5 × 1,2 = 1,2+1,2+1,2+1,2+1,2 = 6 €.\n\n# II. Cas particuliers\n- **×1** : ne change pas le nombre. 14,3 × 1 = 14,3.\n- **×0** : le produit vaut 0. 0 × 456,7 = 0.\n\n# III. Propriétés de déplacement de la virgule\n- Multiplier par 10, 100, 1000 décale la virgule d’un, deux ou trois rangs à droite.\n  - 89 × 100 = 8900 ; 7,34 × 10 = 73,4.\n- Multiplier par 0,1 ; 0,01 ; 0,001 décale la virgule à gauche.\n  - 89 × 0,1 = 8,9 ; 7,34 × 0,01 = 0,0734.\n\n# IV. Propriété commutative et associative\n- On peut changer l’ordre des facteurs et les regrouper.\n  - 4 × 35,5 × 2,5 = (4 × 2,5) × 35,5 = 10 × 35,5 = 355.\n\n# V. Ordre de grandeur\n- On arrondit chaque facteur à une valeur « simple » puis on multiplie.\n  - 9,8 × 152,3 ≈ 10 × 150 = 1500.\n  - 37,19 × 30,3 ≈ 40 × 30 = 1200.\n\n# VI. Technique posée (multiplication à plusieurs chiffres)\n1. On multiplie chaque chiffre du multiplicateur par le multiplicande, en partant de la droite, en notant le résultat et en retenant la dizaine.\n2. On décale d’un rang à gauche à chaque nouvelle ligne.\n3. On additionne les lignes.\n4. On place la virgule : le nombre total de décimales dans les facteurs indique le nombre de décimales du produit.\n\n**Exemple** : 4,37 × 5,68\n- 4,37 × 8 = 34,96 → on écrit 6, retiens 3.\n- 4,37 × 6 = 26,22 + retenue 3 = 26,25 → on écrit 5, retiens 2.\n- 4,37 × 5 = 21,85 + retenue 2 = 21,87 → on écrit 7, retiens 2.\n- On décale la deuxième ligne d’un rang, etc.\n- Somme des lignes = 24,8096.\n- Décimales : 2 (dans 4,37) + 2 (dans 5,68) = 4 → 24,8096 → 24,8096 (déjà 4 décimales).\n\n# VII. Exercices rapides\n- Appliquer les propriétés, estimer les ordres de grandeur, réaliser une multiplication posée.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le produit de 14,3 × 1 ?",
+      "options": [
+        "14,3",
+        "0",
+        "1,43",
+        "143"
+      ],
+      "answer": 0,
+      "explanation": "Multiplier par 1 ne change pas le nombre."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel est le résultat de 0 × 456,7 ?",
+      "options": [
+        "456,7",
+        "0",
+        "4567",
+        "45,67"
+      ],
+      "answer": 1,
+      "explanation": "Tout nombre multiplié par 0 donne 0."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Multiplier 89 par 100 décale la virgule de deux rangs à droite.",
+      "answer": false,
+      "explanation": "Il décale de deux rangs seulement si on part d’un nombre décimal ; 89 est entier, on ajoute deux zéros : 8900."
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "7,34 × 0,01 = 0,0734",
+      "answer": true,
+      "explanation": "Déplacement de la virgule de deux rangs à gauche."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "prompt": "Complète : 31 × 5 = ___",
+      "answer": "155",
+      "explanation": "Produit de 31 par 5."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel est l’ordre de grandeur de 9,8 × 152,3 ?",
+      "options": [
+        "≈150",
+        "≈1500",
+        "≈15000",
+        "≈150000"
+      ],
+      "answer": 1,
+      "explanation": "≈10 × 150 = 1500."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel est l’ordre de grandeur de 37,19 × 30,3 ?",
+      "options": [
+        "≈120",
+        "≈1200",
+        "≈12000",
+        "≈120000"
+      ],
+      "answer": 1,
+      "explanation": "≈40 × 30 = 1200."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "La multiplication est commutative : a × b = b × a.",
+      "answer": true,
+      "explanation": "C’est une propriété fondamentale."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Dans la multiplication posée, combien de décimales le produit doit‑il contenir si les facteurs ont respectivement 2 et 3 décimales ?",
+      "answer": "5",
+      "explanation": "On additionne les décimales : 2+3=5."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est le résultat de 4,5 × 10 ?",
+      "options": [
+        "45",
+        "4,5",
+        "0,45",
+        "450"
+      ],
+      "answer": 0,
+      "explanation": "Décalage d’un rang à droite : 45."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel est le résultat de 6,78 × 0,1 ?",
+      "options": [
+        "0,678",
+        "6,78",
+        "67,8",
+        "0,0678"
+      ],
+      "answer": 0,
+      "explanation": "Décalage d’un rang à gauche."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Dans la technique posée, on commence toujours par multiplier le chiffre des unités du multiplicateur.",
+      "answer": true,
+      "explanation": "On travaille de droite à gauche."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "5 × 1,2 = ___ €",
+      "answer": "6",
+      "explanation": "5 fois 1,2 vaut 6."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel est le produit de 4 × 35,5 × 2,5 ?",
+      "options": [
+        "355",
+        "3550",
+        "35,5",
+        "88,75"
+      ],
+      "answer": 0,
+      "explanation": "(4×2,5)=10 puis 10×35,5=355."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Dans 89 × 0,1, la virgule du résultat se trouve une position à gauche de celle du facteur 89.",
+      "answer": true,
+      "explanation": "On décale d’un rang à gauche."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Complète : 0,1 × 0,01 = ___",
+      "answer": "0,001",
+      "explanation": "Déplacement combiné de deux rangs à gauche."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quel est le produit de 0,5 × 0 ?",
+      "options": [
+        "0,5",
+        "0",
+        "5",
+        "0,05"
+      ],
+      "answer": 1,
+      "explanation": "Tout nombre ×0 = 0."
+    },
+    {
+      "id": "q18",
+      "type": "truefalse",
+      "prompt": "L’ordre de grandeur d’un produit est toujours exactement égal au produit des ordres de grandeur des facteurs.",
+      "answer": false,
+      "explanation": "C’est une estimation, pas une égalité exacte."
+    },
+    {
+      "id": "q19",
+      "type": "fill",
+      "prompt": "Dans 4,37 × 5,68, le nombre total de décimales du produit est ___ .",
+      "answer": "4",
+      "explanation": "2 décimales + 2 décimales = 4."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Quel est le résultat de 31 × 0,1 ?",
+      "options": [
+        "3,1",
+        "310",
+        "31",
+        "0,031"
+      ],
+      "answer": 0,
+      "explanation": "Décalage d’un rang à gauche : 3,1."
+    }
+  ]
+}

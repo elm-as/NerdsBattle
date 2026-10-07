@@ -1,0 +1,14 @@
+{
+  "id": "francais-sixieme-nature-fonction",
+  "title": "Nature et fonction des mots",
+  "summary": "Distinguer ce qu'est un mot (nature) de son rôle dans la phrase (fonction).",
+  "lesson": "La NATURE d'un mot est sa classe grammaticale : nom, verbe, adjectif, adverbe, déterminant, pronom... La FONCTION est son rôle : sujet, COD, COI, complément circonstanciel. Un même mot peut avoir une nature unique mais des fonctions variées selon la phrase.",
+  "estimatedMinutes": 8,
+  "tags": ["grammaire"],
+  "questions": [
+    { "id": "q1", "type": "mcq", "prompt": "« rouge » est de nature :", "options": ["nom", "adjectif", "verbe", "adverbe"], "answer": 1, "explanation": "Adjectif qualificatif." },
+    { "id": "q2", "type": "mcq", "prompt": "Dans « Le chat dort. », « le chat » a pour fonction :", "options": ["COD", "sujet", "complément", "attribut"], "answer": 1, "explanation": "Il fait l'action de 'dort'." },
+    { "id": "q3", "type": "truefalse", "prompt": "Un nom est toujours sujet.", "answer": false, "explanation": "Il peut être COD, COI, attribut..." },
+    { "id": "q4", "type": "fill", "prompt": "« vite » est un ___.", "answer": "adverbe", "explanation": "Modifie un verbe ou un adjectif." }
+  ]
+}

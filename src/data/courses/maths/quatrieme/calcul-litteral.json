@@ -1,0 +1,118 @@
+{
+  "id": "maths-quatrieme-calcul-litteral",
+  "subjectId": "maths",
+  "levelId": "quatrieme",
+  "slug": "calcul-litteral",
+  "title": "Développer, factoriser et réduire les expressions littérales (MENA CI – 4ᵉ)",
+  "summary": "Ce cours expose les règles de base pour développer, factoriser, supprimer les parenthèses, réduire et développer des produits de binômes en algèbre littérale. Il inclut des exemples concrets et des exercices de vérification.",
+  "lesson": "# 1. Développement\nLe développement consiste à transformer un produit en somme algébrique en appliquant la distributivité.\n\n**Exemple**\n-5 ( y + 7 )= –5y + (–5)·7 = –5y – 35\n\n### 2. Factorisation\nLa factorisation transforme une somme algébrique en produit en extrayant un facteur commun.\n\n**Exemple**\n7a – 7b = 7·a – 7·b = 7(a – b)\n\n### 3. Suppression de parenthèses\n- **Addition** : a + (–c + d – b) = a – c + d – b\n- **Soustraction** : a – (–c + d – b) = a + c – d + b\n\n### 4. Réduction\nRéduire consiste à regrouper les termes de même nature.\n\n**Exemple**\n7x + 9x = (7 + 9)x = 16x\n\n### 5. Produit de binômes\n(a + b)(c + d) = ac + ad + bc + bd\n\n**Exemple**\n(x + 3)(y + 7) = xy + 7x + 3y + 21\n\n---\n**Conseils**\n- Toujours vérifier la présence d’un facteur commun avant de factoriser.\n- Après développement, regroupez les termes identiques avant de réduire.\n- La suppression de parenthèses dépend du signe qui précède la parenthèse.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le résultat de 3 ( a – 2 )= ?",
+      "options": [
+        "3a – 6",
+        "3a – 2",
+        "3a + 6",
+        "3a + 2"
+      ],
+      "answer": 0,
+      "explanation": "Multiplication par 3 distribue sur chaque terme : 3a – 6."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Factoriser 12x – 8y donne ___(x – y).",
+      "answer": "4",
+      "explanation": "Le facteur commun est 4, 12x – 8y = 4(3x – 2y)."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la forme factorisée de 3x² + 6x ?",
+      "options": [
+        "3x(x + 2)",
+        "3x² + 6x",
+        "x(3x + 6)",
+        "3(x² + 2x)"
+      ],
+      "answer": 0,
+      "explanation": "On extrait 3x : 3x(x + 2)."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Développer (x + 3)(y + 7) donne ___",
+      "options": [
+        "xy + 7x + 3y + 21",
+        "xy + 3x + 7y + 21",
+        "xy + 7x + 3y + 7",
+        "xy + 3x + 7y + 3"
+      ],
+      "answer": 0,
+      "explanation": "Chaque terme du premier facteur se multiplie par chaque terme du second."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Réduire 7x + 9x donne ___x.",
+      "answer": "16",
+      "explanation": "7 + 9 = 16."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Après développement, on regroupe les termes de même nature. Quel est le terme de degré 2 dans (a – 5)(–7 + a) ?",
+      "options": [
+        "a²",
+        "–12a",
+        "35",
+        "–7a"
+      ],
+      "answer": 0,
+      "explanation": "Le terme a² provient de a·a."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Le produit (a + b)(c + d) donne ___",
+      "options": [
+        "ac + ad + bc + bd",
+        "ac + ad + bc – bd",
+        "ac – ad + bc + bd",
+        "ac – ad – bc – bd"
+      ],
+      "answer": 0,
+      "explanation": "Chaque terme du premier facteur se multiplie par chaque terme du second."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Factoriser 5a² – 6a + 3 + 7a² + a – 6 donne ___a² – 5a – 3.",
+      "answer": "12",
+      "explanation": "On regroupe 5a² + 7a² = 12a², –6a + a = –5a, 3 – 6 = –3."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Après suppression de parenthèses, 5x – (3x – 2) devient ___",
+      "options": [
+        "5x – 3x + 2",
+        "5x – 3x – 2",
+        "5x + 3x + 2",
+        "5x + 3x – 2"
+      ],
+      "answer": 0,
+      "explanation": "On change le signe de chaque terme : –3x + 2."
+    }
+  ]
+}

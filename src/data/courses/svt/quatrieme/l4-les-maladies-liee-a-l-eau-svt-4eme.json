@@ -1,0 +1,167 @@
+{
+  "id": "svt-quatrieme-l4-les-maladies-liee-a-l-eau-svt-4eme",
+  "subjectId": "svt",
+  "levelId": "quatrieme",
+  "slug": "l4-les-maladies-liee-a-l-eau-svt-4eme",
+  "title": "Conséquences de l’eau souillée sur la santé humaine – Leçon de SVT 4e",
+  "summary": "Cette leçon de SVT pour les élèves de 4e explore les maladies liées à l’eau contaminée, leurs modes de transmission, le cycle de développement des agents pathogènes et les comportements à adopter pour prévenir les infections. Elle s’appuie sur une enquête fictive, des hypothèses, des vérifications et une activité d’intégration.",
+  "lesson": "# Objectifs\n- Identifier les principales maladies d’origine hydrique.\n- Expliquer les modes de transmission (péril fécal, vecteur).\n- Décrire le cycle de développement d’un agent pathogène lié à l’eau.\n- Conduire une enquête simple et interpréter les résultats.\n- Proposer des mesures de prévention et adopter un comportement responsable.\n\n# Compétences visées\n- **Compétence disciplinaire** : Interagir avec l’environnement pour maintenir l’équilibre.\n- **Compétence de base** : Déterminer les conséquences de l’utilisation d’eau souillée sur la santé.\n\n# Matériel\n- Fiche d’enquête, rétroprojecteur, diapositives, planches, texte de situation, tableau.\n\n# Déroulement de la séquence (3 séances de 1h30)\n\n## Séance 1 – Motivation & première hypothèse\n1. **Situation problème** : récit du chasseur et des enfants qui boivent de l’eau du marigot et tombent malades.\n2. **Question déclenchante** : « Quelles maladies peut‑on contracter en buvant ou en se baignant dans une eau contaminée ? »\n3. **Activité** : recherche en groupe de maladies d’origine hydrique (choléra, dysenterie, typhoïde, hépatite A, leptospirose, etc.).\n4. **Production** : chaque groupe remplit une partie de la fiche d’enquête (symptômes observés, sources possibles).\n5. **Hypothèse 1** : « Les maladies liées à l’eau se transmettent de différentes manières ». \n\n## Séance 2 – Exploitation des résultats & deuxième hypothèse\n1. **Mise en commun** des réponses de la fiche d’enquête.\n2. **Analyse** des symptômes et identification du ou des agents pathogènes probables.\n3. **Hypothèse 2** : « Le microbe responsable suit un cycle de développement dépendant de l’eau ».\n4. **Activité** : schématisation du cycle (ex. : œuf → larve → adulte pour le parasite; germination → multiplication pour la bactérie).\n5. **Vérification** à l’aide de documents (plans, diapositives).\n\n## Séance 3 – Vérification des hypothèses & intégration\n1. **Expérience de pensée** : comparaison de deux sources d’eau (propre vs contaminée) et prédiction des résultats.\n2. **Activité d’intégration** : rédaction d’un texte explicatif incluant les deux hypothèses, le cycle du pathogène et les mesures de prévention.\n3. **Évaluation formative** : quiz (voir section Questions) et discussion.\n\n# Évaluation\n- Observation de la participation lors des enquêtes.\n- Qualité du schéma du cycle de développement.\n- Pertinence des mesures de prévention proposées.\n- Résultats du questionnaire final.\n\n# Remédiation\n- Revoir les notions de péril fécal et de vecteur.\n- Utiliser des vidéos illustrant le cycle de développement des agents pathogènes.",
+  "estimatedMinutes": 60,
+  "tags": [
+    "svt",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle maladie d’origine hydrique est caractérisée par une fièvre élevée, des diarrhées sanglantes et un risque de déshydratation rapide?",
+      "options": [
+        "Choléra",
+        "Typhoïde",
+        "Leptospirose",
+        "Hépatite A"
+      ],
+      "answer": 0,
+      "explanation": "Le choléra provoque une diarrhée aqueuse massive pouvant entraîner une déshydratation sévère."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Le terme « péril fécal » désigne :",
+      "options": [
+        "La transmission d’agents pathogènes par l’air",
+        "La transmission d’agents pathogènes via les matières fécales contaminant l’eau",
+        "La transmission d’agents pathogènes par les piqûres d’insectes",
+        "Aucune de ces réponses"
+      ],
+      "answer": 1,
+      "explanation": "Le péril fécal correspond à la contamination de l’eau par des matières fécales contenant des germes."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Les moustiques ne sont jamais vecteurs de maladies liées à l’eau.",
+      "answer": false,
+      "explanation": "Certains moustiques, comme Aedes, transmettent la dengue ou le chikungunya, dont les larves se développent dans l’eau stagnante."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Le cycle de développement du parasite responsable de la schistosomiase comprend les étapes d'œuf, de miracidium, de cercaire et de ___ .",
+      "answer": "ver adulte",
+      "explanation": "Le stade final du parasite est le ver adulte qui vit dans les vaisseaux sanguins de l’hôte."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Dans la situation du chasseur, quel est le facteur de risque principal?",
+      "options": [
+        "Manger des fruits non lavés",
+        "Boire de l’eau du marigot contaminée",
+        "Dormir à l’extérieur",
+        "Porter des vêtements humides"
+      ],
+      "answer": 1,
+      "explanation": "Le chasseur a consommé de l’eau non traitée, source directe de contamination."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Toutes les bactéries présentes dans l’eau sont pathogènes pour l’homme.",
+      "answer": false,
+      "explanation": "De nombreuses bactéries sont inoffensives ou même bénéfiques; seules certaines sont pathogènes."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Le symptôme caractéristique de la leptospirose est la ___ .",
+      "answer": "fièvre aiguë avec douleurs musculaires",
+      "explanation": "La leptospirose se manifeste souvent par une fièvre soudaine accompagnée de douleurs musculaires."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel document le professeur doit‑il préparer pour la séance 1?",
+      "options": [
+        "Une fiche d’enquête",
+        "Un tableau périodique",
+        "Un modèle de microscope",
+        "Un manuel de chimie"
+      ],
+      "answer": 0,
+      "explanation": "La fiche d’enquête sert à recueillir les observations des élèves sur les maladies d’origine hydrique."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Le cycle de développement d’un agent pathogène ne dépend pas de la température de l’eau.",
+      "answer": false,
+      "explanation": "La température influence fortement la vitesse de développement de nombreux agents (bactéries, parasites, moustiques)."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Pour prévenir les maladies hydriques, il faut toujours ___ l’eau avant de la consommer.",
+      "answer": "la filtrer ou la désinfecter",
+      "explanation": "Filtrer ou désinfecter (ébullition, chloration) élimine la plupart des agents pathogènes."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Parmi les propositions suivantes, laquelle décrit le mieux la transmission de la dysenterie amibienne?",
+      "options": [
+        "Ingestion d’aliments contaminés par des insectes",
+        "Contact direct avec le sang d’une personne infectée",
+        "Ingestion d’eau contenant des kystes d’Amibe",
+        "Piqûre d’une tique"
+      ],
+      "answer": 2,
+      "explanation": "L’amibe dysenterique se transmet par ingestion d’eau ou d’aliments contenant des kystes."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Le terme « vecteur » désigne uniquement les animaux qui transportent les agents pathogènes sans être eux‑mêmes infectés.",
+      "answer": true,
+      "explanation": "Un vecteur transporte le microbe d’un hôte à un autre sans nécessairement être malade."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Le principal moyen de prévention contre le choléra est la ___ de l’eau potable.",
+      "answer": "purification",
+      "explanation": "Purifier l’eau (ébullition, filtres, chloration) empêche la transmission du Vibrio cholerae."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel type de maladie est la typhoïde?",
+      "options": [
+        "Une infection virale",
+        "Une infection bactérienne",
+        "Une infection parasitaire",
+        "Une intoxication alimentaire"
+      ],
+      "answer": 1,
+      "explanation": "La typhoïde est causée par la bactérie Salmonella typhi."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Boire de l’eau de pluie collectée sans protection peut être sans risque si le ciel est clair.",
+      "answer": false,
+      "explanation": "Même en temps clair, l’eau de pluie peut être contaminée par des particules ou des animaux."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Dans le schéma du cycle du moustique, l’étape larvaire se déroule dans ___ .",
+      "answer": "l’eau stagnante",
+      "explanation": "Les larves de moustiques se développent dans des eaux calmes et stagnantes."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "svt-sixieme-environnement-paysages",
+  "title": "La formation des paysages et action de l'eau",
+  "summary": "L'eau, par son mouvement et sa force, sculpte sans cesse les paysages : elle érode les roches, transporte les débris et les dépose plus loin. Comprendre ce cycle est essentiel pour expliquer les formes variées de notre environnement et pour agir en citoyen responsable face aux risques naturels.",
+  "lesson": "## Introduction & Mise en situation\n\nAvez-vous déjà observé une rivière qui serpente dans une vallée, des falaises abruptes au bord de la mer, ou encore des grottes mystérieuses ? Tous ces paysages ont une histoire : ils sont le résultat du travail incessant de l'eau. L'eau est un agent géologique majeur : elle modèle les reliefs, creuse les vallées, transporte des sédiments et crée de nouvelles formes. Ce chapitre vous permettra de comprendre comment l'eau façonne les paysages, quelles sont les forces en jeu, et pourquoi il est important de protéger ces milieux.\n\n## 1. Définitions et Principes Fondamentaux\n\n- **Érosion** : usure et arrachement des roches par des agents naturels (eau, vent, glace). L'érosion hydraulique est l'action de l'eau sur les roches.\n- **Transport** : déplacement des matériaux érodés (sables, graviers, argiles) par l'eau.\n- **Sédimentation** : dépôt de ces matériaux lorsque l'eau perd de sa vitesse.\n- **Bassin versant** : territoire où toutes les eaux de pluie convergent vers un même cours d'eau.\n\n**Formule de la vitesse d'écoulement** : $v = \\frac{d}{t}$ où $v$ est la vitesse (m/s), $d$ la distance parcourue (m) et $t$ le temps (s). Plus la vitesse est grande, plus l'eau peut transporter de gros éléments.\n\n## 2. Propriétés et Méthodes d'application\n\n**Méthode pour analyser l'action de l'eau :**\n1. **Identifier le type d'eau** (rivière, pluie, mer, glacier).\n2. **Observer les formes du paysage** (vallée en V, gorge, delta, plage).\n3. **Déterminer les processus** : érosion, transport, dépôt.\n\n**Exemple concret :**\nUne rivière coule à 2 m/s. Elle transporte des graviers. En amont, elle érode les berges ; en aval, elle dépose des alluvions. La vitesse diminue à 0,5 m/s dans la plaine, ce qui favorise la sédimentation.\n\n**Calcul de la pente** : $pente = \\frac{dénivelé}{distance horizontale} \\times 100$. Une forte pente augmente la vitesse de l'eau et donc son pouvoir érosif.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre érosion et sédimentation** : l'érosion arrache, la sédimentation dépose. Ne pas inverser.\n- **Oublier que l'eau souterraine agit aussi** : elle dissout le calcaire et crée des grottes (karst).\n- **Négliger l'impact humain** : la déforestation accélère l'érosion, les constructions modifient les cours d'eau.\n- **Erreur de calcul de la vitesse** : vérifier les unités (m/s, km/h).\n\n## Synthèse\n\n- L'eau est un agent d'érosion, de transport et de sédimentation.\n- Les paysages sont le résultat de ces processus combinés.\n- L'homme peut influencer ces phénomènes, positivement ou négativement.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "géologie",
+    "eau",
+    "paysages",
+    "érosion",
+    "6ème"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le processus par lequel l'eau arrache des fragments de roche ?",
+      "options": [
+        "Sédimentation",
+        "Érosion",
+        "Transport",
+        "Évaporation"
+      ],
+      "answer": 1,
+      "explanation": "L'érosion est l'usure et l'arrachement des roches par l'eau, le vent, etc."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La sédimentation se produit lorsque l'eau ralentit.",
+      "answer": true,
+      "explanation": "Quand l'eau perd de la vitesse, elle dépose les matériaux qu'elle transporte, c'est la sédimentation."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Une rivière parcourt 100 mètres en 50 secondes. Quelle est sa vitesse en m/s ? (Réponse en nombre)",
+      "answer": "2",
+      "explanation": "v = d/t = 100/50 = 2 m/s."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle forme de relief est typiquement créée par l'érosion d'une rivière en montagne ?",
+      "options": [
+        "Delta",
+        "Vallée en V",
+        "Plage",
+        "Dune"
+      ],
+      "answer": 1,
+      "explanation": "Les rivières de montagne creusent des vallées encaissées en forme de V."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "L'eau souterraine ne participe pas à la formation des paysages.",
+      "answer": false,
+      "explanation": "L'eau souterraine dissout les roches calcaires et forme des grottes, donc elle participe activement."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Quel terme désigne le territoire où toutes les eaux de pluie convergent vers un même cours d'eau ? (Un seul mot)",
+      "answer": "bassin versant",
+      "explanation": "Un bassin versant est l'ensemble des terres qui alimentent un cours d'eau et ses affluents."
+    }
+  ]
+}

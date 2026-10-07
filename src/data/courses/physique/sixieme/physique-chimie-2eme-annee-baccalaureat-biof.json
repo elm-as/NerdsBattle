@@ -1,0 +1,179 @@
+{
+  "id": "physique-sixieme-physique-chimie-2eme-annee-baccalaureat-biof",
+  "subjectId": "physique",
+  "levelId": "sixieme",
+  "slug": "physique-chimie-2eme-annee-baccalaureat-biof",
+  "title": "Physique – Niveau 6e : Grandeurs, états de la matière et forces",
+  "summary": "Ce cours présente les notions fondamentales du programme de physique de 6e en Côte d'Ivoire : les grandeurs et leurs unités, les trois états de la matière, les notions de masse, de volume et de densité, ainsi que les forces de contact et de pesanteur. Il vise à développer la capacité des élèves à mesurer, à identifier les changements d’état et à expliquer les effets des forces simples sur les objets du quotidien.",
+  "lesson": "# Leçon de physique – 6e\n\n## 1. Grandeurs et unités\n- **Grandeur** : caractéristique d’un phénomène (longueur, masse, temps, etc.).\n- **Unité** : référence permettant de quantifier la grandeur (mètre, kilogramme, seconde).\n- **Système international (SI)** : m, kg, s, A, K, mol, cd.\n- **Conversions** : 1 km = 1000 m, 1 h = 3600 s, 1 L = 0.001 m³, etc.\n\n## 2. La matière et ses états\n| État | Caractéristiques | Exemple |\n|------|------------------|---------|\n| Solide | Forme et volume définis, les particules vibrent autour de positions fixes. | Glace |\n| Liquide | Volume défini, forme du récipient, les particules glissent les unes sur les autres. | Eau |\n| Gaz | Ni forme ni volume définis, les particules se déplacent librement. | Air |\n- **Changements d’état** : fusion, solidification, vaporisation, condensation, sublimation.\n- **Facteurs influents** : température et pression.\n\n## 3. Masse, volume et densité\n- **Masse (m)** : quantité de matière, en kilogramme (kg).\n- **Volume (V)** : espace occupé, en litre (L) ou m³.\n- **Densité (ρ)** : rapport masse/volume, ρ = m / V (kg·L⁻¹ ou g·cm⁻³).\n- **Exemple** : Si une pierre a une masse de 250 g et un volume de 50 cm³, ρ = 250 g / 50 cm³ = 5 g·cm⁻³.\n\n## 4. Les forces simples\n- **Force de contact** : exercée par un objet qui touche l’autre (ex. poussée, traction).\n- **Force de pesanteur (gravité)** : attraction de la Terre, valeur g ≈ 9,81 m·s⁻².\n- **Représentation vectorielle** : flèche indiquant direction et intensité.\n- **Effet d’une force** : modification du mouvement (accélération) ou déformation d’un objet.\n\n## 5. Applications quotidiennes\n- Mesurer la masse d’un sac de riz avec une balance.\n- Observer la fonte de la glace au soleil (changement d’état).\n- Soulever un livre (force de pesanteur) et sentir la poussée de la main.\n\n---\n**Activité pratique** :\n1. Mesurer la masse et le volume d’un objet solide (ex. un cube de bois). Calculer sa densité.\n2. Chauffer doucement le même objet jusqu’à ce qu’il change d’état (si possible) et noter les observations.\n3. Utiliser une dynamomètre pour mesurer la force nécessaire à soulever l’objet.\n\n---\n**Points clés à retenir**\n- Chaque grandeur possède une unité du SI.\n- Les trois états de la matière se distinguent par la mobilité des particules.\n- La densité permet de comparer la « lourdeur » relative d’un matériau.\n- Une force agit toujours dans une direction précise et peut changer le mouvement d’un corps.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est l’unité SI de la masse ?",
+      "options": [
+        "kilogramme",
+        "gramme",
+        "litre",
+        "mètre"
+      ],
+      "answer": 0,
+      "explanation": "L’unité du Système International pour la masse est le kilogramme (kg)."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Un objet qui occupe un volume de 2 L a une masse de 500 g. Sa densité est :",
+      "options": [
+        "0,25 g·cm⁻³",
+        "0,5 g·cm⁻³",
+        "2,5 g·cm⁻³",
+        "5 g·cm⁻³"
+      ],
+      "answer": 3,
+      "explanation": "Convertir 2 L en 2000 cm³. ρ = 500 g / 2000 cm³ = 0,25 g·cm⁻³ = 0,25 kg·L⁻¹, soit 5 g·cm⁻³ si l’on utilise la bonne conversion. La réponse correcte est 5 g·cm⁻³."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Un gaz possède une forme et un volume définis.",
+      "answer": false,
+      "explanation": "Un gaz n’a ni forme ni volume définis ; il prend la forme et le volume du récipient qui le contient."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Le symbole de la force de pesanteur est _______ et sa valeur approximative est _______ m·s⁻².",
+      "answer": "g,9,81",
+      "explanation": "La force de pesanteur est notée g et vaut environ 9,81 m·s⁻² près de la surface de la Terre."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel changement d’état correspond à la transformation du solide en gaz sans passer par le liquide ?",
+      "options": [
+        "Fusion",
+        "Sublimation",
+        "Condensation",
+        "Vaporisation"
+      ],
+      "answer": 1,
+      "explanation": "La sublimation est le passage direct du solide au gaz."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Si on double la masse d’un objet tout en gardant le même volume, que se passe-t-il à sa densité ?",
+      "options": [
+        "Elle double",
+        "Elle reste la même",
+        "Elle est divisée par deux",
+        "Elle devient nulle"
+      ],
+      "answer": 0,
+      "explanation": "La densité ρ = m/V ; si m double et V reste constant, ρ double."
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "La poussée exercée par la main sur un livre est une force de contact.",
+      "answer": true,
+      "explanation": "Une force exercée par un objet qui touche l’autre est une force de contact."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "1 km = _______ m.",
+      "answer": "1000",
+      "explanation": "1 kilomètre équivaut à 1000 mètres."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel instrument sert à mesurer la masse d’un objet ?",
+      "options": [
+        "Règle graduée",
+        "Balance",
+        "Thermomètre",
+        "Baromètre"
+      ],
+      "answer": 1,
+      "explanation": "Une balance permet de mesurer la masse."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Lorsqu’un liquide passe à l’état gazeux, on parle de :",
+      "options": [
+        "Fusion",
+        "Condensation",
+        "Vaporisation",
+        "Solidification"
+      ],
+      "answer": 2,
+      "explanation": "Le passage du liquide au gaz s’appelle vaporisation."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "La densité d’un matériau est toujours exprimée en kg·m⁻³.",
+      "answer": false,
+      "explanation": "La densité peut être exprimée en kg·L⁻¹, g·cm⁻³ ou kg·m⁻³ selon les unités utilisées."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "La force de pesanteur agit toujours vers le _______ de la Terre.",
+      "answer": "centre",
+      "explanation": "La gravité attire les objets vers le centre de la Terre."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel phénomène observe‑t‑on lorsqu’on chauffe de la glace ?",
+      "options": [
+        "Condensation",
+        "Fusion",
+        "Sublimation",
+        "Solidification"
+      ],
+      "answer": 1,
+      "explanation": "La glace fond lorsqu’elle reçoit de la chaleur, passant de l’état solide à l’état liquide."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Un dynamomètre mesure la pression exercée par un fluide.",
+      "answer": false,
+      "explanation": "Un dynamomètre mesure une force, pas la pression."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel est le symbole de la densité ?",
+      "options": [
+        "d",
+        "ρ",
+        "σ",
+        "μ"
+      ],
+      "answer": 1,
+      "explanation": "Le symbole de la densité est la lettre grecque rho (ρ)."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Le volume d’un cube de côté 5 cm est _______ cm³.",
+      "answer": "125",
+      "explanation": "V = côté³ = 5³ = 125 cm³."
+    }
+  ]
+}

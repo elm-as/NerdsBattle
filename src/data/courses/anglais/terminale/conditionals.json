@@ -1,0 +1,14 @@
+{
+  "id": "anglais-terminale-conditionals",
+  "title": "Les conditionnels",
+  "summary": "Type 0, 1, 2, 3 : exprimer une condition et sa conséquence.",
+  "lesson": "Type 0 (vérité générale) : if + présent, présent. Type 1 (futur réel) : if + présent, will + V. Type 2 (irréel présent) : if + prétérit, would + V. Type 3 (irréel passé) : if + past perfect, would have + V-en.",
+  "estimatedMinutes": 12,
+  "tags": ["grammar", "conditionals"],
+  "questions": [
+    { "id": "q1", "type": "mcq", "prompt": "If I ___ rich, I would travel.", "options": ["am", "was/were", "had been", "will be"], "answer": 1, "explanation": "Type 2 : prétérit dans la subordonnée." },
+    { "id": "q2", "type": "mcq", "prompt": "If you heat water, it ___.", "options": ["boils", "will boil", "would boil", "boiled"], "answer": 0, "explanation": "Type 0 : vérité générale." },
+    { "id": "q3", "type": "fill", "prompt": "If I had known, I ___ called you. (have)", "answer": "would have", "explanation": "Type 3 : irréel passé." },
+    { "id": "q4", "type": "truefalse", "prompt": "Type 1 décrit une situation impossible.", "answer": false, "explanation": "Type 1 = situation future réaliste." }
+  ]
+}

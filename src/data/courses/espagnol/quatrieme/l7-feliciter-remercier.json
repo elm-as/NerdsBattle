@@ -1,0 +1,119 @@
+{
+  "id": "espagnol-quatrieme-l7-feliciter-remercier",
+  "subjectId": "espagnol",
+  "levelId": "quatrieme",
+  "slug": "l7-feliciter-remercier",
+  "title": "Féliciter et remercier en espagnol – Leçon 2 (4e)",
+  "summary": "Cette leçon aborde les expressions de félicitations et de remerciements en espagnol, adaptées aux élèves de 4e. Elle présente le vocabulaire, la grammaire, des activités de conjugaison et des situations d’évaluation pour consolider la maîtrise des expressions courantes.",
+  "lesson": "# Compétence\nTraiter une situation relative à l’échange de civilités\n\n## Titre de la leçon\nFéliciter quelqu’un / Remercier quelqu’un\n\n## Support\n*Agradezco a mi amiga. In ¡Ya estamos! Espagnol 4e P.22*\n\n## Situation d’apprentissage\nTu professeur de español reçoit une récompense de l’ambassade de Espagne en Côte d’Ivoire. Les élèves sont très contents, identifient les expressions de félicitations, les utilisent et félicitent le professeur.\n\n## Contenu\n### Vocabulaire\n- **Felicitar** : féliciter quelqu’un pour une bonne réponse ou un événement.\n- **Dar las gracias** : remercier quelqu’un.\n\n### Résumé\nMompeho félicite Adjoba pour son anniversaire, elle lui répond par des remerciements.\n\n### Grammaire\nExpressions de félicitations : *felicidades*, *feliz cumpleaños*, *te felicito*. \nExpressions de remerciements : *gracias*, *muchas gracias*, *quiero agradecerte*, *te doy las gracias por*, *te agradezco*.\n\n## Activité d’application\nConjuguer les verbes entre parenthèses en présent de l’indicatif.\n1. Yo (agradecer) a mi madre por el regalo. → *agradezco*\n2. Nosotros (felicitar) a los mejores alumnos. → *felicitamos*\n3. Las chicas (dar) a su profesora de español. → *dan*\n4. Vosotros (agrécer) a los vecinos por su ayuda. → *agradecéis*\n\n## Situation d’évaluation\n- **Évaluation 1** : Citer deux expressions de félicitations et deux de remerciements, puis reproduire un dialogue.\n- **Évaluation 2** : Relater un dialogue entre l’étudiant et l’ambassadeur.\n\n## Exercices\n1. **Exercice 1** – Relier les expressions.\n2. **Exercice 2** – Exprimer la félicitation ou le remerciement dans divers contextes.\n3. **Exercice 3** – Répondre aux questions sur la relation entre Adjoba et Mompeho.\n\n# Fin de la leçon",
+  "estimatedMinutes": 10,
+  "tags": [
+    "espagnol",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle expression n’est pas utilisée pour féliciter quelqu’un en espagnol ?",
+      "options": [
+        "felicidades",
+        "feliz cumpleaños",
+        "te agradezco",
+        "te felicito"
+      ],
+      "answer": 2,
+      "explanation": "« te agradezco » est une expression de remerciement, pas de félicitations."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel verbe signifie « remercier » en espagnol ?",
+      "options": [
+        "felicitar",
+        "dar las gracias",
+        "agradecer",
+        "invitar"
+      ],
+      "answer": 2,
+      "explanation": "« agradecer » signifie remercier."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "« Muchas gracias » est une expression de félicitations.",
+      "answer": false,
+      "explanation": "C’est une expression de remerciement."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Complétez : Yo ___ a mi madre por el regalo.",
+      "answer": "agradezco",
+      "explanation": "Conjugaison du verbe « agradecer » au présent de l’indicatif."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Dans la phrase « Las chicas ___ a su profesora de español. », quel verbe est correct ?",
+      "options": [
+        "dan",
+        "felicitamos",
+        "agradecéis",
+        "agradezco"
+      ],
+      "answer": 0,
+      "explanation": "« dan » est la forme correcte du verbe « dar » pour la 3e personne du pluriel."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "« Te doy las gracias por tu ayuda » est une phrase correcte.",
+      "answer": true,
+      "explanation": "C’est une construction correcte pour remercier."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quelle expression est utilisée pour féliciter un ami pour son anniversaire ?",
+      "options": [
+        "felicidades",
+        "gracias",
+        "te agradezco",
+        "feliz cumpleaños"
+      ],
+      "answer": 3,
+      "explanation": "« Feliz cumpleaños » est l’expression appropriée."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Relatez la phrase : \"Yo ___ a mi amigo por aprobar el examen.\"",
+      "answer": "felicito",
+      "explanation": "Conjugaison de « felicitar » à la 1ère personne du singulier."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel est le sens de « dar la enhorabuena » ?",
+      "options": [
+        "inviter",
+        "remercier",
+        "féliciter",
+        "expliquer"
+      ],
+      "answer": 2,
+      "explanation": "« dar la enhorabuena » signifie féliciter."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "« Te agradezco profundamente » est une façon de remercier.",
+      "answer": true,
+      "explanation": "C’est une expression de remerciement."
+    }
+  ]
+}

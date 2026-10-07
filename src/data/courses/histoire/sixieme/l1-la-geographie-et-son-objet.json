@@ -1,0 +1,173 @@
+{
+  "id": "histoire-sixieme-l1-la-geographie-et-son-objet",
+  "subjectId": "histoire",
+  "levelId": "sixieme",
+  "slug": "l1-la-geographie-et-son-objet",
+  "title": "Géographie 6ème – Objet, domaines et démarche du géographe",
+  "summary": "Ce cours présente l’objet de la géographie, ses trois grands domaines (physique, humaine, économique) et la démarche scientifique en cinq étapes. Il souligne l’intérêt de la discipline pour l’orientation, la connaissance du monde et le développement de l’ouverture d’esprit, puis propose des activités d’application et des situations d’évaluation.",
+  "lesson": "# Introduction\nLa géographie vient du grec *gê* (terre) et *graphein* (écrire). Elle décrit les phénomènes à la surface de la Terre et les rapports entre l’homme et son milieu.\n\n## 1. Objet et grands domaines\n- **Objet** : l’ensemble des phénomènes terrestres et leurs conséquences sur la vie humaine.\n- **Domaines**\n  - **Physique** : relief, climat, végétation, hydrographie, sols, ressources naturelles.\n  - **Humaine** : population, démographie, habitats, mobilité, villes, campagnes.\n  - **Économique** : agriculture, pêche, élevage, foresterie, industrie, commerce, transport, tourisme.\n\n## 2. Démarche du géographe\n1. **Observation** – directe (terrain) ou indirecte (documents).\n2. **Localisation** – situer le phénomène dans l’espace.\n3. **Description** – détailler le phénomène.\n4. **Explication** – identifier causes et raisons.\n5. **Comparaison** – mettre en rapport avec d’autres phénomènes similaires.\n\n## 3. Intérêt de la géographie\n- S’orienter grâce aux cartes et coordonnées.\n- Connaître le monde et son environnement.\n- Développer l’ouverture d’esprit et la tolérance.\n- Acquérir des connaissances utiles à la vie quotidienne.\n\n## 4. Activités d’application\n- **Exercice 1** : classer des éléments (climat, habitats, tourisme, sols, mobilité, agriculture) selon le domaine.\n- **Exercice 2** : compléter les phrases avec *science, phénomène, observation, démarche géographique*.\n- **Exercice 3** : ordonner les cinq étapes de la démarche.\n- **Exercice 4** : associer notions (description, explication, observation, localisation) à leurs définitions.\n\n## 5. Situations d’évaluation\n- **Situation 1** : analyser les propos d’un conférencier sur le caractère scientifique de la géographie.\n- **Situation 2** : débattre du statut scientifique de la géographie lors d’un tournoi de football entre professeurs.\n\n---\n*Ce cours est prévu pour une séance d’environ 10 minutes d’exposition, suivie d’exercices et de discussions.*",
+  "estimatedMinutes": 10,
+  "tags": [
+    "histoire",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le mot grec qui signifie « terre » et fait partie de l’étymologie du terme « géographie » ?",
+      "options": [
+        "Gê",
+        "Graphein",
+        "Topo",
+        "Carto"
+      ],
+      "answer": 0,
+      "explanation": "« Gê » signifie terre ; « graphein » signifie écrire ou dessiner."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Parmi les suivants, quel élément appartient au domaine de la géographie physique ?",
+      "options": [
+        "Population urbaine",
+        "Climat",
+        "Mobilité des habitants",
+        "Tourisme"
+      ],
+      "answer": 1,
+      "explanation": "Le climat est étudié par la géographie physique."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel domaine de la géographie étudie les activités économiques comme l’agriculture et le commerce ?",
+      "options": [
+        "Physique",
+        "Humaine",
+        "Économique",
+        "Cartographique"
+      ],
+      "answer": 2,
+      "explanation": "La géographie économique analyse l’exploitation de l’espace par l’homme."
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "La localisation consiste à décrire le phénomène étudié.",
+      "answer": false,
+      "explanation": "La localisation consiste à situer le phénomène dans l’espace, pas à le décrire."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La démarche du géographe comporte cinq étapes distinctes.",
+      "answer": true,
+      "explanation": "Observation, localisation, description, explication, comparaison."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "La première étape de la démarche géographique est l’_________.",
+      "answer": "observation",
+      "explanation": "L’observation, directe ou indirecte, est la première étape."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "La géographie est une __________ qui décrit les phénomènes à la surface de la Terre.",
+      "answer": "science",
+      "explanation": "Le texte précise que la géographie est une science."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Dans l’exercice de classement, où doit‑on placer le terme « tourisme » ?",
+      "options": [
+        "Géographie physique",
+        "Géographie humaine",
+        "Géographie économique",
+        "Aucun"
+      ],
+      "answer": 2,
+      "explanation": "Le tourisme relève de la géographie économique."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel avantage la géographie offre‑t‑elle selon le texte ?",
+      "options": [
+        "Permet de voyager sans argent",
+        "Développe l’esprit d’ouverture",
+        "Élimine le besoin de cartes",
+        "Réduit les phénomènes climatiques"
+      ],
+      "answer": 1,
+      "explanation": "Le texte cite le développement de l’esprit d’ouverture comme un bénéfice."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Selon le texte, la géographie ne s’intéresse pas aux ressources minières.",
+      "answer": false,
+      "explanation": "Les ressources minières sont mentionnées parmi les objets de la géographie physique."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "La comparaison consiste à rapporter le phénomène étudié à un phénomène de même __________.",
+      "answer": "nature",
+      "explanation": "La comparaison se fait avec un phénomène de même nature."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel problème est soulevé dans la Situation d’évaluation 2 ?",
+      "options": [
+        "Le manque d’équipement sportif",
+        "Le caractère scientifique de la géographie",
+        "Le nombre d’élèves en classe",
+        "La durée du cours"
+      ],
+      "answer": 1,
+      "explanation": "Le problème porte sur la reconnaissance du caractère scientifique de la géographie."
+    },
+    {
+      "id": "q13",
+      "type": "truefalse",
+      "prompt": "La géographie humaine étudie uniquement les climats régionaux.",
+      "answer": false,
+      "explanation": "Elle étudie la population, les habitats, la mobilité, etc., pas les climats."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Les cinq étapes de la démarche sont : observation, localisation, description, explication et ________.",
+      "answer": "comparaison",
+      "explanation": "La dernière étape est la comparaison."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel élément n’appartient pas à la géographie économique selon le texte ?",
+      "options": [
+        "Agriculture",
+        "Hydrographie",
+        "Commerce",
+        "Pêche"
+      ],
+      "answer": 1,
+      "explanation": "L’hydrographie relève de la géographie physique."
+    },
+    {
+      "id": "q16",
+      "type": "truefalse",
+      "prompt": "Le texte indique que la géographie aide à mieux connaître son milieu de vie.",
+      "answer": true,
+      "explanation": "C’est l’un des intérêts mentionnés."
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "id": "physique-sixieme-l5-je-manipule-des-gaz-pour-decouvrir-l",
+  "subjectId": "physique",
+  "levelId": "sixieme",
+  "slug": "l5-je-manipule-des-gaz-pour-decouvrir-l",
+  "title": "Comprendre le comportement d'un ballon et les propriétés de l'air",
+  "summary": "Cette leçon explique pourquoi un ballon se déforme sous la pression d'un taxi et retrouve sa forme grâce à l'élasticité de l'air. Elle présente les expériences montrant l'existence de l'air, ses propriétés (compressibilité, expansibilité, élasticité) et introduit d'autres gaz comme le dioxyde d'azote. Des activités d'application et d'intégration renforcent les concepts.",
+  "lesson": "## Leçon 5 – Situation problème\n\n**Problème** : En jouant au ballon, un taxi le touche. Le ballon se déforme, rebondit et redevient rond. Pourquoi ?\n\n### 1. Montrer l’existence de l’air\n- **1‑1** : Expérimentation et observation (ex. : allumer une bougie dans un bocal fermé).\n\n### 2. Découvrir d’autres gaz\n- Le dioxyde d’azote (NO₂) : gaz bleu, odeur suffocante, toxique (pictogramme T).\n\n### 3. Transvaser de l’air\n- **3‑1** : Expérimentation (transfert d’air d’un récipient à un autre).\n- **3‑2** : Conclusion – L’air n’a pas de forme propre, il prend celle du récipient.\n\n### 4. Montrer que l’air est élastique\n- **4‑1** : Expérimentation avec un piston ou une seringue.\n- **4‑2** : Conclusion – L’air est compressible, expansible et élastique.\n\n### Solution au problème\n- Le ballon se déforme parce que l’air à l’intérieur est comprimé.\n- Il reprend sa forme ronde grâce à l’élasticité de l’air.\n\n### Activités d’application et d’intégration\n- Exercice n°1 p.26, n°2 p.26, n°3 p.27 du cahier d’intégration.\n- Manipulations :\n  - Le verre ne se remplit pas d’eau à cause de l’air.\n  - L’air s’échappe du verre par des bulles.\n  - L’air passe du tube à essai au bocal par déplacement d’eau.\n  - Compression et détente de l’air avec piston.\n\n---\n**Concepts clés**\n- Air = gaz, aucune forme propre.\n- Propriétés : compressibilité, expansibilité, élasticité.\n- Autres gaz (ex. NO₂) peuvent être toxiques.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel phénomène explique le retour du ballon à sa forme ronde après la compression?",
+      "options": [
+        "La densité de l’air",
+        "L’élasticité de l’air",
+        "La température de l’air",
+        "La pression atmosphérique"
+      ],
+      "answer": 1,
+      "explanation": "L’air est élastique, il reprend sa forme initiale lorsqu’on cesse de le comprimer."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le dioxyde d’azote est un gaz incolore.",
+      "answer": false,
+      "explanation": "Le NO₂ est de couleur bleue et possède une odeur suffocante."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Complétez : L’air, comme tous les gaz, n’a pas de ______ propre et prend la forme du récipient qui le contient.",
+      "answer": "forme",
+      "explanation": ""
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle propriété de l’air permet de le comprimer dans un piston?",
+      "options": [
+        "Incompressibilité",
+        "Élasticité",
+        "Viscosité",
+        "Conductivité thermique"
+      ],
+      "answer": 1,
+      "explanation": "L’élasticité de l’air le rend compressible et capable de reprendre sa forme."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Un verre rempli d’eau peut contenir de l’air sous forme de bulles visibles.",
+      "answer": true,
+      "explanation": "L’air emprisonné dans le verre forme des bulles lorsqu’il s’échappe."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Lorsque le volume d’un gaz augmente, il se ______ (terme scientifique).",
+      "answer": "détend",
+      "explanation": ""
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel pictogramme indique la toxicité d’un gaz?",
+      "options": [
+        "Pictogramme G",
+        "Pictogramme T",
+        "Pictogramme F",
+        "Pictogramme H"
+      ],
+      "answer": 1,
+      "explanation": "Le pictogramme T signale les substances toxiques."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "L’air est considéré comme un fluide incompressible à température ambiante.",
+      "answer": false,
+      "explanation": "L’air est compressible, même à température ambiante."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Dans l’expérience du bocal fermé avec une bougie, l’air est consommé, ce qui crée une ______ à l’intérieur du bocal.",
+      "answer": "dépression",
+      "explanation": ""
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel dispositif permet de visualiser le déplacement d’air par déplacement d’eau?",
+      "options": [
+        "Un tube à essai",
+        "Un bécher",
+        "Un siphon",
+        "Un baromètre"
+      ],
+      "answer": 0,
+      "explanation": "Le tube à essai placé dans l’eau montre le déplacement d’air lorsqu’il est rempli ou vidé."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Un gaz qui se dilate lorsqu’on diminue sa pression est dit expansible.",
+      "answer": true,
+      "explanation": "L’expansibilité décrit la capacité d’un gaz à augmenter de volume quand la pression diminue."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Le phénomène où le piston revient à sa position initiale après avoir été relâché s’appelle ______.",
+      "answer": "élasticité",
+      "explanation": ""
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel gaz a une odeur suffocante et est souvent utilisé pour illustrer les propriétés toxiques?",
+      "options": [
+        "Oxygène",
+        "Azote",
+        "Dioxyde d’azote",
+        "Hydrogène"
+      ],
+      "answer": 2,
+      "explanation": "Le dioxyde d’azote possède une odeur suffocante et est toxique."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "L’air peut être considéré comme un liquide lorsqu’il est très froid.",
+      "answer": false,
+      "explanation": "Même à très basse température, l’air reste un gaz jusqu’à ce qu’il se condense en liquide sous haute pression."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Lorsque l’on appuie sur le piston, le volume de l’air diminue et la pression augmente, c’est le principe de la loi de ______.",
+      "answer": "Boyle",
+      "explanation": ""
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Dans la situation problème, quel acteur principal cause la compression du ballon?",
+      "options": [
+        "Le vent",
+        "Le taxi",
+        "Le frère",
+        "Le soleil"
+      ],
+      "answer": 1,
+      "explanation": "Le taxi qui monte sur le ballon exerce une force qui comprime l’air à l’intérieur."
+    }
+  ]
+}

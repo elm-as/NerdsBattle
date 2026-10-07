@@ -1,0 +1,14 @@
+{
+  "id": "maths-troisieme-theoreme-pythagore",
+  "title": "Théorème de Pythagore",
+  "summary": "Dans un triangle rectangle, le carré de l'hypoténuse égale la somme des carrés des deux autres côtés.",
+  "lesson": "Si ABC est rectangle en A, alors BC² = AB² + AC². La réciproque permet de prouver qu'un triangle est rectangle.",
+  "estimatedMinutes": 10,
+  "tags": ["géométrie", "triangle"],
+  "questions": [
+    { "id": "q1", "type": "mcq", "prompt": "Triangle rectangle, côtés 3 et 4. Hypoténuse ?", "options": ["5", "6", "7", "25"], "answer": 0, "explanation": "3² + 4² = 9 + 16 = 25, √25 = 5." },
+    { "id": "q2", "type": "truefalse", "prompt": "Le théorème s'applique à tout triangle.", "answer": false, "explanation": "Uniquement aux triangles rectangles." },
+    { "id": "q3", "type": "fill", "prompt": "Hypoténuse d'un triangle rectangle de côtés 6 et 8 = ___", "answer": "10", "explanation": "6² + 8² = 36 + 64 = 100, √100 = 10." },
+    { "id": "q4", "type": "mcq", "prompt": "Si BC² = AB² + AC², que peut-on dire de ABC ?", "options": ["Équilatéral", "Isocèle", "Rectangle en A", "Quelconque"], "answer": 2, "explanation": "Réciproque du théorème de Pythagore." }
+  ]
+}

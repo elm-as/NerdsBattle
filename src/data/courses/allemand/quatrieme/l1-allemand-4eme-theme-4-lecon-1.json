@@ -1,0 +1,151 @@
+{
+  "id": "allemand-quatrieme-l1-allemand-4eme-theme-4-lecon-1",
+  "subjectId": "allemand",
+  "levelId": "quatrieme",
+  "slug": "l1-allemand-4eme-theme-4-lecon-1",
+  "title": "Leçon d'Allemand – Santé et Pluriel (4ème)",
+  "summary": "Cette leçon aborde la santé en allemand, le vocabulaire des parties du corps, les formes de pluriel et la conjugaison des verbes modaux. Elle inclut des exercices de compréhension, de grammaire et de production écrite pour consolider les acquis.",
+  "lesson": "# Leçon 4 – Santé et Pluriel\n\n## 1. Introduction\n- Thème : *Gesundheit* (santé)\n- Objectif : parler de douleurs, de maladies et utiliser correctement le pluriel des noms.\n\n## 2. Vocabulaire\n| Allemand | Français |\n|---|---|\n| Das Krankenhaus | l’hôpital |\n| Der Arzt / Die Ärztin | le médecin |\n| Der Patient | le patient |\n| Die Spritze | l’aiguille |\n| Das Rezept | l’ordonnance |\n| Der Schmerz | la douleur |\n| Der Hals | le cou |\n| Die Brust | la poitrine |\n| Der Bauch | l’estomac |\n| Der Mund | la bouche |\n| Das Gesicht | le visage |\n| Die Nase | le nez |\n| Das Auge | l’œil |\n| Der Finger | le doigt |\n| Das Bein | la jambe |\n\n## 3. Grammaire\n### 3.1 Pluriel des noms\n- **Der** → **Die** (ex. *der Ball* → *die Bälle*)\n- **Die** → **Die** (ex. *die Schule* → *die Schulen*)\n- **Das** → **Die** (ex. *das Kind* → *die Kinder*)\n- Certains noms ont des pluriels irréguliers (ex. *der Mann* → *die Männer*).\n\n### 3.2 Verbes modaux\n- **können** – pouvoir\n- **müssen** – devoir\n- **dürfen** – avoir le droit\n- Conjugaison : *ich kann, du kannst, er/sie/es kann, wir können, ihr könnt, sie/Sie können*.\n\n### 3.3 Dativ\n- Cas d’objet indirect.\n- Formation : ajouter **-n** aux noms masculins et neutres au singulier, **-n** ou **-en** aux pluriels.\n- Exemple : *Ich gebe dem Arzt die Spritze.*\n\n## 4. Exercices pratiques\n1. **Dialog** – lire et marquer les plaintes.\n2. **Exercice 1** – associer les mots aux images.\n3. **Exercice 2** – choisir le bon conseil de santé.\n4. **Exercice 3** – compléter les phrases avec le pluriel correct.\n\n## 5. Application\n- Rédiger un court texte sur une visite chez le médecin en utilisant les pluriels et les verbes modaux.\n- Expliquer à un camarade les règles de pluriel et de datif.\n\n---\n\n**Temps estimé** : 10 minutes",
+  "estimatedMinutes": 10,
+  "tags": [
+    "allemand",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le pluriel de *der Ball* ?",
+      "options": [
+        "die Bälle",
+        "die Ballen",
+        "die Ball",
+        "die Balles"
+      ],
+      "answer": 0,
+      "explanation": "En allemand, *der Ball* devient *die Bälle* au pluriel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel article est correct pour *das Kind* au pluriel ?",
+      "options": [
+        "die Kinder",
+        "der Kinder",
+        "das Kinder",
+        "die Kind"
+      ],
+      "answer": 0,
+      "explanation": "Le pluriel de *das Kind* est *die Kinder*."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Complétez : *Der Arzt ___ die Spritze.*",
+      "answer": "0",
+      "explanation": "Le verbe *geben* se conjugue *gibt* à la 3e personne du singulier."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel verbe modaux exprime la nécessité ?",
+      "options": [
+        "können",
+        "müssen",
+        "dürfen",
+        "wollen"
+      ],
+      "answer": 1,
+      "explanation": "*müssen* signifie devoir, nécessité."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Le pluriel de *der Hals* est *die ___*.",
+      "answer": "0",
+      "explanation": "*der Hals* → *die Hälse*."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel est le datif de *der Arzt* ?",
+      "options": [
+        "dem Arzt",
+        "der Arzt",
+        "dem Arztes",
+        "der Arztes"
+      ],
+      "answer": 0,
+      "explanation": "Au datif singulier, *der Arzt* devient *dem Arzt*."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel conseil de santé correspond à *Iss viel Vitamin C* ?",
+      "options": [
+        "Schnupfen",
+        "Durchfall",
+        "Malaria",
+        "Zahnschmerzen"
+      ],
+      "answer": 2,
+      "explanation": "La vitamine C est recommandée contre la malaria."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Complétez : *Er ___ mir weh.*",
+      "answer": "0",
+      "explanation": "La phrase correcte est *Er tut mir weh*."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel est le pluriel de *das Auge* ?",
+      "options": [
+        "die Augen",
+        "die Auges",
+        "die Augen",
+        "die Auges"
+      ],
+      "answer": 0,
+      "explanation": "*das Auge* → *die Augen*."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Complétez : *Ich ___ ein Rezept.*",
+      "answer": "0",
+      "explanation": "Le verbe *schreiben* se conjugue *schreibe* à la 1ère personne du singulier."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel est le pluriel de *der Mund* ?",
+      "options": [
+        "die Münder",
+        "die Munds",
+        "die Münde",
+        "die Munde"
+      ],
+      "answer": 0,
+      "explanation": "*der Mund* → *die Münder*."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Quel est le datif de *das Kind* ?",
+      "options": [
+        "dem Kind",
+        "der Kind",
+        "dem Kinder",
+        "der Kinder"
+      ],
+      "answer": 0,
+      "explanation": "Au datif singulier, *das Kind* devient *dem Kind*."
+    }
+  ]
+}

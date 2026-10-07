@@ -1,0 +1,70 @@
+{
+  "id": "svt-premiere-geodynamique-interne-roches-magmatiques",
+  "title": "Magmatisme, métamorphisme et roches de Côte d'Ivoire",
+  "summary": "Ce chapitre vous plonge au cœur de la géodynamique interne de la Terre, en explorant la formation des roches magmatiques et métamorphiques, avec des exemples concrets issus du sous-sol ivoirien. Vous y découvrirez comment ces roches racontent l'histoire de notre planète et comment les identifier, un savoir essentiel pour le bac et pour comprendre les ressources naturelles de la Côte d'Ivoire.",
+  "lesson": "## Introduction & Mise en situation\n\nImaginez que vous marchez sur le sol de la Côte d'Ivoire. Sous vos pieds se trouvent des roches qui ont parfois plus de 2 milliards d'années ! Ces roches, comme les granites de Man ou les schistes de Touba, ne sont pas figées pour toujours : elles se forment, se transforment et se déforment. Ce chapitre vous explique comment la chaleur interne de la Terre, les mouvements des plaques et la pression créent et modifient les roches. Comprendre ces processus est crucial pour les géologues qui recherchent des ressources comme l'or, le diamant ou le pétrole, mais aussi pour prévoir les séismes et les éruptions volcaniques. En classe de Première, vous approfondissez des notions vues en Seconde et vous préparez le BAC, où ces thèmes sont souvent abordés.\n\n## 1. Définitions et Principes Fondamentaux\n\n### Le magmatisme\n\nLe magmatisme est l'ensemble des phénomènes liés à la formation, à la remontée et au refroidissement du magma. Le magma est un mélange de roches fondues, de cristaux et de gaz dissous, à très haute température (entre 700°C et 1200°C).\n\nIl existe deux grands types de magmas :\n- **Magma basaltique** : pauvre en silice (SiO₂ ≈ 45-52%), très fluide, température élevée (1000-1200°C). Il donne naissance à des roches volcaniques comme le basalte.\n- **Magma granitique** : riche en silice (SiO₂ > 65%), visqueux, température plus basse (700-800°C). Il forme des roches plutoniques comme le granite.\n\nLa fusion des roches en profondeur peut être partielle. Le degré de fusion partielle $f$ peut être estimé par la relation :\n$$ f = \\frac{m_{liquide}}{m_{liquide} + m_{solide}} $$\n\n### Le métamorphisme\n\nLe métamorphisme est la transformation à l'état solide d'une roche sous l'effet de la pression et/ou de la température, sans fusion totale. La roche change de minéralogie et de texture, mais garde sa composition chimique globale (sauf si des fluides circulent).\n\nLes facteurs du métamorphisme sont :\n- La **température** ($T$) : elle augmente avec la profondeur (gradient géothermique moyen de 30°C/km).\n- La **pression** ($P$) : elle augmente avec la profondeur (pression lithostatique) et peut être dirigée (contraintes tectoniques).\n\nOn distingue plusieurs faciès métamorphiques selon le couple ($P$, $T$), comme le faciès schistes verts (basse $T$, $P$ modérée) ou le faciès granulite (haute $T$, haute $P$).\n\n### Les roches en Côte d'Ivoire\n\nLa Côte d'Ivoire est située sur le craton ouest-africain, une zone très ancienne et stable. On y trouve principalement :\n- Des **roches magmatiques** : granites, granodiorites, basaltes (dans le contexte de la chaîne birimienne).\n- Des **roches métamorphiques** : schistes, gneiss, migmatites, quartzites.\n- Des **roches sédimentaires** : dans le bassin sédimentaire côtier (grès, argiles, calcaires).\n\n## 2. Propriétés et Méthodes d'application\n\n### Comment identifier une roche magmatique ?\n\n1. **Observer la texture** :\n   - Texture grenue (cristaux visibles à l'œil nu) : roche plutonique (ex : granite).\n   - Texture microlitique (cristaux visibles + pâte fine) : roche volcanique (ex : rhyolite).\n   - Texture vitreuse (pas de cristaux) : refroidissement très rapide (ex : obsidienne).\n2. **Déterminer la composition minéralogique** :\n   - Roche claire (quartz, feldspaths) : acide (granite).\n   - Roche sombre (pyroxènes, olivine) : basique (gabbro, basalte).\n\n### Comment estimer la profondeur de formation d'une roche métamorphique ?\n\nOn peut utiliser le gradient géothermique moyen : si une roche a subi un métamorphisme à 300°C, en supposant un gradient de 30°C/km, la profondeur estimée est :\n$$ z = \\frac{T - T_{surface}}{30} $$\nAvec $T_{surface} \\approx 25$°C, on obtient :\n$$ z = \\frac{300 - 25}{30} \\approx 9,17 \\text{ km} $$\n\n**Exemple concret** : Dans la région de Man, on trouve des éclogites (roches métamorphiques de haute pression) qui ont subi des pressions de 15 kbar. En utilisant la relation $P = \\rho g h$, avec $\\rho = 2,8 \\, g/cm^3$ et $g = 9,81 \\, m/s^2$, on peut estimer la profondeur :\n$$ h = \\frac{P}{\\rho g} = \\frac{15 \\times 10^8 \\, Pa}{2800 \\, kg/m^3 \\times 9,81 \\, m/s^2} \\approx 5460 \\, m $$\nCela indique une profondeur d'environ 5,5 km, mais en réalité les éclogites se forment souvent plus profondément (30-60 km) car la pression est aussi due aux contraintes tectoniques.\n\n### Étude de cas : le granite de Man\n\nLe granite de Man est un granite à biotite et amphibole. Sa composition chimique typique :\n- SiO₂ : 70%\n- Al₂O₃ : 15%\n- K₂O : 5%\n- Na₂O : 3%\n- Fe₂O₃ + MgO : 4%\n\nCe granite s'est formé par refroidissement lent d'un magma granitique en profondeur. On peut dater sa mise en place par la méthode de datation absolue (radiochronologie) en utilisant la désintégration du potassium 40 en argon 40 :\n$$ t = \\frac{1}{\\lambda} \\ln\\left(1 + \\frac{^{40}Ar}{^{40}K}\\right) $$\nAvec $\\lambda = 5,54 \\times 10^{-10} \\, an^{-1}$. Si on mesure $^{40}Ar/^{40}K = 0,1$, alors :\n$$ t = \\frac{1}{5,54 \\times 10^{-10}} \\ln(1,1) \\approx 1,72 \\times 10^9 \\, ans $$\nSoit environ 1,7 milliard d'années.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre magma et lave** : le magma est sous terre, la lave est le magma qui a perdu ses gaz en surface.\n- **Penser que le métamorphisme fond la roche** : non, la fusion est un autre processus. Le métamorphisme se fait à l'état solide.\n- **Oublier que la pression peut être dirigée** : dans les zones de subduction, la pression est anisotrope, ce qui oriente les minéraux (foliation).\n- **Ne pas savoir lire un diagramme P-T** : aux examens, on vous demande souvent de placer des faciès. Entraînez-vous à reconnaître les domaines.\n- **Confondre roche mère et roche fille** : par exemple, le calcaire donne du marbre, pas du gneiss.\n- **Négliger les fluides** : l'eau et le CO₂ jouent un rôle majeur dans le métamorphisme (métamorphisme hydrothermal).\n\n## Synthèse\n\n1. **Le magmatisme** produit des roches magmatiques (volcaniques ou plutoniques) à partir de la fusion partielle du manteau ou de la croûte.\n2. **Le métamorphisme** transforme les roches à l'état solide sous l'effet de la pression et de la température, sans fusion.\n3. **En Côte d'Ivoire**, le socle ancien (craton) est riche en granites et en roches métamorphiques, témoins d'une histoire géologique complexe.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "magmatisme",
+    "métamorphisme",
+    "roches",
+    "Côte d'Ivoire",
+    "géodynamique"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la principale différence entre un magma basaltique et un magma granitique ?",
+      "options": [
+        "La température",
+        "La teneur en silice",
+        "La profondeur de formation",
+        "La couleur"
+      ],
+      "answer": 1,
+      "explanation": "Le magma basaltique est pauvre en silice (45-52%) tandis que le magma granitique est riche en silice (>65%)."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le métamorphisme implique la fusion partielle de la roche.",
+      "answer": false,
+      "explanation": "Le métamorphisme se produit à l'état solide, sans fusion. La fusion est un processus distinct."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le granite de Man a une teneur en silice d'environ 70%. Cette roche est-elle acide ou basique ? (répondre 'acide' ou 'basique')",
+      "answer": "acide",
+      "explanation": "Une roche avec plus de 65% de silice est qualifiée d'acide."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle roche métamorphique dérive d'un calcaire ?",
+      "options": [
+        "Gneiss",
+        "Marbre",
+        "Schiste",
+        "Quartzite"
+      ],
+      "answer": 1,
+      "explanation": "Le métamorphisme d'un calcaire donne du marbre."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "En Côte d'Ivoire, on trouve des roches magmatiques et métamorphiques dans le bassin sédimentaire côtier.",
+      "answer": false,
+      "explanation": "Le bassin sédimentaire côtier contient principalement des roches sédimentaires. Les roches magmatiques et métamorphiques se trouvent dans le socle ancien."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Si une roche a subi un métamorphisme à 600°C et que le gradient géothermique est de 30°C/km, quelle est la profondeur approximative en km ? (arrondir à l'entier)",
+      "answer": "19",
+      "explanation": "z = (600 - 25) / 30 ≈ 19,17 km, arrondi à 19 km."
+    }
+  ]
+}

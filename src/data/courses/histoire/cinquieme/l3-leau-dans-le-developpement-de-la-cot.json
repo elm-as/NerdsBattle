@@ -1,0 +1,72 @@
+{
+  "id": "histoire-cinquieme-l3-leau-dans-le-developpement-de-la-cot",
+  "subjectId": "histoire",
+  "levelId": "cinquieme",
+  "slug": "l3-leau-dans-le-developpement-de-la-cot",
+  "title": "L'eau dans le développement de la Côte d'Ivoire",
+  "summary": "Cette leçon de 5ème explore les ressources en eau de la Côte d'Ivoire (surface, souterraine, marine) et leur rôle vital pour la vie humaine et l'économie. Elle analyse les problèmes de pollution et de mauvaise gestion, et propose des actions concrètes pour une gestion rationnelle de cette ressource précieuse.",
+  "lesson": "# L'EAU DANS LE DÉVELOPPEMENT DE LA CÔTE D'IVOIRE\n\n## Introduction\nL'eau est une ressource naturelle existant sous trois états : liquide, solide et gazeux. Elle est incolore, inodore et sans saveur. La Côte d'Ivoire dispose de diverses ressources en eau, essentielles mais parfois sources de problèmes de gestion.\n\n## I. De nombreuses ressources en eau\n\n### 1. Les eaux de surface\nElles sont constituées par :\n- **Les 4 grands fleuves** : le Cavally, le Sassandra, le Bandama et le Comoé, ainsi que leurs affluents.\n- **Les fleuves côtiers** : Nero, Boubo, Mé, Agnéby, Bia, San-pédro, etc.\n- **Les lacs** : Kossou, Taabo, Ayamé, Buyo.\n- **Les rivières et marigots**.\n- **Les lagunes littorales** : Ebrié, Aby, Ehy, Tadio, Tendo, etc.\n\n*Note : D'une manière générale, les principaux cours d'eau de la Côte d'Ivoire coulent du nord vers le sud.*\n\n### 2. Les eaux souterraines\nElles forment la **nappe phréatique** du pays. Ces eaux permettent la réalisation de puits, de pompes hydrauliques et de châteaux d'eau pour la fourniture d'eau potable.\n\n### 3. Les eaux marines\nLa Côte d'Ivoire est bordée par l'**océan Atlantique** au sud, de la frontière libérienne à la frontière ghanéenne. Cette étendue marine couvre près de 200 000 km².\n\n## II. L'eau, une ressource vitale\n\n### 1. L'eau, source de vie pour l'homme\nL'utilisation quotidienne et domestique de l'eau concerne :\n- La boisson et la cuisson.\n- L'hygiène corporelle.\n- La lessive, la vaisselle et le ménage.\n\nCette utilisation est rendue possible par l'exploitation des nappes phréatiques via l'adduction d'eau, les puits et les pompes villageoises.\n\n### 2. L'eau, source de développement économique\nPlusieurs activités économiques dépendent de l'eau :\n- **Agriculture**.\n- **Industries**.\n- **Pêche** (industrielle et artisanale).\n- **Transport** (fluvial et maritime).\n- **Production d'énergie** (barrages hydroélectriques).\n- **Commerce maritime** et activités portuaires.\n- **Tourisme**.\n\nL'eau joue également un rôle crucial dans le maintien des écosystèmes terrestres et aquatiques.\n\n## III. Les problèmes liés à l'eau et la gestion rationnelle\n\n### 1. Les problèmes liés à l'eau\n\n#### a. La pollution de l'eau\nLa pollution prend plusieurs formes :\n- Déversement de restes toxiques et chimiques par les usines.\n- Utilisation d'engrais, d'herbicides et de produits phytosanitaires en agriculture (pollution des eaux de surface et de la nappe phréatique).\n- Déversement d'eaux usées, d'excréments humains et animaux.\n- Utilisation de produits chimiques pour la pêche.\n\n#### b. La mauvaise gestion de l'eau\n- **Gaspillage** : laisser couler l'eau inutilement (bain, brossage des dents, lavage des mains, lessive, vaisselle).\n- **Non-exploitation** des eaux de pluie pour les besoins quotidiens, le jardinage ou l'agriculture.\n\n*Ces problèmes provoquent une insuffisance d'eau potable, l'épuisement de la nappe phréatique et des coupures fréquentes dans les villes.*\n\n### 2. La gestion rationnelle de l'eau\nIl est impératif d'éduquer les populations à :\n- Éviter de gaspiller l'eau.\n- Éviter le dépôt de déchets solides, liquides et chimiques dans l'eau.\n- Recueillir l'eau de pluie pour l'utiliser.\n- Fermer les robinets après usage.\n- Réparer les fuites d'eau.\n- Protéger les ressources en eau du pays.\n- Traiter les eaux usées avant de les déverser dans les cours d'eau.\n- Prendre soin des points d'eau.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "histoire",
+    "cinquieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quels sont les quatre grands fleuves de la Côte d'Ivoire ?",
+      "options": [
+        "Cavally, Sassandra, Bandama, Comoé",
+        "Nero, Boubo, Mé, Agnéby",
+        "Ebrié, Aby, Ehy, Tadio",
+        "Kossou, Taabo, Ayamé, Buyo"
+      ],
+      "answer": 0,
+      "explanation": "Les quatre grands fleuves mentionnés dans le texte sont le Cavally, le Sassandra, le Bandama et le Comoé."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Les eaux souterraines forment la __________ du pays.",
+      "answer": "0",
+      "explanation": "Les eaux souterraines constituent la nappe phréatique."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle étendue marine borde la Côte d'Ivoire au sud ?",
+      "options": [
+        "Océan Indien",
+        "Océan Atlantique",
+        "Mer Méditerranée",
+        "Océan Pacifique"
+      ],
+      "answer": 1,
+      "explanation": "La Côte d'Ivoire est bordée par l'océan Atlantique au sud."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel est l'un des usages domestiques de l'eau mentionnés dans le texte ?",
+      "options": [
+        "La construction de barrages",
+        "Le transport maritime",
+        "La lessive et la vaisselle",
+        "La pêche industrielle"
+      ],
+      "answer": 2,
+      "explanation": "La lessive et la vaisselle sont des usages domestiques. Les autres options sont des usages économiques ou industriels."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "L'eau joue un rôle important dans le maintien des __________ terrestres et aquatiques.",
+      "answer": "0",
+      "explanation": "L'eau est essentielle au maintien des écosystèmes."
+    }
+  ]
+}

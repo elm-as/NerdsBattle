@@ -1,0 +1,70 @@
+{
+  "id": "histoire-quatrieme-revolution-industrielle-essor",
+  "title": "La révolution industrielle au XIXe siècle",
+  "summary": "Ce chapitre explique comment l'industrialisation a transformé l'économie, la société et les paysages au XIXe siècle, posant les bases du monde moderne. Comprendre cette révolution permet de saisir les origines de la croissance économique et des inégalités actuelles.",
+  "lesson": "## Introduction & Mise en situation\n\nLa révolution industrielle est un bouleversement majeur qui commence en Angleterre à la fin du XVIIIe siècle et s'étend à toute l'Europe au XIXe siècle. Elle marque le passage d'une société agricole et artisanale à une société industrielle et urbaine. Ce chapitre est crucial car il explique comment notre monde moderne (usines, transports, consommation de masse) est né. En le maîtrisant, tu comprendras les racines de la croissance économique et les défis sociaux qui en découlent.\n\n## 1. Définitions et Principes Fondamentaux\n\n**Révolution industrielle** : Période de transformations économiques et sociales caractérisée par l'utilisation de nouvelles sources d'énergie (charbon, vapeur), l'invention de machines (métier à tisser, machine à vapeur) et la création d'usines.\n\n**Industrialisation** : Processus par lequel la production manufacturière devient dominante dans une économie, remplaçant l'artisanat.\n\n**Capitalisme industriel** : Système économique fondé sur la propriété privée des moyens de production et la recherche du profit.\n\n**Progrès technique** : Ensemble des innovations qui augmentent la productivité. Par exemple, la machine à vapeur de James Watt (1769) transforme l'énergie thermique en énergie mécanique. Son rendement peut être modélisé par la formule :\n\n$$\\eta = \\frac{W_{utile}}{Q_{chauffage}} \\times 100$$\n\nOù $\\eta$ est le rendement (en %), $W_{utile}$ le travail utile fourni, et $Q_{chauffage}$ la chaleur fournie.\n\n**Exode rural** : Déplacement massif des populations des campagnes vers les villes, attirées par les emplois industriels.\n\n## 2. Propriétés et Méthodes d'application\n\n### Les innovations majeures et leurs impacts\n\n- **Textile** : Le métier à tisser mécanique (1785) multiplie la production. Exemple : un tisserand produisait 1 mètre de tissu par heure à la main ; avec la machine, il peut produire 10 mètres par heure. Soit une augmentation de productivité de 900%.\n\n- **Métallurgie** : Le procédé Bessemer (1856) permet de produire de l'acier en grande quantité. La production d'acier passe de 1 million de tonnes en 1850 à 28 millions en 1900 en Europe.\n\n- **Transports** : Le chemin de fer se développe. En 1850, la France compte 3 000 km de voies ferrées ; en 1870, elle en compte 17 000 km. La vitesse des trains passe de 20 km/h à 100 km/h.\n\n### Méthode pour analyser une innovation :\n1. Identifier l'invention et son inventeur.\n2. Décrire la source d'énergie utilisée.\n3. Expliquer son impact sur la production et la société.\n\n**Exemple concret** : La machine à vapeur. Elle utilise du charbon pour chauffer de l'eau, produisant de la vapeur qui actionne un piston. Son rendement est d'environ 5% au début, puis 15% avec les améliorations. Calculons : si une machine fournit un travail utile de 1 500 J pour une chaleur de 10 000 J, son rendement est :\n\n$$\\eta = \\frac{1500}{10000} \\times 100 = 15\\%$$\n\nCela signifie que 85% de l'énergie est perdue, mais c'est un progrès considérable par rapport aux machines précédentes.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre révolution industrielle et révolution française** : La révolution industrielle est un processus économique, pas un événement politique. Ne les mélange pas dans tes copies.\n- **Oublier que la révolution industrielle commence en Angleterre** : Beaucoup d'élèves pensent qu'elle a commencé en France. C'est faux. L'Angleterre est le berceau de l'industrialisation.\n- **Négliger les conséquences sociales** : On retient souvent les aspects techniques, mais il faut aussi parler des conditions de travail difficiles (longues journées, travail des enfants) et de l'émergence d'une classe ouvrière (prolétariat).\n- **Ne pas citer de chiffres** : Pour réussir l'examen, il faut appuyer tes arguments avec des données chiffrées (production, kilomètres de voies ferrées, etc.).\n\n## Synthèse\n\n1. **Innovations techniques** : Machine à vapeur, métier à tisser, procédé Bessemer, chemin de fer.\n2. **Transformations économiques et sociales** : Exode rural, urbanisation, naissance du capitalisme industriel et de la classe ouvrière.\n3. **Impacts durables** : Croissance économique, mais aussi inégalités et problèmes environnementaux (pollution).\n\nRetiens : la révolution industrielle est un tournant majeur qui a façonné le monde contemporain.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "révolution industrielle",
+    "industrialisation",
+    "XIXe siècle",
+    "histoire économique",
+    "progrès technique"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel pays est le berceau de la révolution industrielle ?",
+      "options": [
+        "France",
+        "Allemagne",
+        "Angleterre",
+        "États-Unis"
+      ],
+      "answer": 2,
+      "explanation": "La révolution industrielle a commencé en Angleterre à la fin du XVIIIe siècle grâce à ses ressources en charbon et à ses innovations techniques."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La machine à vapeur de James Watt a été inventée en 1769.",
+      "answer": true,
+      "explanation": "James Watt a breveté sa machine à vapeur en 1769, améliorant les modèles précédents et permettant son utilisation dans l'industrie."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le procédé Bessemer (1856) permet de produire en grande quantité un métal : ______.",
+      "answer": "acier",
+      "explanation": "Le procédé Bessemer révolutionne la sidérurgie en permettant la production massive d'acier à partir de fonte."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle conséquence sociale majeure de la révolution industrielle ?",
+      "options": [
+        "Diminution de la population urbaine",
+        "Exode rural et essor des villes",
+        "Disparition des usines",
+        "Retour à l'agriculture"
+      ],
+      "answer": 1,
+      "explanation": "L'industrialisation attire les populations vers les villes où se trouvent les usines, provoquant un exode rural massif."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La révolution industrielle a amélioré immédiatement les conditions de travail des ouvriers.",
+      "answer": false,
+      "explanation": "Au début, les conditions de travail étaient très dures : longues journées, salaires faibles, travail des enfants. Les améliorations sont venues plus tard avec les lois sociales."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Si une machine à vapeur fournit un travail utile de 2 000 J pour une chaleur de 10 000 J, son rendement est de ______ %.",
+      "answer": "20",
+      "explanation": "Le rendement se calcule avec la formule η = (W_utile / Q_chauffage) × 100, soit (2000/10000) × 100 = 20%."
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "id": "francais-sixieme-l1-gr-l1-s4-types-phrases-affirm-negati",
+  "subjectId": "francais",
+  "levelId": "sixieme",
+  "slug": "l1-gr-l1-s4-types-phrases-affirm-negati",
+  "title": "Les formes de phrases affirmatives et négatives",
+  "summary": "Cette leçon explique comment reconnaître et utiliser les formes affirmative et négative d'une phrase. Elle montre que ces formes peuvent se combiner avec tous les types de phrases (déclaratif, interrogatif, exclamatif, impératif) et présente les locutions de négation ainsi que la coordination.",
+  "lesson": "# Les formes de phrases affirmatives et négatives\n\n## Introduction\n\nEn fonction du message que l'on veut communiquer, on peut associer au type obligatoire choisi (déclaratif, interrogatif, exclamatif, impératif) une ou plusieurs formes de phrases (types facultatifs).\n\n## 1. La phrase à la forme affirmative\n\nElle dit ce qui est, elle affirme un fait.\n\n**Exemple :** Sarah est toujours joyeuse. (type déclaratif + forme affirmative)\n\n### Caractéristiques\n\nUne phrase à la forme affirmative se caractérise par l'absence de locutions de négation (ne…pas, ne…point, ne…plus…). Elle peut être à la fois :\n\n- **Type déclaratif** : Il parle trop de sa vie.\n- **Type interrogatif** : Pourquoi aime-t-elle tant le fromage ?\n- **Type exclamatif** : Quelle belle voiture !\n- **Type impératif** : Sors de la classe.\n\n## 2. La phrase à la forme négative\n\nElle nie un fait.\n\n**Exemple :** Ce matin, il n'est pas parti pour son travail. (type déclaratif + forme négative)\n\n### Caractéristiques\n\nUne phrase à la forme négative se caractérise par la présence de locutions de négation telles que :\n\n- **Locutions adverbiales** : « ne… pas » ; « ne…jamais » ; « ne…plus » ; « ne…guère » ; « ne…rien ».\n- **Locutions négatives** : « ne…mot » ; « ne…goute ».\n- **Locutions diverses** : ne…que ; ne…ni…ni ; ni…ni…ne.\n\n**Exemple :** Il n'a rien fait pour réussir.\n\n**N.B :** Tout comme la forme affirmative, tous les types de phrases peuvent être associés à la forme négative.\n\n**Exemple :** Ne soyez pas envieux de vos camarades.\n\nLes phrases affirmatives et négatives sont des formes de phrases qui peuvent se combiner avec les types de phrases.\n\n**Exemple :** Cet élève n'est pas méchant. Cet élève n'est-il pas méchant ?\n\n## 3. La coordination dans la phrase affirmative et négative\n\n- Dans la phrase affirmative, la coordination se fait à l'aide de la conjonction de coordination « et ».\n  **Exemple :** Elle est gentille et sérieuse au travail.\n\n- Dans la phrase négative, la coordination se fait au moyen de la locution : ne...ni…ni ou ni…ni…ne.\n  **Exemple :** Elle n'est ni gentille ni sérieuse.\n  **Exemple :** Ni elle, ni son frère ne seront présents à cette cérémonie.\n\n## Exercices\n\n1. Indique la forme de chaque phrase.\n2. Transforme P2 à la forme contraire.\n\nP1 : Nous nous sommes rendus au spectacle.\nP2 : La maladie et la misère ont eu raison de lui.\nP3 : Ne commet pas cet acte ignoble.\nP4 : Cet élève n'est ni intelligent ni bête.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "francais",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'une phrase à la forme affirmative ?",
+      "options": [
+        "Une phrase qui nie un fait.",
+        "Une phrase qui dit ce qui est, qui affirme un fait.",
+        "Une phrase qui pose une question.",
+        "Une phrase qui exprime un ordre."
+      ],
+      "answer": 1,
+      "explanation": "La phrase à la forme affirmative dit ce qui est, elle affirme un fait."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'une phrase à la forme négative ?",
+      "options": [
+        "Une phrase qui affirme un fait.",
+        "Une phrase qui exprime une émotion.",
+        "Une phrase dans laquelle on nie un fait.",
+        "Une phrase qui donne un conseil."
+      ],
+      "answer": 2,
+      "explanation": "La phrase à la forme négative est une phrase dans laquelle on nie un fait."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Une phrase à la forme affirmative se caractérise par l'absence de locutions de négation.",
+      "answer": true,
+      "explanation": "C'est exact : la forme affirmative se caractérise par l'absence de locutions de négation comme ne…pas, ne…point, ne…plus…"
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "Une phrase à la forme négative peut être de type impératif.",
+      "answer": true,
+      "explanation": "Oui, tous les types de phrases peuvent être associés à la forme négative. Exemple : Ne soyez pas envieux de vos camarades."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle est la forme de la phrase : « Sarah est toujours joyeuse. » ?",
+      "options": [
+        "Forme négative",
+        "Forme affirmative",
+        "Forme interrogative",
+        "Forme exclamative"
+      ],
+      "answer": 1,
+      "explanation": "Cette phrase affirme un fait, elle est à la forme affirmative."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle est la forme de la phrase : « Ce matin, il n'est pas parti pour son travail. » ?",
+      "options": [
+        "Forme affirmative",
+        "Forme négative",
+        "Forme déclarative",
+        "Forme impérative"
+      ],
+      "answer": 1,
+      "explanation": "Cette phrase nie un fait, elle est à la forme négative."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Complétez : Une phrase à la forme négative se caractérise par la présence de ________ de négation.",
+      "answer": "locutions",
+      "explanation": "Le document indique : « Une phrase à la forme négative se caractérise par la présence de locutions de négations »."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Parmi les propositions suivantes, laquelle est une locution adverbiale de négation ?",
+      "options": [
+        "ne…pas",
+        "ne…mot",
+        "ne…goute",
+        "ne…que"
+      ],
+      "answer": 0,
+      "explanation": "« ne…pas » est une locution adverbiale de négation. Les autres sont des locutions négatives ou diverses."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quelle est la locution utilisée pour coordonner dans une phrase négative ?",
+      "options": [
+        "et",
+        "ou",
+        "ne…ni…ni",
+        "mais"
+      ],
+      "answer": 2,
+      "explanation": "Dans la phrase négative, la coordination se fait au moyen de la locution : ne...ni…ni ou ni…ni…ne."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Dans une phrase affirmative, la coordination se fait à l'aide de la conjonction « et ».",
+      "answer": true,
+      "explanation": "Oui, dans la phrase affirmative, la coordination se fait à l'aide de la conjonction de coordination « et »."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel est le type de la phrase : « Pourquoi aime-t-elle tant le fromage ? » ?",
+      "options": [
+        "Déclaratif",
+        "Interrogatif",
+        "Exclamatif",
+        "Impératif"
+      ],
+      "answer": 1,
+      "explanation": "Cette phrase pose une question, elle est de type interrogatif."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel est le type de la phrase : « Quelle belle voiture ! » ?",
+      "options": [
+        "Déclaratif",
+        "Interrogatif",
+        "Exclamatif",
+        "Impératif"
+      ],
+      "answer": 2,
+      "explanation": "Cette phrase exprime une émotion, elle est de type exclamatif."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel est le type de la phrase : « Sors de la classe. » ?",
+      "options": [
+        "Déclaratif",
+        "Interrogatif",
+        "Exclamatif",
+        "Impératif"
+      ],
+      "answer": 3,
+      "explanation": "Cette phrase donne un ordre, elle est de type impératif."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Complétez : « Il n'a rien fait pour réussir. » est une phrase à la forme ________.",
+      "answer": "négative",
+      "explanation": "Cette phrase contient la locution de négation « ne…rien », elle est donc à la forme négative."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Les phrases affirmatives et négatives sont des formes de phrases qui peuvent se combiner avec les types de phrases.",
+      "answer": true,
+      "explanation": "Oui, le document précise qu'elles peuvent se combiner avec les types de phrases."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quelle est la forme de la phrase : « Ne soyez pas envieux de vos camarades. » ?",
+      "options": [
+        "Forme affirmative",
+        "Forme négative",
+        "Forme déclarative",
+        "Forme exclamative"
+      ],
+      "answer": 1,
+      "explanation": "Cette phrase contient la locution de négation « ne…pas », elle est à la forme négative."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Comment coordonne-t-on dans une phrase négative ?",
+      "options": [
+        "Avec « et »",
+        "Avec « ou »",
+        "Avec « ne…ni…ni » ou « ni…ni…ne »",
+        "Avec « mais »"
+      ],
+      "answer": 2,
+      "explanation": "La coordination dans la phrase négative se fait au moyen de la locution : ne...ni…ni ou ni…ni…ne."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "prompt": "Complétez : « Elle est gentille et sérieuse au travail. » est une phrase à la forme ________.",
+      "answer": "affirmative",
+      "explanation": "Cette phrase affirme un fait et utilise la coordination « et », elle est à la forme affirmative."
+    }
+  ]
+}

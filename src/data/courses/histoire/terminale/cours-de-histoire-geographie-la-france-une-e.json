@@ -1,0 +1,173 @@
+{
+  "id": "histoire-terminale-cours-de-histoire-geographie-la-france-une-e",
+  "subjectId": "histoire",
+  "levelId": "terminale",
+  "slug": "cours-de-histoire-geographie-la-france-une-e",
+  "title": "Leçon 2 : La France – Économie dominée par le tertiaire",
+  "summary": "Cette leçon explore la structure économique française, mettant en lumière la prédominance du secteur tertiaire et la décroissance du primaire. Elle analyse les enjeux agricoles, d’élevage et halieutique, et propose des solutions pour revitaliser ces secteurs tout en soulignant l’importance de l’innovation et de la durabilité.",
+  "lesson": "# Leçon 2 : La France – Économie dominée par le tertiaire\n\n## 1. Contexte général\n- **Position mondiale** : 5ᵉ puissance économique, 2ᵉ de l’UE.\n- **Structure** : 70 % du PIB et 80 % de l’emploi dans le tertiaire.\n- **Déclin primaire** : PIB primaire 2,8 % → 1,6 % (2006‑2018).\n\n## 2. Secteur primaire – agriculture\n- **Production** : 24 milliards € de revenus, exportations majeures.\n- **Régions clés** : Beauce, Picardie, Brie, Bourgogne, Bordeaux, Champagne.\n- **Défis** : baisse de la superficie cultivée, concurrence internationale, changements climatiques.\n\n## 3. Élevage\n- **Statistiques** : bovins 18 M (2018) vs 23 M (2012), porcins 15 M (2017) vs 19 M (2010).\n- **Exportations** : 1,2 M tonnes/an de viande bovine.\n- **Problèmes** : baisse de la demande intérieure, coûts de production élevés.\n\n## 4. Pêche et aquaculture\n- **Capacités** : 6800 navires, 4ᵉ producteur UE.\n- **Captures** : 78 % en Manche/Mer du Nord, 19 % Atlantique centre/Océan Indien.\n- **Importations** : 1 M tonnes de produits aquatiques.\n\n## 5. Solutions proposées\n1. **Incitations** : subventions, prêts à taux réduit pour jeunes agriculteurs.\n2. **Agriculture raisonnée** : pratiques durables, réduction de l’empreinte carbone.\n3. **PAC** : négociations renforcées pour soutenir les filières.\n4. **Normes sanitaires** : protection du marché intérieur.\n5. **Innovation** : technologies de précision, biotechnologie.\n\n## 6. Conclusion\nLe secteur tertiaire reste le pilier de l’économie française, mais le primaire doit être revitalisé par des politiques ciblées, l’innovation et la durabilité afin de garantir la sécurité alimentaire et la compétitivité internationale.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "histoire",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le pourcentage du PIB français attribué au secteur tertiaire en 2020 ?",
+      "options": [
+        "70 %",
+        "60 %",
+        "80 %",
+        "50 %"
+      ],
+      "answer": 0,
+      "explanation": "Le secteur tertiaire représente environ 70 % du PIB français."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le secteur primaire a augmenté son poids dans le PIB français entre 2006 et 2018.",
+      "answer": false,
+      "explanation": "Le poids du secteur primaire a diminué, passant de 2,8 % à 1,6 %."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "La région de Champagne est surtout connue pour la production de ________.",
+      "answer": "vin pétillant",
+      "explanation": "Champagne est célèbre pour son vin pétillant."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est le principal exportateur de produits de pêche en France métropolitaine ?",
+      "options": [
+        "Bordeaux",
+        "Béarn",
+        "Manche",
+        "Bourgogne"
+      ],
+      "answer": 2,
+      "explanation": "La Manche est la zone la plus productive pour la pêche maritime."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La France est le 4ᵉ producteur de produits de pêche de l’UE.",
+      "answer": true,
+      "explanation": "Avec plus de 6800 navires, la France est le 4ᵉ producteur UE."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "En 2018, combien de bovins la France possédait-elle ?",
+      "options": [
+        "18 M",
+        "23 M",
+        "15 M",
+        "9 M"
+      ],
+      "answer": 0,
+      "explanation": "En 2018, la France comptait 18 millions de bovins."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Le secteur primaire représente environ ______ % du PIB français en 2018.",
+      "answer": "1,6",
+      "explanation": "Le PIB primaire était de 1,6 % en 2018."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel type de culture est majoritairement pratiqué dans la Beauce ?",
+      "options": [
+        "Vignobles",
+        "Cultures céréalières",
+        "Horticulture",
+        "Élevage"
+      ],
+      "answer": 1,
+      "explanation": "La Beauce est connue pour ses cultures céréalières."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "La France importe plus de 1 M tonnes de produits aquatiques.",
+      "answer": true,
+      "explanation": "La France importe environ 1 million de tonnes de produits aquatiques."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quelle mesure est proposée pour soutenir les jeunes entrepreneurs agricoles ?",
+      "options": [
+        "Taxe sur les exportations",
+        "Subventions et prêts à taux réduit",
+        "Réduction des normes sanitaires",
+        "Aucune"
+      ],
+      "answer": 1,
+      "explanation": "Les subventions et prêts à taux réduit sont proposés."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Le pourcentage de captures en Méditerranée représente environ ______ % des captures totales.",
+      "answer": "3",
+      "explanation": "La Méditerranée représente 3 % des captures."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "La France est le 3ᵉ producteur de viande ovine en Europe.",
+      "answer": true,
+      "explanation": "La France est le 3ᵉ producteur de viande ovine."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel est le principal problème de l’élevage français ?",
+      "options": [
+        "Hausse des prix du lait",
+        "Baisse de la production bovine",
+        "Augmentation des élevages de porcs",
+        "Diminution des pâturages"
+      ],
+      "answer": 1,
+      "explanation": "La production bovine a diminué."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "La production de vin en France est majoritairement destinée à l’exportation.",
+      "answer": true,
+      "explanation": "La production de vin est fortement exportée."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel secteur est le plus important en termes d’emploi en France ?",
+      "options": [
+        "Primaire",
+        "Secondaire",
+        "Tertiaire",
+        "Agriculture"
+      ],
+      "answer": 2,
+      "explanation": "Le tertiaire emploie la majorité de la population active."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Le nombre de navires de pêche français dépasse ______ .",
+      "answer": "6800",
+      "explanation": "Il y a plus de 6800 navires de pêche."
+    }
+  ]
+}

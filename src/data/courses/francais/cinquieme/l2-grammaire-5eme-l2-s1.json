@@ -1,0 +1,205 @@
+{
+  "id": "francais-cinquieme-l2-grammaire-5eme-l2-s1",
+  "subjectId": "francais",
+  "levelId": "cinquieme",
+  "slug": "l2-grammaire-5eme-l2-s1",
+  "title": "Le groupe adjectif : accord en genre et nombre (5e)",
+  "summary": "Cette leçon explique comment accorder les adjectifs qualificatifs avec plusieurs noms ou avec un groupe nominal contenant un complément du nom, selon le sens. Elle inclut des règles, des exemples et des exercices d’application pour les élèves de 5e.",
+  "lesson": "## Le groupe adjectif – Accord en genre et nombre\n\n### 1. Accord avec plusieurs noms\n- **Tous masculins** → adjectif au masculin pluriel.\n- **Tous féminins** → adjectif au féminin pluriel.\n- **Au moins un masculin** → adjectif au masculin pluriel.\n- **Accord selon le sens** (énumération) :\n  - *Avec tous les noms* → accord au pluriel du groupe.\n  - *Uniquement avec le nom qui précède* → accord au singulier du premier nom.\n\n**Exemples**\n- Un livre et un cahier **neufs**. (masc. pl.)\n- Une allure et une démarche **douteuses**. (fém. pl.)\n- Une joie et un espoir **fondés**. (masc. pl. car un nom masculin)\n- Un chapeau et un pantalon **blancs**. (accord avec les deux)\n- Les flammes et le nuage **noir** de l’incendie. (accord avec *flammes* uniquement)\n\n### 2. Accord avec un groupe nominal contenant un complément du nom\nL’adjectif peut s’accorder :\n- **Avec le nom principal** → accord au singulier/pluriel du nom.\n- **Avec le complément du nom** → accord au singulier/pluriel du complément.\n\n**Exemples**\n- *Un album de photos **anciennes**.* → accord avec *photos* (fém. pl.)\n- *Un album de photos **ancien**.* → accord avec *album* (masc. sg.)\n\n### 3. Exercices d’application\n#### Exercice 1 : Accord de l’adjectif entre parenthèses\n1. Il avait consommé un fruit et un plat **(excellent)**.\n2. Je dois acheter un crayon et un cahier **(quadrillé)**.\n3. Servez‑moi de l’eau ou du thé **(chaud)**.\n4. Devant la cour, s’enfuyaient des pintades et une poule **(effrayé)**.\n\n#### Exercice 2 : Accord selon le sens (nom ou complément)\n5. Un panier de mangues **(délicieux)**.\n6. Une tasse de café **(sucré)**.\n7. Du poisson et des crabes de mer **(frais)**.\n8. Un coup de tête **(dangereux)**.\n9. Un cri de bête **(blessé)**.\n\n---\n**Conseils pédagogiques**\n- Faire lire les phrases à haute voix pour sentir le sens.\n- Utiliser des cartes‑nom pour visualiser les accords.\n- Proposer des variantes où le sens change l’accord.\n\n---\n**Évaluation** : Les questions suivantes vérifient la compréhension des règles d’accord.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "francais",
+    "cinquieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans la phrase « Un livre et un cahier neufs », l’adjectif « neufs » s’accorde avec :",
+      "options": [
+        "le livre uniquement",
+        "le cahier uniquement",
+        "les deux noms",
+        "aucun des deux"
+      ],
+      "answer": 2,
+      "explanation": "L’adjectif se met au masculin pluriel car les deux noms sont masculins."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel est le bon accord ? « Une allure et une démarche ___ »",
+      "options": [
+        "douteux",
+        "douteuse",
+        "douteuses",
+        "douteuxes"
+      ],
+      "answer": 2,
+      "explanation": "Les deux noms sont féminins, l’adjectif doit être au féminin pluriel : douteuses."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Dans « Une joie et un espoir fondés », pourquoi l’adjectif est au masculin pluriel ?",
+      "options": [
+        "Tous les noms sont masculins",
+        "Un seul nom est masculin",
+        "Le sens impose le masculin",
+        "Il y a une faute"
+      ],
+      "answer": 1,
+      "explanation": "La présence d’un nom masculin (espoir) impose le masculin pluriel."
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "Dans une énumération, l’adjectif peut s’accorder uniquement avec le nom qui le précède.",
+      "answer": true,
+      "explanation": "C’est l’une des possibilités d’accord selon le sens."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "prompt": "Complétez : Un album de photos ___ (accord avec le complément).",
+      "answer": "anciennes",
+      "explanation": "Le complément « photos » est féminin pluriel, donc l’adjectif s’accorde en « anciennes »."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Complétez : Un album de photos ___ (accord avec le nom principal).",
+      "answer": "ancien",
+      "explanation": "Le nom principal « album » est masculin singulier, donc l’adjectif reste au singulier masculin."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dans la phrase « Il avait consommé un fruit et un plat (excellent) », quel est le bon accord ?",
+      "options": [
+        "excellent",
+        "excellents",
+        "excellente",
+        "excellentes"
+      ],
+      "answer": 0,
+      "explanation": "L’adjectif s’accorde avec le premier nom (fruit) au singulier masculin : excellent."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "« Je dois acheter un crayon et un cahier (quadrillé) ». L’adjectif doit être :",
+      "options": [
+        "quadrillé",
+        "quadrillés",
+        "quadrillée",
+        "quadrillées"
+      ],
+      "answer": 1,
+      "explanation": "Les deux noms sont masculins, donc l’adjectif au masculin pluriel : quadrillés."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "« Serez‑moi de l’eau ou du thé (chaud) ». L’accord correct est :",
+      "options": [
+        "chaud",
+        "chauds",
+        "chaude",
+        "chaudes"
+      ],
+      "answer": 0,
+      "explanation": "L’adjectif s’accorde avec le premier élément de l’énumération (eau, féminin) mais ici le sens veut le singulier neutre : chaud."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "« Devant la cour, s’enfuyaient des pintades et une poule (effrayé) ». L’adjectif doit être :",
+      "options": [
+        "effrayés",
+        "effrayées",
+        "effrayé",
+        "effrayée"
+      ],
+      "answer": 2,
+      "explanation": "Accord avec le nom qui précède (pintades) ? En réalité le sens veut le singulier : effrayé."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "« Un panier de mangues délicieuses » est un accord avec le complément du nom.",
+      "answer": true,
+      "explanation": "Le complément « mangues » est féminin pluriel, donc l’adjectif s’accorde en « délicieuses »."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "« Une tasse de café sucré » est un accord avec le nom principal.",
+      "answer": true,
+      "explanation": "Le nom « tasse » est féminin singulier, l’adjectif reste au masculin singulier par convention : sucré."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Dans « Du poisson et des crabes de mer (frais) », quel accord est possible selon le sens ?",
+      "options": [
+        "frais",
+        "fraîches",
+        "frais et fraîches",
+        "frais ou fraîches"
+      ],
+      "answer": 3,
+      "explanation": "Selon que l’on veut accorder avec « poisson » (masc.) ou « crabes » (masc. pl.), on peut choisir « frais » ou « frais » au pluriel : les deux formes sont possibles."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "« Un coup de tête (dangereux) ». L’adjectif s’accorde avec :",
+      "options": [
+        "coup",
+        "tête",
+        "les deux",
+        "aucun"
+      ],
+      "answer": 0,
+      "explanation": "L’accord se fait généralement avec le nom principal « coup », donc « dangereux » (masc. sg.)."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Complétez : Un cri de bête ___ (accord avec le complément).",
+      "answer": "blessée",
+      "explanation": "Le complément « bête » est féminin, donc l’adjectif s’accorde en « blessée »."
+    },
+    {
+      "id": "q16",
+      "type": "truefalse",
+      "prompt": "Dans une phrase où l’adjectif qualifie plusieurs noms de genres différents, on utilise toujours le masculin pluriel.",
+      "answer": true,
+      "explanation": "Le masculin l’emporte sur le féminin dans l’accord pluriel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quel type d’accord est illustré par « Une joie et un espoir fondés » ?",
+      "options": [
+        "accord avec le féminin",
+        "accord avec le masculin",
+        "accord avec le premier nom",
+        "accord avec le dernier nom"
+      ],
+      "answer": 1,
+      "explanation": "Présence d’un nom masculin impose le masculin pluriel."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "prompt": "Complétez : Des roses et des tulipes ___ (rouge).",
+      "answer": "rouges",
+      "explanation": "Les deux noms sont féminins pluriels, l’adjectif s’accorde au féminin pluriel : rouges."
+    }
+  ]
+}

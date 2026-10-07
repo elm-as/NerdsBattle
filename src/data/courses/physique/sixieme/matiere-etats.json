@@ -1,0 +1,13 @@
+{
+  "id": "physique-sixieme-matiere-etats",
+  "title": "Les états de la matière",
+  "summary": "Solide, liquide, gazeux : trois façons d'être pour une même substance.",
+  "lesson": "La matière existe sous trois états. Solide : forme propre. Liquide : prend la forme du récipient, surface plane. Gaz : occupe tout l'espace disponible. Les changements d'état : fusion, solidification, vaporisation, liquéfaction.",
+  "estimatedMinutes": 7,
+  "tags": ["matière", "états"],
+  "questions": [
+    { "id": "q1", "type": "mcq", "prompt": "L'eau qui bout passe de l'état :", "options": ["solide à liquide", "liquide à gaz", "gaz à liquide", "solide à gaz"], "answer": 1, "explanation": "Vaporisation (ébullition)." },
+    { "id": "q2", "type": "truefalse", "prompt": "Un gaz a une forme propre.", "answer": false, "explanation": "Il occupe tout le volume disponible." },
+    { "id": "q3", "type": "fill", "prompt": "Le passage de liquide à solide s'appelle la ___.", "answer": "solidification", "explanation": "Ex : eau qui devient glace." }
+  ]
+}

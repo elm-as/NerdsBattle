@@ -1,0 +1,160 @@
+{
+  "id": "physique-quatrieme-l4-production-dune-tension-alternative",
+  "subjectId": "physique",
+  "levelId": "quatrieme",
+  "slug": "l4-production-dune-tension-alternative",
+  "title": "Production d'une tension alternative – Physique 4e",
+  "summary": "Cette leçon explique comment, à partir d'un aimant et d'une bobine, on génère une tension alternative, comment la visualiser avec un oscilloscope, et les différents dispositifs (alternateur, génératrice de bicyclette, centrale hydro‑ou thermique) qui l'utilisent. Elle comporte expériences, conclusions, exercices et évaluations pour les élèves de 4e.",
+  "lesson": "## I. Situation d’apprentissage\nLe conseil d’enseignants du Lycée Moderne de MAN organise une sortie à la centrale thermique d’Azito. Les élèves de 4e, sous la supervision de leur professeur de Physique‑Chimie, souhaitent reproduire la production d’une tension alternative à l’aide d’un aimant et d’une bobine.\n\n## II. Contenu\n### 1. Tension produite à partir d’un aimant et d’une bobine\n#### 1.1 Expérience et observations\n- L’aiguille du galvanomètre dévie d’un côté puis de l’autre lorsque l’aimant tourne devant la bobine.\n#### 1.2 Conclusion\n- Le déplacement de l’aimant au voisinage d’une des faces de la bobine crée un courant électrique.\n#### 1.3 Nature de la tension\n- Les LED s’allument successivement ou alternativement → la tension est **alternative**.\n\n### 2. Visualisation d’une tension à l’oscilloscope\n- **Tension continue** (pile) : droite horizontale, aucune variation dans le temps.\n- **Tension alternative** (aimant + bobine) : courbe sinusoïdale qui change de signe.\n\n### 3. Production d’une tension alternative\n- **Alternateur** : rotor (aimant) + stator (bobine).\n- **Génératrice de bicyclette** : le galet entraîné par la roue fait tourner l’aimant autour de la bobine.\n- **Centrale hydroélectrique** : l’eau fait tourner une turbine qui entraîne un alternateur.\n- **Centrale thermique** : la vapeur entraîne une turbine qui entraîne un alternateur.\n\n## III. Situation d’évaluation\n1. Définir une bobine.\n2. Nommer la tension produite par la génératrice de bicyclette.\n3. Expliquer le principe de fonctionnement d’une génératrice de bicyclette.\n\n## IV. Exercices\n### Exercice 1 – Vrai/Faux\n1. Une génératrice de bicyclette est constituée d’une bobine et d’un aimant. → **V**\n2. Le déplacement de l’aimant près de la bobine crée une tension alternative. → **V**\n3. Un aimant fixe devant une bobine fixe produit une tension continue. → **F**\n\n### Exercice 2 – Représentation d’une tension alternative\nEntourer la courbe qui change de signe (sinusoïde).",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "truefalse",
+      "prompt": "Le déplacement d’un aimant près d’une bobine crée un courant électrique.",
+      "answer": true,
+      "explanation": "Le mouvement de l’aimant modifie le flux magnétique à travers la bobine, induisant une tension (loi de Faraday)."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La tension aux bornes d’une pile est une tension alternative.",
+      "answer": false,
+      "explanation": "Une pile fournit une tension continue, constante dans le temps."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel dispositif permet de visualiser la forme d’une tension électrique ?",
+      "options": [
+        "Voltmètre",
+        "Oscilloscope",
+        "Ampèremètre",
+        "Multimètre"
+      ],
+      "answer": 1,
+      "explanation": "L’oscilloscope affiche la variation de la tension en fonction du temps."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Dans une génératrice de bicyclette, quel élément tourne avec la roue ?",
+      "options": [
+        "Le stator",
+        "Le rotor (galet)",
+        "Le régulateur",
+        "Le condensateur"
+      ],
+      "answer": 1,
+      "explanation": "Le galet (rotor) porte l’aimant et tourne grâce à la roue."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Une tension alternative change de signe au cours du temps.",
+      "answer": true,
+      "explanation": "Par définition, la tension alternative oscille autour de zéro."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Nom de la tension produite par la génératrice de bicyclette.",
+      "answer": "Tension alternative",
+      "explanation": "Le mouvement cyclique de l’aimant crée une tension qui varie de signe."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel phénomène physique explique la génération de tension dans la bobine ?",
+      "options": [
+        "Effet Hall",
+        "Loi d’Ohm",
+        "Induction électromagnétique",
+        "Effet Joule"
+      ],
+      "answer": 2,
+      "explanation": "L’induction électromagnétique (loi de Faraday) crée une tension lorsqu’un flux magnétique varie."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Sur l’oscilloscope, une droite horizontale indique une tension alternative.",
+      "answer": false,
+      "explanation": "Une droite horizontale représente une tension constante, donc continue."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Dans un alternateur, le composant fixe qui contient la bobine s’appelle :",
+      "options": [
+        "Rotor",
+        "Stator",
+        "Dynamoscope",
+        "Condenseur"
+      ],
+      "answer": 1,
+      "explanation": "Le stator est la partie fixe qui porte les enroulements de la bobine."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Complétez : La tension alternative est une tension ______ qui change de signe au cours du temps.",
+      "answer": "variable",
+      "explanation": "Le terme « variable » indique que l’amplitude et le signe évoluent."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quelle énergie est convertie en électricité dans une centrale hydroélectrique ?",
+      "options": [
+        "Énergie solaire",
+        "Énergie thermique du charbon",
+        "Énergie cinétique de l’eau",
+        "Énergie nucléaire"
+      ],
+      "answer": 2,
+      "explanation": "L’eau en mouvement (énergie cinétique) entraîne la turbine qui entraîne l’alternateur."
+    },
+    {
+      "id": "q13",
+      "type": "truefalse",
+      "prompt": "Dans une centrale thermique, la vapeur d’eau entraîne directement la bobine pour produire la tension.",
+      "answer": false,
+      "explanation": "La vapeur entraîne une turbine qui fait tourner l’alternateur (rotor + bobine)."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel symbole représente généralement la tension alternative sur un schéma ?",
+      "options": [
+        "V_{DC}",
+        "V_{AC}",
+        "I_{DC}",
+        "I_{AC}"
+      ],
+      "answer": 1,
+      "explanation": "V_{AC} désigne la tension alternative."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Indiquez le nom du dispositif qui transforme le mouvement de l’eau en énergie électrique dans une centrale hydroélectrique.",
+      "answer": "Alternateur",
+      "explanation": "L’alternateur convertit l’énergie mécanique de la turbine en énergie électrique."
+    },
+    {
+      "id": "q16",
+      "type": "truefalse",
+      "prompt": "Une LED qui s’allume puis s’éteint rapidement indique une tension continue pulsée.",
+      "answer": false,
+      "explanation": "Une LED qui s’allume puis s’éteint montre une variation de tension, typique d’une tension alternative."
+    }
+  ]
+}

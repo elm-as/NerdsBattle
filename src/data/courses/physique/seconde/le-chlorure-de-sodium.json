@@ -1,0 +1,167 @@
+{
+  "id": "physique-seconde-le-chlorure-de-sodium",
+  "subjectId": "physique",
+  "levelId": "seconde",
+  "slug": "le-chlorure-de-sodium",
+  "title": "Le chlorure de sodium : structure, propriétés et expériences",
+  "summary": "Ce cours présente le cristal de chlorure de sodium (sel de cuisine) : sa structure cristalline cubique, la neutralité électrique, la cohésion ionique, ses propriétés d'isolant et sa stabilité thermique (fusion à 801 °C). Des activités expérimentales illustrent le caractère isolant et la forte énergie nécessaire pour le faire fondre.",
+  "lesson": "## I) Le cristal de chlorure de sodium\n### 1. Structure\n#### 1.1 Structure microscopique\n- Le sel est un réseau cubique à faces centrées où chaque ion Na⁺ est entouré de 6 ions Cl⁻ et réciproquement.\n- La maille élémentaire est un cube d’arête **562 pm**.\n- Les ions de charges opposées sont en contact, les ions de même charge sont séparés.\n#### 1.2 Neutralité électrique du cristal\n- Le nombre d’ions Na⁺ = nombre d’ions Cl⁻ → le cristal est globalement neutre.\n#### 1.3 Cohésion du cristal\n- Les forces d’attraction ioniques (liaisons ioniques) sont très fortes, d’où la grande dureté du sel.\n### 2. Propriétés physiques\n#### 2.1 Caractère isolant\n- **Expérience** : placer deux électrodes dans un cristal de sel sec, brancher à une source de tension faible. Aucun courant ne circule.\n- **Conclusion** : le NaCl solide est un isolant électrique.\n#### 2.2 Stabilité thermique\n- Point de fusion **Tf = 801 °C**.\n- Une grande quantité d’énergie est requise pour rompre les liaisons ioniques, le cristal est donc thermiquement stable.\n\n---\n### Activités proposées\n1. Observation d’une maille élémentaire (modèle 3D ou schéma).\n2. Test d’isolation électrique du sel sec.\n3. Chauffage du sel jusqu’à la fusion et mesure de la température.\n\n---\n### Références\n- Livres de Chimie AREX Seconde, Eurignié Seconde.\n- Guide pédagogique et programme du ministère de l’Éducation.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la longueur d’arête de la maille élémentaire du NaCl ?",
+      "options": [
+        "562 pm",
+        "500 pm",
+        "620 pm",
+        "700 pm"
+      ],
+      "answer": 0,
+      "explanation": "L’arête de la maille cubique du NaCl est de 562 pm."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Dans la structure du NaCl, chaque ion Na⁺ est entouré de :",
+      "options": [
+        "4 ions Cl⁻",
+        "6 ions Cl⁻",
+        "8 ions Cl⁻",
+        "12 ions Cl⁻"
+      ],
+      "answer": 1,
+      "explanation": "Chaque ion Na⁺ a 6 ions Cl⁻ comme voisins immédiats (coordination octaédrique)."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Le cristal de NaCl est électriquement neutre.",
+      "answer": true,
+      "explanation": "Le nombre d’ions Na⁺ et Cl⁻ est identique, donc la charge globale est nulle."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Le point de fusion du chlorure de sodium est de ___ °C.",
+      "answer": "801",
+      "explanation": "Tf = 801 °C, indiquant une forte stabilité thermique."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle propriété explique la dureté du sel gemme ?",
+      "options": [
+        "Faible conductivité thermique",
+        "Liaisons covalentes fortes",
+        "Liaisons ioniques fortes",
+        "Présence d’impuretés"
+      ],
+      "answer": 2,
+      "explanation": "Les liaisons ioniques entre Na⁺ et Cl⁻ sont très fortes, conférant au cristal une grande dureté."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Le NaCl solide conduit l’électricité.",
+      "answer": false,
+      "explanation": "En état solide, les ions sont fixes dans le réseau, il n’y a pas de porteurs de charge mobiles."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Dans le sel, les ions de même charge sont séparés par des ions de ___ charge.",
+      "answer": "opposée",
+      "explanation": "Les ions Na⁺ sont entourés d’ions Cl⁻, et inversement, évitant le contact entre charges similaires."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel type de réseau cristallin possède le NaCl ?",
+      "options": [
+        "Cubique simple",
+        "Cubique à faces centrées",
+        "Cubique centré corps",
+        "Hexagonal compact"
+      ],
+      "answer": 1,
+      "explanation": "Le NaCl adopte le réseau cubique à faces centrées (cfc) avec deux types d’ions."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Le sel de mer provient uniquement du sel gemme souterrain.",
+      "answer": false,
+      "explanation": "Le sel de mer est dissous dans l’eau de mer et précipité, alors que le sel gemme est extrait de gisements souterrains."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Le sel gemme est également appelé ___ .",
+      "answer": "sel de roche",
+      "explanation": "Le sel gemme, ou sel de roche, est la forme solide naturelle du NaCl."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel phénomène se produit lorsqu’on chauffe le NaCl jusqu’à 801 °C ?",
+      "options": [
+        "Sublimation",
+        "Fusion",
+        "Décomposition chimique",
+        "Ionisation"
+      ],
+      "answer": 1,
+      "explanation": "À 801 °C le NaCl passe de l’état solide à l’état liquide (fusion)."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Les ions Na⁺ et Cl⁻ sont en contact direct dans le cristal.",
+      "answer": true,
+      "explanation": "Seuls les ions de charges opposées sont en contact direct dans la maille."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Le sel est un ___ électrique lorsqu’il est dissous dans l’eau.",
+      "answer": "conducteur",
+      "explanation": "En solution aqueuse, les ions Na⁺ et Cl⁻ sont libres et conduisent le courant."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quelle expérience permet de démontrer le caractère isolant du NaCl solide ?",
+      "options": [
+        "Mesurer la conductivité d’une solution saline",
+        "Placer des électrodes dans du sel sec et mesurer le courant",
+        "Chauffer le sel jusqu’à sa fusion",
+        "Observer la dissolution du sel dans l’eau"
+      ],
+      "answer": 1,
+      "explanation": "Placer des électrodes dans du sel sec montre qu’aucun courant ne circule, prouvant son isolation."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Le réseau ionique du NaCl est isotrope, c’est‑à‑dire identique dans toutes les directions.",
+      "answer": true,
+      "explanation": "Le réseau cubique à faces centrées est isotrope, les propriétés sont les mêmes selon les axes."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Le sel de cuisine est principalement composé de ___ .",
+      "answer": "chlorure de sodium",
+      "explanation": "Le sel de table est essentiellement du NaCl, le chlorure de sodium."
+    }
+  ]
+}

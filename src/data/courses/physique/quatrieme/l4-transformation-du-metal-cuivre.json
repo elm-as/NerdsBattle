@@ -1,0 +1,167 @@
+{
+  "id": "physique-quatrieme-l4-transformation-du-metal-cuivre",
+  "subjectId": "physique",
+  "levelId": "quatrieme",
+  "slug": "l4-transformation-du-metal-cuivre",
+  "title": "Transformation du cuivre en ion Cu²⁺ et inversement (4ème)",
+  "summary": "Leçon sur la conversion du cuivre métallique en ion Cu²⁺ par voie chimique (acide nitrique), la réduction du Cu²⁺ en cuivre par le fer ou électrolyse, la nature du courant dans les métaux et les solutions, avec activités d’application et exercices d’évaluation.",
+  "lesson": "## I. Situation d’apprentissage\nUn élève de 4ᵉ laisse tomber un morceau de cuivre dans de l’acide nitrique. Le métal disparaît, un gaz roux se forme et la solution devient bleue.\n\n## II. Transformation du cuivre en ion Cu²⁺ (voie chimique)\n**Expérience** : Cu + 4 HNO₃ → Cu(NO₃)₂ + 2 NO₂↑ + 2 H₂O\n- Observations : dégagement de NO₂ (gaz brun), disparition du cuivre, solution bleue (Cu²⁺), précipité bleu (Cu(NO₃)₂ en solution).\n- Équation ionique : Cu → Cu²⁺ + 2e⁻\n\n## III. Transformation de l’ion Cu²⁺ en cuivre (voie chimique)\n**Expérience** : Cu²⁺ + Fe → Fe²⁺ + Cu\n- Dépôt rouge de cuivre sur le fer, solution passe du bleu au vert (formation de FeSO₄), précipité vert.\n- Équations :\n  - Cu²⁺ + 2e⁻ → Cu\n  - Fe → Fe²⁺ + 2e⁻\n  - Réaction globale : Fe + Cu²⁺ → Fe²⁺ + Cu\n\n## IV. Transformation du cuivre en ion Cu²⁺ et inversement (voie électrochimique)\n**Montage** : électrolyse d’une solution de sulfate de cuivre avec anode Cu et cathode graphite.\n- Anode : Cu → Cu²⁺ + 2e⁻ (dissolution du cuivre)\n- Cathode : Cu²⁺ + 2e⁻ → Cu (déposition de cuivre rouge)\n- Le volume de la solution reste constant.\n\n## V. Nature du courant électrique\n- **Métaux** : flux d’électrons libres.\n- **Solutions aqueuses** : migration des ions (cations vers la cathode, anions vers l’anode).\n\n## VI. Activités d’application\n1. Décrire les observations lors de l’ajout d’acide nitrique au cuivre.\n2. Choisir la couleur de la solution après immersion d’une lame de cuivre dans HNO₃.\n3. Rédiger les équations aux électrodes lors de l’électrolyse du sulfate de cuivre.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel gaz est dégagé lors de la réaction du cuivre avec l’acide nitrique ?",
+      "options": [
+        "O₂",
+        "NO₂",
+        "Cl₂",
+        "H₂"
+      ],
+      "answer": 1,
+      "explanation": "Le gaz brun est le dioxyde d’azote (NO₂), très toxique."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La solution obtenue après la réaction Cu + HNO₃ devient bleue à cause des ions Cu²⁺.",
+      "answer": true,
+      "explanation": "Les ions Cu²⁺ donnent une coloration bleue aux solutions aqueuses."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Équation ionique de l’oxydation du cuivre en ion Cu²⁺ : Cu → Cu^{?} + 2e⁻",
+      "answer": "2+",
+      "explanation": "Le cuivre perd deux électrons pour former Cu²⁺."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans la réaction Cu²⁺ + Fe → Fe²⁺ + Cu, quel métal agit comme réducteur ?",
+      "options": [
+        "Cu",
+        "Fe",
+        "Ni",
+        "Zn"
+      ],
+      "answer": 1,
+      "explanation": "Le fer (Fe) donne des électrons et se transforme en Fe²⁺, il est donc le réducteur."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Lors de l’électrolyse du sulfate de cuivre, la solution change de couleur.",
+      "answer": false,
+      "explanation": "La concentration en Cu²⁺ reste constante, la couleur reste bleue."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "À la cathode, l’équation de réduction du cuivre est : Cu²⁺ + __e⁻ → Cu",
+      "answer": "2",
+      "explanation": "Deux électrons sont nécessaires pour réduire Cu²⁺ en Cu métallique."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel phénomène explique le courant dans une solution aqueuse ?",
+      "options": [
+        "Mouvement des électrons libres",
+        "Migration des ions",
+        "Vibration des molécules",
+        "Conduction thermique"
+      ],
+      "answer": 1,
+      "explanation": "Le courant est porté par la migration des ions cations et anions."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Le dépôt rouge observé sur la cathode en graphite est du cuivre métallique.",
+      "answer": true,
+      "explanation": "Le cuivre se dépose sous forme métallique, d’où la couleur rouge."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Lors de l’oxydation du cuivre à l’anode, le nombre d’électrons libérés est __.",
+      "answer": "2",
+      "explanation": "Cu → Cu²⁺ + 2e⁻ libère deux électrons."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quelle couleur obtient-on lorsqu’une lame de cuivre est plongée dans de l’acide nitrique ?",
+      "options": [
+        "Incolore",
+        "Vert pâle",
+        "Bleu",
+        "Rouge"
+      ],
+      "answer": 2,
+      "explanation": "La solution devient bleue à cause des ions Cu²⁺."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Le fer se transforme en ion Fe³⁺ lors de la réaction avec Cu²⁺.",
+      "answer": false,
+      "explanation": "Le fer se transforme en Fe²⁺, pas en Fe³⁺."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel est le rôle de l’anode dans l’électrolyse du sulfate de cuivre ?",
+      "options": [
+        "Réduction du Cu²⁺",
+        "Oxydation du Cu métallique",
+        "Formation d’oxygène",
+        "Formation d’hydrogène"
+      ],
+      "answer": 1,
+      "explanation": "À l’anode le cuivre métallique s’oxyde en Cu²⁺."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "L’équation globale de la réaction entre Fe et Cu²⁺ est : Fe + Cu²⁺ → Fe^{?} + Cu",
+      "answer": "2+",
+      "explanation": "Le fer devient Fe²⁺."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Le courant électrique dans les métaux est dû à la migration des ions positifs.",
+      "answer": false,
+      "explanation": "Dans les métaux, le courant est porté par les électrons libres, pas par les ions."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel produit solide se forme sur le clou en fer lors de la réaction avec le sulfate de cuivre ?",
+      "options": [
+        "Cuivre métallique",
+        "FeSO₄ vert",
+        "Cu(NO₃)₂ bleu",
+        "Fe₂O₃ rouge"
+      ],
+      "answer": 1,
+      "explanation": "Le fer forme du sulfate de fer (FeSO₄) qui donne une coloration verte."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Le nombre d’électrons échangés dans la réaction globale Fe + Cu²⁺ → Fe²⁺ + Cu est __.",
+      "answer": "2",
+      "explanation": "Deux électrons sont transférés du fer au cuivre."
+    }
+  ]
+}

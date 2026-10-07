@@ -1,0 +1,70 @@
+{
+  "id": "histoire-cinquieme-grands-empires-afrique-ouest",
+  "title": "Les grands empires ouest-africains (Ghana, Mali, Songhaï)",
+  "summary": "Ce chapitre te plonge au cœur de l'Afrique médiévale, où de puissants empires ont prospéré grâce au commerce de l'or et du sel. Tu découvriras comment ces royaumes ont influencé l'histoire du continent et du monde, et tu apprendras à analyser les facteurs de leur essor et de leur déclin.",
+  "lesson": "## Introduction & Mise en situation\n\nImagine un continent africain riche et prospère, bien avant la colonisation. Entre le VIIIe et le XVIe siècle, trois grands empires se sont succédé en Afrique de l'Ouest : le Ghana, le Mali et le Songhaï. Ils ont bâti des cités célèbres comme Tombouctou, attiré des savants du monde entier et contrôlé des routes commerciales lucratives. Comprendre ces empires, c'est comprendre les racines de l'Afrique moderne et les mécanismes de la puissance économique et politique.\n\n## 1. Définitions et Principes Fondamentaux\n\n### Qu'est-ce qu'un empire ?\nUn empire est une vaste étendue de territoires et de peuples unis sous l'autorité d'un seul souverain. En Afrique de l'Ouest, ces empires se sont formés grâce à :\n- **Le commerce** : l'or et le sel étaient les deux ressources les plus précieuses. L'or venait du sud, le sel du désert du Sahara. Les empires contrôlaient ces routes et taxaient les marchandises.\n- **La force militaire** : des armées puissantes protégeaient les routes et soumettaient les peuples voisins.\n- **La religion** : l'islam s'est répandu, apportant une unité culturelle et des relations avec le monde arabo-musulman.\n\n### Les trois grands empires :\n- **Empire du Ghana** (VIIIe-XIe siècle) : situé entre la Mauritanie et le Mali actuels. Son roi était si riche qu'on disait que ses chevaux étaient couverts d'or.\n- **Empire du Mali** (XIIIe-XVe siècle) : fondé par Soundiata Keïta, il atteint son apogée sous le règne de Mansa Moussa, célèbre pour son pèlerinage à La Mecque.\n- **Empire Songhaï** (XVe-XVIe siècle) : le plus vaste des trois, avec pour capitale Gao. Il s'effondre à la fin du XVIe siècle.\n\n### Notion de richesse :\nLa richesse d'un empire se mesurait souvent en **or**. Pour donner une idée, si un roi possédait 100 kilos d'or, cela équivalait à environ 3,2 millions de dollars aujourd'hui (avec un prix de 32 000 $ le kilo).\n\n$$ \\text{Valeur} = \\text{Masse d'or (kg)} \\times \\text{Prix du kilo} $$\n\n## 2. Propriétés et Méthodes d'application\n\n### Méthode 1 : Analyser l'essor d'un empire\nPour comprendre pourquoi un empire prospère, il faut examiner trois facteurs :\n1. **Situation géographique** : contrôle des routes commerciales.\n2. **Ressources naturelles** : or, sel, etc.\n3. **Organisation politique et militaire** : un pouvoir central fort.\n\n**Exemple appliqué : l'empire du Ghana**\n- Géographie : situé entre les mines d'or au sud et les mines de sel au nord, sur les routes caravanières.\n- Ressources : or et sel.\n- Organisation : le roi était à la tête d'une administration et d'une armée.\n\n### Méthode 2 : Calculer l'impôt commercial\nL'empire du Ghana prélevait une taxe sur les marchandises. Si un marchand apportait une charge de sel, il payait une taxe de 1 dinar par charge. Si une charge de sel valait 10 dinars, le taux de taxation était :\n\n$$ \\text{Taux d'imposition} = \\frac{\\text{Taxe}}{\\text{Valeur}} \\times 100 = \\frac{1}{10} \\times 100 = 10\\% $$\n\nAinsi, l'empire s'enrichissait sans produire lui-même.\n\n### Méthode 3 : Comparer les empires\nPour comparer, on peut utiliser un tableau :\n\n| Empire | Période | Capitale | Ressource principale | Roi célèbre |\n|--------|---------|----------|----------------------|-------------|\n| Ghana | VIIIe-XIe | Koumbi Saleh | Or | Tenkamenin |\n| Mali | XIIIe-XVe | Niani | Or | Mansa Moussa |\n| Songhaï | XVe-XVIe | Gao | Or et cuivre | Sonni Ali Ber |\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre les empires** : Beaucoup d'élèves confondent le Ghana ancien avec le pays moderne du Ghana. Le Ghana ancien était plus au nord, dans l'actuel Mali/Mauritanie.\n- **Oublier le rôle du commerce** : On croit souvent que la richesse venait uniquement de l'or, mais le sel était tout aussi précieux.\n- **Négliger l'importance de l'islam** : L'islam a facilité les échanges et l'administration, mais les rois toléraient les religions traditionnelles.\n- **Erreur de date** : Mansa Moussa a régné de 1312 à 1337, et non au XVe siècle.\n\n## Synthèse\n\n1. **Trois grands empires** : Ghana, Mali, Songhaï, qui ont dominé l'Afrique de l'Ouest du VIIIe au XVIe siècle.\n2. **Le commerce de l'or et du sel** était la base de leur richesse et de leur puissance.\n3. **Leur organisation politique et militaire** leur permettait de contrôler les routes et de prélever des impôts.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "empires",
+    "afrique",
+    "commerce",
+    "histoire",
+    "5ème"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel empire ouest-africain a atteint son apogée sous le règne de Mansa Moussa ?",
+      "options": [
+        "Ghana",
+        "Mali",
+        "Songhaï",
+        "Kanem-Bornou"
+      ],
+      "answer": 1,
+      "explanation": "Mansa Moussa est le célèbre empereur du Mali, connu pour son pèlerinage à La Mecque."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "L'empire du Ghana était situé dans l'actuel pays du Ghana.",
+      "answer": false,
+      "explanation": "L'ancien empire du Ghana était situé plus au nord, dans les actuels Mali et Mauritanie."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Quelle était la capitale de l'empire Songhaï ?",
+      "answer": "Gao",
+      "explanation": "Gao était la capitale de l'empire Songhaï."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel était le principal produit échangé contre l'or dans le commerce transsaharien ?",
+      "options": [
+        "Le sel",
+        "Le cuivre",
+        "Les tissus",
+        "Les esclaves"
+      ],
+      "answer": 0,
+      "explanation": "Le sel était extrêmement précieux, venant du Sahara, et était échangé contre l'or."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "L'islam a joué un rôle important dans l'administration des empires ouest-africains.",
+      "answer": true,
+      "explanation": "L'islam a apporté l'écriture, des savants et a facilité les relations commerciales."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Quel empire a succédé à l'empire du Mali ?",
+      "answer": "Songhaï",
+      "explanation": "L'empire Songhaï a pris le relais du Mali au XVe siècle."
+    }
+  ]
+}

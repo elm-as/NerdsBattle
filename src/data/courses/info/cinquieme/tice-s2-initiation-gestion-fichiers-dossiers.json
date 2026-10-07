@@ -1,0 +1,98 @@
+{
+  "id": "info-cinquieme-tice-s2-initiation-gestion-fichiers-dossiers",
+  "subjectId": "info",
+  "levelId": "cinquieme",
+  "slug": "tice-s2-initiation-gestion-fichiers-dossiers",
+  "title": "Initiation à la gestion des fichiers et dossiers sur support de stockage",
+  "summary": "Cette leçon de TICE pour la classe de 5ème introduit la notion d'arborescence, l'organisation hiérarchique des fichiers et dossiers. Elle détaille l'utilisation de l'Explorateur de fichiers, la gestion des périphériques de stockage externes (clé USB, CD/DVD) et les opérations fondamentales : création, renommage, suppression, copie et restauration depuis la Corbeille.",
+  "lesson": "# Initiation à la gestion des fichiers et dossiers\n\n## 1. La notion d'arborescence\nL'**arborescence** est l'organisation ordonnée des dossiers et fichiers sur un périphérique de stockage. Elle permet de structurer les données de manière hiérarchique.\n\n- **Dossier** : Conteneur logique pour regrouper des fichiers ou d'autres dossiers.\n- **Sous-dossier** : Dossier situé à l'intérieur d'un autre dossier.\n- **Fichier** : Unité de base de stockage (ex: document Word, image, vidéo).\n\n### Activité pratique\n1. Créer un dossier `Mes cours` sur le Bureau.\n2. Dans `Mes cours`, créer les sous-dossiers `Maths` et `TICE`.\n3. Dans `Mes cours`, créer un fichier Word `Résumé`.\n4. Dans `TICE`, créer les fichiers Word `Exercices` et `Leçons`.\n\n**Bilan** : `Maths` et `TICE` sont des sous-dossiers de `Mes cours`. Cette structure visuelle est l'arborescence.\n\n## 2. L'Explorateur de fichiers\nL'**Explorateur de fichiers** est un logiciel système qui permet :\n- D'afficher l'arborescence des dossiers et fichiers.\n- De consulter les métadonnées : nom, type, taille, date de modification.\n- De naviguer entre les différents supports de stockage.\n\n## 3. Gestion des périphériques de stockage externes\nLes périphériques externes (Clé USB, Disque dur externe, CD/DVD) s'intègrent à l'arborescence de l'ordinateur.\n\n### Accès au contenu\n- Connecter le périphérique.\n- Ouvrir l'Explorateur de fichiers.\n- Cliquer sur l'icône du périphérique pour afficher son contenu.\n\n### Insertion et Éjection\n- **Insérer** : Brancher la clé USB dans un port disponible.\n- **Éjecter** : Toujours éjecter proprement via l'icône système avant de débrancher pour éviter la corruption des données.\n\n### Enregistrement sur clé USB\n1. Ouvrir le fichier à sauvegarder.\n2. Choisir `Fichier` > `Enregistrer sous`.\n3. Sélectionner la clé USB dans la liste des emplacements.\n4. Valider.\n\n## 4. Restauration d'un fichier depuis la Corbeille\nLa **Corbeille** est un espace temporaire de stockage sur le disque dur où sont placés les éléments supprimés.\n\n### Procédure de restauration\n1. Double-cliquer sur l'icône `Corbeille` sur le Bureau.\n2. Localiser le fichier ou dossier à récupérer.\n3. Cliquer du bouton droit sur l'élément.\n4. Sélectionner `Restaurer` dans le menu contextuel.\n5. L'élément réapparaît à son emplacement d'origine.\n\n> **Note** : Si la Corbeille est vidée, la récupération devient très difficile voire impossible sans logiciels spécialisés.",
+  "estimatedMinutes": 15,
+  "tags": [
+    "info",
+    "cinquieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Qu'est-ce que l'arborescence dans le contexte informatique ?",
+      "options": [
+        "Le nom de l'ordinateur",
+        "L'organisation ordonnée des dossiers et fichiers",
+        "Le système d'exploitation",
+        "Le processeur de l'ordinateur"
+      ],
+      "answer": 1,
+      "explanation": "L'arborescence désigne la structure hiérarchique qui organise les fichiers et dossiers sur un support de stockage."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel logiciel permet d'afficher l'arborescence des dossiers et fichiers ?",
+      "options": [
+        "Microsoft Word",
+        "L'Explorateur de fichiers",
+        "Le navigateur Web",
+        "La calculatrice"
+      ],
+      "answer": 1,
+      "explanation": "L'Explorateur de fichiers est l'outil système dédié à la navigation et la gestion des fichiers."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Les éléments supprimés sont temporairement stockés dans la ____________.",
+      "answer": "0",
+      "explanation": "La Corbeille est l'emplacement temporaire des fichiers supprimés avant leur effacement définitif."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Que se passe-t-il lorsqu'on restaure un fichier depuis la Corbeille ?",
+      "options": [
+        "Il est supprimé définitivement",
+        "Il est copié sur une clé USB",
+        "Il réapparaît à son emplacement d'origine",
+        "Il est renommé automatiquement"
+      ],
+      "answer": 2,
+      "explanation": "La restauration renvoie le fichier à l'endroit exact d'où il a été supprimé."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dans l'activité de la leçon, quels sont les sous-dossiers de « Mes cours » ?",
+      "options": [
+        "Maths et TICE",
+        "Résumé et Exercices",
+        "Leçons et Résumé",
+        "Bureau et Documents"
+      ],
+      "answer": 0,
+      "explanation": "L'activité demande de créer les dossiers Maths et TICE à l'intérieur de Mes cours."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Pour restaurer un fichier, on clique du bouton droit et on sélectionne ____________.",
+      "answer": "0",
+      "explanation": "L'option 'Restaurer' dans le menu contextuel permet de récupérer l'élément."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel périphérique externe est cité dans la leçon pour le stockage ?",
+      "options": [
+        "Clavier",
+        "Écran",
+        "Clé USB",
+        "Imprimante"
+      ],
+      "answer": 2,
+      "explanation": "La clé USB est un exemple majeur de périphérique de stockage externe."
+    }
+  ]
+}

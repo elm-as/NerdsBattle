@@ -1,0 +1,70 @@
+{
+  "id": "maths-premiere-derivation-tangentes",
+  "title": "Nombre dérivé, fonction dérivée et tangentes",
+  "summary": "Le nombre dérivé est l'outil fondamental pour étudier les variations d'une fonction et calculer des vitesses instantanées. Maîtriser la dérivation vous permet de résoudre des problèmes d'optimisation et de comprendre les tangentes, essentiels pour réussir au BAC.",
+  "lesson": "## Introduction & Mise en situation\n\nImaginez que vous conduisez une voiture et que vous regardez le compteur de vitesse : il indique la vitesse **instantanée** à un instant précis. En mathématiques, cette vitesse instantanée correspond au **nombre dérivé**. Ce concept est partout : en physique (vitesse, accélération), en économie (coût marginal), en biologie (croissance d'une population). Sans la dérivation, on ne peut pas modéliser finement les phénomènes qui varient.\n\nDans ce chapitre, nous allons apprendre à calculer le nombre dérivé d'une fonction en un point, à déterminer l'équation de la tangente à une courbe, et à généraliser avec la fonction dérivée.\n\n## 1. Définitions et Principes Fondamentaux\n\n### Nombre dérivé en un point\n\nSoit $f$ une fonction définie sur un intervalle $I$ et $a \\in I$. Le **nombre dérivé** de $f$ en $a$, noté $f'(a)$, est la limite, si elle existe, du taux d'accroissement :\n\n$$ f'(a) = \\lim_{h \\to 0} \\frac{f(a+h) - f(a)}{h} $$\n\nCe nombre représente la pente de la tangente à la courbe de $f$ au point d'abscisse $a$.\n\n### Tangente à une courbe\n\nLa tangente à la courbe $C_f$ au point $A(a; f(a))$ est la droite passant par $A$ et de coefficient directeur $f'(a)$. Son équation est :\n\n$$ y = f'(a)(x - a) + f(a) $$\n\n### Fonction dérivée\n\nLa **fonction dérivée** de $f$, notée $f'$, est la fonction qui, à tout $x$ de l'intervalle de définition, associe le nombre dérivé $f'(x)$.\n\n## 2. Propriétés et Méthodes d'application\n\n### Dérivées des fonctions usuelles\n\n| Fonction $f(x)$ | Dérivée $f'(x)$ |\n|-----------------|-----------------|\n| $k$ (constante) | $0$ |\n| $x$ | $1$ |\n| $x^n$ ($n$ entier) | $n x^{n-1}$ |\n| $\\sqrt{x}$ | $\\frac{1}{2\\sqrt{x}}$ |\n| $\\sin x$ | $\\cos x$ |\n| $\\cos x$ | $-\\sin x$ |\n\n### Opérations sur les dérivées\n\nSoit $u$ et $v$ deux fonctions dérivables, et $k$ une constante.\n\n- **Somme** : $(u+v)' = u' + v'$\n- **Produit** : $(uv)' = u'v + uv'$\n- **Quotient** : $\\left(\\frac{u}{v}\\right)' = \\frac{u'v - uv'}{v^2}$ (si $v \\neq 0$)\n- **Multiplication par une constante** : $(ku)' = ku'$\n- **Composition** : $(u \\circ v)' = v' \\cdot (u' \\circ v)$\n\n### Exemple concret\n\nCalculons la dérivée de $f(x) = 3x^2 + 2x - 1$.\n\n- Dérivée de $3x^2$ : $3 \\times 2x = 6x$\n- Dérivée de $2x$ : $2$\n- Dérivée de $-1$ : $0$\n\nDonc $f'(x) = 6x + 2$.\n\n**Tangente en $x=1$** :\n\n- $f(1) = 3(1)^2 + 2(1) - 1 = 4$\n- $f'(1) = 6(1) + 2 = 8$\n- Équation : $y = 8(x-1) + 4$ soit $y = 8x - 4$.\n\n### Méthode pour déterminer une tangente\n\n1. Calculer $f(a)$.\n2. Calculer $f'(a)$.\n3. Appliquer la formule $y = f'(a)(x-a) + f(a)$.\n\n## 3. Pièges fréquents & Mises en garde\n\n1. **Confondre $f(a)$ et $f'(a)$** : $f(a)$ est l'ordonnée du point, $f'(a)$ est la pente. Ne les mélangez pas.\n2. **Oublier la règle du produit ou du quotient** : quand vous dérivez un produit, n'oubliez pas la formule $u'v + uv'$.\n3. **Erreur sur la dérivée de $\\sqrt{x}$** : beaucoup écrivent $\\frac{1}{\\sqrt{x}}$, mais c'est $\\frac{1}{2\\sqrt{x}}$.\n4. **Tangente horizontale** : si $f'(a) = 0$, la tangente est horizontale (parallèle à l'axe des abscisses).\n5. **Négliger le domaine de dérivabilité** : certaines fonctions ne sont pas dérivables en certains points (par exemple $\\sqrt{x}$ en $0$).\n\n## Synthèse\n\n1. Le nombre dérivé $f'(a)$ est la limite du taux d'accroissement et représente la pente de la tangente.\n2. L'équation de la tangente en $a$ est $y = f'(a)(x-a) + f(a)$.\n3. La fonction dérivée se calcule avec les formules usuelles et les règles d'opération.\n\nRetenez ces trois points, ils vous permettront de résoudre la majorité des exercices sur ce chapitre.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "analyse",
+    "dérivée",
+    "tangente",
+    "fonctions",
+    "bac"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la dérivée de la fonction $f(x) = 5x^3$ ?",
+      "options": [
+        "$15x^2$",
+        "$3x^2$",
+        "$5x^2$",
+        "$15x$"
+      ],
+      "answer": 0,
+      "explanation": "La dérivée de $x^n$ est $n x^{n-1}$, donc pour $5x^3$, on a $5 \\times 3x^{2} = 15x^2$."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La tangente à la courbe d'une fonction en un point où $f'(a) = 0$ est horizontale.",
+      "answer": true,
+      "explanation": "Si la dérivée est nulle, la pente de la tangente est 0, donc la tangente est horizontale."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Soit $f(x) = x^2 - 3x + 2$. Calculez $f'(2)$.",
+      "answer": "1",
+      "explanation": "$f'(x) = 2x - 3$, donc $f'(2) = 2(2) - 3 = 1$."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est l'équation de la tangente à la courbe de $f(x) = x^2$ au point d'abscisse $a = 1$ ?",
+      "options": [
+        "$y = 2x - 1$",
+        "$y = 2x + 1$",
+        "$y = x - 1$",
+        "$y = 2x$"
+      ],
+      "answer": 0,
+      "explanation": "$f(1) = 1$, $f'(1) = 2$, donc $y = 2(x-1) + 1 = 2x - 1$."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La dérivée de la fonction $f(x) = \\cos x$ est $f'(x) = \\sin x$.",
+      "answer": false,
+      "explanation": "La dérivée de $\\cos x$ est $-\\sin x$."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Calculez la dérivée de $f(x) = \\frac{1}{x}$ en $x = 2$.",
+      "answer": "-0.25",
+      "explanation": "$f'(x) = -\\frac{1}{x^2}$, donc $f'(2) = -\\frac{1}{4} = -0.25$."
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "id": "culture_generale-quatrieme-la-promotion-des-droits-de-lenfant-et-son-ep",
+  "subjectId": "culture_generale",
+  "levelId": "quatrieme",
+  "slug": "la-promotion-des-droits-de-lenfant-et-son-ep",
+  "title": "Promotion des droits de l’enfant et son épanouissement",
+  "summary": "Ce cours présente la notion d’enfant, les principaux droits inscrits dans la Convention internationale relative aux droits de l’enfant (CIDE), les actions de promotion et les acteurs impliqués. Il insiste sur l’importance de ces droits pour le développement personnel et l’insertion harmonieuse de l’enfant dans la société.",
+  "lesson": "# Leçon 1 – Promotion des droits de l’enfant et son épanouissement\n\n## Définition de l’enfant\n- Tout être humain de moins de 18 ans, sauf disposition légale contraire.\n\n## Les droits de l’enfant (CIDE – 54 articles)\n- **Article 2** – Non‑discrimination (race, religion, origine, sexe).\n- **Article 3** – Intérêt supérieur de l’enfant.\n- **Article 7** – Droit à un nom et à une nationalité.\n- **Article 24** – Alimentation saine, logement, soins médicaux.\n- **Article 34** – Protection contre l’exploitation sexuelle.\n- **Article 28** – Droit à l’éducation.\n- **Article 19** – Protection contre les mauvais traitements.\n- **Article 38** – Protection en cas de conflits armés.\n\n## Actions de promotion des droits de l’enfant\n- Conférences, projections de films, causeries‑débats.\n- Élaboration de brochures, témoignages, pièces de théâtre.\n- Expositions, panneaux d’affichage, clubs de droits de l’enfant.\n\n### Exemple de planification d’une conférence\n1. Choix du conférencier.\n2. Sélection du lieu et du matériel‑support.\n3. Moyens de communication.\n4. Tâches ou activités à réaliser par les enfants.\n5. Mise en scène du thème (sketch, jeu de rôle).\n\n## Personnes / institutions spécialisées\n- Juristes, parlementaires, ONG de défense des droits de l’homme et de l’enfant.\n- Institutions spécialisées : UNICEF, PAM.\n- Assistants sociaux, éducateurs.\n\n## Importance des droits de l’enfant\n- Épanouissement de la personnalité.\n- Développement des aptitudes, du respect des valeurs culturelles.\n- Insertion harmonieuse dans la communauté.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "culture_generale",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel âge définit généralement un enfant selon le texte?",
+      "options": [
+        "Moins de 16 ans",
+        "Moins de 18 ans",
+        "Moins de 21 ans",
+        "Moins de 12 ans"
+      ],
+      "answer": 1,
+      "explanation": "Le texte indique que tout être humain de moins de 18 ans est considéré comme enfant, sauf disposition légale contraire."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "L'article 2 de la CIDE porte sur le droit à l'éducation.",
+      "answer": false,
+      "explanation": "L'article 2 traite de la non‑discrimination, le droit à l'éducation est l'article 28."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Complétez : L'article 24 garantit à l'enfant le droit à une alimentation ______, à un logement et à des soins médicaux.",
+      "answer": "saine",
+      "explanation": "L'article 24 mentionne une alimentation saine."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel article de la CIDE protège l'enfant contre l'exploitation sexuelle?",
+      "options": [
+        "Article 19",
+        "Article 28",
+        "Article 34",
+        "Article 38"
+      ],
+      "answer": 2,
+      "explanation": "L'article 34 porte sur la protection contre l'exploitation sexuelle."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Parmi les actions suivantes, laquelle n'est PAS citée comme moyen de promotion des droits de l'enfant?",
+      "options": [
+        "Conférences",
+        "Création de clubs",
+        "Organisation de compétitions sportives",
+        "Expositions"
+      ],
+      "answer": 2,
+      "explanation": "Les compétitions sportives ne sont pas mentionnées dans le texte."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Le choix du conférencier est la première étape de la planification d'une conférence sur les formes d'exploitation des enfants.",
+      "answer": true,
+      "explanation": "Le texte liste le choix du conférencier comme première étape."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "L'article 7 de la CIDE garantit le droit à un ______ et à une nationalité.",
+      "answer": "nom",
+      "explanation": "L'article 7 porte sur le droit à un nom et à une nationalité."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quelle institution n'est pas mentionnée parmi les spécialisées dans la protection de l'enfant?",
+      "options": [
+        "UNICEF",
+        "PAM",
+        "OMS",
+        "Parlementaires"
+      ],
+      "answer": 2,
+      "explanation": "L'OMS n'est pas citée dans le texte; les autres le sont."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "L'article 3 impose que toute décision concernant un enfant doit tenir compte de son intérêt supérieur.",
+      "answer": true,
+      "explanation": "C'est exactement ce que stipule l'article 3."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est le nombre total d'articles de la Convention internationale relative aux droits de l'enfant?",
+      "options": [
+        "48",
+        "54",
+        "60",
+        "72"
+      ],
+      "answer": 1,
+      "explanation": "La CIDE comporte 54 articles."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "L'article 38 protège les enfants en cas de ______ armés.",
+      "answer": "conflits",
+      "explanation": "L'article 38 concerne la protection en cas de conflits armés."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Les assistants sociaux ne figurent pas parmi les acteurs spécialisés mentionnés dans le texte.",
+      "answer": false,
+      "explanation": "Les assistants sociaux sont bien listés parmi les acteurs spécialisés."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel bénéfice n'est pas explicitement associé à la reconnaissance des droits de l'enfant?",
+      "options": [
+        "Épanouissement de la personnalité",
+        "Développement des aptitudes",
+        "Augmentation du revenu familial",
+        "Insertion harmonieuse dans la communauté"
+      ],
+      "answer": 2,
+      "explanation": "L'augmentation du revenu familial n'est pas mentionnée comme bénéfice."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Le droit à la non‑discrimination est couvert par l'article ______ de la CIDE.",
+      "answer": "2",
+      "explanation": "L'article 2 traite de la non‑discrimination."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel support de communication peut être utilisé pour sensibiliser les enfants selon le texte?",
+      "options": [
+        "Panneaux d’affichage",
+        "Radio FM uniquement",
+        "Publicités télévisées payantes",
+        "Réseaux sociaux privés"
+      ],
+      "answer": 0,
+      "explanation": "Les panneaux d’affichage sont explicitement cités."
+    },
+    {
+      "id": "q16",
+      "type": "truefalse",
+      "prompt": "Le texte indique que la protection contre les mauvais traitements relève de l'article 19.",
+      "answer": true,
+      "explanation": "L'article 19 porte sur la protection contre les mauvais traitements."
+    }
+  ]
+}

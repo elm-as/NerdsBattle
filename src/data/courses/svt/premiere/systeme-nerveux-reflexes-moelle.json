@@ -1,0 +1,70 @@
+{
+  "id": "svt-premiere-systeme-nerveux-reflexes-moelle",
+  "title": "Le réflexe myotatique et le message nerveux",
+  "summary": "Découvrez comment un simple coup de marteau sur le genou déclenche une réponse musculaire automatique, révélant les mécanismes fondamentaux du système nerveux. Ce chapitre vous permet de comprendre la transmission du message nerveux et de relier structure et fonction, une compétence clé pour le bac et la vie courante.",
+  "lesson": "## Introduction & Mise en situation\n\nAvez-vous déjà vu un médecin taper légèrement sous votre genou avec un petit marteau ? Votre jambe se soulève involontairement. Ce geste simple illustre un réflexe myotatique, une réponse automatique et rapide du muscle à un étirement. Ce chapitre vous plonge au cœur du système nerveux pour comprendre comment un stimulus est perçu, transformé en message nerveux, transmis à la moelle épinière, puis traduit en contraction musculaire. Ces notions sont essentielles pour aborder la complexité du cerveau et préparer les épreuves de SVT au bac.\n\n## 1. Définitions et Principes Fondamentaux\n\n### Le réflexe myotatique\n\nC'est une contraction réflexe d'un muscle en réponse à son propre étirement. Il est **monosynaptique** : un seul relais synaptique entre le neurone sensitif et le motoneurone. Il est essentiel pour maintenir la posture et ajuster les mouvements.\n\n### Le message nerveux\n\nLe message nerveux est un **potentiel d'action** : une variation brève et rapide du potentiel de membrane d'un neurone. Il est codé en fréquence (nombre de potentiels d'action par seconde) et en amplitude (constante). Sa propagation le long de l'axone est due à des échanges d'ions sodium ($Na^+$) et potassium ($K^+$) à travers la membrane.\n\n### La synapse\n\nZone de contact entre deux neurones (ou entre neurone et muscle). La transmission synaptique se fait par l'intermédiaire de **neurotransmetteurs** (ex : acétylcholine). L'arrivée du message nerveux présynaptique provoque la libération du neurotransmetteur dans la fente synaptique, qui se fixe sur des récepteurs postsynaptiques et déclenche un nouveau message.\n\n### Le réflexe myotatique : schéma simplifié\n\n1. **Stimulus** : étirement du muscle (ex : coup de marteau sur le tendon rotulien).\n2. **Récepteur** : fuseau neuromusculaire, sensible à l'étirement.\n3. **Neurone sensitif** : transmet le message afférent vers la moelle épinière.\n4. **Centre nerveux** : moelle épinière (substance grise).\n5. **Neurone moteur** : transmet le message efférent vers le muscle.\n6. **Effecteur** : muscle (contraction).\n\n## 2. Propriétés et Méthodes d'application\n\n### Étude expérimentale du réflexe myotatique\n\n**Expérience 1 :** On sectionne la racine dorsale de la moelle épinière (voie afférente) : le réflexe disparaît. Conclusion : la racine dorsale est **sensitive** (conduit le message vers la moelle).\n\n**Expérience 2 :** On sectionne la racine ventrale : le réflexe disparaît. Conclusion : la racine ventrale est **motrice** (conduit le message vers le muscle).\n\n**Expérience 3 :** On enregistre les messages nerveux. On observe que la fréquence des potentiels d'action augmente avec l'intensité du stimulus. Le message nerveux est **codé en fréquence**.\n\n### La transmission synaptique : étapes clés\n\n1. Arrivée du potentiel d'action au niveau du bouton synaptique.\n2. Entrée de $Ca^{2+}$ dans le bouton.\n3. Exocytose des vésicules contenant le neurotransmetteur.\n4. Diffusion du neurotransmetteur dans la fente synaptique.\n5. Fixation sur les récepteurs de la membrane postsynaptique.\n6. Ouverture de canaux ioniques, générant un potentiel postsynaptique.\n7. Dégradation du neurotransmetteur par des enzymes (ex : acétylcholinestérase).\n\n### Application : calcul de la vitesse de propagation\n\nLa vitesse de propagation du message nerveux peut être calculée si on connaît la distance et le temps. Par exemple, si un stimulus est appliqué à 1 m de la moelle et que la réponse est observée en 5 ms, la vitesse est :\n\n$$v = \\frac{d}{t} = \\frac{1 \\text{ m}}{5 \\times 10^{-3} \\text{ s}} = 200 \\text{ m/s}$$\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre racine dorsale et ventrale** : la dorsale est **sensitive** (afférente), la ventrale est **motrice** (efférente).\n- **Penser que le message nerveux est codé en amplitude** : en réalité, c'est un **tout-ou-rien** ; c'est la fréquence qui varie.\n- **Oublier que le réflexe myotatique est monosynaptique** : ne nécessite qu'un seul relais synaptique.\n- **Confondre la substance blanche et la substance grise** : la substance grise contient les corps cellulaires des neurones, la blanche les axones myélinisés.\n- **Négliger le rôle des fuseaux neuromusculaires** : ce sont des récepteurs sensoriels, pas des effecteurs.\n\n## Synthèse\n\n1. **Le réflexe myotatique** est une réponse automatique à l'étirement d'un muscle, impliquant un arc réflexe simple : récepteur → neurone sensitif → moelle épinière → neurone moteur → muscle.\n2. **Le message nerveux** est un potentiel d'action codé en fréquence, transmis le long des neurones et à travers les synapses grâce à des neurotransmetteurs.\n3. **La moelle épinière** est le centre nerveux du réflexe, avec des racines dorsales sensitives et ventrales motrices.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "réflexe myotatique",
+    "message nerveux",
+    "synapse",
+    "système nerveux",
+    "moelle épinière"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la fonction de la racine dorsale de la moelle épinière ?",
+      "options": [
+        "Motrice",
+        "Sensitive",
+        "Mixte",
+        "Aucune"
+      ],
+      "answer": 1,
+      "explanation": "La racine dorsale contient les fibres afférentes (sensitives) qui conduisent les messages vers la moelle épinière."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le réflexe myotatique est un réflexe polysynaptique.",
+      "answer": false,
+      "explanation": "Il est monosynaptique : un seul relais synaptique entre le neurone sensitif et le motoneurone."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "La vitesse de propagation d'un message nerveux est de 50 m/s. Quelle distance (en mètres) parcourt-il en 0,02 seconde ?",
+      "answer": "1",
+      "explanation": "v = d/t => d = v × t = 50 × 0,02 = 1 m."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est le neurotransmetteur libéré à la jonction neuromusculaire ?",
+      "options": [
+        "Dopamine",
+        "Sérotonine",
+        "Acétylcholine",
+        "GABA"
+      ],
+      "answer": 2,
+      "explanation": "L'acétylcholine est le neurotransmetteur excitateur libéré par les motoneurones pour déclencher la contraction musculaire."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Le message nerveux est codé en amplitude : plus le stimulus est fort, plus le potentiel d'action est grand.",
+      "answer": false,
+      "explanation": "Le potentiel d'action obéit à la loi du tout-ou-rien. L'intensité du stimulus est codée par la fréquence des potentiels d'action."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Dans le réflexe myotatique, le récepteur sensoriel situé dans le muscle est le fuseau ________.",
+      "answer": "neuromusculaire",
+      "explanation": "Le fuseau neuromusculaire est un récepteur sensoriel sensible à l'étirement, déclenchant le réflexe."
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "id": "francais-quatrieme-l4-fiche-de-lecon-4e-apc-francais-1er-c",
+  "subjectId": "francais",
+  "levelId": "quatrieme",
+  "slug": "l4-fiche-de-lecon-4e-apc-francais-1er-c",
+  "title": "Le texte explicatif : identification, procédés et rédaction",
+  "summary": "Cette séquence de 4e vise à faire reconnaître le texte explicatif, à maîtriser ses procédés (lexique spécialisé, mots de liaison, présentatif, subordonnée explicative) et à structurer la rédaction en introduction, développement et conclusion. Les élèves recherchent, organisent leurs idées et rédigent collectivement un texte sur la germination d’une graine ou un phénomène naturel, avant une évaluation finale.",
+  "lesson": "## 1. Introduction\n- Présentation de la situation : Bernard décrit la germination d’une graine d’arachide.\n- Objectif : rédiger un texte explicatif sur un phénomène naturel.\n\n## 2. Identification d’un texte explicatif\n- Texte qui donne des explications sur un phénomène réel (naturel, scientifique ou socioculturel).\n- Exemple : le texte de Bernard.\n\n## 3. Procédés d’écriture du texte explicatif\n- **Lexique spécialisé** : termes propres au thème (germination, radicule, etc.).\n- **Mots ou expressions explicatifs** : « c’est‑à‑dire », « en d’autres termes », « par exemple ».\n- **Mots de liaison** : d’abord, ensuite, enfin, enfin.\n- **Ton neutre et objectif** : présent de vérité (indicatif).\n- **Ponctuation** : deux‑points, parenthèses, points de suspension.\n- **Structures grammaticales** : subordonnées relatives explicatives, présentatifs, exemples, données chiffrées.\n\n## 4. Parties du texte explicatif\n- **Introduction** : généralité ou définition du thème, importance du sujet, annonce du plan.\n- **Développement** (par paragraphes) : argument → explication → illustration/exemple → transition.\n- **Conclusion** : rappel des acquis, synthèse.\n\n## 5. Recherche et organisation des idées\n- Brainstorming des étapes de la germination : préparation du sol, plantation, arrosage, observation des feuilles.\n- Classement logique selon le plan (intro‑développement‑conclusion).\n\n## 6. Rédaction collective\n- Élèves rédigent ensemble chaque partie en respectant les procédés étudiés.\n- Le professeur guide, corrige et insiste sur la cohérence.\n\n## 7. Évaluation\n- Rédaction individuelle d’un texte explicatif sur un phénomène choisi (ex. : inondation du marché de Bloléquin).\n- Critères : respect du plan, usage des procédés, clarté et précision.",
+  "estimatedMinutes": 60,
+  "tags": [
+    "francais",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le but principal d’un texte explicatif ?",
+      "options": [
+        "Divertir le lecteur",
+        "Informer en expliquant un phénomène",
+        "Raconter une histoire",
+        "Décrire un personnage"
+      ],
+      "answer": 1,
+      "explanation": "Le texte explicatif a pour objectif d’informer en donnant des explications claires sur un phénomène."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Un texte explicatif utilise toujours le passé composé pour décrire le phénomène.",
+      "answer": false,
+      "explanation": "Il utilise le présent de vérité (indicatif) pour rester neutre et objectif."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le mot de liaison qui introduit la première étape d’un raisonnement est souvent « ___ ».",
+      "answer": "d’abord",
+      "explanation": "« D’abord » marque le début d’une séquence logique."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Lequel de ces mots appartient au lexique spécialisé de la germination ?",
+      "options": [
+        "radicule",
+        "maison",
+        "voiture",
+        "ordinateur"
+      ],
+      "answer": 0,
+      "explanation": "« Radicule » désigne la première racine qui apparaît lors de la germination."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Une subordonnée relative explicative commence généralement par « qui » ou « que ».",
+      "answer": true,
+      "explanation": "Ces pronoms introduisent la subordonnée explicative qui précise le nom précédent."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Dans la structure du texte explicatif, la partie qui présente le plan s’appelle l’___ .",
+      "answer": "introduction",
+      "explanation": "L’introduction annonce le sujet et le déroulement du texte."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quelle phrase illustre le mieux la conclusion d’un texte explicatif sur la germination ?",
+      "options": [
+        "Ainsi, la graine a germé grâce à l’eau, la lumière et le sol.",
+        "Ensuite, on arrose la graine chaque jour.",
+        "La germination est un phénomène naturel qui montre l’importance de l’eau et du sol.",
+        "Enfin, on observe les feuilles apparaître après quatre jours."
+      ],
+      "answer": 2,
+      "explanation": "La conclusion résume les acquis et rappelle l’importance des facteurs étudiés."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Les exemples et les données chiffrées sont des procédés facultatifs dans un texte explicatif.",
+      "answer": false,
+      "explanation": "Ils renforcent la crédibilité et sont donc fortement recommandés."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Le présentatif le plus fréquent dans un texte explicatif est « ___ ».",
+      "answer": "c’est‑à‑dire",
+      "explanation": "« C’est‑à‑dire » introduit une reformulation ou une précision."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Parmi les propositions suivantes, laquelle correspond à une transition entre deux paragraphes du développement ?",
+      "options": [
+        "En revanche, la température augmente.",
+        "De plus, on observe une croissance des feuilles.",
+        "Premièrement, on prépare le sol.",
+        "Enfin, le texte se termine."
+      ],
+      "answer": 1,
+      "explanation": "« De plus » assure la continuité entre deux idées du développement."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Le ton neutre signifie que l’auteur doit éviter les jugements de valeur et les adjectifs subjectifs.",
+      "answer": true,
+      "explanation": "Un ton neutre garantit l’objectivité du texte explicatif."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Le signe de ponctuation qui introduit souvent une explication est le ___ .",
+      "answer": "deux‑points",
+      "explanation": "Les deux‑points annoncent une précision ou une explication."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel élément n’appartient pas à la partie « développement » d’un texte explicatif ?",
+      "options": [
+        "Argument",
+        "Illustration",
+        "Transition",
+        "Annonce du plan"
+      ],
+      "answer": 3,
+      "explanation": "L’annonce du plan se situe dans l’introduction, pas dans le développement."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Dans une rédaction collective, chaque élève doit écrire seul son paragraphe sans échange.",
+      "answer": false,
+      "explanation": "La rédaction collective repose sur la coopération et le partage d’idées."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Le verbe « germiner » appartient à la catégorie grammaticale du ___ .",
+      "answer": "verbe",
+      "explanation": "« Germiner » désigne l’action de la graine qui pousse."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Lors de l’évaluation, quel critère n’est pas évalué dans un texte explicatif ?",
+      "options": [
+        "Respect du plan",
+        "Originalité du récit",
+        "Usage des procédés explicatifs",
+        "Clarté des explications"
+      ],
+      "answer": 1,
+      "explanation": "L’originalité du récit n’est pas attendue ; le texte doit rester factuel et structuré."
+    }
+  ]
+}

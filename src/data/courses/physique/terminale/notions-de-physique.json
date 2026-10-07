@@ -1,0 +1,79 @@
+{
+  "id": "physique-terminale-notions-de-physique",
+  "subjectId": "physique",
+  "levelId": "terminale",
+  "slug": "notions-de-physique",
+  "title": "Physique pour la Terminale – Concepts clés et expériences",
+  "summary": "Ce document synthétise les notions fondamentales de physique enseignées en terminale, en mettant l’accent sur les principes d’inertie, de gravité, de structure atomique, de conduction thermique, de pression atmosphérique, de portance, de couleurs, de réfraction, de vitesse moléculaire, ainsi que sur la relativité espace‑temps. Il propose des expériences illustratives, des explications claires et un ensemble de questions pour vérifier la compréhension.",
+  "lesson": "# Physique pour la Terminale\n\n## 1. La Terre et le mouvement\n- La Terre est ronde et tourne sur elle‑même à ~1670 km/h à l’équateur.\n- Le principe d’inertie : un corps en mouvement reste en mouvement sauf force extérieure.\n\n## 2. Principe d’inertie en action\n- Balle lancée dans un train : trajectoire verticale dans le train, parabole dans le référentiel extérieur.\n- Le bélier : force appliquée sur un corps massif, accélération réduite.\n\n## 3. Gravité et chute libre\n- Accélération due à la gravité g ≈ 9,81 m/s², indépendante de la masse.\n- Expérience de Galilée : deux boules de masses différentes tombent simultanément.\n\n## 4. Structure atomique\n- Atome : noyau (protons, neutrons) de rayon ~10⁻¹⁵ m, électrons orbitant à ~10⁻¹⁰ m.\n- La plupart de l’atome est vide.\n\n## 5. Conduction thermique\n- Métal conduit la chaleur, bois l’isole.\n- Sensation de froid sur métal : conduction rapide de la chaleur corporelle.\n\n## 6. Pression atmosphérique\n- ~101 kPa (~1 atm) à la surface.\n- Expérience du verre d’eau et du carton : la pression retient l’eau.\n- Hémisphères de Magdebourg : force de pression > 8 chevaux.\n\n## 7. Portance et vol\n- Aile bombée : air au dessus plus rapide, pression plus basse.\n- Force de portance empêche l’avion de tomber.\n- Expérience : pommes suspendues, souffle les rapproche.\n\n## 8. Couleurs et perception\n- Synthèse additive (lumière) : mélange des trois couleurs primaires donne blanc.\n- Synthèse soustractive (pigments) : mélange donne noir.\n\n## 9. Réfraction\n- Loi de Snell : n₁ sinθ₁ = n₂ sinθ₂.\n- Illusions d’optique : mirages, bâton cassé.\n\n## 10. Vitesse moléculaire de l’air\n- Vitesse moyenne ~350 m/s, comparable à la vitesse du son.\n\n## 11. Espace et temps\n- Relativité d’Einstein : espace et temps liés, dépendants du référentiel.\n- Expérience de pensée : seau d’eau tournant, surface creuse.\n- Newton vs Leibniz : débat sur l’absolu vs relatif.\n\n# Conclusion\nCes concepts forment la base de la physique moderne et sont illustrés par des expériences simples, permettant aux élèves de visualiser les lois qui régissent notre univers.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le rayon approximatif d’un atome par rapport à son noyau ?",
+      "options": [
+        "100 fois",
+        "1 000 fois",
+        "10 000 fois",
+        "100 000 fois"
+      ],
+      "answer": 3,
+      "explanation": "Le rayon atomique est environ 100 000 fois celui du noyau."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La vitesse de chute libre dépend de la masse du corps.",
+      "answer": false,
+      "explanation": "En absence de résistance de l’air, tous les corps tombent à la même accélération g."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel phénomène explique que l’avion ne tombe pas ?",
+      "options": [
+        "Résistance de l’air",
+        "Portance",
+        "Gravité",
+        "Conduction thermique"
+      ],
+      "answer": 1,
+      "explanation": "La portance, due à la différence de pression au-dessus et en dessous de l’aile, soulève l’avion."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "La loi de Snell s’énonce : n₁ sinθ₁ = n₂ sinθ₂.",
+      "answer": "Vrai",
+      "explanation": "C’est la loi de réfraction reliant les indices de réfraction et les angles d’incidence et de réfraction."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel est le rôle du métal dans la sensation de froid lorsqu’on le touche ?",
+      "options": [
+        "Il est plus froid que le bois.",
+        "Il conduit la chaleur rapidement.",
+        "Il isole la chaleur.",
+        "Il est plus chaud que le bois."
+      ],
+      "answer": 1,
+      "explanation": "Le métal conduit la chaleur, transférant la chaleur corporelle rapidement, ce qui donne la sensation de froid."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "La pression atmosphérique est d’environ 101 kPa à la surface de la Terre.",
+      "answer": true,
+      "explanation": "1 atm ≈ 101 kPa, la pression atmosphérique moyenne."
+    }
+  ]
+}

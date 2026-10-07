@@ -1,0 +1,70 @@
+{
+  "id": "maths-seconde-droites-plan-equations",
+  "title": "Équations de droites et systèmes linéaires",
+  "summary": "Maîtrisez l'équation d'une droite et la résolution de systèmes linéaires, des outils indispensables pour modéliser et résoudre des problèmes concrets. Ce chapitre vous donne les clés pour analyser des situations géométriques et algébriques avec précision.",
+  "lesson": "## Introduction & Mise en situation\n\nLes équations de droites et les systèmes linéaires sont omniprésents dans la vie quotidienne et dans de nombreuses disciplines : économie (calcul de coûts et de bénéfices), physique (mouvement rectiligne), géométrie (intersections). Savoir déterminer l'équation d'une droite et résoudre un système d'équations vous permet de modéliser et de résoudre des problèmes complexes de manière élégante. Ce chapitre est aussi la base de la géométrie analytique, un outil puissant qui lie l'algèbre et la géométrie.\n\n## 1. Définitions et Principes Fondamentaux\n\n### 1.1 Équation cartésienne d'une droite\nDans un repère orthonormé, toute droite $d$ peut être représentée par une équation de la forme :\n$$ ax + by + c = 0 $$\noù $a$, $b$ et $c$ sont des réels, avec $a$ et $b$ non tous deux nuls. Cette écriture est appelée **équation cartésienne** de la droite.\n\n**Cas particuliers :**\n- Si $b \\neq 0$, on peut écrire l'équation sous forme réduite : $y = mx + p$, avec $m = -\\frac{a}{b}$ (coefficient directeur) et $p = -\\frac{c}{b}$ (ordonnée à l'origine).\n- Si $b = 0$, l'équation devient $x = k$ (droite verticale).\n\n### 1.2 Vecteur directeur et coefficient directeur\nUn vecteur directeur $\\vec{u}$ de la droite $d$ d'équation $ax+by+c=0$ est $\\vec{u} = (-b; a)$. Si $b \\neq 0$, le coefficient directeur est $m = \\frac{a}{b}$ (attention au signe).\n\n### 1.3 Système linéaire de deux équations à deux inconnues\nUn système linéaire de deux équations à deux inconnues $x$ et $y$ s'écrit :\n$$\n\\begin{cases} ax + by = c \\\\ a'x + b'y = c' \\end{cases}\n$$\nRésoudre ce système, c'est trouver tous les couples $(x; y)$ qui vérifient les deux équations simultanément. Géométriquement, chaque équation représente une droite, et les solutions sont les points d'intersection de ces deux droites.\n\n## 2. Propriétés et Méthodes d'application\n\n### 2.1 Déterminer l'équation d'une droite passant par deux points\nSoient $A(x_A; y_A)$ et $B(x_B; y_B)$ deux points distincts. Le coefficient directeur de la droite $(AB)$ est :\n$$ m = \\frac{y_B - y_A}{x_B - x_A} $$\nEnsuite, on utilise la forme $y = mx + p$ et on détermine $p$ en remplaçant $x$ et $y$ par les coordonnées de $A$ (ou $B$).\n\n**Exemple :** Soient $A(2; 3)$ et $B(4; 7)$. Alors $m = \\frac{7-3}{4-2} = 2$. En utilisant $A$ : $3 = 2 \\times 2 + p \\Rightarrow p = -1$. L'équation est $y = 2x - 1$.\n\n### 2.2 Résolution d'un système linéaire par substitution\nLa méthode de substitution consiste à exprimer une inconnue en fonction de l'autre dans une équation, puis à remplacer dans l'autre équation.\n\n**Exemple :** Résolvons le système :\n$$\n\\begin{cases} x + y = 5 \\\\ 2x - y = 1 \\end{cases}\n$$\nDe la première équation, on tire $y = 5 - x$. On substitue dans la seconde : $2x - (5 - x) = 1 \\Rightarrow 3x - 5 = 1 \\Rightarrow 3x = 6 \\Rightarrow x = 2$. On en déduit $y = 5 - 2 = 3$. La solution est $(2; 3)$.\n\n### 2.3 Résolution par combinaison (addition)\nOn multiplie les équations par des coefficients appropriés pour éliminer une inconnue en additionnant les deux équations.\n\n**Exemple :** Reprenons le système précédent. Additionnons les deux équations : $(x+y) + (2x-y) = 5 + 1 \\Rightarrow 3x = 6 \\Rightarrow x = 2$. Puis on remplace pour obtenir $y = 3$.\n\n### 2.4 Interprétation graphique\n- Si les droites sont sécantes : une unique solution.\n- Si les droites sont parallèles distinctes : aucune solution.\n- Si les droites sont confondues : une infinité de solutions.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre coefficient directeur et pente** : le coefficient directeur $m$ est le rapport $\\frac{\\Delta y}{\\Delta x}$, attention à l'ordre des coordonnées.\n- **Oublier le cas des droites verticales** : une droite verticale n'a pas de coefficient directeur, son équation est de la forme $x = k$.\n- **Erreur de signe dans les équations cartésiennes** : vérifier que les coefficients $a$ et $b$ ne sont pas tous les deux nuls.\n- **Ne pas vérifier la solution** : après résolution, remplacez $x$ et $y$ dans les deux équations pour éviter les erreurs de calcul.\n- **Confondre les cas de systèmes** : si les droites sont confondues, il y a une infinité de solutions, pas une seule.\n\n## Synthèse\n\n1. **Équation de droite** : toute droite a une équation $ax+by+c=0$ ou $y=mx+p$ ; le coefficient directeur $m$ se calcule avec deux points.\n2. **Systèmes linéaires** : deux méthodes principales (substitution et combinaison) pour trouver le couple solution, qui correspond à l'intersection des droites.\n3. **Interprétation graphique** : une solution (droites sécantes), aucune (parallèles distinctes), infinité (confondues).",
+  "estimatedMinutes": 12,
+  "tags": [
+    "géométrie",
+    "algèbre",
+    "droites",
+    "systèmes",
+    "seconde"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est l'équation de la droite passant par les points A(1;2) et B(3;4) ?",
+      "options": [
+        "y = x + 1",
+        "y = 2x",
+        "y = x + 2",
+        "y = 2x - 1"
+      ],
+      "answer": 0,
+      "explanation": "Le coefficient directeur est m = (4-2)/(3-1) = 1. En utilisant A, on obtient 2 = 1*1 + p => p = 1. Donc y = x + 1."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Les droites d'équations y = 2x + 1 et y = 2x - 3 sont sécantes.",
+      "answer": false,
+      "explanation": "Elles ont le même coefficient directeur (2) mais des ordonnées à l'origine différentes, donc elles sont parallèles et distinctes, donc non sécantes."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Résoudre le système suivant : x + y = 7 et x - y = 3. La valeur de x est :",
+      "answer": "5",
+      "explanation": "En additionnant les deux équations, on obtient 2x = 10, donc x = 5."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est le coefficient directeur de la droite d'équation 2x - 3y + 6 = 0 ?",
+      "options": [
+        "2/3",
+        "-2/3",
+        "3/2",
+        "-3/2"
+      ],
+      "answer": 0,
+      "explanation": "On isole y : -3y = -2x - 6 => y = (2/3)x + 2. Donc m = 2/3."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Le système { y = 2x + 1 et y = 2x + 1 } admet une infinité de solutions.",
+      "answer": true,
+      "explanation": "Les deux équations représentent la même droite, donc tous les points de la droite sont solutions, il y a une infinité de solutions."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Dans un repère, la droite d'équation x = -2 est une droite verticale. Vrai ou Faux ? (répondre par vrai ou faux)",
+      "answer": "vrai",
+      "explanation": "Une équation de la forme x = constante représente une droite verticale."
+    }
+  ]
+}

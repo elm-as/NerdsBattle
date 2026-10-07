@@ -1,0 +1,131 @@
+{
+  "id": "anglais-quatrieme-unit-4-lesson-2-4-e-anglais",
+  "subjectId": "anglais",
+  "levelId": "quatrieme",
+  "slug": "unit-4-lesson-2-4-e-anglais",
+  "title": "MENA CI Fashion Lesson – 4ème2 English",
+  "summary": "This lesson guides 4ème2 students through describing modern and traditional men’s clothing in English, using passive voice, past habits, and vocabulary related to fashion. It includes practice activities, a communication dialogue, and a set of 15 questions to assess comprehension.",
+  "lesson": "# Learning Context\nOn the Cultural Day of Lycée Moderne de Béoumi, pupils from 4ème2 are asked to write articles about men’s modern clothes for the School English Club Magazine.\n\n# Language Functions\n- **Passive Voice**: *Many clothing items are made from traditional materials.*\n- **Describing Past Habits**: *People used to wear baggy clothes and Afro hairstyles.*\n\n# Vocabulary\n| Item | English | French |\n|------|---------|--------|\n| Cap | cap | casquette |\n| Sneakers | sneakers | baskets |\n| Polo Shirt | polo shirt | polo |\n| Kita | kita | kita |\n| Jeans | jeans | jeans |\n| Suit | suit | costume |\n| Bubu | bubu | bubu |\n| Scarf | scarf | écharpe |\n| Traditional wrapper | wrapper | wrapper |\n| Afro hairstyle | Afro hairstyle | coiffure afro |\n| Baggy trousers | baggy trousers | pantalons amples |\n\n# Practice Activities\n1. **Fill‑in**: Complete sentences with words from the box.\n2. **Rewrite**: Transform sentences into passive voice.\n3. **Scrambled Words**: Correct the spelling of fashion terms.\n4. **Multiple Choice**: Choose the correct form of *used to*.\n5. **Dialogue Completion**: Fill in missing words in a conversation about fashion and age.\n\n# Communication Activity\nDialogue between two club members debating whether older people should follow fashion. Students answer comprehension questions.\n\n# Assessment\n15 questions covering passive voice, past habits, vocabulary, and comprehension of the dialogue.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "anglais",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Which sentence is in passive voice?",
+      "options": [
+        "A) Designers create fashionable clothes.",
+        "B) Fashionable clothes are created by designers.",
+        "C) Designers make fashionable clothes.",
+        "D) Fashionable clothes are made by designers."
+      ],
+      "answer": 1,
+      "explanation": "Option B uses the passive structure \"are created by\"."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Complete: Many clothing items are ___ from traditional materials.",
+      "answer": "made",
+      "explanation": ""
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Which word is a traditional wrapper from Côte d’Ivoire?",
+      "options": [
+        "A) Bubu",
+        "B) Scarf",
+        "C) Wrapper",
+        "D) Cap"
+      ],
+      "answer": 2,
+      "explanation": "A wrapper is a traditional cloth used as a wrapper."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Choose the correct rewrite of \"Tailors make men’s clothing from kita.\"",
+      "options": [
+        "A) Men’s clothing is made by tailors from kita.",
+        "B) Tailors are made men’s clothing from kita.",
+        "C) Men’s clothing make tailors from kita.",
+        "D) Tailors from kita make men’s clothing."
+      ],
+      "answer": 0,
+      "explanation": "Option A correctly uses passive voice."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Which term refers to a long-sleeved shirt?",
+      "options": [
+        "A) Short-sleeved shirt",
+        "B) Long-sleeved shirt",
+        "C) Bubu",
+        "D) Scarf"
+      ],
+      "answer": 1,
+      "explanation": "Long-sleeved shirt is the correct term."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "The phrase \"It was habitual for them to wear baggy clothes\" is an example of the passive form of ___.",
+      "answer": "used to",
+      "explanation": ""
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "In the dialogue, who agrees that older people should not follow fashion?",
+      "options": [
+        "A) Speaker A",
+        "B) Speaker B",
+        "C) Both speakers",
+        "D) Neither speaker"
+      ],
+      "answer": 0,
+      "explanation": "Speaker A expresses that fashion is only for the young."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Which word completes the sentence: \"Fashion (1) ___ everyone.\"",
+      "options": [
+        "A) follows",
+        "B) follows for",
+        "C) follows all",
+        "D) follows everyone"
+      ],
+      "answer": 3,
+      "explanation": "The correct phrase is \"follows everyone.\""
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Select the correct form of \"used to\" in the sentence: \"Kita cloth ___ to be worn on formal occasions.\"",
+      "options": [
+        "A) use to",
+        "B) used to",
+        "C) use to be",
+        "D) used to be"
+      ],
+      "answer": 1,
+      "explanation": "The correct form is \"used to.\""
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "The word \"bubu\" refers to a ___.",
+      "answer": "traditional wrapper",
+      "explanation": ""
+    }
+  ]
+}

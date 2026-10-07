@@ -1,0 +1,219 @@
+{
+  "id": "svt-troisieme-l3-la-digestion-des-aliments",
+  "subjectId": "svt",
+  "levelId": "troisieme",
+  "slug": "l3-la-digestion-des-aliments",
+  "title": "La digestion des aliments",
+  "summary": "Découvre comment les aliments sont transformés en nutriments par des enzymes et des organes. Comprends le rôle de l'hygiène alimentaire pour une bonne digestion.",
+  "lesson": "# La digestion des aliments\n\n## Introduction\n\nLa digestion est l'ensemble des transformations mécaniques et chimiques qui décomposent les aliments en nutriments. Ces nutriments sont ensuite absorbés par l'organisme pour être utilisés comme source d'énergie ou de matière.\n\n## 1. Définitions & Notions clés\n\n- **Enzyme** : substance biologique sécrétée par une glande qui catalyse une réaction chimique. Exemple : l'amylase salivaire (ptyaline).\n- **Amylase salivaire** : enzyme qui découpe les grosses molécules d'amidon en maltose (sucre réducteur).\n- **Digestion** : ensemble des transformations chimiques et mécaniques qui décomposent les aliments en nutriments.\n- **Nutriment** : forme moléculaire la plus simple sous laquelle les aliments sont utilisés par l'organisme.\n- **Bol alimentaire** : mélange des morceaux d'aliments avec la salive après mastication.\n- **Chyme stomacal** : bol alimentaire transformé dans l'estomac.\n- **Chyle** : substance obtenue dans l'intestin grêle, composée de nutriments.\n- **Absorption** : passage des nutriments dans le sang ou la lymphe à travers les villosités de l'intestin grêle.\n- **Hygiène alimentaire** : ensemble des règles et conditions à suivre pour bien se nourrir et préserver sa santé.\n\n## 2. Applications & Méthodes\n\n### Les enzymes digestives\n\n- **Amylase salivaire** : agit dans la bouche, transforme l'amidon en maltose.\n- **Pepsine** : contenue dans le suc gastrique, décompose les protides.\n- **Trypsine** : contenue dans le suc pancréatique, décompose les protides.\n- **Lipases** : contenues dans le suc pancréatique et le suc biliaire, décomposent les lipides.\n\nLes enzymes sont actives à 37°C (température corporelle). À forte température, elles sont dégradées ; à faible température, elles sont inactives.\n\n### Les organes de la digestion\n\n- **Bouche** : mastication, formation du bol alimentaire.\n- **Œsophage** : déglutition.\n- **Estomac** : malaxation, formation du chyme stomacal.\n- **Intestin grêle** : brassage, action des sucs biliaires, pancréatiques et intestinaux, formation du chyle, absorption des nutriments.\n\n### Transformation des aliments\n\n- **Transformation mécanique** : mastication et malaxation.\n- **Transformation chimique** : action des enzymes.\n\n### Produits finaux de la digestion\n\n- Protides → acides aminés\n- Lipides → acides gras et glycérol\n- Glucides → glucose\n- Eau, vitamines et sels minéraux : non digérés, déjà sous forme de nutriments.\n\n### Absorption\n\nLes nutriments passent dans le sang ou la lymphe à travers les villosités de l'intestin grêle. Les acides gras, le glycérol et une partie de l'eau sont absorbés par la voie lymphatique.\n\n### Hygiène alimentaire\n\nPour une bonne digestion :\n- Bonne hygiène bucco-dentaire (se brosser les dents après chaque repas).\n- Bien mastiquer les aliments.\n- Boire de préférence avant ou après le repas.\n- Avoir des repas réguliers.\n- Bien cuire les aliments.\n\n## 3. Pièges fréquents\n\n- **Confondre amylase et pepsine** : l'amylase agit sur l'amidon, la pepsine sur les protides.\n- **Penser que l'eau est digérée** : l'eau, les vitamines et les sels minéraux ne sont pas digérés.\n- **Oublier la spécificité des enzymes** : chaque enzyme agit sur un substrat spécifique.\n- **Négliger l'hygiène** : une mauvaise mastication peut provoquer des douleurs gastriques.\n\n## Synthèse\n\nLa digestion transforme les aliments en nutriments grâce à des enzymes et des organes. Les nutriments sont absorbés au niveau de l'intestin grêle. Une bonne hygiène alimentaire est essentielle pour une digestion optimale.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "svt",
+    "troisieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle enzyme est contenue dans la salive et transforme l'amidon en maltose ?",
+      "options": [
+        "Pepsine",
+        "Trypsine",
+        "Amylase salivaire",
+        "Lipase"
+      ],
+      "answer": 2,
+      "explanation": "L'amylase salivaire (ou ptyaline) est l'enzyme de la salive qui découpe l'amidon en maltose."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Les enzymes sont actives à une température de 37°C.",
+      "answer": true,
+      "explanation": "Les enzymes sont actives à la température corporelle, soit 37°C."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "L'amylase salivaire découpe les grosses molécules d'amidon en molécules plus petites appelées ______.",
+      "answer": "maltose",
+      "explanation": "L'amylase salivaire transforme l'amidon en maltose, un sucre réducteur."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est le lieu d'action de la trypsine ?",
+      "options": [
+        "Bouche et estomac",
+        "Estomac et intestin grêle",
+        "Intestin grêle seulement",
+        "Œsophage et estomac"
+      ],
+      "answer": 1,
+      "explanation": "La trypsine agit au niveau de l'estomac et de l'intestin grêle."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "L'eau et les vitamines sont digérées pour donner des nutriments.",
+      "answer": false,
+      "explanation": "L'eau, les vitamines et les sels minéraux ne sont pas digérés car ils sont déjà sous forme de nutriments."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel est le produit final de la digestion des protides ?",
+      "options": [
+        "Glucose",
+        "Acides gras",
+        "Acides aminés",
+        "Maltose"
+      ],
+      "answer": 2,
+      "explanation": "Les protides sont digérés pour donner des acides aminés."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Le mélange des morceaux d'aliments avec la salive après mastication est appelé ______.",
+      "answer": "bol alimentaire",
+      "explanation": "Après la mastication, les aliments mélangés à la salive forment le bol alimentaire."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Où se produit l'absorption des nutriments ?",
+      "options": [
+        "Dans l'estomac",
+        "Dans l'intestin grêle",
+        "Dans la bouche",
+        "Dans l'œsophage"
+      ],
+      "answer": 1,
+      "explanation": "L'absorption des nutriments se fait à travers les villosités de l'intestin grêle."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "La pepsine est une enzyme qui décompose les lipides.",
+      "answer": false,
+      "explanation": "La pepsine décompose les protides, pas les lipides."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est le rôle de la mastication ?",
+      "options": [
+        "Transformer chimiquement les aliments",
+        "Découper les aliments en petits morceaux",
+        "Absorber les nutriments",
+        "Produire de la salive"
+      ],
+      "answer": 1,
+      "explanation": "La mastication est une transformation mécanique qui découpe les aliments en petits morceaux."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Les lipides sont digérés pour donner des acides gras et du ______.",
+      "answer": "glycérol",
+      "explanation": "Les lipides donnent des acides gras et du glycérol."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quelle enzyme n'agit pas sur l'amidon ?",
+      "options": [
+        "Amylase salivaire",
+        "Amylase pancréatique",
+        "Trypsine",
+        "Amylase intestinale"
+      ],
+      "answer": 2,
+      "explanation": "La trypsine agit sur les protides, pas sur l'amidon."
+    },
+    {
+      "id": "q13",
+      "type": "truefalse",
+      "prompt": "Une enzyme est spécifique à un substrat donné.",
+      "answer": true,
+      "explanation": "Chaque enzyme a son substrat spécifique, comme vu dans l'expérience avec l'amylase et la trypsine."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel organe est le siège de la malaxation ?",
+      "options": [
+        "La bouche",
+        "L'estomac",
+        "L'intestin grêle",
+        "L'œsophage"
+      ],
+      "answer": 1,
+      "explanation": "L'estomac est le lieu de la malaxation grâce à ses muscles."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Le suc gastrique contient de la pepsine, de l'acide chlorhydrique et de la ______.",
+      "answer": "lipase",
+      "explanation": "Le suc gastrique contient essentiellement de la pepsine, de l'acide chlorhydrique et de la lipase."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Qu'est-ce que le chyle ?",
+      "options": [
+        "Le bol alimentaire dans la bouche",
+        "Le contenu de l'estomac",
+        "Le produit de la digestion dans l'intestin grêle",
+        "Le produit de l'absorption"
+      ],
+      "answer": 2,
+      "explanation": "Le chyle est le produit de la digestion dans l'intestin grêle, composé de nutriments."
+    },
+    {
+      "id": "q17",
+      "type": "truefalse",
+      "prompt": "L'absorption des acides gras se fait par la voie sanguine.",
+      "answer": false,
+      "explanation": "Les acides gras et le glycérol sont absorbés par la voie lymphatique."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Quelle est la conséquence d'une mauvaise mastication ?",
+      "options": [
+        "Une meilleure digestion",
+        "Des douleurs au ventre",
+        "Une absorption plus rapide",
+        "Aucun effet"
+      ],
+      "answer": 1,
+      "explanation": "Une mauvaise mastication peut provoquer des douleurs au ventre car l'estomac doit se contracter davantage."
+    },
+    {
+      "id": "q19",
+      "type": "fill",
+      "prompt": "L'ensemble des règles et conditions à suivre pour bien se nourrir s'appelle l'______ alimentaire.",
+      "answer": "hygiène",
+      "explanation": "L'hygiène alimentaire est l'ensemble des règles pour bien se nourrir et préserver sa santé."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Quel est le rôle des villosités intestinales ?",
+      "options": [
+        "Produire des enzymes",
+        "Absorber les nutriments",
+        "Décomposer les aliments",
+        "Transporter le chyle"
+      ],
+      "answer": 1,
+      "explanation": "Les villosités intestinales permettent l'absorption des nutriments dans le sang ou la lymphe."
+    }
+  ]
+}

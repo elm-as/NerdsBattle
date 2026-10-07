@@ -1,0 +1,207 @@
+{
+  "id": "maths-sixieme-volumes",
+  "subjectId": "maths",
+  "levelId": "sixieme",
+  "slug": "volumes",
+  "title": "Parallélépipède rectangle : définition, patron, perspective cavalière et volume (6e)",
+  "summary": "Ce cours présente le parallélépipède rectangle (pavé droit) et son cas particulier le cube, explique comment lire et réaliser son patron, décrit la perspective cavalière pour le représenter en dessin, détaille les unités de volume et montre le calcul du volume V=L×l×h avec plusieurs exemples pratiques.",
+  "lesson": "## I. Définition\n- **Parallélépipède rectangle** (ou pavé droit) : solide à 6 faces rectangulaires.\n- **Cube** : cas particulier où les 6 faces sont des carrés (toutes les arêtes de même longueur).\n\n## II. Patron d’un parallélépipède rectangle\n- Le patron est le dessin découpé et plié pour obtenir le solide sans chevauchement.\n- Nommage des sommets : on commence par les 4 sommets d’une face (ex. A B C D) puis on reprend le même ordre pour la face parallèle (E F G H). Exemple de notation : **ABCDEFGH**.\n- Plusieurs patrons possibles pour un même pavé droit (voir schémas). \n\n## III. Perspective cavalière\n- Représentation en 2 D d’un solide 3 D.\n- Règles :\n  1. La face avant est dessinée à l’échelle réelle.\n  2. Les arêtes parallèles sont représentées par des segments parallèles.\n  3. Les arêtes fuyantes (relient face avant/arrière) sont raccourcies (souvent à ½) et tracées sous un angle de 30° ou 45°.\n  4. Les arêtes cachées sont en pointillés.\n- Permet de visualiser l’objet comme dans un jeu vidéo ou un film.\n\n## IV. Unités de volume\n- Unité de base : **cm³** (cube de 1 cm de côté).\n- SI : **m³** (mètre cube). 1 m³ = 1 000 000 cm³.\n- Autres unités : dm³ (dé­ci­mé­tre cube) = 1 000 cm³, L (litre) = 1 dm³, mL = cm³, etc.\n\n## V. Calcul du volume d’un parallélépipède rectangle\n- Formule : **V = L × l × h** où L, l, h sont les longueurs des trois arêtes perpendiculaires.\n- Exemple : dimensions 5 cm × 4 cm × 3 cm → V = 5 × 4 × 3 = 60 cm³.\n- Pour un cube de côté c : V = c³.\n- Applications : compter le nombre de petits cubes de 1 cm³ contenus dans le pavé.\n\n## VI. Exercices rapides\n- Identifier les arêtes, faces et sommets sur un patron.\n- Dessiner en perspective cavalière un pavé de dimensions données.\n- Convertir des volumes entre cm³, dm³ et L.\n- Calculer le volume de différents parallélépipèdes et cubes.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la particularité d’un cube par rapport à un parallélépipède rectangle ?",
+      "options": [
+        "Il possède 8 faces",
+        "Toutes ses arêtes ont la même longueur",
+        "Il a deux faces parallèles",
+        "Il n’a pas de sommets"
+      ],
+      "answer": 1,
+      "explanation": "Dans un cube, les 6 faces sont des carrés, donc toutes les arêtes sont égales."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Dans un patron, les arêtes qui se touchent sur le dessin correspondent toujours à des arêtes adjacentes du solide.",
+      "answer": true,
+      "explanation": "Le patron conserve les connexions des arêtes du solide lorsqu’il est découpé et plié."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Dans la perspective cavalière, les arêtes fuyantes sont généralement réduites à ___ de leur vraie longueur.",
+      "answer": "½",
+      "explanation": "On les trace souvent à moitié de leur longueur réelle pour donner l’illusion de profondeur."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel angle est le plus couramment utilisé pour les arêtes fuyantes en perspective cavalière ?",
+      "options": [
+        "30°",
+        "60°",
+        "90°",
+        "120°"
+      ],
+      "answer": 0,
+      "explanation": "30° (ou parfois 45°) est l’angle habituel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Si un pavé droit a des dimensions 8 cm, 5 cm et 4 cm, son volume est :",
+      "options": [
+        "160 cm³",
+        "80 cm³",
+        "200 cm³",
+        "100 cm³"
+      ],
+      "answer": 2,
+      "explanation": "V = 8×5×4 = 160 cm³, donc la bonne réponse est 160 cm³ (option 0)."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "1 dm³ = 1 000 cm³",
+      "answer": true,
+      "explanation": "Par définition, 1 dm = 10 cm, donc (10 cm)³ = 1 000 cm³."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Le volume d’un cube de côté 7 cm est ___ cm³.",
+      "answer": "343",
+      "explanation": "V = 7³ = 343 cm³."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Dans le nommage ABCDEFGH d’un parallélépipède, quels sommets forment la face arrière ?",
+      "options": [
+        "A,B,C,D",
+        "E,F,G,H",
+        "A,E,F,B",
+        "C,D,G,H"
+      ],
+      "answer": 1,
+      "explanation": "Les sommets E,F,G,H sont ceux de la face opposée à la face avant A,B,C,D."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Les arêtes cachées sont toujours représentées en pointillés en perspective cavalière.",
+      "answer": true,
+      "explanation": "C’est la convention pour indiquer qu’elles ne sont pas visibles."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Convertir 2 m³ en cm³ donne ___ cm³.",
+      "answer": "2000000",
+      "explanation": "1 m = 100 cm → (100 cm)³ = 1 000 000 cm³, donc 2 m³ = 2 000 000 cm³."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel est le volume d’un parallélépipède de dimensions 5 cm, 3 cm et 2 cm ?",
+      "options": [
+        "30 cm³",
+        "10 cm³",
+        "25 cm³",
+        "15 cm³"
+      ],
+      "answer": 0,
+      "explanation": "V = 5×3×2 = 30 cm³."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Le litre est une unité de volume équivalente à 1 dm³.",
+      "answer": true,
+      "explanation": "1 L = 1 dm³ par définition."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Un litre correspond à ___ cm³.",
+      "answer": "1000",
+      "explanation": "1 L = 1 dm³ = 1 000 cm³."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel élément n’est PAS nécessaire pour réaliser le patron d’un pavé droit ?",
+      "options": [
+        "Ciseaux",
+        "Colle",
+        "Règle graduée",
+        "Compas"
+      ],
+      "answer": 3,
+      "explanation": "Le compas n’est pas requis pour découper et plier un patron plat."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Dans la formule V = L×l×h, les trois longueurs doivent être exprimées dans la même unité.",
+      "answer": true,
+      "explanation": "Pour obtenir un volume cohérent, toutes les dimensions doivent partager l’unité."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Si le volume d’un parallélépipède est 120 cm³ et que deux de ses arêtes mesurent 5 cm et 4 cm, la troisième arête mesure ___ cm.",
+      "answer": "6",
+      "explanation": "V = 5×4×h → h = 120/(5×4)=6 cm."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quel symbole représente l’unité officielle du volume dans le Système International ?",
+      "options": [
+        "m³",
+        "L",
+        "cm³",
+        "dm³"
+      ],
+      "answer": 0,
+      "explanation": "L’unité SI du volume est le mètre cube, noté m³."
+    },
+    {
+      "id": "q18",
+      "type": "truefalse",
+      "prompt": "Un parallélépipède rectangle peut avoir deux arêtes de même longueur et la troisième différente.",
+      "answer": true,
+      "explanation": "C’est possible : par exemple 5 cm × 5 cm × 3 cm."
+    },
+    {
+      "id": "q19",
+      "type": "fill",
+      "prompt": "En perspective cavalière, si l’on réduit les arêtes fuyantes à 2 cm au lieu de 4 cm, le facteur de réduction est ___ .",
+      "answer": "0.5",
+      "explanation": "2 cm / 4 cm = 0,5."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Le volume d’un cube de côté 2 dm est :",
+      "options": [
+        "8 dm³",
+        "0,8 dm³",
+        "2000 cm³",
+        "8000 cm³"
+      ],
+      "answer": 0,
+      "explanation": "V = 2³ = 8 dm³ (et 8 dm³ = 8 000 cm³)."
+    }
+  ]
+}

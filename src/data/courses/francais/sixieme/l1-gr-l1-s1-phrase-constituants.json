@@ -1,0 +1,217 @@
+{
+  "id": "francais-sixieme-l1-gr-l1-s1-phrase-constituants",
+  "subjectId": "francais",
+  "levelId": "sixieme",
+  "slug": "l1-gr-l1-s1-phrase-constituants",
+  "title": "La phrase et ses constituants - Français 6ème",
+  "summary": "Cette leçon définit la phrase et présente ses constituants obligatoires (groupe nominal sujet et groupe verbal) ainsi que ses constituants facultatifs. Des exemples et exercices permettent de distinguer ces éléments.",
+  "lesson": "# La phrase et ses constituants\n\n## Définition\nLa phrase est un ensemble de mots qui a un sens. Elle commence à l'écrit par une lettre majuscule et se termine par un point (exclamation !, interrogation ?, point simple .). À l'oral, elle est marquée par une intonation qui peut varier.\n\n**Exemple :** Le chien mange de la viande.\n\n## I. Les constituants obligatoires de la phrase\nLa phrase de base comprend deux constituants obligatoires : le groupe nominal sujet (GNS) et le groupe verbal (GV).\n\n### A. Le groupe nominal sujet (GNS)\nLe GNS peut prendre plusieurs formes :\n- **Déterminant + nom** : Les soldats reviennent victorieux d'une bataille.\n- **Nom propre** : Marie étudie ses leçons.\n- **Pronom personnel** : Elles pleurent.\n- **Verbe à l'infinitif** : Aimer est primordial.\n- **Groupe nominal expansé** : La poupée de ma sœur chante des berceuses. / La poupée noire chante des berceuses. / La poupée qui est noire chante des berceuses.\n\n### B. Le groupe verbal (GV)\nLe GV peut être composé :\n- **D'un verbe seul** (verbe intransitif) : Il pleut. / Le soleil brille.\n- **D'un verbe et d'un complément d'objet** (verbe transitif + COD ou COI) : Les mécaniciens réparent la voiture de papa.\n- **De l'auxiliaire être et ses substituts + un attribut** : Il est intelligent. Il paraît intelligent…\n\n## II. Les constituants facultatifs de la phrase\nUn groupe facultatif est un ensemble de mots qui apporte de la précision à la phrase. On peut le supprimer ou le déplacer sans modifier le sens de la phrase.\n\n**Exemples :**\n- Ce pauvre homme s'est montré fort à cause de son sens de dignité. → À cause de son sens de dignité, ce pauvre homme s'est montré fort.\n- Heureuse, elle arrive à la soirée. / Elle arrive à la soirée heureuse.\n\nIl est le plus souvent un complément circonstanciel (de cause, de temps, de lieu, de manière, de conséquence, de but…) ou un adjectif qualificatif.\n\n## Exercices\n1) Distingue les constituants des phrases suivantes :\n- La fille du Talibet commence les cours.\n- Chaque jour, les feuilles tombent.\n- Les salles de classe sont propres.\n- Dans les sous-bois, l'épervier pourchasse ses proies.\n\n2) Donne la fonction des constituants facultatifs :\n- P1 : Les enfants jouent au football.\n- P2 : Chaque matin, mes parents et moi rendons visite à grand-mère.\n- P3 : Il a sauvé sa famille d'un naufrage en mer.\n- P4 : La jeune dame aimait son travail.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "francais",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'une phrase ?",
+      "options": [
+        "Un ensemble de mots qui a un sens",
+        "Un ensemble de mots sans ordre",
+        "Un groupe de mots sans ponctuation",
+        "Une suite de lettres majuscules"
+      ],
+      "answer": 0,
+      "explanation": "La phrase est un ensemble de mots qui a un sens."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Une phrase commence à l'écrit par une lettre majuscule et se termine par un point.",
+      "answer": true,
+      "explanation": "C'est la définition donnée dans le cours."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quels sont les deux constituants obligatoires de la phrase de base ?",
+      "options": [
+        "Le groupe nominal sujet et le groupe verbal",
+        "Le sujet et le complément circonstanciel",
+        "Le verbe et l'adjectif",
+        "Le déterminant et le nom"
+      ],
+      "answer": 0,
+      "explanation": "La phrase de base comprend le groupe nominal sujet et le groupe verbal."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans la phrase « Les soldats reviennent victorieux d'une bataille. », le GNS est :",
+      "options": [
+        "Les soldats",
+        "reviennent",
+        "victorieux",
+        "d'une bataille"
+      ],
+      "answer": 0,
+      "explanation": "Le GNS est constitué d'un déterminant + un nom : « Les soldats »."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle est la forme du GNS dans « Marie étudie ses leçons. » ?",
+      "options": [
+        "Un nom propre",
+        "Un pronom personnel",
+        "Un verbe à l'infinitif",
+        "Un groupe nominal expansé"
+      ],
+      "answer": 0,
+      "explanation": "« Marie » est un nom propre."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Dans « Elles pleurent. », le GNS est :",
+      "options": [
+        "Elles",
+        "pleurent",
+        "Elles pleurent",
+        "aucun"
+      ],
+      "answer": 0,
+      "explanation": "« Elles » est un pronom personnel sujet."
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Un verbe à l'infinitif peut être un groupe nominal sujet.",
+      "answer": true,
+      "explanation": "Exemple : Aimer est primordial."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Dans « La poupée de ma sœur chante des berceuses. », le GNS est :",
+      "options": [
+        "La poupée de ma sœur",
+        "La poupée",
+        "chante",
+        "des berceuses"
+      ],
+      "answer": 0,
+      "explanation": "C'est un groupe nominal expansé."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quand le GV est composé d'un verbe seul, le verbe est :",
+      "options": [
+        "intransitif",
+        "transitif",
+        "attributif",
+        "auxiliaire"
+      ],
+      "answer": 0,
+      "explanation": "Un verbe intransitif n'a pas besoin de complément d'objet."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Dans « Les mécaniciens réparent la voiture de papa. », le GV est :",
+      "options": [
+        "réparent la voiture de papa",
+        "réparent",
+        "la voiture de papa",
+        "Les mécaniciens"
+      ],
+      "answer": 0,
+      "explanation": "Le GV est composé du verbe et de son complément d'objet."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Un constituant facultatif peut être supprimé ou déplacé sans modifier le sens de la phrase.",
+      "answer": true,
+      "explanation": "C'est la définition du groupe facultatif."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Dans « Chaque jour, les feuilles tombent. », « Chaque jour » est :",
+      "options": [
+        "un complément circonstanciel de temps",
+        "un complément d'objet direct",
+        "un sujet",
+        "un attribut"
+      ],
+      "answer": 0,
+      "explanation": "Il indique le temps et peut être déplacé."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Dans « Il est intelligent. », le groupe verbal est composé de :",
+      "options": [
+        "auxiliaire être + attribut",
+        "verbe seul",
+        "verbe + COD",
+        "verbe + COI"
+      ],
+      "answer": 0,
+      "explanation": "« est » est l'auxiliaire être et « intelligent » est l'attribut."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Complétez : Un groupe facultatif est le plus souvent un complément ___________ ou un adjectif qualificatif.",
+      "answer": "circonstanciel",
+      "explanation": "Le cours mentionne : complément circonstanciel (de cause, de temps, etc.) ou adjectif qualificatif."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Dans « Heureuse, elle arrive à la soirée. », « Heureuse » est :",
+      "options": [
+        "un adjectif qualificatif",
+        "un complément circonstanciel de lieu",
+        "un sujet",
+        "un verbe"
+      ],
+      "answer": 0,
+      "explanation": "C'est un constituant facultatif de type adjectif qualificatif."
+    },
+    {
+      "id": "q16",
+      "type": "truefalse",
+      "prompt": "Dans « Le chien aboie. », le groupe verbal est composé d'un verbe seul.",
+      "answer": true,
+      "explanation": "« aboie » est un verbe intransitif."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quelle phrase contient un complément circonstanciel de cause ?",
+      "options": [
+        "Le pauvre est mort à cause de la misère qui le frappait.",
+        "Le chien du concierge effraie les enfants.",
+        "Evelyne est très intelligente.",
+        "Vous partez au supermarché chaque samedi."
+      ],
+      "answer": 0,
+      "explanation": "« à cause de la misère » exprime la cause."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "prompt": "Dans « Pendant des années, l'affreux gros chien noir du concierge de l'immeuble effrayait tous les enfants qui passaient devant la loge. », le GNS est : ___________",
+      "answer": "l'affreux gros chien noir du concierge de l'immeuble",
+      "explanation": "C'est un groupe nominal expansé sujet."
+    }
+  ]
+}

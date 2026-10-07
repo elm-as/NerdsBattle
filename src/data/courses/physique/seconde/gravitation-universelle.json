@@ -1,0 +1,70 @@
+{
+  "id": "physique-seconde-gravitation-universelle",
+  "title": "Gravitation universelle et pesanteur",
+  "summary": "Ce chapitre t'explique pourquoi les objets tombent, pourquoi la Lune tourne autour de la Terre et pourquoi ton poids varie selon l'endroit où tu te trouves. Comprendre la gravitation, c'est saisir une force fondamentale qui régit l'Univers, de la chute d'une pomme aux mouvements des planètes.",
+  "lesson": "## Introduction & Mise en situation\n\nPourquoi une pomme tombe-t-elle de l'arbre ? Pourquoi la Lune ne s'éloigne-t-elle pas de la Terre ? Pourquoi les astronautes flottent-ils dans l'espace ? Ces questions ont une réponse commune : la gravitation universelle. Cette force invisible, découverte par Isaac Newton au XVIIe siècle, explique à la fois la chute des objets sur Terre et le mouvement des astres. Elle est essentielle pour comprendre des phénomènes aussi variés que les marées, le lancement des satellites ou encore le poids des objets sur différentes planètes.\n\nDans ce cours, tu vas découvrir la loi de la gravitation universelle, apprendre à la distinguer de la pesanteur, et savoir calculer des forces et des poids. Ces notions sont fondamentales pour la suite de ta scolarité et te permettront de décrypter le monde qui t'entoure.\n\n## 1. Définitions et Principes Fondamentaux\n\n### 1.1 La gravitation universelle\n\nDeux corps possédant une masse exercent l'un sur l'autre une force d'attraction gravitationnelle. Cette force est toujours attractive, dirigée le long de la droite reliant les centres des deux corps.\n\n**Loi de Newton :** la valeur de la force gravitationnelle $F$ entre deux corps de masses $m_A$ et $m_B$ dont les centres sont distants de $d$ est :\n\n$$F = G \\cdot \\frac{m_A \\cdot m_B}{d^2}$$\n\navec :\n- $F$ : valeur de la force (en newtons, N)\n- $m_A$ et $m_B$ : masses des corps (en kilogrammes, kg)\n- $d$ : distance entre les centres (en mètres, m)\n- $G$ : constante universelle de gravitation, $G = 6,67 \\times 10^{-11} \\; \\text{N} \\cdot \\text{m}^2 \\cdot \\text{kg}^{-2}$\n\n**Représentation :** La force exercée par A sur B est notée $\\vec{F}_{A/B}$. Elle a pour direction la droite (AB), pour sens de A vers B, et pour norme $F$. On a $\\vec{F}_{A/B} = -\\vec{F}_{B/A}$ (principe des actions réciproques).\n\n### 1.2 La pesanteur terrestre\n\nLa pesanteur est la manifestation de la gravitation à la surface de la Terre. Tout objet de masse $m$ situé au voisinage de la Terre subit une force d'attraction gravitationnelle appelée **poids** $\\vec{P}$.\n\nLe poids est une force verticale, dirigée vers le centre de la Terre, de valeur :\n\n$$P = m \\cdot g$$\n\navec :\n- $P$ : poids (en N)\n- $m$ : masse de l'objet (en kg)\n- $g$ : intensité de la pesanteur (en N/kg ou m/s²). Sur Terre, $g \\approx 9,8 \\; \\text{N/kg}$.\n\n**Relation entre poids et gravitation :** En identifiant le poids à la force gravitationnelle exercée par la Terre sur l'objet, on peut écrire :\n\n$$m \\cdot g = G \\cdot \\frac{m \\cdot M_T}{R_T^2}$$\n\nd'où :\n\n$$g = G \\cdot \\frac{M_T}{R_T^2}$$\n\navec $M_T$ la masse de la Terre (environ $5,97 \\times 10^{24}$ kg) et $R_T$ son rayon (environ $6,37 \\times 10^6$ m). Cette formule montre que $g$ dépend de la masse et du rayon de la planète. Ainsi, sur la Lune, $g \\approx 1,6 \\; \\text{N/kg}$, donc un objet pèse environ 6 fois moins lourd que sur Terre.\n\n## 2. Propriétés et Méthodes d'application\n\n### 2.1 Calculer une force gravitationnelle\n\n**Méthode :**\n1. Identifier les deux corps et leurs masses.\n2. Mesurer ou donner la distance entre leurs centres.\n3. Appliquer la formule $F = G \\cdot \\frac{m_A \\cdot m_B}{d^2}$.\n4. Vérifier les unités (masses en kg, distance en m).\n\n**Exemple :** Calculer la force d'attraction entre la Terre ($m_T = 5,97 \\times 10^{24}$ kg) et la Lune ($m_L = 7,35 \\times 10^{22}$ kg) distantes de $d = 3,84 \\times 10^8$ m.\n\n$$F = 6,67 \\times 10^{-11} \\times \\frac{5,97 \\times 10^{24} \\times 7,35 \\times 10^{22}}{(3,84 \\times 10^8)^2}$$\n\nCalculons le numérateur : $5,97 \\times 7,35 \\times 10^{46} = 43,88 \\times 10^{46} = 4,388 \\times 10^{47}$.\n\nLe dénominateur : $(3,84 \\times 10^8)^2 = 14,7456 \\times 10^{16} = 1,47456 \\times 10^{17}$.\n\nDonc $F = 6,67 \\times 10^{-11} \\times \\frac{4,388 \\times 10^{47}}{1,47456 \\times 10^{17}} = 6,67 \\times 10^{-11} \\times 2,976 \\times 10^{30} \\approx 1,985 \\times 10^{20}$ N.\n\nLa force est d'environ $2,0 \\times 10^{20}$ N.\n\n### 2.2 Calculer le poids d'un objet\n\n**Méthode :**\n1. Connaître la masse de l'objet et l'intensité de la pesanteur $g$ du lieu.\n2. Appliquer $P = m \\cdot g$.\n\n**Exemple :** Quel est le poids d'un astronaute de masse 80 kg sur Terre et sur la Lune ?\n- Sur Terre : $P = 80 \\times 9,8 = 784$ N.\n- Sur la Lune : $P = 80 \\times 1,6 = 128$ N.\n\n### 2.3 Comparer poids et masse\n\nLa masse est une propriété intrinsèque de l'objet (quantité de matière), elle ne change pas. Le poids dépend du lieu (car $g$ varie). Une balance mesure la masse, un dynamomètre mesure le poids.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre masse et poids :** La masse s'exprime en kg, le poids en N. Ne pas dire « je pèse 60 kg » mais « ma masse est de 60 kg ».\n- **Oublier la constante G :** Dans la formule de gravitation, $G$ est indispensable ; ne pas l'oublier.\n- **Utiliser les mauvaises unités :** La distance doit être en mètres, pas en kilomètres. Penser à convertir.\n- **Confondre force et accélération :** La gravitation est une force, l'accélération de la pesanteur $g$ est une accélération.\n- **Ignorer que la force gravitationnelle est toujours attractive :** Elle ne peut pas être répulsive.\n- **Pour le poids, utiliser $g = 9,8$ N/kg, mais attention aux arrondis :** Parfois on utilise $g = 10$ N/kg pour simplifier, mais cela change le résultat.\n\n## Synthèse\n\n1. **Loi de gravitation universelle :** Deux corps massifs s'attirent avec une force proportionnelle au produit de leurs masses et inversement proportionnelle au carré de la distance : $F = G \\cdot \\frac{m_A \\cdot m_B}{d^2}$.\n2. **Poids et pesanteur :** Le poids d'un objet est $P = m \\cdot g$, où $g$ est l'intensité de la pesanteur (environ 9,8 N/kg sur Terre). La masse ne change pas, le poids dépend du lieu.\n3. **Application :** Savoir calculer une force gravitationnelle ou un poids, et comprendre que la pesanteur est une conséquence de la gravitation. Ces notions expliquent les marées, les orbites des satellites, et la différence de poids entre la Terre et la Lune.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "gravitation",
+    "pesanteur",
+    "newton",
+    "physique",
+    "seconde"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Deux corps de masses $m_1$ et $m_2$ sont distants de $d$. Si on double la distance entre eux, la force gravitationnelle devient :",
+      "options": [
+        "deux fois plus grande",
+        "quatre fois plus grande",
+        "deux fois plus petite",
+        "quatre fois plus petite"
+      ],
+      "answer": 3,
+      "explanation": "La force est inversement proportionnelle au carré de la distance : $F \\propto \\frac{1}{d^2}$. Si $d$ double, $d^2$ est multiplié par 4, donc $F$ est divisée par 4."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La masse d'un objet varie selon le lieu où il se trouve.",
+      "answer": false,
+      "explanation": "La masse est une propriété intrinsèque de l'objet, elle ne change pas. C'est le poids qui varie avec l'intensité de la pesanteur."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Calcule la force gravitationnelle entre deux objets de masses 100 kg et 200 kg distants de 10 m. Utilise $G = 6,67 \\times 10^{-11} \\; \\text{N·m}^2/\\text{kg}^2$. Donne le résultat en notation scientifique avec 2 chiffres significatifs (ex: 1.3e-8).",
+      "answer": "1.3e-8",
+      "explanation": "F = G * m1 * m2 / d² = 6,67e-11 * 100 * 200 / 100 = 6,67e-11 * 20000 / 100 = 6,67e-11 * 200 = 1,334e-8 N, arrondi à 1,3e-8 N."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Sur la Lune, l'intensité de la pesanteur est environ $g_L = 1,6 \\; \\text{N/kg}$. Quel est le poids d'un objet de masse 10 kg sur la Lune ?",
+      "options": [
+        "16 N",
+        "10 N",
+        "1,6 N",
+        "160 N"
+      ],
+      "answer": 0,
+      "explanation": "P = m * g = 10 * 1,6 = 16 N."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La force gravitationnelle exercée par la Terre sur la Lune a la même valeur que la force exercée par la Lune sur la Terre.",
+      "answer": true,
+      "explanation": "D'après le principe des actions réciproques, les deux forces ont même valeur, même direction, mais des sens opposés."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Un astronaute a une masse de 70 kg. Sur Terre, $g = 9,8 \\; \\text{N/kg}$. Calcule son poids en newtons (arrondi à l'unité).",
+      "answer": "686",
+      "explanation": "P = m * g = 70 * 9,8 = 686 N."
+    }
+  ]
+}

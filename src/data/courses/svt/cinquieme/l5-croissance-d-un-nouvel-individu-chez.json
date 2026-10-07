@@ -1,0 +1,105 @@
+{
+  "id": "svt-cinquieme-l5-croissance-d-un-nouvel-individu-chez",
+  "subjectId": "svt",
+  "levelId": "cinquieme",
+  "slug": "l5-croissance-d-un-nouvel-individu-chez",
+  "title": "Croissance des insectes : Criquet et Bombyx",
+  "summary": "Cette leçon de SVT de 5ème explore la croissance d'un nouvel individu chez les insectes, en comparant le développement du criquet (métamorphose incomplète) et du bombyx du mûrier (métamorphose complète). Les apprenants identifient les stades de développement, les différences morphologiques et les stratégies d'élevage ou de lutte contre ces insectes.",
+  "lesson": "# La croissance d'un nouvel individu chez les insectes\n\n## 1. Introduction et Problématique\nL'observation de photos montre qu'un jeune criquet grandit pour devenir adulte, tandis qu'une chenille (ver à soie) se transforme en papillon. Ce phénomène est appelé **croissance**. Le problème posé est : *Comment la croissance des insectes se fait-elle ?*\n\n## 2. Hypothèses\n- La croissance se fait par étapes.\n- La croissance se fait de différentes manières selon les espèces.\n\n## 3. Étude du Criquet (Métamorphose incomplète)\nLe criquet appartient à l'ordre des Orthoptères. Son développement est dit **à métamorphose incomplète** (ou anamorphose).\n- **Stades** : Œuf → Nymphes (ou larves) → Adulte.\n- **Caractéristiques** : Les nymphes ressemblent à l'adulte mais sont plus petites et n'ont pas d'ailes fonctionnelles. Elles subissent plusieurs mues pour atteindre la taille adulte.\n- **Exemple** : Le jeune criquet (nymphon) grandit progressivement sans changer de forme fondamentale.\n\n## 4. Étude du Bombyx du Mûrier (Métamorphose complète)\nLe bombyx appartient à l'ordre des Lépidoptères. Son développement est dit **à métamorphose complète** (ou holométabole).\n- **Stades** : Œuf → Larve (chenille) → Chrysalide (pupa) → Adulte (papillon).\n- **Caractéristiques** : La larve a une forme très différente de l'adulte. Elle se transforme en chrysalide (stade immobile) avant d'émerger en papillon.\n- **Exemple** : Le ver à soie tisse un cocon pour se transformer en chrysalide, puis en papillon.\n\n## 5. Comparaison des deux types de croissance\n| Caractéristique | Criquet (Métamorphose incomplète) | Bombyx (Métamorphose complète) |\n| :--- | :--- | :--- |\n| **Stades** | Œuf, Nymphes, Adulte | Œuf, Larve, Chrysalide, Adulte |\n| **Ressemblance** | Nymphes ressemblent à l'adulte | Larve diffère de l'adulte |\n| **Transformation** | Graduelle (mues) | Radicale (chrysalide) |\n\n## 6. Applications : Élever ou Combattre\n- **Élever** : Le bombyx est élevé pour la production de soie. Il faut fournir des feuilles de mûrier aux chenilles.\n- **Combattre** : Le criquet peut être nuisible pour les cultures. La lutte se fait souvent au stade larve (nymphon) car il est plus vulnérable.\n\n## Conclusion\nLa croissance d'un nouvel individu chez les insectes se fait par étapes. Elle peut être à métamorphose incomplète (criquet) ou complète (bombyx). Comprendre ces stades permet de mieux les élever ou de lutter contre eux.",
+  "estimatedMinutes": 15,
+  "tags": [
+    "svt",
+    "cinquieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "À quelle classe d'animaux appartiennent le criquet et le papillon ?",
+      "options": [
+        "Mammifères",
+        "Insectes",
+        "Reptiles",
+        "Oiseaux"
+      ],
+      "answer": 1,
+      "explanation": "Le criquet et le papillon sont des insectes."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le criquet subit une métamorphose __________.",
+      "answer": "1",
+      "explanation": "Le criquet a une métamorphose incomplète (anamorphose)."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quels sont les stades de développement du criquet ?",
+      "options": [
+        "Œuf, Larve, Chrysalide, Adulte",
+        "Œuf, Nymphes, Adulte",
+        "Œuf, Pupa, Adulte",
+        "Œuf, Chenille, Papillon"
+      ],
+      "answer": 1,
+      "explanation": "Le criquet passe par les stades œuf, nymphes et adulte."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Le bombyx du mûrier subit une métamorphose __________.",
+      "options": [
+        "incomplète",
+        "complète",
+        "partielle",
+        "nulle"
+      ],
+      "answer": 1,
+      "explanation": "Le bombyx a une métamorphose complète (holométabole)."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Le stade immobile de la métamorphose complète s'appelle la __________.",
+      "answer": "1",
+      "explanation": "La chrysalide (ou pupa) est le stade immobile entre la larve et l'adulte."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quelle est la différence principale entre la larve du bombyx et l'adulte ?",
+      "options": [
+        "La larve a des ailes",
+        "La larve a une forme très différente de l'adulte",
+        "L'adulte est plus petit",
+        "Ils sont identiques"
+      ],
+      "answer": 1,
+      "explanation": "Dans la métamorphose complète, la larve (chenille) diffère morphologiquement de l'adulte (papillon)."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Pourquoi étudie-t-on la croissance des insectes ?",
+      "options": [
+        "Pour les manger",
+        "Pour les élever ou les combattre",
+        "Pour les collectionner",
+        "Pour les observer uniquement"
+      ],
+      "answer": 1,
+      "explanation": "L'objectif est de savoir comment les élever (soie) ou les combattre (nuisibles)."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Le criquet est un insecte nuisible pour les __________.",
+      "answer": "1",
+      "explanation": "Les criquets dévorent les plantes cultivées."
+    }
+  ]
+}

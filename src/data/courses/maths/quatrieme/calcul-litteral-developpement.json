@@ -1,0 +1,70 @@
+{
+  "id": "maths-quatrieme-calcul-litteral-developpement",
+  "title": "Calcul littéral et développement",
+  "summary": "Ce chapitre t'apprend à manipuler les expressions algébriques avec des lettres, ce qui est essentiel pour résoudre des équations et modéliser des problèmes concrets. Maîtriser le développement te permettra de simplifier des calculs complexes et de préparer sereinement le BEPC.",
+  "lesson": "## Introduction & Mise en situation\n\nLe calcul littéral est un outil fondamental en mathématiques. Il permet de généraliser des règles, de modéliser des situations réelles (par exemple, calculer le coût total d'achats avec des prix variables) et de résoudre des équations. Dans ce chapitre, tu vas apprendre à développer des expressions algébriques, c'est-à-dire à transformer un produit en somme ou en différence. Cette compétence est indispensable pour la suite de ta scolarité, notamment en 3ème et au lycée.\n\n## 1. Définitions et Principes Fondamentaux\n\n- **Expression littérale** : une expression mathématique contenant des lettres (variables) qui représentent des nombres. Par exemple : $3x + 2$.\n- **Développer** : transformer un produit en une somme algébrique en utilisant la distributivité.\n- **Réduire** : regrouper les termes semblables (mêmes variables avec mêmes exposants).\n\n### La distributivité simple\n\nPour tous nombres $k$, $a$ et $b$ :\n\n$$k \\times (a + b) = k \\times a + k \\times b$$\n\nDe même, $k \\times (a - b) = k \\times a - k \\times b$.\n\n### La double distributivité\n\nPour tous nombres $a$, $b$, $c$, $d$ :\n\n$$(a + b)(c + d) = a \\times c + a \\times d + b \\times c + b \\times d$$\n\n## 2. Propriétés et Méthodes d'application\n\n### Méthode pour développer\n\n1. Applique la distributivité (simple ou double) en multipliant chaque terme de la première parenthèse par chaque terme de la seconde.\n2. Attention aux signes ! Utilise la règle des signes : $+ \\times + = +$, $+ \\times - = -$, $- \\times + = -$, $- \\times - = +$.\n3. Réduis l'expression en regroupant les termes semblables.\n\n### Exemple 1 : Distributivité simple\n\nDéveloppe $5(2x + 3)$ :\n\n$$5(2x + 3) = 5 \\times 2x + 5 \\times 3 = 10x + 15$$\n\n### Exemple 2 : Double distributivité\n\nDéveloppe $(x + 4)(x - 2)$ :\n\n$$(x + 4)(x - 2) = x \\times x + x \\times (-2) + 4 \\times x + 4 \\times (-2)$$\n$$= x^2 - 2x + 4x - 8 = x^2 + 2x - 8$$\n\n### Exemple 3 : Avec des coefficients négatifs\n\nDéveloppe $-3(2x - 5)$ :\n\n$$-3(2x - 5) = -3 \\times 2x + (-3) \\times (-5) = -6x + 15$$\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Oublier de multiplier tous les termes** : dans la double distributivité, veille à bien faire les 4 multiplications.\n- **Erreurs de signes** : lorsque tu multiplies un signe négatif, pense à la règle des signes. Par exemple, $-3(2x - 5)$ donne $-6x + 15$, pas $-6x - 15$.\n- **Confondre addition et multiplication** : $2x \\times 3x = 6x^2$ et non $6x$.\n- **Ne pas réduire** : après développement, regroupe toujours les termes semblables pour simplifier l'expression.\n\n## Synthèse\n\n1. Le développement repose sur la distributivité : $k(a+b) = ka + kb$ et $(a+b)(c+d) = ac + ad + bc + bd$.\n2. Applique la règle des signes à chaque multiplication.\n3. Réduis l'expression obtenue en regroupant les termes semblables.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "calcul littéral",
+    "développement",
+    "distributivité",
+    "4ème",
+    "BEPC"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la forme développée de $3(x + 2)$ ?",
+      "options": [
+        "$3x + 2$",
+        "$3x + 6$",
+        "$x + 6$",
+        "$3x + 5$"
+      ],
+      "answer": 1,
+      "explanation": "En appliquant la distributivité : $3 \\times x + 3 \\times 2 = 3x + 6$."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "$(a + b)^2 = a^2 + b^2$ est toujours vrai.",
+      "answer": false,
+      "explanation": "C'est faux. En réalité, $(a + b)^2 = a^2 + 2ab + b^2$."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Développe et réduis : $(x + 3)(x - 1)$. Résultat : $x^2 + \\_\\_ x - 3$.",
+      "answer": "2",
+      "explanation": "$(x + 3)(x - 1) = x^2 - x + 3x - 3 = x^2 + 2x - 3$, donc le coefficient de $x$ est 2."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la forme développée de $-2(4x - 3)$ ?",
+      "options": [
+        "$-8x - 6$",
+        "$-8x + 6$",
+        "$8x - 6$",
+        "$-8x + 3$"
+      ],
+      "answer": 1,
+      "explanation": "$-2 \\times 4x = -8x$ et $-2 \\times (-3) = +6$, donc $-8x + 6$."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Dans l'expression $5x \\times 3x$, le résultat est $15x^2$.",
+      "answer": true,
+      "explanation": "On multiplie les coefficients : $5 \\times 3 = 15$, et les variables : $x \\times x = x^2$, donc $15x^2$."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Développe : $7(3x - 2)$. Résultat : $\\_\\_ x - 14$.",
+      "answer": "21",
+      "explanation": "$7 \\times 3x = 21x$ et $7 \\times (-2) = -14$, donc $21x - 14$."
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "id": "allemand-quatrieme-l1-allemand-4eme-theme-2-lecon-1",
+  "subjectId": "allemand",
+  "levelId": "quatrieme",
+  "slug": "l1-allemand-4eme-theme-2-lecon-1",
+  "title": "Meine schöne Schule – Leçon de 4ème",
+  "summary": "Cette leçon de 4ème en allemand pour la Côte d’Ivoire guide les élèves à travers la description de leur école, l’utilisation d’adjectifs et de leurs contraires, la déclinaison des articles définis et indéfinis à l’accusatif, ainsi que la conjugaison de verbes simples au présent et au passé composé. Les activités incluent des exercices de compréhension, de production écrite et orale, et une évaluation sous forme de portrait de l’école et du professeur d’allemand.",
+  "lesson": "# Meine schöne Schule\n\n## Objectifs\n- Décrire une école et ses enseignants en allemand.\n- Utiliser correctement les adjectifs et leurs contraires.\n- Décliner les articles définis (der, die, das) et indéfinis (ein, eine) à l’accusatif.\n- Conjuguer les verbes *kaufen*, *lernen*, *machen* au présent et au passé composé.\n- Produire un texte cohérent avec articles et adjectifs.\n\n## 1. Introduction\n- Observation de la page illustrée (p. 31) : *Was siehst du an?*.\n- Lecture du texte **Auf dem Schulhof** (p. 34) : description de la cour.\n\n## 2. Vocabulaire\n| Mot | Français | Contraires |\n|-----|----------|------------|\n| sauber | propre | schmutzig |\n| schön | beau | hässlich |\n| nett | gentil | böse |\n| schnell | rapide | langsam |\n| schwer | difficile | leicht |\n\n## 3. Grammaire\n### 3.1 Articles définis à l’accusatif (p. 35)\n| Nominatif | Accusatif |\n|-----------|-----------|\n| der | den |\n| die | die |\n| das | das |\n\n### 3.2 Articles indéfinis à l’accusatif (p. 36)\n| Nominatif | Accusatif |\n|-----------|-----------|\n| ein | einen |\n| eine | eine |\n\n### 3.3 Conjugaison\n- **Présent** : *kaufen*, *lernen*, *machen*.\n- **Passé composé** : *gekauft*, *gelernt*, *gemacht*.\n\n## 4. Exercices\n1. Complétez les articles : *Siehst du …….. Lehrer?*.\n2. Répondez aux questions du dialogue **Auf dem Schulhof**.\n3. Écrivez un court paragraphe décrivant votre école en utilisant au moins trois adjectifs.\n4. Conjuguez *kaufen* au présent pour *ich* et *wir*.\n5. Formez deux phrases avec l’article indéfini à l’accusatif.\n\n## 5. Évaluation\n- **Portrait de l’école** : description écrite et orale.\n- **Portrait du professeur** : présentation et qualités.\n- **Aide au voisin** : explication des articles à l’accusatif.\n\n## 6. Ressources\n- www.Kurzetexte.de\n- Centre Culturel Allemand – matériel pédagogique.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "allemand",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel article est correct à l’accusatif pour le mot *Lehrer* (masculin) ?",
+      "options": [
+        "den",
+        "die",
+        "das",
+        "der"
+      ],
+      "answer": 0,
+      "explanation": "Le mot *Lehrer* est masculin; l’article défini à l’accusatif est *den*."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel est le contraire de *schön* ?",
+      "options": [
+        "hässlich",
+        "schmutzig",
+        "schnell",
+        "leicht"
+      ],
+      "answer": 0,
+      "explanation": "*Schön* signifie beau; son contraire est *hässlich*."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Conjuguez *kaufen* au présent pour *wir*.",
+      "options": [
+        "kauft",
+        "kaufen",
+        "kaufst",
+        "kaufe"
+      ],
+      "answer": 1,
+      "explanation": "La forme *kaufen* est utilisée pour *wir*."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel article indéfini à l’accusatif pour *Auto* (neutre) ?",
+      "options": [
+        "ein",
+        "eine",
+        "einen",
+        "das"
+      ],
+      "answer": 2,
+      "explanation": "Le neutre *Auto* à l’accusatif utilise *einen*."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel verbe est conjugué au passé composé dans la phrase : *Ich habe das Buch gekauft* ?",
+      "options": [
+        "kaufen",
+        "kauft",
+        "gekauft",
+        "kaufte"
+      ],
+      "answer": 2,
+      "explanation": "Le participe passé *gekauft* indique le passé composé."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel adjectif signifie *rapide* ?",
+      "options": [
+        "schnell",
+        "langsam",
+        "schmutzig",
+        "schön"
+      ],
+      "answer": 0,
+      "explanation": "*Schnell* signifie rapide."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Complétez : *Siehst du …….. Kind?*",
+      "options": [
+        "einen",
+        "eine",
+        "den",
+        "das"
+      ],
+      "answer": 0,
+      "explanation": "Le mot *Kind* est neutre; l’article indéfini à l’accusatif est *einen*."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel article défini à l’accusatif pour *Hausaufgabe* (féminin) ?",
+      "options": [
+        "die",
+        "das",
+        "den",
+        "der"
+      ],
+      "answer": 0,
+      "explanation": "*Hausaufgabe* est féminin; l’article défini à l’accusatif est *die*."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quelle phrase est correcte ?",
+      "options": [
+        "Ich kaufe das Buch.",
+        "Ich kaufe die Buch.",
+        "Ich kaufe den Buch.",
+        "Ich kaufe das Buch."
+      ],
+      "answer": 0,
+      "explanation": "Le mot *Buch* est neutre; l’article défini à l’accusatif est *das*."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est le contraire de *gut* ?",
+      "options": [
+        "schlecht",
+        "nett",
+        "streng",
+        "schwer"
+      ],
+      "answer": 0,
+      "explanation": "*Gut* signifie bien; son contraire est *schlecht*."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Conjuguez *machen* au présent pour *ich*.",
+      "options": [
+        "mache",
+        "machst",
+        "macht",
+        "machen"
+      ],
+      "answer": 0,
+      "explanation": "La forme *mache* est utilisée pour *ich*."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel article indéfini à l’accusatif pour *Tasche* (féminin) ?",
+      "options": [
+        "eine",
+        "einen",
+        "das",
+        "der"
+      ],
+      "answer": 0,
+      "explanation": "*Tasche* est féminin; l’article indéfini à l’accusatif est *eine*."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel verbe est conjugué au passé composé dans la phrase : *Wir haben das Auto gemacht* ?",
+      "options": [
+        "machen",
+        "gemacht",
+        "machte",
+        "machst"
+      ],
+      "answer": 1,
+      "explanation": "Le participe passé *gemacht* indique le passé composé."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Complétez : *Siehst du …….. Frau?*",
+      "options": [
+        "eine",
+        "einen",
+        "die",
+        "das"
+      ],
+      "answer": 0,
+      "explanation": "Le mot *Frau* est féminin; l’article indéfini à l’accusatif est *eine*."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel adjectif signifie *difficile* ?",
+      "options": [
+        "schwer",
+        "leicht",
+        "schnell",
+        "langsam"
+      ],
+      "answer": 0,
+      "explanation": "*Schwer* signifie difficile."
+    }
+  ]
+}

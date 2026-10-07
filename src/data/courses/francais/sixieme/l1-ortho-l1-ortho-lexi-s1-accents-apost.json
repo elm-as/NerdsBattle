@@ -1,0 +1,164 @@
+{
+  "id": "francais-sixieme-l1-ortho-l1-ortho-lexi-s1-accents-apost",
+  "subjectId": "francais",
+  "levelId": "sixieme",
+  "slug": "l1-ortho-l1-ortho-lexi-s1-accents-apost",
+  "title": "Orthographe lexicale : accents, apostrophe et élision",
+  "summary": "Cette leçon présente les règles d'utilisation des accents aigu, grave et circonflexe, ainsi que l'élision et l'apostrophe. Elle permet de corriger les fautes d'orthographe lexicale et de distinguer les homophones.",
+  "lesson": "# Orthographe lexicale : accents, apostrophe et élision\n\n## I. Les accents\n\nL'accent est un signe graphique placé sur une voyelle pour marquer un son. Il existe trois types d'accent en français :\n\n- L'accent aigu ;\n- L'accent grave ;\n- L'accent circonflexe.\n\n### 1. L'accent aigu\n\nL'accent aigu se met uniquement sur la lettre « e » (fermé).\n\n**Exemple :** école\n\n**NB :** On ne met pas d'accent sur la lettre « e » suivie :\n- d'une consonne doublée,\n- d'un « x »,\n- d'une syllabe avec un « e » muet à la fin,\n- ni devant f, r, d, z en fin de mot.\n\n**Exemples :** effet, clef, nez, pied.\n\n### 2. L'accent grave\n\nOn met l'accent grave sur :\n\n- la lettre « e » ouverte :\n  **Exemples :** grève ; sève\n- les lettres « a » ou « u » pour distinguer les homonymes.\n  **Exemple :** à (préposition) ≠ a (avoir) / où (adverbe ou pronom relatif) ≠ ou (conjonction de coordination)\n\n**NB :** on ne met pas d'accent grave quand la lettre « e » est suivie d'une consonne doublée.\n**Ex :** essentiel.\n\n### 3. L'accent circonflexe\n\nL'accent circonflexe se met sur cinq voyelles : a, e, i, o, u, sauf y.\n\n**Exemple :** pâte ; fête ; maître ; contrôle …\n\n## II. L'élision et l'apostrophe\n\n### 1. L'élision\n\nL'élision, c'est le fait d'enlever la voyelle finale d'un mot lorsque celui-ci est suivi d'un autre mot commençant par une voyelle ou par un « h » muet.\nEn général, elle est réalisée à l'aide de l'apostrophe à l'écrit.\n\n**Exemples :**\n- L'éléphant, l'honneur, l'homme…\n- C'est lui que j'appelais depuis.\n- Je l'ai vu.\n\nDans certains cas, l'élision n'est pas visible à l'écrit.\n**Exemple :** Elle ira à Paris.\n\n### 2. L'apostrophe\n\nL'apostrophe ['] sert à marquer l'élision, c'est-à-dire qu'elle remplace la voyelle effacée (amuïe) devant une autre voyelle.\n\n**Exemple :** L'aimable femme de mon oncle m'a remis un joli cadeau pour l'anniversaire de ma sœur.\n\n## Exercice\n\nRecopie ces mots en mettant l'accent aigu ou l'accent grave oubliés, si nécessaire.\n\nBenefice – un effort – eclater – la poesie – preau – une allee – un carnet – resumer – precieux – echelle – un caractere – critere.\n\n**Correction :**\nBénéfice – un effort – éclater – la poésie – préau – une allée – un carnet – résumer – précieux – échelle – caractère – critère.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "francais",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Combien de types d'accents existe-t-il en français ?",
+      "options": [
+        "Deux",
+        "Trois",
+        "Quatre",
+        "Cinq"
+      ],
+      "answer": 1,
+      "explanation": "Le document indique qu'il existe trois types d'accent : aigu, grave et circonflexe."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Sur quelle lettre se met uniquement l'accent aigu ?",
+      "options": [
+        "a",
+        "e",
+        "i",
+        "o"
+      ],
+      "answer": 1,
+      "explanation": "L'accent aigu se met uniquement sur la lettre « e » (fermé)."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Complétez : L'accent grave se met sur la lettre « e » ouverte, comme dans le mot ______.",
+      "answer": "grève",
+      "explanation": "Le document donne l'exemple « grève » pour l'accent grave sur le e ouvert."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel accent permet de distinguer les homonymes « a » et « à » ?",
+      "options": [
+        "L'accent aigu",
+        "L'accent grave",
+        "L'accent circonflexe",
+        "Aucun accent"
+      ],
+      "answer": 1,
+      "explanation": "L'accent grave sur « à » permet de le distinguer de « a » (avoir)."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Qu'est-ce que l'élision ?",
+      "options": [
+        "L'ajout d'une voyelle à la fin d'un mot",
+        "L'enlèvement de la voyelle finale d'un mot devant une voyelle ou un h muet",
+        "Le doublement d'une consonne",
+        "L'ajout d'un accent sur une voyelle"
+      ],
+      "answer": 1,
+      "explanation": "L'élision est le fait d'enlever la voyelle finale d'un mot lorsque celui-ci est suivi d'un autre mot commençant par une voyelle ou par un « h » muet."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Complétez : L'______ sert à marquer l'élision.",
+      "answer": "apostrophe",
+      "explanation": "L'apostrophe sert à marquer l'élision, en remplaçant la voyelle effacée."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Dans quel cas l'élision n'est-elle pas visible à l'écrit ?",
+      "options": [
+        "L'éléphant",
+        "L'honneur",
+        "Elle ira à Paris",
+        "Je l'ai vu"
+      ],
+      "answer": 2,
+      "explanation": "Le document donne l'exemple « Elle ira à Paris » où l'élision n'est pas visible à l'écrit."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel mot est correctement orthographié selon les règles des accents ?",
+      "options": [
+        "Ecole",
+        "École",
+        "Ècole",
+        "Êcole"
+      ],
+      "answer": 1,
+      "explanation": "Le document donne « école » comme exemple avec accent aigu."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Complétez : On ne met pas d'accent sur la lettre « e » suivie d'un « x », comme dans le mot ______.",
+      "answer": "nez",
+      "explanation": "Le document donne l'exemple « nez » pour le e suivi d'un z en fin de mot."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel accent se met sur les lettres « a » ou « u » pour distinguer les homonymes ?",
+      "options": [
+        "L'accent aigu",
+        "L'accent grave",
+        "L'accent circonflexe",
+        "Aucun"
+      ],
+      "answer": 1,
+      "explanation": "L'accent grave se met sur « a » ou « u » pour distinguer les homonymes, comme « à » et « a »."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel est l'exemple donné pour l'accent circonflexe sur la lettre « o » ?",
+      "options": [
+        "pâte",
+        "fête",
+        "maître",
+        "contrôle"
+      ],
+      "answer": 3,
+      "explanation": "Le document donne « contrôle » comme exemple d'accent circonflexe sur la lettre « o »."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Complétez : Dans l'exemple « L'aimable femme de mon oncle m'a remis un joli cadeau pour l'anniversaire de ma sœur », l'apostrophe marque l'______.",
+      "answer": "élision",
+      "explanation": "L'apostrophe sert à marquer l'élision, comme dans cet exemple."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quel mot de l'exercice prend un accent aigu sur le « e » ?",
+      "options": [
+        "Benefice",
+        "Eclater",
+        "Preau",
+        "Echelle"
+      ],
+      "answer": 1,
+      "explanation": "Dans la correction, « eclater » devient « éclater » avec accent aigu."
+    }
+  ]
+}

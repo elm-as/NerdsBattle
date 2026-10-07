@@ -1,0 +1,177 @@
+{
+  "id": "anglais-sixieme-l2-unite-6-lecon-2",
+  "subjectId": "anglais",
+  "levelId": "sixieme",
+  "slug": "l2-unite-6-lecon-2",
+  "title": "Anglais 6e - Food and Drinks: Fruits and Vegetables",
+  "summary": "Cette leçon apprend à nommer les fruits et légumes en anglais et à les comparer avec des adjectifs courts et longs. Elle enseigne aussi à exprimer des quantités avec some, any, a lot of et many.",
+  "lesson": "# Anglais 6e - Food and Drinks: Fruits and Vegetables\n\n## 1. Vocabulaire des fruits\n- Orange\n- Coconut\n- Guava\n- Apple\n- Papaya\n- Pineapple\n- Mango\n- Banana\n- Avocado\n- Lemon\n\n## 2. Vocabulaire des légumes\n- Aubergine\n- Cabbage\n- Carrot\n- Beans\n- Okra\n- Lettuce / Salad\n- Onion\n- Pepper\n- Tomato\n- Eggplant\n\n## 3. Comparer avec des adjectifs courts et longs\n\n### Adjectifs courts (1 syllabe)\nStructure : **adjectif + er + than**\n\nExemple :\n- An orange is **cheaper than** a mango. (cheap → cheaper)\n\n### Adjectifs longs (2 syllabes ou plus)\nStructure : **more + adjectif + than**\n\nExemple :\n- A banana is **more delicious than** a papaya. (delicious → more delicious)\n\n## 4. Exprimer des quantités : some, any, a lot of, many\n\n- **some** : dans les phrases affirmatives\n  - There are **some** tomatoes in the basin.\n- **any** : dans les phrases négatives et interrogatives\n  - Are there **any** tomatoes in the basin?\n  - There aren't **any** tomatoes.\n- **a lot of** : pour une grande quantité (dénombrables et indénombrables)\n  - There are **a lot of** tomatoes. (100 tomatoes)\n  - There is **a lot of** water.\n- **many** : pour les noms dénombrables uniquement\n  - There are **many** tomatoes.\n  - On ne dit pas : *many water*.\n\n## 5. Exemples supplémentaires\n- Is there **any** fruit in the fridge?\n- Yes, there are **some** fruits.\n- My father has **a lot of** fruits in his farm.\n- We must drink **a lot of** water.\n\n## 6. À retenir\n- Adjectif court + er + than\n- More + adjectif long + than\n- Some (affirmatif), any (négatif/interrogatif), a lot of (grande quantité), many (dénombrables)",
+  "estimatedMinutes": 10,
+  "tags": [
+    "anglais",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel fruit est un agrume ?",
+      "options": [
+        "Orange",
+        "Coconut",
+        "Guava",
+        "Apple"
+      ],
+      "answer": 0,
+      "explanation": "L'orange est un agrume, comme le citron."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'aubergine' en anglais ?",
+      "options": [
+        "Cabbage",
+        "Carrot",
+        "Aubergine",
+        "Beans"
+      ],
+      "answer": 2,
+      "explanation": "Aubergine se dit 'aubergine' en anglais."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la forme comparative correcte de 'cheap' ?",
+      "options": [
+        "cheaper",
+        "more cheap",
+        "cheapest",
+        "cheaply"
+      ],
+      "answer": 0,
+      "explanation": "Cheap est un adjectif court, donc on ajoute -er : cheaper."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "prompt": "Complétez : A banana is ……………… than a papaya. (delicious)",
+      "answer": "more delicious",
+      "explanation": "Delicious est un adjectif long, donc on utilise 'more delicious'."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel mot utilise-t-on dans une phrase interrogative pour exprimer une quantité ?",
+      "options": [
+        "some",
+        "any",
+        "a lot of",
+        "many"
+      ],
+      "answer": 1,
+      "explanation": "On utilise 'any' dans les questions et les négations."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Complétez : There are ……………… tomatoes in the basin. (100 tomatoes)",
+      "options": [
+        "any",
+        "some",
+        "a lot of",
+        "much"
+      ],
+      "answer": 2,
+      "explanation": "Pour une grande quantité, on utilise 'a lot of'."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Complétez : Is there ……………… fruit in the fridge?",
+      "answer": "any",
+      "explanation": "Dans une question, on utilise 'any'."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est le comparatif correct de 'big' ?",
+      "options": [
+        "bigger",
+        "more big",
+        "biggest",
+        "bigly"
+      ],
+      "answer": 0,
+      "explanation": "Big est un adjectif court, on double la consonne et on ajoute -er : bigger."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel légume est mentionné dans la leçon ?",
+      "options": [
+        "Cabbage",
+        "Mango",
+        "Banana",
+        "Papaya"
+      ],
+      "answer": 0,
+      "explanation": "Cabbage (chou) est un légume."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Complétez : My father has ……………… fruits in his farm. (beaucoup)",
+      "answer": "a lot of",
+      "explanation": "On utilise 'a lot of' pour une grande quantité."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quelle phrase est correcte ?",
+      "options": [
+        "Oranges are more cheap than apples.",
+        "Oranges are cheaper than apples.",
+        "Oranges are cheap than apples.",
+        "Oranges are cheapest than apples."
+      ],
+      "answer": 1,
+      "explanation": "Cheap est un adjectif court, donc on dit 'cheaper than'."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel fruit n'est pas mentionné dans la leçon ?",
+      "options": [
+        "Strawberry",
+        "Guava",
+        "Papaya",
+        "Avocado"
+      ],
+      "answer": 0,
+      "explanation": "Strawberry (fraise) n'est pas dans la liste des fruits de la leçon."
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "prompt": "Complétez : A pineapple is ……………… than a papaya. (delicious)",
+      "answer": "more delicious",
+      "explanation": "Delicious est un adjectif long, donc on utilise 'more delicious'."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Que signifie 'lettuce' ?",
+      "options": [
+        "Salade",
+        "Oignon",
+        "Tomate",
+        "Carotte"
+      ],
+      "answer": 0,
+      "explanation": "Lettuce signifie salade."
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "id": "maths-seconde-l2-cours-de-maths-2nde-a-by-m-tehua",
+  "subjectId": "maths",
+  "levelId": "seconde",
+  "slug": "l2-cours-de-maths-2nde-a-by-m-tehua",
+  "title": "Mathématiques Seconde – Échelles, Proportions, Pourcentages, PGCD et Équations linéaires",
+  "summary": "Cette leçon reprend les notions essentielles du programme de seconde : calcul d’échelle, utilisation des cartes, conversion de distances, pourcentages, fractions, recherche du PGCD et résolution d’équations du premier degré. Elle propose des explications claires, des exemples concrets et un ensemble de 18 questions d’évaluation (QCM, vrai/faux, remplissage).",
+  "lesson": "## 1. Échelle et conversion\n- **Définition** : l’échelle *e* d’un dessin ou d’une carte est le rapport entre une longueur sur le support et la longueur réelle.  \n  `e = longueur_sur_support / longueur_réelle`.\n- **Exemple** : 17 mm représente 0,85 m → `e = 17 mm / 850 mm = 1/50`. L’échelle est donc 1/50.\n- **Utilisation d’une carte** : si l’échelle est `1/100 000`, 1 mm sur la carte correspond à 100 m sur le terrain. Pour convertir une distance réelle *d* en distance sur la carte *d_c* : `d_c = d / 100 000` (en mm si *d* est en mm).\n\n## 2. Tableaux de proportionnalité\n| Route | Distance réelle (km) | Distance sur la carte (mm) |\n|-------|----------------------|----------------------------|\n| A‑B   | 12                   | 0,12                       |\n| B‑C   | 8                    | 0,08                       |\n| …     | …                    | …                          |\n*Remarque* : la distance sur la carte se calcule avec `d_c = (d_r × 1000) / 100 000 = d_r / 100` (mm).\n\n## 3. Pourcentages et fractions\n- **Conversion** : `pourcentage = fraction × 100` et `fraction = pourcentage / 100`.\n- **Exemple** : 75 % = 75/100 = 3/4 ; 10 % = 1/10.\n- **Applications** : remplir un tableau de correspondance entre fractions et pourcentages.\n\n## 4. Recherche du PGCD (Plus Grand Commun Diviseur)\n- **Méthode d’Euclide** : `PGCD(a,b) = PGCD(b, a mod b)` jusqu’à ce que le reste soit 0.\n- **Exemple** : PGCD(2520, 2646)\n  1. 2646 mod 2520 = 126\n  2. 2520 mod 126 = 0 → PGCD = 126.\n\n## 5. Équations du premier degré\n- Forme générale : `ax + b = 0`.\n- **Cas** :\n  - `a ≠ 0` → solution unique `x = -b/a`.\n  - `a = 0` et `b ≠ 0` → aucune solution (∅).\n  - `a = 0` et `b = 0` → toutes les réels (ℝ).\n- **Exemple** : `3x – 9 = 0` → `x = 3`.\n\n## 6. Domaine de définition d’une fonction\n- Pour une fonction donnée par son graphique, le domaine `Df` est l’ensemble des abscisses couvertes par la courbe.\n- Exemple : si la courbe est tracée de `x = -2` à `x = 5`, alors `Df = [-2 ; 5]`.\n\n---\n### Exercices d’application\nLes questions suivantes permettent de vérifier la maîtrise des concepts présentés.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est l’échelle du dessin où 17 mm représente 0,85 m ?",
+      "options": [
+        "1/5",
+        "1/50",
+        "1/500",
+        "1/0,5"
+      ],
+      "answer": 1,
+      "explanation": "e = 17 mm / 850 mm = 1/50."
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "prompt": "Si l’échelle d’une carte est 1/100 000, quelle distance sur la carte (en mm) correspond à 3 km réels ?",
+      "answer": "30",
+      "explanation": "3 km = 3 000 m = 3 000 000 mm ; d_c = 3 000 000 mm / 100 000 = 30 mm."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Sur une carte à l’échelle 1/100 000, 0,5 mm représente 50 m sur le terrain.",
+      "answer": true,
+      "explanation": "0,5 mm × 100 000 = 50 000 mm = 50 m."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle fraction correspond à 75 % ?",
+      "options": [
+        "3/4",
+        "7/10",
+        "75/100",
+        "1/2"
+      ],
+      "answer": 0,
+      "explanation": "75 % = 75/100 = 3/4."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "prompt": "Exprimez 10 % sous forme de fraction simplifiée.",
+      "answer": "1/10",
+      "explanation": "10 % = 10/100 = 1/10."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel est le PGCD de 2520 et 2646 ?",
+      "options": [
+        "126",
+        "42",
+        "84",
+        "168"
+      ],
+      "answer": 0,
+      "explanation": "Application de l’algorithme d’Euclide → PGCD = 126."
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Le PGCD de deux nombres premiers distincts est toujours 1.",
+      "answer": true,
+      "explanation": "Deux nombres premiers distincts n’ont aucun diviseur commun autre que 1."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Résolvez l’équation 5x + 15 = 0.",
+      "options": [
+        "x = -3",
+        "x = 3",
+        "x = -15",
+        "x = 0"
+      ],
+      "answer": 0,
+      "explanation": "5x = -15 → x = -3."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Donnez la solution de l’équation 0·x + 7 = 0.",
+      "answer": "∅",
+      "explanation": "0·x + 7 = 7 ≠ 0 → aucune solution."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "L’équation 0·x + 0 = 0 admet comme solution l’ensemble ℝ.",
+      "answer": true,
+      "explanation": "Tous les réels vérifient 0 = 0."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Sur le graphique d’une fonction, le domaine de définition est :",
+      "options": [
+        "L’ensemble des ordonnées",
+        "L’ensemble des abscisses où la courbe est définie",
+        "L’ensemble des points (x,y)",
+        "L’ensemble des valeurs de y"
+      ],
+      "answer": 1,
+      "explanation": "Le domaine correspond aux abscisses couvertes par la courbe."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Si le domaine de f est [-2 ; 5], quelle est la valeur minimale de x appartenant à Df ?",
+      "answer": "-2",
+      "explanation": "Le plus petit élément de l’intervalle [-2 ; 5] est -2."
+    },
+    {
+      "id": "q13",
+      "type": "truefalse",
+      "prompt": "Dans un tableau de proportionnalité, le rapport distance réelle / distance sur la carte est constant.",
+      "answer": true,
+      "explanation": "C’est la définition même de la proportionnalité."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Sur une carte à l’échelle 1/250 000, quelle distance sur la carte (mm) représente 12,5 km ?",
+      "options": [
+        "50",
+        "5",
+        "125",
+        "0,05"
+      ],
+      "answer": 0,
+      "explanation": "12,5 km = 12 500 m = 12 500 000 mm ; 12 500 000 / 250 000 = 50 mm."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Convertissez la fraction 9/12 en pourcentage.",
+      "answer": "75",
+      "explanation": "9/12 = 3/4 = 0,75 → 75 %."
+    },
+    {
+      "id": "q16",
+      "type": "truefalse",
+      "prompt": "Si a≠0, l’équation ax + b = 0 possède toujours exactement une solution réelle.",
+      "answer": true,
+      "explanation": "Solution unique x = -b/a."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quel est le résultat de 0,85 m exprimé en millimètres ?",
+      "options": [
+        "850",
+        "85",
+        "8 500",
+        "0,085"
+      ],
+      "answer": 0,
+      "explanation": "1 m = 1000 mm → 0,85 m = 850 mm."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "prompt": "Complétez la proportion : 17 mm / 0,85 m = x / 1 m. Quelle est la valeur de x (en mm) ?",
+      "answer": "20",
+      "explanation": "17/850 = x/1000 → x = 20 mm."
+    }
+  ]
+}

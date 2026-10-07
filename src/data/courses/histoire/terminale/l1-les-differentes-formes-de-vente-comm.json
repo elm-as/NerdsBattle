@@ -1,0 +1,160 @@
+{
+  "id": "histoire-terminale-l1-les-differentes-formes-de-vente-comm",
+  "subjectId": "histoire",
+  "levelId": "terminale",
+  "slug": "l1-les-differentes-formes-de-vente-comm",
+  "title": "Les formes de vente commerciale – MENA CI – Terminale",
+  "summary": "Ce document présente les principales formes de vente commerciale étudiées en terminale MENA CI. Il décrit la promesse de vente (synallagmatique et unilatérale), les ventes avec dédit et arrhes, le réméré, la vente avec déclaration de commande, la porte-fort, l’essai, l’échantillon, la vente au comptant et à terme. Chaque type est expliqué avec ses caractéristiques juridiques, ses conditions et ses conséquences pratiques.",
+  "lesson": "# Les formes de vente commerciale\n\n## 1. La promesse de vente\n\n- **Définition** : Avant-contrat où une personne s’engage à vendre un bien sous conditions acceptées par le bénéficiaire.\n- **Types** :\n  - *Synallagmatique* : engagement réciproque vendeur‑acheteur, vaut vente (art. 1589 cc).\n  - *Unilatérale* : seul le vendeur s’engage, aucune obligation de l’acheteur.\n\n## 2. Ventes avec dédit et arrhes\n\n- **Dédit** : somme versée pour se désengager du contrat.\n- **Arrhes** : somme versée lors de la formation du contrat, perdue si l’acheteur n’exécute pas. En cas d’inexécution du vendeur, double de la somme est exigé.\n\n## 3. Ventes à reméré\n\nLe vendeur peut reprendre la chose vendue sous conditions, dans un délai ne dépassant pas 5 ans, moyennant remboursement du prix et frais.\n\n## 4. Vente avec déclaration de commande\n\nProcédé où l’acquéreur, non souhaitant révéler son identité, fait conclure le contrat par une tierce personne.\n\n## 5. Promesse de porte‑fort\n\nEngagement d’une personne pour que tierce personne accomplisse une prestation. Le tiers n’est pas obligé, le porte‑fort l’est.\n\n## 6. Vente à l’essai\n\nVente conditionnée à l’essai de la chose. La vente devient définitive uniquement si l’acheteur accepte.\n\n## 7. Vente sur échantillon\n\nL’acheteur reçoit un échantillon. Si la marchandise livrée correspond, l’achat est obligatoire ; sinon, il peut se désister.\n\n## 8. Vente au comptant et à terme\n\n- **Au comptant** : paiement immédiat au moment de la livraison.\n- **À terme / à crédit** : livraison immédiate, paiement différé.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "histoire",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La promesse de vente synallagmatique vaut :",
+      "options": [
+        "Une promesse sans valeur juridique",
+        "Une vente effective",
+        "Un contrat de location",
+        "Un acte de donation"
+      ],
+      "answer": 1,
+      "explanation": "La promesse synallagmatique vaut vente, elle est donc juridiquement équivalente à un contrat de vente."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Dans une promesse de vente unilatérale, l’acheteur est obligé de conclure la vente.",
+      "answer": false,
+      "explanation": "Dans une promesse unilatérale, seul le vendeur s’engage ; l’acheteur n’est pas obligé."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le dédit permet à la partie qui se désengage de se ___.",
+      "answer": "dégager",
+      "explanation": "Le dédit est la somme versée pour se dégager du contrat."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel montant est exigé si le vendeur ne respecte pas son obligation dans le cas des arrhes ?",
+      "options": [
+        "La moitié de la somme versée",
+        "Le double de la somme versée",
+        "La même somme versée",
+        "Aucune somme"
+      ],
+      "answer": 1,
+      "explanation": "En cas d’inexécution du vendeur, l’acheteur peut exiger le double de la somme versée."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Le réméré permet au vendeur de reprendre la chose vendue sans délai.",
+      "answer": false,
+      "explanation": "Le réméré impose un délai maximal de 5 ans pour la reprise."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "La vente à l’essai devient définitive uniquement si :",
+      "options": [
+        "Le vendeur accepte l’essai",
+        "L’acheteur accepte la chose après essai",
+        "La marchandise est livrée",
+        "Le prix est payé immédiatement"
+      ],
+      "answer": 1,
+      "explanation": "La vente à l’essai ne devient définitive que si l’acheteur accepte la chose après l’essai."
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Dans une vente sur échantillon, l’acheteur est obligé d’acheter si la marchandise livrée diffère de l’échantillon.",
+      "answer": false,
+      "explanation": "Si la marchandise livrée diffère, l’acheteur peut se désister."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "La vente au comptant implique :",
+      "options": [
+        "Un paiement différé",
+        "Un paiement immédiat",
+        "Un paiement à terme",
+        "Un paiement en plusieurs fois"
+      ],
+      "answer": 1,
+      "explanation": "Au comptant, le paiement est immédiat au moment de la livraison."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "La vente à terme permet au vendeur de livrer immédiatement la marchandise.",
+      "answer": true,
+      "explanation": "Dans la vente à terme, la marchandise est livrée immédiatement, mais le paiement est différé."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Dans une promesse de porte‑fort, c’est le porte‑fort qui est ___.",
+      "answer": "engagé",
+      "explanation": "Le porte‑fort est la personne engagée à accomplir la prestation."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel est le rôle de la déclaration de commande ?",
+      "options": [
+        "Déclarer la vente à l’administration",
+        "Faire conclure le contrat par une tierce personne",
+        "Garantir le paiement immédiat",
+        "Établir un contrat de location"
+      ],
+      "answer": 1,
+      "explanation": "La déclaration de commande permet à une tierce personne de conclure le contrat pour le véritable acquéreur."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Dans une vente avec arrhes, l’acheteur ne perd pas la somme versée s’il ne conclut pas le contrat.",
+      "answer": false,
+      "explanation": "L’acheteur perd la somme versée s’il ne conclut pas le contrat."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Le délai maximal pour reprendre la chose vendue en réméré est de ___ ans.",
+      "answer": "5",
+      "explanation": "Le réméré ne peut excéder cinq ans."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel type de vente implique la remise d’un échantillon à l’acheteur ?",
+      "options": [
+        "Vente à l’essai",
+        "Vente sur échantillon",
+        "Vente au comptant",
+        "Vente à terme"
+      ],
+      "answer": 1,
+      "explanation": "La vente sur échantillon consiste à présenter un échantillon à l’acheteur."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "La promesse de vente unilatérale vaut vente.",
+      "answer": false,
+      "explanation": "Une promesse unilatérale ne vaut pas vente, car l’acheteur n’est pas obligé."
+    }
+  ]
+}

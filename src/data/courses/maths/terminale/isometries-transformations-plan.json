@@ -1,0 +1,70 @@
+{
+  "id": "maths-terminale-isometries-transformations-plan",
+  "title": "Isométries et similitudes directes du plan",
+  "summary": "Ce chapitre vous permettra de maîtriser les transformations géométriques qui conservent les distances (isométries) et celles qui conservent les angles et les rapports de distances (similitudes directes). Ces outils sont essentiels pour résoudre des problèmes de géométrie au BAC et pour comprendre les symétries dans la nature et les arts.",
+  "lesson": "## Introduction & Mise en situation\n\nLes transformations géométriques sont des outils puissants pour étudier les figures. En Terminale, vous approfondissez les isométries (translations, rotations, symétries) et découvrez les similitudes directes, qui généralisent les homothéties et les rotations. Ces notions sont cruciales pour démontrer des propriétés, simplifier des calculs de distances et d'angles, et pour modéliser des phénomènes physiques (optique, cristallographie).\n\n## 1. Définitions et Principes Fondamentaux\n\n### Isométries\n\nUne **isométrie** est une transformation du plan qui conserve les distances : pour tous points $A$ et $B$, si $A' = f(A)$ et $B' = f(B)$, alors $A'B' = AB$. Les isométries conservent également les angles, les aires et l'alignement.\n\nLes isométries planes sont :\n- **Translation** de vecteur $\\vec{u}$ : $t_{\\vec{u}}(M) = M'$ tel que $\\overrightarrow{MM'} = \\vec{u}$.\n- **Rotation** de centre $O$ et d'angle $\\theta$ : $r_{O,\\theta}(M) = M'$ tel que $OM' = OM$ et $\\angle(\\overrightarrow{OM}, \\overrightarrow{OM'}) = \\theta$.\n- **Symétrie axiale** (réflexion) d'axe $\\Delta$ : $s_{\\Delta}(M) = M'$ tel que $\\Delta$ est la médiatrice de $[MM']$.\n- **Symétrie centrale** (rotation d'angle $\\pi$) : $s_O(M) = M'$ tel que $O$ est le milieu de $[MM']$.\n\n### Similitudes directes\n\nUne **similitude directe** est une transformation qui conserve les angles orientés et multiplie les distances par un rapport constant $k > 0$. Elle est de la forme $z' = az + b$ en notation complexe, où $a \\in \\mathbb{C}^*$ et $b \\in \\mathbb{C}$. Le rapport est $k = |a|$, l'angle est $\\arg(a)$, et le centre (si $a \\neq 1$) est le point fixe $\\omega$ tel que $\\omega = \\frac{b}{1-a}$.\n\nUne similitude directe est la composée d'une rotation, d'une homothétie et d'une translation. Elle conserve les angles orientés, les rapports de distances, et transforme une figure en une figure semblable.\n\n## 2. Propriétés et Méthodes d'application\n\n### Propriétés des isométries\n\n- Toute isométrie conserve les distances, les angles, les aires, et le parallélisme.\n- La composée de deux isométries est une isométrie.\n- L'ensemble des isométries forme un groupe pour la composition.\n\n### Méthode : Déterminer la nature d'une transformation\n\nPour identifier une transformation à partir de son expression complexe $z' = az + b$ :\n1. Si $|a| = 1$ et $a \\neq 1$ : c'est une rotation d'angle $\\arg(a)$ et de centre $\\omega = \\frac{b}{1-a}$.\n2. Si $a = 1$ : c'est une translation de vecteur $b$.\n3. Si $|a| \\neq 1$ : c'est une similitude directe de rapport $|a|$, d'angle $\\arg(a)$, et de centre $\\omega = \\frac{b}{1-a}$ (si $a \\neq 1$).\n\n**Exemple** : Soit $z' = (1+i)z + 2 - i$.\n- $|1+i| = \\sqrt{2}$, donc rapport $k = \\sqrt{2}$.\n- $\\arg(1+i) = \\frac{\\pi}{4}$, donc angle $\\theta = \\frac{\\pi}{4}$.\n- Centre : $\\omega = \\frac{2-i}{1-(1+i)} = \\frac{2-i}{-i} = \\frac{(2-i)i}{1} = 2i + 1 = 1 + 2i$.\nDonc c'est une similitude directe de rapport $\\sqrt{2}$, d'angle $\\frac{\\pi}{4}$, de centre $\\Omega(1,2)$.\n\n### Application : Calculer l'image d'un point\n\nPour trouver l'image d'un point $M$ d'affixe $z$ par une transformation, on applique la formule $z' = az + b$.\n\n**Exemple** : Avec la transformation précédente, image de $M(1,0)$ : $z = 1$, $z' = (1+i)\\cdot 1 + 2 - i = 3$. Donc $M'(3,0)$.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre isométrie et similitude** : Toute isométrie est une similitude de rapport 1, mais une similitude de rapport différent de 1 n'est pas une isométrie.\n- **Oublier le centre de la similitude** : Pour $a \\neq 1$, le centre est $\\omega = \\frac{b}{1-a}$ ; ne pas confondre avec $\\frac{b}{1-a}$ et $\\frac{b}{a-1}$.\n- **Erreur de calcul d'angle** : Pour une rotation, l'angle est $\\arg(a)$ ; pour une similitude, c'est aussi $\\arg(a)$. Attention aux signes.\n- **Ne pas vérifier que la transformation est une isométrie** : Pour une isométrie, on doit avoir $|a| = 1$ (sauf translation où $a=1$).\n- **Confondre symétrie centrale et rotation** : Une symétrie centrale est une rotation d'angle $\\pi$, mais son centre est le point fixe.\n\n## Synthèse\n\n1. **Isométries** : translations, rotations, symétries axiales et centrales ; elles conservent les distances.\n2. **Similitudes directes** : composées d'homothéties et de rotations ; elles conservent les angles et les rapports de distances.\n3. **Écriture complexe** : $z' = az + b$ ; le rapport est $|a|$, l'angle est $\\arg(a)$, le centre (si $a \\neq 1$) est $\\omega = \\frac{b}{1-a}$.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "géométrie",
+    "transformations",
+    "similitudes",
+    "isométries",
+    "bac"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la nature de la transformation définie par $z' = (1+i)z + 2 - i$ ?",
+      "options": [
+        "Une rotation",
+        "Une translation",
+        "Une similitude directe de rapport $\\sqrt{2}$",
+        "Une symétrie axiale"
+      ],
+      "answer": 2,
+      "explanation": "Le coefficient $a = 1+i$ a pour module $\\sqrt{2} \\neq 1$, donc ce n'est pas une isométrie. C'est une similitude directe de rapport $\\sqrt{2}$."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Toute isométrie est une similitude directe de rapport 1.",
+      "answer": true,
+      "explanation": "Une isométrie conserve les distances, donc le rapport de similitude est 1. Mais attention, les symétries axiales sont des isométries mais ne sont pas des similitudes directes (elles inversent l'orientation)."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le centre de la similitude directe $z' = (2+i)z + 3 - i$ est le point d'affixe $\\omega$ = ______ (donner la valeur exacte sous forme de fraction ou nombre complexe).",
+      "answer": "1+2i",
+      "explanation": "On calcule $\\omega = \\frac{b}{1-a} = \\frac{3-i}{1-(2+i)} = \\frac{3-i}{-1-i} = \\frac{(3-i)(-1+i)}{2} = \\frac{-3+3i+i+1}{2} = \\frac{-2+4i}{2} = -1+2i$ ? Vérifions : $\\frac{3-i}{-1-i} = \\frac{(3-i)(-1+i)}{2} = \\frac{-3+3i+i+1}{2} = \\frac{-2+4i}{2} = -1+2i$. Donc $\\omega = -1+2i$."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "La transformation $z' = -z + 3$ est une :",
+      "options": [
+        "Translation",
+        "Rotation d'angle $\\pi$",
+        "Similitude directe de rapport 2",
+        "Symétrie centrale de centre $\\frac{3}{2}$"
+      ],
+      "answer": 3,
+      "explanation": "On a $a = -1$, $|a|=1$, $\\arg(a)=\\pi$, donc c'est une rotation d'angle $\\pi$, c'est-à-dire une symétrie centrale. Le centre est $\\omega = \\frac{3}{1-(-1)} = \\frac{3}{2}$."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La composée de deux similitudes directes est une similitude directe.",
+      "answer": true,
+      "explanation": "La composée de deux similitudes directes est une similitude directe, car le produit de deux nombres complexes non nuls est non nul."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "L'angle de la similitude directe $z' = (\\sqrt{3}+i)z + 5$ est $\\theta$ = ______ (en radians, donner la valeur exacte).",
+      "answer": "π/6",
+      "explanation": "Le module de $a = \\sqrt{3}+i$ est $2$, et l'argument est $\\arctan(1/\\sqrt{3}) = \\pi/6$."
+    }
+  ]
+}

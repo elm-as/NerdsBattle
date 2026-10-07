@@ -1,0 +1,70 @@
+{
+  "id": "physique-terminale-acides-carboxyliques-esters",
+  "title": "Estérification, hydrolyse et saponification",
+  "summary": "Découvrez les réactions clés qui transforment les acides carboxyliques en esters et inversement, avec des applications concrètes comme la synthèse des arômes et la fabrication du savon. Maîtrisez les conditions d'équilibre et les rendements pour exceller au BAC.",
+  "lesson": "## Introduction & Mise en situation\n\nLes esters sont des composés organiques responsables de nombreux arômes naturels (fruits, fleurs) et sont largement utilisés dans l'industrie agroalimentaire et cosmétique. Comprendre leur formation (estérification) et leur transformation (hydrolyse, saponification) est essentiel pour expliquer des phénomènes de la vie courante, comme la préparation d'arômes en cuisine ou la fabrication du savon. Ce chapitre est un classique du BAC : les réactions d'estérification et d'hydrolyse sont souvent étudiées à travers l'équilibre chimique et le rendement.\n\n## 1. Définitions et Principes Fondamentaux\n\n### Acide carboxylique et alcool\nUn acide carboxylique contient le groupe fonctionnel $\\ce{-COOH}$ (carboxyle). Un alcool contient le groupe hydroxyle $\\ce{-OH}$.\n\n### Ester\nUn ester est un composé issu de la réaction entre un acide carboxylique et un alcool, avec élimination d'eau. Il contient le groupe fonctionnel $\\ce{-COO-}$.\n\n**Formule générale d'un ester :** $\\ce{R-COO-R'}$ où $\\ce{R}$ et $\\ce{R'}$ sont des groupes alkyles ou aryles.\n\n### Réaction d'estérification\nC'est la réaction entre un acide carboxylique et un alcool pour former un ester et de l'eau.\n\n**Équation générale :**\n$$\\ce{R-COOH + R'-OH <=> R-COO-R' + H2O}$$\n\nCette réaction est **lente, limitée (réversible)** et **athermique** (elle ne dégage ni n'absorbe de chaleur). Elle est catalysée par les acides forts (comme $\\ce{H2SO4}$).\n\n### Réaction d'hydrolyse\nC'est la réaction inverse de l'estérification : un ester réagit avec l'eau pour redonner un acide carboxylique et un alcool.\n\n**Équation générale :**\n$$\\ce{R-COO-R' + H2O <=> R-COOH + R'-OH}$$\n\nElle est également **lente, limitée** et athermique. Elle peut être catalysée par un acide ou une base.\n\n### Réaction de saponification\nC'est une hydrolyse basique d'un ester : l'ester réagit avec une solution d'hydroxyde de sodium (soude) ou de potassium (potasse) pour donner un carboxylate (savon) et un alcool.\n\n**Équation générale :**\n$$\\ce{R-COO-R' + (Na+ + OH-) -> R-COO- Na+ + R'-OH}$$\n\nCette réaction est **totale** (irréversible), **lente** mais peut être accélérée par chauffage.\n\n## 2. Propriétés et Méthodes d'application\n\n### Rendement d'une réaction\nLe rendement $\\eta$ est le rapport entre la quantité de produit obtenu et la quantité théorique maximale.\n\n$$\\eta = \\frac{n_{\\text{obtenu}}}{n_{\\text{théorique}}} \\times 100$$\n\nPour l'estérification, le rendement est souvent inférieur à 100% à cause de l'équilibre.\n\n### Méthode pour améliorer le rendement de l'estérification\nPour déplacer l'équilibre dans le sens de la formation de l'ester, on peut :\n- Utiliser un excès d'un réactif (souvent l'alcool, car moins coûteux).\n- Éliminer l'eau formée par distillation ou avec un agent déshydratant (ex : sulfate de magnésium).\n\n### Exemple concret : Synthèse de l'éthanoate d'éthyle\nOn fait réagir de l'acide éthanoïque ($\\ce{CH3COOH}$) avec de l'éthanol ($\\ce{C2H5OH}$) en présence d'acide sulfurique.\n\n**Équation :**\n$$\\ce{CH3COOH + C2H5OH <=> CH3COOC2H5 + H2O}$$\n\nSi on part de 1 mole d'acide et 1 mole d'alcool, à l'équilibre, on obtient environ 0,67 mole d'ester (rendement ≈ 67%). En utilisant un excès d'alcool (par exemple 2 moles), on peut augmenter le rendement à environ 85%.\n\n### Saponification : fabrication du savon\nOn chauffe un ester (ou un corps gras) avec une solution de soude concentrée. Par exemple, avec l'éthanoate d'éthyle :\n\n$$\\ce{CH3COOC2H5 + NaOH -> CH3COONa + C2H5OH}$$\n\nLe produit $\\ce{CH3COONa}$ est un savon (carboxylate de sodium). La réaction est totale, donc le rendement est de 100% si on utilise les quantités stoechiométriques.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre hydrolyse et saponification** : l'hydrolyse est une réaction avec l'eau (limitée), la saponification est une hydrolyse en milieu basique (totale).\n- **Oublier que l'estérification est réversible** : beaucoup d'élèves écrivent une flèche simple au lieu d'une double flèche.\n- **Négliger les conditions expérimentales** : l'estérification nécessite un catalyseur acide et un chauffage modéré ; la saponification nécessite une base forte et un chauffage.\n- **Calculer le rendement sans tenir compte des quantités initiales** : il faut toujours identifier le réactif limitant.\n- **Écrire les formules des esters de manière incorrecte** : vérifier que le groupe $\\ce{-COO-}$ est bien placé.\n\n## Synthèse\n\n1. **Estérification** : acide carboxylique + alcool $\\rightleftharpoons$ ester + eau, lente, limitée, athermique, catalysée par un acide.\n2. **Hydrolyse** : ester + eau $\\rightleftharpoons$ acide carboxylique + alcool, lente, limitée, athermique.\n3. **Saponification** : ester + base forte $\\rightarrow$ carboxylate (savon) + alcool, lente mais totale, irréversible.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "estérification",
+    "hydrolyse",
+    "saponification",
+    "esters",
+    "bac"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la caractéristique principale de la réaction d'estérification ?",
+      "options": [
+        "Elle est rapide et totale.",
+        "Elle est lente et limitée.",
+        "Elle est exothermique.",
+        "Elle ne nécessite pas de catalyseur."
+      ],
+      "answer": 1,
+      "explanation": "L'estérification est une réaction lente, limitée (équilibre) et athermique. Elle nécessite un catalyseur acide."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La saponification est une réaction totale.",
+      "answer": true,
+      "explanation": "La saponification est une hydrolyse basique qui est totale, car l'ion carboxylate formé est stabilisé par résonance et ne réagit pas avec l'alcool."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Dans la réaction d'estérification entre l'acide éthanoïque et l'éthanol, on obtient de l'éthanoate d'éthyle et de l'eau. Si on part de 0,5 mole d'acide et 0,5 mole d'alcool, et qu'à l'équilibre il se forme 0,3 mole d'ester, quel est le rendement (en %) ?",
+      "answer": "60",
+      "explanation": "Le rendement est (0,3 / 0,5) × 100 = 60%."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Pour augmenter le rendement d'une estérification, on peut :",
+      "options": [
+        "Ajouter de l'eau.",
+        "Éliminer l'ester formé.",
+        "Utiliser un excès d'alcool.",
+        "Diminuer la température."
+      ],
+      "answer": 2,
+      "explanation": "Selon le principe de Le Chatelier, un excès d'un réactif déplace l'équilibre dans le sens de la formation des produits. Éliminer l'eau serait aussi efficace, mais éliminer l'ester n'est pas pratique."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "L'hydrolyse d'un ester en milieu acide est une réaction totale.",
+      "answer": false,
+      "explanation": "L'hydrolyse en milieu acide est limitée (équilibre), contrairement à la saponification qui est totale."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Quel est le nom du composé formé lors de la saponification de l'éthanoate d'éthyle par la soude ? (Écrire la formule semi-développée du carboxylate de sodium)",
+      "answer": "CH3COONa",
+      "explanation": "La saponification donne de l'éthanoate de sodium (acétate de sodium) et de l'éthanol."
+    }
+  ]
+}

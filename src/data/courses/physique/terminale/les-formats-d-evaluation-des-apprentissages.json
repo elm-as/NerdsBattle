@@ -1,0 +1,173 @@
+{
+  "id": "physique-terminale-les-formats-d-evaluation-des-apprentissages",
+  "subjectId": "physique",
+  "levelId": "terminale",
+  "slug": "les-formats-d-evaluation-des-apprentissages",
+  "title": "Formats d'évaluation en Physique‑Chimie du premier et second cycle (MENA CI)",
+  "summary": "Ce cours décrit les différents formats d’interrogations écrites et de devoirs surveillés au premier et second cycle du système MENA en Côte d’Ivoire, incluant le BEPC, les niveaux de taxonomie, la répartition des points et la durée des épreuves.",
+  "lesson": "# Formats d'évaluation en Physique‑Chimie (MENA CI)\n\n## I – Premier cycle (6e, 5e, 4e, 3e)\n- **Interrogation écrite** :\n  - Tests objectifs et/ou subjectifs, à l’appréciation du professeur.\n  - 10 points, durée maximale 15 min.\n- **Devoir surveillé** :\n  - Exercice 1 : tests objectifs/subjectifs – 10 pts, 1 h.\n  - Exercice 2 : situation d’évaluation (physique ou chimie) – 10 pts, 1 h.\n  - Total : 20 pts, conforme au format du BEPC.\n- **Taxonomie** :\n  - Tests objectifs = connaissance/compréhension.\n  - Situation d’évaluation = application/analyse.\n\n## II – Format du BEPC\n- **Durée** : 2 h, notation sur 20 pts (12 pts physique, 8 pts chimie).\n- **Exercice 1** (physique + chimie) – 8 pts physique, 3 pts chimie = 11 pts ; items objectifs (QCM, Vrai/Faux, appariements…) ou subjectifs courts (phrases à compléter, réponses directes). Taxonomie : connaissance, compréhension, application.\n- **Exercice 2** – Situation d’évaluation en physique, 7 pts, réponses élaborées.\n- **Exercice 3** – Situation d’évaluation en chimie, 5 pts, réponses élaborées.\n- **Barème** : total 20 pts.\n\n## III – Second cycle (2nd A/C, 1ère A/C/D, Tle C/E/D)\n- **Interrogation écrite** : 10 pts, 15 min, tests objectifs/subjectifs.\n- **Devoir surveillé** :\n  - **2nd A** : 4 exercices (physique, chimie, physique, chimie) – points : 4 + 4 + 6 + 6 = 20 pts, 2 h.\n  - **2nd C** : points : 5 + 3 + 7 + 5 = 20 pts, 2 h.\n  - **1ère A** : même répartition, durée 1 h 30.\n  - **1ère C/D** : 5 + 3 + 7 + 5 = 20 pts, 2 h (classe) ou 3 h (niveau).\n  - **Tle C/D** : devoirs de niveau conformes au format du BAC.\n- **Taxonomie** : exercices 1‑2 (objectifs/subjectifs) – connaissance/compréhension ; exercices 3‑4 – réponses élaborées (application, analyse, synthèse).\n\n## Points clés à retenir\n- La répartition des points varie selon le niveau mais totalise toujours 20 pts au BEPC et aux devoirs du second cycle.\n- Les exercices de situation d’évaluation exigent des réponses développées.\n- Les tests objectifs utilisent des formats fermés (QCM, Vrai/Faux, appariements…).\n- La durée des épreuves est adaptée à la charge de travail attendue pour chaque niveau.",
+  "estimatedMinutes": 15,
+  "tags": [
+    "physique",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le nombre maximal de points pour une interrogation écrite au premier cycle ?",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "answer": 1,
+      "explanation": "L’interrogation écrite du premier cycle vaut 10 points."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le devoir surveillé du BEPC comporte trois exercices.",
+      "answer": true,
+      "explanation": "Le BEPC comprend trois exercices (ex1, ex2, ex3)."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Durée de l’épreuve du BEPC (en heures) :",
+      "answer": "2",
+      "explanation": "Le BEPC dure deux heures."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Combien de points sont attribués à l'exercice 2 (physique) du BEPC ?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 2,
+      "explanation": "Exercice 2 du BEPC vaut 7 points en physique."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Les exercices 3 et 4 du devoir surveillé en 2nd C sont des situations d’évaluation.",
+      "answer": true,
+      "explanation": "Exercices 3 et 4 sont des situations d’évaluation (physique et chimie)."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel type d’items figure dans l'exercice 1 du BEPC ?",
+      "options": [
+        "Essais pratiques",
+        "Questions à réponses courtes",
+        "Rédaction d’un rapport",
+        "Analyse de données expérimentales"
+      ],
+      "answer": 1,
+      "explanation": "Exercice 1 utilise des questions à réponses courtes (phrases à compléter, réponses directes)."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Nombre total de points d’un devoir surveillé en 1ère A :",
+      "answer": "20",
+      "explanation": "Tous les devoirs surveillés du second cycle sont notés sur 20 points."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quelle est la durée maximale d’une interrogation écrite au second cycle ?",
+      "options": [
+        "10 minutes",
+        "15 minutes",
+        "20 minutes",
+        "30 minutes"
+      ],
+      "answer": 1,
+      "explanation": "La durée maximale est de 15 minutes."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Les tests objectifs évaluent uniquement les niveaux taxonomiques de connaissance et de compréhension.",
+      "answer": true,
+      "explanation": "Les tests objectifs ciblent connaissance et compréhension."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est le poids de la partie chimie dans la notation du BEPC ?",
+      "options": [
+        "30 %",
+        "40 %",
+        "35 %",
+        "45 %"
+      ],
+      "answer": 0,
+      "explanation": "Le BEPC attribue 8 points sur 20 à la chimie, soit 40 %."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Points attribués à l'exercice 1 (physique) du devoir surveillé en 2nd A :",
+      "answer": "4",
+      "explanation": "Exercice 1 (physique) vaut 4 points."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Les devoirs de niveau en Tle D suivent le même format que le BAC.",
+      "answer": true,
+      "explanation": "Les devoirs de niveau sont conformes au format du BAC."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel niveau utilise une durée de 1 h 30 pour le devoir surveillé ?",
+      "options": [
+        "2nd A",
+        "1ère A",
+        "1ère C",
+        "Tle C"
+      ],
+      "answer": 1,
+      "explanation": "En 1ère A, le devoir surveillé dure 1 h 30."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Nombre d’exercices du devoir surveillé en 2nd C :",
+      "answer": "4",
+      "explanation": "Le devoir surveillé en 2nd C comporte quatre exercices."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "L'exercice 2 du devoir surveillé en 1ère C/D est un test objectif.",
+      "answer": true,
+      "explanation": "Exercice 2 (chimie) est un test objectif/subjectif."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel type d’habileté est évalué dans l'exercice 1 du BEPC ?",
+      "options": [
+        "Analyse de données",
+        "Synthèse de concepts",
+        "Application de lois physiques",
+        "Évaluation critique"
+      ],
+      "answer": 2,
+      "explanation": "Exercice 1 évalue l’application (et la connaissance/compréhension)."
+    }
+  ]
+}

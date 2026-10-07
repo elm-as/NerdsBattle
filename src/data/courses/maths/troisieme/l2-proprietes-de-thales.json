@@ -1,0 +1,184 @@
+{
+  "id": "maths-troisieme-l2-proprietes-de-thales",
+  "subjectId": "maths",
+  "levelId": "troisieme",
+  "slug": "l2-proprietes-de-thales",
+  "title": "Propriétés de Thalès dans le triangle",
+  "summary": "Découvre comment calculer des longueurs inaccessibles grâce à la propriété de Thalès. Maîtrise les configurations, la réciproque et la conséquence pour résoudre des problèmes concrets.",
+  "lesson": "# Propriétés de Thalès dans le triangle\n\n## Introduction\nLa propriété de Thalès est un outil fondamental en géométrie. Elle permet de calculer des distances inaccessibles ou de démontrer que des droites sont parallèles. Dans cette leçon, nous allons étudier la propriété directe, sa réciproque et sa conséquence, puis les appliquer à des situations concrètes.\n\n## 1. Définitions & Notions clés\n\n### Propriété de Thalès (directe)\nSoit ABC un triangle. Si M est un point de (AB) et N un point de (AC) tels que (MN) // (BC), alors :\n\\[ \\frac{AM}{AB} = \\frac{AN}{AC} \\]\n\n**Remarque** : On peut utiliser cette propriété pour calculer des distances ou justifier une égalité de quotients.\n\n### Configurations de Thalès\nLes trois figures suivantes sont appelées configurations de Thalès :\n- Figure 1 : M et N à l'intérieur des segments [AB] et [AC].\n- Figure 2 : M et N à l'extérieur, du même côté de A.\n- Figure 3 : M et N de part et d'autre de A.\n\nDans chaque cas, si (BC) // (MN), alors \\(\\frac{AM}{AB} = \\frac{AN}{AC}\\).\n\n### Réciproque de la propriété de Thalès\nSoit ABC un triangle, M un point de (AB) et N un point de (AC) tels que la position de M par rapport à A et B soit la même que celle de N par rapport à A et C. Si \\(\\frac{AM}{AB} = \\frac{AN}{AC}\\), alors (BC) // (MN).\n\n**Remarque** : La réciproque permet de démontrer que deux droites sont parallèles.\n\n### Conséquence de la propriété de Thalès\nSoit ABC un triangle, M un point de (AB) et N un point de (AC). Si (MN) // (BC), alors :\n\\[ \\frac{MN}{BC} = \\frac{AM}{AB} = \\frac{AN}{AC} \\]\n\n**Remarque** : Cette conséquence permet de calculer des distances, notamment la longueur MN.\n\n## 2. Applications & Méthodes\n\n### Calculer une longueur avec la propriété directe\n**Exemple** : Dans un triangle ABC, (BC) // (ED). On donne AE = 6, AD = 9, AB = 4. Calculer AC = x.\n\n**Solution** : D'après la propriété de Thalès, \\(\\frac{AB}{AE} = \\frac{AC}{AD}\\). Donc \\(\\frac{4}{6} = \\frac{x}{9}\\). On en déduit \\(6x = 36\\), soit \\(x = 6\\).\n\n### Démontrer que deux droites sont parallèles avec la réciproque\n**Exemple** : ABC est un triangle avec AB = 15, AC = 5. M ∈ [AC] tel que AM = 3, N ∈ [AB] tel que AN = 9. Montrer que (MN) // (CB).\n\n**Solution** : On calcule \\(\\frac{AM}{AC} = \\frac{3}{5}\\) et \\(\\frac{AN}{AB} = \\frac{9}{15} = \\frac{3}{5}\\). Donc \\(\\frac{AM}{AC} = \\frac{AN}{AB}\\). D'après la réciproque, (MN) // (CB).\n\n### Calculer une longueur avec la conséquence\n**Exemple** : Dans un triangle ABK, (AB) // (EF). On donne AK = 8, KF = 3, EF = 6. Calculer AB.\n\n**Solution** : D'après la conséquence, \\(\\frac{KF}{KA} = \\frac{EF}{AB}\\). Donc \\(\\frac{3}{8} = \\frac{6}{AB}\\). On en déduit \\(3 \\times AB = 48\\), soit \\(AB = 16\\).\n\n### Partager un segment en segments égaux\n**Méthode** : Pour partager [AB] en n segments égaux :\n1. Tracer une demi-droite [AX) différente de [AB).\n2. Placer n points régulièrement espacés sur [AX) à partir de A.\n3. Relier le dernier point à B.\n4. Tracer les parallèles à cette droite passant par les autres points.\nCes parallèles coupent [AB] en n segments égaux.\n\n## 3. Pièges fréquents\n- **Confondre les rapports** : Dans la propriété directe, on a \\(\\frac{AM}{AB} = \\frac{AN}{AC}\\), mais pas \\(\\frac{AM}{MB}\\) etc.\n- **Oublier la condition de parallélisme** : La propriété ne s'applique que si (MN) // (BC).\n- **Mauvaise utilisation de la réciproque** : Il faut vérifier que les points sont placés de la même façon sur les deux droites.\n- **Erreur dans les calculs de proportions** : Bien faire les produits en croix.\n\n## Synthèse\n- La propriété de Thalès permet de calculer des longueurs dans un triangle lorsque deux droites sont parallèles.\n- La réciproque permet de démontrer que deux droites sont parallèles.\n- La conséquence permet de calculer la longueur du segment parallèle.\n- Ces outils sont très utiles pour résoudre des problèmes concrets (hauteur d'un arbre, etc.).",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "troisieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans un triangle ABC, M ∈ (AB) et N ∈ (AC). Si (MN) // (BC), quelle égalité est vraie ?",
+      "options": [
+        "AM/AB = AN/AC",
+        "AM/AB = AC/AN",
+        "AM/AN = AB/AC",
+        "AM/AC = AN/AB"
+      ],
+      "answer": 0,
+      "explanation": "D'après la propriété de Thalès, si (MN) // (BC) alors AM/AB = AN/AC."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Compléter : Si (MN) // (BC) alors MN/BC = AM/AB = AN/____.",
+      "answer": "AC",
+      "explanation": "D'après la conséquence de la propriété de Thalès, MN/BC = AM/AB = AN/AC."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans un triangle ABC, on a (BC) // (ED). AE = 6, AD = 9, AB = 4. Que vaut AC ?",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "12"
+      ],
+      "answer": 0,
+      "explanation": "D'après Thalès, AB/AE = AC/AD => 4/6 = AC/9 => AC = 6."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Dans un triangle ABK, (AB) // (EF). AK = 8, KF = 3, EF = 6. Que vaut AB ?",
+      "options": [
+        "16",
+        "12",
+        "18",
+        "24"
+      ],
+      "answer": 0,
+      "explanation": "D'après la conséquence, KF/KA = EF/AB => 3/8 = 6/AB => AB = 16."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Dans la réciproque de la propriété de Thalès, si AM/AB = AN/AC alors les droites (MN) et (BC) sont ____.",
+      "answer": "parallèles",
+      "explanation": "La réciproque permet de conclure que (MN) // (BC)."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Pour partager un segment [AB] en 5 segments égaux, combien de points doit-on placer sur la demi-droite [AX) ?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "10"
+      ],
+      "answer": 1,
+      "explanation": "On place n points pour partager en n segments. Ici n=5."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Dans un triangle ABC, M ∈ [AB] et N ∈ [AC]. Si AM/AB = AN/AC, que peut-on conclure ?",
+      "options": [
+        "(MN) // (BC)",
+        "(MN) ⊥ (BC)",
+        "MN = BC",
+        "AM = AN"
+      ],
+      "answer": 0,
+      "explanation": "D'après la réciproque de Thalès, si AM/AB = AN/AC alors (MN) // (BC)."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Dans un triangle ABC, si (MN) // (BC), alors AM/AB = AN/AC = ____/BC.",
+      "answer": "MN",
+      "explanation": "D'après la conséquence, MN/BC = AM/AB = AN/AC."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Dans un triangle ABC, AB = 15, AC = 5. M ∈ [AC] avec AM = 3, N ∈ [AB] avec AN = 9. Que peut-on dire ?",
+      "options": [
+        "(MN) // (CB)",
+        "(MN) et (CB) sont sécantes",
+        "MN = CB",
+        "AM/AC = AN/AB"
+      ],
+      "answer": 0,
+      "explanation": "AM/AC = 3/5 et AN/AB = 9/15 = 3/5. Donc (MN) // (CB) d'après la réciproque."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Dans un triangle ABK, (AB) // (EF). AK = 8, KF = 3, EF = 6. Quelle égalité est correcte ?",
+      "options": [
+        "KF/KA = EF/AB",
+        "KF/KA = AB/EF",
+        "KA/KF = EF/AB",
+        "KF/EF = KA/AB"
+      ],
+      "answer": 0,
+      "explanation": "D'après la conséquence, KF/KA = EF/AB."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Dans un triangle ABC, si (MN) // (BC), alors AM/AB = AN/AC. Cette propriété est appelée propriété de ____.",
+      "answer": "Thalès",
+      "explanation": "C'est la propriété de Thalès."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Dans un triangle ABC, M ∈ (AB) et N ∈ (AC). Si (MN) // (BC), quelle égalité est fausse ?",
+      "options": [
+        "AM/AB = AN/AC",
+        "AM/MB = AN/NC",
+        "AB/AM = AC/AN",
+        "AM/AB = MN/BC"
+      ],
+      "answer": 1,
+      "explanation": "AM/MB = AN/NC n'est pas une égalité de Thalès. Les égalités correctes sont AM/AB = AN/AC et MN/BC = AM/AB."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Pour partager un segment [AB] en 3 segments égaux, on trace une demi-droite [AX) et on place 3 points. Ensuite, on relie le dernier point à B et on trace des parallèles. Combien de segments obtient-on sur [AB] ?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1,
+      "explanation": "On obtient 3 segments égaux."
+    },
+    {
+      "id": "q19",
+      "type": "fill",
+      "prompt": "Dans un triangle ABC, si (MN) // (BC), alors MN/BC = AM/AB = AN/AC. Cette égalité est appelée ____ de la propriété de Thalès.",
+      "answer": "conséquence",
+      "explanation": "C'est la conséquence de la propriété de Thalès."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Dans un triangle ABC, (BC) // (ED). AE = 6, AD = 9, AB = 4. Quelle est la valeur de AC ?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "answer": 0,
+      "explanation": "D'après Thalès, AB/AE = AC/AD => 4/6 = AC/9 => AC = 6."
+    }
+  ]
+}

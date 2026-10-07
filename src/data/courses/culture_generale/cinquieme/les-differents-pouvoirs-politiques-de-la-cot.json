@@ -1,0 +1,173 @@
+{
+  "id": "culture_generale-cinquieme-les-differents-pouvoirs-politiques-de-la-cot",
+  "subjectId": "culture_generale",
+  "levelId": "cinquieme",
+  "slug": "les-differents-pouvoirs-politiques-de-la-cot",
+  "title": "Les pouvoirs politiques de la Côte d’Ivoire",
+  "summary": "En Côte d’Ivoire, le pouvoir est partagé entre trois branches : exécutif (Président et gouvernement), législatif (députés) et judiciaire (magistrats). Chaque pouvoir a des fonctions précises – direction de l’État, élaboration des lois et garantie du respect du droit – et la séparation assure démocratie, paix sociale et développement.",
+  "lesson": "# Les trois pouvoirs politiques\n\n## Pouvoir exécutif\n- **Titulaire** : Président de la République et son gouvernement.\n- **Missions** : définir la politique nationale, organiser l’administration, commander les forces armées, déclencher la guerre.\n\n## Pouvoir législatif\n- **Titulaire** : Députés (parlementaires) élus par le peuple.\n- **Missions** : représenter les citoyens, voter les lois et le budget de l’État.\n\n## Pouvoir judiciaire\n- **Titulaire** : Magistrats des tribunaux.\n- **Missions** : veiller au respect des lois, punir les infractions, régler les conflits, arbitrer entre exécutif et législatif en cas de désaccord.\n\n# Importance de la séparation des pouvoirs\n- Garantit l’exercice de la démocratie.\n- Assure le respect de la Constitution.\n- Préserve la paix sociale.\n- Favorise le développement du pays.\n\n---\n*Cette leçon résume les fonctions essentielles de chaque pouvoir et explique pourquoi leur indépendance est cruciale pour la stabilité de la Côte d’Ivoire.*",
+  "estimatedMinutes": 10,
+  "tags": [
+    "culture_generale",
+    "cinquieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel organe exerce le pouvoir exécutif en Côte d’Ivoire ?",
+      "options": [
+        "Le Parlement",
+        "Le Président et son gouvernement",
+        "Le Conseil constitutionnel",
+        "Les magistrats"
+      ],
+      "answer": 1,
+      "explanation": "Le pouvoir exécutif est exercé par le Président de la République et son gouvernement."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Lequel des suivants n’est pas une fonction du pouvoir législatif ?",
+      "options": [
+        "Voter le budget de l’État",
+        "Définir la politique étrangère",
+        "Adopter les lois",
+        "Représenter le peuple"
+      ],
+      "answer": 1,
+      "explanation": "Définir la politique étrangère relève du pouvoir exécutif, pas du législatif."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Le pouvoir judiciaire peut déclencher la guerre en cas de conflit interne.",
+      "answer": false,
+      "explanation": "Seul le pouvoir exécutif est habilité à déclencher la guerre."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Le pouvoir exécutif est dirigé par le __________ de la République.",
+      "answer": "Président",
+      "explanation": "Le Président de la République est le chef du pouvoir exécutif."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Qui compose le pouvoir législatif en Côte d’Ivoire ?",
+      "options": [
+        "Les magistrats",
+        "Les députés",
+        "Les chefs de cabinet",
+        "Les préfets"
+      ],
+      "answer": 1,
+      "explanation": "Les députés, élus par le peuple, forment le pouvoir législatif."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Le pouvoir judiciaire veille au respect des lois et règle les conflits entre les citoyens.",
+      "answer": true,
+      "explanation": "C’est l’une des missions principales du pouvoir judiciaire."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quelle fonction n’appartient pas au pouvoir exécutif ?",
+      "options": [
+        "Commander l’armée",
+        "Voter les lois",
+        "Organiser l’administration",
+        "Déterminer la politique de la nation"
+      ],
+      "answer": 1,
+      "explanation": "Voter les lois est du ressort du pouvoir législatif."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Le pouvoir législatif vote les lois et le __________ de l’État.",
+      "answer": "budget",
+      "explanation": "Le budget de l’État est voté par le pouvoir législatif."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "La séparation des pouvoirs contribue à la préservation de la paix sociale.",
+      "answer": true,
+      "explanation": "Une séparation claire évite les abus de pouvoir et maintient la stabilité."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel rôle le pouvoir judiciaire joue‑t‑il en cas de conflit entre l’exécutif et le législatif ?",
+      "options": [
+        "Il prend parti pour l’exécutif",
+        "Il arbitre le différend",
+        "Il ignore le conflit",
+        "Il modifie la Constitution"
+      ],
+      "answer": 1,
+      "explanation": "Le judiciaire arbitre les conflits entre les deux autres pouvoirs."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Le Président de la République peut agir sans l’accord du Parlement pour déclencher une guerre.",
+      "answer": true,
+      "explanation": "Le texte indique que seul le Président est habilité à déclencher la guerre."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Les membres du pouvoir judiciaire sont appelés __________.",
+      "answer": "magistrats",
+      "explanation": "Les juges et magistrats composent le pouvoir judiciaire."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Parmi les objectifs de la séparation des pouvoirs, lequel concerne le développement du pays ?",
+      "options": [
+        "Arbitrage des conflits",
+        "Respect de la Constitution",
+        "Exercice de la démocratie",
+        "Développement du pays"
+      ],
+      "answer": 3,
+      "explanation": "La séparation favorise un cadre stable propice au développement."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Le pouvoir législatif représente le peuple et défend ses intérêts.",
+      "answer": true,
+      "explanation": "C’est la fonction principale du législatif."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel pouvoir est responsable de l’organisation de l’administration publique ?",
+      "options": [
+        "Judiciaire",
+        "Exécutif",
+        "Législatif",
+        "Municipal"
+      ],
+      "answer": 1,
+      "explanation": "L’exécutif organise et dirige l’administration."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "La séparation des pouvoirs assure le respect des dispositions de la __________.",
+      "answer": "constitution",
+      "explanation": "Le respect de la Constitution est garanti par la séparation des pouvoirs."
+    }
+  ]
+}

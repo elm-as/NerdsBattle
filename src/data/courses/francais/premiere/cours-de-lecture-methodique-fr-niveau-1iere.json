@@ -1,0 +1,167 @@
+{
+  "id": "francais-premiere-cours-de-lecture-methodique-fr-niveau-1iere",
+  "subjectId": "francais",
+  "levelId": "premiere",
+  "slug": "cours-de-lecture-methodique-fr-niveau-1iere",
+  "title": "Lecture Méthodique : Antigone de Jean Anouilh – Le personnage tragique",
+  "summary": "Cette séquence introduit l’œuvre Antigone (Anouilh, 1944) en situant l’auteur, sa bibliographie et le contexte historique et littéraire. Elle précise l’axe d’étude : le personnage tragique, puis propose une analyse du dialogue Ismène‑Antigone (pp.23‑25) et des activités d’évaluation.",
+  "lesson": "# I. Jean Anouilh et son œuvre\n## 1. Biographie\n- Né 1910 à Bordeaux, études de droit, puis publicité.\n- Secrétaire de Louis Jouvet (1928) → vocation théâtrale.\n- Première reconnaissance avec des pièces à succès, mélange de comédie et de pessimisme.\n- Adaptations modernes de tragédies grecques pendant l’Occupation (Antigone 1944, Eurydice 1942).\n- Défenseur du théâtre nouveau, proche de Beckett, Ionesco, etc.\n- Fin des années 60 : théâtre plus autobiographique.\n\n## 2. Bibliographie sélective\n| Catégorie | Exemples |\n|---|---|\n| Roses | *Le Muet*, *Le bal des voleurs* |\n| Noires | *L’hermine*, *La sauvage* |\n| Brillantes | *L’invitation au château*, *Colombe* |\n| Costumées | *Becket ou l’honneur de Dieu* |\n| Grinçantes | *Ardèle ou la Marguerite*, *La Valse des Toréadors* |\n\n# II. Contexte historique et littéraire\n- **Historique** : écrite 1942, jouée 04/02/1944 à l’Atelier, sous l’Occupation allemande.\n- **Littéraire** : s’inscrit dans le théâtre de l’absurde, reflet de l’absurdité de la guerre.\n\n# III. Axe d’étude\n**Le personnage tragique dans Antigone d’Anouilh** – comment Antigone incarne‑elle la figure du héros tragique confronté à la loi, à la famille et à la mort ?\n\n# IV. Analyse du texte : Ismène – Antigone (pp.23‑25)\n```text\nISMÉNE : Pourquoi parles‑tu d’autre chose ?\nANTIGONE : …\nISMÉNE : J’ai bien pensé toute la nuit. Tu es folle.\nANTIGONE : …\nISMÉNE : Nous ne pouvons pas.\nANTIGONE : Pourquoi ?\nISMÉNE : Il nous ferait mourir.\nANTIGONE : Bien sûr. A chacun son rôle…\n```\n- **Thèmes** : devoir familial vs. conscience, fatalité, rôle imposé.\n- **Figures de style** : répétition (« Oui »), antithèse, ellipsis.\n- **Implication tragique** : Antigone accepte son destin, Ismène hésite.\n\n# V. Synthèse pédagogique\n- Identifier les caractéristiques du personnage tragique (hamartia, anagnorisis, catharsis).\n- Mettre en relation le contexte historique avec la portée du texte.\n- Encourager la comparaison avec la version de Sophocle.\n\n---\n*Durée estimée : 10 minutes*",
+  "estimatedMinutes": 10,
+  "tags": [
+    "francais",
+    "premiere",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel événement historique coïncide avec la première représentation d’Antigone (Anouilh) en 1944 ?",
+      "options": [
+        "La Libération de la France",
+        "L’Occupation allemande",
+        "Le Printemps de Prague",
+        "La guerre d’Algérie"
+      ],
+      "answer": 1,
+      "explanation": "La pièce est jouée le 4 février 1944, alors que la France était encore sous occupation allemande."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Jean Anouilh a été le premier à introduire le théâtre de l’absurde en France.",
+      "answer": false,
+      "explanation": "Le théâtre de l’absurde est surtout associé à Ionesco et Beckett ; Anouilh y a contribué mais n’en est pas le pionnier."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Dans la bibliographie d’Anouilh, les pièces classées comme « noires » expriment principalement le _______.",
+      "answer": "pessimisme",
+      "explanation": "Les pièces noires reflètent le pessimisme et la critique sociale de l’auteur."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle caractéristique du personnage tragique Antigone apparaît dans le dialogue avec Ismène ?",
+      "options": [
+        "L’indifférence aux lois",
+        "La soumission totale à la famille",
+        "L’acceptation du destin fatal",
+        "Le désir de pouvoir"
+      ],
+      "answer": 2,
+      "explanation": "Antigone accepte le rôle imposé par la fatalité, illustrant la dimension tragique."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Antigone d’Anouilh a été écrite pendant la Seconde Guerre mondiale.",
+      "answer": true,
+      "explanation": "Elle a été écrite en 1942, pendant l’Occupation."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Le terme « hamartia » désigne le ______ du héros tragique.",
+      "answer": "défaut ou erreur fatale",
+      "explanation": "Hamartia est le défaut qui conduit le héros à sa chute."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Parmi les catégories de pièces d’Anouilh, laquelle regroupe *Becket ou l’honneur de Dieu* ?",
+      "options": [
+        "Pièces roses",
+        "Pièces brillantes",
+        "Pièces costumées",
+        "Pièces grinçantes"
+      ],
+      "answer": 2,
+      "explanation": "Becket est classée parmi les pièces costumées."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Dans le texte, Ismène encourage Antigone à suivre la loi de Créon.",
+      "answer": false,
+      "explanation": "Ismène exprime la peur et le doute, elle ne pousse pas Antigone à obéir."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Le style d’Anouilh se caractérise par une alternance entre le registre ______ et le registre ______.",
+      "answer": "comique, tragique",
+      "explanation": "Anouilh mêle souvent le comique au tragique."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel procédé stylistique est présent dans la réplique « Oui » répétée par Antigone ?",
+      "options": [
+        "Allitération",
+        "Anaphore",
+        "Métaphore",
+        "Hyperbole"
+      ],
+      "answer": 1,
+      "explanation": "La répétition du même mot constitue une anaphore."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "La pièce Antigone d’Anouilh se situe dans le même registre que la tragédie grecque originale de Sophocle.",
+      "answer": false,
+      "explanation": "Anouilh réinterprète le mythe dans un contexte moderne et absurde, différent du registre classique."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Le terme « catharsis » désigne la purification des émotions du public par la ______.",
+      "answer": "pitié et la peur",
+      "explanation": "Aristote définit la catharsis comme la libération de la pitié et de la peur."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel élément du contexte historique influence le thème de l’absurdité dans Antigone ?",
+      "options": [
+        "La Révolution française",
+        "La Première Guerre mondiale",
+        "L’Occupation allemande",
+        "La guerre d’Algérie"
+      ],
+      "answer": 2,
+      "explanation": "L’Occupation pendant la Seconde Guerre mondiale rend palpable l’absurdité de la guerre."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Anouilh a classé ses pièces selon le degré de pessimisme et d’hypocrisie.",
+      "answer": true,
+      "explanation": "Il les a réparties en roses, noires, brillantes, etc., selon ces critères."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Dans le dialogue, Antigone parle de « rôle » pour désigner le ______ imposé par la société.",
+      "answer": "destin",
+      "explanation": "Le rôle renvoie à la fonction tragique que la société attribue à Antigone."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel est le but pédagogique de l’axe d’étude proposé ?",
+      "options": [
+        "Comparer les versions d’Antigone",
+        "Analyser le personnage tragique",
+        "Étudier la mise en scène de 1944",
+        "Explorer le théâtre de l’absurde"
+      ],
+      "answer": 1,
+      "explanation": "L’axe vise à analyser le personnage tragique dans la pièce d’Anouilh."
+    }
+  ]
+}

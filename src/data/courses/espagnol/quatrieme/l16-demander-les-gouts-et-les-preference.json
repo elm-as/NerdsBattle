@@ -1,0 +1,213 @@
+{
+  "id": "espagnol-quatrieme-l16-demander-les-gouts-et-les-preference",
+  "subjectId": "espagnol",
+  "levelId": "quatrieme",
+  "slug": "l16-demander-les-gouts-et-les-preference",
+  "title": "Demander les goûts et préférences en espagnol (4ème)",
+  "summary": "Cette leçon aide les élèves de 4ème à exprimer et demander les goûts et préférences en espagnol. Elle couvre le vocabulaire clé, les expressions interrogatives, la conjugaison du verbe gustar et des activités pratiques pour renforcer la compréhension orale et écrite.",
+  "lesson": "# Demander les goûts et préférences (4ème)\n\n## Objectifs\n- Utiliser les expressions *¿Qué te gusta?*, *¿Te encanta?*, *¿Te interesa?* pour interroger sur les goûts.\n- Identifier les verbes *gustar*, *encantar*, *interesar* et leur construction.\n- Répondre aux questions en employant la bonne forme verbale.\n\n## Vocabulaire\n| Mot | Signification | Exemple |\n|-----|---------------|---------|\n| gusto | préférence, goût | *Me gusta el mango.* |\n| encantar | adorer | *Me encanta el fútbol.* |\n| interesar | intéresser | *Me interesan las matemáticas.* |\n\n## Grammaire\n- **Gustar** se construit avec le sujet *le* ou *la* (objet indirect) : *Me gusta el mango.*\n- **Encantar** et **interesar** suivent la même logique : *Me encanta el fútbol.* / *Me interesan las matemáticas.*\n- Les questions : *¿Qué te gusta?*, *¿Qué te encanta?*, *¿Te interesan las conversaciones por correo electrónico?*\n\n## Activités d’application\n1. **Écoute** : Visionner le clip *¿Qué te gusta?* (p.46) et noter les expressions.\n2. **Jeu de rôle** : En binôme, un élève demande les goûts de l’autre.\n3. **Écriture** : Rédiger un court paragraphe sur ses propres goûts.\n\n## Évaluation\n- **Situation 1** : À la fête d’anniversaire, interroger un ami sur ses goûts.\n- **Situation 2** : Après un film, demander ce que les camarades ont aimé.\n\n## Ressources supplémentaires\n- Fiche 1 : Exercices de correspondance.\n- Fiche 2 : Questions à répondre.\n- Fiche 3 : Exercices de réponses.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "espagnol",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le bon ordre des mots pour demander un goût en espagnol ?",
+      "options": [
+        "¿Qué te gusta?",
+        "¿Te gusta qué?",
+        "¿Qué gusta te?",
+        "¿Gusta te qué?"
+      ],
+      "answer": 0,
+      "explanation": "La structure correcte est *¿Qué te gusta?*."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Comment conjuguer *gustar* pour « je aime le chocolat » ?",
+      "options": [
+        "Me gusta el chocolate",
+        "Te gusta el chocolate",
+        "Le gusta el chocolate",
+        "Nos gusta el chocolate"
+      ],
+      "answer": 0,
+      "explanation": "Le sujet *me* indique que c’est moi qui aime."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "*Encantar* signifie « aimer » en français.",
+      "answer": false,
+      "explanation": "Encantar signifie « adorer »."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Complétez : *Me ___ las películas de acción.*",
+      "answer": "interesan",
+      "explanation": "Le verbe *interesar* se conjugue ici à la troisième personne pluriel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle phrase exprime une préférence pour le football ?",
+      "options": [
+        "Me gusta el fútbol",
+        "Me encanta el fútbol",
+        "Me interesa el fútbol",
+        "Me gusta el baloncesto"
+      ],
+      "answer": 1,
+      "explanation": "*Me encanta* exprime une forte préférence."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel est le complément d’objet indirect dans : *Me gusta la música* ?",
+      "options": [
+        "la música",
+        "Me",
+        "gusta",
+        "la"
+      ],
+      "answer": 0,
+      "explanation": "*la música* est l’objet qui plaît."
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "On peut dire *¿Te gusta el fútbol?* pour demander à un ami s’il aime le football.",
+      "answer": true,
+      "explanation": "C’est la forme interrogative correcte."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Complétez : *¿Qué ___ tú?* (préférences)",
+      "answer": "te gusta",
+      "explanation": "On demande les goûts avec *¿Qué te gusta?*."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Dans la phrase *Me interesan las matemáticas*, quel est le sujet grammatical ?",
+      "options": [
+        "Me",
+        "interesan",
+        "las matemáticas",
+        "las"
+      ],
+      "answer": 2,
+      "explanation": "Le sujet est *las matemáticas*."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quelle expression est correcte pour demander un plat préféré ?",
+      "options": [
+        "¿Qué te gusta de comer?",
+        "¿Qué te gusta comer?",
+        "¿Qué te gusta comer?",
+        "¿Qué te gusta comer?"
+      ],
+      "answer": 1,
+      "explanation": "La forme correcte est *¿Qué te gusta comer?*."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "*Me encanta la música* signifie « je n’aime pas la musique ».",
+      "answer": false,
+      "explanation": "Cela signifie « j'adore la musique »."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Complétez : *¿Te ___ las películas de terror?*",
+      "answer": "interesan",
+      "explanation": "Le verbe *interesar* à la troisième personne pluriel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel est le bon ordre pour demander les hobbies d’un camarade ?",
+      "options": [
+        "¿Qué hobbies tienes?",
+        "¿Tienes hobbies qué?",
+        "¿Qué tienes hobbies?",
+        "¿Tienes qué hobbies?"
+      ],
+      "answer": 0,
+      "explanation": "La structure correcte est *¿Qué hobbies tienes?*."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "On peut dire *¿Te gusta la comida?* pour demander si quelqu’un aime la nourriture.",
+      "answer": true,
+      "explanation": "C’est une question valide."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Complétez : *Me ___ la lectura.*",
+      "answer": "encanta",
+      "explanation": "Le verbe *encantar* se conjugue ici à la troisième personne singulier."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel verbe exprime l’intérêt pour un sujet ?",
+      "options": [
+        "gustar",
+        "encantar",
+        "interesar",
+        "gustar"
+      ],
+      "answer": 2,
+      "explanation": "*Interesar* signifie « intéresser »."
+    },
+    {
+      "id": "q17",
+      "type": "truefalse",
+      "prompt": "*¿Te gusta el chocolate?* est une question affirmative.",
+      "answer": false,
+      "explanation": "C’est une question, pas une affirmation."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "prompt": "Complétez : *¿Qué ___ tú?* (préférences)",
+      "answer": "te gusta",
+      "explanation": "On demande les goûts avec *¿Qué te gusta?*."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Dans *Me encanta la música*, quel est le sujet grammatical ?",
+      "options": [
+        "Me",
+        "encanta",
+        "la música",
+        "la"
+      ],
+      "answer": 2,
+      "explanation": "Le sujet est *la música*."
+    },
+    {
+      "id": "q20",
+      "type": "truefalse",
+      "prompt": "On peut dire *¿Te gusta la película?* pour demander si quelqu’un aime le film.",
+      "answer": true,
+      "explanation": "C’est une question correcte."
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "id": "culture_generale-quatrieme-l3-edhc-4eme-l-3-les-instruments-et-les",
+  "subjectId": "culture_generale",
+  "levelId": "quatrieme",
+  "slug": "l3-edhc-4eme-l-3-les-instruments-et-les",
+  "title": "Les instruments, mécanismes et lutte contre les discriminations – MENA CI 4e",
+  "summary": "Ce document expose les formes de discrimination, les instruments et mécanismes de promotion et protection des droits de l’Homme, les voies de recours et l’importance de ces outils pour lutter contre les discriminations. Il propose des activités d’application et d’évaluation pour consolider la compréhension des élèves de quatrième.",
+  "lesson": "# I‑Les discriminations\n\n1. **Définition** : traitement inégal et défavorable appliqué à certaines personnes en raison de leurs différences.\n\n2. **Formes** : origine, sexe, âge, religion, couleur de peau, position sociale, ethnie, état de santé, état physique ou mental, statut juridique (réfugiés).\n\n# II‑Instruments de promotion et protection des Droits de l’Homme\n\n- **Instruments internationaux** :\n  - Convention sur l’élimination de toutes les formes de discrimination raciale (1966)\n  - Déclaration Universelle des Droits de l’Homme (1948)\n  - Convention relative à l’élimination de toutes les formes de discrimination à l’égard des femmes\n- **Instruments nationaux** :\n  - Constitution ivoirienne (Novembre 2016)\n  - Loi contre les mutilations génitales\n  - Loi relative à la scolarisation obligatoire (5‑16 ans)\n\n# III‑Mécanismes de promotion et protection\n\n- **Internationaux** : Conseil des Droits de l’Homme des Nations Unies, Cour africaine des Droits de l’Homme et des peuples, Programme Alimentaire Mondial (PAM), UNICEF.\n- **Nationaux** : Conseil National des Droits de l’Homme de Côte‑d’Ivoire (CNDHCI), Ligue Ivoirienne des Droits de l’Homme (LIDHO), Secrétariat d’État des Droits de l’Homme, Ministère de la Femme, de la Famille et de l’Enfant, Association des Femmes juristes.\n\n# IV‑Voies de recours face aux discriminations\n\n- Plainte à la police ou à la gendarmerie\n- Tribunal de première instance et sections détachées\n- Cour d’appel\n- Cour de cassation\n\n# V‑Importance des instruments et mécanismes\n\n- Lutter contre toutes les formes de discriminations\n- Restaurer la dignité des victimes\n- Compenser les préjudices subis\n- Construire une société plus égalitaire\n\n# VI‑Activités d’application\n\n1. Cochez les affirmations vraies : profession, couleur de peau, sexe, religion, position sociale, origine, état physique ou psychologique.\n2. Évaluez la situation d’une élève élue déléguée confrontée à la discrimination de genre.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "culture_generale",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle forme de discrimination est liée à la couleur de la peau ?",
+      "options": [
+        "Origine",
+        "Sexe",
+        "Couleur de peau",
+        "Religion"
+      ],
+      "answer": 2,
+      "explanation": "La couleur de la peau est une caractéristique physique qui peut être source de discrimination."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La Déclaration Universelle des Droits de l’Homme est un instrument international obligatoire pour les États qui la ratifient.",
+      "answer": true,
+      "explanation": "Elle constitue un texte international qui impose des obligations aux États signataires."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le Conseil National des Droits de l’Homme de Côte‑d’Ivoire est abrégé ____.",
+      "answer": "CNDHCI",
+      "explanation": "CNDHCI est l’acronyme officiel du Conseil National des Droits de l’Homme."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel mécanisme national peut être saisi par une victime de discrimination de genre ?",
+      "options": [
+        "UNICEF",
+        "CNDHCI",
+        "PAM",
+        "Cour de Cassation"
+      ],
+      "answer": 1,
+      "explanation": "Le CNDHCI est un mécanisme national dédié aux droits de l’Homme."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La loi relative à la scolarisation obligatoire concerne les enfants de 5 à 16 ans.",
+      "answer": true,
+      "explanation": "Cette loi fixe l’âge obligatoire de scolarisation entre 5 et 16 ans."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel instrument national protège les droits des femmes en Côte‑d’Ivoire ?",
+      "options": [
+        "Constitution ivoirienne",
+        "Loi contre les mutilations génitales",
+        "Loi sur la scolarisation obligatoire",
+        "Tous les éléments ci‑dessus"
+      ],
+      "answer": 3,
+      "explanation": "Tous ces textes contribuent à la protection des droits des femmes."
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Le Programme Alimentaire Mondial (PAM) est un mécanisme international de protection des droits de l’Homme.",
+      "answer": true,
+      "explanation": "PAM est une structure internationale qui intervient dans la protection alimentaire."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "La Cour africaine des Droits de l’Homme et des peuples est située à ____.",
+      "answer": "Bamako",
+      "explanation": "La Cour africaine est basée à Bamako, Mali."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel mécanisme permet de saisir la police en cas de discrimination ?",
+      "options": [
+        "CNDHCI",
+        "Ministère de la Femme",
+        "Police ou gendarmerie",
+        "UNICEF"
+      ],
+      "answer": 2,
+      "explanation": "La police ou la gendarmerie est le premier point de contact pour une plainte."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Les instruments de promotion des droits de l’Homme sont uniquement des textes internationaux.",
+      "answer": false,
+      "explanation": "Ils comprennent aussi des textes nationaux comme la Constitution."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel est l’objectif principal des mécanismes de protection des droits de l’Homme ?",
+      "options": [
+        "Éduquer les citoyens",
+        "Garantir la sécurité nationale",
+        "Participer à la protection et à la promotion des droits",
+        "Collecter des fonds"
+      ],
+      "answer": 2,
+      "explanation": "Les mécanismes visent à protéger et promouvoir les droits."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "La loi contre les mutilations génitales est un instrument international.",
+      "answer": false,
+      "explanation": "C’est un instrument national ivoirien."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Le Ministère de la Femme, de la Famille et de l’Enfant est chargé de ____.",
+      "answer": "promouvoir l’égalité des sexes",
+      "explanation": "Il œuvre pour l’égalité et la protection des femmes et des familles."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel mécanisme national peut être saisi par une élève victime de discrimination de genre ?",
+      "options": [
+        "CNDHCI",
+        "UNICEF",
+        "PAM",
+        "Cour de Cassation"
+      ],
+      "answer": 0,
+      "explanation": "Le CNDHCI est dédié aux droits de l’Homme au niveau national."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Les mécanismes nationaux ont une compétence internationale.",
+      "answer": false,
+      "explanation": "Ils ont une compétence nationale, contrairement aux mécanismes internationaux."
+    }
+  ]
+}

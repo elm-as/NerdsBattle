@@ -1,0 +1,173 @@
+{
+  "id": "physique-seconde-classification-periodique",
+  "subjectId": "physique",
+  "levelId": "seconde",
+  "slug": "classification-periodique",
+  "title": "Classification périodique des éléments chimiques – 2nde C",
+  "summary": "Ce cours présente la construction du tableau de Mendeleïev, les familles principales (métaux alcalins, alcalino‑terreux, halogènes, gaz nobles) et l’intérêt de la classification périodique pour prédire les propriétés chimiques des éléments.",
+  "lesson": "# I. Tableau de classification\n## 1. Règles d’édification du tableau de Mendeleïev\n- Classement croissant par numéro atomique Z.\n- Les éléments avec le même nombre d’électrons de valence forment une colonne (famille).\n- Chaque nouvelle période correspond au remplissage d’une couche électronique supplémentaire.\n\n## 2. Tableau périodique simplifié des 20 premiers éléments\n```\n1 H   2 He\n3 Li  4 Be 5 B 6 C 7 N 8 O 9 F 10 Ne\n11 Na 12 Mg 13 Al 14 Si 15 P 16 S 17 Cl 18 Ar\n19 K 20 Ca\n``` \n\n# II. Étude de quelques familles\n## 1. Éléments de la première colonne (métaux alcalins)\n- Un électron de valence.\n- Corps simples métalliques, mous, peu denses.\n- Grande réactivité (ex. oxydation à froid).\n- Exemples : Li, Na, K, Rb, Cs (hydrogène exclu).\n\n## 2. Métaux alcalino‑terreux (deuxième colonne)\n- Deux électrons de valence.\n- Réactivité élevée, métaux « vrais ».\n- Exemples : Be, Mg, Ca, Sr, Ba.\n\n## 3. Halogènes (avant‑dernière colonne)\n- Sept électrons de valence.\n- Corps simples diatomiques, très réactifs.\n- Exemples : F, Cl, Br, I.\n\n## 4. Gaz rares (dernière colonne)\n- Couche externe saturée (8 électrons, 2 pour He).\n- Inertie chimique quasi‑totale, monoatomiques, gazeux.\n- Exemples : He, Ne, Ar, Kr, Xe.\n\n# III. Intérêt de la classification périodique\n## 1. Relation entre propriétés chimiques et position\n- La configuration électronique externe détermine les propriétés et la place dans le tableau.\n\n## 2. Zones du tableau\n- **Zone métal** : donneurs d’électrons.\n- **Zone non‑métal** : accepteurs d’électrons.\n- **Colonne gaz rares** : ni donneurs ni accepteurs.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel critère principal détermine la position d’un élément dans le tableau périodique?",
+      "options": [
+        "Masse atomique",
+        "Numéro atomique Z",
+        "Rayon atomique",
+        "Énergie d’ionisation"
+      ],
+      "answer": 1,
+      "explanation": "Le tableau est ordonné par numéro atomique croissant."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Tous les éléments de la première colonne ont un électron de valence.",
+      "answer": true,
+      "explanation": "Ils possèdent exactement un électron dans leur couche externe."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le gaz noble qui ne possède que deux électrons dans sa couche externe est ___.",
+      "answer": "hélium",
+      "explanation": "He a une couche K remplie de 2 électrons."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel élément appartient à la famille des métaux alcalino‑terreux?",
+      "options": [
+        "Na",
+        "Mg",
+        "Cl",
+        "Ne"
+      ],
+      "answer": 1,
+      "explanation": "Le magnésium (Mg) est un métal alcalino‑terreux."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Les halogènes ont sept électrons de valence.",
+      "answer": true,
+      "explanation": "Ils ont une configuration de valence ns²np⁵."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel est le numéro atomique du premier élément de la deuxième période?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 2,
+      "explanation": "Le lithium (Li) a Z=3 et ouvre la deuxième période."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Le symbole chimique du gaz rare situé dans la troisième période est ___.",
+      "answer": "Ar",
+      "explanation": "Argon (Ar) est le gaz noble de la troisième période."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Parmi les éléments suivants, lequel n’est pas un métal alcalin?",
+      "options": [
+        "Li",
+        "Na",
+        "K",
+        "Be"
+      ],
+      "answer": 3,
+      "explanation": "Le béryllium (Be) appartient aux alcalino‑terreux."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Le fluor est un gaz à température ambiante.",
+      "answer": false,
+      "explanation": "Le fluor est un liquide jaune pâle à 25 °C."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quelle propriété caractérise principalement les gaz rares?",
+      "options": [
+        "Grande réactivité",
+        "Inertie chimique",
+        "Formation de composés ioniques",
+        "Diatomiques"
+      ],
+      "answer": 1,
+      "explanation": "Les gaz nobles sont très peu réactifs."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Le nombre d’électrons de valence des métaux alcalins est ___.",
+      "answer": "1",
+      "explanation": "Ils possèdent un seul électron dans la couche externe."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel élément de la première colonne est exclu de la famille des métaux alcalins?",
+      "options": [
+        "Li",
+        "Na",
+        "H",
+        "K"
+      ],
+      "answer": 2,
+      "explanation": "L’hydrogène (H) ne fait pas partie des métaux alcalins malgré sa configuration."
+    },
+    {
+      "id": "q13",
+      "type": "truefalse",
+      "prompt": "Tous les métaux ont une conductivité électrique élevée à l’état solide.",
+      "answer": true,
+      "explanation": "C’est une propriété générale des métaux."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Dans quelle colonne se trouve le calcium (Ca)?",
+      "options": [
+        "Première",
+        "Deuxième",
+        "Avant‑dernière",
+        "Dernière"
+      ],
+      "answer": 1,
+      "explanation": "Le calcium est un métal alcalino‑terreux, colonne 2."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Le symbole chimique du premier halogène est ___.",
+      "answer": "F",
+      "explanation": "Fluor, symbole F."
+    },
+    {
+      "id": "q16",
+      "type": "truefalse",
+      "prompt": "Le tableau périodique comporte trois zones principales: métaux, non‑métaux et gaz rares.",
+      "answer": true,
+      "explanation": "Ces zones correspondent aux donneurs, accepteurs et éléments inertes."
+    }
+  ]
+}

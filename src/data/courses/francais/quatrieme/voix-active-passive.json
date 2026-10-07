@@ -1,0 +1,70 @@
+{
+  "id": "francais-quatrieme-voix-active-passive",
+  "title": "La voix active et la voix passive",
+  "summary": "Maîtrisez la transformation des phrases de la voix active à la voix passive, une compétence essentielle pour enrichir votre expression écrite et orale. Ce chapitre vous donne les clés pour identifier et construire correctement les deux voix, en évitant les pièges classiques des examens.",
+  "lesson": "## Introduction & Mise en situation\n\nPourquoi ce chapitre est-il crucial ? Parce que la voix active et la voix passive sont deux manières de présenter une action, et savoir les utiliser vous permet de varier vos phrases, de mettre l'accent sur l'action ou sur celui qui la subit. Dans la vie de tous les jours, dans les médias, dans les textes littéraires, on rencontre constamment ces deux formes. Par exemple, on dit « Le chat mange la souris » (voix active) ou « La souris est mangée par le chat » (voix passive). Comprendre cette transformation est indispensable pour bien lire, écrire et analyser des textes. De plus, c'est un point souvent évalué au BEPC et au BAC.\n\n## 1. Définitions et Principes Fondamentaux\n\n**Voix active** : Dans une phrase à la voix active, le sujet fait l'action. Le verbe est conjugué à un temps simple ou composé, et le complément d'objet direct (COD) reçoit l'action.\n\n**Voix passive** : Dans une phrase à la voix passive, le sujet subit l'action. Le verbe est conjugué avec l'auxiliaire *être* au même temps que le verbe actif, suivi du participe passé du verbe. Le complément d'agent (introduit par *par* ou *de*) indique qui fait l'action.\n\n**Formule de transformation** :\n\n$$\\text{Voix active : } \\text{Sujet} + \\text{Verbe} + \\text{COD}$$\n$$\\text{Voix passive : } \\text{COD (devient sujet)} + \\text{être (au temps du verbe actif)} + \\text{participe passé} + \\text{par/de} + \\text{ancien sujet}$$\n\n**Exemple** :\n- Actif : Le vent (sujet) déplace (verbe) les feuilles (COD).\n- Passif : Les feuilles (sujet) sont déplacées (être au présent + participe passé) par le vent (complément d'agent).\n\n## 2. Propriétés et Méthodes d'application\n\n**Méthode pas-à-pas pour transformer une phrase active en passive :**\n\n1. **Identifier le sujet, le verbe et le COD** dans la phrase active.\n2. **Mettre le COD en position de sujet** de la phrase passive.\n3. **Conjuguer l'auxiliaire *être* au même temps que le verbe actif**, puis ajouter le **participe passé** du verbe.\n4. **Accorder le participe passé avec le nouveau sujet** (comme avec l'auxiliaire être).\n5. **Ajouter le complément d'agent** (ancien sujet) introduit par *par* (ou *de* parfois), si on veut le préciser.\n\n**Exemple détaillé avec changement de temps :**\n\n- Actif au passé composé : Le professeur a corrigé les copies.\n  - Sujet : le professeur, Verbe : a corrigé, COD : les copies.\n  - Passif : Les copies ont été corrigées par le professeur.\n  - Ici, le verbe actif est au passé composé, donc *être* se conjugue au passé composé : *ont été*.\n\n**Cas particuliers :**\n\n- **Le complément d'agent peut être omis** s'il est inconnu ou peu important : « Les volets sont fermés. » (par quelqu'un, mais on ne précise pas).\n- **Verbes sans COD** (intransitifs) ne peuvent pas être mis au passif : « Il dort » ne peut pas devenir passif.\n- **Les verbes à la voix pronominale** ne se mettent pas au passif : « Il se lave » ne devient pas passif.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre le complément d'agent avec un COD** : Dans « La souris est mangée par le chat », *par le chat* est complément d'agent, pas COD. Ne pas l'analyser comme un COD.\n- **Accorder le participe passé avec le sujet** : Au passif, le participe passé s'accorde toujours avec le sujet (comme avec *être*). Exemple : « Les fleurs sont cueillies » (accord avec *fleurs*, féminin pluriel).\n- **Oublier de changer le temps de l'auxiliaire** : Si le verbe actif est à l'imparfait, *être* doit être à l'imparfait. Exemple : « Le chat mangeait la souris » → « La souris était mangée par le chat » (imparfait).\n- **Utiliser le mauvais auxiliaire** : On utilise *être*, jamais *avoir* au passif.\n- **Transformer une phrase sans COD** : Impossible ! Vérifiez toujours que le verbe a un COD.\n\n## Synthèse\n\n**À retenir absolument :**\n\n1. **Voix active** : le sujet fait l'action ; **voix passive** : le sujet subit l'action.\n2. **Transformation** : le COD devient sujet, le verbe se conjugue avec *être* au même temps, et le sujet devient complément d'agent (par/de).\n3. **Accord du participe passé** avec le sujet au passif, et **impossibilité** si le verbe n'a pas de COD.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "grammaire",
+    "voix passive",
+    "conjugaison",
+    "4ème",
+    "BEPC"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans la phrase « Le chien poursuit le chat », quelle est la voix ?",
+      "options": [
+        "Voix passive",
+        "Voix active",
+        "Voix pronominale",
+        "Voix impersonnelle"
+      ],
+      "answer": 1,
+      "explanation": "Le sujet (le chien) fait l'action de poursuivre, donc c'est une phrase à la voix active."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Pour former la voix passive, on utilise l'auxiliaire avoir suivi du participe passé.",
+      "answer": false,
+      "explanation": "Au passif, on utilise l'auxiliaire être, pas avoir."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Transformez à la voix passive : « Le vent a renversé les arbres. » → « Les arbres ... par le vent. » (écrivez la forme verbale complète)",
+      "answer": "ont été renversés",
+      "explanation": "Le verbe actif est au passé composé, donc 'être' se conjugue au passé composé : 'ont été', suivi du participe passé 'renversés' qui s'accorde avec 'arbres' (masculin pluriel)."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle phrase est à la voix passive ?",
+      "options": [
+        "Le gâteau est délicieux.",
+        "Le gâteau est mangé par Paul.",
+        "Paul mange le gâteau.",
+        "Le gâteau a été cuit par maman."
+      ],
+      "answer": 1,
+      "explanation": "Seule la phrase « Le gâteau est mangé par Paul » a la structure passive : sujet (le gâteau) + être (est) + participe passé (mangé) + complément d'agent (par Paul)."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Dans la phrase « Les fleurs sont cueillies par Marie », le participe passé 'cueillies' s'accorde avec 'fleurs'.",
+      "answer": true,
+      "explanation": "Au passif, le participe passé s'accorde avec le sujet, donc avec 'fleurs' (féminin pluriel)."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Complétez avec la forme passive correcte : « Les élèves (respecter) par le professeur. » (au présent)",
+      "answer": "sont respectés",
+      "explanation": "Au présent, l'auxiliaire être se conjugue 'sont' (ils) et le participe passé 'respectés' s'accorde avec 'élèves' (masculin pluriel)."
+    }
+  ]
+}

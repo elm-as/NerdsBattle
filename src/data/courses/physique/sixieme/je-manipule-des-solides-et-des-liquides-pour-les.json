@@ -1,0 +1,219 @@
+{
+  "id": "physique-sixieme-je-manipule-des-solides-et-des-liquides-pour-les",
+  "subjectId": "physique",
+  "levelId": "sixieme",
+  "slug": "je-manipule-des-solides-et-des-liquides-pour-les",
+  "title": "Solides, liquides et gaz : propriétés physiques",
+  "summary": "Découvre comment distinguer solides, liquides et gaz grâce à leurs propriétés. Manipule, observe et apprends à reconnaître les pictogrammes de danger.",
+  "lesson": "## Introduction\n\nDans notre quotidien, nous manipulons de nombreux corps : un caillou, de l'eau, de l'air... Mais comment les distinguer ? Cette leçon t'invite à explorer les propriétés des solides, des liquides et des gaz à travers des expériences simples.\n\n## 1. Définitions & Notions clés\n\n### Les solides\nUn solide est un corps que l'on peut saisir dans la main. On distingue deux types :\n- **Solides compacts** : constitués d'un seul bloc, ils ont une forme propre.\n  - *Solides rigides* : caillou, bic...\n  - *Solides déformables* : chiffon, tissu...\n- **Solides divisés** : constitués de plusieurs grains (sable, riz, sel). Ils n'ont pas de forme propre et prennent la forme du récipient.\n\n### Les liquides\nUn liquide (eau, huile, lait) ne peut pas être saisi. Il n'a pas de forme propre, prend la forme du récipient et sa surface libre est toujours plane et horizontale.\n\n### Les gaz\nUn gaz est un corps à l'état gazeux, souvent invisible. L'air est un gaz. Les gaz sont compressibles, expansibles, élastiques, inodores et incolores (pour certains).\n\n### Les pictogrammes\nUn pictogramme est un dessin normalisé qui informe sur les dangers des produits chimiques. Exemples : C (corrosif), E (explosif), F (inflammable), N (dangereux pour l'environnement), O (comburant), T (toxique), Xi (irritant).\n\n## 2. Applications & Méthodes\n\n### Distinguer un solide d'un liquide\n- **Test de saisie** : si on peut le saisir, c'est un solide.\n- **Test de forme** : un solide compact a une forme propre ; un liquide et un solide divisé prennent la forme du récipient.\n- **Surface libre** : celle d'un liquide est plane et horizontale.\n\n### Mettre en évidence l'existence de l'air\n- Utiliser une seringue : boucher l'extrémité, pousser le piston → l'air est compressible.\n- Transvaser de l'air d'un récipient à un autre (par déplacement d'eau).\n\n### Utiliser les pictogrammes\n- Reconnaître les symboles de danger sur les flacons.\n- Adopter les gestes de sécurité : ne pas sentir directement, porter des lunettes, etc.\n\n## 3. Pièges fréquents\n\n- **Confondre solide divisé et liquide** : le sable prend la forme du récipient mais ne coule pas comme un liquide.\n- **Croire qu'un gaz n'a pas de masse** : l'air a une masse, même si elle est faible.\n- **Penser que tous les solides sont rigides** : certains sont déformables (chiffon).\n- **Négliger les pictogrammes** : ils indiquent des dangers réels.\n\n## Synthèse\n\n- **Solides** : saisisables, forme propre (compacts) ou non (divisés).\n- **Liquides** : non saisisables, pas de forme propre, surface libre plane et horizontale.\n- **Gaz** : compressibles, expansibles, élastiques, souvent invisibles.\n- **Pictogrammes** : dessins normalisés pour signaler les dangers.\n\nRetiens que la matière se présente sous trois états : solide, liquide et gaz, chacun avec des propriétés spécifiques.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Parmi ces corps, lequel est un solide compact ?",
+      "options": [
+        "Le sable",
+        "L'eau",
+        "Le caillou",
+        "L'huile"
+      ],
+      "answer": 2,
+      "explanation": "Le caillou est un solide compact car il est constitué d'un seul bloc et a une forme propre."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Un solide divisé a une forme propre.",
+      "answer": false,
+      "explanation": "Un solide divisé (comme le sable) n'a pas de forme propre ; il prend la forme du récipient."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Les liquides prennent la forme du ______ qui les contient.",
+      "answer": "récipient",
+      "explanation": "Les liquides n'ont pas de forme propre et adoptent la forme du récipient."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est le point commun entre un solide divisé et un liquide ?",
+      "options": [
+        "Ils ont une forme propre",
+        "Ils prennent la forme du récipient",
+        "Ils peuvent être saisis",
+        "Leur surface est toujours plane"
+      ],
+      "answer": 1,
+      "explanation": "Ni les solides divisés ni les liquides n'ont de forme propre ; ils prennent la forme du récipient."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "On peut saisir un liquide avec la main.",
+      "answer": false,
+      "explanation": "On ne peut pas saisir un liquide ; il coule entre les doigts."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle est la particularité de la surface libre d'un liquide ?",
+      "options": [
+        "Elle est courbe",
+        "Elle est plane et horizontale",
+        "Elle est verticale",
+        "Elle change de forme"
+      ],
+      "answer": 1,
+      "explanation": "La surface libre d'un liquide au repos est toujours plane et horizontale."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Un pictogramme est un dessin ______ destiné à informer sur les dangers des produits chimiques.",
+      "answer": "normalisé",
+      "explanation": "Les pictogrammes sont des dessins normalisés, c'est-à-dire standardisés."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Lequel de ces corps est un solide déformable ?",
+      "options": [
+        "Un bic",
+        "Un caillou",
+        "Un chiffon",
+        "Une règle"
+      ],
+      "answer": 2,
+      "explanation": "Un chiffon est un solide déformable car il peut être plié, contrairement à un bic ou un caillou."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Le sable est un solide compact.",
+      "answer": false,
+      "explanation": "Le sable est un solide divisé, constitué de plusieurs grains."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel gaz est cité dans le document comme exemple de gaz ?",
+      "options": [
+        "Dioxyde de carbone",
+        "Oxygène",
+        "Hélium",
+        "Méthane"
+      ],
+      "answer": 1,
+      "explanation": "Le document cite l'oxygène et l'air comme exemples de gaz."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Les solides compacts sont constitués d'un seul ______ et ont une forme propre.",
+      "answer": "bloc",
+      "explanation": "Un solide compact est constitué d'un seul bloc."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Parmi ces propositions, laquelle n'est pas une propriété des liquides ?",
+      "options": [
+        "Ils n'ont pas de forme propre",
+        "Ils prennent la forme du récipient",
+        "Leur surface libre est plane",
+        "Ils sont compressibles"
+      ],
+      "answer": 3,
+      "explanation": "Les liquides sont très peu compressibles ; la compressibilité est une propriété des gaz."
+    },
+    {
+      "id": "q13",
+      "type": "truefalse",
+      "prompt": "Un gaz est expansible et compressible.",
+      "answer": true,
+      "explanation": "Les gaz sont expansibles (ils occupent tout l'espace disponible) et compressibles (on peut réduire leur volume)."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Que signifie le pictogramme 'T' ?",
+      "options": [
+        "Toxique",
+        "Inflammable",
+        "Corrosif",
+        "Explosif"
+      ],
+      "answer": 0,
+      "explanation": "Le pictogramme 'T' indique un produit toxique."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Pour nettoyer la terrasse, on ramasse les gros morceaux de verre avec la ______.",
+      "answer": "main",
+      "explanation": "Dans la solution au problème, il est dit de ramasser les gros morceaux avec la main."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel matériel est utilisé pour mettre en évidence la compressibilité de l'air ?",
+      "options": [
+        "Un cristallisoir",
+        "Une seringue",
+        "Un ballon à fond plat",
+        "Un flacon"
+      ],
+      "answer": 1,
+      "explanation": "La seringue permet de comprimer l'air et de montrer sa compressibilité."
+    },
+    {
+      "id": "q17",
+      "type": "truefalse",
+      "prompt": "L'air est inodore et incolore.",
+      "answer": true,
+      "explanation": "L'air est inodore (sans odeur) et incolore (sans couleur)."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Quel est le thème de la fiche pédagogique ?",
+      "options": [
+        "J'utilise des modèles",
+        "Je manipule des solides",
+        "Les pictogrammes",
+        "Les mélanges"
+      ],
+      "answer": 0,
+      "explanation": "Le thème indiqué est 'J'UTILISE DES MODELES'."
+    },
+    {
+      "id": "q19",
+      "type": "fill",
+      "prompt": "Les solides divisés sont constitués de plusieurs ______.",
+      "answer": "grains",
+      "explanation": "Le sable, le riz, le sel sont constitués de plusieurs grains."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Quel est le pré-requis nécessaire pour cette leçon ?",
+      "options": [
+        "Les propriétés des gaz",
+        "Les propriétés des solides et liquides",
+        "Les mélanges",
+        "Les changements d'état"
+      ],
+      "answer": 1,
+      "explanation": "Le pré-requis mentionné est 'propriétés des solides et liquides'."
+    }
+  ]
+}

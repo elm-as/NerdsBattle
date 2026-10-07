@@ -1,0 +1,173 @@
+{
+  "id": "philosophie-terminale-evolutions-contemporaines",
+  "subjectId": "philosophie",
+  "levelId": "terminale",
+  "slug": "evolutions-contemporaines",
+  "title": "Évolutions contemporaines : judiciarisation et passage de la loi à la norme",
+  "summary": "Ce cours analyse deux dynamiques majeures de la société moderne : la judiciarisation, c’est‑à‑dire l’extension progressive du droit à toutes les sphères de la vie, et le passage de la loi à la norme décrit par Foucault, où la régulation s’appuie sur la sécurité et la gestion technique. S’appuyant sur Weber et Foucault, nous examinons les implications pour l’éducation, le travail et les institutions.",
+  "lesson": "# 1. Judiciarisation de la société\nOn observe aujourd’hui une **extension du droit** et des procédures juridiques à l’ensemble des domaines de l’existence humaine (travail, santé, consommation, relations familiales, etc.). Cette tendance est plus avancée aux **États‑Unis** qu’en Europe, mais le continent européen suit la même trajectoire. Selon **Max Weber**, la modernité se caractérise par la **rationalisation** : les pratiques traditionnelles laissent place à des pratiques encadrées par la loi et la bureaucratie.\n\n# 2. De la loi à la norme (Foucault)\nMichel Foucault décrit un **passage de la loi à la norme**. Le paradigme ancien, fondé sur la morale et le gouvernement, cède la place à un nouveau paradigme basé sur la **sécurité** et la **gestion**. La morale et la politique sont « phagocytées » par la médecine, l’économie et la cybernétique, qui fusionnent en une **gestion technique du vivant**. Le **panoptique** devient la figure emblématique de ce changement, montrant la similarité structurelle entre école, usine, hôpital et prison.\n\n# 3. Comparaison des deux évolutions\n- **Judiciarisation** : le droit s’étend, mais conserve son caractère normatif et coercitif.\n- **Passage à la norme** : la régulation s’appuie davantage sur des mécanismes de contrôle continu, de surveillance et de normalisation, parfois sans recours explicite à la loi.\nCes deux processus ne sont pas contradictoires ; ils se renforcent mutuellement.\n\n# 4. Conséquences pédagogiques\n- **Surveillance accrue** : usage de logiciels de suivi, évaluations continues.\n- **Gestion des comportements** : normes de conduite codifiées, programmes de prévention.\n- **Rationalisation des pratiques éducatives** : protocole d’intervention, procédures standardisées.\n\nEn classe, l’enseignant doit prendre conscience de ces dynamiques pour favoriser l’autonomie des élèves tout en naviguant dans un cadre de plus en plus normé.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "philosophie",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Selon Max Weber, quel est le trait caractéristique de la société moderne ?",
+      "options": [
+        "La tradition",
+        "La rationalisation",
+        "Le charisme",
+        "L’anarchie"
+      ],
+      "answer": 1,
+      "explanation": "Weber identifie la rationalisation comme le processus central de la modernité, où les pratiques sont encadrées par la loi et la bureaucratie."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Les États‑Unis sont plus avancés que l’Europe dans le processus de judiciarisation.",
+      "answer": true,
+      "explanation": "Le texte indique que l’extension du droit est plus avancée aux États‑Unis, même si l’Europe suit la même direction."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le concept foucaldien qui symbolise la surveillance généralisée est le _______.",
+      "answer": "panoptique",
+      "explanation": "Le panoptique représente la capacité de surveiller sans être vu, appliquée à l’école, l’usine, l’hôpital, etc."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans le nouveau paradigme décrit par Foucault, quel élément remplace la morale comme principe directeur ?",
+      "options": [
+        "La liberté",
+        "La sécurité",
+        "Le profit",
+        "L’esthétique"
+      ],
+      "answer": 1,
+      "explanation": "Foucault parle d’un passage à un paradigme fondé sur la sécurité et la gestion."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Le passage de la loi à la norme est contradictoire avec la judiciarisation de la société.",
+      "answer": false,
+      "explanation": "Le texte précise que les deux évolutions ne sont pas contradictoires mais se renforcent mutuellement."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelles disciplines, selon le texte, fusionnent pour créer la \"gestion technique du vivant\" ?",
+      "options": [
+        "La philosophie, la sociologie et l’anthropologie",
+        "La médecine, l’économie et la cybernétique",
+        "Le droit, la religion et l’art",
+        "L’ingénierie, la linguistique et la psychologie"
+      ],
+      "answer": 1,
+      "explanation": "Le texte mentionne la médecine, l’économie et la cybernétique comme les trois domaines qui se combinent."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Le nouveau paradigme repose sur les notions de _______ et de gestion.",
+      "answer": "sécurité",
+      "explanation": "Foucault décrit le paradigme comme fondé sur la sécurité et la gestion."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel type d’institution n’est PAS explicitement cité comme analogue au panoptique dans le texte ?",
+      "options": [
+        "L’école",
+        "L’usine",
+        "Le tribunal",
+        "L’hôpital"
+      ],
+      "answer": 2,
+      "explanation": "Le texte cite l’école, l’usine, l’hôpital et la prison, mais pas le tribunal."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "La judiciarisation signifie que le droit perd de son influence dans la société.",
+      "answer": false,
+      "explanation": "Au contraire, la judiciarisation désigne l’extension du droit à toutes les dimensions de l’existence."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel terme résume le processus par lequel les pratiques traditionnelles sont remplacées par des pratiques encadrées par la loi ?",
+      "options": [
+        "Décentralisation",
+        "Rationalisation",
+        "Individualisation",
+        "Globalisation"
+      ],
+      "answer": 1,
+      "explanation": "Weber utilise le terme « rationalisation » pour décrire ce phénomène."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Le processus de rationalisation, selon Weber, conduit à une société davantage _______.",
+      "answer": "bureaucratisée",
+      "explanation": "La rationalisation s’accompagne d’une bureaucratisation croissante."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel concept foucaldien, lié à la gestion du vivant, est sous‑jacent au passage de la loi à la norme ?",
+      "options": [
+        "Biopolitique",
+        "Épistémè",
+        "Gouvernementalité",
+        "Discours"
+      ],
+      "answer": 0,
+      "explanation": "La biopolitique désigne la gestion de la vie des populations, centrale dans le nouveau paradigme."
+    },
+    {
+      "id": "q13",
+      "type": "truefalse",
+      "prompt": "L’Europe est déjà entièrement judiciarisée comme les États‑Unis.",
+      "answer": false,
+      "explanation": "Le texte indique que l’Europe se dirige dans la même direction mais n’est pas encore au même niveau d’avancement."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel impact pédagogique direct résulte du panoptique dans les écoles modernes ?",
+      "options": [
+        "Plus de liberté d’expression",
+        "Surveillance continue des élèves",
+        "Réduction du nombre d’évaluations",
+        "Abolition des règles de discipline"
+      ],
+      "answer": 1,
+      "explanation": "Le panoptique implique une surveillance accrue, souvent via des outils numériques et des contrôles continus."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Le terme \"gestion technique du _______\" décrit la fusion des disciplines selon Foucault.",
+      "answer": "vivant",
+      "explanation": "Foucault parle de la gestion technique du vivant, où la vie est régulée comme un objet technique."
+    },
+    {
+      "id": "q16",
+      "type": "truefalse",
+      "prompt": "Selon le texte, la loi change profondément de sens avec le passage à la norme.",
+      "answer": true,
+      "explanation": "Le texte affirme que la loi s’étend à toutes les dimensions de l’existence mais change profondément de sens."
+    }
+  ]
+}

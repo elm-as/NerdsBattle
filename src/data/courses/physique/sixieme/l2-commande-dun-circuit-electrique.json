@@ -1,0 +1,213 @@
+{
+  "id": "physique-sixieme-l2-commande-dun-circuit-electrique",
+  "subjectId": "physique",
+  "levelId": "sixieme",
+  "slug": "l2-commande-dun-circuit-electrique",
+  "title": "Commande d'un circuit électrique",
+  "summary": "Découvre comment un interrupteur, un bouton poussoir ou un commutateur permet de commander une lampe. Maîtrise les montages et leurs symboles pour expliquer l'allumage des lampes autour de toi.",
+  "lesson": "# Commande d'un circuit électrique\n\n## Introduction\nDans la vie quotidienne, on allume une lampe en ouvrant une portière de voiture ou un réfrigérateur. Ces actions sont possibles grâce à des **organes de commande** qui ouvrent ou ferment un circuit électrique. Cette leçon présente les principaux organes de commande et leurs utilisations.\n\n## 1. Définitions et notions clés\n\n### 1.1 L'interrupteur simple\n- **Image** : un interrupteur simple est un organe à deux positions (ouvert/fermé).\n- **Symbole** :\n  - Interrupteur ouvert : `— / —`\n  - Interrupteur fermé : `— • —`\n- **Fonction** : il permet d'ouvrir ou de fermer un circuit électrique de façon **permanente**.\n- **Utilisation** : allumage permanent d'une lampe à partir d'un seul point.\n\n### 1.2 Le bouton poussoir\n- **Image** : modèle de bouton poussoir.\n- **Symboles** :\n  - Bouton poussoir ouvert au repos : `— / —` (avec un poussoir)\n  - Bouton poussoir fermé au repos : `— • —` (avec un poussoir)\n- **Fonction** : il permet d'ouvrir ou de fermer un circuit électrique de façon **temporaire**.\n- **Remarques** :\n  - Le bouton poussoir **fermé au repos** est utilisé pour commander la lampe d'un réfrigérateur ou d'une voiture.\n  - Le bouton poussoir **ouvert au repos** est utilisé pour commander une sonnerie ou une sirène.\n\n### 1.3 Le commutateur\n- **Image** : un commutateur possède trois bornes : le commun (C), la position repos (R) et la position travail (T).\n- **Symbole** :\n  - Commutateur : `C — R/T`\n- **Fonction** : il permet d'allumer **alternativement** deux lampes électriques.\n- **Montage va-et-vient** : utilise deux commutateurs reliés entre eux. Il permet de commander une lampe à partir de **deux endroits différents**.\n\n## 2. Applications et méthodes\n\n### 2.1 Schématiser un circuit commandé\n- **Avec interrupteur simple** :\n  - Circuit fermé : la lampe est allumée.\n  - Circuit ouvert : la lampe est éteinte.\n- **Avec bouton poussoir** :\n  - Bouton poussoir ouvert au repos : la lampe est éteinte ; en position travail, le circuit se ferme et la lampe s'allume.\n  - Bouton poussoir fermé au repos : la lampe est allumée ; en position travail, le circuit s'ouvre et la lampe s'éteint.\n- **Avec commutateur** :\n  - Pour allumer alternativement deux lampes : le commutateur en position repos allume une lampe, en position travail allume l'autre.\n- **Montage va-et-vient** :\n  - Deux commutateurs reliés entre eux.\n  - Pour allumer la lampe, les deux commutateurs doivent être dans la même position (soit tous les deux en repos, soit tous les deux en travail).\n\n### 2.2 Méthode pour expliquer le fonctionnement\n1. Identifier les composants du circuit.\n2. Repérer l'organe de commande et sa position.\n3. En déduire l'état du circuit (ouvert ou fermé).\n4. Conclure sur l'état de la lampe (allumée ou éteinte).\n\n## 3. Pièges fréquents\n- **Confondre interrupteur simple et bouton poussoir** : l'interrupteur simple agit de façon permanente, le bouton poussoir de façon temporaire.\n- **Inverser les symboles** : le symbole du bouton poussoir comporte un poussoir, celui de l'interrupteur simple non.\n- **Oublier la position repos/travail** : pour le bouton poussoir, l'état au repos est important (ouvert ou fermé).\n- **Erreur sur le montage va-et-vient** : il nécessite deux commutateurs, pas un seul.\n- **Mauvaise interprétation des schémas** : vérifier toujours si le circuit est ouvert ou fermé.\n\n## Synthèse\n- **Interrupteur simple** : commande permanente, un seul point.\n- **Bouton poussoir** : commande temporaire, usage domestique ou automobile.\n- **Commutateur** : allumage alterné de deux lampes.\n- **Montage va-et-vient** : commande d'une lampe à partir de deux endroits différents.\n\n## Documentation\nLe **relais** est un interrupteur actionnable à distance, utilisé dans les véhicules pour séparer le circuit de commande et le circuit de puissance.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel organe permet d'ouvrir ou de fermer un circuit électrique de façon permanente ?",
+      "options": [
+        "Le bouton poussoir",
+        "L'interrupteur simple",
+        "Le commutateur",
+        "Le relais"
+      ],
+      "answer": 1,
+      "explanation": "L'interrupteur simple permet une commande permanente, contrairement au bouton poussoir qui est temporaire."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le bouton poussoir fermé au repos est utilisé pour commander la lampe d'un réfrigérateur.",
+      "answer": true,
+      "explanation": "D'après le document, le bouton poussoir fermé au repos est utilisé pour la lampe d'un réfrigérateur ou d'une voiture."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le commutateur permet d'allumer alternativement ______ lampes électriques.",
+      "answer": "deux",
+      "explanation": "Le commutateur permet d'allumer alternativement deux lampes."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est le symbole d'un interrupteur simple ouvert ?",
+      "options": [
+        "— • —",
+        "— / —",
+        "— • — avec poussoir",
+        "— / — avec poussoir"
+      ],
+      "answer": 1,
+      "explanation": "Le symbole d'un interrupteur simple ouvert est représenté par un trait interrompu."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Le montage va-et-vient permet de commander une lampe à partir de deux endroits différents.",
+      "answer": true,
+      "explanation": "C'est la définition du montage va-et-vient."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel organe de commande possède trois bornes : commun, repos et travail ?",
+      "options": [
+        "L'interrupteur simple",
+        "Le bouton poussoir",
+        "Le commutateur",
+        "Le relais"
+      ],
+      "answer": 2,
+      "explanation": "Le commutateur possède trois bornes : C, R et T."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Un bouton poussoir ouvert au repos est utilisé pour commander une ______ à l'entrée d'une maison.",
+      "answer": "sonnerie",
+      "explanation": "Le document indique que le bouton poussoir ouvert au repos commande une sonnerie ou une sirène."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Dans un circuit avec un interrupteur simple fermé, la lampe est :",
+      "options": [
+        "Éteinte",
+        "Allumée",
+        "Clignotante",
+        "Inversée"
+      ],
+      "answer": 1,
+      "explanation": "Lorsque l'interrupteur est fermé, le circuit est fermé et la lampe s'allume."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Le bouton poussoir fermé au repos ouvre le circuit en position travail.",
+      "answer": true,
+      "explanation": "En position travail, un bouton poussoir fermé au repos ouvre le circuit, éteignant la lampe."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est le rôle du relais dans un véhicule ?",
+      "options": [
+        "Allumer les lampes",
+        "Commander à distance un circuit de forte puissance",
+        "Remplacer un commutateur",
+        "Économiser l'énergie"
+      ],
+      "answer": 1,
+      "explanation": "Le relais est un interrupteur actionnable à distance, utilisé pour commander un circuit de puissance."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Le montage va-et-vient utilise ______ commutateurs reliés entre eux.",
+      "answer": "deux",
+      "explanation": "Le montage va-et-vient nécessite deux commutateurs."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel organe utilise-t-on pour allumer alternativement deux lampes ?",
+      "options": [
+        "Interrupteur simple",
+        "Bouton poussoir",
+        "Commutateur",
+        "Relais"
+      ],
+      "answer": 2,
+      "explanation": "Le commutateur permet l'allumage alterné de deux lampes."
+    },
+    {
+      "id": "q13",
+      "type": "truefalse",
+      "prompt": "Un interrupteur simple peut commander une lampe à partir de deux endroits différents.",
+      "answer": false,
+      "explanation": "L'interrupteur simple ne commande qu'à partir d'un seul point ; pour deux points, il faut un montage va-et-vient."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Le symbole d'un bouton poussoir ouvert au repos comporte un ______.",
+      "answer": "poussoir",
+      "explanation": "Le symbole du bouton poussoir inclut un poussoir, contrairement à l'interrupteur simple."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Dans un montage va-et-vient, pour que la lampe s'allume, les deux commutateurs doivent être :",
+      "options": [
+        "En position repos",
+        "En position travail",
+        "Dans la même position (repos ou travail)",
+        "Dans des positions opposées"
+      ],
+      "answer": 2,
+      "explanation": "La lampe s'allume lorsque les deux commutateurs sont dans la même position (soit tous les deux en repos, soit tous les deux en travail)."
+    },
+    {
+      "id": "q16",
+      "type": "truefalse",
+      "prompt": "Le bouton poussoir ouvert au repos est utilisé pour commander la sirène d'un établissement scolaire.",
+      "answer": true,
+      "explanation": "D'après le document, le bouton poussoir ouvert au repos est utilisé pour la sonnerie ou la sirène."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quel est l'organe de commande utilisé dans un réfrigérateur ?",
+      "options": [
+        "Interrupteur simple",
+        "Bouton poussoir fermé au repos",
+        "Commutateur",
+        "Relais"
+      ],
+      "answer": 1,
+      "explanation": "Le réfrigérateur utilise un bouton poussoir fermé au repos."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "prompt": "Le montage va-et-vient permet de commander une lampe à partir de ______ points différents.",
+      "answer": "deux",
+      "explanation": "Le montage va-et-vient commande une lampe à partir de deux points distincts."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Quel composant n'est pas un organe de commande ?",
+      "options": [
+        "Interrupteur simple",
+        "Bouton poussoir",
+        "Commutateur",
+        "Lampe électrique"
+      ],
+      "answer": 3,
+      "explanation": "La lampe électrique est un récepteur, pas un organe de commande."
+    },
+    {
+      "id": "q20",
+      "type": "truefalse",
+      "prompt": "Le relais permet d'éviter la dégradation des interrupteurs et la surchauffe des fils.",
+      "answer": true,
+      "explanation": "Le document indique que le relais évite les chutes de tension, la dégradation des interrupteurs et la surchauffe des fils."
+    }
+  ]
+}

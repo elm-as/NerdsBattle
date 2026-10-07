@@ -1,0 +1,70 @@
+{
+  "id": "info-premiere-reseaux-informatiques-ip",
+  "title": "Réseaux informatiques, adressage IP et modèle Internet",
+  "summary": "Ce chapitre vous plonge au cœur de la communication numérique : comment les ordinateurs se connectent et échangent des données à travers le monde. Maîtriser l'adressage IP et le modèle Internet, c'est comprendre les fondations d'Internet, un savoir indispensable pour tout utilisateur éclairé et futur professionnel du numérique.",
+  "lesson": "## Introduction & Mise en situation\n\nImaginez que vous envoyez un message à un ami dans une autre ville. Comment votre message sait-il où aller ? C'est exactement le problème que résolvent les réseaux informatiques. Chaque ordinateur, comme chaque maison, a une adresse unique : l'adresse IP. Ce chapitre vous explique comment les données voyagent à travers le réseau, comment les adresses sont attribuées et comment Internet fonctionne grâce au modèle TCP/IP. À la fin, vous saurez décoder une adresse IP et comprendre le rôle des différents acteurs du réseau.\n\n## 1. Définitions et Principes Fondamentaux\n\n### Qu'est-ce qu'un réseau informatique ?\n\nUn **réseau informatique** est un ensemble d'équipements (ordinateurs, serveurs, imprimantes, etc.) reliés entre eux pour échanger des informations. On distingue plusieurs types selon leur taille :\n- **PAN** (Personal Area Network) : réseau personnel (Bluetooth).\n- **LAN** (Local Area Network) : réseau local (maison, entreprise).\n- **MAN** (Metropolitan Area Network) : réseau métropolitain (ville).\n- **WAN** (Wide Area Network) : réseau étendu (Internet).\n\n### L'adresse IP (Internet Protocol)\n\nL'adresse IP est un identifiant unique attribué à chaque appareil connecté à un réseau. Il en existe deux versions :\n- **IPv4** : 32 bits, écrits en 4 octets séparés par des points (ex: 192.168.1.1).\n- **IPv6** : 128 bits, écrits en hexadécimal (ex: 2001:0db8:85a3:0000:0000:8a2e:0370:7334).\n\nChaque octet en IPv4 est un nombre entre 0 et 255. L'adresse est divisée en deux parties : l'**adresse réseau** et l'**adresse hôte**. Le **masque de sous-réseau** (ou netmask) permet de déterminer cette séparation. Par exemple, avec le masque 255.255.255.0 (ou /24), les trois premiers octets désignent le réseau, le dernier l'hôte.\n\n### Le modèle Internet (TCP/IP)\n\nLe modèle TCP/IP est un ensemble de protocoles qui régissent la communication sur Internet. Il comporte 4 couches :\n1. **Couche Accès réseau** (liaison) : gère le support physique (câbles, Wi-Fi).\n2. **Couche Internet** : routage des paquets (protocole IP).\n3. **Couche Transport** : assure la fiabilité de la transmission (TCP, UDP).\n4. **Couche Application** : protocoles utilisateurs (HTTP, FTP, SMTP).\n\n## 2. Propriétés et Méthodes d'application\n\n### Calculer une adresse réseau et une adresse de diffusion\n\n**Méthode pas à pas :**\n1. Convertissez l'adresse IP et le masque en binaire.\n2. Effectuez un ET logique bit à bit entre l'adresse IP et le masque : le résultat est l'adresse réseau.\n3. Pour l'adresse de diffusion, inversez les bits du masque (complément à 1) puis faites un OU logique avec l'adresse IP.\n\n**Exemple concret :**\nSoit l'adresse IP 192.168.1.34 et le masque 255.255.255.0.\n- En binaire : IP = 11000000.10101000.00000001.00100010, Masque = 11111111.11111111.11111111.00000000\n- ET logique : 11000000.10101000.00000001.00000000 → 192.168.1.0 (adresse réseau)\n- OU avec complément du masque (0.0.0.255) : 11000000.10101000.00000001.11111111 → 192.168.1.255 (adresse de diffusion)\n\n### Nombre de machines possibles dans un réseau\n\nAvec un masque /n (n bits à 1), le nombre de bits d'hôte est $h = 32 - n$. Le nombre d'adresses utilisables est $2^h - 2$ (on soustrait l'adresse réseau et l'adresse de diffusion).\n\n**Exemple :** Pour /24, $h = 8$, donc $2^8 - 2 = 254$ machines.\n\n### Adressage privé et public\n\nCertaines plages d'adresses IP sont réservées aux réseaux privés (non routées sur Internet) :\n- 10.0.0.0 à 10.255.255.255\n- 172.16.0.0 à 172.31.255.255\n- 192.168.0.0 à 192.168.255.255\n\nLes adresses publiques sont uniques et attribuées par l'IANA.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre adresse IP et adresse MAC** : l'adresse MAC est physique (carte réseau), l'IP est logique.\n- **Oublier de soustraire 2** dans le calcul des machines : l'adresse réseau et la diffusion ne sont pas attribuables.\n- **Erreur de conversion binaire** : vérifiez chaque octet.\n- **Croire que le masque est toujours 255.255.255.0** : il peut varier (ex: /26).\n- **Confondre TCP et UDP** : TCP est fiable (connexion), UDP est plus rapide mais sans garantie.\n- **Ne pas connaître les adresses privées** : souvent demandé aux examens.\n\n## Synthèse\n\n1. **Adresse IP** : identifiant unique (IPv4 32 bits, IPv6 128 bits) ; avec le masque, on détermine le réseau et l'hôte.\n2. **Modèle TCP/IP** : 4 couches (Accès réseau, Internet, Transport, Application) qui permettent la communication.\n3. **Calculs** : adresse réseau (ET logique), diffusion (OU), nombre de machines ($2^h - 2$).",
+  "estimatedMinutes": 12,
+  "tags": [
+    "réseaux",
+    "IP",
+    "TCP/IP",
+    "adressage",
+    "Internet"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la longueur en bits d'une adresse IPv4 ?",
+      "options": [
+        "16 bits",
+        "32 bits",
+        "64 bits",
+        "128 bits"
+      ],
+      "answer": 1,
+      "explanation": "Une adresse IPv4 est composée de 4 octets, soit 32 bits."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "L'adresse IP 192.168.1.1 est une adresse privée.",
+      "answer": true,
+      "explanation": "La plage 192.168.0.0 à 192.168.255.255 est réservée aux réseaux privés."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Avec un masque /26, combien de machines peut-on connecter dans le réseau ? (Réponse numérique)",
+      "answer": "62",
+      "explanation": "h = 32 - 26 = 6 bits, donc 2^6 - 2 = 62 machines utilisables."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est l'adresse réseau de l'hôte 192.168.1.34 avec un masque 255.255.255.0 ?",
+      "options": [
+        "192.168.1.0",
+        "192.168.1.34",
+        "192.168.0.0",
+        "192.168.1.255"
+      ],
+      "answer": 0,
+      "explanation": "En faisant un ET logique entre l'IP et le masque, on obtient 192.168.1.0."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Le protocole UDP est plus fiable que TCP.",
+      "answer": false,
+      "explanation": "TCP est fiable car il établit une connexion et vérifie la réception, contrairement à UDP."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Quel est le nombre de bits d'une adresse IPv6 ? (Réponse numérique)",
+      "answer": "128",
+      "explanation": "IPv6 utilise 128 bits, soit 16 octets."
+    }
+  ]
+}

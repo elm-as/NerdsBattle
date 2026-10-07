@@ -1,0 +1,70 @@
+{
+  "id": "physique-terminale-oscillations-electriques-rlc",
+  "title": "Oscillations électriques libres et forcées (RLC)",
+  "summary": "Ce chapitre vous plonge au cœur des circuits oscillants, essentiels en électronique (radio, horloges, téléphones). Maîtriser les oscillations libres et forcées vous permettra de comprendre la résonance et de résoudre des problèmes classiques du BAC.",
+  "lesson": "## Introduction & Mise en situation\n\nImaginez un pendule qui oscille : il finit par s'arrêter à cause des frottements. En électricité, c'est pareil ! Un circuit composé d'une bobine (L) et d'un condensateur (C) peut osciller, mais perd de l'énergie à cause de la résistance (R). Ce chapitre étudie ces oscillations, libres (sans entretien) et forcées (avec un générateur). C'est la base des émetteurs/récepteurs radio, des horloges à quartz et de nombreux systèmes de télécommunication.\n\n## 1. Définitions et Principes Fondamentaux\n\n### Le circuit RLC série\nUn circuit RLC série est constitué d'un résistor (R), d'une bobine d'inductance L et de résistance interne r, et d'un condensateur de capacité C, montés en série.\n\n### Oscillations libres\nCe sont les oscillations qui se produisent lorsqu'on charge le condensateur puis on le laisse évoluer sans source extérieure. L'énergie totale diminue à cause de l'effet Joule dans les résistances : c'est un régime pseudo-périodique.\n\n**Équation différentielle** :\n$$ L\\frac{d^2u_C}{dt^2} + (R+r)\\frac{du_C}{dt} + \\frac{1}{C}u_C = 0 $$\n\n**Pseudo-période** : Pour un amortissement faible, on a :\n$$ T = 2\\pi\\sqrt{LC} $$\n\n### Oscillations forcées\nCe sont les oscillations entretenues par un générateur basse fréquence (GBF) qui impose une tension sinusoïdale de fréquence $f$. Le circuit oscille alors à la fréquence du générateur.\n\n**Impédance du circuit** :\n$$ Z = \\sqrt{R^2 + (L\\omega - \\frac{1}{C\\omega})^2} $$\navec $\\omega = 2\\pi f$.\n\n**Résonance d'intensité** : Elle se produit lorsque la fréquence du générateur est égale à la fréquence propre du circuit $f_0 = \\frac{1}{2\\pi\\sqrt{LC}}$. À la résonance, l'impédance est minimale ($Z = R$) et l'intensité est maximale.\n\n## 2. Propriétés et Méthodes d'application\n\n### Méthode pour déterminer la pseudo-période\n1. Relever la courbe $u_C(t)$ à l'oscilloscope.\n2. Mesurer le temps entre deux maxima successifs (ou deux passages par zéro dans le même sens).\n3. Ce temps est la pseudo-période $T$.\n\n**Exemple** : Si $L = 0,1\\,H$ et $C = 10\\,\\mu F$, alors $T = 2\\pi\\sqrt{0,1 \\times 10^{-5}} = 2\\pi\\sqrt{10^{-6}} = 2\\pi \\times 10^{-3} \\approx 6,28\\,ms$.\n\n### Méthode pour étudier la résonance\n1. Fixer $U_{max}$ (tension efficace du GBF) constante.\n2. Faire varier la fréquence $f$ du GBF.\n3. Mesurer l'intensité efficace $I$ pour chaque fréquence.\n4. Tracer $I = f(f)$ : le maximum correspond à la fréquence de résonance $f_0$.\n\n**Exemple** : Pour $L = 20\\,mH$ et $C = 5\\,\\mu F$, $f_0 = \\frac{1}{2\\pi\\sqrt{20\\times10^{-3} \\times 5\\times10^{-6}}} = \\frac{1}{2\\pi\\sqrt{10^{-7}}} = \\frac{1}{2\\pi \\times 3,16\\times10^{-4}} \\approx 503\\,Hz$.\n\n### Facteur de qualité\nIl caractérise la sélectivité du circuit :\n$$ Q = \\frac{L\\omega_0}{R} = \\frac{1}{R}\\sqrt{\\frac{L}{C}} $$\nPlus Q est grand, plus la résonance est aiguë.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre période propre et pseudo-période** : La période propre $T_0 = 2\\pi\\sqrt{LC}$ est une valeur théorique pour un circuit sans amortissement. En réalité, à cause de R, on mesure une pseudo-période légèrement plus grande. Ne pas les confondre dans les calculs.\n- **Oublier la résistance interne de la bobine** : Dans l'équation différentielle, il faut utiliser $R_{totale} = R + r$. Beaucoup d'élèves oublient $r$.\n- **Ne pas savoir lire un oscillogramme** : Pour déterminer la pseudo-période, il faut mesurer le temps entre deux maxima successifs. Attention à l'échelle de balayage (base de temps).\n- **Croire que la résonance a toujours lieu** : La résonance d'intensité n'existe que si le circuit est forcé par un GBF. En oscillations libres, il n'y a pas de résonance.\n- **Confondre résonance d'intensité et résonance de tension** : Dans un circuit RLC série, la résonance d'intensité se produit à $f_0$. La résonance de tension aux bornes du condensateur ou de la bobine peut se produire à des fréquences légèrement différentes.\n\n## Synthèse\n\n1. **Oscillations libres** : le circuit RLC série, sans source, présente des oscillations pseudo-périodiques de pseudo-période $T \\approx 2\\pi\\sqrt{LC}$ (si amortissement faible). L'énergie diminue par effet Joule.\n2. **Oscillations forcées** : le circuit est alimenté par un GBF ; il oscille à la fréquence imposée. La résonance d'intensité se produit lorsque $f = f_0 = \\frac{1}{2\\pi\\sqrt{LC}}$ ; alors $I$ est maximale et $Z = R$.\n3. **Facteur de qualité** : $Q = \\frac{1}{R}\\sqrt{\\frac{L}{C}}$ ; il mesure l'acuité de la résonance. Plus R est faible, plus la résonance est aiguë.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "oscillations",
+    "RLC",
+    "résonance",
+    "circuit électrique",
+    "bac"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans un circuit RLC série en oscillations libres, l'énergie totale du circuit :",
+      "options": [
+        "reste constante",
+        "diminue au cours du temps",
+        "augmente au cours du temps",
+        "varie sinusoïdalement sans diminuer"
+      ],
+      "answer": 1,
+      "explanation": "À cause de la résistance, l'énergie est dissipée par effet Joule, donc elle diminue."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La pseudo-période des oscillations libres d'un circuit RLC est toujours égale à $2\\pi\\sqrt{LC}$.",
+      "answer": false,
+      "explanation": "La pseudo-période est approximativement égale à $2\\pi\\sqrt{LC}$ si l'amortissement est faible, mais elle est en réalité légèrement plus grande."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Un circuit RLC série a $L = 0,1\\,H$ et $C = 10\\,\\mu F$. Calculer la fréquence propre $f_0$ en Hz (arrondir à l'unité).",
+      "answer": "159",
+      "explanation": "$f_0 = \\frac{1}{2\\pi\\sqrt{LC}} = \\frac{1}{2\\pi\\sqrt{0,1 \\times 10 \\times 10^{-6}}} = \\frac{1}{2\\pi\\sqrt{10^{-6}}} = \\frac{1}{2\\pi \\times 10^{-3}} \\approx 159\\,Hz$."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "À la résonance d'intensité dans un circuit RLC série, l'impédance du circuit est :",
+      "options": [
+        "maximale",
+        "nulle",
+        "égale à R",
+        "égale à $L\\omega$"
+      ],
+      "answer": 2,
+      "explanation": "À la résonance, $L\\omega = \\frac{1}{C\\omega}$, donc $Z = \\sqrt{R^2 + 0} = R$."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "En oscillations forcées, la fréquence des oscillations du circuit est imposée par le générateur.",
+      "answer": true,
+      "explanation": "Le circuit est contraint d'osciller à la fréquence du GBF, même si elle diffère de la fréquence propre."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Dans un circuit RLC série, on a $L = 20\\,mH$, $C = 5\\,\\mu F$ et $R = 10\\,\\Omega$. Calculer le facteur de qualité $Q$ (arrondir à l'unité).",
+      "answer": "20",
+      "explanation": "$Q = \\frac{1}{R}\\sqrt{\\frac{L}{C}} = \\frac{1}{10}\\sqrt{\\frac{20\\times10^{-3}}{5\\times10^{-6}}} = \\frac{1}{10}\\sqrt{4000} = \\frac{63,25}{10} \\approx 6,3$ ; arrondi à l'unité : 6. Mais attention : la formule exacte donne $Q = \\frac{L\\omega_0}{R}$ avec $\\omega_0 = \\frac{1}{\\sqrt{LC}}$. Calculons : $\\omega_0 = \\frac{1}{\\sqrt{20\\times10^{-3} \\times 5\\times10^{-6}}} = \\frac{1}{\\sqrt{10^{-7}}} = \\frac{1}{3,16\\times10^{-4}} \\approx 3162\\,rad/s$. Alors $Q = \\frac{20\\times10^{-3} \\times 3162}{10} = \\frac{63,24}{10} \\approx 6,3$. Donc arrondi à 6."
+    }
+  ]
+}

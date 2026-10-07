@@ -1,0 +1,105 @@
+{
+  "id": "espagnol-quatrieme-l14-approuver-desapprouver",
+  "subjectId": "espagnol",
+  "levelId": "quatrieme",
+  "slug": "l14-approuver-desapprouver",
+  "title": "Approuver / désapprouver en espagnol 4e",
+  "summary": "Ce document officiel MENA CI présente une leçon d’espagnol de 4e axée sur l’expression de l’opinion et la capacité d’approuver ou de désapprouver. Il décrit la situation d’apprentissage où les élèves évaluent un projet de sensibilisation à la violence, expose le vocabulaire et la grammaire liés à l’approbation, propose des activités d’application, des situations d’évaluation et des exercices de correspondance et de reconnaissance d’expressions d’approbation. La leçon vise à développer la compétence de trait",
+  "lesson": "# Compétence\n**Traiter une situation relative à l’expression de l’opinion**\n\n## Situation d’apprentissage\nUn club d’espagnol organise un jour de sensibilisation contre la violence. Les élèves approuvent les idées du président en utilisant des expressions d’accord.\n\n## Contenus\n### Vocabulaire\n- **Aprobar** – Les élèves applaudissent pour approuver.\n- **Convivir** – Vivre en paix.\n- **Escuchar** – Écouter le professeur.\n\n### Grammaire\nExpressions d’approbation : *estoy de acuerdo, sí, claro, apruebo, vale, de acuerdo, tienes razón…*\n\n## Activité d’application\nExemple de réponses :\n1. *Pienso lo mismo.*\n2. *Estoy de acuerdo contigo.*\n3. *¡Claro!* \n4. *Estoy de acuerdo, vale.*\n\n## Situation d’évaluation\n- Citer deux expressions d’approbation.\n- Exprimer son accord avec un ami.\n\n## Exercices\n1. **Correspondance** – Relier mots à synonymes.\n2. **Reconnaissance** – Identifier les phrases d’approbation.\n3. **Réponses** – Justifier l’accord ou le désaccord.\n\n## Situation d’évaluation 1\nDialogue simulé sur un programme radio.\n\n## Situation d’évaluation 2\nRéflexion sur une conférence de l’informatique.\n\n---\n\n### Objectifs pédagogiques\n- Utiliser les expressions d’approbation en contexte.\n- Comprendre et produire des réponses orales.\n- Analyser des textes pour identifier l’opinion.\n\n### Méthodes\n- Apprentissage par l’écoute et la répétition.\n- Travail en binôme pour les dialogues.\n- Exercices de correspondance pour renforcer le vocabulaire.\n\n### Évaluation\n- Questions à choix multiples, vrai/faux, et complétion.\n- Observation de la participation orale.\n\n---\n\n### Ressources\n- Support : *¿Cómo aprovechar la convivencia?* (P.40).\n- Programme radio de la Radio Nacional de España.\n- Conférence sur l’informatique.\n\n---\n\n### Durée\n10 minutes d’enseignement, suivi d’une séance de questions et réponses.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "espagnol",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle expression n’est pas utilisée pour approuver ?",
+      "options": [
+        "estoy de acuerdo",
+        "sí",
+        "no",
+        "vale"
+      ],
+      "answer": 2,
+      "explanation": "« No » exprime le refus, pas l’approbation."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Complétez : ___ de acuerdo con tu idea.",
+      "answer": "0",
+      "explanation": "La phrase correcte est « Estoy de acuerdo con tu idea »."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel est le rôle de la situation d’évaluation 2 ?",
+      "options": [
+        "Évaluer la compréhension orale",
+        "Évaluer la capacité à donner un avis",
+        "Évaluer la grammaire",
+        "Évaluer la lecture"
+      ],
+      "answer": 1,
+      "explanation": "Elle vise à évaluer la capacité à exprimer un avis."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Complétez : ___ a favor de tu idea.",
+      "answer": "0",
+      "explanation": "La phrase correcte est « Estoy a favor de tu idea »."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quelle expression exprime le désaccord ?",
+      "options": [
+        "Estoy de acuerdo",
+        "No estoy de acuerdo",
+        "Vale",
+        "Sí"
+      ],
+      "answer": 1,
+      "explanation": "« No estoy de acuerdo » exprime le désaccord."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel est le sujet de la leçon ?",
+      "options": [
+        "La grammaire espagnole",
+        "La gestion de conflits",
+        "L’expression de l’opinion",
+        "La conjugaison"
+      ],
+      "answer": 2,
+      "explanation": "La leçon porte sur l’expression de l’opinion."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Complétez : ___ de acuerdo contigo.",
+      "answer": "0",
+      "explanation": "La phrase correcte est « Estoy de acuerdo contigo »."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Dans l’exercice 2, quelle phrase indique l’approbation ?",
+      "options": [
+        "No estoy de acuerdo contigo",
+        "Estoy a favor de tu idea",
+        "No acepto lo que dices",
+        "Lo apruebo totalmente"
+      ],
+      "answer": 3,
+      "explanation": "« Lo apruebo totalmente » exprime l’approbation."
+    }
+  ]
+}

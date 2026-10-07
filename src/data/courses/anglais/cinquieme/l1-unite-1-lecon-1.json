@@ -1,0 +1,111 @@
+{
+  "id": "anglais-cinquieme-l1-unite-1-lecon-1",
+  "subjectId": "anglais",
+  "levelId": "cinquieme",
+  "slug": "l1-unite-1-lecon-1",
+  "title": "Unit 1: Discovering My School - Speaking",
+  "summary": "Cette leçon de 5ème (CM Dimbokro) vise à développer la compétence C1 : traiter des situations de communication orale. Les élèves apprennent le vocabulaire des lieux scolaires (bibliothèque, cantine, infirmerie) et les prépositions de lieu (behind, in front of, next to). L'objectif est de savoir demander et donner des directions simples pour guider des visiteurs dans l'établissement.",
+  "lesson": "# Unit 1: At School - Lesson 1: Discovering My School\n\n## Contexte d'apprentissage\nLes élèves de 5ème 1 du CM Dimbokro reçoivent des amis anglophones. Ils doivent les guider à travers les différents bâtiments de l'école.\n\n## Compétence C1\nTraiter des situations relatives à la communication orale au moyen d'un langage très simple.\n\n## Contenu de la leçon\n\n### 1. Vocabulaire (Vocabulary)\n- **Lieux scolaires** : A school, a staffroom, a library, science laboratory, the headmaster’s office, a canteen, school yard, infirmary, playground, gate, conference room.\n- **Expressions** : Asking and giving direction.\n\n### 2. Grammaire / Structure (Grammar)\n- **Prépositions de lieu** : behind, in front of, on the left of, between, next to, on the right of.\n- **Modèle de phrase** :\n  - *Question* : Can you tell me where the library is?\n  - *Réponse* : It is behind the canteen.\n\n## Séance 1 (Session 1)\n\n### Activité 1 : Réordonner les lettres\nTrouver le mot correct en réarrangeant les lettres.\n1. coffie → **office**\n2. sfatf-moro → **staffroom**\n3. brilary → **library**\n4. necante → **canteen**\n\n### Activité 2 : Poser et répondre aux questions\nCompléter les dialogues en utilisant les prépositions fournies.\n- **Exemple** : Science lab / behind / library\n  - A: Excuse me, can you tell me where the science lab is?\n  - B: It is behind the library.\n- **b)** The toilets / on the left of / that classroom.\n  - A: Can you tell me where the toilets are?\n  - B: They are on the left of that classroom.\n- **c)** Canteen / in front of / the football ground.\n  - A: Where is the canteen?\n  - B: It is in front of the football ground.\n\n### Activité 3 : Plan de l'école\nRépondre aux questions en utilisant les mots de localisation.\n1. Where’s the office? → It’s behind the infirmary.\n2. Where are the restrooms? → They are in front of the gate.\n3. Where’s the canteen? → It is next to the library.\n4. Where’s the lab? → It is behind the staffroom.\n\n## Séance 2 (Session 2)\n\n### Activité 1 : Questions sur votre école\n1. What is the name of your school?\n2. Is there a canteen in your school?\n3. Is your conference room big or small?\n\n### Activité 2 : Construire des phrases\nFormer des phrases affirmatives ou interrogatives avec les mots donnés.\n- **Exemple** : see- you-headmaster-the-coming-can → Can you see the headmaster coming?\n- **a)** Can you/ where /the toilets/are ?/show me → Can you show me where the toilets are?\n- **b)** Are the toilets next to the classrooms? (Phrase interrogative)\n- **c)** Headmaster’s office/ tell/ me /Can /you /where /the/ is → Can you tell me where the headmaster's office is?",
+  "estimatedMinutes": 10,
+  "tags": [
+    "anglais",
+    "cinquieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le vocabulaire principal étudié dans cette leçon ?",
+      "options": [
+        "Les couleurs",
+        "Les lieux scolaires",
+        "Les jours de la semaine",
+        "Les animaux"
+      ],
+      "answer": 1,
+      "explanation": "La leçon se concentre sur les mots désignant les bâtiments et espaces de l'école (library, canteen, etc.)."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle préposition signifie 'derrière' en anglais ?",
+      "options": [
+        "In front of",
+        "Next to",
+        "Behind",
+        "Between"
+      ],
+      "answer": 2,
+      "explanation": "'Behind' est la traduction anglaise de 'derrière'."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Complétez : 'It is ______ the canteen.' (derrière)",
+      "answer": "0",
+      "explanation": "L'exemple du document utilise 'behind' pour indiquer la position derrière la cantine."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Comment se traduit 'la bibliothèque' en anglais ?",
+      "options": [
+        "A canteen",
+        "A library",
+        "A staffroom",
+        "A laboratory"
+      ],
+      "answer": 1,
+      "explanation": "'Library' signifie bibliothèque."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle est la bonne réponse à 'Where is the science lab?' si le labo est derrière la bibliothèque ?",
+      "options": [
+        "It is in front of the library.",
+        "It is next to the library.",
+        "It is behind the library.",
+        "It is between the library."
+      ],
+      "answer": 2,
+      "explanation": "L'activité 2b de la session 1 donne cet exemple exact."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Complétez la phrase : 'Can you tell me where the ______ is?' (bureau du directeur)",
+      "answer": "0",
+      "explanation": "Le vocabulaire inclut 'the headmaster’s office'."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quelle préposition signifie 'à côté de' ?",
+      "options": [
+        "Behind",
+        "In front of",
+        "Next to",
+        "On the right of"
+      ],
+      "answer": 2,
+      "explanation": "'Next to' signifie à côté de."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Dans l'activité 1 de la session 1, quel mot correspond aux lettres 'brilary' ?",
+      "options": [
+        "Library",
+        "Canteen",
+        "Office",
+        "Staffroom"
+      ],
+      "answer": 0,
+      "explanation": "En réarrangeant les lettres de 'brilary', on obtient 'library'."
+    }
+  ]
+}

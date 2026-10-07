@@ -1,0 +1,70 @@
+{
+  "id": "maths-premiere-denombrement-analyse-combinatoire",
+  "title": "Dénombrement et analyse combinatoire",
+  "summary": "Ce chapitre vous donne les outils pour compter sans énumérer, un atout majeur pour résoudre des problèmes de probabilités et d'algorithmique. Maîtrisez les arrangements, permutations et combinaisons pour exceller aux examens.",
+  "lesson": "## Introduction & Mise en situation\n\nLe dénombrement est l'art de compter sans avoir à énumérer toutes les possibilités. Imaginez devoir compter le nombre de codes possibles pour un cadenas à 4 chiffres (de 0 à 9) : il y en a 10 000, mais les énumérer tous serait fastidieux ! Grâce au dénombrement, on trouve ce résultat en une simple multiplication. Ce chapitre est crucial pour aborder les probabilités (au programme de terminale) et pour des domaines comme l'informatique (complexité algorithmique) ou la génétique. Il développe votre logique et votre esprit d'analyse.\n\n## 1. Définitions et Principes Fondamentaux\n\n### Principe multiplicatif (ou principe du produit)\nSi une expérience se déroule en $k$ étapes successives, avec $n_1$ choix pour la première, $n_2$ pour la seconde, ..., $n_k$ pour la $k$-ième, alors le nombre total de résultats est :\n$$n_1 \\times n_2 \\times \\cdots \\times n_k$$\n\n### Principe additif (ou principe de la somme)\nSi deux ensembles $A$ et $B$ sont disjoints (aucun élément commun), alors le nombre d'éléments de $A \\cup B$ est $|A| + |B|$.\n\n### Notion de factorielle\nPour un entier naturel $n$, on définit $n!$ (lire « factorielle n ») comme le produit des entiers de 1 à $n$ :\n$$n! = 1 \\times 2 \\times 3 \\times \\cdots \\times n$$\nPar convention, $0! = 1$.\n\n### Arrangements\nUn arrangement de $p$ éléments parmi $n$ (noté $A_n^p$) est un choix ordonné de $p$ éléments distincts parmi un ensemble de $n$ éléments. Le nombre d'arrangements est :\n$$A_n^p = \\frac{n!}{(n-p)!} = n(n-1)(n-2)\\cdots(n-p+1)$$\n\n### Permutations\nUne permutation d'un ensemble de $n$ éléments est un arrangement de tous les éléments (donc $p=n$). Le nombre de permutations est :\n$$P_n = n!$$\n\n### Combinaisons\nUne combinaison de $p$ éléments parmi $n$ (notée $\\binom{n}{p}$ ou $C_n^p$) est un choix non ordonné de $p$ éléments distincts. Le nombre de combinaisons est :\n$$\\binom{n}{p} = \\frac{n!}{p!(n-p)!}$$\n\n## 2. Propriétés et Méthodes d'application\n\n### Propriétés importantes\n- **Symétrie** : $\\binom{n}{p} = \\binom{n}{n-p}$\n- **Formule de Pascal** : $\\binom{n}{p} + \\binom{n}{p+1} = \\binom{n+1}{p+1}$\n- **Relation avec les arrangements** : $A_n^p = p! \\times \\binom{n}{p}$ (un arrangement peut être vu comme une combinaison puis un ordre)\n\n### Méthodes pas à pas\n\n**Méthode 1 : Utiliser le principe multiplicatif**\n- Identifier les étapes successives.\n- Compter le nombre de choix pour chaque étape.\n- Multiplier.\n\n**Exemple 1** : Combien de codes à 4 chiffres peut-on former avec les chiffres 0-9 ?\n- Étape 1 : choix du premier chiffre (10 possibilités), étape 2 : deuxième (10), etc.\n- Total : $10 \\times 10 \\times 10 \\times 10 = 10^4 = 10\\,000$.\n\n**Méthode 2 : Arrangements**\n- Vérifier que l'ordre compte et qu'il n'y a pas de répétition.\n- Appliquer la formule.\n\n**Exemple 2** : Combien de mots de 3 lettres distinctes peut-on former avec les lettres A, B, C, D, E ? (l'ordre compte)\n- $A_5^3 = \\frac{5!}{(5-3)!} = \\frac{120}{2} = 60$.\n\n**Méthode 3 : Combinaisons**\n- Vérifier que l'ordre ne compte pas.\n- Appliquer la formule.\n\n**Exemple 3** : Combien de comités de 3 élèves peut-on former parmi 10 élèves ?\n- $\\binom{10}{3} = \\frac{10!}{3!7!} = \\frac{10 \\times 9 \\times 8}{6} = 120$.\n\n**Méthode 4 : Permutations avec répétition**\nSi on a $n$ objets dont certains sont identiques (par exemple $n_1$ objets de type 1, $n_2$ de type 2, etc.), le nombre de permutations distinctes est :\n$$\\frac{n!}{n_1! n_2! \\cdots n_k!}$$\n\n**Exemple 4** : Combien d'anagrammes du mot « BANANE » ?\n- BANANE a 6 lettres, avec 3 A et 2 N, donc : $\\frac{6!}{3!2!} = \\frac{720}{12} = 60$.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre arrangement et combinaison** : Demandez-vous toujours si l'ordre compte. Si oui, c'est un arrangement ; sinon, une combinaison.\n- **Oublier les répétitions** : Dans certains problèmes, les répétitions sont autorisées (comme les codes). Utilisez alors le principe multiplicatif simple $n^p$.\n- **Ne pas simplifier les factorielles** : Calculez prudemment pour éviter les erreurs.\n- **Confondre $A_n^p$ et $\\binom{n}{p}$** : Rappelez-vous que $A_n^p = p! \\times \\binom{n}{p}$.\n- **Erreur sur $0!$** : Retenez que $0! = 1$.\n- **Mauvaise application de la formule de Pascal** : Vérifiez les indices.\n\n## Synthèse\n\n1. **Principes fondamentaux** : Principe multiplicatif ($n_1 \\times n_2 \\times \\cdots$) et additif (somme si disjoints).\n2. **Trois outils clés** : Arrangements ($A_n^p = \\frac{n!}{(n-p)!}$) pour des choix ordonnés sans répétition, permutations ($n!$) pour ordonner tous les éléments, combinaisons ($\\binom{n}{p} = \\frac{n!}{p!(n-p)!}$) pour des choix non ordonnés.\n3. **Savoir choisir** : Identifiez si l'ordre compte et si les répétitions sont autorisées pour appliquer la bonne formule.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "dénombrement",
+    "combinatoire",
+    "arrangements",
+    "combinaisons",
+    "probabilités"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Combien de codes à 3 chiffres peut-on former avec les chiffres de 0 à 9, si les répétitions sont autorisées ?",
+      "options": [
+        "720",
+        "1000",
+        "504",
+        "900"
+      ],
+      "answer": 1,
+      "explanation": "Chaque chiffre a 10 possibilités, donc $10 \\times 10 \\times 10 = 1000$."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le nombre d'arrangements de 3 éléments parmi 5 est égal à 60.",
+      "answer": true,
+      "explanation": "$A_5^3 = \\frac{5!}{(5-3)!} = \\frac{120}{2} = 60$."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Combien de comités de 2 personnes peut-on former parmi 6 personnes ? (Réponse numérique)",
+      "answer": "15",
+      "explanation": "$\\binom{6}{2} = \\frac{6!}{2!4!} = \\frac{720}{2 \\times 24} = 15$."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la valeur de $\\binom{10}{7}$ ?",
+      "options": [
+        "120",
+        "210",
+        "720",
+        "5040"
+      ],
+      "answer": 0,
+      "explanation": "Par symétrie, $\\binom{10}{7} = \\binom{10}{3} = \\frac{10 \\times 9 \\times 8}{6} = 120$."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Le nombre de permutations des lettres du mot 'RAME' est 24.",
+      "answer": true,
+      "explanation": "4 lettres distinctes, donc $4! = 24$."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Combien de mots de 2 lettres distinctes peut-on former avec les lettres A, B, C, D ? (Réponse numérique)",
+      "answer": "12",
+      "explanation": "Arrangement de 2 parmi 4 : $A_4^2 = 4 \\times 3 = 12$."
+    }
+  ]
+}

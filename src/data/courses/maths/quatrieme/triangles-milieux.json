@@ -1,0 +1,70 @@
+{
+  "id": "maths-quatrieme-triangles-milieux",
+  "title": "Droites des milieux dans un triangle",
+  "summary": "Découvre comment relier les milieux des côtés d'un triangle pour révéler des parallélismes et des rapports de longueurs cachés. Ce théorème est un outil puissant pour résoudre des problèmes de géométrie et est fréquemment testé au BEPC.",
+  "lesson": "## Introduction & Mise en situation\n\nAs-tu déjà remarqué que si tu relies les milieux de deux côtés d'un triangle, le segment obtenu est parallèle au troisième côté et mesure exactement la moitié de sa longueur ? Cette propriété, appelée **théorème des milieux**, est un outil fondamental en géométrie. Elle permet de démontrer des parallélismes, de calculer des longueurs, et de résoudre des problèmes de construction. Elle est très utilisée dans les exercices du BEPC et constitue une base pour des notions plus avancées comme les homothéties.\n\n## 1. Définitions et Principes Fondamentaux\n\n**Définition :** Dans un triangle, le **milieu** d'un côté est le point situé à égale distance des deux extrémités de ce côté.\n\n**Théorème des milieux (ou théorème de la droite des milieux) :**\n\nDans un triangle, si une droite passe par les milieux de deux côtés, alors elle est parallèle au troisième côté. De plus, la longueur du segment joignant ces deux milieux est égale à la moitié de la longueur du troisième côté.\n\nMathématiquement, soit un triangle $ABC$ avec $I$ le milieu de $[AB]$ et $J$ le milieu de $[AC]$. Alors :\n\n$$(IJ) \\parallel (BC) \\quad \\text{et} \\quad IJ = \\frac{BC}{2}$$\n\n**Remarque :** Il existe aussi une réciproque : si une droite passe par le milieu d'un côté et est parallèle à un second côté, alors elle coupe le troisième côté en son milieu.\n\n## 2. Propriétés et Méthodes d'application\n\n### Comment appliquer le théorème ?\n\n1. **Identifier les milieux** : Repère les points qui sont les milieux des côtés.\n2. **Vérifier qu'ils appartiennent à deux côtés différents** : Le théorème s'applique lorsque les deux milieux sont sur deux côtés distincts du triangle.\n3. **Appliquer la conclusion** : La droite qui les relie est parallèle au troisième côté, et la longueur du segment est la moitié de ce côté.\n\n### Exemple concret\n\nSoit un triangle $ABC$ tel que $AB = 8$ cm, $BC = 10$ cm, et $AC = 6$ cm. Soit $M$ le milieu de $[AB]$ et $N$ le milieu de $[AC]$.\n\n**Question :** Que peut-on dire de la droite $(MN)$ et du segment $[MN]$ ?\n\n**Solution :**\n\n- $M$ est le milieu de $[AB]$, $N$ le milieu de $[AC]$ : ce sont les milieux de deux côtés.\n- D'après le théorème des milieux, $(MN) \\parallel (BC)$ et $MN = \\frac{BC}{2}$.\n- Calcul : $MN = \\frac{10}{2} = 5$ cm.\n\n**Autre exemple avec réciproque :**\n\nDans le triangle $ABC$, $I$ est le milieu de $[AB]$ et la droite passant par $I$ et parallèle à $(BC)$ coupe $[AC]$ en $J$. Alors $J$ est le milieu de $[AC]$.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre les côtés** : Assure-toi que les deux milieux sont bien sur deux côtés différents. Par exemple, si $I$ et $J$ sont les milieux de $[AB]$ et $[BC]$, alors la droite $(IJ)$ est parallèle à $(AC)$ et $IJ = AC/2$.\n- **Oublier la réciproque** : Dans un exercice, si on te donne un milieu et un parallélisme, pense à utiliser la réciproque pour montrer que l'autre point est aussi un milieu.\n- **Ne pas vérifier les conditions** : Le théorème exige que les points soient des milieux. Si un point est simplement sur le côté mais pas au milieu, le théorème ne s'applique pas.\n- **Erreur de calcul** : Quand tu calcules la moitié d'une longueur, vérifie que tu divises bien par 2. Par exemple, si $BC = 7$ cm, alors $IJ = 3.5$ cm, pas $3$ cm.\n\n## Synthèse\n\n- **Propriété directe** : Dans un triangle, le segment joignant les milieux de deux côtés est parallèle au troisième côté et mesure la moitié de sa longueur.\n- **Réciproque** : Si une droite passe par le milieu d'un côté et est parallèle à un autre côté, alors elle coupe le troisième côté en son milieu.\n- **Application** : Ce théorème permet de démontrer des parallélismes, de calculer des longueurs et de résoudre des problèmes de géométrie.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "géométrie",
+    "triangles",
+    "théorème des milieux",
+    "parallélisme",
+    "BEPC"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans un triangle ABC, I est le milieu de [AB] et J est le milieu de [AC]. Que peut-on dire de la droite (IJ) ?",
+      "options": [
+        "Elle est perpendiculaire à (BC)",
+        "Elle est parallèle à (BC)",
+        "Elle est confondue avec (BC)",
+        "Elle coupe (BC) en son milieu"
+      ],
+      "answer": 1,
+      "explanation": "D'après le théorème des milieux, la droite joignant les milieux de deux côtés est parallèle au troisième côté."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Si I est le milieu de [AB] et J le milieu de [AC], alors IJ = BC/2.",
+      "answer": true,
+      "explanation": "C'est exactement l'énoncé du théorème des milieux : la longueur du segment joignant les milieux est la moitié du troisième côté."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Dans un triangle ABC, M est le milieu de [AB] et N est le milieu de [AC]. Si BC = 12 cm, alors MN = ______ cm.",
+      "answer": "6",
+      "explanation": "MN = BC/2 = 12/2 = 6 cm."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans un triangle ABC, I est le milieu de [AB]. La droite passant par I et parallèle à (BC) coupe (AC) en J. Que peut-on affirmer ?",
+      "options": [
+        "J est le milieu de [AC]",
+        "J est le milieu de [AB]",
+        "J est le milieu de [BC]",
+        "J est le milieu de [IJ]"
+      ],
+      "answer": 0,
+      "explanation": "C'est la réciproque du théorème des milieux : si une droite passe par le milieu d'un côté et est parallèle à un autre côté, alors elle coupe le troisième côté en son milieu."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Si dans un triangle ABC, M est le milieu de [AB] et N est le milieu de [AC], alors (MN) est perpendiculaire à (BC).",
+      "answer": false,
+      "explanation": "Le théorème des milieux dit que (MN) est parallèle à (BC), pas perpendiculaire."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Dans un triangle ABC, I est le milieu de [AB] et J est le milieu de [AC]. Si IJ = 5 cm, alors BC = ______ cm.",
+      "answer": "10",
+      "explanation": "D'après le théorème, IJ = BC/2, donc BC = 2 * IJ = 2 * 5 = 10 cm."
+    }
+  ]
+}

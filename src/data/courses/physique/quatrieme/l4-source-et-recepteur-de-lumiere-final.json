@@ -1,0 +1,206 @@
+{
+  "id": "physique-quatrieme-l4-source-et-recepteur-de-lumiere-final",
+  "subjectId": "physique",
+  "levelId": "quatrieme",
+  "slug": "l4-source-et-recepteur-de-lumiere-final",
+  "title": "Sources et récepteurs de lumière – Leçon de physique pour 4ème",
+  "summary": "Cette leçon aborde les concepts fondamentaux des sources et récepteurs de lumière, distinguant les types primaires et secondaires, ainsi que les récepteurs naturels et artificiels. Elle inclut des activités pratiques, des expériences sur le chlorure d’argent et la photorésistance, ainsi que des applications concrètes dans la vie quotidienne.",
+  "lesson": "# Sources et récepteurs de lumière\n\n## 1. Introduction\nLa lumière est une forme d’énergie électromagnétique perceptible par l’œil humain. Elle provient de sources qui l’émettent ou la diffusent, et elle est captée par des récepteurs qui réagissent à son passage.\n\n## 2. Sources de lumière\n\n### 2.1 Définition\nUne **source de lumière** est un corps qui émet de la lumière.\n\n### 2.2 Types\n| Type | Description | Exemples |\n|------|-------------|----------|\n| **Primaires** | Émet la lumière qu’elle produit | Soleil, flamme, lampe à incandescence |\n| **Secondaires** | Diffuse ou reflète la lumière reçue | Lune, mur éclairé, tableau |\n\n#### 2.2.1 Sources primaires naturelles\nSoleil, étoiles, lucioles.\n\n#### 2.2.2 Sources primaires artificielles\nLampes à incandescence, néons, téléviseurs.\n\n## 3. Récepteurs de lumière\n\n### 3.1 Définition\nUn **récepteur de lumière** est un corps sensible à la lumière ou qui réagit à la lumière.\n\n### 3.2 Types\n| Type | Description | Exemples |\n|------|-------------|----------|\n| **Naturels** | Sensibles naturellement | Œil, peau, chlorophylle |\n| **Artificiels** | Sensibles grâce à la technologie | Photocellule, photorésistance (LDR), chlorure d’argent |\n\n## 4. Études de cas\n\n### 4.1 Chlorure d’argent\n- **Observation** : Noircissement sous lumière.\n- **Conclusion** : Récepteur photochimique.\n\n### 4.2 Photorésistance (LDR)\n- **Observation** : Conductivité augmente avec l’éclairage.\n- **Conclusion** : Récepteur photoélectrique.\n\n## 5. Applications\n- Appareils photographiques\n- Éclairage public\n- Panneaux solaires\n- Calculatrices solaires\n\n## 6. Activités\n- Compléter tableaux et phrases\n- Expérimenter avec le chlorure d’argent et la LDR\n\n## 7. Évaluation\n- QCM, vrai/faux, questions à réponse libre pour vérifier la compréhension des concepts clés.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel type de source de lumière émet la lumière qu’elle produit ?",
+      "options": [
+        "Source primaire",
+        "Source secondaire",
+        "Récepteur naturel",
+        "Récepteur artificiel"
+      ],
+      "answer": 0,
+      "explanation": "Une source primaire produit sa propre lumière, contrairement à une source secondaire qui ne fait que la diffuser."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Lequel de ces éléments est une source primaire artificielle ?",
+      "options": [
+        "Soleil",
+        "Lampe à incandescence",
+        "Lune",
+        "Mur éclairé"
+      ],
+      "answer": 1,
+      "explanation": "La lampe à incandescence est fabriquée par l’homme et émet de la lumière."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La LDR est un exemple de :",
+      "options": [
+        "Récepteur naturel",
+        "Récepteur artificiel",
+        "Source primaire",
+        "Source secondaire"
+      ],
+      "answer": 1,
+      "explanation": "La LDR (photorésistance) est un dispositif artificiel qui réagit à la lumière."
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "Le chlorure d’argent devient noir lorsqu’il est exposé à la lumière.",
+      "answer": true,
+      "explanation": "L’exposition à la lumière provoque la réduction du chlorure d’argent, le noircissant."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Une source secondaire ne peut pas être un objet naturel.",
+      "answer": false,
+      "explanation": "La lune est un exemple de source secondaire naturelle, car elle reflète la lumière du soleil."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "La LDR devient un _______ lorsqu’elle est éclairée.",
+      "answer": "conducteur",
+      "explanation": "Sous éclairage, la résistance de la LDR chute, la rendant conductrice."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel récepteur est sensible à la lumière et utilisé dans les appareils photographiques ?",
+      "options": [
+        "Œil",
+        "Chlorophylle",
+        "Photocellule",
+        "Lune"
+      ],
+      "answer": 2,
+      "explanation": "La photocellule (ou pellicule photographique) capte la lumière pour créer une image."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel est le principal effet de la lumière sur le chlorure d’argent ?",
+      "options": [
+        "Augmentation de la conductivité",
+        "Réduction chimique",
+        "Oxydation",
+        "Changement de couleur sans réaction chimique"
+      ],
+      "answer": 1,
+      "explanation": "La lumière provoque une réaction chimique de réduction du chlorure d’argent."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Les sources primaires naturelles incluent les lampes à incandescence.",
+      "answer": false,
+      "explanation": "Les lampes à incandescence sont artificielles, pas naturelles."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Un récepteur naturel sensible à la lumière est l'_______.",
+      "answer": "œil",
+      "explanation": "L’œil humain est un récepteur naturel qui détecte la lumière."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel type de source est la lune ?",
+      "options": [
+        "Source primaire naturelle",
+        "Source primaire artificielle",
+        "Source secondaire naturelle",
+        "Source secondaire artificielle"
+      ],
+      "answer": 2,
+      "explanation": "La lune ne produit pas sa propre lumière mais reflète celle du soleil."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "La photorésistance est un récepteur photoélectrique.",
+      "answer": true,
+      "explanation": "La photorésistance change de conductivité en fonction de l’éclairage, ce qui est une propriété photoélectrique."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Le chlorure d’argent est un récepteur _________.",
+      "answer": "photochimique",
+      "explanation": "Il réagit chimiquement à la lumière, se noircissant."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel est l’usage principal des panneaux solaires ?",
+      "options": [
+        "Éclairage public",
+        "Photographie",
+        "Conversion de lumière en énergie électrique",
+        "Réception de signaux radio"
+      ],
+      "answer": 2,
+      "explanation": "Les panneaux solaires convertissent la lumière du soleil en énergie électrique."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Une source secondaire peut être un objet artificiel comme un tableau éclairé.",
+      "answer": true,
+      "explanation": "Un tableau éclairé diffuse la lumière reçue, ce qui en fait une source secondaire artificielle."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel récepteur devient un isolant lorsqu’il n’est pas éclairé ?",
+      "options": [
+        "LDR",
+        "Chlorure d’argent",
+        "Œil",
+        "Photocellule"
+      ],
+      "answer": 0,
+      "explanation": "La LDR présente une haute résistance (isolant) en l’absence de lumière."
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "prompt": "Les récepteurs artificiels comprennent la ________ et la photorésistance.",
+      "answer": "photocellule",
+      "explanation": "La photocellule (ou pellicule photographique) est un récepteur artificiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Quel type de source est un mur éclairé par une lampe ?",
+      "options": [
+        "Source primaire naturelle",
+        "Source primaire artificielle",
+        "Source secondaire naturelle",
+        "Source secondaire artificielle"
+      ],
+      "answer": 3,
+      "explanation": "Un mur éclairé reflète la lumière, donc c’est une source secondaire artificielle."
+    },
+    {
+      "id": "q19",
+      "type": "truefalse",
+      "prompt": "Le chlorure d’argent reste blanc dans l’obscurité.",
+      "answer": true,
+      "explanation": "En l’absence de lumière, le chlorure d’argent ne se noircit pas et reste blanc."
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "id": "maths-seconde-l2-fonction-carre-maths-2nd-f2",
+  "subjectId": "maths",
+  "levelId": "seconde",
+  "slug": "l2-fonction-carre-maths-2nd-f2",
+  "title": "Fonction carré et second degré – cours de seconde (MENA CI)",
+  "summary": "Ce cours présente la résolution d'équations du type (x+3)(x‑5)=0, les équations x²=a, le signe d’un produit, la résolution d’inéquations produit et les propriétés de la fonction carré (variations, courbe, parité). Il inclut théorèmes, démonstrations et exemples concrets.",
+  "lesson": "## 1. Résolution d’équations factorisées\n```\n(x+3)(x‑5)=0  ⇔  x+3=0  ou  x‑5=0\n⇔  x=‑3  ou  x=5\n```",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la solution de (x+3)(x‑5)=0 ?",
+      "options": [
+        "x=‑3 ou x=5",
+        "x=‑3 et x=5",
+        "x=3 ou x=‑5",
+        "x=3 et x=5"
+      ],
+      "answer": 0,
+      "explanation": "Le produit est nul si l’un des facteurs l’est, donc x+3=0 ou x‑5=0, d’où x=‑3 ou x=5."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "L’équation x²=9 admet exactement deux solutions réelles.",
+      "answer": true,
+      "explanation": "Les solutions sont x=3 et x=‑3."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Complétez : Si a>0, l’équation x²=a a pour solutions __________ et __________.",
+      "answer": "a, -a",
+      "explanation": "Par le théorème, les solutions sont a et son opposé -a."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la nature de l’équation x²=0 ?",
+      "options": [
+        "Pas de solution",
+        "Une solution unique",
+        "Deux solutions identiques",
+        "Infinité de solutions"
+      ],
+      "answer": 1,
+      "explanation": "x²=0 ⇔ x=0, donc une unique solution."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "L’équation x²=‑4 possède une solution réelle.",
+      "answer": false,
+      "explanation": "Le carré d’un réel est toujours ≥0, donc aucune solution dans ℝ."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Le produit (3x‑2)(‑4x‑7) est positif pour :",
+      "options": [
+        "x∈]‑∞;‑7/4]∪[2/3;+∞[",
+        "x∈[‑7/4;2/3]",
+        "x∈]‑7/4;2/3[",
+        "x∈]‑∞;‑7/4[∪]2/3;+∞["
+      ],
+      "answer": 3,
+      "explanation": "Le tableau de signes montre que le produit est positif entre les deux racines, donc x∈]‑7/4;2/3[."
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Le signe d’un produit dépend du nombre de facteurs négatifs : pair → positif, impair → négatif.",
+      "answer": true,
+      "explanation": "C’est la règle du signe d’un produit."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Résoudre (3x‑2)(‑4x‑7)>0 : l’ensemble solution est __________.",
+      "answer": "]‑7/4;2/3[",
+      "explanation": "Le produit est positif entre les deux racines."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Sur quel intervalle la fonction f(x)=x² est‑elle croissante ?",
+      "options": [
+        "]‑∞;0]",
+        "[0;+∞[",
+        "]‑∞;0[",
+        "[‑1;1]"
+      ],
+      "answer": 1,
+      "explanation": "f′(x)=2x>0 pour x>0, donc croissante sur [0;+∞[."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quelle est la variation de f(x)=x² sur ]‑∞;0] ?",
+      "options": [
+        "Croissante",
+        "Décroissante",
+        "Constante",
+        "Nulle"
+      ],
+      "answer": 1,
+      "explanation": "Pour x<0, la dérivée 2x<0, donc la fonction décroît."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "La fonction carré est paire, c’est‑à‑dire f(‑x)=f(x) pour tout x réel.",
+      "answer": true,
+      "explanation": "(‑x)²=x²."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Valeurs de f(x)=x² pour x=0,1,2,3 : __________.",
+      "answer": "0,1,4,9",
+      "explanation": "On calcule simplement les carrés."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Pour 0<x<1, on a :",
+      "options": [
+        "x²>x",
+        "x²=x",
+        "x²<x",
+        "x²≤0"
+      ],
+      "answer": 2,
+      "explanation": "Dans cet intervalle, le carré est plus petit que le nombre lui‑même."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "La courbe de f(x)=x² est une parabole ouverte vers le haut.",
+      "answer": true,
+      "explanation": "C’est la forme caractéristique d’une fonction du second degré avec coefficient directeur positif."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Si a<0, l’équation x²=a n’a __________ de solution réelle.",
+      "answer": "aucune",
+      "explanation": "Le carré d’un réel ne peut être négatif."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel est le minimum de la fonction f(x)=x² ?",
+      "options": [
+        "‑∞",
+        "0",
+        "1",
+        "Aucun minimum"
+      ],
+      "answer": 1,
+      "explanation": "Le minimum global est atteint en x=0 avec f(0)=0."
+    }
+  ]
+}

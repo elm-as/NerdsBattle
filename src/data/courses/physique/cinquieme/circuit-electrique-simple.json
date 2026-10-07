@@ -1,0 +1,70 @@
+{
+  "id": "physique-cinquieme-circuit-electrique-simple",
+  "title": "Circuit électrique simple et dipôles",
+  "summary": "Découvre comment l'électricité circule dans un circuit simple et identifie les dipôles essentiels. Ce chapitre te donne les clés pour comprendre les montages électriques du quotidien et réussir tes évaluations.",
+  "lesson": "## Introduction & Mise en situation\n\nL'électricité est partout : dans ta maison, à l'école, dans tes jeux vidéo. Mais comment fonctionne une lampe de poche ? Pourquoi une pile s'use-t-elle ? Ce chapitre te permettra de comprendre le fonctionnement d'un circuit électrique simple, de reconnaître les différents dipôles et de savoir les brancher correctement. C'est la base pour aborder des notions plus avancées comme la résistance ou la puissance.\n\n## 1. Définitions et Principes Fondamentaux\n\nUn **circuit électrique** est un ensemble de dipôles reliés par des fils conducteurs, formant une boucle fermée dans laquelle circule le courant électrique. Un **dipôle** est un composant électrique possédant deux bornes : une borne positive et une borne négative (ou une entrée et une sortie). Les dipôles se classent en deux catégories :\n\n- **Les générateurs** : ils fournissent l'énergie électrique au circuit. Exemples : pile, batterie, dynamo.\n- **Les récepteurs** : ils reçoivent l'énergie électrique et la transforment en une autre forme d'énergie. Exemples : lampe (énergie lumineuse), moteur (énergie mécanique), résistance (énergie thermique).\n\n**Le sens conventionnel du courant** : à l'extérieur du générateur, le courant circule de la borne positive (+) vers la borne négative (-).\n\n**L'intensité du courant** notée $I$ se mesure en ampères (A) avec un ampèremètre branché en série. La **tension** notée $U$ se mesure en volts (V) avec un voltmètre branché en dérivation (parallèle).\n\n**Loi d'additivité des tensions** (loi des mailles) : dans un circuit en série, la somme des tensions des récepteurs est égale à la tension du générateur : $$U_{générateur} = U_{lampe} + U_{moteur} + ...$$\n\n**Loi d'unicité de l'intensité** : dans un circuit en série, l'intensité du courant est la même en tout point du circuit : $$I = I_1 = I_2 = ...$$\n\n## 2. Propriétés et Méthodes d'application\n\n**Méthode pour construire un circuit simple :**\n1. Choisir un générateur (pile) et des récepteurs (lampe, moteur).\n2. Relier les dipôles en formant une boucle fermée avec des fils de connexion.\n3. Vérifier que les bornes sont correctement connectées : la borne positive du générateur doit être reliée à la borne positive du récepteur (respecter le sens du courant).\n4. Fermer l'interrupteur pour faire circuler le courant.\n\n**Exemple concret :**\nOn branche une pile de 4,5 V et deux lampes identiques en série. La tension aux bornes de la pile est de 4,5 V. Chaque lampe reçoit une tension de 2,25 V (car $U_{pile} = U_{L1} + U_{L2}$ et les lampes sont identiques). Si on mesure l'intensité avec un ampèremètre, on trouve la même valeur en tout point, par exemple 0,3 A.\n\n**Méthode pour mesurer une tension :**\n- Brancher le voltmètre en dérivation (parallèle) aux bornes du dipôle.\n- La borne V (ou +) du voltmètre est reliée à la borne positive du dipôle, la borne COM (ou -) à la borne négative.\n- Lire la valeur affichée en volts.\n\n**Méthode pour mesurer une intensité :**\n- Brancher l'ampèremètre en série dans le circuit.\n- La borne A (ou +) est reliée vers la borne positive du générateur, la borne COM (ou -) vers le reste du circuit.\n- Lire la valeur en ampères.\n\n**Exemple de calcul :**\nUn circuit en série comporte une pile de 6 V, une lampe et une résistance. La tension aux bornes de la lampe est de 2,5 V. Quelle est la tension aux bornes de la résistance ?\n\nSolution : $U_{résistance} = U_{pile} - U_{lampe} = 6 - 2,5 = 3,5$ V.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre le sens du courant et le sens des électrons** : le sens conventionnel va de + vers - à l'extérieur du générateur, alors que les électrons vont en sens inverse. Pour les exercices, on utilise toujours le sens conventionnel.\n- **Oublier que le circuit doit être fermé** : si l'interrupteur est ouvert, le courant ne circule pas, les lampes ne brillent pas.\n- **Mal brancher les multimètres** : un ampèremètre branché en dérivation provoque un court-circuit et peut endommager l'appareil. Un voltmètre branché en série interrompt le circuit.\n- **Ne pas respecter la loi d'additivité des tensions** : dans un circuit en série, la tension du générateur est égale à la somme des tensions des récepteurs. Ne pas additionner les tensions des récepteurs pour obtenir la tension du générateur est une erreur courante.\n- **Confondre les bornes** : la borne positive d'un générateur doit être reliée à la borne positive des récepteurs (en général marquée par un + ou une couleur).\n\n## Synthèse\n\n1. **Un circuit électrique simple** est une boucle fermée contenant un générateur et des récepteurs ; le courant circule de + vers - à l'extérieur du générateur.\n2. **Les dipôles** se divisent en générateurs (qui fournissent l'énergie) et récepteurs (qui la consomment).\n3. **Les lois fondamentales** : dans un circuit en série, l'intensité est la même partout et la tension du générateur est la somme des tensions des récepteurs.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "circuit électrique",
+    "dipôles",
+    "courant continu",
+    "loi des mailles",
+    "5ème"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le sens conventionnel du courant électrique à l'extérieur d'un générateur ?",
+      "options": [
+        "De la borne négative vers la borne positive",
+        "De la borne positive vers la borne négative",
+        "Il n'y a pas de sens défini",
+        "Cela dépend du type de générateur"
+      ],
+      "answer": 1,
+      "explanation": "Par convention, le courant circule de la borne positive vers la borne négative à l'extérieur du générateur."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Dans un circuit en série, l'intensité du courant est la même en tout point du circuit.",
+      "answer": true,
+      "explanation": "C'est la loi d'unicité de l'intensité dans un circuit en série."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Une pile de 9 V alimente une lampe et un moteur en série. La tension aux bornes de la lampe est de 3 V. Quelle est la tension (en V) aux bornes du moteur ?",
+      "answer": "6",
+      "explanation": "U_moteur = U_pile - U_lampe = 9 - 3 = 6 V."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Pour mesurer la tension aux bornes d'une lampe, comment doit-on brancher un voltmètre ?",
+      "options": [
+        "En série avec la lampe",
+        "En dérivation (parallèle) aux bornes de la lampe",
+        "Entre la borne positive de la pile et la lampe",
+        "Il n'est pas possible de mesurer la tension"
+      ],
+      "answer": 1,
+      "explanation": "Le voltmètre se branche toujours en dérivation (parallèle) pour mesurer une tension."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Un ampèremètre doit être branché en dérivation pour mesurer l'intensité du courant.",
+      "answer": false,
+      "explanation": "Un ampèremètre se branche en série dans le circuit, sinon il provoquerait un court-circuit."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Complète la phrase : Dans un circuit en série, la somme des tensions des récepteurs est égale à la tension du __________.",
+      "answer": "générateur",
+      "explanation": "C'est la loi d'additivité des tensions : U_générateur = U_récepteur1 + U_récepteur2 + ..."
+    }
+  ]
+}

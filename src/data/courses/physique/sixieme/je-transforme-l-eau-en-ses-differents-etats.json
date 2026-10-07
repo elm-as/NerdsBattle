@@ -1,0 +1,225 @@
+{
+  "id": "physique-sixieme-je-transforme-l-eau-en-ses-differents-etats",
+  "subjectId": "physique",
+  "levelId": "sixieme",
+  "slug": "je-transforme-l-eau-en-ses-differents-etats",
+  "title": "Les changements d'état de l'eau et mesure du volume",
+  "summary": "Découvre comment l'eau se transforme en glace, en vapeur et revient à l'état liquide. Apprends aussi à mesurer le volume d'un liquide et d'un solide.",
+  "lesson": "# Les changements d'état de l'eau et mesure du volume\n\n## Introduction\n\nL'eau est une substance qui peut exister sous trois états : solide (glace), liquide (eau) et gazeux (vapeur d'eau). Ces changements d'état sont observables dans la nature et dans notre quotidien. Par exemple, pourquoi un verre d'eau glacée transpire-t-il ? Nous allons étudier les transformations de l'eau et apprendre à mesurer des volumes.\n\n## 1. Définitions et notions clés\n\n### 1.1. Les changements d'état\n\n- **Solidification** : passage de l'état liquide à l'état solide. Elle se produit à 0°C. Le volume augmente (exemple : l'eau qui gèle dans une bouteille la casse).\n- **Fusion** : passage de l'état solide à l'état liquide. Elle se produit à 0°C. La température reste à 0°C jusqu'à ce que toute la glace ait fondu.\n- **Ébullition** : passage de l'état liquide à l'état gazeux lorsque le liquide bout. Elle se produit à 100°C.\n- **Condensation** : passage de l'état gazeux à l'état liquide. Elle se produit au contact d'un objet froid.\n- **Vaporisation** : passage de l'état liquide à l'état gazeux. Il existe deux types : l'ébullition (à 100°C) et l'évaporation (à l'air libre, à toute température).\n\n### 1.2. Le cycle de l'eau\n\nL'eau des mers, fleuves, lacs et la transpiration des végétaux s'évapore sous l'effet du soleil. La vapeur d'eau monte, se refroidit et se condense pour former des nuages. Lorsque la température est très basse, l'eau se solidifie pour former de la neige ou de la glace. La pluie et la fusion de la neige alimentent les cours d'eau, les nappes phréatiques, etc. L'eau s'infiltre dans le sol et est absorbée par les racines des plantes. Le cycle recommence.\n\n### 1.3. Mesure du volume\n\n- **Capacité (ou contenance)** : volume intérieur d'un récipient.\n- **Volume** : espace occupé par un corps.\n- **Unités légales** : le litre (L) et ses sous-multiples (mL, cL, etc.), ainsi que le mètre cube (m³) et ses dérivés (dm³, cm³). 1 L = 1 dm³.\n- **Ménisque** : surface courbe d'un liquide dans un récipient gradué. On lit le volume au bas du ménisque.\n\n## 2. Applications et méthodes\n\n### 2.1. Mesurer le volume d'un liquide\n\nOn utilise une éprouvette graduée. On verse le liquide et on lit la valeur en se plaçant au niveau du bas du ménisque.\n\n### 2.2. Mesurer le volume d'un solide de forme quelconque\n\nOn utilise la méthode du déplacement d'eau :\n1. Remplir une éprouvette avec un volume connu d'eau (V1).\n2. Immerger complètement le solide.\n3. Lire le nouveau volume (V2).\n4. Le volume du solide est V = V2 - V1.\n\n### 2.3. Calculer le volume d'un solide de forme géométrique simple\n\n- Cube : V = côté × côté × côté\n- Pavé droit : V = longueur × largeur × hauteur\n- Cylindre : V = π × rayon² × hauteur\n\n## 3. Pièges fréquents\n\n- Ne pas confondre **masse** et **volume** : la masse se mesure avec une balance (en kg), le volume avec une éprouvette (en L ou m³).\n- Ne pas confondre **capacité** et **volume** : la capacité est le volume intérieur d'un récipient, le volume est l'espace occupé par un corps.\n- Pour la solidification de l'eau, le volume **augmente** (contrairement à la plupart des substances). C'est pourquoi une bouteille pleine d'eau éclate au congélateur.\n- La température de fusion de la glace et de solidification de l'eau est la même : 0°C.\n- L'ébullition se produit à 100°C (sous pression normale), l'évaporation peut se produire à toute température.\n\n## Synthèse\n\nL'eau change d'état selon la température : solide en dessous de 0°C, liquide entre 0°C et 100°C, gazeuse au-dessus de 100°C. Ces changements sont réversibles et constituent le cycle de l'eau. Pour mesurer un volume, on utilise des unités comme le litre ou le mètre cube, et des instruments comme l'éprouvette graduée. La méthode du déplacement d'eau permet de mesurer le volume d'un solide quelconque.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Qu'est-ce que la solidification ?",
+      "options": [
+        "Le passage de l'état liquide à l'état solide",
+        "Le passage de l'état solide à l'état liquide",
+        "Le passage de l'état liquide à l'état gazeux",
+        "Le passage de l'état gazeux à l'état liquide"
+      ],
+      "answer": 0,
+      "explanation": "La solidification est le passage de l'état liquide à l'état solide, comme l'eau qui devient glace."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "À quelle température se produit la fusion de la glace ?",
+      "options": [
+        "0°C",
+        "100°C",
+        "-10°C",
+        "20°C"
+      ],
+      "answer": 0,
+      "explanation": "La fusion de la glace se produit à 0°C."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "L'ébullition de l'eau se produit à 100°C.",
+      "answer": true,
+      "explanation": "L'ébullition est le passage de l'état liquide à l'état gazeux lorsque l'eau bout, à 100°C."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est le passage de l'état gazeux à l'état liquide ?",
+      "options": [
+        "La condensation",
+        "La fusion",
+        "La solidification",
+        "L'évaporation"
+      ],
+      "answer": 0,
+      "explanation": "La condensation est le passage de l'état gazeux à l'état liquide, elle se fait au contact d'un objet froid."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "prompt": "La vaporisation est le passage de l'état liquide à l'état ______.",
+      "answer": "gazeux",
+      "explanation": "La vaporisation est le passage de l'état liquide à l'état gazeux."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quels sont les deux types de vaporisation ?",
+      "options": [
+        "L'ébullition et l'évaporation",
+        "La fusion et la solidification",
+        "La condensation et la sublimation",
+        "L'ébullition et la condensation"
+      ],
+      "answer": 0,
+      "explanation": "Il existe deux types de vaporisation : l'ébullition (quand le liquide bout) et l'évaporation (à l'air libre)."
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Lors de la solidification de l'eau, le volume diminue.",
+      "answer": false,
+      "explanation": "Lors de la solidification de l'eau, le volume augmente. C'est pourquoi une bouteille pleine d'eau se casse au congélateur."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Pourquoi un verre rempli d'eau glacée transpire-t-il ?",
+      "options": [
+        "Parce que la vapeur d'eau de l'air se condense au contact du verre froid",
+        "Parce que l'eau glacée s'échappe du verre",
+        "Parce que le verre fond",
+        "Parce que l'eau se solidifie"
+      ],
+      "answer": 0,
+      "explanation": "La vapeur d'eau contenue dans l'air se condense au contact du verre froid, formant des gouttelettes d'eau."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Le passage de l'état solide à l'état liquide s'appelle la ______.",
+      "answer": "fusion",
+      "explanation": "La fusion est le passage de l'état solide à l'état liquide."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel appareil électrique permet la solidification de l'eau ?",
+      "options": [
+        "Le congélateur",
+        "Le four",
+        "Le micro-ondes",
+        "La bouilloire"
+      ],
+      "answer": 0,
+      "explanation": "Le congélateur permet de refroidir l'eau jusqu'à 0°C et de la solidifier."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Pendant la fusion de la glace, la température reste à 0°C jusqu'à ce que toute la glace ait fondu.",
+      "answer": true,
+      "explanation": "Pendant la fusion, la température reste constante à 0°C tant qu'il reste de la glace."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Qu'est-ce que la capacité d'un récipient ?",
+      "options": [
+        "Son volume intérieur",
+        "Son poids",
+        "Sa hauteur",
+        "Sa masse"
+      ],
+      "answer": 0,
+      "explanation": "La capacité (ou contenance) est le volume intérieur d'un récipient."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "L'unité légale de volume est le ______ (ou le mètre cube).",
+      "answer": "litre",
+      "explanation": "L'unité légale de volume est le litre (L) ou le mètre cube (m³)."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Comment mesure-t-on le volume d'un solide de forme quelconque ?",
+      "options": [
+        "Par déplacement d'eau dans une éprouvette graduée",
+        "En le pesant",
+        "En le mesurant avec une règle",
+        "En le plongeant dans l'huile"
+      ],
+      "answer": 0,
+      "explanation": "On mesure le volume d'un solide quelconque par déplacement d'eau : on note la différence de volume."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Le ménisque est la surface courbe d'un liquide dans un récipient gradué.",
+      "answer": true,
+      "explanation": "Le ménisque est la surface courbe du liquide ; on lit le volume au bas du ménisque."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel est le volume d'un cube de côté 2 cm ?",
+      "options": [
+        "8 cm³",
+        "6 cm³",
+        "4 cm³",
+        "2 cm³"
+      ],
+      "answer": 0,
+      "explanation": "Le volume d'un cube est côté × côté × côté, soit 2×2×2 = 8 cm³."
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "prompt": "Lors de l'ébullition, l'eau se transforme en ______.",
+      "answer": "vapeur",
+      "explanation": "L'ébullition est le passage de l'état liquide à l'état gazeux (vapeur d'eau)."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Dans le cycle de l'eau, que se passe-t-il lorsque la vapeur d'eau se condense en altitude ?",
+      "options": [
+        "Elle forme des nuages",
+        "Elle forme de la neige",
+        "Elle forme de la pluie",
+        "Elle s'évapore"
+      ],
+      "answer": 0,
+      "explanation": "La vapeur d'eau se condense en altitude pour former des nuages (gouttelettes d'eau)."
+    },
+    {
+      "id": "q19",
+      "type": "truefalse",
+      "prompt": "L'évaporation se produit uniquement à 100°C.",
+      "answer": false,
+      "explanation": "L'évaporation se produit à l'air libre, à toute température, contrairement à l'ébullition qui se produit à 100°C."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Quel est le matériel utilisé pour mesurer le volume d'un liquide ?",
+      "options": [
+        "Une éprouvette graduée",
+        "Une balance",
+        "Un thermomètre",
+        "Un chronomètre"
+      ],
+      "answer": 0,
+      "explanation": "On utilise une éprouvette graduée pour mesurer le volume d'un liquide."
+    }
+  ]
+}

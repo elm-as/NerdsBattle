@@ -1,0 +1,166 @@
+{
+  "id": "philosophie-terminale-cours-complet-de-la-philosophie-tle-a-by-teh",
+  "subjectId": "philosophie",
+  "levelId": "terminale",
+  "slug": "cours-complet-de-la-philosophie-tle-a-by-teh",
+  "title": "Philosophie Terminale – Origines, définitions et problématique de la philosophie",
+  "summary": "Ce cours présente les origines chronologiques et géographiques de la philosophie, les sources profondes de la réflexion philosophique (étonnement, doute) et les différentes définitions de la philosophie : amour de la sagesse, recherche critique, vision du monde, subjectivité et relativité. Il conclut sur les enjeux de la définition et les limites de la discipline.",
+  "lesson": "# Chapitre 1 – Origines et définitions de la philosophie\n\n## Introduction\nLa philosophie naît d’un étonnement face au monde et d’un doute permanent. Elle se développe à travers des contextes historiques et culturels variés.\n\n## I. Origine chronologique et lieu de naissance\n### 1. Origine chronologique\n- Naissance dans la Grèce archaïque (VIe‑Vᵉ s. av. J.-C.).\n- Premiers penseurs : Thalès, Anaximandre, Héraclite.\n### 2. Lieu de naissance\n- Milet, Athènes, et les cités‑états grecques comme foyers de débat.\n### 3. Sources profondes de la réflexion\n- **L’étonnement** : question du « pourquoi » du monde.\n- **Le doute** : remise en cause des certitudes apparentes.\n\n## II. Problématique de la définition de la philosophie\n### 1. Philosophie = amour de la sagesse\n- Du grec *philosophia* (« amour du savoir »).\n### 2. Recherche de la sagesse, non possession\n- La sagesse est un idéal à atteindre, jamais acquis définitivement.\n### 3. Réflexion critique\n- Analyse des présupposés, argumentation logique.\n### 4. Vision du monde\n- Construction d’un cadre interprétatif de la réalité.\n### 5. Subjectivité et relativité\n- La philosophie dépend du contexte historique et culturel de l’auteur.\n#### Argument de la subjectivité\n- Chaque philosophe porte son propre horizon de pensée.\n#### Argument de la relativité\n- Les vérités philosophiques varient selon les paradigmes culturels.\n\n## Conclusion générale\nDéfinir la philosophie revient à saisir son caractère dynamique : elle est à la fois quête de sagesse, méthode critique et construction de sens, toujours conditionnée par la subjectivité et la relativité des points de vue.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "philosophie",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel philosophe est considéré comme le premier à avoir posé la question du *physis* (nature) ?",
+      "options": [
+        "Thalès",
+        "Socrate",
+        "Platon",
+        "Aristote"
+      ],
+      "answer": 0,
+      "explanation": "Thalès de Milet est souvent crédité comme le premier philosophe à chercher une explication naturelle du monde."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le doute est une source secondaire de la réflexion philosophique, moins importante que l'étonnement.",
+      "answer": false,
+      "explanation": "Le doute, aux côtés de l'étonnement, constitue une source fondamentale de la réflexion philosophique."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le mot grec *philosophia* signifie \"_____ de la sagesse\".",
+      "answer": "amour",
+      "explanation": "*Philosophia* se traduit littéralement par \"amour de la sagesse\"."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle cité‑état grecque est surtout associée à la naissance de la philosophie politique ?",
+      "options": [
+        "Sparta",
+        "Corinthe",
+        "Athènes",
+        "Thèbes"
+      ],
+      "answer": 2,
+      "explanation": "Athènes a été le berceau de la philosophie politique avec des penseurs comme Socrate, Platon et Aristote."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Parmi les affirmations suivantes, laquelle décrit le mieux la philosophie selon la perspective de la subjectivité ?",
+      "options": [
+        "Elle donne des vérités universelles",
+        "Elle dépend du contexte historique de chaque penseur",
+        "Elle repose uniquement sur des faits empiriques",
+        "Elle est identique à la science"
+      ],
+      "answer": 1,
+      "explanation": "La subjectivité implique que la philosophie varie selon le contexte historique et culturel de chaque auteur."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Selon la définition classique, la philosophie vise à posséder la sagesse plutôt qu'à la rechercher.",
+      "answer": false,
+      "explanation": "La philosophie est une quête permanente de la sagesse, non sa possession définitive."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Le terme \"relativité\" en philosophie indique que les vérités sont _____ selon les cultures.",
+      "answer": "variables",
+      "explanation": "La relativité souligne que les vérités philosophiques peuvent changer d’une culture à l’autre."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel est le rôle principal du doute dans la démarche philosophique ?",
+      "options": [
+        "Confirmer les connaissances établies",
+        "Éliminer toute forme de connaissance",
+        "Stimuler la recherche critique",
+        "Renforcer les croyances personnelles"
+      ],
+      "answer": 2,
+      "explanation": "Le doute incite à questionner les certitudes et à approfondir la réflexion critique."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "L’étonnement est considéré comme le point de départ de toute investigation philosophique.",
+      "answer": true,
+      "explanation": "L’étonnement face au monde pousse à chercher des explications, déclenchant la réflexion philosophique."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quelle affirmation résume le mieux la vision du monde philosophique ?",
+      "options": [
+        "Un ensemble de faits scientifiques",
+        "Un cadre interprétatif de la réalité",
+        "Une collection de mythes",
+        "Un système juridique"
+      ],
+      "answer": 1,
+      "explanation": "La philosophie propose un cadre interprétatif qui donne du sens à la réalité."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "La philosophie est souvent décrite comme un \"discours _____\".",
+      "answer": "rationnel",
+      "explanation": "Le caractère rationnel caractérise le discours philosophique, fondé sur la logique."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel philosophe a introduit la méthode du doute systématique ?",
+      "options": [
+        "Platon",
+        "Aristote",
+        "Descartes",
+        "Kant"
+      ],
+      "answer": 2,
+      "explanation": "René Descartes a développé le doute méthodique pour fonder la connaissance."
+    },
+    {
+      "id": "q13",
+      "type": "truefalse",
+      "prompt": "La philosophie africaine ne pose pas de problématiques spécifiques, elle suit les mêmes questions que la philosophie occidentale.",
+      "answer": false,
+      "explanation": "La philosophie africaine aborde des problématiques propres à son contexte culturel et historique."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel élément n’est PAS une source profonde de la réflexion philosophique selon le cours ?",
+      "options": [
+        "L’étonnement",
+        "Le doute",
+        "L’observation scientifique",
+        "Le questionnement existentiel"
+      ],
+      "answer": 2,
+      "explanation": "L’observation scientifique relève davantage de la méthode scientifique que des sources premières de la philosophie."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "La définition de la philosophie comme \"amour de la sagesse\" provient du terme grec _____ .",
+      "answer": "philosophia",
+      "explanation": "Le mot grec *philosophia* signifie littéralement \"amour de la sagesse\"."
+    }
+  ]
+}

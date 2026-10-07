@@ -1,0 +1,69 @@
+{
+  "id": "anglais-terminale-essay-writing-argumentative",
+  "title": "Formal Essay Writing & Argumentation (BAC exam)",
+  "summary": "Maîtrisez l'art de la dissertation argumentative en anglais pour réussir l'épreuve du BAC. Ce cours vous donne les clés pour structurer vos idées, argumenter avec rigueur et éviter les pièges courants.",
+  "lesson": "## Introduction & Mise en situation\n\nRédiger un essai argumentatif en anglais est une compétence essentielle pour l'épreuve du BAC. Que ce soit pour le sujet d'imagination ou de réflexion, vous devez être capable de présenter une thèse claire, de la défendre avec des arguments solides et de convaincre votre lecteur. Ce cours vous guidera à travers les principes fondamentaux, les méthodes d'application et les pièges à éviter pour maximiser votre score.\n\n## 1. Définitions et Principes Fondamentaux\n\nUn essai argumentatif (argumentative essay) est un texte dans lequel vous exprimez et défendez une opinion sur un sujet donné. Il suit une structure précise :\n\n- **Introduction** : présente le sujet, pose une problématique et annonce votre thèse (thesis statement).\n- **Développement** : comprend 2 à 3 paragraphes, chacun avec une idée principale (topic sentence) soutenue par des exemples et des preuves.\n- **Conclusion** : résume vos arguments et réaffirme votre thèse de manière convaincante.\n\n**La thèse (thesis statement)** est la phrase clé qui exprime votre position. Elle doit être précise et démontrable. Par exemple, pour le sujet \"Should students wear uniforms?\", une thèse pourrait être : \"School uniforms should be mandatory because they promote equality and reduce distractions.\"\n\n**Les connecteurs logiques** (linking words) sont essentiels pour structurer votre argumentation :\n- Pour ajouter : *furthermore, moreover, in addition*\n- Pour opposer : *however, on the other hand, nevertheless*\n- Pour conclure : *therefore, consequently, as a result*\n\n## 2. Propriétés et Méthodes d'application\n\n### La méthode P.E.E.L. (Point, Evidence, Explanation, Link)\n\nPour chaque paragraphe de développement, suivez cette structure :\n\n1. **Point** : énoncez votre idée principale (topic sentence).\n2. **Evidence** : donnez un exemple concret, une statistique ou une référence.\n3. **Explanation** : expliquez comment cette preuve soutient votre point.\n4. **Link** : faites la transition vers le paragraphe suivant.\n\n**Exemple concret** :\n\nSujet : \"Social media has a negative impact on teenagers.\"\n\n- **Point** : Social media can lead to anxiety and depression among teenagers.\n- **Evidence** : According to a 2023 study, teenagers who spend more than three hours a day on social media are twice as likely to report symptoms of anxiety.\n- **Explanation** : This is because constant comparison with others and cyberbullying create stress and low self-esteem.\n- **Link** : Furthermore, this mental health issue can affect their academic performance.\n\n### Plan type pour l'essai\n\n- **Introduction** (environ 10% du texte) : accroche, contexte, thèse.\n- **Développement** (80%) : 2-3 paragraphes avec P.E.E.L.\n- **Conclusion** (10%) : reformulation de la thèse, résumé des arguments, ouverture.\n\n### Utilisation de formules de transition\n\nPour une bonne cohérence, utilisez des expressions comme :\n\n- *First of all, ...*\n- *In addition, ...*\n- *On the contrary, ...*\n- *In conclusion, ...*\n\n## 3. Pièges fréquents & Mises en garde\n\n1. **Hors-sujet** : ne pas répondre à la question posée. Lisez attentivement le sujet et soulignez les mots-clés.\n2. **Thèse floue** : une thèse vague affaiblit votre argumentation. Soyez précis et direct.\n3. **Manque de connecteurs** : les transitions sont essentielles pour la fluidité. Utilisez-les à chaque début de paragraphe.\n4. **Exemples non pertinents** : vos preuves doivent être en lien direct avec votre argument.\n5. **Conclusion trop longue ou nouvelle idée** : la conclusion ne doit pas introduire de nouveaux arguments.\n6. **Erreurs de grammaire et de vocabulaire** : relisez-vous pour éviter les fautes qui pénalisent la clarté.\n\n## Synthèse\n\n1. **Structure** : introduction (thèse), développement (arguments avec exemples), conclusion (résumé).\n2. **Méthode P.E.E.L.** : Point, Evidence, Explanation, Link pour chaque paragraphe.\n3. **Connecteurs logiques** : indispensables pour la cohérence et la progression de l'argumentation.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "essay writing",
+    "argumentation",
+    "bac",
+    "anglais"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "What is the main purpose of a thesis statement in an argumentative essay?",
+      "options": [
+        "To provide a summary of the essay",
+        "To state the writer's position clearly",
+        "To introduce a counterargument",
+        "To give an example"
+      ],
+      "answer": 1,
+      "explanation": "The thesis statement expresses the writer's main argument or position on the topic."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "In the P.E.E.L. method, 'E' stands for 'Explanation'.",
+      "answer": false,
+      "explanation": "In P.E.E.L., 'E' stands for 'Evidence', and the second 'E' is for 'Explanation'."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Complete the sentence: 'According to the P.E.E.L. method, each paragraph should start with a ______ sentence that states the main idea.'",
+      "answer": "topic",
+      "explanation": "The first element 'Point' is expressed in a topic sentence."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Which linking word is used to introduce a contrasting idea?",
+      "options": [
+        "Furthermore",
+        "Moreover",
+        "However",
+        "Therefore"
+      ],
+      "answer": 2,
+      "explanation": "'However' is used to show contrast, while the others add or conclude."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "In the conclusion of an argumentative essay, you should introduce new arguments.",
+      "answer": false,
+      "explanation": "The conclusion should summarize and restate the thesis, not introduce new ideas."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "What is the minimum number of body paragraphs recommended for a BAC essay? (write the number in digits)",
+      "answer": "2",
+      "explanation": "A typical essay has at least two body paragraphs, each developing a separate argument."
+    }
+  ]
+}

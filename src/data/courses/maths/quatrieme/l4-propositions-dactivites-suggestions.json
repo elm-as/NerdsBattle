@@ -1,0 +1,110 @@
+{
+  "id": "maths-quatrieme-l4-propositions-dactivites-suggestions",
+  "subjectId": "maths",
+  "levelId": "quatrieme",
+  "slug": "l4-propositions-dactivites-suggestions",
+  "title": "MENA CI – Mathématiques – Quatrième : Angles, Distances, Cercles et Triangles",
+  "summary": "Ce document propose une approche pédagogique structurée pour les élèves de quatrième en MENA CI. Il détaille les contenus, les techniques d’enseignement, les supports didactiques et propose des activités variées autour des angles, des distances et des cercles dans le cadre de la géométrie. Les exercices sont conçus pour favoriser la manipulation d’instruments, la découverte par la pratique et la compréhension conceptuelle plutôt que la mémorisation.",
+  "lesson": "# Leçon 1 : Les Angles\n\n## Objectifs\n- Identifier les angles alternes internes, correspondants et au centre.\n- Utiliser les instruments de géométrie pour construire et mesurer des angles.\n- Relier les angles à des figures géométriques concrètes.\n\n## Contenus\n- **Angles alternes internes** : angles situés de part et d’autre d’une transversale, à l’intérieur de deux droites parallèles.\n- **Angles correspondants** : angles situés à la même position par rapport à une transversale.\n- **Angles au centre** : angles dont le sommet est le centre d’un cercle.\n\n## Techniques pédagogiques\n- Manipulation d’instruments (compas, règle, rapporteur).\n- Construction guidée de figures.\n- Travail individuel puis en groupes.\n- Utilisation de fiches d’exercices et de supports numériques.\n\n## Supports didactiques\n- Fiches d’exercices, manuel scolaire.\n- Instruments de géométrie (compas, règle, rapporteur).\n- Ressources Internet et revues de géométrie.\n\n---\n\n# Leçon 2 : Distances\n\n## Objectifs\n- Calculer la distance d’un point à une droite.\n- Comprendre la bissectrice d’un angle.\n- Mesurer la distance entre deux droites parallèles.\n\n## Contenus\n- **Distance point-droite** : définition géométrique via la projection orthogonale.\n- **Bissectrice** : droite qui divise un angle en deux parties égales.\n- **Distance droites parallèles** : distance constante entre deux droites parallèles.\n\n## Techniques pédagogiques\n- Manipulation d’instruments pour construire des projections.\n- Expérimentation pour visualiser la bissectrice.\n- Travail individuel puis en groupes.\n\n## Supports didactiques\n- Fiches d’exercices, manuel scolaire.\n- Mass média, Internet, revues de géométrie.\n\n---\n\n# Leçon 3 : Cercles et Triangles\n\n## Objectifs\n- Analyser la position relative d’un cercle et d’une droite.\n- Identifier les points remarquables d’un triangle (milieu, médiatrices).\n- Comprendre la droite des milieux.\n\n## Contenus\n- **Position relative** : tangente, secante, intérieure, extérieure.\n- **Droite des milieux** : segment reliant les milieux des deux côtés d’un triangle.\n- **Points remarquables** : milieu, médiatrice, centre de gravité.\n\n## Techniques pédagogiques\n- Construction de cercles et de droites.\n- Observation et manipulation pour découvrir les positions.\n- Travail individuel puis en groupes.\n\n## Supports didactiques\n- Fiches d’exercices, manuel scolaire.\n- Mass média, Internet, revues de géométrie.\n\n---\n\n# Activités transversales\n- Utilisation d’instruments de géométrie pour toutes les constructions.\n- Exercices variés liés aux constructions et raisonnements.\n- Travail en groupe pour favoriser l’échange d’idées.\n\n# Évaluation formative\n- Fiches d’exercices à rendre.\n- Quiz interactifs en ligne.\n- Observation de la manipulation des instruments.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel angle est formé par deux droites parallèles coupées par une transversale, à l’intérieur des droites?",
+      "options": [
+        "Angle alterné externe",
+        "Angle alterné interne",
+        "Angle correspondant",
+        "Angle au centre"
+      ],
+      "answer": 1,
+      "explanation": "Les angles alternés internes sont ceux situés de part et d’autre de la transversale, à l’intérieur des deux droites parallèles."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Un angle dont le sommet est le centre d’un cercle est appelé:",
+      "options": [
+        "Angle inscrit",
+        "Angle au centre",
+        "Angle extérieur",
+        "Angle correspondant"
+      ],
+      "answer": 1,
+      "explanation": "Un angle dont le sommet est le centre du cercle est appelé angle au centre."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La bissectrice d’un angle est:",
+      "options": [
+        "Une droite qui coupe l’angle en deux parties égales",
+        "Une droite qui coupe le cercle en deux parties égales",
+        "Une droite qui coupe la droite en deux parties égales",
+        "Une droite qui coupe le triangle en deux parties égales"
+      ],
+      "answer": 0,
+      "explanation": "La bissectrice est la droite qui divise l’angle en deux angles égaux."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "La distance d’un point à une droite est mesurée par:",
+      "options": [
+        "La longueur du segment perpendiculaire",
+        "La longueur du segment parallèle",
+        "La longueur du segment tangent",
+        "La longueur du segment secant"
+      ],
+      "answer": 0,
+      "explanation": "La distance point‑droite est la longueur du segment perpendiculaire minimal."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Deux droites parallèles ont une distance constante. Cette distance est:",
+      "options": [
+        "La longueur de la transversale",
+        "La longueur du segment perpendiculaire",
+        "La longueur du segment parallèle",
+        "La longueur du segment tangent"
+      ],
+      "answer": 1,
+      "explanation": "La distance entre deux droites parallèles est la longueur du segment perpendiculaire minimal."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Un cercle est tangent à une droite si:",
+      "options": [
+        "Il coupe la droite en deux points",
+        "Il coupe la droite en un point",
+        "Il ne coupe pas la droite",
+        "Il coupe la droite en trois points"
+      ],
+      "answer": 1,
+      "explanation": "Un cercle est tangent à une droite lorsqu’il touche la droite en un seul point."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "La droite des milieux d’un triangle relie:",
+      "options": [
+        "Les sommets du triangle",
+        "Les milieux des côtés",
+        "Les médiatrices",
+        "Les hauteurs"
+      ],
+      "answer": 1,
+      "explanation": "La droite des milieux relie les milieux des deux côtés d’un triangle."
+    }
+  ]
+}

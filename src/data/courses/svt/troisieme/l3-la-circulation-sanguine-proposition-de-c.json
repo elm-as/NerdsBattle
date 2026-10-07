@@ -1,0 +1,165 @@
+{
+  "id": "svt-troisieme-l3-la-circulation-sanguine-proposition-de-c",
+  "subjectId": "svt",
+  "levelId": "troisieme",
+  "slug": "l3-la-circulation-sanguine-proposition-de-c",
+  "title": "La circulation sanguine",
+  "summary": "Découvre comment le cœur propulse le sang dans tout l'organisme et comment ton mode de vie influence ta santé cardiovasculaire.",
+  "lesson": "# La circulation sanguine\n\n## Introduction\nLa circulation sanguine est le mouvement du sang dans l'organisme. Elle dépend du cœur, suit un trajet précis et est influencée par notre mode de vie. Cette leçon t'aidera à comprendre le rôle du cœur, le trajet du sang et les facteurs qui peuvent perturber cette circulation.\n\n## 1. Définitions & Notions clés\n- **Révolution cardiaque** : succession des trois phases du battement du cœur (systole auriculaire, systole ventriculaire, diastole générale). Elle dure 0,8 s.\n- **Systole auriculaire** : contraction des oreillettes (0,1 s) qui chasse le sang vers les ventricules.\n- **Systole ventriculaire** : contraction des ventricules (0,3 s) qui éjecte le sang dans les artères.\n- **Diastole générale** : relâchement des oreillettes et des ventricules (0,4 s) permettant le remplissage du cœur.\n- **Petite circulation (circulation pulmonaire)** : trajet du sang du ventricule droit aux poumons, puis des poumons à l'oreillette gauche.\n- **Grande circulation (circulation générale)** : trajet du sang du ventricule gauche aux organes, puis des organes à l'oreillette droite.\n- **Fréquence cardiaque** : nombre de révolutions cardiaques par unité de temps.\n- **Maladies cardiovasculaires** : maladies affectant le cœur et les vaisseaux sanguins (hypertension, AVC, infarctus du myocarde, athérosclérose).\n- **Athérosclérose** : dépôt de graisse (cholestérol) sur la paroi interne des artères, réduisant leur diamètre.\n\n## 2. Applications & Méthodes\n### Le fonctionnement du cœur\nLe cœur est composé de deux parties (gauche et droite) séparées. Chaque partie comporte une oreillette et un ventricule. Les valvules assurent la circulation du sang dans un seul sens.\n\n**Les trois phases du battement cardiaque :**\n1. **Systole auriculaire** : les oreillettes se contractent, le sang passe dans les ventricules.\n2. **Systole ventriculaire** : les ventricules se contractent, le sang est éjecté dans les artères (aorte et pulmonaire).\n3. **Diastole générale** : le cœur se relâche, les oreillettes se remplissent de sang.\n\n### Le trajet du sang\n- **Petite circulation** : ventricule droit → artères pulmonaires → poumons (purification du sang) → veines pulmonaires → oreillette gauche.\n- **Grande circulation** : ventricule gauche → artère aorte → organes (échanges) → veines caves → oreillette droite.\n\n### Facteurs influençant la circulation\n- **Facteurs de risque** : sédentarité, tabagisme, alcoolisme, mauvaise alimentation (trop grasse, sucrée, salée), excès de masse corporelle, diabète.\n- **Conséquences** : durcissement des vaisseaux, perte d'élasticité, hypertension artérielle, AVC, athérosclérose, infarctus du myocarde.\n- **Règles d'hygiène** : éviter les aliments trop riches en lipides, pratiquer du sport, éviter l'alcool et le tabac, porter des habits amples, faire vérifier régulièrement sa tension artérielle.\n\n## 3. Pièges fréquents\n- Ne pas confondre **systole** (contraction) et **diastole** (relâchement).\n- La **petite circulation** part du ventricule **droit** et va aux **poumons** ; la **grande circulation** part du ventricule **gauche** et va aux **organes**.\n- Le sang **rouge sombre** est chargé de **CO2** ; le sang **rouge vif** est chargé d'**O2**.\n- Les **artères pulmonaires** transportent du sang chargé de CO2 (contrairement aux autres artères).\n- L'**athérosclérose** est due au dépôt de **cholestérol** sur les parois des artères, pas à un excès de sucre.\n\n## Synthèse\nLa circulation sanguine dépend du battement du cœur et suit deux trajets : la petite et la grande circulation. Elle est influencée par des facteurs comme l'alimentation, l'alcool, le tabac et la sédentarité. Adopter une bonne hygiène de vie permet de prévenir les maladies cardiovasculaires.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "svt",
+    "troisieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la durée d'une révolution cardiaque ?",
+      "options": [
+        "0,1 s",
+        "0,3 s",
+        "0,4 s",
+        "0,8 s"
+      ],
+      "answer": 3,
+      "explanation": "La révolution cardiaque dure 0,8 s (0,1 s systole auriculaire + 0,3 s systole ventriculaire + 0,4 s diastole générale)."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle phase du battement cardiaque correspond à la contraction des ventricules ?",
+      "options": [
+        "Systole auriculaire",
+        "Systole ventriculaire",
+        "Diastole générale",
+        "Repos du cœur"
+      ],
+      "answer": 1,
+      "explanation": "La systole ventriculaire est la contraction des ventricules, qui éjecte le sang dans les artères."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "prompt": "La contraction des oreillettes s'appelle la systole ______.",
+      "answer": "auriculaire",
+      "explanation": "La systole auriculaire est la contraction des oreillettes."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Le sang chargé de dioxyde de carbone circule du cœur aux poumons par l'artère ______.",
+      "answer": "pulmonaire",
+      "explanation": "L'artère pulmonaire transporte le sang chargé de CO2 du ventricule droit aux poumons."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel est le trajet de la grande circulation ?",
+      "options": [
+        "Ventricule droit → poumons → oreillette gauche",
+        "Ventricule gauche → organes → oreillette droite",
+        "Oreillette droite → ventricule droit → poumons",
+        "Oreillette gauche → ventricule gauche → organes"
+      ],
+      "answer": 1,
+      "explanation": "La grande circulation part du ventricule gauche, passe par l'aorte, irrigue les organes, puis revient à l'oreillette droite par les veines caves."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quels vaisseaux sanguins ramènent le sang des organes vers le cœur ?",
+      "options": [
+        "Les artères",
+        "Les veines caves",
+        "Les capillaires",
+        "Les veines pulmonaires"
+      ],
+      "answer": 1,
+      "explanation": "Les veines caves ramènent le sang chargé de CO2 des organes à l'oreillette droite."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel facteur ne favorise pas les maladies cardiovasculaires ?",
+      "options": [
+        "La sédentarité",
+        "Le tabagisme",
+        "La pratique régulière du sport",
+        "L'alcoolisme"
+      ],
+      "answer": 2,
+      "explanation": "La pratique régulière du sport est une règle d'hygiène qui protège contre les maladies cardiovasculaires."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Le nombre de révolutions cardiaques par unité de temps s'appelle la ______ cardiaque.",
+      "answer": "fréquence",
+      "explanation": "La fréquence cardiaque est le nombre de révolutions cardiaques par unité de temps."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quelle est la conséquence de l'hypertension artérielle et des AVC ?",
+      "options": [
+        "Le durcissement des vaisseaux sanguins",
+        "L'augmentation de l'élasticité des vaisseaux",
+        "La diminution du cholestérol",
+        "L'amélioration de la circulation"
+      ],
+      "answer": 0,
+      "explanation": "L'alcool et le tabac entraînent le durcissement des vaisseaux sanguins et la perte de leur élasticité, provoquant hypertension et AVC."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "L'ensemble formé par le cœur, les poumons et les vaisseaux sanguins constitue l'appareil ______.",
+      "answer": "circulatoire",
+      "explanation": "L'appareil circulatoire est constitué du cœur, des poumons et des vaisseaux sanguins."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel est l'ordre chronologique des phases du battement cardiaque ?",
+      "options": [
+        "Systole ventriculaire, systole auriculaire, diastole générale",
+        "Systole auriculaire, systole ventriculaire, diastole générale",
+        "Diastole générale, systole auriculaire, systole ventriculaire",
+        "Systole auriculaire, diastole générale, systole ventriculaire"
+      ],
+      "answer": 1,
+      "explanation": "L'ordre est : systole auriculaire, systole ventriculaire, diastole générale."
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "prompt": "Les maladies qui affectent le cœur et les vaisseaux sanguins sont appelées maladies ______.",
+      "answer": "cardiovasculaires",
+      "explanation": "Les maladies cardiovasculaires affectent le cœur et la circulation sanguine."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Quel vaisseau sanguin part du ventricule gauche ?",
+      "options": [
+        "L'artère pulmonaire",
+        "L'artère aorte",
+        "La veine cave",
+        "La veine pulmonaire"
+      ],
+      "answer": 1,
+      "explanation": "L'artère aorte part du ventricule gauche et distribue le sang oxygéné à tous les organes."
+    },
+    {
+      "id": "q20",
+      "type": "fill",
+      "prompt": "Pour prévenir les maladies cardiovasculaires, il faut éviter une alimentation trop riche en ______.",
+      "answer": "lipide",
+      "explanation": "Il faut éviter une alimentation trop riche en lipide (graisse) pour protéger son système cardiovasculaire."
+    }
+  ]
+}

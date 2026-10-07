@@ -1,0 +1,167 @@
+{
+  "id": "info-cinquieme-tice-s1-elements-perfomance-ordinateur",
+  "subjectId": "info",
+  "levelId": "cinquieme",
+  "slug": "tice-s1-elements-perfomance-ordinateur",
+  "title": "Éléments de performance d’un ordinateur – 5e TICE",
+  "summary": "Cette leçon présente les notions de bits, octets et unités de stockage, explique comment coder des informations binaires à l’aide d’un tableau d’animaux, puis décrit les principaux composants influençant la rapidité d’un ordinateur (processeur, RAM, disque et carte graphique). Elle prépare les élèves à analyser les critères de performance lors d’un achat.",
+  "lesson": "## I. Situation d’apprentissage\nEn vue de la séance TP en TICE, le prof a installé un logiciel de dessin. Certains PC installent rapidement, d’autres plus lentement. Albert se demande pourquoi.\n\n## II. Résumé de la leçon\n### Activité codage d’animaux\n| Animal | M (mammifère) | C (cornu) | H (herbivore) | S (sabots) | V (vole) | Code |\n|--------|---------------|----------|---------------|-----------|----------|------|\n| Bœuf   | 1 | 1 | 1 | 1 | 0 | 11110 |\n| Chauve‑souris | 0 | 0 | 0 | 0 | 1 | 00001 |\n| Chien  | 1 | 0 | 0 | 0 | 0 | 10000 |\n| Éléphant| 1 | 1 | 1 | 1 | 0 | 11110 |\n*1 = vrai, 0 = faux*\n\n### Bilan sur les bits\n- Un **bit** est la réponse à une question binaire (Vrai/Faux). 1 = vrai, 0 = faux.\n- Une suite de bits forme une **information**. Exemple : `101010` = 6 bits.\n- Un **octet** = 8 bits. Multiples : Ko = 1024 octets, Mo = 1024 Ko, Go = 1024 Mo, To = 1024 Go.\n\n## III. Indicateurs de performance d’un ordinateur\n| Composant | Rôle | Critères clés |\n|-----------|------|----------------|\n| **Processeur** | Exécute les instructions | Nombre de cœurs, fréquence (GHz) |\n| **Mémoire vive (RAM)** | Stocke les tâches en cours | Capacité (Mo/Go) |\n| **Disque dur / SSD** | Stockage persistant | Capacité, vitesse, mémoire cache |\n| **Carte graphique** | Rendu d’images/vidéos | Fréquence, mémoire dédiée, consommation |\n\n> **Remarque** : Le meilleur composant dépend de l’usage, du besoin et du budget.\n\n## IV. Applications pratiques\n- Analyser le temps d’installation d’un logiciel selon la RAM disponible et le type de disque.\n- Utiliser le tableau d’animaux pour illustrer le codage binaire.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "info",
+    "cinquieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel composant détermine principalement la vitesse d’exécution des programmes?",
+      "options": [
+        "Carte graphique",
+        "Mémoire vive",
+        "Processeur",
+        "Disque dur"
+      ],
+      "answer": 2,
+      "explanation": "Le processeur exécute les instructions et sa fréquence ainsi que le nombre de cœurs influencent la rapidité."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Un octet contient exactement 8 bits.",
+      "answer": true,
+      "explanation": "Par définition, un octet = 8 bits."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "1 Ko = ___ octets.",
+      "answer": "1024",
+      "explanation": "Le préfixe kilo vaut 1024 en informatique."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans le tableau, quel code correspond à un animal qui vole mais n’est ni mammifère, ni cornu, ni herbivore, ni saboteur?",
+      "options": [
+        "00001",
+        "11110",
+        "10000",
+        "01010"
+      ],
+      "answer": 0,
+      "explanation": "Seul le bit V (vole) est à 1, les autres à 0 → 00001."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La RAM conserve les données même après l’arrêt de l’ordinateur.",
+      "answer": false,
+      "explanation": "La RAM est volatile ; les données sont perdues si non enregistrées."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Le préfixe Méga‑octet (Mo) correspond à ___ octets.",
+      "answer": "1048576",
+      "explanation": "1 Mo = 1024 Ko = 1024 × 1024 = 1 048 576 octets."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel critère n’est pas directement lié à la performance d’un disque dur?",
+      "options": [
+        "Capacité en Go",
+        "Mémoire cache",
+        "Vitesse de rotation (RPM)",
+        "Fréquence du processeur"
+      ],
+      "answer": 3,
+      "explanation": "La fréquence du processeur concerne le CPU, pas le disque."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Un bit peut prendre les valeurs 0, 1 ou 2.",
+      "answer": false,
+      "explanation": "Un bit ne peut être que 0 ou 1."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Dans le code binaire, le chiffre 1 représente la réponse ___ .",
+      "answer": "vraie",
+      "explanation": "En informatique, 1 = vrai, 0 = faux."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel composant est le plus important pour les jeux vidéo exigeants?",
+      "options": [
+        "Processeur",
+        "Carte graphique",
+        "Mémoire vive",
+        "Disque dur"
+      ],
+      "answer": 1,
+      "explanation": "Les jeux vidéo sollicitent fortement la carte graphique pour le rendu."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Un kilooctet (Ko) vaut 1000 octets dans le système décimal.",
+      "answer": false,
+      "explanation": "En informatique on utilise 1 Ko = 1024 octets."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Le nombre de cœurs d’un processeur influence la capacité à exécuter ___ simultanément.",
+      "answer": "plusieurs tâches",
+      "explanation": "Plus de cœurs permettent le multitâche."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel animal du tableau est à la fois mammifère, cornu, herbivore et possède des sabots?",
+      "options": [
+        "Bœuf",
+        "Chauve‑souris",
+        "Chien",
+        "Éléphant"
+      ],
+      "answer": 0,
+      "explanation": "Le bœuf possède les cinq caractéristiques sauf le vol."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Un SSD est généralement plus rapide qu’un disque dur mécanique.",
+      "answer": true,
+      "explanation": "Le SSD utilise de la mémoire flash, offrant des temps d’accès plus courts."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "La fréquence d’un processeur se mesure en ___ .",
+      "answer": "GHz",
+      "explanation": "Gigahertz (GHz) indique le nombre de cycles par seconde."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel facteur n’affecte pas directement le temps d’installation d’un logiciel?",
+      "options": [
+        "Capacité de la RAM",
+        "Vitesse du disque",
+        "Nombre de cœurs du processeur",
+        "Couleur du boîtier"
+      ],
+      "answer": 3,
+      "explanation": "La couleur du boîtier n’influence pas les performances d’installation."
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "francais-cinquieme-l4-grammaire-l4-s8",
+  "subjectId": "francais",
+  "levelId": "cinquieme",
+  "slug": "l4-grammaire-l4-s8",
+  "title": "Grammaire 5e : Temps simples et composés de l'indicatif",
+  "summary": "Cette leçon de français pour la classe de cinquième aborde la distinction entre les temps simples et les temps composés de l'indicatif. Les élèves apprennent à identifier la structure de chaque temps (radical + terminaison pour les simples ; auxiliaire + participe passé pour les composés) et à comprendre leurs valeurs aspectuelles, notamment l'antériorité et l'accompli. Des exercices pratiques permettent de consolider ces acquis grammaticaux essentiels.",
+  "lesson": "# Le Verbe : Formes et Emplois (Séance 8)\n\n## I. Définition de la notion\nLe temps verbal permet de situer l'action exprimée par le verbe dans la chronologie. Il indique quand l'action a lieu, a eu lieu ou aura lieu.\n\n## II. Identification des différents temps\n\n### 1. Les temps simples\nIl existe **4 temps simples** de l'indicatif. Ils sont formés de :\n> **Radical + Terminaison**\n\nLes temps simples sont :\n1. Le présent\n2. L'imparfait\n3. Le passé simple\n4. Le futur simple\n\n*Exemple :* « Martine **travaille** bien en classe. » (Présent)\n\n### 2. Les temps composés\nIl existe **4 temps composés** à l'indicatif. Ils sont formés de :\n> **Auxiliaire (être ou avoir) conjugué à un temps simple + Participe passé du verbe**\n\nLes temps composés sont :\n1. Le passé composé\n2. Le plus-que-parfait\n3. Le passé antérieur\n4. Le futur antérieur\n\n*Exemple :* « Martine **a bien travaillé** en classe. » (Passé composé)\n\n## III. Les valeurs aspectuelles des temps\nLes temps composés ont des valeurs qui se définissent en relation avec les temps simples. On distingue principalement deux valeurs : l'antériorité et l'accompli.\n\n### 1. La valeur d'antériorité\nSi un temps composé est mis en relation avec son temps simple correspondant, il indique une **antériorité**. Cela signifie que le fait exprimé par le temps composé s'est déroulé **avant** celui indiqué par le temps simple.\n\n*Exemple :* \n> « Je **lavais** (imparfait) mon chien qui **s'était traîné** (plus-que-parfait) dans la boue. »\n\n*Analyse :* L'action de se traîner dans la boue est antérieure à l'action de laver. Le plus-que-parfait est antérieur à l'imparfait.\n\n### 2. La valeur de l'accompli\nLe temps composé évoque un fait ou un procès qui est **accompli** ou **achevé**. Il marque la fin de l'action.\n\n*Exemples :* \n- « Comme un papillon qui **n'a connu** (passé composé) que quelques heures, la fleur éphémère **s'éteint** (présent). »\n  → Le papillon n'existe plus ; le passé composé indique la fin de l'action, tandis que le présent indique un processus en cours.\n- « J'**avais fini** (plus-que-parfait) de parler, je **me tus** (passé simple). »\n  → La prise de parole est terminée avant le silence.\n- « Enfin ! Je **l'aurai vu** (futur antérieur) ce film ! »\n  → L'action de voir le film sera achevée dans le futur.\n\n## IV. Correspondance entre temps simples et composés\n\n| Temps Simple | Temps Composé correspondant |\n| :--- | :--- |\n| Présent | Passé composé |\n| Imparfait | Plus-que-parfait |\n| Passé simple | Passé antérieur |\n| Futur simple | Futur antérieur |\n\n## V. Exercices d'application\n\n**Exercice I :**\nRelie les temps simples aux temps composés respectifs.\n- Le présent de l’indicatif → Le passé composé\n- L’imparfait → Le plus-que-parfait\n- Le futur simple → Le futur antérieur\n- Le passé simple → Le passé antérieur\n\n**Exercice II :**\nIdentifie les temps dans le texte : « Barry **était** (imparfait) un enfant talentueux. Alors, il **a été** (passé composé) primé. Nous **fûmes** (passé simple) encouragés par le directeur, peut-être nous **aurons** (futur simple) des nominations. »",
+  "estimatedMinutes": 10,
+  "tags": [
+    "francais",
+    "cinquieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quels sont les 4 temps simples de l'indicatif ?",
+      "options": [
+        "Présent, Passé composé, Imparfait, Futur",
+        "Présent, Imparfait, Passé simple, Futur simple",
+        "Présent, Passé simple, Plus-que-parfait, Futur",
+        "Imparfait, Passé composé, Passé simple, Futur antérieur"
+      ],
+      "answer": 1,
+      "explanation": "Les temps simples sont le présent, l'imparfait, le passé simple et le futur simple."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Comment sont formés les temps composés ?",
+      "options": [
+        "Radical + Terminaison",
+        "Auxiliaire (être ou avoir) + Participe passé",
+        "Radical + Participe passé",
+        "Auxiliaire + Radical"
+      ],
+      "answer": 1,
+      "explanation": "Les temps composés sont formés de l'auxiliaire être ou avoir conjugué à un temps simple, suivi du participe passé du verbe."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel temps composé correspond au présent de l'indicatif ?",
+      "options": [
+        "Le plus-que-parfait",
+        "Le passé antérieur",
+        "Le passé composé",
+        "Le futur antérieur"
+      ],
+      "answer": 2,
+      "explanation": "Le passé composé est le temps composé associé au présent."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel temps composé correspond à l'imparfait ?",
+      "options": [
+        "Le plus-que-parfait",
+        "Le passé composé",
+        "Le passé antérieur",
+        "Le futur antérieur"
+      ],
+      "answer": 0,
+      "explanation": "Le plus-que-parfait est le temps composé associé à l'imparfait."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel temps composé correspond au passé simple ?",
+      "options": [
+        "Le futur antérieur",
+        "Le passé composé",
+        "Le plus-que-parfait",
+        "Le passé antérieur"
+      ],
+      "answer": 3,
+      "explanation": "Le passé antérieur est le temps composé associé au passé simple."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel temps composé correspond au futur simple ?",
+      "options": [
+        "Le passé antérieur",
+        "Le futur antérieur",
+        "Le plus-que-parfait",
+        "Le passé composé"
+      ],
+      "answer": 1,
+      "explanation": "Le futur antérieur est le temps composé associé au futur simple."
+    }
+  ]
+}

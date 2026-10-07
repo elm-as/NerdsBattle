@@ -1,0 +1,111 @@
+{
+  "id": "culture_generale-quatrieme-l12-edhc-4eme-l-12-la-preservation-de-le",
+  "subjectId": "culture_generale",
+  "levelId": "quatrieme",
+  "slug": "l12-edhc-4eme-l-12-la-preservation-de-le",
+  "title": "La préservation de l’environnement et le bien‑être de la population",
+  "summary": "Cette leçon expose les notions clés de l’environnement, les causes et conséquences de sa dégradation, ainsi que les mesures de préservation. Elle propose des activités d’application et des exercices d’évaluation pour renforcer la compréhension des élèves de quatrième.",
+  "lesson": "# Leçon 12 : La préservation de l’environnement et le bien‑être de la population\n\n## 1. L’environnement\n- **Définition** : L’environnement est l’ensemble des éléments naturels et artificiels de notre milieu (eau, air, sol, flore, faune). Il fournit à l’homme des ressources indispensables à la vie.\n- **Causes de la dégradation** : \n  - Défrichements agricoles\n  - Abattage des bois\n  - Exploitation minière\n  - Feux de brousse\n  - Pollution des eaux (déchets industriels)\n  - Pollution de l’air (gaz d’échappement, fumées industrielles)\n  - Chasse commerciale\n- **Conséquences** : \n  - Réchauffement climatique\n  - Disparition des espèces\n  - Réduction des eaux territoriales\n  - Aridité des sols\n  - Baisse de la productivité des sols\n  - Baisse des revenus agricoles\n  - Maladies de la peau\n\n## 2. Mesures de préservation\n- **Flore et faune** : \n  - Pare‑feux\n  - Techniques culturales modernes\n  - Réglementation de l’exploitation du bois et de la chasse\n  - Pièges pour la chasse\n  - Élevage d’espèces animales\n- **Air et eau** : \n  - Épuration des eaux usées\n  - Renforcement de la réglementation contre les engins pollueurs\n\n## 3. Importance du respect des mesures\n- Préserver l’équilibre de l’écosystème\n- Favoriser la pluviométrie\n- Utiliser les forêts pour des rites initiatiques\n\n## 4. Activités d’application\n- Identification des pratiques dégradantes\n- Résumé des conséquences\n- Justification d’une décision de refus d’une pratique nuisible\n\n## 5. Exercices\n- Compléter la définition de l’environnement\n- Vrai/Faux sur les conséquences\n\n---\n\n**Objectifs pédagogiques** :\n1. Comprendre les composantes de l’environnement.\n2. Identifier les causes et conséquences de sa dégradation.\n3. Connaître les mesures de préservation.\n4. Appliquer les connaissances à des situations concrètes.\n\n**Compétences visées** :\n- Analyse critique\n- Rédaction\n- Sensibilisation environnementale\n\n**Évaluation** :\n- QCM, vrai/faux, questions à réponse libre.\n\n**Durée estimée** : 10 minutes",
+  "estimatedMinutes": 10,
+  "tags": [
+    "culture_generale",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel élément n’est pas considéré comme faisant partie de l’environnement naturel ?",
+      "options": [
+        "Eau",
+        "Air",
+        "Sol",
+        "Industrie"
+      ],
+      "answer": 3,
+      "explanation": "L’industrie est un élément artificiel, pas naturel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle est une cause majeure de la dégradation de l’environnement ?",
+      "options": [
+        "Réchauffement climatique",
+        "Défrichement agricole",
+        "Pluie diluvienne",
+        "Élevage d’espèces animales"
+      ],
+      "answer": 1,
+      "explanation": "Le défrichement agricole est une cause directe de dégradation."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel est l’effet de la pollution des eaux par les déchets industriels ?",
+      "options": [
+        "Augmentation de la biodiversité",
+        "Réduction des eaux territoriales",
+        "Amélioration de la qualité de l’air",
+        "Augmentation de la productivité des sols"
+      ],
+      "answer": 1,
+      "explanation": "La pollution des eaux réduit la disponibilité d’eaux propres."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Complétez : L’environnement est l’ensemble des éléments ________ et ________ qui constituent ________.",
+      "answer": "naturels, artificiels, notre milieu",
+      "explanation": ""
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel est l’impact de l’utilisation de produits chimiques pour la pêche ?",
+      "options": [
+        "Amélioration de la qualité de l’eau",
+        "Augmentation de la biodiversité marine",
+        "Dégradation de l’environnement",
+        "Réduction des revenus des pêcheurs"
+      ],
+      "answer": 2,
+      "explanation": "Les produits chimiques polluent les eaux et nuisent à la vie aquatique."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel est l’un des bénéfices du respect des mesures de préservation ?",
+      "options": [
+        "Augmentation de la désertification",
+        "Réduction de la pluviométrie",
+        "Préservation de l’équilibre de l’écosystème",
+        "Augmentation des maladies de la peau"
+      ],
+      "answer": 2,
+      "explanation": "Le respect préserve l’équilibre de l’écosystème."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quel est l’effet de l’aridité des sols sur la productivité agricole ?",
+      "options": [
+        "Augmentation de la productivité",
+        "Stagnation de la productivité",
+        "Réduction de la productivité",
+        "Pas d’effet"
+      ],
+      "answer": 2,
+      "explanation": "L’aridité réduit la productivité."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "prompt": "Les ________ sont des éléments naturels qui constituent l’environnement.",
+      "answer": "flore et faune",
+      "explanation": ""
+    }
+  ]
+}

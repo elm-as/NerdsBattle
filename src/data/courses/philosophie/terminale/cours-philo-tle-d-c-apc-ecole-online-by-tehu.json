@@ -1,0 +1,213 @@
+{
+  "id": "philosophie-terminale-cours-philo-tle-d-c-apc-ecole-online-by-tehu",
+  "subjectId": "philosophie",
+  "levelId": "terminale",
+  "slug": "cours-philo-tle-d-c-apc-ecole-online-by-tehu",
+  "title": "Méthodologie de la dissertation philosophique – Terminale",
+  "summary": "Ce document présente, selon le programme MENA Côte d’Ivoire, les étapes essentielles pour préparer et rédiger une dissertation philosophique en terminale : étude parcellaire, reformulation, problématisation, rédaction de l’introduction, du développement et de la conclusion, avec exemples d’introduction et d’évaluation.",
+  "lesson": "# Méthodologie de la dissertation philosophique (Terminale)\n\n## I. Compréhension du sujet\n### A. Étude parcellaire\n- Identifier les mots‑clés du sujet.\n- Définir chaque terme dans le contexte philosophique.\n\n### B. Reformulation du sujet\n- Reformuler le sujet en une phrase claire qui conserve le sens original.\n\n## II. Problématisation du sujet\n- **Problème** : la difficulté centrale soulevée par le sujet (souvent une contradiction ou un paradoxe).\n- **Aspects du problème** : les questions secondaires qui annoncent les axes de développement.\n\n## III. Rédaction de la dissertation\n### A. Introduction\n1. **Amorce** – phrase d’accroche (citation, constat, anecdote).\n2. **Définition** des termes clés (issue de l’étude parcellaire).\n3. **Reformulation** du sujet.\n4. **Problème** posé clairement.\n5. **Annonce des aspects** (plan).\n\n### B. Développement\n- Structuré en **axes** correspondant aux aspects du problème.\n- Chaque axe : argument + illustration + référence philosophique.\n- Utiliser des **connecteurs logiques** pour assurer la fluidité.\n\n### C. Conclusion\n1. **Bilan** de la réflexion.\n2. **Réponse** précise au problème.\n3. **Ouverture** éventuelle vers une autre problématique.\n\n## IV. Exemple d’introduction (sujet : *Doit‑on condamner le progrès technique ?*)\n> *L’expérience quotidienne nous révèle le progrès vertigineux des sciences et techniques…* (voir texte fourni).\n\n## V. Exemple d’évaluation (sujet : *Il faut plaindre celui qui vit en société.*)\n- Étude parcellaire, reformulation, problématisation, aspects, plan, arguments, références (Sartre, Hobbes, etc.).\n\n---\n**Conseils pratiques**\n- Faire un brouillon avant la rédaction finale.\n- Vérifier la cohérence logique entre les parties.\n- Relire pour corriger les fautes de forme.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "philosophie",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la première étape de la compréhension du sujet ?",
+      "options": [
+        "Reformulation du sujet",
+        "Étude parcellaire",
+        "Annonce du plan",
+        "Conclusion"
+      ],
+      "answer": 1,
+      "explanation": "L'étape initiale consiste à identifier les mots‑clés du sujet."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Dans l’introduction, l’amorce doit généralement :",
+      "options": [
+        "Présenter le plan détaillé",
+        "Faire une citation ou un constat",
+        "Développer le premier argument",
+        "Conclure le texte"
+      ],
+      "answer": 1,
+      "explanation": "L’amorce sert à capter l’attention, souvent par une citation ou un constat."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Le problème du sujet apparaît toujours sous forme d’une question explicite dans l’énoncé.",
+      "answer": false,
+      "explanation": "Le problème est souvent implicite, dégagé à partir d’une contradiction ou d’un paradoxe."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Dans la reformulation du sujet, on doit conserver le sens initial tout en le rendre plus ___________.",
+      "answer": "explicite",
+      "explanation": "L’objectif est de clarifier le sujet sans en changer le sens."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel connecteur logique convient le mieux pour introduire un axe opposé au précédent ?",
+      "options": [
+        "En effet",
+        "Cependant",
+        "Par conséquent",
+        "De plus"
+      ],
+      "answer": 1,
+      "explanation": "\"Cependant\" marque la transition vers une idée contraire."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "La conclusion doit toujours contenir une ouverture vers une nouvelle problématique.",
+      "answer": false,
+      "explanation": "L’ouverture est recommandée mais n’est pas obligatoire."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dans l’exemple d’introduction sur le progrès technique, quel est le problème posé ?",
+      "options": [
+        "La nécessité du progrès",
+        "La menace du progrès pour l’humanité",
+        "L’inutilité de la technique",
+        "Le coût économique du progrès"
+      ],
+      "answer": 1,
+      "explanation": "Le problème est la menace que le progrès technique représente pour l’humanité."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Le plan typique d’une dissertation philosophique se compose de trois parties : ___________, développement, conclusion.",
+      "answer": "introduction",
+      "explanation": "Les trois parties classiques sont introduction, développement, conclusion."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel philosophe est cité dans l’exemple d’évaluation pour illustrer la dangerosité de la société ?",
+      "options": [
+        "Platon",
+        "Sartre",
+        "Aristote",
+        "Kant"
+      ],
+      "answer": 1,
+      "explanation": "Sartre est cité avec la phrase « L’enfer, c’est les autres »."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Les aspects du problème correspondent aux différentes questions qui guideront les axes du développement.",
+      "answer": true,
+      "explanation": "Chaque aspect devient un axe de développement."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel type de texte le document décrit‑il ?",
+      "options": [
+        "Commentaire de texte",
+        "Dissertation philosophique",
+        "Essai littéraire",
+        "Rapport de laboratoire"
+      ],
+      "answer": 1,
+      "explanation": "Le texte porte sur la méthodologie de la dissertation philosophique."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Le terme « technoscience » désigne l’alliance entre la __________ et la technique.",
+      "answer": "science",
+      "explanation": "Technoscience = science + technique."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel est le rôle du brouillon dans la rédaction ?",
+      "options": [
+        "Écrire la version finale",
+        "Organiser les idées et vérifier la logique",
+        "Faire la mise en page finale",
+        "Corriger les fautes d’orthographe uniquement"
+      ],
+      "answer": 1,
+      "explanation": "Le brouillon sert à structurer les idées avant la version définitive."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Dans la problématisation, le problème doit être formulé sous forme interrogative.",
+      "answer": true,
+      "explanation": "Formuler le problème sous forme de question aide à orienter le développement."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel connecteur logique indique la conséquence d’un argument ?",
+      "options": [
+        "Mais",
+        "Donc",
+        "Or",
+        "Car"
+      ],
+      "answer": 1,
+      "explanation": "\"Donc\" introduit une conclusion logique."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Un bon exemple d’ouverture en conclusion peut porter sur une __________ future du sujet.",
+      "answer": "perspective",
+      "explanation": "L’ouverture propose souvent une perspective ou une nouvelle interrogation."
+    },
+    {
+      "id": "q17",
+      "type": "truefalse",
+      "prompt": "Dans l’étude parcellaire, il faut uniquement définir les mots‑clés sans les mettre en contexte.",
+      "answer": false,
+      "explanation": "Les définitions doivent être contextualisées pour le sujet."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Quel est l’objectif principal de la phase de reformulation du sujet ?",
+      "options": [
+        "Allonger le texte",
+        "Simplifier le vocabulaire",
+        "Rendre le sens plus explicite sans le changer",
+        "Introduire de nouvelles idées"
+      ],
+      "answer": 2,
+      "explanation": "La reformulation clarifie le sujet tout en conservant son sens."
+    },
+    {
+      "id": "q19",
+      "type": "fill",
+      "prompt": "Le plan détaillé d’une dissertation doit être présenté sous forme de __________ (ex. : thèse‑antithèse‑synthèse).",
+      "answer": "schéma",
+      "explanation": "Un schéma de plan rend la structure visible."
+    },
+    {
+      "id": "q20",
+      "type": "truefalse",
+      "prompt": "Les références philosophiques ne sont pas obligatoires dans le développement d’une dissertation.",
+      "answer": false,
+      "explanation": "Les références renforcent la légitimité des arguments."
+    }
+  ]
+}

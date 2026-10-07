@@ -1,0 +1,184 @@
+{
+  "id": "maths-troisieme-l4-triangle-rectangle",
+  "subjectId": "maths",
+  "levelId": "troisieme",
+  "slug": "l4-triangle-rectangle",
+  "title": "Triangle rectangle : Pythagore, trigonométrie et constructions",
+  "summary": "Maîtrise les relations métriques dans le triangle rectangle : théorème de Pythagore, sinus, cosinus, tangente et constructions de segments de longueur racine carrée. Prépare-toi à résoudre des problèmes concrets comme la fabrication d'un cerf-volant ou l'installation d'un panier de basket.",
+  "lesson": "# Triangle rectangle\n\n## Introduction\n\nLe triangle rectangle est une figure fondamentale en géométrie. Il possède des propriétés remarquables qui permettent de calculer des longueurs et des angles. Cette leçon couvre la propriété de Pythagore et sa réciproque, la construction de segments de longueur √a, la propriété métrique déduite de l'aire, ainsi que les rapports trigonométriques (sinus, cosinus, tangente) et leur utilisation dans la résolution de problèmes.\n\n## 1. Définitions et notions clés\n\n### Propriété de Pythagore\nSi un triangle est rectangle, alors le carré de l'hypoténuse est égal à la somme des carrés des deux autres côtés.\n\n**Exemple :** Dans ABC rectangle en A, on a \\(BC^2 = AB^2 + AC^2\\).\n\n### Réciproque de la propriété de Pythagore\nDans un triangle, si le carré d'un côté est égal à la somme des carrés des deux autres côtés, alors ce triangle est rectangle.\n\n**Exemple :** Si \\(AB^2 = AC^2 + BC^2\\), alors ABC est rectangle en C.\n\n### Construction d'un segment de longueur √a\nPour construire un segment de longueur \\(\\sqrt{a}\\) (a > 0), on peut :\n- Si \\(a = b^2 + c^2\\), construire un triangle rectangle dont les côtés de l'angle droit mesurent b et c ; l'hypoténuse mesure alors \\(\\sqrt{a}\\).\n- Si \\(a = b^2 - c^2\\), construire un triangle rectangle dont l'hypoténuse mesure b et un côté de l'angle droit mesure c ; l'autre côté mesure \\(\\sqrt{a}\\).\n\n### Propriété métrique déduite de l'aire\nDans un triangle rectangle, le produit des côtés de l'angle droit est égal au produit de l'hypoténuse et de la hauteur issue du sommet de l'angle droit.\n\n**Exemple :** Dans ABC rectangle en B, avec H pied de la hauteur issue de B : \\(AB \\times BC = BH \\times AC\\).\n\n### Sinus, cosinus et tangente d'un angle aigu\nDans un triangle rectangle :\n- \\(\\sin \\widehat{ABC} = \\frac{\\text{côté opposé}}{\\text{hypoténuse}}\\)\n- \\(\\cos \\widehat{ABC} = \\frac{\\text{côté adjacent}}{\\text{hypoténuse}}\\)\n- \\(\\tan \\widehat{ABC} = \\frac{\\text{côté opposé}}{\\text{côté adjacent}}\\)\n\n### Propriétés des rapports trigonométriques\nPour tout angle aigu de mesure \\(a^\\circ\\) :\n- \\(0 < \\sin a^\\circ < 1\\)\n- \\(0 < \\cos a^\\circ < 1\\)\n- \\(\\sin^2 a^\\circ + \\cos^2 a^\\circ = 1\\)\n- \\(\\tan a^\\circ = \\frac{\\sin a^\\circ}{\\cos a^\\circ}\\)\n\n### Angles complémentaires\nSi deux angles sont complémentaires (somme = 90°), alors le sinus de l'un est égal au cosinus de l'autre : \\(\\sin A = \\cos B\\) et \\(\\cos A = \\sin B\\).\n\n## 2. Applications et méthodes\n\n### Calculer une longueur avec Pythagore\n1. Identifier le triangle rectangle et l'angle droit.\n2. Écrire l'égalité de Pythagore.\n3. Remplacer par les valeurs connues.\n4. Calculer la longueur inconnue.\n\n**Exemple :** ABC rectangle en A, AB = 4, AC = 3. Alors \\(BC^2 = 4^2 + 3^2 = 25\\), donc \\(BC = 5\\).\n\n### Montrer qu'un triangle est rectangle\n1. Calculer les carrés des trois longueurs.\n2. Vérifier si le carré du plus grand côté est égal à la somme des carrés des deux autres.\n3. Conclure avec la réciproque de Pythagore.\n\n**Exemple :** AB = 10, AC = 8, BC = 6. \\(AB^2 = 100\\), \\(AC^2 + BC^2 = 64 + 36 = 100\\). Donc ABC est rectangle en C.\n\n### Construire un segment de longueur √a\n- **Méthode additive :** Si \\(a = b^2 + c^2\\), tracer un angle droit, placer b et c sur les côtés, l'hypoténuse mesure \\(\\sqrt{a}\\).\n- **Méthode soustractive :** Si \\(a = b^2 - c^2\\), tracer un segment de longueur b comme diamètre d'un demi-cercle, placer un point à distance c d'une extrémité, l'autre segment mesure \\(\\sqrt{a}\\).\n\n### Calculer une longueur avec la propriété métrique\nUtiliser \\(AB \\times BC = BH \\times AC\\) pour trouver une hauteur ou un côté.\n\n**Exemple :** FIP rectangle en P, FP = 4, PI = 2, FI = 2√5. Alors \\(PK = \\frac{FP \\times PI}{FI} = \\frac{8}{2\\sqrt{5}} = \\frac{4\\sqrt{5}}{5}\\).\n\n### Utiliser la trigonométrie\n- Pour calculer un côté : utiliser sinus, cosinus ou tangente.\n- Pour calculer un angle : utiliser les rapports inverses ou la table trigonométrique.\n\n**Exemple :** Dans ABC rectangle en B, AB = 4, AC = 5. Alors \\(\\sin \\widehat{BCA} = \\frac{AB}{AC} = \\frac{4}{5}\\).\n\n### Utiliser la table trigonométrique\n- Pour trouver sin, cos ou tan d'un angle donné.\n- Pour encadrer un angle connaissant son sinus, cosinus ou tangente.\n\n**Exemple :** \\(\\cos 23° = 0,9205\\), donc \\(\\sin 67° = 0,9205\\) car 23° + 67° = 90°.\n\n## 3. Pièges fréquents\n\n- **Confondre hypoténuse et côté de l'angle droit** : l'hypoténuse est le côté opposé à l'angle droit, le plus long.\n- **Oublier de vérifier que le triangle est rectangle** avant d'appliquer Pythagore.\n- **Erreur dans l'identification des côtés** pour le sinus, cosinus, tangente : toujours repérer le côté opposé et le côté adjacent par rapport à l'angle considéré.\n- **Confondre sinus et cosinus** : sinus = opposé/hypoténuse, cosinus = adjacent/hypoténuse.\n- **Oublier que la tangente est le quotient du sinus par le cosinus**.\n- **Ne pas vérifier les unités** : les longueurs doivent être dans la même unité.\n- **Arrondir trop tôt** dans les calculs intermédiaires.\n\n## Synthèse\n\nLe triangle rectangle est un outil puissant pour résoudre des problèmes de longueurs et d'angles. La propriété de Pythagore permet de calculer des longueurs, sa réciproque de démontrer qu'un triangle est rectangle. Les rapports trigonométriques (sinus, cosinus, tangente) relient angles et longueurs. La table trigonométrique facilite les calculs. Ces connaissances sont essentielles pour des situations concrètes comme la construction d'un cerf-volant ou l'installation d'une échelle.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "troisieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans un triangle rectangle, le carré de l'hypoténuse est égal à :",
+      "options": [
+        "la somme des carrés des deux autres côtés",
+        "la différence des carrés des deux autres côtés",
+        "le produit des deux autres côtés",
+        "la somme des deux autres côtés"
+      ],
+      "answer": 0,
+      "explanation": "D'après la propriété de Pythagore, le carré de l'hypoténuse est égal à la somme des carrés des deux autres côtés."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Dans un triangle ABC rectangle en A, quelle égalité est correcte ?",
+      "options": [
+        "BC² = AB² + AC²",
+        "AB² = BC² + AC²",
+        "AC² = AB² + BC²",
+        "BC² = AB² - AC²"
+      ],
+      "answer": 0,
+      "explanation": "L'hypoténuse est BC (côté opposé à l'angle droit en A), donc BC² = AB² + AC²."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Dans un triangle rectangle, le sinus d'un angle aigu est le quotient du côté opposé par l'______.",
+      "answer": "hypoténuse",
+      "explanation": "Par définition, sin(angle) = côté opposé / hypoténuse."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Dans un triangle rectangle, le cosinus d'un angle aigu est le quotient :",
+      "options": [
+        "du côté adjacent par l'hypoténuse",
+        "du côté opposé par l'hypoténuse",
+        "du côté opposé par le côté adjacent",
+        "de l'hypoténuse par le côté adjacent"
+      ],
+      "answer": 0,
+      "explanation": "Par définition, cos(angle) = côté adjacent / hypoténuse."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Si deux angles sont complémentaires, alors :",
+      "options": [
+        "le sinus de l'un est égal au cosinus de l'autre",
+        "le sinus de l'un est égal au sinus de l'autre",
+        "le cosinus de l'un est égal au cosinus de l'autre",
+        "la tangente de l'un est égale à la tangente de l'autre"
+      ],
+      "answer": 0,
+      "explanation": "Propriété : si A + B = 90°, alors sin A = cos B et cos A = sin B."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "La tangente d'un angle aigu est égale au quotient du ______ par le cosinus de cet angle.",
+      "answer": "sinus",
+      "explanation": "tan A = sin A / cos A."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Dans un triangle rectangle, le produit des côtés de l'angle droit est égal :",
+      "options": [
+        "au produit de l'hypoténuse et de la hauteur issue de l'angle droit",
+        "à la somme de l'hypoténuse et de la hauteur",
+        "au carré de l'hypoténuse",
+        "à la différence des carrés des côtés"
+      ],
+      "answer": 0,
+      "explanation": "C'est la propriété métrique déduite de l'aire : AB × BC = BH × AC."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "ABC est un triangle rectangle en A avec AB = 4 et AC = 3. Quelle est la longueur BC ?",
+      "options": [
+        "5",
+        "7",
+        "√7",
+        "25"
+      ],
+      "answer": 0,
+      "explanation": "BC² = 4² + 3² = 16 + 9 = 25, donc BC = 5."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Dans un triangle ABC, si AB² = AC² + BC², alors le triangle est rectangle en ______.",
+      "answer": "C",
+      "explanation": "D'après la réciproque de Pythagore, l'angle droit est en C."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Dans un triangle rectangle en B, sin(BAC) est égal à :",
+      "options": [
+        "BC/AC",
+        "AB/AC",
+        "BC/AB",
+        "AB/BC"
+      ],
+      "answer": 0,
+      "explanation": "Le côté opposé à l'angle BAC est BC, l'hypoténuse est AC, donc sin(BAC) = BC/AC."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "On donne cos 23° = 0,9205. Quelle est la valeur de sin 67° ?",
+      "options": [
+        "0,9205",
+        "0,3907",
+        "0,771",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "23° + 67° = 90°, donc sin 67° = cos 23° = 0,9205."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Dans un triangle rectangle, si sin A = 3/5 et cos A = 4/5, alors tan A = ______.",
+      "answer": "3/4",
+      "explanation": "tan A = sin A / cos A = (3/5) / (4/5) = 3/4."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Pour construire un segment de longueur √65 sachant que 65 = 9² - 4², on utilise :",
+      "options": [
+        "un triangle rectangle dont l'hypoténuse mesure 9 et un côté de l'angle droit mesure 4",
+        "un triangle rectangle dont les côtés de l'angle droit mesurent 9 et 4",
+        "un triangle équilatéral de côté 9",
+        "un carré de côté 9"
+      ],
+      "answer": 0,
+      "explanation": "On a 9² = (√65)² + 4², donc on construit un triangle rectangle avec hypoténuse 9 et un côté 4."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "FIP est un triangle rectangle en P. K est le pied de la hauteur issue de P. Laquelle de ces égalités est correcte ?",
+      "options": [
+        "FP × PI = PK × FI",
+        "FP × PI = FK × KI",
+        "FP × FI = PK × PI",
+        "PI × FI = PK × FP"
+      ],
+      "answer": 0,
+      "explanation": "D'après la propriété métrique déduite de l'aire : FP × PI = PK × FI."
+    },
+    {
+      "id": "q20",
+      "type": "fill",
+      "prompt": "Dans un triangle rectangle, si cos F = 0,302 et que 0,292 < 0,302 < 0,309, alors 72° < mes F < ______°.",
+      "answer": "73",
+      "explanation": "On a cos 73° < cos F < cos 72°, donc 72° < mes F < 73°."
+    }
+  ]
+}

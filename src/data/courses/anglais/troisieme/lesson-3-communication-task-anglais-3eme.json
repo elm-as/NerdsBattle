@@ -1,0 +1,167 @@
+{
+  "id": "anglais-troisieme-lesson-3-communication-task-anglais-3eme",
+  "subjectId": "anglais",
+  "levelId": "troisieme",
+  "slug": "lesson-3-communication-task-anglais-3eme",
+  "title": "Pathways to Reconciliation: Tolerance on Peace Day",
+  "summary": "This lesson guides students to write an article for the English Club competition on Peace Day, highlighting how the neglect of rights and duties fuels conflict in Côte d'Ivoire and how tolerance can pave the way for genuine reconciliation.",
+  "lesson": "## Introduction\nThe English Club invites you to reflect on Côte d'Ivoire’s Peace Day (Dec 15). Your task is to craft an article that analyses the roots of past troubles and proposes tolerance as the cornerstone of lasting peace.\n\n## Causes of Conflict\n- **Non‑respect of rights**: freedom of expression, assembly, and fair trial were often denied.\n- **Neglect of duties**: citizens and authorities failed to uphold civic responsibilities such as voting, respecting the law, and promoting social cohesion.\n- **Resulting tensions**: mistrust, discrimination, and occasional violence.\n\n## Tolerance as a Solution\n- **Definition**: accepting differences in ethnicity, religion, and political opinion.\n- **Practical steps**:\n  1. Dialogue forums at community level.\n  2. Educational programmes on human rights.\n  3. Media campaigns celebrating diversity.\n- **Impact**: reduces prejudice, builds mutual respect, and creates a foundation for national reconciliation.\n\n## Writing the Article\n1. **Title** – catchy, ≤ 80 characters.\n2. **Introduction** – present Peace Day and its significance.\n3. **Body** – describe how ignoring rights/duties caused unrest; illustrate with recent examples.\n4. **Solution paragraph** – argue why tolerance is essential; give concrete actions.\n5. **Conclusion** – call to action for readers and the nation.\n\n## Checklist before submission\n- [ ] Title within 80 characters.\n- [ ] Summary ≤ 400 characters.\n- [ ] Clear link between rights‑duty neglect and conflict.\n- [ ] At least three concrete tolerance‑building measures.\n- [ ] Proper English grammar and spelling.\n- [ ] Word count within the magazine’s limit.\n\nGood luck! Your article could inspire a new chapter of peace in Côte d'Ivoire.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "anglais",
+    "troisieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "What date is celebrated as Peace Day in Côte d'Ivoire?",
+      "options": [
+        "December 1",
+        "December 15",
+        "January 15",
+        "November 30"
+      ],
+      "answer": 1,
+      "explanation": "Peace Day is observed on December 15."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "The neglect of civic duties can contribute to national unrest.",
+      "answer": true,
+      "explanation": "When citizens ignore duties like voting or respecting laws, tensions rise."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "The right to ___ is essential for a free society and was often violated during past crises in Côte d'Ivoire.",
+      "answer": "expression",
+      "explanation": "Freedom of expression is a fundamental right."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Which of the following is NOT listed as a practical step to promote tolerance?",
+      "options": [
+        "Dialogue forums",
+        "Educational programmes",
+        "Restricting media",
+        "Celebrating diversity"
+      ],
+      "answer": 2,
+      "explanation": "Restricting media contradicts tolerance; the other three are recommended."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "A good article title should exceed 100 characters to be descriptive.",
+      "answer": false,
+      "explanation": "The title must be concise, maximum 80 characters."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "One of the duties citizens failed to uphold was ___ the law.",
+      "answer": "respecting",
+      "explanation": "Respecting the law is a key civic duty."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Which section of the lesson explains how to structure the article?",
+      "options": [
+        "Introduction",
+        "Writing the Article",
+        "Checklist before submission",
+        "Causes of Conflict"
+      ],
+      "answer": 1,
+      "explanation": "The 'Writing the Article' section gives the structure."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Tolerance only refers to religious differences.",
+      "answer": false,
+      "explanation": "Tolerance includes ethnicity, politics, culture, and more."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "The lesson suggests at least ___ concrete tolerance‑building measures in the solution paragraph.",
+      "answer": "three",
+      "explanation": "Three measures are recommended for clarity."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Which of the following is a consequence of ignoring human rights?",
+      "options": [
+        "Economic growth",
+        "Social cohesion",
+        "Mistrust and violence",
+        "Improved education"
+      ],
+      "answer": 2,
+      "explanation": "Neglect leads to mistrust and occasional violence."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "The checklist includes verifying the word count for the magazine.",
+      "answer": true,
+      "explanation": "Ensuring the article fits the magazine’s limit is part of the checklist."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "The lesson’s estimated completion time is ___ minutes.",
+      "answer": "10",
+      "explanation": "The lesson is designed to be completed in about ten minutes."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Which heading follows 'Causes of Conflict' in the markdown lesson?",
+      "options": [
+        "Introduction",
+        "Tolerance as a Solution",
+        "Writing the Article",
+        "Conclusion"
+      ],
+      "answer": 1,
+      "explanation": "'Tolerance as a Solution' is the next section."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "A well‑written article should ignore past examples and focus only on future plans.",
+      "answer": false,
+      "explanation": "Including recent examples strengthens the argument."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "The English Club Magazine will publish the ___ article of the competition.",
+      "answer": "best",
+      "explanation": "Only the best article gets published."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Which of these is NOT a recommended component of the article's body?",
+      "options": [
+        "Analysis of rights violations",
+        "Personal anecdotes unrelated to the topic",
+        "Concrete tolerance actions",
+        "Historical context"
+      ],
+      "answer": 1,
+      "explanation": "Personal anecdotes unrelated to the topic distract from the main argument."
+    }
+  ]
+}

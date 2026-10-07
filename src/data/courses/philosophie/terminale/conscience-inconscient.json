@@ -1,0 +1,14 @@
+{
+  "id": "philosophie-terminale-conscience-inconscient",
+  "title": "Conscience et inconscient",
+  "summary": "Sommes-nous transparents à nous-mêmes ?",
+  "lesson": "La conscience est ce qui nous rend présents à nous-mêmes (Descartes : cogito). Mais Freud a montré qu'une part de l'esprit échappe à la conscience : l'inconscient. Le ça (pulsions), le moi (réalité), le surmoi (interdits) structurent la psyché. Sartre rejette l'inconscient au nom de la liberté.",
+  "estimatedMinutes": 12,
+  "tags": ["sujet", "psychanalyse"],
+  "questions": [
+    { "id": "q1", "type": "mcq", "prompt": "Qui a théorisé l'inconscient psychique ?", "options": ["Descartes", "Kant", "Freud", "Sartre"], "answer": 2, "explanation": "Sigmund Freud, fin XIXᵉ siècle." },
+    { "id": "q2", "type": "mcq", "prompt": "Dans la topique freudienne, le siège des pulsions est :", "options": ["le moi", "le surmoi", "le ça", "la conscience"], "answer": 2, "explanation": "Le ça, inconscient." },
+    { "id": "q3", "type": "truefalse", "prompt": "Pour Sartre, l'inconscient justifie le manque de liberté.", "answer": false, "explanation": "Sartre refuse cette excuse : nous sommes 'condamnés à être libres'." },
+    { "id": "q4", "type": "fill", "prompt": "Le célèbre cogito de Descartes : « Je pense, donc je ___. »", "answer": "suis", "explanation": "Cogito ergo sum." }
+  ]
+}

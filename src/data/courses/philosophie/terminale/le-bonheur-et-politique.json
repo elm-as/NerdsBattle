@@ -1,0 +1,207 @@
+{
+  "id": "philosophie-terminale-le-bonheur-et-politique",
+  "subjectId": "philosophie",
+  "levelId": "terminale",
+  "slug": "le-bonheur-et-politique",
+  "title": "Bonheur et politique : enjeux philosophiques et sociopolitiques",
+  "summary": "Ce texte explore la place du bonheur dans la réflexion politique. Il présente d'abord l'idée que le bonheur doit être le but de la politique, en s'appuyant sur le principe utilitariste et la Déclaration d'indépendance américaine. Il oppose ensuite la critique de Tocqueville, qui met en garde contre un pouvoir tutélaire qui réduirait les citoyens à l'enfance, et évoque la notion foucaldienne de biopouvoir où sécurité et gestion remplacent la loi.",
+  "lesson": "# Bonheur et politique\n\n## 1. Le bonheur comme objectif politique\n- **Principe utilitariste** : le bonheur comme fin ultime de l'action humaine.\n- **« Droit au bonheur »** dans les constitutions occidentales (ex. Déclaration d'indépendance des États‑Unis, 1776).\n- Citation clé : *« … la recherche du bonheur »*.\n\n## 2. Les limites du bonheur unique\n- **Alexis de Tocqueville** (1835‑1840) : mise en garde contre un **despotisme doux** qui garantirait le bonheur mais infantiliserait les citoyens.\n- Exemple du **pouvoir tutélaire** : l'État qui assure sécurité, santé, loisirs, mais restreint la liberté et la responsabilité.\n- **Foucault** (1977) : passage du **paradigme de la loi** au **paradigme de la norme** (biopouvoir).\n\n## 3. Analyse critique\n- **Pourquoi le bonheur seul est insuffisant ?**\n  - Il ne garantit pas la **responsabilité**, la **créativité** ou la **dignité**.\n  - Un État qui se substitue à la quête individuelle peut devenir **paternaliste** voire **totalitaire**.\n- **Quel rôle pour la politique ?**\n  - Assurer les conditions permettant le bonheur **sans le monopoliser**.\n  - Garantir les **droits fondamentaux**, la **justice**, la **participation citoyenne**.\n\n## 4. Perspectives contemporaines\n- **Sécurité vs liberté** : la tendance actuelle à privilégier la sécurité (surveillance, biopouvoir) au détriment des libertés individuelles.\n- **Débat actuel** : comment concilier **bien‑être collectif** et **autonomie individuelle** dans les démocraties modernes?\n\n---\n*Ce cours invite les élèves de terminale à réfléchir sur la place du bonheur dans la philosophie politique et à développer un esprit critique face aux enjeux contemporains.*",
+  "estimatedMinutes": 10,
+  "tags": [
+    "philosophie",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel texte fondateur mentionne explicitement le « droit à la recherche du bonheur » ?",
+      "options": [
+        "Déclaration des Droits de l'Homme et du Citoyen",
+        "Déclaration d'indépendance des États‑Unis",
+        "Constitution française de 1958",
+        "Charte des Nations Unies"
+      ],
+      "answer": 1,
+      "explanation": "Il s'agit de la Déclaration d'indépendance des États‑Unis de 1776, qui énonce la recherche du bonheur comme droit inaliénable."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Selon Tocqueville, un pouvoir qui garantit le bonheur des citoyens les rend automatiquement plus responsables.",
+      "answer": false,
+      "explanation": "Tocqueville soutient qu'un tel pouvoir les infantilise, réduisant leur responsabilité."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Foucault décrit le passage du paradigme de la loi au paradigme de la _______.",
+      "answer": "norme",
+      "explanation": "Foucault parle du passage du paradigme de la loi au paradigme de la norme, lié au biopouvoir."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel concept foucaldien désigne le pouvoir exercé sur la vie biologique des populations ?",
+      "options": [
+        "Souveraineté",
+        "Biopouvoir",
+        "Gouvernementalité",
+        "Sujéctivité"
+      ],
+      "answer": 1,
+      "explanation": "Le terme exact est « biopouvoir »."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Le principe utilitariste affirme que le bonheur individuel doit primer sur le bien commun.",
+      "answer": false,
+      "explanation": "L'utilitarisme vise le plus grand bonheur du plus grand nombre, donc le bien commun."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Dans le texte, quel auteur est cité pour illustrer la critique d'un État tutélaire ?",
+      "options": [
+        "John Locke",
+        "Alexis de Tocqueville",
+        "Jean‑Jacques Rousseau",
+        "Immanuel Kant"
+      ],
+      "answer": 1,
+      "explanation": "C’est Alexis de Tocqueville qui décrit le danger d’un pouvoir tutélaire."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Le texte indique que la sécurité est aujourd'hui « au‑dessus des _______ ».",
+      "answer": "lois",
+      "explanation": "Citation de Foucault : « Désormais la sécurité est au‑dessus des lois »."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel siècle marque l’émergence du concept de « droit au bonheur » dans les constitutions occidentales ?",
+      "options": [
+        "XVIIe siècle",
+        "XVIIIe siècle",
+        "XIXe siècle",
+        "XXe siècle"
+      ],
+      "answer": 1,
+      "explanation": "Le concept apparaît à la fin du XVIIIe siècle, notamment aux États‑Unis."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Le biopouvoir se caractérise uniquement par la répression des déviances sociales.",
+      "answer": false,
+      "explanation": "Le biopouvoir inclut la gestion, la santé, la sécurité, pas seulement la répression."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Selon le texte, le pouvoir tutélaire agit comme une « mère ______ ».",
+      "answer": "poule",
+      "explanation": "Métaphore utilisée pour décrire un pouvoir protecteur mais aliénant."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel est le principal danger d’un État qui se substitue à la quête du bonheur selon le texte ?",
+      "options": [
+        "L’augmentation du chômage",
+        "L’infantilisation des citoyens",
+        "La hausse des impôts",
+        "La perte de la souveraineté nationale"
+      ],
+      "answer": 1,
+      "explanation": "L’infantilisation des citoyens est le danger souligné par Tocqueville."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Le texte affirme que la recherche du bonheur est incompatible avec la liberté politique.",
+      "answer": false,
+      "explanation": "Le texte montre que le bonheur peut être un objectif politique, mais il ne doit pas supplanter la liberté."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Le principe utilitariste associe le bonheur à la maximisation du _______.",
+      "answer": "bien‑être collectif",
+      "explanation": "L'utilitarisme vise le plus grand bien‑être collectif."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel auteur a introduit le concept de « gouvernementalité » lié au biopouvoir ?",
+      "options": [
+        "Michel Foucault",
+        "Pierre Bourdieu",
+        "Jürgen Habermas",
+        "John Rawls"
+      ],
+      "answer": 0,
+      "explanation": "Michel Foucault a développé les notions de biopouvoir et de gouvernementalité."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Selon le texte, la sécurité peut être considérée comme un substitut du droit à la liberté.",
+      "answer": true,
+      "explanation": "Le texte montre que la sécurité est parfois placée au‑dessus des lois, limitant la liberté."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Le texte cite une comparaison entre le pouvoir tutélaire et le rôle du ______ dans une famille.",
+      "answer": "père",
+      "explanation": "Le pouvoir tutélaire est comparé à la puissance paternelle qui prépare les hommes à l’âge viril."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quel événement historique a favorisé l’émergence du « droit au bonheur » dans les constitutions ?",
+      "options": [
+        "La Révolution française",
+        "La Déclaration d'indépendance américaine",
+        "La chute du mur de Berlin",
+        "La Première Guerre mondiale"
+      ],
+      "answer": 1,
+      "explanation": "La Déclaration d'indépendance américaine de 1776 a introduit le droit à la recherche du bonheur."
+    },
+    {
+      "id": "q18",
+      "type": "truefalse",
+      "prompt": "Le texte suggère que la recherche du bonheur doit être le seul critère d’évaluation d’une politique publique.",
+      "answer": false,
+      "explanation": "Il insiste sur la nécessité d’autres critères comme la responsabilité citoyenne et la liberté."
+    },
+    {
+      "id": "q19",
+      "type": "fill",
+      "prompt": "Le terme « biopouvoir » désigne le contrôle de la _______ par l’État.",
+      "answer": "vie",
+      "explanation": "Biopouvoir = pouvoir sur la vie."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Quel philosophe est associé à la notion de « droit naturel » qui inclut le bonheur ?",
+      "options": [
+        "Thomas Hobbes",
+        "John Locke",
+        "Jean‑Jacques Rousseau",
+        "David Hume"
+      ],
+      "answer": 1,
+      "explanation": "John Locke a développé l’idée de droits naturels, incluant la vie, la liberté et la recherche du bonheur."
+    }
+  ]
+}

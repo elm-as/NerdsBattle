@@ -1,0 +1,152 @@
+{
+  "id": "physique-sixieme-je-manipule-des-gaz-pour-decouvrir-leurs-proprie",
+  "subjectId": "physique",
+  "levelId": "sixieme",
+  "slug": "je-manipule-des-gaz-pour-decouvrir-leurs-proprie",
+  "title": "L'air et ses propriétés physiques",
+  "summary": "Découvre comment l'air, invisible mais bien réel, se comprime, se détend et reprend sa forme. Explore ses propriétés étonnantes à travers des expériences simples.",
+  "lesson": "## Introduction\nL'air est partout autour de nous, mais comment prouver son existence et comprendre son comportement ? Dans cette leçon, nous allons explorer les propriétés physiques de l'air et des gaz à travers des expériences.\n\n## 1. Définitions & Notions clés\n- **L'air** : mélange de gaz invisible, inodore et sans forme propre.\n- **Gaz** : état de la matière qui n'a pas de forme propre et occupe tout l'espace disponible.\n- **Compressible** : qui peut être comprimé, c'est-à-dire dont on peut réduire le volume.\n- **Expansible** : qui peut se détendre, c'est-à-dire dont on peut augmenter le volume.\n- **Élastique** : qui reprend sa forme ou son volume initial après avoir été comprimé ou étiré.\n- **Dioxyde d'azote** : gaz bleu à odeur suffocante, toxique, signalé par le pictogramme T.\n\n## 2. Applications & Méthodes\n### 2.1. Montrer l'existence de l'air\n- **Expérience du verre retourné** : On plonge un verre vide à l'envers dans l'eau. L'eau ne remplit pas le verre car il est rempli d'air. En inclinant le verre, l'air s'échappe sous forme de bulles.\n- **Transvasement de l'air** : On peut déplacer l'air d'un récipient à un autre par déplacement d'eau (exemple : du tube à essai au bocal).\n\n### 2.2. Propriétés de l'air\n- **L'air n'a pas de forme propre** : il prend la forme du récipient qui le contient.\n- **L'air est compressible** : on peut réduire son volume en appuyant sur un piston.\n- **L'air est expansible** : on peut augmenter son volume en tirant sur un piston.\n- **L'air est élastique** : lorsqu'on cesse d'appuyer ou de tirer, l'air reprend sa position initiale.\n\n### 2.3. D'autres gaz\n- Certains gaz sont toxiques et signalés par le pictogramme T (exemple : dioxyde d'azote).\n\n## 3. Pièges fréquents\n- **Confondre compressible et expansible** : compressible signifie qu'on peut réduire le volume ; expansible signifie qu'on peut l'augmenter.\n- **Penser que l'air n'existe pas** : l'air est invisible mais on peut prouver sa présence par des expériences.\n- **Oublier que l'air est élastique** : après compression ou expansion, l'air reprend sa forme initiale.\n- **Ne pas reconnaître les gaz toxiques** : ils sont dangereux et signalés par le pictogramme T.\n\n## Synthèse\nL'air est un gaz qui n'a pas de forme propre, il est compressible, expansible et élastique. Ces propriétés expliquent de nombreux phénomènes, comme la déformation d'un ballon. Il faut également se méfier des gaz toxiques.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Pourquoi l'eau ne remplit-elle pas le verre retourné dans l'expérience ?",
+      "options": [
+        "Parce que le verre est sale",
+        "Parce que l'air empêche l'eau d'entrer",
+        "Parce que l'eau est trop froide",
+        "Parce que le verre est trop petit"
+      ],
+      "answer": 1,
+      "explanation": "L'air contenu dans le verre empêche l'eau d'y pénétrer."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "L'air est ______, c'est-à-dire qu'on peut réduire son volume.",
+      "answer": "0",
+      "explanation": "Compressible signifie qu'on peut réduire le volume de l'air."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel gaz est décrit comme ayant une couleur bleue et une odeur suffocante ?",
+      "options": [
+        "L'oxygène",
+        "Le dioxyde de carbone",
+        "Le dioxyde d'azote",
+        "L'azote"
+      ],
+      "answer": 2,
+      "explanation": "Le dioxyde d'azote est un gaz bleu à odeur suffocante."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Quand on tire sur le piston, l'air se détend : il est ______.",
+      "answer": "1",
+      "explanation": "Expansible signifie que l'air peut se détendre, augmenter de volume."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Comment peut-on transvaser de l'air d'un récipient à un autre ?",
+      "options": [
+        "En le versant directement",
+        "Par déplacement d'eau",
+        "En le chauffant",
+        "En le refroidissant"
+      ],
+      "answer": 1,
+      "explanation": "On peut transvaser l'air par déplacement d'eau, comme dans l'expérience du tube à essai au bocal."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "L'air comme tous les gaz n'a pas de ______ propre.",
+      "answer": "2",
+      "explanation": "L'air n'a pas de forme propre, il prend la forme du récipient."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Que se passe-t-il quand on appuie sur le piston ?",
+      "options": [
+        "L'air se détend",
+        "L'air se comprime",
+        "L'air s'échappe",
+        "L'air change de couleur"
+      ],
+      "answer": 1,
+      "explanation": "En appuyant sur le piston, on réduit le volume de l'air : il se comprime."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Le dioxyde d'azote est un gaz ______ pour les êtres vivants.",
+      "answer": "1",
+      "explanation": "Le dioxyde d'azote est toxique, il est signalé par le pictogramme T."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Pourquoi le ballon redevient-il tout rond après avoir été déformé ?",
+      "options": [
+        "Parce que l'air est compressible",
+        "Parce que l'air est élastique",
+        "Parce que l'air est toxique",
+        "Parce que l'air est invisible"
+      ],
+      "answer": 1,
+      "explanation": "L'air est élastique, il reprend sa forme initiale après avoir été comprimé."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "L'air prend la ______ du récipient qui le contient.",
+      "answer": "2",
+      "explanation": "L'air n'a pas de forme propre, il prend la forme du récipient."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel pictogramme signale les gaz toxiques ?",
+      "options": [
+        "T",
+        "F",
+        "X",
+        "C"
+      ],
+      "answer": 0,
+      "explanation": "Les gaz toxiques sont signalés par le pictogramme T."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "prompt": "Quand on cesse d'appuyer sur le piston, l'air reprend sa position initiale : il est ______.",
+      "answer": "2",
+      "explanation": "L'air est élastique : il reprend sa position initiale."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Que signifie le mot 'expansible' ?",
+      "options": [
+        "Qui peut être comprimé",
+        "Qui peut se détendre",
+        "Qui est toxique",
+        "Qui est invisible"
+      ],
+      "answer": 1,
+      "explanation": "Expansible signifie qui peut se détendre, augmenter de volume."
+    }
+  ]
+}

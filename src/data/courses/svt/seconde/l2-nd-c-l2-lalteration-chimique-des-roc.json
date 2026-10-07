@@ -1,0 +1,201 @@
+{
+  "id": "svt-seconde-l2-nd-c-l2-lalteration-chimique-des-roc",
+  "subjectId": "svt",
+  "levelId": "seconde",
+  "slug": "l2-nd-c-l2-lalteration-chimique-des-roc",
+  "title": "Altération chimique des roches magmatiques – Leçon 2 (SVT 2nde C)",
+  "summary": "Cette leçon décrit comment l’eau, transformée en acide carbonique, agit comme agent d’altération chimique sur les roches magmatiques. Elle détaille les réactions d’hydrolyse et d’hydratation du feldspath, la formation d’argiles, d’oxydes de fer et de silice, ainsi que les observations de fissures, de décoloration ocre et de perte de cohésion observées sur le terrain.",
+  "lesson": "## Introduction\nLes élèves de 2nde C du Lycée Moderne de Sassandra étudient l’altération chimique des roches magmatiques lors d’une sortie sur les rochers de l’embouchure du fleuve Sassandra.\n\n## Observation de terrain\n- Fissures visibles sur certaines roches.\n- Zones de dégradation ocre, couleur rouille.\n- Perte de cohésion de la roche.\n\n## Analyse du texte de référence\nLe granite (quartz, feldspath, mica) subit une dégradation lorsqu’il est exposé à l’eau et au CO₂ :\n- Le quartz reste intact → sable.\n- Feldspath et mica se transforment en argile (kaolinite).\n- Le fer du mica s’oxyde → couleur rouille.\n\n## Mécanisme chimique\n1. **Formation d’acide carbonique** : `H₂O + CO₂ → H₂CO₃`.\n2. **Hydrolyse du feldspath** : l’ion H⁺ (provenant de H₂CO₃ ou de l’ionisation de l’eau) remplace le K⁺ du feldspath, provoquant la désintégration du réseau cristallin.\n3. **Hydratation** : le feldspath absorbe l’eau, gonfle, puis se désintègre.\n4. **Produits** :\n   - Argiles (kaolinite, chlorite)\n   - Oxydes de fer (FeO, Fe₂O₃) → coloration rouille\n   - Hydroxydes (Gibbsite, KOH)\n   - Silice (SiO₂) → sable\n\n## Conclusion\nL’eau, sous forme d’acide carbonique, est l’agent d’altération. Le mécanisme repose sur l’hydrolyse et l’hydratation du feldspath, entraînant la formation d’argiles, d’oxydes et de sable, ainsi que la perte de cohésion de la roche.\n\n---\n**Activité d’application**\nComplétez : « L’altération chimique des roches magmatiques se fait grâce à … ». (Réponse : l’eau)",
+  "estimatedMinutes": 10,
+  "tags": [
+    "svt",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est l’agent principal de l’altération chimique des roches magmatiques selon la leçon?",
+      "options": [
+        "Le vent",
+        "L’eau",
+        "Le feu",
+        "Le soleil"
+      ],
+      "answer": 1,
+      "explanation": "L’eau, transformée en acide carbonique, agit comme agent d’altération."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le quartz se transforme en argile lors de l’altération chimique du granite.",
+      "answer": false,
+      "explanation": "Le quartz reste intact et forme du sable."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "L’acide carbonique se forme par la réaction entre l’eau et le _______.",
+      "answer": "dioxyde de carbone",
+      "explanation": "H₂O + CO₂ → H₂CO₃."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel minéral du granite libère du fer qui s’oxyde en oxyde de fer?",
+      "options": [
+        "Quartz",
+        "Mica",
+        "Feldspath",
+        "Calcite"
+      ],
+      "answer": 1,
+      "explanation": "Le mica contient du fer qui, oxydé, donne la couleur rouille."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "L’hydrolyse du feldspath implique le remplacement du K⁺ par un ion H⁺.",
+      "answer": true,
+      "explanation": "L’ion H⁺ pénètre dans le réseau cristallin et remplace le K⁺."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Le produit final de l’hydrolyse du feldspath potassique est une argile de type _______.",
+      "answer": "kaolinite",
+      "explanation": "Al³⁺ + Si⁴⁺ → kaolinite."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Parmi les produits suivants, lequel n’est pas issu de l’altération chimique des roches magmatiques?",
+      "options": [
+        "Kaolinite",
+        "Fe₂O₃",
+        "Calcite",
+        "Gibbsite"
+      ],
+      "answer": 2,
+      "explanation": "La calcite n’est pas mentionnée comme produit de cette altération."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "L’hydratation du feldspath provoque son gonflement avant sa désintégration.",
+      "answer": true,
+      "explanation": "Le feldspath absorbe l’eau, gonfle, puis se désorganise."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Le K⁺ libéré lors de l’hydrolyse du feldspath se combine avec OH⁻ pour former _______.",
+      "answer": "KOH",
+      "explanation": "K⁺ + OH⁻ → KOH (potasse)."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel phénomène explique la couleur rouille observée sur le granite altéré?",
+      "options": [
+        "Oxydation du fer",
+        "Décomposition du quartz",
+        "Formation de carbonate de calcium",
+        "Absorption de CO₂"
+      ],
+      "answer": 0,
+      "explanation": "Le fer libéré s’oxyde en Fe₂O₃, donnant la teinte rouille."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "L’eau agit uniquement comme solvant, sans participer aux réactions chimiques d’altération.",
+      "answer": false,
+      "explanation": "L’eau participe activement via l’hydrolyse et la formation d’acide carbonique."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Le processus qui transforme le feldspath en argile s’appelle _______.",
+      "answer": "hydrolyse",
+      "explanation": "Hydrolyse = réaction chimique entre un minéral et l’eau."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel ion, issu de l’ionisation de l’eau, est responsable de l’attaque du réseau cristallin du feldspath?",
+      "options": [
+        "OH⁻",
+        "H⁺",
+        "Na⁺",
+        "Ca²⁺"
+      ],
+      "answer": 1,
+      "explanation": "L’ion H⁺, très polarisé, pénètre le réseau cristallin."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Les argiles formées lors de l’altération sont des composés plus complexes que le feldspath d’origine.",
+      "answer": false,
+      "explanation": "Les argiles sont des composés plus simples (kaolinite, chlorite)."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Le processus d’absorption d’eau par le feldspath est appelé _______.",
+      "answer": "hydratation",
+      "explanation": "Hydratation = absorption d’eau suivie du gonflement."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel produit solide représente le résidu le plus résistant après l’altération du granite?",
+      "options": [
+        "Argile",
+        "Sable",
+        "Hydroxyde de fer",
+        "KOH"
+      ],
+      "answer": 1,
+      "explanation": "Le quartz, très résistant, reste sous forme de sable (SiO₂)."
+    },
+    {
+      "id": "q17",
+      "type": "truefalse",
+      "prompt": "Le magnésium libéré lors de l’altération du mica forme de l’oxyde de magnésium, qui colore la roche en vert.",
+      "answer": false,
+      "explanation": "L’oxyde de magnésium n’est pas mentionné comme colorant; la couleur rouille provient du fer."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "prompt": "Le CO₂ dissous dans l’eau forme l’acide _______.",
+      "answer": "carbonique",
+      "explanation": "H₂O + CO₂ → H₂CO₃ (acide carbonique)."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Quel phénomène explique la perte de cohésion du granite après altération?",
+      "options": [
+        "Formation de fissures par gel",
+        "Hydrolyse du feldspath",
+        "Cristallisation du quartz",
+        "Déposition de calcaire"
+      ],
+      "answer": 1,
+      "explanation": "L’hydrolyse du feldspath désintègre le réseau cristallin, affaiblissant la roche."
+    },
+    {
+      "id": "q20",
+      "type": "truefalse",
+      "prompt": "Les hydroxydes comme la potasse (KOH) sont des produits de l’altération chimique des roches magmatiques.",
+      "answer": true,
+      "explanation": "K⁺ libéré se combine avec OH⁻ pour former KOH."
+    }
+  ]
+}

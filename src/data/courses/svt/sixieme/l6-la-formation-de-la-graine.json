@@ -1,0 +1,173 @@
+{
+  "id": "svt-sixieme-l6-la-formation-de-la-graine",
+  "subjectId": "svt",
+  "levelId": "sixieme",
+  "slug": "l6-la-formation-de-la-graine",
+  "title": "Formation de la graine chez les plantes à fleurs (6e SVT)",
+  "summary": "Cette leçon explique comment la graine se forme à partir de la fleur, en décrivant les parties de la fleur d’Orgueil de Chine, les étapes de l’évolution de la fleur et les phénomènes de pollinisation et de fécondation qui permettent la production de fruits et de graines.",
+  "lesson": "## Situation d’apprentissage\nLors d’une sortie, les élèves observent des plants d’Orgueil de Chine avec des inflorescences contenant des boutons floraux, des fleurs épanouies, des fleurs fanées et des fruits contenant des graines.\n\n## Contenu de la leçon\n### 1. La graine se forme‑t‑elle à partir de la fleur ?\n- **Observation** : fleur épanouie d’Orgueil de Chine disséquée.\n- **Résultats** :\n  - 5 sépales (calice)\n  - 5 pétales (corolle)\n  - 10 étamines (anthères) → androcée\n  - 1 pistil (gynécée) : ovaire, style, stigmate\n- **Analyse** : les sépales et pétales protègent, les étamines et le pistil sont reproducteurs.\n- **Conclusion** : la graine provient de la fleur.\n\n### 2. Quels phénomènes interviennent dans la formation de la graine ?\n- **Expérience** : pollen déposé sur fleur A (pollinisation autorisée) → fruit avec graines ; fleur B (pollen absent) → aucun fruit.\n- **Interprétation** :\n  1. **Pollinisation** : dépôt du grain de pollen sur le stigmate.\n  2. **Germination** : le grain forme un tube pollinique qui traverse le style.\n  3. **Fécondation** : le noyau du pollen fusionne avec l’ovule, formant le zygote.\n  4. **Développement** : l’ovaire se transforme en fruit, l’ovule en graine.\n- **Conclusion** : la pollinisation et la fécondation sont essentielles à la formation de la graine.\n\n## Activités d’application\n- Identifier les stades (bouton floral, fleur épanouie, fleur fanée) sur une photo.\n- Représenter le trajet du pollen du stigmate au ovule.\n- Expliquer pourquoi la fleur B ne produit pas de graines.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "svt",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Combien de sépales possède la fleur d’Orgueil de Chine décrite dans le texte ?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "answer": 1,
+      "explanation": "Le texte indique 5 sépales."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle partie de la fleur constitue l’androcée ?",
+      "options": [
+        "Pistil",
+        "Corolle",
+        "Androce",
+        "Étamine"
+      ],
+      "answer": 2,
+      "explanation": "L’androcée regroupe les étamines."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Le pistil reste présent après le stade de fleur fanée.",
+      "answer": true,
+      "explanation": "Le texte précise que le pistil persiste lorsque les sépales et pétales tombent."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Le processus par lequel le grain de pollen atteint l’ovule s’appelle ___________.",
+      "answer": "tube pollinique",
+      "explanation": "Le grain de pollen forme un tube pollinique qui traverse le style."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Dans l’expérience, quelle est la différence principale entre la fleur A et la fleur B ?",
+      "options": [
+        "A a reçu du pollen, B non",
+        "A était plus grande",
+        "B était pollinisée, A non",
+        "A et B étaient identiques"
+      ],
+      "answer": 0,
+      "explanation": "Seul le pollen a été déposé sur la fleur A."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "La fécondation implique la fusion d’une cellule mâle et d’une cellule femelle.",
+      "answer": true,
+      "explanation": "C’est la définition même de la fécondation."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Après la fécondation, l’ovaire se transforme en __________ contenant les graines.",
+      "answer": "fruit",
+      "explanation": "L’ovaire mûrit et devient le fruit."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel terme désigne les pièces protectrices de la fleur ?",
+      "options": [
+        "Androce",
+        "Gynécée",
+        "Calyx",
+        "Corolle"
+      ],
+      "answer": 2,
+      "explanation": "Le calice, formé de sépales, protège la fleur."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Le stigmate est la partie du pistil où le grain de pollen se dépose.",
+      "answer": true,
+      "explanation": "Le stigmate reçoit le pollen."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel phénomène suit immédiatement la pollinisation dans la formation de la graine ?",
+      "options": [
+        "Germination du pollen",
+        "Maturation du fruit",
+        "Développement du zygote",
+        "Chute des pétales"
+      ],
+      "answer": 0,
+      "explanation": "Le grain de pollen germe pour former le tube pollinique."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Le zygote se développe ensuite en une __________ contenue dans la graine.",
+      "answer": "plantule",
+      "explanation": "Le zygote donne la plantule."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Les sépales et les pétales sont appelés pièces reproductrices.",
+      "answer": false,
+      "explanation": "Ce sont les pièces protectrices, pas reproductrices."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel est le rôle du style dans la fleur ?",
+      "options": [
+        "Produire du pollen",
+        "Supporter le pistil",
+        "Faire passer le tube pollinique",
+        "Attirer les pollinisateurs"
+      ],
+      "answer": 2,
+      "explanation": "Le style guide le tube pollinique vers l’ovule."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Le processus de transformation d’un ovule fertilisé en graine s’appelle ___________.",
+      "answer": "développement embryonnaire",
+      "explanation": "Après la fécondation, l’ovule se développe en graine."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "La reproduction sexuée nécessite l’union de cellules reproductrices mâles et femelles.",
+      "answer": true,
+      "explanation": "C’est la définition de la reproduction sexuée."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel stade de la fleur apparaît en dernier dans la séquence décrite ?",
+      "options": [
+        "Bouton floral",
+        "Fleur épanouie",
+        "Fleur fanée",
+        "Fruit mature"
+      ],
+      "answer": 2,
+      "explanation": "Le texte décrit le stade final comme fleur fanée, avant le fruit."
+    }
+  ]
+}

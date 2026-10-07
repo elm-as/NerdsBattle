@@ -1,0 +1,69 @@
+{
+  "id": "maths-troisieme-systemes-equations-lineaires",
+  "title": "Systèmes de deux équations à deux inconnues",
+  "summary": "Maîtrisez la résolution de systèmes d'équations linéaires, un outil indispensable pour modéliser et résoudre des problèmes concrets. Ce chapitre vous donne les clés pour réussir haut la main les épreuves du BEPC.",
+  "lesson": "## Introduction & Mise en situation\n\nImaginez que vous devez acheter des cahiers et des stylos. Vous savez que 3 cahiers et 2 stylos coûtent 1500 FCFA, et que 1 cahier et 3 stylos coûtent 1300 FCFA. Comment trouver le prix d'un cahier et d'un stylo ? Ce genre de problème, où l'on cherche plusieurs valeurs inconnues à partir de plusieurs informations, se résout grâce aux **systèmes d'équations**. C'est un outil puissant utilisé dans de nombreux domaines : économie, physique, informatique, etc. Au BEPC, savoir résoudre ces systèmes est essentiel pour obtenir de bons points.\n\n## 1. Définitions et Principes Fondamentaux\n\nUn **système de deux équations à deux inconnues** est un ensemble de deux équations du premier degré à deux inconnues, généralement notées $x$ et $y$. Il se présente sous la forme :\n\n$$\n\\begin{cases} ax + by = c \\\\ a'x + b'y = c' \\end{cases}\n$$\n\nOù $a, b, c, a', b', c'$ sont des nombres réels donnés, avec $a$ et $b$ non tous deux nuls, et $a'$ et $b'$ non tous deux nuls.\n\n**Résoudre un système**, c'est trouver tous les couples $(x; y)$ qui vérifient simultanément les deux équations.\n\n**Interprétation graphique** : Chaque équation représente une droite dans un repère. Résoudre le système revient à trouver le point d'intersection des deux droites (si les droites ne sont pas parallèles).\n\n## 2. Propriétés et Méthodes d'application\n\nIl existe deux méthodes principales pour résoudre un système : la **substitution** et la **combinaison linéaire**.\n\n### Méthode de substitution\n\n1. Dans l'une des équations, exprimer une inconnue en fonction de l'autre.\n2. Remplacer cette expression dans l'autre équation.\n3. Résoudre l'équation à une inconnue obtenue.\n4. Calculer la deuxième inconnue en utilisant l'expression du 1.\n\n**Exemple** : Résoudre le système $\\begin{cases} x + y = 5 \\\\ 2x - y = 1 \\end{cases}$\n\n- Dans la première équation, exprimons $y$ en fonction de $x$ : $y = 5 - x$.\n- Remplaçons dans la seconde : $2x - (5 - x) = 1$.\n- Résolvons : $2x - 5 + x = 1 \\Rightarrow 3x = 6 \\Rightarrow x = 2$.\n- Calculons $y$ : $y = 5 - 2 = 3$.\n\n**Solution** : $(2; 3)$.\n\n### Méthode de combinaison linéaire\n\n1. Multiplier (si nécessaire) les équations par des nombres choisis pour que les coefficients d'une même inconnue soient opposés.\n2. Additionner les deux équations membre à membre pour éliminer cette inconnue.\n3. Résoudre l'équation obtenue.\n4. Calculer l'autre inconnue en remplaçant la valeur trouvée dans l'une des équations.\n\n**Exemple** : Résoudre $\\begin{cases} 2x + 3y = 7 \\\\ 3x - 2y = 4 \\end{cases}$\n\n- Multiplions la première équation par 2 et la seconde par 3 pour éliminer $y$ : $\\begin{cases} 4x + 6y = 14 \\\\ 9x - 6y = 12 \\end{cases}$\n- Additionnons : $13x = 26 \\Rightarrow x = 2$.\n- Remplaçons dans la première : $2(2) + 3y = 7 \\Rightarrow 4 + 3y = 7 \\Rightarrow 3y = 3 \\Rightarrow y = 1$.\n\n**Solution** : $(2; 1)$.\n\n### Cas particuliers\n\n- Si les droites sont **sécantes** (coefficients non proportionnels), il y a une solution unique.\n- Si les droites sont **parallèles distinctes** (coefficients proportionnels mais $c$ et $c'$ non proportionnels), il n'y a **aucune solution**.\n- Si les droites sont **confondues** (équations proportionnelles), il y a une **infinité de solutions**.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Erreur de signe** : Lors de la combinaison, vérifiez les signes. Par exemple, si vous additionnez deux équations, les coefficients doivent être opposés.\n- **Oublier de vérifier** : Après avoir trouvé un couple, remplacez-le dans les deux équations pour vérifier qu'il est correct.\n- **Confusion entre les méthodes** : Choisissez la méthode la plus simple selon le système. Si une inconnue a pour coefficient 1, la substitution est souvent plus rapide.\n- **Fraction mal simplifiée** : Lorsque vous divisez, simplifiez les fractions.\n- **Ne pas répondre à la question posée** : Dans un problème, le couple $(x; y)$ doit être interprété en fonction du contexte (par exemple, prix d'un cahier, prix d'un stylo).\n\n## Synthèse\n\n1. **Deux méthodes** : substitution (isoler une inconnue) et combinaison linéaire (éliminer une inconnue).\n2. **Interprétation graphique** : les solutions correspondent à l'intersection de deux droites.\n3. **Vérification systématique** : remplacez le couple trouvé dans les deux équations pour éviter les erreurs.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "systèmes",
+    "équations",
+    "BEPC",
+    "algèbre"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la solution du système $\\begin{cases} x + y = 5 \\\\ x - y = 1 \\end{cases}$ ?",
+      "options": [
+        "(3; 2)",
+        "(2; 3)",
+        "(4; 1)",
+        "(1; 4)"
+      ],
+      "answer": 0,
+      "explanation": "En additionnant les deux équations, on obtient $2x = 6$ donc $x = 3$. En remplaçant dans la première, $3 + y = 5$ donc $y = 2$. La solution est (3; 2)."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le système $\\begin{cases} 2x + 3y = 5 \\\\ 4x + 6y = 10 \\end{cases}$ admet une infinité de solutions.",
+      "answer": true,
+      "explanation": "Les deux équations sont proportionnelles (la seconde est le double de la première), donc les droites sont confondues, il y a une infinité de solutions."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Résoudre le système $\\begin{cases} 3x + 2y = 12 \\\\ x - y = 1 \\end{cases}$. La valeur de $x$ est :",
+      "answer": "2.8",
+      "explanation": "De la seconde équation, $x = y + 1$. Remplaçons dans la première : $3(y+1) + 2y = 12 \\Rightarrow 5y + 3 = 12 \\Rightarrow 5y = 9 \\Rightarrow y = 1.8$. Donc $x = 2.8$."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle méthode consiste à exprimer une inconnue en fonction de l'autre puis à remplacer dans l'autre équation ?",
+      "options": [
+        "Combinaison linéaire",
+        "Substitution",
+        "Graphique",
+        "Élimination"
+      ],
+      "answer": 1,
+      "explanation": "La méthode de substitution consiste à isoler une inconnue dans une équation et à substituer son expression dans l'autre."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Si deux droites sont parallèles, le système correspondant a toujours une solution unique.",
+      "answer": false,
+      "explanation": "Si les droites sont parallèles, soit elles sont distinctes (aucune solution), soit confondues (infinité de solutions). Il n'y a pas de solution unique."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Résoudre le système $\\begin{cases} 2x + 3y = 8 \\\\ 4x - y = 2 \\end{cases}$. La valeur de $y$ est :",
+      "answer": "2",
+      "explanation": "Multiplions la première équation par 2 : $4x + 6y = 16$. Soustrayons la seconde : $(4x+6y) - (4x - y) = 16 - 2 \\Rightarrow 7y = 14 \\Rightarrow y = 2$."
+    }
+  ]
+}

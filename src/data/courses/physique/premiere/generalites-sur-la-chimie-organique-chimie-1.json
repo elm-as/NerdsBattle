@@ -1,0 +1,124 @@
+{
+  "id": "physique-premiere-generalites-sur-la-chimie-organique-chimie-1",
+  "subjectId": "physique",
+  "levelId": "premiere",
+  "slug": "generalites-sur-la-chimie-organique-chimie-1",
+  "title": "Généralités sur la chimie organique – 1ère D",
+  "summary": "Ce cours expose les bases de la chimie organique : définition, mise en évidence expérimentale de l’élément carbone, importance du carbone, autres éléments présents, calcul de la formule brute à partir de l’analyse élémentaire et notions de densité. Il prépare les élèves à comprendre la structure et les propriétés des composés organiques.",
+  "lesson": "# Généralités sur la chimie organique\n\n## I) Introduction à la chimie organique\n\n### 1. Définition\nLa chimie organique est la partie de la chimie qui s’intéresse à l’étude des composés principalement constitués de carbone. Ces composés sont appelés composés organiques.\n\n### 2. Mise en évidence expérimentale de l’élément carbone\n#### 2.1 Par pyrolyse\n- **Expérience** : chauffage d’un sucre (ex. saccharose) en l’absence d’oxygène.\n- **Observations** : formation de carbone noir, libération de gaz.\n- **Conclusion** : le sucre contient du carbone.\n\n#### 2.2 Par combustion\n- **Expérience** : combustion d’éthanol.\n- **Observations** : flamme bleue, production de CO₂.\n- **Conclusion** : l’éthanol contient du carbone.\n\n### 3. Importance de l’élément carbone\n- Présent dans toutes les substances naturelles (animales, végétales) : charbon, pétrole, gaz naturel, graisses, protéines.\n- Présent dans de nombreuses substances synthétiques : fibres textiles, plastiques.\n\n### 4. Autres éléments chimiques présents\n- Hydrogène (H) : majoritaire dans les hydrocarbures.\n- Oxygène (O) : dans alcools, acides, sucres.\n- Azote (N) : dans acides aminés, protides.\n- Cl, Br, S, P : moins fréquents.\n\n## II) Formule brute d’un composé organique à partir de l’analyse élémentaire\n\n### 1. Composition centésimale massique\nL’analyse élémentaire permet de déterminer les pourcentages massiques %C, %H, %O. À partir de ces valeurs, on obtient la formule brute CxHyOz.\n\n### 2. Applications\n- **Exemple 1** : Saccharose (C12H22O11). Calculer %C, %H, %O.\n- **Exemple 2** : Composition %C=40,0, %H=6,7, %O=53,3, masse molaire 60 g/mol → formule brute C2H4O2.\n\n## III) Densité\n\n### 1. Densité d’un corps liquide ou solide par rapport à l’eau\n\r\n\nd = ρ/ρ_eau\n\n### 2. Densité d’un gaz par rapport à l’air\n\r\n\nd = M_gaz / 29\n\n---",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "premiere",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel élément est le plus abondant dans les composés organiques ?",
+      "options": [
+        "Hydrogène",
+        "Oxygène",
+        "Azote",
+        "Carbone"
+      ],
+      "answer": 3,
+      "explanation": "Les composés organiques sont principalement constitués de carbone."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle expérience permet de mettre en évidence le carbone par pyrolyse ?",
+      "options": [
+        "Combustion d’éthanol",
+        "Chauffage d’un sucre sans oxygène",
+        "Réaction d’oxydation d’un métal",
+        "Distillation d’un liquide"
+      ],
+      "answer": 1,
+      "explanation": "La pyrolyse consiste à chauffer un composé en l’absence d’oxygène, révélant le carbone."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "La densité d’un corps est le quotient de sa masse volumique par celle de _________.",
+      "answer": "l’eau",
+      "explanation": "La densité est le rapport de la masse volumique du corps à celle de l’eau."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel est le facteur de conversion de la densité d’un gaz par rapport à l’air ?",
+      "options": [
+        "M/29",
+        "M/28",
+        "M/30",
+        "M/27"
+      ],
+      "answer": 0,
+      "explanation": "d = M_gaz / 29, où 29 g/mol est la masse molaire moyenne de l’air."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel élément est le plus rarement présent dans les composés organiques ?",
+      "options": [
+        "Hydrogène",
+        "Oxygène",
+        "Azote",
+        "Chlore"
+      ],
+      "answer": 3,
+      "explanation": "Le chlore est moins fréquent que H, O ou N dans les composés organiques."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "La formule brute d’un composé contenant C, H, O est généralement exprimée sous la forme :",
+      "options": [
+        "C_xH_yO_z",
+        "C_yH_xO_z",
+        "C_zH_yO_x",
+        "C_xO_yH_z"
+      ],
+      "answer": 0,
+      "explanation": "Convention : CxHyOz."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Dans l’analyse élémentaire, quel pourcentage massique de carbone est typique pour le saccharose ?",
+      "options": [
+        "40%",
+        "50%",
+        "60%",
+        "70%"
+      ],
+      "answer": 2,
+      "explanation": "Le saccharose a environ 60% de carbone en masse."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Dans la formule brute CxHyOz, le nombre d’atomes d’hydrogène est représenté par _________.",
+      "answer": "y",
+      "explanation": "y indique le nombre d’atomes d’hydrogène."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel est le rôle principal de l’analyse élémentaire dans la chimie organique ?",
+      "options": [
+        "Déterminer la masse molaire d’un composé",
+        "Calculer la densité d’un gaz",
+        "Déterminer la composition massique d’un composé",
+        "Mesurer la température d’une réaction"
+      ],
+      "answer": 2,
+      "explanation": "L’analyse élémentaire fournit les pourcentages massiques des éléments."
+    }
+  ]
+}

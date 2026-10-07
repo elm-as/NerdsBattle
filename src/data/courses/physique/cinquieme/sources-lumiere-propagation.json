@@ -1,0 +1,70 @@
+{
+  "id": "physique-cinquieme-sources-lumiere-propagation",
+  "title": "Sources de lumière et propagation rectiligne",
+  "summary": "Ce chapitre t'explique comment la lumière se déplace et pourquoi elle se propage en ligne droite, un principe fondamental pour comprendre les ombres, les éclipses et le fonctionnement de nombreux instruments d'optique. Maîtriser ces notions te permettra de résoudre des exercices concrets et de poser des bases solides pour tes études en sciences physiques.",
+  "lesson": "## Introduction & Mise en situation\n\nAs-tu déjà observé ton ombre sur le sol par une journée ensoleillée ? Ou remarqué que la lumière du soleil traverse une fenêtre en formant un faisceau rectiligne ? Ces phénomènes quotidiens illustrent une propriété essentielle de la lumière : sa **propagation rectiligne**. Comprendre comment la lumière se déplace est crucial, car cela explique non seulement les ombres et les éclipses, mais aussi le fonctionnement de la chambre noire, des projecteurs, et même de nos yeux. Dans ce cours, nous allons définir ce qu'est une source de lumière, explorer le principe de propagation rectiligne, et apprendre à l'appliquer dans des situations concrètes.\n\n## 1. Définitions et Principes Fondamentaux\n\n### 1.1 Sources de lumière\n\nUne **source de lumière** est un objet qui émet de la lumière. On distingue deux types principaux :\n\n- **Sources primaires** : elles produisent leur propre lumière. Exemples : le Soleil, une bougie allumée, une lampe électrique, un écran de télévision.\n- **Sources secondaires** : elles diffusent la lumière reçue d'une source primaire. Exemples : la Lune, les planètes, un miroir, un mur éclairé.\n\n**Important** : Un objet est visible s'il émet ou diffuse de la lumière vers nos yeux. Dans l'obscurité totale, on ne voit rien car aucune lumière n'atteint nos yeux.\n\n### 1.2 Propagation de la lumière\n\nLa lumière se propage dans le vide et dans les milieux transparents (comme l'air, l'eau, le verre) à une vitesse immense : environ $3 \\times 10^8 \\, m/s$ dans le vide. On note cette vitesse $c$.\n\nDans un milieu homogène et transparent, la lumière se déplace en **ligne droite**. On modélise un faisceau lumineux par des **rayons lumineux**, qui sont des droites orientées représentant le trajet de la lumière.\n\n**Principe de propagation rectiligne** : Dans un milieu homogène et transparent, la lumière se propage en ligne droite.\n\n## 2. Propriétés et Méthodes d'application\n\n### 2.1 Formation des ombres\n\nLorsqu'un objet opaque est placé devant une source de lumière, il empêche la lumière de passer et crée une zone d'ombre derrière lui. La forme de l'ombre dépend de la taille de la source et de la distance objet-source.\n\n- **Source ponctuelle** : l'ombre est nette et bien délimitée.\n- **Source étendue** : on observe une zone d'ombre (pénombre) et une zone d'ombre totale (ombre) si la source est large.\n\n**Méthode pour tracer une ombre** :\n1. Représenter la source de lumière (par exemple, un point S).\n2. Tracer les rayons lumineux extrêmes issus de la source qui passent par les bords de l'objet.\n3. La zone située derrière l'objet, délimitée par ces rayons, est l'ombre.\n\n**Exemple concret** : Un arbre de hauteur $h = 2 \\, m$ projette une ombre au sol. Si le soleil est à un angle de $30^\\circ$ au-dessus de l'horizon, on peut calculer la longueur de l'ombre $L$ en utilisant la tangente : $\\tan(30^\\circ) = \\frac{h}{L}$, donc $L = \\frac{h}{\\tan(30^\\circ)} = \\frac{2}{0.577} \\approx 3.46 \\, m$.\n\n### 2.2 Éclipses\n\nLes éclipses sont des phénomènes naturels qui illustrent la propagation rectiligne de la lumière.\n\n- **Éclipse de Soleil** : La Lune passe entre le Soleil et la Terre, projetant son ombre sur la Terre.\n- **Éclipse de Lune** : La Terre passe entre le Soleil et la Lune, projetant son ombre sur la Lune.\n\n### 2.3 La chambre noire\n\nUne chambre noire est une boîte fermée avec un petit trou sur une face. La lumière provenant d'un objet entre par le trou et forme une image renversée sur la face opposée. Ce dispositif repose sur la propagation rectiligne de la lumière.\n\n**Schéma et principe** : Chaque point de l'objet émet des rayons qui passent par le trou et atteignent l'écran. L'image est inversée (haut en bas, gauche à droite) et plus petite si l'objet est éloigné.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre source primaire et secondaire** : La Lune n'émet pas de lumière, elle la diffuse. Ce n'est pas une source primaire.\n- **Croire que la lumière se propage en ligne courbe** : Dans un milieu homogène, c'est toujours en ligne droite. Elle ne change de direction que si elle change de milieu (réfraction) ou rencontre un obstacle (réflexion).\n- **Oublier que la vitesse de la lumière est finie** : Même si elle est très grande, elle n'est pas infinie. Ceci explique le décalage dans les communications avec les satellites.\n- **Tracer incorrectement les rayons pour les ombres** : Les rayons doivent partir de la source et longer les bords de l'objet, sans les traverser.\n\n## Synthèse\n\n1. **Sources de lumière** : primaire (émet) ou secondaire (diffuse).\n2. **Propagation rectiligne** : la lumière se déplace en ligne droite dans un milieu homogène, ce qui explique les ombres et les éclipses.\n3. **Application** : la chambre noire utilise ce principe pour former des images renversées.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "lumière",
+    "propagation",
+    "optique",
+    "ombre",
+    "éclipse"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Parmi les objets suivants, lequel est une source primaire de lumière ?",
+      "options": [
+        "La Lune",
+        "Un miroir",
+        "Le Soleil",
+        "Un écran de cinéma"
+      ],
+      "answer": 2,
+      "explanation": "Le Soleil produit sa propre lumière, c'est une source primaire. Les autres diffusent la lumière reçue."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La lumière se propage en ligne droite dans un milieu homogène et transparent.",
+      "answer": true,
+      "explanation": "C'est le principe de propagation rectiligne de la lumière."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "La vitesse de la lumière dans le vide est d'environ ______ × 10^8 m/s.",
+      "answer": "3",
+      "explanation": "La vitesse de la lumière est d'environ 3×10^8 m/s."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel phénomène est une conséquence de la propagation rectiligne de la lumière ?",
+      "options": [
+        "La diffraction",
+        "La formation des ombres",
+        "La réflexion",
+        "La réfraction"
+      ],
+      "answer": 1,
+      "explanation": "Les ombres sont créées car la lumière ne contourne pas les obstacles, elle se propage en ligne droite."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La Lune est une source primaire de lumière.",
+      "answer": false,
+      "explanation": "La Lune diffuse la lumière du Soleil, c'est une source secondaire."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Dans une chambre noire, l'image formée est ______ (renversée/identique) par rapport à l'objet.",
+      "answer": "renversée",
+      "explanation": "En raison de la propagation rectiligne, les rayons se croisent au niveau du trou, donnant une image inversée."
+    }
+  ]
+}

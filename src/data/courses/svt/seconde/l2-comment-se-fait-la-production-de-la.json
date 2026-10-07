@@ -1,0 +1,199 @@
+{
+  "id": "svt-seconde-l2-comment-se-fait-la-production-de-la",
+  "subjectId": "svt",
+  "levelId": "seconde",
+  "slug": "l2-comment-se-fait-la-production-de-la",
+  "title": "La production de matière organique et l’influence du climat",
+  "summary": "Ce document expose les mécanismes de la photosynthèse, les conditions nécessaires à la production de matière organique et l’impact du climat sur ce processus. Il souligne l’interdépendance entre biosphère, lithosphère, hydrosphère et atmosphère, et rappelle l’importance de préserver l’environnement pour assurer la survie des générations futures.",
+  "lesson": "# La production de matière organique\n\n## 1. Introduction\nLa biosphère constitue l’environnement idéal pour les êtres vivants. Pour y vivre, ils produisent et consomment de la matière organique. La production de cette matière est soumise à des conditions et est influencée par le climat.\n\n## 2. Photosynthèse – La feuille comme petite usine\n- **Source d’énergie** : lumière solaire.\n- **Machine** : chlorophylle.\n- **Matières premières** : eau (H₂O), dioxyde de carbone (CO₂), sels minéraux.\n- **Produit** : substances carbonées (glucose, C₆H₁₂O₆).\n- **Déchet** : oxygène (O₂).\n\n> **Équation globale**\n> \n> 6 CO₂ + 12 H₂O → C₆H₁₂O₆ + 6 H₂O + 6 O₂\n\n## 3. Conditions nécessaires\n- **Lumière** : énergie indispensable.\n- **Eau** : transport des nutriments.\n- **CO₂** : source de carbone.\n- **Sels minéraux** : provenant de la lithosphère.\n- **Température** : favorise les réactions enzymatiques.\n\n## 4. Influence du climat\n- **Précipitations** : apport d’eau.\n- **Éclairement** : énergie lumineuse.\n- **Température** : active les réactions chimiques.\n- **Vent et humidité** : régulent l’ouverture des stomates.\n\n## 5. Interactions entre les sphères\n- **Atmosphère** fournit CO₂ et O₂.\n- **Lithosphère** fournit sels minéraux.\n- **Hydrosphère** fournit eau.\n- **Biosphère** produit O₂ et purifie l’air.\n\n## 6. Conclusion\nLa qualité de notre environnement détermine la survie des générations futures. Protéger la biosphère, la lithosphère, l’hydrosphère et l’atmosphère est essentiel pour maintenir la production de matière organique et l’équilibre climatique.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "svt",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel composé est produit lors de la photosynthèse et constitue la principale source d’énergie pour les plantes ?",
+      "options": [
+        "Glucose",
+        "Oxygène",
+        "Carbone",
+        "Eau"
+      ],
+      "answer": 0,
+      "explanation": "Le glucose (C₆H₁₂O₆) est le produit principal de la photosynthèse, servant de source d’énergie pour la plante."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La chlorophylle est la molécule qui capte la lumière solaire dans la feuille.",
+      "answer": true,
+      "explanation": "La chlorophylle absorbe la lumière et la convertit en énergie chimique lors de la photosynthèse."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "La réaction globale de la photosynthèse peut être écrite comme : 6 CO₂ + 12 H₂O → ________ + 6 H₂O + 6 O₂.",
+      "answer": "C6H12O6",
+      "explanation": ""
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel facteur climatique influence directement la température des réactions photosynthétiques ?",
+      "options": [
+        "Précipitations",
+        "Vent",
+        "Humidité",
+        "Température"
+      ],
+      "answer": 3,
+      "explanation": "La température est le facteur qui influence directement l’activité enzymatique dans la photosynthèse."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Les plantes libèrent de l’oxygène dans l’atmosphère lors de la photosynthèse.",
+      "answer": true,
+      "explanation": "La photosynthèse produit de l’oxygène comme sous-produit, libéré dans l’atmosphère."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel élément de la lithosphère est essentiel pour la photosynthèse ?",
+      "options": [
+        "Sels minéraux",
+        "Oxygène",
+        "Eau",
+        "CO₂"
+      ],
+      "answer": 0,
+      "explanation": "Les sels minéraux provenant de la lithosphère sont nécessaires comme nutriments pour la plante."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Le processus par lequel les plantes absorbent le CO₂ et libèrent l'O₂ est appelé ________.",
+      "answer": "photosynthèse",
+      "explanation": ""
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel est le rôle de l’éclairement dans la photosynthèse ?",
+      "options": [
+        "Fournir de l’eau",
+        "Activer les enzymes",
+        "Capter l’énergie lumineuse",
+        "Produire du glucose"
+      ],
+      "answer": 2,
+      "explanation": "L’éclairement (lumière) fournit l’énergie nécessaire à la photosynthèse."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "La présence d’eau est inutile pour la photosynthèse.",
+      "answer": false,
+      "explanation": "L’eau est indispensable, elle est utilisée dans la réaction et est un transporteur de nutriments."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel phénomène climatique favorise les précipitations selon le texte ?",
+      "options": [
+        "Evapotranspiration",
+        "Absorption de chaleur",
+        "Épuration de l’air",
+        "Climax"
+      ],
+      "answer": 0,
+      "explanation": "L’évapotranspiration, provenant des plantes, favorise la formation de nuages et les précipitations."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Le climat influence la production de matière organique principalement via la ________ et la ________.",
+      "answer": "précipitations, éclairage",
+      "explanation": ""
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel type de végétation est associé à un climat doux et à une pluviométrie élevée ?",
+      "options": [
+        "Savane",
+        "Forêt",
+        "Lac",
+        "Écosystème"
+      ],
+      "answer": 1,
+      "explanation": "La forêt est caractérisée par un climat doux et une pluviométrie très élevée."
+    },
+    {
+      "id": "q13",
+      "type": "truefalse",
+      "prompt": "La savane est caractérisée par une végétation très développée et une saison sèche courte.",
+      "answer": false,
+      "explanation": "La savane a une végétation moins développée et une saison sèche plus longue."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel est le rôle de la biosphère dans le cycle de l’oxygène ?",
+      "options": [
+        "Produire du CO₂",
+        "Absorber l’O₂",
+        "Libérer de l’O₂",
+        "Stocker l’eau"
+      ],
+      "answer": 2,
+      "explanation": "La biosphère libère de l’oxygène dans l’atmosphère lors de la photosynthèse."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Le climat influence la production de matière organique en régulant l’ouverture et la fermeture des ________.",
+      "answer": "stomates",
+      "explanation": ""
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel facteur n’est pas mentionné comme condition de la photosynthèse ?",
+      "options": [
+        "Lumière",
+        "Eau",
+        "Sels minéraux",
+        "Oxygène"
+      ],
+      "answer": 3,
+      "explanation": "L’oxygène est un produit, pas une condition nécessaire à la photosynthèse."
+    },
+    {
+      "id": "q17",
+      "type": "truefalse",
+      "prompt": "La photosynthèse est un processus qui se produit uniquement dans les feuilles.",
+      "answer": true,
+      "explanation": "La photosynthèse se produit principalement dans les feuilles, mais aussi dans d’autres parties vertes."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Quel terme décrit l’état d’équilibre naturel d’un lieu selon le texte ?",
+      "options": [
+        "Climax",
+        "Stomate",
+        "Photosynthèse",
+        "Évapotranspiration"
+      ],
+      "answer": 0,
+      "explanation": "Le climax est l’état d’équilibre naturel d’un écosystème."
+    }
+  ]
+}

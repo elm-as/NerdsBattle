@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply font-sans antialiased text-ink dark:text-slate-100;
+    text-rendering: optimizeLegibility;
+  }
+  ::selection {
+    @apply bg-brand/30;
+  }
+  /* Petit bp custom pour densité de la TopBar */
+  @media (min-width: 400px) {
+    .xs\:flex { display: flex; }
+  }
+}
+
+@layer utilities {
+  .scrollbar-none::-webkit-scrollbar { display: none; }
+  .scrollbar-none { scrollbar-width: none; }
+}

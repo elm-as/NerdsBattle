@@ -1,0 +1,92 @@
+{
+  "id": "maths-cinquieme-l5-math-5eme-lecon-2-figures-symetrique",
+  "subjectId": "maths",
+  "levelId": "cinquieme",
+  "slug": "l5-math-5eme-lecon-2-figures-symetrique",
+  "title": "Figures symétriques par rapport à une droite - 5ème",
+  "summary": "Cette leçon de mathématiques de 5ème traite des transformations du plan, spécifiquement la symétrie axiale. Elle définit le symétrique d'un point, détaille sa construction géométrique et énonce les propriétés fondamentales : conservation de l'alignement, des longueurs de segments, des mesures d'angles et de la nature des figures (droites, cercles). Des exercices de fixation accompagnent chaque notion pour consolider l'apprentissage.",
+  "lesson": "# Figures symétriques par rapport à une droite\n\n## I. Symétrique d’un point par rapport à une droite\n\n### 1. Définition\nDeux points $A$ et $B$ sont symétriques par rapport à une droite $(D)$ si et seulement si la droite $(D)$ est la **médiatrice** du segment $[AB]$.\n\n*   La droite $(D)$ est perpendiculaire à la droite $(AB)$.\n*   Le point d'intersection $I$ est le milieu du segment $[AB]$ ($AI = IB$).\n\n**Remarque :** Tout point appartenant à la droite $(D)$ est son propre symétrique.\n\n### 2. Construction du symétrique d’un point\nPour construire le symétrique $M'$ d'un point $M$ par rapport à une droite $(D)$ :\n1.  Tracer la droite perpendiculaire à $(D)$ passant par $M$. Elle coupe $(D)$ en $H$.\n2.  Placer le point $M'$ sur la demi-droite $[MH)$ telle que $MH = HM'$.\n\n## II. Propriétés des figures symétriques\n\nLa symétrie axiale est une **isométrie**, c'est-à-dire qu'elle conserve les longueurs, les angles et l'alignement.\n\n### 1. Alignement\n*   **Propriété :** Si trois points $A, B, C$ sont alignés, leurs symétriques $A', B', C'$ par rapport à une droite sont également alignés.\n\n### 2. Droites et demi-droites\n*   Le symétrique d'une droite par rapport à une droite est une **droite**.\n*   Le symétrique d'une demi-droite par rapport à une droite est une **demi-droite**.\n\n### 3. Segments\n*   **Conservation de la longueur :** Le symétrique d'un segment $[AB]$ est un segment $[A'B']$ tel que $AB = A'B'$.\n*   **Milieu :** Le symétrique du milieu d'un segment est le milieu du segment symétrique.\n\n### 4. Angles\n*   **Conservation de la mesure :** Le symétrique d'un angle par rapport à une droite est un angle de **même mesure**.\n\n### 5. Cercles\n*   Le symétrique d'un cercle par rapport à une droite est un cercle de même rayon.\n\n## III. Exercices de fixation\n\n1.  **Vrai ou Faux :** Les symétriques des points d'une ligne brisée par rapport à une droite sont des points alignés. *(Faux)*\n2.  **Vrai ou Faux :** Le symétrique d'une droite par rapport à une droite est une demi-droite. *(Faux)*\n3.  **Calcul :** Si deux angles sont symétriques et l'un mesure $35^\\circ$, l'autre mesure $35^\\circ$.\n4.  **Construction :** Construire le symétrique d'un point $E$ par rapport à une droite $(D)$ en utilisant la médiatrice.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "cinquieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Deux points A et B sont symétriques par rapport à une droite (D). Que représente la droite (D) pour le segment [AB] ?",
+      "options": [
+        "La médiatrice",
+        "La bissectrice",
+        "La perpendiculaire en A",
+        "Le prolongement"
+      ],
+      "answer": 0,
+      "explanation": "Par définition, la droite d'axe de symétrie est la médiatrice du segment reliant un point à son symétrique."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Pour construire le symétrique M' d'un point M par rapport à une droite (D), il faut tracer la droite perpendiculaire à (D) passant par M. Cette droite coupe (D) en H. On place M' tel que MH = ______.",
+      "answer": "0",
+      "explanation": "H est le milieu de [MM'], donc les distances MH et HM' sont égales."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Si trois points A, B et C sont alignés, que peut-on dire de leurs symétriques A', B' et C' par rapport à une droite ?",
+      "options": [
+        "Ils sont alignés",
+        "Ils forment un triangle",
+        "Ils sont confondus",
+        "Ils ne sont pas alignés"
+      ],
+      "answer": 0,
+      "explanation": "La symétrie axiale conserve l'alignement des points."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Le symétrique d'un segment [AB] par rapport à une droite est un segment [A'B']. Quelle relation existe entre leurs longueurs ?",
+      "options": [
+        "AB = A'B'",
+        "AB > A'B'",
+        "A'B' = 2 * AB",
+        "AB < A'B'"
+      ],
+      "answer": 0,
+      "explanation": "La symétrie axiale est une isométrie, elle conserve les longueurs."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Le symétrique du milieu d'un segment par rapport à une droite est le ______ du segment symétrique.",
+      "answer": "0",
+      "explanation": "La symétrie conserve la position relative des points, donc le milieu reste le milieu."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Soient deux angles symétriques par rapport à une droite. Si l'un mesure 35°, que mesure l'autre ?",
+      "options": [
+        "35°",
+        "145°",
+        "70°",
+        "15°"
+      ],
+      "answer": 0,
+      "explanation": "Les angles symétriques sont égaux."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Le symétrique d'un cercle par rapport à une droite est un cercle de même ______.",
+      "answer": "0",
+      "explanation": "La symétrie conserve les distances, donc le rayon du cercle reste identique."
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "id": "anglais-sixieme-l2-unite-1-lecon-2a",
+  "subjectId": "anglais",
+  "levelId": "sixieme",
+  "slug": "l2-unite-1-lecon-2a",
+  "title": "Anglais 6ème : In the Classroom – Objets et questions",
+  "summary": "Cette leçon apprend à identifier les objets de la classe et à poser des questions pour demander et donner des informations. Les élèves s'entraînent aussi à répondre par oui ou non et à se présenter.",
+  "lesson": "# In the Classroom\n\n## Objectifs\n- Identifier les objets de la classe.\n- Demander et donner des informations sur ces objets.\n- Répondre à des questions fermées (yes/no).\n- Se présenter et présenter quelqu'un.\n\n## Vocabulaire\n- **Classroom** : salle de classe\n- **Board** : tableau\n- **Pen** : stylo\n- **Duster** : chiffon\n- **Table** : table\n- **Window** : fenêtre\n- **Door** : porte\n- **Chair** : chaise\n- **Book** : livre\n- **Schoolbag** : cartable\n- **Piece of chalk** : morceau de craie\n- **Box of chalks** : boîte de craies\n- **Desk** : bureau\n- **Teacher** : professeur\n- **Pupils** : élèves\n- **Girl** : fille\n- **Boy** : garçon\n\n## Structures\n### Poser des questions\n- What is this? → This is / It is a ...\n- What is that? → That is / It is a ...\n- Is it a ...? → Yes, it is. / No, it isn't.\n- Are you a ...? → Yes, I am. / No, I'm not.\n\n### Répondre\n- What is this? → It is a duster.\n- What is that? → That is a duster.\n- Is it a window? → Yes, it is. / No, it isn't.\n- Is it a chair? → Yes, it is. / No, it isn't.\n\n## Exemples\n- A: What is this? B: This is a classroom.\n- A: What is that? B: That is a duster.\n- A: Is it a window? B: Yes, it is.\n- A: Is it a chair? B: No, it isn't.\n\n## Dialogue\nAli: Hello! My name is Ali.\nAffou: Nice to meet you, Ali. I am Affou.\nAli: Nice to meet you too. Look, who is this boy?\nAffou: He is Mrs Balo, the English teacher.\nAli: OK! And who is that boy?\nAffou: He is Franck.\nAli: Look, what is that?\nAffou: It is the blackboard.\n\n## Exercices\n1. Réordonne les lettres : DOWWNI → Window, ROCLASMOS → Classroom, BLEAT → Table, DROAB → Board, ARICH → Chair.\n2. Complète : Is it a window? → Yes, it is. / No, it isn't.\n3. Complète le dialogue :\n   - Teacher: Good morning, Ali!\n   - Ali: Good morning, Madam!\n   - Teacher: How are you?\n   - Ali: I am fine.\n   - Teacher: Are you a teacher?\n   - Ali: No, I'm not; I am a pupil.\n   - Teacher: Are you in 6ème?\n   - Ali: Yes, I am.\n\n## À retenir\n- Utilise **this** pour un objet proche, **that** pour un objet éloigné.\n- Réponds par **Yes, it is** ou **No, it isn't** pour les questions avec **it**.\n- Réponds par **Yes, I am** ou **No, I'm not** pour les questions avec **you**.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "anglais",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Que signifie 'classroom' ?",
+      "options": [
+        "Salle de classe",
+        "Tableau",
+        "Chaise",
+        "Porte"
+      ],
+      "answer": 0,
+      "explanation": "D'après le vocabulaire, 'classroom' signifie 'salle de classe'."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel est l'objet utilisé pour effacer le tableau ?",
+      "options": [
+        "Pen",
+        "Duster",
+        "Book",
+        "Schoolbag"
+      ],
+      "answer": 1,
+      "explanation": "Le 'duster' est le chiffon pour effacer."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Complète : 'What is that?' – '_____ is a duster.'",
+      "options": [
+        "This",
+        "That",
+        "It",
+        "He"
+      ],
+      "answer": 1,
+      "explanation": "On répond par 'That is a duster' pour un objet éloigné."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "prompt": "Complète : 'Is it a chair?' – 'Yes, it ____.'",
+      "answer": "is",
+      "explanation": "La réponse affirmative est 'Yes, it is.'"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Comment répond-on à 'Is it a window?' si ce n'est pas une fenêtre ?",
+      "options": [
+        "Yes, it is.",
+        "No, it isn't.",
+        "Yes, I am.",
+        "No, I'm not."
+      ],
+      "answer": 1,
+      "explanation": "La réponse négative est 'No, it isn't.'"
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Que signifie 'schoolbag' ?",
+      "options": [
+        "Cartable",
+        "Livre",
+        "Stylo",
+        "Table"
+      ],
+      "answer": 0,
+      "explanation": "'Schoolbag' signifie cartable."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Complète : 'What is this?' – '____ is a pen.'",
+      "answer": "It",
+      "explanation": "On peut répondre 'It is a pen.'"
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel mot correspond à 'ARICH' ?",
+      "options": [
+        "Chair",
+        "Table",
+        "Board",
+        "Window"
+      ],
+      "answer": 0,
+      "explanation": "ARICH → CHAIR (chaise)."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Que signifie 'piece of chalk' ?",
+      "options": [
+        "Morceau de craie",
+        "Boîte de craies",
+        "Tableau",
+        "Bureau"
+      ],
+      "answer": 0,
+      "explanation": "'Piece of chalk' = morceau de craie."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Complète : 'How ____ you?' – 'I am fine.'",
+      "answer": "are",
+      "explanation": "La question est 'How are you?'"
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Dans le dialogue, qui est Mrs Balo ?",
+      "options": [
+        "Une élève",
+        "La professeure d'anglais",
+        "Une directrice",
+        "Une amie"
+      ],
+      "answer": 1,
+      "explanation": "Mrs Balo est la professeure d'anglais."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Que signifie 'pupils' ?",
+      "options": [
+        "Élèves",
+        "Professeurs",
+        "Garçons",
+        "Filles"
+      ],
+      "answer": 0,
+      "explanation": "'Pupils' signifie élèves."
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "prompt": "Complète : 'Are you a teacher?' – 'No, I'm ____.'",
+      "answer": "not",
+      "explanation": "La réponse négative est 'No, I'm not.'"
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Quel objet n'est pas dans la liste du vocabulaire ?",
+      "options": [
+        "Board",
+        "Chair",
+        "Computer",
+        "Door"
+      ],
+      "answer": 2,
+      "explanation": "'Computer' n'est pas mentionné dans le document."
+    }
+  ]
+}

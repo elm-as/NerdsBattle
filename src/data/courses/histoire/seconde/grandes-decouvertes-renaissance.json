@@ -1,0 +1,69 @@
+{
+  "id": "histoire-seconde-grandes-decouvertes-renaissance",
+  "title": "Les Grandes Découvertes maritimes et la Renaissance",
+  "summary": "Ce chapitre vous plonge au cœur des XVe et XVIe siècles, une époque de bouleversements majeurs où l'Europe s'ouvre au monde. Comprendre ces découvertes et la Renaissance, c'est saisir les origines de la mondialisation et de la pensée moderne, des clés essentielles pour votre réussite au BAC.",
+  "lesson": "## Introduction & Mise en situation\n\nImaginez un monde où l'Europe est centrée sur la Méditerranée, où les horizons sont limités et où les savoirs antiques sont redécouverts. Les Grandes Découvertes maritimes et la Renaissance sont deux mouvements parallèles qui transforment radicalement la vision du monde, la société et les sciences. Ce chapitre vous permettra de comprendre comment l'Europe est passée d'une position périphérique à un rôle central dans le commerce mondial, et comment les idées humanistes ont révolutionné les arts et les sciences. Ces connaissances sont fondamentales pour analyser les enjeux de la mondialisation actuelle et l'émergence de la pensée critique.\n\n## 1. Définitions et Principes Fondamentaux\n\n**Les Grandes Découvertes** : Période (XVe-XVIe siècles) où les Européens explorent de nouvelles routes maritimes, découvrant des terres inconnues (Amériques, côtes africaines, Asie). Ces expéditions sont motivées par des raisons économiques (épices, or), religieuses (évangélisation) et politiques (prestige).\n\n**La Renaissance** : Mouvement culturel et intellectuel (XIVe-XVIe siècles) qui renouvelle les arts, les lettres et les sciences en s'inspirant de l'Antiquité gréco-romaine. Il se caractérise par l'humanisme, qui place l'Homme au centre des préoccupations.\n\n**Les progrès techniques** : La caravelle, navire plus maniable, et des instruments comme le **quadrant** et l'**astrolabe** permettent de se repérer en mer. La **boussole** (d'origine chinoise) indique le nord. La cartographie s'améliore avec la **projection** de Mercator (1569) qui permet de représenter la Terre en conservant les angles.\n\n**Formule clé** : La vitesse d'un navire se mesure en **nœuds** : $1 \\text{ nœud} = 1 \\text{ mille marin/h} \\approx 1,852 \\text{ km/h}$. Par exemple, si Christophe Colomb navigue à 5 nœuds, sa vitesse est de $5 \\times 1,852 \\approx 9,26 \\text{ km/h}$.\n\n## 2. Propriétés et Méthodes d'application\n\n**Méthode pour analyser un document historique** :\n1. **Présenter** : nature, auteur, date, contexte.\n2. **Décrire** : relever les informations principales (lieux, acteurs, actions).\n3. **Expliquer** : interpréter les causes et conséquences.\n4. **Critiquer** : porter un regard critique sur le point de vue.\n\n**Exemple concret** : Étudions un extrait du journal de bord de Christophe Colomb (1492).\n- **Présentation** : Journal de bord, écrit par Colomb, relatant son premier voyage.\n- **Description** : Il décrit les îles des Caraïbes, les habitants, les ressources.\n- **Explication** : Ce document montre la rencontre entre deux mondes et les motivations de Colomb (chercher l'or et épices).\n- **Critique** : Le regard de Colomb est eurocentré, il décrit les indigènes comme \"bons à servir\".\n\n**Application mathématique** : Si un navire parcourt 300 milles marins en 24 heures, sa vitesse moyenne est de $\\frac{300}{24} = 12,5 \\text{ nœuds}$. Convertissons en km/h : $12,5 \\times 1,852 \\approx 23,15 \\text{ km/h}$.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre Renaissance et humanisme** : La Renaissance est la période, l'humanisme est le courant de pensée. Ne les mélangez pas.\n- **Oublier les causes des découvertes** : Les motivations ne sont pas seulement économiques, mais aussi religieuses et politiques.\n- **Croire que les Européens pensaient que la Terre était plate** : Les savants savaient qu'elle était ronde, mais sous-estimaient sa circonférence. Colomb pensait atteindre l'Asie en allant vers l'ouest.\n- **Négliger les conséquences** : Les découvertes entraînent la colonisation, le commerce triangulaire, et un échange de produits (columbien exchange).\n- **Pour la Renaissance, ne pas confondre les artistes et leurs œuvres** : Par exemple, Léonard de Vinci a peint la Joconde, Michel-Ange le plafond de la chapelle Sixtine.\n\n## Synthèse\n\n1. **Les Grandes Découvertes** (XVe-XVIe s.) : nouvelles routes maritimes, progrès techniques, motivations multiples, conséquences majeures (mondialisation, colonisation).\n2. **La Renaissance** : renouveau artistique et intellectuel, humanisme, remise en question des savoirs.\n3. **Liens** : Ces deux mouvements sont liés par le contexte de l'époque, l'ouverture sur le monde et la diffusion des idées.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "grandes découvertes",
+    "renaissance",
+    "histoire",
+    "seconde"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel instrument de navigation, d'origine chinoise, permet de déterminer le nord ?",
+      "options": [
+        "L'astrolabe",
+        "La boussole",
+        "Le quadrant",
+        "Le sextant"
+      ],
+      "answer": 1,
+      "explanation": "La boussole, inventée en Chine, indique le nord magnétique. L'astrolabe et le quadrant servent à mesurer la hauteur des astres."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La Renaissance est un mouvement uniquement artistique.",
+      "answer": false,
+      "explanation": "La Renaissance est un mouvement culturel et intellectuel qui touche aussi les sciences, la littérature et la philosophie."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Un navire parcourt 200 milles marins en 10 heures. Quelle est sa vitesse moyenne en nœuds ? (Réponse numérique)",
+      "answer": "20",
+      "explanation": "Vitesse = distance / temps = 200 / 10 = 20 nœuds."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel navigateur a atteint l'Amérique en 1492 ?",
+      "options": [
+        "Vasco de Gama",
+        "Christophe Colomb",
+        "Magellan",
+        "Jacques Cartier"
+      ],
+      "answer": 1,
+      "explanation": "Christophe Colomb, financé par l'Espagne, a traversé l'Atlantique et atteint les Caraïbes en 1492."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La caravelle est un navire rapide et maniable adapté aux longues traversées.",
+      "answer": true,
+      "explanation": "La caravelle, avec ses voiles latines, était plus rapide et maniable que les navires précédents, idéale pour l'exploration."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Quel terme désigne le courant de pensée qui place l'Homme au centre des préoccupations pendant la Renaissance ?",
+      "answer": "humanisme",
+      "explanation": "L'humanisme est un mouvement intellectuel qui valorise les capacités humaines et s'inspire de l'Antiquité."
+    }
+  ]
+}

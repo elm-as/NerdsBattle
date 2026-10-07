@@ -1,0 +1,70 @@
+{
+  "id": "histoire-terminale-afrique-independances-defis",
+  "title": "L'Afrique face aux défis du développement et de la démocratie",
+  "summary": "Ce chapitre analyse les défis majeurs de l'Afrique post-indépendance : sous-développement, instabilité politique et construction démocratique. Il vous donne les clés pour comprendre les enjeux actuels du continent et réussir l'épreuve d'histoire-géographie au BAC.",
+  "lesson": "## Introduction & Mise en situation\n\nL'Afrique, berceau de l'humanité, a connu des décennies de colonisation puis des indépendances souvent précoces et mal préparées. Aujourd'hui, le continent est confronté à des défis immenses : croissance démographique rapide, pauvreté, conflits, et gouvernance fragile. Comprendre ces défis est essentiel pour tout citoyen africain, car ils conditionnent l'avenir du continent. Ce chapitre vous permettra d'analyser les causes et les conséquences de ces défis, et de discuter des solutions possibles.\n\n## 1. Définitions et Principes Fondamentaux\n\n- **Développement** : Processus d'amélioration durable des conditions de vie d'une population (économique, social, culturel). Il se mesure souvent par l'Indice de Développement Humain (IDH) qui combine PIB par habitant, espérance de vie et niveau d'éducation.\n- **Sous-développement** : Situation d'un pays dont les structures économiques et sociales sont peu diversifiées, dépendantes de l'exportation de matières premières, avec une faible industrialisation et un niveau de vie bas.\n- **Démocratie** : Régime politique où le pouvoir appartient au peuple, exercé par le biais d'élections libres, le respect des droits de l'homme et la séparation des pouvoirs.\n- **Bonne gouvernance** : Gestion transparente et responsable des affaires publiques, fondée sur l'État de droit, la participation citoyenne et la lutte contre la corruption.\n\n**Indicateurs clés** :\n- Taux de croissance démographique : $r = \\frac{P_{t+1} - P_t}{P_t} \\times 100$ (en %)\n- IDH : moyenne géométrique de trois indices (santé, éducation, revenu) : $IDH = \\sqrt[3]{I_{santé} \\cdot I_{éducation} \\cdot I_{revenu}$\n\n## 2. Propriétés et Méthodes d'application\n\n**Méthode d'analyse des défis** : Pour chaque défi, il faut identifier ses causes, ses manifestations et ses conséquences.\n\n### Défi 1 : Le sous-développement économique\n- **Causes** : Héritage colonial (économie de traite), instabilité politique, mauvaise gestion, fuite des capitaux, dettes.\n- **Manifestations** : PIB faible, dépendance aux exportations de matières premières, industrialisation limitée, chômage élevé.\n- **Conséquences** : Pauvreté, inégalités, exode rural, pression sur les ressources.\n\n**Exemple concret** : En Côte d'Ivoire, le PIB par habitant était d'environ 2 500 USD en 2023, avec une économie dominée par le cacao et le café. La croissance démographique de 2,5% par an annule une partie des gains économiques.\n\n### Défi 2 : L'instabilité politique et les conflits\n- **Causes** : Compétition pour le pouvoir, rivalités ethniques, mauvaise gouvernance, ingérences étrangères.\n- **Manifestations** : Coups d'État, guerres civiles, terrorisme.\n- **Conséquences** : Déplacements de populations, pertes humaines, destruction des infrastructures, climat d'insécurité.\n\n**Exemple** : La crise ivoirienne de 2002-2011 a entraîné une décennie de crise politique et économique, avec un impact négatif sur le développement.\n\n### Défi 3 : La construction de la démocratie\n- **Causes** : Régimes autoritaires hérités de la colonisation, personnalisation du pouvoir, faiblesse des institutions.\n- **Manifestations** : Élections contestées, atteintes aux libertés, corruption.\n- **Conséquences** : Perte de confiance des citoyens, instabilité, frein au développement.\n\n**Méthode** : Pour analyser une transition démocratique, on peut utiliser le modèle de la consolidation démocratique : 1) transition (changement de régime), 2) installation (premières élections), 3) consolidation (ancrage des pratiques démocratiques).\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre croissance et développement** : La croissance économique (hausse du PIB) ne signifie pas automatiquement développement (amélioration du bien-être). Exemple : un pays peut avoir une croissance forte mais des inégalités accrues.\n- **Oublier le contexte historique** : Les problèmes actuels sont souvent liés à l'héritage colonial. Ne pas les analyser sans cette perspective.\n- **Négliger les aspects internes** : Ne pas tout attribuer à la colonisation ; les responsabilités locales (mauvaise gouvernance, corruption) sont aussi importantes.\n- **Mal interpréter les indicateurs** : L'IDH est une moyenne qui peut masquer des disparités internes. Il faut aussi regarder les inégalités de revenus (coefficient de Gini).\n\n## Synthèse\n\n1. **Les défis majeurs** : sous-développement économique, instabilité politique, et construction démocratique.\n2. **Les causes** : héritage colonial, mauvaise gouvernance, conflits internes.\n3. **Les solutions** : bonne gouvernance, diversification économique, renforcement des institutions, éducation et participation citoyenne.\n\nPour réussir votre épreuve, sachez analyser un document, confronter les points de vue et mobiliser des exemples précis.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "Afrique",
+    "développement",
+    "démocratie",
+    "défis",
+    "bac"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel indicateur combine le PIB par habitant, l'espérance de vie et le niveau d'éducation ?",
+      "options": [
+        "PIB",
+        "IDH",
+        "IPH",
+        "Gini"
+      ],
+      "answer": 1,
+      "explanation": "L'IDH (Indice de Développement Humain) est une mesure composite qui prend en compte ces trois dimensions."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La croissance économique est toujours synonyme de développement humain.",
+      "answer": false,
+      "explanation": "La croissance peut se faire sans amélioration du bien-être, par exemple si elle profite seulement à une minorité."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le taux de croissance démographique se calcule par la formule : $r = \\frac{P_{t+1} - P_t}{P_t} \\times 100$. Si une population passe de 10 millions à 10,5 millions en un an, le taux de croissance est de ____ %.",
+      "answer": "5",
+      "explanation": "r = ((10,5 - 10)/10)*100 = 5%."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est l'un des principaux défis politiques de l'Afrique post-indépendance ?",
+      "options": [
+        "La colonisation",
+        "L'instabilité politique",
+        "La croissance démographique",
+        "L'analphabétisme"
+      ],
+      "answer": 1,
+      "explanation": "L'instabilité politique (coups d'État, conflits) est un défi majeur, car elle entrave le développement."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La bonne gouvernance est un facteur clé pour le développement de l'Afrique.",
+      "answer": true,
+      "explanation": "Une gestion transparente et responsable des affaires publiques favorise les investissements et la confiance des citoyens."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "L'IDH est la moyenne géométrique de trois indices : santé, éducation et revenu. Si les trois indices valent respectivement 0,8 ; 0,6 et 0,4, l'IDH est égal à ____ (arrondi à deux décimales).",
+      "answer": "0.58",
+      "explanation": "IDH = (0,8*0,6*0,4)^(1/3) = (0,192)^(1/3) ≈ 0,58."
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "id": "histoire-seconde-l5-nde-g5-le-milieu-tropical-ivoirien",
+  "subjectId": "histoire",
+  "levelId": "seconde",
+  "slug": "l5-nde-g5-le-milieu-tropical-ivoirien",
+  "title": "Le Milieu Tropical Ivoirien : Potentiel et Politique",
+  "summary": "Ce module explore le milieu tropical de la Côte d’Ivoire, ses caractéristiques physiques, climatiques et végétales, ses ressources naturelles, ainsi que les politiques de mise en valeur. Il vise à comprendre les potentialités agricoles, minérales et touristiques, et à analyser les dynamiques socio‑économiques liées à ce biogéographique.",
+  "lesson": "# Le Milieu Tropical Ivoirien\n\n## 1. Cadre géographique\n- Zone nord et centre, entre 8° et 10° N.\n- Limité au sud par le 8ᵉ parallèle.\n- Couverture : plateaux monotones, altitudes 300‑900 m.\n\n## 2. Relief et hydrographie\n- Relief dominé par plateaux étagés vers le nord.\n- Chaînes de collines : Baoulé, Tiémé, Madinani.\n- Rivières majeures : Bandama, Comoé, Sassandra, Cavally, Bagoué, Volta Noire, Bafing.\n\n## 3. Climat\n- Tropical humide, moyenne 25 °C.\n- Précipitations 1000‑1200 mm/an, bimodales ou unimodales selon sous‑zones.\n- Harmattan (vent chaud) de novembre à février.\n\n## 4. Végétation et sols\n- Dominée par la savane arborée et les forêts galeries.\n- Sols ferrugineux, pauvres, peu profonds.\n- Cultures adaptées : anacarde, coton, canne à sucre, mil, sorgho, haricot, arachide.\n\n## 5. Ressources minérales\n- Or, diamant, bauxite, manganèse.\n- Exploitation limitée : or à Tongon, diamant artisanal à Tortya et Séguéla.\n\n## 6. Politique de mise en valeur\n- Programmes de reboisement et de gestion durable des forêts.\n- Soutien aux cultures de rente et aux systèmes agro‑forestiers.\n- Initiatives de tourisme rural et d’écotourisme.\n\n## 7. Enjeux socio‑économiques\n- Dépendance aux cultures de rente.\n- Pression sur les sols et la biodiversité.\n- Besoin de diversification et de gestion intégrée des ressources.\n\n## 8. Conclusion\nLe milieu tropical ivoirien possède un potentiel agricole et minier important, mais nécessite des politiques de gestion durable pour préserver ses écosystèmes et soutenir le développement local.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "histoire",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est l'altitude moyenne des plateaux du milieu tropical ivoirien ?",
+      "options": [
+        "300‑500 m",
+        "500‑900 m",
+        "900‑1200 m",
+        "1200‑1500 m"
+      ],
+      "answer": 1,
+      "explanation": "Les plateaux sont étagés entre 300 et 900 m, avec des hauts plateaux de 500‑900 m."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le climat du milieu tropical ivoirien est sec toute l'année.",
+      "answer": false,
+      "explanation": "Il est tropical humide, avec des précipitations de 1000‑1200 mm/an."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle rivière ne traverse pas le milieu tropical ivoirien ?",
+      "options": [
+        "Bandama",
+        "Comoé",
+        "Sassandra",
+        "Volta Noire"
+      ],
+      "answer": 3,
+      "explanation": "La Volta Noire se situe à la frontière nord‑est, mais ne traverse pas la zone tropicale centrale."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Les sols dominants du milieu tropical sont les sols ________.",
+      "answer": "ferrugineux",
+      "explanation": "Les sols ferrugineux sont pauvres et peu profonds, favorisant certaines cultures."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel type de végétation prédomine dans le milieu tropical ?",
+      "options": [
+        "Forêt tropicale dense",
+        "Forêt de mangrove",
+        "Savane arborée",
+        "Forêt de conifères"
+      ],
+      "answer": 2,
+      "explanation": "La savane arborée et les forêts galeries dominent la zone."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "L'harmattan est un vent chaud et sec qui souffle vers le sud.",
+      "answer": true,
+      "explanation": "L'harmattan souffle du Sahara vers les zones intertropicales, généralement vers le sud."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quelle culture de rente est mentionnée comme adaptée aux sols ferrugineux ?",
+      "options": [
+        "Café",
+        "Cacao",
+        "Anacarde",
+        "Maïs"
+      ],
+      "answer": 2,
+      "explanation": "L'anacarde est une culture de rente adaptée aux sols ferrugineux."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel est le principal problème de l'exploitation minière artisanale dans le milieu tropical ?",
+      "options": [
+        "Pollution de l'eau",
+        "Déforestation",
+        "Dégradation des sols",
+        "Tous les éléments ci‑dessus"
+      ],
+      "answer": 3,
+      "explanation": "L'exploitation artisanale peut entraîner pollution, déforestation et dégradation des sols."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Les sols ferralitiques sont plus profonds que les sols ferrugineux.",
+      "answer": false,
+      "explanation": "Les sols ferralitiques sont également peu profonds, mais plus riches en fer."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est l'objectif principal des programmes de reboisement ivoiriens ?",
+      "options": [
+        "Augmenter la production de cacao",
+        "Réduire l'érosion des sols",
+        "Améliorer la qualité de l'air",
+        "Toutes les réponses"
+      ],
+      "answer": 3,
+      "explanation": "Les programmes visent à réduire l'érosion, améliorer la biodiversité et la qualité de l'air."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Le climat tropical ivoirien est caractérisé par une saison des pluies ________.",
+      "answer": "bimodale",
+      "explanation": "Dans la zone centrale, la pluviométrie est bimodale."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel est le principal facteur limitant la diversification des cultures dans le nord ?",
+      "options": [
+        "Précipitations abondantes",
+        "Saisons très courtes",
+        "Saisons très longues",
+        "Saisons très sèches"
+      ],
+      "answer": 3,
+      "explanation": "Le nord connaît des périodes sèches prolongées, limitant la diversification."
+    },
+    {
+      "id": "q13",
+      "type": "truefalse",
+      "prompt": "Le Bafing est un affluent du Niger.",
+      "answer": true,
+      "explanation": "Le Bafing est un affluent du Niger, situé à Touba."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quelle ressource minérale est exploitée à Tongon ?",
+      "options": [
+        "Diamant",
+        "Or",
+        "Bauxite",
+        "Manganèse"
+      ],
+      "answer": 1,
+      "explanation": "L'or est extrait à Tongon."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Le tourisme rural et l'écotourisme sont des stratégies de mise en valeur du milieu tropical.",
+      "answer": "vrai",
+      "explanation": "Ces stratégies visent à valoriser les ressources naturelles tout en préservant l'environnement."
+    }
+  ]
+}

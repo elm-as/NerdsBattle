@@ -1,0 +1,13 @@
+{
+  "id": "francais-terminale-dissertation",
+  "title": "La dissertation littéraire",
+  "summary": "Méthode : problématique, plan, argumentation.",
+  "lesson": "Une dissertation analyse un sujet (citation, question) en lien avec une œuvre. Étapes : 1) analyser le sujet, dégager une problématique. 2) Construire un plan en deux ou trois parties (thèse / antithèse / synthèse, ou analytique). 3) Rédiger introduction, développement avec exemples, conclusion ouverte.",
+  "estimatedMinutes": 11,
+  "tags": ["méthode", "bac"],
+  "questions": [
+    { "id": "q1", "type": "mcq", "prompt": "Que doit comporter l'introduction ?", "options": ["la conclusion", "amorce, sujet, problématique, plan", "uniquement la problématique", "des exemples"], "answer": 1, "explanation": "4 étapes classiques." },
+    { "id": "q2", "type": "truefalse", "prompt": "Un plan dialectique est : thèse / antithèse / synthèse.", "answer": true, "explanation": "Plan en 3 parties classique." },
+    { "id": "q3", "type": "fill", "prompt": "La question centrale d'une dissertation s'appelle la ___.", "answer": "problématique", "explanation": "Elle oriente toute la réflexion." }
+  ]
+}

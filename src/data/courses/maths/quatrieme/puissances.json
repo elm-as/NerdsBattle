@@ -1,0 +1,14 @@
+{
+  "id": "maths-quatrieme-puissances",
+  "title": "Les puissances",
+  "summary": "Découvre comment simplifier les calculs avec les puissances ! Ce cours te permettra de maîtriser les règles essentielles (produit, quotient, puissance de puissance) et d'éviter les erreurs classiques. Prêt à devenir un as des exposants ?",
+  "lesson": "**Introduction**\nLes puissances sont une notation abrégée pour écrire des multiplications répétées. Par exemple, $2^3$ signifie $2 \\times 2 \\times 2 = 8$. Elles sont très utiles en sciences et en mathématiques pour manipuler de grands nombres ou des produits complexes. Dans ce cours, nous allons étudier les règles de calcul avec les puissances d'exposant entier positif.\n\n**1. Définition et notation**\nPour un nombre $a$ quelconque et un entier naturel $n \\ge 1$, on note :\n$$ a^n = \\underbrace{a \\times a \\times \\dots \\times a}_{n \\text{ fois}} $$\n$a$ est la base, $n$ l'exposant. Par convention, $a^1 = a$ et $a^0 = 1$ (pour $a \\neq 0$).\n\n**2. Produit de puissances de même base**\nRègle : $a^m \\times a^n = a^{m+n}$.\nExemple : $2^3 \\times 2^4 = 2^{3+4} = 2^7 = 128$.\nAttention : cette règle ne s'applique que si les bases sont identiques. Ne confonds pas avec $(ab)^n$ !\n\n**3. Quotient de puissances de même base**\nPour $a \\neq 0$ et $m \\ge n$ (dans un premier temps), on a :\n$$ \\frac{a^m}{a^n} = a^{m-n} $$\nExemple : $\\frac{5^6}{5^2} = 5^{6-2} = 5^4 = 625$.\nMise en garde : Si $m < n$, on obtient un exposant négatif : $\\frac{a^3}{a^5} = a^{-2}$ (à traiter plus tard). Ne pas écrire $a^{m-n}$ si $m<n$ sans comprendre la signification.\n\n**4. Puissance d'une puissance et d'un produit**\n- $(a^m)^n = a^{m \\times n}$. Exemple : $(3^2)^4 = 3^{2 \\times 4} = 3^8$.\n- $(ab)^n = a^n \\times b^n$. Exemple : $(2 \\times 3)^4 = 2^4 \\times 3^4 = 16 \\times 81 = 1296$.\n- $\\left(\\frac{a}{b}\\right)^n = \\frac{a^n}{b^n}$ pour $b \\neq 0$. Exemple : $\\left(\\frac{2}{3}\\right)^3 = \\frac{2^3}{3^3} = \\frac{8}{27}$.\n\n**5. Exposants négatifs et puissance de 10**\nPour $a \\neq 0$, $a^{-n} = \\frac{1}{a^n}$. Exemple : $2^{-3} = \\frac{1}{2^3} = \\frac{1}{8}$.\nLes puissances de 10 sont très utiles : $10^0=1$, $10^1=10$, $10^2=100$, $10^{-1}=0.1$, $10^{-2}=0.01$, etc.\nErreur fréquente : confondre $10^{-2}$ avec $-100$ ; c'est $0.01$, pas $-100$.\n\n**Conclusion**\nLes puissances permettent de simplifier l'écriture et les calculs. Il faut retenir les quatre règles fondamentales (produit, quotient, puissance de puissance, puissance d'un produit) et faire attention aux signes et aux parenthèses. N'oublie pas que toute base non nulle élevée à la puissance 0 vaut 1, et qu'un exposant négatif donne l'inverse. Entraîne-toi avec des exercices pour les maîtriser !",
+  "estimatedMinutes": 15,
+  "tags": [
+    "puissances",
+    "exposants",
+    "calcul",
+    "4ème",
+    "mathématiques"
+  ]
+}

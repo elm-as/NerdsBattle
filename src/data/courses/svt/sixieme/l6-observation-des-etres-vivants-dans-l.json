@@ -1,0 +1,132 @@
+{
+  "id": "svt-sixieme-l6-observation-des-etres-vivants-dans-l",
+  "subjectId": "svt",
+  "levelId": "sixieme",
+  "slug": "l6-observation-des-etres-vivants-dans-l",
+  "title": "Préparer une sortie biologique en 6e : observation des êtres vivants",
+  "summary": "Les élèves de 6e préparent, organisent et réalisent une sortie sur le terrain pour observer les animaux et les végétaux dans leur milieu naturel. Ils apprennent à former des groupes, à attribuer des rôles, à choisir le matériel adéquat et à rédiger un compte‑rendu scientifique.",
+  "lesson": "## Motivation\nLes êtres vivants (animaux, végétaux) habitent la nature. Observer ces organismes sur place permet de comprendre leurs adaptations.\n\n## Problème biologique\n*Comment préparer efficacement une sortie biologique afin d’observer les êtres vivants dans leur milieu naturel ?*\n\n## Objectifs\n- Identifier les deux grands groupes d’êtres vivants.\n- Décrire le milieu de vie de chaque groupe.\n- Organiser la classe en petits groupes de travail.\n- Choisir le matériel de prise de notes, de prélèvement et les appareils optiques.\n- Rédiger un compte‑rendu structuré après la sortie.\n\n## Déroulement de la leçon (≈120 min)\n1. **État des lieux (5 min)** – Discussion sur le constat : besoin d’une sortie.\n2. **Formulation du problème (10 min)** – Les élèves rédigent une phrase problème.\n3. **Hypothèses et organisation (15 min)** – Proposition de petites équipes, rôles (chef, rapporteur, membres).\n4. **Composition des groupes (10 min)** – Tableau des rôles et responsabilités.\n5. **Choix du matériel (20 min)** – Liste du matériel de prise de notes, de prélèvement, appareils optiques (loupes, microscopes portables).\n6. **Planification logistique (15 min)** – Répartition des tâches, consignes de sécurité, matériel à emporter.\n7. **Simulation en classe (15 min)** – Jeu de rôle : chaque groupe pratique la prise de notes et le prélèvement sur un spécimen fictif.\n8. **Synthèse et compte‑rendu (10 min)** – Rappel des étapes du compte‑rendu (introduction, méthode, observations, conclusion).\n\n## Constitution des groupes\n- **Chef** : dirige les travaux, veille au respect des consignes.\n- **Rapporteur** : note les observations, rédige le compte‑rendu.\n- **Membres** : collectent les données, prélèvent les échantillons, utilisent les appareils optiques.\n\n## Matériel recommandé\n- Carnet de terrain / tablette\n- Crayons, feutres, règle\n- Boîtes de prélèvement, sachets plastiques\n- Loupes, microscope portable, jumelles\n- Fiches d’observation\n\n## Consignes de sécurité\n- Porter des chaussures fermées.\n- Respecter la flore et la faune (ne pas déranger les animaux).\n- Manipuler les outils avec précaution.\n\n## Évaluation\n- Participation active en groupe.\n- Qualité du compte‑rendu (clarté, précision, respect du protocole).\n- Réponses aux questions d’évaluation.",
+  "estimatedMinutes": 60,
+  "tags": [
+    "svt",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quels sont les deux grands groupes d’êtres vivants étudiés en 6e ?",
+      "options": [
+        "Animaux et minéraux",
+        "Animaux et végétaux",
+        "Plantes et champignons",
+        "Micro‑organismes et virus"
+      ],
+      "answer": 1,
+      "explanation": "En classe de SVT, on distingue les animaux et les végétaux comme deux grands règnes."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le rôle du chef de groupe est de __________ les travaux et de faire respecter les consignes du professeur.",
+      "answer": "diriger",
+      "explanation": "Le chef dirige les travaux et veille au respect des consignes."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel matériel est indispensable pour la prise de notes sur le terrain ?",
+      "options": [
+        "Microscope électronique",
+        "Carnet de terrain",
+        "Bouteille d’eau",
+        "Tente"
+      ],
+      "answer": 1,
+      "explanation": "Le carnet de terrain permet de consigner observations et données."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Le matériel utilisé pour observer les petits organismes est appelé __________ optique.",
+      "answer": "appareil",
+      "explanation": "On parle d’appareil optique (loupe, microscope)."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel rôle est chargé de noter les informations recueillies pendant la sortie ?",
+      "options": [
+        "Le chef",
+        "Le rapporteur",
+        "Le membre actif",
+        "Le surveillant"
+      ],
+      "answer": 1,
+      "explanation": "Le rapporteur consigne les observations."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Avant la sortie, les élèves doivent rédiger une __________ du problème biologique.",
+      "answer": "formulation",
+      "explanation": "Formuler le problème permet de cadrer la recherche."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Parmi les éléments suivants, lequel n’est PAS considéré comme matériel de récolte d’échantillons ?",
+      "options": [
+        "Boîte de prélèvement",
+        "Sachet plastique",
+        "Lunette d’observation",
+        "Pince à prélèvement"
+      ],
+      "answer": 2,
+      "explanation": "La lunette d’observation est un appareil optique, pas un récipient de prélèvement."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Le compte‑rendu doit contenir une partie « __________ » où l’on décrit la méthode employée.",
+      "answer": "méthodologie",
+      "explanation": "La méthodologie décrit les procédures suivies."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quelle durée est prévue pour la phase de simulation en classe ?",
+      "options": [
+        "5 min",
+        "15 min",
+        "30 min",
+        "45 min"
+      ],
+      "answer": 1,
+      "explanation": "La simulation dure environ 15 minutes selon le déroulement."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Le tableau des rôles doit être affiché au __________ de la classe avant le départ.",
+      "answer": "début",
+      "explanation": "Le tableau est présenté au début pour clarifier les responsabilités."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel est le temps total estimé pour la leçon complète ?",
+      "options": [
+        "60 min",
+        "90 min",
+        "120 min",
+        "180 min"
+      ],
+      "answer": 2,
+      "explanation": "Le déroulement prévoit environ 120 minutes."
+    }
+  ]
+}

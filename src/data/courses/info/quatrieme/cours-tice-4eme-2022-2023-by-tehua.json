@@ -1,0 +1,169 @@
+{
+  "id": "info-quatrieme-cours-tice-4eme-2022-2023-by-tehua",
+  "subjectId": "info",
+  "levelId": "quatrieme",
+  "slug": "cours-tice-4eme-2022-2023-by-tehua",
+  "title": "Composants et Ports de l'Unité Centrale – Leçon MENA CI",
+  "summary": "Cette leçon présente les principaux composants de l'unité centrale d'un ordinateur ainsi que les différents ports de connexion. Elle explique le rôle de chaque composant (carte mère, processeur, RAM, disque dur, carte graphique, carte son, lecteur DVD, nappes de connexion) et détaille les types de ports (PS/2, USB, audio, VGA, HDMI). Les élèves apprennent à identifier, nommer et brancher les périphériques aux ports appropriés, ainsi qu'à comprendre l'importance de chaque composant dans le fonctionnement glo",
+  "lesson": "# Introduction\nL'unité centrale (UC) constitue le cœur d'un ordinateur. Elle regroupe les composants essentiels qui assurent le traitement, le stockage et la communication des données.\n\n## 1. Composants principaux\n- **Carte mère** : circuit imprimé qui relie tous les composants.\n- **Processeur (CPU)** : cerveau de l'ordinateur, exécute les instructions.\n- **Mémoire vive (RAM)** : stocke temporairement les données utilisées par le CPU.\n- **Disque dur (HDD/SSD)** : stockage permanent des données.\n- **Carte graphique (GPU)** : gère l'affichage sur l'écran.\n- **Carte son** : traite les signaux audio.\n- **Lecteur DVD/CD** : lit les supports optiques.\n- **Nappes de connexion** : câbles internes reliant les composants.\n\n## 2. Ports de connexion\n| Type de port | Utilisation | Exemple de périphérique |\n|--------------|-------------|------------------------|\n| PS/2 | Clavier/ souris | Clavier PS/2 |\n| USB | Divers périphériques | Clavier USB, souris, clé USB |\n| Audio | Entrée/sortie audio | Microphone, haut-parleurs |\n| VGA | Affichage analogique | Moniteur VGA |\n| HDMI | Affichage numérique | Moniteur HDMI |\n\n## 3. Branchement des périphériques\n1. **Clavier** → Port PS/2 ou USB.\n2. **Souris** → Port PS/2 ou USB.\n3. **Microphone** → Port audio (entrée).\n4. **Haut-parleurs** → Port audio (sortie).\n5. **Moniteur** → Port VGA ou HDMI.\n6. **Lecteur DVD** → Port SATA ou IDE interne.\n\n## 4. Rôle de chaque composant\n- **Carte mère** : assure la communication entre tous les éléments.\n- **CPU** : exécute les programmes.\n- **RAM** : fournit un accès rapide aux données.\n- **Disque dur** : conserve les données à long terme.\n- **GPU** : rend les images à l'écran.\n- **Carte son** : gère le son.\n- **Lecteur DVD** : lit les médias optiques.\n- **Nappes** : transmettent l'alimentation et les signaux.\n\n## 5. Exercices pratiques\n- Identifiez les ports sur une image d'un PC.\n- Associez chaque périphérique à son port.\n- Décrivez le rôle d'un composant en une phrase.\n\n---",
+  "estimatedMinutes": 10,
+  "tags": [
+    "info",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel composant relie tous les autres éléments de l'ordinateur ?",
+      "options": [
+        "Processeur",
+        "Carte mère",
+        "RAM",
+        "Disque dur"
+      ],
+      "answer": 1,
+      "explanation": "La carte mère est le circuit imprimé qui connecte tous les composants."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel type de mémoire est volatile et stocke temporairement les données ?",
+      "options": [
+        "ROM",
+        "Flash",
+        "RAM",
+        "EEPROM"
+      ],
+      "answer": 2,
+      "explanation": "RAM (Random Access Memory) est volatile et sert de mémoire temporaire."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Le port HDMI est utilisé pour :",
+      "options": [
+        "Entrée audio",
+        "Affichage numérique",
+        "Connexion USB",
+        "Connexion PS/2"
+      ],
+      "answer": 1,
+      "explanation": "HDMI transmet l'image et le son en format numérique."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Le processeur est souvent désigné par l'abréviation :",
+      "options": [
+        "CPU",
+        "GPU",
+        "RAM",
+        "ROM"
+      ],
+      "answer": 0,
+      "explanation": "CPU signifie Central Processing Unit."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel port est traditionnellement utilisé pour les claviers PS/2 ?",
+      "options": [
+        "USB",
+        "VGA",
+        "PS/2",
+        "HDMI"
+      ],
+      "answer": 2,
+      "explanation": "Le port PS/2 est dédié aux claviers et souris analogiques."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Le port _______ est utilisé pour connecter un microphone.",
+      "answer": "0",
+      "explanation": "Le port audio (entrée) sert à connecter un microphone."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel composant est responsable de la lecture des CD/DVD ?",
+      "options": [
+        "Carte mère",
+        "Lecteur DVD",
+        "Carte son",
+        "RAM"
+      ],
+      "answer": 1,
+      "explanation": "Le lecteur DVD lit les supports optiques."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Les nappes de connexion servent à :",
+      "options": [
+        "Alimenter le PC uniquement",
+        "Transmettre l'alimentation et les signaux",
+        "Stocker les données",
+        "Gérer le son"
+      ],
+      "answer": 1,
+      "explanation": "Les nappes relient l'alimentation et les signaux entre composants."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel port est utilisé pour les moniteurs analogiques ?",
+      "options": [
+        "HDMI",
+        "USB",
+        "VGA",
+        "PS/2"
+      ],
+      "answer": 2,
+      "explanation": "VGA transmet l'image analogique."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel composant gère les signaux audio sortants vers les haut-parleurs ?",
+      "options": [
+        "Carte son",
+        "Carte graphique",
+        "CPU",
+        "Disque dur"
+      ],
+      "answer": 0,
+      "explanation": "La carte son traite le son."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Le rôle principal du CPU est de :",
+      "options": [
+        "Stocker les données",
+        "Afficher les images",
+        "Exécuter les instructions",
+        "Gérer le son"
+      ],
+      "answer": 2,
+      "explanation": "Le CPU exécute les instructions des programmes."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel port est le plus adapté pour connecter un moniteur moderne avec un signal numérique ?",
+      "options": [
+        "VGA",
+        "PS/2",
+        "HDMI",
+        "USB"
+      ],
+      "answer": 2,
+      "explanation": "HDMI transmet un signal numérique haute définition."
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "id": "francais-sixieme-l2-ortho-l2-ortho-gram-s1-accord-le-la",
+  "subjectId": "francais",
+  "levelId": "sixieme",
+  "slug": "l2-ortho-l2-ortho-gram-s1-accord-le-la",
+  "title": "Accord du verbe avec les pronoms COD (le, la, les, l’) – 6e",
+  "summary": "Cette leçon explique quand le verbe qui suit les pronoms COD le, la, les, l’ s’accorde ou non. Au temps simple, le verbe ne s’accorde pas ; avec l’auxiliaire avoir au participe passé, il s’accorde avec le COD placé avant. Exercices et questions permettent de vérifier la compréhension.",
+  "lesson": "## Définition\n\"Le, la, les, l’\" placés avant un verbe sont des pronoms personnels COD.\n\n## I. Cas de non‑accord\nLe verbe précédé de ces pronoms **ne s’accorde pas** lorsqu’il est conjugué à un temps simple (présent, imparfait, futur, etc.). Il s’accorde avec le sujet, pas avec le COD.\n**Exemple** : *Ces bicyclettes, on les conduit facilement.* (conduit = 3ᵉ pers. sing. du présent).\n\n## II. Cas d’accord\nLorsque le verbe est un **participe passé employé avec l’auxiliaire *avoir***, il s’accorde avec le COD placé **avant** le verbe.\n**Exemple** : *Cette leçon, les élèves l’ont bien comprise.* (comprise s’accorde avec le COD « l’ » qui représente « la leçon »).\n\n## Exercices d’application\n1. Ces roues, les mécaniciens les **______** (réparer).\n2. Les comptes, le caissier les **______** (faire) tous les jours.\n3. La vieille avait **______** (décrocher) la marmite de sa crémaillère et l’avait **______** (poser) par terre.\n4. La lampe du métro a **______** (ralentir) et s’est **______** (arrêter).\n5. L’île, les touristes la **______** (trouver) accueillante.\n6. Le dernier arbre, elle l’a **______** (couper).\n\n**Règles à retenir**\n- Temps simple → pas d’accord du participe.\n- Auxiliaire *avoir* + participe passé → accord avec le COD antéposé.\n- Le COD doit être placé **avant** le participe pour que l’accord s’applique.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "francais",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le temps du verbe dans la phrase : « Ces bicyclettes, on les conduit facilement. » ?",
+      "options": [
+        "Présent",
+        "Imparfait",
+        "Passé composé",
+        "Futur"
+      ],
+      "answer": 0,
+      "explanation": "« Conduit » est le présent de l’indicatif du verbe conduire."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Dans « Cette leçon, les élèves l’ont bien comprise. », le participe passé s’accorde avec le sujet « les élèves ».",
+      "answer": false,
+      "explanation": "Le participe « comprise » s’accorde avec le COD « l’ » (la leçon), placé avant le verbe."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Complétez : « Ces roues, les mécaniciens les ______ (réparer). »",
+      "answer": "ont réparées",
+      "explanation": "Temps composé avec avoir ; le COD « les » est avant, donc accord du participe passé : réparées."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Complétez : « Les comptes, le caissier les ______ (faire) tous les jours. »",
+      "answer": "fait",
+      "explanation": "« Faire » au présent (temps simple) → pas d’accord, même si COD avant."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Dans la phrase « La vieille avait décroché la marmite… », le verbe « décrocher » est au…",
+      "options": [
+        "Présent",
+        "Imparfait",
+        "Passé composé",
+        "Plus‑que‑parfait"
+      ],
+      "answer": 3,
+      "explanation": "« avait décroché » est le plus‑que‑parfait, auxiliaire avoir + participe passé."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Le participe passé « décroché » s’accorde avec « la marmite » dans la phrase précédente.",
+      "answer": false,
+      "explanation": "Le COD « la marmite » est placé après le verbe, donc pas d’accord."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Complétez : « La lampe du métro a ______ (ralentir) et s’est ______ (arrêter). »",
+      "answer": "ralenti; arrêtée",
+      "explanation": "« a ralenti » : auxiliaire avoir, COD absent → pas d’accord. « s’est arrêtée » : auxiliaire être, accord avec le sujet « la lampe »."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel pronom remplace « l’île » dans la phrase « L’île, les touristes la trouvent accueillante. » ?",
+      "options": [
+        "le",
+        "la",
+        "les",
+        "l’"
+      ],
+      "answer": 1,
+      "explanation": "« l’île » est féminin singulier, le pronom COD est « la »."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Complétez : « Le dernier arbre, elle l’a ______ (couper). »",
+      "answer": "coupé",
+      "explanation": "Auxiliaire avoir + participe passé ; COD « l’ » (le dernier arbre) placé avant, donc accord : « coupé » (masc. sing.)."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Dans « Les élèves la regardent avec insistance. », le verbe « regardent » s’accorde avec le pronom « la ».",
+      "answer": false,
+      "explanation": "« regardent » s’accorde avec le sujet « les élèves », pas avec le COD."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel est le type de pronom « les » dans la phrase « Ces bicyclettes, on les conduit facilement. » ?",
+      "options": [
+        "Sujet",
+        "COD",
+        "COI",
+        "Attribut"
+      ],
+      "answer": 1,
+      "explanation": "« les » représente le COD « ces bicyclettes »."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Dans la phrase « Cette leçon, les élèves l’ont bien comprise. », écrivez le participe passé correctement accordé.",
+      "answer": "comprise",
+      "explanation": "COD « l’ » (la leçon) placé avant → accord au féminin singulier."
+    },
+    {
+      "id": "q13",
+      "type": "truefalse",
+      "prompt": "Le participe passé employé avec l’auxiliaire *être* s’accorde toujours avec le sujet, même si le COD est placé avant.",
+      "answer": true,
+      "explanation": "Avec *être*, le participe s’accorde systématiquement avec le sujet."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel temps verbal ne provoque jamais d’accord du participe passé avec le COD placé avant ?",
+      "options": [
+        "Passé composé",
+        "Plus‑que‑parfait",
+        "Imparfait",
+        "Passé simple"
+      ],
+      "answer": 2,
+      "explanation": "L’imparfait est un temps simple ; le participe n’est pas utilisé, donc pas d’accord."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Complétez : « Les touristes, l’île les ______ (visiter) pendant leurs vacances. »",
+      "answer": "ont visités",
+      "explanation": "Auxiliaire avoir + participe passé ; COD « les » (l’île) placé avant → accord au pluriel masculin/féminin selon le référent, ici « visités »."
+    },
+    {
+      "id": "q16",
+      "type": "truefalse",
+      "prompt": "Dans la phrase « Cette voiture, les élèves la regardent avec insistance. », le verbe « regardent » s’accorde avec « la ».",
+      "answer": false,
+      "explanation": "Le verbe s’accorde avec le sujet « les élèves », pas avec le COD."
+    }
+  ]
+}

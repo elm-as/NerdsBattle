@@ -1,0 +1,125 @@
+{
+  "id": "espagnol-seconde-l13-donner-une-opinion",
+  "subjectId": "espagnol",
+  "levelId": "seconde",
+  "slug": "l13-donner-une-opinion",
+  "title": "Donner une opinion en espagnol: immigration clandestina",
+  "summary": "Ce document officiel MENA CI présente une leçon de seconde en espagnol axée sur l’expression d’opinion concernant l’immigration clandestine. Il décrit la situation d’apprentissage, le contenu lexical et grammatical, des activités d’application, une situation d’évaluation et des exercices de compréhension. L’objectif est de permettre aux élèves de reconnaître, utiliser et reformuler des expressions d’opinion en espagnol, tout en abordant les enjeux sociétaux liés à l’immigration.",
+  "lesson": "# Leçon : Donner une opinion (Activités de compréhension écrite)\n\n## 1. Situation d’apprentissage\n- Contexte : Journée mondiale des migrants, conférence à l’Institut Moderne de Daloa.\n- Objectif : Informer et sensibiliser les jeunes sur les dangers de l’immigration clandestine.\n- Déroulement : En classe, chaque élève exprime son opinion.\n\n## 2. Contenu\n- **Vocabulaire** : *inmigración ilegal*, *adentrarse*, *ser fronterizo*.\n- **Grammaire** : Expressions d’opinion : *Para mí*, *Según yo*, *Pienso que*, *En mi opinión*, *Considero que*, *A mi parecer*, *Creo que*, *En mi juicio*.\n- **Exemple** : *Según Ndiaye, África no realiza una buena gestión de su población.*\n\n## 3. Activité d’application\nRemplacer le sous‑gras par une autre expression d’opinion.\n1. Katia dice que su profesor es una persona muy amable.\n2. Señor Bilé explica que los alumnos de la clase de 2nde C4 son disciplinados.\n3. Los bomberos consideran que los accidentes son errores humanos en su mayoría.\n4. Yo creo que se puede reducir la inmigración clandestina.\n\n## 4. Situation d’évaluation\n- **Objectif** : Expliquer les dangers de l’immigration clandestine.\n- **Tâches** : Identifier des formules d’opinion et résumer le texte.\n\n## 5. Exercices\n1. Relier mots à définitions (apátrida, campo de refugiados, clandestino, extradición, sin papeles).\n2. Lire le texte sur Lory Money et noter les expressions d’opinion.\n3. Répondre aux questions sur les causes de l’immigration, l’objectif de la cumbre, et justifier une affirmation.\n\n---\n\n**Compétence** : Traiter une situation relative à l’expression de l’opinion.\n**Titre de la leçon** : Donner une opinion (Activités de compréhension écrite).",
+  "estimatedMinutes": 10,
+  "tags": [
+    "espagnol",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle expression n’est pas une formule d’opinion en espagnol ?",
+      "options": [
+        "Para mí",
+        "Según yo",
+        "En mi casa",
+        "Pienso que"
+      ],
+      "answer": 2,
+      "explanation": "« En mi casa » signifie « chez moi » et n’exprime pas une opinion."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Remplacez « Yo creo que se puede reducir la inmigración clandestina. » par une expression d’opinion différente.",
+      "answer": "Para mí, se puede reducir la inmigración clandestina.",
+      "explanation": "« Para mí » est une formule d’opinion alternative."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est le sens de *inmigración ilegal* ?",
+      "options": [
+        "Immigration légale",
+        "Immigration clandestine",
+        "Immigration temporaire",
+        "Immigration volontaire"
+      ],
+      "answer": 1,
+      "explanation": "Le terme signifie immigration sans documents légaux."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel pays est mentionné comme *ser fronterizo* ?",
+      "options": [
+        "Mali",
+        "España",
+        "Francia",
+        "Portugal"
+      ],
+      "answer": 0,
+      "explanation": "Mali est un pays frontière du nord de la Côte d’Ivoire."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Complétez : *Según ___, la inmigración clandestina es peligrosa.*",
+      "answer": "Ndiaye",
+      "explanation": "Le texte cite Ndiaye comme référence."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Dans l’exercice 1, quel mot correspond à « sans papiers » ?",
+      "options": [
+        "Apátrida",
+        "Campo de refugiados",
+        "Clandestino",
+        "Sin papeles"
+      ],
+      "answer": 3,
+      "explanation": "« Sin papeles » signifie « sans papiers »."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Dans l’exercice 2, l’auteur mentionne que Lory Money est devenu un ___ après avoir quitté la clandestinité.",
+      "answer": "youtuber",
+      "explanation": "Il est décrit comme un youtuber."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel est l’objectif de la cumbre mentionnée dans l’exercice 3 ?",
+      "options": [
+        "Discuter de la cuisine africaine",
+        "Debatir sobre seguridad, desarrollo e inmigración",
+        "Organiser un festival musical",
+        "Promouvoir le tourisme"
+      ],
+      "answer": 1,
+      "explanation": "L’objectif est de débattre sur la sécurité, le développement et l’immigration."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quelle formule d’opinion est utilisée pour exprimer une opinion personnelle ?",
+      "options": [
+        "Según la ley",
+        "Para mí",
+        "En la escuela",
+        "Durante la reunión"
+      ],
+      "answer": 1,
+      "explanation": "« Para mí » exprime une opinion personnelle."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Complétez : *Para ___, la inmigración clandestina es muy peligrosa.*",
+      "answer": "mí",
+      "explanation": "« Para mí » signifie « pour moi »."
+    }
+  ]
+}

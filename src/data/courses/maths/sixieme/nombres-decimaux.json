@@ -1,0 +1,154 @@
+{
+  "id": "maths-sixieme-nombres-decimaux",
+  "subjectId": "maths",
+  "levelId": "sixieme",
+  "slug": "nombres-decimaux",
+  "title": "Nombres décimaux – Sixième",
+  "summary": "Apprentissage du système décimal, lecture, écriture et conversion des nombres décimaux en fractions décimales, avec règles d’orthographe et d’écriture.",
+  "lesson": "## I) Notre système de numération\nLe système décimal utilise les chiffres 0‑9. Chaque position représente une puissance de 10. Exemple : 24,8 = 2×10 + 4×1 + 8×10⁻¹. La partie entière est 24, la partie décimale 8.\n\n## II) Lecture – écriture des nombres\nOn regroupe les chiffres par trois à partir de l’unité. Exemple : 45 754 324,988 se lit « quarante‑cinq millions sept cent cinquante‑quatre mille trois cent vingt‑quatre virgule neuf cent quatre‑vingt‑huit ». Règles : * vingt et cent prennent un *s* sauf devant un autre nombre; * mille* ne s’accorde jamais; trait d’union entre dizaines et unités.\n\n## III) Écriture fractionnaire d’un nombre décimal\nUn nombre décimal s’écrit comme fraction décimale avec dénominateur 10, 100, 1000… Exemple : 24,8 = 248/10 = 2480/100 = … La fraction décimale a toujours un dénominateur puissance de 10.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la valeur de la position des dixièmes dans 24,8 ?",
+      "options": [
+        "10",
+        "1",
+        "0,1",
+        "0,01"
+      ],
+      "answer": 2,
+      "explanation": "Le chiffre des dixièmes représente 8×10⁻¹ = 0,8."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Dans le nombre 4879,46, le chiffre 4 à la droite de la virgule représente les centièmes.",
+      "answer": true,
+      "explanation": "Le 4 après la virgule est à la deuxième position décimale, donc les centièmes."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Écris 0,75 sous forme de fraction décimale avec le plus petit dénominateur possible.",
+      "answer": "75/100",
+      "explanation": ""
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Comment lit‑on le nombre 500 371,67 ?",
+      "options": [
+        "cinq cent mille trois cent soixante‑et‑onze virgule soixante‑sept",
+        "cinq cent mille trois cent soixante‑et‑onze virgule soixante‑sept",
+        "cinq cent trente‑un virgule six‑sept",
+        "cinq cent mille trois cent soixante‑onze virgule soixante‑sept"
+      ],
+      "answer": 1,
+      "explanation": "La lecture correcte est « cinq cent mille trois cent soixante‑et‑onze virgule soixante‑sept »."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Le mot « mille » prend un *s* au pluriel lorsqu’il est suivi d’un autre nombre.",
+      "answer": false,
+      "explanation": "« Mille » ne s’accorde jamais."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Donne la forme décimale de la fraction 23/1000.",
+      "answer": "0,023",
+      "explanation": ""
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel est le nombre entier de 24,8 ?",
+      "options": [
+        "24",
+        "8",
+        "24,8",
+        "248"
+      ],
+      "answer": 0,
+      "explanation": "La partie entière est 24."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Dans 999, le trait d’union apparaît entre les dizaines et les unités lorsqu’on l’écrit en toutes lettres.",
+      "answer": true,
+      "explanation": "On écrit « neuf cent quatre‑vingt‑dix‑neuf » avec un trait d’union."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Écris 3 452 000 en toutes lettres selon les règles françaises.",
+      "answer": "trois millions quatre cent cinquante‑deux mille",
+      "explanation": ""
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quelle fraction décimale équivaut à 0,6 ?",
+      "options": [
+        "6/10",
+        "6/100",
+        "60/1000",
+        "6/1000"
+      ],
+      "answer": 0,
+      "explanation": "0,6 = 6/10."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Le nombre 380 s’écrit « trois cent quatre‑vingts ».",
+      "answer": true,
+      "explanation": "Le *s* de cent et de quatre‑vingt est conservé car il n’est pas suivi d’un autre nombre."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Convertis 248/10 en nombre décimal.",
+      "answer": "24,8",
+      "explanation": ""
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel est le dénominateur de la fraction décimale correspondant à 0,004 ?",
+      "options": [
+        "10",
+        "100",
+        "1000",
+        "10000"
+      ],
+      "answer": 2,
+      "explanation": "0,004 = 4/1000, le dénominateur est 1000."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Dans 45 754 324,988, le groupe « 324 » représente les unités, dizaines et centaines.",
+      "answer": true,
+      "explanation": "Les trois derniers chiffres avant la virgule sont les centaines, dizaines, unités."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Écris 7,03 sous forme de fraction décimale simplifiée.",
+      "answer": "703/100",
+      "explanation": ""
+    }
+  ]
+}

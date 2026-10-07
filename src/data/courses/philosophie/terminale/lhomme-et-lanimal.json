@@ -1,0 +1,173 @@
+{
+  "id": "philosophie-terminale-lhomme-et-lanimal",
+  "subjectId": "philosophie",
+  "levelId": "terminale",
+  "slug": "lhomme-et-lanimal",
+  "title": "Nature et culture : distinction homme‑animal et prohibition de l’inceste",
+  "summary": "Ce cours explore la dualité nature/culture, la spécificité humaine face aux animaux, les critères de la culture (langage, technique, art, religion) et le rôle de l’interdiction de l’inceste comme règle universelle révélatrice de la culture selon Lévi‑Strauss. Il montre comment l’universalité et la norme permettent de distinguer le naturel du culturel.",
+  "lesson": "## I. Nature et culture\n\n### A. L’homme et l’animal\n#### 1. La culture, une spécificité humaine ?\n- **Deux sens du mot *nature*** :\n  - *Sens large* : tout ce qui existe, y compris l’homme, est régi par les lois naturelles (physique, chimie, biologie).\n  - *Sens étroit* : la nature s’oppose à la culture, à tout ce qui relève de l’artifice humain.\n- **Distinction naturel / culturel** : on reconnaît facilement un objet fabriqué (caillou taillé, figure dans le sable) comme produit culturel.\n- **Cultures animales** : les animaux créent aussi des objets et des langages (ex. moineaux de New York). Cela complique la démarcation.\n- **Caractère essentiel de la culture** : question de savoir si la culture doit être limitée à l’humain.\n- **Ce qui distingue l’homme** : langage, technique, religion, art, etc., souvent vus comme produits de l’intelligence.\n- **Origines possibles de l’humanité** : usage d’outils, art primitif, rites funéraires, langage…\n- **Perspective scientifique** : Lévi‑Strauss voit le tabou de l’inceste comme point de départ de toute culture.\n\n#### 2. La prohibition de l’inceste : rupture entre nature et culture\n- **Lévi‑Strauss** : cherche la *nature humaine* en étudiant la diversité culturelle (structuralisme).\n- **Rousseau** : « Il faut d’abord observer les différences pour découvrir les propriétés ».\n- **Universalité du tabou** : la prohibition de l’inceste apparaît dans toutes les sociétés, même si les formes de parenté varient.\n- **Paradoxe** : règle culturelle (norme) mais universelle → critère pour distinguer le culturel (normatif, relatif) du naturel (universel, spontané).\n- **Conclusion** : tout ce qui est universel relève de la nature; tout ce qui est soumis à une norme relève de la culture.\n\n## II. Applications pédagogiques\n- Analyse de textes anthropologiques (Lévi‑Strauss, Rousseau).\n- Comparaison de pratiques culturelles animales et humaines.\n- Débat : la culture peut‑elle être purement humaine ?\n- Exercices de classification : identifier des comportements comme *naturels* ou *culturels*.\n\n---\n*Durée estimée : 10 minutes*",
+  "estimatedMinutes": 10,
+  "tags": [
+    "philosophie",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel sens du mot « nature » s’oppose à la culture ?",
+      "options": [
+        "Sens large incluant tout ce qui existe",
+        "Sens étroit opposé à l’artifice humain",
+        "Sens scientifique des lois physiques",
+        "Sens philosophique de la nature humaine"
+      ],
+      "answer": 1,
+      "explanation": "Le sens étroit de « nature » s’oppose à la culture, à tout ce qui relève de l’artifice humain."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Les animaux ne produisent jamais d’objets culturels.",
+      "answer": false,
+      "explanation": "Des exemples comme les constructions de nids ou le langage des moineaux montrent des formes de culture animale."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Selon Lévi‑Strauss, quel tabou constitue le point de départ de toute culture ?",
+      "answer": "inceste",
+      "explanation": "Lévi‑Strauss identifie le tabou de l’inceste comme universel et fondateur de la culture."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel critère Lévi‑Strauss utilise‑t‑il pour distinguer le naturel du culturel ?",
+      "options": [
+        "La fréquence d’apparition",
+        "L’universalité vs la norme",
+        "La complexité du phénomène",
+        "Le degré d’intentionnalité"
+      ],
+      "answer": 1,
+      "explanation": "Il oppose l’universalité (nature) à la norme (culture)."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Le tabou de l’inceste est présent dans toutes les sociétés sans aucune exception.",
+      "answer": false,
+      "explanation": "Quelques sociétés tolèrent l’inceste, mais uniquement pour des chefs et comme exception."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel philosophe affirme qu’il faut d’abord connaître les différences pour découvrir les similitudes ?",
+      "options": [
+        "Descartes",
+        "Rousseau",
+        "Kant",
+        "Hume"
+      ],
+      "answer": 1,
+      "explanation": "Citation de Rousseau dans l’Essai sur l’origine des langues."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Le mythe d’Adam et Ève illustre que la prise de conscience de la nudité suit la consommation du fruit de l’arbre de la __________.",
+      "answer": "connaissance",
+      "explanation": "Le fruit symbolise le savoir qui révèle la nudité."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Parmi les propositions suivantes, laquelle n’est PAS mentionnée comme possible point de départ de l’humanité ?",
+      "options": [
+        "Usage d’outils",
+        "Art primitif",
+        "Rites funéraires",
+        "Agriculture intensive"
+      ],
+      "answer": 3,
+      "explanation": "L’agriculture intensive n’est pas citée dans le texte comme point de départ."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Selon le texte, tout ce qui est soumis à une norme appartient à la nature.",
+      "answer": false,
+      "explanation": "Ce qui est soumis à une norme appartient à la culture."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel auteur a développé le structuralisme en anthropologie ?",
+      "options": [
+        "Claude Lévi‑Strauss",
+        "Émile Durkheim",
+        "Marcel Mauss",
+        "Pierre Bourdieu"
+      ],
+      "answer": 0,
+      "explanation": "Claude Lévi‑Strauss est le fondateur du structuralisme."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Dans le texte, la culture est décrite comme le produit de l’_________.",
+      "answer": "intelligence",
+      "explanation": "Le texte associe la culture à l’intelligence humaine."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Le texte affirme que les lois naturelles sont universelles et s’appliquent à l’homme comme aux autres êtres vivants.",
+      "answer": true,
+      "explanation": "Le sens large de nature inclut l’homme soumis aux lois physiques, chimiques, biologiques."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel phénomène montre que la distinction nature/culture est difficile ?",
+      "options": [
+        "La présence de cailloux taillés dans la nature",
+        "Le langage des moineaux de New York",
+        "Les monuments historiques humains",
+        "Les lois de la gravité"
+      ],
+      "answer": 1,
+      "explanation": "Le langage des moineaux, forme de culture animale, rend la démarcation complexe."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Le texte utilise l’image de la feuille de __________ pour symboliser le point de départ de la culture.",
+      "answer": "figuier",
+      "explanation": "Référence au mythe d’Adam et Ève."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Selon le texte, la prohibition de l’inceste est une institution culturelle mais pas universelle.",
+      "answer": false,
+      "explanation": "Elle est à la fois culturelle (norme) et universelle (présente partout)."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel est le rôle principal de l’anthropologue selon Lévi‑Strauss ?",
+      "options": [
+        "Introspecter l’esprit humain",
+        "Analyser les différences pour découvrir les propriétés communes",
+        "Formuler des lois universelles de la biologie",
+        "Développer des théories économiques"
+      ],
+      "answer": 1,
+      "explanation": "Il observe la diversité pour identifier les structures communes."
+    }
+  ]
+}

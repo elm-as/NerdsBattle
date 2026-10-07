@@ -1,0 +1,70 @@
+{
+  "id": "histoire-troisieme-population-cote-ivoire-dynamique",
+  "title": "La population ivoirienne : dynamique, structure et urbanisation",
+  "summary": "Ce chapitre vous permettra de comprendre comment la population de la Côte d'Ivoire évolue, se répartit et se concentre dans les villes, un enjeu majeur pour le développement du pays. Vous y découvrirez des outils démographiques essentiels pour analyser les défis actuels et futurs.",
+  "lesson": "## Introduction & Mise en situation\n\nLa Côte d'Ivoire, pays d'Afrique de l'Ouest, connaît une croissance démographique rapide et une urbanisation accélérée. Comprendre la dynamique de sa population est crucial pour anticiper les besoins en éducation, santé, emploi, logement et infrastructures. Ce chapitre vous donne les clés pour lire et interpréter les données démographiques, un savoir-faire indispensable pour tout citoyen et futur décideur.\n\n## 1. Définitions et Principes Fondamentaux\n\n**Démographie** : science qui étudie les populations humaines, leur taille, leur composition et leur évolution.\n\n**Taux de natalité** : nombre de naissances vivantes pour 1000 habitants en un an. Formule : $$\\text{Taux de natalité} = \\frac{\\text{Nombre de naissances}}{\\text{Population totale}} \\times 1000$$\n\n**Taux de mortalité** : nombre de décès pour 1000 habitants en un an. Formule : $$\\text{Taux de mortalité} = \\frac{\\text{Nombre de décès}}{\\text{Population totale}} \\times 1000$$\n\n**Accroissement naturel** : différence entre le taux de natalité et le taux de mortalité. Il peut être exprimé en pourcentage ou en taux (pour 1000). Formule : $$\\text{Accroissement naturel} = \\text{Taux de natalité} - \\text{Taux de mortalité}$$\n\n**Structure par âge** : répartition de la population par tranches d'âge (0-14 ans, 15-64 ans, 65 ans et plus). Elle est souvent représentée par une pyramide des âges.\n\n**Urbanisation** : processus de concentration de la population dans les villes. Le taux d'urbanisation est le pourcentage de la population vivant en ville.\n\n## 2. Propriétés et Méthodes d'application\n\n### Méthode pour calculer un taux d'accroissement naturel\n\n1. **Relever** les taux de natalité et de mortalité (souvent donnés en ‰).\n2. **Soustraire** le taux de mortalité du taux de natalité.\n3. **Interpréter** : si le résultat est positif, la population augmente naturellement ; s'il est négatif, elle diminue.\n\n**Exemple concret** : En 2020, la Côte d'Ivoire avait un taux de natalité de 36,5 ‰ et un taux de mortalité de 8,5 ‰. Calculons l'accroissement naturel :\n\n$$\\text{Accroissement naturel} = 36,5 ‰ - 8,5 ‰ = 28 ‰$$\n\nCela signifie que pour 1000 habitants, la population augmente de 28 personnes par an, soit un taux de 2,8 %.\n\n### Méthode pour analyser une pyramide des âges\n\n1. **Observer la base** : une base large indique une population jeune (forte natalité).\n2. **Observer le sommet** : un sommet étroit signifie peu de personnes âgées (mortalité élevée ou espérance de vie faible).\n3. **Comparer les sexes** : des déséquilibres peuvent révéler des migrations ou des conflits.\n\n**Exemple** : La pyramide de la Côte d'Ivoire a une base très large (moins de 15 ans représentent environ 40 % de la population), ce qui indique une population très jeune.\n\n### Méthode pour calculer le taux d'urbanisation\n\n1. **Connaître** la population totale et la population urbaine.\n2. **Diviser** la population urbaine par la population totale.\n3. **Multiplier** par 100 pour obtenir un pourcentage.\n\n**Exemple** : En 2020, la population ivoirienne était d'environ 26 millions, dont 13 millions en ville. Taux d'urbanisation = (13 / 26) × 100 = 50 %.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre accroissement naturel et accroissement total** : l'accroissement total inclut aussi le solde migratoire (immigration - émigration). Ne pas oublier les migrations dans l'évolution de la population.\n- **Oublier de multiplier par 1000** : les taux de natalité et mortalité sont souvent donnés en ‰ ; il faut les utiliser tels quels dans la soustraction, mais pour exprimer en pourcentage, diviser par 10.\n- **Mal interpréter la pyramide des âges** : une base large ne signifie pas forcément une forte natalité actuelle, mais peut refléter une natalité passée élevée. Il faut regarder les tranches d'âge récentes.\n- **Confondre le taux d'urbanisation avec la croissance urbaine** : le taux d'urbanisation est un pourcentage statique, tandis que la croissance urbaine est un rythme d'augmentation.\n- **Négliger les inégalités spatiales** : l'urbanisation en Côte d'Ivoire est déséquilibrée (Abidjan concentre une grande partie de la population urbaine), il faut le mentionner dans une analyse.\n\n## Synthèse\n\n1. **La population ivoirienne est en forte croissance** grâce à un accroissement naturel élevé (natalité élevée, mortalité en baisse).\n2. **La structure par âge est très jeune** : plus de 40 % de la population a moins de 15 ans, ce qui implique des défis en matière d'éducation et d'emploi.\n3. **L'urbanisation progresse rapidement**, avec une concentration majeure à Abidjan, entraînant des problèmes de logement, d'assainissement et de transport.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "démographie",
+    "urbanisation",
+    "Côte d'Ivoire",
+    "population",
+    "BEPC"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le taux d'accroissement naturel si le taux de natalité est de 35 ‰ et le taux de mortalité de 10 ‰ ?",
+      "options": [
+        "25 ‰",
+        "45 ‰",
+        "3,5 %",
+        "2,5 %"
+      ],
+      "answer": 0,
+      "explanation": "L'accroissement naturel est la différence entre natalité et mortalité : 35 - 10 = 25 ‰."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La base large de la pyramide des âges de la Côte d'Ivoire indique une population jeune.",
+      "answer": true,
+      "explanation": "Une base large signifie une proportion élevée de jeunes, ce qui est le cas en Côte d'Ivoire."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le taux d'urbanisation se calcule en divisant la population urbaine par la population ______, puis en multipliant par 100.",
+      "answer": "totale",
+      "explanation": "Le taux d'urbanisation = (population urbaine / population totale) × 100."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "En 2020, la Côte d'Ivoire comptait environ 26 millions d'habitants. Si la population urbaine est de 13 millions, quel est le taux d'urbanisation ?",
+      "options": [
+        "25 %",
+        "50 %",
+        "75 %",
+        "13 %"
+      ],
+      "answer": 1,
+      "explanation": "Taux d'urbanisation = (13/26) × 100 = 50 %."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "L'accroissement naturel ne tient pas compte des migrations.",
+      "answer": true,
+      "explanation": "L'accroissement naturel est la différence entre natalité et mortalité, sans inclure les migrations."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Si le taux de natalité est de 30 ‰ et le taux de mortalité de 10 ‰, l'accroissement naturel est de ______ ‰.",
+      "answer": "20",
+      "explanation": "30 - 10 = 20 ‰."
+    }
+  ]
+}

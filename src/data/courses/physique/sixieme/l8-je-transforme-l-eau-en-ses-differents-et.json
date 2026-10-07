@@ -1,0 +1,255 @@
+{
+  "id": "physique-sixieme-l8-je-transforme-l-eau-en-ses-differents-et",
+  "subjectId": "physique",
+  "levelId": "sixieme",
+  "slug": "l8-je-transforme-l-eau-en-ses-differents-et",
+  "title": "Les changements d'état de l'eau : solidification, fusion, ébullition et condensation",
+  "summary": "Découvre comment l'eau se transforme en glace, en vapeur et revient à l'état liquide. Explore le cycle de l'eau et réponds à la question de Fatou sur le verre qui transpire.",
+  "lesson": "## Introduction\n\nL'eau est une substance qui peut exister sous trois états physiques : solide (glace), liquide (eau) et gazeux (vapeur d'eau). Les passages d'un état à un autre sont appelés **changements d'état**. Dans cette leçon, nous allons étudier la solidification, la fusion, l'ébullition, la condensation et le cycle de l'eau dans la nature.\n\n## 1. Définitions et notions clés\n\n- **Solidification** : passage de l'état liquide à l'état solide. Elle se produit à 0°C pour l'eau pure. Le volume augmente lors de la solidification (la glace occupe plus de place que l'eau liquide).\n- **Fusion** : passage de l'état solide à l'état liquide. Elle se produit à 0°C pour la glace. Pendant la fusion, la température reste constante à 0°C jusqu'à ce que toute la glace ait fondu.\n- **Ébullition** : passage de l'état liquide à l'état gazeux lorsque le liquide bout. Pour l'eau, elle se produit à 100°C.\n- **Condensation** : passage de l'état gazeux à l'état liquide. Elle se produit au contact d'un objet froid.\n- **Vaporisation** : passage de l'état liquide à l'état gazeux. Il existe deux types : l'ébullition (liquide qui bout) et l'évaporation (à l'air libre, comme le linge qui sèche).\n\n## 2. Applications et méthodes\n\n### 2.1. Expérience de solidification\nOn place de l'eau dans un congélateur ou dans un mélange réfrigérant (glace + eau + sel). On observe que l'eau liquide devient solide (glace) et que le volume augmente. La température reste à 0°C pendant la solidification.\n\n### 2.2. Expérience de fusion\nOn chauffe de la glace. On observe que la glace fond et devient liquide. La température reste à 0°C tant qu'il reste de la glace.\n\n### 2.3. Ébullition et condensation\nOn chauffe de l'eau jusqu'à 100°C : elle bout et se transforme en vapeur d'eau (gaz). Si cette vapeur rencontre un objet froid (comme une vitre), elle se condense en gouttelettes d'eau.\n\n### 2.4. Le cycle de l'eau dans la nature\nL'eau des mers, fleuves, lacs s'évapore sous l'effet du soleil. La transpiration des végétaux ajoute de la vapeur d'eau. Cette vapeur monte, se refroidit en altitude et se condense pour former des nuages. Lorsque la température est très basse, l'eau se solidifie en neige ou en glace. La pluie et la neige retombent, alimentent les cours d'eau, s'infiltrent dans le sol et sont absorbées par les plantes. Le cycle recommence.\n\n### 2.5. Explication du verre qui transpire\nUn verre rempli d'eau glacée a une paroi froide. La vapeur d'eau contenue dans l'air entre en contact avec cette paroi froide et se condense en fines gouttelettes d'eau : c'est ce qui donne l'impression que le verre transpire.\n\n## 3. Pièges fréquents\n\n- **Confondre fusion et solidification** : la fusion est le passage de solide à liquide, la solidification l'inverse.\n- **Confondre ébullition et évaporation** : l'ébullition se produit à une température précise (100°C) et est visible par des bulles, l'évaporation se fait à toute température à la surface du liquide.\n- **Penser que la température augmente pendant un changement d'état** : pendant la fusion ou la solidification, la température reste constante (0°C pour l'eau).\n- **Oublier la variation de volume** : lors de la solidification, le volume augmente, ce qui peut casser une bouteille en verre remplie d'eau mise au congélateur.\n\n## Synthèse\n\nLes changements d'état de l'eau sont :\n- Solidification : liquide → solide à 0°C (volume augmente).\n- Fusion : solide → liquide à 0°C.\n- Ébullition : liquide → gaz à 100°C.\n- Condensation : gaz → liquide au contact d'un objet froid.\n- Vaporisation : liquide → gaz (ébullition ou évaporation).\n\nCes phénomènes expliquent le cycle de l'eau dans la nature et des situations de la vie courante comme le verre qui transpire ou la bouteille qui éclate au congélateur.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Qu'est-ce que la solidification ?",
+      "options": [
+        "Le passage de l'état liquide à l'état solide",
+        "Le passage de l'état solide à l'état liquide",
+        "Le passage de l'état liquide à l'état gazeux",
+        "Le passage de l'état gazeux à l'état liquide"
+      ],
+      "answer": 0,
+      "explanation": "La solidification est le passage de l'état liquide à l'état solide, comme l'eau qui devient glace."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "À quelle température se produit la solidification de l'eau ?",
+      "options": [
+        "0°C",
+        "100°C",
+        "-10°C",
+        "4°C"
+      ],
+      "answer": 0,
+      "explanation": "La solidification de l'eau se fait à 0°C."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Lors de la solidification de l'eau, le volume diminue.",
+      "answer": false,
+      "explanation": "Faux. Pendant la solidification, le volume augmente (la glace occupe plus de place que l'eau liquide)."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel appareil électrique permet la solidification de l'eau ?",
+      "options": [
+        "Le congélateur",
+        "Le four",
+        "Le micro-ondes",
+        "La bouilloire"
+      ],
+      "answer": 0,
+      "explanation": "Le congélateur permet de refroidir l'eau jusqu'à 0°C et de la solidifier."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Pourquoi une bouteille en verre remplie d'eau se casse-t-elle dans un congélateur ?",
+      "options": [
+        "Parce que l'eau en gelant augmente de volume",
+        "Parce que l'eau en gelant diminue de volume",
+        "Parce que le verre devient cassant au froid",
+        "Parce que la pression de l'air augmente"
+      ],
+      "answer": 0,
+      "explanation": "Lors de la solidification, l'eau augmente de volume, ce qui exerce une pression sur le verre et le casse."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Qu'est-ce que la fusion ?",
+      "options": [
+        "Le passage de l'état solide à l'état liquide",
+        "Le passage de l'état liquide à l'état solide",
+        "Le passage de l'état liquide à l'état gazeux",
+        "Le passage de l'état gazeux à l'état liquide"
+      ],
+      "answer": 0,
+      "explanation": "La fusion est le passage de l'état solide à l'état liquide, comme la glace qui fond."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "À quelle température se produit la fusion de la glace ?",
+      "options": [
+        "0°C",
+        "100°C",
+        "-10°C",
+        "4°C"
+      ],
+      "answer": 0,
+      "explanation": "La fusion de la glace se fait à 0°C."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Pendant la fusion de la glace, la température augmente progressivement.",
+      "answer": false,
+      "explanation": "Faux. Pendant la fusion, la température reste constante à 0°C jusqu'à ce que toute la glace ait fondu."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Qu'est-ce que l'ébullition ?",
+      "options": [
+        "Le passage de l'état liquide à l'état gazeux en faisant bouillir le liquide",
+        "Le passage de l'état gazeux à l'état liquide",
+        "Le passage de l'état solide à l'état liquide",
+        "Le passage de l'état liquide à l'état solide"
+      ],
+      "answer": 0,
+      "explanation": "L'ébullition est le passage de l'état liquide à l'état gazeux lorsque le liquide bout."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "À quelle température se produit l'ébullition de l'eau ?",
+      "options": [
+        "100°C",
+        "0°C",
+        "50°C",
+        "200°C"
+      ],
+      "answer": 0,
+      "explanation": "L'ébullition de l'eau se produit à 100°C."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Qu'est-ce que la condensation ?",
+      "options": [
+        "Le passage de l'état gazeux à l'état liquide",
+        "Le passage de l'état liquide à l'état gazeux",
+        "Le passage de l'état solide à l'état liquide",
+        "Le passage de l'état liquide à l'état solide"
+      ],
+      "answer": 0,
+      "explanation": "La condensation est le passage de l'état gazeux à l'état liquide, souvent au contact d'un objet froid."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "La condensation se produit lorsque la vapeur d'eau entre en contact avec un objet froid.",
+      "answer": true,
+      "explanation": "Vrai. La condensation se fait en contact d'un objet froid, comme une vitre froide."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quels sont les deux types de vaporisation ?",
+      "options": [
+        "L'ébullition et l'évaporation",
+        "La fusion et la solidification",
+        "La condensation et la sublimation",
+        "L'ébullition et la condensation"
+      ],
+      "answer": 0,
+      "explanation": "La vaporisation comprend l'ébullition (liquide qui bout) et l'évaporation (à l'air libre)."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Le linge qui sèche est un exemple de :",
+      "options": [
+        "Évaporation",
+        "Ébullition",
+        "Condensation",
+        "Solidification"
+      ],
+      "answer": 0,
+      "explanation": "Le linge qui sèche illustre l'évaporation, une vaporisation lente à l'air libre."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Pourquoi un verre rempli d'eau glacée transpire-t-il ?",
+      "options": [
+        "Parce que la vapeur d'eau de l'air se condense au contact du verre froid",
+        "Parce que l'eau traverse le verre",
+        "Parce que le verre fond",
+        "Parce que l'eau gèle à l'intérieur"
+      ],
+      "answer": 0,
+      "explanation": "La vapeur d'eau contenue dans l'air se condense au contact du verre froid, formant des gouttelettes."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Dans le cycle de l'eau, comment se forment les nuages ?",
+      "options": [
+        "Par condensation de la vapeur d'eau en altitude",
+        "Par solidification de l'eau au sol",
+        "Par évaporation des océans",
+        "Par fusion de la neige"
+      ],
+      "answer": 0,
+      "explanation": "La vapeur d'eau monte, se refroidit en altitude et se condense pour former des gouttelettes qui constituent les nuages."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Que se passe-t-il lorsque la température est très basse dans l'atmosphère ?",
+      "options": [
+        "L'eau se solidifie pour former de la neige",
+        "L'eau s'évapore",
+        "L'eau se condense en pluie",
+        "L'eau bout"
+      ],
+      "answer": 0,
+      "explanation": "À très basse température, l'eau se solidifie et forme de la neige ou de la glace."
+    },
+    {
+      "id": "q18",
+      "type": "truefalse",
+      "prompt": "L'évaporation est un type de vaporisation qui se produit à l'air libre.",
+      "answer": true,
+      "explanation": "Vrai. L'évaporation est une vaporisation lente qui se produit à la surface du liquide, à l'air libre."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Quel changement d'état se produit lorsqu'on chauffe de la glace pour obtenir de l'eau liquide ?",
+      "options": [
+        "La fusion",
+        "La solidification",
+        "La condensation",
+        "L'ébullition"
+      ],
+      "answer": 0,
+      "explanation": "La fusion est le passage de l'état solide à l'état liquide."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Quel est le passage de l'état liquide à l'état gazeux ?",
+      "options": [
+        "La vaporisation",
+        "La fusion",
+        "La solidification",
+        "La condensation"
+      ],
+      "answer": 0,
+      "explanation": "La vaporisation est le passage de l'état liquide à l'état gazeux. Elle inclut l'ébullition et l'évaporation."
+    }
+  ]
+}

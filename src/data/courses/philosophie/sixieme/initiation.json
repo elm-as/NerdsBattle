@@ -1,0 +1,13 @@
+{
+  "id": "philosophie-sixieme-initiation",
+  "title": "Qu'est-ce que penser ?",
+  "summary": "Première découverte : poser des questions sur le monde et soi-même.",
+  "lesson": "Philosopher, c'est se poser des questions et chercher à y répondre par la raison. Socrate (Vᵉ s. av. J.-C.) interrogeait les Athéniens : « Que sais-je vraiment ? ». La philosophie n'est pas une opinion : elle exige des arguments.",
+  "estimatedMinutes": 6,
+  "tags": ["initiation"],
+  "questions": [
+    { "id": "q1", "type": "mcq", "prompt": "Le philosophe grec célèbre pour sa méthode du questionnement est :", "options": ["Platon", "Socrate", "Aristote", "Pythagore"], "answer": 1, "explanation": "Socrate, maître de Platon." },
+    { "id": "q2", "type": "truefalse", "prompt": "Une opinion vaut un argument.", "answer": false, "explanation": "L'opinion n'est pas justifiée ; l'argument l'est." },
+    { "id": "q3", "type": "fill", "prompt": "Philosopher, c'est exercer sa ___.", "answer": "raison", "explanation": "Outil de la pensée philosophique." }
+  ]
+}

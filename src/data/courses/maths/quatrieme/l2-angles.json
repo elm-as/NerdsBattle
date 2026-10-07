@@ -1,0 +1,167 @@
+{
+  "id": "maths-quatrieme-l2-angles",
+  "subjectId": "maths",
+  "levelId": "quatrieme",
+  "slug": "l2-angles",
+  "title": "Angles alternes‑internes et correspondants – 4ᵉ",
+  "summary": "Ce cours présente les angles alternes‑internes et correspondants, leurs propriétés fondamentales et leur utilisation pour démontrer le parallélisme de droites. Il s’appuie sur des figures du programme de 4ᵉ et propose des exercices d’application.",
+  "lesson": "## Situation d’apprentissage\nUne élève propose un logo où le point **O** est le centre du cercle, les droites (AI) // (FD) et (OF) // (CE). Le meilleur élève indique que plusieurs angles ont la même mesure que l’angle marqué.\n\n## I. Angles alternes‑internes\n### Définition\nSur deux droites parallèles coupées par une sécante, les angles situés à l’intérieur du même côté de la sécante et de part et d’autre de la paire de parallèles sont appelés **alternes‑internes**.\n\n### Propriété 1\n> Si deux droites sont parallèles, les angles alternes‑internes formés avec une sécante sont égaux.\n\n### Propriété 2 (réciproque)\n> Si deux angles alternes‑internes sont égaux, alors les deux droites sont parallèles.\n\n### Exemple d’application\n- Droites (AB) // (DF) et sécante (BD) → ∠ABD = ∠BDF.\n- Dans la figure avec (AE) // (KI) et sécante (OM) → ∠AOM = ∠OMI et ∠EOM = ∠OMK.\n\n## II. Angles correspondants\n### Définition\nLorsque deux droites parallèles sont coupées par une sécante, chaque angle situé du même côté de la sécante et dans la même position relative aux deux droites est un **angle correspondant**.\n\n### Propriété 1\n> Si deux droites sont parallèles, les angles correspondants formés avec une sécante sont égaux.\n\n### Propriété 2 (réciproque)\n> Si deux angles correspondants sont égaux, alors les deux droites sont parallèles.\n\n### Exemple d’application\n- Droites (AB) // (DF) et sécante (BD) → ∠ABD = ∠BDF (correspondants).\n- Avec (AE) // (KI) et sécante (OM) → ∠AOM = ∠KMB.\n\n## Exercices de fixation\n1. Citer deux paires d’angles alternes‑internes dans une figure donnée.\n2. Justifier l’égalité de deux angles correspondants.\n3. Utiliser la réciproque pour prouver que deux droites sont parallèles.\n\n---\n*Durée estimée : 8 heures*",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans une configuration avec deux droites parallèles (l1) // (l2) et une sécante (s), quels sont les angles alternes‑internes?",
+      "options": [
+        "Les angles situés du même côté de (s) et à l’intérieur des deux parallèles",
+        "Les angles situés de part et d’autre de (s) mais à l’extérieur des parallèles",
+        "Les angles qui se superposent lorsqu’on fait pivoter (s) de 180°",
+        "Aucun de ces choix"
+      ],
+      "answer": 0,
+      "explanation": "Les angles alternes‑internes sont ceux qui se trouvent à l’intérieur des deux parallèles et de part et d’autre de la sécante."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Si deux angles alternes‑internes sont égaux, alors les deux droites coupées par la sécante sont parallèles.",
+      "answer": true,
+      "explanation": "C’est la réciproque de la propriété 1 des angles alternes‑internes."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Dans la figure du texte, les droites (AE) et (KI) sont ________ et la droite (OM) est une ________ aux deux droites.",
+      "answer": "parallèles; sécante",
+      "explanation": "(AE) // (KI) et (OM) coupe les deux droites en O et M."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Parmi les paires suivantes, laquelle correspond à des angles correspondants?",
+      "options": [
+        "∠ABD et ∠BDF",
+        "∠AOM et ∠OMI",
+        "∠EAB et ∠ABF",
+        "∠A1 et ∠B6"
+      ],
+      "answer": 2,
+      "explanation": "Dans le texte, ∠EAB et ∠ABF sont indiqués comme angles correspondants."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Deux angles correspondants formés par des droites parallèles sont toujours de même mesure.",
+      "answer": true,
+      "explanation": "C’est la propriété 1 des angles correspondants."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "La réciproque de la propriété des angles correspondants permet de conclure que deux droites sont ________ lorsqu’on montre que leurs angles correspondants sont égaux.",
+      "answer": "parallèles",
+      "explanation": "Égalité des angles correspondants ⇒ parallélisme."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dans la configuration (AI) // (FD) et (OF) // (CE), quel angle a la même mesure que l’angle marqué ?",
+      "options": [
+        "∠AOF",
+        "∠FCE",
+        "∠IOF",
+        "Aucune information suffisante"
+      ],
+      "answer": 3,
+      "explanation": "Le texte ne précise pas quel est l’angle marqué, donc on ne peut pas répondre."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Dans le texte, ∠AOM et ∠KMB sont des angles alternes‑internes.",
+      "answer": false,
+      "explanation": "Ils sont des angles correspondants, pas alternes‑internes."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Si (AB) // (DF) et (BD) est la sécante, alors ∠ABD = ∠______.",
+      "answer": "BDF",
+      "explanation": "Angles alternes‑internes ou correspondants selon la position, ici ils sont égaux."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel type d’angle utilise‑t‑on pour prouver que deux droites sont parallèles dans l’exercice suivant : « Les angles EAB et ABF ont la même mesure » ?",
+      "options": [
+        "Alternes‑internes",
+        "Correspondants",
+        "Adjacents",
+        "Opposés par le sommet"
+      ],
+      "answer": 1,
+      "explanation": "EAB et ABF sont des angles correspondants dans le texte."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Les angles ∠A1 et ∠B6 cités dans le corrigé sont des angles alternes‑internes.",
+      "answer": false,
+      "explanation": "Ils sont indiqués comme angles correspondants."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Dans la propriété 2 des angles alternes‑internes, les deux droites sont parallèles si les angles alternes‑internes sont ________.",
+      "answer": "égaux",
+      "explanation": "Égalité des angles alternes‑internes ⇒ parallélisme."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel est le nombre total d’heures prévu pour la leçon selon le document?",
+      "options": [
+        "4 heures",
+        "6 heures",
+        "8 heures",
+        "10 heures"
+      ],
+      "answer": 2,
+      "explanation": "Le document indique une durée de 8 heures."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Dans la figure de la partie II, les angles E2̂ et S4̂ sont des angles alternes‑internes.",
+      "answer": false,
+      "explanation": "Ils sont décrits comme angles correspondants."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Compléter : « Si deux droites sont parallèles, alors toute sécante forme des angles ________ de même mesure. »",
+      "answer": "alternes‑internes et correspondants",
+      "explanation": "Les deux types d’angles étudiés possèdent cette propriété."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel raisonnement justifie que les droites (D) et (L) sont parallèles dans l’exercice de fixation?",
+      "options": [
+        "Les angles EAB et ABF sont opposés par le sommet",
+        "Les angles EAB et ABF sont alternes‑internes et égaux",
+        "Les angles EAB et ABF sont correspondants et égaux",
+        "Les angles EAB et ABF sont complémentaires"
+      ],
+      "answer": 1,
+      "explanation": "Le texte indique que les angles sont alternes‑internes et égaux, ce qui implique le parallélisme."
+    }
+  ]
+}

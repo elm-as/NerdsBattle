@@ -1,0 +1,70 @@
+{
+  "id": "info-sixieme-souris-clavier-bureau",
+  "title": "Utilisation de la souris, du clavier et du bureau",
+  "summary": "Ce chapitre vous apprend à maîtriser les outils de base de l'ordinateur : la souris, le clavier et le bureau. Ces compétences sont essentielles pour naviguer, saisir des textes et organiser vos fichiers, des fondations pour toutes vos futures activités informatiques.",
+  "lesson": "## Introduction & Mise en situation\n\nImaginez que vous êtes un explorateur dans le monde numérique. Pour avancer, vous avez besoin d'outils : la souris est votre boussole, le clavier votre carnet de notes, et le bureau votre camp de base. Sans eux, impossible de donner des ordres à l'ordinateur, d'écrire un texte ou de ranger vos documents. Ce chapitre vous rend autonome dans l'utilisation de ces outils indispensables.\n\n## 1. Définitions et Principes Fondamentaux\n\n- **La souris** : périphérique de pointage qui permet de déplacer un curseur à l'écran. Ses actions principales sont : clic gauche (sélectionner), clic droit (menu contextuel), double-clic (ouvrir), glisser-déposer (déplacer).\n- **Le clavier** : périphérique de saisie composé de touches alphanumériques, de chiffres, de symboles et de touches de fonction. Il sert à écrire du texte et à donner des commandes (raccourcis).\n- **Le bureau** : zone principale de l'écran après le démarrage. Il contient des icônes (fichiers, dossiers, corbeille) et la barre des tâches. C'est votre espace de travail virtuel.\n\n## 2. Propriétés et Méthodes d'application\n\n### Méthode 1 : Utiliser la souris efficacement\n\n1. **Pointer** : déplacer la souris pour placer le curseur sur un élément.\n2. **Clic gauche** : appuyer une fois sur le bouton gauche pour sélectionner.\n3. **Double-clic** : appuyer deux fois rapidement pour ouvrir un fichier ou un dossier.\n4. **Clic droit** : appuyer une fois sur le bouton droit pour afficher un menu d'options.\n5. **Glisser-déposer** : maintenir le bouton gauche enfoncé, déplacer la souris, puis relâcher pour déplacer un élément.\n\n**Exemple** : Pour ouvrir le dossier \"Mes documents\", pointez sur son icône et double-cliquez.\n\n### Méthode 2 : Saisir du texte au clavier\n\n1. Placez le curseur à l'endroit où vous voulez écrire (clic gauche).\n2. Utilisez les touches alphabétiques pour écrire des lettres.\n3. Utilisez la touche **Maj** (shift) pour les majuscules et les symboles.\n4. Utilisez la touche **Entrée** pour aller à la ligne.\n5. Utilisez la touche **Espace** pour insérer un espace entre les mots.\n\n**Exemple** : Pour écrire \"Bonjour\", appuyez sur les touches B, o, n, j, o, u, r.\n\n### Méthode 3 : Organiser le bureau\n\n1. Créer un dossier : clic droit sur le bureau > Nouveau > Dossier.\n2. Renommer : clic droit sur l'icône > Renommer, puis tapez le nouveau nom.\n3. Déplacer : glisser-déposer l'icône vers un autre emplacement.\n4. Supprimer : glisser l'icône vers la corbeille ou clic droit > Supprimer.\n\n**Exemple** : Créez un dossier \"Devoirs\" et rangez-y vos fichiers de texte.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre clic droit et clic gauche** : le clic droit ouvre un menu, le gauche sélectionne. Au BEPC, on vous demandera souvent de \"cliquer\" sans préciser ; par défaut, c'est le clic gauche.\n- **Double-clic trop lent** : si vous cliquez deux fois avec pause, cela sélectionne le nom du fichier au lieu de l'ouvrir. Entraînez-vous à cliquer rapidement.\n- **Ne pas utiliser la touche Maj pour les majuscules** : au lieu d'écrire \"JE SUIS\", certains écrivent \"je suis\" ou activent le verrouillage majuscule (Caps Lock) sans le savoir. Vérifiez toujours l'état de la touche.\n- **Oublier de sauvegarder** : après avoir tapé un texte, pensez à enregistrer (Ctrl+S) pour ne pas perdre votre travail.\n- **Confondre la corbeille et la suppression définitive** : vider la corbeille supprime définitivement les fichiers. Faites attention.\n\n## Synthèse\n\n1. **Souris** : maîtrisez les cinq gestes (pointer, cliquer, double-cliquer, clic droit, glisser-déposer).\n2. **Clavier** : utilisez les touches pour saisir du texte et les raccourcis pour gagner du temps.\n3. **Bureau** : organisez vos fichiers dans des dossiers et utilisez la corbeille avec précaution.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "informatique",
+    "souris",
+    "clavier",
+    "bureau",
+    "6ème"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle action de la souris permet d'ouvrir un fichier ?",
+      "options": [
+        "Clic gauche",
+        "Clic droit",
+        "Double-clic",
+        "Glisser-déposer"
+      ],
+      "answer": 2,
+      "explanation": "Le double-clic est l'action standard pour ouvrir un fichier ou un dossier."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le clic droit affiche un menu contextuel.",
+      "answer": true,
+      "explanation": "Oui, le clic droit ouvre un menu avec des options contextuelles."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Quelle touche permet de faire une majuscule ? (Répondre en un mot)",
+      "answer": "Maj",
+      "explanation": "La touche Maj (Shift) permet de taper des majuscules et des symboles."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Que fait la touche Entrée ?",
+      "options": [
+        "Effacer un caractère",
+        "Aller à la ligne",
+        "Faire une majuscule",
+        "Ouvrir un menu"
+      ],
+      "answer": 1,
+      "explanation": "La touche Entrée valide une saisie ou passe à la ligne suivante."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La corbeille permet de supprimer définitivement un fichier sans possibilité de le récupérer.",
+      "answer": false,
+      "explanation": "La corbeille stocke temporairement les fichiers supprimés ; on peut les restaurer tant qu'elle n'est pas vidée."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Quel raccourci clavier permet d'enregistrer un fichier ? (Répondre avec la combinaison, ex: Ctrl+Z)",
+      "answer": "Ctrl+S",
+      "explanation": "Ctrl+S est le raccourci universel pour enregistrer."
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "maths-premiere-l1-ere-s1-s2-cours-exo-by-m-tehua",
+  "subjectId": "maths",
+  "levelId": "premiere",
+  "slug": "l1-ere-s1-s2-cours-exo-by-m-tehua",
+  "title": "Recueil d'exercices de mathématiques – Première S (Première scientifique)",
+  "summary": "Ce cours synthétise les principaux chapitres du premier semestre de Première S : logique, équations, inéquations, systèmes, fonctions, polynômes, calcul vectoriel et barycentres. Il propose définitions, rappels, exemples et 16 questions d'évaluation (QCM, vrai/faux, remplissage) pour consolider les acquis.",
+  "lesson": "# 1. Éléments de logique\n- **Proposition** : phrase qui est vraie ou fausse.\n- **Connecteurs** : ∧ (et), ∨ (ou), ¬ (non), → (implique).\n- **Table de vérité** : outil pour vérifier la valeur de vérité d’une proposition composée.\n\n# 2. Équations, inéquations, systèmes\n## 2.1 Équations du premier degré\n`ax + b = 0  ⇒  x = -b/a` (a≠0).\n## 2.2 Inéquations du premier degré\nRésolution selon le signe du coefficient de x.\n## 2.3 Systèmes linéaires à deux inconnues\nMéthodes : substitution, élimination, matrices.\n\n# 3. Généralités sur les fonctions\n- **Définition** : correspondance f : D → I.\n- **Domaines de définition**.\n- **Monotonie** : croissante, décroissante.\n- **Parité** : paire (f(-x)=f(x)), impaire (f(-x)=-f(x)).\n\n# 4. Fonctions polynômes\n- Forme générale `P(x)=a_n x^n+…+a_1 x + a_0`.\n- **Racines** : solutions de `P(x)=0`.\n- **Factorisation** : théorème de d'Alembert, factorisation en facteurs linéaires réels ou complexes.\n- **Comportement à l’infini** selon le degré et le coefficient dominant.\n\n# 5. Calcul vectoriel et analytique\n## 5.1 Vecteurs dans le plan\n- Coordonnées `(x,y)`.\n- Opérations : addition, multiplication par un réel, norme `||v|| = √(x^2+y^2)`.\n## 5.2 Produit scalaire\n`u·v = x1*x2 + y1*y2`.\n- Relation avec l’angle : `u·v = ||u||·||v||·cosθ`.\n## 5.3 Droites et plans\n- Équation cartésienne `ax+by+c=0`.\n- Forme paramétrique.\n\n# 6. Barycentres\n- **Définition** : point G tel que `→OG = (Σ m_i →OA_i)/Σ m_i`.\n- Propriété de colinéarité et de division interne/externes.\n- Applications aux problèmes de géométrie analytique.\n\n---\n*Chaque sous‑section comprend des exemples concrets et des remarques pédagogiques pour faciliter la mise en œuvre en classe.*",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "premiere",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "L’équation 3x‑9=0 admet pour solution x=3.",
+      "answer": true,
+      "explanation": "3·3‑9=0, donc la solution est correcte."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Résoudre l’inéquation 2x‑5>1. La solution est x >",
+      "answer": "3",
+      "explanation": "2x‑5>1 ⇒ 2x>6 ⇒ x>3."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Le système suivant a‑1x + 2y = 4 ; 3x – y = 5. Quelle est la valeur de x ?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1,
+      "explanation": "En résolvant, on trouve x=3."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Une fonction paire satisfait f(-x)=‑f(x) pour tout x de son domaine.",
+      "answer": false,
+      "explanation": "C’est la propriété d’une fonction impaire."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Le degré du polynôme P(x)=4x^5‑2x^3+7 est",
+      "answer": "5",
+      "explanation": "Le plus grand exposant avec coefficient non nul est 5."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel est le facteur linéaire de P(x)=x^2‑4 ?",
+      "options": [
+        "(x‑2)",
+        "(x+2)",
+        "(x‑4)",
+        "(x+4)"
+      ],
+      "answer": 0,
+      "explanation": "x^2‑4 = (x‑2)(x+2), le facteur (x‑2) correspond à la racine x=2."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Le produit scalaire de deux vecteurs orthogonaux est toujours nul.",
+      "answer": true,
+      "explanation": "Orthogonalité ⇔ u·v = 0."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "La norme du vecteur v=(3,‑4) vaut",
+      "answer": "5",
+      "explanation": "||v||=√(3^2+(-4)^2)=√(9+16)=5."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "L’équation cartésienne d’une droite passant par les points A(1,2) et B(3,‑1) est",
+      "options": [
+        "y=‑3/2x+7/2",
+        "y=3/2x‑1/2",
+        "y=‑3/2x+5/2",
+        "y=3/2x+1/2"
+      ],
+      "answer": 0,
+      "explanation": "Pente = (‑1‑2)/(3‑1)=‑3/2 ; en utilisant A, on obtient y=‑3/2x+7/2."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Le barycentre de deux points A(0,0) et B(4,0) avec des masses égales se situe au point (2,0).",
+      "answer": true,
+      "explanation": "G = ( (0+4)/2 , (0+0)/2 ) = (2,0)."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Si le point G est le barycentre de A(1,2) (masse 3) et B(5,6) (masse 1), les coordonnées de G sont (",
+      "answer": "2,3",
+      "explanation": "G = ((3·1+1·5)/(3+1) , (3·2+1·6)/(3+1)) = (8/4 , 12/4) = (2,3)."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quelle est la solution de l’équation 2^(x)=8 ?",
+      "options": [
+        "x=2",
+        "x=3",
+        "x=4",
+        "x=6"
+      ],
+      "answer": 1,
+      "explanation": "2^3=8, donc x=3."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Une fonction affine est toujours injective sur ℝ.",
+      "answer": false,
+      "explanation": "Si le coefficient directeur est nul, la fonction est constante et non injective."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Le discriminant Δ de l’équation quadratique x^2‑6x+9=0 vaut",
+      "answer": "0",
+      "explanation": "Δ = b^2‑4ac = 36‑36 = 0, racine double."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Le produit scalaire de u=(1,2) et v=(‑2,1) vaut",
+      "options": [
+        "0",
+        "‑3",
+        "3",
+        "‑1"
+      ],
+      "answer": 0,
+      "explanation": "u·v = 1·(‑2)+2·1 = ‑2+2 = 0."
+    }
+  ]
+}

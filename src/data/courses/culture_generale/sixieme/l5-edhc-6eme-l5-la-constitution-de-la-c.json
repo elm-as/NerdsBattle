@@ -1,0 +1,193 @@
+{
+  "id": "culture_generale-sixieme-l5-edhc-6eme-l5-la-constitution-de-la-c",
+  "subjectId": "culture_generale",
+  "levelId": "sixieme",
+  "slug": "l5-edhc-6eme-l5-la-constitution-de-la-c",
+  "title": "La Constitution de Côte d'Ivoire et la préservation de la paix",
+  "summary": "La Constitution est la loi fondamentale qui organise l'État et l'administration. Son respect garantit la paix, la stabilité politique et le développement du pays.",
+  "lesson": "# La Constitution de Côte d'Ivoire et la préservation de la paix\n\n## I. La Constitution\n\n### 1. Définition\nLa Constitution est la **loi fondamentale** qui organise la vie de l'État et de l'administration d'une nation.\n\n### 2. Composantes de la Constitution ivoirienne\nLa Constitution ivoirienne comprend :\n- Un **Préambule** (introduction) ;\n- **Seize (16) Titres** subdivisés en chapitres ;\n- **Quarante-huit (48) Chapitres** subdivisés en articles ;\n- **Cent quatre-vingt-quatre (184) Articles**.\n\n### 3. Rôle de la Constitution\nLa Constitution ivoirienne a pour rôle de :\n- Organiser la vie de l'État ;\n- Préciser le principe de gouvernement ;\n- Énoncer les droits et devoirs des citoyens ;\n- Définir les rapports entre les différents pouvoirs.\n\n## II. Importance du respect de la Constitution\nLe respect de la Constitution favorise :\n- La **stabilité politique** ;\n- L'**épanouissement social et économique** des citoyens ;\n- La **prospérité du pays**.\n\n## Résumé\nLa Constitution est la loi fondamentale qui organise la vie de l'État. Son respect garantit la paix, contribue à l'épanouissement social et économique des citoyens et au développement du pays.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "culture_generale",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Qu'est-ce que la Constitution ?",
+      "options": [
+        "La loi fondamentale qui organise la vie de l'État et de l'administration d'une nation",
+        "L'ensemble des lois qui organisent les associations et clubs au sein d'un État",
+        "L'ensemble des us et coutumes d'un pays",
+        "Un document qui recommande la construction des routes"
+      ],
+      "answer": 0,
+      "explanation": "La Constitution est la loi fondamentale qui organise la vie de l'État et de l'administration d'une nation."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Combien de titres compte la Constitution ivoirienne ?",
+      "options": [
+        "16",
+        "48",
+        "184",
+        "10"
+      ],
+      "answer": 0,
+      "explanation": "La Constitution ivoirienne comprend seize (16) titres."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Combien de chapitres compte la Constitution ivoirienne ?",
+      "options": [
+        "16",
+        "48",
+        "184",
+        "20"
+      ],
+      "answer": 1,
+      "explanation": "La Constitution ivoirienne comprend quarante-huit (48) chapitres."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Combien d'articles compte la Constitution ivoirienne ?",
+      "options": [
+        "16",
+        "48",
+        "184",
+        "200"
+      ],
+      "answer": 2,
+      "explanation": "La Constitution ivoirienne comprend cent quatre-vingt-quatre (184) articles."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Parmi les propositions suivantes, laquelle n'est pas un rôle de la Constitution ?",
+      "options": [
+        "Organiser la vie de l'État",
+        "Préciser le principe de gouvernement",
+        "Énoncer les droits et devoirs des citoyens",
+        "Recommander la construction des routes"
+      ],
+      "answer": 3,
+      "explanation": "La Constitution ne recommande pas la construction des routes. Ses rôles sont : organiser la vie de l'État, préciser le principe de gouvernement, énoncer les droits et devoirs des citoyens, définir les rapports entre les pouvoirs."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Le respect de la Constitution favorise :",
+      "options": [
+        "La stabilité politique",
+        "L'épanouissement social et économique des citoyens",
+        "La prospérité du pays",
+        "Toutes les réponses ci-dessus"
+      ],
+      "answer": 3,
+      "explanation": "Le respect de la Constitution favorise la stabilité politique, l'épanouissement social et économique des citoyens, et la prospérité du pays."
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "La Constitution ivoirienne comprend un Préambule.",
+      "answer": true,
+      "explanation": "La Constitution ivoirienne comprend un Préambule (introduction)."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "La Constitution ivoirienne compte 184 titres.",
+      "answer": false,
+      "explanation": "La Constitution ivoirienne compte 16 titres, 48 chapitres et 184 articles."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Le respect de la Constitution garantit la paix.",
+      "answer": true,
+      "explanation": "Le respect de la Constitution garantit la paix, contribue à l'épanouissement social et économique des citoyens et au développement du pays."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "La Constitution est la loi ______ qui organise la vie de l'État et de l'administration d'une nation.",
+      "answer": "fondamentale",
+      "explanation": "La Constitution est la loi fondamentale qui organise la vie de l'État et de l'administration d'une nation."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "La Constitution ivoirienne comprend un ______ (introduction).",
+      "answer": "Préambule",
+      "explanation": "La Constitution ivoirienne comprend un Préambule (introduction)."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "La Constitution ivoirienne comprend ______ titres.",
+      "answer": "16",
+      "explanation": "La Constitution ivoirienne comprend seize (16) titres."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "La Constitution ivoirienne comprend ______ chapitres.",
+      "answer": "48",
+      "explanation": "La Constitution ivoirienne comprend quarante-huit (48) chapitres."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "La Constitution ivoirienne comprend ______ articles.",
+      "answer": "184",
+      "explanation": "La Constitution ivoirienne comprend cent quatre-vingt-quatre (184) articles."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel est le rôle de la Constitution qui consiste à énoncer les droits et devoirs des citoyens ?",
+      "options": [
+        "Organiser la vie de l'État",
+        "Préciser le principe de gouvernement",
+        "Énoncer les droits et devoirs des citoyens",
+        "Définir les rapports entre les différents pouvoirs"
+      ],
+      "answer": 2,
+      "explanation": "La Constitution a pour rôle d'énoncer les droits et devoirs des citoyens."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Parmi ces valeurs, laquelle ne justifie pas l'importance du respect de la Constitution ?",
+      "options": [
+        "Préserver la paix",
+        "Favoriser l'harmonie sociale",
+        "Garantir la justice",
+        "Éviter les échecs scolaires"
+      ],
+      "answer": 3,
+      "explanation": "Éviter les échecs scolaires ne fait pas partie des valeurs justifiant l'importance du respect de la Constitution. Les valeurs sont : préserver la paix, favoriser l'harmonie sociale, garantir la justice."
+    },
+    {
+      "id": "q17",
+      "type": "truefalse",
+      "prompt": "La Constitution définit les rapports entre les pouvoirs exécutif, législatif et judiciaire.",
+      "answer": true,
+      "explanation": "La Constitution définit les rapports entre les différents pouvoirs, y compris les pouvoirs exécutif, législatif et judiciaire."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "prompt": "Le respect de la Constitution favorise la ______ politique, l'épanouissement social et économique des citoyens, et la prospérité du pays.",
+      "answer": "stabilité",
+      "explanation": "Le respect de la Constitution favorise la stabilité politique, l'épanouissement social et économique des citoyens, et la prospérité du pays."
+    }
+  ]
+}

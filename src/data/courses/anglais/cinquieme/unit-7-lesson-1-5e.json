@@ -1,0 +1,207 @@
+{
+  "id": "anglais-cinquieme-unit-7-lesson-1-5e",
+  "subjectId": "anglais",
+  "levelId": "cinquieme",
+  "slug": "unit-7-lesson-1-5e",
+  "title": "Unit 7 – Health & Environment: Hygiene & Body Parts (5e)",
+  "summary": "Students learn English vocabulary for body parts and hygiene, practice imperatives, express obligation with must/mustn’t, and complete reading‑comprehension tasks on personal hygiene. Activities include naming body parts, giving orders, matching senses, filling gaps, and true/false statements.",
+  "lesson": "# Unit 7 – Health and Environment\n## Lesson 1: Hygiene and the Parts of the Body\n### Objectives\n- Identify and name 10 body parts in English.\n- Use the imperative form to give simple commands.\n- Express obligation with **must / mustn’t** + verb.\n- Match body parts with the five human senses.\n- Complete sentences about hygiene using given vocabulary.\n\n### Vocabulary\n| Body parts | Hygiene verbs |\n|------------|---------------|\n| head, hand, leg, foot, eye, ear, nose, mouth, tongue, teeth | wash, brush, clean, dirty, do the washing‑up, do the dishes, care for |\n\n### Language Functions\n- **Giving orders** – *Turn your head!*, *Don’t eat too much!*\n- **Expressing obligation** – *You must keep your body clean.*\n\n### Structures\n- **Imperative**: `Verb + complement` (negative: `do not / don’t + verb + complement`).\n- **Obligation**: `Subject + must / mustn’t + verb + complement`.\n\n### Session 1 – Body Parts\n1. **Activity 1** – Fill the numbered blanks with body‑part names.\n2. **Activity 2** – Transform the parenthetical meaning into an imperative command.\n3. **Activity 3** – Match senses to body parts.\n\n### Session 2 – Hygiene Vocabulary\n- Key words: hygiene, wash, clean, dirty, washing‑up, dishes, brush, care for.\n- **Activity 1** – Complete sentences using the word bank.\n- **Activity 2** – Choose *must* or *mustn’t* to finish each sentence.\n- **Activity 3** – State whether each statement is **True** or **False**.\n\n### Session 3 – Communication Task\nRead the short text on personal hygiene. Answer the comprehension question and discuss the importance of hygiene with classmates.\n\n### Estimated Time\n≈ 10 minutes for the whole lesson.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "anglais",
+    "cinquieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "fill",
+      "prompt": "Name the body part that is numbered 1 in Activity 1 (example).",
+      "answer": "hand",
+      "explanation": "The example given in the document shows ‘hand’ for number 1."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Which command correctly matches the meaning ‘to go to bed at 9.00’?",
+      "options": [
+        "Go to bed at nine o’clock!",
+        "Sleep early!",
+        "Turn off the lights!",
+        "Close your eyes!"
+      ],
+      "answer": 0,
+      "explanation": "The imperative must directly express the action of going to bed at the specified time."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Select the correct imperative for ‘not to close your eyes’.",
+      "options": [
+        "Don’t close your eyes!",
+        "Do not close your eyes!",
+        "Close your eyes!",
+        "Don’t open your eyes!"
+      ],
+      "answer": 1,
+      "explanation": "The negative imperative uses ‘Do not’ followed by the base verb."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Which sense is matched with the ear?",
+      "options": [
+        "to touch",
+        "to smell",
+        "to hear",
+        "to see"
+      ],
+      "answer": 2,
+      "explanation": "The ear is used for hearing."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Which sense is matched with the nose?",
+      "options": [
+        "to taste",
+        "to smell",
+        "to hear",
+        "to touch"
+      ],
+      "answer": 1,
+      "explanation": "The nose is the organ for smelling."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Complete: \"You must practice dental _______ not to have a pain in your teeth.\"",
+      "answer": "hygiene",
+      "explanation": "The word from the box that fits the context is ‘hygiene’."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Complete: \"When your clothes are ______, you do the _______.\"",
+      "answer": "dirty washing‑up",
+      "explanation": "Clothes that are dirty are washed; the activity is washing‑up."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Complete: \"______ your teeth before going to bed at night.\"",
+      "answer": "Brush",
+      "explanation": "The verb from the vocabulary list is ‘brush’ (brush your teeth)."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Complete: \"We do the ______ when we finish eating.\"",
+      "answer": "dishes",
+      "explanation": "After a meal we do the dishes."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "We mustn’t make our hands dirty.",
+      "answer": true,
+      "explanation": "The lesson states ‘We mustn’t make our hands dirty.’"
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "She must do the washing‑up when her clothes are clean.",
+      "answer": false,
+      "explanation": "The rule is to do the washing‑up when the clothes are dirty, not clean."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Students must wear uniform to go to school.",
+      "answer": false,
+      "explanation": "The statement in Activity 3 is false; students must wear uniform."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "According to the reading, germs can enter the body through all EXCEPT:",
+      "options": [
+        "Mouth",
+        "Nose",
+        "Eyes",
+        "Hair"
+      ],
+      "answer": 3,
+      "explanation": "The text lists mouth, nose, eyes, ears – not hair."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Which of the following is NOT a hygiene activity listed in the lesson?",
+      "options": [
+        "Brushing teeth",
+        "Washing hands",
+        "Sweeping the compound",
+        "Doing the washing‑up"
+      ],
+      "answer": 2,
+      "explanation": "Sweeping the compound is not part of the hygiene vocabulary."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Select the correct word: \"We ______ practice hygiene to be nice.\"",
+      "answer": "must",
+      "explanation": "The sentence requires the modal ‘must’ to express obligation."
+    },
+    {
+      "id": "q16",
+      "type": "truefalse",
+      "prompt": "I must eat the classroom.",
+      "answer": false,
+      "explanation": "The statement is absurd; it is false."
+    },
+    {
+      "id": "q17",
+      "type": "truefalse",
+      "prompt": "Yao mustn’t wash his hands after using the toilets.",
+      "answer": false,
+      "explanation": "Good hygiene requires washing hands after the toilet; the statement is false."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Which imperative matches the meaning ‘to touch your mouth with your hands’?",
+      "options": [
+        "Touch your mouth!",
+        "Don’t touch your mouth!",
+        "Do not touch your mouth!",
+        "Touch your hands to your mouth!"
+      ],
+      "answer": 0,
+      "explanation": "The positive command ‘Touch your mouth!’ conveys the intended action."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Which sentence correctly uses ‘mustn’t’?",
+      "options": [
+        "We mustn’t forget to brush our teeth.",
+        "We mustn’t to brush our teeth.",
+        "We mustn’t brush our teeth every day.",
+        "We mustn’t brush our teeth?."
+      ],
+      "answer": 0,
+      "explanation": "‘We mustn’t forget to brush our teeth.’ is the correct structure."
+    },
+    {
+      "id": "q20",
+      "type": "fill",
+      "prompt": "Complete the sentence from the text: \"So, wash your hands when you touch ______, before you eat, any time you touch an animal.\"",
+      "answer": "food",
+      "explanation": "The text says to wash hands when you touch food."
+    }
+  ]
+}

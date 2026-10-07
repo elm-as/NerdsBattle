@@ -1,0 +1,173 @@
+{
+  "id": "philosophie-terminale-complements-de-logique",
+  "subjectId": "philosophie",
+  "levelId": "terminale",
+  "slug": "complements-de-logique",
+  "title": "Compléments de logique et arithmétique de Peano (Terminale)",
+  "summary": "Ce cours aborde le principe du tiers exclu, la logique trivalente, les axiomes de Peano et quelques énigmes logiques. Il explique pourquoi le tiers exclu peut être remis en cause, présente les cinq axiomes de l’arithmétique de Peano et propose des exercices de type QCM, vrai/faux et remplissage pour consolider les notions.",
+  "lesson": "## 1. Le principe du tiers exclu\n- **Définition** : Pour toute proposition *P*, soit *P* est vraie, soit sa négation *¬P* est vraie. Aucun troisième état n’est admis.\n- **Limites** : Certains systèmes (logique trivalente, logique floue) introduisent une valeur *indécidable*.\n- **Paradoxe du menteur** : « Je mens » n’est ni vrai ni faux si le tiers exclu est rejeté.\n\n## 2. Logique trivalente\n- Valeurs de vérité : Vrai (1), Faux (0), Indécidable (½).\n- Applications : résolution de paradoxes temporels, modélisation de propositions incertaines.\n\n## 3. Axiomes de Peano (5 axiomes)\n1. **0 est un nombre**.\n2. **Successeur** : Si *n* est un nombre, *S(n)* est un nombre.\n3. **Injectivité du successeur** : Si *S(a)=S(b)* alors *a=b*.\n4. **0 n’est pas successeur** : Aucun *n* tel que *S(n)=0*.\n5. **Principe d’induction** : Si un ensemble *S* contient 0 et, dès qu’il contient *n*, il contient *S(n)*, alors *S* contient tous les nombres.\n\n## 4. Jeux et énigmes logiques\n- **Les deux gardes** : une question unique pour identifier la porte du paradis.\n- **Construction de triangles** : 4 triangles avec 6 allumettes.\n- **Puzzles triangulaires** : exercices de visualisation.\n\n## 5. Points clés à retenir\n- Le tiers exclu n’est pas universel ; la logique trivalente le supplée.\n- Les axiomes de Peano fondent l’arithmétique sur des notions primitives.\n- Les énigmes permettent d’appliquer la logique à des situations concrètes.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "philosophie",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le troisième état de vérité introduit par la logique trivalente ?",
+      "options": [
+        "Vrai",
+        "Faux",
+        "Indécidable",
+        "Inconnu"
+      ],
+      "answer": 2,
+      "explanation": "La logique trivalente ajoute la valeur 'Indécidable' entre vrai et faux."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le principe du tiers exclu affirme qu'une proposition ne peut être ni vraie ni fausse.",
+      "answer": false,
+      "explanation": "Le principe du tiers exclu stipule qu'une proposition est soit vraie, soit fausse, sans troisième option."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Dans les axiomes de Peano, le successeur de 0 est noté ___.",
+      "answer": "S(0)",
+      "explanation": "Le successeur immédiat de 0 est généralement noté S(0)."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel axiome de Peano garantit que 0 n’est le successeur d’aucun nombre ?",
+      "options": [
+        "Axiome 1",
+        "Axiome 3",
+        "Axiome 4",
+        "Axiome 5"
+      ],
+      "answer": 2,
+      "explanation": "L'axiome 4 affirme que 0 n’est le successeur d’aucun nombre."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Dans la logique trivalente, la proposition « Je mens » peut être indécidable.",
+      "answer": true,
+      "explanation": "En rejetant le tiers exclu, on peut classer « Je mens » comme indécidable."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel est le nombre minimal d’allumettes nécessaire pour former exactement 4 triangles ?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "answer": 0,
+      "explanation": "Avec 6 allumettes on peut former 4 triangles en les disposant en forme de pyramide à base triangulaire."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Le principe d’induction de Peano s'énonce en français : « Si un ensemble S contient 0 et, dès qu'il contient n, il contient ___, alors S contient tous les nombres. »",
+      "answer": "S(n)",
+      "explanation": "C’est le successeur de n qui doit appartenir à S."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel garde devez‑vous interroger pour connaître la porte du paradis ?",
+      "options": [
+        "Celui qui ment toujours",
+        "Celui qui dit toujours la vérité",
+        "Celui qui répond « Je ne sais pas »",
+        "Aucun, la question suffit"
+      ],
+      "answer": 3,
+      "explanation": "La bonne question (« Si je demandais à l’autre garde quelle porte mène au paradis, que répondrait‑il ? ») fonctionne quel que soit le garde."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "La logique modale traite de la nécessité et de la possibilité.",
+      "answer": true,
+      "explanation": "La logique modale introduit les opérateurs □ (nécessaire) et ◇ (possible)."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Parmi les propositions suivantes, laquelle viole le principe du tiers exclu ?",
+      "options": [
+        "P ou ¬P",
+        "P ∧ ¬P",
+        "P est indécidable",
+        "P → Q"
+      ],
+      "answer": 2,
+      "explanation": "‘P est indécidable’ introduit une troisième valeur de vérité."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Le logicien italien qui a formulé les cinq axiomes de l’arithmétique est ___.",
+      "answer": "Peano",
+      "explanation": "Giuseppe Peano a proposé les axiomes en 1889."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Le paradoxe du menteur peut être résolu en acceptant une valeur de vérité intermédiaire.",
+      "answer": true,
+      "explanation": "En logique trivalente, la phrase « Je mens » devient indécidable."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel axiome de Peano assure l’unicité du successeur ?",
+      "options": [
+        "Axiome 2",
+        "Axiome 3",
+        "Axiome 4",
+        "Axiome 5"
+      ],
+      "answer": 1,
+      "explanation": "L'axiome 3 stipule que si deux nombres ont le même successeur, ils sont identiques."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Dans la logique floue, il n’existe que deux valeurs de vérité, vrai et faux.",
+      "answer": false,
+      "explanation": "La logique floue autorise une infinité de degrés entre vrai (1) et faux (0)."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Dans l’énigme des deux gardes, la question optimale est : « Si je demandais à l’autre garde quelle porte mène au ___, que répondrait‑il ? »",
+      "answer": "paradis",
+      "explanation": "La réponse du garde interrogé indique toujours la porte du paradis."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel concept philosophique sous‑tend la difficulté de la pensée à appréhender le temps, selon le texte ?",
+      "options": [
+        "Intemporalité",
+        "Relativité",
+        "Causalité",
+        "Déterminisme"
+      ],
+      "answer": 0,
+      "explanation": "Le texte indique que la pensée se place hors du temps, donc elle est intemporelle."
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "id": "espagnol-seconde-l12-raconter-un-fait",
+  "subjectId": "espagnol",
+  "levelId": "seconde",
+  "slug": "l12-raconter-un-fait",
+  "title": "Raconter un fait sur la migration clandestine (Espagnol 2nde)",
+  "summary": "Leçon destinée aux élèves de seconde pour travailler la compétence « traiter une situation relative à l’échange d’informations » en espagnol. Les élèves apprennent le vocabulaire lié à la migration, les temps du récit (pretérito perfecto simple et pretérito imperfecto) et s’exercent à relater une conférence sur la migration clandestine à l’aide d’activités orales et écrites.",
+  "lesson": "# Compétence\n- **Traiter une situation relative à l’échange d’informations**\n\n# Situation d’apprentissage\nEn el Día Mundial de los migrantes, el ayuntamiento organiza una conferencia sobre la emigración clandestina. Los alumnos deben relatar lo que han retenido, identificando y usando expresiones del relato.\n\n# Vocabulaire\n- **Un relato** : narrar una historia.\n- **Un peligro** : situación de riesgo (p. ej. subir por encima de un autobús en marcha).\n- **Un migrante** : persona que viaja ilegalmente, en este caso africanos que cruzan el mar hacia Europa.\n\n# Grammaire\n## Temps du récit\n- **Pretérito perfecto simple** : acción terminada en el pasado. *Ejemplo*: *Hizo una encuesta*.\n- **Pretérito imperfecto** : acción en desarrollo o habitual en el pasado. *Ejemplo*: *Los migrantes buscaban una mejor vida*.\n\n## Règle\nPara relatar un hecho pasado se usa el pretérito perfecto simple cuando la acción está concluida y el pretérito imperfecto cuando la acción estaba en curso.\n\n# Exemple\n- *Se constató que encontrar un trabajo no fue el único motivo.*\n- *Los migrantes buscaban una mejor vida.*\n\n# Activité d’application\nLee el siguiente relato y elige la forma correcta del verbo:\n> “La PNUD (hizo / hacía) una encuesta a migrantes africanos. Ellos (declaraban / declararon) que (estuvieron / estaban) en Europa para buscar una mejor vida. La mayoría de ellos (cursó / cursaba) en sus países; pero no (encontraron / encontraban) trabajo. Por eso, (decidieron / decidían) emigrar.”\n**Respuesta**: Hizo – declararon – estaban – cursó – encontraban – decidieron.\n\n# Situation d’évaluation\n1. **Señala los tiempos para relatar** – *pret. perfecto simple* y *pret. imperfecto de indicativo*.\n2. **Relata las condiciones de vida y trabajo de los migrantes** – descripción de dificultades económicas, envío de un tercio del salario, etc.\n\n# Exercices\n## Exercice 1 – Vocabulaire\nComplète le texte avec les mots proposés (viaje, centro de detención, migrantes, Europa, conflicto, refugio, educación, mis sueños).\n## Exercice 2 – Réécriture\nReformule l’histoire de Sani Ladan au passé simple.\n## Exercice 3 – Questions ouvertes\n1. ¿Para qué sirvió la encuesta 1970? 2. ¿Por qué son peligrosas las rutas?",
+  "estimatedMinutes": 45,
+  "tags": [
+    "espagnol",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel temps utilise‑t‑on pour une action terminée dans le passé ?",
+      "options": [
+        "Pretérito imperfecto",
+        "Pretérito perfecto simple",
+        "Présent de l’indicatif",
+        "Futur simple"
+      ],
+      "answer": 1,
+      "explanation": "Le pretérito perfecto simple indique une action achevée."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Dans la phrase « Los migrantes buscaban una mejor vida », quel temps est employé ?",
+      "options": [
+        "Pretérito perfecto simple",
+        "Pretérito imperfecto",
+        "Présent",
+        "Conditionnel"
+      ],
+      "answer": 1,
+      "explanation": "« buscaban » est à l’imperfecto, action en cours dans le passé."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "« Hizo » est la forme du pretérito imperfecto du verbe « hacer ».",
+      "answer": false,
+      "explanation": "« Hizo » est le pretérito perfecto simple."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Complétez : « La encuesta ______ (encuestar) a 1 970 migrantes. »",
+      "answer": "encuestó",
+      "explanation": "Le verbe doit être conjugué au pretérito perfecto simple."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel mot désigne « une histoire racontée » en espagnol ?",
+      "options": [
+        "Un relato",
+        "Un peligro",
+        "Un migrante",
+        "Una encuesta"
+      ],
+      "answer": 0,
+      "explanation": "« Un relato » signifie un récit."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Les migrants envoient généralement la moitié de leur salaire à leurs familles.",
+      "answer": false,
+      "explanation": "Le texte indique qu’ils envoient le tiers."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Dans le texte, le mot manquant : « Los migrantes ______ (mandar) la tercera parte de sus salarios a sus países. »",
+      "answer": "mandaban",
+      "explanation": "Imperfecto pour une action habituelle dans le passé."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quelle expression complète correctement la phrase suivante ? « Los migrantes ______ (buscar) una mejor vida. »",
+      "options": [
+        "buscaban",
+        "buscaron",
+        "buscaban a",
+        "buscó"
+      ],
+      "answer": 0,
+      "explanation": "Imperfecto pour une action en cours."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "« Decidieron » indique une décision prise dans le passé et terminée.",
+      "answer": true,
+      "explanation": "« Decidieron » est pretérito perfecto simple."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Complétez avec le bon pronom : « Ellos ______ (declarar) que estaban en Europa. »",
+      "answer": "declararon",
+      "explanation": "Forme du pretérito perfecto simple."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel est le principal objectif de la conférence organisée pour le Día Mundial de los migrantes ?",
+      "options": [
+        "Divertir les participants",
+        "Sensibiliser sur la migration clandestine",
+        "Promouvoir le tourisme",
+        "Enseigner la grammaire espagnole"
+      ],
+      "answer": 1,
+      "explanation": "L’objectif est de sensibiliser."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Le pretérito imperfecto s’utilise pour décrire une action ponctuelle terminée.",
+      "answer": false,
+      "explanation": "Il décrit une action en cours ou habituelle."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Dans la phrase « Los migrantes ______ (mandar) el tercio de sus salarios. », quel verbe faut‑il employer au pretérito imperfecto ?",
+      "answer": "mandaban",
+      "explanation": "Imperfecto pour une habitude passée."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel mot complète correctement : « El viaje fue ______ (peligroso) debido a las rutas marítimas. »",
+      "options": [
+        "peligroso",
+        "peligrosa",
+        "peligrosas",
+        "peligros"
+      ],
+      "answer": 0,
+      "explanation": "« peligroso » s’accorde avec « el viaje » (masculin singulier)."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Le texte indique que 85 % des migrants envoient leurs progrès à leurs familles.",
+      "answer": true,
+      "explanation": "Le texte mentionne « el 85 por ciento de sus progresos »."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Complétez : « Una vez llegados a Europa, la mayoría de los migrantes ______ (mandar) el tercio de sus salarios. »",
+      "answer": "mandaba",
+      "explanation": "Imperfecto pour une action habituelle dans le passé."
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "id": "allemand-quatrieme-l1-allemand-4eme-theme-1-lecon-1",
+  "subjectId": "allemand",
+  "levelId": "quatrieme",
+  "slug": "l1-allemand-4eme-theme-1-lecon-1",
+  "title": "Allemand 4ème – Salutations et Présentations (MENA CI)",
+  "summary": "Ce module de 10 minutes introduit les élèves de 4ème à la salutation et la présentation en allemand. Il couvre les formules de salutation selon l’heure, la conjugaison des verbes \"heißen\", \"sein\", \"haben\", \"kommen\", \"wohnen\", \"zeigen\", \"machen\" au présent, ainsi que la structure des questions \"Woher kommst du?\" et \"Wo wohnst du?\". Les activités comprennent l’observation d’images, la lecture de dialogues, la rédaction de phrases et la production d’un dialogue. Les évaluations ciblent la maîtrise des formules",
+  "lesson": "# Allemand 4ème – Salutations et Présentations\n\n## Objectifs\n- Connaître les formules de salutation selon l’heure du jour.\n- Savoir se présenter : *Ich heiße*, *Ich bin*, *Mein Name ist*.\n- Conjuguer les verbes *heißen*, *sein*, *haben*, *kommen*, *wohnen*, *zeigen*, *machen* au présent (singulier et pluriel).\n- Poser et répondre aux questions *Woher kommst du?*, *Wo wohnst du?*.\n- Produire un dialogue simple en allemand.\n\n## Contenu\n1. **Salutations**\n   - Matin (04h‑11h) : *Guten Morgen!*, *Hallo!* \n   - Après-midi (11h‑17h) : *Guten Tag!*, *Hi!* \n   - Soir (18h‑22h) : *Guten Abend!* \n   - Au lit : *Gute Nacht!* \n2. **Présentation**\n   - *Ich heiße …*, *Ich bin …*, *Mein Name ist …*\n3. **Conjugaison**\n   - *heißen, sein, haben* (singulier)\n   - *kommen, wohnen, zeigen, machen* (pluriel)\n4. **Questions & Réponses**\n   - *Woher kommst du?* → *Ich komme aus …*\n   - *Wo wohnst du?* → *Ich wohne in …*\n5. **Activités**\n   - Observation d’images (page 6)\n   - Lecture de dialogues (pages 6‑8)\n   - Exercices de conjugaison (pages 7‑8, 13)\n   - Production d’un dialogue (page 16)\n   - Évaluation orale et écrite\n\n## Méthodologie\n- **Observation** : décrire l’image, identifier les personnages.\n- **Lecture** : lire le texte *Der erste Schultag* et répondre aux questions.\n- **Conjugaison** : tableau de terminaison, exercices à trous.\n- **Production** : rédiger un dialogue de présentation.\n- **Évaluation** : QCM, vrai/faux, réponses courtes.\n\n## Ressources\n- Manuel Deutsch – pages 5, 6, 7‑8, 12, 13, 16, 9.\n- Images illustrées (page 6).\n- Fiches de conjugaison.\n\n## Évaluation\n1. Donne deux formules de salutation.\n2. Présente-toi (prénom et nom).\n3. Enumère les terminaisons pluriel des verbes *kommen, zeigen, wohnen, machen*.\n4. Complète les phrases.\n5. Salue ton père en allemand et donne ton nom et lieu d’habitation.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "allemand",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la formule de salutation appropriée à 08h00?",
+      "options": [
+        "Guten Abend!",
+        "Guten Morgen!",
+        "Gute Nacht!",
+        "Hallo!"
+      ],
+      "answer": 1,
+      "explanation": "À 08h00 c’est le matin, on utilise *Guten Morgen!*."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel verbe est utilisé pour dire \"je m’appelle\"?",
+      "options": [
+        "sein",
+        "haben",
+        "heißen",
+        "kommen"
+      ],
+      "answer": 2,
+      "explanation": "Le verbe *heißen* signifie \"s’appeler\"."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Le verbe *sein* se conjugue de la même façon que *haben* au présent.",
+      "answer": false,
+      "explanation": "Les deux verbes ont des conjugaisons différentes."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Complétez : Ich ___ aus der Côte d’Ivoire.",
+      "answer": "komme",
+      "explanation": "La forme correcte est *komme*."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle préposition s’utilise pour répondre à *Woher kommst du?*",
+      "options": [
+        "in",
+        "aus",
+        "von",
+        "zu"
+      ],
+      "answer": 1,
+      "explanation": "On répond avec *aus*."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Terminaison du pluriel de *kommen* pour *wir*?",
+      "options": [
+        "-en",
+        "-t",
+        "-n",
+        "-e"
+      ],
+      "answer": 0,
+      "explanation": "*Wir kommen*."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Terminaison du pluriel de *machen* pour *sie*?",
+      "options": [
+        "-en",
+        "-t",
+        "-n",
+        "-e"
+      ],
+      "answer": 0,
+      "explanation": "*Sie machen*."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "On utilise *in* pour répondre à *Wo wohnst du?*",
+      "answer": true,
+      "explanation": "La réponse est *Ich wohne in …*."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Complétez : Wir ___ in Yopougon.",
+      "answer": "wohnen",
+      "explanation": "La forme correcte est *wohnen*."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Complétez : Ihr ___ aus Bouaké.",
+      "answer": "kommt",
+      "explanation": "La forme correcte est *kommt*."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Complétez : Sie ___ die Übungen.",
+      "answer": "machen",
+      "explanation": "La forme correcte est *machen*."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Complétez : Herr Kouamé, was ___ Sie den Schülern?",
+      "answer": "zeigen",
+      "explanation": "La forme correcte est *zeigen*."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "À quelle heure utilise-t-on *Guten Abend!*?",
+      "options": [
+        "Avant 11h",
+        "Entre 11h et 17h",
+        "Entre 18h et 22h",
+        "Après 22h"
+      ],
+      "answer": 2,
+      "explanation": "C’est le soir, entre 18h et 22h."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "*Guten Morgen!* peut être utilisé à 12h00.",
+      "answer": false,
+      "explanation": "À 12h00 on dit *Guten Tag!*."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel est le verbe correct pour dire \"je vis\"?",
+      "options": [
+        "kommen",
+        "wohnen",
+        "zeigen",
+        "machen"
+      ],
+      "answer": 1,
+      "explanation": "Le verbe *wohnen* signifie \"vivre\"."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel est le pronom sujet pour *sie* (pluriel) en allemand?",
+      "options": [
+        "ich",
+        "du",
+        "er",
+        "sie"
+      ],
+      "answer": 3,
+      "explanation": "*sie* est le pronom pluriel."
+    },
+    {
+      "id": "q17",
+      "type": "truefalse",
+      "prompt": "On peut dire *Ich habe 20 Jahre alt* pour dire \"J’ai 20 ans\".",
+      "answer": false,
+      "explanation": "La forme correcte est *Ich bin 20 Jahre alt*."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "prompt": "Complétez : Mein Name ist ___.",
+      "answer": "Adou",
+      "explanation": "Exemple de réponse correcte."
+    }
+  ]
+}

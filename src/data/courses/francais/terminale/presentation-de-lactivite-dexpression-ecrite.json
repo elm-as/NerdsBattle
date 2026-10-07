@@ -1,0 +1,151 @@
+{
+  "id": "francais-terminale-presentation-de-lactivite-dexpression-ecrite",
+  "subjectId": "francais",
+  "levelId": "terminale",
+  "slug": "presentation-de-lactivite-dexpression-ecrite",
+  "title": "Activité d'expression écrite – Résumé de texte en Terminale",
+  "summary": "Le programme de Terminale comporte trois activités d'expression écrite : commentaire composé, dissertation littéraire et résumé de texte. Le résumé se décline en réponses aux questions, résumé et production écrite. Après la séance 1 (questions), les séances 2‑4 portent le résumé et les séances 5‑7 la production, avec une évaluation sommative à la fin de la séance 7.",
+  "lesson": "## Présentation\nLe cours d’expression écrite en Terminale se structure autour de trois leçons : commentaire composé (T1), dissertation littéraire (T2) et résumé de texte (T3). Le résumé de texte comporte trois rubriques : réponses aux questions, résumé, production écrite.\n\n## Séquences du résumé de texte\n- **Séance 1** : réponses aux questions (déjà enseignée).\n- **Séances 2‑4** : apprentissage du résumé (recherche d’idées, rédaction, révision).\n- **Séances 5‑7** : production écrite (rédaction d’un texte original lié au texte étudié).\n\n## Objectifs pédagogiques\n1. Maîtriser la compréhension fine du texte source.\n2. Savoir identifier les informations essentielles.\n3. Rédiger un résumé clair, cohérent et fidèle au texte.\n4. Produire un texte écrit en respectant les exigences de forme et de registre.\n\n## Évaluation\nUne évaluation sommative, intégrant les trois rubriques (questions, résumé, production), sera administrée à la fin de la séance 7 et corrigée en trois séquences distinctes.\n\n## Consignes générales\n- Respecter la longueur imposée pour chaque rubrique.\n- Utiliser un vocabulaire précis et un style académique.\n- Vérifier la cohérence logique et la conformité aux critères d’évaluation.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "francais",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Combien d’activités d’expression écrite comporte le programme de Terminale ?",
+      "options": [
+        "Deux",
+        "Trois",
+        "Quatre",
+        "Cinq"
+      ],
+      "answer": 1,
+      "explanation": "Le programme comporte trois activités : commentaire composé, dissertation littéraire et résumé de texte."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle leçon est étudiée au deuxième trimestre ?",
+      "options": [
+        "Commentaire composé",
+        "Dissertation littéraire",
+        "Résumé de texte",
+        "Aucune"
+      ],
+      "answer": 1,
+      "explanation": "La dissertation littéraire est étudiée au deuxième trimestre."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Le résumé de texte comporte trois rubriques : réponses aux questions, ________, production écrite.",
+      "answer": "résumé",
+      "explanation": "Les trois rubriques sont réponses aux questions, résumé, production écrite."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Combien de séances sont prévues pour la production écrite du résumé de texte ?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1,
+      "explanation": "Les séances 5 à 7, soit trois séances, sont dédiées à la production écrite."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel trimestre introduit le résumé de texte ?",
+      "options": [
+        "Premier",
+        "Deuxième",
+        "Troisième",
+        "Quatrième"
+      ],
+      "answer": 2,
+      "explanation": "Le résumé de texte est abordé dès le mois de février, donc au troisième trimestre."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Le titre du document indique « PRÉSENTATION DE L’ACTIVITÉ D’EXPRESSION ÉCRITE EN CLASSE DE _______ ».",
+      "answer": "TERMINALE",
+      "explanation": "Le document porte sur la classe de Terminale."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quelle est la durée estimée pour la leçon selon le JSON ?",
+      "options": [
+        "5 minutes",
+        "10 minutes",
+        "15 minutes",
+        "20 minutes"
+      ],
+      "answer": 1,
+      "explanation": "Le champ estimatedMinutes vaut 10."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Parmi les rubriques du résumé de texte, laquelle n’est pas mentionnée ?",
+      "options": [
+        "Réponses aux questions",
+        "Analyse critique",
+        "Résumé",
+        "Production écrite"
+      ],
+      "answer": 1,
+      "explanation": "L’analyse critique n’est pas listée parmi les trois rubriques."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Le document provient du site _______.",
+      "answer": "ecole-ci.online",
+      "explanation": "Le pied de page indique « Page 1 sur 1 ecole-ci.online »."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Combien de séquences composent l’ensemble du travail sur le résumé de texte (séances 2‑7) ?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 2,
+      "explanation": "Séances 2, 3, 4, 5, 6, 7 → 6 séquences, mais la consigne parle de sept séquences au total (incluant la séance 1). La réponse correcte est 7."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel est le nombre maximal de caractères autorisé pour le titre dans le format JSON ?",
+      "options": [
+        "60",
+        "70",
+        "80",
+        "90"
+      ],
+      "answer": 2,
+      "explanation": "La consigne indique max 80 caractères pour le titre."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Le résumé de texte sera évalué à la fin de la séance numéro _______.",
+      "answer": "7",
+      "explanation": "L’évaluation sommative a lieu à la fin de la séance 7."
+    }
+  ]
+}

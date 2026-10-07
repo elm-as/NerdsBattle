@@ -1,0 +1,98 @@
+{
+  "id": "francais-cinquieme-l1-grammaire-5eme-l1-s3",
+  "subjectId": "francais",
+  "levelId": "cinquieme",
+  "slug": "l1-grammaire-5eme-l1-s3",
+  "title": "5e Français : Le complément du nom",
+  "summary": "Cette leçon de grammaire pour la classe de 5e aborde le complément du nom, une expansion du groupe nominal. Elle définit sa fonction, détaille ses classes grammaticales (GN, pronom, infinitif, adverbe), ses constructions prépositionnelles ou non, ses différentes valeurs sémantiques et les règles d'accord.",
+  "lesson": "# Le Complément du Nom\n\n## 1. Définition\nLe complément du nom est une expansion du groupe nominal qui peut généralement être supprimée. Il sert à préciser et à compléter le nom auquel il se rattache.\n\n*Exemple :* Le pagne **de ma mère**.\n\n## 2. Classes grammaticales du complément du nom\nLe complément du nom peut être constitué par :\n- **Un groupe nominal (GN) prépositionnel** : *La bouillie **de maïs** est très délicieuse.*\n- **Un pronom** : *Voici une statue en souvenir **de lui**.*\n- **Un verbe à l'infinitif** : *J’ai une envie **de manger**.*\n- **Un adverbe** : *Le grand vent **d’hier** a tout détruit.*\n\n## 3. Constructions du complément du nom\n### A. Avec une préposition\nLe complément du nom est généralement introduit par une préposition : *de, en, à, pour, par, sans, avec*...\n*Exemples :* Un homme **sans** femme / Une terre **à** riz / Un sac **à** laine.\n\n> **Remarque importante :** Le sens du complément peut varier selon la préposition utilisée.\n> *Exemple :* Un sac **en** coton (matière) ≠ Un sac **de** coton (contenu ou origine).\n\n### B. Sans préposition\nLe complément du nom peut parfois être construit sans préposition.\n*Exemples :* Le rallye **Paris-Dakar** / Un vélo **tout-terrain**.\n\n## 4. Valeurs du complément du nom\nLe complément du nom peut exprimer différentes relations :\n- **Le possesseur** : La fille **de ma voisine**.\n- **La matière** : Le pot **de terre**.\n- **Le lieu** : Le départ **pour la campagne**.\n- **La cause** : Condamnation **pour meurtre**.\n- **L'origine** : Les filles **des pays riches**.\n- **La caractéristique** : Un fruit **à pépins**.\n\n## 5. L'accord du complément du nom\nLe complément du nom peut être au singulier ou au pluriel en fonction du sens qu'il exprime.\n- **Au singulier** : Une caisse **de beurre** (matière), un fruit **à noyau** (caractéristique).\n- **Au pluriel** : Une caisse **d'oranges** (contenu), des fruits **à pépins**.\n\n## 6. Exercices d'application\n\n### Exercice 1 : Identification\nRelève les compléments du nom dans le texte suivant :\n*« C’est le jour **de la rentrée**, les enfants jouent **dans la cour de la recréation**. Le Directeur **de l’école** visite les salles **de classe**, accompagné **de quelques parents d’élèves** et **du chef du village**. »*\n\n### Exercice 2 : Complétion\nComplète par un complément du nom approprié :\n- Un pot **de fleurs**\n- Une bouteille **de vin**\n- Un pantalon **en jean**\n- Le président **de la République**\n- Un plat **de riz**",
+  "estimatedMinutes": 10,
+  "tags": [
+    "francais",
+    "cinquieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la définition principale du complément du nom ?",
+      "options": [
+        "Un mot qui remplace le nom",
+        "Une expansion du groupe nominal qui précise le nom",
+        "Un adjectif qui qualifie le nom",
+        "Un verbe qui accompagne le nom"
+      ],
+      "answer": 1,
+      "explanation": "Le complément du nom est une expansion qui précise et complète le nom auquel il se rattache."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Dans la phrase 'La bouillie de maïs', le complément du nom est introduit par la préposition ______.",
+      "answer": "0",
+      "explanation": "La préposition utilisée ici est 'de'."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Lequel des éléments suivants peut être un complément du nom ?",
+      "options": [
+        "Un adjectif qualificatif",
+        "Un verbe à l'infinitif",
+        "Un déterminant",
+        "Un conjonction"
+      ],
+      "answer": 1,
+      "explanation": "Le complément du nom peut être un GN, un pronom, un verbe à l'infinitif ou un adverbe."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Dans 'Un sac en coton', la préposition 'en' exprime :",
+      "options": [
+        "Le lieu",
+        "La matière",
+        "Le possesseur",
+        "La cause"
+      ],
+      "answer": 1,
+      "explanation": "La préposition 'en' est souvent utilisée pour exprimer la matière."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Dans 'Une terre à riz', la préposition 'à' exprime la ______.",
+      "answer": "1",
+      "explanation": "Ici, 'à' indique la destination ou l'usage (terre destinée au riz)."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel est le complément du nom dans 'Le Directeur de l’école' ?",
+      "options": [
+        "Le Directeur",
+        "de l’école",
+        "l’école",
+        "Directeur"
+      ],
+      "answer": 1,
+      "explanation": "Le groupe 'de l’école' complète le nom 'Directeur'."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Dans 'J’ai une envie de manger', le complément du nom est :",
+      "options": [
+        "un verbe conjugué",
+        "un verbe à l'infinitif",
+        "un pronom personnel",
+        "un adjectif"
+      ],
+      "answer": 1,
+      "explanation": "'Manger' est un verbe à l'infinitif qui complète le nom 'envie'."
+    }
+  ]
+}

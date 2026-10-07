@@ -1,0 +1,187 @@
+{
+  "id": "philosophie-terminale-conclusion-de-cours-de-philo-portant-sur-l-i",
+  "subjectId": "philosophie",
+  "levelId": "terminale",
+  "slug": "conclusion-de-cours-de-philo-portant-sur-l-i",
+  "title": "L'inconscient : perspectives philosophiques, psychanalytiques et sociales",
+  "summary": "Analyse de la notion d'inconscient chez Nietzsche, Freud et Marx, mise en relation avec le surmoi, l'infrastructure et l'habitus de Bourdieu. Le texte montre comment conscience et inconscient s'articulent tant au niveau psychique que social, et comment l'ombre de l'inconscient conditionne les actes et les valeurs.",
+  "lesson": "## Introduction\nL’inconscient, au sens large, désigne tout ce qui échappe à la conscience immédiate. Chaque état conscient repose sur une partie cachée, une ombre qui rend possible la perception et l’action.\n\n## Nietzsche et l’ombre\nNietzsche affirme que la beauté, la parole et le caractère nécessitent à la fois lumière et ombre. L’ombre n’est pas l’opposé de la lumière mais son complément : sans elle, la lumière perd son sens.\n\n## Le modèle freudien\n- **Conscience** : le « moi ».\n- **Inconscient** : le « ça » et le « surmoi ». Le surmoi intègre les contraintes sociales.\n\n## Le modèle marxiste\n- **Conscience** : superstructure (politique, idéologie).\n- **Inconscient** : infrastructure (moyens de production).\n\n## Convergence psychanalyse – marxisme\nDans les deux modèles, les structures matérielles inconscientes déterminent les manifestations conscientes.\n\n## L’habitus de Bourdieu\nL’habitus cristallise les prescriptions sociales dans le corps et le psychisme. Il agit comme un surmoi plus profond, influençant les comportements sans être perçu comme une interdiction.\n\n## Synthèse\n- Deux types d’inconscient : psychique et social.\n- Le social se manifeste psychiquement via le surmoi et l’habitus.\n- La conscience collective se retrouve dans l’individu, conditionnant ses actes.\n\n## Conclusion\nL’inconscient, qu’il soit individuel ou collectif, constitue le fondement invisible de nos actions, valeurs et perceptions. Comprendre cette dynamique permet d’éclairer les mécanismes de la pensée et de l’action sociale.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "philosophie",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Selon Nietzsche, que représente l'ombre par rapport à la lumière?",
+      "options": [
+        "Un obstacle",
+        "Un complément indispensable",
+        "Une illusion",
+        "Une absence totale"
+      ],
+      "answer": 1,
+      "explanation": "Nietzsche voit l'ombre comme nécessaire à la lumière, non comme son opposé."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Dans le modèle freudien, le surmoi est uniquement une construction individuelle, sans influence sociale.",
+      "answer": false,
+      "explanation": "Le surmoi intègre les contraintes et interdits sociaux."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Dans le modèle marxiste, la partie consciente correspond à la __________.",
+      "answer": "superstructure",
+      "explanation": "La superstructure regroupe les institutions politiques, idéologiques, etc."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel concept de Bourdieu désigne les dispositions incorporées par la socialisation?",
+      "options": [
+        "Habitus",
+        "Surmoi",
+        "Ça",
+        "Infrastructure"
+      ],
+      "answer": 0,
+      "explanation": "L'habitus regroupe les manières de penser, d'agir, inculquées dès l'enfance."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Selon le texte, chaque acte conscient laisse la majorité de son contenu dans l'ombre.",
+      "answer": true,
+      "explanation": "Seuls quelques éléments sont visibles, le reste reste inconscient."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Dans le tableau comparatif, quel terme correspond à l'inconscient matériel chez Marx?",
+      "options": [
+        "Infrastructure",
+        "Superstructure",
+        "Surmoi",
+        "Ça"
+      ],
+      "answer": 0,
+      "explanation": "L'infrastructure représente les moyens et rapports de production, base matérielle inconsciente."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Le « moi » correspond à la partie __________ de la conscience chez Freud.",
+      "answer": "consciente",
+      "explanation": "Le moi est la partie consciente du sujet."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "L'habitus est plus superficiel que le surmoi car il se manifeste clairement comme une interdiction.",
+      "answer": false,
+      "explanation": "L'habitus agit de façon plus profonde et souvent invisible, contrairement au surmoi qui se manifeste comme interdiction."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel phénomène révèle le monde de l'artisan selon le texte?",
+      "options": [
+        "Le succès commercial",
+        "La rupture d'un outil",
+        "La lecture d'un texte",
+        "Le silence de la foule"
+      ],
+      "answer": 1,
+      "explanation": "Lorsque l'outil se brise, le travailleur doit réfléchir à de nouvelles solutions, dévoilant son monde inconscient."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "La conscience collective ne peut jamais être internalisée par les individus.",
+      "answer": false,
+      "explanation": "Le texte indique que la conscience collective se trouve dans les individus via le surmoi ou l'habitus."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Le terme « ça » chez Freud désigne la partie __________ de l'appareil psychique.",
+      "answer": "inconsciente",
+      "explanation": "Le ça représente les pulsions et désirs inconscients."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel auteur associe la beauté du visage à la présence simultanée de lumière et d'ombre?",
+      "options": [
+        "Freud",
+        "Marx",
+        "Nietzsche",
+        "Bourdieu"
+      ],
+      "answer": 2,
+      "explanation": "Citation tirée de Nietzsche, Humain, trop humain, III."
+    },
+    {
+      "id": "q13",
+      "type": "truefalse",
+      "prompt": "Dans le modèle marxiste, la superstructure dépend de l'infrastructure.",
+      "answer": true,
+      "explanation": "La superstructure (idéologie, politique) repose sur la base matérielle (infrastructure)."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Le processus par lequel les individus intègrent les normes sociales dans leur psychisme s'appelle le __________.",
+      "answer": "socialisation",
+      "explanation": "La socialisation primaire inculque les règles et valeurs."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel type d'inconscient est décrit comme « matériel »?",
+      "options": [
+        "Inconscient psychique",
+        "Inconscient social",
+        "Inconscient linguistique",
+        "Inconscient biologique"
+      ],
+      "answer": 1,
+      "explanation": "L'inconscient social correspond aux structures matérielles (infrastructure) chez Marx."
+    },
+    {
+      "id": "q16",
+      "type": "truefalse",
+      "prompt": "Selon le texte, la conscience ne peut exister sans une part d'inconscient.",
+      "answer": true,
+      "explanation": "Chaque état de conscience se découpe sur fond d’inconscience."
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "prompt": "Le concept de « surmoi » combine à la fois des dimensions __________ et __________.",
+      "answer": "psychiques, sociales",
+      "explanation": "Le surmoi intègre les contraintes sociales dans le psychisme."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Quel terme décrit le fait de voir quelque chose « du coin de l’œil » selon le texte?",
+      "options": [
+        "Vision périphérique",
+        "Perception partielle",
+        "Observation intentionnelle",
+        "Vue oblique"
+      ],
+      "answer": 1,
+      "explanation": "Le texte indique que l’objet apparaît seulement partiellement, « du coin de l’œil »."
+    }
+  ]
+}

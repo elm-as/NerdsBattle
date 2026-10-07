@@ -1,0 +1,219 @@
+{
+  "id": "maths-troisieme-l5-calcul-numerique",
+  "subjectId": "maths",
+  "levelId": "troisieme",
+  "slug": "l5-calcul-numerique",
+  "title": "Calcul numérique : intervalles, comparaison et encadrement",
+  "summary": "Maîtrise les intervalles, la comparaison des réels et les encadrements pour résoudre des problèmes concrets comme celui du terrain du commerçant. Développe des réflexes de calcul et de raisonnement pour choisir la bonne méthode.",
+  "lesson": "# Calcul numérique : intervalles, comparaison et encadrement\n\n## Introduction\nDans la vie courante, on est souvent amené à encadrer des grandeurs, à comparer des nombres ou à utiliser des intervalles. Ce cours te donne les outils pour résoudre des problèmes comme celui du commerçant qui cherche un terrain d'aire comprise entre 230 m² et 300 m².\n\n## 1. Définitions et notions clés\n\n### Intervalles\nSoient \\(a\\) et \\(b\\) deux réels tels que \\(a < b\\).\n- **Intervalle fermé** : \\([a;b]\\) signifie \\(a \\leq x \\leq b\\).\n- **Intervalle ouvert** : \\(]a;b[\\) signifie \\(a < x < b\\).\n- **Intervalle semi-ouvert** : \\([a;b[\\) signifie \\(a \\leq x < b\\) ; \\(]a;b]\\) signifie \\(a < x \\leq b\\).\n- **Intervalles non bornés** : \\([a;+\\infty[\\) signifie \\(x \\geq a\\) ; \\(]a;+\\infty[\\) signifie \\(x > a\\) ; \\(]-\\infty;b]\\) signifie \\(x \\leq b\\) ; \\(]-\\infty;b[\\) signifie \\(x < b\\).\n- **Amplitude** : \\(|a-b|\\) est l'amplitude de l'intervalle.\n- **Centre** : \\(\\frac{a+b}{2}\\) est le centre de l'intervalle.\n\n### Réunion et intersection\n- **Intersection** \\(A \\cap B\\) : éléments appartenant à la fois à A et à B.\n- **Réunion** \\(A \\cup B\\) : éléments appartenant à A ou à B.\n\n### Comparaison de nombres réels\n- **Addition** : si \\(a \\leq b\\) et \\(c \\leq d\\), alors \\(a+c \\leq b+d\\).\n- **Multiplication** : si \\(a < b\\) et \\(c < d\\) avec \\(a,b,c,d\\) positifs, alors \\(ac < bd\\).\n- **Carrés** : pour \\(a,b \\geq 0\\), \\(a < b \\iff a^2 < b^2\\) ; pour \\(a,b \\leq 0\\), \\(a < b \\iff a^2 > b^2\\).\n- **Racines carrées** : pour \\(a,b \\geq 0\\), \\(a < b \\iff \\sqrt{a} < \\sqrt{b}\\).\n- **Inverses** : pour \\(a,b\\) de même signe non nuls, \\(a < b \\iff \\frac{1}{a} > \\frac{1}{b}\\).\n\n### Encadrement\n- **Encadrement d'une somme** : si \\(a < x < b\\) et \\(c < y < d\\), alors \\(a+c < x+y < b+d\\).\n- **Encadrement d'une différence** : on utilise \\(x - y = x + (-y)\\) et on encadre \\(-y\\).\n\n## 2. Applications et méthodes\n\n### Représenter un intervalle\nSur une droite graduée, on place les bornes et on indique par un crochet si elles sont incluses ou non.\n\n### Déterminer centre et amplitude\nPour \\([a;b]\\), centre = \\(\\frac{a+b}{2}\\), amplitude = \\(|a-b|\\).\n\n### Comparer des nombres\n- Comparer les carrés si les nombres sont positifs.\n- Comparer les inverses si les nombres sont de même signe.\n- Étudier le signe de la différence.\n\n### Encadrer une somme ou une différence\nAdditionner membre à membre les encadrements pour une somme. Pour une différence, encadrer l'opposé puis additionner.\n\n## 3. Pièges fréquents\n- Confondre \\(\\leq\\) et \\(<\\) : attention aux crochets fermés ou ouverts.\n- Oublier que la multiplication membre à membre n'est valable que pour des nombres positifs.\n- Se tromper dans l'ordre des carrés pour des nombres négatifs.\n- Mal appliquer la règle des inverses : l'ordre s'inverse.\n- Ne pas vérifier si les intervalles sont disjoints avant de calculer une intersection.\n\n## Synthèse\nLes intervalles permettent de décrire des ensembles de nombres. La comparaison et l'encadrement sont des outils essentiels pour résoudre des problèmes concrets. Maîtrise ces notions pour aborder sereinement les exercices.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "troisieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Que signifie l'écriture \\(a \\geq b\\) ?",
+      "options": [
+        "a est strictement supérieur à b",
+        "a est supérieur ou égal à b",
+        "a est inférieur ou égal à b",
+        "a est différent de b"
+      ],
+      "answer": 1,
+      "explanation": "D'après le cours, \\(a \\geq b\\) signifie que a est supérieur ou égal à b, c'est-à-dire \\(a = b\\) ou \\(a > b\\)."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "L'intervalle \\([a;b[\\) est fermé en a et ouvert en b.",
+      "answer": true,
+      "explanation": "Oui, \\([a;b[\\) signifie \\(a \\leq x < b\\), donc a est inclus (fermé) et b est exclu (ouvert)."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Complète : L'intervalle \\(]a;b[\\) correspond à l'ensemble des x tels que ....................",
+      "answer": "a < x < b",
+      "explanation": "Par définition, \\(]a;b[\\) est l'ensemble des réels x tels que \\(a < x < b\\)."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est l'amplitude de l'intervalle \\([-3;2]\\) ?",
+      "options": [
+        "1",
+        "5",
+        "-5",
+        "2,5"
+      ],
+      "answer": 1,
+      "explanation": "L'amplitude est \\(|a-b| = |-3 - 2| = |-5| = 5\\)."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel est le centre de l'intervalle \\([-3;2]\\) ?",
+      "options": [
+        "-0,5",
+        "0,5",
+        "-2,5",
+        "2,5"
+      ],
+      "answer": 0,
+      "explanation": "Le centre est \\(\\frac{-3+2}{2} = \\frac{-1}{2} = -0,5\\)."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "L'intersection de deux intervalles disjoints est l'ensemble vide.",
+      "answer": true,
+      "explanation": "Si deux intervalles n'ont aucun élément commun, leur intersection est vide, notée \\(\\emptyset\\)."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Complète : \\(x \\leq -1\\) équivaut à \\(x \\in\\) ....................",
+      "answer": "]-∞ ; -1]",
+      "explanation": "D'après le cours, \\(x \\leq -1\\) correspond à l'intervalle \\(]-\\infty ; -1]\\)."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Si \\(a < b\\) et \\(c < d\\), alors :",
+      "options": [
+        "a + c < b + d",
+        "a + c > b + d",
+        "a - c < b - d",
+        "a × c < b × d"
+      ],
+      "answer": 0,
+      "explanation": "Propriété : on peut ajouter membre à membre des inégalités de même sens."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Pour des nombres positifs, l'ordre est conservé par passage au carré.",
+      "answer": true,
+      "explanation": "Oui, pour \\(a,b \\geq 0\\), \\(a < b \\iff a^2 < b^2\\)."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Compare \\(2\\sqrt{3}\\) et \\(3\\sqrt{2}\\).",
+      "options": [
+        "\\(2\\sqrt{3} > 3\\sqrt{2}\\)",
+        "\\(2\\sqrt{3} < 3\\sqrt{2}\\)",
+        "\\(2\\sqrt{3} = 3\\sqrt{2}\\)",
+        "On ne peut pas comparer"
+      ],
+      "answer": 1,
+      "explanation": "On compare les carrés : \\((2\\sqrt{3})^2 = 12\\) et \\((3\\sqrt{2})^2 = 18\\). Comme 12 < 18, alors \\(2\\sqrt{3} < 3\\sqrt{2}\\)."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Complète : Si \\(a < b\\) et \\(c < 0\\), alors \\(ac\\) .................... \\(bc\\).",
+      "answer": ">",
+      "explanation": "Lorsqu'on multiplie par un nombre négatif, l'ordre s'inverse : \\(ac > bc\\)."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel est l'encadrement de \\(a+b\\) sachant que \\(1,5 < a < 1,6\\) et \\(2,2 < b < 2,3\\) ?",
+      "options": [
+        "\\(3,7 < a+b < 3,9\\)",
+        "\\(1,7 < a+b < 3,9\\)",
+        "\\(3,7 < a+b < 3,8\\)",
+        "\\(1,5 < a+b < 2,3\\)"
+      ],
+      "answer": 0,
+      "explanation": "On additionne membre à membre : \\(1,5+2,2 < a+b < 1,6+2,3\\), soit \\(3,7 < a+b < 3,9\\)."
+    },
+    {
+      "id": "q13",
+      "type": "truefalse",
+      "prompt": "Deux nombres négatifs sont rangés dans le même ordre que leurs carrés.",
+      "answer": false,
+      "explanation": "Pour des nombres négatifs, l'ordre est inversé : \\(a < b \\iff a^2 > b^2\\)."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Compare \\(\\sqrt{7}\\) et \\(\\sqrt{11}\\).",
+      "options": [
+        "\\(\\sqrt{7} > \\sqrt{11}\\)",
+        "\\(\\sqrt{7} < \\sqrt{11}\\)",
+        "\\(\\sqrt{7} = \\sqrt{11}\\)",
+        "On ne peut pas comparer"
+      ],
+      "answer": 1,
+      "explanation": "Comme 7 < 11 et que la fonction racine carrée est croissante sur \\(\\mathbb{R}_+\\), alors \\(\\sqrt{7} < \\sqrt{11}\\)."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Complète : Si \\(a\\) et \\(b\\) sont de même signe et non nuls, \\(a < b\\) équivaut à \\(\\frac{1}{a}\\) .................... \\(\\frac{1}{b}\\).",
+      "answer": ">",
+      "explanation": "Pour deux nombres de même signe, l'ordre des inverses est contraire : \\(a < b \\iff \\frac{1}{a} > \\frac{1}{b}\\)."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quelle est la réunion des intervalles \\([-3;5[\\) et \\([3;7]\\) ?",
+      "options": [
+        "\\([-3;7]\\)",
+        "\\([3;5[\\)",
+        "\\([-3;5[\\)",
+        "\\([3;7]\\)"
+      ],
+      "answer": 0,
+      "explanation": "La réunion de \\([-3;5[\\) et \\([3;7]\\) est \\([-3;7]\\)."
+    },
+    {
+      "id": "q17",
+      "type": "truefalse",
+      "prompt": "L'intersection de \\([-3;1[\\) et \\([4;7]\\) est l'ensemble vide.",
+      "answer": true,
+      "explanation": "Ces intervalles sont disjoints car \\(1 < 4\\), donc leur intersection est vide."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Encadre \\(ab\\) sachant que \\(1,5 < a < 1,6\\) et \\(2,2 < b < 2,3\\).",
+      "options": [
+        "\\(3,30 < ab < 3,68\\)",
+        "\\(3,30 < ab < 3,60\\)",
+        "\\(3,20 < ab < 3,68\\)",
+        "\\(3,30 < ab < 3,70\\)"
+      ],
+      "answer": 0,
+      "explanation": "On multiplie membre à membre : \\(1,5 \\times 2,2 < ab < 1,6 \\times 2,3\\), soit \\(3,30 < ab < 3,68\\)."
+    },
+    {
+      "id": "q19",
+      "type": "fill",
+      "prompt": "Complète : \\(x \\in ]-\\infty;3[\\) équivaut à ....................",
+      "answer": "x < 3",
+      "explanation": "L'intervalle \\(]-\\infty;3[\\) correspond à l'ensemble des réels strictement inférieurs à 3."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Pour comparer deux nombres réels, on peut :",
+      "options": [
+        "Comparer leurs carrés ou racines carrées",
+        "Comparer leurs inverses",
+        "Étudier le signe de leur différence",
+        "Toutes ces réponses"
+      ],
+      "answer": 3,
+      "explanation": "D'après la remarque du cours, on peut utiliser l'une de ces trois méthodes pour comparer des nombres réels."
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "espagnol-seconde-l14-approuver-desapprouver",
+  "subjectId": "espagnol",
+  "levelId": "seconde",
+  "slug": "l14-approuver-desapprouver",
+  "title": "Lección de Español: Expresión de Acuerdo y Desacuerdo sobre el Trabajo Infantil",
+  "summary": "Esta lección aborda la expresión de acuerdo y desacuerdo en español, centrándose en el tema del trabajo infantil. Se presentan expresiones, ejemplos y actividades para que los estudiantes identifiquen y utilicen correctamente las frases de acuerdo y desacuerdo, reforzando la comprensión lectora y la argumentación.",
+  "lesson": "# Objetivos\\n- Identificar expresiones de acuerdo y desacuerdo.\\n- Utilizar expresiones en contextos reales.\\n- Argumentar sobre el trabajo infantil.\\n\\n# Contenido\\n## Expresiones de acuerdo\\n- Estoy de acuerdo contigo.\\n- Yo apruebo tu decisión.\\n- Compartir tu opinión.\\n- Tienes razón.\\n- Estoy a favor de.\\n## Expresiones de desacuerdo\\n- No estoy de acuerdo contigo.\\n- No apruebo tu decisión.\\n- No comparto tu opinión.\\n- No tienes razón.\\n- No pienso lo mismo.\\n- No es verdad.\\n- Estoy en contra de.\\n## Ejemplo con el texto \"La explotación de los niños\"\\n- Walter: \"Dignifica al ser humano\".\\n- Carlos: \"Es importante diferenciar el trabajo infantil de la explotación\".\\n\\n# Actividades\\n1. Reescribir las siguientes frases con expresiones alternativas de acuerdo o desacuerdo:\\n   a) El ministerio de trabajo está en contra del trabajo de los niños.\\n   b) Red Colombia está a favor de la lucha contra el trabajo infantil.\\n2. Debate breve en parejas: ¿El trabajo infantil puede ser beneficioso?\\n\\n# Evaluación\\n- Preguntas de opción múltiple, verdadero/falso y completar.\\n- Discusión final sobre la posición personal.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "espagnol",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "¿Cuál de las siguientes expresiones indica acuerdo?",
+      "options": [
+        "No estoy de acuerdo contigo",
+        "Estoy de acuerdo contigo",
+        "No comparto tu opinión",
+        "No creo que sea cierto"
+      ],
+      "answer": 1,
+      "explanation": "\"Estoy de acuerdo contigo\" expresa claramente acuerdo."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La frase \"Yo apruebo tu decisión\" indica desacuerdo.",
+      "answer": false,
+      "explanation": "Indica acuerdo, no desacuerdo."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Completa: \"______ de acuerdo contigo.\"",
+      "answer": "Estoy",
+      "explanation": "La expresión correcta es \"Estoy de acuerdo contigo.\""
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "¿Cuál es una expresión de desacuerdo?",
+      "options": [
+        "Tienes razón",
+        "No estoy de acuerdo contigo",
+        "Estoy a favor de",
+        "Yo apruebo tu decisión"
+      ],
+      "answer": 1,
+      "explanation": "\"No estoy de acuerdo contigo\" es una expresión de desacuerdo."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La frase \"No es verdad\" es una expresión de acuerdo.",
+      "answer": false,
+      "explanation": "Es una expresión de desacuerdo."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "En el texto, Walter argumenta que el trabajo infantil:",
+      "options": [
+        "Es una forma de esclavitud",
+        "Dignifica al ser humano",
+        "Debe ser prohibido",
+        "No tiene impacto social"
+      ],
+      "answer": 1,
+      "explanation": "Walter sostiene que el trabajo infantil dignifica al ser humano."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Carlos diferencia entre trabajo infantil y:",
+      "options": [
+        "Trabajo juvenil",
+        "Explotación de niños",
+        "Trabajo voluntario",
+        "Trabajo escolar"
+      ],
+      "answer": 1,
+      "explanation": "Carlos señala la diferencia entre trabajo infantil y explotación."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "La expresión \"Yo pienso lo mismo\" indica desacuerdo.",
+      "answer": false,
+      "explanation": "Indica acuerdo."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "¿Cuál es una forma de expresar desacuerdo en una frase?",
+      "options": [
+        "Yo apruebo tu decisión",
+        "No comparto tu opinión",
+        "Tienes razón",
+        "Estoy a favor de"
+      ],
+      "answer": 1,
+      "explanation": "\"No comparto tu opinión\" es una expresión de desacuerdo."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Completa: \"______ en contra de la explotación infantil.\"",
+      "answer": "Estoy",
+      "explanation": "La expresión correcta es \"Estoy en contra de la explotación infantil.\""
+    }
+  ]
+}

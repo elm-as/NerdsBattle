@@ -1,0 +1,111 @@
+{
+  "id": "philosophie-terminale-faut-il-toujours-obeir-a-la-loi-cours-de-phi",
+  "subjectId": "philosophie",
+  "levelId": "terminale",
+  "slug": "faut-il-toujours-obeir-a-la-loi-cours-de-phi",
+  "title": "Obéir à la loi : quand la désobéissance est justifiée",
+  "summary": "Ce cours examine la tension entre l’obligation d’obéir à la loi et la nécessité parfois de la désobéir. Il analyse les arguments de la loi juste, de la loi tyrannique, les exemples historiques (Eichmann, Milgram) et la théorie de la désobéissance civile de Thoreau.",
+  "lesson": "# Obéir à la loi : quand la désobéissance est justifiée\n\n## 1. Introduction\n- **Principe de base** : La loi impose l’obligation d’obéir.\n- **Question centrale** : L’obligation est-elle absolue ou conditionnée par la justice de la loi ?\n\n## 2. La loi et la justice\n- **Loi démocratique vs tyrannique** :\n  - *Démocratique* : reflète la volonté générale, mais peut être imparfaite.\n  - *Tyrannique* : imposée sans consentement, souvent injuste.\n- **Loi juste vs injuste** :\n  - *Juste* : protège les droits, équilibre les intérêts.\n  - *Injuste* : viole les droits fondamentaux.\n\n## 3. L’obligation d’obéir\n- **Raisons de l’obligation** :\n  1. Maintien de l’ordre social.\n  2. Prévention du chaos individuel.\n- **Limites** :\n  - L’obligation ne s’applique pas lorsqu’une loi est manifestement contraire à l’éthique ou à la dignité humaine.\n\n## 4. Cas historiques illustratifs\n- **Eichmann (1961)** : \n  - Se défendait par l’obéissance aux ordres.\n  - Expose le dilemme entre devoir et responsabilité morale.\n- **Expérience de Milgram (1963)** : \n  - 65 % des participants ont continué à infliger des chocs, montrant la propension à obéir.\n\n## 5. La théorie de la désobéissance civile\n- **Thoreau (1846)** : refus de payer l’impôt pour soutenir l’esclavage.\n- **Principes clés** :\n  1. **Non‑violence** : éviter la violence physique.\n  2. **Publicité** : rendre l’acte visible pour susciter le débat.\n  3. **Acceptation des conséquences** : être prêt à subir les sanctions.\n\n## 6. Quand désobéir ?\n- **Loi abjecte** : ordonner un meurtre ou une injustice flagrante.\n- **Loi injuste** : violer les droits fondamentaux (ex. discrimination).\n- **Loi tyrannique** : imposée sans consentement démocratique.\n\n## 7. Conclusion\n- **Équilibre** : L’obéissance est fondamentale pour le fonctionnement social, mais la désobéissance civile est légitime lorsqu’une loi viole les principes éthiques universels.\n- **Responsabilité individuelle** : Chaque citoyen doit évaluer la justice de la loi et agir en conséquence.\n\n---\n\n## 8. Références\n- Thoreau, *Walden* (1849)\n- Eichmann, *Le procès* (1961)\n- Milgram, *Obedience to Authority* (1963)\n- Weber, *Économie et société* (1922)\n- Kafka, *Le Procès* (1914)",
+  "estimatedMinutes": 10,
+  "tags": [
+    "philosophie",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel principe est la base de l’obligation d’obéir à la loi ?",
+      "options": [
+        "La volonté du citoyen",
+        "La légitimité de l’autorité",
+        "La moralité personnelle",
+        "L’opinion publique"
+      ],
+      "answer": 1,
+      "explanation": "L’obligation d’obéir découle de la légitimité de l’autorité qui impose la loi."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel est l’objectif principal de la désobéissance civile selon Thoreau ?",
+      "options": [
+        "Éviter les impôts",
+        "Réformer la loi par la violence",
+        "Susciter le débat public",
+        "Renforcer l’autorité"
+      ],
+      "answer": 2,
+      "explanation": "Thoreau prônait la désobéissance civile comme moyen de susciter le débat public et de remettre en question l’injustice."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Le principe de la désobéissance civile inclut l’acceptation des conséquences, ce qui signifie que l’individu est prêt à subir ___.",
+      "answer": "les sanctions légales",
+      "explanation": "La désobéissance civile exige l’acceptation volontaire des sanctions pour montrer la gravité de la cause."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Dans l’expérience de Milgram, quel pourcentage de participants a continué jusqu’à des chocs mortels ?",
+      "options": [
+        "45%",
+        "55%",
+        "65%",
+        "75%"
+      ],
+      "answer": 2,
+      "explanation": "65 % des participants ont continué jusqu’à des chocs mortels, illustrant la propension à obéir."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel est le principal risque d’une société où chacun agit selon ses propres intérêts sans respecter la loi ?",
+      "options": [
+        "Croissance économique",
+        "Innovation technologique",
+        "Chaos social",
+        "Amélioration de la démocratie"
+      ],
+      "answer": 2,
+      "explanation": "Sans respect de la loi, la société risque le chaos social car les intérêts individuels entrent en conflit."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel auteur a illustré le totalitarisme bureaucratique dans *Le Procès* ?",
+      "options": [
+        "Franz Kafka",
+        "Max Weber",
+        "Stanley Milgram",
+        "Henry David Thoreau"
+      ],
+      "answer": 0,
+      "explanation": "Franz Kafka a illustré le totalitarisme bureaucratique dans *Le Procès*."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "La désobéissance civile est souvent caractérisée par la ____, afin de ne pas recourir à la violence.",
+      "answer": "non‑violence",
+      "explanation": "La non‑violence est un principe clé de la désobéissance civile."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel est l’un des critères de la désobéissance civile selon Thoreau ?",
+      "options": [
+        "Faire la guerre",
+        "Payer les impôts",
+        "Susciter le débat public",
+        "Éviter les sanctions"
+      ],
+      "answer": 2,
+      "explanation": "Susciter le débat public est un critère essentiel pour que l’acte soit reconnu comme désobéissance civile."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "maths-seconde-fonctions-generalites",
+  "title": "Généralités sur les fonctions et variations",
+  "summary": "Ce chapitre te donne les outils pour décrire et analyser le comportement d'une fonction, une compétence essentielle pour résoudre des problèmes concrets en sciences et en économie. Tu apprendras à lire et interpréter une courbe, à calculer des images et des antécédents, et à déterminer les variations d'une fonction.",
+  "lesson": "## Introduction & Mise en situation\n\nLes fonctions sont partout : en physique (vitesse, distance), en économie (coût, bénéfice), en biologie (croissance d'une population). Comprendre comment une fonction varie permet de prévoir, d'optimiser et de modéliser des phénomènes réels. Dans ce chapitre, tu vas acquérir les bases : définitions, notations, représentations graphiques, et surtout l'étude des variations. C'est un prérequis indispensable pour la suite de ta scolarité (dérivation, intégration, etc.).\n\n## 1. Définitions et Principes Fondamentaux\n\n### 1.1 Notion de fonction\n\nUne fonction $f$ d'un ensemble $D$ vers un ensemble $E$ associe à chaque élément $x$ de $D$ un unique élément $y$ de $E$. On note : $f : D \\to E$, $x \\mapsto f(x)$.\n\n- **Ensemble de définition** : c'est l'ensemble des valeurs de $x$ pour lesquelles $f(x)$ est définie. Par exemple, $f(x) = \\frac{1}{x}$ a pour ensemble de définition $\\mathbb{R}^*$ (tous les réels sauf 0).\n\n### 1.2 Image et antécédent\n\n- **Image** : si $y = f(x)$, on dit que $y$ est l'image de $x$ par $f$.\n- **Antécédent** : si $y = f(x)$, on dit que $x$ est un antécédent de $y$ par $f$. Un nombre peut avoir plusieurs antécédents ou aucun.\n\n### 1.3 Courbe représentative\n\nDans un repère orthogonal, la courbe représentative de $f$ est l'ensemble des points $M(x; f(x))$ pour $x$ dans l'ensemble de définition. L'axe des abscisses représente les $x$, l'axe des ordonnées les $f(x)$.\n\n## 2. Propriétés et Méthodes d'application\n\n### 2.1 Calculer une image\n\nPour calculer $f(a)$, on remplace $x$ par $a$ dans l'expression de $f(x)$.\n\n**Exemple** : Soit $f(x) = 2x^2 - 3x + 1$. Calculer $f(2)$.\n\n$f(2) = 2(2)^2 - 3(2) + 1 = 8 - 6 + 1 = 3$.\n\n### 2.2 Chercher un antécédent\n\nPour trouver un antécédent de $b$ par $f$, on résout l'équation $f(x) = b$.\n\n**Exemple** : Pour $f(x) = 3x - 2$, trouver l'antécédent de 4.\n\nOn résout $3x - 2 = 4$ donc $3x = 6$ donc $x = 2$.\n\n### 2.3 Déterminer l'ensemble de définition\n\nOn cherche les valeurs de $x$ pour lesquelles l'expression est définie (pas de division par zéro, pas de racine carrée d'un nombre négatif, etc.).\n\n**Exemple** : $f(x) = \\frac{2x+1}{x-3}$. On doit avoir $x-3 \\neq 0$, donc $x \\neq 3$. Ensemble de définition : $D = \\mathbb{R} \\setminus \\{3\\}$.\n\n### 2.4 Étudier les variations\n\nUne fonction $f$ est **croissante** sur un intervalle $I$ si pour tous $a, b \\in I$ avec $a < b$, on a $f(a) < f(b)$. Elle est **décroissante** si $f(a) > f(b)$.\n\n**Méthode** : On peut utiliser le tableau de variations, ou pour les fonctions simples, étudier le signe de $f(b) - f(a)$.\n\n**Exemple** : Soit $f(x) = x^2$ sur $[0; +\\infty[$. Pour $0 \\le a < b$, on a $f(b) - f(a) = b^2 - a^2 = (b-a)(b+a) > 0$, donc $f$ est croissante sur $[0; +\\infty[$. Sur $]-\\infty; 0]$, elle est décroissante.\n\n### 2.5 Tableau de variations\n\nOn représente les variations dans un tableau avec les valeurs particulières.\n\n**Exemple** : $f(x) = -2x + 3$ est décroissante sur $\\mathbb{R}$ (coefficient directeur négatif).\n\nTableau :\n\n| $x$ | $-\\infty$ | $+\\infty$ |\n|-----|-----------|-----------|\n| $f$ | décroissante | |\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre image et antécédent** : L'image est le résultat de $f(x)$, l'antécédent est la valeur de $x$ qui donne ce résultat. Ne pas les inverser.\n- **Oublier l'ensemble de définition** : Avant de faire un calcul, vérifie que la valeur appartient bien à l'ensemble de définition. Par exemple, $f(x) = \\frac{1}{x-2}$ n'est pas définie en $x=2$.\n- **Erreur de signe dans le tableau de variations** : Sois attentif aux coefficients : si $a>0$ dans $f(x)=ax+b$, la fonction est croissante ; si $a<0$, décroissante.\n- **Ne pas justifier les variations** : Aux examens, il faut justifier par un calcul ou un argument clair.\n\n## Synthèse\n\n1. **Fonction** : associe à chaque $x$ un unique $f(x)$ ; savoir calculer image et antécédent.\n2. **Ensemble de définition** : indispensable avant toute étude.\n3. **Variations** : savoir déterminer si une fonction est croissante ou décroissante sur un intervalle, et le représenter dans un tableau.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "fonctions",
+    "variations",
+    "seconde",
+    "analyse",
+    "mathématiques"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Soit $f(x) = 3x - 5$. Quelle est l'image de 2 ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "f(2) = 3*2 - 5 = 6 - 5 = 1."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La fonction $f(x) = x^2$ est croissante sur l'intervalle $[-2; 0]$.",
+      "answer": false,
+      "explanation": "Sur [-2;0], quand x augmente, x^2 diminue (par exemple f(-2)=4 et f(0)=0), donc elle est décroissante."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Quel est l'ensemble de définition de la fonction $f(x) = \\frac{1}{x-4}$ ? (Donner la réponse sous forme d'intervalle ou d'union d'intervalles)",
+      "answer": "$]-\\infty;4[ \\cup ]4;+\\infty[$",
+      "explanation": "La fonction n'est pas définie en x=4, donc on exclut 4."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Pour la fonction $f$ représentée par la courbe ci-dessous, quel est l'antécédent de 2 ? (La courbe passe par le point (3,2))",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1,
+      "explanation": "L'antécédent est la valeur de x telle que f(x)=2, ici x=3."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Si $f$ est croissante sur $[0;5]$ et décroissante sur $[5;10]$, alors $f(5)$ est un maximum local.",
+      "answer": true,
+      "explanation": "Car avant 5, f monte, après 5, f descend, donc f(5) est un maximum local."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Soit $f(x) = 2x + 1$. Calculer $f(3)$.",
+      "answer": "7",
+      "explanation": "f(3) = 2*3 + 1 = 7."
+    }
+  ]
+}

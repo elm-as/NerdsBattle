@@ -1,0 +1,193 @@
+{
+  "id": "francais-sixieme-l4-gr-l4-s3-futur-simple-valeurs-emploi",
+  "subjectId": "francais",
+  "levelId": "sixieme",
+  "slug": "l4-gr-l4-s3-futur-simple-valeurs-emploi",
+  "title": "Le futur simple de l'indicatif : formation, valeurs et emplois",
+  "summary": "Le futur simple exprime des actions à venir. Il se forme avec l'infinitif du verbe suivi des terminaisons -ai, -as, -a, -ons, -ez, -ont.",
+  "lesson": "# Le futur simple de l'indicatif\n\n## Définition\nLe futur simple de l'indicatif exprime d'une manière générale les actions qui portent sur l'avenir par rapport au moment où l'on parle.\n\n**Exemple :** Tu prendras un fruit.\n\n## I. Les valeurs d'emploi du futur simple de l'indicatif\nOn utilise le futur simple de l'indicatif pour indiquer :\n\n- **Une action qui se fait après le moment où l'on parle** : dans un moment, demain, plus tard.\n  - *Exemple :* Aujourd'hui, nous sommes en classe, demain nous resterons à la maison.\n- **Le futur peut aussi avoir la valeur de l'impératif** :\n  - *Exemple :* Vous achèverez cet exercice avant de sortir.\n- **Le futur exprime une action qui dépend d'une autre action** :\n  - *Exemple :* En cas d'échec, il reprendra son année.\n- **Une action qui va se dérouler dans un court instant à l'aide du verbe aller au présent de l'indicatif : c'est le futur proche.**\n  - *Exemple :* Je vais me reposer.\n\n## II. Conjugaison des verbes du 1er et 2ème groupe au futur simple de l'indicatif\nPour conjuguer un verbe du premier et du deuxième groupe au futur simple de l'indicatif, on garde l'infinitif du verbe et on ajoute les terminaisons suivantes : **-ai, -as, -a, -ons, -ez, -ont**.\n\n### Exemples\n- **Chanter** (1er groupe) : Je chanterai, tu chanteras, il/elle chantera, nous chanterons, vous chanterez, ils/elles chanteront.\n- **Bâtir** (2ème groupe) : Je bâtirai, tu bâtiras, il/elle bâtira, nous bâtirons, vous bâtirez, ils/elles bâtiront.\n\n## Exercices\n1. Mets les verbes des phrases suivantes au futur simple de l'indicatif. Justifie la terminaison en écrivant l'infinitif entre parenthèses.\n   - a- Je pari..\n   - b- Nous adouci……..\n   - c- Tu ralent……\n   - d- Ils établi……\n   - e- Elle chéri….\n   - f- Il envi…\n\n2. Donne la valeur du présent dans les phrases suivantes :\n   - a- Le printemps va venir.\n   - b- A la fin de février prochain, je vous montrerai.\n   - c- Si je gagne à la loterie, je m'achèterai une villa duplex.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "francais",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Qu'exprime le futur simple de l'indicatif ?",
+      "options": [
+        "Des actions passées",
+        "Des actions présentes",
+        "Des actions futures par rapport au moment où l'on parle",
+        "Des actions hypothétiques"
+      ],
+      "answer": 2,
+      "explanation": "Le futur simple exprime des actions qui portent sur l'avenir par rapport au moment où l'on parle."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelles sont les terminaisons du futur simple pour les verbes du 1er et 2ème groupe ?",
+      "options": [
+        "-e, -es, -e, -ons, -ez, -ent",
+        "-ai, -as, -a, -ons, -ez, -ont",
+        "-is, -is, -it, -issons, -issez, -issent",
+        "-erai, -eras, -era, -erons, -erez, -eront"
+      ],
+      "answer": 1,
+      "explanation": "Les terminaisons du futur simple sont : -ai, -as, -a, -ons, -ez, -ont."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Le futur simple peut avoir la valeur de l'impératif.",
+      "answer": true,
+      "explanation": "Oui, le futur peut exprimer un ordre ou une consigne, comme dans : 'Vous achèverez cet exercice avant de sortir.'"
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Complétez : Je (chanter) ______ au futur simple.",
+      "answer": "chanterai",
+      "explanation": "On garde l'infinitif 'chanter' et on ajoute la terminaison -ai."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle phrase exprime une action qui dépend d'une autre action ?",
+      "options": [
+        "Je vais me reposer.",
+        "En cas d'échec, il reprendra son année.",
+        "Tu prendras un fruit.",
+        "Vous achèverez cet exercice avant de sortir."
+      ],
+      "answer": 1,
+      "explanation": "Dans 'En cas d'échec, il reprendra son année', l'action de reprendre dépend de la condition d'échec."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Comment appelle-t-on le futur formé avec le verbe 'aller' au présent + infinitif ?",
+      "options": [
+        "Le futur simple",
+        "Le futur antérieur",
+        "Le futur proche",
+        "Le conditionnel présent"
+      ],
+      "answer": 2,
+      "explanation": "C'est le futur proche, comme dans 'Je vais me reposer.'"
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Complétez : Nous (bâtir) ______ au futur simple.",
+      "answer": "bâtirons",
+      "explanation": "On garde l'infinitif 'bâtir' et on ajoute la terminaison -ons."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Pour conjuguer un verbe du 1er groupe au futur simple, on garde l'infinitif et on ajoute les terminaisons.",
+      "answer": true,
+      "explanation": "Oui, c'est la règle de formation du futur simple pour les verbes du 1er et 2ème groupe."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quelle est la terminaison du futur simple pour 'ils/elles' ?",
+      "options": [
+        "-ent",
+        "-ont",
+        "-ont",
+        "-eront"
+      ],
+      "answer": 1,
+      "explanation": "La terminaison pour 'ils/elles' est -ont."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Complétez : Tu (ralentir) ______ au futur simple.",
+      "answer": "ralentiras",
+      "explanation": "On garde l'infinitif 'ralentir' et on ajoute la terminaison -as."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Dans la phrase 'Le printemps va venir', quelle est la valeur du futur ?",
+      "options": [
+        "Futur simple",
+        "Futur proche",
+        "Futur antérieur",
+        "Présent de l'indicatif"
+      ],
+      "answer": 1,
+      "explanation": "C'est un futur proche car il utilise 'aller' au présent + infinitif."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Le futur simple exprime toujours une action qui se déroule dans un court instant.",
+      "answer": false,
+      "explanation": "Non, le futur simple peut exprimer une action plus ou moins lointaine. Le futur proche exprime une action dans un court instant."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Complétez : Ils (établir) ______ au futur simple.",
+      "answer": "établiront",
+      "explanation": "On garde l'infinitif 'établir' et on ajoute la terminaison -ont."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quelle phrase exprime le futur simple avec la valeur de l'impératif ?",
+      "options": [
+        "Tu prendras un fruit.",
+        "Vous achèverez cet exercice avant de sortir.",
+        "Je vais me reposer.",
+        "En cas d'échec, il reprendra son année."
+      ],
+      "answer": 1,
+      "explanation": "Dans 'Vous achèverez cet exercice avant de sortir', le futur exprime un ordre, une consigne."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Complétez : Elle (chérir) ______ au futur simple.",
+      "answer": "chérira",
+      "explanation": "On garde l'infinitif 'chérir' et on ajoute la terminaison -a."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quelle est la terminaison du futur simple pour 'nous' ?",
+      "options": [
+        "-ons",
+        "-ez",
+        "-ont",
+        "-ons"
+      ],
+      "answer": 0,
+      "explanation": "La terminaison pour 'nous' est -ons."
+    },
+    {
+      "id": "q17",
+      "type": "truefalse",
+      "prompt": "Dans 'Si je gagne à la loterie, je m'achèterai une villa duplex', le futur simple est utilisé.",
+      "answer": true,
+      "explanation": "Oui, 'je m'achèterai' est au futur simple."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "prompt": "Complétez : Il (envier) ______ au futur simple.",
+      "answer": "enviera",
+      "explanation": "On garde l'infinitif 'envier' et on ajoute la terminaison -a."
+    }
+  ]
+}

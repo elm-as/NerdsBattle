@@ -1,0 +1,228 @@
+{
+  "id": "physique-sixieme-l11-dangers-des-combustions",
+  "subjectId": "physique",
+  "levelId": "sixieme",
+  "slug": "l11-dangers-des-combustions",
+  "title": "Dangers des combustions : prévenir et agir",
+  "summary": "Découvre pourquoi un feu peut devenir un danger et comment le maîtriser grâce au triangle du feu. Apprends les règles de sécurité et les pictogrammes pour éviter incendies, asphyxies, explosions et intoxications.",
+  "lesson": "# Dangers des combustions\n\n## Introduction\nUn court-circuit à Sapli-Sépingo a provoqué un incendie : fumée noire, explosion, dégâts matériels. Les combustions peuvent être utiles mais aussi très dangereuses. Cette leçon t’apprend à identifier les dangers, comprendre le triangle du feu et adopter les bons réflexes.\n\n## 1. Définitions & Notions clés\n\n### 1.1 Les dangers de la combustion\n- **Incendie** : feu qui se propage en causant souvent des dégâts importants.\n- **Asphyxie** : état d’un organisme qui manque de dioxygène (O₂) et ne peut plus respirer.\n- **Explosion** : combustion très rapide et violente déclenchée par une flamme ou une étincelle.\n- **Intoxication** : ensemble des troubles dus à l’introduction d’une substance toxique (poison).\n\n### 1.2 Le triangle du feu\nPour qu’une combustion se produise, il faut réunir trois éléments :\n- un **combustible** (papier, bois, gaz, essence…) ;\n- un **comburant** (le dioxygène de l’air) ;\n- une **source de chaleur** (flamme, étincelle, surface chaude…).\n\nCes trois éléments forment le **triangle du feu** : Combustible – Air – Chaleur.\n\n### 1.3 Éteindre un feu\nPour éteindre un feu, il faut **supprimer l’un des trois éléments** du triangle du feu :\n- enlever le combustible ;\n- étouffer le feu en le privant d’air (comburant) ;\n- refroidir pour supprimer la source de chaleur.\n\n## 2. Applications & Méthodes\n\n### 2.1 Comment éteindre un feu ?\n- **Couvrir** le feu avec un couvercle, du sable, des cendres ou de la neige carbonique (extincteur) : on supprime le comburant.\n- **Verser de l’eau** : on refroidit le combustible, donc on supprime la source de chaleur.\n- **Éloigner** les matières inflammables : on supprime le combustible.\n\n### 2.2 Règles de sécurité\n- Éloigner toute substance inflammable des flammes.\n- Prévoir une alimentation en air et une évacuation des fumées dans les locaux où il y a combustion.\n- Maintenir les conduits de gaz en bon état pour éviter les fuites.\n- En cas d’incendie, appeler rapidement les pompiers.\n\n### 2.3 Pictogrammes de sécurité\n- **Substance comburante** : peut provoquer ou aggraver un incendie, voire une explosion. À éloigner des combustibles.\n- **Substance inflammable ou très inflammable** : à manipuler loin des flammes et étincelles, à conserver au frais dans un endroit ventilé.\n- **Substance explosive** : à manipuler avec précaution, éviter chocs et frictions, tenir loin des flammes.\n\n## 3. Pièges fréquents\n- **Confondre asphyxie et intoxication** : l’asphyxie est un manque d’oxygène ; l’intoxication est due à un poison.\n- **Croire qu’il suffit d’enlever le combustible** : on peut aussi agir sur le comburant ou la chaleur.\n- **Oublier que l’air est un comburant** : sans dioxygène, pas de combustion.\n- **Sous-estimer une fuite de gaz** : ne pas actionner d’interrupteur ni allumer une flamme ; aérer.\n- **Penser qu’un feu s’éteint toujours par manque de combustible** : il peut s’éteindre par manque de chaleur ou d’oxygène.\n\n## Synthèse\n- Les dangers des combustions sont : incendie, asphyxie, explosion, intoxication.\n- Le triangle du feu = combustible + comburant + source de chaleur.\n- Pour éteindre un feu, on supprime un des trois éléments.\n- Des règles de sécurité et des pictogrammes permettent de prévenir les accidents.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'un incendie ?",
+      "options": [
+        "Un feu qui se propage en causant souvent des dégâts importants",
+        "Un manque d'oxygène dans l'organisme",
+        "Une combustion très rapide et violente",
+        "L'introduction d'une substance toxique"
+      ],
+      "answer": 0,
+      "explanation": "Un incendie est un feu qui se propage en causant souvent des dégâts importants."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'une asphyxie ?",
+      "options": [
+        "Un feu de grande ampleur",
+        "L'état d'un organisme qui manque de gaz oxygène",
+        "Une explosion de mélange gazeux",
+        "L'action d'un produit toxique"
+      ],
+      "answer": 1,
+      "explanation": "Une asphyxie est l'état d'un organisme qui manque de gaz oxygène, d'une personne qui ne peut plus respirer."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'une explosion de mélange gazeux ?",
+      "options": [
+        "Un feu qui se propage lentement",
+        "Une intoxication par un gaz",
+        "Une combustion très rapide et violente déclenchée par une flamme ou une étincelle",
+        "Un manque de comburant"
+      ],
+      "answer": 2,
+      "explanation": "Une explosion de mélange gazeux est une combustion très rapide et violente déclenchée par une flamme ou une étincelle."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'une intoxication ?",
+      "options": [
+        "L'ensemble des troubles dus à l'introduction d'une substance toxique, d'un poison",
+        "Un feu qui se propage",
+        "Un manque de source de chaleur",
+        "Une combustion très rapide"
+      ],
+      "answer": 0,
+      "explanation": "Une intoxication est l'ensemble des troubles dus à l'introduction d'une substance toxique, d'un poison."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quels sont les trois éléments du triangle du feu ?",
+      "options": [
+        "Combustible, comburant, source de chaleur",
+        "Eau, sable, cendres",
+        "Fumée, flamme, étincelle",
+        "Incendie, asphyxie, explosion"
+      ],
+      "answer": 0,
+      "explanation": "Le triangle du feu est constitué d'un combustible, d'un comburant (l'air) et d'une source de chaleur."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Dans l'expérience des deux bougies, pourquoi la bougie recouverte par un bocal s'éteint-elle ?",
+      "options": [
+        "Par manque de combustible",
+        "Par manque de source de chaleur",
+        "Par manque de gaz oxygène",
+        "Par excès de chaleur"
+      ],
+      "answer": 2,
+      "explanation": "La bougie recouverte par un bocal s'éteint par manque de gaz oxygène (le comburant est épuisé)."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Un élève couvre un feu de charbon de bois avec un couvercle. Quel élément du triangle du feu supprime-t-il ?",
+      "options": [
+        "Le combustible",
+        "Le comburant",
+        "La source de chaleur",
+        "Aucun élément"
+      ],
+      "answer": 1,
+      "explanation": "En couvrant le feu, il empêche le contact avec l'air : il supprime le comburant."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Un élève verse de l'eau sur un feu de charbon de bois. Quel élément du triangle du feu supprime-t-il ?",
+      "options": [
+        "Le combustible",
+        "Le comburant",
+        "La source de chaleur",
+        "Aucun élément"
+      ],
+      "answer": 2,
+      "explanation": "L'eau refroidit le combustible : elle supprime la source de chaleur."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Parmi ces propositions, laquelle est une règle de sécurité pour éviter les incendies ?",
+      "options": [
+        "Éloigner des flammes toute substance inflammable",
+        "Laisser les conduits de gaz fuir",
+        "Boucher les conduits d'évacuation des fumées",
+        "Allumer une flamme pour chercher une fuite de gaz"
+      ],
+      "answer": 0,
+      "explanation": "Il faut éloigner des flammes toute substance inflammable."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Que signifie le pictogramme « substance comburante » ?",
+      "options": [
+        "Produit qui peut provoquer ou aggraver un incendie, voire une explosion",
+        "Produit qui s'enflamme au contact de l'eau",
+        "Produit toxique pour la peau",
+        "Produit inoffensif"
+      ],
+      "answer": 0,
+      "explanation": "Les produits comburants peuvent provoquer ou aggraver un incendie, ou même provoquer une explosion."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Que signifie le pictogramme « substance explosive » ?",
+      "options": [
+        "Substance inoffensive",
+        "Substance à manipuler avec précaution, éviter les chocs et les frictions",
+        "Substance qui refroidit le feu",
+        "Substance qui éteint les incendies"
+      ],
+      "answer": 1,
+      "explanation": "Une substance explosive doit être manipulée avec beaucoup de précautions ; il faut éviter les chocs et les frictions."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "En entrant dans une cuisine, tu sens une odeur de gaz. Que dois-tu faire pour éviter une explosion ?",
+      "options": [
+        "Actionner l'interrupteur",
+        "Allumer une bougie pour chercher la fuite",
+        "Aérer le local",
+        "Appeler un ami"
+      ],
+      "answer": 2,
+      "explanation": "Il faut aérer le local pour évacuer le gaz et éviter une explosion."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Complète : Le triangle du feu est constitué d'un combustible, d'un comburant et d'une ______ de chaleur.",
+      "answer": "0",
+      "explanation": "Le triangle du feu est constitué d'un combustible, d'un comburant et d'une source de chaleur."
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "prompt": "Complète : Une ______ est l'état d'un organisme qui manque de gaz oxygène.",
+      "answer": "0",
+      "explanation": "Une asphyxie est l'état d'un organisme qui manque de gaz oxygène."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Dans la situation d'évaluation, le bois sec représente :",
+      "options": [
+        "Le comburant",
+        "Le combustible",
+        "La source de chaleur",
+        "Le produit toxique"
+      ],
+      "answer": 1,
+      "explanation": "Le bois sec est le combustible."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Dans la situation d'évaluation, pourquoi le feu s'est-il éteint alors qu'il reste du bois ?",
+      "options": [
+        "Par manque de combustible",
+        "Par manque de comburant",
+        "Par manque de source de chaleur",
+        "Par manque de fumée"
+      ],
+      "answer": 2,
+      "explanation": "Le feu s'est éteint par manque de source de chaleur."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Quelle est une conséquence sur l'environnement si un incendie n'est pas éteint ?",
+      "options": [
+        "Risque de désert et de famine",
+        "Augmentation de l'oxygène",
+        "Refroidissement du climat",
+        "Disparition des fumées"
+      ],
+      "answer": 0,
+      "explanation": "Un incendie non maîtrisé peut entraîner un risque de désert, de famine et une intoxication de la zone par le dioxyde de carbone."
+    }
+  ]
+}

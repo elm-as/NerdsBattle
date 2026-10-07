@@ -1,0 +1,138 @@
+{
+  "id": "francais-seconde-nde-eoi-roman-s13-conclusion",
+  "subjectId": "francais",
+  "levelId": "seconde",
+  "slug": "nde-eoi-roman-s13-conclusion",
+  "title": "Conclusion de l’étude de Petit Bodiel",
+  "summary": "Synthèse du conte Petit Bodiel d’Amadou Hampâté Bâ : le personnage passe de paresseux à ambitieux, obtient le pouvoir grâce à la ruse d’Allawalam, puis chute par orgueil et manque de respect envers sa mère. Analyse des thèmes (pouvoir, travail, mère, merveilleux), de la forme (registre truculent vs poétique) et de la portée didactique et littéraire.",
+  "lesson": "## 1. Synthèse de l’œuvre\n- Petit Bodiel, fils paresseux, décide de changer après la mort de son père.\n- Il consulte Allawalam, obtient ruse, politesse, présents, puis le *gris‑gris* pour devenir roi de la forêt.\n- L’ambition démesurée et l’orgueil le conduisent à la chute, punition d’Allawalam.\n\n## 2. Jugement critique\n### 2.1 Forme\n- Deux registres : truculent (ex. « cul de plomb », « ton fils n’a‑t‑il d’autre orifice que son anus ») et poétique (ex. « son âme qui s’était échappée… », « l’aurore jaillit des ombres »).\n- Humour et comique maintiennent l’attention.\n### 2.2 Portée littéraire\n- Représentation du pouvoir : acquisition, usage, conséquences.\n- La mère comme fondement de la société traditionnelle.\n- Le conte montre que la paresse initiale n’est pas fatalité si l’individu change de conduite.\n\n## 3. Thèmes\n- **Thème principal** : le pouvoir (mode d’acquisition, utilisation, conséquences).\n- **Thèmes secondaires** : le travail, l’importance de la mère, le merveilleux, l’ambition, l’humour.\n\n## 4. Portée de l’œuvre\n- **Didactique** : enseigne le respect, la modestie, la valeur du travail.\n- **Esthétique** : mélange de conte, humour et merveilleux, créant un plaisir de lecture tout en transmettant un sens.\n\n## 5. Situation d’évaluation\n- Les élèves doivent démontrer leur compréhension du récit, analyser les thèmes et la forme, et proposer une réflexion critique sur le message du conte.\n\n---\n*Durée estimée : 10 minutes*",
+  "estimatedMinutes": 10,
+  "tags": [
+    "francais",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel événement pousse Petit Bodiel à vouloir changer?",
+      "options": [
+        "La mort de son père",
+        "Le mariage de sa mère",
+        "Une maladie",
+        "Un rêve"
+      ],
+      "answer": 0,
+      "explanation": "La mort du père laisse la mère veuve et sans ressources, incitant Petit Bodiel à se transformer."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le pouvoir acquis par Petit Bodiel le conduit à vouloir devenir le roi de ____ la forêt.",
+      "answer": "toute",
+      "explanation": "Le texte indique « roi de toute la forêt »."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel registre de langue est illustré par l’expression « cul de plomb »?",
+      "options": [
+        "Poétique",
+        "Truculent",
+        "Formel",
+        "Familier"
+      ],
+      "answer": 1,
+      "explanation": "Cette expression appartient au registre truculent, humoristique et grossier."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel est le thème secondaire le moins directement lié au pouvoir?",
+      "options": [
+        "Le travail",
+        "Le merveilleux",
+        "L’ambition",
+        "L’importance de la mère"
+      ],
+      "answer": 1,
+      "explanation": "Le merveilleux est un thème secondaire mais moins lié au pouvoir que les autres."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Le conte montre que la paresse initiale n’est pas ____ si l’individu change de conduite.",
+      "answer": "fatalité",
+      "explanation": "Le texte indique que la paresse n’est pas une fatalité."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quelle conséquence subit Petit Bodiel après son orgueil?",
+      "options": [
+        "Il devient roi éternellement",
+        "Il est puni par Allawalam",
+        "Il hérite de la richesse de son père",
+        "Il épouse la fille du chef"
+      ],
+      "answer": 1,
+      "explanation": "Allawalam, mécontent, le punit, entraînant sa chute."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel élément du texte illustre le côté didactique du conte?",
+      "options": [
+        "Les descriptions de la forêt",
+        "Les dialogues humoristiques",
+        "Les leçons sur le respect de la mère",
+        "Les passages sur la magie"
+      ],
+      "answer": 2,
+      "explanation": "Le conte enseigne le respect de la mère comme valeur fondamentale."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Le personnage qui transmet la ruse à Petit Bodiel s’appelle ____.",
+      "answer": "Allawalam",
+      "explanation": "Allawalam est le sage qui enseigne la ruse."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel est l’avantage principal du mélange conte‑humour‑merveilleux selon l’analyse?",
+      "options": [
+        "Divertir sans enseigner",
+        "Émerveiller et instruire le lecteur",
+        "Confondre le lecteur",
+        "Allonger la durée du texte"
+      ],
+      "answer": 1,
+      "explanation": "Le mélange permet plaisir, émerveillement et instruction."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel type de question est demandé aux élèves à la fin de la séance?",
+      "options": [
+        "Rédaction d’un poème",
+        "Analyse critique du conte",
+        "Création d’un dessin",
+        "Exposé oral"
+      ],
+      "answer": 1,
+      "explanation": "Ils doivent manifester un grand intérêt et proposer une analyse critique."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Le conte a été publié aux Éditions ____ en 1993.",
+      "answer": "NEI",
+      "explanation": "Le texte indique les Éditions NEI."
+    }
+  ]
+}

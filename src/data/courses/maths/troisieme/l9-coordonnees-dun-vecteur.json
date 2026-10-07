@@ -1,0 +1,183 @@
+{
+  "id": "maths-troisieme-l9-coordonnees-dun-vecteur",
+  "subjectId": "maths",
+  "levelId": "troisieme",
+  "slug": "l9-coordonnees-dun-vecteur",
+  "title": "Coordonnées d'un vecteur",
+  "summary": "Maîtrise les coordonnées des vecteurs pour résoudre des problèmes de géométrie. Apprends à calculer, additionner et comparer des vecteurs dans un repère.",
+  "lesson": "# Coordonnées d'un vecteur\n\n## Introduction\n\nDans le plan muni d'un repère, tout vecteur peut être décrit par un couple de nombres réels appelé coordonnées. Cette leçon te montre comment déterminer, utiliser et calculer avec ces coordonnées pour résoudre des problèmes de géométrie.\n\n## 1. Définitions & Notions clés\n\n### Repère\nUn repère du plan est un triplet (O, I, J) de points distincts non alignés.\n- **Repère quelconque** : aucun angle droit imposé.\n- **Repère orthogonal** : (OI) ⊥ (OJ) et OI ≠ OJ.\n- **Repère orthonormé** : (OI) ⊥ (OJ) et OI = OJ.\n\nDans un repère :\n- La droite (OI) est l'axe des **abscisses**.\n- La droite (OJ) est l'axe des **ordonnées**.\n\n### Coordonnées d'un point\nUn point A a pour coordonnées (x ; y) où x est l'abscisse et y l'ordonnée. On note A(x ; y).\n\n### Égalité de couples\nDeux couples (x ; y) et (x' ; y') sont égaux si et seulement si x = x' et y = y'.\n\n### Coordonnées d'un vecteur\nLe couple de coordonnées du vecteur AB est (x ; y) tel que AB = x·OI + y·OJ. On note AB(x ; y) ou AB(x/y).\n\n### Vecteurs égaux\nDeux vecteurs AB(x ; y) et CD(x' ; y') sont égaux si et seulement si x = x' et y = y'.\n\n### Somme de vecteurs\nSi AB(x ; y) et A'B'(x' ; y'), alors AB + A'B' a pour coordonnées (x + x' ; y + y').\n\n### Produit d'un vecteur par un réel\nSi AB(x ; y) et k un réel, alors k·AB a pour coordonnées (kx ; ky).\n\n### Colinéarité\nDeux vecteurs AB(x ; y) et A'B'(x' ; y') sont colinéaires si et seulement si xy' - x'y = 0.\n\n### Orthogonalité\nDans un repère orthonormé, deux vecteurs non nuls AB(x ; y) et A'B'(x' ; y') sont orthogonaux si et seulement si xx' + yy' = 0.\n\n### Coordonnées d'un vecteur à partir de points\nSi A(x ; y) et B(x' ; y'), alors AB a pour coordonnées (x' - x ; y' - y).\n\n### Milieu d'un segment\nSi A(x ; y) et B(x' ; y'), le milieu K de [AB] a pour coordonnées ((x + x')/2 ; (y + y')/2).\n\n### Distance entre deux points\nDans un repère orthonormé, si A(x ; y) et B(x' ; y'), alors AB = √[(x' - x)² + (y' - y)²].\n\n## 2. Applications & Méthodes\n\n### Représenter un vecteur\nPour construire AB(a ; b) à partir de A :\n1. Exprimer AB = a·OI + b·OJ.\n2. Placer A.\n3. Marquer C tel que AC = a·OI.\n4. Marquer B tel que CB = b·OJ.\n\n### Calculer les coordonnées d'un vecteur\nExemple : A(-2 ; 3) et B(1 ; 2).\nAB = (1 - (-2) ; 2 - 3) = (3 ; -1).\n\n### Calculer les coordonnées du milieu\nExemple : A(2 ; -3) et B(3/2 ; -5).\nK = ((2 + 3/2)/2 ; (-3 + (-5))/2) = (7/4 ; -4).\n\n### Calculer une distance\nExemple : L(2 ; -2) et M(5 ; -1).\nLM = √[(5-2)² + (-1 - (-2))²] = √(9 + 1) = √10.\n\n### Vérifier la colinéarité\nExemple : AB(-3 ; -1) et CD(3√2 ; √2).\nxy' - x'y = (-3)(√2) - (-1)(3√2) = -3√2 + 3√2 = 0. Donc colinéaires.\n\n### Vérifier l'orthogonalité\nExemple : AB(-2 ; 4) et CD(2 ; 1).\nxx' + yy' = (-2)(2) + (4)(1) = -4 + 4 = 0. Donc orthogonaux.\n\n## 3. Pièges fréquents\n\n- **Confondre abscisse et ordonnée** : l'abscisse est le premier nombre, l'ordonnée le second.\n- **Erreur de signe** dans les calculs de coordonnées : AB = (xB - xA ; yB - yA).\n- **Oublier que la colinéarité et l'orthogonalité ne s'appliquent qu'à des vecteurs non nuls** pour l'orthogonalité.\n- **Utiliser la formule de distance dans un repère non orthonormé** : elle n'est valable que dans un repère orthonormé.\n- **Mal appliquer la formule du milieu** : bien sommer les coordonnées puis diviser par 2.\n\n## Synthèse\n\nLes coordonnées d'un vecteur permettent de traduire des relations géométriques en calculs algébriques. Retiens les formules clés : coordonnées d'un vecteur, somme, produit par un réel, colinéarité, orthogonalité, milieu et distance. Ces outils sont essentiels pour résoudre des problèmes de géométrie plane.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "troisieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'un repère orthonormé ?",
+      "options": [
+        "Un repère où (OI) ⊥ (OJ) et OI = OJ",
+        "Un repère où (OI) ⊥ (OJ) et OI ≠ OJ",
+        "Un repère quelconque",
+        "Un repère où O, I, J sont alignés"
+      ],
+      "answer": 0,
+      "explanation": "Un repère orthonormé est un repère orthogonal avec OI = OJ."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Complète : Si A(3 ; 2), alors l'abscisse de A est ___.",
+      "answer": "3",
+      "explanation": "L'abscisse est le premier nombre du couple, donc 3."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Les couples (x ; y) et (x' ; y') sont égaux si et seulement si :",
+      "options": [
+        "x = x' et y = y'",
+        "x = y' et y = x'",
+        "x + x' = 0 et y + y' = 0",
+        "x = y et x' = y'"
+      ],
+      "answer": 0,
+      "explanation": "L'égalité des couples impose l'égalité des premiers termes et des seconds termes."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Si AB = 2·OI - 3·OJ, quelles sont les coordonnées de AB ?",
+      "options": [
+        "(2 ; -3)",
+        "(-3 ; 2)",
+        "(2 ; 3)",
+        "(-2 ; 3)"
+      ],
+      "answer": 0,
+      "explanation": "Les coordonnées sont les coefficients de OI et OJ : (2 ; -3)."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Si AB(2 ; 3) et CD(-6 ; 3), quelles sont les coordonnées de AB + CD ?",
+      "options": [
+        "(-4 ; 6)",
+        "(4 ; 6)",
+        "(-4 ; 0)",
+        "(8 ; 0)"
+      ],
+      "answer": 0,
+      "explanation": "On additionne les coordonnées : (2 + (-6) ; 3 + 3) = (-4 ; 6)."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Si AB(-5 ; 10), quelles sont les coordonnées de -4·AB ?",
+      "options": [
+        "(20 ; -40)",
+        "(-20 ; 40)",
+        "(20 ; 40)",
+        "(-20 ; -40)"
+      ],
+      "answer": 0,
+      "explanation": "On multiplie chaque coordonnée par -4 : (-4×(-5) ; -4×10) = (20 ; -40)."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Dans un repère orthonormé, deux vecteurs non nuls AB(x ; y) et CD(x' ; y') sont orthogonaux si et seulement si :",
+      "options": [
+        "xx' + yy' = 0",
+        "xy' - x'y = 0",
+        "x = x' et y = y'",
+        "x + x' = 0 et y + y' = 0"
+      ],
+      "answer": 0,
+      "explanation": "La condition d'orthogonalité est xx' + yy' = 0."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Si A(-2 ; 3) et B(1 ; 2), quelles sont les coordonnées de AB ?",
+      "options": [
+        "(3 ; -1)",
+        "(-3 ; 1)",
+        "(1 ; -3)",
+        "(-1 ; 3)"
+      ],
+      "answer": 0,
+      "explanation": "AB = (1 - (-2) ; 2 - 3) = (3 ; -1)."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Si A(2 ; -3) et B(3/2 ; -5), quelles sont les coordonnées du milieu K de [AB] ?",
+      "options": [
+        "(7/4 ; -4)",
+        "(7/2 ; -4)",
+        "(7/4 ; -8)",
+        "(5/2 ; -4)"
+      ],
+      "answer": 0,
+      "explanation": "K = ((2 + 3/2)/2 ; (-3 + (-5))/2) = (7/4 ; -4)."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Dans un repère orthonormé, si L(2 ; -2) et M(5 ; -1), quelle est la distance LM ?",
+      "options": [
+        "√10",
+        "√8",
+        "√5",
+        "3"
+      ],
+      "answer": 0,
+      "explanation": "LM = √[(5-2)² + (-1 - (-2))²] = √(9 + 1) = √10."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Complète : Si AB(2 ; -3) et CD(-6 ; 3), alors AB + CD a pour coordonnées (___ ; 6).",
+      "answer": "-4",
+      "explanation": "2 + (-6) = -4."
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "prompt": "Complète : Si AB(-5 ; 10), alors -4·AB a pour coordonnées (20 ; ___).",
+      "answer": "-40",
+      "explanation": "-4 × 10 = -40."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Dans un repère orthonormé, si A(1 ; -1) et B(-2 ; 0), quelles sont les coordonnées de AB ?",
+      "options": [
+        "(-3 ; 1)",
+        "(3 ; -1)",
+        "(-1 ; 3)",
+        "(1 ; -3)"
+      ],
+      "answer": 0,
+      "explanation": "AB = (-2 - 1 ; 0 - (-1)) = (-3 ; 1)."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Si A(1 ; -1) et C(-3 ; -3), quelles sont les coordonnées de AC ?",
+      "options": [
+        "(-4 ; -2)",
+        "(4 ; 2)",
+        "(-2 ; -4)",
+        "(2 ; 4)"
+      ],
+      "answer": 0,
+      "explanation": "AC = (-3 - 1 ; -3 - (-1)) = (-4 ; -2)."
+    }
+  ]
+}

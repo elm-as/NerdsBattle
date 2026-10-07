@@ -1,0 +1,167 @@
+{
+  "id": "svt-cinquieme-l5-la-nutrition-des-invertebres",
+  "subjectId": "svt",
+  "levelId": "cinquieme",
+  "slug": "l5-la-nutrition-des-invertebres",
+  "title": "Nutrition des invertébrés : cricket et moustique (5e SVT)",
+  "summary": "Étude du mode de nutrition du criquet et du moustique, identification des aliments consommés, lien entre type d’appareil buccal et nature de l’aliment, activités d’observation, expérimentation et évaluation.",
+  "lesson": "## Situation d’apprentissage\nEn avril, les manguiers du lycée municipal sont envahis par des criquets et des moustiques. Les élèves observent les criquets dévorer les feuilles et les moustiques sucer le jus des mangues et piquer les élèves. Ils doivent identifier la nature des aliments consommés et relier le type d’appareil buccal à l’état de l’aliment.\n\n## Contenu du cours\n### Comment les invertébrés se nourrissent‑ils ? (cas du moustique et du criquet)\n- Les insectes consomment des aliments de natures différentes.\n- Leur alimentation dépend de leur appareil buccal.\n\n### I – Les insectes se nourrissent d’aliments de natures différentes\n#### Observation\nPhotographies : A = criquet, B = moustique.\n\n#### Résultats\n- Le criquet se nourrit de feuilles vertes (végétaux).\n- Le moustique femelle se nourrit de sang (liquide) ; le mâle se nourrit de nectar (liquide).\n\n#### Analyse\n- Le criquet consomme des aliments solides → régime végétarien.\n- Le moustique femelle est hématophage, le mâle nectarivore.\n\n#### Conclusion\nLes insectes consomment des aliments de natures différentes.\n\n#### Activité d’application\nÉcrire Vrai ou Faux devant chaque affirmation :\n1. Le criquet se nourrit des racines des plantes. (Faux)\n2. Le criquet se nourrit des herbes, feuilles et tiges des plantes. (Vrai)\n3. Le criquet se nourrit du jus des mangues mûres. (Vrai)\n4. Le criquet se nourrit des aliments solides. (Vrai)\n\n### II – Les insectes se nourrissent‑ils en fonction de leur appareil buccal ?\n#### Expérience\nDisséquer les pièces buccales du criquet, annoter celles du moustique et comparer.\n\n#### Résultats – Appareil buccal du criquet\n- Lèvre supérieure\n- Deux mandibules\n- Deux mâchoires\n- Lèvre inférieure\n\n#### Résultats – Appareil buccal du moustique\n- Palpes\n- Antennes\n- Trompe\n\n#### Comparaison\n| Pièce | Criquet | Moustique |\n|-------|---------|-----------|\n| Lèvre supérieure | Courte et développée | Longue, mince et pointue |\n| Lèvre inférieure | Courte et développée | Longue, mince et pointue |\n| Mandibules | Courtes et denses | – |\n| Mâchoires | Présentes | – |\n| Palpes | – | Présents |\n| Antennes | – | Présentes |\n| Trompe | – | Longue et pointue |\n\n## Synthèse\nLe type d’appareil buccal détermine le mode d’alimentation : pièces robustes et mâchoires pour mâcher les solides (criquet) ; pièces fines et stylet pour percer et aspirer les liquides (moustique).",
+  "estimatedMinutes": 10,
+  "tags": [
+    "svt",
+    "cinquieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel type d’aliment le criquet consomme‑t‑il principalement ?",
+      "options": [
+        "Nectar",
+        "Sang",
+        "Feuilles vertes",
+        "Nectar et sang"
+      ],
+      "answer": 2,
+      "explanation": "Le criquet se nourrit de feuilles vertes, donc d’aliments solides végétaux."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le moustique femelle est hématophage.",
+      "answer": true,
+      "explanation": "La femelle se nourrit de sang, ce qui la rend hématophage."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Complétez : Le moustique mâle se nourrit principalement de __________.",
+      "answer": "nectar",
+      "explanation": "Le mâle se nourrit du nectar des fleurs, il est nectarivore."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle pièce buccale du moustique permet d’aspirer les liquides ?",
+      "options": [
+        "Mandibules",
+        "Trompe",
+        "Mâchoires",
+        "Lèvre inférieure"
+      ],
+      "answer": 1,
+      "explanation": "La trompe est l’organe d’aspiration du moustique."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Les mandibules du moustique sont utilisées pour mâcher les feuilles.",
+      "answer": false,
+      "explanation": "Le moustique ne possède pas de mandibules ; il possède une trompe."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Nom de la pièce buccale du criquet qui sert à couper les feuilles : __________.",
+      "answer": "mandibules",
+      "explanation": "Les mandibules du criquet sont adaptées à la coupe des tissus végétaux."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Parmi les affirmations suivantes, laquelle est FAUSSE concernant le criquet ?",
+      "options": [
+        "Il se nourrit de racines",
+        "Il se nourrit d’aliments solides",
+        "Il mange les feuilles",
+        "Il consomme du jus de mangue"
+      ],
+      "answer": 0,
+      "explanation": "Le criquet ne se nourrit pas des racines, il mange les parties aériennes."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Le criquet possède une lèvre supérieure courte et développée.",
+      "answer": true,
+      "explanation": "Dans le tableau, la lèvre supérieure du criquet est décrite ainsi."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel type d’aliment le moustique femelle consomme‑t‑il ?",
+      "options": [
+        "Feuilles",
+        "Nectar",
+        "Sang",
+        "Pollen"
+      ],
+      "answer": 2,
+      "explanation": "La femelle se nourrit de sang, d’où son régime hématophage."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Le terme désignant un animal qui se nourrit de sang est __________.",
+      "answer": "hématophage",
+      "explanation": "Hématophage désigne un organisme qui se nourrit de sang."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Les palpes du moustique sont impliqués dans la prise de nourriture solide.",
+      "answer": false,
+      "explanation": "Les palpes sont des organes sensoriels, pas pour la prise de solides."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel appareil buccal est adapté à la consommation d’aliments liquides ?",
+      "options": [
+        "Mandibules robustes",
+        "Trompe fine",
+        "Mâchoires puissantes",
+        "Lèvre inférieure large"
+      ],
+      "answer": 1,
+      "explanation": "La trompe du moustique permet d’aspirer les liquides."
+    },
+    {
+      "id": "q13",
+      "type": "truefalse",
+      "prompt": "Le criquet possède deux mâchoires distinctes.",
+      "answer": true,
+      "explanation": "Le criquet possède deux mâchoires en plus des mandibules."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Le régime alimentaire du criquet est __________.",
+      "answer": "végétarien",
+      "explanation": "Le criquet se nourrit de parties végétales, donc végétarien."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quelle affirmation décrit le mieux le lien entre appareil buccal et type d’aliment ?",
+      "options": [
+        "Plus l’appareil est long, plus l’aliment est solide",
+        "Un appareil pointu indique une alimentation liquide",
+        "Un appareil robuste indique une alimentation liquide",
+        "La forme de l’appareil n’influence pas le type d’aliment"
+      ],
+      "answer": 1,
+      "explanation": "Un appareil pointu (trompe) est typique d’une alimentation liquide."
+    },
+    {
+      "id": "q16",
+      "type": "truefalse",
+      "prompt": "Les moustiques peuvent se nourrir à la fois de sang et de nectar selon le sexe.",
+      "answer": true,
+      "explanation": "Femelle → sang, mâle → nectar."
+    }
+  ]
+}

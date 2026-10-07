@@ -1,0 +1,151 @@
+{
+  "id": "physique-seconde-l2-cours-de-pc-2nde-c-cote-d-ivoire-by",
+  "subjectId": "physique",
+  "levelId": "seconde",
+  "slug": "l2-cours-de-pc-2nde-c-cote-d-ivoire-by",
+  "title": "Notion d’éléments chimiques – Chapitre 1",
+  "summary": "Ce chapitre introduit la notion d’élément chimique à travers des expériences simples impliquant le cuivre, l’acide nitrique et la solution de nitrate de cuivre(II). Il décrit les réactions observées, les précautions de sécurité et les conclusions tirées, offrant ainsi une base expérimentale pour comprendre la composition des éléments.",
+  "lesson": "# Notion d’éléments chimiques\n\n## 1. Introduction\n\nUn **élément chimique** est une substance constituée d’atomes possédant le même nombre de protons. Les expériences présentées démontrent comment un élément peut être identifié par ses réactions caractéristiques.\n\n## 2. Réactions expérimentales\n\n### 2.1 Cuivre + Acide nitrique\n\n- **Réaction** : Cu + 4HNO₃ → Cu(NO₃)₂ + 2NO₂ + 2H₂O\n- **Observations** : dissolution du cuivre, apparition d’un gaz rougeâtre (NO₂), formation d’une solution bleue.\n- **Conclusion** : Le cuivre est un métal réactif qui forme un nitrate et libère du NO₂.\n\n### 2.2 Nitrate de cuivre(II) + Fer\n\n- **Réaction** : Cu(NO₃)₂ + Fe → Fe(NO₃)₂ + Cu\n- **Observations** : dépôt de cuivre rouge sur le fer, décoloration de la solution.\n- **Conclusion** : Le fer est plus réactif que le cuivre, échangeant les ions.\n\n### 2.3 Hydroxyde de sodium + Nitrate de cuivre(II)\n\n- **Réaction** : Cu(NO₃)₂ + 2NaOH → Cu(OH)₂ + 2NaNO₃\n- **Observations** : précipité bleu-vert (hydroxyde de cuivre), solution claire.\n- **Conclusion** : L’hydroxyde de sodium précipite le cuivre(II) sous forme d’hydroxyde.\n\n## 3. Sécurité et précautions\n\n- Porter des lunettes de protection et des gants.\n- Manipuler l’acide nitrique dans une hotte ou à l’extérieur.\n- Éviter l’inhalation du NO₂.\n\n## 4. Résumé des points clés\n\n- Un élément est identifié par ses réactions chimiques.\n- Le cuivre réagit avec l’acide nitrique pour former du nitrate de cuivre et du NO₂.\n- Le fer peut remplacer le cuivre dans une solution de nitrate de cuivre.\n- L’hydroxyde de sodium précipite le cuivre(II) sous forme d’hydroxyde.\n\n## 5. Questions de révision\n\nLes questions suivantes testeront votre compréhension des concepts abordés.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel gaz est libéré lors de la réaction entre le cuivre et l’acide nitrique?",
+      "options": [
+        "O₂",
+        "NO₂",
+        "H₂O",
+        "CO₂"
+      ],
+      "answer": 1,
+      "explanation": "Le NO₂ apparaît comme un gaz rougeâtre, caractéristique de la réaction."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel produit se forme lorsqu’on ajoute de l’hydroxyde de sodium à une solution de nitrate de cuivre(II)?",
+      "options": [
+        "Cu(OH)₂",
+        "CuO",
+        "Cu₂O",
+        "Cu(NO₃)₂"
+      ],
+      "answer": 0,
+      "explanation": "L’hydroxyde de sodium précipite le cuivre(II) sous forme d’hydroxyde."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Le nombre de protons dans un atome d’élément définit son _____.",
+      "answer": "numéro atomique",
+      "explanation": "Le numéro atomique correspond au nombre de protons."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel est le rôle de l’acide nitrique dans la première expérience?",
+      "options": [
+        "Oxydant",
+        "Réducteur",
+        "Catalyseur",
+        "Neutre"
+      ],
+      "answer": 0,
+      "explanation": "L’acide nitrique agit comme oxydant, acceptant des électrons du cuivre."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel instrument est indispensable pour protéger l’œil lors de la manipulation de l’acide nitrique?",
+      "options": [
+        "Gants en nitrile",
+        "Masque respiratoire",
+        "Lunettes de protection",
+        "Bouchons d’oreille"
+      ],
+      "answer": 2,
+      "explanation": "Les lunettes protègent les yeux contre les éclaboussures."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Le _____ est la substance qui précipite le cuivre(II) lorsqu’on ajoute de l’hydroxyde de sodium.",
+      "answer": "hydroxyde de sodium",
+      "explanation": "NaOH réagit avec Cu²⁺ pour former Cu(OH)₂."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel produit est observé lorsqu’on observe la réaction entre le cuivre et l’acide nitrique?",
+      "options": [
+        "Solution bleue",
+        "Solution rouge",
+        "Solution verte",
+        "Solution jaune"
+      ],
+      "answer": 0,
+      "explanation": "La solution devient bleue à cause du nitrate de cuivre."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel ion est présent dans le nitrate de cuivre(II)?",
+      "options": [
+        "Cu⁺",
+        "Cu²⁺",
+        "Fe²⁺",
+        "Fe³⁺"
+      ],
+      "answer": 1,
+      "explanation": "Le nitrate de cuivre(II) contient l’ion Cu²⁺."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "La réaction entre le cuivre et l’acide nitrique produit _____ comme sous-produit.",
+      "answer": "NO₂",
+      "explanation": "NO₂ est le gaz rougeâtre libéré."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel est le résultat de l’ajout de NaOH à une solution de Cu(NO₃)₂?",
+      "options": [
+        "Formation d’un précipité bleu-vert",
+        "Formation d’un gaz odorant",
+        "Changement de couleur en rouge",
+        "Aucun changement"
+      ],
+      "answer": 0,
+      "explanation": "Un précipité bleu-vert (Cu(OH)₂) se forme."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel type de réaction est la substitution de cuivre par fer dans la solution de nitrate de cuivre(II)?",
+      "options": [
+        "Réaction de double déplacement",
+        "Réaction de combustion",
+        "Réaction d’oxydoréduction",
+        "Réaction de précipitation"
+      ],
+      "answer": 0,
+      "explanation": "Il s’agit d’une réaction de double déplacement (exchange d’ions)."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Le _____ est le gaz rougeâtre libéré lors de la réaction entre le cuivre et l’acide nitrique.",
+      "answer": "NO₂",
+      "explanation": "NO₂ est le gaz rougeâtre."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "francais-troisieme-subordonnees-circonstancielles",
+  "title": "Subordonnées de cause, conséquence et but",
+  "summary": "Maîtrisez les subordonnées circonstancielles de cause, de conséquence et de but, des outils essentiels pour exprimer des relations logiques avec précision. Ce chapitre vous prépare aux épreuves du BEPC en vous donnant des méthodes claires pour les identifier et les employer correctement.",
+  "lesson": "## Introduction & Mise en situation\n\nImaginez que vous racontez une histoire : \"**Parce qu'il pleuvait**, nous sommes restés à la maison.\" Ou que vous expliquez un résultat : \"Il a tellement travaillé **qu'il a réussi**.\" Ou encore un objectif : \"Elle étudie dur **afin de réussir**.\" Ces trois phrases utilisent des subordonnées circonstancielles. Elles permettent d'enrichir vos écrits, de structurer vos arguments et de montrer votre maîtrise de la langue. Au BEPC, savoir les reconnaître et les employer est souvent testé. Ce chapitre vous donne les clés pour les distinguer sans erreur.\n\n## 1. Définitions et Principes Fondamentaux\n\nUne **subordonnée circonstancielle** est une proposition qui dépend d'une proposition principale et qui joue le rôle de complément circonstanciel. Elle est introduite par une conjonction de subordination ou une locution conjonctive.\n\n- **Subordonnée de cause** : elle exprime la raison, l'origine de l'action. Elle répond à la question \"pourquoi ?\".\n  - Conjonctions : *parce que, puisque, comme, étant donné que, vu que, sous prétexte que, etc.*\n  - Exemple : \"**Comme** il était fatigué, il s'est couché tôt.\"\n\n- **Subordonnée de conséquence** : elle exprime le résultat, l'effet de l'action. Elle répond à la question \"quoi ?\" ou \"quel résultat ?\".\n  - Conjonctions : *si bien que, de sorte que, de façon que, au point que, tant... que, tellement... que, si... que, etc.*\n  - Exemple : \"Il a plu **si fort que** la rivière a débordé.\"\n\n- **Subordonnée de but** : elle exprime l'intention, l'objectif visé. Elle répond à la question \"dans quel but ?\".\n  - Conjonctions : *afin que, pour que, de peur que, de crainte que, etc.*\n  - Exemple : \"Elle répète sa leçon **afin que** tout soit clair.\"\n\n**Formules de reconnaissance :**\n- Cause : *Pourquoi ?* → Parce que, puisque...\n- Conséquence : *Quel résultat ?* → Si bien que, au point que...\n- But : *Dans quel but ?* → Pour que, afin que...\n\n## 2. Propriétés et Méthodes d'application\n\n### Méthode pour identifier une subordonnée circonstancielle\n\n1. **Repérez la conjonction de subordination** (ou locution).\n2. **Vérifiez qu'elle introduit une proposition qui a un verbe conjugué** (à l'indicatif, au subjonctif, etc.).\n3. **Supprimez-la** : si la phrase reste correcte, c'est bien une subordonnée circonstancielle.\n4. **Posez la question appropriée** (pourquoi ? quel résultat ? dans quel but ?) pour déterminer le type.\n\n### Exemples détaillés\n\n**Exemple 1 :** \"Il est sorti **bien qu'il pleuve**.\" → Ici, c'est une concession, pas une cause. Attention ! *Bien que* exprime une opposition.\n\n**Exemple 2 :** \"**Puisque** tu es là, aide-moi.\" → Subordonnée de cause (répond à \"pourquoi ?\" : parce que tu es là).\n\n**Exemple 3 :** \"Il a tellement mangé **qu'il est malade**.\" → Subordonnée de conséquence (répond à \"quel résultat ?\" : il est malade).\n\n**Exemple 4 :** \"Je te prête ce livre **pour que** tu le lises.\" → Subordonnée de but (répond à \"dans quel but ?\" : pour que tu le lises).\n\n### Tableau récapitulatif\n\n| Type | Conjonctions principales | Question à poser | Mode du verbe |\n|------|--------------------------|------------------|---------------|\n| Cause | parce que, puisque, comme, étant donné que | Pourquoi ? | Indicatif |\n| Conséquence | si bien que, de sorte que, au point que, tant... que | Quel résultat ? | Indicatif |\n| But | pour que, afin que, de peur que, de crainte que | Dans quel but ? | Subjonctif |\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre cause et conséquence** : La cause précède l'action, la conséquence la suit. Exemple : \"Il pleut (cause) donc le sol est mouillé (conséquence)\".\n- **Confondre but et conséquence** : Le but est voulu, la conséquence est subie. \"Il crie pour qu'on l'entende\" (but) vs \"Il crie si fort qu'on l'entend\" (conséquence).\n- **Utiliser le mauvais mode** : Après *pour que* et *afin que*, on emploie le subjonctif. Après *parce que*, l'indicatif.\n- **Oublier que *comme* peut être cause** : En début de phrase, *comme* exprime souvent une cause : \"Comme il était en retard, il a couru.\"\n- **Ne pas confondre avec les subordonnées relatives** : Une relative est introduite par un pronom relatif (qui, que, dont...) et complète un nom. Une circonstancielle complète le verbe.\n\n## Synthèse\n\n1. **Trois types** : cause (pourquoi ?), conséquence (quel résultat ?), but (dans quel but ?).\n2. **Conjonctions clés** : cause → parce que, puisque ; conséquence → si bien que, au point que ; but → pour que, afin que.\n3. **Mode du verbe** : indicatif pour cause et conséquence, subjonctif pour but.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "grammaire",
+    "subordonnées",
+    "BEPC",
+    "français",
+    "logique"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle conjonction introduit une subordonnée de but ?",
+      "options": [
+        "parce que",
+        "pour que",
+        "si bien que",
+        "puisque"
+      ],
+      "answer": 1,
+      "explanation": "Pour que exprime le but. Parce que et puisque expriment la cause, si bien que la conséquence."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Dans la phrase 'Il est sorti bien qu'il pleuve', 'bien que' introduit une subordonnée de cause.",
+      "answer": false,
+      "explanation": "Bien que exprime la concession (opposition), pas la cause."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Complète : 'Elle travaille dur ______ réussir son examen.' (Utilise une locution de but)",
+      "answer": "afin de",
+      "explanation": "On peut dire 'afin de réussir' ou 'pour réussir'."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel mode verbal utilise-t-on après 'pour que' ?",
+      "options": [
+        "indicatif",
+        "subjonctif",
+        "conditionnel",
+        "impératif"
+      ],
+      "answer": 1,
+      "explanation": "Après 'pour que', on emploie le subjonctif."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Dans 'Il a tellement plu que la rivière a débordé', la subordonnée est de conséquence.",
+      "answer": true,
+      "explanation": "'tellement... que' exprime la conséquence."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Identifie le type de subordonnée : 'Comme il était fatigué, il s'est couché.' (cause, conséquence ou but ?)",
+      "answer": "cause",
+      "explanation": "'Comme' introduit ici une cause."
+    }
+  ]
+}

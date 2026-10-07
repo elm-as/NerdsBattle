@@ -1,0 +1,184 @@
+{
+  "id": "physique-sixieme-l4-solides-et-liquides",
+  "subjectId": "physique",
+  "levelId": "sixieme",
+  "slug": "l4-solides-et-liquides",
+  "title": "Solides et liquides : propriétés physiques",
+  "summary": "Découvre comment distinguer les solides compacts, divisés et les liquides grâce à leurs propriétés. Apprends à reconnaître les pictogrammes de danger pour manipuler les produits en toute sécurité.",
+  "lesson": "## Introduction\nDans notre quotidien, nous manipulons de nombreux produits : huile, sel, riz, farine, etc. Comment les classer ? Cette leçon t'apprend à distinguer les solides (compacts et divisés) des liquides en observant leurs propriétés physiques. Tu découvriras aussi les pictogrammes de sécurité présents sur les emballages.\n\n## 1. Définitions & Notions clés\n\n### Les solides\nUn **solide** est un corps que l'on peut saisir entre les doigts. On distingue :\n- **Solides compacts** : formés d'un seul bloc, ils ont une **forme propre**. Exemples : charbon de bois, banane, igname.\n- **Solides divisés** : formés de plusieurs grains, ils **n'ont pas de forme propre** et prennent la forme du récipient. Exemples : sel en poudre, riz, farine.\n\n### Les liquides\nUn **liquide** ne peut pas être saisi entre les doigts ; il coule. Il n'a pas de forme propre et prend la forme du récipient : c'est un **fluide**. Exemples : huile, eau, jus de fruit, alcool.\n\n**Surface libre** : au repos, la surface libre d'un liquide est toujours **plane et horizontale**. Celle d'un solide divisé est **quelconque**.\n\n### Verrerie de laboratoire\nQuelques récipients courants : bécher, verre à pied, cristallisoir, ballon à fond rond, erlenmeyer, tube à essais.\n\n### Pictogrammes\nUn **pictogramme** est un symbole figurant sur les notices et étiquettes des produits de consommation. Il indique les dangers : toxique, inflammable, irritant/nocif, corrosif, comburant, explosif, dangereux pour l'environnement, dangereux à long terme, récipient sous pression. Une bonne exploitation de ces symboles nous met à l'abri de tout danger.\n\n## 2. Applications & Méthodes\n\n### Comment distinguer un solide d'un liquide ?\n- **Test de saisie** : un solide se saisit entre les doigts, un liquide non.\n- **Surface libre au repos** : celle d'un liquide est plane et horizontale ; celle d'un solide divisé est quelconque.\n\n### Comment distinguer un solide compact d'un solide divisé ?\n- **Forme propre** : le solide compact en a une, le solide divisé non.\n- **Structure** : compact = un seul bloc ; divisé = plusieurs grains.\n\n### Méthode de classement\n1. Observer si le corps peut être saisi.\n2. S'il est saisissable, vérifier s'il est formé d'un seul bloc (compact) ou de grains (divisé).\n3. S'il n'est pas saisissable, c'est un liquide.\n\n### Exemple de classement (Exercice 4)\n- **Solides compacts** : banane, poisson, manioc.\n- **Solides divisés** : farine de maïs, riz, sel.\n- **Liquides** : huile, pétrole.\n\n### Lecture des pictogrammes\n- **Inflammable** : peut s'enflammer au contact d'une flamme, d'une étincelle, de la chaleur, etc.\n- **Explosif** : peut exploser sous l'effet d'une flamme, d'un choc, de frottements, etc.\n- **Toxique** : empoisonne rapidement même à faible dose.\n- **Corrosif** : attaque les métaux, ronge la peau et les yeux.\n- **Comburant** : peut provoquer ou aggraver un incendie, voire une explosion.\n- **Dangereux pour l'environnement** : effets néfastes sur les organismes aquatiques.\n\n## 3. Pièges fréquents\n- **Confondre solide divisé et liquide** : les deux coulent et prennent la forme du récipient, mais la surface libre du liquide au repos est plane et horizontale, celle du solide divisé est quelconque.\n- **Croire que tous les solides ont une forme propre** : c'est faux, les solides divisés n'en ont pas.\n- **Penser qu'un solide divisé peut être saisi** : oui, il est saisissable (contrairement au liquide).\n- **Négliger les pictogrammes** : ils sont essentiels pour prévenir les dangers.\n\n## Synthèse\n- **Solides compacts** : saisissables, un seul bloc, forme propre.\n- **Solides divisés** : saisissables, plusieurs grains, pas de forme propre, surface libre quelconque.\n- **Liquides** : non saisissables, fluides, pas de forme propre, surface libre plane et horizontale au repos.\n- **Pictogrammes** : symboles de danger sur les produits, à connaître pour se protéger.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Parmi ces propositions, laquelle est une propriété des solides compacts ?",
+      "options": [
+        "Ils n'ont pas de forme propre",
+        "Ils sont formés de plusieurs grains",
+        "Ils ont une forme propre",
+        "Ils coulent"
+      ],
+      "answer": 2,
+      "explanation": "Les solides compacts sont formés d'un seul bloc et ont une forme propre."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle est la surface libre d'un liquide au repos ?",
+      "options": [
+        "Plane et horizontale",
+        "Quelconque",
+        "Courbe",
+        "Verticale"
+      ],
+      "answer": 0,
+      "explanation": "La surface libre d'un liquide au repos est toujours plane et horizontale."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Les liquides ne peuvent pas être saisis entre les doigts, ils coulent. On dit que ce sont des ______.",
+      "answer": "fluides",
+      "explanation": "Les liquides sont des fluides car ils coulent et n'ont pas de forme propre."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Lequel de ces corps est un solide divisé ?",
+      "options": [
+        "Banane",
+        "Riz",
+        "Huile",
+        "Eau"
+      ],
+      "answer": 1,
+      "explanation": "Le riz est un solide divisé, formé de grains."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel est le point commun entre un solide divisé et un liquide ?",
+      "options": [
+        "Ils sont saisissables",
+        "Ils ont une forme propre",
+        "Ils prennent la forme du récipient",
+        "Leur surface libre est plane et horizontale"
+      ],
+      "answer": 2,
+      "explanation": "Les solides divisés et les liquides n'ont pas de forme propre et prennent la forme du récipient."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Un ______ est un symbole figurant sur les notices et les étiquettes des produits de consommation.",
+      "answer": "pictogramme",
+      "explanation": "Un pictogramme est un symbole de danger sur les produits."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Que signifie le pictogramme représentant une flamme ?",
+      "options": [
+        "Produit toxique",
+        "Produit inflammable",
+        "Produit corrosif",
+        "Produit explosif"
+      ],
+      "answer": 1,
+      "explanation": "Le pictogramme avec une flamme indique un produit inflammable."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel récipient est un bécher ?",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "answer": 0,
+      "explanation": "D'après le corrigé de la situation d'évaluation, le récipient A est un bécher."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Les solides compacts sont formés d'un seul ______.",
+      "answer": "bloc",
+      "explanation": "Les solides compacts sont formés d'un seul bloc et ont une forme propre."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Parmi ces produits, lequel est un liquide ?",
+      "options": [
+        "Farine",
+        "Sel",
+        "Huile",
+        "Riz"
+      ],
+      "answer": 2,
+      "explanation": "L'huile est un liquide, elle coule et n'a pas de forme propre."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Que signifie un pictogramme avec une tête de mort ?",
+      "options": [
+        "Produit inflammable",
+        "Produit toxique",
+        "Produit corrosif",
+        "Produit explosif"
+      ],
+      "answer": 1,
+      "explanation": "Le pictogramme avec une tête de mort indique un produit toxique."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Les liquides prennent la forme du ______ qui les contient.",
+      "answer": "récipient",
+      "explanation": "Les liquides n'ont pas de forme propre et prennent la forme du récipient."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quelle propriété permet de distinguer un solide d'un liquide ?",
+      "options": [
+        "La couleur",
+        "La saisie entre les doigts",
+        "La masse",
+        "Le volume"
+      ],
+      "answer": 1,
+      "explanation": "Les solides sont saisissables entre les doigts, les liquides ne le sont pas."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Quel est l'état physique de l'essence dans un camion citerne ?",
+      "options": [
+        "Solide compact",
+        "Solide divisé",
+        "Liquide",
+        "Gaz"
+      ],
+      "answer": 2,
+      "explanation": "L'essence dans un camion citerne est à l'état liquide."
+    },
+    {
+      "id": "q20",
+      "type": "fill",
+      "prompt": "La surface libre d'un liquide au repos est toujours plane et ______.",
+      "answer": "horizontale",
+      "explanation": "La surface libre d'un liquide au repos est plane et horizontale."
+    }
+  ]
+}

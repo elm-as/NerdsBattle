@@ -1,0 +1,167 @@
+{
+  "id": "info-sixieme-l5-tic-6eme-l5",
+  "subjectId": "info",
+  "levelId": "sixieme",
+  "slug": "l5-tic-6eme-l5",
+  "title": "Utilisation du logiciel de dessin MS Paint – Niveau 6ème",
+  "summary": "Cette leçon guide les élèves de 6ème dans la prise en main de MS Paint pour créer des logos, réaliser des formes géométriques et reproduire des dessins simples. Elle comprend une vidéo tutorielle, des consignes d'évaluation, des exercices pratiques et des critères d'auto‑évaluation.",
+  "lesson": "## Objectifs\n- Découvrir les outils de base de MS Paint (Courbe, Rectangle, Cercle, Texte).\n- Réaliser un logo à partir d’un motif textile.\n- Reproduire des formes prédéfinies (case, cosmonaute, drapeau, cube).\n- Créer l’icône Android avec les formes simples.\n- Suivre une séquence d’étapes pour dessiner un personnage (Bonhomme).\n\n## Ressources\n- Vidéo tutorielle complète : https://youtu.be/vbUqRf2KyiY\n- Document officiel MENA CI (info/sixieme) fourni aux élèves.\n\n## Déroulement\n1. **Situation d’apprentissage** – Présentation du projet logo du club TICE.\n2. **Démonstration** – L’enseignant montre comment utiliser les outils Courbe, Rectangle, Cercle et Texte.\n3. **Mise en pratique** – Les groupes reproduisent le motif du pagne en créant le logo.\n4. **Évaluation** – Chaque groupe soumet son fichier *.png* et répond à un questionnaire.\n5. **Exercices** –\n   - *Exercice 1* : Dessiner une case, un cosmonaute, le drapeau ivoirien et un cube avec les formes prédéfinies.\n   - *Exercice 2* : Réaliser l’icône Android uniquement avec les formes de base.\n   - *Exercice 3* : Suivre les 12 étapes du tableau pour créer le dessin « Bonhomme » et indiquer les outils utilisés à chaque étape.\n\n## Consignes d’évaluation\n- Respect des outils imposés.\n- Qualité du rendu (propreté, alignement, couleurs).\n- Respect du délai de 30 minutes.\n- Capacité à expliquer le choix des outils pour chaque étape.\n\n## Auto‑évaluation\n- J’ai utilisé chaque outil demandé au moins une fois.\n- Mon logo reflète le motif du pagne.\n- J’ai pu reproduire les formes demandées sans aide extérieure.\n- J’ai correctement nommé et enregistré mon fichier.\n\n---\n*Durée estimée : 10 minutes*",
+  "estimatedMinutes": 10,
+  "tags": [
+    "info",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel outil de MS Paint permet de tracer des lignes courbes libres ?",
+      "options": [
+        "Rectangle",
+        "Pinceau",
+        "Courbe",
+        "Forme libre"
+      ],
+      "answer": 2,
+      "explanation": "L’outil Courbe permet de tracer des courbes en cliquant plusieurs fois pour définir les points de contrôle."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le texte peut être ajouté dans MS Paint uniquement après avoir créé une forme de base.",
+      "answer": false,
+      "explanation": "L’outil Texte fonctionne indépendamment des formes ; on peut l’utiliser à tout moment."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Indique le format de fichier recommandé pour enregistrer le logo du club TICE sous MS Paint.",
+      "answer": "png",
+      "explanation": "Le format PNG conserve la transparence et la qualité des images créées avec MS Paint."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans l’exercice 1, quelle forme doit être utilisée pour dessiner le drapeau de la Côte d’Ivoire ?",
+      "options": [
+        "Rectangle plein",
+        "Rectangle avec bordure",
+        "Forme libre",
+        "Ellipse"
+      ],
+      "answer": 0,
+      "explanation": "Le drapeau se réalise avec trois rectangles de même taille alignés horizontalement."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Pour créer le cube de l’exercice 1, il suffit d’utiliser uniquement l’outil Rectangle.",
+      "answer": false,
+      "explanation": "Un cube nécessite plusieurs rectangles et l’outil Ligne ou Courbe pour les arêtes en perspective."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Quel raccourci clavier permet d’ouvrir la boîte de dialogue « Enregistrer sous » dans MS Paint ?",
+      "answer": "Ctrl+S",
+      "explanation": "Ctrl+S ouvre directement la sauvegarde du fichier en cours."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel est le premier outil à sélectionner pour reproduire le motif du pagne dans le logo ?",
+      "options": [
+        "Texte",
+        "Rectangle",
+        "Courbe",
+        "Cercle"
+      ],
+      "answer": 1,
+      "explanation": "Le motif du pagne commence généralement par des formes rectangulaires représentant les bandes de couleur."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "L’icône Android peut être dessinée uniquement avec les outils Cercle et Texte.",
+      "answer": false,
+      "explanation": "L’icône Android nécessite également le rectangle (pour le corps) et la courbe (pour les antennes)."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Combien d’étapes sont décrites dans le tableau de l’exercice 3 pour réaliser le dessin « Bonhomme » ?",
+      "answer": "12",
+      "explanation": "Le tableau indique explicitement 12 étapes numérotées."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel outil doit être utilisé à l’étape 5 du dessin « Bonhomme » selon le tableau fourni ?",
+      "options": [
+        "Cercle",
+        "Courbe",
+        "Texte",
+        "Rectangle"
+      ],
+      "answer": 0,
+      "explanation": "L’étape 5 correspond généralement à la création de la tête, réalisée avec l’outil Cercle."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Il est possible d’ajouter des couleurs personnalisées dans MS Paint via le sélecteur de couleur.",
+      "answer": true,
+      "explanation": "Le sélecteur de couleur permet de choisir n’importe quelle teinte RGB."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Quel terme décrit la technique consistant à superposer plusieurs formes pour créer une image plus complexe ?",
+      "answer": "Superposition",
+      "explanation": "La superposition est la méthode de base pour combiner des formes simples en un dessin complet."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel format de fichier ne conserve pas la transparence lorsqu’on enregistre une image depuis MS Paint ?",
+      "options": [
+        "PNG",
+        "BMP",
+        "GIF",
+        "TIFF"
+      ],
+      "answer": 1,
+      "explanation": "Le format BMP ne supporte pas la transparence, contrairement au PNG ou GIF."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Lors de l’évaluation, le respect du délai de 30 minutes est un critère obligatoire.",
+      "answer": true,
+      "explanation": "Le temps imparti fait partie des critères d’évaluation mentionnés dans le document."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Quel est le nom exact du club qui a commandé le logo dans la situation d’apprentissage ?",
+      "answer": "Club TICE",
+      "explanation": "Le texte indique que le club TICE du lycée a demandé le logo."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel outil de MS Paint permet de créer des formes géométriques précises comme des carrés ou des cercles ?",
+      "options": [
+        "Pinceau",
+        "Forme libre",
+        "Formes prédéfinies",
+        "Gomme"
+      ],
+      "answer": 2,
+      "explanation": "Les formes prédéfinies offrent des carrés, rectangles, ellipses, etc., avec des proportions exactes."
+    }
+  ]
+}

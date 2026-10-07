@@ -1,0 +1,84 @@
+{
+  "id": "physique-terminale-l4-cours-physique-tle-c-d-module-2-leco",
+  "subjectId": "physique",
+  "levelId": "terminale",
+  "slug": "l4-cours-physique-tle-c-d-module-2-leco",
+  "title": "MOUVEMENTS ET INTERACTIONS : LES LOIS DE NEWTON",
+  "summary": "Ce module aborde les principes fondamentaux de la cinématique et de la dynamique, en mettant l’accent sur les lois de Newton, les vecteurs vitesse et accélération, ainsi que sur l’application de ces concepts à des situations réelles telles que le mouvement d’un bus. Les notions de trajectoire, de quantité de mouvement et de mouvement rectiligne uniforme sont détaillées, accompagnées d’exercices pratiques pour consolider la compréhension.",
+  "lesson": "# Module 2 : Mouvements et Interactions\n## Leçon 4 – Les lois de Newton sur le mouvement\n\n### 1. Rappels sur les paramètres cinématiques\n- **Système matériel** : ensemble de points matériels.\n- **Référentiel** : cadre de référence pour mesurer position et mouvement.\n- **Vecteur position** : ω = ωx + ωy + ωz.\n- **Trajectoire** : ensemble des positions successives.\n- **Vecteur vitesse** : dérivée du vecteur position.\n- **Quantité de mouvement** : P = mV.\n- **Vecteur accélération** : dérivée du vecteur vitesse.\n\n### 2. Vecteurs vitesse et accélération\n- **Vitesse moyenne** : ΔV / Δt.\n- **Vitesse instantanée** : ΔV / Δt → V = dV/dt.\n- **Module de la vitesse** : |V| = sqrt(Vx² + Vy² + Vz²).\n- **Accélération moyenne** : Δa / Δt.\n- **Accélération instantanée** : a = dV/dt.\n\n### 3. Lois de Newton\n1. **Première loi** (inertie) : un corps reste au repos ou en mouvement rectiligne uniforme si aucune force nette ne s’exerce.\n2. **Deuxième loi** : F = ma. La force nette est égale à la masse multipliée par l’accélération.\n3. **Troisième loi** : action = réaction. Deux corps exercent des forces égales et opposées l’un sur l’autre.\n\n### 4. Application – Le bus de Douala\n- **Situation** : le bus s’arrête à KEKEM, redémarre, s’arrête à Bafoussam, puis continue sur le trajet ABC avec le moteur coupé.\n- **Phases** : décélération, arrêt, accélération, mouvement uniforme, décélération finale.\n- **Calculs** : déterminer l’accélération moyenne à partir du diagramme de vitesse, estimer le temps d’arrêt à KEKEM, la distance parcourue entre KEKEM et Bafoussam, et prédire le mouvement sur ABC en appliquant F = ma (avec F = 0 après coupure du moteur).\n\n### 5. Exercice d’application\n- **Exemple** : vecteur position d’un mobile de masse 10 g donné. Calculer vitesse, accélération, module de l’accélération à t = 2 s, quantité de mouvement, trajectoire, et accélération d’un autre mobile atteignant 120 km/h en 15 min.\n\n### 6. Mouvements rectilignes\n- **Uniforme** : a = 0, V = const.\n- **Uniformément accéléré** : V = V0 + at, x = x0 + V0t + ½at².\n\n---\n\n## Points clés à retenir\n- La vitesse et l’accélération sont des vecteurs ; leurs modules et directions sont essentiels.\n- La quantité de mouvement est conservée lorsqu’il n’y a pas de forces extérieures.\n- Les lois de Newton permettent de prédire le mouvement à partir des forces appliquées.\n- Dans un référentiel inertiel, la deuxième loi est la relation fondamentale entre force, masse et accélération.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel vecteur représente la variation de position d’un mobile entre deux instants t1 et t2 ?",
+      "options": [
+        "Vecteur vitesse moyenne",
+        "Vecteur position",
+        "Vecteur accélération moyenne",
+        "Vecteur vitesse instantanée"
+      ],
+      "answer": 1,
+      "explanation": "Le vecteur position ω est défini par les coordonnées x, y, z à chaque instant."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La vitesse instantanée est la dérivée du vecteur position par rapport au temps.",
+      "options": [
+        "V = dω/dt",
+        "V = dV/dt",
+        "V = dV/dt²",
+        "V = dω/dt²"
+      ],
+      "answer": 0,
+      "explanation": "La vitesse instantanée est la dérivée première du vecteur position."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est le module de la vitesse d’un mobile dont Vx = 3 m/s, Vy = 4 m/s, Vz = 0 m/s ?",
+      "options": [
+        "5 m/s",
+        "7 m/s",
+        "6 m/s",
+        "8 m/s"
+      ],
+      "answer": 0,
+      "explanation": "|V| = sqrt(3²+4²)=5 m/s."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "La deuxième loi de Newton s’écrit :",
+      "options": [
+        "F = ma",
+        "F = mv",
+        "F = ma²",
+        "F = m/v"
+      ],
+      "answer": 0,
+      "explanation": "La force nette est égale à la masse multipliée par l’accélération."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Un bus s’arrête à KEKEM, redémarre, puis s’arrête à Bafoussam. Quelle phase correspond à une accélération négative ?",
+      "options": [
+        "Arrêt à KEKEM",
+        "Décélération après le redémarrage",
+        "Arrêt à Bafoussam",
+        "Mouvement uniforme entre les deux arrêts"
+      ],
+      "answer": 1,
+      "explanation": "La décélération correspond à une accélération négative."
+    }
+  ]
+}

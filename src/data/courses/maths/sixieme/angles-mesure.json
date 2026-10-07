@@ -1,0 +1,70 @@
+{
+  "id": "maths-sixieme-angles-mesure",
+  "title": "Notion d'angles et mesure au rapporteur",
+  "summary": "Ce chapitre te rend maître des angles : tu apprendras à les reconnaître, les nommer et les mesurer avec précision. C'est une compétence indispensable pour réussir en géométrie et pour résoudre des problèmes concrets de la vie courante.",
+  "lesson": "## Introduction & Mise en situation\n\nLes angles sont partout autour de toi : dans les aiguilles d'une horloge, l'inclinaison d'un toit, l'ouverture d'une porte ou encore les virages d'une route. Comprendre ce qu'est un angle et savoir le mesurer, c'est comme avoir un super-pouvoir pour décrire et construire le monde. Dans ce chapitre, tu vas apprendre à identifier les différents types d'angles et à utiliser le rapporteur pour les mesurer avec exactitude. Cette compétence te sera utile non seulement en mathématiques, mais aussi en arts plastiques, en technologie et même en sport !\n\n## 1. Définitions et Principes Fondamentaux\n\n### Qu'est-ce qu'un angle ?\n\nUn angle est une figure géométrique formée par deux demi-droites (appelées **côtés** de l'angle) qui partagent une même origine (appelée **sommet**).\n\n- Le sommet est noté par une lettre majuscule (par exemple $O$).\n- Les côtés sont souvent notés par des lettres (par exemple $[OA)$ et $[OB)$).\n\nOn note un angle de trois lettres : $\\widehat{AOB}$ ou $\\widehat{BOA}$ (la lettre du sommet au milieu).\n\n### Mesure d'un angle\n\nLa mesure d'un angle s'exprime en **degrés** (°). Un degré est une unité de mesure d'angle. Un angle droit mesure $90^\\circ$, un angle plat mesure $180^\\circ$, un angle plein mesure $360^\\circ$.\n\n### Types d'angles\n\n- **Angle aigu** : mesure entre $0^\\circ$ et $90^\\circ$ (exclus).\n- **Angle droit** : mesure exactement $90^\\circ$.\n- **Angle obtus** : mesure entre $90^\\circ$ et $180^\\circ$ (exclus).\n- **Angle plat** : mesure exactement $180^\\circ$.\n\n### Le rapporteur\n\nLe rapporteur est un instrument de mesure en forme de demi-cercle ou de cercle complet, gradué en degrés de $0^\\circ$ à $180^\\circ$ (ou $360^\\circ$). Il permet de mesurer un angle ou de tracer un angle de mesure donnée.\n\n## 2. Propriétés et Méthodes d'application\n\n### Mesurer un angle avec le rapporteur\n\nVoici la méthode pas à pas pour mesurer un angle $\\widehat{AOB}$ :\n\n1. **Placer le centre** du rapporteur (souvent un petit trou ou une croix) sur le sommet $O$ de l'angle.\n2. **Aligner** la ligne de base du rapporteur (le diamètre) avec un des côtés de l'angle, par exemple $[OA)$.\n3. **Lire** la mesure sur la graduation en partant de $0^\\circ$ jusqu'à l'endroit où l'autre côté $[OB)$ coupe le rapporteur.\n\n**Exemple concret :**\n\nPrenons un angle $\\widehat{ABC}$ où le côté $[BA)$ est aligné avec la ligne de base. Le côté $[BC)$ coupe le rapporteur à la graduation $45$. On lit donc : $\\widehat{ABC} = 45^\\circ$.\n\n### Tracer un angle de mesure donnée\n\nPour tracer un angle de mesure $\\alpha$ (par exemple $60^\\circ$) :\n\n1. Tracer une demi-droite $[OA)$.\n2. Placer le centre du rapporteur sur $O$ et aligner la ligne de base avec $[OA)$.\n3. Marquer un point à la graduation $\\alpha$ (par exemple $60^\\circ$).\n4. Tracer la demi-droite $[OB)$ passant par ce point.\n\n### Propriétés importantes\n\n- Deux angles sont **complémentaires** si leur somme vaut $90^\\circ$.\n- Deux angles sont **supplémentaires** si leur somme vaut $180^\\circ$.\n- La somme des angles d'un triangle est toujours égale à $180^\\circ$.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre les graduations** : Le rapporteur a deux échelles (de gauche à droite et de droite à gauche). Il faut bien lire dans le bon sens. Pour éviter cela, vérifie si l'angle est aigu (moins de 90°) ou obtus (plus de 90°) et choisis la graduation correspondante.\n- **Mal placer le centre** : Si le centre du rapporteur n'est pas exactement sur le sommet, la mesure sera fausse. Prends ton temps pour bien positionner.\n- **Confondre angle aigu et obtus** : Un angle aigu est plus petit qu'un angle droit, un angle obtus est plus grand. Visualise un angle droit pour comparer.\n- **Oublier l'unité** : N'oublie pas d'écrire le symbole $^\\circ$ après la mesure.\n\n## Synthèse\n\n1. **Un angle se définit par son sommet et ses deux côtés** ; il se mesure en degrés à l'aide d'un rapporteur.\n2. **Il existe quatre types d'angles** : aigu (< 90°), droit (= 90°), obtus (> 90° et < 180°), plat (= 180°).\n3. **La méthode de mesure** : centre sur le sommet, alignement d'un côté, lecture de l'autre côté sur la bonne échelle.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "angles",
+    "géométrie",
+    "mesure",
+    "rapporteur",
+    "sixième"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le nom de l'angle qui mesure 120° ?",
+      "options": [
+        "Angle aigu",
+        "Angle droit",
+        "Angle obtus",
+        "Angle plat"
+      ],
+      "answer": 2,
+      "explanation": "Un angle obtus mesure entre 90° et 180°. 120° est donc un angle obtus."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Un angle plat mesure 90°.",
+      "answer": false,
+      "explanation": "Un angle plat mesure 180°, pas 90°. 90° correspond à un angle droit."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "La somme des angles d'un triangle est toujours égale à ___ degrés.",
+      "answer": "180",
+      "explanation": "C'est une propriété fondamentale de la géométrie : dans tout triangle, la somme des trois angles vaut 180°."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Pour mesurer un angle avec un rapporteur, où doit-on placer le centre du rapporteur ?",
+      "options": [
+        "Sur un côté de l'angle",
+        "Sur le sommet de l'angle",
+        "N'importe où",
+        "Sur l'autre côté de l'angle"
+      ],
+      "answer": 1,
+      "explanation": "Le centre du rapporteur doit être exactement sur le sommet de l'angle pour obtenir une mesure correcte."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Deux angles complémentaires ont une somme de 180°.",
+      "answer": false,
+      "explanation": "Deux angles complémentaires ont une somme de 90°. Ceux dont la somme est 180° sont supplémentaires."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Un angle droit mesure ___ degrés.",
+      "answer": "90",
+      "explanation": "Par définition, un angle droit est un angle de 90°."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "physique-terminale-mouvement-champ-pesanteur-uniforme",
+  "title": "Mouvement d'un projectile dans un champ de pesanteur",
+  "summary": "Ce chapitre est la clé pour décrire et prévoir la trajectoire d'un objet lancé dans l'air, comme un ballon ou une balle. En maîtrisant les équations horaires et l'équation de la trajectoire, vous pourrez résoudre des problèmes concrets de portée, de flèche et de temps de vol, des incontournables du BAC.",
+  "lesson": "## Introduction & Mise en situation\n\nL'étude du mouvement d'un projectile dans un champ de pesanteur est un classique de la mécanique. Elle permet de comprendre des phénomènes aussi variés que le lancer d'un poids, un tir au basket, ou encore la trajectoire d'un jet d'eau. Dans ce chapitre, nous allons modéliser le mouvement d'un objet (projectile) lancé avec une vitesse initiale, en négligeant les frottements de l'air. Ce modèle simple, mais puissant, est au programme de Terminale et constitue une base pour la mécanique newtonienne.\n\n## 1. Définitions et Principes Fondamentaux\n\n### Le champ de pesanteur\n\nPrès de la surface de la Terre, tout corps est soumis à son poids $\\vec{P}$, qui s'exerce verticalement vers le bas. On définit le champ de pesanteur $\\vec{g}$ tel que :\n\n$$\\vec{P} = m \\vec{g}$$\n\nAvec $m$ la masse du corps (en kg) et $\\vec{g}$ l'accélération de la pesanteur (en $\\text{m/s}^2$). En un lieu donné, $g \\approx 9,8 \\ \\text{m/s}^2$.\n\n### Le projectile et les conditions initiales\n\nUn projectile est un objet lancé dans l'espace avec une vitesse initiale $\\vec{v}_0$. On choisit un repère $(O, \\vec{i}, \\vec{j}, \\vec{k})$ orthonormé, souvent avec $\\vec{k}$ vertical vers le haut. Le mouvement se déroule dans le plan vertical contenant le vecteur vitesse initiale. On peut donc se ramener à un plan $(O, \\vec{i}, \\vec{k})$.\n\nOn note $\\alpha$ l'angle que fait $\\vec{v}_0$ avec l'horizontale. Les coordonnées du vecteur vitesse initiale sont :\n\n$$\\begin{cases} v_{0x} = v_0 \\cos \\alpha \\\\ v_{0y} = v_0 \\sin \\alpha \\end{cases}$$\n\n### La deuxième loi de Newton\n\nDans un référentiel terrestre supposé galiléen, la deuxième loi de Newton s'écrit :\n\n$$\\sum \\vec{F}_{\\text{ext}} = m \\vec{a}$$\n\nSi on néglige les frottements, la seule force est le poids $\\vec{P}$. Donc :\n\n$$m \\vec{g} = m \\vec{a} \\quad \\Rightarrow \\quad \\vec{a} = \\vec{g}$$\n\nAinsi, l'accélération du projectile est constante et égale au vecteur champ de pesanteur.\n\n## 2. Propriétés et Méthodes d'application\n\n### Établissement des équations horaires\n\nOn projette la relation $\\vec{a} = \\vec{g}$ dans le repère $(O, \\vec{i}, \\vec{k})$ :\n\n$$\\begin{cases} a_x = 0 \\\\ a_y = -g \\end{cases}$$\n\nEn intégrant par rapport au temps, on obtient les composantes de la vitesse :\n\n$$\\begin{cases} v_x = v_{0x} = v_0 \\cos \\alpha \\\\ v_y = -g t + v_{0y} = -g t + v_0 \\sin \\alpha \\end{cases}$$\n\nEn intégrant une seconde fois, on obtient les équations horaires de la position (coordonnées du point M) :\n\n$$\\begin{cases} x(t) = v_0 \\cos \\alpha \\cdot t + x_0 \\\\ y(t) = -\\frac{1}{2} g t^2 + v_0 \\sin \\alpha \\cdot t + y_0 \\end{cases}$$\n\nOù $(x_0, y_0)$ sont les coordonnées initiales du projectile.\n\n### Équation de la trajectoire\n\nPour obtenir la trajectoire, on élimine le temps $t$ entre $x(t)$ et $y(t)$. De $x(t) = v_0 \\cos \\alpha \\cdot t + x_0$, on tire $t = \\frac{x - x_0}{v_0 \\cos \\alpha}$ (si $\\cos \\alpha \\neq 0$). En remplaçant dans $y(t)$, on obtient une équation de la forme :\n\n$$y = -\\frac{g}{2 v_0^2 \\cos^2 \\alpha} (x - x_0)^2 + \\tan \\alpha (x - x_0) + y_0$$\n\nC'est l'équation d'une parabole. La trajectoire est donc une parabole.\n\n### Méthode pour résoudre un exercice type\n\n1. **Définir le repère** et les conditions initiales (position et vitesse).\n2. **Appliquer la deuxième loi de Newton** pour obtenir l'accélération.\n3. **Intégrer** pour obtenir les équations horaires de la vitesse puis de la position.\n4. **Utiliser les équations** pour répondre aux questions : temps de vol, portée, flèche, etc.\n\n#### Exemple concret :\n\nUn joueur de football frappe un ballon depuis le sol avec une vitesse initiale $v_0 = 20 \\ \\text{m/s}$ et un angle $\\alpha = 45°$. On prend $g = 10 \\ \\text{m/s}^2$. Déterminons la portée (distance horizontale parcourue avant de retomber au sol).\n\n**Solution :**\n\nLe repère est choisi avec l'origine au point de départ, donc $x_0 = 0$, $y_0 = 0$. Les équations horaires sont :\n\n$$\\begin{cases} x(t) = 20 \\cos 45° \\cdot t = 10\\sqrt{2} \\, t \\\\ y(t) = -5 t^2 + 20 \\sin 45° \\cdot t = -5 t^2 + 10\\sqrt{2} \\, t \\end{cases}$$\n\nLe ballon retombe au sol quand $y(t) = 0$ :\n\n$$-5 t^2 + 10\\sqrt{2} t = 0 \\Rightarrow t(-5t + 10\\sqrt{2}) = 0$$\n\nDonc $t = 0$ (départ) ou $t = \\frac{10\\sqrt{2}}{5} = 2\\sqrt{2} \\approx 2,83 \\ \\text{s}$.\n\nLa portée est $x(t_{\\text{vol}}) = 10\\sqrt{2} \\times 2\\sqrt{2} = 40 \\ \\text{m}$.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre accélération et vitesse** : L'accélération est constante et égale à $\\vec{g}$, mais la vitesse varie. Ne pas écrire $v = g t$ sans tenir compte de la vitesse initiale.\n- **Oublier le signe de $g$** : Si l'axe vertical est vers le haut, $g$ est négatif dans les équations. Vérifiez toujours l'orientation du repère.\n- **Négliger la condition $\\cos \\alpha \\neq 0$** : Si le tir est vertical ($\\alpha = 90°$), l'équation de la trajectoire n'est pas valable sous cette forme, car $x$ est constant.\n- **Ne pas prendre en compte les conditions initiales** : Les constantes d'intégration doivent être déterminées avec les valeurs initiales de position et de vitesse.\n- **Utiliser $g = 10$ au lieu de $9,8$ sans le mentionner** : Dans les exercices, on précise souvent la valeur à utiliser. Restez cohérent avec l'énoncé.\n\n## Synthèse\n\n- **L'accélération d'un projectile dans un champ de pesanteur uniforme est constante et égale à $\\vec{g}$** (si on néglige les frottements).\n- **Les équations horaires** sont : $x(t) = v_0 \\cos \\alpha \\cdot t + x_0$ et $y(t) = -\\frac{1}{2} g t^2 + v_0 \\sin \\alpha \\cdot t + y_0$.\n- **La trajectoire est une parabole** dont l'équation s'obtient en éliminant le temps entre $x(t)$ et $y(t)$.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "mécanique",
+    "projectile",
+    "champ de pesanteur",
+    "équations horaires",
+    "bac"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans le mouvement d'un projectile sans frottement, que vaut l'accélération ?",
+      "options": [
+        "Elle est nulle",
+        "Elle est égale à g, verticale vers le bas",
+        "Elle est égale à la vitesse initiale",
+        "Elle dépend de la masse du projectile"
+      ],
+      "answer": 1,
+      "explanation": "D'après la deuxième loi de Newton, la seule force est le poids, donc l'accélération est égale au champ de pesanteur g, vertical vers le bas."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La trajectoire d'un projectile dans un champ de pesanteur uniforme est toujours une parabole.",
+      "answer": true,
+      "explanation": "En négligeant les frottements, l'équation de la trajectoire est du second degré en x, donc une parabole."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Un projectile est lancé avec une vitesse initiale de 10 m/s et un angle de 30° avec l'horizontale. Quelle est la composante horizontale de la vitesse initiale (en m/s) ? (arrondir à 0,1 près)",
+      "answer": "8.7",
+      "explanation": "v0x = v0 * cos(30°) = 10 * 0.866 = 8.66 ≈ 8.7 m/s"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Pour un projectile lancé depuis le sol, le temps de vol est donné par :",
+      "options": [
+        "t = (2 v0 sin α) / g",
+        "t = (v0 sin α) / g",
+        "t = (v0 cos α) / g",
+        "t = (2 v0 cos α) / g"
+      ],
+      "answer": 0,
+      "explanation": "En résolvant y(t) = 0 avec y0=0, on obtient t = (2 v0 sin α) / g."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Dans le repère avec axe vertical vers le haut, la composante verticale de l'accélération est positive.",
+      "answer": false,
+      "explanation": "L'accélération est verticale vers le bas, donc si l'axe est vers le haut, la composante verticale est négative (-g)."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Un projectile est lancé avec une vitesse initiale de 20 m/s et un angle de 45°. Calculez la portée (en m) en prenant g = 10 m/s².",
+      "answer": "40",
+      "explanation": "La portée est x(t_vol) = (v0² * sin(2α)) / g = (20² * sin(90°)) / 10 = 400 / 10 = 40 m."
+    }
+  ]
+}

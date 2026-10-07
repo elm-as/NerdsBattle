@@ -1,0 +1,78 @@
+{
+  "id": "maths-premiere-l1-cours-maths-apc-1iere-c-d-plateau-du",
+  "subjectId": "maths",
+  "levelId": "premiere",
+  "slug": "l1-cours-maths-apc-1iere-c-d-plateau-du",
+  "title": "Cours de Mathématiques – 1ère CDE & TI (APC)",
+  "summary": "Ce cours présente les notions fondamentales de l’algèbre, de la géométrie analytique, de la trigonométrie, des suites, des fonctions, des limites, de la dérivation, de l’étude de fonctions, des espaces vectoriels, des transformations du plan et de l’orthogonalité dans l’espace. Il est structuré en chapitres et leçons, avec des exemples, des exercices corrigés et des applications pratiques.",
+  "lesson": "# Chapitre 1 : Équations et Inéquations\n\n## Léçon 1 : Polynôme du second degré\n- **Équation** : (ax^2+bx+c=0)\n- **Discriminant** : (Delta=b^2-4ac)\n- **Solutions** : (displaystyle x=\frac{-bpmsqrt{Delta}}{2a})\n\n## Léçon 2 : Systèmes d’équations linéaires\n- **Méthode de substitution**\n- **Méthode d’élimination**\n- **Méthode matricielle** (réduction de Gauss)\n\n# Chapitre 2 : Barycentre\n\n## Léçon 1 : Barycentre de deux points\n- **Formule** : (displaystyle G=\frac{m_1A+m_2B}{m_1+m_2})\n\n## Léçon 2 : Barycentre de plusieurs points pondérés\n- **Formule** : (displaystyle G=\frac{sum_{i=1}^{n}m_iP_i}{sum_{i=1}^{n}m_i})\n\n# Chapitre 3 : Géométrie analytique du plan\n\n## Léçon 1 : Droites du plan\n- **Équation cartésienne** : (ax+by+c=0)\n- **Pente** : (m=-\frac{a}{b})\n\n## Léçon 2 : Cercles\n- **Équation** : ((x-a)^2+(y-b)^2=r^2)\n\n# Chapitre 4 : Angles orientés et trigonométrie\n\n## Léçon 1 : Angles orientés\n- **Mesure** : de 0 à (2pi) radians\n\n## Léçon 2 : Formules de trigonométrie\n- **Identités** : (sin^2\theta+cos^2\theta=1), (\tan\theta=\frac{sin\theta}{cos\theta})\n\n# Chapitre 5 : Suites numériques\n\n## Léçon 1 : Suites arithmétiques\n- **Récurrence** : (u_{n+1}=u_n+d)\n\n## Léçon 2 : Suites géométriques\n- **Récurrence** : (u_{n+1}=q,u_n)\n\n# Chapitre 6 : Fonctions\n\n## Léçon 1 : Applications\n- **Fonction linéaire** : (f(x)=mx+b)\n\n## Léçon 2 : Opérations sur les fonctions\n- **Addition, soustraction, multiplication, division**\n\n# Chapitre 7 : Limites et continuité\n\n## Léçon 1 : Limite d’une fonction\n- **Définition** : (displaystyle lim_{x\to a}f(x)=L)\n\n## Léçon 2 : Continuité\n- **Condition** : (displaystyle lim_{x\to a}f(x)=f(a))\n\n# Chapitre 8 : Dérivation\n\n## Léçon 1 : Dérivabilité\n- **Dérivée** : (f'(x)=lim_{h\to0}\frac{f(x+h)-f(x)}{h})\n\n# Chapitre 9 : Étude de fonctions\n\n## Léçon 1 : Courbe d’une fonction\n- **Points critiques** : (f'(x)=0)\n\n# Chapitre 10 : Espaces vectoriels réels\n\n## Léçon 1 : Notion d’espace vectoriel\n- **Axiomes** : addition, multiplication scalaire\n\n# Chapitre 11 : Transformations du plan\n\n## Léçon 1 : Isométries\n- **Rotations, réflexions, translations**\n\n# Chapitre 12 : Orthogonalité dans l’espace\n\n## Léçon 1 : Droites orthogonales\n- **Produit scalaire** : (vec{u}cdotvec{v}=0)",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "premiere",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le discriminant d’un polynôme du second degré (ax^2+bx+c) ?",
+      "options": [
+        "(b^2-4ac)",
+        "(a^2-4bc)",
+        "(b^2+4ac)",
+        "(a^2+b^2+c^2)"
+      ],
+      "answer": 0,
+      "explanation": "Le discriminant (Delta) est défini par (b^2-4ac)."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La formule du barycentre de deux points (A) et (B) pondérés par (m_1) et (m_2) est ?",
+      "options": [
+        "(\frac{m_1A+m_2B}{m_1+m_2})",
+        "(\frac{A+B}{2})",
+        "(\frac{m_1A-m_2B}{m_1+m_2})",
+        "(\frac{m_1+m_2}{A+B})"
+      ],
+      "answer": 0,
+      "explanation": "Le barycentre est la moyenne pondérée des positions."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est l’équation d’un cercle de centre ((a,b)) et de rayon (r) ?",
+      "options": [
+        "((x-a)^2+(y-b)^2=r^2)",
+        "((x-a)+(y-b)=r^2)",
+        "((x-a)^2+(y-b)^2=r)",
+        "((x-a)^2+(y-b)^2=2r)"
+      ],
+      "answer": 0,
+      "explanation": "C’est la forme canonique du cercle."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "prompt": "La formule de la dérivée d’une fonction (f(x)) est (displaystyle f'(x)=lim_{h\to0}\frac{f(x+h)-f(x)}{h}).",
+      "answer": "f'(x)=lim_{h→0}(f(x+h)-f(x))/h",
+      "explanation": "C’est la définition de la dérivée."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Dans une suite arithmétique, la différence entre deux termes consécutifs est appelée ?",
+      "options": [
+        "la raison",
+        "le premier terme",
+        "la différence commune",
+        "le terme général"
+      ],
+      "answer": 2,
+      "explanation": "La différence commune est constante et égale à (d)."
+    }
+  ]
+}

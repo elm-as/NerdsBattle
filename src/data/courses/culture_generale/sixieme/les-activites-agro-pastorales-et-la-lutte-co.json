@@ -1,0 +1,177 @@
+{
+  "id": "culture_generale-sixieme-les-activites-agro-pastorales-et-la-lutte-co",
+  "subjectId": "culture_generale",
+  "levelId": "sixieme",
+  "slug": "les-activites-agro-pastorales-et-la-lutte-co",
+  "title": "Leçon 8 : Les activités agro-pastorales et la lutte contre le chômage",
+  "summary": "Les activités agro-pastorales concernent les productions végétales et animales. Elles créent des emplois, réduisent le chômage et améliorent les conditions de vie.",
+  "lesson": "# Leçon 8 : Les activités agro-pastorales et la lutte contre le chômage\n\n## 1. Définition des activités agro-pastorales\n\nLes activités agro-pastorales sont des activités qui concernent les productions végétales ou animales.\n\n### Exemples :\n- l’agriculture\n- la pisciculture\n- l’aviculture\n- l’héliciculture\n- l’apiculture\n- l’élevage de bovins\n\n## 2. Les étapes de la création des activités agro-pastorales\n\n1. Identification du projet\n2. Prospection du marché\n3. Choix du site\n4. Estimation du capital\n5. Identification des sources de financement\n\n## 3. Les bienfaits des activités agro-pastorales\n\n### Au plan économique :\n- diversification des productions\n- variation des sources de revenus\n- accroissement des bénéfices\n- autonomie financière\n\n### Au plan social :\n- insertion aisée de l’individu qui exerce un métier. Il jouit de la considération et du respect de la famille et de la communauté.\n- réduction du chômage\n- amélioration des conditions de vie",
+  "estimatedMinutes": 10,
+  "tags": [
+    "culture_generale",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Que sont les activités agro-pastorales ?",
+      "options": [
+        "Des activités qui concernent les productions végétales ou animales",
+        "Des activités uniquement industrielles",
+        "Des activités de commerce uniquement",
+        "Des activités de services"
+      ],
+      "answer": 0,
+      "explanation": "D'après le document, les activités agro-pastorales concernent les productions végétales ou animales."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Parmi les exemples suivants, lequel n'est pas cité comme activité agro-pastorale dans le document ?",
+      "options": [
+        "L'agriculture",
+        "La pisciculture",
+        "L'aviculture",
+        "La sylviculture"
+      ],
+      "answer": 3,
+      "explanation": "La sylviculture n'est pas mentionnée dans la liste des exemples du document."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la première étape de la création des activités agro-pastorales ?",
+      "options": [
+        "Prospection du marché",
+        "Identification du projet",
+        "Choix du site",
+        "Estimation du capital"
+      ],
+      "answer": 1,
+      "explanation": "La première étape est l'identification du projet."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle est la troisième étape de la création des activités agro-pastorales ?",
+      "options": [
+        "Identification du projet",
+        "Prospection du marché",
+        "Choix du site",
+        "Estimation du capital"
+      ],
+      "answer": 2,
+      "explanation": "La troisième étape est le choix du site."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Complétez : La deuxième étape de la création des activités agro-pastorales est la ________ du marché.",
+      "answer": "prospection",
+      "explanation": "La deuxième étape est la prospection du marché."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel est un bienfait économique des activités agro-pastorales ?",
+      "options": [
+        "Réduction du chômage",
+        "Amélioration des conditions de vie",
+        "Diversification des productions",
+        "Insertion aisée de l'individu"
+      ],
+      "answer": 2,
+      "explanation": "La diversification des productions est un bienfait économique."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Parmi les propositions suivantes, laquelle est un bienfait social des activités agro-pastorales ?",
+      "options": [
+        "Accroissement des bénéfices",
+        "Autonomie financière",
+        "Variation des sources de revenus",
+        "Réduction du chômage"
+      ],
+      "answer": 3,
+      "explanation": "La réduction du chômage est un bienfait social."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Complétez : Au plan social, les activités agro-pastorales permettent une insertion ________ de l'individu qui exerce un métier.",
+      "answer": "aisée",
+      "explanation": "Le document parle d'une insertion aisée de l'individu."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel exemple d'activité agro-pastorale est cité dans le document ?",
+      "options": [
+        "La pêche en mer",
+        "L'apiculture",
+        "La chasse",
+        "L'exploitation forestière"
+      ],
+      "answer": 1,
+      "explanation": "L'apiculture est citée comme exemple."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quelle étape vient après l'estimation du capital ?",
+      "options": [
+        "Identification du projet",
+        "Prospection du marché",
+        "Choix du site",
+        "Identification des sources de financement"
+      ],
+      "answer": 3,
+      "explanation": "Après l'estimation du capital, on identifie les sources de financement."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Complétez : Les activités agro-pastorales entraînent une ________ des sources de revenus.",
+      "answer": "variation",
+      "explanation": "Le document parle de variation des sources de revenus."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel bienfait économique correspond à l'accroissement des bénéfices ?",
+      "options": [
+        "Social",
+        "Économique",
+        "Culturel",
+        "Politique"
+      ],
+      "answer": 1,
+      "explanation": "L'accroissement des bénéfices est un bienfait économique."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quelle activité n'est pas un exemple d'activité agro-pastorale selon le document ?",
+      "options": [
+        "L'aviculture",
+        "L'élevage de bovins",
+        "La pisciculture",
+        "La pêche industrielle"
+      ],
+      "answer": 3,
+      "explanation": "La pêche industrielle n'est pas citée dans le document."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "prompt": "Complétez : Au plan social, l'individu qui exerce un métier agro-pastoral jouit de la ________ et du respect de sa famille et de sa communauté.",
+      "answer": "considération",
+      "explanation": "Le document mentionne la considération et le respect."
+    }
+  ]
+}

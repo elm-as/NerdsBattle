@@ -1,0 +1,179 @@
+{
+  "id": "physique-sixieme-l6-masse-dun-solide-et-dun-liquide",
+  "subjectId": "physique",
+  "levelId": "sixieme",
+  "slug": "l6-masse-dun-solide-et-dun-liquide",
+  "title": "Mesure de la masse d'un solide et d'un liquide (6e)",
+  "summary": "Cette leçon explique la notion de masse, les unités, le principe de la balance Roberval et les méthodes de pesée simple, double et de liquides. Elle inclut des activités d'application, des exemples de calcul et une situation d'évaluation pour déterminer la masse d'un jus de citron.",
+  "lesson": "## 1. Masse d’un corps\n- **Définition** : Grandeur mesurée avec une balance, notée *m* ou *M*.\n- **Unité légale** : kilogramme (kg) avec ses multiples (t, hg, dag, g, dg, cg, mg).\n\n## 2. Principe d’une pesée simple\n### 2.1 Balance Roberval\nDispositif à deux plateaux et une aiguille qui indique l’équilibre.\n### 2.2 Pesée d’un solide\n1. Vérifier l’équilibre à vide.\n2. Placer l’objet inconnu sur un plateau.\n3. Ajouter des masses connues sur l’autre plateau, de la plus grande à la plus petite, jusqu’à rétablir l’équilibre.\n4. Faire la somme des masses ajoutées → masse de l’objet.\n\n## 3. Pesée d’un liquide (simple)\n1. Peser le récipient vide → *m₁*.\n2. Peser le récipient contenant le liquide → *m₂*.\n3. Masse du liquide = *m₂ – m₁*.\n\n## 4. Exemple : masse d’un ananas\nUtilisation des masses de 500 g, 100 g et 20 g → *m = 620 g*.\n\n## 5. Pesée double (balance non juste)\n1. Placer l’objet + une tare plus lourde sur le plateau opposé.\n2. Ajouter des masses jusqu’à l’équilibre → note *m₁*.\n3. Retirer l’objet, rétablir l’équilibre avec des masses → note *m₂*.\n4. Masse de l’objet = *m₂ – m₁*.\n\n## 6. Autres types de balances\nBalances à fléau, électroniques, à ressort, etc.\n\n## 7. Situation d’évaluation\nDéterminer la masse du jus de citron dans un gobelet en utilisant une balance.\n- Instrument : **balance**.\n- *m₁* (gobelet vide) = 150 g.\n- *m₂* (gobelet + jus) = 710 g.\n- Masse du jus = *m₂ – m₁* = 560 g.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel instrument sert à mesurer la masse d’un corps?",
+      "options": [
+        "Règle",
+        "Balance",
+        "Thermomètre",
+        "Baromètre"
+      ],
+      "answer": 1,
+      "explanation": "La balance est l’instrument dédié à la mesure de la masse."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle est l’unité légale de la masse?",
+      "options": [
+        "gramme",
+        "kilogramme",
+        "litre",
+        "newton"
+      ],
+      "answer": 1,
+      "explanation": "Le kilogramme (kg) est l’unité légale du Système International."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "La balance Roberval possède un seul plateau.",
+      "answer": false,
+      "explanation": "Elle possède deux plateaux reliés à un fléau."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Complète : La masse d’un corps se mesure avec une ___________.",
+      "answer": "balance",
+      "explanation": "Le texte indique que la masse se mesure à l’aide d’une balance."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Dans la pesée simple, après avoir placé l’objet, que doit‑on faire?",
+      "options": [
+        "Ajouter de l’eau",
+        "Ajouter des masses connues",
+        "Allumer la lumière",
+        "Mesurer la température"
+      ],
+      "answer": 1,
+      "explanation": "On ajoute des masses connues jusqu’à rétablir l’équilibre."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle est la formule pour obtenir la masse d’un liquide par simple pesée?",
+      "options": [
+        "m = m1 + m2",
+        "m = m2 – m1",
+        "m = m1 – m2",
+        "m = m1 × m2"
+      ],
+      "answer": 1,
+      "explanation": "La masse du liquide est la différence entre la masse du récipient plein et vide."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Dans l’exemple de l’ananas, la masse totale obtenue est de __________ g.",
+      "answer": "620",
+      "explanation": "500 g + 100 g + 20 g = 620 g."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Lors d’une pesée double, on note m1 avant de retirer l’objet.",
+      "answer": true,
+      "explanation": "m1 est notée avec l’objet et la tare, avant de le retirer."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Si m1 = 55 g et m2 = 270 g, quelle est la masse de l’objet?",
+      "options": [
+        "215 g",
+        "325 g",
+        "2150 g",
+        "55 g"
+      ],
+      "answer": 0,
+      "explanation": "m = m2 – m1 = 270 g – 55 g = 215 g."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Dans la situation d’évaluation, la masse du jus de citron est de __________ g.",
+      "answer": "560",
+      "explanation": "m = 710 g – 150 g = 560 g."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel type de balance est le plus souvent utilisé en laboratoire scolaire?",
+      "options": [
+        "Balance à fléau",
+        "Balance électronique",
+        "Balance à ressort",
+        "Balance à pendule"
+      ],
+      "answer": 0,
+      "explanation": "La balance à fléau (type Roberval) est courante dans les classes."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Les sous‑multiples du kilogramme comprennent le décagramme (dag).",
+      "answer": true,
+      "explanation": "dag = 10 g, fait partie des sous‑multiples."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel est le premier pas de la pesée d’un liquide?",
+      "options": [
+        "Verser le liquide dans le récipient",
+        "Peser le récipient vide",
+        "Allumer la balance",
+        "Noter la température"
+      ],
+      "answer": 1,
+      "explanation": "On commence par peser le récipient vide (m1)."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Le symbole de la masse dans les formules est généralement __________.",
+      "answer": "m",
+      "explanation": "Le texte indique que la masse est notée m ou M."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Dans une pesée simple, on peut utiliser les masses dans le désordre (petite avant grande).",
+      "answer": false,
+      "explanation": "On doit procéder de la plus grande à la plus petite pour gagner du temps."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel est l’avantage principal de la pesée double?",
+      "options": [
+        "Elle ne nécessite pas de balance",
+        "Elle compense une balance non juste",
+        "Elle mesure le volume",
+        "Elle mesure la température"
+      ],
+      "answer": 1,
+      "explanation": "La pesée double permet d’obtenir une mesure exacte même si la balance n’est pas équilibrée à vide."
+    }
+  ]
+}

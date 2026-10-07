@@ -1,0 +1,70 @@
+{
+  "id": "physique-terminale-equilibres-acido-basiques-ph",
+  "title": "Équilibres acido-basiques, pH et constante d'acidité Ka",
+  "summary": "Maîtrisez les réactions acido-basiques et le calcul du pH, un outil indispensable pour résoudre les problèmes de chimie au BAC. Ce chapitre vous donne les clés pour comprendre la force des acides et des bases grâce à la constante d'acidité Ka et au pKa.",
+  "lesson": "## Introduction & Mise en situation\n\nLes réactions acido-basiques sont omniprésentes : dans notre corps (sang, sucs gastriques), dans l'environnement (pluies acides, océans), et dans l'industrie (fabrication d'engrais, de médicaments). Comprendre comment mesurer et prévoir le pH d'une solution est essentiel pour tout scientifique. Ce chapitre vous fournit les outils pour quantifier la force des acides et des bases, et pour calculer le pH de solutions aqueuses, une compétence clé pour le BAC.\n\n## 1. Définitions et Principes Fondamentaux\n\n### 1.1. Définition du pH\n\nLe pH (potentiel hydrogène) mesure l'acidité d'une solution aqueuse. Il est défini par :\n\n$$\\text{pH} = -\\log[\\text{H}_3\\text{O}^+]$$\n\noù $[\\text{H}_3\\text{O}^+]$ est la concentration en ions oxonium (mol/L).\n\n- Si pH < 7 : solution acide\n- Si pH = 7 : solution neutre\n- Si pH > 7 : solution basique\n\n### 1.2. Constante d'acidité Ka et pKa\n\nPour un couple acide/base noté AH/A⁻, la constante d'acidité $K_a$ est définie par :\n\n$$K_a = \\frac{[\\text{A}^-][\\text{H}_3\\text{O}^+]}{[\\text{AH}]}$$\n\nOn définit aussi :\n\n$$\\text{p}K_a = -\\log K_a$$\n\nPlus $K_a$ est grand (ou plus $\\text{p}K_a$ est petit), plus l'acide est fort (il se dissocie beaucoup).\n\n### 1.3. Produit ionique de l'eau\n\nDans toute solution aqueuse, à 25°C :\n\n$$K_e = [\\text{H}_3\\text{O}^+][\\text{OH}^-] = 10^{-14}$$\n\nou encore : $\\text{pH} + \\text{pOH} = 14$.\n\n### 1.4. Relation entre pH et pKa\n\nPour un couple acide/base, on a la relation d'Henderson-Hasselbalch :\n\n$$\\text{pH} = \\text{p}K_a + \\log\\left(\\frac{[\\text{A}^-]}{[\\text{AH}]}\\right)$$\n\nCette relation est très utile pour prévoir la forme prédominante d'un couple en fonction du pH.\n\n## 2. Propriétés et Méthodes d'application\n\n### 2.1. Calculer le pH d'un acide fort\n\nUn acide fort est totalement dissocié : $\\text{AH} + \\text{H}_2\\text{O} \\rightarrow \\text{A}^- + \\text{H}_3\\text{O}^+$.\n\nAinsi, $[\\text{H}_3\\text{O}^+] = C_a$ (concentration initiale de l'acide).\n\n**Exemple :** Calculer le pH d'une solution de HCl à $10^{-2}$ mol/L.\n\n$[\\text{H}_3\\text{O}^+] = 10^{-2}$ M, donc $\\text{pH} = -\\log(10^{-2}) = 2$.\n\n### 2.2. Calculer le pH d'une base forte\n\nUne base forte est totalement dissociée : $\\text{B} + \\text{H}_2\\text{O} \\rightarrow \\text{BH}^+ + \\text{OH}^-$.\n\nAinsi, $[\\text{OH}^-] = C_b$ (concentration initiale de la base).\n\nOn calcule $[\\text{H}_3\\text{O}^+]$ via $K_e$ : $[\\text{H}_3\\text{O}^+] = \\frac{10^{-14}}{C_b}$.\n\n**Exemple :** pH d'une solution de soude (NaOH) à $10^{-3}$ mol/L.\n\n$[\\text{OH}^-] = 10^{-3}$ M, donc $[\\text{H}_3\\text{O}^+] = 10^{-14}/10^{-3} = 10^{-11}$ M, pH = 11.\n\n### 2.3. Calculer le pH d'un acide faible\n\nPour un acide faible, on utilise la constante d'acidité $K_a$. Si $C_a$ est la concentration initiale et $x$ la concentration de $\\text{H}_3\\text{O}^+$ formé, alors à l'équilibre :\n\n$K_a = \\frac{x^2}{C_a - x}$.\n\nEn général, si $C_a$ est grand devant $K_a$, on peut négliger $x$ devant $C_a$, ce qui donne $x = \\sqrt{K_a \\cdot C_a}$.\n\n**Exemple :** Acide éthanoïque (CH₃COOH) de $C_a = 0.10$ mol/L, $K_a = 1.8 \\times 10^{-5}$.\n\n$x = \\sqrt{1.8 \\times 10^{-5} \\times 0.10} = \\sqrt{1.8 \\times 10^{-6}} \\approx 1.34 \\times 10^{-3}$ M.\n\npH = $-\\log(1.34 \\times 10^{-3}) \\approx 2.87$.\n\n### 2.4. Utiliser la relation pH = pKa + log([A⁻]/[AH])\n\nCette relation est pratique pour préparer des solutions tampons ou déterminer la forme prédominante.\n\n**Exemple :** Pour le couple NH₄⁺/NH₃ avec pKa = 9.25, si pH = 9.25, alors les concentrations sont égales. Si pH = 8.25, alors $[NH₄⁺] > [NH₃]$ (acide prédomine).\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre acide fort et acide concentré :** Un acide fort se dissocie totalement, mais sa concentration peut être faible. Un acide faible peut être concentré.\n- **Oublier l'autoprotolyse de l'eau :** Pour les solutions très diluées (concentration < $10^{-6}$ M), le pH n'est pas simplement $\\text{pH} = -\\log(C_a)$ ; il faut tenir compte de l'eau.\n- **Utiliser la formule simplifiée pour un acide faible sans vérifier les conditions :** La formule $x = \\sqrt{K_a C_a}$ n'est valable que si $C_a \\gg K_a$ et $x \\ll C_a$. Vérifiez toujours.\n- **Confondre $K_a$ et $pK_a$ :** $K_a$ est une constante, $pK_a$ son logarithme décimal négatif. Plus $pK_a$ est petit, plus l'acide est fort.\n- **Ne pas écrire les unités :** En chimie, les concentrations sont en mol/L, les constantes n'ont pas d'unité (activités).\n\n## Synthèse\n\n1. **Le pH mesure l'acidité :** $\\text{pH} = -\\log[\\text{H}_3\\text{O}^+]$, avec pH < 7 acide, pH = 7 neutre, pH > 7 basique.\n2. **La constante d'acidité $K_a$ (ou $pK_a$) quantifie la force d'un acide :** plus $K_a$ est grand (pKa petit), plus l'acide est fort.\n3. **Les relations clés :** $K_a = \\frac{[\\text{A}^-][\\text{H}_3\\text{O}^+]}{[\\text{AH}]}$, $\\text{pH} = \\text{p}K_a + \\log\\left(\\frac{[\\text{A}^-]}{[\\text{AH}]}\\right)$, et $K_e = [\\text{H}_3\\text{O}^+][\\text{OH}^-] = 10^{-14}$ à 25°C.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "acido-basique",
+    "pH",
+    "Ka",
+    "pKa",
+    "bac"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la définition correcte du pH ?",
+      "options": [
+        "pH = log[H₃O⁺]",
+        "pH = -log[H₃O⁺]",
+        "pH = -log[OH⁻]",
+        "pH = 14 + log[H₃O⁺]"
+      ],
+      "answer": 1,
+      "explanation": "Le pH est défini comme le logarithme décimal négatif de la concentration en ions oxonium : pH = -log[H₃O⁺]."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Un acide fort a un pKa élevé.",
+      "answer": false,
+      "explanation": "Un acide fort a un pKa faible (souvent négatif), car il se dissocie totalement, donc Ka est très grand et pKa = -log(Ka) est petit."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Calculer le pH d'une solution d'acide chlorhydrique (HCl) à 0,01 mol/L. (Réponse numérique)",
+      "answer": "2",
+      "explanation": "HCl est un acide fort, donc [H₃O⁺] = 0,01 M. pH = -log(0,01) = 2."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Pour un couple acide/base de pKa = 4,8, si le pH de la solution est 5,8, quelle est la forme prédominante ?",
+      "options": [
+        "La forme acide AH",
+        "La forme basique A⁻",
+        "Les deux formes sont égales",
+        "Impossible à déterminer"
+      ],
+      "answer": 1,
+      "explanation": "pH > pKa, donc log([A⁻]/[AH]) > 0, donc [A⁻] > [AH]. La forme basique prédomine."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La constante d'acidité Ka dépend de la température.",
+      "answer": true,
+      "explanation": "Ka est une constante d'équilibre qui dépend de la température, comme toutes les constantes d'équilibre."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Quel est le pKa d'un acide dont Ka = 1,0 × 10⁻⁵ ? (Réponse numérique)",
+      "answer": "5",
+      "explanation": "pKa = -log(1,0 × 10⁻⁵) = 5."
+    }
+  ]
+}

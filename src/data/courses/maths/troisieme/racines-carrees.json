@@ -1,0 +1,14 @@
+{
+  "id": "maths-troisieme-racines-carrees",
+  "title": "Les racines carrées",
+  "summary": "Découvre comment la racine carrée permet de passer de l'aire au côté d'un carré. Maîtrise les opérations sur les racines carrées et évite les pièges classiques.",
+  "lesson": "La racine carrée d'un nombre positif $a$, notée $\\sqrt{a}$, est le nombre positif dont le carré vaut $a$ : si $x \\geq 0$ et $x^2 = a$, alors $x = \\sqrt{a}$.\\n\\n**Introduction**\\nLes racines carrées sont omniprésentes en mathématiques, notamment en géométrie (diagonale d'un carré, théorème de Pythagore). Leur compréhension est essentielle pour résoudre des équations et simplifier des expressions. Ce cours te guidera pas à pas dans la manipulation des racines carrées.\\n\\n**1. Définition et propriétés fondamentales**\\n- $\\sqrt{a}$ n'existe que pour $a \\geq 0$.\\n- $\\sqrt{a^2} = a$ si $a \\geq 0$ ; mais $\\sqrt{a^2} = |a|$ si $a$ peut être négatif.\\n- Exemple : $\\sqrt{49} = 7$ ; $\\sqrt{(-5)^2} = \\sqrt{25} = 5$.\\n\\n**2. Produit et quotient de racines carrées**\\nPour $a, b \\geq 0$ :\\n$$\\sqrt{a \\times b} = \\sqrt{a} \\times \\sqrt{b}$$\\n$$\\sqrt{\\frac{a}{b}} = \\frac{\\sqrt{a}}{\\sqrt{b}} \\quad (b > 0)$$\\nExemple : $\\sqrt{50} = \\sqrt{25 \\times 2} = 5\\sqrt{2}$ ; $\\sqrt{\\frac{9}{4}} = \\frac{3}{2}$.\\n\\n**3. Attention : somme et différence**\\nContrairement au produit, $\\sqrt{a + b} \\neq \\sqrt{a} + \\sqrt{b}$ !\\nErreur fréquente : $\\sqrt{9+16} = \\sqrt{25} = 5$, alors que $\\sqrt{9}+\\sqrt{16}=3+4=7$. On ne peut additionner que si le radicande est identique : $2\\sqrt{3}+5\\sqrt{3}=7\\sqrt{3}$.\\n\\n**4. Simplification d'expressions**\\nPour simplifier $\\sqrt{72}$, on cherche le plus grand carré parfait divisant 72 : $72 = 36 \\times 2$, donc $\\sqrt{72}=6\\sqrt{2}$.\\nExemple : $\\sqrt{45} = \\sqrt{9 \\times 5} = 3\\sqrt{5}$.\\n\\n**5. Racine carrée d'un nombre négatif ?**\\nDans le domaine réel, la racine carrée d'un nombre négatif n'existe pas. $\\sqrt{-4}$ n'a pas de sens. On écrit $\\sqrt{-4}$ est impossible.\\n\\n**Conclusion**\\nLa racine carrée est un outil puissant qui obéit à des règles précises. Retiens les propriétés de multiplication et de division, et méfie-toi de l'addition. Entraîne-toi à simplifier des racines pour gagner en aisance.",
+  "estimatedMinutes": 15,
+  "tags": [
+    "racine carrée",
+    "simplification",
+    "propriétés",
+    "3ème",
+    "mathématiques"
+  ]
+}

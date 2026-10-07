@@ -1,0 +1,148 @@
+{
+  "id": "allemand-quatrieme-l1-allemand-4eme-theme-3-lecon-1",
+  "subjectId": "allemand",
+  "levelId": "quatrieme",
+  "slug": "l1-allemand-4eme-theme-3-lecon-1",
+  "title": "Mein Traumberuf – Arbeit und Freizeit in der 4. Klasse",
+  "summary": "In dieser Unterrichtseinheit lernen die Schülerinnen und Schüler der 4. Klasse in Côte d’Ivoire, wie man über Berufe und Freizeit spricht. Sie analysieren Bilder, lesen Dialoge, üben Modalverben und Konjunktionen und produzieren eigene Sätze. Die Einheit kombiniert visuelle, auditiv und schriftlich aktive Lernformen.",
+  "lesson": "# Mein Traumberuf – Arbeit und Freizeit\n\n## 1. Einführung\n- **Thema**: Arbeit und Freizeit\n- **Ziel**: Sprechen über den Traumberuf und Freizeitaktivitäten, Verwendung von Modalverben und Konjunktionen.\n\n## 2. Bildanalyse (Seite 52‑53)\n- Betrachte die drei Bilder.\n- Beschreibe, was du siehst und welche Personen dort sind.\n- Vokabular: *Mein Traumberuf*, *Der Traum*, *Der Beruf*, *Das Schlafzimmer*, *Das Schlafen*, *Das Zimmer*, *Berühmt*, *Der Wunschberuf*, *Die Zeitschrift*, *Die Freizeit*.\n\n## 3. Text & Dialog (Seite 53‑54)\n- Lese den Dialog laut.\n- Aufgabe 3 (Seite 63): Finde im Dialog, wer was macht.\n- Schreibe kurze Sätze mit Modalverben.\n\n## 4. Grammatik\n### 4.1 Modalverben (Seite 59‑60)\n- *möchten, wollen, können, mögen*\n- Konjugation im Präsens: ich, du, er/sie/es.\n- Beispiel: *Ich möchte Musiker werden.*\n\n### 4.2 Konjunktionen (Seite 60)\n- *dass, weil, wenn*\n- Bedeutung: *dass* = weil, *weil* = weil, *wenn* = falls.\n- Übung: Identifiziere die Konjunktion und gib die Bedeutung an.\n\n## 5. Schreibaufgabe\n- Schreibe einen kurzen Text (4‑5 Sätze) über deinen Traumberuf und deine Freizeit.\n- Verwende Modalverben und mindestens eine Konjunktion.\n\n## 6. Anwendung\n- **Dialogübung**: Lies den Dialog und beantworte die Fragen zu Personen und Aktivitäten.\n- **Evaluation**: Erzähle deiner Schwester, was du gelernt hast.\n\n## 7. Hausaufgabe\n- Übung 1 (Seite 62): Übersetze die Sätze ins Deutsche.\n- Übung 2 (Seite 63): Was passt nicht? Streiche das falsche Wort.\n- Übung 3 (Seite 63): Schreib den Dialog.\n\n## 8. Ressourcen\n- Textbuch: Seite 52‑60\n- Lingua.com für zusätzliche Übungen\n\n---\n\n**Hinweis**: Alle Aufgaben sind in Deutsch, die Erklärungen in Französisch, um die bilinguale Kompetenz zu fördern.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "allemand",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Welches Wort bedeutet \"le métier\"?",
+      "options": [
+        "Beruf",
+        "Freizeit",
+        "Schlafzimmer",
+        "Zeitschrift"
+      ],
+      "answer": 0,
+      "explanation": "Beruf ist das deutsche Wort für \"le métier\"."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Das Wort \"wollen\" bedeutet \"mögen\".",
+      "answer": false,
+      "explanation": "Wollen bedeutet \"to want\", nicht \"mögen\"."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Schreibe die Konjunktion, die \"weil\" bedeutet.",
+      "answer": "weil",
+      "explanation": "Die Konjunktion *weil* bedeutet \"because\"."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Der Satz \"Ich kann schwimmen\" ist ein Beispiel für ein Modalverb.",
+      "answer": true,
+      "explanation": "Können ist ein Modalverb."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Was ist die Übersetzung von \"Die Freizeit\"?",
+      "options": [
+        "Le travail",
+        "Le sommeil",
+        "Le loisir",
+        "Le rêve"
+      ],
+      "answer": 2,
+      "explanation": "Die Freizeit bedeutet \"le loisir\"."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Schreibe ein Beispiel für einen Satz mit \"möchten\" und einem Infinitiv.",
+      "answer": "Ich möchte schwimmen gehen.",
+      "explanation": "Beispiel: \"Ich möchte schwimmen gehen.\""
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Der Satz \"Ich bin Musiker von Beruf\" ist korrekt.",
+      "answer": true,
+      "explanation": "Der Satz ist grammatisch korrekt."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Welches Wort beschreibt \"le rêve\"?",
+      "options": [
+        "Der Traum",
+        "Der Wunsch",
+        "Der Beruf",
+        "Die Zeitschrift"
+      ],
+      "answer": 0,
+      "explanation": "Der Traum bedeutet \"le rêve\"."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Schreibe die Konjunktion, die \"dass\" bedeutet.",
+      "answer": "dass",
+      "explanation": "Die Konjunktion *dass* bedeutet \"that\"."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Das Wort \"Das Schlafzimmer\" bedeutet \"la chambre à coucher\".",
+      "answer": true,
+      "explanation": "Das Schlafzimmer ist die deutsche Übersetzung."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Schreibe einen Satz mit \"wenn\" und einem Infinitiv.",
+      "answer": "Wenn ich Zeit habe, lese ich Bücher.",
+      "explanation": "Beispiel: \"Wenn ich Zeit habe, lese ich Bücher.\""
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Die Konjunktion \"weil\" kann auch für einen Wunsch verwendet werden.",
+      "answer": false,
+      "explanation": "Weil bedeutet \"because\", nicht \"wish\"."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Welches Wort bedeutet \"le hobby\"?",
+      "options": [
+        "Die Freizeit",
+        "Der Wunsch",
+        "Das Zimmer",
+        "Die Zeitschrift"
+      ],
+      "answer": 0,
+      "explanation": "Die Freizeit bedeutet \"le hobby\"."
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "prompt": "Schreibe die Konjunktion, die \"wenn\" bedeutet.",
+      "answer": "wenn",
+      "explanation": "Die Konjunktion *wenn* bedeutet \"if\"."
+    },
+    {
+      "id": "q18",
+      "type": "truefalse",
+      "prompt": "Der Satz \"Ich mag Musik hören\" verwendet ein Modalverb.",
+      "answer": true,
+      "explanation": "Mögen ist ein Modalverb."
+    }
+  ]
+}

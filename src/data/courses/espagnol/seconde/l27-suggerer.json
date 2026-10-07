@@ -1,0 +1,92 @@
+{
+  "id": "espagnol-seconde-l27-suggerer",
+  "subjectId": "espagnol",
+  "levelId": "seconde",
+  "slug": "l27-suggerer",
+  "title": "Suggérer en espagnol : activités d’expression écrite (2nde)",
+  "summary": "Cette leçon vise à aider les élèves de seconde à maîtriser les formules de suggestion en espagnol. À travers une situation d’apprentissage, un contenu lexical et grammatical, des activités d’application et d’évaluation, les élèves apprennent à identifier, utiliser et transformer des expressions de suggestion. Le texte intègre des exemples concrets tirés de la vie scolaire et de la littérature, ainsi que des exercices ciblés pour renforcer la compréhension et la production écrite.",
+  "lesson": "# Situation d’apprentissage\n- Contexte : les élèves de 2nde du club d’espagnol souhaitent sensibiliser leurs camarades sur le problème de la drogue et de l’usage excessif du téléphone en rédigeant des affiches.\n- Objectif : identifier les expressions de suggestion, les utiliser et rédiger un message.\n\n## Contenu\n### Vocabulaire\n- **Sugerir** : *Esa canción le sugiere recuerdos de la infancia.*\n- **Trozo** : *Ella rompe el pan en trozos para sus niñas.*\n- **Perseguir** : *La policía persigue a los ladrones.*\n\n### Grammaire\n- Formules de suggestion :\n  1. *sugerir, recomendar, lo mejor es + infinitivo*\n  2. *sugerir que, recomendar que, lo mejor es que + subjuntivo*\n- Exemples :\n  - *El médico me sugiere mucha fruta y verdura.*\n  - *El médico me sugiere que tome mucha fruta y verdura.*\n\n## Activité d’application\nTransformez les phrases suivantes en suggestions, en respectant la personne indiquée entre parenthèses.\n1. **Vosotros** salís todos del despacho del director de inmediato (nosotros) → *Os sugerimos salir todos del despacho del director.*\n2. **Yao** estudia cada día las clases de español (vosotros) → *Recomendáis que Yao estudie cada día las clases.*\n3. **Habla** usted con voz alta (yo) → *Le sugiero que hable usted con voz alta.*\n\n## Situation d’évaluation\n1. Appliquez les formules de suggestion pour répondre à un voisin qui veut plus de détails par SMS.\n2. Rédigez un message court en utilisant deux expressions de suggestion.\n\n## Exercices\n1. Complétez les phrases avec *trozo, sugerir, perseguir*.\n2. Copiez les expressions de suggestion dans les phrases données.\n3. Répondez aux questions sur les idées suggérées par la poétesse Noémia de Sousa.\n\n# Conclusion\nLes élèves ont ainsi acquis la capacité de formuler des suggestions en espagnol, de les transformer et de les appliquer dans des contextes réels.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "espagnol",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la formule correcte pour faire une suggestion avec un infinitif ?",
+      "options": [
+        "sugerir que + infinitivo",
+        "sugerir + infinitivo",
+        "recomendar que + infinitivo",
+        "lo mejor es + infinitivo"
+      ],
+      "answer": 3,
+      "explanation": "La formule « lo mejor es + infinitivo » est utilisée pour faire une suggestion avec un infinitif."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle phrase est une suggestion ?",
+      "options": [
+        "El médico me sugiere mucha fruta y verdura",
+        "El médico me sugiere que tome mucha fruta y verdura",
+        "El médico me dice que tome mucha fruta y verdura",
+        "El médico me pregunta si quiero fruta"
+      ],
+      "answer": 1,
+      "explanation": "La phrase avec « que tome » utilise le subjonctif, ce qui constitue une suggestion."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Complétez : Si me quisieras conocer, te ______ que…",
+      "answer": "sugiero",
+      "explanation": "La forme correcte est « te sugiero que… »."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Dans l’exemple a), quelle est la suggestion correcte pour « vosotros » ?",
+      "options": [
+        "Os sugerimos salir todos del despacho del director",
+        "Os recomendamos salir todos del despacho del director",
+        "Os lo mejor es salir todos del despacho del director",
+        "Os sugiero salir todos del despacho del director"
+      ],
+      "answer": 0,
+      "explanation": "La suggestion correcte est « Os sugerimos salir… »."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Recomendar que, ______ que + subjuntivo",
+      "answer": "sugerir que",
+      "explanation": "Les deux formules sont « recomendar que » et « sugerir que »."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quelle expression n’est pas une formule de suggestion ?",
+      "options": [
+        "sugerir que + infinitivo",
+        "recomendar que + subjuntivo",
+        "lo mejor es + infinitivo",
+        "lo mejor es que + subjuntivo"
+      ],
+      "answer": 0,
+      "explanation": "« sugerir que + infinitivo » est incorrect."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Lo mejor es que + ______",
+      "answer": "subjuntivo",
+      "explanation": "La formule complète est « lo mejor es que + subjuntivo »."
+    }
+  ]
+}

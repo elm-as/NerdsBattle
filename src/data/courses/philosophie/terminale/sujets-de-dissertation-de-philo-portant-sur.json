@@ -1,0 +1,187 @@
+{
+  "id": "philosophie-terminale-sujets-de-dissertation-de-philo-portant-sur",
+  "subjectId": "philosophie",
+  "levelId": "terminale",
+  "slug": "sujets-de-dissertation-de-philo-portant-sur",
+  "title": "Philosophie Terminale – L’inconscient : concepts et enjeux",
+  "summary": "Ce cours explore la notion d’inconscient en philosophie, ses relations avec le conscient, la liberté, la responsabilité et la connaissance. Il analyse les positions historiques, les arguments scientifiques et les implications éthiques, tout en proposant des repères méthodologiques pour la dissertation et le commentaire de texte.",
+  "lesson": "# L’inconscient en philosophie\n\n## 1. Définitions et enjeux\n- **Inconscient** : ce qui échappe à la conscience immédiate mais influence pensée, désir et action.\n- **Conscient** : le champ de la pensée dont on a prise de conscience.\n- **Opposition** : souvent présentée comme binaire, mais les courants contemporains insistent sur une continuité.\n\n## 2. Origines historiques\n- **Freud** : l’inconscient comme dépôt de pulsions refoulées.\n- **Jung** : inconscient collectif et archétypes.\n- **Philosophie antique** : Platon (l’âme) et Aristote (passions) comme précurseurs.\n\n## 3. Inconscient et liberté\n- **Débat** : l’inconscient contraint‑il la liberté ?\n- **Argument libertarien** : la conscience peut choisir malgré des influences inconscientes.\n- **Argument déterministe** : si nos actions sont conditionnées, la liberté devient une illusion.\n\n## 4. Responsabilité morale\n- La responsabilité suppose la capacité de choisir en connaissance de cause.\n- Si l’inconscient détermine le choix, la responsabilité est‑elle remise en cause ?\n- Solutions : responsabilité partielle, prise de conscience critique.\n\n## 5. Inconscient et science\n- **Méthodes** : neuroimagerie, psychanalyse, psychologie cognitive.\n- **Prouver l’existence** : indirecte (effets observables) vs preuve directe (impossible à saisir consciemment).\n\n## 6. Connaissance de l’inconscient\n- **« Connais‑toi toi‑même »** : obstacle principal = le voile de l’inconscient.\n- Techniques : introspection guidée, analyse des rêves, libre association.\n\n## 7. Applications pédagogiques\n- Analyse de citations (ex. « Connais‑toi toi‑même »).\n- Rédaction de dissertations : problématiser la relation inconscient‑liberté.\n- Débats en classe : vrai/faux sur les affirmations philosophiques.\n\n---\n*Ce cours fournit les repères nécessaires pour aborder les sujets de dissertation du programme terminale philosophie, en particulier ceux portant sur l’inconscient.*",
+  "estimatedMinutes": 10,
+  "tags": [
+    "philosophie",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Selon Freud, l’inconscient est principalement le lieu de :",
+      "options": [
+        "Pensées rationnelles",
+        "Pulsions refoulées",
+        "Mémoire explicite",
+        "Connaissances innées"
+      ],
+      "answer": 1,
+      "explanation": "Freud situe l’inconscient comme le réservoir des pulsions et désirs refoulés qui échappent à la conscience."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le concept d’inconscient collectif appartient à la psychanalyse freudienne.",
+      "answer": false,
+      "explanation": "L’inconscient collectif est une notion développée par Carl Jung, pas par Freud."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "L’affirmation « Connais‑toi toi‑même » se heurte à l’obstacle de l’________.",
+      "answer": "inconscient",
+      "explanation": "Le voile de l’inconscient rend difficile l’accès direct à soi‑même."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel philosophe antique a le plus rapproché la notion de passions à une forme primitive d’inconscient ?",
+      "options": [
+        "Platon",
+        "Aristote",
+        "Socrate",
+        "Épicure"
+      ],
+      "answer": 1,
+      "explanation": "Aristote parle des passions comme forces internes qui influencent le jugement, préfigurant l’idée d’inconscient."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Si l’inconscient détermine entièrement nos actions, la liberté est une illusion.",
+      "answer": true,
+      "explanation": "Dans une lecture déterministe, l’influence totale de l’inconscient rend la liberté conceptuellement vide."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle méthode scientifique permet d’observer indirectement l’activité de l’inconscient ?",
+      "options": [
+        "IRM fonctionnelle",
+        "Analyse de texte littéraire",
+        "Entretien libre association",
+        "Test de QI"
+      ],
+      "answer": 0,
+      "explanation": "L’IRM fonctionnelle montre des activations cérébrales liées à des processus non conscients."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "La responsabilité morale suppose la capacité de choisir en ______ de cause.",
+      "answer": "connaissance",
+      "explanation": "La responsabilité repose sur la conscience du choix."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Le sujet philosophique peut être à la fois objet et sujet de pensée simultanément.",
+      "answer": true,
+      "explanation": "Le sujet peut se réfléchir sur lui‑même, devenant ainsi objet de sa propre pensée."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel est le principal argument libertarien contre l’idée que l’inconscient annule la liberté ?",
+      "options": [
+        "L’inconscient n’existe pas",
+        "La conscience peut exercer un contrôle réflexif",
+        "Les désirs inconscients sont toujours rationnels",
+        "La liberté est une illusion"
+      ],
+      "answer": 1,
+      "explanation": "Le libertarien soutient que la conscience peut surveiller et modérer les influences inconscientes."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "On peut faire quelque chose sans en avoir conscience, comme respirer ou marcher.",
+      "answer": true,
+      "explanation": "Ces actions automatiques sont des exemples d’activités inconscientes."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quelle affirmation résume le débat entre inconscient et liberté ?",
+      "options": [
+        "L’inconscient rend la liberté impossible",
+        "La liberté dépasse l’inconscient",
+        "L’inconscient et la liberté sont incompatibles",
+        "La liberté peut coexister avec l’inconscient"
+      ],
+      "answer": 3,
+      "explanation": "La position la plus nuancée affirme que liberté et inconscient peuvent coexister."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Selon Jung, l’inconscient collectif est constitué d’archétypes, c’est‑à‑dire des modèles ______.",
+      "answer": "universels",
+      "explanation": "Les archétypes sont des structures psychiques universelles partagées."
+    },
+    {
+      "id": "q13",
+      "type": "truefalse",
+      "prompt": "La connaissance des lois de l’inconscient peut consoler du désordre de notre existence.",
+      "answer": true,
+      "explanation": "Comprendre les mécanismes inconscients apporte un cadre explicatif qui apaise."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel type de question de dissertation invite à analyser la relation entre inconscient et responsabilité ?",
+      "options": [
+        "« L’inconscient est‑il une fonction du corps ? »",
+        "« L’idée d’inconscient met‑elle en cause l’idée de responsabilité ? »",
+        "« Peut‑on prouver l’existence de l’inconscient ? »",
+        "« Connais‑toi toi‑même »"
+      ],
+      "answer": 1,
+      "explanation": "Cette formulation cible directement le lien entre inconscient et responsabilité morale."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Le terme latin « cogito » signifie ______.",
+      "answer": "je pense",
+      "explanation": "« Cogito, ergo sum » de Descartes se traduit par « je pense, donc je suis »."
+    },
+    {
+      "id": "q16",
+      "type": "truefalse",
+      "prompt": "L’inconscient est uniquement une construction culturelle, sans base biologique.",
+      "answer": false,
+      "explanation": "Les recherches en neurosciences montrent des bases biologiques à des processus inconscients."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quel philosophe a affirmé que le « Je » est une illusion ?",
+      "options": [
+        "Descartes",
+        "Hume",
+        "Kant",
+        "Sartre"
+      ],
+      "answer": 1,
+      "explanation": "David Hume soutient que le « Je » n’est qu’une collection d’impressions."
+    },
+    {
+      "id": "q18",
+      "type": "truefalse",
+      "prompt": "La libre association est une technique visant à faire émerger le contenu de l’inconscient.",
+      "answer": true,
+      "explanation": "Cette méthode psychanalytique permet de laisser parler les pensées sans censure."
+    }
+  ]
+}

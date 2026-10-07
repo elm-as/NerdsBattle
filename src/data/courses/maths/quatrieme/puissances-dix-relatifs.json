@@ -1,0 +1,70 @@
+{
+  "id": "maths-quatrieme-puissances-dix-relatifs",
+  "title": "Puissances d'un nombre et puissances de 10",
+  "summary": "Ce chapitre te donne les clés pour manipuler les puissances, un outil indispensable en sciences et en mathématiques. Tu apprendras à calculer des puissances, à utiliser leurs propriétés pour simplifier des expressions, et à maîtriser les puissances de 10 pour écrire des nombres très grands ou très petits.",
+  "lesson": "## Introduction & Mise en situation\n\nLes puissances sont partout autour de toi : en informatique (les octets), en astronomie (les distances entre les étoiles), en physique (la vitesse de la lumière), et même en économie (les taux d'intérêt). Savoir manipuler les puissances, c'est comme avoir un super-pouvoir pour simplifier des calculs complexes et écrire des nombres gigantesques ou minuscules de manière compacte. Dans ce chapitre, tu vas découvrir ce qu'est une puissance, comment la calculer, et surtout comment utiliser ses propriétés pour devenir un as du calcul rapide.\n\n## 1. Définitions et Principes Fondamentaux\n\n### Qu'est-ce qu'une puissance ?\n\nUne puissance est une notation abrégée pour une multiplication répétée. Si $a$ est un nombre et $n$ un entier positif, alors :\n\n$$a^n = \\underbrace{a \\times a \\times \\cdots \\times a}_{n \\text{ fois}}$$\n\n- $a$ s'appelle la **base**.\n- $n$ s'appelle l'**exposant**.\n\n**Exemple :** $2^3 = 2 \\times 2 \\times 2 = 8$.\n\n### Cas particuliers :\n\n- $a^1 = a$ (tout nombre à la puissance 1 est lui-même).\n- $a^0 = 1$ (pour $a \\neq 0$, tout nombre non nul à la puissance 0 vaut 1).\n- $0^0$ n'est pas défini.\n\n### Puissances de 10 :\n\nPour les puissances de 10, on a une règle simple :\n\n$$10^n = 1 \\text{ suivi de } n \\text{ zéros}$$\n\n**Exemples :** $10^0 = 1$, $10^1 = 10$, $10^2 = 100$, $10^3 = 1000$.\n\n### Exposants négatifs :\n\nPour un exposant négatif, on utilise l'inverse :\n\n$$a^{-n} = \\frac{1}{a^n} \\quad (a \\neq 0)$$\n\n**Exemple :** $10^{-3} = \\frac{1}{10^3} = 0.001$.\n\n## 2. Propriétés et Méthodes d'application\n\n### Propriétés fondamentales :\n\nSoient $a$ et $b$ des nombres non nuls, et $m$ et $n$ des entiers relatifs. On a :\n\n1. **Produit de puissances de même base :** $a^m \\times a^n = a^{m+n}$\n   - *Exemple :* $2^3 \\times 2^4 = 2^{3+4} = 2^7 = 128$.\n\n2. **Quotient de puissances de même base :** $\\frac{a^m}{a^n} = a^{m-n}$\n   - *Exemple :* $\\frac{10^5}{10^2} = 10^{5-2} = 10^3 = 1000$.\n\n3. **Puissance d'une puissance :** $(a^m)^n = a^{m \\times n}$\n   - *Exemple :* $(3^2)^3 = 3^{2 \\times 3} = 3^6 = 729$.\n\n4. **Puissance d'un produit :** $(a \\times b)^n = a^n \\times b^n$\n   - *Exemple :* $(2 \\times 3)^2 = 2^2 \\times 3^2 = 4 \\times 9 = 36$.\n\n5. **Puissance d'un quotient :** $\\left(\\frac{a}{b}\\right)^n = \\frac{a^n}{b^n}$\n   - *Exemple :* $\\left(\\frac{2}{3}\\right)^2 = \\frac{2^2}{3^2} = \\frac{4}{9}$.\n\n### Méthode pas-à-pas pour simplifier une expression :\n\n1. **Identifier les bases et les exposants.**\n2. **Appliquer les propriétés appropriées** (produit, quotient, puissance de puissance).\n3. **Simplifier** en regroupant les puissances de même base.\n\n**Exemple guidé :** Simplifions $\\frac{2^3 \\times 2^5}{2^4}$.\n\n- Étape 1 : Au numérateur, on a un produit de puissances de même base : $2^3 \\times 2^5 = 2^{3+5} = 2^8$.\n- Étape 2 : On a maintenant $\\frac{2^8}{2^4}$.\n- Étape 3 : On applique le quotient : $2^{8-4} = 2^4 = 16$.\n\n### Notation scientifique :\n\nUn nombre en notation scientifique s'écrit sous la forme $a \\times 10^n$ où $1 \\le a < 10$ et $n$ est un entier relatif.\n\n**Exemples :**\n- $4500 = 4.5 \\times 10^3$\n- $0.00032 = 3.2 \\times 10^{-4}$\n\n## 3. Pièges fréquents & Mises en garde\n\n### Erreur 1 : Confondre $a^n$ avec $n \\times a$\n\nBeaucoup d'élèves pensent que $2^3 = 6$ (car $2 \\times 3 = 6$), mais c'est faux. $2^3 = 2 \\times 2 \\times 2 = 8$. **Toujours** se souvenir que la puissance est une multiplication répétée.\n\n### Erreur 2 : Additionner les exposants dans un produit de puissances de bases différentes\n\n$2^3 \\times 3^2$ n'est PAS égal à $6^5$. On ne peut additionner les exposants que si les bases sont **identiques**. Ici, on doit calculer séparément : $2^3 = 8$ et $3^2 = 9$, donc $8 \\times 9 = 72$.\n\n### Erreur 3 : Oublier que $a^0 = 1$ (pour $a \\neq 0$)\n\nBeaucoup pensent que $a^0 = 0$. C'est faux. Par exemple, $5^0 = 1$, $10^0 = 1$. C'est une convention mathématique importante.\n\n### Erreur 4 : Confondre les signes avec les exposants négatifs\n\n$(-2)^2 = 4$ mais $-2^2 = -4$. Les parenthèses changent tout. Dans $(-2)^2$, on élève $-2$ au carré, donc $(-2) \\times (-2) = 4$. Dans $-2^2$, on élève d'abord $2$ au carré puis on prend l'opposé : $- (2 \\times 2) = -4$.\n\n### Erreur 5 : Mal appliquer la règle de puissance d'une puissance\n\n$(a^m)^n = a^{m \\times n}$, pas $a^{m+n}$. Par exemple, $(2^3)^2 = 2^{3 \\times 2} = 2^6 = 64$, alors que $2^{3+2} = 2^5 = 32$.\n\n## Synthèse\n\n- **Une puissance** est une multiplication répétée : $a^n = a \\times a \\times \\cdots \\times a$.\n- **Les propriétés clés** : $a^m \\times a^n = a^{m+n}$, $\\frac{a^m}{a^n} = a^{m-n}$, $(a^m)^n = a^{m \\times n}$, et $a^0 = 1$.\n- **Les puissances de 10** permettent d'écrire de très grands ou très petits nombres, et la notation scientifique est $a \\times 10^n$ avec $1 \\le a < 10$.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "puissances",
+    "puissances de 10",
+    "notation scientifique",
+    "calcul",
+    "collège"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la valeur de $2^5$ ?",
+      "options": [
+        "10",
+        "25",
+        "32",
+        "64"
+      ],
+      "answer": 2,
+      "explanation": "$2^5 = 2 \\times 2 \\times 2 \\times 2 \\times 2 = 32$."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "$10^0 = 0$.",
+      "answer": false,
+      "explanation": "Tout nombre non nul élevé à la puissance 0 vaut 1, donc $10^0 = 1$."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Simplifie : $3^4 \\times 3^2 = 3^{?}$",
+      "answer": "6",
+      "explanation": "On additionne les exposants : $3^{4+2} = 3^6$."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la forme scientifique de 0,00025 ?",
+      "options": [
+        "$2.5 \\times 10^{-4}$",
+        "$25 \\times 10^{-5}$",
+        "$2.5 \\times 10^4$",
+        "$0.25 \\times 10^{-3}$"
+      ],
+      "answer": 0,
+      "explanation": "0,00025 = 2,5 × 10⁻⁴ car on déplace la virgule de 4 rangs vers la droite."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "$(-3)^2 = -9$.",
+      "answer": false,
+      "explanation": "$(-3)^2 = (-3) \\times (-3) = 9$."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Calcule : $\\frac{10^7}{10^3} = 10^{?}$",
+      "answer": "4",
+      "explanation": "On soustrait les exposants : $10^{7-3} = 10^4$."
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "id": "maths-sixieme-l6-cercles-et-disques",
+  "subjectId": "maths",
+  "levelId": "sixieme",
+  "slug": "l6-cercles-et-disques",
+  "title": "Cercle et disque – 6e – Géométrie du plan",
+  "summary": "Leçon de sixième sur les cercles et les disques : définitions, vocabulaire (centre, rayon, diamètre, corde), propriétés d’appartenance, formules du périmètre et de l’aire, exercices d’application (calculs avec π, situations concrètes comme la clôture d’une ferme ou la surface brossée par une aiguille).",
+  "lesson": "# Situation d’apprentissage\nM. Abou attache son mouton à un piquet avec une corde de 4 m. Son fils Issa plante une fleur à 5 m du même piquet et veut connaître la surface que le mouton peut brouter. 1 cm représente 1 m sur le dessin, le piquet est le point **O**.\n\n# I. Présentation et vocabulaire\n## 1. Cercle\n- **Définition** : ensemble des points situés à une même distance *r* d’un point *O* (centre). \n- **Notation** : \\(C(O;r)\\).\n- **Vocabulaire** :\n  - centre : O\n  - rayon : segment \\([OM]\\) ou distance OM\n  - diamètre : segment \\([AB]\\) avec \\(AB=2r\\)\n  - corde : tout segment dont les extrémités sont sur le cercle.\n## 2. Disque\n- **Définition** : surface délimitée par le cercle et contenant le centre.\n- **Notation** : \\(D(O;r)\\).\n- **Vocabulaire** similaire à celui du cercle.\n\n# II. Caractérisation d’un point appartenant à un cercle\n- \\(M\\in C(O;r)\\)  \\(\\Leftrightarrow\\)  \\(OM=r\\).\n\n# III. Périmètre d’un cercle – Aire d’un disque\n## 1. Périmètre\n\\[P = 2\\pi r = \\pi d\\]\n## 2. Aire du disque\n\\[A = \\pi r^{2}\\]\n\n# Exercices d’application\n- Calcul du périmètre d’un cercle de rayon 5 cm (π=3,14).\n- Calcul du périmètre d’un cercle de diamètre 1 m.\n- Aire d’un disque de rayon 5 cm.\n- Situation d’évaluation : ferme circulaire (r=5 m, entrée 1,5 m, π=3,1).\n- Traduction d’équations en appartenance à un cercle.\n- Calculs généraux de périmètre et d’aire avec π variable.\n- Problème du terrain d’athlétisme (demi‑cercles + rectangle, π=3).\n- Aiguille d’horloge (r=15 cm, π=3,14).\n\n# Méthodologie\n1. Identifier le centre et le rayon.\n2. Appliquer les formules appropriées.\n3. Vérifier les unités (cm ↔ m).\n4. Utiliser la valeur de π demandée.\n5. Interpréter le résultat dans le contexte du problème.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le rayon du cercle C(O;4) ?",
+      "options": [
+        "4 m",
+        "8 m",
+        "2 m",
+        "1 m"
+      ],
+      "answer": 0,
+      "explanation": "Le rayon est la distance entre le centre O et n’importe quel point du cercle, ici 4 m."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Un diamètre est toujours deux fois plus long qu’un rayon.",
+      "answer": true,
+      "explanation": "Par définition, le diamètre = 2 × rayon."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Si M appartient au cercle C(O;3), alors la longueur OM vaut ___ cm.",
+      "answer": "3",
+      "explanation": "Appartenance implique OM = rayon = 3 cm."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle formule donne le périmètre d’un cercle de diamètre d ?",
+      "options": [
+        "P = π d",
+        "P = 2π d",
+        "P = d/π",
+        "P = π d²"
+      ],
+      "answer": 0,
+      "explanation": "P = π d est la forme directe avec le diamètre."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Dans l’exercice de la ferme, on utilise π = 3,1. Quel est le périmètre de la ferme (r = 5 m) ?",
+      "options": [
+        "31 m",
+        "30 m",
+        "28 m",
+        "32 m"
+      ],
+      "answer": 0,
+      "explanation": "P = 2×π×r = 2×3,1×5 = 31 m."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Longueur de la clôture disponible après l’entrée de 1,5 m : ___ m",
+      "answer": "29,5",
+      "explanation": "l = P – 1,5 = 31 – 1,5 = 29,5 m."
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Avec 29,5 m de grillage, l’association peut clôturer la ferme de 5 m de rayon (entrée 1,5 m).",
+      "answer": true,
+      "explanation": "Il faut moins de 30 m, donc le grillage suffit."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel segment représente une corde du cercle C(O;r) ?",
+      "options": [
+        "[AB] où A et B sont sur le cercle",
+        "[OC] où C est le centre",
+        "[OD] où D est à l’extérieur",
+        "[OE] où E est le centre"
+      ],
+      "answer": 0,
+      "explanation": "Une corde relie deux points du cercle, pas le centre."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "L’aire d’un disque de rayon 4 cm exprimée en fonction de π est ___ cm².",
+      "answer": "16π",
+      "explanation": "A = π r² = π × 4² = 16π."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Valeur approchée de l’aire du disque de rayon 4 cm (π≈3,14) :",
+      "options": [
+        "50,24 cm²",
+        "48,00 cm²",
+        "62,80 cm²",
+        "40,00 cm²"
+      ],
+      "answer": 0,
+      "explanation": "A = 16 × 3,14 = 50,24 cm²."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Dans l’exercice de l’aiguille d’horloge, le périmètre du cercle est 94,2 cm (π=3,14).",
+      "answer": true,
+      "explanation": "P = 2×3,14×15 = 94,2 cm."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "L’aire du disque balayé par l’aiguille (r=15 cm, π=3,14) vaut ___ cm².",
+      "answer": "706,5",
+      "explanation": "A = π r² = 3,14×15² = 706,5 cm²."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Dans le terrain d’athlétisme, la partie rectangulaire mesure 90 m de long et 40 m de large. Quelle est son aire ?",
+      "options": [
+        "3600 m²",
+        "4500 m²",
+        "3000 m²",
+        "4000 m²"
+      ],
+      "answer": 0,
+      "explanation": "A = L×l = 90×40 = 3600 m²."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "L’aire totale du terrain d’athlétisme (π=3, r=20 m) est ___ m².",
+      "answer": "4800",
+      "explanation": "A = 2×πr² + L×l = 2×3×20² + 3600 = 4800 m²."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel énoncé traduit correctement l’équation IM = 5 ?",
+      "options": [
+        "M∈C(I,5)",
+        "M∈C(I,2,5)",
+        "M∈C(5,I)",
+        "M∈C(M,5)"
+      ],
+      "answer": 0,
+      "explanation": "La distance IM = 5 signifie que M appartient au cercle de centre I et de rayon 5."
+    },
+    {
+      "id": "q16",
+      "type": "truefalse",
+      "prompt": "Le segment [GH] construit à partir des intersections des deux cercles (exercice 4) est toujours le diamètre d’un cercle passant par G et H.",
+      "answer": true,
+      "explanation": "Par construction, le cercle de diamètre [GH] a pour centre le milieu de GH et passe par G et H."
+    }
+  ]
+}

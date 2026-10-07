@@ -1,0 +1,241 @@
+{
+  "id": "anglais-sixieme-l2-unit-5-lecon-2-6e",
+  "subjectId": "anglais",
+  "levelId": "sixieme",
+  "slug": "l2-unit-5-lecon-2-6e",
+  "title": "Clothes and Colours – Anglais 6e (MENA CI)",
+  "summary": "Cette leçon permet d'apprendre les couleurs en anglais et de poser des questions sur la couleur des vêtements. Elle aide aussi à exprimer ses goûts (ce qu'on aime ou n'aime pas) à l'oral comme à l'écrit.",
+  "lesson": "# Clothes and Colours (Vêtements et couleurs)\n\n## 1. Vocabulaire : les couleurs\n\n### Session 1\n- White (blanc)\n- Red (rouge)\n- Black (noir)\n- Yellow (jaune)\n- Blue (bleu)\n- Green (vert)\n- Pink (rose)\n\n### Session 2\n- Orange (orange)\n- Grey (gris)\n- Purple (violet)\n- Brown (marron)\n- Khaki (kaki)\n\n## 2. Fonction langagière : demander et donner la couleur d'un vêtement\n\n**Question au singulier :**\n- What colour is this shirt? → It is blue.\n\n**Question au pluriel :**\n- What colour are these shoes? → They are red.\n\n**Exemples :**\n- A: What colour is Konan's tie? (Konan's tie / yellow)\n- B: It is yellow.\n- A: What colour are John's shoes? (John's shoes / black)\n- B: They are black.\n\n## 3. Exprimer ses goûts (likes and dislikes)\n\n**Questions :**\n- What colour do you like? → I like orange.\n- What colour does Aya like? → She likes purple.\n- What colour do they like? → They like khaki.\n\n**Réponses avec like / don't like :**\n- I like grey.\n- I don't like brown.\n\n## 4. Remarques grammaticales\n\n- On utilise **is** pour un vêtement au singulier (a shirt, a skirt, a tie, a dress).\n- On utilise **are** pour des vêtements au pluriel (shoes, shorts, glasses, trousers, jeans).\n- Devant un adjectif de couleur, on ne met pas « a » : *a blue skirt* (une juile bleue).\n- Pour la 3e personne du singulier (he, she), on utilise **likes** : *She likes purple.*\n- Pour les autres personnes (I, you, we, they), on utilise **like** : *They like khaki.*\n\n## 5. Activités types\n\n### Activity 1 : Donner la couleur d'un vêtement\nExemple : 1 = Red\n\n### Activity 2 : Poser des questions et répondre\nExemple 1 :\n- A: What colour is Konan's tie? (Konan's tie / yellow)\n- B: It is yellow.\n\nExemple 2 :\n- A: What colour are John's shoes? (John's shoes / black)\n- B: They are black.\n\n### Activity 3 : Remettre les mots en ordre\nExemple : shirt – is – Ali's – white → Ali's shirt is white.\n\n1. are – they – black → They are black.\n2. skirt – is – sister's – my – blue → My sister's skirt is blue.\n3. are – what – shorts – colour – your? → What colour are your shorts?\n4. tie – is – colour – what – teacher's – the? → What colour is the teacher's tie?\n\n### Activity 4 (Session 2) : Trouver la couleur cachée\nExemple : 1. g.e.r.a.n.o = Orange\n2. h.a.k.i.k = Khaki\n3. n.o.w.r.b = Brown\n4. r.e.g.y = Grey\n5. p.l.e.r.u.p = Purple\n\n### Activity 5 (Session 2) : Poser des questions sur les goûts\nExemple : A: you / colour / like → What colour do you like? B: I like grey.\n\n1. A: she / colour / like → What colour does she like? B: She likes purple.\n2. A: Koffi / colour / like → What colour does Koffi like? B: He likes black.\n3. A: they / colour / like → What colour do they like? B: They like brown.\n\n### Activity 6 (Session 2) : Tableau des goûts\n\n| Personne | Purple | Brown | Grey | Orange |\n|----------|--------|-------|------|--------|\n| John     | ✓      | ✓     | ✗    | ✗      |\n| Julia    | ✗      | ✓     | ✓    | ✗      |\n| children | ✓      | ✗     | ✓    | ✗      |\n\n✓ = like ; ✗ = dislike (don't like)\n\nExemple : A: What colour does John like? B: John likes purple and brown.\n\n1. A: What colour does Julia like? B: Julia likes brown and grey.\n2. A: What colour do the children like? B: The children like purple and grey.\n\n## 6. Situation d'évaluation\n\n### Activity 1\n- Donne les couleurs des chemises.\n- Dis les couleurs que tu aimes et celles que tu n'aimes pas.\n- Présente ton travail à la classe.\n\nThe colours of the shirts are …\nI like …\nI don't like …\n\n### Activity 2\nÉcoute l'enregistrement et réponds par une note vocale en précisant les vêtements et les couleurs que tu aimes.\n\n« Hello, welcome to 'Shopping Online'. We offer you different clothes. We have black trousers for men, red and pink skirts for girls, white shirts and brown shorts for children. We also have blue jeans and all colours of tee-shirts. Thank you to answer back. »\n\nHello, I like …",
+  "estimatedMinutes": 10,
+  "tags": [
+    "anglais",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la traduction de « white » ?",
+      "options": [
+        "noir",
+        "blanc",
+        "rouge",
+        "bleu"
+      ],
+      "answer": 1,
+      "explanation": "White signifie blanc."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Comment dit-on « jaune » en anglais ?",
+      "options": [
+        "Yellow",
+        "Green",
+        "Pink",
+        "Black"
+      ],
+      "answer": 0,
+      "explanation": "Yellow signifie jaune."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle question pose-t-on pour demander la couleur d'une chemise (singulier) ?",
+      "options": [
+        "What colour are this shirt?",
+        "What colour is this shirt?",
+        "What colour do this shirt?",
+        "What colour does this shirt?"
+      ],
+      "answer": 1,
+      "explanation": "Pour un vêtement au singulier, on utilise « is » : What colour is this shirt?"
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la réponse correcte à « What colour are these shoes? » ?",
+      "options": [
+        "It is red.",
+        "They are red.",
+        "They is red.",
+        "It are red."
+      ],
+      "answer": 1,
+      "explanation": "Pour des chaussures (pluriel), on répond « They are red. »"
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle est la réponse correcte à « What colour does Aya like? » ?",
+      "options": [
+        "She like purple.",
+        "She likes purple.",
+        "She likes purple?",
+        "He likes purple."
+      ],
+      "answer": 1,
+      "explanation": "À la 3e personne du singulier (she), on utilise « likes » : She likes purple."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Complète : « What colour ______ they like? »",
+      "answer": "0",
+      "explanation": "Avec « they », on utilise l'auxiliaire « do » : What colour do they like?"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quelle couleur correspond à « brown » ?",
+      "options": [
+        "gris",
+        "marron",
+        "violet",
+        "kaki"
+      ],
+      "answer": 1,
+      "explanation": "Brown signifie marron."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quelle couleur correspond à « grey » ?",
+      "options": [
+        "gris",
+        "vert",
+        "orange",
+        "rose"
+      ],
+      "answer": 0,
+      "explanation": "Grey signifie gris."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Complète : « What colour ______ she like? »",
+      "answer": "1",
+      "explanation": "Avec « she », on utilise l'auxiliaire « does » : What colour does she like?"
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quelle est la phrase correcte ?",
+      "options": [
+        "Ali's shirt is white.",
+        "Ali's shirt are white.",
+        "Ali's shirt white is.",
+        "Ali's shirt is white?"
+      ],
+      "answer": 0,
+      "explanation": "L'ordre correct est : sujet + verbe + adjectif : Ali's shirt is white."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Remets dans l'ordre : « are – they – black »",
+      "options": [
+        "They are black.",
+        "Are they black.",
+        "Black they are.",
+        "They black are."
+      ],
+      "answer": 0,
+      "explanation": "La phrase correcte est « They are black. »"
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Remets dans l'ordre : « skirt – is – sister's – my – blue »",
+      "options": [
+        "My sister's skirt is blue.",
+        "Sister's my skirt is blue.",
+        "My skirt sister's is blue.",
+        "Blue is my sister's skirt."
+      ],
+      "answer": 0,
+      "explanation": "La phrase correcte est « My sister's skirt is blue. »"
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Remets dans l'ordre : « are – what – shorts – colour – your? »",
+      "options": [
+        "What colour are your shorts?",
+        "What are colour your shorts?",
+        "Your shorts what colour are?",
+        "What colour your shorts are?"
+      ],
+      "answer": 0,
+      "explanation": "La question correcte est « What colour are your shorts? »"
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Remets dans l'ordre : « tie – is – colour – what – teacher's – the? »",
+      "options": [
+        "What colour is the teacher's tie?",
+        "What is colour the teacher's tie?",
+        "The teacher's tie what colour is?",
+        "What colour the teacher's tie is?"
+      ],
+      "answer": 0,
+      "explanation": "La question correcte est « What colour is the teacher's tie? »"
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "D'après le tableau des goûts, quelles couleurs John aime-t-il ?",
+      "options": [
+        "Purple et Brown",
+        "Brown et Grey",
+        "Grey et Orange",
+        "Purple et Grey"
+      ],
+      "answer": 0,
+      "explanation": "Dans le tableau, John a ✓ pour Purple et Brown."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "D'après le tableau, quelles couleurs Julia aime-t-elle ?",
+      "options": [
+        "Purple et Brown",
+        "Brown et Grey",
+        "Grey et Orange",
+        "Purple et Grey"
+      ],
+      "answer": 1,
+      "explanation": "Julia a ✓ pour Brown et Grey."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "D'après le tableau, quelles couleurs les enfants aiment-ils ?",
+      "options": [
+        "Purple et Brown",
+        "Brown et Grey",
+        "Purple et Grey",
+        "Grey et Orange"
+      ],
+      "answer": 2,
+      "explanation": "Les enfants ont ✓ pour Purple et Grey."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Quels vêtements sont proposés pour les enfants dans l'enregistrement ?",
+      "options": [
+        "Des chemises blanches et des shorts marron",
+        "Des jupes rouges et roses",
+        "Des jeans bleus",
+        "Des pantalons noirs"
+      ],
+      "answer": 0,
+      "explanation": "L'enregistrement dit : « white shirts and brown shorts for children »."
+    }
+  ]
+}

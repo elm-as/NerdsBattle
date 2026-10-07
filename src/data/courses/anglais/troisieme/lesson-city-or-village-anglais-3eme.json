@@ -1,0 +1,167 @@
+{
+  "id": "anglais-troisieme-lesson-city-or-village-anglais-3eme",
+  "subjectId": "anglais",
+  "levelId": "troisieme",
+  "slug": "lesson-city-or-village-anglais-3eme",
+  "title": "City or Village? – English Lesson for 3ème (Unit 5‑B)",
+  "summary": "Students compare urban and rural life, practising likes/dislikes, preferences and comparative structures while enriching vocabulary related to environment, transport, culture and safety. Activities include matching positive/negative aspects, gap‑fills, conversation completion and a written paragraph.",
+  "lesson": "## Learning Context\nThe 3ème class of Lycée Moderne Agboville will describe life in the city and the village to write an article stating their preference.\n\n## Lesson Content\n### Language Functions\n- Express likes, dislikes and hates\n- Use **prefer … to …** and **prefer the … to the …**\n\n### Structures\n- I like/dislike/hate living in …\n- I prefer living in the village **to** living in the city.\n- I prefer the friendship in the village **to** the isolation in the city.\n\n### Vocabulary\nmuseum, exhibition, shop, fresh, helpful, peaceful, plenty of, fabulous, entertainment, landscape, conveniences, healthy, health care, crowded, lonely, dangerous, stressed, pollution, secure, boring, tiring, fun, job, travel, difficult\n\n## Activities\n### Activity 1 – Positive side (city vs village)\nMatch the ideas to **City** or **Village** (e.g., fresh air – Village, modern public transport – City, etc.).\n\n### Activity 2 – Negative side (gap‑fill)\nComplete the sentences about country life and city life using the word list provided.\n\n## Language Use\n**A.** Complete the conversation with *prefer … to …* or *prefer the … to the …*.\n**B.** Fill the sentences with *like / dislike / hate*.\n\n## Communication Task\nWrite a paragraph beginning with *I prefer living in the …* and give at least four reasons.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "anglais",
+    "troisieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Which structure is correct for expressing a preference?",
+      "options": [
+        "I prefer living in the city than the village",
+        "I prefer the city to the village",
+        "I prefer city over village",
+        "I prefer living the city to the village"
+      ],
+      "answer": 1,
+      "explanation": "The correct comparative structure is *prefer the X to the Y*."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Which word best completes: \"Living in the city may be exciting but it is also …\"",
+      "options": [
+        "crowded",
+        "peaceful",
+        "relaxing",
+        "expensive"
+      ],
+      "answer": 0,
+      "explanation": "The text lists *crowded* as the first negative aspect of city life."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "True or false: \"Fresh air\" is listed as an advantage of city life.",
+      "answer": false,
+      "explanation": "Fresh air is mentioned as an advantage of village life."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Complete: I ______ living in the city because of insecurity.",
+      "answer": "hate",
+      "explanation": "The sentence requires the verb *hate* to express a strong negative feeling."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Which of the following is NOT in the vocabulary list?",
+      "options": [
+        "exhibition",
+        "tiring",
+        "fabulous",
+        "secure"
+      ],
+      "answer": 1,
+      "explanation": "*Tiring* is not listed; the list contains *tiring* only as a gap‑fill word, not as a vocabulary item."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "True or false: Most jobs are located in the village.",
+      "answer": false,
+      "explanation": "The text states most jobs are in the city."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "I strongly ______ living in the city because of insecurity.",
+      "answer": "hate",
+      "explanation": "The verb *hate* matches the strong negative sentiment."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Which phrase correctly uses the comparative structure from the lesson?",
+      "options": [
+        "I prefer the quietness of my village to the noise of the city",
+        "I prefer quietness of my village than noise of the city",
+        "I prefer quietness of my village over noise of the city",
+        "I prefer quietness of my village rather noise of the city"
+      ],
+      "answer": 0,
+      "explanation": "The pattern *prefer the X to the Y* is required."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "True or false: \"More open spaces\" is an advantage of city life.",
+      "answer": false,
+      "explanation": "\"More open spaces\" is listed under village advantages."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Living in the village may be more relaxing, but it can get (1) ______ as life is slower.",
+      "answer": "boring",
+      "explanation": "The gap‑fill list provides *boring* as option 1."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Which negative aspect of city life is linked to traffic?",
+      "options": [
+        "dangerous",
+        "pollution",
+        "crowded",
+        "stressed"
+      ],
+      "answer": 2,
+      "explanation": "The text mentions *crowded* because of many cars causing traffic jams."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "True or false: The lesson includes a writing task where students must write a paragraph about their preference.",
+      "answer": true,
+      "explanation": "The Communication Task asks for a paragraph."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "I go to my village every Friday evening because I ______ working in my farm all day on Saturdays.",
+      "answer": "dislike",
+      "explanation": "The sentence needs *dislike* to contrast city work with farm work."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Which word best fits: \"Cities are bigger, so they are more ______.\"",
+      "options": [
+        "secure",
+        "stressed",
+        "relaxed",
+        "healthy"
+      ],
+      "answer": 1,
+      "explanation": "The text uses *stressed* as the fourth negative aspect of city life."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "True or false: \"Cheaper cost of living\" is mentioned as a village advantage.",
+      "answer": true,
+      "explanation": "The vocabulary list includes *cheaper cost of living* under village benefits."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "I prefer living in the ______ for the following reasons…",
+      "answer": "village",
+      "explanation": "The writing prompt starts with \"I prefer living in the …\""
+    }
+  ]
+}

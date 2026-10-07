@@ -1,0 +1,157 @@
+{
+  "id": "philosophie-terminale-mon-philo-arguments-toutes-les-lecons-tle-a",
+  "subjectId": "philosophie",
+  "levelId": "terminale",
+  "slug": "mon-philo-arguments-toutes-les-lecons-tle-a",
+  "title": "Conscience, Inconscient et Violence : Concepts Philosophiques",
+  "summary": "Ce module explore les notions de conscience, d’inconscient et de violence à travers les perspectives de la philosophie et de la psychanalyse. Il présente les définitions, les arguments en faveur et les critiques, ainsi que les implications éthiques et sociales. L’objectif est de fournir aux étudiants une compréhension critique et structurée de ces concepts clés.",
+  "lesson": "# Conscience\n\n## 1. Définition\n- **Conscience** : état de connaissance de soi, capacité à saisir ses états intérieurs.\n- Origine étymologique : *cum* (accompagné) + *sciens* (savoir).\n\n## 2. Arguments en faveur\n- **Essence de l’homme** : détermine, fonde et justifie l’existence.\n- **Réflexion et discernement** : permet d’orienter la pensée et de distinguer bien/mal.\n- **Fondement de l’existence** : sans conscience, l’homme ne peut exister.\n\n## 3. Citations clés\n- Pascal : *« Toute notre dignité réside dans la pensée »*.\n- Descartes : *« Je pense, donc je suis »*.\n\n---\n\n# Inconscient\n\n## 1. Définition\n- Ensemble des phénomènes psychiques hors de la conscience.\n- Partie obscure du psychisme.\n\n## 2. Arguments\n- **Déterminant** : l’inconscient gouverne les actions majeures.\n- **Instincts** : réservoir d’instincts et de désirs.\n- **Responsabilité** : l’inconscient peut réduire la responsabilité morale.\n\n## 3. Citations clés\n- Freud : *« La recherche psychologique montre que l’homme n’est pas maître dans sa propre maison »*.\n- Leibniz : *« Il y a en nous une infinité de petites perceptions qui nous échappent »*.\n- Valéry : *« La conscience règne mais ne gouverne pas »*.\n\n---\n\n# Violence\n\n## 1. Définition\n- Expression de brutalité, force exercée sur l’environnement.\n- Deux types : morale/psychologique et physique.\n\n## 2. Arguments en faveur de la violence\n- **Nature humaine** : instinctive et innée.\n- **Hégémonie** : disposition à dominer.\n- **État de nature** : guerre de tous contre tous.\n\n## 3. Refutation\n- **Sociale** : la violence est le fruit des réalités sociales.\n- **Éthique** : l’homme naît bon, la société le corrompt.\n\n## 4. Citations clés\n- Freud : *« L’homme n’est point un être débonnaire, mais quelqu’un qui doit porter une bonne somme d’agressivité »*.\n- Hobbes : *« À l’état de nature, l’homme est un loup pour l’homme »*.\n- Kant : *« L’homme naît bon, mais c’est la société qui le déprave »*.\n\n---\n\n# Synthèse\n- La conscience est le point de départ de la moralité.\n- L’inconscient introduit des forces invisibles qui peuvent contrecarrer la conscience.\n- La violence, qu’elle soit naturelle ou sociale, soulève des questions éthiques majeures sur la responsabilité et la liberté humaine.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "philosophie",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le sens étymologique de la conscience ?",
+      "options": [
+        "Accompagné du savoir",
+        "Connaissance de soi",
+        "Pensée pure",
+        "Raison"
+      ],
+      "answer": 0,
+      "explanation": "La conscience vient de *cum* (accompagné) + *sciens* (savoir)."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel philosophe a déclaré « Je pense donc je suis » ?",
+      "options": [
+        "Pascal",
+        "Descartes",
+        "Rousseau",
+        "Freud"
+      ],
+      "answer": 1,
+      "explanation": "C’est la citation de René Descartes."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "L’inconscient est l’ensemble des phénomènes psychiques qui _______ à la conscience.",
+      "answer": "échappent",
+      "explanation": "Par définition, l’inconscient échappe à la conscience."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Qui affirme que l’homme n’est pas maître dans sa propre maison ?",
+      "options": [
+        "Freud",
+        "Leibniz",
+        "Valéry",
+        "Kant"
+      ],
+      "answer": 0,
+      "explanation": "C’est une citation de Freud."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "La violence morale inclut :",
+      "options": [
+        "Bruits de la nature",
+        "Insultes",
+        "Lutte physique",
+        "Chants"
+      ],
+      "answer": 1,
+      "explanation": "La violence morale comprend les injures et insultes."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Selon Hobbes, l’état de nature est :",
+      "options": [
+        "Un paradis",
+        "Une guerre de tous contre tous",
+        "Un marché libre",
+        "Un état de paix"
+      ],
+      "answer": 1,
+      "explanation": "Hobbes décrit l’état de nature comme une guerre de tous contre tous."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est le rôle principal de la conscience selon l’argument 2 ?",
+      "options": [
+        "Déterminer l’existence",
+        "Orienter la réflexion",
+        "Éliminer l’inconscient",
+        "Créer la société"
+      ],
+      "answer": 1,
+      "explanation": "L’argument 2 souligne que la conscience permet d’orienter la réflexion."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Le philosophe qui a écrit « La conscience règne mais ne gouverne pas » est _______.",
+      "answer": "Valéry",
+      "explanation": "C’est la citation de Paul Valéry."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "La violence physique se caractérise par :",
+      "options": [
+        "Injures verbales",
+        "Brutalité corporelle",
+        "Réprimandes",
+        "Soutien mutuel"
+      ],
+      "answer": 1,
+      "explanation": "La violence physique implique des actes corporels."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel est l’argument principal contre la violence innée ?",
+      "options": [
+        "La violence est naturelle",
+        "La violence est sociale",
+        "La violence est un choix",
+        "La violence est un mythe"
+      ],
+      "answer": 1,
+      "explanation": "L’argument de refutation affirme que la violence est sociale."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Selon Kant, l’homme naît _______.",
+      "answer": "bon",
+      "explanation": "Kant affirme que l’homme naît bon."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel terme décrit la partie obscure du psychisme selon Freud ?",
+      "options": [
+        "Conscience",
+        "Inconscient",
+        "Raison",
+        "Volonté"
+      ],
+      "answer": 1,
+      "explanation": "Freud parle de l’inconscient comme partie obscure."
+    }
+  ]
+}

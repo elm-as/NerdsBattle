@@ -1,0 +1,70 @@
+{
+  "id": "info-seconde-architecture-ordinateurs-codage",
+  "title": "Codage binaire de l'information et architecture matérielle",
+  "summary": "Ce chapitre vous révèle comment les ordinateurs représentent et traitent toute information (nombres, textes, images, sons) à l'aide du binaire, le langage universel des machines. Vous découvrirez également l'architecture matérielle d'un ordinateur, de la carte mère au processeur, et comprendrez comment ces composants interagissent pour exécuter vos programmes.",
+  "lesson": "## Introduction & Mise en situation\n\nImaginez que vous envoyez un SMS, regardez une vidéo ou jouez à un jeu vidéo. Derrière ces actions, l'ordinateur ne manipule que des 0 et des 1. C'est le **codage binaire**. Comprendre ce principe est essentiel pour appréhender comment l'information est stockée et traitée. De plus, connaître l'**architecture matérielle** (les composants physiques) vous permet de mieux utiliser et diagnostiquer un ordinateur. Ce chapitre vous donne les clés pour décoder le fonctionnement interne de ces machines qui nous entourent.\n\n## 1. Définitions et Principes Fondamentaux\n\n### Le système binaire\n\nLe système binaire (base 2) utilise uniquement deux chiffres : 0 et 1, appelés **bits** (contraction de *binary digit*). Un groupe de 8 bits forme un **octet** (ou byte).\n\nChaque position dans un nombre binaire représente une puissance de 2. Par exemple, le nombre binaire $1011_2$ se décompose comme suit :\n\n$$1011_2 = 1 \\times 2^3 + 0 \\times 2^2 + 1 \\times 2^1 + 1 \\times 2^0 = 8 + 0 + 2 + 1 = 11_{10}$$\n\nAinsi, pour convertir un nombre binaire en décimal, on additionne les puissances de 2 correspondant aux bits à 1.\n\n### Le codage de l'information\n\n- **Nombres entiers** : on utilise le binaire pur (non signé) ou le complément à deux pour les nombres négatifs.\n- **Caractères** : chaque caractère est associé à un code numérique. Le code **ASCII** (American Standard Code for Information Interchange) utilise 7 bits (ou 8 avec le bit de parité) pour représenter 128 caractères. Par exemple, 'A' a pour code 65 en décimal, soit $01000001_2$.\n- **Images** : une image est découpée en pixels, chaque pixel ayant une couleur codée sur 24 bits (8 bits par canal Rouge, Vert, Bleu – RVB). Ainsi, on peut représenter $2^{24}$ couleurs différentes.\n- **Sons** : le son est échantillonné à intervalles réguliers (fréquence d'échantillonnage) et chaque échantillon est quantifié (par exemple sur 16 bits).\n\n### L'architecture matérielle\n\nUn ordinateur est composé de plusieurs éléments physiques :\n\n- **Carte mère** : le circuit imprimé principal qui relie tous les composants.\n- **Processeur (CPU)** : le cerveau de l'ordinateur, il exécute les instructions. Sa vitesse est mesurée en Hertz (Hz), souvent en Gigahertz (GHz).\n- **Mémoire vive (RAM)** : mémoire volatile qui stocke les données en cours de traitement. Elle est rapide mais s'efface à l'extinction.\n- **Mémoire de masse (disque dur, SSD)** : stockage permanent des données.\n- **Carte graphique** : traite les images et les vidéos.\n- **Périphériques d'entrée/sortie** : clavier, souris, écran, imprimante, etc.\n\nCes composants communiquent via des **bus** (canaux de communication) sur la carte mère.\n\n## 2. Propriétés et Méthodes d'application\n\n### Conversion décimal → binaire\n\n**Méthode des divisions successives par 2** :\n\n1. Diviser le nombre décimal par 2.\n2. Noter le reste (0 ou 1).\n3. Répéter avec le quotient jusqu'à obtenir un quotient nul.\n4. Le nombre binaire est la lecture des restes de bas en haut.\n\n**Exemple** : Convertir $25_{10}$ en binaire.\n\n- $25 \\div 2 = 12$, reste $1$\n- $12 \\div 2 = 6$, reste $0$\n- $6 \\div 2 = 3$, reste $0$\n- $3 \\div 2 = 1$, reste $1$\n- $1 \\div 2 = 0$, reste $1$\n\nLecture des restes : $11001_2$. Vérification : $1 \\times 16 + 1 \\times 8 + 0 \\times 4 + 0 \\times 2 + 1 \\times 1 = 25$.\n\n### Conversion binaire → décimal\n\n**Méthode** : multiplier chaque bit par sa puissance de 2 (en partant de la droite, $2^0$) et additionner.\n\n**Exemple** : $10110_2$.\n\n$1 \\times 2^4 + 0 \\times 2^3 + 1 \\times 2^2 + 1 \\times 2^1 + 0 \\times 2^0 = 16 + 0 + 4 + 2 + 0 = 22_{10}$.\n\n### Taille des données\n\n- 1 octet = 8 bits\n- 1 Ko (kilo-octet) = $2^{10}$ octets = 1024 octets\n- 1 Mo (méga-octet) = $2^{20}$ octets = 1 048 576 octets\n- 1 Go (giga-octet) = $2^{30}$ octets = 1 073 741 824 octets\n- 1 To (téra-octet) = $2^{40}$ octets\n\n**Exemple** : Un fichier de 3 Mo contient $3 \\times 2^{20}$ octets, soit 3 145 728 octets.\n\n### Cycle de traitement de l'information\n\nL'ordinateur fonctionne selon le cycle : **Entrée → Traitement → Sortie**. Les données entrent via les périphériques d'entrée, sont traitées par le processeur avec l'aide de la RAM, puis sortent via les périphériques de sortie.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confusion entre bit et octet** : Un bit est un chiffre binaire, un octet est un groupe de 8 bits. Ne pas les mélanger.\n- **Erreur de conversion** : Oublier de commencer par la droite (puissance $2^0$) ou de lire les restes dans le bon sens lors des divisions successives.\n- **Mélange des unités** : En informatique, les préfixes kilo, méga, giga représentent des puissances de 2, pas de 10. Ainsi, 1 Ko = 1024 octets, pas 1000.\n- **Oublier le bit de signe** : Pour les nombres négatifs, le bit de poids fort indique le signe (0 pour positif, 1 pour négatif). Ne pas l'ignorer.\n- **Ne pas vérifier ses conversions** : Toujours vérifier en reconvertissant ou en estimant l'ordre de grandeur.\n\n## Synthèse\n\n1. **Le binaire est le langage de l'ordinateur** : toute information est codée en bits (0 et 1). Savoir convertir entre décimal et binaire est fondamental.\n2. **L'architecture matérielle** : un ordinateur est composé de la carte mère, du processeur, de la mémoire (RAM et stockage), et de périphériques. Chaque composant a un rôle précis.\n3. **Les unités de mesure** : 1 octet = 8 bits, et les multiples (Ko, Mo, Go) sont des puissances de 2. Attention aux confusions.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "informatique",
+    "binaire",
+    "architecture",
+    "codage",
+    "seconde"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est l'équivalent décimal du nombre binaire 1101 ?",
+      "options": [
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "answer": 1,
+      "explanation": "1101₂ = 1×2³ + 1×2² + 0×2¹ + 1×2⁰ = 8 + 4 + 0 + 1 = 13."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Un octet est composé de 8 bits.",
+      "answer": true,
+      "explanation": "Par définition, un octet (byte) est un groupe de 8 bits."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Convertir le nombre décimal 45 en binaire. Réponse :",
+      "answer": "101101",
+      "explanation": "45 ÷ 2 = 22 reste 1, 22÷2=11 reste 0, 11÷2=5 reste 1, 5÷2=2 reste 1, 2÷2=1 reste 0, 1÷2=0 reste 1. Lecture des restes : 101101."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel composant est considéré comme le 'cerveau' de l'ordinateur ?",
+      "options": [
+        "La RAM",
+        "Le disque dur",
+        "Le processeur (CPU)",
+        "La carte graphique"
+      ],
+      "answer": 2,
+      "explanation": "Le processeur (CPU) exécute les instructions et coordonne les opérations."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La mémoire RAM est volatile, c'est-à-dire qu'elle perd son contenu lorsque l'ordinateur est éteint.",
+      "answer": true,
+      "explanation": "La RAM (mémoire vive) est volatile : les données sont effacées quand l'alimentation est coupée."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Combien d'octets y a-t-il dans 2 Ko ? (réponse en nombre)",
+      "answer": "2048",
+      "explanation": "1 Ko = 1024 octets, donc 2 Ko = 2048 octets."
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "id": "svt-seconde-l2-pourquoi-les-ivoiriens-se-nourrissen",
+  "subjectId": "svt",
+  "levelId": "seconde",
+  "slug": "l2-pourquoi-les-ivoiriens-se-nourrissen",
+  "title": "Diversité alimentaire en Côte d’Ivoire : causes et spécificités régionales",
+  "summary": "Ce cours explore la répartition des aliments consommés dans les différentes régions de Côte d’Ivoire, les facteurs culturels, climatiques, économiques et sociaux qui expliquent ces variations, et invite les élèves à analyser les liens entre environnement et habitudes alimentaires.",
+  "lesson": "# Diversité alimentaire en Côte d’Ivoire\n\n## Introduction\nLa Côte d’Ivoire possède une grande richesse agro‑alimentaire. Selon la zone géographique, les populations consomment des produits différents, influencés par le climat, le sol, les traditions et le niveau de vie.\n\n## I. Aliments typiques par région\n| Région | Aliments majeurs |\n|--------|-----------------|\n| **Nord** | Mil, sorgho, arachides, ignames, viande de bœuf séchée |\n| **Centre** | Riz, manioc, bananes plantains, poisson d’eau douce, légumes verts |\n| **Sud** | Cacao, café, fruits tropicaux (mangue, ananas), poisson de mer, huile de palme |\n| **Est** | Maïs, ignames, poisson de rivière, légumes racines, épices locales |\n| **Ouest** | Riz, poisson de lagune, crevettes, légumes à feuilles, fruits de la mangrove |\n\n## II. Causes de la diversité des comportements alimentaires\n1. **Préjugés, tabous et croyances** – Certaines communautés évitent certains aliments pour des raisons religieuses ou culturelles.\n2. **Climat et nature du sol** – Le climat tropical humide du sud favorise la culture du cacao et des fruits, tandis que le climat plus sec du nord convient aux céréales résistantes à la sécheresse.\n3. **Niveau de vie sociale et économique** – Les populations urbaines ont un accès plus large aux produits importés, alors que les zones rurales consomment davantage de produits locaux et de saison.\n4. **Convenances personnelles** – Les préférences individuelles, les habitudes familiales et les innovations culinaires modifient les choix alimentaires.\n\n## Conclusion générale\nLa variété des régimes alimentaires en Côte d’Ivoire illustre l’interaction entre environnement naturel et facteurs socioculturels. Comprendre ces liens permet d’appréhender les enjeux de nutrition, de sécurité alimentaire et de développement durable dans le pays.\n\n## Activité proposée\n- **Cartographie** : chaque élève dessine une carte de la Côte d’Ivoire et indique les aliments typiques de chaque région.\n- **Débat** : « Les habitudes alimentaires doivent‑elles évoluer face aux changements climatiques ? »\n- **Recherche** : identifier un plat traditionnel d’une région et expliquer les raisons de ses ingrédients.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "svt",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel aliment est typiquement consommé dans le Nord de la Côte d’Ivoire ?",
+      "options": [
+        "Riz",
+        "Cacao",
+        "Mil",
+        "Mangue"
+      ],
+      "answer": 2,
+      "explanation": "Le mil, ainsi que le sorgho, sont des céréales adaptées au climat sec du Nord."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Lequel des facteurs suivants n’est PAS cité comme cause de la diversité alimentaire ?",
+      "options": [
+        "Climat",
+        "Religion",
+        "Technologie médicale",
+        "Niveau de vie"
+      ],
+      "answer": 2,
+      "explanation": "La technologie médicale n’est pas mentionnée parmi les facteurs influençant les habitudes alimentaires."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Le sud de la Côte d’Ivoire est majoritairement producteur de cacao et de café.",
+      "answer": true,
+      "explanation": "Le climat humide du sud convient à la culture du cacao et du café."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Dans le centre, le principal féculent consommé est le _____.",
+      "answer": "riz",
+      "explanation": "Le riz est largement cultivé et consommé dans la région centre."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel phénomène peut modifier les habitudes alimentaires d’une région ?",
+      "options": [
+        "Changement climatique",
+        "Construction d’un stade",
+        "Importation de voitures",
+        "Développement d’applications mobiles"
+      ],
+      "answer": 0,
+      "explanation": "Le changement climatique affecte la production agricole et donc les habitudes alimentaires."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Les tabous alimentaires sont les mêmes dans toutes les régions ivoiriennes.",
+      "answer": false,
+      "explanation": "Les tabous varient selon les cultures locales et les croyances."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Les habitants de l’ouest consomment souvent du poisson de _____.",
+      "answer": "lagune",
+      "explanation": "La lagune d’Assinie et d’autres zones lagunaires fournissent du poisson."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel légume à feuilles est typique du sud et de l’ouest ?",
+      "options": [
+        "Épinard d’Afrique",
+        "Chou chinois",
+        "Laitue romaine",
+        "Brocoli"
+      ],
+      "answer": 0,
+      "explanation": "L’épinard d’Afrique (ou « feuille de manioc ») est couramment utilisé dans ces régions."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Le niveau de vie économique n’influence pas le choix des aliments consommés.",
+      "answer": false,
+      "explanation": "Un niveau de vie plus élevé permet l’accès à une plus grande variété d’aliments, y compris importés."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Dans l’est, le principal grain cultivé est le _____.",
+      "answer": "maïs",
+      "explanation": "Le maïs s’adapte bien aux conditions de l’est ivoirien."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel est un exemple de croyance influençant l’alimentation ?",
+      "options": [
+        "Interdiction du porc chez les musulmans",
+        "Préférence pour le chocolat noir",
+        "Utilisation de four à micro‑ondes",
+        "Consommation de fast‑food quotidien"
+      ],
+      "answer": 0,
+      "explanation": "Les interdictions religieuses, comme l’interdiction du porc, sont des croyances qui modifient les régimes."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Les fruits tropicaux comme la mangue sont majoritairement produits dans le Nord.",
+      "answer": false,
+      "explanation": "Ces fruits prospèrent surtout dans le climat chaud et humide du Sud et du Sud‑Est."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Le sol sableux du Nord favorise la culture du _____.",
+      "answer": "sorgho",
+      "explanation": "Le sorgho résiste bien aux sols pauvres en nutriments et à la sécheresse."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel type d’aliment est commun à toutes les régions étudiées ?",
+      "options": [
+        "Riz",
+        "Poisson",
+        "Ignames",
+        "Huile de palme"
+      ],
+      "answer": 2,
+      "explanation": "Les ignames sont cultivées et consommées dans presque toutes les zones du pays."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Les conventions personnelles, comme les goûts individuels, n’ont aucun impact sur les habitudes alimentaires collectives.",
+      "answer": false,
+      "explanation": "Les préférences individuelles peuvent se diffuser et influencer les pratiques alimentaires d’un groupe."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Le principal produit d’exportation du Sud est le _____.",
+      "answer": "cacao",
+      "explanation": "Le cacao est la culture d’exportation la plus importante du Sud ivoirien."
+    }
+  ]
+}

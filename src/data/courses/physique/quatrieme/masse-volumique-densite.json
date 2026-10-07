@@ -1,0 +1,70 @@
+{
+  "id": "physique-quatrieme-masse-volumique-densite",
+  "title": "Masse volumique et densité d'un corps",
+  "summary": "La masse volumique est une propriété caractéristique qui permet d'identifier une substance et de comprendre pourquoi certains corps flottent ou coulent. Maîtrisez ce concept essentiel pour résoudre de nombreux problèmes de physique-chimie au collège et au-delà.",
+  "lesson": "## Introduction & Mise en situation\n\nPourquoi un morceau de fer coule-t-il alors qu'un bateau en acier flotte ? Pourquoi l'huile reste-t-elle à la surface de l'eau ? La réponse réside dans une propriété fondamentale de la matière : la **masse volumique**. Ce chapitre vous donne les outils pour caractériser les substances, identifier des matériaux, et expliquer des phénomènes de la vie courante. Vous l'utiliserez également dans d'autres chapitres, comme l'étude des forces et de la pression.\n\n## 1. Définitions et Principes Fondamentaux\n\n### Masse volumique\n\nLa **masse volumique** d'un corps est une grandeur physique qui représente la masse de ce corps par unité de volume. Elle se note souvent $\\rho$ (lettre grecque rhô) et s'exprime en kilogramme par mètre cube ($kg/m^3$) ou en gramme par centimètre cube ($g/cm^3$).\n\n$$\\rho = \\frac{m}{V}$$\n\nOù :\n- $m$ est la masse du corps (en kg ou g)\n- $V$ est le volume du corps (en $m^3$ ou $cm^3$)\n\n**Unités et conversions** :\n- $1\\, g/cm^3 = 1000\\, kg/m^3$\n- $1\\, kg/m^3 = 0.001\\, g/cm^3$\n\n### Densité\n\nLa **densité** d'un corps est le rapport entre la masse volumique de ce corps et la masse volumique d'un corps de référence. Pour les liquides et les solides, le corps de référence est l'eau pure à 4°C, dont la masse volumique est $\\rho_{eau} = 1\\, g/cm^3 = 1000\\, kg/m^3$.\n\n$$d = \\frac{\\rho_{corps}}{\\rho_{eau}}$$\n\nLa densité est sans unité. Elle indique combien de fois un corps est plus lourd (ou plus léger) que l'eau pour un même volume.\n\n## 2. Propriétés et Méthodes d'application\n\n### Détermination expérimentale de la masse volumique\n\n**Pour un solide** :\n1. Mesurer la masse $m$ à l'aide d'une balance.\n2. Mesurer le volume $V$ :\n   - Si le solide a une forme géométrique simple (cube, pavé, cylindre), utiliser les formules de volume.\n   - Sinon, utiliser la méthode du déplacement d'eau dans une éprouvette graduée : le volume du solide est égal à la différence de volume d'eau avant et après immersion.\n3. Calculer $\\rho = \\frac{m}{V}$.\n\n**Pour un liquide** :\n1. Mesurer la masse d'un récipient vide (ou d'une éprouvette).\n2. Verser un volume connu $V$ de liquide dans le récipient et mesurer la masse totale.\n3. La masse du liquide est $m = m_{total} - m_{récipient}$.\n4. Calculer $\\rho = \\frac{m}{V}$.\n\n### Exemple concret\n\nUn bloc de bois a une masse de 800 g et un volume de 1000 $cm^3$. Calculons sa masse volumique en $g/cm^3$ et en $kg/m^3$.\n\n- $\\rho = \\frac{800\\, g}{1000\\, cm^3} = 0.8\\, g/cm^3$\n- Conversion : $0.8\\, g/cm^3 = 0.8 \\times 1000 = 800\\, kg/m^3$\n\nSa densité est $d = \\frac{0.8\\, g/cm^3}{1\\, g/cm^3} = 0.8$. Comme $d < 1$, le bois flotte sur l'eau.\n\n### Utilisation de la densité pour prévoir la flottabilité\n\n- Si $d_{corps} < 1$ (ou $\\rho_{corps} < \\rho_{eau}$) : le corps **flotte**.\n- Si $d_{corps} > 1$ : le corps **coule**.\n- Si $d_{corps} = 1$ : le corps est en équilibre (immersion totale).\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre masse et volume** : La masse volumique n'est ni la masse ni le volume, c'est leur rapport. Un gros objet léger (comme le polystyrène) a une masse volumique faible.\n- **Oublier de convertir les unités** : Souvent, les exercices donnent la masse en g et le volume en $cm^3$, ou la masse en kg et le volume en $m^3$. Il faut toujours vérifier que les unités sont cohérentes avant de calculer. Par exemple, si la masse est en kg et le volume en $cm^3$, il faut convertir l'un des deux.\n- **Confondre densité et masse volumique** : La densité est un rapport sans unité, tandis que la masse volumique a une unité. Ne pas écrire $d = 0.8\\, g/cm^3$.\n- **Utiliser la masse de l'éprouvette au lieu de la masse du liquide** : Dans la méthode de mesure, il faut soustraire la masse du récipient.\n- **Pour la flottabilité, comparer les masses volumiques** : Ne pas comparer les masses ou les volumes seuls. Un gros objet peut flotter s'il a une masse volumique faible.\n\n## Synthèse\n\n- La masse volumique est le rapport de la masse sur le volume : $\\rho = \\frac{m}{V}$.\n- La densité est le rapport de la masse volumique du corps à celle de l'eau : $d = \\frac{\\rho_{corps}}{\\rho_{eau}}$.\n- Si la densité est inférieure à 1, le corps flotte ; si elle est supérieure à 1, il coule.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "masse volumique",
+    "densité",
+    "flottabilité",
+    "physique",
+    "4ème"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la formule de la masse volumique ?",
+      "options": [
+        "$\\rho = m \\times V$",
+        "$\\rho = \\frac{m}{V}$",
+        "$\\rho = \\frac{V}{m}$",
+        "$\\rho = m + V$"
+      ],
+      "answer": 1,
+      "explanation": "La masse volumique est le quotient de la masse par le volume : $\\rho = \\frac{m}{V}$."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La densité d'un corps est toujours inférieure à 1.",
+      "answer": false,
+      "explanation": "La densité peut être supérieure à 1 pour les corps plus denses que l'eau (ex : fer, densité ~7.8)."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Un objet a une masse de 250 g et un volume de 100 cm³. Sa masse volumique en g/cm³ est :",
+      "answer": "2.5",
+      "explanation": "$\\rho = \\frac{250}{100} = 2.5\\, g/cm^3$."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Un corps a une masse volumique de 800 kg/m³. Quelle est sa densité par rapport à l'eau (1000 kg/m³) ?",
+      "options": [
+        "0.8",
+        "1.25",
+        "800",
+        "0.08"
+      ],
+      "answer": 0,
+      "explanation": "$d = \\frac{800}{1000} = 0.8$."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Si la densité d'un corps est supérieure à 1, il flotte sur l'eau.",
+      "answer": false,
+      "explanation": "Si $d > 1$, le corps est plus dense que l'eau, donc il coule."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Convertir 0,5 g/cm³ en kg/m³ :",
+      "answer": "500",
+      "explanation": "1 g/cm³ = 1000 kg/m³, donc 0,5 g/cm³ = 500 kg/m³."
+    }
+  ]
+}

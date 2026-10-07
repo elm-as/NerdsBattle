@@ -1,0 +1,184 @@
+{
+  "id": "physique-sixieme-masse-dun-solide-et-dun-liquide",
+  "subjectId": "physique",
+  "levelId": "sixieme",
+  "slug": "masse-dun-solide-et-dun-liquide",
+  "title": "Masse d'un solide et d'un liquide",
+  "summary": "Découvre comment mesurer la masse des solides et des liquides avec une balance. Maîtrise la simple et la double pesée pour réussir toutes tes expériences !",
+  "lesson": "# Mesure de la masse d'un solide et d'un liquide\n\n## Introduction\nLa masse est une grandeur physique qui indique la quantité de matière d'un corps. Dans ce cours, tu apprendras à la mesurer avec précision, que ce soit pour un solide ou un liquide, en utilisant une balance et des masses marquées.\n\n## 1. Définitions et notions clés\n- **Masse** : grandeur qui se mesure avec une balance. Elle est notée **m** ou **M**.\n- **Unité légale** : le **kilogramme (kg)**. Les multiples et sous-multiples sont : kg, hg, dag, g, dg, cg, mg.\n- **Balance Roberval** : instrument utilisé pour mesurer la masse d'un corps. Elle possède deux plateaux, un fléau, une aiguille et un socle.\n- **Masses marquées** : petites masses étalonnées (1g, 2g, 5g, 10g, 20g, 50g, 100g, 200g, 500g) utilisées pour équilibrer la balance.\n\n## 2. Applications et méthodes\n### 2.1 Simple pesée d'un solide\n1. Vérifie l'équilibre à vide de la balance.\n2. Place l'objet sur un plateau.\n3. Ajoute les masses marquées sur l'autre plateau, de la plus grande à la plus petite, jusqu'à l'équilibre.\n4. La masse de l'objet est la somme des masses marquées.\n\n**Exemple** : Un ananas est équilibré avec 500g + 100g + 20g, donc m = 620g.\n\n### 2.2 Simple pesée d'un liquide\n1. Pèse le récipient vide : masse m1.\n2. Pèse le récipient avec le liquide : masse m2.\n3. La masse du liquide est m = m2 - m1.\n\n**Exemple** : m1 = 60g, m2 = 222g, donc m = 162g.\n\n### 2.3 Double pesée\nUtilisée si la balance n'est pas juste (pas équilibrée à vide).\n1. Place l'objet sur un plateau.\n2. Place une tare plus lourde que l'objet sur l'autre plateau.\n3. Ajoute des masses marquées sur le plateau de l'objet pour équilibrer : note m1.\n4. Enlève l'objet et équilibre avec des masses marquées : note m2.\n5. La masse de l'objet est m = m2 - m1.\n\n**Exemple** : m1 = 55g, m2 = 270g, donc m = 215g.\n\n### 2.4 Autres balances\nIl existe aussi : balance romaine, balance électronique, balance mono plateau, bascule, pèse-lettre.\n\n## 3. Pièges fréquents\n- **Confondre masse et poids** : la masse est constante, le poids dépend de la gravité.\n- **Oublier de vérifier l'équilibre à vide** : la balance doit être équilibrée avant toute mesure.\n- **Mal utiliser les masses marquées** : toujours commencer par la plus grande.\n- **Erreur dans la soustraction** : pour un liquide, m = m2 - m1 (et non m1 - m2).\n- **Ne pas tenir compte de la tare** : en double pesée, la tare est un objet lourd qui n'est pas compté dans la masse finale.\n\n## Synthèse\n- La masse se mesure avec une balance, en kilogrammes (kg).\n- Pour un solide : simple pesée (somme des masses marquées) ou double pesée (m = m2 - m1).\n- Pour un liquide : simple pesée avec différence (m = m2 - m1).\n- La double pesée permet de corriger une balance mal équilibrée.\n\n**À retenir** : La masse est une quantité de matière, elle ne change pas tant que l'objet n'est pas altéré.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel instrument utilise-t-on pour mesurer la masse d'un corps ?",
+      "options": [
+        "Une balance",
+        "Un thermomètre",
+        "Une règle",
+        "Un chronomètre"
+      ],
+      "answer": 0,
+      "explanation": "La masse se mesure avec une balance, comme indiqué dans la définition."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "La masse d'un corps est la grandeur qui se mesure avec une .................... .",
+      "answer": "balance",
+      "explanation": "D'après la définition, la masse se mesure avec une balance."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la masse d'un ananas équilibré par les masses marquées 500g, 100g et 20g ?",
+      "options": [
+        "620g",
+        "520g",
+        "600g",
+        "720g"
+      ],
+      "answer": 0,
+      "explanation": "La masse est la somme des masses marquées : 500 + 100 + 20 = 620g."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle est la première étape pour mesurer la masse d'un liquide par simple pesée ?",
+      "options": [
+        "Peser le récipient vide",
+        "Peser le récipient avec le liquide",
+        "Faire la différence",
+        "Ajouter des masses marquées"
+      ],
+      "answer": 0,
+      "explanation": "On pèse d'abord le récipient vide pour obtenir m1."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "La masse d'un liquide se calcule par la formule m = m2 - .................... .",
+      "answer": "m1",
+      "explanation": "La masse du liquide est la différence entre la masse du récipient avec liquide (m2) et celle du récipient vide (m1)."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Dans une double pesée, comment calcule-t-on la masse de l'objet ?",
+      "options": [
+        "m = m1 + m2",
+        "m = m2 - m1",
+        "m = m1 - m2",
+        "m = m1 × m2"
+      ],
+      "answer": 1,
+      "explanation": "La masse de l'objet est m = m2 - m1, où m1 est la masse des masses marquées avec l'objet et m2 sans l'objet."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quelle est la masse d'un objet si m1 = 55g et m2 = 270g en double pesée ?",
+      "options": [
+        "215g",
+        "325g",
+        "225g",
+        "205g"
+      ],
+      "answer": 0,
+      "explanation": "m = m2 - m1 = 270 - 55 = 215g."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "L'unité légale de masse est le .................... .",
+      "answer": "kilogramme",
+      "explanation": "L'unité légale de masse est le kilogramme (kg)."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel type de balance n'est pas mentionné dans le document ?",
+      "options": [
+        "Balance de cuisine",
+        "Balance romaine",
+        "Balance électronique",
+        "Pèse-lettre"
+      ],
+      "answer": 0,
+      "explanation": "Le document cite la balance romaine, électronique, mono plateau, bascule et pèse-lettre, mais pas la balance de cuisine."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quelle est la masse du jus de citron si m1 = 150g et m2 = 710g ?",
+      "options": [
+        "560g",
+        "860g",
+        "550g",
+        "570g"
+      ],
+      "answer": 0,
+      "explanation": "m = m2 - m1 = 710 - 150 = 560g."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Pour mesurer la masse d'un solide par simple pesée, on utilise des masses .................... .",
+      "answer": "marquées",
+      "explanation": "On utilise des masses marquées pour équilibrer la balance."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quelle est la masse d'un objet équilibré par les masses 100g, 200g et 500g ?",
+      "options": [
+        "800g",
+        "700g",
+        "900g",
+        "600g"
+      ],
+      "answer": 0,
+      "explanation": "100 + 200 + 500 = 800g."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Quel est le symbole du kilogramme ?",
+      "options": [
+        "kg",
+        "g",
+        "mg",
+        "hg"
+      ],
+      "answer": 0,
+      "explanation": "Le symbole du kilogramme est kg."
+    },
+    {
+      "id": "q19",
+      "type": "fill",
+      "prompt": "La masse d'un corps est notée m ou .................... .",
+      "answer": "M",
+      "explanation": "La masse est notée m ou M."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Quelle méthode de pesée est utilisée pour mesurer la masse d'un solide si la balance est défectueuse ?",
+      "options": [
+        "Double pesée",
+        "Simple pesée",
+        "Pesée directe",
+        "Pesée électronique"
+      ],
+      "answer": 0,
+      "explanation": "La double pesée permet de corriger une balance non équilibrée à vide."
+    }
+  ]
+}

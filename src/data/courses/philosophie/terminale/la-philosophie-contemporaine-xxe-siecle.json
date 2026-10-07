@@ -1,0 +1,167 @@
+{
+  "id": "philosophie-terminale-la-philosophie-contemporaine-xxe-siecle",
+  "subjectId": "philosophie",
+  "levelId": "terminale",
+  "slug": "la-philosophie-contemporaine-xxe-siecle",
+  "title": "Philosophie contemporaine du XXe siècle : phénoménologie et existentialisme",
+  "summary": "Au XXe siècle la philosophie se scinde entre phénoménologie (Husserl) et philosophie analytique. La phénoménologie étudie les phénomènes de la conscience, le monde vécu (Lebenswelt) et introduit les notions d’intentionnalité, de noème et de noèse. Elle mène à l’existentialisme via Heidegger. Cette leçon résume les concepts clés, les distinctions et les implications épistémologiques.",
+  "lesson": "# Philosophie contemporaine (XXe siècle)\n\n## 1. Deux grands courants\n- **Phénoménologie** : fondée par Edmund Husserl, elle analyse les phénomènes tels qu’ils apparaissent à la conscience (Lebenswelt).  \n- **Philosophie analytique** : se concentre sur le langage et la logique pour clarifier les concepts.\n\n## 2. Husserl et la phénoménologie\n- **Réponse à la crise des fondements** : recherche d’un socle indubitable pour les sciences.\n- **Intentionnalité** : « toute conscience est conscience de quelque chose ». La conscience n’est jamais isolée ; elle vise toujours un objet (noème).\n- **Épochè** : suspension du jugement sur l’existence du monde extérieur tout en conservant les apparences.\n- **Logique de la conscience** : étude des actes intentionnels (noèse) et de leurs objets (noème).\n\n## 3. Noème et noèse\n- **Noème** : l’objet intentionnel (ex. arbre, triangle, Dieu).\n- **Noèse** : le mode d’appréhension (jugement, désir, crainte, etc.).\n- Exemple : voir un arbre → noème = arbre, noèse = perception visuelle.\n\n## 4. Essences et variation eidétique\n- La connaissance des essences passe par la **variation eidétique** : imaginer toutes les variations possibles d’une propriété jusqu’à atteindre ses limites.\n- Exemple : le triangle est compris en variant ses angles et ses côtés.\n\n## 5. Intuition intellectuelle vs intuition sensible\n- Husserl oppose l’**intuition intellectuelle** (saisir les connecteurs logiques, le « est ») à l’intuition sensible (perception des qualités comme la couleur).\n\n## 6. De la phénoménologie à l’existentialisme\n- **Heidegger** reprend l’intentionnalité et distingue *être* (être‑en‑soi) et *étant* (l’objet).  \n- Cette réflexion ouvre la voie à l’existentialisme (Heidegger, Sartre) où la liberté et le néant deviennent centraux.\n\n## 7. Comparaison avec la philosophie analytique\n- **Analytique** : analyse du langage, des propositions, des structures logiques.  \n- **Phénoménologie** : description des vécus, des structures de la conscience.\n\n---\n*Cette leçon prépare les élèves de terminale à comprendre les enjeux épistémologiques du XXe siècle et à situer l’existentialisme dans la continuité phénoménologique.*",
+  "estimatedMinutes": 12,
+  "tags": [
+    "philosophie",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le principal objet d’étude de la phénoménologie ?",
+      "options": [
+        "Le langage",
+        "Les phénomènes de la conscience",
+        "Les structures logiques",
+        "Les lois de la nature"
+      ],
+      "answer": 1,
+      "explanation": "La phénoménologie se concentre sur les phénomènes tels qu’ils apparaissent à la conscience."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "L’époche (épochè) husserlienne consiste à suspendre le jugement sur l’existence du monde extérieur tout en conservant les apparences.",
+      "answer": true,
+      "explanation": "C’est exactement la définition de l’épochè chez Husserl."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Selon Husserl, toute conscience est conscience de _______.",
+      "answer": "quelque chose",
+      "explanation": "C’est le principe d’intentionnalité : la conscience est toujours dirigée vers un objet."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel terme désigne l’objet intentionnel d’un acte de conscience ?",
+      "options": [
+        "Noèse",
+        "Noème",
+        "Essence",
+        "Intuition"
+      ],
+      "answer": 1,
+      "explanation": "Le noème est l’objet visé par l’acte intentionnel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Qui a introduit la notion de « présence intentionnelle » qui a inspiré Husserl ?",
+      "options": [
+        "Kant",
+        "Brentano",
+        "Heidegger",
+        "Sartre"
+      ],
+      "answer": 1,
+      "explanation": "Franz Brentano a développé la notion de présence intentionnelle."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "La variation eidétique consiste à imaginer toutes les variations possibles d’une propriété afin d’en saisir l’essence.",
+      "answer": true,
+      "explanation": "C’est la méthode husserlienne pour accéder aux essences."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "La logique particulière développée par Husserl s’appelle la _______ de la conscience.",
+      "answer": "phénoménologie",
+      "explanation": "Husserl crée une logique de la conscience, souvent appelée phénoménologie."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel philosophe a transformé la phénoménologie en existentialisme ?",
+      "options": [
+        "Wittgenstein",
+        "Heidegger",
+        "Frege",
+        "Russell"
+      ],
+      "answer": 1,
+      "explanation": "Heidegger a développé l’existentialisme à partir de la phénoménologie husserlienne."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Pour Husserl, le cogito cartésien (\"je pense, donc je suis\") constitue le fondement ultime de la connaissance.",
+      "answer": false,
+      "explanation": "Husserl dépasse le cogito en insistant sur l’ensemble des données premières de la conscience."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "L’« _______ » est la suspension du jugement sur l’existence du monde, analogue au doute hyperbolique de Descartes.",
+      "answer": "épochè",
+      "explanation": "L’épochè suspend le jugement tout en conservant les apparences."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quelle différence fondamentale sépare la phénoménologie de la philosophie analytique ?",
+      "options": [
+        "L’accent sur le langage vs le vécu",
+        "L’étude des mathématiques vs la métaphysique",
+        "L’utilisation de la dialectique vs la logique formelle",
+        "Aucune, les deux sont identiques"
+      ],
+      "answer": 0,
+      "explanation": "La phénoménologie se focalise sur le vécu, alors que l’analytique analyse le langage et la logique."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Heidegger distingue l’« être » (être‑en‑soi) de l’« étant » (l’objet).",
+      "answer": true,
+      "explanation": "Cette distinction est centrale chez Heidegger."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Dans la relation noème/noèse, le noèse correspond au _______ d’appréhension de l’objet.",
+      "answer": "mode",
+      "explanation": "Le noèse désigne la manière dont l’objet est appréhendé."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel philosophe a soutenu que toute intuition est sensible, contrairement à Husserl ?",
+      "options": [
+        "Kant",
+        "Hume",
+        "Heidegger",
+        "Sartre"
+      ],
+      "answer": 0,
+      "explanation": "Kant affirme que l’intuition est toujours sensible."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "L’intuition intellectuelle permet de saisir les connecteurs logiques comme « est » sans recourir à la perception sensorielle.",
+      "answer": true,
+      "explanation": "C’est la différence que Husserl établit avec Kant."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "La méthode husserlienne qui consiste à imaginer toutes les variations possibles d’une forme géométrique s’appelle la variation _______.",
+      "answer": "eidétique",
+      "explanation": "C’est la variation eidétique, utilisée pour accéder aux essences."
+    }
+  ]
+}

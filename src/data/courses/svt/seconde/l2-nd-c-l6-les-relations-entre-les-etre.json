@@ -1,0 +1,180 @@
+{
+  "id": "svt-seconde-l2-nd-c-l6-les-relations-entre-les-etre",
+  "subjectId": "svt",
+  "levelId": "seconde",
+  "slug": "l2-nd-c-l6-les-relations-entre-les-etre",
+  "title": "Relations entre les êtres vivants dans un écosystème",
+  "summary": "Ce document expose les relations interspécifiques observées lors d’une sortie écologique, la construction d’une chaîne alimentaire, la mise en évidence d’un réseau trophique et la répartition des niveaux trophiques. Il met en lumière le transfert de matière, la dépendance alimentaire et la structure pyramidale d’un écosystème, tout en proposant une activité d’application pour consolider la compréhension.",
+  "lesson": "# Relations entre les êtres vivants dans un écosystème\n\n## 1. Introduction\nLors d’une sortie écologique autour de l’établissement, les élèves ont observé un petit ruisseau, des jardins potagers, des mange-mils, des papillons, des colibris, des fourmis, des termites, des nids de souris, des lézards et un serpent. Ces observations ont permis de questionner les relations entre ces êtres vivants.\n\n## 2. Observations et hypothèses\n- Les êtres vivants entretiennent des relations alimentaires.\n- Il existe un transfert de matière entre eux.\n- Certains animaux vivent en société.\n\n## 3. Chaîne alimentaire\nUn exemple concret : **noix → mulot → chouette**. La noix est consommée par le mulot, qui est à son tour mangé par la chouette. Cette séquence illustre une chaîne alimentaire où chaque maillon mange le précédent.\n\n## 4. Réseau trophique\nContrairement à une chaîne linéaire, un réseau trophique regroupe plusieurs chaînes partageant des maillons communs. Il représente l’ensemble des interactions alimentaires d’un écosystème.\n\n## 5. Niveaux trophiques\n- **Producteurs** (autotrophes) : plantes vertes.\n- **Consommateurs primaires** : phytophages.\n- **Consommateurs secondaires** : carnivores.\n\nLa masse biologique diminue d’un niveau à l’autre, illustrée par la pyramide énergétique.\n\n## 6. Conclusion\nLes relations interspécifiques sont essentielles pour le fonctionnement de l’écosystème. Le transfert de matière et la structure pyramidale assurent la stabilité et la résilience de la communauté.\n\n## 7. Activité d’application\nLes élèves doivent classer les animaux suivants dans une chaîne trophique : criquet, aigle, serpent, lézard, colibri, papillon, mange-mil, fourmi, termite, souris, potager, ruisseau, eau, soleil, terre, graines, fleurs, feuilles, bois.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "svt",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel organisme est considéré comme producteur dans une chaîne alimentaire?",
+      "options": [
+        "Mulot",
+        "Chouette",
+        "Noix",
+        "Feuilles"
+      ],
+      "answer": 3,
+      "explanation": "Les producteurs sont des autotrophes, comme les plantes vertes, qui fabriquent leur propre matière organique."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La chaîne alimentaire est toujours linéaire.",
+      "answer": false,
+      "explanation": "Une chaîne alimentaire est linéaire, mais un réseau trophique regroupe plusieurs chaînes partageant des maillons."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le transfert de matière entre les êtres vivants d’un écosystème est appelé __________.",
+      "answer": "transfert de matière",
+      "explanation": ""
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est le rôle du mulot dans la chaîne alimentaire illustrée?",
+      "options": [
+        "Producteur",
+        "Consommateur primaire",
+        "Consommateur secondaire",
+        "Décomposeur"
+      ],
+      "answer": 1,
+      "explanation": "Le mulot mange la noix (producteur) et est mangé par la chouette, donc il est consommateur primaire."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Les fourmis et les termites sont des décomposeurs.",
+      "answer": true,
+      "explanation": "Les fourmis et les termites se nourrissent de matières organiques en décomposition, jouant un rôle de décomposeurs."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel niveau trophique est le plus élevé dans la pyramide énergétique?",
+      "options": [
+        "Producteurs",
+        "Consommateurs primaires",
+        "Consommateurs secondaires",
+        "Consommateurs tertiaires"
+      ],
+      "answer": 3,
+      "explanation": "Les consommateurs tertiaires (ou plus) sont au sommet de la pyramide énergétique."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Les relations alimentaires sont interspécifiques.",
+      "answer": true,
+      "explanation": "Les relations alimentaires impliquent des espèces différentes, donc interspécifiques."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Le terme qui désigne l’ensemble des chaînes alimentaires reliées entre elles est __________.",
+      "answer": "réseau trophique",
+      "explanation": ""
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel animal est un consommateur secondaire dans la chaîne noix → mulot → chouette?",
+      "options": [
+        "Noix",
+        "Mulot",
+        "Chouette",
+        "Feuilles"
+      ],
+      "answer": 2,
+      "explanation": "Le chouette mange le mulot, donc elle est consommateur secondaire."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Les plantes vertes ne sont pas des producteurs.",
+      "answer": false,
+      "explanation": "Les plantes vertes sont les producteurs, car elles fabriquent leur propre matière organique."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel est le rôle principal des papillons observés?",
+      "options": [
+        "Consommateur primaire",
+        "Consommateur secondaire",
+        "Décomposeur",
+        "Producteur"
+      ],
+      "answer": 0,
+      "explanation": "Les papillons mangent des plantes, donc ils sont consommateurs primaires."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "La diminution de la masse biologique d’un niveau à l’autre dans une pyramide énergétique est souvent appelée __________.",
+      "answer": "perte d’énergie",
+      "explanation": ""
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel terme décrit la relation où un organisme est mangé par un autre?",
+      "options": [
+        "Prédateur",
+        "Proie",
+        "Compétiteur",
+        "Symbiote"
+      ],
+      "answer": 1,
+      "explanation": "L’organisme qui est mangé est la proie."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Les animaux vivant en société ne sont pas concernés par les chaînes alimentaires.",
+      "answer": false,
+      "explanation": "Les animaux sociaux, comme les fourmis, participent également aux chaînes alimentaires."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel niveau trophique est représenté par les feuilles et les fleurs?",
+      "options": [
+        "Producteurs",
+        "Consommateurs primaires",
+        "Consommateurs secondaires",
+        "Décomposeurs"
+      ],
+      "answer": 0,
+      "explanation": "Les feuilles et les fleurs sont des producteurs, car elles produisent de l’énergie."
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "prompt": "Le terme qui désigne l’ensemble des êtres vivants d’un écosystème est __________.",
+      "answer": "communauté",
+      "explanation": ""
+    },
+    {
+      "id": "q18",
+      "type": "truefalse",
+      "prompt": "Un réseau trophique ne peut pas contenir de producteurs.",
+      "answer": false,
+      "explanation": "Un réseau trophique inclut toujours des producteurs, car ils sont la base de la chaîne alimentaire."
+    }
+  ]
+}

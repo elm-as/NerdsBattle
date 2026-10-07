@@ -1,0 +1,184 @@
+{
+  "id": "svt-troisieme-l3-la-transfusion-sanguine",
+  "subjectId": "svt",
+  "levelId": "troisieme",
+  "slug": "l3-la-transfusion-sanguine",
+  "title": "La transfusion sanguine",
+  "summary": "Découvre comment les groupes sanguins et le facteur rhésus déterminent les transfusions possibles. Apprends à identifier les groupes et à éviter les accidents transfusionnels.",
+  "lesson": "# La transfusion sanguine\n\n## Introduction\nLa transfusion sanguine est une opération vitale qui consiste à injecter du sang d'un donneur à un receveur. Mais elle n'est possible qu'entre sangs compatibles, en tenant compte des groupes sanguins et du facteur rhésus.\n\n## 1. Définitions & Notions clés\n- **Transfusion sanguine** : injection par perfusion intraveineuse de sang d'une personne bien portante à un malade.\n- **Agglutinogènes (antigènes)** : substances à la surface des hématies (A et B) qui déterminent le groupe sanguin.\n- **Agglutinines (anticorps)** : substances dans le plasma qui détruisent les agglutinogènes étrangers.\n- **Agglutination** : formation d'amas d'hématies lorsque des anticorps rencontrent des antigènes incompatibles.\n- **Facteur rhésus (D)** : antigène supplémentaire ; si présent, Rh+ ; sinon Rh-.\n- **Compatibilité** : capacité d'un sang à être accepté par l'organisme du receveur sans rejet.\n- **Incompatibilité** : incapacité d'un sang à être accepté.\n\n### Groupes sanguins et antigènes\n- Groupe A : antigène A, agglutinines anti-B.\n- Groupe B : antigène B, agglutinines anti-A.\n- Groupe AB : antigènes A et B, pas d'agglutinines.\n- Groupe O : pas d'antigènes, agglutinines anti-A et anti-B.\n\n### Rhésus\n- Rh+ : présence de l'antigène D.\n- Rh- : absence de l'antigène D.\n- Un Rh- peut donner à un Rh+ mais ne peut pas recevoir de lui.\n\n## 2. Applications & Méthodes\n### Détermination du groupe sanguin\nOn utilise des sérums tests : anti-A, anti-B, anti-A+B, anti-Rh. L'agglutination indique la présence de l'antigène correspondant.\n\n**Exemple** : Si le sang agglutine avec anti-B et anti-Rh mais pas avec anti-A, le groupe est B+.\n\n### Règles de transfusion\n- Un individu peut recevoir du sang de son propre groupe.\n- Le groupe O est donneur universel (pas d'antigènes A ou B).\n- Le groupe AB est receveur universel (pas d'agglutinines).\n- Pour le rhésus : un Rh- ne peut recevoir que du Rh- ; un Rh+ peut recevoir du Rh+ et du Rh-.\n\n### Tableau de compatibilité (ABO)\n| Receveur | Peut recevoir de |\n|----------|------------------|\n| A        | A, O             |\n| B        | B, O             |\n| AB       | A, B, AB, O      |\n| O        | O                |\n\nAvec le rhésus : un receveur Rh- ne peut recevoir que du Rh-.\n\n## 3. Pièges fréquents\n- **Confondre agglutinogènes et agglutinines** : les agglutinogènes sont sur les hématies, les agglutinines dans le plasma.\n- **Oublier le facteur rhésus** : une transfusion ABO compatible peut être incompatible à cause du rhésus.\n- **Croire que O peut tout recevoir** : O ne peut recevoir que du O.\n- **Croire que AB peut tout donner** : AB ne peut donner qu'à AB.\n- **Mal interpréter les tests** : une absence d'agglutination signifie absence de l'antigène correspondant.\n\n## Synthèse\nLa transfusion sanguine sauve des vies mais doit respecter les groupes ABO et le rhésus. La compatibilité est essentielle pour éviter l'agglutination et le rejet. Les tests de groupage permettent de déterminer le groupe de chaque individu et d'identifier les donneurs possibles.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "svt",
+    "troisieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Qu'est-ce que la transfusion sanguine ?",
+      "options": [
+        "Une opération qui consiste à prélever du sang",
+        "Une opération qui consiste à injecter du sang à une personne qui en a besoin",
+        "Une maladie du sang",
+        "Un examen microscopique du sang"
+      ],
+      "answer": 1,
+      "explanation": "La transfusion sanguine est l'opération qui consiste à injecter, par perfusion intraveineuse, du sang à une personne qui en a besoin."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel groupe sanguin possède les deux types d'agglutinogènes A et B ?",
+      "options": [
+        "Groupe A",
+        "Groupe B",
+        "Groupe AB",
+        "Groupe O"
+      ],
+      "answer": 2,
+      "explanation": "Lorsque les hématies possèdent les deux types d'agglutinogènes, l'individu est du groupe sanguin AB."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Les personnes du groupe A possèdent des agglutinines anti-____.",
+      "answer": "B",
+      "explanation": "Les personnes du groupe A possèdent des agglutinines anti-B qui détruisent les hématies portant l'agglutinogène B."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Que signifie Rh+ ?",
+      "options": [
+        "Présence de l'antigène A",
+        "Présence de l'antigène B",
+        "Présence de l'antigène D",
+        "Absence de l'antigène D"
+      ],
+      "answer": 2,
+      "explanation": "On est Rhésus positif (Rh+) si on possède l'antigène D."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel est le groupe sanguin d'une personne dont les hématies ne portent pas d'agglutinogènes ?",
+      "options": [
+        "A",
+        "B",
+        "AB",
+        "O"
+      ],
+      "answer": 3,
+      "explanation": "Lorsque les hématies ne portent pas d'agglutinogènes, l'individu est du groupe sanguin O."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "La compatibilité est la capacité d'être assimilé ou d'intégrer l'organisme du receveur sans provoquer de ____ immunitaire.",
+      "answer": "rejet",
+      "explanation": "La compatibilité est la capacité d'être assimilé ou d'intégrer l'organisme du receveur sans provoquer de rejet immunitaire."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Dans l'expérience, le sang de TIZIE mélangé à celui de YOUSSOUF forme des amas d'hématies. Que peut-on en déduire ?",
+      "options": [
+        "Il y a compatibilité",
+        "Il y a agglutination",
+        "Il n'y a pas d'agglutination",
+        "Les deux sangs sont identiques"
+      ],
+      "answer": 1,
+      "explanation": "La formation d'amas d'hématies indique une agglutination, donc une incompatibilité."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel sérum test utilise-t-on pour détecter l'antigène D ?",
+      "options": [
+        "Anti-A",
+        "Anti-B",
+        "Anti-A+B",
+        "Anti-Rh"
+      ],
+      "answer": 3,
+      "explanation": "Le sérum anti-Rh (anti-D) permet de détecter la présence de l'antigène D."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Les personnes du groupe B possèdent des agglutinines anti-____.",
+      "answer": "A",
+      "explanation": "Les personnes du groupe B possèdent des agglutinines anti-A."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Dans le tableau de la situation d'évaluation, le père a les résultats suivants : Anti A (-), Anti B (+), Anti A+B (+), Anti Rh (+). Quel est son groupe sanguin ?",
+      "options": [
+        "A+",
+        "B+",
+        "AB+",
+        "O+"
+      ],
+      "answer": 1,
+      "explanation": "Agglutination avec anti-B et anti-Rh, pas avec anti-A : le père est B+."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel est le groupe sanguin de la mère dans la situation d'évaluation ? (Anti A -, Anti B -, Anti A+B -, Anti Rh +)",
+      "options": [
+        "A+",
+        "B+",
+        "O+",
+        "AB+"
+      ],
+      "answer": 2,
+      "explanation": "Pas d'agglutination avec anti-A et anti-B, mais agglutination avec anti-Rh : la mère est O+."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Lorsque les hématies possèdent l'agglutinogène A, l'individu est du groupe sanguin ____.",
+      "answer": "A",
+      "explanation": "La présence de l'agglutinogène A définit le groupe sanguin A."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Pourquoi une personne du groupe A ne peut-elle pas recevoir du sang du groupe B ?",
+      "options": [
+        "Parce qu'elle possède des agglutinines anti-B",
+        "Parce qu'elle possède des agglutinines anti-A",
+        "Parce qu'elle possède l'antigène B",
+        "Parce qu'elle est Rh-"
+      ],
+      "answer": 0,
+      "explanation": "Une personne du groupe A possède des anticorps anti-B qui détruisent les hématies du groupe B."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Dans l'exercice 3, KOUADIO a les résultats : Anti B (+), Anti A (-), Anti A+B (+), Anti Rh (+). Quel est son groupe sanguin ?",
+      "options": [
+        "A+",
+        "B+",
+        "AB+",
+        "O+"
+      ],
+      "answer": 1,
+      "explanation": "Agglutination avec anti-B et anti-Rh, pas avec anti-A : KOUADIO est B+."
+    },
+    {
+      "id": "q20",
+      "type": "fill",
+      "prompt": "L'opération qui consiste à donner du sang d'une personne bien portante à un malade s'appelle la ____ sanguine.",
+      "answer": "transfusion",
+      "explanation": "La transfusion sanguine est l'opération qui consiste à donner du sang d'une personne bien portante à un malade."
+    }
+  ]
+}

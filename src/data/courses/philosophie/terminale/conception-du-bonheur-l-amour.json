@@ -1,0 +1,186 @@
+{
+  "id": "philosophie-terminale-conception-du-bonheur-l-amour",
+  "subjectId": "philosophie",
+  "levelId": "terminale",
+  "slug": "conception-du-bonheur-l-amour",
+  "title": "Les deux conceptions du bonheur : amour et connaissance",
+  "summary": "Ce document expose deux conceptions majeures du bonheur : l’une place l’amour au centre de la quête de bien-être, illustrée par le mythe d’Aristophane et les idées de Saint François d’Assise, tandis que l’autre valorise la connaissance comme voie vers la sérénité. Il analyse les implications psychologiques et philosophiques de ces approches, soulignant les risques et bénéfices de chaque perspective.",
+  "lesson": "# Les deux conceptions du bonheur\n\n## 1. L’amour comme source de bonheur\n\n- **Mythe d’Aristophane** :\n  - Les humains originaux étaient doubles (4 bras, 4 jambes, double visage).\n  - Zeus les coupe en deux, créant trois types d’êtres :\n    - Mâle‑mâle (homosexuels),\n    - Femelle‑femelle (lesbiennes),\n    - Mâle‑femelle (hétérosexuels).\n  - Chaque moitié cherche son origine, symbolisant la quête de l’âme sœur.\n- **Saint François d’Assise** :\n  - L’amour comme technique de vie, mais avec des limites : la perte de l’objet aimé entraîne souffrance.\n  - Proposition de réorienter l’amour vers soi et vers l’humanité pour réduire la dépendance.\n\n## 2. La connaissance comme voie vers le bonheur\n\n- La connaissance permet de comprendre la nature des désirs et des émotions.\n- Elle offre un cadre rationnel pour gérer les attentes et les relations.\n- La philosophie stoïcienne et épicurienne valorise la maîtrise de soi et la recherche de la vertu.\n\n## Synthèse\n\n- **Amour** : puissant moteur émotionnel, mais sujet à la douleur si l’objet est perdu.\n- **Connaissance** : source de stabilité intérieure, mais nécessite un effort intellectuel continu.\n- L’équilibre entre les deux peut conduire à une vie épanouie, où l’amour est guidé par la compréhension de soi et du monde.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "philosophie",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel mythe explique la quête de l’âme sœur selon Aristophane?",
+      "options": [
+        "Le Banquet de Platon",
+        "Le Discours de Socrate",
+        "Le Poème de Pindare",
+        "Le Récit de Homère"
+      ],
+      "answer": 0,
+      "explanation": "Aristophane raconte son mythe dans le Banquet de Platon."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Aristophane considérait que les humains étaient originaux avec deux visages.",
+      "answer": true,
+      "explanation": "Le mythe décrit les humains comme ayant un double visage."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel type d’être est issu du soleil selon le mythe?",
+      "options": [
+        "Mâle‑mâle",
+        "Femelle‑femelle",
+        "Mâle‑femelle",
+        "Humain neutre"
+      ],
+      "answer": 0,
+      "explanation": "Les mâles issus du soleil cherchent d’autres mâles."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Le mythe d’Aristophane montre que les humains ont été coupés en deux par ______.",
+      "answer": "Zeus",
+      "explanation": "Zeus est l’astre qui coupe les humains."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Selon Saint François d’Assise, la dépendance à l’objet aimé peut entraîner :",
+      "options": [
+        "La sagesse",
+        "La sérénité",
+        "La souffrance",
+        "La prospérité"
+      ],
+      "answer": 2,
+      "explanation": "La perte de l’objet aimé provoque souffrance."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Saint François d’Assise encourage à placer l’amour sur soi plutôt que sur l’objet.",
+      "answer": true,
+      "explanation": "Il propose de réorienter l’amour vers soi et l’humanité."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "La connaissance est associée à quelle philosophie?",
+      "options": [
+        "Stoïcisme",
+        "Nihilisme",
+        "Existentialisme",
+        "Anarchisme"
+      ],
+      "answer": 0,
+      "explanation": "Le stoïcisme valorise la maîtrise de soi via la connaissance."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "La connaissance permet de comprendre les désirs et émotions.",
+      "answer": true,
+      "explanation": "Comprendre les désirs est une fonction de la connaissance."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel est le principal risque de l’amour selon le texte?",
+      "options": [
+        "L’ennui",
+        "La perte de l’objet aimé",
+        "Le manque de richesse",
+        "L’isolement social"
+      ],
+      "answer": 1,
+      "explanation": "La perte de l’objet aimé entraîne souffrance."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Le mythe d’Aristophane illustre la quête de l’______ sœur.",
+      "answer": "âme",
+      "explanation": "Il parle de la recherche de l’âme sœur."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel type d’être est issu de la lune?",
+      "options": [
+        "Mâle‑mâle",
+        "Femelle‑femelle",
+        "Mâle‑femelle",
+        "Humain neutre"
+      ],
+      "answer": 2,
+      "explanation": "Les humains issus de la lune sont hétérosexuels."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Le texte affirme que l’amour est la seule source de bonheur.",
+      "answer": false,
+      "explanation": "Il présente l’amour comme une source mais pas exclusive."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel est le but de réorienter l’amour vers l’humanité?",
+      "options": [
+        "Augmenter la dépendance",
+        "Réduire la souffrance",
+        "Accroître la richesse",
+        "Favoriser l’isolement"
+      ],
+      "answer": 1,
+      "explanation": "Réorienter l’amour vers l’humanité réduit la dépendance et la souffrance."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Le texte suggère que la connaissance ne peut pas contribuer au bonheur.",
+      "answer": false,
+      "explanation": "Il affirme que la connaissance est une voie vers le bonheur."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel est le principal avantage de la connaissance selon le texte?",
+      "options": [
+        "La richesse matérielle",
+        "La stabilité intérieure",
+        "La célébrité",
+        "L’attrait romantique"
+      ],
+      "answer": 1,
+      "explanation": "La connaissance offre une stabilité intérieure."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Le mythe d’Aristophane est présenté dans le ______ de Platon.",
+      "answer": "Banquet",
+      "explanation": "Le mythe apparaît dans le Banquet."
+    },
+    {
+      "id": "q17",
+      "type": "truefalse",
+      "prompt": "Le texte recommande de placer l’amour sur l’objet pour éviter la souffrance.",
+      "answer": false,
+      "explanation": "Il recommande de placer l’amour sur soi et l’humanité, pas sur l’objet."
+    }
+  ]
+}

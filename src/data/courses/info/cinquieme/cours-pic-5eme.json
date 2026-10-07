@@ -1,0 +1,85 @@
+{
+  "id": "info-cinquieme-cours-pic-5eme",
+  "subjectId": "info",
+  "levelId": "cinquieme",
+  "slug": "cours-pic-5eme",
+  "title": "Informatique 5ème : Traitement de l'information et Internet",
+  "summary": "Ce document pédagogique camerounais de 5ème aborde deux modules essentiels : le traitement de l'information (gestion utilisateur, fichiers, traitement de texte) et la communication sur Internet (navigateurs, moteurs de recherche, messagerie). Il adopte l'Approche Par Compétences (APC) pour former des élèves compétents dans l'utilisation des outils numériques et la recherche d'informations.",
+  "lesson": "## Module 1 : Traitement de l'information et production des documents\n\n### Chapitre 1 : Gestion du profil utilisateur\n- **Leçon 1 : Gestion du compte utilisateur**\n  - Création, modification et suppression de comptes.\n  - Importance de la sécurité (mots de passe).\n- **Leçon 2 : Environnement de travail d’un système d’exploitation**\n  - Bureau, icônes, barre des tâches, menu démarrer.\n  - Navigation dans les dossiers et fichiers.\n\n### Chapitre 2 : Utilisation d’un système d’exploitation\n- **Leçon 3 : Les caractéristiques d’un ordinateur**\n  - Matériel (hardware) : CPU, RAM, disque dur, périphériques.\n  - Logiciel (software) : Systèmes d'exploitation, applications.\n- **Leçon 4 : Entretien de l’ordinateur**\n  - Nettoyage physique et logique (désinfection, mise à jour).\n\n### Chapitre 3 : Traitement sur les fichiers et raisonnement étape par étape\n- **Leçon 5 : Organisation des données**\n  - Arborescence des dossiers.\n  - Nommage des fichiers.\n- **Leçon 6 : Rechercher le plus court chemin**\n  - Algorithmes simples de recherche.\n- **Leçon 7 : Notion d’ordonnancement**\n  - Tri des données (alphabétique, numérique).\n\n### Chapitre 4 : Traitement de texte\n- **Leçon 8 : Généralités sur le traitement de texte**\n  - Définition et utilité.\n- **Leçon 9 : Création d’un document texte**\n  - Saisie, enregistrement, ouverture.\n- **Leçon 10 : Mise en forme de document texte**\n  - Police, taille, gras, italique, alignement, couleurs.\n- **Leçon 11 : Impression d’un document texte**\n  - Prévisualisation, sélection de l'imprimante, options d'impression.\n\n## Module 2 : Recherche et communication sur Internet\n\n### Chapitre 5 : Découverte de l’Internet\n- **Leçon 12 : Généralités sur internet**\n  - Définition, historique, fonctionnement (réseau de réseaux).\n- **Leçon 13 : Accès à internet**\n  - Types de connexions (ADSL, Fibre, Mobile).\n  - Configuration de la connexion.\n\n### Chapitre 6 : Utilisation d’un navigateur Internet\n- **Leçon 14 : Présentation des navigateurs**\n  - Chrome, Firefox, Edge, Safari.\n  - Interface du navigateur.\n- **Leçon 15 : Naviguer sur internet**\n  - Saisie d'URL, historique, favoris, onglets.\n\n### Chapitre 7 : Utilisation d’un moteur de recherche\n- **Leçon 16 : Présentation des moteurs de recherche**\n  - Google, Bing, Yahoo.\n  - Principe de fonctionnement.\n- **Leçon 17 : Effectuer une recherche**\n  - Mots-clés, opérateurs de recherche, filtres.\n\n### Chapitre 8 : Messagerie électronique\n- **Leçon 18 : Ouverture et création d’un compte de messagerie**\n  - Gmail, Outlook, Yahoo Mail.\n  - Structure d'une adresse e-mail.\n- **Leçon 19 : Utilisation de la messagerie électronique**\n  - Rédaction, envoi, réception, pièces jointes, réponses.\n- **Leçon 20 : L’inscription à une communauté virtuelle**\n  - Réseaux sociaux, forums, groupes d'intérêt.\n  - Éthique et sécurité en ligne.",
+  "estimatedMinutes": 15,
+  "tags": [
+    "info",
+    "cinquieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel module du document traite de la création et de la mise en forme de documents texte ?",
+      "options": [
+        "Module 1 : Traitement de l’information et production des documents",
+        "Module 2 : Recherche et communication sur internet",
+        "Module 3 : Programmation",
+        "Module 4 : Bases de données"
+      ],
+      "answer": 0,
+      "explanation": "Le Module 1 contient le Chapitre 4 dédié au traitement de texte."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "L'approche pédagogique utilisée dans ce document est l'Approche Par __________ (APC).",
+      "answer": "0",
+      "explanation": "L'avant-propos mentionne l'application du paradigme pédagogique : l’Approche Par Compétences (APC)."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle leçon aborde la création et la modification des comptes utilisateurs ?",
+      "options": [
+        "Leçon 1 : Gestion du compte utilisateur",
+        "Leçon 3 : Les caractéristiques d’un ordinateur",
+        "Leçon 12 : Généralités sur internet",
+        "Leçon 18 : Ouverture et création d’un compte de messagerie"
+      ],
+      "answer": 0,
+      "explanation": "La Leçon 1 du Chapitre 1 est spécifiquement dédiée à la gestion du compte utilisateur."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel outil est utilisé pour naviguer sur le web selon le Chapitre 6 ?",
+      "options": [
+        "Un moteur de recherche",
+        "Un navigateur Internet",
+        "Un tableur",
+        "Un antivirus"
+      ],
+      "answer": 1,
+      "explanation": "Le Chapitre 6 est intitulé 'UTILISATION D’UN NAVIGATEUR INTERNET'."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "La Leçon 17 enseigne comment effectuer une __________ sur Internet.",
+      "answer": "0",
+      "explanation": "Le titre de la Leçon 17 est 'Effectuer une recherche'."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Qui est le coordinateur du document ?",
+      "options": [
+        "M. Abdoulwahabou M.",
+        "M. Touza Isaac",
+        "M. Jilio Goda",
+        "M. Soumanou Etienne"
+      ],
+      "answer": 1,
+      "explanation": "La page de titre indique 'Coordonnateur M. Touza Isaac'."
+    }
+  ]
+}

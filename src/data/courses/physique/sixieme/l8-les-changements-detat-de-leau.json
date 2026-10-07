@@ -1,0 +1,190 @@
+{
+  "id": "physique-sixieme-l8-les-changements-detat-de-leau",
+  "subjectId": "physique",
+  "levelId": "sixieme",
+  "slug": "l8-les-changements-detat-de-leau",
+  "title": "Les changements d'état de l'eau",
+  "summary": "Découvre comment l'eau se transforme : solide, liquide, gaz. Maîtrise la fusion, la solidification, la vaporisation et la condensation pour expliquer le cycle de l'eau.",
+  "lesson": "## Introduction\nL'eau est partout sur Terre et change d'état sous l'effet de la température. Dans cette leçon, nous étudions les changements d'état de l'eau : fusion, solidification, vaporisation et condensation, ainsi que le cycle de l'eau.\n\n## 1. Définitions & Notions clés\n- **Solidification** : passage de l'état liquide à l'état solide. Elle se produit à 0°C pour l'eau pure. Pendant la solidification, la température reste constante à 0°C.\n- **Fusion** : passage de l'état solide à l'état liquide. Elle se produit à 0°C pour la glace. Pendant la fusion, la température reste constante à 0°C.\n- **Vaporisation** : passage de l'état liquide à l'état gazeux. Elle peut se faire par ébullition à 100°C ou par évaporation à température ambiante.\n- **Condensation (ou liquéfaction)** : passage de l'état gazeux à l'état liquide.\n- **Cycle de l'eau** : ensemble des transformations continues de l'eau dans la nature : évaporation, condensation, solidification, fusion, etc.\n\n## 2. Applications & Méthodes\n- **Températures de changement d'état de l'eau** :\n  - Fusion de la glace : 0°C\n  - Solidification de l'eau : 0°C\n  - Ébullition de l'eau : 100°C\n- **Conservation de la masse** : Lors de la fusion et de la solidification, la masse de l'eau ne change pas.\n- **Variation du volume** :\n  - Lors de la fusion, le volume diminue.\n  - Lors de la solidification, le volume augmente (c'est pourquoi une bouteille remplie d'eau et fermée peut se briser au congélateur).\n- **Cycle de l'eau** : Sous l'effet du soleil, l'eau s'évapore, forme des nuages par condensation, puis retombe sous forme de pluie ou de neige. Une partie s'infiltre dans le sol, une autre ruisselle vers les rivières et les mers.\n\n## 3. Pièges fréquents\n- Ne pas confondre **fusion** (solide → liquide) et **solidification** (liquide → solide).\n- Ne pas confondre **vaporisation** (liquide → gaz) et **condensation** (gaz → liquide).\n- La température de fusion de la glace et de solidification de l'eau est la même : 0°C.\n- La masse reste constante lors des changements d'état, mais le volume peut varier.\n- L'évaporation se produit à toute température, tandis que l'ébullition se produit à 100°C pour l'eau pure.\n\n## Synthèse\nLes changements d'état de l'eau sont des phénomènes physiques réversibles. Ils se produisent à des températures précises (0°C pour fusion/solidification, 100°C pour ébullition). La masse est conservée, mais le volume change. Le cycle de l'eau dans la nature fait intervenir ces transformations et est essentiel à la vie.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le passage de l'état liquide à l'état solide ?",
+      "options": [
+        "La fusion",
+        "La solidification",
+        "La vaporisation",
+        "La condensation"
+      ],
+      "answer": 1,
+      "explanation": "La solidification est le passage de l'état liquide à l'état solide."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "À quelle température se produit la fusion de la glace ?",
+      "options": [
+        "0°C",
+        "100°C",
+        "-10°C",
+        "50°C"
+      ],
+      "answer": 0,
+      "explanation": "La fusion de la glace se produit à 0°C."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Comment appelle-t-on le passage de l'état liquide à l'état gazeux ?",
+      "options": [
+        "La fusion",
+        "La solidification",
+        "La vaporisation",
+        "La condensation"
+      ],
+      "answer": 2,
+      "explanation": "La vaporisation est le passage de l'état liquide à l'état gazeux."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "À quelle température l'eau bout-elle ?",
+      "options": [
+        "0°C",
+        "50°C",
+        "100°C",
+        "200°C"
+      ],
+      "answer": 2,
+      "explanation": "L'eau bout à 100°C."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Que se passe-t-il pour la masse de l'eau lors de la solidification ?",
+      "options": [
+        "Elle augmente",
+        "Elle diminue",
+        "Elle reste constante",
+        "Elle devient nulle"
+      ],
+      "answer": 2,
+      "explanation": "La masse de l'eau ne change pas lors de la solidification."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Le passage de l'état gazeux à l'état liquide s'appelle la ________.",
+      "answer": "0",
+      "explanation": "La condensation (ou liquéfaction) est le passage de l'état gazeux à l'état liquide."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel phénomène se produit lorsqu'une bouteille d'eau fermée éclate au congélateur ?",
+      "options": [
+        "La fusion",
+        "La solidification",
+        "La vaporisation",
+        "La condensation"
+      ],
+      "answer": 1,
+      "explanation": "L'eau se solidifie en glace, ce qui augmente son volume et fait éclater la bouteille."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel est l'état de l'eau lorsque de la vapeur se dégage d'une marmite ?",
+      "options": [
+        "Solide",
+        "Liquide",
+        "Gazeux",
+        "Plasma"
+      ],
+      "answer": 2,
+      "explanation": "La vapeur d'eau est à l'état gazeux."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "La ________ est le passage de l'état solide à l'état liquide.",
+      "answer": "0",
+      "explanation": "La fusion est le passage de l'état solide à l'état liquide."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel est le nom du changement d'état qui se produit lorsque la vapeur d'eau se transforme en gouttelettes sur un couvercle froid ?",
+      "options": [
+        "Fusion",
+        "Solidification",
+        "Vaporisation",
+        "Condensation"
+      ],
+      "answer": 3,
+      "explanation": "La condensation est le passage de l'état gazeux à l'état liquide."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel est le pourcentage d'eau douce sur Terre ?",
+      "options": [
+        "3%",
+        "10%",
+        "50%",
+        "97%"
+      ],
+      "answer": 0,
+      "explanation": "Seulement 3% du volume total d'eau sur Terre est douce."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Le passage de l'état liquide à l'état solide s'appelle la ________.",
+      "answer": "0",
+      "explanation": "La solidification est le passage de l'état liquide à l'état solide."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quel est le changement d'état qui se produit lorsqu'on chauffe de l'eau jusqu'à 100°C ?",
+      "options": [
+        "Fusion",
+        "Solidification",
+        "Vaporisation",
+        "Condensation"
+      ],
+      "answer": 2,
+      "explanation": "À 100°C, l'eau se vaporise (ébullition)."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Que faut-il faire pour éviter qu'une bouteille d'eau éclate au congélateur ?",
+      "options": [
+        "La remplir à ras bord",
+        "La fermer hermétiquement",
+        "Ne pas la remplir complètement",
+        "La mettre au réfrigérateur"
+      ],
+      "answer": 2,
+      "explanation": "Il faut éviter de remplir à ras bord les récipients fermés avant de les placer au congélateur."
+    },
+    {
+      "id": "q20",
+      "type": "fill",
+      "prompt": "Lors de la solidification, le volume de l'eau ________.",
+      "answer": "0",
+      "explanation": "Lors de la solidification, le volume de l'eau augmente."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "info-premiere-programmation-python-fonctions",
+  "title": "Python : fonctions, listes et dictionnaires",
+  "summary": "Ce chapitre vous donne les clés pour structurer vos programmes Python avec des fonctions réutilisables, et manipuler efficacement des collections de données grâce aux listes et aux dictionnaires. Ces outils sont indispensables pour résoudre des problèmes concrets et réussir vos évaluations en informatique.",
+  "lesson": "## Introduction & Mise en situation\n\nImaginez que vous devez écrire un programme qui calcule la moyenne de plusieurs notes. Sans fonctions, vous répéteriez le même code à chaque fois, ce qui est long et source d'erreurs. Avec les fonctions, vous écrivez une fois le code de calcul et vous l'appelez quand vous voulez. De même, pour stocker une liste de notes, une liste Python est parfaite ; pour associer un nom à une note, un dictionnaire est idéal. Ces structures sont au cœur de la programmation Python et vous seront utiles dans tous vos projets.\n\n## 1. Définitions et Principes Fondamentaux\n\n### Les fonctions\n\nUne **fonction** est un bloc de code réutilisable qui effectue une tâche précise. Elle peut prendre des **paramètres** (entrées) et retourner un **résultat** avec `return`. La syntaxe générale est :\n\n```python\ndef nom_fonction(param1, param2):\n    # instructions\n    return resultat\n```\n\n**Exemple :**\n\n```python\ndef moyenne(a, b):\n    return (a + b) / 2\n```\n\n### Les listes\n\nUne **liste** est une collection ordonnée et modifiable d'éléments. On la crée avec des crochets `[]`. Les éléments sont indexés à partir de 0.\n\n```python\nnotes = [12, 15, 8]\nprint(notes[0])  # affiche 12\n```\n\n### Les dictionnaires\n\nUn **dictionnaire** est une collection non ordonnée de paires **clé-valeur**. On le crée avec des accolades `{}`. Les clés doivent être uniques et immuables (chaînes, nombres).\n\n```python\netudiant = {\"nom\": \"Aya\", \"note\": 15}\nprint(etudiant[\"nom\"])  # affiche Aya\n```\n\n## 2. Propriétés et Méthodes d'application\n\n### Fonctions : portée et retour\n\n- Une fonction peut avoir plusieurs paramètres et plusieurs `return` (mais un seul est exécuté).\n- Les variables définies à l'intérieur d'une fonction sont **locales** : elles ne sont pas accessibles dehors.\n- Pour modifier une variable globale, on utilise `global`, mais c'est à éviter.\n\n**Exemple concret :**\n\n```python\ndef somme_liste(liste):\n    total = 0\n    for element in liste:\n        total += element\n    return total\n\nnotes = [10, 14, 12]\nprint(somme_liste(notes))  # 36\n```\n\n### Listes : méthodes utiles\n\n- `append(x)` : ajoute x à la fin.\n- `insert(i, x)` : insère x à l'indice i.\n- `remove(x)` : supprime la première occurrence de x.\n- `pop(i)` : retire et retourne l'élément à l'indice i.\n- `len(liste)` : retourne la longueur.\n- `range(n)` : génère une séquence de 0 à n-1.\n\n**Exemple :**\n\n```python\nnotes = [10, 14, 12]\nnotes.append(9)\nnotes.remove(14)\nprint(notes)  # [10, 12, 9]\nprint(len(notes))  # 3\n```\n\n### Dictionnaires : accès et méthodes\n\n- `dico[clé]` : accéder à la valeur.\n- `dico[clé] = valeur` : ajouter ou modifier une entrée.\n- `dico.keys()` : obtenir les clés.\n- `dico.values()` : obtenir les valeurs.\n- `dico.items()` : obtenir les paires clé-valeur.\n- `in` : tester l'existence d'une clé.\n\n**Exemple :**\n\n```python\netudiant = {\"nom\": \"Aya\", \"note\": 15}\netudiant[\"age\"] = 17\nprint(etudiant)  # {'nom': 'Aya', 'note': 15, 'age': 17}\nprint(\"nom\" in etudiant)  # True\n```\n\n### Parcourir une liste et un dictionnaire\n\n```python\n# Liste\nfor note in notes:\n    print(note)\n\n# Dictionnaire\nfor cle, valeur in etudiant.items():\n    print(cle, valeur)\n```\n\n## 3. Pièges fréquents & Mises en garde\n\n1. **Oublier `return`** : Si une fonction ne retourne rien, elle renvoie `None`. Vérifiez que vous utilisez `return` pour obtenir un résultat.\n2. **Indentation incorrecte** : En Python, l'indentation est essentielle. Une mauvaise indentation provoque une erreur de syntaxe.\n3. **Confondre `=` et `==`** : `=` est l'affectation, `==` est la comparaison.\n4. **Modifier une liste en la parcourant** : Évitez de supprimer des éléments pendant une boucle `for` ; utilisez une copie ou une boucle `while`.\n5. **Clé inexistante dans un dictionnaire** : Accéder à une clé inexistante lève une erreur `KeyError`. Utilisez `get()` pour éviter cela.\n6. **Confondre liste et dictionnaire** : Une liste est ordonnée et indexée par des entiers ; un dictionnaire est indexé par des clés.\n\n## Synthèse\n\n- **Fonctions** : blocs réutilisables avec `def` et `return` pour éviter la répétition.\n- **Listes** : collections ordonnées modifiables avec crochets `[]`, méthodes `append`, `remove`, `len`.\n- **Dictionnaires** : collections clé-valeur avec accolades `{}`, accès par clé, méthodes `keys()`, `values()`, `items()`.\n\nRetenez ces trois points et vous pourrez écrire des programmes plus structurés et efficaces.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "python",
+    "fonctions",
+    "listes",
+    "dictionnaires",
+    "programmation"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la syntaxe correcte pour définir une fonction en Python ?",
+      "options": [
+        "fonction maFonction():",
+        "def maFonction():",
+        "function maFonction():",
+        "def maFonction[]:"
+      ],
+      "answer": 1,
+      "explanation": "En Python, on utilise le mot-clé 'def' suivi du nom de la fonction et de parenthèses."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Une liste Python est une collection ordonnée et modifiable.",
+      "answer": true,
+      "explanation": "Les listes sont ordonnées (les éléments ont un ordre) et modifiables (on peut ajouter, supprimer, changer des éléments)."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Quelle méthode de liste permet d'ajouter un élément à la fin ? (réponse en minuscules, sans parenthèses)",
+      "answer": "append",
+      "explanation": "La méthode 'append' ajoute un élément à la fin de la liste."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans un dictionnaire, comment accéder à la valeur associée à la clé 'nom' ?",
+      "options": [
+        "dico['nom']",
+        "dico.nom",
+        "dico.get('nom')",
+        "dico['nom'] et dico.get('nom')"
+      ],
+      "answer": 3,
+      "explanation": "On peut utiliser la syntaxe dico['nom'] ou la méthode get('nom'), les deux sont valides."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Une fonction sans 'return' retourne la valeur 0.",
+      "answer": false,
+      "explanation": "Une fonction sans 'return' retourne 'None'."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Quelle est la sortie du code suivant ?\n\ndef f(x):\n    return x * 2\n\nprint(f(3))",
+      "answer": "6",
+      "explanation": "La fonction f multiplie son argument par 2, donc f(3) = 3*2 = 6."
+    }
+  ]
+}

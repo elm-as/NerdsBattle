@@ -1,0 +1,69 @@
+{
+  "id": "maths-sixieme-symetrie-orthogonale",
+  "title": "Symétrie orthogonale (axiale)",
+  "summary": "La symétrie orthogonale, c'est l'art de refléter une figure comme dans un miroir : elle permet de comprendre et de construire des figures identiques de part et d'autre d'une droite. Ce chapitre est essentiel pour maîtriser les transformations géométriques et résoudre de nombreux problèmes de géométrie au collège.",
+  "lesson": "## Introduction & Mise en situation\n\nAvez-vous déjà regardé votre reflet dans un miroir ? Votre image est symétrique par rapport au plan du miroir. En géométrie, la symétrie orthogonale (ou axiale) est l'équivalent de ce phénomène : on transforme une figure en la reflétant par rapport à une droite, appelée **axe de symétrie**. Cette transformation est omniprésente dans la nature (ailes de papillon, visages) et dans l'art (frises, mosaïques). Elle permet de résoudre des problèmes de construction, de calcul de distances et de prouver des propriétés géométriques. Dans ce cours, nous allons apprendre à définir, construire et utiliser la symétrie orthogonale.\n\n## 1. Définitions et Principes Fondamentaux\n\n**Définition :** Soit une droite $(d)$ (l'axe de symétrie). La symétrie orthogonale par rapport à $(d)$ associe à tout point $M$ du plan un point $M'$ tel que :\n- La droite $(d)$ est la **médiatrice** du segment $[MM']$.\n- Autrement dit, $(d)$ coupe $[MM']$ en son milieu et perpendiculairement.\n\nSi $M$ appartient à $(d)$, alors $M' = M$ (le point est invariant).\n\n**Notation :** On note $s_{(d)}(M) = M'$ ou $M'$ est l'image de $M$ par la symétrie d'axe $(d)$.\n\n**Propriété fondamentale :** La symétrie orthogonale conserve les distances, les angles, les aires et l'alignement. C'est une **isométrie**.\n\n**Exemple :** Soit $(d)$ la droite verticale passant par $x=0$ dans un repère. Le point $A(3,2)$ a pour image $A'(-3,2)$ car la droite $(d)$ est la médiatrice de $[AA']$.\n\n## 2. Propriétés et Méthodes d'application\n\n### Construction de l'image d'un point\nPour construire l'image $M'$ d'un point $M$ par rapport à une droite $(d)$ :\n1. Tracer la droite perpendiculaire à $(d)$ passant par $M$ ; elle coupe $(d)$ en $H$ (le pied de la perpendiculaire).\n2. Prolonger cette perpendiculaire au-delà de $H$ et placer $M'$ tel que $HM' = HM$.\n\n**Exemple :** Soit $(d)$ la droite horizontale $y=1$. Pour $M(2,4)$, la perpendiculaire est la droite verticale $x=2$. Elle coupe $(d)$ en $H(2,1)$. On a $HM = 3$ unités, donc $M'$ est à 3 unités de l'autre côté : $M'(2, -2)$.\n\n### Image d'une figure\nPour construire l'image d'une figure (segment, triangle, cercle), on construit l'image de chacun de ses points caractéristiques (extrémités, sommets, centre) puis on relie.\n\n**Exemple :** Soit le triangle $ABC$ avec $A(1,2)$, $B(3,4)$, $C(5,1)$ et l'axe $(d)$ : $x=0$. Les images sont $A'(-1,2)$, $B'(-3,4)$, $C'(-5,1)$. Le triangle $A'B'C'$ est le symétrique.\n\n### Propriétés de conservation\n- **Alignement :** Si trois points sont alignés, leurs images sont alignées.\n- **Milieu :** Le symétrique du milieu d'un segment est le milieu du segment image.\n- **Parallélisme :** Deux droites parallèles ont pour images des droites parallèles.\n- **Perpendicularité :** Deux droites perpendiculaires ont pour images des droites perpendiculaires.\n- **Longueurs et angles :** Les longueurs de segments et les mesures d'angles sont conservées.\n\n### Axes de symétrie d'une figure\nUne figure admet un axe de symétrie si elle est globalement invariante par rapport à cette droite. Par exemple, un triangle isocèle a un axe de symétrie, un rectangle en a deux, un cercle en a une infinité.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre symétrie centrale et symétrie axiale :** La symétrie centrale est une rotation de 180° autour d'un point, alors que la symétrie axiale est une réflexion. Ne pas les mélanger.\n- **Oublier que l'axe est la médiatrice :** Pour vérifier si une construction est correcte, l'axe doit couper le segment joignant un point et son image en son milieu et à angle droit.\n- **Erreur de construction :** Ne pas prolonger la perpendiculaire du bon côté. Il faut mesurer la distance de part et d'autre de l'axe.\n- **Ne pas conserver les propriétés :** En symétrie axiale, l'ordre des points sur une figure est inversé (sens des aiguilles d'une montre devient inverse). Attention à l'orientation.\n- **Pour les coordonnées :** Si l'axe n'est pas un axe du repère, il ne suffit pas de changer le signe d'une coordonnée. Il faut utiliser la construction géométrique.\n\n## Synthèse\n\n1. **Définition :** La symétrie orthogonale par rapport à une droite $(d)$ transforme tout point $M$ en $M'$ tel que $(d)$ est la médiatrice de $[MM']$.\n2. **Construction :** Pour construire l'image d'un point, tracer la perpendiculaire à l'axe, puis reporter la distance de l'autre côté.\n3. **Propriétés :** Conservation des distances, des angles, des aires, de l'alignement et du parallélisme. C'est une isométrie.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "symétrie",
+    "géométrie",
+    "transformation",
+    "collège"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est l'image du point A(3, -2) par la symétrie d'axe (Oy) ?",
+      "options": [
+        "(-3, -2)",
+        "(3, 2)",
+        "(-3, 2)",
+        "(2, -3)"
+      ],
+      "answer": 0,
+      "explanation": "L'axe (Oy) est la droite x=0. La symétrie change le signe de l'abscisse, donc A'( -3, -2)."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La symétrie orthogonale conserve les aires.",
+      "answer": true,
+      "explanation": "C'est une isométrie, donc elle conserve toutes les distances et les angles, par conséquent les aires sont conservées."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le symétrique du point M par rapport à la droite (d) est M'. Si la distance de M à (d) est 5 cm, quelle est la distance de M' à (d) ? (en cm)",
+      "answer": "5",
+      "explanation": "L'axe est la médiatrice de [MM'], donc M' est à la même distance de l'axe que M."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle figure admet une infinité d'axes de symétrie ?",
+      "options": [
+        "Un carré",
+        "Un cercle",
+        "Un triangle équilatéral",
+        "Un rectangle"
+      ],
+      "answer": 1,
+      "explanation": "Un cercle a une infinité d'axes de symétrie : toutes les droites passant par son centre."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Si un point est sur l'axe de symétrie, son image est lui-même.",
+      "answer": true,
+      "explanation": "Par définition, les points de l'axe sont invariants."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Dans un repère, l'image du point B(-4, 7) par la symétrie d'axe (Ox) a pour abscisse : (écrire le nombre)",
+      "answer": "-4",
+      "explanation": "La symétrie par rapport à l'axe (Ox) change le signe de l'ordonnée, mais l'abscisse reste la même. Donc abscisse = -4."
+    }
+  ]
+}

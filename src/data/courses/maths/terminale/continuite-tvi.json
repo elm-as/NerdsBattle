@@ -1,0 +1,69 @@
+{
+  "id": "maths-terminale-continuite-tvi",
+  "title": "Continuité et théorème des valeurs intermédiaires",
+  "summary": "La continuité est une propriété fondamentale des fonctions qui garantit l'absence de sauts ou de trous. Le théorème des valeurs intermédiaires (TVI) en découle et permet de démontrer l'existence de solutions d'équations, outil indispensable en analyse et pour le BAC.",
+  "lesson": "## Introduction & Mise en situation\n\nImaginez que vous tracez le graphique d'une fonction sans lever le crayon : c'est cela, une fonction continue. En Terminale, la continuité est un concept clé qui permet de justifier l'existence de solutions d'équations, de démontrer des propriétés de fonctions, et de préparer le terrain pour le calcul intégral. Le théorème des valeurs intermédiaires (TVI) est un outil puissant : il affirme que si une fonction continue change de signe sur un intervalle, alors elle s'annule quelque part entre les deux. Ce résultat est utilisé dans de nombreux problèmes du BAC, notamment pour résoudre des équations du type $f(x) = k$.\n\n## 1. Définitions et Principes Fondamentaux\n\n**Définition de la continuité en un point** : Soit $f$ une fonction définie sur un intervalle $I$ et $a \\in I$. On dit que $f$ est **continue en $a$** si $\\lim_{x \\to a} f(x) = f(a)$. Autrement dit, la limite de $f$ en $a$ existe et est égale à la valeur de $f$ en $a$.\n\n**Continuité sur un intervalle** : $f$ est continue sur un intervalle $I$ si elle est continue en chaque point de $I$. Graphiquement, cela signifie que la courbe représentative est d'un seul trait, sans saut ni trou.\n\n**Exemples** :\n- Les fonctions polynômes, $\\sin(x)$, $\\cos(x)$, $\\exp(x)$ sont continues sur $\\mathbb{R}$.\n- La fonction $\\ln(x)$ est continue sur $]0, +\\infty[$.\n- La fonction valeur absolue $|x|$ est continue sur $\\mathbb{R}$.\n- La fonction partie entière $E(x)$ n'est pas continue sur $\\mathbb{R}$ (elle a des sauts aux entiers).\n\n## 2. Propriétés et Méthodes d'application\n\n**Théorème des valeurs intermédiaires (TVI)** :\nSi $f$ est continue sur un intervalle $[a, b]$ et si $k$ est un nombre réel compris entre $f(a)$ et $f(b)$ (i.e. $f(a) \\leq k \\leq f(b)$ ou $f(b) \\leq k \\leq f(a)$), alors il existe au moins un réel $c \\in [a, b]$ tel que $f(c) = k$.\n\n**Cas particulier important** : Si $f(a) \\cdot f(b) < 0$ (i.e. $f(a)$ et $f(b)$ sont de signes contraires), alors il existe au moins une solution de l'équation $f(x) = 0$ dans $]a, b[$.\n\n**Corollaire (théorème de la bijection)** : Si $f$ est continue et strictement monotone sur $[a, b]$, alors pour tout $k$ entre $f(a)$ et $f(b)$, l'équation $f(x) = k$ admet une unique solution dans $[a, b]$.\n\n**Méthode pour résoudre une équation $f(x) = k$** :\n1. Vérifier que $f$ est continue sur un intervalle $[a, b]$.\n2. Calculer $f(a)$ et $f(b)$.\n3. Vérifier que $k$ est entre $f(a)$ et $f(b)$.\n4. Conclure par le TVI qu'il existe au moins une solution.\n5. Pour l'unicité, étudier la monotonie de $f$ sur $[a, b]$ (par le signe de la dérivée) et appliquer le corollaire.\n\n**Exemple concret** :\nMontrons que l'équation $x^3 - 3x + 1 = 0$ admet au moins une solution dans $[0, 1]$.\n- Soit $f(x) = x^3 - 3x + 1$. $f$ est continue sur $[0, 1]$ (polynôme).\n- $f(0) = 1$ et $f(1) = -1$.\n- $f(0) \\cdot f(1) = -1 < 0$, donc par le TVI, il existe $c \\in ]0, 1[$ tel que $f(c) = 0$.\n\nPour l'unicité, on étudie $f'(x) = 3x^2 - 3 = 3(x^2 - 1)$. Sur $[0, 1]$, $f'(x) \\leq 0$, donc $f$ est strictement décroissante. Ainsi, la solution est unique.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Oublier de vérifier la continuité** : Le TVI ne s'applique qu'à des fonctions continues. Vérifiez toujours que la fonction est continue sur l'intervalle considéré.\n- **Confondre continuité et dérivabilité** : Une fonction peut être continue sans être dérivable (exemple : $|x|$ en 0). La continuité est une condition plus faible.\n- **Ne pas vérifier que $k$ est entre $f(a)$ et $f(b)$** : Si $k$ est en dehors de l'intervalle des valeurs, le TVI ne s'applique pas.\n- **Pour l'unicité, oublier la stricte monotonie** : Le TVI garantit l'existence, mais pas l'unicité. Pour l'unicité, il faut que la fonction soit strictement monotone sur l'intervalle.\n- **Confondre $f(a) \\cdot f(b) < 0$ avec $f(a) < 0$ et $f(b) > 0$** : La condition est que les valeurs soient de signes opposés, pas nécessairement que l'une soit négative et l'autre positive dans un ordre précis.\n\n## Synthèse\n\n1. **Continuité** : Une fonction est continue sur un intervalle si on peut tracer sa courbe sans lever le crayon. Mathématiquement, $\\lim_{x \\to a} f(x) = f(a)$ pour tout $a$ de l'intervalle.\n2. **Théorème des valeurs intermédiaires** : Si $f$ est continue sur $[a, b]$ et que $k$ est entre $f(a)$ et $f(b)$, alors l'équation $f(x) = k$ a au moins une solution.\n3. **Unicité** : Si de plus $f$ est strictement monotone, la solution est unique. Ceci est souvent utilisé pour résoudre des équations et justifier l'existence de racines.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "analyse",
+    "continuité",
+    "tvi",
+    "bac"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Soit $f$ une fonction continue sur $[0,2]$ avec $f(0)=1$ et $f(2)=-3$. Que peut-on affirmer ?",
+      "options": [
+        "Il existe $c \\in ]0,2[$ tel que $f(c)=0$.",
+        "Il existe $c \\in [0,2]$ tel que $f(c)=0$.",
+        "f est strictement décroissante sur $[0,2]$.",
+        "f admet un maximum en 2."
+      ],
+      "answer": 1,
+      "explanation": "Le TVI garantit l'existence d'au moins un $c \\in ]0,2[$ tel que $f(c)=0$ car $f(0)$ et $f(2)$ sont de signes opposés. L'option B inclut les bornes, mais le TVI donne $c$ dans l'intervalle ouvert. L'option A est correcte mais moins précise. Les autres options ne sont pas garanties."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La fonction $f(x) = \\frac{1}{x}$ est continue sur $\\mathbb{R}$.",
+      "answer": false,
+      "explanation": "La fonction $f$ n'est pas définie en 0, donc elle ne peut pas être continue sur $\\mathbb{R}$. Elle est continue sur $] -\\infty, 0[ \\cup ]0, +\\infty[$."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Soit $f(x) = x^2 - 2$. D'après le TVI, l'équation $f(x) = 0$ admet au moins une solution dans l'intervalle $[1, 2]$ car $f(1) = -1$ et $f(2) = 2$. Le produit $f(1) \\cdot f(2)$ est égal à :",
+      "answer": "-2",
+      "explanation": "$f(1) \\cdot f(2) = (-1) \\times 2 = -2$. Comme ce produit est négatif, le TVI s'applique."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle condition est nécessaire pour que le théorème des valeurs intermédiaires s'applique à une fonction $f$ sur $[a, b]$ ?",
+      "options": [
+        "f doit être dérivable sur $[a, b]$",
+        "f doit être continue sur $[a, b]$",
+        "f doit être strictement monotone sur $[a, b]$",
+        "f doit être positive sur $[a, b]$"
+      ],
+      "answer": 1,
+      "explanation": "Le TVI exige uniquement la continuité de $f$ sur $[a, b]$. La dérivabilité et la monotonie ne sont pas nécessaires pour l'existence, mais la monotonie est requise pour l'unicité."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Si $f$ est continue sur $[a, b]$ et que $f(a) < f(b)$, alors pour tout $k$ tel que $f(a) < k < f(b)$, l'équation $f(x) = k$ admet au moins une solution dans $[a, b]$.",
+      "answer": true,
+      "explanation": "C'est exactement le TVI : $k$ est entre $f(a)$ et $f(b)$, donc il existe $c \\in [a, b]$ tel que $f(c) = k$."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Soit $f(x) = \\cos(x) - x$. Montrer que l'équation $f(x) = 0$ admet une solution dans $[0, 1]$. Calculer $f(0)$ :",
+      "answer": "1",
+      "explanation": "$f(0) = \\cos(0) - 0 = 1 - 0 = 1$. On a $f(1) \\approx -0.4597$, donc $f(0) \\cdot f(1) < 0$, et par le TVI, il existe une solution."
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "id": "svt-sixieme-l6-linfluence-des-aliments-sur-la-crois",
+  "subjectId": "svt",
+  "levelId": "sixieme",
+  "slug": "l6-linfluence-des-aliments-sur-la-crois",
+  "title": "Influence des aliments sur la croissance des poulets (SVT 6e)",
+  "summary": "Ce cours explique comment la composition, la qualité et la quantité des aliments influencent la croissance des poulets. Il s’appuie sur des expériences comparant deux lots de poussins nourris avec du son de riz ou un mélange maïs‑poisson‑coquillage, et analyse les résultats en termes de protéines, minéraux, vitamines et apport calorique.",
+  "lesson": "# I. Influence de la composition\n- Exemple de sac d’aliment (1 kg) : 160 g protéines végétales, 200 g protéines animales, 10 g calcium, 15 g sels minéraux, 3 g vitamines.\n- Présence de glucides, lipides et eau.\n- Aliments simples identifiés : eau, glucide, vitamine, protide.\n\n# II. Influence de la qualité\n- Expérience : lot A = aliments riches en protéines, lot B = aliments pauvres en protéines.\n- Après 8 semaines, le lot A montre une masse plus élevée.\n- Interprétation : les protéines sont des nutriments de construction favorisant la prise de chair.\n- Tableau d’application (complété) :\n  |Âge (semaines)|Qualité de l’aliment|Masse du poulet (g)|\n  |---|---|---|\n  |1|400 g de maïs|900|\n  |2|400 g de maïs + haricot sec|1500|\n  |3|400 g de maïs + poisson sec|2000|\n\n# III. Influence de la quantité\n- Deux poussins (A & B) de 42 g nourris différemment pendant 7 jours.\n- Quantités (g) consommées chaque jour :\n  - A : 50 – 60 – 70 – 50 – 70 – 75 – 75\n  - B : 65 – 90 – 95 – 100 – 110 – 120 – 130\n- Masses obtenues :\n  - A : 42 – 48 – 57 – 65 – 75 – 85 – 94 – 103\n  - B : 42 – 52 – 66 – 82 – 100 – 120 – 142 – 170\n- Analyse : la masse augmente plus rapidement chez B, qui a reçu une plus grande quantité d’aliment.\n- Conclusion générale : composition, qualité et quantité des aliments déterminent la croissance des poulets.",
+  "estimatedMinutes": 45,
+  "tags": [
+    "svt",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Combien de grammes de protéines animales sont présents dans 1 kg d’aliment ?",
+      "options": [
+        "160 g",
+        "200 g",
+        "10 g",
+        "3 g"
+      ],
+      "answer": 1,
+      "explanation": "Le texte indique 200 g de protéines animales pour chaque kilogramme d’aliment."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Les protéines sont considérées comme des aliments de construction pour les poulets.",
+      "answer": true,
+      "explanation": "Les protéines sont décrites comme des nutriments de construction favorisant la prise de chair."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le sac d’aliments contient ___ g de calcium pour chaque kilogramme.",
+      "answer": "10",
+      "explanation": "Le document précise 10 g de calcium par kilogramme d’aliment."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Parmi les aliments suivants, lequel n’est PAS répertorié comme aliment simple dans l’activité d’application ?",
+      "options": [
+        "Eau",
+        "Glucide",
+        "Vitamine",
+        "Maïs"
+      ],
+      "answer": 3,
+      "explanation": "Maïs est un aliment composé, les aliments simples sont eau, glucide, vitamine et protide."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Dans l’expérience de qualité, le lot B a reçu une alimentation riche en protides.",
+      "answer": false,
+      "explanation": "Le lot B a reçu une alimentation pauvre en protéines, contrairement au lot A."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Après 8 semaines, quel groupe montre la plus grande masse corporelle ?",
+      "options": [
+        "Lot A (riche en protéines)",
+        "Lot B (pauvre en protéines)",
+        "Les deux lots sont égaux",
+        "Pas de donnée"
+      ],
+      "answer": 0,
+      "explanation": "Le texte indique que les poussins nourris avec des aliments riches en protéines (lot A) ont une forte croissance."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Masse initiale des poussins A et B (en grammes) :",
+      "answer": "42",
+      "explanation": "Les deux poussins commencent avec une masse de 42 g."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel jour le poussin B a‑t‑il reçu la plus grande quantité d’aliment ?",
+      "options": [
+        "Jour 1",
+        "Jour 4",
+        "Jour 6",
+        "Jour 7"
+      ],
+      "answer": 3,
+      "explanation": "Le jour 7, le poussin B a reçu 130 g, la plus grande quantité."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Une quantité plus élevée d’aliment conduit toujours à une croissance plus rapide.",
+      "answer": false,
+      "explanation": "La qualité (ex. teneur en protéines) influence également la vitesse de croissance."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Masse du poussin B au jour 5 (en grammes) :",
+      "answer": "100",
+      "explanation": "Le tableau indique 100 g au jour 5 pour le poussin B."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quelle quantité de vitamines est indiquée dans la composition du sac d’aliment ?",
+      "options": [
+        "1 g",
+        "2 g",
+        "3 g",
+        "5 g"
+      ],
+      "answer": 2,
+      "explanation": "Le texte mentionne 3 g de vitamines par kilogramme."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Le maïs seul a permis d’atteindre 1500 g de masse au troisième semaine dans le tableau de qualité.",
+      "answer": false,
+      "explanation": "1500 g est atteint avec maïs + haricot sec (semaine 2), pas avec maïs seul."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel minéral, en plus du calcium, est mentionné dans le texte ?",
+      "options": [
+        "Fer",
+        "Sels minéraux",
+        "Magnésium",
+        "Zinc"
+      ],
+      "answer": 1,
+      "explanation": "Le texte parle de « sels minéraux » (calcium et autres)."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Dans le tableau de qualité, 400 g de maïs + poisson sec donnent une masse de ___ g à la semaine 3.",
+      "answer": "2000",
+      "explanation": "Le tableau complété indique 2000 g pour la semaine 3."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Les glucides sont classés comme aliments simples dans le texte.",
+      "answer": true,
+      "explanation": "Les glucides figurent parmi les aliments simples identifiés."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quelle phrase résume le mieux la conclusion générale du cours ?",
+      "options": [
+        "La composition, la qualité et la quantité des aliments influencent la croissance des poulets.",
+        "Seule la quantité importe.",
+        "Seule la qualité importe.",
+        "Seule la composition importe."
+      ],
+      "answer": 0,
+      "explanation": "Le texte conclut que les trois facteurs – composition, qualité et quantité – sont déterminants."
+    }
+  ]
+}

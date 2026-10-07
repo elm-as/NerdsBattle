@@ -1,0 +1,14 @@
+{
+  "id": "francais-troisieme-figures-style",
+  "title": "Les figures de style",
+  "summary": "Métaphore, comparaison, hyperbole, antithèse...",
+  "lesson": "Comparaison : rapproche deux éléments avec un outil (comme, tel...). Métaphore : comparaison sans outil. Hyperbole : exagération. Antithèse : opposition de termes. Personnification : attribuer des traits humains à un objet.",
+  "estimatedMinutes": 9,
+  "tags": ["stylistique"],
+  "questions": [
+    { "id": "q1", "type": "mcq", "prompt": "« Cet homme est un lion. » est une :", "options": ["comparaison", "métaphore", "hyperbole", "personnification"], "answer": 1, "explanation": "Pas d'outil de comparaison → métaphore." },
+    { "id": "q2", "type": "mcq", "prompt": "« Il pleut des cordes. » est une :", "options": ["antithèse", "métaphore", "hyperbole", "personnification"], "answer": 2, "explanation": "Exagération → hyperbole." },
+    { "id": "q3", "type": "truefalse", "prompt": "« Le vent murmure » est une personnification.", "answer": true, "explanation": "Le vent reçoit un trait humain (parler)." },
+    { "id": "q4", "type": "fill", "prompt": "L'opposition de deux termes dans une phrase est une ___.", "answer": "antithèse", "explanation": "Ex : « Je vis, je meurs. »" }
+  ]
+}

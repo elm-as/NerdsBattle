@@ -1,0 +1,70 @@
+{
+  "id": "physique-seconde-reactions-chimiques-bilan",
+  "title": "Transformations chimiques et tableau d'avancement",
+  "summary": "Maîtrisez l'outil central de la chimie : le tableau d'avancement, qui permet de prévoir quantitativement l'évolution d'une réaction. Ce chapitre vous donne les clés pour identifier le réactif limitant et calculer les quantités de matière finales, compétence indispensable pour réussir vos évaluations et vos travaux pratiques.",
+  "lesson": "## Introduction & Mise en situation\n\nLors d'une transformation chimique, les réactifs sont consommés et des produits se forment. Mais **combien** de produits obtient-on ? **Quel** réactif est totalement consommé en premier ? Pour répondre à ces questions, les chimistes utilisent un outil puissant : **le tableau d'avancement**. C'est un outil de prévision qui permet de suivre l'évolution des quantités de matière au cours de la réaction. Il est indispensable pour interpréter les résultats expérimentaux, optimiser une synthèse ou comprendre des phénomènes naturels (combustion, corrosion, etc.).\n\n## 1. Définitions et Principes Fondamentaux\n\n### Équation bilan\nUne transformation chimique est modélisée par une équation bilan qui respecte la **conservation de la matière** et de la **charge**. Par exemple :\n$$2\\,H_2 + O_2 \\rightarrow 2\\,H_2O$$\nLes nombres devant les formules (2, 1, 2) sont les **coefficients stœchiométriques**.\n\n### Quantité de matière\nLa quantité de matière $n$ (en mol) d'une espèce est liée à sa masse $m$ (en g) par la relation :\n$$n = \\frac{m}{M}$$\noù $M$ est la masse molaire (en g/mol). Pour une solution, on utilise la concentration molaire $C$ (en mol/L) : $n = C \\times V$.\n\n### Avancement de réaction\nL'**avancement** $x$ (en mol) est une grandeur qui décrit l'évolution de la réaction. Il est nul à l'état initial et augmente au cours de la réaction. Pour chaque espèce, la quantité de matière à un instant donné s'exprime en fonction de $x$ et des coefficients stœchiométriques.\n\n### Tableau d'avancement\nC'est un tableau à double entrée qui récapitule les quantités de matière initiales, en cours de transformation et à l'état final. Il contient les lignes suivantes :\n\n- **État initial** ($x=0$) : on note les quantités initiales $n_i$.\n- **État intermédiaire** (en cours) : on exprime les quantités en fonction de $x$.\n- **État final** ($x=x_{max}$) : on calcule les quantités finales.\n\n### Réactif limitant\nC'est le réactif qui est entièrement consommé à la fin de la réaction. Il détermine l'avancement maximal $x_{max}$. Les autres réactifs sont en excès.\n\n## 2. Propriétés et Méthodes d'application\n\n### Méthode pas à pas pour construire un tableau d'avancement\n\n1. **Écrire l'équation bilan** ajustée.\n2. **Calculer les quantités de matière initiales** de chaque réactif (à partir des masses, volumes, concentrations).\n3. **Remplir la ligne 'État initial'** avec ces valeurs.\n4. **Exprimer les quantités en cours** : pour chaque espèce, on soustrait ou on ajoute $x$ selon son coefficient.\n   - Pour un réactif $A$ avec coefficient $a$ : $n(A) = n_i(A) - a \\cdot x$\n   - Pour un produit $B$ avec coefficient $b$ : $n(B) = n_i(B) + b \\cdot x$\n5. **Déterminer $x_{max}$** : pour chaque réactif, on résout $n_i - a \\cdot x = 0$, ce qui donne $x_{max} = \\frac{n_i}{a}$. Le plus petit $x_{max}$ est l'avancement maximal.\n6. **Identifier le réactif limitant** : celui qui donne la plus petite valeur de $x_{max}$.\n7. **Calculer les quantités finales** en remplaçant $x$ par $x_{max}$ dans les expressions.\n\n### Exemple concret\nOn fait réagir 2,0 g de dihydrogène $H_2$ avec 16,0 g de dioxygène $O_2$. Équation : $2\\,H_2 + O_2 \\rightarrow 2\\,H_2O$.\n\n- Masses molaires : $M(H_2)=2,0$ g/mol, $M(O_2)=32,0$ g/mol.\n- Quantités initiales : $n_i(H_2) = \\frac{2,0}{2,0}=1,0$ mol, $n_i(O_2) = \\frac{16,0}{32,0}=0,50$ mol.\n\nTableau d'avancement :\n\n| État | $H_2$ | $O_2$ | $H_2O$ |\n|------|-------|-------|--------|\n| initial | 1,0 | 0,50 | 0 |\n| en cours | $1,0 - 2x$ | $0,50 - x$ | $2x$ |\n| final | $1,0 - 2x_{max}$ | $0,50 - x_{max}$ | $2x_{max}$ |\n\nPour $H_2$ : $1,0 - 2x = 0 \\Rightarrow x = 0,50$ mol.\nPour $O_2$ : $0,50 - x = 0 \\Rightarrow x = 0,50$ mol.\nLes deux donnent $x_{max}=0,50$ mol. Ici, les deux réactifs sont limitants (mélange stœchiométrique).\n\nQuantités finales : $n(H_2)=0$, $n(O_2)=0$, $n(H_2O)=2 \\times 0,50 = 1,0$ mol.\n\n### Cas d'un excès\nSi on reprend avec 3,0 g de $H_2$ et 16,0 g de $O_2$ :\n$n_i(H_2) = 1,5$ mol, $n_i(O_2)=0,50$ mol.\nPour $H_2$ : $1,5 - 2x = 0 \\Rightarrow x=0,75$ mol.\nPour $O_2$ : $0,50 - x = 0 \\Rightarrow x=0,50$ mol.\nLe plus petit est $0,50$ mol, donc $x_{max}=0,50$ mol. Le réactif limitant est $O_2$, $H_2$ est en excès.\n\nFinal : $n(H_2)=1,5 - 2 \\times 0,50 = 0,50$ mol, $n(O_2)=0$, $n(H_2O)=1,0$ mol.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Oublier d'ajuster l'équation** : utiliser des coefficients incorrects fausse tout le tableau.\n- **Confondre quantité de matière et masse** : toujours convertir en mol avant de remplir le tableau.\n- **Ne pas tenir compte des coefficients stœchiométriques** : par exemple, pour $2\\,H_2$, la consommation est $2x$ et non $x$.\n- **Prendre le plus grand $x_{max}$ au lieu du plus petit** : le réactif limitant est celui qui s'épuise en premier, donc celui qui donne la plus petite valeur.\n- **Oublier de vérifier que les quantités finales sont positives** : si une quantité devient négative, c'est une erreur de calcul.\n- **Confondre état initial et état final** : bien lire l'énoncé pour savoir ce qui est donné.\n\n## Synthèse\n\n1. **Le tableau d'avancement** est un outil systématique pour suivre l'évolution des quantités de matière lors d'une réaction chimique.\n2. **L'avancement maximal** $x_{max}$ est déterminé par le réactif limitant, celui qui donne la plus petite valeur de $x$ lorsqu'on résout $n_i - a \\cdot x = 0$.\n3. **Les quantités finales** se calculent en remplaçant $x$ par $x_{max}$ dans les expressions littérales.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "réaction chimique",
+    "tableau d'avancement",
+    "réactif limitant",
+    "quantité de matière",
+    "stœchiométrie"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans une équation chimique, les nombres placés devant les formules chimiques sont appelés :",
+      "options": [
+        "les indices",
+        "les coefficients stœchiométriques",
+        "les nombres stœchiométriques",
+        "les coefficients de proportionnalité"
+      ],
+      "answer": 1,
+      "explanation": "Les nombres devant les formules sont les coefficients stœchiométriques. Les indices sont les petits nombres dans les formules (ex : 2 dans H₂O)."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le réactif limitant est le réactif qui est totalement consommé à la fin de la réaction.",
+      "answer": true,
+      "explanation": "C'est la définition même du réactif limitant. Il détermine l'avancement maximal."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Pour la réaction $N_2 + 3H_2 \\rightarrow 2NH_3$, si on part de 2,0 mol de N₂ et 6,0 mol de H₂, quel est l'avancement maximal $x_{max}$ en mol ?",
+      "answer": "2",
+      "explanation": "Pour N₂ : 2,0 - x = 0 ⇒ x = 2,0. Pour H₂ : 6,0 - 3x = 0 ⇒ x = 2,0. Donc x_max = 2,0 mol."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans la réaction $2H_2 + O_2 \\rightarrow 2H_2O$, si on a initialement 3,0 mol de H₂ et 2,0 mol de O₂, quel est le réactif limitant ?",
+      "options": [
+        "H₂",
+        "O₂",
+        "Les deux sont limitants",
+        "Aucun"
+      ],
+      "answer": 0,
+      "explanation": "Pour H₂ : 3,0 - 2x = 0 ⇒ x = 1,5. Pour O₂ : 2,0 - x = 0 ⇒ x = 2,0. Le plus petit est 1,5, donc H₂ est limitant."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Dans un tableau d'avancement, la quantité de matière d'un produit augmente de $b \\cdot x$ où $b$ est son coefficient stœchiométrique.",
+      "answer": true,
+      "explanation": "Pour un produit, on ajoute $b \\cdot x$ à la quantité initiale (souvent nulle)."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Si on fait réagir 4,0 g de CH₄ (M=16 g/mol) avec 16 g de O₂ (M=32 g/mol) selon $CH_4 + 2O_2 \\rightarrow CO_2 + 2H_2O$, quelle quantité de matière de CO₂ (en mol) sera produite à la fin ?",
+      "answer": "0.25",
+      "explanation": "n(CH₄)=4/16=0,25 mol, n(O₂)=16/32=0,50 mol. Pour CH₄ : 0,25 - x = 0 ⇒ x=0,25. Pour O₂ : 0,50 - 2x = 0 ⇒ x=0,25. Donc x_max=0,25 mol. n(CO₂)=x_max=0,25 mol."
+    }
+  ]
+}

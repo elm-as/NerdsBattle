@@ -1,0 +1,14 @@
+{
+  "id": "histoire-troisieme-seconde-guerre-mondiale",
+  "title": "La Seconde Guerre mondiale",
+  "summary": "1939-1945 : un conflit mondial total, la Shoah, la défaite des régimes fascistes.",
+  "lesson": "La guerre commence le 1ᵉʳ septembre 1939 (invasion de la Pologne). Elle se termine en Europe le 8 mai 1945 et dans le Pacifique le 2 septembre 1945. Bilan : ~60 millions de morts, génocide des Juifs (Shoah) et des Tsiganes.",
+  "estimatedMinutes": 12,
+  "tags": ["xxe siècle", "guerre"],
+  "questions": [
+    { "id": "q1", "type": "mcq", "prompt": "Date de début de la Seconde Guerre mondiale ?", "options": ["1 sept. 1939", "11 nov. 1939", "3 sept. 1940", "7 déc. 1941"], "answer": 0, "explanation": "Invasion de la Pologne par l'Allemagne nazie." },
+    { "id": "q2", "type": "mcq", "prompt": "Le Débarquement en Normandie a eu lieu le :", "options": ["6 juin 1944", "8 mai 1945", "11 nov. 1918", "1 sept. 1939"], "answer": 0, "explanation": "Opération Overlord, D-Day." },
+    { "id": "q3", "type": "truefalse", "prompt": "Pearl Harbor a fait entrer les États-Unis dans la guerre.", "answer": true, "explanation": "Attaque japonaise du 7 décembre 1941." },
+    { "id": "q4", "type": "fill", "prompt": "Le génocide des Juifs est appelé la ___.", "answer": "Shoah", "explanation": "Aussi appelé Holocauste." }
+  ]
+}

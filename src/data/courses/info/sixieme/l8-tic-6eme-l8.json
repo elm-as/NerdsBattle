@@ -1,0 +1,167 @@
+{
+  "id": "info-sixieme-l8-tic-6eme-l8",
+  "subjectId": "info",
+  "levelId": "sixieme",
+  "slug": "l8-tic-6eme-l8",
+  "title": "Leçon 8 – Impression de documents (6ème)",
+  "summary": "Les élèves apprennent à préparer, sauvegarder et imprimer un texte à l’aide d’un traitement de texte. Ils rédigent une lettre d’excuse, enregistrent le fichier sur le bureau et impriment deux exemplaires. Ils saisissent ensuite un extrait du conte « L'Araignée et la famine », puis l’impriment. La leçon couvre la mise en forme, l’enregistrement, la prévisualisation et les réglages d’impression.",
+  "lesson": "## Objectifs\n- Saisir un texte dans un logiciel de traitement de texte.\n- Enregistrer correctement un document sur le bureau.\n- Utiliser la fonction d’aperçu avant impression.\n- Configurer l’imprimante pour imprimer le nombre de copies souhaité.\n\n## Matériel\n- Ordinateur avec un traitement de texte (ex. Word, LibreOffice Writer).\n- Imprimante connectée.\n- Accès à Internet pour la vidéo tutorielle.\n\n## Déroulement\n1. **Visionnage** – Regarder la vidéo d’introduction (https://youtu.be/7tm8QX1BYDc) qui montre les étapes d’impression.\n2. **Rédaction de la lettre** – Saisir la lettre d’excuse décrite dans le scénario. Vérifier la mise en forme (police, taille, interligne).\n3. **Enregistrement** – Enregistrer le fichier sur le Bureau avec un nom explicite (ex. `Lettre_Excuse.docx`).\n4. **Aperçu avant impression** – Ouvrir l’aperçu pour vérifier la pagination, les marges et l’orthographe.\n5. **Impression** – Configurer l’imprimante pour imprimer **2 copies** du document et lancer l’impression.\n6. **Saisie du conte** – Copier le texte du conte « L'Araignée et la famine » dans un nouveau document.\n7. **Enregistrement** – Sauvegarder le conte sous le nom `Conte_Araignee.docx` sur le Bureau.\n8. **Impression du conte** – Imprimer le texte en une copie, en vérifiant les réglages de qualité.\n\n## Points de contrôle\n- Le fichier est bien enregistré sur le Bureau.\n- L’aperçu montre le texte complet sans coupure.\n- Le nombre de copies demandé est respecté.\n- Les marges et l’orientation sont correctes.\n\n## Évaluation\nLes élèves seront évalués sur la capacité à :\n- Saisir le texte sans fautes majeures.\n- Enregistrer le fichier au bon emplacement.\n- Utiliser l’aperçu avant impression.\n- Configurer le nombre de copies et lancer l’impression.\n\n## Remarques pédagogiques\n- Insister sur la sauvegarde fréquente pour éviter la perte de données.\n- Sensibiliser à l’économie de papier grâce à l’aperçu.\n- Vérifier que chaque élève a accès à une imprimante fonctionnelle.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "info",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le premier geste à faire avant d’imprimer un document?",
+      "options": [
+        "Ouvrir le navigateur",
+        "Faire un aperçu du document",
+        "Allumer l’imprimante",
+        "Envoyer le fichier par email"
+      ],
+      "answer": 1,
+      "explanation": "L’aperçu permet de vérifier la mise en forme et d’éviter le gaspillage de papier."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Il faut enregistrer le fichier sur le Bureau avant de l’imprimer.",
+      "answer": true,
+      "explanation": "Enregistrer sur le Bureau facilite la localisation du fichier pour l’impression."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Dans la vidéo fournie, le format de fichier recommandé pour l’impression est ___.",
+      "answer": "PDF",
+      "explanation": "Le PDF conserve la mise en forme quel que soit le poste."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Combien de copies la lettre d’excuse doit‑elle être imprimée?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "Le consigne précise deux exemplaires."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Il est possible d’imprimer directement depuis le dossier du Bureau sans ouvrir le document.",
+      "answer": false,
+      "explanation": "Le document doit être ouvert pour vérifier le contenu avant impression."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Le nom de fichier suggéré pour la lettre d’excuse est ___.",
+      "answer": "Lettre_Excuse.docx",
+      "explanation": "Un nom explicite aide à identifier rapidement le document."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel réglage doit‑on vérifier pour éviter que le texte soit tronqué?",
+      "options": [
+        "La résolution de l’écran",
+        "Les marges du document",
+        "Le volume du haut‑parleur",
+        "La vitesse du processeur"
+      ],
+      "answer": 1,
+      "explanation": "Des marges trop petites peuvent couper le texte à l’impression."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Le texte du conte doit être saisi dans le même document que la lettre d’excuse.",
+      "answer": false,
+      "explanation": "Chaque exercice nécessite son propre fichier (ex. `Conte_Araignee.docx`)."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Le titre du conte à saisir est « ___ ».",
+      "answer": "L'Araignée et la famine",
+      "explanation": "Le titre exact figure dans le document fourni."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel type de police est recommandé pour une lecture claire?",
+      "options": [
+        "Comic Sans",
+        "Times New Roman",
+        "Papyrus",
+        "Impact"
+      ],
+      "answer": 1,
+      "explanation": "Times New Roman est une police standard lisible pour les documents scolaires."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Il faut imprimer le conte en deux exemplaires comme la lettre.",
+      "answer": false,
+      "explanation": "Le consigne indique une seule copie pour le conte."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Le raccourci clavier pour enregistrer rapidement un document sous Windows est ___.",
+      "answer": "Ctrl+S",
+      "explanation": "Ctrl+S sauvegarde le fichier sans ouvrir le menu."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel format d’impression (orientation) convient le mieux à un texte long?",
+      "options": [
+        "Portrait",
+        "Paysage",
+        "Couché",
+        "Inversé"
+      ],
+      "answer": 0,
+      "explanation": "Le format portrait maximise la longueur verticale du texte."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Avant d’imprimer, il faut toujours vérifier l’orthographe du texte.",
+      "answer": true,
+      "explanation": "Une vérification orthographique évite les erreurs visibles sur le papier."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Le nombre total de pages à imprimer pour la lettre (2 copies) est ___.",
+      "answer": "2",
+      "explanation": "Chaque copie correspond à une page du document."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel élément du menu d’impression permet de choisir le nombre de copies?",
+      "options": [
+        "Qualité d’impression",
+        "Nombre de copies",
+        "Mise en page",
+        "Gestion du papier"
+      ],
+      "answer": 1,
+      "explanation": "L’option \"Nombre de copies\" définit combien d’exemplaires seront produits."
+    }
+  ]
+}

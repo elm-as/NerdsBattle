@@ -1,0 +1,70 @@
+{
+  "id": "histoire-premiere-decolonisation-asie-afrique",
+  "title": "Les mouvements de décolonisation en Afrique et en Asie",
+  "summary": "Ce chapitre explore les processus historiques par lesquels les peuples d'Afrique et d'Asie ont conquis leur indépendance après la Seconde Guerre mondiale, bouleversant l'ordre colonial. Comprendre ces mouvements est essentiel pour saisir les enjeux politiques, économiques et culturels du monde contemporain.",
+  "lesson": "## Introduction & Mise en situation\n\nAprès la Seconde Guerre mondiale, les empires coloniaux européens s'effondrent. L'Afrique et l'Asie connaissent des vagues de décolonisation qui redessinent la carte du monde. Ce chapitre est crucial car il explique comment des peuples opprimés ont conquis leur liberté, et pourquoi ces événements restent au cœur des relations internationales actuelles.\n\n## 1. Définitions et Principes Fondamentaux\n\n- **Décolonisation** : processus par lequel une colonie accède à l'indépendance politique.\n- **Nationalisme** : idéologie prônant la souveraineté d'une nation.\n- **Non-alignement** : mouvement de pays refusant de s'aligner sur les blocs américain ou soviétique.\n- **Droit des peuples à disposer d'eux-mêmes** : principe énoncé dans la Charte de l'ONU (1945).\n\n**Formule clé** : L'indépendance est souvent obtenue après des négociations ou des luttes armées. On peut modéliser la probabilité d'indépendance par la formule : $$P(Ind) = \\frac{N}{T}$$ où $N$ est le nombre de mouvements nationalistes actifs et $T$ le nombre total de colonies.\n\n## 2. Propriétés et Méthodes d'application\n\n**Méthode d'analyse** : Pour étudier une décolonisation, on suit 4 étapes :\n1. **Contexte** : identifier les causes (affaiblissement des métropoles, éveil des nationalismes, rôle de l'ONU).\n2. **Acteurs** : les leaders (Gandhi, Nkrumah, etc.) et les partis.\n3. **Modalités** : négociée (ex. Inde) ou armée (ex. Algérie).\n4. **Conséquences** : création d'États, problèmes de frontières, néocolonialisme.\n\n**Exemple concret** : L'Inde (1947) – négociations menées par Gandhi et Nehru, partition avec le Pakistan. L'Algérie (1962) – guerre de 8 ans, accords d'Évian.\n\n**Application mathématique** : Soit 10 colonies en Asie en 1945, 8 accèdent à l'indépendance en 1960. Le taux de décolonisation est $\\frac{8}{10} = 0.8$ soit 80%.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre les dates** : l'indépendance de l'Inde (1947) n'est pas celle de l'Indonésie (1949).\n- **Oublier les acteurs locaux** : ne pas mentionner les leaders nationalistes.\n- **Négliger le rôle de l'ONU** : la Déclaration sur l'octroi de l'indépendance (1960) est souvent oubliée.\n- **Croire que la décolonisation est un phénomène uniforme** : chaque cas est unique.\n\n## Synthèse\n\n1. **Causes** : affaiblissement des métropoles, nationalisme, contexte international (ONU, guerre froide).\n2. **Modalités** : négociées (Inde) ou armées (Algérie).\n3. **Conséquences** : émergence du tiers-monde, non-alignement, problèmes persistants.\n\nRetenez : la décolonisation est un processus complexe qui a transformé les relations internationales.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "décolonisation",
+    "Afrique",
+    "Asie",
+    "histoire",
+    "indépendance"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel pays a obtenu son indépendance en 1947 par la voie négociée ?",
+      "options": [
+        "Algérie",
+        "Inde",
+        "Indonésie",
+        "Ghana"
+      ],
+      "answer": 1,
+      "explanation": "L'Inde a accédé à l'indépendance en 1947 après des négociations avec la Grande-Bretagne."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La conférence de Bandung (1955) a réuni des pays africains et asiatiques pour promouvoir la coopération et le non-alignement.",
+      "answer": true,
+      "explanation": "La conférence de Bandung a rassemblé 29 pays d'Afrique et d'Asie, posant les bases du mouvement des non-alignés."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le principe selon lequel les peuples ont le droit de choisir leur destin politique est appelé le droit des peuples à ...",
+      "answer": "disposer d'eux-mêmes",
+      "explanation": "Ce principe est énoncé dans la Charte des Nations Unies de 1945."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel leader a conduit la lutte pour l'indépendance du Ghana ?",
+      "options": [
+        "Léopold Sédar Senghor",
+        "Kwame Nkrumah",
+        "Jomo Kenyatta",
+        "Ahmed Sékou Touré"
+      ],
+      "answer": 1,
+      "explanation": "Kwame Nkrumah a mené le Ghana à l'indépendance en 1957, devenant le premier président du pays."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La décolonisation de l'Afrique a été entièrement pacifique.",
+      "answer": false,
+      "explanation": "Plusieurs pays africains ont connu des guerres de libération, comme l'Algérie, le Kenya ou le Mozambique."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "En quelle année l'Algérie a-t-elle obtenu son indépendance ?",
+      "answer": "1962",
+      "explanation": "L'Algérie a obtenu son indépendance le 5 juillet 1962 après les accords d'Évian."
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "id": "histoire-seconde-l3-nde-h3-la-methodologie-de-la-dissert",
+  "subjectId": "histoire",
+  "levelId": "seconde",
+  "slug": "l3-nde-h3-la-methodologie-de-la-dissert",
+  "title": "Technique de la dissertation en histoire‑géographie (Seconde)",
+  "summary": "Ce cours décrit la méthodologie de la dissertation en histoire‑géographie pour les élèves de seconde : structure (introduction, développement, conclusion), éléments de chaque partie, types de sujets (comparatif, évolutif, dialectique, analytique, tableau, inventaire, avec « et »), et démarche de traitement du sujet.",
+  "lesson": "## 1. Structure de la dissertation\n- **Introduction** (obligatoire) : \n  1. Présentation du sujet (contexte, définitions, bornes chronologiques et géographiques). \n  2. Problématique (question implicite, formulée interrogative ou affirmative). \n  3. Annonce du plan.\n- **Développement** : corps du devoir en 2‑3 parties (ou plus) correspondant au plan. Chaque partie comporte :\n  - phrase introductive,\n  - développement argumenté en paragraphes,\n  - conclusion partielle.\n  Les parties sont reliées par des transitions.\n- **Conclusion** : \n  1. Bilan des arguments, \n  2. Réponse à la problématique, \n  3. Ouverture.\n\n## 2. Types de sujets et plans possibles\n| Type de sujet | Exemple | Plan suggéré |\n|---|---|---|\n| Comparatif | Organisation politique des Krou vs Akan | I. Ressemblances – II. Différences |\n| Évolutif / Chronologique | Côte‑d’Ivoire 1944‑1960 | I. 1944‑1947 – II. 1947‑1950 – III. 1950‑1960 |\n| Dialectique | La colonisation, mal nécessaire ? | I. Aspects positifs – II. Aspects négatifs |\n| Analytique / Thématique | Agriculture dans l’économie ivoirienne | I. Conditions – II. Apports – III. Problèmes & solutions |\n| Tableau | Secteurs d’activités en Côte‑d’Ivoire | I. Fondements – II. Caractères – III. Problèmes & solutions |\n| Inventaire | Atouts du développement économique | I. Atouts naturels – II. Atouts humains – III. Atouts politiques |\n| Avec « et » | USA et le bloc occidental | I. USA créent le bloc – II. USA, leader du bloc |\n\n## 3. Démarche de traitement d’une dissertation\n1. **Compréhension du sujet** : lire plusieurs fois, souligner les mots‑clés, déterminer sens, limites, poser les questions *qui, quoi, quand, où, pourquoi, comment*.\n2. **Construction du devoir** : élaborer le plan, rédiger chaque partie en respectant la structure ci‑dessus, veiller aux transitions.\n3. **Mise en forme** : sauter deux lignes entre les grandes parties, une ligne entre les parties du développement.\n\n## 4. Conseils pratiques\n- Toujours reformuler le sujet dans l’introduction.\n- La problématique doit être claire et répondre à la question centrale.\n- Chaque partie du développement doit être autonome mais reliée au plan global.\n- La conclusion ne doit pas introduire de nouveaux arguments.\n- Réviser les notions clés du cours et la culture générale historique‑géographique.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "histoire",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le nombre minimum de parties dans le développement d’une dissertation ?",
+      "options": [
+        "Une",
+        "Deux",
+        "Trois",
+        "Quatre"
+      ],
+      "answer": 1,
+      "explanation": "Le texte indique que le développement comporte au minimum deux parties."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "L’introduction d’une dissertation doit toujours contenir une problématique.",
+      "answer": true,
+      "explanation": "La problématique est l’un des trois éléments obligatoires de l’introduction."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Dans la conclusion, le premier élément à présenter est le ______ des arguments.",
+      "answer": "bilan",
+      "explanation": "Le premier élément de la conclusion est le bilan des points forts de la démonstration."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel type de sujet utilise un plan en deux parties \"les aspects positifs\" et \"les aspects négatifs\" ?",
+      "options": [
+        "Comparatif",
+        "Dialectique",
+        "Analytique",
+        "Inventaire"
+      ],
+      "answer": 1,
+      "explanation": "Ce plan correspond à un sujet dialectique."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "On doit sauter deux lignes entre chaque partie du développement.",
+      "answer": false,
+      "explanation": "On saute une ligne entre les parties du développement, deux lignes seulement entre les grandes parties (intro, dev, conclusion)."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Le terme « et » dans le titre d’un sujet indique généralement un plan en ______ parties.",
+      "answer": "deux",
+      "explanation": "Les sujets avec « et » sont souvent structurés en deux parties."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quelle information ne fait PAS partie de la présentation du sujet en histoire ?",
+      "options": [
+        "Contexte historique",
+        "Définition du thème",
+        "Forces en présence",
+        "Latitude du lieu"
+      ],
+      "answer": 3,
+      "explanation": "La latitude du lieu relève de la géographie, pas de la présentation historique."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Un paragraphe peut contenir plusieurs idées distinctes.",
+      "answer": true,
+      "explanation": "Le texte précise qu’un paragraphe peut traiter une idée ou plusieurs idées."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Le plan annoncé dans l’introduction doit répondre à la ______ posée dans la problématique.",
+      "answer": "question",
+      "explanation": "Le plan doit répondre à la question implicite de la problématique."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel type de sujet demanderait un tableau récapitulatif des secteurs d’activité ?",
+      "options": [
+        "Tableau",
+        "Comparatif",
+        "Évolutif",
+        "Inventaire"
+      ],
+      "answer": 0,
+      "explanation": "Le type \"Tableau\" correspond à la demande d’un tableau des secteurs d’activité."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Dans une dissertation, chaque partie du développement doit se terminer par une conclusion partielle.",
+      "answer": true,
+      "explanation": "Chaque partie comporte une phrase introductive, un développement et une conclusion partielle."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Le processus de compréhension du sujet commence par lire le sujet ______ fois.",
+      "answer": "plusieurs",
+      "explanation": "Le texte indique de lire le sujet à plusieurs reprises."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel élément n’est pas requis dans l’annonce du plan ?",
+      "options": [
+        "Numérotation des parties",
+        "Formulation des sous‑parties",
+        "Ordre logique des idées",
+        "Titre du devoir"
+      ],
+      "answer": 3,
+      "explanation": "Le titre du devoir n’est pas mentionné comme faisant partie de l’annonce du plan."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Un sujet analytique peut comporter jusqu’à quatre parties principales.",
+      "answer": false,
+      "explanation": "Le texte indique un maximum de trois parties pour le développement."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Les transitions entre les parties du développement assurent la ______ du texte.",
+      "answer": "cohérence",
+      "explanation": "Les transitions garantissent la cohérence du texte."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel type de sujet se caractérise par une chronologie précise (ex. 1944‑1960) ?",
+      "options": [
+        "Comparatif",
+        "Évolutif",
+        "Dialectique",
+        "Inventaire"
+      ],
+      "answer": 1,
+      "explanation": "Le sujet évolutif ou chronologique suit une progression dans le temps."
+    }
+  ]
+}

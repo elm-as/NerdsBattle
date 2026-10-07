@@ -1,0 +1,180 @@
+{
+  "id": "francais-sixieme-cours-exercices-et-devoirs-d-orthographe-et",
+  "subjectId": "francais",
+  "levelId": "sixieme",
+  "slug": "cours-exercices-et-devoirs-d-orthographe-et",
+  "title": "Orthographe & Grammaire 6ème – Communication et Structure de la Phrase",
+  "summary": "Ce cours résume les leçons du premier trimestre de 6ème sur la communication, le lexique, la syntaxe, les conditions de formation d’une phrase, la ponctuation et les niveaux de langue. Il rappelle les notions d’émetteur‑récepteur, d’ordre des mots, de règles grammaticales et d’acceptabilité d’une phrase.",
+  "lesson": "# Communication\n- **Émetteur** : celui qui produit le signe ou le message.\n- **Récepteur** : celui qui reçoit le signe.\n- Exemples : feu vert, drapeau de plage, gestes.\n\n# Lexique & Syntaxe\n- **Lexique** : ensemble du vocabulaire.\n- **Syntaxe** (grammaire) : règles qui permettent de former des énoncés corrects.\n\n# Conditions de communication\n## Ordre des mots\n- Un ordre admis est indispensable pour la compréhension.\n- Exercices de réarrangement de mots.\n## Règles grammaticales\n- Accord du participe passé avec être/avoir.\n- Formes des articles, pronoms, terminaisons.\n\n# Ponctuation\n- Facilite la compréhension.\n- Principaux signes : point, virgule, point‑d’interrogation, point‑d’exclamation, deux‑points, points de suspension.\n\n# Niveau de langue\n- **Familier**, **courant**, **soutenu**.\n- Choix du registre selon le contexte.\n\n---\n*Le travail doit être présenté proprement, numéroté, avec soulignement des mots à définir.*",
+  "estimatedMinutes": 10,
+  "tags": [
+    "francais",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel terme désigne la personne qui envoie le message?",
+      "options": [
+        "Récepteur",
+        "Émetteur",
+        "Interprète",
+        "Destinataire"
+      ],
+      "answer": 1,
+      "explanation": "L’émetteur est celui qui produit le signe ou le message."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Lequel de ces signes est un exemple de communication visuelle?",
+      "options": [
+        "Le son d’une cloche",
+        "Le feu rouge d’un feu de circulation",
+        "Le texte d’un SMS",
+        "Le parfum d’une fleur"
+      ],
+      "answer": 1,
+      "explanation": "Le feu rouge est un signe visuel qui transmet un message."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Le lexique regroupe les règles de construction des phrases.",
+      "answer": false,
+      "explanation": "Le lexique est le vocabulaire; la syntaxe regroupe les règles de construction."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Le ________ est l’ensemble des règles qui permettent de rédiger des énoncés corrects.",
+      "answer": "syntaxe",
+      "explanation": ""
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Dans la phrase « Le boxeur l’a em porté au troisième round. », quelle est la faute principale?",
+      "options": [
+        "Accord du participe passé",
+        "Mauvaise ponctuation",
+        "Erreur d’orthographe du verbe",
+        "Aucun problème"
+      ],
+      "answer": 2,
+      "explanation": "« em porté » doit être « emporté \"."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Une phrase acceptable doit forcément être grammaticalement correcte.",
+      "answer": false,
+      "explanation": "Une phrase peut être acceptable (avoir du sens) sans être grammaticalement parfaite."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Le registre de langue le plus formel s’appelle le registre _______.",
+      "answer": "soutenu",
+      "explanation": ""
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel signe de ponctuation indique la fin d’une phrase interrogative?",
+      "options": [
+        "Point",
+        "Point d’interrogation",
+        "Virgule",
+        "Point-virgule"
+      ],
+      "answer": 1,
+      "explanation": "Le point d’interrogation marque la fin d’une question."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Dans la phrase « Se reposer elle chez part Hé lène. », le problème vient uniquement de la ponctuation.",
+      "answer": false,
+      "explanation": "L’ordre des mots est incorrect, il faut réarranger la phrase."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Pour qu’une phrase soit intelligible, les mots doivent respecter l’______ des mots et les règles grammaticales.",
+      "answer": "ordre",
+      "explanation": ""
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel niveau de langue conviendrait à une lettre officielle?",
+      "options": [
+        "Familier",
+        "Courant",
+        "Soutenu",
+        "Argot"
+      ],
+      "answer": 2,
+      "explanation": "Le registre soutenu est approprié pour une lettre officielle."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Le code Morse est un exemple de système de signes utilisé en communication écrite.",
+      "answer": false,
+      "explanation": "Le code Morse est principalement un système de communication sonore ou visuelle, pas écrit."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "L’accord du participe passé avec l’auxiliaire « être » se fait en genre et en _______.",
+      "answer": "nombre",
+      "explanation": ""
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel élément n’appartient pas aux conditions de communication étudiées?",
+      "options": [
+        "Ordre des mots",
+        "Respect des règles grammaticales",
+        "Choix du support de diffusion",
+        "Niveau de langue"
+      ],
+      "answer": 2,
+      "explanation": "Le support de diffusion n’est pas une condition de la phrase étudiée."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "« Le drapeau indique si la baignade est autorisée. » est un exemple de message reçu par un récepteur.",
+      "answer": true,
+      "explanation": "Le drapeau transmet un message que les baigneurs (récepteurs) lisent."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Le terme « syntaxe » désigne l’ensemble des _______ de la langue.",
+      "answer": "règles",
+      "explanation": ""
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Dans l’exercice de réarrangement, quelle phrase devient correcte?",
+      "options": [
+        "Vit de la au bord mer elle",
+        "A doré trains Arthur électriques les",
+        "Se reposer elle chez part Hé lène",
+        "Tissu splendide est nouveau ce"
+      ],
+      "answer": 3,
+      "explanation": "« Ce tissu splendide est nouveau. \""
+    }
+  ]
+}

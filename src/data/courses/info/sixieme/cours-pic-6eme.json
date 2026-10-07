@@ -1,0 +1,207 @@
+{
+  "id": "info-sixieme-cours-pic-6eme",
+  "subjectId": "info",
+  "levelId": "sixieme",
+  "slug": "cours-pic-6eme",
+  "title": "Les domaines d'application de l'informatique – Niveau 6ème",
+  "summary": "Ce cours présente les principaux secteurs où l'ordinateur est utilisé (gestion, industrie, éducation, recherche, science, télécommunication) ainsi qu'un bref historique des machines de calcul. Il guide l'élève à identifier un dispositif, à comprendre son rôle et à relier l'informatique à des situations de la vie quotidienne.",
+  "lesson": "## Objectifs pédagogiques\n- Identifier les principaux domaines d’application des ordinateurs.\n- Connaître les grandes étapes de l’histoire de l’informatique.\n\n## Contrôle de prérequis\n1. Donnez trois exemples d’appareils électroniques que vous connaissez.\n\n## Situation problème\nVotre grand‑mère trouve un appareil inconnu sur la table du salon. Elle vous demande : quel est cet appareil, à quoi sert‑il et dans quels domaines de la vie l’utilise‑t‑on ?\n\n## Résumé\n**Définition** : L’informatique est la science du traitement automatique de l’information à l’aide d’un ordinateur, machine électronique programmable composée d’une partie matérielle (hardware) et d’une partie logicielle (software).\n\n**Domaines d’application**\n- **Gestion** : banques, comptabilité, transferts d’argent (ex. Express Union).\n- **Industrie** : conception de voitures, robotique, fabrication de produits.\n- **Éducation** : cours pratiques en salle informatique, logiciels d’apprentissage (ex. Encarta).\n- **Recherche** : collecte et analyse d’informations.\n- **Science** : calculs complexes, simulations physiques, expériences virtuelles.\n- **Télécommunication** : gestion des réseaux téléphoniques et internet.\n\n**Historique rapide**\n- 1642 : Pascaline (addition/soustraction).\n- 1673 : Machine de Leibniz (multiplication/division).\n- 1834 : Projet de Charles Babbage (cartes perforées).\n- 1938 : Z3 de Konrad Zuse – premier ordinateur binaire programmable.\n- 1943 : ENIAC – 18 000 lampes, première machine entièrement électronique.\n- 1948 : EDVAC – introduction de la mémoire.\n- 1981 : IBM PC – diffusion massive dans les foyers.\n- Aujourd’hui : architecture moderne inspirée de l’EDVAC avec miniaturisation des composants.\n\n## Situation d’intégration\nLe grand‑père de Francis montre un ancien ordinateur qui ne sauvegarde pas les données.  \n1️⃣ Quel type d’ordinateur est‑il ?  \n2️⃣ Quelle génération d’ordinateurs a résolu ce problème ?  \n3️⃣ Citez deux usages de cet ordinateur dans le domaine de l’éducation.\n\n## Réinvestissement\n1. Citez deux utilisations de l’ordinateur dans les domaines :\n   - Gestion\n   - Industrie\n2. Comparez la machine de Leibniz et celle de Charles Babbage.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "info",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le premier domaine d’application mentionné pour les ordinateurs ?",
+      "options": [
+        "Gestion",
+        "Industrie",
+        "Éducation",
+        "Recherche"
+      ],
+      "answer": 0,
+      "explanation": "Le texte cite d’abord le domaine de la gestion (banques, comptabilité)."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel appareil a été créé par Blaise Pascal en 1642 ?",
+      "options": [
+        "La Pascaline",
+        "Le Z3",
+        "Le ENIAC",
+        "Le Mark I"
+      ],
+      "answer": 0,
+      "explanation": "La Pascaline était une machine à additionner et soustraire."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "L’ENIAC était le premier ordinateur à utiliser des transistors.",
+      "answer": false,
+      "explanation": "L’ENIAC utilisait des lampes à vide, pas des transistors."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Le premier ordinateur programmable utilisant le code binaire a été le ___ créé en 1938.",
+      "answer": "Z3",
+      "explanation": ""
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Dans quel domaine l’informatique permet‑elle de contrôler les réseaux de téléphonie ?",
+      "options": [
+        "Gestion",
+        "Télécommunication",
+        "Science",
+        "Éducation"
+      ],
+      "answer": 1,
+      "explanation": "C’est le domaine de la télécommunication."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Un ordinateur se compose uniquement de matériel, il n’a pas de logiciel.",
+      "answer": false,
+      "explanation": "Un ordinateur possède à la fois du matériel (hardware) et du logiciel (software)."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Le projet de Charles Babbage utilisait des ___ perforées pour programmer les calculs.",
+      "answer": "cartes",
+      "explanation": ""
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel événement a marqué la diffusion massive des ordinateurs dans les foyers ?",
+      "options": [
+        "Création du Z3",
+        "Lancement du IBM PC",
+        "Invention du Mark I",
+        "Développement du ENIAC"
+      ],
+      "answer": 1,
+      "explanation": "Le IBM PC de 1981 a popularisé l’ordinateur domestique."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Le domaine industriel utilise les ordinateurs uniquement pour la comptabilité.",
+      "answer": false,
+      "explanation": "Il les utilise aussi pour la conception, la robotique, la fabrication, etc."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Le terme « informatique » a été employé pour la première fois en ___ par Philippe Dreyfus.",
+      "answer": "1962",
+      "explanation": ""
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel problème l’ancien ordinateur présenté à Francis ne résout‑il pas ?",
+      "options": [
+        "Calculer des sommes",
+        "Sauvegarder des données",
+        "Afficher du texte",
+        "Se connecter à internet"
+      ],
+      "answer": 1,
+      "explanation": "Le texte indique qu’il ne sauvegarde pas les données."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Le Z3 a été créé par un ingénieur allemand nommé Konrad Zuse.",
+      "answer": true,
+      "explanation": "C’est exact."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Dans le domaine de l’éducation, les élèves peuvent étudier à l’aide du logiciel ___ .",
+      "answer": "Encarta",
+      "explanation": ""
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quelle génération d’ordinateurs a introduit la mémoire permanente ?",
+      "options": [
+        "Première (ENIAC)",
+        "Deuxième (EDVAC)",
+        "Troisième (IBM PC)",
+        "Quatrième (Internet)"
+      ],
+      "answer": 1,
+      "explanation": "L’EDVAC (1948) a introduit la mémoire."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Le matériel de l’ordinateur comprend le processeur, la mémoire RAM et le disque dur.",
+      "answer": true,
+      "explanation": "Ce sont des composants matériels essentiels."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Le domaine de la ___ utilise les ordinateurs pour réaliser des calculs scientifiques et des simulations physiques.",
+      "answer": "science",
+      "explanation": ""
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quel appareil la grand‑mère a‑t‑elle trouvé sur la table ?",
+      "options": [
+        "Téléphone",
+        "Ordinateur",
+        "Tablette",
+        "Imprimante"
+      ],
+      "answer": 1,
+      "explanation": "La situation problème attend la réponse « ordinateur »."
+    },
+    {
+      "id": "q18",
+      "type": "truefalse",
+      "prompt": "Le Mark I pesait 5 tonnes et mesurait 17 m de long.",
+      "answer": true,
+      "explanation": "Ces dimensions sont mentionnées dans le texte."
+    },
+    {
+      "id": "q19",
+      "type": "fill",
+      "prompt": "Le domaine de la ___ permet aux ordinateurs de gérer les comptes bancaires et les transferts d’argent.",
+      "answer": "gestion",
+      "explanation": ""
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Quel type de question n’est pas demandé dans la partie Réinvestissement ?",
+      "options": [
+        "Citer des utilisations dans la gestion",
+        "Comparer deux machines historiques",
+        "Écrire un programme en Python",
+        "Donner deux cas d’utilisation dans l’industrie"
+      ],
+      "answer": 2,
+      "explanation": "Le texte ne demande pas de programmation en Python."
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "physique-quatrieme-les-sources-de-lumiere",
+  "subjectId": "physique",
+  "levelId": "quatrieme",
+  "slug": "les-sources-de-lumiere",
+  "title": "Sources de lumière – Leçon 1 (Physique 4e)",
+  "summary": "Cette leçon explique ce qu’est une source de lumière, distingue les sources primaires des secondaires et les sources naturelles des artificielles. Elle s’appuie sur la situation de Monnet confronté à une coupure d’électricité et propose des activités d’évaluation pour consolider les connaissances.",
+  "lesson": "## Situation\nMonnet étudie dans sa chambre quand la lumière s’éteint. Il ne distingue plus la feuille blanche de son cahier ni le mur. Cette « cécité passagère » s’explique par l’absence de source lumineuse.\n\n## 1. Sources de lumière\n### a) Expérimentation et observation\n- Allumer une bougie dans une pièce sombre.\n- Observer quels objets deviennent visibles.\n### b) Conclusion\nLes objets visibles sont soit des **sources de lumière** (émission) soit des **corps éclairés** (diffusion).\n\n## 2. Source primaire vs source secondaire\n- **Source primaire** : corps qui produit sa propre lumière (flamme, ampoule, soleil).\n- **Source secondaire** : corps qui ne fait que réfléchir ou diffuser la lumière reçue (mur, tableau, lune).\n\n## 3. Sources primaires naturelles vs artificielles\n- **Naturelles** : soleil, luciole, étoiles, lave.\n- **Artificielles** : flamme de bougie, ampoule électrique, laser.\n\n## 4. Activités d’évaluation\n### Activité 1\na) Définir une source de lumière.\nb) Citer les deux grands types de sources.\n### Activité 2\nIdentifier la source qui rend lisibles les caractères d’une page et justifier.\n### Activité 3\nCompléter le tableau en cochant la bonne case pour chaque objet (Lune, Flamme, Terre, Soleil, Ampoule, Luciole, Laser, Mur).\n### Activité d’intégration\nExpliquer le phénomène du clair de lune et le représenter.\n\n**Critères d’évaluation** (Barème sur 20) : identification du problème, des outils, mise en œuvre, cohérence des idées.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle affirmation décrit le mieux une source primaire de lumière?",
+      "options": [
+        "Elle reflète la lumière d’une autre source",
+        "Elle produit sa propre lumière",
+        "Elle ne laisse passer que la lumière",
+        "Elle absorbe toute la lumière"
+      ],
+      "answer": 1,
+      "explanation": "Une source primaire génère sa propre lumière, contrairement aux sources secondaires qui ne font que la refléter."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le mur est une source secondaire de lumière.",
+      "answer": true,
+      "explanation": "Le mur ne produit pas de lumière, il la diffuse."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le ______ est une source primaire naturelle.",
+      "answer": "soleil",
+      "explanation": "Le soleil produit sa propre lumière sans intervention humaine."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Parmi les objets suivants, lequel est une source primaire artificielle?",
+      "options": [
+        "Lune",
+        "Flamme de bougie",
+        "Terre",
+        "Lave"
+      ],
+      "answer": 1,
+      "explanation": "La flamme de bougie est créée par l’homme, donc source primaire artificielle."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Une luciole est une source secondaire de lumière.",
+      "answer": false,
+      "explanation": "La luciole produit sa propre lumière, c’est donc une source primaire naturelle."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Lorsque la lumière de la bougie s’éteint, le cahier devient _______.",
+      "answer": "invisible",
+      "explanation": "Sans source lumineuse, le cahier ne peut plus être perçu."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel phénomène explique le clair de lune?",
+      "options": [
+        "Réflexion de la lumière solaire sur la Lune",
+        "Émission de lumière par la Lune",
+        "Diffusion de la lumière terrestre",
+        "Absorption de la lumière solaire"
+      ],
+      "answer": 0,
+      "explanation": "La Lune reflète la lumière du Soleil, ce qui crée le clair de lune."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Une ampoule électrique est une source primaire naturelle.",
+      "answer": false,
+      "explanation": "L’ampoule dépend d’une énergie fournie par l’homme, donc artificielle."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Les caractères d’une page imprimée sont visibles grâce à la ______ de la lampe de bureau.",
+      "answer": "lumière",
+      "explanation": "La lampe fournit la lumière qui rend les caractères lisibles."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel objet du tableau suivant est une source secondaire naturelle?",
+      "options": [
+        "Lune",
+        "Soleil",
+        "Flamme de bougie",
+        "Laser"
+      ],
+      "answer": 0,
+      "explanation": "La Lune ne produit pas de lumière, elle la reflète, donc source secondaire naturelle."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Le laser est une source primaire artificielle.",
+      "answer": true,
+      "explanation": "Le laser génère sa propre lumière grâce à une technologie humaine."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Une source primaire qui n’est pas naturelle s’appelle une source ______.",
+      "answer": "artificielle",
+      "explanation": "Les sources créées par l’homme sont dites artificielles."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Dans la situation de Monnet, quelle est la cause principale de son incapacité à voir?",
+      "options": [
+        "Fatigue oculaire",
+        "Absence de source primaire de lumière",
+        "Mauvaise vision",
+        "Obstruction du champ visuel"
+      ],
+      "answer": 1,
+      "explanation": "Sans source de lumière, l’œil ne reçoit aucun signal lumineux."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Le tableau noir d’une classe est une source primaire de lumière.",
+      "answer": false,
+      "explanation": "Le tableau ne produit pas de lumière, il la reflète."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Le phénomène de diffusion se produit lorsqu’un corps ______ la lumière reçue.",
+      "answer": "réfléchit",
+      "explanation": "La diffusion correspond à la réflexion de la lumière dans plusieurs directions."
+    }
+  ]
+}

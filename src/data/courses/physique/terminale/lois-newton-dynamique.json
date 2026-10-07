@@ -1,0 +1,70 @@
+{
+  "id": "physique-terminale-lois-newton-dynamique",
+  "title": "Les trois lois de Newton et dynamique du solide",
+  "summary": "Ce chapitre est le socle de la mécanique classique : il permet de comprendre et de prévoir le mouvement des objets, des planètes aux voitures. Maîtriser les trois lois de Newton est indispensable pour résoudre les problèmes de dynamique au BAC et pour aborder sereinement les études supérieures scientifiques.",
+  "lesson": "## Introduction & Mise en situation\n\nPourquoi une balle de tennis suit-elle une trajectoire courbe ? Pourquoi une voiture s'arrête-t-elle lorsque l'on freine ? Pourquoi la Terre tourne-t-elle autour du Soleil ? Ces questions, aussi variées soient-elles, trouvent leurs réponses dans les trois lois de Newton. Ces principes fondamentaux, énoncés par Isaac Newton au XVIIe siècle, décrivent la relation entre les forces appliquées à un objet et son mouvement. Ils sont la clé pour analyser n'importe quelle situation dynamique, que ce soit sur Terre ou dans l'espace. Dans ce chapitre, nous allons les énoncer, les comprendre et apprendre à les appliquer méthodiquement pour résoudre des exercices types du BAC.\n\n## 1. Définitions et Principes Fondamentaux\n\n### 1.1 Notion de force\nUne force est une action mécanique capable de modifier le mouvement d'un objet ou de le déformer. Elle est modélisée par un vecteur $\\vec{F}$ caractérisé par :\n- un point d'application,\n- une direction,\n- un sens,\n- une intensité (norme) exprimée en newtons (N).\n\n### 1.2 Référentiel galiléen\nUn référentiel galiléen est un référentiel dans lequel le principe d'inertie (1ère loi de Newton) est vérifié. En pratique, on considère le référentiel terrestre comme galiléen pour des expériences de courte durée et de faible étendue.\n\n### 1.3 Les trois lois de Newton\n\n**Première loi (Principe d'inertie) :**\nDans un référentiel galiléen, un corps reste au repos ou en mouvement rectiligne uniforme si la somme vectorielle des forces qui s'exercent sur lui est nulle.\n\n$$\\sum \\vec{F}_{ext} = \\vec{0} \\quad \\Longleftrightarrow \\quad \\vec{v} = \\text{constante}$$\n\n**Deuxième loi (Principe fondamental de la dynamique) :**\nDans un référentiel galiléen, la somme vectorielle des forces extérieures appliquées à un solide est égale au produit de sa masse par le vecteur accélération de son centre d'inertie.\n\n$$\\sum \\vec{F}_{ext} = m \\cdot \\vec{a}_{G}$$\n\n**Troisième loi (Principe des actions réciproques) :**\nSi un corps A exerce une force $\\vec{F}_{A/B}$ sur un corps B, alors B exerce sur A une force $\\vec{F}_{B/A}$ de même direction, de même intensité, mais de sens opposé.\n\n$$\\vec{F}_{A/B} = - \\vec{F}_{B/A}$$\n\n### 1.4 Quantité de mouvement\nLa quantité de mouvement d'un point matériel de masse $m$ et de vitesse $\\vec{v}$ est définie par :\n\n$$\\vec{p} = m \\cdot \\vec{v}$$\n\nElle se conserve pour un système isolé (somme des forces nulles).\n\n## 2. Propriétés et Méthodes d'application\n\n### 2.1 Méthode de résolution d'un problème de dynamique\nPour résoudre un exercice de dynamique, on suit généralement ces étapes :\n\n1. **Définir le système** étudié (le solide dont on étudie le mouvement).\n2. **Choisir le référentiel** galiléen adapté (souvent le référentiel terrestre).\n3. **Faire le bilan des forces** extérieures appliquées au système (poids, réaction du support, tension, frottements, etc.).\n4. **Appliquer la deuxième loi de Newton** : écrire $\\sum \\vec{F}_{ext} = m \\vec{a}_{G}$.\n5. **Projeter** cette relation vectorielle sur des axes bien choisis (souvent horizontaux et verticaux).\n6. **Résoudre** les équations obtenues pour déterminer l'accélération, la vitesse, la position, etc.\n\n### 2.2 Exemple concret : chute libre verticale\n\n**Énoncé :** Une balle de masse $m = 200\\,g$ est lâchée sans vitesse initiale d'une hauteur $h = 10\\,m$. On néglige les frottements de l'air. On prend $g = 9,8\\,N/kg$.\n\n**Question :** Calculer l'accélération de la balle et la durée de la chute.\n\n**Résolution :**\n- Système : la balle.\n- Référentiel : terrestre galiléen.\n- Forces : le poids $\\vec{P}$ (on néglige l'air).\n- D'après la 2ème loi : $\\vec{P} = m \\vec{a}$, donc $m\\vec{g} = m\\vec{a}$ d'où $\\vec{a} = \\vec{g}$.\n- L'accélération est donc verticale vers le bas et vaut $a = g = 9,8\\,m/s^2$.\n- Le mouvement est uniformément accéléré avec vitesse initiale nulle. L'équation horaire de la position est $y(t) = \\frac{1}{2} g t^2$ (en prenant l'origine au point de lâcher).\n- On cherche $t$ tel que $y = h = 10\\,m$ : $10 = \\frac{1}{2} \\times 9,8 \\times t^2$.\n- $t^2 = \\frac{20}{9,8} \\approx 2,04$ donc $t \\approx 1,43\\,s$.\n\n### 2.3 Exemple avec plusieurs forces : plan incliné\n\n**Énoncé :** Un solide de masse $m = 500\\,g$ glisse sans frottement sur un plan incliné d'angle $\\alpha = 30°$. On prend $g = 9,8\\,N/kg$.\n\n**Question :** Calculer l'accélération du solide.\n\n**Résolution :**\n- Système : le solide.\n- Forces : le poids $\\vec{P}$ et la réaction normale $\\vec{R}_N$ (perpendiculaire au plan).\n- On projette sur un axe $x$ parallèle au plan, dirigé vers le bas.\n- Composante du poids selon $x$ : $P_x = m g \\sin(\\alpha)$.\n- La réaction n'a pas de composante selon $x$.\n- Donc $\\sum F_x = m a$ donne $m g \\sin(\\alpha) = m a$.\n- Ainsi $a = g \\sin(\\alpha) = 9,8 \\times \\sin(30°) = 9,8 \\times 0,5 = 4,9\\,m/s^2$.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre poids et masse :** Le poids $P = m g$ est une force (en N), la masse $m$ est en kg. Ne pas utiliser $g$ comme une force.\n- **Oublier que la deuxième loi est vectorielle :** Il faut projeter sur des axes ; ne pas additionner les normes sans tenir compte des directions.\n- **Utiliser un référentiel non galiléen :** Par exemple, si on étudie un objet dans une voiture qui accélère, le référentiel de la voiture n'est pas galiléen. Il faut se placer dans un référentiel terrestre.\n- **Négliger les frottements sans le préciser :** Dans les exercices, on précise souvent \"on néglige les frottements\". Si ce n'est pas le cas, il faut les inclure dans le bilan des forces.\n- **Confondre la troisième loi avec l'équilibre :** Les forces d'action-réaction s'exercent sur des corps différents, elles ne se compensent pas.\n- **Erreur d'unités :** Toujours convertir les masses en kg et les distances en mètres avant de calculer.\n\n## Synthèse\n\n1. **Première loi :** Si la somme des forces est nulle, le mouvement est rectiligne uniforme ou le corps est au repos.\n2. **Deuxième loi :** $\\sum \\vec{F}_{ext} = m \\vec{a}_{G}$ ; c'est l'outil principal pour relier forces et mouvement.\n3. **Troisième loi :** Les forces d'action-réaction ont même intensité, même direction, mais sens opposés et s'appliquent sur des corps différents.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "mécanique",
+    "newton",
+    "dynamique",
+    "forces",
+    "bac"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans un référentiel galiléen, si la somme des forces extérieures appliquées à un solide est nulle, alors :",
+      "options": [
+        "Le solide est nécessairement au repos.",
+        "Le solide a un mouvement rectiligne uniforme ou est au repos.",
+        "Le solide a un mouvement circulaire uniforme.",
+        "Le solide a une accélération constante."
+      ],
+      "answer": 1,
+      "explanation": "La première loi de Newton (principe d'inertie) stipule que si la somme des forces est nulle, le vecteur vitesse est constant : le mouvement est rectiligne uniforme ou le corps est immobile."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La troisième loi de Newton indique que les forces d'action et de réaction se compensent toujours.",
+      "answer": false,
+      "explanation": "Les forces d'action-réaction s'exercent sur des corps différents, elles ne peuvent donc pas se compenser. Elles ont même intensité, même direction et des sens opposés."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Un objet de masse 2 kg subit une force résultante de 10 N. Quelle est la valeur de son accélération en m/s² ? (arrondir à 0,1 près)",
+      "answer": "5",
+      "explanation": "D'après la deuxième loi de Newton : a = F/m = 10/2 = 5 m/s²."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Lors d'une chute libre (sans frottement), l'accélération d'un objet :",
+      "options": [
+        "Dépend de sa masse.",
+        "Est nulle.",
+        "Est égale à g, indépendante de la masse.",
+        "Dépend de sa vitesse initiale."
+      ],
+      "answer": 2,
+      "explanation": "En chute libre, la seule force est le poids, donc a = g. L'accélération est indépendante de la masse et de la vitesse initiale."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La quantité de mouvement d'un système isolé se conserve.",
+      "answer": true,
+      "explanation": "Si la somme des forces extérieures est nulle, la dérivée de la quantité de mouvement est nulle, donc elle est constante."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Un solide de masse 500 g est posé sur une table horizontale. Il est soumis à une force horizontale de 2 N. En négligeant les frottements, quelle est son accélération en m/s² ? (arrondir à 0,1 près)",
+      "answer": "4",
+      "explanation": "m = 500 g = 0,5 kg. a = F/m = 2/0,5 = 4 m/s²."
+    }
+  ]
+}

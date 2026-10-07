@@ -1,0 +1,166 @@
+{
+  "id": "info-sixieme-l9-tic-6eme-l9",
+  "subjectId": "info",
+  "levelId": "sixieme",
+  "slug": "l9-tic-6eme-l9",
+  "title": "Leçon 9 – Découverte du réseau Internet (6e)",
+  "summary": "Cette leçon introduit les concepts d’Internet, du Web et de l’e‑mail, montre comment naviguer, rechercher des informations et utilise des exercices pratiques avec des sites éducatifs et l’Office Ivoirien des Parcs pour appliquer les compétences numériques.",
+  "lesson": "# Situation d’apprentissage\nAvec l’introduction des TIC à l’école, les termes Internet, Web, e‑mail sont courants. Tu vas les découvrir et les utiliser.\n\n## Vidéo d’introduction\n[Vidéo](https://youtu.be/GTP4vDelF_g)\n\n## Résumé de la leçon\nCette vidéo explique le fonctionnement d’Internet, les protocoles, les navigateurs et la recherche d’information. Voir le tutoriel complet : https://youtu.be/9UMvyfT4V_Y\n\n## Situation d’évaluation\nTu dois aider des visiteurs français à choisir des parcs nationaux en Côte d’Ivoire. Ouvre un navigateur, va sur http://www.oipr.ci/ et récupère la liste des parcs, leur localisation et superficie.\n\n## Exercices pratiques\n### Exercice 1\n1. Connecte‑toi à Internet et ouvre un navigateur.\n2. Saisis https://fr.vikidia.org et appuie sur Entrée.\n3. Explore la rubrique « Corps humain ».\n### Exercice 2\n1. Ouvre https://friv.com.\n2. Choisis un jeu et joue après avoir terminé tes devoirs.\n\n---\n**Compétences visées** : navigation web, recherche d’information, utilisation d’un moteur de recherche, collecte de données.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "info",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel protocole permet la transmission de pages web ?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "SMTP",
+        "SSH"
+      ],
+      "answer": 0,
+      "explanation": "HTTP (HyperText Transfer Protocol) est le protocole utilisé pour transférer les pages web."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "L’URL commence toujours par 'https://'.",
+      "answer": false,
+      "explanation": "Une URL peut commencer par 'http://' ou 'https://', selon que la connexion est sécurisée ou non."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le sigle 'IP' signifie ______.",
+      "answer": "Internet Protocol",
+      "explanation": "IP désigne le protocole qui assure l’adressage et le routage des paquets sur Internet."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel site a été indiqué pour consulter des informations sur le corps humain ?",
+      "options": [
+        "fr.vikidia.org",
+        "friv.com",
+        "wikipedia.org",
+        "google.com"
+      ],
+      "answer": 0,
+      "explanation": "L’exercice 1 demande d’aller sur fr.vikidia.org puis de cliquer sur « Corps humain »."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Le site http://www.oipr.ci/ fournit la liste des parcs nationaux ivoiriens.",
+      "answer": true,
+      "explanation": "Le texte indique d’utiliser ce site pour récupérer la liste, localisation et superficie des parcs."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel type de lien vidéo est utilisé dans les références du document ?",
+      "options": [
+        "MP4",
+        "AVI",
+        "YouTube URL",
+        "MOV"
+      ],
+      "answer": 2,
+      "explanation": "Les deux liens sont des URLs YouTube, pas des fichiers vidéo locaux."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Le numéro de la leçon est ______.",
+      "answer": "9",
+      "explanation": "Le document porte le titre « LECON 9 »."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel âge cible l’encyclopédie Vikidia ?",
+      "options": [
+        "8-13 ans",
+        "14-18 ans",
+        "Tous publics",
+        "Adultes"
+      ],
+      "answer": 0,
+      "explanation": "Vikidia est décrite comme l’encyclopédie pour les enfants de 8 à 13 ans."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Friv.com propose plus de 250 jeux.",
+      "answer": true,
+      "explanation": "Le texte indique que la page d’accueil de Friv.com s’ouvre avec plus de 250 jeux."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est le domaine de premier niveau (TLD) du site de l’Office Ivoirien des Parcs ?",
+      "options": [
+        ".ci",
+        ".com",
+        ".org",
+        ".gov"
+      ],
+      "answer": 0,
+      "explanation": "L’URL fournie se termine par .ci, le TLD de la Côte d’Ivoire."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Le navigateur doit être ouvert en premier, suivi de la saisie de l’______.",
+      "answer": "URL",
+      "explanation": "Toutes les consignes demandent de saisir l’URL dans la barre d’adresse du navigateur."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel est le but de la situation d’évaluation ?",
+      "options": [
+        "Apprendre à jouer en ligne",
+        "Collecter des données sur les parcs nationaux",
+        "Créer un site web",
+        "Envoyer un e‑mail"
+      ],
+      "answer": 1,
+      "explanation": "L’évaluation consiste à récupérer la liste des parcs nationaux, leur localisation et superficie."
+    },
+    {
+      "id": "q13",
+      "type": "truefalse",
+      "prompt": "Le document indique qu’il peut être vendu sous condition.",
+      "answer": false,
+      "explanation": "Le texte précise que le document « peut être vendu sous aucune condition », donc il ne peut pas être vendu."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Combien de pages le document comporte‑t‑il ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "Le document indique « Page 1 sur 2 » et « Page 2 sur 2 », soit deux pages."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Le mot‑clé pour rechercher un parc national sur le site OIPR est ______.",
+      "answer": "parc",
+      "explanation": "Sur le site de l’Office Ivoirien des Parcs, la recherche se fait généralement avec le mot‑clé « parc »."
+    }
+  ]
+}

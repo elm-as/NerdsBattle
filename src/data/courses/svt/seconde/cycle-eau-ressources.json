@@ -1,0 +1,70 @@
+{
+  "id": "svt-seconde-cycle-eau-ressources",
+  "title": "Le cycle de l'eau et la gestion des ressources hydriques",
+  "summary": "Ce chapitre vous permettra de comprendre le cycle de l'eau, un processus essentiel à la vie sur Terre, et d'acquérir les connaissances nécessaires pour une gestion durable des ressources en eau. Vous apprendrez à analyser les différents réservoirs et flux, et à évaluer les impacts des activités humaines sur cette ressource précieuse.",
+  "lesson": "## Introduction & Mise en situation\n\nL'eau est indispensable à toute forme de vie. Elle couvre environ 71% de la surface de la Terre, mais seule une infime partie est de l'eau douce directement utilisable par l'homme. Comprendre le cycle de l'eau est crucial pour gérer durablement cette ressource, surtout dans un contexte de changement climatique et de croissance démographique. Ce chapitre vous donnera les clés pour analyser les enjeux liés à l'eau et réfléchir à des solutions pour sa préservation.\n\n## 1. Définitions et Principes Fondamentaux\n\n**Le cycle de l'eau** (ou cycle hydrologique) est le processus continu de circulation de l'eau entre les océans, l'atmosphère et les continents. Il est alimenté par l'énergie solaire et la gravité.\n\n**Les réservoirs d'eau** :\n- Océans (97,2% de l'eau totale)\n- Calottes glaciaires et glaciers (2,1%)\n- Eaux souterraines (0,6%)\n- Lacs, rivières, humidité du sol, atmosphère (0,1%)\n\n**Les flux principaux** :\n- **Évaporation** : passage de l'eau liquide à l'état gazeux (vapeur d'eau) sous l'effet de la chaleur. L'évaporation se produit principalement au niveau des océans.\n- **Transpiration** : évaporation de l'eau par les plantes (via les stomates).\n- **Évapotranspiration** : somme de l'évaporation et de la transpiration.\n- **Condensation** : passage de la vapeur d'eau à l'état liquide (formation des nuages).\n- **Précipitations** : chute d'eau sous forme de pluie, neige, grêle, etc.\n- **Ruissellement** : écoulement de l'eau à la surface du sol.\n- **Infiltration** : pénétration de l'eau dans le sol.\n- **Nappe phréatique** : eau souterraine contenue dans les roches perméables.\n\n**Bilan hydrique** :\nLe bilan hydrique d'un bassin versant peut s'écrire :\n$$P = E + R + I$$\nOù :\n- $P$ = précipitations\n- $E$ = évapotranspiration réelle\n- $R$ = ruissellement\n- $I$ = infiltration\n\n**Temps de résidence** : durée moyenne qu'une molécule d'eau passe dans un réservoir. Par exemple, dans l'atmosphère, il est d'environ 9 jours, alors que dans les océans, il est de 3 200 ans.\n\n## 2. Propriétés et Méthodes d'application\n\n**Méthode : Calculer un bilan hydrique**\n\nPrenons un exemple : un bassin versant reçoit 800 mm de précipitations par an. L'évapotranspiration est estimée à 500 mm, et le ruissellement à 150 mm. Calculons l'infiltration.\n\n1. Écrire la formule : $P = E + R + I$\n2. Remplacer les valeurs connues : $800 = 500 + 150 + I$\n3. Résoudre pour $I$ : $I = 800 - 500 - 150 = 150$ mm\n\nAinsi, l'infiltration annuelle est de 150 mm.\n\n**Méthode : Interpréter un diagramme du cycle de l'eau**\n\n- Identifier les réservoirs (océans, atmosphère, continents, etc.)\n- Identifier les flux (flèches) et les nommer (évaporation, précipitations, etc.)\n- Vérifier que les flux sont cohérents avec les réservoirs (ex. l'évaporation provient des océans)\n\n**Exemple concret** : Dans le cycle de l'eau, l'évaporation océanique est d'environ 425 000 km³/an, tandis que les précipitations sur les océans sont de 385 000 km³/an. Le déficit est compensé par le ruissellement des continents vers les océans (40 000 km³/an). Ceci illustre l'équilibre du cycle.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre évaporation et transpiration** : L'évaporation concerne les surfaces d'eau libre, la transpiration est le processus végétal. L'évapotranspiration combine les deux.\n- **Oublier que l'eau douce est majoritairement dans les glaces** : Beaucoup pensent que les rivières et lacs sont les plus grands réservoirs d'eau douce, mais en réalité ce sont les glaciers.\n- **Négliger l'importance des nappes phréatiques** : Elles constituent une réserve d'eau douce majeure, mais leur surexploitation peut entraîner des affaissements de terrain.\n- **Mal interpréter le bilan hydrique** : Ne pas oublier que le ruissellement et l'infiltration sont des composantes distinctes.\n- **Croire que le cycle de l'eau est un système fermé** : En réalité, l'eau circule en continu, mais la quantité totale sur Terre est constante.\n\n## Synthèse\n\n1. **Le cycle de l'eau** est un système dynamique de réservoirs et de flux, alimenté par l'énergie solaire et la gravité.\n2. **Le bilan hydrique** $P = E + R + I$ permet de quantifier les flux et de gérer les ressources en eau.\n3. **La gestion durable** de l'eau nécessite de préserver la qualité et la quantité, en tenant compte des activités humaines et du changement climatique.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "cycle de l'eau",
+    "hydrologie",
+    "ressources en eau",
+    "environnement",
+    "svt"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le plus grand réservoir d'eau douce sur Terre ?",
+      "options": [
+        "Les rivières et lacs",
+        "Les nappes phréatiques",
+        "Les glaciers et calottes glaciaires",
+        "L'humidité du sol"
+      ],
+      "answer": 2,
+      "explanation": "Les glaciers et calottes glaciaires contiennent environ 68,7% de l'eau douce de la planète, soit la plus grande part."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le temps de résidence de l'eau dans l'atmosphère est d'environ 9 jours.",
+      "answer": true,
+      "explanation": "En effet, l'eau reste en moyenne 9 jours dans l'atmosphère avant de retomber sous forme de précipitations."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Dans un bassin versant, les précipitations sont de 1000 mm, l'évapotranspiration de 600 mm et le ruissellement de 200 mm. Quelle est l'infiltration en mm ?",
+      "answer": "200",
+      "explanation": "En utilisant la formule P = E + R + I, on a I = 1000 - 600 - 200 = 200 mm."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel processus correspond au passage de l'eau de l'état liquide à l'état gazeux ?",
+      "options": [
+        "Condensation",
+        "Évaporation",
+        "Précipitation",
+        "Infiltration"
+      ],
+      "answer": 1,
+      "explanation": "L'évaporation est le passage de l'eau liquide en vapeur d'eau."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Le cycle de l'eau est un système fermé : la quantité totale d'eau sur Terre est constante.",
+      "answer": true,
+      "explanation": "La quantité d'eau sur Terre reste globalement constante, mais elle se déplace entre les réservoirs."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Quel est le pourcentage approximatif de l'eau douce sous forme de glace (calottes et glaciers) ? (Réponse en nombre entier)",
+      "answer": "68",
+      "explanation": "Environ 68,7% de l'eau douce est stockée dans les glaces, on arrondit à 68%."
+    }
+  ]
+}

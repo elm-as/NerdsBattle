@@ -1,0 +1,173 @@
+{
+  "id": "maths-sixieme-l6-angles",
+  "subjectId": "maths",
+  "levelId": "sixieme",
+  "slug": "l6-angles",
+  "title": "Angles en sixième – Leçon 7 Géométrie du plan",
+  "summary": "Cette leçon présente les notions d’angle (notation, vocabulaire, mesures, types), la construction d’angles à l’aide d’un rapporteur, la reproduction d’un angle avec règle‑compas, la bissectrice et des exercices d’application. Elle inclut des exemples concrets (tir au but, repérage de bateaux) et des corrigés détaillés.",
+  "lesson": "## A. Situation d’apprentissage\n- Contexte : entraînement au tir au but. Points A et B = poteaux, G = gardien, P = joueur.\n- Objectif : identifier les angles de tir.\n\n## B. Contenu\n### 1. Angle – définition & notation\n- Deux demi‑droites \"+[AB)\" et \"+[AC)\" d’origine A forment l’angle \\(\\widehat{BAC}\\) (ou \\(\\widehat{CAB}\\)).\n- Sommet : point A ; côtés : demi‑droites \"+[AB)\" et \"+[AC)\".\n\n### 2. Mesure d’un angle\n- Instrument : le rapporteur.\n- Méthode : placer le centre du rapporteur sur le sommet, aligner 0° sur un côté, lire la graduation sur l’autre côté.\n\n### 3. Angles particuliers\n| Type | Mesure | Exemple |\n|------|--------|---------|\n| Nul | 0° | \\(\\widehat{BAC}=0°\\) |\n| Aigu | (0°,90°) | \\(\\widehat{BAC}=45°\\) |\n| Droit | 90° | \\(\\widehat{BAC}=90°\\) |\n| Obtus | (90°,180°) | \\(\\widehat{BAC}=120°\\) |\n| Plat | 180° | \\(\\widehat{BAC}=180°\\) |\n\n### 4. Construction d’un angle de mesure donnée\n1. Tracer une demi‑droite de référence.\n2. Placer le centre du rapporteur, marquer la graduation voulue.\n3. Tracer la seconde demi‑droite.\n\n### 5. Reproduction d’un angle avec règle‑compas\n- Tracer un arc qui coupe les deux côtés, reporter l’écartement sur une demi‑droite, etc.\n\n### 6. Bissectrice d’un angle\n- Droite passant par le sommet et partageant l’angle en deux parties égales.\n- Construction : arcs de même rayon sur les deux côtés, rejoindre les intersections.\n\n## C. Situation d’évaluation\n- Repérage de bateaux depuis deux points A et B avec angles donnés.\n- Analyse de l’alignement des trois bateaux.\n\n## D. Exercices (exemples de corrigés)\n- Nommage d’angles, mesures, nature (nul, droit, plat), construction, justification de la bissectrice, etc.\n\n---\n*Cette leçon est prévue pour une séance d’environ 10 minutes d’exposé + exercices.*",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le sommet de l’angle noté \\(\\widehat{BAC}\\) ?",
+      "options": [
+        "B",
+        "A",
+        "C",
+        "A et C"
+      ],
+      "answer": 1,
+      "explanation": "Le sommet est le point d’origine des deux demi‑droites, ici A."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel instrument sert à mesurer un angle ?",
+      "options": [
+        "Règle graduée",
+        "Compas",
+        "Rapporteur",
+        "Équerre"
+      ],
+      "answer": 2,
+      "explanation": "Le rapporteur permet de lire la mesure en degrés."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Un angle nul a une mesure de 0°.",
+      "answer": true,
+      "explanation": "Par définition, l’angle nul mesure exactement 0°."
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "Deux demi‑droites opposées forment toujours un angle plat.",
+      "answer": true,
+      "explanation": "Les demi‑droites opposées sont colinéaires mais dirigées dans des sens contraires, donnant 180°."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "prompt": "Complète : Un angle aigu mesure entre ___ et ___ degrés.",
+      "answer": "0;90",
+      "explanation": "Un angle aigu est compris entre 0° et 90° (exclu)."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Dans l’exercice de fixation, quel est l’angle nommé MKP̂ ?",
+      "options": [
+        "\\(\\widehat{MKP}\\)",
+        "\\(\\widehat{PKM}\\)",
+        "\\(\\widehat{KMP}\\)",
+        "\\(\\widehat{PMK}\\)"
+      ],
+      "answer": 0,
+      "explanation": "L’angle dont le sommet est K et les côtés KM et KP se note \\(\\widehat{MKP}\\)."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quelle est la mesure de l’angle \\(\\widehat{AOB}\\) dans le corrigé donné ?",
+      "options": [
+        "100°",
+        "72°",
+        "145°",
+        "180°"
+      ],
+      "answer": 1,
+      "explanation": "Le corrigé indique que \\(\\widehat{AOB}=72°\\)."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "La droite (AE) est la bissectrice de l’angle \\(\\widehat{BAC}\\).",
+      "answer": true,
+      "explanation": "Par l’exemple, (AE) passe par le sommet A et partage l’angle en deux parties égales."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Dans la situation d’évaluation, l’angle vu depuis A pour le bateau 1 est de ___ degrés.",
+      "answer": "68",
+      "explanation": "Le tableau indique 68° pour le bateau 1 depuis A."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel type d’angle a une mesure exactement égale à 90° ?",
+      "options": [
+        "Nul",
+        "Aigu",
+        "Droit",
+        "Obtus"
+      ],
+      "answer": 2,
+      "explanation": "Un angle droit mesure 90°."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Dans la construction d’un angle à l’aide du compas, quelle est la première étape ?",
+      "options": [
+        "Tracer un arc de cercle centré sur le sommet",
+        "Tracer la demi‑droite de référence",
+        "Marquer la graduation sur le rapporteur",
+        "Tracer la seconde demi‑droite"
+      ],
+      "answer": 0,
+      "explanation": "On commence par tracer un arc qui coupe les deux côtés de l’angle à reproduire."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Un angle obtus possède une mesure supérieure à 180°.",
+      "answer": false,
+      "explanation": "Un angle obtus est compris entre 90° et 180° (exclu)."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Dans le tableau de l’exercice 6, l’angle \\(\\widehat{FGH}\\) est de type ___ avec une mesure de ___ degrés.",
+      "answer": "Plat;180",
+      "explanation": "Le corrigé indique que \\(\\widehat{FGH}\\) est plat, donc 180°."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel est le résultat de la justification de la bissectrice dans l’exercice 7 ?",
+      "options": [
+        "\\(\\widehat{DCB}=\\widehat{DCE}\\) donc CD est bissectrice",
+        "\\(\\widehat{BCD}=\\widehat{ECD}\\) donc CD est perpendiculaire",
+        "CD n’est pas bissectrice",
+        "Aucune de ces réponses"
+      ],
+      "answer": 0,
+      "explanation": "Les deux angles mesurés à 30° montrent que CD partage l’angle BCE en deux parties égales."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Dans l’exercice 8, l’angle \\(\\widehat{ABO}\\) mesure 45° parce que (L) est la bissectrice de \\(\\widehat{ABC}\\).",
+      "answer": true,
+      "explanation": "La bissectrice d’un angle droit partage l’angle en deux angles de 45° chacun."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Un angle plat correspond à ___ degrés.",
+      "answer": "180",
+      "explanation": "Par définition, un angle plat mesure 180°."
+    }
+  ]
+}

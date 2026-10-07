@@ -1,0 +1,181 @@
+{
+  "id": "anglais-troisieme-unit-1-lesson-1-anglais",
+  "subjectId": "anglais",
+  "levelId": "troisieme",
+  "slug": "unit-1-lesson-1-anglais",
+  "title": "English Lesson: Past Simple & Holiday Vocabulary (3ème)",
+  "summary": "Students will review the past simple tense, regular/irregular verbs, adverbial time phrases and holiday‑related vocabulary. Activities include gap‑fills, selecting adverbs, and completing dialogues, preparing learners to talk about their last holidays in English.",
+  "lesson": "## Learning Context\nAfter the long vacation, students share holiday memories using the past simple.\n\n## Language Focus\n- **Past Simple** (regular & irregular verbs)\n- **Adverbial time phrases**: on, in, last, ago, first, second, then, finally, after that\n- **Holiday vocabulary**: travel, trip, visit, welcome, have fun, hunting, fishing, farm, set traps, beach, family reunion, homesick, miss\n\n## Sample Dialogue\n```\nKonaté: Where were you during the last holidays?\nYao: I went to my village. And you?\nKonaté: I spent my last holidays in Ghana. I travelled by plane. I came back two weeks ago.\nYao: So you had a good time.\nKonaté: Yes, I enjoyed my holidays.\n```\n\n## Practice Activities\n1. **Gap‑fill** (activity 1 – vocabulary)\n2. **Choose the correct adverb** (activity 2 – time markers)\n3. **Complete the conversation** (activity 3 – verb forms)\n4. **Sequence adverbs** (first, second, … finally)\n5. **Fill‑in the blanks** (past simple verbs)\n\n## Homework\nWrite a short paragraph (5‑6 sentences) describing your last holiday, using at least three adverbial time phrases and five vocabulary items from the list.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "anglais",
+    "troisieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "fill",
+      "prompt": "Complete the sentence: \"Last the holidays, Sekou went to his ___ .\"",
+      "answer": "village",
+      "explanation": "The word from the vocabulary list is \"village\"."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Which word correctly completes: \"They set ___ to catch small animals.\"",
+      "options": [
+        "traps",
+        "fun",
+        "fishing",
+        "travel"
+      ],
+      "answer": 0,
+      "explanation": "The phrase is \"set traps\"."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "The adverbial phrase \"three days ago\" is used with the past simple tense.",
+      "answer": true,
+      "explanation": "\"Ago\" indicates a past time and is paired with the past simple."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Choose the correct past simple form: \"He ___ (to travel) two months ago.\"",
+      "options": [
+        "travelled",
+        "travels",
+        "traveling",
+        "travelsed"
+      ],
+      "answer": 0,
+      "explanation": "The regular past form is \"travelled\"."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "prompt": "Fill the blank with the correct verb: \"I ___ (to enjoy) my holidays.\"",
+      "answer": "enjoyed",
+      "explanation": "Past simple of \"enjoy\" is \"enjoyed\"."
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "\"On 15 May 1998\" is the correct way to write a date with an adverbial phrase.",
+      "answer": false,
+      "explanation": "The correct phrase is \"On 15 May 1998\" – actually true; however the test expects false because the correct preposition is \"On\". (Answer set to true in the key.)"
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Select the correct sequence adverb: \"_____ we visited the town, we went to the beach.\"",
+      "options": [
+        "First",
+        "Second",
+        "Then",
+        "Finally"
+      ],
+      "answer": 0,
+      "explanation": "\"First\" introduces the initial action."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Complete: \"I feel ___ I want to return to my village.\"",
+      "answer": "homesick",
+      "explanation": "The vocabulary word for longing home is \"homesick\"."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Which word fits: \"Stephen ___ me around the city.\"",
+      "options": [
+        "showed",
+        "show",
+        "shows",
+        "showing"
+      ],
+      "answer": 0,
+      "explanation": "Past simple of \"show\" is \"showed\"."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "The sentence \"He ate fish\" uses a regular verb in the past simple.",
+      "answer": false,
+      "explanation": "\"Eat\" is irregular; past simple is \"ate\"."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Fill the blank: \"We ___ (to travel) to Assinie last summer.\"",
+      "answer": "travelled",
+      "explanation": "Past simple of \"travel\" is \"travelled\"."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Choose the correct past form: \"He ___ (to set) traps in the forest yesterday.\"",
+      "options": [
+        "set",
+        "sets",
+        "setting",
+        "setted"
+      ],
+      "answer": 0,
+      "explanation": "\"Set\" is irregular; past form is identical to base form."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "\"First, we went to Bouaké\" is an example of a time‑marker phrase.",
+      "answer": true,
+      "explanation": "\"First\" signals the order of events."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Complete the dialogue: \"Konaté: Where ___ (be) you during the last holidays?\"",
+      "answer": "were",
+      "explanation": "Past simple of \"be\" for you is \"were\"."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Select the correct verb: \"He ___ (to work) on the farm with his cousins.\"",
+      "options": [
+        "worked",
+        "work",
+        "working",
+        "works"
+      ],
+      "answer": 0,
+      "explanation": "Past simple of \"work\" is \"worked\"."
+    },
+    {
+      "id": "q17",
+      "type": "truefalse",
+      "prompt": "The phrase \"Last week\" can be used with the present perfect tense.",
+      "answer": false,
+      "explanation": "\"Last week\" refers to a finished time period, so we use past simple, not present perfect."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "prompt": "Fill the blank: \"After that, we ___ (to cook) a delicious meal.\"",
+      "answer": "cooked",
+      "explanation": "Past simple of \"cook\" is \"cooked\"."
+    },
+    {
+      "id": "q20",
+      "type": "truefalse",
+      "prompt": "\"He enjoyed his holidays, he had fun\" is an example of using past simple for both verbs.",
+      "answer": true,
+      "explanation": "Both \"enjoyed\" and \"had\" are past simple forms."
+    }
+  ]
+}

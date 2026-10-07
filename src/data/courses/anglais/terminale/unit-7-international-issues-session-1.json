@@ -1,0 +1,61 @@
+{
+  "id": "anglais-terminale-unit-7-international-issues-session-1",
+  "subjectId": "anglais",
+  "levelId": "terminale",
+  "slug": "unit-7-international-issues-session-1",
+  "title": "International Organisations & Reported Speech – Unit 7 Speaking",
+  "summary": "Students explore key international bodies (WHO, UNHCR, IMF, OPEC, WTO, IOC, WFP, Interpol, UN, UNICEF) and practice converting direct speech to reported speech. Activities include multiple‑choice, true/false, fill‑in‑the‑blank and a simulated BBC interview.",
+  "lesson": "## Vocabulary\n- **WHO** – World Health Organisation\n- **UNHCR** – United Nations High Commissioner for Refugees\n- **IMF** – International Monetary Fund\n- **OPEC** – Organisation of Petroleum Exporting Countries\n- **WTO** – World Trade Organisation\n- **IOC** – International Olympic Committee\n- **WFP** – World Food Programme\n- **Interpol** – International Criminal Police Organisation\n- **UN** – United Nations\n- **UNICEF** – United Nations International Children’s Emergency Fund\n\n## Language Function: Reporting Statements & Questions\n- Direct → Reported speech changes tense, pronouns, and removes quotation marks.\n- Statements use **that** (optional). Questions use **if/whether** or a **wh‑word**.\n\n### Examples\n1. Direct: *\"The operation of Interpol was a success,\"* the authorities told the press.\n   Reported: The authorities told the press that the operation of Interpol **had been** a success.\n2. Direct: *\"What are the objectives of WHO?\"* the students asked the teacher.\n   Reported: The students asked the teacher what the objectives of WHO **were**.\n\n## Activities\n### Activity 1 – Multiple‑choice (adapted from FAR AHEAD Tle)\nAnswer the questions by choosing the best option.\n\n### Activity 2 – Reported Speech Transformation\nRewrite each direct‑speech sentence in reported form.\n\n### Activity 3 – Simulated BBC Interview\nPrepare answers to three interview questions about the Coronavirus pandemic in Côte d’Ivoire, the measures taken, and the international organisations involved.\n\n---\n**Estimated teaching time:** 10 minutes",
+  "estimatedMinutes": 10,
+  "tags": [
+    "anglais",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "The World Health Organisation (WHO) was founded in 1945.",
+      "answer": false,
+      "explanation": "WHO was established later, in 1948."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Interpol stands for International Criminal Police Organisation.",
+      "answer": true,
+      "explanation": "Interpol’s full name is International Criminal Police Organisation."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "The acronym WHO stands for _______.",
+      "answer": "World Health Organisation",
+      "explanation": "WHO = World Health Organisation."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "The organisation that ensures food security is the _______.",
+      "answer": "World Food Programme",
+      "explanation": "WFP works to eradicate hunger and improve food security."
+    },
+    {
+      "id": "q13",
+      "type": "truefalse",
+      "prompt": "In reported speech, the verb tense always stays the same as in the original direct speech.",
+      "answer": false,
+      "explanation": "Verb tenses usually shift back one step (present → past, etc.)."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "In reported speech, a question changes to a statement that begins with ‘that’ or a ______‑word.",
+      "answer": "wh‑word",
+      "explanation": "Questions are reported using ‘that’ for statements or a wh‑word (who, what, why, etc.)."
+    }
+  ]
+}

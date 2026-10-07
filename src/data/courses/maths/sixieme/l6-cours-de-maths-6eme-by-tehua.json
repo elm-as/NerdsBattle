@@ -1,0 +1,179 @@
+{
+  "id": "maths-sixieme-l6-cours-de-maths-6eme-by-tehua",
+  "subjectId": "maths",
+  "levelId": "sixieme",
+  "slug": "l6-cours-de-maths-6eme-by-tehua",
+  "title": "Cours de Mathématiques 6ème – Numération décimale et comparaison de nombres",
+  "summary": "Ce cours présente les notions de chiffres, nombres entiers et décimaux, les ensembles ℕ et 𝔻, la valeur de position, la lecture et l’écriture des nombres, ainsi que les règles de comparaison des entiers et des décimaux. Il inclut des exemples, exercices de fixation et une situation d’intégration pour appliquer les connaissances.",
+  "lesson": "# I) Les chiffres et les nombres\n## 1. Distinction chiffres / nombres\n- Les chiffres sont les symboles 0‑9.\n- Un nombre est une suite de chiffres avec une valeur de position (ex. 324 = 3×100+2×10+4).\n## 2. Valeur de position\n- Dans 324, 3 représente les centaines, 2 les dizaines, 4 les unités.\n- Dans 84,125, 8 dizaines, 4 unités, 1 dixièmes, 2 centièmes, 5 millièmes.\n## 3. Types de nombres\n- **Entiers naturels** ℕ = {0,1,2,…}. Un entier naturel a une partie décimale nulle.\n- **Nombres décimaux** 𝔻 = nombres avec partie entière et partie décimale séparées par une virgule.\n- ℕ ⊂ 𝔻.\n## 4. Lecture en toutes lettres\n- 4 = quatre, 14 = quatorze, 87 = quatre‑vingt‑sept, 387 253 = trois cent quatre‑vingt‑sept mille deux cent cinquante‑trois.\n- Règles d’accord : « million », « milliard » prennent un *s* au pluriel ; « mille » est invariable ; « cent » et « vingt » prennent *s* quand ils ne sont pas suivis d’un autre nombre.\n\n# II) Comparaison de nombres\n## 1. Comparaison d’entiers naturels\n- Plus grand / plus petit selon la valeur numérique.\n- Exemple : 95 > 45.\n## 2. Comparaison de décimaux\n- Si les parties entières diffèrent, on compare ces parties.\n- Si les parties entières sont égales, on compare les décimales chiffre par chiffre (dixièmes, centièmes, …).\n- Exemple : 25,978 > 25,969.\n- Le mot « égal » s’emploie quand les valeurs sont identiques.\n\n# Exercices de fixation\n### Exercice 1 – Symboles d’appartenance\nRemplir avec ∈, ∉, ⊂ ou ⊄.\n### Exercice 2 – Partie entière / décimale\nDonner la partie entière et la partie décimale des nombres proposés.\n### Exercice 3 – Écriture en toutes lettres / en chiffres\nTransformer les nombres entre forme littérale et numérique.\n### Exercice 4 – Comparaison\nComparer les paires de nombres données.\n\n# Situation d’intégration\nLe professeur indique que son fils est né en **abxy** où :\n- a = dixième de 12,19 → 1\n- b = partie décimale de 08,9 → 9\n- x = nombre de dizaines de 89,99 → 8\n- y = chiffre des unités de 522 → 2\nL’année de naissance est donc **1982**.\n\n# Solutions rapides\n- Exercice 1 : 45,01 ∉ ℕ ; 0,125 ∈ 𝔻 … etc.\n- Exercice 2 : 90,10 → entier = 90, décimale = 10.\n- Exercice 3 : 10220 → dix‑mille deux cent vingt.\n- Exercice 4 : 5,4 = 5,40 (égaux), 2,03 < 2,2, …",
+  "estimatedMinutes": 45,
+  "tags": [
+    "maths",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel chiffre représente les dizaines dans le nombre 324?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "0"
+      ],
+      "answer": 1,
+      "explanation": "Le chiffre 2 occupe la position des dizaines."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel est le symbole qui désigne l’ensemble des entiers naturels?",
+      "options": [
+        "ℤ",
+        "ℚ",
+        "ℕ",
+        "𝔻"
+      ],
+      "answer": 2,
+      "explanation": "ℕ représente les entiers naturels."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Tous les nombres décimaux sont aussi des entiers naturels.",
+      "answer": false,
+      "explanation": "Seuls les décimaux dont la partie décimale est nulle sont des entiers."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Écris en toutes lettres le nombre 387253.",
+      "answer": "trois cent quatre‑vingt‑sept mille deux cent cinquante‑trois",
+      "explanation": "Conversion directe selon les règles d’écriture."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Dans 84,125, quel chiffre représente les centièmes?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "5"
+      ],
+      "answer": 1,
+      "explanation": "Le chiffre 2 est à la deuxième position après la virgule, donc les centièmes."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle est la partie entière du nombre 0,012?",
+      "options": [
+        "0",
+        "12",
+        "0,012",
+        "0,01"
+      ],
+      "answer": 0,
+      "explanation": "La partie entière est le nombre avant la virgule, ici 0."
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Les ensembles ℕ et 𝔻 sont disjoints.",
+      "answer": false,
+      "explanation": "ℕ est inclus dans 𝔻 (ℕ ⊂ 𝔻)."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Écris le nombre décimal 5,1400 sous la forme la plus courte.",
+      "answer": "5,14",
+      "explanation": "On supprime les zéros inutiles à la fin de la partie décimale."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Comparer les nombres décimaux : 5,4 et 5,40. Lequel est le plus grand?",
+      "options": [
+        "5,4",
+        "5,40",
+        "Ils sont égaux",
+        "Impossible à dire"
+      ],
+      "answer": 2,
+      "explanation": "Les deux nombres sont égaux car les zéros superflus ne changent pas la valeur."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est le plus grand parmi : 11,01 ; 10,99 ; 11,99 ?",
+      "options": [
+        "11,01",
+        "10,99",
+        "11,99",
+        "Tous égaux"
+      ],
+      "answer": 2,
+      "explanation": "11,99 a la plus grande partie décimale après la même partie entière 11."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Dans la comparaison 25,978 > 25,969, on ne regarde que les centièmes.",
+      "answer": false,
+      "explanation": "On compare d’abord les dixièmes (identiques), puis les centièmes (7 > 6)."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Donne la forme numérique du nombre « deux cent trente‑cinq millièmes ».",
+      "answer": "0,235",
+      "explanation": "Deux cent trente‑cinq millièmes = 235/1000 = 0,235."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel est le chiffre des unités de 522?",
+      "options": [
+        "5",
+        "2",
+        "0",
+        "1"
+      ],
+      "answer": 1,
+      "explanation": "Le dernier chiffre de 522 est 2."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Résous la situation d’intégration : quelle est l’année de naissance du fils du professeur?",
+      "answer": "1982",
+      "explanation": "a=1 (dixième de 12,19), b=9 (partie décimale de 08,9), x=8 (dizaines de 89,99), y=2 (unités de 522) → 1 9 8 2."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Le nombre 10000 appartient à ℕ mais pas à 𝔻.",
+      "answer": false,
+      "explanation": "10000 appartient à ℕ et, comme tout entier, il appartient aussi à 𝔻."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel symbole indique qu’un ensemble A est inclus dans un ensemble B?",
+      "options": [
+        "∈",
+        "⊂",
+        "⊄",
+        "∉"
+      ],
+      "answer": 1,
+      "explanation": "Le symbole ⊂ signifie « est inclus dans »."
+    }
+  ]
+}

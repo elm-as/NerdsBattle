@@ -1,0 +1,13 @@
+{
+  "id": "svt-sixieme-classification-vivant",
+  "title": "Classer le vivant",
+  "summary": "Les êtres vivants se regroupent selon leurs caractères communs.",
+  "lesson": "On classe les êtres vivants en groupes emboîtés. Les vertébrés possèdent une colonne vertébrale ; ils se subdivisent en mammifères, oiseaux, reptiles, amphibiens, poissons. Les invertébrés (insectes, mollusques...) n'ont pas de squelette interne.",
+  "estimatedMinutes": 7,
+  "tags": ["biodiversité", "classification"],
+  "questions": [
+    { "id": "q1", "type": "mcq", "prompt": "L'araignée est :", "options": ["un insecte", "un mammifère", "un arachnide", "un reptile"], "answer": 2, "explanation": "8 pattes, classe des arachnides." },
+    { "id": "q2", "type": "truefalse", "prompt": "La baleine est un poisson.", "answer": false, "explanation": "C'est un mammifère marin (allaite)." },
+    { "id": "q3", "type": "fill", "prompt": "Les animaux qui ont une colonne vertébrale sont les ___.", "answer": "vertébrés", "explanation": "Ex : poissons, oiseaux, mammifères." }
+  ]
+}

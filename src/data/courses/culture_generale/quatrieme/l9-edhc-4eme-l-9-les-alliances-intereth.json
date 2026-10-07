@@ -1,0 +1,199 @@
+{
+  "id": "culture_generale-quatrieme-l9-edhc-4eme-l-9-les-alliances-intereth",
+  "subjectId": "culture_generale",
+  "levelId": "quatrieme",
+  "slug": "l9-edhc-4eme-l-9-les-alliances-intereth",
+  "title": "Les Alliances Interethniques : Cohésion Sociale et Médiation",
+  "summary": "Ce module explore les alliances interethniques entre les peuples Kwa et Krou, leurs origines, leurs formes et leur rôle dans la prévention des conflits. Il présente les principaux groupes, les alliances spécifiques, les valeurs véhiculées et propose des activités d’application pour renforcer la compréhension et la médiation entre élèves.",
+  "lesson": "# Les Alliances Interethniques\n\n## 1. Contexte historique\nLes alliances interethniques sont des pactes de non‑agression et de coopération fondés sur la solidarité, la non‑violence et le respect des engagements. Elles ont émergé lors de conflits, de pactes commerciaux ou de médiations.\n\n## 2. Les peuples concernés\n- **Peuples Kwa** : \n  - Kwa lagumaires (Adioukrou, Alladjan, Tchaman, Avikam, Abouré, Ehotilé, M’batto, N’Zima, Essouma, Abbey, Akyé, Abidbji, Kroboe, Ega)\n  - Kwa AKAN (Baoulé, Agni, Abron)\n- **Peuples Krou** : Bété, Wê, Godié, Dida, Kroumen\n\n## 3. Alliances spécifiques\n- **Entre Kwa et Krou** : Dida/Abbey, Dida/Abidji, Dida/Abouré, Dida/Akyé\n- **Au sein du groupe Kwa** : Bété/Bakoué, Godié/Dida, Niaboua/Kroumen, Bakwé\n- **Au sein du groupe Krou** : Abouré/Akyé, M’batto/Ebrié, M’batto/Abbey\n\n## 4. Importance\nLes alliances préservent la paix, facilitent la médiation, renforcent la fraternité et l’unité nationale, et véhiculent des valeurs de respect et de solidarité.\n\n## 5. Activités d’application\n1. **Tri des peuples** : classer les peuples dans les colonnes Krou/Kwa.\n2. **Identification des manifestations** : choisir les actions correspondant aux alliances.\n3. **Définition** : sélectionner la bonne définition d’alliance.\n4. **Médiation** : rôle de l’allié dans la réconciliation d’élèves.\n\n## 6. Évaluation\nScénarios de conflit entre élèves, identification du problème, justification de la médiation, et rappel des alliances pertinentes.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "culture_generale",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel groupe est considéré comme un sous‑groupe Kwa AKAN ?",
+      "options": [
+        "Baoulé",
+        "Bété",
+        "Wê",
+        "Godié"
+      ],
+      "answer": 0,
+      "explanation": "Les Kwa AKAN comprennent les Baoulé, Agni et Abron."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Les alliances interethniques sont uniquement basées sur des pactes commerciaux.",
+      "answer": false,
+      "explanation": "Les alliances incluent aussi des pactes de non‑agression et de médiation."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Les alliances interethniques véhiculent les valeurs d’______ et de ______.",
+      "answer": "honnêteté, solidarité",
+      "explanation": "Les valeurs principales sont l’honnêteté et la solidarité."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel peuple appartient aux Kwa lagumaires ?",
+      "options": [
+        "Wê",
+        "Dida",
+        "Godié",
+        "Abidbji"
+      ],
+      "answer": 3,
+      "explanation": "Abidbji est un peuple Kwa lagumaire."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle alliance est entre les peuples Krou ?",
+      "options": [
+        "Dida/Abbey",
+        "Bété/Bakoué",
+        "M’batto/Ebrié",
+        "Agni/Baoulé"
+      ],
+      "answer": 0,
+      "explanation": "Dida/Abbey est une alliance entre Krou."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Les alliances interethniques ne concernent pas les conflits.",
+      "answer": false,
+      "explanation": "Elles servent à prévenir et régler les conflits."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel peuple est classé dans la colonne Krou ?",
+      "options": [
+        "N’Zima",
+        "Baoulé",
+        "Agni",
+        "Abbey"
+      ],
+      "answer": 0,
+      "explanation": "N’Zima est un peuple Krou."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel est le rôle d’un allié dans une médiation ?",
+      "options": [
+        "Ignorer le conflit",
+        "Prendre parti",
+        "Faciliter la communication",
+        "Punir l’autre"
+      ],
+      "answer": 2,
+      "explanation": "L’allié facilite la communication et la médiation."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Les alliances interethniques incluent la médiation entre alliés et tiers.",
+      "answer": true,
+      "explanation": "C’est l’une des fonctions des alliances."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Le pacte de non‑agression est signé entre les ______ de différents peuples.",
+      "answer": "ancêtres",
+      "explanation": "Il s’agit d’un pacte signé entre les ancêtres."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel peuple est un Kwa AKAN ?",
+      "options": [
+        "Bété",
+        "Wê",
+        "Agni",
+        "Godié"
+      ],
+      "answer": 2,
+      "explanation": "Agni est un peuple Kwa AKAN."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Les alliances interethniques ne sont pas liées à la solidarité.",
+      "answer": false,
+      "explanation": "La solidarité est une valeur centrale."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel peuple est un Krou ?",
+      "options": [
+        "Abidbji",
+        "Baoulé",
+        "Dida",
+        "Godié"
+      ],
+      "answer": 2,
+      "explanation": "Dida est un peuple Krou."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quelle alliance est entre les peuples Kwa ?",
+      "options": [
+        "Bété/Bakoué",
+        "Dida/Abbey",
+        "M’batto/Ebrié",
+        "Agni/Baoulé"
+      ],
+      "answer": 0,
+      "explanation": "Bété/Bakoué est une alliance Kwa."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Les alliances interethniques ne favorisent pas la paix.",
+      "answer": false,
+      "explanation": "Elles favorisent la paix via la médiation."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Les alliances interethniques sont un mécanisme de ______ et de ______ des conflits.",
+      "answer": "prévention, règlement",
+      "explanation": "Elles servent à la prévention et au règlement."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quel peuple est un Kwa lagumaire ?",
+      "options": [
+        "Wê",
+        "Abouré",
+        "Kroumen",
+        "Dida"
+      ],
+      "answer": 1,
+      "explanation": "Abouré est un Kwa lagumaire."
+    },
+    {
+      "id": "q18",
+      "type": "truefalse",
+      "prompt": "Les alliances interethniques incluent la pratique de la vengeance contre un allié.",
+      "answer": false,
+      "explanation": "La vengeance n’est pas une manifestation d’alliance."
+    }
+  ]
+}

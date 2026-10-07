@@ -1,0 +1,193 @@
+{
+  "id": "histoire-terminale-l1-le-contrat-de-vente-commerciale-tle",
+  "subjectId": "histoire",
+  "levelId": "terminale",
+  "slug": "l1-le-contrat-de-vente-commerciale-tle",
+  "title": "Contrat de vente commerciale – principes et formation",
+  "summary": "Le contrat de vente commerciale, défini à l’article 1582 du Code civil, est un accord bilatéral où le vendeur transfère la propriété d’une chose à l’acheteur contre paiement. Il est consensuel, onéreux et translatif. Sa formation repose sur les conditions de forme (liberté de forme, écrit facultatif) et de fond (consentement, capacité, objet, cause). L’offre doit être précise, l’acceptation doit être expresse, et les parties doivent être capables. Des interdictions spécifiques (administrateurs, époux, chose",
+  "lesson": "# Contrat de vente commerciale\n\n## 1. Cadre juridique\n- **Article 1582 CC** : définition de la vente commerciale.\n- **Caractéristiques** :\n  - Synallagmatique (bilatéral)\n  - Onéreux\n  - Consensuel\n  - Translatif de propriété\n\n## 2. Formation du contrat\n### 2.1 Conditions communes\n- **Forme** : liberté de forme, écrit facultatif (A.U.).\n- **Fond** : consentement, capacité, objet, cause.\n\n### 2.2 Consentement\n- Offre + acceptation.\n- L’offre doit être précise (marchandise, quantité, prix).\n- L’acceptation doit être expresse ; le silence ne vaut pas acceptation.\n\n### 2.3 Capacité\n- Capacité civile (21 ans révolus).\n- Mineurs non émancipés et majeurs incapables exclues.\n\n### 2.4 Objet et cause\n- Licité, conforme à la loi et aux bonnes mœurs.\n- Chose doit être dans le commerce juridique et être réelle.\n\n## 3. Règles particulières\n- **Interdictions** :\n  - Administrateurs, mandataires, affaires publiques (art. 1546, 1597).\n  - Double interdiction entre époux.\n  - Choses hors commerce (art. 1598‑1660).\n\n## 4. Effets du contrat\n- **Obligations** : paiement par l’acheteur, transfert de propriété par le vendeur.\n- **Transfert de propriété et risques** : acquise de droit dès l’accord, même sans livraison.\n\n## 5. Points clés à retenir\n- La vente est parfaite dès l’accord sur la chose et le prix.\n- Le vendeur doit être propriétaire.\n- Les interdictions visent à protéger l’intérêt public et la sécurité des transactions.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "histoire",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel article du Code civil définit la vente commerciale ?",
+      "options": [
+        "Art. 1582",
+        "Art. 1108",
+        "Art. 1546",
+        "Art. 1598"
+      ],
+      "answer": 0,
+      "explanation": "L’article 1582 du Code civil définit la vente commerciale."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La vente commerciale est un contrat consensuel.",
+      "answer": true,
+      "explanation": "Par définition, la vente commerciale est consensuelle, réalisée par l’échange de consentement."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le vendeur doit être le _____ de la chose vendue.",
+      "answer": "propriétaire",
+      "explanation": "Le vendeur doit être propriétaire pour pouvoir transférer la propriété."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "La forme du contrat de vente commerciale est :",
+      "options": [
+        "Écrite obligatoire",
+        "Verbal obligatoire",
+        "Liberté de forme",
+        "Écrite ou verbale, mais obligatoire"
+      ],
+      "answer": 2,
+      "explanation": "L’acte uniforme prône la liberté de forme, aucune condition n’est imposée."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Le silence du destinataire vaut acceptation de l’offre.",
+      "answer": false,
+      "explanation": "Le silence ou l’inaction ne peuvent valoir acceptation."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel âge doit avoir une personne pour être capable de conclure une vente commerciale ?",
+      "options": [
+        "18 ans",
+        "21 ans",
+        "25 ans",
+        "30 ans"
+      ],
+      "answer": 1,
+      "explanation": "La capacité civile requise est de 21 ans révolus."
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Les choses hors commerce juridique peuvent être vendues.",
+      "answer": false,
+      "explanation": "Les choses hors commerce juridique ne peuvent pas être vendues (art. 1598‑1660)."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel est l’effet principal du contrat de vente commerciale ?",
+      "options": [
+        "Transfert de propriété",
+        "Transfert de risque uniquement",
+        "Obligation de livrer uniquement",
+        "Aucun effet"
+      ],
+      "answer": 0,
+      "explanation": "Le principal effet est le transfert de propriété, même sans livraison."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "L’acceptation d’une offre prend effet au moment où elle _____ à l’auteur de l’offre.",
+      "answer": "parvient",
+      "explanation": "L’acceptation prend effet lorsqu’elle parvient à l’auteur de l’offre."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Un administrateur peut vendre des biens d’une société.",
+      "answer": false,
+      "explanation": "Les administrateurs sont interdits de vendre selon les dispositions du Code civil."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel est le rôle de l’écrit dans la preuve du contrat de vente commerciale ?",
+      "options": [
+        "Il est obligatoire",
+        "Il sert à prouver l’existence du contrat",
+        "Il n’est pas nécessaire",
+        "Il est obligatoire uniquement pour les biens immobiliers"
+      ],
+      "answer": 1,
+      "explanation": "L’écrit sert à prouver l’existence du contrat, mais n’est pas obligatoire."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "La vente est parfaite même si la chose n’est pas encore livrée.",
+      "answer": true,
+      "explanation": "La propriété est acquise de droit dès l’accord sur la chose et le prix, même sans livraison."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Les conditions de fond comprennent :",
+      "options": [
+        "La forme, le prix, la livraison",
+        "Le consentement, la capacité, l’objet, la cause",
+        "Le mode de paiement, la garantie, la livraison",
+        "La forme, le consentement, le prix"
+      ],
+      "answer": 1,
+      "explanation": "Les conditions de fond sont le consentement, la capacité, l’objet et la cause."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "L’offre doit être suffisamment précise pour désigner la _____ et la quantité.",
+      "answer": "marchandise",
+      "explanation": "L’offre doit désigner la marchandise, la quantité et le prix."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "Les époux peuvent librement acheter et vendre entre eux.",
+      "answer": false,
+      "explanation": "Il existe une double interdiction d’acheter et de vendre entre époux."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel article traite des interdictions d’acheter et de vendre entre époux ?",
+      "options": [
+        "Art. 1582",
+        "Art. 1546",
+        "Art. 1597",
+        "Art. 1598"
+      ],
+      "answer": 2,
+      "explanation": "L’article 1597 prévoit l’interdiction d’acheter et de vendre entre époux."
+    },
+    {
+      "id": "q17",
+      "type": "truefalse",
+      "prompt": "La capacité civile est nécessaire pour conclure un contrat de vente commerciale.",
+      "answer": true,
+      "explanation": "La capacité civile (21 ans révolus) est requise pour conclure un tel contrat."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Les effets du contrat de vente commerciale incluent :",
+      "options": [
+        "Obligations des parties et transfert de propriété",
+        "Transfert de propriété uniquement",
+        "Transfert de risque uniquement",
+        "Aucun effet"
+      ],
+      "answer": 0,
+      "explanation": "Les effets principaux sont les obligations réciproques et le transfert de propriété et de risques."
+    }
+  ]
+}

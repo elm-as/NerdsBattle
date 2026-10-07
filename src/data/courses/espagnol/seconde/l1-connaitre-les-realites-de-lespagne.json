@@ -1,0 +1,166 @@
+{
+  "id": "espagnol-seconde-l1-connaitre-les-realites-de-lespagne",
+  "subjectId": "espagnol",
+  "levelId": "seconde",
+  "slug": "l1-connaitre-les-realites-de-lespagne",
+  "title": "Connaître les réalités historiques et géographiques de l’espagnol dans le monde",
+  "summary": "Ce module explore l’importance du espagnol, ses réalités historiques et géographiques, les nombres cardinales et ordinales, et la situation sociolinguistique en Espagne et dans le monde hispanophone.",
+  "lesson": "# Situation d’apprentissage\n- Un élève du lycée a gagné un concours du Instituto Cervantes et doit connaître davantage d’Espagne.\n\n# Contenu\n## Vocabulaire\n- **El idioma** = la langue : *El español es el idioma oficial de España.*\n- **Un hispanohablante** : *Los colombianos hablan español; son hispanohablantes.*\n- **Un/a nativo/a** : *Leo Messi juega en Europa pero es nativo de Argentina.*\n\n## Grammaire\n- **Numéraux cardinaux** : *España tiene diecisiete comunidades autónomas.*\n- **Numéraux ordinaux** : *Enero es el primer mes del año.*\n\n# Activité d’application\n- Écrire les nombres en lettres : 28, 543, 911, 1492, 6325, 1 933 000.\n\n# Situation d’évaluation\n- Répondre aux questions sur les pays hispanophones et l’importance du espagnol.\n\n# Exercices\n1. Relier mots à synonymes.\n2. Vrai/Faux sur la diffusion du espagnol.\n3. Répondre aux questions d’écoute.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "espagnol",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le pays où l’espagnol est la langue officielle ?",
+      "options": [
+        "France",
+        "Espagne",
+        "Italie",
+        "Allemagne"
+      ],
+      "answer": 1,
+      "explanation": "L’espagnol est la langue officielle d’Espagne."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "L’espagnol est parlé dans plus de 21 pays.",
+      "answer": true,
+      "explanation": "Il est officiel dans 21 pays."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le nombre de pays où l’espagnol est langue officielle est ___.",
+      "answer": "21",
+      "explanation": "Il est officiel dans 21 pays."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est le nombre cardinal pour 28 en espagnol ?",
+      "options": [
+        "veintidós",
+        "veintiocho",
+        "treinta",
+        "veinticinco"
+      ],
+      "answer": 1,
+      "explanation": "28 se dit veintiocho."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel est le nombre ordinal pour 1 ?",
+      "options": [
+        "primero",
+        "segundo",
+        "tercero",
+        "cuarto"
+      ],
+      "answer": 0,
+      "explanation": "1 est primero."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Le nombre 1492 se prononce \"mil cuatrocientos noventa y dos\".",
+      "answer": true,
+      "explanation": "1492 se lit mil cuatrocientos noventa y dos."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Le nombre 6325 se lit ___.",
+      "answer": "seis mil trescientos veinticinco",
+      "explanation": "6325 se lit seis mil trescientos veinticinco."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel est le terme pour un locuteur natif d’une langue ?",
+      "options": [
+        "hispanohablante",
+        "nativo",
+        "idioma",
+        "lengua"
+      ],
+      "answer": 1,
+      "explanation": "Un natif est un nativo."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "Le nombre de locuteurs natifs de l’espagnol dépasse 400 millions.",
+      "answer": true,
+      "explanation": "Il y a plus de 400 millions de natifs."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est l’ordre de la langue la plus parlée après l’anglais et le chinois ?",
+      "options": [
+        "espagnol",
+        "français",
+        "allemand",
+        "portugais"
+      ],
+      "answer": 0,
+      "explanation": "L’espagnol est la troisième langue la plus parlée."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Les hispanophones représentent la population à la croissance la plus rapide aux États‑Unis.",
+      "answer": true,
+      "explanation": "Ils constituent la communauté à la croissance la plus rapide."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "En 2050, le nombre de hispanohablantes devrait atteindre ___ millions.",
+      "answer": "530",
+      "explanation": "Les experts prévoient plus de 530 millions."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel est le nombre cardinal pour 543 en espagnol ?",
+      "options": [
+        "ciento cuarenta y tres",
+        "quinientos cuarenta y tres",
+        "cien cuarenta y tres",
+        "ciento cincuenta y tres"
+      ],
+      "answer": 1,
+      "explanation": "543 se lit quinientos cuarenta y tres."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Le nombre 911 se lit \"novecientos once\".",
+      "answer": true,
+      "explanation": "911 se lit novecientos once."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel est le terme pour la langue officielle de 21 pays ?",
+      "options": [
+        "idioma",
+        "lengua",
+        "nativo",
+        "hispanohablante"
+      ],
+      "answer": 1,
+      "explanation": "La langue officielle est la lengua."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "physique-terminale-le-champ-magnetique",
+  "subjectId": "physique",
+  "levelId": "terminale",
+  "slug": "le-champ-magnetique",
+  "title": "Le champ magnétique – cours terminale D",
+  "summary": "Ce cours de 4 h présente les interactions magnétiques, la notion de champ magnétique, sa topographie et des exemples (solénoïde, Terre). Il décrit les expériences, les définitions, le vecteur B, les lignes de champ, les spectres et les règles de la main droite, d’Ampère et de Maxwell.",
+  "lesson": "## I. Interactions magnétiques\n### 1. Aimants\n- Expériences : rapprochement de deux aimants.\n- Observation : pôles identiques se repoussent, pôles opposés s’attirent.\n- Conclusion : la force dépend du signe des pôles.\n### 2. Aimants – courants\n- Expérience : bobine plate près d’un aimant.\n- Observation : face de la bobine repoussée par le pôle identique, attirée par le pôle opposé.\n- Conclusion : le courant crée un champ qui interagit avec le champ de l’aimant.\n### 3. Courants entre eux\n- Expérience : deux fils parallèles parcourus par un courant.\n- Observation : courants dans le même sens s’attirent, sens opposés se repoussent.\n- Conclusion : la force entre courants provient de leurs champs magnétiques.\n\n## II. Notion de champ magnétique\n- Mise en évidence : une aiguille aimantée s’aligne toujours Nord‑Sud géographique.\n- Définition : région de l’espace où un détecteur subit une influence magnétique.\n- Vecteur **B** : direction (axe de l’aiguille), sens (du sud vers le nord de l’aiguille), intensité en tesla (T).\n\n## III. Topographie d’un champ\n### 1. Lignes de champ\n- Courbes tangentes aux vecteurs **B**, orientées dans le sens du vecteur.\n- Champ uniforme → lignes parallèles.\n### 2. Spectres magnétiques\n- Définition : ensemble des lignes de champ.\n- Exemples :\n  - Aimant droit : lignes sortent du pôle N et entrent au pôle S.\n  - Aimant en U : lignes entre les branches sont parallèles (champ uniforme).\n  - Solénoïde parcouru : à l’intérieur lignes parallèles, à l’extérieur ressemble à un aimant droit.\n- Règles de direction : main droite, observateur d’Ampère, tire‑bouchon de Maxwell.\n\n## IV. Exemples pratiques\n### 1. Solénoïde\n- Champ à l’intérieur : \\(B = \\mu_0 n I\\) où \\(n = N/L\\).\n- \\(\\mu_0 = 4\\pi\\times10^{-7}\\,\\text{T·m/A}\\).\n### 2. Champ terrestre\n- La Terre se comporte comme un aimant droit incliné d’un angle θ (déclinaison) par rapport à l’axe géographique.",
+  "estimatedMinutes": 60,
+  "tags": [
+    "physique",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le sens du vecteur champ B autour d’un fil parcouru par le courant selon la règle de la main droite?",
+      "options": [
+        "Vers le haut",
+        "Vers la droite",
+        "Vers la gauche",
+        "Vers le bas"
+      ],
+      "answer": 2,
+      "explanation": "En plaçant le pouce dans le sens du courant, les doigts indiquent le sens du vecteur B, qui pointe alors vers la gauche pour le fil vertical décrit."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Deux pôles identiques d’un aimant s’attirent.",
+      "answer": false,
+      "explanation": "Les pôles de même signe se repoussent, les pôles opposés s’attirent."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "L’équation du champ à l’intérieur d’un solénoïde long est B = ___ où n = N/L.",
+      "answer": "μ0 n I",
+      "explanation": "B = μ₀ n I, avec μ₀ = 4π·10⁻⁷ T·m/A."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans un champ magnétique uniforme, les lignes de champ sont:",
+      "options": [
+        "Courbées",
+        "Parallèles",
+        "Convergentes",
+        "Divergentes"
+      ],
+      "answer": 1,
+      "explanation": "Uniformité implique que les lignes sont parallèles et équidistantes."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Deux fils parallèles parcourés par des courants de sens opposé se repoussent.",
+      "answer": true,
+      "explanation": "Courants opposés créent des champs de sens opposé, la force entre les fils est répulsive."
+    }
+  ]
+}

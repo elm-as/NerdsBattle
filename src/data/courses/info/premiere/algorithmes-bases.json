@@ -1,0 +1,14 @@
+{
+  "id": "info-premiere-algorithmes-bases",
+  "title": "Algorithmes : les bases",
+  "summary": "Variables, conditions, boucles. La grammaire de tout programme.",
+  "lesson": "Un algorithme est une suite finie d'instructions. Trois structures fondamentales : séquence, condition (if/else), boucle (while, for). Complexité : on mesure souvent en O(n).",
+  "estimatedMinutes": 10,
+  "tags": ["algorithmique", "programmation"],
+  "questions": [
+    { "id": "q1", "type": "mcq", "prompt": "Quelle structure permet de répéter des instructions ?", "options": ["Condition", "Boucle", "Variable", "Fonction"], "answer": 1, "explanation": "while / for sont des boucles." },
+    { "id": "q2", "type": "truefalse", "prompt": "Un algorithme peut être infini.", "answer": false, "explanation": "Par définition, il doit se terminer." },
+    { "id": "q3", "type": "mcq", "prompt": "Complexité d'un parcours linéaire d'un tableau de n éléments :", "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"], "answer": 2, "explanation": "Une opération par élément." },
+    { "id": "q4", "type": "fill", "prompt": "En Python, le mot-clé pour définir une fonction est ___.", "answer": "def", "explanation": "Ex : def f(x): return x+1." }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "id": "histoire-seconde-l1-les-sources-du-droit-droit-2nd-g1-et",
+  "subjectId": "histoire",
+  "levelId": "seconde",
+  "slug": "l1-les-sources-du-droit-droit-2nd-g1-et",
+  "title": "Les sources du droit en Côte d'Ivoire – Chapitre II",
+  "summary": "Ce cours présente les sources du droit ivoirien, distinguant les sources directes (constitution, traités, loi ordinaire, règlements) et les sources indirectes (coutume, jurisprudence, doctrine). Il décrit la hiérarchie des normes et le rôle de chaque source dans le système juridique national.",
+  "lesson": "## I. Sources directes\n- **Constitution** : norme suprême, définit la forme de l’État et l’organisation du pouvoir.\n- **Traités internationaux** : accords entre États, ratifiés par l’Assemblée Nationale.\n- **Loi ordinaire** : texte adopté par l’Assemblée Nationale et promulgué par le Président.\n- **Règlements** : édictés par le pouvoir exécutif.\n  - *Décrets* : décisions du Président.\n  - *Arrêtés* : émis par ministres, préfets ou maires.\n\n## II. Sources indirectes\n- **Coutume** : pratique répétée et acceptée, non issue de l’État.\n- **Jurisprudence** : décisions des juridictions, avec trois rôles :\n  1. *Interprétation* – éclaircissement des lois obscures.\n  2. *Suppléance* – comblement des vides juridiques.\n  3. *Adaptation* – ajustement aux nouvelles situations.\n- **Doctrine** : avis des juristes (professeurs, avocats, magistrats) pouvant influencer les tribunaux.\n\n## Hiérarchie des normes\n1. Constitution\n2. Accords internationaux\n3. Loi ordinaire\n4. Règlements (décrets, arrêtés)\n\nUne norme inférieure ne peut contredire une norme supérieure ; sinon elle doit être abrogée.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "histoire",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la norme juridique la plus élevée dans la hiérarchie ivoirienne?",
+      "options": [
+        "La loi ordinaire",
+        "Le décret",
+        "La constitution",
+        "Le traité international"
+      ],
+      "answer": 2,
+      "explanation": "La constitution est la norme suprême, au sommet de la hiérarchie."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Les traités internationaux doivent être ratifiés par le Président de la République.",
+      "answer": false,
+      "explanation": "Ils sont ratifiés par l’Assemblée Nationale, pas par le Président."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Un acte juridique issu de la pratique répétée et acceptée s’appelle ____.",
+      "answer": "coutume",
+      "explanation": "La coutume est une source indirecte du droit."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Qui édite les arrêtés?",
+      "options": [
+        "Le Président",
+        "Le Premier ministre",
+        "Les ministres, préfets ou maires",
+        "Le Conseil constitutionnel"
+      ],
+      "answer": 2,
+      "explanation": "Les arrêtés relèvent des ministres, préfets ou maires."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La jurisprudence a un rôle d’adaptation qui permet au juge de modifier la loi.",
+      "answer": true,
+      "explanation": "Le rôle d’adaptation consiste à appliquer la loi à des situations nouvelles, sans la modifier."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel organe promulgue la loi ordinaire?",
+      "options": [
+        "L’Assemblée Nationale",
+        "Le Conseil constitutionnel",
+        "Le Président de la République",
+        "Le Sénat"
+      ],
+      "answer": 2,
+      "explanation": "Après adoption par l’Assemblée, la loi est promulguée par le Président."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Les décisions du Président de la République sous forme de texte juridique sont appelées ____.",
+      "answer": "décrets",
+      "explanation": "Les décrets sont des décisions exécutoires prises par le Président."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "La doctrine est obligatoire pour les tribunaux ivoiriens.",
+      "answer": false,
+      "explanation": "La doctrine constitue un avis que les tribunaux peuvent suivre ou non."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel rôle de la jurisprudence consiste à combler un vide juridique?",
+      "options": [
+        "Interprétation",
+        "Suppléance",
+        "Adaptation",
+        "Répression"
+      ],
+      "answer": 1,
+      "explanation": "Le rôle de suppléance comble le vide juridique."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Par qui les traités internationaux sont-ils ratifiés?",
+      "options": [
+        "Le Président",
+        "Le Conseil économique",
+        "L’Assemblée Nationale",
+        "Le Conseil constitutionnel"
+      ],
+      "answer": 2,
+      "explanation": "La ratification des traités incombe à l’Assemblée Nationale."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Un règlement peut être supérieur à la loi dans la hiérarchie des normes.",
+      "answer": false,
+      "explanation": "Dans la hiérarchie, la loi prime sur les règlements."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Le texte qui détermine la forme de l’État et l’organisation du pouvoir s’appelle la ____.",
+      "answer": "constitution",
+      "explanation": "La constitution définit la structure de l’État."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel est le rôle principal de la jurisprudence lorsqu’une loi est obscure?",
+      "options": [
+        "Suppléance",
+        "Interprétation",
+        "Adaptation",
+        "Création"
+      ],
+      "answer": 1,
+      "explanation": "Le rôle d’interprétation consiste à éclaircir la loi obscure."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Les accords internationaux sont placés au même niveau que la constitution dans la hiérarchie des normes.",
+      "answer": false,
+      "explanation": "Les accords internationaux viennent après la constitution."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quelle source du droit n’émane pas de l’État?",
+      "options": [
+        "La loi ordinaire",
+        "Le décret",
+        "La coutume",
+        "Le traité international"
+      ],
+      "answer": 2,
+      "explanation": "La coutume se forme par la pratique répétée, sans intervention de l’État."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Le texte juridique qui précise les règles applicables aux rapports entre États s’appelle ____.",
+      "answer": "traité international",
+      "explanation": "Les traités internationaux régissent les relations entre États."
+    }
+  ]
+}

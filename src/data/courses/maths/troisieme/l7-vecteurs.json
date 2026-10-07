@@ -1,0 +1,201 @@
+{
+  "id": "maths-troisieme-l7-vecteurs",
+  "subjectId": "maths",
+  "levelId": "troisieme",
+  "slug": "l7-vecteurs",
+  "title": "Vecteurs : cours et exercices",
+  "summary": "Maîtrise les vecteurs : définitions, opérations et applications géométriques. Prépare-toi à résoudre des problèmes de parallélisme et d'alignement.",
+  "lesson": "# Vecteurs\n\n## Introduction\n\nUn vecteur est un outil mathématique essentiel pour décrire des déplacements et des relations géométriques. Dans ce cours, nous allons étudier les caractéristiques d'un vecteur, les opérations vectorielles et leurs applications à la géométrie.\n\n## 1. Définitions & Notions clés\n\n### Caractéristiques d'un vecteur\nUn vecteur \\(\\overrightarrow{AB}\\) est caractérisé par :\n- **Sa direction** : la droite (AB).\n- **Son sens** : de A vers B.\n- **Sa longueur** : la distance AB.\n\n### Vecteurs égaux\nDeux vecteurs \\(\\overrightarrow{AB}\\) et \\(\\overrightarrow{CD}\\) sont égaux s'ils ont la même direction, le même sens et la même longueur.\n\n### Vecteur opposé\nLe vecteur \\(\\overrightarrow{AB}\\) est l'opposé de \\(\\overrightarrow{BA}\\) : \\(\\overrightarrow{AB} = -\\overrightarrow{BA}\\).\n\n### Somme de vecteurs\nRelation de Chasles : \\(\\overrightarrow{AB} + \\overrightarrow{BC} = \\overrightarrow{AC}\\).\n\n### Différence de vecteurs\n\\(\\overrightarrow{AB} - \\overrightarrow{CD} = \\overrightarrow{AB} + \\overrightarrow{DC}\\).\n\n### Produit d'un vecteur par un réel\nPour un réel \\(k\\) non nul et un vecteur non nul \\(\\overrightarrow{AB}\\), le vecteur \\(k\\overrightarrow{AB}\\) a :\n- même direction que \\(\\overrightarrow{AB}\\) ;\n- même sens si \\(k>0\\), sens contraire si \\(k<0\\) ;\n- longueur \\(|k| \\times AB\\).\n\n### Vecteurs colinéaires\nDeux vecteurs sont colinéaires s'ils ont la même direction ou si l'un est le vecteur nul. Cela équivaut à l'existence d'un réel \\(k\\) tel que \\(\\overrightarrow{AB} = k\\overrightarrow{CD}\\).\n\n### Vecteur directeur d'une droite\nUn vecteur non nul \\(\\overrightarrow{AB}\\) est un vecteur directeur de la droite (D) si (AB) est parallèle à (D).\n\n### Vecteurs orthogonaux\nDeux vecteurs non nuls sont orthogonaux s'ils sont directeurs de deux droites perpendiculaires.\n\n## 2. Applications & Méthodes\n\n### Simplification de sommes vectorielles\nPour simplifier une somme de vecteurs :\n- déplacer et regrouper les vecteurs ;\n- transformer une différence en somme ;\n- appliquer la relation de Chasles.\n\n**Exemple :** \\(\\overrightarrow{BC} + \\overrightarrow{DE} - \\overrightarrow{BA} + \\overrightarrow{CD} + \\overrightarrow{EF} = \\overrightarrow{AF}\\).\n\n### Montrer un parallélisme\nPour montrer que deux droites sont parallèles, on montre que leurs vecteurs directeurs sont colinéaires.\n\n**Exemple :** Si \\(\\overrightarrow{AM} = 2\\overrightarrow{OD}\\), alors (AM) et (OD) sont parallèles.\n\n### Montrer un alignement\nPour montrer que trois points A, B, M sont alignés, on montre que \\(\\overrightarrow{AM}\\) et \\(\\overrightarrow{AB}\\) sont colinéaires.\n\n### Milieu d'un segment\nI est le milieu de [AB] si et seulement si \\(\\overrightarrow{AB} = 2\\overrightarrow{AI}\\).\n\n## 3. Pièges fréquents\n\n- **Confondre direction et sens** : deux vecteurs peuvent avoir la même direction mais des sens opposés.\n- **Oublier la valeur absolue** dans la longueur du produit vectoriel : \\(\\|k\\overrightarrow{AB}\\| = |k| \\times AB\\).\n- **Erreur de signe** en transformant une différence : \\(\\overrightarrow{AB} - \\overrightarrow{CD} = \\overrightarrow{AB} + \\overrightarrow{DC}\\).\n- **Ne pas vérifier la colinéarité** avant de conclure au parallélisme.\n\n## Synthèse\n\nLes vecteurs permettent de traduire géométriquement des relations de parallélisme, d'alignement et de milieu. La maîtrise des opérations vectorielles et de la colinéarité est essentielle pour résoudre des problèmes de géométrie plane.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "troisieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelles sont les caractéristiques d'un vecteur ?",
+      "options": [
+        "Direction, sens, longueur",
+        "Couleur, taille, forme",
+        "Origine, extrémité, milieu",
+        "Abscisse, ordonnée, cote"
+      ],
+      "answer": 0,
+      "explanation": "Un vecteur est caractérisé par sa direction, son sens et sa longueur."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Deux vecteurs opposés ont la même direction et la même longueur.",
+      "answer": true,
+      "explanation": "Vrai : ils ont la même direction, la même longueur mais des sens contraires."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Complète l'égalité de Chasles : \\(\\overrightarrow{AB} + \\overrightarrow{BC} = \\overrightarrow{...}\\)",
+      "answer": "AC",
+      "explanation": "La relation de Chasles donne \\(\\overrightarrow{AB} + \\overrightarrow{BC} = \\overrightarrow{AC}\\)."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Simplifie : \\(\\overrightarrow{AB} - \\overrightarrow{CD}\\)",
+      "options": [
+        "\\(\\overrightarrow{AB} + \\overrightarrow{DC}\\)",
+        "\\(\\overrightarrow{AB} + \\overrightarrow{CD}\\)",
+        "\\(\\overrightarrow{AB} - \\overrightarrow{DC}\\)",
+        "\\(\\overrightarrow{BA} + \\overrightarrow{CD}\\)"
+      ],
+      "answer": 0,
+      "explanation": "Soustraire un vecteur revient à ajouter son opposé : \\(\\overrightarrow{AB} - \\overrightarrow{CD} = \\overrightarrow{AB} + \\overrightarrow{DC}\\)."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Le produit d'un vecteur non nul par un réel négatif donne un vecteur de sens contraire.",
+      "answer": true,
+      "explanation": "Si \\(k<0\\), le vecteur \\(k\\overrightarrow{AB}\\) a le sens contraire de \\(\\overrightarrow{AB}\\)."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Si \\(\\overrightarrow{AB} = 3\\overrightarrow{CD}\\), alors les vecteurs \\(\\overrightarrow{AB}\\) et \\(\\overrightarrow{CD}\\) sont ...",
+      "answer": "colinéaires",
+      "explanation": "Deux vecteurs sont colinéaires si l'un est le produit de l'autre par un réel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dans un parallélogramme ABCD de centre O, que vaut \\(\\overrightarrow{OA} + \\overrightarrow{OC}\\) ?",
+      "options": [
+        "\\(\\overrightarrow{0}\\)",
+        "\\(\\overrightarrow{AC}\\)",
+        "\\(\\overrightarrow{BD}\\)",
+        "\\(\\overrightarrow{AB}\\)"
+      ],
+      "answer": 0,
+      "explanation": "O est le milieu de [AC], donc \\(\\overrightarrow{OA} + \\overrightarrow{OC} = \\overrightarrow{0}\\)."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Si \\(\\overrightarrow{AM} = k\\overrightarrow{AB}\\), alors les points A, M et B sont alignés.",
+      "answer": true,
+      "explanation": "La colinéarité de \\(\\overrightarrow{AM}\\) et \\(\\overrightarrow{AB}\\) implique l'alignement de A, M et B."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Simplifie : \\(-3\\overrightarrow{AB} + 5\\overrightarrow{AB} = ...\\)",
+      "answer": "2AB",
+      "explanation": "\\(-3\\overrightarrow{AB} + 5\\overrightarrow{AB} = (-3+5)\\overrightarrow{AB} = 2\\overrightarrow{AB}\\)."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Un vecteur directeur d'une droite (D) est un vecteur non nul \\(\\overrightarrow{AB}\\) tel que :",
+      "options": [
+        "(AB) est parallèle à (D)",
+        "(AB) est perpendiculaire à (D)",
+        "(AB) coupe (D)",
+        "(AB) est confondue avec (D)"
+      ],
+      "answer": 0,
+      "explanation": "Un vecteur directeur donne la direction de la droite, donc (AB) doit être parallèle à (D)."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Deux vecteurs orthogonaux sont nécessairement colinéaires.",
+      "answer": false,
+      "explanation": "Faux : orthogonaux signifie directions perpendiculaires, donc non colinéaires (sauf vecteur nul)."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Complète : \\(\\overrightarrow{AB} + \\overrightarrow{BC} + \\overrightarrow{CD} = \\overrightarrow{...}\\)",
+      "answer": "AD",
+      "explanation": "En appliquant la relation de Chasles deux fois : \\(\\overrightarrow{AB} + \\overrightarrow{BC} = \\overrightarrow{AC}\\), puis \\(\\overrightarrow{AC} + \\overrightarrow{CD} = \\overrightarrow{AD}\\)."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Si I est le milieu de [AB], alors :",
+      "options": [
+        "\\(\\overrightarrow{AB} = 2\\overrightarrow{AI}\\)",
+        "\\(\\overrightarrow{AI} = 2\\overrightarrow{AB}\\)",
+        "\\(\\overrightarrow{AB} = \\overrightarrow{AI}\\)",
+        "\\(\\overrightarrow{AI} = -\\overrightarrow{BI}\\)"
+      ],
+      "answer": 0,
+      "explanation": "I milieu de [AB] équivaut à \\(\\overrightarrow{AB} = 2\\overrightarrow{AI}\\)."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "La somme de deux vecteurs opposés est le vecteur nul.",
+      "answer": true,
+      "explanation": "Par définition, \\(\\overrightarrow{AB} + \\overrightarrow{BA} = \\overrightarrow{0}\\)."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Simplifie : \\(\\frac{1}{2}(8\\overrightarrow{AB}) = ...\\)",
+      "answer": "4AB",
+      "explanation": "\\(\\frac{1}{2} \\times 8 = 4\\), donc \\(4\\overrightarrow{AB}\\)."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Dans un triangle ABC, si \\(3\\overrightarrow{BI} = \\overrightarrow{AC} - \\overrightarrow{AB}\\), alors :",
+      "options": [
+        "I appartient à [BC]",
+        "I est le milieu de [BC]",
+        "I appartient à [AB]",
+        "I est le milieu de [AC]"
+      ],
+      "answer": 0,
+      "explanation": "On a \\(3\\overrightarrow{BI} = \\overrightarrow{BC}\\), donc \\(\\overrightarrow{BI}\\) et \\(\\overrightarrow{BC}\\) sont colinéaires, d'où I ∈ [BC]."
+    },
+    {
+      "id": "q17",
+      "type": "truefalse",
+      "prompt": "Si \\(\\overrightarrow{AB} = 2\\overrightarrow{CD}\\), alors les droites (AB) et (CD) sont parallèles.",
+      "answer": true,
+      "explanation": "La colinéarité des vecteurs directeurs implique le parallélisme des droites."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "prompt": "Complète : \\(\\overrightarrow{OA} - \\overrightarrow{OD} = \\overrightarrow{...}\\)",
+      "answer": "DA",
+      "explanation": "\\(\\overrightarrow{OA} - \\overrightarrow{OD} = \\overrightarrow{OA} + \\overrightarrow{DO} = \\overrightarrow{DO} + \\overrightarrow{OA} = \\overrightarrow{DA}\\)."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Quelle est la longueur du vecteur \\(k\\overrightarrow{AB}\\) ?",
+      "options": [
+        "\\(|k| \\times AB\\)",
+        "\\(k \\times AB\\)",
+        "\\(k + AB\\)",
+        "\\(|k| + AB\\)"
+      ],
+      "answer": 0,
+      "explanation": "La longueur est le produit de la valeur absolue de k par la longueur de AB."
+    },
+    {
+      "id": "q20",
+      "type": "truefalse",
+      "prompt": "Le produit du vecteur nul par un réel non nul est le vecteur nul.",
+      "answer": true,
+      "explanation": "Par convention, \\(k\\overrightarrow{0} = \\overrightarrow{0}\\) pour tout réel k."
+    }
+  ]
+}

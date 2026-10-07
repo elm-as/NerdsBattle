@@ -1,0 +1,112 @@
+{
+  "id": "maths-seconde-l2-cours-de-maths-apc-2nde-c-by-tehua",
+  "subjectId": "maths",
+  "levelId": "seconde",
+  "slug": "l2-cours-de-maths-apc-2nde-c-by-tehua",
+  "title": "Vecteurs et points du plan – Leçon 1",
+  "summary": "Cette leçon introduit les notions fondamentales de la géométrie vectorielle dans le plan : notation, propriétés des vecteurs, norme, vecteur unitaire, calcul vectoriel, et applications aux parallélismes et alignements. Elle prépare les élèves de seconde à manipuler les vecteurs comme outils de résolution de problèmes géométriques.",
+  "lesson": "# Vecteurs et points du plan\n\n## 1. Notation et représentation\n- Un vecteur <AB> peut être noté <u>.\n- On utilise une lettre minuscule surmontée d’une flèche : <u>, <v>, <w>.\n- Les couples <AB>, <CD>, <EF> sont des représentants du même vecteur.\n\n## 2. Propriétés fondamentales\n- **Existence et unicité** : pour tout point O et vecteur u, il existe un unique point M tel que <OM> = u.\n- **Vecteurs égaux** : <AB> = <DC> ⇔ quadrilatère ABCD est un parallélogramme.\n- **Colinéarité** : deux vecteurs colinéaires partagent la même direction.\n\n## 3. Norme d’un vecteur\n- <U> a norme <U> = AB où (A,B) est un représentant.\n- Propriété : <U> = 0 ⇔ <U> est le vecteur nul.\n- <U> et <−U> ont la même norme.\n\n## 4. Vecteur unitaire\n- Un vecteur de norme 1.\n- Pour un vecteur non nul u, il existe exactement deux vecteurs unitaires colinéaires à u (opposés).\n\n## 5. Calcul vectoriel\n- **Égalité de Chasles** : <AB> + <BC> = <AC>.\n- **Inégalité triangulaire** : <U+V> ≤ <U> + <V>.\n- **Produit par scalaire** : <λU> a même direction que U, sens dépend de λ, norme |λ|‖U‖.\n\n## 6. Applications\n- Vérifier le parallélisme de deux tronçons en utilisant le déterminant de deux vecteurs.\n- Déterminer l’alignement de trois points via la colinéarité.\n- Construire un point M tel que <OM> = u.\n\n---\n\n## Exercice d’application\n1. Dans le triangle ABC, on donne <AC> = u, <AB> = v, <BC> = w.\n2. Calculer les normes ‖u‖, ‖v‖, ‖w‖.\n3. Vérifier que <AC> = <AB> + <BC>.\n4. Construire le vecteur <AB> en coordonnées orthonormées.\n5. Déterminer si les points A, B, C sont alignés.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le vecteur <AB> si A(1,2) et B(4,6) ?",
+      "options": [
+        "<(3,4)>",
+        "<(3,2)>",
+        "<(4,3)>",
+        "<(2,3)>"
+      ],
+      "answer": 0,
+      "explanation": "Le vecteur <AB> = (x_B−x_A, y_B−y_A) = (4−1,6−2) = (3,4)."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Deux vecteurs colinéaires ont la même norme.",
+      "answer": false,
+      "explanation": "Colinéarité ne garantit pas l’égalité des normes, seulement la même direction."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "La norme d’un vecteur <U> est notée <____>.",
+      "answer": "||U||",
+      "explanation": "La norme est indiquée par deux barres verticales."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est le résultat de <AB> + <BC> ?",
+      "options": [
+        "<AC>",
+        "<BA>",
+        "<CB>",
+        "<AB>"
+      ],
+      "answer": 0,
+      "explanation": "Égalité de Chasles : <AB> + <BC> = <AC>."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La norme d’un vecteur nul est 0.",
+      "answer": true,
+      "explanation": "Par définition, <0> a norme 0."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Combien de vecteurs unitaires sont colinéaires à un vecteur non nul u ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "Il existe exactement deux vecteurs unitaires colinéaires à u, opposés."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Si <U> = <(2,0)>, alors <−U> = <____>.",
+      "options": [
+        "<(−2,0)>",
+        "<(2,0)>",
+        "<(0,−2)>",
+        "<(0,2)>"
+      ],
+      "answer": 0,
+      "explanation": "Opposé du vecteur."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Deux vecteurs de même norme sont toujours égaux.",
+      "answer": false,
+      "explanation": "Ils peuvent avoir la même norme mais des directions différentes."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel est le vecteur <λU> si λ = −3 et <U> = <(1,2)> ?",
+      "options": [
+        "<(−3,−6)>",
+        "<(3,6)>",
+        "<(−1,−2)>",
+        "<(1,2)>"
+      ],
+      "answer": 0,
+      "explanation": "Multiplier par −3 change le sens et multiplie la norme."
+    }
+  ]
+}

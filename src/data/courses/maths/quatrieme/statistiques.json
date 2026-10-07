@@ -1,0 +1,164 @@
+{
+  "id": "maths-quatrieme-statistiques",
+  "subjectId": "maths",
+  "levelId": "quatrieme",
+  "slug": "statistiques",
+  "title": "Statistiques de base : moyenne et moyenne pondérée",
+  "summary": "Ce document présente les notions fondamentales de la statistique appliquées aux mesures de taille de jeunes footballeurs. Il explique la construction d’une série statistique, la définition des effectifs, fréquences, moyenne arithmétique et moyenne pondérée, et illustre chaque concept par un exemple concret. Les élèves pourront ainsi comprendre comment transformer des données brutes en informations utiles, et s’exercer à calculer ces indicateurs à l’aide de questions variées.",
+  "lesson": "# Série statistique\n\nUne **série statistique** est un ensemble de mesures prises sur une population. Ici, la population est l’ensemble des minimes d’un club de football et le caractère étudié est leur **taille (cm)**.\n\n## 1. Construction de la série\n\n| Taille (cm) | 137 | 138 | 139 | 142 | 145 |\n|-------------|-----|-----|-----|-----|-----|\n| Effectif    | 3   | 4   | 1   | 2   | 2   |\n\n- **Effectif total** : 12 (nombre de mesures). \n- **Effectif d’une valeur** : par exemple, 138 apparaît 4 fois. \n- **Fréquence** : effectif d’une valeur / effectif total. \n\n## 2. Moyenne arithmétique\n\nLa moyenne (M) d’une série est la somme de toutes les valeurs divisée par l’effectif total.\n\n[\nM=\frac{137+138+137+142+138+142+138+145+145+138+137+139}{12}=139,6 \text{cm}\n]\n\n## 3. Moyenne pondérée\n\nLorsque les valeurs apparaissent plusieurs fois, on peut calculer la moyenne en pondérant chaque valeur par son effectif.\n\n[\nM=\frac{3\times137+4\times138+1\times139+2\times142+2\times145}{12}=139,6 \text{cm}\n]\n\nCette méthode est équivalente à la moyenne arithmétique mais plus rapide lorsqu’on dispose d’un tableau d’effectifs.\n\n## 4. Exercices rapides\n\n1. Calculez la fréquence de la taille 142.\n2. Trouvez la valeur la plus fréquente.\n3. Vérifiez que la moyenne pondérée donne bien 139,6 cm.\n\n---\n\n**Astuce** : Pour la moyenne pondérée, la somme des effectifs doit toujours être égale à l’effectif total.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est l’effectif total de la série ?",
+      "options": [
+        "10",
+        "12",
+        "15",
+        "20"
+      ],
+      "answer": 1,
+      "explanation": "Il y a 12 mesures de taille."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle est la fréquence de la taille 138 ?",
+      "options": [
+        "0,25",
+        "0,33",
+        "0,5",
+        "0,66"
+      ],
+      "answer": 2,
+      "explanation": "Effectif 138 = 4, fréquence = 4/12 = 0,33."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La valeur la plus fréquente est :",
+      "options": [
+        "137",
+        "138",
+        "139",
+        "145"
+      ],
+      "answer": 1,
+      "explanation": "138 apparaît 4 fois, plus que les autres."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "prompt": "La valeur extrême minimale est ___ cm.",
+      "answer": "137",
+      "explanation": "La plus petite taille mesurée est 137 cm."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "La valeur extrême maximale est ___ cm.",
+      "answer": "145",
+      "explanation": "La plus grande taille mesurée est 145 cm."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel est le produit de la valeur 145 par son effectif ?",
+      "options": [
+        "290",
+        "290,5",
+        "145",
+        "145,5"
+      ],
+      "answer": 0,
+      "explanation": "2 × 145 = 290."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "La somme des produits (valeur × effectif) est :",
+      "options": [
+        "1676",
+        "1676,5",
+        "1675,5",
+        "1675"
+      ],
+      "answer": 0,
+      "explanation": "3×137+4×138+1×139+2×142+2×145 = 1676."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Si on ajoute une mesure de 150 cm, quel sera le nouvel effectif total ?",
+      "options": [
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "answer": 1,
+      "explanation": "On ajoute une mesure, donc 12+1=13."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Avec la mesure supplémentaire de 150 cm, la nouvelle moyenne est :",
+      "options": [
+        "139,6",
+        "140,6",
+        "141,6",
+        "142,6"
+      ],
+      "answer": 1,
+      "explanation": "Nouvelle somme = 1676+150=1826, moyenne = 1826/13 ≈ 140,6."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel est le nombre de valeurs différentes dans la série ?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "Valeurs : 137,138,139,142,145 → 5."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "La moyenne arithmétique est calculée en divisant la somme des valeurs par ___.",
+      "answer": "l’effectif total",
+      "explanation": "C’est la définition de la moyenne."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel est le produit de la valeur 137 par son effectif ?",
+      "options": [
+        "411",
+        "411,5",
+        "410,5",
+        "410"
+      ],
+      "answer": 0,
+      "explanation": "3×137 = 411."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "prompt": "La fréquence de la valeur 139 est ___.",
+      "answer": "0,083",
+      "explanation": "Effectif 139 = 1, fréquence = 1/12 ≈ 0,083."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "maths-sixieme-perimetres-aires",
+  "title": "Périmètres et aires",
+  "summary": "Dans ce cours, nous allons apprendre à distinguer le périmètre (la longueur du contour) de l'aire (la surface). Grâce à des formules simples et des exemples concrets, tu pourras calculer ces grandeurs pour les figures usuelles comme le carré, le rectangle et le triangle.",
+  "lesson": "## Introduction\nLe périmètre d'une figure est la longueur de son contour. L'aire est la mesure de la surface qu'elle occupe. Ces deux notions sont essentielles dans la vie quotidienne : pour border un champ (périmètre) ou pour moqueter une pièce (aire). Attention à ne pas les confondre !\n\n## Points clés\n\n### 1. Périmètre du carré et du rectangle\nLe carré a quatre côtés égaux. Si un côté mesure $c$, alors le périmètre $P = 4 \\times c$. Pour un rectangle de longueur $L$ et largeur $l$, $P = 2 \\times (L + l)$.\n\nExemple : Un carré de 3 cm de côté a un périmètre de $P = 4 \\times 3 = 12$ cm. Un rectangle de 5 cm de long et 3 cm de large a $P = 2 \\times (5+3) = 16$ cm.\n\n### 2. Aire du carré et du rectangle\nL'aire d'un carré de côté $c$ est $A = c \\times c = c^2$. Pour un rectangle, $A = L \\times l$.\n\nExemple : Un carré de 3 cm de côté a une aire de $3^2 = 9$ cm². Un rectangle de 5 cm sur 3 cm a une aire de $5 \\times 3 = 15$ cm².\n\n### 3. Périmètre et aire du triangle\nPour un triangle quelconque, le périmètre est la somme des longueurs des trois côtés : $P = a + b + c$. L'aire d'un triangle rectangle se calcule par $A = \\frac{base \\times hauteur}{2}$. Pour tout triangle, si on connaît une base $b$ et la hauteur $h$ correspondante, $A = \\frac{b \\times h}{2}$.\n\nExemple : Un triangle rectangle avec base 4 cm et hauteur 3 cm a une aire de $\\frac{4 \\times 3}{2} = 6$ cm². Son périmètre nécessite de connaître les trois côtés (par exemple 3, 4, 5 cm donne $P = 12$ cm).\n\n### 4. Erreurs fréquentes\n- Confondre périmètre et aire. Le périmètre s'exprime en unités de longueur (cm, m), l'aire en unités carrées (cm², m²).\n- Pour l'aire du triangle, oublier de diviser par 2.\n- Additionner les longueurs sans vérifier les unités (elles doivent être identiques).\n\n### 5. Unités et conversions\nLe périmètre utilise des unités simples : mm, cm, dm, m. L'aire utilise des unités carrées : mm², cm², m². Attention : 1 m = 100 cm, mais 1 m² = 10 000 cm².\n\n## Conclusion\nLe périmètre mesure le contour, l'aire mesure la surface. Savoir les calculer te permet de résoudre des problèmes pratiques : combien de grillage pour clôturer un jardin (périmètre), combien de gazon pour le couvrir (aire). Entraîne-toi avec des figures variées !",
+  "estimatedMinutes": 15,
+  "tags": [
+    "périmètre",
+    "aire",
+    "carré",
+    "rectangle",
+    "triangle"
+  ]
+}

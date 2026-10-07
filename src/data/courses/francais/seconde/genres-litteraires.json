@@ -1,0 +1,13 @@
+{
+  "id": "francais-seconde-genres-litteraires",
+  "title": "Les genres littéraires",
+  "summary": "Roman, théâtre, poésie, argumentation : reconnaître les codes.",
+  "lesson": "Roman : récit en prose, longueur variable. Théâtre : texte destiné à être joué (didascalies, répliques). Poésie : forme versifiée ou prose poétique. Texte argumentatif : essai, lettre ouverte — vise à convaincre ou persuader.",
+  "estimatedMinutes": 10,
+  "tags": ["littérature"],
+  "questions": [
+    { "id": "q1", "type": "mcq", "prompt": "Une didascalie se trouve dans :", "options": ["un roman", "un poème", "une pièce de théâtre", "un essai"], "answer": 2, "explanation": "Indication scénique." },
+    { "id": "q2", "type": "truefalse", "prompt": "Un alexandrin compte 12 syllabes.", "answer": true, "explanation": "Vers de 12 syllabes." },
+    { "id": "q3", "type": "fill", "prompt": "Un texte qui vise à convaincre par la raison est un texte ___.", "answer": "argumentatif", "explanation": "Par opposition au narratif ou descriptif." }
+  ]
+}

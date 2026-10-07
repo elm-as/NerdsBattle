@@ -1,0 +1,154 @@
+{
+  "id": "physique-seconde-nd-ac-c8-solutions-aqueuses-ioniques",
+  "subjectId": "physique",
+  "levelId": "seconde",
+  "slug": "nd-ac-c8-solutions-aqueuses-ioniques",
+  "title": "Solutions aqueuses ioniques – dissolution, énergie et concentrations (2nde A‑C)",
+  "summary": "Cette leçon explique la dissolution des composés ioniques dans l’eau, les deux étapes (dislocation et hydratation), les effets thermiques (endothermique, exothermique, athermique) et les différentes concentrations (molaire, massique) ainsi que le principe d’électroneutralité. Elle inclut une activité d’application et 15 questions d’évaluation.",
+  "lesson": "## Situation d’apprentissage\nDeux élèves de 2nde C débattent : les solutions ioniques conduisent‑elles le courant ? Le professeur intervient pour expliquer la dissolution, la solubilité, les concentrations et l’électrolyse.\n\n## 1. Rappels\n- Une solution = soluté + solvant. Si le solvant est l’eau, on parle de solution **aqueuse**.\n- Une solution aqueuse ionique provient de la dissolution d’un **composé ionique**. Les ions ainsi libérés permettent la conduction électrique.\n\n## 2. Effet thermique de la dissolution\n### 2.1 Expérience\n| Soluté | n (mol) | m (g) | ΔT (°C) |\n|--------|--------|------|----------|\n| NaCl   | 0,05   | 2,92 | 0 |\n| NaOH   | 0,05   | 2,00 | +8 |\n| CuSO₄  | 0,05   | 7,98 | 0 |\n| NH₄Cl  | 0,05   | 2,67 | -2,5 |\n\n### 2.2 Interprétation\n1. **Dislocation du cristal** – rupture des liaisons électrostatiques (énergie d’entrée *Ed*).  \n2. **Hydratation (solvatation)** – entourement des ions par une couronne d’eau (énergie libérée *Eh*).\n- Si *Ed* > *Eh* → dissolution **endothermique** (ex. NH₄Cl).\n- Si *Ed* = *Eh* → dissolution **athermique** (ex. NaCl, CuSO₄).\n- Si *Ed* < *Eh* → dissolution **exothermique** (ex. NaOH).\n\n### 2.3 Conclusion\nLa variation de température résulte de la somme des effets thermiques de la dispersion et de l’hydratation.\n\n## Activité d’application (texte à compléter)\n> La dissolution d’un composé ionique dans l’eau se fait en deux étapes. La première étape est la rupture **des liaisons électrostatiques** entre les ions, suivie de leur **dispersion**. Le phénomène se fait avec absorption d’énergie qui se traduit par une **baisse** de la **température** du milieu réactionnel. La deuxième étape est **l’hydratation** ou la solvatation. Les ions dispersés **s’entourent** de molécules d’eau. L’hydratation s’accompagne de **dégagement de chaleur** qui se traduit par une élévation de la température du milieu réactionnel.\n\n## 3. Concentrations en solution aqueuse\n### 3.1 Concentration molaire volumique (C)\n\\[ C = \\frac{n}{V_{S}} \\]\n- *n* : quantité de matière du soluté (mol)\n- *Vₛ* : volume de la solution (L)\n\n### 3.2 Concentration d’un ion X\n\\[ [X] = \\frac{n_{X}}{V_{S}} \\]\n\n### 3.3 Concentration massique (𝓒)\n\\[ \\mathcal{C} = \\frac{m}{V_{S}} \\]\n- *m* : masse du soluté (g)\n\nRelation entre les deux :  \\[ \\mathcal{C}=M\\times C \\]  où *M* est la masse molaire du soluté.\n\n## 4. Électroneutralité\nToute solution contenant des ions est électriquement neutre : la somme algébrique des charges positives = somme des charges négatives.\n\n## Conclusion\nLes solutions aqueuses ioniques conduisent le courant grâce aux ions libres. Leur dissolution implique deux étapes énergétiques dont l’équilibre détermine le caractère thermique. Les concentrations molaire et massique permettent de quantifier le soluté, et le principe d’électroneutralité garantit la stabilité de la solution.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel phénomène permet aux solutions ioniques de conduire le courant électrique?",
+      "options": [
+        "Présence de molécules d’eau",
+        "Présence d’ions libres",
+        "Présence de neutrons",
+        "Présence de gaz dissous"
+      ],
+      "answer": 1,
+      "explanation": "Les ions libres transportent les charges électriques."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La dissolution de NaCl dans l’eau est exothermique.",
+      "answer": false,
+      "explanation": "Pour NaCl, ΔT = 0 °C, la dissolution est athermique."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Lors de la première étape de la dissolution, les liaisons __________ entre les ions sont rompues.",
+      "answer": "électrostatiques",
+      "explanation": "Il s’agit de la rupture des liaisons électrostatiques."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la formule de la concentration molaire volumique?",
+      "options": [
+        "C = n·V",
+        "C = n/V",
+        "C = m/V",
+        "C = V/n"
+      ],
+      "answer": 1,
+      "explanation": "C = n / Vₛ, où n est la quantité de matière et Vₛ le volume de la solution."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "L’hydratation s’accompagne toujours d’un dégagement de chaleur.",
+      "answer": true,
+      "explanation": "L’hydratation libère de l’énergie (Eh) qui se traduit souvent par une élévation de température."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Dans l’équation 𝓒 = M·C, 𝓒 représente la concentration __________.",
+      "answer": "massique",
+      "explanation": "𝓒 est la concentration massique (g·L⁻¹)."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel soluté a montré une variation de température négative lors de la dissolution?",
+      "options": [
+        "NaCl",
+        "NaOH",
+        "CuSO₄",
+        "NH₄Cl"
+      ],
+      "answer": 3,
+      "explanation": "NH₄Cl a entraîné une baisse de 2,5 °C, donc dissolution endothermique."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "La somme des charges positives d’une solution ionique est toujours supérieure à la somme des charges négatives.",
+      "answer": false,
+      "explanation": "Par électroneutralité, les deux sommes sont égales en valeur absolue."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "La concentration d’un ion X se note __________.",
+      "answer": "[X]",
+      "explanation": "La notation standard est [X] = n_X / Vₛ."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Si l’énergie de dislocation (Ed) est supérieure à l’énergie d’hydratation (Eh), la dissolution est:",
+      "options": [
+        "Exothermique",
+        "Endothermique",
+        "Athermique",
+        "Impossible"
+      ],
+      "answer": 1,
+      "explanation": "Ed > Eh → absorption nette d’énergie → dissolution endothermique."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "La concentration massique s’exprime en mol·L⁻¹.",
+      "answer": false,
+      "explanation": "La concentration massique s’exprime en g·L⁻¹."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Lors de l’hydratation, les ions sont entourés d’une couronne de molécules d’_____.",
+      "answer": "eau",
+      "explanation": "Les molécules d’eau forment la couche d’hydratation."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel terme décrit la deuxième étape de la dissolution?",
+      "options": [
+        "Dispersion",
+        "Hydratation",
+        "Sublimation",
+        "Ionisation"
+      ],
+      "answer": 1,
+      "explanation": "La deuxième étape est l’hydratation (ou solvatation)."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "La concentration molaire (C) et la concentration massique (𝓒) sont toujours égales pour un soluté donné.",
+      "answer": false,
+      "explanation": "Elles sont reliées par la masse molaire M : 𝓒 = M·C."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Dans l’équation C = n/Vₛ, Vₛ représente le volume de la __________.",
+      "answer": "solution",
+      "explanation": "Vₛ est le volume de la solution en litres."
+    }
+  ]
+}

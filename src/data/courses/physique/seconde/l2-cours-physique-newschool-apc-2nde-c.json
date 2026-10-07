@@ -1,0 +1,118 @@
+{
+  "id": "physique-seconde-l2-cours-physique-newschool-apc-2nde-c",
+  "subjectId": "physique",
+  "levelId": "seconde",
+  "slug": "l2-cours-physique-newschool-apc-2nde-c",
+  "title": "Mesures et incertitudes – Module 1 du programme de physique de seconde",
+  "summary": "Ce module introduit les unités du Système international, la notation scientifique, les chiffres significatifs, l’ordre de grandeur, ainsi que les incertitudes absolues, relatives et la propagation des erreurs. Il prépare les élèves à mesurer, analyser et interpréter des données expérimentales avec rigueur.",
+  "lesson": "# Module 1 : Mesures et incertitudes\n\n## Leçon 1 : Unités fondamentales et dérivées du SI\n- **Unité fondamentale** : la mesure de base (mètre, kilogramme, seconde, ampère, kelvin, mole, candela).\n- **Unité dérivée** : combinaison d’unités fondamentales (newton, joule, watt, pascal, etc.).\n- **Notation** : (1,\text{m} = 10^0,\text{m}), (1,\text{km} = 10^3,\text{m}).\n\n## Leçon 2 : Notation scientifique et chiffres significatifs\n- **Notation scientifique** : (a \times 10^n) où (1 le a < 10).\n- **Chiffres significatifs** : chiffres qui contribuent à la précision d’une mesure.\n- **Règles** : zéro non significatif, décimales, arrondi.\n\n## Leçon 3 : Ordre de grandeur\n- Estimer la magnitude d’une grandeur sans calcul précis.\n- Utiliser les puissances de 10 pour comparer.\n\n## Leçon 4 : Incertitude de mesure\n- **Incertitude absolue** : marge d’erreur autour d’une valeur mesurée.\n- **Incertitude relative** : (\frac{Delta x}{x}\times100%).\n- **Propagation** : règles pour somme, produit, quotient.\n- **Erreur aléatoire** vs **erreur systématique**.\n\n## Leçon 5 : Règles de calculs d’erreurs\n- **Somme** : (Delta z = sqrt{(Delta x)^2+(Delta y)^2}).\n- **Produit/quotient** : (\frac{Delta z}{z} = sqrt{(\frac{Delta x}{x})^2+(\frac{Delta y}{y})^2}).\n- **Exemple** : mesurer la longueur d’un objet et calculer sa surface avec incertitude.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est l’unité fondamentale du Système international pour la masse?",
+      "options": [
+        "mètre",
+        "kilogramme",
+        "seconde",
+        "ampère"
+      ],
+      "answer": 1,
+      "explanation": "La masse est mesurée en kilogramme (kg) dans le SI."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle est la notation scientifique de 0,00045?",
+      "options": [
+        "4,5×10⁻⁴",
+        "4,5×10⁻⁵",
+        "4,5×10⁻³",
+        "4,5×10⁻⁶"
+      ],
+      "answer": 0,
+      "explanation": "0,00045 = 4,5 × 10⁻⁴."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Un zéro à gauche d’une décimale est significatif.",
+      "answer": false,
+      "explanation": "Les zéros à gauche d’une décimale ne sont pas significatifs."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Le nombre d’ordres de grandeur entre 10 m et 10 km est ___.",
+      "answer": "3",
+      "explanation": "10 m = 10⁰ m, 10 km = 10³ m, différence de 3 ordres."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "L’incertitude absolue d’une mesure de 5,0 m ± 0,2 m est de ___.",
+      "options": [
+        "0,2 m",
+        "2 m",
+        "0,02 m",
+        "5,0 m"
+      ],
+      "answer": 0,
+      "explanation": "L’incertitude absolue est la marge d’erreur, ici 0,2 m."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "L’incertitude relative d’une mesure de 5,0 m ± 0,2 m est de ___.",
+      "options": [
+        "4 %",
+        "20 %",
+        "2 %",
+        "0,4 %"
+      ],
+      "answer": 0,
+      "explanation": "(0,2/5,0)×100 % = 4 %."
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Une erreur systématique affecte toujours la même direction de la mesure.",
+      "answer": true,
+      "explanation": "Les erreurs systématiques introduisent un biais constant."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Pour additionner deux mesures x ± Δx et y ± Δy, l’incertitude de z=x+y est donnée par ___.",
+      "options": [
+        "Δz=Δx+Δy",
+        "Δz=√(Δx²+Δy²)",
+        "Δz=Δx×Δy",
+        "Δz=Δx/Δy"
+      ],
+      "answer": 1,
+      "explanation": "Propagation d’erreurs pour somme : racine carrée de la somme des carrés."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Pour multiplier deux mesures x ± Δx et y ± Δy, l’incertitude relative de z=xy est donnée par ___.",
+      "options": [
+        "Δz/z=Δx/x+Δy/y",
+        "Δz/z=√((Δx/x)²+(Δy/y)²)",
+        "Δz/z=Δx/x-Δy/y",
+        "Δz/z=Δx/x×Δy/y"
+      ],
+      "answer": 1,
+      "explanation": "Propagation d’erreurs pour produit : racine carrée de la somme des carrés des incertitudes relatives."
+    }
+  ]
+}

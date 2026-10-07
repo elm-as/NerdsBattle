@@ -1,0 +1,14 @@
+{
+  "id": "anglais-troisieme-preterit-present-perfect",
+  "title": "Prétérit vs Present Perfect",
+  "summary": "Deux temps du passé qu'il faut distinguer.",
+  "lesson": "Prétérit (V-ed) : action terminée, datée. 'I saw her yesterday.' Present perfect (have + V-en) : lien avec le présent, durée, expérience. 'I have lived here for 5 years.' Marqueurs : ago, yesterday, last → prétérit ; since, for, ever, never, just → present perfect.",
+  "estimatedMinutes": 11,
+  "tags": ["grammar", "tenses"],
+  "questions": [
+    { "id": "q1", "type": "mcq", "prompt": "I ___ to Spain in 2019.", "options": ["went", "have been", "go", "gone"], "answer": 0, "explanation": "Date précise → prétérit." },
+    { "id": "q2", "type": "mcq", "prompt": "She ___ here since 2010.", "options": ["lives", "lived", "has lived", "live"], "answer": 2, "explanation": "Since → present perfect." },
+    { "id": "q3", "type": "truefalse", "prompt": "« I have seen him yesterday » est correct.", "answer": false, "explanation": "Yesterday → prétérit obligatoire." },
+    { "id": "q4", "type": "fill", "prompt": "Marqueur typique du present perfect avec une durée : ___", "answer": "for", "explanation": "Ex : for 5 years." }
+  ]
+}

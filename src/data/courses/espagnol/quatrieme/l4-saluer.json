@@ -1,0 +1,162 @@
+{
+  "id": "espagnol-quatrieme-l4-saluer",
+  "subjectId": "espagnol",
+  "levelId": "quatrieme",
+  "slug": "l4-saluer",
+  "title": "Saluer en espagnol – Leçon 4e",
+  "summary": "Cette leçon porte sur les expressions de salutation en espagnol, leur utilisation selon l’heure du jour et le contexte. Les élèves apprennent à saluer un professeur, un ami, un directeur et un collègue, ainsi qu’à reconnaître et reproduire les formules de salutation dans des situations réelles. La leçon comprend des activités d’application, des exercices de compréhension et un jeu de rôle d’évaluation.",
+  "lesson": "# Situation d’apprentissage\nUne délégation de l’ambassade d’Espagne visite le collège. Les élèves identifient et pratiquent les salutations.\n\n# Contenu\n## Vocabulaire\n- **Saludar** : saluer\n- **¡Hola!** : salut entre amis\n\n## Résumé\nImages montrant un professeur saluant le matin et l’après‑midi, et une professeure saluant d’autres élèves.\n\n## Grammaire\n- **¡Buenos días!** – matin\n- **¡Buenas tardes!** – après‑midi\n- **¡Buenas noches!** – soir\n- **¡Hola!** – à tout moment entre amis\n\n# Activité d’application\nSaluer la personne indiquée selon l’heure :\n- 8h30 – **¡Buenos días, señor!**\n- 10h00 – **¡Hola!**\n- 14h30 – **¡Buenas tardes, señor director!**\n- 20h45 – **¡Buenas noches, señor!**\n\n# Situation d’évaluation\nDialogue avec un camarade apprenant l’espagnol.\n\n# Exercices\n1. Remplir les blancs : *hola* – *saludan*.\n2. Vrai/Faux sur les salutations.\n3. Répondre aux questions sur les scènes.\n4. Jeu de rôle : saluer un touriste, un ami, un professeur.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "espagnol",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le bon mot pour saluer un professeur le matin ?",
+      "options": [
+        "¡Hola!",
+        "¡Buenas noches!",
+        "¡Buenos días!",
+        "¡Buenas tardes!"
+      ],
+      "answer": 2,
+      "explanation": "Le matin, on dit « ¡Buenos días ! »."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "À quel moment on utilise « ¡Buenas noches ! » ?",
+      "options": [
+        "Matin",
+        "Après‑midi",
+        "Soir",
+        "Jamais"
+      ],
+      "answer": 2,
+      "explanation": "« ¡Buenas noches ! » se dit le soir."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel est le mot espagnol pour « saluer » ?",
+      "options": [
+        "Saludar",
+        "Saludado",
+        "Saludante",
+        "Salud"
+      ],
+      "answer": 0,
+      "explanation": "Le verbe est « saludar »."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel est le bon salut pour un directeur le soir ?",
+      "options": [
+        "¡Hola!",
+        "¡Buenas noches, señor director!",
+        "¡Buenos días, señor director!",
+        "¡Buenas tardes, señor director!"
+      ],
+      "answer": 1,
+      "explanation": "Le soir, on dit « ¡Buenas noches ! »."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Comment salue‑on un ami à 10h00 ?",
+      "options": [
+        "¡Hola!",
+        "¡Buenas noches!",
+        "¡Buenos días!",
+        "¡Buenas tardes!"
+      ],
+      "answer": 0,
+      "explanation": "À 10h00, on peut dire « ¡Hola ! » ou « ¡Buenos días ! » ; le choix proposé est « ¡Hola ! »."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quelle est la traduction de « saludan » ?",
+      "options": [
+        "Ils saluent",
+        "Ils sont salués",
+        "Ils saluent",
+        "Ils saluent"
+      ],
+      "answer": 0,
+      "explanation": "« Saludan » est le verbe conjugué à la 3e personne du pluriel : ils saluent."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel mot complète la phrase : \"El profesor entra y dice ___ a los alumnos.\"",
+      "options": [
+        "hola",
+        "saludan",
+        "¡Hola!",
+        "¡Saludan!"
+      ],
+      "answer": 2,
+      "explanation": "Le professeur dit « ¡Hola ! »."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel est le bon salut pour un collègue du professeur le soir ?",
+      "options": [
+        "¡Hola!",
+        "¡Buenas tardes!",
+        "¡Buenas noches!",
+        "¡Buenos días!"
+      ],
+      "answer": 2,
+      "explanation": "Le soir, on dit « ¡Buenas noches ! »."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quelle est la formule de salutation pour un touriste espagnol le matin ?",
+      "options": [
+        "¡Buenas tardes!",
+        "¡Hola!",
+        "¡Buenos días!",
+        "¡Buenas noches!"
+      ],
+      "answer": 2,
+      "explanation": "Le matin, on dit « ¡Buenos días ! »."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel est le bon salut pour un ami le soir ?",
+      "options": [
+        "¡Hola!",
+        "¡Buenas noches!",
+        "¡Buenos días!",
+        "¡Buenas tardes!"
+      ],
+      "answer": 1,
+      "explanation": "Le soir, on dit « ¡Buenas noches ! »."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Dans la situation d’évaluation 2, quel salut est utilisé en début de dialogue ?",
+      "options": [
+        "¡Hola!",
+        "¡Buenas tardes!",
+        "¡Buenos días!",
+        "¡Buenas noches!"
+      ],
+      "answer": 1,
+      "explanation": "Le dialogue commence par « ¡Buenas tardes ! »."
+    }
+  ]
+}

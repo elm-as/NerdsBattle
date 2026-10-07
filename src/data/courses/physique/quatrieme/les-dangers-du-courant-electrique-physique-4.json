@@ -1,0 +1,144 @@
+{
+  "id": "physique-quatrieme-les-dangers-du-courant-electrique-physique-4",
+  "subjectId": "physique",
+  "levelId": "quatrieme",
+  "slug": "les-dangers-du-courant-electrique-physique-4",
+  "title": "Sécurité électrique en classe de 4ème – MENA CI",
+  "summary": "Ce module aborde la connaissance des dangers du courant secteur, la distinction phase/neutre/prise de terre, les symboles fusibles, et les règles de sécurité. Il propose des activités pratiques pour identifier les risques et mettre en place des mesures de protection adaptées aux installations domestiques.",
+  "lesson": "# Objectifs\n- Connaître les dangers du courant secteur.\n- Identifier phase, neutre et prise de terre d’une prise.\n- Reconnaître le symbole du fusible et appliquer les règles de sécurité.\n\n# 1. Tension secteur\nLa tension secteur est une tension alternative sinusoïdale. L’oscilloscope montre une courbe sinusoïdale de 230 V / 50 Hz.\n\n# 2. Bornes d’une prise\n- Deux bornes femelles : **phase** (rouge ou marron) et **neutre** (bleu).\n- Broche mâle : **prise de terre** (vert/jaune).\n\n# 3. Identification pratique\nUtiliser un tournevis testeur : lampe allumée → phase, lampe éteinte → neutre.\n\n# 4. Dangers du courant\n- **Électrocution** : contact simultané phase + neutre ou phase + terre.\n- **Court‑circuit** : contact direct phase‑neutre ou phase‑terre → surintensité, incendie.\n\n# 5. Protection des installations\n- **Disjoncteur** : coupe le courant principal en cas de surintensité.\n- **Coupe‑circuit à fusible** : protège chaque appareil.\n- **Onduleur** : garde l’alimentation en cas de coupure.\n- **Stabilisateur** : évite les variations de tension.\n- **Prise de terre** : dévie le courant vers la terre.\n\n# 6. Règles de sécurité\n1. Ne pas introduire d’objet dans la prise.\n2. Ne jamais toucher un fil dénudé.\n3. Toujours couper le courant avant intervention.\n4. Débrancher les appareils avant réparation.\n5. Éviter les installations anarchiques.\n6. Ne pas toucher un appareil défectueux branché.\n\n# 7. Résolution de la situation problème\nLe réfrigérateur est défectueux : la carcasse métallique touche la phase. Solution : débrancher, réparer l’isolation, puis tester.\n\n# 8. Activités\n- **Activité 1** : annoter schémas, décrire le test.\n- **Activité 2** : analyser les chemins de courant avec/without piquet de terre.\n- **Activité 3** : analyser schéma domestique, repérer risques, proposer modifications.\n\n# 9. Conclusion\nRespecter les règles de sécurité prévient les accidents et protège les personnes et les appareils.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle couleur est généralement associée à la phase dans une prise domestique française?",
+      "options": [
+        "Rouge",
+        "Bleu",
+        "Vert/jaune",
+        "Marron"
+      ],
+      "answer": 3,
+      "explanation": "En France, la phase est souvent marquée par une couleur marron ou rouge."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Le symbole du fusible est :",
+      "options": [
+        "⚡",
+        "🔌",
+        "⛔",
+        "🛑"
+      ],
+      "answer": 0,
+      "explanation": "Le fusible est représenté par un symbole ⚡."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Le fil qui relie la prise de terre à la terre est appelé le fil _______.",
+      "answer": "terre",
+      "explanation": "Il s'agit du fil de terre."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel appareil protège chaque appareil individuel contre la surintensité?",
+      "options": [
+        "Disjoncteur principal",
+        "Coupe‑circuit à fusible",
+        "Onduleur",
+        "Stabilisateur"
+      ],
+      "answer": 1,
+      "explanation": "Le coupe‑circuit à fusible protège chaque appareil."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel est le risque principal d’une prise sans prise de terre?",
+      "options": [
+        "Surcharge de phase",
+        "Court‑circuit entre phase et neutre",
+        "Incendie domestique",
+        "Brûlures de tétanisation"
+      ],
+      "answer": 3,
+      "explanation": "Sans terre, le courant de fuite peut provoquer des brûlures."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel dispositif doit être coupé avant toute intervention sur une installation domestique?",
+      "options": [
+        "Le disjoncteur principal",
+        "Le coupe‑circuit à fusible",
+        "L’onduleur",
+        "Le stabilisateur"
+      ],
+      "answer": 0,
+      "explanation": "Il faut couper le disjoncteur principal."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "La couleur vert/jaune est associée à :",
+      "options": [
+        "Phase",
+        "Neutre",
+        "Prise de terre",
+        "Fil de protection"
+      ],
+      "answer": 2,
+      "explanation": "Vert/jaune indique la prise de terre."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Le disjoncteur a pour rôle d’interrompre le courant en cas de _______.",
+      "answer": "surintensité",
+      "explanation": "Il coupe le courant en cas de surintensité ou court‑circuit."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel est le danger principal d’une décharge électrique sur la porte d’un réfrigérateur?",
+      "options": [
+        "Brûlures de tétanisation",
+        "Surcharge de phase",
+        "Court‑circuit interne",
+        "Incendie"
+      ],
+      "answer": 0,
+      "explanation": "La décharge provoque des brûlures de tétanisation."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Le fil de _______ est relié à la carcasse métallique d’un appareil pour éviter les décharges.",
+      "answer": "terre",
+      "explanation": "Le fil de terre relie la carcasse à la terre."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel est le premier pas pour réparer un appareil défectueux?",
+      "options": [
+        "Débrancher l’appareil",
+        "Remplacer le fusible",
+        "Changer la prise de terre",
+        "Allumer l’appareil"
+      ],
+      "answer": 0,
+      "explanation": "Il faut d’abord débrancher l’appareil."
+    }
+  ]
+}

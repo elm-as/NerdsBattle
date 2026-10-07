@@ -1,0 +1,144 @@
+{
+  "id": "physique-seconde-liaisons-ioniques-dans-un-cristal-de-sel",
+  "subjectId": "physique",
+  "levelId": "seconde",
+  "slug": "liaisons-ioniques-dans-un-cristal-de-sel",
+  "title": "Liaisons ioniques dans le cristal de NaCl",
+  "summary": "Le NaCl est un cristal ionique cubique où les ions Na+ et Cl- occupent alternativement les sommets des cubes. La cohésion provient des forces d’attraction électrostatique entre les ions de charges opposées. Le rayon inter‑ionique est la somme des rayons des deux ions. Cette structure explique les propriétés physiques du sel de cuisine.",
+  "lesson": "# Introduction\nLe chlorure de sodium (NaCl) est un exemple classique de cristal ionique. Il se forme lorsque les ions Na+ et Cl- se combinent pour former un réseau cubique.\n\n# Structure cristalline\n- **Réseau cubique** : chaque ion est entouré de six ions de charge opposée.\n- **Coordination** : 6 (octaédrique) pour chaque ion.\n- **Rayon inter‑ionique** : R = r(Cl⁻) + r(Na⁺).\n\n# Ions et rayons\n- **Cl⁻** : plus grand (≈1,81 Å) car a gagné un électron.\n- **Na⁺** : plus petit (≈1,02 Å) car a perdu un électron.\n\n# Liaisons ioniques\n- **Attraction électrostatique** : force Coulomb entre charges opposées.\n- **Énergie de liaison** : dépend de la distance R et des charges.\n\n# Cohésion du cristal\n- La structure cubique minimise l’énergie totale.\n- Les forces d’attraction lient les ions en un réseau solide.\n\n# Propriétés physiques\n- **Point de fusion élevé** (801 °C) : forte attraction.\n- **Solubilité dans l’eau** : dissociation en ions.\n- **Conductivité** : conductrice dans l’état fondu ou en solution.\n\n# Calculs rapides\n1. **Rayon inter‑ionique** : R = 1,81 Å + 1,02 Å = 2,83 Å.\n2. **Force Coulomb** : F = k·|q₁q₂|/R².\n\n# Résumé\nLe NaCl illustre comment les différences de taille et de charge des ions déterminent la structure et les propriétés d’un cristal ionique.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le rayon inter‑ionique de NaCl?",
+      "options": [
+        "2,83 Å",
+        "1,81 Å",
+        "1,02 Å",
+        "3,83 Å"
+      ],
+      "answer": 0,
+      "explanation": "R = r(Cl⁻) + r(Na⁺) = 1,81 Å + 1,02 Å = 2,83 Å."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le point de fusion du NaCl est __ °C.",
+      "answer": "801",
+      "explanation": "Le NaCl fond à 801 °C."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la coordination des ions dans NaCl?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "answer": 1,
+      "explanation": "Chaque ion est entouré de 6 ions opposés (octaédrique)."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle force maintient le cristal de NaCl ensemble?",
+      "options": [
+        "Cohésion covalente",
+        "Cohésion ionique",
+        "Cohésion métallique",
+        "Cohésion van der Waals"
+      ],
+      "answer": 1,
+      "explanation": "Les forces d’attraction électrostatique entre ions maintiennent le cristal."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Dans NaCl, quel type de liaison est présent?",
+      "options": [
+        "Covalente",
+        "Ioniques",
+        "Métallique",
+        "Van der Waals"
+      ],
+      "answer": 1,
+      "explanation": "Les liaisons sont ioniques."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "La charge de l’ion Na+ est __.",
+      "answer": "+1",
+      "explanation": "Na+ a une charge positive de +1."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel est le rayon de l’ion Cl-?",
+      "options": [
+        "1,02 Å",
+        "1,81 Å",
+        "2,83 Å",
+        "0,81 Å"
+      ],
+      "answer": 1,
+      "explanation": "Le rayon de Cl- est 1,81 Å."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel est le type de réseau cristallin de NaCl?",
+      "options": [
+        "Réseau cubique simple",
+        "Réseau cubique centré",
+        "Réseau cubique face centrée",
+        "Réseau cubique à faces centrées"
+      ],
+      "answer": 0,
+      "explanation": "NaCl forme un réseau cubique simple (Na+ et Cl- alternés)."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel est le principal facteur qui détermine la stabilité du cristal de NaCl?",
+      "options": [
+        "La taille des ions",
+        "La charge des ions",
+        "La distance inter‑ionique",
+        "Toutes les réponses ci‑dessus"
+      ],
+      "answer": 3,
+      "explanation": "La stabilité dépend de la taille, de la charge et de la distance inter‑ionique."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "La formule chimique du sel de cuisine est __.",
+      "answer": "NaCl",
+      "explanation": "NaCl est la formule du chlorure de sodium."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Quel est le principal avantage de la structure cubique pour NaCl?",
+      "options": [
+        "Réduction de l’énergie de liaison",
+        "Augmentation de la densité",
+        "Facilite la conduction",
+        "Aucune de ces réponses"
+      ],
+      "answer": 0,
+      "explanation": "La structure cubique minimise l’énergie totale du cristal."
+    }
+  ]
+}

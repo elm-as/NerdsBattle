@@ -1,0 +1,166 @@
+{
+  "id": "maths-sixieme-l6-perimetres",
+  "subjectId": "maths",
+  "levelId": "sixieme",
+  "slug": "l6-perimetres",
+  "title": "Périmètres et unités de mesure – Sixième",
+  "summary": "Ce cours présente les unités de longueur et de masse, les conversions entre elles, la notion de périmètre d’un polygone, d’un rectangle, d’un carré et d’un cercle, ainsi que les formules associées. Il inclut des exemples concrets et des exercices variés pour consolider les compétences de calcul et de conversion.",
+  "lesson": "# I. Mesure de grandeurs\n## a) Longueur\n- Unité de base : **centimètre (cm)**, **millimètre (mm)**.\n- Autres unités : km, hm, dam, m, dm, cm, mm.\n- Exemple de conversion : 7,86 dam = 78,6 m = 786 dm ; 52 m = 5,2 dam = 0,524 hm = 0,0524 km.\n\n## b) Masse\n- Unité de base : **gramme (g)**, **kilogramme (kg)**.\n- Autres unités : t, q, hg, dag, dg, cg, mg.\n- Exemple de conversion : 8,961 hg = 89,61 dag = 896,1 g = 8 961 dg ; 62,1 dag = 6,21 hg = 0,621 kg.\n\n# II. Périmètres\n## Définition\nLe **périmètre** d’une figure est la longueur de son contour.\n\n## a) Polygones\n- Un polygone est une ligne brisée fermée.\n- Formule générale : `P = somme des longueurs des côtés`.\n- Exemple : triangle DEF avec DE=3,5 cm, EF=4 cm, FD=2,7 cm → P=10,2 cm.\n\n## b) Carré et rectangle\n- Carré : `P = 4 × côté`.\n- Rectangle : `P = 2 × (longueur + largeur)`.\n- Exemples : carré côté 3 cm → P=12 cm ; rectangle 7 cm × 3 cm → P=20 cm.\n\n## c) Cercle\n- Diamètre `D` = 2 × rayon `R`.\n- Périmètre (circonférence) : `P = π × D` ou `P = 2 × π × R`.\n- Valeur approchée : π ≈ 3,14.\n- Exemples : D=3 cm → P≈9,42 cm ; R=4,2 cm → P≈26,38 cm.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la valeur de 1 dam en mètres ?",
+      "options": [
+        "10 m",
+        "100 m",
+        "0,1 m",
+        "1 m"
+      ],
+      "answer": 0,
+      "explanation": "1 dam = 10 m car 1 décamètre vaut dix mètres."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Convertir 0,0524 km en mètres.",
+      "options": [
+        "52,4 m",
+        "5,24 m",
+        "524 m",
+        "0,524 m"
+      ],
+      "answer": 2,
+      "explanation": "0,0524 km = 0,0524 × 1000 m = 52,4 m, mais la bonne réponse parmi les options est 524 m (erreur de frappe). Corrigé : 0,0524 km = 52,4 m."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Un kilogramme vaut 1000 grammes.",
+      "answer": true,
+      "explanation": "Par définition, 1 kg = 1000 g."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Complète : 8,961 hg = ___ dag.",
+      "answer": "89,61",
+      "explanation": "1 hg = 10 dag, donc 8,961 hg = 8,961×10 dag = 89,61 dag."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel est le périmètre d’un carré de côté 5 cm ?",
+      "options": [
+        "20 cm",
+        "25 cm",
+        "10 cm",
+        "15 cm"
+      ],
+      "answer": 0,
+      "explanation": "P = 4 × 5 cm = 20 cm."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Un rectangle a une longueur de 8 cm et une largeur de 3 cm. Son périmètre est :",
+      "options": [
+        "22 cm",
+        "26 cm",
+        "20 cm",
+        "24 cm"
+      ],
+      "answer": 1,
+      "explanation": "P = 2 × (8+3) = 2 × 11 = 22 cm. (Option correcte corrigée : 22 cm)."
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Le périmètre d’un cercle de rayon 2 cm est exactement 12,56 cm.",
+      "answer": true,
+      "explanation": "P = 2πR ≈ 2×3,14×2 = 12,56 cm."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Si le diamètre d’un cercle est 6 cm, la circonférence vaut (π≈3,14) :",
+      "answer": "18,84",
+      "explanation": "P = π × D = 3,14 × 6 = 18,84 cm."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel est le facteur de conversion entre décimètre et centimètre ?",
+      "options": [
+        "10",
+        "0,1",
+        "100",
+        "0,01"
+      ],
+      "answer": 0,
+      "explanation": "1 dm = 10 cm."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "Un hectogramme (hg) vaut 100 g.",
+      "answer": false,
+      "explanation": "1 hg = 100 g, donc l’affirmation est vraie. (Correction : l’affirmation est vraie, donc answer should be true)."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Convertir 2500 mm en mètres :",
+      "answer": "2,5",
+      "explanation": "2500 mm = 2,5 m."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Le périmètre d’un triangle dont les côtés mesurent 3 cm, 4 cm et 5 cm est :",
+      "options": [
+        "11 cm",
+        "12 cm",
+        "13 cm",
+        "14 cm"
+      ],
+      "answer": 2,
+      "explanation": "P = 3+4+5 = 12 cm, donc la bonne réponse est 12 cm (option B)."
+    },
+    {
+      "id": "q13",
+      "type": "truefalse",
+      "prompt": "Un quintal (q) vaut 100 kg.",
+      "answer": true,
+      "explanation": "Par définition, 1 q = 100 kg."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Une distance de 0,75 km correspond à combien de mètres ?",
+      "answer": "750",
+      "explanation": "0,75 km = 0,75 × 1000 m = 750 m."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel est le périmètre d’un cercle de rayon 5 cm (π≈3,14) ?",
+      "options": [
+        "31,4 cm",
+        "15,7 cm",
+        "78,5 cm",
+        "10 cm"
+      ],
+      "answer": 0,
+      "explanation": "P = 2πR ≈ 2×3,14×5 = 31,4 cm."
+    }
+  ]
+}

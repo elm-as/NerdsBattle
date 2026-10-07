@@ -1,0 +1,154 @@
+{
+  "id": "histoire-seconde-l3-nde-g3-les-techniques-de-representat",
+  "subjectId": "histoire",
+  "levelId": "seconde",
+  "slug": "l3-nde-g3-les-techniques-de-representat",
+  "title": "Techniques de représentation de la Terre – Séance 4 h",
+  "summary": "Cette leçon de 4 heures pour les élèves de Seconde présente les différents modes de représentation de la Terre (globe, planisphère, mappemonde, cartes générales et thématiques), leurs avantages et limites, ainsi que les étapes de réalisation d’une carte et d’un profil topographique. Elle inclut activités d’application et 16 questions d’évaluation.",
+  "lesson": "# Introduction\nLa Terre est trop vaste pour être étudiée à l’échelle réelle. Les géographes la reproduisent sous forme réduite : globes, cartes planes, planisphères, mappemondes…\n\n# 1. Représentations sphériques vs planes\n## 1.1 Le globe terrestre\n- Représentation sphérique fidèle\n- Avantages : positions exactes, rotation, proportions réelles (continents 29 %, océans 71 %).\n- Inconvénients : pas de vue d’ensemble, pas d’échelle ni de légende, difficile à transporter.\n## 1.2 La carte plane\n- Représentation réduite sur une surface plane.\n- Avantages : échelle, légende, vue d’ensemble, facile à manipuler.\n- Inconvénients : déformation de la forme sphérique, distorsion des continents.\n\n# 2. Types de cartes\n- **Cartes générales** : planisphère (terre entière sur une surface), mappemonde (deux hémisphères côte à côte).\n- **Cartes thématiques** : illustrent un phénomène (climat, population, relief, etc.).\n- **Cartes topographiques** : courbes de niveau pour représenter le relief.\n\n# 3. Utilité des cartes\n- **Vie quotidienne** : localisation, orientation, connaissance du milieu.\n- **Recherche** : diffusion de phénomènes (ex. épidémies), délimitation de zones.\n- **Décision** : défense, aménagement du territoire, urbanisme.\n\n# 4. Réalisation d’un profil topographique\n1. Choisir une zone d’étude.\n2. Relever les altitudes le long d’une ligne de coupe.\n3. Tracer les points d’altitude sur un axe vertical.\n4. Relier les points pour obtenir le profil.\n5. Ajouter légende, échelle et orientation.\n\n# Conclusion\nComprendre les différentes représentations permet de choisir l’outil adapté à chaque objectif d’observation ou d’analyse géographique.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "histoire",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est l’avantage principal du globe terrestre par rapport à la carte plane?",
+      "options": [
+        "Il montre la totalité de la Terre en un coup d’œil",
+        "Il reproduit les positions exactes des continents et océans",
+        "Il est plus facile à transporter",
+        "Il indique toujours l’échelle"
+      ],
+      "answer": 1,
+      "explanation": "Le globe conserve les proportions réelles des continents et océans, ce qui en fait la représentation la plus fidèle."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Une mappemonde représente les deux hémisphères sur une même surface plane.",
+      "answer": true,
+      "explanation": "La mappemonde montre les hémisphères côte à côte sur deux surfaces circulaires adjacentes."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Complétez : La carte topographique utilise des ________ pour représenter le relief.",
+      "answer": "courbes de niveau",
+      "explanation": "Les courbes de niveau relient les points d’égale altitude."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Parmi les propositions suivantes, laquelle décrit une carte thématique?",
+      "options": [
+        "Planisphère du monde entier",
+        "Carte des températures moyennes annuelles",
+        "Mappemonde en deux hémisphères",
+        "Globe terrestre"
+      ],
+      "answer": 1,
+      "explanation": "Une carte thématique représente un thème précis, comme le climat."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Toutes les cartes indiquent une légende et une échelle.",
+      "answer": false,
+      "explanation": "Seules les cartes plane (générales ou thématiques) comportent légende et échelle ; le globe n’en possède pas."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Le processus de réduction d’une surface sphérique en surface plane s’appelle ________.",
+      "answer": "projection cartographique",
+      "explanation": "La projection cartographique transforme la sphère en plan."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel type de carte permet de visualiser l’ensemble du réseau des méridiens et parallèles?",
+      "options": [
+        "Planisphère",
+        "Globe terrestre",
+        "Carte thématique du climat",
+        "Carte topographique"
+      ],
+      "answer": 1,
+      "explanation": "Le globe montre le réseau complet des méridiens et parallèles."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Les cartes générales ne peuvent pas être pliées.",
+      "answer": false,
+      "explanation": "Les cartes papier peuvent être pliées, contrairement au globe."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Dans la réalisation d’un profil topographique, l’axe vertical représente ________.",
+      "answer": "l’altitude",
+      "explanation": "L’axe vertical indique les hauteurs mesurées le long de la coupe."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Le planisphère est une représentation plane de la Terre en un seul tenant.",
+      "answer": true,
+      "explanation": "Le planisphère montre la Terre entière sur une surface plane."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Une carte qui représente les densités de population est une carte ________.",
+      "answer": "thématique",
+      "explanation": "Les cartes thématiques illustrent des phénomènes comme la densité de population."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quelle information n’est jamais affichée sur un globe?",
+      "options": [
+        "Latitude",
+        "Longitude",
+        "Échelle",
+        "Orientation (Nord)"
+      ],
+      "answer": 2,
+      "explanation": "Les globes ne comportent généralement pas d’échelle numérique."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Les courbes de niveau rapprochées indiquent un relief escarpé.",
+      "answer": true,
+      "explanation": "Des courbes de niveau proches signifient une forte pente."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Le terme « planisphère » désigne une carte qui représente la Terre sur une surface ________.",
+      "answer": "plane",
+      "explanation": "Le mot même indique une représentation plane."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel usage des cartes est mentionné dans le texte pour la défense et la sécurité?",
+      "options": [
+        "Localiser les lieux",
+        "Prendre des décisions d’aménagement",
+        "Analyser la diffusion d’une épidémie",
+        "Planifier des opérations militaires"
+      ],
+      "answer": 3,
+      "explanation": "Les cartes aident à la planification d’opérations de défense et de sécurité."
+    }
+  ]
+}

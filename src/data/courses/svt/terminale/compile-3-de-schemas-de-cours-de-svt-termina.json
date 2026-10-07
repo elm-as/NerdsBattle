@@ -1,0 +1,151 @@
+{
+  "id": "svt-terminale-compile-3-de-schemas-de-cours-de-svt-termina",
+  "subjectId": "svt",
+  "levelId": "terminale",
+  "slug": "compile-3-de-schemas-de-cours-de-svt-termina",
+  "title": "Amélioration et protection des sols – Utilisation de la chaux vive et du carbonate de calcium",
+  "summary": "Ce cours explique les mécanismes chimiques de la chaux vive (CaO) et du carbonate de calcium (CaCO3) dans les sols acides, leurs effets sur le pH, la fixation des Ca²⁺ sur les complexes argilo‑humiques, ainsi que le calendrier de rotation des cultures recommandé en Côte d’Ivoire pour optimiser la fertilité et la santé du sol.",
+  "lesson": "# Amélioration et protection des sols\n\n## 1. Introduction\nL’amendement calcique est essentiel pour corriger l’acidité des sols, améliorer la structure et favoriser les échanges nutritifs. Deux produits sont couramment employés : la chaux vive (oxyde de calcium) et le carbonate de calcium (calcaires broyés).\n\n## 2. La chaux vive (CaO)\n- **Réaction d’hydratation** :\n  ```\n  CaO + H₂O → Ca(OH)₂\n  ```\n- **Dissociation** :\n  ```\n  Ca(OH)₂ ⇌ Ca²⁺ + 2 OH⁻\n  ```\n- Le Ca²⁺ se fixe sur le complexe argilo‑humique en échange d’ions H⁺.\n- Les OH⁻ neutralisent les H⁺ libérés, formant de l’eau. Aucun résidu acide n’apparaît, d’où une élévation rapide du pH.\n\n## 3. Le carbonate de calcium (CaCO₃)\n- **Attaque par CO₂ et acides du sol** :\n  ```\n  CaCO₃ + CO₂ + H₂O → Ca(HCO₃)₂\n  ```\n- **Dissociation du bicarbonate** :\n  ```\n  Ca(HCO₃)₂ ⇌ Ca²⁺ + 2 HCO₃⁻\n  ```\n- Le Ca²⁺ se fixe également sur le complexe argilo‑humique. Cette forme est plus lente que la chaux vive, adaptée aux sols légers et aux traitements d’entretien.\n\n## 4. Rotation des cultures (exemple sur 5 ans)\n| Année | Sol 1 | Sol 2 | Sol 3 | Sol 4 | Sol 5 |\n|-------|-------|-------|-------|-------|-------|\n| 1 | Patate | Manioc | Paille + eng. verts | Arachide | Patate |\n| 2 | Manioc | Légumineuses (couverture) | Maïs | Patate | Manioc |\n| 3 | Maïs | Arachide | Patate | Jachère | Maïs |\n| 4 | Arachide | Patate | Manioc | Paille + eng. verts | Arachide |\n| 5 | (cycle recommence) |\n\nCette alternance permet de:\n- Réduire l’épuisement des nutriments.\n- Limiter les maladies et ravageurs.\n- Favoriser la biodiversité microbienne.\n\n## 5. Relation organisme‑milieu : le tissu nerveux végétal\nLes plantes perçoivent les variations de pH et de disponibilité calcique via des récepteurs membranaires. Le calcium agit comme second messager, modulant l’ouverture des stomates, la croissance des racines et la résistance au stress abiotiques.\n\n## 6. Conclusion\nL’usage judicieux de la chaux vive pour les sols très acides et du carbonate de calcium pour les sols légers, combiné à une rotation culturale adaptée, assure une amélioration durable de la fertilité et de la résilience des sols ivoiriens.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "svt",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le produit de la réaction entre la chaux vive (CaO) et l’eau ?",
+      "options": [
+        "Ca(OH)₂",
+        "CaCO₃",
+        "CaSO₄",
+        "CaCl₂"
+      ],
+      "answer": 0,
+      "explanation": "L’hydratation de CaO donne de l’hydroxyde de calcium, Ca(OH)₂."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel ion se fixe sur le complexe argilo‑humique après l’application de la chaux vive ?",
+      "options": [
+        "Na⁺",
+        "K⁺",
+        "Ca²⁺",
+        "Mg²⁺"
+      ],
+      "answer": 2,
+      "explanation": "Le Ca²⁺ libéré par la dissociation de Ca(OH)₂ se lie aux sites échangeurs du complexe argilo‑humique."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "La réaction chimique qui transforme le CaCO₃ en bicarbonate soluble est : CaCO₃ + ___ + H₂O → Ca(HCO₃)₂",
+      "answer": "CO₂",
+      "explanation": "Le dioxyde de carbone dissous dans l’eau du sol participe à la formation du bicarbonate."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel type de sol convient le mieux à l’utilisation du carbonate de calcium ?",
+      "options": [
+        "Sols très acides avec fort pouvoir tampon",
+        "Sols légers et peu acides",
+        "Sols argileux très compactés",
+        "Sols sableux très drainants"
+      ],
+      "answer": 1,
+      "explanation": "Le carbonate de calcium est recommandé pour les sols légers où l’acidité est modérée."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dans le tableau de rotation, quelle culture est introduite en 3ᵉ année sur le sol 3 ?",
+      "options": [
+        "Patate",
+        "Arachide",
+        "Maïs",
+        "Jachère"
+      ],
+      "answer": 2,
+      "explanation": "En 3ᵉ année, le sol 3 reçoit du maïs selon le planning fourni."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Le processus par lequel les OH⁻ neutralisent les H⁺ libérés s’appelle ___ .",
+      "answer": "neutralisation",
+      "explanation": "Les ions hydroxyle (OH⁻) réagissent avec les ions hydrogène (H⁺) pour former de l’eau, neutralisant l’acidité."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel avantage apporte la culture de légumineuses dans la rotation ?",
+      "options": [
+        "Apport d’azote fixé biologiquement",
+        "Augmentation du pH du sol",
+        "Réduction de la matière organique",
+        "Augmentation de la salinité"
+      ],
+      "answer": 0,
+      "explanation": "Les légumineuses fixent l’azote atmosphérique grâce à leurs rhizobiums, enrichissant le sol."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel facteur augmente la vitesse de réaction du carbonate de calcium avec le CO₂ ?",
+      "options": [
+        "Granulométrie grossière",
+        "Granulométrie fine",
+        "Température basse",
+        "Absence d’eau"
+      ],
+      "answer": 1,
+      "explanation": "Un broyage fin augmente la surface de contact, accélérant la réaction."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Après l’application de la chaux vive, le pH du sol augmente ___.",
+      "answer": "rapidement",
+      "explanation": "La libération immédiate d’OH⁻ provoque une élévation rapide du pH."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel élément du sol agit comme récepteur pour le Ca²⁺ libéré par les amendements ?",
+      "options": [
+        "Complexe argilo‑humique",
+        "Matière organique pure",
+        "Sable quartzique",
+        "Roches silicatées"
+      ],
+      "answer": 0,
+      "explanation": "Le complexe argilo‑humique possède des sites d’échange capables de retenir le Ca²⁺."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel est le principal bénéfice de la jachère dans le cycle de rotation ?",
+      "options": [
+        "Augmentation immédiate du rendement",
+        "Réduction de l’érosion et récupération de nutriments",
+        "Introduction de nouvelles maladies",
+        "Diminution de la biodiversité"
+      ],
+      "answer": 1,
+      "explanation": "La jachère permet aux nutriments de se reconstituer et limite l’érosion."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Le processus d’échange ionique entre Ca²⁺ et H⁺ sur le complexe argilo‑humique est appelé ___ .",
+      "answer": "échange cationique",
+      "explanation": "C’est un échange d’ions positifs entre le sol et les nutriments disponibles."
+    }
+  ]
+}

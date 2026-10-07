@@ -1,0 +1,70 @@
+{
+  "id": "physique-terminale-mouvement-particules-chargees",
+  "title": "Mouvement de particules chargées dans un champ E et B",
+  "summary": "Maîtrisez le mouvement des particules chargées dans les champs électrique et magnétique, un pilier de la physique moderne. Ce chapitre vous donne les clés pour analyser des trajectoires, calculer des rayons de courbure et comprendre des applications comme le spectromètre de masse ou le cyclotron.",
+  "lesson": "## Introduction & Mise en situation\n\nImaginez un écran de télévision cathodique, un accélérateur de particules comme le LHC, ou encore un spectromètre de masse utilisé en chimie pour identifier des molécules. Tous ces dispositifs reposent sur la capacité à contrôler la trajectoire de particules chargées (électrons, protons, ions) à l'aide de champs électriques $\\vec{E}$ et magnétiques $\\vec{B}$. Comprendre comment ces champs influencent le mouvement est essentiel pour de nombreuses technologies et pour réussir votre BAC. Dans ce cours, nous allons décortiquer les principes fondamentaux, les méthodes de résolution et les pièges à éviter.\n\n## 1. Définitions et Principes Fondamentaux\n\n### Force de Lorentz\n\nUne particule de charge $q$ se déplaçant à la vitesse $\\vec{v}$ dans une région où règnent un champ électrique $\\vec{E}$ et un champ magnétique $\\vec{B}$ subit la force de Lorentz :\n\n$$\\vec{F} = q\\vec{E} + q\\vec{v} \\times \\vec{B}$$\n\n- Le terme $q\\vec{E}$ est la force électrique, parallèle à $\\vec{E}$ (indépendante de la vitesse).\n- Le terme $q\\vec{v} \\times \\vec{B}$ est la force magnétique, toujours perpendiculaire à $\\vec{v}$ et à $\\vec{B}$.\n\n### Travail d'une force\n\n- La force électrique travaille : $W_{AB}(\\vec{F}_e) = qU_{AB}$ où $U_{AB}$ est la différence de potentiel entre A et B.\n- La force magnétique ne travaille pas : $W(\\vec{F}_m) = 0$ car elle est perpendiculaire au déplacement. Elle modifie donc la direction de la vitesse mais pas sa norme.\n\n### Mouvement dans un champ électrique uniforme\n\nSi $\\vec{E}$ est uniforme, la force électrique est constante. En négligeant le poids, la particule a un mouvement uniformément accéléré. Les équations horaires s'obtiennent par intégration de la seconde loi de Newton :\n\n$$\\vec{a} = \\frac{q\\vec{E}}{m}$$\n\nEn projetant sur les axes, on obtient des trajectoires paraboliques (si la vitesse initiale n'est pas colinéaire au champ).\n\n### Mouvement dans un champ magnétique uniforme\n\nSi $\\vec{v}$ est perpendiculaire à $\\vec{B}$, la force magnétique est centripète. La trajectoire est un cercle de rayon $R$ appelé rayon de giration :\n\n$$R = \\frac{mv}{|q|B}$$\n\nLa période de révolution est indépendante de la vitesse :\n\n$$T = \\frac{2\\pi m}{|q|B}$$\n\nSi $\\vec{v}$ a une composante parallèle à $\\vec{B}$, la trajectoire est une hélice.\n\n## 2. Propriétés et Méthodes d'application\n\n### Méthode pour étudier le mouvement\n\n1. **Faire le bilan des forces** : souvent on néglige le poids devant les forces électrique et magnétique.\n2. **Appliquer la seconde loi de Newton** : $\\sum \\vec{F} = m\\vec{a}$.\n3. **Choisir un repère adapté** : souvent cartésien pour champ électrique, ou intrinsèque (base de Frenet) pour champ magnétique.\n4. **Intégrer pour obtenir les équations horaires** : $\\vec{v}(t)$ puis $\\vec{OM}(t)$.\n5. **Exploiter les conditions initiales** pour déterminer les constantes.\n\n### Exemple 1 : Déviation électrostatique\n\nUn électron (charge $-e$, masse $m_e$) pénètre avec une vitesse $\\vec{v}_0 = v_0 \\vec{i}$ dans une zone où règne un champ électrique uniforme $\\vec{E} = E \\vec{j}$ (vers le haut). La zone a une longueur $L$. On néglige le poids.\n\n- **Accélération** : $\\vec{a} = \\frac{-eE}{m_e} \\vec{j}$.\n- **Vitesse** : $v_x = v_0$, $v_y = -\\frac{eE}{m_e} t$.\n- **Position** : $x = v_0 t$, $y = -\\frac{1}{2}\\frac{eE}{m_e} t^2$.\n\nEn éliminant $t$, on obtient la trajectoire : $y = -\\frac{eE}{2m_e v_0^2} x^2$ (parabole).\n\nÀ la sortie (en $x = L$), la déviation verticale est :\n\n$$\\Delta y = -\\frac{eE L^2}{2m_e v_0^2}$$\n\n### Exemple 2 : Rayon dans un champ magnétique\n\nUn proton (charge $+e$, masse $m_p$) entre avec une vitesse $v = 2\\times 10^6 \\, \\text{m/s}$ perpendiculairement à un champ magnétique uniforme $B = 0.5 \\, \\text{T}$. Calculer le rayon de la trajectoire.\n\nOn utilise $R = \\frac{m_p v}{eB}$. Avec $m_p = 1.67\\times 10^{-27} \\, \\text{kg}$ et $e = 1.6\\times 10^{-19} \\, \\text{C}$, on obtient :\n\n$$R = \\frac{1.67\\times 10^{-27} \\times 2\\times 10^6}{1.6\\times 10^{-19} \\times 0.5} = \\frac{3.34\\times 10^{-21}}{8\\times 10^{-20}} = 0.04175 \\, \\text{m} \\approx 4.2 \\, \\text{cm}$$\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre force électrique et force magnétique** : la force magnétique ne travaille jamais, elle ne peut pas modifier la norme de la vitesse. La force électrique, elle, peut accélérer ou freiner la particule.\n- **Oublier le signe de la charge** : dans la force de Lorentz, $q$ peut être négatif (électron), ce qui inverse le sens de la force par rapport au champ électrique.\n- **Négliger le poids sans justification** : dans les exercices de BAC, on précise souvent que le poids est négligeable. Si ce n'est pas le cas, il faut le prendre en compte.\n- **Utiliser la même formule pour le rayon dans tous les cas** : la formule $R = mv/(|q|B)$ est valable uniquement si $\\vec{v}$ est perpendiculaire à $\\vec{B}$. Sinon, il faut décomposer la vitesse.\n- **Ne pas projeter correctement les vecteurs** : en champ électrique, la trajectoire est parabolique si la vitesse initiale n'est pas colinéaire au champ. En champ magnétique, le mouvement est circulaire uniforme si la vitesse est perpendiculaire au champ.\n\n## Synthèse\n\n1. **Force de Lorentz** : $\\vec{F} = q\\vec{E} + q\\vec{v} \\times \\vec{B}$ ; la force magnétique ne travaille pas.\n2. **Champ électrique uniforme** : mouvement parabolique, équations horaires obtenues par intégration.\n3. **Champ magnétique uniforme** : mouvement circulaire uniforme avec $R = \\frac{mv}{|q|B}$ et $T = \\frac{2\\pi m}{|q|B}$.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "physique",
+    "champ électrique",
+    "champ magnétique",
+    "Lorentz",
+    "BAC"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est l'expression de la force de Lorentz sur une particule de charge q se déplaçant à la vitesse v dans un champ électrique E et un champ magnétique B ?",
+      "options": [
+        "F = qE + qvB",
+        "F = qE + qv × B",
+        "F = qE - qv × B",
+        "F = q(E + vB)"
+      ],
+      "answer": 1,
+      "explanation": "La force de Lorentz est la somme de la force électrique qE et de la force magnétique qv × B (produit vectoriel)."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La force magnétique exercée sur une particule chargée en mouvement peut modifier la norme de sa vitesse.",
+      "answer": false,
+      "explanation": "La force magnétique est toujours perpendiculaire à la vitesse, donc elle ne travaille pas et ne modifie que la direction de la vitesse, pas sa norme."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Un électron (charge -e, masse m) pénètre dans un champ magnétique uniforme B avec une vitesse v perpendiculaire au champ. Le rayon de sa trajectoire est R = mv / (eB). Si on double la vitesse, le rayon devient R' = ____ R.",
+      "answer": "2",
+      "explanation": "Le rayon est proportionnel à la vitesse : R = mv/(eB). Si v double, R double."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans un champ électrique uniforme, une particule chargée initialement au repos aura un mouvement :",
+      "options": [
+        "circulaire uniforme",
+        "rectiligne uniformément accéléré",
+        "parabolique",
+        "rectiligne uniforme"
+      ],
+      "answer": 1,
+      "explanation": "Si la vitesse initiale est nulle, la force électrique constante provoque une accélération constante dans la direction du champ, donc un mouvement rectiligne uniformément accéléré."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La période de révolution d'une particule chargée dans un champ magnétique uniforme dépend de sa vitesse.",
+      "answer": false,
+      "explanation": "La période T = 2πm/(|q|B) est indépendante de la vitesse. C'est le principe du cyclotron."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Un proton (charge q = 1,6×10⁻¹⁹ C, masse m = 1,67×10⁻²⁷ kg) se déplace à v = 10⁶ m/s perpendiculairement à un champ B = 0,1 T. Le rayon de sa trajectoire est R = ____ m (arrondir à 2 décimales).",
+      "answer": "0.10",
+      "explanation": "R = mv/(qB) = (1,67×10⁻²⁷ × 10⁶) / (1,6×10⁻¹⁹ × 0,1) = 1,67×10⁻²¹ / 1,6×10⁻²⁰ = 0,104375 m ≈ 0,10 m."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "physique-cinquieme-l5-dilatation-des-gaz",
+  "subjectId": "physique",
+  "levelId": "cinquieme",
+  "slug": "l5-dilatation-des-gaz",
+  "title": "Dilatation des gaz : Propriétés et dangers en vase clos",
+  "summary": "Cette leçon de Physique-Chimie pour la 5ème aborde la dilatation des gaz. Elle explique que l'élévation de la température augmente le volume des gaz, indépendamment de leur nature. Les élèves comparent cette dilatation à celle des liquides, notant que les gaz se dilatent davantage. Le document détaille les facteurs influençant ce phénomène (volume et température initiaux) et met en garde contre les dangers des gaz en vase clos, comme les bombes aérosols, qui peuvent exploser sous l'effet de la chaleur. Des ",
+  "lesson": "# Dilatation des Gaz\n\n## 1. Introduction et Contexte\nLors d'une kermesse, des ballons de baudruche ont éclaté sous l'effet de la chaleur. Ce phénomène illustre la **dilatation des gaz**. Cette leçon vise à comprendre ce mécanisme, ses facteurs et les dangers associés.\n\n## 2. Dilatation d'un gaz : L'air\n### Expérience\nOn place un ballon de baudruche sur le goulot d'un bocal contenant de l'air froid, puis on le plonge dans de l'eau chaude.\n### Observation\nLe ballon se gonfle progressivement.\n### Conclusion\nLorsqu'on élève la température d'un gaz, son volume augmente. On dit que le gaz **se dilate**.\n\n## 3. Dilatation de différents gaz\n### Expérience\nOn compare la dilatation de l'air, du butane et du dioxyde de carbone sous les mêmes conditions (0°C à 50°C, volume initial 1000 cm³).\n### Résultat\n| Gaz | Volume initial (cm³) | T° initiale (°C) | T° finale (°C) | Volume final (cm³) | Augmentation (cm³) |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| Air | 1 000 | 0 | 50 | 1 183 | 183 |\n| Butane | 1 000 | 0 | 50 | 1 183 | 183 |\n| CO₂ | 1 000 | 0 | 50 | 1 183 | 183 |\n\n### Conclusion\nTous les gaz se dilatent de la même façon. La dilatation des gaz **ne dépend pas de la nature du gaz**.\n\n## 4. Facteurs liés à la dilatation\nLa dilatation d'un gaz est liée à deux facteurs principaux :\n1. Le **volume initial**.\n2. La **température initiale**.\n\n## 5. Comparaison avec les liquides\n### Données expérimentales\n| Corps | Volume initial (cm³) | Augmentation T° (°C) | Volume final (cm³) | Augmentation volume (cm³) |\n| :--- | :--- | :--- | :--- | :--- |\n| Alcool (Liquide) | 1 000 | 50 | 1 058 | 58 |\n| Air (Gaz) | 1 000 | 50 | 1 183 | 183 |\n\n### Conclusion\nPour une même augmentation de température, les **gaz se dilatent plus que les liquides**.\n\n## 6. Dangers liés à la dilatation en vase clos\n### Cas de la bombe aérosol\nUne bombe aérosol est un récipient solide contenant un liquide et un gaz, avec un volume constant.\n- **Principe** : En appuyant sur la tête, le liquide sort et se vaporise.\n- **Effet de la chaleur** : Si le récipient est exposé à la chaleur, la pression du gaz interne augmente considérablement.\n- **Risque** : Cette augmentation de pression peut provoquer l'**éclatement (explosion)** du récipient.\n\n### Règles de sécurité\n1. Éviter de percer une bombe aérosol près d'une source de chaleur.\n2. Éviter de pulvériser une bombe aérosol sur une source de chaleur.\n3. Ne jamais jeter une bombe aérosol (même vide) sur une source de chaleur.\n4. Respecter les **pictogrammes** de danger inscrits sur les étiquettes.\n\n### Remarque\nLes bouteilles de gaz domestique sont en acier pour résister à la pression et éviter l'explosion en cas de forte dilatation.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "cinquieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quels sont les deux facteurs liés à la dilatation d'un gaz ?",
+      "options": [
+        "La masse et la couleur",
+        "Le volume initial et la température initiale",
+        "La pression et la densité",
+        "La nature du gaz et le poids"
+      ],
+      "answer": 1,
+      "explanation": "Le document précise que la dilatation est liée au volume initial et à la température initiale."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "En comparant la dilatation de l'air et de l'alcool pour une augmentation de 50°C, que constate-t-on ?",
+      "options": [
+        "L'alcool se dilate plus que l'air",
+        "L'air et l'alcool se dilatent de la même façon",
+        "L'air se dilate plus que l'alcool",
+        "L'alcool ne se dilate pas"
+      ],
+      "answer": 2,
+      "explanation": "L'air (gaz) augmente de 183 cm³ tandis que l'alcool (liquide) n'augmente que de 58 cm³. Les gaz se dilatent plus."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "prompt": "Les gaz se dilatent __________ que les liquides.",
+      "answer": "1",
+      "explanation": "La conclusion de la comparaison est que les gaz se dilatent plus que les liquides."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Que se passe-t-il si une bombe aérosol est exposée à la chaleur ?",
+      "options": [
+        "Elle se vide toute seule",
+        "La pression interne augmente et peut provoquer une explosion",
+        "Le liquide se solidifie",
+        "Rien ne se passe"
+      ],
+      "answer": 1,
+      "explanation": "La chaleur dilate le gaz en vase clos, augmentant la pression jusqu'à l'éclatement possible du récipient."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Pourquoi les bouteilles de gaz domestique sont-elles fabriquées en acier ?",
+      "options": [
+        "Pour être plus légères",
+        "Pour éviter leur explosion en cas de dilatation importante",
+        "Pour être plus colorées",
+        "Pour faciliter le transport"
+      ],
+      "answer": 1,
+      "explanation": "L'acier est résistant et permet de contenir la forte pression générée par la dilatation du gaz."
+    }
+  ]
+}

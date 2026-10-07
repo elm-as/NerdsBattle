@@ -1,0 +1,82 @@
+{
+  "id": "anglais-quatrieme-unit-3-lesson-1-4e-anglais",
+  "subjectId": "anglais",
+  "levelId": "quatrieme",
+  "slug": "unit-3-lesson-1-4e-anglais",
+  "title": "Transport Vocabulary and Expressions for 4th Grade English",
+  "summary": "This lesson introduces students to common means of transport and how to express movement and wishes in English. Students learn to use prepositions ‘on’, ‘by’, and ‘in’, and to form sentences with ‘want to’ and ‘would like to’. Activities include word reordering, matching, and sentence completion to reinforce vocabulary and grammar.",
+  "lesson": "# Transport Vocabulary and Expressions\n\n## Objectives\n- Identify and name common means of transport (bicycle, car, plane, boat, canoe, train).\n- Use prepositions *on*, *by*, and *in* to describe movement.\n- Express wishes with *want to* and *would like to*.\n- Construct simple sentences in the present tense.\n\n## Vocabulary\n| Transport | Example Sentence |\n|-----------|------------------|\n| bicycle | *I ride my bicycle to school.* |\n| car | *She drives a car to work.* |\n| plane | *They fly a plane to Paris.* |\n| boat | *We go by boat to the island.* |\n| canoe | *He paddles a canoe across the river.* |\n| train | *We travel by train to the city.* |\n\n## Grammar\n### 1. Expressing movement\n- **On foot**: *I go to school on foot.*\n- **By** (means of transport): *I travel by plane.*\n- **In** (vehicle): *I am in a car.*\n- **On** (vehicle): *I am on a bus.*\n\n### 2. Expressing wishes\n- **Want to**: *I want to go by car.*\n- **Would like to**: *I would like to go on foot.*\n\n## Practice Activities\n1. **Word Reordering** – Unscramble letters to form transport words.\n2. **Matching** – Pair sentence clauses with appropriate endings.\n3. **Sentence Completion** – Fill blanks with words from a given box.\n4. **Wish Construction** – Create sentences using *want to* or *would like to*.\n\n## Assessment\nUse the questions below to test understanding of vocabulary, prepositions, and wish expressions.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "anglais",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "I go to school on foot.",
+      "answer": true,
+      "explanation": "The phrase *on foot* correctly describes walking."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "I want to ___ by bicycle.",
+      "answer": "ride",
+      "explanation": "The verb *ride* is used with bicycles."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "I am in a bus.",
+      "answer": false,
+      "explanation": "The correct phrase is *I am on a bus*."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "She ___ a plane to Paris.",
+      "answer": "flies",
+      "explanation": "The verb *flies* is used for planes."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "I go to school by foot.",
+      "answer": false,
+      "explanation": "The correct phrase is *on foot*."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "He ___ a canoe across the river.",
+      "answer": "paddles",
+      "explanation": "The verb *paddles* is used with canoes."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "I am on a car.",
+      "answer": false,
+      "explanation": "The correct phrase is *I am in a car*."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "They ___ a train to the city.",
+      "answer": "travel",
+      "explanation": "The verb *travel* is used with trains."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "I would like to go by plane.",
+      "answer": true,
+      "explanation": "The phrase correctly uses *would like to*."
+    }
+  ]
+}

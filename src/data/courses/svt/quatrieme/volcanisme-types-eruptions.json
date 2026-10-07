@@ -1,0 +1,70 @@
+{
+  "id": "svt-quatrieme-volcanisme-types-eruptions",
+  "title": "Le volcanisme effusif et explosif",
+  "summary": "Ce chapitre t'explique pourquoi certains volcans entrent en éruption de façon calme (effusive) et d'autres de façon violente (explosive), en fonction de la viscosité du magma. Comprendre ces phénomènes est essentiel pour anticiper les risques et protéger les populations, un enjeu majeur en Côte d'Ivoire et dans le monde.",
+  "lesson": "## Introduction & Mise en situation\n\nImagine un volcan qui crache des fontaines de lave rougeoyante : c'est un volcan effusif. Imagine un autre qui explose avec un nuage de cendres et de roches : c'est un volcan explosif. Pourquoi cette différence ? Tout dépend de la nature du magma, notamment de sa viscosité. Dans ce cours, nous allons découvrir les mécanismes qui régissent ces deux types d'éruptions, leurs manifestations, et comment les scientifiques les surveillent.\n\n## 1. Définitions et Principes Fondamentaux\n\n**Volcanisme effusif** : éruption caractérisée par une lave fluide qui s'écoule en coulées, avec des projections de fontaines de lave. Il est associé à un magma basique (pauvre en silice, ~45-52% SiO₂), chaud (1000-1200°C) et peu visqueux. Les gaz s'échappent facilement, ce qui limite les explosions.\n\n**Volcanisme explosif** : éruption violente avec nuées ardentes, panaches de cendres et projections de blocs. Il est associé à un magma acide (riche en silice, >63% SiO₂), plus froid (800-1000°C) et très visqueux. Les gaz sont piégés, la pression augmente jusqu'à l'explosion.\n\n**Viscosité** : résistance d'un fluide à l'écoulement. Elle dépend de la température, de la composition chimique (teneur en silice) et de la teneur en gaz.\n\n**Magma** : roche en fusion contenant des gaz dissous. Il devient de la lave en surface.\n\n**Chambre magmatique** : réservoir souterrain de magma.\n\n**Cheminée** : conduit par lequel le magma monte.\n\n**Cratère** : ouverture en surface.\n\n**Nuée ardente** : mélange de gaz brûlants et de cendres qui dévale les pentes à grande vitesse.\n\n**Viscosité** : $\\mu = \\frac{\\tau}{\\dot{\\gamma}}$ où $\\tau$ est la contrainte de cisaillement et $\\dot{\\gamma}$ le taux de déformation.\n\n**Teneur en silice** : $SiO_2$ %\n\n## 2. Propriétés et Méthodes d'application\n\n**Méthode pour comparer les deux types d'éruptions :**\n\n1. **Identifier le type de magma** : basique (effusif) ou acide (explosif).\n2. **Analyser la viscosité** : faible si basique, forte si acide.\n3. **Évaluer la libération des gaz** : facile si fluide, piégés si visqueux.\n4. **En déduire le type d'éruption** : effusive si fluide, explosive si visqueuse.\n\n**Exemple calculé** : Considérons un magma avec une teneur en silice de 50% et une température de 1100°C. Il est basique, donc peu visqueux : éruption effusive. Un autre magma avec 70% de silice et 900°C est acide, très visqueux : éruption explosive.\n\n**Formule de la viscosité (loi d'Arrhenius simplifiée)** : $\\mu = A \\cdot e^{\\frac{E_a}{RT}}$ où $A$ est une constante, $E_a$ l'énergie d'activation, $R$ la constante des gaz parfaits, $T$ la température en Kelvin. Plus la température est élevée, plus la viscosité diminue.\n\n**Exemple d'application** : Pour un magma à 1200°C (1473 K) et un autre à 900°C (1173 K), avec $E_a = 200\\,kJ/mol$ et $R = 8.314\\,J/(mol\\cdot K)$, le rapport des viscosités est :\n\n$$\\frac{\\mu_{1200}}{\\mu_{900}} = e^{\\frac{E_a}{R}(\\frac{1}{1473} - \\frac{1}{1173})} = e^{\\frac{200000}{8.314}(0.0006789 - 0.0008525)} = e^{24050 \\cdot (-0.0001736)} = e^{-4.18} \\approx 0.015$$\n\nAinsi, le magma à 1200°C est environ 67 fois moins visqueux que celui à 900°C.\n\n**Structures volcaniques associées** :\n\n- Effusif : volcan bouclier (pentes douces), coulées de lave, fontaines de lave.\n- Explosif : stratovolcan (pentes raides), dôme de lave, nuées ardentes, panaches.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre lave et magma** : le magma est sous terre, la lave en surface.\n- **Penser que la viscosité dépend uniquement de la température** : la teneur en silice est primordiale.\n- **Croire que les volcans effusifs ne sont pas dangereux** : ils peuvent émettre des gaz toxiques et des coulées dévastatrices.\n- **Oublier que les volcans explosifs peuvent aussi avoir des phases effusives** : un même volcan peut alterner.\n- **Ne pas calculer correctement la viscosité** : utiliser les unités SI (Pa·s) et la température en Kelvin.\n\n## Synthèse\n\n1. **Deux types d'éruptions** : effusive (lave fluide) et explosive (lave visqueuse).\n2. **Le facteur clé est la viscosité du magma**, contrôlée par la teneur en silice et la température.\n3. **La surveillance des volcans** repose sur l'étude de la sismicité, des déformations et des émissions de gaz pour prévoir les éruptions.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "volcanisme",
+    "éruption",
+    "magma",
+    "viscosité",
+    "SVT"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel type de volcanisme est associé à un magma riche en silice (>63%) ?",
+      "options": [
+        "Effusif",
+        "Explosif",
+        "Sous-marin",
+        "Aérien"
+      ],
+      "answer": 1,
+      "explanation": "Un magma riche en silice est visqueux, ce qui provoque des éruptions explosives."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La viscosité d'un magma diminue lorsque la température augmente.",
+      "answer": true,
+      "explanation": "La viscosité est inversement proportionnelle à la température : plus il fait chaud, plus le magma est fluide."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Complète : Une éruption effusive est caractérisée par des coulées de ______.",
+      "answer": "lave",
+      "explanation": "Les éruptions effusives produisent des coulées de lave fluide."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est l'ordre de grandeur de la température d'un magma basique ?",
+      "options": [
+        "800-900°C",
+        "1000-1200°C",
+        "600-700°C",
+        "1400-1500°C"
+      ],
+      "answer": 1,
+      "explanation": "Les magmas basiques sont plus chauds, entre 1000 et 1200°C."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Les nuées ardentes sont caractéristiques des éruptions effusives.",
+      "answer": false,
+      "explanation": "Les nuées ardentes sont des phénomènes explosifs, pas effusifs."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Le paramètre principal qui contrôle le caractère effusif ou explosif d'une éruption est la ______ du magma.",
+      "answer": "viscosité",
+      "explanation": "La viscosité dépend de la composition, de la température et des gaz."
+    }
+  ]
+}

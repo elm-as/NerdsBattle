@@ -1,0 +1,190 @@
+{
+  "id": "anglais-quatrieme-unit-3-lesson-2-4e-anglais",
+  "subjectId": "anglais",
+  "levelId": "quatrieme",
+  "slug": "unit-3-lesson-2-4e-anglais",
+  "title": "Traveling by Plane: Necessity and Preferences – Lesson for 4th Grade",
+  "summary": "This lesson guides 4th‑grade students through the essentials of air travel, focusing on expressing necessity and preferences in English. It covers key vocabulary, grammar structures, and practical activities, culminating in a communication task where students draft a helpful letter about traveling by plane.",
+  "lesson": "# Learning Context\nThe students of 4e1 at Collège Moderne Languibonou will write a text about traveling by plane, expressing necessity and preferences to share with friends on Facebook.\n\n# Objectives\n- Identify and use vocabulary related to air travel.\n- Express necessity using *need to* / *don’t need to*.\n- Express preferences using *I like to*, *I prefer*, *I’d rather*.\n- Apply these structures in written and spoken contexts.\n\n# Vocabulary\n| Term | Definition |\n|------|------------|\n| Airport | A place where planes take off and land |\n| Plane | An aircraft that flies in the sky |\n| Passport | Official document proving identity and nationality |\n| Boarding Pass | Ticket that allows entry onto a plane |\n| Luggage | Bags and suitcases carried by passengers |\n| Check‑in Desk | Counter where passengers present documents and receive boarding passes |\n| Pilot | Person who flies the plane |\n| Flight Attendant | Staff who assists passengers on the plane |\n| Departure Lounge | Area where passengers wait before boarding |\n| Runway | Strip of land where planes take off and land |\n\n# Grammar\n## Expressing Necessity\n- *I need to* …\n- *I don’t need to* …\n\n## Expressing Preferences\n- *I like to* …\n- *I prefer* …\n- *I’d rather* …\n\n# Activities\n1. **Fill‑in the blanks** – Complete the travel text using words from the box.\n2. **Need or Don’t Need** – Choose the correct form for each sentence.\n3. **Multiple Choice** – Select the correct answer about airport facts.\n4. **Preference Response** – Write replies using *I’d rather* or *I prefer*.\n5. **Letter Writing** – Respond to a Ghanaian friend’s letter, listing documents and steps for traveling by plane.\n\n# Assessment\nStudents will answer 15 questions covering vocabulary, grammar, and comprehension.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "anglais",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Which of the following is a document needed to board a plane?",
+      "options": [
+        "Passport",
+        "Lunch box",
+        "Umbrella",
+        "Notebook"
+      ],
+      "answer": 0,
+      "explanation": "A passport is an official travel document required for international flights."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "To board a plane, you must ___ the check‑in desk.",
+      "options": [
+        "go to",
+        "stay at",
+        "avoid",
+        "ignore"
+      ],
+      "answer": 0,
+      "explanation": "You need to go to the check‑in desk to present documents and receive a boarding pass."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Which sentence correctly uses *need to*?",
+      "options": [
+        "I need to go to the airport.",
+        "I don’t need to go to the airport.",
+        "I need to go to the airport.",
+        "I don’t need to go to the airport."
+      ],
+      "answer": 0,
+      "explanation": "The sentence expresses necessity to go to the airport."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Which sentence correctly uses *don’t need to*?",
+      "options": [
+        "I need to go to the airport.",
+        "I don’t need to go to the airport.",
+        "I need to go to the airport.",
+        "I don’t need to go to the airport."
+      ],
+      "answer": 1,
+      "explanation": "The sentence expresses that going to the airport is not necessary."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Choose the correct preference statement:",
+      "options": [
+        "I like to travel by car.",
+        "I prefer travelling by plane.",
+        "I’d rather travel by train.",
+        "I like to travel by plane."
+      ],
+      "answer": 1,
+      "explanation": "The sentence uses *prefer* to express a preference for plane travel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "What is the role of a pilot?",
+      "options": [
+        "They check luggage.",
+        "They fly the plane.",
+        "They serve passengers.",
+        "They manage the airport."
+      ],
+      "answer": 1,
+      "explanation": "A pilot is responsible for flying the aircraft."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Which area is where passengers wait before boarding?",
+      "options": [
+        "Check‑in Desk",
+        "Departure Lounge",
+        "Runway",
+        "Airport Terminal"
+      ],
+      "answer": 1,
+      "explanation": "The departure lounge is where passengers wait before boarding."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "A boarding pass is required for domestic flights only.",
+      "answer": false,
+      "explanation": "A boarding pass is required for all flights, domestic and international."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "You can board a plane without a passport if you are traveling within the same country.",
+      "answer": true,
+      "explanation": "For domestic flights, a passport is not required, but a valid ID may be needed."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Fill in the blank: I ___ travel by plane to France.",
+      "answer": "like to",
+      "explanation": ""
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Fill in the blank: I ___ travel by plane to France.",
+      "answer": "prefer",
+      "explanation": ""
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Which word is NOT related to airport activities?",
+      "options": [
+        "Coach",
+        "Plane",
+        "Passport",
+        "Flight Attendant"
+      ],
+      "answer": 0,
+      "explanation": "Coach is not an airport activity; the others are."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Which sentence uses *I’d rather* correctly?",
+      "options": [
+        "I’d rather travel by waterway.",
+        "I’d rather travel by plane.",
+        "I’d rather travel by train.",
+        "I’d rather travel by car."
+      ],
+      "answer": 0,
+      "explanation": "The sentence expresses a preference for waterway travel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "What do you need to do before getting on the plane?",
+      "options": [
+        "Check the weather",
+        "Go to the check‑in desk",
+        "Buy a snack",
+        "Call a friend"
+      ],
+      "answer": 1,
+      "explanation": "You must go to the check‑in desk to receive a boarding pass."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Which of the following is a step in traveling by plane?",
+      "options": [
+        "Take a taxi to the bus station",
+        "Check in at the airport",
+        "Drive to the train station",
+        "Walk to the school"
+      ],
+      "answer": 1,
+      "explanation": "Checking in at the airport is a necessary step before boarding a plane."
+    }
+  ]
+}

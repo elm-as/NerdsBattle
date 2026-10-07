@@ -1,0 +1,70 @@
+{
+  "id": "svt-terminale-genetique-dihybridisme-linkage",
+  "title": "Dihybridisme, gènes liés et brassages génétiques",
+  "summary": "Ce chapitre vous permettra de comprendre comment les gènes se transmettent et se recombinaison au fil des générations, expliquant la diversité génétique des individus. Maîtriser le dihybridisme et les gènes liés est essentiel pour résoudre les exercices de génétique au BAC et pour appréhender les mécanismes de l'évolution.",
+  "lesson": "## Introduction & Mise en situation\n\nAvez-vous déjà remarqué que des frères et sœurs, bien que partageant les mêmes parents, peuvent être très différents ? Cette diversité provient en grande partie des **brassages génétiques** qui se produisent lors de la formation des cellules reproductrices. Dans ce chapitre, nous allons explorer comment les gènes se transmettent, qu'ils soient portés par des chromosomes différents (dihybridisme indépendant) ou par le même chromosome (gènes liés). Comprendre ces mécanismes est fondamental pour expliquer la variabilité génétique et l'évolution des espèces.\n\n## 1. Définitions et Principes Fondamentaux\n\n### Dihybridisme\nLe **dihybridisme** est l'étude de la transmission simultanée de deux couples de caractères (ou gènes). Chaque caractère est contrôlé par un gène, et chaque gène existe sous différentes versions appelées **allèles**. Par exemple, chez une plante, on peut étudier la couleur des graines (jaune ou verte) et la forme des graines (lisse ou ridée).\n\n### Gènes liés\nDeux gènes sont dits **liés** s'ils sont situés sur le même chromosome. Ils ont tendance à être transmis ensemble, sauf s'il y a un phénomène de **crossing-over** (échange de fragments entre chromosomes homologues) pendant la méiose, ce qui crée de nouvelles combinaisons d'allèles.\n\n### Brassages génétiques\nIl existe deux types de brassages :\n- **Brassage interchromosomique** : dû à la migration aléatoire des chromosomes homologues lors de la méiose (pour des gènes indépendants).\n- **Brassage intrachromosomique** : dû au crossing-over (pour des gènes liés).\n\n### Notations et formules\n- On note $A$ et $a$ les allèles d'un gène, $B$ et $b$ ceux d'un autre gène.\n- Un individu de génotype $AABB$ produit des gamètes $AB$.\n- Un individu hétérozygote pour les deux gènes $AaBb$ peut produire différents gamètes selon que les gènes sont indépendants ou liés.\n\n**Loi de Mendel (dihybridisme indépendant)** : lors d'un croisement entre deux individus hétérozygotes pour deux gènes indépendants, la descendance présente des proportions phénotypiques de 9:3:3:1.\n\n**Formule de probabilité** : pour des gènes indépendants, la probabilité d'un gamète particulier est le produit des probabilités individuelles. Par exemple, pour $AaBb$, la probabilité de produire $AB$ est $\\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$.\n\n## 2. Propriétés et Méthodes d'application\n\n### Méthode pour résoudre un exercice de dihybridisme\n1. **Identifier les caractères et les allèles** : déterminez les allèles dominants et récessifs.\n2. **Déterminer les génotypes des parents** : à partir des phénotypes et des informations données.\n3. **Déterminer les gamètes possibles** : pour chaque parent, listez toutes les combinaisons d'allèles.\n   - Si les gènes sont indépendants, utilisez la méthode de l'échiquier de Punnett.\n   - Si les gènes sont liés, tenez compte des crossing-over éventuels.\n4. **Croiser les gamètes** : remplissez l'échiquier ou utilisez les probabilités.\n5. **Analyser les résultats** : calculez les proportions phénotypiques et génotypiques.\n\n### Exemple concret : Dihybridisme indépendant\nChez une plante, le caractère \"couleur de la fleur\" est contrôlé par un gène avec allèles $R$ (rouge) dominant et $r$ (blanc) récessif. Le caractère \"forme de la feuille\" est contrôlé par un autre gène avec allèles $L$ (lisse) dominant et $l$ (dentelée) récessif. On croise deux plantes hétérozygotes pour les deux caractères ($RrLl \\times RrLl$).\n\n**Gamètes produits** : $RL$, $Rl$, $rL$, $rl$ chacun avec probabilité $\\frac{1}{4}$.\n\n**Échiquier de Punnett** : on obtient 16 combinaisons. Les proportions phénotypiques sont :\n- 9/16 : fleurs rouges et feuilles lisses ($R\\_L\\_$)\n- 3/16 : fleurs rouges et feuilles dentelées ($R\\_ll$)\n- 3/16 : fleurs blanches et feuilles lisses ($rrL\\_$)\n- 1/16 : fleurs blanches et feuilles dentelées ($rrll$)\n\n### Exemple avec gènes liés\nReprenons les mêmes gènes, mais supposons qu'ils sont liés sur le même chromosome. Un individu hétérozygote de génotype $\\frac{RL}{rl}$ (les allèles $R$ et $L$ sur un chromosome, $r$ et $l$ sur l'autre) produira principalement des gamètes parentaux $RL$ et $rl$. Cependant, à cause du crossing-over, il peut produire des gamètes recombinés $Rl$ et $rL$ en plus faible proportion.\n\nSi le taux de recombinaison est de 20 %, les proportions gamétiques seront :\n- $RL$ : 40 %\n- $rl$ : 40 %\n- $Rl$ : 10 %\n- $rL$ : 10 %\n\nCes proportions modifient les résultats des croisements par rapport au cas indépendant.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre gènes indépendants et gènes liés** : toujours vérifier si l'énoncé précise la localisation des gènes.\n- **Oublier le crossing-over** : pour les gènes liés, ne pas négliger les gamètes recombinés.\n- **Erreur de calcul des proportions** : bien utiliser les probabilités et non simplement compter les cases.\n- **Ne pas identifier correctement les allèles dominants et récessifs** : relire attentivement l'énoncé.\n- **Pour les croisements avec gènes liés, ne pas utiliser la loi de Mendel 9:3:3:1** : elle ne s'applique qu'aux gènes indépendants.\n\n## Synthèse\n\n1. **Dihybridisme indépendant** : deux gènes sur des chromosomes différents → ségrégation indépendante, proportions 9:3:3:1 au F2.\n2. **Gènes liés** : deux gènes sur le même chromosome → transmission liée, mais crossing-over possible → apparition de phénotypes recombinés.\n3. **Méthode** : toujours identifier les génotypes, déterminer les gamètes (avec ou sans crossing-over), puis calculer les proportions à l'aide d'un échiquier ou de probabilités.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "génétique",
+    "dihybridisme",
+    "gènes liés",
+    "brassage génétique",
+    "méiose"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans un croisement dihybride entre deux individus hétérozygotes pour deux gènes indépendants, quelle est la proportion de phénotypes recombinés (différents des parents) ?",
+      "options": [
+        "1/16",
+        "6/16",
+        "9/16",
+        "10/16"
+      ],
+      "answer": 1,
+      "explanation": "Les phénotypes recombinés sont ceux qui ne ressemblent à aucun des parents. Dans un croisement AaBb x AaBb, les phénotypes recombinés sont A_bb et aaB_, chacun 3/16, donc total 6/16."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Pour des gènes liés, la proportion de gamètes recombinés est toujours égale à 50 %.",
+      "answer": false,
+      "explanation": "La proportion de gamètes recombinés dépend du taux de crossing-over, qui peut varier de 0 à 50 %. Elle n'est pas fixe."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Chez une espèce, deux gènes A et B sont liés et le taux de recombinaison est de 20 %. Un individu de génotype AB/ab produit des gamètes. Quelle est la fréquence (en %) du gamète Ab ?",
+      "answer": "10",
+      "explanation": "Les gamètes recombinés sont Ab et aB, chacun à 10 % (car la moitié du taux de recombinaison)."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel phénomène est à l'origine du brassage intrachromosomique ?",
+      "options": [
+        "La migration aléatoire des chromosomes",
+        "Le crossing-over",
+        "La fécondation",
+        "La mutation"
+      ],
+      "answer": 1,
+      "explanation": "Le brassage intrachromosomique est dû aux échanges de fragments entre chromosomes homologues lors de la méiose, c'est-à-dire le crossing-over."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La loi de ségrégation indépendante de Mendel s'applique aux gènes situés sur le même chromosome.",
+      "answer": false,
+      "explanation": "La loi de ségrégation indépendante ne s'applique qu'aux gènes situés sur des chromosomes différents (gènes indépendants)."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Dans un croisement entre deux individus hétérozygotes pour deux gènes indépendants, quelle est la fraction de la descendance qui présente les deux caractères récessifs ? (réponse sous forme de fraction irréductible, par exemple 1/16)",
+      "answer": "1/16",
+      "explanation": "Chaque caractère récessif apparaît avec une probabilité de 1/4, donc la probabilité d'avoir les deux récessifs est (1/4)*(1/4)=1/16."
+    }
+  ]
+}

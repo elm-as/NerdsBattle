@@ -1,0 +1,167 @@
+{
+  "id": "philosophie-terminale-la-constitution",
+  "subjectId": "philosophie",
+  "levelId": "terminale",
+  "slug": "la-constitution",
+  "title": "Les limites de la loi : Constitution, démocratie et séparation des pouvoirs",
+  "summary": "Ce cours analyse comment la Constitution, la démocratie et la séparation des pouvoirs limitent les excès de la loi. Il expose le rôle du droit comme garantie, la notion de volonté générale chez Rousseau et l’importance de la répartition des pouvoirs selon Montesquieu, tout en illustrant les dérives possibles lorsqu’ils ne sont pas respectés.",
+  "lesson": "## I. La Constitution\n### 1. Le droit\nLe droit peut offrir des garanties contre les excès de la loi : c’est le principe d’État de droit, où la loi est encadrée par une Constitution et où la hiérarchie des normes est respectée (ex. article 34 de la Constitution française de 1958). La sûreté (protection des citoyens envers l’État) se distingue de la sécurité (protection des citoyens entre eux).\n\n### 2. La démocratie\nRousseau affirme que la loi doit être faite *par le peuple* pour le peuple. La volonté générale n’est pas la somme des intérêts particuliers mais la partie commune à tous les sujets. Si le peuple se trompe, il peut nuire, mais la souveraineté exercée par la volonté générale ne peut être aliénée.\n> « La souveraineté n’étant que l’exercice de la volonté générale ne peut jamais s’aliéner… » – Rousseau, *Du contrat social*.\n\n### 3. La séparation des pouvoirs\nMontesquieu insiste sur la nécessité d’une séparation entre législatif, exécutif et judiciaire pour éviter la tyrannie. Il souligne que la concentration de plusieurs pouvoirs dans une même personne ou même corps supprime la liberté.\n> « Lorsque la puissance législative est réunie à la puissance exécutrice, il n’y a point de liberté… » – Montesquieu, *De l’esprit des lois*.\n\n## II. Applications contemporaines\n- En France, le législatif (Parlement) est souvent perçu comme dépendant du gouvernement (exécutif).\n- Les médias sont parfois appelés le « quatrième pouvoir » car ils influencent l’opinion publique et les décisions politiques.\n\n## III. Synthèse\nLes limites de la loi reposent sur trois piliers : une Constitution qui encadre, une démocratie qui place le peuple au centre, et une séparation des pouvoirs qui empêche la concentration du pouvoir. Leur respect garantit la protection des libertés individuelles et le bien commun.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "philosophie",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel article de la Constitution française de 1958 fixe le domaine de la loi?",
+      "options": [
+        "Article 1",
+        "Article 34",
+        "Article 49",
+        "Article 88"
+      ],
+      "answer": 1,
+      "explanation": "L'article 34 détermine le domaine de la loi."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La sûreté désigne la protection des citoyens envers l'État, tandis que la sécurité désigne la protection des citoyens entre eux.",
+      "answer": true,
+      "explanation": "Définition correcte des deux notions."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Selon Rousseau, la volonté générale n'est pas la somme des intérêts ______ mais la partie commune à tous les sujets.",
+      "answer": "particuliers",
+      "explanation": "La volonté générale dépasse les intérêts particuliers."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel philosophe a introduit le concept de séparation des pouvoirs?",
+      "options": [
+        "Rousseau",
+        "Montesquieu",
+        "Locke",
+        "Hobbes"
+      ],
+      "answer": 1,
+      "explanation": "C'est Montesquieu qui a développé ce principe."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Dans une démocratie directe, les citoyens votent directement les lois sans intermédiaires.",
+      "answer": true,
+      "explanation": "C’est la définition de la démocratie directe."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel problème survient si le pouvoir législatif et exécutif sont réunis dans la même personne?",
+      "options": [
+        "Renforcement de la liberté",
+        "Risque de tyrannie",
+        "Meilleure efficacité",
+        "Aucun problème"
+      ],
+      "answer": 1,
+      "explanation": "La concentration des deux pouvoirs supprime la liberté et crée un risque tyrannique."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Le « quatrième pouvoir » désigne généralement les ______.",
+      "answer": "médias",
+      "explanation": "Les médias sont souvent appelés le quatrième pouvoir."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Rousseau accepte la démocratie représentative comme forme légitime de gouvernement.",
+      "answer": false,
+      "explanation": "Rousseau privilégie la démocratie directe et rejette la représentation."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel est le rôle principal de la Constitution dans un État de droit?",
+      "options": [
+        "Garantir la suprématie du parlement",
+        "Encadrer la loi et établir la hiérarchie des normes",
+        "Permettre au chef d'État de légiférer à volonté",
+        "Supprimer les droits individuels"
+      ],
+      "answer": 1,
+      "explanation": "La Constitution encadre la loi et fixe la hiérarchie des normes."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Selon Montesquieu, l'absence de séparation entre le pouvoir législatif et le pouvoir judiciaire conduit à une justice ______.",
+      "answer": "arbitraire",
+      "explanation": "Sans séparation, le juge devient législateur, rendant la justice arbitraire."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "La souveraineté, selon Rousseau, peut être déléguée à un représentant unique sans perdre son essence.",
+      "answer": false,
+      "explanation": "Rousseau affirme que la souveraineté ne peut être déléguée ; elle reste collective."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel texte de Rousseau expose la notion de volonté générale?",
+      "options": [
+        "Discours sur l'origine et les fondements de l'inégalité",
+        "Du contrat social",
+        "Émile, ou De l'éducation",
+        "Les Confessions"
+      ],
+      "answer": 1,
+      "explanation": "La notion de volonté générale apparaît dans *Du contrat social*."
+    },
+    {
+      "id": "q13",
+      "type": "truefalse",
+      "prompt": "La séparation des pouvoirs vise uniquement à équilibrer les institutions politiques, sans tenir compte des groupes sociaux.",
+      "answer": false,
+      "explanation": "Montesquieu insiste aussi sur l’équilibre entre les différentes puissances sociales."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Dans le texte, la « volonté générale » est décrite comme la partie des intérêts qui est ______ à tous les sujets.",
+      "answer": "commune",
+      "explanation": "La volonté générale représente l'intérêt commun."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel problème identifie le texte lorsqu'un même corps de magistrature détient les trois pouvoirs?",
+      "options": [
+        "Liberté accrue",
+        "Arbitraire et oppression",
+        "Stabilité politique",
+        "Décentralisation"
+      ],
+      "answer": 1,
+      "explanation": "La concentration des trois pouvoirs conduit à l'arbitraire et à l'oppression."
+    },
+    {
+      "id": "q16",
+      "type": "truefalse",
+      "prompt": "Le texte affirme que la démocratie, même bien appliquée, suffit toujours à garantir la limitation de la loi.",
+      "answer": false,
+      "explanation": "Le texte indique que la démocratie doit être complétée par la Constitution et la séparation des pouvoirs."
+    }
+  ]
+}

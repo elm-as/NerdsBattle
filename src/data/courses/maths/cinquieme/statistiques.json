@@ -1,0 +1,98 @@
+{
+  "id": "maths-cinquieme-statistiques",
+  "subjectId": "maths",
+  "levelId": "cinquieme",
+  "slug": "statistiques",
+  "title": "Statistiques : Effectifs, Fréquences et Diagrammes (5ème)",
+  "summary": "Cette leçon couvre les bases de la statistique descriptive pour la classe de 5ème. Elle détaille le calcul des effectifs et des fréquences (décimales et pourcentages), le regroupement de données en classes d'amplitude constante, et la construction d'histogrammes, de diagrammes en bâtons et de diagrammes circulaires.",
+  "lesson": "# Statistiques : Effectifs, Fréquences et Diagrammes\n\n## I. Effectifs et Fréquences\n\n### 1. Définitions fondamentales\n- **Effectif d'une valeur** : Nombre de fois où cette valeur apparaît dans la série statistique.\n- **Effectif total** : Nombre total de données de la série.\n- **Fréquence d'une valeur** : Quotient de l'effectif de cette valeur par l'effectif total.\n\n### 2. Propriétés clés\n- La somme des effectifs de chaque valeur est égale à l'effectif total.\n- La somme des fréquences est égale à 1 (ou 100%).\n\n### 3. Exemple d'application\nSérie des couleurs préférées de 25 élèves :\n| Couleur | Bleu | Rouge | Orange | Violet | Noir | Vert |\n| :--- | :---: | :---: | :---: | :---: | :---: | :---: |\n| **Effectif** | 10 | 2 | 5 | 3 | 1 | 4 |\n| **Fréquence** | 0,40 | 0,08 | 0,20 | 0,12 | 0,04 | 0,16 |\n| **Pourcentage** | 40% | 8% | 20% | 12% | 4% | 16% |\n\n*Calcul de la fréquence du violet* : $\\frac{3}{25} = 0,12 = 12\\%$.\n\n## II. Regroupement en classes\n\nLorsque les données sont nombreuses ou continues (comme les tailles), on les regroupe en **classes**.\n\n### 1. Caractéristiques des classes\n- **Amplitude** : Différence entre la borne supérieure et la borne inférieure d'une classe.\n- Dans l'exemple des tailles, l'amplitude est de 10 cm (0,10 m).\n- Les classes sont de la forme $[a, b[$ (la borne supérieure est exclue).\n\n### 2. Tableau des classes (Exemple des tailles)\n| Classe de taille (m) | Effectif | Fréquence |\n| :--- | :---: | :---: |\n| $[1,40 ; 1,50[$ | 3 | 12% |\n| $[1,50 ; 1,60[$ | 5 | 20% |\n| $[1,60 ; 1,70[$ | 13 | 52% |\n| $[1,70 ; 1,80[$ | 4 | 16% |\n| **Total** | **25** | **100%** |\n\n## III. Représentation graphique (Diagrammes)\n\n### 1. Histogramme\n- Utilisé pour les séries **regroupées en classes**.\n- Composé de rectangles contigus.\n- La hauteur de chaque rectangle est proportionnelle à l'effectif (si les amplitudes sont égales).\n\n### 2. Diagramme en bâtons (ou barres)\n- Utilisé pour les séries **discrètes** (valeurs distinctes).\n- Composé de rectangles de même largeur, séparés par des espaces.\n- La hauteur est proportionnelle à l'effectif.\n\n### 3. Diagramme circulaire (Camembert)\n- Utilisé pour visualiser les proportions.\n- Le disque est partagé en secteurs.\n- L'angle de chaque secteur est proportionnel à l'effectif (ou à la fréquence).\n- **Formule de l'angle** : $\\text{Angle} = \\text{Effectif} \\times \\frac{360^\\circ}{\\text{Effectif total}}$.\n\n*Exemple pour le bleu* : $10 \\times \\frac{360}{25} = 144^\\circ$.\n*Exemple pour le rouge* : $2 \\times \\frac{360}{25} = 28,8^\\circ$.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "cinquieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est l'effectif total de la série des couleurs préférées ?",
+      "options": [
+        "20",
+        "25",
+        "30",
+        "10"
+      ],
+      "answer": 1,
+      "explanation": "L'effectif total est le nombre de données, ici 25 élèves."
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "prompt": "L'effectif de la valeur « bleu » est ___.",
+      "answer": "10",
+      "explanation": "Le mot 'bleu' apparaît 10 fois dans la série."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle est la fréquence de la valeur « violet » sous forme décimale ?",
+      "options": [
+        "0,12",
+        "0,20",
+        "0,04",
+        "0,40"
+      ],
+      "answer": 0,
+      "explanation": "Fréquence = Effectif / Total = 3 / 25 = 0,12."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle est l'amplitude de la classe [1,40 ; 1,50[ ?",
+      "options": [
+        "10 cm",
+        "1 m",
+        "0,1 cm",
+        "100 cm"
+      ],
+      "answer": 0,
+      "explanation": "1,50 - 1,40 = 0,10 m, ce qui correspond à 10 cm."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Dans un diagramme circulaire, la somme des angles des secteurs est égale à ___ degrés.",
+      "answer": "360",
+      "explanation": "Un tour complet représente 360 degrés."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel diagramme est adapté pour représenter une série de données regroupées en classes ?",
+      "options": [
+        "Diagramme en bâtons",
+        "Histogramme",
+        "Diagramme circulaire",
+        "Nuage de points"
+      ],
+      "answer": 1,
+      "explanation": "L'histogramme est spécifiquement conçu pour les séries groupées en classes."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quelle est la fréquence de la couleur « orange » en pourcentage ?",
+      "options": [
+        "20%",
+        "12%",
+        "8%",
+        "40%"
+      ],
+      "answer": 0,
+      "explanation": "Effectif orange = 5. 5/25 = 0,20 = 20%."
+    }
+  ]
+}

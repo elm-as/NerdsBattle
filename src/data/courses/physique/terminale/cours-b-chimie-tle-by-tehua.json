@@ -1,0 +1,179 @@
+{
+  "id": "physique-terminale-cours-b-chimie-tle-by-tehua",
+  "subjectId": "physique",
+  "levelId": "terminale",
+  "slug": "cours-b-chimie-tle-by-tehua",
+  "title": "Les alcools, amines et acides carboxyliques – Terminale (Physique‑Chimie)",
+  "summary": "Ce cours présente les alcools (définition, classification, préparation, réactions chimiques), les polyalcools, les amines (définition, nomenclature, propriétés basiques et nucléophiles) et les acides carboxyliques (définition, nomenclature, réactions). Il inclut exemples, mécanismes et exercices d’application pour consolider les connaissances essentielles au programme de terminale.",
+  "lesson": "# Chapitre I – Alcools et polyalcools\n## I. Généralités\n- **Définition** : composés organiques contenant un groupe –OH lié à un carbone saturé.\n- **Formule générale** : CₙH₂ₙ₊₂O (alcools simples).\n- **Classification** : primaires, secondaires, tertiaires selon le nombre de carbones voisins.\n## II. Préparation\n- Hydratation d’alcènes (H₂O, H₂SO₄).\n- Réduction d’esters ou de cétones (LiAlH₄, NaBH₄).\n## III. Composés carbonylés\n- **Aldéhydes** (R‑CHO) – oxydation légère des alcools primaires.\n- **Cétones** (R‑CO‑R') – oxydation des alcools secondaires.\n- Tests d’identification : 2,4‑dinitrophénylhydrazine (hydrazone), Tollens (aldéhydes).\n## IV. Réactions chimiques des alcools\n1. **Alcool + Na → alcane + NaOH** (déprotonation).\n2. **Déshydratation** (H₂SO₄, 170 °C) → alcène + H₂O.\n3. **Oxydation ménagée** :\n   - Alcools primaires → aldéhydes (PCC).\n   - Alcools secondaires → cétones (CrO₃).\n## V. Polyalcools (polyols)\n- **Glycol** (HO‑CH₂‑CH₂‑OH) : préparation par hydrolyse d’oxydes d’éthylène.\n- **Glycérol** (HO‑CH₂‑CHOH‑CH₂‑OH) : dérivé du triglycéride, usage en pharmacie et cosmétique.\n\n# Chapitre II – Amines\n## I. Généralités\n- **Définition** : dérivés de l’ammoniac où un à trois H sont remplacés par des groupes alkyle ou aryle.\n- **Nomenclature** : préfixe « alkyl‑ » + « amine » ou suffixe «‑amine» (ex. éthylamine).\n## II. Propriétés basiques\n- Réaction avec indicateurs (phénolphtaleine → rose).\n- Formation de sels avec les acides (RNH₃⁺Cl⁻).\n- Complexation des ions métalliques (formation de complexes de type [Cu(NH₃)₄]²⁺).\n## III. Caractère nucléophile\n- **Alkylation** :\n  - Amines tertiaires → quaternaires (R₃N + R‑X → R₄N⁺X⁻).\n  - Amines primaires/secondaires → substitution SN2 (RNH₂ + R‑X → R‑NR' + HX).\n- **Conversion en amides** : acylation avec un chlorure d’acyle ou anhydride.\n\n# Chapitre III – Acides carboxyliques et dérivés\n## I. Généralités\n- **Définition** : acides contenant le groupe fonctionnel –COOH.\n- **Formule générale** : CₙH₂ₙ₊₁COOH.\n- **Nomenclature** : suffixe «‑oïque» (acide éthanoïque = acide acétique).\n## II. Réactions caractéristiques\n- **Acidité** : dissociation en H⁺ + RCOO⁻ (pKa ≈ 4‑5).\n- **Estérification** (RCOOH + R'OH ⇌ RCOOR' + H₂O, H₂SO₄).\n- **Réduction** : NaBH₄ ou LiAlH₄ → alcool primaire.\n- **Formation d’anhydrides** : deux acides → (RCO)₂O + H₂O.\n- **Formation d’acides chlorés** : SOCl₂ → RCOCl + SO₂ + HCl.\n\n---\n**Points clés**\n- Les alcools se distinguent par leur groupe –OH et leurs réactions d’oxydation, de déshydratation et de substitution.\n- Les amines sont basiques, nucléophiles et peuvent être transformées en amides.\n- Les acides carboxyliques sont plus acides que les alcools, réagissent avec les alcools (estérification) et les agents réducteurs.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "terminale",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel groupe fonctionnel caractérise un alcool ?",
+      "options": [
+        "-COOH",
+        "-NH₂",
+        "-OH",
+        "-CHO"
+      ],
+      "answer": 2,
+      "explanation": "Le groupe –OH (hydroxyle) définit les alcools."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel type d’alcool réagit avec le sodium pour former un alcane ?",
+      "options": [
+        "Primaire",
+        "Secondaire",
+        "Tertiaire",
+        "Tous les types"
+      ],
+      "answer": 0,
+      "explanation": "Seuls les alcools primaires réagissent avec Na pour donner un alcane et NaOH."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "La déshydratation d’un alcool secondaire donne toujours un alcène terminal.",
+      "answer": false,
+      "explanation": "La déshydratation suit la règle de Zaitsev : l’alcène le plus substitué est favorisé, pas forcément terminal."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "L’oxydation ménagée d’un alcool primaire avec le PCC donne un _______.",
+      "answer": "aldéhyde",
+      "explanation": "Le PCC (pyridinium chlorochromate) oxydise les alcools primaires en aldéhydes sans les sur‑oxydiser."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel est le produit principal de l’hydrolyse du chlorure d’éthylène ?",
+      "options": [
+        "Éthanol",
+        "Éthylène glycol",
+        "Acide acétique",
+        "Glycérol"
+      ],
+      "answer": 1,
+      "explanation": "L’hydrolyse du chlorure d’éthylène (ou d’oxyde d’éthylène) donne le 1,2‑éthylène glycol."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle affirmation est vraie pour les amines ?",
+      "options": [
+        "Elles sont acides comme les alcools",
+        "Elles sont neutres en solution aqueuse",
+        "Elles sont basiques et forment des sels avec les acides",
+        "Elles ne réagissent pas avec les métaux"
+      ],
+      "answer": 2,
+      "explanation": "Les amines sont basiques et forment des sels ammonium avec les acides."
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "Les amines tertiaires peuvent subir une alkylation pour former des amines quaternaires.",
+      "answer": true,
+      "explanation": "L’alkylation d’une amine tertiaire donne un sel d’ammonium quaternaire."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Le réactif de réduction le plus couramment utilisé pour transformer un acide carboxylique en alcool primaire est _______.",
+      "answer": "LiAlH4",
+      "explanation": "Le LiAlH₄ réduit les acides carboxyliques en alcools primaires."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel est le pKa typique d’un acide carboxylique ?",
+      "options": [
+        "≈1",
+        "≈3",
+        "≈5",
+        "≈7"
+      ],
+      "answer": 2,
+      "explanation": "Les acides carboxyliques ont un pKa autour de 4‑5."
+    },
+    {
+      "id": "q10",
+      "type": "truefalse",
+      "prompt": "L’estérification d’un acide carboxylique nécessite toujours un catalyseur acide fort.",
+      "answer": true,
+      "explanation": "Un acide fort (souvent H₂SO₄) catalyse l’estérification en activant le groupe carbonyle."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel dérivé d’acide carboxylique est le plus réactif envers les nucléophiles ?",
+      "options": [
+        "Esters",
+        "Acides chlorés",
+        "Amides",
+        "Anhydrides"
+      ],
+      "answer": 1,
+      "explanation": "Les acides chlorés (acyl chlorides) sont très réactifs car le groupe Cl est un excellent groupe partant."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Le test de Tollens donne un précipité d’argent brillant avec les _______.",
+      "answer": "aldéhydes",
+      "explanation": "Le réactif de Tollens oxydise les aldéhydes en acides carboxyliques, réduisant Ag⁺ en argent métallique."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel type d’alcool donne, par déshydratation, le produit le plus substitué selon la règle de Zaitsev ?",
+      "options": [
+        "Primaire",
+        "Secondaire",
+        "Tertiaire",
+        "Méthanol"
+      ],
+      "answer": 2,
+      "explanation": "Les alcools tertiaires favorisent la formation de l’alcène le plus substitué."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Le glycérol possède trois groupes hydroxyle et appartient à la famille des polyalcools.",
+      "answer": true,
+      "explanation": "Le glycérol (propane‑1,2,3‑triol) est un polyol à trois –OH."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Le nom IUPAC de l’acide CH₃COOH est _______.",
+      "answer": "acide éthanoïque",
+      "explanation": "La nomenclature systématique remplace «acide acétique» par «acide éthanoïque»."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel réactif permet de transformer un alcool en halogénure d’alkyle (R‑X) ?",
+      "options": [
+        "SOCl₂",
+        "H₂SO₄",
+        "NaBH₄",
+        "KMnO₄"
+      ],
+      "answer": 0,
+      "explanation": "Le thionyl chloride (SOCl₂) convertit les alcools en halogénures d’alkyle avec libération de SO₂ et HCl."
+    }
+  ]
+}

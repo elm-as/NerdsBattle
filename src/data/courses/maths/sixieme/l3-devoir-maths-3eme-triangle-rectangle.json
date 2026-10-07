@@ -1,0 +1,186 @@
+{
+  "id": "maths-sixieme-l3-devoir-maths-3eme-triangle-rectangle",
+  "subjectId": "maths",
+  "levelId": "sixieme",
+  "slug": "l3-devoir-maths-3eme-triangle-rectangle",
+  "title": "Mathématiques 6e – Théorème de Pythagore, Trigonométrie et Application pratique",
+  "summary": "Cette leçon reprend les propriétés Pythagoriciennes (P1, P2, P3), les rapports trigonométriques dans un triangle rectangle, et les applique à des exercices de calcul de distances, de vérification d’angles et à un problème réel d’installation d’une échelle pour un panier de basket.",
+  "lesson": "# Objectifs\n- Identifier les propriétés P1 (théorème de Pythagore), P2 (réciproque) et P3 (relation métrique d’aire).\n- Maîtriser les rapports trigonométriques : sinus, cosinus, tangente.\n- Utiliser ces outils pour déterminer si un triangle est rectangle, calculer une longueur ou un angle.\n- Appliquer la trigonométrie à un problème de la vie courante (échelle et hauteur).\n\n---\n## 1. Rappel des propriétés\n| Notation | Description |\n|----------|-------------|\n| **P1** | Dans tout triangle rectangle, le carré de l’hypoténuse est égal à la somme des carrés des deux cathètes (a²+b²=c²). |\n| **P2** | Réciproque : si, dans un triangle, a²+b²=c², alors le triangle est rectangle et l’angle opposé à c est droit. |\n| **P3** | Dans un triangle rectangle, l’aire du carré construit sur l’hypoténuse est égale à la somme des aires des carrés construits sur les deux cathètes (formulation métrique de P1). |\n\n---\n## 2. Rapports trigonométriques dans un triangle rectangle\n- **Sinus** d’un angle aigu : \\(\\sin\\theta = \\frac{\\text{côté opposé}}{\\text{hypoténuse}}\\).\n- **Cosinus** d’un angle aigu : \\(\\cos\\theta = \\frac{\\text{côté adjacent}}{\\text{hypoténuse}}\\).\n- **Tangente** d’un angle aigu : \\(\\tan\\theta = \\frac{\\text{côté opposé}}{\\text{côté adjacent}}\\).\n\nCes rapports sont utiles pour :\n1. Calculer une longueur inconnue lorsqu’un angle et une longueur sont connus.\n2. Vérifier qu’un triangle est rectangle (en comparant le rapport à la valeur théorique).\n\n---\n## 3. Exemple d’application – Figure AB = 3 m, AC = 6 m, AD = 8 m, CD = 10 m\n- **Question 1** : Quelle propriété (P1, P2 ou P3) permet de calculer AE ? → on utilise P1 sur le triangle ACD (8²+6²=10²). \n- **Question 2** : Pour BC, on utilise la tangente (rapport ①) car on connaît un angle aigu et la longueur adjacente. \n- **Question 3** : Pour savoir si BCD est rectangle, on compare \\(BC²+CD²\\) à \\(BD²\\) → on utilise la réciproque P2.\n\n---\n## 4. Problème du triangle inscrit dans un cercle\n- Le diamètre [AC] implique que \\(\\angle ABC = 90°\\) (théorème de Thalès). \n- Avec \\(AB = 4\\sqrt{3}\\) m et \\(AC = 8\\) m, on calcule \\(\\sin\\widehat{ACB} = \\frac{AB}{AC}=\\frac{4\\sqrt{3}}{8}=\\frac{\\sqrt{3}}{2}\\).\n- Donc \\(\\widehat{ACB}=60°\\).\n\n---\n## 5. Installation du panier – problème d’échelle\n- Hauteur du mur : 3,20 m.\n- Longueur de l’échelle : 3,35 m.\n- On veut \\(\\alpha\\) tel que \\(\\sin\\alpha = \\frac{3,20}{3,35}=0,955\\).\n- D’après la table trigonométrique, \\(\\sin 72°=0,954\\) et \\(\\sin 73°=0,956\\) → \\(\\alpha\\) est compris entre 72° et 73°, donc dans l’intervalle autorisé (72°‑74°). Aucun risque de chute.\n\n---\n## 6. Points clés à retenir\n- P1, P2, P3 sont interchangeables selon le besoin (calcul ou justification).\n- Les rapports trigonométriques permettent de passer de longueurs à angles et inversement.\n- Toujours vérifier les valeurs avec une table ou une calculatrice avant de conclure.\n- Dans les problèmes concrets, traduire la situation en schéma, identifier les triangles rectangles et appliquer les formules adéquates.\n\n---\n## 7. Exercices d’entraînement\n(voir la section *questions* ci‑dessous)",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Sur la figure AB=3 m, AC=6 m, AD=8 m, CD=10 m, quelle propriété permet de calculer la distance AE ?",
+      "options": [
+        "P1 – Théorème de Pythagore",
+        "P2 – Réciproque",
+        "P3 – Relation d’aire",
+        "Aucune"
+      ],
+      "answer": 0,
+      "explanation": "Le triangle ACD est rectangle (8²+6²=10²), donc on utilise P1 pour obtenir AE."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Dans le triangle ABC, pour calculer BC on utilise le rapport trigonométrique :",
+      "options": [
+        "sinus (①)",
+        "cosinus (②)",
+        "tangente (③)",
+        "aucun"
+      ],
+      "answer": 2,
+      "explanation": "BC est le côté opposé à l’angle aigu connu, on utilise la tangente = opposé/adjacent."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Pour savoir si le triangle BCD est rectangle, on utilise :",
+      "options": [
+        "P1",
+        "P2",
+        "P3",
+        "sinus"
+      ],
+      "answer": 1,
+      "explanation": "On vérifie la condition a²+b²=c² ; si elle est vraie, la réciproque P2 affirme que le triangle est rectangle."
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "prompt": "Dans tout triangle rectangle, le rapport sinus d’un angle aigu est toujours inférieur à 1.",
+      "answer": true,
+      "explanation": "Le sinus est le rapport opposé/hypoténuse, les deux côtés sont positifs et l’hypoténuse est le plus grand côté."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "prompt": "Dans un triangle rectangle, le rapport cosinus d’un angle aigu est égal au rapport du ______ au côté ______.",
+      "answer": "côté adjacent; hypoténuse",
+      "explanation": "Cosinus = adjacent / hypoténuse."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Dans le triangle inscrit dans le cercle de diamètre AC, quel angle est droit ?",
+      "options": [
+        "∠ABC",
+        "∠BAC",
+        "∠ACB",
+        "Aucun"
+      ],
+      "answer": 0,
+      "explanation": "Théorème de Thalès : l’angle inscrit sur le diamètre est droit, donc ∠ABC = 90°."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Avec AB = 4√3 m et AC = 8 m, le sinus de ∠ACB vaut ______.",
+      "answer": "√3/2",
+      "explanation": "sin∠ACB = AB/AC = (4√3)/8 = √3/2."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel est la mesure de ∠ACB ?",
+      "options": [
+        "30°",
+        "45°",
+        "60°",
+        "90°"
+      ],
+      "answer": 2,
+      "explanation": "sin = √3/2 correspond à 60°."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "L’angle α de l’échelle doit être compris entre 70° et 75° pour garantir la sécurité.",
+      "answer": false,
+      "explanation": "Le texte indique que l’intervalle sûr est 72°‑74°."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Le rapport sin α = hauteur / longueur de l’échelle = 3,20 / 3,35 = ______.",
+      "answer": "0,955",
+      "explanation": "Division directe donne 0,955."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "D’après la table trigonométrique, quel encadrement convient à α ?",
+      "options": [
+        "71° < α < 72°",
+        "72° < α < 73°",
+        "73° < α < 74°",
+        "74° < α < 75°"
+      ],
+      "answer": 1,
+      "explanation": "Sin 72°=0,954 et sin 73°=0,956, donc α≈72,5°."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "Si sin α = 0,955, alors α ≈ 68°.",
+      "answer": false,
+      "explanation": "Sin 68°≈0,927 ; 0,955 correspond à environ 72,5°."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel est le type de triangle formé par les points A, B, C du cercle (diamètre AC) ?",
+      "options": [
+        "Isocèle",
+        "Équilatéral",
+        "Rectangle",
+        "Scalène"
+      ],
+      "answer": 2,
+      "explanation": "Le diamètre impose un angle droit en B."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "prompt": "Dans le triangle rectangle ABC, la tangente de l’angle B (adjacent/opp) vaut ______.",
+      "answer": "AB/BC",
+      "explanation": "Tangente = opposé/adjacent ; ici l’angle B a AB comme côté opposé et BC comme adjacent."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Si dans un triangle rectangle on trouve que a²+b²≠c², que peut‑on conclure ?",
+      "options": [
+        "Le triangle est rectangle",
+        "Le triangle n’est pas rectangle",
+        "Le triangle est isocèle",
+        "Aucune information"
+      ],
+      "answer": 1,
+      "explanation": "La condition n’étant pas remplie, le triangle ne peut pas être rectangle."
+    },
+    {
+      "id": "q16",
+      "type": "truefalse",
+      "prompt": "Le théorème de Pythagore (P1) s’applique uniquement aux triangles dont l’un des angles mesure 90°.",
+      "answer": true,
+      "explanation": "C’est la définition même du théorème."
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "prompt": "Dans le problème de l’échelle, la hauteur du mur (3,20 m) représente le côté ______ du triangle formé avec le sol.",
+      "answer": "opposé",
+      "explanation": "Le mur est perpendiculaire au sol, donc il correspond au côté opposé à l’angle α."
+    }
+  ]
+}

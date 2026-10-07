@@ -1,0 +1,184 @@
+{
+  "id": "svt-premiere-l1-comment-les-gametes-se-forment-ils-s",
+  "subjectId": "svt",
+  "levelId": "premiere",
+  "slug": "l1-comment-les-gametes-se-forment-ils-s",
+  "title": "Reproduction et Vie Familiale – Gamétogenèse et Anomalies Chromosomiques",
+  "summary": "Ce document présente la gamétogenèse masculine (spermatogenèse) et féminine (ovogenèse), détaillant leurs phases, la méiose, et les anomalies chromosomiques. Il souligne l’importance de la méiose, les blocages de l’ovogenèse et les conséquences des anomalies chromosomiques sur la reproduction.",
+  "lesson": "## Introduction\nLa reproduction humaine repose sur la formation des gamètes, processus appelé gamétogenèse. Chez l’homme, il s’agit de la spermatogenèse, tandis que chez la femme, c’est l’ovogenèse.\n\n## Spermatogenèse\n- **Phase de multiplication** (27 jours) : mitoses successives des spermatogonies.\n- **Phase d’accroissement** (23 jours) : croissance des spermatocytes I.\n- **Phase de maturation** (1 jour) : méiose I et II, donnant 4 spermatides haploïdes.\n- **Phase de différenciation** (3 jours) : spermiogenèse, formation du spermatozoïde complet.\n\n## Ovogenèse\n- **Phase de multiplication** : mitoses embryonnaires, nombre d’ovogonies réduit par atrésie.\n- **Phase d’accroissement** : ovogonie devient ovocyte I.\n- **Phase de maturation** : méiose I, ovocyte I devient ovocyte II bloqué en métaphase II.\n- **Déblocage** : fécondation par le spermatozoïde, méiose II complète, formation de l’ovule.\n\n## Anomalies Chromosomiques\nLes anomalies peuvent être :\n- **Aneuploidies** (ex. trisomie 21, 18, 13) : un chromosome supplémentaire.\n- **Déletions** : perte d’une partie d’un chromosome.\n- **Duplications** : répétition d’une région chromosomique.\n- **Translocations** : échange de segments entre chromosomes.\n\n## Conclusion\nLa gamétogenèse est un processus complexe, régulé par la méiose et des blocages physiologiques. Les anomalies chromosomiques, issues de la méiose ou de la mitose, ont des conséquences majeures sur la fertilité et la santé des descendants.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "svt",
+    "premiere",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le nombre de mitoses successives pendant la phase de multiplication de la spermatogenèse ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "La phase de multiplication comprend trois mitoses successives des spermatogonies."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La méiose produit combien de cellules filles haploïdes à partir d’une cellule diploïde ?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 2,
+      "explanation": "La méiose comprend deux divisions successives, donnant 4 cellules haploïdes."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel est le rôle de l’épididyme dans la maturation du spermatozoïde ?",
+      "options": [
+        "Stockage uniquement",
+        "Acquisition de mobilité et fécondation",
+        "Production de spermatozoïdes",
+        "Dégradation des spermatozoïdes"
+      ],
+      "answer": 1,
+      "explanation": "Dans l’épididyme, le spermatozoïde acquiert mobilité et pouvoir fécondant."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "À quel stade l’ovocyte II est-il bloqué avant la fécondation ?",
+      "options": [
+        "Prophase I",
+        "Metaphase I",
+        "Metaphase II",
+        "Telophase II"
+      ],
+      "answer": 2,
+      "explanation": "L’ovocyte II est bloqué en métaphase II jusqu’à la fécondation."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle est la durée totale de la spermiogenèse ?",
+      "options": [
+        "1 jour",
+        "3 jours",
+        "5 jours",
+        "7 jours"
+      ],
+      "answer": 1,
+      "explanation": "La phase de différenciation (spermiogenèse) dure 3 jours."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel type d’anomalie chromosomique implique la perte d’une partie d’un chromosome ?",
+      "options": [
+        "Aneuploidie",
+        "Déletion",
+        "Duplication",
+        "Translocation"
+      ],
+      "answer": 1,
+      "explanation": "Une déletion est la perte d’une partie d’un chromosome."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Combien d’ovogonies restent à maturité à la puberté ?",
+      "options": [
+        "400",
+        "500",
+        "400 à 500",
+        "600"
+      ],
+      "answer": 2,
+      "explanation": "À la puberté, 400 à 500 ovogonies atteignent la maturité."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel est le chromosome supplémentaire dans la trisomie 21 ?",
+      "options": [
+        "Chromosome 21",
+        "Chromosome 18",
+        "Chromosome 13",
+        "Chromosome 22"
+      ],
+      "answer": 0,
+      "explanation": "La trisomie 21 est due à un chromosome 21 supplémentaire."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "La phase d’accroissement de la spermatogenèse dure combien de jours ?",
+      "options": [
+        "23",
+        "27",
+        "30",
+        "35"
+      ],
+      "answer": 0,
+      "explanation": "La phase d’accroissement dure 23 jours."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est le nombre de chromosomes dans un ovocyte diploïde ?",
+      "options": [
+        "23",
+        "24",
+        "46",
+        "48"
+      ],
+      "answer": 2,
+      "explanation": "Un ovocyte diploïde possède 46 chromosomes (23 paires)."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "La méiose I est appelée division réductionnelle.",
+      "answer": true,
+      "explanation": "La méiose I réduit le nombre de chromosomes de moitié."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "L’ovogenèse se déroule de façon continue tout au long de la vie d’une femme.",
+      "answer": false,
+      "explanation": "L’ovogenèse est discontinue, avec des blocages à la 7e mois de grossesse et à la métaphase II."
+    },
+    {
+      "id": "q13",
+      "type": "truefalse",
+      "prompt": "La spermatogenèse commence à la naissance.",
+      "answer": false,
+      "explanation": "La spermatogenèse commence à la puberté."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Une translocation implique l’échange de segments entre deux chromosomes.",
+      "answer": true,
+      "explanation": "Une translocation est un échange de segments chromosomiques."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "La phase de différenciation de la spermatogenèse est aussi appelée spermiogenèse.",
+      "answer": "spermiogenèse",
+      "explanation": "La phase de différenciation produit le spermatozoïde complet."
+    }
+  ]
+}

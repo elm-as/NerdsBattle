@@ -1,0 +1,85 @@
+{
+  "id": "anglais-cinquieme-l2-unite-3-lecon-2-5e",
+  "subjectId": "anglais",
+  "levelId": "cinquieme",
+  "slug": "l2-unite-3-lecon-2-5e",
+  "title": "Unit 3: Time and Date - Lesson 2: Time is Money (5e)",
+  "summary": "Cette leçon de 5e (anglais) se concentre sur la description des horaires quotidiens et l'interrogation sur les heures d'activités. Les élèves apprennent à utiliser le présent simple, les prépositions de temps (in, at) et le vocabulaire spécifique (schedule, noon, midnight, a.m./p.m.). Les activités incluent la correspondance de mots, la complétion de phrases, la reformulation et des tâches de communication écrite (chat et lettre) pour décrire une journée type.",
+  "lesson": "# Unit 3: Time and Date\n## Lesson 2: Time is Money\n\n### 1. Learning Context\nOn WhatsApp, students of 5e 1 write messages to friends in Ghana about their weekly schedule.\n\n### 2. Language Functions & Structures\n*   **Function:** Describing daily schedule; Asking about time of daily activities.\n*   **Tense:** Present Simple.\n*   **Key Structures:**\n    *   *What do you usually do in the morning?* -> *In the morning, I go to school.*\n    *   *At what time do you go to school every Tuesday?* -> *I go to school at 07 o’clock.*\n\n### 3. Vocabulary\n*   **schedule:** program, timetable, agenda\n*   **noon:** midday, 12 o’clock (a.m. is morning, p.m. is afternoon/evening)\n*   **midnight:** 00:00 (12 o’clock at night)\n*   **lunch:** midday meal\n*   **dinner:** evening meal\n*   **to be busy:** having no free time\n*   **in a hurry:** quickly, rapidly\n*   **to waste time:** passing time doing unimportant things\n*   **to be late / on time:** punctuality\n*   **to take a shower:** to wash oneself using a shower\n\n### 4. Time Prepositions\n*   **in:** the morning, the afternoon, the evening\n*   **at:** noon, night, midday, midnight, specific times (at 7 o'clock)\n\n### 5. Practice Activities\n\n#### Activity 1: Matching Meanings\nMatch Column A with Column B.\n1. midnight -> f) 12 o’clock at night\n2. dinner -> e) Evening meal\n3. midday -> a) 12 o’clock in the day\n4. schedule -> b) Timetable\n5. lunch -> c) 12 o’clock meal\n6. watch -> d) Look at\n\n#### Activity 2: Answering Questions (Present Simple)\n1. What does your teacher usually do every night? (to plan lesson) -> *She plans her lessons.*\n2. What do you do every evening? (to learn my lesson) -> *I learn my lesson.*\n3. What do your friends usually do at 4 p.m.? (to play games) -> *They play games.*\n4. What does Mrs Kouadio do every morning? (to go to the market) -> *She goes to the market.*\n5. What does Effua usually do at noon? (to have lunch) -> *She has lunch.*\n6. What do your sisters usually do at 7 p.m.? (to watch tv) -> *They watch TV.*\n\n#### Activity 3: Moments of the Day\n1. I watch TV or I go to bed -> *evening*\n2. The students go to school -> *morning*\n3. We study our lessons -> *afternoon* (or morning/evening depending on context, usually afternoon in school)\n4. The family has lunch -> *noon/midday*\n5. Everybody is sleeping -> *night/midnight*\n6. The students leave school -> *afternoon/evening*\n\n#### Activity 4: Fill in the Blanks\n1. Every morning, I **take a shower** just after I wake up.\n2. I am **in a hurry**. Because I don’t want to arrive **late** in class.\n3. Every Saturday, my parents **go shopping** at the supermarket.\n4. If you **waste time**, you will not finish your homework.\n5. Our teacher is very punctual; he always arrives **on time** in class.\n\n#### Activity 5: Forming Questions\n1. What time does Mr Ndraman go to bed? (12 p.m. - Note: 12 p.m. is noon, likely a typo in source for 12 a.m. or 10 p.m., but question structure is key)\n2. What time do you start class? (7 a.m.)\n3. What time does Kim learn her lesson? (10:30 a.m.)\n4. What time do Max and Kyria play chess? (3 p.m.)\n5. What time does Mrs Kocora go swimming? (8 a.m.)\n6. What time do they visit the zoo? (5 p.m.)\n\n#### Activity 6: Unscramble Sentences\n1. What time do students usually go to school?\n2. They generally go to school in the morning.\n3. What does Mr. Kouadio do in the evening?\n4. He prepares his lessons in the evening.\n\n### 6. Communication Tasks\n*   **Task 1 (Chat):** Describe your daily routine to a British pen friend (Cole). List activities at home/school and specify periods.\n*   **Task 2 (Letter):** Reply to a Liberian friend. Indicate the day, list activities, and specify periods.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "anglais",
+    "cinquieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "What is the correct preposition to use with 'noon'?",
+      "options": [
+        "in",
+        "at",
+        "on",
+        "by"
+      ],
+      "answer": 1,
+      "explanation": "We use 'at' for precise times and specific points like noon, midnight, night."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "What does the expression 'in a hurry' mean?",
+      "options": [
+        "Slowly",
+        "Quickly",
+        "Carefully",
+        "Quietly"
+      ],
+      "answer": 1,
+      "explanation": "'In a hurry' means doing something quickly or rapidly."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Complete the sentence: 'I go to school ______ 07 o'clock.'",
+      "answer": "0",
+      "explanation": "We use 'at' before specific clock times."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "What is the synonym for 'schedule' provided in the vocabulary list?",
+      "options": [
+        "Agenda",
+        "Timetable",
+        "Both A and B",
+        "Calendar"
+      ],
+      "answer": 2,
+      "explanation": "The vocabulary section lists 'program, timetable, agenda' as meanings for schedule."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Which preposition is used with 'the morning'?",
+      "options": [
+        "at",
+        "in",
+        "on",
+        "for"
+      ],
+      "answer": 1,
+      "explanation": "We use 'in' for parts of the day like morning, afternoon, and evening."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Complete the question: '______ do you usually do in the morning?'",
+      "answer": "0",
+      "explanation": "The structure for asking about activities is 'What do you usually do...?'"
+    }
+  ]
+}

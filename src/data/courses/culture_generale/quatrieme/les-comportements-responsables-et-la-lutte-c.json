@@ -1,0 +1,159 @@
+{
+  "id": "culture_generale-quatrieme-les-comportements-responsables-et-la-lutte-c",
+  "subjectId": "culture_generale",
+  "levelId": "quatrieme",
+  "slug": "les-comportements-responsables-et-la-lutte-c",
+  "title": "Comportements responsables face aux IST/VIH et grossesses à risques",
+  "summary": "Ce document expose les causes et conséquences des IST/VIH et des grossesses à risques, définit le comportement responsable, et détaille la gestion des émotions pour prévenir les comportements à risque.",
+  "lesson": "# Les causes et conséquences des IST/VIH et grossesses à risques\n\n## Causes\n- Rapports sexuels non protégés\n- Manque d’encadrement et d’éducation\n- Pauvreté\n- Désir de loisirs malsains\n- Insouciance de l’adolescence\n- Us et coutumes (mariages précoces)\n- Méconnaissance de son statut sérologique\n\n## Conséquences\n### IST/VIH\n- Altération de la santé\n- Mort\n- Rejet par la famille et la société\n- Abandon des études\n- Perte de l’emploi\n- Charge sociale pour la famille\n\n### Grossesses à risques\n- Accouchement prématuré ou césarienne\n- Relâchement des organes génitaux\n- Malformation du bébé\n- Avortement\n- Risque de stérilité\n- Mort\n\n# Le comportement responsable\nUn comportement qui ne présente pas de risque pour l’individu et la société.\n\n## Actions responsables\n- Abstinence\n- Port du préservatif\n- Fidélité à son/sa partenaire\n- Utilisation de seringues stérilisées\n- Dépistage (connaissance de sa sérologie)\n- Respect du partenaire sexuel\n\n# Gestion des émotions\n## Étapes de la stratégie\n1. Compter jusqu’à dix\n2. Réfléchir à la situation\n3. Analyser les raisons de sa passion\n4. Penser à la situation autrement\n5. Prier ou méditer\n6. Communiquer pour résoudre le problème\n\n## Importance\n- Résister à la pression du groupe\n- Agir en toute confiance et responsabilité\n- Prendre des décisions salutaires\n- Éviter des comportements à risques",
+  "estimatedMinutes": 10,
+  "tags": [
+    "culture_generale",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est l’un des principaux facteurs de transmission des IST/VIH?",
+      "options": [
+        "Utilisation de préservatifs",
+        "Rapports sexuels non protégés",
+        "Vaccination",
+        "Consommation d’alcool"
+      ],
+      "answer": 1,
+      "explanation": "Les rapports sexuels non protégés sont la principale voie de transmission des IST/VIH."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La pauvreté n’est pas un facteur contribuant aux grossesses à risques.",
+      "answer": false,
+      "explanation": "La pauvreté est un facteur de risque car elle limite l’accès aux soins et à l’éducation."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Le comportement responsable ne présente pas de risque pour l’individu et la société.",
+      "answer": "Vrai",
+      "explanation": "Par définition, un comportement responsable est sans risque pour l’individu et la société."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est un effet direct d’une grossesse à risques?",
+      "options": [
+        "Amélioration de la santé maternelle",
+        "Accouchement prématuré",
+        "Réduction du risque de stérilité",
+        "Augmentation de la fertilité"
+      ],
+      "answer": 1,
+      "explanation": "L’accouchement prématuré est une conséquence directe d’une grossesse à risques."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Le dépistage est une stratégie de comportement responsable face aux IST/VIH.",
+      "answer": true,
+      "explanation": "Savoir son statut sérologique permet de prendre des mesures préventives."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel est le rôle de la fidélité dans la prévention des IST/VIH?",
+      "options": [
+        "Augmenter le risque de transmission",
+        "Réduire le risque de transmission",
+        "Aucune influence",
+        "Encourager les rapports non protégés"
+      ],
+      "answer": 1,
+      "explanation": "La fidélité à un partenaire sérologiquement stable réduit le risque de transmission."
+    },
+    {
+      "id": "q7",
+      "type": "truefalse",
+      "prompt": "La consommation de seringues stérilisées est une mesure de prévention des IST/VIH.",
+      "answer": true,
+      "explanation": "L’utilisation de seringues stérilisées élimine le risque de transmission par voie sanguine."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quelle est une étape de la gestion des émotions?",
+      "options": [
+        "Ignorer ses sentiments",
+        "Compter jusqu’à dix",
+        "Réagir immédiatement",
+        "Éviter la communication"
+      ],
+      "answer": 1,
+      "explanation": "Compter jusqu’à dix aide à calmer l’émotion avant de réagir."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "La gestion efficace des émotions ne contribue pas à la prise de décisions salutaires.",
+      "answer": false,
+      "explanation": "Une bonne gestion des émotions favorise des décisions plus saines."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est l’impact d’une grossesse à risques sur le bébé?",
+      "options": [
+        "Amélioration de la croissance",
+        "Malformation du bébé",
+        "Augmentation de la taille",
+        "Aucun impact"
+      ],
+      "answer": 1,
+      "explanation": "Les grossesses à risques peuvent entraîner des malformations congénitales."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Le manque d’encadrement et d’éducation est un facteur de risque pour les IST/VIH.",
+      "answer": true,
+      "explanation": "Un manque d’éducation sexuelle augmente la probabilité de comportements à risque."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel est l’un des effets sociaux d’une IST/VIH?",
+      "options": [
+        "Renforcement des liens familiaux",
+        "Rejet par la famille et la société",
+        "Augmentation de l’emploi",
+        "Amélioration de la santé publique"
+      ],
+      "answer": 1,
+      "explanation": "Les stigmates sociaux peuvent entraîner le rejet de la personne infectée."
+    },
+    {
+      "id": "q13",
+      "type": "truefalse",
+      "prompt": "La prise de décision en toute confiance est une composante de la gestion des émotions.",
+      "answer": true,
+      "explanation": "Agir en toute confiance aide à éviter les comportements impulsifs."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel est le principal avantage de l’abstinence?",
+      "options": [
+        "Réduction du risque de grossesse à risques",
+        "Augmentation du risque d’IST/VIH",
+        "Amélioration de la fertilité",
+        "Aucune des réponses"
+      ],
+      "answer": 0,
+      "explanation": "L’abstinence élimine le risque de transmission d’IST/VIH et de grossesses à risques."
+    }
+  ]
+}

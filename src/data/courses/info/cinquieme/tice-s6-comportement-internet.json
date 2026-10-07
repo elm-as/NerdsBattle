@@ -1,0 +1,85 @@
+{
+  "id": "info-cinquieme-tice-s6-comportement-internet",
+  "subjectId": "info",
+  "levelId": "cinquieme",
+  "slug": "tice-s6-comportement-internet",
+  "title": "Comportement à adopter sur Internet : Dangers et Précautions",
+  "summary": "Cette leçon de TICE pour la 5ème aborde les dangers liés à l'utilisation d'Internet, notamment la cybercriminalité, le cyberharcèlement, la pornographie et la cyberdépendance. Elle met en garde les jeunes utilisateurs contre les prédateurs en ligne et les risques liés à la divulgation d'informations personnelles. Le document propose six règles essentielles de sécurité, incluant la prudence avec la webcam, l'utilisation de pseudonymes, la création de mots de passe robustes et la communication régulière avec ",
+  "lesson": "# Comportement à adopter sur Internet\n\n## I. Situation d’Apprentissage\nL'introduction se fait via une vidéo illustrant les dangers d'Internet, permettant de sensibiliser les élèves aux risques réels auxquels ils sont exposés en tant que jeunes utilisateurs.\n\n## II. Résumé de la Leçon\nInternet est un outil puissant pour la communication, l'apprentissage et le divertissement. Cependant, il présente des dangers majeurs pour les utilisateurs non avertis, notamment les enfants et les adolescents. La leçon distingue les risques (pornographie, cybercriminalité, harcèlement, désinformation, surconsommation, jeux de hasard, contenus violents, cyberdépendance) et propose des stratégies de prévention concrètes.\n\n## III. Les Dangers Liés à l’Utilisation d’Internet\nAujourd'hui, Internet est utilisé pour des activités variées : devoirs, socialisation, commerce, mais aussi pour des actes malveillants comme l'escroquerie, le kidnapping ou le vol. Les prédateurs exploitent la naïveté des jeunes. Les principaux risques identifiés sont :\n\n1. **La pornographie** : Diffusion d'images sexuelles et invitations à consulter des sites de même nature.\n2. **La cybercriminalité** : Insultes, menaces, usurpation d'identité, piratage de comptes, diffusion de photos compromettantes ou de fausses rumeurs sous pseudonyme.\n3. **Le cyberharcèlement ou cyber-chantage** : Menaces de diffusion de photos intimes (webcam) contre rançon, ou envoi régulier de messages/photos non désirés.\n4. **La désinformation** : Diffusion massive de fausses informations via les réseaux sociaux.\n5. **La surconsommation** : Bombardement publicitaire visant à convaincre l'utilisateur d'acquérir des produits inutiles, souvent lié aux jeux vidéo.\n6. **Les jeux de hasard** : Accès facile aux casinos, paris et loteries, sources fréquentes d'usurpation de cartes bancaires.\n7. **Les contenus violents ou haineux** : Diffusion de vidéos de violence (bagarres, incendies) qui banalisent l'agressivité chez les jeunes.\n8. **La cyberdépendance** : Incapacité à se passer d'Internet, isolement social, négligence des études et de la vie réelle au profit du monde virtuel.\n\n## IV. Les Moyens de Lutte et Précautions\nPour se protéger, il faut adopter un comportement responsable. Le slogan à retenir est : **« Sur le net, vous net pas seuls »**. Voici les 6 règles d'or :\n\n1. **Communication** : Parler régulièrement à ses parents ou aînés de ses activités en ligne.\n2. **Transparence sociale** : Informer ses proches de ses amis en ligne, des messages reçus et de ses réactions.\n3. **Protection des données** : Ne jamais donner ses coordonnées personnelles (nom, adresse, téléphone, école).\n4. **Anonymat** : Utiliser des pseudonymes ou surnoms comme identifiants pour éviter d'être localisé par des malveillants.\n5. **Prudence avec la webcam** : Ne jamais allumer la webcam pour un inconnu. Le logiciel peut permettre à l'interlocuteur de filmer sans accord. Ne faire rien devant la webcam que l'on ne ferait pas en public.\n6. **Sécurité des mots de passe** : Créer des mots de passe complexes (mélange de lettres et chiffres), éviter les informations personnelles comme la date de naissance (ex: 'sécurité' -> '5ecur1te').",
+  "estimatedMinutes": 10,
+  "tags": [
+    "info",
+    "cinquieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le slogan recommandé pour se protéger des prédateurs sur le Net ?",
+      "options": [
+        "Internet est dangereux",
+        "Sur le net, vous net pas seuls",
+        "Ne parlez jamais à vos parents",
+        "Cachiez vos informations"
+      ],
+      "answer": 1,
+      "explanation": "Le document cite explicitement ce slogan comme rappel de sécurité."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "La __________ consiste à menacer quelqu'un de diffuser des photos intimes s'il ne verse pas une somme d'argent.",
+      "answer": "0",
+      "explanation": "Le texte définit le cyberharcèlement ou cyber-chantage de cette manière."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est un exemple de mot de passe complexe selon la leçon ?",
+      "options": [
+        "monprenom2010",
+        "5ecur1te",
+        "azerty",
+        "123456"
+      ],
+      "answer": 1,
+      "explanation": "La Règle 6 donne l'exemple '5ecur1te' pour le mot 'sécurité'."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "La cyberdépendance se caractérise par :",
+      "options": [
+        "L'achat excessif de jeux vidéo",
+        "L'incapacité à se passer d'Internet et l'isolement social",
+        "La réception de nombreux e-mails",
+        "L'utilisation de plusieurs comptes"
+      ],
+      "answer": 1,
+      "explanation": "Le texte définit la cyberdépendance comme le fait de ne plus pouvoir se passer d'Internet et de se couper de la réalité."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "L'usurpation d'identité et le piratage de compte relèvent de la __________.",
+      "answer": "0",
+      "explanation": "Ces actes sont listés sous la rubrique 'cybercriminalité'."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Pourquoi faut-il utiliser des pseudonymes sur Internet ?",
+      "options": [
+        "Pour paraître plus mystérieux",
+        "Pour éviter que des individus mal intentionnés ne vous retrouvent",
+        "Parce que c'est la loi",
+        "Pour accéder à plus de sites"
+      ],
+      "answer": 1,
+      "explanation": "La Règle 4 explique que les pseudonymes empêchent les malveillants de vous localiser."
+    }
+  ]
+}

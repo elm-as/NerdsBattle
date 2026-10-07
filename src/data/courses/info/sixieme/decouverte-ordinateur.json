@@ -1,0 +1,76 @@
+{
+  "id": "info-sixieme-decouverte-ordinateur",
+  "title": "Découverte de l'ordinateur et des périphériques",
+  "summary": "Ce chapitre vous fait découvrir les éléments essentiels d'un ordinateur et son fonctionnement de base. Vous apprendrez à distinguer les périphériques d'entrée, de sortie et de stockage, compétences indispensables pour utiliser l'outil informatique en toute confiance.",
+  "lesson": "## Introduction & Mise en situation\n\nBienvenue dans le monde fascinant de l'informatique ! Aujourd'hui, l'ordinateur est partout : à la maison, à l'école, au travail. Il nous permet de jouer, d'apprendre, de communiquer, de créer… Mais savez-vous vraiment ce qui se cache à l'intérieur de cette machine et comment elle fonctionne ? Ce chapitre va vous donner les clés pour comprendre l'ordinateur et ses périphériques. Vous serez ainsi capable de l'utiliser plus efficacement et de résoudre quelques problèmes simples.\n\n## 1. Définitions et Principes Fondamentaux\n\n### Qu'est-ce qu'un ordinateur ?\n\nUn ordinateur est une machine électronique capable de traiter des informations (des données) très rapidement. Il exécute des programmes (des suites d'instructions) pour réaliser des tâches variées : écrire un texte, calculer, naviguer sur Internet, etc.\n\n### Les principaux composants d'un ordinateur\n\n- **L'unité centrale** : c'est le \"cerveau\" de l'ordinateur. Elle contient le processeur (qui effectue les calculs), la mémoire vive (RAM) (qui stocke temporairement les données en cours de traitement) et le disque dur (qui stocke les données de façon permanente).\n- **Les périphériques** : ce sont tous les appareils qui se connectent à l'unité centrale pour échanger des informations. On les classe en trois catégories :\n    - **Périphériques d'entrée** : ils permettent d'envoyer des données à l'ordinateur. Exemples : clavier, souris, microphone, scanner, webcam.\n    - **Périphériques de sortie** : ils permettent à l'ordinateur de communiquer les résultats à l'utilisateur. Exemples : écran, imprimante, haut-parleurs.\n    - **Périphériques de stockage** : ils servent à sauvegarder des données. Exemples : disque dur externe, clé USB, carte mémoire.\n\n### Le codage de l'information\n\nL'ordinateur ne comprend que deux états électriques : le courant passe ou ne passe pas. On représente ces états par les chiffres 0 et 1, appelés **bits** (binary digit). Un groupe de 8 bits forme un **octet** (ou byte). Avec un octet, on peut représenter 256 valeurs différentes ($2^8 = 256$).\n\nLes unités de mesure en informatique :\n\n- 1 octet = 8 bits\n- 1 Ko (kilo-octet) = 1024 octets = $2^{10}$ octets\n- 1 Mo (méga-octet) = 1024 Ko = $2^{20}$ octets\n- 1 Go (giga-octet) = 1024 Mo = $2^{30}$ octets\n- 1 To (téra-octet) = 1024 Go = $2^{40}$ octets\n\n## 2. Propriétés et Méthodes d'application\n\n### Comment bien utiliser un ordinateur ?\n\n1. **Démarrer** : Allumez l'ordinateur en appuyant sur le bouton power. Attendez que le système d'exploitation (comme Windows, Linux ou macOS) se charge.\n2. **Utiliser la souris** : La souris permet de pointer, cliquer, double-cliquer, faire glisser. Le clic gauche sélectionne, le clic droit ouvre un menu contextuel, la molette fait défiler.\n3. **Utiliser le clavier** : Le clavier permet de saisir du texte. Les touches spéciales : Entrée (valider), Échap (annuler), Maj (majuscules), Ctrl (combinaisons).\n4. **Gérer les fichiers** : Pour enregistrer un document, utilisez \"Fichier > Enregistrer sous\". Choisissez un nom et un emplacement (dossier). Pour ouvrir un fichier, double-cliquez dessus.\n5. **Se connecter à Internet** : Utilisez un navigateur (Chrome, Firefox, Edge) et tapez une adresse web.\n\n### Exemple concret : créer un document texte\n\n- Ouvrez un logiciel de traitement de texte (Word, LibreOffice Writer).\n- Tapez votre texte.\n- Enregistrez-le sous le nom \"mon_premier_document.txt\" dans le dossier \"Mes documents\".\n- Pour vérifier la taille du fichier, faites un clic droit > Propriétés. Vous verrez la taille en octets.\n\n### Calcul de la taille d'un fichier\n\nSi un caractère occupe 1 octet, un texte de 1000 caractères occupe 1000 octets, soit environ 1 Ko (car 1 Ko = 1024 octets). Plus précisément : $\\frac{1000}{1024} \\approx 0.98$ Ko.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre mémoire vive et disque dur** : La RAM est volatile (les données sont perdues quand on éteint), le disque dur est permanent. Ne dites pas \"ma clé USB a 8 Go de RAM\" !\n- **Confondre périphérique d'entrée et de sortie** : Un écran tactile est à la fois entrée (toucher) et sortie (affichage). Mais en général, on classe l'écran en sortie, le clavier en entrée.\n- **Oublier de sauvegarder son travail** : En cas de panne ou de coupure de courant, vous perdrez tout. Pensez à enregistrer régulièrement (Ctrl+S).\n- **Ne pas éjecter correctement une clé USB** : Cela peut endommager les données. Utilisez toujours l'option \"Éjecter\" avant de retirer la clé.\n- **Croire que plus de bits = plus de vitesse** : La vitesse dépend du processeur et de la mémoire, pas seulement du nombre de bits.\n\n## Synthèse\n\n1. **Un ordinateur est composé d'une unité centrale et de périphériques** : entrée (clavier, souris), sortie (écran, imprimante), stockage (clé USB, disque dur).\n2. **L'information est codée en binaire (0 et 1)** : 8 bits = 1 octet, et les unités (Ko, Mo, Go) sont des multiples de 1024.\n3. **Pour bien utiliser un ordinateur** : il faut savoir démarrer, utiliser la souris et le clavier, gérer les fichiers et enregistrer son travail.\n\nGardez ces notions en tête, elles vous serviront tout au long de votre parcours scolaire et professionnel !",
+  "estimatedMinutes": 12,
+  "tags": [
+    "ordinateur",
+    "périphériques",
+    "binaire",
+    "6ème",
+    "TICE"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le rôle de l'unité centrale ?",
+      "options": [
+        "Afficher des images",
+        "Traiter les informations",
+        "Stocker des données",
+        "Imprimer des documents"
+      ],
+      "answer": 1,
+      "explanation": "L'unité centrale contient le processeur qui exécute les instructions et traite les données."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Parmi les périphériques suivants, lequel est un périphérique d'entrée ?",
+      "options": [
+        "Écran",
+        "Imprimante",
+        "Clavier",
+        "Haut-parleur"
+      ],
+      "answer": 2,
+      "explanation": "Le clavier permet d'envoyer des données à l'ordinateur, c'est donc un périphérique d'entrée."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "La mémoire vive (RAM) conserve les données même lorsque l'ordinateur est éteint.",
+      "answer": false,
+      "explanation": "La RAM est volatile : les données sont effacées quand on coupe l'alimentation."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Combien de bits y a-t-il dans un octet ?",
+      "answer": "8",
+      "explanation": "Un octet est composé de 8 bits."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle est la bonne conversion ?",
+      "options": [
+        "1 Ko = 1000 octets",
+        "1 Mo = 1024 Ko",
+        "1 Go = 1000 Mo",
+        "1 To = 1024 octets"
+      ],
+      "answer": 1,
+      "explanation": "En informatique, on utilise des puissances de 2 : 1 Mo = 1024 Ko."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Une clé USB est un périphérique de stockage.",
+      "answer": true,
+      "explanation": "Une clé USB permet de stocker des données de manière permanente."
+    }
+  ]
+}

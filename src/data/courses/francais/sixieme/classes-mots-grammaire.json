@@ -1,0 +1,70 @@
+{
+  "id": "francais-sixieme-classes-mots-grammaire",
+  "title": "Les classes grammaticales des mots",
+  "summary": "Ce chapitre t'apprend à identifier la nature (classe grammaticale) de chaque mot, une compétence indispensable pour bien écrire et analyser des phrases. Maîtriser les classes grammaticales, c'est comme avoir la clé pour comprendre la structure de la langue et éviter les fautes d'accord.",
+  "lesson": "## Introduction & Mise en situation\n\nAs-tu déjà remarqué que dans une phrase, chaque mot a un rôle précis ? Certains désignent des êtres ou des choses, d'autres expriment des actions, d'autres encore décrivent ou relient. Ces rôles, ce sont les **classes grammaticales** (ou natures) des mots. Les connaître, c'est comme avoir une carte au trésor pour comprendre comment fonctionne la langue française. Que ce soit pour bien accorder un adjectif, choisir le bon pronom ou éviter les confusions, cette leçon est essentielle.\n\n## 1. Définitions et Principes Fondamentaux\n\nUne **classe grammaticale** est une catégorie dans laquelle on range les mots selon leur nature, c'est-à-dire leur identité propre, indépendamment de leur fonction dans la phrase. On distingue traditionnellement **10 classes grammaticales** :\n\n- **Les noms** (ou substantifs) : désignent des êtres, des choses, des idées. Ex : *chat, table, liberté*.\n- **Les déterminants** : précèdent le nom et indiquent son genre, son nombre, etc. Ex : *le, un, mon, ce*.\n- **Les adjectifs qualificatifs** : donnent une qualité au nom. Ex : *beau, grand, rouge*.\n- **Les pronoms** : remplacent un nom ou un groupe nominal. Ex : *il, elle, nous, qui*.\n- **Les verbes** : expriment une action ou un état. Ex : *manger, dormir, être*.\n- **Les adverbes** : modifient un verbe, un adjectif ou un autre adverbe. Ex : *vite, bien, très*.\n- **Les prépositions** : relient un mot à un autre et indiquent un rapport. Ex : *à, de, dans, avec*.\n- **Les conjonctions** : relient des mots ou des propositions. Ex : *et, mais, donc, que*.\n- **Les interjections** : expriment une émotion. Ex : *Oh !, Hélas !*.\n- **Les onomatopées** : imitent des sons. Ex : *miaou, crac*.\n\n> **Formule de reconnaissance** : Pour identifier la classe d'un mot, on peut utiliser des tests de substitution. Par exemple, un nom peut être précédé d'un déterminant : on peut dire *le chien* donc *chien* est un nom. Un verbe peut se conjuguer : *manger* devient *je mange*.\n\n## 2. Propriétés et Méthodes d'application\n\nPour déterminer la classe grammaticale d'un mot, suis cette méthode pas à pas :\n\n1. **Regarde si le mot peut être précédé d'un déterminant** (le, la, un, une, des...). Si oui, c'est probablement un **nom**. Ex : *la maison* → *maison* est un nom.\n2. **Vérifie si le mot varie en genre et en nombre** (masculin/féminin, singulier/pluriel). Les noms, déterminants, adjectifs et certains pronoms varient. Ex : *beau* → *belle*, *beaux*.\n3. **Teste la conjugaison** : si le mot change de forme avec le temps (présent, futur, etc.) et avec la personne, c'est un **verbe**. Ex : *manger* → *je mange, nous mangerons*.\n4. **Pour les mots invariables** (adverbes, prépositions, conjonctions, interjections), vérifie s'ils peuvent être supprimés ou s'ils relient des éléments. Ex : *vite* est un adverbe car on peut dire *il court vite* (modifie le verbe).\n\n**Exemple concret** : Dans la phrase *Le petit chat dort tranquillement sur le canapé*, identifions les classes :\n- *Le* : déterminant (article défini)\n- *petit* : adjectif qualificatif\n- *chat* : nom\n- *dort* : verbe\n- *tranquillement* : adverbe\n- *sur* : préposition\n- *le* : déterminant\n- *canapé* : nom\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confusion entre nom et adjectif** : Un même mot peut être parfois nom, parfois adjectif. Ex : *un brave homme* (adjectif) vs *un brave* (nom). Pour éviter l'erreur, cherche la présence d'un déterminant : si le mot est précédé d'un déterminant et qu'il désigne un être ou une chose, c'est un nom.\n- **Confusion entre pronom et déterminant** : Les pronoms remplacent un nom, les déterminants l'accompagnent. Ex : *mon* est un déterminant, *le mien* est un pronom. Astuce : si le mot est seul devant un verbe, c'est souvent un pronom.\n- **Ne pas confondre adverbe et adjectif** : L'adjectif s'accorde avec le nom, l'adverbe est invariable. Ex : *elle est gentille* (adjectif) vs *elle parle gentiment* (adverbe).\n- **Attention aux homonymes** : *ou* (conjonction) vs *où* (pronom relatif ou adverbe). *et* (conjonction) vs *est* (verbe être).\n\n## Synthèse\n\n1. **Il existe 10 classes grammaticales** : noms, déterminants, adjectifs, pronoms, verbes, adverbes, prépositions, conjonctions, interjections, onomatopées.\n2. **Pour identifier une classe, utilise des tests** : déterminant + mot → nom ; conjugaison → verbe ; invariabilité → adverbe, préposition, etc.\n3. **Méfie-toi des mots qui changent de classe selon le contexte** et des homonymes. La classe grammaticale est fixée par l'usage dans la phrase.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "grammaire",
+    "classes grammaticales",
+    "nature des mots",
+    "6ème",
+    "français"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la classe grammaticale du mot 'rapidement' dans la phrase : 'Il court rapidement.' ?",
+      "options": [
+        "Adjectif",
+        "Adverbe",
+        "Nom",
+        "Verbe"
+      ],
+      "answer": 1,
+      "explanation": "Rapidement est invariable et modifie le verbe 'court', c'est donc un adverbe."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Le mot 'maison' est un nom car on peut dire 'la maison'.",
+      "answer": true,
+      "explanation": "La présence d'un déterminant ('la') devant 'maison' indique qu'il s'agit d'un nom."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Dans la phrase 'Le chat dort.', le mot 'chat' est de la classe grammaticale : ______",
+      "answer": "nom",
+      "explanation": "Le chat est un être, précédé d'un déterminant, c'est donc un nom."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la classe grammaticale du mot 'et' ?",
+      "options": [
+        "Préposition",
+        "Conjonction",
+        "Adverbe",
+        "Interjection"
+      ],
+      "answer": 1,
+      "explanation": "'Et' est une conjonction de coordination qui relie des mots ou des groupes de mots."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Le mot 'beau' est un adjectif qualificatif car il s'accorde en genre et en nombre avec le nom.",
+      "answer": true,
+      "explanation": "L'adjectif qualificatif s'accorde avec le nom qu'il qualifie : 'beau' devient 'belle' au féminin."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Dans la phrase 'Elle mange une pomme.', le mot 'elle' est un ______",
+      "answer": "pronom",
+      "explanation": "'Elle' remplace un nom (ex: Marie), c'est donc un pronom."
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "maths-quatrieme-l7-equations-inequations",
+  "subjectId": "maths",
+  "levelId": "quatrieme",
+  "slug": "l7-equations-inequations",
+  "title": "Équations et inéquations dans ℚ – 4ème",
+  "summary": "Leçon sur les équations du premier degré dans l’ensemble des nombres rationnels, incluant définitions, propriétés d’addition et de multiplication, résolutions d’équations simples, exemples tirés du contexte scolaire et exercices d’application.",
+  "lesson": "## Situation d’apprentissage\nPendant les vacances de Noël, 85 spectateurs ont assisté à une représentation. Les assis paient 500 F, les debout 150 F. La recette totale est de 30 250 F. Les élèves doivent résoudre l’équation \\(500x+150(85-x)=30250\\) pour connaître le nombre d’assis.\n\n## 1. Définitions\n- **Équation du premier degré** : expression de la forme \\(ax+b=c\\) avec \\(a,b,c\\inℚ\\) et \\(a\\neq0\\).\\n- **Premier membre** : \\(ax+b\\).\\n- **Second membre** : \\(c\\).\\n- **Solution** : valeur de \\(x\\) qui rend l’égalité vraie.\n\n## 2. Propriétés fondamentales\n### 2.1 Addition d’un même nombre\nSi \\(a=b\\) alors \\(a+ c = b+ c\\).\n### 2.2 Multiplication par un nombre non nul\nSi \\(a=b\\) alors \\(ka = kb\\) avec \\(k\\neq0\\).\n\n## 3. Résolution d’équations simples\n- **Forme \\(x + p = q\\)** → solution \\(x = q-p\\).\n- **Forme \\(ax = b\\)** → solution \\(x = \\frac{b}{a}\\).\n\n## 4. Exemples\n1. \\(2x+3=5\\) → \\(x=1\\).\n2. \\(4x=8\\) → \\(x=2\\).\n3. Situation du théâtre : \\(500x+150(85-x)=30250\\) → \\(x=55\\) assis.\n\n## 5. Exercices d’application\n- Justifier si un nombre est solution ou non.\n- Vrai/Faux sur les propriétés d’addition et de multiplication.\n- Résoudre des équations du type \\(x+12=1\\), \\(-13+x=0\\), \\(4x=2\\), \\(-3x=5\\).\n\n---\n*Toutes les réponses sont données dans le corrigé du document.*",
+  "estimatedMinutes": 60,
+  "tags": [
+    "maths",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans l’équation \\(500x+150(85-x)=30250\\), quel terme représente le nombre de spectateurs debout ?",
+      "options": [
+        "500x",
+        "150(85-x)",
+        "30250",
+        "85-x"
+      ],
+      "answer": 1,
+      "explanation": "Le terme \\(150(85-x)\\) correspond au nombre de debout (85‑x) multiplié par le tarif 150 F."
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "prompt": "Résous l’équation \\(x+12=1\\) dans ℚ. Donne la solution sous forme décimale ou fractionnaire.",
+      "answer": "-11",
+      "explanation": "On soustrait 12 des deux côtés : \\(x = 1-12 = -11\\)."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Si \\(2x+4=1\\) alors \\(2x+5=3\\) est vraie.",
+      "answer": false,
+      "explanation": "En ajoutant 1 aux deux membres de \\(2x+4=1\\) on obtient \\(2x+5=2\\), pas 3."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la solution de l’équation \\(4x=2\\) ?",
+      "options": [
+        "0.5",
+        "2",
+        "-0.5",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "Diviser les deux membres par 4 donne \\(x=2/4=0.5\\)."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "prompt": "Donne la solution de \\(-3x=5\\).",
+      "answer": "-5/3",
+      "explanation": "Diviser par -3 : \\(x = 5/(-3) = -5/3\\)."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "La propriété « Si a=b alors a+c = b+c » reste valable même si c=0.",
+      "answer": true,
+      "explanation": "Ajouter 0 ne change rien, l’égalité reste vraie."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel est le premier membre de l’équation \\(2x+3=5\\) ?",
+      "options": [
+        "2x",
+        "3",
+        "5",
+        "2x+3"
+      ],
+      "answer": 3,
+      "explanation": "Le premier membre est l’expression à gauche de l’égalité, soit \\(2x+3\\)."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Si \\(a=b\\) alors \\(ka=kb\\) est toujours vraie, même pour \\(k=0\\).",
+      "answer": false,
+      "explanation": "La propriété nécessite \\(k\\neq0\\); avec \\(k=0\\) on obtient \\(0=0\\) qui est triviale mais ne conserve l’information sur a et b."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "Résous dans ℚ : \\(x-7=-11\\).",
+      "answer": "-4",
+      "explanation": "Ajouter 7 aux deux membres : \\(x = -11+7 = -4\\)."
+    },
+    {
+      "id": "q11",
+      "type": "truefalse",
+      "prompt": "Le nombre \\(-2\\) est solution de l’équation \\(9x = -10\\).",
+      "answer": false,
+      "explanation": "\\(9\\times(-2) = -18 \\neq -10\\)."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Combien de spectateurs assis y avait‑il selon le calcul précédent ? (Réponse entière)",
+      "answer": "55",
+      "explanation": "Résolution de \\(500x+150(85-x)=30250\\) donne \\(x=55\\)."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quelle propriété justifie le passage de \\(2x+1=2\\) à \\(2x+4=5\\) ?",
+      "options": [
+        "Multiplication par 3",
+        "Addition de 3",
+        "Soustraction de 1",
+        "Division par 2"
+      ],
+      "answer": 1,
+      "explanation": "On ajoute 3 aux deux membres, conformément à la propriété d’addition."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Dans ℚ, l’équation \\(x+5=7\\) a exactement une solution.",
+      "answer": true,
+      "explanation": "La solution est \\(x=2\\); une équation du premier degré a toujours une unique solution."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "Résous \\( -13 + x = 0 \\).",
+      "answer": "13",
+      "explanation": "Ajouter 13 aux deux membres donne \\(x = 13\\)."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel est le second membre de l’équation \\(4y-3 = -y\\) ?",
+      "options": [
+        "4y-3",
+        "-y",
+        "0",
+        "4y"
+      ],
+      "answer": 1,
+      "explanation": "Le second membre est l’expression à droite de l’égalité, ici \\(-y\\)."
+    }
+  ]
+}

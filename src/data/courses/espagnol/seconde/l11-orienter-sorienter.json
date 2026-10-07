@@ -1,0 +1,167 @@
+{
+  "id": "espagnol-seconde-l11-orienter-sorienter",
+  "subjectId": "espagnol",
+  "levelId": "seconde",
+  "slug": "l11-orienter-sorienter",
+  "title": "Orientarse en Salamanca: vocabulario y gramática (2nde)",
+  "summary": "Leçon d'espagnol pour la 2nde portant sur les adverbes de lieu et les expressions d'orientation. Elle comprend une situation d'apprentissage, du vocabulaire (rincón, paseo, acercarse), un rappel grammatical, des activités d'application et d'évaluation, ainsi que des exercices de correspondance, vrai/faux et questions ouvertes.",
+  "lesson": "## Compétence\nTraiter une situation relative à l’échange d’informations\n\n## Situation d’apprentissage\nDes élèves guinéo-équatoriens visitent le club d’espagnol du Lycée Moderne de Lakota et demandent aux élèves ivoiriens de les orienter dans la ville.\n\n## Contenu\n### Vocabulaire\n- **Un rincón** – un coin intéressant (ex. Yopougon)\n- **El paseo** – la promenade ou le tour de la ville\n- **Acercarse a** – s’approcher de quelqu’un\n\n### Résumé\nLe texte décrit une visite de 24 h à Salamanque et propose des lieux à découvrir.\n\n### Grammaire\nUtilisation des adverbes de lieu pour orienter : aquí, ahí, allí, cerca de, al lado de, detrás de, encima de, lejos de, etc.\n\n### Règle\nPour orienter ou s’orienter, on emploie les adverbes de lieu (ici, là, près de, à côté de, …).\n\n## Activité d’application\nCompléter les phrases avec l’adverbe adéquat :\n1. La Plaza Mayor … **en el centro de** la ciudad.\n2. El supermercado está … **cerca de** la farmacia.\n3. En el aula, la pizarra está … **delante de** los alumnos.\n4. La próxima CAN tendrá lugar … **aquí** en Côte‑Ivoire.\n\n## Situation d’évaluation\nAprès la leçon, les élèves doivent orienter un ami ou un touriste en utilisant les expressions apprises.\n\n## Exercices\n### Exercice 1 – Association\n| A | B |\n|---|---|\n| 1 Los rincones | c Los lugares |\n| 2 La ruta | d El camino |\n| 3 Los monumentos | b Los edificios |\n| 4 El paseo | a La visita |\n\n### Exercice 2 – Vrai/Faux\n1. Salamanca tiene un sinfín de rincones importantes. **V**\n2. La Clerecía es un palacio histórico de estilo gótico. **F**\n3. La universidad y las catedrales forman el Patio Chico. **F**\n4. El Huerto de Calixto y Melibea está cerca del Palacio de Anaya. **V**\n\n### Exercice 3 – Questions ouvertes\n- Sitios turísticos más llamativos de Salamanca.\n- Motifs de la fréquentation touristique.\n- Propositions pour développer le tourisme dans son pays.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "espagnol",
+    "seconde",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel adverbe de lieu complète correctement la phrase : « El supermercado está ___ la farmacia » ?",
+      "options": [
+        "dentro de",
+        "cerca de",
+        "encima de",
+        "al lado de"
+      ],
+      "answer": 1,
+      "explanation": "« cerca de » indique proximité, correspondant au texte."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Dans la phrase « Desde aquí, puedes dirigirte a la Clerecía », « aquí » est un(e)…",
+      "options": [
+        "adverbe de temps",
+        "adverbe de lieu",
+        "préposition",
+        "verbe"
+      ],
+      "answer": 1,
+      "explanation": "« aquí » indique le point de départ, donc adverbe de lieu."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "« El uso de los adverbios de lugar es opcional para orientar a alguien ».",
+      "answer": false,
+      "explanation": "Les adverbes de lieu sont nécessaires pour donner une orientation claire."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Complétez : « El profesor se ___ a los alumnos para que le oigan bien. »",
+      "answer": "acerca",
+      "explanation": "Le verbe « acercarse » signifie « s’approcher »."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel terme désigne « un coin intéressant pour se divertir » selon le vocabulaire fourni ?",
+      "options": [
+        "el paseo",
+        "un rincón",
+        "acercarse",
+        "el camino"
+      ],
+      "answer": 1,
+      "explanation": "« un rincón » correspond à la définition donnée."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "« La Plaza Mayor de Salamanca está delante de la ciudad ».",
+      "answer": false,
+      "explanation": "Selon l’activité, elle est « en el centro de » la ciudad."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "Dans la consigne d’orientation, on trouve « Giras por la ___; verás mi colegio… ».",
+      "answer": "derecha",
+      "explanation": "L’instruction indique de tourner à droite."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel adverbe de lieu indique une position immédiatement au-dessus de quelque chose ?",
+      "options": [
+        "debajo de",
+        "encima de",
+        "al lado de",
+        "cerca de"
+      ],
+      "answer": 2,
+      "explanation": "« encima de » signifie « au-dessus de »."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "« Los adverbios de lugar incluyen: aquí, allí, lejos de, dentro de ».",
+      "answer": true,
+      "explanation": "Tous ces termes sont listés dans la règle."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "Associez le mot « paseo » à sa traduction française : « ____ ».",
+      "answer": "promenade",
+      "explanation": "« paseo » se traduit par « promenade »."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Dans l’exercice d’association, quel élément de la colonne A correspond à « El camino » ?",
+      "options": [
+        "Los rincones",
+        "La ruta",
+        "Los monumentos",
+        "El paseo"
+      ],
+      "answer": 1,
+      "explanation": "« La ruta » se traduit par « le chemin »."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "« La Clerecía est un palais historique de style gothique ».",
+      "answer": false,
+      "explanation": "Le texte indique que c’est faux."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Complétez la phrase : « Para desarrollar el turismo, se debe ___ las culturas locales. »",
+      "answer": "promover",
+      "explanation": "Le verbe approprié est « promover »."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel adverbe de lieu indique une position « à côté de » ?",
+      "options": [
+        "detrás de",
+        "al lado de",
+        "encima de",
+        "lejos de"
+      ],
+      "answer": 1,
+      "explanation": "« al lado de » signifie « à côté de »."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "« En el aula, la pizarra está debajo de los alumnos ».",
+      "answer": false,
+      "explanation": "Selon l’activité, la pizarra est « delante de » les élèves."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Dans la situation d’évaluation, le touriste doit se rendre à la ___ (lieu public) après la pharmacie.",
+      "answer": "comisaría",
+      "explanation": "Le texte indique que la destination finale est la comisaría."
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "maths-quatrieme-l9-perspective-cavaliere",
+  "subjectId": "maths",
+  "levelId": "quatrieme",
+  "slug": "l9-perspective-cavaliere",
+  "title": "Perspective cavalière – Géométrie dans l’espace (4ᵉ)",
+  "summary": "Apprenez les règles de la perspective cavalière, identifiez les plans (vertical, horizontal) d’un solide, distinguez les traits cachés et les fuyantes, puis appliquez ces notions à la représentation d’un pavé droit. Exercices d’application et évaluation inclus.",
+  "lesson": "## Situation d’apprentissage\nLors d’une « journée carrière », les élèves de 4ᵉ ont visité une usine de savons en forme de pavé droit. De retour, chaque groupe doit représenter le savon en perspective cavalière. Aucun dessin n’est conforme, les élèves recherchent les règles.\n\n## Vocabulaire\n- **Perspective cavalière** : technique de dessin qui montre un solide en conservant les faces visibles et en représentant les arêtes cachées par des pointillés.\n- **Plan vertical de face** : plan contenant la face avant du solide.\n- **Plan vertical de profil** : plan contenant une face latérale.\n- **Plan horizontal** : plan contenant la base du solide.\n\n## Règles de la perspective cavalière\n1. **Arêtes parallèles** sur l’objet → segments parallèles sur le dessin.  \n2. **Face dans le plan vertical de face** : dessinée sans déformation.  \n3. **Arêtes cachées** : traits en pointillés.  \n4. **Arêtes perpendiculaires au plan vertical de face** : segments formant un angle fixe \\(\\alpha\\) avec l’horizontale.  \n5. **Coefficient de réduction** \\(c\\) : les longueurs de ces arêtes sont multipliées par \\(c\\) (0<c<1).\n\n## Exercices de fixation\n1. Identifier les plans d’un solide donné (ex. parallélogrammes LKGH, EILH, etc.).\n2. Vrai/Faux sur les affirmations des règles.\n3. Reconnaître les figures en perspective cavalière parmi plusieurs dessins.\n\n## Situation d’évaluation\nReprésenter en perspective cavalière une boîte de craie :\n- Face avant : IJ = 9 cm, IF = 6 cm\n- Arête [IK] = 6 cm\n- Coefficient \\(c = 0,5\\), angle \\(\\alpha = 40°\\)\nQuestion : la longueur des fuyantes vaut‑elle 3 cm ?\n\n**Solution** : longueur fuyante = \\(c \\times IK = 0,5 \\times 6 = 3\\) cm → le rapporteur a raison.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "maths",
+    "quatrieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel plan contient la face avant du solide ?",
+      "options": [
+        "Plan vertical de face",
+        "Plan vertical de profil",
+        "Plan horizontal",
+        "Plan oblique"
+      ],
+      "answer": 0,
+      "explanation": "La face avant appartient au plan vertical de face."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Dans la perspective cavalière, les arêtes perpendiculaires au plan vertical de face sont dessinées avec un angle de :",
+      "options": [
+        "0°",
+        "90°",
+        "α (ex. 40°)",
+        "180°"
+      ],
+      "answer": 2,
+      "explanation": "Elles forment l’angle fixe α avec l’horizontale."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Le coefficient de réduction s’appelle _______.",
+      "answer": "coefficient de réduction",
+      "explanation": "Définition de la règle 5."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Si c = 0,5 et l’arête réelle mesure 8 cm, quelle est la longueur projetée ?",
+      "options": [
+        "4 cm",
+        "8 cm",
+        "12 cm",
+        "16 cm"
+      ],
+      "answer": 0,
+      "explanation": "Longueur projetée = c × longueur réelle = 0,5 × 8 = 4 cm."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Parmi les parallélogrammes suivants, lequel représente le plan horizontal du solide présenté ?",
+      "options": [
+        "LKJI",
+        "EILH",
+        "LKGH",
+        "FJKG"
+      ],
+      "answer": 0,
+      "explanation": "LKJI (ou EHGF) correspond au plan horizontal."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "prompt": "Dans la règle 4, l’angle α est appelé ______ des fuyantes sur l’horizontal.",
+      "answer": "inclinaison",
+      "explanation": "Définition de l’angle α."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quelle figure parmi les suivantes est en perspective cavalière ?",
+      "options": [
+        "Figure 1",
+        "Figure 2",
+        "Figure 3",
+        "Figure 4"
+      ],
+      "answer": 0,
+      "explanation": "Selon le corrigé, les figures 1 et 4 le sont ; on accepte la première."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Le plan vertical de profil peut être représenté par quel parallélogramme ?",
+      "options": [
+        "EILH",
+        "LKGH",
+        "EHGF",
+        "IJLK"
+      ],
+      "answer": 0,
+      "explanation": "EILH (ou FJKG) est un plan vertical de profil."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Dans l’exercice d’évaluation, la longueur des fuyantes vaut ______ cm.",
+      "answer": "3",
+      "explanation": "c × IK = 0,5 × 6 = 3 cm."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel type de trait représente une arête cachée ?",
+      "options": [
+        "Trait plein",
+        "Trait pointillé",
+        "Trait double",
+        "Trait en tirets"
+      ],
+      "answer": 1,
+      "explanation": "Les arêtes cachées sont en pointillés (règle 3)."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Le nom du document officiel est « CODE » suivi du thème : _______.",
+      "answer": "GEOMETRIE DANS L’ESPACE",
+      "explanation": "Titre du thème indiqué dans le document."
+    }
+  ]
+}

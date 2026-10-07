@@ -1,0 +1,69 @@
+{
+  "id": "maths-cinquieme-proportionalite-pourcentages",
+  "title": "Proportionnalité et pourcentages",
+  "summary": "La proportionnalité est une relation entre deux grandeurs qui permet de résoudre de nombreux problèmes de la vie courante (recettes, distances, prix). Les pourcentages, qui sont une application directe de la proportionnalité, sont indispensables pour comprendre les soldes, les statistiques et les taux.",
+  "lesson": "## Introduction & Mise en situation\n\nImagine que tu prépares un jus pour 4 personnes et que tu utilises 6 oranges. Pour 8 personnes, il te faudra 12 oranges. C'est un exemple de situation **proportionnelle** : quand une quantité double, l'autre double aussi. Ce chapitre est crucial car il t'apprend à reconnaître et à utiliser cette relation pour résoudre des problèmes concrets : calculer un prix après une réduction, partager équitablement, lire des graphiques, etc. Les pourcentages sont partout : dans les soldes (-\"20%\"), dans les résultats scolaires (\"85% de réussite\"), dans les statistiques. Maîtriser ces notions te donne des outils puissants pour analyser le monde.\n\n## 1. Définitions et Principes Fondamentaux\n\n**Proportionnalité** : Deux grandeurs sont proportionnelles si l'on obtient les valeurs de l'une en multipliant les valeurs de l'autre par un même nombre non nul, appelé **coefficient de proportionnalité**.\n\nSi $x$ et $y$ sont deux grandeurs proportionnelles, alors il existe un nombre $k$ tel que $y = k \\times x$. Ce nombre $k$ est constant.\n\n**Tableau de proportionnalité** : Un tableau est de proportionnalité si on passe d'une ligne à l'autre en multipliant ou en divisant par un même nombre.\n\n**Pourcentage** : Un pourcentage est une fraction dont le dénominateur est 100. Par exemple, $25\\% = \\frac{25}{100} = 0,25$. Calculer $p\\%$ d'une quantité $Q$, c'est effectuer : $Q \\times \\frac{p}{100}$.\n\n**Propriété fondamentale** : Dans une situation de proportionnalité, les produits en croix sont égaux. Si $a$, $b$, $c$, $d$ forment un tableau de proportionnalité ($a$ et $c$ sur une ligne, $b$ et $d$ sur l'autre), alors $a \\times d = b \\times c$.\n\n## 2. Propriétés et Méthodes d'application\n\n### Méthode 1 : Reconnaître une situation de proportionnalité\n\nVérifie si le quotient des deux grandeurs est constant. Par exemple :\n\n| Nombre de cahiers | 2 | 5 | 7 |\n|-------------------|-----|-----|-----|\n| Prix (€)          | 600 | 1500| 2100|\n\nCalculons les quotients : $\\frac{600}{2} = 300$, $\\frac{1500}{5} = 300$, $\\frac{2100}{7} = 300$. Le coefficient est 300, donc c'est proportionnel.\n\n### Méthode 2 : Utiliser le coefficient de proportionnalité\n\nPour trouver une valeur manquante, on multiplie ou on divise par le coefficient.\n\n**Exemple** : Un robinet débite 12 litres en 3 minutes. Combien débite-t-il en 7 minutes ?\n\nCoefficient : $\\frac{12}{3} = 4$ L/min. En 7 minutes : $7 \\times 4 = 28$ litres.\n\n### Méthode 3 : Le produit en croix (règle de trois)\n\nPour trouver une quatrième proportionnelle, on utilise la formule :\n\nSi $a$, $b$, $c$ sont connus et $d$ inconnu, alors $d = \\frac{b \\times c}{a}$.\n\n**Exemple** : 5 kg de pommes coûtent 2000 F. Combien coûtent 3 kg ?\n\n$d = \\frac{2000 \\times 3}{5} = 1200$ F.\n\n### Méthode 4 : Calculer un pourcentage\n\nPour calculer $p\\%$ d'une quantité $Q$, on fait $Q \\times \\frac{p}{100}$.\n\n**Exemple** : Un article coûte 8000 F et est soldé à -30%. La réduction est : $8000 \\times \\frac{30}{100} = 2400$ F. Le nouveau prix est : $8000 - 2400 = 5600$ F.\n\n### Méthode 5 : Appliquer une augmentation ou une réduction\n\n- Augmenter de $p\\%$ revient à multiplier par $1 + \\frac{p}{100}$.\n- Réduire de $p\\%$ revient à multiplier par $1 - \\frac{p}{100}$.\n\n**Exemple** : Un prix de 5000 F augmente de 5%. Nouveau prix : $5000 \\times 1,05 = 5250$ F.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre pourcentage et valeur** : 20% de 50 n'est pas 20, mais $50 \\times 0,2 = 10$. Toujours préciser la quantité de référence.\n- **Additionner des pourcentages** : Une hausse de 10% puis une baisse de 10% ne ramène pas au prix initial. Exemple : 100 € +10% = 110 €, puis -10% = 99 €. On ne peut pas additionner directement les pourcentages.\n- **Oublier le coefficient de proportionnalité** : Dans un tableau, vérifier que le quotient est constant. Parfois, les valeurs sont proportionnelles mais avec un coefficient non entier.\n- **Erreur de produit en croix** : Bien placer les valeurs dans le tableau avant de calculer. Par exemple, si 3 stylos coûtent 450 F, pour 5 stylos, on écrit : $\\frac{3}{450} = \\frac{5}{x}$, donc $x = \\frac{450 \\times 5}{3} = 750$ F.\n- **Ne pas convertir les pourcentages en décimal** : $25\\%$ doit être écrit $0,25$ dans les calculs.\n\n## Synthèse\n\n1. **Reconnaître la proportionnalité** : le quotient entre les deux grandeurs est constant (coefficient de proportionnalité).\n2. **Utiliser la règle de trois** : pour trouver une valeur manquante, on fait le produit en croix.\n3. **Calculer un pourcentage** : pour prendre $p\\%$ d'une quantité, on multiplie par $\\frac{p}{100}$ ; pour augmenter ou réduire, on multiplie par $1 \\pm \\frac{p}{100}$.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "proportionnalité",
+    "pourcentages",
+    "règle de trois",
+    "collège"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le coefficient de proportionnalité dans le tableau suivant : x: 2, 5, 8 ; y: 6, 15, 24 ?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "On calcule 6/2 = 3, 15/5 = 3, 24/8 = 3. Le coefficient est 3."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Une augmentation de 10% suivie d'une diminution de 10% ramène à la valeur initiale.",
+      "answer": false,
+      "explanation": "Si on part de 100, +10% donne 110, puis -10% de 110 donne 99, ce qui n'est pas 100. Les pourcentages ne s'additionnent pas ainsi."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Si 4 kg de riz coûtent 2400 F, combien coûtent 7 kg ? (en F)",
+      "answer": "4200",
+      "explanation": "Le prix au kg est 2400/4 = 600 F, donc 7 kg coûtent 7 × 600 = 4200 F."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Un article coûte 2500 F et subit une réduction de 20%. Quel est le nouveau prix ?",
+      "options": [
+        "2000 F",
+        "2300 F",
+        "2400 F",
+        "2500 F"
+      ],
+      "answer": 0,
+      "explanation": "La réduction est 2500 × 0,20 = 500 F, donc le nouveau prix est 2500 - 500 = 2000 F."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "prompt": "Dans un tableau de proportionnalité, si a = 3, b = 7, c = 12, quelle est la valeur de d ? (a/b = c/d)",
+      "answer": "28",
+      "explanation": "Produit en croix : 3 × d = 7 × 12, donc d = (7 × 12) / 3 = 84 / 3 = 28."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "Deux grandeurs sont proportionnelles si leur produit est constant.",
+      "answer": false,
+      "explanation": "C'est le quotient qui doit être constant, pas le produit. Le produit constant caractérise l'inverse proportionnalité."
+    }
+  ]
+}

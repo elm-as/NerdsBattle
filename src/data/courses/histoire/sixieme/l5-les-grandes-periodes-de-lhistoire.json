@@ -1,0 +1,207 @@
+{
+  "id": "histoire-sixieme-l5-les-grandes-periodes-de-lhistoire",
+  "subjectId": "histoire",
+  "levelId": "sixieme",
+  "slug": "l5-les-grandes-periodes-de-lhistoire",
+  "title": "Les grandes périodes de l’histoire de l’humanité, de l’Afrique et de la Côte d’Ivoire",
+  "summary": "Cette leçon présente les principales divisions chronologiques de l’histoire mondiale, africaine et ivoirienne : préhistoire, antiquité, Moyen‑Âge, temps modernes et époque contemporaine, ainsi que les cinq phases africaines (obscure, Moyen‑Âge, traite négrière, colonisation, indépendances) et les quatre périodes ivoiriennes (obscure, précoloniale, coloniale, indépendance).",
+  "lesson": "# Les bases de l’étude de l’histoire\n## Introduction\nL’histoire est la science du passé humain, découpée en périodes marquées par des **ruptures** (évènements ou dates). \n\n## I. Périodes classiques de l’humanité\n### 1. Périodes anciennes\n- **Antiquité** : ~‑3000 av. J‑C (invention de l’écriture) → 476 ap. J‑C (chute de l’Empire romain d’Occident).\n- **Moyen‑Âge** : 476 → 1492 (découverte de l’Amérique).\n### 2. Périodes récentes\n- **Temps modernes** : 1492 → 1789 (Révolution française).\n- **Époque contemporaine** : 1789 → aujourd’hui.\n\n## II. Grandes périodes de l’histoire de l’Afrique\n1. **Période obscure** : ‑3000 → 476.\n2. **Moyen‑Âge africain** : 476 → 1492 (grands empires).\n3. **Traite négrière** : 1492 → 1848 (abolition de la traite dans les colonies françaises).\n4. **Colonisation** : 1848 → 1960 (décolonisation).\n5. **Indépendances** : 1960 → présent.\n\n## III. Grandes périodes de l’histoire de la Côte d’Ivoire\n1. **Période obscure** : fin du néolithique (~‑1500) → 1470 (arrivée des Portugais).\n2. **Période précoloniale** : 1470 → 1893 (création de la colonie).\n3. **Période coloniale** : 1893 → 1960 (indépendance).\n4. **Période d’indépendance** : 1960 → présent.\n\n## Activités d’application\n- **Activité 1** : placer les périodes sur une frise chronologique.\n- **Activité 2** : associer chaque période africaine à sa date.\n- **Activité 3** : répondre aux questions ci‑dessous pour préparer le concours « Génies en Herbes ».",
+  "estimatedMinutes": 10,
+  "tags": [
+    "histoire",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle date marque la fin de l’Antiquité?",
+      "options": [
+        "476 ap. J‑C",
+        "1492",
+        "1789",
+        "3000 av. J‑C"
+      ],
+      "answer": 0,
+      "explanation": "L’Antiquité se termine avec la chute de l’Empire romain d’Occident en 476 ap. J‑C."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Le Moyen‑Âge débute en:",
+      "options": [
+        "476 ap. J‑C",
+        "1492",
+        "-3000",
+        "1789"
+      ],
+      "answer": 0,
+      "explanation": "Le Moyen‑Âge commence avec la chute de l’Empire romain d’Occident en 476 ap. J‑C."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "Les temps modernes s’étendent de 1492 à 1789.",
+      "answer": true,
+      "explanation": "Oui, les temps modernes couvrent 1492‑1789, de la découverte de l’Amérique à la Révolution française."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "La Révolution française marque le début de l’_____ contemporaine.",
+      "answer": "époque",
+      "explanation": "La Révolution de 1789 ouvre l’époque contemporaine."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle période africaine correspond à la traite négrière?",
+      "options": [
+        "1492‑1848",
+        "1848‑1960",
+        "476‑1492",
+        "-3000‑476"
+      ],
+      "answer": 0,
+      "explanation": "La traite négrière s’étend de 1492 à 1848."
+    },
+    {
+      "id": "q6",
+      "type": "truefalse",
+      "prompt": "L’indépendance de la Côte d’Ivoire a été proclamée en 1960.",
+      "answer": true,
+      "explanation": "L’indépendance a été obtenue le 7 août 1960."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "prompt": "La période obscure ivoirienne débute à la fin du _____ ivoirien.",
+      "answer": "néolithique",
+      "explanation": "Elle commence à la fin du néolithique, vers –1500."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel événement marque la fin du Moyen‑Âge africain?",
+      "options": [
+        "Découverte de l’Amérique (1492)",
+        "Révolution française (1789)",
+        "Abolition de la traite (1848)",
+        "Indépendance africaine (1960)"
+      ],
+      "answer": 0,
+      "explanation": "Le Moyen‑Âge africain se termine avec la découverte de l’Amérique en 1492."
+    },
+    {
+      "id": "q9",
+      "type": "truefalse",
+      "prompt": "La période coloniale ivoirienne commence en 1893 et se termine en 1960.",
+      "answer": true,
+      "explanation": "Exact, la colonie est créée en 1893 et l’indépendance en 1960."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "prompt": "La période de la colonisation africaine s’étend de _____ à 1960.",
+      "answer": "1848",
+      "explanation": "La colonisation débute en 1848 et se termine avec les indépendances en 1960."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel siècle correspond à la période obscure africaine?",
+      "options": [
+        "IIIe millénaire av. J‑C",
+        "Ve siècle ap. J‑C",
+        "XVe siècle ap. J‑C",
+        "XIXe siècle ap. J‑C"
+      ],
+      "answer": 0,
+      "explanation": "Elle commence vers –3000, soit le IIIe millénaire av. J‑C."
+    },
+    {
+      "id": "q12",
+      "type": "truefalse",
+      "prompt": "L’époque contemporaine commence en 1492.",
+      "answer": false,
+      "explanation": "L’époque contemporaine débute en 1789 avec la Révolution française."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "prompt": "Le concours « Génies en Herbes » porte sur le découpage de l’histoire de l’_____ et des peuples.",
+      "answer": "humanité",
+      "explanation": "Le thème du concours est le découpage de l’histoire de l’humanité."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel repère chronologique se situe entre 1492 et 1789?",
+      "options": [
+        "Temps modernes",
+        "Moyen‑Âge",
+        "Antiquité",
+        "Époque contemporaine"
+      ],
+      "answer": 0,
+      "explanation": "1492‑1789 correspond aux temps modernes."
+    },
+    {
+      "id": "q15",
+      "type": "truefalse",
+      "prompt": "La période précoloniale ivoirienne s’étend de 1470 à 1893.",
+      "answer": true,
+      "explanation": "Oui, la période précoloniale va de 1470 (découverte par les Portugais) à 1893 (création de la colonie)."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "La découverte de l’Amérique par Christophe Colomb a eu lieu en l’an _____.",
+      "answer": "1492",
+      "explanation": "Christophe Colomb a découvert l’Amérique en 1492."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quelle période suit immédiatement la période de la traite négrière en Afrique?",
+      "options": [
+        "Colonisation",
+        "Indépendances",
+        "Moyen‑Âge africain",
+        "Période obscure"
+      ],
+      "answer": 0,
+      "explanation": "Après la traite négrière (1492‑1848) vient la colonisation (1848‑1960)."
+    },
+    {
+      "id": "q18",
+      "type": "truefalse",
+      "prompt": "La frise chronologique de l’histoire de la Côte d’Ivoire comporte quatre grandes périodes.",
+      "answer": true,
+      "explanation": "Obscure, précoloniale, coloniale, indépendance."
+    },
+    {
+      "id": "q19",
+      "type": "fill",
+      "prompt": "Le premier grand empire de l’Afrique médiévale apparaît pendant le _____‑Âge africain.",
+      "answer": "Moyen",
+      "explanation": "Le Moyen‑Âge africain regroupe les grands empires médiévaux."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Quel événement marque la fin du Moyen‑Âge mondial?",
+      "options": [
+        "Chute de l’Empire romain (476)",
+        "Découverte de l’Amérique (1492)",
+        "Révolution française (1789)",
+        "Abolition de la traite (1848)"
+      ],
+      "answer": 1,
+      "explanation": "La découverte de l’Amérique en 1492 clôt le Moyen‑Âge."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "maths-terminale-suites-numeriques-convergence",
+  "title": "Suites numériques et théorèmes de convergence",
+  "summary": "Maîtrisez les suites numériques et les théorèmes de convergence pour réussir le BAC. Ce chapitre est essentiel pour analyser le comportement des suites et résoudre de nombreux problèmes d'analyse.",
+  "lesson": "## Introduction & Mise en situation\n\nLes suites numériques sont au cœur de l'analyse mathématique. Elles modélisent des phénomènes discrets : évolution d'une population, intérêts composés, algorithmes, etc. Les théorèmes de convergence permettent de déterminer si une suite tend vers une limite finie ou infinie, ce qui est crucial pour comprendre le comportement à long terme. Ce chapitre est un incontournable du BAC, tant pour les exercices spécifiques que pour les problèmes plus globaux.\n\n## 1. Définitions et Principes Fondamentaux\n\n**Définition d'une suite numérique** : Une suite numérique est une fonction $u: \\mathbb{N} \\to \\mathbb{R}$. On note $u_n$ le terme général.\n\n**Limite d'une suite** : On dit que la suite $(u_n)$ converge vers le réel $\\ell$ si pour tout $\\epsilon > 0$, il existe un rang $N$ tel que pour tout $n \\geq N$, $|u_n - \\ell| < \\epsilon$. On note $\\lim_{n \\to +\\infty} u_n = \\ell$.\n\n**Suite divergente** : Une suite est divergente si elle ne converge pas. Elle peut diverger vers $+\\infty$ (ou $-\\infty$) ou ne pas avoir de limite.\n\n**Théorème d'encadrement (des gendarmes)** : Si $v_n \\leq u_n \\leq w_n$ à partir d'un certain rang et si $\\lim v_n = \\lim w_n = \\ell$, alors $\\lim u_n = \\ell$.\n\n**Théorème de convergence monotone** : Toute suite croissante et majorée converge. Toute suite décroissante et minorée converge.\n\n**Suites adjacentes** : Deux suites $(u_n)$ et $(v_n)$ sont adjacentes si $(u_n)$ est croissante, $(v_n)$ est décroissante, et $\\lim (v_n - u_n) = 0$. Alors elles convergent vers la même limite.\n\n**Suites géométriques** : $u_{n+1} = q u_n$. Si $|q| < 1$, alors $\\lim u_n = 0$ ; si $q > 1$, $\\lim u_n = +\\infty$ (si $u_0 > 0$) ; si $q \\leq -1$, pas de limite.\n\n**Suites arithmético-géométriques** : $u_{n+1} = a u_n + b$, avec $a \\neq 1$. On introduit le point fixe $\\ell = \\frac{b}{1-a}$ et on pose $v_n = u_n - \\ell$. Alors $(v_n)$ est géométrique de raison $a$.\n\n## 2. Propriétés et Méthodes d'application\n\n**Méthode 1 : Étudier la convergence d'une suite explicite**\n\n- Calculer la limite si possible (forme indéterminée ? utiliser factorisation, quantité conjuguée, etc.).\n- Exemple : $u_n = \\frac{3n^2 + 2n}{5n^2 - 1}$.\n  - Factoriser par $n^2$ : $u_n = \\frac{3 + 2/n}{5 - 1/n^2}$.\n  - Comme $\\lim 1/n = 0$ et $\\lim 1/n^2 = 0$, on obtient $\\lim u_n = 3/5$.\n\n**Méthode 2 : Utiliser le théorème des gendarmes**\n\n- Encadrer $u_n$ entre deux suites qui convergent vers la même limite.\n- Exemple : $u_n = \\frac{\\sin n}{n}$.\n  - On a $-1 \\leq \\sin n \\leq 1$, donc $-\\frac{1}{n} \\leq u_n \\leq \\frac{1}{n}$.\n  - Comme $\\lim (-1/n) = \\lim (1/n) = 0$, par le théorème des gendarmes, $\\lim u_n = 0$.\n\n**Méthode 3 : Utiliser le théorème de convergence monotone**\n\n- Montrer que la suite est monotone et bornée.\n- Exemple : $u_{n+1} = \\sqrt{2 + u_n}$, avec $u_0 = 0$.\n  - Montrer par récurrence que $0 \\leq u_n \\leq 2$.\n  - Montrer que $(u_n)$ est croissante : $u_{n+1} - u_n = \\sqrt{2+u_n} - u_n$. Étudier le signe de $f(x) = \\sqrt{2+x} - x$ sur $[0,2]$.\n  - La suite est croissante et majorée par 2, donc elle converge vers $\\ell$.\n  - En passant à la limite dans $u_{n+1} = \\sqrt{2+u_n}$, on obtient $\\ell = \\sqrt{2+\\ell}$, d'où $\\ell^2 = 2+\\ell$, soit $\\ell = 2$ ou $\\ell = -1$. Comme $\\ell \\geq 0$, $\\ell = 2$.\n\n**Méthode 4 : Suites adjacentes**\n\n- Vérifier les trois conditions.\n- Exemple : $u_n = \\sum_{k=1}^n \\frac{1}{k^2}$ et $v_n = u_n + \\frac{1}{n}$.\n  - $(u_n)$ croissante, $(v_n)$ décroissante, $v_n - u_n = 1/n \\to 0$. Donc elles convergent vers une même limite (qui est $\\pi^2/6$).\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre limite et valeur en un point** : Une suite peut avoir une limite sans jamais l'atteindre.\n- **Appliquer le théorème des gendarmes sans vérifier les inégalités pour tout n** : Il suffit à partir d'un certain rang, mais il faut le justifier.\n- **Croire qu'une suite croissante et non majorée diverge vers $+\\infty$** : C'est vrai, mais il faut le démontrer.\n- **Oublier de vérifier les hypothèses des théorèmes** : Par exemple, pour la convergence monotone, il faut la monotonie et la bornitude.\n- **Erreur de calcul dans les limites de suites géométriques** : Vérifier la raison et le signe du premier terme.\n\n## Synthèse\n\n1. **Définitions** : Limite, convergence, divergence.\n2. **Théorèmes clés** : Gendarmes, convergence monotone, suites adjacentes.\n3. **Méthodes** : Pour étudier une suite, on cherche sa limite, on encadre, on montre la monotonie et la bornitude, ou on utilise les suites adjacentes.\n\nRévisez ces outils et entraînez-vous avec des exercices variés pour les maîtriser.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "suites",
+    "convergence",
+    "analyse",
+    "bac"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Soit la suite $(u_n)$ définie par $u_n = \\frac{2n+1}{3n-1}$. Quelle est sa limite ?",
+      "options": [
+        "$\\frac{2}{3}$",
+        "$\\frac{1}{3}$",
+        "2",
+        "$+\\infty$"
+      ],
+      "answer": 0,
+      "explanation": "En factorisant par $n$, on obtient $u_n = \\frac{2 + 1/n}{3 - 1/n}$, qui tend vers $\\frac{2}{3}$."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "Toute suite croissante est convergente.",
+      "answer": false,
+      "explanation": "Une suite croissante doit être majorée pour converger. Par exemple, $u_n = n$ est croissante mais diverge vers $+\\infty$."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Si $u_n = \\frac{\\sin n}{n}$, alors $\\lim_{n \\to +\\infty} u_n =$ ____ (donner la valeur numérique).",
+      "answer": "0",
+      "explanation": "Par le théorème des gendarmes, car $-1/n \\leq u_n \\leq 1/n$ et les deux bornes tendent vers 0."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Soit $(u_n)$ une suite géométrique de raison $q = -0.5$ et de premier terme $u_0 = 10$. Que vaut $\\lim u_n$ ?",
+      "options": [
+        "$+\\infty$",
+        "0",
+        "10",
+        "Pas de limite"
+      ],
+      "answer": 1,
+      "explanation": "Comme $|q| < 1$, la suite converge vers 0."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "Si deux suites $(u_n)$ et $(v_n)$ sont adjacentes, alors elles convergent vers la même limite.",
+      "answer": true,
+      "explanation": "C'est la propriété fondamentale des suites adjacentes : elles convergent toutes deux vers une même limite."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Pour la suite définie par $u_{n+1} = 0.5 u_n + 1$ avec $u_0 = 0$, la limite $\\ell$ vaut ____ (donner la valeur numérique).",
+      "answer": "2",
+      "explanation": "Le point fixe est $\\ell = \\frac{1}{1-0.5} = 2$. En posant $v_n = u_n - 2$, on obtient une suite géométrique de raison 0.5 qui converge vers 0, donc $u_n$ converge vers 2."
+    }
+  ]
+}

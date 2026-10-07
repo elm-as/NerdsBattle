@@ -1,0 +1,209 @@
+{
+  "id": "francais-sixieme-l3-gr-l3-s2-discours-indirect",
+  "subjectId": "francais",
+  "levelId": "sixieme",
+  "slug": "l3-gr-l3-s2-discours-indirect",
+  "title": "Les modalités du discours : le discours indirect",
+  "summary": "Le discours indirect rapporte les paroles ou pensées dans une subordonnée introduite par un verbe introducteur. Il entraîne des modifications des pronoms, des temps verbaux et des indicateurs de temps et de lieu.",
+  "lesson": "# Les modalités du discours : le discours indirect\n\n## Définition\nLe discours indirect est une forme de discours dans laquelle les paroles ou les pensées de quelqu’un sont rapportées dans des propositions subordonnées rattachées à un verbe introducteur.\n\n**Exemple :** Habib répond au commerçant qu’il n’a pas assez d’argent.\n\n## I. Modifications des pronoms personnels et des adjectifs possessifs\nLe passage du discours direct au discours indirect entraîne des modifications :\n\n- Les pronoms personnels de la 1re, 2e et 3e personne deviennent, au discours indirect, la 3e personne du singulier ou du pluriel.\n- Les adjectifs possessifs subissent également des transformations.\n\n| Discours direct | Discours indirect |\n|----------------|-------------------|\n| Je, tu, il/elle | Il ou elle |\n| Nous, vous, ils/elles | Ils ou elles |\n| Mon, ton, son | Son |\n| Ma, ta, sa | Sa |\n| Mes, tes, ses, leur | Il ou elle, ses, leur |\n\n**Exemple :**\n- Discours direct : Ma mère affirma : « Je prendrai ces chaussures pour ma fille. »\n- Discours indirect : Ma mère affirma qu’elle prendrait ces chaussures pour sa fille.\n\n## II. Modifications des temps verbaux\nElles dépendent du temps du verbe introducteur :\n- Si le verbe introducteur est au présent ou au futur, il n’y a pas de modification.\n- Si le verbe introducteur est à un temps du passé, les verbes du discours indirect se mettent au passé selon la concordance des temps :\n\n| Discours direct | Discours indirect |\n|----------------|-------------------|\n| Présent, imparfait | Imparfait |\n| Passé composé, passé simple, plus-que-parfait, passé antérieur | Plus-que-parfait |\n| Futur simple, futur antérieur | Conditionnel présent |\n| Impératif | Infinitif |\n\n**Exemple :**\n- Discours direct : Papa a dit : « je serai à la maison ce soir. »\n- Discours indirect : Papa a dit qu’il serait à la maison ce soir.\n\n## III. Transformations des adverbes et compléments circonstanciels de temps et de lieu\n\n| Discours direct | Discours indirect |\n|----------------|-------------------|\n| Hier | La veille |\n| Ici | Là |\n| Aujourd’hui | Ce jour-là |\n| Demain | Le lendemain |\n| Dans trois jours | Trois jours plus tard |\n| Après-demain | Le surlendemain |\n| Avant-hier | L’avant-veille |\n| Cette semaine | Cette semaine-là |\n\n## Exercice d’application\nSoient les phrases suivantes :\n- P1 : Ils disent : « Nous avons eu tort de ne pas venir à la fête hier. »\n- P3 : Elle s’exclama : « Je n’ai le temps de m’occuper de lui aujourd’hui. »\n- P : Elles affirmaient : « Nous ne resterons pas ici une minute de plus ».\n\n1. Identifie le type de discours dans chacune de ces phrases et justifie ta réponse.\n2. Remets ces phrases au discours contraire.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "francais",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Qu'est-ce que le discours indirect ?",
+      "options": [
+        "Une forme de discours où les paroles sont rapportées dans des propositions subordonnées rattachées à un verbe introducteur.",
+        "Une forme de discours où les paroles sont rapportées directement entre guillemets.",
+        "Une forme de discours où les paroles sont rapportées sans verbe introducteur.",
+        "Une forme de discours où les paroles sont rapportées au style direct."
+      ],
+      "answer": 0,
+      "explanation": "D'après la définition, le discours indirect rapporte les paroles ou pensées dans des propositions subordonnées rattachées à un verbe introducteur."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Au discours indirect, que devient le pronom 'je' ?",
+      "options": [
+        "Il ou elle",
+        "Nous",
+        "Vous",
+        "Ils ou elles"
+      ],
+      "answer": 0,
+      "explanation": "D'après le tableau, 'Je, tu, il/elle' devient 'Il ou elle' au discours indirect."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Au discours indirect, que devient l'adjectif possessif 'mon' ?",
+      "options": [
+        "Son",
+        "Sa",
+        "Ses",
+        "Leur"
+      ],
+      "answer": 0,
+      "explanation": "Le tableau indique que 'Mon, ton, son' devient 'Son' au discours indirect."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "prompt": "Complétez : Au discours indirect, 'ma' devient ___.",
+      "answer": "sa",
+      "explanation": "D'après le tableau, 'Ma, ta, sa' devient 'Sa' au discours indirect."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Si le verbe introducteur est au présent ou au futur, que se passe-t-il pour les temps des verbes au discours indirect ?",
+      "options": [
+        "Il n'y a pas de modifications.",
+        "Les verbes se mettent à l'imparfait.",
+        "Les verbes se mettent au conditionnel présent.",
+        "Les verbes se mettent au plus-que-parfait."
+      ],
+      "answer": 0,
+      "explanation": "Le document précise que si le verbe introducteur est au présent ou au futur, il n'y a pas de modifications."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Si le verbe introducteur est à un temps du passé, que devient le futur simple au discours indirect ?",
+      "options": [
+        "Conditionnel présent",
+        "Imparfait",
+        "Plus-que-parfait",
+        "Infinitif"
+      ],
+      "answer": 0,
+      "explanation": "D'après le tableau, le futur simple ou futur antérieur devient conditionnel présent au discours indirect."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Que devient l'impératif au discours indirect ?",
+      "options": [
+        "Infinitif",
+        "Imparfait",
+        "Conditionnel présent",
+        "Plus-que-parfait"
+      ],
+      "answer": 0,
+      "explanation": "Le tableau indique que l'impératif devient infinitif au discours indirect."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Que devient 'demain' au discours indirect ?",
+      "options": [
+        "Le lendemain",
+        "La veille",
+        "Ce jour-là",
+        "Le surlendemain"
+      ],
+      "answer": 0,
+      "explanation": "D'après le tableau, 'demain' devient 'le lendemain'."
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "prompt": "Complétez : Au discours indirect, 'ici' devient ___.",
+      "answer": "là",
+      "explanation": "Le tableau indique que 'ici' devient 'là'."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Dans l'exemple : 'Ma mère affirma qu’elle prendrait ces chaussures pour sa fille.', quel est le verbe introducteur ?",
+      "options": [
+        "affirma",
+        "prendrait",
+        "prit",
+        "a affirmé"
+      ],
+      "answer": 0,
+      "explanation": "Le verbe introducteur est 'affirma', il introduit la proposition subordonnée au discours indirect."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Dans la phrase 'Papa a dit qu’il serait à la maison ce soir.', quel temps est utilisé pour 'serait' ?",
+      "options": [
+        "Conditionnel présent",
+        "Futur simple",
+        "Imparfait",
+        "Plus-que-parfait"
+      ],
+      "answer": 0,
+      "explanation": "Le futur simple 'serai' du discours direct devient conditionnel présent 'serait' au discours indirect."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Que devient 'cette semaine' au discours indirect ?",
+      "options": [
+        "Cette semaine-là",
+        "La semaine précédente",
+        "La semaine suivante",
+        "La veille"
+      ],
+      "answer": 0,
+      "explanation": "D'après le tableau, 'cette semaine' devient 'cette semaine-là'."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "prompt": "Complétez : Au discours indirect, 'avant-hier' devient ___.",
+      "answer": "l'avant-veille",
+      "explanation": "Le tableau indique que 'avant-hier' devient 'l'avant-veille'."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Dans la phrase 'Ils disent : « Nous avons eu tort de ne pas venir à la fête hier. »', quel type de discours est utilisé ?",
+      "options": [
+        "Discours direct",
+        "Discours indirect",
+        "Discours indirect libre",
+        "Discours narrativisé"
+      ],
+      "answer": 0,
+      "explanation": "Les paroles sont rapportées entre guillemets, introduites par 'disent', c'est donc du discours direct."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Dans la phrase 'Elle s’exclama : « Je n’ai le temps de m’occuper de lui aujourd’hui. »', quel est le verbe introducteur ?",
+      "options": [
+        "s’exclama",
+        "ai",
+        "m’occuper",
+        "a"
+      ],
+      "answer": 0,
+      "explanation": "Le verbe introducteur est 's’exclama', il introduit le discours direct."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Quel est le passage correct du discours direct au discours indirect pour : 'Il m’a dit : « Je travaille ici. »' ?",
+      "options": [
+        "Il m’a dit qu’il travaillait là.",
+        "Il m’a dit qu’il travaille ici.",
+        "Il m’a dit qu’il travaillera là.",
+        "Il m’a dit qu’il avait travaillé ici."
+      ],
+      "answer": 0,
+      "explanation": "Le verbe introducteur est au passé composé, le présent 'travaille' devient imparfait 'travaillait', et 'ici' devient 'là'."
+    }
+  ]
+}

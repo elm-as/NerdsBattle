@@ -1,0 +1,92 @@
+{
+  "id": "physique-cinquieme-l5-dilattion-des-solides",
+  "subjectId": "physique",
+  "levelId": "cinquieme",
+  "slug": "l5-dilattion-des-solides",
+  "title": "Dilatation des solides : Propriétés physiques de la matière",
+  "summary": "Cette leçon de physique pour la classe de 5ème aborde la dilatation des solides. Elle définit la dilatation linéaire et volumique, identifie les facteurs influençant ce phénomène (température, nature du matériau, dimensions initiales) et présente des applications pratiques telles que le bilame, les joints de dilatation et l'emmanchement forcé.",
+  "lesson": "# Dilatation des Solides\n\n## 1. Dilatation linéaire\n\n### 1.1. Expérience et observations\nL'expérience utilise un dilatomètre. Une tige métallique est placée dans l'appareil. À l'état froid, l'aiguille est en position 0. Lorsque la tige est chauffée, elle s'allonge et pousse l'aiguille vers une position supérieure (ex: position 2).\n\n### 1.2. Conclusion\nUn solide se dilate quand sa température s'élève et se contracte quand sa température s'abaisse. La **dilatation linéaire** est l'augmentation de la longueur d'un solide sous l'effet de la chaleur.\n\n> **Remarque** : Le dilatomètre est l'appareil servant à étudier la dilatation linéaire.\n\n## 2. Dilatation volumique\n\n### 2.1. Expérience et observations\nUne boule en fer froide passe à travers un anneau métallique. Après chauffage, la boule ne passe plus à travers l'anneau.\n\n### 2.2. Conclusion\nLa **dilatation volumique** est l'augmentation du volume d'un solide dans toutes ses dimensions sous l'effet de la chaleur.\n\n## 3. Facteurs liés à la dilatation d'un solide\n\n### 3.1. La Température\nPlus la température s'élève, plus la dilatation est importante.\n*Exemple* : Une tige de fer de 1000 mm à 0°C mesure 1001,2 mm à 100°C.\n\n### 3.2. La Nature du solide\nLa dilatation dépend du matériau.\n*Exemple* : À 100°C, une tige d'aluminium (1000 mm) s'allonge de 2,3 mm, tandis qu'une tige de fer (1000 mm) ne s'allonge que de 1,2 mm. L'aluminium se dilate plus que le fer.\n\n### 3.3. Les Dimensions initiales du solide\nLa dilatation dépend de la longueur ou du volume initial.\n*Exemple* : À 100°C, une tige de fer de 1000 mm s'allonge de 1,2 mm, alors qu'une tige de 500 mm ne s'allonge que de 0,6 mm.\n\n## 4. Applications de la dilatation des solides\n\n### 4.1. Le bilame dans un thermostat\nLe bilame est constitué de deux lames de métaux différents soudées. Chauffé, il se courbe du côté du métal le moins dilatable. Il sert à ouvrir ou fermer un circuit électrique (ex: fer à repasser).\n\n### 4.2. Le joint de dilatation\nC'est un espace prévu pour absorber la dilatation des matériaux et éviter la détérioration des infrastructures (ponts, voies ferrées, oléoducs).\n\n### 4.3. L'emmanchement forcé\nTechnique consistant à fixer un objet à un manche en utilisant la dilatation (chauffage) pour faciliter l'insertion, puis la contraction pour un serrage étanche (ex: manche de couteau, réparation de tuyaux).",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "cinquieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel appareil permet d'étudier la dilatation linéaire d'un solide ?",
+      "options": [
+        "Le thermomètre",
+        "Le dilatomètre",
+        "Le baromètre",
+        "Le manomètre"
+      ],
+      "answer": 1,
+      "explanation": "Le dilatomètre est spécifiquement conçu pour mesurer l'allongement des solides."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "La dilatation est dite ______ lorsque la longueur du solide augmente.",
+      "answer": "0",
+      "explanation": "L'augmentation de la longueur correspond à la dilatation linéaire."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel facteur n'influence PAS la dilatation d'un solide ?",
+      "options": [
+        "La température",
+        "La nature du solide",
+        "La couleur du solide",
+        "Les dimensions initiales"
+      ],
+      "answer": 2,
+      "explanation": "La couleur n'a pas d'impact sur la dilatation physique du matériau."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "Le bilame est constitué de deux lames de métaux différents ______ l'une contre l'autre.",
+      "answer": "0",
+      "explanation": "Les lames du bilame sont soudées pour assurer une transmission efficace de la chaleur."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Lorsqu'il est chauffé, le bilame se courbe du côté du métal :",
+      "options": [
+        "Le plus dilatable",
+        "Le moins dilatable",
+        "Le plus lourd",
+        "Le plus léger"
+      ],
+      "answer": 1,
+      "explanation": "Le métal qui se dilate moins reste plus court, forçant la courbure vers ce côté."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "La dilatation est dite ______ lorsque le solide se dilate dans toutes ses dimensions.",
+      "answer": "1",
+      "explanation": "La dilatation dans toutes les dimensions (longueur, largeur, hauteur) est volumique."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quelle est l'application de la dilatation pour fixer un manche de couteau ?",
+      "options": [
+        "Le joint de dilatation",
+        "L'emmanchement forcé",
+        "Le thermostat",
+        "Le bilame"
+      ],
+      "answer": 1,
+      "explanation": "L'emmanchement forcé utilise la dilatation pour insérer puis serrer le manche."
+    }
+  ]
+}

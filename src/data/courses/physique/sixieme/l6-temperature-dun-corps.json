@@ -1,0 +1,225 @@
+{
+  "id": "physique-sixieme-l6-temperature-dun-corps",
+  "subjectId": "physique",
+  "levelId": "sixieme",
+  "slug": "l6-temperature-dun-corps",
+  "title": "Température d'un corps : mesure et unités",
+  "summary": "Découvre comment repérer la température d'un corps avec un thermomètre et distingue les unités comme le kelvin et le degré Celsius. Apprends à lire une température et à éviter les pièges de la sensation de chaud ou froid.",
+  "lesson": "# Température d'un corps\n\n## Introduction\nLa température est une grandeur physique qui permet de dire si un corps est chaud ou froid. Mais notre sensation est relative : elle ne suffit pas pour la mesurer. Dans cette leçon, tu vas apprendre à utiliser un thermomètre, connaître les unités de température et repérer la température de quelques corps.\n\n## 1. Définitions & Notions clés\n- **Température** : grandeur physique qui indique si un corps est chaud ou froid. Elle se mesure avec un thermomètre.\n- **Unités de température** :\n  - Unité légale (internationale) : le **kelvin** (symbole **K**).\n  - Unité usuelle : le **degré Celsius** (symbole **°C**).\n  - Dans les pays anglo-saxons : le **degré Fahrenheit** (symbole **°F**).\n- **Thermomètre** : instrument de repérage de la température. Il contient un liquide thermométrique dans un réservoir et une tige graduée.\n- **Équilibre thermique** : état atteint lorsque le thermomètre et le corps en contact ont la même température ; le liquide thermométrique se stabilise.\n- **Thermomètre médical** : thermomètre particulier gradué de **35°C à 42°C**, utilisé pour la température du corps humain. Il possède un étranglement qui empêche le liquide de redescendre rapidement.\n- **Températures de référence** :\n  - Glace fondante : **0°C**\n  - Eau bouillante : **100°C**\n  - Air ambiant (laboratoire) : **25°C**\n  - Corps humain normal : **37°C**\n- **Hyperthermie** : température corporelle supérieure à 37°C (corps chaud).\n- **Hypothermie** : température corporelle inférieure à 37°C (corps froid).\n\n## 2. Applications & Méthodes\n### 2.1. Utiliser un thermomètre de laboratoire\n1. Plonger le réservoir du thermomètre dans le corps (liquide) dont on veut mesurer la température.\n2. Attendre que la colonne de liquide se stabilise (équilibre thermique).\n3. Placer l'œil en face du niveau supérieur du liquide thermométrique.\n4. Faire la lecture sans retirer le réservoir du liquide.\n\n### 2.2. Lire une température\n- Repérer la valeur d'une graduation (par exemple 0,1°C ou 1°C selon le thermomètre).\n- Compter le nombre de graduations entre le zéro et le niveau du liquide.\n- Pour les températures négatives, lire en dessous de zéro.\n\n### 2.3. Repérer la température du corps humain avec un thermomètre médical\n1. Agiter le thermomètre pour ramener le liquide dans le réservoir.\n2. Mettre en contact le réservoir avec le corps (aisselles, bouche, anus).\n3. Attendre l'équilibre thermique (le niveau cesse de monter).\n4. Retirer le thermomètre et faire la lecture.\n\n### 2.4. Exemple de lecture\nSur un thermomètre médical gradué de 35°C à 42°C, si la colonne s'arrête à la 4e graduation après 39°C et que chaque graduation vaut 0,1°C, alors la température est 39,4°C.\n\n## 3. Pièges fréquents\n- **Confondre unité légale et unité usuelle** : le kelvin (K) est l'unité légale, le degré Celsius (°C) est l'unité usuelle.\n- **Se fier à la sensation de chaud ou froid** : elle est relative (exemple : main dans l'eau tiède et main dans l'eau froide). Il faut utiliser un thermomètre.\n- **Mal lire une graduation** : bien identifier la valeur d'une division et placer l'œil en face du niveau.\n- **Oublier l'étranglement du thermomètre médical** : il empêche le liquide de descendre, il faut donc agiter avant usage.\n- **Confondre hyperthermie et hypothermie** : hyper = au-dessus de 37°C, hypo = en dessous.\n\n## Synthèse\nLa température est une grandeur physique mesurable avec un thermomètre. L'unité légale est le kelvin (K), l'unité usuelle le degré Celsius (°C). Le thermomètre médical, gradué de 35°C à 42°C, sert à mesurer la température du corps humain (normale 37°C). La glace fondante est à 0°C et l'eau bouillante à 100°C. Pour une mesure fiable, il faut attendre l'équilibre thermique et lire correctement la graduation.",
+  "estimatedMinutes": 10,
+  "tags": [
+    "physique",
+    "sixieme",
+    "mena",
+    "ci",
+    "officiel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est l'unité légale de température ?",
+      "options": [
+        "Le degré Celsius",
+        "Le kelvin",
+        "Le degré Fahrenheit",
+        "Le mètre"
+      ],
+      "answer": 1,
+      "explanation": "L'unité légale de température est le kelvin, de symbole K."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle est l'unité usuelle de température ?",
+      "options": [
+        "Le kelvin",
+        "Le degré Fahrenheit",
+        "Le degré Celsius",
+        "Le gramme"
+      ],
+      "answer": 2,
+      "explanation": "L'unité usuelle de température est le degré Celsius, de symbole °C."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "prompt": "La sensation de chaud ou de froid est fiable pour mesurer la température.",
+      "answer": false,
+      "explanation": "La sensation du chaud ou du froid est relative par le toucher ; elle n'est pas fiable."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "prompt": "Le thermomètre est l'instrument de repérage de la ________.",
+      "answer": "température",
+      "explanation": "Le thermomètre est l'instrument qui permet de repérer la température."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle est la température de la glace fondante ?",
+      "options": [
+        "0°C",
+        "25°C",
+        "37°C",
+        "100°C"
+      ],
+      "answer": 0,
+      "explanation": "La température de la glace fondante est de 0°C."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle est la température de l'eau bouillante ?",
+      "options": [
+        "0°C",
+        "25°C",
+        "37°C",
+        "100°C"
+      ],
+      "answer": 3,
+      "explanation": "La température de l'eau bouillante est de 100°C."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quelle est la température normale du corps humain ?",
+      "options": [
+        "25°C",
+        "35°C",
+        "37°C",
+        "42°C"
+      ],
+      "answer": 2,
+      "explanation": "La température normale du corps humain est de 37°C."
+    },
+    {
+      "id": "q8",
+      "type": "truefalse",
+      "prompt": "Le thermomètre médical est gradué de 35°C à 42°C.",
+      "answer": true,
+      "explanation": "Le thermomètre médical est gradué de 35°C à 42°C."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "prompt": "L'unité internationale de température est le ________ de symbole ________.",
+      "answer": "kelvin, K",
+      "explanation": "L'unité internationale de température est le kelvin de symbole K."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Que signifie hyperthermie ?",
+      "options": [
+        "Température inférieure à 37°C",
+        "Température supérieure à 37°C",
+        "Température égale à 37°C",
+        "Température de 0°C"
+      ],
+      "answer": 1,
+      "explanation": "Hyperthermie signifie que la température du corps est supérieure à 37°C."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Que signifie hypothermie ?",
+      "options": [
+        "Température inférieure à 37°C",
+        "Température supérieure à 37°C",
+        "Température égale à 37°C",
+        "Température de 100°C"
+      ],
+      "answer": 0,
+      "explanation": "Hypothermie signifie que la température du corps est inférieure à 37°C."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "prompt": "Le thermomètre du laboratoire dispose d'un ________ qui contient un liquide.",
+      "answer": "réservoir",
+      "explanation": "Le thermomètre du laboratoire dispose d'un réservoir qui contient un liquide."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel est le rôle de l'étranglement dans un thermomètre médical ?",
+      "options": [
+        "Il empêche le liquide de monter",
+        "Il empêche le liquide de descendre rapidement",
+        "Il indique la température",
+        "Il chauffe le liquide"
+      ],
+      "answer": 1,
+      "explanation": "L'étranglement empêche le liquide thermométrique de descendre rapidement dans le réservoir."
+    },
+    {
+      "id": "q14",
+      "type": "truefalse",
+      "prompt": "Pour repérer la température d'un liquide, il faut retirer le thermomètre avant de faire la lecture.",
+      "answer": false,
+      "explanation": "Il faut faire la lecture sans retirer le réservoir du liquide."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "prompt": "La température de l'air ambiant au laboratoire est de ________°C.",
+      "answer": "25",
+      "explanation": "Au laboratoire de physique-chimie, la température de l'air ambiant est de 25°C."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel instrument utilise-t-on pour repérer la température du corps humain ?",
+      "options": [
+        "Le thermomètre de laboratoire",
+        "Le thermomètre médical",
+        "Le thermomètre à maxima et minima",
+        "Le thermomètre électronique"
+      ],
+      "answer": 1,
+      "explanation": "Le thermomètre médical est utilisé pour repérer la température du corps humain."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Sur un thermomètre médical, la valeur d'une graduation est généralement de :",
+      "options": [
+        "0,1°C",
+        "1°C",
+        "0,5°C",
+        "2°C"
+      ],
+      "answer": 0,
+      "explanation": "Sur un thermomètre médical, la valeur d'une graduation est de 0,1°C."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "prompt": "La température d'un corps est la grandeur physique qui permet de dire que le corps est ________ ou ________.",
+      "answer": "chaud, froid",
+      "explanation": "La température d'un corps est la grandeur physique qui permet de dire que le corps est chaud ou froid."
+    },
+    {
+      "id": "q19",
+      "type": "truefalse",
+      "prompt": "L'équilibre thermique est atteint lorsque le niveau du liquide thermométrique cesse de monter.",
+      "answer": true,
+      "explanation": "L'équilibre thermique est atteint lorsque le niveau du liquide cesse de monter."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Quelle est la température du corps humain si le thermomètre médical indique 39,4°C ?",
+      "options": [
+        "Hypothermie",
+        "Normale",
+        "Hyperthermie",
+        "Aucune de ces réponses"
+      ],
+      "answer": 2,
+      "explanation": "39,4°C est supérieure à 37°C, donc c'est une hyperthermie."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "svt-seconde-ecosystemes-forets-savanes",
+  "title": "Les grands écosystèmes tropicaux (forêts et savanes)",
+  "summary": "Plongez au cœur des forêts denses et des savanes tropicales pour comprendre leur structure, leur fonctionnement et leur importance vitale pour la planète. Ce cours vous donne les clés pour analyser ces écosystèmes et réussir vos évaluations en SVT.",
+  "lesson": "## Introduction & Mise en situation\n\nLes écosystèmes tropicaux, notamment les forêts et les savanes, couvrent une part importante des terres émergées et abritent une biodiversité exceptionnelle. Ils jouent un rôle crucial dans la régulation du climat, le cycle de l'eau et la fourniture de ressources pour les populations. Comprendre leur organisation et leur dynamique est essentiel pour aborder les enjeux environnementaux actuels, comme la déforestation et le changement climatique. Ce chapitre vous permettra de maîtriser les concepts fondamentaux de l'écologie et de les appliquer à des exemples concrets.\n\n## 1. Définitions et Principes Fondamentaux\n\n**Écosystème** : Un écosystème est un ensemble formé par un milieu (biotope) et les êtres vivants qui y vivent (biocénose) en interaction. On peut le représenter par la formule :\n\n$$\\text{Écosystème} = \\text{Biotope} + \\text{Biocénose} + \\text{Interactions}$$\n\n**Biotope** : C'est le milieu physique (sol, climat, eau, lumière). En forêt tropicale, le biotope est caractérisé par une forte humidité, des températures élevées et une lumière filtrée. En savane, il y a une saison sèche marquée et des sols souvent pauvres.\n\n**Biocénose** : C'est l'ensemble des êtres vivants (faune, flore, micro-organismes). On distingue les producteurs (végétaux chlorophylliens), les consommateurs (herbivores, carnivores) et les décomposeurs (bactéries, champignons).\n\n**Productivité primaire** : C'est la quantité de matière organique produite par les producteurs par unité de surface et de temps. Elle est souvent exprimée en $g/m^2/an$. La forêt tropicale a une productivité très élevée (environ 2200 $g/m^2/an$) comparée à la savane (environ 900 $g/m^2/an$).\n\n**Biodiversité** : C'est la diversité des espèces présentes dans un écosystème. La forêt tropicale abrite plus de 50% des espèces terrestres, tandis que la savane a une biodiversité plus faible mais avec des adaptations spécifiques.\n\n**Succession écologique** : C'est le processus de changement de la composition des espèces au fil du temps. Par exemple, une savane peut évoluer vers une forêt si les conditions deviennent plus humides et que les arbres s'installent progressivement.\n\n## 2. Propriétés et Méthodes d'application\n\n**Structure verticale de la forêt** : La forêt tropicale est stratifiée en plusieurs étages :\n- **Étage émergent** : arbres dépassant 40 m.\n- **Canopée** : couche dense de feuillages à 20-40 m.\n- **Sous-bois** : arbustes et jeunes arbres.\n- **Strate herbacée** : plantes au sol.\n\n**Méthode d'analyse** : Pour étudier un écosystème, on utilise des quadrats (placettes) pour échantillonner la végétation, et des pièges pour la faune. On calcule la densité d'une espèce avec la formule :\n\n$$\\text{Densité} = \\frac{\\text{Nombre d'individus}}{\\text{Surface échantillonnée}}$$\n\n**Exemple** : Dans un quadrat de 100 $m^2$, on compte 25 plants d'une espèce d'herbacée. La densité est de $25/100 = 0.25$ individus par $m^2$.\n\n**Adaptations des êtres vivants** :\n- En forêt : plantes épiphytes (qui poussent sur les arbres), animaux arboricoles.\n- En savane : arbres à écorce épaisse (résistance au feu), racines profondes, animaux migrateurs.\n\n**Étude de la productivité** : On mesure la biomasse végétale à deux dates différentes. La productivité primaire nette (PPN) est donnée par :\n\n$$PPN = \\Delta \\text{Biomasse} + \\text{Perte par respiration}$$\n\nEn pratique, on utilise souvent la variation de biomasse comme approximation.\n\n**Exemple** : Dans une parcelle de savane, la biomasse passe de 500 g/m² à 600 g/m² en un mois. La PPN approx. est de 100 g/m²/mois.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre biotope et biocénose** : Le biotope est le milieu, la biocénose est les êtres vivants. Souvenez-vous : 'bio' = vie, donc biocénose = vivants.\n- **Oublier les décomposeurs** : Ils sont essentiels pour recycler la matière organique. Ne les négligez pas dans les chaînes alimentaires.\n- **Penser que la savane est une forêt dégradée** : C'est un écosystème stable adapté à des conditions climatiques spécifiques (saison sèche).\n- **Ne pas utiliser les unités** : En calcul de densité ou de productivité, indiquez toujours les unités (individus/m², g/m²/an).\n- **Confondre productivité primaire brute et nette** : La brute inclut la respiration, la nette est la matière réellement disponible pour les consommateurs.\n\n## Synthèse\n\n1. **Un écosystème** est l'interaction entre un milieu (biotope) et les êtres vivants (biocénose).\n2. **La forêt tropicale** a une forte biodiversité et une productivité élevée, tandis que la **savane** est adaptée à la sécheresse.\n3. **Pour étudier un écosystème**, on utilise des méthodes d'échantillonnage et des calculs de densité et de productivité.",
+  "estimatedMinutes": 12,
+  "tags": [
+    "écosystèmes",
+    "forêt",
+    "savane",
+    "biodiversité",
+    "écologie"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la définition correcte d'un écosystème ?",
+      "options": [
+        "L'ensemble des êtres vivants d'un milieu.",
+        "Le milieu physique (climat, sol, eau).",
+        "L'ensemble formé par le biotope, la biocénose et leurs interactions.",
+        "La chaîne alimentaire d'un milieu."
+      ],
+      "answer": 2,
+      "explanation": "Un écosystème inclut le biotope (milieu), la biocénose (êtres vivants) et les interactions entre eux."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "prompt": "La forêt tropicale a une productivité primaire plus élevée que la savane.",
+      "answer": true,
+      "explanation": "Les conditions climatiques (chaleur, humidité) permettent une photosynthèse intense toute l'année, d'où une productivité plus élevée."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "prompt": "Dans un quadrat de 50 m², on compte 10 individus d'une espèce. La densité est de ______ individus par m².",
+      "answer": "0.2",
+      "explanation": "Densité = 10/50 = 0.2 individus/m²."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est le rôle principal des décomposeurs dans un écosystème ?",
+      "options": [
+        "Produire de la matière organique par photosynthèse.",
+        "Recycler la matière organique en éléments minéraux.",
+        "Servir de proies pour les consommateurs secondaires.",
+        "Réguler le climat local."
+      ],
+      "answer": 1,
+      "explanation": "Les décomposeurs (bactéries, champignons) transforment la matière organique morte en sels minéraux, qui sont réutilisés par les producteurs."
+    },
+    {
+      "id": "q5",
+      "type": "truefalse",
+      "prompt": "La savane est un écosystème dégradé issu de la déforestation.",
+      "answer": false,
+      "explanation": "La savane est un écosystème naturel stable, adapté à des conditions climatiques avec une saison sèche marquée."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "prompt": "La structure verticale de la forêt comprend l'étage émergent, la canopée, le sous-bois et la strate ______.",
+      "answer": "herbacée",
+      "explanation": "La strate herbacée est la couche au niveau du sol."
+    }
+  ]
+}
