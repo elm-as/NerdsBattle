@@ -1,0 +1,280 @@
+{
+  "id": "svt-terminale-le-systeme-de-defense-de-l-organisme",
+  "title": "Le système de défense de l’organisme",
+  "summary": "Lors d’une campagne de vaccination contre la fièvre typhoïde au centre médico-scolaire d’Odienné, le médecin affirme que l’organisme des vaccinés pourra se défendre contre cette maladie. Intrigués, les élèves cherchent à mieux connaître le système de défense de l’organisme contre les infections. Ils décident de mettre en évidence la défense spécifique et d’en expliquer les mécanismes.",
+  "lesson": "## 1. Introduction : L’immunité, une défense spécifique\n\nL’organisme possède un système immunitaire capable de reconnaître et d’éliminer les agents pathogènes (bactéries, virus, parasites) et les cellules anormales (cancéreuses). On distingue l’**immunité innée** (non spécifique, rapide) et l’**immunité adaptative (ou acquise)** (spécifique, plus lente mais mémoire). Cette leçon se concentre sur l’immunité adaptative, qui repose sur la distinction **« soi » / « non soi »**.\n\n## 2. La notion de « soi » et de « non soi »\n\n- **« Soi »** : L’ensemble des constituants moléculaires propres à l’individu, reconnus comme tels par son système immunitaire.\n- **« Non soi »** : Tout élément moléculaire étranger à l’organisme (ex : protéines bactériennes, virales, greffon) qui peut déclencher une réponse immunitaire.\n- Les marqueurs du soi sont essentiellement les **molécules du CMH** (Complexe Majeur d’Histocompatibilité), présentes à la surface de toutes les cellules nucléées de l’organisme.\n\n**Expérience clé : les greffes**\n- **Autogreffe** (greffe de soi à soi) : Acceptée car pas de « non soi ».\n- **Allogreffe** (greffe entre individus différents) : Rejetée si le système immunitaire du receveur reconnaît les molécules du CMH du donneur comme « non soi ».\n\n## 3. Les antigènes\n\nUn **antigène (Ag)** est une substance (généralement une protéine ou un polysaccharide) étrangère à l’organisme, capable de déclencher une réponse immunitaire spécifique et de se lier spécifiquement aux anticorps ou aux récepteurs des lymphocytes.\n- Un antigène possède des déterminants antigéniques ou **épitopes**, sites spécifiques de reconnaissance.\n\n## 4. Les acteurs de l’immunité adaptative\n\n**A. Les lymphocytes**\n- **Lymphocytes B (LB)** : Mûrissent dans la moelle osseuse (Bone marrow). Responsables de l’**immunité humorale** (production d’anticorps).\n- **Lymphocytes T (LT)** : Mûrissent dans le thymus. Responsables de l’**immunité cellulaire**. On distingue :\n  - **Lymphocytes T auxiliaires (T helper, LT4 ou CD4+)** : Orchestrent la réponse immunitaire en sécrétant des cytokines.\n  - **Lymphocytes T cytotoxiques (LT8 ou CD8+)** : Détruisent directement les cellules infectées ou anormales.\n- Chaque lymphocyte possède un **récepteur spécifique** (BCR pour les B, TCR pour les T) reconnaissant un épitope unique.\n\n**B. Les cellules présentatrices d’antigène (CPA)**\n- Exemples : Macrophages, cellules dendritiques, lymphocytes B.\n- Elles phagocytent l’agent pathogène, le dégradent et **présentent des fragments d’antigène (peptides)** à leur surface, associés à des molécules du **CMH de classe II**.\n- Cette présentation est indispensable pour activer les **lymphocytes T auxiliaires (CD4+)**.\n\n**Description du schéma 22 : Présentation de l’antigène par une CPA à un LT4**\nReprésenter une CPA (ex : macrophage) ayant internalisé une bactérie. Montrer des peptides antigéniques issus de la dégradation bactérienne. Ces peptides sont associés à une molécule du CMH II et exposés à la surface de la CPA. Un lymphocyte T CD4+ (avec son récepteur TCR et le co-récepteur CD4) se lie spécifiquement au complexe peptide-CMH II. Une molécule de co-stimulation (ex : B7 sur CPA, CD28 sur LT) assure une activation complète. Légender chaque élément.\n\n## 5. L’immunité à médiation humorale (réponse des LB)\n\nElle combat les agents pathogènes extracellulaires (bactéries, toxines) via les **anticorps**.\n\n**Étapes :**\n1. **Présentation de l’antigène et activation des LT4** (comme décrit ci-dessus). Le LT4 activé se différencie en **LT helper (Th)** et sécrète des **cytokines** (interleukines).\n2. **Activation des lymphocytes B spécifiques** :\n   - Un LB possédant un BCR spécifique de l’antigène capture et internalise l’antigène natif. Il présente ensuite un peptide dérivé de cet antigène sur son CMH II.\n   - Un **LT helper (Th) spécifique du même antigène** reconnaît ce complexe sur le LB et lui délivre des signaux activateurs (cytokines, contact). C’est la **coopération cellulaire** LB-LT.\n3. **Différenciation et prolifération clonale** : Le LB activé se divise rapidement (expansion clonale) et se différencie en :\n   - **Plasmocytes** : Cellules effectrices sécrétant massivement des **anticorps** (immunoglobulines, Ig) spécifiques de l’antigène. La sécrétion dure quelques jours.\n   - **Lymphocytes B mémoire** : Cellules à longue durée de vie, permettant une réponse plus rapide et plus forte en cas de rencontre ultérieure avec le même antigène (**mémoire immunologique**).\n\n**4. Action des anticorps** : Les anticorps sécrétés se lient spécifiquement aux antigènes cibles et :\n   - **Neutralisent** les toxines ou les virus en bloquant leur site d’action.\n   - **Opsonisent** les bactéries (les marquent) pour faciliter la phagocytose par les macrophages.\n   - **Activent le système du complément** (cascade protéique aboutissant à la lyse de la bactérie).\n\n**Description du schéma 23 : Mécanisme de l’immunité humorale**\nReprésenter un schéma séquentiel : (1) CPA présente l’Ag à un LT4 → activation. (2) Un LB spécifique capture l’Ag, le présente à ce même LT4 activé → coopération LB-LT. (3) Le LB activé se divise et se différencie en plasmocytes (flèches vers des anticorps en forme de Y) et LB mémoire. (4) Les anticorps se fixent aux bactéries libres, entraînant leur neutralisation, opsonisation ou lyse par le complément. Légender.\n\n## 6. L’immunité à médiation cellulaire (réponse des LT cytotoxiques)\n\nElle combat les agents pathogènes **intracellulaires** (virus, certaines bactéries) et les **cellules anormales** (cancéreuses).\n\n**Étapes :**\n1. **Présentation de l’antigène endogène** : Une cellule infectée par un virus synthétise des protéines virales. Celles-ci sont dégradées dans le cytosol, et les peptides viraux sont présentés à la surface de la cellule infectée, associés à des molécules du **CMH de classe I**.\n2. **Activation des lymphocytes T cytotoxiques (CD8+)** : Un LT8 naïf possédant un TCR spécifique de ce peptide viral reconnaît le complexe peptide-CMH I sur la cellule infectée. Pour être pleinement activé, il a souvent besoin d’une aide des **LT helper (Th)** activés (via des cytokines, c’est une autre forme de **coopération cellulaire**).\n3. **Différenciation et action** : Le LT8 activé se différencie en **lymphocyte T cytotoxique effecteur (CTL)**.\n4. **Destruction de la cellule cible** : Le CTL se fixe à la cellule infectée via son TCR et libère des substances lytiques :\n   - **Perforines** : Perforent la membrane de la cellule cible.\n   - **Granzymes** : Entrent par les pores et induisent l’**apoptose** (mort cellulaire programmée) de la cellule cible.\n   - Le CTL se détache et peut attaquer d’autres cellules cibles.\n5. **Mémoire** : Certains LT8 activés deviennent des **lymphocytes T mémoire CD8+**.\n\n**Description du schéma 24 : Mécanisme de l’immunité cellulaire**\nReprésenter : (1) Une cellule infectée par un virus présentant un peptide viral sur son CMH I. (2) Un LT8 spécifique (avec TCR et CD8) reconnaît ce complexe. (3) Avec l’aide de cytokines d’un LT helper activé (non représenté ici pour simplifier), le LT8 s’active et se différencie en CTL. (4) Le CTL libère des perforines et granzymes sur la cellule infectée, induisant son apoptosis (fragmentation nucléaire, vésicules apoptotiques). Légender.\n\n## 7. Notions clés déduites\n\n- **« Soi » et « non soi »** : Capacité du système immunitaire à distinguer le propre du étranger.\n- **Immunité à médiation humorale** : Défense assurée par les anticorps sécrétés par les plasmocytes (dérivés des LB).\n- **Immunité à médiation cellulaire** : Défense assurée par les lymphocytes T cytotoxiques (LT8) qui détruisent directement les cellules cibles.\n- **Coopération cellulaire** : Interaction nécessaire entre différents types de cellules immunitaires (ex : CPA et LT4 ; LT4 et LB ; LT4 et LT8) pour une réponse optimale et spécifique.\n\n## 8. Application : le principe de la vaccination\n\nLa vaccination (comme contre la fièvre typhoïde dans la situation) exploite la **mémoire immunologique**. On injecte un **vaccin** (antigène atténué, inactivé, ou fragment) qui mime une infection sans provoquer la maladie. Cela déclenche une réponse immunitaire primaire spécifique, avec production de **cellules mémoire**. Lors d’un contact ultérieur avec le vrai pathogène, la réponse secondaire est plus rapide et plus forte, empêchant le développement de la maladie.\n\n## 9. Conclusion\n\nLe système immunitaire adaptatif est un réseau complexe et précis de cellules (lymphocytes B et T) qui coopèrent pour éliminer les agents pathogènes de manière spécifique. Sa caractéristique majeure est la **spécificité** et la **mémoire**, base de la vaccination, outil essentiel de santé publique, y compris en Côte d’Ivoire.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Le système immunitaire distingue le « soi » (molécules propres) du « non soi » (antigènes étrangers).",
+    "L'immunité humorale, médiée par les lymphocytes B et les anticorps, combat les pathogènes extracellulaires.",
+    "L'immunité cellulaire, médiée par les lymphocytes T cytotoxiques (CD8+), détruit les cellules infectées ou cancéreuses.",
+    "La coopération cellulaire (ex : LB-LT4, LT4-LT8) est cruciale pour une réponse immunitaire adaptative efficace.",
+    "La mémoire immunologique, assurée par les lymphocytes B et T mémoire, est le fondement de la vaccination."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle molécule, présente à la surface de toutes les cellules nucléées, est le marqueur principal du « soi » ?",
+      "options": [
+        "L’anticorps",
+        "Le CMH (Complexe Majeur d’Histocompatibilité)",
+        "Le récepteur TCR",
+        "L’antigène"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel type de lymphocyte est responsable de la production d’anticorps ?",
+      "options": [
+        "Lymphocyte T cytotoxique (CD8+)",
+        "Lymphocyte T auxiliaire (CD4+)",
+        "Lymphocyte B",
+        "Cellule présentatrice d’antigène"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Sur quelle molécule les peptides antigéniques sont-ils présentés pour activer les lymphocytes T auxiliaires (CD4+) ?",
+      "options": [
+        "CMH de classe I",
+        "CMH de classe II",
+        "CMH de classe III",
+        "Anticorps de surface"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la cellule effectrice de l’immunité humorale ?",
+      "options": [
+        "Lymphocyte T mémoire",
+        "Plasmocyte",
+        "Macrophage",
+        "Lymphocyte T cytotoxique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle interaction est un exemple de coopération cellulaire dans la réponse immunitaire ?",
+      "options": [
+        "CPA présente l’antigène à un LT4",
+        "LT8 détruit une cellule cancéreuse",
+        "Macrophage phagocyte une bactérie",
+        "Neutrophile libère des enzymes"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle molécule, sécrétée par les plasmocytes, se fixe spécifiquement à un antigène ?",
+      "options": [
+        "Cytokine",
+        "Interleukine",
+        "Anticorps",
+        "Perforine"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel type de lymphocyte T détruit directement les cellules infectées par un virus ?",
+      "options": [
+        "LT auxiliaire (CD4+)",
+        "LT cytotoxique (CD8+)",
+        "LT régulateur",
+        "LT mémoire"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel mécanisme les LT cytotoxiques utilisent-ils pour tuer leurs cellules cibles ?",
+      "options": [
+        "Phagocytose",
+        "Sécrétion d’anticorps",
+        "Libération de perforines et granzymes",
+        "Neutralisation"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quelle propriété du système immunitaire adaptatif est à la base de la vaccination ?",
+      "options": [
+        "Spécificité",
+        "Mémoire immunologique",
+        "Rapidité",
+        "Innéité"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quelle cellule, produite lors de la réponse primaire, permet une réponse plus rapide et plus forte lors d’un second contact avec l’antigène ?",
+      "options": [
+        "Plasmocyte",
+        "Lymphocyte mémoire",
+        "Cellule présentatrice d’antigène",
+        "Lymphocyte naïf"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quelle cellule est la principale présentatrice d'antigènes professionnelle?",
+      "options": [
+        "Neutrophile",
+        "Lymphocyte B",
+        "Cellule dendritique",
+        "Éosinophile"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quelle classe d'immunoglobuline traverse le placenta?",
+      "options": [
+        "IgM",
+        "IgG",
+        "IgA",
+        "IgE"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quelle molécule présente les antigènes intracellulaires (ex: viraux) aux lymphocytes T CD8⁺?",
+      "options": [
+        "CMH de classe I",
+        "CMH de classe II",
+        "CD4",
+        "CD8"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quelle est la fonction principale des lymphocytes T cytotoxiques (CD8⁺)?",
+      "options": [
+        "Produire des anticorps",
+        "Aider les lymphocytes B",
+        "Détruire les cellules infectées",
+        "Libérer de l'histamine"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel terme désigne les motifs moléculaires conservés des microbes reconnus par l'immunité innée?",
+      "options": [
+        "Antigènes",
+        "Épitopes",
+        "PAMPs",
+        "Cytokines"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quelle cytokine est principalement produite par les lymphocytes Th1?",
+      "options": [
+        "IL-4",
+        "IL-10",
+        "IFN-γ",
+        "IL-17"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quel est l'effecteur de l'immunité à médiation humorale?",
+      "options": [
+        "Les lymphocytes T",
+        "Les anticorps",
+        "Les macrophages",
+        "Les cellules NK"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Quel type de vaccin utilise un micro-organisme vivant mais affaibli?",
+      "options": [
+        "Vaccin inactivé",
+        "Vaccin sous-unitaire",
+        "Vaccin vivant atténué",
+        "Vaccin à ADN"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Quelle interaction fournit le signal de co-stimulation nécessaire à l'activation complète des lymphocytes T naïfs?",
+      "options": [
+        "TCR - peptide/MHC",
+        "CD28 - B7",
+        "CD40L - CD40",
+        "Fas - FasL"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Quelle cellule immunitaire est ciblée et détruite par le VIH?",
+      "options": [
+        "Lymphocytes T CD8⁺",
+        "Lymphocytes T CD4⁺",
+        "Lymphocytes B",
+        "Macrophages"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

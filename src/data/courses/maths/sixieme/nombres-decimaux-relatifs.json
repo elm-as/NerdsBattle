@@ -1,0 +1,58 @@
+{
+  "id": "maths-sixieme-nombres-decimaux-relatifs",
+  "title": "Nombres décimaux relatifs",
+  "summary": "Lors du tournoi de football au Collège Moderne de BOCANDA, on calcule le goal différentiel (buts marqués - buts encaissés). Comment utiliser les nombres négatifs pour classer les équipes ?",
+  "lesson": "## Les nombres décimaux relatifs\n\n### L'ensemble ℤ des nombres entiers relatifs\n\n**Nombres entiers relatifs (ℤ) :**\n- Nombres positifs : +1, +2, +3... (ou 1, 2, 3...)\n- Le zéro : 0\n- Nombres négatifs : -1, -2, -3...\n\n**Notation :** ℤ = ensemble des entiers relatifs\n\n### L'ensemble ⅅ des nombres décimaux relatifs\n\n**Nombres décimaux relatifs (ⅅ) :**\nComprend tous les nombres avec virgule :\n- Positifs : +2,5 ou 2,5 ; +3,75 ou 3,75\n- Négatifs : -3,7 ; -0,5 ; -12,25\n\n### La droite graduée\n\nSur une droite graduée, les nombres sont rangés :\n\n-5  -4  -3  -2  -1   0   +1  +2  +3  +4  +5\n- À gauche de 0 : nombres négatifs\n- À droite de 0 : nombres positifs\n\n### Opposé d'un nombre\n\n- L'opposé de +3 est -3\n- L'opposé de -5 est +5\n- L'opposé de 0 est 0\n\n### Comparaison\n\n**Règles :**\n- Un nombre positif est toujours supérieur à un nombre négatif\n- Entre deux nombres positifs, le plus grand est celui qui a la plus grande distance à zéro\n- Entre deux nombres négatifs, le plus grand est celui qui est le plus proche de zéro\n\n**Exemples :**\n- +5 > -8 (positif > négatif)\n- -2 > -7 (plus proche de zéro)\n- +3,5 > +2,1\n\n### Addition de nombres décimaux relatifs\n\n**Même signe :** On garde le signe et on additionne les valeurs\n- (+3) + (+5) = +8\n- (-3) + (-5) = -8\n- (+2,5) + (+1,5) = +4\n\n**Signes différents :** On garde le signe du plus grand (en valeur absolue) et on soustrait\n- (+7) + (-3) = +4\n- (-7) + (+3) = -4\n- (+5,5) + (-2,5) = +3\n\n### Application : Goal différentiel\n\nSi une équipe marque 3 buts et encaisse 5 buts :\nGoal différentiel = (+3) + (-5) = -2",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "ℤ = nombres entiers relatifs {..., -2, -1, 0, +1, +2, ...}",
+    "ⅅ = nombres décimaux relatifs (avec virgule)",
+    "Nombres négatifs < 0 < Nombres positifs",
+    "Addition : même signe → on additionne, signes différents → on soustrait"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est l'opposé de -8 ?",
+      "options": [
+        "-8",
+        "0",
+        "+8",
+        "+16"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Combien font (-5) + (+3) ?",
+      "options": [
+        "-8",
+        "-2",
+        "+2",
+        "+8"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel nombre est le plus grand ?",
+      "options": [
+        "-10",
+        "-5",
+        "0",
+        "+3"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

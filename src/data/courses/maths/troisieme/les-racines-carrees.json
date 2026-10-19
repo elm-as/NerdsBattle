@@ -1,0 +1,31 @@
+{
+  "id": "maths-troisieme-les-racines-carrees",
+  "title": "Les racines carrées",
+  "summary": "Un terrain carré a une aire de 144 m². Quelle est la longueur du côté ?",
+  "lesson": "## Les racines carrées\n\n### 1. Définition et notation\n\n**Racine carrée :** √a est le **nombre positif** dont le carré vaut a.\n\n**Exemples :**\n- √16 = 4 car 4² = 16\n- √25 = 5 car 5² = 25\n- √100 = 10 car 10² = 100\n- √144 = 12 (solution situation-problème : côté = 12 m)\n\n**Important :** √a existe seulement si a ≥ 0 (dans ℝ)\n\n### 2. Propriétés fondamentales\n\n**Propriété 1 :** √(a × b) = √a × √b\n- Exemple : √(4 × 9) = √4 × √9 = 2 × 3 = 6\n- Vérification : √36 = 6 ✓\n\n**Propriété 2 :** √(a ÷ b) = √a ÷ √b (avec b ≠ 0)\n- Exemple : √(16 ÷ 4) = √16 ÷ √4 = 4 ÷ 2 = 2\n- Vérification : √4 = 2 ✓\n\n**Propriété 3 :** (√a)² = a\n- Exemple : (√7)² = 7\n\n**Attention :** √(a + b) ≠ √a + √b\n- Contre-exemple : √(9 + 16) = √25 = 5\n- Mais √9 + √16 = 3 + 4 = 7 (différent!)\n\n### 3. Simplification de racines carrées\n\n**Méthode :** Chercher un carré parfait en facteur\n\n**Exemples détaillés :**\n\n1. **√50 = ?**\n   - 50 = 25 × 2\n   - √50 = √(25 × 2) = √25 × √2 = 5√2\n\n2. **√72 = ?**\n   - 72 = 36 × 2\n   - √72 = √(36 × 2) = √36 × √2 = 6√2\n\n3. **√98 = ?**\n   - 98 = 49 × 2\n   - √98 = √(49 × 2) = √49 × √2 = 7√2\n\n4. **√48 = ?**\n   - 48 = 16 × 3\n   - √48 = √(16 × 3) = √16 × √3 = 4√3\n\n### 4. Opérations avec les racines\n\n**Addition/Soustraction :** Seulement si même radical\n- √2 + 3√2 = 4√2\n- 5√3 - 2√3 = 3√3\n- **Mais** √2 + √3 ne se simplifie pas!\n\n**Multiplication :**\n- 2√3 × 5√2 = (2 × 5) × (√3 × √2) = 10√6\n- √5 × √5 = (√5)² = 5\n\n**Rationalisation du dénominateur :**\n- 1/√2 = 1/√2 × √2/√2 = √2/2\n- 3/√5 = 3√5/5\n\n### 5. Applications pratiques\n\n**Calcul de diagonale :** (Pythagore)\n- Carré de côté 5 cm : diagonale = 5√2 cm\n- Rectangle 3×4 : diagonale = √(9+16) = √25 = 5\n\n**Périmètre avec racines :**\n- Triangle avec côtés √8, √18, √32\n- Simplifier : 2√2 + 3√2 + 4√2 = 9√2",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "√a : nombre dont le carré = a",
+    "√(a×b) = √a×√b",
+    "Simplifier par factorisation"
+  ],
+  "exercise": {
+    "question": "Calcule √64 + √36",
+    "answer": "8 + 6 = 14"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "√81 = ?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

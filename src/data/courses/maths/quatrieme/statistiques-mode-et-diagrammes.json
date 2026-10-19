@@ -1,0 +1,45 @@
+{
+  "id": "maths-quatrieme-statistiques-mode-et-diagrammes",
+  "title": "Statistiques : mode et diagrammes",
+  "summary": "Un sondage sur les fruits préférés de 30 élèves donne : Mangue (12), Orange (10), Banane (8). Comment représenter ces données ?",
+  "lesson": "## Statistiques : mode et diagrammes\n\n### Le mode\nLe **mode** est la valeur (ou modalité) qui apparaît le plus souvent dans une série statistique.\n\n**Exemple (fruits préférés) :**\n- Mangue : 12 élèves\n- Orange : 10 élèves\n- Banane : 8 élèves\n\n**Mode = Mangue** (effectif le plus élevé : 12)\n\n**Remarque :** Une série peut avoir plusieurs modes ou aucun mode.\n\n### Diagramme en bâtons\nOn représente chaque modalité par un bâton vertical dont la hauteur est proportionnelle à l'effectif.\n\n**Construction :**\n1. Axe horizontal : modalités\n2. Axe vertical : effectifs\n3. Tracer un bâton pour chaque modalité\n\n### Diagramme semi-circulaire\nOn représente les données dans un demi-cercle, où chaque secteur est proportionnel à l'effectif.\n\n**Construction :**\n1. Calculer l'angle pour chaque modalité :\n   Angle = (Effectif ÷ Total) × 180°\n\n**Exemple :**\n- Total = 30 élèves\n- Mangue : (12/30) × 180° = 72°\n- Orange : (10/30) × 180° = 60°\n- Banane : (8/30) × 180° = 48°\n\n2. Tracer les secteurs dans le demi-cercle\n\n### Comparaison\n- **Diagramme en bâtons** : facile à lire les effectifs\n- **Diagramme semi-circulaire** : montre bien les proportions",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Mode = valeur la plus fréquente",
+    "Diagramme en bâtons : hauteur = effectif",
+    "Diagramme semi-circulaire : angle = (effectif/total) × 180°",
+    "Choisir le diagramme selon le contexte"
+  ],
+  "exercise": {
+    "answer": "\n**Solution :**\nComptons les effectifs :\n- 5 apparaît 3 fois\n- 7 apparaît 2 fois\n- 8 apparaît 1 fois\n- 9 apparaît 1 fois\n\n**Mode = 5** (apparaît le plus souvent)\n\n**Réponse : 5**\n        ",
+    "question": "Dans la série 5, 7, 5, 8, 5, 9, 7, quel est le mode ?"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Le mode est :",
+      "options": [
+        "La moyenne",
+        "La valeur centrale",
+        "La valeur la plus fréquente",
+        "L'étendue"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Dans un diagramme semi-circulaire, la somme des angles vaut :",
+      "options": [
+        "90°",
+        "180°",
+        "270°",
+        "360°"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "maths-seconde-applications-pratiques-des-statistiques",
+  "title": "Applications pratiques des statistiques",
+  "summary": "Le gouvernement ivoirien utilise des indicateurs statistiques pour évaluer le niveau de pauvreté. Une population est dite pauvre si le revenu mensuel par personne est inférieur à 90 000 FCFA, et extrêmement pauvre si en plus plus de la moitié de la population a un revenu inférieur au revenu mensuel par personne. Comment utiliser les outils statistiques (moyenne, médiane, quartiles) pour classifier une population et orienter les politiques sociales ?",
+  "lesson": "## Applications pratiques des statistiques : analyse et décision\n\n### 1. Statistique descriptive vs inférentielle\n\n**Descriptive :** Décrire une population à partir de données complètes\n- Exemple : Recensement de la population d'Abidjan\n\n**Inférentielle :** Tirer des conclusions sur une population à partir d'un échantillon\n- Exemple : Sondage d'opinion avant des élections\n\n### 2. Choix des indicateurs appropriés\n\n**Quand utiliser la moyenne ?**\n- Quand la distribution est symétrique\n- Quand il n'y a pas de valeurs extrêmes\n- Pour les calculs algébriques ultérieurs\n\n**Quand utiliser la médiane ?**\n- Quand la distribution est asymétrique\n- En présence de valeurs extrêmes\n- Pour décrire le \"cas typique\"\n- Pour les revenus, prix immobiliers\n\n**Exemple ivoirien :** Revenus à Abobo\n- Moyenne faussée par quelques revenus très élevés\n- Médiane plus représentative du revenu \"typique\"\n\n### 3. Indicateurs de dispersion\n\n**Étendue :** Différence entre valeurs extrêmes\n- Simple à calculer mais très sensible aux valeurs aberrantes\n\n**Intervalle interquartile :** Q3 - Q1\n- Plus robuste, contient 50% des valeurs centrales\n\n**Application :** Écart de revenus en Côte d'Ivoire\n- Forte inégalité si intervalle interquartile large\n\n### 4. Analyse des séries chronologiques\n\n**Composantes d'une série chronologique :**\n1. **Tendance générale (trend) :** Évolution à long terme\n   - Exemple : Croissance économique ivoirienne depuis 2011\n\n2. **Variations saisonnières :** Répétition à période fixe\n   - Exemple : Hausse des prix des denrées avant les fêtes\n\n3. **Variations cycliques :** Cycles plus longs\n   - Exemple : Cycles économiques mondiaux affectant le cacao\n\n4. **Variations accidentelles :** Événements imprévisibles\n   - Exemple : Crise sanitaire COVID-19\n\n### 5. Représentations graphiques adaptées\n\n**Diagramme en bâtons :** Pour comparer des catégories\n- Exemple : Production agricole par région\n\n**Histogramme :** Pour les données continues groupées\n- Exemple : Répartition des salaires\n\n**Courbe chronologique :** Pour les évolutions dans le temps\n- Exemple : Évolution du PIB ivoirien\n\n**Diagramme circulaire :** Pour les proportions\n- Exemple : Répartition du budget de l'État\n\n### 6. Étude de cas : Pauvreté en Côte d'Ivoire\n\n**Données INS (Institut National de la Statistique) :**\n- Taux de pauvreté : % de la population sous le seuil de pauvreté\n- Seuil de pauvreté national : environ 750 FCFA par jour et par personne (2018)\n\n**Analyse multidimensionnelle :**\n- Revenu\n- Accès à l'éducation\n- Accès aux soins de santé\n- Conditions de logement\n\n### 7. Statistiques éducatives\n\n**Indicateurs clés :**\n- Taux de scolarisation\n- Taux de réussite aux examens\n- Ratio élèves/enseignant\n- Taux d'alphabétisation\n\n**Analyse comparative :**\n- Régions urbaines vs rurales\n- Filles vs garçons\n- Public vs privé\n\n### 8. Statistiques économiques\n\n**PIB (Produit Intérieur Brut) :** Richesse créée\n- PIB par habitant : indicateur de niveau de vie moyen\n\n**Inflation :** Hausse générale des prix\n- IPC (Indice des Prix à la Consommation)\n- Calculé par l'INS\n\n**Chômage :** Taux de chômage et sous-emploi\n\n### 9. Utilisation dans la prise de décision\n\n**Étapes :**\n1. Collecte de données fiables\n2. Analyse statistique\n3. Interprétation contextualisée\n4. Prise de décision éclairée\n5. Évaluation des résultats\n\n**Exemple :** Politique de santé publique\n- Statistiques sur la prévalence des maladies\n- Répartition géographique\n- Allocation des ressources en conséquence\n\n### 10. Pièges et biais\n\n**Biais d'échantillonnage :** Échantillon non représentatif\n- Exemple : Sondage uniquement dans les villes\n\n**Données manquantes :** Affectent la représentativité\n\n**Manipulation des échelles :** Peut tromper l'œil sur les graphiques\n\n**Corrélation vs causalité :** Deux variables qui évoluent ensemble ne sont pas forcément liées par une relation de cause à effet\n\n### 11. Outils technologiques avancés\n\n**Logiciels statistiques :**\n- Excel : analyses de base, graphiques\n- R : analyse statistique avancée\n- SPSS : utilisé dans la recherche en sciences sociales\n\n**Bases de données :**\n- Données de l'INS\n- Données de la Banque Mondiale\n- Données des agences onusiennes\n\n### 12. Éthique statistique\n\n**Principes :**\n- Transparence des méthodes\n- Protection des données personnelles\n- Objectivité de l'analyse\n- Communication honnête des résultats\n\n### 13. Études de cas ivoiriennes\n\n**Cas 1 :** Évolution du prix du cacao\n- Saisonnalité : pics en période de récolte\n- Tendances : influence de la demande mondiale\n- Politiques : rôle de la Caistab (Caisse de Stabilisation)\n\n**Cas 2 :** Démographie d'Abidjan\n- Croissance rapide depuis l'indépendance\n- Densité très variable selon les communes\n- Enjeux : urbanisation, logement, transport\n\n**Cas 3 :** Éducation\n- Progression du taux de scolarisation\n- Disparités régionales persistantes\n- Défis : qualité de l'enseignement, équipement\n\n### 14. Compétences critiques\n\n**À développer :**\n- Lecture critique des statistiques publiques\n- Détection des biais potentiels\n- Choix des indicateurs pertinents\n- Communication efficace des résultats\n\nLes statistiques sont un outil puissant pour comprendre la société ivoirienne, évaluer les politiques publiques et orienter le développement national vers une plus grande équité et efficacité.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "La médiane est plus robuste que la moyenne en présence de valeurs extrêmes",
+    "Une série chronologique combine tendance, saisonnalité et variations accidentelles",
+    "Corrélation n'implique pas causalité : deux variables peuvent évoluer ensemble sans lien direct",
+    "L'éthique statistique exige transparence et protection des données"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quand la distribution est très asymétrique, on préfère :",
+      "options": [
+        "La moyenne",
+        "La médiane",
+        "L'étendue",
+        "Le mode"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Une série chronologique montre :",
+      "options": [
+        "Des corrélations",
+        "Des évolutions dans le temps",
+        "Des distributions",
+        "Des probabilités"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Si deux variables évoluent ensemble, on dit qu'elles sont :",
+      "options": [
+        "Causales",
+        "Corrélées",
+        "Égales",
+        "Indépendantes"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Pour mesurer les inégalités de revenus, le meilleur indicateur de dispersion est :",
+      "options": [
+        "L'étendue",
+        "La moyenne",
+        "L'intervalle interquartile",
+        "La médiane"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

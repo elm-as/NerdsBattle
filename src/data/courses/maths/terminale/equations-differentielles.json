@@ -1,14 +1,296 @@
 {
   "id": "maths-terminale-equations-differentielles",
   "title": "Équations différentielles",
-  "summary": "Les équations différentielles modélisent des phénomènes d'évolution en physique, biologie ou économie. Maîtrisez leur résolution pour décrire la croissance d'une population, la décharge d'un condensateur ou la cinétique chimique.",
-  "lesson": "## Introduction\n\nUne équation différentielle est une relation entre une fonction inconnue $y$ et ses dérivées. Elle exprime comment une grandeur varie en fonction d'elle-même et de la variable indépendante (souvent le temps $t$). Résoudre une équation différentielle, c'est trouver toutes les fonctions $y(t)$ qui satisfont cette relation. La solution générale dépend de constantes arbitraires, déterminées par des conditions initiales.\n\n## Points clés\n\n### 1. Équations du premier ordre linéaires\n\nForme générale : $y' + a(t) y = b(t)$. Si $a(t)=a$ (constante) et $b(t)=0$, l'équation est homogène : $y' + a y = 0$.\n**Solution homogène :** $y_h(t) = C e^{-a t}$, où $C \\in \\mathbb{R}$.\n**Exemple :** $y' + 2y = 0$ donne $y(t)=C e^{-2t}$.\n\nSi $b(t) \\neq 0$, on utilise la méthode de variation de la constante ou la recherche d'une solution particulière.\n**Exemple :** $y' - 3y = 6$.\nSolution homogène : $y_h = C e^{3t}$.\nSolution particulière constante : $y_p = -2$ (car $0 - 3(-2)=6$).\nSolution générale : $y(t) = C e^{3t} - 2$.\n\n**Attention :** Ne pas oublier la constante d'intégration ! Une erreur fréquente est de donner uniquement une solution particulière.\n\n### 2. Équations du second ordre à coefficients constants\n\nForme : $y'' + a y' + b y = 0$ (homogène). L'équation caractéristique associée est $r^2 + a r + b = 0$.\n- Si $\\Delta > 0$ : deux racines réelles $r_1$, $r_2$ → $y(t) = C_1 e^{r_1 t} + C_2 e^{r_2 t}$.\n- Si $\\Delta = 0$ : racine double $r_0$ → $y(t) = (C_1 + C_2 t) e^{r_0 t}$.\n- Si $\\Delta < 0$ : racines complexes $\\alpha \\pm i\\beta$ → $y(t) = e^{\\alpha t} (C_1 \\cos(\\beta t) + C_2 \\sin(\\beta t))$.\n\n**Exemple :** $y'' - 5y' + 6y = 0$ → $r^2-5r+6=0$ → $r=2$ ou $r=3$ → $y(t)=C_1 e^{2t}+C_2 e^{3t}$.\n**Exemple :** $y'' + 4y = 0$ → $r^2+4=0$ → $r=\\pm 2i$ → $y(t)=C_1 \\cos(2t) + C_2 \\sin(2t)$.\n\n**Piège :** Oublier le signe dans l'équation caractéristique (ex : pour $y''-2y'+y=0$, l'équation est $r^2-2r+1=0$ et non $r^2+2r+1=0$).\n\n### 3. Applications modélisées\n\n- **Décroissance radioactive :** $N'(t) = -\\lambda N(t)$ → solution $N(t)=N_0 e^{-\\lambda t}$.\n- **Circuit RC :** $u_C'(t) + \\frac{1}{RC} u_C(t) = \\frac{E}{RC}$ → solution $u_C(t)=E(1-e^{-t/RC})$.\n- **Oscillateur harmonique :** $x''(t) + \\omega^2 x(t)=0$ → $x(t)=A\\cos(\\omega t + \\phi)$.\n\n## Erreurs fréquentes\n\n1. Confondre $y'$ et $y$ : toujours identifier l'ordre de l'équation.\n2. Oublier la constante d'intégration dans la solution générale.\n3. Ne pas vérifier la solution particulière en la dérivant.\n4. Une équation du second ordre nécessite deux conditions initiales pour une solution unique.\n\n## Conclusion\n\nLes équations différentielles sont un outil essentiel pour décrire des systèmes dynamiques. Savoir résoudre les cas linéaires à coefficients constants permet d'aborder de nombreux problèmes concrets. Maîtrisez les méthodes de résolution : solution homogène + solution particulière, et n'oubliez pas les conditions initiales.",
-  "estimatedMinutes": 15,
-  "tags": [
-    "équations différentielles",
-    "Terminale S",
-    "mathématiques",
-    "modélisation",
-    "calcul différentiel"
+  "summary": "Un professeur cultive une colonie bactérienne de 1 000 bactéries à l'instant $t=0$ avec ses élèves. Ils constatent que l'accroissement de la population est proportionnel à cette population et que celle-ci double en 4 heures. L'expérience consiste à déterminer le nombre de bactéries après 12 heures. Pour cela, les élèves décident de faire des recherches afin de trouver l'équation qui régit ce phénomène et de la résoudre.",
+  "lesson": "## 1. Qu'est-ce qu'une équation différentielle ?\n\n**Définition :** Une équation différentielle est une équation dont l'inconnue est une **fonction**, et qui fait intervenir cette fonction et ses dérivées successives ($y', y'', ...$).\n\n**Ordre :** L'ordre d'une équation différentielle est l'ordre de la dérivée la plus élevée qui y figure.\nExemples :\n- $y' = 2x$ : équation du **premier ordre**.\n- $y'' + 3y' + 2y = 0$ : équation du **second ordre**.\n\n**Solution :** Une solution sur un intervalle $I$ est une fonction dérivable (ou plusieurs fois dérivable) sur $I$ qui satisfait l'équation pour tout $x \\\\in I$.\n\n## 2. Équation différentielle $y' = a y$ (avec $a$ constant)\n\nC'est l'équation de la croissance ou décroissance exponentielle.\n\n**Résolution :** Les solutions sur $\\\\mathbb{R}$ sont les fonctions :\n$$y(x) = K e^{a x}, \\\\quad K \\\\in \\\\mathbb{R}$$\n$K$ est la constante d'intégration, déterminée par une condition initiale.\n\n**Justification :** On a $y' = a y \\\\iff \\\\frac{y'}{y} = a$ (si $y \\\neq 0$). En intégrant : $\\\\ln|y| = a x + C \\\\iff y = \\\\pm e^C e^{a x} = K e^{a x}$, avec $K$ constante non nulle. On vérifie que $y=0$ est aussi solution (cas $K=0$).\n\n**Exemple :** Si $a=2$, les solutions sont $y(x)=K e^{2x}$.\n\n## 3. Équation différentielle $y' + a y = b$ (avec $a, b$ constants, $a \\\neq 0$)\n\n**Résolution :**\n1. **Solution générale de l'équation homogène associée** $y' + a y = 0$ : $y_h(x) = K e^{-a x}$.\n2. **Solution particulière de l'équation complète** $y' + a y = b$ : On cherche une solution constante $y_p = C$. Alors $y_p'=0$, donc $0 + a C = b \\\\Rightarrow C = \\\\frac{b}{a}$. Ainsi $y_p(x) = \\\\frac{b}{a}$.\n3. **Solution générale :** C'est la somme de la solution générale de l'homogène et d'une solution particulière :\n$$y(x) = y_h(x) + y_p(x) = K e^{-a x} + \\\\frac{b}{a}$$\n\n## 4. Équation différentielle $y'' = 0$\n\n**Résolution :** En intégrant deux fois : $y'(x) = A$ (constante), puis $y(x) = A x + B$, où $A$ et $B$ sont des constantes réelles.\nLes solutions sont les **fonctions affines**.\n\n## 5. Équation différentielle $y'' + \\\\omega^2 y = 0$ ($\\\\omega > 0$)\n\nC'est l'équation de l'**oscillateur harmonique** (systèmes oscillants sans amortissement).\n\n**Résolution :** Les solutions sur $\\\\mathbb{R}$ sont :\n$$y(x) = A \\\\cos(\\\\omega x) + B \\\\sin(\\\\omega x), \\\\quad A, B \\\\in \\\\mathbb{R}$$\nOn peut aussi écrire $y(x) = C \\\\cos(\\\\omega x + \\\\varphi)$ avec $C \\\\geq 0$ (amplitude) et $\\\\varphi$ (phase).\n\n**Justification (hors programme) :** On vérifie par dérivation que ces fonctions sont solutions. L'ensemble des solutions est un espace vectoriel de dimension 2.\n\n**Période :** Les solutions sont périodiques de période $T = \\\\frac{2\\\\pi}{\\\\omega}$.\n\n## 6. Équation différentielle $y'' - \\\\omega^2 y = 0$ ($\\\\omega > 0$)\n\nC'est l'équation de la **croissance/décroissance exponentielle combinée**.\n\n**Résolution :** Les solutions sur $\\\\mathbb{R}$ sont :\n$$y(x) = A e^{\\\\omega x} + B e^{-\\\\omega x}, \\\\quad A, B \\\\in \\\\mathbb{R}$$\n\n**Justification :** L'équation caractéristique associée est $r^2 - \\\\omega^2 = 0$, de racines $r = \\\\omega$ et $r = -\\\\omega$.\n\n## 7. Problème de Cauchy (Condition initiale)\n\nSouvent, on cherche **la** solution qui vérifie des conditions initiales, par exemple :\n- Pour une équation du premier ordre : $y(x_0) = y_0$.\n- Pour une équation du second ordre : $y(x_0) = y_0$ et $y'(x_0) = y_1$.\n\n**Méthode :** On trouve d'abord la solution générale (qui dépend de constantes). On impose ensuite les conditions initiales pour déterminer les valeurs de ces constantes.\n\n## 8. Résolution de la situation d'apprentissage\n\n**Modélisation :** L'accroissement de la population $P(t)$ est proportionnel à $P(t)$. Cela se traduit par $P'(t) = k P(t)$, où $k$ est une constante de proportionnalité. C'est une équation du type $y' = a y$.\n\n**Données :** $P(0) = 1000$ et la population double en 4 heures : $P(4) = 2 P(0) = 2000$.\n\n**Étape 1 : Solution générale**\n$P(t) = K e^{k t}$, avec $K$ et $k$ constants.\n\n**Étape 2 : Détermination de $K$ avec la condition initiale**\n$P(0)=1000 \\\\Rightarrow K e^{k \\\\cdot 0} = K \\\\cdot 1 = 1000 \\\\Rightarrow K = 1000$.\nDonc $P(t) = 1000 e^{k t}$.\n\n**Étape 3 : Détermination de $k$ avec la condition de doublement**\n$P(4)=2000 \\\\Rightarrow 1000 e^{4k} = 2000 \\\\Rightarrow e^{4k} = 2$.\nEn prenant le logarithme : $4k = \\\\ln 2 \\\\Rightarrow k = \\\\frac{\\\\ln 2}{4}$.\n\n**Étape 4 : Expression de la population**\n$$P(t) = 1000 \\\\, e^{\\\\frac{\\\\ln 2}{4} t} = 1000 \\\\, \\\\left(e^{\\\\ln 2}\\\\right)^{\\\\frac{t}{4}} = 1000 \\\times 2^{\\\\frac{t}{4}}$$\n\n**Étape 5 : Population après 12 heures**\n$P(12) = 1000 \\\times 2^{\\\\frac{12}{4}} = 1000 \\\times 2^{3} = 1000 \\\times 8 = 8000$.\n\n**Conclusion :** Après 12 heures, la colonie compterait environ **8 000 bactéries**.\n\n**Généralisation :** Le temps de doublement $t_d$ est constant dans un modèle exponentiel et vérifie $k t_d = \\\\ln 2$.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Une équation différentielle est une équation où l'inconnue est une fonction $y$ et qui fait intervenir $y$ et ses dérivées.",
+    "L'équation $y' = a y$ a pour solutions $y(x)=K e^{a x}$ (croissance si $a>0$, décroissance si $a<0$).",
+    "L'équation $y' + a y = b$ a pour solution générale $y(x)=K e^{-a x} + \\\\frac{b}{a}$ (somme d'une solution particulière constante et de la solution de l'homogène).",
+    "L'équation $y'' = 0$ a pour solutions les fonctions affines $y(x)=Ax+B$.",
+    "L'équation $y'' + \\\\omega^2 y = 0$ modélise des oscillations (type ressort). Ses solutions sont $A \\\\cos(\\\\omega x) + B \\\\sin(\\\\omega x)$ (fonctions sinusoïdales).",
+    "L'équation $y'' - \\\\omega^2 y = 0$ a pour solutions $A e^{\\\\omega x} + B e^{-\\\\omega x}$ (combinaisons d'exponentielles).",
+    "Pour trouver la solution unique satisfaisant des conditions initiales (problème de Cauchy), on détermine les constantes dans la solution générale à l'aide de ces conditions.",
+    "Les équations différentielles sont des outils puissants pour modéliser des phénomènes naturels : croissance de population ($y'=k y$), refroidissement ($T' = -k(T-T_{ext})$), circuits électriques, etc."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "L'équation $y' = 3y$ est une équation différentielle :",
+      "options": [
+        "Du second ordre",
+        "Du premier ordre",
+        "Du troisième ordre",
+        "Du degré 3"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Les solutions de $y' + 2y = 0$ sont :",
+      "options": [
+        "$y=K e^{-2x}$",
+        "$y=K e^{2x}$",
+        "$y= e^{-2x}+C$",
+        "$y= -2x+K$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Une solution particulière de $y' - y = 4$ est :",
+      "options": [
+        "$y=4$",
+        "$y=-4$",
+        "$y=e^x$",
+        "$y=4x$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Les solutions de $y'' + 4y = 0$ sont de la forme :",
+      "options": [
+        "$A e^{2x}+B e^{-2x}$",
+        "$A \\\\cos(2x)+B \\\\sin(2x)$",
+        "$A x + B$",
+        "$A e^{4x}$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "La solution de $y'' = 0$ vérifiant $y(0)=1$ et $y'(0)=2$ est :",
+      "options": [
+        "$y=x+1$",
+        "$y=2x+1$",
+        "$y=x^2+2$",
+        "$y=2x$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Si $f$ est solution de $y' = -0.5 y$, alors :",
+      "options": [
+        "$f$ est croissante",
+        "$f$ est décroissante",
+        "$f$ est constante",
+        "$f$ est périodique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "L'équation $y' = 2x$ a pour solutions :",
+      "options": [
+        "$y=x^2 + C$",
+        "$y=2x + C$",
+        "$y=e^{2x}+C$",
+        "$y=\\\\ln(2x)+C$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Laquelle de ces fonctions est solution de $y'' - y = 0$ ?",
+      "options": [
+        "$\\\\cos x$",
+        "$e^x$",
+        "$x^2$",
+        "$\\\\ln x$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Pour une équation $y' + a y = b$, la solution tend vers $\\\\frac{b}{a}$ quand $x \\\\to +\\\\infty$ si :",
+      "options": [
+        "$a>0$",
+        "$a<0$",
+        "$b>0$",
+        "$b<0$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "La solution de $y' = 3y$ avec $y(0)=5$ est :",
+      "options": [
+        "$y=5 e^{3x}$",
+        "$y=3 e^{5x}$",
+        "$y=5 e^{-3x}$",
+        "$y= e^{3x}+5$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "La solution de y' = 3y est :",
+      "options": [
+        "y = 3x",
+        "y = Ke^(3x)",
+        "y = e^(3x)",
+        "y = 3e^x"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Si y' = −ay avec a > 0, y est :",
+      "options": [
+        "Croissante",
+        "Décroissante",
+        "Constante",
+        "Périodique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Les solutions de $y' + 3y = 0$ sont :",
+      "options": [
+        "$Ke^{3x}$",
+        "$Ke^{-3x}$",
+        "$K\\\\cos(3x)$",
+        "$K\\\\sin(3x)$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Une équation différentielle est une équation où l'inconnue est :",
+      "options": [
+        "Un nombre",
+        "Une fonction",
+        "Une matrice",
+        "Un vecteur"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Pour $y' + 2y = 6$, une solution particulière constante est :",
+      "options": [
+        "0",
+        "2",
+        "3",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "L'équation $y'' = 0$ a pour solutions :",
+      "options": [
+        "Les exponentielles",
+        "Les fonctions affines",
+        "Les fonctions trigonométriques",
+        "Les fonctions logarithmes"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Si $f$ vérifie $f' = kf$ et $f(0)=100$, alors $f(t)=$",
+      "options": [
+        "$100e^{kt}$",
+        "$100e^{-kt}$",
+        "$100+kt$",
+        "$100\\\\cos(kt)$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Les solutions de $y'' - 9y = 0$ sont :",
+      "options": [
+        "$A\\\\cos(3x)+B\\\\sin(3x)$",
+        "$Ae^{3x}+Be^{-3x}$",
+        "$Ax+B$",
+        "$Ke^{-9x}$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Pour trouver la solution unique d'une équation différentielle du 1er ordre, il faut :",
+      "options": [
+        "1 condition",
+        "2 conditions",
+        "3 conditions",
+        "Aucune condition"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "L'équation $y' = 2y$ modélise une :",
+      "options": [
+        "Croissance exponentielle",
+        "Décroissance exponentielle",
+        "Oscillation",
+        "Fonction affine"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q21",
+      "type": "mcq",
+      "prompt": "Vérifier si $f(x)=e^{-x}$ est solution de $y'+y=0$ :",
+      "options": [
+        "Oui",
+        "Non",
+        "Seulement pour x>0",
+        "Seulement pour x<0"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
   ]
 }

@@ -1,0 +1,32 @@
+{
+  "id": "physique-terminale-acides-carboxyliques",
+  "title": "Acides carboxyliques",
+  "summary": "Fabrication des parfums ?",
+  "lesson": "## Acides\nR-COOH\n\n## Esters\nR-COO-R'\nEstérification : R-COOH + R'-OH ⇌ R-COO-R' + H₂O\nSaponification : R-COO-R' + HO⁻ → R-COO⁻ + R'-OH",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Acide : R-COOH",
+    "Ester : R-COO-R'",
+    "Estérification réversible",
+    "Saponification irréversible"
+  ],
+  "exercise": {
+    "question": "CH₃COOH + CH₃OH ?",
+    "answer": "éthanoate de méthyle"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Fonction acide ?",
+      "options": [
+        "-OH",
+        "-CHO",
+        "-COOH",
+        "-COO-"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

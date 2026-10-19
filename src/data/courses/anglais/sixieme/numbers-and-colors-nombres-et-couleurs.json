@@ -1,0 +1,58 @@
+{
+  "id": "anglais-sixieme-numbers-and-colors-nombres-et-couleurs",
+  "title": "Numbers and Colors - Nombres et Couleurs",
+  "summary": "Au marché d'Abidjan, on achète des fruits colorés. Comment les décrire et compter en anglais ?",
+  "lesson": "## Numbers - Les nombres\n\n### 1-20\n1 = one, 2 = two, 3 = three, 4 = four, 5 = five\n6 = six, 7 = seven, 8 = eight, 9 = nine, 10 = ten\n11 = eleven, 12 = twelve, 13 = thirteen, 14 = fourteen, 15 = fifteen\n16 = sixteen, 17 = seventeen, 18 = eighteen, 19 = nineteen, 20 = twenty\n\n### Dizaines\n20 = twenty, 30 = thirty, 40 = forty, 50 = fifty\n60 = sixty, 70 = seventy, 80 = eighty, 90 = ninety, 100 = one hundred\n\n## Colors - Les couleurs\n\n### Basic Colors\n- **Red** - rouge\n- **Blue** - bleu\n- **Yellow** - jaune\n- **Green** - vert\n- **Orange** - orange\n- **Purple** - violet\n- **Pink** - rose\n- **Black** - noir\n- **White** - blanc\n- **Brown** - marron\n\n### Décrire avec des couleurs\n\n- The mango is **yellow**. - La mangue est jaune.\n- The banana is **yellow**. - La banane est jaune.\n- The sky is **blue**. - Le ciel est bleu.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Nombres 1-20 à connaître par cœur",
+    "Les dizaines : twenty, thirty, forty...",
+    "Les couleurs : red, blue, yellow, green...",
+    "Adjectif AVANT le nom en anglais"
+  ],
+  "exercise": {
+    "answer": "\n**Solution :**\nI have fifteen yellow mangoes and eight green bananas.\n        ",
+    "question": "Écris en anglais : 'J'ai 15 mangues jaunes et 8 bananes vertes.'"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Comment dit-on '25' en anglais ?",
+      "options": [
+        "Fifty-two",
+        "Twenty-five",
+        "Fifteen",
+        "Thirty-five"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle est la couleur 'red' ?",
+      "options": [
+        "Bleu",
+        "Vert",
+        "Rouge",
+        "Jaune"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'noir' en anglais ?",
+      "options": [
+        "White",
+        "Black",
+        "Brown",
+        "Blue"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "physique-sixieme-volume-d-un-liquide-et-d-un-solide",
+  "title": "Volume d'un liquide et d'un solide",
+  "summary": "Au cours d'une séance de Travaux Pratiques dans la classe de 6ème 4 du Lycée Moderne de Zoukougbeu, chaque groupe d'élèves trouve sur sa paillasse différents corps : de l'eau, de l'huile, un dé, des éprouvettes graduées, une pate à modeler. Les élèves veulent connaître les volumes de ces différents corps. Ils se proposent alors de les déterminer.",
+  "lesson": "# Volume d'un liquide et d'un solide\n\n## I. Définitions\n\n### Volume\nLe volume d'un corps est l'espace qu'il occupe.\n\n### Capacité\nLa capacité d'un récipient est le volume maximum de liquide qu'il peut contenir.\n\n## II. Unité de volume\n\nL'unité légale de volume est le **mètre cube (m³)**.\n\nSous-multiples courants:\n- 1 dm³ = 1 litre (L) = 1000 cm³\n- 1 cm³ = 1 millilitre (mL)\n\n## III. Mesure du volume d'un liquide\n\nOn utilise un récipient gradué (éprouvette graduée, verre doseur).\n\n**Méthode**:\n1. Verser le liquide dans l'éprouvette\n2. Placer l'œil au niveau de la surface du liquide\n3. Lire la graduation au bas du ménisque\n\n## IV. Volume d'un solide de forme quelconque\n\n**Méthode par déplacement de liquide**:\n\n1. Verser un volume V₁ d'eau dans une éprouvette\n2. Plonger le solide: l'eau monte à V₂\n3. Volume du solide: V = V₂ - V₁\n\n**Principe**: le solide déplace un volume d'eau égal à son propre volume.\n\n## V. Volume d'un solide géométrique\n\nPour les solides de formes régulières, on utilise des formules:\n- **Cube**: V = côté³\n- **Parallélépipède**: V = Longueur × largeur × hauteur\n- **Cylindre**: V = π × rayon² × hauteur",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Volume: espace occupé par un corps",
+    "Unité légale: mètre cube (m³)",
+    "1 L = 1 dm³ = 1000 cm³ = 1000 mL",
+    "Déplacement de liquide pour solides quelconques"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "L'unité légale de volume est:",
+      "options": [
+        "Le litre",
+        "Le mètre cube",
+        "Le centimètre cube",
+        "Le millilitre"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "1 litre équivaut à:",
+      "options": [
+        "1 m³",
+        "1 dm³",
+        "1 cm³",
+        "1 mm³"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

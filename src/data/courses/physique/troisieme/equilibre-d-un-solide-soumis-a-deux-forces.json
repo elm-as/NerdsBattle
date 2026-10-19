@@ -1,0 +1,97 @@
+{
+  "id": "physique-troisieme-equilibre-d-un-solide-soumis-a-deux-forces",
+  "title": "Équilibre d'un solide soumis à deux forces",
+  "summary": "Lycée Municipal de Mankono : corps immergés, certains flottent, d'autres coulent. Pourquoi ?",
+  "lesson": "# Équilibre d'un solide soumis à deux forces\n\n## I. Conditions d'équilibre\n\nUn solide soumis à deux forces F₁ et F₂ est en équilibre si :\n\n### Condition 1 : Même droite d'action\nLes deux forces ont la même direction\n\n### Condition 2 : Sens opposés\nF₁ et F₂ de sens contraires\n\n### Condition 3 : Même intensité\nF₁ = F₂\n\nRésultante : F₁ + F₂ = 0\n\n## II. Flottaison\n\n### Condition de flottaison\nPA ≥ P\nou\nρcorps ≤ ρliquide\n\n### Trois cas\n\n1. Flotte : PA > P (ρcorps < ρeau)\n   - Exemple : bois (ρ ≈ 0,6 g/cm³)\n\n2. En équilibre : PA = P\n   - Immergé complètement\n   - Exemple : poisson\n\n3. Coule : PA < P (ρcorps > ρeau)\n   - Exemple : fer (ρ = 7,8 g/cm³)\n\n## III. Applications\n\n- Navigation : bateaux\n- Natation\n- Sous-marins\n- Ballons (air)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Équilibre : F₁ = F₂, opposées, même droite",
+    "Flottaison : PA ≥ P",
+    "ρcorps < ρliquide → flotte",
+    "ρcorps > ρliquide → coule"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Un corps flotte si :",
+      "options": [
+        "PA < P",
+        "PA = P",
+        "PA > P",
+        "PA = 0"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-physique-1-mvajiliw",
+      "type": "mcq",
+      "prompt": "Un solide de volume $V = 200 \\, \\text{cm}^3$ et de masse $m = 150 \\, \\text{g}$ est plongé dans l'eau (masse volumique $\\rho_{\\text{eau}} = 1 \\, \\text{g/cm}^3$). En utilisant les conditions d'équilibre et de flottaison, quelle est la situation de ce solide ?",
+      "options": [
+        "Il coule au fond du récipient car $\\rho_{\\text{corps}} > \\rho_{\\text{eau}}$.",
+        "Il flotte partiellement immergé car $\\rho_{\\text{corps}} < \\rho_{\\text{eau}}$.",
+        "Il est en équilibre indifférent (neutre) car $\\rho_{\\text{corps}} = \\rho_{\\text{eau}}$.",
+        "Il flotte à la surface sans s'immerger car la poussée d'Archimède est nulle."
+      ],
+      "answer": 1,
+      "explanation": "La masse volumique du corps est $\\rho_{\\text{corps}} = \\frac{m}{V} = \\frac{150}{200} = 0,75 \\, \\text{g/cm}^3$. Comme $0,75 < 1$, on a $\\rho_{\\text{corps}} < \\rho_{\\text{eau}}$. Selon le cours, si la masse volumique du corps est inférieure à celle du liquide, le corps flotte (cas 1 : $PA > P$)."
+    },
+    {
+      "id": "auto-physique-2-mvajiliw",
+      "type": "mcq",
+      "prompt": "Pour qu'un solide soumis à deux forces $\\vec{F_1}$ et $\\vec{F_2}$ soit en équilibre, la résultante de ces forces doit être nulle. Quelle est la condition mathématique exacte qui traduit cette annulation ?",
+      "options": [
+        "$\\vec{F_1} + \\vec{F_2} = \\vec{0}$",
+        "$\\vec{F_1} - \\vec{F_2} = \\vec{0}$",
+        "$|\\vec{F_1}| \\times |\\vec{F_2}| = 0$",
+        "$\\vec{F_1} \\cdot \\vec{F_2} = 0$"
+      ],
+      "answer": 0,
+      "explanation": "La condition d'équilibre d'un solide soumis à deux forces exige que la somme vectorielle des forces soit nulle. Cela implique qu'elles ont la même norme, la même direction et des sens opposés, ce qui s'écrit $\\vec{F_1} + \\vec{F_2} = \\vec{0}$."
+    },
+    {
+      "id": "auto-physique-3-mvajiliw",
+      "type": "mcq",
+      "prompt": "Un poisson nage dans l'eau en maintenant une profondeur constante sans monter ni descendre. En termes de forces, quelle relation existe entre la poussée d'Archimède ($PA$) et le poids ($P$) du poisson ?",
+      "options": [
+        "$PA > P$, car le poisson doit lutter contre la gravité.",
+        "$PA < P$, car le poisson est plus dense que l'eau.",
+        "$PA = P$, car les deux forces s'annulent mutuellement.",
+        "$PA = 0$, car le poisson est en apesanteur."
+      ],
+      "answer": 2,
+      "explanation": "Le cours cite le poisson comme exemple du cas 2 : 'En équilibre : $PA = P$'. Le poisson est immergé complètement et reste en équilibre statique (ou dynamique à vitesse constante) car la poussée d'Archimède compense exactement son poids."
+    },
+    {
+      "id": "auto-physique-4-mvajiliw",
+      "type": "mcq",
+      "prompt": "Un bloc de fer ($\\rho_{\\text{fer}} = 7,8 \\, \\text{g/cm}^3$) est lâché dans un verre d'eau ($\\rho_{\\text{eau}} = 1 \\, \\text{g/cm}^3$). Pourquoi le bloc coule-t-il selon les conditions d'équilibre ?",
+      "options": [
+        "Parce que la poussée d'Archimède est supérieure au poids du fer.",
+        "Parce que la masse volumique du fer est inférieure à celle de l'eau.",
+        "Parce que la poussée d'Archimède est inférieure au poids du fer ($PA < P$).",
+        "Parce que les deux forces n'ont pas la même direction d'action."
+      ],
+      "answer": 2,
+      "explanation": "Le cours indique que le fer coule car $\\rho_{\\text{corps}} > \\rho_{\\text{eau}}$. Cela équivaut à dire que le poids du volume d'eau déplacé (poussée d'Archimède) est insuffisant pour compenser le poids du fer, donc $PA < P$."
+    },
+    {
+      "id": "auto-physique-5-mvajiliw",
+      "type": "mcq",
+      "prompt": "Dans le cas d'un solide en équilibre sous l'effet de deux forces, si l'intensité de la force $F_1$ est de $50 \\, \\text{N}$, quelle doit être l'intensité de la force $F_2$ pour que la condition d'équilibre soit respectée ?",
+      "options": [
+        "$25 \\, \\text{N}$",
+        "$100 \\, \\text{N}$",
+        "$50 \\, \\text{N}$",
+        "$0 \\, \\text{N}$"
+      ],
+      "answer": 2,
+      "explanation": "La condition 3 de l'équilibre d'un solide soumis à deux forces stipule qu'elles doivent avoir la même intensité ($F_1 = F_2$). Si $F_1 = 50 \\, \\text{N}$, alors $F_2$ doit obligatoirement valoir $50 \\, \\text{N}$."
+    }
+  ]
+}

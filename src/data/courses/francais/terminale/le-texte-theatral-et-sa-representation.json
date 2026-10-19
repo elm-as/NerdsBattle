@@ -1,0 +1,45 @@
+{
+  "id": "francais-terminale-le-texte-theatral-et-sa-representation",
+  "title": "Le texte théâtral et sa représentation",
+  "summary": "En quoi le théâtre moderne renouvelle-t-il le genre ?",
+  "lesson": "## Théâtre moderne\n\n### Renouvellement du XXe siècle\n\n**Théâtre de l'absurde**\n- Ionesco : 'La Cantatrice chauve', 'Rhinocéros'\n- Beckett : 'En attendant Godot'\n- Langage vidé de sens\n- Situations absurdes\n\n**Théâtre de la cruauté (Artaud)**\n- Théâtre physique\n- Violence et catharsis\n- Rejet du texte classique\n\n**Théâtre épique (Brecht)**\n- Distanciation\n- Théâtre politique\n- Spectateur critique\n\n### Texte et représentation\n\n**Le texte**\n- Didascalies\n- Dialogues\n- Indications scéniques\n\n**La mise en scène**\n- Interprétation du metteur en scène\n- Choix esthétiques\n- Modernisation possible\n\n**Exemple : 'Dom Juan' de Molière**\n- Texte du XVIIe\n- Mises en scène contemporaines variées\n\n### Fonctions du théâtre\n\n**Divertir**\n- Plaisir du spectacle\n- Comédie\n\n**Émouvoir**\n- Catharsis\n- Tragédie\n\n**Faire réfléchir**\n- Critique sociale\n- Théâtre engagé",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Absurde : langage et situations absurdes",
+    "Texte ≠ représentation",
+    "Mise en scène = interprétation",
+    "Fonctions : divertir, émouvoir, réfléchir"
+  ],
+  "exercise": {
+    "question": "Quelle est la spécificité du théâtre par rapport au roman ?",
+    "answer": "\n**Solution :**\n- Double existence : texte ET représentation\n- Spectacle vivant\n- Présence des acteurs\n- Dialogue direct avec le public\n- Interprétation scénique variable\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Le théâtre de l'absurde se caractérise par :",
+      "options": [
+        "Un langage poétique",
+        "Des situations absurdes",
+        "Le respect des unités",
+        "Des héros nobles"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La distanciation brechtienne vise à :",
+      "options": [
+        "Émouvoir le spectateur",
+        "Faire réfléchir de façon critique",
+        "Divertir",
+        "Respecter les règles"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

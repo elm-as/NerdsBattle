@@ -1,0 +1,45 @@
+{
+  "id": "espagnol-troisieme-les-metiers-et-l-orientation-professionnelle",
+  "title": "Les métiers et l'orientation professionnelle",
+  "summary": "¿Qué quieres ser en el futuro? (Que veux-tu faire dans le futur ?)",
+  "lesson": "## Les métiers et l'orientation\n\n### Les professions\n\n**Santé :**\n- el médico / la médica (le médecin)\n- el/la enfermero/a (l'infirmier/ère)\n- el/la dentista (le/la dentiste)\n- el/la farmacéutico/a (le/la pharmacien/ne)\n\n**Éducation :**\n- el profesor / la profesora (le professeur)\n- el maestro / la maestra (l'instituteur/trice)\n\n**Droit et services :**\n- el abogado / la abogada (l'avocat/e)\n- el/la policía (le/la policier/ère)\n- el bombero / la bombera (le/la pompier)\n\n**Commerce et affaires :**\n- el/la comerciante (le/la commerçant/e)\n- el/la vendedor/a (le vendeur / la vendeuse)\n- el/la empresario/a (l'entrepreneur/se)\n- el/la contador/a (le/la comptable)\n\n**Arts et communication :**\n- el/la periodista (le/la journaliste)\n- el actor / la actriz (l'acteur / l'actrice)\n- el/la músico/a (le/la musicien/ne)\n- el/la artista (l'artiste)\n\n**Technique :**\n- el ingeniero / la ingeniera (l'ingénieur/e)\n- el/la mecánico/a (le/la mécanicien/ne)\n- el/la informático/a (l'informaticien/ne)\n- el arquitecto / la arquitecta (l'architecte)\n\n### Parler de son avenir professionnel\n\n**Exprimer ses intentions :**\n- Quiero ser... (Je veux être...)\n- Me gustaría ser... (J'aimerais être...)\n- Voy a ser... (Je vais être...)\n- Seré... (Je serai...)\n- Espero ser... (J'espère être...)\n\n**Exprimer ses raisons :**\n- Porque me gusta... (Parce que j'aime...)\n- Porque es interesante (Parce que c'est intéressant)\n- Porque quiero ayudar a la gente (Parce que je veux aider les gens)\n- Porque gana bien (Parce que ça paye bien)\n\n### Qualités professionnelles\n\n- responsable (responsable)\n- trabajador/a (travailleur/se)\n- creativo/a (créatif/ve)\n- paciente (patient/e)\n- organizado/a (organisé/e)\n- sociable (sociable)\n- dinámico/a (dynamique)\n\n### Parler des études\n\n- estudiar medicina (étudier la médecine)\n- ir a la universidad (aller à l'université)\n- hacer una formación (faire une formation)\n- aprobar los exámenes (réussir les examens)\n\n### Dialogue modèle\n\n**Pregunta:** ¿Qué quieres ser cuando seas mayor?\n**Respuesta:** Quiero ser médico porque me gusta ayudar a la gente. Para eso, necesito estudiar mucho y ir a la universidad. Después, trabajaré en un hospital.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "El/la pour la plupart des professions",
+    "Quiero/Me gustaría ser + profession",
+    "Porque + raison",
+    "Futur : Seré médico/a"
+  ],
+  "exercise": {
+    "answer": "En el futuro, quiero ser ingeniero porque me gustan las matemáticas y la tecnología. Para eso, voy a estudiar mucho en el liceo. Después iré a la universidad. Me gustaría trabajar en una empresa grande y ayudar a construir cosas útiles.",
+    "question": "Parle de ton projet professionnel futur."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'Je veux être médecin' ?",
+      "options": [
+        "Soy médico",
+        "Estoy médico",
+        "\"Quiero ser médico\"",
+        "He médico"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "'El abogado' signifie :",
+      "options": [
+        "Le médecin",
+        "L'ingénieur",
+        "Le professeur",
+        "\"L'avocat\""
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

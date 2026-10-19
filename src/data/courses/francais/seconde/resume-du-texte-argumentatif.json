@@ -1,0 +1,71 @@
+{
+  "id": "francais-seconde-resume-du-texte-argumentatif",
+  "title": "Résumé du texte argumentatif",
+  "summary": "À l’occasion de la journée nationale de l’environnement, les organisateurs remettent aux élèves une brochure contenant des textes argumentatifs. Les élèves de Seconde C en retiennent un d’environ 500 mots. Émerveillés par le thème et la rigueur de l’argumentation, ils décident d’en retenir l’essentiel en répondant aux questions, en résumant le texte et en rédigeant un texte argumentatif sur un sujet connexe.",
+  "lesson": "## 1. Les étapes du résumé\n\n1. **Lecture globale** pour comprendre le thème et la thèse.\n2. **Identification de la structure** (plan du texte).\n3. **Sélection des idées essentielles** (suppression des exemples, redites, digressions).\n4. **Reformulation** dans une langue personnelle, concise.\n5. **Rédaction** du résumé en respectant la longueur imposée (généralement 1/4 du texte source).\n\n## 2. Identifier la situation d’argumentation\n\n**Questions à se poser :**\n- **De quoi parle le texte ?** (thème)\n- **Quelle est la position de l’auteur ?** (thèse)\n- **Comment est organisé le texte ?** (structure : introduction, arguments pour/contre, conclusion)\n- **Quelle est la visée de l’auteur ?** (convaincre, persuader, alerter)\n\n## 3. Sélectionner les idées essentielles\n\n**Techniques :**\n- **Distinguer** :\n  - **Thèse** : affirmation principale.\n  - **Arguments** : raisons qui soutiennent la thèse.\n  - **Exemples** : illustrations concrètes (à supprimer ou généraliser).\n- **Supprimer** :\n  - Les répétitions.\n  - Les digressions.\n  - Les exemples trop détaillés (on peut les évoquer en un mot générique).\n  - Les citations.\n\n## 4. Reformuler les idées\n\n**Outils de reformulation :**\n- **Synonymes** : remplacer par un mot de sens proche.\n- **Mots génériques** : pour les énumérations (ex. : « pommes, poires, bananes » → « des fruits »).\n- **Simplification syntaxique** :\n  - Transformer une phrase complexe en phrase simple.\n  - Remplacer une subordonnée par un groupe nominal.\n  - Utiliser des verbes d’action plutôt que des périphrases.\n\n## 5. Rédiger le résumé\n\n**Règles d’or :**\n- **Fidélité** : ne pas déformer la pensée de l’auteur.\n- **Neutralité** : pas de jugement personnel, pas de commentaire.\n- **Cohérence** : utiliser des connecteurs logiques pour lier les idées.\n- **Concision** : aller à l’essentiel.\n\n## 6. Exemple guidé à partir d’un texte court\n\n**Texte source (extrait) :** « La protection des forêts ivoiriennes est impérative. En effet, elles abritent une biodiversité unique et jouent un rôle crucial dans la régulation du climat. Malgré cela, la déforestation continue à un rythme alarmant pour l’agriculture et l’urbanisation. Il est donc urgent de mettre en place des politiques de conservation strictes. » (60 mots)\n\n**Résumé attendu (environ 15 mots) :** « La protection des forêts est nécessaire car elles préservent la biodiversité et le climat, malgré une déforestation inquiétante qui exige des politiques de conservation. »\n\n## 7. Pièges à éviter\n\n- **Paraphrase** : recopier les phrases de l’auteur en changeant juste quelques mots.\n- **Ajout d’idées** personnelles.\n- **Omission** d’idées importantes.\n- **Respect insuffisant** de la longueur.\n\n## 8. Production guidée\n\n**Texte support (environ 200 mots) sur « L’importance du tri des déchets à l’école ».**\n\n**Consigne :**\n1. Lisez le texte.\n2. Identifiez la thèse et deux arguments principaux.\n3. Résumez-le en 50 mots (±5).",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Distinguer la thèse, les arguments et les exemples dans un texte argumentatif.",
+    "Sélectionner les idées essentielles en supprimant les éléments secondaires (exemples, redites).",
+    "Reformuler ces idées en utilisant des synonymes, des mots génériques et une syntaxe simplifiée.",
+    "Rédiger un résumé fidèle, neutre et concis qui respecte la longueur imposée."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans un texte argumentatif, quelle est l’idée principale défendue par l’auteur ?",
+      "options": [
+        "L’exemple",
+        "L’argument",
+        "La thèse",
+        "La digression"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Que faut-il généralement supprimer lors de la sélection des idées essentielles ?",
+      "options": [
+        "La thèse",
+        "Les arguments",
+        "Les exemples trop détaillés",
+        "La conclusion"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel outil permet de remplacer « pommes, poires, bananes » dans un résumé ?",
+      "options": [
+        "Un synonyme",
+        "Un mot générique (« des fruits »)",
+        "Une périphrase",
+        "Un connecteur logique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Un résumé doit être :",
+      "options": [
+        "Subjectif et critique",
+        "Fidèle et neutre",
+        "Plus long que l’original",
+        "Écrit à la première personne"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

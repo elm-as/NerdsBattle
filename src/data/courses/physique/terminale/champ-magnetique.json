@@ -1,0 +1,298 @@
+{
+  "id": "physique-terminale-champ-magnetique",
+  "title": "Champ magnétique",
+  "summary": "Au marché d'Adjamé à Abidjan, un élève de Terminale C observe un réparateur de radios et télévisions tester un haut-parleur avec une aiguille aimantée. Il remarque que l'aiguille dévie quand on l'approche de l'aimant du haut-parleur ou d'une bobine parcourue par un courant. Intrigué, il se demande pourquoi certains matériaux créent un champ magnétique même sans courant, et comment un simple fil électrique peut influencer une boussole. De retour en classe, avec ses camarades, ils décident d'étudier scientifi",
+  "lesson": "## 1. Introduction au magnétisme\n\nLe magnétisme est un phénomène physique connu depuis l'Antiquité avec la pierre d'aimant (magnétite). En Côte d'Ivoire, ce phénomène est essentiel pour de nombreuses applications : générateurs électriques des barrages (Komé, Soubré), moteurs des machines agricoles, systèmes de navigation des bateaux de pêche, et même pour le fonctionnement des téléphones portables. Le magnétisme explique aussi le champ magnétique terrestre qui nous protège des particules cosmiques et guide les oiseaux migrateurs traversant notre territoire.\n\n## 2. Espace champ magnétique\n\nUn espace champ magnétique est une région de l'espace où s'exercent des forces magnétiques sur des aimants ou des conducteurs parcourus par un courant. On le met en évidence avec une aiguille aimantée (boussole) qui s'oriente selon les lignes de champ.\n\nExpériences fondamentales :\n1. Interaction entre deux aimants : attraction entre pôles opposés (N-S), répulsion entre pôles identiques (N-N ou S-S)\n2. Interaction aimant-courant : un conducteur parcouru par un courant crée un champ magnétique\n3. Interaction courant-courant : deux fils parallèles parcourus par des courants s'attirent ou se repoussent\n\n## 3. Vecteur champ magnétique \\( \\\\overrightarrow{B} \\)\n\n### 3.1. Définition\nLe vecteur champ magnétique \\( \\\\overrightarrow{B} \\) en un point caractérise l'action magnétique en ce point. Une aiguille aimantée s'aligne selon la direction de \\( \\\\overrightarrow{B} \\), avec son pôle nord pointant dans le sens de \\( \\\\overrightarrow{B} \\).\n\n### 3.2. Caractéristiques\n- Point d'application : le point considéré\n- Direction : celle de l'aiguille aimantée à l'équilibre\n- Sens : du pôle sud vers le pôle nord à l'intérieur de l'aimant, mais conventionnellement on prend le sens du pôle nord de l'aiguille\n- Norme ou intensité B : mesurée en tesla (T)\n\n### 3.3. Représentation\nOn représente \\( \\\\overrightarrow{B} \\) par un vecteur ou par des lignes de champ (lignes tangentes en chaque point à \\( \\\\overrightarrow{B} \\)).\n\n**Description du schéma 1: Vecteur champ magnétique et lignes de champ**\nReprésenter un aimant droit avec son pôle Nord (N) et Sud (S). Tracer les lignes de champ magnétique : elles sortent du pôle Nord, forment des courbes, et rentrent dans le pôle Sud. En plusieurs points, dessiner le vecteur \\( \\\\overrightarrow{B} \\) tangent aux lignes de champ. Montrer que les lignes sont plus serrées près des pôles (champ plus intense). Ajouter une petite aiguille aimantée montrant son alignement avec \\( \\\\overrightarrow{B} \\). Légender : \"Lignes de champ magnétique\", \"\\( \\\\overrightarrow{B} \\) tangent aux lignes de champ\", \"N : pôle Nord\", \"S : pôle Sud\", \"Lignes sortent de N, entrent dans S\".\n\n## 4. Règles d'orientation du champ magnétique\n\n### 4.1. Pour un aimant\n- À l'extérieur : lignes sortent du pôle N, entrent dans le pôle S\n- À l'intérieur : lignes vont du S vers le N (fermeture des lignes)\n\n### 4.2. Pour un conducteur rectiligne (règle du bonhomme d'Ampère)\nLe conducteur est saisi par la main droite, le pouce dans le sens du courant, les doigts indiquent le sens des lignes de champ (cercles concentriques autour du fil).\n\n### 4.3. Pour une spire circulaire (règle de la main droite)\nLes doigts de la main droite dans le sens du courant, le pouce indique le sens de \\( \\\\overrightarrow{B} \\) au centre.\n\n### 4.4. Pour un solénoïde\nÀ l'intérieur, \\( \\\\overrightarrow{B} \\) est uniforme et parallèle à l'axe. Son sens est donné par la règle du tire-bouchon : si le courant tourne dans le sens de vissage, \\( \\\\overrightarrow{B} \\) avance.\n\n## 5. Spectre magnétique\n\n### 5.1. Définition\nUn spectre magnétique est la figure formée par les lignes de champ magnétique, rendue visible par de la limaille de fer qui s'aligne avec le champ.\n\n### 5.2. Spectre d'un aimant droit\nLignes courbes sortant du pôle N, se refermant vers le pôle S. Les lignes sont plus denses près des pôles.\n\n### 5.3. Spectre d'un aimant en U (ou en fer à cheval)\nEntre les branches, le champ est pratiquement uniforme (lignes parallèles et équidistantes). C'est utilisé dans les expériences de physique.\n\n**Description du schéma 2: Spectres magnétiques de différents aimants**\nReprésenter trois spectres magnétiques côte à côte :\n1. Aimant droit : lignes courbes de N vers S, plus denses aux extrémités.\n2. Aimant en U : lignes presque droites et parallèles entre les pôles, courbes à l'extérieur.\n3. Deux pôles Nord face à face : lignes qui se repoussent, montrant la répulsion.\nPour chaque cas, indiquer les pôles N et S. Légender : \"Aimant droit : champ non uniforme\", \"Aimant en U : champ uniforme entre les pôles\", \"Pôles identiques : répulsion, lignes ne se rejoignent pas\".\n\n## 6. Solénoïde parcouru par un courant\n\n### 6.1. Définition\nUn solénoïde est un enroulement hélicoïdal régulier d'un fil conducteur. C'est une bobine longue dont la longueur est grande devant son rayon.\n\n### 6.2. Champ magnétique créé\nÀ l'intérieur d'un solénoïde long parcouru par un courant I :\n- \\( \\\\overrightarrow{B} \\) est uniforme (même direction, même sens, même norme)\n- Direction : parallèle à l'axe du solénoïde\n- Sens : donné par la règle du tire-bouchon\n- Norme : \\( B = \\\\mu_0 n I \\)\n  où \\( \\\\mu_0 = 4\\\\pi \\\\times 10^{-7} \\\\ \\\\text{T·m/A} \\) (perméabilité magnétique du vide)\n  et \\( n = N/L \\) (nombre de spires par unité de longueur)\n\n### 6.3. Spectre magnétique d'un solénoïde\nLes lignes de champ sont parallèles à l'intérieur, se referment à l'extérieur en formant des boucles. Ressemble à un aimant droit : une extrémité se comporte comme un pôle N, l'autre comme un pôle S.\n\n## 7. Mesure et caractéristiques du champ magnétique\n\n### 7.1. Unité\nLe tesla (T) : \\( 1 \\\\ \\\\text{T} = 1 \\\\ \\\\text{N/(A·m)} \\)\nSous-multiples : le millitesla (mT) et le microtesla (μT)\n\nChamp magnétique terrestre : \\( B_T \\\\approx 50 \\\\ \\\\mu\\\\text{T} \\)\nAimant permanent : \\( 0,01 \\\\ \\\\text{à} \\\\ 1 \\\\ \\\\text{T} \\)\nSolénoïde avec noyau de fer : jusqu'à \\( 2 \\\\ \\\\text{T} \\)\n\n### 7.2. Relation \\( B = \\\\mu_0 n I \\)\nPour un solénoïde long sans noyau : \\( B = \\\\mu_0 \\\\frac{N}{L} I \\)\n- B proportionnel à I (à n constant)\n- B proportionnel à n (à I constant)\n\n### 7.3. Graphe B = f(I)\nC'est une droite passant par l'origine : \\( B = (\\\\mu_0 n) I \\)\nLa pente est \\( \\\\mu_0 n \\).\n\n**Description du schéma 3: Montage pour étudier B = f(I) dans un solénoïde**\nReprésenter un circuit comprenant : un solénoïde, une alimentation variable, un ampèremètre en série, un teslamètre avec sa sonde placée au centre du solénoïde. Tracer le graphe B = f(I) : droite linéaire passant par l'origine. Indiquer : \"Pente = \\( \\\\mu_0 n \\)\", \"B proportionnel à I\". Légender : \"Solénoïde de longueur L, N spires\", \"Alimentation variable\", \"A : ampèremètre\", \"Teslamètre\", \"Sonde au centre\".\n\n## 8. Champ magnétique terrestre\n\n### 8.1. Origine\nGénéré par les mouvements de convection dans le noyau externe de la Terre (fer fondu). Protège la surface des particules chargées du vent solaire (ceintures de Van Allen).\n\n### 8.2. Caractéristiques en Côte d'Ivoire\n- Inclinaison magnétique : angle entre \\( \\\\overrightarrow{B}_T \\) et l'horizontale. À l'équateur, inclinaison ≈ 0° ; aux pôles, ≈ 90°. En Côte d'Ivoire (latitude ≈ 8°N), inclinaison faible.\n- Déclinaison magnétique : angle entre le nord géographique et le nord magnétique. Varie avec le lieu et le temps.\n- Intensité : \\( B_T \\\\approx 30-50 \\\\ \\\\mu\\\\text{T} \\)\n\n### 8.3. Composantes\n- Composante horizontale \\( B_H \\) : projection sur le plan horizontal\n- Composante verticale \\( B_V \\) : projection sur la verticale\n- Relation : \\( B_T = \\\\sqrt{B_H^2 + B_V^2} \\)\n\nEn Côte d'Ivoire, \\( B_H \\\\approx B_T \\) (faible inclinaison), \\( B_V \\\\approx 0 \\).\n\n## 9. Sources de champ magnétique\n\n1. Aimants permanents (matériaux ferromagnétiques : fer, cobalt, nickel)\n2. Courants électriques (tout conducteur parcouru par un courant)\n3. Terre (champ magnétique terrestre)\n4. Certains matériaux supraconducteurs (champs intenses)\n\n## 10. Applications en contexte ivoirien\n\n### 10.1. Production d'électricité\nLes alternateurs des centrales hydroélectriques (Soubré, Buyo) utilisent des champs magnétiques tournants pour induire des courants.\n\n### 10.2. Moteurs électriques\nMoteurs des pompes d'irrigation, des machines agricoles, des véhicules électriques.\n\n### 10.3. Navigation\nBoussoles pour la pêche artisanale, systèmes GPS qui corrigent la déclinaison magnétique.\n\n### 10.4. Santé\nIRM (Imagerie par Résonance Magnétique) - bien que rare en Côte d'Ivoire, le principe est basé sur les champs magnétiques intenses.\n\n### 10.5. Sécurité\nDétecteurs de métaux dans les aéroports et sites sensibles.\n\n## 11. Exercice guidé : calcul du champ d'un solénoïde\n\nDans un atelier de réparation de Bobo-Dioulasso (Burkina Faso, frontière nord de la Côte d'Ivoire), un technicien construit un solénoïde pour un projet. Il enroule 500 spires de fil sur un cylindre de 25 cm de longueur.\n\n1. Calculer le nombre de spires par mètre n.\n2. Calculer le champ magnétique au centre pour I = 2 A.\n3. Tracer le graphe B = f(I) et déterminer la pente.\n4. Quel courant faut-il pour obtenir B = 5 mT ?\n5. On introduit un noyau de fer doux. Comment varie B ?\n\nSolution :\n1. \\( n = \\\\frac{N}{L} = \\\\frac{500}{0,25} = 2000 \\\\ \\\\text{spires/m} \\)\n\n2. \\( B = \\\\mu_0 n I = 4\\\\pi \\\\times 10^{-7} \\\\times 2000 \\\\times 2 \\)\n   \\( B = 4\\\\pi \\\\times 10^{-7} \\\\times 4000 = 16\\\\pi \\\\times 10^{-4} \\\\approx 5,03 \\\\times 10^{-3} \\\\ \\\\text{T} = 5,03 \\\\ \\\\text{mT} \\)\n\n3. Graphe B = f(I) : droite passant par l'origine, pente = \\( \\\\mu_0 n = 4\\\\pi \\\\times 10^{-7} \\\\times 2000 = 8\\\\pi \\\\times 10^{-4} \\\\ \\\\text{T/A} \\\\approx 2,51 \\\\times 10^{-3} \\\\ \\\\text{T/A} \\)\n\n4. Pour B = 5 mT = 5×10⁻³ T : \\( I = \\\\frac{B}{\\\\mu_0 n} = \\\\frac{5 \\\\times 10^{-3}}{2,51 \\\\times 10^{-3}} \\\\approx 1,99 \\\\ \\\\text{A} \\)\n\n5. Avec un noyau de fer doux, B est multiplié par la perméabilité relative μᵣ (≈ 1000 à 10000 pour le fer). B devient beaucoup plus intense.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Un espace champ magnétique est une région où s'exercent des forces magnétiques",
+    "Le vecteur \\( \\\\overrightarrow{B} \\) est tangent aux lignes de champ, dirigé du S vers le N à l'extérieur de l'aimant",
+    "Spectre magnétique : figure formée par les lignes de champ (visible avec de la limaille de fer)",
+    "Pour un solénoïde long : \\( B = \\\\mu_0 n I \\) à l'intérieur, champ uniforme",
+    "Unités : tesla (T), \\( 1 \\\\ \\\\text{T} = 1 \\\\ \\\\text{N/(A·m)} \\)",
+    "Règles d'orientation : bonhomme d'Ampère, tire-bouchon, main droite",
+    "Champ magnétique terrestre : \\( B_T \\\\approx 50 \\\\ \\\\mu\\\\text{T} \\), faible inclinaison en Côte d'Ivoire",
+    "Sources de champ : aimants permanents, courants électriques, Terre",
+    "B proportionnel à I dans un solénoïde (droite B = f(I))",
+    "Un solénoïde se comporte comme un aimant droit : une extrémité = N, l'autre = S"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Le vecteur champ magnétique \\( \\\\overrightarrow{B} \\) est tangent :",
+      "options": [
+        "Aux équipotentielles",
+        "Aux lignes de champ",
+        "Aux lignes de courant",
+        "À la trajectoire des particules"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "L'unité du champ magnétique est :",
+      "options": [
+        "Le weber",
+        "Le tesla",
+        "Le henry",
+        "Le farad"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Pour un solénoïde long parcouru par un courant I, le champ magnétique à l'intérieur :",
+      "options": [
+        "Est nul",
+        "Est uniforme",
+        "Décroît du centre vers les extrémités",
+        "Est radial"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "La relation donnant B au centre d'un solénoïde long est :",
+      "options": [
+        "\\( B = \\\\mu_0 I / L \\)",
+        "\\( B = \\\\mu_0 n I \\)",
+        "\\( B = \\\\mu_0 N I \\)",
+        "\\( B = \\\\mu_0 I / n \\)"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Le champ magnétique terrestre en Côte d'Ivoire est d'environ :",
+      "options": [
+        "50 μT",
+        "50 mT",
+        "5 T",
+        "0,5 T"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Un spectre magnétique est rendu visible avec :",
+      "options": [
+        "De la poudre de craie",
+        "De la limaille de fer",
+        "De l'eau colorée",
+        "De la fumée"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Si on double le courant dans un solénoïde, le champ magnétique :",
+      "options": [
+        "Est divisé par 2",
+        "Reste identique",
+        "Est multiplié par 2",
+        "Est multiplié par 4"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Pour un aimant droit, les lignes de champ magnétique :",
+      "options": [
+        "Sortent du pôle Sud",
+        "Entrent dans le pôle Nord",
+        "Sortent du pôle Nord",
+        "Sont parallèles entre les pôles"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "La perméabilité magnétique du vide \\( \\\\mu_0 \\) vaut :",
+      "options": [
+        "\\( 4\\\\pi \\\\times 10^{-7} \\\\ \\\\text{T·m/A} \\)",
+        "\\( 8,85 \\\\times 10^{-12} \\\\ \\\\text{F/m} \\)",
+        "\\( 6,67 \\\\times 10^{-11} \\\\ \\\\text{N·m²/kg²} \\)",
+        "\\( 9 \\\\times 10^9 \\\\ \\\\text{N·m²/C²} \\)"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "La règle du bonhomme d'Ampère s'applique à :",
+      "options": [
+        "Un aimant droit",
+        "Un solénoïde",
+        "Un conducteur rectiligne",
+        "Une spire circulaire"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quelle est l'unité du champ magnétique ?",
+      "options": [
+        "Ampère (A)",
+        "Tesla (T)",
+        "Volt (V)",
+        "Newton (N)"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quelle est l'unité SI du champ magnétique ?",
+      "options": [
+        "Weber",
+        "Tesla",
+        "Gauss",
+        "Henry"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Les lignes de champ magnétique :",
+      "options": [
+        "Se coupent toujours",
+        "Ne se coupent jamais",
+        "Sont toujours des droites",
+        "Sont toujours des cercles"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Pour un aimant droit, les lignes de champ magnétique à l'extérieur :",
+      "options": [
+        "Vont du pôle Sud au pôle Nord",
+        "Vont du pôle Nord au pôle Sud",
+        "Sont parallèles à l'aimant",
+        "Sont perpendiculaires à l'aimant"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Un solénoïde parcouru par un courant crée à l'intérieur un champ magnétique :",
+      "options": [
+        "Nul",
+        "Uniforme",
+        "Variable",
+        "Radial"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "L'expression du champ magnétique à l'intérieur d'un solénoïde long est :",
+      "options": [
+        "$B = \\\\mu_0 \\\\frac{I}{n}$",
+        "$B = \\\\mu_0 n I$",
+        "$B = \\\\frac{\\\\mu_0 I}{n}$",
+        "$B = \\\\mu_0 n I²$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "La relation entre Tesla et Gauss est :",
+      "options": [
+        "1 T = 100 G",
+        "1 T = 1000 G",
+        "1 T = 10⁴ G",
+        "1 T = 10⁶ G"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Qui a découvert qu'un courant électrique crée un champ magnétique ?",
+      "options": [
+        "Ampère",
+        "Oersted",
+        "Faraday",
+        "Maxwell"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Pour un fil rectiligne parcouru par un courant, les lignes de champ sont :",
+      "options": [
+        "Des droites parallèles au fil",
+        "Des cercles concentriques au fil",
+        "Des paraboles",
+        "Des ellipses"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "La constante magnétique $\\\\mu_0$ vaut :",
+      "options": [
+        "$4\\\\pi \\\\times 10^{-7} \\\\text{ T·m/A}$",
+        "$4\\\\pi \\\\times 10^{-7} \\\\text{ T/A}$",
+        "$4\\\\pi \\\\times 10^{-7} \\\\text{ T·m}$",
+        "$4\\\\pi \\\\times 10^{-7} \\\\text{ m/A}$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q21",
+      "type": "mcq",
+      "prompt": "Le champ magnétique terrestre :",
+      "options": [
+        "Est toujours horizontal",
+        "A une composante verticale nulle à l'équateur magnétique",
+        "Est créé par des aimants dans la croûte terrestre",
+        "A une intensité d'environ 1 T à la surface"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

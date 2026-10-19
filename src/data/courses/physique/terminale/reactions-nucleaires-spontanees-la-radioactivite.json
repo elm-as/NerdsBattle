@@ -1,0 +1,69 @@
+{
+  "id": "physique-terminale-reactions-nucleaires-spontanees-la-radioactivite",
+  "title": "Réactions nucléaires spontanées - La radioactivité",
+  "summary": "Pourquoi certains noyaux atomiques sont-ils instables et se transforment-ils spontanément en émettant des rayonnements ? Comment prédire l'évolution d'une substance radioactive dans le temps ?",
+  "lesson": "## 1. Introduction à la radioactivité\n\nLa radioactivité est un phénomène nucléaire naturel par lequel un noyau atomique **instable** (radioactif) se transforme spontanément en un autre noyau en émettant des particules ou des rayonnements.\n\n### Stabilité nucléaire\n- Les noyaux stables ont un rapport neutrons/protons optimal\n- Les noyaux lourds (Z > 83) sont généralement instables\n- L'instabilité provient d'un excès ou d'un défaut de neutrons\n\n## 2. Types de rayonnements radioactifs\n\n### Rayonnement α (alpha)\n- **Nature** : Noyau d'hélium ⁴₂He (2 protons + 2 neutrons)\n- **Équation** : ᴬ_Z X → ᴬ⁻⁴_Z₋₂ Y + ⁴₂He\n- **Exemple** : ²³⁸₉₂U → ²³⁴₉₀Th + ⁴₂He\n- **Propriétés** : Peu pénétrant (arrêté par une feuille de papier), fortement ionisant\n\n### Rayonnement β⁻ (bêta moins)\n- **Nature** : Électron e⁻ émis par transformation d'un neutron en proton\n- **Équation** : ᴬ_Z X → ᴬ_Z₊₁ Y + ⁰₋₁e + ν̄ₑ (antineutrino)\n- **Exemple** : ¹⁴₆C → ¹⁴₇N + ⁰₋₁e\n- **Propriétés** : Moyennement pénétrant (arrêté par quelques mm d'aluminium)\n\n### Rayonnement β⁺ (bêta plus)\n- **Nature** : Positron e⁺ émis par transformation d'un proton en neutron\n- **Équation** : ᴬ_Z X → ᴬ_Z₋₁ Y + ⁰₊₁e + νₑ (neutrino)\n- **Propriétés** : Similaire au β⁻\n\n### Rayonnement γ (gamma)\n- **Nature** : Photon de haute énergie (onde électromagnétique)\n- **Équation** : ᴬ_Z X* → ᴬ_Z X + γ (désexcitation)\n- **Propriétés** : Très pénétrant (plusieurs cm de plomb nécessaires), peu ionisant\n\n## 3. Loi de décroissance radioactive\n\n### Équation fondamentale\nLa loi de décroissance exponentielle :\n\n**N(t) = N₀ × e⁻ᵏᵗ**\n\nOù :\n- N(t) = nombre de noyaux radioactifs à l'instant t\n- N₀ = nombre initial de noyaux radioactifs\n- λ = constante radioactive (en s⁻¹)\n- t = temps écoulé\n\n### Période ou demi-vie (T)\nC'est le temps nécessaire pour que la moitié des noyaux radioactifs se désintègrent :\n\n**T = ln(2) / λ ≈ 0,693 / λ**\n\nAprès n périodes : **N = N₀ / 2ⁿ**\n\n### Activité radioactive (A)\nL'activité représente le nombre de désintégrations par seconde :\n\n**A(t) = λ × N(t) = A₀ × e⁻ᵏᵗ**\n\nUnité : Becquerel (Bq) = 1 désintégration/seconde\n\n## 4. Applications\n\n### Datation au carbone 14\n- Période du ¹⁴C : T ≈ 5 730 ans\n- Permet de dater des objets organiques anciens\n\n### Médecine nucléaire\n- Diagnostic : scintigraphie avec technétium ⁹⁹ᵐTc\n- Traitement : radiothérapie contre le cancer\n\n### Détection\n- Compteur Geiger-Müller\n- Chambre à brouillard",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Radioactivité = transformation spontanée d'un noyau instable",
+    "α = ⁴He, β⁻ = électron, β⁺ = positron, γ = photon",
+    "Loi de décroissance : N(t) = N₀ × e⁻ᵏᵗ",
+    "Période : T = ln(2) / λ",
+    "Après n périodes : N = N₀ / 2ⁿ",
+    "Activité : A(t) = λ × N(t) en Becquerel"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel rayonnement est le plus pénétrant ?",
+      "options": [
+        "Rayonnement α",
+        "Rayonnement β",
+        "Rayonnement γ",
+        "Tous se valent"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Lors d'une émission β⁻, le nombre de masse A :",
+      "options": [
+        "Diminue de 4",
+        "Diminue de 1",
+        "Reste constant",
+        "Augmente de 1"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Si la période d'un noyau est T = 10 ans, après 30 ans il reste :",
+      "options": [
+        "10% des noyaux",
+        "12,5% des noyaux",
+        "25% des noyaux",
+        "50% des noyaux"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "L'unité d'activité radioactive est :",
+      "options": [
+        "Le Gray (Gy)",
+        "Le Becquerel (Bq)",
+        "Le Sievert (Sv)",
+        "Le Curie (Ci)"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

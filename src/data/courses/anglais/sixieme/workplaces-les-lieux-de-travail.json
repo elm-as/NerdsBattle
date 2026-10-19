@@ -1,0 +1,58 @@
+{
+  "id": "anglais-sixieme-workplaces-les-lieux-de-travail",
+  "title": "Workplaces - Les lieux de travail",
+  "summary": "Kofi demande : 'Where does your mother work?' Comment répondre et parler des lieux de travail ?",
+  "lesson": "## Workplaces - Les lieux de travail\n\n### Common Workplaces\n\n- **Hospital** - hôpital (doctor, nurse)\n- **School** - école (teacher)\n- **Office** - bureau (secretary, manager)\n- **Shop/Store** - magasin (shopkeeper, seller)\n- **Farm** - ferme (farmer)\n- **Restaurant** - restaurant (cook, waiter)\n- **Factory** - usine (worker)\n- **Bank** - banque (banker)\n- **Garage** - garage (mechanic)\n- **Police station** - commissariat (police officer)\n\n## Asking About Workplaces\n\n**Where do you work?**\n**Where does he/she work?**\n\n- I work **in** an office.\n- She works **at** the hospital.\n- He works **on** a farm.\n\n## Prepositions\n\n**IN** - dans (buildings)\n- in a hospital, in a school, in an office\n\n**AT** - à (specific places)\n- at the bank, at the restaurant\n\n**ON** - sur (farms)\n- on a farm\n\n## Job + Workplace\n\n| Job | Workplace |\n|-----|-----------|\n| Doctor | Hospital |\n| Teacher | School |\n| Farmer | Farm |\n| Cook | Restaurant |\n| Mechanic | Garage |",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Hospital, school, office, farm, shop",
+    "Where do you work? pour demander",
+    "In + bâtiment (in a hospital)",
+    "At + lieu spécifique (at the bank)"
+  ],
+  "exercise": {
+    "question": "Associe le métier et le lieu : 1) A doctor works ___. 2) A teacher works ___. 3) A farmer works ___.",
+    "answer": "\n**Solution :**\n1) A doctor works **in a hospital**.\n2) A teacher works **in a school**.\n3) A farmer works **on a farm**.\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Où travaille un médecin ?",
+      "options": [
+        "in a school",
+        "in a hospital",
+        "on a farm",
+        "in a garage"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle préposition pour 'farm' ?",
+      "options": [
+        "in",
+        "at",
+        "on",
+        "to"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Comment demander le lieu de travail ?",
+      "options": [
+        "What do you work?",
+        "Where do you work?",
+        "When do you work?",
+        "How do you work?"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

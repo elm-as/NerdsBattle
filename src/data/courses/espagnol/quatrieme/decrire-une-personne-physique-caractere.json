@@ -1,0 +1,110 @@
+{
+  "id": "espagnol-quatrieme-decrire-une-personne-physique-caractere",
+  "title": "Décrire une personne (physique + caractère)",
+  "summary": "¿Cómo es tu mejor amigo/a? (Comment est ton meilleur ami/e ?)",
+  "lesson": "## Décrire une personne\n\n### Description physique\n\n**La taille :**\n- alto/a (grand/e)\n- bajo/a (petit/e)\n- de estatura media (de taille moyenne)\n\n**Les cheveux :**\n- rubio/a (blond/e)\n- moreno/a (brun/e)\n- castaño (châtain)\n- pelo largo/corto (cheveux longs/courts)\n\n**Les yeux :**\n- ojos azules/verdes/marrones (yeux bleus/verts/marrons)\n\n### Description du caractère\n\n- simpático/a (sympa)\n- inteligente (intelligent/e)\n- divertido/a (amusant/e)\n- trabajador/a (travailleur/se)\n- tímido/a (timide)\n- sociable (sociable)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Ser + adjectif pour décrire",
+    "Accord masculin/féminin des adjectifs",
+    "Alto/a = grand/e, bajo/a = petit/e",
+    "Simpático/a = sympa"
+  ],
+  "exercise": {
+    "question": "Décris ton meilleur ami en 4-5 phrases.",
+    "answer": "Mi mejor amigo se llama... Es alto y tiene pelo negro. Es muy simpático e inteligente. También es divertido."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Pour dire 'Elle est grande', on dit :",
+      "options": [
+        "Ella es alto",
+        "Ella es alta",
+        "Ella es grande",
+        "Ella tiene alta"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "'Simpático' veut dire :",
+      "options": [
+        "Simple",
+        "Sympathique",
+        "Timide",
+        "Intelligent"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-espagnol-1-mv9ivpd9",
+      "type": "mcq",
+      "prompt": "Si tu veux décrire un ami qui a les cheveux bruns et courts, quelle est la formulation grammaticalement correcte en espagnol ?",
+      "options": [
+        "Tiene pelo moreno y corto",
+        "Tiene pelo morena y corta",
+        "Tiene pelo moreno y cortos",
+        "Tiene pelo morena y cortos"
+      ],
+      "answer": 0,
+      "explanation": "Le mot 'pelo' est masculin singulier. Les adjectifs qui le complètent doivent donc s'accorder au masculin singulier : 'moreno' (brun) et 'corto' (court). Les autres options présentent des erreurs d'accord de genre ou de nombre."
+    },
+    {
+      "id": "auto-espagnol-2-mv9ivpd9",
+      "type": "mcq",
+      "prompt": "Dans la phrase 'Mi hermana es de estatura media', quel est le sens exact de l'expression 'de estatura media' ?",
+      "options": [
+        "Elle est très grande",
+        "Elle est de taille moyenne",
+        "Elle est petite",
+        "Elle a une stature imposante"
+      ],
+      "answer": 1,
+      "explanation": "L'expression 'de estatura media' est l'équivalent exact de 'de taille moyenne' en français. 'Alto/a' signifierait grand(e) et 'bajo/a' petit(e)."
+    },
+    {
+      "id": "auto-espagnol-3-mv9ivpd9",
+      "type": "mcq",
+      "prompt": "Tu dois décrire ton meilleur ami qui est très sociable et intelligent. Quelle combinaison d'adjectifs est correcte ?",
+      "options": [
+        "Es sociable e inteligente",
+        "Es sociable y inteligente",
+        "Es sociabl e inteligente",
+        "Es sociable e inteliigente"
+      ],
+      "answer": 1,
+      "explanation": "Pour relier deux adjectifs de même nature, on utilise généralement la conjonction 'y' (et). L'option 'e' est utilisée uniquement pour éviter l'hiatus entre deux mots commençant par 'i' ou 'hi', ce qui n'est pas le cas ici. L'orthographe des mots doit être correcte."
+    },
+    {
+      "id": "auto-espagnol-4-mv9ivpd9",
+      "type": "mcq",
+      "prompt": "Quel adjectif espagnol correspond le mieux à la description 'timide' pour décrire le caractère d'une personne ?",
+      "options": [
+        "Tímido/a",
+        "Trabajador/a",
+        "Divertido/a",
+        "Simpático/a"
+      ],
+      "answer": 0,
+      "explanation": "'Tímido/a' signifie timide. 'Trabajador/a' signifie travailleur/se, 'Divertido/a' signifie amusant/e et 'Simpático/a' signifie sympathique."
+    },
+    {
+      "id": "auto-espagnol-5-mv9ivpd9",
+      "type": "mcq",
+      "prompt": "Si tu décris une fille qui a les yeux verts et qui est très amusante, quelle phrase est correcte ?",
+      "options": [
+        "Tiene ojos verdes y es divertida",
+        "Tiene ojos verde y es divertido",
+        "Tiene ojos verdes y es divertido",
+        "Tiene ojos verde y es divertida"
+      ],
+      "answer": 0,
+      "explanation": "'Ojos' est masculin pluriel, donc l'adjectif 'verde' reste invariable (ou peut être 'verdes' selon les variétés, mais 'verdes' est standard pour la couleur des yeux dans ce contexte scolaire). 'Divertida' doit s'accorder au féminin singulier car il décrit la fille. L'option 0 est la seule à respecter l'accord de genre pour l'adjectif de caractère."
+    }
+  ]
+}

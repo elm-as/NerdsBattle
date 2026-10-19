@@ -1,0 +1,83 @@
+{
+  "id": "svt-sixieme-les-facteurs-de-croissance-chez-les-plantes-a-fleurs",
+  "title": "Les facteurs de croissance chez les plantes à fleurs",
+  "summary": "Des élèves comparent la croissance de plants de tomate sur deux parcelles (A avec engrais, B sans engrais). Ils constatent que la parcelle A a une meilleure croissance et cherchent à identifier les facteurs qui influencent cette croissance.",
+  "lesson": "## ☀️ Ce qui Fait Grandir la Plante\n\n### 1. Les Facteurs Essentiels de la Croissance\nLa croissance d'une plante verte est influencée par plusieurs facteurs du milieu :\n* L'Eau : Indispensable à la vie de la plante. Elle assure le transport de la sève et le maintien de la structure.\n* Les Sels Minéraux : Absorbés par les racines, ce sont des nutriments (comme l'azote, le phosphore, le potassium) nécessaires à la fabrication de la matière vivante.\n* La Lumière : L'énergie lumineuse permet à la plante de fabriquer sa propre nourriture.\n* Le Dioxyde de Carbone ($CO_2$) : Gaz absorbé par les feuilles, utilisé pour la fabrication des sucres.\n* La Température : Influence la vitesse des réactions chimiques.\n\n### 2. Le Rôle Fondamental de la Lumière\nGrâce à la lumière, la plante réalise la photosynthèse : elle utilise l'eau, les sels minéraux et le $CO_2$ pour fabriquer sa propre matière organique (sucres). Cette fabrication de matière est la source de sa croissance.\n\nC'est pourquoi les plants sans engrais (manque de sels minéraux) ou sans lumière suffisante grandissent moins bien.\n\n### 3. La Notion d'Autotrophie\n* Autotrophe : Une plante à fleurs est un organisme autotrophe.\n* Déduction : Cela signifie qu'elle est capable de fabriquer elle-même les substances organiques dont elle a besoin pour vivre et grandir, uniquement à partir de matières minérales (eau, sels minéraux, $CO_2$) et de l'énergie de la lumière.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "L'Eau, les Sels Minéraux et la Lumière sont les facteurs limitants de la croissance.",
+    "La plante fabrique sa nourriture par photosynthèse (processus clé de croissance).",
+    "La capacité à fabriquer sa nourriture à partir de minéraux définit l'autotrophie."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "L'énergie utilisée par la plante pour fabriquer sa matière est principalement fournie par :",
+      "options": [
+        "La Chaleur du sol",
+        "Le Vent",
+        "L'Eau de pluie",
+        "\"La Lumière\""
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Les sels minéraux sont absorbés par :",
+      "options": [
+        "Les Feuilles",
+        "Les Fleurs",
+        "\"Les Racines\"",
+        "Les Tiges"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "L'autotrophie d'une plante est liée au processus de :",
+      "options": [
+        "\"Photosynthèse\"",
+        "Respiration",
+        "Transpiration",
+        "Germination"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Si une plante manque d'eau, sa croissance est :",
+      "options": [
+        "\"Ralentie ou stoppée\"",
+        "Accélérée",
+        "Inchangée",
+        "Améliorée"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel est le gaz absorbé par les feuilles pour la photosynthèse ?",
+      "options": [
+        "\"Dioxyde de carbone\"",
+        "Oxygène",
+        "Azote",
+        "Vapeur d'eau"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

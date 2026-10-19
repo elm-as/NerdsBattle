@@ -1,0 +1,123 @@
+{
+  "id": "anglais-cinquieme-dans-la-cuisine-in-the-kitchen",
+  "title": "Dans la cuisine (In the kitchen)",
+  "summary": "Une élève du Lycée des Jeunes Filles de Yopougon et son amie libérienne font la vaisselle. Elles échangent sur les ustensiles et leurs rôles pour bien les ranger.",
+  "lesson": "## In the Kitchen - Dans la cuisine\n\n### Les ustensiles de cuisine (Kitchen utensils)\n\n**Pour cuisiner :**\n- pot - la marmite\n- pan - la poêle\n- knife - le couteau\n- spoon - la cuillère\n- fork - la fourchette\n- plate - l'assiette\n- bowl - le bol\n- cup - la tasse\n- glass - le verre\n\n**Pour la vaisselle :**\n- dishwashing liquid - le liquide vaisselle\n- sponge - l'éponge\n- towel - le torchon\n\n### Les repas (Meals)\n\n- breakfast - le petit-déjeuner\n- lunch - le déjeuner\n- dinner - le dîner\n- snack - le goûter\n\n### Le présent progressif (Present Continuous)\n\n**Formation : BE (am/is/are) + VERBE-ING**\n\n**Utilisation :** Action en cours maintenant\n\n| Sujet | BE | Verbe-ING | Traduction |\n|-------|-----|-----------|------------|\n| I | am | cooking | Je suis en train de cuisiner |\n| You | are | washing | Tu es en train de laver |\n| He/She | is | eating | Il/Elle est en train de manger |\n| We | are | preparing | Nous sommes en train de préparer |\n| They | are | cleaning | Ils sont en train de nettoyer |\n\n### Actions en cuisine\n\n**Verbes utiles :**\n- cook - cuisiner\n- wash - laver\n- cut - couper\n- prepare - préparer\n- clean - nettoyer\n- dry - sécher\n- eat - manger\n- drink - boire\n\n**Exemples au présent progressif :**\n- I am washing the dishes. - Je lave la vaisselle.\n- She is cooking rice. - Elle cuisine du riz.\n- They are cleaning the kitchen. - Ils nettoient la cuisine.\n- We are eating lunch. - Nous déjeunons.\n\n### Questions au présent progressif\n\n- What are you doing? - Qu'es-tu en train de faire ?\n- Are you cooking? - Es-tu en train de cuisiner ?\n- Is she washing the dishes? - Est-elle en train de laver la vaisselle ?\n\n**Réponses :**\n- Yes, I am. / No, I'm not.\n- Yes, she is. / No, she isn't.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Ustensiles: pot, pan, knife, spoon, fork, plate, cup",
+    "Repas: breakfast, lunch, dinner",
+    "Present Continuous: BE + VERB-ING",
+    "Actions: cooking, washing, eating, cleaning"
+  ],
+  "exercise": {
+    "question": "Mets au présent progressif : 1) I (cook) rice. 2) She (wash) the dishes. 3) They (eat) lunch.",
+    "answer": "\n**Solution :**\n1) I **am cooking** rice.\n2) She **is washing** the dishes.\n3) They **are eating** lunch.\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'cuillère' ?",
+      "options": [
+        "Fork",
+        "Knife",
+        "Spoon",
+        "Plate"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle est la forme correcte ?",
+      "options": [
+        "She cooking",
+        "She is cook",
+        "She is cooking",
+        "She cooks"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'le déjeuner' ?",
+      "options": [
+        "Breakfast",
+        "Lunch",
+        "Dinner",
+        "Snack"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-anglais-1-mv9e4k6p",
+      "type": "mcq",
+      "prompt": "Quel est le mot anglais pour \"couteau\"?",
+      "options": [
+        "knife",
+        "spoon",
+        "fork",
+        "pan"
+      ],
+      "answer": 0,
+      "explanation": "Le mot anglais pour \"couteau\" est \"knife\"."
+    },
+    {
+      "id": "auto-anglais-2-mv9e4k6p",
+      "type": "mcq",
+      "prompt": "Which sentence correctly uses the present continuous to describe someone washing dishes?",
+      "options": [
+        "She is washing the dishes.",
+        "She are washing the dishes.",
+        "She am washing the dishes.",
+        "She are washed the dishes."
+      ],
+      "answer": 0,
+      "explanation": "The correct form is \"She is washing the dishes\" because \"she\" is third person singular and requires \"is\"."
+    },
+    {
+      "id": "auto-anglais-3-mv9e4k6p",
+      "type": "mcq",
+      "prompt": "Quel ustensile est utilisé pour couper les aliments?",
+      "options": [
+        "knife",
+        "spoon",
+        "plate",
+        "cup"
+      ],
+      "answer": 0,
+      "explanation": "Un couteau est utilisé pour couper."
+    },
+    {
+      "id": "auto-anglais-4-mv9e4k6p",
+      "type": "mcq",
+      "prompt": "Which meal is typically eaten in the evening?",
+      "options": [
+        "breakfast",
+        "lunch",
+        "dinner",
+        "snack"
+      ],
+      "answer": 2,
+      "explanation": "Dinner is the evening meal."
+    },
+    {
+      "id": "auto-anglais-5-mv9e4k6p",
+      "type": "mcq",
+      "prompt": "What is the French translation of \"dishwashing liquid\"?",
+      "options": [
+        "le liquide vaisselle",
+        "le savon",
+        "le détergent",
+        "le liquide de nettoyage"
+      ],
+      "answer": 0,
+      "explanation": "The correct French term is \"le liquide vaisselle\"."
+    }
+  ]
+}

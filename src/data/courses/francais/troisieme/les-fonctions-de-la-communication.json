@@ -1,0 +1,57 @@
+{
+  "id": "francais-troisieme-les-fonctions-de-la-communication",
+  "title": "Les fonctions de la communication",
+  "summary": "Ton professeur te demande d'analyser différents textes (poème, publicité, mode d'emploi). Comment déterminer la fonction principale de chaque message ?",
+  "lesson": "## Les fonctions de la communication\n\n### Le schéma de la communication\n\nTout acte de communication implique :\n- **Émetteur** : celui qui produit le message\n- **Récepteur** : celui qui reçoit le message\n- **Message** : ce qui est communiqué\n- **Canal** : support de transmission (oral, écrit, visuel)\n- **Code** : langue utilisée\n- **Référent** : ce dont on parle\n\n### Les six fonctions du langage (Jakobson)\n\n**1. Fonction référentielle (ou informative)**\n- Centrée sur le référent (le sujet)\n- Informe, décrit, explique\n- Langage objectif et neutre\n*Exemple :* « Yamoussoukro est la capitale politique de la Côte d'Ivoire. »\n\n**2. Fonction expressive (ou émotive)**\n- Centrée sur l'émetteur\n- Exprime des sentiments, des émotions\n- Utilise « je », exclamations, interjections\n*Exemple :* « Ah ! Que je suis fier d'être Ivoirien ! »\n\n**3. Fonction conative (ou impressive)**\n- Centrée sur le récepteur\n- Vise à influencer, convaincre, ordonner\n- Utilise l'impératif, le vocatif, les questions\n*Exemple :* « Chers élèves, révisez bien pour le BEPC ! »\n\n**4. Fonction phatique (ou de contact)**\n- Centrée sur le canal\n- Établit, maintient ou rompt la communication\n- Formules de politesse, salutations\n*Exemple :* « Allô ? Tu m'entends ? Ça va ? »\n\n**5. Fonction métalinguistique**\n- Centrée sur le code (la langue)\n- Explique le sens des mots, définit\n- Utilisée dans les dictionnaires, les cours de langue\n*Exemple :* « Le mot \"attiéké\" désigne un plat à base de manioc. »\n\n**6. Fonction poétique**\n- Centrée sur le message lui-même\n- Travaille la forme, le style, l'esthétique\n- Utilisée en poésie, slogans, littérature\n*Exemple :* « Côte d'Ivoire, terre d'espérance, pays de l'hospitalité. »\n\n### Identifier la fonction dominante\n\nUn message peut combiner plusieurs fonctions, mais une fonction domine généralement.\n\n| Type de texte | Fonction dominante |\n|---------------|-------------------|\n| Article de journal | Référentielle |\n| Poème | Poétique |\n| Publicité | Conative |\n| Lettre personnelle | Expressive |\n| Dictionnaire | Métalinguistique |\n| Conversation téléphonique | Phatique |\n\n### Indices pour reconnaître les fonctions\n\n**Référentielle** : verbes d'état, 3ème personne, vocabulaire précis\n**Expressive** : « je », exclamations, adjectifs affectifs\n**Conative** : « tu/vous », impératif, questions rhétoriques\n**Phatique** : interjections, formules de contact\n**Métalinguistique** : « c'est-à-dire », « signifie », définitions\n**Poétique** : figures de style, rimes, rythme",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "6 fonctions : référentielle, expressive, conative, phatique, métalinguistique, poétique",
+    "Chaque fonction est centrée sur un élément du schéma de communication",
+    "Un message a généralement une fonction dominante"
+  ],
+  "exercise": {
+    "question": "Identifie la fonction dominante de chacun de ces énoncés : 1) « La Côte d'Ivoire compte 33 régions administratives. » 2) « Bravo ! Quelle performance magnifique ! » 3) « Allô ? Tu es toujours là ? » 4) « Le mot 'garba' vient du nom d'un vendeur béninois. »",
+    "answer": "\n**Solution :**\n\n**1) « La Côte d'Ivoire compte 33 régions administratives. »**\n→ Fonction **référentielle** (informative)\n- Indice : information objective sur un fait\n- Centrée sur le référent (la Côte d'Ivoire)\n\n**2) « Bravo ! Quelle performance magnifique ! »**\n→ Fonction **expressive** (émotive)\n- Indices : exclamations, adjectif évaluatif « magnifique »\n- Centrée sur les émotions de l'émetteur\n\n**3) « Allô ? Tu es toujours là ? »**\n→ Fonction **phatique** (de contact)\n- Indices : « Allô », question de vérification\n- Centrée sur le maintien de la communication\n\n**4) « Le mot \"garba\" vient du nom d'un vendeur béninois. »**\n→ Fonction **métalinguistique**\n- Indice : explication de l'origine d'un mot\n- Centrée sur le code linguistique\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "« Lisez attentivement ce texte » a une fonction :",
+      "options": [
+        "Référentielle",
+        "Expressive",
+        "Conative",
+        "Poétique"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La fonction poétique est centrée sur :",
+      "options": [
+        "L'émetteur",
+        "Le récepteur",
+        "Le message",
+        "Le référent"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Un dictionnaire utilise principalement la fonction :",
+      "options": [
+        "Phatique",
+        "Expressive",
+        "Métalinguistique",
+        "Conative"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

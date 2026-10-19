@@ -1,0 +1,84 @@
+{
+  "id": "anglais-cinquieme-les-nombres-et-les-fournitures-scolaires-numbers-and-school-",
+  "title": "Les nombres et les fournitures scolaires (Numbers and school things)",
+  "summary": "Au Collège la Bénédiction de Dimbokro, pour démontrer leur connaissance de l'emplacement des objets de la classe, les élèves de la 5ème 1 localisent ceux-ci à travers un jeu.",
+  "lesson": "## Numbers 0-20 - Les nombres de 0 à 20\n\n### Les nombres de 0 à 20\n\n- 0 - zero\n- 1 - one\n- 2 - two\n- 3 - three\n- 4 - four\n- 5 - five\n- 6 - six\n- 7 - seven\n- 8 - eight\n- 9 - nine\n- 10 - ten\n- 11 - eleven\n- 12 - twelve\n- 13 - thirteen\n- 14 - fourteen\n- 15 - fifteen\n- 16 - sixteen\n- 17 - seventeen\n- 18 - eighteen\n- 19 - nineteen\n- 20 - twenty\n\n### Le pluriel des noms (Plural nouns)\n\n**Règle générale : ajouter -S**\n- book → book**s**\n- pen → pen**s**\n- desk → desk**s**\n\n**Noms terminés par -S, -X, -CH, -SH : ajouter -ES**\n- box → box**es**\n- class → class**es**\n- bench → bench**es**\n\n**Noms terminés par consonne + Y : Y → IES**\n- city → cit**ies**\n- baby → bab**ies**\n\n**Pluriels irréguliers :**\n- child → child**ren** (enfant → enfants)\n- man → m**en** (homme → hommes)\n- woman → wom**en** (femme → femmes)\n- person → pe**ople** (personne → gens)\n\n### Compter les objets\n\n**How many...? - Combien de... ?**\n\n- How many books are there? - Combien y a-t-il de livres ?\n- There are **ten** books. - Il y a dix livres.\n- There is **one** teacher. - Il y a un professeur.\n\n**Structure :**\n- There is + singulier (There is a book)\n- There are + pluriel (There are books)\n\n### Questions et réponses\n\n**Dénombrer :**\n- Q: How many pens do you have? - Combien de stylos as-tu ?\n- A: I have **five** pens. - J'ai cinq stylos.\n\n**Localiser :**\n- Q: Where are the books? - Où sont les livres ?\n- A: They are on the desk. - Ils sont sur le bureau.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Nombres 0-20 : zero, one, two... twenty",
+    "Pluriel : ajouter -S (books, pens)",
+    "How many...? pour compter",
+    "There is/are pour dire 'il y a'"
+  ],
+  "exercise": {
+    "question": "Mets au pluriel : 1) one book → three ___ 2) one pen → five ___ 3) one box → two ___",
+    "answer": "\n**Solution :**\n1) one book → three **books**\n2) one pen → five **pens**\n3) one box → two **boxes**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Comment dit-on '15' en anglais ?",
+      "options": [
+        "Fifty",
+        "Fifteen",
+        "Fourteen",
+        "Five"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Quel est le pluriel de 'book' ?",
+      "options": [
+        "bookes",
+        "books",
+        "book",
+        "bookies"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Comment demander 'Combien de stylos ?' ?",
+      "options": [
+        "How much pens?",
+        "How many pen?",
+        "How many pens?",
+        "How pens?"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-anglais-2-mvangw6x",
+      "type": "mcq",
+      "prompt": "In the context of the 'There is / There are' structure, which sentence correctly describes a situation where there are multiple irregular plural objects in the classroom?",
+      "options": [
+        "There is five children in the class.",
+        "There are five children in the class.",
+        "There are five childs in the class.",
+        "There is five peoples in the class."
+      ],
+      "answer": 1,
+      "explanation": "The noun 'child' has the irregular plural 'children'. Since 'children' is a plural noun, it requires the verb 'are' (There are). Option 0 uses 'is' with a plural subject. Option 3 uses 'is' and the incorrect plural 'childs'. Option 4 uses 'is' and the incorrect plural 'peoples' (person -> people). Option 1 correctly uses 'There are' with the irregular plural 'children'."
+    },
+    {
+      "id": "auto-anglais-3-mvangw6x",
+      "type": "mcq",
+      "prompt": "A student is counting the school supplies on a desk. If there are 14 pencils, how should the student correctly state the quantity in English using the 'There are' structure?",
+      "options": [
+        "There are fourteen pencil.",
+        "There are fourteens pencils.",
+        "There are fourteen pencils.",
+        "There is fourteen pencils."
+      ],
+      "answer": 2,
+      "explanation": "The number 14 is written as 'fourteen'. The noun 'pencil' becomes 'pencils' in the plural (adding -s). The structure for plural nouns is 'There are'. Therefore, 'There are fourteen pencils' is the correct sentence. Option 0 lacks the plural 's' on the noun. Option 1 incorrectly pluralizes the number. Option 4 uses the singular verb 'is' with a plural noun."
+    }
+  ]
+}

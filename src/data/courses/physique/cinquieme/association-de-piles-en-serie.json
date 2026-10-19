@@ -1,0 +1,154 @@
+{
+  "id": "physique-cinquieme-association-de-piles-en-serie",
+  "title": "Association de piles en série",
+  "summary": "A l'occasion de la kermesse scolaire, certains élèves de la classe de 5ème 2 du Lycée Moderne de Dimbokro ont reçu des cadeaux après un jeu. L'un d'eux a obtenu une voiturette fonctionnant avec trois piles cylindriques de 1,5 V chacune. En jouant, les piles tombent de leur coffret. Il veut faire fonctionner sa voiturette à nouveau. Ensemble avec ses camarades de classe, ils décident d'associer correctement les trois piles, de schématiser l'association puis de déterminer sa tension.",
+  "lesson": "# Association de piles en série\n\n## I. Association de piles en série concordance\n\n### 1. Définition\nOn dit que des piles sont associées en **série concordance** lorsqu'elles sont branchées bout à bout, le pôle positif (+) de l'une relié au pôle négatif (-) de la suivante.\n\n### 2. Réalisation pratique\n\n**Matériel :** 2 ou 3 piles cylindriques identiques (1,5 V chacune)\n\n**Montage :**\n- Le pôle + de la pile 1 est relié au pôle - de la pile 2\n- Le pôle + de la pile 2 est relié au pôle - de la pile 3\n- Il reste libre : le pôle - de la pile 1 et le pôle + de la pile 3\n\n**Schéma :**\n```\nPile 1    Pile 2    Pile 3\n[+ -]-----[+ -]-----[+ -]\n -                      +\n```\n\n### 3. Schéma normalisé\n```\n+---[Pile 1]---[Pile 2]---[Pile 3]---+\n-                                    +\n```\n\n### 4. Calcul de la tension totale\n\nLa tension totale d'une association de piles en série concordance est la **somme** des tensions de chaque pile.\n\n**Formule :** U(totale) = U₁ + U₂ + U₃ + ...\n\n**Exemple :**\n- 3 piles de 1,5 V en série concordance\n- U(totale) = 1,5 V + 1,5 V + 1,5 V = 4,5 V\n\n### 5. Applications de l'association en série concordance\n\n**a) Pile plate**\nUne pile plate de 4,5 V est en réalité constituée de 3 piles cylindriques de 1,5 V associées en série concordance à l'intérieur.\n\n**b) Lampe torche**\nLa plupart des lampes torches utilisent 2 ou 3 piles cylindriques en série concordance :\n- 2 piles de 1,5 V → 3 V\n- 3 piles de 1,5 V → 4,5 V\n\n**c) Télécommandes**\nLes télécommandes utilisent souvent 2 piles de 1,5 V en série pour obtenir 3 V.\n\n**d) Jouets électriques**\nBeaucoup de jouets (voitures, robots) utilisent plusieurs piles en série pour augmenter la tension et la puissance.\n\n## II. Association de piles en série opposition\n\n### 1. Définition\nC'est une **mauvaise association** où deux pôles identiques sont reliés ensemble (+ avec + ou - avec -).\n\n### 2. Schéma\n```\nPile 1    Pile 2\n[+ -]-----[- +]\n```\n\nOu :\n```\nPile 1    Pile 2\n[- +]-----[+ -]\n```\n\n### 3. Calcul de la tension totale\n\nLa tension totale est la **différence** des tensions.\n\n**Formule :** U(totale) = |U₁ - U₂|\n\n**Exemple 1 :** 2 piles identiques de 4,5 V en opposition\n- U(totale) = |4,5 V - 4,5 V| = 0 V\n- Résultat : Aucun courant ne circule\n\n**Exemple 2 :** Une pile de 4,5 V et une pile de 1,5 V en opposition\n- U(totale) = |4,5 V - 1,5 V| = 3 V\n- Résultat : Le courant circule mais tension réduite\n\n### 4. Conséquences de l'opposition\n\n**Avec piles identiques :**\n- Tension nulle (0 V)\n- Aucun appareil ne fonctionne\n- Les piles se déchargent inutilement\n- Échauffement possible\n\n**Avec piles différentes :**\n- Tension réduite\n- Fonctionnement faible ou nul\n- Usure rapide des piles\n- Gaspillage d'énergie\n\n### 5. Dangers de la mauvaise association\n\n- **Échauffement** des piles\n- **Fuite d'acide** à l'intérieur\n- **Explosion** dans les cas graves\n- **Corrosion** des contacts métalliques\n- **Dommages** à l'appareil\n\n## III. Reconnaissance d'une bonne association\n\n### Comment vérifier ?\n\n1. **Visuellement :** Les piles doivent être placées tête-bêche (+ vers - vers + vers -)\n\n2. **Schéma :** Les + et - alternent régulièrement\n\n3. **Test avec voltmètre :** Mesurer la tension totale\n   - En concordance : U = somme des tensions\n   - En opposition : U = différence (ou 0)\n\n### Exemples pratiques\n\n**Bon montage (concordance) :**\n```\n[+ -] [+ -] [+ -]\n1,5V  1,5V  1,5V  → Total : 4,5 V\n```\n\n**Mauvais montage (opposition) :**\n```\n[+ -] [- +] [+ -]\n1,5V  1,5V  1,5V  → Total : 1,5 V\n```\n\n## IV. Adaptation d'une association de piles à un récepteur\n\n### Principe\nPour adapter correctement une association de piles à un récepteur :\n\n**Règle :** U(piles totale) = U(récepteur)\n\n### Méthode\n\n**Étape 1 :** Identifier la tension d'usage du récepteur (lire l'étiquette)\n\n**Étape 2 :** Déterminer le nombre de piles nécessaires\n- Nombre de piles = U(récepteur) ÷ U(une pile)\n\n**Étape 3 :** Associer les piles en série concordance\n\n**Étape 4 :** Vérifier avec un voltmètre avant de brancher\n\n### Exemples d'application\n\n**Exemple 1 :** Lampe de 6 V avec des piles de 1,5 V\n- Nombre de piles = 6 V ÷ 1,5 V = 4 piles\n- Association : 4 piles de 1,5 V en série concordance\n\n**Exemple 2 :** Moteur de 9 V avec des piles de 1,5 V\n- Nombre de piles = 9 V ÷ 1,5 V = 6 piles\n- Association : 6 piles de 1,5 V en série concordance\n\n**Exemple 3 :** Radio de 4,5 V\n- Solution 1 : Une pile plate de 4,5 V\n- Solution 2 : 3 piles cylindriques de 1,5 V en série\n\n## V. Conseils pratiques\n\n### 1. Placement des piles\n- Respecter les indications + et - dans le compartiment\n- Placer toutes les piles dans le même sens si demandé\n- Vérifier que les ressorts touchent bien les pôles\n\n### 2. Entretien\n- Utiliser des piles de même marque et même âge\n- Retirer les piles usagées rapidement\n- Nettoyer les contacts si oxydés\n- Ne jamais mélanger piles neuves et usagées\n\n### 3. Sécurité\n- Ne pas court-circuiter les piles (ne pas relier + et - directement)\n- Ne pas jeter les piles au feu\n- Recycler les piles usagées\n- Ne pas démonter les piles",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Série concordance : piles bout à bout, + relié à -",
+    "Tension totale en concordance : U(tot) = U₁ + U₂ + U₃",
+    "Pile plate 4,5 V = 3 piles de 1,5 V en série",
+    "Série opposition : mauvaise association, + relié à + ou - relié à -",
+    "Tension en opposition : U(tot) = |U₁ - U₂| (différence)",
+    "Opposition avec piles identiques : U(tot) = 0 V",
+    "Dangers : échauffement, fuite, explosion possible",
+    "Adaptation : nombre de piles = U(récepteur) ÷ U(une pile)",
+    "Toujours vérifier avec voltmètre avant de brancher"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Dans une association en série concordance, les pôles sont reliés :",
+      "options": [
+        "+ avec +",
+        "\"+ avec -\"",
+        "- avec -",
+        "Au hasard"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 0,
+      "prompt": "La tension totale de 4 piles de 1,5 V en série concordance est :",
+      "options": [
+        "\"6 V\"",
+        "1,5 V",
+        "3 V",
+        "4,5 V"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "answer": 3,
+      "prompt": "Une pile plate de 4,5 V contient en réalité :",
+      "options": [
+        "1 pile de 4,5 V",
+        "2 piles de 2,25 V",
+        "4 piles de 1,125 V",
+        "\"3 piles de 1,5 V\""
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "answer": 0,
+      "prompt": "Si on associe 2 piles identiques de 4,5 V en opposition, la tension totale est :",
+      "options": [
+        "\"0 V\"",
+        "9 V",
+        "4,5 V",
+        "2,25 V"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Pour faire fonctionner une lampe de 6 V avec des piles de 1,5 V, il faut :",
+      "options": [
+        "2 piles",
+        "3 piles",
+        "\"4 piles\"",
+        "6 piles"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-physique-1-mva56ja1",
+      "type": "mcq",
+      "prompt": "Dans le contexte de la voiturette de la kermesse, si les trois piles de 1,5 V sont associées en série concordance, quelle est la tension totale fournie par l'ensemble pour alimenter le moteur ?",
+      "options": [
+        "1,5 V",
+        "3,0 V",
+        "4,5 V",
+        "6,0 V"
+      ],
+      "answer": 2,
+      "explanation": "En série concordance, les tensions s'additionnent. La formule est $U_{totale} = U_1 + U_2 + U_3$. Donc, $1,5\\,\\text{V} + 1,5\\,\\text{V} + 1,5\\,\\text{V} = 4,5\\,\\text{V}$."
+    },
+    {
+      "id": "auto-physique-2-mva56ja1",
+      "type": "mcq",
+      "prompt": "Pour réaliser correctement une association en série concordance de trois piles, comment doivent être reliés les pôles entre elles ?",
+      "options": [
+        "Le pôle positif (+) de l'une est relié au pôle positif (+) de la suivante.",
+        "Le pôle négatif (-) de l'une est relié au pôle négatif (-) de la suivante.",
+        "Le pôle positif (+) de l'une est relié au pôle négatif (-) de la suivante.",
+        "Les pôles ne sont pas reliés directement, ils sont séparés par un interrupteur."
+      ],
+      "answer": 2,
+      "explanation": "La définition de la série concordance stipule que les piles sont branchées bout à bout, le pôle positif (+) de l'une étant relié au pôle négatif (-) de la suivante, ce qui permet l'addition des tensions."
+    },
+    {
+      "id": "auto-physique-3-mva56ja1",
+      "type": "mcq",
+      "prompt": "Si un élève de la classe de 5ème 2 associe par erreur les trois piles de 1,5 V en série opposition (pôle positif relié au pôle positif, pôle négatif au pôle négatif), quelle sera la tension mesurée aux bornes de l'ensemble ?",
+      "options": [
+        "4,5 V",
+        "3,0 V",
+        "1,5 V",
+        "0 V"
+      ],
+      "answer": 3,
+      "explanation": "En série opposition, les tensions se soustraient. Pour des piles identiques, $U_{totale} = 1,5\\,\\text{V} - 1,5\\,\\text{V} - 1,5\\,\\text{V}$ n'est pas la bonne logique simple ; c'est plutôt que les forces électromotrices s'annulent mutuellement. Pour des piles identiques en opposition, la tension nette est nulle ($0\\,\\text{V}$) car les pôles de même signe sont face à face ou reliés de manière à s'annuler. Plus précisément, si on relie + à + et - à -, la tension aux bornes extrêmes est la différence, mais dans un circuit fermé ou mesuré aux bornes de l'ensemble opposé, l'effet est une annulation. Pour 3 piles identiques en opposition totale, la tension résultante est $0\\,\\text{V}$."
+    },
+    {
+      "id": "auto-physique-4-mva56ja1",
+      "type": "mcq",
+      "prompt": "La voiturette nécessite une tension de 4,5 V pour fonctionner correctement. Si l'élève ne dispose que de piles cylindriques de 1,5 V, combien de piles doit-il associer en série concordance ?",
+      "options": [
+        "2 piles",
+        "3 piles",
+        "4 piles",
+        "6 piles"
+      ],
+      "answer": 1,
+      "explanation": "On cherche $n$ tel que $n \\times 1,5\\,\\text{V} = 4,5\\,\\text{V}$. En divisant 4,5 par 1,5, on obtient 3. Il faut donc 3 piles."
+    },
+    {
+      "id": "auto-physique-5-mva56ja1",
+      "type": "mcq",
+      "prompt": "Dans le schéma normalisé d'une association de trois piles en série concordance, quels sont les deux pôles qui restent libres (non reliés entre eux) aux extrémités de l'ensemble ?",
+      "options": [
+        "Le pôle positif de la première pile et le pôle positif de la dernière pile.",
+        "Le pôle négatif de la première pile et le pôle négatif de la dernière pile.",
+        "Le pôle négatif de la première pile et le pôle positif de la dernière pile.",
+        "Le pôle positif de la première pile et le pôle négatif de la dernière pile."
+      ],
+      "answer": 2,
+      "explanation": "En reliant le + de la pile 1 au - de la pile 2, et le + de la pile 2 au - de la pile 3, il reste libre le pôle négatif (-) de la pile 1 et le pôle positif (+) de la pile 3. Ces deux pôles servent à brancher le circuit (la voiturette)."
+    }
+  ]
+}

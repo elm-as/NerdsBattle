@@ -1,0 +1,150 @@
+{
+  "id": "svt-troisieme-les-aliments-et-l-homme",
+  "title": "Les aliments et l'Homme",
+  "summary": "À la cantine du Lycée Moderne de Yopougon Andokoi, les élèves constatent une amélioration de leur santé, croissance et résultats scolaires. Ils décident d'étudier la composition des aliments pour comprendre ce changement positif.",
+  "lesson": "## Introduction\n\nL'alimentation est un enjeu crucial de santé publique en Côte d'Ivoire, où coexistent malnutrition et problèmes d'obésité. Comprendre la composition des aliments permet de faire des choix éclairés pour une santé optimale.\n\n## 1. Caractérisation des aliments simples\n\n### 1.1 Aliments minéraux\n- **Sels minéraux** : chlorures, calcium, fer, potassium\n- **Rôles** : construction osseuse (calcium), fonctionnement musculaire (potassium), transport d'oxygène (fer)\n\n### 1.2 Aliments organiques\n- **Glucides** : énergie immédiate (riz, igname, manioc)\n- **Lipides** : énergie de réserve et isolation (huile de palme, karité)\n- **Protides** : construction et réparation tissulaire (poisson, viande, légumineuses)\n\n| Type d'aliment | Exemple local | Rôle principal |\n|----------------|---------------|----------------|\n| Glucides | Riz, igname, manioc | Énergie immédiate |\n| Lipides | Huile de palme, noix de cajou | Énergie de réserve |\n| Protides | Poisson fumé, niébé | Construction tissulaire |\n\n## 2. Composition des aliments composés\n\n### 2.1 Valeur énergétique\n- **Avec valeur** : protides (4 kcal/g), lipides (9 kcal/g), glucides (4 kcal/g)\n- **Sans valeur** : eau, sels minéraux, vitamines\n\n### 2.2 Exemple d'analyse locale\n- **Attiéké** (100g) : 35g glucides, 2g protides, 0.5g lipides = ~152 kcal\n- **Sauce graine** (100g) : 10g lipides, 5g protides, 8g glucides = ~142 kcal\n\n## 3. Besoins alimentaires en contexte ivoirien\n\n### 3.1 Facteurs influençant les besoins\n- **Âge** : croissance rapide chez les adolescents\n- **Activité** : travaux agricoles vs sédentarité urbaine\n- **Sexe** : besoins accrus pendant la grossesse\n- **État physiologique** : maladie, convalescence\n\n### 3.2 Ration alimentaire équilibrée\n- **Adaptation au climat tropical** : besoins hydriques accrus\n- **Utilisation des ressources locales** : diversification à partir des produits régionaux\n\n## 4. Maladies nutritionnelles\n\n### 4.1 Malnutrition protéino-énergétique\n- **Kwashiorkor** : carence en protéines (œdèmes, décoloration des cheveux)\n- **Marasme** : carence globale (émaciation extrême)\n\n### 4.2 Surpoids et obésité\n- **Enjeu émergent** : urbanisation et alimentation transformée\n- **Impact sanitaire** : diabète, hypertension\n\n## Perspective critique\n\nL'analyse des habitudes alimentaires doit considérer :\n1. **Accessibilité économique** : coût des protéines animales\n2. **Influences post-coloniales** : valorisation du blé vs céréales locales\n3. **Souveraineté alimentaire** : dépendance aux importations vs production locale\n4. **Patrimoine culinaire** : préservation des savoirs traditionnels",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Les aliments simples comprennent minéraux et organiques",
+    "La valeur énergétique varie selon la composition",
+    "Les besoins dépendent de l'âge, l'activité et le contexte",
+    "Kwashiorkor et marasme sont des formes de malnutrition",
+    "L'équilibre alimentaire doit intégrer disponibilité locale"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le rôle principal des glucides dans l'alimentation ?",
+      "options": [
+        "Construction musculaire",
+        "Énergie immédiate",
+        "Transport d'oxygène",
+        "Isolation thermique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle maladie nutritionnelle est caractérisée par des œdèmes et une décoloration des cheveux ?",
+      "options": [
+        "Marasme",
+        "Kwashiorkor",
+        "Anémie",
+        "Obésité"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel aliment local ivoirien est particulièrement riche en glucides ?",
+      "options": [
+        "Huile de palme",
+        "Attiéké",
+        "Poisson fumé",
+        "Feuilles de baobab"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la valeur énergétique approximative des lipides par gramme ?",
+      "options": [
+        "2 kcal",
+        "4 kcal",
+        "7 kcal",
+        "9 kcal"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel facteur n'influence PAS directement les besoins énergétiques d'un individu ?",
+      "options": [
+        "L'âge",
+        "La couleur des yeux",
+        "L'activité physique",
+        "L'état physiologique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle source de protéines locale est sous-utilisée en Côte d'Ivoire malgré son potentiel ?",
+      "options": [
+        "Bœuf importé",
+        "Insectes comestibles",
+        "Poulet congelé",
+        "Poisson en conserve"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel minéral est essentiel pour la santé osseuse et abondant dans les produits laitiers ?",
+      "options": [
+        "Fer",
+        "Calcium",
+        "Potassium",
+        "Sodium"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quelle pratique post-coloniale a affecté les habitudes alimentaires en Afrique de l'Ouest ?",
+      "options": [
+        "Valorisation exclusive des céréales locales",
+        "Introduction massive du blé",
+        "Interdiction des protéines animales",
+        "Consommation exclusive de produits crus"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quelle vitamine est synthétisée sous l'action du soleil et importante en climat tropical ?",
+      "options": [
+        "Vitamine A",
+        "Vitamine C",
+        "Vitamine D",
+        "Vitamine K"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel concept met l'accent sur le droit des peuples à définir leurs politiques alimentaires ?",
+      "options": [
+        "Sécurité alimentaire",
+        "Souveraineté alimentaire",
+        "Autosuffisance",
+        "Dépendance alimentaire"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

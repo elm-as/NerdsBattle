@@ -1,0 +1,123 @@
+{
+  "id": "allemand-troisieme-auf-nach-koln-visite-a-cologne",
+  "title": "Auf nach Köln! (Visite à Cologne)",
+  "summary": "Exposé sur Cologne et ses particularités",
+  "lesson": "# Auf nach Köln! (Direction Cologne!)\n\n## Présentation de Cologne\n\n**Köln** (Cologne) est une grande ville allemande située en Rhénanie-du-Nord-Westphalie.\n\n### Informations clés\n- **Habitants** : environ 1,1 million\n- **Région** : Nordrhein-Westfalen\n- **Fleuve** : le Rhin (der Rhein)\n- **Spécialité** : la bière Kölsch\n- **Événement** : le carnaval de Cologne\n\n## Les monuments principaux (Sehenswürdigkeiten)\n\n### 1. Le Dom (la cathédrale)\n- **der Kölner Dom** : cathédrale gothique, patrimoine UNESCO\n- 157 mètres de haut\n- Construction : 632 ans (1248-1880)\n- 533 marches pour monter au sommet\n- C'est le symbole de Cologne !\n\n### 2. Les ponts du Rhin\n- **die Hohenzollernbrücke** (pont Hohenzollern)\n- Cadenas d'amour (Liebesschlösser)\n- Vue magnifique sur le Dom\n\n### 3. La vieille ville (Altstadt)\n- Maisons colorées traditionnelles\n- Nombreux restaurants et cafés\n- Ambiance médiévale\n\n### 4. Le musée du chocolat\n- **das Schokoladenmuseum**\n- Histoire du chocolat\n- Fontaine de chocolat !\n\n## Vocabulaire de la ville\n\n### Se repérer\n- **der Platz** (la place)\n- **die Straße** (la rue)\n- **die Brücke** (le pont)\n- **der Bahnhof** (la gare)\n- **die U-Bahn** (le métro)\n- **der Bus** (le bus)\n\n### Directions\n- **links** (à gauche)\n- **rechts** (à droite)\n- **geradeaus** (tout droit)\n- **hier** (ici)\n- **dort** (là-bas)\n\n## Demander son chemin\n\n### Questions utiles\n- **Wo ist...?** (Où est... ?)\n- **Wie komme ich zum Dom?** (Comment aller à la cathédrale ?)\n- **Gibt es hier in der Nähe...?** (Y a-t-il près d'ici... ?)\n- **Ist das weit?** (Est-ce loin ?)\n\n### Réponses types\n- Gehen Sie geradeaus! (Allez tout droit !)\n- Nehmen Sie die erste Straße links. (Prenez la première rue à gauche.)\n- Es ist nicht weit. (Ce n'est pas loin.)\n- Es dauert 10 Minuten zu Fuß. (C'est à 10 minutes à pied.)\n\n## La bière Kölsch\n\n- Bière blonde spéciale de Cologne\n- Se boit dans des petits verres (0,2 L)\n- Servie par un \"Köbes\" (serveur traditionnel)\n- Culture unique : on vous ressert automatiquement !\n\n## Le carnaval de Cologne\n\n**Karneval** : grande fête en février/mars\n- Une des plus grandes célébrations d'Allemagne\n- Défilés, costumes, musique\n- Cri traditionnel : \"**Kölle Alaaf!**\" (Vive Cologne!)\n- Les écoles et bureaux ferment\n\n## Dialogue : Demander son chemin\n\n**Tourist:** Entschuldigung, wo ist der Dom?\n**Passant:** Der Dom? Gehen Sie geradeaus und dann rechts.\n**Tourist:** Ist es weit?\n**Passant:** Nein, nur 5 Minuten zu Fuß. Sie können ihn nicht verfehlen!\n**Tourist:** Vielen Dank!\n**Passant:** Gern geschehen!",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Le Dom de Cologne est l'un des monuments les plus célèbres d'Allemagne",
+    "Cologne est connue pour sa bière Kölsch et son carnaval",
+    "Pour demander son chemin : 'Wo ist...?' ou 'Wie komme ich zu...?'",
+    "La ville est située sur le Rhin (der Rhein)"
+  ],
+  "exercise": {
+    "answer": "1) Wo ist der Dom? 2) Gehen Sie geradeaus und dann links. 3) Ist das weit?",
+    "question": "Traduis en allemand : 1) Où est la cathédrale ? 2) Allez tout droit puis à gauche. 3) Est-ce loin ?"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le monument le plus célèbre de Cologne ?",
+      "options": [
+        "La Tour Eiffel",
+        "La Porte de Brandebourg",
+        "\"Le Dom (cathédrale)\"",
+        "Le château de Neuschwanstein"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Comment s'appelle la bière de Cologne ?",
+      "options": [
+        "Weißbier",
+        "Pils",
+        "\"Kölsch\"",
+        "Alt"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Que signifie 'geradeaus' ?",
+      "options": [
+        "À gauche",
+        "À droite",
+        "En arrière",
+        "\"Tout droit\""
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-allemand-1-mv9e4dow",
+      "type": "mcq",
+      "prompt": "In welchem Jahr begann der Bau des Kölner Doms?",
+      "options": [
+        "1248",
+        "1320",
+        "1180",
+        "1400"
+      ],
+      "answer": 0,
+      "explanation": "Der Bau des Doms startete 1248 und dauerte 632 Jahre."
+    },
+    {
+      "id": "auto-allemand-2-mv9e4dow",
+      "type": "mcq",
+      "prompt": "Wie viele Stufen gibt es, um den Dom zu erklimmen?",
+      "options": [
+        "533",
+        "600",
+        "450",
+        "700"
+      ],
+      "answer": 0,
+      "explanation": "Der Dom hat 533 Stufen, die Besucher zum Gipfel führen."
+    },
+    {
+      "id": "auto-allemand-3-mv9e4dow",
+      "type": "mcq",
+      "prompt": "Welcher Rheinbrücke sind die Liebesschlösser angebracht?",
+      "options": [
+        "Hohenzollernbrücke",
+        "Kölnbrücke",
+        "Dombrücke",
+        "Rheinbrücke"
+      ],
+      "answer": 0,
+      "explanation": "Die Liebesschlösser sind an der Hohenzollernbrücke befestigt."
+    },
+    {
+      "id": "auto-allemand-4-mv9e4dow",
+      "type": "mcq",
+      "prompt": "In welchem deutschen Bundesland liegt Köln?",
+      "options": [
+        "Nordrhein-Westfalen",
+        "Bayern",
+        "Hessen",
+        "Baden-Württemberg"
+      ],
+      "answer": 0,
+      "explanation": "Köln befindet sich im Bundesland Nordrhein-Westfalen."
+    },
+    {
+      "id": "auto-allemand-5-mv9e4dow",
+      "type": "mcq",
+      "prompt": "Welches Museum in Köln ist dem Schokoladenbau gewidmet?",
+      "options": [
+        "Schokoladenmuseum",
+        "Kölner Museum",
+        "Rheinmuseum",
+        "Dommuseum"
+      ],
+      "answer": 0,
+      "explanation": "Das Schokoladenmuseum in Köln zeigt die Geschichte der Schokolade."
+    }
+  ]
+}

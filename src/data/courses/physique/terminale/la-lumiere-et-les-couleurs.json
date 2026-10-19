@@ -1,0 +1,58 @@
+{
+  "id": "physique-terminale-la-lumiere-et-les-couleurs",
+  "title": "La lumière et les couleurs",
+  "summary": "Pourquoi voyons-nous les objets colorés ? Comment se forme un arc-en-ciel ?",
+  "lesson": "## La lumière\n\n### Nature de la lumière\n\n**La lumière** est une onde électromagnétique qui se propage en ligne droite.\n\n**Caractéristiques :**\n- Vitesse : c = 300 000 km/s (dans le vide)\n- Peut se propager dans le vide\n- Se réfléchit sur les surfaces\n- Se réfracte en changeant de milieu\n\n### Sources de lumière\n\n**Sources primaires :**\n- Produisent leur propre lumière\n- Exemples : Soleil, lampe, bougie, étoiles\n\n**Sources secondaires :**\n- Réfléchissent la lumière\n- Exemples : Lune, objets éclairés\n\n### Le spectre lumineux\n\n**Décomposition de la lumière blanche :**\n\nAvec un prisme, la lumière blanche se décompose en :\n\n🔴 **Rouge**\n🟠 **Orange**\n🟡 **Jaune**\n🟢 **Vert**\n🔵 **Bleu**\n🟣 **Indigo**\n🟣 **Violet**\n\n**Mnémo :** **R**ouge **O**range **J**aune **V**ert **B**leu **I**ndigo **V**iolet\n\n### L'arc-en-ciel\n\n**Formation :**\n1. Lumière du soleil traverse les gouttes de pluie\n2. Réfraction en entrant dans la goutte\n3. Réflexion à l'intérieur de la goutte\n4. Réfraction en sortant de la goutte\n5. Séparation des couleurs (dispersion)\n\n**Conditions :**\n- Soleil derrière l'observateur\n- Pluie devant l'observateur\n- Angle d'environ 42°\n\n### Les couleurs des objets\n\n**Un objet coloré :**\n- **Absorbe** certaines couleurs\n- **Réfléchit** d'autres couleurs\n\n**Exemples :**\n\n**Tomate rouge :**\n- Absorbe : vert, bleu, violet\n- Réfléchit : rouge\n→ Nous voyons rouge\n\n**Feuille verte :**\n- Absorbe : rouge, bleu\n- Réfléchit : vert\n→ Nous voyons vert\n\n**Objet blanc :**\n- Réfléchit toutes les couleurs\n→ Nous voyons blanc\n\n**Objet noir :**\n- Absorbe toutes les couleurs\n→ Nous voyons noir\n\n### Synthèse des couleurs\n\n**Synthèse additive (lumières) :**\n\nCouleurs primaires : 🔴 Rouge + 🟢 Vert + 🔵 Bleu\n\nMélanges :\n- Rouge + Vert = Jaune\n- Rouge + Bleu = Magenta\n- Vert + Bleu = Cyan\n- Rouge + Vert + Bleu = Blanc\n\n**Synthèse soustractive (pigments) :**\n\nCouleurs primaires : 🔵 Cyan + 🟣 Magenta + 🟡 Jaune\n\nMélanges :\n- Cyan + Magenta = Bleu\n- Cyan + Jaune = Vert\n- Magenta + Jaune = Rouge\n- Cyan + Magenta + Jaune = Noir\n\n### Applications\n\n**Télévision / Écrans :**\n- Pixels avec 3 couleurs : Rouge, Vert, Bleu (RVB)\n- Synthèse additive\n\n**Impression / Peinture :**\n- Encres : Cyan, Magenta, Jaune, Noir (CMJN)\n- Synthèse soustractive\n\n**Vêtements traditionnels ivoiriens :**\n- Pagnes colorés : pigments naturels ou synthétiques\n- Couleurs vives obtenues par teinture\n\n### La vision\n\n**L'œil humain :**\n- Cellules sensibles aux couleurs : **cônes**\n- 3 types de cônes : rouge, vert, bleu\n- Perception des couleurs par combinaison\n\n**Daltonisme :**\n- Déficience de perception des couleurs\n- Le plus courant : confusion rouge-vert\n- Touche environ 8% des hommes, 0,5% des femmes",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Lumière = onde électromagnétique",
+    "Spectre : 7 couleurs (arc-en-ciel)",
+    "Objet coloré réfléchit sa couleur",
+    "Synthèse additive (lumières) ≠ soustractive (pigments)"
+  ],
+  "exercise": {
+    "question": "On éclaire un objet rouge avec une lumière bleue. Quelle couleur voit-on ? Expliquer.",
+    "answer": "\n**Solution :**\n\n**Analyse :**\n\n1. **L'objet rouge :**\n   - Réfléchit uniquement le rouge\n   - Absorbe toutes les autres couleurs (vert, bleu, etc.)\n\n2. **Lumière bleue :**\n   - Ne contient que du bleu\n   - Pas de rouge\n\n3. **Interaction :**\n   - L'objet rouge absorbe le bleu\n   - Aucune lumière n'est réfléchie\n\n**Résultat :**\nL'objet apparaît **noir** car aucune lumière n'est réfléchie vers nos yeux.\n\n**Réponse : L'objet apparaît noir**\n\n**Principe général :**\nPour voir la couleur d'un objet, la lumière éclairante doit contenir cette couleur.\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La vitesse de la lumière dans le vide est :",
+      "options": [
+        "3 000 km/s",
+        "30 000 km/s",
+        "300 000 km/s",
+        "3 000 000 km/s"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Un objet qui absorbe toutes les couleurs apparaît :",
+      "options": [
+        "Blanc",
+        "Noir",
+        "Gris",
+        "Transparent"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Les couleurs primaires de la lumière sont :",
+      "options": [
+        "Rouge, Jaune, Bleu",
+        "Rouge, Vert, Bleu",
+        "Cyan, Magenta, Jaune",
+        "Rouge, Vert, Jaune"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

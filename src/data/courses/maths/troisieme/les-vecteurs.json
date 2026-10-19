@@ -1,0 +1,32 @@
+{
+  "id": "maths-troisieme-les-vecteurs",
+  "title": "Les vecteurs",
+  "summary": "Figure 1 avec points. Donner infos à camarade pour placer P et Q avec vecteurs AB et AC.",
+  "lesson": "## Les vecteurs\n\n### Définition\nVecteur caractérisé par :\n- Direction\n- Sens\n- Longueur (norme)\n\nNotation : **AB⃗**\n\n### Coordonnées\nSi A(xₐ;yₐ) et B(xᵦ;yᵦ) :\n**AB⃗(xᵦ-xₐ ; yᵦ-yₐ)**\n\n### Addition\n**u⃗ + v⃗** : additionner coordonnées\n\n### Norme\n**||AB⃗|| = √(x² + y²)**\n\n### Translation\nDéplacement selon vecteur",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Direction+sens+longueur",
+    "Coordonnées : (xᵦ-xₐ;yᵦ-yₐ)",
+    "Addition coordonnées",
+    "Norme : √(x²+y²)"
+  ],
+  "exercise": {
+    "question": "A(1;2), B(4;6). Coordonnées AB⃗ ?",
+    "answer": "AB⃗(3;4)"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Si A(2;3), B(5;7), AB⃗=?",
+      "options": [
+        "(3;4)",
+        "(7;10)",
+        "(5;7)",
+        "(2;3)"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "francais-troisieme-l-adverbe-et-ses-fonctions",
+  "title": "L'adverbe et ses fonctions",
+  "summary": "En rédigeant un compte rendu de match de football, tu veux préciser comment les joueurs ont joué. Quels mots utiliser pour modifier les verbes et enrichir ton texte ?",
+  "lesson": "## L'adverbe et ses fonctions\n\n### Définition\nL'adverbe est un mot invariable qui modifie le sens d'un verbe, d'un adjectif, d'un autre adverbe ou d'une phrase entière.\n\n### Les types d'adverbes\n\n**1. Adverbes de manière**\nComment ? De quelle façon ?\nbien, mal, vite, lentement, doucement, facilement, ensemble, ainsi, comment...\nFormation : adjectif féminin + -ment (lent → lente → lentement)\n\n*Exemple :* « L'équipe a **brillamment** joué. »\n\n**2. Adverbes de lieu**\nOù ?\nici, là, là-bas, ailleurs, partout, nulle part, dedans, dehors, devant, derrière, dessus, dessous...\n\n*Exemple :* « Les supporters sont **partout**. »\n\n**3. Adverbes de temps**\nQuand ?\naujourd'hui, hier, demain, maintenant, bientôt, toujours, jamais, souvent, parfois, longtemps, déjà, encore...\n\n*Exemple :* « Le match commence **bientôt**. »\n\n**4. Adverbes de quantité (ou d'intensité)**\nCombien ? À quel degré ?\nbeaucoup, peu, très, trop, assez, plus, moins, autant, tellement, presque, environ...\n\n*Exemple :* « Il court **très** vite. »\n\n**5. Adverbes d'affirmation**\noui, si, certainement, assurément, vraiment, bien sûr, évidemment...\n\n*Exemple :* « Il viendra **certainement**. »\n\n**6. Adverbes de négation**\nnon, ne... pas, ne... plus, ne... jamais, ne... rien, ne... guère...\n\n*Exemple :* « Il **ne** joue **plus**. »\n\n**7. Adverbes de liaison**\npuis, ensuite, enfin, cependant, pourtant, toutefois, néanmoins, donc, ainsi...\n\n*Exemple :* « Il a marqué, **puis** il a célébré. »\n\n### Les fonctions de l'adverbe\n\n**1. Complément circonstanciel**\nModifie un verbe\n*Exemple :* « L'attaquant court **rapidement**. » (CC de manière)\n\n**2. Modificateur d'adjectif**\n*Exemple :* « Ce joueur est **très** talentueux. »\n\n**3. Modificateur d'adverbe**\n*Exemple :* « Il joue **vraiment** bien. »\n\n**4. Modificateur de phrase**\n*Exemple :* « **Heureusement**, l'équipe a gagné. »\n\n### Formation des adverbes en -ment\n\n| Règle | Exemple |\n|-------|---------|\n| Adjectif féminin + -ment | douce → doucement |\n| Adjectif en -ant → -amment | brillant → brillamment |\n| Adjectif en -ent → -emment | prudent → prudemment |\n| Exceptions | gentil → gentiment, bref → brièvement |\n\n### Place de l'adverbe\n\n- Après un verbe simple : « Il parle **bien**. »\n- Entre auxiliaire et participe : « Il a **bien** parlé. »\n- Devant un adjectif : « Elle est **très** intelligente. »\n- En début de phrase (adverbe de phrase) : « **Malheureusement**, il a perdu. »",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Adverbe = mot invariable modifiant verbe, adjectif, adverbe ou phrase",
+    "Types : manière, lieu, temps, quantité, affirmation, négation, liaison",
+    "Formation en -ment : adjectif féminin + -ment (sauf -ant/-ent)"
+  ],
+  "exercise": {
+    "question": "1) Forme l'adverbe à partir de ces adjectifs : lent, patient, gentil, évident. 2) Identifie la nature et la fonction des adverbes dans : « Hier, l'équipe a très bien joué. »",
+    "answer": "\n**Solution :**\n\n**1) Formation des adverbes :**\n- lent → lente → **lentement**\n- patient → patiente → **patiemment** (règle -ent → -emment)\n- gentil → **gentiment** (exception)\n- évident → **évidemment** (règle -ent → -emment)\n\n**2) Analyse de « Hier, l'équipe a très bien joué. »**\n\n| Adverbe | Type | Fonction |\n|---------|------|----------|\n| **Hier** | adverbe de temps | CC de temps du verbe « a joué » |\n| **très** | adverbe d'intensité | modificateur de l'adverbe « bien » |\n| **bien** | adverbe de manière | CC de manière du verbe « a joué » |\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "L'adverbe de « prudent » est :",
+      "options": [
+        "Prudentement",
+        "Prudemment",
+        "Prudentment",
+        "Prudemement"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "« Très » est un adverbe de :",
+      "options": [
+        "Manière",
+        "Temps",
+        "Lieu",
+        "Intensité"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Dans « Il parle doucement », l'adverbe est :",
+      "options": [
+        "Sujet",
+        "COD",
+        "CC de manière",
+        "Attribut"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

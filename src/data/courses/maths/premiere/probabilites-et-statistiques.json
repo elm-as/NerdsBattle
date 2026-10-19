@@ -1,0 +1,44 @@
+{
+  "id": "maths-premiere-probabilites-et-statistiques",
+  "title": "Probabilités et statistiques",
+  "summary": "Une entreprise analyse ses ventes. Comment traiter ces données statistiques ?",
+  "lesson": "## Probabilités et statistiques\n\n### Probabilités\n**Loi de probabilité :**\nP(A) = nombre de cas favorables / nombre de cas possibles\n\n**Propriétés :**\n- 0 ≤ P(A) ≤ 1\n- P(Ā) = 1 − P(A)\n- P(A ∪ B) = P(A) + P(B) − P(A ∩ B)\n\n### Statistiques\n**Indicateurs de position :**\n- Moyenne\n- Médiane : 50% avant, 50% après\n- Quartiles : Q₁ (25%), Q₃ (75%)\n\n**Indicateurs de dispersion :**\n- Étendue : max − min\n- Écart interquartile : Q₃ − Q₁\n- Écart-type : mesure de dispersion",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "0 ≤ P(A) ≤ 1 toujours",
+    "Médiane : valeur centrale",
+    "Écart-type : mesure de dispersion"
+  ],
+  "exercise": {
+    "question": "On lance un dé équilibré. Quelle est la probabilité d'obtenir un nombre pair ou supérieur à 4 ?",
+    "answer": "\n**Solution :**\nPairs : {2, 4, 6}\nSupérieurs à 4 : {5, 6}\nPairs ou > 4 : {2, 4, 5, 6} = 4 cas\nP = 4/6 = 2/3\n\n**Réponse : P = 2/3**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Si P(A) = 0,4, alors P(Ā) = ?",
+      "options": [
+        "0,4",
+        "0,6",
+        "1",
+        "0"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La médiane d'une série est :",
+      "options": [
+        "La moyenne",
+        "La valeur la plus fréquente",
+        "La valeur centrale",
+        "L'étendue"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

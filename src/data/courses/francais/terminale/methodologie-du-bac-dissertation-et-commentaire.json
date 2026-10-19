@@ -1,0 +1,45 @@
+{
+  "id": "francais-terminale-methodologie-du-bac-dissertation-et-commentaire",
+  "title": "Méthodologie du BAC : dissertation et commentaire",
+  "summary": "Comment réussir l'épreuve de français au BAC ?",
+  "lesson": "## Méthodologie du BAC\n\n### L'épreuve écrite (4h)\n\n**Corpus de textes**\n- Question sur corpus (4 points)\n- 1h maximum\n\n**Travail d'écriture (16 points)**\n- Dissertation OU\n- Commentaire\n- 3h environ\n\n### La dissertation (rappels)\n\n**Structure**\n1. Introduction (10% du devoir)\n   - Amorce\n   - Problématique\n   - Annonce du plan\n\n2. Développement (80%)\n   - 2-3 parties\n   - Arguments + exemples précis\n   - Transitions\n\n3. Conclusion (10%)\n   - Bilan\n   - Ouverture\n\n**Conseils**\n- Plan détaillé au brouillon\n- Exemples des œuvres au programme\n- Pas de \"je\"\n\n### Le commentaire (rappels)\n\n**Méthode**\n1. Lectures analytiques\n2. Dégager 2-3 axes\n3. Plan détaillé\n\n**Structure**\n- Introduction (présentation du texte)\n- 2-3 parties thématiques\n- Analyse précise des procédés\n- Conclusion\n\n**Pièges à éviter**\n- Paraphrase\n- Catalogue de figures\n- Absence d'analyse\n\n### L'oral (20 min préparation, 20 min passage)\n\n**Première partie : exposé (10 min)**\n- Lecture (1 min)\n- Explication linéaire (9 min)\n\n**Deuxième partie : entretien (10 min)**\n- Questions sur l'œuvre\n- Questions sur le parcours\n- Questions de grammaire\n\n### Gestion du temps\n\n**Écrit**\n- Corpus : 1h\n- Brouillon : 1h\n- Rédaction : 1h45\n- Relecture : 15 min\n\n**Oral**\n- Préparation : 20 min\n- Ne pas dépasser le temps",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Écrit : question corpus + dissertation OU commentaire",
+    "Oral : lecture + explication + entretien",
+    "Gestion du temps cruciale",
+    "Exemples précis des œuvres au programme"
+  ],
+  "exercise": {
+    "question": "Quelles sont les trois parties de l'introduction de dissertation ?",
+    "answer": "\n**Solution :**\n1. **Amorce** : contexte, citation, accroche\n2. **Problématique** : question soulevée par le sujet\n3. **Annonce du plan** : les grandes parties\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "À l'oral, l'exposé dure :",
+      "options": [
+        "5 minutes",
+        "10 minutes",
+        "15 minutes",
+        "20 minutes"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Dans un commentaire, on doit :",
+      "options": [
+        "Paraphraser",
+        "Analyser les procédés",
+        "Raconter sa vie",
+        "Critiquer l'auteur"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

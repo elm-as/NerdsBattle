@@ -1,0 +1,125 @@
+{
+  "id": "maths-premiere-probabilite",
+  "title": "Probabilité",
+  "summary": "Lors d'une kermesse scolaire à Bouaké, un jeu consiste à lancer un dé parfait numéroté 1 à 6. Le jackpot (10 000 FCFA) s'obtient avec un 6. Une élève affirme qu'on a peu de chance d'avoir le jackpot. Son camarade qui vient de gagner n'est pas d'accord. Pour les départager, la classe décide de calculer les probabilités.",
+  "lesson": "## 1. Vocabulaire des probabilités\n\n- **Expérience aléatoire** : Issue incertaine (lancer de dé)\n- **Univers Ω** : Ensemble de toutes les issues possibles\n- **Événement** : Sous-ensemble de Ω\n- **Événement élémentaire** : Singleton (une seule issue)\n- **Événement certain** : Ω\n- **Événement impossible** : ∅\n\n## 2. Définition classique (équiprobabilité)\n\nSi toutes les issues sont équiprobables :\n$$P(A) = \\\\frac{\\\text{nombre d'issues favorables}}{\\\text{nombre d'issues possibles}} = \\\\frac{\\\text{card}(A)}{\\\text{card}(Ω)}$$\n\n**Exemple** : Dé à 6 faces équilibré :\n- P(obtenir 6) = 1/6 ≈ 0.1667\n- P(obtenir un nombre pair) = 3/6 = 1/2\n\n## 3. Propriétés fondamentales\n\n1. $$0 \\\\leq P(A) \\\\leq 1$$\n2. $$P(Ω) = 1$$\n3. $$P(∅) = 0$$\n4. $$P(\\\\bar{A}) = 1 - P(A)$$ (probabilité de l'événement contraire)\n\n## 4. Probabilité de l'union\n\n$$P(A ∪ B) = P(A) + P(B) - P(A ∩ B)$$\n\nSi A et B sont **incompatibles** (A ∩ B = ∅), alors :\n$$P(A ∪ B) = P(A) + P(B)$$\n\n## 5. Situation de la kermesse\n\nUnivers Ω = {1, 2, 3, 4, 5, 6}, card(Ω) = 6\nÉvénement J = \"obtenir le jackpot\" = {6}\n$$P(J) = 1/6 ≈ 0.1667$$\n\nÉvénement N = \"obtenir un numéro non gagnant\" = {1, 2, 3, 4, 5}\n$$P(N) = 5/6 ≈ 0.8333$$\n\nEffectivement, P(J) < P(N), l'élève a raison : on a moins de chance d'avoir le jackpot que d'avoir un autre numéro.\n\n## 6. Probabilités avec dés, pièces, cartes\n\n- **Dé à 6 faces** : Ω = {1,...,6}, card(Ω) = 6\n- **Pièce de monnaie** : Ω = {Pile, Face}, card(Ω) = 2\n- **Cartes à jouer** : 32 ou 52 cartes, avec couleurs et valeurs\n\n**Exemple** : Lancer deux dés :\ncard(Ω) = 6 × 6 = 36\nP(somme = 7) = 6/36 = 1/6 (paires : (1,6), (2,5), (3,4), (4,3), (5,2), (6,1))\n\n## 7. Applications ivoiriennes\n\n1. **Météo** : Probabilité de pluie à Abidjan en saison des pluies\n2. **Agriculture** : Probabilité qu'une plantation de cacao soit affectée par une maladie\n3. **Transport** : Probabilité qu'un bus soit à l'heure sur la ligne Abidjan-Yamoussoukro\n\n## 8. Arbres de probabilités\n\nPour des expériences successives, on peut construire un arbre :\n- Les branches représentent les issues\n- Les feuilles donnent les issues finales\n- On multiplie les probabilités le long d'un chemin\n\n**Exemple** : Lancer deux pièces :\nPremier lancer : P(P) = 1/2, P(F) = 1/2\nPour chaque, deuxième lancer : mêmes probabilités\nP(PP) = 1/2 × 1/2 = 1/4\nP(PF) = 1/4, etc.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Probabilité = favorable/possible dans le cas équiprobable",
+    "0 ≤ P(A) ≤ 1",
+    "P(Ω) = 1, P(∅) = 0",
+    "P(Ā) = 1 - P(A)",
+    "P(A ∪ B) = P(A) + P(B) - P(A ∩ B)",
+    "Si A et B incompatibles : P(A ∪ B) = P(A) + P(B)"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Si P(A) = 0.3, alors P(Ā) = :",
+      "options": [
+        "0.3",
+        "0.7",
+        "0.5",
+        "0"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Dans un lancer de dé équilibré, P(nombre premier) = ? (Nombres premiers ≤6 : 2,3,5)",
+      "options": [
+        "1/2",
+        "1/3",
+        "1/6",
+        "2/3"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Si A et B sont incompatibles et P(A)=0.4, P(B)=0.3, alors P(A∪B) = :",
+      "options": [
+        "0.7",
+        "0.12",
+        "0.1",
+        "0.58"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans une urne avec 5 boules blanches et 3 noires, P(tirer une noire) = :",
+      "options": [
+        "5/8",
+        "3/8",
+        "3/5",
+        "5/3"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Dans une situation d'équiprobabilité, si un événement a 3 cas favorables sur 12 possibles, sa probabilité est :",
+      "options": [
+        "1/4",
+        "1/3",
+        "1/12",
+        "3"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Si P(A)=0.3 et P(B)=0.5 avec A et B incompatibles, alors P(A∪B) =",
+      "options": [
+        "0.8",
+        "0.15",
+        "0.2",
+        "0.35"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "P(Ā) = 1 - P(A) est toujours vraie :",
+      "options": [
+        "Vrai",
+        "Faux",
+        "Seulement si A est certain",
+        "Seulement en équiprobabilité"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Pour un dé à 6 faces, la probabilité d'obtenir un multiple de 3 est :",
+      "options": [
+        "1/2",
+        "1/3",
+        "1/6",
+        "2/3"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

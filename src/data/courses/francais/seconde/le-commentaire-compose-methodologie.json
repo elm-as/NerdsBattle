@@ -1,0 +1,71 @@
+{
+  "id": "francais-seconde-le-commentaire-compose-methodologie",
+  "title": "Le commentaire composé : méthodologie",
+  "summary": "Au cours de recherches à la bibliothèque du Lycée de San-Pédro, des élèves de Seconde C découvrent dans un ouvrage un sujet de commentaire composé. Curieux de comprendre le fonctionnement de cet exercice, ils s’organisent pour analyser le libellé, identifier les centres d’intérêt, rechercher et organiser les idées en vue de rédiger l’introduction et un centre d’intérêt.",
+  "lesson": "## 1. Définition et objectif\n\nLe commentaire composé est un exercice qui consiste à **analyser et interpréter un texte** en montrant ses **intérêts littéraires** et **ses significations**, organisés selon un **plan logique** (centres d’intérêt).\n\n## 2. Les étapes préalables à la rédaction\n\n1. **Lecture attentive et repérage** : genre, thème, situation d’énonciation, mouvement littéraire éventuel.\n2. **Analyse du libellé** (s’il est donné) : comprendre les axes de lecture suggérés.\n3. **Construction du sens** : repérer les procédés d’écriture (lexique, figures, syntaxe, rythme, sonorités) et interpréter leurs effets.\n4. **Dégagement des centres d’intérêt** : 2 ou 3 grandes idées directrices qui structurent l’analyse.\n\n## 3. Élaboration du plan détaillé\n\nLe plan suit généralement l’ordre **thématique** ou **technique**, pas l’ordre du texte.\n\n**Structure type :**\n- **Introduction**\n- **Développement** (2 ou 3 parties, elles-mêmes divisées en 2 ou 3 sous-parties)\n  - I. Premier centre d’intérêt\n    - A. Sous-partie 1\n    - B. Sous-partie 2\n  - II. Deuxième centre d’intérêt\n    - A. Sous-partie 1\n    - B. Sous-partie 2\n- **Conclusion**\n\n## 4. Rédaction de l’introduction (4 étapes)\n\n1. **Accroche/amorce** : Entrée en matière liée au thème ou au genre du texte.\n2. **Présentation du texte** : Auteur, œuvre (si connue), date, mouvement, résumé très bref et situation de l’extrait.\n3. **Problématique** : Question centrale que va traiter le commentaire (souvent reformulée à partir des axes du libellé).\n4. **Annonce du plan** : Présentation des centres d’intérêt (parties) dans l’ordre (« Nous verrons d’abord… puis… enfin… »).\n\n## 5. Rédaction du développement\n\n**Pour chaque paragraphe (sous-partie) :**\n1. **Idée directrice** (phrase topic).\n2. **Citation(s) précise(s)** du texte.\n3. **Analyse du procédé** (nommer la figure, le temps verbal, le champ lexical…).\n4. **Interprétation de l’effet** (sens, impression produite, rôle dans l’argumentation ou la description…).\n5. **Transition** vers l’idée suivante (en fin de sous-partie ou de partie).\n\n## 6. Rédaction de la conclusion\n\n**En 2 ou 3 étapes :**\n1. **Bilan synthétique** : Rappel des grandes étapes de l’analyse et réponse à la problématique.\n2. **Ouverture** : Élargissement vers une autre œuvre, un autre thème, une question plus générale (sans introduire de nouvel élément d’analyse).\n\n## 7. Application à un texte descriptif (extrait)\n\n**Texte :** Description d’un marché ivoirien.\n\n**Proposition de centres d’intérêt :**\n- I. Une description vivante et sensorielle (vue, ouïe, odorat).\n- II. Une représentation de la société et de ses dynamiques (les corps de métier, les échanges).\n- III. Une écriture poétisée du quotidien (métaphores, rythmes).\n\n## 8. Pièges à éviter\n\n- **Paraphrase** : Se contenter de répéter le texte.\n- **Catalogue** : Énumérer des procédés sans les interpréter.\n- **Plan linéaire** : Suivre l’ordre du texte.\n- **Oublier les citations** : Chaque idée doit s’appuyer sur le texte.\n- **Conclusion hors-sujet** : L’ouverture doit rester dans le prolongement du texte.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Construire un plan thématique (2-3 centres d’intérêt) et non linéaire.",
+    "Rédiger une introduction en 4 temps : accroche, présentation, problématique, annonce du plan.",
+    "Structurer chaque paragraphe du développement autour d’une idée, d’une citation, d’une analyse et d’une interprétation.",
+    "Synthétiser l’analyse dans une conclusion qui répond à la problématique et propose une ouverture pertinente."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La première étape de l’introduction d’un commentaire est :",
+      "options": [
+        "L’annonce du plan",
+        "La problématique",
+        "L’accroche/amorce",
+        "La présentation du texte"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Dans le développement, chaque paragraphe doit impérativement contenir :",
+      "options": [
+        "Une citation du texte",
+        "Une biographie de l’auteur",
+        "Une comparaison avec un autre texte",
+        "Une question rhétorique"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel type de plan faut-il éviter dans un commentaire composé ?",
+      "options": [
+        "Un plan thématique",
+        "Un plan en deux parties",
+        "Un plan qui suit l’ordre du texte (linéaire)",
+        "Un plan en trois parties"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "L’ouverture en conclusion sert à :",
+      "options": [
+        "Introduire une nouvelle analyse détaillée",
+        "Élargir la réflexion vers un autre contexte ou texte",
+        "Résumer une nouvelle fois chaque sous-partie",
+        "Critiquer le point de vue de l’auteur"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

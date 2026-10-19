@@ -1,0 +1,149 @@
+{
+  "id": "physique-premiere-les-alcanes",
+  "title": "Les alcanes",
+  "summary": "Lors d'une visite à la SIR (Société Ivoirienne de Raffinage) à Port-Bouet, des élèves apprennent que l'essence sans plomb, le gas-oil et le kérosène sont des mélanges d'alcanes. De retour en classe, ils décident d'étudier la structure et les propriétés de ces hydrocarbures essentiels à l'économie ivoirienne.",
+  "lesson": "## 1. Introduction\n\nLes **alcanes** sont des hydrocarbures saturés acycliques (chaîne ouverte) de formule générale $C_nH_{2n+2}$. Ce sont les principaux constituants du pétrole brut, ressource naturelle exploitée en Côte d'Ivoire (champs offshore de la Baie de Sassandra).\n\n## 2. Structure des alcanes\n\n**Caractéristiques** :\n- Liaisons C-C simples (σ)\n- Liaisons C-H simples\n- Chaîne carbonée **saturée** (pas de doubles/triples liaisons)\n- Tétraédrie autour du carbone (angles ≈ 109,5°)\n\n**Exemple : Méthane CH₄**\nStructure tétraédrique : 1 atome C au centre, 4 atomes H aux sommets.\n\n**Description du schéma 1:** Modèle tétraédrique du méthane. Représenter l'atome de carbone central, les 4 atomes d'hydrogène aux sommets d'un tétraèdre. Indiquer les longueurs de liaison C-H (110 pm) et l'angle H-C-H (109,5°).\n\n## 3. Formule générale\n\nPour les alcanes à chaîne linéaire ou ramifiée (non cyclique) :\n$$C_nH_{2n+2}$$\n\nAvec n = nombre d'atomes de carbone.\n\n**Premiers termes** :\n- n=1 : méthane CH₄\n- n=2 : éthane C₂H₆\n- n=3 : propane C₃H₈\n- n=4 : butane C₄H₁₀\n- n=5 : pentane C₅H₁₂\n- etc.\n\n## 4. Nomenclature des alcanes\n\n**Règles IUPAC** :\n1. **Chaîne principale** : la plus longue chaîne carbonée continue.\n2. **Numérotation** : pour donner les indices les plus faibles aux substituants.\n3. **Nom** : préfixe (position-substituant) + nom de la chaîne principale en -ane.\n\n**Substituants (groupes alkyles)** : R- dérivé de l'alcane (ex : CH₃- = méthyl, C₂H₅- = éthyl).\n\n**Exemples** :\n- CH₃-CH₂-CH₃ : propane\n- CH₃-CH(CH₃)-CH₃ : 2-méthylpropane (isobutane)\n\n**Description du schéma 2:** Formules développées du butane et du 2-méthylpropane (isobutane). Montrer les deux isomères avec atomes de carbone numérotés. Indiquer la chaîne principale pour chaque.\n\n## 5. Isomérie de chaîne\n\nÀ partir de n=4, plusieurs structures sont possibles pour une même formule brute : ce sont des **isomères**.\n\n**Butane C₄H₁₀** : 2 isomères\n- Butane (linéaire)\n- 2-méthylpropane (ramifié)\n\n## 6. Propriétés chimiques : Combustion\n\n**Réaction exothermique** avec le dioxygène :\n\n**Combustion complète** (excès de O₂) :\n$$C_nH_{2n+2} + \\\\frac{3n+1}{2} O₂ \\\\rightarrow n CO₂ + (n+1) H₂O$$\n\nExemple pour le butane :\n$$2 C₄H₁₀ + 13 O₂ \\\\rightarrow 8 CO₂ + 10 H₂O$$\n\n**Combustion incomplète** (déficit de O₂) : formation de CO et/ou C (suie).\n\n## 7. Propriétés chimiques : Substitution (halogénation)\n\nSous l'action de la lumière (UV) ou à haute température, un atome d'hydrogène peut être remplacé par un halogène (Cl, Br).\n\n**Chloration du méthane** :\n$$CH₄ + Cl₂ \\\\xrightarrow{h\\\nu} CH₃Cl + HCl$$\nPuis substitution successive possible : CH₂Cl₂, CHCl₃, CCl₄.\n\n**Description du schéma 3:** Schéma réactionnel de la chloration du méthane. Montrer la molécule de CH₄, une flèche avec hν (lumière), et les produits CH₃Cl + HCl. Représenter les molécules avec modèles boules-bâtonnets.\n\n## 8. Importance des alcanes en Côte d'Ivoire\n\n1. **Carburants** : Essence (C₅-C₁₀), gazole (C₁₂-C₂₀), kérosène (C₁₀-C₁₆).\n\n2. **Combustibles** : Gaz de pétrole liquéfié (GPL : propane, butane) pour la cuisson.\n\n3. **Pétrochimie** : Matières premières pour plastiques, solvants, médicaments.\n\n4. **Exportation** : Le pétrole brut et les produits raffinés contribuent à l'économie nationale.\n\n## 9. Impact environnemental\n\n- **CO₂** : Gaz à effet de serre issu de la combustion.\n- **CO** : Toxique, produit lors de combustions incomplètes (moteurs mal réglés).\n- **Particules** : Suies cancérigènes.\n- **Déversements** : Pollution des sols et des eaux (nappes, lagune Ébrié).\n\n**Solutions** : Catalyseurs d'échappement, meilleure efficacité des moteurs, développement des énergies renouvelables.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Formule générale des alcanes : CnH2n+2",
+    "Nomenclature : chaîne principale la plus longue + substituants avec indices les plus bas",
+    "Propriétés chimiques principales : combustion (exothermique) et substitution (halogénation)",
+    "Les alcanes sont les principaux constituants des carburants et combustibles fossiles"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La formule générale des alcanes est :",
+      "options": [
+        "CnH2n",
+        "CnH2n+2",
+        "CnH2n-2",
+        "CnHn"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Le plus simple des alcanes est :",
+      "options": [
+        "Éthane",
+        "Méthane",
+        "Propane",
+        "Butane"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Combien d'isomères pour C₄H₁₀ ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "La combustion complète d'un alcane produit :",
+      "options": [
+        "CO₂ et H₂O",
+        "CO et H₂",
+        "C et H₂O",
+        "CH₄ et O₂"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "La chloration du méthane nécessite :",
+      "options": [
+        "De l'eau",
+        "De la lumière",
+        "Une haute pression",
+        "Un catalyseur métallique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Le groupe CH₃- s'appelle :",
+      "options": [
+        "Éthyle",
+        "Propyle",
+        "Méthyle",
+        "Butyle"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "L'isomérie des alcanes est due à :",
+      "options": [
+        "La différence de formule brute",
+        "La différence de structure (chaîne)",
+        "La présence de doubles liaisons",
+        "La présence d'hétéroatomes"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "L'essence sans plomb contient principalement :",
+      "options": [
+        "Des alcools",
+        "Des alcanes et des aromatiques",
+        "Des acides carboxyliques",
+        "Des esters"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Pour nommer CH₃-CH(CH₃)-CH₂-CH₃ :",
+      "options": [
+        "Butane",
+        "2-méthylbutane",
+        "3-méthylbutane",
+        "Pentane"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "La combustion des alcanes est :",
+      "options": [
+        "Endothermique",
+        "Exothermique",
+        "Ne dégage ni n'absorbe d'énergie",
+        "Catalytique seulement"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

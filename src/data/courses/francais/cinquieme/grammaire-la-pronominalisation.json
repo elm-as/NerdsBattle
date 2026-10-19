@@ -1,0 +1,32 @@
+{
+  "id": "francais-cinquieme-grammaire-la-pronominalisation",
+  "title": "Grammaire : La pronominalisation",
+  "summary": "Les élèves étudient la pronominalisation pour éviter les répétitions.",
+  "lesson": "## La pronominalisation\n\n### Les pronoms personnels\n- Sujets : je, tu, il, elle, nous, vous, ils, elles\n- COD : me, te, le, la, nous, vous, les\n- COI : me, te, lui, nous, vous, leur\n\n### Les pronoms adverbiaux\n- EN : remplace de + GN (J'en viens = je viens de là)\n- Y : remplace à + GN (J'y vais = je vais là-bas)\n\n### Application\nRemplacer un groupe nominal par un pronom pour éviter les répétitions.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Pronoms sujets, COD, COI",
+    "EN et Y : pronoms adverbiaux",
+    "Éviter les répétitions",
+    "Place avant le verbe conjugué"
+  ],
+  "exercise": {
+    "answer": "Je le vois. Je lui parle.",
+    "question": "Remplace par un pronom : 'Je vois mon ami. Je parle à mon ami.'"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "'Je parle à Marie' devient :",
+      "options": [
+        "Je la parle",
+        "Je lui parle",
+        "Je l'parle",
+        "Je y parle"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

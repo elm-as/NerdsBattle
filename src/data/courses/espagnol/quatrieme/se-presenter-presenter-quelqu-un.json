@@ -1,0 +1,45 @@
+{
+  "id": "espagnol-quatrieme-se-presenter-presenter-quelqu-un",
+  "title": "Se présenter / Présenter quelqu'un",
+  "summary": "¿Cómo te llamas? ¿De dónde eres? (Comment t'appelles-tu ? D'où viens-tu ?)",
+  "lesson": "## Se présenter en espagnol\n\n### Phrases essentielles\n\n**Pour se présenter :**\n- Me llamo... / Mi nombre es... (Je m'appelle...)\n- Soy de... (Je viens de...)\n- Tengo ... años (J'ai ... ans)\n- Vivo en... (J'habite à...)\n\n**Pour présenter quelqu'un :**\n- Este es... / Esta es... (Voici...)\n- Se llama... (Il/Elle s'appelle...)\n- Es de... (Il/Elle vient de...)\n\n### Dialogue modèle\n\n**María:** ¡Hola! Me llamo María. ¿Cómo te llamas?\n**Jean:** Hola, me llamo Jean. Encantado.\n**María:** ¿De dónde eres?\n**Jean:** Soy de Abidjan, Costa de Marfil. ¿Y tú?\n**María:** Yo soy de Madrid, España.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Me llamo + prénom pour se présenter",
+    "Soy de + ville/pays pour l'origine",
+    "Tengo + âge + años pour l'âge",
+    "¿Cómo te llamas? pour demander le nom"
+  ],
+  "exercise": {
+    "question": "Présente-toi en espagnol avec ton nom, ton âge et ta ville.",
+    "answer": "Me llamo [nom]. Tengo [âge] años. Soy de Abidjan. Vivo en Costa de Marfil."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'Je m'appelle' en espagnol ?",
+      "options": [
+        "Me llamo",
+        "Yo soy",
+        "Mi nombre",
+        "Tengo"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Pour demander 'Comment t'appelles-tu ?', on dit :",
+      "options": [
+        "¿Qué es tu nombre?",
+        "¿Cómo te llamas?",
+        "¿Quién eres?",
+        "¿Dónde vives?"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

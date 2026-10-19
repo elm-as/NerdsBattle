@@ -1,0 +1,267 @@
+{
+  "id": "physique-seconde-solutions-aqueuses-ioniques",
+  "title": "Solutions aqueuses ioniques",
+  "summary": "Dans un village côtier près de Grand-Lahou, deux élèves de 2nde A2 du Lycée Moderne de Taï débattent vivement au bord de la lagune. L'un affirme qu'on peut dissoudre du sel dans l'eau en toute proportion, citant l'exemple des marais salants où l'eau devient tellement concentrée qu'elle ne peut plus en dissoudre. L'autre soutient qu'il y a une limite, comme lorsqu'on prépare une boisson trop sucrée où le sucre reste au fond du verre. Pour résoudre ce différend scientifique qui a des implications pratiques po",
+  "lesson": "## 1. Introduction aux solutions aqueuses ioniques\n\n**Définition** : Une solution aqueuse ionique est un mélange homogène obtenu par dissolution d'un composé ionique dans l'eau.\n\n**Importance en Côte d'Ivoire** :\n- **Eau de mer** : solution naturelle de nombreux sels\n- **Eaux minérales** : sources thermales (bicarbonates, sulfates)\n- **Agriculture** : solutions nutritives, engrais solubles\n- **Santé** : sérum physiologique, solutions médicamenteuses\n- **Industrie** : électrolyse, galvanoplastie\n\n**Description du schéma 1:** Dissolution du sel dans l'eau. Éléments : (1) Cristal NaCl solide, (2) Molécules d'eau polaires, (3) Attraction eau-ions : O vers Na⁺, H vers Cl⁻, (4) Détachement des ions du cristal, (5) Ions hydratés en solution, (6) Solution homogène finale.\n\n## 2. Mécanisme de dissolution d'un composé ionique\n\n### **Trois étapes**\n1. **Dislocation du réseau cristallin** :\n   - Rupture des liaisons ioniques\n   - Nécessite de l'énergie (endothermique)\n\n2. **Solvatation (hydratation pour l'eau)** :\n   - Attraction entre ions et molécules d'eau polaires\n   - Formation de « sphères d'hydratation »\n   - Libère de l'énergie (exothermique)\n\n3. **Dispersion des ions hydratés** :\n   - Diffusion dans tout le volume\n   - Mouvement brownien\n\n### **Équation de dissolution**\nPour NaCl : $$\\\text{NaCl}(s) \\\\xrightarrow{\\\text{H}_2\\\text{O}} \\\text{Na}^+(aq) + \\\text{Cl}^-(aq)$$\n\n**Convention** : (aq) = ion hydraté (aqueux).\n\n### **Effets thermiques**\n- **Global** : résultante des étapes 1 et 2\n- **Exemples** :\n  - NaOH : très exothermique (chauffe)\n  - NH₄Cl : endothermique (refroidit)\n  - NaCl : quasi athermique\n\n## 3. Solubilité et saturation\n\n### **Définitions**\n- **Solvant** : liquide qui dissout (ici : eau)\n- **Soluté** : substance dissoute (ici : sel)\n- **Solution** : mélange homogène résultant\n\n### **Solubilité $s$**\nMasse maximale de soluté qu'on peut dissoudre dans 1 L de solvant à une température donnée.\n\n**Unités** : g/L, mol/L.\n\n### **Solution saturée**\nContient la quantité maximale de soluté dissous.\n- **Équilibre dynamique** : dissolution = précipitation\n- **Sursaturation** : métastable, excès temporaire\n\n### **Facteurs influençant la solubilité**\n1. **Nature du soluté et solvant** : « qui se ressemble s'assemble »\n2. **Température** :\n   - Sels : souvent ↑ avec T\n   - Gaz : ↓ avec T\n3. **Pression** : importante pour les gaz (loi Henry)\n\n### **Valeurs à 20°C**\n- NaCl : 360 g/L (très soluble)\n- CaCO₃ : 0,013 g/L (peu soluble)\n- AgCl : 0,0019 g/L (très peu soluble)\n\n**Description du schéma 2:** Courbes de solubilité. Éléments : (1) Axes : solubilité (g/L) vs température (°C), (2) NaCl : faible pente positive, (3) KNO₃ : forte pente positive, (4) Ce₂(SO₄)₃ : pente négative, (5) Zones : insaturé, saturé, sursaturé, (6) Point de saturation à T donnée.\n\n## 4. Concentrations des solutions\n\n### **Concentration massique $C_m$**\n$$C_m = \\\\frac{m_{\\\text{soluté}}}{V_{\\\text{solution}}}$$\n- Unité : g/L (ou mg/L, µg/L)\n- **Exemple** : sérum physiologique : $C_m(\\\text{NaCl}) = 9 \\\\ \\\text{g/L}$\n\n### **Concentration molaire volumique $C$**\n$$C = \\\\frac{n_{\\\text{soluté}}}{V_{\\\text{solution}}}$$\n- Unité : mol/L (noté aussi M)\n- **Relation** : $C = \\\\frac{C_m}{M}$\n\n### **Exemple calcul**\nSolution de 5,85 g NaCl dans 500 mL :\n- $C_m = \\\\frac{5,85}{0,5} = 11,7 \\\\ \\\text{g/L}$\n- $M(\\\text{NaCl}) = 58,5 \\\\ \\\text{g/mol}$\n- $C = \\\\frac{11,7}{58,5} = 0,200 \\\\ \\\text{mol/L}$\n\n### **Préparation d'une solution de concentration donnée**\n1. Peser la masse requise : $m = C_m \\\times V$\n2. Dissoudre dans un peu d'eau\n3. Compléter jusqu'au trait de jauge\n4. Homogénéiser\n\n## 5. Électroneutralité des solutions ioniques\n\n### **Principe fondamental**\nUne solution électrolytique est **toujours électriquement neutre**.\n$$\\\\sum (n_+ \\\times z_+) = \\\\sum (n_- \\\times |z_-|)$$\nOù : $n$ = concentration, $z$ = charge.\n\n### **Exemples**\n1. **NaCl 0,1 mol/L** :\n   - [Na⁺] = 0,1 mol/L, [Cl⁻] = 0,1 mol/L\n   - Charge + : 0,1 × 1 = 0,1\n   - Charge - : 0,1 × 1 = 0,1\n   - Égalité ✓\n\n2. **CaCl₂ 0,1 mol/L** :\n   - [Ca²⁺] = 0,1 mol/L, [Cl⁻] = 0,2 mol/L\n   - Charge + : 0,1 × 2 = 0,2\n   - Charge - : 0,2 × 1 = 0,2\n   - Égalité ✓\n\n3. **Mélange NaCl 0,1 M + CaCl₂ 0,1 M** :\n   - [Na⁺] = 0,1, [Ca²⁺] = 0,1, [Cl⁻] = 0,1 + 0,2 = 0,3\n   - Charge + : (0,1×1) + (0,1×2) = 0,3\n   - Charge - : 0,3×1 = 0,3\n   - Égalité ✓\n\n### **Applications**\n- Vérification des analyses\n- Calcul des concentrations inconnues\n- Contrôle qualité des eaux\n\n## 6. Électrolyse d'une solution aqueuse\n\n### **Principe**\nDécomposition d'un composé par passage du courant électrique.\n\n### **Dispositif**\n- **Électrolyseur** : cuve contenant l'électrolyte\n- **Électrodes** : conductrices (graphite, platine, métaux)\n- **Générateur** : courant continu\n- **Électrolyte** : solution conductrice\n\n### **Réactions aux électrodes**\n- **Cathode** (réduction) : gain d'électrons\n- **Anode** (oxydation) : perte d'électrons\n\n### **Électrolyse de NaCl en solution aqueuse**\n\n**Observations** :\n- Cathode : dégagement de H₂ (test à l'allumette)\n- Anode : dégagement de Cl₂ (odeur, couleur jaune-vert)\n- Solution : devient basique (phénolphtaléine → rose)\n\n**Équations** :\n- Cathode : $2\text{H}_2\text{O} + 2e^- \\\\rightarrow \\\text{H}_2 + 2\text{OH}^-$\n- Anode : $2\text{Cl}^- \\\\rightarrow \\\text{Cl}_2 + 2e^-$\n- Globale : $2\text{NaCl} + 2\text{H}_2\text{O} \\\\rightarrow 2\text{NaOH} + \\\text{H}_2 + \\\text{Cl}_2$\n\n**Description du schéma 3:** Électrolyse de NaCl aqueux. Éléments : (1) Électrolyseur avec électrodes, (2) Cathode : H₂ + OH⁻, (3) Anode : Cl₂, (4) Générateur continu, (5) Tests des gaz, (6) Équations aux électrodes, (7) Bilan global.\n\n## 7. Rôle du solvant dans l'électrolyse\n\n### **Concurrence des espèces oxydables/réductibles**\nEn solution aqueuse, l'eau peut intervenir :\n- **Réduction** : $2\text{H}_2\text{O} + 2e^- \\\\rightleftharpoons \\\text{H}_2 + 2\text{OH}^-$ ($E° = -0,83 \\\\ \\\text{V}$)\n- **Oxydation** : $2\text{H}_2\text{O} \\\\rightleftharpoons \\\text{O}_2 + 4\text{H}^+ + 4e^-$ ($E° = +1,23 \\\\ \\\text{V}$)\n\n### **Règle de prévision**\nL'espèce avec le potentiel le plus favorable (plus élevé pour la réduction, plus bas pour l'oxydation) réagit en premier.\n\n### **Cas de NaCl aqueux**\n- **Cathode** : Na⁺/Na : $E° = -2,71 \\\\ \\\text{V}$ vs H₂O/H₂ : $-0,83 \\\\ \\\text{V}$ → H₂O réduite avant Na⁺\n- **Anode** : Cl⁻/Cl₂ : $E° = +1,36 \\\\ \\\text{V}$ vs H₂O/O₂ : $+1,23 \\\\ \\\text{V}$ → Cl⁻ oxydée avant H₂O (juste)\n\n### **Importance du pH**\n- Influence les potentiels\n- Modifie les produits\n- Contrôle industriel nécessaire\n\n## 8. Applications industrielles en Côte d'Ivoire\n\n### **Industrie chlor-alcali**\nProduction de :\n1. **Chlore (Cl₂)** : désinfection eau, PVC, solvants\n2. **Soude (NaOH)** : savon, papier, raffinage pétrole\n3. **Dihydrogène (H₂)** : énergie, chimie fine\n\n### **Galvanoplastie**\n- Dépôt de métaux (chrome, nickel, zinc)\n- Bijouterie (plaquage or, argent)\n- Protection contre la corrosion\n\n### **Électroraffinage**\n- Purification des métaux (cuivre, aluminium)\n- Récupération des métaux précieux\n\n### **Traitement des eaux**\n- Électrochloration : production de chlore sur site\n- Électrocoagulation : élimination des polluants\n\n## 9. Problèmes environnementaux et solutions\n\n### **Rejets de mercure**\n- Anciennes cellules à mercure\n- Pollution des eaux et sédiments\n- Alternative : cellules à membrane\n\n### **Énergie consommée**\n- Procédé très énergivore\n- Optimisation nécessaire\n- Intégration énergies renouvelables\n\n### **Transport et stockage**\n- Chlore : gaz toxique\n- Soude : corrosif\n- Mesures de sécurité strictes\n\n## 10. Exercices pratiques\n\n### **Problème 1 : Préparation de solution**\n« Prépare 250 mL d'une solution de sulfate de cuivre II à 0,10 mol/L à partir de CuSO₄·5H₂O (M=249,5 g/mol). »\n\n**Solution** :\n- $n = C \\\times V = 0,10 \\\times 0,250 = 0,0250 \\\\ \\\text{mol}$\n- $m = n \\\times M = 0,0250 \\\times 249,5 = 6,24 \\\\ \\\text{g}$\n- Peser 6,24 g, dissoudre, compléter à 250 mL\n\n### **Problème 2 : Électroneutralité**\n« Une eau minérale contient : Na⁺ 0,15 mol/L, Ca²⁺ 0,05 mol/L, Mg²⁺ 0,02 mol/L, Cl⁻ 0,12 mol/L, SO₄²⁻ 0,08 mol/L, HCO₃⁻ ?. Calcule [HCO₃⁻]. »\n\n**Solution** :\nCharge + : (0,15×1) + (0,05×2) + (0,02×2) = 0,15 + 0,10 + 0,04 = 0,29\nCharge - connue : (0,12×1) + (0,08×2) = 0,12 + 0,16 = 0,28\nManque : 0,29 - 0,28 = 0,01 de charge négative\nHCO₃⁻ : charge -1 → [HCO₃⁻] = 0,01 mol/L\n\n### **Problème 3 : Électrolyse**\n« On électrolyse 1 L de NaCl 1,0 mol/L pendant 2 h avec I=2,0 A. Calcule les masses de produits. »\n\n**Solution** :\n- $Q = I \\\times t = 2,0 \\\times 2 \\\times 3600 = 14400 \\\\ \\\text{C}$\n- $n(e^-) = Q/F = 14400/96500 ≈ 0,149 \\\\ \\\text{mol}$\n- D'après équation : 2e⁻ → 1 H₂ → 1 Cl₂ → 2 OH⁻\n- $n(\\\text{H}_2) = n(\\\text{Cl}_2) = 0,149/2 = 0,0745 \\\\ \\\text{mol}$\n- $m(\\\text{H}_2) = 0,0745×2 = 0,149 \\\\ \\\text{g}$\n- $m(\\\text{Cl}_2) = 0,0745×71 = 5,29 \\\\ \\\text{g}$\n- $n(\\\text{OH}^-) = 0,149 \\\\ \\\text{mol}$ → $n(\\\text{NaOH}) = 0,149 \\\\ \\\text{mol}$\n- $m(\\\text{NaOH}) = 0,149×40 = 5,96 \\\\ \\\text{g}$",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "La dissolution d'un sel dans l'eau implique dislocation, hydratation et dispersion des ions",
+    "La solubilité est la concentration maximale à saturation (dépend de T)",
+    "La concentration molaire C = n/V (mol/L) et massique Cm = m/V (g/L) sont liées par C = Cm/M",
+    "Toute solution ionique est électroneutre : Σ(charges +) = Σ(charges -)",
+    "L'électrolyse de NaCl aqueux produit NaOH, H₂ et Cl₂ avec intervention de l'eau comme réactif"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La dissolution de NaCl dans l'eau est :",
+      "options": [
+        "Un processus physique qui libère des ions",
+        "Une réaction chimique créant de nouveaux composés",
+        "Une fusion du sel",
+        "Une évaporation"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Une solution saturée contient :",
+      "options": [
+        "La concentration maximale de soluté dissous",
+        "Toujours 100 g de soluté par litre",
+        "Autant de solvant que de soluté",
+        "Des cristaux qui ne se dissolvent plus"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La concentration molaire s'exprime en :",
+      "options": [
+        "mol/L",
+        "g/L",
+        "mol/kg",
+        "g/mol"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans une solution de CaCl₂ 0,1 M, [Cl⁻] vaut :",
+      "options": [
+        "0,2 mol/L",
+        "0,1 mol/L",
+        "0,05 mol/L",
+        "0,3 mol/L"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "L'électrolyse de NaCl aqueux produit à la cathode :",
+      "options": [
+        "H₂",
+        "Cl₂",
+        "Na",
+        "O₂"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "La solubilité du NaCl à 20°C est d'environ :",
+      "options": [
+        "360 g/L",
+        "36 g/L",
+        "3,6 g/L",
+        "3600 g/L"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Pour préparer 1 L de solution 0,1 M de NaCl, il faut :",
+      "options": [
+        "5,85 g",
+        "58,5 g",
+        "0,585 g",
+        "585 g"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "L'électroneutralité d'une solution signifie que :",
+      "options": [
+        "Σ(charges +) = Σ(charges -)",
+        "Il n'y a pas d'ions",
+        "Le pH = 7",
+        "La concentration est nulle"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Lors de l'électrolyse, l'oxydation se produit :",
+      "options": [
+        "À l'anode",
+        "À la cathode",
+        "Dans la solution",
+        "Au générateur"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Le rôle du solvant dans l'électrolyse est :",
+      "options": [
+        "De participer aux réactions d'électrode",
+        "Seulement de dissoudre le sel",
+        "D'isoler les électrodes",
+        "De colorer la solution"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "La solubilité du NaCl à 20°C est environ :",
+      "options": [
+        "10g/100g",
+        "36g/100g",
+        "100g/100g",
+        "200g/100g"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "L'unité de concentration molaire est :",
+      "options": [
+        "g/L",
+        "mol/L",
+        "g/mol",
+        "L/mol"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Dans l'électrolyse de NaCl aqueux, à la cathode on obtient :",
+      "options": [
+        "Cl₂",
+        "O₂",
+        "H₂",
+        "Na"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Une solution 0,1 mol/L de CaCl₂ a pour [Cl⁻] :",
+      "options": [
+        "0,05 mol/L",
+        "0,1 mol/L",
+        "0,2 mol/L",
+        "0,3 mol/L"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "L'équation de dissolution de K₂SO₄ est :",
+      "options": [
+        "K₂SO₄ → K⁺ + SO₄²⁻",
+        "K₂SO₄ → 2K⁺ + SO₄²⁻",
+        "K₂SO₄ → K₂²⁺ + SO₄²⁻",
+        "K₂SO₄ → K⁺ + KSO₄⁻"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Pour préparer 1L de solution 0,1 mol/L de NaCl, il faut :",
+      "options": [
+        "0,1 g",
+        "5,85 g",
+        "58,5 g",
+        "100 g"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Lors de l'électrolyse, les anions migrent vers :",
+      "options": [
+        "La cathode",
+        "L'anode",
+        "Les deux",
+        "Ne migrent pas"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "La solvatation est :",
+      "options": [
+        "La rupture du cristal",
+        "L'entourage des ions par le solvant",
+        "La mesure de la concentration",
+        "Le dégagement gazeux"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Une solution électriquement neutre vérifie :",
+      "options": [
+        "∑(charges) = 0",
+        "∑(masses) = 0",
+        "∑(volumes) = 0",
+        "∑(températures) = 0"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

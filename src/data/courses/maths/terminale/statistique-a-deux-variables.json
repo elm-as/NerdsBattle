@@ -1,104 +1,123 @@
 {
   "id": "maths-terminale-statistique-a-deux-variables",
-  "subjectId": "maths",
-  "levelId": "terminale",
-  "slug": "statistique-a-deux-variables",
-  "title": "Statistique à deux variables – Prévision de la pluviométrie",
-  "summary": "Cette leçon introduit la statistique à deux variables en se concentrant sur l’analyse de la relation entre la pluviométrie et la température. Les élèves apprennent à construire une série statistique double, à calculer les marges, à appliquer la méthode des moindres carrés pour ajuster un modèle linéaire, et à estimer la pluviométrie d’un mois futur. L’exercice synthèse permet de mettre en pratique ces concepts sur un jeu de données réel.",
-  "lesson": "# Statistique à deux variables\n\n## 1. Série statistique double\n\nUne série statistique double est un tableau à double entrée où chaque cellule contient l’effectif du couple ((X,Y)).\\n\\n- **X** : variable explicative (ex. température).\\n- **Y** : variable à expliquer (ex. pluviométrie).\\n- **n** : nombre total d’observations.\n\n### Exemple\n\n| X | Y | Effectif |\n|---|---|----------|\n| 23 | 13 | 1 |\n| 17 | 23 | 1 |\n| 14 | 10 | 1 |\n…\n\n## 2. Marges et fréquences marginales\n\n- **Marge X** : somme des effectifs sur chaque colonne.\\n- **Marge Y** : somme des effectifs sur chaque ligne.\\n- **Fréquence marginale** : (f_{X}=n_{X}/n) ou (f_{Y}=n_{Y}/n).\n\n## 3. Ajustement linéaire – Méthode des moindres carrés\n\nOn cherche une droite ( hat{Y}=a+bX ) qui minimise la somme des carrés des résidus :\n\\[ S(a,b)=sum_{i=1}^{n}(Y_i-(a+bX_i))^2 \\]\n\nLes estimations de (a) et (b) sont données par :\n\\[ b=\frac{sum (X_i-\bar{X})(Y_i-\bar{Y})}{sum (X_i-\bar{X})^2} \\]\n\\[ a=\bar{Y}-b\bar{X} \\]\n\n## 4. Estimation de la pluviométrie\n\nUne fois (a) et (b) calculés, on peut estimer la pluviométrie pour un mois donné en remplaçant (X) par la température correspondante.\n\n## 5. Exercice synthèse\n\nAppliquez la méthode aux données de septembre 2018 à août 2019 pour prévoir la pluviométrie d’octobre 2019.",
+  "title": "Statistique a deux variables",
+  "summary": "Un riche entrepreneur de San-Pedro offre une de ses entreprises a son fils. Ce dernier consulte les chiffres d'affaires annuels de l'entreprise (en millions de FCFA) : 2013:99, 2014:130, 2015:92, 2016:108, 2017:232, 2018:150. Il souhaite estimer le chiffre d'affaires pour 2020. L'eleve se rend au CDI de son lycee pour etudier les series statistiques a deux variables.",
+  "lesson": "## 1. Serie statistique a deux variables\n\nOn etudie simultanement deux caracteres quantitatifs sur une meme population.\n\n**Exemple** : Etudier le lien entre :\n- Le rang de l'annee (X) et le chiffre d'affaires (Y) d'une entreprise\n- L'age (X) et la taille (Y) des eleves d'un lycee d'Abidjan\n- La temperature (X) et la consommation electrique (Y) a Yamoussoukro\n\n**Notation** : On a n couples $(x_i, y_i)$ pour $i = 1, 2, ..., n$.\n\n## 2. Representation graphique : nuage de points\n\nDans un repere orthogonal, on place les points $M_i(x_i, y_i)$. L'ensemble forme le nuage de points.\n\n**Exemple** avec les donnees de l'entreprise :\n\n| Annee | Rang x_i | CA y_i (millions FCFA) | Point M_i |\n|-------|----------|------------------------|-----------|\n| 2013 | 1 | 99 | M1(1, 99) |\n| 2014 | 2 | 130 | M2(2, 130) |\n| 2015 | 3 | 92 | M3(3, 92) |\n| 2016 | 4 | 108 | M4(4, 108) |\n| 2017 | 5 | 232 | M5(5, 232) |\n| 2018 | 6 | 150 | M6(6, 150) |\n\n## 3. Point moyen\n\nLe point moyen G du nuage a pour coordonnees :\n$$G(\\\\overline{x}, \\\\overline{y}) \\\\quad \\\text{ou} \\\\quad \\\\overline{x} = \\\\frac{1}{n}\\\\sum_{i=1}^n x_i \\\\quad \\\text{et} \\\\quad \\\\overline{y} = \\\\frac{1}{n}\\\\sum_{i=1}^n y_i$$\n\n**Calcul pour l'entreprise** :\n$\\\\overline{x} = \\\\frac{1+2+3+4+5+6}{6} = \\\\frac{21}{6} = 3.5$\n$\\\\overline{y} = \\\\frac{99+130+92+108+232+150}{6} = \\\\frac{811}{6} ≈ 135.17$\nDonc $G(3.5; 135.17)$.\n\n## 4. Covariance\n\nLa covariance mesure la liaison lineaire entre X et Y :\n$$\\\text{Cov}(X,Y) = \\\\frac{1}{n}\\\\sum_{i=1}^n (x_i - \\\\overline{x})(y_i - \\\\overline{y})$$\n\n**Formule pratique** : $\\\text{Cov}(X,Y) = \\\\frac{1}{n}\\\\sum_{i=1}^n x_i y_i - \\\\overline{x}\\\\overline{y}$\n\n**Interpretation** :\n- Si Cov > 0 : tendance a la croissance conjointe\n- Si Cov < 0 : tendance inverse (quand X augmente, Y diminue)\n- Si Cov ≈ 0 : pas de liaison lineaire apparente\n\n## 5. Coefficient de correlation lineaire\n\n$$r = \\\\frac{\\\text{Cov}(X,Y)}{\\\\sigma_X \\\\sigma_Y}$$\nou $\\\\sigma_X = \\\\sqrt{\\\\frac{1}{n}\\\\sum (x_i-\\\\overline{x})^2}$ et $\\\\sigma_Y = \\\\sqrt{\\\\frac{1}{n}\\\\sum (y_i-\\\\overline{y})^2}$\n\n**Proprietes** : $-1 ≤ r ≤ 1$\n\n| Valeur de r | Interpretation |\n|-------------|----------------|\n| $r ≈ 1$ | Forte correlation positive (nuage allonge selon une droite croissante) |\n| $r ≈ -1$ | Forte correlation negative (nuage allonge selon une droite decroissante) |\n| $r ≈ 0$ | Faible correlation lineaire (nuage disperse) |\n\n## 6. Ajustement affine : droite de regression\n\nOn cherche une droite $y = ax + b$ qui « approche » au mieux le nuage.\n\n**Methode de Mayer** :\n1. Partager le nuage en deux groupes de meme effectif\n2. Calculer les points moyens G1 et G2 de chaque groupe\n3. La droite passant par G1 et G2 est la droite de Mayer\n\n**Methode des moindres carres** :\nC'est la droite qui minimise la somme des carres des distances verticales :\n$$\\\\sum_{i=1}^n (y_i - (ax_i + b))^2$$\n\nLes coefficients sont :\n$$a = \\\\frac{\\\text{Cov}(X,Y)}{\\\\sigma_X^2} \\\\quad \\\text{et} \\\\quad b = \\\\overline{y} - a\\\\overline{x}$$\n\nCette droite passe toujours par le point moyen G.\n\n## 7. Calculs pour l'entreprise\n\n**Tableau de calcul** :\n\n| x_i | y_i | x_i² | y_i² | x_i y_i |\n|-----|-----|------|------|---------|\n| 1 | 99 | 1 | 9,801 | 99 |\n| 2 | 130 | 4 | 16,900 | 260 |\n| 3 | 92 | 9 | 8,464 | 276 |\n| 4 | 108 | 16 | 11,664 | 432 |\n| 5 | 232 | 25 | 53,824 | 1,160 |\n| 6 | 150 | 36 | 22,500 | 900 |\n| **Σ=21** | **Σ=811** | **Σ=91** | **Σ=123,153** | **Σ=3,127** |\n\n**Calculs** :\n1. $\\\\overline{x} = 3.5$, $\\\\overline{y} = 135.1667$\n2. $\\\text{Cov}(X,Y) = \\\\frac{3127}{6} - 3.5 × 135.1667 = 521.1667 - 473.0833 = 48.0834$\n3. $\\\\sigma_X^2 = \\\\frac{91}{6} - 3.5^2 = 15.1667 - 12.25 = 2.9167$\n4. $a = \\\\frac{48.0834}{2.9167} ≈ 16.49$\n5. $b = 135.1667 - 16.49 × 3.5 ≈ 135.1667 - 57.715 ≈ 77.45$\n\n**Droite des moindres carres** : $y ≈ 16.49x + 77.45$\n\n## 8. Estimation\n\nPour estimer le CA en 2020 :\n- 2020 correspond a x = 8 (car 2013 → x=1, donc 2020 → x=8)\n- $y ≈ 16.49 × 8 + 77.45 = 131.92 + 77.45 = 209.37$\n\nEstimation : environ 209 millions de FCFA en 2020.\n\n## 9. Validite de l'estimation\n\n**Precautions** :\n- L'estimation n'est fiable que si la correlation est forte (|r| proche de 1)\n- Il est dangereux d'extrapoler trop loin hors de la periode observee\n- Il faut verifier que la tendance lineaire se maintient\n\n**Calcul de r** :\n$\\\\sigma_Y^2 = \\\\frac{123153}{6} - 135.1667^2 = 20525.5 - 18270.0 = 2255.5$\n$\\\\sigma_Y ≈ \\\\sqrt{2255.5} ≈ 47.49$\n$\\\\sigma_X ≈ \\\\sqrt{2.9167} ≈ 1.708$\n$r = \\\\frac{48.08}{1.708 × 47.49} ≈ \\\\frac{48.08}{81.12} ≈ 0.593$\n\nCorrelation moderee (0.593), donc l'estimation est a prendre avec prudence.\n\n## 10. Applications en Cote d'Ivoire\n\n- Prevision des recoltes de cacao en fonction des pluies\n- Estimation de la consommation electrique selon la temperature\n- Prevision des ventes d'une entreprise en fonction du temps\n- Etude du lien entre budget education et reussite scolaire",
   "estimatedMinutes": 10,
-  "tags": [
-    "maths",
-    "terminale",
-    "mena",
-    "ci",
-    "officiel"
+  "keyPoints": [
+    "Le point moyen G(x̄,ȳ) est le centre de gravite du nuage",
+    "La covariance mesure la liaison lineaire entre deux variables",
+    "Le coefficient r ∈ [-1,1] indique la force de la correlation lineaire",
+    "La droite des moindres carres y=ax+b minimise la somme des carres des ecarts verticaux"
   ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
   "questions": [
     {
       "id": "q1",
       "type": "mcq",
-      "prompt": "Quel est le rôle de la variable X dans une série statistique double?",
+      "prompt": "Le point moyen d'un nuage est toujours :",
       "options": [
-        "Déterminer la moyenne",
-        "Décrire la variable à expliquer",
-        "Décrire la variable explicative",
-        "Calculer la variance"
+        "Sur l'axe des abscisses",
+        "Sur l'axe des ordonnees",
+        "A l'interieur du nuage",
+        "Forcément sur la droite d'ajustement"
       ],
       "answer": 2,
-      "explanation": "X est la variable explicative, Y la variable à expliquer."
+      "explanation": "Question issue du programme officiel."
     },
     {
       "id": "q2",
       "type": "mcq",
-      "prompt": "La méthode des moindres carrés minimise :",
+      "prompt": "Si la covariance est negative, alors :",
       "options": [
-        "La somme des résidus",
-        "La somme des carrés des résidus",
-        "La moyenne des résidus",
-        "La variance des résidus"
+        "Les variables evoluent dans le meme sens",
+        "Les variables evoluent en sens contraire",
+        "Il n'y a aucune liaison",
+        "Le coefficient r est forcement nul"
       ],
       "answer": 1,
-      "explanation": "On minimise la somme des carrés des résidus pour obtenir le meilleur ajustement linéaire."
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Le coefficient de correlation r est compris entre :",
+      "options": [
+        "0 et 1",
+        "-1 et 1",
+        "-∞ et +∞",
+        "0 et 100"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "La droite des moindres carres passe toujours par :",
+      "options": [
+        "L'origine",
+        "Le premier point du nuage",
+        "Le point moyen",
+        "Le dernier point du nuage"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
     },
     {
       "id": "q5",
       "type": "mcq",
-      "prompt": "Dans un ajustement linéaire d'une série double (X, Y), quel est le but principal de la droite de régression ?",
+      "prompt": "Que représente le point moyen d'un nuage ?",
       "options": [
-        "Calculer la moyenne des observations",
-        "Évaluer le nombre de modalités",
-        "Estimer la valeur de Y pour une valeur donnée de X",
-        "Déterminer la variance totale"
+        "Le point le plus élevé",
+        "Le barycentre des points",
+        "Le point d'intersection des axes",
+        "Le point médian"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Dans la méthode de Mayer, comment sépare-t-on les points ?",
+      "options": [
+        "Par valeur de y",
+        "Aléatoirement",
+        "En deux groupes de taille égale par x croissant",
+        "En trois groupes"
       ],
       "answer": 2,
-      "explanation": "La droite de régression permet de prédire ou estimer la variable à expliquer Y en fonction de la variable explicative X."
+      "explanation": "Question issue du programme officiel."
     },
     {
       "id": "q7",
       "type": "mcq",
-      "prompt": "La fréquence marginale de X=23 est calculée comme :",
+      "prompt": "Pour la série (1,3), (2,5), (3,7), le point moyen est :",
       "options": [
-        "(n_{X=23}/n)",
-        "(n_{X=23})",
-        "(n_{Y=23}/n)",
-        "(n_{Y=23})"
+        "(2,5)",
+        "(3,5)",
+        "(2,6)",
+        "(1.5,4.5)"
       ],
       "answer": 0,
-      "explanation": "Fréquence marginale = effectif de la modalité divisé par le total."
+      "explanation": "Question issue du programme officiel."
     },
     {
       "id": "q8",
       "type": "mcq",
-      "prompt": "Quel est le rôle de l’ordonnée à l’origine (a) dans la droite (hat{Y}=a+bX)?",
+      "prompt": "L'extrapolation consiste à :",
       "options": [
-        "Déterminer la pente",
-        "Déterminer l’intersection avec l’axe Y",
-        "Déterminer la moyenne de Y",
-        "Déterminer la variance de Y"
+        "Estimer en dehors de l'intervalle des données",
+        "Interpoler entre deux points",
+        "Calculer la moyenne",
+        "Trouver le maximum"
       ],
-      "answer": 1,
-      "explanation": "(a) est l’ordonnée à l’origine, l’intersection avec l’axe Y."
-    },
-    {
-      "id": "q10",
-      "type": "mcq",
-      "prompt": "Dans un modèle affine $\\hat{Y} = a + bX$, pour estimer la valeur future de Y, on remplace X par :",
-      "options": [
-        "La moyenne générale de Y",
-        "La valeur numérique correspondante de la variable explicative X",
-        "La variance de Y",
-        "L'effectif total N"
-      ],
-      "answer": 1,
-      "explanation": "On injecte la valeur de la variable explicative X dans l'équation de régression pour obtenir l'estimation de Y."
-    },
-    {
-      "id": "q11",
-      "type": "fill",
-      "prompt": "La formule de l’ordonnée à l’origine est : \\(a=\\bar{Y}-b\\bar{X}\\)",
-      "answer": "a=\\bar{Y}-b\\bar{X}",
-      "explanation": "C’est la formule standard pour l’ordonnée à l’origine."
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
     }
   ]
 }

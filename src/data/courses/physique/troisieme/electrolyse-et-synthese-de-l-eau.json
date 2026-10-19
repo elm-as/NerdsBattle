@@ -1,0 +1,97 @@
+{
+  "id": "physique-troisieme-electrolyse-et-synthese-de-l-eau",
+  "title": "Électrolyse et synthèse de l'eau",
+  "summary": "Visite CHR Yamoussoukro, 3ème 2 Lycée Mixte : dioxygène médical obtenu de l'eau.",
+  "lesson": "# Électrolyse et synthèse de l'eau\n\n## I. Électrolyse de l'eau\n\n### Définition\nDécomposition de l'eau par courant électrique\n\n### Montage\n- Électrolyseur + électrodes Pt\n- Solution : eau + H₂SO₄ (conductrice)\n- Générateur courant continu\n\n### Observations\n- Cathode (-) : dégagement gazeux (volume 2V)\n- Anode (+) : dégagement gazeux (volume V)\n- Rapport volumes : 2:1\n\n### Identification des gaz\n\nCathode (-) : Dihydrogène H₂\nTest : \"pop\" à l'allumette\n\nAnode (+) : Dioxygène O₂\nTest : rallume bûchette incandescente\n\n### Équation-bilan\n2 H₂O donne 2 H₂ + O₂\n\n## II. Synthèse de l'eau\n\n### Définition\nFormation d'eau à partir de ses éléments\n\n### Réaction\nCombustion de H₂ dans O₂\n\n### Observations\n- Explosion à l'allumette\n- Formation gouttelettes\n- Test papier cobalt : bleu devient rose\n\n### Équation-bilan\n2 H₂ + O₂ donne 2 H₂O\n\n## III. Conclusion\n\nÉlectrolyse et synthèse sont réactions inverses\n\n## IV. Applications en CI\n\n- Production O₂ médical (hôpitaux)\n- Production H₂ (industrie)\n- Purification eau",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Électrolyse : eau → H₂ + O₂",
+    "Cathode : H₂ (volume 2)",
+    "Anode : O₂ (volume 1)",
+    "Synthèse : H₂ + O₂ → eau"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "À la cathode, on obtient :",
+      "options": [
+        "O₂",
+        "H₂",
+        "H₂O",
+        "CO₂"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-physique-1-mv9oo62p",
+      "type": "mcq",
+      "prompt": "Lors de l'électrolyse de l'eau, si le volume de dioxygène recueilli à l'anode est de 15 mL, quel est le volume de dihydrogène recueilli à la cathode, en supposant les mêmes conditions de température et de pression ?",
+      "options": [
+        "15 mL",
+        "30 mL",
+        "45 mL",
+        "7,5 mL"
+      ],
+      "answer": 1,
+      "explanation": "D'après l'équation-bilan $2 H_2O \\rightarrow 2 H_2 + O_2$, le rapport molaire (et donc volumique) entre le dihydrogène et le dioxygène est de 2:1. Si $V(O_2) = 15$ mL, alors $V(H_2) = 2 \\times 15 = 30$ mL."
+    },
+    {
+      "id": "auto-physique-2-mv9oo62p",
+      "type": "mcq",
+      "prompt": "Pourquoi ajoute-t-on une petite quantité d'acide sulfurique ($H_2SO_4$) à l'eau pure lors de l'électrolyse ?",
+      "options": [
+        "Pour réagir avec l'eau et former directement du dioxygène.",
+        "Pour augmenter la conductivité électrique de la solution.",
+        "Pour abaisser le point d'ébullition de l'eau afin d'accélérer la réaction.",
+        "Pour colorer les gaz produits afin de faciliter leur identification."
+      ],
+      "answer": 1,
+      "explanation": "L'eau pure est un mauvais conducteur de l'électricité. L'ajout d'un électrolyte comme l'acide sulfurique augmente la concentration en ions, ce qui améliore la conductivité électrique du milieu et permet au courant de circuler efficacement."
+    },
+    {
+      "id": "auto-physique-3-mv9oo62p",
+      "type": "mcq",
+      "prompt": "Dans le contexte de la visite au CHR de Yamoussoukro, quel test chimique permet de confirmer que le gaz recueilli à l'anode est bien du dioxygène ($O_2$) destiné à l'usage médical ?",
+      "options": [
+        "Le gaz émet un son de \"pop\" au contact d'une allumette enflammée.",
+        "Le gaz fait virer le papier cobalt du bleu au rose.",
+        "Le gaz rallume une bûchette incandescente.",
+        "Le gaz fait virer le papier tournesol du bleu au rouge."
+      ],
+      "answer": 2,
+      "explanation": "Le dioxygène est un gaz comburant. Le test caractéristique est de présenter une bûchette incandescente (qui ne brûle plus mais reste rouge) au gaz ; si c'est de l'oxygène, la bûchette se rallume vigoureusement. Le test du \"pop\" correspond au dihydrogène."
+    },
+    {
+      "id": "auto-physique-4-mv9oo62p",
+      "type": "mcq",
+      "prompt": "Considérons la synthèse de l'eau par la combustion du dihydrogène dans le dioxygène. Quelle est l'équation-bilan correcte de cette réaction ?",
+      "options": [
+        "$H_2 + O_2 \\rightarrow H_2O$",
+        "$2 H_2 + O_2 \\rightarrow 2 H_2O$",
+        "$H_2 + 2 O_2 \\rightarrow 2 H_2O$",
+        "$2 H_2 + 2 O_2 \\rightarrow 2 H_2O_2$"
+      ],
+      "answer": 1,
+      "explanation": "La synthèse de l'eau implique la combinaison de 2 molécules de dihydrogène et de 1 molécule de dioxygène pour former 2 molécules d'eau. L'équation équilibrée est $2 H_2 + O_2 \\rightarrow 2 H_2O$. Les autres options ne respectent pas la conservation de la masse (loi de Lavoisier)."
+    },
+    {
+      "id": "auto-physique-5-mv9oo62p",
+      "type": "mcq",
+      "prompt": "Si l'on réalise l'électrolyse de 36 g d'eau pure (masse molaire $M(H_2O) = 18$ g/mol), quelle masse de dihydrogène ($M(H_2) = 2$ g/mol) sera théoriquement produite ?",
+      "options": [
+        "2 g",
+        "4 g",
+        "8 g",
+        "16 g"
+      ],
+      "answer": 1,
+      "explanation": "Le nombre de moles d'eau est $n(H_2O) = \\frac{36}{18} = 2$ mol. D'après l'équation $2 H_2O \\rightarrow 2 H_2 + O_2$, le rapport molaire $H_2O : H_2$ est de 1:1. Donc, 2 moles d'eau produisent 2 moles de dihydrogène. La masse de dihydrogène est $m(H_2) = n \\times M = 2 \\times 2 = 4$ g."
+    }
+  ]
+}

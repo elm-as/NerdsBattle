@@ -1,0 +1,72 @@
+{
+  "id": "physique-sixieme-court-circuit-et-protection-des-installations-electriques",
+  "title": "Court-Circuit et Protection des Installations Électriques",
+  "summary": "Tard dans la nuit dans un bidonville, un incendie s'est déclaré suite à un court-circuit détruisant quelques habitations. Des élèves d'une classe de 6ème du quartier ont été affectés par les dégâts causés. Le lendemain en classe, ils sollicitent l'aide de leur professeur afin de connaître le court-circuit, ses causes et ses dangers puis d'expliquer le fonctionnement des dispositifs de protection dans une installation électrique.",
+  "lesson": "## 1. Le court-circuit\n\n### 1.1 Définition\nIl y a court-circuit lorsque les deux bornes d'un composant électrique sont reliées par un conducteur électrique.\n\n### 1.2 Causes d'un court-circuit\nDans une installation électrique un court-circuit peut être provoqué par :\n- Contact entre deux fils conducteurs dénudés\n- Contact entre deux fils conducteurs dont la gaine isolante est détériorée\n\n### 1.3 Dangers du court-circuit\nLe court-circuit peut provoquer :\n- Un **incendie** car un courant électrique très fort traverse les conducteurs électriques qui chauffent. Ainsi la gaine isolante des conducteurs électriques fond et brûle\n- La **détérioration du générateur** car il produit subitement un courant très élevé\n\n## 2. Protection des installations électriques\n\n### 2.1 Le disjoncteur\nÀ l'entrée de chaque installation électrique dans une maison, se trouve un disjoncteur. Il protège à la fois les personnes et le circuit électrique. Il est utilisé pour couper le courant électrique quand on veut travailler sur les éléments de l'installation électrique. Il coupe automatiquement le courant électrique quand il devient très élevé.\n\n### 2.2 Le fusible\nLe fusible contient un fil conducteur électrique fin. Il fond et ouvre le circuit électrique lorsque le courant électrique devient très élevé : c'est aussi un coupe-circuit.\n\n**NB**: Il ne faut jamais remplacer un fusible qui a fondu par un fil électrique ordinaire.\n\n### 2.3 Quelques règles de sécurité\n- Ne jamais reprendre les expériences vues en classe sur une prise de courant électrique à la maison\n- Ne jamais jouer avec la prise de courant électrique\n- Ne jamais toucher à un conducteur électrique ou un appareil branché sur le courant du secteur les mains mouillées ou les pieds dans l'eau\n- Toujours couper le courant électrique avant de remplacer une lampe électrique ou ouvrir un appareil électrique",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Un court-circuit se produit quand deux bornes sont reliées directement",
+    "Le court-circuit peut provoquer un incendie et détériorer le générateur",
+    "Le disjoncteur coupe automatiquement le courant quand il devient trop élevé",
+    "Le fusible fond quand le courant devient trop intense",
+    "Il faut toujours respecter les règles de sécurité avec l'électricité"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'un court-circuit ?",
+      "options": [
+        "Un circuit très court",
+        "\"La liaison des deux bornes d'un composant par un conducteur\"",
+        "Un circuit qui fonctionne mal",
+        "Un circuit sans générateur"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel danger peut provoquer un court-circuit ?",
+      "options": [
+        "\"Un incendie\"",
+        "Un éclairage plus fort",
+        "Une meilleure circulation du courant",
+        "Rien"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel dispositif se trouve à l'entrée de l'installation électrique d'une maison ?",
+      "options": [
+        "Le fusible",
+        "L'interrupteur",
+        "La lampe",
+        "\"Le disjoncteur\""
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Que fait le fil du fusible quand le courant devient trop intense ?",
+      "options": [
+        "Il chauffe",
+        "Il brille",
+        "\"Il fond\"",
+        "Il se durcit"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

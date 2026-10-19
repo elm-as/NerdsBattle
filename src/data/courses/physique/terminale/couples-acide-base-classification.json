@@ -1,0 +1,280 @@
+{
+  "id": "physique-terminale-couples-acide-base-classification",
+  "title": "Couples acide/base – Classification",
+  "summary": "Dans un laboratoire de contrôle de la qualité du cacao à Divo, une chimiste explique qu'un mauvais processus de fermentation peut conduire à une acidité excessive (trop d'acide acétique) qui donne un goût désagréable aux fèves. Elle utilise un pH-mètre et connaît le pKₐ de l'acide acétique pour interpréter ses mesures. Un élève en visite comprend que pour maîtriser ce processus, il faut savoir relier le pH mesuré à la proportion d'acide et de base dans le milieu. De retour en classe à Aboisso, avec son grou",
+  "lesson": "## 1. Théorie acide-base de Brönsted-Lowry\n\n**Définitions** :\n- Un **acide de Brönsted** est une espèce chimique capable de **céder un proton $H^+$**.\n- Une **base de Brönsted** est une espèce chimique capable de **capter un proton $H^+$**.\n\n**Couple acide/base** : Deux espèces qui se correspondent par échange d'un proton $H^+$ forment un **couple acide/base** noté $\\\text{acide} / \\\text{base}$.\n$$\\\text{acide} \\\\rightleftharpoons \\\text{base} + H^+$$\n\n**Exemples** :\n- $CH_3COOH / CH_3COO^-$ (acide éthanoïque/ion éthanoate)\n- $NH_4^+ / NH_3$ (ion ammonium/ammoniac)\n- $H_3O^+ / H_2O$ et $H_2O / OH^-$ (couples de l'eau)\n\n## 2. Constante d'acidité Kₐ et pKₐ\n\nPour un couple acide/base $AH/A^-$ en solution aqueuse, la réaction avec l'eau s'écrit :\n$$AH + H_2O \\\\rightleftharpoons A^- + H_3O^+$$\n\nLa **constante d'acidité** $K_a$ de ce couple est la constante d'équilibre de cette réaction :\n$$K_a = \\\\frac{[A^-]_{eq} \\\\cdot [H_3O^+]_{eq}}{[AH]_{eq}}$$\n$K_a$ ne dépend que de la température. Plus $K_a$ est **grande**, plus l'acide $AH$ est **fort**.\n\nLe **pKₐ** est défini comme :\n$$pK_a = -\\\\log(K_a) \\\\quad \\\text{ou} \\\\quad K_a = 10^{-pK_a}$$\nPlus le $pK_a$ est **faible**, plus l'acide est **fort**.\n\n**Description du schéma 1 : Relation entre Kₐ, pKₐ et force de l'acide**\nReprésenter une règle horizontale graduée de 0 à 14 (échelle des pKₐ). Dessiner une flèche au-dessus pointant vers la droite avec la mention \"Force de l'acide DÉCROÎT\". Placer des repères et exemples le long de l'échelle : pKₐ < 0 (Acides forts : HCl, HNO₃...), pKₐ ≈ -1,7 (H₃O⁺/H₂O), pKₐ ≈ 3,1 (CH₃COOH/CH₃COO⁻), pKₐ ≈ 4,8 (acides carboxyliques faibles), pKₐ ≈ 9,2 (NH₄⁺/NH₃), pKₐ ≈ 14 (H₂O/OH⁻), pKₐ > 14 (Bases fortes : OH⁻...).\n\n## 3. Relation pH, pKₐ et concentrations : formule de Henderson-Hasselbalch\n\nEn prenant le logarithme de l'expression de $K_a$, on obtient une relation fondamentale :\n$$pH = pK_a + \\\\log\\\\left(\\\\frac{[base]}{[acide]}\\\\right)$$\nOù $[base]$ et $[acide]$ sont les concentrations à l'équilibre des deux formes du couple.\n\n**Cas particuliers** :\n- Si $[base] = [acide]$, alors $\\\\log(1)=0$ et **$pH = pK_a$**. C'est le cas à la **demi-équivalence** d'un dosage acide faible-base forte.\n- Si $pH < pK_a$, alors $[acide] > [base]$ : la forme **acide prédomine**.\n- Si $pH > pK_a$, alors $[base] > [acide]$ : la forme **base prédomine**.\n\n## 4. Domaines de prédominance\n\nPour un couple donné de $pK_a$, on peut définir un **diagramme de prédominance** en fonction du pH.\n\n**Règle** : La forme acide prédomine pour $pH < pK_a - 1$. La forme basique prédomine pour $pH > pK_a + 1$. Dans l'intervalle $pK_a - 1 < pH < pK_a + 1$, les deux formes coexistent en proportions significatives (zone tampon).\n\n**Description du schéma 2 : Diagramme de prédominance pour le couple CH₃COOH/CH₃COO⁻ (pKₐ=4,8)**\nDessiner un axe horizontal gradué en pH de 0 à 14. Tracer une ligne verticale en $pH = pK_a = 4,8$. Colorier en rouge la zone $pH < 3,8$ avec la mention \"CH₃COOH prédomine\". Colorier en bleu la zone $pH > 5,8$ avec la mention \"CH₃COO⁻ prédomine\". Laisser la zone centrale ($3,8 < pH < 5,8$) en blanc ou jaune pâle avec la mention \"Zone tampon - Les deux formes coexistent\". Indiquer par des flèches les sens de variation des proportions.\n\n## 5. Indicateurs colorés\n\nUn indicateur coloré est un **couple acide-base faible** dont les formes acide et base ont des couleurs différentes.\n\n**Zone de virage** : Intervalle de pH (généralement $pK_a \\\\pm 1$) où l'on observe le changement de couleur. En dehors, une seule couleur est visible.\n\n**Exemples** :\n- Hélianthine : Rouge pour $pH < 3,1$, Jaune pour $pH > 4,4$.\n- Bleu de bromothymol (BBT) : Jaune pour $pH < 6,0$, Bleu pour $pH > 7,6$.\n- Phénolphtaléine : Incolore pour $pH < 8,2$, Rose pour $pH > 10,0$.\n\nLe choix d'un indicateur pour un dosage dépend du pH à l'équivalence.\n\n## 6. Classification des couples acide/base\n\nOn classe les acides selon la valeur de leur $pK_a$ (en solution aqueuse, à 25°C) :\n- **Acides forts** : $pK_a < 0$ (ex. : $HCl$, $HNO_3$). Ils sont totalement dissociés, $K_a$ n'est pas définie précisément dans l'eau.\n- **Acides faibles** : $0 < pK_a < 14$ (ex. : $CH_3COOH$ $pK_a \\\\approx 4,8$).\n- **Acides ultra-faibles** : $pK_a > 14$ (ex. : $C_2H_5OH$).\n- **Bases fortes** : Leur acide conjugué a un $pK_a > 14$ (ex. : $OH^-$, base forte, son acide conjugué $H_2O$ a $pK_a \\\\approx 14$).\n\n**Relation $K_a \\\times K_b = K_e$** : Pour un couple $AH/A^-$, si $AH$ est l'acide de constante $K_a$, alors $A^-$ est une base de constante $K_b$ avec : $K_a \\\times K_b = 10^{-14}$ à 25°C. Donc $pK_a + pK_b = 14$.\n\n## 7. Application au contrôle de la fermentation du cacao\n\nPendant la fermentation, des bactéries produisent de l'acide acétique ($CH_3COOH$, $pK_a=4,8$).\n- Si le pH du milieu descend en dessous de 3,8, l'acide non dissocié $CH_3COOH$ prédomine. Cette forme est plus toxique pour les micro-organismes et peut tuer la flore désirable, stoppant la fermentation.\n- Un bon contrôle consiste à maintenir le pH dans une plage où les deux formes coexistent (zone tampon, autour de pH 4-5), permettant une régulation naturelle.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Couple acide/base : $\\\\text{acide} \\\\rightleftharpoons \\\\text{base} + H^+$.",
+    "$pK_a = -\\\\log(K_a)$. Plus $pK_a$ est faible, plus l'acide est fort.",
+    "Relation de Henderson-Hasselbalch : $pH = pK_a + \\\\log\\\\left(\\\\frac{[base]}{[acide]}\\\\right)$.",
+    "Prédominance : si $pH < pK_a$, la forme acide prédomine ; si $pH > pK_a$, la forme basique prédomine.",
+    "Un indicateur coloré change de couleur dans sa zone de virage ($pH \\\\approx pK_a \\\\pm 1$)."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Selon Brönsted, un acide est une espèce capable de :",
+      "options": [
+        "Capter un proton H⁺",
+        "Céder un proton H⁺",
+        "Céder un électron",
+        "Capter un électron"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle est la base conjuguée de l'acide $NH_4^+$ ?",
+      "options": [
+        "$NH_3$",
+        "$NH_2^-$",
+        "$H_3O^+$",
+        "$OH^-$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Pour un couple acide/base, si $K_a = 10^{-5}$, alors $pK_a$ vaut :",
+      "options": [
+        "5",
+        "-5",
+        "10⁵",
+        "-10⁵"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "La relation de Henderson-Hasselbalch s'écrit :",
+      "options": [
+        "$pH = pK_a + \\\\log\\\\left(\\\\frac{[acide]}{[base]}\\\\right)$",
+        "$pH = pK_a - \\\\log\\\\left(\\\\frac{[base]}{[acide]}\\\\right)$",
+        "$pH = pK_a + \\\\log\\\\left(\\\\frac{[base]}{[acide]}\\\\right)$",
+        "$pH = \\\\log(K_a) + \\\\log\\\\left(\\\\frac{[base]}{[acide]}\\\\right)$"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Pour le couple $CH_3COOH/CH_3COO^-$ ($pK_a=4,8$), à pH = 4,8 on a :",
+      "options": [
+        "$[CH_3COOH] \\\\gg [CH_3COO^-]$",
+        "$[CH_3COOH] = [CH_3COO^-]$",
+        "$[CH_3COOH] \\\\ll [CH_3COO^-]$",
+        "$[CH_3COOH] = 0$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Si le pH d'une solution est inférieur au pKₐ d'un couple, alors :",
+      "options": [
+        "La forme acide prédomine",
+        "La forme basique prédomine",
+        "Les deux formes sont à concentrations égales",
+        "On ne peut pas savoir"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "La zone de virage d'un indicateur coloré est généralement :",
+      "options": [
+        "$pH = pK_a$",
+        "$pK_a - 1 < pH < pK_a + 1$",
+        "$pH < pK_a - 2$",
+        "$pH > pK_a + 2$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Pour le couple de l'eau $H_3O^+/H_2O$, le pKₐ est d'environ :",
+      "options": [
+        "0",
+        "7",
+        "14",
+        "-1,7"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Dans le processus de fermentation du cacao, la connaissance du pKₐ de l'acide acétique permet de :",
+      "options": [
+        "Calculer la température de fermentation",
+        "Prédire quelle forme de l'acide (libre ou ionisée) prédomine à un pH donné",
+        "Déterminer la teneur en sucre",
+        "Mesurer la concentration en alcool"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Deux couples acide/base sont tels que $pK_{a1} = 3,2$ et $pK_{a2} = 9,8$. Lequel correspond à l'acide le plus fort ?",
+      "options": [
+        "Celui avec $pK_{a1}=3,2$",
+        "Celui avec $pK_{a2}=9,8$",
+        "Ils sont de même force",
+        "On ne peut pas comparer"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Pour le couple CH₃COOH/CH₃COO⁻ (pKa=4.8), à pH = 4.8 :",
+      "options": [
+        "[CH₃COOH] > [CH₃COO⁻]",
+        "[CH₃COOH] = [CH₃COO⁻]",
+        "[CH₃COOH] < [CH₃COO⁻]",
+        "Le pH ne peut pas être égal au pKa"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "La constante d'acidité Ka d'un couple :",
+      "options": [
+        "Augmente avec la dilution",
+        "Dépend de la concentration initiale de l'acide",
+        "Est une constante qui ne dépend que de la température",
+        "Est toujours comprise entre 0 et 1"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Un acide est d'autant plus fort que :",
+      "options": [
+        "Son pKa est plus grand",
+        "Son pKa est plus petit",
+        "Sa concentration est plus élevée",
+        "Le pH de sa solution est plus élevé"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "La relation pH = pKa + log([Base]/[Acide]) est valable :",
+      "options": [
+        "Uniquement pour les acides forts",
+        "Uniquement à l'équivalence d'un dosage",
+        "Pour tout couple acide-base dont les deux formes sont présentes en solution",
+        "Uniquement si [Base] = [Acide]"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Dans une solution de pH = 2, l'espèce prédominante du couple NH₄⁺/NH₃ (pKa=9.2) est :",
+      "options": [
+        "NH₄⁺",
+        "NH₃",
+        "Les deux en quantités égales",
+        "Impossible à déterminer"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Un indicateur coloré de pKa = 5 aura sa zone de virage approximativement entre :",
+      "options": [
+        "pH 3 et 5",
+        "pH 4 et 6",
+        "pH 5 et 7",
+        "pH 6 et 8"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "La base conjuguée d'un acide fort (comme HCl) est :",
+      "options": [
+        "Une base forte",
+        "Une base faible",
+        "Une base sans basicité en milieu aqueux",
+        "Un acide"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Si on mélange un acide faible et sa base conjuguée en concentrations égales, le pH de la solution est :",
+      "options": [
+        "Toujours 7",
+        "Égal au pKa du couple",
+        "Supérieur au pKa",
+        "Inférieur au pKa"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Dans le contrôle qualité des jus d'orange, le pH est souvent autour de 3.5. Pour suivre visuellement un léger changement d'acidité, on pourrait utiliser un indicateur dont le pKa est proche de :",
+      "options": [
+        "2.5",
+        "3.5",
+        "7.0",
+        "9.0"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Classer les acides suivants par force croissante : I. Acide acétique (pKa=4.8) ; II. Acide nitrique (pKa ≈ -1.3) ; III. Acide carbonique (pKa1=6.4)",
+      "options": [
+        "I < II < III",
+        "III < I < II",
+        "II < I < III",
+        "I < III < II"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

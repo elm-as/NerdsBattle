@@ -1,0 +1,58 @@
+{
+  "id": "physique-premiere-la-quantite-de-mouvement",
+  "title": "La quantité de mouvement",
+  "summary": "Deux voitures entrent en collision. Comment analyser le choc avec la quantité de mouvement ?",
+  "lesson": "## Définition\n\nLa **quantité de mouvement** d'un objet est :\n```\np = m × v\n```\n\nOù :\n- **p** = quantité de mouvement (kg·m/s)\n- **m** = masse (kg)\n- **v** = vitesse (m/s)\n\n**Propriétés :**\n- Vecteur (même direction que v)\n- Unité : kg·m/s ou N·s\n\n## Principe de conservation\n\n**Énoncé :**\n\nDans un système isolé (sans force extérieure) :\n```\nΣp(avant) = Σp(après)\n```\n\n### Application aux chocs\n\n**Choc élastique :**\n- Conservation de p\n- Conservation de Ec\n\n**Choc inélastique :**\n- Conservation de p\n- Perte de Ec\n\n## Exemples de chocs\n\n### Choc frontal (objets qui se collent)\n\n**Avant :**\n```\nm1 = 1000 kg, v1 = 10 m/s →\nm2 = 1500 kg, v2 = -5 m/s ←\n```\n\n**Après :**\n```\n(m1 + m2) × vf = m1v1 + m2v2\n2500 × vf = 1000×10 + 1500×(-5)\n2500 × vf = 10000 - 7500 = 2500\nvf = 1 m/s →\n```\n\n## Relation avec la force\n\n**Théorème de l'impulsion :**\n```\nF × Δt = Δp\n```\n\nOù :\n- **F** = force moyenne (N)\n- **Δt** = durée du choc (s)\n- **Δp** = variation de quantité de mouvement\n\n### Exemple : Ballon frappé\n\n```\nm = 0,5 kg\nvi = 0 m/s → vf = 20 m/s\nΔt = 0,01 s\n\nΔp = m(vf - vi) = 0,5 × 20 = 10 kg·m/s\nF = Δp/Δt = 10/0,01 = 1000 N\n```",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "p = mv",
+    "Conservation : Σp(avant) = Σp(après)",
+    "F×Δt = Δp",
+    "Système isolé requis"
+  ],
+  "exercise": {
+    "question": "Une voiture de 800 kg à 15 m/s percute un camion immobile de 2000 kg. Quelle est la vitesse finale commune ?",
+    "answer": "\n**Données :**\n- m1 = 800 kg, v1 = 15 m/s\n- m2 = 2000 kg, v2 = 0 m/s\n\n**Solution :**\n\nConservation de p :\n(m1 + m2)vf = m1v1 + m2v2\n2800 × vf = 800 × 15 + 0\n2800 × vf = 12000\nvf = 12000/2800 = 4,3 m/s\n\n**Réponse : 4,3 m/s**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Formule de la quantité de mouvement ?",
+      "options": [
+        "mv",
+        "½mv²",
+        "mgh",
+        "Ft"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Unité de p ?",
+      "options": [
+        "J",
+        "N",
+        "kg·m/s",
+        "W"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Condition de conservation ?",
+      "options": [
+        "Force nulle",
+        "Système isolé",
+        "Vitesse constante",
+        "Masse constante"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

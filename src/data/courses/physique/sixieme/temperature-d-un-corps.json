@@ -1,0 +1,45 @@
+{
+  "id": "physique-sixieme-temperature-d-un-corps",
+  "title": "Température d'un corps",
+  "summary": "Un élève de la classe de 6ème 4 du Lycée Moderne de Toulepleu a piqué une crise. Ses camarades l'accompagnent à l'infirmerie de l'école. Avant la consultation, l'infirmier procède à une prise de température. Les élèves veulent comprendre l'acte posé par l'infirmier. De retour en classe, ils décident de décrire un thermomètre, de repérer les températures de différents corps et de connaître d'autres types thermomètres.",
+  "lesson": "# Température d'un corps\n\n## I. Notion de température\n\nLa température est une grandeur physique qui mesure le degré de chaleur ou de froid d'un corps.\n\n## II. Unités de température\n\n### Unité légale\nLe kelvin (K) est l'unité internationale de température.\n\n### Autres unités\n- Degré Celsius (°C): utilisé couramment\n- Degré Fahrenheit (°F): utilisé dans certains pays\n\n## III. Le thermomètre\n\n### Rôle\nLe thermomètre sert à mesurer la température.\n\n### Description du thermomètre de laboratoire\n- Réservoir contenant un liquide (alcool coloré ou mercure)\n- Tube fin calibré avec graduations\n- Échelle de température\n\n### Utilisation\nLe liquide se dilate (monte) quand la température augmente et se contracte (descend) quand elle diminue.\n\n## IV. Températures remarquables\n\n- Glace fondante: 0°C\n- Eau bouillante: 100°C (à pression normale)\n- Corps humain normal: 37°C\n\n## V. Le thermomètre médical\n\nThermomètre spécial pour mesurer la température du corps humain. Il garde la température maximale atteinte (à maxima).\n\n## VI. Autres types de thermomètres\n\n- Thermomètre à maxima et à minima: enregistre les températures extrêmes\n- Thermomètre électronique: affichage numérique, plus rapide",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Température: mesure le degré de chaleur",
+    "Kelvin (K): unité légale",
+    "Thermomètre: instrument de mesure",
+    "0°C: glace fondante, 100°C: eau bouillante"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "L'unité légale de température est:",
+      "options": [
+        "Le degré Celsius",
+        "Le kelvin",
+        "Le degré Fahrenheit",
+        "Le degré"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La température normale du corps humain est:",
+      "options": [
+        "0°C",
+        "37°C",
+        "100°C",
+        "20°C"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "physique-terminale-reactions-nucleaires-provoquees-fission-et-fusion",
+  "title": "Réactions nucléaires provoquées - Fission et fusion",
+  "summary": "Comment peut-on provoquer des réactions nucléaires et libérer d'énormes quantités d'énergie ? Quels sont les principes de fonctionnement des centrales nucléaires et des étoiles ?",
+  "lesson": "## 1. Les réactions nucléaires provoquées\n\nContrairement à la radioactivité (spontanée), certaines réactions nucléaires peuvent être **provoquées** par bombardement de noyaux avec des particules (neutrons, protons, etc.).\n\n## 2. La fission nucléaire\n\n### Principe\nLa **fission** est la rupture d'un noyau lourd en deux noyaux plus légers sous l'impact d'un neutron, avec libération d'énergie et de nouveaux neutrons.\n\n### Équation type\n**ᴬ_Z X + ¹₀n → ᴬ¹_Z₁ Y + ᴬ²_Z₂ Z + k × ¹₀n + Énergie**\n\n### Exemple : Fission de l'uranium 235\n²³⁵₉₂U + ¹₀n → ¹⁴¹₅₆Ba + ⁹²₃₆Kr + 3 × ¹₀n + Énergie (≈ 200 MeV)\n\n### Réaction en chaîne\n- Chaque fission produit 2 à 3 neutrons\n- Ces neutrons peuvent provoquer de nouvelles fissions\n- **Réaction contrôlée** : dans les centrales nucléaires (barres de contrôle)\n- **Réaction non contrôlée** : dans les bombes atomiques\n\n### Applications\n- **Centrales nucléaires** : Production d'électricité\n- Combustibles : ²³⁵U (uranium enrichi), ²³⁹Pu (plutonium)\n- Modérateurs : eau, graphite (ralentissent les neutrons)\n\n## 3. La fusion nucléaire\n\n### Principe\nLa **fusion** est la réunion de deux noyaux légers pour former un noyau plus lourd, avec libération d'énergie.\n\n### Conditions\n- Températures extrêmement élevées (≈ 10⁷ K)\n- Forte pression\n- Confinement du plasma\n\n### Exemple : Fusion deutérium-tritium\n²₁H + ³₁H → ⁴₂He + ¹₀n + Énergie (17,6 MeV)\n\n### Applications\n- **Dans les étoiles** : Source d'énergie du Soleil\n  - 4 × ¹₁H → ⁴₂He + 2 × ⁰₊₁e + 2νₑ + Énergie (26,7 MeV)\n- **Projet ITER** : Réacteur de fusion expérimental\n- **Bombe H** : Bombe thermonucléaire (non contrôlée)\n\n## 4. Défaut de masse et équivalence masse-énergie\n\n### Masse et énergie\nLa relation d'Einstein établit l'équivalence entre masse et énergie :\n\n**E = Δm × c²**\n\nOù :\n- E = énergie libérée (en Joules)\n- Δm = défaut de masse (en kg)\n- c = vitesse de la lumière = 3 × 10⁸ m/s\n\n### Unité pratique\nEn physique nucléaire, on utilise l'unité de masse atomique (u) :\n\n**1 u = 1,66054 × 10⁻²⁷ kg = 931,5 MeV/c²**\n\nDonc : **E (MeV) = Δm (u) × 931,5**\n\n### Défaut de masse\nC'est la différence entre :\n- La masse des nucléons séparés (réactifs)\n- La masse du noyau formé (produits)\n\n**Δm = m(réactifs) - m(produits)**\n\n### Calcul pratique\n1. Calculer la masse totale des réactifs\n2. Calculer la masse totale des produits\n3. Δm = m(réactifs) - m(produits)\n4. E = Δm × 931,5 (si Δm en u)\n\n## 5. Énergie de liaison\n\n### Définition\nL'énergie de liaison d'un noyau est l'énergie nécessaire pour séparer tous ses nucléons.\n\n### Énergie de liaison par nucléon\n- **Fission** : Les noyaux lourds ont une énergie de liaison par nucléon plus faible\n- **Fusion** : Les noyaux légers ont une énergie de liaison par nucléon plus faible\n- Le fer ⁵⁶Fe a l'énergie de liaison par nucléon la plus élevée (≈ 8,8 MeV)\n\n## 6. Comparaison fission / fusion\n\n| Critère | Fission | Fusion |\n|---------|---------|--------|\n| Noyaux | Lourds (U, Pu) | Légers (H, He) |\n| Conditions | Neutron lent | T ≈ 10⁷ K |\n| Énergie/réaction | ≈ 200 MeV | ≈ 17 MeV |\n| Déchets | Radioactifs (longue durée) | Peu radioactifs |\n| État actuel | Maîtrisée (centrales) | Expérimentale |\n\n## 7. Sécurité nucléaire\n\n### Dangers\n- Exposition aux rayonnements\n- Accidents nucléaires (Tchernobyl, Fukushima)\n- Gestion des déchets radioactifs\n\n### Protection\n- Principe ALARA (As Low As Reasonably Achievable)\n- Écrans de protection\n- Surveillance dosimétrique",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Fission : noyau lourd → noyaux légers + neutrons + énergie",
+    "Fusion : noyaux légers → noyau lourd + énergie",
+    "Relation d'Einstein : E = Δm × c²",
+    "1 u = 931,5 MeV/c²",
+    "Défaut de masse Δm = m(réactifs) - m(produits)",
+    "Réaction en chaîne contrôlée dans les centrales nucléaires"
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La fission nucléaire concerne principalement :",
+      "options": [
+        "Les noyaux légers",
+        "Les noyaux lourds",
+        "Les électrons",
+        "Les protons libres"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Dans une réaction nucléaire, l'énergie libérée provient :",
+      "options": [
+        "De la chaleur",
+        "Du défaut de masse",
+        "Des électrons",
+        "De la gravité"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La fusion nucléaire nécessite :",
+      "options": [
+        "Des températures très basses",
+        "Des températures très élevées",
+        "L'absence de pression",
+        "Des noyaux lourds"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle réaction produit l'énergie du Soleil ?",
+      "options": [
+        "La fission",
+        "La fusion",
+        "La radioactivité α",
+        "La combustion"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "La relation E = mc² signifie que :",
+      "options": [
+        "L'énergie se conserve toujours",
+        "La masse peut se transformer en énergie",
+        "La vitesse crée de l'énergie",
+        "L'énergie est toujours égale à la masse"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

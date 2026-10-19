@@ -1,0 +1,280 @@
+{
+  "id": "svt-terminale-la-transmission-d-un-caractere-hereditaire-chez-l-homme",
+  "title": "La transmission d’un caractère héréditaire chez l’Homme",
+  "summary": "Lors de la remise des prix au Lycée Moderne Belleville de Bouaké, les élèves de terminale C constatent l’absence d’un camarade récipiendaire, malade. Ils apprennent que ce camarade, une de ses sœurs et leur père souffrent d’une maladie dite héréditaire. Pour comprendre la transmission de cette maladie, les élèves décident d’identifier quelques caractères héréditaires et d’expliquer la transmission d’un caractère héréditaire chez l’homme.",
+  "lesson": "## 1. Introduction : Qu’est-ce qu’un caractère héréditaire ?\n\nUn **caractère héréditaire** est un trait (morphologique, physiologique, pathologique) transmis des parents à la descendance via les **gènes** portés par les chromosomes. L’étude de cette transmission est la **génétique mendélienne**.\n\n## 2. Rappels : bases de la génétique\n\n- **Gène** : Segment d’ADN codant pour une protéine, responsable d’un caractère. Il existe sous différentes versions : les **allèles**.\n- **Locus** : Emplacement précis d’un gène sur un chromosome.\n- **Génotype** : Combinaison d’allèles portés par un individu pour un gène donné (ex : AA, Aa, aa).\n- **Phénotype** : Expression observable du génotype (forme, fonction, maladie), résultant de l’interaction gène/environnement.\n- **Chromosomes** : Les humains en ont 46 (23 paires) : 22 paires d’**autosomes** et 1 paire de **chromosomes sexuels** (XX chez la femme, XY chez l’homme).\n\n## 3. Transmission autosomique : gène porté par un autosome\n\n**A. Dominance complète**\nUn allèle **dominant** (noté A) masque l’expression d’un allèle **récessif** (noté a) chez un hétérozygote (Aa).\n- Phénotype dominant : AA ou Aa.\n- Phénotype récessif : aa seulement.\n\n**Exemple : La maladie de Huntington** (chorée).\n- **Gène autosomal dominant** (chromosome 4).\n- Un parent atteint (Hh) a 50% de risque de le transmettre à chaque enfant, quel que soit le sexe.\n- Apparition tardive (après 40 ans).\n\n**Description du schéma 15 : Pedigree d’une transmission autosomique dominante**\nReprésenter un arbre généalogique sur 3 générations. Indiquer : (Génération I) Un homme atteint (carré noir) marié à une femme non atteinte (cercle blanc). (Génération II) 4 enfants : 2 hommes atteints, 1 femme atteinte, 1 homme non atteint. Montrer que la transmission est **verticale** (présente à chaque génération) et qu’elle touche les deux sexes. Légender les symboles.\n\n**B. Codominance**\nLes deux allèles s’expriment simultanément chez l’hétérozygote, donnant un phénotype distinct des deux homozygotes.\n\n**Exemple : Le groupe sanguin ABO** (système ABO).\n- Gène avec trois allèles : I^A, I^B, i.\n- I^A et I^B sont **codominants** entre eux, et **dominants** sur i.\n- Génotypes/Phénotypes : I^A I^A ou I^A i = groupe A ; I^B I^B ou I^B i = groupe B ; I^A I^B = groupe AB ; i i = groupe O.\n\n## 4. Transmission liée au sexe (gène hétérosomal)\n\nUn **gène hétérosomal** (ou gonosomique) est porté par un chromosome sexuel (X ou Y). La plupart des maladies liées au sexe sont **récessives liées à l’X**.\n\n**Caractéristiques** :\n- Les **hommes (XY)** n’ont qu’un seul chromosome X. S’ils portent l’allèle récessif morbide sur leur unique X, ils sont **atteints** (ils sont **hémizygotes** pour ce gène).\n- Les **femmes (XX)** ont deux X. Pour être atteintes, elles doivent être **homozygotes récessives** (les deux X portent l’allèle morbide). Si elles n’ont qu’un seul allèle morbide, elles sont **conductrices** (porteuses saines).\n\n**Exemple : Le daltonisme** (déficit vision rouge/vert).\n- Gène récessif porté par le chromosome X (X^d).\n- Homme daltonien : X^d Y.\n- Femme daltonienne : X^d X^d.\n- Femme conductrice : X^D X^d (vision normale).\n\n**Transmission typique** :\n- Un homme atteint **transmet son X^d à toutes ses filles** (elles seront conductrices). Il ne transmet pas la maladie à ses fils (il leur donne son Y).\n- Une femme conductrice a 50% de risque de transmettre X^d à ses enfants : les fils qui le reçoivent seront atteints, les filles qui le reçoivent seront conductrices.\n\n**Description du schéma 16 : Pedigree d’une transmission récessive liée à l’X (daltonisme)**\nArbre généalogique sur 3 générations. (I) Femme conductrice (cercle mi-pointé) mariée à un homme normal. (II) Parmi les enfants : un fils atteint (carré noir), une fille conductrice, un fils normal, une fille normale. (III) Le fils atteint de II a des enfants avec une femme normale : toutes les filles sont conductrices (mi-pointées), tous les fils sont normaux. Montrer la transmission **en diagonale** (de l’oncle maternel au neveu) et l’absence de transmission père→fils.\n\n## 5. Cas particulier : gène porté par le chromosome Y\n\n- Transmission exclusivement **père → tous les fils** (hérédité **holandrique**).\n- Très rare, concerne des gènes de la spermatogenèse ou de la différenciation mâle.\n\n## 6. Notion de gène hétérosomal\n\nUn **gène hétérosomal** est un gène situé sur un chromosome sexuel (X ou Y). Sa transmission ne suit pas les proportions mendéliennes classiques car elle dépend du sexe de l’individu et de la combinaison de chromosomes sexuels.\n\n## 7. Méthodes d’étude : les pedigrees (arbres généalogiques)\n\n- Outil essentiel pour retracer la transmission d’un caractère dans une famille.\n- Permet de déduire le mode de transmission (autosomique/lié à l’X, dominant/récessif) en observant :\n  - Répartition entre les sexes.\n  - Transmission sur plusieurs générations.\n  - Consanguinité (augmente le risque pour les maladies récessives).\n\n## 8. Applications et enjeux en Côte d’Ivoire\n\n- **Conseil génétique** : Informer les familles sur les risques de transmission (ex : drépanocytose, très fréquente en Afrique de l’Ouest, maladie autosomique récessive).\n- **Diagnostic prénatal** (dans certains cas) pour les maladies graves.\n- **Éducation** : Lutte contre les préjugés (les maladies héréditaires ne sont pas une \"malédiction\" mais ont une base biologique).\n- **Dépistage néonatal** : Exemple : dépistage de la drépanocytose.\n\n## 9. Étude de cas : La drépanocytose\n\n- **Gène** : Bêta-globine sur le chromosome 11 (autosomique).\n- **Allèles** : A (normal), S (drépanocytaire).\n- **Génotypes/Phénotypes** :\n  - AA : normal.\n  - AS : porteur sain (drépanocytaire, résistant au paludisme).\n  - SS : drépanocytose majeure (anémie sévère, crises douloureuses).\n- Deux porteurs sains (AS x AS) ont 25% de risque d’avoir un enfant SS à chaque grossesse.\n\n## 10. Conclusion\n\nLa transmission des caractères héréditaires obéit à des lois probabilistes basées sur la ségrégation des chromosomes et des allèles lors de la méiose. La distinction entre gènes autosomiques et hétérosomaux est cruciale pour prédire les risques dans une famille.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Un caractère héréditaire est déterminé par des gènes portés sur les chromosomes.",
+    "La transmission autosomique (chromosomes 1-22) peut être dominante, récessive ou codominante et touche les deux sexes à égalité.",
+    "La transmission liée au sexe concerne les gènes portés par les chromosomes X ou Y. Les maladies récessives liées à l’X touchent principalement les hommes.",
+    "Un gène hétérosomal est un gène situé sur un chromosome sexuel ; sa transmission dépend du sexe.",
+    "Les pedigrees permettent d’analyser les modes de transmission dans les familles."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Sur combien de paires de chromosomes autosomiques l’être humain possède-t-il des gènes ?",
+      "options": [
+        "1",
+        "22",
+        "23",
+        "46"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle combinaison chromosomique détermine un individu de sexe masculin ?",
+      "options": [
+        "XX",
+        "XY",
+        "YY",
+        "XO"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Un homme atteint d’une maladie récessive liée à l’X (X^aY) épouse une femme homozygote normale (X^A X^A). Quel pourcentage de leurs fils seront atteints ?",
+      "options": [
+        "0%",
+        "25%",
+        "50%",
+        "100%"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est le génotype d’une femme conductrice (porteuse saine) pour un caractère récessif lié à l’X ?",
+      "options": [
+        "X^A X^A",
+        "X^A X^a",
+        "X^a X^a",
+        "X^a Y"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "La drépanocytose est une maladie à transmission :",
+      "options": [
+        "Autosomique dominante",
+        "Autosomique récessive",
+        "Récessive liée à l’X",
+        "Dominante liée à l’X"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel type d’allèles s’exprime simultanément chez un hétérozygote, comme pour les groupes sanguins AB ?",
+      "options": [
+        "Allèles dominants",
+        "Allèles récessifs",
+        "Allèles codominants",
+        "Allèles létaux"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quelle est la particularité d’un homme pour un gène porté par le chromosome X ?",
+      "options": [
+        "Il est toujours homozygote",
+        "Il est hémizygote",
+        "Il ne peut pas le transmettre",
+        "Il est toujours atteint"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Dans une transmission autosomique dominante, un individu atteint a généralement :",
+      "options": [
+        "Deux parents non atteints",
+        "Au moins un parent atteint",
+        "Tous ses enfants atteints",
+        "Un risque nul pour ses frères et sœurs"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel outil utilise-t-on pour visualiser la transmission d’un caractère dans une famille ?",
+      "options": [
+        "Un microscope",
+        "Un pedigree",
+        "Une courbe de croissance",
+        "Un électrocardiogramme"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Un gène hétérosomal est situé sur :",
+      "options": [
+        "Un autosome",
+        "Le chromosome X ou Y",
+        "Le chromosome mitochondrial",
+        "N’importe quel chromosome"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel mode de transmission est caractérisé par l'absence de transmission père-fils?",
+      "options": [
+        "Autosomique dominant",
+        "Autosomique récessif",
+        "Lié à l'X",
+        "Lié au Y"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quelle est la probabilité pour deux parents hétérozygotes pour un caractère autosomique récessif d'avoir un enfant atteint?",
+      "options": [
+        "0%",
+        "25%",
+        "50%",
+        "100%"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel mode de transmission montre typiquement une transmission verticale sans saut de génération?",
+      "options": [
+        "Autosomique dominant",
+        "Autosomique récessif",
+        "Récessif lié à l'X",
+        "Tous"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quelle maladie est un exemple de transmission autosomique récessive fréquente en Côte d'Ivoire?",
+      "options": [
+        "Hémophilie",
+        "Drépanocytose",
+        "Syndrome de Marfan",
+        "Daltonisme"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel est l'avantage sélectif des hétérozygotes pour la drépanocytose?",
+      "options": [
+        "Résistance au VIH",
+        "Résistance au paludisme",
+        "Résistance à la tuberculose",
+        "Résistance à la fièvre typhoïde"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel symbole représente une femme atteinte dans un pedigree?",
+      "options": [
+        "Carré vide",
+        "Cercle vide",
+        "Carré rempli",
+        "Cercle rempli"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quelle condition augmente le risque d'expression des maladies autosomiques récessives?",
+      "options": [
+        "Consanguinité",
+        "Âge maternel avancé",
+        "Exposition aux radiations",
+        "Régime alimentaire"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Quelle est la ploïdie des cellules somatiques humaines?",
+      "options": [
+        "Haploïde (n)",
+        "Diploïde (2n)",
+        "Triploïde (3n)",
+        "Polyploïde"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Quel groupe sanguin illustre la codominance?",
+      "options": [
+        "A",
+        "B",
+        "O",
+        "AB"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Quelle technique permet de séparer les hémoglobines normales et drépanocytaires?",
+      "options": [
+        "Chromatographie",
+        "Électrophorèse",
+        "Centrifugation",
+        "Spectrophotométrie"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

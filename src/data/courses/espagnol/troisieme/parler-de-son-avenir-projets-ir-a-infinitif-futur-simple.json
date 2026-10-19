@@ -1,0 +1,45 @@
+{
+  "id": "espagnol-troisieme-parler-de-son-avenir-projets-ir-a-infinitif-futur-simple",
+  "title": "Parler de son avenir / projets (ir a + infinitif / futur simple)",
+  "summary": "¿Qué vas a hacer este fin de semana? (Que vas-tu faire ce week-end ?)",
+  "lesson": "## Exprimer le futur\n\n### 1. IR A + INFINITIF (futur proche)\n\n**Structure : IR (conjugué) + A + VERBE à l'infinitif**\n\n**Conjugaison de IR :**\n- yo voy a estudiar\n- tú vas a comer\n- él/ella va a vivir\n- nosotros vamos a trabajar\n- vosotros vais a hablar\n- ellos van a venir\n\n**Usage :** projets immédiats, intentions\n- Voy a estudiar mañana. (Je vais étudier demain)\n- Vamos a viajar a Yamoussoukro. (Nous allons voyager à Yamoussoukro)\n\n### 2. FUTUR SIMPLE\n\n**Formation : INFINITIF + terminaisons**\n\n**Terminaisons (identiques pour tous les verbes) :**\n- yo -é\n- tú -ás\n- él/ella -á\n- nosotros -emos\n- vosotros -éis\n- ellos -án\n\n**Exemples réguliers :**\n- hablar : hablaré, hablarás, hablará...\n- comer : comeré, comerás, comerá...\n- vivir : viviré, vivirás, vivirá...\n\n**Futurs irréguliers (racine change) :**\n- hacer → haré, harás, hará...\n- poder → podré, podrás...\n- tener → tendré, tendrás...\n- salir → saldré, saldrás...\n- poner → pondré, pondrás...\n- venir → vendré, vendrás...\n- decir → diré, dirás...\n- querer → querré, querrás...\n\n**Usage :** projets lointains, prédictions\n- El año próximo estudiaré medicina. (L'année prochaine j'étudierai la médecine)\n- Algún día seré profesor. (Un jour je serai professeur)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "IR A + infinitif = futur proche",
+    "Futur simple = infinitif + terminaisons",
+    "Futurs irréguliers à mémoriser",
+    "Mañana, el año próximo, algún día"
+  ],
+  "exercise": {
+    "answer": "Este fin de semana voy a ir al cine con mis amigos. Mañana voy a estudiar para el examen. El año próximo estudiaré en el liceo. Algún día viajaré por el mundo.",
+    "question": "Parle de tes projets pour le futur (proche et lointain)."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'Je vais manger' en espagnol ?",
+      "options": [
+        "Comeré",
+        "Como",
+        "\"Voy a comer\"",
+        "He comido"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel est le futur simple de 'hacer' (yo) ?",
+      "options": [
+        "haceré",
+        "\"haré\"",
+        "hacré",
+        "haciré"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "svt-troisieme-le-sang",
+  "title": "Le sang",
+  "summary": "Lors d'une visite médicale scolaire, un élève souvent fatigué apprend que son état est dû à une insuffisance sanguine. Ses camarades cherchent à comprendre la composition et les fonctions du sang.",
+  "lesson": "## Introduction\n\nLe sang est un tissu liquide essentiel au transport et à la défense. Dans le contexte ivoirien, comprendre sa composition aide à lutter contre l'anémie, fréquente dans la région.\n\n## 1. Composition du sang\n\n### 1.1 Éléments figurés (45% du volume)\n\n#### Globules rouges (érythrocytes)\n- **Nombre** : 4,5 à 5,5 millions/mm³\n- **Fonction** : transport de l'oxygène via l'hémoglobine\n- **Particularité africaine** : présence fréquente du trait drépanocytaire (résistance au paludisme)\n\n#### Globules blancs (leucocytes)\n- **Nombre** : 4000 à 10000/mm³\n- **Types** : neutrophiles, lymphocytes, monocytes, éosinophiles, basophiles\n- **Rôle** : défense immunitaire\n\n#### Plaquettes (thrombocytes)\n- **Nombre** : 150000 à 400000/mm³\n- **Fonction** : coagulation sanguine\n\n### 1.2 Plasma (55% du volume)\n- **Composition** : eau (90%), protéines (7%), autres solutés (3%)\n- **Protéines plasmatiques** : albumine, globulines, fibrinogène\n- **Rôles** : transport, maintien pression osmotique, défense\n\n## 2. Rôles des constituants sanguins\n\n### 2.1 Transport adapté au climat\n- **Oxygène** : essentiel malgré la richesse en oxygène de l'air tropical\n- **Nutriments** : distribution des éléments issus de l'alimentation locale\n- **Dioxyde de carbone** : élimination vers les poumons\n- **Hormones** : régulation des fonctions corporelles\n\n### 2.2 Défense en milieu tropical\n- **Immunité adaptative** : réponse aux pathogènes locaux (paludisme, fièvre typhoïde)\n- **Immunité innée** : barrière contre les infections courantes\n- **Mémoire immunitaire** : développement de résistances locales\n\n## 3. Coagulation sanguine\n\n### 3.1 Mécanisme en cascade\n1. **Vasoconstriction** : réduction du flux sanguin\n2. **Adhésion plaquettaire** : formation du clou plaquettaire\n3. **Coagulation** : fibrinogène → fibrine (réseau solide)\n4. **Rétraction** : consolidation du caillot\n\n### 3.2 Facteurs influençant la coagulation\n- **Température tropicale** : peut accélérer certaines réactions\n- **Nutrition** : carence en vitamine K (feuilles vertes) affecte la coagulation\n- **Pathologies locales** : drépanocytose, déficit en G6PD\n\n## 4. Anémies en contexte ivoirien\n\n### 4.1 Causes multifactorielles\n- **Nutritionnelles** : carence en fer (alimentation déséquilibrée)\n- **Parasitaires** : paludisme, ankylostomiase (vers intestinaux)\n- **Génétiques** : drépanocytose (prévalence élevée)\n- **Infectieuses** : VIH, tuberculose\n\n### 4.2 Approches de prévention\n- **Supplémentation en fer** : programmes nationaux\n- **Lutte contre le paludisme** : moustiquaires imprégnées\n- **Éducation nutritionnelle** : valorisation des aliments riches en fer locaux (feuilles vertes, viande de brousse)\n- **Dépistage génétique** : conseil génétique pour la drépanocytose\n\n## 5. Perspectives critiques\n\n### 5.1 Inégalités d'accès aux soins\n- **Disparités ville-campagne** : accès limité aux transfusions en zones rurales\n- **Coût des traitements** : médicaments antianémiques souvent onéreux\n- **Médecine traditionnelle** : plantes locales aux propriétés hématopoïétiques sous-étudiées\n\n### 5.2 Recherche décoloniale\n- **Études génomiques africaines** : nécessité de recherches sur les populations locales\n- **Pharmacopée traditionnelle** : validation scientifique des remèdes ancestraux\n- **Autonomie diagnostique** : développement de tests adaptés aux pathologies locales\n\n### 5.3 Enjeux éthiques\n- **Banques de sang** : dépendance aux dons volontaires\n- **Propriété intellectuelle** : brevetage des connaissances traditionnelles\n- **Justice distributive** : équité dans l'accès aux produits sanguins",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Le sang comprend éléments figurés et plasma",
+    "Les globules rouges transportent l'oxygène via l'hémoglobine",
+    "La coagulation prévient les hémorragies",
+    "L'anémie est multifactorielle en contexte tropical",
+    "Les approches préventives intègrent nutrition et lutte contre les parasites"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel constituant sanguin est responsable du transport de l'oxygène ?",
+      "options": [
+        "Globules blancs",
+        "Globules rouges",
+        "Plaquettes",
+        "Plasma"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle protéine transporte l'oxygène dans les globules rouges ?",
+      "options": [
+        "Fibrinogène",
+        "Albumine",
+        "Hémoglobine",
+        "Globuline"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle maladie génétique fréquente en Afrique de l'Ouest affecte les globules rouges ?",
+      "options": [
+        "Leucémie",
+        "Drépanocytose",
+        "Hémophilie",
+        "Thalassémie"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel élément figuré joue un rôle crucial dans la coagulation sanguine ?",
+      "options": [
+        "Érythrocytes",
+        "Lymphocytes",
+        "Thrombocytes",
+        "Monocytes"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle carence nutritionnelle est une cause majeure d'anémie en Côte d'Ivoire ?",
+      "options": [
+        "Carence en vitamine C",
+        "Carence en calcium",
+        "Carence en fer",
+        "Carence en sodium"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel parasite, endémique en Côte d'Ivoire, cause une anémie par destruction des globules rouges ?",
+      "options": [
+        "Plasmodium (paludisme)",
+        "Trypanosoma (maladie du sommeil)",
+        "Schistosoma (bilharziose)",
+        "Ascaris (ver rond)"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quelle plante locale est reconnue pour ses propriétés antianémiques grâce à sa richesse en fer ?",
+      "options": [
+        "Moringa oleifera",
+        "Caféier",
+        "Cacaoyer",
+        "Palmier à huile"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel pourcentage approximatif du volume sanguin est occupé par le plasma ?",
+      "options": [
+        "25%",
+        "45%",
+        "55%",
+        "75%"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quelle vitamine est essentielle pour la coagulation sanguine ?",
+      "options": [
+        "Vitamine A",
+        "Vitamine C",
+        "Vitamine D",
+        "Vitamine K"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel aspect critique de la recherche médicale en Afrique est souvent négligé selon une perspective décoloniale ?",
+      "options": [
+        "Études exclusivement sur populations européennes",
+        "Recherche sur les maladies tropicales",
+        "Essais cliniques internationaux",
+        "Publications en langues locales"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

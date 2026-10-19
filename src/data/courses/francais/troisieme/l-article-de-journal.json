@@ -1,0 +1,122 @@
+{
+  "id": "francais-troisieme-l-article-de-journal",
+  "title": "L'article de journal",
+  "summary": "Le club journal de ton collège te demande d'écrire un article sur la fête de l'indépendance. Comment structurer ton texte pour informer efficacement les lecteurs ?",
+  "lesson": "## L'article de journal\n\n### Définition\nTexte informatif publié dans un journal ou un magazine, qui relate des faits d'actualité de manière structurée.\n\n### Les types d'articles\n\n**1. L'article informatif (ou brève)**\n- Relate des faits objectivement\n- Répond aux questions : Qui ? Quoi ? Où ? Quand ? Comment ? Pourquoi ?\n- Style neutre et factuel\n\n**2. Le reportage**\n- Description détaillée d'un événement\n- Témoignages et observations sur le terrain\n- Plus long et plus vivant\n\n**3. L'éditorial**\n- Opinion du journal sur un sujet d'actualité\n- Engage la responsabilité du rédacteur en chef\n- Texte argumentatif\n\n**4. L'interview**\n- Questions-réponses avec une personnalité\n- Présentation de l'interviewé\n- Fidélité aux propos\n\n### Structure d'un article informatif\n\n**1. Le titre (ou manchette)**\n- Court et accrocheur\n- Résume l'essentiel de l'information\n*Exemple :* « Grand succès du défilé du 7 août à Yamoussoukro »\n\n**2. Le chapeau (ou chapô)**\n- Résumé de l'article en 2-3 lignes\n- Reprend les informations essentielles\n- En caractères gras\n\n**3. L'attaque**\n- Première phrase du texte\n- Doit capter l'attention du lecteur\n- Souvent commence par le fait principal\n\n**4. Le corps de l'article**\n- Développement des informations\n- Du plus important au moins important (pyramide inversée)\n- Paragraphes courts et aérés\n\n**5. La chute**\n- Dernière phrase de l'article\n- Ouvre sur l'avenir ou une réflexion\n- Laisse une impression au lecteur\n\n### La règle des 5W + H\n\nTout article informatif doit répondre à :\n- **Who?** (Qui?) : les personnes concernées\n- **What?** (Quoi?) : ce qui s'est passé\n- **Where?** (Où?) : le lieu\n- **When?** (Quand?) : la date, l'heure\n- **Why?** (Pourquoi?) : les causes\n- **How?** (Comment?) : les circonstances\n\n### Fait vs Opinion\n\n**Fait** : information vérifiable, objective\n*Exemple :* « Le président a inauguré le pont de Cocody le 15 novembre. »\n\n**Opinion** : jugement personnel, subjectif\n*Exemple :* « Cette inauguration marque un tournant historique pour Abidjan. »\n\n### Vocabulaire du journalisme\n\n- **Accroche** : première phrase captivante\n- **Angle** : point de vue choisi pour traiter un sujet\n- **Sources** : origines des informations\n- **Citation** : propos rapportés entre guillemets\n- **Légende** : texte accompagnant une photo\n- **Rubrique** : catégorie (sport, culture, politique...)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Structure : titre, chapeau, attaque, corps, chute",
+    "Règle des 5W + H pour informer complètement",
+    "Distinguer fait (objectif) et opinion (subjectif)"
+  ],
+  "exercise": {
+    "question": "Rédige le titre, le chapeau et l'attaque d'un article sur l'événement suivant : « Inauguration d'une nouvelle bibliothèque scolaire au Lycée moderne d'Abobo le 20 novembre 2024, en présence du ministre de l'Éducation nationale. »",
+    "answer": "\n**Solution :**\n\n**Titre :**\n« Abobo : une bibliothèque moderne pour les lycéens »\n\n**Chapeau :**\nLe ministre de l'Éducation nationale a inauguré mercredi 20 novembre la nouvelle bibliothèque du Lycée moderne d'Abobo. Cet espace de 500 m² accueillera plus de 10 000 ouvrages.\n\n**Attaque :**\nC'est sous les applaudissements de centaines d'élèves que le ministre Mariatou Koné a coupé le ruban de la nouvelle bibliothèque du Lycée moderne d'Abobo, hier en fin de matinée.\n\n**Éléments respectés :**\n- Titre : court, informatif, localisation\n- Chapeau : résume les 5W (qui, quoi, où, quand)\n- Attaque : phrase accrocheuse, fait principal\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Le chapeau d'un article est :",
+      "options": [
+        "Le titre",
+        "Le résumé en début d'article",
+        "La conclusion",
+        "La signature"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "La règle des 5W + H concerne :",
+      "options": [
+        "L'orthographe",
+        "La ponctuation",
+        "Les questions essentielles",
+        "La mise en page"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "« Le président a prononcé un discours » est :",
+      "options": [
+        "Une opinion",
+        "Un fait",
+        "Un titre",
+        "Un chapeau"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-francais-1-mv9koufj",
+      "type": "mcq",
+      "prompt": "Dans la structure d'un article de journal, quel élément est spécifiquement destiné à résumer l'information essentielle en deux ou trois lignes et est généralement mis en caractères gras pour attirer l'œil du lecteur ?",
+      "options": [
+        "L'attaque",
+        "Le chapeau",
+        "La manchette",
+        "Le corps de l'article"
+      ],
+      "answer": 1,
+      "explanation": "Le chapeau (ou chapô) est la partie de l'article qui synthétise l'information principale en quelques lignes. Il est distinct du titre (manchette) qui est plus court et accrocheur, et de l'attaque qui est la première phrase du développement."
+    },
+    {
+      "id": "auto-francais-2-mv9koufj",
+      "type": "mcq",
+      "prompt": "Un rédacteur souhaite exprimer la position officielle de son journal sur la gestion des fonds de la fête de l'indépendance, engageant ainsi la responsabilité de la rédaction. Quel type d'article doit-il rédiger ?",
+      "options": [
+        "Un reportage",
+        "Une interview",
+        "Un article informatif",
+        "Un éditorial"
+      ],
+      "answer": 3,
+      "explanation": "L'éditorial est le texte argumentatif qui exprime l'opinion du journal ou du rédacteur en chef. Contrairement à l'article informatif qui reste neutre et factuel, l'éditorial engage la responsabilité de la rédaction."
+    },
+    {
+      "id": "auto-francais-3-mv9koufj",
+      "type": "mcq",
+      "prompt": "Pour rédiger un article informatif sur la fête de l'indépendance, le journaliste doit impérativement répondre à six questions fondamentales. Quelle est la question qui correspond à la lettre 'H' dans la règle des 5W + H ?",
+      "options": [
+        "How (Comment)",
+        "Who (Qui)",
+        "Where (Où)",
+        "Why (Pourquoi)"
+      ],
+      "answer": 0,
+      "explanation": "La règle des 5W + H provient de l'anglais : Who (Qui), What (Quoi), Where (Où), When (Quand), Why (Pourquoi) et How (Comment). La lettre H correspond donc à 'How', qui traduit la manière dont les faits se sont déroulés."
+    },
+    {
+      "id": "auto-francais-4-mv9koufj",
+      "type": "mcq",
+      "prompt": "Dans un reportage sur la fête de l'indépendance, le journaliste inclut des citations directes de citoyens présents sur place et décrit l'atmosphère de la cérémonie. Quel est l'objectif principal de cette technique par rapport à un article informatif simple ?",
+      "options": [
+        "Simplifier la lecture pour les élèves de troisième",
+        "Donner une dimension vivante et immersive à l'événement",
+        "Réduire la longueur du texte pour gagner de l'espace",
+        "Éviter de donner des faits précis et vérifiables"
+      ],
+      "answer": 1,
+      "explanation": "Le reportage se distingue de l'article informatif par sa capacité à rendre l'événement vivant grâce aux témoignages, aux descriptions sensorielles et aux observations sur le terrain. L'objectif est d'immerger le lecteur dans la scène."
+    },
+    {
+      "id": "auto-francais-5-mv9koufj",
+      "type": "mcq",
+      "prompt": "Quelle caractéristique linguistique est obligatoire dans la rédaction d'un article informatif pour garantir l'objectivité du texte ?",
+      "options": [
+        "L'utilisation de l'impératif pour donner des conseils",
+        "L'emploi exclusif de l'adjectif 'magnifique' pour qualifier l'événement",
+        "Le style neutre et factuel, sans jugement de valeur",
+        "L'usage fréquent du subjonctif pour exprimer le doute"
+      ],
+      "answer": 2,
+      "explanation": "L'article informatif doit rester objectif. Il relate les faits tels qu'ils sont, sans y ajouter l'opinion personnelle du journaliste. Le style doit donc être neutre et factuel, évitant les jugements de valeur ou les adjectifs subjectifs."
+    }
+  ]
+}

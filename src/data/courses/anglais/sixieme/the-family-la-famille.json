@@ -1,0 +1,58 @@
+{
+  "id": "anglais-sixieme-the-family-la-famille",
+  "title": "The Family - La famille",
+  "summary": "Kofi montre des photos de sa famille à son ami américain. Comment présenter les membres de sa famille en anglais ?",
+  "lesson": "## Family Members - Les membres de la famille\n\n### Immediate Family - Famille proche\n\n- **Father / Dad** - père / papa\n- **Mother / Mom / Mum** - mère / maman\n- **Brother** - frère\n- **Sister** - sœur\n- **Son** - fils\n- **Daughter** - fille\n- **Parents** - parents\n- **Children** - enfants\n\n### Extended Family - Famille élargie\n\n- **Grandfather / Grandpa** - grand-père / papi\n- **Grandmother / Grandma** - grand-mère / mamie\n- **Uncle** - oncle\n- **Aunt** - tante\n- **Cousin** - cousin(e)\n- **Nephew** - neveu\n- **Niece** - nièce\n\n## Possessive Adjectives - Adjectifs possessifs\n\n| Pronom | Adjectif possessif | Exemple |\n|--------|-------------------|---------|\n| I | **my** | my father |\n| You | **your** | your mother |\n| He | **his** | his brother |\n| She | **her** | her sister |\n| We | **our** | our family |\n| They | **their** | their parents |\n\n### Exemples\n\n- **This is my father.** - Voici mon père.\n- **Her name is Awa.** - Elle s'appelle Awa.\n- **Their parents live in Abidjan.** - Leurs parents habitent à Abidjan.\n- **What is your mother's name?** - Comment s'appelle ta mère ?\n\n## Présenter sa famille\n\n### Structure de base\n\n**This is** + nom de famille + **possessive**\n\n- This is **my brother**, Kouassi.\n- This is **my mother**, she is a teacher.\n- These are **my grandparents**.\n\n### Donner des informations\n\n- My father **is** a doctor.\n- My sister **is** 10 years old.\n- I **have** two brothers and one sister.\n- We **live** together in Bouaké.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Father, mother, brother, sister = famille proche",
+    "My, your, his, her = adjectifs possessifs",
+    "This is my... pour présenter",
+    "I have... brothers/sisters"
+  ],
+  "exercise": {
+    "question": "Complète avec l'adjectif possessif : 1) This is ___ (I) mother. 2) What is ___ (you) name? 3) ___ (She) father is a teacher.",
+    "answer": "\n**Solution :**\n1) This is **my** mother.\n2) What is **your** name?\n3) **Her** father is a teacher.\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'oncle' en anglais ?",
+      "options": [
+        "Aunt",
+        "Uncle",
+        "Cousin",
+        "Nephew"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel adjectif possessif pour 'Il' ?",
+      "options": [
+        "her",
+        "his",
+        "him",
+        "he"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'J'ai deux sœurs' ?",
+      "options": [
+        "I am two sisters",
+        "I has two sisters",
+        "I have two sisters",
+        "I having two sisters"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

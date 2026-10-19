@@ -1,0 +1,153 @@
+{
+  "id": "histoire-terminale-l-ere-de-la-bipolarisation-de-1947-a-1991",
+  "title": "L'ère de la bipolarisation de 1947 à 1991",
+  "summary": "Au cours des activités 'porte-ouverte de la promotion Terminale' dans votre établissement à Bouaké, vous apprenez lors d'une conférence sur les conséquences de la Deuxième Guerre mondiale que le monde a été divisé en deux blocs antagonistes sans affrontements directs. Ces blocs ont connu des moments de crises et de détente qui ont marqué les relations internationales. Soucieux de comprendre cette situation politique, vous menez des recherches pour connaître les blocs antagonistes, comprendre la guerre froid",
+  "lesson": "## 1. Définition de la bipolarisation\n\nLa **bipolarisation** désigne la division du monde en **deux pôles de puissance antagonistes** après 1945 :\n\n- **Bloc occidental** : Dirigé par les États-Unis, capitaliste, démocratique\n- **Bloc oriental** : Dirigé par l'URSS, communiste, étatique\n\n**Caractéristiques principales :**\n- Opposition idéologique fondamentale\n- Course aux armements (nucléaire notamment)\n- Conflits par pays interposés (proxy wars)\n- Propagande et guerre idéologique\n\n## 2. Naissance et composition des deux blocs (1947-1949)\n\n### 2.1 Le bloc occidental\n**Doctrine Truman** (12 mars 1947) : 'Endiguer' le communisme\n**Plan Marshall** (1947) : Aide économique à l'Europe (\\\\$13 milliards)\n**OTAN** (1949) : Alliance militaire défensive\n**OCDE** (1961) : Coopération économique\n\n**Pays membres principaux :**\n| Type | Exemples |\n|------|----------|\n| **Alliés directs** | USA, Royaume-Uni, France, RFA |\n| **Pays satellites** | Grèce, Turquie, Japon, Corée du Sud |\n| **Pays du Tiers-Monde alignés** | Côte d'Ivoire (après 1960), Maroc |\n\n### 2.2 Le bloc oriental\n**Doctrine Jdanov** (1947) : Deux camps irréconciliables\n**Kominform** (1947) : Coordination des partis communistes\n**Pacte de Varsovie** (1955) : Alliance militaire\n**CAEM/COMECON** (1949) : Coopération économique\n\n**Localisation géographique :**\n```mermaid\ngraph TD\n    A[URSS] --> B[Europe de l'Est]\n    B --> C[Pologne]\n    B --> D[RDA]\n    B --> E[Tchécoslovaquie]\n    B --> F[Hongrie]\n    B --> G[Bulgarie]\n    B --> H[Roumanie]\n    A --> I[Asie]\n    I --> J[Chine jusqu'en 1960]\n    I --> K[Corée du Nord]\n    I --> L[Vietnam du Nord]\n    A --> M[Cuba]\n```\n\n## 3. La guerre froide : caractéristiques et phases\n\n### Définition :\nConflit global entre les deux superpuissances, évitant l'affrontement direct, mais s'exprimant par :\n- Course aux armements\n- Conflits périphériques\n- Espionnage\n- Propagande\n- Conquête spatiale\n\n### Principales phases :\n```mermaid\ntimeline\ntitle Phases de la guerre froide\n    1947-1953 : Guerre froide 'chaude'\n        : Doctrine Truman\n        : Blocus de Berlin\n        : Guerre de Corée\n    1953-1962 : Détente relative\n        : Coexistence pacifique\n        : Crise de Cuba (1962)\n    1962-1975 : Détente\n        : Téléphone rouge\n        : Accords SALT\n        : Guerre du Vietnam\n    1975-1985 : Nouvelle guerre froide\n        : Invasion de l'Afghanistan\n        : 'Empire du Mal' (Reagan)\n    1985-1991 : Fin de la guerre froide\n        : Perestroïka/Glasnost\n        : Chute du Mur de Berlin\n```\n\n## 4. Les crises majeures de la guerre froide\n\n### 4.1 Crise de Berlin (1948-1949)\n- **Contexte** : Division de l'Allemagne en 4 zones\n- **Événement** : Blocus de Berlin-Ouest par Staline\n- **Réponse** : Pont aérien américain (277 000 vols)\n- **Résultat** : Création de la RFA et RDA\n\n### 4.2 Guerre de Corée (1950-1953)\n- **Belligérants** : Nord (communiste) vs Sud (capitaliste)\n- **Intervention** : ONU dirigée par les USA vs Chine\n- **Résultat** : Statu quo ante (38ème parallèle)\n- **Morts** : 2,5 millions\n\n### 4.3 Crise des missiles de Cuba (1962)\n- **Contexte** : Cuba révolutionnaire (1959)\n- **Événement** : Installation de missiles soviétiques\n- **Crise** : 13 jours de tension extrême\n- **Résolution** : Retrait des missiles contre promesse de non-invasion\n\n### 4.4 Guerre du Vietnam (1964-1975)\n- **Particularité** : Guerre la plus longue et coûteuse\n- **Intervention** : 500 000 soldats américains au plus fort\n- **Résultat** : Retrait américain, réunification sous régime communiste\n- **Impact** : 'Syndrome du Vietnam' aux USA\n\n## 5. Coexistence pacifique et détente (1953-1975)\n\n### Définition :\n**Coexistence pacifique** (Khrouchtchev) : Rivalité sans guerre directe\n**Détente** : Réduction des tensions par le dialogue\n\n### Manifestations principales :\n1. **Communication** : Téléphone rouge (1963)\n2. **Désarmement** : Traités SALT I (1972) et II (1979)\n3. **Diplomatie** : Visite de Nixon en Chine (1972)\n4. **Conférence d'Helsinki** (1975) : Sécurité et coopération en Europe\n\n### Limites de la détente :\n- Guerre du Vietnam continue\n- Interventions soviétiques (Tchécoslovaquie 1968)\n- Course aux armements continue\n\n## 6. L'effondrement du bloc de l'Est (1985-1991)\n\n### Causes profondes :\n1. **Économique** : Stagnation, pénuries, dette extérieure\n2. **Politique** : Régime autoritaire, absence de libertés\n3. **Social** : Niveau de vie inférieur à l'Ouest\n4. **Technologique** : Retard dans l'informatique et les télécommunications\n\n### Rôle de Gorbatchev :\n- **Perestroïka** (restructuration) : Réformes économiques\n- **Glasnost** (transparence) : Liberté d'expression\n- **Non-intervention** dans les pays satellites\n\n### Chronologie de l'effondrement :\n\n| Année | Événement | Conséquence |\n|-------|-----------|-------------|\n| 1985 | Gorbatchev au pouvoir | Début des réformes |\n| 1989 | Chute du Mur de Berlin | Symbolique |\n| 1989-90 | Révolutions en Europe de l'Est | Fin des régimes communistes |\n| 1991 | Putsch d'août en URSS | Affaiblissement de Gorbatchev |\n| Décembre 1991 | Dissolution de l'URSS | Fin de la guerre froide |\n\n## 7. Conséquences pour l'Afrique et la Côte d'Ivoire\n\n### Pendant la guerre froide :\n- **Alignement** de la Côte d'Ivoire sur le bloc occidental\n- **Aide économique** : France et USA\n- **Stabilité** : Régime pro-occidental de Félix Houphouët-Boigny\n\n### Après la chute :\n- **Fin de l'aide conditionnée** par l'alignement\n- **Émergence du multipartisme** en Afrique\n- **Nouveaux partenaires** : Chine, Union Européenne\n\n## 8. Méthodologie : Analyser un document sur la guerre froide\n\n**Grille d'analyse :**\n1. **Nature** : Discours, caricature, carte, statistique\n2. **Auteur/Date/Contexte** : Qui parle ? Quand ? Dans quel contexte ?\n3. **Thème principal** : Quelle dimension de la guerre froide ?\n4. **Argument/Message** : Quelle thèse est défendue ?\n5. **Portée** : Impact à l'époque et aujourd'hui\n\n**Exemple avec le discours de Churchill (1946) :**\n- 'Rideau de fer' : Métaphore de la division\n- Contexte : Début de la bipolarisation\n- Message : Alerte sur l'expansionnisme soviétique",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "La bipolarisation divise le monde en deux blocs antagonistes de 1947 à 1991",
+    "Le bloc occidental est dirigé par les USA avec l'OTAN, le bloc oriental par l'URSS avec le Pacte de Varsovie",
+    "La guerre froide évite l'affrontement direct mais se manifeste par des crises (Berlin, Cuba, Vietnam)",
+    "La coexistence pacifique et la détente permettent des périodes de dialogue",
+    "L'effondrement du bloc de l'Est (1989-1991) résulte de faiblesses économiques et des réformes de Gorbatchev",
+    "L'Afrique et la Côte d'Ivoire sont des enjeux dans la rivalité Est-Ouest",
+    "La fin de la guerre froide transforme les relations internationales",
+    "L'analyse documentaire nécessite de contextualiser chaque source"
+  ],
+  "exercise": {
+    "answer": "**Article : L'héritage de la guerre froide en Côte d'Ivoire (1960-1990)**\n\n### 1. Choix politiques : L'alignement stratégique sur l'Occident\n\nLa Côte d'Ivoire indépendante (1960) s'inscrit résolument dans le bloc occidental, choix dicté par plusieurs facteurs :\n\n- **Héritage colonial** : Relations privilégiées avec la France\n- **Idéologie** : Capitalisme libéral promu par Félix Houphouët-Boigny\n- **Soutien occidental** : Contre les mouvements communistes africains\n\n**Exemple concret :** Le PDCI-RDA, parti unique jusqu'en 1990, bénéficie du soutien occidental contre les mouvements d'opposition soupçonnés de sympathies communistes.\n\n### 2. Développement économique : Le 'miracle ivoirien' dans un contexte bipolaire\n\nLa croissance économique rapide (8\\\\% annuel dans les années 1970) s'explique par :\n\n- **Investissements occidentaux** : France (60\\\\% des IDE), USA, Allemagne\n- **Aide au développement** : Plan Marshall étendu aux anciennes colonies\n- **Accès préférentiel aux marchés** : Convention de Lomé avec la CEE\n\n**Données :** Entre 1960 et 1980, le PIB par habitant passe de \\\\$150 à \\\\$1,200 (en dollars constants).\n\n### 3. Relations internationales : Un équilibre pragmatique\n\nMalgré l'alignement occidental, la Côte d'Ivoire maintient :\n\n- **Relations avec l'URSS** : Limitées mais existantes (accords culturels)\n- **Non-alignement de façade** : Participation au Mouvement des Non-Alignés\n- **Médiation régionale** : Rôle dans les conflits africains (Angola, Mozambique)\n\n### 4. Conséquences post-1991\n\nLa fin de la guerre froide entraîne :\n- **Conditionnalité démocratique** : Pressions pour le multipartisme\n- **Réduction de l'aide** : Moins d'importance stratégique\n- **Nouveaux partenaires** : Émergence de la Chine comme acteur majeur\n\n**Conclusion :** La guerre froide a offert à la Côte d'Ivoire une stabilité politique et des opportunités économiques, au prix d'une dépendance à l'Occident. L'après-guerre froide oblige à une redéfinition de la politique étrangère.",
+    "question": "En tant que chercheur à l'Université Félix Houphouët-Boigny d'Abidjan, vous rédigez un article sur l'impact de la guerre froide en Côte d'Ivoire. Analysez comment cette période a influencé : 1) les choix politiques du pays ; 2) son développement économique ; 3) ses relations internationales. Utilisez des exemples précis et des données."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle année marque généralement le début de la bipolarisation ?",
+      "options": [
+        "1945",
+        "1947",
+        "1949",
+        "1953"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle organisation militaire dirige le bloc occidental ?",
+      "options": [
+        "OTAN",
+        "Pacte de Varsovie",
+        "ONU",
+        "CEDEAO"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle crise en 1962 a failli provoquer une guerre nucléaire ?",
+      "options": [
+        "Berlin",
+        "Corée",
+        "Cuba",
+        "Vietnam"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel dirigeant soviétique a initié la Perestroïka ?",
+      "options": [
+        "Staline",
+        "Khrouchtchev",
+        "Brejnev",
+        "Gorbatchev"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "En quelle année le Mur de Berlin est-il tombé ?",
+      "options": [
+        "1985",
+        "1989",
+        "1991",
+        "1993"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel plan américain a aidé la reconstruction de l'Europe après 1945 ?",
+      "options": [
+        "Plan Marshall",
+        "Doctrine Truman",
+        "New Deal",
+        "Lend-Lease"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Combien de jours a duré la crise des missiles de Cuba ?",
+      "options": [
+        "7 jours",
+        "13 jours",
+        "30 jours",
+        "100 jours"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel pays a servi de médiateur pendant la crise de Cuba ?",
+      "options": [
+        "France",
+        "ONU",
+        "Égypte",
+        "Canada"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quelle conférence en 1975 a marqué l'apogée de la Détente ?",
+      "options": [
+        "Yalta",
+        "Potsdam",
+        "Helsinki",
+        "Bandoeng"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel était le principal partenaire économique de la Côte d'Ivoire pendant la guerre froide ?",
+      "options": [
+        "URSS",
+        "USA",
+        "France",
+        "Chine"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

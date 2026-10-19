@@ -1,0 +1,58 @@
+{
+  "id": "anglais-cinquieme-metiers-et-professions-jobs-and-occupations",
+  "title": "Métiers et professions (Jobs and occupations)",
+  "summary": "Pour préparer une exposition sur les métiers, les élèves de 5ème du Collège Moderne de Bouaké rédigent des textes sur différentes professions.",
+  "lesson": "## Jobs and Occupations - Métiers et professions\n\n### Les métiers courants\n\n**Santé et éducation :**\n- doctor - médecin\n- nurse - infirmier/infirmière\n- teacher - enseignant(e)\n- professor - professeur d'université\n\n**Commerce et services :**\n- shopkeeper - commerçant(e)\n- seller - vendeur/vendeuse\n- waiter / waitress - serveur/serveuse\n- cook / chef - cuisinier/cuisinière\n\n**Artisanat et technique :**\n- mechanic - mécanicien(ne)\n- electrician - électricien(ne)\n- plumber - plombier\n- carpenter - menuisier\n- driver - chauffeur\n\n**Autres professions :**\n- farmer - agriculteur\n- police officer - policier\n- firefighter - pompier\n- artist - artiste\n- musician - musicien(ne)\n- lawyer - avocat(e)\n\n### Demander et dire la profession\n\n**Demander :**\n- What do you do? - Que fais-tu ? (profession)\n- What is your job? - Quel est ton métier ?\n- What does your father do? - Que fait ton père ?\n\n**Répondre :**\n- I am a teacher. - Je suis enseignant(e).\n- He is a doctor. - Il est médecin.\n- She works as a nurse. - Elle travaille comme infirmière.\n- My mother is a lawyer. - Ma mère est avocate.\n\n### Les lieux de travail (Workplaces)\n\n- hospital - hôpital (doctor, nurse)\n- school - école (teacher)\n- shop / store - magasin (shopkeeper, seller)\n- restaurant - restaurant (cook, waiter)\n- office - bureau (lawyer, secretary)\n- garage - garage (mechanic)\n- farm - ferme (farmer)\n- police station - commissariat (police officer)\n\n**Structure :**\n- He works in a hospital. - Il travaille dans un hôpital.\n- She works at a school. - Elle travaille dans une école.\n\n### Outils de travail (Tools)\n\n- stethoscope - stéthoscope (doctor)\n- blackboard - tableau (teacher)\n- hammer - marteau (carpenter)\n- wrench - clé à molette (mechanic)\n- computer - ordinateur (many professions)\n\n### Rédiger sur une profession\n\n**Exemple :**\n\"My father is a teacher. He works at a school in Abidjan. He teaches English to secondary school students. He uses books, a blackboard, and a computer. He loves his job because he helps young people learn.\"",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Métiers: doctor, teacher, nurse, mechanic, farmer",
+    "What do you do? / I am a...",
+    "Lieux: hospital, school, shop, office, farm",
+    "He/She works in/at..."
+  ],
+  "exercise": {
+    "question": "Complète : 1) My mother is a ___. She works in a ___. 2) What ___ your father do? He is a ___.",
+    "answer": "\n**Solution possible :**\n1) My mother is a **doctor**. She works in a **hospital**.\n2) What **does** your father do? He is a **teacher**.\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'infirmière' ?",
+      "options": [
+        "Doctor",
+        "Nurse",
+        "Teacher",
+        "Cook"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Où travaille un 'farmer' ?",
+      "options": [
+        "Hospital",
+        "School",
+        "Farm",
+        "Office"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Comment demander la profession ?",
+      "options": [
+        "What are you?",
+        "What do you do?",
+        "Where are you?",
+        "Who are you?"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

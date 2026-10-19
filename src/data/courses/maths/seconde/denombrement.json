@@ -1,0 +1,71 @@
+{
+  "id": "maths-seconde-denombrement",
+  "title": "Dénombrement",
+  "summary": "Parmi les 150 élèves de la promotion Seconde d'un lycée d'Abidjan, 95 parlent couramment l'espagnol et 67 l'allemand. On suppose que chaque élève parle au moins une de ces langues. Un concours est organisé dans l'établissement, réservé aux élèves qui parlent couramment les deux langues. Comment déterminer le nombre d'élèves éligibles en utilisant les principes du dénombrement ?",
+  "lesson": "## Dénombrement : compter méthodiquement\n\n### 1. Notions ensemblistes fondamentales\n\n**Ensemble :** Collection d'objets (éléments)\n- Exemple ivoirien : Ensemble des élèves d'une classe, des matières enseignées, des régions de Côte d'Ivoire\n\n**Cardinal :** Nombre d'éléments d'un ensemble fini, noté Card(A) ou |A|\n\n**Ensembles particuliers :**\n- Ensemble vide : ∅, Card(∅) = 0\n- Singleton : ensemble à 1 élément\n\n### 2. Union et intersection\n\n**Union A ∪ B :** Ensemble des éléments qui sont dans A OU dans B (ou dans les deux)\n\n**Intersection A ∩ B :** Ensemble des éléments qui sont dans A ET dans B\n\n**Exemple ivoirien :**\nA = {élèves pratiquant le football}\nB = {élèves pratiquant le basket}\nA ∪ B = élèves pratiquant au moins un des deux sports\nA ∩ B = élèves pratiquant les deux sports\n\n### 3. Principe fondamental\n\n**Formule du cardinal de l'union :**\nCard(A ∪ B) = Card(A) + Card(B) - Card(A ∩ B)\n\n**Démonstration :** En ajoutant Card(A) et Card(B), on compte deux fois les éléments de A ∩ B, donc on les soustrait une fois.\n\n**Application à la situation :**\nCard(espagnol ∪ allemand) = Card(espagnol) + Card(allemand) - Card(espagnol ∩ allemand)\n150 = 95 + 67 - Card(espagnol ∩ allemand)\nCard(espagnol ∩ allemand) = 95 + 67 - 150 = 12 élèves\n\n### 4. Méthodes de dénombrement\n\n**1. Arbre de choix :** Représentation hiérarchique des possibilités\n- Utile pour les choix successifs\n- Exemple : Choix d'un menu (entrée, plat, dessert) à la cantine\n\n**2. Tableau à double entrée :** Pour deux caractéristiques\n- Lignes : valeurs d'une caractéristique\n- Colonnes : valeurs de l'autre\n- Cases : intersections\n\n**3. Diagramme de Venn :** Représentation graphique des ensembles\n- Cercles qui s'intersectent\n- Zones correspondant aux intersections\n\n**4. Principe multiplicatif :** Si un choix peut se faire de m façons et un autre de n façons indépendamment, alors il y a m × n possibilités combinées.\n\n### 5. Traduction du langage courant\n\n**\"et\" → intersection ∩**\n**\"ou\" → union ∪ (inclusif)**\n**\"au moins un\" → union**\n**\"tous les deux\" → intersection**\n**\"ni l'un ni l'autre\" → complémentaire de l'union**\n**\"un seul\" → union exclusive (sans l'intersection)**\n\n**Exemple ivoirien :** \"Les élèves qui étudient l'anglais ou le français\" = anglais ∪ français\n\"Les élèves qui étudient l'anglais et le français\" = anglais ∩ français\n\n### 6. Problèmes types\n\n**Type 1 : Choix successifs**\nUne tenue scolaire en Côte d'Ivoire : choix parmi 3 chemises, 2 pagnes, 2 paires de chaussures → 3 × 2 × 2 = 12 tenues possibles\n\n**Type 2 : Répartition dans des groupes**\nRépartir 30 élèves en 2 groupes de 15 : nécessite des combinaisons (hors programme de Seconde A)\n\n**Type 3 : Avec contraintes**\nÉlèves pratiquant au moins un sport parmi 3\nOn utilise : Card(A ∪ B ∪ C) = somme des cardinaux simples - somme des intersections deux à deux + intersection des trois\n\n### 7. Applications concrètes en Côte d'Ivoire\n\n**Exemple 1 :** Sondage politique\nSur 1000 personnes sondées à Abidjan :\n- 600 approuvent le maire\n- 400 approuvent le préfet\n- 200 approuvent les deux\nCombien n'approuvent ni l'un ni l'autre ?\nCard(maire ∪ préfet) = 600 + 400 - 200 = 800\nDonc 1000 - 800 = 200 n'approuvent ni l'un ni l'autre\n\n**Exemple 2 :** Options au lycée\nDans un lycée de Bouaké :\n- 120 élèves font espagnol\n- 80 font allemand\n- 200 élèves au total\n- Chaque élève fait au moins une langue\nCombien font les deux langues ?\nCard(espagnol ∩ allemand) = 120 + 80 - 200 = 0 (aucun ne fait les deux)\n\n**Exemple 3 :** Compétences professionnelles\nDans une entreprise d'Abidjan :\n- 50 employés savent utiliser Excel\n- 30 savent utiliser un logiciel de comptabilité\n- 20 savent utiliser les deux\n- 10 ne savent utiliser ni l'un ni l'autre\nTotal d'employés ?\nCard(Excel ∪ Compta) = 50 + 30 - 20 = 60\nTotal = 60 + 10 = 70 employés\n\n### 8. Cardinal du complémentaire\n\n**Complémentaire de A dans E :** A̅ = E \\ A (éléments de E qui ne sont pas dans A)\n\n**Formule :** Card(A̅) = Card(E) - Card(A)\n\n### 9. Cas de trois ensembles\n\n**Formule :**\nCard(A ∪ B ∪ C) = Card(A) + Card(B) + Card(C)\n                - Card(A ∩ B) - Card(A ∩ C) - Card(B ∩ C)\n                + Card(A ∩ B ∩ C)\n\n**Mnémonique :** On ajoute les simples, on retranche les intersections deux à deux, on ajoute l'intersection des trois.\n\n### 10. Vérifications et pièges\n\n**Vérifications à faire :**\n1. Aucun cardinal ne peut être négatif\n2. Card(A ∩ B) ≤ min(Card(A), Card(B))\n3. Card(A ∪ B) ≥ max(Card(A), Card(B))\n4. Card(A ∪ B) ≤ Card(A) + Card(B)\n\n**Pièges courants :**\n- Oublier que \"ou\" est inclusif (sauf indication contraire)\n- Compter deux fois les mêmes éléments\n- Ne pas vérifier la cohérence des résultats\n- Confondre cardinal et proportion\n\n### 11. Utilisation de diagrammes\n\n**Diagramme de Venn :** Très utile pour visualiser\n1. Tracer les ensembles\n2. Remplir de l'intérieur vers l'extérieur\n3. Vérifier les totaux\n\n### 12. Applications interdisciplinaires\n\n- **Probabilités (futur) :** Base du calcul des probabilités\n- **Informatique :** Logique booléenne, bases de données\n- **Gestion :** Analyse de marchés, segmentation client\n- **Sociologie :** Études d'opinion, recensements\n\nLe dénombrement est une compétence essentielle pour analyser quantitativement des populations, des marchés, des opinions, et constitue la base du raisonnement probabiliste qui sera développé dans les classes supérieures.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Card(A ∪ B) = Card(A) + Card(B) - Card(A ∩ B)",
+    "Un arbre de choix aide à compter les possibilités pour des décisions successives",
+    "\"ou\" en mathématique est généralement inclusif (A ou B ou les deux)",
+    "Toujours vérifier qu'un cardinal n'est pas négatif et qu'il est cohérent avec les autres données"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Si Card(A)=30, Card(B)=20 et Card(A ∩ B)=10, alors Card(A ∪ B) =",
+      "options": [
+        "40",
+        "50",
+        "60",
+        "70"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Pour 2 choix ayant respectivement 3 et 4 possibilités indépendantes, le nombre total de combinaisons est :",
+      "options": [
+        "7",
+        "12",
+        "3×4=12",
+        "3+4=7"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "\"Les élèves faisant de l'anglais ET de l'espagnol\" se traduit par :",
+      "options": [
+        "Anglais ∪ Espagnol",
+        "Anglais ∩ Espagnol",
+        "Anglais \\ Espagnol",
+        "Espagnol \\ Anglais"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Si tous les éléments de A sont dans B, alors Card(A ∩ B) =",
+      "options": [
+        "0",
+        "Card(A)",
+        "Card(B)",
+        "Card(A) + Card(B)"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

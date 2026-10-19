@@ -1,0 +1,84 @@
+{
+  "id": "maths-troisieme-proprietes-de-thales-dans-un-triangle",
+  "title": "Propriétés de Thalès dans un triangle",
+  "summary": "Toit d'appâtâm : barre horizontale 10m, verticale 3m. Nouvelle barre verticale à 2m. Longueur ?",
+  "lesson": "## Propriétés de Thalès dans un triangle\n\n### 1. Configuration de Thalès\n\n**Situation :** Triangle ABC avec :\n- Point M sur [AB]\n- Point N sur [AC]\n- (MN) parallèle à (BC)\n\n**Schéma :** Triangle ABC avec (MN) // (BC), M sur [AB], N sur [AC]\n\n### 2. Théorème de Thalès\n\n**Énoncé :** Si (MN) // (BC), alors les rapports de longueurs sont égaux :\n\n**AM/AB = AN/AC = MN/BC**\n\n**Remarque importante :** On peut aussi écrire :\nAB/AM = AC/AN = BC/MN\n\n### 3. Application : Calcul de longueurs\n\n**Exemple 1 (situation-problème du toit) :**\nAppâtâm avec :\n- Barre horizontale (BC) : 10 m\n- Hauteur verticale (AH) : 3 m à l'extrémité\n- Nouvelle barre verticale à 2 m du sommet\n\n**Schéma :** Triangle avec sommet A, base BC horizontale, barre verticale MN parallèle à la hauteur.\n\n**Calcul :**\n- AM/AB = h/3\n- Si M à 2m du sommet et AB total = 5m (exemple)\n- 2/5 = h/3\n- h = (2 × 3)/5 = 1,2 m\n\n**Exemple 2 :** AM = 4 cm, AB = 10 cm, AN = 3 cm, (MN) // (BC)\nCalculer AC.\n\n**Solution :**\nAM/AB = AN/AC\n4/10 = 3/AC\n4 × AC = 10 × 3\nAC = 30/4 = 7,5 cm\n\n**Exemple 3 :** AM = 2 cm, AB = 6 cm, BC = 9 cm, (MN) // (BC)\nCalculer MN.\n\n**Solution :**\nAM/AB = MN/BC\n2/6 = MN/9\nMN = (2 × 9)/6 = 3 cm\n\n### 4. Réciproque du théorème de Thalès\n\n**Énoncé :** Si les rapports sont égaux, alors les droites sont parallèles.\n\nSi AM/AB = AN/AC, alors (MN) // (BC)\n\n**Exemple :** Démontrer que (MN) // (BC)\nDonnées : AM = 3 cm, AB = 9 cm, AN = 2 cm, AC = 6 cm\n\n**Vérification :**\n- AM/AB = 3/9 = 1/3\n- AN/AC = 2/6 = 1/3\n- Les rapports sont égaux → (MN) // (BC) ✓\n\n**Contre-exemple :**\nAM = 3, AB = 8, AN = 2, AC = 7\n- AM/AB = 3/8 = 0,375\n- AN/AC = 2/7 ≈ 0,286\n- Rapports différents → (MN) n'est pas // à (BC)\n\n### 5. Configuration « papillon »\n\n**Autre configuration de Thalès :**\nDeux droites (BC) et (MN) parallèles coupées par deux sécantes (AB) et (AC) qui se croisent en A.\n\n**Même propriété :**\nAM/AB = AN/AC = MN/BC\n\n### 6. Applications pratiques\n\n**Agrandissement/Réduction :**\n\n**Exemple :** Photo 6 cm × 4 cm agrandie, largeur devient 15 cm.\nNouvelle hauteur ?\n\n6/15 = 4/h\nh = (4 × 15)/6 = 10 cm\n\n**Mesures inaccessibles :**\n\n**Exemple :** Arbre + ombre 15 m, bâton 1 m + ombre 1,5 m.\nHauteur arbre ?\n\nPar similitude (Thalès) :\n1/hauteur = 1,5/15\nhauteur = 15/1,5 = 10 m\n\n### 7. Pièges à éviter\n\n**Erreur 1 :** Confondre numérateur et dénominateur\n✗ AM/AN = AB/AC (FAUX)\n✓ AM/AB = AN/AC (CORRECT)\n\n**Erreur 2 :** Utiliser Thalès sans vérifier le parallélisme\nIl FAUT que (MN) // (BC) soit donné ou démontré !\n\n**Erreur 3 :** Mélanger les longueurs\nBien identifier quel segment correspond à quoi dans les rapports.\n\n### 8. Exercice type résolu\n\n**Données :**\n- Triangle ABC\n- M ∈ [AB] avec AM = 4 cm, MB = 6 cm\n- N ∈ [AC] avec AN = 5 cm\n- (MN) // (BC)\n- BC = 15 cm\n\n**Questions :**\n1. Calculer AC\n2. Calculer MN\n\n**Solutions :**\n\n1. **Calculer AC :**\n   - AB = AM + MB = 4 + 6 = 10 cm\n   - AM/AB = AN/AC\n   - 4/10 = 5/AC\n   - AC = (5 × 10)/4 = 12,5 cm\n\n2. **Calculer MN :**\n   - AM/AB = MN/BC\n   - 4/10 = MN/15\n   - MN = (4 × 15)/10 = 6 cm",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Configuration : // + sécantes",
+    "Rapports égaux",
+    "Réciproque : démontre //",
+    "Applications pratiques"
+  ],
+  "exercise": {
+    "question": "AM=2, AB=6, AN=3, (MN)//(BC). AC=?",
+    "answer": "AC = 9"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Thalès nécessite :",
+      "options": [
+        "Triangle rectangle",
+        "2 droites //",
+        "3 points",
+        "Angle droit"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Le théorème de Thalès s'applique lorsque :",
+      "options": [
+        "Les droites sont perpendiculaires",
+        "Les droites sont parallèles",
+        "Le triangle est rectangle",
+        "Les angles sont égaux"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Si AM/AB = 2/3 et AN/AC = 2/3, alors :",
+      "options": [
+        "(MN) // (BC)",
+        "(MN) ⊥ (BC)",
+        "AB = AC",
+        "Rien ne peut être conclu"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans la configuration de Thalès, les rapports sont :",
+      "options": [
+        "Additionnels",
+        "Proportionnels",
+        "Égaux à 1",
+        "Négatifs"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Pour partager un segment en 7 parts égales, on utilise :",
+      "options": [
+        "Le théorème de Pythagore",
+        "La réciproque de Thalès",
+        "Le théorème de Thalès",
+        "La trigonométrie"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "id": "svt-terminale-la-genetique-moleculaire",
+  "title": "La génétique moléculaire",
+  "summary": "Comment l'information génétique est-elle stockée et transmise ? Comment passe-t-on de l'ADN aux protéines ?",
+  "lesson": "## La structure de l'ADN\n\n### Découverte\n\n**1953 :** Watson et Crick découvrent la structure en **double hélice** de l'ADN.\n\n### Composition\n\n**L'ADN** (Acide DésoxyriboNucléique) est constitué de :\n- **Nucléotides** : unités de base\n\nChaque nucléotide comprend :\n1. **Sucre** (désoxyribose)\n2. **Phosphate**\n3. **Base azotée**\n\n### Les 4 bases azotées\n\n**Purines :**\n- **Adénine (A)**\n- **Guanine (G)**\n\n**Pyrimidines :**\n- **Thymine (T)**\n- **Cytosine (C)**\n\n### Complémentarité des bases\n\n**Règle de Chargaff :**\n- **A** s'apparie avec **T** (2 liaisons hydrogène)\n- **G** s'apparie avec **C** (3 liaisons hydrogène)\n\n**Exemple :**\nBrin 1 : 5' - **A T G C C A** - 3'\nBrin 2 : 3' - **T A C G G T** - 5'\n\n### Organisation de l'ADN\n\n**ADN → Chromosomes**\n\n- Dans le noyau\n- 46 chromosomes chez l'humain (23 paires)\n- Chaque chromosome contient une molécule d'ADN enroulée\n\n**Gène :**\nPortion d'ADN codant pour une protéine.\n\n## La réplication de l'ADN\n\n### Définition\n\n**Réplication** = duplication de l'ADN avant la division cellulaire.\n\n### Mécanisme (simplifié)\n\n1. **Ouverture** de la double hélice (enzyme : hélicase)\n2. **Séparation** des deux brins\n3. **Synthèse** de deux nouveaux brins complémentaires (enzyme : ADN polymérase)\n4. Formation de **deux molécules d'ADN identiques**\n\n**Résultat :**\n```\n1 molécule d'ADN → 2 molécules d'ADN identiques\n```\n\n**Réplication semi-conservative :**\nChaque nouvelle molécule contient un brin ancien et un brin nouveau.\n\n## La synthèse des protéines\n\n### Les protéines\n\n**Définition :**\nMacromolécules constituées d'**acides aminés**.\n\n**Rôle :**\n- Enzymes (catalysent les réactions)\n- Structure (muscles, peau)\n- Transport (hémoglobine)\n- Défense (anticorps)\n\n**Il existe 20 acides aminés différents.**\n\n### Du gène à la protéine\n\n**ADN → ARN → Protéine**\n\n### L'ARN messager (ARNm)\n\n**Différences avec l'ADN :**\n- **Simple brin** (pas double hélice)\n- Sucre : **ribose** (au lieu de désoxyribose)\n- Base **Uracile (U)** remplace la Thymine (T)\n\n### Étape 1 : La transcription\n\n**Lieu :** Noyau\n\n**Mécanisme :**\n1. Ouverture de l'ADN\n2. Synthèse d'un brin d'ARNm complémentaire (enzyme : ARN polymérase)\n3. L'ARNm sort du noyau vers le cytoplasme\n\n**Exemple :**\nADN : 5' - **A T G C C A** - 3'\nARNm : 5' - **A U G C C A** - 3'\n\n### Étape 2 : La traduction\n\n**Lieu :** Cytoplasme (ribosomes)\n\n**Mécanisme :**\n1. L'ARNm se fixe sur un ribosome\n2. Lecture de l'ARNm par **codons** (triplets de bases)\n3. Chaque codon correspond à un **acide aminé**\n4. Les acides aminés s'enchaînent pour former la **protéine**\n\n**Code génétique :**\nChaque triplet de bases (codon) code pour un acide aminé.\n\n**Exemples de codons :**\n- **AUG** : Méthionine (codon initiateur)\n- **UUU** : Phénylalanine\n- **UAA** : Codon stop (arrêt de la traduction)\n\n**Exemple complet :**\n```\nADN     : 5' - TAC GGC AAT - 3'\nARNm    : 5' - AUG CCG UUA - 3'\nProtéine:      Met - Pro - Leu\n```\n\n## Les mutations génétiques\n\n### Définition\n\n**Mutation** = modification de la séquence d'ADN.\n\n### Types de mutations\n\n**1. Mutation par substitution**\nRemplacement d'une base par une autre.\n\n**Exemple :**\n```\nADN normal : TAC\nADN muté  : TGC\n```\n\n**2. Mutation par délétion**\nSuppression d'une ou plusieurs bases.\n\n**Exemple :**\n```\nADN normal : TAC GGC AAT\nADN muté  : TAC GC AAT (suppression du G)\n```\n\n**3. Mutation par insertion**\nAjout d'une ou plusieurs bases.\n\n### Conséquences des mutations\n\n**Mutations silencieuses :**\nPas de changement d'acide aminé (code génétique dégénéré).\n\n**Mutations faux-sens :**\nChangement d'acide aminé → protéine modifiée.\n\n**Mutations non-sens :**\nApparition d'un codon stop → protéine tronquée.\n\n### Causes des mutations\n\n**Spontanées :**\n- Erreurs de réplication\n\n**Induites :**\n- **Rayonnements** (UV, rayons X, radioactivité)\n- **Produits chimiques** (tabac, pesticides)\n- **Virus**\n\n### Maladies génétiques\n\n**Exemples :**\n- **Drépanocytose** : mutation du gène de l'hémoglobine (très fréquente en Côte d'Ivoire)\n- **Mucoviscidose**\n- **Myopathie de Duchenne**\n\n### La drépanocytose en Côte d'Ivoire\n\n**Mutation :**\nSubstitution d'une base dans le gène de l'hémoglobine.\n```\nGAG → GTG\nAcide glutamique → Valine\n```\n\n**Conséquence :**\n- Globules rouges déformés (forme de faucille)\n- Anémie\n- Douleurs\n- Infections fréquentes\n\n**Prévalence :** 10-15% de porteurs sains en Côte d'Ivoire\n\n**Dépistage :**\n- Test sanguin (électrophorèse de l'hémoglobine)\n- Recommandé avant le mariage\n- Prise en charge dans les CHU\n\n## Génie génétique et biotechnologies\n\n### Les OGM (Organismes Génétiquement Modifiés)\n\n**Définition :**\nOrganismes dont l'ADN a été modifié par l'homme.\n\n**Applications :**\n- **Agriculture** : plantes résistantes aux insectes (maïs Bt)\n- **Médecine** : production d'insuline humaine par des bactéries\n- **Recherche** : souris transgéniques\n\n### Les enzymes de restriction\n\n**Rôle :**\n\"Ciseaux moléculaires\" qui coupent l'ADN à des endroits précis.\n\n### Le clonage\n\n**Définition :**\nProduction d'individus génétiquement identiques.\n\n**Exemple :**\nDolly (1996) : premier mammifère cloné.\n\n### La thérapie génique\n\n**Objectif :**\nRemplacer un gène défectueux par un gène fonctionnel pour guérir une maladie génétique.\n\n## Éthique et débats\n\n**Questions éthiques :**\n- Sécurité des OGM ?\n- Clonage humain autorisé ?\n- Brevet sur le vivant ?\n- Information génétique et vie privée ?\n\n**En Côte d'Ivoire :**\n- Sensibilisation sur la drépanocytose\n- Conseil génétique disponible\n- Débats sur l'introduction des OGM (coton Bt)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "ADN = double hélice (A-T, G-C)",
+    "Transcription : ADN → ARNm",
+    "Traduction : ARNm → Protéine",
+    "Mutation = modification de l'ADN"
+  ],
+  "exercise": {
+    "question": "Un brin d'ADN a la séquence 5' - TAC GGC ATT - 3'. Donner la séquence de l'ARNm et des acides aminés correspondants. Codons : AUG=Met, CCG=Pro, UAA=Stop",
+    "answer": "\n**Solution :**\n\n**1. Transcription (ADN → ARNm) :**\n\nADN   : 5' - **TAC GGC ATT** - 3'\nARNm  : 5' - **AUG CCG UAA** - 3'\n\n**2. Traduction (ARNm → Protéine) :**\n\n- **AUG** → Méthionine (Met)\n- **CCG** → Proline (Pro)\n- **UAA** → Codon stop (arrêt)\n\n**Réponse :**\n- ARNm : 5' - AUG CCG UAA - 3'\n- Protéine : Met - Pro (puis arrêt)\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Quelle base s'apparie avec l'Adénine (A) dans l'ADN ?",
+      "options": [
+        "Guanine (G)",
+        "Cytosine (C)",
+        "Thymine (T)",
+        "Uracile (U)"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Où se déroule la transcription ?",
+      "options": [
+        "Cytoplasme",
+        "Noyau",
+        "Ribosome",
+        "Mitochondrie"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Combien de bases forme un codon ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-svt-1-mv9rlooc",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Lors de la réplication de l'ADN, quelle enzyme est spécifiquement responsable de la rupture des liaisons hydrogène pour ouvrir la double hélice et former la fourche de réplication ?",
+      "options": [
+        "ADN polymérase",
+        "Hélicase",
+        "Ligase",
+        "Primase"
+      ],
+      "explanation": "L'hélicase est l'enzyme qui dénoue la double hélice en rompant les liaisons hydrogène entre les bases complémentaires. L'ADN polymérase synthétise le nouveau brin, la ligase relie les fragments d'Okazaki et la primase synthétise les amorces d'ARN."
+    },
+    {
+      "id": "auto-svt-2-mv9rlood",
+      "type": "mcq",
+      "answer": 0,
+      "prompt": "Selon la règle de Chargaff, si une molécule d'ADN double brin contient 30 % de Guanine (G), quel est le pourcentage de Cytosine (C) présent dans cette molécule ?",
+      "options": [
+        "30 %",
+        "70 %",
+        "15 %",
+        "60 %"
+      ],
+      "explanation": "La règle de Chargaff stipule que dans l'ADN double brin, la quantité de Guanine est égale à celle de la Cytosine (G = C) car elles s'apparient toujours entre elles. Donc, si G = 30 %, alors C = 30 %."
+    },
+    {
+      "id": "auto-svt-3-mv9rlood",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Quelle est la différence structurelle fondamentale entre le désoxyribose présent dans l'ADN et le ribose présent dans l'ARN ?",
+      "options": [
+        "Le désoxyribose possède un groupe hydroxyle (-OH) en position 2', tandis que le ribose en possède un en position 3'.",
+        "Le désoxyribose manque un atome d'oxygène en position 2' par rapport au ribose.",
+        "Le ribose est un sucre à 5 carbones alors que le désoxyribose en possède 4.",
+        "Le désoxyribose forme des liaisons glycosidiques différentes avec les bases azotées."
+      ],
+      "explanation": "Le nom 'désoxyribose' signifie qu'il est dépourvu d'un atome d'oxygène par rapport au ribose. Cette différence se situe au niveau du carbone 2' (C2') du sucre, où le ribose a un groupe -OH et le désoxyribose un simple hydrogène (-H)."
+    },
+    {
+      "id": "auto-svt-4-mv9rlood",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Dans la structure de la double hélice d'ADN, combien de liaisons hydrogène se forment spécifiquement entre une paire de bases Adénine (A) et Thymine (T) ?",
+      "options": [
+        "1 liaison hydrogène",
+        "2 liaisons hydrogènes",
+        "3 liaisons hydrogènes",
+        "4 liaisons hydrogènes"
+      ],
+      "explanation": "La paire de bases A-T est stabilisée par 2 liaisons hydrogène. En revanche, la paire G-C est plus stable car elle est maintenue par 3 liaisons hydrogène."
+    },
+    {
+      "id": "auto-svt-5-mv9rlood",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Quel est le rôle principal de l'enzyme ADN ligase lors du processus de réplication de l'ADN ?",
+      "options": [
+        "Synthétiser le brin d'ADN dans le sens 5' vers 3'.",
+        "Détacher les histones pour exposer l'ADN.",
+        "Catalyser la formation de liaisons phosphodiester entre les fragments d'Okazaki.",
+        "Éliminer les amorces d'ARN après la synthèse."
+      ],
+      "explanation": "L'ADN ligase a pour fonction de sceller les brins d'ADN en formant des liaisons phosphodiester entre les fragments d'Okazaki (sur le brin retardé) ou entre les segments de brin continu, assurant ainsi la continuité de la molécule d'ADN."
+    },
+    {
+      "id": "auto-svt-1-mva7d29a",
+      "type": "mcq",
+      "prompt": "Lors de la réplication de l'ADN, la synthèse du brin retardé (brin d'Okazaki) nécessite la formation de fragments discontinus. Quelle est la direction de synthèse de l'ADN polymérase sur ce brin retardé par rapport à la direction d'avancement de la fourche de réplication ?",
+      "options": [
+        "Dans la même direction que l'avancement de la fourche",
+        "Dans la direction opposée à l'avancement de la fourche",
+        "Perpendiculairement à l'avancement de la fourche",
+        "La synthèse est bidirectionnelle simultanément sur le même fragment"
+      ],
+      "answer": 1,
+      "explanation": "L'ADN polymérase ne peut synthétiser un nouveau brin que dans le sens 5' vers 3'. Comme les deux brins de la double hélice sont antiparallèles, le brin retardé est synthétisé par fragments (fragments d'Okazaki) dans le sens opposé à l'avancement de la fourche de réplication, contrairement au brin continu (brin avant) qui est synthétisé dans le même sens que la fourche."
+    },
+    {
+      "id": "auto-svt-2-mva7d29a",
+      "type": "mcq",
+      "prompt": "Considérons un gène codant pour une protéine de 100 acides aminés. En excluant les séquences non codantes (promoteurs, introns) et en considérant uniquement la séquence codante (exons) sur l'ADN double brin, combien de paires de bases au minimum sont nécessaires pour coder cette protéine, incluant le codon d'arrêt ?",
+      "options": [
+        "300 paires de bases",
+        "303 paires de bases",
+        "100 paires de bases",
+        "200 paires de bases"
+      ],
+      "answer": 1,
+      "explanation": "Chaque acide aminé est codé par 3 bases (un codon). Pour 100 acides aminés, il faut $100 \\times 3 = 300$ bases. Il faut ajouter un codon d'arrêt (3 bases) pour signaler la fin de la traduction. Le total est donc $300 + 3 = 303$ bases. Comme l'ADN est double brin, cela correspond à 303 paires de bases."
+    },
+    {
+      "id": "auto-svt-3-mva7d29a",
+      "type": "mcq",
+      "prompt": "Dans la structure de l'ADN, les nucléotides d'un même brin sont liés entre eux par des liaisons covalentes. Quel est le nom précis de la liaison chimique qui relie le sucre d'un nucléotide au phosphate du nucléotide suivant ?",
+      "options": [
+        "Liaison phosphodiester",
+        "Liaison glycosidique",
+        "Liaison hydrogène",
+        "Liaison peptidique"
+      ],
+      "answer": 0,
+      "explanation": "L'échafaudage de l'ADN est formé par des liaisons phosphodiester. Ces liaisons covalentes relient le carbone 3' du désoxyribose d'un nucléotide au groupe phosphate du carbone 5' du nucléotide suivant, formant ainsi la chaîne sucrée-phosphatée."
+    },
+    {
+      "id": "auto-svt-4-mva7d29a",
+      "type": "mcq",
+      "prompt": "La transcription de l'ADN en ARN messager (ARNm) est catalysée par l'ARN polymérase. Contrairement à l'ADN polymérase, l'ARN polymérase possède une propriété enzymatique spécifique qui lui permet de démarrer la synthèse sans nécessiter d'amorce (primer). Quelle est cette propriété ?",
+      "options": [
+        "Elle peut initier la synthèse de la chaîne d'ARN de novo (à partir de rien)",
+        "Elle dégrade l'ADN template pour fournir les nucléotides",
+        "Elle utilise des ribonucléotides triphosphates (NTP) comme substrat uniquement",
+        "Elle fonctionne dans le sens 3' vers 5' sur le brin template"
+      ],
+      "answer": 0,
+      "explanation": "L'ARN polymérase a la capacité d'initier la synthèse de la chaîne d'ARN de novo, c'est-à-dire sans avoir besoin d'un brin d'amorce (primer) comme c'est le cas pour l'ADN polymérase lors de la réplication. Elle peut ajouter le premier ribonucléotide à l'extrémité 3' de la chaîne naissante."
+    },
+    {
+      "id": "auto-svt-5-mva7d29a",
+      "type": "mcq",
+      "prompt": "Selon la structure de la double hélice de Watson et Crick, les bases azotées sont orientées vers l'intérieur de la molécule. Quelle est la conséquence directe de cette orientation sur la stabilité de la double hélice et la spécificité de l'appariement des bases ?",
+      "options": [
+        "Les bases forment des liaisons hydrogène spécifiques entre elles, stabilisant la structure et garantissant la complémentarité",
+        "Les bases interagissent par des forces de van der Waals non spécifiques avec l'eau du milieu",
+        "Les bases s'empilent verticalement pour former des liaisons covalentes entre les deux brins",
+        "Les bases sont exposées à l'extérieur pour faciliter la reconnaissance par les enzymes de réparation"
+      ],
+      "answer": 0,
+      "explanation": "L'orientation des bases vers l'intérieur permet la formation de liaisons hydrogène spécifiques entre les paires de bases complémentaires (A-T et G-C). Ces liaisons, combinées aux interactions d'empilement des bases (forces de van der Waals), stabilisent la double hélice et assurent la fidélité de la réplication et de la transcription."
+    }
+  ]
+}

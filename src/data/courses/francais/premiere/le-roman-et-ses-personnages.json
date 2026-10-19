@@ -1,0 +1,110 @@
+{
+  "id": "francais-premiere-le-roman-et-ses-personnages",
+  "title": "Le roman et ses personnages",
+  "summary": "Comment le roman reflète-t-il la société et l'individu ?",
+  "lesson": "## Le roman et ses personnages\n\n### Le héros romanesque\n\n**Le héros traditionnel**\n- Valeurs positives\n- Combat pour une cause\n- Exemples : D'Artagnan, Julien Sorel\n\n**L'anti-héros (XXe siècle)**\n- Personnage ordinaire\n- Sans qualités héroïques\n- Exemples : Meursault (Camus), Bardamu (Céline)\n\n### La vision du monde\n\n**Point de vue omniscient**\n- Narrateur sait tout\n- Vision externe et interne\n\n**Point de vue interne**\n- Vision d'un personnage\n- Focalisation\n\n**Point de vue externe**\n- Vision objective\n- Caméra\n\n### Le roman : miroir de la société\n\n**Roman réaliste (XIXe)**\n- Balzac, Flaubert\n- Description de la société\n\n**Roman d'apprentissage**\n- Formation du héros\n- Évolution psychologique\n\n**Roman engagé**\n- Critique sociale\n- Message politique",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Héros vs anti-héros",
+    "Points de vue narratifs",
+    "Roman = reflet de la société",
+    "Évolution du genre romanesque"
+  ],
+  "exercise": {
+    "question": "Quel est le point de vue dans : 'Il regardait la mer. Il se sentait heureux.' ?",
+    "answer": "\n**Solution :**\n**Point de vue interne** : on connaît les pensées et sentiments du personnage ('il se sentait heureux').\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Un anti-héros est :",
+      "options": [
+        "Un méchant",
+        "Un personnage sans qualités héroïques",
+        "Un héros extraordinaire",
+        "Un narrateur"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 0,
+      "prompt": "Le point de vue omniscient signifie :",
+      "options": [
+        "Le narrateur sait tout",
+        "Vision d'un personnage",
+        "Vision objective",
+        "Pas de narrateur"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-francais-1-mv9js80x",
+      "type": "mcq",
+      "prompt": "Dans la théorie narrative, quel terme désigne spécifiquement le processus par lequel le récit est filtré par la conscience d'un personnage, limitant ainsi l'information disponible au lecteur à ce que ce personnage perçoit ou pense ?",
+      "options": [
+        "La focalisation interne",
+        "La narration omnisciente",
+        "La description objective",
+        "Le monologue intérieur"
+      ],
+      "answer": 0,
+      "explanation": "La focalisation interne (ou point de vue interne) est le mécanisme narratif où le lecteur ne connaît que ce que le personnage focalisateur perçoit. Cela se distingue du monologue intérieur (technique stylistique) et de l'omniscience (savoir total du narrateur)."
+    },
+    {
+      "id": "auto-francais-2-mv9js80x",
+      "type": "mcq",
+      "prompt": "Le roman d'apprentissage, ou *Bildungsroman*, se caractérise principalement par :",
+      "options": [
+        "La critique politique directe de l'ordre social établi",
+        "L'évolution psychologique et morale du héros vers une maturité acquise",
+        "La représentation d'un héros traditionnel aux valeurs inaltérables",
+        "L'absence totale de description du cadre social"
+      ],
+      "answer": 1,
+      "explanation": "Le roman d'apprentissage (*Bildungsroman*) met en scène la formation du héros. Contrairement au roman engagé (critique politique) ou au héros traditionnel (valeurs fixes), l'accent est mis sur la transformation intérieure et l'évolution psychologique du personnage au fil de son parcours."
+    },
+    {
+      "id": "auto-francais-3-mv9js80x",
+      "type": "mcq",
+      "prompt": "En quoi le roman réaliste du XIXe siècle, tel que pratiqué par Balzac ou Flaubert, se distingue-t-il fondamentalement du roman romantique ?",
+      "options": [
+        "Il privilégie l'expression des sentiments intenses et l'imaginaire",
+        "Il adopte une démarche d'observation objective et de description minutieuse de la société",
+        "Il se concentre exclusivement sur la vie intérieure sans ancrage social",
+        "Il utilise un narrateur qui intervient directement pour juger les personnages"
+      ],
+      "answer": 1,
+      "explanation": "Le réalisme (XIXe) repose sur l'observation objective et la description précise de la réalité sociale (le roman comme miroir). Le romantisme, en revanche, privilégie le subjectivisme, l'émotion et l'imaginaire. L'option 1 décrit le romantisme, l'option 3 le courant psychologique/moderne, et l'option 4 une narration intrusive non spécifique au réalisme."
+    },
+    {
+      "id": "auto-francais-4-mv9js80x",
+      "type": "mcq",
+      "prompt": "Le passage d'un héros traditionnel (comme Julien Sorel) à l'anti-héros (comme Meursault) au XXe siècle traduit :",
+      "options": [
+        "Une volonté de renforcer les valeurs morales positives du personnage",
+        "Une rupture avec l'idéal de grandeur et une mise en scène de l'ordinaire ou de l'absurde",
+        "L'abandon de la structure narrative au profit du flux de conscience",
+        "L'adoption systématique du point de vue externe par tous les auteurs"
+      ],
+      "answer": 1,
+      "explanation": "L'anti-héros est défini par son ordinarité, son absence de qualités héroïques et sa confrontation avec un monde absurde ou indifférent. Cela marque une rupture avec le héros traditionnel qui combat pour une cause et incarne des valeurs positives. Les autres options sont des généralisations fausses ou des confusions de techniques."
+    },
+    {
+      "id": "auto-francais-5-mv9js80x",
+      "type": "mcq",
+      "prompt": "Quel est le rôle principal du roman engagé dans la réflexion sur le rapport entre littérature et société ?",
+      "options": [
+        "Offrir une évasion purement esthétique sans lien avec la réalité",
+        "Servir d'instrument de critique sociale et de transmission d'un message politique",
+        "Documenter de manière neutre les mœurs d'une époque sans prise de position",
+        "Se concentrer uniquement sur l'analyse psychologique fine du héros"
+      ],
+      "answer": 1,
+      "explanation": "Le roman engagé (ex: Sartre, Camus dans certains aspects) a pour fonction explicite de critiquer la société et de porter un message politique ou moral. Il ne se contente pas de décrire (réalisme neutre) ni de s'isoler dans l'esthétique pure ou la psychologie seule."
+    }
+  ]
+}

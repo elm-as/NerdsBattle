@@ -1,0 +1,123 @@
+{
+  "id": "svt-sixieme-la-nutrition-chez-les-plantes",
+  "title": "La nutrition chez les plantes",
+  "summary": "Dans le jardin de l'école, les élèves cultivent des tomates et du maïs. Comment les plantes se nourrissent-elles ?",
+  "lesson": "## Comment les plantes se nourrissent-elles ?\n\nContrairement aux animaux, les plantes **fabriquent leur propre nourriture** !\n\n### La photosynthèse\n\nC'est le processus par lequel les plantes fabriquent leur nourriture.\n\n**Les ingrédients nécessaires :**\n1. **Lumière du soleil** ☀️\n2. **Eau** 💧 (par les racines)\n3. **Dioxyde de carbone** (CO₂) de l'air\n4. **Chlorophylle** (pigment vert des feuilles)\n\n**Ce qui est produit :**\n- **Glucose** (sucre = nourriture)\n- **Oxygène** (O₂) rejeté dans l'air\n\n### Les besoins des plantes\n\nPour bien grandir, une plante a besoin de :\n- **Lumière** - pour la photosynthèse\n- **Eau** - pour transporter les nutriments\n- **Air** - pour le CO₂\n- **Nutriments du sol** - minéraux\n\n### Exemples en Côte d'Ivoire\n\n- **Le cacaoyer** : besoin d'ombre et d'humidité\n- **Le palmier à huile** : aime le soleil et l'eau\n- **Le manioc** : résiste bien à la sécheresse",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Les plantes fabriquent leur nourriture par photosynthèse",
+    "Besoins : lumière, eau, CO₂, nutriments",
+    "Les plantes produisent l'oxygène que nous respirons",
+    "La chlorophylle donne la couleur verte"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Comment s'appelle le processus de fabrication de nourriture par les plantes ?",
+      "options": [
+        "Respiration",
+        "Photosynthèse",
+        "Digestion",
+        "Transpiration"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Quel gaz les plantes absorbent-elles de l'air ?",
+      "options": [
+        "Oxygène",
+        "Azote",
+        "Dioxyde de carbone",
+        "Hydrogène"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Quelle partie de la plante absorbe l'eau ?",
+      "options": [
+        "Les feuilles",
+        "Les fleurs",
+        "Les racines",
+        "La tige"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-svt-1-mv9rf6fr",
+      "type": "mcq",
+      "prompt": "Lors de la photosynthèse, quelle est la matière organique principale fabriquée par la plante à partir du dioxyde de carbone et de l'eau ?",
+      "options": [
+        "L'oxygène",
+        "Le glucose",
+        "La chlorophylle",
+        "L'amidon"
+      ],
+      "answer": 1,
+      "explanation": "La photosynthèse transforme l'eau et le dioxyde de carbone en glucose (sucre) qui constitue la nourriture de la plante, et en oxygène qui est rejeté dans l'air. L'amidon est une forme de stockage du glucose, mais le produit direct de la réaction est le glucose."
+    },
+    {
+      "id": "auto-svt-2-mv9rf6fr",
+      "type": "mcq",
+      "prompt": "Quel pigment vert, présent dans les feuilles, est indispensable pour capter l'énergie lumineuse nécessaire à la photosynthèse ?",
+      "options": [
+        "La carotène",
+        "La xanthophylle",
+        "La chlorophylle",
+        "L'anthocyanine"
+      ],
+      "answer": 2,
+      "explanation": "La chlorophylle est le pigment principal responsable de la couleur verte des feuilles et qui permet aux plantes d'absorber la lumière du soleil pour alimenter le processus de photosynthèse."
+    },
+    {
+      "id": "auto-svt-3-mv9rf6fr",
+      "type": "mcq",
+      "prompt": "Parmi les plantes cultivées en Côte d'Ivoire mentionnées dans le cours, laquelle est caractérisée par sa résistance à la sécheresse ?",
+      "options": [
+        "Le cacaoyer",
+        "Le palmier à huile",
+        "Le manioc",
+        "Le maïs"
+      ],
+      "answer": 2,
+      "explanation": "Le cours indique explicitement que le manioc résiste bien à la sécheresse, contrairement au cacaoyer qui a besoin d'humidité et au palmier à huile qui aime l'eau."
+    },
+    {
+      "id": "auto-svt-4-mv9rf6fr",
+      "type": "mcq",
+      "prompt": "Quel gaz est rejeté dans l'atmosphère comme produit de la photosynthèse ?",
+      "options": [
+        "Le dioxyde de carbone",
+        "L'azote",
+        "L'oxygène",
+        "L'argon"
+      ],
+      "answer": 2,
+      "explanation": "La photosynthèse consomme du dioxyde de carbone et produit de l'oxygène, qui est ensuite rejeté dans l'air. C'est ce processus qui contribue à l'oxygénation de l'atmosphère."
+    },
+    {
+      "id": "auto-svt-5-mv9rf6fr",
+      "type": "mcq",
+      "prompt": "En plus de la lumière, de l'eau et du dioxyde de carbone, quel élément du sol est nécessaire à la croissance des plantes pour leur fournir des nutriments minéraux ?",
+      "options": [
+        "Les minéraux",
+        "Le glucose",
+        "L'oxygène",
+        "La chlorophylle"
+      ],
+      "answer": 0,
+      "explanation": "Les plantes ont besoin de nutriments du sol, qui sont des minéraux, pour bien grandir. Ces éléments sont absorbés par les racines et complètent les besoins nutritionnels de la plante."
+    }
+  ]
+}

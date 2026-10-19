@@ -1,0 +1,32 @@
+{
+  "id": "physique-troisieme-masse-et-poids-d-un-corps",
+  "title": "Masse et poids d'un corps",
+  "summary": "Vente anacarde à Koun-Fao : reçu indique 'poids : 80 kg'. Élèves de 3ème 4 débattent sur cette écriture.",
+  "lesson": "# Masse et poids\n\n## I. La masse\n\n### Définition\nQuantité de matière d'un corps\n\n### Caractéristiques\n- Grandeur scalaire\n- Unité SI : kilogramme (kg)\n- Constante en tout lieu\n- Mesure : balance\n\n## II. Le poids\n\n### Définition\nForce d'attraction terrestre sur un corps\n\n### Caractéristiques\n- Grandeur vectorielle\n- Unité SI : newton (N)\n- Varie avec le lieu\n- Mesure : dynamomètre\n\n### Formule\nP = m × g\n\nOù :\n- P = poids (N)\n- m = masse (kg)\n- g = intensité pesanteur ≈ 10 N/kg en CI\n\n## III. Différences masse/poids\n\nMasse (kg) vs Poids (N)\n- Scalaire vs Vecteur\n- Constante vs Variable\n- Balance vs Dynamomètre\n\n## IV. Masse volumique\n\nρ = m/V\n\nUnité : kg/m³ ou g/cm³",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Masse (kg) ≠ Poids (N)",
+    "P = m × g",
+    "g ≈ 10 N/kg en CI",
+    "Poids varie, masse constante"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "L'unité SI du poids est :",
+      "options": [
+        "kg",
+        "N",
+        "g",
+        "Pa"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

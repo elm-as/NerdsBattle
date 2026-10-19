@@ -1,0 +1,283 @@
+{
+  "id": "maths-terminale-fonctions-logarithmes",
+  "title": "Fonctions logarithmes",
+  "summary": "Le médico-scolaire de la commune organise une campagne de dépistage de la fièvre typhoïde dans un établissement de Korhogo. Après avoir examiné $n$ élèves pris au hasard, le médecin chef affirme que la probabilité d'avoir au moins un élève non atteint est donnée par $1 - 0.325^n$. Le chef d'établissement veut connaître le nombre minimum d'élèves $n$ tel que cette probabilité soit supérieure à 0,98. Après des essais infructueux à la calculatrice, le professeur de Mathématiques conseille d'utiliser la touche ",
+  "lesson": "## 1. Définition de la fonction logarithme népérien\n\n**Définition (par primitive) :** La fonction **logarithme népérien**, notée $\\\\ln$, est l'unique primitive de la fonction $x \\\\mapsto \\\\frac{1}{x}$ sur $]0, +\\\\infty[$ qui s'annule en 1.\n$$\\\\forall x > 0, \\\\ln'(x) = \\\\frac{1}{x} \\\\quad \\\text{et} \\\\quad \\\\ln(1)=0$$\n\n**Conséquences immédiates :**\n- $\\\\ln$ est dérivable, donc continue, sur $]0, +\\\\infty[$.\n- Comme $\\\\ln'(x) = \\\\frac{1}{x} > 0$ pour $x>0$, la fonction $\\\\ln$ est **strictement croissante** sur son domaine.\n\n## 2. Propriétés algébriques fondamentales\n\nPour tous réels strictement positifs $a$ et $b$, et pour tout entier relatif $n$ :\n\n1. **Relation fonctionnelle (transformation des produits en sommes) :**\n$\\\\ln(a \\\times b) = \\\\ln a + \\\\ln b$.\n\n2. **Logarithme d'un quotient :**\n$\\\\ln\\\\left(\\\\frac{a}{b}\\\\right) = \\\\ln a - \\\\ln b$.\n\n3. **Logarithme d'une puissance :**\n$\\\\ln(a^n) = n \\\\ln a$.\n\n**Conséquence importante :** $\\\\ln\\\\left(\\\\frac{1}{a}\\\\right) = -\\\\ln a$.\n\nCes propriétés expliquent l'utilité historique des logarithmes pour simplifier les calculs (règles à calcul, tables).\n\n## 3. Étude de la fonction $\\\\ln$\n\n**Dérivée et variations :** $\\\\ln'(x)=\\\\frac{1}{x} > 0$, donc $\\\\ln$ est strictement croissante sur $]0, +\\\\infty[$.\n\n**Limites :**\n- $\\\\lim_{x \\\to 0^+} \\\\ln x = -\\\\infty$ (l'axe des ordonnées est asymptote verticale).\n- $\\\\lim_{x \\\to +\\\\infty} \\\\ln x = +\\\\infty$.\n\n**Valeur particulière :** $\\\\ln e = 1$, où $e \\\\approx 2.71828$ est le nombre d'Euler.\n\n**Représentation graphique :**\n```mathgraph\n{\n  \"type\": \"function\",\n  \"title\": \"Fonction logarithme népérien\",\n  \"xRange\": [0, 10],\n  \"yRange\": [-5, 3],\n  \"functions\": [\n    { \"expression\": \"ln(x)\", \"color\": \"#8884d8\", \"name\": \"ln(x)\" }\n  ],\n  \"showGrid\": true,\n  \"showAxes\": true,\n  \"asymptotes\": [\n    { \"type\": \"vertical\", \"x\": 0 }\n  ],\n  \"points\": [\n    { \"x\": 1, \"y\": 0, \"label\": \"(1,0)\" },\n    { \"x\": 2.718, \"y\": 1, \"label\": \"(e,1)\" }\n  ]\n}\n```\n\n## 4. Logarithme décimal et logarithme de base $a$\n\n**Logarithme décimal :** Noté $\\\\log$ ou $\\\\log_{10}$. Défini par : $\\\\log x = \\\\frac{\\\\ln x}{\\\\ln 10}$ pour $x>0$.\nPropriété : $\\\\log(10^n) = n$. Très utilisé en chimie (pH, pKa) et avec les échelles logarithmiques (décibels, Richter).\n\n**Logarithme de base $a$ :** Pour $a>0$ et $a \\\neq 1$, $\\\\log_a x = \\\\frac{\\\\ln x}{\\\\ln a}$ pour $x>0$.\nPropriété clé : $\\\\log_a(a^x)=x$ et $a^{\\\\log_a x}=x$ (fonctions réciproques).\n\n## 5. Croissance comparée de $\\\\ln$\n\n**Limites fondamentales à connaître :**\n1. $\\\\lim_{x \\\to +\\\\infty} \\\\frac{\\\\ln x}{x} = 0$.\n   Le logarithme croît **beaucoup plus lentement** que toute fonction puissance $x^\\\\alpha$ (avec $\\\\alpha>0$).\n2. $\\\\lim_{x \\\to 0^+} x \\\\ln x = 0$.\n\n**Comparaison en $+\\\\infty$ :** Pour $n \\\\in \\\\mathbb{N}^*$, $\\\\lim_{x \\\to +\\\\infty} \\\\frac{\\\\ln x}{x^n} = 0$.\n**Comparaison en $0^+$ :** $\\\\lim_{x \\\to 0^+} x^n \\\\ln x = 0$ pour $n>0$.\n\n## 6. Équations et inéquations logarithmiques\n\nOn utilise la **stricte croissance** de $\\\\ln$ pour résoudre :\n\n- $\\\\ln A = \\\\ln B \\\\iff A = B$ (avec $A>0, B>0$).\n- $\\\\ln A < \\\\ln B \\\\iff A < B$ (avec $A>0, B>0$).\n\n**Attention :** Il faut **toujours** vérifier les conditions d'existence (arguments des $\\\\ln$ strictement positifs).\n\n**Exemple type :** Résoudre $\\\\ln(2x-1) \\\\geq \\\\ln(x+3)$.\nConditions : $2x-1>0 \\\\Rightarrow x>\\\\frac{1}{2}$ et $x+3>0 \\\\Rightarrow x>-3$. Donc $x>\\\\frac{1}{2}$.\nPar croissance de $\\\\ln$ : $\\\\ln(2x-1) \\\\geq \\\\ln(x+3) \\\\iff 2x-1 \\\\geq x+3 \\\\iff x \\\\geq 4$.\nIl faut prendre l'intersection avec la condition $x>\\\\frac{1}{2}$. Donc $S=[4, +\\\\infty[$.\n\n## 7. Dérivation et primitives avec $\\\\ln$\n\n**Dérivée de $\\\\ln \\\\circ u$ :** Si $u$ est dérivable et strictement positive sur $I$, alors $(\\\\ln \\\\circ u)' = \\\\frac{u'}{u}$.\n\n**Dérivée de $\\\\ln |u|$ :** Si $u$ est dérivable et ne s'annule pas sur $I$, alors $(\\\\ln |u|)' = \\\\frac{u'}{u}$. (Utile lorsque $u$ peut être négative).\n\n**Primitives à connaître :** Une primitive de $\\\\frac{u'}{u}$ sur un intervalle où $u$ ne s'annule pas est $\\\\ln |u|$.\n\n## 8. Résolution de la situation d'apprentissage\n\nLe problème posé est : trouver le plus petit entier $n$ tel que $1 - 0.325^n > 0.98$.\n\n**Résolution avec le logarithme :**\n$1 - 0.325^n > 0.98 \\\\iff -0.325^n > -0.02 \\\\iff 0.325^n < 0.02$.\n\nOn applique le logarithme népérien (qui est strictement croissant, donc il conserve l'ordre) :\n$\\\\ln(0.325^n) < \\\\ln(0.02) \\\\iff n \\\\ln(0.325) < \\\\ln(0.02)$.\n\n**Attention :** $\\\\ln(0.325) \\\\approx -1.124$ est **négatif**. Lorsqu'on divise par un nombre négatif, il faut changer le sens de l'inégalité :\n$n > \\\\frac{\\\\ln(0.02)}{\\\\ln(0.325)}$ (car on divise par $\\\\ln(0.325) < 0$).\n\nCalculs : $\\\\ln(0.02) \\\\approx -3.912$, $\\\\ln(0.325) \\\\approx -1.124$.\n$\\\\frac{\\\\ln(0.02)}{\\\\ln(0.325)} \\\\approx \\\\frac{-3.912}{-1.124} \\\\approx 3.48$.\nDonc $n > 3.48$. Le plus petit entier $n$ vérifiant cette inégalité est $n = 4$.\n\n**Interprétation :** Il faut examiner au moins 4 élèves pour que la probabilité d'en avoir au moins un non atteint dépasse 98%.\n\n**Généralisation :** Pour résoudre une inéquation $q^n \\\\leq a$ (avec $0<q<1$ et $a>0$), on a : $n \\\\geq \\\\frac{\\\\ln a}{\\\\ln q}$ (car $\\\\ln q < 0$).",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "La fonction $\\\\ln$ est définie sur $]0, +\\\\infty[$ par $\\\\ln'(x)=\\\\frac{1}{x}$ et $\\\\ln(1)=0$. Elle est strictement croissante.",
+    "Propriétés algébriques clés : $\\\\ln(ab)=\\\\ln a+\\\\ln b$, $\\\\ln(a/b)=\\\\ln a-\\\\ln b$, $\\\\ln(a^n)=n\\\\ln a$.",
+    "Limites : $\\\\ln x \\\\to -\\\\infty$ quand $x \\\\to 0^+$ et $\\\\ln x \\\\to +\\\\infty$ quand $x \\\\to +\\\\infty$. L'axe des ordonnées est asymptote.",
+    "Croissance comparée : En $+\\\\infty$, $\\\\ln x$ est négligeable devant $x^\\\\alpha$ ($\\\\alpha>0$) : $\\\\lim \\\\frac{\\\\ln x}{x^\\\\alpha}=0$.",
+    "Le logarithme décimal $\\\\log x$ est défini par $\\\\frac{\\\\ln x}{\\\\ln 10}$. Il est utile pour les échelles logarithmiques (pH, décibels).",
+    "Pour résoudre $\\\\ln A = \\\\ln B$, on a $A=B$ (avec $A,B>0$). Pour les inégalités, utiliser la croissance stricte.",
+    "Dérivée : $(\\\\ln \\\\circ u)' = \\\\frac{u'}{u}$ si $u>0$. Primitive : $\\\\int \\\\frac{u'}{u} dx = \\\\ln|u| + C$.",
+    "Lorsqu'on applique $\\\\ln$ à une inégalité du type $q^n \\\\leq a$ avec $0<q<1$, le sens change car $\\\\ln q < 0$."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "L'ensemble de définition de la fonction $x \\\\mapsto \\\\ln(x-2)$ est :",
+      "options": [
+        "$\\\\mathbb{R}$",
+        "$]2, +\\\\infty[$",
+        "$[2, +\\\\infty[$",
+        "$]0, +\\\\infty[$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "$\\\\ln(e^3 \\\\times e^2)$ est égal à :",
+      "options": [
+        "5",
+        "6",
+        "$e^5$",
+        "$e^6$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La dérivée de $f(x)=\\\\ln(3x+1)$ est :",
+      "options": [
+        "$\\\\frac{1}{3x+1}$",
+        "$\\\\frac{3}{3x+1}$",
+        "$\\\\frac{3x}{3x+1}$",
+        "$\\\\ln(3)$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "$\\\\lim_{x \\\\to +\\\\infty} \\\\frac{\\\\ln x}{\\\\sqrt{x}}$ est :",
+      "options": [
+        "$+\\\\infty$",
+        "1",
+        "0",
+        "$-\\\\infty$"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Une solution de l'équation $\\\\ln(x+1) = 2$ est :",
+      "options": [
+        "$e^2$",
+        "$e^2 - 1$",
+        "$e^2 + 1$",
+        "$2e$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Le logarithme décimal de 1000 est :",
+      "options": [
+        "2",
+        "3",
+        "10",
+        "$\\\\ln 1000$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Si $\\\\ln a = 2$ et $\\\\ln b = 3$, alors $\\\\ln(\\\\frac{a^2}{b})$ vaut :",
+      "options": [
+        "1",
+        "4",
+        "5",
+        "7"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "La primitive $F$ de $f(x)=\\\\frac{2}{2x-1}$ sur $]\\\\frac{1}{2}, +\\\\infty[$ telle que $F(1)=0$ est :",
+      "options": [
+        "$F(x)=\\\\ln(2x-1)$",
+        "$F(x)=2\\\\ln(2x-1)$",
+        "$F(x)=\\\\ln(2x-1) - \\\\ln 1$",
+        "$F(x)=\\\\ln(2x-1) - 1$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "L'inéquation $\\\\ln(3-x) \\\\geq 0$ a pour ensemble de solutions (en considérant le domaine) :",
+      "options": [
+        "$]0, 3]$",
+        "$]0, 2]$",
+        "$[-\\\\infty, 2]$",
+        "$[2, 3[$"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Pour $x>0$, $\\\\ln(x^2) + \\\\ln(\\\\sqrt{x})$ peut se simplifier en :",
+      "options": [
+        "$\\\\frac{5}{2}\\\\ln x$",
+        "$2\\\\ln x$",
+        "$\\\\ln(x^{2.5})$",
+        "$\\\\ln(2x)$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "$\\\\ln(e^5)$ vaut :",
+      "options": [
+        "5",
+        "e",
+        "1",
+        "0"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Si $\\\\ln x = 2$, alors $x$ =",
+      "options": [
+        "2",
+        "e²",
+        "ln2",
+        "10²"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "$\\\\lim_{x\\\\to+\\\\infty}\\\\frac{\\\\ln x}{x}$ =",
+      "options": [
+        "+∞",
+        "1",
+        "0",
+        "-∞"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Dérivée de $\\\\ln(3x+1)$ :",
+      "options": [
+        "$\\\\frac{1}{3x+1}$",
+        "$\\\\frac{3}{3x+1}$",
+        "$\\\\frac{1}{x}$",
+        "$3\\\\ln(3x+1)$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Solution de $\\\\ln(2x)=0$ :",
+      "options": [
+        "0",
+        "1/2",
+        "1",
+        "2"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Si $\\\\ln a < \\\\ln b$, alors (a,b>0) :",
+      "options": [
+        "a<b",
+        "a>b",
+        "a=b",
+        "on ne sait pas"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "$\\\\ln(4)+\\\\ln(0.25)$ =",
+      "options": [
+        "0",
+        "1",
+        "ln1",
+        "ln4.25"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Primitive de $\\\\frac{2}{x}$ :",
+      "options": [
+        "$2\\\\ln x$",
+        "$\\\\ln(2x)$",
+        "$\\\\frac{2}{x^2}$",
+        "$2\\\\ln|x|$"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Ensemble définition de $\\\\ln(2-x)$ :",
+      "options": [
+        "$]2,+\\\\infty[$",
+        "$]-\\\\infty,2[$",
+        "$]-\\\\infty,2]$",
+        "$]0,2[$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "$\\\\lim_{x\\\\to0^+}x\\\\ln x$ =",
+      "options": [
+        "+∞",
+        "-∞",
+        "0",
+        "1"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

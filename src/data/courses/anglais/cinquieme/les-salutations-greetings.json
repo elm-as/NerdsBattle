@@ -1,0 +1,58 @@
+{
+  "id": "anglais-cinquieme-les-salutations-greetings",
+  "title": "Les salutations (Greetings)",
+  "summary": "Dans la cour du Collège Moderne de Dimbokro, après le premier cours d'anglais, les élèves de la 5ème se saluent et se présentent les uns aux autres pour mieux faire connaissance.",
+  "lesson": "## Greetings - Les salutations\n\n### Salutations selon le moment de la journée\n\n**Le matin (Morning) :**\n- Good morning! - Bonjour ! (le matin)\n- How are you this morning? - Comment allez-vous ce matin ?\n\n**L'après-midi (Afternoon) :**\n- Good afternoon! - Bonjour ! (l'après-midi)\n\n**Le soir (Evening) :**\n- Good evening! - Bonsoir !\n\n**À tout moment :**\n- Hello! / Hi! - Salut !\n- How are you? - Comment vas-tu ?\n- How do you do? - Enchanté (première rencontre formelle)\n\n### Répondre aux salutations\n\n**Réponses positives :**\n- I'm fine, thank you. - Je vais bien, merci.\n- I'm very well, thanks. - Je vais très bien, merci.\n- Great! - Super !\n- Not bad. - Pas mal.\n\n**Et vous ? :**\n- And you? - Et toi ?\n- How about you? - Et toi ?\n\n### Se présenter (Introducing yourself)\n\n**Donner son nom :**\n- My name is Kofi. - Je m'appelle Kofi.\n- I'm Awa. - Je suis Awa.\n\n**Demander le nom :**\n- What's your name? - Comment t'appelles-tu ?\n- May I know your name? - Puis-je connaître ton nom ?\n\n**Plaisir de rencontrer :**\n- Nice to meet you! - Ravi de te rencontrer !\n- Pleased to meet you! - Enchanté !\n\n**Réponse :**\n- Nice to meet you too! - Ravi de te rencontrer aussi !\n\n### Dire au revoir (Saying goodbye)\n\n- Goodbye! - Au revoir !\n- Bye! - Salut !\n- See you later! - À plus tard !\n- See you tomorrow! - À demain !\n- See you soon! - À bientôt !\n- Have a nice day! - Bonne journée !\n\n## Dialogue exemple\n\n**Kofi:** Good morning, Awa!\n**Awa:** Good morning, Kofi! How are you?\n**Kofi:** I'm fine, thank you. And you?\n**Awa:** I'm very well, thanks.\n**Kofi:** My name is Kofi Kouassi. What's your name?\n**Awa:** I'm Awa Traoré. Nice to meet you!\n**Kofi:** Nice to meet you too!",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Good morning / afternoon / evening selon le moment",
+    "How are you? / I'm fine, thank you",
+    "My name is... / What's your name?",
+    "Nice to meet you! pour se présenter"
+  ],
+  "exercise": {
+    "question": "Complète le dialogue : A: Good ___ ! How ___ you? B: I'm ___, thank you. My ___ is Yao. ___ to meet you!",
+    "answer": "\n**Solution :**\nA: Good **morning**! How **are** you?\nB: I'm **fine**, thank you. My **name** is Yao. **Nice** to meet you!\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'Bonjour' le matin ?",
+      "options": [
+        "Good evening",
+        "Good afternoon",
+        "Good morning",
+        "Good night"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle est la bonne réponse à 'How are you?' ?",
+      "options": [
+        "I'm Kofi",
+        "I'm 12",
+        "I'm fine, thank you",
+        "Goodbye"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Comment demander le nom de quelqu'un ?",
+      "options": [
+        "How are you?",
+        "What's your name?",
+        "Where are you?",
+        "How old are you?"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

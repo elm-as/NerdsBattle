@@ -1,0 +1,109 @@
+{
+  "id": "maths-seconde-statistiques-et-probabilites",
+  "title": "Statistiques et probabilités",
+  "summary": "Une entreprise analyse les résultats d'une enquête. Comment traiter ces données ?",
+  "lesson": "## Statistiques et probabilités\n\n### Indicateurs statistiques\n- **Moyenne** : somme ÷ effectif total\n- **Médiane** : valeur centrale\n- **Quartiles** : Q₁ (25%), Q₃ (75%)\n- **Écart-type** : mesure de dispersion\n\n### Probabilités\n**Probabilité d'un événement A :**\nP(A) = nombre de cas favorables / nombre de cas possibles\n\n### Propriétés\n- 0 ≤ P(A) ≤ 1\n- P(Ā) = 1 − P(A) (événement contraire)\n- P(A ∪ B) = P(A) + P(B) − P(A ∩ B)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Médiane : 50% avant, 50% après",
+    "Probabilité : entre 0 et 1",
+    "Événements incompatibles : P(A∩B) = 0"
+  ],
+  "exercise": {
+    "question": "On lance un dé à 6 faces. Quelle est la probabilité d'obtenir un nombre pair ?",
+    "answer": "\n**Solution :**\nNombres pairs : {2, 4, 6} = 3 cas favorables\nCas possibles : 6\nP = 3/6 = 1/2\n\n**Réponse : P = 1/2 = 0,5 = 50%**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Une probabilité vaut toujours :",
+      "options": [
+        "Entre -1 et 1",
+        "Entre 0 et 1",
+        "Entre 0 et 100",
+        "Un nombre positif"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Si P(A) = 0,3, alors P(Ā) = ?",
+      "options": [
+        "0,3",
+        "0,7",
+        "1",
+        "0"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-maths-1-mva439tp",
+      "type": "mcq",
+      "prompt": "Soit une série statistique d'effectif total $N=100$. La médiane de cette série est définie comme la moyenne des valeurs rangs 50 et 51 lorsque les données sont triées par ordre croissant. Si la valeur au rang 50 est $12$ et la valeur au rang 51 est $14$, quelle est la médiane de la série ?",
+      "options": [
+        "12",
+        "13",
+        "14",
+        "13,5"
+      ],
+      "answer": 1,
+      "explanation": "Pour un effectif pair $N=100$, la médiane est la moyenne des deux valeurs centrales, soit les rangs $N/2 = 50$ et $N/2 + 1 = 51$. Le calcul est donc $(12 + 14) / 2 = 13$."
+    },
+    {
+      "id": "auto-maths-2-mva439tp",
+      "type": "mcq",
+      "prompt": "On considère deux événements $A$ et $B$ d'un même espace probabilisé. On sait que $P(A) = 0,4$, $P(B) = 0,5$ et que $A$ et $B$ sont incompatibles (disjoints). Quelle est la valeur de $P(A \\cup B)$ ?",
+      "options": [
+        "0,9",
+        "0,2",
+        "0,7",
+        "0,1"
+      ],
+      "answer": 2,
+      "explanation": "La formule de l'union est $P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$. Comme les événements sont incompatibles, $P(A \\cap B) = 0$. Donc $P(A \\cup B) = 0,4 + 0,5 - 0 = 0,9$."
+    },
+    {
+      "id": "auto-maths-3-mva439tp",
+      "type": "mcq",
+      "prompt": "Soit une variable aléatoire $X$ qui suit une loi uniforme discrète sur l'ensemble ${1, 2, 3, 4, 5}$. Quelle est la probabilité de l'événement $X \\ge 4$ ?",
+      "options": [
+        "$1/5$",
+        "$2/5$",
+        "$3/5$",
+        "$4/5$"
+      ],
+      "answer": 1,
+      "explanation": "L'ensemble des cas possibles est ${1, 2, 3, 4, 5}$, donc il y a 5 cas équiprobables. Les cas favorables à l'événement $X \\ge 4$ sont ${4, 5}$, soit 2 cas. La probabilité est donc $2/5$."
+    },
+    {
+      "id": "auto-maths-4-mva439tp",
+      "type": "mcq",
+      "prompt": "On lance un dé à six faces équilibré. Soit $A$ l'événement « obtenir un nombre pair » et $B$ l'événement « obtenir un multiple de 3 ». Quelle est la probabilité de l'événement $A \\cap B$ ?",
+      "options": [
+        "$1/6$",
+        "$1/3$",
+        "$1/2$",
+        "$1/12$"
+      ],
+      "answer": 0,
+      "explanation": "L'ensemble des issues est ${1, 2, 3, 4, 5, 6}$. L'événement $A$ (pairs) est ${2, 4, 6}$. L'événement $B$ (multiples de 3) est ${3, 6}$. L'intersection $A \\cap B$ contient uniquement le nombre 6. Il y a 1 cas favorable sur 6 cas possibles, donc $P(A \\cap B) = 1/6$."
+    },
+    {
+      "id": "auto-maths-5-mva439tp",
+      "type": "mcq",
+      "prompt": "Soit une série de données dont la moyenne arithmétique est $\bar{x} = 10$ et l'écart-type est $sigma = 2$. Si on ajoute une constante $k=5$ à chaque valeur de la série, quelle sera la nouvelle valeur de l'écart-type ?",
+      "options": [
+        "7",
+        "2",
+        "10",
+        "0"
+      ],
+      "answer": 1,
+      "explanation": "L'écart-type mesure la dispersion des données autour de la moyenne. Ajouter une constante à toutes les valeurs déplace la distribution entière sans modifier l'écart entre les valeurs. Par conséquent, la dispersion reste inchangée et l'écart-type reste $sigma = 2$."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "physique-troisieme-travail-et-puissance-mecaniques",
+  "title": "Travail et puissance mécaniques",
+  "summary": "Lycée de Songon, 3ème 3 au 1er étage : descendre les marches plus facile que les monter.",
+  "lesson": "# Travail et puissance mécaniques\n\n## I. Travail mécanique\n\n### Définition\nProduit de la force par le déplacement\n\n### Formule\nW = F × L × cos α\n\nSi F et L même direction :\nW = F × L\n\n### Unité SI\nJoule (J)\n1 J = 1 N × 1 m\n\n## II. Types de travail\n\n### Travail moteur\nW > 0\nForce favorise déplacement (descente escalier)\n\n### Travail résistant\nW < 0\nForce s'oppose au déplacement (montée escalier)\n\n### Travail nul\nW = 0\nForce perpendiculaire au déplacement\n\n## III. Puissance mécanique\n\n### Définitions\n\nP = W/t (puissance moyenne)\n\nP = F × v (puissance instantanée)\n\n### Unité SI\nWatt (W)\n1 W = 1 J/s\n\n### Multiples\n- kilowatt : 1 kW = 1000 W\n- cheval-vapeur : 1 ch ≈ 735 W\n\n## IV. Rendement\n\nη = (Énergie utile / Énergie fournie) × 100%",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "W = F × L (joules)",
+    "P = W/t (watts)",
+    "W > 0 : moteur",
+    "W < 0 : résistant"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "L'unité SI du travail est :",
+      "options": [
+        "W",
+        "J",
+        "N",
+        "kg"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

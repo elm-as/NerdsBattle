@@ -1,0 +1,45 @@
+{
+  "id": "espagnol-quatrieme-la-ville-lieux-directions-deplacements",
+  "title": "La ville : lieux, directions, déplacements",
+  "summary": "¿Dónde está...? ¿Cómo llego a...? (Où est... ? Comment j'arrive à... ?)",
+  "lesson": "## La ville et les directions\n\n### Les lieux de la ville\n\n- el mercado (le marché)\n- la tienda (le magasin)\n- el banco (la banque)\n- el hospital (l'hôpital)\n- la escuela (l'école)\n- el parque (le parc)\n- la biblioteca (la bibliothèque)\n- el restaurante (le restaurant)\n\n### Donner des directions\n\n- Sigue todo recto (Continue tout droit)\n- Gira a la derecha (Tourne à droite)\n- Gira a la izquierda (Tourne à gauche)\n- Está cerca/lejos (C'est près/loin)\n- Al lado de (À côté de)\n- Enfrente de (En face de)\n\n### Les transports\n\n- ir en autobús (aller en bus)\n- ir en coche (aller en voiture)\n- ir a pie (aller à pied)\n- ir en bicicleta (aller à vélo)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "¿Dónde está...? = Où est... ?",
+    "Todo recto = tout droit",
+    "A la derecha/izquierda = à droite/gauche",
+    "Cerca = près, lejos = loin"
+  ],
+  "exercise": {
+    "question": "Explique comment aller de ton école au marché.",
+    "answer": "Desde la escuela, sigue todo recto. Después, gira a la derecha. El mercado está al lado del banco."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "'Todo recto' signifie :",
+      "options": [
+        "À droite",
+        "À gauche",
+        "Tout droit",
+        "En face"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Pour demander où est un lieu, on dit :",
+      "options": [
+        "¿Cómo está?",
+        "¿Dónde está?",
+        "¿Qué está?",
+        "¿Cuándo está?"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

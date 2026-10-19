@@ -1,0 +1,150 @@
+{
+  "id": "physique-premiere-classification-qualitative-des-couples-oxydants-reducteurs",
+  "title": "Classification qualitative des couples oxydants/réducteurs",
+  "summary": "Lors d'une fête de l'excellence au Lycée Moderne Nimbo de Bouaké, des élèves constatent que des camarades ayant consommé de la citronnade conservée toute une nuit dans un seau en zinc ont été intoxiqués, alors que ceux ayant bu le même jus conservé dans un seau en cuivre n'ont pas eu de problème. Curieux de comprendre cette différence, ils étudient les réactions possibles entre les métaux et les ions en solution, notamment avec les ions H₃O⁺ des boissons acides.",
+  "lesson": "## 1. Introduction : Le problème des récipients métalliques\n\nEn Côte d'Ivoire, l'utilisation de récipients métalliques pour la conservation des aliments et boissons est courante, surtout en milieu rural. Cependant, certaines combinaisons peuvent être dangereuses :\n- Zinc + jus acide → ions Zn²⁺ toxiques\n- Cuivre + jus acide → peu réactif (sauf très acide)\n- Fer + jus acide → ions Fe²⁺ (moins toxiques mais altération goût)\n\n## 2. Réactions d'oxydoréduction métal/ion métallique\n\n### 2.1 Règle qualitative\n\n**Un métal M réduit les ions M'ⁿ⁺ si M est plus réducteur que M'.**\nAutrement dit : Le métal le plus réducteur (celui qui cède le plus facilement ses électrons) réduit les ions du métal moins réducteur.\n\n### 2.2 Série d'activité des métaux\n\nPar ordre décroissant de pouvoir réducteur (facilité à s'oxyder) :\n**Li > K > Ca > Na > Mg > Al > Zn > Fe > Ni > Sn > Pb > (H) > Cu > Ag > Pt > Au**\n\n**Mnémonique pour les métaux courants :**\n**P**lease **S**top **L**etting **C**ats **Z**oom **F**reely **I**n **C**lass, **S**ilver **G**old\n(Potassium Sodium Lithium Calcium Zinc Fer Étain Cuivre Argent Or)\n\n## 3. Étude expérimentale des couples\n\n### 3.1 Système Cu²⁺/Cu et Zn/Zn²⁺\n\n**Expérience 1 :** Zn dans CuSO₄ → dépôt rouge (Cu), solution bleue se décolore.\n**Équation :** Zn + Cu²⁺ → Zn²⁺ + Cu\n**Interprétation :** Zn est plus réducteur que Cu, donc il réduit Cu²⁺.\n\n**Expérience 2 :** Cu dans ZnSO₄ → aucune réaction visible.\n**Interprétation :** Cu est moins réducteur que Zn, donc ne réduit pas Zn²⁺.\n\n### 3.2 Système Fe²⁺/Fe et Zn/Zn²⁺\n\n**Expérience 3 :** Zn dans FeSO₄ → dépôt gris (Fe), solution verte pâlit.\n**Équation :** Zn + Fe²⁺ → Zn²⁺ + Fe\n\n**Expérience 4 :** Fe dans ZnSO₄ → aucune réaction.\n\n### 3.3 Système Ag⁺/Ag et Cu/Cu²⁺\n\n**Expérience 5 :** Cu dans AgNO₃ → dépôt brillant (Ag), solution bleuit.\n**Équation :** Cu + 2Ag⁺ → Cu²⁺ + 2Ag\n\n**Description du schéma 1:** Tableau des réactions observées\nTableau 4×4 avec métaux en ligne, ions en colonne. Cases colorées : vert = réaction spontanée (dépôt), rouge = pas de réaction. Lire : le métal de la ligne réduit l'ion de la colonne si case verte. En déduire l'ordre : Zn > Fe > Cu > Ag.\n\n## 4. Classification qualitative\n\n### 4.1 Construction du classement\n\nDes expériences ci-dessus, on déduit :\n1. Zn réduit Fe²⁺, Cu²⁺, Ag⁺ ⇒ Zn est le plus réducteur\n2. Fe réduit Cu²⁺, Ag⁺ mais pas Zn²⁺ ⇒ Fe moins réducteur que Zn\n3. Cu réduit Ag⁺ mais pas Zn²⁺ ni Fe²⁺ ⇒ Cu encore moins réducteur\n4. Ag ne réduit aucun des autres ions ⇒ Ag le moins réducteur\n\n**Ordre :** Zn > Fe > Cu > Ag (pouvoir réducteur décroissant)\n\n### 4.2 Règle de prévision\n\n**Une réaction redox est possible spontanément si :**\nRéducteur₁ + Oxydant₂ → Oxydant₁ + Réducteur₂\navec Réducteur₁ plus réducteur que Réducteur₂.\n\n**Exemple :** Zn (réducteur fort) + Cu²⁺ (oxydant faible) → Zn²⁺ + Cu\n\n## 5. Action des acides sur les métaux\n\n### 5.1 Réaction avec H₃O⁺\n\n**Équation générale :** Métal + nH₃O⁺ → Mⁿ⁺ + n/2 H₂ + nH₂O\n\n**Demi-équations :**\nOxydation : M → Mⁿ⁺ + ne⁻\nRéduction : 2H₃O⁺ + 2e⁻ → H₂ + 2H₂O\n\n### 5.2 Expériences avec HCl dilué\n\n**Avec Zn :** Dégagement gazeux important (H₂), métal se dissout.\nZn + 2H₃O⁺ → Zn²⁺ + H₂ + 2H₂O\n\n**Avec Fe :** Dégagement lent, solution verdit.\nFe + 2H₃O⁺ → Fe²⁺ + H₂ + 2H₂O\n\n**Avec Cu :** Aucune réaction à froid (Cu au-dessus de H dans la série).\n\n**Avec Al :** Réaction lente car passivation (couche d'Al₂O₃ protectrice).\n\n### 5.3 Place du couple H₃O⁺/H₂\n\n**Expériences montrent :**\n- Zn et Fe réduisent H₃O⁺ en H₂\n- Cu ne réduit pas H₃O⁺\n\n**Donc dans la série :** Zn > Fe > H > Cu > Ag\nLe couple H₃O⁺/H₂ se place entre Fe et Cu.\n\n**Série complétée :** Zn > Fe > (H) > Cu > Ag\n\n**Description du schéma 2:** Série électrochimique qualitative\nÉchelle verticale avec métaux classés. Flèches montrant : les métaux au-dessus de H réagissent avec les acides (dégagement H₂), ceux au-dessous non. Exemples d'applications : protection cathodique (Zn protège Fe), choix des matériaux pour récipients alimentaires.\n\n## 6. Applications pratiques\n\n### 6.1 Protection contre la corrosion\n\n**Protection cathodique :** Relier une structure en fer à un métal plus réducteur (Zn, Mg). Le métal sacrificiel s'oxyde à la place du fer.\n**Exemple :** Coques de navires, pipelines, réservoirs.\n\n### 6.2 Choix des matériaux\n\n**Cuisine :** Ustensiles en acier inox (Fe-Cr-Ni) ou aluminium anodisé, pas de cuivre pour les acides.\n**Plomberie :** Canalisations en cuivre ou PVC, pas de zinc pour l'eau potable.\n\n### 6.3 Récupération des métaux\n\n**Hydrométallurgie :** Dissolution sélective par acides selon la position dans la série.\n**Exemple :** Traitement des minerais de zinc.\n\n## 7. Cas de l'intoxication par le zinc\n\n### 7.1 Mécanisme chimique\n\n**Conservation citronnade (pH≈3) dans seau zinc :**\nZn + 2H₃O⁺ → Zn²⁺ + H₂ + 2H₂O\n**Problème :** Les ions Zn²⁺ sont toxiques à fortes doses.\n\n### 7.2 Toxicité du zinc\n\n**Dose létale :** 3-5 g de Zn²⁺ pour un adulte.\n**Symptômes :** Nausées, vomissements, diarrhée, crampes abdominales.\n**Traitement :** Chélateurs (EDTA), traitement symptomatique.\n\n### 7.3 Prévention\n\n**Recommandations :**\n1. Ne pas utiliser de récipients galvanisés (zingués) pour les aliments acides\n2. Préférer l'inox, le verre, la céramique\n3. Éviter les soudures au zinc dans les ustensiles de cuisine\n4. Sensibiliser les populations rurales\n\n## 8. Étude quantitative (approche)\n\n### 8.1 Vitesse des réactions\n\n**Facteurs influençant :**\n1. Position dans la série (écart important = réaction plus vive)\n2. Concentration en acide\n3. Température\n4. Surface de contact\n\n### 8.2 Calcul des quantités\n\n**Exemple :** Seau en zinc de 1 L, acide citrique 5 g/L (équivalent H⁺ 0,026 mol/L).\nQuantité de Zn dissous théorique : proportionnel aux H⁺ disponibles.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Les métaux peuvent être classés selon leur pouvoir réducteur : Zn > Fe > (H) > Cu > Ag",
+    "Un métal réduit les ions d'un métal situé après lui dans la série",
+    "Les métaux avant H dans la série réagissent avec les acides en dégageant H₂",
+    "L'utilisation de récipients en zinc pour les aliments acides est dangereuse (libération de Zn²⁺ toxique)",
+    "Cette classification guide le choix des matériaux et les techniques de protection anticorrosion"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel métal est le plus réducteur ?",
+      "options": [
+        "Cu",
+        "Ag",
+        "Zn",
+        "Fe"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle réaction est spontanée ?",
+      "options": [
+        "Cu + Zn²⁺ →",
+        "Fe + Cu²⁺ →",
+        "Ag + Fe²⁺ →",
+        "Cu + Ag⁺ →"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel métal ne réagit pas avec HCl dilué ?",
+      "options": [
+        "Zn",
+        "Fe",
+        "Cu",
+        "Al"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Où se place H₃O⁺/H₂ dans la série ?",
+      "options": [
+        "Avant Zn",
+        "Entre Zn et Fe",
+        "Entre Fe et Cu",
+        "Après Ag"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Pourquoi le zinc est-il dangereux pour conserver les jus acides ?",
+      "options": [
+        "Il libère H₂ explosif",
+        "Il libère des ions Zn²⁺ toxiques",
+        "Il catalyse des réactions nocives",
+        "Il rend le jus amer"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Comment protéger le fer de la corrosion ?",
+      "options": [
+        "Le relier à du cuivre",
+        "Le relier à du zinc",
+        "Le peindre seulement",
+        "L'isoler électriquement"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel métal réduit Fe²⁺ ?",
+      "options": [
+        "Cu",
+        "Ag",
+        "Zn",
+        "Aucun"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Combien de H₂ dégage 65 g de Zn avec HCl ?",
+      "options": [
+        "1 g",
+        "2 g",
+        "22,4 L",
+        "11,2 L"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel dépôt observe-t-on avec Zn + Ag⁺ ?",
+      "options": [
+        "Gris (Fe)",
+        "Rouge (Cu)",
+        "Blanc (Ag)",
+        "Jaune (Au)"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est l'oxydant dans Cu + 2Ag⁺ → ?",
+      "options": [
+        "Cu",
+        "Ag⁺",
+        "Cu²⁺",
+        "Ag"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

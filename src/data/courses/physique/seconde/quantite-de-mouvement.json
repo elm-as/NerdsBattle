@@ -1,0 +1,149 @@
+{
+  "id": "physique-seconde-quantite-de-mouvement",
+  "title": "QUANTITÉ DE MOUVEMENT",
+  "summary": "Lors d'un tournoi de football à Abidjan, un joueur de 70 kg court à 8 m/s vers le but. Il tire et le ballon de 0,45 kg part à 25 m/s. Les spectateurs crient « recule ! » car le joueur semble être repoussé en arrière après son tir. Les élèves de 2nde C, présents dans les gradins, sont intrigués par ce phénomène. Ils décident d'analyser cette situation en utilisant le concept de quantité de mouvement. Ils veulent comprendre pourquoi le joueur recule, comment calculer cette « reculade », et découvrir la loi de",
+  "lesson": "## 1. Introduction à la quantité de mouvement\n\nLa **quantité de mouvement** (ou **impulsion**) est une grandeur vectorielle qui caractérise l'état de mouvement d'un corps. Historiquement introduite par Newton, elle est fondamentale pour décrire les collisions et les explosions.\n\n**Applications en Côte d'Ivoire** :\n- Analyse des accidents de la route\n- Conception des airbags et zones de déformation\n- Sports (football, boxe, athlétisme)\n- Propulsion des fusées et réacteurs\n\n## 2. Définition du vecteur-quantité de mouvement\n\nPour un point matériel de masse $m$ et de vitesse $\\\\overrightarrow{v}$ :\n$$\\\\overrightarrow{p} = m \\\\overrightarrow{v}$$\n\n**Propriétés** :\n- **Vecteur** : même direction et sens que $\\\\overrightarrow{v}$\n- **Module** : $p = m \\\times v$\n- **Point d'application** : centre d'inertie du système\n\n**Cas d'un système de plusieurs points** :\n$$\\\\overrightarrow{P} = \\\\sum \\\\overrightarrow{p}_i = \\\\sum m_i \\\\overrightarrow{v}_i$$\n\n## 3. Unité de quantité de mouvement\n\n**Unité SI** : kilogramme-mètre par seconde (kg·m/s)\n$$[p] = [m] \\\times [v] = \\\text{kg} \\\times \\\text{m/s} = \\\text{kg·m/s}$$\n\n**Ordres de grandeur** :\n- Balle de fusil : 5 kg·m/s\n- Voiture à 50 km/h : 10 000 kg·m/s\n- Footballeur courant : 500 kg·m/s\n- Bateau de pêche : 50 000 kg·m/s\n\n## 4. Caractéristiques du vecteur-quantité de mouvement\n\n**Pour un point matériel** :\n- **Direction** : celle de la vitesse instantanée\n- **Sens** : celui du mouvement\n- **Module** : $p = mv$\n- **Point d'application** : position du point\n\n**Pour un système de points** : Le vecteur quantité de mouvement totale a pour caractéristiques :\n- **Direction et sens** : ceux de la vitesse du centre d'inertie\n- **Module** : $P = M v_G$ où $M$ est la masse totale et $v_G$ la vitesse de G\n- **Point d'application** : centre d'inertie G\n\n**Description du schéma 1:** Représentation vectorielle pour différents systèmes. (A) Point matériel : vecteur p colinéaire à v, proportionnel à m. (B) Système de deux points : p1 et p2, et leur somme vectorielle P. (C) Projection sur axes : Px = Σ(mi·vix), Py = Σ(mi·viy). Légende : 'Caractéristiques du vecteur quantité de mouvement'.\n\n## 5. Relation avec la deuxième loi de Newton\n\nLa dérivée temporelle de la quantité de mouvement est égale à la résultante des forces :\n$$\\\\frac{d\\\\overrightarrow{p}}{dt} = \\\\sum \\\\overrightarrow{F}_{\\\text{ext}}$$\n\nDans le cas où la masse est constante : $\\\\frac{d\\\\overrightarrow{p}}{dt} = m \\\\frac{d\\\\overrightarrow{v}}{dt} = m\\\\overrightarrow{a}$\n\n## 6. Loi de conservation de la quantité de mouvement\n\n**Énoncé** : Pour un système isolé ou pseudo-isolé, la quantité de mouvement totale se conserve.\n\n**Formulation mathématique** :\nSi $\\\\sum \\\\overrightarrow{F}_{\\\text{ext}} = \\\\overrightarrow{0}$, alors $\\\\frac{d\\\\overrightarrow{P}}{dt} = \\\\overrightarrow{0}$\nDonc $\\\\overrightarrow{P} = \\\text{constante}$\n\n**Pour deux instants t1 et t2** :\n$$\\\\overrightarrow{P}_{\\\text{avant}} = \\\\overrightarrow{P}_{\\\text{après}}$$\n\n## 7. Applications aux collisions\n\n**Collision élastique** : Conservation de l'énergie cinétique ET de la quantité de mouvement.\n**Collision inélastique** : Conservation de la quantité de mouvement seulement.\n\n**Cas particulier** : Choc mou (les corps restent liés après impact).\n\n**Description du schéma 2:** Séquence d'une collision frontale entre deux billes. (1) Avant : bille 1 (m1, v1) vers la droite, bille 2 (m2, v2=0). (2) Pendant : contact. (3) Après : bille 1 (v1'), bille 2 (v2'). Équation : m1v1 = m1v1' + m2v2'. Légende : 'Conservation de la quantité de mouvement lors d'une collision'.\n\n## 8. Exemples concrets en Côte d'Ivoire\n\n**A. Sécurité routière - choc entre véhicules** :\nCollision frontale sur l'autoroute du Nord :\n$$m_1 \\\\overrightarrow{v}_1 + m_2 \\\\overrightarrow{v}_2 = (m_1 + m_2) \\\\overrightarrow{V}'$$\n(si les véhicules restent accrochés)\n\n**B. Sport - tir au football** :\nAvant le tir : $\\\\overrightarrow{P}_{\\\text{avant}} = m_{\\\text{joueur}} \\\\overrightarrow{v}_{\\\text{joueur}} + m_{\\\text{balle}} \\\\overrightarrow{v}_{\\\text{balle}}$\nAprès le tir : $\\\\overrightarrow{P}_{\\\text{après}} = m_{\\\text{joueur}} \\\\overrightarrow{v}'_{\\\text{joueur}} + m_{\\\text{balle}} \\\\overrightarrow{v}'_{\\\text{balle}}$\nConservation : $\\\\overrightarrow{P}_{\\\text{avant}} = \\\\overrightarrow{P}_{\\\text{après}}$\n\n**C. Propulsion par réaction** :\n- Fusées éducatives au lycée\n- Jet-skis sur les plages d'Assinie\n- Armes à feu (recul)\n\n## 9. Méthode de résolution des problèmes\n\n**Étapes** :\n1. Définir le système étudié (isolé ou pseudo-isolé)\n2. Définir l'état « avant » et l'état « après »\n3. Calculer $\\\\overrightarrow{P}_{\\\text{avant}} = \\\\sum m_i \\\\overrightarrow{v}_i$\n4. Calculer $\\\\overrightarrow{P}_{\\\text{après}} = \\\\sum m_i \\\\overrightarrow{v}'_i$\n5. Écrire $\\\\overrightarrow{P}_{\\\text{avant}} = \\\\overrightarrow{P}_{\\\text{après}}$\n6. Projeter sur les axes pour obtenir des équations scalaires\n7. Résoudre le système d'équations\n\n**Description du schéma 3:** Méthode graphique de résolution. Construction vectorielle : P_avant représenté par une flèche. À son extrémité, construction de P_après comme somme de deux vecteurs p1' et p2'. Triangle fermé. Légende : 'Méthode graphique de résolution'. Échelle indiquée.\n\n## 10. Applications technologiques\n\n**A. Airbags** : Réduisent la force d'impact en augmentant la durée du choc.\n**B. Zones de déformation** : Absorbent l'énergie en se déformant.\n**C. Ceintures de sécurité** : Évitant l'éjection.\n**D. Pare-chocs** : Conçus pour certaines collisions.\n\n## 11. Cas particuliers importants\n\n**Explosion** : Système initial immobile ($\\\\overrightarrow{P} = \\\\overrightarrow{0}$). Après explosion, les fragments partent dans toutes les directions mais : $\\\\sum m_i \\\\overrightarrow{v}_i = \\\\overrightarrow{0}$.\n\n**Propulsion** : Éjection de masse (fusée, avion à réaction).\n\n**Mouvement de l'homme dans un bateau** : Pour avancer, il pousse le bateau en arrière.\n\n## 12. Limites et précautions\n\nLa conservation s'applique seulement si :\n- Le système est bien isolé ou pseudo-isolé\n- On considère toutes les masses en mouvement\n- On travaille dans un référentiel galiléen\n\nLes frottements peuvent rendre le système non pseudo-isolé.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "La quantité de mouvement p = m·v est une grandeur vectorielle",
+    "Son unité est le kg·m/s",
+    "Pour un système isolé ou pseudo-isolé, la quantité de mouvement totale se conserve",
+    "Cette conservation permet d'analyser les collisions et explosions"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La quantité de mouvement d'un corps de masse 2 kg se déplaçant à 3 m/s est :",
+      "options": [
+        "6 kg·m/s",
+        "1,5 kg·m/s",
+        "5 kg·m/s",
+        "0,67 kg·m/s"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "L'unité de quantité de mouvement est :",
+      "options": [
+        "Newton",
+        "Joule",
+        "kg·m/s",
+        "Watt"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Pour un système isolé, la quantité de mouvement :",
+      "options": [
+        "Augmente",
+        "Diminue",
+        "Se conserve",
+        "Devient nulle"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans une collision parfaitement inélastique :",
+      "options": [
+        "Seule l'énergie se conserve",
+        "Seule la quantité de mouvement se conserve",
+        "Les deux se conservent",
+        "Rien ne se conserve"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Un canon de 500 kg tire un obus de 5 kg à 200 m/s. La vitesse de recul du canon est :",
+      "options": [
+        "2 m/s",
+        "20 m/s",
+        "0,5 m/s",
+        "200 m/s"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "La quantité de mouvement est une grandeur :",
+      "options": [
+        "Scalaire",
+        "Vectorielle",
+        "Tensorielle",
+        "Sans dimension"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Si la vitesse d'un corps double, sa quantité de mouvement :",
+      "options": [
+        "Double",
+        "Quadruple",
+        "Diminue de moitié",
+        "Reste identique"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Dans un système de deux corps qui s'entrechoquent, si un corps s'arrête après le choc :",
+      "options": [
+        "L'autre doit aussi s'arrêter",
+        "L'autre continue avec toute la quantité de mouvement",
+        "C'est impossible",
+        "L'énergie n'est pas conservée"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "La conservation de la quantité de mouvement explique :",
+      "options": [
+        "Le recul des armes à feu",
+        "La chute des corps",
+        "La flottabilité",
+        "La résistance des matériaux"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Pour qu'un système soit pseudo-isolé, il faut :",
+      "options": [
+        "Aucune force",
+        "Résultante des forces nulle",
+        "Forces internes seulement",
+        "Forces constantes"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

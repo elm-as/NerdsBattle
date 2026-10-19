@@ -1,0 +1,44 @@
+{
+  "id": "maths-premiere-nombres-complexes-introduction",
+  "title": "Nombres complexes (introduction)",
+  "summary": "Pour résoudre certaines équations, on introduit les nombres complexes. Que sont-ils ?",
+  "lesson": "## Introduction aux nombres complexes\n\n### L'unité imaginaire\ni² = −1\n\nPermet de résoudre x² + 1 = 0\n\n### Forme algébrique\nz = a + ib\n- a : partie réelle Re(z)\n- b : partie imaginaire Im(z)\n\n### Opérations\n**Addition :**\n(a + ib) + (c + id) = (a + c) + i(b + d)\n\n**Multiplication :**\n(a + ib)(c + id) = (ac − bd) + i(ad + bc)\n\n### Module\n|z| = |a + ib| = √(a² + b²)\n\n### Conjugué\nSi z = a + ib, alors z̄ = a − ib\nz × z̄ = |z|²",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "i² = −1 (unité imaginaire)",
+    "z = a + ib (forme algébrique)",
+    "Module : |z| = √(a² + b²)"
+  ],
+  "exercise": {
+    "question": "Calcule (2 + 3i)(1 − i)",
+    "answer": "\n**Solution :**\n= 2×1 − 2×i + 3i×1 − 3i×i\n= 2 − 2i + 3i − 3i²\n= 2 + i − 3×(−1)\n= 2 + i + 3\n= 5 + i\n\n**Réponse : 5 + i**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "i² = ?",
+      "options": [
+        "1",
+        "−1",
+        "i",
+        "0"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Le module de 3 + 4i est :",
+      "options": [
+        "7",
+        "5",
+        "12",
+        "25"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

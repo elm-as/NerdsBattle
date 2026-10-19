@@ -1,0 +1,123 @@
+{
+  "id": "anglais-sixieme-common-illnesses-les-maladies-courantes",
+  "title": "Common Illnesses - Les maladies courantes",
+  "summary": "Kofi est malade. Il dit : 'I have a fever and a cough.' Comment parler de sa santé ?",
+  "lesson": "## Common Illnesses - Les maladies courantes\n\n### Symptoms - Les symptômes\n\n- **Fever** - fièvre\n- **Cough** - toux\n- **Cold** - rhume\n- **Flu** - grippe\n- **Headache** - mal de tête\n- **Stomachache** - mal de ventre\n- **Toothache** - mal de dents\n- **Sore throat** - mal de gorge\n\n## Expressing Illness\n\n**I have a...**\n\n- I have a **fever**.\n- I have a **cold**.\n- I have a **cough**.\n- I have a **sore throat**.\n\n**I feel...**\n\n- I feel **sick**. - Je me sens malade.\n- I feel **tired**. - Je me sens fatigué.\n- I feel **bad**. - Je me sens mal.\n\n## At the Doctor's\n\n**Patient:** I have a fever and a headache.\n**Doctor:** You have the flu. You need to rest.\n\n## Health Advice\n\n**You should...** - Tu devrais...\n\n- You should **rest**. - se reposer\n- You should **drink water**. - boire de l'eau\n- You should **take medicine**. - prendre des médicaments\n- You should **see a doctor**. - voir un médecin\n- You should **stay home**. - rester à la maison\n\n**Get well soon!** - Bon rétablissement !",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Fever, cough, cold, flu",
+    "I have a fever pour décrire",
+    "I feel sick/tired/bad",
+    "You should + verbe pour les conseils"
+  ],
+  "exercise": {
+    "question": "Complète : 1) I have a ___ (fever). 2) You should ___ (rest). 3) I feel ___ (sick).",
+    "answer": "\n**Solution :**\n1) I have a **fever**.\n2) You should **rest**.\n3) I feel **sick**.\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Comment dit-on 'rhume' ?",
+      "options": [
+        "Cough",
+        "Cold",
+        "Fever",
+        "Flu"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Comment dire 'Je me sens malade' ?",
+      "options": [
+        "I am sick",
+        "I feel sick",
+        "I have sick",
+        "I sick"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Quel conseil pour quelqu'un de malade ?",
+      "options": [
+        "You must rest",
+        "You should rest",
+        "You can rest",
+        "You will rest"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-anglais-1-mv9t4uij",
+      "type": "mcq",
+      "prompt": "Dans le dialogue suivant, le médecin diagnostique la grippe. Quelle est la phrase exacte utilisée par le médecin pour annoncer ce diagnostic ?\n\nPatient: I have a fever and a headache.\nDoctor: [Blank]. You need to rest.",
+      "options": [
+        "You have a cold.",
+        "You have the flu.",
+        "You have a fever.",
+        "You have a cough."
+      ],
+      "answer": 1,
+      "explanation": "Selon l'extrait de cours 'At the Doctor's', lorsque le patient décrit une fièvre et un mal de tête, le médecin répond spécifiquement 'You have the flu.' (Vous avez la grippe). Les autres options correspondent à d'autres symptômes ou maladies non mentionnés dans ce diagnostic précis."
+    },
+    {
+      "id": "auto-anglais-2-mv9t4uij",
+      "type": "mcq",
+      "prompt": "Kofi souffre d'un mal de gorge. Quelle est la structure grammaticale correcte en anglais pour exprimer ce symptôme spécifique, en suivant le modèle 'I have a...' ?",
+      "options": [
+        "I have a sore throat.",
+        "I have a throat sore.",
+        "I have a sore neck.",
+        "I have a pain throat."
+      ],
+      "answer": 0,
+      "explanation": "Le cours liste 'Sore throat' comme le terme correct pour 'mal de gorge'. La structure standard pour exprimer ce symptôme est 'I have a sore throat.' Les autres options sont des erreurs de syntaxe ou de vocabulaire (ex: 'throat sore' est incorrect, 'sore neck' signifie mal au cou)."
+    },
+    {
+      "id": "auto-anglais-3-mv9t4uij",
+      "type": "mcq",
+      "prompt": "Le médecin donne un conseil de santé à Kofi en utilisant la structure 'You should...'. Quelle est la traduction exacte de l'expression 'You should see a doctor.' ?",
+      "options": [
+        "Tu devrais rester à la maison.",
+        "Tu devrais voir un médecin.",
+        "Tu devrais prendre des médicaments.",
+        "Tu devrais boire de l'eau."
+      ],
+      "answer": 1,
+      "explanation": "Dans la section 'Health Advice', l'expression 'You should see a doctor.' est explicitement traduite par 'voir un médecin'. Les autres options correspondent à 'stay home', 'take medicine' et 'drink water' respectivement."
+    },
+    {
+      "id": "auto-anglais-4-mv9t4uij",
+      "type": "mcq",
+      "prompt": "Kofi se sent fatigué. Quelle est la phrase correcte en anglais pour exprimer ce sentiment, en utilisant la structure 'I feel...' ?",
+      "options": [
+        "I feel sick.",
+        "I feel tired.",
+        "I feel bad.",
+        "I feel hot."
+      ],
+      "answer": 1,
+      "explanation": "Le cours indique que 'I feel tired.' signifie 'Je me sens fatigué.' 'I feel sick' signifie 'Je me sens malade', 'I feel bad' signifie 'Je me sens mal', et 'I feel hot' n'est pas listé dans les expressions de base du cours pour la fatigue."
+    },
+    {
+      "id": "auto-anglais-5-mv9t4uij",
+      "type": "mcq",
+      "prompt": "Quel est le terme anglais correct pour le symptôme 'mal de ventre', tel que défini dans la liste des symptômes courants ?",
+      "options": [
+        "Toothache",
+        "Headache",
+        "Stomachache",
+        "Sore throat"
+      ],
+      "answer": 2,
+      "explanation": "La section 'Symptoms' associe explicitement 'Stomachache' à la traduction française 'mal de ventre'. 'Toothache' est le mal de dents, 'Headache' est le mal de tête, et 'Sore throat' est le mal de gorge."
+    }
+  ]
+}

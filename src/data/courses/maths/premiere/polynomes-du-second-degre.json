@@ -1,0 +1,44 @@
+{
+  "id": "maths-premiere-polynomes-du-second-degre",
+  "title": "Polynômes du second degré",
+  "summary": "Pour résoudre certains problèmes d'optimisation, on utilise les équations du second degré. Comment les résoudre ?",
+  "lesson": "## Polynômes du second degré\n\n### Forme générale\nP(x) = ax² + bx + c avec a ≠ 0\n\n### Discriminant\nΔ = b² − 4ac\n\n**Nombre de racines :**\n- Δ > 0 : deux racines distinctes\n- Δ = 0 : une racine double\n- Δ < 0 : pas de racine réelle\n\n### Formules des racines\nSi Δ ≥ 0 :\nx₁ = (−b − √Δ) / (2a)\nx₂ = (−b + √Δ) / (2a)\n\n### Factorisation\nSi Δ ≥ 0 : P(x) = a(x − x₁)(x − x₂)\nSi Δ < 0 : P(x) ne se factorise pas dans ℝ\n\n### Signe du trinôme\nLe signe dépend de a et Δ\nUtiliser un tableau de signes",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Discriminant Δ = b² − 4ac",
+    "Δ > 0 : 2 racines, Δ = 0 : 1 racine, Δ < 0 : 0 racine",
+    "Factorisation si Δ ≥ 0"
+  ],
+  "exercise": {
+    "question": "Résous : 2x² − 5x + 2 = 0",
+    "answer": "\n**Solution :**\na = 2, b = −5, c = 2\nΔ = 25 − 16 = 9 > 0\nx₁ = (5 − 3)/4 = 1/2\nx₂ = (5 + 3)/4 = 2\n\n**Réponse : S = {1/2 ; 2}**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Si Δ < 0, l'équation a :",
+      "options": [
+        "0 solution",
+        "1 solution",
+        "2 solutions",
+        "∞ solutions"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Pour x² − 6x + 9 = 0, Δ = ?",
+      "options": [
+        "-9",
+        "0",
+        "9",
+        "36"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

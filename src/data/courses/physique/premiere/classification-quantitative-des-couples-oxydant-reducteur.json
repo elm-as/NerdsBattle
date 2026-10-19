@@ -1,0 +1,253 @@
+{
+  "id": "physique-premiere-classification-quantitative-des-couples-oxydant-reducteur",
+  "title": "Classification quantitative des couples oxydant/réducteur",
+  "summary": "Un réparateur d'appareils électroménagers à Niablé fascine des élèves en réalisant une pile avec une tomate, une lame de cuivre et une lame de zinc. Intrigués, les élèves veulent comprendre comment mesurer et exploiter les potentiels d'oxydoréduction pour prédire et quantifier les réactions.",
+  "lesson": "## 1. Introduction\n\nLa **classification quantitative** utilise les **potentiels standard d'électrode** $E^°$ pour mesurer le « pouvoir oxydant » ou « réducteur » des espèces. Cela permet de calculer précisément la force électromotrice des piles (batteries de voiture à Abidjan, piles alcalines) et de prévoir le sens et l'équilibre des réactions redox.\n\n## 2. Potentiel d'une demi-pile\n\n**Électrode standard à hydrogène (ESH)** : Référence internationale.\n- $Pt$ platiné plongeant dans une solution à $[H^+] = 1\\\\ mol·L^{-1}$\n- $H_2$ gazeux à pression 1 bar\n- Par convention : $E^°(H^+/H_2) = 0,000\\\\ V$\n\n**Potentiel standard d'un couple** : $E^°(Ox/Red)$ mesuré en branchant la demi-pile étudiée avec l'ESH dans les conditions standard.\n\n## 3. Mesure et signification\n\nSi on connecte une demi-pile $Cu^{2+}/Cu$ à l'ESH :\n- Voltmètre indique $+0,34\\\\ V$ (cuivre positif)\n- Donc $E^°(Cu^{2+}/Cu) = +0,34\\\\ V$\n\n**Interprétation** : Un potentiel positif signifie que l'oxydant du couple est plus oxydant que $H^+$ ; un potentiel négatif signifie le contraire.\n\n## 4. Série des potentiels standards (à 25°C)\n\nQuelques valeurs (en volts par rapport à l'ESH) :\n- $Li^+/Li$ : -3,04\n- $Zn^{2+}/Zn$ : -0,76\n- $Fe^{2+}/Fe$ : -0,44\n- $H^+/H_2$ : 0,00\n- $Cu^{2+}/Cu$ : +0,34\n- $Ag^+/Ag$ : +0,80\n- $Cl_2/Cl^-$ : +1,36\n- $F_2/F^-$ : +2,87\n\n**Règle** : Plus $E^°$ est élevé (positif), plus l'oxydant est fort.\nPlus $E^°$ est faible (négatif), plus le réducteur est fort.\n\n**Description du schéma 1:** Diagramme d'une pile de mesure de potentiel standard. Représenter la demi-pile à hydrogène (ESH) et la demi-pile étudiée (ex : Cu²⁺/Cu) reliées par un pont salin et un voltmètre. Indiquer le sens du courant et la valeur lue.\n\n## 5. Force électromotrice (f.é.m.) d'une pile\n\nLa f.é.m. $E$ d'une pile est la différence de potentiel entre les deux électrodes :\n$$E = E_{cathode} - E_{anode}$$\n\n- **Cathode** : électrode où se produit la réduction (gain d'e⁻)\n- **Anode** : électrode où se produit l'oxydation (perte d'e⁻)\n\n**Pour des conditions standard** : $E^° = E^°_{cathode} - E^°_{anode}$\n\n## 6. Prévision du sens d'une réaction redox\n\n**Règle** : La réaction redox spontanée se fait dans le sens où l'oxydant du couple de plus grand $E^°$ réagit avec le réducteur du couple de plus petit $E^°$.\n\n**Exemple** : Mélange $Fe$ et $Cu^{2+}$\n- Couples : $Fe^{2+}/Fe$ (-0,44 V) et $Cu^{2+}/Cu$ (+0,34 V)\n- Oxydant le plus fort : $Cu^{2+}$ (plus grand $E^°$)\n- Réducteur le plus fort : $Fe$ (plus petit $E^°$)\n- Réaction spontanée : $Fe + Cu^{2+} \\\\rightarrow Fe^{2+} + Cu$\n\n## 7. Calcul de la f.é.m. standard\n\n**Exemple pile Zn-Cu** :\n- Anode (oxydation) : Zn → Zn²⁺ + 2e⁻ ; $E^°_{anode} = E^°(Zn^{2+}/Zn) = -0,76\\\\ V$\n- Cathode (réduction) : Cu²⁺ + 2e⁻ → Cu ; $E^°_{cathode} = E^°(Cu^{2+}/Cu) = +0,34\\\\ V$\n\n$$E^° = E^°_{cathode} - E^°_{anode} = 0,34 - (-0,76) = 1,10\\\\ V$$\n\nC'est la tension à vide de la pile Daniell.\n\n**Description du schéma 2:** Pile Daniell schématique. Représenter les deux demi-piles : Zn dans ZnSO₄ et Cu dans CuSO₄, reliées par un pont salin et un voltmètre indiquant 1,10 V. Flèches des électrons (de Zn vers Cu) et des ions dans le pont salin.\n\n## 8. Influence des concentrations : loi de Nernst\n\nEn conditions non standard, le potentiel d'une demi-pile dépend des concentrations :\n$$E = E^° + \\\\frac{0,059}{n} \\\\log \\\\frac{[Ox]}{[Red]}$$ (à 25°C)\n\nPour la pile : $E = E^° - \\\\frac{0,059}{n} \\\\log Q$ où $Q$ est le quotient réactionnel.\n\n## 9. Applications pratiques en Côte d'Ivoire\n\n1. **Piles et accumulateurs** : Conception des batteries (voitures, onduleurs) basée sur les f.é.m. calculées.\n\n2. **Corrosion** : Prévoir quels métaux vont se corroder en contact (ex : fer + cuivre → corrosion accélérée du fer).\n\n3. **Traitement des eaux** : Oxydation du fer(II) en fer(III) pour son élimination.\n\n4. **Analyses électrochimiques** : Dosages, capteurs (pH-métrie, oxymétrie).\n\n## 10. Exercice type : pile tomate\n\nTomate (acide) avec lame Zn et lame Cu :\n- Demi-pile Zn/Zn²⁺ : $E^° = -0,76\\\\ V$\n- Demi-pile Cu/Cu²⁺ : $E^° = +0,34\\\\ V$ (mais peu de Cu²⁺ dans la tomate)\n- Milieu acide : couple $2H^+/H_2$ ($E^°=0,00\\\\ V$)\n\nEn réalité, la réaction est : $Zn + 2H^+ \\\\rightarrow Zn^{2+} + H_2$ avec $E^° = 0,00 - (-0,76) = 0,76\\\\ V$ (mesurée ~0,8 V).\nLe cuivre ne participe pas directement, il sert juste de conducteur pour le transfert d'électrons.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Le potentiel standard E° mesure le pouvoir oxydant d'un couple (référence : ESH à 0 V)",
+    "La f.é.m. d'une pile est E° = E°_cathode - E°_anode (positive pour une pile spontanée)",
+    "Une réaction redox est spontanée si E° > 0, ce qui correspond à l'oxydant du couple à plus haut E° réagissant avec le réducteur du couple à plus bas E°",
+    "La loi de Nernst permet de calculer les potentiels et f.é.m. en conditions non standard"
+  ],
+  "exercise": {
+    "answer": "**1. Classement des oxydants (par E° croissant = pouvoir oxydant croissant) :**\n$Zn^{2+}$ (-0,76 V) < $Fe^{2+}$ (-0,44 V) < $H^+$ (0,00 V) < $Cu^{2+}$ (+0,34 V) < $Ag^+$ (+0,80 V)\n\n**2. Pile Ag-Zn :**\n- Oxydant le plus fort : Ag⁺ (cathode)\n- Réducteur le plus fort : Zn (anode)\n- F.é.m. standard : $E^° = E^°_{cathode} - E^°_{anode} = 0,80 - (-0,76) = 1,56\\\\ V$\n- Équation bilan : $Zn + 2Ag^+ \\\\rightarrow Zn^{2+} + 2Ag$\n\n**3. Fer avec Ag⁺ et Cu²⁺ :**\nCalculons les f.é.m. standard des réactions possibles :\n\na) $Fe + 2Ag^+ \\\\rightarrow Fe^{2+} + 2Ag$\n$E^° = E^°(Ag^+/Ag) - E^°(Fe^{2+}/Fe) = 0,80 - (-0,44) = 1,24\\\\ V > 0$ → spontanée.\n\nb) $Fe + Cu^{2+} \\\\rightarrow Fe^{2+} + Cu$\n$E^° = E^°(Cu^{2+}/Cu) - E^°(Fe^{2+}/Fe) = 0,34 - (-0,44) = 0,78\\\\ V > 0$ → spontanée.\n\n**Mais** : Ag⁺ est un meilleur oxydant que Cu²⁺ (E° plus élevé). Si les deux ions sont présents, Ag⁺ sera réduit en priorité. Une fois tout Ag⁺ consommé, si Fe reste, alors Cu²⁺ pourra être réduit.\n\n**Observation** : D'abord dépôt d'argent, puis éventuellement dépôt de cuivre si Fe en excès.\n\n**Réponse :** Oxydants : Zn²⁺ < Fe²⁺ < H⁺ < Cu²⁺ < Ag⁺ ; pile Ag-Zn : E°=1,56 V ; dépôt d'abord Ag, puis possiblement Cu.",
+    "question": "On considère les couples suivants et leurs potentiels standard à 25°C : Ag⁺/Ag : +0,80 V ; Cu²⁺/Cu : +0,34 V ; Fe²⁺/Fe : -0,44 V ; Zn²⁺/Zn : -0,76 V. 1) Classez les oxydants par pouvoir oxydant croissant. 2) Quelle est la f.é.m. standard d'une pile argent-zinc ? Écrivez l'équation bilan. 3) On mélange une lame de fer avec une solution contenant à la fois Ag⁺ et Cu²⁺. Quel(s) métal(s) vont se déposer ? Justifiez par les calculs de f.é.m."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Le potentiel standard de référence est celui du couple :",
+      "options": [
+        "Ag⁺/Ag",
+        "H⁺/H₂",
+        "Cu²⁺/Cu",
+        "Zn²⁺/Zn"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Un couple avec E° = -0,76 V signifie que son oxydant est :",
+      "options": [
+        "Très oxydant",
+        "Moins oxydant que H⁺",
+        "Aussi oxydant que H⁺",
+        "Inerte"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La f.é.m. d'une pile est :",
+      "options": [
+        "E°_anode - E°_cathode",
+        "E°_cathode - E°_anode",
+        "E°_anode + E°_cathode",
+        "(E°_anode × E°_cathode)/2"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Pour qu'une réaction redox soit spontanée, il faut que :",
+      "options": [
+        "E° > 0",
+        "E° < 0",
+        "E° = 0",
+        "E° indéfini"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "La pile Daniell (Zn-Cu) a une f.é.m. standard d'environ :",
+      "options": [
+        "0,34 V",
+        "0,76 V",
+        "1,10 V",
+        "1,56 V"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Si E°(Ag⁺/Ag) = 0,80 V et E°(Fe²⁺/Fe) = -0,44 V, la réaction Fe + 2Ag⁺ → Fe²⁺ + 2Ag a E° =",
+      "options": [
+        "0,36 V",
+        "1,24 V",
+        "-1,24 V",
+        "0,44 V"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "La loi de Nernst prend en compte :",
+      "options": [
+        "La température seulement",
+        "Les concentrations",
+        "La couleur des solutions",
+        "Le volume des électrodes"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Dans une pile, l'électrode où se produit l'oxydation est appelée :",
+      "options": [
+        "Cathode",
+        "Anode",
+        "Pont salin",
+        "Électrode de référence"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Le meilleur oxydant parmi ces espèces est :",
+      "options": [
+        "Zn²⁺ (E°=-0,76 V)",
+        "Fe²⁺ (E°=-0,44 V)",
+        "Cu²⁺ (E°=+0,34 V)",
+        "Ag⁺ (E°=+0,80 V)"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "La f.é.m. d'une pile dépend :",
+      "options": [
+        "Uniquement de la nature des couples",
+        "De la nature des couples et des concentrations",
+        "Uniquement de la température",
+        "De la couleur du voltmètre"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quelle est l'unité du potentiel standard d'oxydoréduction ?",
+      "options": [
+        "Ampère (A)",
+        "Volt (V)",
+        "Ohm (Ω)",
+        "Joule (J)"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Dans la pile Daniell, quel est le pôle négatif ?",
+      "options": [
+        "L'électrode de cuivre",
+        "L'électrode de zinc",
+        "Le pont salin",
+        "Le voltmètre"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Si E°(A³⁺/A) = -1,00 V et E°(B²⁺/B) = +0,50 V, quelle est la f.é.m. standard de la pile A/B ?",
+      "options": [
+        "0,50 V",
+        "1,50 V",
+        "-1,50 V",
+        "-0,50 V"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Le couple de référence pour l'échelle des potentiels standards est :",
+      "options": [
+        "Zn²⁺/Zn",
+        "Ag⁺/Ag",
+        "2H⁺/H₂",
+        "O₂/H₂O"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel élément est le meilleur réducteur selon les E° (le plus fort pouvoir réducteur) ?",
+      "options": [
+        "Ag (E°=+0,80 V)",
+        "Cu (E°=+0,34 V)",
+        "Fe (E°=-0,44 V)",
+        "Al (E°=-1,66 V)"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "À l'anode d'une pile qui débite, il se produit :",
+      "options": [
+        "Une réduction",
+        "Une oxydation",
+        "Une dissolution",
+        "Une précipitation"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quelle pile a une f.é.m. standard d'environ 1,5 V ?",
+      "options": [
+        "Pile Daniell",
+        "Pile Leclanché (pile saline)",
+        "Accumulateur au plomb",
+        "Pile à combustible"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "En Côte d'Ivoire, l'accumulateur au plomb est principalement utilisé dans :",
+      "options": [
+        "Les montres",
+        "Les téléphones portables",
+        "Les batteries de voiture",
+        "Les calculatrices solaires"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "maths-seconde-systemes-d-equations-lineaires",
+  "title": "Systèmes d'équations linéaires",
+  "summary": "Pour l'anniversaire du chef de classe de Seconde A du Lycée Moderne d'Abengourou, les élèves commandent du jus de bissap et du jus de gingembre. Le litre de jus de bissap coûte 400 FCFA et celui de gingembre 500 FCFA. Ils commandent 20 litres de jus pour un budget de 9 200 FCFA. Deux jours avant la fête, la vendeuse appelle pour connaître le nombre de litres de chaque jus. Comment déterminer ces quantités en résolvant un système d'équations ?",
+  "lesson": "## Systèmes d'équations linéaires : résolution de problèmes à plusieurs variables\n\n### 1. Définition et représentation\n\nUn système de deux équations linéaires à deux inconnues x et y est de la forme :\na₁x + b₁y = c₁\na₂x + b₂y = c₂\n\n**Exemple typique en Côte d'Ivoire :** Déterminer les quantités de riz et de poisson à acheter avec un budget donné.\n\n### 2. Méthode de substitution\n\nCette méthode consiste à exprimer une inconnue en fonction de l'autre dans une équation, puis à substituer dans la seconde.\n\n**Étapes :**\n1. Isoler une inconnue dans une équation (de préférence la plus simple)\n2. Remplacer cette expression dans la seconde équation\n3. Résoudre l'équation à une inconnue obtenue\n4. Remplacer pour trouver la seconde inconnue\n5. Vérifier dans les deux équations initiales\n\n**Exemple ivoirien :** Un marché ivoirien vend des mangues et des ananas. 3 mangues et 2 ananas coûtent 1 500 FCFA. 2 mangues et 4 ananas coûtent 2 000 FCFA. Soit x le prix d'une mangue, y celui d'un ananas :\n3x + 2y = 1500\n2x + 4y = 2000\n\n### 3. Méthode de combinaison (par addition)\n\nCette méthode consiste à additionner les équations après les avoir multipliées par des coefficients adéquats pour éliminer une inconnue.\n\n**Étapes :**\n1. Multiplier les équations par des coefficients pour que les coefficients d'une inconnue soient opposés\n2. Additionner les équations pour éliminer cette inconnue\n3. Résoudre l'équation à une inconnue obtenue\n4. Remplacer pour trouver la seconde inconnue\n5. Vérifier la solution\n\n**Avantage :** Évite les fractions dans certains cas\n\n### 4. Résolution graphique\n\nChaque équation ax + by = c représente une droite dans le plan.\n\n**Interprétation géométrique :**\n- **Solution unique :** Les droites sont sécantes → un point d'intersection\n- **Aucune solution :** Les droites sont parallèles distinctes → système impossible\n- **Infiniment de solutions :** Les droites sont confondues → système indéterminé\n\n**Méthode graphique :**\n1. Tracer la première droite (trouver deux points)\n2. Tracer la seconde droite\n3. Lire les coordonnées du point d'intersection\n\n### 5. Interprétation des résultats\n\n**Trois cas possibles :**\n1. **Solution unique (x₀, y₀) :** Le système est dit de Cramer\n2. **Aucune solution :** Les équations sont incompatibles\n3. **Infiniment de solutions :** Les deux équations sont proportionnelles\n\n### 6. Applications concrètes en Côte d'Ivoire\n\n**Exemple 1 :** Problème de mélange\nUn commerçant de Divo veut mélanger deux qualités de café : qualité A à 2 500 FCFA/kg et qualité B à 3 000 FCFA/kg pour obtenir 100 kg d'un mélange à 2 700 FCFA/kg.\nSoit x kg de A, y kg de B :\nx + y = 100\n2500x + 3000y = 2700 × 100\n\n**Exemple 2 :** Problème de partage\nDeux coopératives agricoles de Man produisent ensemble 50 tonnes de cacao. La première produit 2 tonnes de plus que le double de la seconde.\nSoit x la production de la première, y celle de la seconde :\nx + y = 50\nx = 2y + 2\n\n### 7. Méthode du déterminant (approche)\n\nPour le système :\na₁x + b₁y = c₁\na₂x + b₂y = c₂\n\nLe déterminant principal est : Δ = a₁b₂ - a₂b₁\n- Si Δ ≠ 0 : solution unique\n- Si Δ = 0 : soit aucune solution, soit infinité\n\n### 8. Vérification systématique\n\nToujours vérifier que la solution trouvée :\n1. Vérifie les deux équations\n2. A un sens dans le contexte (quantités positives, entières si nécessaire)\n3. Respecte les contraintes du problème\n\n### 9. Problèmes plus complexes\n\n**Avec contraintes supplémentaires :**\n- Quantités entières (nombre de personnes, d'objets)\n- Quantités positives ou dans un intervalle\n- Relations supplémentaires entre les variables\n\n**Exemple :** Dans un bus d'Abidjan à Yamoussoukro, il y a des passagers assis (x) et debout (y). Capacité : x + y ≤ 70. Recette : 2000x + 1500y. On cherche à maximiser la recette sous certaines contraintes.\n\n### 10. Applications interdisciplinaires\n\n- **Économie :** équilibre offre-demande, coûts de production\n- **Chimie :** équilibrage d'équations chimiques\n- **Physique :** lois de Kirchhoff en électricité\n- **Gestion :** optimisation des ressources\n- **Géographie :** modèles de répartition\n\n### 11. Erreurs fréquentes\n\n- Oublier de vérifier la solution dans les deux équations\n- Erreur de signe dans les combinaisons linéaires\n- Confusion entre les méthodes\n- Ne pas interpréter la solution dans le contexte\n- Oublier que certaines quantités doivent être positives ou entières\n\nLes systèmes d'équations sont indispensables pour modéliser des situations réelles impliquant plusieurs variables liées entre elles, permettant ainsi une analyse plus fine et une prise de décision éclairée dans le contexte socio-économique ivoirien.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Un système a une solution unique si les droites sont sécantes",
+    "La méthode de substitution est efficace quand une variable est facile à isoler",
+    "La méthode de combinaison élimine une variable par addition",
+    "Toujours vérifier que la solution respecte le contexte du problème"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Le système {2x + y = 5; x - y = 1} a pour solution :",
+      "options": [
+        "(2, 1)",
+        "(1, 2)",
+        "(2, -1)",
+        "(3, 2)"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Si deux droites sont parallèles, le système correspondant :",
+      "options": [
+        "A une solution unique",
+        "A aucune solution",
+        "A une infinité de solutions",
+        "A deux solutions"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Pour résoudre {3x + 2y = 8; 2x - y = 3} par combinaison, on peut multiplier la seconde par :",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "-2"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Un système possible et indéterminé correspond à :",
+      "options": [
+        "Des droites sécantes",
+        "Des droites parallèles",
+        "Des droites confondues",
+        "Des droites perpendiculaires"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

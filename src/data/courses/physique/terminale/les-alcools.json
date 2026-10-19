@@ -1,0 +1,293 @@
+{
+  "id": "physique-terminale-les-alcools",
+  "title": "Les alcools",
+  "summary": "Lors d'une visite dans une distillerie artisanale de bangui (alcool de palme) à Adzopé, un élève de Terminale C observe la fermentation des jus de palmier. Le distillateur explique que le produit obtenu est de l'éthanol, un alcool. L'élève s'interroge sur la nature chimique de cette substance, comment on peut la reconnaître, la classer, et quelles sont ses propriétés qui permettent sa transformation en d'autres produits. De retour en classe avec son groupe, il décide d'étudier en détail la famille des alcoo",
+  "lesson": "## 1. Introduction : définition et groupe fonctionnel\n\nUn **alcool** est un composé organique dont la molécule contient au moins un **groupe hydroxyle $-OH$** lié à un **atome de carbone tétragonal** (hybridé $sp^3$).\n\n- **Formule générale** d'un alcool aliphatique saturé monovalent : $R-OH$ où $R$ est un groupe alkyle.\n- **Groupe fonctionnel** : $-OH$ (hydroxyle). Attention : Ne pas confondre avec les hydroxydes ioniques ($NaOH$) ou les phénols ($C_6H_5-OH$ où $-OH$ est lié à un carbone $sp^2$ d'un noyau aromatique).\n\n**Exemple fondamental** : L'**éthanol** $CH_3-CH_2-OH$, alcool des boissons et des désinfectants.\n\n## 2. Nomenclature des alcools\n\n**Règles IUPAC** :\n1.  Repérer la plus longue chaîne carbonée qui porte le groupe $-OH$.\n2.  Numéroter la chaîne pour attribuer le **plus petit numéro possible** au carbone porteur du $-OH$.\n3.  Former le nom en remplaçant le « -e » final de l'alcane correspondant par « -ol ».\n4.  Préciser la position du groupe $-OH$ par le numéro du carbone fonctionnel.\n\n**Exemples** :\n- $CH_3-OH$ : Méthanol (alcool méthylique)\n- $CH_3-CH_2-CH_2-OH$ : Propan-1-ol (alcool propylique)\n- $CH_3-CH(OH)-CH_3$ : Propan-2-ol (alcool isopropylique)\n\nPour les alcools à plusieurs fonctions $-OH$ (polyols) : -diol, -triol, etc.\n\n## 3. Les trois classes d'alcools : primaire, secondaire, tertiaire\n\nLa classification dépend du **degré de substitution du carbone fonctionnel** (le carbone qui porte le groupe $-OH$).\n\n**Alcool primaire (1°)** : Le carbone fonctionnel est lié à **un seul autre atome de carbone** (ou à aucun). Il porte deux atomes d'hydrogène. Général : $R-CH_2-OH$.\n- Exemple : Éthanol $CH_3-CH_2-OH$.\n\n**Alcool secondaire (2°)** : Le carbone fonctionnel est lié à **deux autres atomes de carbone**. Il porte un atome d'hydrogène. Général : $R_2CH-OH$ (avec $R_1$ et $R_2$ alkyle).\n- Exemple : Propan-2-ol $CH_3-CH(OH)-CH_3$.\n\n**Alcool tertiaire (3°)** : Le carbone fonctionnel est lié à **trois autres atomes de carbone**. Il ne porte pas d'hydrogène. Général : $R_3C-OH$.\n- Exemple : 2-méthylpropan-2-ol $(CH_3)_3C-OH$.\n\nCette classification est **cruciale** car elle influence fortement la réactivité des alcools, notamment leur facilité d'oxydation.\n\n**Description du schéma 1 : Les trois classes d'alcools**\nReprésenter trois structures moléculaires simples côte à côte. À gauche : un alcool primaire (ex : éthanol) avec le carbone fonctionnel $C$ lié à un $OH$, à deux H et à un groupe $CH_3$. Légende \"Primaire (1°) : C lié à 1 C\". Au centre : un alcool secondaire (ex : propan-2-ol) avec le carbone fonctionnel $C$ lié à un $OH$, à un H et à deux groupes $CH_3$. Légende \"Secondaire (2°) : C lié à 2 C\". À droite : un alcool tertiaire (ex : 2-méthylpropan-2-ol) avec le carbone fonctionnel $C$ lié à un $OH$ et à trois groupes $CH_3$. Légende \"Tertiaire (3°) : C lié à 3 C\".\n\n## 4. Méthodes de préparation des alcools\n\n**1. Hydrolyse des halogénoalcanes** : $R-X + OH^- \\\\rightarrow R-OH + X^-$ (en milieu aqueux basique).\n\n**2. Hydratation des alcènes** (addition électrophile) :\n   $R-CH=CH_2 + H_2O \\\\xrightarrow{H^+} R-CH(OH)-CH_3$\n   La régiosélectivité suit la **règle de Markovnikov** : l'hydrogène se fixe sur le carbone le plus hydrogéné.\n\n**3. Réduction des composés carbonylés** :\n   - Réduction d'un **aldéhyde** ($R-CHO$) donne un **alcool primaire**.\n   - Réduction d'une **cétone** ($R-CO-R'$) donne un **alcool secondaire**.\n\n**4. Fermentation alcoolique** (méthode biologique) :\n   $C_6H_{12}O_6 \\\\xrightarrow{\\\text{levures}} 2\\,CH_3CH_2OH + 2\\,CO_2$\n   C'est la méthode traditionnelle de production d'éthanol à partir de sucre (canne à sucre, maïs, jus de palmier).\n\n## 5. Propriétés physiques\n\n- **Solubilité** : Les petits alcools (méthanol, éthanol, propanol) sont miscibles à l'eau grâce aux **liaisons hydrogène** que forme le groupe $-OH$ avec l'eau. La solubilité diminue quand la chaîne carbonée s'allonge (partie hydrophobe).\n- **Températures d'ébullition** : Plus élevées que celles des alcanes de masse molaire comparable, toujours à cause des liaisons hydrogène intermoléculaires.\n\n## 6. Propriétés chimiques caractéristiques\n\n**A. Réaction avec les métaux alcalins (ex : sodium)** :\nLes alcools sont des acides très faibles. Ils réagissent avec le sodium en libérant du dihydrogène.\n$$2\\,R-OH + 2\\,Na \\\\rightarrow 2\\,R-ONa + H_2$$\nL'alcoolate ($R-ONa$) formé est une base forte.\n\n**B. Réactions d'élimination (déshydratation)** :\nEn présence d'acide fort concentré ($H_2SO_4$ concentré) et à chaud :\n1.  **Déshydratation intramoléculaire** (à ~180°C) : Formation d'un **alcène**.\n    $$CH_3-CH_2-OH \\\\xrightarrow{H_2SO_4, 180°C} CH_2=CH_2 + H_2O$$\n    C'est une élimination (E1 ou E2).\n2.  **Déshydratation intermoléculaire** (à ~140°C) : Formation d'un **éther**.\n    $$2\\,CH_3-CH_2-OH \\\\xrightarrow{H_2SO_4, 140°C} CH_3-CH_2-O-CH_2-CH_3 + H_2O$$\n    Éther diéthylique.\n\n**C. Oxydation ménagée** :\nRéaction avec un oxydant comme le dichromate de potassium $K_2Cr_2O_7$ en milieu acide, ou le permanganate de potassium $KMnO_4$. Le résultat dépend de la **classe** de l'alcool :\n\n1.  **Alcool primaire** :\n    - Avec un défaut d'oxydant : donne un **aldéhyde** $R-CHO$.\n    - Avec un excès d'oxydant : l'aldéhyde est oxydé en **acide carboxylique** $R-COOH$.\n    $$R-CH_2-OH \\\\xrightarrow{[O]} R-CHO \\\\xrightarrow{[O]} R-COOH$$\n\n2.  **Alcool secondaire** : Donne une **cétone** $R-CO-R'$. La cétone n'est pas oxydée plus loin dans ces conditions.\n    $$R-CH(OH)-R' \\\\xrightarrow{[O]} R-CO-R'$$\n\n3.  **Alcool tertiaire** : **Ne s'oxyde pas** en milieu aqueux acide dans ces conditions (pas d'hydrogène sur le carbone fonctionnel).\n\n**Description du schéma 2 : Schéma récapitulatif de l'oxydation des alcools**\nReprésenter un diagramme avec trois flèches partant de trois cases (Primaire, Secondaire, Tertiaire). De l'alcool primaire, une flèche mène à \"Aldéhyde\" (flèche étiquetée \"[O] défaut\"), puis une autre flèche mène de \"Aldéhyde\" à \"Acide carboxylique\" (flèche étiquetée \"[O] excès\"). De l'alcool secondaire, une flèche mène directement à \"Cétone\" (flèche étiquetée \"[O]\"). De l'alcool tertiaire, une flèche barrée ou s'arrêtant avec un point d'interrogation, étiquetée \"Pas d'oxydation\".\n\n**D. Combustion complète** :\n$$C_xH_yO_z + (x + \\\\frac{y}{4} - \\\\frac{z}{2})O_2 \\\\rightarrow x\\,CO_2 + \\\\frac{y}{2}H_2O$$\nExemple (éthanol) : $CH_3CH_2OH + 3O_2 \\\\rightarrow 2CO_2 + 3H_2O$\n\n## 7. Les polyols : exemples importants\n\nCe sont des alcools à plusieurs fonctions $-OH$.\n\n- **Éthane-1,2-diol (glycol)** : $HO-CH_2-CH_2-OH$. Antigel pour radiateurs.\n- **Propane-1,2,3-triol (glycérol ou glycérine)** : $HO-CH_2-CH(OH)-CH_2-OH$. Constituant des triglycérides (graisses), utilisé en cosmétique et pharmacie.\n\n## 8. Applications en contexte ivoirien\n\n- **Biocarburant** : L'éthanol produit à partir de canne à sucre ou de manioc peut être mélangé à l'essence (carburant E10).\n- **Désinfectants** : L'éthanol (à 70°) et le propan-2-ol sont utilisés comme antiseptiques dans les centres de santé.\n- **Distillation traditionnelle** : Production de bangui (alcool de palme) par fermentation du jus de palmier raphia ou de cocotier.\n- **Industrie des arômes** : Les alcools sont des intermédiaires pour synthétiser des esters odorants (arômes fruités).",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Alcool : composé contenant un groupe $-OH$ lié à un carbone $sp^3$.",
+    "Trois classes : primaire (C-OH lié à 1 C), secondaire (lié à 2 C), tertiaire (lié à 3 C).",
+    "L'oxydation d'un alcool primaire donne un aldéhyde puis un acide ; un secondaire donne une cétone ; un tertiaire ne s'oxyde pas.",
+    "Préparations : hydrogénation d'alcènes, hydrolyse d'halogénoalcanes, réduction de carbonylés, fermentation.",
+    "Réactions caractéristiques : avec Na (H₂), déshydratation (alcène ou éther), oxydation, combustion."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le groupe fonctionnel caractéristique d'un alcool ?",
+      "options": [
+        "$-CHO$",
+        "$-COOH$",
+        "$-OH$",
+        "$-CO-$"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Un alcool dont le carbone fonctionnel est lié à deux autres atomes de carbone est :",
+      "options": [
+        "Primaire",
+        "Secondaire",
+        "Tertiaire",
+        "Quaternaire"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "L'oxydation ménagée d'un alcool secondaire donne :",
+      "options": [
+        "Un aldéhyde",
+        "Une cétone",
+        "Un acide carboxylique",
+        "Un ester"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle réaction permet de distinguer expérimentalement un alcool primaire d'un alcool tertiaire ?",
+      "options": [
+        "La réaction avec l'eau",
+        "La réaction avec le dichromate de potassium acidifié",
+        "La mesure du pH",
+        "La distillation"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "L'éthanol réagit avec le sodium en dégageant :",
+      "options": [
+        "Du dioxyde de carbone",
+        "Du dihydrogène",
+        "Du dioxygène",
+        "De la vapeur d'eau"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "La fermentation alcoolique du glucose produit :",
+      "options": [
+        "De l'éthanol et du CO₂",
+        "De l'acide acétique",
+        "De l'acétone",
+        "Du méthanol"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel produit obtient-on en chauffant de l'éthanol avec de l'acide sulfurique concentré à 180°C ?",
+      "options": [
+        "Un éther",
+        "Un aldéhyde",
+        "Un alcène (éthylène)",
+        "Une cétone"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Le glycérol (glycérine) est un :",
+      "options": [
+        "Alcool monovalent",
+        "Alcool divalent (diol)",
+        "Alcool trivalent (triol)",
+        "Acide carboxylique"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "En Côte d'Ivoire, l'éthanol utilisé comme biocarburant est souvent produit à partir de :",
+      "options": [
+        "Pétrole",
+        "Canne à sucre ou manioc",
+        "Charbon",
+        "Gaz naturel"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "La règle de Markovnikov s'applique lors de :",
+      "options": [
+        "L'oxydation des alcools",
+        "L'hydratation des alcènes",
+        "La combustion des alcools",
+        "La réaction avec le sodium"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Fonction alcool ?",
+      "options": [
+        "-COOH",
+        "-OH",
+        "-CHO",
+        "-CO-"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "La formule générale d'un alcool saturé monofonctionnel est :",
+      "options": [
+        "C_nH_{2n}OH",
+        "C_nH_{2n+1}OH",
+        "C_nH_{2n-1}OH",
+        "C_nH_{2n+2}OH"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Un alcool secondaire oxydé donne :",
+      "options": [
+        "Un aldéhyde",
+        "Une cétone",
+        "Un acide carboxylique",
+        "Pas de réaction"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Le propan-2-ol est un alcool :",
+      "options": [
+        "Primaire",
+        "Secondaire",
+        "Tertiaire",
+        "Aromatique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Dans la réaction R-OH + Na, on observe :",
+      "options": [
+        "Un dégagement de CO₂",
+        "Un dégagement de H₂",
+        "Un précipité",
+        "Un changement de couleur"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Pour préparer un alcool primaire à partir d'un alcène, on applique :",
+      "options": [
+        "La règle de Markovnikov",
+        "La règle de Zaitsev",
+        "La règle de Hund",
+        "La règle de l'octet"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "L'oxydation ménagée d'un alcool primaire avec excès d'oxydant donne :",
+      "options": [
+        "Aldéhyde",
+        "Cétone",
+        "Acide carboxylique",
+        "Alcène"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Le méthanol a pour formule :",
+      "options": [
+        "CH₃OH",
+        "C₂H₅OH",
+        "CH₃CH₂CH₂OH",
+        "(CH₃)₂CHOH"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "La déshydratation de l'éthanol à 180°C donne :",
+      "options": [
+        "Éther diéthylique",
+        "Acétaldéhyde",
+        "Éthylène",
+        "Acide acétique"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Le test à la DNPH permet d'identifier :",
+      "options": [
+        "Les alcools",
+        "Les aldéhydes et cétones",
+        "Les acides carboxyliques",
+        "Les esters"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q21",
+      "type": "mcq",
+      "prompt": "Le glycérol est un :",
+      "options": [
+        "Monool",
+        "Diol",
+        "Triol",
+        "Tétrol"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "maths-seconde-equations-et-inequations-dans-ir",
+  "title": "Équations et inéquations dans IR",
+  "summary": "Deux élèves de Seconde A du Lycée de Jeunes Filles de Bingerville tapent un même nombre sur leurs calculatrices. Le premier appuie sur : ? × 8 - 15 = et obtient un résultat. Le second appuie sur : ? - 1 = × 4 + 5 = et obtient le même résultat. Comment retrouver le nombre initial en résolvant une équation ?",
+  "lesson": "## Équations et inéquations : outils de résolution de problèmes\n\n### 1. Équations du premier degré\n\nUne équation est une égalité contenant une inconnue. Résoudre une équation, c'est trouver toutes les valeurs de l'inconnue qui vérifient l'égalité.\n\n**Forme générale :** ax + b = 0 où a ≠ 0\n**Solution :** x = -b/a\n\n**Méthode de résolution :**\n1. Isoler l'inconnue d'un côté\n2. Simplifier chaque membre\n3. Diviser par le coefficient de l'inconnue\n\n**Exemple ivoirien :** Un taxi brousse part d'Abidjan pour Bouaké (distance 350 km). Son essence lui permet de parcourir 12 km par litre. S'il a 25 litres au départ et veut savoir combien de litres il lui restera, on pose : 25 - (350/12) = x\n\n### 2. Équations produits\n\nUne équation produit est de la forme (ax + b)(cx + d) = 0\n\n**Propriété fondamentale :** Un produit est nul si et seulement si au moins un des facteurs est nul.\n\n**Méthode de résolution :**\n(ax + b)(cx + d) = 0 ⇔ ax + b = 0 OU cx + d = 0\n\n**Application concrète :** Un terrain rectangulaire à Daloa a une aire de 200 m². Si sa longueur est (x + 5) et sa largeur (x - 3), on a : (x + 5)(x - 3) = 200\nDéveloppé : x² + 2x - 15 = 200 → x² + 2x - 215 = 0\n\n### 3. Inéquations du premier degré\n\nUne inéquation est une inégalité contenant une inconnue. Les symboles sont : <, >, ≤, ≥\n\n**Forme générale :** ax + b ≤ 0 (ou avec les autres symboles)\n\n**Méthode de résolution :**\n1. Isoler l'inconnue comme pour une équation\n2. **Attention au sens de l'inégalité :** Si on multiplie ou divise par un nombre négatif, on change le sens de l'inégalité\n\n**Exemple :** 3x - 5 < 7\n3x < 12\nx < 4\n\n### 4. Signe d'une expression affine\n\nPour ax + b (avec a ≠ 0) :\n- Si a > 0 : ax + b est négatif pour x < -b/a, positif pour x > -b/a\n- Si a < 0 : ax + b est positif pour x < -b/a, négatif pour x > -b/a\n\n**Tableau de signes :** Outil visuel pour représenter le signe en fonction de x.\n\n**Application ivoirienne :** Une entreprise de transport à Abidjan a des coûts fixes de 500 000 FCFA et des coûts variables de 2000 FCFA par passager. Le bénéfice B pour n passagers au prix de 5000 FCFA chacun est : B = 5000n - (500000 + 2000n) = 3000n - 500000\nL'entreprise est rentable quand B > 0 soit n > 500000/3000 ≈ 167 passagers.\n\n### 5. Inéquations produits\n\nPour résoudre (ax + b)(cx + d) ≤ 0 :\n1. Étudier le signe de chaque facteur\n2. Construire un tableau de signes\n3. Déterminer les intervalles où le produit a le signe voulu\n\n### 6. Représentation des solutions\n\n**Intervalles :**\n- [a, b] : tous les x tels que a ≤ x ≤ b\n- ]a, b[ : tous les x tels que a < x < b\n- [a, +∞[ : tous les x ≥ a\n\n**Droite graduée :** Représentation graphique des solutions.\n- Crochet tourné vers l'intérieur si la borne est incluse\n- Crochet tourné vers l'extérieur si la borne est exclue\n\n### 7. Traduction de problèmes concrets\n\n**Étapes :**\n1. Choisir l'inconnue\n2. Traduire les informations en équation/inéquation\n3. Résoudre\n4. Vérifier que la solution a du sens dans le contexte\n\n**Exemple ivoirien 1 :** Un planteur de cacao veut acheter des sacs d'engrais. Chaque sac coûte 15 000 FCFA. Il dispose de 200 000 FCFA et doit garder au moins 50 000 FCFA pour autres dépenses. Combien de sacs peut-il acheter ?\n15 000x ≤ 150 000 → x ≤ 10\n\n**Exemple ivoirien 2 :** Pour organiser une excursion au Parc National de la Comoé, une classe de 30 élèves collecte de l'argent. Chaque élève donne au moins 5 000 FCFA. Le coût total est de 200 000 FCFA. Combien chacun doit-il donner en moyenne ?\n30x ≥ 200 000 → x ≥ 6 667 FCFA\n\n### 8. Applications interdisciplinaires\n\n- **Économie :** seuil de rentabilité, optimisation des coûts\n- **Sciences :** équilibre chimique, lois physiques\n- **Géographie :** modèles de population, ressources\n- **Vie quotidienne :** budgets, planning, partages\n\n### 9. Vérification des solutions\n\nToujours vérifier :\n1. Replacer la solution dans l'équation/inéquation initiale\n2. Vérifier qu'elle respecte les conditions du problème\n3. Pour les inéquations, tester une valeur dans chaque intervalle\n\n### 10. Erreurs fréquentes\n\n- Oublier de changer le sens de l'inégalité quand on multiplie/divise par un négatif\n- Confondre inclusion et exclusion des bornes\n- Mauvais signe dans les tableaux de signes\n- Ne pas vérifier la cohérence avec le problème initial\n\nLes équations et inéquations sont des outils fondamentaux pour la prise de décision rationnelle dans tous les domaines de la vie en Côte d'Ivoire, permettant de modéliser et résoudre des problèmes concrets de manière systématique.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Multiplier/diviser une inégalité par un nombre négatif inverse le sens",
+    "Un produit est nul si et seulement si un facteur est nul",
+    "Les solutions d'une inéquation se représentent par des intervalles",
+    "Toujours vérifier que la solution a un sens dans le contexte du problème"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Solution de 3x - 7 = 2x + 5 ?",
+      "options": [
+        "x = 2",
+        "x = 12",
+        "x = -2",
+        "x = 1/2"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Si on multiplie les deux membres de -2x > 6 par -1/2, on obtient :",
+      "options": [
+        "x > -3",
+        "x < -3",
+        "x > 3",
+        "x < 3"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Les solutions de (x - 3)(x + 2) = 0 sont :",
+      "options": [
+        "x = 3 seulement",
+        "x = -2 seulement",
+        "x = 3 et x = -2",
+        "x = 0"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "L'intervalle ]-∞, 5] représente :",
+      "options": [
+        "x < 5",
+        "x ≤ 5",
+        "x > 5",
+        "x ≥ 5"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

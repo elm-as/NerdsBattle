@@ -1,0 +1,110 @@
+{
+  "id": "espagnol-troisieme-comparer-comparatifs-et-superlatifs",
+  "title": "Comparer (comparatifs et superlatifs)",
+  "summary": "¿Cómo comparar personas y cosas? (Comment comparer des personnes et des choses ?)",
+  "lesson": "## Les comparatifs et superlatifs\n\n### Comparatif de supériorité\n**MÁS + adjectif + QUE**\n\n- María es **más alta que** Juan. (María est plus grande que Juan)\n- El español es **más fácil que** el alemán. (L'espagnol est plus facile que l'allemand)\n\n### Comparatif d'infériorité\n**MENOS + adjectif + QUE**\n\n- Pedro es **menos rápido que** Carlos. (Pedro est moins rapide que Carlos)\n- Esta película es **menos interesante que** la otra. (Ce film est moins intéressant que l'autre)\n\n### Comparatif d'égalité\n**TAN + adjectif + COMO**\n\n- Ana es **tan inteligente como** su hermana. (Ana est aussi intelligente que sa sœur)\n- Abidjan es **tan grande como** Yamoussoukro. (Abidjan est aussi grande que Yamoussoukro)\n\n### Comparatifs irréguliers\n\n**BUENO (bon) :**\n- bueno → **mejor** (meilleur)\n- Esta película es **mejor que** la otra. (Ce film est meilleur que l'autre)\n\n**MALO (mauvais) :**\n- malo → **peor** (pire)\n- Este examen es **peor que** el anterior. (Cet examen est pire que le précédent)\n\n**GRANDE (grand) - âge :**\n- grande → **mayor** (plus âgé)\n- Mi hermano es **mayor que** yo. (Mon frère est plus âgé que moi)\n\n**PEQUEÑO (petit) - âge :**\n- pequeño → **menor** (plus jeune)\n- Mi hermana es **menor que** yo. (Ma sœur est plus jeune que moi)\n\n### Superlatif relatif\n**EL/LA/LOS/LAS + MÁS/MENOS + adjectif + DE**\n\n- María es **la más alta de** la clase. (María est la plus grande de la classe)\n- Es **el menos caro de** todos. (C'est le moins cher de tous)\n\n### Superlatif absolu\n**MUY + adjectif** ou **-ÍSIMO/A/OS/AS**\n\n- Es **muy interesante**. (C'est très intéressant)\n- Es **interesantísimo**. (C'est extrêmement intéressant)\n- Es **buenísimo**. (C'est excellent)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Más... que = plus... que",
+    "Menos... que = moins... que",
+    "Tan... como = aussi... que",
+    "Mejor/peor/mayor/menor = irréguliers"
+  ],
+  "exercise": {
+    "answer": "Las matemáticas son más difíciles que el español. El francés es tan importante como el español. Para mí, la educación física es la más divertida de todas las materias.",
+    "question": "Compare trois de tes matières scolaires."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Comment dit-on 'plus grand que' ?",
+      "options": [
+        "más grande de",
+        "tan grande que",
+        "\"más grande que\"",
+        "grande que"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 3,
+      "prompt": "Le comparatif irrégulier de 'bueno' est :",
+      "options": [
+        "más bueno",
+        "buenísimo",
+        "más mejor",
+        "\"mejor\""
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-espagnol-1-mv9jf7s7",
+      "type": "mcq",
+      "prompt": "Quelle est la structure grammaticale correcte pour exprimer le comparatif d'égalité en espagnol ?",
+      "options": [
+        "MÁS + adjectif + QUE",
+        "TAN + adjectif + COMO",
+        "MENOS + adjectif + QUE",
+        "TAN + adjectif + QUE"
+      ],
+      "answer": 1,
+      "explanation": "Le comparatif d'égalité se forme avec 'TAN' (aussi) suivi de l'adjectif et de la conjonction 'COMO' (comme). Par exemple : 'Tan alto como' (aussi grand que)."
+    },
+    {
+      "id": "auto-espagnol-2-mv9jf7s7",
+      "type": "mcq",
+      "prompt": "Complétez la phrase : 'Mi abuelo es ______ que mi padre.' (Mon grand-père est plus âgé que mon père).",
+      "options": [
+        "más viejo",
+        "mayor",
+        "mejor",
+        "peor"
+      ],
+      "answer": 1,
+      "explanation": "Pour comparer l'âge, on utilise le comparatif irrégulier 'mayor' (plus âgé) plutôt que 'más viejo' (plus vieux), qui est moins formel et parfois péjoratif. 'Mayor' est la forme standard pour l'âge."
+    },
+    {
+      "id": "auto-espagnol-3-mv9jf7s7",
+      "type": "mcq",
+      "prompt": "Quel est le comparatif irrégulier de l'adjectif 'malo' (mauvais) ?",
+      "options": [
+        "más malo",
+        "peor",
+        "pequeño",
+        "menor"
+      ],
+      "answer": 1,
+      "explanation": "L'adjectif 'malo' a un comparatif irrégulier : 'peor' (pire). On ne dit pas 'más malo' dans l'usage standard pour le comparatif de supériorité."
+    },
+    {
+      "id": "auto-espagnol-4-mv9jf7s7",
+      "type": "mcq",
+      "prompt": "Quelle phrase utilise correctement le comparatif d'infériorité ?",
+      "options": [
+        "Este libro es más aburrido que el otro.",
+        "Este libro es menos aburrido que el otro.",
+        "Este libro es tan aburrido que el otro.",
+        "Este libro es mejor aburrido que el otro."
+      ],
+      "answer": 1,
+      "explanation": "Le comparatif d'infériorité se forme avec 'MENOS' (moins) + adjectif + 'QUE'. 'Menos aburrido' signifie 'moins ennuyeux'. Les autres options utilisent des structures incorrectes ou des comparatifs de supériorité/égalité."
+    },
+    {
+      "id": "auto-espagnol-5-mv9jf7s7",
+      "type": "mcq",
+      "prompt": "Pour exprimer que 'ce film est meilleur que l'autre', quelle est la formulation correcte ?",
+      "options": [
+        "Este film es más bueno que el otro.",
+        "Este film es mejor que el otro.",
+        "Este film es más mejor que el otro.",
+        "Este film es bueno más que el otro."
+      ],
+      "answer": 1,
+      "explanation": "L'adjectif 'bueno' a un comparatif irrégulier : 'mejor' (meilleur). On ne double pas le comparatif (pas de 'más mejor') et on n'utilise pas 'más bueno' pour le comparatif de supériorité standard."
+    }
+  ]
+}

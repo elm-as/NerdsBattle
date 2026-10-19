@@ -1,0 +1,44 @@
+{
+  "id": "francais-sixieme-le-sujet-et-le-verbe",
+  "title": "Le sujet et le verbe",
+  "summary": "Dans la phrase 'Les enfants jouent au ballon', qui fait l'action ?",
+  "lesson": "## Le sujet et le verbe\n\n### Qu'est-ce que le sujet ?\nLe sujet est celui qui **fait l'action** du verbe.\n\nPour le trouver, on pose la question : **Qui est-ce qui + verbe ?**\n\n**Exemple :**\n- **Le chat** mange. → Qui est-ce qui mange ? → Le chat (sujet)\n\n### Nature du sujet\nLe sujet peut être :\n- Un **nom** : La voiture roule.\n- Un **pronom** : Il roule.\n- Un **groupe nominal** : Mon petit frère joue.\n\n### L'accord sujet-verbe\nLe verbe s'accorde toujours avec son sujet en **personne** et en **nombre**.\n\n**Exemples :**\n- Le chat **dort**. (singulier)\n- Les chats **dorment**. (pluriel)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Sujet = fait l'action",
+    "Question : Qui est-ce qui + verbe ?",
+    "Le verbe s'accorde avec le sujet"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans 'Marie chante', quel est le sujet ?",
+      "options": [
+        "chante",
+        "Marie",
+        "Il n'y a pas de sujet",
+        "Marie chante"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Le verbe s'accorde avec :",
+      "options": [
+        "Le COD",
+        "L'adjectif",
+        "Le sujet",
+        "Le complément"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

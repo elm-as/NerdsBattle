@@ -1,0 +1,280 @@
+{
+  "id": "physique-premiere-energie-potentielle",
+  "title": "ENERGIE POTENTIELLE",
+  "summary": "Des élèves du Lycée Moderne 2 d'Agboville observent un camion chargé de billes de bois qui, ne pouvant plus monter une côte menant à la SODECI, redescend en accélérant et frôle la catastrophe. Impressionnés, ils décident d'étudier les différentes formes d'énergie potentielles pour comprendre ce phénomène et ses applications dans la vie quotidienne en Côte d'Ivoire.",
+  "lesson": "## 1. Introduction\n\nL'énergie potentielle est l'énergie stockée par un système due à sa position ou à sa configuration. C'est une énergie en attente, qui peut être convertie en d'autres formes. En Côte d'Ivoire, l'énergie potentielle est exploitée dans les barrages hydroélectriques (comme celui de Soubré), les systèmes de stockage, et de nombreux dispositifs techniques.\n\n## 2. Énergie potentielle de pesanteur\n\n### 2.1 Définition\nPour un système (solide + Terre) dans un champ de pesanteur uniforme :\n$$E_{pp} = mgz + C$$\noù :\n- m : masse du solide (kg)\n- g : intensité de la pesanteur (9,8 N/kg en Côte d'Ivoire)\n- z : altitude du solide (m)\n- C : constante arbitraire dépendant du choix de l'origine des énergies potentielles\n\n### 2.2 Choix de l'origine\nL'énergie potentielle est définie à une constante additive près. On choisit généralement :\n- Soit z = 0 comme référence (alors Epp = mgz)\n- Soit un point particulier où on fixe Epp = 0\n\n**Description du schéma 1:** Représenter un barrage hydroélectrique (comme le barrage de Buyo). Montrer l'eau à une altitude z au-dessus des turbines. L'énergie potentielle Epp = mgz se convertit en énergie cinétique puis électrique. Indiquer le niveau de référence (z = 0) au niveau des turbines.\n\n### 2.3 Variation d'énergie potentielle\nLa variation entre deux points A et B est indépendante du choix de l'origine :\n$$\\\\Delta E_{pp} = E_{ppB} - E_{ppA} = mg(z_B - z_A)$$\n\n### 2.4 Application : chute d'eau\nAu barrage de Kossou, l'eau chute de 50 m. Pour 1 m³ d'eau (1000 kg) :\n$$\\\\Delta E_{pp} = mg\\\\Delta z = 1000 \\\times 9,8 \\\times (-50) = -4,9 \\\times 10^5 \\\\, \\\text{J} = -490 \\\\, \\\text{kJ}$$\nLe signe négatif indique une perte d'énergie potentielle, convertie en autres formes.\n\n## 3. Énergie potentielle élastique\n\n### 3.1 Définition\nPour un système (ressort + solide), lorsque le ressort est déformé :\n$$E_{pe} = \\\\frac{1}{2}kx^2 + C$$\noù :\n- k : constante de raideur du ressort (N/m)\n- x : allongement ou compression du ressort par rapport à sa position d'équilibre (m)\n- C : constante dépendant du choix de l'origine\n\n### 3.2 Convention usuelle\nOn choisit généralement Epe = 0 lorsque le ressort est au repos (x = 0). Alors :\n$$E_{pe} = \\\\frac{1}{2}kx^2$$\n\n### 3.3 Propriétés\n- Epe est toujours positive ou nulle\n- Elle est proportionnelle au carré de la déformation\n- C'est une énergie de configuration\n\n**Description du schéma 2:** Montrer un ressort horizontal fixé à un mur, avec une masse à son extrémité. En position d'équilibre (x = 0), Epe = 0. Étirer le ressort de x : Epe = ½kx². Compresser le ressort de x : Epe = ½kx² aussi. Indiquer la force de rappel F = -kx.\n\n## 4. Applications en contexte ivoirien\n\n### 4.1 Barrages hydroélectriques\nLes barrages stockent de l'eau à haute altitude (énergie potentielle) qui est convertie en électricité. La capacité de production dépend de la hauteur de chute et du débit.\n\n### 4.2 Ressorts dans les véhicules\nLes suspensions des taxis-brousse utilisent des ressorts qui accumulent et restituent de l'énergie potentielle élastique pour amortir les chocs sur les routes parfois difficiles.\n\n### 4.3 Treuils et palans\nDans les chantiers de construction à Abidjan, les treuils utilisent le principe de l'énergie potentielle pour lever des charges.\n\n### 4.4 Catapultes traditionnelles\nLes chasseurs utilisent parfois des catapultes dont le bras flexible stocke de l'énergie potentielle élastique.\n\n## 5. Comparaison des deux énergies potentielles\n\n### 5.1 Points communs\n- Les deux sont des énergies de position/configuration\n- Définies à une constante près\n- Convertibles en énergie cinétique\n- Associées à des forces conservatives\n\n### 5.2 Différences\n| Énergie potentielle de pesanteur | Énergie potentielle élastique |\n|---------------------------------|-------------------------------|\n| Assocée au champ de pesanteur | Assocée à la déformation élastique |\n| Epp = mgz + C | Epe = ½kx² + C |\n| Linéaire en z | Quadratique en x |\n| Pour la Terre et le solide | Pour le ressort et le solide |\n\n## 6. Variation d'énergie potentielle\n\n### 6.1 Calcul pratique\nPour éviter les constantes, on travaille souvent avec les variations :\n$$\\\\Delta E_{pp} = mg(z_B - z_A)$$\n$$\\\\Delta E_{pe} = \\\\frac{1}{2}k(x_B^2 - x_A^2)$$\n\n### 6.2 Signe de la variation\n- ΔEpp < 0 : le corps descend (perte d'énergie potentielle)\n- ΔEpp > 0 : le corps monte (gain d'énergie potentielle)\n- ΔEpe < 0 : le ressort revient vers sa position d'équilibre\n- ΔEpe > 0 : le ressort s'écarte de sa position d'équilibre\n\n**Description du schéma 3:** Représenter un système masse-ressort vertical. En haut : ressort comprimé (x négatif), Epe = ½kx², Epp = mgz (z élevé). Au milieu : position d'équilibre (x = 0), Epe = 0, Epp = mgz0. En bas : ressort étiré (x positif), Epe = ½kx², Epp = mgz (z bas). Montrer les conversions entre Epp, Epe, et Ec.\n\n## 7. Conversion entre formes d'énergie\n\n### 7.1 Principe de conservation\nDans les systèmes conservatifs (sans frottement), l'énergie mécanique totale se conserve :\n$$E_m = E_c + E_{pp} + E_{pe} = \\\text{constante}$$\n\n### 7.2 Exemple : saut à l'élastique\nAu pont de Liana à Man (si applicable) ou dans les attractions :\n1. En haut : Ec = 0, Epp maximale, Epe = 0\n2. Pendant la chute : Epp diminue, Ec augmente\n3. Au point le plus bas : Epp minimale, Ec maximale puis se convertit en Epe\n4. Remontée : Epe se reconvertit en Ec puis Epp\n\n## 8. Applications pratiques détaillées\n\n### 8.1 Calcul de la hauteur d'un barrage\nPour produire 1 MW avec un débit de 10 m³/s :\n$$P = \\\\frac{\\\\Delta E_{pp}}{\\\\Delta t} = \\\\frac{mg\\\\Delta z}{\\\\Delta t} = \\\\rho Q g h$$\n$$h = \\\\frac{P}{\\\\rho Q g} = \\\\frac{10^6}{1000 \\\times 10 \\\times 9,8} = 10,2 \\\\, \\\text{m}$$\n\n### 8.2 Suspension de véhicule\nUn ressort de suspension (k = 20000 N/m) se comprime de 10 cm sous le poids d'une voiture :\n$$E_{pe} = \\\\frac{1}{2} \\\times 20000 \\\times 0,1^2 = 100 \\\\, \\\text{J}$$\nCette énergie est restituée lors du rebond.\n\n### 8.3 Stockage d'énergie par pompage\nDans les systèmes de pompage-turbinage, on pompe l'eau vers un réservoir haut (gain d'Epp) pour la turbiner plus tard.\n\n## 9. Méthodologie de calcul\n\n### 9.1 Étapes\n1. Choisir un système de référence (origine des altitudes)\n2. Déterminer les positions/z/déformations\n3. Appliquer les formules avec les mêmes unités\n4. Pour les variations, le choix de l'origine n'a pas d'importance\n\n### 9.2 Pièges à éviter\n- Ne pas oublier de convertir en unités SI\n- Bien définir le zéro d'énergie potentielle\n- Distinguer allongement et compression (x peut être négatif mais x² est positif)\n- Pour les ressorts, x est mesuré depuis la position d'équilibre",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Énergie potentielle de pesanteur : Epp = mgz + C",
+    "Énergie potentielle élastique : Epe = ½kx² + C",
+    "Les énergies potentielles sont définies à une constante additive près",
+    "La variation d'énergie potentielle est indépendante du choix de l'origine",
+    "Les barrages hydroélectriques exploitent l'énergie potentielle de pesanteur"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "L'énergie potentielle de pesanteur s'exprime par :",
+      "options": [
+        "Epp = ½mv²",
+        "Epp = mgz",
+        "Epp = ½kx²",
+        "Epp = mgh²"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Pour un ressort, l'énergie potentielle élastique est :",
+      "options": [
+        "Proportionnelle à x",
+        "Proportionnelle à x²",
+        "Inversement proportionnelle à x",
+        "Indépendante de x"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Dans un barrage, l'eau stocke principalement :",
+      "options": [
+        "Énergie cinétique",
+        "Énergie potentielle de pesanteur",
+        "Énergie potentielle élastique",
+        "Énergie thermique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "L'énergie potentielle est définie :",
+      "options": [
+        "De manière absolue",
+        "À une constante près",
+        "Uniquement positive",
+        "Uniquement négative"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Si un corps descend, son ΔEpp est :",
+      "options": [
+        "Positif",
+        "Négatif",
+        "Nul",
+        "Variable"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Un ressort de raideur k = 200 N/m allongé de 0,1 m stocke :",
+      "options": [
+        "1 J",
+        "2 J",
+        "0,5 J",
+        "0,1 J"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Pour une chute libre sans frottement :",
+      "options": [
+        "Epp + Ec = constante",
+        "Epp seul se conserve",
+        "Ec seul se conserve",
+        "Rien ne se conserve"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "L'unité de la constante de raideur k est :",
+      "options": [
+        "N/m",
+        "J/m",
+        "N·m",
+        "J·s"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Un objet de 2 kg à 10 m de haut a une Epp (avec z=0 au sol) de :",
+      "options": [
+        "20 J",
+        "196 J",
+        "98 J",
+        "200 J"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "La variation d'Epp entre deux points :",
+      "options": [
+        "Dépend de l'origine choisie",
+        "Est indépendante de l'origine",
+        "Est toujours nulle",
+        "Dépend du chemin suivi"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "L'énergie potentielle de pesanteur d'un corps s'exprime par :",
+      "options": [
+        "$E_{pp} = \\\\frac{1}{2}mgz^2$",
+        "$E_{pp} = mgz + C^{te}$",
+        "$E_{pp} = mgv$",
+        "$E_{pp} = \\\\frac{1}{2}mgz$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Pour un corps de masse m, la variation d'énergie potentielle entre deux altitudes :",
+      "options": [
+        "Dépend du chemin suivi",
+        "Est indépendante du niveau de référence",
+        "Est toujours positive",
+        "Est proportionnelle à la vitesse"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "L'énergie potentielle élastique d'un ressort de constante k comprimé de x est :",
+      "options": [
+        "$E_{pe} = kx$",
+        "$E_{pe} = \\\\frac{1}{2}kx^2$",
+        "$E_{pe} = kx^2$",
+        "$E_{pe} = \\\\frac{1}{2}kx$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Un camion de 20 tonnes est à 50 m d'altitude. Son énergie potentielle par rapport au sol est : ($g = 10 N/kg$)",
+      "options": [
+        "1 MJ",
+        "10 MJ",
+        "100 MJ",
+        "1 GJ"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Le travail du poids entre deux points A et B est relié à la variation d'énergie potentielle par :",
+      "options": [
+        "$W = \\\\Delta E_{pp}$",
+        "$W = -\\\\Delta E_{pp}$",
+        "$W = \\\\frac{1}{2}\\\\Delta E_{pp}$",
+        "$W = 2\\\\Delta E_{pp}$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Dans un barrage hydroélectrique, l'énergie potentielle de l'eau est convertie principalement en :",
+      "options": [
+        "Énergie thermique",
+        "Énergie chimique",
+        "Énergie électrique",
+        "Énergie nucléaire"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Si on double l'altitude d'un corps, son énergie potentielle de pesanteur :",
+      "options": [
+        "Double",
+        "Quadruple",
+        "Reste la même",
+        "Est divisée par deux"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "En Côte d'Ivoire, l'énergie potentielle est exploitée principalement dans :",
+      "options": [
+        "Les centrales hydroélectriques",
+        "Les raffineries de pétrole",
+        "Les plantations de cacao",
+        "Les mines d'or"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "L'énergie potentielle élastique est maximale lorsque :",
+      "options": [
+        "Le ressort est à sa longueur à vide",
+        "Le ressort est comprimé au maximum",
+        "La vitesse est maximale",
+        "L'altitude est maximale"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "La constante dans l'expression $E_{pp} = mgz + C^{te}$ :",
+      "options": [
+        "Est toujours nulle",
+        "Dépend du choix du niveau de référence",
+        "Est égale à mg",
+        "Est une constante universelle"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

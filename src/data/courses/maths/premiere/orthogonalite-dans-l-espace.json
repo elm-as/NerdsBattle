@@ -1,0 +1,124 @@
+{
+  "id": "maths-premiere-orthogonalite-dans-l-espace",
+  "title": "Orthogonalité dans l'espace",
+  "summary": "Devant un chantier à Abidjan, deux élèves entendent le chef de chantier exiger que les planchers des étages soient parallèles pour la solidité. L'un affirme qu'il faut que chaque pilier soit orthogonal à toutes les droites d'un plancher. L'autre dit qu'il suffit qu'il soit orthogonal à deux droites sécantes du plancher. La classe étudie l'orthogonalité dans l'espace pour trancher.",
+  "lesson": "## 1. Droites orthogonales\n\nDeux droites D et D' sont orthogonales si leurs vecteurs directeurs sont orthogonaux.\n\n**Attention** : Orthogonal ≠ perpendiculaire. Deux droites orthogonales ne sont pas nécessairement sécantes (elles peuvent être dans des plans différents).\n\n## 2. Droite orthogonale à un plan\n\nUne droite D est orthogonale à un plan P si elle est orthogonale à toutes les droites de P.\n\n**Théorème** : D ⟂ P si et seulement si D est orthogonale à deux droites sécantes de P.\n\nC'est la réponse au débat : le deuxième élève a raison.\n\n## 3. Caractérisation vectorielle\n\nSoit D de vecteur directeur $$\\\\vec{u}$$, et P de vecteurs directeurs $$\\\\vec{v}$$ et $$\\\\vec{w}$$ (non colinéaires).\nD ⟂ P ⇔ $$\\\\vec{u}$$ ⟂ $$\\\\vec{v}$$ et $$\\\\vec{u}$$ ⟂ $$\\\\vec{w}$$.\n\n## 4. Projection orthogonale\n\nLa projection orthogonale sur un plan P associe à tout point M son projeté H, pied de la perpendiculaire à P passant par M.\n\nPropriétés :\n- Conservation de l'alignement\n- Le projeté du milieu est le milieu des projetés\n- Réduction des distances\n\n## 5. Distance d'un point à un plan\n\nLa distance de M à P est la longueur MH où H est le projeté orthogonal.\nC'est la plus courte distance de M à un point de P.\n\n## 6. Plans perpendiculaires\n\nDeux plans P et Q sont perpendiculaires si l'un contient une droite orthogonale à l'autre.\n\n**Caractérisation** : P ⟂ Q ⇔ leurs vecteurs normaux sont orthogonaux.\n\n## 7. Application au bâtiment\n\nPour que les planchers soient parallèles, il suffit que les piliers soient orthogonaux à deux droites sécantes du premier plancher. Alors chaque pilier sera orthogonal à tous les planchers (qui sont parallèles entre eux).\n\n## 8. Calcul de distance point-plan\n\nSi P a pour équation $$ax+by+cz+d=0$$ et M(x₀,y₀,z₀), alors :\n$$d(M,P) = \\\\frac{|ax₀+by₀+cz₀+d|}{\\\\sqrt{a²+b²+c²}}$$\n\nFormule analogue à la distance point-droite dans le plan.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "D ⟂ P ⇔ D orthogonale à 2 droites sécantes de P",
+    "Projection orthogonale conserve l'alignement et les milieux",
+    "Distance point-plan = plus courte distance",
+    "Plans perpendiculaires ⇔ vecteurs normaux orthogonaux",
+    "Formule distance : $$d=\\\\frac{|ax₀+by₀+cz₀+d|}{\\\\sqrt{a²+b²+c²}}$$"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Une droite est orthogonale à un plan si elle est orthogonale :",
+      "options": [
+        "À une droite du plan",
+        "À deux droites parallèles du plan",
+        "À deux droites sécantes du plan",
+        "À trois droites du plan"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La distance d'un point à un plan est :",
+      "options": [
+        "Toujours nulle",
+        "La longueur de la perpendiculaire",
+        "La plus grande distance possible",
+        "La distance au centre du plan"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Deux plans sont perpendiculaires si leurs vecteurs normaux sont :",
+      "options": [
+        "Colinéaires",
+        "Orthogonaux",
+        "Égaux",
+        "De même sens"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Le projeté orthogonal du milieu d'un segment est :",
+      "options": [
+        "Le milieu des projetés",
+        "Plus proche d'une extrémité",
+        "Toujours confondu avec un sommet",
+        "Indéterminé"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Dans l'espace, deux droites orthogonales sont toujours :",
+      "options": [
+        "Sécantes",
+        "Parallèles",
+        "Coplanaires",
+        "Pas nécessairement sécantes"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Pour qu'une droite soit orthogonale à un plan, il suffit qu'elle soit orthogonale à :",
+      "options": [
+        "Une droite du plan",
+        "Deux droites parallèles du plan",
+        "Deux droites sécantes du plan",
+        "Toutes les droites du plan"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "La projection orthogonale conserve :",
+      "options": [
+        "Les distances",
+        "Les angles",
+        "Les milieux",
+        "Les aires"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Si une droite D est orthogonale à un plan P, alors D est :",
+      "options": [
+        "Parallèle à P",
+        "Sécante à P",
+        "Incluse dans P",
+        "Orthogonale à une seule droite de P"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

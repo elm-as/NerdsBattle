@@ -1,0 +1,71 @@
+{
+  "id": "maths-seconde-utilisation-des-symetries-et-translations",
+  "title": "Utilisation des symétries et translations",
+  "summary": "Un élève découvre sur Internet les fractales de Sierpinski, créées par le mathématicien polonais Wacław Sierpinski (1882-1969). Ces figures géométriques d'une grande beauté et harmonie sont obtenues par répétition de motifs à l'aide de symétries et de translations. Impressionnés, les élèves veulent apprendre à construire de telles figures et à démontrer leurs propriétés en utilisant systématiquement les transformations du plan.",
+  "lesson": "## Utilisation des symétries et translations\n\n### 1. Rappel des transformations\n\n**Translation** : Déplacement selon un vecteur 𝑢̂\nNotation : t_𝑢̂\nPropriété : t_𝑢̂(M) = M' tel que 𝑀𝑀′̂ = 𝑢̂\n\n**Symétrie orthogonale** (symétrie axiale) : Réflexion par rapport à une droite (d)\nNotation : s_(d)\nPropriété : (d) médiatrice de [MM']\n\n**Symétrie centrale** : Rotation de 180° autour d'un point O\nNotation : s_O\nPropriété : O milieu de [MM']\n\n### 2. Propriété caractéristique de la translation\n\n**Théorème** : La translation est la seule transformation qui conserve les milieux.\nSi une transformation f vérifie : pour tout A, B, si I milieu de [AB], alors f(I) milieu de [f(A)f(B)], alors f est une translation.\n\n**Conséquence** : La translation conserve :\n- Les distances\n- Les angles\n- Le parallélisme\n- L'alignement\n- Les milieux\n- Les aires\n\n### 3. Utilisation des symétries orthogonales\n\n**Construction de figures** :\nPour construire le symétrique d'une figure par rapport à une droite :\n1. Choisir des points caractéristiques\n2. Construire leurs symétriques (perpendiculaire à l'axe, à égale distance)\n3. Relier les points symétriques\n\n**Exemple** : Construction d'un drapeau ivoirien\nLes bandes verticales peuvent être vues comme des translations ou des symétries.\n\n### 4. Utilisation des symétries centrales\n\n**Construction** :\nPour construire le symétrique par rapport à un point O :\n1. Tracer la demi-droite [OM)\n2. Porter OM' = OM de l'autre côté de O\n3. M' est le symétrique\n\n**Application** : Rosaces, motifs décoratifs\n\n### 5. Translations pour les frises et pavages\n\n**Frises** : Motifs se répétant par translation selon une direction\n\n**Pavages** : Recouvrement du plan par des motifs identiques\n\n**Exemple ivoirien** :\n- Les tissus wax : motifs répétés par translation\n- Les mosaïques traditionnelles : combinaison de symétries et translations\n\n### 6. Démonstrations utilisant les transformations\n\n**Méthode** : Pour démontrer une égalité ou une propriété :\n1. Identifier une transformation appropriée\n2. Montrer qu'elle envoie une figure sur une autre\n3. En déduire les propriétés voulues\n\n**Exemple** : Démontrer qu'un quadrilatère est un parallélogramme\nABCD est un parallélogramme si la symétrie de centre O (intersection des diagonales) envoie A sur C et B sur D.\n\n### 7. Détermination d'ensembles de points\n\n**Problème type** : Déterminer l'ensemble des points M tels que ...\n\n**Méthode avec transformations** :\n1. Exprimer la condition en termes de distances ou d'angles\n2. Reconnaître une transformation\n3. En déduire que M est l'image d'un point connu par cette transformation\n4. L'ensemble cherché est une droite, un cercle, etc.\n\n**Exemple** : Ensemble des M tels que MA = MB\nC'est la médiatrice de [AB] (axe de symétrie)\n\n### 8. Composition de transformations\n\n**Règles** :\n- Deux symétries orthogonales d'axes parallèles : translation\n- Deux symétries orthogonales d'axes sécants : rotation\n- Deux symétries centrales : translation\n- Translation suivie de symétrie : symétrie glissée\n\n### 9. Symétrie glissée\n\n**Définition** : Composition d'une symétrie axiale et d'une translation parallèle à l'axe.\n\n**Exemple** : Empreintes de pas : symétrie glissée\n\n### 10. Applications artistiques\n\n**Art africain** :\n- Motifs géométriques des tissus bogolan\n- Frises sur les poteries\n- Symétries dans les masques\n\n**Architecture** :\n- Répétition des fenêtres (translation)\n- Symétrie des façades\n- Motifs des balustrades\n\n### 11. Construction de figures imposées\n\n**Exemple** : Construire un carré ABCD connaissant A et B\nMéthode :\n1. Translation pour trouver D : D = t_𝐴𝐵̂(C) ? Non\n2. Symétrie de centre milieu ?\n3. Rotation de 90°\n\n**Meilleure méthode** :\n1. Tracer le cercle de diamètre [AB]\n2. Construire la perpendiculaire à (AB) en A\n3. Intersection avec le cercle donne D\n4. Symétrie centrale pour trouver C\n\n### 12. Problèmes de construction sous contraintes\n\n**Exemple** : Construire un parallélogramme ABCD tel que C∈(d) et D∈(Δ) avec (d) et (Δ) sécantes.\n\n**Solution** :\nUtiliser la translation de vecteur 𝐴𝐵̂\nD est sur (Δ) et C est sur (d) avec 𝐷𝐶̂ = 𝐴𝐵̂\nDonc D = (Δ) ∩ t_𝐴𝐵̂⁻¹((d))\n\n### 13. Conservation des propriétés\n\n**Translation conserve** :\n- Distances (isométrie)\n- Angles (similitude directe)\n- Alignement\n- Milieux\n- Aires\n\n**Symétrie orthogonale conserve** :\n- Distances (isométrie)\n- Angles mais change leur sens (similitude indirecte)\n\n### 14. Utilisation en coordonnées\n\n**Translation de vecteur 𝑢̂(a,b)** :\nM(x,y) → M'(x+a, y+b)\n\n**Symétrie axiale d'axe (Ox)** :\nM(x,y) → M'(x, -y)\n\n**Symétrie axiale d'axe (Oy)** :\nM(x,y) → M'(-x, y)\n\n**Symétrie centrale de centre O(0,0)** :\nM(x,y) → M'(-x, -y)\n\n### 15. Applications concrètes en Côte d'Ivoire\n\n**Urbanisme** :\n- Implantation symétrique des bâtiments\n- Plan en damier des rues (translations)\n\n**Agriculture** :\n- Plantations en lignes parallèles (translations)\n- Parcelles rectangulaires (symétries)\n\n**Transport** :\n- Voies parallèles\n- Échangeurs symétriques\n\n**Artisanat** :\n- Tissage : motifs répétés\n- Vannerie : symétries\n\n### 16. Exemples de frises\n\n**Types de frises** (classification) :\n1. Translation seule\n2. Translation + symétrie verticale\n3. Translation + symétrie horizontale\n4. Translation + symétrie centrale\n5. Translation + symétrie glissée\n\n**Exemple traditionnel** : Motif Adinkra (Ghana/Côte d'Ivoire)\n\n### 17. Pavages du plan\n\n**Pavage régulier** :\n- Triangles équilatéraux\n- Carrés\n- Hexagones\n\n**Pavage semi-régulier** : Combinaison de polygones réguliers\n\n**Application** : Carrelage, mosaïques\n\n### 18. Figures fractales\n\n**Principe** : Motif répété à différentes échelles\n\n**Construction du triangle de Sierpinski** :\n1. Partir d'un triangle équilatéral\n2. Relier les milieux des côtés pour former 4 petits triangles\n3. Enlever le triangle central\n4. Répéter avec les 3 triangles restants\n\n**Utilise** : Homothéties et translations\n\n### 19. Méthodologie de résolution\n\n**Pour un problème de construction** :\n1. Analyser les données et contraintes\n2. Identifier les transformations utiles\n3. Construire point par point\n4. Vérifier\n\n**Pour un problème de démonstration** :\n1. Repérer des égalités de distances ou d'angles\n2. Chercher une transformation qui les explique\n3. Appliquer les propriétés de la transformation\n4. Conclure\n\n### 20. Importance des transformations\n\nLes transformations permettent :\n- Une approche dynamique de la géométrie\n- De simplifier des problèmes complexes\n- De classifier les figures\n- De créer des motifs artistiques\n- De modéliser des mouvements\n\nElles font le lien entre géométrie et algèbre.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Translation conserve distances, angles, parallélisme",
+    "Symétrie axiale : (d) médiatrice de [MM']",
+    "Symétrie centrale : O milieu de [MM']",
+    "Transformations pour démontrer et construire"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La translation conserve :",
+      "options": [
+        "Les distances seulement",
+        "Les angles seulement",
+        "Distances et angles",
+        "Rien"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Dans une symétrie axiale, l'axe est :",
+      "options": [
+        "Médiatrice de [MM']",
+        "Médiane de [MM']",
+        "Bissectrice de [MM']",
+        "Hauteur de [MM']"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Deux symétries axiales d'axes parallèles donnent :",
+      "options": [
+        "Une rotation",
+        "Une translation",
+        "Une homothétie",
+        "Une symétrie centrale"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Pour construire un parallélogramme, on utilise souvent :",
+      "options": [
+        "Une homothétie",
+        "Une translation",
+        "Une rotation",
+        "Une projection"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

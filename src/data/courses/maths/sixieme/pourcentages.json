@@ -1,0 +1,57 @@
+{
+  "id": "maths-sixieme-pourcentages",
+  "title": "Pourcentages",
+  "summary": "Un commerçant de Cocody fait une réduction de 25% sur un article qui coûte 8000 FCFA. Quel est le nouveau prix ?",
+  "lesson": "## Les pourcentages\n\n### Qu'est-ce qu'un pourcentage ?\n\nUn pourcentage est une fraction sur 100.\n\n**Notation :** 25% se lit \"vingt-cinq pourcent\" et signifie 25/100\n\n### Pourcentages courants\n\n**En fractions :**\n- 50% = 50/100 = 1/2 (la moitié)\n- 25% = 25/100 = 1/4 (le quart)\n- 10% = 10/100 = 1/10 (le dixième)\n- 20% = 20/100 = 1/5 (le cinquième)\n- 75% = 75/100 = 3/4 (les trois quarts)\n\n### Calcul d'un pourcentage\n\n**Méthode :** Pourcentage de A = (Pourcentage × A) ÷ 100\n\n**Exemples :**\n- 20% de 150 FCFA = (20 × 150) ÷ 100 = 3000 ÷ 100 = 30 FCFA\n- 10% de 500 FCFA = (10 × 500) ÷ 100 = 50 FCFA\n- 75% de 800 FCFA = (75 × 800) ÷ 100 = 600 FCFA\n\n### Applications pratiques\n\n**1. Réductions (promotions)**\nUne chemise coûte 8000 FCFA avec une réduction de 25% :\n- Réduction = 25% de 8000 = (25 × 8000) ÷ 100 = 2000 FCFA\n- Nouveau prix = 8000 - 2000 = 6000 FCFA\n\n**2. Augmentations**\nUn salaire de 100 000 FCFA augmente de 10% :\n- Augmentation = 10% de 100 000 = 10 000 FCFA\n- Nouveau salaire = 100 000 + 10 000 = 110 000 FCFA\n\n**3. Pourcentages dans une classe**\nDans une classe de 40 élèves, 24 sont des filles :\n- Pourcentage de filles = (24 ÷ 40) × 100 = 60%\n- Pourcentage de garçons = 100% - 60% = 40%\n\n### Pourcentages et proportionnalité\n\nLes pourcentages sont un cas particulier de proportionnalité où le total fait 100.\n\n| Valeur | 25 | 50 | 100 |\n|--------|----|----|-----|\n| %      | 25%| 50%| 100%|",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Pourcentage = fraction sur 100",
+    "Calcul : (Pourcentage × Nombre) ÷ 100",
+    "50% = moitié, 25% = quart, 10% = dixième"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "10% de 200 FCFA égale :",
+      "options": [
+        "10 FCFA",
+        "20 FCFA",
+        "50 FCFA",
+        "100 FCFA"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "25% représente :",
+      "options": [
+        "La moitié",
+        "Le quart",
+        "Le tiers",
+        "Le cinquième"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Une réduction de 20% sur 5000 FCFA donne :",
+      "options": [
+        "1000 FCFA",
+        "4000 FCFA",
+        "4500 FCFA",
+        "5000 FCFA"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

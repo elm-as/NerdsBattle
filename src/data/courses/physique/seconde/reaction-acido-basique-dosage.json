@@ -1,0 +1,149 @@
+{
+  "id": "physique-seconde-reaction-acido-basique-dosage",
+  "title": "RÉACTION ACIDO-BASIQUE. DOSAGE",
+  "summary": "Dans une pharmacie d'officine à Abidjan, un préparateur montre comment déterminer la concentration exacte d'un acide utilisé dans un médicament. « On fait un dosage », explique-t-il. « On ajoute progressivement de la soude de concentration connue jusqu'à ce que l'acide soit exactement neutralisé. » Les élèves de 2nde C veulent maîtriser cette technique fondamentale de la chimie analytique : comment réaliser un dosage acido-basique précis ? Comment repérer le point d'équivalence ? Comment calculer la concent",
+  "lesson": "## 1. Introduction aux réactions acido-basiques\n\n**Définition** : Réaction entre un acide et une base.\n\n**Exemple type** : HCl + NaOH → NaCl + H₂O\n\n**Caractéristiques** :\n- Transfert de proton H⁺ de l'acide vers la base\n- Formation d'eau et d'un sel\n- Souvent rapide et totale\n- Effet thermique (généralement exothermique)\n\n## 2. Réaction entre HCl et NaOH\n\n**Équation-bilan** : $$\\\text{HCl} + \\\text{NaOH} \\\\rightarrow \\\text{NaCl} + \\\text{H}_2\\\text{O}$$\n\n**Équation ionique** : $$\\\text{H}_3\\\text{O}^+ + \\\text{OH}^- \\\\rightarrow 2\\\text{H}_2\\\text{O}$$\n\n**Caractéristiques expérimentales** :\n- **Rapidité** : Instantanée\n- **Totalité** : Réaction complète (K très grande)\n- **Effet thermique** : Exothermique (ΔH < 0)\n- **Variation de conductivité** : Diminue jusqu'à l'équivalence (ions H₃O⁺ et OH⁻ disparaissent)\n\n**Description du schéma 1:** Réaction HCl + NaOH. Représentation microscopique : ions H₃O⁺ (rouge) et OH⁻ (bleu) se combinant pour former H₂O. Thermomètre montrant élévation de température. Légende : 'Réaction acido-basique : H₃O⁺ + OH⁻ → 2H₂O + chaleur'.\n\n## 3. Principe du dosage acido-basique\n\n**Définition** : Détermination de la concentration d'une solution inconnue (à titrer) par réaction avec une solution de concentration connue (titrant).\n\n**Terminologie** :\n- **Solution à titrer** : Solution dont on cherche la concentration\n- **Titrant** : Solution de concentration connue\n- **Équivalence** : Point où les réactifs sont dans les proportions stœchiométriques\n\n**Types de dosage** :\n- **Direct** : Ajout du titrant à la solution à titrer\n- **Retour** : Excès de titrant puis dosage de l'excès\n\n## 4. Montage expérimental\n\n**Matériel** :\n- Burette graduée (contenant le titrant)\n- Bécher ou erlenmeyer (contenant la solution à titrer + indicateur)\n- Agitateur magnétique ou agitation manuelle\n- Pipette jaugée pour prélever la solution à titrer\n- Support et pince\n\n**Précautions** :\n- Rincer la burette avec le titrant\n- Éliminer les bulles d'air\n- Lire le ménisque à l'œil niveau\n\n## 5. Indicateurs colorés\n\n**Rôle** : Changer de couleur au voisinage du point d'équivalence.\n\n**Choix de l'indicateur** : Zone de virage doit contenir le pH à l'équivalence.\n\n**Pour HCl + NaOH** : pH à l'équivalence = 7 → indicateurs avec zone de virage autour de 7 :\n- **Bleu de bromothymol** (6,0-7,6 : jaune→bleu)\n- **Phénolphtaléine** (8,2-10,0 : incolore→rose) acceptable car le virage est net\n- **Hélianthine** (3,1-4,4 : rouge→jaune) non adaptée\n\n**Mode d'emploi** : 2-3 gouttes suffisent.\n\n**Description du schéma 2:** Montage de dosage. Burette sur support, erlenmeyer avec solution à titrer + indicateur, agitateur magnétique. Flèche indiquant l'ajout goutte à goutte. Légende : 'Montage de dosage acido-basique'.\n\n## 6. Définition de l'équivalence\n\n**Point d'équivalence** : Instant où les quantités de matière d'acide et de base sont dans les proportions stœchiométriques de la réaction.\n\n**Condition à l'équivalence** : $$n_{\\\text{acide}} = n_{\\\text{base}}$$\nPour un monoacide et une monobase : $$C_aV_a = C_bV_b$$\n\n**Repérage** : Changement de couleur persistant de l'indicateur.\n\n## 7. Étapes du dosage\n\n**Protocole** :\n1. Prélever un volume exact $V_a$ de solution acide\n2. Ajouter 2-3 gouttes d'indicateur\n3. Rincer et remplir la burette avec la solution basique (concentration $C_b$ connue)\n4. Ajouter la base goutte à goutte en agitant\n5. Noter le volume $V_b$ versé au changement de couleur persistant\n6. Répéter pour plus de précision (2-3 essais concordants)\n\n**Précision** :\n- Lecture burette : ±0,05 mL\n- Prélèvement pipette jaugée : ±0,01 mL\n\n## 8. Exploitation des résultats\n\n**Calcul de la concentration inconnue** :\n$$C_a = \\\\frac{C_b \\\times V_b}{V_a}$$\n\n**Exemple** : $V_a$ = 20,0 mL d'acide inconnu\n$C_b$ = 0,100 mol/L de NaOH\n$V_b$ à l'équivalence = 18,5 mL\n$C_a = \\\\frac{0,100 \\\times 18,5}{20,0} = 0,0925 \\\text{mol/L}$\n\n**Précision** : $C_a = 0,093 \\\text{mol/L} ± 0,001$ (2 chiffres significatifs).\n\n## 9. Courbe de dosage pH-métrique\n\n**Méthode plus précise** : Mesure du pH en fonction du volume versé.\n\n**Allure de la courbe pH = f(Vb)** :\n- Début : pH faible (acide fort)\n- Avant équivalence : augmentation lente\n- Autour équivalence : variation brusque (saut de pH)\n- Après équivalence : augmentation lente puis plateau (excès de base)\n\n**Détermination graphique de Veq** : Point d'inflexion ou méthode des tangentes.\n\n**Description du schéma 3:** Courbe de dosage pH = f(Vb). Axes : pH en ordonnée, Vb en abscisse. Saut de pH marqué. Point d'équivalence indiqué. Légende : 'Courbe de dosage pH-métrique - saut de pH à l'équivalence'.\n\n## 10. Dosages avec acide ou base faible\n\n**Différences** :\n- pH à l'équivalence ≠ 7\n- Saut de pH moins important\n- Choix d'indicateur différent\n\n**Exemples** :\n- Acide faible + base forte : pH éq > 7 (phénolphtaléine)\n- Acide fort + base faible : pH éq < 7 (hélianthine)\n\n## 11. Applications pratiques en CI\n\n**Contrôle qualité** :\n- Acidité des jus de fruits\n- Alcalinité des eaux\n- Pureté des produits chimiques\n\n**Médecine** :\n- Acidité gastrique\n- pH sanguin\n\n**Environnement** :\n- Acidité des pluies\n- Pollution des eaux\n\n**Agriculture** :\n- Acidité des sols\n- Qualité des engrais\n\n## 12. Erreurs et précautions\n\n**Sources d'erreur** :\n- Mauvais choix d'indicateur\n- Lecture inexacte des volumes\n- Dépassement du point d'équivalence\n- Concentration titrant mal connue\n\n**Améliorations** :\n- Dosage pH-métrique pour plus de précision\n- Répétition des essais\n- Étalonnage des instruments\n\n**Sécurité** :\n- Acides et bases concentrés : corrosifs\n- Port de lunettes et gants\n- Neutralisation des déchets",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Le dosage acido-basique permet de déterminer une concentration inconnue par réaction avec une solution étalon",
+    "À l'équivalence, les quantités de matière d'acide et de base sont stœchiométriques : n_acide = n_base",
+    "Pour HCl + NaOH : C_a × V_a = C_b × V_b à l'équivalence",
+    "Le point d'équivalence est repéré par changement de couleur d'un indicateur ou saut de pH sur une courbe"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "À l'équivalence d'un dosage acido-basique :",
+      "options": [
+        "pH = 7 toujours",
+        "n_acide = n_base",
+        "Le volume versé est maximal",
+        "La solution est colorée"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Pour HCl + NaOH, la relation à l'équivalence est :",
+      "options": [
+        "C_aV_a = C_bV_b",
+        "C_a/V_a = C_b/V_b",
+        "C_a + V_a = C_b + V_b",
+        "C_a = C_b"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La phénolphtaléine est rose en milieu :",
+      "options": [
+        "Acide",
+        "Basique",
+        "Neutre",
+        "Toujours"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Le volume équivalent est :",
+      "options": [
+        "Le volume total de titrant",
+        "Le volume à l'équivalence",
+        "Le volume initial",
+        "Le volume final"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Pour un dosage précis, on utilise une :",
+      "options": [
+        "Éprouvette",
+        "Burette",
+        "Bécher",
+        "Pipette simple"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Si C_b = 0,1 mol/L, V_a = 20 mL, V_b = 15 mL, alors C_a = :",
+      "options": [
+        "0,075 mol/L",
+        "0,133 mol/L",
+        "0,10 mol/L",
+        "0,15 mol/L"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "La réaction HCl + NaOH est :",
+      "options": [
+        "Lente",
+        "Rapide",
+        "Réversible",
+        "Endothermique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Un indicateur doit changer de couleur :",
+      "options": [
+        "Loin de l'équivalence",
+        "Au point d'équivalence",
+        "Au début du dosage",
+        "À la fin du dosage"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Le pH à l'équivalence pour acide fort + base forte est :",
+      "options": [
+        "< 7",
+        "= 7",
+        "> 7",
+        "= 0"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Pour améliorer la précision d'un dosage, on :",
+      "options": [
+        "Fait un seul essai",
+        "Fait plusieurs essais concordants",
+        "Utilise un grand volume",
+        "Chauffe la solution"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

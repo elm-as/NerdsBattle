@@ -1,0 +1,45 @@
+{
+  "id": "maths-cinquieme-segments-et-mediatrice",
+  "title": "Segments et médiatrice",
+  "summary": "Un menuisier veut trouver le centre exact d'une planche rectangulaire. Comment peut-il utiliser les médianes et les médiatrices ?",
+  "lesson": "## Le milieu d'un segment\n\n### Définition\nLe milieu M d'un segment [AB] est le point situé à égale distance de A et de B.\n\n**Propriété :**\n- AM = MB\n- M appartient au segment [AB]\n\n## La médiatrice\n\n### Définition\nLa **médiatrice** d'un segment est la droite perpendiculaire à ce segment passant par son milieu.\n\n### Propriétés importantes\n\n**Propriété 1 :**\nSi un point M est sur la médiatrice de [AB], alors MA = MB.\n\n**Propriété 2 (réciproque) :**\nSi un point M est à égale distance de A et de B (MA = MB), alors M appartient à la médiatrice de [AB].\n\n### Construction de la médiatrice\n**Méthode 1 : avec l'équerre**\n1. Trouver le milieu M de [AB]\n2. Tracer la perpendiculaire à (AB) passant par M\n\n**Méthode 2 : au compas (plus précise)**\n1. Tracer un arc de cercle de centre A et de rayon AB\n2. Tracer un arc de cercle de centre B et de même rayon\n3. Les deux arcs se coupent en deux points\n4. La droite passant par ces deux points est la médiatrice",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Milieu : AM = MB",
+    "Médiatrice : perpendiculaire au segment passant par son milieu",
+    "Point sur médiatrice : MA = MB",
+    "Construction au compas : plus précise"
+  ],
+  "exercise": {
+    "answer": "\n**Solution :**\nPuisque MA = MB = 5 cm, le point M est à égale distance de A et de B.\n\nD'après la propriété, M appartient donc à la médiatrice du segment [AB].\n\n**Réponse : M appartient à la médiatrice de [AB]**\n        ",
+    "question": "Un point M est à 5 cm de A et à 5 cm de B. Que peut-on dire de M par rapport au segment [AB] ?"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La médiatrice d'un segment est :",
+      "options": [
+        "Parallèle au segment",
+        "Perpendiculaire au segment",
+        "Confondue avec le segment",
+        "Aucune de ces réponses"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Si M est le milieu de [AB] et AB = 12 cm, alors AM = ?",
+      "options": [
+        "3 cm",
+        "6 cm",
+        "12 cm",
+        "24 cm"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

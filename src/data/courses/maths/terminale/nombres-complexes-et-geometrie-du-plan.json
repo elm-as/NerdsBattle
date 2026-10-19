@@ -1,0 +1,281 @@
+{
+  "id": "maths-terminale-nombres-complexes-et-geometrie-du-plan",
+  "title": "Nombres complexes et géométrie du plan",
+  "summary": "Le système ci-contre permet de soulever une charge placée en M jusqu'au point D. Il est ramené à un plan rapporté au repère orthonormal direct (A, AB; AD) où ABCD est un carré de centre O et P un point se déplaçant sur [BC]. On appelle N l'image de P par la rotation de centre A et d'angle π/2 et M le milieu de [NP]. Pour vérifier l'efficacité du système, les élèves d'une classe de terminale scientifique décident de déterminer à l'aide des nombres complexes les lieux géométriques des points N et M lorsque P ",
+  "lesson": "## 1. Rappels sur les nombres complexes\n\n- Forme algébrique : z = x+iy\n- Forme trigonométrique : z = r(cosθ+isinθ)\n- Forme exponentielle : z = re^{iθ}\n- Module : |z| = √(x²+y²)\n- Argument : arg(z) = θ tel que cosθ=x/r, sinθ=y/r\n\n## 2. Affixe d'un point, d'un vecteur\n\nÀ tout point M(x,y) on associe son affixe z_M = x+iy.\nÀ tout vecteur \\\\vec{u}(α,β) on associe son affixe z_\\\\vec{u} = α+iβ.\n\n**Propriété** : \\\\overrightarrow{AB} a pour affixe z_B - z_A.\n\n## 3. Caractérisations complexes des configurations\n\n**Alignement** : A,B,C alignés ⇔ (z_C-z_A)/(z_B-z_A) ∈ ℝ\n**Angle** : (\\\\overrightarrow{AB}, \\\\overrightarrow{AC}) = arg((z_C-z_A)/(z_B-z_A))\n**Orthogonalité** : (AB)⊥(AC) ⇔ (z_C-z_A)/(z_B-z_A) ∈ iℝ\n\n**Triangle équilatéral** : A,B,C équilatéral ⇔ z_A+jz_B+j²z_C=0 ou (z_C-z_A)/(z_B-z_A)=e^{±iπ/3}\navec j=e^{i2π/3}.\n\n## 4. Écriture complexe des transformations\n\n| Transformation | Écriture complexe |\n|---------------|-------------------|\n| Translation de vecteur d'affixe b | z' = z + b |\n| Homothétie de centre Ω(ω), rapport k | z' - ω = k(z - ω) |\n| Rotation de centre Ω(ω), angle θ | z' - ω = e^{iθ}(z - ω) |\n| Symétrie centrale de centre Ω(ω) | z' - ω = -(z - ω) |\n| Symétrie axiale d'axe (Ox) | z' = \\\\bar{z} |\n| Symétrie axiale d'axe (Oy) | z' = -\\\\bar{z} |\n\n## 5. Équation complexe d'une droite\n\nUne droite passant par A d'affixe a, de vecteur directeur d'affixe u (u≠0) :\n$$\\\\frac{z-a}{u} ∈ ℝ$$\nSoit : $$\\\\frac{z-a}{u} = \\\\overline{\\\\left(\\\\frac{z-a}{u}\\\\right)}$$\n\n## 6. Équation complexe d'un cercle\n\nCercle de centre Ω(ω), rayon R :\n$$|z-ω| = R$$\n\nÉquation générale : z\\\\bar{z} + αz + \\\\bar{α}\\\\bar{z} + β = 0 avec β∈ℝ, |α|²>β.\n\n## 7. Lieux géométriques classiques\n\n- |z-a| = |z-b| : médiatrice de [AB]\n- |z-a| = R : cercle de centre A, rayon R\n- arg((z-a)/(z-b)) = θ [π] : arc capable d'angle θ\n- |z-a|/|z-b| = k (k>0) : cercle d'Apollonius (si k≠1)\n\n## 8. Application à la situation\n\nABCD carré de côté 1 : A(0), B(1), C(1+i), D(i).\nP ∈ [BC] : z_P = 1+ti, t∈[0,1].\n\nRotation r : A centre, angle π/2 : z_N = i×z_P = i(1+ti) = i - t = -t + i.\nDonc N(-t,1).\n\nM milieu de [NP] : z_M = (z_P+z_N)/2 = (1+ti -t + i)/2 = ((1-t) + i(1+t))/2.\n\n**Analyse** :\nPour t∈[0,1] :\n- N décrit le segment [D'C'] avec D'=N(P=B)=N(1)=i-1=-1+i, C'=N(P=C)=N(1+i)=i(1+i)=i-1=-1+i ?\nEn fait : si P=B(1), t=0 ⇒ N(0,1) qui est D? Non, D(0,1)=i.\nSi P=C(1+i), t=1 ⇒ N(-1,1) = -1+i.\nDonc N décrit [D(-1+i) à D(0,1)]? Vérifions : D(0,1)=i, D'(-1,1)=-1+i.\n\nPour M : x=(1-t)/2, y=(1+t)/2 ⇒ x+y=1, avec x∈[0,0.5], y∈[0.5,1].\nDonc M décrit le segment de (0.5,0.5) à (0,1) sur la droite x+y=1.\n\n## 9. Méthode générale pour les lieux\n\n1. Exprimer z en fonction d'un paramètre t\n2. Séparer partie réelle et imaginaire : x=f(t), y=g(t)\n3. Éliminer t pour obtenir une relation entre x et y\n4. Identifier la courbe\n\n**Exemple** : z = (1+it)/(1-it), t∈ℝ. Chercher le lieu de M.\n\n## 10. Configurations particulières\n\n**Cocyclicité** : A,B,C,D cocycliques ou alignés ⇔\n$$\\\\frac{z_A-z_C}{z_A-z_D} : \\\\frac{z_B-z_C}{z_B-z_D} ∈ ℝ$$\n(c'est le birapport (A,B,C,D))\n\n```mathgraph\n{\n  \"type\": \"function\",\n  \"title\": \"Lieu géométrique avec nombres complexes\",\n  \"xRange\": [-2, 2],\n  \"yRange\": [-2, 2],\n  \"functions\": [\n    { \"expression\": \"sqrt(1-x*x)\", \"color\": \"#3b82f6\", \"name\": \"Cercle |z|=1\" },\n    { \"expression\": \"-sqrt(1-x*x)\", \"color\": \"#3b82f6\", \"name\": \"\" }\n  ],\n  \"points\": [\n    { \"x\": 1, \"y\": 0, \"label\": \"A(1)\", \"color\": \"red\" },\n    { \"x\": -1, \"y\": 0, \"label\": \"B(-1)\", \"color\": \"red\" },\n    { \"x\": 0.5, \"y\": 0, \"label\": \"P\", \"color\": \"green\" }\n  ],\n  \"showGrid\": true,\n  \"showAxes\": true,\n  \"annotations\": [\n    { \"text\": \"Lieu de M tel que |z-1|/|z+1|=2\", \"x\": 0, \"y\": 1.5 }\n  ]\n}\n```\n\n## 11. Utilisation en géométrie analytique\n\nLes complexes offrent une méthode puissante pour :\n- Démontrer des alignements, orthogonalités\n- Calculer des angles\n- Déterminer des lieux\n- Résoudre des problèmes de construction\n\n**Exemple ivoirien** : À San-Pédro, pour déterminer la position optimale d'un phare P par rapport à trois ports A,B,C, on peut utiliser les complexes pour minimiser PA+PB+PC.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Affixe de \\\\overrightarrow{AB} : z_B-z_A",
+    "Alignement : (z_C-z_A)/(z_B-z_A) ∈ ℝ",
+    "Orthogonalité : (z_C-z_A)/(z_B-z_A) ∈ iℝ",
+    "Rotation de centre Ω, angle θ : z'-ω = e^{iθ}(z-ω)",
+    "Cercle : |z-ω|=R ou z\\\\bar{z}+αz+\\\\bar{α}\\\\bar{z}+β=0",
+    "Médiatrice : |z-a|=|z-b|"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "L'affixe du vecteur \\\\overrightarrow{AB} est :",
+      "options": [
+        "z_A+z_B",
+        "z_B-z_A",
+        "z_A-z_B",
+        "z_A×z_B"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Les points A,B,C sont alignés si :",
+      "options": [
+        "(z_C-z_A)/(z_B-z_A) ∈ ℝ",
+        "(z_C-z_A)/(z_B-z_A) ∈ iℝ",
+        "|z_C-z_A|=|z_B-z_A|",
+        "z_A+z_B+z_C=0"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "L'écriture complexe d'une rotation de centre Ω d'affixe ω et d'angle θ est :",
+      "options": [
+        "z'=ω+e^{iθ}z",
+        "z'-ω=e^{iθ}(z-ω)",
+        "z'=e^{iθ}z+ω",
+        "z'=e^{iθ}(z+ω)"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "L'ensemble {z∈ℂ | |z-2i|=3} est :",
+      "options": [
+        "Une droite",
+        "Un cercle",
+        "Une ellipse",
+        "Une parabole"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Si (z_C-z_A)/(z_B-z_A) est imaginaire pur, alors (AB) et (AC) sont :",
+      "options": [
+        "Parallèles",
+        "Perpendiculaires",
+        "De même direction",
+        "Sécantes à 45°"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "L'équation |z-i|=|z+i| représente :",
+      "options": [
+        "L'axe réel",
+        "L'axe imaginaire",
+        "La droite y=x",
+        "Le cercle unité"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Pour que ABCD soit un parallélogramme, il faut :",
+      "options": [
+        "z_A+z_B=z_C+z_D",
+        "z_A+z_C=z_B+z_D",
+        "z_A+z_B+z_C+z_D=0",
+        "z_A-z_B=z_C-z_D"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Le conjugué de e^{iθ} est :",
+      "options": [
+        "e^{-iθ}",
+        "e^{iθ}",
+        "-e^{iθ}",
+        "ie^{iθ}"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "L'image du point d'affixe 1+i par la rotation de centre 0 d'angle π/2 est :",
+      "options": [
+        "1-i",
+        "-1+i",
+        "-1-i",
+        "i-1"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Un argument de (1+i√3) est :",
+      "options": [
+        "π/6",
+        "π/3",
+        "π/2",
+        "π/4"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "L'écriture complexe d'une rotation de centre O d'angle π/3 est :",
+      "options": [
+        "$z'=e^{i\\\\pi/3}z$",
+        "$z'=e^{i\\\\pi/3}z+1$",
+        "$z'=z+e^{i\\\\pi/3}$",
+        "$z'=\\\\overline{z}$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Si $\\\\frac{z_C-z_A}{z_B-z_A}$ est imaginaire pur, alors le triangle ABC est :",
+      "options": [
+        "Rectangle en A",
+        "Rectangle en B",
+        "Rectangle en C",
+        "Équilatéral"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "L'écriture $z'=2z+1$ représente :",
+      "options": [
+        "Une translation",
+        "Une homothétie",
+        "Une similitude directe",
+        "Une rotation"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "$|z-1|=2$ représente :",
+      "options": [
+        "Une droite",
+        "Un cercle de centre 1 et rayon 2",
+        "Un cercle de centre -1 et rayon 2",
+        "Une ellipse"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Pour que A, B, C soient alignés, il faut que $\\\\frac{z_C-z_A}{z_B-z_A}$ soit :",
+      "options": [
+        "Réel",
+        "Imaginaire pur",
+        "De module 1",
+        "Nul"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "L'image de $z$ par symétrie par rapport à l'axe des abscisses est :",
+      "options": [
+        "$\\\\overline{z}$",
+        "$-\\\\overline{z}$",
+        "$-z$",
+        "$iz$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Une similitude directe conserve :",
+      "options": [
+        "Les distances",
+        "Les aires",
+        "Les angles orientés",
+        "Les milieux"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Si $z'=iz+1$, cette transformation est une :",
+      "options": [
+        "Translation",
+        "Rotation",
+        "Homothétie",
+        "Similitude directe"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "L'équation $|z-1|=|z-i|$ représente :",
+      "options": [
+        "Un cercle",
+        "Une droite",
+        "Une parabole",
+        "Une hyperbole"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Pour un triangle équilatéral ABC direct, $\\\\frac{z_C-z_A}{z_B-z_A}=$",
+      "options": [
+        "$e^{i\\\\pi/6}$",
+        "$e^{i\\\\pi/3}$",
+        "$e^{i\\\\pi/2}$",
+        "$e^{i\\\\pi}$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

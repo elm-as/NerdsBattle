@@ -1,0 +1,71 @@
+{
+  "id": "maths-seconde-calcul-numerique",
+  "title": "Calcul numérique",
+  "summary": "À l'occasion d'une foire commerciale organisée à Abidjan pour les fêtes de fin d'année, un vendeur d'ordinateurs annonce une réduction de 5% sur ses produits. Une semaine plus tard, il fait une autre réduction de 10%. Un élève de 2nde A affirme que le commerçant a fait une réduction totale de 15%. Comment vérifier cette affirmation en calculant correctement les pourcentages successifs ?",
+  "lesson": "## Calcul numérique en contexte ivoirien\n\n### 1. Opérations sur les nombres rationnels\n\nLes nombres rationnels sont essentiels dans la vie quotidienne en Côte d'Ivoire, que ce soit pour calculer les dépenses au marché d'Adjamé, les parts de gâteau lors des fêtes familiales, ou les proportions dans les recettes de cuisine. Un nombre rationnel peut s'écrire sous la forme a/b où a et b sont des entiers (b ≠ 0).\n\n**Propriétés importantes :**\n- Addition : a/b + c/d = (ad + bc)/bd\n- Soustraction : a/b - c/d = (ad - bc)/bd\n- Multiplication : (a/b) × (c/d) = (ac)/(bd)\n- Division : (a/b) ÷ (c/d) = (a/b) × (d/c) = (ad)/(bc)\n\n### 2. Puissances et radicaux\n\nLes puissances sont utilisées dans de nombreux domaines en Côte d'Ivoire : calcul des intérêts bancaires, croissance démographique, expansion des entreprises. Pour tout nombre réel a et tout entier naturel n :\n- aⁿ = a × a × ... × a (n fois)\n- a⁰ = 1 (pour a ≠ 0)\n- a⁻ⁿ = 1/aⁿ\n\n**Règles de calcul :**\n- aⁿ × aᵐ = aⁿ⁺ᵐ\n- aⁿ ÷ aᵐ = aⁿ⁻ᵐ\n- (aⁿ)ᵐ = aⁿᵐ\n- (ab)ⁿ = aⁿ × bⁿ\n\nLes radicaux (racines carrées) interviennent dans le calcul des surfaces (terrain agricole, construction) : √a représente le nombre positif dont le carré est a.\n\n### 3. Proportionnalité et pourcentages\n\nLa proportionnalité est omniprésente dans l'économie ivoirienne : calcul du prix du cacao en fonction du poids, détermination des ingrédients pour préparer l'attiéké pour un nombre donné de personnes, conversion entre le franc CFA et d'autres devises.\n\n**Tableau de proportionnalité :** Si y est proportionnel à x, alors y = kx où k est le coefficient de proportionnalité.\n\n**Pourcentages :** Un pourcentage représente une fraction de dénominateur 100.\n- p% = p/100\n- Calcul de p% d'une quantité Q : (p/100) × Q\n- Augmentation de p% : Q × (1 + p/100)\n- Réduction de p% : Q × (1 - p/100)\n\n**Attention aux pourcentages successifs :** Une augmentation de 5% suivie d'une augmentation de 10% ne donne pas 15% mais : 1,05 × 1,10 = 1,155 soit 15,5% d'augmentation totale.\n\n### 4. Approximations décimales\n\nDans les transactions commerciales (marchés de Yopougon, Cocody), on utilise souvent des approximations :\n- Approximation par défaut : valeur inférieure au nombre\n- Approximation par excès : valeur supérieure au nombre\n- Arrondi : approximation la plus proche\n\n**Exemple :** Le prix d'un sac de riz est 12 500 FCFA. Si on veut l'arrondir à la centaine près : 12 500 FCFA (déjà arrondi).\n\n### 5. Applications pratiques en Côte d'Ivoire\n\n1. **Calcul du prix après réduction :** Un téléphone coûte 75 000 FCFA. Avec une réduction de 20%, son prix devient : 75 000 × 0,80 = 60 000 FCFA.\n\n2. **Partage proportionnel :** Trois associés investissent dans une plantation de cacao : A investit 500 000 FCFA, B investit 300 000 FCFA, C investit 200 000 FCFA. Le profit de 1 000 000 FCFA sera partagé proportionnellement : A reçoit (500 000/1 000 000) × 1 000 000 = 500 000 FCFA.\n\n3. **Conversion de devises :** 1€ = 655,957 FCFA. Pour convertir 50€ : 50 × 655,957 = 32 797,85 FCFA ≈ 32 800 FCFA (arrondi).\n\n### 6. Erreurs fréquentes à éviter\n\n- Confondre \"augmentation de p%\" et \"multiplier par p\"\n- Additionner des pourcentages successifs au lieu de les composer\n- Oublier que la division par zéro est impossible\n- Confondre arrondi et troncature\n\nLa maîtrise du calcul numérique est fondamentale pour une gestion rationnelle des ressources financières et matérielles, que ce soit dans un cadre familial, entrepreneurial ou national.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Les pourcentages successifs ne s'additionnent pas mais se composent par multiplication",
+    "Un nombre rationnel est le quotient de deux entiers",
+    "√(a × b) = √a × √b (pour a, b ≥ 0)",
+    "L'arrondi dépend de la décimale suivante (5 ou plus arrondit vers le haut)"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Que vaut 3/4 + 2/5 ?",
+      "options": [
+        "5/9",
+        "23/20",
+        "15/8",
+        "6/20"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Un produit coûte 8 000 FCFA. Après une augmentation de 10% puis une baisse de 10%, son prix est :",
+      "options": [
+        "8 000 FCFA",
+        "7 920 FCFA",
+        "8 800 FCFA",
+        "7 800 FCFA"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle est la valeur arrondie à l'unité de 12,49 ?",
+      "options": [
+        "12",
+        "12,5",
+        "13",
+        "12,4"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Si √a = 5 et √b = 3, que vaut √(a × b) ?",
+      "options": [
+        "8",
+        "15",
+        "√34",
+        "√8"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

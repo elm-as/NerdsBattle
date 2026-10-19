@@ -1,0 +1,150 @@
+{
+  "id": "svt-troisieme-la-digestion-des-aliments",
+  "title": "La digestion des aliments",
+  "summary": "Après un repas de fête copieux au Collège Moderne de Cocody, un élève a faim seulement 6 heures plus tard. Les élèves cherchent à comprendre les transformations subies par les aliments et comment l'organisme en tire profit.",
+  "lesson": "## Introduction\n\nLa digestion transforme les aliments complexes en nutriments assimilables. Ce processus est essentiel pour comprendre comment le corps utilise les ressources alimentaires locales.\n\n## 1. Digestion in vitro de l'amidon\n\n### 1.1 Expérience avec la salive\n- **Matériel local** : amidon de manioc, salive humaine\n- **Conditions** : température corporelle (37°C), pH neutre à légèrement basique\n- **Observation** : disparition de la coloration bleue avec l'eau iodée\n\n### 1.2 Rôle des enzymes salivaires\n- **Amylase salivaire** : enzyme produite par les glandes salivaires\n- **Action** : hydrolyse de l'amidon en maltose\n- **Spécificité d'action** : adaptée aux amidons locaux (manioc, igname, riz)\n\n## 2. Transformations dans le tube digestif\n\n### 2.1 Transformations mécaniques\n- **Mastication** : adaptation aux textures des aliments locaux (fufu, attiéké)\n- **Brassage gastrique** : mélange avec les sucs gastriques\n- **Péristaltisme** : progression le long du tube digestif\n\n### 2.2 Transformations chimiques\n\n| Site digestif | Sécrétions | Action sur aliments locaux |\n|---------------|------------|----------------------------|\n| Bouche | Salive | Amidon de manioc → maltose |\n| Estomac | Suc gastrique | Protéines du poisson → peptides |\n| Intestin grêle | Suc pancréatique, bile | Lipides d'huile de palme → acides gras |\n\n### 2.3 Adaptation aux régimes locaux\n- **Enzymes adaptées** à la digestion des fibres végétales abondantes\n- **Microbiote intestinal** façonné par l'alimentation traditionnelle\n- **Tolérances digestives** variables selon les populations\n\n## 3. Absorption des nutriments\n\n### 3.1 Voies d'absorption\n- **Voie sanguine** : nutriments hydrosolubles (glucides simples, acides aminés)\n- **Voie lymphatique** : nutriments liposolubles (vitamines A, D, E, K, acides gras)\n\n### 3.2 Structure adaptative des villosités\n- **Surface d'échange** maximisée dans l'intestin grêle\n- **Adaptation évolutive** à différents régimes alimentaires\n- **Impact des maladies tropicales** sur l'efficacité d'absorption\n\n## 4. Hygiène alimentaire en contexte tropical\n\n### 4.1 Risques spécifiques\n- **Chaleur et humidité** : prolifération bactérienne accélérée\n- **Conservation des aliments** : défis dans les zones rurales\n- **Eau potable** : accessibilité variable\n\n### 4.2 Pratiques traditionnelles bénéfiques\n- **Fermentation** : amélioration de la digestibilité (gari, bangui)\n- **Séchage au soleil** : conservation naturelle (poisson, viande)\n- **Utilisation d'épices** : propriétés antibactériennes (piment, gingembre)\n\n## Perspective critique\n\n1. **Colonisation digestive** : imposition d'aliments transformés perturbant le microbiote local\n2. **Perte des savoirs** : techniques traditionnelles de préparation et conservation\n3. **Dépendance pharmacologique** : recours aux médicaments vs prévention par l'alimentation\n4. **Biodiversité digestive** : importance de préserver les souches microbiennes locales",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "La salive contient l'amylase qui digère l'amidon",
+    "La digestion combine actions mécaniques et chimiques",
+    "Les nutriments sont absorbés par voie sanguine ou lymphatique",
+    "L'hygiène alimentaire est cruciale en climat tropical",
+    "Les pratiques traditionnelles offrent des solutions adaptées"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle enzyme présente dans la salive digère l'amidon ?",
+      "options": [
+        "Pepsine",
+        "Amylase",
+        "Lipase",
+        "Trypsine"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle est la température optimale pour l'action des enzymes digestives ?",
+      "options": [
+        "25°C",
+        "37°C",
+        "45°C",
+        "60°C"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Par quelle voie sont absorbés les acides gras issus de la digestion des lipides ?",
+      "options": [
+        "Voie sanguine directe",
+        "Voie lymphatique",
+        "Diffusion passive",
+        "Transport actif hépatique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel organe produit la bile qui émulsifie les graisses ?",
+      "options": [
+        "Estomac",
+        "Pancréas",
+        "Foie",
+        "Intestin grêle"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle transformation subit l'amidon de manioc dans la bouche ?",
+      "options": [
+        "Il est stérilisé",
+        "Il est hydrolysé en maltose",
+        "Il est transformé en glucose",
+        "Il est converti en fibres"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle pratique traditionnelle ivoirienne améliore la digestibilité du manioc ?",
+      "options": [
+        "Congélation",
+        "Fermentation",
+        "Friture profonde",
+        "Cuisson micro-ondes"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel risque digestif est accru en climat tropical comme en Côte d'Ivoire ?",
+      "options": [
+        "Hypothermie digestive",
+        "Prolifération bactérienne dans les aliments",
+        "Déshydratation enzymatique",
+        "Solidification des lipides"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quelle structure intestinale maximise la surface d'absorption ?",
+      "options": [
+        "Les cryptes",
+        "Les villosités",
+        "Les plis circulaires",
+        "La muqueuse lisse"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Comment les épices locales comme le piment influencent-elles la digestion ?",
+      "options": [
+        "Elles stoppent toute activité enzymatique",
+        "Elles ont des propriétés antibactériennes",
+        "Elles neutralisent les sucs gastriques",
+        "Elles dilatent l'estomac"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel concept critique met en lumière l'impact des aliments transformés occidentaux sur le microbiote africain ?",
+      "options": [
+        "Impérialisme digestif",
+        "Colonisation digestive",
+        "Invasion enzymatique",
+        "Domination nutritionnelle"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

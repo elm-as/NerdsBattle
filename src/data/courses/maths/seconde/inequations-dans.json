@@ -1,0 +1,71 @@
+{
+  "id": "maths-seconde-inequations-dans",
+  "title": "Inéquations dans ℝ × ℝ",
+  "summary": "Le Conseil Général équipe la bibliothèque scolaire avec des romans à 2000 FCFA et des livres divers à 3000 FCFA. Contraintes : au moins 50 romans, au moins 18 livres, plus de romans que de livres, budget ≤ 300000 FCFA. Les élèves doivent déterminer toutes les possibilités d'achat en résolvant un système d'inéquations dans ℝ×ℝ.",
+  "lesson": "## Inéquations dans ℝ × ℝ\n\n### 1. Rappel : Le plan cartésien ℝ×ℝ\nℝ×ℝ = {(x,y) | x∈ℝ, y∈ℝ} représente le plan avec deux axes orthonormés.\n\n**Application ivoirienne** :\n- x = nombre de sacs de riz\n- y = nombre de sacs de maïs\n- Chaque point (x,y) représente une combinaison possible\n\n### 2. Inéquation du premier degré à deux variables\nForme générale : ax + by + c ≤ 0 (ou ≥, <, >)\n\n**Exemple** : 2x + 3y ≤ 300 (budget en milliers de FCFA)\nOù x=romans, y=livres divers\n\n### 3. Représentation graphique\n**Méthode** :\n1. Tracer la droite frontière : ax + by + c = 0\n2. Choisir un point test (souvent (0,0) si pas sur la droite)\n3. Vérifier si le point test vérifie l'inégalité\n4. Colorier le demi-plan correspondant\n\n**Règle** :\n- Si inégalité large (≤ ou ≥) : droite incluse (trait plein)\n- Si inégalité stricte (< ou >) : droite exclue (trait pointillé)\n\n### 4. Système d'inéquations\n**Définition** : Ensemble de plusieurs inéquations à satisfaire simultanément.\n\n**Représentation** : Intersection des demi-plans correspondants.\n\n**Exemple agricole** :\nUn agriculteur de Korhogo cultive riz (x) et maïs (y) avec contraintes :\n1. Surface : 2x + y ≤ 100 (hectares)\n2. Main d'œuvre : x + 2y ≤ 80 (personnes)\n3. Semences : x ≥ 10, y ≥ 20 (minimum)\n4. Budget : 50x + 30y ≤ 3000 (milliers FCFA)\n\n### 5. Programmation linéaire\n**Définition** : Technique d'optimisation sous contraintes linéaires.\n\n**Étapes** :\n1. Définir les variables de décision\n2. Écrire la fonction objectif à optimiser (max ou min)\n3. Écrire les contraintes sous forme d'inéquations\n4. Représenter graphiquement le polygone des contraintes\n5. Trouver les sommets du polygone\n6. Évaluer la fonction objectif en chaque sommet\n7. Choisir le sommet optimal\n\n### 6. Polygone des contraintes\n**Définition** : Intersection de tous les demi-plans définis par les contraintes.\n\n**Propriétés** :\n- Convexe (tout segment joignant deux points du polygone est dedans)\n- Les solutions optimales se trouvent aux sommets (théorème fondamental)\n\n### 7. Exemple complet : Projet agricole\n**Problème** : Un coopérative de Bouaké veut maximiser son revenu R = 100x + 150y où :\nx = hectares de cacao\ny = hectares de café\n\n**Contraintes** :\n1. Terrain : x + y ≤ 50\n2. Eau : 2x + 3y ≤ 120\n3. Engrais : x ≤ 40\n4. Main d'œuvre : y ≤ 30\n5. Positivité : x ≥ 0, y ≥ 0\n\n**Résolution graphique** :\n1. Tracer les droites frontières\n2. Déterminer le polygone (hexagone ici)\n3. Calculer les coordonnées des sommets\n4. Évaluer R en chaque sommet\n5. Choisir le maximum\n\n### 8. Cas particuliers\n**Solution infinie** : Si la fonction objectif est parallèle à une contrainte\n**Pas de solution** : Si les contraintes sont incompatibles\n**Solution unique** : Un seul sommet optimal\n\n### 9. Applications en Côte d'Ivoire\n\n**Agriculture** :\n- Optimisation des cultures (cacao, café, coton)\n- Gestion des ressources (eau, engrais, main d'œuvre)\n\n**Industrie** :\n- Optimisation de la production\n- Gestion des stocks\n- Planification des transports\n\n**Commerce** :\n- Optimisation du mix produits\n- Gestion des approvisionnements\n- Maximisation des profits\n\n**Éducation** :\n- Allocation des ressources scolaires\n- Planification des emplois du temps\n- Optimisation des budgets\n\n### 10. Méthode algébrique (complément)\nPour les systèmes 2×2, on peut résoudre algébriquement :\n1. Isoler une variable dans une inéquation\n2. Substituer dans les autres\n3. Résoudre les inéquations à une variable\n4. Déduire l'autre variable\n\n**Exemple simple** :\n{ x + y ≤ 10\n{ 2x + y ≤ 15\n{ x ≥ 0, y ≥ 0\n\nDe (1) : y ≤ 10 - x\nDe (2) : y ≤ 15 - 2x\nDonc y ≤ min(10-x, 15-2x)\n\n### 11. Interprétation économique\nLes points du polygone représentent toutes les combinaisons possibles respectant les contraintes.\nLa solution optimale donne la combinaison maximisant (ou minimisant) l'objectif.\n\n**Exemple budget national** : Allocation des fonds entre santé (x) et éducation (y) sous contraintes budgétaires.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Chaque inéquation définit un demi-plan",
+    "Le système définit un polygone (intersection)",
+    "L'optimum se trouve à un sommet du polygone",
+    "La programmation linéaire permet d'optimiser sous contraintes"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Que représente graphiquement l'inéquation 2x+3y≤6 ?",
+      "options": [
+        "Une droite",
+        "Un demi-plan",
+        "Un cercle",
+        "Un point"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Dans un problème d'optimisation, où se trouve la solution optimale ?",
+      "options": [
+        "Au centre du polygone",
+        "À un sommet du polygone",
+        "Sur un côté du polygone",
+        "N'importe où dans le polygone"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Pour la contrainte x≥0, le demi-plan est :",
+      "options": [
+        "À gauche de l'axe Oy",
+        "À droite de l'axe Oy",
+        "Au-dessus de l'axe Ox",
+        "En dessous de l'axe Ox"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Si deux contraintes sont incompatibles, le polygone est :",
+      "options": [
+        "Plus grand",
+        "Vide",
+        "Infini",
+        "Un point"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

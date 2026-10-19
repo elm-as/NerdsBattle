@@ -1,0 +1,202 @@
+{
+  "id": "svt-terminale-le-fonctionnement-du-tissu-nerveux",
+  "title": "Le fonctionnement du tissu nerveux",
+  "summary": "Lors d'une conférence sur le système nerveux, les élèves apprennent que le tissu nerveux assure la propagation du message nerveux dans l'organisme. Ils décident d'en savoir plus sur son organisation, ses propriétés et le mécanisme de transmission.",
+  "lesson": "## I. Organisation du tissu nerveux\n\n### Structure du nerf\n\nLe nerf est formé de :\n- **Faisceaux de fibres nerveuses**\n- **Vaisseaux sanguins**\n- **Tissu conjonctif**\n- Entouré d'une **gaine conjonctive** (épinèvre)\n\n### Le neurone (cellule nerveuse)\n\n**Unité fonctionnelle** du tissu nerveux composée de :\n\n1. **Corps cellulaire** (soma ou péricaryon)\n2. **Axone** (cylindraxe)\n3. **Arborisation terminale**\n\n**Deux types de fibres :**\n- Fibres **myélinisées** (avec gaine de myéline)\n- Fibres **amyélinisées** (sans gaine de myéline)\n\n## II. Nature du message nerveux\n\n### Le potentiel de repos\n\n**Définition :** Différence de potentiel électrique entre la surface et l'intérieur d'une fibre au repos.\n\n**Valeur :** -70 mV\n\n**Origine :**\n- Surface de l'axone : **positive** (+)\n- Intérieur de l'axone : **négative** (-)\n- Répartition inégale des ions Na⁺ et K⁺\n\n**Concentrations ioniques :**\n\n| Ion | Intérieur | Extérieur |\n|-----|-----------|-----------|\n| K⁺  | 400 mM    | 20 mM     |\n| Na⁺ | 50 mM     | 440 mM    |\n\n**Maintien :** Grâce à la **pompe Na⁺/K⁺** (ATP-dépendante)\n- Fait sortir 3 Na⁺\n- Fait entrer 2 K⁺\n\n### Le potentiel d'action (PA)\n\n**Définition :** Variation brusque et brève du potentiel de membrane suite à une stimulation efficace.\n\n**Phases du PA monophasique :**\n\n1. **Artéfact de stimulation** : moment de la stimulation\n2. **Temps de latence** : délai avant la réponse\n3. **Dépolarisation** : inversion de polarité\n   - Face externe devient **négative**\n   - Face interne devient **positive**\n   - Entrée massive de **Na⁺**\n4. **Repolarisation** : retour à la polarité initiale\n   - Sortie de **K⁺**\n5. **Hyperpolarisation** : descente sous le potentiel de repos\n\n**Amplitude du PA :** Environ 100 mV\n\n## III. Propriétés des structures nerveuses\n\n### A. Excitabilité\n\n**Loi de tout ou rien** (fibre nerveuse isolée) :\n- Stimulation inefficace → pas de réponse\n- Stimulation efficace → PA maximal\n- Toutes les réponses ont la même amplitude\n\n**Loi de sommation** (nerf) :\n- Intensité croissante → amplitude croissante\n- Recrutement progressif des fibres\n- Plateau atteint quand toutes les fibres répondent\n\n### B. Période réfractaire\n\n**Période réfractaire absolue (PRA) :**\n- Le nerf ne répond pas à une 2ème stimulation\n- Canaux Na⁺ fermés\n\n**Période réfractaire relative (PRR) :**\n- Réponse progressive à la 2ème stimulation\n- Rétablissement des concentrations ioniques\n\n### C. Vitesse de conduction\n\n**Facteurs influençant la vitesse :**\n1. **Nature de la fibre** (myélinisée > amyélinisée)\n2. **Diamètre** (plus grand = plus rapide)\n3. **Température** (plus chaud = plus rapide)\n\n**Fibres myélinisées :** \n- Conduction **saltatoire** (de nœud en nœud de Ranvier)\n- Rapide (jusqu'à 120 m/s)\n\n**Fibres amyélinisées :**\n- Conduction de **proche en proche**\n- Lente (environ 1-2 m/s)\n\n**Calcul de la vitesse :**\n```\nV = Δd / Δt\noù Δd = distance et Δt = temps\n```\n\n## IV. Transmission synaptique\n\n### Structure de la synapse\n\n**Composants :**\n1. **Élément présynaptique** (bouton synaptique)\n   - Vésicules synaptiques\n   - Neurotransmetteurs\n2. **Fente synaptique** (espace de 20-40 nm)\n3. **Élément postsynaptique**\n   - Récepteurs spécifiques\n\n**Types de synapses :**\n- Synapse **neuro-neuronique**\n- Synapse **neuro-musculaire** (plaque motrice)\n\n### Mécanisme de transmission\n\n**Étapes :**\n\n1. Arrivée de l'influx nerveux au bouton synaptique\n2. Entrée des ions **Ca²⁺**\n3. Libération des **neurotransmetteurs** par exocytose (ex: acétylcholine)\n4. Fixation sur les récepteurs de la membrane postsynaptique\n5. Ouverture des canaux à **Na⁺**\n6. **Dépolarisation** de la membrane postsynaptique\n7. Naissance d'un nouveau PA\n8. **Hydrolyse** du neurotransmetteur\n9. **Recapture** par le bouton synaptique\n\n### Types de synapses\n\n**Synapse excitatrice :**\n- Libération de neurotransmetteurs excitateurs\n- Dépolarisation\n- **PPSE** (Potentiel Post-Synaptique Excitateur)\n\n**Synapse inhibitrice :**\n- Libération de neurotransmetteurs inhibiteurs\n- Hyperpolarisation\n- **PPSI** (Potentiel Post-Synaptique Inhibiteur)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Neurone = unité fonctionnelle du tissu nerveux",
+    "Message nerveux = signal électrique (PA)",
+    "Potentiel de repos = -70 mV (maintenu par pompe Na⁺/K⁺)",
+    "Transmission synaptique = mécanisme chimique (neurotransmetteurs)",
+    "Vitesse dépend de myélinisation, diamètre et température"
+  ],
+  "exercise": {
+    "question": "Un axone au repos présente un potentiel de membrane de -70 mV. Expliquez l'origine de cette différence de potentiel et comment elle est maintenue.",
+    "answer": "\n**Solution :**\n\n**Origine du potentiel de repos (-70 mV) :**\n\n1. **Répartition inégale des ions :**\n   - Intérieur : riche en K⁺ (400 mM), pauvre en Na⁺ (50 mM)\n   - Extérieur : riche en Na⁺ (440 mM), pauvre en K⁺ (20 mM)\n\n2. **Polarité :**\n   - Surface externe : **positive** (+)\n   - Intérieur : **négatif** (-)\n\n**Maintien du potentiel de repos :**\n\nLa **pompe Na⁺/K⁺** (ATP-dépendante) maintient ce déséquilibre :\n- Expulse 3 Na⁺ vers l'extérieur\n- Fait entrer 2 K⁺ vers l'intérieur\n- Consomme de l'ATP (énergie)\n\nCe mécanisme actif compense la tendance naturelle à l'équilibre des concentrations.\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la valeur du potentiel de repos d'une fibre nerveuse ?",
+      "options": [
+        "-40 mV",
+        "-70 mV",
+        "+30 mV",
+        "0 mV"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle phase du PA correspond à l'entrée massive de Na⁺ ?",
+      "options": [
+        "Hyperpolarisation",
+        "Repolarisation",
+        "Dépolarisation",
+        "Temps de latence"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel type de conduction est le plus rapide ?",
+      "options": [
+        "Conduction de proche en proche",
+        "Conduction saltatoire",
+        "Conduction chimique",
+        "Conduction lente"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Qu'est-ce qui déclenche la libération de neurotransmetteurs ?",
+      "options": [
+        "Entrée de K⁺",
+        "Entrée de Ca²⁺",
+        "Sortie de Na⁺",
+        "Sortie de Cl⁻"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle est la valeur typique du potentiel de membrane au repos pour un neurone?",
+      "options": [
+        "0 mV",
+        "-70 mV",
+        "+40 mV",
+        "-100 mV"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel ion entre massivement pendant la phase de dépolarisation du potentiel d'action?",
+      "options": [
+        "K+",
+        "Cl-",
+        "Na+",
+        "Ca2+"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quelle structure permet la conduction saltatoire dans les axones myélinisés?",
+      "options": [
+        "Les nœuds de Ranvier",
+        "Les boutons synaptiques",
+        "Les dendrites",
+        "Le soma"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel neurotransmetteur est principalement excitateur dans le système nerveux central?",
+      "options": [
+        "GABA",
+        "Glycine",
+        "Glutamate",
+        "Sérotonine"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel événement déclenche directement la fusion des vésicules synaptiques?",
+      "options": [
+        "L'arrivée du potentiel d'action",
+        "L'entrée de calcium",
+        "La fixation du neurotransmetteur",
+        "L'ouverture des canaux potassiques"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quelle loi décrit le fait qu'un potentiel d'action soit toujours de même amplitude pour un neurone donné?",
+      "options": [
+        "Loi de Nernst",
+        "Loi du tout ou rien",
+        "Loi d'Ohm",
+        "Loi de Laplace"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quelle est la largeur typique de la fente synaptique?",
+      "options": [
+        "2-4 nm",
+        "20-40 nm",
+        "200-400 nm",
+        "2-4 μm"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quelle pompe maintient le gradient ionique à travers la membrane neuronale?",
+      "options": [
+        "Pompe Na+/K+ ATPase",
+        "Pompe Ca2+ ATPase",
+        "Pompe H+/K+ ATPase",
+        "Pompe ABC"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel type de potentiel postsynaptique est produit par le GABA via les récepteurs GABA_A?",
+      "options": [
+        "PPSE (excitateur)",
+        "PPSI (inhibiteur)",
+        "Potentiel d'action",
+        "Potentiel de repos"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quelle période suit immédiatement un potentiel d'action pendant laquelle un second PA est impossible?",
+      "options": [
+        "Période réfractaire absolue",
+        "Période réfractaire relative",
+        "Période de latence",
+        "Période de sommation"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

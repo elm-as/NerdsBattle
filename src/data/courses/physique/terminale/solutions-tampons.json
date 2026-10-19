@@ -1,0 +1,31 @@
+{
+  "id": "physique-terminale-solutions-tampons",
+  "title": "Solutions tampons",
+  "summary": "pH sanguin constant ?",
+  "lesson": "## Tampon\nHA + A⁻\n\n## Henderson\npH = pKa + log([A⁻]/[HA])\nSi [HA] = [A⁻] : pH = pKa\n\n## Domaine\npKa - 1 < pH < pKa + 1",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "HA + A⁻",
+    "pH = pKa + log([A⁻]/[HA])",
+    "pH = pKa si [HA] = [A⁻]"
+  ],
+  "exercise": {
+    "question": "[HA] = 0,1, [A⁻] = 0,15, pKa = 4,8. pH ?",
+    "answer": "pH ≈ 5,0"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Si [HA] = [A⁻], pH = ?",
+      "options": [
+        "7",
+        "0",
+        "pKa",
+        "14"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

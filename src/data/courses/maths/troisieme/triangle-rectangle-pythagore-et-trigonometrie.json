@@ -1,0 +1,32 @@
+{
+  "id": "maths-troisieme-triangle-rectangle-pythagore-et-trigonometrie",
+  "title": "Triangle rectangle : Pythagore et trigonométrie",
+  "summary": "Cerf-volant IJKL. Calculer dimensions et angles sachant certaines mesures.",
+  "lesson": "## Triangle rectangle : Pythagore et trigonométrie\n\n### 1. Théorème de Pythagore\n\n**Énoncé :** Dans un triangle rectangle, le carré de l'hypoténuse est égal à la somme des carrés des deux autres côtés.\n\n**Formule :** Si ABC rectangle en B :\n**AC² = AB² + BC²**\n\n**Vocabulaire :**\n- Hypoténuse : côté opposé à l'angle droit (le plus long)\n- Côtés de l'angle droit : les deux autres côtés\n\n**Exemple 1 :** Triangle rectangle avec AB = 3 cm, BC = 4 cm\nAC² = 3² + 4² = 9 + 16 = 25\nAC = √25 = 5 cm\n\n**Exemple 2 :** Cerf-volant avec diagonale 8 cm, demi-diagonale 3 cm\nAutre demi-diagonale² = 8² - 3² = 64 - 9 = 55\nLongueur = √55 ≈ 7,4 cm\n\n### 2. Réciproque de Pythagore\n\n**Usage :** Vérifier si un triangle est rectangle\n\n**Énoncé :** Si le carré du plus grand côté égale la somme des carrés des deux autres, alors le triangle est rectangle.\n\n**Exemple :**\nTriangle avec côtés 5, 12, 13\n- Plus grand côté : 13\n- 13² = 169\n- 5² + 12² = 25 + 144 = 169\n- 169 = 169 ✓ **Triangle rectangle**\n\n**Contre-exemple :**\nTriangle avec côtés 5, 7, 9\n- 9² = 81\n- 5² + 7² = 25 + 49 = 74\n- 81 ≠ 74 **Pas rectangle**\n\n### 3. Trigonométrie : les rapports\n\nDans un triangle rectangle ABC (rectangle en B), avec angle α :\n\n**Définitions :**\n- **sin(α) = côté opposé / hypoténuse**\n- **cos(α) = côté adjacent / hypoténuse**\n- **tan(α) = côté opposé / côté adjacent**\n\n**Moyen mnémotechnique : SOHCAHTOA**\n- **S**OH : **S**inus = **O**pposé / **H**ypoténuse\n- **C**AH : **C**osinus = **A**djacent / **H**ypoténuse\n- **T**OA : **T**angente = **O**pposé / **A**djacent\n\n### 4. Utilisation : Calculer une longueur\n\n**Cas 1 :** On connaît un angle et l'hypoténuse\n\n**Exemple :** Triangle rectangle, hypoténuse = 10 cm, angle = 30°\n- Côté opposé : sin(30°) = opposé / 10\n- opposé = 10 × sin(30°) = 10 × 0,5 = 5 cm\n- Côté adjacent : cos(30°) = adjacent / 10\n- adjacent = 10 × cos(30°) = 10 × 0,866 = 8,66 cm\n\n**Cas 2 :** On connaît un angle et un côté\n\n**Exemple :** Côté adjacent = 6 cm, angle = 40°\n- tan(40°) = opposé / 6\n- opposé = 6 × tan(40°) = 6 × 0,839 = 5,03 cm\n\n### 5. Utilisation : Calculer un angle\n\n**Formules inverses :**\n- Si sin(α) = x → α = arcsin(x) ou sin⁻¹(x)\n- Si cos(α) = x → α = arccos(x) ou cos⁻¹(x)\n- Si tan(α) = x → α = arctan(x) ou tan⁻¹(x)\n\n**Exemple :** Triangle avec opposé = 3 cm, hypoténuse = 5 cm\n- sin(α) = 3/5 = 0,6\n- α = arcsin(0,6) ≈ 37°\n\n**Exemple 2 :** Adjacent = 4 cm, opposé = 7 cm\n- tan(α) = 7/4 = 1,75\n- α = arctan(1,75) ≈ 60°\n\n### 6. Valeurs remarquables à connaître\n\n| Angle | sin    | cos    | tan     |\n|-------|--------|--------|---------|\n| 0°    | 0      | 1      | 0       |\n| 30°   | 1/2    | √3/2   | √3/3    |\n| 45°   | √2/2   | √2/2   | 1       |\n| 60°   | √3/2   | 1/2    | √3      |\n| 90°   | 1      | 0      | ∞       |\n\n### 7. Relations importantes\n\n**Relation fondamentale :**\nsin²(α) + cos²(α) = 1\n\n**Relation avec tangente :**\ntan(α) = sin(α) / cos(α)\n\n**Angles complémentaires :**\n- sin(α) = cos(90° - α)\n- cos(α) = sin(90° - α)\n\n### 8. Application : Hauteur d'un bâtiment\n\n**Problème :** Depuis un point à 20 m d'un immeuble, on voit le sommet avec un angle de 65°.\nQuelle est la hauteur ?\n\n**Solution :**\n- tan(65°) = hauteur / 20\n- hauteur = 20 × tan(65°)\n- hauteur = 20 × 2,145 = 42,9 m",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "AC²=AB²+BC²",
+    "sin=opp/hyp",
+    "cos=adj/hyp",
+    "tan=opp/adj"
+  ],
+  "exercise": {
+    "question": "Hyp=10cm, angle=30°. Côté opposé ?",
+    "answer": "5 cm"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "sin(angle) = ?",
+      "options": [
+        "adj/hyp",
+        "opp/hyp",
+        "opp/adj",
+        "hyp/opp"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

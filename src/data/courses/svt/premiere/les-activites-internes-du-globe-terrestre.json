@@ -1,0 +1,189 @@
+{
+  "id": "svt-premiere-les-activites-internes-du-globe-terrestre",
+  "title": "Les activités internes du globe terrestre",
+  "summary": "Dans le cadre des activités du club SVT du Lycée Moderne de Toumodi, les élèves de la 1ère D effectuent une visite guidée à la station expérimentale de Lamto. Ils découvrent les appareils qui enregistrent toutes les vibrations qui traversent et secouent la terre. Ces vibrations ont souvent des conséquences désastreuses lorsque leurs intensités sont élevées.",
+  "lesson": "## Les séismes\n\n### Définition\n\nUn **séisme** (ou tremblement de terre) est une secousse brutale du sol résultant de la libération d'énergie accumulée dans les roches.\n\n### Origine des séismes\n\n**Causes :**\n- Mouvements des plaques tectoniques\n- Activité volcanique\n- Effondrements souterrains\n\n**Épicentre et hypocentre :**\n- **Hypocentre (ou foyer)** : point de la croûte terrestre où se produit la rupture\n- **Épicentre** : point à la surface verticalement au-dessus de l'hypocentre\n\n### Magnitude\n\n**Échelle de Richter** : mesure la quantité d'énergie libérée\n- < 4 : séisme faible\n- 4-6 : séisme modéré\n- 6-7 : séisme fort\n- > 7 : séisme majeur\n\n## Les ondes sismiques\n\n### Types d'ondes\n\n**1. Ondes P (Primaires)**\n- Ondes de compression\n- Vitesse : 6-8 km/s\n- Se propagent dans les solides et les liquides\n- Arrivent en premier\n\n**2. Ondes S (Secondaires)**\n- Ondes de cisaillement\n- Vitesse : 3-5 km/s\n- Se propagent uniquement dans les solides\n- Arrivent en second\n\n**3. Ondes L (de Love)**\n- Ondes de surface\n- Vitesse : 2-4 km/s\n- Les plus destructrices\n- Arrivent en dernier\n\n### Propagation des ondes\n\nLes ondes sismiques se propagent à partir de l'hypocentre dans toutes les directions.\n\n**Enregistrement :**\n- Sismographe : appareil qui enregistre les ondes\n- Sismogramme : tracé obtenu\n\n## La structure interne de la Terre\n\n### Découverte par les ondes sismiques\n\nLes ondes P et S se propagent différemment selon la nature des couches traversées.\n\n**Observations :**\n- Les ondes S ne traversent pas le noyau externe\n- Les ondes P ralentissent dans le noyau externe\n- Zone d'ombre pour les ondes directes\n\n### Les différentes couches\n\n**1. La croûte terrestre**\n- Épaisseur : 30-70 km (continentale), 5-10 km (océanique)\n- Nature : roches silicatées\n- Discontinuité de Mohorovičić (Moho) à sa base\n\n**2. Le manteau**\n- Épaisseur : environ 2900 km\n- **Manteau supérieur** : solide et rigide\n- **Asthénosphère** : semi-fluide (100-700 km de profondeur)\n- **Manteau inférieur** : solide\n- Composition : péridotites (roches riches en fer et magnésium)\n\n**3. Le noyau**\n- Rayon : environ 3500 km\n- **Noyau externe** (liquide) : 2900-5100 km\n- **Noyau interne** (solide) : 5100-6370 km\n- Composition : fer et nickel\n- Température : jusqu'à 5000°C\n\n### Lithosphère et asthénosphère\n\n- **Lithosphère** : croûte + partie supérieure rigide du manteau (100 km)\n- **Asthénosphère** : zone ductile du manteau supérieur\n\n## Conséquences des séismes\n\n### Dégâts directs\n- Effondrement des bâtiments\n- Fissures du sol\n- Rupture des infrastructures\n\n### Dégâts indirects\n- Tsunamis (séismes sous-marins)\n- Glissements de terrain\n- Incendies\n\n### Prévention en Côte d'Ivoire\n- Construction parasismique\n- Surveillance sismologique\n- Plans d'évacuation",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Ondes P (primaires) : les plus rapides, traversent solides et liquides",
+    "Ondes S (secondaires) : uniquement dans les solides",
+    "Ondes L (surface) : les plus destructrices",
+    "Structure Terre : croûte, manteau, noyau",
+    "Hypocentre = foyer ; Épicentre = surface"
+  ],
+  "exercise": {
+    "question": "Un séisme se produit à 100 km de profondeur. Les ondes P arrivent à une station sismique 15 secondes après le séisme. Calculez la vitesse moyenne des ondes P et expliquez pourquoi les ondes S n'atteignent pas tous les points du globe.",
+    "answer": "\n**Solution :**\n\n**1. Calcul de la vitesse des ondes P :**\n\nDistance = 100 km = 100 000 m\nTemps = 15 s\n\nVitesse = Distance / Temps\nVitesse = 100 000 m / 15 s = 6 667 m/s ≈ 6,7 km/s\n\n**Réponse : La vitesse moyenne des ondes P est de 6,7 km/s.**\n\n**2. Propagation des ondes S :**\n\nLes ondes S sont des ondes de cisaillement qui ne peuvent se propager que dans les milieux solides.\n\nLe noyau externe de la Terre est liquide (constitué de fer et nickel fondus). Les ondes S ne peuvent donc pas le traverser.\n\nCela crée une **zone d'ombre** pour les ondes S entre 103° et 180° de distance angulaire par rapport à l'épicentre.\n\n**Réponse : Les ondes S ne se propagent pas dans le noyau externe liquide, créant une zone d'ombre sismique.**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel type d'ondes sismiques arrive en premier à une station d'enregistrement ?",
+      "options": [
+        "Ondes L",
+        "Ondes S",
+        "Ondes P",
+        "Toutes en même temps"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Le noyau externe de la Terre est :",
+      "options": [
+        "Solide",
+        "Liquide",
+        "Gazeux",
+        "Semi-solide"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "L'épicentre d'un séisme est :",
+      "options": [
+        "Le point en profondeur où se produit la rupture",
+        "Le point à la surface au-dessus du foyer",
+        "L'appareil qui enregistre les séismes",
+        "La magnitude du séisme"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel type d'onde sismique se propage le plus rapidement?",
+      "options": [
+        "Ondes P",
+        "Ondes S",
+        "Ondes L",
+        "Ondes de Rayleigh"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Dans quel type de milieu les ondes S ne se propagent-elles pas?",
+      "options": [
+        "Solides",
+        "Liquides",
+        "Gaz",
+        "Plasma"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle est la discontinuité entre la croûte et le manteau?",
+      "options": [
+        "Gutenberg",
+        "Mohorovičić",
+        "Lehmann",
+        "Conrad"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quelle est la profondeur approximative du noyau externe?",
+      "options": [
+        "1000 km",
+        "2900 km",
+        "5100 km",
+        "6371 km"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quelle formule utilise-t-on pour calculer la magnitude locale?",
+      "options": [
+        "$M_L = \\\\log_{10}(A) - \\\\log_{10}(A_0)$",
+        "$M_L = \\\\sqrt{A \\\\times t}$",
+        "$M_L = \\\\frac{A}{t}$",
+        "$M_L = A^2 + t^2$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quelle station géophysique importante se trouve en Côte d'Ivoire?",
+      "options": [
+        "Station de Lamto",
+        "Station de Korhogo",
+        "Observatoire d'Abidjan",
+        "Centre géophysique de Yamoussoukro"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quelle est la principale conséquence des ondes L?",
+      "options": [
+        "Détection rapide",
+        "Destructions en surface",
+        "Étude du noyau",
+        "Mesure de la profondeur"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Comment appelle-t-on le point à la surface situé à la verticale du foyer?",
+      "options": [
+        "Hypocentre",
+        "Épicentre",
+        "Mésocentre",
+        "Baricentr"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quelle région de Côte d'Ivoire est plus sujette aux glissements de terrain?",
+      "options": [
+        "Région de Man",
+        "Région d'Abidjan",
+        "Région de Korhogo",
+        "Région de San-Pédro"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quelle est l'unité de mesure de la magnitude?",
+      "options": [
+        "Kilomètres",
+        "Degrés Richter",
+        "Joules",
+        "Mètres par seconde"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

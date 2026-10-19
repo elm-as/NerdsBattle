@@ -1,0 +1,150 @@
+{
+  "id": "svt-terminale-l-utilisation-de-l-energie-par-la-cellule-musculaire",
+  "title": "L’utilisation de l’énergie par la cellule musculaire",
+  "summary": "Au cours d’une séance de TP au Lycée Martin Luther King de Bouaké, les élèves testent la résistance du muscle. Les résultats montrent que les fibres musculaires alimentées en glucose et oxygène sont plus résistantes que celles qui ne le sont pas, ces dernières se tétanisant rapidement par fatigue. Pour comprendre cette différence, les élèves cherchent à expliquer le fonctionnement de la fibre musculaire et à identifier les causes et les conséquences de la fatigue musculaire.",
+  "lesson": "## 1. Introduction : Le muscle, un transformateur d'énergie\n\nLe muscle squelettique transforme l'énergie chimique de l'ATP en énergie mécanique (force et mouvement). Cette leçon relie les voies métaboliques de production d'ATP (vue précédemment) à leur utilisation dans la contraction musculaire.\n\n## 2. Organisation structurale du muscle squelettique\n\n**Du macro au micro :**\n- **Muscle** (ex : biceps) → entouré d’**épimysium**.\n- **Faisceaux de fibres musculaires** → entourés de **périmysium**.\n- **Fibre musculaire** (cellule musculaire plurinucléée, syncytiale) → entourée d’**endomysium**.\n- **Myofibrilles** (cylindres intracellulaires) → composées de **sarcomères** en série.\n- **Sarcomère** : Unité contractile répétée, limitée par deux stries Z.\n\n## 3. Ultrastructure du sarcomère\n\n**A. Composition protéique**\n- **Filaments épais** : Principalement de la **myosine**. Chaque molécule de myosine a une tête globulaire qui se lie à l’actine et possède une activité ATPasique.\n- **Filaments fins** : Constitués d’**actine** (forme globulaire G-actine polymérisée en F-actine), de **tropomyosine** et de **troponine** (complexe régulateur).\n\n**B. Bandes et zones observables en microscopie**\n- **Bande A** : Zone des filaments épais (myosine), de longueur constante.\n- **Bande I** : Zone des filaments fins uniquement (actine), divisée par la **strie Z**.\n- **Zone H** : Zone centrale de la bande A, sans chevauchement des filaments fins (myosine uniquement).\n- **Ligne M** : Au centre du sarcomère, ancrage des filaments épais.\n\n**Description du schéma 20 : Ultrastructure d’un sarcomère au repos**\nDessiner deux stries Z parallèles. Entre elles, représenter : (1) les filaments fins d’actine (en rouge) ancrés aux stries Z et pointant vers le centre, (2) les filaments épais de myosine (en bleu) centrés, avec leurs têtes dirigées vers les extrémités. Indiquer les bandes I (clair, seulement actine), A (sombre, myosine + actine en périphérie), la zone H (clair au centre de la bande A, seulement myosine) et la ligne M. Montrer un léger chevauchement des filaments.\n\n## 4. Mécanisme de la contraction musculaire (théorie des filaments glissants)\n\nLa contraction résulte du **glissement** des filaments fins d’actine sur les filaments épais de myosine, **sans modification de leur longueur**. Le sarcomère **raccourcit**, les bandes I et la zone H **diminuent**, la bande A reste constante.\n\n**Étapes du cycle de contraction (couplage excitation-contraction)** :\n1. **Potentiel d’action (PA)** arrive à la plaque motrice (jonction neuromusculaire) → libération d’acétylcholine.\n2. Le PA se propage le long de la membrane de la fibre et dans les **tubules T**.\n3. Dépolarisation → ouverture des canaux à Ca²⁺ voltage-dépendants du **réticulum sarcoplasmique** (RS) → libération massive d’**ions calcium (Ca²⁺)** dans le cytosol (sarcoplasme).\n4. **Ca²⁺ se fixe à la troponine** (sur le filament fin) → changement conformationnel qui écarte la **tropomyosine**, démasquant les **sites de liaison pour les têtes de myosine** sur l’actine.\n5. **Cycle des ponts actine-myosine** (nécessite de l’ATP) :\n   a. Une tête de myosine liée à l’ADP+P_i se fixe à l’actine (formation d’un **pont actomyosine**).\n   b. **Bascule (power stroke)** : Libération de P_i et d’ADP provoque un changement d’angle de la tête → le filament fin est tiré vers le centre du sarcomère (raccourcissement).\n   c. **Fixation d’un nouvel ATP** sur la tête de myosine → détachement de l’actine.\n   d. **Hydrolyse de l’ATP en ADP+P_i** par l’ATPase de la myosine → la tête se redresse (position haute, chargée en énergie), prête pour un nouveau cycle si Ca²⁺ est encore présent.\n6. Lorsque la stimulation cesse, les pompes Ca²⁺ du RS réabsorbent activement le Ca²⁺ (nécessite de l’ATP) → baisse de la [Ca²⁺] cytosolique → la troponine libère le Ca²⁺ → la tropomyosine recouvre à nouveau les sites de liaison sur l’actine → **relâchement musculaire**.\n\n**Description du schéma 21 : Sarcomère en contraction**\nReprésenter le même sarcomère qu’au schéma 20, mais raccourci. Montrer que les stries Z se sont rapprochées, que les filaments fins ont glissé plus profondément dans la bande A. La **bande I** et la **zone H** sont nettement réduites, voire disparues en contraction maximale. La **bande A** reste de même largeur. Ajouter des flèches indiquant le mouvement des filaments fins vers le centre.\n\n## 5. Rôle de l’ATP dans la contraction\n\nL’ATP est indispensable à **trois niveaux** :\n1. **Détachement des ponts actine-myosine** (étape c).\n2. **Activation de la pompe Ca²⁺** du RS pour le relâchement.\n3. **Hydrolyse par la myosine-ATPase** pour le \"re-armement\" des têtes (étape d) et le power stroke.\n\n**C’est pourquoi un manque d’ATP conduit à la rigidité musculaire** (c’est ce qui se passe après la mort : **rigor mortis**).\n\n## 6. Métabolisme énergétique du muscle et types de fibres\n\nSelon leur métabolisme dominant, on distingue :\n- **Fibres lentes (type I, rouges)** : Riches en myoglobine, mitochondries, capillaires. Utilisent principalement la **respiration aérobie** des acides gras et du glucose. Résistantes à la fatigue, adaptées aux efforts prolongés (marathon).\n- **Fibres rapides (type II, blanches)** : Pauvres en mitochondries, riches en enzymes glycolytiques. Utilisent la **glycolyse anaérobie (fermentation lactique)**. Puissantes mais se fatiguent vite, adaptées aux efforts brefs et intenses (sprint, haltérophilie).\n\n## 7. Causes de la fatigue musculaire\n\nLa fatigue est une diminution transitoire de la capacité contractile. Causes multifactorielles :\n- **Épuisement des réserves énergétiques** : Diminution des stocks de **glycogène** musculaire et hépatique, baisse de la concentration d’**ATP** et de **phosphocréatine** (réservoir rapide d’énergie).\n- **Accumulation de métabolites** :\n  - **Acide lactique** (et ions H⁺ associés) → **acidose intracellulaire** qui inhibe les enzymes glycolytiques et interfère avec la fixation du Ca²⁺ à la troponine.\n  - **Ions phosphate inorganique (P_i)** issu de l’hydrolyse de l’ATP et de la phosphocréatine, peut altérer la libération de Ca²⁺ par le RS.\n- **Perturbations ioniques** : Accumulation de K⁺ extracellulaire due aux répétitions de PA, peut altérer l’excitabilité de la membrane.\n- **Déséquilibre hydrique** : Déshydratation et élévation de la température corporelle.\n- **Facteurs centraux** (système nerveux) : Diminution de la commande motrice volontaire.\n\n## 8. Conséquences de la fatigue musculaire\n\n- **Diminution de la force** et de la vitesse de contraction.\n- **Tétanos** (contraction soutenue sans relâchement) impossible à maintenir → le muscle se relâche malgré la stimulation.\n- **Douleurs musculaires** :\n  - **Immediate** (pendant/juste après l’effort) : dues à l’acidose et aux métabolites irritants.\n  - **Différées (courbatures, 24-48h après)** : dues principalement à des **micro-lésions** des fibres musculaires (et non seulement à l’acide lactique, qui est éliminé en quelques heures), suivies d’une réaction inflammatoire.\n- **Risque accru de blessures** (claquages, déchirures) si on force sur un muscle fatigué.\n\n## 9. Mesures d’hygiène musculaire et de récupération\n\nPour prévenir la fatigue et optimiser la performance :\n- **Avant l’effort (échauffement)** : Augmente la température musculaire, la fluidité membranaire, la disponibilité en O₂, prépare le système nerveux.\n- **Pendant l’effort** :\n  - **Hydratation** régulière (eau, éventuellement boisson isotonique pour les efforts >1h).\n  - **Alimentation adaptée** : Apport glucidique pour les efforts longs (pâtes, riz).\n  - **Respiration régulière** pour assurer l’apport en O₂.\n- **Après l’effort (récupération)** :\n  - **Retour au calme (récupération active)** : Activité très douce (marche) pour favoriser l’élimination de l’acide lactique par la circulation.\n  - **Étirements légers** (sans forcer) pour relâcher les muscles.\n  - **Réhydratation** et **realimentation** (repas riche en glucides et protéines pour reconstituer le glycogène et réparer les fibres).\n  - **Repos et sommeil** suffisants pour la régénération cellulaire.\n- **Entraînement progressif** : Améliore la capacité aérobie (plus de mitochondries, de capillaires), la résistance à la fatigue, et renforce les muscles et tendons.\n\n## 10. Conclusion\n\nLa contraction musculaire est un processus actif couplant étroitement excitation électrique, libération de calcium et utilisation d’ATP. La fatigue résulte d’un déséquilibre entre production et demande énergétique, et de l’accumulation de déchets. Une hygiène de vie adaptée (nutrition, hydratation, entraînement, récupération) est essentielle pour la santé musculaire et la performance.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Le sarcomère est l'unité contractile du muscle ; il raccourcit par glissement des filaments d'actine sur ceux de myosine (théorie des filaments glissants).",
+    "Le calcium (Ca²⁺) est le déclencheur de la contraction en se fixant à la troponine pour démasquer les sites de liaison sur l'actine.",
+    "L'ATP est nécessaire à trois niveaux : détachement des ponts actomyosine, re-armement des têtes de myosine et pompage du Ca²⁺ pour le relâchement.",
+    "La fatigue musculaire a pour causes principales l'épuisement du glycogène, l'accumulation d'acide lactique (acidose) et les déséquilibres ioniques.",
+    "Une bonne hygiène musculaire repose sur l'échauffement, l'hydratation, une alimentation adaptée, la récupération active et un entraînement progressif."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est l'unité contractile de base de la myofibrille ?",
+      "options": [
+        "La fibre musculaire",
+        "Le sarcomère",
+        "Le myofilament",
+        "La strie Z"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle protéine forme les filaments épais du sarcomère ?",
+      "options": [
+        "Actine",
+        "Myosine",
+        "Troponine",
+        "Tropomyosine"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel ion, libéré par le réticulum sarcoplasmique, déclenche la contraction ?",
+      "options": [
+        "Na⁺",
+        "K⁺",
+        "Ca²⁺",
+        "Cl⁻"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Sur quelle protéine du filament fin se fixe le calcium pour initier la contraction ?",
+      "options": [
+        "Actine",
+        "Myosine",
+        "Troponine",
+        "Tropomyosine"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Que devient la bande I du sarcomère lors d'une contraction maximale ?",
+      "options": [
+        "Elle s'élargit",
+        "Elle disparaît presque",
+        "Elle ne change pas",
+        "Elle change de couleur"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle molécule doit se fixer à la tête de myosine pour qu'elle se détache de l'actine ?",
+      "options": [
+        "ADP",
+        "ATP",
+        "Ca²⁺",
+        "Phosphate inorganique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel type de fibre musculaire est spécialisé dans les efforts brefs et intenses ?",
+      "options": [
+        "Fibres lentes (type I)",
+        "Fibres rapides (type II)",
+        "Fibres cardiaques",
+        "Fibres lisses"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quelle est une cause majeure de la fatigue musculaire lors d'un effort intense ?",
+      "options": [
+        "Accumulation d'acide lactique (acidose)",
+        "Augmentation du pH sanguin",
+        "Diminution du taux de CO₂",
+        "Excès d'oxygène"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Que favorise la récupération active (marche lente) après un effort ?",
+      "options": [
+        "L'accumulation d'acide lactique",
+        "L'élimination de l'acide lactique par la circulation",
+        "La déshydratation",
+        "La baisse de la température corporere"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Pourquoi l'ATP est-il essentiel pour le relâchement musculaire ?",
+      "options": [
+        "Il active la libération de Ca²⁺",
+        "Il fournit l'énergie pour la pompe à Ca²⁺ du réticulum sarcoplasmique",
+        "Il détruit les ponts actomyosine",
+        "Il bloque les sites de l'actine"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

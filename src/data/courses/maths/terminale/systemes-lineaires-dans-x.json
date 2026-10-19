@@ -1,0 +1,71 @@
+{
+  "id": "maths-terminale-systemes-lineaires-dans-x",
+  "title": "Systèmes linéaires dans ℝ x ℝ",
+  "summary": "À Abidjan, un pâtissier passionné de mathématiques propose deux types de gâteaux : l'un en forme de cylindre, l'autre en forme de tronc de cône. Le premier nécessite 3 minutes de cuisson et 50g de garniture, avec un bénéfice de 400 FCFA. Le second nécessite 5 minutes de cuisson et 150g de garniture, avec un bénéfice de 450 FCFA. Le four fonctionne 6h/jour (un gâteau à la fois) et la garniture disponible est de 9 kg/jour, avec une vente maximale de 100 gâteaux/jour. Les élèves de Terminale A1 du Lycée Classi",
+  "lesson": "## 1. Introduction aux systèmes linéaires\nUn système linéaire dans ℝ x ℝ est un ensemble de deux équations du type :\n$$\\\\begin{cases} a_1x + b_1y = c_1 \\\\\\\\ a_2x + b_2y = c_2 \\\\end{cases}$$\noù $a_1$, $b_1$, $c_1$, $a_2$, $b_2$, $c_2$ sont des réels.\n\n## 2. Méthodes de résolution\n\n**Méthode de substitution** : Exprimer une variable en fonction de l'autre dans une équation, puis remplacer dans la seconde.\n\n**Méthode de combinaison (ou d'élimination)** : Combiner les équations pour éliminer une variable.\n\n**Exemple ivoirien** : Pour déterminer le nombre de taxis (x) et de motos-taxis (y) assurant le transport à Yamoussoukro sachant que :\n$$\\\\begin{cases} 4x + 2y = 200 \\\\\\\\ 3x + y = 120 \\\\end{cases}$$\n\n## 3. Systèmes avec fonctions logarithmiques et exponentielles\nCertains systèmes se ramènent à des systèmes linéaires par changement de variable.\n\n**Cas 1 : Avec logarithme népérien**\nSystème du type : $$\\\\begin{cases} a\\\\ln x + b\\\\ln y = c \\\\\\\\ a'\\\\ln x + b'\\\\ln y = c' \\\\end{cases}$$\nOn pose $X = \\\\ln x$ et $Y = \\\\ln y$.\n\n**Cas 2 : Avec exponentielle népérienne**\nSystème du type : $$\\\\begin{cases} ae^x + be^y = c \\\\\\\\ a'e^x + b'e^y = c' \\\\end{cases}$$\nOn pose $X = e^x$ et $Y = e^y$.\n\n## 4. Représentation graphique des solutions d'inéquations\n\nPour un système d'inéquations du premier degré, l'ensemble des solutions est l'intersection des demi-plans correspondants.\n\n**Exemple** :\n$$\\\\begin{cases} x + y \\\\leq 100 \\\\\\\\ 3x + 5y \\\\leq 360 \\\\\\\\ x \\\\geq 0, y \\\\geq 0 \\\\end{cases}$$\n\n## 5. Application à la programmation linéaire\nLa situation du pâtissier se modélise ainsi :\nSoit $x$ = nombre de gâteaux cylindriques, $y$ = nombre de gâteaux tronc de cône.\n\n| Contrainte | Inéquation |\n|------------|------------|\n| Temps de cuisson | $3x + 5y \\\\leq 360$ (minutes) |\n| Garniture | $50x + 150y \\\\leq 9000$ (grammes) |\n| Production maximale | $x + y \\\\leq 100$ |\n| Positivité | $x \\\\geq 0, y \\\\geq 0$ |\n\nFonction objectif (bénéfice) : $B(x,y) = 400x + 450y$\n\n## 6. Résolution graphique d'un système d'inéquations\n\n1. Tracer chaque droite frontière\n2. Déterminer le demi-plan solution de chaque inéquation\n3. Identifier la zone d'intersection (polygone de contraintes)\n4. Évaluer la fonction objectif aux sommets du polygone\n\n## 7. Méthode de résolution algébrique par combinaison\n\n**Étapes** :\n1. Aligner les variables\n2. Multiplier les équations pour égaliser les coefficients d'une variable\n3. Soustraire ou additionner pour éliminer cette variable\n4. Résoudre l'équation à une inconnue\n5. Remplacer pour trouver la seconde inconnue\n\n## 8. Vérification des solutions\n\nToujours vérifier que les solutions satisfont toutes les équations du système. Dans les problèmes concrets, vérifier aussi la cohérence avec le contexte (valeurs positives, entières si nécessaire).",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Un système linéaire de deux équations à deux inconnues peut avoir une solution unique, aucune solution, ou une infinité de solutions",
+    "Les systèmes avec fonctions ln ou exp se ramènent à des systèmes linéaires par changement de variable",
+    "L'ensemble des solutions d'un système d'inéquations est représenté par une région polygonale du plan",
+    "En programmation linéaire, l'optimum d'une fonction objectif linéaire sous contraintes linéaires est atteint à un sommet du polygone de contraintes"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle méthode n'est PAS utilisée pour résoudre un système linéaire de deux équations à deux inconnues ?",
+      "options": [
+        "Méthode de substitution",
+        "Méthode de combinaison",
+        "Méthode de dérivation",
+        "Méthode graphique"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Pour ramener le système $\\\\begin{cases} 2\\\\ln x + 3\\\\ln y = 5 \\\\\\\\ \\\\ln x - \\\\ln y = 1 \\\\end{cases}$ à un système linéaire, quels changements de variable faut-il faire ?",
+      "options": [
+        "X = ln x, Y = ln y",
+        "X = e^x, Y = e^y",
+        "X = x², Y = y²",
+        "X = 1/x, Y = 1/y"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Dans la situation du pâtissier d'Abidjan, quelle contrainte modélise la limite de garniture (9 kg) si x gâteaux du type 1 (50g) et y du type 2 (150g) ?",
+      "options": [
+        "50x + 150y ≤ 9000",
+        "50x + 150y ≤ 9",
+        "150x + 50y ≤ 9000",
+        "50x + 150y ≥ 9000"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "L'ensemble des solutions du système $\\\\begin{cases} x + y ≤ 10 \\\\\\\\ x ≥ 0 \\\\\\\\ y ≥ 0 \\\\end{cases}$ est :",
+      "options": [
+        "Un triangle rectangle",
+        "Un cercle",
+        "Une parabole",
+        "Une droite"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

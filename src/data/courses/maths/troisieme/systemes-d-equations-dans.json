@@ -1,0 +1,31 @@
+{
+  "id": "maths-troisieme-systemes-d-equations-dans",
+  "title": "Systèmes d'équations dans ℝ×ℝ",
+  "summary": "Les élèves commandent 20 litres : Bissap (400 F/L) et Gnamancou (500 F/L) pour 9200 F. Combien de litres de chaque ?",
+  "lesson": "## Systèmes d'équations dans ℝ×ℝ\n\n### 1. Qu'est-ce qu'un système ?\n\nUn système de deux équations à deux inconnues s'écrit :\n{ ax + by = c\n{ dx + ey = f\n\nLa solution est le couple (x ; y) qui vérifie **les deux équations simultanément**.\n\n### 2. Méthode par substitution\n\n**Principe :** Exprimer une inconnue en fonction de l'autre, puis remplacer.\n\n**Exemple détaillé (situation-problème) :**\nLes élèves commandent 20 litres pour 9200 F :\n- Bissap : 400 F/L (x litres)\n- Gnamancou : 500 F/L (y litres)\n\n**Système :**\n{ x + y = 20          (équation 1)\n{ 400x + 500y = 9200  (équation 2)\n\n**Étape 1 :** Isoler x dans équation 1\nx = 20 - y\n\n**Étape 2 :** Remplacer dans équation 2\n400(20 - y) + 500y = 9200\n8000 - 400y + 500y = 9200\n100y = 1200\ny = 12\n\n**Étape 3 :** Calculer x\nx = 20 - 12 = 8\n\n**Solution :** 8 L de Bissap, 12 L de Gnamancou\n\n**Vérification :**\n- Total : 8 + 12 = 20 ✓\n- Prix : 400(8) + 500(12) = 3200 + 6000 = 9200 ✓\n\n### 3. Méthode par combinaison\n\n**Principe :** Additionner ou soustraire les équations pour éliminer une variable.\n\n**Exemple 1 :** Élimination directe\n{ 3x + 2y = 16\n{ 3x - y = 7\n\nSoustraire équation 2 de équation 1 :\n(3x + 2y) - (3x - y) = 16 - 7\n3y = 9\ny = 3\n\nPuis dans équation 2 : 3x - 3 = 7 → x = 10/3\n\n**Exemple 2 :** Multiplication préalable\n{ 2x + 3y = 13\n{ 3x - y = 3\n\nMultiplier équation 2 par 3 :\n{ 2x + 3y = 13\n{ 9x - 3y = 9\n\nAdditionner :\n11x = 22\nx = 2\n\nPuis y = 3(2) - 3 = 3\n\n**Solution :** (2 ; 3)\n\n**Exemple 3 :** Situation avec coefficients complexes\n{ 5x + 2y = 19\n{ 3x + 4y = 23\n\nMultiplier équation 1 par 2 :\n{ 10x + 4y = 38\n{ 3x + 4y = 23\n\nSoustraire :\n7x = 15\nx = 15/7\n\nPuis calculer y...\n\n### 4. Méthode graphique\n\n**Principe :** Chaque équation représente une droite. La solution est le point d'intersection.\n\n**Étapes :**\n1. Mettre sous forme y = mx + p\n2. Tracer les deux droites\n3. Lire les coordonnées du point d'intersection\n\n**Exemple :**\n{ y = 2x + 1\n{ y = -x + 4\n\nTracer et lire : intersection en (1 ; 3)\n\n**Cas particuliers :**\n- Droites parallèles : pas de solution\n- Droites confondues : infinité de solutions\n- Droites sécantes : une solution unique\n\n### 5. Exercice type résolu\n\n**Problème :** Un cinéma a vendu 350 billets pour 2 450 000 F.\nAdulte : 8000 F, Enfant : 5000 F. Combien de chaque ?\n\n**Système :**\n{ x + y = 350\n{ 8000x + 5000y = 2450000\n\n**Par substitution :**\nx = 350 - y\n8000(350 - y) + 5000y = 2450000\n2800000 - 8000y + 5000y = 2450000\n-3000y = -350000\ny = 350000/3000 ≈ 117\n\nx = 350 - 117 = 233\n\n**Réponse :** 233 adultes, 117 enfants",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Substitution : exprimer puis remplacer",
+    "Combinaison : multiplier puis additionner",
+    "Graphique : point d'intersection"
+  ],
+  "exercise": {
+    "question": "{ x+y=10 et { 2x+y=16",
+    "answer": "x=6, y=4"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Un système a généralement :",
+      "options": [
+        "0 solution",
+        "1 solution",
+        "2 solutions",
+        "∞ solutions"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

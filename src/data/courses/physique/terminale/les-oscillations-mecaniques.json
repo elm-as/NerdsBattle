@@ -1,0 +1,30 @@
+{
+  "id": "physique-terminale-les-oscillations-mecaniques",
+  "title": "Les oscillations mécaniques",
+  "summary": "Un pendule oscille de façon régulière. Comment calculer sa période ?",
+  "lesson": "## Le pendule simple\n\n**Période :**\n```\nT = 2π √(L/g)\n```\n\n**Exemples d'oscillateurs :**\n- Balançoire\n- Corde de guitare\n- Ressort",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "T = 2π √(L/g)",
+    "Mouvement périodique"
+  ],
+  "exercise": {
+    "question": "Calculer T pour L = 1m.",
+    "answer": "T = 2π √(1/10) = 2s"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La période dépend de ?",
+      "options": [
+        "La masse",
+        "La longueur",
+        "L'amplitude",
+        "La couleur"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

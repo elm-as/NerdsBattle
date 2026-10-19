@@ -1,0 +1,71 @@
+{
+  "id": "maths-seconde-calcul-litteral",
+  "title": "Calcul littéral",
+  "summary": "Le Lycée Moderne d'Abobo veut organiser une kermesse sur un terrain carré. Les sponsors ont choisi chacun de bâtir leur stand dans un coin du terrain. Le proviseur souhaite que le reste du terrain ait la forme d'un octogone régulier pour les jeux. Comment calculer l'aire de la partie réservée aux jeux en fonction du côté du carré initial ?",
+  "lesson": "## Calcul littéral : outil de modélisation mathématique\n\n### 1. Expressions littérales et variables\n\nLe calcul littéral permet de généraliser des situations concrètes ivoiriennes. Par exemple, si x représente le nombre de kilos de bananes plantain achetés au marché, et que le prix au kilo est de 500 FCFA, alors le prix total est 500x FCFA.\n\nUne expression littérale est une combinaison de lettres (variables) et de nombres reliés par des opérations. En Côte d'Ivoire, cela peut modéliser :\n- Le coût d'une facture d'électricité (CIE) : coût fixe + coût variable\n- La production agricole en fonction de la superficie\n- Le budget familial en fonction du nombre de personnes\n\n### 2. Développement d'expressions littérales\n\nDévelopper signifie transformer un produit en somme. C'est essentiel pour simplifier les calculs.\n\n**Distributivité simple :**\nk(a + b) = ka + kb\nk(a - b) = ka - kb\n\n**Distributivité double :**\n(a + b)(c + d) = ac + ad + bc + bd\n\n### 3. Les produits remarquables\n\nCes formules permettent de développer rapidement certaines expressions fréquentes :\n\n1. **Carré d'une somme :** (a + b)² = a² + 2ab + b²\n   *Application :* Calcul de l'aire d'un carré dont on augmente le côté\n\n2. **Carré d'une différence :** (a - b)² = a² - 2ab + b²\n   *Application :* Calcul de l'aire restante après réduction d'un terrain\n\n3. **Produit de la somme par la différence :** (a - b)(a + b) = a² - b²\n   *Application :* Calcul de différences de surfaces\n\n**Exemple ivoirien :** Un agriculteur de Bouaké a un champ carré de côté x mètres. Il l'agrandit de 10 mètres dans chaque direction. La nouvelle aire est (x + 10)² = x² + 20x + 100 m².\n\n### 4. Factorisation\n\nFactoriser signifie transformer une somme en produit. C'est l'opération inverse du développement.\n\n**Méthodes de factorisation :**\n1. **Facteur commun :** ka + kb = k(a + b)\n   Exemple : Dans une coopérative agricole, si chaque membre contribue 5000x FCFA pour les semences et 5000y FCFA pour l'engrais, la contribution totale est 5000(x + y) FCFA.\n\n2. **Utilisation des produits remarquables :**\n   - a² + 2ab + b² = (a + b)²\n   - a² - 2ab + b² = (a - b)²\n   - a² - b² = (a - b)(a + b)\n\n### 5. Réduction et ordonnancement\n\nPour simplifier une expression :\n1. Développer si nécessaire\n2. Regrouper les termes semblables\n3. Ordonner selon les puissances décroissantes\n\n**Exemple :** (2x + 3)(x - 4) + 5x²\n= 2x² - 8x + 3x - 12 + 5x²\n= 7x² - 5x - 12\n\n### 6. Calcul de valeur numérique\n\nRemplacer chaque variable par sa valeur numérique, puis calculer.\n\n**Application ivoirienne :** Le coût de transport de marchandises entre Abidjan et Korhogo peut s'exprimer par C = 5000d + 10000p, où d est la distance en km et p le poids en tonnes. Pour d = 600 km et p = 5 tonnes : C = 5000×600 + 10000×5 = 3 000 000 + 50 000 = 3 050 000 FCFA.\n\n### 7. Résolution de problèmes concrets\n\n**Problème 1 :** Un restaurant de Bouaké propose des plats à prix fixe. Le chiffre d'affaires quotidien est C = 1500n - 10n², où n est le nombre de clients. Pour n = 50 : C = 1500×50 - 10×2500 = 75 000 - 25 000 = 50 000 FCFA.\n\n**Problème 2 :** Un terrain rectangulaire à Yamoussoukro a une longueur de (x + 20) m et une largeur de (x - 10) m. Son aire est A = (x + 20)(x - 10) = x² + 10x - 200 m².\n\n### 8. Applications dans d'autres disciplines\n\n- **Économie :** modélisation des coûts de production\n- **Physique :** formules de mouvement, d'énergie\n- **Géographie :** calculs de densité de population\n- **SVT :** modèles de croissance de populations\n\n### 9. Pièges à éviter\n\n- Confondre (a + b)² avec a² + b²\n- Oublier le double produit dans (a ± b)²\n- Erreur de signe dans (a - b)(a + b) = a² - b² (pas a² + b²)\n- Mauvaise application de la distributivité\n\nLe calcul littéral est un outil puissant qui permet de résoudre des problèmes variés en les modélisant mathématiquement, facilitant ainsi la prise de décision dans les domaines économique, social et scientifique en Côte d'Ivoire.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "(a + b)² = a² + 2ab + b² (attention au double produit)",
+    "(a - b)(a + b) = a² - b² (différence de deux carrés)",
+    "Factoriser, c'est mettre en facteur commun ou utiliser les identités remarquables",
+    "Toujours vérifier le développement par une valeur numérique test"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Que vaut (x + 3)² ?",
+      "options": [
+        "x² + 9",
+        "x² + 3x + 9",
+        "x² + 6x + 9",
+        "x² + 6x + 6"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle est la factorisation de 4x² - 9 ?",
+      "options": [
+        "(2x - 3)²",
+        "(4x - 3)(x + 3)",
+        "(2x - 3)(2x + 3)",
+        "(4x - 9)(x + 1)"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Si a = 2 et b = 3, que vaut (a + b)(a - b) ?",
+      "options": [
+        "-5",
+        "5",
+        "13",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle expression est égale à 3x² - 12x ?",
+      "options": [
+        "3x(x - 4)",
+        "3(x² - 4x)",
+        "x(3x - 12)",
+        "Toutes ces réponses"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

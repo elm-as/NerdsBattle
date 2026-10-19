@@ -1,0 +1,153 @@
+{
+  "id": "histoire-terminale-les-fondements-du-developpement-economique-de-la-coree-du-su",
+  "title": "Les fondements du développement économique de la Corée du Sud",
+  "summary": "Tes camarades de classe de terminale et toi, découvrez dans un reportage sur la chaîne de télévision France 2, la puissance économique de la Corée du Sud. Curieux d'en savoir plus sur les fondements de cette puissance économique, vous vous organisez pour comprendre l'impact des fondements naturels, économiques, humains et historiques sur l'économie de ce pays.",
+  "lesson": "## 1. Localisation et situation géographique\n\n### 1.1 La péninsule coréenne : un carrefour stratégique\n\n**Position géographique :**\n- **Péninsule** : Extrémité nord-est de l'Asie\n- **Coordonnées** : 35° à 43° Nord, 124° à 131° Est\n- **Superficie** : 100.210 km² (Corée du Sud : 99.392 km²)\n- **Comparaison** : 1/5 de la France, légèrement plus petit que le Burkina Faso\n\n**Limites naturelles :**\n- **Nord** : Corée du Nord (frontière DMZ - Zone Démilitarisée)\n- **Est** : Mer du Japon (Mer de l'Est)\n- **Sud** : Détroit de Corée\n- **Ouest** : Mer Jaune\n\n**Caractéristiques physiques :**\n\n```mermaid\ngraph TD\n    A[Corée du Sud - Relief] --> B[Montagnes 70%]\n    A --> C[Plaines 30%]\n    A --> D[Côtes 2.413 km]\n    \n    B --> B1[Monts Taebaek]\n    B --> B2[Sobaek]\n    B --> B3[Point culminant: Hallasan 1.950m]\n    \n    C --> C1[Plaine du fleuve Han]\n    C --> C2[Plaine du Nakdong]\n    C --> C3[Plaine du Geum]\n    \n    D --> D1[Côte orientale: Escarpée]\n    D --> D2[Côte occidentale: Rias]\n    D --> D3[Côte méridionale: Baies]\n    D --> D4[Îles: Jeju 1.846 km²]\n```\n\n### 1.2 Avantages géostratégiques\n\n**Position avantageuse :**\n- **Carrefour** : Entre Chine, Japon, Russie\n- **Ouverture maritime** : 3 mers\n- **Accès** : Routes maritimes mondiales\n- **Plateforme** : Vers l'Asie du Sud-Est\n\n**Défis géographiques :**\n- **Ressources naturelles limitées**\n- **Tensions géopolitiques** (Corée du Nord)\n- **Densité élevée** : 527 hab/km²\n- **Risques naturels** : Typhons, séismes\n\n## 2. Les fondements naturels\n\n### 2.1 Relief et géologie\n\n**Structure montagneuse :**\n- **70% montagnes** : Chaîne Taebaek (nord-est)\n- **30% plaines** : Côtes ouest et sud\n- **Sols** : Principalement granitiques et volcaniques\n\n**Ressources minières limitées :**\n\n```mathgraph\n{\n  \"type\": \"histogram\",\n  \"title\": \"Ressources minières de la Corée du Sud (2023)\",\n  \"xRange\": [0, 6],\n  \"yRange\": [0, 100],\n  \"bars\": [\n    { \"label\": \"Tungstène\", \"value\": 95, \"color\": \"#3b82f6\" },\n    { \"label\": \"Graphite\", \"value\": 80, \"color\": \"#8b5cf6\" },\n    { \"label\": \"Charbon\", \"value\": 60, \"color\": \"#000000\" },\n    { \"label\": \"Fer\", \"value\": 30, \"color\": \"#ef4444\" },\n    { \"label\": \"Cuivre\", \"value\": 15, \"color\": \"#f59e0b\" },\n    { \"label\": \"Or\", \"value\": 5, \"color\": \"#FFD700\" }\n  ],\n  \"showGrid\": true,\n  \"xLabel\": \"Ressource\",\n  \"yLabel\": \"% besoins couverts\"\n}\n```\n\n**Dépendance minière :**\n- **Importations** : 95% des ressources énergétiques\n- **Pétrole** : 100% importé\n- **Gaz naturel** : 100% importé\n- **Charbon** : 40% importé\n\n### 2.2 Climat et hydrographie\n\n**Climat tempéré :**\n- **Type** : Climat continental humide\n- **Températures** : -6°C à 30°C\n- **Précipitations** : 1.200 à 1.500 mm/an\n- **Mousson** : Juin à septembre (60% des pluies)\n\n**Réseau hydrographique :**\n- **Fleuves principaux** : Han (514 km), Nakdong (525 km), Geum (401 km)\n- **Rôle économique** : Irrigation, transport, industrie\n- **Barrages** : 20 grands barrages\n- **Énergie hydroélectrique** : 6% de l'électricité\n\n**Ressources maritimes :**\n- **Zone économique exclusive** : 300.851 km²\n- **Pêche** : 3,2 millions tonnes/an\n- **Aquaculture** : Développée\n- **Ports** : Busan (6ème mondial), Incheon\n\n### 2.3 Contraintes naturelles transformées en atouts\n\n**Réponse aux limites :**\n1. **Manque ressources** → Innovation technologique\n2. **Terrain montagneux** → Industries légères\n3. **Isolation relative** → Développement maritime\n4. **Climat rigoureux** → Discipline travail\n\n## 3. Les fondements humains\n\n### 3.1 Démographie et structure sociale\n\n**Population 2024 :**\n- **Nombre** : 51,7 millions d'habitants\n- **Densité** : 527 hab/km²\n- **Urbanisation** : 81%\n- **Espérance vie** : 83,5 ans (F) / 77,2 ans (H)\n\n**Structure par âge :**\n- **0-14 ans** : 12%\n- **15-64 ans** : 71%\n- **65+ ans** : 17%\n- **Taux croissance** : 0,09%\n\n**Problèmes démographiques :**\n- **Vieillissement accéléré**\n- **Plus bas taux fécondité** : 0,72 enfant/femme\n- **Déclin population** prévu\n- **Pénurie main-d'œuvre**\n\n### 3.2 Capital humain : éducation et santé\n\n**Système éducatif performant :**\n\n```mermaid\ntimeline\ntitle Pyramide éducative sud-coréenne\n    Éducation préscolaire : 3-5 ans\n        : Taux scolarisation 95%\n    École primaire : 6 ans obligatoire\n        : Taux alphabétisation 99%\n    Collège : 3 ans\n        : Classement PISA élevé\n    Lycée : 3 ans\n        : Compétition intense\n    Université : 4 ans\n        : 70% d'une classe d'âge\n        : Séoul National, KAIST, POSTECH\n```\n\n**Investissements éducation :**\n- **Budget éducation** : 4,6% du PIB\n- **Heures étude** : 15 heures/semaine supplémentaires\n- **Culture** : 'Parce (fierté) de l'éducation'\n- **Résultats** : 1er en mathématiques PISA\n\n**Santé publique :**\n- **Système universel** : Couverture 97%\n- **Dépenses santé** : 8,1% du PIB\n- **Hôpitaux** : Technologie avancée\n- **Recherche médicale** : Biotechnologies\n\n### 3.3 Culture du travail et valeurs sociales\n\n**Éthique confucéenne :**\n- **Respect hiérarchie**\n- **Importance famille**\n- **Éducation valeur suprême**\n- **Collectivisme** vs individualisme\n\n**Culture d'entreprise :**\n- **Jaebeol (conglomérats)** : Loyalité entreprise\n- **Heures travail** : 2.024 heures/an\n- **Compétition** : Performance individuelle\n- **Innovation** : Recherche permanente\n\n**Valeurs sociales :**\n1. **Gwangye** (relations personnelles)\n2. **Nunchi** (intuition sociale)\n3. **Jeong** (attachement émotionnel)\n4. **Han** (résilience collective)\n\n## 4. Les fondements historiques\n\n### 4.1 Histoire pré-moderne : l'héritage confucéen\n\n**Périodes clés :**\n- **Trois Royaumes** (57 av. J.-C. - 668) : Goguryeo, Baekje, Silla\n- **Unification Silla** (668-935) : Bouddhisme, culture\n- **Goryeo** (918-1392) : Nom 'Corée', invention imprimerie\n- **Joseon** (1392-1910) : Confucianisme, alphabet hangul\n\n**Héritages culturels :**\n- **Confucianisme** : Structure sociale\n- **Bouddhisme** : Spiritualité\n- **Shamanisme** : Traditions locales\n- **Hangul** : Alphabet scientifique\n\n### 4.2 Colonisation japonaise (1910-1945)\n\n**Impacts économiques :**\n- **Industrialisation forcée**\n- **Infrastructures** : Chemins de fer, ports\n- **Exploitation** : Ressources, main-d'œuvre\n- **Modernisation** limitée mais réelle\n\n**Conséquences sociales :**\n- **Traumatisme national**\n- **Volonté d'indépendance**\n- **Esprit de résistance**\n- **Désir de développement**\n\n### 4.3 Guerre de Corée (1950-1953) et division\n\n**Dévastation économique :**\n- **PIB/habitant** : \\\\$67 en 1953\n- **Infrastructures détruites** : 80%\n- **Population déplacée** : 5 millions\n- **Aide internationale** nécessaire\n\n**Division politique :**\n- **38e parallèle** : Frontière\n- **Régime communiste** (Nord)\n- **Régime capitaliste** (Sud)\n- **Compétition idéologique**\n\n### 4.4 Dictatures et développement (1961-1987)\n\n**Park Chung-hee (1961-1979) :**\n- **Coups d'État** : Prise pouvoir militaire\n- **Planification économique** : Plans quinquennaux\n- **Industrialisation lourde** : Acier, chimie, construction navale\n- **Croissance** : 10%/an\n\n**Controverse :**\n- **Développement économique** rapide\n- **Répression politique** sévère\n- **Inégalités sociales** croissantes\n- **Dette extérieure** importante\n\n### 4.5 Démocratisation et globalisation (1987-2024)\n\n**Transition démocratique :**\n- **Mouvements étudiants** 1987\n- **Premières élections libres** 1988\n- **Consolidation démocratique**\n- **Alternances politiques**\n\n**Crise asiatique 1997 :**\n- **Faillites entreprises**\n- **Intervention FMI** : \\\\$58 milliards\n- **Réformes structurelles**\n- **Résilience économique**\n\n## 5. Le système économique\n\n### 5.1 Modèle de développement : le capitalisme dirigé\n\n**Caractéristiques :**\n\n```mermaid\ngraph TD\n    A[Capitalisme dirigé sud-coréen] --> B[État stratège]\n    A --> C[Jaebeol]\n    A --> D[Main-d'œuvre]\n    A --> E[Exportations]\n    \n    B --> B1[Plans quinquennaux]\n    B --> B2[Subventions]\n    B --> B3[Protectionnisme]\n    B --> B4[Recherche]\n    \n    C --> C1[Samsung]\n    C --> C2[Hyundai]\n    C --> C3[LG]\n    C --> C4[SK]\n    \n    D --> D1[Éducation]\n    D --> D2[Discipline]\n    D --> D3[Innovation]\n    \n    E --> E1[Produits finis]\n    E --> E2[Technologie]\n    E --> E3[Marques globales]\n```\n\n### 5.2 Rôle de l'État : le pilote économique\n\n**Instruments étatiques :**\n- **Ministère du Commerce et de l'Industrie**\n- **Banque de Corée**\n- **Instituts de recherche** : KIST, KIET\n- **Sociétés publiques** : POSCO, KEPCO\n\n**Politiques industrielles :**\n1. **Années 1960** : Industries légères (textile)\n2. **Années 1970** : Industries lourdes (chimie, acier)\n3. **Années 1980** : Industries high-tech (électronique)\n4. **Années 2000** : Économie créative (K-pop, jeux vidéo)\n\n### 5.3 Les Jaebeol : moteurs de la croissance\n\n**Définition :** Conglomérats familiaux diversifiés\n\n**Top 5 Jaebeol (2024) :**\n1. **Samsung** : \\\\$365 milliards CA (électronique, construction, finance)\n2. **Hyundai Motor** : \\\\$120 milliards CA (automobile, construction)\n3. **SK Group** : \\\\$140 milliards CA (énergie, chimie, télécoms)\n4. **LG Group** : \\\\$110 milliards CA (électronique, chimie)\n5. **Lotte** : \\\\$75 milliards CA (distribution, chimie, construction)\n\n**Caractéristiques :**\n- **Diversification** : Multi-sectorielle\n- **Intégration verticale**\n- **Relations État-entreprise**\n- **Exportations concentrées**\n\n### 5.4 Petites et moyennes entreprises\n\n**Rôle croissant :**\n- **Nombre** : 3,5 millions\n- **Emplois** : 80% de l'emploi\n- **Innovation** : Startups technologiques\n- **Défis** : Concurrence des Jaebeol\n\n**Politiques de soutien :**\n- **Crédits préférentiels**\n- **Incubateurs**\n- **Achat public garanti**\n- **Formation**\n\n## 6. Le modèle de développement\n\n### 6.1 Phases du développement économique\n\n```mermaid\ntimeline\ntitle Phases du développement sud-coréen\n    1953-1961 : Reconstruction\n        : Aide internationale\n        : PIB/hab $67\n    1962-1979 : Take-off industriel\n        : Plans quinquennaux\n        : Croissance 10%/an\n    1980-1996 : High-tech\n        : Électronique\n        : Démocratisation\n    1997-2008 : Post-crise\n        : Réformes FMI\n        : Digitalisation\n    2009-2024 : Économie créative\n        : Soft power\n        : Vieillissement\n```\n\n### 6.2 Indicateurs de performance\n\n**Croissance économique :**\n- **1960-2020** : Croissance moyenne 7%/an\n- **PIB 2024** : \\\\$1,8 trillion (12ème mondial)\n- **PIB/habitant** : \\\\$35.000\n- **Transformation** : Pays pauvre → pays développé\n\n**Structure économique (2024) :**\n- **Primaire** : 2% (agriculture, pêche)\n- **Secondaire** : 38% (industrie, construction)\n- **Tertiaire** : 60% (services)\n\n### 6.3 Spécialisations sectorielles\n\n**Industries clés :**\n\n**Électronique :**\n- **Samsung Electronics** : 1er mondial smartphones\n- **LG Electronics** : TV, électroménager\n- **Semiconduteurs** : 20% du marché mondial\n\n**Automobile :**\n- **Hyundai-Kia** : 5ème constructeur mondial\n- **Production** : 3,5 millions véhicules/an\n- **Exportations** : 70% de la production\n\n**Construction navale :**\n- **HD Hyundai** : 1er mondial\n- **Samsung Heavy** : 2ème mondial\n- **Technologie** : Navires LNG, plates-formes\n\n**Chimie :**\n- **LG Chem** : Batteries électriques\n- **SK Innovation** : Pétrochimie\n- **Samsung SDI** : Électronique chimique\n\n### 6.4 Innovation et R&D\n\n**Investissements recherche :**\n- **Dépenses R&D** : 4,6% du PIB (2ème OCDE)\n- **Chercheurs** : 15/1000 actifs\n- **Brevet** : 1er mondial brevets/habitant\n- **Universités** : KAIST, POSTECH, Seoul National\n\n**Secteurs d'innovation :**\n1. **5G et télécoms** : Samsung, LG\n2. **Batteries** : LG Chem, Samsung SDI\n3. **Biotechnologie** : Celltrion, Samsung Biologics\n4. **Robotique** : Hyundai Robotics\n5. **Espace** : KARI (Agence spatiale)\n\n## 7. Défis actuels et perspectives\n\n### 7.1 Défis structurels\n\n**Vieillissement démographique :**\n- **Taux fécondité** : 0,72 (plus bas monde)\n- **Âge médian** : 45 ans\n- **Projection 2050** : 40% +65 ans\n- **Pension** : Système sous pression\n\n**Inégalités sociales :**\n- **Coefficient Gini** : 0,36\n- **Jeunes chômage** : 10%\n- **Contrats précaires** : 35% travailleurs\n- **Suicides** : Taux élevé (25/100.000)\n\n**Dépendance extérieure :**\n- **Énergie** : 95% importée\n- **Matériaux stratégiques** : Lithium, cobalt\n- **Conjoncture mondiale** : Exportations 40% PIB\n- **Géopolitique** : Chine, États-Unis\n\n### 7.2 Stratégies d'adaptation\n\n**Plan Korea Vision 2030 :**\n1. **Économie inclusive** : Réduction inégalités\n2. **Innovation verte** : Neutralité carbone 2050\n3. **Digitalisation** : Société 5.0\n4. **Sécurité sociale** : Protection universelle\n\n**Nouvelles industries :**\n- **Véhicules électriques** : Objectif 33% marché 2030\n- **Hydrogène** : Économie hydrogène\n- **Bio-santé** : Médecine personnalisée\n- **Intelligence artificielle** : Plan national IA\n\n### 7.3 Leçons pour la Côte d'Ivoire\n\n**Transposable :**\n1. **Investissement éducation**\n2. **Planification stratégique**\n3. **Promotion exportations**\n4. **Recherche innovation**\n\n**Non transposable :**\n1. **Contexte historique unique**\n2. **Aide américaine massive**\n3. **Système autoritaire initial**\n4. **Culture confucéenne spécifique**\n\n## 8. Étude de documents\n\n### 8.1 Analyse statistique\n\n**Tableau : Croissance économique comparée (1960-2024)**\n| Pays | PIB/hab 1960 | PIB/hab 2024 | Croissance annuelle |\n|------|--------------|--------------|---------------------|\n| **Corée Sud** | \\\\$67 | \\\\$35.000 | 7,1% |\n| **Côte d'Ivoire** | \\\\$150 | \\\\$2.500 | 2,5% |\n| **Ghana** | \\\\$180 | \\\\$2.800 | 2,3% |\n| **Vietnam** | \\\\$100 | \\\\$4.000 | 5,0% |\n\n### 8.2 Cartes et graphiques\n\n**Carte économique :**\n- **Zones industrielles** : Sud-est (Ulsan, Pohang)\n- **Centres R&D** : Daejeon (Science Town)\n- **Corridors logistiques** : Busan-Séoul\n- **Zones économiques libres** : Incheon, Busan-Jinhae\n\n### 8.3 Témoignages\n\n**Park Chung-hee (1963) :**\n'L'économie d'abord, la démocratie plus tard. Notre peuple doit d'abord manger à sa faim.'\n\n**Lee Kun-hee (Samsung, 1993) :**\n'Changez tout sauf votre femme et vos enfants. Nous devons innover ou mourir.'\n\n## 9. Conclusion\n\n### 9.1 Facteurs clés de réussite\n\n1. **État développemental** fort\n2. **Investissement éducation** massif\n3. **Culture travail** confucéenne\n4. **Orientation exportations**\n5. **Innovation continue**\n6. **Résilience crises**\n\n### 9.2 Limites du modèle\n\n1. **Inégalités sociales** persistantes\n2. **Vieillissement démographique**\n3. **Dépendance Jaebeol** excessive\n4. **Stress social** élevé\n5. **Relations Nord-Sud** tendues\n\n### 9.3 Perspectives\n\n**Scénarios 2040 :**\n- **Optimiste** : Leader mondial technologies vertes\n- **Réaliste** : Puissance moyenne vieillissante\n- **Pessimiste** : Déclin économique démographique\n\n**Message aux élèves ivoiriens :**\n'Le miracle coréen montre qu'un pays sans ressources naturelles peut se développer grâce au capital humain, à l'innovation et à une stratégie économique claire. La Côte d'Ivoire, avec ses ressources, pourrait combiner ses atouts naturels avec ces leçons pour créer son propre modèle de développement.'",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "La Corée du Sud est passée de PIB/habitant de $67 en 1953 à $35.000 en 2024 grâce à un modèle de développement unique",
+    "Les fondements naturels sont limités (peu de ressources) mais compensés par une géographie stratégique (carrefour maritime)",
+    "Les fondements humains incluent un système éducatif performant (1er PISA), une éthique confucéenne du travail et une population qualifiée",
+    "L'histoire a joué un rôle crucial : colonisation japonaise (industrialisation), guerre de Corée (dévastation), dictatures (développement rapide), démocratisation (globalisation)",
+    "Le système économique est un 'capitalisme dirigé' avec État stratège, Jaebeol (conglomérats) et orientation exportatrice",
+    "Le modèle de développement a connu 5 phases : reconstruction (1953-61), take-off industriel (1962-79), high-tech (1980-96), post-crise (1997-2008), économie créative (2009-2024)",
+    "Les défis actuels incluent le vieillissement démographique (taux fécondité 0,72), les inégalités sociales et la dépendance énergétique",
+    "Les leçons pour la Côte d'Ivoire incluent l'importance de l'éducation, la planification stratégique et l'innovation, mais le modèle n'est pas entièrement transposable"
+  ],
+  "exercise": {
+    "answer": "**RAPPORT AU PRÉSIDENT DE LA RÉPUBLIQUE**\n**Objet : Trois leçons du modèle sud-coréen pour accélérer le développement de la Côte d'Ivoire**\n**De : Conseil Économique et Social**\n**Date : 15 mars 2024**\n\n### **INTRODUCTION**\nLe miracle économique sud-coréen, qui a transformé un pays dévasté par la guerre en 12ème économie mondiale en 70 ans, offre des enseignements précieux. Ce rapport identifie trois leçons adaptables au contexte ivoirien, avec des propositions concrètes, des indicateurs de succès et une analyse des obstacles.\n\n### **LEÇON 1 : LE SYSTÈME ÉDUCATIF COMME MOTEUR DU DÉVELOPPEMENT**\n\n**Analyse du modèle coréen :**\nLa Corée du Sud consacre 4,6% de son PIB à l'éducation (vs 4,2% en Côte d'Ivoire). Son système est caractérisé par :\n1. **Excellence académique** : 1er en mathématiques PISA\n2. **Culture méritocratique** : Concours nationaux\n3. **Lien éducation-économie** : Formation adaptée aux besoins des entreprises\n4. **Recherche universitaire** : KAIST, POSTECH classées parmi les meilleures\n\n**Adaptation ivoirienne : Programme 'École 2030'**\n\n**Objectif :** Former 100.000 techniciens et ingénieurs d'ici 2030\n\n**Actions concrètes :**\n1. **Création de 5 lycées d'excellence scientifiques** (Abidjan, Yamoussoukro, Bouaké, San-Pédro, Korhogo)\n2. **Partenariats universités-entreprises** : Chaque grande entreprise (CEMOI, SIR, etc.) parraine une filière\n3. **Enseignement du coding** dès le collège\n4. **Bourses d'excellence** pour les filles en STEM (Sciences, Technologie, Ingénierie, Mathématiques)\n\n**Indicateurs de succès :**\n- **Court terme (2026)** : 20% d'augmentation des inscriptions en filières scientifiques\n- **Moyen terme (2030)** : 50% des diplômés du supérieur en STEM\n- **Long terme (2035)** : 3 universités ivoiriennes dans le top 1000 mondial\n\n**Obstacles anticipés :**\n- **Résistance corporatiste** des enseignants\n- **Coût** : 2% du budget national nécessaire\n- **Inégalités régionales** : Concentration à Abidjan\n- **Décalage culturel** : Valorisation des filières littéraires\n\n### **LEÇON 2 : LA SPÉCIALISATION INTELLIGENTE DANS DES CHAÎNES DE VALEUR**\n\n**Analyse du modèle coréen :**\nLa Corée du Sud a successivement spécialisé son économie :\n1. **Années 1960** : Textile et perruques\n2. **Années 1970** : Acier et construction navale\n3. **Années 1980** : Électronique et automobile\n4. **Années 2000** : Semi-conducteurs et batteries\n\nChaque spécialisation était planifiée, protégée temporairement, puis ouverte à la concurrence.\n\n**Adaptation ivoirienne : Stratégie '3 C pour 2030'**\n\n**Objectif :** Transformer localement 50% de chaque filière phare\n\n**Chaînes de valeur prioritaires :**\n1. **Cacao** : Fève → poudre → beurre → chocolat → cosmétiques\n2. **Cajou** : Noix brute → amande décortiquée → pâte → produits transformés\n3. **Coton** : Fibre → fil → tissu → vêtements → export\n\n**Actions concrètes :**\n1. **Fonds souverain de transformation** : 1% des recettes d'exportation\n2. **Parcs industriels spécialisés** : Yamoussoukro (cacao), Korhogo (cajou), Bouaké (coton)\n3. **Protection temporaire** : Droits de douane différenciés (0% sur machines, 20% sur produits finis)\n4. **Incitation à l'export** : Crédit d'impôt pour les entreprises exportatrices\n\n**Indicateurs de succès :**\n- **Court terme (2026)** : Taux de transformation du cacao à 40%\n- **Moyen terme (2030)** : Valeur ajoutée multipliée par 3 dans chaque filière\n- **Long terme (2035)** : 3 marques ivoiriennes mondiales (chocolat, cosmétiques, textile)\n\n**Obstacles anticipés :**\n- **Opposition OMC** aux protections douanières\n- **Manque de compétences** techniques\n- **Taille des marchés** locaux limitée\n- **Fluctuation des prix** mondiaux\n\n### **LEÇON 3 : L'INNOVATION SYSTÉMIQUE PAR LA RECHERCHE PUBLIQUE**\n\n**Analyse du modèle coréen :**\nLa Corée du Sud investit 4,6% de son PIB en R&D (2ème OCDE). Ses instituts de recherche publics (KIST, ETRI) ont développé des technologies clés ensuite transférées au privé.\n\n**Adaptation ivoirienne : Initiative 'Innovation Tropicale'**\n\n**Objectif :** Porter les dépenses de R&D de 0,3% à 1,5% du PIB d'ici 2030\n\n**Actions concrètes :**\n1. **Création de l'INRA-CI** (Institut National de Recherche Agronomique de Côte d'Ivoire) sur le modèle français\n2. **Pôles de compétitivité régionaux** :\n   - **Cacao innovant** à Yamoussoukro\n   - **Santé tropicale** à Abidjan\n   - **Énergies renouvelables** à Korhogo\n   - **Digital agricole** à Bouaké\n3. **Crédit impôt recherche** : 30% des dépenses de R&D déductibles\n4. **Partenariats Sud-Sud** : Avec Corée du Sud, Brésil, Inde\n\n**Indicateurs de succès :**\n- **Court terme (2026)** : 100 brevets déposés par an\n- **Moyen terme (2030)** : 1% du PIB en R&D\n- **Long terme (2035)** : 1 innovation majeure commercialisée (ex: cacao résistant à la sécheresse)\n\n**Obstacles anticipés :**\n- **Fuite des cerveaux** vers l'étranger\n- **Court-termisme politique**\n- **Difficulté de transfert** recherche-entreprise\n- **Financement** incertain\n\n### **CONCLUSION ET RECOMMANDATIONS PRIORITAIRES**\n\n**Synthèse des trois leçons :**\n1. **Éduquer** pour créer le capital humain\n2. **Spécialiser** pour créer la valeur ajoutée\n3. **Innover** pour créer l'avantage compétitif\n\n**Recommandations immédiates :**\n1. **Lancer dès 2025** le programme 'École 2030' avec un budget de 100 milliards FCFA\n2. **Créer en 2025** le Fonds Souverain de Transformation avec 500 milliards FCFA\n3. **Établir en 2025** l'INRA-CI avec un budget de 50 milliards FCFA\n\n**Message final :**\n'La Corée du Sud nous montre qu'un pays sans ressources peut se développer par l'intelligence. La Côte d'Ivoire, avec ses ressources, pourrait faire encore mieux en combinant ses atouts naturels avec ces stratégies d'intelligence économique.'\n\n---\n\n**Annexes :**\n1. Étude comparative Corée du Sud / Côte d'Ivoire\n2. Budget détaillé des propositions\n3. Calendrier de mise en œuvre\n4. Liste des partenaires techniques potentiels",
+    "question": "Imaginez que vous êtes conseiller économique du Président de la République de Côte d'Ivoire. Vous devez rédiger un rapport proposant 3 leçons concrètes que la Côte d'Ivoire pourrait tirer du modèle sud-coréen pour accélérer son développement. Votre rapport doit : 1) analyser un aspect spécifique du modèle coréen ; 2) proposer une adaptation au contexte ivoirien ; 3) inclure des indicateurs de succès mesurables ; 4) anticiper les obstacles potentiels. Structurez votre réponse en 4 parties distinctes."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel était le PIB par habitant de la Corée du Sud en 1953 ?",
+      "options": [
+        "$67",
+        "$167",
+        "$267",
+        "$367"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel pourcentage du territoire sud-coréen est montagneux ?",
+      "options": [
+        "50%",
+        "60%",
+        "70%",
+        "80%"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel est le taux de fécondité en Corée du Sud en 2024 ?",
+      "options": [
+        "0,72",
+        "1,22",
+        "1,72",
+        "2,22"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle période correspond au 'take-off industriel' en Corée du Sud ?",
+      "options": [
+        "1953-1961",
+        "1962-1979",
+        "1980-1996",
+        "1997-2008"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel pourcentage du PIB la Corée du Sud consacre-t-elle à la R&D ?",
+      "options": [
+        "2,6%",
+        "3,6%",
+        "4,6%",
+        "5,6%"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel conglomérat sud-coréen est le premier mondial pour les smartphones ?",
+      "options": [
+        "LG",
+        "Hyundai",
+        "Samsung",
+        "SK"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel président sud-coréen a initié le développement économique rapide ?",
+      "options": [
+        "Syngman Rhee",
+        "Park Chung-hee",
+        "Chun Doo-hwan",
+        "Roh Tae-woo"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel pourcentage de l'énergie est importé en Corée du Sud ?",
+      "options": [
+        "75%",
+        "85%",
+        "95%",
+        "100%"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel est le principal héritage culturel ayant influencé le développement sud-coréen ?",
+      "options": [
+        "Bouddhisme",
+        "Confucianisme",
+        "Christianisme",
+        "Shamanisme"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel port sud-coréen est le 6ème mondial ?",
+      "options": [
+        "Incheon",
+        "Busan",
+        "Ulsan",
+        "Pohang"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

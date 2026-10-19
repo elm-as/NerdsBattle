@@ -1,0 +1,280 @@
+{
+  "id": "physique-terminale-puissance-en-courant-alternatif",
+  "title": "Puissance en courant alternatif",
+  "summary": "Un élève de Terminale C, dont le père travailne à la Compagnie Ivoirienne d'Électricité (CIE), s'interroge sur les factures d'électricité. Il remarque que la puissance est facturée en kilowatt-heure (kWh), mais sait que la puissance en courant alternatif est plus complexe à calculer qu'en continu. De plus, il a entendu parler des \"pertes en ligne\" et du transport sous haute tension. Pour comprendre les enjeux économiques et techniques de la distribution d'électricité en Côte d'Ivoire, il étudie avec son gro",
+  "lesson": "## 1. Puissance instantanée en courant alternatif\n\nPour un dipôle soumis à une tension $u(t) = U_m \\\\cos(\\\\omega t)$ et parcouru par un courant $i(t) = I_m \\\\cos(\\\\omega t - \\\\varphi)$ (où $\\\\varphi$ est le déphasage de $u$ par rapport à $i$), la **puissance instantanée** $p(t)$ reçue par le dipôle est :\n$$p(t) = u(t) \\\\, i(t) = U_m I_m \\\\cos(\\\\omega t) \\\\cos(\\\\omega t - \\\\varphi)$$\n\nEn utilisant une identité trigonométrique, on peut montrer que :\n$$p(t) = U I \\\\cos\\\\varphi \\\\, [1 + \\\\cos(2\\\\omega t)] + U I \\\\sin\\\\varphi \\\\, \\\\sin(2\\\\omega t)$$\noù $U = U_m/\\\\sqrt{2}$ et $I = I_m/\\\\sqrt{2}$ sont les valeurs efficaces.\n\n## 2. Puissance moyenne (ou puissance active) $P$\n\nLa **puissance moyenne** $P$ sur une période est la valeur moyenne de $p(t)$ :\n$$P = \\\\langle p(t) \\\\rangle = \\\\frac{1}{T} \\\\int_0^T p(t) \\\\, dt$$\n\nEn calculant cette moyenne, le terme en $\\\\cos(2\\\\omega t)$ et le terme en $\\\\sin(2\\\\omega t)$ ont une moyenne nulle. Il reste :\n$$P = U I \\\\cos\\\\varphi$$\n\nC'est la formule **fondamentale** de la puissance moyenne en régime sinusoïdal.\n\n- **$P$** : Puissance active (en watt, W). C'est la puissance réellement transformée en une autre forme d'énergie (thermique, mécanique, lumineuse...). C'est elle qui est facturée.\n- **$U I$** : Puissance apparente $S$ (en volt-ampère, VA). C'est la puissance « en apparence », liée aux valeurs efficaces.\n- **$\\\\cos\\\\varphi$** : Facteur de puissance.\n\n## 3. Puissance moyenne pour des dipôles idéaux\n\n- **Résistor pur ($\\\\varphi = 0$)** : $P_R = U I = R I^2 = \\\\frac{U^2}{R}$. Toute la puissance est dissipée par effet Joule.\n- **Bobine parfaite ($\\\\varphi = +\\\\frac{\\\\pi}{2}$)** : $P_L = U I \\\\cos(\\\\frac{\\\\pi}{2}) = 0$. Une bobine pure ne consomme pas de puissance active ; elle emmagasine et restitue alternativement de l'énergie (puissance réactive).\n- **Condensateur parfait ($\\\\varphi = -\\\\frac{\\\\pi}{2}$)** : $P_C = U I \\\\cos(-\\\\frac{\\\\pi}{2}) = 0$. Un condensateur pur ne consomme pas de puissance active non plus.\n\n## 4. Puissance apparente $S$ et puissance réactive $Q$\n\n**Puissance apparente** : $S = U I$ (en VA). Elle caractérise la « taille » apparente de l'installation du point de vue des contraintes sur les générateurs et les lignes.\n\n**Puissance réactive** : $Q = U I \\\\sin\\\\varphi$ (en volt-ampère réactif, var). Elle correspond à l'énergie alternativement échangée (emmagasinée et restituée) entre la source et les composants réactifs (bobines, condensateurs). Elle ne produit pas de travail utile, mais elle doit être fournie par la source, ce qui engendre des pertes supplémentaires dans les lignes.\n\n**Relation entre $P$, $Q$ et $S$** :\n$$S^2 = P^2 + Q^2 \\\\quad \\\text{(triangle des puissances)}$$\nEt $\\\\cos\\\\varphi = \\\\frac{P}{S}$, $\\\\sin\\\\varphi = \\\\frac{Q}{S}$.\n\n**Description du schéma 1 : Triangle des puissances**\nReprésenter un triangle rectangle. L'hypoténuse, de longueur $S$, est la puissance apparente. Le côté adjacent à l'angle $\\\\varphi$, de longueur $P$, est la puissance active. Le côté opposé, de longueur $Q$, est la puissance réactive. L'angle entre $S$ et $P$ est $\\\\varphi$. Légender : \"$S = UI$\", \"$P = UI\\\\cos\\\\varphi$\", \"$Q = UI\\\\sin\\\\varphi$\", \"$\\\\cos\\\\varphi = P/S$\".\n\n## 5. Facteur de puissance $\\\\cos\\\\varphi$ et son intérêt\n\nLe facteur de puissance est le rapport entre la puissance active $P$ et la puissance apparente $S$ : $\\\\cos\\\\varphi = P/S$.\n\n**Valeurs** : $0 \\\\leq \\\\cos\\\\varphi \\\\leq 1$.\n- $\\\\cos\\\\varphi = 1$ : Charge purement résistive (pas de puissance réactive). C'est le cas idéal.\n- $\\\\cos\\\\varphi = 0$ : Charge purement réactive (pas de puissance active).\n\n**Intérêt d'un $\\\\cos\\\\varphi$ proche de 1** :\n1.  **Pour le distributeur (CIE)** : Les pertes par effet Joule dans les lignes de transport et de distribution sont proportionnelles au **carré du courant** $I$ qui les traverse ($P_{pertes} = R_{ligne} I^2$). Or, pour une puissance active $P$ donnée à fournir au client, le courant $I = \\\\frac{P}{U \\\\cos\\\\varphi}$. Donc, si $\\\\cos\\\\varphi$ est faible, le courant $I$ est plus grand pour la même puissance $P$, ce qui augmente les pertes en ligne.\n2.  **Pour le producteur** : Les alternateurs des centrales (hydroélectriques, thermiques) et les transformateurs sont dimensionnés pour une puissance apparente $S$ maximale. Si les clients ont un mauvais $\\\\cos\\\\varphi$, ils \"consomment\" de la puissance réactive qui limite la puissance active disponible sur le réseau sans dépasser la limite en $S$.\n\n**Amélioration du facteur de puissance (relèvement de $\\\\cos\\\\varphi$)** : Pour les installations industrielles avec de nombreux moteurs (inductifs, donc $\\\\varphi > 0$, $\\\\cos\\\\varphi$ faible), on branche en parallèle des **batteries de condensateurs**. Ces derniers fournissent la puissance réative inductive $Q_C$ négative qui compense la puissance réactive inductive $Q_L$ positive des moteurs. La puissance réactive totale vue par le réseau diminue, donc $\\\\cos\\\\varphi$ augmente.\n\n## 6. Transport de l'énergie électrique sous haute tension\n\n**Problème** : Le transport de l'électricité sur de longues distances (ex : du barrage de Soubré à Abidjan) entraîne des pertes par effet Joule dans les lignes.\n\n**Solution** : Transporter sous **très haute tension (THT)**.\n\n**Démonstration** : Soit une ligne de résistance $R$, transportant une puissance active $P$ vers une charge de facteur de puissance $\\\\cos\\\\varphi$. Le courant en ligne est $I = \\\\frac{P}{U \\\\cos\\\\varphi}$.\nLes pertes en ligne sont : $P_{pertes} = R I^2 = R \\\\left( \\\\frac{P}{U \\\\cos\\\\varphi} \\\\right)^2 = \\\\frac{R P^2}{U^2 \\\\cos^2\\\\varphi}$.\n\nPour une puissance $P$ donnée et un $\\\\cos\\\\varphi$ fixé, les pertes sont **inversement proportionnelles au carré de la tension de transport $U$**.\n$$P_{pertes} \\\\propto \\\\frac{1}{U^2}$$\n\n**Conséquence** : En multipliant la tension par 10 (ex: passer de 20 kV à 200 kV), les pertes sont divisées par 100 ! C'est pourquoi on utilise des tensions de 225 kV ou 400 kV pour le transport longue distance. Des transformateurs élèvent la tension à la sortie des centrales et l'abaissent près des zones de consommation.\n\n**Description du schéma 2 : Chaîne de transport de l'électricité**\nReprésenter un schéma en trois étapes de gauche à droite. (1) Centrale électrique (barrage ou thermique) produisant une tension moyenne $U_1$ (ex: 20 kV). (2) Transformateur élévateur : flèche vers le haut, sortie à **Haute Tension** $U_2$ (ex: 225 kV). Lignes à haute tension sur pylônes. (3) Transformateur abaisseur en périphérie de ville : flèche vers le bas, sortie à tension moyenne $U_3$ (ex: 20 kV). Puis nouveaux transformateurs pour la basse tension (230/400 V) pour les clients. Légender : \"Transport longue distance sous HT (faibles pertes)\", \"Distribution locale sous BT\".\n\n## 7. Application au contexte ivoirien\n\n- **Réseau interconnecté** de la CIE : Transport sous 225 kV et 90 kV.\n- **Facteur de puissance** : Les gros clients industriels (usines, mines) sont incités à maintenir un $\\\\cos\\\\varphi$ élevé (souvent >0,9) pour éviter des pénalités financières.\n- **Enjeu** : Réduire les pertes techniques (actuellement ~12% du total produit) pour améliorer l'efficacité du système électrique.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Puissance active (moyenne) : $P = U I \\\\cos\\\\varphi$ (en W).",
+    "Puissance apparente : $S = U I$ (en VA). Puissance réactive : $Q = U I \\\\sin\\\\varphi$ (en var).",
+    "Facteur de puissance : $\\\\cos\\\\varphi = P/S$. Il doit être proche de 1.",
+    "Pertes en ligne : $P_{pertes} = R I^2 \\\\propto 1/U^2$. D'où l'intérêt du transport sous haute tension.",
+    "On relève le $\\\\cos\\\\varphi$ d'une charge inductive en ajoutant des condensateurs en parallèle."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La puissance moyenne (active) consommée par un dipôle en régime sinusoïdal est donnée par :",
+      "options": [
+        "$P = U I$",
+        "$P = U I \\\\cos\\\\varphi$",
+        "$P = U I \\\\sin\\\\varphi$",
+        "$P = R I^2$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "L'unité de la puissance apparente est le :",
+      "options": [
+        "Watt (W)",
+        "Volt-ampère (VA)",
+        "Volt-ampère réactif (var)",
+        "Joule (J)"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Pour une charge purement résistive, le facteur de puissance vaut :",
+      "options": [
+        "0",
+        "0,5",
+        "1",
+        "Variable"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "La puissance réactive est associée à :",
+      "options": [
+        "L'effet Joule dans les résistances",
+        "L'énergie transformée en travail utile",
+        "L'énergie échangée et stockée dans les composants réactifs",
+        "La puissance facturée aux clients"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Pour réduire les pertes en ligne lors du transport d'électricité, on :",
+      "options": [
+        "Diminue la tension de transport",
+        "Augmente la tension de transport",
+        "Augmente le courant",
+        "Utilise des fils de plus grande résistance"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Le facteur de puissance d'une installation est amélioré (relevé) en ajoutant en parallèle :",
+      "options": [
+        "Des résistances",
+        "Des bobines",
+        "Des condensateurs",
+        "Des diodes"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Si le facteur de puissance d'une charge diminue (à puissance active constante), le courant en ligne :",
+      "options": [
+        "Diminue",
+        "Augmente",
+        "Reste constant",
+        "Devient nul"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "La relation entre puissance active $P$, réactive $Q$ et apparente $S$ est :",
+      "options": [
+        "$S = P + Q$",
+        "$S^2 = P^2 + Q^2$",
+        "$P = S \\\\times Q$",
+        "$Q = P/S$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "En Côte d'Ivoire, le transport de l'électricité du barrage de Soubré vers Abidjan se fait principalement sous une tension de :",
+      "options": [
+        "230 V",
+        "20 kV",
+        "225 kV",
+        "1 kV"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Une charge inductive ($\\\\varphi > 0$) a un facteur de puissance $\\\\cos\\\\varphi$. Pour le compenser, on ajoute une charge capacitive qui fournit une puissance réactive :",
+      "options": [
+        "Positive",
+        "Négative",
+        "Nulle",
+        "Active"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "La puissance active P s'exprime en :",
+      "options": [
+        "Volt-ampère (VA)",
+        "Watt (W)",
+        "Volt-ampère réactif (VAR)",
+        "Joule (J)"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Pour un condensateur pur en courant alternatif :",
+      "options": [
+        "P = UI",
+        "P = 0 et Q > 0",
+        "P = 0 et Q < 0",
+        "P = UI et Q = 0"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Le facteur de puissance est défini par :",
+      "options": [
+        "P/Q",
+        "P/S",
+        "Q/S",
+        "S/P"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Pour réduire les pertes en ligne, on :",
+      "options": [
+        "Augmente le courant",
+        "Augmente la tension",
+        "Diminue la tension",
+        "Augmente la résistance"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "La relation entre P, Q et S est :",
+      "options": [
+        "S = P + Q",
+        "S² = P² + Q²",
+        "P² = S² + Q²",
+        "Q² = P² + S²"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Pour compenser l'énergie réactive inductive, on ajoute :",
+      "options": [
+        "Des résistances",
+        "Des condensateurs",
+        "Des bobines",
+        "Des transformateurs"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Si cos φ = 0,8 et P = 4 kW, alors S = :",
+      "options": [
+        "3,2 kVA",
+        "5 kVA",
+        "4 kVA",
+        "6,4 kVA"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Les pertes par effet Joule dans une ligne sont proportionnelles à :",
+      "options": [
+        "I",
+        "I²",
+        "1/I",
+        "1/I²"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Pour une même puissance P, si on double U, le courant I :",
+      "options": [
+        "Double",
+        "Diminue de moitié",
+        "Est divisé par 4",
+        "Reste inchangé"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "L'unité de la puissance réactive est :",
+      "options": [
+        "Watt",
+        "Volt-ampère",
+        "Volt-ampère réactif",
+        "Joule"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "espagnol-seconde-l-expression-de-l-ordre",
+  "title": "L'expression de l'ordre",
+  "summary": "Au Lycée Moderne Nangui Abrogoua d'Adjamé, l'environnement scolaire est pollué : nuisances sonores, ordures, urines, etc. Les élèves de la seconde C qui apprennent l'espagnol décident de lutter contre cette pollution à leur manière. En classe, pour rédiger des affiches de sensibilisation, ils identifient l'ordre, l'utilisent et l'expriment.",
+  "lesson": "## 1. Introduction à l'expression de l'ordre\n\nL'ordre (la orden) peut prendre différentes formes selon le contexte :\n- **Impératif direct** : ¡Limpia tu mesa!\n- **Conseil/suggestion** : Deberías limpiar tu mesa.\n- **Obligation indirecte** : Es necesario limpiar tu mesa.\n\n## 2. L'impératif affirmatif (tú, usted, vosotros)\n\n**Formation :**\n- **Tú** (informel) : 3e personne du présent : hablar → habla\n- **Usted** (formel) : 3e personne du subjonctif : hable\n- **Vosotros** (Espagne) : infinitif -r + -d : hablar → hablad\n\n**Exemples :**\n- Tú : Recoge la basura.\n- Usted : Recoja la basura, por favor.\n- Vosotros : Recoged la basura.\n\n## 3. L'impératif négatif\n\n**Formation :** Subjonctif présent\n- Tú : No hables.\n- Usted : No hable.\n- Vosotros : No habléis.\n\n**Exemples environnement :**\n- No tires basura en el suelo.\n- No hagas ruido en la biblioteca.\n\n## 4. Expression de la consigne\n\n**Pour des instructions précises :**\n- Primero, separa los desechos.\n- Después, deposita cada tipo en su contenedor.\n- Finalmente, lava tus manos.\n\n**Marqueurs :** primero, luego, después, finalmente, a continuación\n\n## 5. Expression de la sollicitation\n\n**Formules polies :**\n- ¿Podría ayudarme a limpiar?\n- ¿Sería tan amable de...?\n- Le ruego que...\n- ¿Me hace el favor de...?\n\n## 6. Expression du conseil et de la suggestion\n\n**Conseil :**\n- Te aconsejo que recicles.\n- Sería bueno que uses menos plástico.\n- Deberías plantar árboles.\n\n**Suggestion :**\n- ¿Por qué no organizamos una jornada de limpieza?\n- Podríamos crear un club ecológico.\n- Sugiero que hagamos carteles.\n\n## 7. Expression de la prévention\n\n**Pour éviter des problèmes :**\n- Para evitar la contaminación, recicla.\n- Con el fin de proteger el medio ambiente, ahorra agua.\n- A fin de que tengamos una escuela limpia, no tires basura.\n\n## 8. Persuasion vs dissuasion\n\n**Persuader :**\n- Si reciclamos, tendremos un planeta mejor.\n- Vale la pena hacer el esfuerzo.\n- Piensa en las futuras generaciones.\n\n**Dissuader :**\n- No tiene sentido contaminar.\n- No vale la pena ensuciar la escuela.\n- Si contaminas, perjudicas a todos.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Distinguer impératif affirmatif et négatif",
+    "Adapter le registre (tú/usted) selon le contexte",
+    "Utiliser les connecteurs pour structurer les consignes",
+    "Justifier les ordres pour plus d'efficacité"
+  ],
+  "exercise": {
+    "answer": "**Cartel de sensibilización:**\n\n¡CUIDEMOS NUESTRO LICEO!\n\n1. **Órdenes directas:**\n   - ¡Recoge tu basura!\n   - Deposita los desechos en los contenedores adecuados.\n   - No tires papeles al suelo.\n\n2. **Consejos:**\n   - Deberías usar una botella reutilizable.\n   - Sería bueno que apagues las luces al salir.\n\n3. **Sugerencia:**\n   - ¿Por qué no organizamos equipos de limpieza por clase?\n\n4. **Persuasión:**\n   - Si todos colaboramos, tendremos un entorno agradable para estudiar.\n\n5. **Justificación ecológica:**\n   - Un liceo limpio protege nuestra salud y muestra respeto por la comunidad. Además, reciclar ayuda a conservar los recursos naturales de Costa de Marfil.\n\n¡Tu acción cuenta! Juntos podemos hacer la diferencia.",
+    "question": "Rédige une affiche de sensibilisation en espagnol (10-12 phrases) pour lutter contre la pollution au Lycée Nangui Abrogoua. Inclus : 1) 3 ordres directs (impératif), 2) 2 conseils, 3) 1 suggestion, 4) 1 argument de persuasion, 5) Une justification écologique. Utilise différents registres."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Comment dire 'Nettoyez' à une personne avec vouvoiement ?",
+      "options": [
+        "Limpia",
+        "Limpie",
+        "Limpiad",
+        "Limpiá"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle forme est un conseil ?",
+      "options": [
+        "¡Limpia!",
+        "Debes limpiar",
+        "No limpies",
+        "Limpiad"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Comment dire 'Ne jetez pas' (tú) ?",
+      "options": [
+        "No tires",
+        "No tire",
+        "No tiréis",
+        "No tirar"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel connecteur introduit une suggestion ?",
+      "options": [
+        "Primero",
+        "Porque",
+        "¿Por qué no...?",
+        "Finalmente"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "francais-cinquieme-grammaire-le-groupe-nominal",
+  "title": "Grammaire : Le Groupe Nominal",
+  "summary": "Les élèves identifient les expansions du nom et le pluriel des noms composés.",
+  "lesson": "## Le Groupe Nominal\n\n### Les 3 expansions du nom\n1. Adjectif épithète : un livre intéressant\n2. Complément du nom : un livre de français\n3. Proposition relative : un livre qui parle de...\n\n### Pluriel des noms composés\n- Nom + Nom : les deux s'accordent (choux-fleurs)\n- Verbe + Nom : seul le nom s'accorde (tire-bouchons)\n- Préposition : seul le premier (arcs-en-ciel)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "3 expansions : adjectif, CDN, relative",
+    "Pluriel noms simples : règles générales + exceptions",
+    "Pluriel noms composés : selon nature des mots",
+    "Déterminants variés"
+  ],
+  "exercise": {
+    "answer": "des choux-fleurs, des tire-bouchons, des arcs-en-ciel",
+    "question": "Donne le pluriel : un chou-fleur, un tire-bouchon, un arc-en-ciel."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans 'un livre de français', 'de français' est :",
+      "options": [
+        "Un adjectif",
+        "Un complément du nom",
+        "Une relative",
+        "Un COD"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Le pluriel de 'bijou' est :",
+      "options": [
+        "bijous",
+        "bijoux",
+        "bijoues",
+        "bijou"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

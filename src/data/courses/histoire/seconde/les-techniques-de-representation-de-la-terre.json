@@ -1,0 +1,149 @@
+{
+  "id": "histoire-seconde-les-techniques-de-representation-de-la-terre",
+  "title": "Les techniques de représentation de la Terre",
+  "summary": "Dans un monde où l'information géographique est omniprésente (GPS, cartes en ligne, images satellites), il est essentiel de comprendre comment la Terre, sphérique, est représentée sur des surfaces planes. Cette leçon aborde les choix techniques et politiques derrière ces représentations, en mettant en lumière comment les cartes peuvent véhiculer des visions du monde parfois biaisées, notamment dans une perspective postcoloniale.",
+  "lesson": "## Introduction\n\nLa représentation de la Terre sur une surface plane est un défi technique et scientifique ancien. Toute carte est une construction qui simplifie, sélectionne et parfois déforme la réalité. Comprendre ces techniques permet de décrypter les cartes de manière critique et de saisir comment elles influencent notre perception du monde, des territoires et des rapports de pouvoir.\n\n## I. Les techniques de projection : représentations et distorsions\n\n### A. Le problème fondamental\n- **Surface non développable** : Une sphère ne peut être mise à plat sans déformation (comme éplucher une orange)\n- **Choix des déformations** : Toute projection privilégie certains aspects (formes, surfaces, distances, directions) au détriment d'autres\n- **Enjeux politiques** : Les choix de projection ont historiquement servi des visions du monde (eurocentrisme avec la projection de Mercator)\n\n### B. Les trois grandes familles de projections\n\n#### 1. Projection cylindrique\n- **Principe** : Projection sur un cylindre tangent à l'équateur\n- **Exemple célèbre** : Projection de Mercator (1569), encore utilisée dans Google Maps\n- **Caractéristiques** : Conserve les angles (conforme), utile pour la navigation ; mais grossit démesurément les surfaces des hautes latitudes (l'Europe paraît plus grande que l'Afrique alors que l'Afrique est 3 fois plus étendue)\n- **Alternative critique** : Projection de Peters (1974), qui respecte les surfaces mais déforme les formes ; controversée car réaction politique à Mercator\n\n#### 2. Projection conique\n- **Principe** : Projection sur un cône tangent à un parallèle\n- **Utilisation** : Adaptée aux latitudes moyennes (comme l'Europe, l'Amérique du Nord)\n- **Caractéristiques** : Bonne conservation des distances le long des parallèles ; déformation croissante vers l'extérieur\n\n#### 3. Projection azimutale (ou plane)\n- **Principe** : Projection sur un plan tangent en un point\n- **Types** : Polaire (tangente à un pôle), équatoriale, oblique\n- **Caractéristiques** : Conserve les directions à partir du point de tangence ; utilisée pour les cartes des pôles ou les plans de ville\n- **Exemple symbolique** : Carte ONU (projection azimutale équidistante centrée sur le pôle Nord) qui montre la proximité des continents autour de l'Arctique\n\n### C. Projections « uniques » ou compromis\n- **Projection de Robinson** (1963) : Compromis esthétique, peu de déformations extrêmes, utilisée par le National Geographic pendant longtemps\n- **Projection de Winkel-Tripel** : Compromis actuellement privilégié par le National Geographic\n- **Projection de Goode** (1923) : Interrompue, préserve les surfaces mais crée des coupures océaniques\n\n## II. Les différents produits cartographiques\n\n### A. Du globe au plan : échelles et usages\n- **Le globe** : Représentation la plus fidèle, mais peu pratique, coûteuse, ne montre qu'une moitié à la fois\n- **Le planisphère** : Carte mondiale, résultat d'une projection\n- **La carte** : Représentation à moyenne ou petite échelle d'un pays, d'une région\n- **Le plan** : Représentation à grande échelle d'une ville, d'un quartier, d'un bâtiment\n\n### B. Les types de cartes selon leur contenu\n\n#### 1. Cartes topographiques\n- **Objectif** : Représenter le relief et les éléments physiques et humains avec précision\n- **Échelles** : Généralement grandes (ex : 1:25 000, 1:50 000)\n- **Utilisation** : Randonnée, aménagement, militaire\n- **Exemple ivoirien** : Cartes de l'Institut Géographique National (IGN) de Côte d'Ivoire\n\n#### 2. Cartes thématiques\n- **Objectif** : Illustrer un phénomène particulier (population, climat, économie, vote...)\n- **Techniques** : Figurés ponctuels, linéaires, de surface ; choroplèthes, cartes par cercles proportionnels, anamorphoses\n- **Enjeu** : Le choix des couleurs, des seuils et des figurés peut influencer la lecture (ex : cartes électorales)\n\n## III. Les composantes d'une carte : lire et critiquer\n\n### A. Les éléments marginaux (péritexte cartographique)\n- **Titre** : Sujet, espace, date\n- **Échelle** : Numérique (1:100 000) et/ou graphique ; indique le niveau de généralisation\n- **Légende** : Clé de lecture des signes et couleurs\n- **Orientation** : Flèche du nord (généralement nord géographique)\n- **Cartouche** : Encart avec informations complémentaires\n- **Sources et auteur** : Qui a produit la carte, avec quelles données, à quelle date ? Essentiel pour l'esprit critique\n\n### B. Les coordonnées géographiques et cartographiques\n- **Système de référence** : Latitudes (parallèles) et longitudes (méridiens) pour localiser un point\n- **Coordonnées cartographiques** : Systèmes locaux (comme UTM) pour les mesures précises\n- **Application** : Utilisation du GPS, géolocalisation\n\n## IV. Les nouvelles technologies de représentation\n\n### A. Révolution numérique\n- **Images satellitaires** : SPOT, Landsat, Sentinel ; permettent des analyses multi-temporelles (déforestation, urbanisation)\n- **Photographies aériennes** : Plus grande résolution\n- **SIG (Systèmes d'Information Géographique)** : Logiciels qui permettent de superposer, analyser et représenter des données géolocalisées (ex : QGIS, gratuit et open source)\n- **Cartographie participative** : OpenStreetMap, projets communautaires où les citoyens contribuent\n\n### B. Enjeux critiques et citoyens\n- **Accès aux données** : Données libres (open data) vs données privées (Google)\n- **Vie privée** : Traçage GPS, surveillance\n- **Pouvoir cartographique** : Qui a le droit de cartographier ? Les États, les entreprises, les communautés locales ?\n- **Contre-cartographies** : Cartes produites par des groupes marginalisés pour faire valoir leurs droits (ex : cartes des terres communautaires face aux concessions)\n\n## V. Étude de cas : La cartographie de la Côte d'Ivoire, de la colonie à l'indépendance\n\n### A. Cartes coloniales\n- **Objectifs** : Contrôle administratif, exploitation des ressources, découpage des cercles\n- **Biais** : Ignoraient souvent les connaissances spatiales locales, les toponymes autochtones\n- **Héritage** : Certaines frontières internes et routes suivent encore ces tracés\n\n### B. Cartes de l'État indépendant\n- **Enjeux** : Affirmation de la souveraineté, planification du développement, construction nationale\n- **Institutions** : Institut Géographique National (IGN), Bureau National d'Études Techniques et de Développement (BNETD)\n- **Défis** : Couverture cartographique complète, mise à jour, accès public\n\n### C. Cartes participatives contemporaines\n- **Exemples** : Cartographie des quartiers précaires d'Abidjan pour l'accès à l'eau ; cartes des risques d'inondation avec les habitants\n- **Outils** : OpenStreetMap, applications mobiles\n\n## VI. Activité pratique : Décrypter une carte\n\n### Analyser la carte « Population et densité en Côte d'Ivoire »\n1. **Éléments marginaux** : Titre, échelle, légende (quels seuils pour les densités ? pourquoi ces couleurs ?), sources (RGPH 2014), date\n2. **Contenu** : Que montre la carte ? Inégalités de peuplement (littoral vs nord), rôle des villes\n3. **Interprétation** : Quelles causes historiques, économiques, environnementales à cette répartition ?\n4. **Limites** : La carte montre-t-elle les dynamiques (migrations) ? Les données sont-elles récentes ?\n\n| Type de représentation | Avantages | Limites | Exemple d'usage |\n|------------------------|-----------|---------|-----------------|\n| Projection de Mercator | Angles conservés, navigation maritime | Grossissement des hautes latitudes, vision eurocentrée | Cartes marines, Google Maps (par défaut) |\n| Projection de Peters | Surfaces proportionnelles, justice cartographique | Formes très déformées, controversée politique | Éducation, militantisme pour une autre vision du monde |\n| Carte topographique | Précision, relief, détails | Complexité, nécessite apprentissage | Randonnée, aménagement du territoire |\n| Image satellite | Vue réelle, multi-temporelle | Interprétation nécessaire, coût | Surveillance environnementale, urbanisme |\n| Plan de ville | Grande échelle, orientation pratique | Limité à une zone restreinte | Déplacement urbain, tourisme |",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Toute carte est une représentation construite et simplifiée de la réalité, résultant de choix techniques (projection) et thématiques qui influencent la perception",
+    "Les projections cartographiques (cylindrique, conique, azimutale) impliquent nécessairement des distorsions ; la célèbre projection de Mercator grossit les zones tempérées au détriment des tropiques",
+    "Une carte se lit en analysant ses éléments marginaux (titre, échelle, légende, sources) qui fournissent le contexte nécessaire à une interprétation critique",
+    "Les nouvelles technologies (SIG, images satellitaires, cartographie participative) transforment la production et l'usage des cartes, ouvrant de nouvelles possibilités citoyennes"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle propriété la projection de Mercator conserve-t-elle ?",
+      "options": [
+        "Les surfaces",
+        "Les angles (elle est conforme)",
+        "Les distances",
+        "Les formes exactes de tous les continents"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Pourquoi dit-on que la projection de Mercator est eurocentrique ?",
+      "options": [
+        "Parce qu'elle place l'Europe au centre de la carte",
+        "Parce qu'elle grossit démesurément les surfaces des hautes latitudes (dont l'Europe) et minimise les régions tropicales",
+        "Parce qu'elle a été inventée en Europe",
+        "Parce qu'elle n'inclut pas l'Asie"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel élément n'est PAS typiquement un élément marginal d'une carte ?",
+      "options": [
+        "Le titre",
+        "La légende",
+        "L'échelle",
+        "La couleur bleue des océans"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle projection est dite « équivalente » ?",
+      "options": [
+        "Celle qui conserve les angles",
+        "Celle qui conserve les surfaces",
+        "Celle qui conserve les distances",
+        "Celle qui ne déforme rien"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "À quoi sert principalement un SIG (Système d'Information Géographique) ?",
+      "options": [
+        "À dessiner des cartes à la main",
+        "À stocker, analyser, visualiser et croiser des données géolocalisées",
+        "Uniquement à faire des images satellites",
+        "À prédire la météo"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle est la différence fondamentale entre une carte et un plan ?",
+      "options": [
+        "La carte est en couleur, le plan en noir et blanc",
+        "L'échelle : le plan a une échelle plus grande (plus de détails sur un espace restreint)",
+        "La carte montre le monde, le plan montre une ville",
+        "Il n'y a pas de différence"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Que signifie l'échelle 1:100 000 ?",
+      "options": [
+        "1 cm sur la carte = 100 000 cm (soit 1 km) sur le terrain",
+        "1 cm sur la carte = 100 000 km sur le terrain",
+        "La carte est 100 000 fois plus grande que la réalité",
+        "C'est l'échelle d'un planisphère"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel est un enjeu de la cartographie participative (comme OpenStreetMap) ?",
+      "options": [
+        "Elle est toujours moins précise que la cartographie officielle",
+        "Elle permet aux citoyens de contribuer à la connaissance de leur territoire et de faire valoir des informations locales",
+        "Elle est réservée aux experts",
+        "Elle utilise uniquement des images satellites anciennes"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Pourquoi l'analyse des sources (mentionnées sur une carte) est-elle importante ?",
+      "options": [
+        "Pour connaître le prix de la carte",
+        "Pour évaluer la fiabilité, la date et l'éventuel biais des données utilisées",
+        "Pour savoir qui a dessiné la carte",
+        "C'est une simple formalité"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Comment les nouvelles technologies ont-elles changé la cartographie ?",
+      "options": [
+        "Elles l'ont rendue obsolète",
+        "Elles ont permis une précision inédite, une mise à jour rapide et une diffusion massive (GPS, cartes en ligne)",
+        "Elles ont supprimé le besoin de projections",
+        "Elles ont uniformisé toutes les cartes"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

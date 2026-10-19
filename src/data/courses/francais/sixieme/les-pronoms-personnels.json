@@ -1,0 +1,58 @@
+{
+  "id": "francais-sixieme-les-pronoms-personnels",
+  "title": "Les pronoms personnels",
+  "summary": "Pour éviter les répétitions dans un texte, comment remplacer les noms ?",
+  "lesson": "## Les pronoms personnels\n\n### Qu'est-ce qu'un pronom ?\n\nUn pronom **remplace un nom** pour éviter les répétitions.\n\n**Sans pronom (répétitions) :**\n\"Kofi est en retard. Kofi court. Le professeur gronde Kofi.\"\n\n**Avec pronoms (mieux) :**\n\"Kofi est en retard. **Il** court. Le professeur **le** gronde.\"\n\n## Les pronoms personnels sujets\n\n**Singulier :**\n- **Je** : première personne (moi)\n- **Tu** : deuxième personne (toi)\n- **Il / Elle** : troisième personne (lui / elle)\n\n**Pluriel :**\n- **Nous** : première personne (nous)\n- **Vous** : deuxième personne (vous, ou politesse)\n- **Ils / Elles** : troisième personne (eux / elles)\n\n**Exemples :**\n- **Je** travaille à l'école.\n- **Tu** manges du riz.\n- **Il** joue au football.\n- **Nous** habitons à Abidjan.\n- **Vous** êtes gentils.\n- **Elles** chantent bien.\n\n## Les pronoms personnels compléments\n\n### Pronoms COD (Complément d'Objet Direct)\n\n**me, te, le/la, nous, vous, les**\n\nIls répondent à la question **\"qui ?\" ou \"quoi ?\"** après le verbe.\n\n**Exemples :**\n- \"Le professeur appelle **Marie**.\" → \"Le professeur **la** appelle.\"\n- \"Je vois **les enfants**.\" → \"Je **les** vois.\"\n- \"Tu connais **mon frère** ?\" → \"Tu **le** connais ?\"\n- \"Elle aide **ses amies**.\" → \"Elle **les** aide.\"\n\n### Place du pronom COD\n\n**Avant le verbe conjugué :**\n- Je **le** vois.\n- Tu **la** connais.\n- Nous **les** aimons.\n\n**Avec un infinitif, avant l'infinitif :**\n- Je vais **le** voir.\n- Tu peux **la** aider.\n\n### Pronoms COI (Complément d'Objet Indirect)\n\n**me, te, lui, nous, vous, leur**\n\nIls répondent à la question **\"à qui ?\"** après le verbe.\n\n**Exemples :**\n- \"Je parle **à Marie**.\" → \"Je **lui** parle.\"\n- \"Nous téléphonons **aux enfants**.\" → \"Nous **leur** téléphonons.\"\n- \"Elle écrit **à sa mère**.\" → \"Elle **lui** écrit.\"\n\n## Tableau récapitulatif\n\n| Personne | Sujet | COD | COI |\n|----------|-------|-----|-----|\n| 1ère sing. | je | me | me |\n| 2ème sing. | tu | te | te |\n| 3ème sing. | il/elle | le/la | lui |\n| 1ère plur. | nous | nous | nous |\n| 2ème plur. | vous | vous | vous |\n| 3ème plur. | ils/elles | les | leur |\n\n## Exemples dans des phrases\n\n### Contexte scolaire\n\n\"Le professeur explique la leçon. **Il** **l'**explique bien. Les élèves écoutent. **Ils** **l'**écoutent attentivement. Le professeur **leur** pose des questions.\"\n\n### Contexte quotidien\n\n\"Ma mère prépare le dîner. Elle **le** prépare avec amour. Mon père **l'**aide. Mes frères mettent la table. Je **leur** apporte les assiettes.\"",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Pronom = remplace un nom",
+    "Pronoms sujets : je, tu, il/elle, nous, vous, ils/elles",
+    "Pronoms COD : me, te, le/la, nous, vous, les",
+    "Pronoms COI : me, te, lui, nous, vous, leur"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Un pronom sert à :",
+      "options": [
+        "Remplacer un nom",
+        "Remplacer un verbe",
+        "Remplacer un adjectif",
+        "Ajouter des détails"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Dans 'Je les vois', 'les' est un pronom :",
+      "options": [
+        "Sujet",
+        "COD",
+        "COI",
+        "Possessif"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Le pronom COI de la 3ème personne pluriel est :",
+      "options": [
+        "les",
+        "leur",
+        "eux",
+        "ils"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

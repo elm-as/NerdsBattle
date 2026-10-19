@@ -1,14 +1,175 @@
 {
   "id": "maths-premiere-denombrement",
   "title": "Dénombrement",
-  "summary": "Le dénombrement est l'art de compter sans avoir à énumérer. Il est essentiel en probabilités et en statistiques pour calculer le nombre d'issues possibles ou d'arrangements. Maîtrisez les outils fondamentaux (principe multiplicatif, permutations, combinaisons) pour résoudre des problèmes concrets.",
-  "lesson": "## Introduction\nLe dénombrement consiste à compter le nombre de configurations possibles dans une situation donnée, sans les lister une à une. C'est un outil clé pour les probabilités, car il permet de calculer le nombre de cas favorables et le nombre de cas possibles. On s'appuie sur des principes simples mais puissants : le principe multiplicatif, les permutations, les arrangements et les combinaisons.\n\n## Principe multiplicatif\nSi une expérience se déroule en $k$ étapes, la première ayant $n_1$ choix, la seconde $n_2$, etc., alors le nombre total de résultats est $n_1 \\times n_2 \\times \\cdots \\times n_k$.\n**Exemple :** Combien de menus différents peut-on composer avec 3 entrées, 4 plats et 2 desserts ? Réponse : $3 \\times 4 \\times 2 = 24$ menus.\n\n## Permutations\nUne permutation est un ordre particulier d'un ensemble d'éléments distincts. Le nombre de permutations de $n$ éléments distincts est $n!$ ($n$ factorielle), où $n! = n \\times (n-1) \\times \\cdots \\times 1$.\n**Exemple :** Combien d'ordres possibles pour ranger 5 livres sur une étagère ? $5! = 120$.\n\n## Arrangements (sans répétition)\nUn arrangement de $p$ éléments parmi $n$ (avec $p \\leq n$) est un choix ordonné de $p$ éléments distincts. Le nombre d'arrangements est $A_n^p = \\frac{n!}{(n-p)!}$.\n**Exemple :** Combien de podiums (or, argent, bronze) possibles avec 10 coureurs ? $A_{10}^3 = 10 \\times 9 \\times 8 = 720$.\n\n## Combinaisons (sans répétition)\nUne combinaison de $p$ éléments parmi $n$ est un choix non ordonné de $p$ éléments distincts. Le nombre de combinaisons est $\\binom{n}{p} = \\frac{n!}{p!(n-p)!}$.\n**Exemple :** Combien de mains de 5 cartes peut-on tirer d'un jeu de 52 cartes ? $\\binom{52}{5} = 2\\,598\\,960$.\n\n## Mises en garde\n- Ne pas confondre arrangement et combinaison : l'ordre compte pour l'arrangement, pas pour la combinaison.\n- Attention aux répétitions : le principe multiplicatif s'applique si les choix sont indépendants et avec répétition possible (comme un code à chiffres).\n- Vérifier si les éléments sont distincts ou non ; les formules ci-dessus supposent des éléments distincts.\n- Pour les tirages sans remise, utiliser les arrangements/combinaisons ; avec remise, utiliser $n^p$.\n\n## Conclusion\nLe dénombrement repose sur quelques formules simples mais puissantes. Savoir reconnaître la situation (ordre important ou non, avec ou sans remise) permet de choisir la bonne formule. Pratiquez avec des exercices variés pour maîtriser ces outils essentiels pour les probabilités.",
-  "estimatedMinutes": 15,
-  "tags": [
-    "dénombrement",
-    "combinatoire",
-    "permutations",
-    "combinaisons",
-    "principe multiplicatif"
+  "summary": "À l'occasion de la fête d'anniversaire de leur fille, un couple sollicite un restaurateur qui propose quatre entrées, trois plats de résistance et cinq desserts. Un menu est composé d'une entrée, d'un plat et d'un dessert. Pour prévoir les dépenses, le couple demande le nombre de menus possibles. Le fils du restaurateur se propose de déterminer ce nombre avec ses camarades de classe.",
+  "lesson": "## 1. Produit cartésien\n\n**Définition** : Le produit cartésien de deux ensembles $A$ et $B$ est l'ensemble :\n$$A \\\times B = \\\\{(a, b) / a \\\\in A \\\text{ et } b \\\\in B\\}$$\n\n**Cardinal** : Si $A$ a $n$ éléments et $B$ a $p$ éléments, alors :\n$$|A \\\times B| = n \\\times p$$\n\n**Exemple** : Choix d'un menu = produit cartésien {entrées} × {plats} × {desserts}\nNombre de menus = $4 \\\times 3 \\\times 5 = 60$\n\n## 2. p-listes (p-uplets)\n\n**Définition** : Une p-liste d'éléments d'un ensemble $E$ à $n$ éléments est une suite ordonnée de $p$ éléments de $E$ (pas nécessairement distincts).\n\n**Nombre de p-listes** :\n$$n^p$$\n\n**Exemple** : Codes PIN de 4 chiffres (de 0 à 9) : $10^4 = 10\\,000$ possibilités.\n\n## 3. Arrangements\n\n**Définition** : Un arrangement à $p$ éléments d'un ensemble à $n$ éléments ($p \\\\leq n$) est une p-liste d'éléments **tous distincts**.\n\n**Nombre d'arrangements** :\n$$A_n^p = n(n-1)(n-2)...(n-p+1) = \\\\frac{n!}{(n-p)!}$$\n\n**Notation** : $n! = 1 \\\times 2 \\\times 3 \\\times ... \\\times n$ (factorielle n)\n\n**Exemple** : Classement des 3 premiers d'une course de 8 athlètes à Yamoussoukro : $A_8^3 = 8 \\\times 7 \\\times 6 = 336$.\n\n## 4. Permutations\n\n**Définition** : Une permutation d'un ensemble à $n$ éléments est un arrangement à $n$ éléments (tous les éléments sont utilisés).\n\n**Nombre de permutations** :\n$$P_n = n!$$\n\n**Exemple** : Façons d'asseoir 5 personnes sur un banc : $5! = 120$.\n\n```mathgraph\n{\n  \\\"type\\\": \\\"points\\\",\n  \\\"title\\\": \\\"Croissance des factorielles n!\\\",\n  \\\"xRange\\\": [0, 6],\n  \\\"yRange\\\": [0, 130],\n  \\\"points\\\": [\n    { \\\"x\\\": 1, \\\"y\\\": 1, \\\"color\\\": \\\"#0088FE\\\", \\\"name\\\": \\\"1! = 1\\\" },\n    { \\\"x\\\": 2, \\\"y\\\": 2, \\\"color\\\": \\\"#00C49F\\\", \\\"name\\\": \\\"2! = 2\\\" },\n    { \\\"x\\\": 3, \\\"y\\\": 6, \\\"color\\\": \\\"#FFBB28\\\", \\\"name\\\": \\\"3! = 6\\\" },\n    { \\\"x\\\": 4, \\\"y\\\": 24, \\\"color\\\": \\\"#FF8042\\\", \\\"name\\\": \\\"4! = 24\\\" },\n    { \\\"x\\\": 5, \\\"y\\\": 120, \\\"color\\\": \\\"#8884d8\\\", \\\"name\\\": \\\"5! = 120\\\" }\n  ],\n  \\\"showGrid\\\": true,\n  \\\"showAxes\\\": true,\n  \\\"xLabel\\\": \\\"n\\\",\n  \\\"yLabel\\\": \\\"n!\\\"\n}\n```\n\n## 5. Combinaisons\n\n**Définition** : Une combinaison à $p$ éléments d'un ensemble à $n$ éléments ($p \\\\leq n$) est un sous-ensemble à $p$ éléments (l'ordre n'a pas d'importance).\n\n**Nombre de combinaisons** :\n$$C_n^p = \\\\frac{A_n^p}{p!} = \\\\frac{n!}{p!(n-p)!}$$\n\n**Propriétés** :\n1. $C_n^p = C_n^{n-p}$\n2. $C_n^0 = C_n^n = 1$\n3. $C_n^1 = C_n^{n-1} = n$\n\n**Exemple** : Formation d'une équipe de 5 joueurs parmi 11 (football à Abidjan) : $C_{11}^5 = \\\\frac{11!}{5!6!} = 462$.\n\n## 6. Arbre de décision pour choisir la bonne formule\n\n```mermaid\ngraph TD\n    A[Problème de dénombrement] --> B{Les p éléments sont-ils\n    nécessairement distincts ?}\n    B -->|Non| C{p-liste : n^p}\n    B -->|Oui| D{L'ordre a-t-il de\n    l'importance ?}\n    D -->|Non| E[Combinaison : C_n^p]\n    D -->|Oui| F{Tous les n éléments\n    sont-ils utilisés ?}\n    F -->|Oui| G[Permutation : n!]\n    F -->|Non| H[Arrangement : A_n^p]\n```\n\n## 7. Formule du binôme de Newton\n\n$$(a + b)^n = \\\\sum_{k=0}^n C_n^k a^{n-k} b^k$$\n\n**Exemple** : $(x + 1)^4 = C_4^0 x^4 + C_4^1 x^3 + C_4^2 x^2 + C_4^3 x + C_4^4$\n$= x^4 + 4x^3 + 6x^2 + 4x + 1$\n\n## 8. Applications ivoiriennes\n\n**a) Loterie nationale** :\n- Choisir 5 numéros parmi 50 : $C_{50}^5 = \\\\frac{50!}{5!45!}$\n- Calcul : $\\\\frac{50\\\times49\\\times48\\\times47\\\times46}{5\\\times4\\\times3\\\times2\\\times1} = 2\\,118\\,760$\n\n**b) Composition d'un gouvernement** :\n- Choisir 10 ministres parmi 30 candidats : $C_{30}^{10}$\n\n**c) Codes d'accès** :\n- Code de 6 caractères (lettres + chiffres) : $36^6$ possibilités\n\n**d) Tournoi de football à Bouaké** :\n- Nombre de matchs dans un championnat de 12 équipes (aller simple) : $C_{12}^2 = 66$",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Produit cartésien : |A×B| = n×p (choix indépendants)",
+    "p-liste : n^p (éléments pas nécessairement distincts, ordre important)",
+    "Arrangement A_n^p = n!/(n-p)! (éléments distincts, ordre important)",
+    "Combinaison C_n^p = n!/(p!(n-p)!) (éléments distincts, ordre sans importance)"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Combien y a-t-il de p-listes dans un ensemble à n éléments ?",
+      "options": [
+        "n×p",
+        "n^p",
+        "p^n",
+        "n!/p!"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Que vaut A_5^3 ?",
+      "options": [
+        "15",
+        "60",
+        "125",
+        "243"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Pour choisir une équipe de 3 personnes parmi 10, on utilise :",
+      "options": [
+        "Arrangement",
+        "Combinaison",
+        "Permutation",
+        "p-liste"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Combien de façons d'asseoir 4 personnes sur 4 chaises ?",
+      "options": [
+        "16",
+        "24",
+        "64",
+        "256"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Le nombre de façons de choisir 3 élèves parmi 10 pour former une équipe (l'ordre n'a pas d'importance) est :",
+      "options": [
+        "$C_{10}^3$",
+        "$A_{10}^3$",
+        "$10^3$",
+        "$3^{10}$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Combien de nombres de 3 chiffres peut-on former avec les chiffres 1, 2, 3, 4 sans répétition ?",
+      "options": [
+        "24",
+        "64",
+        "12",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Un restaurant propose 4 entrées, 5 plats et 3 desserts. Combien de menus (entrée+plat+dessert) différents peut-on composer ?",
+      "options": [
+        "60",
+        "12",
+        "20",
+        "120"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quelle formule donne le nombre d'arrangements de p éléments parmi n (p ≤ n) ?",
+      "options": [
+        "$\\\\frac{n!}{(n-p)!}$",
+        "$\\\\frac{n!}{p!}$",
+        "$n^p$",
+        "$\\\\frac{n!}{p!(n-p)!}$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Le nombre de codes à 3 chiffres (0-9) est :",
+      "options": [
+        "100",
+        "720",
+        "1000",
+        "30"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "C_6^2 est égal à :",
+      "options": [
+        "15",
+        "30",
+        "12",
+        "36"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Le nombre de permutations des lettres du mot 'IVOIRE' est :",
+      "options": [
+        "120",
+        "720",
+        "360",
+        "6"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Si on choisit 2 élèves parmi 20 pour un comité, on utilise :",
+      "options": [
+        "Arrangement",
+        "Combinaison",
+        "Permutation",
+        "p-liste avec répétition"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
   ]
 }

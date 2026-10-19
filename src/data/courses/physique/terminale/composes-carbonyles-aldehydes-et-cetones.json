@@ -1,0 +1,280 @@
+{
+  "id": "physique-terminale-composes-carbonyles-aldehydes-et-cetones",
+  "title": "Composés carbonylés : aldéhydes et cétones",
+  "summary": "Dans un laboratoire de contrôle qualité d'une usine de transformation d'huile de palme à San-Pédro, un technicien utilise un test à la DNPH pour détecter la présence de cétones, indicateurs d'oxydation avancée des huiles. Un élève de Terminale C en visite s'interroge sur la nature chimique de ce test. De retour en classe à Yamoussoukro, avec ses camarades, il entreprend d'étudier la structure des aldéhydes et des cétones, leurs méthodes d'identification et leurs propriétés chimiques distinctes, pour compren",
+  "lesson": "## 1. Introduction : Le groupe fonctionnel carbonyle\n\nLes aldéhydes et les cétones sont des **composés carbonylés**. Ils possèdent en commun le **groupe fonctionnel carbonyle**, noté $C=O$. La différence structurale fondamentale réside dans la nature des atomes liés au carbone du carbonyle.\n- Dans un **aldéhyde**, le carbone du carbonyle est lié à au moins un atome d'hydrogène. Le groupe fonctionnel est $-CHO$.\n- Dans une **cétone**, le carbone du carbonyle est lié à deux groupements carbonés (alkyles ou aryles). Le groupe fonctionnel est $-CO-$.\n\n**Description du schéma 1 : Structure comparative d'un aldéhyde et d'une cétone**\nReprésenter deux structures moléculaires simplifiées côte à côte. À gauche, la structure d'un aldéhyde (ex. éthanal) : un atome de carbone (C) lié par une double liaison à un atome d'oxygène (O), lié à un atome d'hydrogène (H) et à un groupement alkyle (R). Mettre en évidence le groupe $-CHO$. À droite, la structure d'une cétone (ex. propanone) : un atome de carbone (C) lié par une double liaison à un atome d'oxygène (O) et lié à deux groupements alkyle (R et R'). Mettre en évidence le groupe $-CO-$. Ajouter des légendes : \"Groupe carbonyle\", \"Aldéhyde (R-CHO)\", \"Cétone (R-CO-R')\".\n\n## 2. Nomenclature des aldéhydes et des cétones\n\n**Aldéhydes** : Le nom de l'aldéhyde dérive de celui de l'alcane correspondant en remplaçant le « -e » final par « -al ». La chaîne principale est la plus longue contenant le groupe $-CHO$, qui porte toujours le numéro 1.\nExemple : $CH_3-CH_2-CHO$ est le **propanal**.\n\n**Cétones** : Le nom de la cétone dérive de celui de l'alcane correspondant en remplaçant le « -e » final par « -one ». On indique la position du groupe carbonyle par le numéro le plus faible possible.\nExemple : $CH_3-CO-CH_2-CH_3$ est la **butan-2-one** (ou éthylméthylcétone).\n\n## 3. Propriétés physiques générales\n\nLes aldéhydes et les cétones de faibles masses molaires sont des liquides volatils, miscibles à l'eau pour les premiers termes grâce aux liaisons hydrogène avec le groupe carbonyle. Leurs points d'ébullition sont intermédiaires entre ceux des alcools (plus élevés) et des alcanes (plus bas) de masse molaire comparable.\n\n## 4. Tests d'identification communs et spécifiques\n\n**Test commun à tous les composés carbonylés : la 2,4-Dinitrophénylhydrazine (DNPH)**\nLa DNPH réagit avec le groupe carbonyle pour former un **hydrazone**, précipité jaune-orangé caractéristique. C'est un test de présomption.\n$$R-CHO + H_2N-NH-C_6H_3(NO_2)_2 \\\\rightarrow R-CH=N-NH-C_6H_3(NO_2)_2 \\\\downarrow + H_2O$$\n$$R-CO-R' + H_2N-NH-C_6H_3(NO_2)_2 \\\\rightarrow R-C(R')=N-NH-C_6H_3(NO_2)_2 \\\\downarrow + H_2O$$\n\n**Tests spécifiques des aldéhydes (caractère réducteur)**\nLes aldéhydes sont des réducteurs, contrairement aux cétones.\n1.  **Réactif de Tollens (nitrate d'argent ammoniacal)** : L'aldéhyde réduit l'ion $Ag^+$ en argent métallique, qui forme un **miroir d'argent** sur les parois du tube.\n    $$R-CHO + 2[Ag(NH_3)_2]^+ + 3OH^- \\\\rightarrow R-COO^- + 2Ag \\\\downarrow + 4NH_3 + 2H_2O$$\n2.  **Liqueur de Fehling** : L'aldéhyde réduit les ions $Cu^{2+}$ (bleus) en oxyde de cuivre(I) $Cu_2O$, précipité **rouge brique**.\n    $$R-CHO + 2Cu^{2+} + 5OH^- \\\\rightarrow R-COO^- + Cu_2O \\\\downarrow + 3H_2O$$\n\n**Description du schéma 2 : Résultats des tests spécifiques aux aldéhydes**\nReprésenter trois tubes à essais côte à côte. Le premier tube contient un liquide incolore avec un dépôt brillant sur les parois, légendé \"Miroir d'argent - Test de Tollens positif\". Le second tube contient un liquide bleu avec un précipité rouge brique au fond, légendé \"Précipité Cu2O - Test de Fehling positif\". Le troisième tube contient un liquide bleu resté bleu, légendé \"Cétone - Tests négatifs\".\n\n## 5. Préparations principales\n\n- **Oxydation ménagée d'un alcool primaire** donne un **aldéhyde**.\n- **Oxydation ménagée d'un alcool secondaire** donne une **cétone**.\n- Les aldéhydes et cétones sont aussi obtenus par **ozonolyse** des alcènes.\n\n## 6. Importance et applications en contexte ivoirien\n\n- **Contrôle qualité agro-alimentaire** : La DNPH est utilisée pour détecter l'oxydation (rancissement) des huiles végétales (palme, karité).\n- **Arômes naturels** : La vanilline (aldéhyde) est un arôme majeur. La détection des cétones permet de contrôler la fermentation du cacao.\n- **Synthèse industrielle** : Les aldéhydes et cétones sont des intermédiaires clés pour la production de résines, plastifiants et solvants.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Aldéhydes (R-CHO) et cétones (R-CO-R') partagent le groupe carbonyle C=O.",
+    "La DNPH forme un précipité avec TOUS les composés carbonylés.",
+    "Seuls les ALDÉHYDES réduisent le réactif de Tollens (miroir d'argent) et la liqueur de Fehling (précipité rouge brique).",
+    "Les aldéhydes sont nommés en -al, les cétones en -one.",
+    "Le caractère réducteur des aldéhydes est dû à la facilité d'oxydation de leur groupe -CHO en acide carboxylique -COOH."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le groupe fonctionnel commun aux aldéhydes et aux cétones ?",
+      "options": [
+        "Le groupe hydroxyle (-OH)",
+        "Le groupe carbonyle (C=O)",
+        "Le groupe carboxyle (-COOH)",
+        "Le groupe ester (-COO-)"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Le test à la 2,4-dinitrophénylhydrazine (DNPH) permet de détecter :",
+      "options": [
+        "Uniquement les aldéhydes",
+        "Uniquement les cétones",
+        "Tous les composés carbonylés",
+        "Uniquement les alcools"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La formation d'un miroir d'argent lors du test de Tollens est caractéristique :",
+      "options": [
+        "Des cétones",
+        "Des acides carboxyliques",
+        "Des aldéhydes",
+        "Des esters"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la formule semi-développée de la propanone ?",
+      "options": [
+        "$CH_3-CHO$",
+        "$CH_3-CO-CH_3$",
+        "$CH_3-CH_2-CHO$",
+        "$HCOOCH_3$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel produit obtient-on en oxydant un alcool secondaire ?",
+      "options": [
+        "Un aldéhyde",
+        "Une cétone",
+        "Un acide carboxylique",
+        "Un ester"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "La liqueur de Fehling contient des ions :",
+      "options": [
+        "$Ag^+$",
+        "$Fe^{3+}$",
+        "$Cu^{2+}$",
+        "$Cr^{3+}$"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Comment nomme-t-on le composé $CH_3CH_2CH_2CHO$ ?",
+      "options": [
+        "Propanal",
+        "Butanal",
+        "Éthanal",
+        "Pentan-3-one"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Dans un contexte ivoirien, le test à la DNPH pourrait être utilisé pour contrôler :",
+      "options": [
+        "La teneur en sucre d'un jus d'orange",
+        "Le degré d'oxydation d'une huile de palme",
+        "Le pH d'une solution",
+        "La concentration en ions chlorure"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Le précipité rouge brique obtenu avec la liqueur de Fehling est :",
+      "options": [
+        "De l'argent métallique",
+        "De l'oxyde de cuivre(I) $Cu_2O$",
+        "De l'oxyde de cuivre(II) $CuO$",
+        "Un hydrazone"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quelle affirmation est FAUSSE concernant les aldéhydes et les cétones ?",
+      "options": [
+        "Les aldéhydes peuvent être oxydés en acides carboxyliques.",
+        "Les cétones donnent un test positif avec la liqueur de Fehling.",
+        "Les deux peuvent être obtenus par oxydation d'alcools.",
+        "Les deux réagissent avec la DNPH."
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Le groupe fonctionnel commun aux aldéhydes et cétones est :",
+      "options": [
+        "-OH",
+        "-CHO",
+        "C=O",
+        "-COOH"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Le test de Tollens permet de distinguer :",
+      "options": [
+        "Alcools et aldéhydes",
+        "Aldéhydes et cétones",
+        "Acides et esters",
+        "Alcènes et alcynes"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "La propanone a pour formule :",
+      "options": [
+        "CH₃CHO",
+        "CH₃COCH₃",
+        "CH₃CH₂CHO",
+        "CH₃COCH₂CH₃"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Un composé qui donne un miroir d'argent avec Tollens est :",
+      "options": [
+        "Une cétone",
+        "Un alcool",
+        "Un aldéhyde",
+        "Un acide"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Le test au DNPH est positif pour :",
+      "options": [
+        "Les alcools seulement",
+        "Les aldéhydes seulement",
+        "Les cétones seulement",
+        "Tous les composés carbonylés"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "L'oxydation ménagée d'un aldéhyde donne :",
+      "options": [
+        "Alcool primaire",
+        "Alcool secondaire",
+        "Acide carboxylique",
+        "Cétone"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Le butanal est un :",
+      "options": [
+        "Aldéhyde",
+        "Cétone",
+        "Alcool",
+        "Acide"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Le test de Fehling est positif avec :",
+      "options": [
+        "La propanone",
+        "Le benzaldéhyde",
+        "L'éthanal",
+        "La butanone"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Parmi ces composés, lequel est une cétone ?",
+      "options": [
+        "CH₃CH₂OH",
+        "CH₃CHO",
+        "CH₃COCH₃",
+        "HCOOH"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "La vanilline est un :",
+      "options": [
+        "Alcool",
+        "Aldéhyde",
+        "Cétone",
+        "Ester"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

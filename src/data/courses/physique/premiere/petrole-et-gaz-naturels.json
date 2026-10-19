@@ -1,0 +1,409 @@
+{
+  "id": "physique-premiere-petrole-et-gaz-naturels",
+  "title": "Pétrole et gaz naturels",
+  "summary": "Dans le cadre d'une enquête découverte, les élèves de 1ère A2 du Lycée Moderne 2 d'Abolo entreprennent des recherches sur le pétrole et les gaz naturels. Ils découvrent que pour obtenir la multitude de produits qui déterminent notre quotidien, le pétrole brut doit être fractionné et raffiné. Afin d'en savoir davantage, ils cherchent à comprendre les opérations de base de cette industrie cruciale pour l'économie ivoirienne.",
+  "lesson": "## 1. Introduction\n\nLe **pétrole** (or noir) et le **gaz naturel** sont des ressources énergétiques fossiles formées il y a des millions d'années à partir de matière organique. La Côte d'Ivoire dispose de réserves offshore (Baie de Sassandra, bloc CI-11, etc.) et possède une raffinerie à Port-Bouet (SIR).\n\n## 2. Origine et composition\n\n**Formation** : Accumulation de plancton et d'algues marines → enfouissement → transformation sous l'effet de la pression et de la température.\n\n**Composition** :\n- Mélange complexe d'**hydrocarbures** (alcanes, cycloalcanes, aromatiques)\n- Impuretés : soufre, azote, oxygène, métaux (vanadium, nickel)\n- État : brut visqueux, couleur noire à brunâtre\n\n**Description du schéma 1:** Schéma de formation du pétrole. Montrer les couches sédimentaires, la matière organique qui se transforme en kérogène puis en pétrole, qui migre vers des roches-réservoirs et est piégé par une roche couverture.\n\n## 3. Exploration et production en Côte d'Ivoire\n\n**Exploration** :\n- Sismique marine (ondes acoustiques)\n- Forages d'exploration\n\n**Principaux champs** :\n- Lion et Panthere (opérés par ENI/Perenco)\n- Foxtrot, Mahi, Baobab\n- Production : environ 50 000 barils/jour (2023)\n\n## 4. Raffinage : fractionnement du pétrole brut\n\n**Distillation atmosphérique** : Séparation des constituants par différence de températures d'ébullition dans une **tour de distillation**.\n\n**Coupes obtenues** (du haut vers le bas) :\n1. **Gaz de raffinerie** (C₁-C₄) : < 20°C\n2. **Essence légère** (naphta) : 20-100°C (C₅-C₁₀)\n3. **Kérosène** : 150-250°C (C₁₀-C₁₆)\n4. **Gazole** (diesel) : 250-350°C (C₁₂-C₂₀)\n5. **Fioul lourd** : 350-500°C\n6. **Résidu** (bitume) : > 500°C\n\n**Description du schéma 2:** Schéma d'une tour de distillation atmosphérique. Montrer l'entrée du pétrole brut chauffé en bas, les différents plateaux de prélèvement avec leurs températures et les produits correspondants.\n\n## 5. Transformations complémentaires\n\n**Craquage catalytique** :\n$$ C_{20}H_{42} \\\\xrightarrow{catalyseur, 500°C} C_{10}H_{22} + C_{10}H_{20} $$\n- Transformation des coupes lourdes en produits légers (essence)\n- Brise les longues chaînes carbonées\n\n**Reformage catalytique** :\n- Améliore l'indice d'octane de l'essence\n- Transforme les alcanes en hydrocarbures aromatiques (benzène, toluène, xylènes)\n- Conditions : catalyseur platine, 500°C, pression\n\n**Vaporéformage** (pour le gaz) :\n$$ CH_4 + H_2O \\\\xrightarrow{catalyseur} CO + 3H_2 $$ (gaz de synthèse)\n\n## 6. Produits dérivés et leurs usages\n\n1. **Carburants** : Essence, gazole, kérosène (aviation)\n2. **Combustibles** : GPL (bouteilles), fioul (chauffage, centrales)\n3. **Bitume** : Routes, étanchéité\n4. **Pétrochimie** :\n   - Plastiques (polyéthylène, PVC, polystyrène)\n   - Engrais (ammoniac → urée)\n   - Solvants, détergents, cosmétiques\n   - Fibres synthétiques (nylon, polyester)\n\n## 7. Importance économique pour la Côte d'Ivoire\n\n1. **Raffinerie SIR** : Capacité 3,8 millions de tonnes/an, approvisionne le marché local et régional.\n2. **Exportations** : Pétrole brut et produits raffinés (devises).\n3. **Emplois** : Directs et indirects dans l'exploration, la logistique, la raffinerie.\n4. **Indépendance énergétique** relative.\n\n**Description du schéma 3:** Carte des installations pétrolières et gazières en Côte d'Ivoire. Localiser les champs offshore (Lion, Panthere, Foxtrot), la raffinerie SIR à Port-Bouet, et les pipelines sous-marins.\n\n## 8. Impacts environnementaux\n\n**Extraction et transport** :\n- Marées noires (risque pour la pêche et le tourisme)\n- Perturbation des écosystèmes marins\n\n**Raffinage** :\n- Émissions de SO₂, NOx, COV (pollution atmosphérique)\n- Eaux usées chargées en hydrocarbures\n\n**Utilisation** :\n- CO₂ (changement climatique)\n- Particules fines (diesel) – santé respiratoire\n- Plastics pollution (lagune Ébrié, océan)\n\n## 9. Alternatives et développement durable\n\n1. **Énergies renouvelables** : Solaire (potentiel élevé), hydroélectricité (Soubré), biomasse (déchets agricoles).\n2. **Efficacité énergétique** : Moteurs moins consommateurs, isolation des bâtiments.\n3. **Économie circulaire** : Recyclage des plastiques, valorisation des déchets.\n4. **Règlementation** : Normes sur les carburants (teneur en soufre), interdiction des sacs plastiques non biodégradables.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Le pétrole brut est séparé par distillation en différentes coupes selon leur température d'ébullition",
+    "Le craquage transforme les coupes lourdes en produits légers, le reformage améliore l'essence",
+    "Les produits pétroliers sont essentiels pour les transports, l'industrie et la pétrochimie",
+    "L'industrie pétrolière a des impacts environnementaux majeurs qui appellent à la transition énergétique"
+  ],
+  "exercise": {
+    "answer": "**1. Volume brut traité quotidiennement :**\n$$V_{brut} = 100\\\\,000 \\\times 159 = 15\\\\,900\\\\,000\\\\ \\\text{L/jour}$$\n\n**2. Volume d'essence (25%) :**\n$$V_{essence} = 15\\\\,900\\\\,000 \\\times 0,25 = 3\\\\,975\\\\,000\\\\ \\\text{L/jour}$$\nEn m³ : $3\\\\,975\\\\,000 / 1000 = 3\\\\,975\\\\ \\\text{m³/jour}$\n\n**3. Masse d'essence :**\nDensité 0,75 → $\\\\rho = 0,75\\\\ \\\text{kg/L}$\n$$m_{essence} = V \\\times \\\\rho = 3\\\\,975\\\\,000 \\\times 0,75 = 2\\\\,981\\\\,250\\\\ \\\text{kg/jour} \\\\approx 2\\\\,981\\\\ \\\text{tonnes/jour}$$\n\n**4. Masse de CO₂ émise (combustion de l'octane C₈H₁₈) :**\nÉquation de combustion : $C_8H_{18} + 12,5 O_2 \\\\rightarrow 8 CO_2 + 9 H_2O$\n- Masse molaire octane : $M = 8\\\times12 + 18 = 114\\\\ \\\text{g/mol}$\n- Masse molaire CO₂ : $44\\\\ \\\text{g/mol}$\n- Rapport massique : $\\\\frac{m_{CO₂}}{m_{octane}} = \\\\frac{8 \\\times 44}{114} = \\\\frac{352}{114} \\\\approx 3,0877$\n\n$$m_{CO₂} = 2\\\\,981\\\\,250 \\\times 3,0877 \\\\approx 9\\\\,205\\\\,000\\\\ \\\text{kg/jour} = 9\\\\,205\\\\ \\\text{tonnes CO₂/jour}$$\n\n**Réponse :** ~3 975 m³ essence/jour ; ~2 981 tonnes essence/jour ; ~9 205 tonnes CO₂/jour si toute l'essence est brûlée.",
+    "question": "La raffinerie SIR de Port-Bouet traite 100 000 barils de pétrole brut par jour (1 baril = 159 L). La distillation donne environ : 3% de GPL, 25% d'essence, 15% de kérosène, 35% de gazole, 15% de fioul, 7% de bitume. 1) Calculez le volume quotidien d'essence produit (en L et en m³). 2) Si la densité de l'essence est 0,75, calculez la masse produite quotidiennement. 3) Estimez la masse de CO₂ émise si toute cette essence est brûlée (considérer l'essence comme de l'octane C₈H₁₈)."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Le pétrole brut est principalement constitué de :",
+      "options": [
+        "Alcools",
+        "Hydrocarbures",
+        "Acides carboxyliques",
+        "Sels minéraux"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Dans une tour de distillation, on sépare les hydrocarbures selon leur :",
+      "options": [
+        "Masse molaire",
+        "Température d'ébullition",
+        "Couleur",
+        "Solubilité dans l'eau"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Le craquage catalytique permet de :",
+      "options": [
+        "Augmenter la taille des molécules",
+        "Transformer des produits lourds en produits légers",
+        "Éliminer le soufre",
+        "Produire du bitume"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Le reformage améliore principalement :",
+      "options": [
+        "La couleur du gazole",
+        "L'indice d'octane de l'essence",
+        "La fluidité du bitume",
+        "Le rendement en GPL"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Le kérosène est utilisé surtout pour :",
+      "options": [
+        "Les voitures",
+        "L'aviation",
+        "Le chauffage domestique",
+        "Les routes"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Un produit dérivé important pour la pétrochimie est :",
+      "options": [
+        "Le bitume",
+        "Le polyéthylène",
+        "Le fioul lourd",
+        "Le kérosène"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "La Côte d'Ivoire possède une raffinerie à :",
+      "options": [
+        "Abidjan-Plateau",
+        "Port-Bouet",
+        "San-Pédro",
+        "Yamoussoukro"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Un impact environnemental majeur de l'utilisation du pétrole est :",
+      "options": [
+        "La production d'oxygène",
+        "L'émission de CO₂",
+        "La réduction des déchets",
+        "La purification de l'eau"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Le GPL est un mélange de :",
+      "options": [
+        "Propane et butane",
+        "Méthane et éthane",
+        "Essence et kérosène",
+        "Bitume et fioul"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Une alternative aux produits pétroliers est :",
+      "options": [
+        "Le charbon",
+        "Les énergies renouvelables",
+        "Le nucléaire uniquement",
+        "Aucune alternative n'existe"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel est le principal constituant du gaz naturel ?",
+      "options": [
+        "Éthane",
+        "Méthane",
+        "Propane",
+        "Butane"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quelle opération sépare les hydrocarbures du pétrole selon leur point d’ébullition ?",
+      "options": [
+        "Craquage",
+        "Reformage",
+        "Fractionnement",
+        "Polymérisation"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel procédé casse les grosses molécules d’hydrocarbures en molécules plus légères ?",
+      "options": [
+        "Distillation",
+        "Craquage",
+        "Reformage",
+        "Électrolyse"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Lequel de ces produits n’est PAS un dérivé direct du pétrole ?",
+      "options": [
+        "Essence",
+        "Bitume",
+        "Éthanol de canne à sucre",
+        "Polyéthylène (plastique)"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel gaz, émis par la combustion des hydrocarbures, est principalement responsable de l’effet de serre ?",
+      "options": [
+        "Dioxyde de soufre (SO₂)",
+        "Méthane (CH₄)",
+        "Dioxyde de carbone (CO₂)",
+        "Monoxyde de carbone (CO)"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "En Côte d’Ivoire, dans quelle zone se trouvent les principaux gisements de pétrole et de gaz ?",
+      "options": [
+        "Nord (région de Korhogo)",
+        "Baie de Sassandra (offshore)",
+        "Forêt du Parc de Taï",
+        "Lagune Ébrié"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quelle est l’unité de mesure courante du volume de pétrole ?",
+      "options": [
+        "Le kilogramme",
+        "Le baril",
+        "Le mètre cube",
+        "La tonne"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Le reformage a pour but principal :",
+      "options": [
+        "D’éliminer le soufre",
+        "D’augmenter l’indice d’octane de l’essence",
+        "De produire du gaz",
+        "De solidifier le pétrole"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Quel problème environnemental est associé aux déversements de pétrole en mer ?",
+      "options": [
+        "Pluies acides",
+        "Marées noires",
+        "Trou dans la couche d’ozone",
+        "Désertification"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Quelle énergie renouvelable la Côte d’Ivoire développe-t-elle pour réduire sa dépendance aux hydrocarbures ?",
+      "options": [
+        "Géothermie",
+        "Énergie nucléaire",
+        "Hydroélectricité",
+        "Charbon"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q21",
+      "type": "mcq",
+      "prompt": "Quelle est la première opération dans une raffinerie de pétrole ?",
+      "options": [
+        "Craquage catalytique",
+        "Distillation atmosphérique",
+        "Reformage",
+        "Désulfuration"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q22",
+      "type": "mcq",
+      "prompt": "Quelle fraction du pétrole a la température d'ébullition la plus basse ?",
+      "options": [
+        "Bitume",
+        "Gas-oil",
+        "Kérosène",
+        "GPL"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q23",
+      "type": "mcq",
+      "prompt": "Quel est l'objectif principal du craquage catalytique ?",
+      "options": [
+        "Éliminer le soufre",
+        "Produire plus de fractions légères",
+        "Améliorer l'indice d'octane",
+        "Séparer les différentes fractions"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q24",
+      "type": "mcq",
+      "prompt": "Quel composé est majoritaire dans le gaz naturel ?",
+      "options": [
+        "Éthane",
+        "Propane",
+        "Méthane",
+        "Butane"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q25",
+      "type": "mcq",
+      "prompt": "Combien de CO₂ produit la combustion d'un litre d'essence ?",
+      "options": [
+        "0,5 kg",
+        "1,0 kg",
+        "2,3 kg",
+        "5,0 kg"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q26",
+      "type": "mcq",
+      "prompt": "Quelle région de Côte d'Ivoire est principale pour la production pétrolière ?",
+      "options": [
+        "Baie de Sassandra",
+        "Lagune Ébrié",
+        "Région de Korhogo",
+        "Forêt du Banco"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q27",
+      "type": "mcq",
+      "prompt": "Quel produit pétrolier est utilisé pour la construction des routes ?",
+      "options": [
+        "Kérosène",
+        "Essence",
+        "Bitume",
+        "Gas-oil"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q28",
+      "type": "mcq",
+      "prompt": "Quelle réaction se produit lors du reformage catalytique ?",
+      "options": [
+        "Cyclohexane → benzène + 3H₂",
+        "C₂₀H₄₂ → 2C₁₀H₂₁",
+        "C₆H₁₂ → 2C₃H₆",
+        "C₆H₆ + 3H₂ → C₆H₁₂"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q29",
+      "type": "mcq",
+      "prompt": "Quel gaz contribue aux pluies acides ?",
+      "options": [
+        "CO₂",
+        "CH₄",
+        "SO₂",
+        "H₂"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q30",
+      "type": "mcq",
+      "prompt": "Quelle alternative énergétique a le plus grand potentiel en Côte d'Ivoire ?",
+      "options": [
+        "Énergie éolienne",
+        "Énergie solaire",
+        "Énergie géothermique",
+        "Énergie marémotrice"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

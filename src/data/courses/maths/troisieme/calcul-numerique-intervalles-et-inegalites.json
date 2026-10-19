@@ -1,0 +1,96 @@
+{
+  "id": "maths-troisieme-calcul-numerique-intervalles-et-inegalites",
+  "title": "Calcul numérique : intervalles et inégalités",
+  "summary": "Un commerçant cherche un terrain de 230-300 m². Le terrain mesure entre 17-18 m de long et 14-15 m de large. Convient-il ?",
+  "lesson": "## Calcul numérique : intervalles et inégalités\n\n### 1. Les intervalles de ℝ\n\n**Définitions :**\n- **[a ; b]** : intervalle fermé (a et b inclus) : a ≤ x ≤ b\n- **]a ; b[** : intervalle ouvert (a et b exclus) : a < x < b\n- **[a ; b[** : fermé à gauche, ouvert à droite : a ≤ x < b\n- **]a ; b]** : ouvert à gauche, fermé à droite : a < x ≤ b\n\n**Intervalles infinis :**\n- **[a ; +∞[** : tous les nombres ≥ a\n- **]-∞ ; b]** : tous les nombres ≤ b\n\n**Exemples :**\n- [2 ; 5] contient 2, 3, 4, 5\n- ]2 ; 5[ contient 3, 4 mais pas 2 ni 5\n- [0 ; +∞[ contient tous les nombres positifs ou nuls\n\n### 2. Caractéristiques d'un intervalle\n\n**Amplitude :** longueur de l'intervalle\n- Amplitude = borne supérieure - borne inférieure\n- Ex : amplitude de [3 ; 8] = 8 - 3 = 5\n\n**Centre :** milieu de l'intervalle\n- Centre = (borne inf + borne sup) / 2\n- Ex : centre de [3 ; 8] = (3 + 8) / 2 = 5,5\n\n### 3. Encadrement et opérations\n\n**Encadrement d'une somme :**\nSi a < x < b et c < y < d, alors :\na + c < x + y < b + d\n\n**Exemple :** Si 3 < x < 5 et 2 < y < 4\nAlors 3 + 2 < x + y < 5 + 4\nDonc 5 < x + y < 9\n\n**Encadrement d'un produit :**\nSi 0 < a < x < b et 0 < c < y < d, alors :\nac < xy < bd\n\n**Exemple :** Si 2 < x < 3 et 4 < y < 5\nAlors 2 × 4 < xy < 3 × 5\nDonc 8 < xy < 15\n\n### 4. Inégalités et leurs propriétés\n\n**Règles fondamentales :**\n1. On peut ajouter/soustraire un même nombre : si a < b alors a + c < b + c\n2. On peut multiplier par un positif : si a < b et c > 0 alors ac < bc\n3. **ATTENTION :** Multiplier par un négatif inverse l'inégalité :\n   si a < b et c < 0 alors ac > bc\n\n**Exemple d'application (situation-problème) :**\nTerrain entre 17 et 18 m de long, 14 et 15 m de large :\n- Aire minimale : 17 × 14 = 238 m²\n- Aire maximale : 18 × 15 = 270 m²\n- Convient pour 230-300 m² ? OUI ✓\n\n**Exercice résolu :**\nEncadrer x² si -2 < x < 3\n- Si x = -2 : x² = 4\n- Si x = 3 : x² = 9\n- Maximum : 9 (car 3² > (-2)²)\n- Minimum : 0 (car x passe par 0)\n- Donc 0 ≤ x² < 9",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Intervalles [a;b] et ]a;b[",
+    "Encadrement : min/max",
+    "Multiplication par négatif inverse l'inégalité"
+  ],
+  "exercise": {
+    "question": "Encadre l'aire d'un rectangle 12-13 m × 8-9 m",
+    "answer": "96 ≤ Aire ≤ 117 m²"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "[3;7] signifie :",
+      "options": [
+        "3<x<7",
+        "3≤x≤7",
+        "3<x≤7",
+        "3≤x<7"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-maths-1-mva4n07k",
+      "type": "mcq",
+      "prompt": "Soit $I = [2 ; 5]$ et $J = ]1 ; 4]$. Quelle est la nature exacte de l'intersection $I \\cap J$ ?",
+      "options": [
+        "$[2 ; 4]$",
+        "$]2 ; 4]$",
+        "$[2 ; 4[$",
+        "$]1 ; 5[$"
+      ],
+      "answer": 0,
+      "explanation": "L'intersection contient les éléments communs aux deux intervalles. Pour $I=[2;5]$, on a $2 \\le x \\le 5$. Pour $J=]1;4]$, on a $1 < x \\le 4$. La borne inférieure est le maximum des bornes inférieures : $\\max(2, 1) = 2$ (incluse car incluse dans $I$). La borne supérieure est le minimum des bornes supérieures : $\\min(5, 4) = 4$ (incluse car incluse dans $J$). Donc $I \\cap J = [2 ; 4]$."
+    },
+    {
+      "id": "auto-maths-2-mva4n07k",
+      "type": "mcq",
+      "prompt": "On sait que $3 < x < 7$ et $-2 < y < 1$. Quelle est la meilleure encadrement possible pour la somme $S = x + y$ ?",
+      "options": [
+        "$1 < S < 8$",
+        "$2 < S < 8$",
+        "$1 \\le S \\le 8$",
+        "$2 \\le S \\le 7$"
+      ],
+      "answer": 0,
+      "explanation": "Pour encadrer une somme d'inégalités strictes, on additionne les bornes inférieures et les bornes supérieures. Borne inf : $3 + (-2) = 1$. Borne sup : $7 + 1 = 8$. Comme les inégalités de départ sont strictes ($<$), l'encadrement résultant est strict : $1 < x + y < 8$."
+    },
+    {
+      "id": "auto-maths-3-mva4n07k",
+      "type": "mcq",
+      "prompt": "Considérons l'ensemble des solutions de l'inéquation $2x - 5 \\le 3$. Cet ensemble correspond à quel intervalle ?",
+      "options": [
+        "$]-\\infty ; 4]$",
+        "$]-\\infty ; 4[$",
+        "$[4 ; +\\infty[$",
+        "$]-\\infty ; 2]$"
+      ],
+      "answer": 0,
+      "explanation": "Résolvons l'inéquation : $2x \\le 3 + 5 \\Rightarrow 2x \\le 8 \\Rightarrow x \\le 4$. L'ensemble des réels inférieurs ou égaux à 4 s'écrit $]-\\infty ; 4]$."
+    },
+    {
+      "id": "auto-maths-4-mva4n07k",
+      "type": "mcq",
+      "prompt": "Soit l'intervalle $A = [a ; b]$ dont l'amplitude est 10 et le centre est 3. Quelle est la valeur de la borne supérieure $b$ ?",
+      "options": [
+        "$8$",
+        "$-2$",
+        "$13$",
+        "$-7$"
+      ],
+      "answer": 0,
+      "explanation": "L'amplitude est $b - a = 10$. Le centre est $\\frac{a + b}{2} = 3 \\Rightarrow a + b = 6$. On a le système : $b - a = 10$ et $b + a = 6$. En additionnant les deux équations : $2b = 16 \\Rightarrow b = 8$. (Vérification : $a = -2$, amplitude $8 - (-2) = 10$, centre $\\frac{8-2}{2} = 3$)."
+    },
+    {
+      "id": "auto-maths-5-mva4n07k",
+      "type": "mcq",
+      "prompt": "Si $0 < x < 2$ et $3 < y < 5$, quel est l'encadrement strict du produit $P = xy$ ?",
+      "options": [
+        "$0 < P < 10$",
+        "$3 < P < 10$",
+        "$0 < P < 15$",
+        "$3 < P < 15$"
+      ],
+      "answer": 0,
+      "explanation": "Pour le produit de deux intervalles positifs $]a; b[$ et $]c; d[$, l'encadrement est $]ac; bd[$. Ici, $a=0, b=2, c=3, d=5$. Borne inf : $0 \\times 3 = 0$. Borne sup : $2 \\times 5 = 10$. Donc $0 < xy < 10$."
+    }
+  ]
+}

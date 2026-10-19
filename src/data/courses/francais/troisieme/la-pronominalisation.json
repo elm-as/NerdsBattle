@@ -1,0 +1,57 @@
+{
+  "id": "francais-troisieme-la-pronominalisation",
+  "title": "La pronominalisation",
+  "summary": "En relisant ta rédaction, tu remarques que le mot « les élèves » revient 10 fois. Comment éviter ces répétitions tout en gardant un texte clair ?",
+  "lesson": "## La pronominalisation\n\n### Définition\nLa pronominalisation consiste à remplacer un nom ou un groupe nominal par un pronom pour éviter les répétitions.\n\n### Les types de pronoms\n\n**1. Les pronoms personnels**\n\n*Pronoms sujets :* je, tu, il, elle, on, nous, vous, ils, elles\n*Pronoms compléments directs (COD) :* me, te, le, la, nous, vous, les\n*Pronoms compléments indirects (COI) :* me, te, lui, nous, vous, leur\n*Pronoms toniques :* moi, toi, lui, elle, nous, vous, eux, elles\n\n*Exemple :*\n« Koné regarde Aminata. » → « Il **la** regarde. »\n« Koné parle à Aminata. » → « Il **lui** parle. »\n\n**2. Les pronoms démonstratifs**\ncelui, celle, ceux, celles, celui-ci, celui-là, ce, ceci, cela, ça\n\n*Exemple :*\n« J'ai deux livres. **Celui-ci** est intéressant, **celui-là** est ennuyeux. »\n\n**3. Les pronoms possessifs**\nle mien, la mienne, les miens, les miennes\nle tien, la tienne, les tiens, les tiennes\nle sien, la sienne, les siens, les siennes\nle nôtre, la nôtre, les nôtres\nle vôtre, la vôtre, les vôtres\nle leur, la leur, les leurs\n\n*Exemple :*\n« Mon cahier est bleu. **Le tien** est rouge. »\n\n**4. Les pronoms relatifs**\nqui, que, quoi, dont, où, lequel, laquelle, lesquels, lesquelles\n\n*Exemple :*\n« L'élève travaille. L'élève réussira. » → « L'élève **qui** travaille réussira. »\n\n**5. Les pronoms indéfinis**\non, tout, tous, chacun, quelqu'un, personne, rien, certains, plusieurs, aucun\n\n*Exemple :*\n« **Certains** ont réussi, **d'autres** ont échoué. »\n\n**6. Les pronoms interrogatifs**\nqui, que, quoi, lequel, laquelle, lesquels, lesquelles\n\n*Exemple :*\n« **Qui** a gagné le concours ? »\n\n### Règles de la pronominalisation\n\n**Place du pronom complément**\n- Devant le verbe conjugué : « Je **le** vois. »\n- Devant l'auxiliaire aux temps composés : « Je **l'**ai vu. »\n- Après le verbe à l'impératif affirmatif : « Regarde-**le** ! »\n\n**Accord du pronom**\nLe pronom s'accorde en genre et en nombre avec le nom qu'il remplace.\n« Les filles sont arrivées. **Elles** sont contentes. » (féminin pluriel)\n\n**Ordre des pronoms compléments**\nme/te/se/nous/vous + le/la/les + lui/leur + y + en\n*Exemple :* « Je **te le** donne. » « Il **le lui** a dit. »\n\n### Erreurs à éviter\n\n❌ « Je les lui donne. » (mauvais ordre)\n✅ « Je le lui donne. »\n\n❌ « Les élèves, ils sont arrivés. » (répétition inutile)\n✅ « Les élèves sont arrivés. » ou « Ils sont arrivés. »",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Pronoms personnels, démonstratifs, possessifs, relatifs, indéfinis, interrogatifs",
+    "Place du pronom : devant le verbe conjugué, après l'impératif affirmatif",
+    "Ordre : me/te/se + le/la/les + lui/leur + y + en"
+  ],
+  "exercise": {
+    "question": "Réécris ces phrases en remplaçant les groupes soulignés par des pronoms : 1) Amadou donne le livre à Fatou. 2) Les élèves de 3ème préparent le BEPC. Les élèves de 3ème travaillent dur. 3) C'est ma voiture. Ce n'est pas ta voiture.",
+    "answer": "\n**Solution :**\n\n**1) Amadou donne le livre à Fatou.**\n→ « Amadou **le lui** donne. »\n- « le livre » (COD) → **le**\n- « à Fatou » (COI) → **lui**\n\n**2) Les élèves de 3ème préparent le BEPC. Les élèves de 3ème travaillent dur.**\n→ « Les élèves de 3ème préparent le BEPC. **Ils** travaillent dur. »\nou avec un pronom relatif :\n→ « Les élèves de 3ème, **qui** préparent le BEPC, travaillent dur. »\n\n**3) C'est ma voiture. Ce n'est pas ta voiture.**\n→ « C'est ma voiture. Ce n'est pas **la tienne**. »\n- Pronom possessif pour éviter la répétition de « voiture »\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "« Je parle à Marie » devient avec un pronom :",
+      "options": [
+        "Je la parle",
+        "Je lui parle",
+        "Je le parle",
+        "Je leur parle"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "« Ce livre est à toi » → Ce livre est :",
+      "options": [
+        "Le mien",
+        "Le tien",
+        "Le sien",
+        "Le leur"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "L'ordre correct des pronoms est :",
+      "options": [
+        "le lui je donne",
+        "je le lui donne",
+        "je lui le donne",
+        "lui je le donne"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

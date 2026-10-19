@@ -1,0 +1,45 @@
+{
+  "id": "espagnol-troisieme-la-consommation-faire-des-achats-demander-un-prix",
+  "title": "La consommation / faire des achats / demander un prix",
+  "summary": "¿Cuánto cuesta? ¿Puedo probármelo? (Combien ça coûte ? Puis-je l'essayer ?)",
+  "lesson": "## Faire des achats\n\n### Demander le prix\n\n- ¿Cuánto cuesta? (Combien ça coûte ?)\n- ¿Cuánto vale? (Combien ça vaut ?)\n- ¿Qué precio tiene? (Quel est le prix ?)\n- ¿Cuánto es todo? (Combien ça fait en tout ?)\n\n### Dans un magasin\n\n**Phrases du client :**\n- Quiero... (Je veux...)\n- Busco... (Je cherche...)\n- ¿Tiene...? (Avez-vous... ?)\n- ¿Puedo ver...? (Puis-je voir... ?)\n- Me gustaría... (J'aimerais...)\n- ¿Puedo probármelo/a? (Puis-je l'essayer ?)\n\n**Phrases du vendeur :**\n- ¿En qué puedo ayudarle? (En quoi puis-je vous aider ?)\n- ¿Qué desea? (Que désirez-vous ?)\n- ¿Qué talla usa? (Quelle taille faites-vous ?)\n- Lo siento, no tenemos. (Désolé, nous n'avons pas)\n\n### Tailles et couleurs\n\n**Les tailles :**\n- pequeño/a (petit/e) → talla S\n- mediano/a (moyen/ne) → talla M\n- grande → talla L\n\n**Les couleurs :**\n- rojo/a, azul, verde, amarillo/a, negro/a, blanco/a, gris, marrón, naranja, rosa\n\n### Moyens de paiement\n\n- en efectivo (en espèces)\n- con tarjeta (par carte)\n- ¿Aceptan tarjetas? (Acceptez-vous les cartes ?)\n\n### Négocier\n\n- ¿Puede hacerme un descuento? (Pouvez-vous me faire une réduction ?)\n- Es muy caro. (C'est très cher)\n- ¿Es el último precio? (C'est le dernier prix ?)\n- ¿Cuánto me deja? (À combien me le laissez-vous ?)\n\n### Au marché / Dans les boutiques\n\n- el mercado (le marché)\n- la tienda (le magasin)\n- el supermercado (le supermarché)\n- la boutique (la boutique)\n- el vendedor / la vendedora (le vendeur / la vendeuse)\n- el cliente / la cliente (le client / la cliente)\n\n### Expressions utiles\n\n- Me lo llevo. (Je le prends)\n- No me convence. (Ça ne me convainc pas)\n- Voy a pensarlo. (Je vais y réfléchir)\n- ¿Tienen algo más barato? (Avez-vous quelque chose de moins cher ?)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "¿Cuánto cuesta? = Combien ça coûte ?",
+    "Quiero/Busco pour demander",
+    "¿Puedo probármelo? = Puis-je l'essayer ?",
+    "En efectivo / con tarjeta"
+  ],
+  "exercise": {
+    "answer": "Cliente: Buenos días, ¿cuánto cuestan estos plátanos? Vendedor: Cuestan 500 francos el kilo. Cliente: Es un poco caro. ¿Puede hacerme un descuento? Vendedor: Le dejo dos kilos por 800 francos. Cliente: De acuerdo, me los llevo.",
+    "question": "Écris un dialogue entre un client et un vendeur au marché."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Pour demander le prix, on dit :",
+      "options": [
+        "¿Cómo cuesta?",
+        "¿Qué cuesta?",
+        "\"¿Cuánto cuesta?\"",
+        "¿Dónde cuesta?"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "'Me lo llevo' signifie :",
+      "options": [
+        "Je le cherche",
+        "Je le vois",
+        "\"Je le prends\"",
+        "Je le veux"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

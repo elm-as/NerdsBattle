@@ -1,0 +1,45 @@
+{
+  "id": "maths-quatrieme-vecteurs-et-translation",
+  "title": "Vecteurs et translation",
+  "summary": "Un bateau se déplace de 5 km vers l'est puis 3 km vers le nord. Comment représenter ce déplacement global ?",
+  "lesson": "## Vecteurs et translation\n\n### Qu'est-ce qu'un vecteur ?\nUn **vecteur** est un objet mathématique défini par :\n- Une **direction** (droite support)\n- Un **sens** (flèche)\n- Une **longueur** (norme)\n\n**Notation :** Le vecteur AB se note **⃗AB** (avec une flèche au-dessus)\n\n### Égalité de vecteurs\nDeux vecteurs sont égaux s'ils ont :\n- Même direction\n- Même sens\n- Même longueur\n\n**⃗AB = ⃗CD** si ABDC est un parallélogramme.\n\n### Translation vectorielle\nLa translation de vecteur ⃗u transforme un point A en un point A' tel que :\n**⃗AA' = ⃗u**\n\n**Construction :**\n1. Placer le vecteur ⃗u\n2. Reproduire ce vecteur en partant de chaque point\n3. Tous les points se déplacent de la même façon\n\n**Propriétés :**\n- Les distances sont conservées\n- Les angles sont conservés\n- Les droites parallèles restent parallèles\n\n### Addition de vecteurs\nPour additionner deux vecteurs ⃗u et ⃗v :\n- Placer ⃗v à l'extrémité de ⃗u\n- Le vecteur résultant va du début de ⃗u à la fin de ⃗v\n\n**Relation de Chasles :**\n⃗AB + ⃗BC = ⃗AC\n\n**Exemple du bateau :**\nDéplacement total = vecteur est (5 km) + vecteur nord (3 km)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Vecteur = direction + sens + longueur",
+    "⃗AB = ⃗CD si ABDC parallélogramme",
+    "Translation : tous les points se déplacent pareil",
+    "Relation de Chasles : ⃗AB + ⃗BC = ⃗AC"
+  ],
+  "exercise": {
+    "answer": "\n**Solution :**\nSi ⃗AB = ⃗CD, alors :\n- [AB] et [CD] sont parallèles\n- [AB] et [CD] ont même longueur\n\nDonc ABDC est un **parallélogramme**.\n\n**Réponse : ABDC est un parallélogramme**\n        ",
+    "question": "Si ⃗AB = ⃗CD, que peut-on dire du quadrilatère ABDC ?"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Un vecteur est défini par :",
+      "options": [
+        "Sa longueur seulement",
+        "Direction, sens, longueur",
+        "Deux points",
+        "Un nombre"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La relation de Chasles s'écrit :",
+      "options": [
+        "⃗AB + ⃗BC = ⃗AC",
+        "⃗AB − ⃗BC = ⃗AC",
+        "⃗AB × ⃗BC = ⃗AC",
+        "⃗AB = ⃗BC"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

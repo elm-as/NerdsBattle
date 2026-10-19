@@ -1,70 +1,44 @@
 {
   "id": "maths-premiere-probabilites-conditionnelles",
-  "title": "Probabilités conditionnelles et arbres",
-  "summary": "Maîtrisez les probabilités conditionnelles et les arbres pondérés pour modéliser des situations complexes et prendre des décisions éclairées. Ce chapitre est essentiel pour réussir au Bac et pour comprendre les bases des statistiques inférentielles.",
-  "lesson": "## Introduction & Mise en situation\n\nLes probabilités conditionnelles sont partout : dans les tests médicaux, les prévisions météo, les jeux de hasard, et même dans les algorithmes de recommandation. Savoir calculer la probabilité d'un événement sachant qu'un autre s'est produit permet de mieux interpréter les données et de prendre des décisions rationnelles. Dans ce chapitre, vous apprendrez à utiliser les arbres pondérés pour visualiser et résoudre des problèmes complexes de probabilités.\n\n## 1. Définitions et Principes Fondamentaux\n\n### Probabilité conditionnelle\n\nSoit $A$ et $B$ deux événements d'un univers $\\Omega$, avec $P(A) > 0$. La probabilité de $B$ sachant $A$ est notée $P(B|A)$ et se calcule par :\n\n$$P(B|A) = \\frac{P(A \\cap B)}{P(A)}$$\n\nInterprétation : c'est la probabilité que $B$ se réalise lorsque l'on sait déjà que $A$ est réalisé.\n\n### Événements indépendants\n\nDeux événements $A$ et $B$ sont dits indépendants si :\n\n$$P(A \\cap B) = P(A) \\times P(B)$$\n\nou de manière équivalente, si $P(A) > 0$ et $P(B) > 0$ :\n\n$$P(B|A) = P(B) \\quad \\text{et} \\quad P(A|B) = P(A)$$\n\n### Formule des probabilités totales\n\nSi les événements $A_1, A_2, \\ldots, A_n$ forment une partition de $\\Omega$ (c'est-à-dire qu'ils sont deux à deux incompatibles et leur réunion est $\\Omega$), alors pour tout événement $B$ :\n\n$$P(B) = P(A_1) \\times P(B|A_1) + P(A_2) \\times P(B|A_2) + \\cdots + P(A_n) \\times P(B|A_n)$$\n\n### Arbre pondéré\n\nUn arbre pondéré est un outil graphique pour représenter une expérience aléatoire en plusieurs étapes. Chaque branche est étiquetée par une probabilité conditionnelle. La probabilité d'un chemin est le produit des probabilités le long de ce chemin.\n\n## 2. Propriétés et Méthodes d'application\n\n### Méthode pour construire un arbre pondéré\n\n1. Identifier les étapes successives de l'expérience.\n2. Pour chaque nœud, tracer les branches correspondant aux issues possibles et indiquer leur probabilité conditionnelle.\n3. La somme des probabilités issues d'un même nœud doit être égale à 1.\n4. Pour calculer la probabilité d'un événement, multiplier les probabilités le long du chemin correspondant.\n\n### Exemple concret\n\n**Énoncé :** Une urne contient 3 boules rouges et 2 boules bleues. On tire successivement deux boules sans remise. Quelle est la probabilité de tirer deux boules rouges ?\n\n**Solution :**\n\n- Étape 1 : Premier tirage. $P(R_1) = \\frac{3}{5}$, $P(B_1) = \\frac{2}{5}$.\n- Étape 2 : Second tirage sans remise. Si on a tiré une rouge, il reste 2 rouges et 2 bleues, donc $P(R_2|R_1) = \\frac{2}{4} = \\frac{1}{2}$. Si on a tiré une bleue, il reste 3 rouges et 1 bleue, donc $P(R_2|B_1) = \\frac{3}{4}$.\n\nOn construit l'arbre :\n\n```\nPremier tirage   Second tirage\n   R (3/5)       R (1/2) -> probabilité = (3/5)*(1/2)=3/10\n                 B (1/2)\n   B (2/5)       R (3/4) -> probabilité = (2/5)*(3/4)=3/10\n                 B (1/4)\n```\n\nLa probabilité de tirer deux boules rouges est $P(R_1 \\cap R_2) = \\frac{3}{5} \\times \\frac{1}{2} = \\frac{3}{10}$.\n\n### Utilisation de la formule de Bayes\n\nLa formule de Bayes permet de calculer une probabilité conditionnelle inverse. Pour deux événements $A$ et $B$ avec $P(B) > 0$ :\n\n$$P(A|B) = \\frac{P(A) \\times P(B|A)}{P(B)}$$\n\nSouvent, on utilise la formule des probabilités totales pour calculer $P(B)$.\n\n### Exemple d'application de Bayes\n\n**Énoncé :** Un test de dépistage d'une maladie a une sensibilité de 95% (probabilité d'être positif si on est malade) et une spécificité de 90% (probabilité d'être négatif si on n'est pas malade). La prévalence de la maladie est de 1%. Quelle est la probabilité d'être malade si le test est positif ?\n\n**Solution :**\n\nSoit $M$ : être malade, $T$ : test positif. On a : $P(M) = 0.01$, $P(T|M) = 0.95$, $P(\\overline{T}|\\overline{M}) = 0.90$, donc $P(T|\\overline{M}) = 0.10$.\n\nCalculons $P(T)$ avec la formule des probabilités totales :\n\n$$P(T) = P(M) \\times P(T|M) + P(\\overline{M}) \\times P(T|\\overline{M}) = 0.01 \\times 0.95 + 0.99 \\times 0.10 = 0.0095 + 0.099 = 0.1085$$\n\nEnsuite, Bayes :\n\n$$P(M|T) = \\frac{P(M) \\times P(T|M)}{P(T)} = \\frac{0.01 \\times 0.95}{0.1085} \\approx 0.0876$$\n\nAinsi, même avec un test positif, la probabilité d'être malade n'est que d'environ 8,8%.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre $P(A \\cap B)$ et $P(A|B)$** : $P(A \\cap B)$ est la probabilité que les deux événements se réalisent, tandis que $P(A|B)$ est la probabilité de $A$ sachant que $B$ est déjà réalisé. Ne les mélangez pas.\n- **Oublier de vérifier l'indépendance** : Ne supposez pas que deux événements sont indépendants sans le vérifier. Utilisez la définition.\n- **Erreur dans la somme des probabilités** : Dans un arbre, la somme des probabilités sur les branches issues d'un même nœud doit être égale à 1. Vérifiez toujours.\n- **Ne pas utiliser la formule des probabilités totales** : Lorsque vous calculez $P(B)$, n'oubliez pas de considérer tous les cas possibles (partition de l'univers).\n- **Confusion dans le tirage sans remise** : Les probabilités changent après chaque tirage sans remise. Adaptez les dénominateurs.\n\n## Synthèse\n\n1. **Probabilité conditionnelle** : $P(B|A) = \\frac{P(A \\cap B)}{P(A)}$.\n2. **Arbre pondéré** : Outil visuel pour calculer des probabilités composées ; la probabilité d'un chemin est le produit des probabilités le long du chemin.\n3. **Formule de Bayes** : Permet de remonter le temps : $P(A|B) = \\frac{P(A) \\times P(B|A)}{P(B)}$.",
-  "estimatedMinutes": 12,
-  "tags": [
-    "probabilités",
-    "conditionnelles",
-    "arbres",
-    "bac",
-    "lycée"
+  "title": "Probabilités conditionnelles",
+  "summary": "Dans un test médical, on doit tenir compte de probabilités conditionnelles. Comment les calculer ?",
+  "lesson": "## Probabilités conditionnelles\n\n### Définition\nP_A(B) = P(A ∩ B) / P(A)\n\nProbabilité que B se réalise sachant que A est réalisé\n\n### Formule des probabilités totales\nSi A₁, A₂, ..., Aₙ forment une partition :\nP(B) = P(A₁)P_A₁(B) + P(A₂)P_A₂(B) + ... + P(Aₙ)P_Aₙ(B)\n\n### Indépendance\nA et B indépendants ⟺ P(A ∩ B) = P(A) × P(B)\n\n### Arbre de probabilités\nReprésentation graphique des probabilités conditionnelles",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "P_A(B) : probabilité de B sachant A",
+    "Formule : P_A(B) = P(A ∩ B) / P(A)",
+    "Arbre pour organiser les calculs"
   ],
+  "exercise": {
+    "question": "Dans une urne : 5 boules rouges, 3 bleues. On tire 2 boules sans remise. Quelle est la probabilité d'avoir 2 rouges ?",
+    "answer": "\n**Solution :**\nP(R₁) = 5/8\nP_R₁(R₂) = 4/7\nP(R₁ ∩ R₂) = 5/8 × 4/7 = 20/56 = 5/14\n\n**Réponse : P = 5/14**\n        "
+  },
   "questions": [
     {
       "id": "q1",
       "type": "mcq",
-      "prompt": "Soit A et B deux événements avec P(A)=0.4, P(B)=0.5 et P(A∩B)=0.2. Quelle est la valeur de P(B|A) ?",
+      "prompt": "Si A et B sont indépendants, alors :",
       "options": [
-        "0.4",
-        "0.5",
-        "0.2",
-        "0.8"
+        "P(A∩B) = 0",
+        "P(A∩B) = P(A)×P(B)",
+        "P(A∪B) = 1",
+        "P_A(B) = 0"
       ],
       "answer": 1,
-      "explanation": "P(B|A) = P(A∩B)/P(A) = 0.2/0.4 = 0.5."
+      "explanation": "Question issue du programme officiel."
     },
     {
       "id": "q2",
-      "type": "truefalse",
-      "prompt": "Si A et B sont indépendants, alors P(A|B) = P(A).",
-      "answer": true,
-      "explanation": "Par définition de l'indépendance, P(A|B) = P(A) si P(B)>0."
-    },
-    {
-      "id": "q3",
-      "type": "fill",
-      "prompt": "Dans une urne avec 3 boules rouges et 2 boules bleues, on tire une boule, on note sa couleur, puis on la remet. On répète l'expérience une deuxième fois. Quelle est la probabilité de tirer deux boules rouges ? (Donner la réponse sous forme de fraction simplifiée, par exemple 3/10)",
-      "answer": "9/25",
-      "explanation": "P(R1∩R2) = P(R1)*P(R2) = (3/5)*(3/5) = 9/25."
-    },
-    {
-      "id": "q4",
       "type": "mcq",
-      "prompt": "Une machine produit 2% de pièces défectueuses. Un test de contrôle détecte 99% des pièces défectueuses et 5% des pièces bonnes sont rejetées par erreur. Quelle est la probabilité qu'une pièce soit défectueuse sachant que le test la rejette ? (arrondir à 0.001)",
+      "prompt": "P_A(B) se lit :",
       "options": [
-        "0.288",
-        "0.020",
-        "0.980",
-        "0.712"
+        "P de A sachant B",
+        "P de B sachant A",
+        "P de A et B",
+        "P de A ou B"
       ],
-      "answer": 0,
-      "explanation": "P(D|R) = P(D)*P(R|D) / [P(D)*P(R|D) + P(B)*P(R|B)] = 0.02*0.99 / (0.02*0.99 + 0.98*0.05) ≈ 0.288."
-    },
-    {
-      "id": "q5",
-      "type": "truefalse",
-      "prompt": "Dans un arbre pondéré, la probabilité d'un événement représenté par un chemin est la somme des probabilités le long de ce chemin.",
-      "answer": false,
-      "explanation": "C'est le produit des probabilités le long du chemin, pas la somme."
-    },
-    {
-      "id": "q6",
-      "type": "fill",
-      "prompt": "Soit P(A)=0.3, P(B|A)=0.4 et P(B|A̅)=0.6. Calculer P(B) (réponse en nombre décimal, par exemple 0.35)",
-      "answer": "0.54",
-      "explanation": "P(B) = P(A)*P(B|A) + P(A̅)*P(B|A̅) = 0.3*0.4 + 0.7*0.6 = 0.12 + 0.42 = 0.54."
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
     }
   ]
 }

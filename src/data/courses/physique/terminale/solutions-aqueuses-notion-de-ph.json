@@ -1,0 +1,280 @@
+{
+  "id": "physique-terminale-solutions-aqueuses-notion-de-ph",
+  "title": "Solutions aqueuses – Notion de pH",
+  "summary": "Lors d'une visite à la station de traitement des eaux du barrage de Buyo, un élève de Terminale C de Soubré apprend que le pH de l'eau est un paramètre critique contrôlé en continu. Un pH trop bas (acide) peut corroder les canalisations, un pH trop haut (basique) peut réduire l'efficacité des coagulants. L'ingénieur explique qu'on mesure le pH avec une électrode connectée à un pH-mètre. Intrigué par cette grandeur, l'élève décide, de retour en classe, d'étudier avec ses camarades la notion de pH, son lien a",
+  "lesson": "## 1. Introduction : L'eau, un solvant particulier\n\nL'eau ($H_2O$) est le solvant le plus courant en chimie. Ses propriétés uniques (solvant polaire, forte constante diélectrique) lui permettent de dissoudre et d'**ioniser** de nombreuses substances, donnant des **solutions aqueuses ioniques**. Elle est également le siège d'une réaction fondamentale : l'**autoprotolyse**.\n\n## 2. Autoprotolyse de l'eau et produit ionique $K_e$\n\nL'eau pure est un **ampholyte** : elle peut jouer le rôle d'acide et de base. Deux molécules d'eau peuvent échanger un proton :\n$$H_2O + H_2O \\\\rightleftharpoons H_3O^+ + OH^-$$\nC'est la réaction d'**autoprotolyse**.\n\n**Constante d'équilibre** : La constante de cet équilibre est notée $K_e$ et appelée **produit ionique de l'eau**.\n$$K_e = [H_3O^+] \\\times [OH^-]$$\n- À 25 °C, $K_e = 1,0 \\\times 10^{-14}$ (sans unité).\n- $K_e$ dépend de la température (elle augmente avec $T$).\n\nDans l'eau pure, par neutralité électrique : $[H_3O^+] = [OH^-]$. Donc $[H_3O^+]^2 = K_e$.\n$$[H_3O^+] = \\\\sqrt{K_e} = 1,0 \\\times 10^{-7} \\\\, mol.L^{-1} \\\\quad (\\\text{à } 25 °C)$$\n\n**Description du schéma 1 : Représentation de l'autoprotolyse de l'eau**\nReprésenter deux molécules d'eau (un atome d'oxygène lié à deux atomes d'hydrogène). Une flèche courbe part d'un atome H d'une molécule vers l'atome O de l'autre molécule, symbolisant le transfert du proton $H^+$. La molécule donneuse devient $OH^-$, la molécule acceptrice devient $H_3O^+$. Légender \"Donneur de proton (acide)\", \"Accepteur de proton (base)\", \"Ion oxonium $H_3O^+$\", \"Ion hydroxyde $OH^-$\".\n\n## 3. Définition et échelle du pH\n\nPour éviter de manipuler de très petits nombres, on définit le **pH** (potentiel Hydrogène) comme le **cologarithme décimal** de la concentration en ions oxonium $H_3O^+$.\n$$pH = -\\\\log([H_3O^+]) \\\\quad \\\text{ou} \\\\quad [H_3O^+] = 10^{-pH} \\\\, (mol.L^{-1})$$\n\n**À 25 °C** :\n- Dans l'eau pure : $[H_3O^+] = 10^{-7} mol.L^{-1}$ donc $pH = -\\\\log(10^{-7}) = 7$. La solution est **neutre**.\n- Si $[H_3O^+] > [OH^-]$ alors $pH < 7$ : la solution est **acide**.\n- Si $[H_3O^+] < [OH^-]$ alors $pH > 7$ : la solution est **basique** (ou alcaline).\n\n**Échelle de pH** : Elle s'étend généralement de 0 (très acide) à 14 (très basique), chaque unité correspond à un facteur 10 sur la concentration.\n\n## 4. Relation entre pH, $pOH$ et $K_e$\n\nOn définit également le $pOH$ : $pOH = -\\\\log([OH^-])$.\nÀ partir de $K_e = [H_3O^+][OH^-] = 10^{-14}$, on déduit une relation très utile à 25 °C :\n$$-\\\\log(K_e) = -\\\\log([H_3O^+]) - \\\\log([OH^-])$$\n$$pK_e = pH + pOH = 14$$\nAinsi, $pH = 14 - pOH$.\n\n## 5. Mesure et calcul du pH\n\n**Mesure** :\n- **pH-mètre** : Appareil électronique utilisant une électrode de verre combinée, c'est la méthode la plus précise.\n- **Papier pH** ou indicateur coloré : Fournit une valeur approximative par comparaison de couleur.\n\n**Calcul pour une solution acide ou basique forte (monoprotonique)** :\n- Pour un **acide fort** entièrement dissocié : $[H_3O^+] = C_a$ (concentration de l'acide). Donc $pH = -\\\\log(C_a)$.\n- Pour une **base forte** entièrement dissociée : $[OH^-] = C_b$. Donc $pOH = -\\\\log(C_b)$ et $pH = 14 + \\\\log(C_b)$.\n\n**Attention** : Ces relations simples ne sont valables que si $C_a$ ou $C_b$ sont suffisamment grandes (typiquement $> 10^{-6} mol.L^{-1}$) pour que l'autoprotolyse de l'eau soit négligeable.\n\n**Description du schéma 2 : Échelle de pH avec exemples concrets**\nReprésenter une règle horizontale graduée de 0 à 14. Sous l'échelle, placer des zones colorées : Rouge de 0 à 7 (acide), Vert au point 7 (neutre), Bleu de 7 à 14 (basique). Au-dessus de l'échelle, placer des flèches pointant vers des exemples : 1-2 (Jus de citron), 3 (Cola, vinaigre), 5 (Café, peau), 6 (Lait), 7 (Eau pure), 8 (Eau de mer), 9 (Bicarbonate), 10 (Savon), 11 (Ammoniaque), 13 (Détergent, soude).\n\n## 6. Applications en contexte ivoirien : contrôle de la qualité\n\n- **Eau potable** : Le pH doit être proche de la neutralité (généralement entre 6.5 et 8.5) pour éviter la corrosion des canalisations et assurer l'efficacité de la chloration.\n- **Agriculture** : Le pH du sol influence la disponibilité des nutriments pour les plantes (cacaoyer, hévéa, palmier à huile). Un sol trop acide peut être chaulé.\n- **Pisciculture** : Le pH de l'eau des bassins piscicoles (ex. tilapia) doit être contrôlé pour la santé des poissons.\n- **Industrie alimentaire** : Le pH est critique pour la conservation (pH bas inhibe les bactéries) et la texture des produits.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Produit ionique de l'eau à 25 °C : $K_e = [H_3O^+][OH^-] = 1.0 \\\\times 10^{-14}$.",
+    "Définition du pH : $pH = -\\\\log_{10}([H_3O^+])$.",
+    "À 25 °C : $pH + pOH = 14$.",
+    "pH = 7 (neutre), pH < 7 (acide), pH > 7 (basique).",
+    "Pour un acide fort de concentration $C_a$ : $pH = -\\\\log(C_a)$ (si $C_a$ n'est pas trop faible)."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "À 25 °C, quelle est la concentration en ions $H_3O^+$ dans l'eau pure ?",
+      "options": [
+        "$10^{-7} mol.L^{-1}$",
+        "$10^{-14} mol.L^{-1}$",
+        "$1 mol.L^{-1}$",
+        "$10^{-1} mol.L^{-1}$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle est la valeur du produit ionique de l'eau $K_e$ à 25 °C ?",
+      "options": [
+        "$10^{-7}$",
+        "$10^{-14}$",
+        "$14$",
+        "$7$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Si le pH d'une solution est de 3, elle est :",
+      "options": [
+        "Fortement basique",
+        "Neutre",
+        "Faiblement acide",
+        "Fortement acide"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la relation entre pH et pOH à 25 °C ?",
+      "options": [
+        "$pH = pOH$",
+        "$pH + pOH = 7$",
+        "$pH + pOH = 14$",
+        "$pH - pOH = 7$"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Si $[H_3O^+] = 2.5 \\\\times 10^{-4} mol.L^{-1}$, quel est le pH approximatif ?",
+      "options": [
+        "3.6",
+        "4.0",
+        "3.0",
+        "10.4"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Le pH d'une solution de soude $NaOH$ à $10^{-3} mol.L^{-1}$ (base forte) à 25 °C est :",
+      "options": [
+        "3",
+        "11",
+        "7",
+        "1"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quelle est la concentration en $OH^-$ d'une solution de pH = 9 à 25 °C ?",
+      "options": [
+        "$10^{-9} mol.L^{-1}$",
+        "$10^{-5} mol.L^{-1}$",
+        "$10^{-14} mol.L^{-1}$",
+        "$10^{-7} mol.L^{-1}$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "La mesure la plus précise du pH se fait avec :",
+      "options": [
+        "Du papier tournesol",
+        "Un pH-mètre",
+        "Du chou rouge",
+        "Un indicateur universel"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Pour l'agriculture du cacao en Côte d'Ivoire, un sol légèrement acide est souvent préférable. Quel pH pourrait correspondre ?",
+      "options": [
+        "pH 8.5",
+        "pH 4.0",
+        "pH 6.5",
+        "pH 2.0"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "La relation $pH = -\\\\log([H_3O^+])$ est valable :",
+      "options": [
+        "Uniquement pour les acides forts",
+        "Uniquement pour les bases fortes",
+        "Pour toute solution aqueuse diluée",
+        "Uniquement pour l'eau pure"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Le produit ionique de l'eau à 25°C est :",
+      "options": [
+        "10⁻⁷",
+        "10⁻¹⁴",
+        "10⁻¹⁰",
+        "7"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Une solution de pH = 3 a une concentration en H₃O⁺ de :",
+      "options": [
+        "10⁻³ mol/L",
+        "3 mol/L",
+        "10³ mol/L",
+        "7 mol/L"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Le pH de l'eau pure à 25°C est :",
+      "options": [
+        "0",
+        "7",
+        "14",
+        "Variable"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Une solution basique a un pH :",
+      "options": [
+        "< 7",
+        "= 7",
+        "> 7",
+        "= 0"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "La relation entre pH et pOH à 25°C est :",
+      "options": [
+        "pH = pOH",
+        "pH + pOH = 7",
+        "pH + pOH = 14",
+        "pH - pOH = 7"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Pour mesurer précisément le pH, on utilise :",
+      "options": [
+        "Papier pH",
+        "pH-mètre",
+        "Indicateur universel",
+        "Tournesol"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Le pH d'une solution de HCl 0,01 M est :",
+      "options": [
+        "1",
+        "2",
+        "7",
+        "12"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Si [H₃O⁺] = 10⁻⁵ M, alors [OH⁻] = :",
+      "options": [
+        "10⁻⁹ M",
+        "10⁻¹⁴ M",
+        "10⁻⁵ M",
+        "10⁻¹⁹ M"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Un indicateur qui vire au rose en milieu basique est :",
+      "options": [
+        "Hélianthine",
+        "Phénolphtaléine",
+        "BBT",
+        "Bleu de bromophénol"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Le pH du sang humain est normalement :",
+      "options": [
+        "Autour de 2",
+        "Autour de 7",
+        "Autour de 7,4",
+        "Autour de 9"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

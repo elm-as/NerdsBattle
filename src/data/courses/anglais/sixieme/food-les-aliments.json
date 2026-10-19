@@ -1,0 +1,58 @@
+{
+  "id": "anglais-sixieme-food-les-aliments",
+  "title": "Food - Les aliments",
+  "summary": "Au marché d'Abidjan, Kofi achète des fruits et légumes. Comment parler des aliments en anglais ?",
+  "lesson": "## Food - Les aliments\n\n### Fruits - Les fruits\n\n- **Banana** - banane\n- **Orange** - orange\n- **Apple** - pomme\n- **Mango** - mangue\n- **Pineapple** - ananas\n- **Watermelon** - pastèque\n- **Papaya** - papaye\n\n### Vegetables - Les légumes\n\n- **Tomato** - tomate\n- **Onion** - oignon\n- **Potato** - pomme de terre\n- **Carrot** - carotte\n- **Lettuce** - salade\n\n### Other Foods\n\n- **Rice** - riz\n- **Bread** - pain\n- **Meat** - viande\n- **Fish** - poisson\n- **Egg** - œuf\n- **Chicken** - poulet\n- **Cheese** - fromage\n\n## Like and Love\n\n**I like...** - J'aime...\n**I love...** - J'adore...\n**I don't like...** - Je n'aime pas...\n\n- I **like** bananas.\n- She **loves** mangoes.\n- They **don't like** fish.\n\n## Questions\n\n**Do you like...?** - Tu aimes... ?\n**What's your favorite food?** - Quel est ton aliment préféré ?\n\n- **Do you like** rice? - Yes, I do. / No, I don't.\n- **What's your favorite fruit?** - My favorite fruit is mango.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Fruits : banana, orange, apple, mango",
+    "Légumes : tomato, onion, potato",
+    "I like/love + aliment",
+    "Do you like...? pour demander"
+  ],
+  "exercise": {
+    "answer": "\n**Solution :**\nI like mangoes. I don't like onions. My favorite fruit is pineapple.\n        ",
+    "question": "Traduis : 'J'aime les mangues. Je n'aime pas les oignons. Mon fruit préféré est l'ananas.'"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'mangue' ?",
+      "options": [
+        "Banana",
+        "Orange",
+        "Mango",
+        "Apple"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle phrase est correcte ?",
+      "options": [
+        "I like banana",
+        "I like bananas",
+        "I liking bananas",
+        "I am like bananas"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Comment demander si quelqu'un aime quelque chose ?",
+      "options": [
+        "You like rice?",
+        "Do you like rice?",
+        "Are you like rice?",
+        "Like you rice?"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "svt-premiere-la-transmission-d-un-caractere-hereditaire-le-mono",
+  "title": "La transmission d'un caractère héréditaire : le monohybridisme",
+  "summary": "Des élèves du Lycée moderne de SEGUELA en visite dans une ferme observent des lapereaux et des poussins. Ils constatent que ces jeunes animaux ressemblent à leurs géniteurs par certains caractères.",
+  "lesson": "\n## Génétique et hérédité\n\n### Définitions de base\n\n**Caractère héréditaire :**\nTrait observable transmis des parents aux descendants (couleur des yeux, groupe sanguin, etc.)\n\n**Génétique :**\nScience qui étudie la transmission des caractères héréditaires.\n\n**Hérédité :**\nTransmission des caractères des parents aux descendants.\n\n## Vocabulaire génétique\n\n### Gène\n\n**Définition :**\nUnité d'information génétique située sur un chromosome, responsable d'un caractère.\n\n**Exemple :**\nGène de la couleur des yeux.\n\n### Allèle\n\n**Définition :**\nVersion différente d'un même gène.\n\n**Exemples :**\n- Gène \"couleur pelage\" chez la souris : allèle \"noir\" ou allèle \"blanc\"\n- Gène \"groupe sanguin\" : allèles A, B, O\n\n**Notation :**\n- Allèle dominant : lettre majuscule (A, B, N)\n- Allèle récessif : lettre minuscule (a, b, n)\n\n### Locus\n\n**Définition :**\nPosition d'un gène sur un chromosome.\n\n### Génotype\n\n**Définition :**\nEnsemble des allèles d'un individu pour un ou plusieurs gènes.\n\n**Exemples :**\n- Homozygote : AA, aa (deux allèles identiques)\n- Hétérozygote : Aa (deux allèles différents)\n\n### Phénotype\n\n**Définition :**\nEnsemble des caractères observables d'un individu.\n\n**Exemples :**\n- Pelage noir\n- Yeux bleus\n- Groupe sanguin A\n\n**Relation :**\nGénotype + Environnement → Phénotype\n\n## Le monohybridisme\n\n### Définition\n\nÉtude de la transmission d'un seul caractère héréditaire.\n\n**Croisement monohybride :**\nCroisement entre deux individus qui diffèrent par un seul caractère.\n\n## Cas 1 : Dominance complète\n\n### Principe\n\nUn allèle **dominant** masque l'expression de l'allèle **récessif**.\n\n### Exemple : Couleur du pelage chez la souris\n\n**Allèles :**\n- N (noir) : allèle dominant\n- n (blanc) : allèle récessif\n\n**Phénotypes possibles :**\n- Pelage noir : NN ou Nn\n- Pelage blanc : nn\n\n### Croisement de lignées pure (P)\n\n**Parents :**\n- Souris noire pure : NN\n- Souris blanche pure : nn\n\n**Gamètes :**\n- Souris NN → tous les gamètes N\n- Souris nn → tous les gamètes n\n\n**F1 (première génération) :**\nTous les descendants : **Nn** (phénotype noir)\n\n**Résultat :** 100% de souris noires\n\n**Loi de pureté des gamètes (1ère loi de Mendel) :**\nLes deux allèles d'un gène se séparent lors de la formation des gamètes.\n\n### Autofécondation de F1 (ou croisement F1 x F1)\n\n**Parents F1 :**\nDeux souris Nn\n\n**Gamètes :**\n- Chaque souris Nn produit 50% de gamètes N et 50% de gamètes n\n\n**Échiquier de croisement (F2) :**\n\n|   | N | n |\n|---|---|---|\n| **N** | NN | Nn |\n| **n** | Nn | nn |\n\n**Résultats F2 :**\n- **Génotypes :** 1 NN : 2 Nn : 1 nn (ratio 1:2:1)\n- **Phénotypes :** 3 souris noires : 1 souris blanche (ratio 3:1)\n\n**Loi de ségrégation indépendante (2e loi de Mendel) :**\nLes allèles se répartissent de façon aléatoire dans les gamètes.\n\n### Test-cross (croisement-test)\n\n**Objectif :**\nDéterminer le génotype d'un individu au phénotype dominant.\n\n**Principe :**\nCroiser l'individu de génotype inconnu avec un individu homozygote récessif.\n\n**Exemple :**\nSouris noire (N?) × souris blanche (nn)\n\n**Si la souris noire est NN :**\n- Tous les descendants : Nn (noirs)\n- Ratio : 100% noirs\n\n**Si la souris noire est Nn :**\n- Descendants : 50% Nn (noirs) + 50% nn (blancs)\n- Ratio : 1 noir : 1 blanc\n\n## Cas 2 : Codominance\n\n### Principe\n\nLes deux allèles s'expriment simultanément (pas de dominance).\n\n### Exemple : Groupe sanguin (système ABO)\n\n**Allèles :**\n- A et B : codominants\n- O : récessif\n\n**Génotypes et phénotypes :**\n- Groupe A : AA ou AO\n- Groupe B : BB ou BO\n- Groupe AB : AB (codominance)\n- Groupe O : OO\n\n### Exemple de croisement\n\n**Parents :**\n- Père groupe A (AO) × Mère groupe B (BO)\n\n**Gamètes :**\n- Père : 50% A, 50% O\n- Mère : 50% B, 50% O\n\n**Échiquier :**\n\n|   | A | O |\n|---|---|---|\n| **B** | AB | BO |\n| **O** | AO | OO |\n\n**Résultats :**\n- 25% groupe AB (AB)\n- 25% groupe A (AO)\n- 25% groupe B (BO)\n- 25% groupe O (OO)\n\n**Ratio phénotypique :** 1:1:1:1\n\n## Cas 3 : Gènes liés au sexe (hétérosomaux)\n\n### Principe\n\nGène porté par les chromosomes sexuels (X ou Y).\n\n### Exemple : Hémophilie (gène sur X)\n\n**Allèles :**\n- XH : allèle normal (dominant)\n- Xh : allèle hémophilie (récessif)\n\n**Génotypes :**\n- Homme normal : XHY\n- Homme hémophile : XhY\n- Femme normale : XHXH ou XHXh (conductrice)\n- Femme hémophile : XhXh (très rare)\n\n**Croisement :**\nFemme conductrice (XHXh) × Homme normal (XHY)\n\n**Résultats :**\n- Filles : 50% XHXH (normales), 50% XHXh (conductrices)\n- Garçons : 50% XHY (normaux), 50% XhY (hémophiles)\n\n**Particularité :**\nLes maladies récessives liées à X touchent principalement les hommes.\n\n## Arbre généalogique\n\n### Symboles\n\n- Carré : homme\n- Cercle : femme\n- Symbole plein : individu atteint\n- Symbole vide : individu sain\n- Demi-plein : hétérozygote (porteur sain)\n\n### Utilité\n\nÉtudier la transmission d'un caractère sur plusieurs générations.\n      ",
+  "situation": "Des élèves du Lycée moderne de SEGUELA en visite dans une ferme observent des lapereaux et des poussins. Ils constatent que ces jeunes animaux ressemblent à leurs géniteurs par certains caractères.",
+  "videoUrl": null,
+  "videoTitle": null,
+  "videoDuration": null,
+  "keyPoints": [
+    "Génotype = ensemble des allèles ; Phénotype = caractères observables",
+    "Dominance complète : allèle dominant masque le récessif",
+    "F1 (pur × pur) : 100% phénotype dominant",
+    "F2 (F1 × F1) : ratio 3:1 (dominance) ou 1:2:1 (codominance)",
+    "Test-cross = croisement avec homozygote récessif"
+  ],
+  "exercise": {
+    "question": "Chez le cobaye, le pelage lisse (L) domine le pelage crépu (l). On croise deux cobayes à pelage lisse. On obtient 75% de cobayes lisses et 25% de cobayes crépus. Déterminez le génotype des parents.",
+    "answer": "Les parents sont tous deux hétérozygotes Ll. Croisement Ll × Ll donne : 1 LL : 2 Ll : 1 ll, soit 75% lisses (LL + Ll) et 25% crépus (ll). Si l'un des parents était LL, on aurait eu 100% de descendants lisses."
+  },
+  "track": "D",
+  "estimatedMinutes": 16,
+  "tags": [
+    "svt",
+    "premiere",
+    "premiere-d"
+  ],
+  "questions": [
+    {
+      "id": "auth-q1",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Un individu hétérozygote possède :",
+      "options": [
+        "Deux allèles identiques",
+        "Deux allèles différents",
+        "Un seul allèle",
+        "Trois allèles"
+      ],
+      "explanation": "Question issue du cursus officiel."
+    },
+    {
+      "id": "auth-q2",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "En dominance complète, le ratio phénotypique en F2 est :",
+      "options": [
+        "1:1",
+        "1:2:1",
+        "3:1",
+        "9:3:3:1"
+      ],
+      "explanation": "Question issue du cursus officiel."
+    },
+    {
+      "id": "auth-q3",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Un test-cross se fait avec un individu :",
+      "options": [
+        "Homozygote dominant",
+        "Hétérozygote",
+        "Homozygote récessif",
+        "N'importe lequel"
+      ],
+      "explanation": "Question issue du cursus officiel."
+    },
+    {
+      "id": "auto-svt-1-mva6mx4y",
+      "type": "mcq",
+      "prompt": "Dans le cadre d'une expérience de monohybridisme sur la couleur du pelage des lapins, on croise un individu homozygote dominant (AA) avec un individu homozygote récessif (aa). Quel est le génotype exact de l'ensemble des descendants de la génération F1 ?",
+      "options": [
+        "100 % AA",
+        "100 % Aa",
+        "50 % AA et 50 % aa",
+        "75 % Aa et 25 % aa"
+      ],
+      "answer": 1,
+      "explanation": "Un individu homozygote dominant (AA) ne produit que des gamètes portant l'allèle A. Un individu homozygote récessif (aa) ne produit que des gamètes portant l'allèle a. La fécondation de ces gamètes (A x a) donne exclusivement des zygotes hétérozygotes (Aa). Ainsi, 100 % de la génération F1 est de génotype Aa."
+    },
+    {
+      "id": "auto-svt-2-mva6mx4y",
+      "type": "mcq",
+      "prompt": "Considérons un gène contrôlant la couleur des yeux chez le poussin, où l'allèle rouge (R) est dominant sur l'allèle blanc (r). Si deux parents hétérozygotes (Rr) sont croisés, quelle est la probabilité théorique qu'un descendant de la génération F2 présente le phénotype récessif (yeux blancs) ?",
+      "options": [
+        "1/2",
+        "1/4",
+        "3/4",
+        "1/8"
+      ],
+      "answer": 1,
+      "explanation": "Le croisement Rr x Rr produit les génotypes suivants en F2 : 1/4 RR, 1/2 Rr et 1/4 rr. Le phénotype récessif (yeux blancs) n'apparaît que chez les individus homozygotes récessifs (rr). La probabilité d'obtenir un génotype rr est donc de 1/4."
+    },
+    {
+      "id": "auto-svt-3-mva6mx4y",
+      "type": "mcq",
+      "prompt": "En génétique mendélienne, le terme 'monohybridisme' désigne spécifiquement l'étude de la transmission :",
+      "options": [
+        "De deux caractères indépendants simultanément",
+        "D'un seul caractère héréditaire contrôlé par un gène unique",
+        "De caractères liés au sexe",
+        "De mutations chromosomiques structurelles"
+      ],
+      "answer": 1,
+      "explanation": "Le préfixe 'mono' signifie 'un seul'. Le monohybridisme est l'étude de la transmission d'un seul caractère héréditaire (par exemple, la couleur du pelage) contrôlé par un gène unique possédant deux allèles. L'étude de deux caractères simultanément relève du dihybridisme."
+    },
+    {
+      "id": "auto-svt-4-mva6mx4y",
+      "type": "mcq",
+      "prompt": "Un élève observe que le croisement de deux lapins au pelage gris donne naissance à des petits gris et à des petits blancs. Sachant que la couleur blanche est récessive, quel est le génotype le plus probable des deux parents ?",
+      "options": [
+        "Les deux parents sont homozygotes dominants (GG)",
+        "Les deux parents sont hétérozygotes (Gg)",
+        "Un parent est homozygote dominant (GG) et l'autre homozygote récessif (gg)",
+        "Un parent est hétérozygote (Gg) et l'autre homozygote récessif (gg)"
+      ],
+      "answer": 1,
+      "explanation": "Pour qu'un descendant présente le phénotype récessif (blanc, génotype gg), il doit recevoir un allèle récessif (g) de chacun de ses parents. Puisque les parents sont gris (phénotype dominant), ils doivent posséder au moins un allèle dominant (G). Par conséquent, les deux parents doivent être hétérozygotes (Gg) pour transmettre l'allèle récessif tout en exprimant le phénotype dominant."
+    },
+    {
+      "id": "auto-svt-5-mva6mx4y",
+      "type": "mcq",
+      "prompt": "Lors d'une analyse de la génération F2 issue d'un croisement monohybridique entre deux hétérozygotes, on observe 300 individus au phénotype dominant et 100 individus au phénotype récessif. Ce ratio phénotypique observé correspond-il à la loi de ségrégation de Mendel ?",
+      "options": [
+        "Non, le ratio attendu est 1:1",
+        "Oui, le ratio observé est proche de 3:1",
+        "Non, le ratio attendu est 9:3:3:1",
+        "Oui, le ratio observé est exactement 4:1"
+      ],
+      "answer": 1,
+      "explanation": "La loi de ségrégation de Mendel prédit un ratio phénotypique de 3 (dominants) pour 1 (récessif) en F2 pour un monohybridisme. Le ratio observé est 300:100, ce qui simplifie à 3:1. Ce résultat est en accord parfait avec la théorie mendélienne."
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "physique-sixieme-commande-d-un-circuit-electrique",
+  "title": "Commande d'un Circuit Électrique",
+  "summary": "Un de tes camarades de classe t'informe qu'il constate parfois en ouvrant la portière d'une voiture ou d'un réfrigérateur, qu'une lampe s'allume. Cette lampe s'éteint en refermant la portière. Il ne comprend pas l'allumage de cette lampe. En classe avec vos camarades, vous vous engagez sous la supervision du Professeur à identifier les différents types d'organes de commande, à réaliser et à schématiser des circuits électriques commandés par ces organes.",
+  "lesson": "## 1. Commande d'un circuit électrique à l'aide d'un interrupteur simple\n\n### 1.1 Image et symbole\nUn interrupteur simple possède deux positions : ouvert et fermé.\n\n### 1.2 Allumage d'une lampe avec un interrupteur simple\n**Conclusion**: Un interrupteur simple permet d'ouvrir ou de fermer un circuit électrique de façon permanente.\n\n## 2. Le bouton poussoir\n\n### 2.1 Types de bouton poussoir\n- **Bouton poussoir ouvert au repos**: Le circuit est ouvert au repos\n- **Bouton poussoir fermé au repos**: Le circuit est fermé au repos\n\n### 2.2 Fonctionnement\nUn bouton poussoir permet d'ouvrir ou de fermer un circuit électrique de façon temporaire.\n\n**Remarque**:\n- Le bouton poussoir fermé au repos est utilisé pour commander la lampe d'un réfrigérateur ou à l'intérieur d'une voiture\n- Le bouton poussoir ouvert au repos est utilisé pour commander la sonnerie à l'entrée d'une maison ou la sirène d'un établissement scolaire\n\n## 3. Le commutateur\n\n### 3.1 Description\nUn commutateur possède trois bornes : le commun (C), la position repos (R) et la position travail (T).\n\n### 3.2 Allumage alterné de deux lampes\nLe commutateur permet d'allumer alternativement deux lampes électriques.\n\n### 3.3 Le montage va-et-vient\nLe montage va-et-vient permet de commander (allumer ou éteindre) une lampe électrique à partir de deux endroits différents.\n\n**Remarque**: Le montage va-et-vient commande l'éclairage des escaliers d'un immeuble, de certaines chambres ou de certains salons d'une maison.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "L'interrupteur simple ouvre ou ferme un circuit de façon permanente",
+    "Le bouton poussoir ouvre ou ferme un circuit de façon temporaire",
+    "Le commutateur permet d'allumer alternativement deux lampes",
+    "Le montage va-et-vient utilise deux commutateurs pour commander une lampe depuis deux points"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel organe de commande ouvre ou ferme un circuit de façon permanente ?",
+      "options": [
+        "Le bouton poussoir",
+        "\"L'interrupteur simple\"",
+        "Le commutateur",
+        "Le fusible"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel organe de commande est utilisé pour la lampe d'un réfrigérateur ?",
+      "options": [
+        "Interrupteur simple",
+        "Bouton poussoir ouvert au repos",
+        "\"Bouton poussoir fermé au repos\"",
+        "Commutateur"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Que permet de faire un commutateur ?",
+      "options": [
+        "Allumer une seule lampe",
+        "Éteindre définitivement le circuit",
+        "Protéger le circuit",
+        "\"Allumer alternativement deux lampes\""
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Combien de commutateurs sont nécessaires pour un montage va-et-vient ?",
+      "options": [
+        "Un",
+        "\"Deux\"",
+        "Trois",
+        "Quatre"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Le bouton poussoir ouvert au repos:",
+      "options": [
+        "Ferme le circuit en permanence",
+        "Ferme le circuit temporairement",
+        "Ouvre le circuit en permanence",
+        "Ne sert à rien"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Un commutateur permet de:",
+      "options": [
+        "Fermer un circuit",
+        "Ouvrir un circuit",
+        "Choisir entre plusieurs branches",
+        "Augmenter le courant"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "id": "physique-seconde-le-mouvement",
+  "title": "Le mouvement",
+  "summary": "Un taxi roule à Abidjan. Le chauffeur dit qu'il roule à 60 km/h, mais pour un piéton, le taxi semble aller très vite. Comment décrire le mouvement ?",
+  "lesson": "## Notion de référentiel\n\n### Définition\n\nUn **référentiel** est un objet par rapport auquel on étudie le mouvement.\n\n**Exemples :**\n- Référentiel terrestre : la Terre (pour étudier le mouvement d'une voiture)\n- Référentiel géocentrique : centre de la Terre (pour étudier les satellites)\n- Référentiel du bus : pour un passager assis\n\n### Relativité du mouvement\n\nUn même objet peut être en mouvement ou immobile selon le référentiel choisi.\n\n**Exemple :**\nUn passager assis dans un bus :\n- Par rapport au bus → **immobile**\n- Par rapport à la route → **en mouvement**\n\n## La trajectoire\n\n### Définition\n\nLa **trajectoire** est l'ensemble des positions successives d'un mobile.\n\n### Types de trajectoires\n\n1. **Rectiligne** : ligne droite\n   - Train sur des rails droits\n   - Chute d'une pierre\n\n2. **Circulaire** : cercle\n   - Roue de vélo qui tourne\n   - Satellite autour de la Terre\n\n3. **Curviligne** : courbe quelconque\n   - Ballon de football lancé\n   - Voiture sur une route sinueuse\n\n## La vitesse\n\n### Vitesse moyenne\n\n**Formule :**\n```\nv = d / t\n```\n\nOù :\n- **v** = vitesse (m/s ou km/h)\n- **d** = distance parcourue (m ou km)\n- **t** = temps (s ou h)\n\n**Conversions :**\n```\n1 m/s = 3,6 km/h\n1 km/h = 1/3,6 m/s ≈ 0,278 m/s\n```\n\n**Exemple :**\nUn taxi parcourt 18 km en 20 minutes.\n```\nt = 20 min = 20/60 h = 1/3 h\nv = 18 / (1/3) = 18 × 3 = 54 km/h\n```\n\n### Vitesse instantanée\n\nVitesse à un instant précis (affichée sur le compteur d'une voiture).\n\n## Types de mouvements\n\n### Mouvement uniforme\n\nVitesse **constante** au cours du temps.\n\n**Exemple :**\n- Train sur rails droits à vitesse constante\n\n### Mouvement varié\n\nVitesse qui **change** au cours du temps.\n\n**Types :**\n- **Accéléré** : vitesse augmente (voiture qui démarre)\n- **Ralenti** : vitesse diminue (voiture qui freine)\n\n## Applications en Côte d'Ivoire\n\n### Limitations de vitesse\n\n- **En ville** : 60 km/h\n- **Route nationale** : 90 km/h\n- **Autoroute** : 110 km/h\n\n### Distance de sécurité\n\n**Formule pratique :**\n```\nDistance (m) = vitesse (km/h) / 2\n```\n\n**Exemple à 90 km/h :**\nDistance minimale = 90 / 2 = 45 m\n\n### Calcul de temps de trajet\n\n**Abidjan → Yamoussoukro** : 240 km\n\nÀ 90 km/h en moyenne :\n```\nt = d / v = 240 / 90 = 2,67 h ≈ 2h40min\n```",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Mouvement relatif au référentiel choisi",
+    "v = d / t",
+    "3 trajectoires : rectiligne, circulaire, curviligne",
+    "Respecter les limitations de vitesse"
+  ],
+  "exercise": {
+    "question": "Un car de transport fait Abidjan-Bouaké (360 km) en 4 heures. Quelle est sa vitesse moyenne en km/h puis en m/s ?",
+    "answer": "\n**Solution :**\n\n1. **Vitesse en km/h :**\n   ```\n   v = d / t = 360 / 4 = 90 km/h\n   ```\n\n2. **Conversion en m/s :**\n   ```\n   v (m/s) = v (km/h) / 3,6\n   v = 90 / 3,6 = 25 m/s\n   ```\n\n**Réponses :**\n- Vitesse moyenne : **90 km/h**\n- Vitesse moyenne : **25 m/s**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Par rapport à quoi étudie-t-on un mouvement ?",
+      "options": [
+        "Un référentiel",
+        "Une vitesse",
+        "Une trajectoire",
+        "Un mobile"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Une voiture parcourt 120 km en 1h30. Quelle est sa vitesse moyenne ?",
+      "options": [
+        "60 km/h",
+        "80 km/h",
+        "90 km/h",
+        "120 km/h"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle est la limite de vitesse en ville en Côte d'Ivoire ?",
+      "options": [
+        "50 km/h",
+        "60 km/h",
+        "90 km/h",
+        "110 km/h"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la définition correcte du mouvement relatif ?",
+      "options": [
+        "Le mouvement qui dépend du référentiel choisi",
+        "Le mouvement à vitesse constante",
+        "Le mouvement circulaire uniquement",
+        "Le mouvement sans accélération"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle unité utilise-t-on pour la vitesse dans le système international ?",
+      "options": [
+        "mètre par seconde (m/s)",
+        "kilomètre par heure (km/h)",
+        "nœud",
+        "mètre par minute"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Dans le contexte ivoirien, quel référentiel utiliser pour étudier le mouvement d'une pirogue ?",
+      "options": [
+        "Référentiel lié à la lagune (berge)",
+        "Référentiel lié à la Lune",
+        "Référentiel lié à un autre bateau",
+        "Référentiel lié aux nuages"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quelle est la trajectoire d'un mouvement rectiligne uniforme ?",
+      "options": [
+        "Une droite",
+        "Un cercle",
+        "Une parabole",
+        "Une ellipse"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Que représente le vecteur position $\\\\overrightarrow{OM}$ ?",
+      "options": [
+        "La position du mobile par rapport à l'origine",
+        "La vitesse du mobile",
+        "L'accélération du mobile",
+        "La force appliquée au mobile"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Comment calcule-t-on la vitesse moyenne ?",
+      "options": [
+        "Distance parcourue divisée par le temps",
+        "Temps divisé par la distance",
+        "Produit de la distance et du temps",
+        "Racine carrée de la distance"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quelle caractéristique du vecteur-vitesse est toujours vraie ?",
+      "options": [
+        "Il est tangent à la trajectoire",
+        "Il est perpendiculaire à la trajectoire",
+        "Il pointe vers le centre du cercle",
+        "Il est constant en norme"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel type de mouvement a une accélération centripète ?",
+      "options": [
+        "Mouvement circulaire uniforme",
+        "Mouvement rectiligne uniforme",
+        "Mouvement rectiligne accéléré",
+        "Mouvement parabolique"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Dans l'industrie cacaoyère, quel mouvement est typique d'un convoyeur ?",
+      "options": [
+        "Mouvement rectiligne uniforme",
+        "Mouvement circulaire",
+        "Mouvement aléatoire",
+        "Mouvement oscillatoire"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quelle est la vitesse moyenne d'un véhicule parcourant 240 km en 3 heures ?",
+      "options": [
+        "80 km/h",
+        "70 km/h",
+        "90 km/h",
+        "100 km/h"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Le mouvement d'un objet est toujours :",
+      "options": [
+        "Absolu",
+        "Relatif",
+        "Uniforme",
+        "Rectiligne"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quelle est l'unité SI de la vitesse ?",
+      "options": [
+        "km/h",
+        "m/s",
+        "cm/min",
+        "noeud"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Un mouvement rectiligne uniforme se caractérise par :",
+      "options": [
+        "Une trajectoire circulaire",
+        "Une vitesse constante",
+        "Une accélération nulle",
+        "Une vitesse nulle"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Dans un mouvement circulaire uniforme, le vecteur vitesse est :",
+      "options": [
+        "Constant",
+        "Radial",
+        "Tangent au cercle",
+        "Nul"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Convertir 90 km/h en m/s :",
+      "options": [
+        "25 m/s",
+        "30 m/s",
+        "15 m/s",
+        "324 m/s"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Le référentiel utilisé pour étudier le mouvement d'un bus à Abidjan est généralement :",
+      "options": [
+        "Héliocentrique",
+        "Géocentrique",
+        "Terrestre",
+        "Galiléen"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Quelle grandeur représente la limite de Δx/Δt quand Δt→0 ?",
+      "options": [
+        "Vitesse moyenne",
+        "Vitesse instantanée",
+        "Accélération",
+        "Distance"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q21",
+      "type": "mcq",
+      "prompt": "Dans un MRUV accéléré, l'accélération et la vitesse ont :",
+      "options": [
+        "Même sens",
+        "Sens opposés",
+        "Directions perpendiculaires",
+        "Aucune relation"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q22",
+      "type": "mcq",
+      "prompt": "Un piéton immobile sur un trottoir à Yamoussoukro est en mouvement par rapport à :",
+      "options": [
+        "Le trottoir",
+        "Le bâtiment",
+        "La Lune",
+        "L'air ambiant"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q23",
+      "type": "mcq",
+      "prompt": "La trajectoire d'une pierre lancée en l'air dans le référentiel terrestre est :",
+      "options": [
+        "Rectiligne",
+        "Circulaire",
+        "Parabolique",
+        "Elliptique"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

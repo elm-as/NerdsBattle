@@ -1,0 +1,161 @@
+{
+  "id": "physique-terminale-les-amines",
+  "title": "Les amines",
+  "summary": "Odeur de poisson ?",
+  "lesson": "## Classes\nPrimaire : R-NH₂\nSecondaire : R-NH-R'\nTertiaire : R₃N\n\n## Caractère basique\nR-NH₂ + H⁺ → R-NH₃⁺",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Dérivé de NH₃",
+    "Primaire/Secondaire/Tertiaire",
+    "Basique"
+  ],
+  "exercise": {
+    "question": "CH₃-NH-CH₂-CH₃ ?",
+    "answer": "N-méthyléthanamine, secondaire"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Amines sont ?",
+      "options": [
+        "Acides",
+        "Basiques",
+        "Neutres",
+        "Amphotères"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Une amine secondaire a la formule générale :",
+      "options": [
+        "R-NH₂",
+        "R₂NH",
+        "R₃N",
+        "R₄N⁺"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La basicité des amines est due :",
+      "options": [
+        "À l'atome d'hydrogène acide",
+        "Au doublet non liant de l'azote",
+        "À la liaison N-H polarisée",
+        "À l'effet inductif des alkyles"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Parmi ces amines, la plus basique en solution aqueuse est :",
+      "options": [
+        "Ammoniac",
+        "Aniline",
+        "Triméthylamine",
+        "Diméthylamine"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "L'urée CO(NH₂)₂ contient :",
+      "options": [
+        "Une amine primaire",
+        "Deux amines primaires",
+        "Une amine secondaire",
+        "Une amine tertiaire"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Avec l'acide nitreux, une amine primaire aliphatique donne :",
+      "options": [
+        "Une nitrosamine",
+        "Un alcool + N₂",
+        "Un sel stable",
+        "Pas de réaction"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "La triméthylamine (CH₃)₃N est :",
+      "options": [
+        "Primaire",
+        "Secondaire",
+        "Tertiaire",
+        "Quaternaire"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "L'aniline C₆H₅NH₂ est moins basique que l'ammoniac car :",
+      "options": [
+        "Effet inductif attracteur",
+        "Délocalisation du doublet",
+        "Encombrement stérique",
+        "Hybridation sp²"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Le test à l'iodoéthane permet de détecter :",
+      "options": [
+        "Les amines primaires",
+        "Les amines secondaires",
+        "Les amines tertiaires",
+        "Toutes les amines"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "La formule de la diéthylamine est :",
+      "options": [
+        "(C₂H₅)₂NH",
+        "C₂H₅NH₂",
+        "(C₂H₅)₃N",
+        "C₆H₅NH₂"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Les petites amines sont solubles dans l'eau grâce :",
+      "options": [
+        "À leur caractère hydrophobe",
+        "Aux liaisons hydrogène",
+        "À leur faible masse",
+        "À leur volatilité"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "maths-sixieme-cercles-et-disques",
+  "title": "Cercles et disques",
+  "summary": "Dans la cour du Collège Moderne de BONDOUKOU, un éducateur demande à des élèves de planter des fleurs autour d'un mât. Chaque fleur doit être à 2 m du pied du mât. Où planter les fleurs ?",
+  "lesson": "## Cercles et disques\n\n### Le cercle\n\nUn **cercle** est l'ensemble des points situés à une **même distance** d'un point appelé **centre**.\n\n**Notation :** C(O, r)\n- O est le centre du cercle\n- r est le rayon\n\n**Exemple :** C(O, 3 cm) est le cercle de centre O et de rayon 3 cm.\n\n### Éléments d'un cercle\n\n**1. Le centre (O)**\nPoint situé au milieu du cercle.\n\n**2. Le rayon**\nSegment reliant le centre à un point du cercle.\nTous les rayons d'un même cercle ont la même longueur.\n\n**3. Le diamètre**\nSegment passant par le centre et reliant deux points du cercle.\n**Propriété :** Diamètre = 2 × rayon\n\n**Exemple :** Si r = 3 cm, alors d = 2 × 3 = 6 cm\n\n**4. La corde**\nSegment joignant deux points du cercle (sans passer forcément par le centre).\nLe diamètre est la plus grande corde du cercle.\n\n### Caractérisation d'un point du cercle\n\n**Propriété importante :**\nUn point M appartient au cercle C(O, r) si et seulement si OM = r.\n\n**Notation mathématique :**\nM ∈ C(O, r) ⇔ OM = r\n\n### Le disque\n\nUn **disque** est la surface délimitée par un cercle (intérieur + cercle).\n\n**Notation :** D(O, r)\n\n**Différence cercle/disque :**\n- Le cercle est juste la ligne (contour)\n- Le disque est la surface intérieure + le contour\n\n### Périmètre d'un cercle\n\nLe périmètre d'un cercle (longueur du contour) se calcule avec la formule :\n\n**P = 2 × π × r** ou **P = π × d**\n\nOù π (pi) ≈ 3,14\n\n**Exemple :** Cercle de rayon 5 cm\nP = 2 × 3,14 × 5 = 31,4 cm\n\n### Aire d'un disque\n\nL'aire d'un disque se calcule avec la formule :\n\n**A = π × r²**\n\n**Exemple :** Disque de rayon 4 cm\nA = 3,14 × 4² = 3,14 × 16 = 50,24 cm²",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Cercle C(O, r) : points à distance r du centre O",
+    "Diamètre = 2 × rayon",
+    "Périmètre : P = 2πr = πd",
+    "Aire du disque : A = πr²"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Si le rayon d'un cercle est 7 cm, son diamètre est :",
+      "options": [
+        "3,5 cm",
+        "7 cm",
+        "14 cm",
+        "21 cm"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La formule du périmètre d'un cercle est :",
+      "options": [
+        "P = πr",
+        "P = 2πr",
+        "P = πr²",
+        "P = 2r"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle est l'aire d'un disque de rayon 3 cm ? (π ≈ 3)",
+      "options": [
+        "9 cm²",
+        "18 cm²",
+        "27 cm²",
+        "6 cm²"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

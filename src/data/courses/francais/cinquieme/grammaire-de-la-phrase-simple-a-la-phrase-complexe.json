@@ -1,0 +1,32 @@
+{
+  "id": "francais-cinquieme-grammaire-de-la-phrase-simple-a-la-phrase-complexe",
+  "title": "Grammaire : De la phrase simple à la phrase complexe",
+  "summary": "Les élèves étudient les propositions subordonnées.",
+  "lesson": "## Phrase simple et phrase complexe\n\n### Phrase simple\nUne seule proposition = un seul verbe conjugué\n\"L'élève travaille.\"\n\n### Phrase complexe\nPlusieurs propositions = plusieurs verbes\n\"L'élève qui travaille réussit.\"\n\n### La proposition subordonnée relative\n- Introduite par un pronom relatif (qui, que, dont, où)\n- Complète un nom (antécédent)\n- Fonction : complément de l'antécédent\n\n### La proposition subordonnée complétive\n- Introduite par \"que\"\n- Complète un verbe\n- Fonction : COD du verbe principal",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Simple : 1 verbe, Complexe : plusieurs verbes",
+    "Relative : qui, que, dont, où + verbe",
+    "Complétive : que + verbe (COD)",
+    "Circonstancielle : quand, si, parce que..."
+  ],
+  "exercise": {
+    "answer": "'que je lis' : subordonnée relative complétant 'livre' (antécédent)",
+    "question": "Identifie la subordonnée : 'Le livre que je lis est passionnant.'"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Une proposition relative commence par :",
+      "options": [
+        "Une préposition",
+        "Un pronom relatif",
+        "Un adverbe",
+        "Un article"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

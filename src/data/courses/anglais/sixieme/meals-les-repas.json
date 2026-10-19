@@ -1,0 +1,58 @@
+{
+  "id": "anglais-sixieme-meals-les-repas",
+  "title": "Meals - Les repas",
+  "summary": "Yao décrit sa journée : 'For breakfast, I have bread and tea. For lunch, I have rice.' Comment parler des repas ?",
+  "lesson": "## Meals - Les repas\n\n### The Three Meals\n\n- **Breakfast** - petit-déjeuner (morning)\n- **Lunch** - déjeuner (midday)\n- **Dinner** - dîner (evening)\n\n### Snack - Goûter\n- **Snack** - collation/goûter\n\n## Have for Meals\n\n**HAVE** = prendre (un repas)\n\n- I **have** breakfast at 7 a.m.\n- She **has** lunch at 12 p.m.\n- We **have** dinner at 7 p.m.\n\n## Typical Meals\n\n### Breakfast\n- I have **bread and butter**.\n- I have **cereal with milk**.\n- I have **eggs and toast**.\n\n### Lunch\n- I have **rice and fish**.\n- I have **chicken with vegetables**.\n- I have **a sandwich**.\n\n### Dinner\n- I have **rice and sauce**.\n- I have **meat with potatoes**.\n- I have **fish and vegetables**.\n\n## Questions\n\n**What do you have for breakfast?** - Que prends-tu au petit-déjeuner ?\n\n- For breakfast, I have bread and tea.\n- For lunch, I have rice and chicken.\n- For dinner, I have attiéké and fish.\n\n## Meal Times\n\n- **What time do you have breakfast?**\n- I have breakfast at 7 o'clock.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Breakfast, lunch, dinner",
+    "Have + repas (I have breakfast)",
+    "For breakfast, I have... pour répondre",
+    "What do you have for...? pour demander"
+  ],
+  "exercise": {
+    "question": "Complète : 1) I ___ breakfast at 7 a.m. 2) What do you have ___ lunch? 3) She has ___ at 7 p.m.",
+    "answer": "\n**Solution :**\n1) I **have** breakfast at 7 a.m.\n2) What do you have **for** lunch?\n3) She has **dinner** at 7 p.m.\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'déjeuner' (midday) ?",
+      "options": [
+        "Breakfast",
+        "Lunch",
+        "Dinner",
+        "Snack"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel verbe pour les repas ?",
+      "options": [
+        "eat",
+        "drink",
+        "have",
+        "take"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Comment demander ce qu'on mange au dîner ?",
+      "options": [
+        "What you eat dinner?",
+        "What do you have for dinner?",
+        "What for dinner?",
+        "When have dinner?"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

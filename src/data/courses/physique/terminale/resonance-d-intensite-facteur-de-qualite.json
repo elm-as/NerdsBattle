@@ -1,0 +1,32 @@
+{
+  "id": "physique-terminale-resonance-d-intensite-facteur-de-qualite",
+  "title": "Résonance d'intensité - Facteur de qualité",
+  "summary": "Comment sélectionner une fréquence précise dans un circuit ?",
+  "lesson": "## I. Facteur de qualité\n\n### 1.1 Définition par la bande passante\n**Q = f₀/Δf**\n\nOù :\n- f₀ : fréquence de résonance\n- Δf : bande passante à -3 dB\n\n### 1.2 Expression en fonction des composants\n**Q = (1/R)√(L/C) = L ω₀/R = 1/(RCω₀)**\n\n### 1.3 Interprétation\n- Q élevé : résonance aiguë, sélective\n- Q faible : résonance large, peu sélective\n\n## II. Surtension à la résonance\n\n### 2.1 Tension aux bornes de L\nÀ résonance : **UL = QU**\n\n### 2.2 Tension aux bornes de C\nÀ résonance : **UC = QU**\n\n### 2.3 Remarque\nUL et UC peuvent être **très supérieures à U** si Q >> 1 !\n\n**Phénomène de surtension**\n\n## III. Acuité de la résonance\n\n### 3.1 Bande passante\n**Δf = f₀/Q = R/(2πL)**\n\n### 3.2 Fréquences de coupure\nf₁ et f₂ telles que I(f₁) = I(f₂) = I₀/√2\n\nΔf = f₂ - f₁\n\n## IV. Exemple numérique\nR = 50 Ω, L = 0,2 H, C = 5 μF\n\n**Q** = (1/50)√(0,2/(5×10⁻⁶))\nQ = 0,02 × √(4×10⁴) = 0,02 × 200 = **4**\n\n**Surtension** : UL = 4U (à résonance)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Facteur de qualité : Q = f₀/Δf",
+    "Q = (1/R)√(L/C)",
+    "Surtension : UL = UC = QU (à résonance)",
+    "Q élevé → résonance aiguë"
+  ],
+  "exercise": {
+    "question": "RLC : R = 50 Ω, L = 0,2 H, C = 5 μF. Calculer Q.",
+    "answer": "Q = (1/R)√(L/C) = (1/50)√(0,2/5×10⁻⁶) = 0,02 × 200 = 4"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Le facteur de qualité est défini par ?",
+      "options": [
+        "Q = Δf/f₀",
+        "Q = f₀/Δf",
+        "Q = f₀×Δf",
+        "Q = f₀-Δf"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

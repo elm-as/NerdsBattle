@@ -1,0 +1,32 @@
+{
+  "id": "francais-cinquieme-grammaire-le-groupe-adjectif",
+  "title": "Grammaire : Le groupe adjectif",
+  "summary": "Les élèves étudient le groupe adjectif pour enrichir leurs portraits.",
+  "lesson": "## Le groupe adjectif\n\n### Les 3 fonctions de l'adjectif\n1. Épithète : un beau livre (dans le GN)\n2. Attribut du sujet : Il est beau (après verbe d'état)\n3. Apposé : Fatigué, il s'endort (détaché par virgules)\n\n### Degrés de comparaison\n- Comparatif : plus/moins/aussi... que\n- Superlatif relatif : le plus/le moins\n- Superlatif absolu : très, fort, extrêmement\n\n### Accord\nL'adjectif s'accorde en genre et nombre avec le nom qu'il qualifie.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "3 fonctions : épithète, attribut, apposé",
+    "Degrés : comparatif, superlatif",
+    "Accord avec le nom qualifié",
+    "Expansion possible : plus grand que..."
+  ],
+  "exercise": {
+    "answer": "'intéressant' : épithète (dans le GN), 'passionnant' : attribut du sujet (après 'est')",
+    "question": "Donne la fonction de l'adjectif : 'Ce livre intéressant est passionnant.'"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans 'Il est grand', 'grand' est :",
+      "options": [
+        "Épithète",
+        "Attribut",
+        "Apposé",
+        "COD"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

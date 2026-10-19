@@ -1,0 +1,57 @@
+{
+  "id": "francais-sixieme-le-futur-simple",
+  "title": "Le futur simple",
+  "summary": "Comment parler de ce qui va se passer demain, l'année prochaine ?",
+  "lesson": "## Le futur simple de l'indicatif\n\n### Emplois du futur simple\n\n**Action future :**\n\"Demain, j'irai à l'école.\"\n\n**Promesse :**\n\"Je te promets que je viendrai.\"\n\n**Ordre poli :**\n\"Tu feras tes devoirs ce soir.\"\n\n**Prévision :**\n\"Il fera beau demain.\"\n\n## Formation du futur simple\n\n### Règle générale\n\n**Infinitif + terminaisons : -ai, -as, -a, -ons, -ez, -ont**\n\n### Verbes réguliers du 1er groupe\n\n**CHANTER :**\n- Je chanterai\n- Tu chanteras\n- Il/Elle chantera\n- Nous chanterons\n- Vous chanterez\n- Ils/Elles chanteront\n\n**Autres exemples :**\n- Parler → je parlerai\n- Danser → tu danseras\n- Manger → il mangera (on garde le 'e')\n\n### Verbes réguliers du 2ème groupe\n\n**FINIR :**\n- Je finirai\n- Tu finiras\n- Il/Elle finira\n- Nous finirons\n- Vous finirez\n- Ils/Elles finiront\n\n**Autres exemples :**\n- Choisir → je choisirai\n- Réussir → tu réussiras\n- Grandir → nous grandirons\n\n### Verbes irréguliers (à apprendre par cœur)\n\n**ÊTRE :**\n- Je serai, tu seras, il sera, nous serons, vous serez, ils seront\n\n**AVOIR :**\n- J'aurai, tu auras, il aura, nous aurons, vous aurez, ils auront\n\n**ALLER :**\n- J'irai, tu iras, il ira, nous irons, vous irez, ils iront\n\n**FAIRE :**\n- Je ferai, tu feras, il fera, nous ferons, vous ferez, ils feront\n\n**POUVOIR :**\n- Je pourrai, tu pourras, il pourra, nous pourrons, vous pourrez, ils pourront\n\n**VOULOIR :**\n- Je voudrai, tu voudras, il voudra, nous voudrons, vous voudrez, ils voudront\n\n**VENIR :**\n- Je viendrai, tu viendras, il viendra, nous viendrons, vous viendrez, ils viendront\n\n**VOIR :**\n- Je verrai, tu verras, il verra, nous verrons, vous verrez, ils verront\n\n**SAVOIR :**\n- Je saurai, tu sauras, il saura, nous saurons, vous saurez, ils sauront\n\n**DEVOIR :**\n- Je devrai, tu devras, il devra, nous devrons, vous devrez, ils devront\n\n## Attention aux pièges !\n\n### Verbes en -er avec une seule base\n\n\"Manger\" → je mangerai (et **pas** \"je mangerai\")\n\n### Ne pas confondre futur et conditionnel\n\n**Futur :** Je chanterai (j'en suis sûr)\n**Conditionnel :** Je chanterais (si...)\n\n## Exemples dans des phrases\n\n### Projets d'avenir\n\n\"L'année prochaine, je **serai** en 5ème. J'**étudierai** beaucoup et je **réussirai** mes examens. Mes parents **seront** fiers de moi. Nous **aurons** de bonnes notes.\"\n\n### Promesses\n\n\"Je te promets que je **viendrai** te voir. Nous **irons** ensemble au cinéma. Tu **verras**, ce **sera** amusant !\"\n\n### Prévisions météo\n\n\"Demain, il **fera** chaud à Abidjan. Le soleil **brillera** toute la journée. Il ne **pleuvra** pas.\"\n\n### À l'école\n\n\"La semaine prochaine, nous **commencerons** un nouveau chapitre. Le professeur **expliquera** la leçon. Les élèves **poseront** des questions. À la fin, nous **ferons** un exercice.\"",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Futur = infinitif + -ai, -as, -a, -ons, -ez, -ont",
+    "Verbes irréguliers : être → je serai, avoir → j'aurai, aller → j'irai",
+    "Pour parler d'actions futures, de promesses, de prévisions"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Au futur, 'je chanter' devient :",
+      "options": [
+        "Je chante",
+        "Je chanterai",
+        "Je chanterais",
+        "Je chantais"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Le futur de 'être' à la 1ère personne est :",
+      "options": [
+        "Je serai",
+        "Je suis",
+        "J'étais",
+        "Je serais"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Au futur, on ajoute au verbe :",
+      "options": [
+        "-ais, -ais, -ait",
+        "-ai, -as, -a",
+        "-é, -és, -ée",
+        "-er, -ir, -re"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

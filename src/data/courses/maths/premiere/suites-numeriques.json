@@ -1,0 +1,279 @@
+{
+  "id": "maths-premiere-suites-numeriques",
+  "title": "Suites numériques",
+  "summary": "Un élève en classe de 1ère A vient de fêter ses 18 ans. Lorsqu'il avait 10 ans, son père avait placé 500 000 FCFA dans une banque d'Abidjan au taux annuel de 3% pour le jour de ses 18 ans. Il demande à ses camarades de l'aider à déterminer le solde de son compte. Les élèves acceptent de l'aider en étudiant les suites numériques.",
+  "lesson": "## 1. Définition d'une suite numérique\n\nUne suite numérique est une fonction définie sur $\\\\mathbb{N}$ (ou une partie de $\\\\mathbb{N}$) à valeurs dans $\\\\mathbb{R}$.\nOn note $(u_n)_{n \\\\in \\\\mathbb{N}}$ ou simplement $(u_n)$.\n\n**Exemple** : Population de Yamoussoukro année après année.\n\n## 2. Modes de définition\n\n**a) Par formule explicite** : $u_n = f(n)$\nExemple : $u_n = 2n + 1$ (suite des nombres impairs)\n\n**b) Par récurrence** : $u_{n+1} = f(u_n)$ avec $u_0$ donné\nExemple : $u_{n+1} = 2u_n + 1$, $u_0 = 1$\n\n**c) Par description** : Liste des termes\nExemple : $u_0 = 2, u_1 = 4, u_2 = 8, u_3 = 16, ...$\n\n## 3. Représentation graphique\n\nDans un repère, on place les points de coordonnées $(n, u_n)$.\n\n```mathgraph\n{\n  \\\"type\\\": \\\"sequence\\\",\n  \\\"title\\\": \\\"Suite définie par formule explicite : Un = 2n+1\\\",\n  \\\"nRange\\\": [0, 10],\n  \\\"yRange\\\": [0, 25],\n  \\\"sequences\\\": [\n    { \\\"expression\\\": \\\"2*n+1\\\", \\\"color\\\": \\\"#8884d8\\\", \\\"name\\\": \\\"Un=2n+1\\\" }\n  ],\n  \\\"showGrid\\\": true,\n  \\\"showAxes\\\": true,\n  \\\"xLabel\\\": \\\"n\\\",\n  \\\"yLabel\\\": \\\"Un\\\"\n}\n```\n\n**Deux types de représentation** :\n1. En nuage de points (discrète)\n2. En « escalier » pour les suites récurrentes\n\n## 4. Suite arithmétique (sans la nommer explicitement)\n\n**Caractéristique** : On passe d'un terme au suivant en ajoutant une constante $r$ (raison)\n$$u_{n+1} = u_n + r$$\n\n**Formule explicite** : $u_n = u_0 + n \\\times r$\n\n**Exemple** : Placement à intérêts simples dans une banque de Daloa.\n\n## 5. Suite géométrique (sans la nommer explicitement)\n\n**Caractéristique** : On passe d'un terme au suivant en multipliant par une constante $q$ (raison)\n$$u_{n+1} = q \\\times u_n$$\n\n**Formule explicite** : $u_n = u_0 \\\times q^n$\n\n**Exemple** : Placement à intérêts composés, croissance bactérienne.\n\n## 6. Application au placement bancaire\n\n**Données** : Capital initial $C_0 = 500\\,000$ FCFA, taux $t = 3\\\\% = 0.03$, durée $n = 8$ ans (de 10 à 18 ans).\n\n**Modèle** : Intérêts composés → suite géométrique de raison $q = 1 + t = 1.03$\n$C_{n+1} = 1.03 \\\times C_n$\nFormule explicite : $C_n = 500\\,000 \\\times (1.03)^n$\n\n```mathgraph\n{\n  \\\"type\\\": \\\"sequence\\\",\n  \\\"title\\\": \\\"Placement bancaire : Cn = 500000 × 1.03ⁿ\\\",\n  \\\"nRange\\\": [0, 8],\n  \\\"yRange\\\": [400000, 650000],\n  \\\"sequences\\\": [\n    { \\\"expression\\\": \\\"500000*1.03^n\\\", \\\"color\\\": \\\"#0088FE\\\", \\\"name\\\": \\\"Capital\\\" }\n  ],\n  \\\"showGrid\\\": true,\n  \\\"showAxes\\\": true,\n  \\\"xLabel\\\": \\\"Année n\\\",\n  \\\"yLabel\\\": \\\"Capital (FCFA)\\\"\n}\n```\n\nPour $n=8$ : $C_8 = 500\\,000 \\\times (1.03)^8$\nCalcul : $1.03^2 = 1.0609$, $1.03^4 = 1.1255$, $1.03^8 = 1.1255^2 \\\\approx 1.2668$\n$C_8 \\\\approx 500\\,000 \\\times 1.2668 = 633\\,400$ FCFA\n\n## 7. Tableau comparatif\n\n| Type | Relation | Exemple | Représentation |\n|------|----------|---------|----------------|\n| Explicite | $u_n = f(n)$ | $u_n = n^2$ | Points isolés |\n| Récurrente | $u_{n+1} = f(u_n)$ | $u_{n+1} = 0.5u_n+1$ | « Escalier » |\n| Arithmétique | $u_{n+1} = u_n + r$ | Augmentation forfaitaire | Points alignés |\n| Géométrique | $u_{n+1} = q \\\times u_n$ | Intérêts composés | Points exponentiels |\n\n## 8. Problème de loyers à Abengourou\n\nUne coopérative loue un magasin à Abengourou. Loyer initial : 600 000 FCFA.\nDeux contrats :\n1. Augmentation forfaitaire de 2 000 FCFA/an → suite arithmétique de raison 2000\n2. Augmentation de 2%/an → suite géométrique de raison 1.02\n\n**Contrat 1** : $u_n = 600\\,000 + 2000n$\n**Contrat 2** : $v_n = 600\\,000 \\\times (1.02)^n$\n\n```mathgraph\n{\n  \\\"type\\\": \\\"sequence\\\",\n  \\\"title\\\": \\\"Comparaison des contrats de loyer sur 10 ans\\\",\n  \\\"nRange\\\": [0, 10],\n  \\\"yRange\\\": [500000, 750000],\n  \\\"sequences\\\": [\n    { \\\"expression\\\": \\\"600000+2000*n\\\", \\\"color\\\": \\\"#FF6B6B\\\", \\\"name\\\": \\\"Contrat 1 (arithmétique)\\\" },\n    { \\\"expression\\\": \\\"600000*1.02^n\\\", \\\"color\\\": \\\"#4ECDC4\\\", \\\"name\\\": \\\"Contrat 2 (géométrique)\\\" }\n  ],\n  \\\"showGrid\\\": true,\n  \\\"showAxes\\\": true,\n  \\\"xLabel\\\": \\\"Année n\\\",\n  \\\"yLabel\\\": \\\"Loyer (FCFA)\\\"\n}\n```\n\nComparaison sur 10 ans :\n- Contrat 1 : $u_{10} = 600\\,000 + 20\\,000 = 620\\,000$ FCFA\n- Contrat 2 : $v_{10} = 600\\,000 \\\times 1.02^{10} \\\\approx 600\\,000 \\\times 1.219 = 731\\,400$ FCFA\nLe contrat 1 est plus avantageux pour la coopérative.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Une suite est une fonction définie sur N (ou une partie)",
+    "On peut définir une suite par formule explicite u_n = f(n) ou par récurrence u_{n+1} = f(u_n)",
+    "Dans une suite arithmétique, on ajoute une constante r à chaque étape",
+    "Dans une suite géométrique, on multiplie par une constante q à chaque étape"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la définition correcte d'une suite numérique ?",
+      "options": [
+        "Fonction de R dans R",
+        "Fonction de N dans R",
+        "Fonction de R dans N",
+        "Ensemble de nombres"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Si u_{n+1} = u_n + 3 avec u_0=1, que vaut u_5 ?",
+      "options": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Une suite définie par u_{n+1} = 2u_n est :",
+      "options": [
+        "Arithmétique",
+        "Géométrique",
+        "Constante",
+        "Périodique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Pour représenter graphiquement la suite (u_n), on place les points :",
+      "options": [
+        "(n, u_n)",
+        "(u_n, n)",
+        "(n, n)",
+        "(u_n, u_{n+1})"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Si $u_{n+1} = u_n + 5$ et $u_0=2$, alors $u_3$ vaut :",
+      "options": [
+        "17",
+        "12",
+        "7",
+        "22"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Une suite géométrique de raison 2 et de premier terme 3 a pour terme général :",
+      "options": [
+        "$u_n = 3 \\\\times 2^n$",
+        "$u_n = 3 + 2n$",
+        "$u_n = 2 \\\\times 3^n$",
+        "$u_n = 3 + 2^n$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "La somme des 10 premiers termes d'une suite arithmétique de premier terme 1 et de raison 2 est :",
+      "options": [
+        "100",
+        "55",
+        "90",
+        "110"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Un placement à intérêts composés de 5% par an correspond à une suite :",
+      "options": [
+        "Géométrique de raison 1,05",
+        "Arithmétique de raison 1,05",
+        "Géométrique de raison 0,05",
+        "Arithmétique de raison 0,05"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Une suite arithmétique de raison 3 et u₀ = 5 donne u₁ = ?",
+      "options": [
+        "2",
+        "5",
+        "8",
+        "15"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Si uₙ₊₁ = 2uₙ, la suite est :",
+      "options": [
+        "Arithmétique",
+        "Géométrique",
+        "Constante",
+        "Ni l'une ni l'autre"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Une suite arithmétique vérifie :",
+      "options": [
+        "u_{n+1} = u_n × q",
+        "u_{n+1} = u_n + r",
+        "u_n = u_0 × n",
+        "u_n = u_0 + q^n"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "La somme des 10 premiers termes d'une suite arithmétique de premier terme 3 et de raison 2 est :",
+      "options": [
+        "120",
+        "100",
+        "30",
+        "60"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Si u_0 = 1000 et q = 1.05 pour une suite géométrique, u_3 vaut :",
+      "options": [
+        "1157.63",
+        "1050",
+        "1102.5",
+        "1215.51"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Une suite définie par u_{n+1} = 2u_n - 1 et u_0 = 3 est :",
+      "options": [
+        "Arithmétique",
+        "Géométrique",
+        "Ni l'un ni l'autre",
+        "Constante"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Si uₙ₊₁ = uₙ + 7, la suite est :",
+      "options": [
+        "Géométrique",
+        "Arithmétique",
+        "Constante",
+        "Ni l'une ni l'autre"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Pour une suite géométrique de raison q = 2 et u₀ = 3, u₃ = ?",
+      "options": [
+        "9",
+        "12",
+        "18",
+        "24"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Si uₙ = 5 + 3n, quelle est la raison de cette suite arithmétique ?",
+      "options": [
+        "3",
+        "5",
+        "8",
+        "15"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "La somme des 10 premiers termes d'une suite arithmétique de premier terme 2 et de raison 3 est :",
+      "options": [
+        "155",
+        "165",
+        "175",
+        "185"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Pour une suite géométrique de premier terme 100 et de raison 0.5, u₃ = ?",
+      "options": [
+        "25",
+        "12.5",
+        "50",
+        "200"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Les intérêts composés modélisent une suite :",
+      "options": [
+        "Arithmétique",
+        "Géométrique",
+        "Constante",
+        "Aléatoire"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "physique-terminale-l-energie-dans-la-vie-quotidienne",
+  "title": "L'énergie dans la vie quotidienne",
+  "summary": "Comment produire de l'électricité de manière durable en Côte d'Ivoire ?",
+  "lesson": "## L'énergie\n\n### Les formes d'énergie\n\n**1. Énergie mécanique**\n- Énergie cinétique : liée au mouvement\n- Énergie potentielle : liée à la position\n\n**2. Énergie thermique**\n- Chaleur produite par combustion\n- Chaleur solaire\n\n**3. Énergie électrique**\n- Produite dans les centrales\n- Transport par câbles\n\n**4. Énergie lumineuse**\n- Lumière du soleil\n- Éclairage artificiel\n\n**5. Énergie chimique**\n- Contenue dans les aliments\n- Contenue dans les combustibles\n\n**6. Énergie nucléaire**\n- Fission de l'uranium\n- Fusion nucléaire\n\n### Sources d'énergie\n\n**Énergies renouvelables :**\n- ☀️ **Solaire** : panneaux photovoltaïques\n- 💨 **Éolienne** : moulins à vent\n- 💧 **Hydraulique** : barrages\n- 🌱 **Biomasse** : bois, déchets organiques\n- 🌋 **Géothermique** : chaleur de la Terre\n\n**Énergies non renouvelables :**\n- 🛢️ **Pétrole** : essence, diesel\n- ⛽ **Gaz naturel** : chauffage, cuisine\n- ⚫ **Charbon** : industrie\n- ☢️ **Uranium** : centrales nucléaires\n\n### Transformations d'énergie\n\n**Centrale hydraulique :**\n```\nÉnergie potentielle (barrage)\n    ↓\nÉnergie cinétique (eau en mouvement)\n    ↓\nÉnergie mécanique (turbine)\n    ↓\nÉnergie électrique (alternateur)\n```\n\n**Panneaux solaires :**\n```\nÉnergie lumineuse → Énergie électrique\n```\n\n**Voiture :**\n```\nÉnergie chimique (essence)\n    ↓\nÉnergie thermique (combustion)\n    ↓\nÉnergie mécanique (mouvement)\n```\n\n### Rendement énergétique\n\n**Définition :** Rapport entre l'énergie utile et l'énergie totale.\n\n**Formule :**\n```\nη = (Énergie utile / Énergie totale) × 100\n```\n\n**Exemple :**\n- Moteur thermique : η ≈ 25-30%\n- Moteur électrique : η ≈ 90-95%\n- Panneaux solaires : η ≈ 15-20%\n\n### Situation énergétique en Côte d'Ivoire\n\n**Production d'électricité :**\n- 🔥 Centrales thermiques (gaz) : 70%\n- 💧 Barrages hydroélectriques : 30%\n  - Barrage de Kossou\n  - Barrage d'Ayamé\n  - Barrage de Buyo\n\n**Enjeux :**\n- Accès à l'électricité dans les zones rurales\n- Développement des énergies renouvelables\n- Réduction de la dépendance aux énergies fossiles\n\n**Projets en cours :**\n- Centrales solaires (Boundiali, etc.)\n- Biomasse (déchets agricoles)\n- Mini-barrages hydroélectriques\n\n### Économies d'énergie\n\n**À la maison :**\n✅ Utiliser des ampoules LED\n✅ Éteindre les appareils non utilisés\n✅ Isoler les bâtiments\n✅ Utiliser des appareils économes\n\n**Dans les transports :**\n✅ Covoiturage\n✅ Transports en commun\n✅ Véhicules électriques\n✅ Entretien régulier des véhicules\n\n**Pourquoi économiser ?**\n- Réduire les factures\n- Préserver les ressources\n- Limiter la pollution\n- Lutter contre le changement climatique",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Plusieurs formes d'énergie",
+    "Énergies renouvelables vs non renouvelables",
+    "Transformations d'énergie",
+    "Rendement toujours < 100%",
+    "Importance des économies d'énergie"
+  ],
+  "exercise": {
+    "question": "Un panneau solaire reçoit 1000 J d'énergie lumineuse et produit 180 J d'énergie électrique. Calculer son rendement.",
+    "answer": "\n**Solution :**\n\n**Données :**\n- Énergie totale reçue = 1000 J\n- Énergie utile produite = 180 J\n\n**Formule :**\n```\nη = (Énergie utile / Énergie totale) × 100\n```\n\n**Calcul :**\n```\nη = (180 / 1000) × 100\nη = 0,18 × 100\nη = 18%\n```\n\n**Interprétation :**\n- 18% de l'énergie solaire est convertie en électricité\n- 82% est perdue (chaleur principalement)\n\n**Réponse : Le rendement du panneau solaire est de 18%**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle énergie est renouvelable ?",
+      "options": [
+        "Pétrole",
+        "Charbon",
+        "Solaire",
+        "Gaz naturel"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Le barrage de Kossou produit de l'énergie :",
+      "options": [
+        "Thermique",
+        "Hydraulique",
+        "Nucléaire",
+        "Solaire"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Le rendement d'une machine est toujours :",
+      "options": [
+        "Égal à 100%",
+        "Supérieur à 100%",
+        "Inférieur à 100%",
+        "Nul"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

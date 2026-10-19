@@ -1,0 +1,57 @@
+{
+  "id": "francais-troisieme-le-compte-rendu-de-lecture",
+  "title": "Le compte rendu de lecture",
+  "summary": "Ton professeur te demande de présenter à la classe un roman que tu as lu pendant les vacances. Comment organiser ta présentation pour intéresser tes camarades ?",
+  "lesson": "## Le compte rendu de lecture\n\n### Définition\nLe compte rendu de lecture est un texte structuré qui présente un livre (roman, nouvelle, pièce de théâtre...) et en propose une analyse personnelle.\n\n### Structure du compte rendu de lecture\n\n**1. Présentation de l'œuvre (introduction)**\n\n- **Titre** de l'œuvre (en italique ou souligné)\n- **Auteur** (nom complet, nationalité, époque)\n- **Genre littéraire** (roman, nouvelle, conte, théâtre...)\n- **Date de publication**\n- **Éditeur** et collection (facultatif)\n\n*Exemple :*\n« *L'Enfant noir* est un roman autobiographique de l'écrivain guinéen Camara Laye, publié en 1953 aux éditions Plon. »\n\n**2. Résumé de l'œuvre**\n\n- Présenter **les personnages principaux**\n- Exposer **l'intrigue** sans tout dévoiler\n- Situer le **cadre spatio-temporel** (lieu, époque)\n- **Ne pas raconter la fin** (garder le suspense)\n\n*Conseils :*\n- Résumer en 10-15 lignes maximum\n- Utiliser le présent de narration\n- Aller à l'essentiel\n\n**3. Analyse de l'œuvre**\n\n- **Les thèmes** abordés (amour, guerre, famille, tradition...)\n- **Le style** de l'auteur (langue, ton, figures de style)\n- **La structure** narrative (chronologique, flashbacks...)\n- **Les symboles** et leur signification\n\n*Exemple :*\n« L'auteur aborde les thèmes de l'enfance, de l'initiation et du conflit entre tradition et modernité. Son style est poétique et empreint de nostalgie. »\n\n**4. Jugement personnel (conclusion)**\n\n- Donner son **avis argumenté** sur l'œuvre\n- Expliquer **pourquoi** on a aimé ou non\n- **Recommander** ou non la lecture\n- Faire le lien avec d'autres œuvres ou l'actualité\n\n*Formules utiles :*\n- « J'ai particulièrement apprécié ce roman car... »\n- « Ce qui m'a marqué, c'est... »\n- « Je recommande cette lecture à ceux qui... »\n- « Cette œuvre m'a fait réfléchir sur... »\n\n### Les erreurs à éviter\n\n❌ Raconter tout le livre en détail\n❌ Dévoiler la fin de l'histoire\n❌ Se contenter de « j'ai aimé » sans expliquer pourquoi\n❌ Confondre résumé et analyse\n❌ Recopier la quatrième de couverture\n\n### Exemple de plan détaillé\n\n**Introduction**\n- Accroche : question ou citation\n- Présentation : titre, auteur, genre, date\n\n**Développement**\n- Résumé de l'intrigue\n- Présentation des personnages\n- Analyse des thèmes\n- Commentaire sur le style\n\n**Conclusion**\n- Bilan personnel\n- Ouverture (lien avec d'autres œuvres)\n- Recommandation\n\n### Vocabulaire du compte rendu\n\n| Pour présenter | Pour analyser | Pour juger |\n|----------------|---------------|------------|\n| relate, raconte | illustre, symbolise | j'apprécie, me touche |\n| met en scène | développe, explore | me captive, m'émeut |\n| se déroule, a lieu | révèle, met en lumière | me déçoit, m'ennuie |\n| écrit, compose | critique, dénonce | je recommande |",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Structure : présentation, résumé, analyse, jugement personnel",
+    "Ne jamais dévoiler la fin de l'histoire",
+    "Justifier son avis avec des arguments et des exemples"
+  ],
+  "exercise": {
+    "question": "Rédige l'introduction et le début du résumé d'un compte rendu sur *Une vie de boy* de Ferdinand Oyono.",
+    "answer": "\n**Solution :**\n\n**Introduction :**\nQu'est-ce que cela signifie d'être « boy » dans l'Afrique coloniale ? C'est la question que pose Ferdinand Oyono dans son roman *Une vie de boy*, publié en 1956 aux éditions Julliard. Cet écrivain camerounais, figure majeure de la littérature africaine francophone, nous livre un témoignage poignant sur la condition des colonisés à travers le regard d'un jeune domestique.\n\n**Résumé (début) :**\nLe roman se présente comme le journal intime de Toundi Ondoua, un jeune Camerounais qui fuit la maison paternelle pour se réfugier auprès du père Gilbert, un prêtre catholique. Devenu « boy » à la mission, Toundi apprend à lire et à écrire. À la mort du père Gilbert, il entre au service du commandant du cercle et de sa femme, découvrant alors les dessous de la société coloniale...\n\n**Éléments respectés :**\n- Accroche par une question\n- Titre en italique, auteur, date, éditeur\n- Nationalité et importance de l'auteur\n- Résumé au présent, personnage principal identifié\n- Début de l'intrigue sans dévoiler la fin\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans un compte rendu de lecture, on doit :",
+      "options": [
+        "Raconter toute l'histoire",
+        "Ne pas dévoiler la fin",
+        "Recopier la 4ème de couverture",
+        "Éviter de donner son avis"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "L'analyse d'une œuvre porte sur :",
+      "options": [
+        "Uniquement l'auteur",
+        "Les thèmes et le style",
+        "Le prix du livre",
+        "Le nombre de pages"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Le jugement personnel doit être :",
+      "options": [
+        "Absent",
+        "Bref et sans explication",
+        "Argumenté",
+        "Copié d'internet"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

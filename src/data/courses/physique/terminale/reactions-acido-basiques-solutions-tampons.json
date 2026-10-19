@@ -1,0 +1,280 @@
+{
+  "id": "physique-terminale-reactions-acido-basiques-solutions-tampons",
+  "title": "Réactions acido-basiques – Solutions tampons",
+  "summary": "Dans un laboratoire d'analyses médicales à Bouaké, un biochimiste explique que le pH du sang doit rester rigoureusement entre 7,35 et 7,45 pour assurer le bon fonctionnement cellulaire. Ce maintien est possible grâce à des \"systèmes tampons\" présents dans le sang. Un élève de Terminale C, intéressé par les métiers de la santé, se demande comment une solution peut résister aux variations de pH. Plus tard, en classe, avec ses camarades, il étudie les dosages acido-basiques, apprend à tracer des courbes pH-mét",
+  "lesson": "## 1. Réactions acido-basiques : rappel des différents cas\n\n**Acide fort + Base forte** : Réaction totale, exothermique.\n$$H_3O^+ + OH^- \\\\rightarrow 2H_2O$$\nÀ l'équivalence, pH = 7 (à 25°C).\n\n**Acide faible + Base forte** : Réaction totale, mais la base conjuguée de l'acide faible est présente à l'équivalence.\n$$AH + OH^- \\\\rightarrow A^- + H_2O$$\nÀ l'équivalence, la solution contient $A^-$ (base faible) donc le pH est **> 7**.\n\n**Acide fort + Base faible** : Réaction totale.\n$$H_3O^+ + B \\\\rightarrow BH^+ + H_2O$$\nÀ l'équivalence, la solution contient $BH^+$ (acide faible) donc le pH est **< 7**.\n\n## 2. Dosage pH-métrique : tracé et exploitation de la courbe pH = f(V)\n\n**Principe** : On suit l'évolution du pH d'une solution à doser (prise dans un bécher) lors de l'ajout progressif d'une solution titrante (dans une burette).\n\n**Courbe type pour le dosage d'un acide faible par une base forte** :\n- **Début** : pH faible, augmentation lente.\n- **Autour de la demi-équivalence** : Variation très faible du pH (zone tamponnée). À ce point, $pH = pK_a$ du couple $AH/A^-$.\n- **Au voisinage de l'équivalence** : Variation très brutale du pH (saut de pH).\n- **Après l'équivalence** : pH augmente et tend vers celui de la base forte ajoutée en excès.\n\n**Détermination du point d'équivalence** :\n- **Méthode des tangentes** : On trace deux tangentes parallèles de part et d'autre du saut, puis la médiatrice.\n- **Méthode de la dérivée** : Le point d'équivalence correspond au maximum de la dérivée $dpH/dV$.\n\n**Description du schéma 1 : Courbe de dosage d'un acide faible par une base forte**\nReprésenter un graphique avec le volume $V_b$ de base ajouté en abscisse et le pH en ordonnée. Tracer une courbe sigmoïde : départ à pH bas (~3), faible pente jusqu'à un point d'inflexion, puis saut vertical très raide autour de l'équivalence (pH passe de ~7 à ~11 sur un petit volume), enfin pente faible qui tend vers pH ~12. Marquer clairement : \"Zone tampon (pente faible)\", \"Demi-équivalence (pH = pK_a)\", \"Point d'équivalence (saut de pH)\", \"Excès de base\". Indiquer le $pK_a$ (ex. 4,8) par un point sur la courbe.\n\n## 3. La demi-équivalence : propriété fondamentale\n\nLa **demi-équivalence** est le point où on a ajouté la moitié du volume nécessaire pour atteindre l'équivalence. À ce stade, la moitié de l'acide faible a été transformée en sa base conjuguée.\n$$[AH] = [A^-]$$\nEn appliquant la relation de Henderson-Hasselbalch : $pH = pK_a + \\\\log(1)$, donc **$pH = pK_a$**.\n\nCe point permet de déterminer expérimentalement le $pK_a$ d'un couple.\n\n## 4. Solutions tampons : définition et propriétés\n\n**Définition** : Une **solution tampon** est une solution dont le pH varie très peu lorsqu'on lui ajoute de petites quantités d'acide fort ou de base forte, ou lorsqu'on la dilue modérément.\n\n**Composition** : Un mélange en proportions comparables d'un acide faible $AH$ et de sa base conjuguée $A^-$ (ou d'une base faible $B$ et de son acide conjugué $BH^+$).\n\n**Exemple classique** : Mélange acide acétique / acétate de sodium ($CH_3COOH + CH_3COONa$).\n\n**Action tampon (mécanisme)** :\n- Si on ajoute des ions $H_3O^+$, ils sont consommés par la base $A^-$ : $A^- + H_3O^+ \\\\rightarrow AH + H_2O$.\n- Si on ajoute des ions $OH^-$, ils sont consommés par l'acide $AH$ : $AH + OH^- \\\\rightarrow A^- + H_2O$.\nDans les deux cas, le rapport $[A^-]/[AH]$ change peu, donc le pH change peu (relation de Henderson-Hasselbalch).\n\n**Description du schéma 2 : Principe d'action d'une solution tampon**\nReprésenter trois récipients identiques contenant une solution. Le premier est légendé \"Solution tampon (AH + A⁻)\". Y ajouter symboliquement quelques ions $H_3O^+$ (flèche rouge). Montrer que ces ions $H_3O^+$ réagissent avec les ions $A^-$ pour former $AH$ et $H_2O$. Le pH indiqué (ex. 4,8) change très peu (devient 4,7). Le deuxième récipient : même solution tampon. Y ajouter symboliquement quelques ions $OH^-$ (flèche bleue). Montrer qu'ils réagissent avec $AH$ pour former $A^-$ et $H_2O$. Le pH change très peu (devient 4,9). Le troisième récipient (témoin) : \"Eau pure\". Ajouter la même quantité d'$H_3O^+$ : le pH chute brutalement (de 7 à ~3).\n\n## 5. Préparation d'une solution tampon\n\n**Méthodes courantes** :\n1.  Mélanger un acide faible et un sel de sa base conjuguée (ex. : $CH_3COOH + CH_3COONa$).\n2.  Mélanger une base faible et un sel de son acide conjugué (ex. : $NH_3 + NH_4Cl$).\n3.  Partiellement neutraliser un acide faible par une base forte (ou une base faible par un acide fort) avant l'équivalence.\n\nLe pH de la solution tampon préparée est donné approximativement par : $pH \\\\approx pK_a + \\\\log\\\\left(\\\\frac{[sel]}{[acide]}\\\\right)$.\n\n**Capacité tampon** : Elle est maximale lorsque $[acide] = [base]$, c'est-à-dire lorsque $pH = pK_a$. Elle augmente avec la concentration totale du tampon.\n\n## 6. Importance des tampons en Côte d'Ivoire\n\n- **Sang** : Système $HCO_3^-/H_2CO_3$ (tampon principal), protéines, phosphate.\n- **Sol** : Les carbonates, les matières organiques et les argiles jouent un rôle tampon, crucial pour la culture du cacao, de l'hévéa et du palmier à huile.\n- **Industrie alimentaire** : Contrôle du pH dans la fermentation (cacao, lait pour yaourt), la conservation (jus de fruits).\n- **Aquaculture** : Maintien du pH de l'eau dans les bassins à tilapia.\n- **Analyses de laboratoire** : Les solutions tampons sont essentielles pour l'étalonnage des pH-mètres.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "À la demi-équivalence d'un dosage acide faible/base forte : $pH = pK_a$.",
+    "Une solution tampon est un mélange d'un acide faible et de sa base conjuguée (ou l'inverse).",
+    "Une solution tampon résiste aux variations de pH lors de l'ajout de petites quantités d'acide ou de base.",
+    "Le pH d'un tampon est donné par $pH \\\\approx pK_a + \\\\log\\\\left(\\\\frac{[base]}{[acide]}\\\\right)$.",
+    "Le pouvoir tampon est maximal quand $pH = pK_a$ (i.e. $[acide] = [base]$)."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Lors du dosage d'un acide faible par une base forte, à la demi-équivalence :",
+      "options": [
+        "Le pH est égal à 7",
+        "Le pH est supérieur à 7",
+        "Le pH est égal au pKₐ du couple",
+        "Le pH est inférieur au pKₐ"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel est le pH à l'équivalence lors du dosage d'un acide faible par une base forte ?",
+      "options": [
+        "pH = 7",
+        "pH < 7",
+        "pH > 7",
+        "pH = pKₐ"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Une solution tampon est efficace pour résister aux variations de pH si elle contient :",
+      "options": [
+        "Un acide fort et une base forte",
+        "Un acide faible et sa base conjuguée",
+        "Seulement un acide fort",
+        "Seulement une base forte"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Le pouvoir tampon d'un mélange acide faible/base conjuguée est maximal lorsque :",
+      "options": [
+        "[acide] >> [base]",
+        "[base] >> [acide]",
+        "[acide] = [base]",
+        "La concentration totale est minimale"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Si on ajoute un peu d'acide fort à une solution tampon acétique/acétate, le pH :",
+      "options": [
+        "Augmente fortement",
+        "Diminue fortement",
+        "Reste presque constant",
+        "Devient acide"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle méthode permet de déterminer le point d'équivalence sur une courbe de dosage pH-métrique ?",
+      "options": [
+        "La méthode des tangentes parallèles",
+        "L'extrapolation linéaire",
+        "La simple lecture du pH=7",
+        "La mesure de la conductivité"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Le principal système tampon du sang humain est basé sur le couple :",
+      "options": [
+        "$CH_3COOH/CH_3COO^-$",
+        "$NH_4^+/NH_3$",
+        "$H_2PO_4^-/HPO_4^{2-}$",
+        "$H_2CO_3/HCO_3^-$"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Pour préparer un tampon de pH = 9,2, quel couple serait le plus approprié ? (Données : pKₐ NH₄⁺/NH₃ = 9,2 ; pKₐ CH₃COOH/CH₃COO⁻ = 4,8)",
+      "options": [
+        "Acide acétique/acétate",
+        "Ammoniac/ion ammonium",
+        "Acide phosphorique/phosphate",
+        "Eau/hydroxyde"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Sur une courbe de dosage pH-métrique, la zone où la pente est la plus faible correspond souvent à :",
+      "options": [
+        "La zone tampon",
+        "Le point d'équivalence",
+        "L'excès de réactif titrant",
+        "Le début du dosage"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "En agronomie ivoirienne, la capacité tampon d'un sol est importante car elle :",
+      "options": [
+        "Empêche toute variation de pH",
+        "Limite les variations brutales de pH dues aux engrais ou aux pluies acides",
+        "Rend le sol toujours basique",
+        "Favorise uniquement la culture du riz"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Lors du dosage d'un acide fort par une base forte, le pH au point d'équivalence est :",
+      "options": [
+        "Toujours acide",
+        "Toujours basique",
+        "Toujours neutre (=7 à 25°C)",
+        "Égal au pKa de l'acide"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "La demi-équivalence d'un dosage acide faible-base forte est caractérisée par :",
+      "options": [
+        "pH = 7",
+        "pH = pKa du couple acide faible/base conjuguée",
+        "Un saut de pH maximal",
+        "L'excès de base forte"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Une solution tampon est efficace pour maintenir un pH constant si elle contient :",
+      "options": [
+        "Un acide fort et une base forte",
+        "Un acide faible et sa base conjuguée en concentrations comparables",
+        "Un acide fort et sa base conjuguée",
+        "Un sel neutre uniquement"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Le pouvoir tampon d'une solution est maximal lorsque :",
+      "options": [
+        "La concentration totale du tampon est minimale",
+        "Le pH est très éloigné du pKa",
+        "Les concentrations de l'acide et de la base conjuguée sont égales (pH = pKa)",
+        "On ajoute beaucoup d'acide"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Sur une courbe de dosage pH-métrique, le point d'équivalence correspond :",
+      "options": [
+        "Au point où le pH commence à augmenter",
+        "Au point où le pH est maximal",
+        "Au point d'inflexion de la courbe (variation la plus rapide du pH)",
+        "Toujours à pH = 7"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Le système tampon principal du sang humain est basé sur le couple :",
+      "options": [
+        "CH₃COOH/CH₃COO⁻",
+        "H₂CO₃/HCO₃⁻",
+        "NH₄⁺/NH₃",
+        "H₃O⁺/H₂O"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Lorsqu'on ajoute un peu d'eau distillée à une solution tampon, son pH :",
+      "options": [
+        "Augmente fortement",
+        "Diminue fortement",
+        "Reste pratiquement constant",
+        "Devient neutre"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Pour doser un acide faible par une base forte, un indicateur adapté doit avoir sa zone de virage :",
+      "options": [
+        "Dans la région acide (pH < 7)",
+        "Autour du pH au point d'équivalence (qui est >7)",
+        "Exactement à pH=7",
+        "Peu importe, tous les indicateurs conviennent"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Dans l'agriculture ivoirienne, l'utilisation de chaux (Ca(OH)₂) sur un sol trop acide agit :",
+      "options": [
+        "Comme un tampon qui empêche toute variation de pH",
+        "En neutralisant l'excès d'acidité, mais le sol peut avoir un pouvoir tampon limité",
+        "En acidifiant encore plus le sol",
+        "Uniquement comme engrais azoté"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Pour préparer un tampon de pH = 9.2 à partir du couple NH₄⁺/NH₃ (pKa=9.2), il faut :",
+      "options": [
+        "[NH₄⁺] > [NH₃]",
+        "[NH₄⁺] = [NH₃]",
+        "[NH₄⁺] < [NH₃]",
+        "Seulement de l'ammoniac pur"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

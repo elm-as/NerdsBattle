@@ -1,0 +1,71 @@
+{
+  "id": "espagnol-seconde-l-echange-d-information",
+  "title": "L'échange d'information",
+  "summary": "Les deux meilleurs élèves de la classe de 2nde C du Lycée Moderne de Bouaké rentrent d'Espagne après un séjour touristique offert par le Centre Culturel Espagnol d'Abidjan. Leurs camarades de classe heureux de les retrouver, veulent avoir plus d'informations sur leur séjour. Pendant le cours d'espagnol, ceux-ci identifient les informations, les utilisent et échangent.",
+  "lesson": "## 1. Les types d'information\n\n**Information factuelle :**\n- Dates, lieux, chiffres, noms\n- Exemple : \"Visitamos Madrid del 10 al 20 de marzo.\"\n\n**Information descriptive :**\n- Caractéristiques, apparences, sensations\n- Exemple : \"La Plaza Mayor es muy grande y bonita.\"\n\n**Information narrative :**\n- Événements dans l'ordre chronologique\n- Exemple : \"Primero fuimos al museo, después comimos tapas.\"\n\n## 2. Repérer l'information essentielle\n\n**Techniques :**\n1. **Écouter/lecture active** : Noter les mots-clés\n2. **Questions WH** : ¿Quién? ¿Qué? ¿Dónde? ¿Cuándo? ¿Por qué? ¿Cómo?\n3. **Distinguer** : Information principale vs détails\n\n## 3. Reformuler une information\n\n**Stratégies :**\n- **Synonymes** : \"grande\" → \"enorme\", \"importante\"\n- **Changement de structure** : Active → passive\n- **Résumé** : Garder l'essentiel en moins de mots\n\n**Exemple :**\nOriginal : \"El Museo del Prado, que está en Madrid, tiene muchas obras de Goya.\"\nReformulé : \"En Madrid, el Museo del Prado exhibe obras de Goya.\"\n\n## 4. Poser des questions pour obtenir des informations\n\n| Type d'information | Questions types |\n|-------------------|-----------------|\n| Lieu | ¿Dónde...? ¿En qué ciudad...? ¿A qué lugar fuiste? |\n| Temps | ¿Cuándo...? ¿Durante cuánto tiempo...? ¿A qué hora...? |\n| Personnes | ¿Con quién...? ¿Quiénes fueron...? |\n| Activités | ¿Qué hiciste...? ¿Cómo fue...? ¿Qué visitaste? |\n| Impressions | ¿Te gustó...? ¿Qué te pareció...? ¿Cómo lo pasaste? |\n\n## 5. Décrire un lieu\n\n**Structure :**\n1. **Introduction** : Nom et localisation\n2. **Caractéristiques physiques** : Taille, couleurs, style\n3. **Éléments remarquables** : Monuments, détails\n4. **Atmosphère/impressions** : Calme/animation, beauté\n\n**Vocabulaire utile :**\n- Situado/a en...\n- Tiene... / Hay...\n- Se caracteriza por...\n- Lo que más me impresionó fue...\n\n## 6. Raconter un événement (relatar)\n\n**Connexeurs temporels :**\n- Primero / En primer lugar\n- Después / Luego / Más tarde\n- Finalmente / Por último\n- Mientras / Durante\n\n**Exemple structuré :**\n\"Primero, llegamos al aeropuerto de Barajas. Después, tomamos un taxi al hotel. Luego, descansamos un poco. Finalmente, salimos a visitar la ciudad.\"\n\n## 7. Rectifier une information\n\n**Expressions de correction :**\n- En realidad,...\n- De hecho,...\n- Corrigiéndome,...\n- Quise decir...\n- Perdón, me equivoqué: no es... sino...\n\n## 8. Résumer une information\n\n**Technique :**\n1. Identifier l'idée principale\n2. Sélectionner les détails importants\n3. Éliminer les répétitions\n4. Reformuler avec ses mots\n\n**Indicateurs de résumé :**\n- En resumen,...\n- En pocas palabras,...\n- Básicamente,...\n- Es decir que...",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Utiliser les questions WH pour cibler l'information",
+    "Distinguer faits objectifs et impressions subjectives",
+    "Structurer la description (général → particulier)",
+    "Employer les connecteurs temporels pour raconter"
+  ],
+  "exercise": {
+    "answer": "**Relato del viaje a Barcelona:**\n\nViajé a Barcelona en abril durante las vacaciones de Pascua. Primero, visité la famosa Sagrada Familia, una basílica enorme diseñada por Gaudí. Tiene torres muy altas y fachadas decoradas con detalles impresionantes. Después, fui al Barrio Gótico, que es el centro histórico de la ciudad. Sus calles son estrechas y empedradas, llenas de tiendas y restaurantes. Luego, paseé por Las Ramblas, una avenida llena de artistas callejeros y puestos de flores. Allí comí una paella en un restaurante típico. También visité el Parque Güell, con sus mosaicos coloridos y vistas espectaculares de la ciudad. Finalmente, fui a la playa de Barceloneta para descansar. En general, me encantó Barcelona porque mezcla historia, arte y vida moderna. La gente es amable y la comida es deliciosa. Fue una experiencia inolvidable que recomiendo a todos.",
+    "question": "Tu es un des élèves revenu d'Espagne. Rédige un paragraphe de 10-12 phrases pour raconter ta visite à Barcelone à tes camarades. Inclus : 1) Le moment du voyage, 2) Deux lieux visités avec description, 3) Une activité particulière, 4) Ton impression générale. Utilise au moins trois connecteurs temporels."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle question poser pour savoir le lieu d'une activité ?",
+      "options": [
+        "¿Cuándo?",
+        "¿Dónde?",
+        "¿Por qué?",
+        "¿Quién?"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel connecteur signifie 'ensuite' ?",
+      "options": [
+        "Primero",
+        "Finalmente",
+        "Después",
+        "Mientras"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Comment commencer un résumé ?",
+      "options": [
+        "De hecho,...",
+        "En realidad,...",
+        "En resumen,...",
+        "Quise decir..."
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel élément n'est PAS une information factuelle ?",
+      "options": [
+        "Fecha",
+        "Lugar",
+        "Opinión",
+        "Nombre"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

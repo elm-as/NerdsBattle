@@ -1,0 +1,149 @@
+{
+  "id": "physique-premiere-etude-de-la-pile-daniell",
+  "title": "Étude de la pile Daniell",
+  "summary": "Un élève de Sikensi apprend dans une revue scientifique qu'il est facile de construire en classe la pile Daniell. Voulant mettre en pratique cette théorie, il propose à ses camarades de réaliser cette pile historique, de l'étudier et de comprendre son fonctionnement, ce qui leur permettra de saisir les principes de base des piles et batteries utilisées quotidiennement.",
+  "lesson": "## 1. Introduction\n\nLa **pile Daniell**, inventée par John Frederic Daniell en 1836, est la première pile à avoir fourni un courant stable pendant une durée prolongée. Elle illustre parfaitement les principes de l'électrochimie et sert de modèle pédagogique pour comprendre les piles modernes (batteries de voiture à Abidjan, piles alcalines, accumulateurs).\n\n## 2. Constitution de la pile Daniell\n\n**Deux demi-piles** :\n1. **Électrode de zinc** : lame de $Zn$ plongeant dans une solution de sulfate de zinc $ZnSO_4$ (1 mol·L⁻¹)\n2. **Électrode de cuivre** : lame de $Cu$ plongeant dans une solution de sulfate de cuivre(II) $CuSO_4$ (1 mol·L⁻¹)\n\n**Pont salin** : Tube en U contenant une solution gélifiée de $KNO_3$ ou $KCl$, qui permet le passage des ions pour assurer l'électroneutralité des solutions.\n\n**Description du schéma 1:** Schéma complet de la pile Daniell. Représenter les deux béchers : l'un avec Zn/ZnSO₄, l'autre avec Cu/CuSO₄, reliés par un pont salin. Les deux électrodes reliées à un voltmètre indiquant ~1,10 V. Flèches des électrons (de Zn vers Cu dans le circuit externe).\n\n## 3. Réactions aux électrodes\n\n**À l'anode (électrode de zinc, pôle -)** : Oxydation du zinc\n$$Zn_{(s)} \\\\rightarrow Zn^{2+}_{(aq)} + 2e^-$$\n\n- Le zinc se dissout, sa masse diminue.\n- Les électrons libérés partent dans le circuit extérieur.\n- Concentration en $Zn^{2+}$ augmente dans le compartiment anode.\n\n**À la cathode (électrode de cuivre, pôle +)** : Réduction des ions cuivre(II)\n$$Cu^{2+}_{(aq)} + 2e^- \\\\rightarrow Cu_{(s)}$$\n\n- Les ions $Cu^{2+}$ se déposent sur l'électrode de cuivre, sa masse augmente.\n- Les électrons arrivant du circuit extérieur sont consommés.\n- Concentration en $Cu^{2+}$ diminue dans le compartiment cathode.\n\n## 4. Équation-bilan globale\n\nEn ajoutant les deux demi-équations (après simplification des électrons) :\n$$Zn_{(s)} + Cu^{2+}_{(aq)} \\\\rightarrow Zn^{2+}_{(aq)} + Cu_{(s)}$$\n\n**Bilan** :\n- Le zinc est consommé.\n- Le cuivre se dépose.\n- Les électrons circulent du Zn vers le Cu dans le circuit extérieur.\n- Le courant conventionnel (+ → -) va du Cu vers le Zn.\n\n**Description du schéma 2:** Mécanisme ionique. Montrer les ions Zn²⁺ produits à l'anode qui diffusent dans la solution, et les ions Cu²⁺ consommés à la cathode. Dans le pont salin, montrer les ions K⁺ migrant vers la cathode et NO₃⁻ migrant vers l'anode pour équilibrer les charges.\n\n## 5. Force électromotrice (f.é.m.) théorique\n\nPotentiels standards à 25°C :\n- $E^°(Zn^{2+}/Zn) = -0,76\\\\ V$\n- $E^°(Cu^{2+}/Cu) = +0,34\\\\ V$\n\nF.é.m. standard :\n$$E^° = E^°_{cathode} - E^°_{anode} = 0,34 - (-0,76) = 1,10\\\\ V$$\n\nC'est la tension à vide (circuit ouvert).\n\n## 6. Rôle du pont salin\n\n**Fonctions** :\n1. **Fermeture du circuit électrique** (conducteur ionique).\n2. **Électroneutralité** : Les ions du pont ($K^+$, $NO_3^-$) migrent pour compenser les charges :\n   - $K^+$ va vers le compartiment cathode (où $Cu^{2+}$ diminue, charge positive globale diminue).\n   - $NO_3^-$ va vers le compartiment anode (où $Zn^{2+}$ augmente, charge positive globale augmente).\n\nSans pont salin, la réaction s'arrête rapidement par accumulation de charges.\n\n## 7. Réalisation expérimentale et mesures\n\n**Matériel** : Deux béchers, lames Zn et Cu, solutions ZnSO₄ et CuSO₄ 1 mol·L⁻¹, pont salin (KCl gélifié), voltmètre, fils.\n\n**Mesures** :\n- Tension à vide : environ 1,10 V (si solutions 1 M, 25°C).\n- Tension en fonctionnement : légèrement inférieure à cause de la chute ohmique interne.\n\n**Observation** : Dépôt rouge de cuivre sur l'électrode de cuivre, dissolution du zinc (lame devient plus fine, parfois irrégulière).\n\n**Description du schéma 3:** Montage pratique avec des matériels simples. Représenter deux verres à boisson (béchers de fortune), une pièce de cuivre et un clou galvanisé (zinc), solutions salines, fil électrique, et une LED qui s'allume pour montrer la production de courant.\n\n## 8. Facteurs influençant la f.é.m.\n\n**Loi de Nernst** :\nPour la pile Daniell :\n$$E = E^° - \\\\frac{0,059}{2} \\\\log \\\\frac{[Zn^{2+}]}{[Cu^{2+}]}$$ (à 25°C)\n\n- Si $[Cu^{2+}]$ augmente → $E$ augmente.\n- Si $[Zn^{2+}]$ augmente → $E$ diminue.\n\n**Température** : Légère influence via le terme $0,059$ (qui est $\\\\frac{0,059}{n}$ à 25°C).\n\n## 9. Applications et variantes\n\n**Piles commerciales** inspirées du principe :\n- Pile Leclanché (Zn/MnO₂)\n- Pile alcaline (Zn/MnO₂ avec KOH)\n- Pile bouton (Zn/Ag₂O)\n\n**Protection cathodique** : On peut utiliser le même principe pour protéger des structures en fer en les reliant à un métal plus réducteur (anode sacrificielle : Zn, Mg).\n\n## 10. Limites et usure de la pile Daniell\n\n**Durée de vie limitée** par :\n1. Épuisement du zinc (anode consommable).\n2. Épuisement des $Cu^{2+}$ en solution.\n3. Diffusion d'ions entre compartiments à travers le pont salin (mélange à long terme).\n4. Polarisation (modification des concentrations aux électrodes).\n\n**Rechargeabilité** : Non, car la réaction n'est pas facilement réversible (dépôt de cuivre n'est pas uniformément redissous).",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "La pile Daniell est constituée de deux demi-piles Zn/Zn²⁺ et Cu/Cu²⁺ reliées par un pont salin",
+    "À l'anode : Zn → Zn²⁺ + 2e⁻ ; à la cathode : Cu²⁺ + 2e⁻ → Cu",
+    "Équation bilan : Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s)",
+    "Sa f.é.m. théorique est E° = 1,10 V dans les conditions standard"
+  ],
+  "exercise": {
+    "answer": "**1. Calcul de E avec la loi de Nernst :**\n$$E = E^° - \\\\frac{0,059}{2} \\\\log \\\\frac{[Zn^{2+}]}{[Cu^{2+}]}$$\n$$E = 1,10 - 0,0295 \\\times \\\\log \\\\frac{0,1}{0,01}$$\n$$\\\\frac{0,1}{0,01} = 10 \\\\Rightarrow \\\\log(10) = 1$$\n$$E = 1,10 - 0,0295 \\\times 1 = 1,10 - 0,0295 = 1,0705\\\\ V \\\\approx 1,07\\\\ V$$\n\n**2. Demi-équations et équation bilan :**\n- Anode (Zn) : $Zn_{(s)} \\\\rightarrow Zn^{2+}_{(aq)} + 2e^-$\n- Cathode (Cu) : $Cu^{2+}_{(aq)} + 2e^- \\\\rightarrow Cu_{(s)}$\n- Bilan : $Zn_{(s)} + Cu^{2+}_{(aq)} \\\\rightarrow Zn^{2+}_{(aq)} + Cu_{(s)}$\n\n**3. Courant initial (loi d'Ohm, U=E=1,07 V, R=10 Ω) :**\n$$I = \\\\frac{U}{R} = \\\\frac{1,07}{10} = 0,107\\\\ A = 107\\\\ mA$$\n(Négligeant la résistance interne, sinon I serait plus faible)\n\n**4. Évolution :**\n- $[Zn^{2+}]$ augmente (Zn se dissout).\n- $[Cu^{2+}]$ diminue (Cu²⁺ se réduit en Cu).\n- Le rapport $[Zn^{2+}]/[Cu^{2+}]$ augmente.\n- D'après Nernst, $E$ diminuera progressivement.\n\n**Réponse :** E ≈ 1,07 V ; I ≈ 107 mA ; [Zn²⁺] augmente, [Cu²⁺] diminue, E diminue.",
+    "question": "On réalise une pile Daniell avec [Zn²⁺] = 0,1 mol·L⁻¹ et [Cu²⁺] = 0,01 mol·L⁻¹ à 25°C. 1) Calculez la f.é.m. théorique E de cette pile (E°=1,10 V). 2) Écrivez les demi-équations aux électrodes et l'équation bilan. 3) Cette pile alimente une résistance de 10 Ω. Estimez le courant initial (négligez la résistance interne). 4) Après un fonctionnement prolongé, comment évoluent [Zn²⁺] et [Cu²⁺] ? Que deviendra E ?"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans la pile Daniell, l'anode est en :",
+      "options": [
+        "Cuivre",
+        "Zinc",
+        "Platine",
+        "Carbone"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "À l'anode de la pile Daniell se produit :",
+      "options": [
+        "Réduction de Cu²⁺",
+        "Oxydation de Zn",
+        "Réduction de Zn²⁺",
+        "Oxydation de Cu"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Le pont salin permet :",
+      "options": [
+        "Le passage des électrons",
+        "Le passage des ions",
+        "Le chauffage",
+        "L'isolation électrique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "La f.é.m. standard de la pile Daniell est d'environ :",
+      "options": [
+        "0,34 V",
+        "0,76 V",
+        "1,10 V",
+        "2,20 V"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel ion migre vers le compartiment cathode dans le pont salin ?",
+      "options": [
+        "Zn²⁺",
+        "Cu²⁺",
+        "K⁺",
+        "NO₃⁻"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "L'équation bilan de la pile Daniell est :",
+      "options": [
+        "Zn + Cu → Zn²⁺ + Cu²⁺",
+        "Zn²⁺ + Cu → Zn + Cu²⁺",
+        "Zn + Cu²⁺ → Zn²⁺ + Cu",
+        "Zn²⁺ + Cu²⁺ → Zn + Cu"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Si [Cu²⁺] diminue pendant le fonctionnement, la tension :",
+      "options": [
+        "Augmente",
+        "Diminue",
+        "Reste constante",
+        "Devient nulle"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Le rôle du pont salin est essentiel pour :",
+      "options": [
+        "Augmenter la tension",
+        "Maintenir l'électroneutralité",
+        "Chauffer la pile",
+        "Colorer la solution"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "La pile Daniell est une pile :",
+      "options": [
+        "Rechargeable",
+        "Non rechargeable",
+        "À combustible",
+        "Solaire"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Pendant le fonctionnement, la masse de l'électrode de cuivre :",
+      "options": [
+        "Diminue",
+        "Augmente",
+        "Reste constante",
+        "Devient négative"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

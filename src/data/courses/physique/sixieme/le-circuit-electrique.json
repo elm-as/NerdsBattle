@@ -1,0 +1,97 @@
+{
+  "id": "physique-sixieme-le-circuit-electrique",
+  "title": "Le circuit électrique",
+  "summary": "Des coupures intempestives d'électricité se produisent dans le quartier Djamourou de Bouaké où habitent des élèves de la classe de 6ème 2 du Collège Moderne de KOKO. Ils veulent prendre des dispositions pour éclairer leur chambre en cas de « coupures » d'électricité. Ils décident alors de réaliser un circuit électrique et de le schématiser.",
+  "lesson": "# Le circuit électrique\n\n## I. Composants d'un circuit électrique\n\nUn circuit électrique comprend:\n- **Le générateur** (pile): fournit l'énergie électrique\n- **Le récepteur** (lampe, moteur): utilise l'énergie électrique\n- **Les fils de connexion**: permettent le passage du courant\n- **L'interrupteur**: commande le circuit\n\n## II. Symboles normalisés\n\nChaque composant possède un symbole normalisé pour les schémas:\n- Pile: deux traits (un long pour +, un court pour -)\n- Lampe: cercle avec croix\n- Moteur: cercle avec M\n- Interrupteur: barre mobile\n- Fils: lignes droites\n\n## III. Le courant électrique\n\nLe courant électrique circule dans un circuit fermé. Son sens conventionnel va de la borne + vers la borne - à l'extérieur du générateur.\n\n## IV. Conducteurs et isolants\n\n- **Conducteurs**: laissent passer le courant (cuivre, fer, aluminium)\n- **Isolants**: ne laissent pas passer le courant (plastique, bois, verre)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Circuit fermé nécessaire pour le fonctionnement",
+    "Symboles normalisés obligatoires dans les schémas",
+    "Courant va du + vers le - (sens conventionnel)",
+    "Conducteurs vs isolants électriques"
+  ],
+  "exercise": {
+    "question": "Schématise un circuit électrique avec pile, lampe et interrupteur. Indique le sens du courant.",
+    "answer": "Schéma avec symboles normalisés: pile reliée à une lampe et un interrupteur en série. Flèche indiquant le sens du courant du + vers -."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Le sens conventionnel du courant électrique est:",
+      "options": [
+        "Du - vers le +",
+        "Du + vers le -",
+        "Dans les deux sens",
+        "Il n'y a pas de sens"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel matériau est un conducteur électrique?",
+      "options": [
+        "Le plastique",
+        "Le bois",
+        "Le cuivre",
+        "Le verre"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle est la borne positive d'une pile plate ?",
+      "options": [
+        "La grande lame",
+        "L'enveloppe métallique",
+        "Le bouton central",
+        "\"La petite lame\""
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'un circuit électrique ?",
+      "options": [
+        "Un ensemble de piles électriques",
+        "Un fil de connexion",
+        "Un interrupteur ouvert",
+        "\"Une chaîne d'éléments électriques reliés aux bornes d'un générateur\""
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Dans quel sens circule le courant électrique ?",
+      "options": [
+        "\"De la borne + vers la borne -\"",
+        "De la borne - vers la borne +",
+        "Dans les deux sens",
+        "Il ne circule pas"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Lequel de ces matériaux est un conducteur électrique ?",
+      "options": [
+        "Le plastique",
+        "\"Le cuivre\"",
+        "Le bois sec",
+        "La gomme"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

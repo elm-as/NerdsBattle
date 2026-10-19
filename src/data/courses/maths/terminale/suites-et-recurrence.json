@@ -1,0 +1,44 @@
+{
+  "id": "maths-terminale-suites-et-recurrence",
+  "title": "Suites et récurrence",
+  "summary": "Pour prouver une propriété vraie pour tous les entiers, on utilise le raisonnement par récurrence. Comment procéder ?",
+  "lesson": "## Suites et récurrence\n\n### Raisonnement par récurrence\nPour démontrer P(n) vraie pour tout n ≥ n₀ :\n\n**1. Initialisation :** Vérifier P(n₀)\n**2. Hérédité :** Montrer que P(n) ⟹ P(n+1)\n**3. Conclusion :** P(n) vraie pour tout n ≥ n₀\n\n### Limites de suites\n- Suite convergente : admet une limite finie\n- Suite divergente : pas de limite finie\n\n**Théorèmes :**\n- Suites monotones bornées convergent\n- Théorème des gendarmes\n\n### Suites adjacentes\n(uₙ) croissante, (vₙ) décroissante, lim(vₙ − uₙ) = 0\n⟹ elles convergent vers la même limite",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Récurrence : initialisation + hérédité",
+    "Suite convergente : limite finie",
+    "Monotone + bornée ⟹ convergente"
+  ],
+  "exercise": {
+    "question": "**Exercice 1 :** Démontre par récurrence : 1 + 2 + ... + n = n(n+1)/2\n\n**Exercice 2 :** Étudie la convergence de uₙ = 1/n\n\n**Exercice 3 :** Soit uₙ = 2 − 1/n. Montre que (uₙ) est croissante et majorée, puis détermine sa limite.\n\n**Exercice 4 :** Calcule la limite de uₙ = (2n² + 3n)/(n² + 1)",
+    "answer": "\n**Solution Exercice 1 :**\n**Initialisation (n=1) :** 1 = 1(2)/2 = 1 ✓\n\n**Hérédité :** Supposons P(n) vraie\n1 + 2 + ... + n + (n+1) = n(n+1)/2 + (n+1)\n= (n+1)(n/2 + 1) = (n+1)(n+2)/2 = P(n+1) ✓\n\n**Conclusion :** P(n) vraie pour tout n ≥ 1\n\n**Solution Exercice 2 :**\nPour tout ε > 0, ∃N tel que pour n > N : |1/n − 0| < ε\nPrenons N = ⌈1/ε⌉\n(uₙ) converge vers 0\n**Réponse : lim uₙ = 0**\n\n**Solution Exercice 3 :**\nuₙ₊₁ − uₙ = (2 − 1/(n+1)) − (2 − 1/n)\n= 1/n − 1/(n+1) = 1/(n(n+1)) > 0\nDonc (uₙ) croissante\nuₙ = 2 − 1/n < 2 pour tout n\nDonc (uₙ) majorée par 2\nPar théorème : (uₙ) converge\nlim uₙ = lim(2 − 1/n) = 2 − 0 = 2\n**Réponse : (uₙ) converge vers 2**\n\n**Solution Exercice 4 :**\nuₙ = (2n² + 3n)/(n² + 1)\n= (2 + 3/n)/(1 + 1/n²)\nlim uₙ = 2/1 = 2\n**Réponse : lim uₙ = 2**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Les étapes d'une récurrence sont :",
+      "options": [
+        "Initialisation seulement",
+        "Hérédité seulement",
+        "Initialisation + Hérédité",
+        "Conclusion seulement"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Une suite croissante et majorée est :",
+      "options": [
+        "Divergente",
+        "Convergente",
+        "Constante",
+        "Non bornée"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

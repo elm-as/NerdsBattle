@@ -1,0 +1,267 @@
+{
+  "id": "physique-seconde-etude-experimentale-d-un-dipole-actif-point-de-fonctionnemen",
+  "title": "Étude expérimentale d'un dipôle actif - Point de fonctionnement",
+  "summary": "Dans le quartier populaire d'Abobo à Abidjan, des élèves de 2nde A1 visitent l'atelier d'un réparateur de radios qui leur explique un phénomène intrigant : une pile neuve fait briller une lampe plus fortement qu'une pile usée, même si toutes deux affichent '1,5V' sur leur étiquette. Le réparateur affirme qu'une pile ne se comporte pas comme une simple résistance. Pour vérifier cette assertion et comprendre ce mystère, les élèves décident de réaliser une étude expérimentale approfondie des piles, en traçant ",
+  "lesson": "## 1. Introduction aux dipôles actifs\n\nUn **dipôle actif** est un composant électrique capable de fournir de l'énergie électrique au circuit. Contrairement aux dipôles passifs qui consomment de l'énergie, les dipôles actifs en produisent.\n\n**Exemples en Côte d'Ivoire** :\n- Piles et batteries (importées et locales)\n- Générateurs photovoltaïques (panneaux solaires)\n- Alternateurs des centrales électriques\n- Dynamos de vélo (encore utilisées en milieu rural)\n\n**Description du schéma 1:** Comparaison dipôle actif/passif. Éléments : (1) Dipôle actif (pile) : fournit de l'énergie, flèche U et I dans le même sens, (2) Dipôle passif (résistance) : consomme de l'énergie, U et I en sens opposés, (3) Symboles normalisés, (4) Convention récepteur/générateur.\n\n## 2. La pile : un dipôle actif typique\n\n### **Structure d'une pile**\n- Deux électrodes (anode et cathode)\n- Électrolyte (conducteur ionique)\n- Réactions électrochimiques spontanées\n\n### **Grandeurs caractéristiques**\n1. **Force électromotrice (f.é.m.) E** : Tension à vide (I=0)\n2. **Résistance interne r** : Résistance des constituants\n3. **Capacité Q** : Quantité d'électricité disponible (Ah)\n\n### **Relation fondamentale**\n$$U = E - rI$$\nOù :\n- $U$ : tension aux bornes de la pile\n- $E$ : f.é.m. (tension à vide)\n- $r$ : résistance interne\n- $I$ : intensité débitée\n\n## 3. Montage rhéostatique pour l'étude d'une pile\n\n### **Schéma du montage**\n1. Pile en série avec un rhéostat variable\n2. Ampèremètre en série pour mesurer I\n3. Voltmètre en parallèle sur la pile pour mesurer U\n4. Rhéostat permet de faire varier I de 0 à I_max\n\n### **Protocole expérimental**\n1. Régler le rhéostat pour I=0, mesurer U = E\n2. Diminuer la résistance pour augmenter I\n3. Noter les couples (I, U)\n4. Tracer U = f(I)\n5. Exploiter la droite obtenue\n\n### **Précautions**\n- Ne pas court-circuiter la pile (I trop fort)\n- Durée de mesure courte pour éviter l'usure\n- Respecter la polarité des appareils\n\n**Description du schéma 2:** Montage rhéostatique. Éléments : (1) Pile avec bornes + et -, (2) Rhéostat variable, (3) Ampèremètre en série, (4) Voltmètre en parallèle sur la pile, (5) Interrupteur, (6) Flèches U et I, (7) Tableau de mesures : I, U.\n\n## 4. Exploitation de la caractéristique\n\n### **Tracé de U = f(I)**\nOn obtient une droite décroissante : $U = E - rI$\n\n### **Détermination graphique**\n1. **Ordonnée à l'origine** : $U(I=0) = E$\n2. **Pente** : $-r$ (pente négative)\n3. **Abscisse à l'origine** : $I_{\\\text{cc}} = \\\\frac{E}{r}$ (courant de court-circuit)\n\n### **Calculs**\nÀ partir de deux points $(I_1, U_1)$ et $(I_2, U_2)$ :\n$$r = -\\\\frac{U_2 - U_1}{I_2 - I_1} = \\\\frac{U_1 - U_2}{I_2 - I_1}$$\n$$E = U_1 + rI_1 = U_2 + rI_2$$\n\n## 5. Point de fonctionnement d'une association\n\n### **Association pile + résistance**\nCircuit simple : pile (E, r) + résistance R\n\n### **Équations**\n1. Pour la pile : $U = E - rI$\n2. Pour la résistance : $U = RI$ (loi d'Ohm)\n\n### **Point de fonctionnement**\nIntersection des deux caractéristiques :\n$$E - rI = RI$$\n$$I = \\\\frac{E}{R + r}$$\n$$U = \\\\frac{ER}{R + r}$$\n\n### **Méthode graphique**\n1. Tracer U = E - rI (droite décroissante)\n2. Tracer U = RI (droite croissante passant par l'origine)\n3. Le point d'intersection est le point de fonctionnement (I₀, U₀)\n\n**Description du schéma 3:** Détermination graphique du point de fonctionnement. Éléments : (1) Caractéristique de la pile : U = E - rI, (2) Caractéristique de la résistance : U = RI, (3) Point d'intersection P(I₀, U₀), (4) Projection sur les axes, (5) Échelles : U (0-E), I (0-E/r), (6) Zone de fonctionnement sûr.\n\n## 6. Loi de Pouillet\n\n### **Énoncé**\nPour un circuit simple composé d'un générateur (E, r) et d'une résistance R, l'intensité est :\n$$I = \\\\frac{E}{R + r}$$\n\n### **Généralisation**\nPour plusieurs générateurs et résistances en série :\n$$I = \\\\frac{\\\\sum E}{\\\\sum R + \\\\sum r}$$\nAvec convention : E > 0 si sens de I, E < 0 sinon.\n\n### **Applications**\n- Calcul du courant dans un circuit\n- Dimensionnement des résistances\n- Protection contre les courts-circuits\n\n## 7. Applications pratiques en Côte d'Ivoire\n\n### **Diagnostic de piles**\n- Pile neuve : r faible, E proche de la valeur nominale\n- Pile usée : r augmente, E diminue\n- Test simple : mesure U à vide et en charge\n\n### **Batteries de voiture**\n- E = 12,6 V (plomb-acide)\n- r très faible (quelques mΩ)\n- Capacité : 40-100 Ah\n- Problèmes : sulfatation, vieillissement\n\n### **Piles domestiques**\n- Types : salines, alcalines, lithium\n- Coût : importante dépense pour les ménages\n- Recyclage : en développement à Abidjan\n\n### **Énergie solaire**\n- Panneaux solaires : dipôles actifs non linéaires\n- Régulateurs de charge nécessaires\n- Stockage dans des batteries\n\n## 8. Rendement énergétique\n\n### **Puissances**\n- Puissance générée : $P_{\\\text{géné}} = EI$\n- Puissance utile : $P_{\\\text{utile}} = UI = RI^2$\n- Puissance perdue : $P_{\\\text{perdue}} = rI^2$\n\n### **Rendement**\n$$\\\\eta = \\\\frac{P_{\\\text{utile}}}{P_{\\\text{géné}}} = \\\\frac{UI}{EI} = \\\\frac{U}{E} = \\\\frac{R}{R + r}$$\n\n### **Optimisation**\n- Pour η maximum : R >> r (mais I faible)\n- Compromis puissance/rendement\n- Adaptation d'impédance en électronique\n\n## 9. Sécurité et entretien\n\n### **Risques avec les piles**\n- Courts-circuits : échauffement, explosion\n- Fuites d'électrolyte (corrosif)\n- Incendie (batteries lithium)\n\n### **Bonnes pratiques**\n- Ne pas mélanger piles neuves et usées\n- Stocker au sec et à température modérée\n- Recycler les piles usagées\n- Éviter les courts-circuits\n\n### **En contexte ivoirien**\n- Achat de piles de qualité (contrefaçons)\n- Réparation de batteries auto\n- Utilisation rationnelle de l'énergie\n",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Un dipôle actif (pile) fournit de l'énergie : U = E - rI",
+    "La f.é.m. E est la tension à vide, r la résistance interne",
+    "Le point de fonctionnement est l'intersection des caractéristiques pile et charge",
+    "La loi de Pouillet donne I = E/(R+r) pour un circuit simple",
+    "Le rendement η = R/(R+r) montre l'importance d'avoir r faible"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Pour une pile, la relation entre U, E, r et I est :",
+      "options": [
+        "U = E - rI",
+        "U = E + rI",
+        "U = rI - E",
+        "U = E × rI"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La f.é.m. E d'une pile se mesure :",
+      "options": [
+        "À vide (I=0)",
+        "En court-circuit",
+        "En charge nominale",
+        "En alternatif"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Le courant de court-circuit d'une pile vaut :",
+      "options": [
+        "I_cc = E/r",
+        "I_cc = E×r",
+        "I_cc = r/E",
+        "I_cc = 0"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Pour une pile (E=1,5V, r=0,3Ω) et R=10Ω, I vaut :",
+      "options": [
+        "≈0,146 A",
+        "1,5 A",
+        "0,15 A",
+        "0,5 A"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Le point de fonctionnement est :",
+      "options": [
+        "L'intersection des caractéristiques",
+        "Le maximum de puissance",
+        "Le courant de court-circuit",
+        "La tension à vide"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Une pile usée a :",
+      "options": [
+        "r augmenté et E diminué",
+        "r diminué et E augmenté",
+        "r et E constants",
+        "r nul"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "La loi de Pouillet pour E, r et R donne :",
+      "options": [
+        "I = E/(R+r)",
+        "I = (R+r)/E",
+        "I = E×R/r",
+        "I = E-r/R"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Le rendement η d'une pile dans une charge R est :",
+      "options": [
+        "η = R/(R+r)",
+        "η = r/(R+r)",
+        "η = E/(R+r)",
+        "η = U/E"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Pour tracer U=f(I) d'une pile, on utilise :",
+      "options": [
+        "Un montage rhéostatique",
+        "Un pont de Wheatstone",
+        "Un potentiomètre seul",
+        "Un générateur de fonctions"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Un dipôle actif se distingue d'un passif car il :",
+      "options": [
+        "Fournit de l'énergie au circuit",
+        "Consomme toujours de l'énergie",
+        "A une résistance négative",
+        "Fonctionne en continu seulement"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "La relation caractéristique d'une pile est :",
+      "options": [
+        "U = E + rI",
+        "U = E - rI",
+        "U = rI - E",
+        "U = E/I"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "La force électromotrice E se mesure :",
+      "options": [
+        "En court-circuit",
+        "En circuit ouvert",
+        "Sous charge maximale",
+        "Avec un ampèremètre"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "La résistance interne d'une pile :",
+      "options": [
+        "Augmente quand la pile s'use",
+        "Diminue quand la pile s'use",
+        "Reste constante",
+        "Est nulle pour une pile neuve"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Pour une pile E=4,5V, r=0,5Ω alimentant une résistance R=4Ω, I = :",
+      "options": [
+        "1 A",
+        "1,5 A",
+        "2 A",
+        "3 A"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Un dipôle actif a une caractéristique de pente :",
+      "options": [
+        "Positive",
+        "Négative",
+        "Nulle",
+        "Infinie"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "La loi de Pouillet donne :",
+      "options": [
+        "U = RI",
+        "I = E/(R+r)",
+        "P = UI",
+        "E = U + rI"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Le rendement η d'un générateur vaut :",
+      "options": [
+        "U/E",
+        "E/U",
+        "r/R",
+        "I/E"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "En court-circuit théorique :",
+      "options": [
+        "U = E",
+        "I = 0",
+        "U = 0",
+        "r = 0"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Pour tracer la caractéristique d'une pile, on utilise un montage :",
+      "options": [
+        "Potentiométrique",
+        "Rhéostatique",
+        "En pont",
+        "En court-circuit"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

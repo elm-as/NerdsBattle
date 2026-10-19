@@ -1,0 +1,45 @@
+{
+  "id": "francais-seconde-la-poesie-versification-et-figures-de-style",
+  "title": "La poésie : versification et figures de style",
+  "summary": "Comment analyser un poème et comprendre sa musicalité ?",
+  "lesson": "## La versification\n\n### Structure du poème\n\n**Le vers**\n- Ligne de poésie\n- Nombre de syllabes :\n  - Alexandrin : 12 syllabes\n  - Décasyllabe : 10 syllabes\n  - Octosyllabe : 8 syllabes\n\n**La strophe**\n- Groupe de vers\n- Quatrain : 4 vers\n- Tercet : 3 vers\n- Distique : 2 vers\n\n### Les rimes\n\n**Disposition**\n- Rimes suivies (AABB)\n- Rimes croisées (ABAB)\n- Rimes embrassées (ABBA)\n\n**Qualité**\n- Rimes pauvres : 1 son commun\n- Rimes suffisantes : 2 sons\n- Rimes riches : 3 sons ou plus\n\n### Figures de style poétiques\n\n**Métaphore :** comparaison sans outil\n**Personnification :** qualités humaines à un objet\n**Anaphore :** répétition en début de vers\n**Allitération :** répétition de consonnes\n**Assonance :** répétition de voyelles",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Alexandrin = 12 syllabes",
+    "Rimes : suivies, croisées, embrassées",
+    "Figures de style : métaphore, personnification",
+    "Allitération et assonance : musicalité"
+  ],
+  "exercise": {
+    "question": "Analyse : 'Pour qui sont ces serpents qui sifflent sur vos têtes ?' (Racine). Quelle figure ?",
+    "answer": "\n**Solution :**\n**Allitération en [s]** : répétition du son [s] qui imite le sifflement des serpents.\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Un vers de 12 syllabes est :",
+      "options": [
+        "Un octosyllabe",
+        "Un décasyllabe",
+        "Un alexandrin",
+        "Un quatrain"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "ABAB est une disposition de rimes :",
+      "options": [
+        "Suivies",
+        "Croisées",
+        "Embrassées",
+        "Libres"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

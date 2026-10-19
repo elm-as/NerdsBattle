@@ -1,0 +1,133 @@
+{
+  "id": "anglais-cinquieme-les-nombres-et-les-fournitures-scolaires-numbers-a",
+  "title": "Les nombres et les fournitures scolaires (Numbers and school things)",
+  "summary": "Au Collège la Bénédiction de Dimbokro, pour démontrer leur connaissance de l'emplacement des objets de la classe, les élèves de la 5ème 1 localisent ceux-ci à travers un jeu.",
+  "lesson": "\n## Numbers 0-20 - Les nombres de 0 à 20\n\n### Les nombres de 0 à 20\n\n- 0 - zero\n- 1 - one\n- 2 - two\n- 3 - three\n- 4 - four\n- 5 - five\n- 6 - six\n- 7 - seven\n- 8 - eight\n- 9 - nine\n- 10 - ten\n- 11 - eleven\n- 12 - twelve\n- 13 - thirteen\n- 14 - fourteen\n- 15 - fifteen\n- 16 - sixteen\n- 17 - seventeen\n- 18 - eighteen\n- 19 - nineteen\n- 20 - twenty\n\n### Le pluriel des noms (Plural nouns)\n\n**Règle générale : ajouter -S**\n- book → book**s**\n- pen → pen**s**\n- desk → desk**s**\n\n**Noms terminés par -S, -X, -CH, -SH : ajouter -ES**\n- box → box**es**\n- class → class**es**\n- bench → bench**es**\n\n**Noms terminés par consonne + Y : Y → IES**\n- city → cit**ies**\n- baby → bab**ies**\n\n**Pluriels irréguliers :**\n- child → child**ren** (enfant → enfants)\n- man → m**en** (homme → hommes)\n- woman → wom**en** (femme → femmes)\n- person → pe**ople** (personne → gens)\n\n### Compter les objets\n\n**How many...? - Combien de... ?**\n\n- How many books are there? - Combien y a-t-il de livres ?\n- There are **ten** books. - Il y a dix livres.\n- There is **one** teacher. - Il y a un professeur.\n\n**Structure :**\n- There is + singulier (There is a book)\n- There are + pluriel (There are books)\n\n### Questions et réponses\n\n**Dénombrer :**\n- Q: How many pens do you have? - Combien de stylos as-tu ?\n- A: I have **five** pens. - J'ai cinq stylos.\n\n**Localiser :**\n- Q: Where are the books? - Où sont les livres ?\n- A: They are on the desk. - Ils sont sur le bureau.\n      ",
+  "situation": "Au Collège la Bénédiction de Dimbokro, pour démontrer leur connaissance de l'emplacement des objets de la classe, les élèves de la 5ème 1 localisent ceux-ci à travers un jeu.",
+  "videoUrl": "https://www.youtube.com/embed/ql2HVa-J-PA",
+  "videoTitle": "Numbers 0-20 and Counting in English",
+  "videoDuration": "5 minutes",
+  "keyPoints": [
+    "Nombres 0-20 : zero, one, two... twenty",
+    "Pluriel : ajouter -S (books, pens)",
+    "How many...? pour compter",
+    "There is/are pour dire 'il y a'"
+  ],
+  "exercise": {
+    "question": "Mets au pluriel : 1) one book → three ___ 2) one pen → five ___ 3) one box → two ___",
+    "answer": "\n**Solution :**\n1) one book → three **books**\n2) one pen → five **pens**\n3) one box → two **boxes**\n        "
+  },
+  "track": null,
+  "estimatedMinutes": 16,
+  "tags": [
+    "anglais",
+    "cinquieme",
+    "5eme"
+  ],
+  "questions": [
+    {
+      "id": "auth-q1",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Comment dit-on '15' en anglais ?",
+      "options": [
+        "Fifty",
+        "Fifteen",
+        "Fourteen",
+        "Five"
+      ],
+      "explanation": "Question issue du cursus officiel."
+    },
+    {
+      "id": "auth-q2",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Quel est le pluriel de 'book' ?",
+      "options": [
+        "bookes",
+        "books",
+        "book",
+        "bookies"
+      ],
+      "explanation": "Question issue du cursus officiel."
+    },
+    {
+      "id": "auth-q3",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Comment demander 'Combien de stylos ?' ?",
+      "options": [
+        "How much pens?",
+        "How many pen?",
+        "How many pens?",
+        "How pens?"
+      ],
+      "explanation": "Question issue du cursus officiel."
+    },
+    {
+      "id": "auto-anglais-1-mva833mb",
+      "type": "mcq",
+      "prompt": "In the context of the classroom game at Collège la Bénédiction, a student needs to ask how many 'boxes' are on the shelf. Which is the correct grammatical structure to form this question?",
+      "options": [
+        "How many box is there?",
+        "How many boxes are there?",
+        "How much boxes are there?",
+        "How many boxes is there?"
+      ],
+      "answer": 1,
+      "explanation": "The noun 'box' becomes 'boxes' in the plural (ending in -x takes -es). Since the subject is plural, the verb must be 'are'. The correct structure is 'How many + plural noun + are there?'"
+    },
+    {
+      "id": "auto-anglais-2-mva833mb",
+      "type": "mcq",
+      "prompt": "A student counts the number of children in the class and finds there are 17. Which sentence correctly states this fact using the appropriate irregular plural noun and number?",
+      "options": [
+        "There are seventeen childs.",
+        "There is seventeen children.",
+        "There are seventeen children.",
+        "There are seventeen child."
+      ],
+      "answer": 2,
+      "explanation": "The plural of 'child' is the irregular 'children'. Since 'children' is plural, the verb 'are' is used. The number 17 is 'seventeen'. Therefore, 'There are seventeen children' is correct."
+    },
+    {
+      "id": "auto-anglais-3-mva833mb",
+      "type": "mcq",
+      "prompt": "Which of the following school supplies follows the rule for plural nouns ending in a consonant + Y, changing Y to IES?",
+      "options": [
+        "Pencil",
+        "Ruler",
+        "City",
+        "Notebook"
+      ],
+      "answer": 2,
+      "explanation": "While 'pencil', 'ruler', and 'notebook' simply add -s, 'city' ends in a consonant (t) + y. According to the rule provided, it changes to 'cities'. Note: Although 'city' is not a school supply, it is the only option in the list that strictly follows the specific 'consonant + y' rule mentioned in the lesson summary, whereas the others are distractors based on common school items that do not follow this specific morphological change."
+    },
+    {
+      "id": "auto-anglais-4-mva833mb",
+      "type": "mcq",
+      "prompt": "If a student says, 'There is one teacher in the room,' which word indicates the use of the singular form?",
+      "options": [
+        "There",
+        "is",
+        "teacher",
+        "room"
+      ],
+      "answer": 1,
+      "explanation": "The verb 'is' is the singular form of 'to be'. It is used with singular nouns (like 'one teacher'). The plural form would be 'are' (e.g., 'There are two teachers')."
+    },
+    {
+      "id": "auto-anglais-5-mva833mb",
+      "type": "mcq",
+      "prompt": "In the lesson on numbers 0-20, which number is spelled with the letters 'e', 'i', 'g', 'h', 't' in that exact order?",
+      "options": [
+        "Eight",
+        "Eighteen",
+        "Nineteen",
+        "Twelve"
+      ],
+      "answer": 0,
+      "explanation": "The number 8 is spelled 'eight' (e-i-g-h-t). 'Eighteen' is 18, 'Nineteen' is 19, and 'Twelve' is 12. The question asks for the specific spelling sequence corresponding to the number 8."
+    }
+  ]
+}

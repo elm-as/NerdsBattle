@@ -1,0 +1,32 @@
+{
+  "id": "maths-troisieme-angles-inscrits-dans-un-cercle",
+  "title": "Angles inscrits dans un cercle",
+  "summary": "Cercle de centre O, points B,C,P sur le cercle. Deux angles ont même mesure. Lesquels ?",
+  "lesson": "## Angles inscrits\n\n### Définition\nAngle inscrit : sommet sur le cercle\n\n### Propriété 1\n**Angle inscrit = (Angle au centre) / 2**\n\nMême arc intercepté\n\n### Propriété 2\nDeux angles inscrits interceptant le même arc sont égaux\n\n### Applications\n- Calculer mesures d'angles\n- Démontrer égalités\n- Propriétés cercle",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Sommet sur cercle",
+    "Inscrit = Centre/2",
+    "Même arc → angles égaux",
+    "Cercle et triangles"
+  ],
+  "exercise": {
+    "question": "Angle centre = 80°. Angle inscrit ?",
+    "answer": "40°"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Angle inscrit par rapport au centre :",
+      "options": [
+        "Double",
+        "Moitié",
+        "Égal",
+        "Triple"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

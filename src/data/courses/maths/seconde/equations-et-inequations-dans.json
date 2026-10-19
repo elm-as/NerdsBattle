@@ -1,0 +1,71 @@
+{
+  "id": "maths-seconde-equations-et-inequations-dans",
+  "title": "Équations et inéquations dans ℝ",
+  "summary": "Le club journal du Lycée Moderne de Divo imprime des journaux. Les frais sont de 600 FCFA pour les 250 premiers exemplaires et 400 FCFA pour les suivants. Le prix de vente est fixé à 500 FCFA. Le président du club, élève en seconde C, veut déterminer le nombre minimum d'exemplaires à vendre pour réaliser un bénéfice. Il modélise le problème par des inéquations.",
+  "lesson": "## Équations et inéquations dans ℝ\n\n### 1. Équations équivalentes\nDeux équations sont équivalentes si elles ont les mêmes solutions.\n\n**Transformations équivalentes** :\n1. Ajouter/soustraire un même nombre aux deux membres\n2. Multiplier/diviser par un même nombre non nul\n\n**Attention** : Multiplier par zéro n'est pas équivalent !\n\n### 2. Ensemble de validité\nAvant de résoudre une équation ou inéquation, déterminer l'ensemble des valeurs où elle a un sens.\n\n**Exemple ivoirien** : Résoudre (x-100)/(x-50) ≥ 0 dans le contexte de prix de vente.\nEnsemble de validité : ℝ\\{50} (tous les réels sauf 50)\n\n### 3. Résolution d'équations polynomiales\n**Premier degré** : ax + b = 0 (a≠0) ⇒ x = -b/a\n\n**Second degré** : ax² + bx + c = 0 (a≠0)\n- Δ = b² - 4ac\n- Si Δ > 0 : Deux solutions x₁,₂ = (-b ± √Δ)/(2a)\n- Si Δ = 0 : Solution double x₀ = -b/(2a)\n- Si Δ < 0 : Pas de solution réelle\n\n**Exemple agricole** : Un champ de riz produit selon P(x)=0.5x²+20x où x est l'engrais en kg. Quand la production atteint 1000kg ?\n0.5x²+20x=1000 ⇒ 0.5x²+20x-1000=0\nΔ=400+2000=2400 ⇒ √Δ≈49\nSolutions : x≈(-20±49)/1 ⇒ x≈29 ou x≈-69 (négatif impossible)\nDonc x≈29kg d'engrais\n\n### 4. Résolution d'inéquations polynomiales\n**Méthode** :\n1. Mettre tous les termes dans un membre\n2. Factoriser le polynôme\n3. Étudier le signe de chaque facteur\n4. Faire un tableau de signes\n5. Conclure selon l'inégalité\n\n**Exemple économique** : Un vendeur de poisson à Abobo veut un bénéfice B(x)≥0 où B(x)=-0.2x²+30x-200\nRésoudre -0.2x²+30x-200≥0\n⇒ 0.2x²-30x+200≤0 (multiplier par -1, changer sens)\nΔ=900-160=740>0\nRacines : x=(30±√740)/0.4 ≈ (30±27.2)/0.4\nx₁≈7, x₂≈143\nSigne : ≤0 entre les racines\nDonc 7≤x≤143 kg pour avoir un bénéfice positif\n\n### 5. Équations avec valeurs absolues\n**Types** :\n1. |f(x)| = k (k≥0) ⇒ f(x)=k OU f(x)=-k\n2. |f(x)| = |g(x)| ⇒ f(x)=g(x) OU f(x)=-g(x)\n3. |f(x)| = g(x) ⇒ {g(x)≥0 et [f(x)=g(x) OU f(x)=-g(x)]}\n\n**Exemple transport** : Distance entre deux gares routières : |x-50|=10 où x est la position d'un bus.\nSolutions : x=40km ou x=60km\n\n### 6. Inéquations avec valeurs absolues\n**Règles** :\n1. |f(x)| < k (k>0) ⇒ -k < f(x) < k\n2. |f(x)| > k (k>0) ⇒ f(x) < -k OU f(x) > k\n3. |f(x)| ≤ |g(x)| ⇒ f²(x) ≤ g²(x)\n\n### 7. Équations rationnelles\nMéthode :\n1. Déterminer l'ensemble de validité (dénominateur≠0)\n2. Réduire au même dénominateur\n3. Résoudre numérateur=0\n4. Vérifier que les solutions sont dans l'ensemble de validité\n\n### 8. Inéquations rationnelles\nMéthode similaire avec tableau de signes incluant le dénominateur.\n\n**Exemple santé** : Taux de vaccination (x-80)/(x-60) ≥ 1 où x est le pourcentage\n⇒ (x-80)/(x-60) - 1 ≥ 0\n⇒ [(x-80)-(x-60)]/(x-60) ≥ 0\n⇒ -20/(x-60) ≥ 0\n⇒ x-60 < 0 (car -20<0)\n⇒ x < 60%\n\n### 9. Applications concrètes en Côte d'Ivoire\n\n**Agriculture** :\n- Déterminer la quantité d'engrais optimale\n- Calculer les seuils de rentabilité\n\n**Commerce** :\n- Fixer les prix pour maximiser les bénéfices\n- Déterminer les quantités à vendre\n\n**Transport** :\n- Calculer les distances optimales\n- Résoudre des problèmes d'horaire\n\n**Éducation** :\n- Déterminer les seuils de réussite\n- Calculer les moyennes minimales\n\n### 10. Problèmes modélisés\n**Exemple complet** : Une coopérative de café produit C(x)=100x-0.5x² kg où x est l'investissement en milliers de FCFA. Quand la production dépasse 2000kg ?\n100x-0.5x² > 2000\n⇒ -0.5x²+100x-2000 > 0\n⇒ 0.5x²-100x+2000 < 0\nΔ=10000-4000=6000\nRacines : x=(100±√6000) ≈ (100±77.5)\nx₁≈11.25, x₂≈88.75\nSolution : 11.25 < x < 88.75 milliers de FCFA",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Toujours déterminer l'ensemble de validité",
+    "Pour |f(x)|=k : f(x)=±k (k≥0)",
+    "Utiliser les tableaux de signes pour les inéquations",
+    "Vérifier les solutions dans l'ensemble de validité"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "L'ensemble de validité de (x+2)/(x-3)=0 est :",
+      "options": [
+        "ℝ tout entier",
+        "ℝ\\{3} (tous sauf 3)",
+        "ℝ\\{-2} (tous sauf -2)",
+        "ℝ\\{3, -2}"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Comment résout-on |x-5|=3 ?",
+      "options": [
+        "x=5 seulement",
+        "x=8 seulement",
+        "x=8 ou x=2",
+        "x=3 ou x=-3"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Pour résoudre (x-2)(x+3)>0, on utilise :",
+      "options": [
+        "Un tableau de variations",
+        "Un tableau de signes",
+        "La forme canonique",
+        "La dérivation"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Si Δ<0 pour ax²+bx+c=0, alors :",
+      "options": [
+        "Deux solutions distinctes",
+        "Une solution double",
+        "Pas de solution réelle",
+        "Solutions complexes seulement"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

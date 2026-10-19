@@ -1,0 +1,111 @@
+{
+  "id": "physique-sixieme-combustion-d-un-solide-et-d-un-liquide-dans-l-air",
+  "title": "Combustion d'un solide et d'un liquide dans l'air",
+  "summary": "Au cours d'une séance de Travaux Pratiques, les groupes d'élèves de la classe de la 6ème 2 du Lycée Moderne de Bouna disposent de l'alcool et d'un morceau de charbon de bois. Afin de connaître la notion de réaction chimique, les élèves se proposent de réaliser les combustions de ces deux corps et d'identifier les produits formés.",
+  "lesson": "# Combustion d'un solide et d'un liquide dans l'air\n\n## I. Combustion du charbon de bois\n\n### Réalisation\nLe charbon brûle dans l'air avec une lueur rouge.\n\n### Produit formé\n**Dioxyde de carbone (CO₂)**: gaz qui trouble l'eau de chaux.\n\n### Équation littérale\nCharbon + Dioxygène → Dioxyde de carbone\n\n## II. Combustion de l'alcool\n\n### Réalisation\nL'alcool brûle avec une flamme bleue.\n\n### Produits formés\n1. **Dioxyde de carbone (CO₂)**: trouble l'eau de chaux\n2. **Eau (H₂O)**: condensation observée\n\n### Équation littérale\nAlcool + Dioxygène → Dioxyde de carbone + Eau\n\n## III. Réaction chimique\n\n### Définition\nUne réaction chimique est une transformation au cours de laquelle des corps (réactifs) disparaissent pour former de nouveaux corps (produits).\n\n### Caractéristiques\n- Les réactifs disparaissent\n- De nouveaux corps apparaissent\n- Transformation irréversible\n\n## IV. Combustible et comburant\n\n### Combustible\nCorps qui brûle (charbon, alcool, bois, essence, etc.)\n\n### Comburant\nCorps qui permet la combustion. Dans l'air, c'est le **dioxygène**.\n\n## V. Réaction chimique vs transformation physique\n\n### Réaction chimique\n- Nouveaux corps formés\n- Irréversible\n- Exemple: combustion\n\n### Transformation physique\n- Même corps, état différent\n- Réversible\n- Exemple: fusion, solidification",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Combustion du charbon → CO₂",
+    "Combustion de l'alcool → CO₂ + H₂O",
+    "Réaction chimique: nouveaux corps formés",
+    "Combustible: corps qui brûle",
+    "Comburant: dioxygène de l'air"
+  ],
+  "exercise": {
+    "answer": "Parce que de nouveaux corps sont formés (CO₂, H₂O) différents des corps de départ (charbon, alcool). C'est irréversible.",
+    "question": "Pourquoi dit-on que la combustion est une réaction chimique et pas une transformation physique?"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Le produit de la combustion du charbon est:",
+      "options": [
+        "L'eau",
+        "Le dioxyde de carbone",
+        "L'oxygène",
+        "L'azote"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Le comburant dans l'air est:",
+      "options": [
+        "L'azote",
+        "Le dioxyde de carbone",
+        "Le dioxygène",
+        "Le charbon"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-physique-1-mva5wshd",
+      "type": "mcq",
+      "prompt": "Lors de la combustion de l'alcool, quel phénomène physique permet de détecter la formation de l'eau parmi les produits de la réaction ?",
+      "options": [
+        "La condensation de vapeur d'eau sur une surface froide",
+        "Le trouble de l'eau de chaux",
+        "La production d'une flamme verte",
+        "La formation d'un dépôt de suie noire"
+      ],
+      "answer": 0,
+      "explanation": "L'eau formée lors de la combustion de l'alcool se présente sous forme de vapeur. Pour la détecter, on utilise la condensation : en approchant une surface froide (comme une cuillère ou une lame de verre) au-dessus de la flamme, la vapeur d'eau se condense en gouttelettes liquides visibles. Le trouble de l'eau de chaux sert à détecter le dioxyde de carbone, pas l'eau."
+    },
+    {
+      "id": "auto-physique-2-mva5wshe",
+      "type": "mcq",
+      "prompt": "Dans l'équation littérale de la combustion du charbon de bois, quel est le rôle du dioxygène présent dans l'air ?",
+      "options": [
+        "Il est le combustible qui brûle",
+        "Il est le comburant qui permet la combustion",
+        "Il est un produit de la réaction",
+        "Il est un catalyseur qui accélère la réaction sans être consommé"
+      ],
+      "answer": 1,
+      "explanation": "Selon le cours, le comburant est le corps qui permet la combustion. Dans l'air, c'est le dioxygène qui joue ce rôle. Le charbon est le combustible (le corps qui brûle). Le dioxygène est consommé pendant la réaction et n'est donc pas un catalyseur, ni un produit."
+    },
+    {
+      "id": "auto-physique-3-mva5wshe",
+      "type": "mcq",
+      "prompt": "Quelle est la principale différence entre une réaction chimique et une transformation physique, telle qu'illustrée par la combustion ?",
+      "options": [
+        "La réaction chimique est réversible, tandis que la transformation physique est irréversible",
+        "La réaction chimique forme de nouveaux corps, tandis que la transformation physique ne change que l'état physique",
+        "La réaction chimique ne consomme pas de matière, tandis que la transformation physique en consomme",
+        "La réaction chimique se produit uniquement à haute température, tandis que la transformation physique se produit à froid"
+      ],
+      "answer": 1,
+      "explanation": "La définition du cours précise qu'une réaction chimique est une transformation où des réactifs disparaissent pour former de nouveaux corps (produits), et qu'elle est irréversible. Une transformation physique (comme la fusion de la glace) ne crée pas de nouveaux corps, elle change seulement l'état de la matière. L'option A est fausse car la réaction chimique est irréversible."
+    },
+    {
+      "id": "auto-physique-4-mva5wshe",
+      "type": "mcq",
+      "prompt": "Pourquoi l'eau de chaux est-elle utilisée spécifiquement lors de l'expérience de combustion du charbon de bois ?",
+      "options": [
+        "Pour éteindre la flamme du charbon",
+        "Pour détecter la présence de dioxyde de carbone par son trouble",
+        "Pour mesurer la température de la flamme",
+        "Pour absorber la vapeur d'eau formée"
+      ],
+      "answer": 1,
+      "explanation": "Le cours indique que le dioxyde de carbone (CO₂) est un gaz qui trouble l'eau de chaux. C'est la propriété chimique caractéristique utilisée pour identifier ce produit de combustion. L'eau de chaux ne sert pas à éteindre le feu, ni à mesurer la température, et ce n'est pas elle qui absorbe l'eau (c'est la condensation qui le fait)."
+    },
+    {
+      "id": "auto-physique-5-mva5wshe",
+      "type": "mcq",
+      "prompt": "Si un élève observe que le charbon de bois ne brûle plus dans un bocal fermé après quelques instants, quelle est la cause chimique la plus probable de cet arrêt ?",
+      "options": [
+        "Le charbon a fondu complètement",
+        "Le dioxygène (comburant) a été épuisé dans le bocal",
+        "La température est devenue trop élevée",
+        "Le dioxyde de carbone a transformé le charbon en eau"
+      ],
+      "answer": 1,
+      "explanation": "La combustion nécessite la présence d'un comburant, qui est le dioxygène dans l'air. Dans un bocal fermé, la quantité de dioxygène est limitée. Une fois ce dioxygène consommé par la réaction, la combustion s'arrête car il n'y a plus de comburant disponible. Le charbon ne fond pas (il brûle), et le CO₂ ne transforme pas le charbon en eau."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "physique-terminale-fabrication-du-savon",
+  "title": "Fabrication du savon",
+  "summary": "Comment fabrique-t-on le savon ?",
+  "lesson": "## Saponification\nTriglycéride + 3 NaOH → 3 Savon + Glycérol\n\n## Molécule amphiphile\nTête hydrophile : -COO⁻\nQueue hydrophobe",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Saponification",
+    "Amphiphile",
+    "Micelles"
+  ],
+  "exercise": {
+    "question": "NaOH pour 100 g huile ?",
+    "answer": "≈ 13,6 g"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Savon est ?",
+      "options": [
+        "Ester",
+        "Sel d'acide gras",
+        "Acide",
+        "Alcool"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

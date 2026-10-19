@@ -1,0 +1,110 @@
+{
+  "id": "espagnol-troisieme-decrire-un-lieu-une-ville-un-pays",
+  "title": "Décrire un lieu, une ville, un pays",
+  "summary": "¿Cómo es tu ciudad? (Comment est ta ville ?)",
+  "lesson": "## Décrire un lieu\n\n### Vocabulaire de localisation\n\n**Position géographique :**\n- está situado/a en (est situé/e à)\n- se encuentra en (se trouve à)\n- está al norte/sur/este/oeste de (est au nord/sud/est/ouest de)\n- está cerca de / lejos de (est près de / loin de)\n\n### Caractéristiques physiques\n\n**La taille :**\n- grande (grande)\n- pequeño/a (petit/e)\n- enorme (énorme)\n- extenso/a (étendu/e)\n\n**L'environnement :**\n- montañoso/a (montagneux/se)\n- costero/a (côtier/ère)\n- rural (rural)\n- urbano/a (urbain/e)\n- tropical (tropical)\n\n**Éléments géographiques :**\n- la playa (la plage)\n- la montaña (la montagne)\n- el río (la rivière)\n- el lago (le lac)\n- el bosque (la forêt)\n- el mar (la mer)\n\n### Le climat\n\n- hace calor (il fait chaud)\n- hace frío (il fait froid)\n- llueve (il pleut)\n- hace sol (il fait soleil)\n- el clima es tropical/templado/seco (le climat est tropical/tempéré/sec)\n\n### Décrire une ville\n\n**Infrastructure :**\n- moderno/a (moderne)\n- antiguo/a (ancien/ne)\n- histórico/a (historique)\n- turístico/a (touristique)\n- animado/a (animé/e)\n- tranquilo/a (tranquille)\n\n**Hay... (Il y a...) :**\n- monumentos (monuments)\n- edificios altos (immeubles hauts)\n- parques (parcs)\n- centros comerciales (centres commerciaux)\n- mercados (marchés)\n\n### Exemple : Décrire Abidjan\n\nAbidjan es una ciudad grande y moderna situada en el sur de Costa de Marfil. Se encuentra cerca del océano Atlántico. Es la capital económica del país y es muy animada. Hay muchos edificios altos en el barrio de Plateau. La ciudad tiene varios puentes que conectan diferentes barrios. El clima es tropical y hace calor durante todo el año.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Está situado/a en = est situé/e à",
+    "Hay + pluriel pour décrire ce qu'il y a",
+    "Vocabulaire du climat : hace calor/frío",
+    "Adjectifs : grande, moderno, animado..."
+  ],
+  "exercise": {
+    "answer": "Vivo en [ville]. Es una ciudad situada en [région]. Mi ciudad es bastante grande y moderna. Hay muchos mercados y tiendas. El clima es tropical. Me gusta mi ciudad porque es animada y tiene buenos transportes.",
+    "question": "Décris ta ville ou ton quartier en 5-6 phrases."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "'Está situado en' signifie :",
+      "options": [
+        "Il va à",
+        "Il vient de",
+        "\"Il est situé à\"",
+        "Il reste à"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 3,
+      "prompt": "Pour dire 'il fait chaud', on dit :",
+      "options": [
+        "es calor",
+        "está calor",
+        "tiene calor",
+        "\"hace calor\""
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-espagnol-1-mv9w7f0z",
+      "type": "mcq",
+      "prompt": "En espagnol, pour indiquer qu'une ville est située au sud d'un autre lieu, quelle expression grammaticale et lexicale est correcte ?",
+      "options": [
+        "está al norte de",
+        "está al sur de",
+        "está al este de",
+        "está al oeste de"
+      ],
+      "answer": 1,
+      "explanation": "L'expression 'está al sur de' signifie littéralement 'est au sud de'. Les autres options correspondent respectivement au nord, à l'est et à l'ouest, ce qui contredit la consigne de localisation au sud."
+    },
+    {
+      "id": "auto-espagnol-2-mv9w7f0z",
+      "type": "mcq",
+      "prompt": "Quel adjectif espagnol, de genre masculin, convient pour décrire un paysage qui présente de nombreuses montagnes ?",
+      "options": [
+        "costero",
+        "montañoso",
+        "urbano",
+        "tropical"
+      ],
+      "answer": 1,
+      "explanation": "L'adjectif 'montañoso' (montagneux) est utilisé pour qualifier un lieu ou un paysage dominé par des montagnes. 'Costero' signifie côtier, 'urbano' signifie urbain et 'tropical' se réfère au climat ou à la végétation, non à la topographie montagneuse."
+    },
+    {
+      "id": "auto-espagnol-3-mv9w7f0z",
+      "type": "mcq",
+      "prompt": "Pour exprimer l'existence de parcs dans une ville en espagnol, quelle structure verbale et quel pluriel sont corrects ?",
+      "options": [
+        "Hay parque",
+        "Hay parques",
+        "Hace parques",
+        "Está parques"
+      ],
+      "answer": 1,
+      "explanation": "Le verbe 'hay' (il y a) est invariable et s'utilise pour exprimer l'existence. Le nom 'parque' (parc) doit être au pluriel 'parques' pour désigner plusieurs parcs. 'Hace' est utilisé pour le temps qu'il fait, et 'está' est le verbe être, qui ne s'accorde pas avec l'existence de lieux de cette manière."
+    },
+    {
+      "id": "auto-espagnol-4-mv9w7f0z",
+      "type": "mcq",
+      "prompt": "Quel terme espagnol désigne spécifiquement un lieu qui attire de nombreux visiteurs pour le tourisme ?",
+      "options": [
+        "tranquilo",
+        "antiguo",
+        "turístico",
+        "moderno"
+      ],
+      "answer": 2,
+      "explanation": "L'adjectif 'turístico' (touristique) qualifie un lieu qui est une destination ou un point d'intérêt pour les touristes. 'Tranquilo' signifie calme, 'antiguo' signifie ancien et 'moderno' signifie moderne, ce qui ne définit pas nécessairement une vocation touristique."
+    },
+    {
+      "id": "auto-espagnol-5-mv9w7f0z",
+      "type": "mcq",
+      "prompt": "Dans le contexte de la description du climat, quelle phrase espagnole signifie 'il pleut' ?",
+      "options": [
+        "hace sol",
+        "hace frío",
+        "llueve",
+        "hace calor"
+      ],
+      "answer": 2,
+      "explanation": "Le verbe 'llover' (pleuvoir) à la troisième personne du singulier du présent de l'indicatif est 'llueve'. 'Hace sol' signifie qu'il fait soleil, 'hace frío' qu'il fait froid et 'hace calor' qu'il fait chaud."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "maths-troisieme-geometrie-de-l-espace-perspective-et-solides",
+  "title": "Géométrie de l'espace : perspective et solides",
+  "summary": "Représenter en perspective une pyramide et calculer son volume.",
+  "lesson": "## Géométrie de l'espace\n\n### Perspective cavalière\nReprésentation 3D sur plan\n- Arêtes visibles : traits pleins\n- Arêtes cachées : pointillés\n- Fuyantes : obliques (45°, coef 0,5)\n\n### Pyramide\nBase polygonale + sommet\n**V = (Aire base × hauteur) / 3**\n\n### Cône de révolution\nBase circulaire + sommet\n**V = (π × r² × h) / 3**\n\n### Propriétés\n- Patrons\n- Sections planes\n- Calculs volumes",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Perspective : représentation 3D",
+    "Pyramide : V=Bh/3",
+    "Cône : V=πr²h/3",
+    "Patrons et volumes"
+  ],
+  "exercise": {
+    "question": "Pyramide base 20cm², hauteur 9cm. Volume ?",
+    "answer": "60 cm³"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Volume pyramide :",
+      "options": [
+        "Bh",
+        "Bh/2",
+        "Bh/3",
+        "πr²h/3"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

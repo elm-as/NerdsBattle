@@ -1,0 +1,58 @@
+{
+  "id": "physique-premiere-les-forces-et-le-mouvement",
+  "title": "Les forces et le mouvement",
+  "summary": "Pourquoi un objet tombe-t-il vers le sol ?",
+  "lesson": "## Les forces\n\n### Définition\n\n**Force :** Action mécanique capable de :\n- Mettre en mouvement\n- Modifier un mouvement\n- Déformer un objet\n\n### Caractéristiques d'une force\n\nUne force est représentée par un vecteur avec :\n\n1. **Point d'application** : où la force s'exerce\n2. **Direction** : droite le long de laquelle elle agit\n3. **Sens** : indiqué par une flèche\n4. **Intensité** : valeur en Newton (N)\n\n### Types de forces\n\n**1. Le poids (P)**\n```\nP = m × g\n```\n- m : masse (kg)\n- g : pesanteur ≈ 10 N/kg\n- Direction : verticale\n- Sens : vers le bas\n\n**Exemple :**\nMasse de 5 kg :\n```\nP = 5 × 10 = 50 N\n```\n\n**2. Tension d'un fil (T)**\n- Direction : le long du fil\n- Sens : tire l'objet\n- Maintient en équilibre\n\n**3. Réaction d'un support (R)**\n- Direction : perpendiculaire au support\n- Sens : du support vers l'objet\n- Empêche la pénétration\n\n**4. Force de frottement (f)**\n- Direction : tangente au mouvement\n- Sens : opposé au mouvement\n- Freine le mouvement\n\n### Équilibre d'un solide\n\n**Conditions d'équilibre à 2 forces :**\n1. Même direction\n2. Sens opposés\n3. Même intensité\n\n```\nF₁ + F₂ = 0\n```\n\n**Exemple : Livre sur une table**\n- Poids P vers le bas\n- Réaction R vers le haut\n- P = R (équilibre)\n\n### La poussée d'Archimède\n\n**Définition :** Force exercée par un fluide sur un corps immergé.\n\n**Formule :**\n```\nPA = ρ × V × g\n```\n- ρ : masse volumique du fluide (kg/m³)\n- V : volume immergé (m³)\n- g : pesanteur (N/kg)\n\n**Direction :** Verticale\n**Sens :** Vers le haut\n\n**Condition de flottaison :**\nUn corps flotte si PA ≥ P",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Force = vecteur (4 caractéristiques)",
+    "P = m × g (poids)",
+    "Équilibre : ΣF = 0",
+    "PA = ρ × V × g (Archimède)"
+  ],
+  "exercise": {
+    "question": "Un objet de masse 2 kg est suspendu à un fil. Calculer la tension du fil. (g = 10 N/kg)",
+    "answer": "\n**Solution :**\n\nL'objet est en équilibre sous l'action de :\n- Son poids P (vers le bas)\n- La tension T du fil (vers le haut)\n\nCondition d'équilibre :\n```\nT = P\n```\n\nCalcul du poids :\n```\nP = m × g = 2 × 10 = 20 N\n```\n\nDonc :\n```\nT = 20 N\n```\n\n**Réponse : La tension du fil est de 20 N**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "L'unité de force est :",
+      "options": [
+        "Le kilogramme",
+        "Le Newton",
+        "Le Joule",
+        "Le Watt"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Le poids est toujours dirigé :",
+      "options": [
+        "Vers le haut",
+        "Vers le bas",
+        "Horizontalement",
+        "Variable"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La poussée d'Archimède s'exerce sur :",
+      "options": [
+        "Les corps dans le vide",
+        "Les corps immergés dans un fluide",
+        "Les corps en mouvement",
+        "Tous les corps"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

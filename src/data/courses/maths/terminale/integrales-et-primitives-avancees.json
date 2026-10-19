@@ -1,0 +1,44 @@
+{
+  "id": "maths-terminale-integrales-et-primitives-avancees",
+  "title": "Intégrales et primitives avancées",
+  "summary": "Pour calculer des aires complexes ou des volumes, on utilise des techniques d'intégration avancées. Lesquelles ?",
+  "lesson": "## Intégration avancée\n\n### Intégration par parties\nSi u et v sont dérivables :\n∫ u'v = [uv] − ∫ uv'\n\n**Choix de u et v :**\n- u : fonction qui se simplifie en dérivant\n- v' : fonction facile à intégrer\n\n### Primitives usuelles avancées\n- ∫ 1/(ax+b) dx = (1/a)ln|ax+b| + C\n- ∫ e^(ax) dx = (1/a)e^(ax) + C\n- ∫ sin(ax) dx = −(1/a)cos(ax) + C\n- ∫ cos(ax) dx = (1/a)sin(ax) + C\n\n### Changement de variable\nSi u = φ(x), alors :\n∫ f(φ(x))φ'(x) dx = ∫ f(u) du\n\n### Calcul d'aires\nAire entre courbe et axe des abscisses :\nA = ∫[a→b] |f(x)| dx",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Intégration par parties : ∫ u'v = [uv] − ∫ uv'",
+    "Changement de variable",
+    "Aire = intégrale (attention au signe)"
+  ],
+  "exercise": {
+    "question": "Calcule ∫ xe^x dx par parties",
+    "answer": "\n**Solution :**\nu = x, u' = 1\nv' = e^x, v = e^x\n\n∫ xe^x dx = xe^x − ∫ e^x dx\n= xe^x − e^x + C\n= e^x(x − 1) + C\n\n**Réponse : e^x(x − 1) + C**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Pour intégrer par parties, on utilise :",
+      "options": [
+        "∫ u'v = uv",
+        "∫ u'v = [uv] − ∫ uv'",
+        "∫ uv = u'v'",
+        "∫ u/v = ln|v|"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Une primitive de 1/(2x+1) est :",
+      "options": [
+        "ln|2x+1|",
+        "(1/2)ln|2x+1|",
+        "2ln|2x+1|",
+        "1/(2x+1)²"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

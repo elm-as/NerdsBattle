@@ -1,0 +1,58 @@
+{
+  "id": "maths-quatrieme-les-nombres-decimaux-relatifs-toutes-operations",
+  "title": "Les nombres décimaux relatifs : toutes opérations",
+  "summary": "La température à Abidjan varie. Le matin il fait 20°C, puis elle monte de 8°C et redescend de 3°C le soir. Quelle est la température finale ?",
+  "lesson": "## Les nombres décimaux relatifs\n\n### Rappel : Qu'est-ce qu'un nombre relatif ?\n\nUn **nombre relatif** peut être :\n- **Positif** : +5 (ou simplement 5)\n- **Négatif** : -3\n- **Nul** : 0\n\n## Addition et soustraction (rappel)\n\n### Addition\n**Même signe :** On additionne et on garde le signe\n- (+5) + (+3) = +8\n- (-5) + (-3) = -8\n\n**Signes différents :** On soustrait et on garde le signe du plus grand\n- (+7) + (-3) = +4\n- (-9) + (+5) = -4\n\n### Soustraction\n**Soustraire = Ajouter l'opposé**\n- (+7) - (+3) = (+7) + (-3) = +4\n- (-5) - (-2) = (-5) + (+2) = -3\n\n## Multiplication de nombres relatifs\n\n### Règle des signes\n- **(+) × (+) = (+)** : 3 × 4 = +12\n- **(+) × (-) = (-)** : 3 × (-4) = -12\n- **(-) × (+) = (-)** : (-3) × 4 = -12\n- **(-) × (-) = (+)** : (-3) × (-4) = +12\n\n**Règle à retenir :**\n- **Signes pareils → résultat positif**\n- **Signes différents → résultat négatif**\n\n**Exemples :**\n- (+5) × (+3) = +15\n- (+5) × (-3) = -15\n- (-5) × (+3) = -15\n- (-5) × (-3) = +15\n\n## Division de nombres relatifs\n\n### Règle des signes (identique à la multiplication)\n- **(+) ÷ (+) = (+)** : 12 ÷ 4 = +3\n- **(+) ÷ (-) = (-)** : 12 ÷ (-4) = -3\n- **(-) ÷ (+) = (-)** : (-12) ÷ 4 = -3\n- **(-) ÷ (-) = (+)** : (-12) ÷ (-4) = +3\n\n**Exemples :**\n- (+20) ÷ (+5) = +4\n- (+20) ÷ (-5) = -4\n- (-20) ÷ (+5) = -4\n- (-20) ÷ (-5) = +4\n\n## Exercices d'application\n\n### Calculs combinés\nCalculer : (-3) × (+5) + (-2) × (-4)\n= -15 + 8\n= -7\n\n### Problème concret\nUn commerçant perd 2 500 FCFA par jour pendant 5 jours, puis gagne 3 000 FCFA par jour pendant 4 jours.\n\n**Calcul :**\nPertes : (-2 500) × 5 = -12 500 FCFA\nGains : (+3 000) × 4 = +12 000 FCFA\nTotal : -12 500 + 12 000 = -500 FCFA\n\nIl a perdu 500 FCFA au total.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Addition/soustraction : selon les signes",
+    "Multiplication/division : signes pareils → +, signes différents → -",
+    "(-) × (-) = (+)",
+    "Respecter l'ordre des opérations"
+  ],
+  "exercise": {
+    "answer": "\n**Solution :**\n\n**Étape 1 :** Multiplication\n(-8) × (+3) = -24\n\n**Étape 2 :** Division\n(-12) ÷ (-4) = +3\n\n**Étape 3 :** Addition\n-24 + 3 = -21\n\n**Réponse : -21**\n        ",
+    "question": "Calcule : (-8) × (+3) + (-12) ÷ (-4)"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Calcule : (-5) × (-6)",
+      "options": [
+        "-30",
+        "+30",
+        "-11",
+        "+11"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Calcule : (-20) ÷ (+4)",
+      "options": [
+        "+5",
+        "-5",
+        "+16",
+        "-16"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Calcule : (-3) × (+2) × (-4)",
+      "options": [
+        "-24",
+        "+24",
+        "-9",
+        "+9"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

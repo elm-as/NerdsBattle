@@ -1,0 +1,109 @@
+{
+  "id": "maths-premiere-etude-de-fonctions",
+  "title": "Étude de fonctions",
+  "summary": "Pour optimiser le bénéfice d'une entreprise, on étudie les variations d'une fonction. Comment procéder ?",
+  "lesson": "## Étude complète d'une fonction\n\n### Méthodologie\n1. **Ensemble de définition**\n2. **Limites** aux bornes\n3. **Dérivée** et signe\n4. **Tableau de variations**\n5. **Courbe représentative**\n\n### Extremums\n- f'(x) = 0 : point critique\n- Si f' change de signe : extremum\n- Maximum si f' passe de + à −\n- Minimum si f' passe de − à +\n\n### Asymptotes\n- **Verticale** : limite infinie\n- **Horizontale** : limite finie en ±∞",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Signe de f' = sens de variation de f",
+    "f'(x) = 0 : extremum potentiel",
+    "Tableau de variations complet"
+  ],
+  "exercise": {
+    "question": "Étudie les variations de f(x) = x² − 4x + 3 sur ℝ",
+    "answer": "\n**Solution :**\nf'(x) = 2x − 4\nf'(x) = 0 ⟺ x = 2\nf'(x) < 0 si x < 2 (décroissante)\nf'(x) > 0 si x > 2 (croissante)\nMinimum en x = 2 : f(2) = −1\n\n**Réponse : Décroissante sur ]−∞ ; 2], croissante sur [2 ; +∞[, minimum en (2 ; −1)**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Si f'(x) > 0 sur [a ; b], alors f est :",
+      "options": [
+        "Décroissante",
+        "Croissante",
+        "Constante",
+        "Nulle"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Un maximum local vérifie :",
+      "options": [
+        "f'(x) = 0",
+        "f'(x) change de signe",
+        "f'(x) > 0",
+        "Les deux premières réponses"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-maths-1-mva3q7rj",
+      "type": "mcq",
+      "prompt": "Soit la fonction $f$ définie par $f(x) = \\frac{2x+1}{x-3}$. Quelle est l'équation de l'asymptote horizontale à la courbe représentative de $f$ ?",
+      "options": [
+        "$y = 2$",
+        "$y = -2$",
+        "$y = \\frac{1}{3}$",
+        "$y = 3$"
+      ],
+      "answer": 0,
+      "explanation": "Pour déterminer l'asymptote horizontale, on calcule la limite de $f(x)$ quand $x$ tend vers $+\\infty$ ou $-\\infty$. On a $\\lim_{x \\to \\pm\\infty} \\frac{2x+1}{x-3} = \\lim_{x \\to \\pm\\infty} \\frac{2 + 1/x}{1 - 3/x} = 2$. L'asymptote horizontale est donc la droite d'équation $y = 2$."
+    },
+    {
+      "id": "auto-maths-2-mva3q7rj",
+      "type": "mcq",
+      "prompt": "Soit $f$ une fonction dérivable sur $\\mathbb{R}$ telle que $f'(x) = 3(x-1)(x+2)$. Sur quel intervalle la fonction $f$ est-elle strictement décroissante ?",
+      "options": [
+        "$]-2 ; 1[$",
+        "$]-\\infty ; -2[$",
+        "$]1 ; +\\infty[$",
+        "$]-\\infty ; 1[$"
+      ],
+      "answer": 0,
+      "explanation": "La fonction $f$ est décroissante lorsque sa dérivée $f'(x)$ est négative. L'expression $3(x-1)(x+2)$ est un trinôme de coefficient dominant positif (parabolique). Il est négatif entre ses deux racines, qui sont $-2$ et $1$. Donc $f'(x) < 0$ sur l'intervalle $]-2 ; 1[$."
+    },
+    {
+      "id": "auto-maths-3-mva3q7rj",
+      "type": "mcq",
+      "prompt": "Soit $f$ une fonction dérivable sur $\\mathbb{R}$. On sait que $f'(0) = 0$ et que $f'$ change de signe en passant de positif à négatif au point $x=0$. Que peut-on affirmer sur $f(0)$ ?",
+      "options": [
+        "$f(0)$ est un minimum local de $f$.",
+        "$f(0)$ est un maximum local de $f$.",
+        "$f(0)$ est un point d'inflexion.",
+        "$f(0)$ n'est pas un extremum local."
+      ],
+      "answer": 1,
+      "explanation": "Si la dérivée $f'$ change de signe en passant de $+$ à $-$ en un point $x_0$ où $f'(x_0)=0$, cela signifie que la fonction $f$ est croissante avant $x_0$ et décroissante après $x_0$. Par conséquent, $f(x_0)$ est un maximum local."
+    },
+    {
+      "id": "auto-maths-4-mva3q7rj",
+      "type": "mcq",
+      "prompt": "Soit la fonction $g$ définie par $g(x) = \\ln(x^2 - 4)$. Quel est l'ensemble de définition $D_g$ de cette fonction ?",
+      "options": [
+        "$D_g = \\mathbb{R} \\setminus \\{-2 ; 2\\}$",
+        "$D_g = ]-\\infty ; -2[ \\cup ]2 ; +\\infty[$",
+        "$D_g = [-2 ; 2]$",
+        "$D_g = \\mathbb{R}^*$"
+      ],
+      "answer": 1,
+      "explanation": "La fonction logarithme $\\ln(u)$ est définie si et seulement si $u > 0$. Ici, $u = x^2 - 4$. Il faut donc résoudre $x^2 - 4 > 0$, soit $(x-2)(x+2) > 0$. Cette inéquation est vraie pour $x < -2$ ou $x > 2$. L'ensemble de définition est donc $]-\\infty ; -2[ \\cup ]2 ; +\\infty[$."
+    },
+    {
+      "id": "auto-maths-5-mva3q7rj",
+      "type": "mcq",
+      "prompt": "Soit $f$ une fonction continue sur $[a ; b]$ et dérivable sur $]a ; b[$. Si $f(a) = f(b)$, le théorème de Rolle garantit l'existence d'au moins un réel $c \\in ]a ; b[$ tel que :",
+      "options": [
+        "$f(c) = 0$",
+        "$f'(c) = 0$",
+        "$f(c) = \\frac{f(b)-f(a)}{b-a}$",
+        "$f'(c) = \\frac{f(b)-f(a)}{b-a}$"
+      ],
+      "answer": 1,
+      "explanation": "Le théorème de Rolle stipule que si une fonction est continue sur $[a ; b]$, dérivable sur $]a ; b[$ et telle que $f(a) = f(b)$, alors il existe au moins un réel $c$ dans $]a ; b[$ tel que la dérivée s'annule, c'est-à-dire $f'(c) = 0$."
+    }
+  ]
+}

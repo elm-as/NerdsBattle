@@ -1,0 +1,45 @@
+{
+  "id": "maths-cinquieme-vitesse-moyenne-et-proportionnalite",
+  "title": "Vitesse moyenne et proportionnalité",
+  "summary": "Un car fait le trajet Abidjan-Yamoussoukro (240 km) en 3 heures. Quelle est sa vitesse moyenne ?",
+  "lesson": "## La vitesse moyenne\n\n### Définition\nLa vitesse moyenne est le rapport entre la distance parcourue et le temps mis pour la parcourir.\n\n**Formule fondamentale :**\nv = d/t\n\nOù :\n- **v** = vitesse (en km/h, m/s...)\n- **d** = distance (en km, m...)\n- **t** = temps (en h, s...)\n\n### Exemple\nTrajet Abidjan-Yamoussoukro :\n- Distance : d = 240 km\n- Temps : t = 3 h\n\nVitesse moyenne : v = 240 ÷ 3 = 80 km/h\n\n### Formules dérivées\nÀ partir de v = d/t, on peut calculer :\n- **Distance** : d = v × t\n- **Temps** : t = d/v\n\n### Applications pratiques\n**Exemple 1 :**\nÀ 60 km/h, quelle distance en 2h30 ?\nd = 60 × 2,5 = 150 km\n\n**Exemple 2 :**\nPour parcourir 180 km à 90 km/h :\nt = 180 ÷ 90 = 2 heures\n\n### Proportionnalité\nLa distance et le temps sont proportionnels quand la vitesse est constante.\n\n| Temps (h) | 1  | 2   | 3   |\n|-----------|-----|-----|-----|\n| Distance (km) | 80 | 160 | 240 |\n\nCoefficient de proportionnalité = vitesse = 80 km/h",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Vitesse = distance ÷ temps",
+    "Distance = vitesse × temps",
+    "Temps = distance ÷ vitesse",
+    "Vitesse constante → proportionnalité"
+  ],
+  "exercise": {
+    "answer": "\n**Solution :**\nVitesse = distance ÷ temps = 45 ÷ 3 = 15 km/h\n\nEn 5 heures :\nDistance = vitesse × temps = 15 × 5 = 75 km\n\n**Réponse : Vitesse = 15 km/h, Distance en 5h = 75 km**\n        ",
+    "question": "Un cycliste parcourt 45 km en 3 heures. Quelle est sa vitesse moyenne ? À cette allure, quelle distance fera-t-il en 5 heures ?"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Un véhicule parcourt 120 km en 2 heures. Sa vitesse moyenne est :",
+      "options": [
+        "40 km/h",
+        "60 km/h",
+        "80 km/h",
+        "100 km/h"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "À 50 km/h, quelle distance en 3 heures ?",
+      "options": [
+        "100 km",
+        "150 km",
+        "200 km",
+        "250 km"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

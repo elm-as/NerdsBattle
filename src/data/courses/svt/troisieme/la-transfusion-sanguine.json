@@ -1,0 +1,150 @@
+{
+  "id": "svt-troisieme-la-transfusion-sanguine",
+  "title": "La transfusion sanguine",
+  "summary": "Un élève du Lycée Garçon de Bingerville victime d'un accident de la route perd beaucoup de sang. Les sapeurs-pompiers évoquent une transfusion, mais insistent sur l'importance d'utiliser du sang d'un membre de la famille. Les élèves cherchent à comprendre les bases scientifiques de cette recommandation.",
+  "lesson": "## Introduction\n\nLa transfusion sanguine est une pratique médicale vitale mais complexe. En Côte d'Ivoire, où les banques de sang sont souvent sous-approvisionnées, comprendre les compatibilités est crucial pour la sécurité des patients.\n\n## 1. Systèmes de groupes sanguins\n\n### 1.1 Système ABO\n\n| Groupe | Antigènes sur globules rouges | Anticorps dans plasma | Donneur universel | Receveur universel |\n|--------|-------------------------------|-----------------------|-------------------|-------------------|\n| A | A | anti-B | Non | Oui (de O et A) |\n| B | B | anti-A | Non | Oui (de O et B) |\n| AB | A et B | Aucun | Non | Oui (de tous) |\n| O | Aucun | anti-A et anti-B | Oui | Non (seulement O) |\n\n**Distribution en Afrique de l'Ouest** :\n- Groupe O : ~50-60% (plus fréquent)\n- Groupe A : ~20-30%\n- Groupe B : ~15-25%\n- Groupe AB : ~5-10%\n\n### 1.2 Système Rhésus\n- **Rh+** : présence de l'antigène D (85-90% des Africains)\n- **Rh-** : absence de l'antigène D (10-15%)\n- **Importance** : immunisation lors de grossesses ou transfusions\n\n## 2. Compatibilités transfusionnelles\n\n### 2.1 Règles de base\n1. **Compatibilité ABO** : primordiale pour éviter l'hémolyse aiguë\n2. **Compatibilité Rhésus** : particulièrement importante pour les femmes en âge de procréer\n3. **Tests croisés** : obligatoires avant toute transfusion\n\n### 2.2 Tableau des compatibilités\n\n| Receveur | Donneurs compatibles |\n|----------|---------------------|\n| O- | O- seulement |\n| O+ | O-, O+ |\n| A- | O-, A- |\n| A+ | O-, O+, A-, A+ |\n| B- | O-, B- |\n| B+ | O-, O+, B-, B+ |\n| AB- | O-, A-, B-, AB- |\n| AB+ | Tous les groupes |\n\n## 3. Enjeux spécifiques au contexte ivoirien\n\n### 3.1 Sécurité transfusionnelle\n- **Risques infectieux** : VIH, hépatites B et C, paludisme\n- **Tests de dépistage** : obligation légale mais contraintes techniques\n- **Chaîne du froid** : maintien difficile dans les régions éloignées\n\n### 3.2 Approvisionnement en sang\n- **Dons volontaires** : campagnes de sensibilisation nécessaires\n- **Dons familiaux** : pratique courante mais risques d'incompatibilités\n- **Autosuffisance** : objectif national non encore atteint\n\n### 3.3 Croyances et représentations culturelles\n- **Peur du prélèvement** : mythes sur l'affaiblissement\n- **Signification symbolique** : le sang comme essence vitale\n- **Approches communautaires** : implication des leaders traditionnels\n\n## 4. Alternatives et perspectives\n\n### 4.1 Substituts sanguins\n- **Développements locaux** : recherche sur les expandeurs du plasma\n- **Contraintes économiques** : coût prohibitif des produits importés\n- **Recherche endogène** : valorisation des savoirs traditionnels\n\n### 4.2 Prévention des besoins transfusionnels\n- **Lutte contre l'anémie** : programmes nutritionnels\n- **Soins obstétricaux** : réduction des hémorragies de la délivrance\n- **Sécurité routière** : prévention des accidents\n\n## 5. Critique décoloniale des pratiques transfusionnelles\n\n### 5.1 Inégalités globales\n- **Accès inéquitable** : 80% des transfusions dans les pays riches\n- **Dépendance technologique** : matériel diagnostique importé\n- **Extraction des données** : études génétiques sans bénéfice local\n\n### 5.2 Souveraineté sanitaire\n- **Production locale** : besoin de réactifs fabriqués en Afrique\n- **Formation endogène** : spécialistes formés sur place\n- **Priorités africaines** : recherche sur les spécificités régionales\n\n### 5.3 Éthique communautaire\n- **Consentement éclairé** : adaptation aux contextes de faible littératie\n- **Bénéfice collectif** : systèmes de réciprocité dans les dons\n- **Respect des croyances** : intégration des perspectives traditionnelles\n\n## 6. Cas pratique : urgence transfusionnelle en zone rurale\n\n**Scénario** : Une femme enceinte présente une hémorragie dans un centre de santé de Katiola. Le personnel doit organiser une transfusion rapide avec des ressources limitées.\n\n**Procédure adaptée** :\n1. Détermination rapide du groupe sanguin (cartes de groupe)\n2. Appel aux donneurs familiaux présents\n3. Test de compatibilité simplifié (agglutination sur lame)\n4. Surveillance rapprochée pendant la transfusion\n5. Documentation pour suivi ultérieur\n\n**Considérations culturelles** :\n- Explication claire aux familles\n- Respect des réticences religieuses ou traditionnelles\n- Implication des accompagnants dans le processus",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Les groupes sanguins ABO et Rhésus déterminent la compatibilité",
+    "Le groupe O- est donneur universel, AB+ receveur universel",
+    "Les incompatibilités provoquent des réactions hémolytiques graves",
+    "La sécurité transfusionnelle est cruciale en contexte tropical",
+    "Les approches communautaires améliorent l'approvisionnement"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel groupe sanguin est considéré comme donneur universel ?",
+      "options": [
+        "A-",
+        "B+",
+        "AB+",
+        "O-"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel groupe sanguin est receveur universel ?",
+      "options": [
+        "O-",
+        "A+",
+        "AB+",
+        "B-"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle réaction grave peut survenir en cas de transfusion incompatible ?",
+      "options": [
+        "Fièvre légère",
+        "Hémolyse aiguë",
+        "Hypertension artérielle",
+        "Hypoglycémie"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel système de groupe sanguin est particulièrement important pour les femmes enceintes ?",
+      "options": [
+        "Système ABO",
+        "Système Rhésus",
+        "Système Kell",
+        "Système Duffy"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle est la proportion approximative de personnes de groupe O en Afrique de l'Ouest ?",
+      "options": [
+        "20-30%",
+        "30-40%",
+        "40-50%",
+        "50-60%"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle infection doit être systématiquement dépistée dans le sang des donneurs en Côte d'Ivoire ?",
+      "options": [
+        "COVID-19",
+        "VIH/SIDA",
+        "Grippe saisonnière",
+        "Rougeole"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quelle pratique traditionnelle peut influencer négativement les dons de sang ?",
+      "options": [
+        "Croyance que le prélèvement affaiblit définitivement",
+        "Valorisation excessive du don",
+        "Encouragement par les anciens",
+        "Célébration communautaire après don"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel est le principal défi des banques de sang en zones rurales ivoiriennes ?",
+      "options": [
+        "Maintenance de la chaîne du froid",
+        "Surstock de produits sanguins",
+        "Excès de donneurs",
+        "Absence de tests de compatibilité"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel groupe sanguin peut recevoir du sang de tous les autres groupes ?",
+      "options": [
+        "O-",
+        "A+",
+        "AB+",
+        "B-"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel concept critique met en lumière l'inégalité d'accès aux produits sanguins entre pays riches et pauvres ?",
+      "options": [
+        "Justice transfusionnelle",
+        "Équité en santé globale",
+        "Souveraineté sanitaire",
+        "Colonialisme médical"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "id": "svt-seconde-la-transmission-d-un-message-hormonal",
+  "title": "La transmission d'un message hormonal",
+  "summary": "À Abidjan, face à l'augmentation des grossesses précoces dans les lycées, le club scientifique organise une conférence sur l'éducation sexuelle. Le conférencier explique que les organes sexuels produisent des substances qui modifient l'activité d'autres organes. Intrigués, les élèves de seconde A décident d'étudier ce système de communication hormonal.",
+  "lesson": "## 1. Introduction au système endocrinien\\\n\\\nContrairement au système nerveux rapide, le système endocrinien assure une communication lente mais durable via des substances chimiques: les hormones. En Côte d'Ivoire, comprendre ce système aide à expliquer la puberté, la fertilité et certaines maladies endocriniennes.\\\n\\\n## 2. Définition et caractéristiques des hormones\\\n\\\nUne hormone est une substance chimique sécrétée par une glande endocrine, transportée par le sang, et agissant à distance sur des cellules cibles possédant des récepteurs spécifiques.\\\n\\\nCaractéristiques:\\\n- Spécificité: hormone-récepteur comme clé-serrure\\\n- Puissance: action à très faible concentration\\\n- Rétrocontrôle: régulation de la sécrétion\\\n\\\n## 3. Les glandes endocrines principales\\\n\\\n**Description du schéma 1: Localisation des glandes endocrines**\\\nReprésenter un schéma du corps humain avec:\\\n1. Hypophyse (cerveau) - maître des glandes\\\n2. Thyroïde (cou) - métabolisme\\\n3. Surrénales (reins) - stress\\\n4. Pancréas (abdomen) - glycémie\\\n5. Ovaires/testicules - reproduction\\\n6. Flèches rouges montrant la circulation sanguine\\\n\\\n## 4. Les hormones sexuelles: exemple des œstrogènes et testostérone\\\n\\\nChez la femme (ovaires):\\\n- Œstrogènes: développement des caractères sexuels secondaires\\\n- Progestérone: préparation de l'utérus\\\n\\\nChez l'homme (testicules):\\\n- Testostérone: spermatogenèse, caractères masculins\\\n\\\nEn Côte d'Ivoire, l'âge moyen de la puberté est de 12-13 ans, influencé par la nutrition et l'environnement.\\\n\\\n## 5. Mécanisme d'action des hormones stéroïdiennes\\\n\\\nLes hormones sexuelles sont des stéroïdes. Mécanisme:\\\n1. Diffusion à travers la membrane plasmique\\\n2. Liaison à un récepteur cytoplasmique\\\n3. Migration vers le noyau\\\n4. Liaison à l'ADN sur des séquences spécifiques\\\n5. Activation/ répression de gènes\\\n6. Synthèse de protéines spécifiques\\\n\\\nFormule générale des stéroïdes: noyau cyclopentanophénanthrénique\\\n\\\n## 6. Expérience historique: castration et greffe\\\n\\\nExpérience de Berthold (1849) sur les coqs:\\\n- Coq normal: crête développée, comportement agressif\\\n- Coq castré: crête atrophiée, comportement calme\\\n- Coq castré + greffe testiculaire: caractères restaurés\\\n\\\n**Description du schéma 2: Expérience de castration**\\\nReprésenter trois coqs avec:\\\n1. Coq témoin: grande crête, plumage vif\\\n2. Coq castré: petite crête, plumage terne\\\n3. Coq greffé: crête intermédiaire, comportement restauré\\\n4. Flèches indiquant les injections d'extraits testiculaires\\\n\\\n## 7. Régulation par rétrocontrôle (feedback)\\\n\\\nExemple de l'axe hypothalamo-hypophyso-gonadique:\\\n1. Hypothalamus → GnRH\\\n2. Hypophyse → FSH/LH\\\n3. Gonades → hormones sexuelles\\\n4. Rétrocontrôle négatif sur (1) et (2)\\\n\\\nÉquation du rétrocontrôle: $H_{gonades} = -k \\\\cdot (H_{gonades} - H_{cible})$\\\n\\\n**Description du schéma 3: Axe hypothalamo-hypophyso-gonadique**\\\nReprésenter un schéma avec:\\\n1. Hypothalamus sécrétant GnRH\\\n2. Hypophyse antérieure sécrétant FSH et LH\\\n3. Ovaires/testicules sécrétant hormones sexuelles\\\n4. Flèches stimulatrices (→) et inhibitrices (---|)\\\n5. Sang transportant les hormones\\\n\\\n## 8. Applications en santé publique ivoirienne\\\n\\\n- Contraception hormonale dans les centres de planning familial\\\n- Traitement des troubles de la puberté\\\n- Prise en charge de l'infertilité\\\n- Éducation sexuelle dans les écoles de Korhogo\\\n\\\n## 9. Différences systèmes nerveux/endocrinien\\\n\\\n| Caractéristique | Système nerveux | Système endocrinien |\\\n|-----------------|-----------------|---------------------|\\\n| Vitesse | Rapide (ms) | Lente (min-heures) |\\\n| Durée | Courte | Longue |\\\n| Messager | Influx nerveux | Hormones |\\\n| Voie | Nerfs | Sang |\\\n| Spécificité | Anatomique | Chimique |",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Les hormones sont des messagers chimiques sécrétés dans le sang",
+    "Les glandes endocrines agissent à distance sur des organes cibles",
+    "Les hormones sexuelles contrôlent la reproduction et les caractères sexuels",
+    "La régulation se fait par rétrocontrôle négatif"
+  ],
+  "exercise": {
+    "answer": "**Hypothèse:** La diminution de la photopériode (jours plus courts) pendant la saison sèche réduit la sécrétion de gonadotrophines hypophysaires, diminuant ainsi la production ovarienne d'œstrogènes nécessaires à la ponte.\\\n\\\n**Protocole expérimental:**\\\n1. Matériel: 2 groupes de 10 poules, lampes artificielles, balance, œufs\\\n\\\n2. Méthode:\\\n   - Groupe témoin: photopériode naturelle (≈12h lumière)\\\n   - Groupe expérimental: photopériode artificielle (16h lumière)\\\n   - Mesurer pendant 4 semaines:\\\n     a) Nombre d'œufs/poule/semaine\\\n     b) Poids moyen des œufs\\\n     c) Qualité de la coquille (épaisseur)\\\n\\\n3. Résultats attendus:\\\n   - Groupe expérimental: ponte augmentée de 20-30%\\\n   - Groupe témoin: ponte stable ou diminuée\\\n\\\n4. Interprétation:\\\n   La lumière stimule l'hypothalamus → libération de GnRH → stimulation hypophyse → sécrétion de FSH/LH → activation ovarienne → production d'œstrogènes → augmentation ponte.\\\n\\\n5. Application pratique:\\\n   Installation de l'éclairage artificiel dans les poulaillers pendant la saison sèche pour maintenir la production.",
+    "question": "Dans un village près de Man, un agriculteur observe que ses poules pondeuses produisent moins d'œufs pendant la saison sèche. Sachant que la ponte est contrôlée par des hormones, proposez une hypothèse endocrinienne et un protocole expérimental pour la vérifier en utilisant des méthodes accessibles en milieu rural ivoirien."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la principale différence entre une glande endocrine et une glande exocrine?",
+      "options": [
+        "Les endocrines sécrètent dans le sang, les exocrines dans des canaux",
+        "Les endocrines sont plus grosses",
+        "Les exocrines produisent des hormones",
+        "Aucune différence"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle glande est souvent appelée 'la glande maîtresse' du système endocrinien?",
+      "options": [
+        "Thyroïde",
+        "Hypophyse",
+        "Surrénale",
+        "Pancréas"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle hormone est principalement produite par les testicules?",
+      "options": [
+        "Œstrogène",
+        "Progestérone",
+        "Testostérone",
+        "Insuline"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Par quel mécanisme les hormones stéroïdiennes pénètrent-elles dans la cellule cible?",
+      "options": [
+        "Diffusion simple à travers la membrane",
+        "Transport actif",
+        "Endocytose",
+        "Canaux ioniques"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel est le principal mode de transport des hormones dans l'organisme?",
+      "options": [
+        "Système lymphatique",
+        "Sang",
+        "Liquide céphalo-rachidien",
+        "Nerfs"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Dans l'expérience de Berthold, que prouvait la restauration des caractères sexuels après greffe testiculaire?",
+      "options": [
+        "Les testicules produisent une substance sanguine",
+        "La castration est réversible",
+        "Les hormones n'existent pas",
+        "Le système nerveux contrôle tout"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel type de rétrocontrôle est le plus fréquent dans le système endocrinien?",
+      "options": [
+        "Rétrocontrôle positif",
+        "Rétrocontrôle négatif",
+        "Pas de rétrocontrôle",
+        "Rétrocontrôle alterné"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quelle structure produit la GnRH?",
+      "options": [
+        "Hypophyse antérieure",
+        "Hypophyse postérieure",
+        "Hypothalamus",
+        "Ovaires"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "En Côte d'Ivoire, quel facteur environnemental influence le plus le système endocrinien reproducteur?",
+      "options": [
+        "Photopériode",
+        "Pression atmosphérique",
+        "Humidité",
+        "Vents"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quelle est la fonction principale des récepteurs hormonaux?",
+      "options": [
+        "Détruire l'hormone",
+        "Reconnaître spécifiquement l'hormone",
+        "Produire l'hormone",
+        "Transporter l'hormone"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

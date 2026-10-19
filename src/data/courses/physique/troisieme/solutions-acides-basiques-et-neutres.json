@@ -1,0 +1,58 @@
+{
+  "id": "physique-troisieme-solutions-acides-basiques-et-neutres",
+  "title": "Solutions acides, basiques et neutres",
+  "summary": "TP Collège Grand-Bassam, 3ème 5 : identifier nature solutions (eau sucrée, citronnée, javel, savon...).",
+  "lesson": "# Solutions acides, basiques et neutres\n\n## I. Le pH\n\n### Définition\nPotentiel Hydrogène\nMesure acidité ou basicité\n\n### Échelle\n0 ------- 7 ------- 14\nAcide    Neutre    Basique\n\n### Mesure\n- Papier pH\n- pH-mètre\n- Indicateurs colorés\n\n## II. Classification solutions\n\n### Solution acide\npH < 7\n- Goût aigre\n- Ion H⁺ (hydrogène)\n- Exemples CI :\n  Citron (pH ≈ 2)\n  Vinaigre (pH ≈ 3)\n  Jus ananas (pH ≈ 3,5)\n\n### Solution neutre\npH = 7\n- Ni acide ni basique\n- Exemples : Eau pure, Eau sucrée\n\n### Solution basique\npH > 7\n- Savonneuse au toucher\n- Ion OH⁻ (hydroxyde)\n- Exemples CI :\n  Eau de javel (pH ≈ 12)\n  Savon (pH ≈ 10)\n  Cendre bois (pH ≈ 11)\n\n## III. Indicateurs colorés\n\n### Bleu de bromothymol (BBT)\n- Acide (pH<7) : jaune\n- Neutre (pH=7) : vert\n- Base (pH>7) : bleu\n\n### Autres indicateurs\n- Phénolphtaléine\n- Hélianthine\n- Papier tournesol\n\n## IV. Effet de la dilution\n\n### Solution acide\nDilution → pH augmente (vers 7)\n\n### Solution basique\nDilution → pH diminue (vers 7)\n\n## V. Application : Agriculture CI\n\n### pH du sol\n\npH optimal cultures : 6-7\n\n### Sol acide (pH < 6)\n- Mauvaise croissance\n- Carence nutriments\n- Cultures café, cacao tolèrent\n\n### Sol basique (pH > 7)\n- Blocage fer, phosphore\n\n### Amendement des sols\n\n#### Sol acide → Ajouter base\n- Chaux CaO\n- Calcaire CaCO₃\n- Cendre bois\n- pH augmente\n\n#### Sol basique → Ajouter acide\n- Soufre S\n- Matière organique\n- pH diminue\n\n### Cultures CI\n- Igname : pH 5,5-6,5\n- Riz : pH 5-6,5\n- Coton : pH 6-7,5\n- Cacao : pH 6-7",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "pH < 7 : acide (H⁺)",
+    "pH = 7 : neutre",
+    "pH > 7 : basique (OH⁻)",
+    "Amendement sol : chaux si acide"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Le pH d'une solution basique est :",
+      "options": [
+        "<7",
+        "=7",
+        ">7",
+        "=0"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Pour corriger un sol acide, on ajoute :",
+      "options": [
+        "Vinaigre",
+        "Chaux",
+        "Acide",
+        "Eau"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Avec le BBT, une solution acide est :",
+      "options": [
+        "Bleue",
+        "Verte",
+        "Jaune",
+        "Rouge"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

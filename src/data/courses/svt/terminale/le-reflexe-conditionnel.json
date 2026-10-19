@@ -1,0 +1,188 @@
+{
+  "id": "svt-terminale-le-reflexe-conditionnel",
+  "title": "Le réflexe conditionnel",
+  "summary": "Des élèves découvrent dans un film documentaire que les activités réussies comme la conduite, la nage, l'écriture, la lecture se font sous le contrôle d'un maître. De nouveaux comportements apparaissent avec le temps : ce sont les réflexes conditionnels.",
+  "lesson": "## Définition\n\nUn **réflexe conditionnel** ou **réflexe acquis** est une réaction déclenchée par un stimulus qui n'a pas habituellement d'action sur la fonction considérée. Il se met en place à la suite d'un apprentissage.\n\n## L'expérience de Pavlov\n\n### Protocole\n\n**Phase 1 :** On fait écouter un son de métronome au chien → **pas de salivation**\n- Le son est un **stimulus neutre**\n\n**Phase 2 :** On donne un morceau de viande au chien → **salivation**\n- La viande est un **stimulus inconditionnel (absolu)**\n- Réflexe inné ou inconditionnel\n\n**Phase 3 :** On associe le son et la viande plusieurs fois → **salivation**\n- Phase d'**apprentissage**\n- Association des deux stimuli\n\n**Phase 4 :** Le son seul provoque la salivation\n- Le son devient un **stimulus conditionnel**\n- La réaction est un **réflexe conditionnel** ou **réflexe acquis**\n\n## Mécanisme de mise en place\n\n### Arc réflexe salivaire conditionnel\n\n**Trajet de l'influx nerveux :**\n\n1. **Récepteur sensitif** : l'oreille\n2. **Aire auditive** (cortex cérébral)\n3. **Nouvelle liaison nerveuse** établie par apprentissage\n4. **Aire gustative** (cortex cérébral)\n5. **Centre salivaire** (bulbe rachidien)\n6. **Effecteur** : glandes salivaires\n\n### Mécanisme\n\n- L'aliment (stimulus naturel) excite le centre salivaire qui déclenche la sécrétion\n- Le son, associé plusieurs fois à la nourriture, crée une **nouvelle liaison** entre l'aire auditive et l'aire gustative\n- Une fois la liaison établie, le son seul provoque la salivation\n\n## Conditions de mise en place\n\nPour qu'un réflexe conditionnel se mette en place :\n\n1. Présence des **hémisphères cérébraux** fonctionnels\n2. **Organes intègres** (en bon état)\n3. **État de vigilance** de l'animal (absence de stress)\n4. **Efficacité des stimuli** (intéressants, précis)\n5. **Ordre de présentation** : le stimulus neutre doit précéder le stimulus absolu\n6. **Entretien** du réflexe pour éviter son extinction\n\n## Applications\n\nLe réflexe conditionnel permet :\n- Le **dressage des animaux**\n- Le développement de l'**automatisme**\n- L'**éducation** et l'apprentissage\n\n**Important :** Le réflexe conditionnel n'est pas définitif. Il doit être entretenu pour éviter sa disparition (extinction).",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Réflexe conditionnel = réflexe acquis par apprentissage",
+    "Stimulus neutre → Stimulus conditionnel après association",
+    "Nouvelle liaison nerveuse dans le cerveau",
+    "Nécessite les hémisphères cérébraux et un entretien"
+  ],
+  "exercise": {
+    "question": "Complétez : Un chien salive à la vue de viande. La viande est un stimulus ___. Lorsqu'on associe un son à la viande, le son devient un stimulus ___.",
+    "answer": "\n**Solution :**\n\n1. La viande est un **stimulus absolu (inconditionnel)**\n2. Après association répétée, le son devient un **stimulus conditionnel**\n\n**Explication :**\n- Le stimulus absolu provoque toujours une réaction naturelle\n- Le stimulus neutre devient conditionnel après apprentissage\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'un stimulus neutre ?",
+      "options": [
+        "Un stimulus qui provoque toujours une réponse",
+        "Un stimulus qui ne provoque pas naturellement la réponse attendue",
+        "Un stimulus qui nécessite le cerveau",
+        "Un stimulus chimique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Où se trouvent les aires qui interviennent dans le réflexe conditionnel ?",
+      "options": [
+        "Dans la moelle épinière",
+        "Dans le bulbe rachidien",
+        "Dans les hémisphères cérébraux",
+        "Dans les nerfs périphériques"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Le réflexe conditionnel est-il permanent ?",
+      "options": [
+        "Oui, il dure toute la vie",
+        "Non, il peut disparaître sans entretien",
+        "Oui, comme les réflexes innés",
+        "Non, il disparaît en quelques jours"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel type de réflexe est présent dès la naissance?",
+      "options": [
+        "Réflexe conditionnel",
+        "Réflexe acquis",
+        "Réflexe inconditionnel",
+        "Réflexe cortical"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Dans l'expérience de Pavlov, quel était le stimulus neutre initial?",
+      "options": [
+        "La nourriture",
+        "La salivation",
+        "Le son de cloche",
+        "La vue du chercheur"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle est la durée optimale entre le stimulus neutre et le stimulus inconditionnel pour un conditionnement efficace?",
+      "options": [
+        "0.1 seconde",
+        "0.5-2 secondes",
+        "10 secondes",
+        "1 minute"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel phénomène se produit quand un réflexe conditionnel diminue puis disparaît par présentation répétée du SC seul?",
+      "options": [
+        "Généralisation",
+        "Extinction",
+        "Renforcement",
+        "Discrimination"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quelle structure cérébrale est cruciale pour la formation des mémoires associatives dans le conditionnement?",
+      "options": [
+        "Cervelet",
+        "Hippocampe",
+        "Médulla oblongata",
+        "Corps calleux"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel mécanisme synaptique sous-tend l'apprentissage selon la règle de Hebb?",
+      "options": [
+        "Potentialisation à long terme (LTP)",
+        "Dépression à long terme (LTD)",
+        "Fatigue synaptique",
+        "Inhibition présynaptique"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quelle réponse était mesurée dans l'expérience de Pavlov?",
+      "options": [
+        "Fréquence cardiaque",
+        "Salivation",
+        "Contraction musculaire",
+        "Dilatation pupillaire"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Que se passe-t-il si après extinction, on présente à nouveau le SC après un repos?",
+      "options": [
+        "Rien",
+        "Recouvrement spontané partiel",
+        "Renforcement immédiat",
+        "Réponse inversée"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quelle est la différence principale entre le circuit d'un réflexe conditionnel et inconditionnel?",
+      "options": [
+        "Le réflexe conditionnel est plus rapide",
+        "Le réflexe conditionnel implique le cortex",
+        "Le réflexe inconditionnel est volontaire",
+        "Le réflexe inconditionnel nécessite de l'apprentissage"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel prix Nobel a reçu Ivan Pavlov pour ses travaux?",
+      "options": [
+        "Physiologie/Médecine 1904",
+        "Chimie 1910",
+        "Physique 1901",
+        "Paix 1915"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

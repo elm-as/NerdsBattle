@@ -1,0 +1,110 @@
+{
+  "id": "francais-sixieme-le-nom-et-le-determinant",
+  "title": "Le nom et le déterminant",
+  "summary": "Au marché de Cocody, on vend des fruits, des légumes, du poisson. Comment nommer tous ces éléments correctement ?",
+  "lesson": "## Le nom\n\n### Qu'est-ce qu'un nom ?\nUn nom désigne une personne, un animal, un objet, un lieu ou une idée.\n\n### Les deux types de noms\n\n**1. Le nom commun**\n- Commence par une minuscule\n- Exemples : un marché, une mangue, un enfant\n\n**2. Le nom propre**\n- Commence par une majuscule\n- Désigne une personne ou un lieu précis\n- Exemples : Abidjan, Félix, Côte d'Ivoire\n\n## Le déterminant\n\n### Rôle du déterminant\nLe déterminant se place AVANT le nom et indique :\n- Le genre (masculin/féminin)\n- Le nombre (singulier/pluriel)\n\n### Les principaux déterminants\n\n**Articles définis** : le, la, les, l'\n- Exemple : **Le** marché de Cocody\n\n**Articles indéfinis** : un, une, des\n- Exemple : **Une** mangue bien mûre",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Un nom désigne une personne, un animal, un objet ou un lieu",
+    "Nom propre = majuscule (Abidjan)",
+    "Nom commun = minuscule (ville)",
+    "Le déterminant précède toujours le nom"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Quel est le nom propre ?",
+      "options": [
+        "ville",
+        "Yamoussoukro",
+        "école",
+        "marché"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 0,
+      "prompt": "Quel est le déterminant dans 'une mangue' ?",
+      "options": [
+        "une",
+        "mangue",
+        "un",
+        "des"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-francais-1-mv9kbscr",
+      "type": "mcq",
+      "prompt": "Dans la phrase « Les enfants mangent des mangues à Abidjan », quel est le déterminant qui introduit le nom commun « mangues » ?",
+      "options": [
+        "Les",
+        "des",
+        "à",
+        "mangent"
+      ],
+      "answer": 1,
+      "explanation": "Le mot « des » est un article indéfini qui se place avant le nom commun pluriel « mangues » pour indiquer une quantité non précise. « Les » est un article défini, « à » est une préposition et « mangent » est un verbe."
+    },
+    {
+      "id": "auto-francais-2-mv9kbscr",
+      "type": "mcq",
+      "prompt": "Parmi les éléments suivants, lequel est un nom propre désignant un lieu spécifique en Côte d'Ivoire ?",
+      "options": [
+        "marché",
+        "Cocody",
+        "poisson",
+        "légumes"
+      ],
+      "answer": 1,
+      "explanation": "« Cocody » est un nom propre car il désigne un lieu précis (un quartier d'Abidjan) et commence par une majuscule. Les autres mots sont des noms communs qui désignent des catégories d'objets ou de lieux en général."
+    },
+    {
+      "id": "auto-francais-3-mv9kbscr",
+      "type": "mcq",
+      "prompt": "Quel déterminant faut-il utiliser pour compléter correctement la phrase : « J'ai acheté ___ pomme rouge au marché » ?",
+      "options": [
+        "le",
+        "la",
+        "un",
+        "une"
+      ],
+      "answer": 3,
+      "explanation": "Le nom « pomme » est féminin singulier. Comme il s'agit d'une pomme non précisée (indéfinie), on utilise l'article indéfini féminin singulier « une ». « La » serait un article défini, « un » est masculin, et « le » est masculin défini."
+    },
+    {
+      "id": "auto-francais-4-mv9kbscr",
+      "type": "mcq",
+      "prompt": "Dans l'expression « le poisson frais », quel est le rôle grammatical du mot « le » ?",
+      "options": [
+        "C'est un nom commun",
+        "C'est un adjectif qualificatif",
+        "C'est un article défini",
+        "C'est un verbe conjugué"
+      ],
+      "answer": 2,
+      "explanation": "« Le » est un article défini masculin singulier. Il se place avant le nom « poisson » pour le déterminer en précisant qu'il s'agit d'un poisson connu ou spécifique dans le contexte. Il n'est ni un nom, ni un adjectif, ni un verbe."
+    },
+    {
+      "id": "auto-francais-5-mv9kbscr",
+      "type": "mcq",
+      "prompt": "Quelle est la différence principale entre un nom commun et un nom propre selon le cours ?",
+      "options": [
+        "Le nom commun désigne une idée, le nom propre désigne un objet",
+        "Le nom commun commence par une minuscule, le nom propre par une majuscule",
+        "Le nom commun est toujours au pluriel, le nom propre au singulier",
+        "Le nom commun est précédé d'un article indéfini, le nom propre d'un article défini"
+      ],
+      "answer": 1,
+      "explanation": "La distinction fondamentale enseignée est graphique et sémantique : le nom commun (ex: marché) commence par une minuscule et désigne une catégorie, tandis que le nom propre (ex: Abidjan) commence par une majuscule et désigne une entité unique et précise."
+    }
+  ]
+}

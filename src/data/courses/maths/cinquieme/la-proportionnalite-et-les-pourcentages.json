@@ -1,0 +1,45 @@
+{
+  "id": "maths-cinquieme-la-proportionnalite-et-les-pourcentages",
+  "title": "La proportionnalité et les pourcentages",
+  "summary": "Un commerçant d'Abidjan offre 20% de réduction sur un article à 15 000 FCFA. Quel est le nouveau prix ?",
+  "lesson": "## Proportionnalité et pourcentages\n\n### Reconnaissance\nDeux grandeurs sont proportionnelles si on passe de l'une à l'autre en multipliant toujours par le même nombre (coefficient de proportionnalité).\n\n**Exemple :**\nPrix de 3 kg de riz : 1 200 FCFA\nPrix de 5 kg de riz : 2 000 FCFA\nCoefficient : 1 200 ÷ 3 = 400 FCFA/kg\n\n### Pourcentages\nUn pourcentage représente une proportion sur 100.\n\n**Formule :**\nPrendre x% d'une quantité = multiplier par x/100\n\n**Exemples :**\n- 20% de 15 000 = 15 000 × 20/100 = 3 000 FCFA\n- Prix après réduction : 15 000 - 3 000 = 12 000 FCFA",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Proportionnalité : coefficient constant",
+    "Pourcentage = nombre/100",
+    "Réduction : soustraire le pourcentage",
+    "Augmentation : ajouter le pourcentage"
+  ],
+  "exercise": {
+    "answer": "\n**Solution :**\nAugmentation = 12 000 × 15/100 = 1 800 FCFA\nNouveau prix = 12 000 + 1 800 = 13 800 FCFA\n\n**Réponse : 13 800 FCFA**\n        ",
+    "question": "Un sac de 12 000 FCFA augmente de 15%. Quel est le nouveau prix ?"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "50% de 200 = ?",
+      "options": [
+        "50",
+        "100",
+        "150",
+        "250"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Un prix de 10 000 FCFA baisse de 10%. Le nouveau prix est :",
+      "options": [
+        "9 000 FCFA",
+        "9 500 FCFA",
+        "10 100 FCFA",
+        "11 000 FCFA"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

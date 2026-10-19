@@ -1,0 +1,175 @@
+{
+  "id": "physique-seconde-les-forces-et-l-equilibre",
+  "title": "Les forces et l'équilibre",
+  "summary": "Un livre posé sur une table est immobile. Quelles forces s'exercent sur lui ?",
+  "lesson": "## Notion de force\n\n### Définition\n\nUne **force** est une action capable de :\n- Mettre en mouvement\n- Déformer\n- Maintenir en équilibre\n\n### Caractéristiques\n\n1. **Point d'application**\n2. **Direction**\n3. **Sens**\n4. **Intensité** (en Newton)\n\n## Types de forces\n\n### Le poids\n\n```\nP = m × g\ng = 10 N/kg\n```\n\n### La tension d'un fil\n\nForce exercée par un fil tendu\n\n### La réaction d'un support\n\nForce perpendiculaire au support\n\n### Les forces de frottement\n\nForces qui s'opposent au mouvement\n\n## Équilibre\n\n**Condition :**\n```\nΣF = 0\n```\n\nToutes les forces se compensent.\n\n### Exemple\n\nLivre sur table (m = 2 kg) :\n- P = 20 N ⬇\n- R = 20 N ⬆\n- Équilibre : P + R = 0 ✓",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Force en Newton (N)",
+    "P = m × g",
+    "Équilibre : ΣF = 0",
+    "4 caractéristiques"
+  ],
+  "exercise": {
+    "question": "Un objet de 5 kg est suspendu. Quelle est la tension du fil ?",
+    "answer": "\nP = m × g = 5 × 10 = 50 N\nÉquilibre : T = P = 50 N\n\n**Réponse : 50 N**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Unité de la force ?",
+      "options": [
+        "kg",
+        "N",
+        "m",
+        "J"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Valeur de g ?",
+      "options": [
+        "9,8",
+        "10",
+        "100",
+        "1"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-physique-1-mv9o4lkr",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Un livre de masse $m = 2\\,\\text{kg}$ est immobile sur une table horizontale. En prenant $g = 10\\,\\text{N/kg}$, quelle est l'intensité de la force de réaction $\\vec{R}$ exercée par la table sur le livre ?",
+      "options": [
+        "0 N",
+        "10 N",
+        "20 N",
+        "40 N"
+      ],
+      "explanation": "Le livre est en équilibre, donc la somme des forces est nulle. La force de réaction $\\vec{R}$ est opposée au poids $\\vec{P}$. L'intensité du poids est $P = m \\times g = 2 \\times 10 = 20\\,\\text{N}$. Par conséquent, l'intensité de la réaction est également de $20\\,\\text{N}$."
+    },
+    {
+      "id": "auto-physique-2-mv9o4lkr",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Dans le cas d'un livre posé sur une table horizontale et immobile, quelle est la direction de la force de réaction $\\vec{R}$ exercée par la table ?",
+      "options": [
+        "Horizontale",
+        "Verticale",
+        "Oblique à 45°",
+        "Indéterminée"
+      ],
+      "explanation": "La force de réaction d'un support est toujours perpendiculaire à la surface du support. Comme la table est horizontale, la réaction est verticale."
+    },
+    {
+      "id": "auto-physique-3-mv9o4lkr",
+      "type": "mcq",
+      "answer": 3,
+      "prompt": "Quelle est la condition mathématique nécessaire pour qu'un objet soumis à deux forces $\\vec{F_1}$ et $\\vec{F_2}$ soit en équilibre statique ?",
+      "options": [
+        "$\\vec{F_1} + \\vec{F_2} \neq 0$",
+        "$\\vec{F_1} - \\vec{F_2} = 0$",
+        "$\\vec{F_1} \\times \\vec{F_2} = 0$",
+        "$\\vec{F_1} + \\vec{F_2} = 0$"
+      ],
+      "explanation": "La condition d'équilibre d'un solide soumis à deux forces est que la somme vectorielle des forces soit nulle : $\\Sigma \\vec{F} = \\vec{F_1} + \\vec{F_2} = \\vec{0}$. Cela implique que les forces sont de même direction, même norme et de sens opposés."
+    },
+    {
+      "id": "auto-physique-4-mv9o4lkr",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Si la masse d'un livre posé sur une table est doublée, que devient l'intensité de la force de réaction exercée par la table, en supposant que le livre reste immobile ?",
+      "options": [
+        "Elle est divisée par deux",
+        "Elle reste constante",
+        "Elle est doublée",
+        "Elle est quadruplée"
+      ],
+      "explanation": "La force de réaction $R$ compense le poids $P$. Or $P = m \\times g$. Si la masse $m$ est doublée, le poids $P$ est doublé. Pour maintenir l'équilibre ($R = P$), la réaction $R$ doit donc être doublée."
+    },
+    {
+      "id": "auto-physique-5-mv9o4lks",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Quel est le sens de la force de réaction $\\vec{R}$ exercée par une table horizontale sur un livre posé dessus ?",
+      "options": [
+        "Vers le bas",
+        "Vers le haut",
+        "Vers la gauche",
+        "Vers la droite"
+      ],
+      "explanation": "Le poids du livre est dirigé vers le bas (vers le centre de la Terre). Pour que le livre soit en équilibre, la force de réaction de la table doit s'opposer au poids, donc être dirigée vers le haut."
+    },
+    {
+      "id": "auto-physique-1-mvaiz1fl",
+      "type": "mcq",
+      "prompt": "Un objet de masse $m = 5\\,\\text{kg}$ est suspendu verticalement à un fil inextensible et reste immobile. En prenant $g = 10\\,\\text{N/kg}$, quelle est l'intensité de la tension $\\vec{T}$ du fil ?",
+      "options": [
+        "$5\\,\\text{N}$",
+        "$10\\,\\text{N}$",
+        "$50\\,\\text{N}$",
+        "$500\\,\\text{N}$"
+      ],
+      "answer": 2,
+      "explanation": "L'objet est en équilibre, donc la somme des forces est nulle. La tension $\\vec{T}$ compense le poids $\\vec{P}$. L'intensité du poids est $P = m \\times g = 5 \\times 10 = 50\\,\\text{N}$. Par conséquent, la tension vaut $50\\,\\text{N}$."
+    },
+    {
+      "id": "auto-physique-2-mvaiz1fl",
+      "type": "mcq",
+      "prompt": "Quelles sont les quatre caractéristiques qui permettent de décrire complètement une force vectorielle ?",
+      "options": [
+        "Masse, vitesse, accélération et temps",
+        "Point d'application, direction, sens et intensité",
+        "Longueur, largeur, hauteur et volume",
+        "Énergie, puissance, travail et chaleur"
+      ],
+      "answer": 1,
+      "explanation": "Selon le cours, une force est caractérisée par son point d'application, sa direction (la ligne d'action), son sens (le sens de l'action) et son intensité (mesurée en Newtons)."
+    },
+    {
+      "id": "auto-physique-3-mvaiz1fl",
+      "type": "mcq",
+      "prompt": "Une boîte de $10\\,\\text{kg}$ est posée sur une table horizontale. Si on exerce sur elle une force horizontale de $20\\,\\text{N}$ vers la droite et qu'elle reste immobile, quelle est l'intensité de la force de frottement exercée par la table ?",
+      "options": [
+        "$0\\,\\text{N}$",
+        "$10\\,\\text{N}$",
+        "$20\\,\\text{N}$",
+        "$100\\,\\text{N}$"
+      ],
+      "answer": 2,
+      "explanation": "L'objet est en équilibre statique, donc la somme des forces horizontales est nulle. La force de frottement doit s'opposer exactement à la force appliquée pour maintenir l'équilibre. Donc, son intensité est égale à $20\\,\\text{N}$."
+    },
+    {
+      "id": "auto-physique-4-mvaiz1fl",
+      "type": "mcq",
+      "prompt": "Quelle est la nature de la force de réaction exercée par une surface plane sur un objet posé dessus ?",
+      "options": [
+        "Une force parallèle à la surface, dans le sens du mouvement",
+        "Une force perpendiculaire à la surface, dirigée vers l'extérieur du support",
+        "Une force parallèle à la surface, s'opposant au mouvement",
+        "Une force perpendiculaire à la surface, dirigée vers l'intérieur du support"
+      ],
+      "answer": 1,
+      "explanation": "La réaction d'un support est une force de contact qui est perpendiculaire à la surface de contact et qui pousse l'objet vers l'extérieur du support (réaction normale)."
+    },
+    {
+      "id": "auto-physique-5-mvaiz1fl",
+      "type": "mcq",
+      "prompt": "Si un objet est soumis à trois forces $\\vec{F_1}$, $\\vec{F_2}$ et $\\vec{F_3}$ et qu'il est en équilibre, quelle relation mathématique doit être satisfaite ?",
+      "options": [
+        "$\\vec{F_1} + \\vec{F_2} = \\vec{F_3}$",
+        "$\\vec{F_1} \\times \\vec{F_2} \\times \\vec{F_3} = 0$",
+        "$\\vec{F_1} + \\vec{F_2} + \\vec{F_3} = \\vec{0}$",
+        "$\\vec{F_1} = \\vec{F_2} = \\vec{F_3}$"
+      ],
+      "answer": 2,
+      "explanation": "La condition d'équilibre statique pour un objet soumis à plusieurs forces est que la somme vectorielle de toutes les forces agissant sur lui soit nulle. Donc $\\vec{F_1} + \\vec{F_2} + \\vec{F_3} = \\vec{0}$."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "francais-seconde-la-versification-les-vers-les-strophes-et-les-sonorites",
+  "title": "La versification : les vers, les strophes et les sonorités",
+  "summary": "Invités à participer à un concours de poésie organisé par le Centre Culturel de Korhogo sur le thème « Les saisons de la savane », les élèves de Seconde C décident de s’y préparer en étudiant les techniques de versification pour mieux apprécier et créer des textes poétiques.",
+  "lesson": "## 1. Le vers : unité de mesure\n\nUn vers est une ligne de poésie. On compte les **syllabes** (ou **pieds**).\n\n**Élision** : suppression du -e muet à la fin d’un mot devant une voyelle ou un h muet. Ex. : « L’homm(e) et l’océan » = 5 syllabes.\n\n**Diérèse** : prononciation en deux syllabes d’une voyelle qui forme habituellement une seule syllabe (ex. : li-en).\n\n**Synérèse** : inverse de la diérèse (ex. : lion = 1 syllabe).\n\n## 2. Types de vers courants\n\n| Nom du vers | Nombre de syllabes | Exemple |\n|-------------|-------------------|---------|\n| **Alexandrin** | 12 | « Je vis, je meurs ; je me brûle et me noie. » |\n| **Décasyllabe** | 10 | « Heureux qui, comme Ulysse, a fait un beau voyage. » |\n| **Octosyllabe** | 8 | « Sous le pont Mirabeau coule la Seine. » |\n| **Hexasyllabe** | 6 | « Le ciel est, par-dessus le toit. » |\n\n## 3. Les strophes : groupement de vers\n\n| Nom de la strophe | Nombre de vers |\n|-------------------|----------------|\n| **Distique** | 2 |\n| **Tercet** | 3 |\n| **Quatrain** | 4 |\n| **Sizain** | 6 |\n| **Huitain** | 8 |\n\n## 4. Les rimes\n\n**A. Richesse de la rime**\n- **Rime pauvre** : 1 son vocalique commun (ex. : vie / lie).\n- **Rime suffisante** : 2 sons communs (ex. : partage / voyage).\n- **Rime riche** : 3 sons communs ou plus (ex. : mystère / ministère).\n\n**B. Disposition des rimes**\n- **Rimes plates (ou suivies)** : AABB\n- **Rimes croisées** : ABAB\n- **Rimes embrassées** : ABBA\n\n**C. Genre des rimes**\n- **Rime féminine** : se termine par un -e muet (ex. : belle, rose).\n- **Rime masculine** : ne se termine pas par un -e muet (ex. : ciel, soleil).\n\n## 5. Les sonorités : allitération et assonance\n\n- **Allitération** : répétition d’une **consonne** dans un vers ou un groupe.\n  - Ex. : « Pour qui sont ces **s**erpents qui **s**ifflent **s**ur vos têtes ? » (son [s]).\n- **Assonance** : répétition d’une **voyelle** dans un vers ou un groupe.\n  - Ex. : « Je f**ai**s souvent ce rêve étrange et pénétr**an**t… » (son [ɛ̃]).\n\n## 6. Le rythme : coupes, enjambement, rejet\n\n- **Césure** : pause à l’intérieur du vers (alexandrin : 6//6).\n- **Enjambement** : la phrase dépasse la limite du vers.\n- **Rejet** : mot ou groupe court reporté au vers suivant après un enjambement.\n- **Contre-rejet** : mot ou groupe court placé à la fin du vers avant un enjambement.\n\n## 7. Application à un poème africain (extrait inspiré)\n\n« Le tam-tam bat au cœur de la nuit (8)\nSous la lune qui veille, immense et pâle (8)\nIl dit la joie, la peine, le long exil (8)\nEt le retour au village natal. » (8)\n\n**Analyse rapide :**\n- **Mètre** : octosyllabes.\n- **Rimes** : plates (AABB) : nuit/pâle ; exil/natal.\n- **Allitération** en [l] : « lune », « veille », « immense », « pâle », « exil », « village », « natal ».\n\n## 8. Production guidée : analyse d’un quatrain\n\n**Quatrain proposé (thème : le fleuve Comoé) :**\n« Le Comoé, lent et puissant, serpente (6)\nÀ travers savanes et forêts profondes. (8)\nIl chante une chanson d’eau, confidente (6)\nDes secrets que la terre en ses flancs fonde. » (8)\n\n**Consigne d’analyse :**\n1. Comptez les syllabes de chaque vers (attention aux élisions).\n2. Identifiez le type de strophe et la disposition des rimes.\n3. Repérez une allitération ou une assonance.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Compter les syllabes d’un vers en tenant compte de l’élision, diérèse/synérèse.",
+    "Nommer les vers (alexandrin, décasyllabe, etc.) et les strophes (quatrain, sizain, etc.).",
+    "Analyser la richesse, disposition et genre des rimes.",
+    "Repérer les effets sonores (allitération, assonance) et rythmiques (enjambement, rejet)."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Un alexandrin compte :",
+      "options": [
+        "8 syllabes",
+        "10 syllabes",
+        "12 syllabes",
+        "14 syllabes"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Dans un quatrain aux rimes ABAB, on parle de rimes :",
+      "options": [
+        "Plates",
+        "Croisées",
+        "Embrassées",
+        "Libres"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La répétition du son [ʃ] dans « Le chêne et le roseau se chuchotent » est une :",
+      "options": [
+        "Assonance",
+        "Allitération",
+        "Césure",
+        "Diérèse"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quand une phrase se poursuit au-delà de la fin du vers, on parle d’ :",
+      "options": [
+        "Enjambement",
+        "Rejet",
+        "Césure",
+        "Elision"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

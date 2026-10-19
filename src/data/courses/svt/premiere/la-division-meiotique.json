@@ -1,0 +1,319 @@
+{
+  "id": "svt-premiere-la-division-meiotique",
+  "title": "La division méiotique",
+  "summary": "Tanoh, élève en 1ère C au Lycée moderne 1 de Grand-Bassam, vit avec son grand frère qui ne parvient pas à avoir d'enfant après cinq ans de mariage. Après consultation médicale, on découvre la présence de gamètes anormaux produits par son frère. Le professeur de SVT explique que ces anomalies se produisent lors de la méiose, la division cellulaire spéciale qui forme les gamètes. Pour comprendre ce qui s'est passé, Tanoh et ses camarades décident d'étudier en détail les étapes de la méiose et ses conséquences",
+  "lesson": "## 1. Introduction\n\nLa méiose est un type particulier de division cellulaire qui réduit de moitié le nombre de chromosomes, produisant des cellules haploïdes (n) à partir de cellules diploïdes (2n). C'est le processus fondamental qui permet la reproduction sexuée et le maintien du nombre constant de chromosomes d'une génération à l'autre. En Côte d'Ivoire, comprendre la méiose est essentiel pour aborder les questions d'hérédité, de maladies génétiques et d'infertilité qui touchent de nombreux couples.\n\n## 2. Rappel : mitose vs méiose\n\n**Mitose** (division équationnelle) :\n- 1 division → 2 cellules filles identiques à la mère\n- Maintient la diploïdie (2n → 2n)\n- Pour la croissance et le renouvellement cellulaire\n\n**Méiose** (division réductionnelle + équationnelle) :\n- 2 divisions → 4 cellules filles différentes\n- Réduit la ploïdie (2n → n)\n- Exclusivement pour la formation des gamètes\n\n**Formules** :\n- Cellule mère : 2n chromosomes (46 chez l'humain)\n- Après méiose I : 2 cellules à n chromosomes doubles (23 chromosomes à 2 chromatides)\n- Après méiose II : 4 cellules à n chromosomes simples (23 chromatides)\n\n## 3. La méiose I : division réductionnelle\n\n**Prophase I** (la plus longue et complexe) :\n1. **Leptotène** : condensation chromosomique, chromosomes visibles\n2. **Zygotène** : appariement des chromosomes homologues (synapsis), formation du complexe synaptonémal\n3. **Pachytène** : crossing-over entre chromatides non-sœurs (échange de fragments)\n4. **Diplotène** : désynapsis partielle, maintien aux chiasmas (sites de crossing-over)\n5. **Diacinèse** : disparition de l'enveloppe nucléaire, formation du fuseau\n\n**Métaphase I** :\n- Les paires d'homologues (bivalents) s'alignent sur la plaque équatoriale\n- Orientation aléatoire (2^n possibilités, avec n = nombre de paires)\n\n**Anaphase I** :\n- Séparation des chromosomes homologues (pas des chromatides !)\n- Migration vers les pôles opposés\n\n**Télophase I** :\n- Reconstitution partielle des noyaux\n- Cytodiérèse → 2 cellules haploïdes mais chromosomes encore doubles\n\n**Description du schéma 1: Les étapes de la méiose I**\nLe schéma montre les 5 étapes de la prophase I : leptotène (chromosomes fins), zygotène (appariement), pachytène (crossing-over visible), diplotène (chiasmas), diacinèse (enveloppe nucléaire disparaît). Puis métaphase I (bivalents alignés), anaphase I (homologues séparés), télophase I (2 cellules). Légendes détaillées pour chaque étape avec nombre chromosomique indiqué (2n=4 dans l'exemple).\n\n## 4. La méiose II : division équationnelle\n\nLa méiose II ressemble à une mitose normale, mais sur des cellules déjà haploïdes.\n\n**Prophase II** :\n- Condensation chromosomique\n- Disparition de l'enveloppe nucléaire\n\n**Métaphase II** :\n- Chromosomes alignés sur la plaque équatoriale\n- Chromatides sœurs encore reliées au centromère\n\n**Anaphase II** :\n- Séparation des chromatides sœurs\n- Migration vers les pôles\n\n**Télophase II** :\n- Reconstitution des noyaux\n- Cytodiérèse → 4 cellules haploïdes à chromosomes simples\n\n**Description du schéma 2: Les étapes de la méiose II**\nLe schéma montre les deux cellissues issues de la méiose I subissant chacune une division. Prophase II (chromosomes doubles), métaphase II (alignement), anaphase II (séparation chromatides), télophase II (4 cellules haploïdes). Flèches montrant le passage de 2 cellules (n chromosomes doubles) à 4 cellules (n chromosomes simples).\n\n## 5. Le crossing-over et la recombinaison génétique\n\n**Mécanisme du crossing-over** :\n1. Cassure double brin de l'ADN\n2. Échange de segments entre chromatides non-sœurs\n3. Recollage par recombination homologue\n\n**Conséquence** : création de chromosomes recombinés avec allèles nouveaux\n\n**Fréquence** : 1-3 crossing-over par chromosome, proportionnel à sa longueur\n\n**Calcul de fréquence de recombination** :\nSi deux gènes sont sur le même chromosome :\n- Sans crossing-over : toujours liés\n- Avec crossing-over entre eux : recombinaison avec fréquence = distance génétique en cM (centimorgans)\n\nExemple : si distance AB = 20 cM, alors 20% des gamètes seront recombinés pour A et B.\n\n## 6. Ségrégation indépendante et brassage interchromosomique\n\nÀ la métaphase I, l'orientation aléatoire des bivalents génère un brassage des chromosomes paternels et maternels.\n\n**Nombre de combinaisons** : 2^n où n = nombre de paires de chromosomes\n\nChez l'humain (n=23) : 2^23 = 8,388,608 combinaisons possibles\n\nAvec crossing-over : diversité quasi infinie\n\n**Description du schéma 3: Brassage interchromosomique**\nLe schéma montre une cellule 2n=4 (2 paires). À métaphase I, deux orientations possibles pour chaque paire. Arbre des possibilités montrant les 4 types de gamètes différents (2^2=4). Formule générale : 2^n.\n\n## 7. Conséquences génétiques de la méiose\n\n1. **Maintien du caryotype** : 2n → n → 2n à la fécondation\n2. **Brassage génétique** :\n   - Brassage interchromosomique (indépendance des chromosomes)\n   - Brassage intrachromosomique (crossing-over)\n3. **Diversité génétique** : chaque gamète est unique\n4. **Évolution** : matière première pour la sélection naturelle\n\n**Calcul de diversité** :\n- Homme : 2^23 × crossing-over ≈ 10^14 combinaisons possibles\n- Femme : idem\n- Couple : (10^14)^2 = 10^28 zygotes potentiellement différents\n\nC'est pourquoi (presque) chaque individu est unique génétiquement.\n\n## 8. Anomalies de la méiose\n\n**Non-disjonction** : mauvais séparation des chromosomes\n\n**En méiose I** :\n- Les deux homologues migrent vers le même pôle\n- Résultat : 2 gamètes n+1, 2 gamètes n-1\n\n**En méiose II** :\n- Les deux chromatides sœurs migrent vers le même pôle\n- Résultat : 2 gamètes n (normaux), 1 gamète n+1, 1 gamète n-1\n\n**Conséquences** :\n- Trisomie (n+1) : ex. trisomie 21 (Syndrome de Down)\n- Monosomie (n-1) : souvent létale sauf X0 (Syndrome de Turner)\n\n**Description du schéma 4: Non-disjonction méiotique**\nLe schéma compare méiose normale et méiose avec non-disjonction en I ou II. Pour chaque cas, le nombre chromosomique des gamètes est indiqué. Exemple avec 2n=2 : gamètes normaux (n=1) vs anormaux (n+1=2, n-1=0).\n\n## 9. Applications médicales en Côte d'Ivoire\n\n**Diagnostic prénatal** :\n- Dépistage des anomalies chromosomiques\n- Amniocentèse, prélèvement villosités choriales\n- Caryotype fœtal\n\n**Infertilité masculine** :\n- Azoospermie (pas de spermatozoïdes) parfois due à arrêt méiotique\n- Oligospermie (peu de spermatozoïdes) : problèmes de méiose\n- FISH (Fluorescence In Situ Hybridization) pour détecter anomalies\n\n**Consanguinité** :\n- Fréquente dans certaines régions\n- Augmente risque de maladies récessives\n- Éducation génétique nécessaire\n\n## 10. Modélisation avec pâte à modeler\n\n**Matériel** :\n- 4 couleurs de pâte à modeler (2 par chromosome homologue)\n- Fils ou cure-pipes pour centromères\n- Support (carton) pour plaque équatoriale\n\n**Protocole** :\n1. Modeler 2 paires de chromosomes homologues (4 chromosomes au total)\n2. Simuler prophase I : appariement, crossing-over (échanger segments)\n3. Simuler métaphase I : orientation aléatoire\n4. Simuler anaphase I : séparation homologues\n5. Simuler méiose II : séparation chromatides\n6. Observer la diversité des gamètes produits\n\n## 11. Calculs de probabilités\n\n**Probabilité d'un gamète particulier** :\nPour chaque paire : 1/2 chance d'avoir chromosome paternel ou maternel\nPour n paires : (1/2)^n\n\nChez l'humain : (1/2)^23 ≈ 1/8,388,608\n\n**Probabilité que deux frères soient génétiquement identiques** :\n(1/2)^23 × (1/2)^23 = (1/2)^46 ≈ 1/70,000 milliards (sans crossing-over)\n\nAvec crossing-over : encore plus faible.\n\n## 12. Évolution et sélection naturelle\n\nLa méiose, en créant de la diversité, est un moteur de l'évolution :\n\n1. **Avantage** : populations plus adaptables aux changements\n2. **Désavantage** : casse des combinaisons avantageuses\n3. **Théorie de la Reine Rouge** : course aux armements évolutive\n\n**Application à l'agriculture ivoirienne** :\n- Sélection variétale du cacao : croisements pour diversité\n- Risque : perte de diversité dans les monocultures\n- Solution : banques de gènes (conservation de diversité)\n\n## 13. Méiose comparée chez différents organismes\n\n**Plantes** :\n- Alternance de générations haploïde/diploïde\n- Méiose dans le sporange → spores\n\n**Animaux** :\n- Méiose → gamètes directement\n- Différences homme/femme :\n  * Homme : 4 spermatozoïdes par méiose, continuel\n  * Femme : 1 ovocyte + 3 globules polaires, arrêts à prophase I et métaphase II\n\n## 14. Conclusion : importance fondamentale\n\nLa méiose est essentielle pour :\n1. **La reproduction sexuée** et pérennité des espèces\n2. **La diversité génétique** source d'évolution\n3. **La médecine** (génétique, reproduction assistée)\n4. **L'agriculture** (amélioration des plantes)\n\nComprendre ses mécanismes aide à prévenir et traiter de nombreux problèmes de santé en Côte d'Ivoire.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "La méiose comporte 2 divisions : réductionnelle (I) et équationnelle (II)",
+    "Le crossing-over en prophase I crée de la diversité intrachromosomique",
+    "La ségrégation indépendante en métaphase I crée 2^n combinaisons",
+    "Les anomalies de méiose (non-disjonction) causent des trisomies",
+    "Chaque méiose produit 4 gamètes haploïdes génétiquement uniques"
+  ],
+  "exercise": {
+    "answer": "1. **Gamètes possibles** (chromosomes différents = indépendants) :\n   AB, Ab, aB, ab\n   Chaque type a une probabilité de 1/4 (25%)\n\n2. **Probabilité AB** : 1/4 = 25%\n\n3. **Gènes liés** (à 20 cM) :\n   - Gamètes parentaux (non-recombinés) : AB et ab (40% chacun car 20 cM = 20% recombination)\n   - Gamètes recombinés : Ab et aB (10% chacun)\n   Fréquences : AB 40%, ab 40%, Ab 10%, aB 10%\n\n4. **Probabilité maladie récessive** :\n   Père AaBb, mère aabb\n   Pour qu'un enfant soit malade, il doit recevoir ab du père ET ab de la mère\n   Probabilité = (probabilité père donne ab) × (probabilité mère donne ab)\n   - Si gènes indépendants : (1/4) × 1 = 1/4 = 25%\n   - Si gènes liés comme en 3 : 40% × 1 = 40%\n   Mais la question demande probabilité pour le PROCHAIN enfant : même calcul, donc même résultat\n\n5. **Rôle de la méiose** :\n   - Ségrégation des allèles : chaque gamète reçoit un allèle de chaque gène\n   - Assortiment indépendant ou linkage selon position des gènes\n   - Crossing-over peut séparer des gènes liés\n   - Transmission des allèles mutés (a et b ici) selon les lois de Mendel modifiées par la méiose",
+    "question": "Un homme a le génotype AaBb pour deux gènes situés sur des chromosomes différents. Sa femme est aabb.\n\n1. Quels sont les génotypes possibles des gamètes produits par l'homme ? (liste complète)\n2. Quelle est la probabilité que l'homme produise un gamète AB ?\n3. Si les gènes étaient sur le même chromosome à 20 cM l'un de l'autre, quels seraient les génotypes gamétiques et leurs fréquences ?\n4. Le couple a un enfant atteint d'une maladie récessive rare. Quelle est la probabilité que leur prochain enfant soit également atteint ?\n5. Expliquez le rôle de la méiose dans la transmission de cette maladie."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Combien de divisions comporte la méiose ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "À quelle étape se produit le crossing-over ?",
+      "options": [
+        "Prophase I",
+        "Métaphase I",
+        "Anaphase I",
+        "Prophase II"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Combien de cellules filles produit une méiose ?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "8"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la formule chromosomique après méiose I ?",
+      "options": [
+        "2n",
+        "n chromosomes doubles",
+        "n chromosomes simples",
+        "4n"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle anomalie cause la trisomie 21 ?",
+      "options": [
+        "Crossing-over excessif",
+        "Non-disjonction en méiose",
+        "Mutation ponctuelle",
+        "Délétion chromosomique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Combien de combinaisons chromosomiques possibles chez l'humain (sans crossing-over) ?",
+      "options": [
+        "23",
+        "46",
+        "2^23",
+        "23^2"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quelle structure permet l'appariement des homologues en prophase I ?",
+      "options": [
+        "Centromère",
+        "Complexe synaptonémal",
+        "Fuseau achromatique",
+        "Membrane nucléaire"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "À quel stade l'ovocyte II est-il arrêté avant fécondation ?",
+      "options": [
+        "Prophase I",
+        "Métaphase I",
+        "Prophase II",
+        "Métaphase II"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quelle est la conséquence principale de la méiose ?",
+      "options": [
+        "Croissance cellulaire",
+        "Réparation tissulaire",
+        "Production de gamètes haploïdes",
+        "Multiplication des cellules somatiques"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Que mesure l'unité centimorgan (cM) ?",
+      "options": [
+        "Taille des chromosomes",
+        "Fréquence de recombination",
+        "Nombre de gènes",
+        "Taux de mutation"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "La méiose produit :",
+      "options": [
+        "2 cellules diploïdes",
+        "4 cellules diploïdes",
+        "2 cellules haploïdes",
+        "4 cellules haploïdes"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Le crossing-over se produit pendant :",
+      "options": [
+        "La prophase I",
+        "La métaphase I",
+        "L'anaphase II",
+        "La télophase II"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "La réduction chromatique se produit pendant :",
+      "options": [
+        "La prophase I",
+        "L'anaphase I",
+        "L'anaphase II",
+        "La télophase II"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Combien de divisions comprend la méiose?",
+      "options": [
+        "Une",
+        "Deux",
+        "Trois",
+        "Quatre"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quelle phase de la méiose I est la plus longue?",
+      "options": [
+        "Prophase I",
+        "Métaphase I",
+        "Anaphase I",
+        "Télophase I"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel phénomène se produit lors du pachytène?",
+      "options": [
+        "Appariement des homologues",
+        "Crossing-over",
+        "Séparation des chromatides",
+        "Cytodiérèse"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quel type de brassage résulte de l'orientation aléatoire des bivalents?",
+      "options": [
+        "Brassage intrachromosomique",
+        "Brassage interchromosomique",
+        "Brassage cytoplasmique",
+        "Brassage membranaire"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Combien de cellules filles haploïdes produit la méiose?",
+      "options": [
+        "Une",
+        "Deux",
+        "Trois",
+        "Quatre"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Quelle anomalie résulte d'une non-disjonction de la paire 21?",
+      "options": [
+        "Syndrome de Turner",
+        "Syndrome de Klinefelter",
+        "Syndrome de Down",
+        "Syndrome XYY"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Quelle est la formule chromosomique d'un spermatozoïde normal?",
+      "options": [
+        "2n=46",
+        "n=23",
+        "3n=69",
+        "4n=92"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q21",
+      "type": "mcq",
+      "prompt": "Combien de crossing-over se produisent en moyenne par paire chromosomique?",
+      "options": [
+        "0.1-0.5",
+        "1-3",
+        "5-10",
+        "10-20"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q22",
+      "type": "mcq",
+      "prompt": "Quelle phase est absente ou très courte dans l'interphase interméiotique?",
+      "options": [
+        "Phase G1",
+        "Phase S",
+        "Phase G2",
+        "Phase M"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q23",
+      "type": "mcq",
+      "prompt": "Quelle conséquence de la méiose est essentielle pour l'évolution?",
+      "options": [
+        "Uniformité génétique",
+        "Diversité génétique",
+        "Stabilité absolue",
+        "Clonage naturel"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

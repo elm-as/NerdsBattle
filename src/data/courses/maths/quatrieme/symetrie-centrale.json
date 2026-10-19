@@ -1,0 +1,45 @@
+{
+  "id": "maths-quatrieme-symetrie-centrale",
+  "title": "Symétrie centrale",
+  "summary": "Un designer de tissu pagne veut créer un motif avec un demi-tour. Comment procéder ?",
+  "lesson": "## Symétrie centrale\n\n### Définition\nDeux points A et A' sont **symétriques par rapport à O** si O est le milieu de [AA'].\n\nO est appelé le **centre de symétrie**.\n\n### Construction\nPour construire le symétrique A' d'un point A par rapport à O :\n1. Tracer la droite (AO)\n2. Prolonger de l'autre côté de O\n3. Reporter la distance OA pour trouver A'\n4. Vérifier que OA = OA'\n\n### Propriétés\nLa symétrie centrale **conserve** :\n- Les distances (longueurs)\n- Les angles\n- Les aires\n- L'alignement\n- Le parallélisme\n\n**Remarque :** L'image est obtenue par un **demi-tour** (rotation de 180°) autour de O.\n\n### Symétrie d'une figure\nPour construire le symétrique d'une figure :\n1. Construire le symétrique de chaque sommet\n2. Relier les points images\n\n**Figure à centre de symétrie :**\nUne figure possède O comme centre de symétrie si elle est identique à son image par la symétrie de centre O.\n\n**Exemples :**\n- Le parallélogramme a un centre de symétrie (intersection des diagonales)\n- Le cercle a un centre de symétrie (son centre)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "A et A' symétriques ⇔ O milieu de [AA']",
+    "Symétrie = demi-tour autour de O",
+    "Conserve distances, angles, aires",
+    "OA = OA'"
+  ],
+  "exercise": {
+    "answer": "\n**Solution :**\nO est le milieu de [AA'], donc :\nAA' = 2 × OA = 2 × 4 = 8 cm\n\n**Réponse : AA' = 8 cm**\n        ",
+    "question": "Dans une symétrie de centre O, si OA = 4 cm, quelle est la distance AA' ?"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans une symétrie centrale de centre O, O est :",
+      "options": [
+        "Sur la figure",
+        "Le milieu de [AA']",
+        "À l'extérieur",
+        "Un sommet"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Une symétrie centrale correspond à :",
+      "options": [
+        "Un glissement",
+        "Un demi-tour",
+        "Un quart de tour",
+        "Un retournement"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

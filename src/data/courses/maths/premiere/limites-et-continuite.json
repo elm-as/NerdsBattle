@@ -1,0 +1,124 @@
+{
+  "id": "maths-premiere-limites-et-continuite",
+  "title": "Limites et continuité",
+  "summary": "Pendant une séance d'informatique organisée par le club mathématiques d'un lycée de Bouaké, les élèves tracent la fonction définie par morceaux : $$f(x) = x^2$$ si $$x \\\\leq 1$$, et $$f(x) = x + 2$$ si $$x > 1$$. Ils observent un 'saut' au point d'abscisse 1 et cherchent à expliquer cette discontinuité en étudiant les limites et la continuité.",
+  "lesson": "## 1. Limite en un point\n\nIntuitivement, la limite de f en a est la valeur dont s'approche f(x) quand x s'approche de a.\nNotation : $$\\\\lim_{x \\\to a} f(x) = L$$.\n\n## 2. Limite à gauche et à droite\n\n- **Limite à gauche** : $$\\\\lim_{x \\\to a^-} f(x)$$ quand x s'approche de a par valeurs inférieures\n- **Limite à droite** : $$\\\\lim_{x \\\to a^+} f(x)$$ quand x s'approche de a par valeurs supérieures\n\n**Théorème** : $$\\\\lim_{x \\\to a} f(x)$$ existe ssi les limites à gauche et à droite existent et sont égales.\n\n## 3. Continuité en un point\n\nUne fonction f est continue en a si :\n1) f est définie en a\n2) $$\\\\lim_{x \\\to a} f(x)$$ existe\n3) $$\\\\lim_{x \\\to a} f(x) = f(a)$$\n\n**Exemple** : La fonction 'prix du taxi' à Abidjan est souvent discontinue : le prix saute à chaque kilomètre supplémentaire.\n\n## 4. Continuité sur un intervalle\n\nUne fonction est continue sur un intervalle I si elle est continue en tout point de I.\n\n## 5. Opérations sur les limites\n\nSi $$\\\\lim_{x \\\to a} f(x) = L$$ et $$\\\\lim_{x \\\to a} g(x) = M$$, alors :\n- $$\\\\lim_{x \\\to a} (f + g)(x) = L + M$$\n- $$\\\\lim_{x \\\to a} (f \\\times g)(x) = L \\\times M$$\n- Si $$M \\\neq 0$$, $$\\\\lim_{x \\\to a} (f / g)(x) = L / M$$\n\n## 6. Limites des fonctions de référence\n\n| Fonction | Limite en 0 | Limite en +∞ |\n|----------|-------------|---------------|\n| $$x \\\\mapsto c$$ (constante) | c | c |\n| $$x \\\\mapsto x$$ | 0 | +∞ |\n| $$x \\\\mapsto x^2$$ | 0 | +∞ |\n| $$x \\\\mapsto \\\\sqrt{x}$$ | 0 | +∞ |\n| $$x \\\\mapsto \\\\frac{1}{x}$$ | ∞ (pas de limite) | 0 |\n\n## 7. Continuité des fonctions usuelles\n\nLes fonctions suivantes sont continues sur leur domaine :\n- Polynômes (sur $$\\\\mathbb{R}$$)\n- Fonctions rationnelles (sauf aux pôles)\n- Racine carrée (sur $$[0, +∞[$$)\n- Valeur absolue (sur $$\\\\mathbb{R}$$)\n\n## 8. Applications concrètes\n\n**Problème de la pêche à San-Pédro** : Le rendement R(t) d'un bateau de pêche en fonction du temps t en mer est continu jusqu'à un certain seuil, puis peut présenter une discontinuité (panne mécanique, changement de zone de pêche). L'étude de la continuité permet d'optimiser le temps en mer.\n\n**Étude de la fonction de la situation** :\n$$f(x) = \\\\begin{cases} x^2 & \\\text{si } x \\\\leq 1 \\\\\\\\ x+2 & \\\text{si } x > 1 \\\\end{cases}$$\n\nEn 1 : $$\\\\lim_{x \\\to 1^-} f(x) = 1^2 = 1$$\n$$\\\\lim_{x \\\to 1^+} f(x) = 1 + 2 = 3$$\nLimites différentes → pas de limite en 1 → discontinue en 1.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "La limite à gauche s'approche par valeurs inférieures, notée $$x \\\\to a^-$$",
+    "La limite à droite s'approche par valeurs supérieures, notée $$x \\\\to a^+$$",
+    "Une fonction est continue en a si la limite en a égale f(a)",
+    "Les polynômes sont continus sur $$\\\\mathbb{R}$$",
+    "Les fonctions rationnelles sont continues sur leur domaine"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Si $$\\\\lim_{x \\\\to a^-} f(x) = 2$$ et $$\\\\lim_{x \\\\to a^+} f(x) = 4$$, alors :",
+      "options": [
+        "$$\\\\lim_{x \\\\to a} f(x) = 3$$",
+        "$$\\\\lim_{x \\\\to a} f(x) = 2$$",
+        "$$\\\\lim_{x \\\\to a} f(x) = 4$$",
+        "$$\\\\lim_{x \\\\to a} f(x)$$ n'existe pas"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle condition n'est PAS nécessaire pour la continuité en a ?",
+      "options": [
+        "f est définie en a",
+        "La limite en a existe",
+        "La limite en a égale f(a)",
+        "f est dérivable en a"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La fonction $$x \\\\mapsto \\\\frac{1}{x}$$ est continue :",
+      "options": [
+        "Sur $$\\\\mathbb{R}$$",
+        "Sur $$\\\\mathbb{R}^*$$",
+        "Sur $$[0, +\\\\infty[$$",
+        "Sur $$]-\\\\infty, 0]$$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Si f et g sont continues en a, alors f+g est :",
+      "options": [
+        "Continue en a",
+        "Discontinue en a",
+        "Continue seulement si f(a)+g(a) ≠ 0",
+        "On ne peut pas savoir"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Si lim_{x→x₀⁺} f(x) = 3 et lim_{x→x₀⁻} f(x) = 3, que vaut lim_{x→x₀} f(x) ?",
+      "options": [
+        "0",
+        "3",
+        "N'existe pas",
+        "On ne peut pas savoir"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle condition n'est pas nécessaire pour la continuité en x₀ ?",
+      "options": [
+        "f est définie en x₀",
+        "lim_{x→x₀} f(x) existe",
+        "lim_{x→x₀} f(x) = f(x₀)",
+        "f est dérivable en x₀"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "La fonction f(x) = 1/x est continue sur :",
+      "options": [
+        "ℝ",
+        "[0, +∞[",
+        "ℝ*",
+        "ℝ+"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Graphiquement, une fonction continue ne présente pas :",
+      "options": [
+        "De courbe",
+        "De maximum",
+        "De trou ou de saut",
+        "De tangente"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

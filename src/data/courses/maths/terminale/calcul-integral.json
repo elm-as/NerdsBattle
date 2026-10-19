@@ -1,0 +1,283 @@
+{
+  "id": "maths-terminale-calcul-integral",
+  "title": "Calcul intégral",
+  "summary": "Au cours d'un exposé en Histoire-Géographie sur les infrastructures routières réalisées en Chine, les élèves de terminale apprennent que le pont de Zhijinghe à Hubei est un pont en arc achevé en 2009. Pour étudier sa résistance au vent, les ingénieurs ont dû calculer l'aire de sa surface latérale. Émerveillés, les élèves décident de s'informer sur les méthodes de calcul d'aires à l'aide du calcul intégral.",
+  "lesson": "## 1. Définition intuitive et notation\n\nPour une fonction $f$ **continue et positive** sur $[a, b]$, l'**intégrale** $\\\\int_a^b f(x) \\\\, dx$ représente l'aire (en unités d'aire) du domaine délimité par la courbe de $f$, l'axe des abscisses et les droites verticales $x=a$ et $x=b$.\n\n**Extension aux fonctions de signe quelconque :** Pour $f$ continue sur $[a,b]$, l'intégrale représente l'**aire algébrique**. Les aires au-dessus de l'axe des abscisses ($f \\\\geq 0$) sont comptées positivement, celles en dessous ($f \\\\leq 0$) négativement.\n\n**Notation :** $\\\\int_a^b f(x) \\\\, dx$ se lit \"intégrale de $a$ à $b$ de $f(x) \\\\, dx$\".\n- $a$ et $b$ sont les **bornes d'intégration**.\n- $x$ est la **variable d'intégration** (muette, peut être remplacée par $t$, $u$, etc.).\n\n## 2. Lien avec les primitives : Théorème fondamental\n\n**Théorème (admis) :** Soit $f$ une fonction continue sur un intervalle $I$, et $a \\\\in I$. La fonction $F$ définie sur $I$ par $F(x) = \\\\int_a^x f(t) \\\\, dt$ est l'unique primitive de $f$ sur $I$ qui s'annule en $a$.\n\n**Conséquence pratique (Calcul d'une intégrale définie) :** Si $f$ est continue sur $[a, b]$ et si $G$ est **une** primitive de $f$ sur $[a, b]$, alors :\n$$\\\\int_a^b f(x) \\\\, dx = G(b) - G(a)$$\nOn note souvent $\\\\Big[ G(x) \\\\Big]_a^b$ ou $G(x) \\\\Big|_a^b$ pour $G(b)-G(a)$.\n\n## 3. Propriétés algébriques de l'intégrale\n\nSoient $f$ et $g$ continues sur $[a, b]$, $\\\\lambda \\\\in \\\\mathbb{R}$.\n\n1. **Linéarité :** $\\\\int_a^b (\\\\lambda f(x) + g(x)) \\\\, dx = \\\\lambda \\\\int_a^b f(x) \\\\, dx + \\\\int_a^b g(x) \\\\, dx$.\n\n2. **Relation de Chasles :** Pour tout $c \\\\in [a, b]$, $\\\\int_a^b f(x) \\\\, dx = \\\\int_a^c f(x) \\\\, dx + \\\\int_c^b f(x) \\\\, dx$.\n\n3. **Positivité :** Si $f(x) \\\\geq 0$ sur $[a, b]$, alors $\\\\int_a^b f(x) \\\\, dx \\\\geq 0$.\n\n4. **Comparaison :** Si $f(x) \\\\leq g(x)$ sur $[a, b]$, alors $\\\\int_a^b f(x) \\\\, dx \\\\leq \\\\int_a^b g(x) \\\\, dx$.\n\n5. **Valeur absolue :** $\\\\left| \\\\int_a^b f(x) \\\\, dx \\\\right| \\\\leq \\\\int_a^b |f(x)| \\\\, dx$.\n\n## 4. Techniques de calcul d'intégrales\n\n**1. Utilisation directe d'une primitive :** Le plus courant.\nEx : $\\\\int_0^1 x^2 \\\\, dx = \\\\left[ \\\\frac{x^3}{3} \\\\right]_0^1 = \\\\frac{1}{3} - 0 = \\\\frac{1}{3}$.\n\n**2. Intégration par parties (IPP) :**\nSi $u$ et $v$ sont de classe $C^1$ sur $[a,b]$, alors :\n$$\\\\int_a^b u(x) v'(x) \\\\, dx = \\\\Big[ u(x) v(x) \\\\Big]_a^b - \\\\int_a^b u'(x) v(x) \\\\, dx$$\nCette formule est utile lorsque l'intégrale de droite est plus simple.\nEx : $\\\\int_0^1 x e^x \\\\, dx$. On pose $u(x)=x$, $v'(x)=e^x$.\n\n**3. Changement de variable affine :**\nSoit $f$ continue sur $I$ et $\\\\varphi : t \\\\mapsto \\\\alpha t + \\\\beta$ une fonction affine bijective de $[c, d]$ sur $[a, b]$. Alors :\n$$\\\\int_a^b f(x) \\\\, dx = \\\\int_c^d f(\\\\varphi(t)) \\\\, \\\\varphi'(t) \\\\, dt$$\nEx : Calculer $\\\\int_0^2 (2x+1)^3 \\\\, dx$. Poser $u=2x+1$.\n\n## 5. Valeur moyenne d'une fonction\n\n**Définition :** La valeur moyenne de la fonction continue $f$ sur l'intervalle $[a, b]$ est le nombre réel :\n$$\\\\mu = \\\\frac{1}{b-a} \\\\int_a^b f(x) \\\\, dx$$\n\n**Interprétation géométrique :** C'est la hauteur du rectangle de base $[a, b]$ qui a la même aire que l'aire sous la courbe de $f$ entre $a$ et $b$.\n\n```mathgraph\n{\n  \"type\": \"function\",\n  \"title\": \"Valeur moyenne μ d'une fonction\",\n  \"xRange\": [0, 5],\n  \"yRange\": [0, 4],\n  \"functions\": [\n    { \"expression\": \"sin(x)+2\", \"color\": \"#8884d8\", \"name\": \"f(x)\", \"fill\": \"tozeroy\" }\n  ],\n  \"showGrid\": true,\n  \"showAxes\": true,\n  \"constant\": { \"value\": 2.3, \"color\": \"#ff7300\", \"name\": \"μ\", \"lineStyle\": \"dashed\" },\n  \"area\": { \"xStart\": 0, \"xEnd\": 5, \"yStart\": 0, \"yEnd\": 2.3, \"color\": \"rgba(255, 115, 0, 0.2)\" }\n}\n```\n\n## 6. Inégalité de la moyenne\n\n**Théorème :** Soit $f$ continue sur $[a, b]$. S'il existe $m, M \\\\in \\\\mathbb{R}$ tels que $m \\\\leq f(x) \\\\leq M$ pour tout $x \\\\in [a,b]$, alors :\n$$m(b-a) \\\\leq \\\\int_a^b f(x) \\\\, dx \\\\leq M(b-a)$$\n\n**Deuxième forme :** Si $|f(x)| \\\\leq M$ sur $[a,b]$, alors $\\\\left| \\\\int_a^b f(x) \\\\, dx \\\\right| \\\\leq M(b-a)$.\n\n## 7. Calcul d'aires planes\n\n**Aire entre la courbe et l'axe des abscisses :** Pour $f$ continue sur $[a,b]$, l'aire **géométrique** (toujours positive) est :\n$$\\\\mathcal{A} = \\\\int_a^b |f(x)| \\\\, dx$$\nEn pratique, on détermine les intervalles où $f$ est positive/négative et on utilise la relation de Chasles.\n\n**Aire entre deux courbes :** Si $f$ et $g$ sont continues avec $f(x) \\\\geq g(x)$ sur $[a,b]$, l'aire entre les courbes est :\n$$\\\\mathcal{A} = \\\\int_a^b (f(x) - g(x)) \\\\, dx$$\n\n## 8. Exemple contextuel ivoirien\n\nUn architecte souhaite calculer la surface vitrée d'une baie de forme incurvée dans un nouveau bâtiment à Yamoussoukro. La forme de la baie est modélisée par la région du plan comprise entre la courbe de la fonction $f(x)=4 - x^2$ et l'axe des abscisses, pour $x$ entre $-1$ et $2$.\n1. Faire un schéma et calculer l'aire de cette surface vitrée.\n2. Calculer la hauteur moyenne de la baie sur l'intervalle $[-1, 2]$.\n\n**Résolution :**\n1. **Calcul de l'aire :** La fonction $f(x)=4-x^2$ est positive sur $[-1,2]$ ? Il faut vérifier.\n   Racines : $4-x^2=0 \\\\iff x= -2$ ou $x=2$. Sur $[-1,2]$, $f(x) \\\\geq 0$ car $x^2 \\\\leq 4$.\n   L'aire est donc $\\\\mathcal{A} = \\\\int_{-1}^{2} (4-x^2) \\\\, dx$.\n   Une primitive : $G(x)=4x - \\\\frac{x^3}{3}$.\n   $\\\\mathcal{A} = \\\\left[4x - \\\\frac{x^3}{3}\\\\right]_{-1}^{2} = (8 - \\\\frac{8}{3}) - (-4 - \\\\frac{-1}{3}) = (\\\\frac{24-8}{3}) - (-4 + \\\\frac{1}{3}) = \\\\frac{16}{3} - (\\\\frac{-12+1}{3}) = \\\\frac{16}{3} - \\\\frac{-11}{3} = \\\\frac{16+11}{3} = \\\\frac{27}{3} = 9$.\n   L'aire de la surface vitrée est de **9 unités d'aire**. Si l'unité est le mètre, c'est 9 m².\n\n2. **Hauteur moyenne :** C'est la valeur moyenne de $f$ sur $[-1,2]$.\n   $\\\\mu = \\\\frac{1}{2 - (-1)} \\\\int_{-1}^{2} (4-x^2) \\\\, dx = \\\\frac{1}{3} \\\\times 9 = 3$.\n   La hauteur moyenne de la baie est de **3 unités** (par exemple, 3 mètres).",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "L'intégrale $\\\\int_a^b f(x) dx$ d'une fonction continue positive représente l'aire sous la courbe entre $a$ et $b$. Pour une fonction de signe quelconque, c'est l'aire algébrique.",
+    "Théorème fondamental : Si $F$ est une primitive de $f$ sur $[a,b]$, alors $\\\\int_a^b f(x) dx = F(b) - F(a)$.",
+    "Propriétés clés : Linéarité, relation de Chasles (découpage de l'intervalle), positivité (si $f\\\\geq0$, l'intégrale est $\\\\geq0$).",
+    "Intégration par parties : $\\\\int_a^b u v' = [uv]_a^b - \\\\int_a^b u' v$. Choix judicieux de $u$ et $v'$.",
+    "Changement de variable affine : $\\\\int_a^b f(x) dx = \\\\int_c^d f(\\\\varphi(t)) \\\\varphi'(t) dt$ avec $x=\\\\varphi(t)$ affine et bijective.",
+    "Valeur moyenne : $\\\\mu = \\\\frac{1}{b-a}\\\\int_a^b f(x) dx$. C'est la hauteur constante qui donne la même aire.",
+    "Calcul d'aire : Aire entre courbe et axe Ox = $\\\\int |f(x)| dx$; aire entre deux courbes = $\\\\int (f(x)-g(x)) dx$ si $f\\\\geq g$.",
+    "Inégalité de la moyenne : Si $m \\\\leq f(x) \\\\leq M$ sur $[a,b]$, alors $m(b-a) \\\\leq \\\\int_a^b f \\\\leq M(b-a)$. Utile pour encadrer."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "$\\\\int_1^2 3 \\\\, dx$ est égal à :",
+      "options": [
+        "0",
+        "3",
+        "6",
+        "9"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Si $F$ est une primitive de $f$, alors $\\\\int_a^b f(x) dx =$",
+      "options": [
+        "$F(b) - F(a)$",
+        "$F(a) - F(b)$",
+        "$F(b) + F(a)$",
+        "$F(x)$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La relation de Chasles pour l'intégrale s'écrit :",
+      "options": [
+        "$\\\\int_a^b f = \\\\int_a^c f + \\\\int_c^b f$",
+        "$\\\\int_a^b f = \\\\int_a^c f - \\\\int_c^b f$",
+        "$\\\\int_a^b f = \\\\int_c^a f + \\\\int_c^b f$",
+        "$\\\\int_a^b f = \\\\int_a^c f \\\\times \\\\int_c^b f$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Pour calculer $\\\\int_0^1 x e^x dx$, la méthode la plus appropriée est :",
+      "options": [
+        "Changement de variable",
+        "Intégration par parties",
+        "Utilisation directe d'une primitive",
+        "Linéarisation"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "La valeur moyenne de $f(x)=x^2$ sur $[0,2]$ est :",
+      "options": [
+        "$\\\\frac{2}{3}$",
+        "$\\\\frac{4}{3}$",
+        "$\\\\frac{8}{3}$",
+        "2"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Si $f(x) \\\\geq 0$ sur $[a,b]$, alors $\\\\int_a^b f(x) dx$ est :",
+      "options": [
+        "Négatif",
+        "Nul",
+        "Positif ou nul",
+        "Toujours strictement positif"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "L'aire (géométrique) délimitée par la courbe de $f$, l'axe Ox, et les droites $x=a$, $x=b$ est :",
+      "options": [
+        "$\\\\int_a^b f(x) dx$",
+        "$\\\\left| \\\\int_a^b f(x) dx \\\\right|$",
+        "$\\\\int_a^b |f(x)| dx$",
+        "$\\\\frac{1}{b-a}\\\\int_a^b f(x) dx$"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Pour $f$ continue sur $[a,b]$, si $m \\\\leq f(x) \\\\leq M$, alors :",
+      "options": [
+        "$m \\\\leq \\\\int_a^b f \\\\leq M$",
+        "$m(b-a) \\\\leq \\\\int_a^b f \\\\leq M(b-a)$",
+        "$\\\\frac{m}{b-a} \\\\leq \\\\int_a^b f \\\\leq \\\\frac{M}{b-a}$",
+        "$m \\\\leq \\\\frac{1}{b-a}\\\\int_a^b f \\\\leq M$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Une primitive de $\\\\frac{1}{x}$ sur $]0,+\\\\infty[$ est :",
+      "options": [
+        "$x^2$",
+        "$\\\\ln x$",
+        "$e^x$",
+        "$\\\\frac{1}{x^2}$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "$\\\\int_0^{\\\\pi} \\\\sin x \\\\, dx =$",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "$\\\\pi$"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "$\\\\int_0^1 3x^2 \\\\, dx$ est égal à :",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Si $f\\\\geq0$ sur $[a,b]$, alors $\\\\int_a^b f(x)dx$ représente :",
+      "options": [
+        "Une longueur",
+        "Une aire",
+        "Un volume",
+        "Une pente"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "La relation de Chasles s'écrit :",
+      "options": [
+        "$\\\\int_a^b f = \\\\int_a^c f + \\\\int_c^b f$",
+        "$\\\\int_a^b f = \\\\int_b^a f$",
+        "$\\\\int_a^b (f+g) = \\\\int_a^b f + \\\\int_a^b g$",
+        "$\\\\int_a^b kf = k\\\\int_a^b f$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Pour calculer $\\\\int x\\\\cos x \\\\, dx$, on utilise :",
+      "options": [
+        "Changement de variable",
+        "Intégration par parties",
+        "Décomposition en éléments simples",
+        "Linéarisation"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "La valeur moyenne de $f$ sur $[a,b]$ est :",
+      "options": [
+        "$\\\\frac{f(a)+f(b)}{2}$",
+        "$\\\\frac{1}{b-a}\\\\int_a^b f(x)dx$",
+        "$\\\\int_a^b f(x)dx$",
+        "$f\\\\left(\\\\frac{a+b}{2}\\\\right)$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Si $F(x)=\\\\int_0^x \\\\sin(t)dt$, alors $F'(x)$ =",
+      "options": [
+        "$\\\\cos x$",
+        "$\\\\sin x$",
+        "$-\\\\cos x$",
+        "$-\\\\sin x$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "L'aire entre $y=x^2$ et $y=x$ sur $[0,1]$ vaut :",
+      "options": [
+        "1/2",
+        "1/3",
+        "1/6",
+        "1/12"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "L'inégalité de la moyenne dit que si $m\\\\leq f(x)\\\\leq M$, alors :",
+      "options": [
+        "$m\\\\leq\\\\int_a^b f\\\\leq M$",
+        "$m(b-a)\\\\leq\\\\int_a^b f\\\\leq M(b-a)$",
+        "$\\\\frac{m}{b-a}\\\\leq\\\\int_a^b f\\\\leq\\\\frac{M}{b-a}$",
+        "$m^2\\\\leq\\\\int_a^b f\\\\leq M^2$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "$\\\\int_{-1}^1 x^3 \\\\, dx$ =",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "1/2"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Pour $f$ continue sur $[a,b]$, $\\\\int_a^b f(x)dx = F(b)-F(a)$ où $F$ est :",
+      "options": [
+        "La dérivée de $f$",
+        "Une primitive de $f$",
+        "L'inverse de $f$",
+        "La moyenne de $f$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

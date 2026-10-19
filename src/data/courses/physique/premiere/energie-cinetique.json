@@ -1,0 +1,383 @@
+{
+  "id": "physique-premiere-energie-cinetique",
+  "title": "Énergie cinétique",
+  "summary": "À Toumodi, deux élèves en taxi remarquent que certains véhicules les dépassent. L'un affirme que ces véhicules ont une énergie cinétique plus grande. Pour comprendre, ils décident d'étudier en classe l'énergie cinétique et ses applications.",
+  "lesson": "## 1. Introduction\n\nL'**énergie cinétique** est l'énergie que possède un corps du fait de son mouvement. En Côte d'Ivoire, ce concept est crucial pour la sécurité routière (vitesse des véhicules à Abidjan), le transport des marchandises (camions à Bouaké) et les sports (football à Yamoussoukro).\n\n## 2. Définition de l'énergie cinétique\n\nDans un référentiel galiléen, l'énergie cinétique $E_c$ d'un solide de masse $m$ en mouvement de translation à la vitesse $v$ est :\n$$E_c = \\\\frac{1}{2} m v^2$$\n\nCette énergie est toujours positive ou nulle.\n\n## 3. Unité de l'énergie cinétique\n\nComme toute énergie, l'unité SI est le **joule (J)**.\n1 J = 1 kg·m²/s².\n\n## 4. Cas du mouvement de translation\n\nPour un solide en mouvement de translation, tous ses points ont la même vitesse instantanée. L'énergie cinétique se calcule alors simplement avec la vitesse du centre d'inertie.\n\n**Description du schéma 1:** Représenter un solide en mouvement de translation. Montrer que tous les points (A, B, C) ont des vecteurs vitesse identiques (même direction, même sens, même longueur). Indiquer la vitesse v et la masse m du solide.\n![Gemini_Generated_Image_r36i03r36i03r36i.png](https://djkkotmcvzfncdpgbwvx.supabase.co/storage/v1/object/public/lesson-images/lessons/premiere-a1/physique-chimie/1766265580209-4dhdrm.png)\n\n\n## 5. Théorème de l'énergie cinétique\n\nDans un référentiel galiléen, la variation d'énergie cinétique d'un solide entre deux positions A et B est égale à la somme des travaux des forces extérieures appliquées au solide :\n$$\\\\Delta E_c = E_{cB} - E_{cA} = \\\\sum W_{A \\\to B}(\\\\vec{F}_{ext})$$\n\nCe théorème est très utile pour résoudre des problèmes de mécanique sans connaître la trajectoire détaillée.\n\n## 6. Applications du théorème\n\n**Cas particulier :** Si la somme des travaux est nulle, l'énergie cinétique se conserve.\n\n**Exemple :** Chute libre (négligeant les frottements) : seule le poids travaille, et son travail se transforme intégralement en énergie cinétique.\n\n**Description du schéma 2:** Schéma d'une chute libre. Montrer un corps à deux hauteurs différentes h1 et h2, avec les vitesses v1 et v2. Illustrer la conservation de l'énergie mécanique : Ep1 + Ec1 = Ep2 + Ec2.\n![Gemini_Generated_Image_vi8bzcvi8bzcvi8b.png](https://djkkotmcvzfncdpgbwvx.supabase.co/storage/v1/object/public/lesson-images/lessons/premiere-a1/physique-chimie/1766265750708-jhp8qb.png)\n\n\n## 7. Calculs pratiques\n\n**Ordres de grandeur :**\n- Piéton (70 kg, 5 km/h ≈ 1,4 m/s) : $E_c \\\\approx 68$ J\n- Voiture (1000 kg, 50 km/h ≈ 13,9 m/s) : $E_c \\\\approx 96\\\\,000$ J\n- Camion (20 tonnes, 80 km/h ≈ 22,2 m/s) : $E_c \\\\approx 4,9$ MJ\n\n## 8. Sécurité routière en Côte d'Ivoire\n\nL'énergie cinétique explique pourquoi :\n1. Les accidents sont plus graves à vitesse élevée (E_c ∝ v²)\n2. Les poids lourds sont plus dangereux (E_c ∝ m)\n3. Il faut respecter les limites de vitesse, surtout à Abidjan où la circulation est dense\n\n**Description du schéma 3:** Graphique montrant l'énergie cinétique en fonction de la vitesse pour deux masses différentes (voiture et camion). Montrer la croissance quadratique (courbe parabolique). Axes : vitesse (abscisse), énergie cinétique (ordonnée).",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "L'énergie cinétique est proportionnelle à la masse et au carré de la vitesse",
+    "Le théorème de l'énergie cinétique relie variation d'énergie et travail des forces",
+    "L'énergie cinétique explique la dangerosité des véhicules à grande vitesse",
+    "Ce concept est fondamental pour la sécurité routière et la conception des véhicules"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "L'énergie cinétique d'un corps dépend de :",
+      "options": [
+        "Sa masse seulement",
+        "Sa vitesse seulement",
+        "Sa masse et sa vitesse",
+        "Sa température"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Si la vitesse d'une voiture double, son énergie cinétique :",
+      "options": [
+        "Double",
+        "Quadruple",
+        "Reste la même",
+        "Est divisée par 2"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "L'unité de l'énergie cinétique est :",
+      "options": [
+        "Watt",
+        "Joule",
+        "Newton",
+        "Mètre/seconde"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Le théorème de l'énergie cinétique s'écrit :",
+      "options": [
+        "ΔEc = ΣW",
+        "Ec = mgh",
+        "P = F×v",
+        "W = F×d"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Un camion de 10 tonnes à 36 km/h a une énergie cinétique d'environ : (arrondi)",
+      "options": [
+        "50 kJ",
+        "500 kJ",
+        "5 MJ",
+        "50 MJ"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Dans une chute libre sans frottement :",
+      "options": [
+        "Ec se conserve",
+        "Ec diminue",
+        "Ec augmente",
+        "Ec est nulle"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Si la somme des travaux des forces est nulle :",
+      "options": [
+        "La vitesse est nulle",
+        "L'énergie cinétique est constante",
+        "La masse change",
+        "L'accélération est nulle"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Pour un même véhicule, freiner de 100 à 0 km/h nécessite :",
+      "options": [
+        "Moins d'énergie que de 50 à 0 km/h",
+        "La même énergie que de 50 à 0 km/h",
+        "Plus d'énergie que de 50 à 0 km/h",
+        "Impossible à comparer"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "L'énergie cinétique est toujours :",
+      "options": [
+        "Positive",
+        "Négative",
+        "Nulle",
+        "Variable en signe"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "La relation entre énergie cinétique et sécurité routière montre que :",
+      "options": [
+        "La masse n'a pas d'importance",
+        "La vitesse est le facteur dominant",
+        "Seul le freinage compte",
+        "Les pneus sont l'élément crucial"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "L'énergie cinétique d'un solide en translation dépend :",
+      "options": [
+        "Uniquement de sa masse",
+        "Uniquement de sa vitesse",
+        "De sa masse et de sa vitesse",
+        "De sa position"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "L'énergie cinétique d'un objet de masse m et vitesse v est :",
+      "options": [
+        "mv",
+        "½mv",
+        "mv²",
+        "½mv²"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Pour une sphère pleine en rotation, J = :",
+      "options": [
+        "mR²",
+        "½mR²",
+        "⅖mR²",
+        "⅔mR²"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Un camion de 10 t à 36 km/h a une énergie cinétique de :",
+      "options": [
+        "50 kJ",
+        "500 kJ",
+        "5 MJ",
+        "50 MJ"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Dans un mouvement de roulement sans glissement :",
+      "options": [
+        "v = ω/R",
+        "v = Rω",
+        "v = ω",
+        "v = R/ω"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Si ΣW > 0, alors ΔEc est :",
+      "options": [
+        "Négative",
+        "Positive",
+        "Nulle",
+        "Variable"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "L'énergie cinétique de rotation dépend de :",
+      "options": [
+        "La masse seulement",
+        "La vitesse angulaire seulement",
+        "Le moment d'inertie et ω",
+        "La vitesse linéaire"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Pour un anneau circulaire, le moment d'inertie est :",
+      "options": [
+        "½mR²",
+        "mR²",
+        "⅖mR²",
+        "⅓mR²"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Quelle est l'expression correcte de l'énergie cinétique d'un solide de masse m et de vitesse v ?",
+      "options": [
+        "$E_c = mv^2$",
+        "$E_c = \\\\frac{1}{2}mv^2$",
+        "$E_c = mv$",
+        "$E_c = \\\\frac{1}{2}mv$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Un véhicule double sa vitesse. Son énergie cinétique est multipliée par :",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q21",
+      "type": "mcq",
+      "prompt": "Le théorème de l'énergie cinétique s'énonce :",
+      "options": [
+        "$\\\\Delta E_c = \\\\sum P(\\\\vec{F})$",
+        "$\\\\Delta E_c = \\\\sum W(\\\\vec{F})$",
+        "$E_c = \\\\sum W(\\\\vec{F})$",
+        "$\\\\Delta E_c = \\\\sum F \\\\times d$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q22",
+      "type": "mcq",
+      "prompt": "Une voiture de 1200 kg roule à 108 km/h. Son énergie cinétique est d'environ :",
+      "options": [
+        "180 kJ",
+        "540 kJ",
+        "1080 kJ",
+        "2160 kJ"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q23",
+      "type": "mcq",
+      "prompt": "Si le travail total des forces est négatif, l'énergie cinétique :",
+      "options": [
+        "Augmente",
+        "Diminue",
+        "Reste constante",
+        "Devient négative"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q24",
+      "type": "mcq",
+      "prompt": "Pour un solide en chute libre sans frottement, quelle relation lie la vitesse et la hauteur de chute ?",
+      "options": [
+        "$v = gh$",
+        "$v = \\\\sqrt{2gh}$",
+        "$v = 2gh$",
+        "$v = \\\\sqrt{gh}$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q25",
+      "type": "mcq",
+      "prompt": "L'énergie cinétique est une grandeur :",
+      "options": [
+        "Vectorielle",
+        "Scalaire toujours positive",
+        "Scalaire pouvant être négative",
+        "Tensorielle"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q26",
+      "type": "mcq",
+      "prompt": "Dans le contexte ivoirien, l'étude de l'énergie cinétique est cruciale pour :",
+      "options": [
+        "Améliorer la sécurité routière",
+        "Augmenter la production de cacao",
+        "Réduire les impôts",
+        "Contrôler les prix du pétrole"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q27",
+      "type": "mcq",
+      "prompt": "Un camion a une énergie cinétique de 2 MJ à 72 km/h. Quelle serait son énergie cinétique à 144 km/h ?",
+      "options": [
+        "4 MJ",
+        "8 MJ",
+        "16 MJ",
+        "32 MJ"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q28",
+      "type": "mcq",
+      "prompt": "L'unité du joule peut s'exprimer en :",
+      "options": [
+        "$kg \\\\cdot m/s$",
+        "$kg \\\\cdot m^2/s^2$",
+        "$N/s$",
+        "$W \\\\cdot s^2$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

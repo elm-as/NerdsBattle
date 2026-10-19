@@ -1,0 +1,123 @@
+{
+  "id": "histoire-sixieme-la-cote-d-ivoire-localisation-et-relief",
+  "title": "La Côte d'Ivoire : localisation et relief",
+  "summary": "Kofi veut expliquer à son correspondant français où se trouve la Côte d'Ivoire et comment est le paysage.",
+  "lesson": "## Localisation de la Côte d'Ivoire\n\n### Position géographique\n\nLa Côte d'Ivoire est située en **Afrique de l'Ouest**.\n\n**Coordonnées :**\n- Entre 4° et 10° de latitude Nord\n- Entre 2° et 8° de longitude Ouest\n\n### Les frontières\n\n**Pays voisins :**\n- **Au Nord :** Mali et Burkina Faso\n- **À l'Ouest :** Guinée et Liberia\n- **À l'Est :** Ghana\n- **Au Sud :** Océan Atlantique (Golfe de Guinée)\n\n**Longueur du littoral :** environ 520 km\n\n### Le relief de la Côte d'Ivoire\n\n**1. La zone côtière (Sud)**\n- Plages de sable\n- Lagunes (Ébrié, Aby, Grand-Lahou)\n- Altitude : 0 à 200 m\n\n**2. La zone forestière (Centre-Sud)**\n- Forêt tropicale dense\n- Altitude : 200 à 500 m\n- Climat humide\n\n**3. Les savanes (Centre et Nord)**\n- Savanes arborées et herbeuses\n- Altitude : 300 à 500 m\n- Climat plus sec\n\n**4. Les montagnes de l'Ouest**\n- **Mont Nimba** : 1 752 m (point culminant)\n- Région de Man\n- Climat frais et humide\n\n### Les grandes villes\n\n- **Abidjan** : capitale économique (Sud)\n- **Yamoussoukro** : capitale politique (Centre)\n- **Bouaké** : 2ème ville (Centre)\n- **San-Pédro** : grand port (Sud-Ouest)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Côte d'Ivoire = Afrique de l'Ouest",
+    "Voisins : Mali, Burkina, Ghana, Guinée, Liberia",
+    "4 grandes zones : côte, forêt, savane, montagnes",
+    "Mont Nimba = point culminant (1752 m)"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Dans quelle partie de l'Afrique se trouve la Côte d'Ivoire ?",
+      "options": [
+        "Afrique du Nord",
+        "Afrique de l'Est",
+        "Afrique de l'Ouest",
+        "Afrique Centrale"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Quel est le point culminant de la Côte d'Ivoire ?",
+      "options": [
+        "Mont Tonkoui",
+        "Mont Nimba",
+        "Mont Sangbé",
+        "Mont Mafa"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Quelle ville est la capitale politique ?",
+      "options": [
+        "Abidjan",
+        "Bouaké",
+        "Yamoussoukro",
+        "San-Pédro"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-histoire-1-mvadbmdz",
+      "type": "mcq",
+      "prompt": "Selon les données géographiques officielles, quelle est la longueur approximative du littoral de la Côte d'Ivoire ?",
+      "options": [
+        "Environ 350 km",
+        "Environ 520 km",
+        "Environ 780 km",
+        "Environ 1 000 km"
+      ],
+      "answer": 1,
+      "explanation": "L'extrait du cours précise explicitement que la longueur du littoral est d'environ 520 km. Les autres options sont des valeurs plausibles mais incorrectes pour ce territoire."
+    },
+    {
+      "id": "auto-histoire-2-mvadbme0",
+      "type": "mcq",
+      "prompt": "Quels sont les deux pays qui bordent la Côte d'Ivoire au Nord ?",
+      "options": [
+        "Le Ghana et le Liberia",
+        "Le Mali et le Burkina Faso",
+        "La Guinée et le Sénégal",
+        "Le Togo et le Bénin"
+      ],
+      "answer": 1,
+      "explanation": "Le cours indique clairement que les pays voisins au Nord sont le Mali et le Burkina Faso. Le Ghana est à l'Est, la Guinée et le Liberia à l'Ouest."
+    },
+    {
+      "id": "auto-histoire-3-mvadbme0",
+      "type": "mcq",
+      "prompt": "Dans quelle zone du relief ivoirien se situe le Mont Nimba, point culminant du pays ?",
+      "options": [
+        "Dans la zone côtière du Sud",
+        "Dans les savanes du Centre et du Nord",
+        "Dans les montagnes de l'Ouest",
+        "Dans la zone forestière du Centre-Sud"
+      ],
+      "answer": 2,
+      "explanation": "Le texte classe le Mont Nimba (1 752 m) spécifiquement dans la catégorie des 'montagnes de l'Ouest', distincte des zones côtières, forestières ou des savanes."
+    },
+    {
+      "id": "auto-histoire-4-mvadbme0",
+      "type": "mcq",
+      "prompt": "Quelle est l'altitude maximale caractéristique de la zone forestière (Centre-Sud) de la Côte d'Ivoire ?",
+      "options": [
+        "200 m",
+        "500 m",
+        "1 000 m",
+        "1 752 m"
+      ],
+      "answer": 1,
+      "explanation": "Le cours stipule que l'altitude de la zone forestière varie entre 200 et 500 m. L'option 500 m correspond donc à la borne supérieure de cette zone, tandis que 1 752 m est l'altitude du point culminant national."
+    },
+    {
+      "id": "auto-histoire-5-mvadbme0",
+      "type": "mcq",
+      "prompt": "Quel océan borde la Côte d'Ivoire au Sud, via le Golfe de Guinée ?",
+      "options": [
+        "L'océan Indien",
+        "L'océan Pacifique",
+        "L'océan Atlantique",
+        "L'océan Arctique"
+      ],
+      "answer": 2,
+      "explanation": "La section 'Les frontières' du cours indique explicitement qu'au Sud, la Côte d'Ivoire est bordée par l'Océan Atlantique (Golfe de Guinée)."
+    }
+  ]
+}

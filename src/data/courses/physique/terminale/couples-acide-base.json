@@ -1,0 +1,31 @@
+{
+  "id": "physique-terminale-couples-acide-base",
+  "title": "Couples acide/base",
+  "summary": "Prévoir les réactions ?",
+  "lesson": "## Couple\nHA/A⁻\n\n## Prévision\nRéaction si ΔpKa > 3\n\n## Prédominance\npH < pKa : HA\npH > pKa : A⁻",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Couple HA/A⁻",
+    "ΔpKa > 3",
+    "pH = pKa : [HA] = [A⁻]"
+  ],
+  "exercise": {
+    "question": "CH₃COOH (4,8) + NH₃ (9,2). Réaction ?",
+    "answer": "Oui, ΔpKa = 4,4"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "pH < pKa ?",
+      "options": [
+        "A⁻",
+        "HA",
+        "[HA]=[A⁻]",
+        "Aucune"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

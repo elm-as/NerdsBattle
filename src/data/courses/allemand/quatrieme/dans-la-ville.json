@@ -1,0 +1,188 @@
+{
+  "id": "allemand-quatrieme-dans-la-ville",
+  "title": "Dans la ville",
+  "summary": "Comment te repérer et donner des directions en ville ?",
+  "lesson": "## Dans la ville (In der Stadt)\n\n### Les lieux de la ville\n\n**Lieux importants :**\n- **die Stadt** - la ville\n- **das Stadtzentrum** - le centre-ville\n- **der Markt** - le marché\n- **das Geschäft** / **der Laden** - le magasin\n- **das Kaufhaus** - le grand magasin\n- **der Supermarkt** - le supermarché\n- **die Bank** - la banque\n- **die Post** - la poste\n- **das Krankenhaus** - l'hôpital\n- **die Apotheke** - la pharmacie\n- **das Restaurant** - le restaurant\n- **das Café** - le café\n- **das Kino** - le cinéma\n- **das Hotel** - l'hôtel\n- **der Park** - le parc\n- **das Museum** - le musée\n- **die Kirche** - l'église\n- **die Moschee** - la mosquée\n- **der Bahnhof** - la gare\n- **die Bushaltestelle** - l'arrêt de bus\n\n### Demander son chemin\n\n**Questions utiles :**\n- **Wo ist...?** (Où est... ?)\n- **Wie komme ich zu...?** (Comment vais-je à... ?)\n- **Entschuldigung, wo ist der Markt?** (Excusez-moi, où est le marché ?)\n- **Gibt es hier einen Supermarkt?** (Y a-t-il un supermarché ici ?)\n\n### Indiquer le chemin\n\n**Directions :**\n- **geradeaus** - tout droit\n- **links** - à gauche\n- **rechts** - à droite\n- **hier** - ici\n- **dort** - là-bas\n\n**Verbes de direction :**\n- **Gehen Sie...** (Allez...)\n- **Nehmen Sie...** (Prenez...)\n- **Biegen Sie ab** (Tournez)\n\n**Phrases complètes :**\n- Gehen Sie **geradeaus**. (Allez tout droit)\n- Biegen Sie **links** ab. (Tournez à gauche)\n- Biegen Sie **rechts** ab. (Tournez à droite)\n- Es ist **hier**. (C'est ici)\n- Es ist **dort** drüben. (C'est là-bas)\n\n### Prépositions de lieu\n\n- **in** - dans / à\n- **an** - à (près de)\n- **auf** - sur\n- **neben** - à côté de\n- **vor** - devant\n- **hinter** - derrière\n- **zwischen** - entre\n- **gegenüber** - en face de\n\n**Exemples :**\n- Der Markt ist **neben** der Bank. (Le marché est à côté de la banque)\n- Das Kino ist **gegenüber** dem Restaurant. (Le cinéma est en face du restaurant)\n- Der Park ist **hinter** der Schule. (Le parc est derrière l'école)\n\n### Lieux d'Abidjan\n\n**Quartiers et lieux connus :**\n- **Plateau** - le quartier d'affaires\n- **Cocody** - quartier résidentiel\n- **Yopougon** - grand quartier populaire\n- **Treichville** - centre commercial\n- **Adjamé** - grand marché\n\n### Exemple complet\n\n**Dialogue :**\n- **Tourist:** Entschuldigung, wo ist der Markt von Adjamé?\n- **Person:** Gehen Sie geradeaus bis zur Bushaltestelle. Dann biegen Sie links ab. Der Markt ist dort, neben der Post.\n- **Tourist:** Vielen Dank!\n- **Person:** Gern geschehen!\n\n**Traduction :**\n- Touriste : Excusez-moi, où est le marché d'Adjamé ?\n- Personne : Allez tout droit jusqu'à l'arrêt de bus. Puis tournez à gauche. Le marché est là, à côté de la poste.\n- Touriste : Merci beaucoup !\n- Personne : De rien !",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Wo ist...? = Où est... ?",
+    "geradeaus, links, rechts",
+    "neben, vor, hinter = prépositions",
+    "Gehen Sie... = Allez..."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 0,
+      "prompt": "Comment demander 'Où est le marché ?' ?",
+      "options": [
+        "\"Wo ist der Markt?\"",
+        "Wie ist der Markt?",
+        "Was ist der Markt?",
+        "Wer ist der Markt?"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 3,
+      "prompt": "Que signifie 'geradeaus' ?",
+      "options": [
+        "à gauche",
+        "à droite",
+        "derrière",
+        "\"tout droit\""
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Comment dire 'à côté de' ?",
+      "options": [
+        "vor",
+        "\"neben\"",
+        "hinter",
+        "zwischen"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-allemand-1-mv9dogor",
+      "type": "mcq",
+      "answer": 0,
+      "prompt": "Quel est le terme allemand pour désigner \"la pharmacie\" ?",
+      "options": [
+        "die Apotheke",
+        "das Apotheke",
+        "der Apotheke",
+        "die Apothek"
+      ],
+      "explanation": "Le mot \"pharmacie\" se traduit par \"die Apotheke\" (genre féminin)."
+    },
+    {
+      "id": "auto-allemand-2-mv9dogos",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Comment dit‑on en allemand \"Tournez à gauche au prochain carrefour\" ?",
+      "options": [
+        "Gehen Sie geradeaus",
+        "Biegen Sie rechts ab",
+        "Biegen Sie links ab",
+        "Gehen Sie zurück"
+      ],
+      "explanation": "Le verbe \"biegen\" + \"ab\" indique un virage ; \"links\" précise la direction : \"Biegen Sie links ab\"."
+    },
+    {
+      "id": "auto-allemand-3-mv9dogot",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Quel article défini accompagne correctement le nom \"das Museum\" ?",
+      "options": [
+        "der",
+        "die",
+        "das",
+        "den"
+      ],
+      "explanation": "\"Museum\" est neutre, l'article défini est donc \"das\"."
+    },
+    {
+      "id": "auto-allemand-4-mv9dogot",
+      "type": "mcq",
+      "answer": 0,
+      "prompt": "Dans la phrase \"Entschuldigung, wo ist das Krankenhaus?\", quel cas grammatical porte le nom \"Krankenhaus\" ?",
+      "options": [
+        "Nominatif",
+        "Accusatif",
+        "Datif",
+        "Génitif"
+      ],
+      "explanation": "Le verbe \"sein\" (être) requiert le nominatif pour le sujet et le complément de lieu. \"das Krankenhaus\" est donc au nominatif."
+    },
+    {
+      "id": "auto-allemand-5-mv9dogot",
+      "type": "mcq",
+      "answer": 0,
+      "prompt": "Complétez correctement : \"Ich gehe ___ die Bank.\"",
+      "options": [
+        "zu",
+        "nach",
+        "auf",
+        "in"
+      ],
+      "explanation": "Pour indiquer la destination d'un déplacement vers un lieu, on utilise la préposition \"zu\" avec le datif : \"Ich gehe zu der Bank\" (ou \"zur Bank\")."
+    },
+    {
+      "id": "auto-allemand-1-mva7q3wh",
+      "type": "mcq",
+      "prompt": "Quelle est la traduction correcte de la phrase allemande \"Gibt es hier einen Supermarkt?\" ?",
+      "options": [
+        "Y a-t-il un supermarché ici ?",
+        "Où est le supermarché ?",
+        "Le supermarché est-il ouvert ?",
+        "Comment aller au supermarché ?"
+      ],
+      "answer": 0,
+      "explanation": "La structure 'Gibt es...?' (Y a-t-il... ?) est utilisée pour demander l'existence d'un lieu ou d'un objet. 'hier' signifie 'ici' et 'einen Supermarkt' est l'accusatif de 'der Supermarkt'. La phrase demande donc s'il existe un supermarché à cet endroit précis."
+    },
+    {
+      "id": "auto-allemand-2-mva7q3wh",
+      "type": "mcq",
+      "prompt": "Dans le contexte de l'orientation en ville, quelle est la différence sémantique principale entre les termes 'dort' et 'hier' ?",
+      "options": [
+        "'dort' indique une direction (vers la gauche) et 'hier' une autre (vers la droite).",
+        "'dort' désigne un lieu éloigné du locuteur ('là-bas') et 'hier' un lieu proche du locuteur ('ici').",
+        "'dort' est utilisé pour les lieux publics et 'hier' pour les lieux privés.",
+        "'dort' est le pluriel de 'hier'."
+      ],
+      "answer": 1,
+      "explanation": "En allemand, 'hier' correspond à 'ici' (proximité) et 'dort' à 'là-bas' (distance). Ces adverbes de lieu sont essentiels pour situer un point de repère par rapport à la position de la personne qui parle ou qui écoute."
+    },
+    {
+      "id": "auto-allemand-3-mva7q3wh",
+      "type": "mcq",
+      "prompt": "Quel est le genre grammatical et l'article défini corrects pour le mot allemand 'die Bushaltestelle' ?",
+      "options": [
+        "Féminin, die",
+        "Masculin, der",
+        "Neutre, das",
+        "Pluriel, die"
+      ],
+      "answer": 0,
+      "explanation": "Le nom 'Bushaltestelle' (arrêt de bus) est un nom féminin en allemand. Il prend donc l'article défini 'die' au singulier. Il est important de mémoriser le genre des noms pour former correctement les phrases et les accords."
+    },
+    {
+      "id": "auto-allemand-4-mva7q3wh",
+      "type": "mcq",
+      "prompt": "Si vous souhaitez demander poliment à un passant comment se rendre à la gare, quelle formulation est la plus appropriée selon les expressions du cours ?",
+      "options": [
+        "Wo ist der Bahnhof? Du musst hierher kommen.",
+        "Entschuldigung, wie komme ich zum Bahnhof?",
+        "Ich gehe zum Bahnhof. Wo bist du?",
+        "Der Bahnhof ist dort. Geh geradeaus."
+      ],
+      "answer": 1,
+      "explanation": "Pour demander son chemin, on utilise souvent 'Wie komme ich zu...?' (Comment vais-je à... ?) précédé de 'Entschuldigung' (Excusez-moi) pour la politesse. L'option 1 est une question directe sans formule de politesse et une instruction, l'option 3 est une affirmation, et l'option 4 donne des directions au lieu d'en demander."
+    },
+    {
+      "id": "auto-allemand-5-mva7q3wh",
+      "type": "mcq",
+      "prompt": "Quel lieu de la ville correspond à la définition : 'Établissement où l'on peut acheter des médicaments et des produits de santé' ?",
+      "options": [
+        "das Krankenhaus",
+        "die Apotheke",
+        "das Geschäft",
+        "die Bank"
+      ],
+      "answer": 1,
+      "explanation": "'die Apotheke' est la pharmacie, le lieu dédié à la vente de médicaments. 'das Krankenhaus' est l'hôpital (soins médicaux), 'das Geschäft' est un magasin général, et 'die Bank' est la banque (finances)."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "francais-seconde-le-theatre-classique-du-xviie-siecle",
+  "title": "Le théâtre classique du XVIIe siècle",
+  "summary": "Quelles sont les caractéristiques du théâtre classique français ?",
+  "lesson": "## Le théâtre classique\n\n### Les trois unités (règle des trois unités)\n\n**Unité de temps**\n- L'action dure 24 heures maximum\n\n**Unité de lieu**\n- L'action se déroule en un seul lieu\n\n**Unité d'action**\n- Une seule intrigue principale\n\n### Les genres théâtraux\n\n**La tragédie**\n- Personnages nobles\n- Fin malheureuse\n- Registre tragique\n- Auteurs : Corneille, Racine\n\n**La comédie**\n- Personnages du peuple\n- Fin heureuse\n- Faire rire et critiquer\n- Auteur : Molière\n\n### Structure d'une pièce\n\n**Actes et scènes**\n- 5 actes généralement\n- Plusieurs scènes par acte\n\n**Exposition** (acte I) : présentation\n**Nœud** (actes II-III) : complications\n**Dénouement** (acte V) : résolution\n\n### Types de répliques\n- **Monologue** : personnage seul\n- **Dialogue** : deux personnages\n- **Tirade** : longue réplique\n- **Aparté** : parole non entendue",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Trois unités : temps, lieu, action",
+    "Tragédie (nobles) vs Comédie (peuple)",
+    "5 actes : exposition, nœud, dénouement",
+    "Monologue, dialogue, tirade, aparté"
+  ],
+  "exercise": {
+    "question": "Une pièce qui respecte les trois unités et se termine mal avec des nobles est :",
+    "answer": "\n**Solution :**\nUne **tragédie classique**.\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La règle des trois unités impose :",
+      "options": [
+        "3 personnages",
+        "3 actes",
+        "Temps, lieu, action",
+        "3 scènes"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Molière est célèbre pour ses :",
+      "options": [
+        "Tragédies",
+        "Comédies",
+        "Poèmes",
+        "Romans"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "maths-cinquieme-les-statistiques-moyenne",
+  "title": "Les statistiques : moyenne",
+  "summary": "Aya a eu ces notes en maths : 12, 15, 10, 14, 9. Quelle est sa moyenne ?",
+  "lesson": "## La moyenne\n\n### Définition\nLa moyenne est la somme de toutes les valeurs divisée par le nombre de valeurs.\n\n**Formule :**\nMoyenne = Somme des valeurs ÷ Nombre de valeurs\n\n### Calcul de la moyenne d'Aya\nNotes : 12, 15, 10, 14, 9\n\nSomme = 12 + 15 + 10 + 14 + 9 = 60\nNombre de notes = 5\n\nMoyenne = 60 ÷ 5 = 12\n\n### Applications\n- Notes scolaires\n- Températures moyennes\n- Revenus moyens\n- Prix moyens",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Moyenne = somme ÷ nombre",
+    "La moyenne représente la valeur centrale",
+    "Utile pour comparer des séries de données"
+  ],
+  "exercise": {
+    "answer": "\n**Solution :**\nSomme = 28 + 30 + 29 + 31 + 28 + 29 + 30 = 205\nNombre de jours = 7\n\nMoyenne = 205 ÷ 7 = 29,3°C (environ)\n\n**Réponse : 29,3°C**\n        ",
+    "question": "Les températures d'une semaine à Abidjan sont : 28°, 30°, 29°, 31°, 28°, 29°, 30°. Quelle est la température moyenne ?"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La moyenne de 8, 12, 10 est :",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Pour calculer une moyenne, on doit :",
+      "options": [
+        "Multiplier puis diviser",
+        "Additionner puis diviser",
+        "Soustraire puis multiplier",
+        "Diviser puis additionner"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

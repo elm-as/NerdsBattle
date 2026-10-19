@@ -1,70 +1,98 @@
 {
   "id": "physique-terminale-auto-induction-circuit-rl",
-  "title": "Phénomène d'auto-induction et circuit RL",
-  "summary": "Ce chapitre vous plonge au cœur de l'induction électromagnétique : découvrez comment une bobine s'oppose aux variations du courant, un principe clé pour comprendre les circuits RL et de nombreux dispositifs électroniques. Maîtrisez l'équation différentielle du circuit RL et son temps caractéristique pour exceller au BAC.",
-  "lesson": "## Introduction & Mise en situation\n\nImaginez que vous ouvrez un robinet d'eau : l'eau met un certain temps à atteindre son débit maximal. De même, dans un circuit électrique contenant une bobine, le courant ne s'établit pas instantanément. Ce phénomène, appelé **auto-induction**, est fondamental pour comprendre le fonctionnement de nombreux appareils : alimentations, transformateurs, filtres électroniques, etc. Au BAC, ce chapitre est incontournable : il fait le lien entre l'électromagnétisme et l'électricité.\n\n## 1. Définitions et Principes Fondamentaux\n\n### 1.1 La bobine (ou inductance)\nUne bobine est un composant électrique constitué d'un fil enroulé en spirale. Elle est caractérisée par son **inductance** $L$ (en henry, H) et sa résistance interne $r$ (souvent négligeable si on la considère comme pure).\n\n### 1.2 Phénomène d'auto-induction\nLorsque le courant $i$ traversant une bobine varie, il crée un flux magnétique variable à travers la bobine elle-même, ce qui induit une force électromotrice (f.é.m.) d'auto-induction. Cette f.é.m. s'oppose à la variation du courant (loi de Lenz).\n\nLa f.é.m. d'auto-induction est donnée par :\n$$e = -L \\frac{di}{dt}$$\n\nLa tension aux bornes d'une bobine parfaite (sans résistance) est :\n$$u_L = L \\frac{di}{dt}$$\n\nPour une bobine réelle (avec résistance $r$), on a :\n$$u_{AB} = r \\cdot i + L \\frac{di}{dt}$$\n\n### 1.3 Le circuit RL\nUn circuit RL est composé d'une résistance $R$ et d'une bobine (inductance $L$) en série avec un générateur de tension continue $E$.\n\n## 2. Propriétés et Méthodes d'application\n\n### 2.1 Établissement du courant dans un circuit RL\nConsidérons le circuit série (résistance $R$, bobine d'inductance $L$ et de résistance interne négligeable, générateur idéal de force électromotrice $E$).\n\nD'après la loi des mailles :\n$$E = u_R + u_L = R \\cdot i + L \\frac{di}{dt}$$\n\nCe qui donne l'équation différentielle :\n$$\\frac{di}{dt} + \\frac{R}{L} i = \\frac{E}{L}$$\n\nLa solution est :\n$$i(t) = \\frac{E}{R} \\left(1 - e^{-t/\\tau}\\right)$$\navec $\\tau = \\frac{L}{R}$ la **constante de temps** du circuit.\n\n**Exemple concret :**\nPrenons $E = 12\\,\\text{V}$, $R = 100\\,\\Omega$, $L = 0,5\\,\\text{H}$.\n- $\\tau = \\frac{0,5}{100} = 5\\times10^{-3}\\,\\text{s} = 5\\,\\text{ms}$.\n- Le courant maximal est $I_0 = \\frac{12}{100} = 0,12\\,\\text{A}$.\n- À $t = \\tau$, $i(\\tau) = 0,12(1 - e^{-1}) \\approx 0,12 \\times 0,632 = 0,0758\\,\\text{A}$.\n\n### 2.2 Rupture du courant (ou décharge)\nSi on court-circuite la bobine (ou si on coupe le générateur), le courant décroît exponentiellement selon :\n$$i(t) = I_0 e^{-t/\\tau}$$\n\n### 2.3 Constante de temps $\\tau$\nLa constante de temps $\\tau = \\frac{L}{R}$ caractérise la rapidité du régime transitoire. Au bout de $5\\tau$, le courant est établi à 99% de sa valeur maximale.\n\n**Méthode pour déterminer $\\tau$ expérimentalement :**\n- Visualiser la courbe $i(t)$ à l'oscilloscope.\n- Trouver le temps au bout duquel le courant atteint 63% de sa valeur finale.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre $u_L$ et $e$** : La f.é.m. d'auto-induction est $e = -L\\frac{di}{dt}$, mais la tension aux bornes est $u_L = L\\frac{di}{dt}$ (attention au signe selon la convention).\n- **Oublier la résistance interne de la bobine** : Dans les exercices, si la bobine n'est pas dite parfaite, il faut inclure $r$ dans l'équation.\n- **Mélanger les unités** : $L$ en henry (H), $R$ en ohm (Ω), $\\tau$ en seconde (s). Vérifiez que $L/R$ donne bien des secondes.\n- **Ne pas savoir résoudre l'équation différentielle** : Entraînez-vous à la résoudre et à vérifier la solution.\n- **Confondre le régime transitoire et permanent** : En régime permanent, $\\frac{di}{dt}=0$, donc la bobine se comporte comme un fil (si $r=0$) ou comme une résistance $r$.\n\n## Synthèse\n\n1. **Auto-induction** : Une bobine s'oppose aux variations du courant ; la tension à ses bornes est $u_L = L\\frac{di}{dt}$.\n2. **Équation différentielle du circuit RL** : $L\\frac{di}{dt} + Ri = E$ ; solution exponentielle avec constante de temps $\\tau = \\frac{L}{R}$.\n3. **Constante de temps** : $\\tau$ permet de quantifier la durée du régime transitoire ; à $t=5\\tau$, le courant est établi.",
-  "estimatedMinutes": 12,
-  "tags": [
-    "auto-induction",
-    "circuit RL",
-    "constante de temps",
-    "loi de Lenz",
-    "bac"
+  "title": "Auto-induction - Circuit RL",
+  "summary": "Pourquoi l'intensité ne s'établit pas instantanément dans une bobine ? Pourquoi observe-t-on une étincelle à l'ouverture d'un circuit inductif ?",
+  "lesson": "## I. Phénomène d'induction électromagnétique\n\n### 1.1 Définitions\n**Flux magnétique** à travers une surface S :\nΦ = **B** · **S** = BS cos α\n\nOù α = angle entre **B** et la normale à S\n\n**Unité** : Weber (Wb)\n1 Wb = 1 T·m²\n\n### 1.2 Loi de Faraday\nUne variation du flux magnétique à travers un circuit crée une **force électromotrice induite** :\n\n**e = -dΦ/dt**\n\nLe signe (-) provient de la loi de Lenz.\n\n### 1.3 Loi de Lenz\n**Énoncé** : La f.é.m. induite s'oppose à la cause qui lui a donné naissance.\n\n**Interprétation** :\n- Si Φ augmente → e crée un courant qui **s'oppose** à cette augmentation\n- Si Φ diminue → e crée un courant qui **s'oppose** à cette diminution\n\n**Principe de modération** : l'induction électromagnétique \"freine\" les variations de flux.\n\n## II. Auto-induction\n\n### 2.1 Principe\nUne bobine parcourue par un courant I crée :\n- Un champ magnétique **B** proportionnel à I\n- Un flux propre Φ à travers ses spires\n\nSi I varie → Φ varie → apparition d'une f.é.m. d'auto-induction\n\n**L'auto-induction est l'induction d'une bobine sur elle-même**.\n\n### 2.2 Inductance L\n**Définition** : coefficient de proportionnalité entre flux et intensité\n\nΦ = LI\n\n**Unité** : Henry (H)\n1 H = 1 Wb/A\n\n**Pour un solénoïde** de N spires, longueur l, section S :\n**L = μ₀N²S/l**\n\n### 2.3 Force électromotrice d'auto-induction\n**Loi de Faraday appliquée à l'auto-induction** :\n\ne = -dΦ/dt = -d(LI)/dt\n\n**e = -L(di/dt)**\n\n**Interprétation** :\n- Si I augmente (di/dt > 0) → e < 0 (s'oppose à l'augmentation)\n- Si I diminue (di/dt < 0) → e > 0 (s'oppose à la diminution)\n\n### 2.4 Tension aux bornes d'une bobine\n**Bobine idéale** (résistance nulle) :\nuL = L(di/dt)\n\n**Bobine réelle** (résistance r) :\nuL = ri + L(di/dt)\n\n**Analogie** :\n- Condensateur : q = Cu → i = C(du/dt)\n- Bobine : Φ = Li → u = L(di/dt)\n\n### 2.5 Symboles et conventions\n**Bobine idéale** : \n└┐\n ┘ L\n\n**Bobine réelle** :\n└┐╌╌\n ┘ L,r\n\n**Convention récepteur** : flèche u et i dans le même sens\n\n## III. Établissement du courant dans un circuit RL\n\n### 3.1 Circuit étudié\n**Série** : générateur (E, r) + bobine (L, r) + résistance R\n\nÀ t = 0 : fermeture de l'interrupteur\nCondition initiale : i(0) = 0\n\n### 3.2 Équation différentielle\n**Loi des mailles** :\nE = Ri + L(di/dt) + ri\n\nE = (R + r)i + L(di/dt)\n\n**Forme canonique** :\n**L(di/dt) + (R+r)i = E**\n\nPosons R' = R + r :\n**di/dt + (R'/L)i = E/L**\n\n### 3.3 Constante de temps\n**Définition** :\n**τ = L/R'** = L/(R+r)\n\n**Unité** : seconde (s)\n\n**Vérification** :\n[τ] = [L]/[R] = H/Ω = (Wb/A)/(V/A) = Wb/V = (T·m²)/(V) = s ✓\n\n**Équation avec τ** :\n**di/dt + i/τ = E/R'**\n\n### 3.4 Résolution de l'équation différentielle\n**Équation** : di/dt + i/τ = E/R'\n\n**Solution générale** :\ni(t) = A e^(-t/τ) + i∞\n\n**Régime permanent** (t → ∞) :\ndi/dt → 0\ni∞ = E/R' (valeur limite)\n\n**Constante A** (condition initiale i(0) = 0) :\n0 = A + i∞\nA = -i∞\n\n**Solution complète** :\n**i(t) = i∞(1 - e^(-t/τ))**\n\nou :\n**i(t) = (E/R')(1 - e^(-t/τ))**\n\n### 3.5 Analyse de la solution\n**À t = 0** :\ni(0) = 0 (pas de courant instantané)\n\n**Tangente à l'origine** :\ndi/dt|ₜ₌₀ = E/L = i∞/τ\n\nSi la croissance était linéaire, i∞ serait atteint en τ.\n\n**À t = τ** :\ni(τ) = i∞(1 - e⁻¹) = i∞(1 - 0,368) ≈ **0,63 i∞**\n\n**À t = 3τ** :\ni(3τ) ≈ 0,95 i∞ (**95% de i∞**)\n\n**À t = 5τ** :\ni(5τ) ≈ 0,99 i∞ (**99% de i∞**)\n\n**Conclusion** : l'établissement du courant prend environ **5τ**.\n\n### 3.6 Tension aux bornes de la bobine\nuL = L(di/dt) = L × (E/R') × (1/τ) e^(-t/τ)\n\nuL = L × (E/R') × (R'/L) e^(-t/τ)\n\n**uL(t) = E e^(-t/τ)**\n\n**À t = 0** :\nuL(0) = E (toute la tension aux bornes de L)\n\n**À t → ∞** :\nuL(∞) = 0 (plus de variation de courant)\n\n## IV. Rupture du courant dans un circuit RL\n\n### 4.1 Circuit et conditions\nCircuit en régime permanent (i = i∞)\nÀ t = 0 : ouverture de l'interrupteur\n\n### 4.2 Équation\nSans générateur :\n0 = (R+r)i + L(di/dt)\n\n**di/dt + i/τ = 0**\n\n### 4.3 Solution\n**i(t) = i₀ e^(-t/τ)**\n\nOù i₀ = courant initial (avant ouverture)\n\n**Interprétation** : décroissance exponentielle\n\n**À t = τ** :\ni(τ) = i₀ e⁻¹ ≈ **0,37 i₀** (37%)\n\n**À t = 5τ** :\ni(5τ) ≈ **0,01 i₀** (1%, extinction pratique)\n\n### 4.4 Tension aux bornes de la bobine\nuL = -L(di/dt) = -L × i₀ × (-1/τ) e^(-t/τ)\n\n**uL(t) = (Li₀/τ) e^(-t/τ) = R'i₀ e^(-t/τ)**\n\n**À t = 0** :\nuL(0) = R'i₀ (surtension si R' grand)\n\n**Danger** : si R très grand (circuit ouvert), uL(0) peut être très élevé !\n→ Risque d'**étincelle** ou de claquage\n\n**Protection** : mettre une **diode de roue libre** en parallèle avec la bobine.\n\n## V. Énergie magnétique stockée\n\n### 5.1 Puissance reçue par la bobine\nP = uL i = L(di/dt) × i\n\n### 5.2 Énergie magnétique\nIntégrer la puissance :\nW = ∫ P dt = ∫ Li di\n\n**Eₘ = ½LI²**\n\n**Analogie avec le condensateur** :\n- Condensateur : Ec = ½CU² (énergie électrique)\n- Bobine : Eₘ = ½LI² (énergie magnétique)\n\n### 5.3 Unité\n[Eₘ] = H × A² = (Wb/A) × A² = Wb × A = (T·m²) × A = J ✓\n\n### 5.4 Interprétation\n**Bobine = réservoir d'énergie magnétique**\n- Charge : établissement du courant (énergie stockée)\n- Décharge : rupture du courant (énergie restituée)\n\n### 5.5 Exemple numérique\nL = 0,5 H, I = 2 A\n\nEₘ = ½ × 0,5 × 2² = ½ × 0,5 × 4 = **1 J**\n\n## VI. Exemple numérique complet\n\n### 6.1 Données\n- E = 12 V\n- R = 100 Ω\n- L = 0,5 H\n- r = 20 Ω (résistance bobine)\n\n### 6.2 Calculs\n\n**Résistance totale** :\nR' = R + r = 100 + 20 = **120 Ω**\n\n**Courant limite** :\ni∞ = E/R' = 12/120 = **0,1 A = 100 mA**\n\n**Constante de temps** :\nτ = L/R' = 0,5/120 = **4,17 ms**\n\n**Courant à t = 5 ms** :\ni(5×10⁻³) = 0,1(1 - e^(-5/4,17))\ni(5×10⁻³) = 0,1(1 - e^(-1,2))\ni(5×10⁻³) = 0,1(1 - 0,301)\ni(5×10⁻³) ≈ **0,070 A = 70 mA** (70% de i∞)\n\n**Temps pour atteindre 95% de i∞** :\n0,95 = 1 - e^(-t/τ)\ne^(-t/τ) = 0,05\n-t/τ = ln(0,05) = -3\nt = 3τ = **12,5 ms**\n\n**Énergie magnétique en régime permanent** :\nEₘ = ½Li∞² = 0,5 × 0,5 × (0,1)²\nEₘ = **2,5 mJ**\n\n## VII. Applications de l'auto-induction\n\n### 7.1 Filtrage et lissage\n- Bobines de filtrage (alimentation)\n- Lissage du courant\n- Réduction des variations rapides\n\n### 7.2 Transformateurs\n- Auto-induction mutuelle entre enroulements\n- Conversion de tension\n\n### 7.3 Bobines d'allumage (automobile)\n- Stockage d'énergie magnétique\n- Rupture brutale → surtension\n- Étincelle aux bougies\n\n### 7.4 Protection\n- Diode de roue libre (circuits inductifs)\n- Varistances (limitation des surtensions)\n\n### 7.5 Stockage d'énergie\n- Bobines supraconductrices (SMES)\n- Stockage magnétique sans perte (si r = 0)\n\n## VIII. Méthode de résolution\n\n### Problème type : établissement du courant\n\n**Étapes** :\n1. Identifier E, R, L (et r si bobine réelle)\n2. Calculer R' = R + r\n3. Calculer i∞ = E/R'\n4. Calculer τ = L/R'\n5. Écrire i(t) = i∞(1 - e^(-t/τ))\n6. Calculer i à l'instant demandé\n7. Si nécessaire, calculer uL(t) = E e^(-t/τ)\n\n### Points de vigilance\n- Condition initiale : i(0) = 0 (établissement) ou i(0) = i∞ (rupture)\n- Unités : L en H, R en Ω, t en s\n- Régime permanent : di/dt = 0, uL = 0\n- Constante de temps : ordre de grandeur du temps caractéristique",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "F.é.m. d'auto-induction : e = -L(di/dt)",
+    "Constante de temps : τ = L/R",
+    "Établissement : i(t) = (E/R)(1 - e^(-t/τ))",
+    "À t=τ : i ≈ 0,63i∞ ; à t=5τ : i ≈ 0,99i∞",
+    "Énergie magnétique : Eₘ = ½LI²"
   ],
+  "exercise": {
+    "question": "Circuit RL série : E = 12 V, R = 100 Ω, L = 0,5 H. Calculer τ, i∞ et i à t = 5 ms.",
+    "answer": "τ = L/R = 0,5/100 = 5 ms ; i∞ = E/R = 12/100 = 120 mA ; i(5ms) = 120(1-e⁻¹) ≈ 76 mA"
+  },
   "questions": [
     {
       "id": "q1",
       "type": "mcq",
-      "prompt": "Dans un circuit RL, la tension aux bornes d'une bobine parfaite est :",
-      "options": [
-        "$u_L = -L\\frac{di}{dt}$",
-        "$u_L = L\\frac{di}{dt}$",
-        "$u_L = \\frac{L}{i}$",
-        "$u_L = R i$"
-      ],
       "answer": 1,
-      "explanation": "Pour une bobine parfaite, la tension est $u_L = L\\frac{di}{dt}$ (en convention récepteur)."
+      "prompt": "Quelle est l'expression de la f.é.m. d'auto-induction ?",
+      "options": [
+        "e = L(di/dt)",
+        "e = -L(di/dt)",
+        "e = -Ldi",
+        "e = di/dt"
+      ],
+      "explanation": "Question issue du programme officiel."
     },
     {
-      "id": "q2",
-      "type": "truefalse",
-      "prompt": "La constante de temps $\\tau$ d'un circuit RL est égale à $\\frac{R}{L}$.",
-      "answer": false,
-      "explanation": "La constante de temps est $\\tau = \\frac{L}{R}$."
-    },
-    {
-      "id": "q3",
-      "type": "fill",
-      "prompt": "Dans un circuit RL avec $L=0,2\\,\\text{H}$ et $R=50\\,\\Omega$, la constante de temps $\\tau$ vaut (en secondes) :",
-      "answer": "0.004",
-      "explanation": "$\\tau = \\frac{L}{R} = \\frac{0,2}{50} = 0,004\\,\\text{s}$."
-    },
-    {
-      "id": "q4",
+      "id": "auto-physique-1-mvajc2wd",
       "type": "mcq",
-      "prompt": "Lorsqu'on ferme l'interrupteur dans un circuit RL, le courant :",
+      "prompt": "Considérons un circuit RL série alimenté par une source de tension continue $E$. L'inductance est $L$ et la résistance est $R$. Quelle est l'expression de la constante de temps $\tau$ qui caractérise la montée de l'intensité dans le circuit ?",
       "options": [
-        "Augmente instantanément",
-        "Augmente progressivement selon une exponentielle",
-        "Diminue progressivement",
-        "Reste nul"
+        "$\\tau = \\frac{L}{R}$",
+        "$\\tau = \\frac{R}{L}$",
+        "$\\tau = L \\cdot R$",
+        "$\\tau = \\frac{1}{L \\cdot R}$"
+      ],
+      "answer": 0,
+      "explanation": "La constante de temps d'un circuit RL est définie comme le rapport de l'inductance sur la résistance ($\\tau = L/R$). Elle représente le temps nécessaire pour que l'intensité atteigne environ 63% de sa valeur finale."
+    },
+    {
+      "id": "auto-physique-2-mvajc2wd",
+      "type": "mcq",
+      "prompt": "Dans un circuit RL en régime transitoire, l'intensité $i(t)$ est donnée par $i(t) = I_{max}(1 - e^{-t/\\tau})$. Quelle est la valeur de l'intensité au temps $t = \\tau$ ?",
+      "options": [
+        "$I_{max}$",
+        "$0,5 \\cdot I_{max}$",
+        "$0,63 \\cdot I_{max}$",
+        "$0,37 \\cdot I_{max}$"
+      ],
+      "answer": 2,
+      "explanation": "En substituant $t = \\tau$ dans l'équation, on obtient $i(\\tau) = I_{max}(1 - e^{-1})$. Comme $e^{-1} \\approx 0,368$, alors $1 - 0,368 = 0,632$. L'intensité atteint donc environ 63% de sa valeur maximale."
+    },
+    {
+      "id": "auto-physique-3-mvajc2wd",
+      "type": "mcq",
+      "prompt": "Pourquoi observe-t-on une étincelle à l'ouverture d'un interrupteur dans un circuit contenant une bobine inductive parcourue par un courant ?",
+      "options": [
+        "La résistance du circuit augmente brutalement, créant une surtension.",
+        "L'énergie emmagasinée dans le champ magnétique de la bobine se libère brutalement, générant une forte f.é.m. d'auto-induction.",
+        "Le courant continue de circuler instantanément à travers l'air sans résistance.",
+        "La source de tension double sa valeur pour compenser la coupure."
       ],
       "answer": 1,
-      "explanation": "À cause de l'auto-induction, le courant augmente progressivement selon $i(t) = \\frac{E}{R}(1-e^{-t/\\tau})$."
+      "explanation": "Lors de l'ouverture du circuit, le courant tend à s'annuler instantanément. Selon la loi de Lenz, la bobine s'oppose à cette variation en créant une f.é.m. d'auto-induction très élevée ($e = -L \\frac{di}{dt}$) pour maintenir le courant. Cette surtension peut ioniser l'air entre les contacts, créant une étincelle."
     },
     {
-      "id": "q5",
-      "type": "truefalse",
-      "prompt": "En régime permanent, la bobine parfaite se comporte comme un interrupteur fermé (fil).",
-      "answer": true,
-      "explanation": "En régime permanent, $\\frac{di}{dt}=0$, donc $u_L=0$, la bobine n'oppose aucune résistance."
+      "id": "auto-physique-4-mvajc2wd",
+      "type": "mcq",
+      "prompt": "Quelle est l'expression de l'énergie $E_L$ emmagasinée dans le champ magnétique d'une bobine d'inductance $L$ parcourue par un courant d'intensité $I$ ?",
+      "options": [
+        "$E_L = L \\cdot I$",
+        "$E_L = \\frac{1}{2} L I^2$",
+        "$E_L = \\frac{1}{2} \\frac{L}{I^2}$",
+        "$E_L = L I^2$"
+      ],
+      "answer": 1,
+      "explanation": "L'énergie emmagasinée dans une inductance est proportionnelle au carré de l'intensité du courant et à l'inductance. L'expression correcte est $E_L = \\frac{1}{2} L I^2$. Cette énergie est libérée lors de la décroissance du courant."
     },
     {
-      "id": "q6",
-      "type": "fill",
-      "prompt": "Dans un circuit RL, si $E=10\\,\\text{V}$ et $R=200\\,\\Omega$, la valeur maximale du courant (en A) est :",
-      "answer": "0.05",
-      "explanation": "$I_0 = \\frac{E}{R} = \\frac{10}{200} = 0,05\\,\\text{A}$."
+      "id": "auto-physique-5-mvajc2wd",
+      "type": "mcq",
+      "prompt": "Dans un circuit RL, si l'inductance $L$ est doublée tandis que la résistance $R$ reste constante, que se passe-t-il pour la constante de temps $\tau$ et la vitesse d'établissement du courant ?",
+      "options": [
+        "$\tau$ est doublé, le courant s'établit plus lentement.",
+        "$\tau$ est divisé par deux, le courant s'établit plus rapidement.",
+        "$\tau$ reste inchangé, la vitesse d'établissement ne change pas.",
+        "$\tau$ est quadruplé, le courant s'établit plus lentement."
+      ],
+      "answer": 0,
+      "explanation": "La constante de temps est $\tau = L/R$. Si $L$ est doublée, $\tau$ est également doublée. Une constante de temps plus grande signifie que le circuit met plus de temps à atteindre son régime permanent, donc le courant s'établit plus lentement."
     }
   ]
 }

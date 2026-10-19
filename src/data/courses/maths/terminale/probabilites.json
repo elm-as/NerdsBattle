@@ -1,0 +1,123 @@
+{
+  "id": "maths-terminale-probabilites",
+  "title": "Probabilites",
+  "summary": "Pour la kermesse du Lycee Moderne de Korhogo, les eleves de Terminale proposent un jeu : une urne contient 3 boules rouges numerotees 100, 200, 300 et 2 boules bleues numerotees 2 et 5 (toutes indiscernables au toucher). Le joueur mise une somme, tire successivement avec remise 2 boules. Si les 2 boules sont de meme couleur, il perd. Sinon, il gagne le produit des numeros des boules tirees. Les eleves veulent determiner la mise minimale pour que le jeu leur soit avantageux.",
+  "lesson": "## 1. Vocabulaire des probabilites\n\n**Experience aleatoire** : Experience dont on ne peut prevoir avec certitude le resultat (ex: lancer un de, tirer une boule).\n\n**Univers Ω** : Ensemble de tous les resultats possibles (issues).\n\n**Evenement** : Sous-ensemble de Ω.\n- **Elementaire** : Un seul resultat\n- **Certain** : Ω lui-meme (probabilite = 1)\n- **Impossible** : ∅ (probabilite = 0)\n- **Contraire de A** : note Ā ou Aᶜ, se realise quand A ne se realise pas\n\n**Exemple** : Lancer un de a 6 faces. Ω = {1,2,3,4,5,6}. A = « obtenir un nombre pair » = {2,4,6}.\n\n## 2. Equiprobabilite\n\nOn dit qu'il y a equiprobabilite quand tous les evenements elementaires ont la meme probabilite.\n\n**Formule** : Si Ω a n issues equiprobables et A a k issues favorables, alors :\n$$P(A) = \\\\frac{\\\text{nombre d'issues favorables}}{\\\text{nombre total d'issues}} = \\\\frac{k}{n}$$\n\n## 3. Proprietes fondamentales\n\n1. $0 ≤ P(A) ≤ 1$\n2. $P(\\\\Omega) = 1$\n3. $P(\\\\emptyset) = 0$\n4. $P(\\\\bar{A}) = 1 - P(A)$\n5. $P(A ∪ B) = P(A) + P(B) - P(A ∩ B)$\n\n**Cas particulier** : Si A et B sont **incompatibles** (A∩B=∅), alors $P(A ∪ B) = P(A) + P(B)$.\n\n## 4. Situation de la kermesse - analyse\n\n**Univers** : Tirages avec remise de 2 boules parmi 5.\nAvec remise, donc chaque tirage est independant.\nNombre total de tirages : $5 × 5 = 25$ (equiprobables).\n\n**Boules** : R100, R200, R300, B2, B5.\n\n**Evenements** :\n- M : « les deux boules sont de meme couleur » (le joueur perd)\n- G : « les deux boules sont de couleurs differentes » (le joueur gagne)\n\n## 5. Calcul des probabilites\n\n**Probabilite de perdre (M)** :\nDeux cas : deux rouges OU deux bleues.\n- Deux rouges : 3×3 = 9 tirages possibles\n- Deux bleues : 2×2 = 4 tirages possibles\nTotal issues favorables a M : 9+4 = 13\n$P(M) = \\\\frac{13}{25} = 0.52$\n\n**Probabilite de gagner (G)** :\n$P(G) = 1 - P(M) = 1 - 0.52 = 0.48$\n\n## 6. Variable aleatoire\n\nUne variable aleatoire X associe un nombre reel a chaque issue.\n\n**Dans notre jeu** :\n- Si le joueur perd (M) : gain = 0 (il perd sa mise)\n- Si le joueur gagne (G) : gain = produit des numeros\n\nDefinissons X = gain du joueur (en FCFA).\n\n## 7. Loi de probabilite de X\n\nC'est la liste des valeurs possibles de X avec leurs probabilites.\n\n**Valeurs possibles pour X** :\nQuand le joueur gagne, les produits possibles sont :\n- Rouge × Bleue : 100×2=200, 100×5=500, 200×2=400, 200×5=1000, 300×2=600, 300×5=1500\n- Bleue × Rouge : memes produits (car multiplication commutative)\nMais attention : R100 puis B2 est different de B2 puis R100 (tirages avec remise)!\n\n**Denombrement precis** :\nIl y a 2×3 = 6 couples (Rouge, Bleue) et 3×2 = 6 couples (Bleue, Rouge), donc 12 tirages donnant des couleurs differentes.\n\nChaque produit apparait deux fois (ordre inverse), sauf si les numeros sont identiques (ce qui n'arrive pas ici).\n\n**Calcul detaille** :\n\n| Produit | Tirages correspondants | Nombre |\n|---------|------------------------|--------|\n| 200 | (R100,B2), (B2,R100) | 2 |\n| 400 | (R200,B2), (B2,R200) | 2 |\n| 600 | (R300,B2), (B2,R300) | 2 |\n| 500 | (R100,B5), (B5,R100) | 2 |\n| 1000 | (R200,B5), (B5,R200) | 2 |\n| 1500 | (R300,B5), (B5,R300) | 2 |\n| **Total** | | **12** |\n\n**Loi de X** :\n- X = 0 avec probabilite $P(M) = \\\\frac{13}{25}$\n- Chaque valeur de produit a probabilite $\\\\frac{2}{25}$ (car 2 tirages sur 25)\n\nTableau :\n\n| x_i | 0 | 200 | 400 | 600 | 500 | 1000 | 1500 |\n|------|-----|-----|-----|-----|-----|------|------|\n| p_i | $\\\\frac{13}{25}$ | $\\\\frac{2}{25}$ | $\\\\frac{2}{25}$ | $\\\\frac{2}{25}$ | $\\\\frac{2}{25}$ | $\\\\frac{2}{25}$ | $\\\\frac{2}{25}$ |\n\nVerification : $\\\\frac{13}{25} + 6 × \\\\frac{2}{25} = \\\\frac{13+12}{25} = \\\\frac{25}{25} = 1$ ✓\n\n## 8. Esperance mathematique\n\nL'esperance E(X) est la moyenne des valeurs ponderees par leurs probabilites :\n$$E(X) = \\\\sum_{i} x_i × p_i$$\n\n**Calcul** :\n$E(X) = 0 × \\\\frac{13}{25} + 200 × \\\\frac{2}{25} + 400 × \\\\frac{2}{25} + 600 × \\\\frac{2}{25} + 500 × \\\\frac{2}{25} + 1000 × \\\\frac{2}{25} + 1500 × \\\\frac{2}{25}$\n$= \\\\frac{2}{25}(200+400+600+500+1000+1500)$\n$= \\\\frac{2}{25} × 4200 = \\\\frac{8400}{25} = 336$\n\n**Interpretation** : En moyenne, sur un grand nombre de parties, le joueur gagne 336 FCFA par partie.\n\n## 9. Jeu equitable et mise minimale\n\n**Jeu equitable** : Quand l'esperance de gain net est nulle.\n\nIci, si le joueur mise m FCFA :\n- Gain net = X - m\n- Esperance de gain net = E(X) - m\n\nPour que le jeu soit **avantageux pour les organisateurs** (les eleves), il faut que E(gain net) < 0 pour le joueur, donc :\n$E(X) - m < 0$\n$336 - m < 0$\n$m > 336$\n\n**Conclusion** : La mise minimale pour que le jeu soit avantageux aux organisateurs est 337 FCFA.\n\n## 10. Variance et ecart-type\n\n**Variance** : Mesure de la dispersion des valeurs autour de l'esperance :\n$$V(X) = E[(X - E(X))^2] = \\\\sum_{i} (x_i - E(X))^2 × p_i$$\n\n**Formule pratique** : $V(X) = E(X^2) - [E(X)]^2$\n\n**Ecart-type** : $\\\\sigma(X) = \\\\sqrt{V(X)}$\n\n**Application** : Pour notre jeu, $E(X^2)$ se calcule :\n$E(X^2) = 0^2 × \\\\frac{13}{25} + 200^2 × \\\\frac{2}{25} + ... + 1500^2 × \\\\frac{2}{25}$\n$= \\\\frac{2}{25}(40000+160000+360000+250000+1000000+2250000)$\n$= \\\\frac{2}{25} × 4050000 = \\\\frac{8100000}{25} = 324000$\n\n$V(X) = 324000 - 336^2 = 324000 - 112896 = 211104$\n$\\\\sigma(X) ≈ \\\\sqrt{211104} ≈ 459.5$\n\nL'ecart-type eleve indique que les gains sont tres variables autour de la moyenne.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Dans un cas d'equiprobabilite, P(A) = nombre de cas favorables / nombre de cas possibles",
+    "P(A∪B) = P(A) + P(B) - P(A∩B) (formule du crible)",
+    "L'esperance E(X) est la moyenne theorique de la variable aleatoire X",
+    "Un jeu est equitable si l'esperance de gain net est nulle"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Si P(A)=0.3 et P(B)=0.4 et A et B sont incompatibles, alors P(A∪B) vaut :",
+      "options": [
+        "0.7",
+        "0.12",
+        "0.58",
+        "0.1"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Dans une urne avec 5 boules rouges et 3 bleues, la probabilite de tirer une boule rouge est :",
+      "options": [
+        "5/8",
+        "3/8",
+        "5/3",
+        "3/5"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "L'esperance d'une variable aleatoire represente :",
+      "options": [
+        "Sa valeur maximale",
+        "Sa valeur minimale",
+        "Sa moyenne theorique",
+        "Sa mediane"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Un jeu est equitable si :",
+      "options": [
+        "Tous les gains sont egaux",
+        "L'esperance de gain net est nulle",
+        "La variance est nulle",
+        "La probabilite de gagner est 0.5"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Si $p(A) = 0.7$, alors $p(\\\\overline{A}) = $",
+      "options": [
+        "0.3",
+        "0.7",
+        "1",
+        "0"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Pour deux événements incompatibles A et B :",
+      "options": [
+        "p(A∪B)=p(A)+p(B)",
+        "p(A∩B)=1",
+        "p(A)=p(B)",
+        "A=B"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dans une urne de 5 boules (2 blanches, 3 noires), la probabilité de tirer une blanche est :",
+      "options": [
+        "2/5",
+        "3/5",
+        "1/2",
+        "1/5"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Un jeu est équitable si :",
+      "options": [
+        "Le gain moyen = la mise",
+        "Le gain moyen > la mise",
+        "Le gain moyen < la mise",
+        "La probabilité de gagner = 0.5"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

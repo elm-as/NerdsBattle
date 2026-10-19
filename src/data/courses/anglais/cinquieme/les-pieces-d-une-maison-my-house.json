@@ -1,0 +1,58 @@
+{
+  "id": "anglais-cinquieme-les-pieces-d-une-maison-my-house",
+  "title": "Les pièces d'une maison (My house)",
+  "summary": "Un élève du Collège Moderne de Cocody reçoit son ami anglophone à la maison. Il lui présente les pièces de la maison familiale pour la lui faire découvrir.",
+  "lesson": "## My House - Ma maison\n\n### Les pièces de la maison (Rooms)\n\n**Pièces principales :**\n- living room - le salon\n- bedroom - la chambre\n- kitchen - la cuisine\n- bathroom - la salle de bain\n- toilet / WC - les toilettes\n- dining room - la salle à manger\n- garage - le garage\n- garden - le jardin\n- balcony - le balcon\n\n### Le mobilier (Furniture)\n\n**Dans le salon :**\n- sofa / couch - le canapé\n- armchair - le fauteuil\n- table - la table\n- TV - la télévision\n- carpet - le tapis\n\n**Dans la chambre :**\n- bed - le lit\n- wardrobe - l'armoire\n- desk - le bureau\n- chair - la chaise\n- lamp - la lampe\n\n**Dans la cuisine :**\n- fridge - le réfrigérateur\n- cooker / stove - la cuisinière\n- sink - l'évier\n- cupboard - le placard\n- table - la table\n\n### Les appareils électroménagers (Appliances)\n\n- refrigerator / fridge - le réfrigérateur\n- washing machine - la machine à laver\n- microwave - le micro-ondes\n- oven - le four\n- fan - le ventilateur\n- air conditioner - le climatiseur\n\n### Décrire sa maison\n\n**Structure de base :**\n- My house has three bedrooms. - Ma maison a trois chambres.\n- There is a living room. - Il y a un salon.\n- There are two bathrooms. - Il y a deux salles de bain.\n\n**Localisation du mobilier :**\n- The sofa is in the living room. - Le canapé est dans le salon.\n- The bed is in the bedroom. - Le lit est dans la chambre.\n\n**Exemple de description :**\n\"My house is big. It has four bedrooms, one living room, one kitchen, and two bathrooms. In the living room, there is a sofa, two armchairs, and a TV. My bedroom has a bed, a desk, and a wardrobe.\"",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Pièces: living room, bedroom, kitchen, bathroom",
+    "Mobilier: sofa, bed, table, chair, wardrobe",
+    "Appareils: fridge, TV, washing machine",
+    "My house has... / There is/are..."
+  ],
+  "exercise": {
+    "question": "Traduis : 'Ma maison a deux chambres. Il y a un canapé dans le salon. Le réfrigérateur est dans la cuisine.'",
+    "answer": "\n**Solution :**\nMy house has two bedrooms. There is a sofa in the living room. The fridge is in the kitchen.\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'la cuisine' ?",
+      "options": [
+        "Bathroom",
+        "Kitchen",
+        "Bedroom",
+        "Living room"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Où trouve-t-on un 'bed' ?",
+      "options": [
+        "Kitchen",
+        "Bathroom",
+        "Bedroom",
+        "Garage"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'réfrigérateur' ?",
+      "options": [
+        "Fridge",
+        "Oven",
+        "Sink",
+        "Cooker"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

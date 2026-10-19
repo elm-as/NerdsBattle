@@ -1,0 +1,45 @@
+{
+  "id": "espagnol-quatrieme-les-pays-hispanophones-culture-civilisation",
+  "title": "Les pays hispanophones (culture & civilisation)",
+  "summary": "¿Qué sabes sobre los países hispanos? (Que sais-tu des pays hispaniques ?)",
+  "lesson": "## Les pays hispanophones\n\n### En Europe\n\n**España (Espagne)**\n- Capital: Madrid\n- Langue: español (castellano)\n- Régions: Cataluña, Andalucía, País Vasco...\n\n### En Amérique Latine\n\n**Amérique centrale :**\n- México (capitale: Ciudad de México)\n- Guatemala (capitale: Ciudad de Guatemala)\n- Honduras (capitale: Tegucigalpa)\n- Nicaragua (capitale: Managua)\n- Costa Rica (capitale: San José)\n- Panamá (capitale: Ciudad de Panamá)\n\n**Amérique du Sud :**\n- Argentina (capitale: Buenos Aires)\n- Chile (capitale: Santiago)\n- Colombia (capitale: Bogotá)\n- Perú (capitale: Lima)\n- Venezuela (capitale: Caracas)\n\n### Diversité culturelle\n\n- La comida: tacos (México), paella (España), empanadas (Argentina)\n- La música: flamenco, salsa, reggaetón\n- Las fiestas: Día de los Muertos (México)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "21 pays parlent espagnol dans le monde",
+    "España en Europe, 18 en Amérique",
+    "Chaque pays a ses particularités culturelles",
+    "L'espagnol = 4ème langue la plus parlée"
+  ],
+  "exercise": {
+    "question": "Choisis un pays hispanophone et présente-le.",
+    "answer": "México está en América del Norte. La capital es Ciudad de México. Es famoso por los tacos, los mariachis y las pirámides aztecas."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La capitale de l'Espagne est :",
+      "options": [
+        "Barcelona",
+        "Madrid",
+        "Sevilla",
+        "Valencia"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Combien de pays parlent espagnol ?",
+      "options": [
+        "10",
+        "15",
+        "21",
+        "25"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

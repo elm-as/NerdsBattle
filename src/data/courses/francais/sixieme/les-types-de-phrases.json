@@ -1,0 +1,44 @@
+{
+  "id": "francais-sixieme-les-types-de-phrases",
+  "title": "Les types de phrases",
+  "summary": "Lors d'une visite au zoo d'Abidjan, les élèves découvrent les animaux. Comment exprimer leur émerveillement, leurs questions et leurs demandes ?",
+  "lesson": "## Les quatre types de phrases\n\n### 1. La phrase déclarative\nElle donne une information. Elle se termine par un **point (.)**.\n\n**Exemples :**\n- Le zoo d'Abidjan abrite de nombreux animaux.\n- Les éléphants sont impressionnants.\n\n### 2. La phrase interrogative\nElle pose une question. Elle se termine par un **point d'interrogation (?)**.\n\n**Exemples :**\n- Où vivent les lions ?\n- Est-ce que les singes mangent des bananes ?\n\n### 3. La phrase exclamative\nElle exprime un sentiment (joie, surprise, peur...). Elle se termine par un **point d'exclamation (!)**.\n\n**Exemples :**\n- Comme ce crocodile est grand !\n- Quel magnifique oiseau !\n\n### 4. La phrase impérative\nElle donne un ordre ou un conseil. Elle se termine par un **point (.)** ou un **point d'exclamation (!)**.\n\n**Exemples :**\n- Ne touche pas la cage.\n- Restons ensemble.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "4 types de phrases : déclarative, interrogative, exclamative, impérative",
+    "Chaque type a sa ponctuation spécifique",
+    "La ponctuation change le sens de la phrase"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel type de phrase est : 'Comme il fait chaud !' ?",
+      "options": [
+        "Déclarative",
+        "Interrogative",
+        "Exclamative",
+        "Impérative"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle ponctuation termine une question ?",
+      "options": [
+        ".",
+        "!",
+        "?",
+        ","
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

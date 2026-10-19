@@ -1,0 +1,58 @@
+{
+  "id": "physique-terminale-radioactivite-et-reactions-nucleaires",
+  "title": "Radioactivité et réactions nucléaires",
+  "summary": "Les centrales nucléaires produisent de l'électricité grâce à la radioactivité. Qu'est-ce que la radioactivité ? Est-elle dangereuse ?",
+  "lesson": "## La structure du noyau atomique\n\n### Composition\n\nLe noyau est constitué de :\n- **Protons** (charge +)\n- **Neutrons** (charge nulle)\n\n**Nucléons** = protons + neutrons\n\n### Notation\n\nUn noyau est noté : **ᴬ ᶻX**\n\nOù :\n- **X** = symbole de l'élément\n- **Z** = numéro atomique (nombre de protons)\n- **A** = nombre de masse (nombre de nucléons)\n\n**Exemple :**\n- ²³⁸₉₂U (Uranium 238)\n  - 92 protons\n  - 238 - 92 = 146 neutrons\n\n### Isotopes\n\n**Définition :**\nAtomes ayant le même nombre de protons (Z) mais un nombre différent de neutrons.\n\n**Exemples :**\n- Carbone 12 : ¹²₆C (6 protons, 6 neutrons)\n- Carbone 14 : ¹⁴₆C (6 protons, 8 neutrons) - radioactif\n\n## La radioactivité\n\n### Définition\n\nPhénomène par lequel un noyau **instable** se transforme spontanément en émettant des **rayonnements**.\n\n**Découverte :**\n- 1896 : Henri Becquerel découvre la radioactivité naturelle\n- 1898 : Pierre et Marie Curie isolent le radium\n\n### Types de rayonnements\n\n**1. Rayonnement alpha (α)**\n- Noyau d'hélium : ⁴₂He\n- Peu pénétrant (arrêté par une feuille de papier)\n- Très ionisant\n\n**Équation :**\n```\nᴬ ᶻX → ᴬ⁻⁴ ᶻ₋₂Y + ⁴₂He\n```\n\n**Exemple :**\n```\n²³⁸₉₂U → ²³⁴₉₀Th + ⁴₂He\n```\n\n**2. Rayonnement bêta moins (β⁻)**\n- Émission d'un électron : ⁰₋₁e\n- Moyennement pénétrant (arrêté par quelques mm d'aluminium)\n\n**Équation :**\n```\nᴬ ᶻX → ᴬ ᶻ₊₁Y + ⁰₋₁e\n```\n\n**Exemple :**\n```\n¹⁴₆C → ¹⁴₇N + ⁰₋₁e\n```\n\n**3. Rayonnement gamma (γ)**\n- Onde électromagnétique (photon)\n- Très pénétrant (nécessite du plomb ou du béton)\n- Accompagne souvent α ou β\n\n### La demi-vie (période radioactive)\n\n**Définition :**\nTemps nécessaire pour que la moitié des noyaux radioactifs se désintègrent.\n\n**Notation :** t₁/₂\n\n**Loi de décroissance :**\n```\nN(t) = N₀ × (1/2)^(t/t₁/₂)\n```\n\n**Exemples de demi-vies :**\n- Carbone 14 : 5 730 ans\n- Iode 131 : 8 jours\n- Uranium 238 : 4,5 milliards d'années\n\n**Exercice :**\n100 noyaux radioactifs, t₁/₂ = 10 jours.\nCombien reste-t-il après 30 jours ?\n\n```\nN(30) = 100 × (1/2)^(30/10)\nN(30) = 100 × (1/2)³\nN(30) = 100 × 1/8 = 12,5 noyaux\n```\n\n## Les réactions nucléaires\n\n### Fission nucléaire\n\n**Définition :**\nDivision d'un noyau lourd en deux noyaux plus légers avec libération d'énergie.\n\n**Exemple :**\n```\n²³⁵₉₂U + ¹₀n → ¹⁴¹₅₆Ba + ⁹²₃₆Kr + 3¹₀n + énergie\n```\n\n**Application :**\n- Centrales nucléaires\n- Production d'électricité\n\n### Fusion nucléaire\n\n**Définition :**\nUnion de deux noyaux légers pour former un noyau plus lourd avec libération d'énergie.\n\n**Exemple :**\n```\n²₁H + ³₁H → ⁴₂He + ¹₀n + énergie\n```\n\n**Applications :**\n- Énergie du Soleil\n- Bombe H (hydrogène)\n- Futur : projet ITER (fusion contrôlée)\n\n### Équivalence masse-énergie (Einstein)\n\n**Formule :**\n```\nE = mc²\n```\n\nOù :\n- **E** = énergie (J)\n- **m** = masse (kg)\n- **c** = vitesse de la lumière = 3 × 10⁸ m/s\n\n**Interprétation :**\nLors d'une réaction nucléaire, une petite perte de masse (défaut de masse) se transforme en une énorme quantité d'énergie.\n\n## Applications de la radioactivité\n\n### Médecine\n\n**Diagnostic :**\n- **Scintigraphie** : injection de traceurs radioactifs (iode 131)\n- **Radiographie** : rayons X\n\n**Traitement :**\n- **Radiothérapie** : destruction de cellules cancéreuses\n\n### Datation\n\n**Carbone 14 :**\n- Datation d'objets archéologiques\n- Jusqu'à 50 000 ans\n\n### Agriculture\n\n- Stérilisation des aliments\n- Amélioration des variétés (mutations)\n\n### Industrie\n\n- Contrôle de soudures\n- Mesure d'épaisseur\n\n## Dangers et protection\n\n### Dangers\n\n**Effets biologiques :**\n- Destruction de cellules\n- Mutations génétiques\n- Cancers\n- Brûlures (radiodermites)\n\n**Unités :**\n- **Becquerel (Bq)** : activité (nombre de désintégrations/s)\n- **Gray (Gy)** : dose absorbée\n- **Sievert (Sv)** : dose équivalente (effet biologique)\n\n### Protection\n\n**Principe des 3 \"D\" :**\n1. **Distance** : s'éloigner de la source\n2. **Durée** : limiter le temps d'exposition\n3. **Écrans** : utiliser des protections (plomb, béton)\n\n**Équipements :**\n- Blouse de plomb (radiologie)\n- Dosimètre (mesure l'exposition)\n- Chambre blindée\n\n### Gestion des déchets radioactifs\n\n**Types de déchets :**\n- **Faible activité** : gants, blouses (stockage en surface)\n- **Moyenne activité** : déchets industriels (stockage en subsurface)\n- **Haute activité** : combustibles usés (stockage géologique profond)\n\n## La radioactivité en Côte d'Ivoire\n\n### Applications médicales\n\n**Hôpitaux équipés :**\n- CHU de Cocody (service de médecine nucléaire)\n- CHU de Treichville\n\n**Examens disponibles :**\n- Radiographies\n- Scanners\n- Échographies\n\n### Sécurité\n\n**Autorité nationale :**\n- Autorité Nationale de Radioprotection et de Sûreté Nucléaire (ANSN)\n- Contrôle l'utilisation des sources radioactives\n\n### Sensibilisation\n\n- Respect des normes internationales\n- Formation du personnel médical\n- Information du public",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Radioactivité = désintégration spontanée",
+    "3 types : α, β, γ",
+    "Demi-vie t₁/₂",
+    "Applications médicales et industrielles"
+  ],
+  "exercise": {
+    "question": "Un échantillon contient 800 noyaux radioactifs de demi-vie 5 jours. Combien en reste-t-il après 15 jours ?",
+    "answer": "\n**Solution :**\n\n**Données :**\n- N₀ = 800 noyaux\n- t₁/₂ = 5 jours\n- t = 15 jours\n\n**Formule :**\n```\nN(t) = N₀ × (1/2)^(t/t₁/₂)\n```\n\n**Calcul :**\n```\nN(15) = 800 × (1/2)^(15/5)\nN(15) = 800 × (1/2)³\nN(15) = 800 × 1/8\nN(15) = 100 noyaux\n```\n\n**Réponse : Il reste 100 noyaux radioactifs après 15 jours.**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel rayonnement est le plus pénétrant ?",
+      "options": [
+        "Alpha (α)",
+        "Bêta (β)",
+        "Gamma (γ)",
+        "Neutron"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle est la demi-vie du carbone 14 ?",
+      "options": [
+        "570 ans",
+        "5 730 ans",
+        "57 300 ans",
+        "573 ans"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle réaction libère de l'énergie dans le Soleil ?",
+      "options": [
+        "Fission",
+        "Fusion",
+        "Radioactivité α",
+        "Radioactivité β"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

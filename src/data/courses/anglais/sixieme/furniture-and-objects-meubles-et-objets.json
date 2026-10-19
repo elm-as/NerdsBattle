@@ -1,0 +1,58 @@
+{
+  "id": "anglais-sixieme-furniture-and-objects-meubles-et-objets",
+  "title": "Furniture and Objects - Meubles et objets",
+  "summary": "Kofi décrit sa chambre : 'In my bedroom, there is a bed, a desk and a chair.' Comment décrire les meubles ?",
+  "lesson": "## Furniture - Les meubles\n\n### Bedroom Furniture\n- **Bed** - lit\n- **Desk** - bureau\n- **Chair** - chaise\n- **Wardrobe** - armoire\n- **Lamp** - lampe\n\n### Living Room Furniture\n- **Sofa** - canapé\n- **Table** - table\n- **Armchair** - fauteuil\n- **TV** - télévision\n- **Bookshelf** - étagère\n\n### Kitchen Objects\n- **Fridge** - réfrigérateur\n- **Cooker** - cuisinière\n- **Sink** - évier\n- **Cupboard** - placard\n\n## Adjectives - Adjectifs\n\n- **big** - grand\n- **small** - petit\n- **old** - vieux\n- **new** - nouveau\n- **comfortable** - confortable\n\n**In my bedroom, there is a big bed and a small desk.**",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Bed, desk, chair, table, sofa",
+    "Fridge, cooker, sink pour la cuisine",
+    "Big = grand, small = petit",
+    "Adjectif + nom en anglais"
+  ],
+  "exercise": {
+    "answer": "\n**Solution :**\nIn my living room, there is a big sofa and a small table.\n        ",
+    "question": "Traduis : 'Dans mon salon, il y a un grand canapé et une petite table.'"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'lit' ?",
+      "options": [
+        "Desk",
+        "Chair",
+        "Bed",
+        "Table"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'réfrigérateur' ?",
+      "options": [
+        "Cooker",
+        "Fridge",
+        "Sink",
+        "Cupboard"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle phrase est correcte ?",
+      "options": [
+        "A bed big",
+        "A big bed",
+        "Big a bed",
+        "Bed a big"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

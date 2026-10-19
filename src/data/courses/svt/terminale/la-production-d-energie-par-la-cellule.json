@@ -1,0 +1,150 @@
+{
+  "id": "svt-terminale-la-production-d-energie-par-la-cellule",
+  "title": "La production d’énergie par la cellule",
+  "summary": "Les élèves de terminale C du Lycée Moderne de Treichville effectuent une séance d’EPS pour se préparer au Bac. Le lendemain, ils ont des courbatures. Le médecin scolaire leur explique que c’est dû à des résidus toxiques accumulés lors de la production d’énergie dans les muscles pendant l’effort. Surpris, ils décident d’étudier les transformations qui s’opèrent lors de la production d’énergie dans l’organisme et leur mécanisme.",
+  "lesson": "## 1. Introduction : Le besoin énergétique cellulaire\n\nToute activité cellulaire (synthèses, transport, mouvement) nécessite de l’énergie sous forme d’**ATP** (Adénosine Triphosphate). L’ATP est la \"monnaie énergétique\" de la cellule. Les cellules produisent de l’ATP en dégradant des molécules organiques (nutriments) via deux grandes voies : la **respiration cellulaire** (aérobie) et la **fermentation** (anaérobie).\n\n## 2. Sources d'énergie cellulaire\n\nLes principales molécules dégradées sont :\n- **Glucose** (et autres sucres) : issu des glucides alimentaires.\n- **Acides gras** : issus des lipides.\n- **Acides aminés** (en cas de besoin) : issus des protéines.\n\nLe glucose est la source privilégiée et servira de modèle.\n\n## 3. Localisation cellulaire des voies énergétiques\n\n- **Cytosol** : Lieu de la **glycolyse** et de la **fermentation**.\n- **Mitochondrie** : Lieu des étapes aérobies.\n  - **Matrice mitochondriale** : Cycle de Krebs (cycle de l'acide citrique), β-oxydation des acides gras.\n  - **Membrane interne mitochondriale** : Chaîne respiratoire et phosphorylation oxydative.\n\n**Description du schéma 17 : Ultrastructure d’une mitochondrie**\nDessiner une mitochondrie en coupe. Indiquer : (1) la **membrane externe** lisse, (2) la **membrane interne** fortement repliée en **crêtes**, (3) l’**espace intermembranaire**, (4) la **matrice** contenant des ribosomes et de l’ADN circulaire. Légender et indiquer les localisations : Matrice = Cycle de Krebs ; Crêtes de la membrane interne = Chaîne respiratoire.\n\n## 4. La respiration cellulaire aérobie\n\nVoie complète de dégradation du glucose en présence d’oxygène ($O_2$), très efficace. Elle comprend trois étapes :\n\n**A. Glycolyse** (dans le cytosol)\n- Une molécule de glucose (6C) est transformée en **2 molécules de pyruvate** (3C).\n- Bilan net : 2 ATP produits (par phosphorylation au niveau du substrat) et 2 NADH + H⁺ formés.\n- Équation résumée : $\\\text{Glucose} + 2 NAD^+ + 2 ADP + 2 P_i \\\\rightarrow 2 \\\text{Pyruvate} + 2 NADH + 2H^+ + 2 ATP + 2 H_2O$\n\n**B. Cycle de Krebs** (dans la matrice mitochondriale)\n- Chaque pyruvate est décarboxylé pour donner de l’**Acétyl-CoA** (2C), qui entre dans le cycle.\n- Le cycle de Krebs (8 réactions) oxyde complètement l’Acétyl-CoA en $CO_2$.\n- Pour **1 glucose** (2 pyruvates) → 2 tours de cycle.\n- Bilan par glucose : 6 NADH + H⁺, 2 FADH₂, 2 ATP (ou GTP), et 4 CO₂ libérés.\n\n**Description du schéma 18 : Schéma simplifié du cycle de Krebs**\nReprésenter un cercle avec les principales molécules : Acétyl-CoA + Oxaloacétate (4C) → Citrate (6C) → Isocitrate → α-cétoglutarate (5C) → Succinyl-CoA → Succinate (4C) → Fumarate → Malate → Oxaloacétate (régénéré). Indiquer les points de production de CO₂, NADH, FADH₂ et ATP/GTP.\n\n**C. Chaîne respiratoire et phosphorylation oxydative** (sur la membrane interne)\n- C’est l’étape qui produit le plus d’ATP.\n- Les coenzymes réduits **NADH et FADH₂** (provenant de la glycolyse, du cycle de Krebs, et de la β-oxydation) cèdent leurs électrons ($e^-$) et protons ($H^+$) à la **chaîne respiratoire** (une série de protéines transmembranaires : complexes I à IV).\n- Les électrons circulent le long de la chaîne, leur énergie est utilisée pour **pomper des protons ($H^+$)** de la matrice vers l’espace intermembranaire, créant un **gradient électrochimique de protons**.\n- Les protons repassent dans la matrice via une enzyme, l’**ATP synthase** (complexe V). Cette force proton-motrice fournit l’énergie pour phosphoryler l’ADP en ATP : $ADP + P_i + \\\text{énergie} \\\\rightarrow ATP$.\n- L’accepteur final des électrons est l’**oxygène moléculaire ($O_2$)** qui, en se combinant avec des protons, forme de l’eau : $1/2 O_2 + 2H^+ + 2e^- \\\\rightarrow H_2O$.\n\n**Description du schéma 19 : Schéma de la chaîne respiratoire et de l’ATP synthase**\nDessiner la membrane interne mitochondriale avec les complexes I, II, III, IV en série. Montrer le transfert d’électrons (flèches) d’un complexe à l’autre, et le pompage de protons (H⁺) de la matrice vers l’espace intermembranaire. Représenter l’ATP synthase avec un canal à protons ; les protons qui repassent font tourner la partie rotor et activent la synthèse d’ATP. Indiquer l’entrée d’O₂ et la formation d’H₂O au complexe IV.\n\n**D. Bilan global de la respiration aérobie du glucose**\n- Glycolyse : 2 ATP + 2 NADH.\n- Cycle de Krebs (pour 2 pyruvates) : 2 ATP + 8 NADH + 2 FADH₂.\n- Rendement de la chaîne respiratoire : Chaque NADH donne environ 2.5 ATP, chaque FADH₂ donne environ 1.5 ATP (valeurs récentes, anciennement 3 et 2).\n- **Bilan total approximatif** : $2 + 2 + (2.5 \\\times 10) + (1.5 \\\times 2) = 2 + 2 + 25 + 3 = 32$ **ATP par molécule de glucose**.\n- Équation bilan : $C_6H_{12}O_6 + 6 O_2 \\\\rightarrow 6 CO_2 + 6 H_2O + \\\text{énergie (sous forme d’~32 ATP)}$\n\n## 5. La fermentation (voie anaérobie)\n\nEn **absence d’oxygène**, la chaîne respiratoire ne fonctionne pas. Le pyruvate issu de la glycolyse ne peut entrer dans le cycle de Krebs. Il est alors réduit pour **régénérer le NAD⁺** nécessaire à la poursuite de la glycolyse. La fermentation produit donc peu d’ATP (seulement le gain net de la glycolyse).\n\n**A. Fermentation lactique** (dans les muscles, certains micro-organismes)\n- Le pyruvate est réduit en **acide lactique** par la **lactate déshydrogénase**, en utilisant le NADH formé lors de la glycolyse.\n- Équation : $\\\text{Pyruvate} + NADH + H^+ \\\\rightarrow \\\text{Acide lactique} + NAD^+$\n- Bilan pour le glucose : $C_6H_{12}O_6 \\\\rightarrow 2 C_3H_6O_3 (\\\text{acide lactique}) + 2 ATP$ net.\n- C’est l’acide lactique accumulé dans les muscles qui cause les **courbatures** après un effort intense (d’où la situation d’apprentissage).\n\n**B. Fermentation alcoolique** (levures, certaines bactéries)\n- Le pyruvate est d’abord décarboxylé en **acétaldéhyde** puis réduit en **éthanol** par l’alcool déshydrogénase, avec régénération du NAD⁺.\n- Équation : $C_6H_{12}O_6 \\\\rightarrow 2 C_2H_5OH (\\\text{éthanol}) + 2 CO_2 + 2 ATP$ net.\n\n## 6. Comparaison respiration/fermentation\n\n| Caractéristique | Respiration aérobie | Fermentation (lactique ou alcoolique) |\n|----------------|---------------------|--------------------------------------|\n| **Besoin en O₂** | Obligatoire | Absence d’O₂ |\n| **Lieu** | Cytosol + Mitochondrie | Cytosol uniquement |\n| **Produit final** | CO₂ et H₂O | Acide lactique ou éthanol + CO₂ |\n| **Bilan ATP/glucose** | ~32 ATP | 2 ATP (seulement la glycolyse) |\n| **Efficacité énergétique** | Très élevée (~40%) | Très faible (~2%) |\n| **Régénération du NAD⁺** | Par la chaîne respiratoire (via O₂) | Par réduction du pyruvate |\n\n## 7. Application à l’effort musculaire\n\n- **Effort modéré et prolongé** : Les muscles utilisent la respiration aérobie (apport suffisant en O₂ par la respiration et la circulation). Rendement élevé, pas d’accumulation d’acide lactique.\n- **Effort intense et bref** (sprint) : La demande en ATP dépasse la capacité d’apport en O₂. La glycolyse anaérobie (fermentation lactique) prend le relais, produisant rapidement mais peu d’ATP et accumulant de l’**acide lactique** → **fatigue musculaire et douleurs** (courbatures).\n- **Récupération** : Après l’effort, l’acide lactique est éliminé en partie par oxydation dans le foie (cycle de Cori) ou par excrétion.\n\n## 8. Conclusion\n\nLa cellule dispose de stratégies adaptées à la disponibilité en oxygène pour produire de l’ATP. La respiration est la voie principale, très efficace. La fermentation, de secours, permet une production rapide mais limitée d’ATP et génère des déchets. Comprendre ces mécanismes éclaire de nombreux phénomènes biologiques, de la performance sportive aux procédés industriels (brasserie, yaourt).",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "L'ATP est la molécule énergétique universelle des cellules.",
+    "La respiration cellulaire aérobie (glycolyse, cycle de Krebs, chaîne respiratoire) dégrade complètement le glucose en CO₂ et H₂O, produisant ~32 ATP/glucose.",
+    "La fermentation (lactique ou alcoolique) est une voie anaérobie qui régénère le NAD⁺ en réduisant le pyruvate, produisant seulement 2 ATP/glucose et des déchets (acide lactique, éthanol).",
+    "La mitochondrie est l'organite clé de la respiration (matrice = cycle de Krebs ; membrane interne = chaîne respiratoire).",
+    "Lors d'un effort intense, les muscles recourent à la fermentation lactique, ce qui explique la production d'acide lactique et les courbatures."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la molécule directement utilisable par la cellule comme source d'énergie ?",
+      "options": [
+        "Glucose",
+        "ATP",
+        "NADH",
+        "CO₂"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Dans quel compartiment cellulaire a lieu la glycolyse ?",
+      "options": [
+        "Matrice mitochondriale",
+        "Cytosol",
+        "Membrane interne mitochondriale",
+        "Noyau"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel est le produit final de la glycolyse ?",
+      "options": [
+        "Acétyl-CoA",
+        "Pyruvate",
+        "Acide lactique",
+        "CO₂"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle étape de la respiration cellulaire produit le plus d'ATP ?",
+      "options": [
+        "Glycolyse",
+        "Cycle de Krebs",
+        "Chaîne respiratoire (phosphorylation oxydative)",
+        "Fermentation"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel est l'accepteur final des électrons dans la chaîne respiratoire ?",
+      "options": [
+        "NAD+",
+        "FAD",
+        "Oxygène (O₂)",
+        "Pyruvate"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle molécule est réduite pour régénérer le NAD+ lors de la fermentation lactique ?",
+      "options": [
+        "Glucose",
+        "Pyruvate",
+        "Acétyl-CoA",
+        "Oxaloacétate"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel est le bilan net en ATP de la fermentation lactique pour une molécule de glucose ?",
+      "options": [
+        "0 ATP",
+        "2 ATP",
+        "32 ATP",
+        "36 ATP"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Dans la mitochondrie, où se trouve la chaîne respiratoire ?",
+      "options": [
+        "Membrane externe",
+        "Membrane interne",
+        "Matrice",
+        "Espace intermembranaire"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quelle enzyme utilise le gradient de protons pour synthétiser l'ATP ?",
+      "options": [
+        "ATP synthase",
+        "Lactate déshydrogénase",
+        "Hexokinase",
+        "Citrate synthase"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Pourquoi la fermentation est-elle considérée comme une voie de secours ?",
+      "options": [
+        "Elle produit beaucoup d'ATP.",
+        "Elle nécessite de l'oxygène.",
+        "Elle permet de produire un peu d'ATP rapidement en absence d'O₂.",
+        "Elle dégrade complètement le glucose en CO₂."
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

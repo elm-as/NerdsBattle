@@ -1,0 +1,45 @@
+{
+  "id": "espagnol-quatrieme-parler-de-ses-gouts-loisirs-sports-ce-qu-on-aime",
+  "title": "Parler de ses goûts (loisirs, sports, ce qu'on aime)",
+  "summary": "¿Qué te gusta hacer en tu tiempo libre? (Qu'aimes-tu faire pendant ton temps libre ?)",
+  "lesson": "## Exprimer ses goûts\n\n### Le verbe GUSTAR\n\n**Structure : verbe inversé**\n- Me gusta + singulier (J'aime)\n- Me gustan + pluriel (J'aime)\n- Te gusta/gustan (Tu aimes)\n- Le gusta/gustan (Il/Elle aime)\n\n**Exemples :**\n- Me gusta el fútbol (J'aime le foot)\n- Me gustan los deportes (J'aime les sports)\n\n### Vocabulaire des loisirs\n\n**Sports :**\n- jugar al fútbol (jouer au foot)\n- practicar baloncesto (pratiquer le basket)\n- nadar (nager)\n\n**Activités :**\n- escuchar música (écouter de la musique)\n- leer libros (lire des livres)\n- ver películas (regarder des films)\n- bailar (danser)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Me gusta + singulier / Me gustan + pluriel",
+    "Jugar a + sport",
+    "Estructura inversée du verbe gustar",
+    "También = aussi, tampoco = non plus"
+  ],
+  "exercise": {
+    "question": "Parle de 5 choses que tu aimes et n'aimes pas.",
+    "answer": "Me gusta jugar al fútbol. Me gustan los videojuegos. No me gusta estudiar matemáticas. Me encanta la música. No me gustan las verduras."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Pour dire 'J'aime les sports', on dit :",
+      "options": [
+        "Me gusta los deportes",
+        "Me gustan los deportes",
+        "Me gusto los deportes",
+        "Gusto los deportes"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "'Jugar al fútbol' signifie :",
+      "options": [
+        "Regarder le foot",
+        "Jouer au foot",
+        "Aimer le foot",
+        "Pratiquer le foot"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

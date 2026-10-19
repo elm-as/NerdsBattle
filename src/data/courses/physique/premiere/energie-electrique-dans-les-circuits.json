@@ -1,0 +1,110 @@
+{
+  "id": "physique-premiere-energie-electrique-dans-les-circuits",
+  "title": "Énergie électrique dans les circuits",
+  "summary": "Pourquoi un radiateur électrique chauffe-t-il ? Comprendre les échanges énergétiques.",
+  "lesson": "## 1. Dipôles passifs (récepteurs)\n\n### Énergie reçue\n\\[ E_{reçue} = UIt \\]\n\n### Puissance reçue\n\\[ P_{reçue} = UI \\]\n\n## 2. Conducteur ohmique\n\n### Loi d'Ohm\n\\[ U = RI \\]\n\n### Effet Joule\nToute l'énergie électrique est convertie en chaleur\n\n**Énergie :**\n\\[ E = RI^2t = \\frac{U^2}{R}t \\]\n\n**Puissance :**\n\\[ P = RI^2 = \\frac{U^2}{R} \\]\n\n## 3. Récepteurs actifs\n\n### Loi d'Ohm\n\\[ U = e' + r'I \\]\n\n### Bilan énergétique\n\\[ E_{reçue} = e'It + r'I^2t \\]\n- Énergie utile : E_u = e'It\n- Pertes Joule : E_h = r'I²t\n\n### Rendement\n\\[ \\eta = \\frac{e'}{e' + r'I} \\]\n\n## 4. Générateurs\n\n### Loi d'Ohm\n\\[ U = e - rI \\]\n\n### Bilan énergétique\n\\[ E_g = E_{ext} + E_{th} \\]\n\\[ eI = UI + rI^2 \\]\n\n### Rendement\n\\[ \\eta = \\frac{U}{e} = 1 - \\frac{rI}{e} \\]\n\n## 5. Loi de Pouillet\n\n### Circuit série simple\n\\[ I = \\frac{e - e'}{r + r' + R} \\]\n\n### Généralisation\n\\[ I = \\frac{\\sum e - \\sum e'}{\\sum R} \\]\n\n## 6. Applications\n\n### Exemple : Fer à repasser\nP = 1200 W, U = 220 V\n\nIntensité : I = P/U = 1200/220 = 5,45 A  \nRésistance : R = U/I = 220/5,45 = 40,4 Ω  \nÉnergie en 1h : E = 1200 × 3600 = 4,32 MJ = 1,2 kWh",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "E = UIt, P = UI",
+    "Conducteur ohmique : U = RI",
+    "Générateur : U = e - rI",
+    "Récepteur : U = e' + r'I"
+  ],
+  "exercise": {
+    "question": "Un radiateur de 1000 W sous 220 V. Calculer son intensité et sa résistance.",
+    "answer": "\n**Solution :**\n\nP = 1000 W, U = 220 V  \nI = P/U = 1000/220 = 4,55 A  \nR = U/I = 220/4,55 = 48,4 Ω\n\n**Réponse : I = 4,55 A, R = 48,4 Ω**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "La puissance électrique s'exprime par :",
+      "options": [
+        "U/I",
+        "RI²",
+        "UI",
+        "U²/R"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Pour un générateur, la tension aux bornes est :",
+      "options": [
+        "U = e + rI",
+        "U = e - rI",
+        "U = rI - e",
+        "U = e"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-physique-1-mva5d544",
+      "type": "mcq",
+      "prompt": "Un radiateur électrique de résistance $R = 40 \\, \\Omega$ est branché sur un réseau de tension $U = 220 \\, \\text{V}$. Quelle est la puissance thermique dissipée par effet Joule ?",
+      "options": [
+        "1210 W",
+        "12100 W",
+        "121 W",
+        "121000 W"
+      ],
+      "answer": 0,
+      "explanation": "Pour un conducteur ohmique (radiateur), la puissance dissipée est donnée par $P = \\frac{U^2}{R}$. En substituant les valeurs : $P = \\frac{220^2}{40} = \\frac{48400}{40} = 1210 \\, \\text{W}$."
+    },
+    {
+      "id": "auto-physique-2-mva5d544",
+      "type": "mcq",
+      "prompt": "Considérons un moteur électrique (récepteur actif) caractérisé par une force électromotrice contre-électromotrice $e' = 10 \\, \\text{V}$ et une résistance interne $r' = 2 \\, \\Omega$. Si l'intensité du courant qui le traverse est $I = 5 \\, \\text{A}$, quelle est la puissance utile mécanique développée ?",
+      "options": [
+        "50 W",
+        "100 W",
+        "150 W",
+        "200 W"
+      ],
+      "answer": 0,
+      "explanation": "La puissance utile d'un récepteur actif est celle convertie en énergie mécanique, donnée par $P_{utile} = e'I$. Ici, $P_{utile} = 10 \\times 5 = 50 \\, \\text{W}$. La puissance totale reçue serait $UI = (e' + r'I)I = (10 + 10)5 = 100 \\, \\text{W}$, et les pertes Joule seraient $r'I^2 = 2 \\times 25 = 50 \\, \\text{W}$."
+    },
+    {
+      "id": "auto-physique-3-mva5d545",
+      "type": "mcq",
+      "prompt": "Un générateur a une force électromotrice $e = 12 \\, \\text{V}$ et une résistance interne $r = 1 \\, \\Omega$. Il alimente un circuit où l'intensité du courant est $I = 4 \\, \\text{A}$. Quel est le rendement de ce générateur ?",
+      "options": [
+        "66,7 %",
+        "33,3 %",
+        "50 %",
+        "80 %"
+      ],
+      "answer": 0,
+      "explanation": "Le rendement d'un générateur est défini par $\\eta = \\frac{U}{e}$. D'abord, on calcule la tension aux bornes : $U = e - rI = 12 - (1 \\times 4) = 8 \\, \\text{V}$. Ensuite, $\\eta = \\frac{8}{12} = \\frac{2}{3} \\approx 0,667$, soit 66,7 %."
+    },
+    {
+      "id": "auto-physique-4-mva5d545",
+      "type": "mcq",
+      "prompt": "Dans un circuit en série contenant un générateur ($e = 20 \\, \\text{V}, r = 2 \\, \\Omega$) et un récepteur actif ($e' = 10 \\, \\text{V}, r' = 3 \\, \\Omega$), quelle est l'intensité du courant circulant dans le circuit selon la loi de Pouillet ?",
+      "options": [
+        "2 A",
+        "4 A",
+        "1 A",
+        "5 A"
+      ],
+      "answer": 0,
+      "explanation": "La loi de Pouillet pour un circuit série avec un générateur et un récepteur actif s'écrit : $I = \\frac{e - e'}{r + r'}$. En remplaçant par les valeurs : $I = \\frac{20 - 10}{2 + 3} = \\frac{10}{5} = 2 \\, \\text{A}$."
+    },
+    {
+      "id": "auto-physique-5-mva5d545",
+      "type": "mcq",
+      "prompt": "Un fil de résistance $R = 50 \\, \\Omega$ parcouru par un courant de $I = 2 \\, \\text{A}$ fonctionne pendant $t = 10 \\, \\text{s}$. Quelle est l'énergie thermique produite par effet Joule ?",
+      "options": [
+        "2000 J",
+        "200 J",
+        "1000 J",
+        "400 J"
+      ],
+      "answer": 0,
+      "explanation": "L'énergie thermique produite par effet Joule est donnée par $E = RI^2t$. Calcul : $E = 50 \\times (2)^2 \\times 10 = 50 \\times 4 \\times 10 = 200 \\times 10 = 2000 \\, \\text{J}$."
+    }
+  ]
+}

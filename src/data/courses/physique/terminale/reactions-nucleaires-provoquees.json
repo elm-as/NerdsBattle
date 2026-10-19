@@ -1,0 +1,280 @@
+{
+  "id": "physique-terminale-reactions-nucleaires-provoquees",
+  "title": "Réactions nucléaires provoquées",
+  "summary": "Suite à un documentaire sur la centrale nucléaire de Fukushima, des élèves de Terminale C du lycée de Yopougon s'interrogent sur les termes \"fission\", \"fusion\" et \"énergie nucléaire\". Ils apprennent que la Côte d'Ivoire, comme de nombreux pays, envisage le nucléaire civil pour diversifier son mix énergétique. Pour comprendre les enjeux scientifiques, environnementaux et sanitaires, ils étudient avec leur professeur les réactions nucléaires provoquées, les principes de libération d'énergie et les risques ass",
+  "lesson": "## 1. Stabilité des noyaux : défaut de masse et énergie de liaison\n\n**Défaut de masse $\\\\Delta m$** : Pour un noyau $^{A}_{Z}X$, la masse du noyau $m_{noyau}$ est **inférieure** à la somme des masses de ses nucléons séparés ($Z$ protons et $N=A-Z$ neutrons).\n$$\\\\Delta m = Z \\\\, m_p + N \\\\, m_n - m_{noyau}$$\n\n**Énergie de liaison $E_\\\\ell$** : C'est l'énergie qu'il faudrait fournir pour séparer le noyau en ses nucléons isolés. D'après la relation d'Einstein $E = \\\\Delta m \\\\, c^2$, on a :\n$$E_\\\\ell = \\\\Delta m \\\\, c^2$$\nPlus $E_\\\\ell$ est grande, plus le noyau est stable.\n\n**Énergie de liaison par nucléon $E_a$** : C'est un indicateur de stabilité plus pertinent.\n$$E_a = \\\\frac{E_\\\\ell}{A} = \\\\frac{\\\\Delta m \\\\, c^2}{A}$$\n\n**Courbe d'Aston** : Représente $E_a$ en fonction du nombre de masse $A$.\n- Pour les noyaux légers ($A < 30$), $E_a$ croît rapidement.\n- Un **maximum** est atteint pour le fer $^{56}_{26}Fe$ ($E_a \\\\approx 8,8 \\\\, MeV/nucléon$). C'est le noyau le plus stable.\n- Pour les noyaux lourds ($A > 56$), $E_a$ décroît lentement.\n\n**Conséquence** : Pour gagner en stabilité, les noyaux peuvent évoluer de deux manières :\n1.  **Fission** : Un noyau lourd ($A$ grand) se scinde en noyaux plus légers, situés plus près du pic de stabilité.\n2.  **Fusion** : Deux noyaux légers ($A$ petit) s'assemblent pour former un noyau plus lourd, plus stable (plus proche du pic).\n\nDans les deux cas, la réaction libère de l'énergie car les produits finaux ont une **énergie de liaison par nucléon plus élevée** en moyenne que les noyaux initiaux.\n\n**Description du schéma 1 : Courbe d'Aston (énergie de liaison par nucléon)**\nReprésenter un graphique avec le nombre de masse $A$ en abscisse (de 0 à ~250) et l'énergie de liaison par nucléon $E_a$ (en MeV) en ordonnée (de 0 à ~9). Tracer une courbe qui monte rapidement, passe par un maximum arrondi vers $A=56$ ($E_a \\\\approx 8,8 MeV$), puis décroît lentement. Indiquer des points clés : Deutérium ($^{2}_{1}H$), Hélium ($^{4}_{2}He$), Fer ($^{56}_{26}Fe$), Uranium ($^{238}_{92}U$). Ajouter des flèches : une flèche partant de l'uranium (gauche du pic) vers des noyaux de masse moyenne (fission), et deux flèches partant de noyaux légers (deutérium, tritium) vers l'hélium (fusion). Légender : \"Zone de la fusion\", \"Pic de stabilité (Fe)\", \"Zone de la fission\".\n\n## 2. La fission nucléaire\n\n**Définition** : Réaction au cours de laquelle un **noyau lourd** (ex : uranium 235, plutonium 239) absorbe un **neutron**, devient instable et se **scinde en deux noyaux plus légers** (les **produits de fission**), avec émission de **2 ou 3 neutrons** et libération d'une grande quantité d'énergie.\n\n**Exemple type** : Fission de l'uranium 235 par un neutron thermique (lent) :\n$$^{235}_{92}U + ^{1}_{0}n \\\\rightarrow ^{236}_{92}U^* \\\\rightarrow ^{141}_{56}Ba + ^{92}_{36}Kr + 3\\\\,^{1}_{0}n + \\\text{énergie}$$\nIl existe de nombreuses combinaisons possibles de produits de fission.\n\n**Caractéristiques** :\n- **Réaction en chaîne** : Les neutrons émis peuvent provoquer à leur tour de nouvelles fissions.\n- **Contrôle** : On utilise des **barres de contrôle** (bore, cadmium) qui absorbent les neutrons pour réguler la réaction.\n- **Criticité** : La réaction est dite **critique** si un neutron de chaque fission provoque en moyenne une nouvelle fission (puissance constante).\n\n**Applications** :\n- **Réacteurs nucléaires** : Production d'électricité (environ 10% de l'électricité mondiale). La chaleur dégagée par la fission chauffe un fluide caloporteur qui produit de la vapeur pour actionner une turbine.\n- **Armes nucléaires** (bombes A) : Réaction en chaîne non contrôlée, libération explosive d'énergie.\n\n## 3. La fusion nucléaire\n\n**Définition** : Réaction au cours de laquelle deux **noyaux légers** s'assemblent pour former un noyau plus lourd, avec libération d'énergie.\n\n**Conditions** : Les noyaux, positifs, se repoussent fortement (interaction coulombienne). Pour qu'ils fusionnent, il faut les rapprocher à très courte distance (de l'ordre du fm) où l'interaction forte attractive prend le dessus. Cela nécessite des **températures extrêmement élevées** (plusieurs dizaines ou centaines de millions de degrés) pour donner aux noyaux assez d'énergie cinétique pour vaincre la répulsion. On parle de **plasma**.\n\n**Exemples** (réactions du cycle proton-proton dans le Soleil et des réacteurs de recherche) :\n- Fusion deutérium-tritium (la plus « facile ») :\n  $$^{2}_{1}H + ^{3}_{1}H \\\\rightarrow ^{4}_{2}He + ^{1}_{0}n + 17,6 \\\\, MeV$$\n- Fusion deutérium-deutérium :\n  $$^{2}_{1}H + ^{2}_{1}H \\\\rightarrow ^{3}_{2}He + ^{1}_{0}n + 3,3 \\\\, MeV$$\n\n**Applications et défis** :\n- **Étoiles** : Le Soleil tire son énergie de la fusion (cycle proton-proton).\n- **Armes nucléaires** (bombes H) : Utilisent une bombe A comme détonateur pour atteindre les conditions de fusion.\n- **Réacteurs à fusion contrôlée** (ITER) : En recherche, immense défi technologique (confinement magnétique ou inertiel, chauffage du plasma). Avantages potentiels : combustible abondant (deutérium dans l'eau de mer), peu de déchets radioactifs à vie longue, pas de risque d'emballement.\n\n**Description du schéma 2 : Comparaison schématique fission et fusion**\nReprésenter deux schémas côte à côte. À gauche, \"Fission\" : Dessiner un gros noyau (U) qui absorbe un neutron (n), devient instable (vibration) et se casse en deux noyaux moyens + 3 neutrons. Flèches montrant l'énergie libérée. À droite, \"Fusion\" : Dessiner deux petits noyaux (D et T) qui se rapprochent avec difficulté (flèches de répulsion coulombienne), puis s'assemblent en un noyau d'hélium plus gros + un neutron. Flèche montrant l'énergie libérée. Légender : \"Noyau lourd\", \"Neutron\", \"Produits de fission\", \"Noyaux légers\", \"Noyau fusionné\", \"Énergie\".\n\n## 4. Applications et dangers de la radioactivité\n\n**Applications bénéfiques** :\n- **Production d'électricité** (fission).\n- **Médecine** :\n   - **Diagnostic** : Imagerie (scintigraphie, TEP) avec des traceurs radioactifs (technétium 99m, fluor 18).\n   - **Thérapie** : Radiothérapie (rayons X, γ, électrons) pour détruire les cellules cancéreuses ; curiethérapie (sources implantées).\n- **Industrie** : Stérilisation des instruments médicaux et des aliments (rayons γ), contrôle non destructif (gammagraphie), jauges de niveau ou d'épaisseur.\n- **Archéologie et géologie** : Datation ($^{14}C$, $^{40}K/^{40}Ar$).\n\n**Dangers et protection** :\n- **Effets biologiques** : L'ionisation provoquée par les rayonnements peut endommager l'ADN, entraînant des brûlures, des cancers, des maladies génétiques ou la mort à forte dose.\n- **Principes de radioprotection** :\n   - **Distance** : L'intensité décroît avec le carré de la distance.\n   - **Écran** : Matériaux appropriés (plomb pour γ, verre/plastique pour β).\n   - **Temps** : Limiter la durée d'exposition.\n- **Déchets radioactifs** : Produits de fission et éléments transuraniens sont très radioactifs et à vie longue. Leur stockage géologique profond est un enjeu majeur.\n- **Accidents** : Tchernobyl, Fukushima (contamination de l'environnement, évacuations).\n\n## 5. Enjeux pour la Côte d'Ivoire\n\n- **Mix énergétique** : Évaluation de l'option nucléaire (fission) pour réduire la dépendance aux hydrocarbures et à l'hydraulique (sécheresse).\n- **Formation** : Développement de compétences en physique nucléaire, radioprotection et sûreté.\n- **Médecine nucléaire** : Développement des services de diagnostic et de traitement dans les grands hôpitaux.\n- **Gestion des sources** : Renforcement du cadre réglementaire pour l'utilisation des sources radioactives dans l'industrie et la médecine.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Défaut de masse : $\\\\Delta m = (Z m_p + N m_n) - m_{noyau}$.",
+    "Énergie de liaison : $E_\\\\ell = \\\\Delta m \\\\, c^2$. Énergie de liaison par nucléon : $E_a = E_\\\\ell / A$.",
+    "Fission : Noyau lourd + n → 2 noyaux moyens + neutrons + énergie. Réaction en chaîne.",
+    "Fusion : 2 noyaux légers → noyau plus lourd + énergie. Nécessite température très élevée.",
+    "Applications : énergie, médecine, industrie. Dangers : irradiation, contamination, déchets."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Le défaut de masse d'un noyau correspond à :",
+      "options": [
+        "La différence entre la masse du noyau et celle de ses nucléons séparés.",
+        "La masse des neutrons uniquement.",
+        "L'énergie cinétique des nucléons.",
+        "La perte de masse lors d'une réaction chimique."
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "L'énergie de liaison par nucléon est maximale pour les noyaux :",
+      "options": [
+        "Très légers (hydrogène).",
+        "De masse moyenne (fer).",
+        "Très lourds (uranium).",
+        "De tous les noyaux stables."
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Dans une réaction de fission, un noyau lourd est cassé après avoir absorbé :",
+      "options": [
+        "Un proton",
+        "Un électron",
+        "Un neutron",
+        "Un photon"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la principale condition nécessaire pour déclencher une réaction de fusion ?",
+      "options": [
+        "Une pression très basse",
+        "Une température très élevée",
+        "La présence d'un catalyseur",
+        "L'absence de neutrons"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle réaction libère de l'énergie ?",
+      "options": [
+        "Fission de noyaux lourds ET fusion de noyaux légers.",
+        "Fission de noyaux légers ET fusion de noyaux lourds.",
+        "Fission uniquement.",
+        "Fusion uniquement."
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Dans un réacteur nucléaire à fission, les barres de contrôle servent à :",
+      "options": [
+        "Produire plus de neutrons.",
+        "Absorber les neutrons pour réguler la réaction.",
+        "Augmenter la température.",
+        "Convertir l'énergie en électricité."
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "L'énergie du Soleil provient principalement de :",
+      "options": [
+        "La fission de l'hydrogène.",
+        "La fusion de l'hydrogène en hélium.",
+        "La combustion du carbone.",
+        "La désintégration radioactive."
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Un des avantages potentiels de la fusion contrôlée par rapport à la fission est :",
+      "options": [
+        "Des déchets radioactifs à vie très longue.",
+        "Un risque élevé d'emballement de la réaction.",
+        "Un combustible abondant (deutérium).",
+        "Une technologie déjà parfaitement maîtrisée."
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "En médecine, un traceur radioactif comme le technétium 99m est utilisé pour :",
+      "options": [
+        "La radiothérapie.",
+        "Le diagnostic par imagerie (scintigraphie).",
+        "Stériliser le matériel.",
+        "Dater des ossements."
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Le principe de radioprotection \"ALARA\" signifie :",
+      "options": [
+        "Autant que la radioactivité le permet.",
+        "Aussi bas que raisonnablement possible.",
+        "Aussi loin et aussi rapidement acceptable.",
+        "Arrêt immédiat en cas de risque."
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "L'énergie de liaison par nucléon est maximale pour :",
+      "options": [
+        "Hydrogène",
+        "Hélium",
+        "Fer",
+        "Uranium"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Dans une réaction de fission, un noyau lourd :",
+      "options": [
+        "Absorbe un neutron et se divise",
+        "Émet un α et devient plus léger",
+        "Fusionne avec un autre noyau",
+        "Se transforme en β"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Le défaut de masse Δm représente :",
+      "options": [
+        "La masse perdue dans la réaction",
+        "L'énergie de liaison du noyau",
+        "Le nombre de neutrons excédentaires",
+        "La différence m_noyau - m_nucléons"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Pour déclencher une fusion, il faut :",
+      "options": [
+        "Refroidir les noyaux",
+        "Augmenter la pression seulement",
+        "Vaincre la répulsion coulombienne",
+        "Utiliser des neutrons lents"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Dans une centrale nucléaire, la réaction en chaîne est contrôlée par :",
+      "options": [
+        "L'eau lourde",
+        "Les barres de contrôle",
+        "La vapeur d'eau",
+        "Les turbines"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "La relation E = Δm·c² exprime :",
+      "options": [
+        "L'équivalence masse-énergie",
+        "La conservation de la masse",
+        "La fission spontanée",
+        "L'énergie cinétique"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Un avantage de la fusion sur la fission est :",
+      "options": [
+        "Déchets moins dangereux",
+        "Technologie maîtrisée",
+        "Coûts d'investissement faibles",
+        "Pas de neutrons émis"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "L'unité pratique d'énergie nucléaire est :",
+      "options": [
+        "Joule",
+        "Watt",
+        "MeV",
+        "Kelvin"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Pour la datation des roches anciennes, on utilise :",
+      "options": [
+        "Carbone 14",
+        "Uranium 238",
+        "Tritium",
+        "Cobalt 60"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Le principe ALARA en radioprotection signifie :",
+      "options": [
+        "Aussi Lentement Que Raisonnablement Accessible",
+        "Aussi Limité Que Raisonnablement Acceptable",
+        "Aussi Bas Que Raisonnablement Atteignable",
+        "Aussi Loin Que Raisonnablement Acceptable"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

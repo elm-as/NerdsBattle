@@ -1,0 +1,151 @@
+{
+  "id": "maths-terminale-limites-et-continuite-d-une-fonction",
+  "title": "Limites et continuité d'une fonction",
+  "summary": "Des élèves de terminale scientifique du Lycée Moderne de Bouaké tracent la courbe de $q : x \\\\mapsto \\\\frac{\\\\sin(x)}{x}$. Sur $[-5;5]$, ils constatent que le graphique affiche 1 pour $x=0$, alors que 0 n'est pas dans l'ensemble de définition. Pour comprendre et déterminer s'il est possible de donner un sens à $q(0)$, ils approfondissent les notions de limites et continuité.",
+  "lesson": "## 1. Notion de limite\n\n**Définition intuitive** : $f$ a pour limite $l$ quand $x$ tend vers $a$ si $f(x)$ se rapproche de $l$ autant qu'on veut, pour $x$ suffisamment proche de $a$.\n$$\\\\lim_{x \\\to a} f(x) = l$$\n\n**Limites de référence** :\n1. $\\\\lim_{x \\\to +\\\\infty} \\\\frac{1}{x} = 0$\n2. $\\\\lim_{x \\\to 0} \\\\frac{\\\\sin x}{x} = 1$\n3. $\\\\lim_{x \\\to +\\\\infty} e^x = +\\\\infty$\n4. $\\\\lim_{x \\\to +\\\\infty} \\\\ln x = +\\\\infty$\n\n## 2. Calculs de limites et formes indéterminées\n\n**Formes indéterminées (F.I.)** : $+\\\\infty - \\\\infty$, $0 \\\times \\\\infty$, $\\\\frac{\\\\infty}{\\\\infty}$, $\\\\frac{0}{0}$.\n\n**Techniques** :\n1. Factorisation par le terme dominant\n2. Expression conjuguée\n3. Utilisation du nombre dérivé\n4. Théorème de comparaison (gendarmes)\n\n```mathgraph\n{\n  \"type\": \"function\",\n  \"title\": \"Limite en 0 de sin(x)/x\",\n  \"xRange\": [-2, 2],\n  \"yRange\": [-0.5, 1.5],\n  \"functions\": [\n    { \"expression\": \"sin(x)/x\", \"color\": \"#3b82f6\", \"name\": \"f(x)=sin(x)/x\" },\n    { \"expression\": \"1\", \"color\": \"#ef4444\", \"name\": \"y=1\", \"lineStyle\": \"dashed\" }\n  ],\n  \"points\": [\n    { \"x\": 0, \"y\": 1, \"color\": \"#10b981\", \"label\": \"limite=1\" }\n  ],\n  \"showGrid\": true,\n  \"showAxes\": true,\n  \"xLabel\": \"x\",\n  \"yLabel\": \"f(x)\",\n  \"asymptotes\": [\n    { \"type\": \"horizontal\", \"value\": 1, \"color\": \"#ef4444\" }\n  ]\n}\n```\n\n## 3. Branches infinies et paraboliques\n\n**Asymptote horizontale** : Si $\\\\lim_{x \\\to +\\\\infty} f(x) = l$, droite $y=l$ asymptote.\n\n**Branche parabolique** :\n- Si $\\\\lim_{x \\\to +\\\\infty} \\\\frac{f(x)}{x} = 0$, direction (Ox)\n- Si $\\\\lim_{x \\\to +\\\\infty} \\\\frac{f(x)}{x} = \\\\pm\\\\infty$, direction (Oy)\n\n```mathgraph\n{\n  \"type\": \"function\",\n  \"title\": \"Branche parabolique de direction (Oy)\",\n  \"xRange\": [0, 10],\n  \"yRange\": [0, 100],\n  \"functions\": [\n    { \"expression\": \"x^2\", \"color\": \"#3b82f6\", \"name\": \"f(x)=x²\" }\n  ],\n  \"showGrid\": true,\n  \"showAxes\": true,\n  \"xLabel\": \"x\",\n  \"yLabel\": \"f(x)\"\n}\n```\n\n## 4. Continuité\n\n**Définition** : $f$ est continue en $a$ si $\\\\lim_{x \\\to a} f(x) = f(a)$.\n\n**Prolongement par continuité** : Si $\\\\lim_{x \\\to a} f(x) = l$ existe mais $f(a)$ n'est pas défini, on définit $\\\tilde{f}(a)=l$.\n\n**Exemple** : $q(x)=\\\\frac{\\\\sin x}{x}$ se prolonge en 0 par $\\\tilde{q}(0)=1$.\n\n## 5. Théorème des valeurs intermédiaires (TVI)\n\n**Théorème** : Soit $f$ continue sur $[a, b]$. Pour tout $k$ entre $f(a)$ et $f(b)$, il existe $c \\\\in [a, b]$ tel que $f(c)=k$.\n\n**Cas particulier** : Si $f(a) \\\times f(b) < 0$, alors $f(x)=0$ a au moins une solution dans $]a, b[$.\n\n```mermaid\ngraph TD\n    A[f continue sur [a,b]] --> B[TVI applicable];\n    B --> C[Pour k entre f(a) et f(b)];\n    C --> D[∃ c ∈ [a,b] / f(c)=k];\n    E[f(a)×f(b) < 0] --> F[∃ solution à f(x)=0];\n```\n\n## 6. Fonctions continues strictement monotones\n\n**Théorème** : Si $f$ est continue et strictement monotone sur $I$, alors :\n1. $f$ bijective de $I$ sur $J=f(I)$\n2. $f^{-1}$ continue et même sens de variation\n3. $\\\\forall m \\\\in J$, $f(x)=m$ a une unique solution dans $I$\n\n## 7. Méthodes d'approximation\n\n**Dichotomie** :\n1. Soit $[a, b]$ avec $f(a)f(b) < 0$\n2. $m = \\\\frac{a+b}{2}$\n3. Si $f(a)f(m) < 0$, nouvelle borne $b=m$\n4. Sinon, nouvelle borne $a=m$\n5. Répéter jusqu'à précision souhaitée\n\n```mermaid\ngraph TD\n    A[Départ [a,b]] --> B[Calcul m=(a+b)/2];\n    B --> C{Test f(a)×f(m) < 0 ?};\n    C -->|Oui| D[Nouvel intervalle [a,m]];\n    C -->|Non| E[Nouvel intervalle [m,b]];\n    D --> F{Précision atteinte ?};\n    E --> F;\n    F -->|Non| B;\n    F -->|Oui| G[Solution ≈ m];\n```\n\n## 8. Application contextuelle\n\n**Exemple ivoirien** : Le débit du Bandama à Bouaké est modélisé par $D(t)=\\\\frac{t^2+3t}{t+1}$ ($t$ en jours).\n1. $\\\\lim_{t \\\to 1} D(t)=2$ ⇒ prolongement en $t=1$\n2. $\\\\lim_{t \\\to +\\\\infty} D(t)=1$ ⇒ asymptote $y=1$\n3. $f(t)=D(t)-2$ continue sur $[0,4]$ avec $f(0)=-2$, $f(4)>0$ ⇒ $f(t)=0$ a solution.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "La limite décrit le comportement d'une fonction au voisinage d'un point ou à l'infini.",
+    "Une fonction est continue en $a$ si $\\\\lim_{x \\\\to a} f(x) = f(a)$.",
+    "TVI : si f continue sur [a,b], tout k entre f(a) et f(b) est atteint.",
+    "Si f continue et strictement monotone sur I, elle est bijective de I sur f(I).",
+    "La dichotomie est un algorithme efficace pour approcher une solution.",
+    "Un prolongement par continuité est possible si la limite existe en un point hors domaine."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Si $\\\\lim_{x \\\\to a} f(x)=3$ et $\\\\lim_{x \\\\to a} g(x)=+\\\\infty$, alors $\\\\lim_{x \\\\to a}[f(x)+g(x)]$ vaut :",
+      "options": [
+        "3",
+        "+∞",
+        "0",
+        "Forme indéterminée"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "$f(x)=\\\\frac{1}{x-2}$ n'est pas continue en $x=2$ car :",
+      "options": [
+        "$f(2)=0$",
+        "$\\\\lim_{x\\\\to2}f(x)$ n'existe pas",
+        "$\\\\lim_{x\\\\to2}f(x)=\\\\infty$",
+        "$f(2)$ n'est pas défini"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Si $f$ continue sur [1,5] avec $f(1)=-2$, $f(5)=4$, alors $f(x)=0$ :",
+      "options": [
+        "N'a pas de solution",
+        "A au moins une solution",
+        "A exactement une solution",
+        "A deux solutions"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Branche parabolique direction (Ox) si :",
+      "options": [
+        "$\\\\lim_{x\\\\to+\\\\infty}f(x)=l$",
+        "$\\\\lim_{x\\\\to+\\\\infty}\\\\frac{f(x)}{x}=0$",
+        "$\\\\lim_{x\\\\to+\\\\infty}\\\\frac{f(x)}{x}=\\\\infty$",
+        "$\\\\lim_{x\\\\to+\\\\infty}f(x)=\\\\infty$ et $\\\\lim_{x\\\\to+\\\\infty}\\\\frac{f(x)}{x}=\\\\infty$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "$\\\\lim_{x\\\\to0}\\\\frac{\\\\sin(5x)}{x}$ vaut :",
+      "options": [
+        "0",
+        "1",
+        "5",
+        "N'existe pas"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "La méthode de dichotomie :",
+      "options": [
+        "Garantit la solution exacte",
+        "Divise l'intervalle par 2 à chaque étape",
+        "Nécessite f dérivable",
+        "Utilise la dérivée"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Si $f$ continue et strictement décroissante sur [2,7], alors :",
+      "options": [
+        "$f$ n'est pas bijective",
+        "$f^{-1}$ décroissante",
+        "$f^{-1}$ croissante",
+        "$f$ n'a pas de limite en 2"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "$\\\\lim_{x\\\\to+\\\\infty}\\\\frac{\\\\sqrt{x}}{x}$ égale :",
+      "options": [
+        "+∞",
+        "1",
+        "0",
+        "1/2"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Pour prolonger $g(x)=\\\\frac{x^2-4}{x-2}$ en $x=2$, on définit $g(2)$ par :",
+      "options": [
+        "0",
+        "2",
+        "4",
+        "-4"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "TVI s'applique à une fonction :",
+      "options": [
+        "Dérivable",
+        "Continue",
+        "Monotone",
+        "Quelconque"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

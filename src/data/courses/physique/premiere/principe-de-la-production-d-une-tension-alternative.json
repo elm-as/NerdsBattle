@@ -1,0 +1,149 @@
+{
+  "id": "physique-premiere-principe-de-la-production-d-une-tension-alternative",
+  "title": "Principe de la production d'une tension alternative",
+  "summary": "À Danané, des élèves remarquent que les phares d'une bicyclette s'allument uniquement quand la dynamo tourne contre la jante. Pour comprendre ce phénomène, ils décident d'étudier en classe comment produire une tension alternative à partir d'un aimant et d'une bobine.",
+  "lesson": "## 1. Introduction\n\nLe **courant alternatif** est la forme d'électricité la plus répandue pour le transport et la distribution, notamment en Côte d'Ivoire où le réseau fournit du 220V/50Hz. Comprendre sa production est essentiel pour appréhender les centrales électriques (thermiques, hydroélectriques) et les équipements domestiques.\n\n## 2. Production expérimentale d'une tension alternative\n\n**Matériel** : Un aimant permanent et une bobine de fil conducteur.\n\n**Manipulation** : Déplacer l'aimant devant la bobine, ou déplacer la bobine devant l'aimant.\n\n**Observation** : Un voltmètre en mode AC (alternatif) détecte une tension qui change de signe périodiquement.\n\n**Description du schéma 1:** Montage expérimental : bobine fixe connectée à un oscilloscope, aimant que l'on déplace d'avant en arrière devant la bobine. Flèches indiquant le mouvement de l'aimant N-S.\n\n## 3. Principe : loi de Faraday\n\nToute variation du flux magnétique $\\\\Phi$ à travers une bobine induit une tension électromotrice $e$ à ses bornes :\n$$e = -\\\\frac{d\\\\Phi}{dt}$$\n\nLe **flux magnétique** $\\\\Phi$ à travers une spire de surface $S$ dans un champ magnétique $\\\\vec{B}$ est : $\\\\Phi = \\\\vec{B} \\\\cdot \\\\vec{S} = B S \\\\cos\\\theta$.\n\n## 4. Explication du phénomène\n\nQuand l'aimant se déplace :\n1. Le champ $\\\\vec{B}$ à travers la bobine varie\n2. Donc le flux $\\\\Phi$ varie\n3. Donc une tension $e$ est induite (induction électromagnétique)\n\nSi le mouvement est périodique (va-et-vient), la tension produite est **alternative**.\n\n## 5. Définition d'une tension alternative\n\nUne **tension alternative** est une tension qui change périodiquement de sens et dont la valeur moyenne sur une période est nulle.\n\n**Représentation** : $u(t)$ est une fonction périodique du temps.\n\n## 6. Tension alternative sinusoïdale\n\nLa forme la plus courante est la **sinusoïde** :\n$$u(t) = U_{max} \\\\sin(2\\\\pi f t + \\\\varphi)$$\n\noù :\n- $U_{max}$ : amplitude maximale (tension crête)\n- $f$ : fréquence (Hz)\n- $T = 1/f$ : période (s)\n- $\\\\varphi$ : phase à l'origine\n\n**Description du schéma 2:** Oscillogramme d'une tension sinusoïdale u(t). Axes : temps en abscisse (ms), tension en ordonnée (V). Indiquer la période T, l'amplitude Umax, les valeurs instantanées positives et négatives.\n\n## 7. Caractéristiques mesurables sur oscillogramme\n\n**À partir d'un oscillogramme calibré** :\n1. **Période T** : Durée d'un cycle complet (ex : entre deux crêtes successives)\n2. **Fréquence f** : $f = 1/T$\n3. **Amplitude Umax** : Valeur maximale par rapport à zéro\n4. **Tension efficace Ueff** : Pour une sinusoïde, $U_{eff} = U_{max}/\\\\sqrt{2} \\\\approx 0,707 U_{max}$\n\n## 8. Applications en Côte d'Ivoire\n\n1. **Dynamo de bicyclette** : Aimant tournant devant une bobine fixe → éclairage.\n\n2. **Alternateurs des centrales** :\n- Hydroélectrique (Soubré) : Turbine + alternateur\n- Thermique (Azito, CIPREL) : Turbine à vapeur/gaz + alternateur\n\n3. **Groupe électrogène** : Moteur diesel + alternateur pour secours ou zones non connectées.\n\n**Description du schéma 3:** Schéma simplifié d'un alternateur. Montrer un aimant (rotor) qui tourne à l'intérieur d'une bobine fixe (stator). Flèche de rotation, et sortie des bornes vers une résistance (charge).\n\n## 9. Avantages du courant alternatif\n\n1. **Transport facile** : Transformation de tension par transformateurs (faibles pertes).\n2. **Moteurs robustes** : Moteurs asynchrones simples et fiables.\n3. **Production à grande échelle** : Alternateurs de puissance élevée.\n\n## 10. Sécurité et fréquences\n\n- **Côte d'Ivoire** : 220 V / 50 Hz (standard européen)\n- **Pays voisins** : Certains utilisent 110 V / 60 Hz\n- **Danger** : Le courant alternatif est plus dangereux que le continu à même tension (risque de tétanisation musculaire).",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Une tension alternative est produite par variation du flux magnétique à travers une bobine (loi de Faraday)",
+    "Une tension sinusoïdale s'exprime : u(t) = Umax sin(2πft + φ)",
+    "Sur un oscillogramme, on mesure T, f, Umax, et on calcule Ueff = Umax/√2",
+    "Le courant alternatif est utilisé pour le transport et la distribution d'électricité"
+  ],
+  "exercise": {
+    "answer": "**1. Période et fréquence :**\n- 2 divisions pour une période\n- Base de temps : 5 ms/div\n$$T = 2 \\\times 5 = 10\\\\ \\\text{ms} = 0,01\\\\ \\\text{s}$$\n$$f = \\\\frac{1}{T} = \\\\frac{1}{0,01} = 100\\\\ \\\text{Hz}$$\n\n**2. Amplitude Umax :**\n- 4 divisions crête à crête\n- Amplitude crête = (crête à crête)/2 = 4/2 = 2 divisions\n- Sensibilité : 2 V/div\n$$U_{max} = 2 \\\times 2 = 4\\\\ \\\text{V}$$\n\n**3. Tension efficace :**\nPour une sinusoïde :\n$$U_{eff} = \\\\frac{U_{max}}{\\\\sqrt{2}} = \\\\frac{4}{1,414} \\\\approx 2,83\\\\ \\\text{V}$$\n\n**4. Doublement de la vitesse :**\n- La fréquence f est proportionnelle à la vitesse : f double → f' = 200 Hz\n- La période T est inversement proportionnelle : T' = 1/f' = 0,005 s = 5 ms\n- L'amplitude Umax est proportionnelle à la vitesse (dΦ/dt plus rapide) : Umax double → Umax' = 8 V\n\n**Réponse :** T = 10 ms, f = 100 Hz, Umax = 4 V, Ueff ≈ 2,83 V. Si vitesse double : f'=200 Hz, T'=5 ms, Umax'=8 V.",
+    "question": "Sur l'oscilloscope d'un laboratoire à Bouaké, on observe la tension d'une dynamo de bicyclette. La base de temps est réglée sur 5 ms/div et la sensibilité verticale sur 2 V/div. La courbe occupe 4 divisions en vertical et 2 divisions pour une période. 1) Déterminez la période T et la fréquence f. 2) Déterminez l'amplitude Umax. 3) Calculez la tension efficace Ueff. 4) Si on double la vitesse de rotation de la dynamo, que deviennent T, f et Umax ?"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Pour produire une tension alternative, on utilise :",
+      "options": [
+        "Une pile et un résistor",
+        "Un aimant et une bobine en mouvement relatif",
+        "Deux résistances en série",
+        "Un condensateur seul"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La loi qui régit l'induction est :",
+      "options": [
+        "Loi d'Ohm",
+        "Loi de Joule",
+        "Loi de Faraday",
+        "Loi de Pouillet"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Une tension alternative sinusoïdale s'exprime par :",
+      "options": [
+        "u(t)=Umax sin(ωt)",
+        "u(t)=Umax constante",
+        "u(t)=Umax e^(-t/τ)",
+        "u(t)=a t + b"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "La période T et la fréquence f sont liées par :",
+      "options": [
+        "T = f",
+        "T = 1/f",
+        "f = T²",
+        "f = 2π/T"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Pour une sinusoïde, Ueff = ?",
+      "options": [
+        "Umax",
+        "Umax/2",
+        "Umax/√2",
+        "Umax×√2"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Le réseau ivoirien fournit du :",
+      "options": [
+        "220V continu",
+        "220V efficace 50Hz",
+        "110V 60Hz",
+        "380V 25Hz"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Si la vitesse d'un alternateur double, la fréquence :",
+      "options": [
+        "Double",
+        "Diminue de moitié",
+        "Reste la même",
+        "Quadruple"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Sur un oscillogramme, la période se mesure :",
+      "options": [
+        "Entre deux zéros consécutifs",
+        "Entre deux crêtes successives",
+        "Comme l'amplitude maximale",
+        "Comme la pente à l'origine"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Un avantage majeur du courant alternatif est :",
+      "options": [
+        "Sa production par piles",
+        "Sa facilité de transformation de tension",
+        "Son absence de danger",
+        "Sa constance dans le temps"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Dans une dynamo de vélo, quand la roue s'arrête :",
+      "options": [
+        "La tension reste constante",
+        "La tension devient continue",
+        "La tension s'annule",
+        "La tension inverse sa polarité"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

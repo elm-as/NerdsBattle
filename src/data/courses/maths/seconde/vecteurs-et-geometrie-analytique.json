@@ -1,0 +1,109 @@
+{
+  "id": "maths-seconde-vecteurs-et-geometrie-analytique",
+  "title": "Vecteurs et géométrie analytique",
+  "summary": "En navigation, on utilise des vecteurs pour décrire déplacements et positions. Comment les calculer ?",
+  "lesson": "## Vecteurs dans le plan\n\n### Coordonnées d'un vecteur\nSi A(xₐ ; yₐ) et B(xᵦ ; yᵦ), alors :\nvecteur AB (xᵦ − xₐ ; yᵦ − yₐ)\n\n### Norme d'un vecteur\n||vecteur AB|| = √[(xᵦ − xₐ)² + (yᵦ − yₐ)²]\n\n### Colinéarité\nDeux vecteurs ū(x ; y) et v̄(x' ; y') sont colinéaires si :\nxy' − yx' = 0\n\n### Milieu d'un segment\nLe milieu I de [AB] a pour coordonnées :\nI((xₐ + xᵦ)/2 ; (yₐ + yᵦ)/2)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Coordonnées : différence des coordonnées",
+    "Norme : formule de Pythagore",
+    "Colinéarité : déterminant nul"
+  ],
+  "exercise": {
+    "question": "A(1 ; 2) et B(4 ; 6). Calcule les coordonnées de vecteur AB et sa norme.",
+    "answer": "\n**Solution :**\nvecteur AB (4−1 ; 6−2) = (3 ; 4)\n||AB|| = √(3² + 4²) = √(9 + 16) = √25 = 5\n\n**Réponse : vecteur AB (3 ; 4), norme = 5**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Les vecteurs ū(2 ; 3) et v̄(4 ; 6) sont :",
+      "options": [
+        "Orthogonaux",
+        "Colinéaires",
+        "Opposés",
+        "Égaux"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 0,
+      "prompt": "La norme de vecteur ū(3 ; 4) est :",
+      "options": [
+        "5",
+        "7",
+        "12",
+        "25"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-maths-1-mvaeeqr7",
+      "type": "mcq",
+      "prompt": "Soit les points $A(1 ; -2)$ et $B(5 ; 4)$. Quelles sont les coordonnées du vecteur $\\vec{AB}$ ?",
+      "options": [
+        "$\\vec{AB}(6 ; 6)$",
+        "$\\vec{AB}(-4 ; -6)$",
+        "$\\vec{AB}(4 ; 6)$",
+        "$\\vec{AB}(-4 ; 6)$"
+      ],
+      "answer": 2,
+      "explanation": "Les coordonnées d'un vecteur $\\vec{AB}$ sont données par $(x_B - x_A ; y_B - y_A)$. Ici, $x_B - x_A = 5 - 1 = 4$ et $y_B - y_A = 4 - (-2) = 6$. Donc $\\vec{AB}(4 ; 6)$."
+    },
+    {
+      "id": "auto-maths-2-mvaeeqr7",
+      "type": "mcq",
+      "prompt": "On considère les vecteurs $\\vec{u}(3 ; -2)$ et $\\vec{v}(6 ; 4)$. Sont-ils colinéaires ?",
+      "options": [
+        "Oui, car $3 \\times 4 - (-2) \\times 6 = 0$",
+        "Non, car $3 \times 4 - (-2) \times 6 = 24 \neq 0$",
+        "Oui, car leurs normes sont égales",
+        "Non, car leurs coordonnées ne sont pas proportionnelles visuellement"
+      ],
+      "answer": 1,
+      "explanation": "Deux vecteurs $\\vec{u}(x ; y)$ et $\\vec{v}(x' ; y')$ sont colinéaires si et seulement si $xy' - yx' = 0$. Calculons : $3 \times 4 - (-2) \times 6 = 12 - (-12) = 12 + 12 = 24$. Comme $24 \neq 0$, les vecteurs ne sont pas colinéaires."
+    },
+    {
+      "id": "auto-maths-3-mvaeeqr7",
+      "type": "mcq",
+      "prompt": "Soit le segment $[CD]$ où $C(-3 ; 5)$ et $D(7 ; -1)$. Quelles sont les coordonnées du milieu $M$ de ce segment ?",
+      "options": [
+        "$M(2 ; 2)$",
+        "$M(5 ; -3)$",
+        "$M(2 ; -3)$",
+        "$M(5 ; 2)$"
+      ],
+      "answer": 0,
+      "explanation": "Les coordonnées du milieu $M$ sont la moyenne des coordonnées des extrémités : $x_M = \\frac{x_C + x_D}{2} = \\frac{-3 + 7}{2} = \\frac{4}{2} = 2$ et $y_M = \\frac{y_C + y_D}{2} = \\frac{5 + (-1)}{2} = \\frac{4}{2} = 2$. Donc $M(2 ; 2)$."
+    },
+    {
+      "id": "auto-maths-4-mvaeeqr7",
+      "type": "mcq",
+      "prompt": "Quelle est la norme du vecteur $\\vec{w}(-5 ; 12)$ ?",
+      "options": [
+        "$17$",
+        "$13$",
+        "$\\sqrt{169}$",
+        "$\\sqrt{119}$"
+      ],
+      "answer": 1,
+      "explanation": "La norme d'un vecteur $\\vec{w}(x ; y)$ est $\\sqrt{x^2 + y^2}$. Ici, $\\|\\vec{w}\\| = \\sqrt{(-5)^2 + 12^2} = \\sqrt{25 + 144} = \\sqrt{169} = 13$."
+    },
+    {
+      "id": "auto-maths-5-mvaeeqr7",
+      "type": "mcq",
+      "prompt": "Soit les points $E(0 ; 0)$, $F(4 ; 0)$ et $G(0 ; 3)$. Quelle est la longueur du segment $[FG]$ ?",
+      "options": [
+        "$7$",
+        "$\\sqrt{7}$",
+        "$5$",
+        "$\\sqrt{25}$"
+      ],
+      "answer": 2,
+      "explanation": "La longueur du segment $[FG]$ est la norme du vecteur $\\vec{FG}$. Coordonnées de $\\vec{FG} = (x_G - x_F ; y_G - y_F) = (0 - 4 ; 3 - 0) = (-4 ; 3)$. La norme est $\\sqrt{(-4)^2 + 3^2} = \\sqrt{16 + 9} = \\sqrt{25} = 5$."
+    }
+  ]
+}

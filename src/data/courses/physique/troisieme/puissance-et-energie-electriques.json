@@ -1,0 +1,45 @@
+{
+  "id": "physique-troisieme-puissance-et-energie-electriques",
+  "title": "Puissance et énergie électriques",
+  "summary": "3 élèves de 3ème 8 Lycée de Sakassou, quartier Walébo : facture électricité élevée en janvier 2014.",
+  "lesson": "# Puissance et énergie électriques\n\n## I. Puissance électrique\n\n### Formule\nP = U × I\n\n- P : puissance (W)\n- U : tension (V)\n- I : intensité (A)\n\n### Unités\n- Watt (W)\n- kilowatt : 1 kW = 1000 W\n\n## II. Énergie électrique\n\n### Formules\nE = P × t\nE = U × I × t\n\n### Unités\n- Joule (J) : unité SI\n- kilowattheure (kWh) : facture CIE\n- 1 kWh = 3 600 000 J\n\n### Conversion\n1 kWh = énergie consommée par appareil de 1000W pendant 1h\n\n## III. Facture CIE en Côte d'Ivoire\n\n### Calcul coût\nCoût = E × prix_kWh\n\nPrix moyen : ≈ 90 FCFA/kWh (2024)\n\n### Exemple\nRéfrigérateur 150W, 24h/j, 30j :\n- E = 0,15 × 24 × 30 = 108 kWh\n- Coût = 108 × 90 = 9 720 FCFA\n\n## IV. Transformations d'énergie\n\n### Électrique vers Mécanique\nMoteur : ventilateur, mixeur\n\n### Mécanique vers Électrique\nAlternateur, dynamo\n\n### Rendement\nη = (Énergie utile / Énergie fournie) × 100%\n\nη < 100% (pertes par chaleur)\n\n## V. Économies d'énergie\n\n- Éteindre appareils inutilisés\n- Ampoules LED\n- Entretien climatiseurs",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "P = U × I (watts)",
+    "E = P × t (kWh)",
+    "1 kWh ≈ 90 FCFA (CI)",
+    "η < 100%"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "L'unité de puissance électrique est :",
+      "options": [
+        "J",
+        "W",
+        "kWh",
+        "V"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "1 kWh équivaut à :",
+      "options": [
+        "1000 J",
+        "3600 J",
+        "3 600 000 J",
+        "1000 W"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

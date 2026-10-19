@@ -1,0 +1,89 @@
+{
+  "id": "physique-cinquieme-intensite-du-courant-electrique",
+  "title": "Intensité du courant électrique",
+  "summary": "Au cours d'une séance de Travaux Pratiques, les élèves de la classe de 5ème 1 du Lycée Municipal de Mankono disposent d'une pile plate, de deux lampes de 3,5V chacune, des fils de connexions, d'un interrupteur et de trois ampèremètres. Afin d'établir les lois des intensités, ces élèves se proposent de réaliser les deux montages puis de mesurer l'intensité du courant électrique qui traverse chaque appareil.",
+  "lesson": "# Intensité du courant électrique\n\n## I. Notion d'intensité du courant électrique\n\n### 1. Rappel sur le courant électrique\n\nLe **courant électrique** est un déplacement de charges électriques (électrons) dans un circuit.\n\n**Analogie avec l'eau :**\nOn peut comparer le courant électrique à l'eau qui coule dans un tuyau :\n- Les électrons = l'eau\n- Les fils = le tuyau\n- Le générateur = la pompe\n\n### 2. Définition de l'intensité\n\nL'**intensité du courant électrique** est la quantité d'électricité qui traverse une section du circuit par unité de temps.\n\nPlus simplement : c'est le **débit** du courant électrique.\n\n**Analogie :**\n- Faible intensité = petit filet d'eau\n- Forte intensité = gros débit d'eau\n\n### 3. Unité de l'intensité\n\nL'unité légale internationale de l'intensité du courant électrique est l'**ampère**, de symbole **A**.\n\n**Multiples et sous-multiples :**\n- Kiloampère (kA) : 1 kA = 1000 A\n- Milliampère (mA) : 1 mA = 0,001 A = 10⁻³ A\n- Microampère (μA) : 1 μA = 0,000001 A = 10⁻⁶ A\n\n**Conversions courantes :**\n- 0,5 A = 500 mA\n- 2,3 A = 2300 mA\n- 150 mA = 0,15 A\n\n### 4. Ordres de grandeur\n\n**Intensités courantes :**\n- Calculatrice : 0,001 A (1 mA)\n- Lampe de poche : 0,3 A (300 mA)\n- Téléphone portable en charge : 1 A\n- Lampe domestique 60W : 0,27 A\n- Fer à repasser : 4 A\n- Climatiseur : 10 A\n- Moteur de voiture au démarrage : 100 A\n\n**Danger pour l'homme :**\n- À partir de 10 mA : sensation désagréable\n- 30 mA : danger, contraction musculaire\n- 50 mA et plus : danger mortel\n\n## II. Mesure de l'intensité : l'ampèremètre\n\n### 1. L'ampèremètre\n\nL'**ampèremètre** est l'appareil qui mesure l'intensité du courant électrique.\n\n**Types d'ampèremètres :**\n- Ampèremètre à aiguille (analogique)\n- Ampèremètre numérique (digital)\n\n### 2. Symbole normalisé\n\nDans un schéma électrique, l'ampèremètre est représenté par un cercle contenant la lettre **A**.\n\n```\n    ⊙\n    A\n```\n\n### 3. Branchement de l'ampèremètre\n\n**RÈGLE ESSENTIELLE :**\nL'ampèremètre se branche **EN SÉRIE** dans le circuit, à l'endroit où on veut mesurer l'intensité.\n\n**Pourquoi en série ?**\nPour que tout le courant qui circule dans le circuit passe aussi par l'ampèremètre.\n\n**Sens de branchement :**\n- Borne COM (ou -) : du côté du pôle - du générateur\n- Borne A (ou +) : du côté du pôle + du générateur\n\n**Si on branche à l'envers :**\n- Ampèremètre analogique : l'aiguille dévie dans le mauvais sens\n- Ampèremètre numérique : affiche un signe - devant la valeur\n\n### 4. Réalisation d'un circuit avec ampèremètre\n\n**Matériel :**\n- 1 pile plate 4,5 V\n- 1 lampe 3,5 V\n- 1 interrupteur\n- 1 ampèremètre\n- Fils de connexion\n\n**Montage :**\n```\n+--[Pile]--[Interrupteur]--[A]--[Lampe]--+\n|                                        |\n+----------------------------------------+\n```\n\n**Procédure :**\n1. Ouvrir le circuit à l'endroit où on veut mesurer\n2. Insérer l'ampèremètre en respectant le sens\n3. Choisir le bon calibre (commencer par le plus grand)\n4. Fermer l'interrupteur\n5. Lire la valeur affichée\n\n### 5. Choix du calibre\n\nSur un ampèremètre, plusieurs calibres sont disponibles :\n- 10 A, 2 A, 500 mA, 200 mA, etc.\n\n**Méthode :**\n1. Commencer par le plus grand calibre (ex: 10 A)\n2. Si l'intensité est trop faible, choisir un calibre plus petit\n3. Le meilleur calibre est celui juste au-dessus de la valeur mesurée\n\n**Exemple :**\nSi on mesure 0,35 A :\n- Calibre 10 A : possible mais peu précis\n- Calibre 2 A : bon choix ✓\n- Calibre 500 mA : trop petit, risque de détérioration\n\n## III. Loi de l'intensité dans un circuit en série\n\n### 1. Expérience\n\n**Montage :**\n```\n+--[Pile]--[A₁]--[L₁]--[A₂]--[L₂]--[A₃]--+\n|                                        |\n+----------------------------------------+\n```\n\n**Mesures :**\n- I₁ mesuré par A₁ = 0,25 A\n- I₂ mesuré par A₂ = 0,25 A  \n- I₃ mesuré par A₃ = 0,25 A\n\n**Observation :**\nLes trois ampèremètres indiquent la **même valeur**.\n\n### 2. Loi de l'intensité en série\n\n**DANS UN CIRCUIT EN SÉRIE, L'INTENSITÉ DU COURANT EST LA MÊME EN TOUT POINT DU CIRCUIT.**\n\n**Formule :**\n```\nI₁ = I₂ = I₃ = ... = I\n```\n\n**Analogie avec l'eau :**\nDans un tuyau, la même quantité d'eau qui entre ressort à l'autre bout. Le débit est constant.\n\n**Conséquences pratiques :**\n- Si on ajoute des lampes en série, elles brillent moins (même intensité partagée)\n- Un seul ampèremètre suffit pour connaître l'intensité partout\n- Si une lampe grille, l'intensité devient nulle partout\n\n### 3. Application numérique\n\n**Exemple :**\nDans un circuit en série, un ampèremètre placé après la pile indique 0,4 A.\n\nQuelle est l'intensité :\na) Aux bornes de la première lampe ?\nb) Aux bornes de la deuxième lampe ?\nc) Entre les deux lampes ?\n\n**Réponse :**\nSelon la loi de l'intensité en série : I = 0,4 A partout\na) 0,4 A\nb) 0,4 A\nc) 0,4 A\n\n## IV. Loi de l'intensité dans un circuit en dérivation\n\n### 1. Expérience\n\n**Montage :**\n```\n        +---[A₂]---[L₁]---+\n        |                 |\n+--[Pile]--[A₁]--+---[A₃]---[L₂]---+--[A₄]--+\n|              |                 |         |\n+----------------------------------------------+\n```\n\nOù :\n- A₁ mesure l'intensité avant la dérivation (branche principale)\n- A₂ mesure l'intensité dans la branche 1\n- A₃ mesure l'intensité dans la branche 2\n- A₄ mesure l'intensité après la dérivation (branche principale)\n\n**Mesures :**\n- I₁ = 0,6 A (avant dérivation)\n- I₂ = 0,4 A (branche 1)\n- I₃ = 0,2 A (branche 2)\n- I₄ = 0,6 A (après dérivation)\n\n**Observations :**\n- I₁ = I₄ = 0,6 A\n- I₂ + I₃ = 0,4 + 0,2 = 0,6 A = I₁\n\n### 2. Loi des nœuds (ou loi de l'intensité en dérivation)\n\n**DANS UN CIRCUIT EN DÉRIVATION, L'INTENSITÉ DU COURANT DANS LA BRANCHE PRINCIPALE EST ÉGALE À LA SOMME DES INTENSITÉS DANS LES BRANCHES DÉRIVÉES.**\n\n**Formule :**\n```\nI(principale) = I₁ + I₂ + I₃ + ...\n```\n\nOu au niveau d'un nœud :\n```\nI(qui arrive) = I(qui repart)\n```\n\n**Analogie avec l'eau :**\nComme une rivière qui se divise en deux bras : le débit total est la somme des débits de chaque bras.\n\n### 3. Application numérique\n\n**Exemple 1 :**\nDans un circuit en dérivation :\n- I(principale) = 1,2 A\n- I(branche 1) = 0,8 A\n- I(branche 2) = ?\n\n**Solution :**\nI(principale) = I₁ + I₂\n1,2 = 0,8 + I₂\nI₂ = 1,2 - 0,8 = 0,4 A\n\n**Exemple 2 :**\nTrois lampes identiques en dérivation. L'intensité dans chaque lampe est 0,3 A.\nQuelle est l'intensité dans la branche principale ?\n\n**Solution :**\nI(principale) = 0,3 + 0,3 + 0,3 = 0,9 A\n\n## V. Résumé des lois\n\n### Tableau récapitulatif\n\n| Montage | Loi de l'intensité | Formule |\n|---------|-------------------|----------|\n| **Série** | Intensité identique partout | I₁ = I₂ = I₃ = I |\n| **Dérivation** | Intensité principale = somme des intensités dérivées | I(principale) = I₁ + I₂ + I₃ |\n\n### Conseils pour les exercices\n\n**Pour reconnaître le montage :**\n- Série : un seul chemin pour le courant\n- Dérivation : plusieurs chemins possibles\n\n**Pour appliquer la loi :**\n- Série : toutes les intensités sont égales\n- Dérivation : additionner les intensités qui se rejoignent\n\n## VI. Applications pratiques\n\n### 1. Dimensionnement des installations\n\nEn Côte d'Ivoire, les installations électriques domestiques sont protégées par des disjoncteurs :\n- Cuisine : disjoncteur 20 A (pour les appareils puissants)\n- Chambres : disjoncteur 10 A (éclairage)\n- Prises : disjoncteur 16 A\n\n### 2. Choix des fils électriques\n\nPlus l'intensité est forte, plus le fil doit être gros :\n- Faible intensité (< 5 A) : fil 1,5 mm²\n- Intensité moyenne (< 16 A) : fil 2,5 mm²\n- Forte intensité (< 32 A) : fil 6 mm²\n\n### 3. Sécurité électrique\n\n**Ne jamais :**\n- Brancher trop d'appareils sur une même prise (risque de surcharge)\n- Utiliser des fils trop fins pour de fortes intensités (échauffement)\n- Court-circuiter un générateur (intensité très élevée → danger)\n\n**En cas de choc électrique :**\n- Ne pas toucher la victime directement\n- Couper l'alimentation électrique\n- Appeler les secours (ambulance : 185)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Intensité : quantité d'électricité traversant le circuit par unité de temps",
+    "Unité : ampère (A). Sous-multiples : mA, μA",
+    "Ampèremètre : appareil de mesure, symbole ⊙A",
+    "Branchement : EN SÉRIE à l'endroit où on mesure",
+    "Série : I₁ = I₂ = I₃ = ... (intensité identique partout)",
+    "Dérivation : I(principale) = I₁ + I₂ + I₃ (loi des nœuds)",
+    "Danger : 30 mA = danger, 50 mA = mortel",
+    "Toujours commencer par le plus grand calibre",
+    "Respecter le sens de branchement de l'ampèremètre"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "L'unité de l'intensité du courant électrique est :",
+      "options": [
+        "Le volt (V)",
+        "L'ohm (Ω)",
+        "\"L'ampère (A)\"",
+        "Le watt (W)"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "L'ampèremètre se branche :",
+      "options": [
+        "En dérivation",
+        "N'importe comment",
+        "\"En série\"",
+        "Sans pile"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Dans un circuit en série, l'intensité :",
+      "options": [
+        "\"Est identique partout\"",
+        "Varie selon les lampes",
+        "Diminue progressivement",
+        "Augmente progressivement"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans un circuit en dérivation avec 2 branches de 0,3 A chacune, l'intensité principale est :",
+      "options": [
+        "0,3 A",
+        "0,15 A",
+        "1,2 A",
+        "\"0,6 A\""
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Pour l'homme, le courant électrique devient mortel à partir de :",
+      "options": [
+        "5 mA",
+        "\"50 mA\"",
+        "10 mA",
+        "30 mA"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

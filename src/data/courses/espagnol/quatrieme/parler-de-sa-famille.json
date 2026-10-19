@@ -1,0 +1,45 @@
+{
+  "id": "espagnol-quatrieme-parler-de-sa-famille",
+  "title": "Parler de sa famille",
+  "summary": "¿Cómo es tu familia? (Comment est ta famille ?)",
+  "lesson": "## La famille en espagnol\n\n### Vocabulaire de base\n\n**Les membres de la famille :**\n- el padre / la madre (le père / la mère)\n- el hermano / la hermana (le frère / la sœur)\n- el abuelo / la abuela (le grand-père / la grand-mère)\n- el tío / la tía (l'oncle / la tante)\n- el primo / la prima (le cousin / la cousine)\n- los padres (les parents)\n- los hijos (les enfants)\n\n### Les possessifs\n\n- **mi** (mon/ma/mes) → mi padre, mi madre, mis hermanos\n- **tu** (ton/ta/tes) → tu familia\n- **su** (son/sa/ses) → su casa",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Padre = père, madre = mère",
+    "Hermano/a = frère/sœur",
+    "Mi/tu/su pour les possessifs",
+    "Distinction masculin/féminin importante"
+  ],
+  "exercise": {
+    "question": "Présente les membres de ta famille en espagnol.",
+    "answer": "Mi familia es grande. Tengo un padre, una madre y dos hermanos. Mi padre se llama... Mi madre se llama..."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'ma sœur' ?",
+      "options": [
+        "mi hermano",
+        "mi hermana",
+        "tu hermana",
+        "su hermana"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "'El abuelo' signifie :",
+      "options": [
+        "Le père",
+        "L'oncle",
+        "Le grand-père",
+        "Le frère"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

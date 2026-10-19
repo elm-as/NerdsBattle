@@ -1,0 +1,58 @@
+{
+  "id": "maths-cinquieme-calcul-litteral-expressions-algebriques",
+  "title": "Calcul littéral : expressions algébriques",
+  "summary": "Dans un magasin d'Abidjan, une orange coûte x FCFA. Comment écrire le prix de 5 oranges et 3 bananes qui coûtent y FCFA chacune ?",
+  "lesson": "## Le calcul littéral\n\n### Qu'est-ce qu'une expression littérale ?\nUne **expression littérale** est une expression qui contient des lettres représentant des nombres.\n\n**Exemples :**\n- 3x + 5\n- 2a - 4b\n- x² + 2x + 1\n\n### Utilité du calcul littéral\nLe calcul littéral permet de :\n- Généraliser des formules (aire, périmètre, volume)\n- Résoudre des problèmes avec des valeurs inconnues\n- Simplifier des calculs répétitifs\n\n**Exemple pratique :**\n- Prix de 5 oranges : 5x\n- Prix de 3 bananes : 3y\n- Prix total : 5x + 3y\n\n### Réduction d'expressions\n\n**Règle :** On peut additionner ou soustraire uniquement les termes de même nature.\n\n**Exemples :**\n- 3x + 5x = 8x\n- 7a - 2a = 5a\n- 4x + 2y - x + 3y = 3x + 5y\n- 2x + 5 - x + 3 = x + 8\n\n**Attention :**\n- 3x + 2y ne peut PAS se réduire (termes différents)\n- 5x + 2 ne peut PAS se réduire (x et nombre)\n\n### Développement simple\n\nDévelopper = transformer un produit en somme.\n\n**Règle de distributivité :**\nk(a + b) = ka + kb\nk(a - b) = ka - kb\n\n**Exemples :**\n- 3(x + 2) = 3x + 6\n- 5(2a - 3) = 10a - 15\n- x(x + 4) = x² + 4x\n\n### Substitution\nCalculer la valeur d'une expression pour une valeur donnée.\n\n**Exemple :**\nPour x = 3, calcule 2x + 5\n2 × 3 + 5 = 6 + 5 = 11",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Lettre = nombre inconnu",
+    "On additionne uniquement les termes de même nature",
+    "k(a + b) = ka + kb (distributivité)",
+    "Substitution : remplacer la lettre par sa valeur"
+  ],
+  "exercise": {
+    "answer": "\n**Solution :**\nRegroupons les termes de même nature :\n- Termes en x : 5x - 2x = 3x\n- Termes en y : 3y + y = 4y\n- Nombre : 4\n\nExpression réduite : 3x + 4y + 4\n\n**Réponse : 3x + 4y + 4**\n        ",
+    "question": "Réduis l'expression : 5x + 3y - 2x + y + 4"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Réduis : 7a + 3a",
+      "options": [
+        "10a",
+        "10a²",
+        "21a",
+        "7a + 3"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Développe : 4(x + 2)",
+      "options": [
+        "4x + 2",
+        "4x + 6",
+        "4x + 8",
+        "x + 8"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Pour x = 2, calcule 3x + 5",
+      "options": [
+        "8",
+        "10",
+        "11",
+        "13"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "maths-sixieme-droites-et-points",
+  "title": "Droites et points",
+  "summary": "Un architecte d'Abidjan doit dessiner les plans d'une maison. Quels sont les éléments géométriques de base qu'il utilise ?",
+  "lesson": "## Droites et points\n\n### Le point\n\nUn point est représenté par une croix (×) ou un gros point (•).\nOn le nomme avec une **lettre majuscule** : A, B, C...\n\n### La droite\n\nUne droite est **illimitée** dans les deux sens (pas de début ni de fin).\n\n**Notation :** (AB) ou (d)\n- (AB) : droite passant par les points A et B\n- (d) : droite nommée d\n\n**Propriété :** Deux points distincts définissent une seule droite.\n\n### La demi-droite\n\nUne demi-droite est **limitée d'un côté** seulement.\n\n**Notation :** [AB)\n- A est l'**origine** de la demi-droite\n- La demi-droite part de A et passe par B\n\n### Droites sécantes\n\nDeux droites sont **sécantes** si elles se coupent en un point.\n\n### Droites parallèles\n\nDeux droites sont **parallèles** si elles ne se coupent jamais (même distance partout).\n\n**Notation :** (AB) // (CD)\n**Se lit :** \"(AB) parallèle à (CD)\"\n\n**Propriétés :**\n- Si (d1) // (d2) et (d2) // (d3), alors (d1) // (d3)\n- Par un point, on peut tracer une seule parallèle à une droite donnée\n\n### Droites perpendiculaires\n\nDeux droites sont **perpendiculaires** si elles se coupent en formant un **angle droit** (90°).\n\n**Notation :** (AB) ⊥ (CD)\n**Se lit :** \"(AB) perpendiculaire à (CD)\"\n\n**Propriétés :**\n- Si (d1) ⊥ (d2) et (d2) ⊥ (d3), alors (d1) // (d3)\n- Si (d1) ⊥ (d2) et (d1) // (d3), alors (d3) ⊥ (d2)\n- Par un point, on peut tracer une seule perpendiculaire à une droite donnée\n\n### Instruments de tracé\n\n- **Règle** : pour tracer des droites\n- **Équerre** : pour tracer des perpendiculaires et vérifier les angles droits\n- **Compas** : pour reporter des longueurs",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Droite illimitée : (AB) ou (d)",
+    "Demi-droite limitée d'un côté : [AB)",
+    "Parallèles (//) : ne se coupent jamais",
+    "Perpendiculaires (⊥) : angle droit (90°)"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Comment note-t-on une droite passant par A et B ?",
+      "options": [
+        "[AB]",
+        "(AB)",
+        "[AB)",
+        "{AB}"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Deux droites parallèles :",
+      "options": [
+        "Se coupent en un point",
+        "Se coupent en deux points",
+        "Ne se coupent jamais",
+        "Sont confondues"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "L'angle formé par deux droites perpendiculaires mesure :",
+      "options": [
+        "45°",
+        "90°",
+        "180°",
+        "360°"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-maths-1-mva49rjd",
+      "type": "mcq",
+      "prompt": "Soit deux points distincts $A$ et $B$. Combien de droites distinctes passent par ces deux points ?",
+      "options": [
+        "Une seule droite",
+        "Deux droites",
+        "Une infinité de droites",
+        "Aucune droite"
+      ],
+      "answer": 0,
+      "explanation": "Selon la propriété fondamentale de la géométrie euclidienne, deux points distincts définissent une unique droite. Il n'existe qu'un seul tracé possible reliant $A$ et $B$ à l'infini dans les deux sens."
+    },
+    {
+      "id": "auto-maths-3-mva49rjd",
+      "type": "mcq",
+      "prompt": "Si la droite $(d_1)$ est parallèle à la droite $(d_2)$ et que la droite $(d_2)$ est parallèle à la droite $(d_3)$, quelle est la relation entre $(d_1)$ et $(d_3)$ ?",
+      "options": [
+        "Elles sont perpendiculaires",
+        "Elles sont sécantes",
+        "Elles sont parallèles",
+        "Elles sont confondues"
+      ],
+      "answer": 2,
+      "explanation": "C'est la propriété de transitivité du parallélisme : si $(d_1) // (d_2)$ et $(d_2) // (d_3)$, alors $(d_1) // (d_3)$. Les droites $(d_1)$ et $(d_3)$ ne se coupent jamais et restent à distance constante."
+    },
+    {
+      "id": "auto-maths-4-mva49rjd",
+      "type": "mcq",
+      "prompt": "Par un point $M$ donné, combien de droites peut-on tracer qui soient perpendiculaires à une droite $(d)$ donnée ?",
+      "options": [
+        "Une seule",
+        "Deux",
+        "Une infinité",
+        "Aucune"
+      ],
+      "answer": 0,
+      "explanation": "En géométrie plane, par un point quelconque (sur la droite ou hors de la droite), on ne peut tracer qu'une unique droite perpendiculaire à une droite donnée. Cette unicité est une propriété fondamentale de l'orthogonalité."
+    },
+    {
+      "id": "auto-maths-5-mva49rjd",
+      "type": "mcq",
+      "prompt": "Deux droites sont dites sécantes si et seulement si :",
+      "options": [
+        "Elles ne se coupent jamais",
+        "Elles se coupent en un point unique",
+        "Elles sont confondues",
+        "Elles forment un angle de $45^\\circ$"
+      ],
+      "answer": 1,
+      "explanation": "La définition des droites sécantes exige qu'elles aient exactement un point commun. Si elles n'ont aucun point commun, elles sont parallèles ; si elles ont tous leurs points communs, elles sont confondues."
+    }
+  ]
+}

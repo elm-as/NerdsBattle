@@ -1,0 +1,283 @@
+{
+  "id": "maths-terminale-fonctions-exponentielles-et-fonctions-puissances",
+  "title": "Fonctions exponentielles et fonctions puissances",
+  "summary": "Pour son premier stage pratique dans l'infirmerie de ton établissement, un étudiant en médecine reçoit un élève malade et lui donne un médicament. La fonction qui modélise la masse $M$, en mg, de ce médicament encore présente dans son sang $t$ heures après sa prise est $M(t) = 50 \\\\cdot e^{-0.75t}$. Pour prescrire d'autres médicaments plus tard, le stagiaire désire visualiser cette masse $M$ en fonction du temps $t$. Il sollicite le professeur de SVT, qui associe la classe au projet. Motivés, les élèves déc",
+  "lesson": "## 1. La fonction exponentielle népérienne\n\n**Définition (comme réciproque) :** La fonction **exponentielle népérienne**, notée $\\\\exp$ ou $x \\\\mapsto e^x$, est la fonction réciproque de la fonction logarithme népérien.\nAinsi, pour tout $x \\\\in \\\\mathbb{R}$ et tout $y > 0$ :\n$$y = e^x \\\\iff x = \\\\ln y$$\n\n**Conséquences immédiates :**\n- Domaine de définition : $\\\\mathbb{R}$. Domaine d'arrivée : $]0, +\\\\infty[$.\n- $e^0 = 1$ (car $\\\\ln 1 = 0$).\n- $e^1 = e \\\\approx 2.71828$.\n- La fonction $\\\\exp$ est **strictement croissante** sur $\\\\mathbb{R}$ (car $\\\\ln$ l'est et elles sont réciproques).\n\n## 2. Propriétés algébriques fondamentales\n\nPour tous réels $x$ et $y$, et pour tout $n \\\\in \\\\mathbb{Z}$ :\n\n1. **Transformation des sommes en produits :**\n$e^{x+y} = e^x \\\\cdot e^y$.\n\n2. **Exponentielle d'une différence :**\n$e^{x-y} = \\\\frac{e^x}{e^y}$.\n\n3. **Exponentielle d'un produit par un entier :**\n$e^{nx} = (e^x)^n$.\n\n**Relation avec $\\\\ln$ (équations fonctionnelles réciproques) :**\n- $\\\\forall x \\\\in \\\\mathbb{R}, \\\\ln(e^x) = x$.\n- $\\\\forall x > 0, e^{\\\\ln x} = x$.\n\n## 3. Étude de la fonction $\\\\exp$\n\n**Dérivée :** La fonction $\\\\exp$ est dérivable sur $\\\\mathbb{R}$ et $\\\\exp'(x) = \\\\exp(x)$.\nC'est l'unique fonction (à une constante multiplicative près) égale à sa propre dérivée.\n\n**Sens de variation :** $\\\\exp'(x) = e^x > 0$, donc $\\\\exp$ est strictement croissante sur $\\\\mathbb{R}$.\n\n**Limites :**\n- $\\\\lim_{x \\\to +\\\\infty} e^x = +\\\\infty$.\n- $\\\\lim_{x \\\to -\\\\infty} e^x = 0^+$.\nL'axe des abscisses ($y=0$) est donc asymptote horizontale en $-\\\\infty$.\n\n**Représentation graphique :**\n```mathgraph\n{\n  \"type\": \"function\",\n  \"title\": \"Fonction exponentielle népérienne\",\n  \"xRange\": [-3, 3],\n  \"yRange\": [-1, 10],\n  \"functions\": [\n    { \"expression\": \"exp(x)\", \"color\": \"#8884d8\", \"name\": \"exp(x) = e^x\" }\n  ],\n  \"showGrid\": true,\n  \"showAxes\": true,\n  \"asymptotes\": [\n    { \"type\": \"horizontal\", \"y\": 0 }\n  ],\n  \"points\": [\n    { \"x\": 0, \"y\": 1, \"label\": \"(0,1)\" },\n    { \"x\": 1, \"y\": 2.718, \"label\": \"(1,e)\" }\n  ]\n}\n```\n\n## 4. Fonction exponentielle de base $a$ ($a>0$, $a\\\neq 1$)\n\n**Définition :** Pour $a > 0$ et $a \\\neq 1$, la fonction exponentielle de base $a$ est définie par :\n$$\\\\forall x \\\\in \\\\mathbb{R}, \\\\, a^x = e^{x \\\\ln a}$$\n\n**Cas particuliers :**\n- Si $a = e$, on retrouve l'exponentielle népérienne.\n- Si $a > 1$, alors $\\\\ln a > 0$ et la fonction $x \\\\mapsto a^x$ est strictement croissante.\n- Si $0 < a < 1$, alors $\\\\ln a < 0$ et la fonction $x \\\\mapsto a^x$ est strictement décroissante.\n\n**Propriétés algébriques :** Identiques à celles de $\\\\exp$ : $a^{x+y}=a^x a^y$, $a^{x-y}=a^x/a^y$, $(a^x)^y=a^{xy}$, etc.\n\n## 5. Fonctions puissances $x \\\\mapsto x^{\\\\alpha}$ ($\\\\alpha \\\\in \\\\mathbb{R}^*$)\n\n**Définition :** Pour $x > 0$ et $\\\\alpha \\\\in \\\\mathbb{R}$, on pose :\n$$x^{\\\\alpha} = e^{\\\\alpha \\\\ln x}$$\n\n**Remarque :** Cette définition étend la définition déjà connue pour $\\\\alpha \\\\in \\\\mathbb{Q}$.\n\n**Étude selon $\\\\alpha$ :**\n- Si $\\\\alpha > 0$ : $\\\\lim_{x \\\to 0^+} x^{\\\\alpha} = 0$ et $\\\\lim_{x \\\to +\\\\infty} x^{\\\\alpha} = +\\\\infty$.\n- Si $\\\\alpha < 0$ : $\\\\lim_{x \\\to 0^+} x^{\\\\alpha} = +\\\\infty$ et $\\\\lim_{x \\\to +\\\\infty} x^{\\\\alpha} = 0^+$.\n- Dérivée : $(x^{\\\\alpha})' = \\\\alpha x^{\\\\alpha - 1}$ pour $x>0$.\n\n```mathgraph\n{\n  \"type\": \"function\",\n  \"title\": \"Fonctions puissances x^α\",\n  \"xRange\": [0, 3],\n  \"yRange\": [0, 5],\n  \"functions\": [\n    { \"expression\": \"x^2\", \"color\": \"#8884d8\", \"name\": \"α=2 (croissance rapide)\" },\n    { \"expression\": \"sqrt(x)\", \"color\": \"#82ca9d\", \"name\": \"α=0.5 (croissance lente)\" },\n    { \"expression\": \"1/x\", \"color\": \"#ff7300\", \"name\": \"α=-1 (décroissante)\" }\n  ],\n  \"showGrid\": true,\n  \"showAxes\": true\n}\n```\n\n## 6. Croissance comparée\n\n**Limites fondamentales en $+\\\\infty$ :**\n1. Pour tout $n \\\\in \\\\mathbb{N}^*$ : $\\\\lim_{x \\\to +\\\\infty} \\\\frac{e^x}{x^n} = +\\\\infty$.\n   L'exponentielle croît **beaucoup plus vite** que toute puissance de $x$.\n2. $\\\\lim_{x \\\to +\\\\infty} \\\\frac{\\\\ln x}{x^n} = 0$ (déjà vue).\n\n**Limites en $-\\\\infty$ :** $\\\\lim_{x \\\to -\\\\infty} x^n e^x = 0$ pour tout $n$ (car $e^x$ tend vers 0 très vite).\n\n**Limites en $0$ :** $\\\\lim_{x \\\to 0^+} x^n \\\\ln x = 0$ pour $n>0$.\n\n**Hiérarchie en $+\\\\infty$ :** Pour $x$ très grand : $\\\\ln x \\\\ll x^n \\\\ll e^x$.\n\n## 7. Dérivation et primitivation\n\n**Dérivée de $\\\\exp \\\\circ u$ :** Si $u$ est dérivable, $(e^{u(x)})' = u'(x) e^{u(x)}$.\n\n**Dérivée de $u^{\\\\alpha}$ :** Si $u$ est dérivable et strictement positive, $(u(x)^{\\\\alpha})' = \\\\alpha u'(x) u(x)^{\\\\alpha-1}$.\n\n**Primitives à connaître :**\n- $\\\\int e^{u(x)} u'(x) \\\\, dx = e^{u(x)} + C$.\n- Pour $\\\\alpha \\\neq -1$, $\\\\int u(x)^{\\\\alpha} u'(x) \\\\, dx = \\\\frac{u(x)^{\\\\alpha+1}}{\\\\alpha+1} + C$.\n\n## 8. Résolution de la situation et exemples ivoiriens\n\n**Pour la situation d'apprentissage :** $M(t)=50 e^{-0.75t}$.\n- C'est une fonction exponentielle décroissante (base $e^{-0.75} \\\\approx 0.472 < 1$).\n- $M(0)=50$ mg (dose initiale).\n- $\\\\lim_{t \\\to +\\\\infty} M(t)=0$ (le médicament est éliminé à long terme).\n- Demi-vie : temps $t_{1/2}$ tel que $M(t_{1/2})=25$.\n  $50 e^{-0.75 t_{1/2}} = 25 \\\\iff e^{-0.75 t_{1/2}} = 0.5 \\\\iff -0.75 t_{1/2} = \\\\ln(0.5) \\\\iff t_{1/2} \\\\approx 0.924$ heure.\n\n**Exemple de modélisation en Côte d'Ivoire :** La production de cacao dans une région suit un modèle de croissance exponentielle initiale : $P(t)=P_0 e^{0.04t}$, où $t$ est en années et $P_0$ la production initiale.\n1. Si $P_0=1000$ tonnes, quelle sera la production après 5 ans ? $P(5)=1000 e^{0.2} \\\\approx 1221$ tonnes.\n2. Combien d'années pour doubler la production ? Résoudre $e^{0.04t}=2 \\\\Rightarrow t=\\\\frac{\\\\ln 2}{0.04} \\\\approx 17.3$ ans.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "La fonction exponentielle népérienne $\\\\exp(x)=e^x$ est la réciproque de $\\\\ln x$. Elle vérifie $e^{x+y}=e^x e^y$ et $e^{\\\\ln x}=x$.",
+    "Propriété remarquable : $\\\\exp'(x)=\\\\exp(x)$. Elle est strictement croissante, avec $\\\\lim_{x\\\\to -\\\\infty} e^x=0$ et $\\\\lim_{x\\\\to +\\\\infty} e^x=+\\\\infty$.",
+    "La fonction exponentielle de base $a$ est définie par $a^x=e^{x \\\\ln a}$. Elle est croissante si $a>1$, décroissante si $0<a<1$.",
+    "La fonction puissance $x^{\\\\alpha}$ ($x>0$, $\\\\alpha\\\\in\\\\mathbb{R}$) est définie par $e^{\\\\alpha \\\\ln x}$. Sa dérivée est $\\\\alpha x^{\\\\alpha-1}$.",
+    "Croissance comparée : En $+\\\\infty$, $e^x$ croît plus vite que $x^n$, qui croît plus vite que $\\\\ln x$ : $\\\\lim \\\\frac{e^x}{x^n}=+\\\\infty$ et $\\\\lim \\\\frac{\\\\ln x}{x^n}=0$.",
+    "Dérivées : $(e^{u})'=u' e^{u}$ et $(u^{\\\\alpha})'=\\\\alpha u' u^{\\\\alpha-1}$ (pour $u>0$).",
+    "Primitives : $\\\\int u' e^u = e^u + C$ et pour $\\\\alpha\\\neq -1$, $\\\\int u' u^{\\\\alpha} = \\\\frac{u^{\\\\alpha+1}}{\\\\alpha+1}+C$.",
+    "Les modèles exponentiels sont omniprésents (décroissance radioactive, croissance démographique, intérêts composés, pharmacocinétique)."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La fonction $\\\\exp$ est définie sur :",
+      "options": [
+        "$]0, +\\\\infty[$",
+        "$\\\\mathbb{R}$",
+        "$[0, +\\\\infty[$",
+        "$\\\\mathbb{R}^*$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "$e^{\\\\ln 5 + \\\\ln 2}$ est égal à :",
+      "options": [
+        "7",
+        "10",
+        "$\\\\ln 10$",
+        "$e^{\\\\ln 7}$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La dérivée de $f(x)=e^{-3x}$ est :",
+      "options": [
+        "$e^{-3x}$",
+        "$-3e^{-3x}$",
+        "$3e^{-3x}$",
+        "$-e^{-3x}$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "$\\\\lim_{x \\\\to -\\\\infty} x^2 e^x$ est égale à :",
+      "options": [
+        "$+\\\\infty$",
+        "$-\\\\infty$",
+        "0",
+        "1"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Une primitive de $g(x)=2x e^{x^2}$ est :",
+      "options": [
+        "$e^{x^2}$",
+        "$\\\\frac{1}{2}e^{x^2}$",
+        "$x^2 e^{x^2}$",
+        "$2e^{x^2}$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Pour $0<a<1$, la fonction $x \\\\mapsto a^x$ est :",
+      "options": [
+        "Croissante",
+        "Décroissante",
+        "Constante",
+        "Paire"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "La fonction $h(x)=x^{\\\\sqrt{2}}$ est définie pour :",
+      "options": [
+        "$x \\\\in \\\\mathbb{R}$",
+        "$x \\\\geq 0$",
+        "$x > 0$",
+        "$x \\\\geq 1$"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Si $f(x)=e^{2x}-e^{-2x}$, alors $f'(0)$ vaut :",
+      "options": [
+        "0",
+        "2",
+        "4",
+        "-4"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "L'équation $e^{2x} = 5$ a pour solution :",
+      "options": [
+        "$\\\\frac{\\\\ln 5}{2}$",
+        "$\\\\ln 5$",
+        "$\\\\ln 10$",
+        "$e^{\\\\frac{5}{2}}$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "En $+\\\\infty$, laquelle de ces fonctions croît le plus vite ?",
+      "options": [
+        "$x^{100}$",
+        "$e^{0.01x}$",
+        "$\\\\ln(x^{1000})$",
+        "$x \\\\ln x$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "$e^0$ est égal à :",
+      "options": [
+        "0",
+        "1",
+        "e",
+        "+∞"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "La dérivée de $e^{3x}$ est :",
+      "options": [
+        "$e^{3x}$",
+        "$3e^{3x}$",
+        "$3e^x$",
+        "$e^{3}$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "$\\\\lim_{x\\\\to-\\\\infty} e^x$ =",
+      "options": [
+        "+∞",
+        "-∞",
+        "0",
+        "1"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Si $0<a<1$, la fonction $x\\\\mapsto a^x$ est :",
+      "options": [
+        "croissante",
+        "décroissante",
+        "constante",
+        "périodique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Simplifier $\\\\frac{e^{2x}\\\\times e^{-x}}{e^x}$ :",
+      "options": [
+        "1",
+        "$e^x$",
+        "$e^{2x}$",
+        "$e^{-x}$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "La solution de $e^{2x}=e^5$ est :",
+      "options": [
+        "$x=5$",
+        "$x=2,5$",
+        "$x=\\\\frac{5}{2}$",
+        "$x=\\\\ln5$"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Pour $x>0$, $x^{1/2}$ s'écrit aussi :",
+      "options": [
+        "$\\\\sqrt{x}$",
+        "$\\\\frac{1}{x^2}$",
+        "$x^2$",
+        "$\\\\ln x$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "La fonction $x\\\\mapsto 0,5^x$ est :",
+      "options": [
+        "croissante",
+        "décroissante",
+        "constante",
+        "ni l'un ni l'autre"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "$\\\\lim_{x\\\\to+\\\\infty}\\\\frac{e^x}{x^3}$ =",
+      "options": [
+        "0",
+        "1",
+        "+∞",
+        "-∞"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Pour résoudre $2^{x-1}=8$, on écrit $8=2^3$, donc :",
+      "options": [
+        "$x-1=3$",
+        "$x-1=\\\\ln3$",
+        "$2(x-1)=3$",
+        "$x-1=2^3$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

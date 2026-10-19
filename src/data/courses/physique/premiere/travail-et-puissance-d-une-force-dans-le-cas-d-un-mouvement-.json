@@ -1,0 +1,280 @@
+{
+  "id": "physique-premiere-travail-et-puissance-d-une-force-dans-le-cas-d-un-mouvement-",
+  "title": "TRAVAIL ET PUISSANCE D’UNE FORCE DANS LE CAS D’UN MOUVEMENT DE ROTATION AUTOUR D’UN AXE FIXE",
+  "summary": "Un élève du Lycée Mixte 1 de Yamoussoukro observe le chauffeur de son car scolaire. Après une crevaison, le chauffeur utilise d'abord une clé en croix puis l'allonge avec une barre de fer pour dévisser les écrous de la roue. Intrigué par cette astuce qui facilite le travail, l'élève décide avec sa classe d'étudier les mouvements de rotation et l'effet du bras de levier.",
+  "lesson": "## 1. Introduction\n\nLes mouvements de rotation sont omniprésents dans la vie quotidienne et industrielle en Côte d'Ivoire : moteurs de véhicules, turbines des barrages (comme celui de Soubré), moulins à manioc, ventilateurs, etc. Comprendre les lois qui régissent ces mouvements permet d'optimiser les machines et les outils.\n\n## 2. Caractéristiques du mouvement de rotation\n\n### 2.1 Grandeurs angulaires\n- **Abscisse angulaire θ** : angle balayé (en rad)\n- **Vitesse angulaire ω** : $$\\\\omega = \\\\frac{d\\\theta}{dt}$$ (en rad/s)\n- **Accélération angulaire α** : $$\\\\alpha = \\\\frac{d\\\\omega}{dt}$$ (en rad/s²)\n\n### 2.2 Grandeurs linéaires\nPour un point à distance R de l'axe :\n- **Abscisse curviligne s** : $$s = R \\\times \\\theta$$\n- **Vitesse linéaire v** : $$v = R \\\times \\\\omega$$\n- **Accélération tangentielle at** : $$a_t = R \\\times \\\\alpha$$\n\n**Description du schéma 1:** Représenter un solide en rotation autour d'un axe Δ fixe. Montrer un point M à distance R de l'axe. Indiquer l'angle θ, l'abscisse curviligne s = Rθ, et le vecteur vitesse linéaire v tangent à la trajectoire. Ajouter les vecteurs ω (selon la règle de la main droite) et R.\n\n## 3. Moment d'une force par rapport à un axe\n\n### 3.1 Définition\nLe moment d'une force $$\\\\vec{F}$$ par rapport à un axe Δ est :\n$$M_{\\\\Delta}(\\\\vec{F}) = F \\\times d \\\times \\\\sin \\\\alpha$$\noù d est la distance entre l'axe et la droite d'action de la force, et α l'angle entre $$\\\\vec{F}$$ et le bras de levier.\n\n### 3.2 Cas particulier important\nPour une force perpendiculaire au bras de levier :\n$$M_{\\\\Delta}(\\\\vec{F}) = F \\\times d$$\n\n### 3.3 Unité\nLe moment s'exprime en newton-mètre (N·m)\n\n## 4. Couple de forces\n\n### 4.1 Définition\nUn couple est un système de deux forces parallèles, de même intensité, de sens opposés, dont les droites d'action sont distinctes.\n\n### 4.2 Moment d'un couple\nLe moment d'un couple est indépendant du point de référence :\n$$M_{\\\\Delta}(\\\text{couple}) = F \\\times D$$\noù D est la distance entre les droites d'action des deux forces (bras de levier du couple).\n\n**Description du schéma 2:** Représenter un couple de forces agissant sur un volant. Deux forces F1 et F2 égales en intensité, parallèles, de sens opposés, appliquées à distance D l'une de l'autre. Montrer que le moment total M = F × D. Ajouter l'axe de rotation au centre.\n\n## 5. Travail d'une force dans un mouvement de rotation\n\n### 5.1 Expression générale\nPour une force agissant sur un solide en rotation autour d'un axe fixe :\n$$W(\\\\vec{F}) = M_{\\\\Delta}(\\\\vec{F}) \\\times \\\theta$$\noù θ est l'angle de rotation en radians.\n\n### 5.2 Démonstration\nÀ partir du travail élémentaire : $$dW = \\\\vec{F} \\\\cdot d\\\\vec{OM}$$\nEn coordonnées polaires : $$dW = F_t \\\times R \\\times d\\\theta = M_{\\\\Delta}(\\\\vec{F}) \\\times d\\\theta$$\nDonc : $$W = \\\\int M_{\\\\Delta}(\\\\vec{F}) \\\\, d\\\theta$$\nPour M constant : $$W = M_{\\\\Delta}(\\\\vec{F}) \\\times \\\theta$$\n\n### 5.3 Application : clé de serrage\nPour dévisser un écrou nécessitant un couple de 50 N·m avec une clé de 0,25 m :\n$$F = \\\\frac{M}{d} = \\\\frac{50}{0,25} = 200 \\\\, \\\text{N}$$\nAvec une barre d'allonge de 0,5 m : $$F = \\\\frac{50}{0,5} = 100 \\\\, \\\text{N}$$ (moins d'effort !)\n\n## 6. Puissance d'une force dans un mouvement de rotation\n\n### 6.1 Expression\n$$P = \\\\frac{dW}{dt} = M_{\\\\Delta}(\\\\vec{F}) \\\times \\\\frac{d\\\theta}{dt} = M_{\\\\Delta}(\\\\vec{F}) \\\times \\\\omega$$\n\n### 6.2 Unités\n- P en watts (W)\n- M en newton-mètre (N·m)\n- ω en radian par seconde (rad/s)\n\n**Description du schéma 3:** Montrer une turbine hydraulique (comme celles du barrage de Buyo) soumise à un couple M dû à la force de l'eau. La turbine tourne à vitesse angulaire ω. La puissance développée est P = M × ω. Indiquer le flux d'eau, les pales de la turbine, et l'axe de rotation.\n\n## 7. Applications en contexte ivoirien\n\n### 7.1 Moteurs électriques\nUn moteur de pompe à eau utilisé dans les villages près de Korhogo développe un couple de 15 N·m à 1500 tr/min. Sa puissance est :\n$$\\\\omega = 1500 \\\times \\\\frac{2\\\\pi}{60} = 157 \\\\, \\\text{rad/s}$$\n$$P = M \\\times \\\\omega = 15 \\\times 157 = 2355 \\\\, \\\text{W} \\\\approx 2,4 \\\\, \\\text{kW}$$\n\n### 7.2 Moulins à manioc\nLes moulins traditionnels utilisent un système de rotation avec un bras de levier. Si une femme applique une force de 100 N à 1 m de l'axe, et fait 2 tours (θ = 4π rad), le travail effectué est :\n$$M = F \\\times d = 100 \\\times 1 = 100 \\\\, \\\text{N·m}$$\n$$W = M \\\times \\\theta = 100 \\\times 4\\\\pi = 1257 \\\\, \\\text{J}$$\n\n### 7.3 Éoliennes\nDans les zones ventées comme à Man, les éoliennes convertissent l'énergie cinétique du vent en couple sur un axe.\n\n## 8. Comparaison translation/rotation\n\n### 8.1 Analogies\n| Translation | Rotation |\n|------------|----------|\n| Force F | Moment M |\n| Masse m | Moment d'inertie J |\n| Vitesse v | Vitesse angulaire ω |\n| Travail W = F·d | Travail W = M·θ |\n| Puissance P = F·v | Puissance P = M·ω |\n\n### 8.2 Conversion mouvement\nLes systèmes bielle-manivelle (moteurs) convertissent la rotation en translation et vice-versa.\n\n## 9. Méthodologie de résolution\n\n### 9.1 Étapes\n1. Identifier l'axe de rotation\n2. Calculer le moment de chaque force\n3. Déterminer le moment résultant\n4. Calculer le travail si rotation d'un angle donné\n5. Calculer la puissance si vitesse angulaire connue\n\n### 9.2 Attention\n- Toujours exprimer θ en radians\n- Vérifier le signe du moment (sens de rotation)\n- Distinguer vitesse angulaire (rad/s) et fréquence (tr/min)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Le moment d'une force mesure sa capacité à faire tourner un solide",
+    "Le travail en rotation s'exprime par W = M × θ (θ en radians)",
+    "La puissance en rotation s'exprime par P = M × ω",
+    "Un couple est un système de deux forces parallèles et opposées",
+    "Le bras de levier augmente l'efficacité d'une force pour produire une rotation"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "L'unité du moment d'une force est :",
+      "options": [
+        "Joule (J)",
+        "Watt (W)",
+        "Newton-mètre (N·m)",
+        "Radian par seconde (rad/s)"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Pour une force appliquée à un solide en rotation, le travail s'exprime par :",
+      "options": [
+        "W = F × d",
+        "W = M × θ",
+        "W = F × v",
+        "W = m × g × h"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La puissance en rotation s'exprime par :",
+      "options": [
+        "P = F × ω",
+        "P = M × θ",
+        "P = M × ω",
+        "P = F × v"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Un angle de 180° équivaut à :",
+      "options": [
+        "π rad",
+        "π/2 rad",
+        "2π rad",
+        "3π/2 rad"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Un couple de forces est caractérisé par :",
+      "options": [
+        "Deux forces de même direction et sens",
+        "Deux forces parallèles et de sens opposés",
+        "Une seule force appliquée",
+        "Deux forces perpendiculaires"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "La vitesse angulaire de 300 tr/min équivaut à :",
+      "options": [
+        "10π rad/s",
+        "5π rad/s",
+        "20π rad/s",
+        "π rad/s"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Pour augmenter le moment d'une force, on peut :",
+      "options": [
+        "Diminuer le bras de levier",
+        "Augmenter le bras de levier",
+        "Changer l'unité",
+        "Diminuer la force"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Le travail d'un couple constant sur un tour complet (360°) est :",
+      "options": [
+        "Nul",
+        "M × π",
+        "M × 2π",
+        "M × 4π"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Un moteur développe un couple de 50 N·m à 150 rad/s. Sa puissance est :",
+      "options": [
+        "3 kW",
+        "7,5 kW",
+        "10 kW",
+        "15 kW"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Dans un mouvement de rotation, la vitesse linéaire v d'un point à distance R de l'axe est :",
+      "options": [
+        "v = R × ω",
+        "v = ω/R",
+        "v = R/ω",
+        "v = R² × ω"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quelle est l'unité SI du travail d'une force ?",
+      "options": [
+        "Watt (W)",
+        "Joule (J)",
+        "Newton (N)",
+        "Pascal (Pa)"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Un ouvrier porte horizontalement un sac. Le travail du poids est :",
+      "options": [
+        "Moteur",
+        "Résistant",
+        "Nul",
+        "Variable"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "La puissance instantanée d'une force s'exprime par :",
+      "options": [
+        "P = F × v",
+        "P = F × v × cosθ",
+        "P = W/Δt",
+        "P = m × g × h"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Pour un angle de 180° entre force et déplacement, le travail est :",
+      "options": [
+        "Maximum moteur",
+        "Maximum résistant",
+        "Nul",
+        "Toujours positif"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Le travail du poids d'un corps qui descend est :",
+      "options": [
+        "Toujours nul",
+        "Toujours positif",
+        "Toujours négatif",
+        "Dépend de la vitesse"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "1 kilowatt-heure (kWh) équivaut à combien de joules ?",
+      "options": [
+        "3,6 × 10³ J",
+        "3,6 × 10⁶ J",
+        "1 × 10³ J",
+        "1 × 10⁶ J"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Une force de 50 N déplace son point d'application de 10 m. Si l'angle est de 60°, le travail vaut :",
+      "options": [
+        "500 J",
+        "250 J",
+        "433 J",
+        "50 J"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "La puissance moyenne se calcule par :",
+      "options": [
+        "P = F × v",
+        "P = W × t",
+        "P = W/t",
+        "P = F/t"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Un tracteur de 100 ch développe une puissance d'environ :",
+      "options": [
+        "73,6 kW",
+        "100 kW",
+        "136 kW",
+        "50 kW"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Le travail d'une force perpendiculaire au déplacement est :",
+      "options": [
+        "Toujours maximal",
+        "Toujours nul",
+        "Variable",
+        "Toujours négatif"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

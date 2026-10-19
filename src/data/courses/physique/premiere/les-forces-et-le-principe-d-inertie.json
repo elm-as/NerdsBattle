@@ -1,0 +1,58 @@
+{
+  "id": "physique-premiere-les-forces-et-le-principe-d-inertie",
+  "title": "Les forces et le principe d'inertie",
+  "summary": "Un livre posé sur une table reste immobile. Quelles sont les forces qui s'exercent sur lui ? Pourquoi est-il en équilibre ?",
+  "lesson": "## Notion de force\n\n### Définition\n\nUne **force** est une action mécanique exercée par un objet sur un autre objet.\n\n**Effets d'une force :**\n- Mettre en mouvement un objet\n- Arrêter un objet\n- Modifier sa trajectoire\n- Déformer un objet\n\n### Caractéristiques d'une force\n\nUne force est caractérisée par :\n1. **Point d'application** : où elle s'exerce\n2. **Direction** : droite selon laquelle elle agit\n3. **Sens** : orientation sur la droite\n4. **Intensité** : valeur en Newton (N)\n\n**Représentation graphique :**\nUne force se représente par un vecteur (flèche).\n\n### Mesure d'une force\n\n**Instrument :** Dynamomètre\n**Unité :** Newton (N)\n\n## Le poids\n\n**Formule :**\n```\nP = m × g\n```\n\nOù :\n- **P** = poids (N)\n- **m** = masse (kg)\n- **g** = 10 N/kg\n\n**Exemple :**\n```\nm = 5 kg → P = 50 N\n```\n\n## Le principe d'inertie\n\n### Énoncé\n\n**Si un objet est immobile ou en MRU, alors ΣF = 0**\n\n### Équilibre\n\nPour qu'un objet soit en équilibre :\n```\nΣF = 0\n```\n\n### Exemple\n\nLivre sur table (m = 2 kg) :\n- Poids : P = 20 N ⬇\n- Réaction : R = 20 N ⬆\n- Équilibre : R + P = 0 ✓",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Force en Newton (N)",
+    "P = m × g",
+    "Équilibre : ΣF = 0",
+    "Principe d'inertie"
+  ],
+  "exercise": {
+    "question": "Un objet de 10 kg est suspendu. Quelle est la tension du fil ?",
+    "answer": "\n**Solution :**\n\nP = m × g = 10 × 10 = 100 N\n\nÉquilibre : T = P = 100 N\n\n**Réponse : 100 N**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Unité de la force ?",
+      "options": [
+        "kg",
+        "N",
+        "W",
+        "J"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Poids d'un objet de 6 kg ?",
+      "options": [
+        "6 N",
+        "60 N",
+        "600 N",
+        "0,6 N"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Condition d'équilibre ?",
+      "options": [
+        "ΣF > 0",
+        "ΣF = 0",
+        "ΣF < 0",
+        "ΣF ≠ 0"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

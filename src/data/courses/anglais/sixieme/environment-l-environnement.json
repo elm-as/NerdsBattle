@@ -1,0 +1,58 @@
+{
+  "id": "anglais-sixieme-environment-l-environnement",
+  "title": "Environment - L'environnement",
+  "summary": "Marie dit : 'We should protect the environment. We should plant trees.' Comment parler de l'environnement ?",
+  "lesson": "## Environment - L'environnement\n\n### Nature - La nature\n\n- **Tree** - arbre\n- **Plant** - plante\n- **Flower** - fleur\n- **Forest** - forêt\n- **River** - rivière\n- **Ocean** - océan\n- **Mountain** - montagne\n- **Sky** - ciel\n- **Sun** - soleil\n- **Rain** - pluie\n\n### Animals\n\n- **Bird** - oiseau\n- **Fish** - poisson\n- **Elephant** - éléphant\n- **Monkey** - singe\n- **Lion** - lion\n\n## Environmental Problems\n\n- **Pollution** - pollution\n- **Trash/Rubbish** - déchets\n- **Dirty** - sale\n- **Clean** - propre\n\n## Protecting the Environment\n\n**We should...** - Nous devrions...\n\n- We should **protect** the environment. - protéger\n- We should **plant trees**. - planter des arbres\n- We should **save water**. - économiser l'eau\n- We should **recycle**. - recycler\n- We should **pick up trash**. - ramasser les déchets\n\n**Don't...**\n\n- Don't **throw trash** on the ground.\n- Don't **waste water**.\n- Don't **cut trees**.\n\n## The Earth\n\n- **Earth** - Terre\n- **Planet** - planète\n- **World** - monde\n\n**We must take care of our planet.**",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Tree, plant, flower, forest, river",
+    "Pollution, trash, clean, dirty",
+    "We should + verbe pour les conseils",
+    "Protect, plant, save, recycle"
+  ],
+  "exercise": {
+    "question": "Traduis : 'Nous devrions protéger l'environnement. Nous devrions planter des arbres.'",
+    "answer": "\n**Solution :**\nWe should protect the environment. We should plant trees.\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'arbre' ?",
+      "options": [
+        "Plant",
+        "Flower",
+        "Tree",
+        "Forest"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Comment dire 'Nous devrions recycler' ?",
+      "options": [
+        "We must recycle",
+        "We should recycle",
+        "We can recycle",
+        "We will recycle"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'protéger' ?",
+      "options": [
+        "plant",
+        "save",
+        "protect",
+        "recycle"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

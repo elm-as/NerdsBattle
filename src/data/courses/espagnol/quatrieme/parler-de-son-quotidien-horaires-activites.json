@@ -1,0 +1,45 @@
+{
+  "id": "espagnol-quatrieme-parler-de-son-quotidien-horaires-activites",
+  "title": "Parler de son quotidien (horaires, activités)",
+  "summary": "¿Qué haces durante el día? (Que fais-tu pendant la journée ?)",
+  "lesson": "## Parler de son quotidien\n\n### L'heure\n\n- ¿Qué hora es? (Quelle heure est-il ?)\n- Son las tres (Il est trois heures)\n- Es la una (Il est une heure)\n- Son las cinco y media (Il est cinq heures et demie)\n- Son las siete menos cuarto (Il est sept heures moins le quart)\n\n### Verbes de la routine\n\n**Verbes pronominaux :**\n- levantarse (se lever)\n- ducharse (se doucher)\n- vestirse (s'habiller)\n- acostarse (se coucher)\n\n**Activités quotidiennes :**\n- desayunar (prendre le petit-déjeuner)\n- ir a la escuela (aller à l'école)\n- estudiar (étudier)\n- comer (déjeuner)\n- cenar (dîner)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Son las + heure pour l'heure",
+    "Verbes pronominaux : me levanto, te levantas...",
+    "Y media = et demie, y cuarto = et quart",
+    "Por la mañana/tarde/noche"
+  ],
+  "exercise": {
+    "question": "Décris ta journée typique avec les horaires.",
+    "answer": "Me levanto a las seis. Desayuno a las siete. Voy a la escuela a las ocho. Como a las doce. Vuelvo a casa a las cinco."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Pour dire 'Il est trois heures', on dit :",
+      "options": [
+        "Es la tres",
+        "Son las tres",
+        "Es las tres",
+        "Son la tres"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "'Me levanto' signifie :",
+      "options": [
+        "Je me lève",
+        "Je m'habille",
+        "Je me couche",
+        "Je me douche"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

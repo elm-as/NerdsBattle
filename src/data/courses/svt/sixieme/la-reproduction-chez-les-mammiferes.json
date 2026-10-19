@@ -1,0 +1,148 @@
+{
+  "id": "svt-sixieme-la-reproduction-chez-les-mammiferes",
+  "title": "La reproduction chez les mammifères",
+  "summary": "Des élèves veulent produire des lapins. Après accouplement d'un mâle et d'une femelle, ils constatent la présence de lapereaux. Ils cherchent à identifier les caractéristiques des sexes et à expliquer la survenue de ces nouveaux individus.",
+  "lesson": "## 🐇 La Reproduction chez les Mammifères\n\n### 1. Distinction des Sexes et Cellules Reproductrices\nLes mammifères se reproduisent par voie sexuée. La différence entre mâle et femelle s'observe par :\n* Caractères Sexuels Externes : Différences physiques visibles (ex: organes génitaux externes, présence de mamelles chez la femelle).\n* Caractères Sexuels Internes :\n  * Le mâle produit les spermatozoïdes (gamètes mobiles) dans les testicules.\n  * La femelle produit les ovules (gamètes immobiles) dans les ovaires.\n\n### 2. Étapes de la Fécondation\nLa reproduction nécessite trois étapes :\n1. Accouplement : Rapprochement physique des individus.\n2. Émission des Gamètes : Les spermatozoïdes sont déposés dans l'appareil reproducteur femelle.\n3. Fécondation : L'union d'un spermatozoïde et d'un ovule forme l'œuf. Cette union se fait à l'intérieur du corps de la femelle (ex: trompes de Fallope). On parle de fécondation interne.\n\n### 3. Le Développement et la Viviparité\n* Développement Interne : L'œuf fécondé se développe dans l'utérus de la mère. Il passe du stade œuf $\\\\rightarrow$ embryon $\\\\rightarrow$ fœtus.\n* Viviparité : Après la période de gestation, la femelle donne naissance à des jeunes déjà formés (lapereaux). C'est le mode de reproduction des mammifères, caractérisé par le développement interne.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Les cellules reproductrices sont les spermatozoïdes et les ovules.",
+    "La fécondation est toujours interne chez les mammifères.",
+    "Le développement interne mène à la viviparité."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Où a lieu la fécondation chez les mammifères ?",
+      "options": [
+        "Dans l'eau",
+        "À l'extérieur du corps",
+        "\"À l'intérieur du corps de la femelle\"",
+        "Dans l'utérus"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel terme désigne un développement qui se déroule dans l'utérus ?",
+      "options": [
+        "Développement Externe",
+        "\"Développement Interne\"",
+        "Oviparité",
+        "Ovule"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Le fœtus se développe à partir de quel stade précédent ?",
+      "options": [
+        "\"Embryon\"",
+        "Gamète",
+        "Ovule",
+        "Sperme"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Le mode de reproduction des mammifères est la...",
+      "options": [
+        "Oviparité",
+        "Fécondation externe",
+        "\"Viviparité\"",
+        "Germination"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Le spermatozoïde est une cellule reproductrice :",
+      "options": [
+        "Femelle immobile",
+        "\"Mâle mobile\"",
+        "Mâle immobile",
+        "Femelle mobile"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Comment appelle-t-on l'union du spermatozoïde et de l'ovule chez le lapin ?",
+      "options": [
+        "La Gestation",
+        "L'Accouplement",
+        "La Pollinisation",
+        "\"La Fécondation\""
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel mode de développement est caractéristique des mammifères ?",
+      "options": [
+        "Développement Externe",
+        "Oviparité",
+        "Boutonnement",
+        "\"Développement Interne\""
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Parmi ces éléments, lequel est produit par le mâle ?",
+      "options": [
+        "Le Fœtus",
+        "L'Ovule",
+        "\"Le Sperme\"",
+        "L'Embryon"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quelle structure est directement formée après la fécondation ?",
+      "options": [
+        "L'Embryon",
+        "Le Fœtus",
+        "\"L'Œuf (cellule-œuf)\"",
+        "Le Lapereau"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "La viviparité signifie que la naissance donne des jeunes...",
+      "options": [
+        "Qui sortent d'un œuf",
+        "\"Qui sont déjà formés\"",
+        "Qui se développent dans l'eau",
+        "Qui sont produits par la plante"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

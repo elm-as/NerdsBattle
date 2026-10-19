@@ -1,0 +1,58 @@
+{
+  "id": "maths-sixieme-angles",
+  "title": "Angles",
+  "summary": "Pour la préparation du tournoi de football au Lycée Moderne de DAOUKRO, les élèves suivent des séances d'entraînement pour les tirs au but. Comment déterminer les lignes limitant le champ de tirs ?",
+  "lesson": "## Les angles\n\n### Qu'est-ce qu'un angle ?\n\nUn **angle** est formé par deux demi-droites ayant la même origine.\n\n**Éléments d'un angle :**\n- Le **sommet** : origine commune des deux demi-droites\n- Les **côtés** : les deux demi-droites\n\n### Notation d'un angle\n\n**Trois façons de noter :**\n1. Avec 3 lettres : angle ABC ou ∠ABC (B est le sommet)\n2. Avec 1 lettre : angle B (si pas d'ambiguïté)\n3. Avec un symbole : angle x̂\n\n**Attention :** Dans ∠ABC, B est toujours au milieu (c'est le sommet).\n\n### Mesure d'un angle\n\nLa mesure d'un angle s'exprime en **degrés** (°).\n\n**Instrument :** Le rapporteur\n\n**Méthode :**\n1. Placer le centre du rapporteur sur le sommet\n2. Aligner le 0° avec un côté de l'angle\n3. Lire la mesure où passe l'autre côté\n\n### Types d'angles\n\n**1. Angle nul** : 0°\nLes deux côtés sont confondus.\n\n**2. Angle aigu** : entre 0° et 90°\nPlus petit qu'un angle droit.\n\n**3. Angle droit** : exactement 90°\nSymbolisé par un petit carré au sommet.\n**Notation :** ∠ABC = 90° ou (AB) ⊥ (BC)\n\n**4. Angle obtus** : entre 90° et 180°\nPlus grand qu'un angle droit.\n\n**5. Angle plat** : exactement 180°\nLes deux côtés forment une droite.\n\n**6. Angle rentrant** : entre 180° et 360°\n\n### Construction d'un angle\n\n**Avec le rapporteur :**\n1. Tracer un premier côté\n2. Placer le centre du rapporteur sur l'origine\n3. Repérer la mesure souhaitée\n4. Tracer le deuxième côté\n\n### La bissectrice d'un angle\n\nLa **bissectrice** d'un angle est la demi-droite qui partage l'angle en deux angles égaux.\n\n**Construction avec le rapporteur :**\n1. Mesurer l'angle\n2. Diviser par 2\n3. Tracer la demi-droite à cette mesure\n\n**Exemple :** Bissectrice d'un angle de 60°\n- Chaque angle formé mesure 60° ÷ 2 = 30°",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Angle : deux demi-droites de même origine",
+    "Mesure en degrés (°) avec le rapporteur",
+    "Angle droit = 90°, angle plat = 180°",
+    "Bissectrice : partage l'angle en deux parties égales"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Combien mesure un angle droit ?",
+      "options": [
+        "45°",
+        "90°",
+        "180°",
+        "360°"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Un angle de 120° est :",
+      "options": [
+        "Aigu",
+        "Droit",
+        "Obtus",
+        "Plat"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La bissectrice d'un angle de 80° forme deux angles de :",
+      "options": [
+        "20°",
+        "40°",
+        "60°",
+        "80°"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

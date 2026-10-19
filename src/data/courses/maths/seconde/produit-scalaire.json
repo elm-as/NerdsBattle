@@ -1,14 +1,96 @@
 {
   "id": "maths-seconde-produit-scalaire",
   "title": "Produit scalaire",
-  "summary": "Le produit scalaire est un outil puissant pour mesurer l'angle entre deux vecteurs et calculer des projections. Il permet de modéliser des situations géométriques et physiques comme le travail d'une force. Maîtrisez ce concept clé pour aborder sereinement la géométrie vectorielle.",
-  "lesson": "## Introduction\nLe produit scalaire est une opération entre deux vecteurs qui retourne un nombre réel. Il permet de quantifier l'alignement ou l'orthogonalité des vecteurs. En Seconde, on aborde principalement le produit scalaire dans le plan, à l'aide d'une formule faisant intervenir les normes et l'angle entre les vecteurs, ou directement via les coordonnées.\n\n## Les différentes expressions du produit scalaire\n### Définition géométrique\nSoient deux vecteurs $\\vec{u}$ et $\\vec{v}$ non nuls, avec un angle $\\theta$ entre eux. Le produit scalaire est défini par :\n$$\\vec{u} \\cdot \\vec{v} = \\|\\vec{u}\\| \\times \\|\\vec{v}\\| \\times \\cos \\theta$$\nSi l'un des vecteurs est nul, le produit scalaire vaut 0.\n\n### Expression avec les normes\nOn peut aussi écrire :\n$$\\vec{u} \\cdot \\vec{v} = \\frac{1}{2} \\left( \\|\\vec{u}+\\vec{v}\\|^2 - \\|\\vec{u}\\|^2 - \\|\\vec{v}\\|^2 \\right)$$\nCette formule est utile quand on connaît les longueurs dans un triangle.\n\n### Expression analytique (coordonnées)\nDans un repère orthonormé, si $\\vec{u}(x;y)$ et $\\vec{v}(x';y')$, alors :\n$$\\vec{u} \\cdot \\vec{v} = xx' + yy'$$\nC'est la forme la plus pratique pour les calculs.\n\n## Propriétés fondamentales\nLe produit scalaire est :\n- **Commutatif** : $\\vec{u} \\cdot \\vec{v} = \\vec{v} \\cdot \\vec{u}$\n- **Bilinéaire** : pour tous scalaires $k$, $\\vec{u} \\cdot (k\\vec{v}) = k(\\vec{u} \\cdot \\vec{v})$ et distributivité sur l'addition\n- **Orthogonalité** : $\\vec{u} \\perp \\vec{v} \\iff \\vec{u} \\cdot \\vec{v} = 0$\n\n## Exemples concrets\n**Exemple 1** : Soient $\\vec{u}(1;2)$ et $\\vec{v}(-3;4)$. Calculer $\\vec{u} \\cdot \\vec{v}$.\nCorrection : $1 \\times (-3) + 2 \\times 4 = -3 + 8 = 5$.\n\n**Exemple 2** : Deux vecteurs de normes 3 et 5 forment un angle de $60°$. Calculer leur produit scalaire.\n$\\vec{u} \\cdot \\vec{v} = 3 \\times 5 \\times \\cos 60° = 15 \\times 0,5 = 7,5$.\n\n**Exemple 3** : Vérifier si $\\vec{a}(2;4)$ et $\\vec{b}(-2;1)$ sont orthogonaux.\n$\\vec{a} \\cdot \\vec{b} = 2 \\times (-2) + 4 \\times 1 = -4 + 4 = 0$, donc oui.\n\n## Erreurs fréquentes à éviter\n- Oublier que $\\cos \\theta$ est défini pour $\\theta$ entre 0 et $\\pi$.\n- Confondre produit scalaire avec produit vectoriel (non vu en Seconde).\n- Utiliser la formule avec cosinus sans connaître l'angle, préférer la forme analytique.\n- Négliger le signe : si l'angle est obtus (>90°), le produit scalaire est négatif.\n\n## Conclusion\nLe produit scalaire est un outil flexible pour passer de la géométrie au calcul algébrique. Il permet de déterminer des angles, des orthogonalités, et des projections. En Seconde, on en pose les bases qui serviront en Première et Terminale pour des applications plus complexes comme le calcul de distances dans l'espace.",
-  "estimatedMinutes": 15,
-  "tags": [
-    "produit scalaire",
-    "vecteurs",
-    "orthogonalité",
-    "géométrie",
-    "seconde"
+  "summary": "En physique, le travail d'une force est un produit scalaire. Comment le calculer ?",
+  "lesson": "## Le produit scalaire\n\n### Définitions\nPour deux vecteurs ū et v̄ :\n\n**1. Avec norme et angle :**\nū · v̄ = ||ū|| × ||v̄|| × cos(ū, v̄)\n\n**2. Avec coordonnées :**\nSi ū(x ; y) et v̄(x' ; y'), alors :\nū · v̄ = xx' + yy'\n\n**3. Avec projection :**\nū · v̄ = ||ū|| × projection de v̄ sur ū\n\n### Orthogonalité\nDeux vecteurs sont orthogonaux si et seulement si :\nū · v̄ = 0\n\n### Applications\n- Calculer un angle\n- Démontrer une orthogonalité\n- Calculer une aire",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Produit scalaire : nombre réel",
+    "Orthogonalité ⟺ produit scalaire nul",
+    "Formule avec coordonnées très pratique"
+  ],
+  "exercise": {
+    "question": "ū(2 ; 3) et v̄(−3 ; 2). Les vecteurs sont-ils orthogonaux ?",
+    "answer": "\n**Solution :**\nū · v̄ = 2×(−3) + 3×2 = −6 + 6 = 0\n\n**Réponse : Oui, les vecteurs sont orthogonaux**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Si ū · v̄ = 0, alors les vecteurs sont :",
+      "options": [
+        "Colinéaires",
+        "Orthogonaux",
+        "Égaux",
+        "Opposés"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "ū(1 ; 2) · v̄(3 ; 4) = ?",
+      "options": [
+        "7",
+        "11",
+        "5",
+        "9"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "\\(\\vec{u}·\\vec{v}=0\\) signifie :",
+      "options": [
+        "Vecteurs colinéaires",
+        "Vecteurs orthogonaux",
+        "Vecteurs unitaires",
+        "Vecteurs égaux"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans une base orthonormée, \\(\\vec{u}(2,3)·\\vec{v}(-1,4)=\\) :",
+      "options": [
+        "10",
+        "-10",
+        "14",
+        "-14"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Le théorème d'Al-Kashi généralise :",
+      "options": [
+        "Thalès",
+        "Pythagore",
+        "Chasles",
+        "Al-Kashi"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "M sur le cercle de diamètre [AB] si :",
+      "options": [
+        "MA=MB",
+        "\\(\\vec{MA}·\\vec{MB}=0\\)",
+        "MA+MB=AB",
+        "M milieu de [AB]"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
   ]
 }

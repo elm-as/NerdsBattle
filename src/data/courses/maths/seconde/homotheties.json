@@ -1,0 +1,71 @@
+{
+  "id": "maths-seconde-homotheties",
+  "title": "Homothéties",
+  "summary": "En observant au tableau deux cases traditionnelles ivoiriennes dessinées côte à côte, une élève remarque que l'une est un agrandissement de l'autre et que OA'/OA = OB'/OB. Un autre élève affirme pouvoir construire la porte de la deuxième case en respectant les proportions. Intrigués, ils décident d'étudier les homothéties pour comprendre les relations entre figures semblables et réaliser des agrandissements ou réductions de dessins techniques, utiles par exemple en architecture ou en cartographie.",
+  "lesson": "## Homothéties\n\n### 1. Définition\n\n**Homothétie de centre O et de rapport k** (k∈ℝ*) :\nTransformation qui à tout point M associe M' tel que :\n1. O, M, M' alignés\n2. 𝑂𝑀′̂ = k × 𝑂𝑀̂\n\n**Notation** : h(O, k)\n\n**Cas particuliers** :\n- k = 1 : identité\n- k = -1 : symétrie centrale de centre O\n- k > 0 : homothétie directe (O, M, M' même sens)\n- k < 0 : homothétie inverse (O entre M et M')\n\n### 2. Points invariants\n\n**Centre O** : Le seul point invariant (si k ≠ 1)\nh(O, k)(O) = O\n\n**Droites invariantes** : Toutes les droites passant par O\n\n### 3. Propriété fondamentale\n\n**Conservation du barycentre** :\nSi G est barycentre de (A, α), (B, β), alors h(O,k)(G) est barycentre de (h(O,k)(A), α), (h(O,k)(B), β).\n\n**Conséquences** :\n- Image d'une droite est une droite parallèle\n- Image d'un segment est un segment parallèle\n- Milieu conservé\n\n### 4. Effet sur les longueurs\n\n**Théorème** : Une homothétie de rapport k multiplie les longueurs par |k|.\n\nSi M' = h(O,k)(M) et N' = h(O,k)(N), alors :\nM'N' = |k| × MN\n\n**Conséquence** :\n- Aire multipliée par k²\n- Volume multiplié par |k|³\n\n### 5. Effet sur les angles\n\n**Conservation** :\n- Des angles (orientés)\n- Du parallélisme\n- De l'orthogonalité\n- De l'alignement\n\n### 6. Caractérisations d'une homothétie\n\nUne homothétie est caractérisée par :\n1. Son centre O, un point A et son image A'\n2. Son rapport k, un point A et son image A'\n3. Deux points distincts A, B et leurs images A', B' (avec A'B' // AB)\n\n### 7. Construction de l'image d'un point\n\n**Méthode 1** (avec règle) :\n1. Tracer la droite (OM)\n2. Porter OM' = |k|×OM\n   - Même sens si k>0\n   - Sens opposé si k<0\n\n**Méthode 2** (avec compas et règle) :\nUtiliser le théorème de Thalès\n\n### 8. Image de figures simples\n\n**Droite** : Image est une droite parallèle\n**Segment** : Segment parallèle, longueur multipliée par |k|\n**Cercle** : Cercle de rayon |k|×R, centre image du centre\n**Polygone** : Polygone semblable\n\n### 9. Rapport d'homothétie\n\n**Calcul** :\nk = OA'/OA = OB'/OB = A'B'/AB = ...\n\n**Signe** :\n- k>0 : M et M' même côté par rapport à O\n- k<0 : O entre M et M'\n\n### 10. Homothéties et triangles semblables\n\n**Théorème** : Deux triangles sont semblables si et seulement si il existe une homothétie (ou une similitude) envoyant l'un sur l'autre.\n\n**Cas de similitude des triangles** :\n1. Angle-Angle\n2. Côté-Angle-Côté\n3. Côté-Côté-Côté (avec même rapports)\n\n### 11. Applications pratiques\n\n**Cartographie** :\n- Réduction d'échelle\n- Agrandissement de plans\n\n**Architecture** :\n- Maquettes (réduction)\n- Agrandissement de plans\n\n**Photographie** :\n- Agrandissement/réduction d'images\n\n**Biologie** :\n- Cellules semblables\n- Organes proportionnels\n\n### 12. Homothéties composées\n\n**Composition** :\nh(O1, k1) ∘ h(O2, k2) est :\n- Une homothétie si k1×k2 ≠ 1\n- Une translation si k1×k2 = 1\n\n**Centre de la composée** : Aligné avec O1 et O2\n\n### 13. Utilisation en démonstration\n\n**Pour démontrer que deux droites sont parallèles** :\nMontrer qu'elles sont images l'une de l'autre par une homothétie.\n\n**Pour démontrer un alignement** :\nMontrer que les points sont sur une droite passant par le centre.\n\n**Pour démontrer une égalité de rapports** :\nUtiliser la propriété k = OA'/OA = OB'/OB\n\n### 14. Exemples concrets en Côte d'Ivoire\n\n**Architecture traditionnelle** :\n- Cases de taille différente mais mêmes proportions\n- Motifs décoratifs à différentes échelles\n\n**Agriculture** :\n- Plans de plantation à différentes échelles\n- Parcelles semblables\n\n**Artisanat** :\n- Reproduction de motifs à différentes tailles\n- Sculptures semblables\n\n### 15. Construction géométrique\n\n**Construction d'un polygone semblable** :\n1. Choisir un centre O\n2. Choisir un rapport k\n3. Construire les images des sommets\n4. Relier\n\n**Construction d'une figure agrandie** :\nMême méthode avec |k| > 1\n\n### 16. Exercices types\n\n**Type 1** : Construire l'image d'un triangle ABC par h(O, 2)\n**Type 2** : Trouver le centre et le rapport d'homothétie envoyant ABC sur A'B'C'\n**Type 3** : Construire un triangle semblable à ABC et passant par un point donné\n\n### 17. Homothétie et théorème de Thalès\n\n**Lien** : Le théorème de Thalès peut se démontrer avec des homothéties.\n\n**Configuration de Thalès** :\nSi (BC) // (B'C'), alors il existe une homothétie envoyant B sur B' et C sur C'.\n\n### 18. Homothétie négative\n\n**k < 0** :\n- Centre entre point et image\n- Figures inversées\n- Exemple : k = -1 donne symétrie centrale\n\n### 19. Coordonnées dans une homothétie\n\nSi O(x₀, y₀) et M(x, y), alors M'(x', y') avec :\nx' = x₀ + k(x - x₀)\ny' = y₀ + k(y - y₀)\n\n**Cas particulier O(0,0)** :\nM'(kx, ky)\n\n### 20. Importance pédagogique\n\nLes homothéties permettent :\n- De comprendre la notion de similitude\n- De travailler avec les proportions\n- De faire le lien entre géométrie et algèbre\n- De modéliser des agrandissements/réductions\n\nElles préparent aux similitudes directes (terminale).",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Homothétie : O centre, k rapport",
+    "Longueurs × |k|, aires × k²",
+    "Conservation angles et parallélisme",
+    "k>0 : même sens, k<0 : sens opposé"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans une homothétie de rapport k=3, les longueurs sont multipliées par :",
+      "options": [
+        "3",
+        "9",
+        "1/3",
+        "27"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Le centre d'une homothétie est :",
+      "options": [
+        "Toujours invariant",
+        "Jamais invariant",
+        "Parfois invariant",
+        "Le milieu"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Si k=-2, l'aire est multipliée par :",
+      "options": [
+        "-2",
+        "2",
+        "4",
+        "-4"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "L'image d'une droite par une homothétie est :",
+      "options": [
+        "Une droite parallèle",
+        "Une droite perpendiculaire",
+        "Un cercle",
+        "Un point"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

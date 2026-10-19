@@ -1,0 +1,45 @@
+{
+  "id": "maths-cinquieme-les-nombres-premiers",
+  "title": "Les nombres premiers",
+  "summary": "Au marché d'Abidjan, un commerçant veut ranger 60 oranges en paquets identiques. Combien de façons différentes peut-il les ranger ?",
+  "lesson": "## Les nombres premiers\n\n### Définition\nUn **nombre premier** est un nombre entier supérieur à 1 qui n'a que deux diviseurs : 1 et lui-même.\n\n**Exemples de nombres premiers :**\n2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31...\n\n**Nombres non premiers :**\n- 4 = 2 × 2 (divisible par 1, 2, 4)\n- 6 = 2 × 3 (divisible par 1, 2, 3, 6)\n- 9 = 3 × 3 (divisible par 1, 3, 9)\n\n### Critères de divisibilité (rappel)\n- **Par 2** : le nombre se termine par 0, 2, 4, 6 ou 8\n- **Par 3** : la somme des chiffres est divisible par 3\n- **Par 5** : le nombre se termine par 0 ou 5\n- **Par 9** : la somme des chiffres est divisible par 9\n- **Par 10** : le nombre se termine par 0\n\n### Décomposition en facteurs premiers\nTout nombre entier peut s'écrire comme un produit de nombres premiers.\n\n**Exemple : 60**\n60 = 2 × 30\n   = 2 × 2 × 15\n   = 2 × 2 × 3 × 5\n   = 2² × 3 × 5\n\n**Méthode pratique :**\n```\n60 | 2\n30 | 2\n15 | 3\n 5 | 5\n 1 |\n```\n\nDonc 60 = 2² × 3 × 5",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Nombre premier : 2 diviseurs uniquement (1 et lui-même)",
+    "2 est le seul nombre premier pair",
+    "Décomposition : diviser par les nombres premiers successifs",
+    "Utiliser les critères de divisibilité"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel nombre est premier ?",
+      "options": [
+        "9",
+        "15",
+        "17",
+        "21"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Combien 2 est-il le seul nombre premier :",
+      "options": [
+        "Impair",
+        "Pair",
+        "Multiple de 3",
+        "Négatif"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

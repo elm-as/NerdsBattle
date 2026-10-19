@@ -1,0 +1,280 @@
+{
+  "id": "physique-premiere-l-ethanol",
+  "title": "L’éthanol",
+  "summary": "Lors des travaux pratiques, les élèves de Seconde A1 du Lycée Municipal d’Abobo extraient du jus de canne à sucre. Un élève demande s’il est possible de transformer ce jus sucré en alcool, comme le font les producteurs de \"bangui\" (vin de palme) ou de \"koutoukou\". Le professeur propose d’étudier l’éthanol : comment le produire industriellement ou artisanalement ? Quels sont les risques de sa consommation ? Comment le caractériser chimiquement par des réactions d’oxydation ?",
+  "lesson": "## 1. Introduction : Qu’est-ce que l’éthanol ?\n\nL’éthanol ou alcool éthylique ($$C_{2}H_{5}OH$$ ou $$CH_{3}CH_{2}OH$$) est un alcool primaire. C’est un liquide incolore, volatil, miscible à l’eau, d’odeur caractéristique. Il est utilisé comme solvant, désinfectant, carburant (biocarburant) et bien sûr dans les boissons alcoolisées. En Côte d’Ivoire, il est produit artisanalement (boissons traditionnelles) et industriellement (distilleries).\n\n## 2. Procédés d’obtention de l’éthanol\n\n### 2.1. Hydratation de l’éthylène (voie pétrochimique)\nL’éthanol peut être synthétisé à partir de l’éthylène ($$C_{2}H_{4}$$), un gaz issu du craquage du pétrole. La réaction d’hydratation se fait en présence d’acide phosphorique comme catalyseur, à température et pression élevées ($$300^{\\\\circ}C$$, 70 atm).\n$$C_{2}H_{4} + H_{2}O \\\\xrightarrow[H_{3}PO_{4}]{} CH_{3}CH_{2}OH$$\nC’est une réaction d’**addition**. Cette méthode est utilisée pour produire de l’éthanol industriel (non destiné à la consommation).\n\n### 2.2. Fermentation des jus sucrés (voie biologique)\nC’est la méthode traditionnelle et biologique. Des levures (champignons microscopiques comme *Saccharomyces cerevisiae*) transforment les sucres (glucose, fructose, saccharose) en éthanol et en dioxyde de carbone, en conditions anaérobies (sans oxygène).\nÉquation de la fermentation alcoolique du glucose :\n$$C_{6}H_{12}O_{6} \\\\xrightarrow[levures]{enzyme} 2\\\\ CH_{3}CH_{2}OH + 2\\\\ CO_{2}$$\nLes matières premières en Côte d’Ivoire sont nombreuses : jus de canne à sucre, maïs, manioc, sève de palmier (pour le vin de palme), ananas, etc. La fermentation est suivie d’une **distillation** pour séparer l’éthanol de l’eau et augmenter le titre alcoolique.\n\n**Description du schéma 6 : Schéma de production d’éthanol par fermentation et distillation**\nDessiner un diagramme avec 3 étapes. 1) \\\"Matériel végétal broyé (canne, maïs)\\\" → \\\"Extraction du jus sucré\\\". 2) \\\"Fermentation en cuve (levures, 20-30°C, quelques jours)\\\" → Production de CO₂ (bulles) et d’éthanol dilué. 3) \\\"Distillation : chauffe du mélange, vapeur d’éthanol (78°C) condensée\\\" → \\\"Éthanol concentré (90-95%)\\\". Indiquer que le CO₂ peut être récupéré pour les boissons gazeuses.\n\n## 3. Dangers de la consommation abusive d’éthanol\n\nL’éthanol est une substance psychoactive. Une consommation modérée peut être tolérée, mais l’abus a des conséquences graves :\n\n- **Santé** : Troubles hépatiques (cirrhose), neurologiques (neuropathie), cardiaques, cancers (foie, œsophage). Intoxication aiguë (coma éthylique, décès).\n- **Sociétal** : Accidents de la route (même avec un taux légal à 0,2 g/L de sang en C.I.), violences, perte de productivité.\n- **Vulnérabilité** : Favorise les comportements à risque (rapports sexuels non protégés, augmentation des risques de VIH).\n- **Dépendance** : L’alcoolisme est une maladie chronique difficile à traiter.\n\nEn Côte d’Ivoire, la consommation de boissons artisanales non contrôlées (taux d’alcool variable, présence possible de méthanol toxique) aggrave les risques. La prévention et l’éducation sont essentielles.\n\n## 4. Propriétés chimiques de l’éthanol : la combustion\n\nL’éthanol brûle dans l’air avec une flamme bleuâtre, dégageant beaucoup de chaleur. C’est une **réaction de combustion complète** (en excès d’oxygène) qui produit du dioxyde de carbone et de l’eau.\n$$C_{2}H_{5}OH + 3\\\\ O_{2} \\\\rightarrow 2\\\\ CO_{2} + 3\\\\ H_{2}O$$\nCette réaction est utilisée dans les moteurs à essence flex-fuel (mélange essence-éthanol, comme au Brésil). L’éthanol a un pouvoir calorifique inférieur à l’essence mais émet moins de particules.\n\n## 5. Oxydation ménagée de l’éthanol\n\nL’éthanol peut être oxydé de façon douce (\\\"oxydation ménagée\\\") par un oxydant comme le permanganate de potassium ($$KMnO_{4}$$) en milieu acide, ou par le dioxygène de l’air en présence d’un catalyseur (cuivre chauffé).\n\n### 5.1. Oxydation en éthanal (aldéhyde)\nL’éthanol primaire s’oxyde d’abord en éthanal (acétaldéhyde). L’expérience de la \\\"lampe sans flamme\\\" consiste à faire passer des vapeurs d’éthanol sur du cuivre chauffé au rouge ; le cuivre oxyde l’éthanol en éthanal et se réduit (il brille).\n$$CH_{3}CH_{2}OH + CuO \\\\rightarrow CH_{3}CHO + Cu + H_{2}O$$\nL’éthanal est identifié par son odeur piquante et par le **réactif de Schiff** (qui devient violet en sa présence).\n\n### 5.2. Oxydation en acide éthanoïque\nSi l’oxydation se poursuit (en présence d’un oxydant fort ou à l’air longtemps), l’éthanal s’oxyde en acide éthanoïque (acide acétique, vinaigre).\n$$CH_{3}CHO + \\\\frac{1}{2} O_{2} \\\\rightarrow CH_{3}COOH$$\nL’acide est identifié par son odeur de vinaigre et par un **papier pH** qui devient acide (pH < 7).\n\n**Description du schéma 7 : Montage de l’oxydation ménagée de l’éthanol (lampe sans flamme)**\nDessiner un montage classique : à gauche, un ballon contenant de l’éthanol chauffé légèrement (flèche : \\\"Vapeurs d’éthanol\\\") ; un tube en verre horizontal contenant de la laine de cuivre ; un bec Bunsen chauffe le cuivre (zone rougeoyante) ; à droite, un ballon de récupération plongé dans l’eau froide (condenseur). Indiquer : \\\"Cuivre chaud : catalyseur\\\", \\\"Produit formé : éthanal (acétaldéhyde)\\\", \\\"Test : réactif de Schiff\\\".\n\n## 6. Applications en Côte d’Ivoire\n\n- **Biocarburant** : Mélange essence-éthanol pour réduire les importations de pétrole et les émissions. Projets de bioéthanol à partir de canne à sucre (région du Nord).\n- **Désinfectant** : Solution hydroalcoolique (70% d’éthanol) très utilisée, surtout depuis la Covid-19.\n- **Industrie chimique** : Solvant pour vernis, parfums, médicaments.\n- **Tradition** : Production de boissons fermentées et distillées, avec les enjeux sanitaires et économiques associés.\n\n## 7. Conclusion\n\nL’éthanol est une molécule aux usages multiples et contradictoires : à la fois source d’énergie renouvelable, produit chimique industriel, désinfectant salvateur et substance dangereuse en cas d’abus. Comprendre ses modes de production et ses propriétés chimiques permet d’envisager son utilisation raisonnée et innovante dans le contexte ivoirien.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "L’éthanol s’obtient par hydratation de l’éthylène (voie pétrochimique) ou par fermentation de sucres (voie biologique).",
+    "La fermentation est catalysée par les levures et produit du CO₂ ; elle est suivie d’une distillation pour concentrer l’alcool.",
+    "La combustion complète de l’éthanol produit du CO₂ et de l’eau ; il peut être utilisé comme biocarburant.",
+    "L’oxydation ménagée de l’éthanol conduit successivement à l’éthanal (aldéhyde) puis à l’acide éthanoïque (acide acétique).",
+    "La consommation abusive d’éthanol a des conséquences sanitaires et sociales graves ; la prévention est cruciale en Côte d’Ivoire."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la formule brute de l’éthanol ?",
+      "options": [
+        "CH₃OH",
+        "C₂H₅OH",
+        "C₂H₄O₂",
+        "C₃H₇OH"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel micro-organisme est responsable de la fermentation alcoolique ?",
+      "options": [
+        "Bactéries lactiques",
+        "Levures (Saccharomyces)",
+        "Moississures",
+        "Virus"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel est le produit de l’oxydation ménagée de l’éthanol par le cuivre chaud ?",
+      "options": [
+        "Acide éthanoïque",
+        "Éthane",
+        "Éthanal",
+        "Dioxyde de carbone"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est l’équation-bilan équilibrée de la combustion complète de l’éthanol ?",
+      "options": [
+        "C₂H₅OH + 2 O₂ → 2 CO + 3 H₂O",
+        "C₂H₅OH + 3 O₂ → 2 CO₂ + 3 H₂O",
+        "C₂H₅OH + O₂ → CH₃COOH + H₂O",
+        "C₂H₅OH + 3 O₂ → 2 C + 3 H₂O"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Comment identifie-t-on la présence d’éthanal (aldéhyde) en TP ?",
+      "options": [
+        "Avec du papier pH",
+        "Avec l’eau de chaux",
+        "Avec le réactif de Schiff",
+        "Avec l’eau de brome"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle maladie hépatique est associée à la consommation chronique excessive d’alcool ?",
+      "options": [
+        "Hépatite virale",
+        "Cirrhose",
+        "Diabète",
+        "Ulcère"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel est le principal avantage de l’éthanol comme biocarburant ?",
+      "options": [
+        "Il est plus cher que l’essence",
+        "Il est issu de ressources renouvelables",
+        "Il émet plus de CO₂ que l’essence",
+        "Il corrode les moteurs"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Lors de la distillation, on sépare l’éthanol de l’eau grâce à :",
+      "options": [
+        "Leurs masses différentes",
+        "Leurs points d’ébullition différents",
+        "Leurs solubilités différentes",
+        "Leurs couleurs différentes"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "En Côte d’Ivoire, quelle matière première pourrait être utilisée pour produire du bioéthanol ?",
+      "options": [
+        "Pétrole brut",
+        "Canne à sucre",
+        "Minerai de fer",
+        "Gaz naturel"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est le produit final de l’oxydation complète de l’éthanol (si l’oxydation se poursuit) ?",
+      "options": [
+        "Éthane",
+        "Éthylène",
+        "Acide éthanoïque",
+        "Éthanal"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quelle est la formule brute de l'éthanol ?",
+      "options": [
+        "CH₃OH",
+        "C₂H₅OH",
+        "C₃H₇OH",
+        "C₄H₉OH"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel microorganisme est responsable de la fermentation alcoolique ?",
+      "options": [
+        "Escherichia coli",
+        "Saccharomyces cerevisiae",
+        "Lactobacillus",
+        "Penicillium"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel est le premier produit de l'oxydation ménagée de l'éthanol ?",
+      "options": [
+        "Acide acétique",
+        "Acétaldéhyde",
+        "Éthane",
+        "Éthylène"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quelle couleur indique la présence d'éthanol avec K₂Cr₂O₇/H⁺ ?",
+      "options": [
+        "Orange → bleu",
+        "Orange → vert",
+        "Incolore → rose",
+        "Bleu → rouge"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel est le taux d'alcoolémie maximal autorisé au volant en Côte d'Ivoire ?",
+      "options": [
+        "0,2 g/L",
+        "0,5 g/L",
+        "0,8 g/L",
+        "1,0 g/L"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quelle pathologie n'est PAS associée à l'alcoolisme chronique ?",
+      "options": [
+        "Cirrhose hépatique",
+        "Diabète de type 1",
+        "Cancers ORL",
+        "Syndrome de Korsakoff"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quelle matière première est la plus utilisée pour le bioéthanol en Côte d'Ivoire ?",
+      "options": [
+        "Canne à sucre",
+        "Blé",
+        "Betterave",
+        "Maïs"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Quelle est la concentration optimale d'éthanol pour une solution désinfectante ?",
+      "options": [
+        "50%",
+        "70%",
+        "90%",
+        "100%"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Quel produit se forme par déshydratation intramoléculaire de l'éthanol ?",
+      "options": [
+        "Éther diéthylique",
+        "Éthylène",
+        "Acétaldéhyde",
+        "Acide acétique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Quel est le principal avantage environnemental du bioéthanol ?",
+      "options": [
+        "Émissions nulles de CO₂",
+        "Bilan CO₂ neutre",
+        "Pas de NOx",
+        "Élimination des déchets"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

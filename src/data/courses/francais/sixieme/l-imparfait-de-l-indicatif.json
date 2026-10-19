@@ -1,0 +1,109 @@
+{
+  "id": "francais-sixieme-l-imparfait-de-l-indicatif",
+  "title": "L'imparfait de l'indicatif",
+  "summary": "Pour raconter un souvenir d'enfance, comment parler d'actions passées qui duraient ?",
+  "lesson": "## L'imparfait de l'indicatif\n\n### Emplois de l'imparfait\n\n**Description dans le passé :**\n\"Quand j'étais petit, j'habitais à Bouaké.\"\n\n**Action habituelle dans le passé :**\n\"Tous les matins, je prenais le car de ramassage.\"\n\n**Action qui durait :**\n\"Pendant que je mangeais, mon frère jouait.\"\n\n## Formation de l'imparfait\n\n### Règle générale\n\n**Radical de \"nous\" au présent + terminaisons : -ais, -ais, -ait, -ions, -iez, -aient**\n\n**Exemple avec CHANTER :**\n- Nous chant**ons** (présent) → chant- (radical)\n- Je chantais, tu chantais, il chantait\n- Nous chantions, vous chantiez, ils chantaient\n\n### Tous les verbes ont les mêmes terminaisons !\n\n**FINIR :**\n- Nous finiss**ons** → finiss-\n- Je finissais, tu finissais, il finissait\n- Nous finissions, vous finissiez, ils finissaient\n\n**FAIRE :**\n- Nous fais**ons** → fais-\n- Je faisais, tu faisais, il faisait\n- Nous faisions, vous faisiez, ils faisaient\n\n### Le seul verbe irrégulier : ÊTRE\n\n**ÊTRE :**\n- J'étais, tu étais, il était\n- Nous étions, vous étiez, ils étaient\n\n### Autres verbes courants\n\n**AVOIR :**\n- Nous av**ons** → av-\n- J'avais, tu avais, il avait, nous avions, vous aviez, ils avaient\n\n**ALLER :**\n- Nous all**ons** → all-\n- J'allais, tu allais, il allait, nous allions, vous alliez, ils allaient\n\n**PRENDRE :**\n- Nous pren**ons** → pren-\n- Je prenais, tu prenais, il prenait, nous prenions, vous preniez, ils prenaient\n\n## Exemples dans des phrases\n\n### Souvenirs d'enfance\n\n\"Quand j'**étais** petit, j'**habitais** dans un village près de Yamoussoukro. Tous les jours, je **jouais** avec mes amis. Nous **allions** à la rivière. Ma grand-mère me **racontait** des histoires le soir.\"\n\n### Description du passé\n\n\"Il **faisait** très chaud. Les oiseaux **chantaient**. Les enfants **couraient** dans la cour. Tout le monde **était** heureux.\"\n\n### Actions habituelles\n\n\"Chaque dimanche, nous **allions** au marché. Ma mère **achetait** des légumes. Mon père **choisissait** le poisson. Moi, je **regardais** les jouets.\"\n\n## Attention !\n\n### Verbes en -cer et -ger\n\n**Commencer :**\n- Je commençais, tu commençais (avec ç)\n- Nous commencions (avec c)\n\n**Manger :**\n- Je mangeais, tu mangeais (avec e)\n- Nous mangions (sans e)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Imparfait = radical du présent (nous) + -ais, -ais, -ait, -ions, -iez, -aient",
+    "Un seul verbe irrégulier : être (j'étais)",
+    "Pour décrire, raconter des habitudes du passé"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Les terminaisons de l'imparfait sont :",
+      "options": [
+        "-ai, -as, -a",
+        "-ais, -ais, -ait",
+        "-é, -és, -ée",
+        "-e, -es, -e"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 0,
+      "prompt": "À l'imparfait, 'nous avons' devient :",
+      "options": [
+        "nous avions",
+        "nous aurons",
+        "nous aurions",
+        "nous avons"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Quel est le seul verbe irrégulier à l'imparfait ?",
+      "options": [
+        "avoir",
+        "aller",
+        "être",
+        "faire"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-francais-1-mvac8log",
+      "type": "mcq",
+      "prompt": "Pour former l'imparfait du verbe « finir », quel radical doit-on utiliser selon la règle générale du cours ?",
+      "options": [
+        "fin-",
+        "finiss-",
+        "finir-",
+        "finissais-"
+      ],
+      "answer": 1,
+      "explanation": "La règle indique de prendre le radical de la forme « nous » au présent de l'indicatif. Pour « finir », la forme « nous » est « nous finissons ». En retirant la terminaison « -ons », on obtient le radical « finiss- ». Ce radical est ensuite combiné avec les terminaisons de l'imparfait (ex: je finissais)."
+    },
+    {
+      "id": "auto-francais-2-mvac8log",
+      "type": "mcq",
+      "prompt": "Dans la phrase « Pendant que je mangeais, mon frère jouait », quel emploi de l'imparfait est illustré par le verbe « mangeais » ?",
+      "options": [
+        "La description d'un état dans le passé",
+        "Une action habituelle dans le passé",
+        "Une action qui durait dans le passé",
+        "Une action soudaine et brève dans le passé"
+      ],
+      "answer": 2,
+      "explanation": "L'extrait du cours associe explicitement la structure « Pendant que... » à l'emploi « Action qui durait ». Le verbe « mangeais » décrit une action en cours d'exécution et de durée, interrompue ou accompagnée par une autre action (« jouait »), ce qui correspond à la définition de l'action qui durait."
+    },
+    {
+      "id": "auto-francais-4-mvac8log",
+      "type": "mcq",
+      "prompt": "Comment se forme l'imparfait du verbe « être » selon le cours ?",
+      "options": [
+        "En ajoutant les terminaisons régulières au radical « ét- »",
+        "C'est le seul verbe irrégulier, il a des formes spécifiques : j'étais, tu étais, etc.",
+        "En utilisant le radical du verbe « avoir »",
+        "Il n'existe pas d'imparfait pour le verbe « être »"
+      ],
+      "answer": 1,
+      "explanation": "Le cours souligne que « ÊTRE » est le seul verbe irrégulier à l'imparfait. Ses formes (j'étais, tu étais, il était, nous étions, vous étiez, ils étaient) ne suivent pas la règle générale du radical « nous » + terminaisons, contrairement à tous les autres verbes."
+    },
+    {
+      "id": "auto-francais-5-mvac8log",
+      "type": "mcq",
+      "prompt": "Si l'on suit la règle « Radical de 'nous' au présent + terminaisons », quel est le radical du verbe « aller » pour former son imparfait ?",
+      "options": [
+        "all-",
+        "allais-",
+        "aller-",
+        "allons-"
+      ],
+      "answer": 0,
+      "explanation": "Pour le verbe « aller », la forme « nous » au présent est « nous allons ». En retirant la terminaison « -ons », on obtient le radical « all- ». L'imparfait se forme donc ainsi : j'allais, tu allais, il allait, etc."
+    }
+  ]
+}

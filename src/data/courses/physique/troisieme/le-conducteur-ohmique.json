@@ -1,0 +1,32 @@
+{
+  "id": "physique-troisieme-le-conducteur-ohmique",
+  "title": "Le conducteur ohmique",
+  "summary": "TP Lycée Moderne 1 Bondoukou, 3ème 6 : vérifier valeur résistance par différentes méthodes.",
+  "lesson": "# Le conducteur ohmique\n\n## I. Définition et rôle\n\n### Conducteur ohmique (résistor)\nComposant qui s'oppose au passage du courant\n\n### Rôle\n- Limiter intensité\n- Protéger circuits\n- Diviseur de tension\n\n## II. Loi d'Ohm\n\n### Formule\nU = R × I\n\n- U : tension (V)\n- R : résistance (Ω)\n- I : intensité (A)\n\n### Caractéristique U=f(I)\nDroite passant par origine\nPente = R\n\n## III. Détermination de R\n\n### Méthode 1 : Graphique\nR = U/I (pente)\n\n### Méthode 2 : Ohmmètre\nLecture directe\n\n### Méthode 3 : Code couleurs\n4 ou 5 anneaux colorés\nExemple : Marron-Noir-Rouge-Or = 1000 Ω ± 5%\n\n### Unité\nOhm (Ω)\n- kΩ : 1 kΩ = 1000 Ω\n- MΩ : 1 MΩ = 1 000 000 Ω\n\n## IV. Associations\n\n### Série\nReq = R₁ + R₂\n\n### Parallèle (dérivation)\n1/Req = 1/R₁ + 1/R₂\n\nPour 2 résistances :\nReq = (R₁×R₂)/(R₁+R₂)\n\n## V. Diviseur de tension\n\n### Formule\nUs = Ue × Rs/Req\n\n- Us : tension sortie\n- Ue : tension entrée\n- Rs : résistance série\n- Req : résistance équivalente\n\n### Application\nGénérateur tension réglable",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "U = R × I (loi d'Ohm)",
+    "Unité : ohm (Ω)",
+    "Série : Req = R₁+R₂",
+    "Parallèle : 1/Req = 1/R₁+1/R₂"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La loi d'Ohm s'écrit :",
+      "options": [
+        "I = U/R",
+        "U = R×I",
+        "R = U×I",
+        "P = U×I"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

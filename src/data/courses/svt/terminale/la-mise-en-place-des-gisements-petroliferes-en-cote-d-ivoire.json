@@ -1,0 +1,150 @@
+{
+  "id": "svt-terminale-la-mise-en-place-des-gisements-petroliferes-en-cote-d-ivoire",
+  "title": "La mise en place des gisements pétrolifères en Côte d'Ivoire",
+  "summary": "Un élève de la terminale C du lycée Antoine Gauze de Daloa séjourne à Jacqueville chez son oncle pendant les vacances de Noël. Il découvre de gros tuyaux (pipe-line) au large de la lagune. Son oncle, un agent de la SODEMI, lui apprend que les tuyaux proviennent d'un gisement de pétrole situé dans les profondeurs marines et transportent le pétrole brut. De retour dans son lycée, il informe ses camarades de classe et ensemble ils décident de localiser les gisements pétrolifères en Côte d'Ivoire puis d'expliqu",
+  "lesson": "## 1. Introduction\n\nLa Côte d'Ivoire dispose de ressources pétrolières offshore exploitées principalement dans le golfe de Guinée. Cette leçon vise à comprendre comment ces gisements se sont formés et où ils se localisent.\n\n## 2. Localisation des principaux gisements pétrolifères ivoiriens\n\nLes principaux gisements se trouvent au large des côtes :\n- **Champ Espoir** (au large de Jacqueville)\n- **Champ Lion** (périmètre CI-101)\n- **Champ Baobab** (bloc CI-40)\n- **Champ Foxtrot**\n\nCes gisements sont situés sur le **bassin sédimentaire ivoirien**, un bassin côtier et offshore qui s'est formé durant l'ouverture de l'océan Atlantique.\n\n## 3. Les roches encaissantes\n\nLes roches encaissantes sont les formations géologiques qui contiennent et entourent les hydrocarbures. En Côte d'Ivoire, il s'agit principalement de :\n- **Grès** (roche réservoir)\n- **Schistes** (roche couverture ou roche mère)\n- **Calcaires** (par endroits)\n\nCes roches se sont déposées durant le **Crétacé** et le **Tertiaire**, il y a entre 145 et 2,6 millions d'années.\n\n## 4. Formation d'un gisement d'hydrocarbures\n\nLa formation suit plusieurs étapes :\n1. **Sédimentation** : Dépôt de matière organique (plancton, algues) dans un bassin sédimentaire anoxique (sans oxygène).\n2. **Enfouissement et maturation** : Sous l'effet de la pression et de la température ($T \\\\geq 60\\\\°C$), la matière organique se transforme en **kérogène**, puis en **hydrocarbures** (pétrole et gaz).\n3. **Migration** : Les hydrocarbures, moins denses, migrent vers la surface à travers les roches poreuses (migration primaire et secondaire).\n4. **Piégeage** : Ils sont bloqués par une roche imperméable (schiste, sel) formant une **structure piège**.\n\n**Description du schéma 1 : Formation d'un gisement pétrolier**\nLe schéma doit montrer en coupe : (1) une couche de roche mère (schiste) en profondeur, (2) des flèches montrant la migration des hydrocarbures vers le haut, (3) une structure anticlinale (dôme) formant un piège, (4) une roche réservoir (grès) sous une roche couverture (schiste), (5) l'accumulation de pétrole (en noir) et de gaz (en blanc) au sommet de la structure, (6) une légende indiquant chaque élément.\n\n## 5. Types de pièges pétroliers\n\nIl existe trois types principaux :\n1. **Piège structural** : Anticlinal, faille.\n2. **Piège stratigraphique** : Variation latérale de la perméabilité (biseau, récif).\n3. **Piège combiné** : Association des deux.\n\n**Description du schéma 2 : Types de pièges**\nReprésenter trois schémas côte à côte : (A) un anticlinal avec pétrole et gaz au sommet, (B) une faille imperméable bloquant la migration, (C) un biseau sédimentaire (grès qui s'amincit) couvert par du schiste. Chaque schéma doit avoir des légendes : roche réservoir, roche couverture, pétrole, gaz, eau.\n\n## 6. Notions clés\n\n- **Roche encaissante** : Roche qui entoure le gisement, généralement la roche réservoir et la roche couverture.\n- **Piège** : Configuration géologique qui empêche la fuite des hydrocarbures.\n- **Gisement** : Accumulation économique d'hydrocarbures dans un piège.\n- **Roche mère** : Roche sédimentaire riche en matière organique qui génère les hydrocarbures (ex : schistes noirs).\n\n## 7. Application au contexte ivoirien\n\nLe bassin ivoirien présente des structures en **graben** (fossés d'effondrement) remplis de sédiments. Les pièges sont souvent **structuraux** (anticlinaux liés à des failles) et **stratigraphiques** (barres gréseuses). L'exploration utilise la **sismique réflexion** pour imager ces structures.\n\n## 8. Enjeux et perspectives\n\nLa découverte récente de nouveaux gisements (ex : Baleine en 2021) montre le potentiel du bassin. Une exploitation durable nécessite de minimiser les impacts environnementaux (marées noires, rejets) et de maximiser la valeur ajoutée locale (raffinage à la SIR, emplois).",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Les gisements pétroliers ivoiriens sont offshore, dans le bassin sédimentaire côtier.",
+    "Les roches encaissantes sont principalement des grès (réservoir) et des schistes (couverture).",
+    "La formation d'un gisement nécessite : roche mère, maturation, migration, piégeage.",
+    "Les pièges peuvent être structuraux (anticlinal, faille) ou stratigraphiques.",
+    "Un gisement est une accumulation économique d'hydrocarbures piégée."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Où se situe principalement l'exploitation pétrolière en Côte d'Ivoire ?",
+      "options": [
+        "Dans le nord, près de Korhogo",
+        "En offshore, dans le golfe de Guinée",
+        "Dans la région des montagnes à Man",
+        "Dans le désert au nord-ouest"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle est la roche RÉSERVOIR typique des gisements ivoiriens ?",
+      "options": [
+        "Granite",
+        "Grès",
+        "Basalte",
+        "Marbre"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle température minimale est nécessaire pour la genèse du pétrole à partir du kérogène ?",
+      "options": [
+        "20°C",
+        "60°C",
+        "200°C",
+        "500°C"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel type de piège est formé par un pli en forme de dôme ?",
+      "options": [
+        "Piège stratigraphique",
+        "Piège par faille",
+        "Piège anticlinal",
+        "Piège récifal"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel processus permet aux hydrocarbures de quitter la roche mère ?",
+      "options": [
+        "Sédimentation",
+        "Migration",
+        "Érosion",
+        "Cimentation"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle roche joue le rôle de COUVERTURE (caprock) ?",
+      "options": [
+        "Grès poreux",
+        "Schiste imperméable",
+        "Calcaire fracturé",
+        "Sable"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel siècle correspond à la période principale de sédimentation du bassin ivoirien ?",
+      "options": [
+        "Précambrien",
+        "Crétacé",
+        "Quaternaire",
+        "Dévonien"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quelle méthode d'exploration est cruciale pour localiser les pièges en offshore ?",
+      "options": [
+        "Forage aléatoire",
+        "Sismique réflexion",
+        "Cartographie aérienne",
+        "Échantillonnage de sol"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel hydrocarbure est généralement au-dessus du pétrole dans un piège ?",
+      "options": [
+        "Eau salée",
+        "Gaz naturel",
+        "Bitume",
+        "Kérosène"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quelle entreprise étatique ivoirienne est associée à l'exploration minière et pétrolière ?",
+      "options": [
+        "SIR",
+        "SODEMI",
+        "CÉCI",
+        "PETROCI"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

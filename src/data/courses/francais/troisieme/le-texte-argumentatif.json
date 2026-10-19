@@ -1,0 +1,57 @@
+{
+  "id": "francais-troisieme-le-texte-argumentatif",
+  "title": "Le texte argumentatif",
+  "summary": "Lors d'un débat en classe sur l'utilisation des téléphones portables à l'école, tu dois défendre ton point de vue. Comment argumenter efficacement ?",
+  "lesson": "## Le texte argumentatif\n\n### Structure de l'argumentation\n\n**La thèse** : l'opinion défendue\n*Exemple :* Les téléphones portables doivent être interdits à l'école.\n\n**Les arguments** : raisons qui soutiennent la thèse\n*Exemple :* \n- Ils perturbent la concentration\n- Ils favorisent la tricherie\n- Ils nuisent aux relations sociales\n\n**Les exemples** : illustrations concrètes des arguments\n*Exemple :* Selon une étude, 70% des élèves consultent leur téléphone pendant les cours.\n\n**Les contre-arguments** : objections possibles\n*Exemple :* Certains pensent que les téléphones sont utiles pour les recherches.\n\n**La réfutation** : réponse aux contre-arguments\n*Exemple :* Cependant, les ordinateurs de la salle informatique suffisent.\n\n### Les connecteurs logiques\n\n**Addition** : de plus, en outre, par ailleurs, d'ailleurs\n**Opposition** : mais, cependant, néanmoins, toutefois, or\n**Cause** : car, parce que, en effet, puisque\n**Conséquence** : donc, ainsi, par conséquent, c'est pourquoi\n**Illustration** : par exemple, notamment, en particulier\n**Conclusion** : enfin, en conclusion, pour conclure\n\n### Les types d'arguments\n\n**Argument logique** : fait appel à la raison\n**Argument d'autorité** : citation d'un expert\n**Argument par l'exemple** : cas concret\n**Argument affectif** : fait appel aux émotions\n\n### La modalisation\nPour nuancer son propos :\n- **Verbes** : penser, croire, sembler, paraître\n- **Adverbes** : peut-être, probablement, certainement\n- **Expressions** : il est possible que, il semble que",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Thèse + arguments + exemples = structure de base",
+    "Connecteurs logiques pour organiser",
+    "Modalisation pour nuancer"
+  ],
+  "exercise": {
+    "question": "Identifie la thèse et un argument dans ce texte : « La lecture est essentielle pour réussir ses études. En effet, elle enrichit le vocabulaire et améliore l'expression écrite. De plus, elle développe l'imagination. »",
+    "answer": "\n**Solution :**\n\n**Thèse :** La lecture est essentielle pour réussir ses études.\n\n**Arguments :**\n1. Elle enrichit le vocabulaire et améliore l'expression écrite\n2. Elle développe l'imagination\n\n**Connecteurs logiques :**\n- « En effet » (cause/explication)\n- « De plus » (addition)\n\n**Réponse : Thèse = la lecture est essentielle ; Arguments = enrichit le vocabulaire et développe l'imagination**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La thèse est :",
+      "options": [
+        "Un exemple",
+        "L'opinion défendue",
+        "Un connecteur",
+        "Une illustration"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "« Donc » est un connecteur de :",
+      "options": [
+        "Cause",
+        "Conséquence",
+        "Opposition",
+        "Addition"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Un argument d'autorité cite :",
+      "options": [
+        "Un exemple",
+        "Un expert",
+        "Une émotion",
+        "Une statistique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "physique-sixieme-court-circuit-et-protection-des-installations-elec",
+  "title": "Court-circuit et protection des installations électriques",
+  "summary": "Tard dans la nuit, au quartier « Bori-Bana » où il y a des installations électriques anarchiques, un incendie s'est déclaré suite à un court-circuit détruisant quelques habitations. Des élèves de la classe de 6ème3 du Lycée Municipal 1 d'Attécoubé, habitant le quartier, sont impressionnés par les dégâts causés par l'incendie. Le lendemain, arrivés en classe, ils cherchent à identifier les causes du court-circuit, à connaître ses dangers, à expliquer le fonctionnement d'un fusible et d'un disjoncteur dans une installation électrique.",
+  "lesson": "# Court-circuit et protection des installations électriques\n\n## I. Le court-circuit\n\n### Définition\nUn court-circuit se produit quand le courant ne passe pas par le récepteur mais prend un chemin plus court.\n\n### Causes\n- Fils dénudés qui se touchent\n- Connexion directe des bornes du générateur sans récepteur\n- Détérioration de l'isolation des fils\n\n### Dangers\n- Échauffement important des fils\n- Risque d'incendie\n- Destruction du matériel électrique\n- Danger pour les personnes\n\n## II. Protection des installations\n\n### Le fusible\nLe fusible est un fil fin qui fond et coupe le circuit quand l'intensité est trop forte. Il protège l'installation.\n\n### Le disjoncteur\nLe disjoncteur coupe automatiquement le circuit en cas de surintensité. Contrairement au fusible, il peut être réarmé.\n\n## III. Réparation d'un circuit en panne\n\nPour réparer un circuit:\n1. Identifier l'élément défectueux\n2. Vérifier les connexions\n3. Remplacer le composant défaillant\n4. Tester le circuit",
+  "situation": "Tard dans la nuit, au quartier « Bori-Bana » où il y a des installations électriques anarchiques, un incendie s'est déclaré suite à un court-circuit détruisant quelques habitations. Des élèves de la classe de 6ème3 du Lycée Municipal 1 d'Attécoubé, habitant le quartier, sont impressionnés par les dégâts causés par l'incendie. Le lendemain, arrivés en classe, ils cherchent à identifier les causes du court-circuit, à connaître ses dangers, à expliquer le fonctionnement d'un fusible et d'un disjoncteur dans une installation électrique.",
+  "videoUrl": null,
+  "videoTitle": null,
+  "videoDuration": null,
+  "keyPoints": [
+    "Court-circuit: courant ne passe pas par le récepteur",
+    "Dangers: échauffement, incendie",
+    "Fusible: fond en cas de surintensité",
+    "Disjoncteur: coupe et peut être réarmé"
+  ],
+  "exercise": {
+    "question": "Explique pourquoi il ne faut jamais relier directement les deux bornes d'une pile avec un fil.",
+    "answer": "Cela crée un court-circuit. Le courant devient très intense, la pile et les fils s'échauffent dangereusement, risque de brûlure et d'incendie."
+  },
+  "track": null,
+  "estimatedMinutes": 14,
+  "tags": [
+    "physique",
+    "sixieme",
+    "6eme"
+  ],
+  "questions": [
+    {
+      "id": "auth-q1",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Un court-circuit se produit quand:",
+      "options": [
+        "Le circuit est ouvert",
+        "Le courant ne passe pas par le récepteur",
+        "La pile est déchargée",
+        "L'interrupteur est fermé"
+      ],
+      "explanation": "Question issue du cursus officiel."
+    },
+    {
+      "id": "auth-q2",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Le rôle du fusible est de:",
+      "options": [
+        "Augmenter le courant",
+        "Protéger l'installation",
+        "Éclairer",
+        "Commander le circuit"
+      ],
+      "explanation": "Question issue du cursus officiel."
+    },
+    {
+      "id": "auto-physique-1-mvaj5kdv",
+      "type": "mcq",
+      "prompt": "Dans le contexte de l'incendie au quartier Bori-Bana, si l'intensité du courant dans un fil de section $S$ augmente de manière excessive à cause d'un court-circuit, quelle est la conséquence physique directe sur la température du fil selon la loi de Joule ?",
+      "options": [
+        "La température diminue car le courant circule plus vite.",
+        "La température augmente car la puissance dissipée en chaleur est proportionnelle au carré de l'intensité ($P = R \\cdot I^2$).",
+        "La température reste constante si la tension du réseau est stable.",
+        "La température augmente linéairement avec la résistance du fil uniquement."
+      ],
+      "answer": 1,
+      "explanation": "Selon la loi de Joule, la puissance thermique dissipée par un conducteur est donnée par $P = R \\cdot I^2$. Lors d'un court-circuit, la résistance totale du circuit devient très faible, provoquant une augmentation drastique de l'intensité $I$. Comme la puissance dissipée est proportionnelle au carré de l'intensité, l'échauffement des fils devient extrêmement rapide, ce qui peut fondre l'isolation et provoquer un incendie."
+    },
+    {
+      "id": "auto-physique-2-mvaj5kdv",
+      "type": "mcq",
+      "prompt": "Les élèves de la 6ème3 doivent choisir un dispositif de protection pour une installation domestique où ils souhaitent pouvoir rétablir le courant immédiatement après une panne sans avoir à remplacer de pièce. Quel dispositif doivent-ils privilégier et pourquoi ?",
+      "options": [
+        "Le fusible, car il est moins coûteux à l'achat initial.",
+        "Le disjoncteur, car il est réarmable et coupe le circuit automatiquement en cas de surintensité.",
+        "Le fusible, car il offre une protection plus rapide que le disjoncteur.",
+        "Le disjoncteur, car il augmente l'intensité du courant pour forcer le passage."
+      ],
+      "answer": 1,
+      "explanation": "La différence fondamentale entre un fusible et un disjoncteur réside dans leur réutilisabilité. Un fusible est un fil fin qui fond de manière irréversible lorsqu'il est traversé par un courant trop intense ; il doit donc être remplacé. En revanche, un disjoncteur est un interrupteur automatique qui se déclenche en cas de surintensité mais peut être réarmé (remis en position marche) une fois la cause de la panne éliminée, ce qui correspond à la contrainte de l'énoncé."
+    },
+    {
+      "id": "auto-physique-3-mvaj5kdv",
+      "type": "mcq",
+      "prompt": "Pour diagnostiquer la cause du court-circuit dans les installations anarchiques du quartier, un élève utilise un multimètre en mode ohmmètre. Quelle valeur de résistance doit-il mesurer entre les deux fils de phase et de neutre d'une prise murale défectueuse pour confirmer la présence d'un court-circuit ?",
+      "options": [
+        "Une résistance très élevée, supérieure à $1 \\, \\text{M}\\Omega$.",
+        "Une résistance nulle ou quasi nulle (proche de $0 \\, \\Omega$).",
+        "Une résistance égale à celle d'un récepteur standard (ex: $100 \\, \\Omega$).",
+        "Une résistance négative, indiquant une inversion de polarité."
+      ],
+      "answer": 1,
+      "explanation": "Un court-circuit est défini par la création d'un chemin de faible résistance entre deux points de potentiel différent. Si l'on mesure la résistance entre la phase et le neutre d'une prise en court-circuit, le multimètre affichera une valeur très proche de zéro ohm ($0 \\, \\Omega$), car le courant a un chemin direct sans récepteur. Une résistance élevée indiquerait un circuit ouvert (coupure), et une résistance normale indiquerait la présence d'un récepteur."
+    },
+    {
+      "id": "auto-physique-4-mvaj5kdv",
+      "type": "mcq",
+      "prompt": "Lors de la réparation d'un circuit en panne, après avoir identifié un fusible grillé, quelle est la procédure de sécurité impérative à respecter avant de remplacer le composant défaillant ?",
+      "options": [
+        "Remplacer le fusible par un fil de cuivre plus épais pour éviter qu'il ne fonde à nouveau.",
+        "Couper l'alimentation électrique (couper le disjoncteur général ou le fusible principal) pour travailler sur circuit hors tension.",
+        "Toucher les bornes du fusible avec les doigts pour vérifier si le courant passe encore.",
+        "Augmenter la section des fils du circuit pour compenser la perte de résistance."
+      ],
+      "answer": 1,
+      "explanation": "La sécurité électrique exige toujours de travailler sur un circuit hors tension. Avant toute intervention (remplacement d'un fusible, vérification de connexions), il est impératif de couper l'alimentation en amont (via le disjoncteur général ou le tableau de répartition) pour éviter tout risque d'électrisation ou d'arc électrique. Remplacer un fusible par un fil de cuivre est dangereux car cela supprime la protection contre les surintensités."
+    },
+    {
+      "id": "auto-physique-5-mvaj5kdv",
+      "type": "mcq",
+      "prompt": "Dans une installation électrique, si la section des fils est trop petite par rapport à l'intensité maximale admissible, quel phénomène physique se produit en premier lieu lors d'une surcharge, menant potentiellement à un court-circuit ?",
+      "options": [
+        "La tension du réseau augmente instantanément.",
+        "L'échauffement des fils provoque la fonte de leur isolation, permettant aux conducteurs de se toucher.",
+        "Le générateur s'arrête automatiquement par sécurité.",
+        "La résistance des fils diminue, augmentant ainsi le débit de charge."
+      ],
+      "answer": 1,
+      "explanation": "Si la section des fils est insuffisante, leur résistance est plus élevée. Lors d'une surcharge (intensité trop forte), la loi de Joule ($P = R \\cdot I^2$) entraîne un échauffement excessif. Cet échauffement peut faire fondre ou carboniser l'isolation plastique des fils. Une fois l'isolation détruite, les conducteurs métalliques peuvent entrer en contact direct, créant un court-circuit. C'est une cause fréquente des incendies dans les installations vétustes ou mal dimensionnées."
+    }
+  ]
+}

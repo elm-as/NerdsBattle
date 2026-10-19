@@ -1,0 +1,189 @@
+{
+  "id": "svt-premiere-les-fonctions-des-gonades",
+  "title": "Les fonctions des gonades",
+  "summary": "Au cours d'un match de football pendant le tournoi inter-classes au Lycée Moderne Leboutou de Dabou, un élève en classe de 1ère reçoit au niveau de son bas-ventre un violent coup de pied. L'infirmier leur explique l'importance des testicules et les risques pour la fertilité.",
+  "lesson": "## Les gonades\n\n### Définition\n\nLes **gonades** sont des glandes mixtes (endocrines et exocrines) qui assurent deux fonctions :\n- **Fonction exocrine** : production de gamètes\n- **Fonction endocrine** : sécrétion d'hormones sexuelles\n\n### Types de gonades\n\n**Chez l'homme :**\n- **Testicules** (organes génitaux masculins)\n\n**Chez la femme :**\n- **Ovaires** (organes génitaux féminins)\n\n## Structure des testicules\n\n### Structure anatomique\n\n**Coupe longitudinale :**\n\n1. **Enveloppe externe :** albuginée (capsule fibreuse)\n2. **Tubes séminifères** : lieu de formation des spermatozoïdes\n3. **Tissu interstitiel** : contient les cellules de Leydig\n4. **Épididyme** : réservoir où maturent les spermatozoïdes\n\n### Fonction exocrine\n\n**Production de spermatozoïdes** (spermatogenèse) dans les tubes séminifères.\n\n### Fonction endocrine\n\n**Cellules de Leydig** produisent la **testostérone**.\n\n**Rôles de la testostérone :**\n- Développement des caractères sexuels primaires\n- Apparition des caractères sexuels secondaires :\n  - Développement de la pilosité (barbe, corps)\n  - Voix grave\n  - Développement musculaire\n  - Élargissement des épaules\n- Maintien de la spermatogenèse\n\n## Structure des ovaires\n\n### Structure anatomique\n\n**Cortex** (zone périphérique) :\n- Follicules ovariens à différents stades\n- Follicule mûr (de De Graaf)\n- Corps jaune (après ovulation)\n\n**Médulla** (zone centrale) :\n- Tissu conjonctif et vaisseaux\n\n### Fonction exocrine\n\n**Production d'ovocytes** (ovogenèse) dans les follicules.\n\n### Fonction endocrine\n\n**Œstrogènes** (follicule) et **Progestérone** (corps jaune).\n\n**Rôles des œstrogènes :**\n- Développement des caractères sexuels primaires\n- Apparition des caractères sexuels secondaires :\n  - Développement des seins\n  - Élargissement des hanches\n  - Pilosité limitée\n  - Voix aiguë\n- Croissance de l'endomètre\n\n**Rôles de la progestérone :**\n- Maintien de l'endomètre\n- Préparation de l'utérus à la nidation\n\n## Caractères sexuels\n\n### Caractères sexuels primaires\n\nOrganes génitaux présents dès la naissance.\n\n### Caractères sexuels secondaires\n\nTraits physiques qui apparaissent à la puberté sous l'action des hormones sexuelles.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Gonades = glandes mixtes (gamètes + hormones)",
+    "Testicules : spermatozoïdes + testostérone",
+    "Ovaires : ovocytes + œstrogènes + progestérone",
+    "Hormones → caractères sexuels secondaires",
+    "Caractères primaires = organes ; secondaires = traits pubertaires"
+  ],
+  "exercise": {
+    "question": "Expliquez pourquoi l'ablation des testicules entraîne la stérilité et la régression des caractères sexuels secondaires.",
+    "answer": "L'ablation des testicules supprime la fonction exocrine (production de spermatozoïdes) entraînant la stérilité définitive. Elle supprime aussi la fonction endocrine (testostérone), ce qui provoque la régression des caractères sexuels secondaires : diminution de la pilosité, atrophie musculaire, baisse de la libido."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Les cellules de Leydig produisent :",
+      "options": [
+        "Des spermatozoïdes",
+        "De la testostérone",
+        "Des œstrogènes",
+        "De la FSH"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Le corps jaune sécrète principalement :",
+      "options": [
+        "Des œstrogènes",
+        "De la FSH",
+        "De la progestérone",
+        "De la testostérone"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Les caractères sexuels secondaires apparaissent :",
+      "options": [
+        "À la naissance",
+        "À la puberté",
+        "À l'âge adulte",
+        "Avant la naissance"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la double fonction des gonades?",
+      "options": [
+        "Exocrine et endocrine",
+        "Excrétrice et digestive",
+        "Respiratoire et circulatoire",
+        "Neurale et musculaire"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelles cellules testiculaires produisent la testostérone?",
+      "options": [
+        "Cellules de Sertoli",
+        "Cellules de Leydig",
+        "Spermatogonies",
+        "Cellules épithéliales"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle hormone est sécrétée principalement par le corps jaune?",
+      "options": [
+        "Œstrogènes",
+        "Progestérone",
+        "FSH",
+        "LH"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel est le site de la spermatogenèse dans le testicule?",
+      "options": [
+        "Cellules de Leydig",
+        "Tubes séminifères",
+        "Rete testis",
+        "Épididyme"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "À partir de quel stade la vie fœtale débute l'ovogenèse?",
+      "options": [
+        "3e semaine",
+        "3e mois",
+        "7e mois",
+        "À la naissance"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel caractère sexuel est primaire?",
+      "options": [
+        "Développement mammaire",
+        "Mue de la voix",
+        "Pilosité faciale",
+        "Présence de testicules"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quelle hormone hypothalamique stimule la libération de FSH et LH?",
+      "options": [
+        "TRH",
+        "CRH",
+        "GnRH",
+        "GHRH"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quelle est la température optimale pour la spermatogenèse?",
+      "options": [
+        "37°C",
+        "34°C",
+        "30°C",
+        "40°C"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Combien d'ovulations une femme a-t-elle approximativement dans sa vie?",
+      "options": [
+        "100",
+        "400",
+        "1000",
+        "10000"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quelle consquence peut avoir un traumatisme testiculaire violent?",
+      "options": [
+        "Amélioration de la fertilité",
+        "Stérilité",
+        "Augmentation de la testostérone",
+        "Développement mammaire"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

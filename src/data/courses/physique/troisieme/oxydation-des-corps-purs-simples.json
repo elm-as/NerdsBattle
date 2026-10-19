@@ -1,0 +1,45 @@
+{
+  "id": "physique-troisieme-oxydation-des-corps-purs-simples",
+  "title": "Oxydation des corps purs simples",
+  "summary": "EPS Lycée Municipal 2 Gadié Pierre, 3ème 5 : clé trouvée recouverte corps rouge-brun poreux.",
+  "lesson": "# Oxydation des corps purs simples\n\n## I. Combustion du fer\n\n### Expérience\nPaille fer chauffée dans dioxygène pur\n\n### Observations\n- Combustion vive\n- Étincelles\n- Oxyde noir magnétique\n\n### Produit\nOxyde de fer Fe₃O₄ (magnétite)\n\n### Équation\n3 Fe + 2 O₂ donne Fe₃O₄\n\n## II. Combustion du cuivre\n\n### Expérience\nCuivre chauffé dans O₂\n\n### Observations\n- Combustion lente\n- Noircissement\n\n### Produit\nOxyde cuivrique CuO (noir)\n\n### Équation\n2 Cu + O₂ donne 2 CuO\n\n## III. Autres oxydations\n\n### Carbone\nC + O₂ donne CO₂ (dioxyde de carbone)\n\n### Soufre\nS + O₂ donne SO₂ (dioxyde de soufre)\n\n## IV. Définition\n\n### Oxydation\nFixation de dioxygène par un corps\n\n### Types\n- Oxydation vive : combustion rapide\n- Oxydation lente : rouille\n\n## V. Formation de la rouille\n\n### Conditions\nFer + eau + dioxygène (air humide)\n\n### Produit\nOxyde ferrique Fe₂O₃·nH₂O (rouille)\n\n### Équation simplifiée\n4 Fe + 3 O₂ donne 2 Fe₂O₃\n\n### Caractéristiques rouille\n- Rouge-brun\n- Poreuse\n- Friable\n- Pas protectrice\n\n## VI. Protection contre rouille\n\n### Méthodes CI\n1. Peinture : barrière étanche\n2. Graissage : huile, vaseline\n3. Galvanisation : couche zinc\n4. Chromage : couche chrome\n5. Alliage : acier inoxydable\n\n### Applications\n- Ponts (pont HKB Abidjan)\n- Véhicules\n- Toitures tôle",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Oxydation = fixation O₂",
+    "Fe donne Fe₃O₄ (noir, magnétique)",
+    "Cu donne CuO (noir)",
+    "Rouille : Fe₂O₃ (rouge-brun, poreux)"
+  ],
+  "exercise": {
+    "answer": "2 Cu + O₂ donne 2 CuO",
+    "question": "Écris l'équation de la combustion du cuivre."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La rouille est :",
+      "options": [
+        "Fe₃O₄",
+        "Fe₂O₃",
+        "CuO",
+        "FeO"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Une méthode de protection contre la rouille :",
+      "options": [
+        "Mouillage",
+        "Peinture",
+        "Chauffage",
+        "Oxydation"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

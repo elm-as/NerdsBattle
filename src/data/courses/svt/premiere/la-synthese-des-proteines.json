@@ -1,0 +1,319 @@
+{
+  "id": "svt-premiere-la-synthese-des-proteines",
+  "title": "La synthèse des protéines",
+  "summary": "Une élève de 1ère C du lycée Municipal de KOUMASSI accompagne son petit frère de deux ans malade au centre de Protection Maternelle et Infantile (PMI). La pédiatre explique que l'enfant souffre de malnutrition et conseille des aliments riches en protéines. Pour comprendre comment son frère pourrait synthétiser des protéines à partir de ces aliments, la jeune fille et ses camarades décident d'étudier le mécanisme de la biosynthèse des protéines, un sujet crucial dans un pays où la malnutrition affecte encore",
+  "lesson": "## 1. Introduction\n\nLa synthèse des protéines (ou biosynthèse des protéines) est le processus par lequel les cellules produisent les protéines à partir de l'information génétique contenue dans l'ADN. C'est un processus fondamental de la vie, car les protéines sont les effecteurs moléculaires de la plupart des fonctions cellulaires. En Côte d'Ivoire, comprendre la synthèse des protéines est essentiel pour lutter contre la malnutrition, mais aussi pour comprendre les bases moléculaires des maladies génétiques qui touchent la population.\n\n## 2. Les protéines : structure et fonctions\n\n**Définition** : Macromolécules formées d'une ou plusieurs chaînes d'acides aminés.\n\n**Structure** :\n1. **Primaire** : séquence d'acides aminés (20 types différents)\n2. **Secondaire** : motifs locaux (α-hélice, feuillet β)\n3. **Tertiaire** : structure 3D globale\n4. **Quaternaire** : assemblage de plusieurs chaînes\n\n**Fonctions** (en Côte d'Ivoire, exemples concrets) :\n- **Enzymes** : digestion (amylases), métabolisme\n- **Structurales** : collagène (peau, os), kératine (cheveux, ongles)\n- **Transport** : hémoglobine (O₂), albumine (transport sanguin)\n- **Défense** : anticorps (lutte contre infections)\n- **Hormones** : insuline (diabète important en Côte d'Ivoire)\n\n**Besoins nutritionnels** :\n- Adulte : 0.8 g/kg/jour\n- Enfant en croissance : 1.2-1.5 g/kg/jour\n- Sources ivoiriennes : poisson, viande, légumineuses (niébé), soja\n\n## 3. Les acteurs de la synthèse des protéines\n\n**ADN** (Acide DésoxyriboNucléique) :\n- Support de l'information génétique\n- Double hélice, désoxyribose, bases ATCG\n- Localisation : noyau (eucaryotes)\n\n**ARN** (Acide RiboNucléique) : trois types :\n1. **ARNm** (messager) : copie de l'ADN, information pour synthèse protéique\n2. **ARNr** (ribosomique) : composant majeur des ribosomes\n3. **ARNt** (transfert) : transporte les acides aminés, anticodon\n\n**Ribosomes** :\n- Usines de synthèse protéique\n- Composés d'ARNr et protéines\n- Deux sous-unités : petite (lecture ARNm) et grande (liaisons peptidiques)\n- Sites : A (aminoacyl), P (peptidyl), E (exit)\n\n**Enzymes et facteurs** :\n- **ARN polymérase** : transcription ADN → ARNm\n- **Aminoacyl-ARNt synthétases** : chargement des ARNt\n- **Facteurs d'initiation, élongation, terminaison**\n\n**Description du schéma 1: Les acteurs moléculaires**\nLe schéma montre : 1) ADN double hélice avec détail des bases (A-T, C-G). 2) ARNm simple brin avec bases (A-U, C-G). 3) ARNt en forme de trèfle avec anticodon et site fixation acide aminé. 4) Ribosome avec sous-unités et sites A, P, E. 5) Acides aminés (formes générales). Flèches indiquant les relations. Légendes détaillées.\n\n## 4. Le code génétique\n\n**Définition** : Correspondance entre la séquence de nucléotides de l'ADN/ARNm et la séquence d'acides aminés des protéines.\n\n**Caractéristiques** :\n1. **Triplet** : 3 nucléotides = 1 codon = 1 acide aminé (ou signal)\n2. **Non-chevauchant** : codons se suivent sans overlap\n3. **Sans ponctuation** (sauf codons start/stop)\n4. **Universel** (presque) : même chez tous les êtres vivants\n5. **Dégénéré** : plusieurs codons pour un même acide aminé\n\n**Nombre de combinaisons** :\n- 4 nucléotides (A,U,C,G)\n- Triplets : 4^3 = 64 combinaisons possibles\n- 20 acides aminés + 3 signaux de ponctuation\n\n**Types de codons** :\n1. **Codon initiateur** : AUG (Met) - début synthèse\n2. **Codons terminateurs** : UAA, UAG, UGA - arrêt synthèse\n3. **Codons sens** : codent pour un acide aminé (61 codons)\n4. **Codon non-sens** : mutation qui crée un codon stop prématuré\n5. **Codon redondant** : plusieurs codons pour même acide aminé\n\n**Description du schéma 2: Table du code génétique**\nTableau classique 4×4×4 montrant les 64 codons. Première base en ligne, deuxième en colonne, troisième dans le tableau. Codons initiateur en vert, terminateurs en rouge. Acides aminés avec leurs abréviations. Exemples de redondance : leucine a 6 codons, tryptophane 1 seul.\n\n## 5. La transcription : ADN → ARNm\n\n**Définition** : Copie d'un gène d'ADN en ARN messager.\n\n**Étapes** :\n1. **Initiation** :\n   - ARN polymérase se fixe sur promoteur (séquence TATA)\n   - Ouverture de l'hélice d'ADN\n   - Synthèse du premier nucléotide (généralement A ou G)\n\n2. **Élongation** :\n   - Ajout de nucléotides complémentaires (A→U, T→A, C→G, G→C)\n   - Déplacement le long du brin matrice\n   - Réassociation de l'ADN derrière\n\n3. **Terminaison** :\n   - Rencontre d'une séquence terminateur\n   - Libération de l'ARN polymérase et de l'ARNm\n\n**Modifications post-transcriptionnelles** (eucaryotes) :\n- **Coiffe** 7-méthylguanosine en 5'\n- **Queue poly-A** en 3' (100-250 A)\n- **Épissage** : excision des introns, suture des exons\n\n**Vitesse** : 20-50 nucléotides/seconde chez E. coli.\n\n## 6. La traduction : ARNm → protéine\n\n**Lieu** : cytoplasme, sur ribosomes libres ou liés au RE.\n\n**Trois étapes** :\n\n**A. Initiation** :\n1. Petite sous-unité ribosomique + ARNm\n2. ARNt initiateur (portant Met) se fixe au codon AUG\n3. Grande sous-unité s'associe → ribosome complet\n\n**B. Élongation** (cycle répété) :\n1. **Arrivée** : ARNt-aminoacyl dans le site A (codon suivant)\n2. **Formation liaison peptidique** : catalyse par l'ARNr 23S\n3. **Translocation** : ribosome avance d'un codon\n4. **Sortie** : ARNt déacylé sort par site E\n\n**C. Terminaison** :\n1. Rencontre d'un codon stop (UAA, UAG, UGA)\n2. Facteurs de terminaison (RF) hydrolysent la chaîne\n3. Dissociation du ribosome\n\n**Description du schéma 3: La traduction au ribosome**\nLe schéma montre un ribosome avec ARNm passant à travers. Sites A, P, E occupés. Site A : nouvel ARNt-aminoacyl entrant. Site P : chaîne peptidique en croissance attachée à ARNt. Site E : ARNt vide sortant. Liaison peptidique en formation. Flèches montrant cycle. Légendes détaillées.\n\n## 7. Relation gène-protéine\n\n**Dogme central de la biologie moléculaire** (simplifié) :\nADN → transcription → ARNm → traduction → Protéine\n\n**Exceptions** : rétrovirus (ARN → ADN), prions (protéine → conformation).\n\n**Calcul taille gène** :\n- Acide aminé moyen : 110 daltons\n- 1 codon = 3 paires de bases (pb)\n- Protéine de 300 aa :\n  * Poids : 300 × 110 = 33,000 Da = 33 kDa\n  * Gène : 300 × 3 = 900 pb (sans introns)\n\n**Exemple concret** : Hémoglobine :\n- 4 chaînes (2α + 2β)\n- Chaîne β : 146 aa → gène ≈ 438 pb\n- Mutations → drépanocytose (fréquente en Côte d'Ivoire)\n\n## 8. Régulation de l'expression génique\n\n**Niveaux de régulation** :\n1. **Transcriptionnelle** : facteurs de transcription\n2. **Post-transcriptionnelle** : stabilité ARNm, épissage alternatif\n3. **Traductionnelle** : initiation contrôlée\n4. **Post-traductionnelle** : modifications, dégradation\n\n**Exemples en Côte d'Ivoire** :\n- **Adaptation à la chaleur** : protéines de choc thermique (HSP)\n- **Régime alimentaire** : enzymes digestives adaptées\n- **Rythmes circadiens** : horloge biologique\n\n**Modélisation mathématique** :\nTaux synthèse protéine = $k \\\\cdot [ARNm] / (t_{1/2})$\noù $k$ = constante traduction, $t_{1/2}$ = demi-vie protéine.\n\n## 9. Importance de la biosynthèse des protéines\n\n**Pour la cellule** :\n1. **Croissance et division** : nouvelles protéines nécessaires\n2. **Réponse aux stimuli** : synthèse protéines adaptatives\n3. **Homéostasie** : renouvellement protéique constant\n\n**Pour l'organisme** :\n1. **Développement** : différenciation cellulaire\n2. **Fonctions spécialisées** : neurones, muscles, cellules immunitaires\n3. **Adaptation** : à l'environnement, à l'alimentation\n\n**Pour la santé** :\n1. **Croissance enfants** : malnutrition protéique → kwashiorkor\n2. **Cicatrisation** : synthèse collagène\n3. **Immunité** : production anticorps\n4. **Métabolisme** : enzymes digestives, hormones\n\n## 10. Maladies liées à la synthèse protéique\n\n**Déficits nutritionnels** (fréquents en Côte d'Ivoire) :\n- **Kwashiorkor** : carence protéique avec apport calorique suffisant\n- **Marasme** : carence globale\n- Conséquences : retard croissance, œdèmes, anomalies peau/cheveux\n\n**Maladies génétiques** :\n- **Drépanocytose** : mutation β-globine (GAG → GTG, Glu6Val)\n- **Thalassémies** : défaut synthèse chaînes globine\n- **Mucoviscidose** : mutation CFTR\n- **Phénylcétonurie** : déficit phénylalanine hydroxylase\n\n**Cancers** :\n- Oncogènes : synthèse excessive protéines de croissance\n- Gènes suppresseurs : défaut synthèse protéines de contrôle\n\n## 11. Applications biotechnologiques\n\n**Protéines recombinantes** :\n- **Insuline humaine** : produite par bactéries génétiquement modifiées\n- **Vaccins** : antigènes produits par biotechnologie\n- **Enzymes industrielles** : détergents, alimentation\n\n**En Côte d'Ivoire** :\n- Production limitée de biotechnologie\n- Recherche sur protéines végétales (soja, niébé)\n- Valorisation déchets agro-industriels\n\n**Ingénierie des protéines** :\n- Modification propriétés (stabilité thermique, activité)\n- Design de nouvelles fonctions\n\n## 12. Synthèse protéique et nutrition en Côte d'Ivoire\n\n**Besoins** :\n- Population : 26 millions\n- Besoin protéique total : 26M × 50g/jour ≈ 1,300 tonnes/jour\n\n**Sources traditionnelles** :\n- **Animales** : poisson (pêche + aquaculture), viande (bovins, ovins, volailles), insectes (chenilles)\n- **Végétales** : niébé, soja, arachide, sésame, voandzou\n\n**Défis** :\n- Accès inégal (rural vs urbain, riches vs pauvres)\n- Saisonnalité\n- Conservation\n- Éducation nutritionnelle\n\n**Solutions** :\n- Développement légumineuses locales\n- Aquaculture (tilapia, silure)\n- Élevage petite taille (cobayes, poulets)\n- Fortification aliments\n\n## 13. Expérience de modélisation\n\n**Matériel** :\n- Cartons colorés pour nucléotides\n- Ficelle pour brins ADN/ARN\n- Perles pour acides aminés\n- Boîte pour ribosome\n\n**Protocole** :\n1. Construire un segment d'ADN double brin (ex : ATG CCT GAA TAA)\n2. Transcrire en ARNm (AUG CCU GAA UAA)\n3. Traduire avec code génétique (Met-Pro-Glu-Stop)\n4. Monter la chaîne peptidique avec perles\n\n**Variantes** :\n- Introduire une mutation (substitution, délétion)\n- Observer l'effet sur la protéine\n\n## 14. Calculs et problèmes\n\n**Problème 1** : Une protéine a 150 acides aminés.\n- Taille gène (sans introns) ? 150 × 3 = 450 pb\n- Poids moléculaire ? 150 × 110 ≈ 16,500 Da = 16.5 kDa\n\n**Problème 2** : ARNm de 1200 nucléotides.\n- Nombre max d'acides aminés ? 1200 ÷ 3 = 400 (sans régions non-traduites)\n\n**Problème 3** : Mutation ponctuelle C→T dans l'ADN change codon CAU (His) en UAU (Tyr).\n- Type mutation ? Transition\n- Conséquence ? Changement acide aminé conservatif (similaire)\n\n## 15. Évolution et code génétique\n\n**Universalité** : Preuve d'origine commune de toute vie.\n\n**Exceptions** : mitochondries (codons différents chez certains organismes).\n\n**Théories origine** :\n- Code primordial simple, puis expansion\n- Sélection contre mutations : code actuel minimise effets mutations\n\n**Calcul** : Avec code actuel, 70% des mutations ponctuelles sont silencieuses ou conservatrices.\n\n## 16. Conclusion : de la molécule à la santé\n\nLa synthèse des protéines relie :\n1. **L'information génétique** (ADN) à la **fonction biologique** (protéine)\n2. La **génétique** à la **biochimie**\n3. La **nutrition** à la **santé**\n4. La **recherche fondamentale** aux **applications médicales**\n\nEn Côte d'Ivoire, maîtriser ces concepts est crucial pour :\n- Lutter contre la malnutrition infantile\n- Comprendre et prévenir les maladies génétiques\n- Développer une médecine moderne\n- Former la prochaine génération de scientifiques\n\nChaque repas riche en protéines contribue à alimenter cette merveilleuse usine moléculaire qu'est la cellule.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "La synthèse protéique va de l'ADN (transcription) à l'ARNm puis à la protéine (traduction)",
+    "Le code génétique est triplet, universel, dégénéré et non-chevauchant",
+    "Le ribosome est l'usine de traduction avec sites A, P, E",
+    "Les protéines ont des fonctions vitales : enzymes, structure, transport, défense",
+    "La malnutrition protéique cause le kwashiorkor, problème majeur en Côte d'Ivoire"
+  ],
+  "exercise": {
+    "answer": "1. **Brin matrice ADN** (complémentaire, anti-parallèle) :\n   3'-TAC GGA CTT ATG ACT-5'\n   (Mais convention : on écrit généralement 5'→3', donc l'inverse : 5'-TCA GTA TTC AGG CAT-3')\n\n2. **ARNm** (copie du brin matrice, U au lieu de T) :\n   5'-AUG CCU GAA UAC UGA-3'\n\n3. **Traduction** :\n   AUG = Met (start)\n   CCU = Pro\n   GAA = Glu\n   UAC = Tyr\n   UGA = Stop\n   Protéine : Met-Pro-Glu-Tyr (et s'arrête)\n\n4. **Mutation C→T** sur brin non-matrice : ATG CCT → ATG TCT\n   Nouvel ARNm : AUG UCU GAA UAC UGA\n   Nouvelle traduction : AUG = Met, UCU = Ser, GAA = Glu, UAC = Tyr, UGA = Stop\n   Protéine : Met-Ser-Glu-Tyr\n\n5. **Type mutation** : Transition (pyrimidine → pyrimidine).\n   Conséquence : Changement d'acide aminé (Pro → Ser). Pro est apolaire, Ser est polaire. Changement potentiellement significatif si important pour structure/fonction. Mutation faux-sens non-conservative.\n\n6. **Poids moléculaire** : 4 acides aminés × 110 Da = 440 Da (sans Met souvent clivé).\n\n7. **Codons pour Pro** (2ème aa) :\n   CCU, CCC, CCA, CCG → 4 codons différents.\n   La redondance du code génétique minimise l'impact des mutations.",
+    "question": "Voici la séquence d'un brin d'ADN (brin non-matrice) : 5'-ATG CCT GAA TAC TGA-3'\n\n1. Écrivez la séquence du brin matrice d'ADN.\n2. Écrivez la séquence de l'ARNm transcrit.\n3. Traduisez cette séquence d'ARNm en protéine (utilisez le code génétique).\n4. Une mutation change le C (souligné) en T. Quelle est la nouvelle séquence protéique ?\n5. Quel type de mutation est-ce ? Quelle pourrait être sa conséquence ?\n6. Calculez le poids moléculaire approximatif de la protéine initiale.\n7. Combien de codons différents pourraient coder pour le 2ème acide aminé de cette protéine ?"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le codon initiateur chez les eucaryotes ?",
+      "options": [
+        "UAA",
+        "AUG",
+        "UGA",
+        "UAG"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Où se déroule la transcription chez les eucaryotes ?",
+      "options": [
+        "Cytoplasme",
+        "Noyau",
+        "Réticulum endoplasmique",
+        "Mitochondrie"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle molécule transporte les acides aminés au ribosome ?",
+      "options": [
+        "ARNm",
+        "ARNr",
+        "ARNt",
+        "ADN"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Combien de nucléotides forment un codon ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle maladie est causée par une mutation de l'hémoglobine ?",
+      "options": [
+        "Kwashiorkor",
+        "Drépanocytose",
+        "Diabète",
+        "Paludisme"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle enzyme catalyse la transcription ?",
+      "options": [
+        "ADN polymérase",
+        "ARN polymérase",
+        "Ribosome",
+        "Ligase"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel site du ribosome reçoit le nouvel ARNt-aminoacyl ?",
+      "options": [
+        "Site A",
+        "Site P",
+        "Site E",
+        "Site T"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Combien de codons stop existe-t-il ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quelle carence cause le kwashiorkor ?",
+      "options": [
+        "Carence en glucides",
+        "Carence en lipides",
+        "Carence en protéines",
+        "Carence en vitamines"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quelle propriété du code génétique permet à plusieurs codons de coder le même acide aminé ?",
+      "options": [
+        "Universalité",
+        "Dégénérescence",
+        "Non-chevauchant",
+        "Triplet"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "La transcription se déroule dans :",
+      "options": [
+        "Le cytoplasme",
+        "Le noyau",
+        "Les ribosomes",
+        "Les mitochondries"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Un codon est composé de :",
+      "options": [
+        "1 nucléotide",
+        "2 nucléotides",
+        "3 nucléotides",
+        "4 nucléotides"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "L'ARNt a pour rôle de :",
+      "options": [
+        "Transcrire l'ADN",
+        "Transporter les acides aminés",
+        "Former les ribosomes",
+        "Copier l'ARNm"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel est le codon initiateur de la traduction?",
+      "options": [
+        "UAA",
+        "AUG",
+        "UGA",
+        "UAG"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quel type d'ARN transporte les acides aminés vers le ribosome?",
+      "options": [
+        "ARNm",
+        "ARNt",
+        "ARNr",
+        "ARNsi"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Combien de codons différents codent pour les acides aminés?",
+      "options": [
+        "20",
+        "61",
+        "64",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quelle enzyme charge les ARNt avec les acides aminés correspondants?",
+      "options": [
+        "ARN polymérase",
+        "Aminoacyl-ARNt synthétase",
+        "ADN ligase",
+        "Peptidyl transférase"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Quel site du ribosome reçoit l'ARNt aminoacylé?",
+      "options": [
+        "Site P",
+        "Site A",
+        "Site E",
+        "Site T"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Quelle mutation change un codon en codon stop prématuré?",
+      "options": [
+        "Mutation synonyme",
+        "Mutation faux-sens",
+        "Mutation non-sens",
+        "Mutation par décalage"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Quelle maladie est causée par une mutation faux-sens dans le gène de la β-globine?",
+      "options": [
+        "Mucoviscidose",
+        "Drépanocytose",
+        "Phénylcétonurie",
+        "Hémophilie"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q21",
+      "type": "mcq",
+      "prompt": "Combien de bases compose un codon?",
+      "options": [
+        "Une",
+        "Deux",
+        "Trois",
+        "Quatre"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q22",
+      "type": "mcq",
+      "prompt": "Quel acide aminé est apporté par l'ARNt initiateur chez les eucaryotes?",
+      "options": [
+        "Valine",
+        "Sérine",
+        "Méthionine",
+        "Phénylalanine"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q23",
+      "type": "mcq",
+      "prompt": "Quelle caractéristique du code génétique permet à plusieurs codons de coder le même acide aminé?",
+      "options": [
+        "Universalité",
+        "Dégénérescence",
+        "Non-ambiguïté",
+        "Commaless"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

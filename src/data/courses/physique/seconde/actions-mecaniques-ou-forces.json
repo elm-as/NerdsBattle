@@ -1,0 +1,280 @@
+{
+  "id": "physique-seconde-actions-mecaniques-ou-forces",
+  "title": "Actions mécaniques ou forces",
+  "summary": "Lors d'un match de football interclasses au Lycée Moderne de Bouaké, la classe de 2nde A affronte la 2nde C. À la 25e minute, l'arbitre siffle un coup franc en faveur de la 2nde A. Le joueur désigné frappe le ballon avec puissance. Celui-ci heurte la tête d'un défenseur avant de terminer sa course au fond des filets. De retour en classe, les élèves de 2nde A s'interrogent sur les différentes actions qui ont permis ce but. Ils décident d'analyser systématiquement toutes les actions mécaniques exercées sur le",
+  "lesson": "## 1. Introduction aux actions mécaniques\n\nUne action mécanique (ou force) est une interaction entre deux systèmes qui peut modifier leur mouvement ou leur forme. En Côte d'Ivoire, les actions mécaniques sont omniprésentes :\n- La traction des bœufs dans les plantations de riz à Korhogo\n- La poussée de l'eau sur les turbines du barrage de Buyo\n- La compression du cacao dans les presses des usines\n\n**Description du schéma 1:** Représentation des trois effets d'une action mécanique. Le schéma doit montrer : (1) Création de mouvement : un chariot initialement immobile se déplace sous l'action d'une force, (2) Modification de mouvement : un ballon change de direction après un choc, (3) Déformation : un ressort s'allonge sous l'action d'un poids, (4) Équilibre : un tableau suspendu ne bouge pas malgré son poids, (5) Légende explicative pour chaque cas.\n\n## 2. Définition et modélisation\n\n**Définition** : Une action mécanique exercée par un corps A sur un corps B est modélisée par une force notée $\\\\vec{F}_{A/B}$.\n\n**Caractéristiques d'une force** :\n1. Point d'application (où s'exerce la force)\n2. Direction (droite d'action)\n3. Sens (orientation sur la droite)\n4. Intensité (valeur en Newton, N)\n\n**Notation** : $\\\\vec{F}_{\\\text{ext}/\\\text{syst}}$ désigne la force exercée par l'extérieur sur le système.\n\n## 3. Types d'actions mécaniques\n\n**Actions localisées** : Force appliquée en un point précis. Exemple : doigt appuyant sur un bouton.\n\n**Actions réparties en surface** : Force distribuée sur une surface. Exemple : vent sur la voile d'une pirogue.\n\n**Actions réparties en volume** : Force agissant à distance dans tout le volume. Exemple : poids d'un conteneur au port d'Abidjan.\n\n**Description du schéma 2:** Comparaison des trois types d'actions mécaniques. Éléments : (1) Action localisée : flèche unique sur un point, (2) Action répartie en surface : multiples flèches sur une surface (pression atmosphérique), (3) Action répartie en volume : champ de vecteurs (gravité), (4) Exemples ivoiriens : presse à cacao, vague sur la plage de Grand-Bassam, pesanteur sur un arbre de cacaoyer.\n\n## 4. Forces courantes en contexte ivoirien\n\n**Poids** : $\\\\vec{P} = m\\\\vec{g}$ où $g \\\\approx 9.78 \\\text{ N/kg}$ en Côte d'Ivoire\n- Point d'application : centre de gravité\n- Direction : verticale\n- Sens : vers le centre de la Terre\n\n**Tension d'un fil** : $\\\\vec{T}$ exercée par un fil tendu\n- Direction : celle du fil\n- Sens : du mobile vers le point d'attache\n\n**Réaction d'un support** : $\\\\vec{R}$ exercée par une surface de contact\n- Se décompose souvent en $\\\\vec{R}_N$ (normale) et $\\\\vec{R}_T$ (tangentielle)\n\n## 5. Principe des interactions (3e loi de Newton)\n\n**Énoncé** : Si un corps A exerce sur un corps B une force $\\\\vec{F}_{A/B}$, alors le corps B exerce sur A une force $\\\\vec{F}_{B/A}$ telle que :\n$$\\\\vec{F}_{A/B} = -\\\\vec{F}_{B/A}$$\n\n**Applications en Côte d'Ivoire** :\n1. **Propulsion** : Pirogue repoussant l'eau, qui repousse la pirogue\n2. **Marche** : Pied poussant le sol, sol poussant le pied\n3. **Construction** : Mur poussant l'échafaudage, échafaudage poussant le mur\n\n## 6. Système mécanique et forces extérieures\n\n**Système mécanique** : Objet ou ensemble d'objets dont on étudie le mouvement.\n\n**Forces extérieures** : Forces exercées sur le système par des objets extérieurs.\n\n**Méthode d'analyse** :\n1. Définir clairement le système\n2. Lister tous les objets en contact avec le système\n3. Pour chaque objet, identifier la force exercée\n4. Représenter toutes les forces sur un schéma\n\n**Description du schéma 3:** Diagramme des forces sur un camion transportant du cacao. Éléments : (1) Camion comme système, (2) Poids $\\\\vec{P}$ vertical vers le bas, (3) Réaction normale $\\\\vec{R}_N$ verticale vers le haut, (4) Force motrice $\\\\vec{F}_m$ horizontale vers l'avant, (5) Force de frottement $\\\\vec{f}$ horizontale vers l'arrière, (6) Résistance de l'air $\\\\vec{R}_{air}$, (7) Échelle des forces.\n\n## 7. Applications pratiques\n\n**Agriculture** : Calcul des forces de traction nécessaires pour les charrues\n\n**Transport** : Dimensionnement des freins des poids lourds sur l'axe Abidjan-Ouaga\n\n**Bâtiment** : Calcul des forces supportées par les poutres des immeubles\n\n**Sports** : Analyse des forces dans les sauts et les lancers\n\n## 8. Sécurité et prévention\n\nComprendre les forces permet de :\n- Dimensionner correctement les structures (ponts, bâtiments)\n- Prévenir les accidents (survitesse dans les virages)\n- Optimiser les performances sportives\n- Améliorer l'efficacité des machines agricoles",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Une action mécanique peut créer, modifier un mouvement ou déformer un corps",
+    "Toute force est caractérisée par 4 éléments : point, direction, sens, intensité",
+    "Le principe des interactions : action = réaction",
+    "L'analyse d'un système commence par la définition claire du système",
+    "Les forces de contact et à distance coexistent souvent"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est l'effet d'une action mécanique sur un corps ?",
+      "options": [
+        "Créer ou modifier son mouvement",
+        "Changer sa couleur",
+        "Modifier sa température",
+        "Altérer sa composition chimique"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Comment note-t-on la force exercée par A sur B ?",
+      "options": [
+        "$\\\\vec{F}_{A/B}$",
+        "$\\\\vec{F}_{B/A}$",
+        "$\\\\vec{F}_{AB}$",
+        "$F(A,B)$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle est l'unité de l'intensité d'une force ?",
+      "options": [
+        "Newton (N)",
+        "Joule (J)",
+        "Watt (W)",
+        "Pascal (Pa)"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Le poids est un exemple d'action mécanique :",
+      "options": [
+        "Répartie en volume s'exerçant à distance",
+        "Localisée",
+        "Répartie en surface",
+        "Magnétique"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Selon le principe des interactions :",
+      "options": [
+        "Action = - Réaction",
+        "Action = Réaction",
+        "Action > Réaction",
+        "Action < Réaction"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle force s'oppose au poids d'un objet posé sur une table ?",
+      "options": [
+        "La réaction normale du support",
+        "La tension d'un fil",
+        "La force de frottement",
+        "La poussée d'Archimède"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dans la notation $\\\\vec{F}_{ext/syst}$, que représente 'ext' ?",
+      "options": [
+        "L'extérieur du système",
+        "L'extraordinaire",
+        "L'extension",
+        "L'externe"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quelle caractéristique n'est PAS nécessaire pour définir une force ?",
+      "options": [
+        "La couleur",
+        "Le point d'application",
+        "La direction",
+        "Le sens"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Un camion pousse une voiture en panne. Quelle affirmation est vraie ?",
+      "options": [
+        "Le camion pousse la voiture et la voiture pousse le camion",
+        "Seul le camion pousse la voiture",
+        "Seule la voiture pousse le camion",
+        "Aucune force n'est exercée"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Pour étudier les forces sur un ballot de coton, on doit d'abord :",
+      "options": [
+        "Définir le système mécanique",
+        "Mesurer sa température",
+        "Calculer son volume",
+        "Déterminer sa couleur"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel est l'effet d'une action mécanique ?",
+      "options": [
+        "Modifier le mouvement seulement",
+        "Déformer seulement",
+        "Maintenir en équilibre seulement",
+        "Toutes ces réponses"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "L'unité de l'intensité d'une force est :",
+      "options": [
+        "Le watt",
+        "Le newton",
+        "Le joule",
+        "Le pascal"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Le poids d'un corps de masse 5 kg est environ :",
+      "options": [
+        "5 N",
+        "10 N",
+        "50 N",
+        "500 N"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "D'après le principe des interactions :",
+      "options": [
+        "Action et réaction s'annulent",
+        "Action et réaction s'appliquent au même corps",
+        "Action et réaction sont égales et opposées",
+        "Action et réaction n'ont pas de relation"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "La tension d'un fil a toujours :",
+      "options": [
+        "La direction du fil",
+        "Une direction verticale",
+        "Une direction horizontale",
+        "Une direction quelconque"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "La constante g en Côte d'Ivoire vaut environ :",
+      "options": [
+        "6,8 N/kg",
+        "9,8 N/kg",
+        "10,2 N/kg",
+        "12,0 N/kg"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Un corps en chute libre n'est soumis qu'à :",
+      "options": [
+        "Son poids",
+        "La tension de l'air",
+        "La poussée d'Archimède",
+        "La force de frottement"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "La réaction normale d'un support est toujours :",
+      "options": [
+        "Parallèle au support",
+        "Perpendiculaire au support",
+        "Verticale",
+        "Horizontale"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Si la tension d'un ressort est T = 20 N pour un allongement de 0,1 m, sa constante de raideur est :",
+      "options": [
+        "2 N/m",
+        "20 N/m",
+        "200 N/m",
+        "2000 N/m"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Quand on pousse un mur, la force exercée par le mur sur la main est :",
+      "options": [
+        "Plus grande",
+        "Plus petite",
+        "Égale et opposée",
+        "Nulle"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

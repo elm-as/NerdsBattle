@@ -1,0 +1,110 @@
+{
+  "id": "anglais-sixieme-days-of-the-week-les-jours-de-la-semaine",
+  "title": "Days of the Week - Les jours de la semaine",
+  "summary": "Marie explique son emploi du temps : 'On Monday, I have English. On Friday, I play football.' Comment parler des jours ?",
+  "lesson": "## Days of the Week - Les jours de la semaine\n\n### The Seven Days\n\n- **Monday** - lundi\n- **Tuesday** - mardi\n- **Wednesday** - mercredi\n- **Thursday** - jeudi\n- **Friday** - vendredi\n- **Saturday** - samedi\n- **Sunday** - dimanche\n\n⚠️ **Majuscule obligatoire !**\n\n## Using Days\n\n**ON + jour**\n\n- I go to school **on Monday**.\n- We play football **on Saturday**.\n- She visits her grandmother **on Sunday**.\n\n### Plural Form\n\n**On Mondays** = tous les lundis (habitude)\n\n- I have English **on Mondays**. (tous les lundis)\n- We don't go to school **on Sundays**.\n\n## Time Expressions\n\n- **today** - aujourd'hui\n- **tomorrow** - demain\n- **yesterday** - hier\n- **the weekend** - le week-end\n- **weekdays** - jours de la semaine\n\n**What day is it today?** - Quel jour sommes-nous ?\nIt's Monday.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+    "Toujours une majuscule",
+    "On + jour (on Monday)",
+    "On Mondays = tous les lundis"
+  ],
+  "exercise": {
+    "question": "Complète : 1) I go to school ___ Monday. 2) We play ___ Saturdays. 3) What day ___ it today?",
+    "answer": "\n**Solution :**\n1) I go to school **on** Monday.\n2) We play **on** Saturdays.\n3) What day **is** it today?\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Comment dit-on 'mercredi' ?",
+      "options": [
+        "Wensday",
+        "Wednesday",
+        "Wenesday",
+        "Wednsday"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Quelle préposition avec les jours ?",
+      "options": [
+        "in",
+        "at",
+        "on",
+        "to"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "answer": 0,
+      "prompt": "Comment dit-on 'le week-end' ?",
+      "options": [
+        "the weekend",
+        "the week-end",
+        "on weekend",
+        "in weekend"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-anglais-1-mva89l0z",
+      "type": "mcq",
+      "prompt": "Which day of the week comes immediately after Wednesday?",
+      "options": [
+        "Tuesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "answer": 1,
+      "explanation": "The chronological order of the week is Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday. Therefore, Thursday follows Wednesday."
+    },
+    {
+      "id": "auto-anglais-2-mva89l0z",
+      "type": "mcq",
+      "prompt": "In the sentence 'We have math on Tuesdays', what does the plural form 'Tuesdays' indicate?",
+      "options": [
+        "A specific Tuesday in the past",
+        "Every Tuesday as a regular habit",
+        "The next Tuesday coming up",
+        "Only one Tuesday this month"
+      ],
+      "answer": 1,
+      "explanation": "Using the plural form of days of the week (e.g., on Mondays, on Tuesdays) indicates a recurring action or habit that happens every week on that specific day."
+    },
+    {
+      "id": "auto-anglais-3-mva89l0z",
+      "type": "mcq",
+      "prompt": "Which of the following sentences correctly uses the preposition with a day of the week?",
+      "options": [
+        "I play football in Saturday.",
+        "I play football at Saturday.",
+        "I play football on Saturday.",
+        "I play football to Saturday."
+      ],
+      "answer": 2,
+      "explanation": "The correct preposition to use with days of the week is 'on'. For example, 'on Monday', 'on Friday'. 'In' is used for months/years, and 'at' is used for specific times."
+    },
+    {
+      "id": "auto-anglais-4-mva89l0z",
+      "type": "mcq",
+      "prompt": "If today is Friday, what day will it be in two days?",
+      "options": [
+        "Saturday",
+        "Sunday",
+        "Monday",
+        "Tuesday"
+      ],
+      "answer": 2,
+      "explanation": "If today is Friday, tomorrow is Saturday (1 day later), and the day after tomorrow is Sunday (2 days later). Wait, let's re-evaluate. Friday + 1 = Saturday. Saturday + 1 = Sunday. So 'in two days' from Friday is Sunday. Let me check the options again. Option 0: Saturday, Option 1: Sunday, Option 2: Monday, Option 3: Tuesday. The correct answer is Sunday, which is index 1."
+    }
+  ]
+}

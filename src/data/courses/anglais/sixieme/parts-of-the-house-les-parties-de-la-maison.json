@@ -1,0 +1,58 @@
+{
+  "id": "anglais-sixieme-parts-of-the-house-les-parties-de-la-maison",
+  "title": "Parts of the House - Les parties de la maison",
+  "summary": "Awa visite la nouvelle maison de son ami. Comment décrire les différentes pièces en anglais ?",
+  "lesson": "## Parts of the House - Les pièces de la maison\n\n### Main Rooms - Pièces principales\n\n- **Living room** - salon\n- **Bedroom** - chambre\n- **Kitchen** - cuisine\n- **Bathroom** - salle de bain\n- **Toilet** - toilettes\n- **Dining room** - salle à manger\n- **Garage** - garage\n- **Garden** - jardin\n- **Roof** - toit\n- **Door** - porte\n- **Window** - fenêtre\n\n## There is / There are\n\n**There is** = Il y a (singulier)\n**There are** = Il y a (pluriel)\n\n- **There is** a kitchen in my house.\n- **There are** three bedrooms.\n- **Is there** a garden? - Yes, there is.\n- **Are there** windows? - Yes, there are.\n\n## Prepositions of Place\n\n- **in** - dans\n- **on** - sur\n- **under** - sous\n- **next to** - à côté de\n- **between** - entre\n\nThe bed is **in** the bedroom.\nThe lamp is **on** the table.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Living room, bedroom, kitchen, bathroom",
+    "There is + singulier / There are + pluriel",
+    "Prépositions : in, on, under, next to",
+    "Door = porte, Window = fenêtre"
+  ],
+  "exercise": {
+    "answer": "\n**Solution :**\n1) There **is** a kitchen.\n2) There **are** two bedrooms.\n3) The TV is **in** the living room.\n        ",
+    "question": "Complète : 1) There ___ a kitchen. 2) There ___ two bedrooms. 3) The TV is ___ the living room."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'cuisine' en anglais ?",
+      "options": [
+        "Bedroom",
+        "Kitchen",
+        "Bathroom",
+        "Living room"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle forme avec un nom pluriel ?",
+      "options": [
+        "There is books",
+        "There are books",
+        "There be books",
+        "There has books"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'sur' ?",
+      "options": [
+        "in",
+        "under",
+        "on",
+        "at"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

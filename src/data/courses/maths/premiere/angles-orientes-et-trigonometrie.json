@@ -1,0 +1,112 @@
+{
+  "id": "maths-premiere-angles-orientes-et-trigonometrie",
+  "title": "Angles orientés et trigonométrie",
+  "summary": "Des élèves de Man chargés d'aménager l'espace pour une kermesse veulent placer des stands autour d'un arbre (point P) et d'une boutique (point B). Ils donnent des instructions en degrés (45° à gauche, 60° à droite...). Des élèves de Terminale leur suggèrent d'utiliser les angles orientés pour plus de précision. La classe décide d'étudier les angles orientés et la trigonométrie.",
+  "lesson": "## 1. Mesure d'un angle orienté\n\nL'angle orienté $$(\\\\vec{u}, \\\\vec{v})$$ a pour mesures :\n$$\\\theta + 2k\\\\pi$$, k ∈ ℤ, où θ est une mesure en radians.\n\nLa **mesure principale** est celle dans ]-π, π].\n\n## 2. Propriétés des mesures\n\n1. $$(\\\\vec{u}, \\\\vec{v}) = -(\\\\vec{v}, \\\\vec{u})$$\n2. $$(k\\\\vec{u}, \\\\vec{v}) = \\\\begin{cases} (\\\\vec{u}, \\\\vec{v}) & \\\text{si } k>0 \\\\\\\\ (\\\\vec{u}, \\\\vec{v})+\\\\pi & \\\text{si } k<0 \\\\end{cases}$$\n3. **Relation de Chasles** : $$(\\\\vec{u}, \\\\vec{v}) + (\\\\vec{v}, \\\\vec{w}) = (\\\\vec{u}, \\\\vec{w})$$\n\n## 3. Cercle trigonométrique\n\nCercle de rayon 1, centre O.\nÀ tout réel x, on associe le point M tel que $$(\\\\overrightarrow{OI}, \\\\overrightarrow{OM}) = x$$.\n\nCos x = abscisse de M\nSin x = ordonnée de M\nTan x = sin x / cos x (si cos x ≠ 0)\n\n## 4. Formules fondamentales\n\n1. $$\\\\cos^2 x + \\\\sin^2 x = 1$$\n2. $$\\\tan x = \\\\frac{\\\\sin x}{\\\\cos x}$$, $$1+\\\tan^2 x = \\\\frac{1}{\\\\cos^2 x}$$\n\n## 5. Formules d'addition\n\n$$\\\\cos(a+b) = \\\\cos a \\\\cos b - \\\\sin a \\\\sin b$$\n$$\\\\cos(a-b) = \\\\cos a \\\\cos b + \\\\sin a \\\\sin b$$\n$$\\\\sin(a+b) = \\\\sin a \\\\cos b + \\\\cos a \\\\sin b$$\n$$\\\\sin(a-b) = \\\\sin a \\\\cos b - \\\\cos a \\\\sin b$$\n\n## 6. Formules de duplication\n\n$$\\\\cos 2a = \\\\cos^2 a - \\\\sin^2 a = 2\\\\cos^2 a - 1 = 1 - 2\\\\sin^2 a$$\n$$\\\\sin 2a = 2 \\\\sin a \\\\cos a$$\n$$\\\tan 2a = \\\\frac{2\\\tan a}{1-\\\tan^2 a}$$\n\n## 7. Équations trigonométriques\n\n1. $$\\\\cos x = \\\\cos a$$ ⇔ $$x = a + 2k\\\\pi$$ ou $$x = -a + 2k\\\\pi$$\n2. $$\\\\sin x = \\\\sin a$$ ⇔ $$x = a + 2k\\\\pi$$ ou $$x = \\\\pi - a + 2k\\\\pi$$\n3. $$\\\tan x = \\\tan a$$ ⇔ $$x = a + k\\\\pi$$\n\n## 8. Application à la kermesse\n\nConversion degrés → radians :\n- 45° = π/4 rad\n- 60° = π/3 rad\n- 90° = π/2 rad\n- 75° = 5π/12 rad\n\nLes instructions deviennent :\n- E : angle = -π/4 (à gauche = sens négatif)\n- F : angle = π/3\n- G : angle = -π/2\n- H : angle = -5π/12\n\nPlus précis que \"à gauche/de droite\" qui dépend de l'orientation.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Mesure principale ∈ ]-π, π]",
+    "cos²x + sin²x = 1 (identité fondamentale)",
+    "Formules d'addition : cos(a±b), sin(a±b)",
+    "cos2a = 2cos²a-1 = 1-2sin²a = cos²a-sin²a",
+    "cos x = cos a ⇔ x = ±a + 2kπ",
+    "sin x = sin a ⇔ x = a+2kπ ou π-a+2kπ"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La mesure principale de 5π/2 est :",
+      "options": [
+        "5π/2",
+        "π/2",
+        "-π/2",
+        "π"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "cos(a+b) =",
+      "options": [
+        "cos a cos b + sin a sin b",
+        "cos a cos b - sin a sin b",
+        "sin a cos b + cos a sin b",
+        "sin a cos b - cos a sin b"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "cos x = 1/2 a pour solutions :",
+      "options": [
+        "x = π/3 + 2kπ",
+        "x = ±π/3 + 2kπ",
+        "x = π/6 + 2kπ",
+        "x = π/3 + kπ"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "cos²x - sin²x =",
+      "options": [
+        "cos 2x",
+        "sin 2x",
+        "1",
+        "tan 2x"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "cos x = √2/2 équivaut à :",
+      "options": [
+        "x = π/4 + 2kπ seulement",
+        "x = ±π/4 + 2kπ",
+        "x = π/4 + kπ",
+        "x = 3π/4 + 2kπ"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Si (u⃗,v⃗) = π/3, alors (v⃗,u⃗) =",
+      "options": [
+        "π/3",
+        "-π/3",
+        "2π/3",
+        "4π/3"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Pour 4 points A,B,C,D cocycliques, on a :",
+      "options": [
+        "(CA⃗,CB⃗)=(DA⃗,DB⃗) [2π]",
+        "(CA⃗,CB⃗)=(DA⃗,DB⃗) [π]",
+        "(CA⃗,CB⃗)=2(DA⃗,DB⃗)",
+        "Aucune relation"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

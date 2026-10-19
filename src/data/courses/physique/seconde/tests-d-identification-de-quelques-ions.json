@@ -1,0 +1,281 @@
+{
+  "id": "physique-seconde-tests-d-identification-de-quelques-ions",
+  "title": "Tests d'identification de quelques ions",
+  "summary": "Lors d'une fête d'anniversaire dans la classe de 2nde A du Lycée Moderne de Zikisso, les élèves remarquent que sur les étiquettes des différentes bouteilles d'eau minérale présentes, certaines mentionnent des formules d'ions (Ca²⁺, Mg²⁺, HCO₃⁻), d'autres des noms d'ions, et d'autres encore des minéraux totaux dissous. Intrigués par cette diversité de mentions et souhaitant comprendre ce que signifient réellement ces indications pour leur santé, ils décident d'apprendre à identifier expérimentalement les ion",
+  "lesson": "## 1. Introduction à l'analyse qualitative\n\n**Définition** : L'analyse qualitative identifie les espèces chimiques présentes dans un échantillon (sans les doser).\n\n**Objectifs** :\n- Contrôle qualité des eaux\n- Identification de minéraux\n- Détection de polluants\n- Authentification de produits\n\n**Méthodes** :\n1. **Tests chimiques** : réactions caractéristiques\n2. **Tests physiques** : couleur, flamme\n3. **Techniques instrumentales** (hors programme)\n\n**Importance en Côte d'Ivoire** :\n- **Eau potable** : contrôle des ions (nitrates, fluorures)\n- **Agriculture** : analyse des sols (Ca²⁺, Mg²⁺, K⁺)\n- **Mines** : identification des minerais\n- **Santé** : détection de métaux lourds (Pb²⁺, Hg²⁺)\n\n**Description du schéma 1:** Poste de travail de laboratoire. Éléments : (1) Échantillons à tester, (2) Réactifs dans flacons, (3) Tubes à essais sur support, (4) Pipettes, (5) Bec Bunsen, (6) Fiche de résultats, (7) Équipement de sécurité (lunettes, gants).\n\n## 2. Tests des cations\n\n### **Ion argent Ag⁺**\n\n**Test caractéristique** : précipitation avec Cl⁻.\n\n**Protocole** :\n1. Prélever 2 mL de solution à tester\n2. Ajouter quelques gouttes de HCl dilué ou NaCl\n3. Observer\n\n**Observation** : Précipité blanc de AgCl qui noircit à la lumière.\n$$\\\text{Ag}^+(aq) + \\\text{Cl}^-(aq) \\\\rightarrow \\\text{AgCl}(s)$$\n\n**Propriétés du précipité** :\n- Insoluble dans HNO₃ dilué\n- Soluble dans NH₃ concentré (complexe [Ag(NH₃)₂]⁺)\n- Photosensible (noircit)\n\n### **Ion fer(II) Fe²⁺**\n\n**Tests caractéristiques** :\n1. **Avec soude NaOH** : précipité vert pâle de Fe(OH)₂ qui brunit à l'air.\n   $$\\\text{Fe}^{2+}(aq) + 2\\\text{OH}^-(aq) \\\\rightarrow \\\text{Fe(OH)}_2(s)$$\n   (Fe(OH)₂ s'oxyde en Fe(OH)₃ brun-rouille)\n\n2. **Auxocyanure de potassium K₃[Fe(CN)₆]** : précipité bleu de Turnbull (bleu de Prusse inverse).\n   $$3\\\text{Fe}^{2+} + 2[\\\text{Fe(CN)}_6]^{3-} \\\\rightarrow \\\text{Fe}_3[\\\text{Fe(CN)}_6]_2(s)$$\n\n**Couleur de la solution** : Vert pâle (si diluée), incolore (si très diluée).\n\n### **Ion cuivre(II) Cu²⁺**\n\n**Tests caractéristiques** :\n1. **Couleur** : Bleu caractéristique (solutions concentrées).\n2. **Avec soude NaOH** : précipité bleu de Cu(OH)₂.\n   $$\\\text{Cu}^{2+}(aq) + 2\\\text{OH}^-(aq) \\\\rightarrow \\\text{Cu(OH)}_2(s)$$\n   Cu(OH)₂ se déshydrate en CuO noir à chaud.\n\n3. **Avec ammoniac NH₃** :\n   - D'abord précipité bleu de Cu(OH)₂\n   - Excès : dissolution avec formation du complexe bleu intense [Cu(NH₃)₄]²⁺\n\n4. **Test à la flamme** : Vert (si sur fil de platine).\n\n**Description du schéma 2:** Tests des cations. Éléments : (1) Trois rangées de tubes : Ag⁺, Fe²⁺, Cu²⁺, (2) Pour Ag⁺ : précipité blanc avec Cl⁻, (3) Pour Fe²⁺ : précipité vert avec OH⁻, bleu avec ferricyanure, (4) Pour Cu²⁺ : solution bleue, précipité bleu avec OH⁻, complexe bleu foncé avec NH₃, (5) Équations sous chaque test.\n\n## 3. Tests des anions\n\n### **Ion chlorure Cl⁻**\n\n**Test avec Ag⁺** : précipité blanc de AgCl.\n$$\\\text{Ag}^+(aq) + \\\text{Cl}^-(aq) \\\\rightarrow \\\text{AgCl}(s)$$\n\n**Caractéristiques** :\n- Précipité blanc crémeux\n- Insoluble dans HNO₃\n- Soluble dans NH₃ concentré\n- Noircit à la lumière\n\n**Précautions** :\n- Acider d'abord avec HNO₃ pour éliminer CO₃²⁻ interférent\n- Vérifier l'absence de Br⁻, I⁻ qui donnent aussi Ag⁺\n\n### **Ion sulfate SO₄²⁻**\n\n**Test avec Ba²⁺** : précipité blanc de BaSO₄.\n$$\\\text{Ba}^{2+}(aq) + \\\text{SO}_4^{2-}(aq) \\\\rightarrow \\\text{BaSO}_4(s)$$\n\n**Caractéristiques** :\n- Précipité blanc fin\n- Insoluble dans tous les acides (même HCl concentré)\n- Très insoluble (K_s très faible)\n\n**Précautions** :\n- Acider d'abord pour éliminer CO₃²⁻, PO₄³⁻ qui précipitent aussi avec Ba²⁺\n- Distinguer de SO₃²⁻ (précipité soluble dans HCl)\n\n### **Ion carbonate CO₃²⁻**\n\n**Test à l'acide** : dégagement de CO₂.\n$$\\\text{CO}_3^{2-}(aq) + 2\\\text{H}^+(aq) \\\\rightarrow \\\text{CO}_2(g) + \\\text{H}_2\text{O}(l)$$\n\n**Test du CO₂** : trouble l'eau de chaux Ca(OH)₂.\n$$\\\text{CO}_2(g) + \\\text{Ca(OH)}_2(aq) \\\\rightarrow \\\text{CaCO}_3(s) + \\\text{H}_2\text{O}(l)$$\n\n**Protocole** :\n1. Ajouter HCl dilué à l'échantillon\n2. Recueillir le gaz sur eau de chaux\n3. Observer le trouble blanc\n\n**Variantes** :\n- Hydrogénocarbonate HCO₃⁻ : réaction plus lente\n- Distinction CO₃²⁻/HCO₃⁻ par le pH\n\n## 4. Tests complémentaires\n\n### **Test à la flamme**\n\n**Principe** : Chauffés, certains ions colorent la flamme.\n\n**Couleurs caractéristiques** :\n- Na⁺ : Jaune intense\n- K⁺ : Violet (à travers verre bleu)\n- Ca²⁺ : Rouge brique\n- Ba²⁺ : Vert pomme\n- Cu²⁺ : Vert-bleu\n\n**Protocole** :\n1. Nettoyer le fil de platine dans HCl puis flamme\n2. Tremper dans la solution\n3. Présenter dans la flamme du Bec Bunsen\n4. Observer la couleur\n\n### **Test avec indicateur coloré**\n- CO₃²⁻ : alcalin (pH > 7)\n- NH₄⁺ : test à la soude + chauffage (dégagement NH₃)\n\n### **Tests de précipitation sélective**\nUtilisation de l'ordre de précipitation pour séparer les ions.\n\n**Description du schéma 3:** Tests des anions. Éléments : (1) Trois rangées : Cl⁻, SO₄²⁻, CO₃²⁻, (2) Cl⁻ : précipité blanc avec Ag⁺, (3) SO₄²⁻ : précipité blanc avec Ba²⁺, (4) CO₃²⁻ : dégagement CO₂ avec H⁺, trouble eau de chaux, (5) Montage pour test CO₂ : tube à dégagement, eau de chaux.\n\n## 5. Réactions chimiques des tests\n\n### **Écriture des équations-bilans**\nPour chaque test, écrire :\n1. L'équation de la réaction\n2. Les états physiques\n3. Les observations\n\n### **Exemples complets**\n\n**Test de Ag⁺ avec Cl⁻** :\n- Équation : $\\\text{Ag}^+(aq) + \\\text{Cl}^-(aq) \\\\rightarrow \\\text{AgCl}(s)$\n- Observations : Précipité blanc, noircit à la lumière\n- Conditions : en milieu nitrique\n\n**Test de CO₃²⁻ avec H⁺** :\n- Équation : $\\\text{CO}_3^{2-}(aq) + 2\\\text{H}^+(aq) \\\\rightarrow \\\text{CO}_2(g) + \\\text{H}_2\text{O}(l)$\n- Observations : Dégagement gazeux, trouble l'eau de chaux\n\n**Test de Cu²⁺ avec NH₃** :\n- 1ère étape : $\\\text{Cu}^{2+}(aq) + 2\\\text{NH}_3(aq) + 2\\\text{H}_2\text{O}(l) \\\\rightarrow \\\text{Cu(OH)}_2(s) + 2\\\text{NH}_4^+(aq)$\n- 2ème étape : $\\\text{Cu(OH)}_2(s) + 4\\\text{NH}_3(aq) \\\\rightarrow [\\\text{Cu(NH}_3)_4]^{2+}(aq) + 2\\\text{OH}^-(aq)$\n- Observations : D'abord précipité bleu, puis dissolution en bleu intense\n\n## 6. Exploitation des résultats\n\n### **Interprétation des observations**\n- **Précipité** : formation d'un solide insoluble\n- **Dégagement gazeux** : formation d'un gaz\n- **Changement de couleur** : formation de complexe ou réaction redox\n- **Effervescence** : dégagement gazeux rapide\n\n### **Tableau récapitulatif**\n| Ion | Test | Réactif | Observation | Équation |\n|-----|------|---------|-------------|----------|\n| **Ag⁺** | Précipitation | Cl⁻ | Blanc (noircit) | Ag⁺ + Cl⁻ → AgCl |\n| **Fe²⁺** | Précipitation | OH⁻ | Vert → brun | Fe²⁺ + 2OH⁻ → Fe(OH)₂ |\n| **Cu²⁺** | Couleur | - | Bleu | - |\n| **Cl⁻** | Précipitation | Ag⁺ | Blanc | Ag⁺ + Cl⁻ → AgCl |\n| **SO₄²⁻** | Précipitation | Ba²⁺ | Blanc | Ba²⁺ + SO₄²⁻ → BaSO₄ |\n| **CO₃²⁻** | Acide | H⁺ | CO₂ (trouble) | CO₃²⁻ + 2H⁺ → CO₂ + H₂O |\n\n### **Tests en mélange**\n- Interférences possibles\n- Nécessité de séparations préalables\n- Ordre des tests important\n\n## 7. Applications en Côte d'Ivoire\n\n### **Analyse des eaux**\n- **Eau potable** : Cl⁻ (salinité), SO₄²⁻ (dureté), CO₃²⁻ (alcalinité)\n- **Eaux minérales** : Ca²⁺, Mg²⁺, HCO₃⁻\n- **Eaux usées** : métaux lourds, phosphates\n\n### **Analyse des sols**\n- Fertilité : Ca²⁺, Mg²⁺, K⁺, NO₃⁻, PO₄³⁻\n- pH : CO₃²⁻/HCO₃⁻ pour sols calcaires\n\n### **Contrôle qualité**\n- **Sel alimentaire** : pureté (absence de Mg²⁺, SO₄²⁻)\n- **Engrais** : composition annoncée\n- **Ciments** : composition minéralogique\n\n### **Enseignement**\n- Manipulations au lycée\n- Sensibilisation à la chimie pratique\n\n## 8. Techniques de laboratoire\n\n### **Matériel nécessaire**\n- Tubes à essais et supports\n- Pipettes et compte-gouttes\n- Bec Bunsen et fils de platine\n- Réactifs de base (acides, bases, sels)\n\n### **Précautions de sécurité**\n1. **Lunettes de protection** obligatoires\n2. **Gants** pour produits corrosifs\n3. **Hotte** pour produits volatils\n4. **Ne pas goûter** les produits\n5. **Lavage** après manipulation\n\n### **Élimination des déchets**\n- Séparation selon nature\n- Neutralisation si nécessaire\n- Respect de l'environnement\n\n## 9. Problèmes pratiques\n\n### **Identification d'un sel inconnu**\nDonnées : Solide blanc, soluble dans l'eau.\n\n**Démarche** :\n1. Test de solubilité\n2. Test à la flamme\n3. Test des cations (Ag⁺, Cu²⁺, Fe²⁺)\n4. Test des anions (Cl⁻, SO₄²⁻, CO₃²⁻)\n5. Croisement des résultats\n\n### **Analyse d'une eau minérale**\nÉtiquette : « Contient : Na⁺ 150 mg/L, Ca²⁺ 80 mg/L, Mg²⁺ 20 mg/L, Cl⁻ 200 mg/L, SO₄²⁻ 50 mg/L, HCO₃⁻ 300 mg/L »\n\n**Vérifications possibles** :\n- Électroneutralité\n- Tests de confirmation\n- Comparaison normes OMS\n\n### **Détection d'une pollution**\nSuspicion de rejet industriel dans une rivière.\n\n**Tests à réaliser** :\n- pH\n- Métaux lourds (Cu²⁺, Fe²⁺)\n- Sulfates (industries)\n- Chlorures (eaux résiduaires)\n\n## 10. Exercices d'application\n\n### **Problème 1**\n« On dispose de trois solutions aqueuses incolores contenant respectivement : NaCl, Na₂CO₃, Na₂SO₄. Propose un protocole pour les identifier. »\n\n**Solution** :\n1. Test à l'acide (HCl) : celle qui dégage CO₂ est Na₂CO₃\n2. Test avec BaCl₂ sur les deux restantes : précipité blanc = Na₂SO₄\n3. La dernière est NaCl\n\n### **Problème 2**\n« Une solution bleue peut contenir Cu²⁺, Fe²⁺, Ag⁺. Comment vérifier ? »\n\n**Solution** :\n1. Couleur bleue suggère Cu²⁺\n2. Test avec Cl⁻ : précipité blanc = Ag⁺ présent\n3. Test avec OH⁻ : précipité vert → Fe²⁺, bleu → Cu²⁺\n4. Test avec NH₃ : bleu intense confirme Cu²⁺\n\n### **Problème 3**\n« On suspecte une eau de puits contaminée par des nitrates. Quel test pourrait le confirmer ? »\n\n**Solution** :\nTest au réactif de Griess :\n1. Réduction NO₃⁻ en NO₂⁻\n2. Réaction avec sulfanilamide et NED\n3. Coloration rose-rouge si nitrites\n4. Méthode semi-quantitative\n\n**Remarque** : Les nitrates nécessitent un test spécifique (hors programme de base).",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Ag⁺ donne un précipité blanc avec Cl⁻ (AgCl) qui noircit à la lumière",
+    "Fe²⁺ donne un précipité vert avec OH⁻ (Fe(OH)₂) qui brunit à l'air",
+    "Cu²⁺ donne une solution bleue et un précipité bleu avec OH⁻ (Cu(OH)₂)",
+    "Cl⁻ donne un précipité blanc avec Ag⁺ (AgCl)",
+    "SO₄²⁻ donne un précipité blanc avec Ba²⁺ (BaSO₄) insoluble dans les acides",
+    "CO₃²⁻ dégage CO₂ avec les acides, trouble l'eau de chaux"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel ion donne un précipité blanc avec Ag⁺ qui noircit à la lumière ?",
+      "options": [
+        "Cl⁻",
+        "SO₄²⁻",
+        "CO₃²⁻",
+        "NO₃⁻"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Le test caractéristique de l'ion sulfate SO₄²⁻ utilise :",
+      "options": [
+        "Ba²⁺ en milieu acide",
+        "Ag⁺ en milieu basique",
+        "Fe²⁺ en milieu neutre",
+        "Cu²⁺ en milieu acide"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Un précipité bleu avec NaOH indique la présence de :",
+      "options": [
+        "Cu²⁺",
+        "Fe²⁺",
+        "Ag⁺",
+        "Na⁺"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Pour identifier CO₃²⁻, on utilise :",
+      "options": [
+        "HCl et eau de chaux",
+        "NaOH et phénolphtaléine",
+        "AgNO₃ et lumière",
+        "BaCl₂ et HNO₃"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "L'ion Fe²⁺ donne avec OH⁻ un précipité :",
+      "options": [
+        "Vert qui brunit",
+        "Bleu stable",
+        "Blanc qui noircit",
+        "Rouge-brun"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Le test à la flamme violette (à travers verre bleu) caractérise :",
+      "options": [
+        "K⁺",
+        "Na⁺",
+        "Ca²⁺",
+        "Cu²⁺"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "BaSO₄ est insoluble dans :",
+      "options": [
+        "Tous les acides",
+        "HCl concentré",
+        "HNO₃ dilué",
+        "L'eau uniquement"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Pour tester Cl⁻ en présence de CO₃²⁻, il faut d'abord :",
+      "options": [
+        "Acidifier avec HNO₃",
+        "Basifier avec NaOH",
+        "Chauffer",
+        "Ajouter BaCl₂"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Le complexe [Cu(NH₃)₄]²⁺ est de couleur :",
+      "options": [
+        "Bleu intense",
+        "Vert pâle",
+        "Incolore",
+        "Rouge"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Le trouble de l'eau de chaux indique la présence de :",
+      "options": [
+        "CO₂",
+        "H₂",
+        "O₂",
+        "Cl₂"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "L'ion Ag⁺ donne avec Cl⁻ un précipité :",
+      "options": [
+        "Rouge",
+        "Bleu",
+        "Blanc",
+        "Vert"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Le test à la flamme jaune intense caractérise :",
+      "options": [
+        "K⁺",
+        "Na⁺",
+        "Ca²⁺",
+        "Cu²⁺"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "L'ion CO₃²⁻ donne avec un acide :",
+      "options": [
+        "Un précipité",
+        "Un dégagement de CO₂",
+        "Une coloration",
+        "Rien"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Pour identifier SO₄²⁻ sans interférence de CO₃²⁻, on utilise Ba²⁺ :",
+      "options": [
+        "En milieu basique",
+        "En milieu acide",
+        "En milieu neutre",
+        "À chaud"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Fe³⁺ donne avec SCN⁻ une coloration :",
+      "options": [
+        "Bleue",
+        "Verte",
+        "Rouge sang",
+        "Jaune"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Le précipité de Cu(OH)₂ est de couleur :",
+      "options": [
+        "Blanc",
+        "Bleu",
+        "Vert",
+        "Noir"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Pour distinguer Fe²⁺ de Fe³⁺, on peut utiliser :",
+      "options": [
+        "NaOH",
+        "SCN⁻",
+        "Les deux",
+        "Ni l'un ni l'autre"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Un précipité blanc insoluble dans l'acide nitrique avec Ba²⁺ indique :",
+      "options": [
+        "CO₃²⁻",
+        "SO₄²⁻",
+        "Cl⁻",
+        "PO₄³⁻"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "L'ion ammonium NH₄⁺ n'est pas détecté par :",
+      "options": [
+        "Test à la flamme",
+        "Test à la soude + chauffage",
+        "Test à Nessler",
+        "Précipitation"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Le fil de platine pour test à la flamme doit être :",
+      "options": [
+        "Toujours propre",
+        "Coloré",
+        "Chaud",
+        "Immergé longtemps"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "id": "svt-premiere-la-transmission-d-un-caractere-hereditaire-le-monohybridisme",
+  "title": "La transmission d'un caractère héréditaire : le monohybridisme",
+  "summary": "Des élèves du Lycée moderne de SEGUELA en visite dans une ferme observent des lapereaux et des poussins. Ils constatent que ces jeunes animaux ressemblent à leurs géniteurs par certains caractères.",
+  "lesson": "## Génétique et hérédité\n\n### Définitions de base\n\n**Caractère héréditaire :**\nTrait observable transmis des parents aux descendants (couleur des yeux, groupe sanguin, etc.)\n\n**Génétique :**\nScience qui étudie la transmission des caractères héréditaires.\n\n**Hérédité :**\nTransmission des caractères des parents aux descendants.\n\n## Vocabulaire génétique\n\n### Gène\n\n**Définition :**\nUnité d'information génétique située sur un chromosome, responsable d'un caractère.\n\n**Exemple :**\nGène de la couleur des yeux.\n\n### Allèle\n\n**Définition :**\nVersion différente d'un même gène.\n\n**Exemples :**\n- Gène \"couleur pelage\" chez la souris : allèle \"noir\" ou allèle \"blanc\"\n- Gène \"groupe sanguin\" : allèles A, B, O\n\n**Notation :**\n- Allèle dominant : lettre majuscule (A, B, N)\n- Allèle récessif : lettre minuscule (a, b, n)\n\n### Locus\n\n**Définition :**\nPosition d'un gène sur un chromosome.\n\n### Génotype\n\n**Définition :**\nEnsemble des allèles d'un individu pour un ou plusieurs gènes.\n\n**Exemples :**\n- Homozygote : AA, aa (deux allèles identiques)\n- Hétérozygote : Aa (deux allèles différents)\n\n### Phénotype\n\n**Définition :**\nEnsemble des caractères observables d'un individu.\n\n**Exemples :**\n- Pelage noir\n- Yeux bleus\n- Groupe sanguin A\n\n**Relation :**\nGénotype + Environnement → Phénotype\n\n## Le monohybridisme\n\n### Définition\n\nÉtude de la transmission d'un seul caractère héréditaire.\n\n**Croisement monohybride :**\nCroisement entre deux individus qui diffèrent par un seul caractère.\n\n## Cas 1 : Dominance complète\n\n### Principe\n\nUn allèle **dominant** masque l'expression de l'allèle **récessif**.\n\n### Exemple : Couleur du pelage chez la souris\n\n**Allèles :**\n- N (noir) : allèle dominant\n- n (blanc) : allèle récessif\n\n**Phénotypes possibles :**\n- Pelage noir : NN ou Nn\n- Pelage blanc : nn\n\n### Croisement de lignées pure (P)\n\n**Parents :**\n- Souris noire pure : NN\n- Souris blanche pure : nn\n\n**Gamètes :**\n- Souris NN → tous les gamètes N\n- Souris nn → tous les gamètes n\n\n**F1 (première génération) :**\nTous les descendants : **Nn** (phénotype noir)\n\n**Résultat :** 100% de souris noires\n\n**Loi de pureté des gamètes (1ère loi de Mendel) :**\nLes deux allèles d'un gène se séparent lors de la formation des gamètes.\n\n### Autofécondation de F1 (ou croisement F1 x F1)\n\n**Parents F1 :**\nDeux souris Nn\n\n**Gamètes :**\n- Chaque souris Nn produit 50% de gamètes N et 50% de gamètes n\n\n**Échiquier de croisement (F2) :**\n\n|   | N | n |\n|---|---|---|\n| **N** | NN | Nn |\n| **n** | Nn | nn |\n\n**Résultats F2 :**\n- **Génotypes :** 1 NN : 2 Nn : 1 nn (ratio 1:2:1)\n- **Phénotypes :** 3 souris noires : 1 souris blanche (ratio 3:1)\n\n**Loi de ségrégation indépendante (2e loi de Mendel) :**\nLes allèles se répartissent de façon aléatoire dans les gamètes.\n\n### Test-cross (croisement-test)\n\n**Objectif :**\nDéterminer le génotype d'un individu au phénotype dominant.\n\n**Principe :**\nCroiser l'individu de génotype inconnu avec un individu homozygote récessif.\n\n**Exemple :**\nSouris noire (N?) × souris blanche (nn)\n\n**Si la souris noire est NN :**\n- Tous les descendants : Nn (noirs)\n- Ratio : 100% noirs\n\n**Si la souris noire est Nn :**\n- Descendants : 50% Nn (noirs) + 50% nn (blancs)\n- Ratio : 1 noir : 1 blanc\n\n## Cas 2 : Codominance\n\n### Principe\n\nLes deux allèles s'expriment simultanément (pas de dominance).\n\n### Exemple : Groupe sanguin (système ABO)\n\n**Allèles :**\n- A et B : codominants\n- O : récessif\n\n**Génotypes et phénotypes :**\n- Groupe A : AA ou AO\n- Groupe B : BB ou BO\n- Groupe AB : AB (codominance)\n- Groupe O : OO\n\n### Exemple de croisement\n\n**Parents :**\n- Père groupe A (AO) × Mère groupe B (BO)\n\n**Gamètes :**\n- Père : 50% A, 50% O\n- Mère : 50% B, 50% O\n\n**Échiquier :**\n\n|   | A | O |\n|---|---|---|\n| **B** | AB | BO |\n| **O** | AO | OO |\n\n**Résultats :**\n- 25% groupe AB (AB)\n- 25% groupe A (AO)\n- 25% groupe B (BO)\n- 25% groupe O (OO)\n\n**Ratio phénotypique :** 1:1:1:1\n\n## Cas 3 : Gènes liés au sexe (hétérosomaux)\n\n### Principe\n\nGène porté par les chromosomes sexuels (X ou Y).\n\n### Exemple : Hémophilie (gène sur X)\n\n**Allèles :**\n- XH : allèle normal (dominant)\n- Xh : allèle hémophilie (récessif)\n\n**Génotypes :**\n- Homme normal : XHY\n- Homme hémophile : XhY\n- Femme normale : XHXH ou XHXh (conductrice)\n- Femme hémophile : XhXh (très rare)\n\n**Croisement :**\nFemme conductrice (XHXh) × Homme normal (XHY)\n\n**Résultats :**\n- Filles : 50% XHXH (normales), 50% XHXh (conductrices)\n- Garçons : 50% XHY (normaux), 50% XhY (hémophiles)\n\n**Particularité :**\nLes maladies récessives liées à X touchent principalement les hommes.\n\n## Arbre généalogique\n\n### Symboles\n\n- Carré : homme\n- Cercle : femme\n- Symbole plein : individu atteint\n- Symbole vide : individu sain\n- Demi-plein : hétérozygote (porteur sain)\n\n### Utilité\n\nÉtudier la transmission d'un caractère sur plusieurs générations.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Génotype = ensemble des allèles ; Phénotype = caractères observables",
+    "Dominance complète : allèle dominant masque le récessif",
+    "F1 (pur × pur) : 100% phénotype dominant",
+    "F2 (F1 × F1) : ratio 3:1 (dominance) ou 1:2:1 (codominance)",
+    "Test-cross = croisement avec homozygote récessif"
+  ],
+  "exercise": {
+    "question": "Chez le cobaye, le pelage lisse (L) domine le pelage crépu (l). On croise deux cobayes à pelage lisse. On obtient 75% de cobayes lisses et 25% de cobayes crépus. Déterminez le génotype des parents.",
+    "answer": "Les parents sont tous deux hétérozygotes Ll. Croisement Ll × Ll donne : 1 LL : 2 Ll : 1 ll, soit 75% lisses (LL + Ll) et 25% crépus (ll). Si l'un des parents était LL, on aurait eu 100% de descendants lisses."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Un individu hétérozygote possède :",
+      "options": [
+        "Deux allèles identiques",
+        "Deux allèles différents",
+        "Un seul allèle",
+        "Trois allèles"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "En dominance complète, le ratio phénotypique en F2 est :",
+      "options": [
+        "1:1",
+        "1:2:1",
+        "3:1",
+        "9:3:3:1"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Un test-cross se fait avec un individu :",
+      "options": [
+        "Homozygote dominant",
+        "Hétérozygote",
+        "Homozygote récessif",
+        "N'importe lequel"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel est le ratio phénotypique attendu dans la F2 d'un croisement monohybride avec dominance complète?",
+      "options": [
+        "1:1",
+        "2:1",
+        "3:1",
+        "1:2:1"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel groupe sanguin résulte de la codominance des allèles I^A et I^B?",
+      "options": [
+        "Groupe A",
+        "Groupe B",
+        "Groupe AB",
+        "Groupe O"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel type de chromosome porte les gènes liés au sexe?",
+      "options": [
+        "Autosomes",
+        "Hétérosomes",
+        "Mitchondriaux",
+        "Ribosomaux"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel génotype a un mâle pour un gène récessif lié à l'X?",
+      "options": [
+        "X^D X^d",
+        "X^D Y",
+        "X^d Y",
+        "X^d X^d"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quelle loi de Mendel décrit la ségrégation des allèles?",
+      "options": [
+        "Loi de pureté des gamètes",
+        "Loi d'assortiment indépendant",
+        "Loi de dominance",
+        "Loi de ségrégation"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel outil utilise-t-on pour prédire les résultats d'un croisement?",
+      "options": [
+        "Microscope",
+        "Échiquier de Punnett",
+        "Spectromètre",
+        "Centrifugeuse"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel pourcentage d'enfants daltoniens attend-on d'une mère porteuse et d'un père normal?",
+      "options": [
+        "0%",
+        "25%",
+        "50%",
+        "100%"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quel terme désigne un individu avec deux allèles identiques?",
+      "options": [
+        "Hétérozygote",
+        "Homozygote",
+        "Hémizygote",
+        "Hétérochrome"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel test statistique utilise-t-on pour comparer résultats observés et théoriques?",
+      "options": [
+        "Test t de Student",
+        "Test de χ²",
+        "Analyse de variance",
+        "Régression linéaire"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel est le génotype d'un individu de groupe sanguin O?",
+      "options": [
+        "I^A I^A",
+        "I^A i",
+        "I^A I^B",
+        "i i"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "maths-troisieme-pyramides-et-cones",
+  "title": "Pyramides et cônes",
+  "summary": "À la première séance du cours de géométrie sur les pyramides et cônes, le professeur de mathématique de la classe de troisième 3 du Collège Moderne de BINGERVILLE met à la disposition de ses élèves un objet en forme de pyramide. Curieux de connaître l'objet, ils décident de donner toutes les informations justes le concernant : dimensions, volume, aire latérale et patron.",
+  "lesson": "## 1. Pyramide régulière : définitions\n\nUne **pyramide régulière** est une pyramide dont :\n1. La base est un polygone régulier (carré, triangle équilatéral, etc.)\n2. Le sommet se projette orthogonalement au centre de la base\n\n**Vocabulaire** :\n- **Sommet** : point S au-dessus de la base\n- **Base** : polygone régulier (ABCDE pour une pyramide à base pentagonale)\n- **Faces latérales** : triangles isocèles de sommet S\n- **Hauteur** : distance du sommet au plan de la base (notée h)\n- **Apothème** : hauteur d'une face latérale (notée a)\n- **Arête latérale** : segment joignant le sommet à un sommet de la base\n\n## 2. Cône de révolution : définitions\n\nUn **cône de révolution** est engendré par la rotation d'un triangle rectangle autour d'un de ses côtés de l'angle droit.\n\n**Vocabulaire** :\n- **Sommet** : point S\n- **Base** : disque de centre O et de rayon r\n- **Génératrice** : segment joignant le sommet à un point du cercle de base (notée g)\n- **Hauteur** : distance SO = h\n- **Angle de développement** : angle du secteur circulaire formant le patron\n\n## 3. Relations fondamentales\n\nPour un **cône de révolution** :\n1. $g^2 = h^2 + r^2$ (théorème de Pythagore)\n2. Longueur de l'arc de base = $2\\\\pi r$\n3. Angle de développement $\\\\alpha$ (en degrés) : $\\\\alpha = \\\\frac{r}{g} \\\times 360^{\\\\circ}$\n\n## 4. Calcul des volumes\n\n| Solide | Formule du volume | Exemple (Côte d'Ivoire) |\n|--------|-------------------|--------------------------|\n| Pyramide | $V = \\\\frac{1}{3} \\\times A_{\\\text{base}} \\\times h$ | Pyramide à base carrée de 4 m de côté, h = 6 m : $V = \\\\frac{1}{3} \\\times 16 \\\times 6 = 32$ m³ |\n| Cône | $V = \\\\frac{1}{3} \\\times \\\\pi r^2 \\\times h$ | Cône de r = 3 m, h = 7 m : $V = \\\\frac{1}{3} \\\times \\\\pi \\\times 9 \\\times 7 \\\\approx 65,97$ m³ |\n\n## 5. Calcul des aires\n\n| Solide | Aire latérale | Aire totale |\n|--------|---------------|-------------|\n| Pyramide | $A_L = \\\\frac{1}{2} \\\times P_{\\\text{base}} \\\times a$ (a = apothème) | $A_T = A_L + A_{\\\text{base}}$ |\n| Cône | $A_L = \\\\pi r g$ | $A_T = A_L + \\\\pi r^2$ |\n\n## 6. Construction des patrons\n\n```mermaid\ngraph TD\n    A[Début] --> B{Pyramide ou Cône?}\n    B --> C[Pyramide régulière]\n    B --> D[Cône de révolution]\n    C --> E[1. Tracer la base polygonale]\n    C --> F[2. Calculer l'apothème a]\n    C --> G[3. Tracer les faces latérales (triangles isocèles)]\n    D --> H[1. Tracer le secteur circulaire (angle α)]\n    D --> I[2. Tracer le disque de base (rayon r)]\n    E --> J[Patron complet]\n    F --> J\n    G --> J\n    H --> J\n    I --> J\n```\n\n## 7. Propriétés de réduction\n\nSi on réduit un solide par un coefficient k (0 < k < 1) :\n- Les longueurs sont multipliées par k\n- Les aires sont multipliées par k²\n- Les volumes sont multipliés par k³\n\n**Exemple** : Une maquette de pyramide à l'échelle 1:10 :\n- Hauteur : divisée par 10\n- Aire latérale : divisée par 100\n- Volume : divisée par 1000\n\n## 8. Troncs de pyramides et de cônes\n\nUn **tronc** est la partie d'un solide comprise entre deux plans parallèles.\n\nPour un tronc de pyramide ou de cône :\n- Volume = Volume grand solide - Volume petit solide\n- On utilise souvent la formule : $V = \\\\frac{1}{3}h(B_1 + \\\\sqrt{B_1B_2} + B_2)$ où $B_1$ et $B_2$ sont les aires des bases\n\n## 9. Applications en architecture ivoirienne\n\n```mathgraph\n{\n  \"type\": \"function\",\n  \"title\": \"Relation entre dimensions d'un cône\",\n  \"xRange\": [0, 10],\n  \"yRange\": [0, 15],\n  \"functions\": [\n    { \"expression\": \"sqrt(x^2 + 5^2)\", \"color\": \"#3b82f6\", \"name\": \"g = √(h² + r²) avec r=5\" }\n  ],\n  \"showGrid\": true,\n  \"showAxes\": true,\n  \"xLabel\": \"Hauteur h\",\n  \"yLabel\": \"Génératrice g\",\n  \"points\": [\n    { \"x\": 8, \"y\": 9.434, \"color\": \"#ef4444\", \"label\": \"Cône typique\" }\n  ]\n}\n```\n\n**Exemples ivoiriens** :\n1. Les toits coniques des cases traditionnelles\n2. Les pyramides des monuments historiques\n3. Les silos à grains de forme conique\n4. Les enseignes lumineuses pyramidales\n\n## 10. Extraction de figures planes\n\nDans une représentation en perspective cavalière, on peut extraire :\n- Des triangles rectangles pour calculer des hauteurs\n- Des trapèzes pour les troncs\n- Des secteurs circulaires pour les patrons de cônes\n\n**Méthode** : Identifier les triangles rectangles utiles (SOA pour un cône, où A est un point du cercle de base).",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Le volume d'une pyramide ou d'un cône est le tiers du produit de l'aire de base par la hauteur",
+    "L'aire latérale d'une pyramide = demi-périmètre de base × apothème",
+    "L'aire latérale d'un cône = π × rayon × génératrice",
+    "Dans une réduction de rapport k, les volumes sont multipliés par k³"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Le volume d'une pyramide à base carrée de côté 6 cm et de hauteur 9 cm est :",
+      "options": [
+        "54 cm³",
+        "108 cm³",
+        "162 cm³",
+        "324 cm³"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "L'aire latérale d'un cône de rayon 5 cm et de génératrice 13 cm est :",
+      "options": [
+        "65π cm²",
+        "25π cm²",
+        "90π cm²",
+        "13π cm²"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Si on réduit une pyramide avec un coefficient 0,5, son volume est multiplié par :",
+      "options": [
+        "0,5",
+        "0,25",
+        "0,125",
+        "2"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans un cône de révolution, la relation entre h, r et g est :",
+      "options": [
+        "g² = h² + r²",
+        "h² = g² + r²",
+        "r² = h² + g²",
+        "g = h + r"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

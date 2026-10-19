@@ -1,0 +1,149 @@
+{
+  "id": "physique-premiere-etude-d-un-dipole-actif-cas-d-une-pile-loi-de-pouillet",
+  "title": "Étude d'un dipôle actif : cas d'une pile. Loi de Pouillet",
+  "summary": "À Toumodi, des élèves lisent dans un livre que la caractéristique d'une pile révèle sa fonction différente d'un résistor. Intrigués, ils décident de vérifier expérimentalement cette information en traçant la caractéristique d'une pile et en étudiant ses paramètres.",
+  "lesson": "## 1. Introduction\n\nUne **pile** est un générateur électrochimique qui convertit l'énergie chimique en énergie électrique. En Côte d'Ivoire, les piles sont essentielles pour l'éclairage domestique dans les zones rurales, les radios à Bouaké, les télécommandes à Abidjan, et les équipements médicaux à Yamoussoukro.\n\n## 2. Caractéristique d'une pile\n\nLa caractéristique tension-courant d'une pile est la courbe $U = f(I)$ où $U$ est la tension aux bornes et $I$ l'intensité débitée.\nContrairement au résistor, cette caractéristique est une **droite décroissante**.\n\n**Description du schéma 1:** Graphique U=f(I) pour une pile. Axes : I en abscisse (A), U en ordonnée (V). Tracer une droite décroissante linéaire. Indiquer l'ordonnée à l'origine E et la pente négative (-r).\n\n## 3. Force électromotrice (f.é.m.)\n\nLa **force électromotrice** $E$ d'une pile est la tension à ses bornes lorsqu'elle ne débite pas de courant ($I = 0$). C'est l'ordonnée à l'origine de la caractéristique.\n- Unité : volt (V)\n- Symbole : $E$ ou $\\mathcal{E}$\n\n**Exemple** : Pile alcaline AA : E ≈ 1,5 V ; accumulateur au plomb : E ≈ 2,0 V par élément.\n\n## 4. Résistance interne\n\nToute pile possède une **résistance interne** $r$ due à la résistivité des électrolytes et des électrodes. Cette résistance provoque la chute de tension lorsque la pile débite.\nSur la caractéristique : $r = -\\\\frac{\\\\Delta U}{\\\\Delta I}$ (valeur absolue de la pente).\n\n## 5. Relation tension-courant : U = E - rI\n\nPour une pile modélisée par une f.é.m. $E$ en série avec une résistance interne $r$, la tension aux bornes est :\n$$U = E - r \\\times I$$\n\nCette équation modélise la droite caractéristique.\n\n**Description du schéma 2:** Modèle électrique équivalent d'une pile. Schématiser une source de tension idéale E en série avec une résistance r, et les bornes de sortie A et B où on mesure U.\n\n## 6. Loi de Pouillet pour un circuit simple\n\nPour un circuit constitué d'une pile de f.é.m. $E$ et de résistance interne $r$, fermé sur un conducteur ohmique de résistance $R$ :\n$$I = \\\\frac{E}{R + r}$$\n\nEt la tension aux bornes de la pile est : $U = E - rI = R \\\times I$.\n\n## 7. Détermination graphique des paramètres\n\nÀ partir de la caractéristique expérimentale :\n1. **Prolonger** la droite jusqu'à l'axe des ordonnées → $E$\n2. **Mesurer la pente** $\\\\Delta U/\\\\Delta I$ → $r$ (en valeur absolue)\n\n**Description du schéma 3:** Graphique U=f(I) avec mesures graphiques. Tracer la droite caractéristique, prolonger jusqu'à U pour I=0 (point E). Former un triangle rectangle et mesurer ΔU et ΔI pour calculer r = |ΔU/ΔI|.\n\n## 8. Point de fonctionnement\n\nPour un circuit pile + résistance $R$, le point de fonctionnement est l'intersection de :\n- La caractéristique de la pile : $U = E - rI$\n- La caractéristique du résistor : $U = RI$\n\nGraphiquement, c'est l'intersection des deux droites.\n\n## 9. Applications et précautions en Côte d'Ivoire\n\n1. **Choix des piles** : Pour les lampes torches en milieu rural, préférer les piles à faible r pour un meilleur éclairage.\n\n2. **Usure des piles** : Quand r augmente (pile usée), U chute rapidement sous charge.\n\n3. **Recyclage** : Les piles usagées contiennent des métaux lourds toxiques (à rapporter aux points de collecte).\n\n4. **Sécurité** : Ne jamais court-circuiter une pile (I très élevé, risque d'échauffement, explosion pour les accumulateurs).\n\n## 10. Rendement énergétique\n\nLe rendement de conversion d'une pile est :\n$$\\\\eta = \\\\frac{P_u}{P_g} = \\\\frac{UI}{EI} = \\\\frac{U}{E} = 1 - \\\\frac{rI}{E}$$\n\nIl diminue quand le courant débité augmente.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "La caractéristique d'une pile est une droite décroissante U = E - rI",
+    "E est la tension à vide (I=0), r la résistance interne (pente négative)",
+    "La loi de Pouillet donne I = E/(R+r) pour un circuit pile + résistance",
+    "Le point de fonctionnement est l'intersection des caractéristiques des deux dipôles"
+  ],
+  "exercise": {
+    "answer": "**1. Intensité (loi de Pouillet) :**\n$$I = \\\\frac{E}{R + r} = \\\\frac{4,5}{10 + 2} = \\\\frac{4,5}{12} = 0,375\\\\ \\\text{A}$$\n\n**2. Tension aux bornes :**\n$$U = E - rI = 4,5 - 2 \\\times 0,375 = 4,5 - 0,75 = 3,75\\\\ \\\text{V}$$\nVérification : $U = RI = 10 \\\times 0,375 = 3,75$ V ✓\n\n**3. Puissances :**\n- Utile (lampe) : $P_u = UI = 3,75 \\\times 0,375 = 1,406\\\\ \\\text{W}$\n- Générée : $P_g = EI = 4,5 \\\times 0,375 = 1,6875\\\\ \\\text{W}$\n- Perdue dans r : $P_j = rI^2 = 2 \\\times (0,375)^2 = 2 \\\times 0,1406 = 0,281\\\\ \\\text{W}$\nVérification : $P_g = P_u + P_j = 1,406 + 0,281 = 1,687$ W ✓\n\n**4. Courant de court-circuit :**\n$$I_{cc} = \\\\frac{E}{r} = \\\\frac{4,5}{2} = 2,25\\\\ \\\text{A}$$\n(Danger : courant élevé, échauffement)\n\n**Réponse :** I = 0,375 A ; U = 3,75 V ; Pu = 1,41 W ; Pj = 0,28 W ; Icc = 2,25 A.",
+    "question": "Une pile de f.é.m. E = 4,5 V et de résistance interne r = 2 Ω alimente une lampe de résistance R = 10 Ω à Bouaké. 1) Calculez l'intensité dans le circuit. 2) Calculez la tension aux bornes de la pile. 3) Déterminez la puissance utile et la puissance perdue dans r. 4) Quel serait le courant de court-circuit ?"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La caractéristique U=f(I) d'une pile est :",
+      "options": [
+        "Une droite croissante",
+        "Une droite décroissante",
+        "Une parabole",
+        "Une droite horizontale"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La force électromotrice E est :",
+      "options": [
+        "La tension en court-circuit",
+        "La tension à vide",
+        "La résistance interne",
+        "Le courant maximal"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La relation entre U, E, r et I est :",
+      "options": [
+        "U = E + rI",
+        "U = E - rI",
+        "U = rI - E",
+        "U = E/rI"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Si r augmente (pile usée) :",
+      "options": [
+        "E augmente",
+        "La tension sous charge baisse",
+        "Le courant de court-circuit augmente",
+        "La caractéristique devient horizontale"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Pour une pile avec E=9V, r=1Ω, en court-circuit :",
+      "options": [
+        "U=9V, I=9A",
+        "U=0V, I=9A",
+        "U=9V, I=0A",
+        "U=0V, I=0A"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "La loi de Pouillet s'écrit :",
+      "options": [
+        "I = E/(R+r)",
+        "I = E×R/r",
+        "I = (E-U)/r",
+        "I = U/R seulement"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Le point de fonctionnement est :",
+      "options": [
+        "Seulement sur la caractéristique de la pile",
+        "L'intersection des caractéristiques",
+        "Le point U=0",
+        "Le point I=0"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Une pile neuve a généralement :",
+      "options": [
+        "r très faible",
+        "r très élevé",
+        "E=0V",
+        "U constant quel que soit I"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "La puissance perdue dans r est :",
+      "options": [
+        "rI",
+        "rI²",
+        "E²/r",
+        "UI"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Pour mesurer E précisément :",
+      "options": [
+        "Court-circuiter la pile",
+        "Utiliser un voltmètre à forte impédance",
+        "Utiliser un ampèremètre",
+        "Chauffer la pile"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "maths-quatrieme-les-nombres-rationnels",
+  "title": "Les nombres rationnels",
+  "summary": "Un commerçant doit calculer : -3/4 + 2/3. Comment additionner des fractions avec des signes négatifs ?",
+  "lesson": "## Les nombres rationnels\n\n### Définition\nUn **nombre rationnel** est un nombre qui peut s'écrire sous forme de fraction a/b où a et b sont des entiers (b ≠ 0).\n\n**Exemples de nombres rationnels :**\n- 3/4 (fraction positive)\n- -2/5 (fraction négative)\n- 5 = 5/1 (entier)\n- -3 = -3/1 (entier négatif)\n- 0,5 = 1/2 (décimal)\n- -2,5 = -5/2 (décimal négatif)\n\n**Notation :** L'ensemble des nombres rationnels se note **ℚ**\n\n### Écriture des nombres rationnels négatifs\n-3/4 = (-3)/4 = 3/(-4)\n\n**Convention :** On écrit généralement le signe moins devant la fraction : -3/4\n\n## Addition et soustraction\n\n### Règles (identiques aux fractions)\n**Même dénominateur :**\n-3/7 + 5/7 = (-3 + 5)/7 = 2/7\n\n**Dénominateurs différents :**\nOn met au même dénominateur d'abord.\n\n**Exemple :**\n-3/4 + 2/3\n= -9/12 + 8/12\n= (-9 + 8)/12\n= -1/12\n\n### Avec des nombres relatifs\n(+5/3) + (-2/3) = (5 - 2)/3 = 3/3 = 1\n\n## Multiplication et division\n\n### Multiplication\nOn applique la règle des signes des nombres relatifs.\n\n**Exemples :**\n- (+3/4) × (+2/5) = +6/20 = +3/10\n- (+3/4) × (-2/5) = -6/20 = -3/10\n- (-3/4) × (+2/5) = -6/20 = -3/10\n- (-3/4) × (-2/5) = +6/20 = +3/10\n\n### Division\nDiviser par une fraction = multiplier par son inverse.\n\n**Exemple :**\n(-3/4) ÷ (2/5) = (-3/4) × (5/2) = -15/8\n\n## Simplification\nOn simplifie comme les fractions ordinaires.\n\n**Exemple :**\n-12/18 = -2×6/3×6 = -2/3",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Rationnel = fraction a/b (a, b entiers, b ≠ 0)",
+    "ℚ = ensemble des rationnels",
+    "Règles des signes pour × et ÷",
+    "Même dénominateur pour + et -"
+  ],
+  "exercise": {
+    "answer": "\n**Solution :**\n(-2/3) × (+9/4)\n= (signes différents → résultat négatif)\n= -(2×9)/(3×4)\n= -18/12\n= -3/2\n\n**Réponse : -3/2**\n        ",
+    "question": "Calcule et simplifie : (-2/3) × (+9/4)"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Un nombre rationnel peut s'écrire sous forme de :",
+      "options": [
+        "Entier seulement",
+        "Fraction seulement",
+        "Fraction a/b",
+        "Racine carrée"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Calcule : (-1/2) + (-1/4)",
+      "options": [
+        "-3/4",
+        "-1/4",
+        "+3/4",
+        "-2/6"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

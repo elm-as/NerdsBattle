@@ -1,0 +1,58 @@
+{
+  "id": "anglais-cinquieme-les-repas-et-les-boissons-meals-and-drinks",
+  "title": "Les repas et les boissons (Meals and drinks)",
+  "summary": "À l'ambassade des USA, des élèves de 5ème écoutent le maître de cérémonie citer les différents plats et boissons disponibles afin de faire leur choix.",
+  "lesson": "## Meals and Drinks - Repas et boissons\n\n### Les aliments (Food)\n\n**Féculents et céréales :**\n- rice - le riz\n- bread - le pain\n- pasta - les pâtes\n- yam - l'igname\n- plantain - le plantain\n- cassava - le manioc\n\n**Viande et poisson :**\n- chicken - le poulet\n- beef - le bœuf\n- fish - le poisson\n- meat - la viande\n\n**Légumes (Vegetables) :**\n- tomato - la tomate\n- onion - l'oignon\n- carrot - la carotte\n- cabbage - le chou\n- pepper - le piment\n\n**Fruits (Fruits) :**\n- banana - la banane\n- orange - l'orange\n- mango - la mangue\n- pineapple - l'ananas\n- papaya - la papaye\n\n### Les boissons (Drinks)\n\n- water - l'eau\n- juice - le jus\n- milk - le lait\n- tea - le thé\n- coffee - le café\n- soft drink / soda - la boisson gazeuse\n\n### Commander au restaurant\n\n**Le serveur :**\n- May I take your order? - Puis-je prendre votre commande ?\n- What would you like? - Que voulez-vous ?\n- Anything to drink? - Quelque chose à boire ?\n\n**Le client :**\n- I would like rice and chicken. - Je voudrais du riz et du poulet.\n- I'll have fish and plantain. - Je prendrai du poisson et du plantain.\n- Can I have some water, please? - Puis-je avoir de l'eau, s'il vous plaît ?\n\n### Exprimer ses préférences\n\n**Aimer (like) / Préférer (prefer) :**\n- I like rice. - J'aime le riz.\n- She likes chicken. - Elle aime le poulet.\n- I prefer fish. - Je préfère le poisson.\n- He prefers tea to coffee. - Il préfère le thé au café.\n\n**Aimer beaucoup / pas du tout :**\n- I love mangoes! - J'adore les mangues !\n- I don't like pepper. - Je n'aime pas le piment.\n\n### Structure des repas\n\n**Hors-d'œuvre (Starter) :**\n- salad - la salade\n- soup - la soupe\n\n**Plat principal (Main course) :**\n- rice with chicken - riz au poulet\n- fish and plantain - poisson et plantain\n\n**Dessert :**\n- fruit - les fruits\n- cake - le gâteau\n- ice cream - la glace\n\n**Exemple de menu :**\n\"For lunch, I would like a salad as a starter, rice with chicken for the main course, and a mango for dessert. I'll have orange juice to drink.\"",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Aliments: rice, chicken, fish, bread, plantain",
+    "Fruits: banana, orange, mango, pineapple",
+    "Boissons: water, juice, milk, tea, coffee",
+    "I would like... / I'll have... / I like/prefer..."
+  ],
+  "exercise": {
+    "question": "Complète la commande : 'I ___ like rice and ___. For dessert, I'll ___ a banana. I ___ orange juice, please.'",
+    "answer": "\n**Solution :**\nI **would** like rice and **chicken**. For dessert, I'll **have** a banana. I **prefer** / **want** orange juice, please.\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'poulet' ?",
+      "options": [
+        "Fish",
+        "Beef",
+        "Chicken",
+        "Meat"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle phrase est correcte pour commander ?",
+      "options": [
+        "I like rice",
+        "I would like rice",
+        "I am rice",
+        "I have rice"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'mangue' ?",
+      "options": [
+        "Banana",
+        "Orange",
+        "Mango",
+        "Pineapple"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

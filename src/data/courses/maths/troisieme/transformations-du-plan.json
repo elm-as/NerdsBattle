@@ -1,0 +1,32 @@
+{
+  "id": "maths-troisieme-transformations-du-plan",
+  "title": "Transformations du plan",
+  "summary": "Designer de pagne utilise transformations pour créer répétitions. Lesquelles ?",
+  "lesson": "## Transformations du plan\n\n### Symétrie axiale\nPar rapport à une droite (axe)\nEffet miroir\n\n### Symétrie centrale\nPar rapport à un point\nDemi-tour\n\n### Translation\nGlissement selon vecteur\nTous points même déplacement\n\n### Propriétés conservées\n- Longueurs\n- Angles  \n- Aires\n- Parallélisme",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Symétrie axiale : miroir",
+    "Symétrie centrale : demi-tour",
+    "Translation : glissement",
+    "Conservent longueurs/angles"
+  ],
+  "exercise": {
+    "question": "Transformation qui glisse selon vecteur ?",
+    "answer": "Translation"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Conservent tout sauf homothétie :",
+      "options": [
+        "Homothétie",
+        "Translation",
+        "Toutes sauf homo",
+        "Aucune"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

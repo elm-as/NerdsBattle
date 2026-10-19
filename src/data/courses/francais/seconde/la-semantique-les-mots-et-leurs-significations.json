@@ -1,0 +1,71 @@
+{
+  "id": "francais-seconde-la-semantique-les-mots-et-leurs-significations",
+  "title": "La sémantique : les mots et leurs significations",
+  "summary": "Dans le cadre de l’étude de la sémantique, les élèves de Seconde C du Lycée de Man éprouvent des difficultés à construire le sens de divers textes. Afin de surmonter ce handicap, ils s’exercent à partir de textes sur l’environnement ivoirien à dégager les différents sens des mots, à analyser leur valeur d’emploi et à les utiliser en contexte.",
+  "lesson": "## 1. Sens propre et sens figuré\n\n- **Sens propre** : sens premier, littéral, concret.\n  - Ex. : « Le **feu** de bois réchauffe la case. »\n- **Sens figuré** : sens second, imagé, abstrait.\n  - Ex. : « Il a le **feu** sacré pour les études. » (passion)\n\n## 2. Dénotation et connotation\n\n- **Dénotation** : sens objectif, commun à tous (définition du dictionnaire).\n  - Ex. : « **Chien** » = animal domestique.\n- **Connotation** : valeurs subjectives, affectives, culturelles associées au mot.\n  - Ex. : « **Chien** » peut connoter la fidélité ou la méchanceté selon le contexte.\n\n## 3. La polysémie\n\nUn mot polysémique a plusieurs sens liés.\nEx. : **« Feuille »** :\n1. Partie d’une plante.\n2. Page de papier.\n3. Document administratif.\n\n## 4. Relations sémantiques entre les mots\n\n| Relation | Définition | Exemples |\n|----------|------------|----------|\n| **Synonymie** | Mots de sens proche, avec des nuances | maison / demeure / logis |\n| **Antonymie** | Mots de sens opposé | grand / petit |\n| **Paronymie** | Mots de forme proche, sens différent | collision / collusion |\n| **Homonymie** | Mots de même forme, sens différents | verre (matière) / verre (récipient) / vert (couleur) |\n\n## 5. Champ lexical et champ sémantique\n\n- **Champ lexical** : ensemble des mots qui se rapportent à un même **thème**.\n  - Ex. (thème « école ») : élève, professeur, cahier, cours, examen.\n- **Champ sémantique** : ensemble des **sens** d’un même mot (voir polysémie).\n\n## 6. Analyse stylistique du choix lexical\n\nLe choix d’un mot plutôt qu’un autre produit un effet :\n- **Précision technique** : « érosion côtière » vs « la mer mange la terre ».\n- **Effet affectif** : « notre patrimoine naturel » vs « les zones côtières ».\n- **Niveau de langue** : « se dégrader » (soutenu) vs « se casser » (familier).\n\n## 7. Exercice : construire un champ lexical\n\n**Thème : L’agriculture dans la région de l’Indénié-Djuablin (Côte d’Ivoire).**\nMots possibles : cacao, plantation, récolte, cultivateur, séchage, fève, rentabilité, etc.\n\n## 8. Application à un texte sur l’environnement\n\n**Extrait :** « La **forêt** primaire, **poumon vert** de notre région, est menacée par une **déforestation** **sauvage**. Son **dépérissement** serait une **tragédie** écologique. »\n\n**Analyse :**\n- **Champ lexical de la nature/forêt** : forêt, poumon vert, écologique.\n- **Champ lexical de la destruction** : menacée, déforestation, sauvage, dépérissement, tragédie.\n- **Sens figuré** : « poumon vert » (métaphore).\n- **Connotation négative** : « sauvage », « tragédie ».",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Différencier sens propre (littéral) et sens figuré (imagé).",
+    "Distinguer dénotation (sens objectif) et connotation (valeurs subjectives).",
+    "Identifier les relations sémantiques (synonymie, antonymie, polysémie, paronymie).",
+    "Repérer et construire des champs lexicaux cohérents."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "« Avoir un cœur de pierre » utilise le mot « pierre » au sens :",
+      "options": [
+        "Propre",
+        "Figuré",
+        "Dénotatif",
+        "Technique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "« Collision » et « collusion » sont des :",
+      "options": [
+        "Synonymes",
+        "Antonymes",
+        "Paronymes",
+        "Homonymes"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "L’ensemble des sens d’un mot s’appelle :",
+      "options": [
+        "Champ lexical",
+        "Champ sémantique",
+        "Dénotation",
+        "Connotation"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Le mot « maison » a une connotation :",
+      "options": [
+        "Toujours positive",
+        "Toujours négative",
+        "Variable selon le contexte",
+        "Neutre"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

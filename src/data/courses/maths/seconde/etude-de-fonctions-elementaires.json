@@ -1,0 +1,123 @@
+{
+  "id": "maths-seconde-etude-de-fonctions-elementaires",
+  "title": "Étude de fonctions élémentaires",
+  "summary": "Un professeur de mathématiques d'une classe de Seconde A à Bouaké a représenté les moyennes des 6 premières notes de chaque élève sous forme graphique. En commentant ce graphique, il montre les variations du travail de la classe. Les élèves, intéressés par ce type de présentation, décident d'apprendre à étudier les variations de fonctions élémentaires et à les représenter graphiquement pour analyser divers phénomènes.",
+  "lesson": "## Étude des fonctions élémentaires : modèles mathématiques fondamentaux\n\n### 1. Fonctions linéaires\n\n**Définition :** Une fonction linéaire est de la forme f(x) = ax, où a est le coefficient directeur.\n\n**Caractéristiques en Côte d'Ivoire :**\n- Modélise les situations de proportionnalité directe\n- Exemple : Prix d'achat de riz au marché d'Adjamé : f(x) = 500x (500 FCFA le kg)\n\n**Propriétés :**\n- Ensemble de définition : Df = ℝ\n- Représentation graphique : droite passant par l'origine\n- Variation : croissante si a > 0, décroissante si a < 0, constante si a = 0\n- Sens de variation : strictement monotone sur ℝ\n\n**Exemple ivoirien :** Pour l'achat de carburant à une station-service d'Abidjan : f(x) = 700x où x est le nombre de litres et 700 FCFA le prix du litre.\n\n### 2. Fonctions affines\n\n**Définition :** Une fonction affine est de la forme f(x) = ax + b, où a est le coefficient directeur et b l'ordonnée à l'origine.\n\n**Caractéristiques :**\n- Ensemble de définition : Df = ℝ\n- Représentation graphique : droite ne passant pas nécessairement par l'origine\n- Variation : croissante si a > 0, décroissante si a < 0\n\n**Application concrète :** Facture d'eau SODECI : f(x) = 1500 + 300x, où 1500 FCFA est l'abonnement mensuel et 300 FCFA le prix par m³ consommé.\n\n### 3. Fonctions affines par intervalles\n\n**Définition :** Fonction définie par différentes expressions affines sur différents intervalles.\n\n**Exemple ivoirien :** Tarifs postaux à Abidjan :\n- Pour x ≤ 20g : f(x) = 250 FCFA\n- Pour 20g < x ≤ 100g : f(x) = 400 FCFA\n- Pour x > 100g : f(x) = 400 + 10(x-100) FCFA\n\n**Représentation graphique :** Plusieurs segments de droite\n\n### 4. Fonction carré : f(x) = x²\n\n**Caractéristiques :**\n- Ensemble de définition : Df = ℝ\n- Parité : fonction paire (f(-x) = f(x))\n- Variations :\n  * Décroissante sur ]-∞, 0]\n  * Croissante sur [0, +∞[\n- Minimum : 0 atteint en x = 0\n- Courbe représentative : parabole de sommet O(0,0)\n\n**Application ivoirienne :** Calcul de l'aire d'un carré de côté x (A = x²). Utile pour les terrains à bâtir ou les surfaces agricoles.\n\n### 5. Fonction inverse : f(x) = 1/x\n\n**Caractéristiques :**\n- Ensemble de définition : Df = ℝ* = ℝ \\ {0}\n- Variations :\n  * Décroissante sur ]-∞, 0[\n  * Décroissante sur ]0, +∞[\n- Pas de minimum ni maximum\n- Courbe représentative : hyperbole\n- Asymptotes : axes du repère\n\n**Application ivoirienne :** Vitesse moyenne v = d/t (inverse du temps). Exemple : Temps de trajet Abidjan-Yamoussoukro en fonction de la vitesse.\n\n### 6. Étude complète d'une fonction élémentaire\n\n**Pour f(x) = 2x - 3 (fonction affine) :**\n1. Ensemble de définition : Df = ℝ\n2. Sens de variation : a = 2 > 0 donc f est croissante sur ℝ\n3. Signe : f(x) = 0 ⇔ x = 1,5\n4. Représentation graphique : droite de coefficient directeur 2, ordonnée à l'origine -3\n\n**Pour f(x) = x² (fonction carré) :**\n1. Df = ℝ\n2. Tableau de variations :\n   -∞        0        +∞\n   f(x)   décroît   0   croît\n3. Minimum : 0 en x = 0\n4. Parabole tournée vers le haut\n\n### 7. Représentation graphique\n\n**Méthode :**\n1. Déterminer l'ensemble de définition\n2. Calculer quelques points caractéristiques\n3. Placer ces points dans un repère orthonormé\n4. Tracer la courbe en respectant les variations\n\n**Échelle et unités :** Adapter au contexte ivoirien (prix en milliers de FCFA, distances en km, etc.)\n\n### 8. Résolution graphique\n\n**Équation f(x) = k :** Abscisses des points d'intersection entre la courbe et la droite horizontale y = k\n\n**Inéquation f(x) ≥ k :** Abscisses des points où la courbe est au-dessus de y = k\n\n**Exemple :** Résoudre x² ≥ 4 graphiquement : x ∈ ]-∞, -2] ∪ [2, +∞[\n\n### 9. Modélisation de situations ivoiriennes\n\n**Exemple 1 :** Production agricole\nUne coopérative de cacao à Divo a une production P(n) = 50n - 0,1n² (en kg), où n est le nombre de plants.\n\n**Exemple 2 :** Coûts de transport\nUne société de transport Abidjan-San Pédro a un coût C(d) = 10000 + 200d, où d est la distance en km.\n\n**Exemple 3 :** Démographie\nPopulation d'un quartier d'Abobo : P(t) = 5000 + 200t - 10t², où t est le temps en années.\n\n### 10. Comparaison des fonctions\n\n**Linéaire vs affine :** L'ordonnée à l'origine fait la différence\n**Carré vs inverse :** Comportements très différents au voisinage de 0\n\n### 11. Utilisation de la calculatrice\n\n- Création de tables de valeurs\n- Tracé de courbes\n- Recherche d'intersections\n- Calcul d'images et d'antécédents\n\n### 12. Applications interdisciplinaires\n\n- **Physique :** Lois du mouvement, résistance des matériaux\n- **Économie :** Coûts, recettes, bénéfices\n- **Géographie :** Croissance urbaine, densité de population\n- **SVT :** Croissance des populations animales ou végétales\n\n### 13. Erreurs fréquentes\n\n- Confondre fonction linéaire et affine\n- Oublier que 1/x n'est pas définie en 0\n- Mauvais tracé de la parabole (symétrie par rapport à l'axe des ordonnées)\n- Ne pas respecter les variations dans le tableau\n- Échelle inadaptée sur les graphiques\n\nLes fonctions élémentaires constituent la base de la modélisation mathématique et sont essentielles pour analyser et comprendre les phénomènes économiques, sociaux et scientifiques en Côte d'Ivoire.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "f(x) = ax est linéaire, f(x) = ax + b est affine",
+    "x² est décroissante sur ]-∞,0] et croissante sur [0,+∞[",
+    "1/x n'est pas définie en 0 et est décroissante sur chaque intervalle de son domaine",
+    "Le graphique d'une fonction affine est une droite"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La fonction f(x) = 3x - 2 est :",
+      "options": [
+        "Linéaire",
+        "Affine",
+        "Carrée",
+        "Inverse"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La fonction x² est :",
+      "options": [
+        "Croissante sur ℝ",
+        "Décroissante sur ℝ",
+        "Croissante sur [0,+∞[",
+        "Décroissante sur [0,+∞["
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Pour la fonction f(x) = 1/x, f(2) vaut :",
+      "options": [
+        "2",
+        "0,5",
+        "-0,5",
+        "Non défini"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Le graphique de f(x) = -x + 1 est :",
+      "options": [
+        "Une droite croissante",
+        "Une droite décroissante",
+        "Une parabole",
+        "Une hyperbole"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle fonction est paire ?",
+      "options": [
+        "x ↦ x³",
+        "x ↦ 1/x",
+        "x ↦ x²",
+        "x ↦ √x"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "La fonction f(x)=|x-2| a son minimum en :",
+      "options": [
+        "x=0",
+        "x=2",
+        "x=-2",
+        "x=1"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "E(3.7) est égal à :",
+      "options": [
+        "3",
+        "3.7",
+        "4",
+        "3.5"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "La fonction inverse est :",
+      "options": [
+        "Croissante sur ℝ*",
+        "Décroissante sur ℝ*",
+        "Décroissante sur ]-∞,0[ et ]0,+∞[",
+        "Constante"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

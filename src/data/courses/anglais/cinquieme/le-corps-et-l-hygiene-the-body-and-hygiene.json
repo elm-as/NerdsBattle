@@ -1,0 +1,58 @@
+{
+  "id": "anglais-cinquieme-le-corps-et-l-hygiene-the-body-and-hygiene",
+  "title": "Le corps et l'hygiène (The body and hygiene)",
+  "summary": "À l'occasion de la journée de l'hygiène et de la santé au Lycée Moderne 2 de Daloa, les élèves de la 5ème 10 lisent un texte relatif à l'hygiène corporelle pour en discuter.",
+  "lesson": "## The Body and Hygiene - Le corps et l'hygiène\n\n### Les parties du corps (Parts of the body)\n\n**La tête (Head) :**\n- head - la tête\n- hair - les cheveux\n- face - le visage\n- eye(s) - l'œil / les yeux\n- ear(s) - l'oreille / les oreilles\n- nose - le nez\n- mouth - la bouche\n- tooth / teeth - la dent / les dents\n\n**Le corps (Body) :**\n- neck - le cou\n- shoulder - l'épaule\n- arm - le bras\n- hand - la main\n- finger - le doigt\n- chest - la poitrine\n- stomach - le ventre\n- back - le dos\n- leg - la jambe\n- knee - le genou\n- foot / feet - le pied / les pieds\n\n### L'hygiène corporelle (Personal hygiene)\n\n**Actions d'hygiène :**\n- wash - laver\n- brush - brosser\n- clean - nettoyer\n- take a bath / shower - prendre un bain / une douche\n- comb - peigner\n\n**Produits d'hygiène :**\n- soap - le savon\n- toothbrush - la brosse à dents\n- toothpaste - le dentifrice\n- shampoo - le shampooing\n- towel - la serviette\n- comb - le peigne\n\n**Habitudes d'hygiène :**\n- I wash my hands before eating. - Je me lave les mains avant de manger.\n- I brush my teeth twice a day. - Je me brosse les dents deux fois par jour.\n- I take a bath every day. - Je prends un bain tous les jours.\n- I comb my hair in the morning. - Je me peigne le matin.\n\n### Les maladies courantes (Common diseases)\n\n**Maladies :**\n- cold - le rhume\n- flu - la grippe\n- headache - le mal de tête\n- stomachache - le mal de ventre\n- toothache - le mal de dents\n- fever - la fièvre\n- cough - la toux\n- malaria - le paludisme\n\n### Exprimer un problème de santé\n\n**Structure : I have a... / My... hurts**\n\n- I have a headache. - J'ai mal à la tête.\n- I have a cold. - J'ai un rhume.\n- My stomach hurts. - J'ai mal au ventre.\n- My tooth hurts. - J'ai mal à la dent.\n\n**Chez le médecin :**\n- Doctor: What's wrong? - Qu'est-ce qui ne va pas ?\n- Patient: I have a fever. - J'ai de la fièvre.\n- Doctor: Take this medicine. - Prenez ce médicament.\n\n### L'importance de l'hygiène\n\n**Pourquoi l'hygiène est importante :**\n- Good hygiene prevents diseases. - Une bonne hygiène prévient les maladies.\n- Wash your hands to stay healthy. - Lavez-vous les mains pour rester en bonne santé.\n- Clean teeth prevent toothache. - Des dents propres préviennent les maux de dents.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Corps: head, eye, ear, nose, mouth, arm, hand, leg, foot",
+    "Hygiène: wash, brush, clean, soap, toothbrush",
+    "Maladies: cold, flu, headache, stomachache, fever",
+    "I have a... / My... hurts"
+  ],
+  "exercise": {
+    "question": "Complète : 1) I wash my ___ before eating. 2) I brush my ___ twice a day. 3) I have a ___. My head hurts.",
+    "answer": "\n**Solution :**\n1) I wash my **hands** before eating.\n2) I brush my **teeth** twice a day.\n3) I have a **headache**. My head hurts.\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'les dents' ?",
+      "options": [
+        "Tooth",
+        "Teeth",
+        "Mouth",
+        "Lips"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel produit utilise-t-on pour se laver ?",
+      "options": [
+        "Comb",
+        "Towel",
+        "Soap",
+        "Toothbrush"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Comment dire 'J'ai mal à la tête' ?",
+      "options": [
+        "I have a headache",
+        "My head is sick",
+        "I am headache",
+        "I head hurts"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

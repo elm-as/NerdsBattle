@@ -1,0 +1,32 @@
+{
+  "id": "francais-cinquieme-orthographe-lexicale-la-derivation",
+  "title": "Orthographe lexicale : La dérivation",
+  "summary": "Les élèves s'exercent à former des mots par dérivation.",
+  "lesson": "## La dérivation\n\n### Définition\nFormation de mots nouveaux à partir d'un radical + affixes (préfixe et/ou suffixe).\n\n### Préfixes courants\n- in-, im- : contraire (invisible, impossible)\n- re- : répétition (refaire)\n- dé- : contraire (défaire)\n- pré- : avant (prévoir)\n\n### Suffixes courants\n- -tion : action (création)\n- -eur : personne (vendeur)\n- -ment : manière (lentement)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Radical + affixes = mot dérivé",
+    "Préfixe avant, suffixe après",
+    "Connaître les principaux préfixes et suffixes",
+    "Règles orthographiques de formation"
+  ],
+  "exercise": {
+    "answer": "relire (préfixe), lecteur (suffixe)",
+    "question": "Forme un mot dérivé de 'lire' avec le préfixe 're-' et un avec le suffixe '-eur'."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Le préfixe 'in-' exprime :",
+      "options": [
+        "La répétition",
+        "Le contraire",
+        "Le lieu",
+        "Le temps"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

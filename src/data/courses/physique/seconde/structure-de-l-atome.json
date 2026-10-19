@@ -1,0 +1,267 @@
+{
+  "id": "physique-seconde-structure-de-l-atome",
+  "title": "Structure de l'atome",
+  "summary": "Un élève de 2nde A6 du Lycée Classique d'Abidjan regarde un documentaire scientifique sur la matière. Il apprend avec étonnement que tout ce qui l'entoure - son corps, son cahier, l'air qu'il respire - est constitué d'atomes, et que ces atomes, bien qu'infiniment petits, ont une structure interne complexe avec un noyau central et des électrons en mouvement. Fasciné par cette révélation, il partage cette information avec ses camarades. Ensemble, ils décident d'étudier en détail la structure de l'atome pour c",
+  "lesson": "## 1. Introduction à l'atome\n\n**Définition** : L'atome est la plus petite partie d'un élément chimique qui en conserve les propriétés.\n\n**Échelle** :\n- Diamètre typique : 0,1 à 0,5 nm (10⁻¹⁰ m)\n- Noyau : 10⁻¹⁵ m (100 000 fois plus petit)\n- Atome = essentiellement du vide !\n\n**Historique** :\n- Démocrite (Grèce antique) : concept d'atome indivisible\n- Dalton (1808) : théorie atomique moderne\n- Thomson (1897) : découverte de l'électron\n- Rutherford (1911) : noyau découvert\n- Bohr (1913) : modèle planétaire\n- Modèle quantique (actuel)\n\n**Description du schéma 1:** Modèles atomiques historiques. Éléments : (1) Dalton : sphère pleine, (2) Thomson : pudding aux électrons, (3) Rutherford : noyau + électrons orbitants, (4) Bohr : orbites quantifiées, (5) Modèle quantique : nuage électronique, (6) Échelle comparative des tailles.\n\n## 2. Constituants de l'atome\n\n### **Les trois particules fondamentales**\n\n| Particule | Symbole | Charge | Masse | Localisation |\n|-----------|---------|--------|-------|--------------|\n| **Proton** | p⁺ | +e = +1,6×10⁻¹⁹ C | 1,6726×10⁻²⁷ kg ≈ 1 u | Noyau |\n| **Neutron** | n⁰ | 0 | 1,6749×10⁻²⁷ kg ≈ 1 u | Noyau |\n| **Électron** | e⁻ | -e = -1,6×10⁻¹⁹ C | 9,109×10⁻³¹ kg ≈ 1/1840 u | Autour du noyau |\n\n**Unité de masse atomique (u)** : 1 u = 1/12 masse atome ¹²C ≈ 1,66×10⁻²⁷ kg.\n\n### **Le noyau atomique**\n- Contient protons et neutrons (nucléons)\n- Représente >99,9% de la masse de l'atome\n- Volume très petit (10⁻¹⁵ m)\n- Densité énorme : ~10¹⁷ kg/m³\n\n### **Le nuage électronique**\n- Électrons en mouvement rapide\n- Volume déterminant la taille de l'atome\n- Répartition probabiliste (modèle quantique)\n\n## 3. Caractéristiques d'un atome\n\n### **Numéro atomique Z**\nNombre de protons dans le noyau.\n- Détermine l'élément chimique\n- Pour un atome neutre : Z = nombre d'électrons\n\n### **Nombre de masse A**\nNombre total de nucléons : A = Z + N\nOù N = nombre de neutrons.\n\n### **Notation symbolique**\n$$^{A}_{Z}X$$\n- X : symbole de l'élément\n- A : nombre de masse (en haut à gauche)\n- Z : numéro atomique (en bas à gauche)\n\n**Exemples** :\n- Hydrogène : $^{1}_{1}\text{H}$ (1 p, 0 n, 1 e)\n- Carbone 12 : $^{12}_{6}\text{C}$ (6 p, 6 n, 6 e)\n- Uranium 235 : $^{235}_{92}\text{U}$ (92 p, 143 n, 92 e)\n\n**Description du schéma 2:** Structure d'un atome de carbone. Éléments : (1) Noyau : 6 protons (rouges +), 6 neutrons (verts 0), (2) Nuage électronique : 6 électrons (-) en mouvement, (3) Couches K et L, (4) Échelles disproportionnées (noyau grossi), (5) Vide entre noyau et électrons, (6) Légende avec $^{12}_{6}\text{C}$.\n\n## 4. Neutralité électrique\n\n### **Principe**\nUn atome est électriquement neutre : charge totale = 0.\n\n### **Démonstration**\n- Charge du noyau : +Ze (Z protons)\n- Charge des électrons : -Ze (Z électrons)\n- Total : +Ze - Ze = 0\n\n### **Conséquence**\nPour un atome neutre : nombre d'électrons = nombre de protons = Z.\n\n### **Ions**\nSi l'atome perd ou gagne des électrons, il devient un ion :\n- Cation : perte d'électrons → charge positive\n- Anion : gain d'électrons → charge négative\n\n## 5. Isotopie\n\n### **Définition**\nAtomes ayant même Z mais des A différents (donc N différents).\n\n### **Propriétés**\n- Même élément chimique\n- Mêmes propriétés chimiques (même Z)\n- Masses différentes (A différents)\n- Propriétés physiques légèrement différentes\n\n### **Exemples**\n- Hydrogène : $^{1}_{1}\text{H}$ (protium), $^{2}_{1}\text{H}$ (deutérium), $^{3}_{1}\text{H}$ (tritium)\n- Carbone : $^{12}_{6}\text{C}$ (98,9%), $^{13}_{6}\text{C}$ (1,1%), $^{14}_{6}\text{C}$ (trace, radioactif)\n- Oxygène : $^{16}_{8}\text{O}$ (99,76%), $^{17}_{8}\text{O}$ (0,04%), $^{18}_{8}\text{O}$ (0,20%)\n\n### **Abondance isotopique**\nPourcentage de chaque isotope dans un échantillon naturel.\nMasse atomique = moyenne pondérée des masses isotopiques.\n\n### **Applications**\n- Datation au carbone 14 ($^{14}\text{C}$)\n- Traçage isotopique (médical, environnemental)\n- Energie nucléaire ($^{235}\text{U}$ vs $^{238}\text{U}$)\n\n## 6. Structure électronique\n\n### **Couches électroniques**\nLes électrons se répartissent sur des couches (niveaux d'énergie) notées K, L, M, N...\n\n### **Capacité maximale**\n- Couche K (n=1) : 2 électrons max\n- Couche L (n=2) : 8 électrons max\n- Couche M (n=3) : 18 électrons max (saturation à 8 pour les 18 premiers éléments)\n- Couche N (n=4) : 32 électrons max\n\n### **Règles de remplissage**\n1. Remplir d'abord la couche K (2 e⁻)\n2. Puis la couche L (8 e⁻)\n3. Puis la couche M (8 e⁻ pour Z ≤ 18)\n\n### **Formule électronique**\nNotation : (K)² (L)⁸ (M)⁸...\nExemple : Sodium (Z=11) : (K)² (L)⁸ (M)¹\n\n**Description du schéma 3:** Remplissage des couches électroniques. Éléments : (1) Atomes de H à Ca (Z=1 à 20), (2) Pour chaque atome : noyau avec Z, électrons sur couches, (3) Formule électronique, (4) Évolution régulière, (5) Gaz rares avec couche externe saturée.\n\n## 7. Représentation de Lewis\n\n### **Principe**\nSchématiser la couche électronique externe (couche de valence).\n\n### **Méthode**\n1. Écrire le symbole de l'élément (noyau + électrons internes)\n2. Représenter les électrons de valence par des points autour\n3. Électrons célibataires : points simples (•)\n4. Doublets : tirets (—) ou paires de points (:)\n\n### **Règle de l'octet** (à développer dans leçon suivante)\nLes atomes tendent à avoir 8 électrons sur leur couche externe (sauf H : 2).\n\n### **Exemples**\n- H : H• (1 e⁻ de valence)\n- He : He: (2 e⁻, couche K saturée)\n- C : •C• (4 e⁻ de valence)\n- N : •N• (5 e⁻)\n- O : ••O•• (6 e⁻)\n- F : :F• (7 e⁻)\n- Ne : :Ne: (8 e⁻, octet complet)\n\n## 8. Applications en Côte d'Ivoire\n\n### **Énergie nucléaire**\n- Comprendre la fission (noyaux lourds → noyaux moyens)\n- Centrale de recherche (à venir)\n- Radioprotection\n\n### **Médecine nucléaire**\n- Isotopes radioactifs pour diagnostics\n- Radiothérapie\n\n### **Archéologie et géologie**\n- Datation des sites archéologiques (¹⁴C)\n- Étude des gisements miniers\n\n### **Environnement**\n- Traçage des polluants\n- Étude des cycles biogéochimiques\n\n## 9. Modèle actuel et limites\n\n### **Modèle quantique**\n- Électrons décrits par des orbitales\n- Double nature onde-particule\n- Principe d'incertitude d'Heisenberg\n\n### **Limites du modèle planétaire**\n- Électrons n'ont pas de trajectoire définie\n- Énergies quantifiées\n- Dualité onde-particule\n\n### **Perspectives**\n- Physique des particules (quarks, leptons)\n- Antimatière\n- Applications nanotechnologiques\n",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "L'atome = noyau (protons+neutrons) + électrons",
+    "Charge nucléaire : +Ze, charge électronique : -Ze → atome neutre",
+    "Z = nombre de protons détermine l'élément, A = Z+N = nombre de nucléons",
+    "Isotopes : même Z, A différents → mêmes propriétés chimiques",
+    "Électrons répartis sur couches K(2e), L(8e), M(8e pour Z≤18)"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle particule a une charge positive ?",
+      "options": [
+        "Le proton",
+        "L'électron",
+        "Le neutron",
+        "Le photon"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Le numéro atomique Z représente :",
+      "options": [
+        "Le nombre de protons",
+        "Le nombre de neutrons",
+        "Le nombre d'électrons",
+        "Le nombre de nucléons"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Dans un atome neutre :",
+      "options": [
+        "Nombre protons = nombre électrons",
+        "Nombre protons = nombre neutrons",
+        "Nombre électrons = nombre neutrons",
+        "Toutes les particules sont égales"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Des isotopes ont :",
+      "options": [
+        "Même Z, A différents",
+        "Même A, Z différents",
+        "Z et A identiques",
+        "Z différents, A identiques"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "La couche K peut contenir au maximum :",
+      "options": [
+        "2 électrons",
+        "8 électrons",
+        "18 électrons",
+        "32 électrons"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Le symbole $^{23}_{11}\\text{Na}$ indique :",
+      "options": [
+        "11 protons, 12 neutrons",
+        "11 protons, 23 neutrons",
+        "23 protons, 11 neutrons",
+        "12 protons, 11 neutrons"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "La représentation •O• correspond à :",
+      "options": [
+        "Oxygène avec 6 électrons de valence",
+        "Oxygène avec 8 électrons",
+        "Oxygène ionique",
+        "Ozone"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "La masse d'un atome est concentrée dans :",
+      "options": [
+        "Le noyau",
+        "Le nuage électronique",
+        "À parts égales",
+        "Dans les électrons seulement"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Un atome avec Z=17 a combien d'électrons ?",
+      "options": [
+        "17",
+        "18",
+        "35",
+        "Dépend de A"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Le carbone 14 ($^{14}_{6}\\text{C}$) a :",
+      "options": [
+        "6 protons, 8 neutrons",
+        "14 protons, 6 neutrons",
+        "6 protons, 6 neutrons",
+        "8 protons, 6 neutrons"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "La particule la plus légère de l'atome est :",
+      "options": [
+        "Le proton",
+        "Le neutron",
+        "L'électron",
+        "Le photon"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Des isotopes ont le même :",
+      "options": [
+        "Nombre de masse A",
+        "Nombre de neutrons",
+        "Numéro atomique Z",
+        "Masse atomique"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Le nombre maximum d'électrons sur la couche L est :",
+      "options": [
+        "2",
+        "8",
+        "18",
+        "32"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Le symbole $^{23}_{11}\\\\text{Na}$ indique :",
+      "options": [
+        "11 protons, 12 neutrons",
+        "11 protons, 23 neutrons",
+        "23 protons, 11 neutrons",
+        "12 protons, 11 neutrons"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "La représentation de Lewis montre :",
+      "options": [
+        "Tous les électrons",
+        "Les électrons du noyau",
+        "Les électrons de valence",
+        "Les neutrons"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Le diamètre du noyau est environ :",
+      "options": [
+        "10⁻¹⁰ m",
+        "10⁻¹⁵ m",
+        "10⁻⁵ m",
+        "10⁻²⁰ m"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Un cation est un atome qui a :",
+      "options": [
+        "Gagné des électrons",
+        "Perdu des électrons",
+        "Gagné des protons",
+        "Perdu des neutrons"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "La masse de l'atome est concentrée dans :",
+      "options": [
+        "Le nuage électronique",
+        "Le noyau",
+        "Les électrons",
+        "L'espace vide"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Pour l'atome d'oxygène (Z=8), le nombre d'électrons est :",
+      "options": [
+        "8",
+        "16",
+        "6",
+        "4"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

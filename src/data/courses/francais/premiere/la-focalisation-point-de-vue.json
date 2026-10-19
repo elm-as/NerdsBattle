@@ -1,0 +1,151 @@
+{
+  "id": "francais-premiere-la-focalisation-point-de-vue",
+  "title": "La focalisation (Point de vue)",
+  "summary": "Les élèves de la Première A2 du Collège Moderne de Daloa veulent renforcer leurs acquis pour la construction du sens de textes divers. Pour cela, ils forment des groupes en vue de faire des recherches sur la focalisation dans un texte. À partir de courts extraits de romans africains, ils s’exercent à identifier et à analyser les différents points de vue afin de mieux les utiliser et les interpréter.",
+  "lesson": "## 1. Définition de la focalisation\n\nLa **focalisation**, ou **point de vue narratif**, désigne la **perspective** à partir de laquelle l’histoire est racontée. Elle répond à la question : **'Qui perçoit ?'** ou **'Qui voit ?'** dans le récit. C'est l'angle de vision imposé au lecteur.\n\n**Attention** : Il ne faut pas confondre le **narrateur** (qui raconte) et le **focalisateur** (dont on perçoit la vision). Ils peuvent être la même entité ou non.\n\n## 2. Les trois types de focalisation\n\n```mermaid\ngraph LR\n    subgraph A [Focalisation Zéro (Omnisciente)]\n        A1[Tout savoir]\n    end\n    subgraph B [Focalisation Interne]\n        B1[Voir à travers un personnage]\n    end\n    subgraph C [Focalisation Externe]\n        C1[Voir de l'extérieur comme une caméra]\n    end\n\n    A --> A2[(Narrateur > Personnage)]\n    B --> B2[(Narrateur = Personnage)]\n    C --> C2[(Narrateur < Personnage)]\n```\n\n## 3. La focalisation zéro (ou point de vue omniscient)\n\n- **Définition** : Le narrateur sait **tout** sur les personnages, les événements passés, présents et futurs, et leurs pensées les plus intimes. Il dépasse en savoir n’importe quel personnage.\n- **Indices textuels** :\n    - Verbes de pensée, de sentiment, de connaissance ('savoir', 'penser', 'craindre', 'espérer').\n    - Commentaires, jugements du narrateur sur les actions ou les personnages.\n    - Accès aux pensées de plusieurs personnages dans un même passage.\n    - Connaissance d’événements que nul personnage ne pourrait connaître simultanément.\n- **Effets produits** : Donne une vision globale et maîtrisée de l’histoire, permet d’anticiper, crée une distance parfois ironique.\n- **Exemple contextualisé (inspiré de la tradition du conte)**:\n> 'Le vieux Koffi, assis sous le fromager du village de Kong, savait que la sécheresse qui s’abattait sur la région était la conséquence du conflit entre les esprits de la terre. Il ignorait cependant que sa propre fille, Aya, avait secrètement fait un pacte avec le génie de la rivière Bia pour sauver les récoltes. Le narrateur, lui, connaissait les deux côtés de cette tragédie.'\n\n## 4. La focalisation interne\n\n- **Définition** : Le récit est filtré à travers la **perception**, les **sensations**, les **émotions** et les **pensées** d’un **personnage particulier** (le focalisateur). Le lecteur ne sait que ce que ce personnage sait, voit et ressent.\n- **Indices textuels** :\n    - Présence de verbes de perception ('voir', 'entendre', 'sentir'), de pensée ('croire', 's’imaginer'), de sentiment.\n    - Utilisation du **style indirect libre** (transcription des pensées du personnage sans guillemets ni verbe introducteur).\n    - Vocabulaire affectif, subjectif, évaluatif propre au personnage.\n    - Le champ de vision est limité à ce que le personnage peut percevoir.\n- **Effets produits** : Crée de l’**empathie** ou de l’**antipathie** pour le personnage, maintient le **suspense** (le lecteur découvre en même temps), peut induire en erreur si le personnage se trompe.\n- **Exemple contextualisé (inspiré de 'Les Soleils des indépendances' d'Ahmadou Kourouma)**:\n> 'Fama cligna des yeux dans la lumière crue de midi sur le marché d’Abidjan-Adjamé. Il ne reconnaissait plus cette ville. L’odeur âcre de l’essence et des fritures lui soulevait le cœur. *Où étaient donc passés les grands fromagers sous lesquels on palabrait ?* pensa-t-il avec amertume. Il sentait sur lui les regards méprisants des jeunes en costume, pressés.'\n\n## 5. La focalisation externe\n\n- **Définition** : Le narrateur se comporte comme une **caméra** ou un **témoin extérieur**. Il ne décrit que ce qui est **visible et audible** de l’extérieur : apparences, gestes, paroles, actions. Il n’a **aucun accès** aux pensées ou aux sentiments des personnages.\n- **Indices textuels** :\n    - Description purement objective, comportementale.\n    - Abondance de verbes d’action et de dialogue.\n    - Absence de verbes de pensée ou de sentiment attribués aux personnages de l’intérieur.\n    - Le narrateur en sait **moins** que le personnage.\n- **Effets produits** : Crée un effet de **réalisme** (comme un reportage), maintient un **mystère** sur les motivations, peut générer de la **tension** (on voit agir sans comprendre).\n- **Exemple contextualisé (scène de rue à San-Pédro)**:\n> 'L’homme en boubou blanc s’approcha du kiosque à journaux. Il tendit un billet au vendeur sans prononcer un mot. Il prit le journal, le plia soigneusement sous son bras, puis tourna les talons et disparut dans la foule compacte de l’avenue Houphouët-Boigny. Le vendeur haussa les épaules et rangea le billet.'\n\n## 6. Tableau synthétique et comparaison\n\n| Critère | **Focalisation Zéro (Omnisciente)** | **Focalisation Interne** | **Focalisation Externe** |\n| :--- | :--- | :--- | :--- |\n| **Savoir du Narrateur** | Supérieur à celui de tout personnage. | Égal à celui d’un personnage (le focalisateur). | Inférieur à celui des personnages. |\n| **Accès aux pensées** | À tous les personnages. | Au focalisateur seulement. | À aucun personnage. |\n| **Indices typiques** | Jugements, commentaires, verbes de savoir. | Verbes de perception/sentiment, subjectivité. | Actions, dialogues, descriptions objectives. |\n| **Effet principal** | Maîtrise, distance, vision globale. | Identification, empathie, découverte progressive. | Mystère, objectivité, tension. |\n| **Exemple local** | Le conteur qui connaît les secrets des dieux et des hommes. | Un étudiant découvrant le campus de l’Université Félix Houphouët-Boigny pour la première fois. | Un observateur décrivant une séance de tam-tam au Festival des Masques de Man. |\n\n## 7. Pourquoi changer de focalisation ?\n\nUn auteur peut faire varier la focalisation dans son récit pour :\n- **Dynamiser le récit** et éviter la monotonie.\n- **Créer des effets de contraste** (par exemple, montrer un événement perçu différemment par deux personnages en interne).\n- **Révéler progressivement des informations** (passer d’une focalisation externe mystérieuse à une focalisation interne explicative).\n- **Jouer avec les attentes du lecteur** (un narrateur omniscient peut choisir de taire une information).\n\n## 8. Application à la production écrite\n\nPour utiliser la focalisation dans vos récits :\n1.  **Choisissez en fonction de l’effet recherché** : Voulez-vous que le lecteur s’attache à un personnage ? Utilisez l’interne. Voulez-vous créer un suspense ? Utilisez l’externe ou limitez l’omniscience.\n2.  **Soyez cohérent** dans un même passage, sauf si le changement est volontaire pour un effet précis.\n3.  **Respectez les contraintes** : En focalisation interne, vous ne pouvez pas décrire ce que le personnage ne perçoit pas. En externe, pas de pensées.\n\n**Exercice d’application** : Imaginez une scène courte (5-6 lignes) se déroulant à la gare routière de Korhogo. Racontez-la successivement selon les trois focalisations, en faisant apparaître les indices caractéristiques.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "La focalisation définit l’angle de vision à partir duquel l’histoire est perçue : qui voit ?",
+    "Il existe trois types principaux : zéro/omnisciente (narrateur sait tout), interne (à travers un personnage), externe (comme une caméra).",
+    "Chaque type se reconnaît à des indices textuels spécifiques (verbes de perception, de pensée, objectivité…).",
+    "Le choix de la focalisation par l’auteur a un impact direct sur la compréhension et les émotions du lecteur (empathie, suspense, distance).",
+    "Il est crucial de distinguer le narrateur (qui parle) du focalisateur (qui voit).",
+    "Maîtriser la focalisation permet d’enrichir ses propres productions écrites narratives."
+  ],
+  "exercise": {
+    "answer": "**Analyse de la focalisation**\n\n**Type de focalisation** : **Focalisation interne** (à travers le personnage d’Adjoua).\n\n**Justification par les indices** :\n1.  **Verbes de perception et de sensation** : 'L’intérieur était plongé... contrastant...' (perception visuelle et tactile de la différence de température), 'Une odeur... lui parvint' (perception olfactive). Ces sensations sont celles d’Adjoua.\n2.  **Verbe de pensée** : 'Elle se demanda où celle-ci pouvait bien être.' Ce verbe ('se demanda') montre explicitement l’accès à la pensée du personnage.\n3.  **Accès aux sentiments et interprétations internes** : 'Le cœur serré, Adjoua **comprit** que la vieille femme était encore plus souffrante...'. Le verbe 'comprit' indique une déduction intérieure, et 'le cœur serré' décrit son état émotionnel immédiat.\n\n**Conclusion** : Le récit est entièrement filtré par les perceptions sensorielles (vue, odorat), les interrogations et les émotions du personnage d’Adjoua. Le lecteur ne sait et ne ressent que ce qu’elle sait et ressent au fur et à mesure de son entrée dans la maison.",
+    "question": "Analyser le point de vue dans l’extrait suivant, inspiré d’un roman ivoirien. Identifier le type de focalisation et justifier votre réponse en relevant au moins trois indices précis dans le texte.\n\n**Extrait** : 'Adjoua poussa la lourde porte de tôle de la maison. L’intérieur était plongé dans une pénombre fraîche, contrastant avec la fournaise de la rue de Treichville. Une odeur de bois et d’encens lui parvint, évoquant immédiatement la présence de sa grand-mère. Elle se demanda où celle-ci pouvait bien être. Soudain, une quinte de toux sèche déchira le silence, venant de la chambre du fond. Le cœur serré, Adjoua comprit que la vieille femme était encore plus souffrante que dans sa lettre.'"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La focalisation répond principalement à la question :",
+      "options": [
+        "Qui raconte ?",
+        "Qui voit ? / Qui perçoit ?",
+        "Quand cela se passe-t-il ?",
+        "Pourquoi l’auteur a-t-il écrit cela ?"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Dans une focalisation interne, le narrateur :",
+      "options": [
+        "Connaît les pensées de tous les personnages.",
+        "Ne connaît que les actions visibles des personnages.",
+        "Connaît les pensées et perceptions d’un seul personnage (le focalisateur).",
+        "Donne son opinion personnelle sur l’histoire."
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel indice est le plus caractéristique d’une focalisation EXTERNE ?",
+      "options": [
+        "« Il pensa que la situation était désespérée. »",
+        "« Le soleil tapait dur sur la place du marché. »",
+        "« Elle sentit une immense tristesse l’envahir. »",
+        "« Deux hommes échangèrent quelques mots à voix basse. »"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel effet la focalisation omnisciente permet-elle souvent de créer ?",
+      "options": [
+        "Une identification très forte du lecteur à un personnage.",
+        "Un suspense maximal, car le lecteur sait moins que les personnages.",
+        "Une distance, parfois teintée d’ironie, entre le narrateur et les personnages.",
+        "Une perception sensorielle immédiate et brute des événements."
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "« Koffi regarda l’horizon, inquiet. Il ne savait pas si la pluie viendrait à temps pour sauver les plants de cacao. » Cet extrait utilise :",
+      "options": [
+        "Une focalisation zéro",
+        "Une focalisation interne à Koffi",
+        "Une focalisation externe",
+        "Un mélange d’interne et d’externe"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Le style indirect libre est un indice fréquent de :",
+      "options": [
+        "Focalisation zéro",
+        "Focalisation interne",
+        "Focalisation externe",
+        "Aucune des trois"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Si un narrateur décrit uniquement les gestes et les dialogues des personnages sans jamais évoquer leurs sentiments intérieurs, on a affaire à :",
+      "options": [
+        "Une focalisation interne maladroite",
+        "Une focalisation zéro limitée",
+        "Une focalisation externe",
+        "Une absence de focalisation"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Pour créer un effet de mystère autour d’un personnage, un auteur aura plutôt intérêt à utiliser :",
+      "options": [
+        "Une focalisation interne sur ce personnage",
+        "Une focalisation zéro révélant ses secrets",
+        "Une focalisation externe sur ce personnage",
+        "Une alternance entre zéro et interne"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "La formule « Narrateur > Personnage » caractérise la relation de savoir dans :",
+      "options": [
+        "La focalisation interne",
+        "La focalisation externe",
+        "La focalisation zéro",
+        "Tous les types de focalisation"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Dans la production écrite, choisir la focalisation interne permet surtout :",
+      "options": [
+        "De décrire une scène de façon totalement objective.",
+        "De faire connaître au lecteur tous les tenants et aboutissants de l’intrigue.",
+        "De faire partager les émotions et le point de vue subjectif d’un personnage.",
+        "De décrire des actions rapides sans analyse."
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "maths-premiere-produit-scalaire-et-applications",
+  "title": "Produit scalaire et applications",
+  "summary": "En physique, le travail d'une force est un produit scalaire. Comment le calculer et l'utiliser ?",
+  "lesson": "## Produit scalaire et applications\n\n### Définitions du produit scalaire\n**Avec l'angle :**\nū · v̄ = ||ū|| × ||v̄|| × cos(ū, v̄)\n\n**Avec les coordonnées :**\nū(x ; y) · v̄(x' ; y') = xx' + yy'\n\n**Avec la projection :**\nū · v̄ = ||ū|| × OH où H est le projeté\n\n### Orthogonalité\nū ⊥ v̄ ⟺ ū · v̄ = 0\n\n### Applications géométriques\n- Calculer un angle : cos(ū, v̄) = (ū · v̄) / (||ū|| × ||v̄||)\n- Équation de cercle\n- Équation de droite\n- Démonstrations géométriques\n\n### En physique\nTravail d'une force : W = F⃗ · d⃗",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Produit scalaire : nombre réel",
+    "Trois définitions équivalentes",
+    "Orthogonalité ⟺ produit scalaire nul"
+  ],
+  "exercise": {
+    "question": "ū(1 ; 3) et v̄(6 ; −2). Calcule l'angle entre ū et v̄.",
+    "answer": "\n**Solution :**\nū · v̄ = 1×6 + 3×(−2) = 0\n\nComme ū · v̄ = 0, les vecteurs sont orthogonaux.\n\n**Réponse : Angle = 90°**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "ū(2 ; 1) · v̄(3 ; 4) = ?",
+      "options": [
+        "6",
+        "10",
+        "7",
+        "11"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Si ū · v̄ = 0, alors :",
+      "options": [
+        "ū = 0⃗",
+        "v̄ = 0⃗",
+        "ū ⊥ v̄",
+        "ū = v̄"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

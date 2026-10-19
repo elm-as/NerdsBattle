@@ -1,0 +1,123 @@
+{
+  "id": "anglais-sixieme-body-parts-les-parties-du-corps",
+  "title": "Body Parts - Les parties du corps",
+  "summary": "Awa dit : 'My head hurts.' Comment parler des parties du corps et des douleurs ?",
+  "lesson": "## Body Parts - Les parties du corps\n\n### Head - La tête\n\n- **Head** - tête\n- **Hair** - cheveux\n- **Eye** - œil (eyes - yeux)\n- **Ear** - oreille (ears - oreilles)\n- **Nose** - nez\n- **Mouth** - bouche\n- **Tooth** - dent (teeth - dents)\n- **Face** - visage\n- **Neck** - cou\n\n### Body - Le corps\n\n- **Shoulder** - épaule\n- **Arm** - bras\n- **Hand** - main\n- **Finger** - doigt\n- **Leg** - jambe\n- **Foot** - pied (feet - pieds)\n- **Knee** - genou\n- **Back** - dos\n- **Stomach** - ventre/estomac\n\n## Pain and Aches - Douleurs\n\n**My... hurts.** - Mon/Ma... fait mal.\n\n- My **head** hurts. - J'ai mal à la tête.\n- My **stomach** hurts. - J'ai mal au ventre.\n- My **tooth** hurts. - J'ai mal aux dents.\n\n**I have a...ache**\n\n- I have a **headache**. - J'ai mal à la tête.\n- I have a **stomachache**. - J'ai mal au ventre.\n- I have a **toothache**. - J'ai mal aux dents.\n\n## At the Doctor's\n\n**What's wrong?** - Qu'est-ce qui ne va pas ?\n**Where does it hurt?** - Où avez-vous mal ?\n\n- My leg hurts.\n- I have a headache.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Head, eyes, ears, nose, mouth",
+    "Arms, hands, legs, feet",
+    "My... hurts pour la douleur",
+    "I have a headache/stomachache"
+  ],
+  "exercise": {
+    "question": "Traduis : 1) J'ai mal à la tête. 2) Mon bras fait mal. 3) J'ai mal au ventre.",
+    "answer": "\n**Solution :**\n1) I have a headache. / My head hurts.\n2) My arm hurts.\n3) I have a stomachache. / My stomach hurts.\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Comment dit-on 'tête' ?",
+      "options": [
+        "Hair",
+        "Head",
+        "Face",
+        "Neck"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Comment dire 'J'ai mal au ventre' ?",
+      "options": [
+        "I have stomachache",
+        "I have a stomachache",
+        "My stomach hurt",
+        "I hurts stomach"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Quel est le pluriel de 'foot' ?",
+      "options": [
+        "foots",
+        "feets",
+        "feet",
+        "foot"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-anglais-1-mv9fss7c",
+      "type": "mcq",
+      "prompt": "Which phrase correctly expresses that the student has pain in the right arm?",
+      "options": [
+        "My right arm hurts.",
+        "My arm hurts right.",
+        "My arm hurts on the right.",
+        "My right hurts arm."
+      ],
+      "answer": 0,
+      "explanation": "The adjective \"right\" correctly precedes the noun \"arm\" and the verb \"hurts\" agrees with the singular subject \"arm\". The other options have incorrect word order or agreement."
+    },
+    {
+      "id": "auto-anglais-2-mv9fss7c",
+      "type": "mcq",
+      "prompt": "Identify the correct plural form of \"tooth\" in the sentence: \"I have two ___.\"",
+      "options": [
+        "tooths",
+        "tooth",
+        "teeth",
+        "toothes"
+      ],
+      "answer": 2,
+      "explanation": "The plural of \"tooth\" is \"teeth\". \"tooths\" and \"toothes\" are incorrect, and \"tooth\" is singular."
+    },
+    {
+      "id": "auto-anglais-3-mv9fss7c",
+      "type": "mcq",
+      "prompt": "Choose the correct sentence to ask a doctor where the pain is located.",
+      "options": [
+        "Where does it hurt?",
+        "Where does it hurts?",
+        "Where does it hurting?",
+        "Where does it hurt's?"
+      ],
+      "answer": 0,
+      "explanation": "The auxiliary \"does\" requires the base form \"hurt\". \"Where does it hurts?\" and the others have subject-verb agreement or grammatical errors."
+    },
+    {
+      "id": "auto-anglais-4-mv9fss7c",
+      "type": "mcq",
+      "prompt": "Which of the following is a correct way to say \"I have a toothache\" in French?",
+      "options": [
+        "J'ai un mal de dents.",
+        "J'ai une dent mal.",
+        "J'ai un mal à la dent.",
+        "J'ai une dent qui fait mal."
+      ],
+      "answer": 0,
+      "explanation": "\"J'ai un mal de dents\" is the idiomatic French translation of \"I have a toothache\". The other options are grammatically incorrect or not idiomatic."
+    },
+    {
+      "id": "auto-anglais-5-mv9fss7c",
+      "type": "mcq",
+      "prompt": "In the phrase \"My stomach hurts,\" which word indicates the body part?",
+      "options": [
+        "My",
+        "stomach",
+        "hurts",
+        "My stomach"
+      ],
+      "answer": 1,
+      "explanation": "The noun \"stomach\" denotes the body part. \"My\" is a possessive adjective, \"hurts\" is a verb, and \"My stomach\" is a phrase."
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "id": "histoire-terminale-l-accession-de-l-algerie-a-l-independance",
+  "title": "L'accession de l'Algérie à l'indépendance",
+  "summary": "Le 1er juillet 2012 sur Canal Algérie (télévision nationale algérienne), les Algériens commémorent le cinquantenaire de l'indépendance de leur pays. Tes camarades de classe et toi qui suivez l'émission, entendez les journalistes dire que leur indépendance n'a pas été octroyée mais conquise. Alors vous vous interrogez sur le processus d'indépendance de l'Algérie. Pour répondre à vos préoccupations, vous décidez de connaître la situation politique et économique de l'Algérie, et comprendre son processus d'indé",
+  "lesson": "## 1. Le statut colonial de l'Algérie (1830-1954)\n\n### 1.1 Une colonie de peuplement unique\n\nL'Algérie n'est pas une colonie comme les autres en Afrique française :\n\n- **Durée** : 132 ans de colonisation (1830-1962)\n- **Statut** : Trois départements français (Alger, Oran, Constantine)\n- **Peuplement** : 1 million de colons européens (\\\\approx 10\\\\% de la population)\n- **Administration** : Directe et assimilationniste\n\n### 1.2 Le système colonial algérien :\n\n| Aspect | Caractéristiques | Conséquences |\n|--------|------------------|--------------|\n| **Politique** | Code de l'indigénat (1881-1944), pas de citoyenneté pour les Musulmans | Exclusion politique totale |\n| **Économique** | Accaparement des terres (colonat), travaux forcés | Appauvrissement massif |\n| **Social** | Ségrégation spatiale (villes européennes vs quartiers arabes) | Apartheid de fait |\n| **Culturel** | École française, interdiction de l'arabe à l'école | Acculturation forcée |\n\n### 1.3 Chiffres clés (1954) :\n- **Population** : 9 millions d'Algériens musulmans vs 1 million d'Européens\n- **Terres** : 3\\\\% de la population (Européens) possède 40\\\\% des terres cultivables\n- **Éducation** : 85\\\\% d'analphabètes chez les Musulmans\n- **Revenu moyen** : Européen = 15\\\\times celui d'un Algérien musulman\n\n## 2. Les composantes du nationalisme algérien avant 1954\n\n### 2.1 Les précurseurs (avant 1930) :\n- **Abd el-Kader** (1832-1847) : Résistance armée initiale\n- **Les Oulémas** (années 1930) : Réforme islamique (Cheikh Ben Badis : 'L'islam est ma religion, l'arabe ma langue, l'Algérie ma patrie')\n- **L'Étoile Nord-Africaine** (1926) : Premier parti nationaliste\n\n### 2.2 Les principales organisations (1945-1954) :\n\n**Le PPA-MTLD (Parti du Peuple Algérien - Mouvement pour le Triomphe des Libertés Démocratiques) :**\n- **Fondation** : 1937 (Messali Hadj)\n- **Objectif** : Indépendance par la lutte politique\n- **Scission** : 1954 entre centralistes (politique) et messalistes (action)\n\n**L'UDMA (Union Démocratique du Manifeste Algérien) :**\n- **Fondation** : 1946 (Ferhat Abbas)\n- **Objectif** : République algérienne fédérée à la France\n- **Base** : Élite francophone, intellectuels\n\n**Les Oulémas réformistes :**\n- **Leader** : Cheikh Bachir Ibrahimi\n- **Objectif** : Renaissance culturelle arabo-islamique\n- **Slogan** : 'Pas de dialogue avec le colonialisme'\n\n### 2.3 Le tournant de 1945 : Les massacres de Sétif et Guelma\n- **Contexte** : Fête de la victoire alliée, manifestations nationalistes\n- **Déclencheur** : Port de drapeau algérien interdit\n- **Répression** : 15,000 à 45,000 morts algériens\n- **Impact** : Radicalisation du mouvement nationaliste\n\n## 3. La situation socio-économique des Algériens en 1954\n\n### 3.1 Une économie duale :\n\n```mathgraph\n{\n  \"type\": \"histogram\",\n  \"title\": \"Répartition des revenus en Algérie (1954)\",\n  \"xRange\": [0, 5],\n  \"yRange\": [0, 100],\n  \"bars\": [\n    { \"label\": \"Colons\", \"value\": 85, \"color\": \"#3b82f6\" },\n    { \"label\": \"Algériens\", \"value\": 15, \"color\": \"#ef4444\" }\n  ],\n  \"showGrid\": true,\n  \"xLabel\": \"Population\",\n  \"yLabel\": \"% des revenus totaux\"\n}\n```\n\n### 3.2 Indicateurs de sous-développement :\n- **Mortalité infantile** : 150\\\\% (contre 30\\\\% en France)\n- **Espérance de vie** : 40 ans (contre 65 ans en France)\n- **Médecins** : 1 pour 15,000 habitants (contre 1 pour 800 en France)\n- **Scolarisation** : 15\\\\% des enfants musulmans à l'école\n\n### 3.3 Le prolétariat rural : Les 'déracinés'\n- **Exode rural** : 2 millions de paysans sans terre\n- **Bidonvilles** : Ceinture d'Alger (400,000 habitants)\n- **Chômage** : 30\\\\% de la population active\n\n## 4. La guerre d'Algérie (1954-1962) : La dimension armée\n\n### 4.1 Le déclenchement : La Toussaint rouge (1er novembre 1954)\n- **Acteurs** : CRUA (Comité Révolutionnaire pour l'Unité et l'Action) devenu FLN\n- **Actions coordonnées** : 70 attentats dans toute l'Algérie\n- **Proclamation** : Appel à l'indépendance par le sang\n- **Réaction française** : 'Opérations de maintien de l'ordre'\n\n### 4.2 Organisation du FLN-ALN :\n\n```mermaid\ngraph TD\n    A[FLN] --> B[CNRA Conseil National]\n    A --> C[CCE Comité de Coordination]\n    A --> D[ALN Armée de Libération Nationale]\n    \n    B --> E[GPRA 1958]\n    C --> F[Wilayas 6 zones]\n    D --> G[30,000 combattants]\n    \n    F --> F1[Wilaya 1 Aurès]\n    F --> F2[Wilaya 2 Constantine]\n    F --> F3[Wilaya 3 Kabylie]\n    F --> F4[Wilaya 4 Alger]\n    F --> F5[Wilaya 5 Oran]\n    F --> F6[Wilaya 6 Sahara]\n```\n\n### 4.3 Les phases militaires :\n\n**Phase 1 (1954-1956) : Guérilla rurale**\n- **Forces** : 3,000 moudjahidines\n- **Tactique** : Embuscades, harcèlement\n- **Zone** : Aurès, Kabylie\n\n**Phase 2 (1957) : Bataille d'Alger**\n- **Commandant** : Yacef Saadi (Zone Autonome d'Alger)\n- **Méthodes** : Attentats à la bombe (Cafétéria, stade)\n- **Répression** : Général Massu, 10ème Division Parachutiste\n- **Résultat** : Démantèlement du réseau FLN à Alger\n\n**Phase 3 (1958-1960) : Guerre frontalière**\n- **Frontières** : Lignes Morice (est) et Challe (ouest)\n- **Effectifs ALN** : 30,000 dont 15,000 hors frontières\n- **Tactique française** : Quadrillage, regroupements forcés\n\n**Phase 4 (1960-1962) : Négociations et cessez-le-feu**\n\n## 5. Les grandes étapes politiques (1954-1962)\n\n### 5.1 Chronologie politique :\n\n```mermaid\ntimeline\ntitle Marche vers l'indépendance (1954-1962)\n    1954 : Toussaint rouge\n        : Début de la guerre\n        : Création FLN\n    1955 : Soulèvement du Constantinois\n        : 123 Européens tués\n        : Répression : 12,000 Algériens\n    1956 : Congrès de la Soummam\n        : Structuration FLN\n        : Priorité politique sur militaire\n    1957 : Bataille d'Alger\n        : Grève des 8 jours\n        : Victoire militaire française\n    1958 : Retour de de Gaulle\n        : 'Je vous ai compris'\n        : Constitution Ve République\n    1959 : Autodétermination\n        : de Gaulle reconnaît le droit\n        : 3 options proposées\n    1960 : Manifestations de décembre\n        : Soutien massif au FLN\n        : Tournant psychologique\n    1961 : Référendum\n        : 75% pour l'autodétermination\n        : Début négociations\n    1962 : Accords d'Évian\n        : 18 mars : cessez-le-feu\n        : 1 juillet : référendum (99.7% Oui)\n        : 3 juillet : reconnaissance française\n        : 5 juillet : indépendance\n```\n\n### 5.2 Le Congrès de la Soummam (20 août 1956) :\n- **Lieu** : Vallée de la Soummam (Kabylie)\n- **Décisions** :\n  1. **Primat du politique sur le militaire**\n  2. **Primat de l'intérieur sur l'extérieur**\n  3. **Création du CNRA** (Conseil National de la Révolution Algérienne)\n  4. **Adoption du programme de Tripoli**\n- **Importance** : Structuration définitive du FLN\n\n### 5.3 La création du GPRA (19 septembre 1958) :\n- **Signification** : Gouvernement Provisoire de la République Algérienne\n- **Président** : Ferhat Abbas (puis Ben Khedda)\n- **Reconnaissance** : 32 pays dont Maroc, Tunisie, Chine, URSS\n- **Impact** : Légitimation internationale de la lutte\n\n## 6. Les acteurs de la guerre\n\n### 6.1 Côté algérien :\n\n**Les 'neuf historiques'** (fondateurs du FLN) :\n1. **Ahmed Ben Bella** : Premier président (1962-1965)\n2. **Mohammed Boudiaf** : Assassiné en 1992\n3. **Mohamed Khider**\n4. **Mostefa Ben Boulaïd** : Mort au combat 1956\n5. **Larbi Ben M'Hidi** : Exécuté 1957\n6. **Mourad Didouche** : Mort au combat 1955\n7. **Rabah Bitat**\n8. **Hocine Aït Ahmed**\n9. **Krim Belkacem**\n\n**Autres figures importantes :**\n- **Zohra Drif** : Militante de la Zone Autonome d'Alger\n- **Djamila Bouhired** : Militante condamnée à mort, graciée\n- **Commandant Azzedine** : Chef militaire de la Wilaya 4\n\n### 6.2 Côté français :\n- **Généraux** : Massu, Salan, Challe\n- **Hommes politiques** : Guy Mollet (président du Conseil), François Mitterrand (ministre de l'Intérieur)\n- **Intellectuels** : Jean-Paul Sartre (soutien au FLN)\n- **Pieds-noirs** : Européens d'Algérie (opposés à l'indépendance)\n\n### 6.3 Les harkis :\n- **Définition** : Algériens engagés dans l'armée française\n- **Nombre** : 150,000 à 200,000\n- **Sort post-indépendance** : Abandonnés par la France, massacrés (30,000 à 150,000 morts)\n\n## 7. Le coût humain et les méthodes\n\n### 7.1 Bilan humain :\n\n| Catégorie | Estimation basse | Estimation haute |\n|-----------|------------------|------------------|\n| **Morts algériens** | 300,000 | 1,000,000 |\n| **Morts militaires français** | 25,000 | 30,000 |\n| **Morts civils européens** | 4,000 | 10,000 |\n| **Harkis tués** | 30,000 | 150,000 |\n| **Disparus** | 10,000 | 20,000 |\n| **Blessés** | 500,000 | 1,000,000 |\n| **Réfugiés** | 2,000,000 (regroupés) | |\n\n### 7.2 Méthodes controversées :\n\n**Côté français :**\n- **Torture systématique** : Général Paul Aussaresses (aveux en 2000)\n- **Regroupements forcés** : 2 millions de paysans déplacés\n- **Camps d'internement** : 1,000 centres\n- **Exécutions sommaires**\n\n**Côté FLN :**\n- **Attentats contre civils** : Milk-bar, Cafétéria (1956)\n- **Purges internes** : 'Épuration' du MNA (Messalistes)\n- **Massacres** : Européens à Oran (5 juillet 1962)\n\n## 8. Les accords d'Évian et l'indépendance\n\n### 8.1 Les négociations (1961-1962) :\n- **Premier contact** : Melun (juin 1960) - échec\n- **Négociations secrètes** : 1961 (Lugrin, Les Rousses)\n- **Négociations officielles** : Évian (mars 1962)\n- **Délégation française** : Louis Joxe\n- **Délégation algérienne** : Krim Belkacem\n\n### 8.2 Contenu des accords (18 mars 1962) :\n1. **Cessez-le-feu** : 19 mars à midi\n2. **Autodétermination** : Référendum dans les 3-6 mois\n3. **Garanties pour les Européens** : Double nationalité optionnelle\n4. **Coopération** : Pétrole (Sahara), bases militaires (Mers-el-Kébir)\n5. **Transition** : Exécutif provisoire\n\n### 8.3 Le référendum du 1er juillet 1962 :\n- **Question** : 'Voulez-vous que l'Algérie devienne un État indépendant coopérant avec la France ?'\n- **Participation** : 91.8\\\\%\n- **Oui** : 99.72\\\\%\n- **Abstention** : 8.2\\\\% (surtout Européens)\n\n### 8.4 L'indépendance effective :\n- **3 juillet 1962** : Reconnaissance par la France\n- **5 juillet 1962** : Proclamation officielle (date de la fête nationale)\n- **20 septembre 1962** : Élection de l'Assemblée constituante\n- **25 septembre 1962** : Proclamation de la République algérienne démocratique et populaire\n\n## 9. Conséquences immédiates\n\n### 9.1 L'exode des pieds-noirs :\n- **Nombre** : 800,000 à 1 million\n- **Période** : Mars-août 1962\n- **Destination** : France métropolitaine (90\\\\%)\n- **Condition** : Valise ou cercueil\n\n### 9.2 Le sort des harkis :\n- **Abandon** par les accords d'Évian\n- **Rapatriement limité** : 42,000 seulement\n- **Massacres** : 30,000 à 150,000 tués\n- **Camps en France** : Rivesaltes, Larzac\n\n### 9.3 Bilan économique :\n- **Départ des cadres** : 90\\\\% des médecins, ingénieurs, enseignants\n- **Économie paralysée**\n- **Dette** : 4 milliards de francs (1962)\n\n## 10. Comparaison avec la Côte d'Ivoire\n\n| Aspect | Algérie | Côte d'Ivoire |\n|--------|---------|---------------|\n| **Durée colonisation** | 132 ans (1830-1962) | 67 ans (1893-1960) |\n| **Type colonisation** | Peuplement (1 million) | Exploitation |\n| **Méthode indépendance** | Guerre (8 ans) | Négociation |\n| **Morts** | 300,000-1 million | Quelques dizaines |\n| **Relations post-indépendance** | Conflictuelle | Coopérative |\n| **Modèle économique** | Socialisme | Capitalisme libéral |\n| **Parti unique** | FLN (1962-1989) | PDCI (1960-1990) |\n\n## 11. Mémoire et historiographie\n\n### 11.1 Les mémoires concurrentes :\n1. **Mémoire algérienne officielle** : Guerre de libération héroïque\n2. **Mémoire pied-noir** : Nostalgérie, 'paradis perdu'\n3. **Mémoire harki** : Trahison double\n4. **Mémoire soldat français** : 'Guerre sans nom'\n\n### 11.2 Les débats actuels :\n- **Reconnaissance de la torture** : France (1999-2021)\n- **Responsabilités** : Qui a commencé la violence ?\n- **Bilan humain** : Chiffres toujours controversés\n- **Enseignement** : Comment transmettre cette histoire ?\n\n### 11.3 Enjeux pédagogiques :\n- **Éviter les simplifications** (bons vs méchants)\n- **Comprendre la complexité** (multiple acteurs)\n- **Contextualiser** (guerre froide, décolonisation)\n- **Relier au présent** (immigration, relations franco-algériennes)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "L'Algérie était une colonie de peuplement unique avec 1 million d'Européens",
+    "Le nationalisme algérien s'est structuré dans les années 1930-1940 avant d'exploser en 1954",
+    "La guerre d'Algérie (1954-1962) a fait entre 300,000 et 1 million de morts algériens",
+    "Le FLN s'est organisé militairement (ALN) et politiquement (GPRA) pendant la guerre",
+    "Les accords d'Évian (mars 1962) ont abouti à un référendum massivement favorable à l'indépendance",
+    "L'indépendance a entraîné l'exode des pieds-noirs et le massacre des harkis",
+    "Contrairement à la Côte d'Ivoire, l'Algérie a conquis son indépendance par la lutte armée",
+    "La mémoire de cette guerre reste conflictuelle entre la France et l'Algérie"
+  ],
+  "exercise": {
+    "answer": "**Communication au Colloque International 'Décolonisations Comparées en Afrique'**\n**Université Félix Houphouët-Boigny, Abidjan, 15 mars 2024**\n\n### **Titre : Deux voies vers la souveraineté : La lutte armée en Algérie et la négociation en Côte d'Ivoire**\n\n### **Introduction : Un paradoxe historique**\n\nDeux pays africains, deux anciennes colonies françaises, deux destins radicalement différents. L'Algérie obtient son indépendance après 8 ans de guerre sanglante (1954-1962), la Côte d'Ivoire après 14 ans de négociation graduelle (1946-1960). Pourquoi cette divergence ? Quelles conséquences ?\n\n### **1. Les déterminants de choix divergents**\n\n**1.1 Facteurs structurels :**\n\n| Facteur | Algérie | Côte d'Ivoire |\n|---------|---------|---------------|\n| **Type de colonisation** | Peuplement (1M d'Européens) | Exploitation (15,000 Européens) |\n| **Statut juridique** | Départements français | Colonie (AOF) |\n| **Richesse stratégique** | Pétrole (Sahara) | Produits agricoles (cacao, café) |\n| **Proximité métropolitaine** | Directe (mer Méditerranée) | Distante (4,500 km) |\n\n**1.2 Facteurs politiques :**\n- **Algérie** : Refus français de toute réforme (1947-1954), massacre de Sétif (1945), système d'apartheid politique\n- **Côte d'Ivoire** : Élites cooptées (Houphouët-Boigny député dès 1945), réformes graduelles (1946, 1956, 1958)\n\n**1.3 Facteurs sociologiques :**\n- **Algérie** : Société clivée (colons/indigènes), résistance culturelle arabo-islamique\n- **Côte d'Ivoire** : Société d'immigration (25\\\\% d'étrangers), élites francophones, diversité ethnique\n\n### **2. Coûts humains et politiques comparés**\n\n**2.1 Bilan humain :**\n\n```mathgraph\n{\n  \"type\": \"histogram\",\n  \"title\": \"Coût humain des indépendances\",\n  \"xRange\": [0, 3],\n  \"yRange\": [0, 1000000],\n  \"bars\": [\n    { \"label\": \"Algérie\", \"value\": 500000, \"color\": \"#ef4444\" },\n    { \"label\": \"Côte d'Ivoire\", \"value\": 100, \"color\": \"#10b981\" }\n  ],\n  \"showGrid\": true,\n  \"xLabel\": \"Pays\",\n  \"yLabel\": \"Morts estimés (échelle logarithmique)\"\n}\n```\n\n**Détails :**\n- **Algérie** : 300,000 à 1,000,000 morts + 800,000 réfugiés pieds-noirs + 30,000-150,000 harkis massacrés\n- **Côte d'Ivoire** : Quelques dizaines de morts politiques, pas d'exode massif\n\n**2.2 Coût politique immédiat :**\n- **Algérie** : Rupture totale avec la France, économie paralysée (départ des cadres)\n- **Côte d'Ivoire** : Continuité administrative, 3,000 coopérants français maintenus\n\n**2.3 Coût psychologique :**\n- **Algérie** : Traumatisme collectif, culture de la violence politique\n- **Côte d'Ivoire** : Mémoire consensuelle, 'père fondateur' unanimement respecté\n\n### **3. Impact sur le développement post-indépendance**\n\n**3.1 Modèles économiques :**\n\n| Aspect | Algérie (socialisme) | Côte d'Ivoire (capitalisme libéral) |\n|--------|----------------------|--------------------------------------|\n| **Régime économique** | Nationalisations (1962-1965), planification | Économie de marché, investissements étrangers |\n| **Secteur dominant** | Hydrocarbures (95\\\\% des exportations) | Agriculture (cacao, café) puis diversification |\n| **Croissance 1960-1980** | 4\\\\% annuel (volatile) | 8\\\\% annuel (stable) |\n| **Dette 1980** | 20\\\\% du PIB | 60\\\\% du PIB |\n| **Niveau de vie 1980** | IDH moyen | IDH moyen-supérieur |\n\n**3.2 Stabilité politique :**\n- **Algérie** : Instabilité (coup d'État 1965, guerre civile 1992-2002)\n- **Côte d'Ivoire** : Stabilité jusqu'en 1990, puis crises (1999-2011)\n\n**3.3 Relations internationales :**\n- **Algérie** : Non-alignement pro-soviétique, leadership tiers-mondiste\n- **Côte d'Ivoire** : Alignement occidental, intégration capitaliste mondiale\n\n### **4. Évaluations rétrospectives**\n\n**4.1 Avantages de chaque voie :**\n- **Voie algérienne** : Souveraineté réelle, fierté nationale, unité forgée dans la lutte\n- **Voie ivoirienne** : Développement économique rapide, stabilité initiale, continuité\n\n**4.2 Limites révélées avec le temps :**\n- **Algérie** : Dépendance aux hydrocarbures, bureaucratie, violence politique récurrente\n- **Côte d'Ivoire** : Dépendance économique persistante, crise de succession, dette\n\n**4.3 Convergence récente :**\n- **Années 2000** : Les deux pays diversifient leurs partenariats (Chine)\n- **Aujourd'hui** : Défis communs (chômage des jeunes, diversification économique)\n\n### **Conclusion : Pas de voie idéale, des héritages complexes**\n\nLa comparaison Algérie-Côte d'Ivoire montre qu'il n'y a pas de 'bonne' ou 'mauvaise' voie vers l'indépendance, mais des choix contraints par des histoires coloniales différentes. L'Algérie a payé son indépendance 'réelle' au prix fort en vies humaines, la Côte d'Ivoire a obtenu une indépendance 'formelle' qui a permis un développement économique rapide mais a créé des dépendances durables.\n\n**Leçon pour l'Afrique contemporaine :** La souveraineté n'est pas une condition suffisante au développement, mais une condition nécessaire. La manière d'y parvenir influence durablement les trajectoires nationales, mais n'en détermine pas mécaniquement le succès ou l'échec.\n\n**Bibliographie indicative :**\n- Benjamin Stora, *La Guerre d'Algérie* (1993)\n- Marc Michel, *Décolonisations et émergence du tiers-monde* (2005)\n- Francis Akindès, *Les Racines de la crise ivoirienne* (2016)",
+    "question": "En tant qu'historien participant à un colloque international sur les décolonisations comparées à l'Université d'Abidjan, vous préparez une communication comparant les processus d'indépendance de l'Algérie et de la Côte d'Ivoire. Votre analyse doit expliquer : 1) pourquoi les deux pays ont choisi des voies différentes (lutte armée vs négociation) ; 2) quels ont été les coûts humains et politiques de chaque choix ; 3) quel impact ces choix ont eu sur le développement post-indépendance. Utilisez des données chiffrées et des exemples précis."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "En quelle année a commencé la guerre d'Algérie ?",
+      "options": [
+        "1945",
+        "1954",
+        "1958",
+        "1960"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Combien d'Européens vivaient en Algérie en 1954 ?",
+      "options": [
+        "100,000",
+        "500,000",
+        "1 million",
+        "2 millions"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Quel événement a radicalisé le nationalisme algérien en 1945 ?",
+      "options": [
+        "Congrès de la Soummam",
+        "Massacres de Sétif",
+        "Retour de de Gaulle",
+        "Création du FLN"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Qui était le chef de la Zone Autonome d'Alger pendant la Bataille d'Alger ?",
+      "options": [
+        "Ahmed Ben Bella",
+        "Yacef Saadi",
+        "Ferhat Abbas",
+        "Krim Belkacem"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Quelle organisation a été créée au Congrès de la Soummam en 1956 ?",
+      "options": [
+        "FLN",
+        "ALN",
+        "CNRA",
+        "GPRA"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "En quelle année le GPRA a-t-il été créé ?",
+      "options": [
+        "1954",
+        "1956",
+        "1958",
+        "1960"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "answer": 3,
+      "prompt": "Quel pourcentage de 'Oui' au référendum d'autodétermination du 1er juillet 1962 ?",
+      "options": [
+        "75%",
+        "85%",
+        "95%",
+        "99.7%"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Combien de pieds-noirs ont quitté l'Algérie en 1962 ?",
+      "options": [
+        "200,000",
+        "500,000",
+        "800,000",
+        "1.2 million"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "answer": 3,
+      "prompt": "Quel général français a reconnu avoir pratiqué la torture ?",
+      "options": [
+        "Massu",
+        "Salan",
+        "Challe",
+        "Aussaresses"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Quelle était la principale différence entre la colonisation en Algérie et en Côte d'Ivoire ?",
+      "options": [
+        "Durée",
+        "Type (peuplement vs exploitation)",
+        "Langue imposée",
+        "Religion"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-histoire-1-mv9zcfuq",
+      "type": "mcq",
+      "prompt": "Selon le statut juridique en vigueur avant 1944, quel texte fondamental régissait la condition des musulmans d'Algérie et les privait de la citoyenneté française ?",
+      "options": [
+        "Le Code de l'indigénat",
+        "La Loi Fallières",
+        "Le Statut des Français d'outre-mer",
+        "La Constitution de la IVe République"
+      ],
+      "answer": 0,
+      "explanation": "Le Code de l'indigénat, promulgué en 1881 et abrogé en 1944, instaurait un régime d'exception pour les sujets musulmans, les soumettant à une justice spéciale et les excluant du corps électoral, contrairement aux citoyens français."
+    },
+    {
+      "id": "auto-histoire-2-mv9zcfuq",
+      "type": "mcq",
+      "prompt": "En 1954, quelle proportion des terres cultivables en Algérie était détenue par la population européenne, qui ne représentait qu'une minorité démographique ?",
+      "options": [
+        "10 %",
+        "25 %",
+        "40 %",
+        "60 %"
+      ],
+      "answer": 2,
+      "explanation": "Les données historiques indiquent que 3 % de la population (les Européens) possédait environ 40 % des terres cultivables, illustrant l'accaparement économique massif au détriment de la majorité musulmane."
+    },
+    {
+      "id": "auto-histoire-3-mv9zcfuq",
+      "type": "mcq",
+      "prompt": "Quelle caractéristique administrative distinguait l'Algérie des autres colonies françaises d'Afrique subsaharienne, comme la Côte d'Ivoire ?",
+      "options": [
+        "Elle était organisée en trois départements français",
+        "Elle disposait d'une assemblée locale élue",
+        "Elle était administrée par un gouverneur général nommé par le Président",
+        "Elle bénéficiait d'un statut de territoire d'outre-mer distinct"
+      ],
+      "answer": 0,
+      "explanation": "Contrairement aux colonies de peuplement ou d'exploitation classiques, l'Algérie était intégrée au territoire métropolitain français sous forme de trois départements (Alger, Oran, Constantine), ce qui rendait son processus de décolonisation juridiquement plus complexe."
+    },
+    {
+      "id": "auto-histoire-4-mv9zcfuq",
+      "type": "mcq",
+      "prompt": "Quel était le taux d'analphabétisme estimé chez la population musulmane algérienne en 1954, conséquence directe de la politique éducative coloniale ?",
+      "options": [
+        "50 %",
+        "65 %",
+        "85 %",
+        "95 %"
+      ],
+      "answer": 2,
+      "explanation": "En 1954, le taux d'analphabétisme chez les musulmans algériens était estimé à 85 %, reflétant l'accès limité à l'éducation française et l'interdiction de l'enseignement de l'arabe dans les écoles publiques."
+    },
+    {
+      "id": "auto-histoire-5-mv9zcfuq",
+      "type": "mcq",
+      "prompt": "Quelle durée totale de colonisation française l'Algérie a-t-elle connue, de la conquête de 1830 à l'indépendance de 1962 ?",
+      "options": [
+        "112 ans",
+        "122 ans",
+        "132 ans",
+        "142 ans"
+      ],
+      "answer": 2,
+      "explanation": "La période de colonisation française en Algérie s'étend de 1830 (prise d'Alger) à 1962 (indépendance), soit une durée de 132 ans, la plus longue parmi les possessions françaises en Afrique."
+    }
+  ]
+}

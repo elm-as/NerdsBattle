@@ -1,0 +1,89 @@
+{
+  "id": "physique-cinquieme-adaptation-d-un-generateur-a-un-recepteur",
+  "title": "Adaptation d'un générateur à un récepteur",
+  "summary": "Au cours d'une séance de Travaux Pratiques, un élève en classe de 5ème au Collège Moderne de Zikisso, allume successivement une lampe à l'aide d'une pile plate puis d'une pile cylindrique. La lampe brille normalement avec la pile plate et faiblement avec la pile cylindrique. Pour expliquer ces observations, cet élève et ses camarades se proposent d'identifier les tensions nominales des appareils et d'adapter le générateur au récepteur.",
+  "lesson": "# Adaptation d'un générateur à un récepteur\n\n## I. Générateurs et récepteurs\n\n### 1. Générateur électrique\nUn **générateur électrique** est un appareil qui fournit de l'énergie électrique au circuit.\n\n**Exemples de générateurs :**\n- Pile cylindrique (1,5 V)\n- Pile plate (4,5 V)\n- Batterie de voiture (12 V)\n- Secteur en Côte d'Ivoire (220 V)\n\n### 2. Récepteur électrique\nUn **récepteur électrique** est un appareil qui reçoit de l'énergie électrique et la transforme en une autre forme d'énergie.\n\n**Exemples de récepteurs :**\n- Lampe électrique (transforme en lumière)\n- Moteur (transforme en énergie mécanique)\n- Résistance chauffante (transforme en chaleur)\n- Ventilateur (transforme en mouvement)\n\n## II. Tension électrique\n\n### 1. Définition\nLa **tension électrique** est une grandeur qui caractérise la différence de potentiel entre deux points d'un circuit électrique.\n\n### 2. Unité de mesure\nL'unité légale de tension électrique est le **volt**, de symbole **V**.\n\n**Multiples et sous-multiples :**\n- Kilovolt (kV) : 1 kV = 1000 V\n- Millivolt (mV) : 1 mV = 0,001 V\n\n### 3. Appareil de mesure\nLa tension se mesure avec un **voltmètre** branché en **dérivation** (parallèle) aux bornes de l'appareil.\n\n## III. Tension nominale et tension d'usage\n\n### 1. Tension nominale d'un générateur\nC'est la tension indiquée par le fabricant sur le générateur. Elle représente la tension que le générateur peut fournir dans des conditions normales d'utilisation.\n\n**Exemples :**\n- Pile cylindrique : 1,5 V\n- Pile plate : 4,5 V\n- Secteur en Côte d'Ivoire : 220 V\n\n### 2. Tension d'usage d'un récepteur\nC'est la tension pour laquelle le récepteur est conçu pour fonctionner normalement. Elle est inscrite sur l'appareil.\n\n**Exemple :** Une lampe porte l'inscription \"6 V - 0,3 A\"\n- 6 V = tension d'usage\n- 0,3 A = intensité nominale\n\n## IV. Adaptation générateur-récepteur\n\n### 1. Adaptation parfaite\n**Condition :** U(générateur) = U(récepteur)\n\nLorsque la tension du générateur est égale à la tension d'usage du récepteur, le récepteur fonctionne **normalement**.\n\n**Exemple :** Pile plate 4,5 V → Lampe 4,5 V\n- Résultat : Éclairage optimal\n\n### 2. Sous-tension\n**Condition :** U(générateur) < U(récepteur)\n\nLe récepteur fonctionne **faiblement** mais sans danger.\n\n**Exemple :** Pile 1,5 V → Lampe 4,5 V\n- Résultat : Lampe brille faiblement\n\n### 3. Surtension\n**Condition :** U(générateur) > U(récepteur)\n\nLe récepteur fonctionne **excessivement** puis risque d'être **détruit**. C'est **DANGEREUX** !\n\n**Exemple :** Pile 9 V → Lampe 4,5 V\n- Résultat : Lampe brille très fort puis grille\n\n## V. Dangers de la surtension\n\n### 1. Conséquences sur les appareils\n- Échauffement excessif\n- Destruction des composants\n- Risque d'incendie\n- Coût financier de remplacement\n\n### 2. Variations de tension du secteur en Côte d'Ivoire\nLa tension du secteur (nominalement 220 V) peut varier :\n- **Surtension** : 240-260 V (risque de destruction des appareils)\n- **Chute de tension** : 180-200 V (fonctionnement faible)\n\n**Causes des variations :**\n- Surcharge du réseau aux heures de pointe\n- Défaillances techniques\n- Orages et foudre\n- Vétusté des installations\n\n### 3. Protection contre la surtension\n\n**a) Régulateur de tension (Stabilisateur)**\nMaintient la tension constante à 220 V quelle que soit la tension d'entrée.\n\n**b) Parafoudre**\nProtège contre les surtensions brutales causées par la foudre.\n\n**c) Onduleur (UPS)**\nProtège contre les variations et assure l'alimentation pendant les coupures.\n\n**d) Mesures simples**\n- Débrancher les appareils pendant les orages\n- Surveiller les signes de surtension (lampes qui grillent souvent)\n- Installation électrique aux normes",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Tension électrique : unité = Volt (V)",
+    "Générateur : fournit l'énergie électrique",
+    "Récepteur : reçoit et transforme l'énergie électrique",
+    "Tension nominale : tension inscrite sur l'appareil",
+    "Adaptation : U(gén) = U(rép) → fonctionnement normal",
+    "Sous-tension : U(gén) < U(rép) → faible mais pas dangereux",
+    "Surtension : U(gén) > U(rép) → DANGER, risque de destruction",
+    "Secteur en Côte d'Ivoire : 220 V (peut varier)",
+    "Protection : régulateurs, parafoudres, débrancher pendant orages"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "L'unité légale de tension électrique est :",
+      "options": [
+        "L'ampère (A)",
+        "\"Le volt (V)\"",
+        "L'ohm (Ω)",
+        "Le watt (W)"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle est la tension du secteur en Côte d'Ivoire ?",
+      "options": [
+        "\"220 V\"",
+        "110 V",
+        "380 V",
+        "12 V"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Il y a surtension quand :",
+      "options": [
+        "U(gén) < U(rép)",
+        "U(gén) = U(rép)",
+        "\"U(gén) > U(rép)\"",
+        "La tension est stable"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "En cas de surtension, le récepteur :",
+      "options": [
+        "Fonctionne faiblement",
+        "Fonctionne normalement",
+        "Ne fonctionne pas",
+        "\"Risque d'être détruit\""
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Pour protéger les appareils contre les variations de tension, on utilise :",
+      "options": [
+        "Une pile",
+        "Une lampe",
+        "Un interrupteur",
+        "\"Un régulateur de tension\""
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

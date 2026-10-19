@@ -1,0 +1,267 @@
+{
+  "id": "physique-seconde-intensite-d-un-courant-continu",
+  "title": "Intensité d'un courant continu",
+  "summary": "Dans le cadre d'un projet scolaire sur l'énergie, les élèves de 2nde A du Lycée Moderne de Korhogo visitent une installation solaire photovoltaïque qui alimente un centre de santé. Le technicien explique que la quantité d'énergie produite dépend du nombre de porteurs de charges qui circulent dans les circuits. Curieux de comprendre cette relation, les élèves décident d'étudier plus en détail l'intensité du courant électrique et les lois qui régissent sa circulation dans les différents types de circuits, ave",
+  "lesson": "## 1. Introduction à l'intensité du courant\n\nL'intensité du courant électrique mesure le débit de charges électriques à travers une section de conducteur. En Côte d'Ivoire, cette notion est essentielle pour :\n- Dimensionner les installations électriques\n- Calculer la consommation d'énergie\n- Protéger les circuits (disjoncteurs, fusibles)\n- Optimiser les systèmes photovoltaïques\n\n**Description du schéma 1:** Analogie hydraulique. Le schéma doit montrer : (1) Circuit d'eau : débit d'eau dans un tuyau, (2) Circuit électrique : intensité dans un fil, (3) Correspondances : débit ↔ intensité, pression ↔ tension, robinet ↔ interrupteur, pompe ↔ générateur, (4) Valeurs typiques : débit domestique 10 L/min ↔ intensité lampe 0.5 A.\n\n## 2. Quantité d'électricité\n\n**Définition** : La quantité d'électricité $Q$ est la charge totale ayant traversé une section du conducteur pendant un temps $t$.\n\n**Expression mathématique** : $$Q = I \\\times t$$\nOù :\n- $Q$ en coulombs (C)\n- $I$ en ampères (A)\n- $t$ en secondes (s)\n\n**Cas du courant variable** : $Q = \\\\int_{t_1}^{t_2} I(t) dt$\n\n**Unité** : Le coulomb (C) = ampère × seconde.\n\n**Ordres de grandeur** :\n- Charge élémentaire : $e = 1.6 \\\times 10^{-19} \\\text{ C}$\n- Pile AA : délivre environ 2,000 à 3,000 C\n- Foudre : jusqu'à 200 C\n- Installation domestique : consommation journalière en kC\n\n## 3. Intensité du courant électrique\n\n**Définition** : L'intensité $I$ est le débit de charges à travers une section : $$I = \\\\frac{Q}{t}$$\n\n**Interprétation microscopique** : $I = n \\\times q \\\times v_d \\\times S$\nOù :\n- $n$ : nombre de porteurs par unité de volume\n- $q$ : charge du porteur\n- $v_d$ : vitesse de dérive\n- $S$ : section du conducteur\n\n**Mesure** : Avec un ampèremètre branché en série.\n\n## 4. Lois du courant continu en série\n\n**Loi d'unicité de l'intensité** : Dans un circuit série, l'intensité est la même en tout point.\n$$I = I_1 = I_2 = I_3 = ...$$\n\n**Démonstration expérimentale** : Mesures avec ampèremètres en différents points.\n\n**Applications** :\n- Guirlandes lumineuses traditionnelles\n- Circuits de commande industriels\n- Systèmes d'alarme\n\n**Description du schéma 2:** Circuit série avec mesures d'intensité. Éléments : (1) Générateur, (2) Trois résistances en série, (3) Trois ampèremètres A₁, A₂, A₃ en série, (4) Affichages identiques sur les trois ampèremètres, (5) Flèches indiquant le sens du courant, (6) Valeurs numériques exemple : I = 0.5 A partout.\n\n## 5. Lois du courant continu en parallèle\n\n**Loi des nœuds (loi de Kirchhoff)** : La somme des intensités arrivant à un nœud est égale à la somme des intensités qui en repartent.\n$$\\\\sum I_{\\\text{entrant}} = \\\\sum I_{\\\text{sortant}}$$\n\n**Cas particulier avec deux dérivations** : $I = I_1 + I_2$\n\n**Démonstration expérimentale** : Mesures au nœud principal et dans les branches.\n\n**Applications** :\n- Installations domestiques (prises multiples)\n- Réseaux électriques urbains\n- Systèmes d'éclairage public\n\n## 6. Circuits mixtes\n\n**Analyse méthodique** :\n1. Identifier les parties série et parallèle\n2. Appliquer la loi d'unicité dans les branches série\n3. Appliquer la loi des nœuds aux jonctions\n4. Résoudre le système d'équations\n\n**Exemple ivoirien** : Installation photovoltaïque avec :\n- Panneaux en série pour augmenter la tension\n- Branches en parallèle pour augmenter l'intensité\n- Régulateur de charge\n- Batteries de stockage\n\n## 7. Applications pratiques en Côte d'Ivoire\n\n**Dimensionnement des installations** :\n- Section des fils selon l'intensité maximale\n- Calibrage des disjoncteurs\n- Choix des composants électroniques\n\n**Calcul de consommation** :\n- Facture d'électricité : kWh = puissance × temps\n- Puissance : $P = U \\\times I$\n- Coût = consommation × tarif CIE\n\n**Sécurité électrique** :\n- Intensité maximale admissible par les fils\n- Protection contre les surintensités\n- Distance de sécurité autour des lignes haute tension\n\n**Description du schéma 3:** Installation électrique domestique type. Éléments : (1) Compteur CIE, (2) Disjoncteur général, (3) Tableau de répartition, (4) Circuits dédiés : éclairage (I ≈ 10 A), prises (I ≈ 16 A), chauffage (I ≈ 20 A), (5) Mesures d'intensité dans chaque circuit, (6) Loi des nœuds au tableau.\n\n## 8. Problèmes et solutions locales\n\n**Problèmes courants** :\n- Surcharge des circuits (trop d'appareils)\n- Chute de tension en bout de ligne\n- Pertes en ligne importantes\n- Branchements frauduleux\n\n**Solutions** :\n- Respect des normes de câblage\n- Utilisation de conducteurs de section adaptée\n- Répartition équilibrée des charges\n- Maintenance régulière\n\n## 9. Avenir : smart grids et efficacité\n\n**Compteurs intelligents** : Mesure précise en temps réel\n\n**Gestion de la demande** : Réduction aux heures de pointe\n\n**Intégration des ENR** : Optimisation solaire/éolien\n\n**Micro-réseaux** : Autonomie des villages\n",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "L'intensité I mesure le débit de charges : I = Q/t",
+    "En série : l'intensité est la même partout (loi d'unicité)",
+    "En parallèle : la somme des intensités des branches égale l'intensité principale (loi des nœuds)",
+    "La quantité d'électricité Q se mesure en coulombs (C)",
+    "Le dimensionnement des installations dépend de l'intensité maximale"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "L'unité de l'intensité du courant est :",
+      "options": [
+        "L'ampère (A)",
+        "Le volt (V)",
+        "Le coulomb (C)",
+        "Le watt (W)"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La relation entre quantité d'électricité Q, intensité I et temps t est :",
+      "options": [
+        "Q = I × t",
+        "I = Q × t",
+        "t = Q × I",
+        "Q = I / t"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Dans un circuit série :",
+      "options": [
+        "L'intensité est la même partout",
+        "L'intensité se divise",
+        "L'intensité s'additionne",
+        "L'intensité est nulle"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "À un nœud, selon la loi de Kirchhoff :",
+      "options": [
+        "ΣI entrant = ΣI sortant",
+        "ΣI entrant > ΣI sortant",
+        "ΣI entrant < ΣI sortant",
+        "ΣI entrant = 0"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Un courant de 2 A pendant 30 minutes correspond à :",
+      "options": [
+        "3 600 C",
+        "60 C",
+        "120 C",
+        "720 C"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Dans une maison, les différents circuits sont généralement :",
+      "options": [
+        "En parallèle",
+        "En série",
+        "En série-parallèle",
+        "Indépendants"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Pour mesurer l'intensité, on branche l'ampèremètre :",
+      "options": [
+        "En série",
+        "En parallèle",
+        "N'importe comment",
+        "Isolé"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Si on ajoute une lampe en parallèle, l'intensité totale :",
+      "options": [
+        "Augmente",
+        "Diminue",
+        "Reste identique",
+        "Devient nulle"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "La charge élémentaire e vaut environ :",
+      "options": [
+        "1,6 × 10⁻¹⁹ C",
+        "1,6 × 10⁻¹⁹ A",
+        "6,24 × 10¹⁸ C",
+        "9,1 × 10⁻³¹ C"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Pour protéger contre les surintensités, on utilise :",
+      "options": [
+        "Un disjoncteur ou un fusible",
+        "Un transformateur",
+        "Un condensateur",
+        "Une résistance"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "L'unité d'intensité est :",
+      "options": [
+        "Le volt",
+        "L'ampère",
+        "L'ohm",
+        "Le watt"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Un ampèremètre se branche :",
+      "options": [
+        "En série",
+        "En parallèle",
+        "En dérivation",
+        "Indifféremment"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "La loi des nœuds stipule que :",
+      "options": [
+        "ΣI_entrants = ΣI_sortants",
+        "ΣU = 0 dans une maille",
+        "U = RI",
+        "P = UI"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "1 A correspond au passage de :",
+      "options": [
+        "1 C par seconde",
+        "1 C par minute",
+        "1 J par seconde",
+        "1 V par ohm"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Si trois lampes identiques sont branchées en parallèle sous tension constante, quand on en allume une de plus, l'intensité totale :",
+      "options": [
+        "Augmente",
+        "Diminue",
+        "Reste identique",
+        "Devient nulle"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "La quantité d'électricité traversant un conducteur parcouru par 2 A pendant 5 min est :",
+      "options": [
+        "10 C",
+        "600 C",
+        "2,4 C",
+        "0,4 C"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Pour mesurer l'intensité sans couper le circuit, on utilise :",
+      "options": [
+        "Un voltmètre",
+        "Un ohmmètre",
+        "Une pince ampèremétrique",
+        "Un oscilloscope"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Dans un circuit avec deux résistances en parallèle, si R1 < R2 :",
+      "options": [
+        "I1 = I2",
+        "I1 < I2",
+        "I1 > I2",
+        "I1 = 0"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Le seuil de danger pour le corps humain est environ :",
+      "options": [
+        "1 mA",
+        "10 mA",
+        "30 mA",
+        "1000 mA"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

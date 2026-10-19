@@ -1,0 +1,135 @@
+{
+  "id": "svt-sixieme-la-germination-d-une-graine",
+  "title": "La germination d'une graine",
+  "summary": "Des élèves sèment des graines de haricot et les arrosent. Certaines germent, d'autres non. Les élèves cherchent à déterminer les conditions nécessaires et à décrire les étapes de la germination.",
+  "lesson": "## 🌱 La Graine Dormante et son Réveil : La Germination\n\n### 1. Les Facteurs Influents\nLa germination est le processus par lequel la graine donne naissance à une nouvelle plantule. Elle dépend de facteurs :\n* Facteurs Externes (du milieu) :\n  * L'Eau : Indispensable au gonflement de la graine et à l'activation de l'embryon.\n  * L'Air (Oxygène) : Nécessaire à la respiration de l'embryon pour produire de l'énergie.\n  * La Température : Chaque graine a une température optimale de germination.\n* Facteurs Internes (de la graine) :\n  * L'État de la graine : La graine doit être intacte et non attaquée par des parasites.\n  * L'Âge de la graine : Les graines trop jeunes ou trop vieilles peuvent perdre leur pouvoir germinatif.\n\n### 2. Le Rôle des Facteurs\n* L'eau permet le gonflement et ramollit les enveloppes, permettant à l'embryon de sortir.\n* L'air (oxygène) est essentiel pour la vie de l'embryon.\n* La température permet d'accélérer les réactions chimiques nécessaires à la croissance.\n\n### 3. Les Étapes de la Germination\n1. Gonflement de la graine : Absorption de l'eau.\n2. Sortie et apparition de la Radicule : La petite racine sort en premier pour ancrer la plante et absorber l'eau.\n3. Apparition de la Tigelle : La petite tige se développe.\n4. Apparition des premières feuilles : La plantule commence sa vie autonome.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "L'Eau, l'Air et la bonne Température sont les facteurs externes essentiels.",
+    "La Radicule (racine) sort en premier.",
+    "La germination est le passage de la vie ralentie de la graine à la vie active de la plantule."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel facteur externe la graine absorbe-t-elle pour gonfler ?",
+      "options": [
+        "La Lumière",
+        "L'Engrais",
+        "\"L'Eau\"",
+        "Le Sucre"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La première partie qui sort de la graine est :",
+      "options": [
+        "La Tigelle",
+        "La Feuille",
+        "\"La Radicule\"",
+        "Le Fruit"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Pourquoi l'air est-il nécessaire à la germination ?",
+      "options": [
+        "\"Pour la respiration\"",
+        "Pour la photosynthèse",
+        "Pour la couleur",
+        "Pour le soutien"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Si une graine est trop vieille, son pouvoir germinatif diminue. C'est un facteur :",
+      "options": [
+        "Externe",
+        "\"Interne\"",
+        "Physique",
+        "Chimique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "L'influence de la température sur la germination est un facteur :",
+      "options": [
+        "Interne",
+        "\"Externe\"",
+        "Inutile",
+        "Gélif"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel facteur externe est indispensable à la germination ?",
+      "options": [
+        "La lumière",
+        "L'eau",
+        "Le sol fertile",
+        "Les engrais"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quelle est la première partie de la plantule qui sort de la graine ?",
+      "options": [
+        "Les feuilles",
+        "La tige",
+        "La radicule (racine)",
+        "Les cotylédons"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Une graine placée dans l'eau mais sans air peut-elle germer ?",
+      "options": [
+        "Oui",
+        "Non",
+        "Seulement si elle est jeune",
+        "Seulement avec de la lumière"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel facteur interne empêche la germination ?",
+      "options": [
+        "Une graine trop vieille",
+        "Un sol pauvre",
+        "Le manque de lumière",
+        "Trop d'eau"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "id": "physique-terminale-montages-derivateur-et-integrateur",
+  "title": "Montages dérivateur et intégrateur",
+  "summary": "Lors d'une visite à l'Institut National Polytechnique de Yamoussoukro, des élèves de Terminale C découvrent comment les circuits électroniques peuvent réaliser des opérations mathématiques comme la dérivation et l'intégration. Le professeur leur explique que ces circuits sont essentiels dans les systèmes de contrôle des barrages hydroélectriques ivoiriens pour réguler le débit d'eau en fonction de la demande électrique. Intrigués, les élèves décident d'étudier comment un simple composant électronique, l'amp",
+  "lesson": "## 1. Introduction aux amplificateurs opérationnels\n\nL'amplificateur opérationnel (AOP ou AO) est un composant électronique fondamental utilisé dans de nombreux circuits analogiques. En Côte d'Ivoire, il trouve des applications dans les systèmes de régulation des centrales électriques, les instruments de mesure dans les laboratoires de contrôle qualité, et les équipements médicaux. Sa capacité à réaliser des opérations mathématiques en fait un élément clé de l'électronique analogique moderne.\n\n## 2. Amplificateur opérationnel idéal\n\n### 2.1. Symbole et brochages\n\nSymbole : triangle avec deux entrées (+ et -) et une sortie\n- Entrée non-inverseuse : V⁺ (ou E⁺)\n- Entrée inverseuse : V⁻ (ou E⁻)\n- Sortie : V_s (ou S)\n- Alimentation : +Vcc et -Vcc (souvent non représentées sur les schémas)\n\n### 2.2. Caractéristiques idéales\n1. Gain différentiel infini : A_d → ∞\n2. Impédance d'entrée infinie : Z_e → ∞\n3. Impédance de sortie nulle : Z_s → 0\n4. Bande passante infinie\n5. Tension de décalage nulle\n6. Courants de polarisation nuls\n\n### 2.3. Conséquences du gain infini\nEn régime linéaire (avec contre-réaction) :\n- La tension différentielle ε = V⁺ - V⁻ ≈ 0\n- Les courants d'entrée I⁺ ≈ I⁻ ≈ 0\n\nCes deux propriétés simplifient considérablement l'analyse des circuits à AOP.\n\n**Description du schéma 1: Symbole et caractéristiques de l'AOP idéal**\nReprésenter le symbole triangulaire de l'AOP avec :\n- Entrée non-inverseuse (+) à gauche\n- Entrée inverseuse (-) à gauche\n- Sortie à droite\n- Alimentations +Vcc et -Vcc en haut et bas\nIndiquer les tensions : V⁺, V⁻, V_s, et la tension différentielle ε = V⁺ - V⁻\nLégender : \"AOP idéal : ε ≈ 0, I⁺ ≈ I⁻ ≈ 0\", \"Gain A_d → ∞\", \"Z_e → ∞, Z_s → 0\"\n\n## 3. Montage dérivateur\n\n### 3.1. Principe\nLe montage dérivateur produit une tension de sortie proportionnelle à la dérivée de la tension d'entrée.\n\n### 3.2. Schéma\n- Entrée : V_e via un condensateur C\n- Rétroaction : résistance R entre sortie et entrée inverseuse\n- Entrée non-inverseuse à la masse\n\n### 3.3. Relation entrée-sortie\nEn utilisant les propriétés de l'AOP idéal :\n\\( i_C = i_R \\)\n\\( C \\\\frac{dV_e}{dt} = -\\\\frac{V_s}{R} \\)\n\\( V_s = -RC \\\\frac{dV_e}{dt} \\)\n\nLa tension de sortie est proportionnelle à la dérivée de la tension d'entrée.\n\n### 3.4. Oscillogrammes typiques\n- Si V_e est une rampe : V_s constante\n- Si V_e est sinusoïdale : V_s décalée de -π/2\n\n**Description du schéma 2: Montage dérivateur et ses oscillogrammes**\nReprésenter le circuit dérivateur : V_e → C → entrée (-) ; sortie → R → entrée (-) ; entrée (+) à la masse.\nEn dessous, tracer deux oscillogrammes superposés :\n- V_e(t) : signal triangulaire\n- V_s(t) : signal carré (dérivée du triangulaire)\nMontrer que les discontinuités de pente de V_e donnent des sauts de V_s.\nLégender : \"\\( V_s = -RC \\\\frac{dV_e}{dt} \\)\", \"Sortie proportionnelle à la dérivée de l'entrée\"\n\n## 4. Montage intégrateur\n\n### 4.1. Principe\nLe montage intégrateur produit une tension de sortie proportionnelle à l'intégrale de la tension d'entrée.\n\n### 4.2. Schéma\n- Entrée : V_e via une résistance R\n- Rétroaction : condensateur C entre sortie et entrée inverseuse\n- Entrée non-inverseuse à la masse\n\n### 4.3. Relation entrée-sortie\n\\( i_R = i_C \\)\n\\( \\\\frac{V_e}{R} = -C \\\\frac{dV_s}{dt} \\)\n\\( \\\\frac{dV_s}{dt} = -\\\\frac{1}{RC} V_e \\)\n\\( V_s(t) = V_s(0) - \\\\frac{1}{RC} \\\\int_0^t V_e(\\\\tau) d\\\\tau \\)\n\n### 4.4. Oscillogrammes typiques\n- Si V_e est constante : V_s rampe linéaire\n- Si V_e est carrée : V_s triangulaire\n\n## 5. Comparaison des deux montages\n\n| Caractéristique | Dérivateur | Intégrateur |\n|----------------|------------|-------------|\n| Élément d'entrée | C | R |\n| Élément de rétroaction | R | C |\n| Relation | \\( V_s = -RC \\\\frac{dV_e}{dt} \\) | \\( V_s = -\\\\frac{1}{RC} \\\\int V_e dt \\) |\n| Réponse à un échelon | Impulsion | Rampe |\n| Réponse à une rampe | Constante | Parabole |\n| Applications | Détecteurs de fronts, filtres | Générateurs de rampes, calcul d'aires |\n\n## 6. Limitations pratiques\n\n### 6.1. Problèmes du dérivateur réel\n- Amplification du bruit (dérivation amplifie les hautes fréquences)\n- Instabilité potentielle\n- Solution : ajouter une petite résistance en série avec C\n\n### 6.2. Problèmes de l'intégrateur réel\n- Dérive due aux courants de fuite\n- Saturation par accumulation d'erreurs\n- Solution : résistance en parallèle avec C\n\n## 7. Applications en contexte ivoirien\n\n### 7.1. Contrôle de processus industriels\nDans les usines de transformation de cacao, les intégrateurs calculent les quantités totales produites.\n\n### 7.2. Systèmes de régulation\nLes dérivateurs anticipent les variations dans les systèmes de contrôle des centrales.\n\n### 7.3. Instrumentation médicale\nCalcul de débits sanguins, analyse de signaux biologiques.\n\n### 7.4. Énergie renouvelable\nSuivi de la production énergétique cumulée.\n\n## 8. Exercice guidé : analyse de circuits\n\nUn montage intégrateur a R = 10 kΩ et C = 100 nF. L'entrée est un signal carré de ±2 V à 1 kHz.\n\n1. Calculer la constante de temps RC.\n2. Tracer l'allure de V_s(t) si V_s(0) = 0.\n3. Calculer la pente des segments de la sortie.\n4. Quelle amplitude maximale atteint V_s ?\n5. Proposer une modification pour éviter la saturation.\n\nSolution :\n1. RC = 10×10³ × 100×10⁻⁹ = 1×10⁻³ s = 1 ms\n2. Pour un signal carré à 1 kHz, la demi-période est 0,5 ms. Pendant une demi-période, V_e = +2 V, donc V_s décroît linéairement (car signe négatif dans la formule). Pendant l'autre demi-période, V_e = -2 V, donc V_s croît linéairement. Forme triangulaire.\n3. Pente = -V_e/(RC) = -2/0,001 = -2000 V/s pendant la première demi-période. Pendant la deuxième : +2000 V/s.\n4. Après 0,5 ms, variation = pente × temps = -2000 × 0,0005 = -1 V. Amplitude crête à crête = 2 V.\n5. Pour éviter la saturation : ajouter une résistance en parallèle avec C (par exemple 1 MΩ) pour éviter l'accumulation de charges dues aux courants de fuite.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "AOP idéal : ε ≈ 0, I⁺ ≈ I⁻ ≈ 0, gain infini",
+    "Montage dérivateur : V_s = -RC dV_e/dt",
+    "Montage intégrateur : V_s = -1/(RC) ∫V_e dt",
+    "Dérivateur : C en entrée, R en rétroaction",
+    "Intégrateur : R en entrée, C en rétroaction",
+    "Applications : traitement de signaux, régulation, instrumentation",
+    "Limitations pratiques : bruit, dérive, saturation",
+    "Réponse à un échelon : dérivateur donne impulsion, intégrateur donne rampe",
+    "Constante de temps RC détermine la réponse temporelle",
+    "En régime sinusoïdal, dérivateur avance la phase de π/2, intégrateur retarde de π/2"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Pour un AOP idéal en régime linéaire :",
+      "options": [
+        "V⁺ = V⁻",
+        "V⁺ > V⁻",
+        "V⁺ < V⁻",
+        "V⁺ et V⁻ sont indépendants"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Dans un montage dérivateur, l'élément en entrée est :",
+      "options": [
+        "Une résistance",
+        "Un condensateur",
+        "Une bobine",
+        "Une diode"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La relation entrée-sortie d'un intégrateur est :",
+      "options": [
+        "V_s = -RC dV_e/dt",
+        "V_s = -1/(RC) ∫V_e dt",
+        "V_s = RC ∫V_e dt",
+        "V_s = 1/(RC) dV_e/dt"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Un signal carré en entrée d'un intégrateur donne en sortie :",
+      "options": [
+        "Un signal carré",
+        "Un signal triangulaire",
+        "Un signal sinusoidal",
+        "Un signal constant"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "La constante de temps d'un dérivateur avec R=10kΩ et C=100nF est :",
+      "options": [
+        "1 ms",
+        "10 ms",
+        "100 μs",
+        "10 μs"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Pour éviter l'amplification du bruit dans un dérivateur réel, on ajoute :",
+      "options": [
+        "Une résistance en série avec C",
+        "Un condensateur en parallèle avec R",
+        "Une diode en entrée",
+        "Une bobine en sortie"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Si V_e = V₀ sin(ωt) pour un intégrateur, V_s est :",
+      "options": [
+        "En avance de π/2",
+        "En retard de π/2",
+        "En phase",
+        "En opposition de phase"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Un montage avec R=100kΩ et C=10nF en rétroaction est :",
+      "options": [
+        "Un dérivateur",
+        "Un intégrateur",
+        "Un amplificateur inverseur",
+        "Un suiveur"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Pour un AOP idéal, les courants d'entrée sont :",
+      "options": [
+        "Infini",
+        "Nuls",
+        "Égaux au courant de sortie",
+        "Proportionnels à la tension d'entrée"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "La tension de sortie d'un dérivateur avec V_e = kt (rampe) est :",
+      "options": [
+        "Constante",
+        "Linéaire",
+        "Quadratique",
+        "Sinusoidale"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Condition pour un circuit dérivateur ?",
+      "options": [
+        "RC >> T",
+        "RC << T",
+        "RC = T",
+        "RC = 0"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Dans un montage dérivateur, quel composé est placé en entrée ?",
+      "options": [
+        "Une résistance",
+        "Un condensateur",
+        "Une bobine",
+        "Une diode"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Pour un intégrateur avec R=10kΩ et C=1μF, si v_e=2V constant, que vaut dv_s/dt ?",
+      "options": [
+        "-0,2 V/s",
+        "-2 V/s",
+        "-20 V/s",
+        "-200 V/s"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quelle est la relation entrée-sortie d'un dérivateur idéal ?",
+      "options": [
+        "v_s = -∫v_e dt",
+        "v_s = -dv_e/dt",
+        "v_s = -RC·dv_e/dt",
+        "v_s = -(1/RC)·∫v_e dt"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Pour un signal d'entrée triangulaire, un intégrateur donne en sortie :",
+      "options": [
+        "Un signal triangulaire",
+        "Un signal carré",
+        "Un signal sinusoidal",
+        "Un signal parabolique"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "L'AOP idéal en régime linéaire a :",
+      "options": [
+        "v⁺ = v⁻ et i⁺ = i⁻ = 0",
+        "v⁺ ≠ v⁻ et i⁺ = i⁻ = 0",
+        "v⁺ = v⁻ et i⁺ = i⁻ ≠ 0",
+        "v⁺ ≠ v⁻ et i⁺ = i⁻ ≠ 0"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quelle modification limite l'amplification du bruit dans un dérivateur ?",
+      "options": [
+        "Ajouter une résistance en série avec C",
+        "Ajouter un condensateur en parallèle avec R",
+        "Augmenter R",
+        "Diminuer C"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Un intégrateur avec v_e constante produit en sortie :",
+      "options": [
+        "Une constante",
+        "Une rampe linéaire",
+        "Une sinusoïde",
+        "Une impulsion"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Pour v_e(t) = V_m·sin(ωt), la sortie d'un dérivateur est :",
+      "options": [
+        "v_s = -RC·V_m·sin(ωt)",
+        "v_s = -RC·ω·V_m·cos(ωt)",
+        "v_s = -(1/RC)·V_m·cos(ωt)",
+        "v_s = -(1/RCω)·V_m·sin(ωt)"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "La constante de temps d'un intégrateur est :",
+      "options": [
+        "RC",
+        "1/(RC)",
+        "R/C",
+        "C/R"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q21",
+      "type": "mcq",
+      "prompt": "Quelle application utilise typiquement un intégrateur ?",
+      "options": [
+        "Détecteur de crête",
+        "Générateur de rampes",
+        "Filtre coupe-bande",
+        "Amplificateur audio"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

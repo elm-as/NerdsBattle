@@ -1,0 +1,152 @@
+{
+  "id": "maths-terminale-plus-petit-commun-multiple-et-plus-grand-commun-diviseur-de-",
+  "title": "Plus petit commun multiple et plus grand commun diviseur de deux entiers relatifs",
+  "summary": "Des élèves de terminale C passionnés d'astronomie découvrent dans une revue scientifique que : « un corps céleste A qui apparaît périodiquement tous les 105 jours a été observé un jour J₀. Six jours plus tard (J₀+6), un corps céleste B, dont la période d'apparition est de 81 jours a été observé. Les deux corps apparaîtront simultanément plusieurs fois dans l'avenir». Curieux, ils décident de faire des calculs pour déterminer la prochaine apparition simultanée des deux objets.",
+  "lesson": "## 1. Définitions\n\n**PGCD** (Plus Grand Commun Diviseur) :\nPour a,b∈Z*, PGCD(a,b) est le plus grand entier positif qui divise à la fois a et b.\n\n**PPCM** (Plus Petit Commun Multiple) :\nPour a,b∈Z*, PPCM(a,b) est le plus petit entier positif multiple à la fois de a et b.\n\n**Notations** : PGCD(a,b) ou a∧b, PPCM(a,b) ou a∨b.\n\n## 2. Propriétés\n\n- Si d=PGCD(a,b), alors il existe a',b' premiers entre eux tels que a=da', b=db'.\n- PGCD(a,b)×PPCM(a,b)=|ab|\n- PGCD(ka,kb)=|k|×PGCD(a,b) pour k∈Z\n- PPCM(ka,kb)=|k|×PPCM(a,b)\n\n## 3. Méthodes de calcul\n\n**1. Décomposition en facteurs premiers** :\nExemple : a=360=2³×3²×5, b=84=2²×3×7\nPGCD = produit des facteurs communs avec plus petit exposant : 2²×3=12\nPPCM = produit de tous les facteurs avec plus grand exposant : 2³×3²×5×7=2520\n\n**2. Algorithme d'Euclide** (méthode des divisions successives) :\nPGCD(a,b)=PGCD(b,r) où r est le reste de a par b.\n\n**Exemple** : PGCD(105,81)\n105=81×1+24\n81=24×3+9\n24=9×2+6\n9=6×1+3\n6=3×2+0\nDonc PGCD(105,81)=3.\n\n## 4. Algorithme d'Euclide étendu (Bézout)\n\nPermet de trouver u,v∈Z tels que au+bv=PGCD(a,b).\n\n**Exemple** : Trouver u,v pour 105 et 81.\nOn remonte les calculs :\n3=9-6×1\nMais 6=24-9×2, donc 3=9-(24-9×2)=3×9-24\nOr 9=81-24×3, donc 3=3×(81-24×3)-24=3×81-10×24\nEt 24=105-81×1, donc 3=3×81-10×(105-81)=13×81-10×105\nDonc u=-10, v=13 : (-10)×105+13×81=3.\n\n## 5. Nombres premiers entre eux\n\n**Définition** : a et b sont premiers entre eux si PGCD(a,b)=1.\n\n**Propriétés** :\n- Si a|bc et PGCD(a,b)=1, alors a|c (Théorème de Gauss)\n- Si a et b premiers entre eux, alors PPCM(a,b)=|ab|\n\n## 6. Théorème de Bézout\n\n**Théorème** : a et b premiers entre eux ⇔ ∃u,v∈Z tels que au+bv=1.\n\n**Application** : Inverse modulo n : si PGCD(a,n)=1, alors a a un inverse modulo n.\n\n## 7. Équations diophantiennes ax+by=c\n\n**Condition nécessaire** : PGCD(a,b) doit diviser c.\n\n**Méthode de résolution** :\n1. Trouver une solution particulière (x₀,y₀) par l'algorithme d'Euclide étendu\n2. Solution générale :\n$$\\\\begin{cases} x = x₀ + k\\\\frac{b}{d} \\\\\\\\ y = y₀ - k\\\\frac{a}{d} \\\\end{cases} \\\\quad k∈Z$$\noù d=PGCD(a,b).\n\n## 8. Équations de congruence ax≡b [n]\n\n**Condition** : PGCD(a,n) doit diviser b.\n\n**Méthode** : Transformer en équation diophantienne ax+ny=b.\n\n**Exemple** : Résoudre 3x≡5 [7].\nPGCD(3,7)=1 qui divise 5, ok.\nTrouvons u,v : 3u+7v=1. 3×(-2)+7×1=1.\nMultiplions par 5 : 3×(-10)+7×5=5 ⇒ x≡-10≡4 [7].\n\n## 9. Application à la situation astronomique\n\nCorps A : période 105 jours, observé à J₀.\nCorps B : période 81 jours, observé à J₀+6.\n\nLeurs passages aux jours :\nA : J₀, J₀+105, J₀+210, ...\nB : J₀+6, J₀+87, J₀+168, ...\n\nCherchons t tel que J₀+105k = J₀+6+81ℓ ⇒ 105k - 81ℓ = 6.\nDivisons par 3 : 35k - 27ℓ = 2.\n\nPGCD(35,27)=1. Trouvons une solution particulière :\nAlgorithme d'Euclide pour 35 et 27 :\n35=27×1+8\n27=8×3+3\n8=3×2+2\n3=2×1+1\n2=1×2+0 ⇒ PGCD=1.\n\nRemontons pour 35u+27v=1 :\n1=3-2×1\n2=8-3×2 ⇒ 1=3-(8-3×2)=3×3-8\n3=27-8×3 ⇒ 1=3×(27-8×3)-8=3×27-10×8\n8=35-27×1 ⇒ 1=3×27-10×(35-27)=13×27-10×35\nDonc 35×(-10)+27×13=1.\nPour avoir 2, multiplions par 2 : 35×(-20)+27×26=2.\nDonc k₀=-20, ℓ₀=-26 (mais on veut des k,ℓ≥0).\n\nSolution générale : k=-20+27t, ℓ=-26+35t, t∈Z.\nPour t=1 : k=7, ℓ=9 (positifs).\nPremière coïncidence : J=J₀+105×7=J₀+735 jours.\n\n## 10. Problèmes classiques\n\n**Exemple** : Un marchand de cacao à Abidjan a des sacs de 18kg et 24kg. Comment peut-il obtenir exactement 126kg ?\nÉquation : 18x+24y=126 ⇒ diviser par 6 : 3x+4y=21.\nSolution particulière : (x,y)=(7,0).\nGénérale : x=7+4t, y=-3t. Pour t=-1 : x=3,y=3.\nDonc 3 sacs de 18kg + 3 sacs de 24kg = 54+72=126kg.\n\n```mermaid\ngraph TD\n    A[Problème PGCD/PPCM] --> B{Recherche coïncidence?}\n    B -->|Oui| C[Utiliser PPCM]\n    B -->|Non| D{Equation ax+by=c?}\n    D -->|Oui| E[Résoudre avec Bézout]\n    D -->|Non| F[Calcul direct PGCD]\n    C --> G[PPCM donne la période]\n    E --> H[Solution générale]\n    F --> I[Divisibilité]\n```\n\n## 11. Relation avec les fractions\n\nPour simplifier une fraction a/b, on divise par PGCD(a,b).\nPour additionner a/b + c/d, on met au dénominateur PPCM(b,d).\n\n**Exemple ivoirien** : Dans une recette à Korhogo, mélanger 3/4 de tasse de farine et 2/3 de tasse de sucre. Total = 9/12+8/12=17/12.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "PGCD(a,b) : plus grand entier divisant a et b",
+    "PPCM(a,b) : plus petit entier multiple de a et b",
+    "Relation : PGCD×PPCM = |ab|",
+    "Algorithme d'Euclide : PGCD(a,b)=PGCD(b,r) avec r reste de a÷b",
+    "Théorème de Bézout : a∧b=1 ⇔ ∃u,v, au+bv=1",
+    "Théorème de Gauss : si a|bc et a∧b=1, alors a|c",
+    "Équation ax+by=c : solutions si PGCD(a,b)|c"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "PGCD(12,18) =",
+      "options": [
+        "6",
+        "12",
+        "18",
+        "36"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Si PGCD(a,b)=1, alors a et b sont :",
+      "options": [
+        "Pairs",
+        "Premiers entre eux",
+        "Multiples l'un de l'autre",
+        "Égaux"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "PGCD(a,b)×PPCM(a,b) =",
+      "options": [
+        "a+b",
+        "a×b",
+        "|a×b|",
+        "a/b"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "L'algorithme d'Euclide pour PGCD utilise :",
+      "options": [
+        "Additions",
+        "Multiplications",
+        "Divisions euclidiennes",
+        "Racines carrées"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "L'équation 6x+9y=15 a des solutions car :",
+      "options": [
+        "PGCD(6,9)=3 divise 15",
+        "6 et 9 premiers entre eux",
+        "15 multiple de 6",
+        "15 multiple de 9"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "PPCM(8,12) =",
+      "options": [
+        "24",
+        "48",
+        "96",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Si PGCD(a,b)=d, alors on peut écrire a=da' et b=db' avec :",
+      "options": [
+        "PGCD(a',b')=d",
+        "PGCD(a',b')=1",
+        "a'=b'",
+        "a' et b' premiers"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Le théorème de Bézout assure l'existence de u,v tels que :",
+      "options": [
+        "au+bv=PGCD(a,b)",
+        "au+bv=PPCM(a,b)",
+        "au+bv=0",
+        "au+bv=1 si a,b premiers"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Pour résoudre ax≡b [n], on a besoin de :",
+      "options": [
+        "PGCD(a,n) divise b",
+        "PPCM(a,n) multiple de b",
+        "a et n premiers",
+        "b multiple de a"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Deux nombres sont premiers entre eux si leur PGCD vaut :",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "leur produit"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

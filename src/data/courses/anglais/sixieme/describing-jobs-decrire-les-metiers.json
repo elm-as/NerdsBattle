@@ -1,0 +1,58 @@
+{
+  "id": "anglais-sixieme-describing-jobs-decrire-les-metiers",
+  "title": "Describing Jobs - Décrire les métiers",
+  "summary": "Marie explique : 'A doctor helps sick people. A teacher teaches students.' Comment décrire les métiers ?",
+  "lesson": "## Describing Jobs - Décrire les métiers\n\n### What They Do\n\n**A doctor helps sick people.**\n**A teacher teaches students.**\n**A farmer grows food.**\n**A driver drives cars/buses.**\n**A cook prepares food.**\n\n## Action Verbs\n\n- **help** - aider\n- **teach** - enseigner\n- **grow** - cultiver\n- **drive** - conduire\n- **prepare** - préparer\n- **build** - construire\n- **sell** - vendre\n- **fix** - réparer\n- **write** - écrire\n- **take care of** - s'occuper de\n\n### Examples\n\n- A nurse **takes care of** patients.\n- A mechanic **fixes** cars.\n- A shopkeeper **sells** products.\n- An engineer **builds** bridges.\n\n## Where They Work\n\n**He/She works in/at...**\n\n- A doctor works **in a hospital**.\n- A teacher works **in a school**.\n- A farmer works **on a farm**.\n- A shopkeeper works **in a shop**.\n\n## Adjectives for Jobs\n\n- **difficult** - difficile\n- **easy** - facile\n- **interesting** - intéressant\n- **important** - important\n- **dangerous** - dangereux\n\n**Being a doctor is difficult but important.**",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Help, teach, grow, drive, prepare",
+    "A doctor helps sick people",
+    "Work in/at + lieu de travail",
+    "Difficult, easy, interesting, important"
+  ],
+  "exercise": {
+    "question": "Complète : 1) A teacher ___ students. 2) A doctor works ___ a hospital. 3) A farmer ___ food.",
+    "answer": "\n**Solution :**\n1) A teacher **teaches** students.\n2) A doctor works **in** a hospital.\n3) A farmer **grows** food.\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Que fait un médecin ?",
+      "options": [
+        "teaches students",
+        "helps sick people",
+        "drives cars",
+        "grows food"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Où travaille un enseignant ?",
+      "options": [
+        "in a hospital",
+        "in a school",
+        "on a farm",
+        "in a shop"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'réparer' ?",
+      "options": [
+        "fix",
+        "build",
+        "sell",
+        "write"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "maths-terminale-suites-et-raisonnement-par-recurrence",
+  "title": "Suites et raisonnement par récurrence",
+  "summary": "Pour démontrer une propriété vraie pour tous les entiers, on utilise la récurrence. Comment procéder ?",
+  "lesson": "## Suites et récurrence\n\n### Raisonnement par récurrence\nPour démontrer P(n) vraie pour tout n ≥ n₀ :\n\n**1. Initialisation :** Vérifier P(n₀)\n**2. Hérédité :** Montrer que P(n) ⟹ P(n+1)\n**3. Conclusion :** P(n) vraie pour tout n ≥ n₀\n\n### Limites de suites\n**Suite convergente :** admet une limite finie\n**Suite divergente :** pas de limite finie\n\n### Théorèmes\n- Suite croissante majorée ⟹ convergente\n- Suite décroissante minorée ⟹ convergente\n- Théorème des gendarmes\n- Suites adjacentes\n\n### Suites géométriques\nuₙ = u₀ × qⁿ\n- Si |q| < 1 : lim uₙ = 0\n- Si q = 1 : suite constante\n- Si q > 1 : lim uₙ = +∞ (si u₀ > 0)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Récurrence : initialisation + hérédité",
+    "Monotone + bornée ⟹ convergente",
+    "Suite géométrique : comportement selon q"
+  ],
+  "exercise": {
+    "question": "Démontre par récurrence : 1 + 2 + 3 + ... + n = n(n+1)/2",
+    "answer": "\n**Solution :**\n**Initialisation (n=1) :** 1 = 1(2)/2 = 1 ✓\n\n**Hérédité :** Supposons P(n) vraie\n1 + ... + n + (n+1) = n(n+1)/2 + (n+1)\n= (n+1)[n/2 + 1]\n= (n+1)(n+2)/2 = P(n+1) ✓\n\n**Conclusion :** P(n) vraie pour tout n ≥ 1\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Une suite croissante et majorée est :",
+      "options": [
+        "Divergente",
+        "Convergente",
+        "Constante",
+        "Périodique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Si |q| < 1, alors lim qⁿ = ?",
+      "options": [
+        "0",
+        "1",
+        "q",
+        "+∞"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

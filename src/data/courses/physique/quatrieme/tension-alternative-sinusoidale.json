@@ -1,0 +1,72 @@
+{
+  "id": "physique-quatrieme-tension-alternative-sinusoidale",
+  "title": "Tension alternative sinusoïdale",
+  "summary": "Au Lycée Moderne de Grand-Lahou, les élèves disposent de générateurs dont les fiches techniques sont introuvables. Ils veulent déterminer les caractéristiques des tensions à l'oscilloscope.",
+  "lesson": "# Tension alternative sinusoïdale\n\n## I. Visualisation à l'oscilloscope\n\n### A. L'oscilloscope\n\n**Définition** : Appareil permettant de **visualiser** une tension électrique en fonction du temps.\n\n**Écran** :\n```\n    ↑ Tension (V)\n    │     ╱╲    ╱╲\n    │    ╱  ╲  ╱  ╲\n────┼───╱────╲╱────╲──→ Temps (s)\n    │\n```\n\n**Réglages principaux** :\n1. **Sensibilité verticale** (V/div) : tension représentée par 1 carreau vertical\n   - Exemple : 2 V/div → 1 carreau = 2 V\n\n2. **Balayage** ou **base de temps** (ms/div ou s/div) : temps représenté par 1 carreau horizontal\n   - Exemple : 5 ms/div → 1 carreau = 5 ms\n\n### B. Visualisation tension continue (pile)\n\n```\n    ↑ \n  4V│ ────────────────  (Tension constante = 4V)\n    │\n  0V├─────────────────→ Temps\n```\n\n**Caractéristique** : Ligne **horizontale** (tension constante).\n\n### C. Visualisation tension alternative sinusoïdale\n\n```\n    ↑ Tension\n +Uₘ│     ╱╲    ╱╲    ╱╲\n    │    ╱  ╲  ╱  ╲  ╱  ╲\n  0V├───╱────╲╱────╲╱────╲──→ Temps\n    │        ╲      ╲\n -Uₘ│         ╲╱     ╲╱\n    \n    ├──T──┤  (Période)\n```\n\n**Caractéristiques** :\n- Forme **sinusoïdale** (comme une vague)\n- Tension **varie** : positive → nulle → négative → nulle → positive...\n- **Périodique** : le motif se répète\n\n## II. Définitions\n\n### A. Tension alternative sinusoïdale\n\n**Définition** : Tension qui varie de façon **périodique** en suivant une **courbe sinusoïdale**.\n\n### B. Période (T)\n\n**Définition** : **Durée** d'un motif complet (une oscillation complète).\n\n**Unité** : Seconde (s), ou milliseconde (ms), microseconde (μs)\n\n```\n    ╱╲    ╱╲\n   ╱  ╲  ╱  \n  ╱────╲╱───\n  ├─ T ─┤\n  \nUn motif complet = 1 période\n```\n\n**Sur l'oscilloscope** :\n- Compter le nombre de carreaux pour 1 motif\n- Multiplier par la base de temps\n\n**Exemple** :\n- 1 motif = 4 carreaux\n- Base de temps = 5 ms/div\n- **T = 4 × 5 ms = 20 ms**\n\n### C. Fréquence (f)\n\n**Définition** : Nombre de **motifs** (oscillations) par seconde.\n\n**Unité** : Hertz (Hz)\n- 1 Hz = 1 oscillation par seconde\n\n**Relation avec la période** :\n\n$$f = \\frac{1}{T}$$\n\nou\n\n$$T = \\frac{1}{f}$$\n\n**Exemple** :\n- Si T = 20 ms = 0,02 s\n- f = 1 / 0,02 = **50 Hz**\n\n**Signification** : 50 oscillations par seconde.\n\n### D. Valeur maximale (Uₘ)\n\n**Définition** : Valeur **la plus élevée** atteinte par la tension (amplitude).\n\n```\n    ↑\n +Uₘ│ ──→ (valeur maximale positive)\n    │  ╱╲\n  0V├─╱──╲─→\n    │      ╲\n -Uₘ│ ──→ (valeur minimale = -Uₘ)\n```\n\n**Sur l'oscilloscope** :\n- Compter le nombre de carreaux du 0 au sommet\n- Multiplier par la sensibilité verticale\n\n**Exemple** :\n- Amplitude = 3 carreaux\n- Sensibilité = 2 V/div\n- **Uₘ = 3 × 2 = 6 V**\n\n### E. Valeur efficace (Ueff)\n\n**Définition** : Valeur **équivalente** en continu pour le même effet (chauffage, éclairage...).\n\n**Relation** :\n\n$$U_{eff} = \\frac{U_m}{\\sqrt{2}} = \\frac{U_m}{1,41}$$\n\nou\n\n$$U_m = U_{eff} \\times 1,41$$\n\n**Exemple** :\n- Si Uₘ = 6 V\n- Ueff = 6 / 1,41 ≈ **4,25 V**\n\n**Remarque** : C'est la valeur **mesurée** par un voltmètre classique en mode AC (alternatif).\n\n## III. Détermination des caractéristiques\n\n### Méthode complète\n\n**Oscillogramme donné** :\n```\nRéglages :\n- Sensibilité : 100 V/div\n- Base de temps : 10 ms/div\n\n    ↑\n    │   ╱╲    ╱╲\n    │  ╱  ╲  ╱  ╲\n────┼─╱────╲╱────╲──→\n    │ ├2carreaux┤\n    \nAmplitude = 3 carreaux\nPériode = 2 carreaux\n```\n\n**Calculs** :\n\n1. **Uₘ** = 3 carreaux × 100 V/div = **300 V**\n\n2. **T** = 2 carreaux × 10 ms/div = **20 ms = 0,02 s**\n\n3. **f** = 1/T = 1/0,02 = **50 Hz**\n\n4. **Ueff** = Uₘ / 1,41 = 300 / 1,41 ≈ **213 V**\n\n## IV. Cas du secteur en Côte d'Ivoire\n\n### Caractéristiques\n\nLe **courant du secteur** (prises murales) en Côte d'Ivoire :\n- **Ueff = 220 V**\n- **f = 50 Hz**\n\n**Calcul de Uₘ** :\n- Uₘ = Ueff × 1,41\n- Uₘ = 220 × 1,41\n- **Uₘ ≈ 310 V**\n\n**Signification** :\n- La tension dans nos prises **varie** entre +310 V et -310 V\n- Elle fait **50 oscillations par seconde**\n- La valeur **efficace** (équivalente continue) est 220 V\n\n### Oscillogramme du secteur\n\n```\n    ↑ \n+310V│    ╱╲    ╱╲    ╱╲\n     │   ╱  ╲  ╱  ╲  ╱  ╲\n  0V ├──╱────╲╱────╲╱────╲──→\n     │       ╲      ╲\n-310V│        ╲╱     ╱\n     \n     ├─20ms─┤ (T = 1/50 = 0,02s)\n```\n\n### Comparaison internationale\n\n| Pays | Ueff | Fréquence |\n|------|------|-----------|\n| **Côte d'Ivoire** | 220 V | 50 Hz |\n| France | 230 V | 50 Hz |\n| USA | 120 V | 60 Hz |\n| Japon | 100 V | 50/60 Hz |\n\n**Remarque** : Attention aux appareils électriques importés ! Vérifier la compatibilité (110V vs 220V).\n\n## V. Applications et exemples\n\n### A. Centrale d'Azito (Abidjan)\n\nL'alternateur produit :\n- f = 50 Hz\n- Ueff = 15 000 V (avant transformation)\n\nPuis transformateurs élèvent à **225 000 V** pour le transport longue distance (moins de pertes).\n\n### B. Distribution à Abidjan\n\nTransformateurs abaissent progressivement :\n- 225 kV → 90 kV → 15 kV → **220 V** (dans nos maisons)\n\n### C. Appareils du quotidien\n\n**Fréquence 50 Hz** :\n- Ventilateurs, mixeurs : moteurs synchronisés à 50 Hz\n- Lampes fluorescentes : clignotent 50 fois/s (invisible à l'œil)\n- Chargeurs de téléphone : convertissent 220V alternatif → 5V continu",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Oscilloscope visualise tension en fonction du temps",
+    "Période T = durée d'un motif / Fréquence f = 1/T (Hz)",
+    "Uₘ = amplitude max / Ueff = Uₘ/1,41 (valeur équivalente continue)",
+    "Secteur CI : Ueff=220V, f=50Hz → Uₘ≈310V",
+    "Détermination : compter carreaux × sensibilité (V ou temps)"
+  ],
+  "exercise": {
+    "answer": "**Période T** : 5 carreaux × 4 ms/div = **20 ms = 0,02 s**\n\n**Fréquence f** : f = 1/T = 1/0,02 = **50 Hz**\n\n**Tension maximale Uₘ** : 4 carreaux × 2 V/div = **8 V**\n\n**Tension efficace Ueff** : Ueff = Uₘ/1,41 = 8/1,41 ≈ **5,67 V**",
+    "question": "À Grand-Lahou, un élève visualise la tension d'un générateur à l'oscilloscope. Il obtient une sinusoïde avec : 1 motif = 5 carreaux horizontaux, amplitude = 4 carreaux verticaux. Réglages : 2 V/div et 4 ms/div. Calculer T, f, Uₘ et Ueff."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est l'unité de la période ?",
+      "options": [
+        "Hertz (Hz)",
+        "Volt (V)",
+        "Seconde (s)",
+        "Ampère (A)"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Si la période T = 0,01 s, quelle est la fréquence ?",
+      "options": [
+        "10 Hz",
+        "100 Hz",
+        "0,1 Hz",
+        "1000 Hz"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La relation entre Ueff et Uₘ est :",
+      "options": [
+        "Ueff = Uₘ × 1,41",
+        "Ueff = Uₘ / 1,41",
+        "Ueff = Uₘ / 2",
+        "Ueff = 2 × Uₘ"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la fréquence du courant du secteur en Côte d'Ivoire ?",
+      "options": [
+        "25 Hz",
+        "50 Hz",
+        "60 Hz",
+        "100 Hz"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

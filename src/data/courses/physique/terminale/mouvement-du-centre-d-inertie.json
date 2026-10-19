@@ -1,0 +1,31 @@
+{
+  "id": "physique-terminale-mouvement-du-centre-d-inertie",
+  "title": "Mouvement du centre d'inertie",
+  "summary": "Quelle est la relation entre les forces et le mouvement ?",
+  "lesson": "## I. Les lois de Newton\n\n### 1.1 Première loi (Principe d'inertie)\n**Énoncé** : Dans un référentiel galiléen, si un point matériel est isolé (ΣF = 0) ou pseudo-isolé, alors son centre d'inertie G est soit au repos, soit animé d'un mouvement rectiligne uniforme.\n\n**Conséquence** : **ΣF** = **0** ⟺ **v** = constante ⟺ **a** = **0**\n\n### 1.2 Deuxième loi (Principe fondamental de la dynamique - PFD)\n**Énoncé** : Dans un référentiel galiléen, la somme vectorielle des forces extérieures appliquées à un point matériel de masse m est égale au produit de sa masse par son vecteur accélération.\n\n**Formule fondamentale** :\n**ΣFₑₓₜ** = m**a**\n\n**Projection dans un repère** :\n- ΣFₓ = maₓ\n- ΣFᵧ = maᵧ\n- ΣFᵤ = maᵤ\n\n**Remarques importantes** :\n- Les forces sont exprimées en Newton (N)\n- La masse en kilogrammes (kg)\n- L'accélération en m/s²\n- Cette loi est valable uniquement dans un référentiel galiléen\n\n### 1.3 Troisième loi (Principe des actions réciproques)\n**Énoncé** : Si un corps A exerce sur un corps B une force **F**ₐ→ᵦ, alors B exerce sur A une force **F**ᵦ→ₐ telle que :\n**F**ₐ→ᵦ = -**F**ᵦ→ₐ\n\n**Caractéristiques** :\n- Même intensité\n- Même direction\n- Sens opposés\n- S'appliquent sur des corps différents\n\n## II. Théorème du centre d'inertie (TCI)\n\n### 2.1 Énoncé\nPour un système de masse totale M, la somme des forces extérieures est égale au produit de la masse totale par l'accélération du centre d'inertie :\n\n**ΣFₑₓₜ** = M**aG**\n\n### 2.2 Distinction forces intérieures/extérieures\n- **Forces intérieures** : entre parties du système (s'annulent deux à deux)\n- **Forces extérieures** : proviennent de l'extérieur du système (seules comptent)\n\n**Exemple** : Système {Terre + Lune}\n- Attraction Terre-Lune : force intérieure (ne compte pas)\n- Attraction Soleil-Terre et Soleil-Lune : forces extérieures\n\n### 2.3 Cas particulier : point matériel\nPour un point matériel, TCI = PFD :\n**ΣFₑₓₜ** = m**a**\n\n## III. Mouvement du centre d'inertie d'un solide\n\n### 3.1 Démarche de résolution\n**Étape 1** : Système, référentiel, bilan des forces\n**Étape 2** : Appliquer **ΣFₑₓₜ** = M**aG**\n**Étape 3** : Projeter dans un repère adapté\n**Étape 4** : Résoudre les équations différentielles\n**Étape 5** : Déterminer les constantes avec les conditions initiales\n\n### 3.2 Conditions initiales\nÀ t = 0, on connaît généralement :\n- Position initiale : **OM**(0) = **OM**₀\n- Vitesse initiale : **v**(0) = **v**₀\n\n## IV. Applications classiques\n\n### 4.1 Chute libre sans vitesse initiale\n**Système** : {corps de masse m}\n**Référentiel** : terrestre (galiléen)\n**Forces** : Poids **P** = m**g** (on néglige les frottements de l'air)\n\n**Application du PFD** :\nm**g** = m**a** ⟹ **a** = **g**\n\n**Avec Oz vertical descendant** :\n- az = g = 9,8 m/s²\n- vz(t) = gt (car v₀ = 0)\n- z(t) = ½gt²\n\n**Résultats numériques** :\n- Après 1 s : v = 9,8 m/s, h = 4,9 m\n- Après 2 s : v = 19,6 m/s, h = 19,6 m\n\n### 4.2 Chute libre avec vitesse initiale horizontale\n**Conditions initiales** :\n- Position : x₀ = 0, y₀ = h\n- Vitesse : v₀ₓ = v₀, v₀ᵧ = 0\n\n**Équations du mouvement** :\n- Axe Ox (horizontal) : x(t) = v₀t\n- Axe Oy (vertical) : y(t) = h - ½gt²\n\n**Équation de la trajectoire** (parabole) :\ny = h - (g/2v₀²)x²\n\n**Portée horizontale** (quand y = 0) :\nx = v₀√(2h/g)\n\n### 4.3 Plan incliné sans frottement\n**Système** : {solide de masse m sur plan incliné d'angle α}\n**Forces** : Poids **P** = m**g**, Réaction **R** ⊥ plan\n\n**Repère** : Ox parallèle au plan, Oy perpendiculaire\n\n**Projection du poids** :\n- Pₓ = mg sin α (composante motrice)\n- Pᵧ = -mg cos α (composante normale)\n\n**Application du PFD** :\n- Sur Ox : mg sin α = ma ⟹ **a = g sin α**\n- Sur Oy : R - mg cos α = 0 ⟹ R = mg cos α\n\n**Équations horaires** :\n- v(t) = (g sin α)t\n- x(t) = ½(g sin α)t²\n\n### 4.4 Plan incliné avec frottement\n**Force de frottement** : **f** = -μR**uₓ** (opposée au mouvement)\n\n**Coefficient de frottement** : μ (sans unité)\n\n**Équation sur Ox** :\nmg sin α - μmg cos α = ma\n\n**Accélération** :\na = g(sin α - μ cos α)\n\n**Conditions** :\n- Si sin α > μ cos α : mouvement accéléré (a > 0)\n- Si sin α = μ cos α : mouvement uniforme (a = 0)\n- Si sin α < μ cos α : le solide ne peut pas descendre\n\n### 4.5 Mouvement sur trajectoire circulaire\n**Exemple** : looping, virage\n\n**Force centripète nécessaire** :\nFc = mv²/R (dirigée vers le centre)\n\n**Applications** :\n- Looping : au sommet, P + R = mv²/R\n- Virage automobile : frottements latéraux fournissent Fc\n\n## V. Méthode générale de résolution\n\n### Exemple complet : Mobile sur plan horizontal avec frottement\n\n**Données** :\n- Masse m = 2 kg\n- Force horizontale F = 10 N\n- Coefficient de frottement μ = 0,2\n- Vitesse initiale v₀ = 0\n\n**Solution détaillée** :\n\n**1. Bilan des forces** :\n- Poids : **P** = m**g** ↓\n- Réaction : **R** ↑\n- Force motrice : **F** →\n- Frottement : **f** = μR ←\n\n**2. Application du PFD** :\n**F** + **P** + **R** + **f** = m**a**\n\n**3. Projection verticale** :\nR - mg = 0 ⟹ R = mg = 2 × 9,8 = 19,6 N\n\n**4. Projection horizontale** :\nF - f = ma\nF - μR = ma\n10 - 0,2 × 19,6 = 2a\n10 - 3,92 = 2a\na = 3,04 m/s²\n\n**5. Équations horaires** :\n- v(t) = 3,04t m/s\n- x(t) = 1,52t² m\n\n**6. À t = 2 s** :\n- v = 6,08 m/s\n- x = 6,08 m",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "ΣF = ma",
+    "Forces intérieures s'annulent",
+    "Chute libre : a = g"
+  ],
+  "exercise": {
+    "question": "Un bloc de 2 kg, F = 10 N, μ = 0,2. Calculer a.",
+    "answer": "a = 3 m/s²"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Deuxième loi de Newton ?",
+      "options": [
+        "F = m",
+        "F = ma",
+        "F = mv",
+        "F = m/a"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

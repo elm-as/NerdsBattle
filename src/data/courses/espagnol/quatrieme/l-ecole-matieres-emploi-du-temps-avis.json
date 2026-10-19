@@ -1,0 +1,45 @@
+{
+  "id": "espagnol-quatrieme-l-ecole-matieres-emploi-du-temps-avis",
+  "title": "L'école : matières, emploi du temps, avis",
+  "summary": "¿Qué asignaturas estudias? (Quelles matières étudies-tu ?)",
+  "lesson": "## L'école en espagnol\n\n### Les matières scolaires\n\n- las matemáticas (les maths)\n- el español (l'espagnol)\n- el francés (le français)\n- las ciencias (les sciences)\n- la historia (l'histoire)\n- la geografía (la géographie)\n- la educación física (l'EPS)\n- el arte (l'art)\n\n### Les jours de la semaine\n\n- lunes (lundi)\n- martes (mardi)\n- miércoles (mercredi)\n- jueves (jeudi)\n- viernes (vendredi)\n- sábado (samedi)\n- domingo (dimanche)\n\n### Donner son avis\n\n- Me gusta... (J'aime...)\n- Es interesante (C'est intéressant)\n- Es difícil (C'est difficile)\n- Es fácil (C'est facile)\n- Es aburrido (C'est ennuyeux)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Las matemáticas, el español, las ciencias",
+    "Los lunes = le lundi / tous les lundis",
+    "Fácil = facile, difícil = difficile",
+    "Mi asignatura favorita = ma matière préférée"
+  ],
+  "exercise": {
+    "question": "Présente ton emploi du temps de la semaine.",
+    "answer": "Los lunes tengo matemáticas y español. Los martes estudio ciencias. Mi asignatura favorita es el arte porque es interesante."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "'Las matemáticas' veut dire :",
+      "options": [
+        "La musique",
+        "Les maths",
+        "L'histoire",
+        "Les sciences"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Pour dire 'le lundi' (répétitif), on dit :",
+      "options": [
+        "el lunes",
+        "los lunes",
+        "lunes",
+        "en lunes"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

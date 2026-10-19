@@ -1,0 +1,71 @@
+{
+  "id": "francais-seconde-etude-d-un-groupement-de-textes-gt-poetiques-de-litterature-",
+  "title": "Étude d’un groupement de textes (GT) poétiques de littérature africaine ou étrangère",
+  "summary": "Le collège/lycée de Korhogo vient de recevoir un bibliobus. Les élèves de Seconde C y découvrent des œuvres de poètes africains et étrangers traitant d’une même thématique. Ils sélectionnent quatre à six passages pour les étudier, les introduire, en construire le sens et conclure.",
+  "lesson": "## 1. Le genre poétique : définitions\n\n- **Création verbale** : travail sur la langue, les sons, les images.\n- **Pouvoir de suggestion** : évoque plus qu’il ne décrit.\n- **Contraintes formelles** (en poésie classique) : mètre, rimes, strophes.\n- **Poésie en vers libres** : affranchissement des contraintes formelles traditionnelles.\n\n## 2. Les formes poétiques\n\n**A. Poèmes à forme fixe**\n- **Sonnet** : 14 vers (2 quatrains + 2 tercets).\n- **Rondeau** : 13 vers avec refrain.\n- **Ballade** : strophes identiques avec un envoi final.\n- **Ode, élégie, épigramme** : formes liées à un thème ou un ton.\n\n**B. Poèmes en vers libres**\n- Pas de rimes obligatoires, pas de mètre fixe.\n- **Poèmes en prose** : pas de vers, mais une écriture poétique en prose.\n- **Calligrammes** : poèmes dont la disposition graphique forme un dessin.\n\n## 3. Introduction au groupement de textes\n\n1. **Identifier l’époque** des textes.\n2. **Identifier le genre** littéraire (poétique).\n3. **Identifier le thème commun**.\n4. **Présenter les auteurs** et leurs œuvres.\n5. **Situer** dans leur contexte historique et littéraire.\n6. **Formuler l’axe d’étude** du groupement.\n\n## 4. Outils d’analyse d’un texte poétique\n\n- **Structure** : strophes, vers, disposition.\n- **Versification** : mètre (nombre de syllabes), rimes (richesse, disposition), rythme (césure, enjambement).\n- **Sonorités** : allitération (répétition de consonnes), assonance (répétition de voyelles).\n- **Figures de style** : métaphore, comparaison, personnification, anaphore, etc.\n- **Lexique et champs lexicaux**.\n- **Énonciation** : pronoms, marques de subjectivité.\n\n## 5. Démarche d’analyse (lecture méthodique)\n\n1. **Lecture silencieuse** et impressions.\n2. **Hypothèse générale** de sens.\n3. **Repérage des indices** (structure, sonorités, figures, lexique).\n4. **Analyse et interprétation** des indices.\n5. **Synthèse** et vérification de l’hypothèse.\n\n## 6. Comparaison des textes du groupement\n\n**Tableau comparatif** pour relever :\n- Points communs (thème, tonalité, procédés).\n- Différences (forme, époque, point de vue).\n\n## 7. Conclusion de l’étude du groupement\n\n- Rappeler l’axe d’étude et les thèmes étudiés.\n- Synthétiser les faits d’écriture communs et divergents.\n- Préciser la portée littéraire et thématique du groupement.\n- Porter un jugement critique.\n\n## 8. Exemple de groupement thématique\n\n**Thème : « L’appel de la terre natale »**\n- Texte 1 : Poème de Léopold Sédar Senghor.\n- Texte 2 : Poème de Bernard Dadié.\n- Texte 3 : Poème d’un poète antillais.\n- Texte 4 : Poème d’un poète français (exil).",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Distinguer poésie à forme fixe et poésie en vers libres.",
+    "Maîtriser les outils de l’analyse poétique (versification, sonorités, figures).",
+    "Introduire un groupement de textes en identifiant le thème commun et le contexte.",
+    "Comparer les textes pour en dégager les constantes et les variations."
+  ],
+  "exercise": {
+    "answer": "**Solution type :**\n1. **Mètre** : Le poème est composé d’alexandrins (12 syllabes). Ex. : « Je me souviens des jours anciens et des visages » (12 syllabes après élision).\n2. **Rimes** : Schéma ABAB (rimes croisées) pour le premier quatrain.\n3. **Figure de style** : « La nuit était un linceul » → métaphore. Effet : évoque la mort, l’obscurité oppressante, le deuil.",
+    "question": "Pour un poème donné du groupement :\n1. Comptez le nombre de syllabes par vers (mètre).\n2. Relevez et classez les rimes (plates, croisées, embrassées).\n3. Identifiez une figure de style et expliquez son effet."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Un sonnet comporte combien de vers ?",
+      "options": [
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La répétition du son [a] dans plusieurs vers est une :",
+      "options": [
+        "Allitération",
+        "Assonance",
+        "Césure",
+        "Enjambement"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel type de poème n’a pas de vers ?",
+      "options": [
+        "Le sonnet",
+        "La ballade",
+        "Le poème en prose",
+        "L’ode"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans un groupement de textes, que doit-on identifier en premier ?",
+      "options": [
+        "Le nom de l’éditeur",
+        "Le thème commun",
+        "Le prix du livre",
+        "La couleur de la couverture"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

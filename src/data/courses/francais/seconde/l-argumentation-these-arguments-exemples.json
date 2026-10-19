@@ -1,0 +1,45 @@
+{
+  "id": "francais-seconde-l-argumentation-these-arguments-exemples",
+  "title": "L'argumentation : thèse, arguments, exemples",
+  "summary": "Comment défendre efficacement un point de vue ?",
+  "lesson": "## L'argumentation\n\n### Les éléments de l'argumentation\n\n**La thèse**\n- Opinion défendue\n- Exemple : \"Il faut protéger l'environnement.\"\n\n**Les arguments**\n- Raisons qui soutiennent la thèse\n- Exemple : \"Car la pollution détruit notre santé.\"\n\n**Les exemples**\n- Illustrations concrètes\n- Exemple : \"À Abidjan, la pollution de l'air cause des maladies respiratoires.\"\n\n### Types d'arguments\n\n**Argument logique**\n- Raisonnement rationnel\n- Cause à effet\n\n**Argument d'autorité**\n- Citation d'un expert\n- Exemple : \"Selon l'OMS...\"\n\n**Argument par l'exemple**\n- Cas concret\n- Fait historique\n\n### Les connecteurs logiques\n\n**Addition :** de plus, en outre, par ailleurs\n**Cause :** car, parce que, en effet\n**Conséquence :** donc, ainsi, c'est pourquoi\n**Opposition :** mais, cependant, néanmoins\n**Conclusion :** en conclusion, finalement, pour conclure",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Thèse = opinion défendue",
+    "Arguments = raisons",
+    "Exemples = illustrations",
+    "Connecteurs logiques essentiels"
+  ],
+  "exercise": {
+    "question": "Identifie thèse et argument : 'Le sport est bon pour la santé car il renforce le cœur.'",
+    "answer": "\n**Solution :**\n- **Thèse** : Le sport est bon pour la santé\n- **Argument** : car il renforce le cœur\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "'Car' est un connecteur de :",
+      "options": [
+        "Addition",
+        "Cause",
+        "Conséquence",
+        "Opposition"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Un argument d'autorité utilise :",
+      "options": [
+        "Un exemple",
+        "Une citation d'expert",
+        "Un fait historique",
+        "Une anecdote"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

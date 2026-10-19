@@ -1,0 +1,59 @@
+{
+  "id": "maths-sixieme-paves-droits-et-cylindres-droits",
+  "title": "Pavés droits et cylindres droits",
+  "summary": "L'éducatrice du Lycée Moderne de Divo demande aux élèves de 6ème de remplir une bassine avec un seau. Combien de seaux faut-il pour remplir la bassine ?",
+  "lesson": "## Pavés droits et cylindres droits\n\n### Le pavé droit (parallélépipède rectangle)\n\n**Définition :** Un pavé droit est un solide à 6 faces rectangulaires.\n\n**Éléments d'un pavé droit :**\n- **8 sommets** (coins)\n- **12 arêtes** (côtés)\n- **6 faces** rectangulaires (faces opposées identiques)\n- **3 dimensions** : longueur (L), largeur (l), hauteur (h)\n\n**Exemple :** Une boîte, un livre, un réfrigérateur...\n\n### Le cube\n\n**Définition :** Un cube est un pavé droit particulier où toutes les arêtes ont la même longueur.\n\n**Éléments d'un cube :**\n- **8 sommets**\n- **12 arêtes** égales\n- **6 faces** carrées identiques\n\n**Exemple :** Un dé, un rubik's cube...\n\n### Patron d'un pavé droit\n\nUn **patron** est une figure plane qui, une fois pliée, forme le solide.\n\nUn pavé droit a plusieurs patrons possibles (11 patrons différents).\n\n**Pour construire un patron :**\n1. \"Déplier\" mentalement le solide\n2. Dessiner les 6 faces à plat\n3. Vérifier que les dimensions correspondent\n\n### Volume d'un pavé droit\n\n**Formule :** V = Longueur × largeur × hauteur\n\n**Notation :** V = L × l × h\n\n**Unités :**\n- Si dimensions en m → volume en m³\n- Si dimensions en cm → volume en cm³\n- 1 m³ = 1 000 000 cm³\n- 1 L = 1 dm³ = 1 000 cm³\n\n**Exemple :** Pavé de dimensions 3 m, 2 m et 1,5 m\nV = 3 × 2 × 1,5 = 9 m³\n\n### Volume d'un cube\n\n**Formule :** V = arête × arête × arête = arête³\n\n**Notation :** V = a³\n\n**Exemple :** Cube d'arête 4 cm\nV = 4³ = 4 × 4 × 4 = 64 cm³\n\n### Le cylindre droit\n\n**Définition :** Un cylindre droit est un solide formé de deux bases circulaires parallèles et d'une surface latérale.\n\n**Éléments d'un cylindre :**\n- **2 bases** : cercles identiques et parallèles\n- **1 surface latérale** : rectangle enroulé\n- **rayon** (r) : rayon des bases\n- **hauteur** (h) : distance entre les deux bases\n\n**Exemple :** Une boîte de conserve, un tuyau...\n\n### Patron d'un cylindre\n\nLe patron d'un cylindre est formé de :\n- 2 cercles (les bases)\n- 1 rectangle (la surface latérale)\n\n**Dimensions du rectangle :**\n- Longueur = périmètre du cercle = 2πr\n- Largeur = hauteur du cylindre = h\n\n### Volume d'un cylindre\n\n**Formule :** V = π × r² × h\n\nOù :\n- r est le rayon de la base\n- h est la hauteur\n- π ≈ 3,14\n\n**Exemple :** Cylindre de rayon 5 cm et hauteur 10 cm\nV = 3,14 × 5² × 10 = 3,14 × 25 × 10 = 785 cm³\n\n### Application : Capacité en litres\n\n**Conversions utiles :**\n- 1 m³ = 1 000 L\n- 1 dm³ = 1 L\n- 1 cm³ = 1 mL = 0,001 L\n\n**Exemple :** Un réservoir de 2 m³ contient 2 × 1000 = 2000 L d'eau.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Pavé droit : 8 sommets, 12 arêtes, 6 faces rectangulaires",
+    "Volume pavé : V = L × l × h",
+    "Volume cube : V = a³",
+    "Volume cylindre : V = πr²h",
+    "1 m³ = 1000 L"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le volume d'un cube de 4 cm d'arête ?",
+      "options": [
+        "16 cm³",
+        "24 cm³",
+        "48 cm³",
+        "64 cm³"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Combien de faces a un pavé droit ?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "1 m³ égale :",
+      "options": [
+        "100 L",
+        "1000 L",
+        "10 L",
+        "10000 L"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

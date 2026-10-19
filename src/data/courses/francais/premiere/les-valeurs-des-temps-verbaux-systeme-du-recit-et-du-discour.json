@@ -1,0 +1,150 @@
+{
+  "id": "francais-premiere-les-valeurs-des-temps-verbaux-systeme-du-recit-et-du-discour",
+  "title": "Les valeurs des temps verbaux (système du récit et du discours)",
+  "summary": "À l’occasion du lancement de ses activités, le club littéraire du Collège de Daloa a invité des conteurs traditionnels pour une prestation. Séduits par leur talent et par la manière dont ils jouent avec le temps dans leurs récits (passé lointain, présent de narration, leçons intemporelles), les élèves de la Première A1 cherchent à comprendre les techniques de la communication narrative. Alors, à partir d’une série de textes courts (contes, extraits de romans, articles de journaux), ils s’organisent pour ide",
+  "lesson": "## 1. Les deux grands systèmes temporels\n\nLa conjugaison française s’organise autour de deux **systèmes temporels** qui correspondent à deux postures d’énonciation différentes.\n\n```mermaid\ngraph LR\n    A[Systèmes Temporels] --> B[Système du RÉCIT]\n    A --> C[Système du DISCOURS]\n    B --> D[Passé Simple - Imparfait - Plus-que-parfait]\n    C --> E[Présent - Passé Composé - Futur]\n```\n\n### 1.1 Le système du RÉCIT\n- **Contexte** : Le narrateur raconte des événements **passés et achevés**, comme un historien. Il y a une **distance** entre le moment du récit et le moment des faits.\n- **Temps de base** : Le **passé simple** (ou parfois le passé composé dans un récit oral).\n- **Temps pivots** :\n  - **Imparfait** : Pour la description, l’habitude, les actions secondaires.\n  - **Plus-que-parfait** : Pour exprimer l’**antériorité** par rapport à un passé.\n- **Effet** : Crée une impression d’objectivité, de distanciation, d’histoire déjà écrite.\n\n**Exemple de système du récit** :\n> « L’année dernière, un **éclata** (PS) une violente dispute au marché de Bouaké. Il **pleuvait** (IMP) ce jour-là. Les commerçants **avaient déployé** (PQP) leurs bâches depuis le matin. Soudain, un camion **arriva** (PS) en trombe. »\n\n### 1.2 Le système du DISCOURS\n- **Contexte** : L’énonciateur parle **dans et de son présent**. Il s’adresse directement à un destinataire (oral ou écrit). C’est le système de la **conversation**, du **dialogue**, du **journal intime**, du **discours politique**, de l’**essai**.\n- **Temps de base** : Le **présent**.\n- **Temps pivots** :\n  - **Passé composé** : Pour exprimer un passé **proche** ou **lié au présent**.\n  - **Futur simple** (ou futur proche) : Pour exprimer l’avenir par rapport au présent.\n  - **Conditionnel présent** : Pour exprimer l’éventuel, le souhait, le futur dans le passé.\n- **Effet** : Crée une impression d’immédiateté, de subjectivité, de dialogue avec le lecteur/auditeur.\n\n**Exemple de système du discours** :\n> « Aujourd’hui, je **constate** (PR) que les prix **ont augmenté** (PC) au marché. Je **vais devoir** (Futur proche) faire des choix. Si j’**avais** (IMP) plus de moyens, je **n’hésiterais** (COND) pas. »\n\n## 2. Tableau comparatif des valeurs d’emploi des temps\n\n| Temps | Système | Valeur aspectuelle | Valeurs d’emploi principales | Exemple |\n|-------|---------|---------------------|-------------------------------|---------|\n| **Passé Simple (PS)** | Récit | Accompli, ponctuel | Action principale, événement unique qui fait avancer l’histoire. | « Le roi **mourut** (PS). » |\n| **Imparfait (IMP)** | Récit | Inaccompli, duratif | Description, habitude, action secondaire (toile de fond), état d’esprit. | « Il **pleuvait** (IMP). Il **était** (IMP) triste. » |\n| **Plus-que-parfait (PQP)** | Récit | Antérieur accompli | Exprime une action achevée avant une autre action passée. | « Quand j’**arrivai** (PS), il **était déjà parti** (PQP). » |\n| **Présent (PR)** | Discours | Inaccompli, actuel | Vérité générale, action en cours, présent de narration (pour rendre vivant). | « La Terre **tourne** (PR) autour du Soleil. » / « Soudain, il **entre** (PR de narration). » |\n| **Passé Composé (PC)** | Discours | Accompli, lié au présent | Action passée dont les conséquences sont sensibles au présent. | « J’**ai terminé** (PC) mon travail (je suis libre maintenant). » |\n| **Futur Simple (FS)** | Discours | Inaccompli, postérieur | Action future par rapport au présent, ordre atténué, hypothèse. | « Tu **feras** (FS) tes devoirs. » / « S’il pleut, nous **resterons** (FS) à la maison. » |\n| **Conditionnel Présent (COND)** | Discours (ou Récit) | Inaccompli, éventuel | Futur dans le passé, souhait, hypothèse, atténuation (politesse). | « Il **déclara** (PS) qu’il **viendrait** (COND). » / « Je **voudrais** (COND) un café. » |\n\n## 3. Les valeurs aspectuelles : accompli vs inaccompli\n\n- **Aspect accompli** : L’action est **vue comme terminée**, dans son ensemble.\n  *Temps* : Passé simple, passé composé, plus-que-parfait.\n  *Ex.* : « Il **mangea** (PS) une pomme. » → L’action de manger est finie.\n\n- **Aspect inaccompli** : L’action est **vue en cours de déroulement**, sans limite prévisible.\n  *Temps* : Présent, imparfait, futur, conditionnel.\n  *Ex.* : « Il **mangeait** (IMP) une pomme. » → On le voit en train de manger, on ne sait pas quand il finira.\n\n## 4. Les ruptures et glissements temporels (effets stylistiques)\n\nLes auteurs **mélangent** parfois les systèmes ou utilisent un temps de manière inhabituelle pour créer des effets.\n\n### 4.1 Le présent de narration\n- **Définition** : On utilise le **présent** (système du discours) dans un récit au passé (système du récit).\n- **Effet** : **Dramatisation**, immersion du lecteur, effet de vivacité, d’immédiateté.\n- **Exemple** :\n  > « Il **avait** (IMP) peur. Soudain, la porte **s’ouvre** (PR de narration). Un homme **entre** (PR). Il le **regarde** (PR) fixement. »\n  → Le présent plonge le lecteur dans l’action comme s’il y était.\n\n### 4.2 Le futur dans le passé\n- **Définition** : Pour rapporter au passé une pensée ou une parole qui était, à ce moment-là, au futur. On utilise le **conditionnel présent**.\n- **Exemple** :\n  > « Il **promit** (PS) qu’il **reviendrait** (COND). »\n  (Au moment de la promesse, il a dit : 'Je **reviendrai** (FS).')\n\n### 4.3 L’imparfait à valeur de passé simple (imparfait narratif)\n- **Définition** : L’imparfait, habituellement duratif, est utilisé pour une action ponctuelle, remplissant ainsi le rôle du passé simple.\n- **Effet** : Ralentit l’action, donne de la solennité, insiste sur le déroulement interne de l’événement.\n- **Exemple** :\n  > « Le 7 août 1960, la Côte d’Ivoire **accédait** (IMP narratif) à l’indépendance. »\n  (Au lieu de « accéda » (PS)).\n\n### 4.4 Le passé simple à valeur descriptive\n- Plus rare. Un passé simple peut être utilisé dans une série pour décrire, créant un effet de tableau rapide et stylisé.\n\n## 5. Application à un texte : extrait d’un conte traditionnel\n\n> « Il **était** (IMP) une fois un jeune chasseur qui **habitait** (IMP) près de la forêt de Banco. Un matin, il **se leva** (PS) très tôt et **partit** (PS) à la chasse. Le soleil **commençait** (IMP) à peine à se lever. Soudain, il **entend** (PR de narration) un bruit étrange derrière un arbre. Il **s’approche** (PR) prudemment. Que **voit**-il (PR) ? Un esprit de la forêt qui lui **dit** (PR) : 'Si tu **respectes** (PR) la nature, tu **auras** (FUT) toujours de quoi manger.' Depuis ce jour, le chasseur **a toujours respecté** (PC) cet enseignement. »\n\n**Analyse** :\n- **Lignes 1-3** : **Système du récit** classique (Imparfait pour la situation, Passé simple pour les actions principales).\n- **Ligne 4 'entend' à ligne 7 'dit'** : **Ruperture** par l’utilisation du **présent de narration**. Le conteur bascule dans le système du discours pour rendre la rencontre plus vivante et dramatique.\n- **Ligne 7 (discours direct)** : **Système du discours** dans la parole de l’esprit (présent 'respectes', futur 'auras').\n- **Dernière ligne** : Retour au **système du discours** (Passé composé 'a respecté') pour faire le lien entre le récit passé et la conséquence présente, la leçon morale actuelle.\n\n**Interprétation** : Le mélange des systèmes sert la pédagogie du conte : le récit au passé l’ancre dans la tradition, le présent de narration captive l’auditoire, et la conclusion au passé composé ramène la leçon dans le présent de la communauté.\n\n## 6. Exercice pratique : rédiger en respectant les systèmes\n\n**Consigne 1** : Racontez en 5 lignes votre dernier voyage à la plage de Grand-Bassam **en utilisant le système du récit** (passé simple, imparfait, plus-que-parfait).\n**Consigne 2** : Reprenez les mêmes faits, mais écrivez un message à un ami pour lui raconter cette journée **en utilisant le système du discours** (présent, passé composé, futur).\n\n**Indices** :\n- Récit : « Nous **partîmes** (PS) tôt... Le ciel **était** (IMP) bleu... Nous **avions préparé** (PQP) le pique-nique... »\n- Discours : « Tu ne devineras jamais ! Aujourd’hui, je **suis allé** (PC) à Grand-Bassam. Il **fait** (PR) un temps magnifique. Je **vais t’envoyer** (FUT) des photos. »",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Deux systèmes temporels coexistent : le système du RÉCIT (pour raconter des faits passés distanciés) et le système du DISCOURS (pour parler dans le présent de l’énonciation).",
+    "Chaque temps a une valeur aspectuelle (accompli/inaccompli) et des valeurs d’emploi spécifiques (action ponctuelle, description, antériorité, etc.).",
+    "Les ruptures de système (comme le présent de narration) sont des choix stylistiques qui créent des effets particuliers (dramatisation, immersion).",
+    "Analyser l’emploi des temps permet de comprendre le point de vue du narrateur (objectivité, subjectivité) et les intentions de l’auteur.",
+    "Maîtriser ces systèmes est essentiel pour bien rédiger selon le contexte (rédiger un récit, un dialogue, un essai)."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Lequel de ces temps n’appartient PAS au système du récit ?",
+      "options": [
+        "Passé simple",
+        "Imparfait",
+        "Passé composé",
+        "Plus-que-parfait"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel temps est typiquement utilisé pour exprimer une action antérieure à une autre action passée ?",
+      "options": [
+        "Passé simple",
+        "Imparfait",
+        "Plus-que-parfait",
+        "Conditionnel"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "L’effet produit par le 'présent de narration' est principalement :",
+      "options": [
+        "De distanciation objective",
+        "De dramatisation et d’immédiateté",
+        "D’exprimer une habitude",
+        "De marquer l’antériorité"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans la phrase 'Il dit qu’il viendrait', le conditionnel 'viendrait' exprime :",
+      "options": [
+        "Un souhait",
+        "Un futur dans le passé",
+        "Une hypothèse",
+        "Un ordre atténué"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Dans la situation d’apprentissage, le club littéraire de quelle ville a invité des conteurs ?",
+      "options": [
+        "Daloa",
+        "Abidjan",
+        "Man",
+        "Korhogo"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel temps verbal a une valeur aspectuelle 'inaccomplie' ?",
+      "options": [
+        "Passé simple",
+        "Passé composé",
+        "Imparfait",
+        "Plus-que-parfait"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Le système du discours a pour temps de base :",
+      "options": [
+        "Le passé simple",
+        "Le présent",
+        "L’imparfait",
+        "Le plus-que-parfait"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "« Il pleuvait quand il sortit. » Dans cette phrase, l’imparfait 'pleuvait' exprime :",
+      "options": [
+        "L’action principale",
+        "Une action antérieure",
+        "La toile de fond (description/état)",
+        "Une action ponctuelle"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "L’utilisation de l’imparfait pour une action ponctuelle ('En 1960, le pays accédait à l’indépendance') s’appelle :",
+      "options": [
+        "Le présent de narration",
+        "L’imparfait narratif",
+        "Le futur dans le passé",
+        "Une rupture aspectuelle"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel temps, dans le système du discours, exprime un passé lié au présent par ses conséquences ?",
+      "options": [
+        "Passé simple",
+        "Imparfait",
+        "Passé composé",
+        "Conditionnel"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "maths-quatrieme-distances-dans-le-plan",
+  "title": "Distances dans le plan",
+  "summary": "Sur une carte, Abidjan est en A(2 ; 3) et Yamoussoukro en Y(6 ; 6). Quelle est la distance entre les deux villes sur la carte ?",
+  "lesson": "## Distances dans le plan\n\n### Distance entre deux points\nDans un repère orthonormé, la distance entre deux points A(xₐ ; yₐ) et B(xᵦ ; yᵦ) est :\n\n**Formule :**\nAB = √[(xᵦ - xₐ)² + (yᵦ - yₐ)²]\n\n**Exemple :**\nA(2 ; 3) et B(6 ; 6)\n\nAB = √[(6-2)² + (6-3)²]\nAB = √[4² + 3²]\nAB = √[16 + 9]\nAB = √25 = 5\n\n### Distance d'un point à une droite\nLa distance d'un point M à une droite (d) est la **plus courte distance** entre M et un point de (d).\n\n**Propriété :**\nC'est la longueur du segment perpendiculaire de M à (d).\n\n**Construction :**\n1. Tracer la perpendiculaire à (d) passant par M\n2. Le point d'intersection H est le projeté orthogonal de M sur (d)\n3. MH est la distance cherchée\n\n### Distance entre deux droites parallèles\nLa distance entre deux droites parallèles est **constante**.\n\nOn mesure la longueur d'un segment perpendiculaire aux deux droites.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "AB = √[(xᵦ-xₐ)² + (yᵦ-yₐ)²]",
+    "Distance point-droite = perpendiculaire",
+    "Distance entre // = constante",
+    "Pythagore pour calculer les distances"
+  ],
+  "exercise": {
+    "answer": "\n**Solution :**\nAB = √[(4-1)² + (6-2)²]\nAB = √[3² + 4²]\nAB = √[9 + 16]\nAB = √25 = 5\n\n**Réponse : AB = 5 unités**\n        ",
+    "question": "Calcule la distance entre A(1 ; 2) et B(4 ; 6)."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La distance entre A(0;0) et B(3;4) est :",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "7"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La distance d'un point à une droite est :",
+      "options": [
+        "Quelconque",
+        "La plus courte",
+        "La plus longue",
+        "Variable"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

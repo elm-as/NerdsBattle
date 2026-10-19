@@ -1,0 +1,70 @@
+{
+  "id": "maths-terminale-limites-de-fonctions",
+  "title": "Limites de fonctions",
+  "summary": "Le comportement asymptotique des fonctions est essentiel en physique. Comment calculer des limites ?",
+  "lesson": "## Limites de fonctions\n\n### 1. Notion de limite\nLa limite d'une fonction en un point permet de décrire le comportement de f(x) quand x s'approche de ce point.\n\n### 2. Calcul de limites\n**Limites de référence :**\n- lim[x→+∞] xⁿ = +∞ (si n > 0)\n- lim[x→+∞] 1/xⁿ = 0 (si n > 0)\n- lim[x→0⁺] 1/x = +∞\n- lim[x→0⁻] 1/x = −∞\n\n**Opérations sur les limites :**\n- Somme, produit, quotient\n- Composition de fonctions\n- Limites par comparaison\n\n### 3. Formes indéterminées à lever\nLes formes indéterminées nécessitent des techniques spéciales :\n- **∞−∞** : factoriser par le terme dominant\n- **0×∞** : mettre sous forme de quotient\n- **∞/∞** : factoriser numérateur et dénominateur\n- **0/0** : factoriser et simplifier\n\n**Méthode générale :** Factoriser par le terme de plus haut degré\n\n### 4. Asymptotes\n**Asymptote verticale :** x → a, f(x) → ±∞\nÉquation : x = a\n\n**Asymptote horizontale :** x → ±∞, f(x) → L\nÉquation : y = L\n\n**Asymptote oblique :** x → ±∞, f(x) − (ax + b) → 0\nÉquation : y = ax + b\n\n### 5. Continuité\nf est continue en a si et seulement si :\n1. f(a) existe\n2. lim[x→a] f(x) existe\n3. lim[x→a] f(x) = f(a)\n\n**Continuité sur un intervalle :** f continue en tout point de l'intervalle\n\n**Propriétés :**\n- Les fonctions polynômes sont continues sur ℝ\n- Les fonctions rationnelles sont continues sur leur domaine\n- Les fonctions exp et ln sont continues sur leur domaine\n\n### 6. Théorème des valeurs intermédiaires\nSi f est continue sur [a ; b] et si k est compris entre f(a) et f(b), alors ∃c ∈ [a ; b] tel que f(c) = k.\n\n**Application :** Prouver l'existence de solutions d'équations",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Formes indéterminées : ∞−∞, 0×∞, ∞/∞, 0/0",
+    "Factoriser pour lever les indéterminations",
+    "Asymptotes : interprétation graphique"
+  ],
+  "exercise": {
+    "question": "**Exercice 1 :** Calcule lim[x→+∞] (x² − 3x) / x²\n\n**Exercice 2 :** Calcule lim[x→1] (x² − 1)/(x − 1)\n\n**Exercice 3 :** Détermine les asymptotes de f(x) = (2x² + 1)/x\n\n**Exercice 4 :** Montre que l'équation x³ = x + 2 admet une solution dans [1 ; 2]",
+    "answer": "\n**Solution Exercice 1 :**\n= lim[x→+∞] (1 − 3/x) = 1 − 0 = 1\n**Réponse : lim = 1**\n\n**Solution Exercice 2 :**\nForme 0/0\nx² − 1 = (x−1)(x+1)\n= lim[x→1] (x−1)(x+1)/(x−1) = lim[x→1] (x+1) = 2\n**Réponse : lim = 2**\n\n**Solution Exercice 3 :**\nf(x) = (2x² + 1)/x = 2x + 1/x\nlim[x→+∞] f(x) − 2x = lim[x→+∞] 1/x = 0\nAsymptote oblique : y = 2x\nlim[x→0⁺] f(x) = +∞ et lim[x→0⁻] f(x) = −∞\nAsymptote verticale : x = 0\n**Réponse : AV: x = 0, AO: y = 2x**\n\n**Solution Exercice 4 :**\nPosons f(x) = x³ − x − 2\nf(1) = 1 − 1 − 2 = −2 < 0\nf(2) = 8 − 2 − 2 = 4 > 0\nf continue sur [1 ; 2]\nPar TVI : ∃c ∈ [1 ; 2], f(c) = 0\n**L'équation admet une solution dans [1 ; 2]**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "lim[x→+∞] 1/x = ?",
+      "options": [
+        "0",
+        "1",
+        "+∞",
+        "−∞"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "∞ − ∞ est une forme :",
+      "options": [
+        "Déterminée",
+        "Indéterminée",
+        "Nulle",
+        "Infinie"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Pour une asymptote horizontale y = L, on a :",
+      "options": [
+        "lim[x→L] f(x) = 0",
+        "lim[x→+∞] f(x) = L",
+        "f(L) = 0",
+        "f'(L) = 0"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Si f est continue sur [a;b] et f(a)×f(b) < 0, alors :",
+      "options": [
+        "f n'a pas de zéro",
+        "f a au moins un zéro dans ]a;b[",
+        "f(0) existe",
+        "f' existe"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

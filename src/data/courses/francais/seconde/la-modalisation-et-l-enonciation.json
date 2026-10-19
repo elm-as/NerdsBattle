@@ -1,0 +1,110 @@
+{
+  "id": "francais-seconde-la-modalisation-et-l-enonciation",
+  "title": "La modalisation et l'énonciation",
+  "summary": "Comment un auteur exprime-t-il son point de vue dans un texte ?",
+  "lesson": "## La modalisation\n\n### Qu'est-ce que modaliser ?\nModaliser = **nuancer** son propos, exprimer son **jugement**.\n\n### Procédés de modalisation\n\n**Le vocabulaire mélioratif** (positif)\n- magnifique, merveilleux, excellent\n- Exemple : \"C'est une **magnifique** idée.\"\n\n**Le vocabulaire péjoratif** (négatif)\n- horrible, détestable, médiocre\n- Exemple : \"C'est une **horrible** situation.\"\n\n**Les verbes d'opinion**\n- penser, croire, estimer, juger\n- Exemple : \"Je **pense** que c'est vrai.\"\n\n**Les adverbes**\n- peut-être, sans doute, certainement\n- Exemple : \"Il viendra **certainement**.\"\n\n**Le conditionnel**\n- Mode du doute\n- Exemple : \"Il **serait** malade.\"\n\n## La situation d'énonciation\n\n### Les questions à se poser\n- **Qui** parle ? (énonciateur)\n- À **qui** ? (destinataire)\n- **Quand** ? (moment)\n- **Où** ? (lieu)\n- **Comment** ? (oral/écrit)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Modalisation = expression du jugement",
+    "Mélioratif (positif) / péjoratif (négatif)",
+    "Verbes d'opinion, adverbes, conditionnel",
+    "Situation d'énonciation : qui, à qui, quand, où"
+  ],
+  "exercise": {
+    "question": "Dans 'Je pense que ce film est merveilleux', identifie les marques de modalisation.",
+    "answer": "\n**Solution :**\n- **'Je pense'** : verbe d'opinion\n- **'merveilleux'** : vocabulaire mélioratif\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 0,
+      "prompt": "'Magnifique' est un terme :",
+      "options": [
+        "Mélioratif",
+        "Péjoratif",
+        "Neutre",
+        "Conditionnel"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Le conditionnel exprime :",
+      "options": [
+        "La certitude",
+        "Le doute",
+        "L'ordre",
+        "Le passé"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-francais-1-mv9k5abu",
+      "type": "mcq",
+      "prompt": "Dans la phrase « Il est indéniable que cette décision est catastrophique », le terme « catastrophique » relève de quel procédé de modalisation ?",
+      "options": [
+        "Le vocabulaire mélioratif",
+        "Le vocabulaire péjoratif",
+        "L'adverbe de doute",
+        "Le verbe d'opinion"
+      ],
+      "answer": 1,
+      "explanation": "Le mot « catastrophique » exprime un jugement négatif et une dépréciation de la décision. Il s'agit donc d'un adjectif à connotation négative, ce qui correspond à la définition du vocabulaire péjoratif."
+    },
+    {
+      "id": "auto-francais-2-mv9k5abu",
+      "type": "mcq",
+      "prompt": "Quel est le rôle principal de l'énonciateur dans la situation d'énonciation ?",
+      "options": [
+        "Recevoir le message du destinataire",
+        "Produire et émettre le message",
+        "Déterminer le lieu de la communication",
+        "Choisir le canal de transmission (oral ou écrit)"
+      ],
+      "answer": 1,
+      "explanation": "L'énonciateur est l'agent qui produit le discours, c'est-à-dire celui qui parle ou écrit. Il est la source du message, tandis que le destinataire est le récepteur."
+    },
+    {
+      "id": "auto-francais-3-mv9k5abu",
+      "type": "mcq",
+      "prompt": "Dans l'énoncé « Sans doute, le candidat sera élu », quel procédé linguistique marque l'incertitude de l'énonciateur ?",
+      "options": [
+        "Le vocabulaire mélioratif",
+        "L'adverbe de modalisation",
+        "Le verbe d'opinion",
+        "Le conditionnel présent"
+      ],
+      "answer": 1,
+      "explanation": "L'expression « sans doute » est un adverbe (ou locution adverbiale) qui nuance l'affirmation en introduisant une probabilité plutôt qu'une certitude. Le verbe « sera » est au futur simple, pas au conditionnel."
+    },
+    {
+      "id": "auto-francais-4-mv9k5abu",
+      "type": "mcq",
+      "prompt": "Quel élément de la situation d'énonciation correspond à la question « Comment le message est-il transmis ? » ?",
+      "options": [
+        "Le canal (oral ou écrit)",
+        "Le code linguistique",
+        "Le contexte spatio-temporel",
+        "L'intention de l'énonciateur"
+      ],
+      "answer": 0,
+      "explanation": "La question « Comment ? » dans l'analyse de l'énonciation fait référence au mode de transmission du message, c'est-à-dire s'il s'agit d'une communication orale (parole) ou écrite (texte). C'est ce qu'on appelle le canal."
+    },
+    {
+      "id": "auto-francais-5-mv9k5abu",
+      "type": "mcq",
+      "prompt": "Parmi les verbes suivants, lequel est typiquement classé comme un verbe d'opinion servant à modaliser le propos ?",
+      "options": [
+        "Courir",
+        "Estimer",
+        "Construire",
+        "Manger"
+      ],
+      "answer": 1,
+      "explanation": "Le verbe « estimer » exprime un jugement ou une évaluation subjective de l'énonciateur sur un fait ou une idée. Les autres verbes proposés (courir, construire, manger) sont des verbes d'action ou d'état neutres qui ne portent pas de jugement."
+    }
+  ]
+}

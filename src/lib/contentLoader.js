@@ -9,28 +9,53 @@ import { LEVELS } from '../data/levels.js'
 const allModules = import.meta.glob('/src/data/courses/**/*.json', { eager: true })
 
 const subjectIds = new Set(SUBJECTS.map((s) => s.id))
-const levelIds = new Set(LEVELS.map((l) => l.id))
+
+/**
+ * Extrait la classe de base d'un dossier de niveau.
+ * Les dossiers dans src/data/courses/ utilisent des noms simples (terminale, premiere, seconde)
+ * tandis que les levelIds utilisateur incluent la série (terminale-c, premiere-a1, seconde-a).
+ * Cette table résout les deux sens.
+ */
+const FOLDER_LEVEL_IDS = new Set()
+for (const key of Object.keys(allModules)) {
+  const m = key.match(/courses\/[^/]+\/([^/]+)\//)
+  if (m) FOLDER_LEVEL_IDS.add(m[1])
+}
+
+/**
+ * Résout un levelId utilisateur (ex: 'terminale-c') vers le nom de dossier correspondant (ex: 'terminale').
+ * Retourne le levelId tel quel s'il correspond déjà à un dossier existant.
+ */
+function resolveToFolderLevel(levelId) {
+  if (!levelId) return null
+  if (FOLDER_LEVEL_IDS.has(levelId)) return levelId
+
+  // Extraire la classe de base : 'terminale-c' → 'terminale', 'premiere-a1' → 'premiere'
+  const baseLevels = ['terminale', 'premiere', 'seconde', 'troisieme', 'quatrieme', 'cinquieme', 'sixieme']
+  for (const base of baseLevels) {
+    if (levelId.startsWith(base)) return base
+  }
+
+  return levelId
+}
 
 function parsePath(path) {
-  // path: /src/data/courses/<subject>/<level>/<slug>.json (depuis Vite glob)
   const m = path.match(/courses\/([^/]+)\/([^/]+)\/([^/]+)\.json$/)
-  if (!m) {
-    console.warn('[contentLoader] Chemin non reconnu:', path)
-    return null
-  }
+  if (!m) return null
   const [, subject, level, slug] = m
-  if (!subjectIds.has(subject) || !levelIds.has(level)) {
-    console.warn('[contentLoader] Subject ou level invalide:', { subject, level, path })
-    return null
-  }
+  if (!subjectIds.has(subject)) return null
   return { subject, level, slug }
 }
 
-// Debug: Afficher le nombre de modules trouvés
-console.log('[contentLoader] Modules chargés:', Object.keys(allModules).length)
-if (Object.keys(allModules).length === 0) {
-  console.error('[contentLoader] ⚠️ Aucun cours trouvé! Vérifiez le chemin du glob.')
+function normalizeText(val) {
+  if (typeof val !== 'string') return val
+  if (val.includes('\\n')) {
+    return val.replaceAll('\\r\\n', '\n').replaceAll('\\n', '\n').replaceAll('\\t', '\t')
+  }
+  return val
 }
+
+console.log('[contentLoader] Modules chargés:', Object.keys(allModules).length)
 
 export const COURSES = Object.entries(allModules)
   .map(([path, mod]) => {
@@ -43,6 +68,10 @@ export const COURSES = Object.entries(allModules)
       slug: meta.slug,
       subjectId: meta.subject,
       levelId: meta.level,
+      title: normalizeText(data.title),
+      summary: normalizeText(data.summary),
+      lesson: normalizeText(data.lesson),
+      keyPoints: Array.isArray(data.keyPoints) ? data.keyPoints.map(normalizeText) : data.keyPoints,
       questionCount: data.questions?.length ?? 0
     }
   })
@@ -50,18 +79,25 @@ export const COURSES = Object.entries(allModules)
 
 export const getCourseById = (id) => COURSES.find((c) => c.id === id)
 
-export const getCourses = ({ subjectId, levelId } = {}) =>
-  COURSES.filter(
+/**
+ * Filtre les cours par matière et/ou niveau.
+ * Le levelId est résolu vers le dossier de base si c'est un ID avec série.
+ */
+export const getCourses = ({ subjectId, levelId } = {}) => {
+  const folderLevel = resolveToFolderLevel(levelId)
+  return COURSES.filter(
     (c) =>
       (!subjectId || c.subjectId === subjectId) &&
-      (!levelId || c.levelId === levelId)
+      (!folderLevel || c.levelId === folderLevel)
   )
+}
 
 export const getCoursesGroupedBySubject = (levelId) => {
+  const folderLevel = resolveToFolderLevel(levelId)
   const grouped = {}
   for (const s of SUBJECTS) {
     grouped[s.id] = COURSES.filter(
-      (c) => c.subjectId === s.id && (!levelId || c.levelId === levelId)
+      (c) => c.subjectId === s.id && (!folderLevel || c.levelId === folderLevel)
     )
   }
   return grouped
@@ -85,51 +121,20 @@ const TOPIC_TO_SUBJECT = {
   philosophie: 'philosophie',
   philo: 'philosophie',
   allemand: 'allemand',
-  espagnol: 'espagnol'
+  espagnol: 'espagnol',
+  edhc: 'edhc',
+  musique: 'education-musicale',
+  'education-musicale': 'education-musicale',
+  eps: 'eps',
+  sport: 'eps'
 }
 
 /**
- * Pioche des questions aléatoires depuis la banque locale officielle (1 120+ cours)
- * Permet aux modes Quiz Solo, Blitz et PvP de cibler fidèlement la bonne matière demandée.
+ * Filtre les questions "méta" ou polluées issues de résumés de manuels (ex: pages, numéros de chapitres, métadonnées).
+ * @param {Object} q
+ * @returns {boolean}
  */
-export function getRandomQuestionsFromCourses({ subjectId, levelId, count = 8, topic } = {}) {
-  // 1. Résoudre la vraie matière ciblée
-  let targetSubject = subjectId
-  if (topic && TOPIC_TO_SUBJECT[topic.toLowerCase()]) {
-    targetSubject = TOPIC_TO_SUBJECT[topic.toLowerCase()]
-  }
-
-  // 2. Filtrer les cours pertinents
-  let relevantCourses = []
-
-  if (targetSubject && targetSubject !== 'culture_generale') {
-    // Matière spécifique demandée (maths, physique, histoire, etc.)
-    relevantCourses = COURSES.filter((c) => {
-      const matchSubject = c.subjectId === targetSubject
-      const matchLevel = !levelId || c.levelId === levelId
-      return matchSubject && matchLevel && Array.isArray(c.questions) && c.questions.length > 0
-    })
-
-    // Si aucun cours trouvé pour ce niveau spécifique, élargir à tous les niveaux de cette matière
-    if (relevantCourses.length === 0) {
-      relevantCourses = COURSES.filter(
-        (c) => c.subjectId === targetSubject && Array.isArray(c.questions) && c.questions.length > 0
-      )
-    }
-  } else {
-    // Mode Culture Générale ou Mixte : piocher un équilibre dans TOUTES les matières du niveau !
-    relevantCourses = COURSES.filter((c) => {
-      const matchLevel = !levelId || c.levelId === levelId
-      return matchLevel && Array.isArray(c.questions) && c.questions.length > 0
-    })
-
-    if (relevantCourses.length === 0) {
-      relevantCourses = COURSES.filter((c) => Array.isArray(c.questions) && c.questions.length > 0)
-    }
-  }
-
-// Filtre les questions "méta" ou polluées issues de résumés de manuels (ex: pages, numéros de chapitres, métadonnées)
-function isCleanQuizQuestion(q) {
+export function isCleanQuizQuestion(q) {
   if (!q || !q.prompt || typeof q.prompt !== 'string') return false
   const p = q.prompt.toLowerCase()
   if (
@@ -154,6 +159,47 @@ function isCleanQuizQuestion(q) {
   }
   return true
 }
+
+/**
+ * Pioche des questions aléatoires depuis la banque locale officielle (1 120+ cours)
+ * Permet aux modes Quiz Solo, Blitz et PvP de cibler fidèlement la bonne matière demandée.
+ */
+export function getRandomQuestionsFromCourses({ subjectId, levelId, count = 8, topic } = {}) {
+  const folderLevel = resolveToFolderLevel(levelId)
+  // 1. Résoudre la vraie matière ciblée
+  let targetSubject = subjectId
+  if (topic && TOPIC_TO_SUBJECT[topic.toLowerCase()]) {
+    targetSubject = TOPIC_TO_SUBJECT[topic.toLowerCase()]
+  }
+
+  // 2. Filtrer les cours pertinents
+  let relevantCourses = []
+
+  if (targetSubject && targetSubject !== 'culture_generale') {
+    // Matière spécifique demandée (maths, physique, histoire, etc.)
+    relevantCourses = COURSES.filter((c) => {
+      const matchSubject = c.subjectId === targetSubject
+      const matchLevel = !folderLevel || c.levelId === folderLevel
+      return matchSubject && matchLevel && Array.isArray(c.questions) && c.questions.length > 0
+    })
+
+    // Si aucun cours trouvé pour ce niveau spécifique, élargir à tous les niveaux de cette matière
+    if (relevantCourses.length === 0) {
+      relevantCourses = COURSES.filter(
+        (c) => c.subjectId === targetSubject && Array.isArray(c.questions) && c.questions.length > 0
+      )
+    }
+  } else {
+    // Mode Culture Générale ou Mixte : piocher un équilibre dans TOUTES les matières du niveau !
+    relevantCourses = COURSES.filter((c) => {
+      const matchLevel = !folderLevel || c.levelId === folderLevel
+      return matchLevel && Array.isArray(c.questions) && c.questions.length > 0
+    })
+
+    if (relevantCourses.length === 0) {
+      relevantCourses = COURSES.filter((c) => Array.isArray(c.questions) && c.questions.length > 0)
+    }
+  }
 
   // 3. Extraire toutes les questions valides
   const allQuestions = []

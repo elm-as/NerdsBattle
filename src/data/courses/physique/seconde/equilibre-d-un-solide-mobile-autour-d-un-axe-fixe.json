@@ -1,0 +1,149 @@
+{
+  "id": "physique-seconde-equilibre-d-un-solide-mobile-autour-d-un-axe-fixe",
+  "title": "ÉQUILIBRE D'UN SOLIDE MOBILE AUTOUR D'UN AXE FIXE",
+  "summary": "Au marché de Daloa, une commerçante utilise une balance romaine traditionnelle pour peser ses sacs de riz. Un élève de 2nde C observe que pour équilibrer la balance, il faut placer le contrepoids à une distance précise qui dépend du poids du riz. Intrigué par ce principe mécanique utilisé depuis des générations dans le commerce ivoirien, il décide d'étudier scientifiquement le fonctionnement de cette balance. Avec ses camarades, ils analysent le concept de moment d'une force par rapport à un axe, déterminen",
+  "lesson": "## 1. Introduction aux systèmes à axe fixe\n\nDe nombreux systèmes techniques en Côte d'Ivoire fonctionnent avec une rotation autour d'un axe fixe :\n- Balances romaines (marchés)\n- Poulies (chantiers de construction)\n- Treuils (pêche artisanale)\n- Portes et fenêtres\n- Moulins à grains\n\nLeur étude nécessite le concept de **moment d'une force**.\n\n## 2. Moment d'une force par rapport à un axe fixe\n\n**Définition** : Le moment d'une force $\\\\overrightarrow{F}$ par rapport à un axe $\\\\Delta$ mesure son efficacité à faire tourner un solide autour de cet axe.\n\n**Expression mathématique** :\n$$M_{\\\\Delta}(\\\\overrightarrow{F}) = F \\\times d$$\noù :\n- $F$ : intensité de la force (N)\n- $d$ : bras de levier = distance entre l'axe et la droite d'action de la force (m)\n\nLe bras de levier $d$ est la distance perpendiculaire entre l'axe et la ligne d'action de la force.\n\n**Description du schéma 1:** Représentation d'un levier. Axe Δ (point de pivot). Force F appliquée à l'extrémité. Droite d'action de F. Distance perpendiculaire d entre Δ et la droite d'action. Angle θ entre le levier et la direction de F. Légende : 'Moment = F × d'. Indication : 'd = L sinθ' si L est la longueur du levier.\n\n## 3. Caractère algébrique du moment\n\nLe moment est une grandeur **algébrique** :\n- **Positif** : $M_{\\\\Delta}(\\\\overrightarrow{F}) > 0$ si la force tend à faire tourner le solide dans le sens positif (conventionnellement sens trigonométrique)\n- **Négatif** : $M_{\\\\Delta}(\\\\overrightarrow{F}) < 0$ si la force tend à faire tourner dans le sens opposé\n- **Nul** : $M_{\\\\Delta}(\\\\overrightarrow{F}) = 0$ si :\n  1. $F = 0$ (force nulle)\n  2. $d = 0$ (droite d'action passe par l'axe)\n  3. Force parallèle à l'axe\n\n## 4. Unité du moment\n\n**Unité SI** : le newton-mètre (N·m)\n$$[M] = [F] \\\times [d] = \\\text{N} \\\times \\\text{m} = \\\text{N·m}$$\n\n**Ordres de grandeur** :\n- Balance romaine : 0,1 à 10 N·m\n- Clé à écrou : 10 à 100 N·m\n- Volant de voiture : 5 à 20 N·m\n\n## 5. Cas particuliers importants\n\n**Force perpendiculaire au levier** : $M = F \\\times L$ où L est la longueur du levier.\n\n**Force quelconque** : $M = F \\\times L \\\times \\\\sin\\\theta$ où θ est l'angle entre le levier et la force.\n\n**Forces multiples** : Le moment total est la somme algébrique des moments individuels.\n\n## 6. Conditions d'équilibre pour un solide mobile autour d'un axe fixe\n\n**Théorème** : Un solide mobile autour d'un axe fixe Δ est en équilibre si et seulement si la somme algébrique des moments de toutes les forces extérieures par rapport à Δ est nulle :\n$$\\\\sum M_{\\\\Delta}(\\\\overrightarrow{F}_{\\\text{ext}}) = 0$$\n\n**Formulation** : $M_1 + M_2 + M_3 + ... = 0$\n\n**Remarque** : Cette condition concerne uniquement la rotation. Pour un équilibre complet (pas de translation), il faut aussi $\\\\sum \\\\overrightarrow{F}_{\\\text{ext}} = \\\\overrightarrow{0}$.\n\n## 7. Application : La balance romaine\n\n**Principe** : Comparaison des moments du poids de l'objet à peser et du contrepoids.\n\n**Étude quantitative** :\n- Axe Δ au point de suspension\n- Force 1 : Poids $P_o$ de l'objet à bras de levier $d_o$\n- Force 2 : Poids $P_c$ du contrepoids à bras de levier $d_c$\n- Force 3 : Réaction au point de suspension (moment nul)\n\n**Condition d'équilibre** :\n$$P_o \\\times d_o = P_c \\\times d_c$$\n\n**Étalonnage** : On grave des marques sur la tige pour différentes masses.\n\n**Description du schéma 2:** Schéma technique d'une balance romaine. Axe de rotation Δ. Deux bras : un court avec crochet pour l'objet (poids Po, distance do), un long gradué avec contrepoids mobile (poids Pc, distance dc variable). Flèches indiquant les forces et distances. Légende : 'Équilibre : Po × do = Pc × dc'. Graduations visibles sur le bras long.\n\n## 8. Autres applications pratiques\n\n**A. Levier** : Outil pour soulever des charges lourdes. Exemple : levier pour déplacer des pierres sur les chantiers.\nPrincipe : $F_1 \\\times d_1 = F_2 \\\times d_2$\n\n**B. Poulie fixe** : Change la direction de la force mais pas l'intensité. Moment nul si rayon identique.\n\n**C. Treuil** : Permet de soulever des charges avec un faible effort. Exemple : treuil pour remonter les filets de pêche.\nPrincipe : $F_{\\\text{manivelle}} \\\times R_{\\\text{manivelle}} = P_{\\\text{charge}} \\\times r_{\\\text{tambour}}$\n\n**D. Porte** : La force à appliquer dépend de la distance par rapport aux gonds.\n\n## 9. Méthode de résolution des problèmes\n\n**Étapes** :\n1. Identifier l'axe de rotation Δ\n2. Lister toutes les forces extérieures\n3. Calculer le moment de chaque force par rapport à Δ\n4. Écrire la condition d'équilibre : $\\\\sum M_{\\\\Delta} = 0$\n5. Résoudre l'équation pour l'inconnue\n6. Vérifier l'homogénéité des unités\n\n**Description du schéma 3:** Problème type : poutre homogène en équilibre sur un pivot. Poutre de longueur L, poids P appliqué au centre, force F à une extrémité, réaction R au pivot. Distances indiquées : L/2 pour P, L pour F. Calcul des moments : M(P) = -P × (L/2), M(F) = +F × L. Condition : -PL/2 + FL = 0 → F = P/2. Légende : 'Exemple de calcul - Poutre en équilibre'.\n\n## 10. Applications au contexte ivoirien\n\n**1. Agriculture** :\n- Balances pour peser les récoltes de cacao et café\n- Leviers pour soulever les sacs\n- Treuils pour les puits\n\n**2. Construction** :\n- Poulies sur les échafaudages\n- Clefs pour serrer les boulons\n- Grue rudimentaire (palan)\n\n**3. Transport** :\n- Volant des véhicules\n- Pédalier des bicyclettes\n- Manivelle des moteurs\n\n**4. Vie quotidienne** :\n- Ouverture des portes et fenêtres\n- Ciseaux, pinces\n- Tournevis\n\n## 11. Cas d'un solide soumis à plusieurs forces\n\n**Théorème de Varignon** : Le moment de la résultante de plusieurs forces concourantes est égal à la somme des moments de ces forces.\n\n**Forces non concourantes** : La condition $\\\\sum M_{\\\\Delta} = 0$ reste valable même si les forces ne sont pas concourantes.\n\n## 12. Limites du modèle\n\nLe modèle suppose :\n- Un axe parfaitement fixe\n- Des liaisons sans frottement\n- Des solides indéformables\n\nEn réalité, il faut considérer :\n- Les frottements dans les axes\n- La déformation des matériaux\n- La précision des mesures",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Le moment d'une force M = F × d mesure son efficacité à faire tourner un solide",
+    "Le moment est algébrique : positif pour rotation dans le sens trigonométrique",
+    "Condition d'équilibre : la somme algébrique des moments par rapport à l'axe est nulle",
+    "La balance romaine fonctionne sur le principe d'égalité des moments"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "L'unité du moment d'une force est :",
+      "options": [
+        "Le newton",
+        "Le joule",
+        "Le newton-mètre",
+        "Le watt"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Le moment d'une force est nul si :",
+      "options": [
+        "La force est grande",
+        "La droite d'action passe par l'axe",
+        "Le bras de levier est long",
+        "La force est perpendiculaire"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Pour une balance romaine en équilibre :",
+      "options": [
+        "Les poids sont égaux",
+        "Les distances sont égales",
+        "Les moments sont égaux",
+        "Les forces sont égales"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Un moment est positif s'il tend à faire tourner :",
+      "options": [
+        "Dans le sens horaire",
+        "Dans le sens trigonométrique",
+        "Peu importe le sens",
+        "Ne fait pas tourner"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Le bras de levier est :",
+      "options": [
+        "La longueur du levier",
+        "La distance axe-point d'application",
+        "La distance perpendiculaire axe-droite d'action",
+        "La moitié de la longueur"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Pour équilibrer un moment de 20 N·m avec une force de 10 N, il faut un bras de levier de :",
+      "options": [
+        "0,5 m",
+        "2 m",
+        "20 m",
+        "200 m"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dans une balance romaine, si on double la masse à peser, il faut :",
+      "options": [
+        "Doubler la distance du contrepoids",
+        "Diviser par deux la distance",
+        "Laisser la même distance",
+        "Quadrupler la distance"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Une poulie fixe idéale a un moment résultant :",
+      "options": [
+        "Positif",
+        "Négatif",
+        "Nul",
+        "Variable"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Le théorème des moments s'applique à :",
+      "options": [
+        "Tous les solides",
+        "Les solides en translation",
+        "Les solides en rotation autour d'un axe fixe",
+        "Les fluides seulement"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Pour dévisser un boulon récalcitrant, il vaut mieux utiliser :",
+      "options": [
+        "Une clé courte",
+        "Une clé longue",
+        "Peu importe la longueur",
+        "Aucune clé"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

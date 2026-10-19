@@ -1,0 +1,33 @@
+{
+  "id": "physique-terminale-puissance-en-regime-sinusoidal",
+  "title": "Puissance en régime sinusoïdal",
+  "summary": "Pourquoi parle-t-on de facteur de puissance sur les factures d'électricité ?",
+  "lesson": "## I. Les trois puissances\n\n### 1.1 Puissance apparente S\n**S = UI** (en VA - voltampère)\n\nProduit des valeurs efficaces\n\n### 1.2 Puissance active P\n**P = UI cos φ** (en W - watt)\n\nPuissance réellement consommée (convertie en chaleur, travail...)\n\n### 1.3 Puissance réactive Q\n**Q = UI sin φ** (en VAR - voltampère réactif)\n\nPuissance échangée avec les éléments réactifs (L et C)\n\n## II. Relation entre les puissances\n\n### 2.1 Relation de Pythagore\n**S² = P² + Q²**\n\n### 2.2 Triangle des puissances\n- Côté horizontal : P (puissance active)\n- Côté vertical : Q (puissance réactive)\n- Hypoténuse : S (puissance apparente)\n- Angle : φ (déphasage)\n\n## III. Facteur de puissance\n\n### 3.1 Définition\n**cos φ = P/S**\n\n### 3.2 Valeurs\n- cos φ = 1 : circuit purement résistif (φ = 0)\n- cos φ < 1 : circuit réactif (présence de L ou C)\n- cos φ = 0 : circuit purement réactif (φ = ±90°)\n\n### 3.3 Importance\nUn cos φ faible signifie :\n- Courant élevé pour une puissance active donnée\n- Pertes par effet Joule importantes\n- Surdimensionnement des installations\n\n**Les distributeurs d'électricité pénalisent les faibles cos φ**\n\n## IV. Compensation de l'énergie réactive\n\n### 4.1 Problème\nInstallations industrielles souvent inductives (moteurs)\n→ cos φ faible\n\n### 4.2 Solution\nAjouter des **condensateurs en parallèle**\n→ Compensation de la réactance inductive\n→ Amélioration de cos φ\n\n### 4.3 Avantages\n- Réduction du courant\n- Diminution des pertes Joule\n- Économies sur la facture\n- Libération de capacité du réseau\n\n## V. Exemple numérique complet\n**Installation** :\n- U = 220 V\n- I = 5 A\n- φ = 60°\n\n**Puissance apparente** :\nS = UI = 220 × 5 = **1100 VA**\n\n**Puissance active** :\nP = UI cos 60° = 1100 × 0,5 = **550 W**\n\n**Puissance réactive** :\nQ = UI sin 60° = 1100 × 0,866 ≈ **953 VAR**\n\n**Vérification** :\nS² = 550² + 953² = 302500 + 908209 = 1210709\nS = √1210709 ≈ 1100 VA ✓\n\n**Facteur de puissance** :\ncos φ = P/S = 550/1100 = **0,5** (faible !)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Puissance active : P = UI cos φ (W)",
+    "Puissance réactive : Q = UI sin φ (VAR)",
+    "Puissance apparente : S = UI (VA)",
+    "Relation : S² = P² + Q²",
+    "Facteur de puissance : cos φ = P/S"
+  ],
+  "exercise": {
+    "question": "Installation : U = 220 V, I = 5 A, φ = 60°. Calculer P, Q et S.",
+    "answer": "S = 220×5 = 1100 VA ; P = 1100×cos 60° = 550 W ; Q = 1100×sin 60° ≈ 953 VAR"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est l'expression de la puissance active ?",
+      "options": [
+        "P = UI",
+        "P = UI cos φ",
+        "P = UI sin φ",
+        "P = U/I"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

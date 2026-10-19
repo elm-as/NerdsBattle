@@ -1,0 +1,135 @@
+{
+  "id": "svt-sixieme-la-reproduction-chez-les-oiseaux",
+  "title": "La reproduction chez les oiseaux",
+  "summary": "Des élèves veulent produire des poulets. Ils mettent coqs et poules ensemble. Les poules pondent des œufs qui donnent des poussins après couvaison. Les élèves cherchent à identifier les caractéristiques des sexes et à expliquer la formation des poussins.",
+  "lesson": "## 🐔 La Reproduction chez les Oiseaux\n\n### 1. Distinction des Sexes et Fécondation\nLes oiseaux se reproduisent également par voie sexuée :\n* Caractères Sexuels Externes : Souvent très marqués (crête, plumage chez le coq, etc.).\n* Cellules Reproductrices : Comme les mammifères, on trouve les spermatozoïdes chez le mâle et les ovules chez la femelle.\n* Fécondation Interne : Après l'accouplement, la fusion du spermatozoïde et de l'ovule se fait à l'intérieur du corps de la femelle (avant la formation de la coquille).\n\n### 2. Le Développement de l'Œuf\nLa femelle pond l'œuf déjà fécondé :\n* Développement Externe : Le développement de l'embryon se fait à l'extérieur du corps de la mère, dans l'œuf (oviparité).\n* Conditions de Développement : L'œuf a besoin de conditions précises pour se développer :\n  * Une Température stable (environ $38^\\\\circ C$ pour la poule, assurée par la couvaison).\n  * De l'Air (l'œuf respire à travers la coquille).\n  * Un Milieu sec.\n\n### 3. De l'Œuf au Poussin : L'Oviparité\n* L'œuf fécondé se transforme en embryon sous l'effet de la chaleur.\n* L'embryon grandit en utilisant les réserves nutritives de l'œuf (vitellus ou jaune).\n* Après l'incubation (couvaison), l'embryon devient un jeune oiseau (poussin) qui éclot.\n\nCe mode de reproduction est l'oviparité.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "La Fécondation est interne, mais le Développement est externe.",
+    "Le développement nécessite une température stable ($38^\\circ C$).",
+    "L'Oviparité est le mode de reproduction caractérisé par la ponte d'œufs."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Où se fait la fécondation chez la poule ?",
+      "options": [
+        "À l'extérieur du corps",
+        "Après la ponte",
+        "\"À l'intérieur du corps de la femelle\"",
+        "Dans le nid"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Le mode de reproduction des oiseaux est l' :",
+      "options": [
+        "Viviparité",
+        "Fécondation Interne",
+        "Embryogenèse",
+        "\"Oviparité\""
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle est la température moyenne nécessaire à la couvaison d'un œuf de poule ?",
+      "options": [
+        "\"$38^\\\\circ C$\"",
+        "$25^\\circ C$",
+        "$45^\\circ C$",
+        "$15^\\circ C$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Le développement de l'embryon se déroule :",
+      "options": [
+        "\"À l'intérieur de l'œuf\"",
+        "Dans l'utérus",
+        "Dans le placenta",
+        "Dans l'estomac"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Le coq et la poule sont distingués par leurs :",
+      "options": [
+        "Séquences d'ADN",
+        "Besoins alimentaires",
+        "\"Caractères sexuels externes\"",
+        "Âge"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Où se déroule la fécondation chez les oiseaux ?",
+      "options": [
+        "Dans l'œuf pondu",
+        "Dans l'oviducte de la femelle",
+        "Dans le nid",
+        "Dans le testicule du mâle"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Combien de temps dure le développement de l'œuf de poule ?",
+      "options": [
+        "7 jours",
+        "14 jours",
+        "21 jours",
+        "30 jours"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel terme désigne le mode de reproduction des oiseaux ?",
+      "options": [
+        "Viviparité",
+        "Oviparité",
+        "Germination",
+        "Bourgeonnement"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quelle est la différence principale entre mammifères et oiseaux ?",
+      "options": [
+        "Le type de fécondation",
+        "Le lieu de développement",
+        "La présence de cellules sexuelles",
+        "L'accouplement"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

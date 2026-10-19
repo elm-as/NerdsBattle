@@ -1,0 +1,58 @@
+{
+  "id": "maths-sixieme-nombres-entiers-naturels",
+  "title": "Nombres entiers naturels",
+  "summary": "Un élève du Collège Moderne d'ETROKRO est malade. Le médecin lui prescrit un médicament à prendre 3 fois par jour, 2 cuillerées à café par prise, pendant 10 jours. Une cuillerée mesure 3 cm³. Le flacon contient 120 cm³. Le traitement sera-t-il suffisant ?",
+  "lesson": "## L'ensemble ℕ des nombres entiers naturels\n\n### Définition\nLes nombres entiers naturels sont : 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11...\n**Notation :** ℕ = {0, 1, 2, 3, 4, ...}\n\n### Multiples et diviseurs\n\n**Multiple :** Un nombre est multiple d'un autre si on peut l'obtenir en multipliant ce nombre.\n- Multiples de 3 : 0, 3, 6, 9, 12, 15, 18, 21...\n- Multiples de 5 : 0, 5, 10, 15, 20, 25, 30...\n\n**Diviseur :** Un nombre est diviseur d'un autre s'il le divise exactement (reste = 0).\n- Diviseurs de 24 : 1, 2, 3, 4, 6, 8, 12, 24\n- Diviseurs de 36 : 1, 2, 3, 4, 6, 9, 12, 18, 36\n\n### Critères de divisibilité\n\nUn nombre est divisible :\n- **Par 2** : s'il se termine par 0, 2, 4, 6 ou 8\n- **Par 3** : si la somme de ses chiffres est divisible par 3\n- **Par 5** : s'il se termine par 0 ou 5\n- **Par 9** : si la somme de ses chiffres est divisible par 9\n- **Par 10** : s'il se termine par 0\n- **Par 100** : s'il se termine par 00\n- **Par 1000** : s'il se termine par 000\n\n**Exemples :**\n- 126 est divisible par 2 (termine par 6), par 3 (1+2+6=9), par 9 (1+2+6=9)\n- 250 est divisible par 2 (termine par 0), par 5 (termine par 0), par 10 (termine par 0)\n\n### Nombres premiers\n\nUn nombre premier n'a que deux diviseurs : 1 et lui-même.\n**Exemples :** 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31...\n\n**Attention :** 1 n'est pas un nombre premier (il n'a qu'un seul diviseur).",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "ℕ = ensemble des nombres entiers naturels",
+    "Diviseur : divise exactement le nombre",
+    "Critères de divisibilité : 2, 3, 5, 9, 10, 100, 1000",
+    "Nombre premier : seulement 2 diviseurs (1 et lui-même)"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel nombre est un diviseur de 30 ?",
+      "options": [
+        "4",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel nombre est premier ?",
+      "options": [
+        "15",
+        "21",
+        "23",
+        "27"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "156 est divisible par :",
+      "options": [
+        "3 seulement",
+        "2 seulement",
+        "2 et 3",
+        "5"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

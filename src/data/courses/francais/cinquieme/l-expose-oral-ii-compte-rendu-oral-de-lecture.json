@@ -1,0 +1,45 @@
+{
+  "id": "francais-cinquieme-l-expose-oral-ii-compte-rendu-oral-de-lecture",
+  "title": "L'exposé oral II - Compte rendu oral de lecture",
+  "summary": "Les élèves présentent un compte rendu oral de lecture d'un document sur le VIH-SIDA.",
+  "lesson": "## Le compte rendu oral de lecture\n\n### Structure\n1. Présentation du document (type, titre, auteur, source)\n2. Résumé du contenu (idées principales)\n3. Appréciation personnelle (optionnelle)\n\n### Vocabulaire utile\n- Le document que j'ai lu...\n- L'auteur explique que...\n- Ce texte traite de...\n- J'ai trouvé ce texte intéressant parce que...",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Présenter le document clairement",
+    "Résumer avec ses propres mots",
+    "Rester fidèle au contenu",
+    "Structurer la présentation"
+  ],
+  "exercise": {
+    "answer": "Bonjour. Le document que j'ai lu est un article intitulé 'Les bienfaits du sport' publié dans le magazine Santé Plus en mars 2024.",
+    "question": "Rédige l'introduction d'un compte rendu oral sur un article sur le sport."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans un compte rendu oral, on présente d'abord :",
+      "options": [
+        "Son opinion",
+        "Le document",
+        "La conclusion",
+        "Des exemples"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Un compte rendu doit être :",
+      "options": [
+        "Inventé",
+        "Fidèle au document",
+        "Très long",
+        "En langage familier"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "francais-sixieme-le-cod-et-le-coi",
+  "title": "Le COD et le COI",
+  "summary": "Dans la phrase 'Je donne un livre à mon ami', qui reçoit quoi ?",
+  "lesson": "## Le Complément d'Objet Direct (COD)\n\n### Qu'est-ce qu'un COD ?\n\nLe COD **complète directement le verbe** sans préposition.\n\n**Question :** Qui ? Quoi ? (après le verbe)\n\n**Exemples :**\n- \"Je mange **une mangue**.\" → Je mange **quoi ?** → une mangue (COD)\n- \"Elle voit **son ami**.\" → Elle voit **qui ?** → son ami (COD)\n- \"Nous aimons **le football**.\" → Nous aimons **quoi ?** → le football (COD)\n\n### Comment reconnaître le COD ?\n\n**1. Poser la question \"qui ?\" ou \"quoi ?\"**\n\"Le chat mange le poisson.\" → mange **quoi ?** → le poisson (COD)\n\n**2. Le COD peut devenir sujet au passif**\n\"Le professeur corrige les devoirs.\"\n→ \"Les devoirs sont corrigés par le professeur.\"\n\n**3. Pas de préposition**\nJe vois **Marie**. (pas \"à Marie\")\n\n### Nature du COD\n\nLe COD peut être :\n- Un **nom** : Je lis **un livre**.\n- Un **pronom** : Je **le** lis.\n- Un **groupe nominal** : J'aime **les belles histoires**.\n\n## Le Complément d'Objet Indirect (COI)\n\n### Qu'est-ce qu'un COI ?\n\nLe COI **complète le verbe avec une préposition** (à, de).\n\n**Question :** À qui ? À quoi ? De qui ? De quoi ?\n\n**Exemples :**\n- \"Je parle **à mon père**.\" → Je parle **à qui ?** → à mon père (COI)\n- \"Elle téléphone **à sa sœur**.\" → Elle téléphone **à qui ?** → à sa sœur (COI)\n- \"Tu te souviens **de cette histoire** ?\" → Tu te souviens **de quoi ?** → de cette histoire (COI)\n\n### Comment reconnaître le COI ?\n\n**1. Poser la question avec une préposition**\n\"Il obéit **à ses parents**.\" → obéit **à qui ?** → à ses parents (COI)\n\n**2. Il y a toujours une préposition (à, de)**\nJe pense **à toi**. (COI)\nJe parle **de ce film**. (COI)\n\n**3. Il ne peut pas devenir sujet au passif**\n\n## Différence entre COD et COI\n\n### COD : PAS de préposition\n\n- Je vois **Marie**. (COD)\n- Tu manges **du riz**. (COD)\n- Nous aimons **la musique**. (COD)\n\n### COI : AVEC préposition (à, de)\n\n- Je parle **à Marie**. (COI)\n- Tu penses **à tes parents**. (COI)\n- Nous parlons **de ce problème**. (COI)\n\n## Verbes suivis d'un COD\n\n- aimer, voir, entendre, manger, boire, lire, écrire, prendre, faire, regarder...\n\n**Exemples :**\n- J'aime **les mangues**.\n- Tu lis **un livre**.\n- Elle écrit **une lettre**.\n\n## Verbes suivis d'un COI\n\n- parler à, téléphoner à, obéir à, ressembler à, penser à, répondre à, écrire à...\n- parler de, se souvenir de, rêver de, avoir besoin de...\n\n**Exemples :**\n- Je parle **à mon ami**.\n- Tu téléphones **à ta mère**.\n- Elle pense **à ses vacances**.\n- Nous parlons **de nos projets**.\n\n## Exemples dans des phrases\n\n### Phrases avec COD\n\n\"Au marché, ma mère achète **des légumes** (COD). Elle choisit **les plus frais** (COD). Nous aimons **les tomates** (COD) et **les aubergines** (COD).\"\n\n### Phrases avec COI\n\n\"Je téléphone **à ma grand-mère** (COI). Je lui parle **de l'école** (COI). Elle pense **à moi** (COI) souvent. Je réponds **à ses questions** (COI).\"\n\n### Phrases avec COD et COI\n\n\"Je donne **un cadeau** (COD) **à ma sœur** (COI).\"\n\"Le professeur explique **la leçon** (COD) **aux élèves** (COI).\"\n\"Tu prêtes **ton livre** (COD) **à ton ami** (COI).\"",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "COD : complément direct, pas de préposition (Qui ? Quoi ?)",
+    "COI : complément indirect, avec préposition à ou de (À qui ? De quoi ?)",
+    "COD peut devenir sujet au passif, pas le COI"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Le COD répond à la question :",
+      "options": [
+        "Où ?",
+        "Quand ?",
+        "Qui ? Quoi ?",
+        "Comment ?"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Le COI a toujours :",
+      "options": [
+        "Un adjectif",
+        "Une préposition",
+        "Un adverbe",
+        "Un déterminant"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Dans 'Je parle à Marie', 'à Marie' est :",
+      "options": [
+        "COD",
+        "COI",
+        "Sujet",
+        "CC"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

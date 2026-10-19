@@ -1,0 +1,150 @@
+{
+  "id": "svt-premiere-la-transmission-d-un-caractere-hereditaire",
+  "title": "La transmission d'un caractère héréditaire",
+  "summary": "Des élèves du Lycée moderne de SEGUELA visitent une ferme agropastorale où ils observent des lapereaux et des poussins. Ils constatent que ces jeunes animaux ressemblent à leurs parents par la couleur du pelage ou des plumes. Intrigués par cette ressemblance, ils décident d'étudier comment les caractères se transmettent de génération en génération. Cette question est particulièrement importante en Côte d'Ivoire pour l'amélioration des races animales et végétales en agriculture, mais aussi pour comprendre la",
+  "lesson": "## 1. Introduction\n\nL'hérédité est la transmission des caractères biologiques des parents à leur descendance. Gregor Mendel, un moine autrichien du 19ème siècle, a établi les lois fondamentales de cette transmission en travaillant sur les pois. Ces lois, vérifiées chez tous les organismes à reproduction sexuée, expliquent comment les gènes se transmettent et s'expriment. En Côte d'Ivoire, comprendre l'hérédité est crucial pour l'agriculture, l'élevage, et la compréhension des maladies génétiques fréquentes dans la population.\n\n## 2. Notions fondamentales\n\n**Caractère héréditaire** : Caractère biologique transmis des parents aux descendants via les gènes. Exemples : couleur des yeux, groupe sanguin, forme des graines.\n\n**Gène** : Segment d'ADN codant pour une protéine et donc pour un caractère. Localisation : sur les chromosomes.\n\n**Allèle** : Version alternative d'un même gène. Exemple : allèle pour yeux bleus vs yeux marrons.\n\n**Locus** : Position précise d'un gène sur un chromosome.\n\n**Génotype** : Constitution génétique d'un individu pour un ou plusieurs gènes. Exemple : AA, Aa, aa.\n\n**Phénotype** : Expression observable du génotype, résultant de l'interaction génotype-environnement. Exemple : yeux marrons.\n\n**Description du schéma 1: Relation gène-allèle-phénotype**\nLe schéma montre un chromosome avec un locus spécifique. À ce locus, deux allèles possibles (A et a). Combinaisons : AA (homozygote dominant), Aa (hétérozygote), aa (homozygote récessif). Pour chaque génotype, le phénotype correspondant (exemple : fleur rouge pour AA et Aa, fleur blanche pour aa). Flèches montrant la relation ADN → protéine → caractère. Légendes : 'Chromosome', 'Locus', 'Allèle A', 'Allèle a', 'Génotype', 'Phénotype'.\n\n## 3. Structures responsables du transfert\n\n**Chromosomes** : Supports physiques des gènes.\n- **Autosomes** : chromosomes non sexuels (22 paires chez l'humain)\n- **Chromosomes sexuels** : X et Y (23ème paire)\n\n**Méiose** : Division cellulaire qui réduit de moitié le nombre de chromosomes, produisant des gamètes haploïdes.\n\n**Fécondation** : Union de deux gamètes restaurant la diploïdie.\n\n**Transmission** :\n1. Chaque parent donne un allèle de chaque gène\n2. L'enfant reçoit ainsi deux allèles (un maternel, un paternel)\n3. Ces allèles déterminent son génotype, donc son phénotype\n\n**Description du schéma 2: Transmission des chromosomes et gènes**\nLe schéma montre la méiose chez les parents : réduction de 2n à n. Puis fécondation : union des gamètes pour donner un zygote 2n. Suivi d'une paire de chromosomes homologues avec un gène marqué. Transmission : un chromosome de chaque parent à l'enfant. Légendes : 'Méiose', 'Gamètes haploïdes', 'Fécondation', 'Zygote diploïde', 'Chromosome paternel', 'Chromosome maternel'.\n\n## 4. Lois de Mendel pour un caractère (monohybridisme)\n\n**Expérience de Mendel** : Croisement de pois à fleurs rouges (pur) × pois à fleurs blanches (pur).\n\n**Première loi (ou principe de ségrégation)** :\n1. Les facteurs héréditaires (allèles) se séparent lors de la formation des gamètes\n2. Chaque gamète ne reçoit qu'un seul allèle de chaque paire\n3. À la fécondation, les deux allèles se réunissent au hasard\n\n**Résultats F1** : Tous les hybrides ont des fleurs rouges → dominance de rouge sur blanc.\n\n**Croisement F1 × F1** : Donne 3/4 rouges, 1/4 blancs.\n\n**Échiquier de croisement** (Punnett) :\n\n| Gamètes | A | a |\n|---------|---|---|\n| **A** | AA | Aa |\n| **a** | Aa | aa |\n\nProportions : 1/4 AA, 1/2 Aa, 1/4 aa.\nPhénotypes : 3/4 dominants, 1/4 récessifs.\n\n## 5. Dominance complète\n\n**Définition** : Dans un hétérozygote, un allèle (dominant) masque complètement l'expression de l'autre (récessif).\n\n**Exemples** :\n- **Poils de chat** : Court (L) dominant sur long (l)\n- **Graines de pois** : Lisse (R) dominant sur ridée (r)\n- **Maladies** : Drépanocytose (allèle normal S dominant sur s drépanocytaire en phénotype)\n\n**Génotypes et phénotypes** :\n- AA : homozygote dominant → phénotype dominant\n- Aa : hétérozygote → phénotype dominant\n- aa : homozygote récessif → phénotype récessif\n\n**Description du schéma 3: Dominance complète chez le pois**\nLe schéma montre le croisement entre pois à fleurs rouges (RR) et blanches (rr). F1 : tous Rr (rouges). F1 × F1 : échiquier donnant 1 RR, 2 Rr, 1 rr. Phénotypes : 3 rouges, 1 blanc. Photos ou dessins de pois montrant les différentes générations. Légendes avec génotypes et phénotypes.\n\n## 6. Codominance\n\n**Définition** : Les deux allèles s'expriment simultanément dans l'hétérozygote, donnant un phénotype intermédiaire ou mixte.\n\n**Exemple classique** : Groupes sanguins ABO.\n- Allèles : I^A, I^B, i\n- I^A et I^B codominants entre eux\n- i récessif par rapport aux deux\n\n**Génotypes et phénotypes** :\n- I^A I^A ou I^A i : groupe A\n- I^B I^B ou I^B i : groupe B\n- I^A I^B : groupe AB (codominance)\n- ii : groupe O\n\n**Autre exemple** : Couleur des fleurs de muflier :\n- RR : rouge\n- rr : blanc\n- Rr : rose (intermédiaire)\n\n**En Côte d'Ivoire** : Distribution des groupes sanguins : O (46%), A (27%), B (22%), AB (5%). Important pour les transfusions sanguines.\n\n## 7. Applications au contexte ivoirien\n\n**Drépanocytose** :\n- **Gène** : β-globine (chromosome 11)\n- **Allèles** : S (normal), s (drépanocytaire)\n- **Génotypes/phénotypes** :\n  * SS : normal\n  * Ss : porteur sain (phénotype normal mais porteur)\n  * ss : drépanocytaire (malade)\n- **Prévalence** : 14% de ss en Côte d'Ivoire, 25% porteurs sains\n\n**Importance du dépistage** :\n- Conseil génétique avant mariage\n- Diagnostic prénatal possible\n- Prise en charge précoce des enfants malades\n\n**Agriculture** :\n- Sélection de plants de cacao résistants aux maladies\n- Amélioration des races bovines (zébu Baoulé)\n- Création de variétés de riz adaptées\n\n## 8. Croisement-test (test-cross)\n\n**But** : Déterminer le génotype d'un individu au phénotype dominant (est-il AA ou Aa ?).\n\n**Principe** : Croiser l'individu inconnu avec un homozygote récessif (aa).\n\n**Résultats** :\n- Si l'individu est AA : tous les descendants auront le phénotype dominant (Aa)\n- Si l'individu est Aa : 50% dominants (Aa), 50% récessifs (aa)\n\n**Formule** : Proportion de récessifs dans la descendance = probabilité que l'individu donne l'allèle récessif.\n\n**Application** : En élevage, pour vérifier la pureté d'une race.\n\n## 9. Exercices pratiques\n\n**Problème 1** : Un homme aux yeux marrons (génotype inconnu) épouse une femme aux yeux bleus (génotype connu : bb). Ils ont un enfant aux yeux bleus. Quel est le génotype du père ?\n\n**Solution** :\n- Yeux bleus = récessif (b), marrons = dominant (B)\n- Femme : bb (donne toujours b)\n- Enfant yeux bleus : bb (a reçu b de mère et b de père)\n- Donc père : Bb (hétérozygote, sinon l'enfant serait Bb = yeux marrons)\n\n**Problème 2** : En Côte d'Ivoire, un éleveur croise une vache sans cornes (dominant, génotype inconnu) avec un taureau à cornes (récessif, cc). Sur 10 veaux, 5 ont des cornes. Quel est le génotype de la vache ?\n\n**Solution** :\n- 5/10 = 50% avec cornes (cc)\n- Test-cross donne 50% récessifs → la vache est hétérozygote (Cc)\n\n## 10. Notions de probabilités\n\n**Règles** :\n1. **Produit** : probabilité que deux événements indépendants se produisent ensemble = produit des probabilités individuelles\n2. **Somme** : probabilité que l'un OU l'autre d'événements mutuellement exclusifs se produise = somme des probabilités\n\n**Exemple** : Couple Ss × Ss (drépanocytose)\n- Probabilité enfant ss = (1/2 chance mère donne s) × (1/2 chance père donne s) = 1/4\n- Probabilité enfant sain (SS ou Ss) = 1 - 1/4 = 3/4\n\n**Arbre de probabilités** : Outil visuel pour calculer les probabilités des différents génotypes.\n\n## 11. Facteurs modulant l'expression des gènes\n\n**Pénétrance** : Pourcentage d'individus portant un génotype qui expriment le phénotype correspondant.\n\n**Expressivité** : Degré d'expression du phénotype chez ceux qui l'expriment.\n\n**Épistasie** : Un gène masque l'expression d'un autre gène.\n\n**Pléiotropie** : Un gène affecte plusieurs caractères.\n\n**Environnement** : Nutrition, climat, maladies peuvent modifier l'expression des gènes.\n\n## 12. Méthodes d'étude\n\n**Arbres généalogiques (pedigree)** : Représentation graphique de la transmission d'un caractère sur plusieurs générations.\n\n**Symboles standards** :\n- Carré : homme\n- Cercle : femme\n- Rempli : individus atteints\n- Demi-rempli : porteurs\n- Ligne horizontale : union\n- Ligne verticale : descendance\n\n**Analyse statistique** : Test du χ² (khi-deux) pour comparer résultats observés et théoriques.\n\n## 13. Applications médicales en Côte d'Ivoire\n\n**Consultation génétique** :\n- Évaluation du risque pour les couples\n- Information sur les maladies héréditaires\n- Options de diagnostic prénatal\n\n**Diagnostic prénatal** :\n- Amniocentèse\n- Prélèvement villosités choriales\n- Dépistage néonatal (drépanocytose, phénylcétonurie)\n\n**Thérapies** :\n- Traitements symptomatiques\n- Thérapie génique (en développement)\n- Greffe de moelle pour drépanocytose\n\n## 14. Éducation à la génétique\n\n**Importance en Côte d'Ivoire** :\n- Combattre les idées fausses sur l'hérédité\n- Réduire la stigmatisation des maladies génétiques\n- Promouvoir le dépistage\n- Éduquer sur les risques de consanguinité\n\n**Messages clés** :\n- Les porteurs sains ne sont pas malades\n- Le risque peut être calculé\n- Des options existent pour les couples à risque\n- La génétique n'est pas une fatalité\n\n## 15. Perspectives d'avenir\n\n**Génomique** : Étude de l'ensemble des gènes.\n\n**Médecine personnalisée** : Traitements adaptés au profil génétique.\n\n**Édition génique (CRISPR)** : Correction des mutations.\n\n**En Côte d'Ivoire** : Développement de la recherche en génétique des populations et des maladies tropicales.\n\n## 16. Conclusion\n\nLa transmission des caractères héréditaires obéit à des lois précises découvertes par Mendel. Comprendre ces lois permet de :\n1. Prédire les caractéristiques de la descendance\n2. Améliorer les plantes et animaux domestiques\n3. Comprendre et prévenir les maladies génétiques\n4. Faire des choix éclairés en matière de santé reproductive\n\nEn Côte d'Ivoire, cette connaissance est un outil puissant pour améliorer la santé publique et le développement agricole.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Les gènes sont les unités d'hérédité portées par les chromosomes",
+    "Le phénotype résulte de l'interaction entre génotype et environnement",
+    "Les lois de Mendel décrivent la transmission des caractères mono- et di-hybrides",
+    "La dominance complète masque l'allèle récessif en hétérozygotie",
+    "La codominance permet l'expression simultanée des deux allèles"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'un allèle ?",
+      "options": [
+        "Un gène entier",
+        "Une forme alternative d'un gène",
+        "Un chromosome",
+        "Une protéine"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel est le génotype d'un individu hétérozygote ?",
+      "options": [
+        "AA",
+        "Aa",
+        "aa",
+        "AB"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Dans un croisement Aa × Aa (dominance complète), quelle proportion d'homozygotes récessifs attend-on ?",
+      "options": [
+        "0%",
+        "25%",
+        "50%",
+        "75%"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel groupe sanguin illustre la codominance ?",
+      "options": [
+        "Groupe A",
+        "Groupe B",
+        "Groupe AB",
+        "Groupe O"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle maladie héréditaire est fréquente en Côte d'Ivoire ?",
+      "options": [
+        "Drépanocytose",
+        "Mucoviscidose",
+        "Maladie de Huntington",
+        "Phénylcétonurie"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle proportion de la population ivoirienne est porteuse du gène de la drépanocytose ?",
+      "options": [
+        "5%",
+        "15%",
+        "25%",
+        "40%"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dans un croisement test, avec quel génotype croise-t-on l'individu inconnu ?",
+      "options": [
+        "Homozygote dominant",
+        "Hétérozygote",
+        "Homozygote récessif",
+        "N'importe lequel"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quelle est la première loi de Mendel ?",
+      "options": [
+        "Loi de ségrégation",
+        "Loi d'assortiment indépendant",
+        "Loi de dominance",
+        "Loi de uniformité"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Que signifie 'phénotype' ?",
+      "options": [
+        "L'ensemble des gènes",
+        "L'expression observable des gènes",
+        "Le type de chromosome",
+        "La séquence d'ADN"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Pour un gène autosomal, combien d'allèles un individu possède-t-il ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

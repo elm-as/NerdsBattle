@@ -1,0 +1,45 @@
+{
+  "id": "espagnol-quatrieme-les-repas-aliments-habitudes-alimentaires",
+  "title": "Les repas, aliments, habitudes alimentaires",
+  "summary": "¿Qué comes normalmente? (Que manges-tu normalement ?)",
+  "lesson": "## La nourriture\n\n### Les repas\n\n- el desayuno (le petit-déjeuner)\n- el almuerzo/la comida (le déjeuner)\n- la merienda (le goûter)\n- la cena (le dîner)\n\n### Les aliments\n\n**Fruits et légumes :**\n- la naranja (l'orange)\n- el plátano (la banane)\n- la manzana (la pomme)\n- el tomate (la tomate)\n- la lechuga (la salade)\n\n**Autres aliments :**\n- el arroz (le riz)\n- el pan (le pain)\n- la carne (la viande)\n- el pescado (le poisson)\n- el huevo (l'œuf)\n- el attiéké (l'attiéké)\n\n### Au restaurant\n\n- Quiero... (Je veux...)\n- Me gustaría... (J'aimerais...)\n- ¿Qué recomienda? (Que recommandez-vous ?)\n- La cuenta, por favor (L'addition, s'il vous plaît)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Desayuno = petit-déjeuner, comida = déjeuner",
+    "El arroz = le riz, el pan = le pain",
+    "Como = je mange, bebo = je bois",
+    "Tengo hambre = j'ai faim, tengo sed = j'ai soif"
+  ],
+  "exercise": {
+    "question": "Décris ce que tu manges dans une journée typique.",
+    "answer": "Por la mañana, desayuno pan con chocolate. Al mediodía, como arroz con pescado. Por la noche, ceno attiéké."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "'El desayuno' signifie :",
+      "options": [
+        "Le déjeuner",
+        "Le dîner",
+        "Le petit-déjeuner",
+        "Le goûter"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Pour dire 'J'ai faim', on dit :",
+      "options": [
+        "Soy hambre",
+        "Estoy hambre",
+        "Tengo hambre",
+        "Hay hambre"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "espagnol-troisieme-parler-du-passe-preterito-indefinido-raconter-un-evenement",
+  "title": "Parler du passé (pretérito indefinido) – raconter un événement",
+  "summary": "¿Qué hiciste ayer? (Qu'as-tu fait hier ?)",
+  "lesson": "## Le pretérito indefinido\n\n### Usage\nLe pretérito indefinido exprime une action **terminée** dans le passé à un moment précis.\n\n### Conjugaison régulière\n\n**Verbes en -AR (HABLAR) :**\n- yo hablé\n- tú hablaste\n- él/ella habló\n- nosotros hablamos\n- vosotros hablasteis\n- ellos hablaron\n\n**Verbes en -ER/-IR (COMER/VIVIR) :**\n- yo comí/viví\n- tú comiste/viviste\n- él/ella comió/vivió\n- nosotros comimos/vivimos\n- vosotros comisteis/vivisteis\n- ellos comieron/vivieron\n\n### Verbes irréguliers importants\n\n**SER/IR (même conjugaison) :**\nfui, fuiste, fue, fuimos, fuisteis, fueron\n\n**HACER :** hice, hiciste, hizo, hicimos, hicisteis, hicieron\n**ESTAR :** estuve, estuviste, estuvo, estuvimos...\n**TENER :** tuve, tuviste, tuvo, tuvimos...\n\n### Marqueurs temporels\n- ayer (hier)\n- anoche (hier soir)\n- la semana pasada (la semaine dernière)\n- el año pasado (l'année dernière)\n- hace dos días (il y a deux jours)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Action terminée dans le passé",
+    "-AR : -é, -aste, -ó...",
+    "-ER/-IR : -í, -iste, -ió...",
+    "Marqueurs : ayer, anoche, la semana pasada"
+  ],
+  "exercise": {
+    "answer": "Ayer me desperté a las 7. Desayuné pan con chocolate. Fui a la escuela en autobús. Estudié matemáticas y español. Por la tarde jugué al fútbol.",
+    "question": "Raconte ce que tu as fait hier en 5 phrases au pretérito indefinido."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Conjugue 'hablar' à la 1ère personne (yo) au pretérito indefinido :",
+      "options": [
+        "hablo",
+        "hablaba",
+        "\"hablé\"",
+        "he hablado"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel est le pretérito indefinido de 'ir' à la 3ème personne (él) ?",
+      "options": [
+        "iba",
+        "va",
+        "ha ido",
+        "\"fue\""
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

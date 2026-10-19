@@ -1,0 +1,151 @@
+{
+  "id": "maths-terminale-isometries-du-plan",
+  "title": "Isométries du plan",
+  "summary": "Dans le jeu du 'triangle acrobate' on dispose d'un plateau quadrillé de cases triangulaires superposables et d'un triangle mobile lui aussi superposable à chacun des triangles du plateau. Les cases sont numérotées. Le jeu consiste à déplacer le triangle acrobate d'une case à une autre par une symétrie orthogonale selon un côté, par une rotation autour d'un sommet ou par une translation suivant un côté. Des élèves de terminale qui jouent à ce jeu depuis un mois pendant les récréations, décident d'étudier les",
+  "lesson": "## 1. Définition d'une isométrie\n\nUne isométrie du plan est une transformation qui conserve les distances :\nPour tous points A, B et leurs images A', B', on a A'B' = AB.\n\n**Conséquences** : conservation des angles, des aires, de l'alignement, du parallélisme.\n\n## 2. Classification des isométries\n\n**Déplacements** (conservent l'orientation) :\n- Translation\n- Rotation\n\n**Antidéplacements** (inversent l'orientation) :\n- Symétrie axiale (orthogonale)\n- Symétrie glissée\n\n## 3. Points invariants\n\n| Isométrie | Points invariants |\n|-----------|-------------------|\n| Translation (non identité) | Aucun |\n| Rotation (angle non multiple de 2π) | Centre uniquement |\n| Symétrie axiale | Points de l'axe |\n| Symétrie glissée | Aucun |\n| Identité | Tous les points |\n\n## 4. Écriture complexe\n\n- Translation de vecteur d'affixe b : z' = z + b\n- Rotation de centre Ω(ω) d'angle θ : z' - ω = e^{iθ}(z - ω)\n- Symétrie axiale d'axe (Ox) : z' = \\\\bar{z}\n- Symétrie axiale d'axe (Oy) : z' = -\\\\bar{z}\n\n## 5. Décomposition en symétries axiales\n\n**Théorème fondamental** : Toute isométrie du plan est composée d'au plus trois symétries axiales.\n\n**Décompositions particulières** :\n- Translation = composée de 2 symétries d'axes parallèles\n- Rotation = composée de 2 symétries d'axes sécants\n\n**Démonstration pour la rotation** : Soit r = s₂ ∘ s₁ avec s₁ et s₂ d'axes D₁ et D₂ sécants en O.\nAngle(r) = 2×angle(D₁,D₂).\n\n## 6. Symétrie glissée\n\nUne symétrie glissée est la composée d'une symétrie axiale et d'une translation de vecteur parallèle à l'axe.\nC'est le seul antidéplacement sans point fixe.\n\n**Exemple** : À Abidjan, les empreintes de pas sur le sable forment une symétrie glissée (pas gauche, pas droit alternés).\n\n## 7. Composées d'isométries\n\n- Rotation ∘ Translation = Rotation (même angle, centre différent)\n- Translation ∘ Rotation = Rotation (même angle, centre différent)\n- Symétrie ∘ Translation = Symétrie glissée si vecteur ∥ axe\n- Symétrie ∘ Rotation = Symétrie axiale si angle=π\n\n## 8. Détermination d'une isométrie\n\nPour déterminer une isométrie, on peut :\n1. Chercher ses points invariants\n2. Examiner son effet sur une figure simple (triangle)\n3. Utiliser l'écriture complexe\n\n## 9. Applications géométriques\n\nLes isométries permettent de démontrer des propriétés :\n- Égalité de segments\n- Égalité d'angles\n- Alignement de points\n- Parallélisme\n\n**Exemple ivoirien** : À la Basilique de Yamoussoukro, les rosaces présentent des symétries de rotation.\n\n## 10. Retour au jeu du triangle acrobate\n\n```mermaid\ngraph TD\n    A[Triangle en case 1] --> B{Symétrie axiale?}\n    A --> C{Rotation?}\n    A --> D{Translation?}\n    B --> E[Case 2]\n    C --> F[Case 3]\n    D --> G[Case 4]\n    E --> H[Composées possibles]\n    F --> H\n    G --> H\n    H --> I[Toutes les cases accessibles]\n```\n\n**Analyse** : Chaque déplacement est une isométrie. En composant plusieurs isométries, on peut atteindre n'importe quelle case. Le groupe des isométries conservant le pavage est un groupe de frises.\n\n```mathgraph\n{\n  \"type\": \"function\",\n  \"title\": \"Différentes isométries appliquées à un triangle\",\n  \"xRange\": [-5, 5],\n  \"yRange\": [-5, 5],\n  \"functions\": [],\n  \"points\": [\n    { \"x\": -3, \"y\": 0, \"label\": \"A\", \"color\": \"#3b82f6\" },\n    { \"x\": -2, \"y\": 1, \"label\": \"B\", \"color\": \"#3b82f6\" },\n    { \"x\": -1, \"y\": 0, \"label\": \"C\", \"color\": \"#3b82f6\" },\n    { \"x\": 0, \"y\": 0, \"label\": \"A'\", \"color\": \"#ef4444\" },\n    { \"x\": 1, \"y\": 1, \"label\": \"B'\", \"color\": \"#ef4444\" },\n    { \"x\": 2, \"y\": 0, \"label\": \"C'\", \"color\": \"#ef4444\" },\n    { \"x\": -2, \"y\": -2, \"label\": \"A''\", \"color\": \"#10b981\" },\n    { \"x\": -1, \"y\": -1, \"label\": \"B''\", \"color\": \"#10b981\" },\n    { \"x\": 0, \"y\": -2, \"label\": \"C''\", \"color\": \"#10b981\" }\n  ],\n  \"polygons\": [\n    { \"points\": [[-3,0], [-2,1], [-1,0]], \"color\": \"#3b82f6\", \"label\": \"Triangle original\" },\n    { \"points\": [[0,0], [1,1], [2,0]], \"color\": \"#ef4444\", \"label\": \"Translation\" },\n    { \"points\": [[-2,-2], [-1,-1], [0,-2]], \"color\": \"#10b981\", \"label\": \"Symétrie\" }\n  ],\n  \"showGrid\": true,\n  \"showAxes\": true\n}\n```\n\n## 11. Groupe des isométries\n\nL'ensemble des isométries du plan muni de la composition forme un groupe :\n- Associativité\n- Élément neutre : identité\n- Tout élément a un inverse\n",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Isométrie : transformation conservant les distances",
+    "Déplacements : translation, rotation (conservent l'orientation)",
+    "Antidéplacements : symétrie axiale, symétrie glissée (inversent l'orientation)",
+    "Translation = 2 symétries d'axes parallèles",
+    "Rotation = 2 symétries d'axes sécants",
+    "Symétrie glissée = symétrie axiale ∘ translation (vecteur ∥ axe)"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Une isométrie qui conserve les distances est :",
+      "options": [
+        "Une homothétie",
+        "Une similitude",
+        "Une isométrie",
+        "Une affinité"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La composée de deux déplacements est :",
+      "options": [
+        "Un déplacement",
+        "Un antidéplacement",
+        "Une homothétie",
+        "Une translation"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Une symétrie glissée est la composée d'une symétrie axiale et :",
+      "options": [
+        "Une rotation",
+        "Une homothétie",
+        "Une translation parallèle à l'axe",
+        "Une translation perpendiculaire à l'axe"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "La composée de deux symétries axiales d'axes parallèles est :",
+      "options": [
+        "Une rotation",
+        "Une translation",
+        "Une symétrie centrale",
+        "Une homothétie"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Le nombre minimum de symétries axiales pour exprimer une rotation est :",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Une isométrie sans point invariant peut être :",
+      "options": [
+        "Une rotation d'angle ≠0",
+        "Une symétrie axiale",
+        "Une translation non nulle",
+        "L'identité"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "La composée d'une rotation et d'une translation est :",
+      "options": [
+        "Une translation",
+        "Une rotation de même angle",
+        "Une symétrie glissée",
+        "Une homothétie"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Les points invariants d'une symétrie axiale sont :",
+      "options": [
+        "Aucun",
+        "Le centre",
+        "Les points de l'axe",
+        "Tous les points"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Une isométrie qui inverse l'orientation est appelée :",
+      "options": [
+        "Déplacement",
+        "Antidéplacement",
+        "Translation",
+        "Rotation"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "La composée de trois symétries axiales est :",
+      "options": [
+        "Une symétrie axiale",
+        "Une symétrie glissée",
+        "Une rotation",
+        "Une isométrie quelconque"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "maths-terminale-geometrie-analytique-dans-l-espace",
+  "title": "Géométrie analytique dans l'espace",
+  "summary": "Des élèves de terminale du club architecture d'un lycée de Bouaké veulent aménager un espace pour l'exposition de leurs travaux. Ils savent que les plans dans une construction doivent être perpendiculaires ou bien parallèles sinon l'œuvre peut s'écrouler. Pour réussir la construction, ils décident d'étudier les positions relatives de deux plans en faisant des calculs dans un repère orthonormé de l'espace.",
+  "lesson": "## 1. Repère de l'espace\n\nUn repère orthonormé de l'espace est (O, \\\\vec{i}, \\\\vec{j}, \\\\vec{k}) avec \\\\vec{i}, \\\\vec{j}, \\\\vec{k} unitaires et orthogonaux deux à deux.\n\n**Coordonnées** : M(x,y,z) tel que \\\\overrightarrow{OM} = x\\\\vec{i}+y\\\\vec{j}+z\\\\vec{k}\n\n## 2. Vecteur normal à un plan\n\nUn vecteur \\\\vec{n} est normal à un plan P si pour toute droite D de P, \\\\vec{n} est orthogonal à tout vecteur directeur de D.\n\n**Caractérisation** : Un plan est défini par un point A et un vecteur normal \\\\vec{n}.\nM ∈ P ⇔ \\\\overrightarrow{AM}·\\\\vec{n} = 0\n\n## 3. Équation cartésienne d'un plan\n\nSi \\\\vec{n}(a,b,c) est normal à P et A(x₀,y₀,z₀) ∈ P, alors :\n$$a(x-x₀) + b(y-y₀) + c(z-z₀) = 0$$\nSoit : $$ax + by + cz + d = 0$$ avec d = -ax₀-by₀-cz₀\n\n**Exemple** : Le plan passant par A(1,2,3) de vecteur normal \\\\vec{n}(2,-1,4) a pour équation :\n2(x-1) - 1(y-2) + 4(z-3) = 0 ⇒ 2x - y + 4z - 12 = 0\n\n## 4. Représentation paramétrique d'une droite\n\nUne droite D passant par A(x₀,y₀,z₀) de vecteur directeur \\\\vec{u}(α,β,γ) a pour représentation paramétrique :\n$$\\\\begin{cases} x = x₀ + tα \\\\\\\\ y = y₀ + tβ \\\\\\\\ z = z₀ + tγ \\\\end{cases} \\\\quad t ∈ ℝ$$\n\n## 5. Positions relatives de deux plans\n\nSoient P: ax+by+cz+d=0 et P': a'x+b'y+c'z+d'=0.\n\n```mermaid\ngraph TD\n    A[Deux plans] --> B{a,b,c proportionnels à a',b',c'?}\n    B -->|Oui| C{rapport des constantes?}\n    B -->|Non| D[Plans sécants]\n    C -->|même| E[Plans confondus]\n    C -->|différent| F[Plans strictement parallèles]\n```\n\n## 6. Position relative droite-plan\n\nSoit D passant par A de vecteur \\\\vec{u}, et P d'équation ax+by+cz+d=0 de vecteur normal \\\\vec{n}.\n- D ⊂ P si A ∈ P et \\\\vec{u}·\\\\vec{n}=0\n- D ∥ P si A ∉ P et \\\\vec{u}·\\\\vec{n}=0\n- D sécante à P si \\\\vec{u}·\\\\vec{n}≠0\n\n**Point d'intersection** : Résoudre le système formé par les équations de D et de P.\n\n## 7. Position relative de deux droites\n\nSoient D(A,\\\\vec{u}) et D'(A',\\\\vec{u}').\n- Si \\\\vec{u} et \\\\vec{u}' colinéaires :\n  - Si A ∈ D' : droites confondues\n  - Si A ∉ D' : droites parallèles\n- Si \\\\vec{u} et \\\\vec{u}' non colinéaires :\n  - Si (\\\\vec{u},\\\\vec{u}',\\\\overrightarrow{AA'}) coplanaires : droites sécantes\n  - Sinon : droites non coplanaires\n\n## 8. Distance point-plan\n\nLa distance de M₀(x₀,y₀,z₀) au plan P: ax+by+cz+d=0 est :\n$$d(M₀,P) = \\\\frac{|ax₀+by₀+cz₀+d|}{\\\\sqrt{a²+b²+c²}}$$\n\n**Application** : À l'usine de cacao d'Abidjan, calculer la distance entre un point de contrôle et le plan du convoyeur.\n\n## 9. Perpendicularité et parallélisme\n\n**Plans perpendiculaires** : \\\\vec{n}·\\\\vec{n}'=0\n**Droite perpendiculaire à plan** : \\\\vec{u} colinéaire à \\\\vec{n}\n**Plans parallèles** : \\\\vec{n} et \\\\vec{n}' colinéaires\n\n## 10. Problème architectural ivoirien\n\n**Énoncé** : Dans la construction d'un pavillon à Yamoussoukro, on considère :\n- Plan du sol P: z=0\n- Plan d'un mur P': 2x+3y+z-6=0\n- Droite d'une poutre D: \\\\begin{cases}x=1+t\\\\\\\\ y=2-t\\\\\\\\ z=3+2t\\\\end{cases}\n\n1) Vérifier que P et P' sont sécants.\n2) Trouver leur droite d'intersection.\n3) Vérifier si la poutre D est perpendiculaire au mur P'.\n\n**Solution** :\n1) \\\\vec{n}(0,0,1) et \\\\vec{n}'(2,3,1) non colinéaires ⇒ plans sécants.\n2) Droite d'intersection : résoudre \\\\begin{cases}z=0\\\\\\\\ 2x+3y+z-6=0\\\\end{cases}\n⇒ 2x+3y-6=0 et z=0\n3) \\\\vec{u}_D(1,-1,2), \\\\vec{n}'(2,3,1). \\\\vec{u}_D·\\\\vec{n}'=2-3+2=1≠0 ⇒ pas perpendiculaire.\n\n```mathgraph\n{\n  \"type\": \"function\",\n  \"title\": \"Plan et droite dans l'espace (projection)\",\n  \"xRange\": [-5, 5],\n  \"yRange\": [-5, 5],\n  \"functions\": [\n    { \"expression\": \"6-2*x-3*y\", \"color\": \"#3b82f6\", \"name\": \"Plan 2x+3y+z=6\", \"type\": \"surface\", \"opacity\": 0.5 }\n  ],\n  \"points\": [\n    { \"x\": 1, \"y\": 2, \"z\": 3, \"label\": \"A\", \"color\": \"red\" }\n  ],\n  \"vectors\": [\n    { \"origin\": [1, 2, 3], \"vector\": [1, -1, 2], \"color\": \"#ef4444\", \"label\": \"u\" }\n  ],\n  \"showGrid\": true,\n  \"showAxes\": true\n}\n```",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Plan : ax+by+cz+d=0 avec (a,b,c) vecteur normal",
+    "Droite : représentation paramétrique avec point et vecteur directeur",
+    "Distance point-plan : d = |ax₀+by₀+cz₀+d|/√(a²+b²+c²)",
+    "Plans parallèles ⇔ vecteurs normaux colinéaires",
+    "Droite perpendiculaire au plan ⇔ vecteur directeur colinéaire au vecteur normal"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "L'équation 2x-3y+z+5=0 représente dans l'espace :",
+      "options": [
+        "Une droite",
+        "Un plan",
+        "Un point",
+        "Une sphère"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Un vecteur normal au plan 3x-2y+4z-1=0 est :",
+      "options": [
+        "(3,-2,4)",
+        "(-3,2,-4)",
+        "(3,2,4)",
+        "(1,1,1)"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La distance du point (1,2,3) au plan x+y+z-1=0 est :",
+      "options": [
+        "5/√3",
+        "5",
+        "5/3",
+        "√5"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Deux plans sont parallèles si :",
+      "options": [
+        "Leurs vecteurs normaux sont orthogonaux",
+        "Leurs vecteurs normaux sont colinéaires",
+        "Ils ont un point commun",
+        "Ils sont perpendiculaires"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Une droite est parallèle à un plan si :",
+      "options": [
+        "Son vecteur directeur est normal au plan",
+        "Son vecteur directeur est orthogonal au vecteur normal",
+        "Elle a un point commun avec le plan",
+        "Elle est incluse dans le plan"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Les droites D: x=1+t,y=2-t,z=3 et D': x=2s,y=1+s,z=4 sont :",
+      "options": [
+        "Parallèles",
+        "Sécantes",
+        "Non coplanaires",
+        "Confondues"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Le plan d'équation z=3 est :",
+      "options": [
+        "Parallèle à (xOy)",
+        "Parallèle à (yOz)",
+        "Parallèle à (xOz)",
+        "Perpendiculaire à (xOy)"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Pour que la droite de vecteur (a,b,c) soit perpendiculaire au plan de vecteur normal (α,β,γ), il faut :",
+      "options": [
+        "(a,b,c) colinéaire à (α,β,γ)",
+        "(a,b,c) orthogonal à (α,β,γ)",
+        "aα+bβ+cγ=0",
+        "a=α, b=β, c=γ"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "L'intersection de deux plans non parallèles est :",
+      "options": [
+        "Un point",
+        "Une droite",
+        "Un plan",
+        "Vide"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "La représentation paramétrique d'une droite nécessite :",
+      "options": [
+        "Un point et un vecteur normal",
+        "Deux points",
+        "Un point et un vecteur directeur",
+        "Trois points"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "physique-premiere-l-energie",
+  "title": "L'énergie",
+  "summary": "D'où vient l'énergie qui fait fonctionner nos appareils ?",
+  "lesson": "## L'énergie\n\n### Définition\n\n**Énergie :** Capacité à effectuer un travail ou à produire un changement.\n\n**Unité :** Joule (J)\n\n### Formes d'énergie\n\n**1. Énergie mécanique**\n- Énergie cinétique (mouvement)\n- Énergie potentielle (position)\n\n**2. Énergie thermique**\n- Chaleur\n- Température\n\n**3. Énergie électrique**\n- Courant électrique\n- Appareils électriques\n\n**4. Énergie chimique**\n- Liaisons chimiques\n- Aliments, piles\n\n**5. Énergie lumineuse**\n- Lumière\n- Rayonnement\n\n**6. Énergie nucléaire**\n- Noyau atomique\n- Centrales nucléaires\n\n### Transformations d'énergie\n\n**Exemples :**\n\n**Centrale électrique :**\n```\nÉnergie chimique → Thermique → Mécanique → Électrique\n```\n\n**Lampe électrique :**\n```\nÉnergie électrique → Lumineuse + Thermique\n```\n\n**Photosynthèse :**\n```\nÉnergie lumineuse → Chimique\n```\n\n**Voiture :**\n```\nÉnergie chimique → Thermique → Mécanique\n```\n\n### Conservation de l'énergie\n\n**Loi de conservation :**\n> L'énergie ne se crée ni ne se détruit, elle se transforme.\n\n```\nÉnergie totale avant = Énergie totale après\n```\n\n**Mais :** Il y a toujours des pertes (généralement en chaleur)\n\n### Rendement\n\n**Définition :** Rapport entre l'énergie utile et l'énergie totale.\n\n**Formule :**\n```\nη = (Énergie utile / Énergie totale) × 100\n```\n\n**Exemple :**\nUne lampe consomme 100 J et produit 20 J de lumière :\n```\nη = (20 / 100) × 100 = 20%\n```\n\n80% de l'énergie est perdue en chaleur.\n\n### Sources d'énergie\n\n**Renouvelables :**\n- Solaire\n- Éolienne\n- Hydraulique\n- Géothermique\n- Biomasse\n\n**Non renouvelables :**\n- Pétrole\n- Gaz naturel\n- Charbon\n- Uranium\n\n### Économies d'énergie\n\n**Pourquoi ?**\n- Préserver les ressources\n- Réduire la pollution\n- Économiser de l'argent\n\n**Comment ?**\n- Éteindre les appareils inutilisés\n- Utiliser des appareils économes\n- Isoler les bâtiments\n- Utiliser les énergies renouvelables",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Énergie = capacité à effectuer un travail",
+    "Plusieurs formes d'énergie",
+    "L'énergie se transforme",
+    "Conservation de l'énergie",
+    "Rendement < 100%"
+  ],
+  "exercise": {
+    "question": "Un moteur électrique consomme 500 J d'énergie électrique et fournit 400 J d'énergie mécanique. Calculer son rendement.",
+    "answer": "\n**Solution :**\n\n**Données :**\n- Énergie totale = 500 J\n- Énergie utile = 400 J\n\n**Formule :**\n```\nη = (Énergie utile / Énergie totale) × 100\n```\n\n**Calcul :**\n```\nη = (400 / 500) × 100\nη = 0,8 × 100\nη = 80%\n```\n\n**Interprétation :**\n80% de l'énergie est transformée en énergie mécanique utile.\n20% est perdue (principalement en chaleur).\n\n**Réponse : Le rendement est de 80%**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "L'unité d'énergie est :",
+      "options": [
+        "Le Watt",
+        "Le Newton",
+        "Le Joule",
+        "Le Volt"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Dans une centrale hydraulique, on transforme :",
+      "options": [
+        "Énergie électrique en mécanique",
+        "Énergie mécanique en électrique",
+        "Énergie chimique en électrique",
+        "Énergie thermique en mécanique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Le rendement d'une machine est :",
+      "options": [
+        "Toujours égal à 100%",
+        "Toujours supérieur à 100%",
+        "Toujours inférieur à 100%",
+        "Variable selon les cas"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

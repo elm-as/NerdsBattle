@@ -1,0 +1,279 @@
+{
+  "id": "physique-premiere-classification-qualitative-des-couples-oxydant-reducteur",
+  "title": "Classification qualitative des couples oxydant/réducteur",
+  "summary": "Lors d'une fête de l'excellence au Lycée Nimbo de Bouaké, des élèves constatent que des camarades ayant bu de la citronnade conservée dans un seau en zinc sont intoxiqués, alors que ceux ayant bu la même boisson conservée dans un seau en cuivre ne le sont pas. Ils soupçonnent une réaction chimique avec le zinc et cherchent à comprendre en classant les couples métalliques.",
+  "lesson": "## 1. Introduction\n\nLa **classification électrochimique** des couples oxydant/réducteur permet de prévoir le sens des réactions redox. Elle est essentielle pour comprendre la corrosion différentielle (coques de bateaux à San-Pédro), le choix des métaux pour les ustensiles de cuisine (Yamoussoukro), ou la toxicité de certains récipients (zinc, plomb).\n\n## 2. Expériences de déplacement\n\n**Principe** : Un métal M peut réduire l'ion d'un autre métal M'ⁿ⁺ si M est un meilleur réducteur que M'.\n\n**Expérience 1 : Fer dans une solution de sulfate de cuivre(II)**\n$$Fe_{(s)} + Cu^{2+}_{(aq)} \\\\rightarrow Fe^{2+}_{(aq)} + Cu_{(s)}$$\nObservé : dépôt de Cu, coloration verte (Fe²⁺).\n\n**Expérience 2 : Cuivre dans une solution de sulfate de fer(II)**\nEssai : $Cu_{(s)} + Fe^{2+}_{(aq)} \\\\rightarrow$ aucune réaction visible.\nConclusion : La réaction inverse ne se produit pas spontanément.\n\n## 3. Classification qualitative à partir des observations\n\nOn teste différents métaux avec des solutions salines :\n\n| Métal | Solution | Observation | Conclusion |\n|-------|----------|-------------|------------|\n| Zn | CuSO₄ | Dépôt rouge | Zn réduit Cu²⁺ |\n| Cu | ZnSO₄ | Rien | Cu ne réduit pas Zn²⁺ |\n| Fe | AgNO₃ | Dépôt gris | Fe réduit Ag⁺ |\n| Ag | FeSO₄ | Rien | Ag ne réduit pas Fe²⁺ |\n\n## 4. Ordre de réactivité (série électrochimique qualitative)\n\nDu meilleur réducteur au plus faible :\n$$Zn > Fe > Cu > Ag$$\n\nCe qui signifie :\n- Zn peut réduire Fe²⁺, Cu²⁺, Ag⁺\n- Fe peut réduire Cu²⁺, Ag⁺ mais pas Zn²⁺\n- Cu peut réduire Ag⁺ mais pas Zn²⁺ ni Fe²⁺\n- Ag ne réduit aucun des autres ions\n\n**Description du schéma 1:** Diagramme de la série électrochimique qualitative. Représenter les métals Zn, Fe, Cu, Ag alignés avec des flèches montrant quels ions ils peuvent réduire (ex : une flèche de Zn vers Fe²⁺, Cu²⁺, Ag⁺).\n\n## 5. Écriture des équations possibles\n\nD'après la classification :\n\n**Réactions spontanées** :\n1. $Zn + Cu^{2+} \\\\rightarrow Zn^{2+} + Cu$\n2. $Zn + Fe^{2+} \\\\rightarrow Zn^{2+} + Fe$ (en théorie, mais lente)\n3. $Zn + 2Ag^+ \\\\rightarrow Zn^{2+} + 2Ag$\n4. $Fe + Cu^{2+} \\\\rightarrow Fe^{2+} + Cu$\n5. $Fe + 2Ag^+ \\\\rightarrow Fe^{2+} + 2Ag$\n6. $Cu + 2Ag^+ \\\\rightarrow Cu^{2+} + 2Ag$\n\n**Réactions non spontanées** :\n- $Cu + Fe^{2+} \\\\rightarrow$ pas de réaction\n- $Ag + Cu^{2+} \\\\rightarrow$ pas de réaction\n- etc.\n\n## 6. Action des acides sur les métaux\n\n**Acide chlorhydrique dilué** ($H^+$ ou $H_3O^+$) réagit avec certains métaux en dégageant du dihydrogène $H₂$ :\n$$M + 2H^+ \\\\rightarrow M^{2+} + H_2$$\n\n**Observations** :\n- Zn : réaction vive, dégagement de $H_2$\n- Fe : réaction modérée\n- Cu : pas de réaction (le cuivre ne réduit pas $H^+$)\n- Ag : pas de réaction\n\n**Conclusion** : Le couple $H^+/H_2$ se place entre Fe et Cu dans la série.\n\nSérie complétée : $Zn > Fe > H_2 > Cu > Ag$\n\n**Description du schéma 2:** Montage expérimental de l'action d'un acide sur un métal. Représenter un bécher avec HCl dilué, un morceau de zinc, un tube à essai retourné pour recueillir le H₂ dégagé. Flèche de dégagement gazeux.\n\n## 7. Application à l'intoxication par le zinc\n\n**Explication** : Le jus de citron (acide citrique, pH ≈ 2-3) contient des $H^+$. Dans un récipient en zinc, la réaction se produit :\n$$Zn_{(s)} + 2H^+_{(aq)} \\\\rightarrow Zn^{2+}_{(aq)} + H_{2(g)}$$\n\nLes ions $Zn^{2+}$ sont toxiques (vomissements, diarrhée). Dans un récipient en cuivre, aucune réaction (Cu ne réduit pas $H^+$), donc pas d'ions cuivre en quantité significative (et $Cu^{2+}$ est moins toxique à faible dose).\n\n## 8. Règles de prévision\n\n**Règle du gamma (Γ)** : Une réaction redox est spontanée si l'oxydant d'un couple est au-dessus du réducteur d'un autre couple dans la série.\n\n**Exemple** : Oxydant $Cu^{2+}$ (couple Cu²⁺/Cu) est au-dessus du réducteur $Fe$ (couple Fe²⁺/Fe) → réaction $Fe + Cu^{2+} \\\\rightarrow$ possible.\n\n## 9. Applications pratiques en Côte d'Ivoire\n\n1. **Protection cathodique** : Sacrifice d'un métal plus réactif (Zn, Mg) pour protéger les structures en fer (coques de bateaux, pipelines).\n\n2. **Choix des matériaux** : Pour les conduites d'eau, éviter les couples galvaniques (ex : raccords cuivre + acier → corrosion).\n\n3. **Récipients alimentaires** : Éviter le zinc pour les aliments acides (tomates, agrumes, vinaigre).\n\n4. **Récupération de métaux** : Lixiviation acide ou cyanuration pour l'or (industrie minière).\n\n## 10. Limites de la classification qualitative\n\nElle ne donne pas l'**intensité** de la réactivité, ni les **potentiels** précis. La classification quantitative (potentiels standard) sera vue dans la leçon suivante.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "On peut classer les couples métalliques par ordre de réactivité décroissante : Zn > Fe > H₂ > Cu > Ag",
+    "Un métal peut réduire l'ion d'un métal situé après lui dans la série",
+    "Les acides (H⁺) réagissent avec les métaux situés avant H₂ dans la série en dégageant H₂",
+    "Cette classification permet de prévoir le sens des réactions redox spontanées"
+  ],
+  "exercise": {
+    "answer": "**1. Réactions possibles (selon la série Zn > Fe > H₂ > Cu > Ag) :**\n\na) **Cu + Ag⁺ →** : Possible (Cu est avant Ag) : $Cu + 2Ag^+ \\\\rightarrow Cu^{2+} + 2Ag$\n\nb) **Fe + Zn²⁺ →** : Non (Fe est après Zn, Zn²⁺ ne peut être réduit par Fe)\n\nc) **Zn + Fe²⁺ →** : Possible (Zn est avant Fe) : $Zn + Fe^{2+} \\\\rightarrow Zn^{2+} + Fe$\n\nd) **Ag + Cu²⁺ →** : Non (Ag est après Cu, ne réduit pas Cu²⁺)\n\n**2. Fer dans une solution contenant Zn²⁺ et Ag⁺ :**\n- Le fer (Fe) peut-il réduire Zn²⁺ ? Non, car Fe est après Zn dans la série.\n- Le fer peut-il réduire Ag⁺ ? Oui, car Fe est avant Ag.\n**Observation** : Un dépôt gris d'argent Ag se formera sur la lame de fer. Aucun dépôt de zinc (Zn²⁺ reste en solution). Réaction : $Fe + 2Ag^+ \\\\rightarrow Fe^{2+} + 2Ag$.\n\n**3. Fer + acide chlorhydrique :**\nLe fer est avant H₂ dans la série, donc réaction avec H⁺ :\n$$Fe_{(s)} + 2H^+_{(aq)} \\\\rightarrow Fe^{2+}_{(aq)} + H_{2(g)}$$\nOu avec HCl : $Fe + 2HCl \\\\rightarrow FeCl_2 + H_2$\n\n**Réponse :** a) et c) possibles ; dépôt d'argent uniquement ; Fe + 2H⁺ → Fe²⁺ + H₂.",
+    "question": "On dispose des métaux suivants : zinc, fer, cuivre, argent et des solutions de leurs sels (nitrates). 1) Parmi les réactions suivantes, lesquelles sont possibles spontanément ? a) Cu + Ag⁺ → b) Fe + Zn²⁺ → c) Zn + Fe²⁺ → d) Ag + Cu²⁺ → 2) On plonge une lame de fer dans un bécher contenant à la fois des ions Zn²⁺ et Ag⁺. Quel(s) dépôt(s) métallique(s) observera-t-on ? Justifiez. 3) Écrivez l'équation bilan de la réaction entre le fer et l'acide chlorhydrique."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Le meilleur réducteur parmi ces métaux est :",
+      "options": [
+        "Argent",
+        "Cuivre",
+        "Fer",
+        "Zinc"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La réaction Cu + Fe²⁺ → est-elle spontanée ?",
+      "options": [
+        "Oui",
+        "Non",
+        "Seulement à chaud",
+        "Seulement en présence d'acide"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Un métal qui réagit avec un acide en dégageant H₂ est situé :",
+      "options": [
+        "Après H₂ dans la série",
+        "Avant H₂ dans la série",
+        "N'importe où",
+        "Au même niveau que H₂"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Le zinc peut réduire :",
+      "options": [
+        "Seulement Ag⁺",
+        "Ag⁺ et Cu²⁺",
+        "Ag⁺, Cu²⁺ et Fe²⁺",
+        "Aucun ion métallique"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "L'argent ne réduit pas Cu²⁺ car :",
+      "options": [
+        "Ag est un meilleur réducteur que Cu",
+        "Ag est un moins bon réducteur que Cu",
+        "Ag est trop cher",
+        "La réaction est trop lente"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Dans la série Zn > Fe > H₂ > Cu > Ag, le meilleur oxydant est :",
+      "options": [
+        "Zn²⁺",
+        "Fe²⁺",
+        "Ag⁺",
+        "H⁺"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "La réaction Zn + 2H⁺ → Zn²⁺ + H₂ est :",
+      "options": [
+        "Spontanée",
+        "Impossible",
+        "Possible seulement avec catalyseur",
+        "Réversible"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Pour protéger une coque en fer de la corrosion, on peut y fixer :",
+      "options": [
+        "Une plaque d'argent",
+        "Une plaque de zinc",
+        "Une plaque de cuivre",
+        "Du plastique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "La classification qualitative permet de :",
+      "options": [
+        "Mesurer des potentiels",
+        "Prévoir le sens des réactions",
+        "Calculer des énergies",
+        "Déterminer des concentrations"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Le jus de citron conservé dans un seau en zinc peut devenir toxique car :",
+      "options": [
+        "Le zinc réduit les acides en H₂ et libère Zn²⁺ toxique",
+        "Le zinc s'évapore",
+        "Le citron attaque le plastique",
+        "Il n'y a pas de risque"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Selon le classement qualitatif, quel est le meilleur réducteur parmi ces métaux ?",
+      "options": [
+        "Argent (Ag)",
+        "Cuivre (Cu)",
+        "Zinc (Zn)",
+        "Fer (Fe)"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "La réaction Cu + Zn²⁺ → Cu²⁺ + Zn est-elle spontanée ?",
+      "options": [
+        "Oui, toujours",
+        "Non, jamais",
+        "Seulement à chaud",
+        "Seulement en présence d'un catalyseur"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quel métal ne réagit pas avec l'acide chlorhydrique dilué ?",
+      "options": [
+        "Zinc",
+        "Fer",
+        "Cuivre",
+        "Magnésium"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Où se place le couple H₃O⁺/H₂ dans le classement par rapport au fer ?",
+      "options": [
+        "Au-dessus de Fe²⁺/Fe (H₃O⁺ plus oxydant)",
+        "Au même niveau",
+        "En dessous de Fe²⁺/Fe (H₃O⁺ moins oxydant)",
+        "On ne peut pas le déterminer"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Pour protéger une canalisation en fer de la corrosion, on peut la relier à une barre de :",
+      "options": [
+        "Cuivre",
+        "Argent",
+        "Zinc",
+        "Plomb"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Une lame de fer plongée dans une solution de sulfate de cuivre II va :",
+      "options": [
+        "Se recouvrir de cuivre",
+        "Se dissoudre sans dépôt",
+        "Restaer inchangée",
+        "Dégager du dihydrogène"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Le classement qualitatif permet de prévoir :",
+      "options": [
+        "La vitesse d'une réaction",
+        "La couleur des produits",
+        "La possibilité d'une réaction redox",
+        "Le pH d'une solution"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Pourquoi le zinc est-il toxique lorsqu'il est ingéré sous forme ionique ?",
+      "options": [
+        "Il est radioactif",
+        "Il bloque des enzymes essentiels",
+        "Il est inerte",
+        "Il se transforme en gaz"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Quel ion est le plus oxydant d'après le classement ?",
+      "options": [
+        "Zn²⁺",
+        "Fe²⁺",
+        "Cu²⁺",
+        "Ag⁺"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Dans l'histoire de la citronnade, pourquoi le seau en cuivre ne posait-il pas de problème ?",
+      "options": [
+        "Le cuivre tue les bactéries",
+        "Le cuivre ne réagit pas avec l'acide",
+        "Le cuivre absorbe les toxines",
+        "Le cuivre est un antidote"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

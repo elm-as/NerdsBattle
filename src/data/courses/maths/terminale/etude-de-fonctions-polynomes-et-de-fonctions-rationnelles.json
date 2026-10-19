@@ -1,0 +1,123 @@
+{
+  "id": "maths-terminale-etude-de-fonctions-polynomes-et-de-fonctions-rationnelles",
+  "title": "Étude de fonctions polynômes et de fonctions rationnelles",
+  "summary": "Le COGES du Lycée Municipal de San-Pédro a créé une imprimerie. Le coût de production unitaire d'un article est donné par $C(x) = x - 10 + \\\\frac{900}{x}$ (en milliers de FCFA), où x est le nombre d'articles produits et vendus par jour. Le bénéfice global est modélisé par $B(x) = -x^2 + 110x - 900$. Les élèves doivent déterminer le nombre d'articles à produire pour maximiser le bénéfice, en étudiant les fonctions polynômes et rationnelles.",
+  "lesson": "## 1. Rappel sur les fonctions polynômes\nUne fonction polynôme de degré n est de la forme :\n$$f(x) = a_nx^n + a_{n-1}x^{n-1} + ... + a_1x + a_0$$\navec $a_n \\\neq 0$.\n\n**Exemple ivoirien** : La production de cacao dans la région de Daloa peut être modélisée par $P(t) = -2t^2 + 20t + 100$ (en tonnes), où t est le temps en années depuis 2010.\n\n## 2. Fonctions rationnelles\nUne fonction rationnelle est le quotient de deux polynômes :\n$$f(x) = \\\\frac{P(x)}{Q(x)}, Q(x) \\\neq 0$$\n\n**Exemple** : $f(x) = \\\\frac{2x^2 - 3x + 1}{x - 2}$\n\n## 3. Limites des fonctions polynômes\n\n| Type de limite | Résultat |\n|----------------|----------|\n| $\\\\lim_{x \\\to \\\\pm \\\\infty} a_nx^n$ (n≥1) | Dépend du signe de $a_n$ et de la parité de n |\n| $\\\\lim_{x \\\to a} f(x)$ | $f(a)$ si f est définie en a |\n\n**Propriété** : En ±∞, une fonction polynôme a la même limite que son terme de plus haut degré.\n\n## 4. Limites des fonctions rationnelles\n\nPour $f(x) = \\\\frac{P(x)}{Q(x)}$ en ±∞ :\n- Si deg(P) < deg(Q) : $\\\\lim f(x) = 0$\n- Si deg(P) = deg(Q) : $\\\\lim f(x) = \\\\frac{a_n}{b_n}$ (rapport des coeff dominants)\n- Si deg(P) > deg(Q) : $\\\\lim f(x) = \\\\pm \\\\infty$\n\n**Cas particulier** : $\\\\lim_{x \\\to a^+} \\\\frac{1}{x-a} = +\\\\infty$ et $\\\\lim_{x \\\to a^-} \\\\frac{1}{x-a} = -\\\\infty$\n\n## 5. Asymptotes\n\n**Asymptote verticale** : Droite x = a si $\\\\lim_{x \\\to a} f(x) = \\\\pm \\\\infty$\n\n**Asymptote horizontale** : Droite y = b si $\\\\lim_{x \\\to \\\\pm \\\\infty} f(x) = b$\n\n**Asymptote oblique** : Droite y = ax + b si $\\\\lim_{x \\\to \\\\pm \\\\infty} [f(x) - (ax + b)] = 0$\n\nPour une fonction rationnelle où deg(P) = deg(Q) + 1, on a une asymptote oblique obtenue par division euclidienne.\n\n## 6. Dérivées et variations\n\n**Dérivée d'un polynôme** : Si $f(x) = a_nx^n + ... + a_1x + a_0$, alors $f'(x) = na_nx^{n-1} + ... + a_1$\n\n**Dérivée d'une fonction rationnelle** : On utilise $(\\\\frac{u}{v})' = \\\\frac{u'v - uv'}{v^2}$\n\n**Tableau de variations** : On étudie le signe de f'(x).\n\n```mathgraph\n{\n  \"type\": \"function\",\n  \"title\": \"Fonction rationnelle f(x) = (x² - 1)/(x - 2) avec asymptotes\",\n  \"xRange\": [-5, 8],\n  \"yRange\": [-20, 30],\n  \"functions\": [\n    { \"expression\": \"(x^2 - 1)/(x - 2)\", \"color\": \"#3b82f6\", \"name\": \"f(x)\" },\n    { \"expression\": \"x + 2\", \"color\": \"#ef4444\", \"name\": \"Asymptote oblique\", \"lineStyle\": \"dashed\" }\n  ],\n  \"verticalLines\": [\n    { \"x\": 2, \"color\": \"#10b981\", \"name\": \"x = 2\", \"lineStyle\": \"dashed\" }\n  ],\n  \"showGrid\": true,\n  \"showAxes\": true,\n  \"xLabel\": \"x\",\n  \"yLabel\": \"y\"\n}\n```\n\n## 7. Théorème des valeurs intermédiaires (TVI)\nSi f est continue sur [a,b] et k est compris entre f(a) et f(b), alors il existe c∈[a,b] tel que f(c)=k.\n\n**Application** : Résolution d'équations $f(x)=0$ par dichotomie ou balayage.\n\n## 8. Résolution d'inéquations\n\n**Méthode algébrique** :\n1. Mettre l'inéquation sous forme $\\\\frac{P(x)}{Q(x)} \\\\geq 0$ (ou autre signe)\n2. Étudier le signe du numérateur et du dénominateur\n3. Faire un tableau de signes\n4. Conclure\n\n**Exemple** : Résoudre $\\\\frac{x^2 - 4}{x - 1} \\\\geq 0$ sur \\\\mathbb{R}\\\\{1}.\n\n## 9. Retour à la situation du COGES\n\nPour $B(x) = -x^2 + 110x - 900$ :\n- Dérivée : $B'(x) = -2x + 110$\n- $B'(x) = 0 ⇔ x = 55$\n- Tableau : B croissante sur [0,55], décroissante sur [55,+∞[\n- Maximum : B(55) = -(55)² + 110×55 - 900 = 2025\n\nConclusion : Produire 55 articles par jour maximise le bénéfice à 2 025 000 FCFA.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "La limite d'une fonction polynôme en ±∞ est celle de son terme de plus haut degré",
+    "Les asymptotes verticales correspondent aux valeurs qui annulent le dénominateur d'une fonction rationnelle",
+    "Le signe de la dérivée détermine les variations d'une fonction",
+    "Le TVI permet de prouver l'existence de solutions à une équation sur un intervalle"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la limite de $f(x) = \\\\frac{3x^2 - 2x + 1}{x^2 + 5}$ quand x→+∞ ?",
+      "options": [
+        "0",
+        "3",
+        "+∞",
+        "-∞"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La fonction $f(x) = \\\\frac{x-1}{x+2}$ admet une asymptote verticale d'équation :",
+      "options": [
+        "x = 1",
+        "x = -2",
+        "x = 2",
+        "x = -1"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Si f'(x) > 0 sur un intervalle I, alors sur I :",
+      "options": [
+        "f est croissante",
+        "f est décroissante",
+        "f est constante",
+        "f est concave"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Pour résoudre $\\\\frac{x^2 - 4}{x - 3} ≥ 0$, on utilise principalement :",
+      "options": [
+        "Un tableau de signes",
+        "Le théorème de Pythagore",
+        "La formule des probabilités totales",
+        "La dérivée seconde"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle est la limite de $f(x)=\\\\frac{2x^3-5x+1}{x^2+3}$ quand $x\\\\to+\\\\infty$ ?",
+      "options": [
+        "0",
+        "$\\\\frac{2}{3}$",
+        "$+\\\\infty$",
+        "$-\\\\infty$"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "La fonction $f(x)=\\\\frac{x-3}{x^2-9}$ admet une asymptote verticale en :",
+      "options": [
+        "x=3 seulement",
+        "x=-3 seulement",
+        "x=3 et x=-3",
+        "x=0"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Pour appliquer le théorème des valeurs intermédiaires, la fonction doit être :",
+      "options": [
+        "Dérivable",
+        "Continue",
+        "Monotone",
+        "Positive"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Si $f'(x) > 0$ sur un intervalle I, alors sur I :",
+      "options": [
+        "f est croissante",
+        "f est décroissante",
+        "f est constante",
+        "f est concave"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

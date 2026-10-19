@@ -1,0 +1,44 @@
+{
+  "id": "maths-seconde-equations-et-inequations",
+  "title": "Équations et inéquations",
+  "summary": "Pour optimiser la production d'une entreprise, on doit résoudre des équations. Quelles sont les méthodes ?",
+  "lesson": "## Équations du second degré\n\n### Forme générale\nax² + bx + c = 0\n\n### Discriminant\nΔ = b² − 4ac\n\n**Si Δ > 0 :** deux solutions\nx₁ = (−b − √Δ) / 2a\nx₂ = (−b + √Δ) / 2a\n\n**Si Δ = 0 :** une solution\nx = −b / 2a\n\n**Si Δ < 0 :** pas de solution réelle\n\n### Inéquations\nOn étudie le signe d'une expression factorisée avec un tableau de signes",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Discriminant Δ = b² − 4ac",
+    "Nombre de solutions selon le signe de Δ",
+    "Tableau de signes pour les inéquations"
+  ],
+  "exercise": {
+    "question": "Résous : x² − 5x + 6 = 0",
+    "answer": "\n**Solution :**\nΔ = 25 − 24 = 1\nx₁ = (5 − 1)/2 = 2\nx₂ = (5 + 1)/2 = 3\n\n**Réponse : S = {2 ; 3}**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Si Δ < 0, combien y a-t-il de solutions ?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "∞"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Résous : x² = 9",
+      "options": [
+        "x = 3",
+        "x = -3",
+        "x = 3 ou x = -3",
+        "Pas de solution"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

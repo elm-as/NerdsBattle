@@ -1,0 +1,138 @@
+{
+  "id": "physique-quatrieme-les-phases-de-la-lune-et-les-eclipses",
+  "title": "Les phases de la Lune et les éclipses",
+  "summary": "En un jour ensoleillé à Tanguelan, village de la Sous-Préfecture d'Agnibilékrou, le ciel s'est subitement assombri. Les élèves de 4ème 4 du Collège Moderne observent que le Soleil a pris la forme d'un anneau lumineux pendant quelques instants. Intrigués par ce phénomène rare, ils cherchent à comprendre la différence entre les éclipses solaires et lunaires, et à expliquer les phases de la Lune qu'ils observent chaque mois.",
+  "lesson": "# Les phases de la Lune et les éclipses\n\n## Introduction\n\nLe ciel nocturne en Côte d'Ivoire, particulièrement visible dans les régions peu polluées comme à Korhogo ou à Boundiali, nous offre régulièrement le spectacle changeant de la Lune. Les phases lunaires rythment les activités agricoles et les éclipses fascinent les populations depuis des siècles. Cette leçon explore les mécanismes astronomiques derrière ces phénomènes observables depuis notre territoire.\n\n## I. Ombres et lumière\n\n### A. Définitions fondamentales\n\n**Ombre propre** : Partie d'un objet qui n'est pas éclairée directement par la source lumineuse.\n```mermaid\ngraph TD\n    A[Source lumineuse] --> B[Objet sphérique]\n    B --> C[Côté éclairé]\n    B --> D[Côté sombre = Ombre propre]\n```\n\n**Ombre portée** : Zone derrière l'objet où la lumière directe n'arrive pas.\n```mermaid\ngraph LR\n    A[Lumière] --> B[Objet]\n    B --> C[Zone d'ombre totale]\n    B --> D[Pénombre]\n```\n\n### B. Structure d'une ombre complète\n1. **Zone d'ombre** : Aucune lumière directe n'arrive\n2. **Pénombre** : Une partie de la lumière arrive\n\n## II. Les phases de la Lune\n\n### A. Mouvement orbital\n```mermaid\ngraph TD\n    A[Terre] --> B[Lune en orbite]\n    B --> C[Révolution: 29,5 jours]\n    B --> D[Rotation synchrone]\n    D --> E[Même face visible]\n```\n\n### B. Les huit phases principales\n```mermaid\ntimeline\n    title Cycle lunaire (29,5 jours)\n    section Nouvelle Lune\n        Jour 0 : Lune invisible\n    section Croissant\n        J1-6 : Premier croissant\n    section Premier quartier\n        J7 : Demi-Lune droite\n    section Gibbeuse\n        J8-13 : Gibbeuse croissante\n    section Pleine Lune\n        J14 : Lune entière\n    section Décroissante\n        J15-20 : Gibbeuse décroissante\n    section Dernier quartier\n        J21 : Demi-Lune gauche\n    section Fin de cycle\n        J22-28 : Dernier croissant\n```\n\n### C. Explication scientifique\nLa Lune ne produit pas sa propre lumière. Nous voyons la partie éclairée par le Soleil.\n\n**Position Terre-Lune-Soleil** :\n- **Nouvelle Lune** : Lune entre Terre et Soleil\n- **Pleine Lune** : Terre entre Lune et Soleil\n- **Quartiers** : Angle de 90° entre les trois corps\n\n### D. Importance en Côte d'Ivoire\n\n**Calendrier agricole** :\n- **Pleine Lune** : Semis de certaines cultures à Bouaké\n- **Nouvelle Lune** : Début des récoltes dans certaines régions\n\n**Culture et traditions** :\n- Les Baoulés utilisent le calendrier lunaire pour certaines cérémonies\n- Les pêcheurs de Grand-Bassam observent les marées liées aux phases\n\n## III. Les éclipses solaires\n\n### A. Définition\nUne éclipse solaire se produit lorsque la Lune passe entre la Terre et le Soleil, masquant totalement ou partiellement le disque solaire.\n\n```mermaid\ngraph LR\n    A[Soleil] --> B[Lune]\n    B --> C[Terre]\n    \n    subgraph Alignement\n        direction LR\n        A -- lumière --> B\n        B -- ombre --> C\n    end\n```\n\n### B. Types d'éclipses solaires\n\n```mermaid\ngraph TD\n    A[Éclipse solaire] --> B[Totale]\n    A --> C[Partielle]\n    A --> D[Annulaire]\n    \n    B --> E[Lune plus proche]\n    C --> F[Alignement partiel]\n    D --> G[Lune plus éloignée]\n```\n\n**1. Éclipse totale** :\n- Lune masque complètement le Soleil\n- Visible dans une bande étroite (150-250 km)\n- Durée maximale : 7 minutes 30 secondes\n\n**2. Éclipse partielle** :\n- Lune ne couvre qu'une partie du Soleil\n- Visible sur une zone plus large\n\n**3. Éclipse annulaire** :\n- Lune trop éloignée pour masquer tout le Soleil\n- Formation d'un \"anneau de feu\"\n\n### C. Conditions nécessaires\n1. **Nouvelle Lune**\n2. **Alignement parfait** des trois corps célestes\n3. **Lune au nœud orbital** (intersection des plans orbitaux)\n\n### D. Éclipse historique en Côte d'Ivoire\n**3 octobre 2005** : Éclipse annulaire visible depuis le nord du pays\n- **Korhogo** : Anneau visible pendant 4 minutes\n- **Observations** organisées par l'Institut National Polytechnique de Yamoussoukro\n\n## IV. Les éclipses lunaires\n\n### A. Définition\nUne éclipse lunaire se produit lorsque la Terre passe entre le Soleil et la Lune, projetant son ombre sur la Lune.\n\n```mermaid\ngraph LR\n    A[Soleil] --> B[Terre]\n    B --> C[Lune]\n    \n    subgraph AlignementLunaire\n        direction LR\n        A -- lumière --> B\n        B -- ombre --> C\n    end\n```\n\n### B. Types d'éclipses lunaires\n\n```mermaid\ngraph TD\n    A[Éclipse lunaire] --> B[Pénombrale]\n    A --> C[Partielle]\n    A --> D[Totale]\n    \n    B --> E[Lune dans pénombre]\n    C --> F[Partie dans ombre]\n    D --> G[Complètement dans ombre]\n```\n\n**1. Éclipse pénombrale** :\n- Lune traverse seulement la pénombre terrestre\n- Légère assombrissement difficile à percevoir\n\n**2. Éclipse partielle** :\n- Une partie de la Lune entre dans l'ombre terrestre\n- Effet de \"morsure\" visible\n\n**3. Éclipse totale** :\n- Lune entièrement dans l'ombre terrestre\n- Durée maximale : 1 heure 47 minutes\n\n### C. La Lune rouge\n\n**Phénomène** : Lors des éclipses totales, la Lune prend une teinte rougeâtre.\n\n**Explication scientifique** :\n```mermaid\nflowchart LR\n    A[Rayons solaires] --> B[Atmosphère terrestre]\n    B --> C[Dispersion Rayleigh]\n    C --> D[Bleu diffusé dans toutes directions]\n    C --> E[Rouge dévié vers la Lune]\n    E --> F[Lune apparaît rouge]\n```\n\n### D. Éclipse récente visible\n**26 mai 2021** : Éclipse lunaire partiellement visible depuis la Côte d'Ivoire\n- Début visible à Abidjan vers 21h30\n- Maximum vers minuit\n\n## V. Comparaison éclipses solaires/lunaires\n\n```mermaid\ngraph TD\n    A[Caractéristiques] --> B[Solaire]\n    A --> C[Lunaire]\n    \n    B --> D[Phase: Nouvelle Lune]\n    B --> E[Fréquence: Plus rare]\n    B --> F[Durée: Court (min)]\n    B --> G[Visibilité: Zone étroite]\n    B --> H[Danger: ⚠️ Regarder directement]\n    \n    C --> I[Phase: Pleine Lune]\n    C --> J[Fréquence: Plus fréquente]\n    C --> K[Durée: Long (heures)]\n    C --> L[Visibilité: Hémisphère entier]\n    C --> M[Danger: Aucun]\n```\n\n## VI. Applications et importance\n\n### A. Utilisations scientifiques\n1. **Vérification des théories** : Confirmation des lois de Kepler et Newton\n2. **Étude du Soleil** : Observation de la couronne solaire pendant les éclipses totales\n3. **Calendriers** : Raffinement des calculs astronomiques\n\n### B. Importance culturelle en Côte d'Ivoire\n\n**Traditions Baoulés** :\n- Les éclipses sont parfois interprétées comme des messages des ancêtres\n- Cérémonies spéciales pour \"libérer\" la Lune ou le Soleil\n\n**Croyances Sénoufos** :\n- Association des éclipses avec des événements importants\n- Utilisation pour la prévision des saisons agricoles\n\n### C. Précautions d'observation\n\n**Éclipses solaires** :\n```mermaid\nflowchart TD\n    A[Observation sécurité] --> B[NE JAMAIS regarder directement]\n    B --> C[Méthodes sécurisées]\n    C --> D[Projection chambre noire]\n    C --> E[Lunettes certifiées ISO]\n    C --> F[Filtres solaires]\n```\n\n**Éclipses lunaires** :\n- Observation directe sans danger\n- Possibilité de photographie sans équipement spécial\n\n## VII. Expériences pratiques\n\n### A. Simulation des phases lunaires\n\n**Matériel** : Lampe torche (Soleil), balle blanche (Lune), observateur (Terre)\n\n**Protocole** :\n1. Fixer la lampe torche (Soleil fixe)\n2. Tourner autour de sa tête avec la balle à bras tendu\n3. Observer la partie éclairée depuis différentes positions\n\n### B. Modélisation d'éclipse\n\n**Éclipse solaire** :\n- Petite boule (Lune) entre lampe (Soleil) et grande boule (Terre)\n\n**Éclipse lunaire** :\n- Grande boule (Terre) entre lampe (Soleil) et petite boule (Lune)\n\n## VIII. Prochaines éclipses visibles\n\n**En Côte d'Ivoire** :\n- **2024** : Éclipse lunaire partielle (visible)\n- **2026** : Éclipse solaire partielle (partiellement visible)\n- **2027** : Éclipse solaire totale (non visible)\n\n## Conclusion\n\nLes phases de la Lune et les éclipses sont des manifestations visibles des lois physiques qui gouvernent notre système solaire. En Côte d'Ivoire, où le ciel est souvent dégagé, ces phénomènes offrent des opportunités uniques d'observation et d'éducation scientifique. Comprendre ces mécanismes permet non seulement d'apprécier la beauté du ciel nocturne, mais aussi de démystifier des phénomènes parfois mal interprétés dans certaines traditions.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "L'ombre propre est la partie non éclairée d'un objet, l'ombre portée est projetée derrière",
+    "La Lune présente 8 phases principales sur un cycle de 29,5 jours",
+    "Une éclipse solaire nécessite la nouvelle Lune et un alignement parfait",
+    "Une éclipse lunaire nécessite la pleine Lune et un alignement parfait",
+    "La Lune rouge lors des éclipses totales est due à la diffusion atmosphérique",
+    "Les éclipses solaires sont dangereuses à observer sans protection adaptée"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle phase de la Lune est nécessaire pour une éclipse solaire ?",
+      "options": [
+        "Nouvelle Lune",
+        "Pleine Lune",
+        "Premier quartier",
+        "Dernier quartier"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle est la durée approximative du cycle complet des phases lunaires ?",
+      "options": [
+        "29,5 jours",
+        "30 jours",
+        "27,3 jours",
+        "31 jours"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Pourquoi la Lune apparaît-elle rouge lors d'une éclipse lunaire totale ?",
+      "options": [
+        "À cause de la diffusion de la lumière par l'atmosphère terrestre",
+        "Parce qu'elle s'échauffe pendant l'éclipse",
+        "À cause de la poussière lunaire",
+        "Parce qu'elle change de composition chimique"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle précaution essentielle faut-il prendre pour observer une éclipse solaire ?",
+      "options": [
+        "Ne jamais regarder directement le Soleil",
+        "Utiliser des jumelles",
+        "Attendre la nuit",
+        "Regarder à travers un verre fumé"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Combien d'éclipses solaires se produisent généralement chaque année ?",
+      "options": [
+        "2 à 5",
+        "12",
+        "1",
+        "6 à 8"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Qu'est-ce que l'ombre propre ?",
+      "options": [
+        "L'ombre projetée au sol",
+        "La partie non éclairée d'un objet",
+        "La zone de pénombre",
+        "L'ombre de la Terre"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "À quelle phase lunaire se produit une éclipse de Soleil ?",
+      "options": [
+        "Pleine Lune",
+        "Nouvelle Lune",
+        "Premier quartier",
+        "Dernier quartier"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel est l'alignement lors d'une éclipse lunaire ?",
+      "options": [
+        "Soleil - Lune - Terre",
+        "Terre - Soleil - Lune",
+        "Soleil - Terre - Lune",
+        "Lune - Terre - Soleil"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Pourquoi ne faut-il JAMAIS regarder directement une éclipse solaire ?",
+      "options": [
+        "Ça fait mal aux yeux temporairement",
+        "Ça peut causer la cécité définitive",
+        "C'est interdit par la loi",
+        "On ne voit rien"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "maths-troisieme-equations-de-droites",
+  "title": "Équations de droites",
+  "summary": "Comment trouver l'équation d'une droite passant par deux points ?",
+  "lesson": "## Équations de droites\n\n### Forme générale\n**y = mx + p**\n- m : pente (coefficient directeur)\n- p : ordonnée à l'origine\n\n### Droite par 2 points\nA(xₐ;yₐ), B(xᵦ;yᵦ)\n\nm = (yᵦ-yₐ)/(xᵦ-xₐ)\n\n### Droites parallèles\nMême coefficient m\n\n### Droites perpendiculaires\nm₁ × m₂ = -1",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "y=mx+p",
+    "m=(yᵦ-yₐ)/(xᵦ-xₐ)",
+    "// : même m",
+    "⊥ : m₁×m₂=-1"
+  ],
+  "exercise": {
+    "question": "Droite par A(0;2) et B(3;8). Équation ?",
+    "answer": "y = 2x + 2"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Coefficient directeur d'une droite :",
+      "options": [
+        "Ordonnée origine",
+        "Pente",
+        "Abscisse",
+        "Distance"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

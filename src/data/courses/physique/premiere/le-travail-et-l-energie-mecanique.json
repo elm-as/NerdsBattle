@@ -1,0 +1,58 @@
+{
+  "id": "physique-premiere-le-travail-et-l-energie-mecanique",
+  "title": "Le travail et l'énergie mécanique",
+  "summary": "Une voiture freine sur une route. Comment calculer le travail de la force de freinage et la variation d'énergie ?",
+  "lesson": "## Le travail d'une force\n\n### Définition\n\nLe **travail** d'une force constante est :\n```\nW = F × d × cos(α)\n```\n\nOù :\n- **W** = travail (J)\n- **F** = force (N)\n- **d** = déplacement (m)\n- **α** = angle entre F et d\n\n### Cas particuliers\n\n**Force dans le sens du mouvement :**\n```\nα = 0° → W = F × d (positif)\n```\n\n**Force opposée au mouvement :**\n```\nα = 180° → W = -F × d (négatif)\n```\n\n**Force perpendiculaire :**\n```\nα = 90° → W = 0 (nul)\n```\n\n## L'énergie cinétique\n\n**Formule :**\n```\nEc = ½ m × v²\n```\n\nOù :\n- **Ec** = énergie cinétique (J)\n- **m** = masse (kg)\n- **v** = vitesse (m/s)\n\n**Exemple :**\n```\nm = 1000 kg, v = 20 m/s\nEc = ½ × 1000 × 20² = 200 000 J\n```\n\n## L'énergie potentielle de pesanteur\n\n**Formule :**\n```\nEp = m × g × h\n```\n\nOù :\n- **Ep** = énergie potentielle (J)\n- **h** = hauteur (m)\n\n## Théorème de l'énergie cinétique\n\n**Énoncé :**\n```\nΔEc = ΣW\n```\n\nLa variation d'énergie cinétique est égale à la somme des travaux des forces.\n\n### Application\n\nVoiture qui freine :\n```\nm = 1000 kg\nvi = 20 m/s → vf = 0 m/s\nΔEc = 0 - 200 000 = -200 000 J\nW(freinage) = -200 000 J\n```\n\n## Conservation de l'énergie mécanique\n\n**Énergie mécanique :**\n```\nEm = Ec + Ep\n```\n\n**Sans frottement :**\n```\nEm = constante\n```",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "W = F × d × cos(α)",
+    "Ec = ½mv²",
+    "Ep = mgh",
+    "ΔEc = ΣW"
+  ],
+  "exercise": {
+    "question": "Une voiture de 1200 kg passe de 90 km/h à 50 km/h. Calculer le travail de la force de freinage.",
+    "answer": "\n**Données :**\n- m = 1200 kg\n- vi = 90 km/h = 25 m/s\n- vf = 50 km/h = 13,9 m/s\n\n**Solution :**\n\nEci = ½ × 1200 × 25² = 375 000 J\nEcf = ½ × 1200 × 13,9² = 115 878 J\n\nΔEc = 115 878 - 375 000 = -259 122 J\n\nW(freinage) = -259 122 J\n\n**Réponse : -259 kJ**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Unité du travail ?",
+      "options": [
+        "N",
+        "J",
+        "W",
+        "kg"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Formule de l'énergie cinétique ?",
+      "options": [
+        "mv",
+        "½mv²",
+        "mgh",
+        "Fd"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Si α = 90°, le travail est ?",
+      "options": [
+        "Positif",
+        "Négatif",
+        "Nul",
+        "Maximum"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

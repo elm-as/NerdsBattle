@@ -1,190 +1,150 @@
 {
   "id": "histoire-troisieme-etude-economique-de-l-afrique",
-  "subjectId": "histoire",
-  "levelId": "troisieme",
-  "slug": "etude-economique-de-l-afrique",
-  "title": "L'Afrique face à la mondialisation : étude économique",
-  "summary": "L'Afrique, continent riche en atouts naturels et humains, reste pourtant sous-développée. Découvre ses ressources, ses secteurs d'activité et les défis à relever pour son développement.",
-  "lesson": "# Étude économique de l'Afrique\n\n## Introduction\nL'Afrique est un vaste continent de **30 415 873 km²** avec une population d'environ **1,3 milliard d'habitants** (17% de la population mondiale) répartie dans **54 États indépendants**. Malgré une diversité d'atouts, elle est classée parmi les continents les moins avancés à cause de nombreux problèmes qui freinent son développement économique.\n\n## 1. Définitions & Notions clés\n\n### Les atouts naturels\n- **Relief** : peu accidenté, dominé par des plateaux et plaines. Quelques massifs : chaînes de l'Atlas (4000 m), Fouta-Djalon, mont Kilimandjaro (5895 m).\n- **Sous-sol riche** : ressources minières (or, diamant, cuivre, cobalt, platine, uranium, plomb, zinc, étain, fer, titane) et énergétiques (pétrole, gaz naturel, charbon).\n  - Réserves mondiales : 7,6% du pétrole, 7,5% du gaz, 40% de l'or, 80 à 90% du chrome et du platine.\n- **Climats diversifiés** : tempéré (700 mm/an), tropical (humide 1100-1500 mm/an ; sec 500-1100 mm/an), équatorial (1500-2000 mm/an, 25°C), désertique (<200 mm/an).\n- **Végétation et sols** : forêt dense (sols ferralitiques), forêt claire et savane (sols ferralitiques désaturés et ferrugineux), forêts de chênes, cèdres, palmiers nains (sols gris ou bruns), steppe (sols pierreux).\n- **Réseau hydrographique** : fleuves Nil (6700 km), Congo (4700 km), Niger (4200 km), Zambèze (2700 km), Orange (1900 km), Sénégal (1700 km). Grands lacs : Tchad, Victoria, Tanganyika. Façade maritime de plus de 26 000 km.\n\n### Les atouts humains\n- **Population jeune et nombreuse** : taux de fécondité le plus élevé au monde (4,8 enfants/femme), 62% de jeunes, 1,3 milliard d'habitants (2019).\n- **Population multiraciale** : Noirs majoritaires, Blancs et Métis. 1302 langues parlées.\n- **Atouts** : marché de consommation, main-d'œuvre importante, source d'impôts.\n\n### Les secteurs d'activité\n- **Secteur primaire** (13,8% du PIB) : agriculture (subsistance et exportation), élevage, pêche, exploitation forestière.\n- **Secteur secondaire** (41,5% du PIB) : agro-industrie, industries extractives, industries lourdes et légères.\n- **Secteur tertiaire** : tourisme, services (70% administration publique), commerce.\n\n## 2. Applications & Méthodes\n\n### Activité d'application n°1\nComplète le texte avec : Congo ; relief ; énergétiques ; fleuves ; minières ; zones climatiques ; végétation ; Nil.\n\n> L'Afrique présente des atouts naturels et humains importants. Une **végétation** très variée composée de forêt, de savanes, de steppes qui correspondent à des **zones climatiques** distinctes. On note aussi la présence d'un **relief** plat d'altitude moyenne de 600 m, et de nombreux **fleuves** dont les plus importants sont le **Nil** et le **Congo**. À ces atouts, il faut ajouter des richesses **minières** et **énergétiques**.\n\n### Méthode d'analyse\n1. Identifier les atouts naturels (relief, sous-sol, climat, végétation, hydrographie).\n2. Caractériser les atouts humains (population, jeunesse, diversité).\n3. Analyser les secteurs d'activité (primaire, secondaire, tertiaire).\n4. Proposer des solutions aux problèmes de développement.\n\n## 3. Pièges fréquents\n- Ne pas confondre **climat tropical humide** (1100-1500 mm/an) et **climat tropical sec** (500-1100 mm/an).\n- Le **Nil** est le plus long fleuve d'Afrique (6700 km), suivi du **Congo** (4700 km).\n- L'agriculture africaine est à la fois de **subsistance** et d'**exportation**.\n- Le secteur secondaire représente **41,5%** du PIB, dominé par l'extraction minière.\n- La population africaine est majoritairement **jeune** (62%).\n\n## Synthèse\nL'Afrique dispose d'atouts naturels et humains considérables : relief plat, sous-sol riche, climats variés, population jeune et nombreuse. Son économie repose sur trois secteurs : primaire (agriculture, élevage, pêche, forêt), secondaire (industries) et tertiaire (tourisme, services, commerce). Malgré ces potentialités, le continent reste sous-développé à cause de problèmes structurels. Une meilleure valorisation de ces atouts est essentielle pour son développement.",
+  "title": "ÉTUDE ÉCONOMIQUE DE L'AFRIQUE",
+  "summary": "En écoutant une émission sur les économies africaines, vous constatez que certains pays sont riches en ressources mais que leurs populations vivent dans la pauvreté. Avec vos camarades, vous décidez d'étudier les structures économiques de l'Afrique pour comprendre cette contradiction et identifier les voies d'un développement plus équitable.",
+  "lesson": "## Introduction\n\nL'économie africaine présente un double visage : d'un côté, un potentiel immense avec une croissance parmi les plus rapides du monde ; de l'autre, des défis structurels profonds qui limitent la transformation de cette croissance en développement humain. Avec 1,4 milliard d'habitants et un PIB de 2 900 milliards USD, l'Afrique représente 18% de la population mondiale mais seulement 3% de l'économie mondiale, révélant une marginalisation économique persistante.\n\n## 1. Structures économiques régionales\n\n### 1.1 Diversité et spécialisations\n```mermaid\npie title Répartition du PIB africain par région (2023)\n    \"Afrique du Nord\" : 32\n    \"Afrique de l&#x27;Ouest\" : 18\n    \"Afrique de l&#x27;Est\" : 15\n    \"Afrique centrale\" : 12\n    \"Afrique australe\" : 23\n```\n\n**Afrique du Nord** :\n- **Économies diversifiées** : Maroc (agriculture, tourisme, industrie), Égypte (industrie, Suez, tourisme), Algérie (pétrole et gaz)\n- **Défis** : Chômage des jeunes, dépendance aux hydrocarbures (Algérie, Libye), stress hydrique\n\n**Afrique de l'Ouest** :\n- **Nigeria** : 1ère économie (pétrole), 25% du PIB africain\n- **Côte d'Ivoire, Ghana, Sénégal** : Agro-industrie, services\n- **Spécialisations** : Cacao (Côte d'Ivoire, Ghana), pétrole (Nigeria, Ghana), phosphates (Sénégal), coton (Mali, Burkina Faso)\n\n**Afrique centrale** :\n- **RDC** : Minerais (cobalt, cuivre, diamants), potentiel hydroélectrique\n- **Gabon, Congo, Guinée équatoriale** : Pétrole\n- **Défis** : Faible diversification, gouvernance des ressources, conflits\n\n**Afrique de l'Est** :\n- **Kenya** : Hub technologique (Silicon Savannah), services\n- **Éthiopie** : Croissance industrielle rapide, agriculture\n- **Tanzanie** : Agriculture, tourisme, gaz\n- **Rwanda** : Services, technologies\n\n**Afrique australe** :\n- **Afrique du Sud** : Économie la plus industrialisée (automobile, mines, finance)\n- **Angola** : Pétrole\n- **Zambie** : Cuivre\n- **Botswana** : Diamants\n\n### 1.2 Secteurs économiques\n| Région | Secteur dominant | Spécialisations |\n|--------|------------------|-----------------|\n| **Afrique du Nord** | Services (55%) | Tourisme, finance, télécoms |\n| **Afrique de l'Ouest** | Agriculture (30%) + Services | Cacao, pétrole, noix de cajou |\n| **Afrique centrale** | Extraction minière (40%) | Pétrole, minerais, bois |\n| **Afrique de l'Est** | Agriculture (35%) + Services | Café, thé, tourisme, tech |\n| **Afrique australe** | Industrie (25%) + Mines | Automobile, mines, finance |\n\n## 2. Potentialités et atouts\n\n### 2.1 Ressources naturelles\n**Minerais stratégiques** :\n- **60% des réserves mondiales de cobalt** (RDC)\n- **30% des réserves de bauxite** (Guinée)\n- **75% des réserves de phosphate** (Maroc, Sénégal)\n- **40% des réserves d'or** (Afrique du Sud, Ghana, Mali)\n- **95% des réserves de platine** (Afrique du Sud)\n- **Diamants, cuivre, uranium, lithium**\n\n**Agriculture** :\n- **60% des terres arables non cultivées** du monde\n- **Potentiel d'autosuffisance alimentaire**\n- **Cultures tropicales** : Cacao, café, thé, coton, arachide\n\n**Démographie** :\n- **Population la plus jeune** du monde (âge médian : 19 ans)\n- **Croissance démographique** : +2,5% par an\n- **Diaspora qualifiée** : 30 millions d'Africains à l'étranger\n- **Urbanisation rapide** : 50% de population urbaine en 2030\n\n### 2.2 Innovations et transformation numérique\n- **Fintech** : M-Pesa (Kenya) utilisé par 50 millions, Orange Money (Côte d'Ivoire)\n- **Agritech** : Applications pour petits agriculteurs (Farmcrowdy, Nigeria)\n- **Éducation numérique** : Plateformes d'apprentissage en ligne\n- **Santé mobile** : Téléconsultation, suivi des maladies\n- **Start-ups** : 7 000 tech hubs, 5 milliards USD levés en 2022\n\n## 3. Défis structurels\n\n### 3.1 Dépendance économique\n**Structure des échanges** :\n- **Exportations** : 75% matières premières non transformées\n- **Importations** : 70% produits manufacturés\n- **Conséquence** : Termes de l'échange défavorables, balance commerciale déficitaire\n\n**Dépendances stratégiques** :\n- **Alimentaire** : Importation de 35 milliards USD de nourriture par an\n- **Énergétique** : 600 millions d'Africains sans électricité, mais exportation de pétrole/gaz\n- **Technologique** : 1% des brevets mondiaux\n- **Médicale** : 90% des médicaments importés, crise COVID-19 révélatrice\n\n### 3.2 Infrastructure et productivité\n**Déficit infrastructurel** :\n- **Énergie** : Capacité installée = 1/3 de l'Espagne\n- **Transport** : 30% des routes seulement sont asphaltées\n- **Logistique** : Coûts 2-3 fois plus élevés qu'en Asie\n- **Numérique** : 70% de la population hors ligne\n\n**Productivité** :\n- **Agriculture** : Rendements 1/3 de la moyenne mondiale\n- **Industrie** : Valeur ajoutée manufacturière = 10% du PIB (vs 16% mondial)\n- **Services** : Prédominance du secteur informel (85% des emplois)\n\n### 3.3 Gouvernance et financement\n- **Corruption** : Coût estimé à 150 milliards USD par an\n- **Fuites de capitaux** : 50 milliards USD par an\n- **Dette** : Service de la dette = 20% des recettes budgétaires\n- **Mobilisation fiscale** : Ratio impôt/PIB = 17% (vs 34% OCDE)\n\n## 4. Stratégies de développement\n\n### 4.1 Intégration régionale\n**AFCFTA (Zone de libre-échange continentale africaine)** :\n- **Lancée** : 1er janvier 2021\n- **Potentiel** : Marché de 1,3 milliard, PIB 3 400 milliards USD\n- **Objectifs** : Suppression de 90% des droits de douane\n- **Défis** : Infrastructures, harmonisation réglementaire, compensation des perdants\n\n**Communautés économiques régionales (CER)** :\n- **CEDEAO** : 15 pays, 400 millions d'habitants\n- **SADC** : 16 pays, 340 millions\n- **EAC** : 7 pays, 180 millions\n- **CEEAC** : 11 pays, 180 millions\n- **UMA** : 5 pays, 100 millions\n\n### 4.2 Transformation structurelle\n**Industrialisation** :\n- **Plan d'action pour le développement industriel accéléré de l'Afrique (AIDA)**\n- **Zones économiques spéciales** : Attraction des investissements\n- **Chaines de valeur régionales** : Transformation locale des matières premières\n- **Économie circulaire** : Valorisation des déchets\n\n**Agriculture moderne** :\n- **Initiative pour l'adaptation de l'agriculture africaine (AAA)**\n- **Mécanisation** et irrigation\n- **Agro-industrie** : Transformation des produits\n- **Résilience climatique** : Variétés adaptées, assurance agricole\n\n### 4.3 Financement du développement\n- **Taxe de 0,2% sur les importations** pour financer l'UA (décision 2016)\n- **Mobilisation des ressources intérieures** : Lutte contre l'évasion fiscale\n- **Finance climatique** : Accès aux fonds verts internationaux\n- **Diaspora** : 80 milliards USD de transferts annuels\n\n## 5. Étude de cas comparée : Nigeria vs Côte d'Ivoire\n\n### 5.1 Nigeria : Géant pétrolier\n- **PIB** : 440 milliards USD (1ère économie africaine)\n- **Exportations** : Pétrole (90%), peu de transformation\n- **Diversification** : Tentative vers agriculture et services\n- **Défis** : Dépendance pétrolière, instabilité du delta, corruption\n- **Opportunités** : Marché intérieur énorme (220 millions), diaspora puissante, industrie cinématographique (Nollywood)\n\n### 5.2 Côte d'Ivoire : Modèle agricole\n- **PIB** : 70 milliards USD (3e en Afrique de l'Ouest)\n- **Exportations** : Cacao (40%), diversifié (noix de cajou, caoutchouc, pétrole)\n- **Transformation** : Objectif 50% du cacao transformé localement (2025)\n- **Défis** : Dépendance cacaoyère, déforestation, inégalités\n- **Opportunités** : Agro-industrie, hub régional, stabilité retrouvée\n\n**Leçons** : La diversification progressive (Côte d'Ivoire) semble plus résiliente que la dépendance à une seule ressource (Nigeria), mais les deux modèles doivent encore transformer leur croissance en développement humain inclusif.",
   "estimatedMinutes": 10,
-  "tags": [
-    "histoire",
-    "troisieme",
-    "mena",
-    "ci",
-    "officiel"
+  "keyPoints": [
+    "L'économie africaine est diversifiée régionalement avec l'Afrique du Nord plus industrialisée, l'Afrique de l'Ouest agricole, l'Afrique centrale minière, l'Afrique de l'Est en services et l'Afrique australe mixte",
+    "Le continent possède d'immenses potentialités : ressources naturelles stratégiques (cobalt, phosphate, terres arables), population jeune et dynamique, et innovations numériques rapides",
+    "Des défis structurels majeurs persistent : dépendance aux matières premières non transformées, déficit infrastructurel massif, faible productivité, fuite des capitaux et gouvernance économique limitée",
+    "L'intégration régionale via l'AFCFTA et la transformation structurelle vers l'industrialisation et l'agriculture moderne sont des stratégies clés pour une insertion plus favorable dans l'économie mondiale",
+    "Les comparaisons entre pays (Nigeria pétrolier vs Côte d'Ivoire agricole) montrent que la diversification progressive et la transformation locale offrent plus de résilience que la dépendance à une seule ressource"
   ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
   "questions": [
     {
       "id": "q1",
       "type": "mcq",
-      "prompt": "Quelle est la superficie de l'Afrique ?",
+      "prompt": "Quelle est la première économie d'Afrique ?",
       "options": [
-        "30 415 873 km²",
-        "25 000 000 km²",
-        "40 000 000 km²",
-        "35 000 000 km²"
+        "Afrique du Sud",
+        "Égypte",
+        "Nigeria",
+        "Kenya"
       ],
-      "answer": 0,
-      "explanation": "L'Afrique a une superficie de 30 415 873 km²."
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
     },
     {
       "id": "q2",
       "type": "mcq",
-      "prompt": "Combien d'États indépendants compte l'Afrique ?",
+      "prompt": "Quel pourcentage du PIB mondial représente l'Afrique ?",
       "options": [
-        "54",
-        "50",
-        "60",
-        "48"
+        "3%",
+        "8%",
+        "12%",
+        "15%"
       ],
       "answer": 0,
-      "explanation": "L'Afrique compte 54 États indépendants."
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle région africaine est la plus industrialisée ?",
+      "options": [
+        "Afrique de l'Ouest",
+        "Afrique centrale",
+        "Afrique du Nord",
+        "Afrique australe"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
     },
     {
       "id": "q4",
       "type": "mcq",
-      "prompt": "Quel est le plus long fleuve d'Afrique ?",
+      "prompt": "Quel pays détient 60% des réserves mondiales de cobalt ?",
       "options": [
-        "Le Nil",
-        "Le Congo",
-        "Le Niger",
-        "Le Zambèze"
+        "Afrique du Sud",
+        "Zambie",
+        "RDC",
+        "Guinée"
       ],
-      "answer": 0,
-      "explanation": "Le Nil mesure 6700 km, c'est le plus long fleuve d'Afrique."
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
     },
     {
       "id": "q5",
-      "type": "fill",
-      "prompt": "Le mont Kilimandjaro culmine à ______ mètres.",
-      "answer": "5895",
-      "explanation": "Le mont Kilimandjaro s'élève à 5895 mètres."
+      "type": "mcq",
+      "prompt": "Quel est l'âge médian de la population africaine ?",
+      "options": [
+        "19 ans",
+        "25 ans",
+        "30 ans",
+        "35 ans"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
     },
     {
       "id": "q6",
       "type": "mcq",
-      "prompt": "Quel pourcentage des réserves mondiales d'or l'Afrique possède-t-elle ?",
+      "prompt": "Quel pourcentage des exportations africaines sont des matières premières non transformées ?",
       "options": [
         "40%",
-        "7,6%",
-        "80%",
-        "50%"
+        "55%",
+        "75%",
+        "90%"
       ],
-      "answer": 0,
-      "explanation": "L'Afrique possède 40% des réserves aurifères mondiales."
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quelle initiative vise à créer un marché continental unique ?",
+      "options": [
+        "APEC",
+        "AFCFTA",
+        "MERCOSUR",
+        "ALENA"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
     },
     {
       "id": "q8",
       "type": "mcq",
-      "prompt": "Quel type de climat est localisé autour de l'Équateur ?",
+      "prompt": "Combien de milliards USD de nourriture l'Afrique importe-t-elle par an ?",
       "options": [
-        "Équatorial",
-        "Tropical",
-        "Désertique",
-        "Tempéré"
+        "15",
+        "25",
+        "35",
+        "45"
       ],
-      "answer": 0,
-      "explanation": "Le climat équatorial est localisé autour de l'Équateur, chaud et humide."
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
     },
     {
       "id": "q9",
-      "type": "fill",
-      "prompt": "Le climat désertique reçoit moins de ______ mm de pluie par an.",
-      "answer": "200",
-      "explanation": "Le climat désertique est caractérisé par une sécheresse permanente avec moins de 200 mm de pluie par an."
+      "type": "mcq",
+      "prompt": "Quelle application fintech kényane est utilisée par 50 millions de personnes ?",
+      "options": [
+        "PayPal",
+        "M-Pesa",
+        "Venmo",
+        "Orange Money"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
     },
     {
       "id": "q10",
       "type": "mcq",
-      "prompt": "Quel est le taux de fécondité de l'Afrique ?",
+      "prompt": "Quel est le principal défi infrastructurel en Afrique ?",
       "options": [
-        "4,8 enfants par femme",
-        "2,5 enfants par femme",
-        "3,5 enfants par femme",
-        "5,5 enfants par femme"
+        "Excès d'infrastructures",
+        "Énergie déficitaire",
+        "Trop d'aéroports",
+        "Routes surdéveloppées"
       ],
-      "answer": 0,
-      "explanation": "Le taux de fécondité de l'Afrique est de 4,8 enfants par femme, le plus élevé au monde."
-    },
-    {
-      "id": "q12",
-      "type": "mcq",
-      "prompt": "Combien de langues sont parlées en Afrique ?",
-      "options": [
-        "1302",
-        "1000",
-        "1500",
-        "800"
-      ],
-      "answer": 0,
-      "explanation": "L'Afrique compte 1302 langues parlées."
-    },
-    {
-      "id": "q13",
-      "type": "mcq",
-      "prompt": "Quelle part du PIB africain représente l'agriculture ?",
-      "options": [
-        "13,8%",
-        "41,5%",
-        "25%",
-        "50%"
-      ],
-      "answer": 0,
-      "explanation": "L'agriculture représente 13,8% du PIB africain."
-    },
-    {
-      "id": "q14",
-      "type": "mcq",
-      "prompt": "Quel secteur représente 41,5% du PIB africain ?",
-      "options": [
-        "Le secteur secondaire",
-        "Le secteur primaire",
-        "Le secteur tertiaire",
-        "Le secteur quaternaire"
-      ],
-      "answer": 0,
-      "explanation": "Le secteur secondaire représente 41,5% du PIB africain, dominé par l'extraction minière."
-    },
-    {
-      "id": "q16",
-      "type": "fill",
-      "prompt": "Le Gabon occupe le ______ rang mondial de la production de contreplaqué.",
-      "answer": "2ème",
-      "explanation": "Le Gabon occupe le 1er rang africain et le 2ème rang mondial de la production de contreplaqué."
-    },
-    {
-      "id": "q17",
-      "type": "mcq",
-      "prompt": "Quel pays est un grand producteur de pétrole en Afrique ?",
-      "options": [
-        "Nigéria",
-        "Kenya",
-        "Afrique du Sud",
-        "Éthiopie"
-      ],
-      "answer": 0,
-      "explanation": "Le Nigéria est l'un des plus grands producteurs de pétrole en Afrique."
-    },
-    {
-      "id": "q18",
-      "type": "mcq",
-      "prompt": "Quelle est la part de l'administration publique dans les services en Afrique ?",
-      "options": [
-        "70%",
-        "30%",
-        "50%",
-        "90%"
-      ],
-      "answer": 0,
-      "explanation": "L'administration publique domine les services avec 70% des travailleurs contre 30% pour le privé."
-    },
-    {
-      "id": "q20",
-      "type": "fill",
-      "prompt": "Le climat tropical humide reçoit entre 1100 et ______ mm de pluie par an.",
-      "answer": "1500",
-      "explanation": "Le climat tropical humide reçoit entre 1100 et 1500 mm de pluie par an."
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
     }
   ]
 }

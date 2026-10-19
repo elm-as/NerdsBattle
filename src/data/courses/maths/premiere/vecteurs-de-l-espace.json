@@ -1,0 +1,72 @@
+{
+  "id": "maths-premiere-vecteurs-de-l-espace",
+  "title": "Vecteurs de l'espace",
+  "summary": "Une élève de Korhogo passionnée d'aviation veut savoir comment déterminer la position d'un avion dans l'espace. Son professeur explique qu'il faut trois composantes. Curieux, les élèves étudient le repérage dans l'espace à trois dimensions.",
+  "lesson": "## 1. Vecteurs de l'espace\n\nUn vecteur de l'espace est défini par :\n- Une direction\n- Un sens\n- Une norme (longueur)\n\nNotation : $$\\\\vec{u}$$, $$\\\\overrightarrow{AB}$$.\n\n## 2. Opérations sur les vecteurs\n\n- Addition : règle du parallélogramme\n- Multiplication par un scalaire\n- Produit scalaire (voir plus loin)\n\n## 3. Colinéarité et orthogonalité\n\n- **Colinéaires** : $$\\\\vec{u}$$ et $$\\\\vec{v}$$ sont colinéaires s'il existe k tel que $$\\\\vec{v} = k\\\\vec{u}$$.\n- **Orthogonaux** : $$\\\\vec{u} \\\\cdot \\\\vec{v} = 0$$.\n\n## 4. Vecteurs coplanaires\n\nTrois vecteurs $$\\\\vec{u}, \\\\vec{v}, \\\\vec{w}$$ sont coplanaires si l'un est combinaison des deux autres :\n$$\\\\exists \\\\alpha, \\\\beta, \\\\quad \\\\vec{w} = \\\\alpha\\\\vec{u} + \\\\beta\\\\vec{v}$$\n\nSinon, ils sont non coplanaires et forment une base.\n\n## 5. Base et repère\n\n- **Base** : ($$\\\\vec{i}, \\\\vec{j}, \\\\vec{k}$$) triple de vecteurs non coplanaires.\n- **Base orthonormée** : vecteurs deux à deux orthogonaux et de norme 1.\n- **Repère** : (O, $$\\\\vec{i}, \\\\vec{j}, \\\\vec{k}$$) avec O origine.\n\n## 6. Coordonnées\n\nDans une base ($$\\\\vec{i}, \\\\vec{j}, \\\\vec{k}$$) :\n$$\\\\vec{u} = x\\\\vec{i} + y\\\\vec{j} + z\\\\vec{k}$$ ⇒ coordonnées (x, y, z).\n\nDans un repère (O, $$\\\\vec{i}, \\\\vec{j}, \\\\vec{k}$$) :\n$$\\\\overrightarrow{OM} = x\\\\vec{i} + y\\\\vec{j} + z\\\\vec{k}$$ ⇒ M(x, y, z).\n\n## 7. Produit scalaire dans l'espace\n\nDéfinition géométrique : $$\\\\vec{u} \\\\cdot \\\\vec{v} = \\\\|\\\\vec{u}\\\\| \\\times \\\\|\\\\vec{v}\\\\| \\\times \\\\cos(\\\\vec{u}, \\\\vec{v})$$\n\nDans une base orthonormée : si $$\\\\vec{u}(x,y,z)$$ et $$\\\\vec{v}(x',y',z')$$, alors :\n$$\\\\vec{u} \\\\cdot \\\\vec{v} = xx' + yy' + zz'$$\n\nPropriétés identiques au plan : symétrie, bilinéarité.\n\n## 8. Norme et distance\n\nNorme : $$\\\\|\\\\vec{u}\\\\| = \\\\sqrt{x^2 + y^2 + z^2}$$\n\nDistance entre A(x_A,y_A,z_A) et B(x_B,y_B,z_B) :\n$$AB = \\\\sqrt{(x_B-x_A)^2 + (y_B-y_A)^2 + (z_B-z_A)^2}$$\n\n**Application à l'aviation** : Un avion au-dessus de Yamoussoukro peut être repéré par (x, y, altitude). Sa distance à l'aéroport se calcule avec la formule 3D.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "3 vecteurs non coplanaires forment une base",
+    "Dans une base orthonormée : $$\\\\vec{u}\\\\cdot\\\\vec{v}=xx'+yy'+zz'$$",
+    "$$\\\\|\\\\vec{u}\\\\|=\\\\sqrt{x^2+y^2+z^2}$$",
+    "Distance AB = $$\\\\sqrt{(x_B-x_A)^2+(y_B-y_A)^2+(z_B-z_A)^2}$$",
+    "Vecteurs coplanaires ⇔ l'un est combinaison des deux autres"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans l'espace, combien de vecteurs non coplanaires faut-il pour former une base ?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Si $$\\\\vec{u}(1,0,2)$$ et $$\\\\vec{v}(-2,0,-4)$$, ils sont :",
+      "options": [
+        "Orthogonaux",
+        "Colinéaires",
+        "De même norme",
+        "Non coplanaires"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La distance entre A(1,2,3) et B(4,6,3) est :",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans une base orthonormée, $$\\\\vec{u}\\\\cdot\\\\vec{v}=0$$ signifie :",
+      "options": [
+        "Ils sont colinéaires",
+        "Ils sont orthogonaux",
+        "Ils sont égaux",
+        "Ils sont coplanaires"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

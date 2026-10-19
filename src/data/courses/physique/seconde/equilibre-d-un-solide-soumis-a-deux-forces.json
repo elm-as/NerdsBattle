@@ -1,0 +1,150 @@
+{
+  "id": "physique-seconde-equilibre-d-un-solide-soumis-a-deux-forces",
+  "title": "Équilibre d'un solide soumis à deux forces",
+  "summary": "Les élèves de la classe de 2nde A2 du Lycée Municipal de San-Pédro préparent un cadeau pour leur professeur principal : un tableau représentant le port de San-Pédro. Pour l'accrocher, une discussion anime la classe : certains proposent d'utiliser une seule ficelle attachée en un point, d'autres préfèrent deux ficelles attachées à deux points différents. Pour trancher scientifiquement, ils décident d'étudier les conditions d'équilibre d'un solide soumis à deux forces, en prenant comme exemple leur tableau à ",
+  "lesson": "## 1. Introduction à l'équilibre mécanique\n\nUn solide est en équilibre mécanique lorsqu'il est au repos (vitesse nulle) dans un référentiel donné. En Côte d'Ivoire, de nombreuses structures doivent être en équilibre :\n- Les ponts sur les fleuves Bandama et Comoé\n- Les grues du port autonome d'Abidjan\n- Les échafaudages des chantiers de construction\n- Les pylônes électriques transportant l'énergie\n\n**Description du schéma 1:** Différents types d'équilibre. Le schéma doit montrer : (1) Équilibre stable : un pendule à son point le plus bas, (2) Équilibre instable : un pendule à son point le plus haut, (3) Équilibre indifférent : une boule sur plan horizontal, (4) Applications ivoiriennes : balançoire traditionnelle, rocher en équilibre près des montagnes de Man, pirogue stable sur l'eau.\n\n## 2. Conditions d'équilibre pour deux forces\n\n**Théorème** : Un solide soumis à deux forces $\\\\vec{F}_1$ et $\\\\vec{F}_2$ est en équilibre si et seulement si :\n1. Les deux forces ont même droite d'action\n2. Elles sont de sens opposés\n3. Elles ont même intensité : $F_1 = F_2$\n\nMathématiquement : $$\\\\vec{F}_1 + \\\\vec{F}_2 = \\\\vec{0}$$\n\n**Démonstration expérimentale** : Utilisation de dynamomètres pour montrer que les forces se compensent.\n\n## 3. Cas pratiques en contexte ivoirien\n\n**Solide suspendu par un fil** :\n- Force 1 : Poids $\\\\vec{P}$ vertical vers le bas\n- Force 2 : Tension du fil $\\\\vec{T}$ vertical vers le haut\n- Condition : $T = P$ et même droite verticale\n\nExemple : Lustre dans un hôtel d'Abidjan.\n\n**Solide sur plan horizontal** :\n- Force 1 : Poids $\\\\vec{P}$ vertical vers le bas\n- Force 2 : Réaction normale $\\\\vec{R}_N$ vertical vers le haut\n- Condition : $R_N = P$\n\nExemple : Conteneur posé sur le quai du port.\n\n**Description du schéma 2:** Équilibre d'un tableau accroché. Éléments : (1) Tableau rectangulaire, (2) Point d'attache unique au centre du haut, (3) Poids $\\\\vec{P}$ appliqué au centre de gravité, (4) Tension $\\\\vec{T}$ dans la ficelle, (5) Droite d'action commune verticale, (6) Angle si le tableau est incliné, (7) Échelle des forces.\n\n## 4. Solide sur plan incliné\n\n**Analyse des forces** :\n1. Poids $\\\\vec{P}$ : vertical vers le bas\n2. Réaction du support $\\\\vec{R}$ : décomposée en :\n   - $\\\\vec{R}_N$ : normale au plan\n   - $\\\\vec{R}_T$ : tangentielle (frottement)\n\n**Condition d'équilibre** : $$\\\\vec{P} + \\\\vec{R}_N + \\\\vec{R}_T = \\\\vec{0}$$\n\n**Calcul des composantes** :\n- Poids : $P = mg$\n- Composante normale : $P_N = P \\\\cos\\\\alpha$\n- Composante tangentielle : $P_T = P \\\\sin\\\\alpha$\nOù $\\\\alpha$ est l'angle d'inclinaison.\n\n## 5. Réactions normale et tangentielle\n\n**Réaction normale $\\\\vec{R}_N$** :\n- Perpendiculaire à la surface de contact\n- S'oppose à l'enfoncement\n- Dépend de la rigidité des matériaux\n\n**Réaction tangentielle $\\\\vec{R}_T$** (force de frottement) :\n- Parallèle à la surface de contact\n- S'oppose au glissement\n- Proportionnelle à $R_N$ : $R_T \\\\leq \\\\mu R_N$\nOù $\\\\mu$ est le coefficient de frottement.\n\n**Valeurs typiques en Côte d'Ivoire** :\n- Bois sur bois : $\\\\mu \\\\approx 0.3-0.5$\n- Caoutchouc sur asphalte sec : $\\\\mu \\\\approx 0.7-0.9$\n- Acier sur acier : $\\\\mu \\\\approx 0.2$\n\n## 6. Applications pratiques\n\n**Transport routier** :\n- Calcul de l'angle maximal de pente pour un camion freiné\n- Dimensionnement des freins pour les descentes de Man\n\n**Construction** :\n- Stabilité des échafaudages sur terrain incliné\n- Ancrage des grues sur sol meuble\n\n**Agriculture** :\n- Pente maximale pour les tracteurs\n- Stabilisation des silos à grains\n\n**Description du schéma 3:** Forces sur un camion en équilibre sur une pente. Éléments : (1) Camion sur pente d'angle $\\\\alpha$, (2) Poids $\\\\vec{P}$ avec composantes $P_N$ et $P_T$, (3) Réaction normale $\\\\vec{R}_N$, (4) Force de frottement $\\\\vec{f}$ (égale à $P_T$ à l'équilibre), (5) Angles indiqués, (6) Système d'axes (x parallèle à la pente, y perpendiculaire).\n\n## 7. Méthode de résolution de problèmes\n\n**Étapes** :\n1. Définir le système étudié\n2. Faire l'inventaire des forces extérieures\n3. Choisir un repère adapté\n4. Projeter les forces sur les axes\n5. Écrire les conditions d'équilibre : $\\\\sum F_x = 0$ et $\\\\sum F_y = 0$\n6. Résoudre le système d'équations\n\n## 8. Sécurité et normes\n\nEn Côte d'Ivoire, les normes de construction imposent :\n- Coefficients de sécurité minimaux (généralement 2 à 3)\n- Tests de stabilité pour les structures publiques\n- Contrôles réguliers des équipements\n- Formation des personnels aux principes mécaniques",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Un solide soumis à deux forces est en équilibre si les forces sont colinéaires, opposées et de même intensité",
+    "La réaction d'un support se décompose souvent en normale et tangentielle",
+    "La force de frottement statique s'oppose au glissement jusqu'à une valeur maximale",
+    "L'angle d'inclinaison critique dépend du coefficient de frottement",
+    "Les applications pratiques sont cruciales pour la sécurité"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle condition n'est PAS nécessaire pour l'équilibre d'un solide sous deux forces ?",
+      "options": [
+        "Les forces doivent être perpendiculaires",
+        "Les forces doivent être colinéaires",
+        "Les forces doivent être de sens opposés",
+        "Les forces doivent avoir même intensité"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Sur un plan horizontal, quelle force compense le poids ?",
+      "options": [
+        "La réaction normale",
+        "La force de frottement",
+        "La tension d'un fil",
+        "La poussée d'Archimède"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle est la relation mathématique pour l'équilibre ?",
+      "options": [
+        "$\\\\vec{F}_1 + \\\\vec{F}_2 = \\\\vec{0}$",
+        "$\\\\vec{F}_1 - \\\\vec{F}_2 = \\\\vec{0}$",
+        "$\\\\vec{F}_1 = 2\\\\vec{F}_2$",
+        "$\\\\vec{F}_1 \\\\times \\\\vec{F}_2 = 0$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Sur un plan incliné, la composante tangentielle du poids vaut :",
+      "options": [
+        "$P \\\\sin\\\\alpha$",
+        "$P \\\\cos\\\\alpha$",
+        "$P \\\\tan\\\\alpha$",
+        "$P/\\\\sin\\\\alpha$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "La force de frottement statique maximale dépend de :",
+      "options": [
+        "La réaction normale et du coefficient de frottement",
+        "La surface de contact uniquement",
+        "La vitesse du mobile",
+        "La température ambiante"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Pour un objet suspendu, quelle est la relation entre tension et poids à l'équilibre ?",
+      "options": [
+        "T = P",
+        "T > P",
+        "T < P",
+        "T = 0"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Le coefficient de frottement $\\\\mu$ est :",
+      "options": [
+        "Sans unité",
+        "En Newton",
+        "En mètre",
+        "En Newton/mètre"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Sur une pente, quand commence le glissement ?",
+      "options": [
+        "Quand $P\\\\sin\\\\alpha > \\\\mu P\\\\cos\\\\alpha$",
+        "Quand $P\\\\cos\\\\alpha > \\\\mu P\\\\sin\\\\alpha$",
+        "Quand $P = \\\\mu$",
+        "Quand $\\\\alpha = 0$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Pour un tableau accroché par une ficelle, les forces sont :",
+      "options": [
+        "Colinéaires et verticales",
+        "Perpendiculaires",
+        "De sens identiques",
+        "De directions aléatoires"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "L'angle maximal d'inclinaison sans glissement vérifie :",
+      "options": [
+        "$\\\\tan\\\\alpha_{\\\\text{max}} = \\\\mu$",
+        "$\\\\sin\\\\alpha_{\\\\text{max}} = \\\\mu$",
+        "$\\\\cos\\\\alpha_{\\\\text{max}} = \\\\mu$",
+        "$\\\\alpha_{\\\\text{max}} = \\\\mu$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

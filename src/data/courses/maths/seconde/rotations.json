@@ -1,0 +1,71 @@
+{
+  "id": "maths-seconde-rotations",
+  "title": "Rotations",
+  "summary": "À la rentrée scolaire, les élèves d'une classe de seconde C découvrent dans leur salle une magnifique fresque géométrique créée par les anciens élèves. La légende indique : 'Cette œuvre a été réalisée à partir de rotations successives d'un triangle de base'. Fascinés par l'harmonie et la régularité du motif, les élèves décident d'étudier les rotations pour pouvoir reproduire la figure et créer leurs propres motifs décoratifs, utiles par exemple dans l'artisanat local ou la conception de logos.",
+  "lesson": "## Rotations\n\n### 1. Définition\n\n**Rotation de centre O et d'angle α** :\nTransformation qui à tout point M associe M' tel que :\n1. OM = OM'\n2. Angle(𝑂𝑀̂,𝑂𝑀′̂) = α\n\n**Notation** : r(O, α)\n\n**Sens** :\n- α > 0 : sens trigonométrique (inverse des aiguilles)\n- α < 0 : sens horaire\n- α = 0 : identité\n- α = π : symétrie centrale\n\n### 2. Points invariants\n\n**Centre O** : Le seul point invariant (si α ≠ 0 mod 2π)\n\n**Cas particuliers** :\n- α = 0 : tous points invariants\n- α = π : symétrie centrale, seuls les points alignés avec O peuvent être invariants autrement\n\n### 3. Propriété fondamentale\n\n**Conservation des distances** :\nLa rotation est une isométrie : M'N' = MN\n\n**Conséquences** :\n- Conservation des angles\n- Conservation des aires\n- Conservation de l'alignement\n- Conservation du parallélisme\n- Conservation de l'orthogonalité\n\n### 4. Image de figures simples\n\n**Droite** : Droite faisant un angle α avec l'originale\n**Segment** : Segment de même longueur\n**Cercle** : Cercle de même rayon, centre image du centre\n**Polygone** : Polygone isométrique\n\n### 5. Construction de l'image d'un point\n\n**Méthode au compas et rapporteur** :\n1. Tracer le cercle de centre O passant par M\n2. À partir de M, porter l'angle α sur le cercle\n3. M' est l'intersection\n\n**Méthode géométrique** (pour angles particuliers) :\n- 90° : utiliser la perpendiculaire\n- 60° : utiliser triangle équilatéral\n- 45° : utiliser bissectrice d'angle droit\n\n### 6. Angle de la rotation\n\n**Détermination** :\nSi on connaît un point M et son image M',\nalors α = angle(𝑂𝑀̂,𝑂𝑀′̂)\n\n**Mesure** : En degrés ou radians\n\n### 7. Rotations et triangles isométriques\n\n**Théorème** : Deux triangles sont isométriques si et seulement si il existe une isométrie (rotation, translation, symétrie) envoyant l'un sur l'autre.\n\n### 8. Composition de rotations\n\n**Même centre** :\nr(O, α) ∘ r(O, β) = r(O, α+β)\n\n**Centres différents** :\nEn général, une rotation (sauf si α+β = 0 mod 2π : translation)\n\n### 9. Caractérisation d'une rotation\n\nUne rotation est caractérisée par :\n1. Son centre O, un point A et son image A'\n2. Son angle α, un point A et son image A'\n3. Deux points distincts A, B et leurs images A', B' (avec AB = A'B')\n\n### 10. Applications pratiques\n\n**Mécanique** :\n- Rotations d'engrenages\n- Mouvements circulaires\n\n**Architecture** :\n- Rosaces\n- Motifs circulaires\n\n**Art** :\n- Frises circulaires\n- Mandalas\n\n**Navigation** :\n- Changement de cap\n\n### 11. Rotation et polygones réguliers\n\n**Construction** :\nUn polygone régulier à n côtés peut se construire par rotations successives de 360°/n.\n\n**Exemple** : Hexagone régulier : rotations de 60°\n\n### 12. Utilisation en démonstration\n\n**Pour démontrer une égalité de longueurs** :\nMontrer que les segments sont images l'un de l'autre par une rotation.\n\n**Pour démontrer un angle** :\nUtiliser la conservation des angles par rotation.\n\n**Pour démontrer un triangle isométrique** :\nMontrer qu'un triangle est l'image de l'autre par une rotation.\n\n### 13. Coordonnées d'une rotation\n\n**Rotation de centre O(0,0) et d'angle α** :\nM(x,y) → M'(x',y') avec :\nx' = x·cosα - y·sinα\ny' = x·sinα + y·cosα\n\n**Centre quelconque O(a,b)** :\nTranslater pour ramener O à l'origine, tourner, retranslater.\n\n### 14. Exemples concrets en Côte d'Ivoire\n\n**Artisanat** :\n- Motifs circulaires sur les tissus\n- Rosaces en vannerie\n- Dessins sur les calebasses\n\n**Architecture traditionnelle** :\n- Disposition circulaire des cases\n- Motifs des toits coniques\n\n**Nature** :\n- Disposition des pétales de fleurs\n- Spirales des coquillages\n\n### 15. Rotation d'un vecteur\n\n**Formule** :\nSi 𝑢̂ fait un angle θ avec l'axe des x,\nalors r(α)(𝑢̂) fait un angle θ+α.\n\n### 16. Exercices types\n\n**Type 1** : Construire l'image d'une figure par r(O, 60°)\n**Type 2** : Trouver centre et angle d'une rotation\n**Type 3** : Construire une figure invariante par rotation\n\n### 17. Rotation et symétrie\n\n**Décomposition** :\nUne rotation de centre O et d'angle α peut se décomposer en deux symétries axiales d'axes passant par O et faisant un angle α/2.\n\n### 18. Centre d'une rotation\n\n**Construction** :\nÉtant donné A→A' et B→B' (avec AB = A'B'),\nle centre O est l'intersection des médiatrices de [AA'] et [BB'].\n\n**Justification** : O équidistant de A et A', et de B et B'.\n\n### 19. Rotations successives\n\n**Frises circulaires** :\nMotif répété par rotations de 360°/n\n\n**Rosaces** :\nCombinaison de rotations et symétries\n\n### 20. Importance pédagogique\n\nLes rotations permettent :\n- De comprendre les isométries\n- De travailler avec les angles orientés\n- De développer la vision dans l'espace\n- De créer des motifs artistiques\n\nElles complètent l'étude des transformations du plan.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Rotation : centre O, angle α",
+    "Conservation des distances et angles",
+    "Construction au compas et rapporteur",
+    "α>0 : sens trigo, α<0 : sens horaire"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Une rotation conserve :",
+      "options": [
+        "Les longueurs seulement",
+        "Les angles seulement",
+        "Longueurs et angles",
+        "Les aires seulement"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Rotation de 180° est une :",
+      "options": [
+        "Translation",
+        "Symétrie centrale",
+        "Homothétie",
+        "Symétrie axiale"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Pour construire l'image d'un point par rotation, on utilise :",
+      "options": [
+        "Une homothétie",
+        "Un cercle",
+        "Une translation",
+        "Une projection"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Rotation de 90° sens trigo : angle α =",
+      "options": [
+        "90°",
+        "-90°",
+        "180°",
+        "270°"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

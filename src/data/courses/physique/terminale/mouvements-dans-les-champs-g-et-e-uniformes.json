@@ -1,0 +1,153 @@
+{
+  "id": "physique-terminale-mouvements-dans-les-champs-g-et-e-uniformes",
+  "title": "Mouvements dans les champs g et E uniformes",
+  "summary": "Lors d'une visite à la centrale hydroélectrique de Soubré, des élèves de Terminale C observent deux phénomènes fascinants : d'une part, l'eau projetée par les turbines suit une trajectoire parabolique avant de retomber ; d'autre part, dans le laboratoire de contrôle, un technicien utilise un oscilloscope à tube cathodique où un faisceau d'électrons est dévié par des champs électriques. Les élèves réalisent que ces deux phénomènes, bien que différents, obéissent à des lois mathématiques similaires. Ils décid",
+  "lesson": "## 1. Introduction aux champs uniformes\n\nUn champ est une région de l'espace où à chaque point on peut associer une grandeur physique (vectorielle ou scalaire). Un champ uniforme est un champ dont la valeur (norme, direction et sens) est la même en tout point. En Côte d'Ivoire, l'étude des champs uniformes a des applications dans l'optimisation des systèmes d'irrigation agricole, la conception des lignes électriques à haute tension, et le développement d'appareils médicaux comme les écrans de radiographie.\n\n## 2. Champ de pesanteur uniforme\n\n### 2.1. Définition\nLe champ de pesanteur terrestre $\\\\overrightarrow{g}$ est approximativement uniforme près de la surface de la Terre pour des distances verticales faibles devant le rayon terrestre. Il est dirigé vers le centre de la Terre, vertical vers le bas, avec une intensité g ≈ 9,8 m/s².\n\n### 2.2. Force de pesanteur\nSur un corps de masse m placé dans ce champ s'exerce la force de pesanteur : $\\\\overrightarrow{P} = m\\\\overrightarrow{g}$\n\n**Description du schéma 1: Champ de pesanteur uniforme**\nReprésenter une région de l'espace limitée (par exemple un rectangle). En plusieurs points de cette région, tracer des vecteurs $\\\\overrightarrow{g}$ identiques : même longueur, même direction (verticale vers le bas), même sens. Montrer que ces vecteurs sont parallèles et équipollents. Ajouter un objet de masse m avec la force $\\\\overrightarrow{P} = m\\\\overrightarrow{g}$ qui s'exerce sur lui. Légender : \"Champ de pesanteur uniforme $\\\\overrightarrow{g}$\", \"$\\\\overrightarrow{g}$ constant en tout point\", \"Force de pesanteur : $\\\\overrightarrow{P} = m\\\\overrightarrow{g}$\".\n\n## 3. Champ électrostatique uniforme\n\n### 3.1. Définition\nUn champ électrostatique uniforme $\\\\overrightarrow{E}$ est créé entre deux plaques métalliques planes, parallèles, de grandes dimensions, portées à des potentiels différents. Les lignes de champ sont des droites parallèles, perpendiculaires aux plaques.\n\n### 3.2. Force électrique\nSur une particule de charge q placée dans ce champ s'exerce la force électrique : $\\\\overrightarrow{F}_e = q\\\\overrightarrow{E}$\n\n- Si q > 0 : $\\\\overrightarrow{F}_e$ même sens que $\\\\overrightarrow{E}$\n- Si q < 0 : $\\\\overrightarrow{F}_e$ sens opposé à $\\\\overrightarrow{E}$\n\n### 3.3. Applications pratiques\n- Tube cathodique des téléviseurs et oscilloscopes\n- Filtres électrostatiques dans l'industrie\n- Accélérateurs de particules\n- Déviation des gouttelettes dans les atomiseurs agricoles\n\n## 4. Mouvement d'un projectile dans le champ de pesanteur\n\n### 4.1. Hypothèses\n- Champ $\\\\overrightarrow{g}$ uniforme, vertical vers le bas\n- Projectile ponctuel de masse m\n- Vitesse initiale $\\\\overrightarrow{v}_0$ faisant un angle α avec l'horizontale\n- Négligence des frottements de l'air\n\n### 4.2. Accélération\nD'après le théorème du centre d'inertie : $\\\\overrightarrow{a} = \\\\overrightarrow{g}$\n\nComposantes : $a_x = 0$, $a_y = -g$\n\n### 4.3. Équations horaires\nEn prenant l'origine au point de lancement et t₀ = 0 :\n\n$v_x(t) = v_0 \\\\cos\\\\alpha$ (constant)\n\n$v_y(t) = v_0 \\\\sin\\\\alpha - gt$\n\n$x(t) = (v_0 \\\\cos\\\\alpha)t$\n\n$y(t) = (v_0 \\\\sin\\\\alpha)t - \\\\frac{1}{2}gt^2$\n\n### 4.4. Équation cartésienne de la trajectoire\nEn éliminant t entre x(t) et y(t) :\n\n$y(x) = (\\\\tan\\\\alpha)x - \\\\frac{g}{2v_0^2 \\\\cos^2\\\\alpha}x^2$\n\nC'est l'équation d'une parabole.\n\n**Description du schéma 2: Trajectoire parabolique d'un projectile**\nReprésenter une parabole avec son sommet. Indiquer le point de lancement O. Tracer le vecteur vitesse initiale $\\\\overrightarrow{v}_0$ avec son angle α par rapport à l'horizontale. Montrer la décomposition de $v_0$ en $v_{0x} = v_0\\\\cos\\\\alpha$ (constant) et $v_{0y} = v_0\\\\sin\\\\alpha$. Indiquer la flèche H (hauteur maximale) et la portée D (distance horizontale maximale). Tracer le vecteur $\\\\overrightarrow{g}$ vertical vers le bas en plusieurs points de la trajectoire. Légender : \"Trajectoire parabolique : $y = x\\\\tan\\\\alpha - \\\\frac{g}{2v_0^2\\\\cos^2\\\\alpha}x^2$\", \"H: flèche\", \"D: portée\".\n\n## 5. Grandeurs caractéristiques de la trajectoire parabolique\n\n### 5.1. Flèche H (hauteur maximale)\nAu sommet, $v_y = 0$ donc $t_s = \\\\frac{v_0 \\\\sin\\\\alpha}{g}$\n\n$H = y(t_s) = \\\\frac{v_0^2 \\\\sin^2\\\\alpha}{2g}$\n\n### 5.2. Portée D (distance horizontale maximale)\n$y = 0$ pour t = 0 (départ) et t = $\\\\frac{2v_0 \\\\sin\\\\alpha}{g}$ (retour au sol)\n\n$D = x\\\\left(\\\\frac{2v_0 \\\\sin\\\\alpha}{g}\\\\right) = \\\\frac{v_0^2 \\\\sin(2\\\\alpha)}{g}$\n\n### 5.3. Angle pour la portée maximale\n$\\\\sin(2\\\\alpha)$ maximal quand $2\\\\alpha = 90^\\\\circ$ donc $\\\\alpha = 45^\\\\circ$\n\n$D_{\\\\text{max}} = \\\\frac{v_0^2}{g}$\n\n## 6. Mouvement d'une particule chargée dans un champ électrostatique uniforme\n\n### 6.1. Cas général\nUne particule de masse m, charge q, vitesse initiale $\\\\overrightarrow{v}_0$ entrant dans un champ $\\\\overrightarrow{E}$ uniforme.\n\nAccélération : $\\\\overrightarrow{a} = \\\\frac{q}{m}\\\\overrightarrow{E}$ (constante)\n\n### 6.2. Déviation électrostatique\nCas important : $\\\\overrightarrow{v}_0$ perpendiculaire à $\\\\overrightarrow{E}$\n\nSoit $\\\\overrightarrow{E} = E\\\\overrightarrow{j}$ et $\\\\overrightarrow{v}_0 = v_0\\\\overrightarrow{i}$\n\nAccélération : $a_x = 0$, $a_y = \\\\frac{qE}{m}$\n\nÉquations horaires :\n$x(t) = v_0 t$\n$y(t) = \\\\frac{1}{2}\\\\frac{qE}{m}t^2$ (si y₀ = 0 et $v_{0y} = 0$)\n\nÉquation cartésienne : $y(x) = \\\\frac{qE}{2mv_0^2}x^2$\n\n### 6.3. Déviation sur une longueur L\nSi la particule traverse le champ sur une longueur L (dans la direction x) :\n\nTemps de traversée : $t_L = \\\\frac{L}{v_0}$\n\nDéviation à la sortie : $y_L = \\\\frac{qE}{2mv_0^2}L^2$\n\nAngle de déviation : $\\\\tan\\\\theta = \\\\frac{v_y}{v_x} = \\\\frac{qE}{mv_0^2}L$\n\n## 7. Applications en contexte ivoirien\n\n### 7.1. Irrigation par aspersion\nLes systèmes d'irrigation des plantations d'hévéa et de palmier à huile utilisent des jets d'eau paraboliques. L'optimisation de la portée et de la répartition de l'eau nécessite le calcul précis des trajectoires.\n\n### 7.2. Déviation des particules dans les analyseurs\nDans les laboratoires de contrôle qualité des industries minières, on utilise des analyseurs à déviation électrostatique pour séparer les particules selon leur rapport q/m.\n\n### 7.3. Écrans cathodiques\nBien que remplacés par les écrans LCD, les principes de déviation des électrons sont toujours enseignés pour comprendre les bases de l'électronique.\n\n**Description du schéma 3: Déviation d'un électron dans un champ électrique uniforme**\nReprésenter deux plaques métalliques parallèles entre lesquelles règne un champ électrique $\\\\overrightarrow{E}$ uniforme (flèches de la plaque positive vers la plaque négative). Un électron (charge -e) entre par la gauche avec une vitesse horizontale $\\\\overrightarrow{v}_0$. Tracer sa trajectoire parabolique (concave vers la plaque positive puisque la force $\\\\overrightarrow{F} = -e\\\\overrightarrow{E}$ est opposée au champ). Indiquer la longueur L des plaques, la déviation y_L à la sortie, et l'angle de déviation θ. Légender : \"Trajectoire : $y = \\\\frac{eE}{2mv_0^2}x^2$\", \"Déviation : $y_L = \\\\frac{eEL^2}{2mv_0^2}$\", \"Angle : $\\\\tan\\\\theta = \\\\frac{eEL}{mv_0^2}$\".\n\n## 8. Comparaison des deux types de mouvements\n\n| Caractéristique | Champ de pesanteur | Champ électrostatique |\n|----------------|-------------------|---------------------|\n| Force | $\\\\overrightarrow{P} = m\\\\overrightarrow{g}$ | $\\\\overrightarrow{F} = q\\\\overrightarrow{E}$ |\n| Accélération | $\\\\overrightarrow{a} = \\\\overrightarrow{g}$ | $\\\\overrightarrow{a} = \\\\frac{q}{m}\\\\overrightarrow{E}$ |\n| Trajectoire | Parabole | Parabole |\n| Équation | $y = x\\\\tan\\\\alpha - \\\\frac{g}{2v_0^2\\\\cos^2\\\\alpha}x^2$ | $y = \\\\frac{qE}{2mv_0^2}x^2$ (si $v_0 \\\\perp E$) |\n| Applications | Balistique, irrigation | Tubes cathodiques, filtres |\n\n## 9. Exercice guidé : optimisation d'un système d'irrigation\n\nDans une plantation de cacao à Gagnoa, on installe un système d'irrigation par aspersion. La buse est placée à 1,5 m du sol et projette l'eau avec une vitesse de 15 m/s.\n\n1. Pour un angle de 30°, calculer la portée et la hauteur maximale.\n2. Quel angle maximise la portée ?\n3. Calculer la portée maximale.\n4. Pour atteindre un point situé à 20 m, quel angle faut-il choisir ?\n\nSolution :\n1. $H = \\\\frac{v_0^2\\\\sin^2\\\\alpha}{2g} = \\\\frac{15^2 \\\\times 0,5^2}{2 \\\\times 9,8} \\\\approx 2,87\\\\ \\\\text{m}$ (hauteur au-dessus de la buse)\n   Hauteur totale : 1,5 + 2,87 = 4,37 m\n   $D = \\\\frac{v_0^2\\\\sin(2\\\\alpha)}{g} = \\\\frac{225 \\\\times \\\\sin60^\\\\circ}{9,8} \\\\approx 19,86\\\\ \\\\text{m}$\n\n2. Angle optimal : α = 45°\n\n3. $D_{\\\\text{max}} = \\\\frac{v_0^2}{g} = \\\\frac{225}{9,8} \\\\approx 22,96\\\\ \\\\text{m}$\n\n4. $D = \\\\frac{v_0^2\\\\sin(2\\\\alpha)}{g}$ donc $\\\\sin(2\\\\alpha) = \\\\frac{Dg}{v_0^2} = \\\\frac{20 \\\\times 9,8}{225} \\\\approx 0,871$\n   $2\\\\alpha \\\\approx 60,6^\\\\circ$ ou $119,4^\\\\circ$\n   $\\\\alpha \\\\approx 30,3^\\\\circ$ ou $59,7^\\\\circ$\n\n## 10. Importance dans le développement ivoirien\n\nLa maîtrise des mouvements dans les champs uniformes est essentielle pour :\n- L'agriculture moderne (systèmes d'irrigation optimisés)\n- L'industrie (contrôle de qualité par analyse de particules)\n- La santé (appareils d'imagerie médicale)\n- L'énergie (déviation des particules dans certains types de capteurs solaires)\n- L'éducation (compréhension des phénomènes physiques fondamentaux)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Un champ uniforme a même valeur, direction et sens en tout point",
+    "Dans un champ de pesanteur uniforme : $\\\\overrightarrow{a} = \\\\overrightarrow{g}$",
+    "Dans un champ électrique uniforme : $\\\\overrightarrow{a} = \\\\frac{q}{m}\\\\overrightarrow{E}$",
+    "Trajectoire d'un projectile : parabole d'équation $y = x\\\\tan\\\\alpha - \\\\frac{g}{2v_0^2\\\\cos^2\\\\alpha}x^2$",
+    "Flèche : $H = \\\\frac{v_0^2\\\\sin^2\\\\alpha}{2g}$",
+    "Portée : $D = \\\\frac{v_0^2\\\\sin(2\\\\alpha)}{g}$, maximale pour α = 45°",
+    "Déviation électrostatique : $y = \\\\frac{qE}{2mv_0^2}x^2$ (si $v_0 \\\\perp E$)",
+    "Les deux types de mouvements donnent des trajectoires paraboliques quand l'accélération est constante et perpendiculaire à la vitesse initiale"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Un champ uniforme est caractérisé par :",
+      "options": [
+        "Une valeur qui varie dans l'espace",
+        "Une valeur, direction et sens constants en tout point",
+        "Des lignes de champ qui divergent",
+        "Un potentiel qui augmente linéairement"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Dans le champ de pesanteur terrestre, l'accélération d'un projectile (sans frottement) est :",
+      "options": [
+        "Nulle",
+        "Constante, verticale vers le bas",
+        "Proportionnelle à la vitesse",
+        "Dirigée vers le haut"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La trajectoire d'un projectile dans le champ de pesanteur est :",
+      "options": [
+        "Une droite",
+        "Un cercle",
+        "Une parabole",
+        "Une hyperbole"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Pour une vitesse initiale donnée, la portée d'un projectile est maximale pour un angle de :",
+      "options": [
+        "30°",
+        "45°",
+        "60°",
+        "90°"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Dans un champ électrique uniforme, la force sur une particule chargée est :",
+      "options": [
+        "Proportionnelle à la charge",
+        "Inversement proportionnelle à la charge",
+        "Indépendante de la charge",
+        "Proportionnelle au carré de la charge"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Un électron pénètre perpendiculairement dans un champ électrique uniforme. Sa trajectoire est :",
+      "options": [
+        "Rectiligne",
+        "Circulaire",
+        "Parabolique",
+        "Hélicoïdale"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "La flèche d'un projectile lancé avec une vitesse v₀ et un angle α vaut :",
+      "options": [
+        "$\\\\frac{v_0^2\\\\sin\\\\alpha}{g}$",
+        "$\\\\frac{v_0^2\\\\sin^2\\\\alpha}{2g}$",
+        "$\\\\frac{v_0^2\\\\sin(2\\\\alpha)}{g}$",
+        "$\\\\frac{2v_0^2\\\\sin\\\\alpha}{g}$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Si on double la vitesse initiale d'un projectile, sa portée est multipliée par :",
+      "options": [
+        "2",
+        "4",
+        "√2",
+        "8"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "La déviation y d'un électron dans un champ électrique, sur une longueur L, est :",
+      "options": [
+        "Proportionnelle à L",
+        "Proportionnelle à L²",
+        "Inversement proportionnelle à L",
+        "Indépendante de L"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Pour un proton et un électron de même vitesse pénétrant dans le même champ électrique :",
+      "options": [
+        "Ils sont déviés dans le même sens",
+        "Ils sont déviés en sens opposés",
+        "Seul l'électron est dévié",
+        "Ils ne sont pas déviés"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

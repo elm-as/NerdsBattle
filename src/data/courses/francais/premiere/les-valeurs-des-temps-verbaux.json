@@ -1,0 +1,151 @@
+{
+  "id": "francais-premiere-les-valeurs-des-temps-verbaux",
+  "title": "Les valeurs des temps verbaux",
+  "summary": "À l'occasion du lancement de ses activités, le club littéraire du Lycée Moderne de Man a invité des conteurs traditionnels pour une prestation. Séduits par leur talent à jouer avec le temps du récit, les élèves de Première A2 cherchent à comprendre ces techniques narratives. À partir d'une série de textes courts (contes, extraits de romans), ils s'organisent pour identifier les temps verbaux dans le système du récit et dans celui du discours, analyser leurs valeurs d'emploi et les utiliser en contexte.",
+  "lesson": "## 1. Les deux grands systèmes temporels\n\nEn français, l'emploi des temps verbaux est organisé autour de deux **systèmes énonciatifs** principaux, qui correspondent à deux façons de situer les événements par rapport au moment de la parole.\n\n```mermaid\ngraph TD\n    A[Systèmes Temporels] --> B[Système du DISCOURS];\n    A --> C[Système du RÉCIT];\n    B --> B1[Ancrage dans la situation d'énonciation];\n    B --> B2[Présent comme point de repère];\n    B --> B3[Temps de base: Présent, Passé composé, Futur];\n    C --> C1[Récit au passé];\n    C --> C2[Passé simple comme pivot narratif];\n    C --> C3[Temps de base: Passé simple, Imparfait, Plus-que-parfait];\n```\n\n## 2. Le système du discours\n\n- **Définition** : Le locuteur (celui qui parle/écrit) s'adresse directement à un destinataire dans une situation de communication précise. Les événements sont situés par rapport au **moment présent de l'énonciation** (le 'maintenant' du locuteur).\n- **Temps de base** :\n    - **Présent** : Temps de référence. Il exprime :\n        1. L'action qui se déroule au moment où l'on parle (ex: 'Je **lis** ce texte.')\n        2. Une vérité générale (ex: 'Le soleil **se lève** à l'est.')\n        3. Un fait habituel (ex: 'Tous les matins, je **prends** mon café.') aussi appelé présent d'habitude.\n        4. Le présent de narration (pour rendre un récit plus vivant).\n    - **Passé composé** : Exprime une action achevée, dont les conséquences sont encore présentes au moment où l'on parle. C'est un passé lié au présent. (ex: 'J'**ai terminé** mes devoirs [je suis donc libre maintenant].')\n    - **Futur simple** : Exprime une action à venir par rapport au moment présent. (ex: 'Demain, je **partirai** à Abidjan.')\n- **Exemple contextualisé (Dialogue à la terrasse d'un maquis à Abobo)** :\n> '**Écoute** ! Moi, je **te dis** que ce match, notre équipe **l'a gagné** grâce à l'arbitre ! Demain, tout le monde **en parlera** dans le journal.'\n*Indices* : Présent d'énonciation ('Écoute', 'te dis'), passé composé lié au présent ('a gagné' - conséquence actuelle : on en parle), futur par rapport au présent ('en parlera').\n\n## 3. Le système du récit (ou récit au passé)\n\n- **Définition** : Le narrateur raconte des événements **passés**, coupés de la situation d'énonciation actuelle. C'est le mode du conte, du roman historique, du reportage. Les temps s'organisent autour d'un **point de repère passé**.\n- **Temps de base** :\n    - **Passé simple** (ou **passé historique**) : C'est le **temps pivot** de la narration. Il exprime des **actions principales, ponctuelles**, qui font avancer l'intrigue. Il présente les événements comme achevés. (ex: 'Le vieux sage **parla**, puis il **se tut**.')\n    - **Imparfait** : C'est le **temps du cadre**. Il exprime :\n        1. Des **actions secondaires**, des descriptions, des habitudes dans le passé (ex: 'Le soleil **brillait**, les oiseaux **chantaient**.')\n        2. Des **actions en train de se dérouler** dans le passé quand une autre action survient (ex: 'Il **dormait** quand on **frappa** à la porte.')\n        3. La **durée**, la **répétition**.\n    - **Plus-que-parfait** : Exprime l'**antériorité** par rapport à un autre événement passé. (ex: 'Quand nous **arrivâmes**, la cérémonie **avait déjà commencé**.')\n- **Exemple contextualisé (Début d'un conte ashanti)** :\n> 'Il **était** une fois, dans un village au bord de la Comoé, un jeune homme nommé Koffi. Il **travaillait** dur dans les champs de yams. Un jour, alors qu'il **labourait** depuis l'aube, une colombe **vint** se poser près de lui. Personne **n'avait jamais vu** un oiseau aussi blanc.'\n*Indices* : Imparfait pour le cadre ('était', 'travaillait', 'labourait'), passé simple pour l'événement ponctuel ('vint'), plus-que-parfait pour l'antériorité ('n'avait jamais vu').\n\n## 4. Tableau synthétique des valeurs des temps\n\n| Temps | Système | Valeurs principales | Exemple (contextualisé) |\n| :--- | :--- | :--- | :--- |\n| **Présent** | Discours | Action actuelle, vérité générale, habitude, présent de narration. | 'À Yamoussoukro, la Basilique **attire** des visiteurs du monde entier.' |\n| **Passé composé** | Discours | Action achevée dont les conséquences sont encore présentes. | 'Le gouvernement **a lancé** un nouveau plan de développement.' (il est en cours) |\n| **Futur simple** | Discours | Action à venir par rapport au présent. | 'L'année prochaine, le festival **se tiendra** à San-Pédro.' |\n| **Passé simple** | Récit | Action ponctuelle, principale, achevée dans un récit au passé. | 'Le héros **combattit** le monstre et **le vainquit**.' |\n| **Imparfait** | Récit | Description, habitude, action en durée/arrière-plan dans le passé. | 'Le marché **grouillait** de monde. Les marchandes **vendaient** leurs fruits.' |\n| **Plus-que-parfait** | Récit | Antériorité par rapport à un autre événement passé. | 'Quand nous **arrivâmes**, le conseil des sages **s'était déjà réuni**.' |\n\n## 5. Les phénomènes de rupture ou de glissement temporels\n\nUn auteur peut volontairement mélanger les systèmes ou faire varier les temps pour créer des effets spécifiques.\n\n### 5.1. Le présent de narration\n\n- **Définition** : Utilisation du **présent** (temps du discours) dans un **récit au passé** pour raconter un événement.\n- **Effet** : Donne plus de **vividité**, d'**immédiateté**, plonge le lecteur au cœur de l'action comme s'il y assistait en direct.\n- **Exemple** :\n> 'Le chasseur **avance** (présent de narration) prudemment dans la brousse. Soudain, un léopard **bondit** (présent) d'un buisson ! Hier encore, il **arpentait** (imparfait) ces sentiers sans crainte.'\n\n### 5.2. Le glissement du discours au récit (ou inversement)\n\n- **Définition** : Un texte commence dans un système (ex: discours au présent) et bascule dans l'autre (ex: récit au passé) pour une partie du récit (flashback, souvenir rapporté).\n- **Exemple** :\n> 'Aujourd'hui, je **suis** (présent - discours) heureux. Mais je me souviens de mon arrivée à Abidjan enfant. Ce jour-là, la ville me **parut** (passé simple - récit) immense et hostile. La foule **coulait** (imparfait) comme un fleuve...'\n\n### 5.3. L'imparfait à valeur de passé simple (imparfait narratif ou pittoresque)\n\n- **Définition** : Utilisation de l'**imparfait** à la place du **passé simple** pour une action ponctuelle, souvent dans une suite d'actions.\n- **Effet** : Donne plus de **solennité**, de **lenteur** ou insiste sur le côté descriptif/spectaculaire de l'action.\n- **Exemple** :\n> 'Soudain, l'avion **amorçait** (imparfait narratif) sa descente. Les lumières de la capitale **apparaissaient** (imparfait narratif) en contrebas, comme un tapis de diamants.' (Au lieu de : 'amorça', 'apparurent').\n\n## 6. L'analyse des temps dans un texte : démarche\n\n1.  **Identifier le système dominant** : Le texte est-il majoritairement au présent (discours) ou au passé (récit) ?\n2.  **Repérer les temps utilisés** et les classer (présent, imparfait, passé simple, etc.).\n3.  **Analyser leurs valeurs** dans le contexte :\n    - Le passé simple fait-il avancer l'histoire ?\n    - L'imparfait décrit-il ou exprime-t-il une habitude ?\n    - Le présent est-il un présent d'énonciation ou un présent de narration ?\n4.  **Repérer les ruptures/glissements** : Y a-t-il un changement de système ? Un présent de narration ?\n5.  **Interpréter les effets** : Pourquoi l'auteur a-t-il choisi ces temps et ces ruptures ? (Créer du rythme, de la vivacité, marquer un flashback, donner de la solennité…).\n\n## 7. Application à la production écrite\n\nPour être clair et efficace dans vos récits :\n- **Choisissez un système et tenez-vous-y** pour la narration principale : soit le système du récit (passé simple/imparfait) pour un conte, un fait historique ; soit le système du discours (présent) pour un témoignage, un article d'opinion.\n- **Utilisez le plus-que-parfait** pour exprimer clairement l'antériorité dans un récit au passé.\n- **Ménagez les ruptures** de manière intentionnelle et claire (ex: pour introduire un souvenir, utilisez une phrase charnière : 'Je me souviens que...' puis basculez au passé).\n- **Évitez les mélanges incohérents** comme un passé simple isolé dans un texte au présent, sans raison stylistique.\n\n## 8. Cas particulier : les temps dans le dialogue rapporté\n\nDans un récit au passé, les dialogues des personnages sont au **système du discours** (présent, passé composé, futur) car les personnages parlent 'au moment' de l'action passée.\n\n> 'Kofi **déclara** (passé simple - narration) : \"Je **ne tolérerai pas** (futur - discours du pers.) cette injustice ! Hier, on **a volé** (passé composé - discours) mes mangues, et aujourd'hui, on **me menace** (présent - discours) !\"'",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Deux systèmes temporels organisent l'emploi des temps : le **système du discours** (ancré dans le présent de la parole) et le **système du récit** (événements coupés du présent).",
+    "Dans le discours, les temps pivots sont le **présent**, le **passé composé** et le **futur simple**.",
+    "Dans le récit au passé, les temps pivots sont le **passé simple** (actions principales), l'**imparfait** (cadre, descriptions) et le **plus-que-parfait** (antériorité).",
+    "Le **présent de narration** introduit de la vivacité dans un récit au passé.",
+    "Les **ruptures ou glissements** temporels (passage d'un système à l'autre, imparfait narratif) sont des choix stylistiques qui créent des effets particuliers (immédiateté, solennité, flashback).",
+    "Analyser les temps verbaux permet de comprendre la structure narrative et les intentions de l'auteur."
+  ],
+  "exercise": {
+    "answer": "**Analyse de l'extrait**\n\n1.  **Verbes et temps** :\n    - se souvint : **Passé simple**\n    - avait : **Imparfait**\n    - hurlait : **Imparfait**\n    - inondait : **Imparfait**\n    - régnait : **Imparfait**\n    - circulait : **Imparfait**\n    - retentit : **Passé simple**\n    - se précipita : **Passé simple**\n    - revoit : **Présent**\n\n2.  **Système temporel dominant** : **Système du récit (récit au passé)**. La grande majorité des verbes sont au passé simple ou à l'imparfait, qui sont les temps caractéristiques de la narration d'événements révolus, coupés du présent de l'énonciation.\n\n3.  **Valeur des temps** :\n    - **Passé simple** ('se souvint', 'retentit', 'se précipita') : Ces verbes expriment des **actions ponctuelles et décisives** qui font avancer le récit : le déclenchement du souvenir, l'explosion soudaine, la réaction immédiate des ouvriers.\n    - **Imparfait** ('avait', 'hurlait', 'inondait', 'régnait', 'circulait') : Ces verbes **dressent le cadre, décrivent l'atmosphère** et les **habitudes** de l'usine. Ils créent l'arrière-plan sur lequel surviennent les actions ponctuelles du passé simple. 'Circulait' et 'hurlait' peuvent aussi indiquer des actions habituelles du contremaître.\n\n4.  **Phénomène de rupture/glissement** : Il y a un **glissement final du récit au passé vers le discours au présent**. La phrase 'Aujourd'hui, Sékou **revoit** encore cette scène en fermant les yeux.' opère un retour au moment présent de la narration (ou du personnage). Le **présent** ('revoit') marque la persistance actuelle du souvenir dans l'esprit de Sékou, créant un lien entre le passé traumatisant et le présent. Cette rupture souligne l'impact durable de l'événement sur le personnage.",
+    "question": "**Analyse des temps verbaux**\n\nLisez l'extrait suivant, inspiré d'un roman ivoirien contemporain.\n\n1. Soulignez tous les verbes et indiquez leur temps.\n2. Identifiez le système temporel dominant. Justifiez.\n3. Analysez la valeur des temps utilisés (pourquoi l'auteur a-t-il choisi l'imparfait ici ? le passé simple là ?).\n4. Relevez et expliquez un phénomène de rupture ou de glissement temporel, s'il y en a.\n\n**Extrait** :\n'Le vieux Sékou **se souvint** brusquement de son premier jour à l'usine d'huile de palme de Dabou. Il **avait** alors seize ans. La sirène **hurlait** à cinq heures du matin. Une lumière crue **inondait** les ateliers où **régnait** une odeur écœurante de fruits fermentés. Le contremaître, un Européen au visage rouge, **circulait** entre les machines en criant des ordres. Soudain, une explosion **retentit**. Tout le monde **se précipita** vers la sortie. Aujourd'hui, Sékou **revit** encore cette scène en fermant les yeux.'"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Lequel de ces temps n'appartient PAS au système du RÉCIT (au passé) ?",
+      "options": [
+        "Passé simple",
+        "Imparfait",
+        "Plus-que-parfait",
+        "Passé composé"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Dans la phrase 'Chaque soir, il regardait le soleil se coucher sur la lagune.', l'imparfait 'regardait' exprime principalement :",
+      "options": [
+        "Une action ponctuelle et soudaine.",
+        "Une action achevée dont les conséquences sont présentes.",
+        "Une habitude ou une action répétée dans le passé.",
+        "Une action future par rapport au passé."
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle est la valeur du PASSÉ SIMPLE dans un récit ?",
+      "options": [
+        "Décrire le cadre ou l'arrière-plan.",
+        "Exprimer une action habituelle.",
+        "Raconter l'action principale, ponctuelle, qui fait avancer l'histoire.",
+        "Exprimer une antériorité par rapport à une autre action passée."
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Le présent utilisé dans un récit au passé pour rendre l'action plus vivante s'appelle :",
+      "options": [
+        "Le présent d'habitude",
+        "Le présent de vérité générale",
+        "Le présent de narration",
+        "Le présent d'énonciation"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Dans la phrase 'Quand nous arrivâmes, la réunion avait déjà commencé.', le plus-que-parfait 'avait commencé' exprime :",
+      "options": [
+        "Une action simultanée.",
+        "Une action postérieure.",
+        "Une action antérieure.",
+        "Une action habituelle."
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Le système du DISCOURS a pour point de repère temporel :",
+      "options": [
+        "Une date historique précise.",
+        "Le moment présent de la personne qui parle/écrit.",
+        "Un point dans le passé choisi par le narrateur.",
+        "Le futur."
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "L'imparfait narratif (ou pittoresque) consiste à :",
+      "options": [
+        "Remplacer un imparfait par un passé simple.",
+        "Utiliser l'imparfait à la place du passé simple pour une action ponctuelle, pour un effet de style.",
+        "Ne jamais utiliser l'imparfait.",
+        "Utiliser le passé composé dans un récit."
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "'Soudain, le chef du village entrait dans la case. Tous se taisaient.' Ici, l'imparfait 'entrait' est un exemple de :",
+      "options": [
+        "Imparfait descriptif.",
+        "Imparfait d'habitude.",
+        "Imparfait narratif/pittoresque.",
+        "Faute de temps, il fallait un passé simple."
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Lequel de ces énoncés est au SYSÈME DU DISCOURS ?",
+      "options": [
+        "Il était une fois un prince courageux.",
+        "La pluie tombait doucement sur la forêt.",
+        "Je vous affirme que cet événement a marqué notre histoire.",
+        "Les guerriers se préparèrent au combat."
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Pour introduire un souvenir (flashback) dans un récit au présent, on utilise généralement :",
+      "options": [
+        "Le futur simple.",
+        "Un mélange incohérent de temps.",
+        "Une phrase charnière puis on bascule au système du récit (passé simple/imparfait).",
+        "On reste au présent pour tout le texte."
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

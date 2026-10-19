@@ -1,0 +1,58 @@
+{
+  "id": "maths-sixieme-effectifs-et-frequences",
+  "title": "Effectifs et fréquences",
+  "summary": "Le directeur du Lycée Moderne veut connaître les moyens de transport utilisés par les 40 élèves de 6ème pour venir à l'école. Comment organiser et présenter ces données ?",
+  "lesson": "## Statistique : Effectifs et fréquences\n\n### Vocabulaire de base\n\n**Population :** Ensemble étudié (ex : les 40 élèves de 6ème)\n**Caractère :** Ce qu'on étudie (ex : moyen de transport)\n**Modalité :** Valeur possible du caractère (ex : à pied, vélo, bus, voiture)\n\n### Effectif\n\n**Effectif :** Nombre de fois qu'une modalité apparaît\n**Effectif total :** Somme de tous les effectifs\n\n### Exemple complet\n\nDans une classe de 40 élèves, les moyens de transport sont :\n- À pied : 12 élèves\n- Vélo : 10 élèves\n- Bus : 8 élèves\n- Voiture : 6 élèves\n- Moto : 4 élèves\n\n**Effectif total = 12 + 10 + 8 + 6 + 4 = 40 élèves**\n\n### Fréquence\n\n**Fréquence = Effectif ÷ Effectif total**\n\nLa fréquence peut s'exprimer :\n- En nombre décimal (entre 0 et 1)\n- En pourcentage (entre 0% et 100%)\n\n**Calcul des fréquences de l'exemple :**\n- Fréquence \"À pied\" = 12/40 = 0,3 = 30%\n- Fréquence \"Vélo\" = 10/40 = 0,25 = 25%\n- Fréquence \"Bus\" = 8/40 = 0,2 = 20%\n- Fréquence \"Voiture\" = 6/40 = 0,15 = 15%\n- Fréquence \"Moto\" = 4/40 = 0,1 = 10%\n\n### Tableau statistique\n\n| Transport | Effectif | Fréquence | Fréquence (%) |\n|-----------|----------|-----------|---------------|\n| À pied    | 12       | 0,3       | 30%           |\n| Vélo      | 10       | 0,25      | 25%           |\n| Bus       | 8        | 0,2       | 20%           |\n| Voiture   | 6        | 0,15      | 15%           |\n| Moto      | 4        | 0,1       | 10%           |\n| **Total** | **40**   | **1**     | **100%**      |\n\n### Propriétés importantes\n\n**1. La somme des effectifs = Effectif total**\n12 + 10 + 8 + 6 + 4 = 40\n\n**2. La somme des fréquences = 1 (ou 100%)**\n0,3 + 0,25 + 0,2 + 0,15 + 0,1 = 1\n\n### Applications\n\n**Interpréter les données :**\n- 30% des élèves viennent à pied (la modalité la plus fréquente)\n- 10% des élèves viennent en moto (la modalité la moins fréquente)\n- 3 élèves sur 10 viennent à pied (0,3 = 3/10)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Effectif = nombre d'occurrences d'une modalité",
+    "Effectif total = somme des effectifs",
+    "Fréquence = effectif ÷ effectif total",
+    "Somme des fréquences = 1 (ou 100%)"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Si un effectif est 15 et l'effectif total est 50, quelle est la fréquence ?",
+      "options": [
+        "0,3",
+        "0,5",
+        "1,5",
+        "3,33"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle est toujours la somme des fréquences ?",
+      "options": [
+        "0",
+        "1",
+        "10",
+        "100"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Dans une classe de 30 élèves, 12 sont des filles. Quelle est leur fréquence ?",
+      "options": [
+        "0,2",
+        "0,3",
+        "0,4",
+        "0,5"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

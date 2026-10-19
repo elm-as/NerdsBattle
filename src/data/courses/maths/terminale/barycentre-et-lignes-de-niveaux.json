@@ -1,0 +1,150 @@
+{
+  "id": "maths-terminale-barycentre-et-lignes-de-niveaux",
+  "title": "Barycentre et lignes de niveaux",
+  "summary": "Une baignoire de bébé peut contenir 30 litres d'eau. Sur les conseils d'un pédiatre, une jeune maman à Korhogo cherche à la remplir d'eau à 34°C mais elle éprouve des difficultés. Elle dispose pour cela d'eau froide à 10°C et doit faire bouillir de l'eau à 100°C. On admet que la température de l'eau est la moyenne des températures de l'eau froide et de l'eau bouillante affectées des coefficients égaux à la quantité d'eau froide et d'eau bouillante. Elle sollicite sa petite sœur en classe de terminale qui so",
+  "lesson": "## 1. Définition du barycentre\n\nSoient A₁, A₂, ..., Aₙ des points du plan ou de l'espace et α₁, α₂, ..., αₙ des réels tels que ∑αᵢ ≠ 0. Il existe un unique point G tel que :\n$$\\\\sum_{i=1}^{n} \\\\alpha_i \\\\overrightarrow{GA_i} = \\\\vec{0}$$\n\nG est appelé **barycentre** des points (Aᵢ, αᵢ).\n\n## 2. Propriété fondamentale\n\nPour tout point M du plan :\n$$\\\\sum_{i=1}^{n} \\\\alpha_i \\\\overrightarrow{MA_i} = \\\\left(\\\\sum_{i=1}^{n} \\\\alpha_i\\\\right) \\\\overrightarrow{MG}$$\n\n**Exemple contextualisé** : À Abidjan, trois dépôts pétroliers A, B, C stockent respectivement 20, 30 et 50 tonnes. Le barycentre G des points A, B, C affectés des coefficients 20, 30, 50 représente la position optimale pour construire une raffinerie minimisant les distances de transport pondérées.\n\n## 3. Coordonnées du barycentre\n\nDans un repère, si Aᵢ(xᵢ, yᵢ), alors G(x_G, y_G) avec :\n$$x_G = \\\\frac{\\\\sum \\\\alpha_i x_i}{\\\\sum \\\\alpha_i}, \\\\quad y_G = \\\\frac{\\\\sum \\\\alpha_i y_i}{\\\\sum \\\\alpha_i}$$\n\n## 4. Réduction de ∑αᵢMAᵢ²\n\n**Théorème important** :\nPour tout point M :\n$$\\\\sum_{i=1}^{n} \\\\alpha_i MA_i^2 = \\\\left(\\\\sum \\\\alpha_i\\\\right) MG^2 + \\\\sum_{i=1}^{n} \\\\alpha_i GA_i^2$$\n\n**Démonstration** :\nMAᵢ² = \\\\overrightarrow{MA_i}·\\\\overrightarrow{MA_i}\n= (\\\\overrightarrow{MG} + \\\\overrightarrow{GA_i})·(\\\\overrightarrow{MG} + \\\\overrightarrow{GA_i})\n= MG² + 2\\\\overrightarrow{MG}·\\\\overrightarrow{GA_i} + GAᵢ²\nEn sommant : ∑αᵢMAᵢ² = (∑αᵢ)MG² + 2\\\\overrightarrow{MG}·(∑αᵢ\\\\overrightarrow{GAᵢ}) + ∑αᵢGAᵢ²\nOr ∑αᵢ\\\\overrightarrow{GAᵢ} = \\\\vec{0} par définition de G.\n\n## 5. Lignes de niveau de M → ∑αᵢMAᵢ²\n\nL'ensemble {M | ∑αᵢMAᵢ² = k} est :\n- Un cercle de centre G si ∑αᵢ ≠ 0 et k > ∑αᵢGAᵢ²\n- Le point G si k = ∑αᵢGAᵢ²\n- L'ensemble vide si k < ∑αᵢGAᵢ²\n\n## 6. Lignes de niveau de M → MA/MB\n\nL'ensemble {M | MA/MB = k} avec k > 0 :\n- Si k = 1 : médiatrice de [AB]\n- Si k ≠ 1 : cercle d'Apollonius\n\n**Application géographique** : À San-Pédro, un navire se trouve à des distances des ports A et B dans le rapport 2:1. Tracer le cercle d'Apollonius correspondant.\n\n## 7. Lignes de niveau de M → Mes(\\\\overrightarrow{MA}, \\\\overrightarrow{MB})\n\nL'ensemble {M | (\\\\overrightarrow{MA}, \\\\overrightarrow{MB}) = θ [π]} est un arc capable de l'angle θ.\n\n## 8. Théorème des barycentres partiels\n\nSi on regroupe des points, le barycentre global est le barycentre des barycentres partiels affectés des sommes des coefficients.\n\n## 9. Applications physiques\n\nLe barycentre correspond au centre de gravité en mécanique. Dans la situation de la baignoire :\nSoit x la quantité d'eau bouillante (100°C) et y la quantité d'eau froide (10°C).\nTempérature moyenne = (100x + 10y)/(x+y) = 34°C\nVolume total : x+y = 30L\n\nRésolution du système :\n$$\\\\begin{cases} 100x + 10y = 34(x+y) \\\\\\\\ x+y = 30 \\\\end{cases}$$\n$$100x + 10(30-x) = 34×30$$\n$$100x + 300 - 10x = 1020$$\n$$90x = 720 \\\\Rightarrow x = 8L$$\n\n## 10. Construction géométrique\n\nMéthode pour construire le barycentre de 3 points pondérés :\n1. Construire le barycentre G₁ de (A,α) et (B,β)\n2. Construire le barycentre G de (G₁, α+β) et (C,γ)\n\n```mathgraph\n{\n  \"type\": \"points\",\n  \"title\": \"Barycentre de 3 points pondérés\",\n  \"xRange\": [0, 10],\n  \"yRange\": [0, 10],\n  \"points\": [\n    { \"x\": 2, \"y\": 3, \"label\": \"A(2,3)\", \"coefficient\": 2 },\n    { \"x\": 7, \"y\": 4, \"label\": \"B(7,4)\", \"coefficient\": 3 },\n    { \"x\": 4, \"y\": 8, \"label\": \"C(4,8)\", \"coefficient\": 5 },\n    { \"x\": 4.5, \"y\": 5.7, \"label\": \"G\", \"color\": \"red\", \"size\": 8 }\n  ],\n  \"showGrid\": true,\n  \"showAxes\": true\n}\n```",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Barycentre G défini par ∑αᵢ\\\\overrightarrow{GAᵢ} = \\\\vec{0} avec ∑αᵢ≠0",
+    "Réduction : ∑αᵢMAᵢ² = (∑αᵢ)MG² + ∑αᵢGAᵢ²",
+    "MA/MB = k (k≠1) définit un cercle d'Apollonius",
+    "MA/MB = 1 définit la médiatrice de [AB]",
+    "Coordonnées : x_G = (∑αᵢxᵢ)/(∑αᵢ), y_G = (∑αᵢyᵢ)/(∑αᵢ)"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Le barycentre des points (A,α) et (B,β) existe si :",
+      "options": [
+        "α+β=0",
+        "α+β≠0",
+        "α=β",
+        "αβ≠0"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Si G est barycentre de (A,2) et (B,3), alors :",
+      "options": [
+        "2GA+3GB=0",
+        "2AG+3BG=0",
+        "2GA+3GB=5",
+        "2AG+3BG=5"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Pour tout point M, ∑αᵢMAᵢ² = (∑αᵢ)MG² + K. Que vaut K ?",
+      "options": [
+        "∑αᵢMAᵢ",
+        "∑αᵢGAᵢ",
+        "∑αᵢGAᵢ²",
+        "MG²"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "L'ensemble {M | MA/MB = 1} est :",
+      "options": [
+        "Un cercle",
+        "Une droite",
+        "La médiatrice de [AB]",
+        "Deux droites"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Si A(1,2), B(5,6) avec coefficients 3 et 1, quelle est l'abscisse de G ?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Le barycentre de 3 points alignés est :",
+      "options": [
+        "Toujours aligné avec eux",
+        "Jamais aligné",
+        "Aligné seulement si coefficients égaux",
+        "Aligné seulement si triangle équilatéral"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dans la formule de réduction, si ∑αᵢ=0, que peut-on dire ?",
+      "options": [
+        "Le barycentre existe toujours",
+        "Le barycentre n'existe pas",
+        "La formule est encore valable",
+        "∑αᵢMAᵢ² est constant"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "L'ensemble {M | MA²+MB²=10} avec AB=4 est :",
+      "options": [
+        "Un cercle de rayon √3",
+        "Un cercle de rayon √10",
+        "Le milieu de [AB]",
+        "Un cercle de centre le milieu de [AB]"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Le théorème des barycentres partiels permet de :",
+      "options": [
+        "Calculer G en regroupant des points",
+        "Trouver des coefficients",
+        "Changer de repère",
+        "Résoudre des équations"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Dans la situation de la baignoire, si on veut 40°C avec 30L total, combien d'eau bouillante ?",
+      "options": [
+        "10L",
+        "15L",
+        "20L",
+        "25L"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

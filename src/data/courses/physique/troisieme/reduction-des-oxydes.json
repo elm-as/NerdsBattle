@@ -1,0 +1,32 @@
+{
+  "id": "physique-troisieme-reduction-des-oxydes",
+  "title": "Réduction des oxydes",
+  "summary": "Histoire-Géo Lycée Zouan-Hounien, 3ème 3 : régions CI ont oxydes métalliques. Comment obtenir métaux ?",
+  "lesson": "# Réduction des oxydes\n\n## I. Réduction de l'oxyde cuivrique\n\n### Expérience\nCuO (poudre noire) + C (carbone) chauffés\n\n### Observations\n- Incandescence\n- Poudre devient rose-rouge\n- Dégagement gazeux\n\n### Réaction\n2 CuO + C donne 2 Cu + CO₂\n\n### Produits\n- Cuivre Cu (métal rose-rouge)\n- Dioxyde de carbone CO₂\n\n## II. Réduction oxyde ferrique\n\n### Expérience\nFe₂O₃ + Al (aluminium) en poudre\n\n### Réaction (aluminothermie)\nFe₂O₃ + 2 Al donne 2 Fe + Al₂O₃\n\n### Observations\n- Très exothermique\n- Fer liquide obtenu\n- Température > 2000°C\n\n### Produits\n- Fer Fe (métal)\n- Alumine Al₂O₃\n\n## III. Définitions\n\n### Réduction\nPerte de dioxygène par un composé\n\n### Oxydant\nCorps qui capte électrons (gagne O ou perd H)\nExemple : CuO, Fe₂O₃, O₂\n\n### Réducteur\nCorps qui cède électrons (perd O ou gagne H)\nExemple : C, Al, H₂\n\n### Oxydoréduction\nRéaction avec transfert d'électrons\nOxydation + Réduction simultanées\n\n## IV. Identification\n\n### Corps oxydé\nRéducteur qui perd électrons\n(C devient CO₂, Al devient Al₂O₃)\n\n### Corps réduit\nOxydant qui gagne électrons\n(CuO devient Cu, Fe₂O₃ devient Fe)\n\n## V. Applications CI\n\n### Métallurgie\n- Extraction fer (haut-fourneau)\n- Extraction cuivre\n- Mines Côte d'Ivoire (nickel, manganèse)\n\n### Soudure\nAluminothermie pour rails",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Réduction = perte O₂",
+    "Oxydant capte électrons",
+    "Réducteur cède électrons",
+    "Oxydoréduction = oxydation + réduction"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La réduction est :",
+      "options": [
+        "Gain d'O₂",
+        "Perte d'O₂",
+        "Gain de C",
+        "Perte de Fe"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

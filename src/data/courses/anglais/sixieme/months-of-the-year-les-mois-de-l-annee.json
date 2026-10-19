@@ -1,0 +1,58 @@
+{
+  "id": "anglais-sixieme-months-of-the-year-les-mois-de-l-annee",
+  "title": "Months of the Year - Les mois de l'année",
+  "summary": "Kofi demande : 'When is your birthday?' Awa répond : 'My birthday is in July.' Comment parler des mois ?",
+  "lesson": "## Months of the Year - Les mois de l'année\n\n### The Twelve Months\n\n- **January** - janvier\n- **February** - février\n- **March** - mars\n- **April** - avril\n- **May** - mai\n- **June** - juin\n- **July** - juillet\n- **August** - août\n- **September** - septembre\n- **October** - octobre\n- **November** - novembre\n- **December** - décembre\n\n⚠️ **Majuscule obligatoire !**\n\n## Using Months\n\n**IN + mois**\n\n- My birthday is **in July**.\n- School starts **in September**.\n- Christmas is **in December**.\n\n## Dates\n\n### Ordinal Numbers for Dates\n- 1st - first\n- 2nd - second\n- 3rd - third\n- 4th - fourth\n- 5th - fifth\n- 20th - twentieth\n- 21st - twenty-first\n\n**When is your birthday?**\n- It's on the 15th of March.\n- It's on March 15th.\n\n## Seasons - Les saisons\n\n- **Spring** - printemps (March to May)\n- **Summer** - été (June to August)\n- **Autumn/Fall** - automne (September to November)\n- **Winter** - hiver (December to February)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "12 mois avec majuscule",
+    "In + mois (in January)",
+    "On the 15th of March pour les dates",
+    "When is your birthday? pour demander"
+  ],
+  "exercise": {
+    "question": "Traduis : 'Mon anniversaire est le 10 mai. Noël est en décembre.'",
+    "answer": "\n**Solution :**\nMy birthday is on the 10th of May / on May 10th. Christmas is in December.\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'juillet' ?",
+      "options": [
+        "June",
+        "July",
+        "Jully",
+        "Julay"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle préposition avec les mois ?",
+      "options": [
+        "on",
+        "at",
+        "in",
+        "to"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Comment demander la date d'anniversaire ?",
+      "options": [
+        "What is your birthday?",
+        "Where is your birthday?",
+        "When is your birthday?",
+        "How is your birthday?"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

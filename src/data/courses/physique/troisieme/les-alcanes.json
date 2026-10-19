@@ -1,0 +1,45 @@
+{
+  "id": "physique-troisieme-les-alcanes",
+  "title": "Les alcanes",
+  "summary": "Lycée Jeunes Filles Yopougon : kiosque utilise butane, casseroles noircissent. Cantine aussi, casseroles propres.",
+  "lesson": "# Les alcanes\n\n## I. Définitions\n\n### Hydrocarbure\nComposé de carbone C et hydrogène H uniquement\n\n### Alcane\nHydrocarbure saturé (liaisons simples)\nFormule générale : CnH₂n+₂\n\n## II. Les 4 premiers alcanes\n\nn=1 Méthane CH₄\nn=2 Éthane C₂H₆ : CH₃-CH₃\nn=3 Propane C₃H₈ : CH₃-CH₂-CH₃\nn=4 Butane C₄H₁₀ : CH₃-CH₂-CH₂-CH₃\n\n### Isomères du butane\n\nn-butane : CH₃-CH₂-CH₂-CH₃\n\nIsobutane (méthylpropane)\n\n## III. Combustion du butane\n\n### Combustion COMPLÈTE\nRéaction : 2 C₄H₁₀ + 13 O₂ donne 8 CO₂ + 10 H₂O\n\n- Flamme bleue\n- Dioxyde carbone CO₂\n- Eau H₂O\n- Casseroles propres\n\n### Combustion INCOMPLÈTE\nRéaction : 2 C₄H₁₀ + 9 O₂ donne 8 CO + 10 H₂O + C\n\n- Flamme jaune-orange\n- Monoxyde carbone CO (toxique !)\n- Carbone C (suie noire)\n- Eau H₂O\n- Casseroles noircissent\n\n## IV. Dangers et prévention\n\n### CO : dangereux !\n- Inodore, incolore\n- Fixation sur hémoglobine\n- Asphyxie mortelle\n\n### Prévention CI\n- Bonne aération cuisines\n- Entretien équipements\n- Flamme bleue = bon réglage\n\n## V. Effet de serre\n\nCO₂ contribue au réchauffement climatique",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Alcane : CnH₂n+₂",
+    "4 premiers : méthane, éthane, propane, butane",
+    "Complète : CO₂ + H₂O (flamme bleue)",
+    "Incomplète : CO + C (jaune, dangereuse)"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La combustion complète produit :",
+      "options": [
+        "CO et C",
+        "CO₂ et H₂O",
+        "Seulement C",
+        "Seulement H₂O"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Le monoxyde de carbone CO est :",
+      "options": [
+        "Inoffensif",
+        "Visible",
+        "Toxique",
+        "Odorant"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

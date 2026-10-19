@@ -1,0 +1,32 @@
+{
+  "id": "francais-cinquieme-lecture-la-description-d-un-lieu-anime",
+  "title": "Lecture : La description d'un lieu animé",
+  "summary": "Les élèves analysent des textes descriptifs de lieux animés.",
+  "lesson": "## La description d'un lieu animé\n\n### Caractéristiques\n- Lieu avec mouvement et activité\n- Organisation spatiale claire\n- Sollicitation des 5 sens\n- Temps : imparfait ou présent\n\n### Outils\n- Indicateurs spatiaux : au centre, à gauche, à droite\n- Verbes de mouvement et d'action\n- Adjectifs qualificatifs\n- Comparaisons",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Lieu animé : mouvement, activité, vie",
+    "Organisation spatiale avec indicateurs",
+    "Solliciter les 5 sens",
+    "Temps : imparfait ou présent"
+  ],
+  "exercise": {
+    "answer": "1. Au centre 2. À gauche 3. Au fond",
+    "question": "Relève 3 indicateurs spatiaux dans : 'Au centre, les étals. À gauche, les vendeurs. Au fond, la sortie.'"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Les indicateurs spatiaux servent à :",
+      "options": [
+        "Conjuguer",
+        "Situer dans l'espace",
+        "Faire des comparaisons",
+        "Décrire des personnages"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

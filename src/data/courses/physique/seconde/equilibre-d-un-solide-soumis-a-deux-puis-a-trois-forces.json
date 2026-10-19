@@ -1,0 +1,149 @@
+{
+  "id": "physique-seconde-equilibre-d-un-solide-soumis-a-deux-puis-a-trois-forces",
+  "title": "ÉQUILIBRE D'UN SOLIDE SOUMIS À DEUX, PUIS À TROIS FORCES",
+  "summary": "À la coopérative agricole de Yamoussoukro, les producteurs d'ananas utilisent différentes méthodes pour suspendre les paniers de fruits. Certains attachent le panier par une seule corde à une poutre, d'autres utilisent deux cordes formant un angle. Les élèves de 2nde C, en visite éducative, observent que les deux méthodes fonctionnent mais se demandent quelles sont les conditions pour que le panier reste en équilibre. Ils décident d'étudier scientifiquement ces situations : d'abord pour un panier suspendu p",
+  "lesson": "## 1. Introduction à l'équilibre\n\nUn solide est en **équilibre** quand son centre d'inertie est au repos ou en mouvement rectiligne uniforme dans un référentiel galiléen. En pratique, on considère l'équilibre statique (immobilité).\n\n**Applications en Côte d'Ivoire** :\n- Échafaudages sur les chantiers\n- Structures des marchés couverts\n- Suspension des enseignes publicitaires\n- Stabilisation des pylônes électriques\n\n## 2. Équilibre d'un solide soumis à deux forces\n\n**Condition nécessaire et suffisante** : Un solide soumis à deux forces $\\\\overrightarrow{F}_1$ et $\\\\overrightarrow{F}_2$ est en équilibre si et seulement si :\n$$\\\\overrightarrow{F}_1 + \\\\overrightarrow{F}_2 = \\\\overrightarrow{0}$$\nc'est-à-dire :\n1. $\\\\overrightarrow{F}_1$ et $\\\\overrightarrow{F}_2$ ont **même droite d'action**\n2. $\\\\overrightarrow{F}_1$ et $\\\\overrightarrow{F}_2$ ont **même intensité** : $F_1 = F_2$\n3. $\\\\overrightarrow{F}_1$ et $\\\\overrightarrow{F}_2$ sont de **sens opposés**\n\n**Cas particulier** : Les deux forces sont **colinéaires** et **opposées**.\n\n## 3. Exemples concrets à deux forces\n\n**Solide suspendu à un fil** :\n- Force 1 : Poids $\\\\overrightarrow{P}$ du solide\n- Force 2 : Tension $\\\\overrightarrow{T}$ du fil\n- Condition : $\\\\overrightarrow{P} + \\\\overrightarrow{T} = \\\\overrightarrow{0}$ donc $T = P$\n\n**Solide posé sur un plan horizontal** :\n- Force 1 : Poids $\\\\overrightarrow{P}$\n- Force 2 : Réaction normale $\\\\overrightarrow{R}_n$ du support\n- Condition : $\\\\overrightarrow{P} + \\\\overrightarrow{R}_n = \\\\overrightarrow{0}$ donc $R_n = P$\n\n**Description du schéma 1:** Deux situations côte à côte. (A) Solide suspendu : cercle représentant le solide, flèche P vers le bas, flèche T vers le haut de même longueur, alignées verticalement. (B) Solide sur plan : rectangle sur ligne horizontale, flèche P vers le bas, flèche Rn vers le haut de même longueur, alignées verticalement. Légende : 'Équilibre à deux forces - Forces colinéaires et opposées'.\n\n## 4. Réactions normale et tangentielle\n\nPour un solide sur un plan incliné, la réaction $\\\\overrightarrow{R}$ se décompose en :\n- **Réaction normale** $\\\\overrightarrow{R}_n$ : perpendiculaire au plan\n- **Réaction tangentielle** $\\\\overrightarrow{R}_t$ : parallèle au plan (force de frottement)\n\n$$\\\\overrightarrow{R} = \\\\overrightarrow{R}_n + \\\\overrightarrow{R}_t$$\n\n**Rôle de $\\\\overrightarrow{R}_t$** : Empêche le glissement. Si $\\\\overrightarrow{R}_t = \\\\overrightarrow{0}$, le solide glisse.\n\n## 5. Solide sur plan incliné - Cas particulier\n\n**Sans frottement** : Le solide glisse car $\\\\overrightarrow{R}_t = \\\\overrightarrow{0}$\n\n**Avec frottement** : Conditions d'équilibre :\n1. $\\\\overrightarrow{P} + \\\\overrightarrow{R}_n + \\\\overrightarrow{R}_t = \\\\overrightarrow{0}$\n2. Projection selon la normale : $R_n = P \\\\cos\\\\alpha$\n3. Projection selon la tangente : $R_t = P \\\\sin\\\\alpha$\n\noù $\\\\alpha$ est l'angle d'inclinaison du plan.\n\n## 6. Équilibre d'un solide soumis à trois forces non parallèles\n\n**Théorème** : Si un solide est en équilibre sous l'action de trois forces non parallèles, alors :\n1. Les trois forces sont **coplanaires** (dans un même plan)\n2. Les trois forces sont **concourantes** (leurs droites d'action se coupent en un même point)\n3. La somme vectorielle est nulle : $\\\\overrightarrow{F}_1 + \\\\overrightarrow{F}_2 + \\\\overrightarrow{F}_3 = \\\\overrightarrow{0}$\n\n**Méthode graphique de résolution** (règle du triangle des forces) :\n1. Tracer $\\\\overrightarrow{F}_1$ à l'échelle\n2. À l'extrémité de $\\\\overrightarrow{F}_1$, tracer $\\\\overrightarrow{F}_2$\n3. Le vecteur qui ferme le triangle est $\\\\overrightarrow{F}_3$\n\n**Description du schéma 2:** Triangle des forces. Trois vecteurs formant un triangle fermé : F1 de A à B, F2 de B à C, F3 de C à A. Échelle indiquée. Légende : 'Condition d'équilibre : F1 + F2 + F3 = 0'. Angles internes du triangle notés α, β, γ.\n\n## 7. Exemple : Panier suspendu par deux cordes\n\n**Situation** : Panier de fruits suspendu par deux cordes faisant des angles $\\\theta_1$ et $\\\theta_2$ avec l'horizontale.\n\n**Forces en présence** :\n1. $\\\\overrightarrow{P}$ : poids du panier (vertical, vers le bas)\n2. $\\\\overrightarrow{T}_1$ : tension de la corde 1\n3. $\\\\overrightarrow{T}_2$ : tension de la corde 2\n\n**Conditions d'équilibre** :\n$$\\\\overrightarrow{P} + \\\\overrightarrow{T}_1 + \\\\overrightarrow{T}_2 = \\\\overrightarrow{0}$$\n\n**Projection sur les axes** (méthode analytique) :\nSur Ox horizontal : $T_1 \\\\cos\\\theta_1 - T_2 \\\\cos\\\theta_2 = 0$\nSur Oy vertical : $T_1 \\\\sin\\\theta_1 + T_2 \\\\sin\\\theta_2 - P = 0$\n\n**Résolution** : On obtient un système de 2 équations à 2 inconnues ($T_1$ et $T_2$).\n\n## 8. Applications techniques en Côte d'Ivoire\n\n**1. Ponts suspendus** :\n- Exemple : Pont sur la Comoé\n- Les câbles principaux supportent le tablier\n- Équilibre des forces dans les suspentes\n\n**2. Grues de chantier** :\n- Équilibre du bras avec contrepoids\n- Calcul des tensions dans les câbles\n\n**3. Lignes électriques** :\n- Suspension des câbles entre pylônes\n- Tension optimale pour éviter l'affaissement\n\n**Description du schéma 3:** Application concrète : schéma simplifié d'un pont suspendu. Tablier horizontal, deux pylônes, câbles principaux paraboliques, suspentes verticales. Flèches indiquant : P (poids du tablier), T (tensions dans les câbles), Rn (réactions des pylônes). Légende : 'Équilibre des forces dans un pont suspendu'.\n\n## 9. Méthodes de résolution\n\n**Méthode graphique** :\n1. Choisir une échelle (ex: 1 cm = 10 N)\n2. Tracer les forces connues\n3. Construire le polygone des forces fermé\n4. Mesurer les forces inconnues\n\n**Méthode analytique** :\n1. Choisir un repère (Ox, Oy)\n2. Projeter toutes les forces sur les axes\n3. Écrire $\\\\sum F_x = 0$ et $\\\\sum F_y = 0$\n4. Résoudre le système d'équations\n\n## 10. Cas particuliers importants\n\n**Trois forces parallèles** : Condition supplémentaire sur les moments (voir leçon suivante).\n\n**Forces concourantes en un point** : Le point de concours est le point d'application virtuel.\n\n**Équilibre stable vs instable** :\n- **Stable** : Après petite perturbation, retour à la position d'équilibre\n- **Instable** : Après petite perturbation, éloignement de la position\n- **Indifférent** : Toute position est équilibre",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Pour deux forces : elles doivent être colinéaires, de même intensité et de sens opposés",
+    "Pour trois forces non parallèles : elles doivent être coplanaires, concourantes et leur somme vectorielle nulle",
+    "La réaction d'un support se décompose en normale (perpendiculaire) et tangentielle (frottement)",
+    "On peut résoudre par méthode graphique (triangle des forces) ou analytique (projections)"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Pour qu'un solide soumis à deux forces soit en équilibre, ces forces doivent être :",
+      "options": [
+        "Parallèles",
+        "Colinéaires et opposées",
+        "Concourantes",
+        "De même sens"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La réaction tangentielle d'un support correspond à :",
+      "options": [
+        "La poussée d'Archimède",
+        "La force de frottement",
+        "Le poids",
+        "La tension"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Pour trois forces non parallèles en équilibre, les droites d'action sont :",
+      "options": [
+        "Parallèles",
+        "Concourantes",
+        "Quelconques",
+        "Orthogonales"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Un solide de poids 50 N est suspendu à un fil. La tension du fil est :",
+      "options": [
+        "0 N",
+        "25 N",
+        "50 N",
+        "100 N"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "La méthode du triangle des forces s'applique à :",
+      "options": [
+        "2 forces",
+        "3 forces",
+        "4 forces",
+        "n'importe quel nombre"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Sur un plan incliné à 30°, la composante normale du poids est :",
+      "options": [
+        "P sin30°",
+        "P cos30°",
+        "P tan30°",
+        "P"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Si trois forces sont concourantes et coplanaires, leur somme vectorielle nulle implique :",
+      "options": [
+        "Elles forment un triangle fermé",
+        "Elles sont parallèles",
+        "Elles sont égales",
+        "Elles sont nulles"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Pour un solide sur plan horizontal sans frottement, la réaction est :",
+      "options": [
+        "Nulle",
+        "Horizontale",
+        "Verticale",
+        "Inclinée"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "L'équilibre est dit stable si :",
+      "options": [
+        "Toute position convient",
+        "Le solide reste après perturbation",
+        "Le solide revient après perturbation",
+        "Le solide s'éloigne après perturbation"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Dans la méthode analytique, on projette les forces sur :",
+      "options": [
+        "Des axes quelconques",
+        "Deux axes perpendiculaires",
+        "Trois axes",
+        "Un seul axe"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

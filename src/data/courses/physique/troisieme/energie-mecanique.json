@@ -1,0 +1,97 @@
+{
+  "id": "physique-troisieme-energie-mecanique",
+  "title": "Énergie mécanique",
+  "summary": "Récolte papayes Lycée de Bonoua : papayes de grands arbres s'abîment plus au sol que celles de petits arbres.",
+  "lesson": "# Énergie mécanique\n\n## I. Énergie cinétique\n\n### Définition\nÉnergie due au mouvement\n\n### Formule\nEc = ½ m × v²\n\n- m : masse (kg)\n- v : vitesse (m/s)\n- Ec : joules (J)\n\n## II. Énergie potentielle de pesanteur\n\n### Définition\nÉnergie due à la position en hauteur\n\n### Formule\nEp = m × g × h\n\n- m : masse (kg)\n- g : 10 N/kg\n- h : hauteur (m)\n- Ep : joules (J)\n\n## III. Énergie mécanique\n\n### Définition\nSomme des énergies\n\nEm = Ec + Ep\n\n### Conservation\nEn absence de frottements :\nEm = constante\n\nEc + Ep = constante\n\n## IV. Transformations d'énergie\n\n### Chute libre\n- Départ : Ec = 0, Ep max\n- Descente : Ep devient Ec\n- Arrivée : Ep = 0, Ec max\n\n### Montée\n- Ec devient Ep\n- Ralentissement\n\n## V. Applications CI\n\n- Barrages hydroélectriques (Ayamé)\n- Sécurité routière (vitesse)\n- Chutes d'objets",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Ec = ½mv²",
+    "Ep = mgh",
+    "Em = Ec + Ep",
+    "Em conservée sans frottement"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "L'énergie cinétique dépend de :",
+      "options": [
+        "La hauteur",
+        "La vitesse",
+        "La température",
+        "La couleur"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-physique-1-mva69v85",
+      "type": "mcq",
+      "prompt": "Dans le contexte de la récolte des papayes à Bonoua, une papaye de masse $m = 0,5 \\, \\text{kg}$ tombe d'une hauteur de $h = 10 \\, \\text{m}$. En négligeant les frottements de l'air et en prenant $g = 10 \\, \\text{N/kg}$, quelle est la valeur de son énergie cinétique juste avant l'impact au sol ?",
+      "options": [
+        "$5 \\, \\text{J}$",
+        "$10 \\, \\text{J}$",
+        "$25 \\, \\text{J}$",
+        "$50 \\, \\text{J}$"
+      ],
+      "answer": 1,
+      "explanation": "Au départ, la papaye est au repos ($v=0$), donc son énergie cinétique est nulle. Son énergie mécanique totale est égale à son énergie potentielle de pesanteur : $E_{p} = m \\times g \\times h = 0,5 \\times 10 \\times 10 = 50 \\, \\text{J}$. En l'absence de frottements, l'énergie mécanique se conserve. Juste avant l'impact, la hauteur est nulle ($h=0$), donc l'énergie potentielle est nulle. Toute l'énergie mécanique s'est transformée en énergie cinétique. Ainsi, $E_{c} = E_{m} = 50 \\, \\text{J}$."
+    },
+    {
+      "id": "auto-physique-2-mva69v85",
+      "type": "mcq",
+      "prompt": "On compare deux papayes de même masse tombant de hauteurs différentes : la papaye A tombe de $4 \\, \\text{m}$ et la papaye B de $16 \\, \\text{m}$. En négligeant les frottements, quel est le rapport de la vitesse de la papaye B à l'impact par rapport à la vitesse de la papaye A à l'impact ?",
+      "options": [
+        "$2$ fois plus grande",
+        "$4$ fois plus grande",
+        "$8$ fois plus grande",
+        "$16$ fois plus grande"
+      ],
+      "answer": 0,
+      "explanation": "À l'impact, l'énergie potentielle initiale se transforme entièrement en énergie cinétique : $mgh = \\frac{1}{2}mv^2$. En simplifiant par $m$, on obtient $v = \\sqrt{2gh}$. La vitesse est donc proportionnelle à la racine carrée de la hauteur. Le rapport des vitesses est $\\frac{v_B}{v_A} = \\frac{\\sqrt{2g \\times 16}}{\\sqrt{2g \\times 4}} = \\sqrt{\\frac{16}{4}} = \\sqrt{4} = 2$. La vitesse de la papaye B est donc 2 fois plus grande que celle de la papaye A."
+    },
+    {
+      "id": "auto-physique-3-mva69v85",
+      "type": "mcq",
+      "prompt": "Une papaye de masse $2 \\, \\text{kg}$ est lâchée du repos depuis le sommet d'un arbre. À mi-chemin de sa chute (à la moitié de la hauteur initiale), quelle est la répartition de son énergie mécanique ?",
+      "options": [
+        "L'énergie cinétique est égale à l'énergie potentielle",
+        "L'énergie cinétique est deux fois supérieure à l'énergie potentielle",
+        "L'énergie potentielle est deux fois supérieure à l'énergie cinétique",
+        "Toute l'énergie est cinétique"
+      ],
+      "answer": 0,
+      "explanation": "Soit $H$ la hauteur initiale. L'énergie mécanique totale est $E_{m} = mgH$. À mi-chemin, la hauteur est $h = H/2$. L'énergie potentielle restante est $E_{p} = mg(H/2) = \\frac{1}{2}mgH$. Comme l'énergie mécanique se conserve et que $E_{m} = E_{c} + E_{p}$, on a $E_{c} = E_{m} - E_{p} = mgH - \\frac{1}{2}mgH = \\frac{1}{2}mgH$. Donc, à mi-chemin, $E_{c} = E_{p}$. Les deux formes d'énergie sont égales."
+    },
+    {
+      "id": "auto-physique-4-mva69v85",
+      "type": "mcq",
+      "prompt": "Pourquoi les papayes tombant de grands arbres s'abîment-elles plus souvent que celles de petits arbres, d'un point de vue énergétique ?",
+      "options": [
+        "Parce que leur masse augmente avec la hauteur",
+        "Parce que leur énergie cinétique à l'impact est plus élevée",
+        "Parce que l'accélération de la pesanteur est plus forte en hauteur",
+        "Parce que l'énergie potentielle diminue lors de la chute"
+      ],
+      "answer": 1,
+      "explanation": "L'énergie potentielle de pesanteur est proportionnelle à la hauteur ($E_{p} = mgh$). Une papaye située plus haut possède une énergie potentielle initiale plus grande. Lors de la chute, cette énergie se transforme en énergie cinétique. À l'impact, une plus grande énergie cinétique signifie une plus grande vitesse et une plus grande capacité à déformer ou endommager la papaye. La masse et l'accélération $g$ restent constantes, et l'énergie potentielle diminue effectivement, mais c'est l'augmentation de l'énergie cinétique qui cause les dégâts."
+    },
+    {
+      "id": "auto-physique-5-mva69v85",
+      "type": "mcq",
+      "prompt": "Si l'on double la masse d'une papaye tout en conservant la même hauteur de chute, que se passe-t-il pour son énergie cinétique à l'impact ?",
+      "options": [
+        "Elle reste inchangée",
+        "Elle est divisée par deux",
+        "Elle est doublée",
+        "Elle est quadruplée"
+      ],
+      "answer": 2,
+      "explanation": "L'énergie cinétique à l'impact est égale à l'énergie potentielle initiale (conservation de l'énergie mécanique). $E_{c} = mgh$. Si la masse $m$ est doublée ($m' = 2m$) et que $g$ et $h$ restent constants, la nouvelle énergie cinétique est $E_{c}' = (2m)gh = 2(mgh) = 2E_{c}$. L'énergie cinétique est donc directement proportionnelle à la masse et est doublée."
+    }
+  ]
+}

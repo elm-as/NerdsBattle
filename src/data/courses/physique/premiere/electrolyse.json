@@ -1,0 +1,280 @@
+{
+  "id": "physique-premiere-electrolyse",
+  "title": "Électrolyse",
+  "summary": "Lors d'une visite à une usine de traitement de surface à Abidjan (Zone industrielle de Yopougon), des élèves de Seconde A1 observent comment on dépose une fine couche d'étain sur des couverts en acier pour les protéger de la corrosion et les rendre brillants. Le technicien explique que ce procédé s'appelle l'électrolyse : on fait passer un courant électrique dans un bain contenant des ions étain. Intrigués par cette « réaction à l'envers » d'une pile, les élèves veulent comprendre comment l'électricité peut",
+  "lesson": "## 1. Introduction : Qu'est-ce que l'électrolyse ?\n\nL'**électrolyse** est un procédé qui utilise un courant électrique continu pour provoquer une réaction chimique non spontanée. C'est l'inverse du fonctionnement d'une pile : dans une pile, une réaction chimique spontanée produit de l'électricité ; dans l'électrolyse, on fournit de l'électricité pour réaliser une réaction qui n'aurait pas lieu naturellement. L'électrolyse a de nombreuses applications industrielles : production de métaux (aluminium, cuivre), dépôt de métaux (galvanoplastie), synthèse de produits chimiques (chlore, soude).\n\n## 2. Dispositif expérimental général\n\nUn électrolyseur est constitué de :\n- Un générateur de courant continu (source de tension).\n- Deux **électrodes** plongeant dans une solution électrolytique (conductrice par ses ions).\n- L'électrode reliée au pôle **positif** du générateur est l'**anode** (où se produit une oxydation).\n- L'électrode reliée au pôle **négatif** est la **cathode** (où se produit une réduction).\n- Le courant circule grâce au mouvement des ions : les cations (ions positifs) migrent vers la cathode, les anions (ions négatifs) migrent vers l'anode.\n\n**Description du schéma 21 : Montage général d'une électrolyse**\nDessiner un récipient contenant une solution électrolytique. Deux électrodes (barres de métal ou de carbone) plongent dans la solution. Relier l'électrode de gauche au pôle + d'un générateur (symbolisé par un cercle avec + et -) et l'électrode de droite au pôle -. Indiquer : \"Anode (+)\", \"Cathode (-)\". Tracer des flèches courbes : des anions (A⁻) migrant vers l'anode, des cations (M⁺) migrant vers la cathode. Au niveau des électrodes, écrire : \"Oxydation à l'anode\", \"Réduction à la cathode\". Ajouter un ampèremètre en série pour montrer le passage du courant.\n\n## 3. Étude de quelques électrolyses\n\n### 3.1. Électrolyse de l'acide sulfurique dilué (H₂SO₄)\nL'électrolyte est une solution diluée d'acide sulfurique, qui se dissocie en ions : $$H_{2}SO_{4} \\\\rightarrow 2H^{+} + SO_{4}^{2-}$$. L'eau est également présente.\nAvec des électrodes inattaquables (en platine ou en carbone) :\n- À la **cathode** (réduction) : les ions H⁺ sont réduits en dihydrogène gazeux : $$2H^{+} + 2e^{-} \\\\rightarrow H_{2}$$. On observe un dégagement de bulles.\n- À l'**anode** (oxydation) : l'eau est oxydée en dioxygène (les ions SO₄²⁻ ne s'oxydent pas facilement) : $$2H_{2}O \\\\rightarrow O_{2} + 4H^{+} + 4e^{-}$$. Dégagement de bulles.\nBilan global (en combinant après égalisation des électrons) : $$2H_{2}O \\\\xrightarrow{électrolyse} 2H_{2} + O_{2}$$.\nC'est la **décomposition de l'eau** par électrolyse. Le volume de H₂ produit est le double de celui de O₂.\n\n### 3.2. Électrolyse d'une solution de chlorure d'étain II (SnCl₂)\nCette électrolyse est utilisée pour le dépôt d'étain (étamage). Les ions présents sont Sn²⁺, Cl⁻, et ceux de l'eau.\n- À la **cathode** : réduction des ions Sn²⁺ en étain métallique qui se dépose sur l'électrode (souvent l'objet à étamer) : $$Sn^{2+} + 2e^{-} \\\\rightarrow Sn$$.\n- À l'**anode** (en graphite) : oxydation des ions Cl⁻ en dichlore gazeux (si la concentration en Cl⁻ est suffisante) : $$2Cl^{-} \\\\rightarrow Cl_{2} + 2e^{-}$$.\nBilan : $$SnCl_{2} \\\\xrightarrow{électrolyse} Sn + Cl_{2}$$.\nC'est ainsi qu'on recouvre les couverts ou les boîtes de conserve d'une couche d'étain protectrice.\n\n### 3.3. Électrolyse d'une solution de chlorure de sodium (NaCl)\nC'est un procédé industriel majeur pour produire du chlore, de la soude (NaOH) et de l'hydrogène. En solution concentrée, avec une anode en graphite :\n- **Cathode** : réduction de l'eau (car Na⁺ est très difficile à réduire) : $$2H_{2}O + 2e^{-} \\\\rightarrow H_{2} + 2OH^{-}$$. Il se dégage H₂ et il se forme des ions OH⁻, rendant la solution basique autour de la cathode.\n- **Anode** : oxydation des ions Cl⁻ en Cl₂ gazeux : $$2Cl^{-} \\\\rightarrow Cl_{2} + 2e^{-}$$.\nBilan global : $$2NaCl + 2H_{2}O \\\\xrightarrow{électrolyse} 2NaOH + H_{2} + Cl_{2}$$.\nLes produits sont séparés pour éviter qu'ils ne réagissent entre eux.\n\n**Description du schéma 22 : Électrolyse de l'eau (H₂SO₄ dilué)**\nDessiner un électrolyseur en U (voltamètre de Hofmann) ou un simple dispositif avec deux tubes à dégagement inversés sur les électrodes. Les électrodes en platine ou nickel. Indiquer le générateur. Montrer les bulles de gaz se dégageant : à la cathode, du H₂ (volume V) ; à l'anode, du O₂ (volume V/2). Écrire les demi-équations à côté de chaque électrode. Légender : \"Solution acidifiée (H₂SO₄ dilué)\", \"Décomposition de l'eau en dihydrogène et dioxygène\".\n\n## 4. Comparaison avec les réactions naturelles d'oxydoréduction\n\nDans une **pile**, la réaction chimique est spontanée (ΔG < 0) et elle produit un courant électrique. Les électrodes sont le siège des réactions naturelles de réduction (cathode) et d'oxydation (anode).\nDans un **électrolyseur**, la réaction chimique est forcée (ΔG > 0) ; on fournit de l'énergie électrique pour la réaliser. Les pôles sont imposés par le générateur : l'anode est le pôle +, la cathode le pôle -. Les réactions aux électrodes sont les **inverses** des réactions spontanées de réduction ou d'oxydation des espèces en présence.\nExemple : Dans une pile Daniell, la réduction spontanée est Cu²⁺ + 2e⁻ → Cu à la cathode. Dans l'électrolyse d'une solution de CuSO₄ avec anode en cuivre, on force la réaction inverse Cu → Cu²⁺ + 2e⁻ à l'anode pour purifier le cuivre.\n\n## 5. Applications de l'électrolyse\n\n### 5.1. Galvanoplastie (dépôt électrolytique)\nDépôt d'une couche mince de métal (argent, or, chrome, étain, nickel) sur un objet pour le décorer, le protéger contre la corrosion ou améliorer ses propriétés de surface. Exemple : argenture des bijoux, chromage des pare-chocs.\n\n### 5.2. Affinage des métaux\nPurification de métaux comme le cuivre. On utilise une anode en cuivre impur et une cathode en cuivre pur. À l'anode, le cuivre s'oxyde en Cu²⁺ ; à la cathode, les ions Cu²⁺ se réduisent en cuivre pur. Les impuretés tombent au fond de la cuve.\n\n### 5.3. Production de substances chimiques\n- Chlore et soude : par électrolyse de NaCl (voir ci-dessus). Le chlore sert à désinfecter l'eau (piscines, traitement des eaux) et à fabriquer des plastiques (PVC).\n- Aluminium : par électrolyse de l'alumine (Al₂O₃) dissoute dans la cryolite (Na₃AlF₆), procédé Hall-Héroult. C'est un procédé très énergivore.\n- Dioxygène et dihydrogène : par électrolyse de l'eau (pour l'hydrogène \"vert\" si l'électricité est renouvelable).\n\n### 5.4. Protection contre la corrosion (anodisation)\nPour l'aluminium, on crée par électrolyse une couche d'oxyde Al₂O₃ épaisse et protectrice à la surface du métal (anodisation).\n\n## 6. Intérêt et enjeux en Côte d'Ivoire\n\n- **Traitement de surface** : Petites industries et ateliers d'électroplastie à Abidjan pour le revêtement de pièces automobiles, de bijoux, d'ustensiles.\n- **Production de chlore** : Important pour le traitement de l'eau potable (désinfection) et pour l'industrie.\n- **Récupération de métaux** : Électrolyse pourrait être utilisée pour récupérer des métaux précieux (or, cuivre) à partir de déchets électroniques (décharge d'Akouédo).\n- **Énergie et environnement** : L'électrolyse de l'eau pour produire de l'hydrogène comme vecteur énergétique propre est une perspective si l'électricité provient de sources renouvelables (barrage de Soubré, solaire).\n\n## 7. Conclusion\n\nL'électrolyse est une technique électrochimique qui permet de réaliser des transformations chimiques non spontanées en utilisant l'énergie électrique. Elle repose sur des réactions redox forcées aux électrodes. Ses applications sont vastes et touchent à la production de matériaux, à la protection des métaux et à la synthèse de produits chimiques de base. Comprendre l'électrolyse, c'est maîtriser un outil essentiel de l'industrie moderne et envisager des solutions pour une économie plus circulaire et durable.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "L'électrolyse est un procédé qui utilise un courant électrique pour forcer une réaction chimique non spontanée.",
+    "À l'anode (pôle +) se produit une oxydation ; à la cathode (pôle -) se produit une réduction.",
+    "Les cations migrent vers la cathode, les anions vers l'anode.",
+    "L'électrolyse de l'eau acidifiée produit du dihydrogène (cathode) et du dioxygène (anode).",
+    "Les applications majeures sont la galvanoplastie, l'affinage des métaux, la production de chlore et de soude, et la synthèse de l'aluminium."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans un électrolyseur, l'électrode reliée au pôle positif du générateur est :",
+      "options": [
+        "La cathode",
+        "L'anode",
+        "Le pont salin",
+        "L'électrode de référence"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Lors de l'électrolyse de l'eau acidifiée, quel gaz se dégage à la cathode ?",
+      "options": [
+        "Dioxygène",
+        "Dihydrogène",
+        "Dichlore",
+        "Dioxyde de carbone"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle est la réaction à l'anode lors de l'électrolyse d'une solution concentrée de NaCl avec anode en graphite ?",
+      "options": [
+        "2H⁺ + 2e⁻ → H₂",
+        "2Cl⁻ → Cl₂ + 2e⁻",
+        "Na⁺ + e⁻ → Na",
+        "2H₂O → O₂ + 4H⁺ + 4e⁻"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "L'électrolyse est un processus :",
+      "options": [
+        "Spontané qui produit du courant",
+        "Forcé par un apport d'énergie électrique",
+        "Qui n'implique pas de réactions redox",
+        "Uniquement utilisé en laboratoire"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Le dépôt d'une couche de chrome sur un pare-chocs est un exemple de :",
+      "options": [
+        "Corrosion",
+        "Galvanoplastie",
+        "Distillation",
+        "Fermentation"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Lors de l'affinage électrolytique du cuivre, l'anode est constituée de :",
+      "options": [
+        "Cuivre pur",
+        "Cuivre impur",
+        "Graphite",
+        "Platine"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quelle est la relation entre les volumes de H₂ et O₂ produits par électrolyse de l'eau ?",
+      "options": [
+        "V(H₂) = V(O₂)",
+        "V(H₂) = 2 V(O₂)",
+        "V(O₂) = 2 V(H₂)",
+        "Ils sont égaux en masse"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Laquelle de ces applications n'est PAS une utilisation de l'électrolyse ?",
+      "options": [
+        "Production d'aluminium",
+        "Fabrication de piles salines",
+        "Chromeage des pièces",
+        "Production de chlore"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "En Côte d'Ivoire, l'électrolyse du NaCl est importante pour produire :",
+      "options": [
+        "De l'essence",
+        "Du chlore pour désinfecter l'eau",
+        "De l'acier",
+        "Du ciment"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "La masse de métal déposée lors d'une électrolyse est proportionnelle à :",
+      "options": [
+        "La température",
+        "La quantité d'électricité qui a traversé la cellule",
+        "La couleur de la solution",
+        "La pression atmosphérique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quelle électrode est le siège d'une oxydation dans un électrolyseur ?",
+      "options": [
+        "Cathode",
+        "Anode",
+        "Les deux",
+        "Aucune"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quel gaz se dégage à l'anode lors de l'électrolyse de l'eau acidulée ?",
+      "options": [
+        "H₂",
+        "O₂",
+        "Cl₂",
+        "CO₂"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Combien vaut la constante de Faraday ?",
+      "options": [
+        "6,02×10²³ C",
+        "96500 C/mol",
+        "8,31 J/mol·K",
+        "1,6×10⁻¹⁹ C"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel métal est produit par électrolyse de l'alumine ?",
+      "options": [
+        "Cu",
+        "Al",
+        "Fe",
+        "Zn"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quelle est la formule de la loi de Faraday ?",
+      "options": [
+        "m = MIt/nF",
+        "m = nF/MIt",
+        "m = MItF/n",
+        "m = n/MItF"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Que produit l'électrolyse de NaCl concentré ?",
+      "options": [
+        "Na + Cl₂",
+        "NaOH + H₂ + Cl₂",
+        "NaClO + H₂",
+        "Na + HCl"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Où se dépose le métal lors d'un étamage ?",
+      "options": [
+        "Anode",
+        "Cathode",
+        "Dans la solution",
+        "Sur les parois"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Quel est l'inverse d'une pile ?",
+      "options": [
+        "Électrolyseur",
+        "Générateur",
+        "Conducteur",
+        "Résistance"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Combien de moles d'électrons pour réduire 1 mole d'Al³⁺ ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Quel est le principal inconvénient de l'électrolyse ?",
+      "options": [
+        "Lent",
+        "Cher en énergie",
+        "Peu précis",
+        "Dangereux"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "maths-seconde-vecteurs-et-points-du-plan",
+  "title": "Vecteurs et points du plan",
+  "summary": "Au Lycée Moderne de Grand Bassam, un professeur propose une activité collaborative : un élève a une figure avec les points A, B, C et doit guider son partenaire (qui a une feuille blanche) pour placer les points P et Q en utilisant les vecteurs AB et AC. Par exemple : 'Place P tel que AP = 2AB - AC'. Les élèves doivent maîtriser les combinaisons linéaires de vecteurs pour réussir.",
+  "lesson": "## Vecteurs et points du plan\n\n### 1. Notion de vecteur\n\n**Définition intuitive** : Un vecteur est un objet mathématique caractérisé par :\n- Une direction\n- Un sens\n- Une longueur (norme)\n\n**En physique** : Force, vitesse, accélération\n**En géographie** : Déplacement, vent\n**En économie** : Flux de marchandises\n\n**Notation** : \\(\\vec{u}\\), \\(\\vec{AB}\\) (vecteur de A vers B)\n\n### 2. Égalité de vecteurs\n\nDeux vecteurs sont égaux s'ils ont :\n- Même direction\n- Même sens\n- Même norme\n\n**Relation de Chasles** : \\(\\vec{AB} + \\vec{BC} = \\vec{AC}\\)\n\n**Vecteur nul** : \\(\\vec{0}\\), norme nulle, direction indéfinie\n\n### 3. Opérations sur les vecteurs\n\n**a) Somme** :\n- Règle du parallélogramme\n- Règle de l'extrémité à l'origine\n\n**Propriétés** :\n- Commutativité : \\(\\vec{u} + \\vec{v} = \\vec{v} + \\vec{u}\\)\n- Associativité : \\(\\vec{u} + (\\vec{v} + \\vec{w}) = (\\vec{u} + \\vec{v}) + \\vec{w}\\)\n- Élément neutre : \\(\\vec{u} + \\vec{0} = \\vec{u}\\)\n\n**b) Multiplication par un scalaire** :\n- \\(k\\vec{u}\\) a même direction que \\(\\vec{u}\\)\n- Même sens si k>0, sens opposé si k<0\n- Norme multipliée par |k|\n\n### 4. Combinaison linéaire\n\n**Définition** : \\(\\vec{w}\\) est combinaison linéaire de \\(\\vec{u}\\) et \\(\\vec{v}\\) s'il existe a,b∈ℝ tels que \\(\\vec{w} = a\\vec{u} + b\\vec{v}\\)\n\n**Exemple** : \\(\\vec{AP} = 2\\vec{AB} - \\vec{AC}\\)\n- P est obtenu à partir de A par combinaison linéaire de \\(\\vec{AB}\\) et \\(\\vec{AC}\\)\n- Coefficients : a=2, b=-1\n\n### 5. Vecteurs colinéaires\n\n**Définition** : \\(\\vec{u}\\) et \\(\\vec{v}\\) sont colinéaires s'il existe k∈ℝ tel que \\(\\vec{v} = k\\vec{u}\\)\n\n**Caractérisation** : Même direction (ou opposée)\n\n**Application** : Points alignés\nA, B, C alignés ⇔ \\(\\vec{AB}\\) et \\(\\vec{AC}\\) colinéaires\n\n### 6. Base du plan\n\n**Définition** : Deux vecteurs non colinéaires \\(\\vec{i}\\) et \\(\\vec{j}\\) forment une base.\nTout vecteur \\(\\vec{u}\\) s'écrit de façon unique : \\(\\vec{u} = x\\vec{i} + y\\vec{j}\\)\n(x,y) sont les coordonnées de \\(\\vec{u}\\) dans la base (\\(\\vec{i},\\vec{j}\\))\n\n**Base orthonormée** : \\(\\vec{i} ⊥ \\vec{j}\\) et ||\\(\\vec{i}\\)|| = ||\\(\\vec{j}\\)|| = 1\n\n### 7. Repère du plan\n\n**Définition** : (O, \\(\\vec{i},\\vec{j}\\)) où O est un point et (\\(\\vec{i},\\vec{j}\\)) une base.\n\n**Coordonnées d'un point** : M a pour coordonnées (x,y) si \\(\\vec{OM} = x\\vec{i} + y\\vec{j}\\)\n\n### 8. Norme d'un vecteur\n\nDans une base orthonormée :\nSi \\(\\vec{u}(x,y)\\) alors ||\\(\\vec{u}\\)|| = √(x² + y²)\n\n**Distance entre deux points** :\nAB = ||\\(\\vec{AB}\\)|| = √[(xB-xA)² + (yB-yA)²]\n\n### 9. Déterminant de deux vecteurs\n\n**Définition** : Dans une base (\\(\\vec{i},\\vec{j}\\)), si \\(\\vec{u}(x,y)\\) et \\(\\vec{v}(x',y')\\) :\ndet(\\(\\vec{u},\\vec{v}\\)) = xy' - x'y\n\n**Interprétation géométrique** :\n- det(\\(\\vec{u},\\vec{v}\\)) = 0 ⇔ \\(\\vec{u}\\) et \\(\\vec{v}\\) colinéaires\n- |det(\\(\\vec{u},\\vec{v}\\))| = aire du parallélogramme construit sur \\(\\vec{u}\\) et \\(\\vec{v}\\)\n\n### 10. Applications à la géométrie\n\n**a) Alignement de trois points** :\nA, B, C alignés ⇔ det(\\(\\vec{AB},\\vec{AC}\\)) = 0\n\n**b) Parallélisme de deux droites** :\n(AB) // (CD) ⇔ \\(\\vec{AB}\\) et \\(\\vec{CD}\\) colinéaires ⇔ det(\\(\\vec{AB},\\vec{CD}\\)) = 0\n\n**c) Équation cartésienne d'une droite** :\nM(x,y) ∈ (AB) ⇔ det(\\(\\vec{AM},\\vec{AB}\\)) = 0\n⇔ (x-xA)(yB-yA) - (y-yA)(xB-xA) = 0\n\n### 11. Mesure algébrique\n\nSur une droite orientée, la mesure algébrique AB est :\n- Positive si sens de A vers B = sens de l'orientation\n- Négative sinon\n- AB = -BA\n\n### 12. Vecteur unitaire\n\nVecteur de norme 1.\nSi \\(\\vec{u}\\) non nul, \\(\\vec{u}_1 = \\frac{\\vec{u}}{||\\vec{u}||}\\) est unitaire.\n\n### 13. Construction géométrique\n\n**Méthode pour construire M tel que \\(\\vec{OM} = \\vec{u}\\)** :\n1. Placer l'origine O\n2. Tracer le représentant de \\(\\vec{u}\\) d'origine O\n3. L'extrémité est M\n\n**Combinaison linéaire** :\nPour construire \\(\\vec{w} = a\\vec{u} + b\\vec{v}\\) :\n1. Construire a\\(\\vec{u}\\)\n2. Construire b\\(\\vec{v}\\)\n3. Les mettre bout à bout\n\n### 14. Applications en contexte ivoirien\n\n**Urbanisme** :\n- Plan de lotissement\n- Réseau routier\n- Implantation de bâtiments\n\n**Agriculture** :\n- Parcelles rectangulaires\n- Systèmes d'irrigation\n- Chemins d'accès\n\n**Transport** :\n- Itinéraires\n- Distances\n- Directions\n\n**Architecture** :\n- Plans de construction\n- Répartition des espaces\n\n### 15. Exemples concrets\n\n**Exemple 1** : Champ rectangulaire\nUn agriculteur a un champ ABCD rectangle.\n\\(\\vec{AB}\\) représente la longueur, \\(\\vec{AD}\\) la largeur.\nLa diagonale \\(\\vec{AC} = \\vec{AB} + \\vec{AD}\\)\n\n**Exemple 2** : Navigation sur la lagune Ébrié\nUn bateau part de A, va vers B (\\(\\vec{AB}\\)), puis vers C (\\(\\vec{BC}\\)).\nLe déplacement total est \\(\\vec{AC} = \\vec{AB} + \\vec{BC}\\)\n\n**Exemple 3** : Forces sur un pont\nPlusieurs forces s'appliquent sur un pont.\nLa force résultante est la somme vectorielle de toutes les forces.\n\n### 16. Méthodes de démonstration\n\n**Pour prouver l'alignement** :\n1. Calculer \\(\\vec{AB}\\) et \\(\\vec{AC}\\)\n2. Montrer qu'ils sont colinéaires\n3. Conclure A, B, C alignés\n\n**Pour prouver le parallélisme** :\n1. Calculer \\(\\vec{AB}\\) et \\(\\vec{CD}\\)\n2. Montrer qu'ils sont colinéaires\n3. Conclure (AB) // (CD)\n\n### 17. Calcul pratique avec coordonnées\n\nDans un repère orthonormé (O, \\(\\vec{i},\\vec{j}\\)) :\n- A(xA, yA), B(xB, yB)\n- \\(\\vec{AB}(xB-xA, yB-yA)\\)\n- ||\\(\\vec{AB}\\)|| = √[(xB-xA)² + (yB-yA)²]\n- Milieu I de [AB] : I((xA+xB)/2, (yA+yB)/2)\n\n### 18. Exercice type\n\n**Énoncé** : A(1,2), B(4,6), C(7,10)\nMontrer que A, B, C sont alignés.\n\n**Solution** :\n\\(\\vec{AB}(3,4)\\), \\(\\vec{AC}(6,8)\\)\ndet(\\(\\vec{AB},\\vec{AC}\\)) = 3×8 - 4×6 = 24 - 24 = 0\nDonc \\(\\vec{AB}\\) et \\(\\vec{AC}\\) colinéaires, donc A, B, C alignés.\n\n### 19. Problèmes de construction\n\n**Exemple** : Construire le point M tel que \\(\\vec{AM} = 2\\vec{AB} - 3\\vec{AC}\\)\n\n**Méthode** :\n1. Construire 2\\(\\vec{AB}\\) (dilatation de \\(\\vec{AB}\\) par 2)\n2. Construire 3\\(\\vec{AC}\\)\n3. Construire -3\\(\\vec{AC}\\) (sens opposé)\n4. Mettre bout à bout 2\\(\\vec{AB}\\) et -3\\(\\vec{AC}\\)\n\n### 20. Importance en mathématiques\n\nLes vecteurs sont fondamentaux pour :\n- La géométrie analytique\n- La physique\n- L'algèbre linéaire\n- L'analyse\n\nIls permettent une approche à la fois géométrique et algébrique des problèmes.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Un vecteur a direction, sens et norme",
+    "\\(\\vec{AB}\\) et \\(\\vec{AC}\\) colinéaires ⇔ A,B,C alignés",
+    "Dans une base, tout vecteur a des coordonnées uniques",
+    "det(\\(\\vec{u},\\vec{v}\\))=0 ⇔ vecteurs colinéaires"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Deux vecteurs sont égaux s'ils ont :",
+      "options": [
+        "Même origine",
+        "Même direction, sens et norme",
+        "Même direction seulement",
+        "Même norme seulement"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "A,B,C alignés équivaut à :",
+      "options": [
+        "AB = AC",
+        "\\(\\vec{AB}\\) = \\(\\vec{AC}\\)",
+        "\\(\\vec{AB}\\) et \\(\\vec{AC}\\) colinéaires",
+        "AB + AC = BC"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Dans une base, les coordonnées d'un vecteur sont :",
+      "options": [
+        "Toujours positives",
+        "Uniques",
+        "Multiples",
+        "Imaginaires"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "det(\\(\\vec{u},\\vec{v}\\))=0 signifie :",
+      "options": [
+        "Vecteurs orthogonaux",
+        "Vecteurs colinéaires",
+        "Vecteurs unitaires",
+        "Vecteurs opposés"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

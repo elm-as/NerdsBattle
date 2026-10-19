@@ -1,0 +1,123 @@
+{
+  "id": "maths-troisieme-equations-et-inequations-du-premier-degre-dans",
+  "title": "Équations et inéquations du premier degré dans ℝ",
+  "summary": "Les élèves de la promotion troisième du Lycée Municipal 1 d'ATTECOUBE s'adressent à deux entreprises de location de cars de 50 places pour une sortie détente d'un jour. La première entreprise propose : 10 000 F CFA de caution plus 70 F CFA le km. La deuxième propose : 7 000 F CFA de caution plus 90 F CFA le km. Les élèves ont le choix entre deux destinations : Grand-Bassam et Yamoussoukro. Ils veulent déterminer la meilleure offre pour réduire les coûts.",
+  "lesson": "## 1. Équations du premier degré\n\nUne équation du premier degré est de la forme $ax + b = 0$ avec $a \\\neq 0$.\nSa solution est $x = -\\\\frac{b}{a}$.\n\n**Exemple** : $3x + 6 = 0 \\\\Rightarrow x = -2$\n\n## 2. Résolution d'équations avec parenthèses\n\nPour résoudre $2(x - 3) = 4x + 1$ :\n1. Développer : $2x - 6 = 4x + 1$\n2. Regrouper : $2x - 4x = 1 + 6$\n3. Simplifier : $-2x = 7$\n4. Solution : $x = -\\\\frac{7}{2}$\n\n## 3. Équations-produit nul\n\nSi $(ax + b)(cx + d) = 0$, alors $ax + b = 0$ ou $cx + d = 0$.\n\n**Exemple** : $(2x - 3)(x + 5) = 0$\nSolutions : $x = \\\\frac{3}{2}$ ou $x = -5$\n\n## 4. Inéquations du premier degré\n\n```mermaid\ngraph TD\n    A[Inéquation ax + b ≥ 0] --> B{Isoler x}\n    B --> C[Si a > 0]\n    B --> D[Si a < 0]\n    C --> E[x ≥ -b/a]\n    D --> F[x ≤ -b/a]\n    E --> G[Solution : [-b/a, +∞[ ]\n    F --> H[Solution : ]-∞, -b/a]]\n```\n\n## 5. Systèmes de deux inéquations\n\nRésoudre $\\\\begin{cases} 2x - 1 \\\\geq 3 \\\\\\\\ x + 2 < 5 \\\\end{cases}$\n\n1. $2x - 1 \\\\geq 3 \\\\Rightarrow 2x \\\\geq 4 \\\\Rightarrow x \\\\geq 2$\n2. $x + 2 < 5 \\\\Rightarrow x < 3$\n3. Solution : $[2, 3[$ (intersection des deux intervalles)\n\n## 6. Application à la situation d'ATTECOUBE\n\nSoit $x$ la distance en km :\n- Coût 1 : $C_1(x) = 70x + 10000$\n- Coût 2 : $C_2(x) = 90x + 7000$\n\nOn cherche quand $C_1(x) < C_2(x)$ :\n$70x + 10000 < 90x + 7000$\n$10000 - 7000 < 90x - 70x$\n$3000 < 20x$\n$x > 150$\n\n**Interprétation** :\n- Pour $x > 150$ km (Yamoussoukro), la première entreprise est plus avantageuse\n- Pour $x < 150$ km (Grand-Bassam), la deuxième est plus avantageuse\n- Pour $x = 150$ km, les deux coûts sont égaux\n\n## 7. Vérification des solutions\n\nToujours vérifier que la solution trouvée satisfait l'équation/inéquation initiale.\n\n## 8. Problèmes économiques ivoiriens\n\nLes équations et inéquations permettent de :\n- Comparer des offres de services\n- Optimiser des budgets familiaux\n- Prendre des décisions commerciales\n- Planifier des projets communautaires",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Une équation $ax + b = 0$ a pour solution $x = -\\\\frac{b}{a}$ si $a \\\neq 0$",
+    "Dans une inéquation, le sens change quand on multiplie/divise par un nombre négatif",
+    "Les solutions d'une inéquation se représentent par un intervalle",
+    "Un système d'inéquations se résout par intersection des intervalles solutions"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Solution de $3x - 6 = 0$ :",
+      "options": [
+        "2",
+        "-2",
+        "3",
+        "-3"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Si on multiplie les deux membres de $x < 5$ par -2, on obtient :",
+      "options": [
+        "$-2x < -10$",
+        "$-2x > -10$",
+        "$-2x = -10$",
+        "$-2x < 10$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Solution de $(x+2)(x-3)=0$ :",
+      "options": [
+        "2 et -3",
+        "-2 et 3",
+        "2 et 3",
+        "-2 et -3"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Représentation en intervalle de $x \\\\geq 4$ :",
+      "options": [
+        "$]4, +\\\\infty[$",
+        "$[4, +\\\\infty[$",
+        "$]-\\\\infty, 4]$",
+        "$]-\\\\infty, 4[$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Le couple (2,3) est solution de :",
+      "options": [
+        "$x + y = 5$",
+        "$2x - y = 1$",
+        "$x - 2y = -4$",
+        "Toutes ces réponses"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Un système de deux équations à deux inconnues peut avoir :",
+      "options": [
+        "0 solution",
+        "1 solution",
+        "une infinité de solutions",
+        "Toutes ces réponses"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "La solution de $\\\\begin{cases} x + y = 5 \\\\\\\\ x - y = 1 \\\\end{cases}$ est :",
+      "options": [
+        "(2,3)",
+        "(3,2)",
+        "(4,1)",
+        "(1,4)"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "La représentation graphique de $2x + y \\\\leq 4$ est :",
+      "options": [
+        "Une droite",
+        "Un cercle",
+        "Un demi-plan",
+        "Un point"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

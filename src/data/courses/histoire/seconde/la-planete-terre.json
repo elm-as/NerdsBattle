@@ -1,0 +1,149 @@
+{
+  "id": "histoire-seconde-la-planete-terre",
+  "title": "La planète Terre",
+  "summary": "La Terre, notre habitat commun, est une planète dynamique aux équilibres fragiles. Comprendre ses caractéristiques physiques et ses mécanismes est fondamental pour appréhender des enjeux globaux comme les changements climatiques, la gestion des ressources ou les questions de souveraineté. Cette leçon fournit les bases scientifiques pour une citoyenneté planétaire éclairée.",
+  "lesson": "## Introduction\n\nLa Terre, troisième planète du système solaire, est la seule connue pour abriter la vie. Cette « planète bleue », couverte à 71% par les océans, est le théâtre d'interactions complexes entre géosphère, hydrosphère, atmosphère et biosphère. Son étude est essentielle pour comprendre les fondements physiques des sociétés humaines et les défis environnementaux contemporains.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "La Terre est une sphère légèrement aplatie aux pôles, d'un rayon de 6 371 km, effectuant deux mouvements principaux : la rotation sur elle-même en 24h (causant l'alternance jour/nuit) et la révolution autour du Soleil en 365,25 jours (causant les saisons)",
+    "La surface terrestre est inégalement répartie entre océans (71%) et continents (29%), avec une forte asymétrie entre hémisphère nord (plus continental) et sud (plus océanique)",
+    "La structure interne de la Terre (noyau, manteau, croûte) est le siège de mouvements (convection, tectonique des plaques) à l'origine des reliefs, des séismes et du volcanisme",
+    "L'atmosphère, fine enveloppe gazeuse, permet la vie et son équilibre est crucial pour le climat ; son altération par les activités humaines est au cœur de la crise environnementale actuelle"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel pourcentage approximatif de la surface terrestre est couvert par les océans ?",
+      "options": [
+        "29%",
+        "50%",
+        "71%",
+        "90%"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel mouvement de la Terre est responsable de l'alternance du jour et de la nuit ?",
+      "options": [
+        "La révolution",
+        "La rotation",
+        "La précession",
+        "La nutation"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle est la principale cause des saisons sur Terre ?",
+      "options": [
+        "La variation de la distance Terre-Soleil au cours de l'année",
+        "L'inclinaison de l'axe de rotation de la Terre par rapport au plan de son orbite",
+        "Les éruptions volcaniques",
+        "La rotation de la Terre"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la couche la plus externe de la structure interne solide de la Terre ?",
+      "options": [
+        "Le noyau interne",
+        "Le manteau",
+        "La croûte terrestre",
+        "L'atmosphère"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel gaz est le plus abondant dans l'atmosphère terrestre ?",
+      "options": [
+        "L'oxygène (O2)",
+        "Le dioxyde de carbone (CO2)",
+        "L'azote (N2)",
+        "L'argon (Ar)"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel phénomène est causé par la force de Coriolis, due à la rotation de la Terre ?",
+      "options": [
+        "Les marées",
+        "La déviation des vents et des courants marins (vers la droite dans l'hémisphère nord, gauche dans le sud)",
+        "Les éclipses",
+        "Les aurores boréales"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'un fuseau horaire ?",
+      "options": [
+        "Une zone où l'heure légale est la même, généralement limitée par des méridiens espacés de 15° de longitude",
+        "Une ceinture sismique",
+        "Une zone climatique",
+        "Un type de relief"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Pourquoi dit-on que l'hémisphère sud est « plus océanique » que l'hémisphère nord ?",
+      "options": [
+        "Parce qu'il fait plus chaud",
+        "Parce que la proportion de terres émergées y est plus faible (9% contre 20% dans l'hémisphère nord)",
+        "Parce qu'il n'y a pas de continents",
+        "Parce que les océans y sont moins profonds"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quels sont les deux moments de l'année où le jour et la nuit ont approximativement la même durée partout sur Terre ?",
+      "options": [
+        "Les solstices (21 juin et 21 décembre)",
+        "Les équinoxes (vers le 21 mars et 23 septembre)",
+        "Le périhélie et l'aphélie",
+        "Les éclipses"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "En quoi la connaissance de la planète Terre est-elle importante pour aborder les questions de développement durable ?",
+      "options": [
+        "Elle permet de comprendre les limites physiques de notre environnement et l'impact global des activités humaines",
+        "Elle n'a aucun lien",
+        "Elle justifie l'exploitation illimitée des ressources",
+        "Elle montre que la Terre peut s'adapter à tout"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "maths-seconde-droites-et-plans-de-l-espace",
+  "title": "Droites et plans de l'espace",
+  "summary": "Un bijoutier de Grand-Bassam doit tailler une pierre précieuse en forme de tétraèdre. Sa fille, élève en seconde C, affirme que le plan (MNR) coupe toutes les faces de la pyramide. Pour vérifier cette assertion et aider son père à réaliser la coupe précise, elle présente le problème en classe. Les élèves doivent déterminer les intersections du plan (MNR) avec chaque face du tétraèdre, ce qui les amène à étudier les positions relatives des droites et plans dans l'espace.",
+  "lesson": "## Droites et plans de l'espace\n\n### 1. Notations et vocabulaire\n\n**Point** : A, B, C...\n**Droite** : (AB) ou (d) ou (Δ)\n**Plan** : (P) ou (ABC) ou (α)\n\n**Notation d'un plan** :\n- Par trois points non alignés : (ABC)\n- Par une droite et un point extérieur : (d, A)\n- Par deux droites sécantes : (d, d')\n- Par deux droites parallèles : (d // d')\n\n### 2. Positions relatives de deux droites\n\n**Dans l'espace, deux droites peuvent être** :\n1. **Sécantes** : Un seul point commun, coplanaires\n2. **Parallèles** : Pas de point commun, coplanaires, même direction\n3. **Strictement parallèles** : Pas de point commun, coplanaires\n4. **Confondues** : Tous points communs\n5. **Non coplanaires** : Pas de point commun, non coplanaires\n\n**Attention** : En espace, « parallèles » implique coplanaires.\nDeux droites non sécantes et non parallèles sont **non coplanaires**.\n\n### 3. Positions relatives d'une droite et d'un plan\n\n**Une droite par rapport à un plan peut être** :\n1. **Incluse** : Tous points de la droite sont dans le plan\n2. **Sécante** : Un seul point commun\n3. **Parallèle** : Aucun point commun\n\n**Caractérisation** :\n- (d) ⊂ (P) : deux points de (d) dans (P)\n- (d) ∩ (P) = {I} : un point commun\n- (d) // (P) : aucun point commun et direction non contenue dans (P)\n\n### 4. Positions relatives de deux plans\n\n**Deux plans peuvent être** :\n1. **Sécants** : Intersection = une droite\n2. **Parallèles** : Aucun point commun ou confondus\n3. **Strictement parallèles** : Aucun point commun\n4. **Confondus** : Tous points communs\n\n**Caractérisation** :\n- (P) ∩ (Q) = (d) : sécants suivant une droite\n- (P) // (Q) : pas de point commun\n- (P) = (Q) : confondus\n\n### 5. Axiomes d'incidence\n\n**Axiome 1** : Par deux points distincts passe une unique droite.\n**Axiome 2** : Par trois points non alignés passe un unique plan.\n**Axiome 3** : Si deux points distincts appartiennent à un plan, la droite qui les contient est incluse dans ce plan.\n**Axiome 4** : Si deux plans sécants ont un point commun, alors ils ont une droite commune passant par ce point.\n\n### 6. Détermination d'un plan\n\nUn plan est déterminé par :\n1. Trois points non alignés\n2. Une droite et un point n'appartenant pas à cette droite\n3. Deux droites sécantes\n4. Deux droites parallèles non confondues\n\n### 7. Parallélisme dans l'espace\n\n**Théorèmes** :\n1. Si deux droites sont parallèles, tout plan qui coupe l'une coupe l'autre.\n2. Si une droite est parallèle à deux plans sécants, elle est parallèle à leur intersection.\n3. Si deux plans sont parallèles, tout plan qui coupe l'un coupe l'autre et les intersections sont parallèles.\n\n**Théorème du toit** :\nSi deux droites (d1) et (d2) sont parallèles, et si (d1) est contenue dans un plan (P), (d2) dans un plan (Q), et si (P) et (Q) sont sécants, alors la droite d'intersection est parallèle à (d1) et (d2).\n\n### 8. Section plane d'un solide\n\n**Définition** : Intersection d'un solide avec un plan.\n\n**Méthode de construction** :\n1. Repérer les points d'intersection du plan avec les arêtes\n2. Relier ces points dans l'ordre\n3. Vérifier que les points sont bien dans une même face\n\n**Exemple** : Section d'un tétraèdre ABCD par un plan (MNR)\n- M ∈ [AB], N ∈ [AC], R ∈ [AD]\n- Section = triangle MNR\n\n### 9. Intersections à déterminer\n\n**Problème type** : Déterminer l'intersection d'une droite (d) avec un plan (P)\n\n**Méthode** :\n1. Chercher un plan (Q) contenant (d) et facile à intersecter avec (P)\n2. Déterminer (Δ) = (P) ∩ (Q)\n3. Trouver I = (d) ∩ (Δ)\n4. I est le point cherché\n\n### 10. Applications pratiques\n\n**Architecture** :\n- Intersection de murs (plans)\n- Pentes de toits (plans sécants)\n- Escaliers (sections de plans)\n\n**Cristallographie** :\n- Plans de clivage des cristaux\n- Sections de minéraux\n\n**Cartographie** :\n- Intersection de surfaces terrestres\n- Coupes géologiques\n\n**Design** :\n- Coupes de meubles\n- Assemblage de pièces\n\n### 11. Représentation en perspective\n\n**Règles** :\n- Droites parallèles dans l'espace → droites convergentes en perspective\n- Plans parallèles → lignes de fuite communes\n- Point de fuite : point où convergent les parallèles\n\n**Perspective cavalière** :\n- Conservation du parallélisme\n- Coefficient de réduction sur une direction\n\n### 12. Propriétés métriques\n\n**Distance point-plan** :\nPlus courte distance entre un point et un plan, mesurée perpendiculairement.\n\n**Distance entre deux plans parallèles** :\nConstante, mesurée perpendiculairement.\n\n**Distance entre deux droites non coplanaires** :\nPlus courte distance, unique droite perpendiculaire aux deux.\n\n### 13. Exemples concrets en Côte d'Ivoire\n\n**Construction d'un hangar agricole** :\n- Toit à deux pans = deux plans sécants\n- Piliers = droites perpendiculaires au plan du sol\n- Charpente = intersections de plans\n\n**Route en lacet** :\n- Différents tronçons dans des plans différents\n- Viaducs = intersections de plans routiers\n\n**Exploitation minière** :\n- Galeries = droites dans l'espace\n- Veines de minerai = plans\n- Coupes géologiques = sections planes\n\n### 14. Exercices de construction\n\n**Construction 1** : Intersection de deux plans (ABC) et (ABD)\n- A et B communs\n- Donc (AB) = intersection\n\n**Construction 2** : Section d'un cube par un plan défini par trois points\n- Repérer les intersections avec les arêtes\n- Relier dans l'ordre\n\n**Construction 3** : Plan parallèle à (ABC) passant par D\n- Tracer des parallèles aux côtés\n\n### 15. Théorèmes importants\n\n**Théorème de Thalès dans l'espace** :\nSi deux plans sont coupés par trois plans parallèles, les droites d'intersection sont proportionnelles.\n\n**Projection** :\nLa projection orthogonale d'un point sur un plan est le pied de la perpendiculaire.\n\n### 16. Problèmes de démonstration\n\n**Pour démontrer que deux droites sont coplanaires** :\n1. Montrer qu'elles sont parallèles\n2. Montrer qu'elles sont sécantes\n3. Montrer qu'elles ont deux points communs avec un même plan\n\n**Pour démontrer que deux plans sont parallèles** :\n1. Montrer que deux droites sécantes de l'un sont parallèles à l'autre\n2. Utiliser la transitivité du parallélisme\n\n### 17. Vocabulaire spécifique\n\n**Dièdre** : Figure formée par deux plans sécants\n**Angle dièdre** : Angle entre deux plans\n**Triedre** : Figure formée par trois plans concourants\n**Polyèdre** : Solide limité par des faces planes polygonales\n\n### 18. Erreurs fréquentes\n\n- Croire que deux droites non sécantes sont parallèles (elles peuvent être non coplanaires)\n- Oublier qu'un plan est défini par deux droites parallèles\n- Confondre « sécants » et « perpendiculaires » pour les plans\n- Négliger la justification des constructions\n\n### 19. Applications aux solides usuels\n\n**Cube** : 6 faces carrées, 12 arêtes, 8 sommets\n**Pavé droit** : 6 faces rectangulaires\n**Pyramide** : Base polygonale, faces triangulaires convergeant au sommet\n**Prisme** : Deux bases parallèles, faces latérales rectangulaires\n**Tétraèdre** : Pyramide à base triangulaire\n\n### 20. Importance dans les études supérieures\n\nLa géométrie dans l'espace est fondamentale pour :\n- L'architecture et le génie civil\n- La conception assistée par ordinateur (CAO)\n- La robotique et la mécanique\n- La cristallographie et la chimie structurale\n- L'astronomie et l'astrophysique\n\nElle développe la vision dans l'espace et le raisonnement géométrique.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Deux droites peuvent être sécantes, parallèles ou non coplanaires",
+    "Plan déterminé par 3 points non alignés",
+    "Section plane = intersection solide/plan",
+    "Parallélisme se transmet dans l'espace"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Deux droites non sécantes et non parallèles sont :",
+      "options": [
+        "Coplanaires",
+        "Non coplanaires",
+        "Perpendiculaires",
+        "Confondues"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Par trois points alignés passent :",
+      "options": [
+        "Un unique plan",
+        "Une infinité de plans",
+        "Aucun plan",
+        "Deux plans"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "L'intersection de deux plans sécants est :",
+      "options": [
+        "Un point",
+        "Une droite",
+        "Un plan",
+        "Vide"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Si deux plans sont parallèles, toute droite de l'un est :",
+      "options": [
+        "Sécante à l'autre",
+        "Parallèle à l'autre",
+        "Incluse dans l'autre",
+        "Perpendiculaire à l'autre"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

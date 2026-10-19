@@ -1,0 +1,124 @@
+{
+  "id": "physique-quatrieme-transformation-d-un-metal-en-ion-et-inversement",
+  "title": "Transformation d'un métal en ion et inversement",
+  "summary": "Au Collège Moderne de Samatiguila, les élèves de 4ème 2 ont découvert dans une revue que les métaux peuvent devenir des ions et inversement. Ils veulent vérifier cette information expérimentalement.",
+  "lesson": "# Transformation d'un métal en ion et inversement\n\n## I. Transformation du métal cuivre en ion cuivre II\n\n### A. Transformation par voie chimique\n\n**Expérience** : Action de l'acide nitrique sur le cuivre\n\n```\nTube à essais\n     │\n     │  Copeaux de cuivre (Cu)\n     │       +\n     │  Acide nitrique dilué (HNO₃)\n     │\n     ↓\nSolution VERTE puis BLEUE (ions Cu²⁺)\n+ Dégagement de gaz roux (NO₂) TOXIQUE\n```\n\n**⚠️ DANGER** : L'acide nitrique est **corrosif** et produit un gaz **toxique** (NO₂). Seul le professeur réalise cette expérience sous hotte.\n\n**Observation** :\n1. Le cuivre métallique **disparaît** progressivement\n2. La solution devient **verte** puis **bleue**\n3. Dégagement de vapeurs **rousses** toxiques\n\n**Test d'identification** :\nAjouter quelques gouttes de soude → Précipité **BLEU** (ion Cu²⁺ présent)\n\n**Équation de transformation** :\n```\nCu  →  Cu²⁺  +  2e⁻\n(métal)  (ion)  (électrons perdus)\n```\n\n**Conclusion** : Le métal cuivre a **perdu 2 électrons** pour devenir l'ion cuivre II.\n\n### B. Autre méthode chimique (plus sûre)\n\n**Expérience** : Cuivre + solution de nitrate d'argent\n\n```\nLame de cuivre (Cu)\n      +\nSolution de nitrate d'argent (Ag⁺)\n      ↓\nSolution devient BLEUE (Cu²⁺)\n+ Dépôt d'ARGENT métallique (Ag)\n```\n\n**Équation** :\n```\nCu + 2Ag⁺  →  Cu²⁺ + 2Ag\n```\n\n## II. Transformation de l'ion cuivre II en métal cuivre\n\n### A. Transformation par voie chimique\n\n**Expérience** : Action du fer sur les ions cuivre II\n\n```\nSolution de sulfate de cuivre (Cu²⁺)\n     (solution bleue)\n         +\nPaille de fer (Fe) ou clous en fer\n         ↓\n   [Attendre 10-15 min]\n         ↓\n- Solution devient VERTE (ions Fe²⁺)\n- Dépôt ROUGE-ORANGE sur le fer (cuivre métallique)\n```\n\n**Observations** :\n1. La solution **bleue** (Cu²⁺) devient **verte** (Fe²⁺)\n2. Un dépôt **rouge-orange** de cuivre métallique apparaît sur le fer\n3. Le fer disparaît progressivement\n\n**Application en Côte d'Ivoire** : C'est pourquoi les canalisations en fer rouillent au contact de l'eau cuivrée !\n\n**Transformations** :\n\n**1. Transformation de Cu²⁺ en Cu** :\n```\nCu²⁺  +  2e⁻  →  Cu\n(ion)  (gagne)  (métal)\n```\n\n**2. Transformation de Fe en Fe²⁺** :\n```\nFe  →  Fe²⁺  +  2e⁻\n(métal)  (ion)  (perd)\n```\n\n**3. Équation-bilan globale** :\n```\nFe  +  Cu²⁺  →  Fe²⁺  +  Cu\n\nLe fer DONNE 2 électrons au cuivre\n```\n\n### B. Transformation par voie électrochimique\n\n**Expérience** : Électrolyse d'une solution de sulfate de cuivre\n\n**Dispositif** :\n```\n              (+) ANODE    CATHODE (-)\n               │             │\n               │             │\n    Pile ou ┌──┴──┐     ┌───┴──┐\n  générateur│  Cu │     │  Cu  │  Tiges de cuivre\n            │     │     │      │\n            │ IIIIIIIIIII     │\n            │IIIIIIIIIIIII    │  Solution de\n            │IIIIII Cu²⁺ IIII │  sulfate de cuivre\n            │IIIIIIIIIIIII    │\n            └─────────────────┘\n```\n\n**Observations** :\n\n**À l'ANODE (+)** :\n- Le cuivre métallique se **dissout**\n- ```Cu → Cu²⁺ + 2e⁻``` (oxydation)\n\n**À la CATHODE (-)** :\n- Dépôt de cuivre métallique **rouge-orange**\n- ```Cu²⁺ + 2e⁻ → Cu``` (réduction)\n\n**Application** : Ce principe est utilisé pour le **placage électrolytique** (dorure, argenture, cuivrage).\n\n## III. Nature du courant électrique\n\n### A. Dans les métaux (fils de connexion)\n\nLe courant électrique est dû à un **mouvement d'électrons libres**.\n\n```\nElectrons e⁻ →→→→→ (sens réel du courant)\n←←←←← Sens conventionnel du courant\n```\n\n### B. Dans les solutions aqueuses (électrolytes)\n\nLe courant électrique est dû à une **double migration des ions** :\n\n```\n          ANODE (+)           CATHODE (-)\n              │                    │\n    Cations ←──Cu²⁺  Cu²⁺  Cu²⁺──→ (vont vers -)\n              │                    │\n    Anions  ──SO₄²⁻ SO₄²⁻ SO₄²⁻←─ (vont vers +)\n```\n\n**Résumé** :\n- **Cations (+)** migrent vers la **cathode (-)** \n- **Anions (-)** migrent vers l'**anode (+)**\n\n## IV. Distinction des transformations\n\n### Transformation chimique\n- Réaction spontanée (pas besoin d'énergie extérieure)\n- Exemple : Fe + Cu²⁺ → Fe²⁺ + Cu\n- Utilise des réactifs chimiques\n\n### Transformation électrochimique\n- Nécessite un courant électrique (pile ou générateur)\n- Exemple : Électrolyse du sulfate de cuivre\n- Utilise l'énergie électrique\n\n## V. Applications en Côte d'Ivoire\n\n### A. Corrosion\n- Les canalisations en **fer** au contact de l'eau se corrodent (rouille)\n- Les ions dans l'eau accélèrent la transformation Fe → Fe²⁺\n\n### B. Protection contre la corrosion\n- Peinture des structures métalliques (Pont HKB à Abidjan)\n- Galvanisation (zinc protège le fer)\n\n### C. Électrolyse industrielle\n- Production d'aluminium (usines en Côte d'Ivoire)\n- Placage de bijoux (ateliers d'Adjamé, Abidjan)\n\n### D. Piles et batteries\n- Piles : transformations chimiques produisent de l'électricité\n- Batteries rechargeables : électrolyse inverse",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Métal → Ion : perte d'électrons (Cu → Cu²⁺ + 2e⁻)",
+    "Ion → Métal : gain d'électrons (Cu²⁺ + 2e⁻ → Cu)",
+    "Fe + Cu²⁺ → Fe²⁺ + Cu (réaction chimique spontanée)",
+    "Électrolyse : transformation par courant électrique",
+    "Courant dans métaux = électrons ; dans solutions = ions"
+  ],
+  "exercise": {
+    "answer": "Équation-bilan : Zn + Cu²⁺ → Zn²⁺ + Cu\n\nExplication : Le zinc métallique donne 2 électrons aux ions cuivre II. Le cuivre métallique se dépose (rouge-orange) et les ions zinc II passent en solution (incolore).",
+    "question": "On plonge une lame de zinc (Zn) dans une solution de sulfate de cuivre (Cu²⁺). On observe que la lame se recouvre d'un dépôt rouge-orange et la solution bleue se décolore. Écris l'équation-bilan de la réaction."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Que se passe-t-il quand un métal devient un ion ?",
+      "options": [
+        "Il gagne des électrons",
+        "Il perd des électrons",
+        "Il reste neutre",
+        "Il gagne des protons"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Quelle est la nature du courant dans une solution aqueuse ?",
+      "options": [
+        "Mouvement d'électrons uniquement",
+        "Mouvement de protons",
+        "Double migration des ions",
+        "Il n'y a pas de courant"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "À quelle électrode les cations migrent-ils ?",
+      "options": [
+        "Anode (+)",
+        "Cathode (-)",
+        "Ils ne migrent pas",
+        "Les deux"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-physique-1-mvaisimo",
+      "type": "mcq",
+      "prompt": "Lors de la réaction entre des copeaux de cuivre et l'acide nitrique dilué, quelle est la couleur caractéristique de la solution obtenue qui indique la présence des ions cuivre II ($Cu^{2+}$) ?",
+      "options": [
+        "Rouge sang",
+        "Bleu",
+        "Jaune pâle",
+        "Vert émeraude"
+      ],
+      "answer": 1,
+      "explanation": "Selon le cours, l'action de l'acide nitrique sur le cuivre provoque la disparition du métal et la formation d'une solution qui devient verte puis bleue. La couleur bleue est la signature visuelle des ions cuivre II ($Cu^{2+}$) en solution aqueuse."
+    },
+    {
+      "id": "auto-physique-2-mvaisimo",
+      "type": "mcq",
+      "prompt": "Pour confirmer la présence des ions cuivre II ($Cu^{2+}$) dans la solution bleue obtenue, on y ajoute quelques gouttes de soude (hydroxyde de sodium). Quel est le signe observé ?",
+      "options": [
+        "Formation d'un précipité blanc",
+        "Décoloration totale de la solution",
+        "Formation d'un précipité bleu",
+        "Dégagement d'un gaz incolore"
+      ],
+      "answer": 2,
+      "explanation": "Le test d'identification des ions cuivre II consiste à ajouter de la soude. La réaction produit un précipité bleu (hydroxyde de cuivre II), ce qui permet de confirmer la présence des ions $Cu^{2+}$ dans la solution."
+    },
+    {
+      "id": "auto-physique-3-mvaisimo",
+      "type": "mcq",
+      "prompt": "Dans l'équation de transformation $Cu \\rightarrow Cu^{2+} + 2e^-$, que représente le terme $2e^-$ ?",
+      "options": [
+        "Deux protons gagnés par l'atome",
+        "Deux électrons perdus par l'atome de cuivre",
+        "Deux neutrons émis par le noyau",
+        "Deux ions positifs formés"
+      ],
+      "answer": 1,
+      "explanation": "La transformation d'un métal en ion métallique (cation) est une oxydation. L'atome de cuivre perd des électrons. L'équation montre explicitement que 2 électrons ($2e^-$) sont perdus pour passer de l'état métallique neutre à l'état ionique $Cu^{2+}$."
+    },
+    {
+      "id": "auto-physique-4-mvaisimo",
+      "type": "mcq",
+      "prompt": "Lors de l'expérience avec l'acide nitrique, un dégagement de gaz roux est observé. Quelle est la précaution de sécurité essentielle à prendre pour cette manipulation ?",
+      "options": [
+        "Réaliser l'expérience dans un bocal fermé pour retenir l'odeur",
+        "Réaliser l'expérience sous hotte car le gaz est toxique",
+        "Ajouter de l'eau bouillante pour accélérer la réaction",
+        "Utiliser une lampe UV pour visualiser le gaz"
+      ],
+      "answer": 1,
+      "explanation": "Le cours souligne que l'acide nitrique produit un gaz roux ($NO_2$) qui est toxique et que l'acide est corrosif. Par conséquent, cette expérience ne doit être réalisée que par le professeur et sous hotte pour aspirer les vapeurs toxiques et protéger les élèves."
+    },
+    {
+      "id": "auto-physique-5-mvaisimo",
+      "type": "mcq",
+      "prompt": "Si l'on place une lame de cuivre dans une solution de nitrate d'argent, quelle est la transformation chimique principale qui s'opère sur le cuivre ?",
+      "options": [
+        "Le cuivre gagne des électrons pour redevenir un atome neutre",
+        "Le cuivre perd des électrons pour se transformer en ions $Cu^{2+}$",
+        "Le cuivre reste inchangé car il est plus noble que l'argent",
+        "Le cuivre se dissout sans changer de nature chimique"
+      ],
+      "answer": 1,
+      "explanation": "Dans cette réaction de déplacement, le cuivre est plus réducteur que l'argent. Il cède donc ses électrons (oxydation) pour se transformer en ions cuivre II ($Cu^{2+}$), tandis que les ions argent ($Ag^+$) gagnent des électrons pour redevenir de l'argent métallique."
+    }
+  ]
+}

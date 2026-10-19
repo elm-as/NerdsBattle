@@ -1,0 +1,253 @@
+{
+  "id": "education-musicale-sixieme-les-instruments-de-musique-traditionnels-ivoiriens",
+  "title": "Les instruments de musique traditionnels ivoiriens",
+  "summary": "Lors d'une fête au village, Kofi découvre les instruments traditionnels joués par les griots et les musiciens.",
+  "lesson": "## Les instruments traditionnels de Côte d'Ivoire\n\n### 1. Les instruments à percussion\n\n**Le djembé**\n- Tambour en bois avec peau de chèvre\n- Joué avec les mains\n- Origine : peuple malinké\n- Son puissant et varié\n\n**Le balafon**\n- Xylophone africain en bois\n- Lames de bois suspendues sur des calebasses\n- Joué avec des maillets\n- Son mélodieux\n- Très présent chez les Sénoufo\n\n**Les tam-tams (dundun)**\n- Grands tambours cylindriques\n- Frappés avec une baguette\n- Sons graves\n\n### 2. Les instruments à cordes\n\n**La kora**\n- Harpe-luth à 21 cordes\n- Caisse en calebasse\n- Instrument des griots\n- Son doux et cristallin\n\n**Le n'goni**\n- Petite guitare à 3-6 cordes\n- Corps en bois ou calebasse\n- Ancêtre de la guitare\n\n### 3. Les hochets et clochettes\n\n**Les maracas (shékéré)**\n- Calebasse recouverte de perles ou cauris\n- Son rythmique\n\n**Les grelots de chevilles**\n- Portés par les danseurs\n- Accompagnement rythmique\n\n## Les familles d'instruments ivoiriens\n\n**Instruments du Nord (savanes)**\n- Balafon\n- N'goni\n- Tam-tams\n\n**Instruments de l'Ouest (montagnes)**\n- Tam-tams\n- Flûtes en bambou\n- Hochets\n\n**Instruments du Centre (forêt)**\n- Djembé\n- Tam-tams parleurs\n- Cloches\n\n### La musique dans la culture ivoirienne\n\n**Occasions de musique :**\n- Cérémonies traditionnelles\n- Mariages\n- Funérailles\n- Récoltes\n- Initiations\n\n**Les rythmes célèbres :**\n- **Zouglou** : musique urbaine née à Abidjan\n- **Coupé-décalé** : danse et musique populaire\n- **Zoblazo** : musique festive\n- **Mapouka** : danse traditionnelle du Sud",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "3 familles : percussion, cordes, hochets",
+    "Djembé et balafon = instruments phares",
+    "Chaque région a ses instruments",
+    "Musique = partie importante de la culture"
+  ],
+  "exercise": {
+    "question": "Classe ces instruments en famille : djembé, kora, balafon, n'goni, tam-tam, maracas.",
+    "answer": "\n**Solution :**\n\n**Percussion :**\n- Djembé\n- Balafon\n- Tam-tam\n- Maracas\n\n**Cordes :**\n- Kora\n- N'goni\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Quel instrument est un xylophone africain ?",
+      "options": [
+        "Djembé",
+        "Balafon",
+        "Kora",
+        "N'goni"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Combien de cordes a traditionnellement une kora ?",
+      "options": [
+        "12",
+        "18",
+        "21",
+        "24"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Quelle musique urbaine est née à Abidjan ?",
+      "options": [
+        "Afrobeat",
+        "Zouglou",
+        "Reggae",
+        "Rumba"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-education-musicale-1-mv9hz86l",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Selon le cours, quel instrument à cordes est décrit comme l'ancêtre de la guitare et possède un corps en bois ou en calebasse avec 3 à 6 cordes ?",
+      "options": [
+        "La kora",
+        "Le n'goni",
+        "Le balafon",
+        "Le djembé"
+      ],
+      "explanation": "Le texte identifie explicitement le n'goni comme une 'petite guitare à 3-6 cordes' et son 'ancêtre de la guitare'. La kora est une harpe-luth à 21 cordes, le balafon est un xylophone et le djembé est un tambour."
+    },
+    {
+      "id": "auto-education-musicale-2-mv9hz86l",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Parmi les instruments listés dans la section 'Instruments du Nord (savanes)', lequel n'appartient PAS à cette catégorie géographique selon le cours ?",
+      "options": [
+        "Le balafon",
+        "Le n'goni",
+        "Le djembé",
+        "Les tam-tams"
+      ],
+      "explanation": "Le cours classe le balafon, le n'goni et les tam-tams dans les instruments du Nord (savanes). Le djembé, en revanche, est classé dans les instruments du Centre (forêt)."
+    },
+    {
+      "id": "auto-education-musicale-3-mv9hz86l",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Quel matériau est spécifiquement mentionné comme constituant la caisse de résonance de la kora ?",
+      "options": [
+        "Le bois de palissandre",
+        "La peau de chèvre",
+        "La calebasse",
+        "Le bambou"
+      ],
+      "explanation": "L'extrait de cours indique que la kora possède une 'Caisse en calebasse'. La peau de chèvre est associée au djembé, le bambou aux flûtes de l'Ouest, et le bois au balafon ou au n'goni."
+    },
+    {
+      "id": "auto-education-musicale-4-mv9hz86l",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Quel instrument traditionnel ivoirien est décrit comme un 'tambour en bois avec peau de chèvre' joué avec les mains et d'origine malinké ?",
+      "options": [
+        "Le dundun",
+        "Le djembé",
+        "Le shékéré",
+        "Le balafon"
+      ],
+      "explanation": "La définition du djembé dans le cours correspond exactement à ces caractéristiques : tambour en bois, peau de chèvre, joué à la main, origine malinké. Le dundun est un grand tambour cylindrique frappé à la baguette, le shékéré est un hochet et le balafon est un xylophone."
+    },
+    {
+      "id": "auto-education-musicale-5-mv9hz86l",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Dans la classification géographique des instruments ivoiriens, à quelle région appartient le 'tam-tam parleur' selon le cours ?",
+      "options": [
+        "Le Nord (savanes)",
+        "L'Ouest (montagnes)",
+        "Le Centre (forêt)",
+        "Le Sud (littoral)"
+      ],
+      "explanation": "Le cours liste les 'Tam-tams parleurs' spécifiquement dans la section 'Instruments du Centre (forêt)', aux côtés du djembé et des cloches."
+    },
+    {
+      "id": "auto-education-musicale-1-mv9urep8",
+      "type": "mcq",
+      "answer": 0,
+      "prompt": "Selon le cours, quel instrument traditionnel ivoirien est spécifiquement décrit comme un xylophone africain dont les lames de bois sont suspendues sur des calebasses et qui est très présent chez les Sénoufo ?",
+      "options": [
+        "Le balafon",
+        "Le djembé",
+        "Le n'goni",
+        "Le tam-tam"
+      ],
+      "explanation": "Le cours identifie le balafon comme le xylophone africain en bois avec des lames suspendues sur des calebasses, associé aux Sénoufo. Le djembé est un tambour, le n'goni une guitare et le tam-tam un grand tambour cylindrique."
+    },
+    {
+      "id": "auto-education-musicale-2-mv9urep8",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Dans la classification géographique des instruments ivoiriens présentée dans le cours, quel instrument est associé à la région de l'Ouest (montagnes) en plus des tam-tams et des hochets ?",
+      "options": [
+        "Le balafon",
+        "Les flûtes en bambou",
+        "La kora",
+        "Le djembé"
+      ],
+      "explanation": "La section 'Instruments de l'Ouest (montagnes)' liste explicitement les tam-tams, les flûtes en bambou et les hochets. Le balafon et le n'goni sont du Nord, le djembé du Centre."
+    },
+    {
+      "id": "auto-education-musicale-3-mv9urep8",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Quel instrument à cordes, décrit comme une petite guitare à 3-6 cordes, est considéré dans le cours comme l'ancêtre de la guitare moderne ?",
+      "options": [
+        "La kora",
+        "Le n'goni",
+        "Le balafon",
+        "Le shékéré"
+      ],
+      "explanation": "Le cours définit le n'goni comme une 'petite guitare à 3-6 cordes' et son 'ancêtre de la guitare'. La kora est une harpe-luth à 21 cordes, le balafon est un idiophone (xylophone) et le shékéré est un hocket."
+    },
+    {
+      "id": "auto-education-musicale-4-mv9urep8",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Selon les caractéristiques fournies dans le cours, quel instrument est joué avec des maillets et produit un son mélodieux, contrairement aux tambours frappés à la main ou à la baguette ?",
+      "options": [
+        "Le djembé",
+        "Le balafon",
+        "Le tam-tam (dundun)",
+        "Le n'goni"
+      ],
+      "explanation": "Le cours précise que le balafon est 'joué avec des maillets' et a un 'son mélodieux'. Le djembé est joué avec les mains, le tam-tam avec une baguette, et le n'goni est pincé ou gratté (instrument à cordes)."
+    },
+    {
+      "id": "auto-education-musicale-5-mv9urep8",
+      "type": "mcq",
+      "answer": 0,
+      "prompt": "Quel instrument traditionnel ivoirien, classé dans la famille des hochets et clochettes, est décrit comme une calebasse recouverte de perles ou de cauris produisant un son rythmique ?",
+      "options": [
+        "Le shékéré (maracas)",
+        "Le balafon",
+        "La kora",
+        "Le tam-tam parleur"
+      ],
+      "explanation": "La section 'Les hochets et clochettes' identifie les maracas (shékéré) comme des calebasses recouvertes de perles ou cauris. Les autres options sont des instruments à percussion (balafon, tam-tam) ou à cordes (kora)."
+    },
+    {
+      "id": "auto-education-musicale-1-mva9w2wb",
+      "type": "mcq",
+      "prompt": "Lors de la fête au village, Kofi observe un musicien frapper un grand tambour cylindrique avec une baguette pour produire des sons graves. Selon le cours, quel est le nom de cet instrument ?",
+      "options": [
+        "Le djembé",
+        "Le balafon",
+        "Les tam-tams (dundun)",
+        "Le n'goni"
+      ],
+      "answer": 2,
+      "explanation": "Le cours décrit les tam-tams (dundun) comme de 'grands tambours cylindriques' qui sont 'frappés avec une baguette' et produisent des 'sons graves'. Le djembé est joué à la main, le balafon avec des maillets, et le n'goni est un instrument à cordes."
+    },
+    {
+      "id": "auto-education-musicale-2-mva9w2wb",
+      "type": "mcq",
+      "prompt": "Kofi remarque que les danseurs portent des accessoires métalliques aux chevilles qui accompagnent le rythme de la musique. Selon la section 'Les hochets et clochettes', comment sont nommés ces accessoires ?",
+      "options": [
+        "Les maracas (shékéré)",
+        "Les grelots de chevilles",
+        "Les cloches du Centre",
+        "Les flûtes en bambou"
+      ],
+      "answer": 1,
+      "explanation": "Le cours indique explicitement dans la section des hochets et clochettes que les 'grelots de chevilles' sont 'portés par les danseurs' pour l'accompagnement rythmique. Les maracas sont des calebasses, les cloches sont associées au Centre, et les flûtes sont des instruments à vent de l'Ouest."
+    },
+    {
+      "id": "auto-education-musicale-3-mva9w2wb",
+      "type": "mcq",
+      "prompt": "En classant les instruments par région, Kofi doit identifier ceux associés à la région du Centre (forêt). Lequel des instruments suivants fait partie de cette catégorie géographique selon le cours ?",
+      "options": [
+        "Le balafon",
+        "Le n'goni",
+        "Les cloches",
+        "Les flûtes en bambou"
+      ],
+      "answer": 2,
+      "explanation": "La section 'Instruments du Centre (forêt)' liste le djembé, les tam-tams parleurs et les cloches. Le balafon et le n'goni sont associés au Nord (savanes), tandis que les flûtes en bambou sont associées à l'Ouest (montagnes)."
+    },
+    {
+      "id": "auto-education-musicale-4-mva9w2wb",
+      "type": "mcq",
+      "prompt": "Kofi écoute un instrument à cordes décrit comme ayant un son 'doux et cristallin', joué par les griots. Il s'agit d'une harpe-luth. Quel est le nom de cet instrument ?",
+      "options": [
+        "Le n'goni",
+        "La kora",
+        "Le balafon",
+        "Le djembé"
+      ],
+      "answer": 1,
+      "explanation": "Le cours identifie la kora comme une 'harpe-luth' qui est l'instrument des griots et qui possède un 'son doux et cristallin'. Le n'goni est une petite guitare, le balafon un xylophone, et le djembé un tambour."
+    },
+    {
+      "id": "auto-education-musicale-5-mva9w2wb",
+      "type": "mcq",
+      "prompt": "Pour comprendre l'origine du djembé, Kofi consulte ses notes. Selon le cours, de quel peuple cet instrument est-il originaire ?",
+      "options": [
+        "Peuple Sénoufo",
+        "Peuple Malinké",
+        "Peuple Baoulé",
+        "Peuple Akan"
+      ],
+      "answer": 1,
+      "explanation": "La fiche descriptive du djembé dans le cours précise clairement son 'Origine : peuple malinké'. Le balafon est associé aux Sénoufo, mais le djembé est spécifiquement lié aux Malinkés."
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "francais-cinquieme-expression-ecrite-le-compte-rendu-de-lecture",
+  "title": "Expression écrite : Le compte rendu de lecture",
+  "summary": "Les élèves rédigent un compte rendu de l'œuvre intégrale pour le journal du lycée.",
+  "lesson": "## Le compte rendu écrit de lecture\n\n### Structure en 4 parties\n1. Présentation (titre, auteur, genre, date)\n2. Résumé (cadre, personnages, intrigue)\n3. Thèmes abordés\n4. Appréciation personnelle argumentée\n\n### Conseils\n- Rester objectif dans le résumé\n- Ne pas tout raconter\n- Argumenter son opinion\n- Utiliser vocabulaire approprié",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "4 parties : présentation, résumé, thèmes, appréciation",
+    "Résumé objectif",
+    "Opinion argumentée",
+    "Registre standard"
+  ],
+  "exercise": {
+    "answer": "Soundjata ou l'épopée mandingue est un récit épique de Djibril Tamsir Niane, publié en 1960. Cette œuvre retrace l'histoire de Soundjata Keita, fondateur de l'empire du Mali au XIIIe siècle.",
+    "question": "Rédige la présentation d'une œuvre que tu as lue."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Dans le résumé, on doit :",
+      "options": [
+        "Tout raconter",
+        "Présenter l'essentiel objectivement",
+        "Donner son avis",
+        "Critiquer"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-francais-1-mv9wdxcg",
+      "type": "mcq",
+      "prompt": "Lors de la rédaction de la partie « Résumé » d'un compte rendu de lecture, quelle attitude rédactionnelle est impérative pour respecter la norme du genre ?",
+      "options": [
+        "Inclure des jugements de valeur sur la qualité de l'écriture de l'auteur",
+        "Rester objectif et factuel en décrivant l'intrigue sans interprétation personnelle",
+        "Citer longuement les dialogues des personnages pour illustrer le style",
+        "Présenter l'opinion de l'auteur sur les thèmes abordés dans l'œuvre"
+      ],
+      "answer": 1,
+      "explanation": "Le résumé doit être une synthèse objective des faits (cadre, personnages, intrigue). Les jugements de valeur et les opinions appartiennent à la partie « Appréciation personnelle », tandis que les citations longues sont à éviter pour rester concis."
+    },
+    {
+      "id": "auto-francais-2-mv9wdxcg",
+      "type": "mcq",
+      "prompt": "Dans la structure canonique du compte rendu de lecture, quelle information est spécifiquement attendue dans la première partie, la « Présentation » ?",
+      "options": [
+        "L'analyse détaillée des thèmes majeurs de l'œuvre",
+        "Le titre de l'œuvre, le nom de l'auteur, le genre littéraire et la date de publication",
+        "La description physique des personnages principaux",
+        "L'argumentation personnelle du lecteur sur la pertinence de l'œuvre"
+      ],
+      "answer": 1,
+      "explanation": "La présentation sert à identifier l'œuvre. Elle doit contenir les métadonnées essentielles : titre, auteur, genre et date. Les autres éléments (thèmes, personnages, opinion) relèvent des parties suivantes du compte rendu."
+    },
+    {
+      "id": "auto-francais-3-mv9wdxcg",
+      "type": "mcq",
+      "prompt": "Pourquoi est-il recommandé de ne pas « tout raconter » lors de la rédaction du résumé dans un compte rendu de lecture ?",
+      "options": [
+        "Pour éviter de révéler la fin de l'histoire aux lecteurs du journal",
+        "Pour respecter la concision du genre et se concentrer sur l'essentiel de l'intrigue",
+        "Parce que les lecteurs du journal n'ont pas le temps de lire un texte long",
+        "Pour laisser la place à des citations littérales de l'œuvre"
+      ],
+      "answer": 1,
+      "explanation": "Le compte rendu est un texte synthétique. L'objectif est de donner une vue d'ensemble sans entrer dans les détails anecdotiques ou les sous-intrigues mineures, afin de rester clair et concis. Ce n'est pas un résumé exhaustif ni un spoiler gratuit, mais une synthèse structurée."
+    },
+    {
+      "id": "auto-francais-4-mv9wdxcg",
+      "type": "mcq",
+      "prompt": "Quelle est la fonction principale de la quatrième partie du compte rendu, l'« Appréciation personnelle argumentée » ?",
+      "options": [
+        "Corriger les erreurs factuelles éventuelles du résumé",
+        "Exprimer une opinion subjective soutenue par des arguments précis tirés de l'œuvre",
+        "Résumer à nouveau l'intrigue pour renforcer la mémorisation",
+        "Lister les autres œuvres de l'auteur pour inciter à la lecture"
+      ],
+      "answer": 1,
+      "explanation": "Cette partie permet au rédacteur de donner son avis (positif ou négatif) mais celui-ci doit être argumenté, c'est-à-dire justifié par des exemples concrets de l'œuvre (style, thèmes, personnages) et non par de simples impressions vagues."
+    },
+    {
+      "id": "auto-francais-5-mv9wdxcg",
+      "type": "mcq",
+      "prompt": "Dans le contexte de la rédaction d'un compte rendu pour le journal du lycée, quel registre de langue et quel vocabulaire doivent être privilégiés ?",
+      "options": [
+        "Un registre familier avec des expressions idiomatiques pour créer de la proximité",
+        "Un registre soutenu ou courant avec un vocabulaire précis et approprié au domaine littéraire",
+        "Un registre technique utilisant exclusivement des termes de critique littéraire universitaire",
+        "Un registre neutre sans aucun adjectif pour garantir l'objectivité totale"
+      ],
+      "answer": 1,
+      "explanation": "Le compte rendu est un texte formel destiné à un public scolaire. Il exige un vocabulaire précis (ex: intrigue, personnage, thème, style) et un ton professionnel (courant ou légèrement soutenu), évitant le langage familier ou trop jargonnant."
+    }
+  ]
+}

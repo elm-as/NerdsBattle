@@ -1,0 +1,71 @@
+{
+  "id": "espagnol-seconde-l-echange-de-civilites",
+  "title": "L'échange de civilités",
+  "summary": "Un groupe d'investisseurs argentins doit se rendre à Prikro sur invitation du Conseil Municipal pour construire une salle de fête au Lycée Municipal. Pour réussir l'accueil des investisseurs qui a été confié aux élèves de la 2nde C, ceux-ci s'organisent pour identifier les actes de civilité, les utiliser et échanger avec ces personnalités.",
+  "lesson": "## 1. Introduction aux civilités\n\nLes civilités sont les marques de politesse et de respect dans les interactions sociales. En espagnol, comme en français, elles varient selon :\n- Le degré de familiarité\n- Le contexte (formel/informel)\n- La relation hiérarchique\n\n## 2. Les salutations (Saludos)\n\n**Formel (usted) :**\n- Buenos días / Buenas tardes / Buenas noches\n- ¿Cómo está usted?\n- Mucho gusto / Encantado(a) de conocerle\n\n**Informel (tú) :**\n- ¡Hola! / ¿Qué tal?\n- ¿Cómo estás?\n- Encantado(a) / Un placer\n\n## 3. Les remerciements (Agradecimientos)\n\n| Situation | Expression | Réponse |\n|-----------|------------|---------|\n| Petit service | Gracias / Muchas gracias | De nada / No hay de qué |\n| Faveur importante | Muchísimas gracias / Te/Le agradezco mucho | No es nada / A la orden |\n| Formel (écrit) | Le agradezco de antemano... | ... |\n\n## 4. Les excuses (Disculpas)\n\n- **Léger dérangement** : Perdón / Disculpa (informel) / Disculpe (formel)\n- **Faute plus grave** : Lo siento mucho / Le pido disculpas\n- **Réponses** : No te preocupes / No importa / Está bien\n\n## 5. Les présentations (Presentaciones)\n\n**Se présenter :**\n- Me llamo [nombre]\n- Soy [nombre]\n- Mi nombre es [nombre]\n\n**Présenter quelqu'un :**\n- Te/Le presento a [nombre]\n- Este/Esta es [nombre]\n\n**Réponses :**\n- Encantado(a) / Mucho gusto\n- Igualmente / El gusto es mío\n\n## 6. Les invitations (Invitaciones)\n\n**Proposer :**\n- ¿Te/Le gustaría...?\n- ¿Quieres/Quiere...?\n- Te/Invito a...\n\n**Accepter :**\n- ¡Claro que sí! / ¡Me encantaría!\n- Con mucho gusto\n\n**Refuser poliment :**\n- Gracias, pero no puedo\n- Me gustaría, pero tengo otro compromiso\n- Tal vez otra vez\n\n## 7. Expressions pendant le repas\n\n**Avant :**\n- ¡Buen provecho! (équivalent de Bon appétit)\n\n**Pendant :**\n- ¿Me pasas la sal? (informel)\n- ¿Me pasa la sal, por favor? (formel)\n\n**Après :**\n- Estaba delicioso / Muy rico\n- Gracias por la comida\n\n## 8. Cas pratique : accueil des investisseurs\n\n**Scénario à Prikro :**\n1. **Accueil à l'entrée** : \"Buenos días, señores. Bienvenidos a Prikro. Soy [nombre], estudiante del liceo municipal.\"\n2. **Présentation du projet** : \"Tenemos mucho gusto en recibirles para el proyecto de la sala de fiestas.\"\n3. **Questions polies** : \"¿Han tenido un buen viaje? ¿Necesitan algo?\"\n4. **Remerciements** : \"Agradecemos su ayuda para nuestra escuela.\"\n5. **Au revoir** : \"Fue un placer conocerles. ¡Hasta luego!\"",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Distinguer registre formel (usted) et informel (tú)",
+    "Adapter les civilités au contexte social",
+    "Utiliser les expressions appropriées pour chaque situation",
+    "Maintenir le contact visuel et le sourire dans les échanges"
+  ],
+  "exercise": {
+    "answer": "**Diálogo :**\n\n**Estudiante (E) :** Buenos días, señor. Bienvenido a Prikro.\n**Inversionista (I) :** Buenos días, joven. Muchas gracias.\n**E :** Me llamo Koffi, soy estudiante de la clase de 2nde C. ¿Cómo se llama usted?\n**I :** Me llamo Carlos González. Mucho gusto, Koffi.\n**E :** El gusto es mío, señor González. ¿Ha tenido un buen viaje desde Abidjan?\n**I :** Sí, bastante bien, gracias. El paisaje es muy bonito.\n**E :** Me alegro. Agradecemos mucho su proyecto para nuestra sala de fiestas.\n**I :** De nada. Es un placer ayudar a la juventud.\n**E :** ¿Necesita algo? ¿Agua, tal vez?\n**I :** No, estoy bien, gracias.\n**E :** Perfecto. ¡Hasta luego, señor González!\n**I :** ¡Hasta luego, Koffi!",
+    "question": "Rédige un dialogue court (8-10 répliques) entre un élève ivoirien et un investisseur argentin lors de l'accueil à Prikro. Inclus au moins : 1) Une salutation formelle, 2) Une présentation, 3) Une question de politesse, 4) Un remerciement, 5) Une prise de congé."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle formule utiliser pour saluer formellement à 14h ?",
+      "options": [
+        "Buenos días",
+        "Buenas tardes",
+        "Buenas noches",
+        "¡Hola!"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Comment répondre à 'Mucho gusto' ?",
+      "options": [
+        "De nada",
+        "Igualmente",
+        "Lo siento",
+        "Gracias"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle expression signifie 'Bon appétit' en espagnol ?",
+      "options": [
+        "¡Salud!",
+        "¡Buen viaje!",
+        "¡Buen provecho!",
+        "¡Felicitaciones!"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Comment refuser poliment une invitation ?",
+      "options": [
+        "No quiero",
+        "No, gracias",
+        "Tal vez otra vez",
+        "Estoy ocupado"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

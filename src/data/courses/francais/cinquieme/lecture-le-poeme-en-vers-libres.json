@@ -1,0 +1,45 @@
+{
+  "id": "francais-cinquieme-lecture-le-poeme-en-vers-libres",
+  "title": "Lecture : Le poème en vers libres",
+  "summary": "Les élèves analysent des poèmes en vers libres pour un concours de littérature.",
+  "lesson": "## Le poème en vers libres\n\n### Caractéristiques\n- Longueur des vers variable\n- Rimes facultatives\n- Strophes irrégulières\n- Liberté d'expression\n\n### Figures de style\n- Comparaison (avec outil)\n- Métaphore (sans outil)\n- Personnification\n- Anaphore (répétition au début des vers)\n- Énumération\n\n### Méthode d'analyse\n1. Observer la forme\n2. Identifier le thème\n3. Repérer les figures de style\n4. Interpréter le message",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Vers libres : longueur variable, liberté",
+    "Figures : comparaison, métaphore, personnification, anaphore",
+    "Images visuelles, auditives, olfactives",
+    "Interpréter le message du poète"
+  ],
+  "exercise": {
+    "answer": "Personnification (le vent ne peut pas chanter - caractéristique humaine attribuée au vent)",
+    "question": "Identifie la figure de style : 'Le vent chante dans les arbres'"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Le vers libre se caractérise par :",
+      "options": [
+        "12 syllabes obligatoires",
+        "Des rimes obligatoires",
+        "Une longueur variable",
+        "Des quatrains"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Une anaphore est :",
+      "options": [
+        "Une comparaison",
+        "Une répétition au début des vers",
+        "Une rime",
+        "Un nombre de syllabes"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

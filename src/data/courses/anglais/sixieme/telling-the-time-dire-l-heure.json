@@ -1,0 +1,58 @@
+{
+  "id": "anglais-sixieme-telling-the-time-dire-l-heure",
+  "title": "Telling the Time - Dire l'heure",
+  "summary": "Yao demande 'What time is it?' pour ne pas être en retard à l'école. Comment lire l'heure ?",
+  "lesson": "## Telling the Time - Lire l'heure\n\n### O'clock\n- **7:00** - seven o'clock\n- **12:00** - twelve o'clock\n\n### Minutes\n- **7:05** - seven oh five / five past seven\n- **7:15** - seven fifteen / quarter past seven\n- **7:30** - seven thirty / half past seven\n- **7:45** - seven forty-five / quarter to eight\n\n### Asking the Time\n- **What time is it?** - Quelle heure est-il ?\n- **What's the time?** - Quelle heure est-il ?\n\n**It's** seven o'clock.\n\n### Time Expressions\n- **in the morning** - le matin\n- **in the afternoon** - l'après-midi\n- **in the evening** - le soir\n- **at night** - la nuit\n\n- **a.m.** - du matin (avant midi)\n- **p.m.** - de l'après-midi/soir (après midi)\n\nIt's 7 a.m. - Il est 7h du matin.\nIt's 7 p.m. - Il est 19h (7h du soir).",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "What time is it? pour demander l'heure",
+    "O'clock pour les heures exactes",
+    "Quarter past = et quart, Half past = et demie",
+    "a.m. = matin, p.m. = après-midi/soir"
+  ],
+  "exercise": {
+    "answer": "\n**Solution :**\n1) Eight o'clock\n2) Nine fifteen / Quarter past nine\n3) Ten thirty / Half past ten\n        ",
+    "question": "Écris l'heure : 1) 8:00, 2) 9:15, 3) 10:30"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Comment demander l'heure ?",
+      "options": [
+        "What hour is it?",
+        "What time is it?",
+        "Which time is it?",
+        "When is it?"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "7:15 se dit...",
+      "options": [
+        "Seven fifty",
+        "Half past seven",
+        "Quarter past seven",
+        "Quarter to seven"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "p.m. signifie...",
+      "options": [
+        "du matin",
+        "de l'après-midi/soir",
+        "de midi",
+        "de minuit"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": "maths-sixieme-figures-symetriques-par-rapport-a-un-point",
+  "title": "Figures symétriques par rapport à un point",
+  "summary": "Lors de la visite du quartier France de Grand-Bassam, les élèves découvrent un vitrail brisé qui est symétrique par rapport au centre du disque. Comment reproduire le vitrail complet ?",
+  "lesson": "## Symétrie centrale (par rapport à un point)\n\n### Définition\n\nDeux figures sont **symétriques par rapport à un point O** (centre de symétrie) si, en effectuant une **rotation de 180°** autour de O, elles se superposent.\n\nOn dit aussi que les deux figures ont **O comme centre de symétrie**.\n\n### Symétrique d'un point\n\nLe **symétrique du point A par rapport au point O** est le point A' tel que :\n- A, O et A' sont alignés\n- O est le milieu de [AA']\n\n**Notation mathématique :**\nA' est le symétrique de A par rapport à O si et seulement si O est le milieu de [AA'].\n\n**Propriété :** OA = OA'\n\n### Construction du symétrique d'un point\n\n**Méthode 1 : À la règle graduée**\n1. Tracer la droite (AO)\n2. Mesurer OA\n3. Prolonger de la même longueur après O pour obtenir A'\n\n**Méthode 2 : Au compas**\n1. Tracer la droite (AO)\n2. Avec le compas, reporter la longueur OA de l'autre côté de O\n\n### Symétrique d'une figure\n\nPour construire le symétrique d'une figure par rapport à un point O :\n1. Construire le symétrique de chaque sommet\n2. Relier les points symétriques dans le même ordre\n\n### Propriétés de la symétrie centrale\n\nLa symétrie centrale **conserve** :\n\n**1. Les distances**\nSi A' et B' sont les symétriques de A et B par rapport à O :\nA'B' = AB\n\n**2. Les angles**\nSi l'angle ABC = 60°, alors l'angle A'B'C' = 60°\n\n**3. Les aires**\nUne figure et son symétrique ont la même aire.\n\n**4. L'alignement**\nSi A, B, C sont alignés, alors A', B', C' sont aussi alignés.\n\n**5. Le parallélisme et la perpendicularité**\nSi (AB) // (CD), alors (A'B') // (C'D')\nSi (AB) ⊥ (CD), alors (A'B') ⊥ (C'D')\n\n### Centres de symétrie de figures particulières\n\n**1. Segment**\nLe milieu d'un segment est son centre de symétrie.\n\n**2. Cercle**\nLe centre d'un cercle est son centre de symétrie.\n\n**3. Parallélogramme**\nLe point d'intersection des diagonales est le centre de symétrie.\n\n**4. Rectangle, losange, carré**\nTous ont un centre de symétrie (intersection des diagonales).\n\n### Différence avec la symétrie axiale\n\n**Symétrie axiale (par rapport à une droite) :**\n- Utilise une droite comme axe\n- Ressemble à un miroir\n- Conservation de l'orientation\n\n**Symétrie centrale (par rapport à un point) :**\n- Utilise un point comme centre\n- Rotation de 180°\n- Renversement de l'orientation",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Symétrique de A par rapport à O : O est le milieu de [AA']",
+    "Rotation de 180° autour du centre",
+    "Conserve : distances, angles, aires, alignement, parallélisme",
+    "Centres de symétrie : milieu (segment), centre (cercle), intersection diagonales (parallélogramme)"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Dans une symétrie centrale par rapport à O, le point O est :",
+      "options": [
+        "L'extrémité du segment [AA']",
+        "Le milieu du segment [AA']",
+        "Extérieur au segment [AA']",
+        "N'importe où"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Quelle figure a son centre comme centre de symétrie ?",
+      "options": [
+        "Triangle",
+        "Trapèze",
+        "Cercle",
+        "Angle"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "answer": 0,
+      "prompt": "La symétrie centrale conserve-t-elle les distances ?",
+      "options": [
+        "Oui, toujours",
+        "Non, jamais",
+        "Seulement pour les segments",
+        "Seulement pour les cercles"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-maths-1-mvaelaoc",
+      "type": "mcq",
+      "prompt": "Soit $A$ un point distinct de $O$. Si $A'$ est le symétrique de $A$ par rapport à $O$, quelle est la relation vectorielle exacte entre les vecteurs $\\vec{OA}$ et $\\vec{OA'}$ ?",
+      "options": [
+        "$\\vec{OA} = \\vec{OA'}$",
+        "$\\vec{OA} = -\\vec{OA'}$",
+        "$\\vec{OA} + \\vec{OA'} = \\vec{0}$",
+        "$\\vec{OA} \\cdot \\vec{OA'} = 0$"
+      ],
+      "answer": 1,
+      "explanation": "Par définition de la symétrie centrale, $O$ est le milieu de $[AA']$. Cela implique que les vecteurs $\\vec{OA}$ et $\\vec{OA'}$ sont colinéaires, de même norme mais de sens opposés. On a donc $\\vec{OA'} = -\\vec{OA}$, ou équivalent $\\vec{OA} = -\\vec{OA'}$. L'option 2 est la formulation directe de cette opposition de sens."
+    },
+    {
+      "id": "auto-maths-2-mvaelaoc",
+      "type": "mcq",
+      "prompt": "On considère un triangle $ABC$ et son image $A'B'C'$ par symétrie centrale de centre $O$. Si l'aire du triangle $ABC$ vaut $12 \\text{ cm}^2$, quelle est l'aire du triangle $A'B'C'$ ?",
+      "options": [
+        "$6 \\text{ cm}^2$",
+        "$12 \\text{ cm}^2$",
+        "$24 \\text{ cm}^2$",
+        "$0 \\text{ cm}^2$"
+      ],
+      "answer": 1,
+      "explanation": "La symétrie centrale est une isométrie, c'est-à-dire une transformation qui conserve les distances et les longueurs. Par conséquent, elle conserve les aires des figures. L'image d'un triangle par symétrie centrale est un triangle congruent à l'original, donc de même aire."
+    },
+    {
+      "id": "auto-maths-3-mvaelaoc",
+      "type": "mcq",
+      "prompt": "Soit $O$ l'origine du repère. Le point $A$ a pour coordonnées $(3, -2)$. Quelles sont les coordonnées du point $A'$, symétrique de $A$ par rapport à $O$ ?",
+      "options": [
+        "$(-3, 2)$",
+        "$(3, 2)$",
+        "$(-3, -2)$",
+        "$(2, -3)$"
+      ],
+      "answer": 0,
+      "explanation": "Le symétrique d'un point $A(x, y)$ par rapport à l'origine $O(0,0)$ est le point $A'(-x, -y)$. En appliquant cette règle à $A(3, -2)$, on obtient $A'(-3, -(-2))$, soit $A'(-3, 2)$."
+    },
+    {
+      "id": "auto-maths-4-mvaelaoc",
+      "type": "mcq",
+      "prompt": "Quelle est la nature de la transformation géométrique qui transforme un point $A$ en son symétrique $A'$ par rapport à un point $O$ ?",
+      "options": [
+        "Une translation de vecteur $\\vec{AA'}$",
+        "Une rotation de centre $O$ et d'angle $180^\\circ$",
+        "Une rotation de centre $A$ et d'angle $90^\\circ$",
+        "Une homothétie de centre $O$ et de rapport $2$"
+      ],
+      "answer": 1,
+      "explanation": "La symétrie centrale par rapport à un point $O$ est équivalente à une rotation de centre $O$ et d'angle $180^\\circ$ (ou $\\pi$ radians). Cette rotation fait coïncider $A$ avec $A'$ tel que $O$ soit le milieu de $[AA']$."
+    },
+    {
+      "id": "auto-maths-5-mvaelaoc",
+      "type": "mcq",
+      "prompt": "Soit $ABCD$ un quadrilatère convexe. Si le centre de symétrie de ce quadrilatère est le point $O$, quelle propriété doivent satisfaire les diagonales $[AC]$ et $[BD]$ ?",
+      "options": [
+        "Elles sont perpendiculaires entre elles",
+        "Elles sont de même longueur",
+        "Elles se coupent en leur milieu commun $O$",
+        "Elles sont parallèles entre elles"
+      ],
+      "answer": 2,
+      "explanation": "Si un quadrilatère admet un centre de symétrie $O$, alors $O$ est le milieu de la diagonale $[AC]$ (car $C$ est le symétrique de $A$) et le milieu de la diagonale $[BD]$ (car $D$ est le symétrique de $B$). Les diagonales se coupent donc en $O$, qui est leur point milieu commun. C'est la caractéristique d'un parallélogramme."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "maths-cinquieme-aires-et-perimetres-des-figures-planes",
+  "title": "Aires et périmètres des figures planes",
+  "summary": "Un menuisier veut recouvrir le sol rectangulaire d'une pièce de 5 m sur 4 m. Quelle surface doit-il couvrir ?",
+  "lesson": "## Aires et périmètres\n\n### Périmètre\nLe périmètre est la longueur du contour d'une figure.\n\n**Formules :**\n- Rectangle : P = 2(L + l)\n- Carré : P = 4 × côté\n- Triangle : P = somme des trois côtés\n\n### Aire\nL'aire est la surface d'une figure.\n\n**Formules :**\n- Rectangle : A = L × l\n- Carré : A = côté²\n- Triangle : A = (base × hauteur) ÷ 2\n\n**Exemple :**\nRectangle de 5 m par 4 m\n- Aire = 5 × 4 = 20 m²\n- Périmètre = 2(5 + 4) = 18 m",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Périmètre = longueur du contour",
+    "Aire = surface intérieure",
+    "Unités : m pour périmètre, m² pour aire",
+    "Triangle : base × hauteur ÷ 2"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "L'aire d'un carré de côté 5 cm est :",
+      "options": [
+        "10 cm²",
+        "20 cm²",
+        "25 cm²",
+        "5 cm²"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Le périmètre d'un rectangle 6 cm × 3 cm est :",
+      "options": [
+        "9 cm",
+        "12 cm",
+        "18 cm",
+        "24 cm"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-maths-1-mv9lydpi",
+      "type": "mcq",
+      "prompt": "Un rectangle a un périmètre de $24\\text{ cm}$ et une longueur de $8\\text{ cm}$. Quelle est l'aire de ce rectangle ?",
+      "options": [
+        "$32\\text{ cm}^2$",
+        "$40\\text{ cm}^2$",
+        "$16\\text{ cm}^2$",
+        "$24\\text{ cm}^2$"
+      ],
+      "answer": 0,
+      "explanation": "Le périmètre est donné par $P = 2(L + l)$. Avec $P=24$ et $L=8$, on a $24 = 2(8 + l)$, donc $12 = 8 + l$, ce qui donne $l = 4\\text{ cm}$. L'aire est $A = L \\times l = 8 \\times 4 = 32\\text{ cm}^2$."
+    },
+    {
+      "id": "auto-maths-2-mv9lydpi",
+      "type": "mcq",
+      "prompt": "Le côté d'un carré est augmenté de $20\\%$. Quel est le pourcentage d'augmentation de son aire ?",
+      "options": [
+        "$20\\%$",
+        "$40\\%$",
+        "$44\\%$",
+        "$24\\%$"
+      ],
+      "answer": 2,
+      "explanation": "Soit $c$ le côté initial. L'aire initiale est $c^2$. Le nouveau côté est $1.2c$. La nouvelle aire est $(1.2c)^2 = 1.44c^2$. L'augmentation est $1.44c^2 - c^2 = 0.44c^2$, soit $44\\%$."
+    },
+    {
+      "id": "auto-maths-3-mv9lydpi",
+      "type": "mcq",
+      "prompt": "Dans un triangle, la base mesure $10\\text{ cm}$ et la hauteur correspondante mesure $6\\text{ cm}$. Si on double la base tout en gardant la même hauteur, que devient l'aire du triangle ?",
+      "options": [
+        "Elle reste inchangée",
+        "Elle est divisée par 2",
+        "Elle est multipliée par 2",
+        "Elle est multipliée par 4"
+      ],
+      "answer": 2,
+      "explanation": "L'aire d'un triangle est $A = \\frac{b \\times h}{2}$. Si la base $b$ devient $2b$, la nouvelle aire est $A' = \\frac{2b \\times h}{2} = 2 \\times \\frac{b \\times h}{2} = 2A$. L'aire est donc doublée."
+    },
+    {
+      "id": "auto-maths-4-mv9lydpi",
+      "type": "mcq",
+      "prompt": "Un rectangle a une aire de $50\\text{ m}^2$ et un périmètre de $30\\text{ m}$. Quelle est la longueur du côté le plus court de ce rectangle ?",
+      "options": [
+        "$5\\text{ m}$",
+        "$10\\text{ m}$",
+        "$2.5\\text{ m}$",
+        "$4\\text{ m}$"
+      ],
+      "answer": 0,
+      "explanation": "Soient $L$ et $l$ les dimensions. On a $L+l = 15$ (car $P=2(L+l)=30$) et $L \\times l = 50$. Les nombres entiers dont la somme est 15 et le produit est 50 sont 5 et 10. Le côté le plus court est donc $5\\text{ m}$."
+    },
+    {
+      "id": "auto-maths-5-mv9lydpi",
+      "type": "mcq",
+      "prompt": "On considère deux figures : un carré de côté $10\\text{ cm}$ et un rectangle de $12\\text{ cm}$ de longueur et $8\\text{ cm}$ de largeur. Quelle affirmation est vraie ?",
+      "options": [
+        "Le carré a une aire plus grande que le rectangle",
+        "Le rectangle a un périmètre plus grand que le carré",
+        "Les deux figures ont la même aire",
+        "Les deux figures ont le même périmètre"
+      ],
+      "answer": 3,
+      "explanation": "Aire du carré : $10 \\times 10 = 100\\text{ cm}^2$. Aire du rectangle : $12 \\times 8 = 96\\text{ cm}^2$. Périmètre du carré : $4 \\times 10 = 40\\text{ cm}$. Périmètre du rectangle : $2(12 + 8) = 40\\text{ cm}$. Les périmètres sont égaux."
+    }
+  ]
+}

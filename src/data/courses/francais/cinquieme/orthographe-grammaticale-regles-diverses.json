@@ -1,0 +1,45 @@
+{
+  "id": "francais-cinquieme-orthographe-grammaticale-regles-diverses",
+  "title": "Orthographe grammaticale : Règles diverses",
+  "summary": "Les élèves s'exercent aux règles d'orthographe grammaticale.",
+  "lesson": "## Orthographe grammaticale\n\n### On / Ont\n- ON (pronom = il) : On mange\n- ONT (verbe avoir = avaient) : Ils ont mangé\n\n### Adjectif verbal et participe présent\n- Participe présent : invariable, action (travaillant)\n- Adjectif verbal : variable, qualité (travaillants)\n\n### Adjectifs de couleur\n- Simple : accord (des robes vertes)\n- Composé : invariable (bleu clair)\n- Nom : invariable (marron) sauf rose, mauve, pourpre\n\n### Nu, demi, mi, semi\n- Avant le nom : invariables (demi-heure, nu-pieds)\n- Après le nom : accord en genre (pieds nus, deux heures et demie)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "On = il, Ont = avaient",
+    "Participe (invariable) / Adjectif verbal (variable)",
+    "Couleur simple : accord, composée : invariable",
+    "Demi avant : invariable, après : accord"
+  ],
+  "exercise": {
+    "answer": "Ils ont des yeux bleu clair. Une demi-heure.",
+    "question": "Corrige : 'Ils on des yeux bleus clairs. Une demi heure.'"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Complète : 'Ils ... fini' :",
+      "options": [
+        "on",
+        "ont",
+        "ons",
+        "honte"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "L'adverbe de 'doux' est :",
+      "options": [
+        "douxment",
+        "dousement",
+        "doucement",
+        "douxement"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

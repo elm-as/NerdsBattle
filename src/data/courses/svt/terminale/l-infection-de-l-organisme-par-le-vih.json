@@ -1,0 +1,280 @@
+{
+  "id": "svt-terminale-l-infection-de-l-organisme-par-le-vih",
+  "title": "L’infection de l’organisme par le VIH",
+  "summary": "Au cours de l’année scolaire, une élève de première C du Lycée Moderne Jeunes Filles de Bouaké a été déclarée infectée par le VIH après une journée de dépistage organisée par le club santé. En terminale C, cette élève autrefois résistante aux maladies est régulièrement malade et souffre de plusieurs infections à la fois. Pour comprendre ce qui arrive à leur camarade, les autres élèves de la classe décident de s’informer sur l’infection par le VIH et de proposer des mesures de protection.",
+  "lesson": "## 1. Introduction : Le VIH/SIDA, un enjeu de santé mondiale et local\n\nLe **Virus de l’Immunodéficience Humaine (VIH)** est un rétrovirus qui attaque spécifiquement le système immunitaire, conduisant au **Syndrome d’Immunodéficience Acquise (SIDA)**. En Côte d’Ivoire, la prévalence du VIH reste une préoccupation majeure de santé publique, touchant particulièrement les jeunes et les femmes.\n\n## 2. Structure et ultrastructure du VIH\n\nLe VIH est un virus enveloppé d’environ 100 nm de diamètre.\n\n**A. Composants structuraux (de l’extérieur vers l’intérieur) :**\n1. **Enveloppe lipidique** : Provenant de la membrane plasmique de la cellule hôte précédemment infectée.\n2. **Glycoprotéines d’enveloppe (gp)** :\n   - **gp120** : Protéine de surface qui se lie aux récepteurs de la cellule cible.\n   - **gp41** : Protéine transmembranaire qui permet la fusion des membranes.\n3. **Matrice protéique (p17)** : Sous l’enveloppe, maintient l’intégrité structurale.\n4. **Capside (p24)** : Coque protéique (capside) en forme de cône qui protège le génome viral.\n5. **Génome viral** : Deux molécules identiques d’**ARN simple brin positif** (environ 9,7 kb).\n6. **Enzymes virales** empaquetées dans la capside :\n   - **Transcriptase inverse (RT)** : Convertit l’ARN viral en ADN double brin.\n   - **Intégrase** : Intègre l’ADN viral dans le génome de l’hôte.\n   - **Protéase** : Clive les précurseurs protéiques viraux lors de l’assemblage.\n\n**Description du schéma 25 : Ultrastructure du VIH**\nReprésenter un virus schématique en coupe. De l’extérieur vers l’intérieur : (1) Enveloppe lipidique (double ligne) parsemée de glycoprotéines gp120 et gp41 (en forme de tiges). (2) Couche de matrice protéique (p17) juste sous l’enveloppe. (3) Capside conique (p24) à l’intérieur. (4) À l’intérieur de la capside : deux brins d’ARN viral (zigzags) et les enzymes (transcriptase inverse, intégrase, protéase représentées par des petits cercles). Légender chaque élément clairement.\n\n## 3. Cellules cibles du VIH : les lymphocytes T CD4+\n\nLe VIH infecte préférentiellement les cellules possédant à leur surface le **récepteur CD4** et un **co-récepteur** (principalement **CCR5** ou **CXCR4**).\n- **Principale cible** : **Lymphocytes T auxiliaires (LT4 ou CD4+)** – chefs d’orchestre de la réponse immunitaire adaptative.\n- **Autres cibles** : Macrophages, cellules dendritiques, cellules microgliales (du système nerveux), qui expriment aussi CD4 et des co-récepteurs.\n\n## 4. Mécanisme d’infection du lymphocyte T4 par le VIH\n\n**Cycle réplicatif du VIH (en 7 étapes principales) :**\n\n**1. Fixation (attachement)** : La glycoprotéine **gp120** du VIH se lie spécifiquement au **récepteur CD4** à la surface du LT4.\n\n**2. Liaison au co-récepteur** : Cette liaison induit un changement conformationnel de gp120, exposant un site qui se lie à un **co-récepteur** (CCR5 ou CXCR4, des récepteurs de chimiokines).\n\n**3. Fusion des membranes** : La liaison au co-récepteur déclenche un nouveau changement, permettant à **gp41** de s’enfoncer dans la membrane du lymphocyte. Les membranes virale et cellulaire fusionnent, libérant la capside virale dans le cytoplasme du lymphocyte.\n\n**4. Décapsidation et rétro-transcription** : La capside se désagrège partiellement. L’**ARN viral** est rétro-transcrit en **ADN double brin** par l’enzyme virale **transcriptase inverse**. Cette étape est sujette à de nombreuses erreurs (pas de correction d’épreuves), générant une grande **variabilité génétique** du virus (souches résistantes).\n\n**5. Intégration** : Le complexe pré-intégration (ADN viral + intégrase) migre dans le noyau. L’**intégrase** virale insère l’ADN viral (appelé **provirus**) dans le génome de la cellule hôte. Le provirus y reste à vie, pouvant être latent (silencieux) ou actif.\n\n**6. Transcription et traduction** : Lorsque le lymphocyte T4 est activé (par exemple lors d’une infection opportuniste), les gènes viraux intégrés sont transcrits en **ARN messagers viraux** par la machinerie cellulaire. Ces ARNm sont traduits en **protéines virales** (précurseurs polyprotéiques).\n\n**7. Assemblage, bourgeonnement et maturation** :\n   - Les composants viraux (ARN génomique, enzymes, protéines structurales) s’assemblent près de la membrane plasmique.\n   - Les nouveaux virus **bourgeonnent** à travers la membrane, acquérant ainsi leur enveloppe lipidique et leurs glycoprotéines.\n   - La **protéase** virale clive les précurseurs polyprotéiques en protéines fonctionnelles, donnant au virus sa **maturité infectieuse**.\n   - Le lymphocyte T4, épuisé par cette production virale massive, finit par mourir (par apoptose ou lyse).\n\n**Description du schéma 26 : Cycle d’infection du VIH dans un lymphocyte T4**\nReprésenter de manière séquentielle : (1) Fixation du VIH (gp120) sur CD4 et CCR5. (2) Fusion et entrée de la capside. (3) Rétro-transcription (ARN → ADN) dans le cytoplasme. (4) Migration de l’ADN viral dans le noyau et intégration dans l’ADN cellulaire. (5) Transcription et traduction lorsque la cellule est activée. (6) Assemblage des nouveaux virus et bourgeonnement à la membrane. (7) Mort du lymphocyte T4. Utiliser des flèches et des légendes détaillées.\n\n## 5. Conséquences de l’infection des LT4 sur l’organisme\n\n**A. Au niveau cellulaire et immunitaire**\n- **Déplétion massive des lymphocytes T CD4+** : Mort directe par lyse, apoptose induite par le virus, ou élimination par les lymphocytes T cytotoxiques (qui reconnaissent les cellules infectées).\n- **Dysfonctionnement du système immunitaire** : La perte des LT4, cellules \"chefs d’orchestre\", perturbe gravement :\n  - **L’activation des lymphocytes B** → production d’anticorps moins efficace.\n  - **L’activation des lymphocytes T cytotoxiques (CD8+)** → réponse cellulaire affaiblie contre les cellules infectées ou cancéreuses.\n  - **La coopération cellulaire** globale est rompue.\n- **Hyperactivation immunitaire chronique** : Tentative futile de l’organisme pour compenser, épuisant davantage le système.\n\n**B. Évolution vers le SIDA (Stade SIDA)**\nLe SIDA est défini par :\n1. **Un taux de lymphocytes T CD4+** sanguin inférieur à **200 cellules/mm³** (la normale est entre 500 et 1500).\n2. **L’apparition d’infections opportunistes** : Infections par des micro-organismes normalement contrôlés par un système immunitaire sain. Exemples :\n   - **Pneumonie à *Pneumocystis jirovecii***\n   - **Tuberculose** (forme disséminée)\n   - **Candidose** œsophagienne ou pulmonaire\n   - **Toxoplasmose** cérébrale\n   - **Sarcome de Kaposi** (cancer des vaisseaux sanguins associé à un herpesvirus)\n   - **Cancers** (lymphomes, cancer du col de l’utérus)\n3. **Syndromes généraux** : Fièvre prolongée, diarrhée chronique, amaigrissement important (\"slim disease\").\n\n## 6. Notion de dysfonctionnement du système immunitaire\n\nLe VIH ne détruit pas seulement les cellules immunitaires en nombre (**déplétion quantitative**), il altère aussi profondément leur **fonction** (**dysfonctionnement qualitatif**). Les cellules survivantes sont souvent incapables de répondre correctement aux antigènes, même en dehors des infections opportunistes. Ce **dysfonctionnement global** est ce qui rend l’organisme vulnérable à un large spectre d’agents pathogènes et de cancers.\n\n## 7. Mesures de protection contre le VIH\n\n**A. Prévention de la transmission**\nLe VIH se transmet par : sang, sécrétions génitales, lait maternel.\n- **Voie sexuelle** (majoritaire) :\n  - Utilisation correcte et systématique du **préservatif masculin ou féminin**.\n  - **Fidélité mutuelle** entre partenaires non infectés.\n  - **Circoncision masculine** médicalisée (réduit le risque de transmission hétérosexuelle d’environ 60%).\n- **Voie sanguine** :\n  - Utilisation de matériel stérile à usage unique pour les soins, les tatouages, les piercings.\n  - **Dépistage systématique** des dons de sang.\n  - **Ne pas partager** les objets coupants ou piquants (rasoirs, aiguilles).\n- **Voie materno-fœtale** (de la mère à l’enfant) :\n  - **Dépistage** des femmes enceintes.\n  - **Traitement antirétroviral** (TAR) pendant la grossesse, l’accouchement et après la naissance.\n  - **Accouchement par césarienne** programmée dans certains cas.\n  - **Allaitement maternel substitutif** (avec lait en poudre) si les conditions d’hygiène et de ressources le permettent, sinon allaitement maternel exclusif + TAR pour la mère.\n\n**B. Dépistage et traitement comme prévention (TasP)**\n- **Dépistage volontaire et confidentiel** : Connaître son statut est le premier pas. Il existe des tests rapides.\n- **Traitement Antirétroviral (TAR)** : Les multithérapies (trithérapie) bloquent différentes étapes du cycle viral (inhibiteurs de fusion, de la transcriptase inverse, de l’intégrase, de la protéase). Un traitement efficace rend la **charge virale indétectable** dans le sang, ce qui :\n  1. Préserve la santé de la personne vivant avec le VIH (PVVIH).\n  2. **Rend la transmission sexuelle du virus quasi nulle** (**U=U** : Indétectable = Intransmissible).\n  3. Est donc un outil majeur de prévention.\n- **Prophylaxie Pré-Exposition (PrEP)** : Prise d’antirétroviraux par des personnes séronégatives à haut risque pour prévenir l’infection (efficace à >90%).\n- **Prophylaxie Post-Exposition (PPE)** : Traitement d’urgence débuté dans les 72h après une exposition à risque (accident d’exposition au sang, rapport non protégé avec partenaire séropositif).\n\n**C. Éducation et lutte contre la stigmatisation**\n- **Éducation sexuelle complète** dans les écoles (lycées) et les communautés.\n- **Sensibilisation** via les médias, les leaders communautaires et religieux.\n- **Lutte contre la discrimination** et la stigmatisation des PVVIH, qui freinent le dépistage et l’accès aux soins.\n- **Autonomisation des jeunes et des femmes** (accès à l’information, aux services, capacité à négocier le port du préservatif).\n\n## 8. Vie avec le VIH en Côte d’Ivoire\n\nGrâce aux programmes nationaux soutenus par des partenaires internationaux (Fonds mondial, PEPFAR, ONUSIDA), l’accès au TAR s’est amélioré. Le défi reste d’atteindre les populations clés (jeunes, travailleuses du sexe, hommes ayant des relations sexuelles avec des hommes) et d’assurer l’observance au traitement à vie. Les clubs scolaires de santé, comme celui évoqué dans la situation, jouent un rôle crucial de sensibilisation par les pairs.\n\n## 9. Conclusion\n\nLe VIH cible et détruit progressivement les lymphocytes T CD4+, entraînant un dysfonctionnement profond du système immunitaire et l’apparition du SIDA. La prévention repose sur une combinaison d’outils (préservatif, dépistage, traitement, éducation) et la lutte contre les préjugés. Aujourd’hui, une personne séropositive sous traitement efficace peut vivre longtemps et en bonne santé, et ne transmet plus le virus.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Le VIH est un rétrovirus dont la cible principale est le lymphocyte T CD4+, grâce à la liaison de sa glycoprotéine gp120 aux récepteurs CD4 et aux co-récepteurs (CCR5/CXCR4).",
+    "Son cycle réplicatif comprend : fixation/fusion, rétro-transcription (ARN→ADN), intégration dans le génome de l’hôte, production de nouveaux virus, et mort de la cellule.",
+    "La conséquence majeure est la déplétion des LT4, conduisant à un dysfonctionnement immunitaire profond et au SIDA (infections opportunistes, cancers).",
+    "La prévention combine le préservatif, le dépistage, le traitement antirétroviral (qui protège aussi les partenaires), la PrEP et l’éducation.",
+    "Un dysfonctionnement du système immunitaire est une altération grave de sa capacité à coordonner une réponse efficace contre les pathogènes."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la principale cellule cible du VIH ?",
+      "options": [
+        "Lymphocyte B",
+        "Lymphocyte T cytotoxique (CD8+)",
+        "Lymphocyte T auxiliaire (CD4+)",
+        "Granulocyte neutrophile"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle glycoprotéine de surface du VIH se lie au récepteur CD4 de la cellule hôte ?",
+      "options": [
+        "gp41",
+        "gp120",
+        "p24",
+        "p17"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle enzyme virale permet de convertir l'ARN viral en ADN ?",
+      "options": [
+        "Intégrase",
+        "Protéase",
+        "Transcriptase inverse",
+        "ADN polymérase"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Comment appelle-t-on l'ADN viral intégré dans le génome de la cellule hôte ?",
+      "options": [
+        "Provirus",
+        "Rétrovirus",
+        "Virophage",
+        "Plasmide"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel est le critère biologique principal pour définir le stade SIDA ?",
+      "options": [
+        "Charge virale élevée",
+        "Taux de CD4 inférieur à 200/mm³",
+        "Présence d'anticorps anti-VIH",
+        "Fièvre persistante"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle est une infection opportuniste courante chez les personnes atteintes du SIDA ?",
+      "options": [
+        "Rhume",
+        "Pneumonie à Pneumocystis",
+        "Varicelle",
+        "Angine streptococcique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Que signifie l'acronyme \"TasP\" dans la lutte contre le VIH ?",
+      "options": [
+        "Traitement as a Prevention (Traitement comme Prévention)",
+        "Test and Stop (Tester et Arrêter)",
+        "Total abstinence Strategy (Stratégie d'abstinence totale)",
+        "Therapy after SIDA Prevention"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Que signifie U=U ?",
+      "options": [
+        "Unique=Universal",
+        "Undetectable=Untransmittable (Indétectable=Intransmissible)",
+        "Universal=Useful",
+        "United against Unknown"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quelle mesure prophylactique peut être prise par une personne séronégative à haut risque avant une exposition potentielle ?",
+      "options": [
+        "PPE (Prophylaxie Post-Exposition)",
+        "TAR (Traitement Antirétroviral)",
+        "PrEP (Prophylaxie Pré-Exposition)",
+        "Vaccination"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel est le principal défi pour vivre avec le VIH aujourd'hui ?",
+      "options": [
+        "L'absence de traitement",
+        "L'observance à vie du traitement antirétroviral",
+        "La vaccination obligatoire",
+        "L'isolement systématique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Quelle est la principale cellule cible du VIH?",
+      "options": [
+        "Lymphocyte T CD8⁺",
+        "Lymphocyte T CD4⁺",
+        "Lymphocyte B",
+        "Neutrophile"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Quelle enzyme du VIH permet la synthèse d'ADN à partir d'ARN viral?",
+      "options": [
+        "Intégrase",
+        "Transcriptase inverse",
+        "Protéase",
+        "ARN polymérase"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quelle glycoprotéine de l'enveloppe du VIH se fixe au récepteur CD4?",
+      "options": [
+        "gp41",
+        "gp120",
+        "p24",
+        "p17"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quel est le principal corécepteur utilisé par la plupart des souches de VIH pour entrer dans les macrophages?",
+      "options": [
+        "CXCR4",
+        "CCR5",
+        "CD8",
+        "CD28"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "À quel stade l'ADN viral s'intègre-t-il dans le génome de la cellule hôte?",
+      "options": [
+        "Après la transcription inverse",
+        "Après le bourgeonnement",
+        "Avant la fixation",
+        "Pendant la maturation"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Quel est le seuil de lymphocytes T CD4⁺ qui définit généralement le stade SIDA?",
+      "options": [
+        "<500/μL",
+        "<350/μL",
+        "<200/μL",
+        "<50/μL"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Quelle infection opportuniste pulmonaire fréquente chez les patients SIDA est causée par un champignon?",
+      "options": [
+        "Tuberculose",
+        "Pneumonie à pneumocoque",
+        "Pneumocystose (PJP)",
+        "Candidose"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Quel acronyme signifie que les personnes sous traitement efficace ne transmettent pas le VIH par voie sexuelle?",
+      "options": [
+        "TAR",
+        "PTME",
+        "U=U",
+        "PrEP"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Quelle méthode de prévention consiste à prendre des antirétroviraux avant une exposition à risque?",
+      "options": [
+        "PPE",
+        "PrEP",
+        "TasP",
+        "PTME"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Quelle structure ivoirienne coordonne la lutte contre le SIDA?",
+      "options": [
+        "PNLS",
+        "OMS",
+        "CDC",
+        "MSF"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

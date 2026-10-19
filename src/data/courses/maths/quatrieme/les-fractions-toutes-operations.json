@@ -1,0 +1,110 @@
+{
+  "id": "maths-quatrieme-les-fractions-toutes-operations",
+  "title": "Les fractions : toutes opérations",
+  "summary": "Aminata boit 3/4 de litre d'eau le matin et 5/6 de litre l'après-midi. Quelle quantité totale boit-elle ?",
+  "lesson": "## Opérations sur les fractions\n\n### Addition et soustraction\n\n**Même dénominateur :**\n3/7 + 2/7 = 5/7\n\n**Dénominateurs différents :**\n1. Mettre au même dénominateur\n2. Additionner les numérateurs\n\n**Exemple :** 3/4 + 5/6\nDénominateur commun : 12\n3/4 = 9/12\n5/6 = 10/12\n9/12 + 10/12 = 19/12\n\n### Multiplication\nOn multiplie les numérateurs entre eux et les dénominateurs entre eux.\n\n**Formule :** a/b × c/d = (a×c)/(b×d)\n\n**Exemple :** 2/3 × 5/7 = 10/21\n\n### Division\nDiviser par une fraction = multiplier par son inverse.\n\n**Formule :** a/b ÷ c/d = a/b × d/c\n\n**Exemple :** 3/4 ÷ 2/5 = 3/4 × 5/2 = 15/8",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Addition : même dénominateur d'abord",
+    "Multiplication : numérateur × numérateur",
+    "Division : × par l'inverse",
+    "Simplifier le résultat"
+  ],
+  "exercise": {
+    "answer": "\n**Solution :**\nDénominateur commun : 12\n\n2/3 = 8/12 (×4)\n1/4 = 3/12 (×3)\n\n8/12 + 3/12 = 11/12\n\n**Réponse : 11/12**\n        ",
+    "question": "Calcule et simplifie : 2/3 + 1/4"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 3,
+      "prompt": "Calcule : 5/8 + 3/8",
+      "options": [
+        "8/8",
+        "8/16",
+        "15/8",
+        "1"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Calcule : 2/5 × 3/4",
+      "options": [
+        "5/9",
+        "6/20",
+        "6/9",
+        "5/20"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-maths-1-mvae88jo",
+      "type": "mcq",
+      "prompt": "Aminata boit $\\frac{3}{4}$ de litre d'eau le matin et $\\frac{5}{6}$ de litre l'après-midi. Quelle est la quantité totale d'eau qu'elle boit, exprimée sous forme de fraction irréductible ?",
+      "options": [
+        "$\\frac{19}{12}$",
+        "$\\frac{8}{10}$",
+        "$\\frac{15}{24}$",
+        "$\\frac{19}{24}$"
+      ],
+      "answer": 0,
+      "explanation": "Pour additionner $\\frac{3}{4}$ et $\\frac{5}{6}$, on cherche le plus petit dénominateur commun (PPCM de 4 et 6), qui est 12. On convertit les fractions : $\\frac{3}{4} = \\frac{3 \\times 3}{4 \\times 3} = \\frac{9}{12}$ et $\\frac{5}{6} = \\frac{5 \\times 2}{6 \\times 2} = \\frac{10}{12}$. L'addition donne $\\frac{9}{12} + \\frac{10}{12} = \\frac{19}{12}$. Cette fraction est irréductible car 19 est un nombre premier et ne divise pas 12."
+    },
+    {
+      "id": "auto-maths-2-mvae88jo",
+      "type": "mcq",
+      "prompt": "En utilisant la propriété de la division des fractions, calcule le résultat de l'opération $\\frac{7}{8} \\div \\frac{2}{3}$.",
+      "options": [
+        "$\\frac{14}{24}$",
+        "$\\frac{21}{16}$",
+        "$\\frac{16}{21}$",
+        "$\\frac{21}{8}$"
+      ],
+      "answer": 1,
+      "explanation": "Diviser par une fraction revient à multiplier par son inverse. L'opération devient $\\frac{7}{8} \\times \\frac{3}{2}$. On multiplie les numérateurs ($7 \\times 3 = 21$) et les dénominateurs ($8 \\times 2 = 16$). Le résultat est donc $\\frac{21}{16}$."
+    },
+    {
+      "id": "auto-maths-3-mvae88jo",
+      "type": "mcq",
+      "prompt": "Soit l'expression mathématique $E = \\frac{5}{9} + \\frac{1}{3} - \\frac{2}{9}$. Quelle est la valeur simplifiée de $E$ ?",
+      "options": [
+        "$\\frac{4}{9}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{6}{9}$"
+      ],
+      "answer": 1,
+      "explanation": "On met tout au même dénominateur, qui est 9. $\\frac{1}{3} = \\frac{3}{9}$. L'expression devient $\\frac{5}{9} + \\frac{3}{9} - \\frac{2}{9}$. On additionne/soustrait les numérateurs : $5 + 3 - 2 = 6$. Le résultat est $\\frac{6}{9}$. En simplifiant par 3, on obtient $\\frac{2}{3}$."
+    },
+    {
+      "id": "auto-maths-4-mvae88jo",
+      "type": "mcq",
+      "prompt": "Quelle fraction est égale au produit $\\frac{4}{5} \\times \\frac{10}{12}$ après simplification maximale ?",
+      "options": [
+        "$\\frac{40}{60}$",
+        "$\\frac{2}{3}$",
+        "$\\frac{1}{3}$",
+        "$\\frac{4}{3}$"
+      ],
+      "answer": 1,
+      "explanation": "On peut simplifier avant de multiplier pour faciliter le calcul. $\\frac{4}{5} \\times \\frac{10}{12}$. On simplifie 4 et 12 par 4 (il reste 1 et 3), et 5 et 10 par 5 (il reste 1 et 2). L'expression devient $\\frac{1}{1} \\times \\frac{2}{3} = \\frac{2}{3}$. Si on multiplie directement : $\\frac{40}{60}$, en divisant numérateur et dénominateur par 20, on obtient bien $\\frac{2}{3}$."
+    },
+    {
+      "id": "auto-maths-5-mvae88jo",
+      "type": "mcq",
+      "prompt": "Un élève a réalisé l'opération suivante : $\\frac{2}{3} \\div \\frac{4}{9} = \\frac{2}{3} \\times \\frac{9}{4} = \\frac{18}{12} = \\frac{3}{2}$. Quelle est la nature de la fraction $\\frac{3}{2}$ obtenue ?",
+      "options": [
+        "Une fraction propre",
+        "Une fraction impropre",
+        "Une fraction entière",
+        "Une fraction irréductible nulle"
+      ],
+      "answer": 1,
+      "explanation": "Une fraction est dite impropre lorsque son numérateur est supérieur ou égal à son dénominateur. Ici, $3 > 2$, donc $\\frac{3}{2}$ est une fraction impropre. Elle est également irréductible (PGCD de 3 et 2 est 1), mais la caractéristique principale demandée par rapport à sa forme est qu'elle est impropre."
+    }
+  ]
+}

@@ -1,98 +1,293 @@
 {
   "id": "physique-terminale-dosage-acido-basique",
-  "subjectId": "physique",
-  "levelId": "terminale",
-  "slug": "dosage-acido-basique",
-  "title": "Dosage acido‑basique : vinaigre et indicateurs",
-  "summary": "Cette leçon présente le principe du dosage acido‑basique, la réalisation d’un titrage colorimétrique du vinaigre, le choix d’indicateurs et l’interprétation des résultats. Elle inclut un exercice pratique sur le dosage d’acide benzoïque et un questionnaire pour vérifier la compréhension.",
-  "lesson": "# 1. Introduction\nLe dosage est une technique expérimentale qui permet de déterminer la concentration molaire d’une espèce chimique dans une solution. On fait réagir une substance inconnue (A) avec une substance connue (B) jusqu’à l’équivalence, puis on calcule la concentration de A.\n\n## 2. Protocole expérimental\n1. Prélèvement d’un volume (V_a) de la solution à doser.\n2. Ajout d’un indicateur coloré.\n3. Titration graduée avec la solution titrante jusqu’à l’apparition d’une couleur stable.\n4. Lecture du volume (V_{eq}) de titrant.\n\n## 3. Réactions acido‑basiques\n- Acide fort + base forte : (mathrm{H_3O^+ + OH^- \rightarrow H_2O})\n- Acide faible + base forte : (mathrm{AH + OH^- \rightarrow A^- + H_2O})\n- Acide fort + base faible : (mathrm{H_3O^+ + A^- \rightarrow AH + H_2O})\n\n## 4. Dosage colorimétrique du vinaigre\n- Prélèvement de 10 mL de vinaigre 8°.\n- Dilution 10 fois → concentration (C_a).\n- Titration avec 0,1 mol L⁻¹ de soude.\n- Point d’équivalence à 13 mL de soude, pH ≈ 8,8.\n- Calcul : (C_a = \frac{C_b V_{eq}}{V_a} = 0,13) mol L⁻¹.\n- Concentration commerciale : (C_0 = 10 C_a = 1,3) mol L⁻¹.\n\n## 5. Choix de l’indicateur\n| Indicateur | Couleur acide | Zone de virage | Couleur basique |\n|------------|---------------|----------------|-----------------|\n| Helianthine | Rouge | 3,1–4,4 | Jaune |\n| Bromothymol | Jaune | 6–7,6 | Bleu |\n| Phénolphthaleine | Incolore | 8,2–10 | Rose violacé |\n\n- Pour un acide fort + base forte : **phénolphthaleine** (pH 8,2–10).\n- Pour un acide faible + base forte : **phénolphthaleine**.\n- Pour un acide fort + base faible : **bromothymol** (pH 6–7,6).\n\n## 6. Exercice d’application\nDosage d’acide benzoïque :\n- (V_a = 50) mL, (C_b = 0,1) mol L⁻¹, (V_{eq} = 20) mL.\n- Equation bilan : (mathrm{C_6H_5COOH + NaOH \rightarrow C_6H_5COONa + H_2O}).\n- Rôle de la phénolphthaleine : indicateur de changement de couleur à l’équivalence.\n\n## 7. Interprétation des résultats\n- À l’équivalence, les moles d’acide et de base sont égales.\n- La concentration de l’acide est calculée par (C_a = \frac{C_b V_{eq}}{V_a}).\n- La neutralité électro‑chimique assure que ([CH_3COO^-] = [Na^+] + [H_3O^+] - [OH^-]).\n\n## 8. Conclusion\nLe dosage acido‑basique permet de quantifier précisément des acides ou bases dans des solutions. Le choix de l’indicateur dépend du pH d’équivalence et de la zone de virage de l’indicateur.",
+  "title": "Dosage acido-basique",
+  "summary": "Au marché d'Adjamé à Abidjan, une vendeuse de vinaigre artisanal affirme que son produit est \"à 8°\", ce qui signifie qu'il contient 8 grammes d'acide acétique pour 100 mL. Un élève de Terminale C, membre d'un club scientifique, souhaite vérifier cette allégation. Il se procure un échantillon et décide, avec son groupe au lycée de Cocody, de réaliser le dosage de cet acide par de la soude. Ils doivent choisir le bon indicateur coloré, réaliser le dosage avec précision et calculer la concentration réelle, une",
+  "lesson": "## 1. Principe général d'un dosage (titrage) acido-basique\n\n**Définition** : Un dosage (ou titrage) est une technique de chimie analytique qui permet de déterminer la concentration inconnue d'une espèce chimique (l'analyte) en la faisant réagir avec une solution de concentration connue (la solution titrante).\n\n**Dosage par étalonnage** : On mesure une grandeur physique (pH, conductivité, absorbance) en fonction du volume de titrant ajouté. Le point d'équivalence est déterminé graphiquement.\n\n**Dosage par indicateur coloré (méthode des volumes équivalents)** : On ajoute un indicateur dont le changement de couleur marque (approximativement) le point d'équivalence. On note alors le volume de titrant versé.\n\n## 2. Dispositif expérimental\n\n**Matériel** :\n- **Burette graduée** : Contient la solution titrante de concentration connue ($C_t$).\n- **Bécher ou Erlenmeyer** : Contient un volume précis ($V_a$) de la solution à doser, de concentration inconnue ($C_a$), éventuellement diluée. On y ajoute quelques gouttes d'indicateur coloré.\n- **Support et pinces**.\n- **Pipette jaugée** et **poire à pipeter** pour prélever $V_a$.\n- **Agitateur magnétique** (ou agitation manuelle).\n\n**Description du schéma 1 : Schéma légendé du montage de dosage**\nDessiner le montage classique. À gauche, une burette graduée tenue par une pince sur un support. La burette est remplie de la solution titrante (ex. soude). Son robinet est visible. En dessous, un bécher (ou un erlenmeyer) posé sur un agitateur magnétique. Une barre aimantée est dans le bécher. Le bécher contient la solution à doser (ex. vinaigre dilué) + indicateur. Une flèche pointe vers le bécher depuis l'extrémité de la burette. Légender : \"Burette contenant la solution titrante\", \"Solution à doser + indicateur\", \"Agitateur magnétique\", \"Volume équivalent $V_{eq}$ à lire sur la burette\".\n\n## 3. Réaction support du dosage\n\nPour le dosage d'un acide (noté $AH$, qui peut être fort ou faible) par une base forte ($OH^-$), la réaction est :\n$$AH + OH^- \\\\rightarrow A^- + H_2O$$\nSi l'acide est fort, cette réaction est totale. Si l'acide est faible, elle est également totale car la base forte $OH^-$ est un réactif fort.\n\nÀ l'**équivalence acido-basique**, les quantités de matière d'acide et de base ont été mélangées dans les proportions stœchiométriques de la réaction :\n$$n_{acide}^{initial} = n_{base}^{versée à l'équivalence}$$\nSoit : $C_a \\\times V_a = C_t \\\times V_{eq}$\nOù $V_{eq}$ est le volume de titrant versé à l'équivalence.\n\n## 4. Choix de l'indicateur coloré\n\nLe choix est **crucial** pour que le changement de couleur (virage) se produise le plus près possible du point d'équivalence réel.\n\n**Règle** : La **zone de virage** de l'indicateur ($pK_a \\\\pm 1$) doit **inclure le pH à l'équivalence** du dosage.\n\n- **Dosage acide fort par base forte (pH eq = 7)** : BBT (zone 6,0-7,6), hélianthine (3,1-4,4) est à proscrire.\n- **Dosage acide faible par base forte (pH eq > 7)** : Phénolphtaléine (8,2-10,0) est parfaite. Le BBT peut convenir si le pH eq est proche de 7.\n- **Dosage base faible par acide fort (pH eq < 7)** : Hélianthine (3,1-4,4) ou BBT (si pH eq ~6).\n\n**Description du schéma 2 : Comparaison zone de virage et pH à l'équivalence**\nReprésenter une échelle de pH de 0 à 14. Y superposer des bandes colorées représentant les zones de virage de trois indicateurs courants : Hélianthine (rouge 0-3,1 ; orange 3,1-4,4 ; jaune 4,4-14), BBT (jaune 0-6,0 ; vert 6,0-7,6 ; bleu 7,6-14), Phénolphtaléine (incolore 0-8,2 ; rose 8,2-14). Au-dessus, indiquer par des flèches le pH à l'équivalence pour trois dosages : \"Acide fort/Base forte (pH=7)\" (flèche sur BBT), \"Acide faible/Base forte (pH≈9)\" (flèche sur Phénolpht.), \"Base faible/Acide fort (pH≈5)\" (flèche entre Hélianthine et BBT). Montrer quel indicateur est adapté à chaque cas.\n\n## 5. Protocole de dosage du vinaigre\n\n**But** : Déterminer la concentration $C_0$ en acide acétique $CH_3COOH$ dans un vinaigre commercial.\n\n1.  **Préparation de la solution à doser** : Diluer 10 fois le vinaigre (prélever 10,0 mL avec une pipette jaugée, les introduire dans une fiole jaugée de 100 mL et compléter avec de l'eau distillée). La concentration diluée est $C_a = C_0 / 10$.\n2.  **Préparation de la burette** : Rincer puis remplir la burette avec la solution de soude $NaOH$ de concentration connue $C_t = 0,10 mol.L^{-1}$.\n3.  **Prélèvement** : Prélever $V_a = 10,0 mL$ de la solution diluée à l'aide d'une pipette jaugée, les introduire dans un erlenmeyer. Ajouter 2-3 gouttes de **phénolphtaléine**.\n4.  **Titrage** : Sous agitation, ajouter la soude goutte à goutte. Lorsque la couleur rose persiste plus de 30 secondes après agitation, arrêter le titrage. Noter le volume $V_{eq}$ lu sur la burette.\n5.  **Calcul** : $C_a = \\\\frac{C_t \\\times V_{eq}}{V_a}$. Puis $C_0 = 10 \\\times C_a$. En déduire le degré du vinaigre : $1°$ correspond à $1 g$ d'acide acétique pour $100 mL$. La masse molaire de $CH_3COOH$ est $M=60 g.mol^{-1}$.\n    $$\\\text{Degré} = C_0 (en \\\\, mol.L^{-1}) \\\times M \\\times 0,1$$\n    (Le facteur 0,1 vient de \"pour 100 mL\" : $0,1 L$).\n\n## 6. Sources d'erreur et précautions\n\n- **Rinçage correct** de la verrerie (burette avec la solution titrante, pipette avec la solution à doser, erlenmeyer à l'eau distillée).\n- **Lecture précise** des volumes (lire la burette à l'horizontale, bas du ménisque).\n- **Choix de l'indicateur** adapté.\n- **Agitation constante** pour homogénéiser.\n- **Détection fine du virage** (première teinte persistante).\n\n## 7. Importance des dosages en contrôle qualité (Côte d'Ivoire)\n\n- **Industrie alimentaire** : Dosage de l'acidité des jus de fruits (ananas, orange), du vinaigre, du lait.\n- **Agriculture** : Analyse de l'acidité des sols (dosage des ions $H^+$ échangeables).\n- **Environnement** : Dosage de l'acidité des eaux de pluie ou des effluents industriels.\n- **Pharmacie** : Contrôle de la teneur en principe actif de médicaments.",
   "estimatedMinutes": 10,
-  "tags": [
-    "physique",
-    "terminale",
-    "mena",
-    "ci",
-    "officiel"
+  "keyPoints": [
+    "À l'équivalence : $C_a \\\\times V_a = C_t \\\\times V_{eq}$.",
+    "Le choix de l'indicateur dépend du pH à l'équivalence : sa zone de virage doit contenir ce pH.",
+    "Pour le vinaigre (acide faible) dosé par la soude (base forte), on utilise la phénolphtaléine.",
+    "Le degré du vinaigre correspond aux grammes d'acide acétique pour 100 mL de solution.",
+    "Un dosage permet une détermination quantitative précise d'une concentration inconnue."
   ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
   "questions": [
     {
       "id": "q1",
       "type": "mcq",
-      "prompt": "Quel indicateur est le plus approprié pour un titrage acide fort – base forte dont le pH d’équivalence est 8,8 ?",
+      "prompt": "Lors d'un dosage, la solution dont on veut déterminer la concentration est placée :",
       "options": [
-        "Helianthine",
-        "Bromothymol",
-        "Phénolphthaleine",
-        "All of the above"
+        "Dans la burette",
+        "Dans le bécher (ou Erlenmeyer)",
+        "Dans la fiole jaugée",
+        "Dans l'éprouvette"
       ],
-      "answer": 2,
-      "explanation": "La phénolphthaleine a une zone de virage 8,2–10, qui englobe le pH d’équivalence 8,8."
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
     },
     {
       "id": "q2",
       "type": "mcq",
-      "prompt": "Dans le titrage d’acide benzoïque, quel est le volume de soude nécessaire pour atteindre l’équivalence si (V_a=50) mL et (C_b=0,1) mol L⁻¹?",
+      "prompt": "La relation utilisée pour calculer la concentration inconnue $C_a$ à l'équivalence est :",
       "options": [
-        "10 mL",
-        "20 mL",
-        "25 mL",
-        "30 mL"
+        "$C_a / V_a = C_t / V_{eq}$",
+        "$C_a \\\\times V_a = C_t \\\\times V_{eq}$",
+        "$C_a + V_a = C_t + V_{eq}$",
+        "$C_a = C_t \\\\times (V_{eq} / V_a)^2$"
       ],
       "answer": 1,
-      "explanation": "À l’équivalence, (n_{acide}=n_{base}). Donc (C_a V_a = C_b V_{eq}). On obtient (V_{eq}=20) mL."
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Pour doser un acide faible par une base forte, on choisit habituellement comme indicateur :",
+      "options": [
+        "L'hélianthine",
+        "Le bleu de bromothymol (BBT)",
+        "La phénolphtaléine",
+        "Le rouge de phénol"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
     },
     {
       "id": "q4",
-      "type": "fill",
-      "prompt": "Le calcul de la concentration de l’acide dans le vinaigre dilué donne (___) mol L⁻¹.",
-      "answer": "0,13",
-      "explanation": "(C_a = \frac{C_b V_{eq}}{V_a} = \frac{0,1 \times 13}{10} = 0,13) mol L⁻¹."
+      "type": "mcq",
+      "prompt": "Quel est le pH attendu à l'équivalence du dosage d'un acide fort par une base forte ?",
+      "options": [
+        "pH = 1",
+        "pH = 7",
+        "pH = 14",
+        "pH = pKₐ de l'acide"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
     },
     {
       "id": "q5",
       "type": "mcq",
-      "prompt": "Quel est le rôle principal de l’indicateur coloré dans un titrage?",
+      "prompt": "Si on dose un vinaigre (acide acétique) par de la soude, la réaction support s'écrit :",
       "options": [
-        "Mesurer le pH directement",
-        "Indiquer visuellement le point d’équivalence",
-        "Réagir avec le titrant",
-        "Changer la concentration de la solution"
+        "$CH_3COOH + Na^+ \\\\rightarrow CH_3COONa + H^+$",
+        "$CH_3COOH + OH^- \\\\rightarrow CH_3COO^- + H_2O$",
+        "$H_3O^+ + OH^- \\\\rightarrow 2H_2O$",
+        "$CH_3COO^- + H_3O^+ \\\\rightarrow CH_3COOH + H_2O$"
       ],
       "answer": 1,
-      "explanation": "L’indicateur change de couleur à l’équivalence, signalant le point d’équivalence."
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Le degré d'un vinaigre correspond à :",
+      "options": [
+        "Le pourcentage en volume d'alcool",
+        "Les grammes d'acide acétique pour 100 mL de vinaigre",
+        "Le pH du vinaigre",
+        "La molarité de l'acide acétique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
     },
     {
       "id": "q7",
       "type": "mcq",
-      "prompt": "La concentration commerciale du vinaigre est égale à :",
+      "prompt": "Pourquoi doit-on diluer le vinaigre avant de le doser ?",
       "options": [
-        "(C_a)",
-        "(10 C_a)",
-        "(C_a/10)",
-        "(C_a^2)"
+        "Pour changer sa couleur",
+        "Pour que le volume équivalent soit mesurable avec précision sur la burette",
+        "Pour éviter que la réaction ne soit trop lente",
+        "Pour économiser la solution titrante"
       ],
       "answer": 1,
-      "explanation": "La solution diluée a été faite 10 fois, donc (C_0 = 10 C_a)."
+      "explanation": "Question issue du programme officiel."
     },
     {
       "id": "q8",
-      "type": "fill",
-      "prompt": "Le pH de la solution de vinaigre diluée avant titration est (___).",
-      "answer": "2,9",
-      "explanation": "Valeur donnée dans le protocole."
+      "type": "mcq",
+      "prompt": "Lors du dosage, l'agitation a pour but :",
+      "options": [
+        "De refroidir le mélange",
+        "D'homogénéiser rapidement le mélange pour détecter le virage",
+        "D'accélérer chimiquement la réaction",
+        "De faire évaporer l'eau"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
     },
     {
       "id": "q9",
       "type": "mcq",
-      "prompt": "Quel indicateur est approprié pour un titrage acide fort – base faible dont le pH d’équivalence est 6,5 ?",
+      "prompt": "Un vinaigre à 6° contient approximativement une concentration molaire en acide acétique de : (M=60 g/mol)",
       "options": [
-        "Helianthine",
-        "Bromothymol",
-        "Phénolphthaleine",
-        "None"
+        "0,1 mol/L",
+        "1,0 mol/L",
+        "6,0 mol/L",
+        "0,6 mol/L"
       ],
       "answer": 1,
-      "explanation": "Bromothymol a une zone de virage 6–7,6, couvrant 6,5."
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "En Côte d'Ivoire, le dosage peut être utilisé pour contrôler la qualité :",
+      "options": [
+        "Du beurre de karité uniquement",
+        "Du pH de l'huile de palme",
+        "De l'acidité des jus de fruits locaux",
+        "De la teneur en sucre du cacao"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "À l'équivalence ?",
+      "options": [
+        "pH = 7",
+        "nₐ = nᵦ",
+        "V = 0",
+        "C = 0"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Le but principal d'un dosage est de :",
+      "options": [
+        "Préparer une nouvelle solution",
+        "Déterminer la concentration d'une espèce inconnue en solution",
+        "Changer la couleur d'une solution",
+        "Mesurer la température d'une réaction"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Dans un dosage, le point d'équivalence est atteint lorsque :",
+      "options": [
+        "Le pH est égal à 7",
+        "Les réactifs ont été mélangés dans les proportions stœchiométriques de la réaction",
+        "L'indicateur change de couleur pour la première fois",
+        "On a versé un volume arbitraire de solution titrante"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Pour doser un acide faible (comme l'acide acétique) par une base forte, on utilise généralement comme indicateur :",
+      "options": [
+        "L'hélianthine (zone 3.1-4.4)",
+        "Le bleu de bromothymol - BBT (zone 6.0-7.6)",
+        "La phénolphtaléine (zone 8.2-10.0)",
+        "N'importe quel indicateur"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Si on dose 20.0 mL d'une solution d'acide chlorhydrique par de la soude 0.1 M et que le volume à l'équivalence est de 15.0 mL, la concentration de l'acide est :",
+      "options": [
+        "0.075 mol·L⁻¹",
+        "0.10 mol·L⁻¹",
+        "0.15 mol·L⁻¹",
+        "0.20 mol·L⁻¹"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Avant de remplir une burette avec la solution titrante, il faut la rincer :",
+      "options": [
+        "Uniquement à l'eau distillée",
+        "D'abord à l'eau distillée, puis avec un peu de la solution titrante",
+        "Uniquement avec la solution à doser",
+        "Elle est déjà propre, pas besoin de rinçage"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Lors du dosage du vinaigre, si on dépasse le point d'équivalence (trop de soude versée), le résultat sera :",
+      "options": [
+        "Trop faible",
+        "Trop élevé",
+        "Non affecté",
+        "Impossible à prévoir"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Le degré d'un vinaigre à 6° signifie qu'il contient :",
+      "options": [
+        "6 g d'acide acétique par litre",
+        "60 g d'acide acétique par litre",
+        "6 g d'acide acétique par 100 mL",
+        "6 mol d'acide acétique par litre"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Pourquoi agite-t-on continuellement l'erlenmeyer pendant le dosage ?",
+      "options": [
+        "Pour refroidir la solution",
+        "Pour accélérer la réaction chimique",
+        "Pour homogénéiser le mélange et repérer précisément le changement de couleur",
+        "Pour éviter que l'indicateur ne se dépose au fond"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Cette technique de dosage colorimétrique pourrait être utile en Côte d'Ivoire pour contrôler :",
+      "options": [
+        "La couleur des pagnes",
+        "La teneur en sucre du cacao",
+        "L'acidité des jus d'ananas ou des vinaigres locaux",
+        "La dureté de l'eau"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q21",
+      "type": "mcq",
+      "prompt": "Si on utilise un indicateur dont la zone de virage ne contient pas le pH à l'équivalence, la détermination du point d'équivalence sera :",
+      "options": [
+        "Plus précise",
+        "Imprécise voire erronée",
+        "Non affectée",
+        "Plus rapide"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
     }
   ]
 }

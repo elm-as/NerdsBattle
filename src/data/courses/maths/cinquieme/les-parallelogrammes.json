@@ -1,0 +1,45 @@
+{
+  "id": "maths-cinquieme-les-parallelogrammes",
+  "title": "Les parallélogrammes",
+  "summary": "Un menuisier doit vérifier que la fenêtre qu'il fabrique forme bien un parallélogramme. Comment peut-il le vérifier ?",
+  "lesson": "## Le parallélogramme\n\n### Définition\nUn parallélogramme est un quadrilatère dont les côtés opposés sont parallèles.\n\n### Propriétés\n**Côtés opposés :**\n- Parallèles\n- De même longueur\n\n**Angles opposés :**\n- Égaux\n\n**Diagonales :**\n- Se coupent en leur milieu\n\n### Types particuliers\n**Rectangle :** parallélogramme avec 4 angles droits\n**Losange :** parallélogramme avec 4 côtés égaux\n**Carré :** rectangle ET losange",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Côtés opposés parallèles et égaux",
+    "Angles opposés égaux",
+    "Diagonales se coupent au milieu",
+    "Rectangle, losange, carré sont des parallélogrammes"
+  ],
+  "exercise": {
+    "answer": "\n**Solution :**\nAngles opposés égaux : 2 angles de 65°\nAngles consécutifs supplémentaires : 180° - 65° = 115°\n\n**Réponse : 65°, 115°, 65°, 115°**\n        ",
+    "question": "Un parallélogramme a un angle de 65°. Quels sont les trois autres angles ?"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans un parallélogramme, les diagonales :",
+      "options": [
+        "Sont égales",
+        "Sont perpendiculaires",
+        "Se coupent en leur milieu",
+        "Sont parallèles"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle figure est un parallélogramme particulier ?",
+      "options": [
+        "Triangle",
+        "Rectangle",
+        "Trapèze",
+        "Pentagone"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

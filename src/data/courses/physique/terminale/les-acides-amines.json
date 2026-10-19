@@ -1,0 +1,150 @@
+{
+  "id": "physique-terminale-les-acides-amines",
+  "title": "Les acides α-aminés",
+  "summary": "Lors d'une visite au Centre National de Nutrition de Yopougon, les élèves de Terminale D apprennent l'importance des protéines dans l'alimentation, particulièrement pour les enfants en croissance. Le nutritionniste explique que les protéines sont constituées d'acides α-aminés, des molécules qui possèdent à la fois une fonction acide et une fonction amine. Les élèves veulent comprendre la structure et les propriétés de ces molécules fondamentales du vivant.",
+  "lesson": "## 1. Introduction\n\nLes acides α-aminés sont les unités de base des protéines, les molécules les plus abondantes après l'eau dans les cellules vivantes. Il existe 20 acides α-aminés protéinogènes standards qui, combinés en séquences variées, donnent la diversité extraordinaire des protéines (enzymes, anticorps, hormones, structures). En Côte d'Ivoire, la malnutrition protéique reste un problème de santé publique, d'où l'importance de comprendre ces molécules.\n\n**Description du schéma 1:** Structure générale d'un acide α-aminé. Représenter la molécule H₂N-CH(R)-COOH. Montrer : 1) Groupe amine -NH₂ en α (sur le même carbone que -COOH). 2) Groupe carboxyle -COOH. 3) Chaîne latérale R (différente pour chaque acide aminé). 4) Carbone chiral α* (sauf pour la glycine où R=H). Indiquer la configuration L naturelle (Fischer).\n\n## 2. Structure et stéréochimie\n\n### 2.1 Formule générale\n$$H_2N-CH(R)-COOH$$\n\nOù R est la **chaîne latérale** qui varie d'un acide aminé à l'autre.\n\n### 2.2 Carbone chiral\nLe carbone α (portant NH₂ et COOH) est **chiral** (asymétrique) sauf pour la glycine (R=H).\n\nLes acides aminés naturels ont la configuration **L** (par référence au L-glycéraldéhyde).\n\nForme D rare dans la nature (parois bactériennes, antibiotiques).\n\n### 2.3 Classification selon R\n\n**1. Non polaires, hydrophobes** : Glycine (Gly, G), Alanine (Ala, A), Valine (Val, V), Leucine (Leu, L), Isoleucine (Ile, I), Proline (Pro, P), Méthionine (Met, M), Phénylalanine (Phe, F), Tryptophane (Trp, W)\n\n**2. Polaires, non chargés** : Sérine (Ser, S), Thréonine (Thr, T), Cystéine (Cys, C), Tyrosine (Tyr, Y), Asparagine (Asn, N), Glutamine (Gln, Q)\n\n**3. Acides (négatifs)** : Acide aspartique (Asp, D), Acide glutamique (Glu, E)\n\n**4. Basiques (positifs)** : Lysine (Lys, K), Arginine (Arg, R), Histidine (His, H)\n\n## 3. Propriétés acido-basiques\n\n### 3.1 Zwitterion (ion dipolaire)\nEn solution aqueuse à pH physiologique (≈7,4), les acides α-aminés existent principalement sous forme de **zwitterion** :\n$$H_3N^+-CH(R)-COO^-$$\n\nMolécule avec charges positives et négatives mais globalement neutre.\n\n### 3.2 Titration et pKa\nUn acide α-aminé possède au moins deux fonctions ionisables :\n- Groupe carboxyle : pKa₁ ≈ 2,0-2,5 (donne H⁺)\n- Groupe amine : pKa₂ ≈ 9,0-9,5 (capte H⁺)\n\nPour les acides aminés à chaîne latérale ionisable, il y a un troisième pKa.\n\n### 3.3 Point isoélectrique (pI)\nLe **pI** est le pH auquel la molécule est globalement neutre (charge nette = 0).\n\nPour un acide aminé sans chaîne latérale ionisable :\n$$pI = \\\\frac{pKa_1 + pKa_2}{2}$$\n\n### 3.4 Comportement selon le pH\n\n**En milieu très acide (pH < pKa₁)** :\n$$H_3N^+-CH(R)-COOH$$ (cation)\n\n**Au pI (pH = pI)** :\n$$H_3N^+-CH(R)-COO^-$$ (zwitterion)\n\n**En milieu très basique (pH > pKa₂)** :\n$$H_2N-CH(R)-COO^-$$ (anion)\n\n**Description du schéma 2:** Courbe de titration de la glycine. Représenter pH en fonction du volume de NaOH ajouté. Courbe avec deux sauts correspondant aux pKa. Marquer pKa₁ = 2,34, pKa₂ = 9,60, pI = 5,97. Montrer les formes prédominantes dans chaque région : cation (pH<2), zwitterion (2<pH<9), anion (pH>9).\n\n## 4. Liaison peptidique\n\n### 4.1 Formation\nLa liaison peptidique se forme par condensation entre le groupe -COOH d'un acide aminé et le groupe -NH₂ d'un autre, avec élimination d'une molécule d'eau.\n\n$$H_2N-CH(R_1)-COOH + H_2N-CH(R_2)-COOH \\\\rightarrow H_2N-CH(R_1)-CO-NH-CH(R_2)-COOH + H_2O$$\n\n### 4.2 Caractéristiques\n- **Liaison amide** -CO-NH-\n- **Planaire** (hybridation sp² du carbone)\n- **Partiellement double** (délocalisation π)\n- Configuration **trans** préférée (pour éviter les encombrements)\n\n### 4.3 Nomenclature des peptides\n- **Dipeptide** : 2 acides aminés\n- **Tripeptide** : 3 acides aminés\n- **Oligopeptide** : 4-10 acides aminés\n- **Polypeptide** : 11-100 acides aminés\n- **Protéine** : >100 acides aminés\n\nNommé du N-terminal (amine libre) au C-terminal (acide libre).\n\n## 5. Protéines\n\n### 5.1 Définition\nMacromolécules biologiques constituées d'une ou plusieurs chaînes polypeptidiques repliées dans une conformation tridimensionnelle spécifique.\n\n### 5.2 Structures\n\n**Structure primaire** : Séquence des acides aminés (ordre covalent)\n\n**Structure secondaire** : Arrangements locaux (α-hélice, feuillet β) stabilisés par liaisons H\n\n**Structure tertiaire** : Repliement global de la chaîne\n\n**Structure quaternaire** : Association de plusieurs chaînes\n\n### 5.3 Dénaturalisation\nPerte de la structure native (par chaleur, pH extrême, détergents, solvants organiques) → perte de fonction.\n\n## 6. Tests de caractérisation\n\n### 6.1 Réaction de Biuret\n**Principe** : Formation d'un complexe violet avec Cu²⁺ en milieu alcalin en présence d'au moins deux liaisons peptidiques.\n\n**Observations** :\n- Solutions de protéines → violet\n- Dipeptides → rose\n- Acides aminés libres → bleu (pas de complexe)\n\n**Utilisation** : Dosage des protéines, détection dans les aliments.\n\n### 6.2 Réaction à la ninhydrine\nDétection des acides aminés libres (violet, sauf la proline qui donne jaune).\n\n### 6.3 Test xanthoprotéique\nDétection des noyaux aromatiques (phénylalanine, tyrosine, tryptophane) → précipité jaune avec HNO₃ concentré.\n\n## 7. Hydrolyse des peptides\n\n### 7.1 Hydrolyse acide\n- HCl 6M, 110°C, 24-72 heures\n- Détruit le tryptophane, convertit glutamine et asparagine en acides correspondants\n- Complète\n\n### 7.2 Hydrolyse enzymatique\n- Spécifique (pepsine, trypsine, chymotrypsine)\n- Douce (ne détruit pas les acides aminés)\n- Incomplète (fragments)\n\n## 8. Rôle nutritionnel\n\n### 8.1 Acides aminés essentiels\nNe peuvent être synthétisés par l'organisme, doivent être apportés par l'alimentation :\nHistidine, Isoleucine, Leucine, Lysine, Méthionine, Phénylalanine, Thréonine, Tryptophane, Valine.\n\n### 8.2 Qualité des protéines\nDéterminée par :\n- Composition en acides aminés essentiels\n- Digestibilité\n- Score chimique (acide aminé limitant)\n\n### 8.3 Malnutrition protéique\n- **Kwashiorkor** : Carence en protéines avec apport énergétique suffisant\n- **Marasme** : Carence globale en énergie et protéines\n\n## 9. Applications en Côte d'Ivoire\n\n### 9.1 Nutrition\n- **Fortification** des aliments de base (farines infantiles)\n- **Évaluation** de la qualité des protéines locales (poisson, viande, légumineuses)\n- **Lutte contre la malnutrition** (centres de réhabilitation nutritionnelle)\n\n### 9.2 Industrie agroalimentaire\n- **Exhausteurs de goût** : Glutamate monosodique\n- **Édulcorants** : Aspartame (dipeptide)\n- **Additifs** : Lysine dans les aliments pour animaux\n\n### 9.3 Pharmacie\n- **Antibiotiques** : Pénicillines, céphalosporines\n- **Hormones** : Insuline, hormone de croissance\n- **Nutraceutiques** : Compléments protéiques\n\n## 10. Exercices pratiques\n\nSoit le tripeptide Ala-Gly-Ser (alanine-glycine-sérine).\n1. Donner la formule semi-développée.\n2. Entourer les liaisons peptidiques.\n3. Indiquer les groupes ionisables et leurs pKa approximatifs.\n4. Calculer le pI approximatif.\n5. Prévoir le résultat du test de Biuret.\n6. Écrire l'équation d'hydrolyse totale (acide).\n7. Ce tripeptide contient-il des acides aminés essentiels ?",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Formule générale : H₂N-CH(R)-COOH",
+    "Zwitterion : H₃N⁺-CH(R)-COO⁻ à pH physiologique",
+    "Liaison peptidique : -CO-NH- (formation par condensation)",
+    "Test de Biuret : Violet avec ≥2 liaisons peptidiques",
+    "Acides aminés essentiels : 9 doivent être apportés par l'alimentation"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La forme zwitterionique d'un acide α-aminé possède :",
+      "options": [
+        "Deux charges positives",
+        "Deux charges négatives",
+        "Une charge positive et une négative",
+        "Aucune charge"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La liaison peptidique est une liaison :",
+      "options": [
+        "Ester",
+        "Amide",
+        "Éther",
+        "Anhydride"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Le test de Biuret est positif avec :",
+      "options": [
+        "Les acides aminés libres",
+        "Les dipeptides",
+        "Les protéines",
+        "Les sucres"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Le point isoélectrique (pI) est le pH où :",
+      "options": [
+        "La molécule est maximument chargée",
+        "La charge nette est nulle",
+        "La molécule précipite",
+        "La forme acide domine"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Parmi ces acides aminés, lequel est essentiel ?",
+      "options": [
+        "Glycine",
+        "Alanine",
+        "Leucine",
+        "Sérine"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "La configuration des acides aminés naturels est :",
+      "options": [
+        "D",
+        "L",
+        "R",
+        "S"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Un dipeptide est formé de :",
+      "options": [
+        "Deux acides aminés",
+        "Deux peptides",
+        "Un acide aminé et un sucre",
+        "Un acide gras et un alcool"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "À pH 2, un acide α-aminé sans chaîne latérale ionisable est sous forme :",
+      "options": [
+        "Cationique",
+        "Anionique",
+        "Zwitterionique",
+        "Neutre"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "L'hydrolyse totale d'une protéine donne :",
+      "options": [
+        "Des peptides",
+        "Des acides aminés",
+        "Des sucres",
+        "Des acides gras"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "La glycine n'a pas de carbone chiral car :",
+      "options": [
+        "Elle est optiquement inactive",
+        "R = H",
+        "Elle a un plan de symétrie",
+        "Elle est de configuration D"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

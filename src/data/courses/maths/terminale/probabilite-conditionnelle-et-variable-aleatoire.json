@@ -1,0 +1,280 @@
+{
+  "id": "maths-terminale-probabilite-conditionnelle-et-variable-aleatoire",
+  "title": "Probabilité conditionnelle et variable aléatoire",
+  "summary": "Pour l'organisation de la kermesse de leur Lycée à Abidjan, les élèves d'une classe de terminale désirent proposer le jeu suivant à un stand : une urne contient trois boules rouges numérotées 100, 200 et 300 et deux boules noires numérotées 2 et 5. Le joueur mise X francs CFA et tire successivement avec remise deux boules. Si les deux boules tirées sont de même couleur, la partie est perdue. Sinon, le joueur remporte le montant en francs CFA égal au produit des numéros apparus. Pour ne pas être perdant, ces",
+  "lesson": "## 1. Notion de probabilité conditionnelle\n\nSoit A et B deux événements avec P(B) \\\neq 0. La probabilité conditionnelle de A sachant B est :\n$$P(A|B) = \\\\frac{P(A \\\\cap B)}{P(B)}$$\n\n**Exemple contextualisé** : Dans une entreprise de cacao à San-Pédro, 60% des employés sont qualifiés. Parmi les qualifiés, 80% ont plus de 5 ans d'expérience. Quelle est la probabilité qu'un employé pris au hasard ait plus de 5 ans d'expérience sachant qu'il est qualifié ?\n\n## 2. Événements indépendants\n\nDeux événements A et B sont indépendants si :\n$$P(A \\\\cap B) = P(A) \\\times P(B)$$\n\n**Application** : À la station Total de Yamoussoukro, les probabilités que la pompe à essence soit défectueuse est 0.05 et que le système de paiement soit en panne est 0.02. Ces deux pannes sont indépendantes.\n\n## 3. Formule des probabilités totales\n\nSi B₁, B₂, ..., Bₙ forment un système complet d'événements (partition de l'univers) :\n$$P(A) = \\\\sum_{i=1}^{n} P(A|B_i)P(B_i)$$\n\n| Situation | P(Bᵢ) | P(A|Bᵢ) | Contribution |\n|-----------|-------|---------|--------------|\n| Fabrication usine A | 0.40 | 0.95 | 0.38 |\n| Fabrication usine B | 0.35 | 0.90 | 0.315 |\n| Fabrication usine C | 0.25 | 0.85 | 0.2125 |\n| **Total** | **1.00** | - | **0.9075** |\n\n## 4. Variable aléatoire discrète\n\nUne variable aléatoire X est une fonction qui à chaque issue de l'univers associe un nombre réel.\n\n**Exemple ivoirien** : Dans une plantation de café à Man, le nombre X de sacs de café récoltés par jour peut prendre les valeurs : 50, 60, 70 avec probabilités respectives 0.3, 0.5, 0.2.\n\n## 5. Loi de probabilité\n\nTableau de la loi de probabilité de X :\n$$\\\\begin{array}{|c|c|c|c|c|}\\\\hline\nx_i & x_1 & x_2 & \\\\cdots & x_n \\\\\\\\ \\\\hline\nP(X=x_i) & p_1 & p_2 & \\\\cdots & p_n \\\\\\\\ \\\\hline\n\\\\end{array}$$\n\n## 6. Espérance mathématique\n\nL'espérance de X est :\n$$E(X) = \\\\sum_{i=1}^{n} x_i P(X=x_i)$$\n\n**Interprétation économique** : Dans le jeu de la kermesse, si E(X) > mise, le jeu est favorable au joueur.\n\n## 7. Variance et écart-type\n\n$$V(X) = \\\\sum_{i=1}^{n} [x_i - E(X)]^2 P(X=x_i)$$\n$$\\\\sigma(X) = \\\\sqrt{V(X)}$$\n\n## 8. Loi binomiale\n\nUne variable aléatoire X suit une loi binomiale B(n,p) si elle compte le nombre de succès dans n épreuves de Bernoulli indépendantes de probabilité p.\n$$P(X=k) = C_n^k p^k (1-p)^{n-k}$$\n\n**Application** : À l'université de Bouaké, 30% des étudiants ont un ordinateur portable. Sur 10 étudiants choisis au hasard, quelle est la probabilité qu'exactement 4 aient un ordinateur ?\n$$P(X=4) = C_{10}^4 (0.3)^4 (0.7)^6 \\\\approx 0.2001$$\n\n## 9. Fonction de répartition\n\n$$F(x) = P(X \\\\leq x) = \\\\sum_{x_i \\\\leq x} P(X=x_i)$$\n\n## 10. Retour à la situation de la kermesse\n\nSoit X le gain du joueur. Calculons E(X) pour déterminer la mise minimale.\n- Probabilité de tirer deux boules de même couleur : P(perdre) = ?\n- Probabilité de ganger : P(gagner) = ?\n- Calcul de E(X) et détermination de la mise.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "P(A|B) = P(A∩B)/P(B) avec P(B)≠0",
+    "Les événements A et B sont indépendants si P(A∩B)=P(A)×P(B)",
+    "Espérance : moyenne théorique des valeurs pondérées par leurs probabilités",
+    "Loi binomiale : X~B(n,p) avec P(X=k)=C_n^k p^k (1-p)^{n-k}",
+    "La variance mesure la dispersion des valeurs autour de l'espérance"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Soit P(A)=0.4, P(B)=0.5 et P(A∩B)=0.2. Quelle est P(A|B) ?",
+      "options": [
+        "0.2",
+        "0.4",
+        "0.5",
+        "0.8"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Deux événements A et B sont indépendants si :",
+      "options": [
+        "P(A|B)=P(B)",
+        "P(A∩B)=P(A)+P(B)",
+        "P(A∩B)=P(A)×P(B)",
+        "P(A|B)=1-P(B)"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Dans la formule des probabilités totales, que forment les événements B₁,B₂,...,Bₙ ?",
+      "options": [
+        "Un système complet",
+        "Des événements indépendants",
+        "Des événements équiprobables",
+        "Un espace probabilisé"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "L'espérance mathématique d'une variable aléatoire représente :",
+      "options": [
+        "Sa valeur maximale",
+        "Sa valeur la plus probable",
+        "Sa moyenne théorique",
+        "Sa médiane"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Si X suit B(10,0.3), que vaut P(X=0) ?",
+      "options": [
+        "0.3¹⁰",
+        "0.7¹⁰",
+        "C₁₀⁰",
+        "1"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "La variance d'une variable aléatoire mesure :",
+      "options": [
+        "Sa valeur moyenne",
+        "Son étendue",
+        "Sa dispersion autour de la moyenne",
+        "Sa médiane"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dans une urne à Abidjan contenant 3 boules rouges et 2 noires, avec tirage avec remise, quelle est la probabilité d'avoir deux boules de couleurs différentes ?",
+      "options": [
+        "6/25",
+        "12/25",
+        "13/25",
+        "19/25"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Si E(X)=5 et V(X)=4, que vaut l'écart-type σ(X) ?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "25"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Pour la loi binomiale B(n,p), que vaut E(X) ?",
+      "options": [
+        "n",
+        "p",
+        "n×p",
+        "n/p"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "La fonction de répartition F(x) d'une variable aléatoire X est définie par :",
+      "options": [
+        "P(X=x)",
+        "P(X<x)",
+        "P(X≤x)",
+        "P(X>x)"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Si $P(A|B)=P(A)$, alors A et B sont :",
+      "options": [
+        "Incompatibles",
+        "Indépendants",
+        "Certains",
+        "Impossibles"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Pour la formule des probabilités totales, les événements $B_i$ doivent être :",
+      "options": [
+        "Indépendants",
+        "Incompatibles et de réunion Ω",
+        "Équiprobables",
+        "Certains"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "L'espérance de la loi binomiale $B(n,p)$ est :",
+      "options": [
+        "$np$",
+        "$np(1-p)$",
+        "$\\\\sqrt{np(1-p)}$",
+        "$\\\\frac{1}{p}$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "$P(X=k)$ pour la loi binomiale est :",
+      "options": [
+        "$C_n^k p^k (1-p)^{n-k}$",
+        "$p^k$",
+        "$C_n^k$",
+        "$k/n$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Si $E(X)=10$ et un joueur mise 12, le jeu est :",
+      "options": [
+        "Favorable au joueur",
+        "Défavorable au joueur",
+        "Équitable",
+        "On ne peut pas dire"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "La variance $V(X)$ se calcule par :",
+      "options": [
+        "$E(X^2)-[E(X)]^2$",
+        "$E(X)^2$",
+        "$\\\\sqrt{E(X^2)}$",
+        "$E(X^2)+[E(X)]^2$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Deux événements indépendants vérifient :",
+      "options": [
+        "$P(A\\\\cup B)=P(A)+P(B)$",
+        "$P(A\\\\cap B)=P(A)P(B)$",
+        "$P(A|B)=0$",
+        "$A\\\\cap B=\\\\emptyset$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Pour $X\\\\sim B(20,0.3)$, $E(X)=$",
+      "options": [
+        "6",
+        "4.2",
+        "20",
+        "0.3"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "La probabilité conditionnelle $P(A|B)$ est définie si :",
+      "options": [
+        "$P(A)\\\neq0$",
+        "$P(B)\\\neq0$",
+        "$P(A\\\\cap B)\\\neq0$",
+        "Toujours"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Si un jeu a $E(X)=5$, pour que le stand gagne en moyenne, la mise doit être :",
+      "options": [
+        "$<5$",
+        "$=5$",
+        "$>5$",
+        "Peu importe"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

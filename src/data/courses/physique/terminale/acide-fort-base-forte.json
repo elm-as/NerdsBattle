@@ -1,0 +1,293 @@
+{
+  "id": "physique-terminale-acide-fort-base-forte",
+  "title": "Acide fort – Base forte",
+  "summary": "Dans un atelier de nettoyage industriel d'une minoterie à Bouaké, un technicien utilise une solution concentrée d'acide chlorhydrique ($HCl$) pour détartrer des échangeurs de chaleur, et une solution de soude ($NaOH$) pour neutraliser les effluents acides avant rejet. Conscient des dangers, il porte des équipements de protection. Un élève en stage de sécurité industrielle s'interroge sur la puissance de ces produits et sur la façon de calculer leur pH pour préparer des solutions de dilution appropriée. De r",
+  "lesson": "## 1. Introduction : Force d'un acide ou d'une base\n\nLa **force** d'un acide (ou d'une base) en solution aqueuse est liée à son degré d'ionisation dans l'eau.\n- Un **acide fort** est un acide qui réagit **totalement** avec l'eau. Sa réaction d'ionisation est complète.\n- Une **base forte** est une base qui réagit **totalement** avec l'eau. Sa réaction de dissolution (pour un hydroxyde) ou d'ionisation est complète.\n\n## 2. Acides forts monoprotiques : définition et exemples\n\n**Définition** : Un acide fort $AH$ est totalement dissocié dans l'eau selon :\n$$AH + H_2O \\\\rightarrow A^- + H_3O^+$$\nIl ne reste **pas** de molécule $AH$ non ionisée en solution. La flèche simple ($\\\\rightarrow$) indique une réaction totale.\n\n**Exemples courants** (liste non exhaustive) :\n- Acide chlorhydrique : $HCl$\n- Acide bromhydrique : $HBr$\n- Acide iodhydrique : $HI$\n- Acide nitrique : $HNO_3$\n- Acide perchlorique : $HClO_4$\n- Acide sulfurique : $H_2SO_4$ (première acidité forte, seconde acidité faible).\n\n## 3. Relation pH-Concentration pour un monoacide fort\n\nPour un monoacide fort de concentration $C_a$ (en $mol.L^{-1}$), la dissolution est totale :\n$$[H_3O^+] = C_a$$\n\nOn a donc directement :\n$$pH = -\\\\log([H_3O^+]) = -\\\\log(C_a)$$\n\n**Limites de validité** : Cette relation simple suppose que la concentration $C_a$ est suffisamment grande pour que l'apport d'ions $H_3O^+$ par l'autoprotolyse de l'eau ($10^{-7} mol.L^{-1}$) soit négligeable devant $C_a$. En pratique, elle est fiable pour $C_a \\\\geq 10^{-6} mol.L^{-1}$ environ. Pour des solutions très diluées ($C_a < 10^{-6} mol.L^{-1}$), il faut tenir compte des ions $H_3O^+$ provenant de l'eau pure.\n\n**Exemple** : $HCl$ à $0.01 \\\\, mol.L^{-1}$ : $pH = -\\\\log(0.01) = 2$.\n\n**Description du schéma 1 : Dissociation totale d'un acide fort**\nReprésenter un récipient (bécher) contenant des molécules d'eau (petits groupes $H_2O$). Y introduire des molécules d'acide fort $AH$. Montrer par des animations (flèches) que chaque molécule $AH$ se sépare immédiatement en $A^-$ et $H^+$, ce dernier s'associant à une molécule d'eau pour former $H_3O^+$. Dans la solution finale, ne montrer que des ions $A^-$ et $H_3O^+$ dispersés. Légender \"Dissociation totale\", \"$[H_3O^+] = C_a$\".\n\n## 4. Bases fortes monobasiques : définition et exemples\n\n**Définition** : Une base forte $B$ est totalement ionisée dans l'eau. Pour un hydroxyde métallique $MOH$ soluble, la dissolution est totale :\n$$MOH (s) \\\\xrightarrow{H_2O} M^+ + OH^-$$\n\n**Exemples courants** :\n- Hydroxyde de sodium (soude) : $NaOH$\n- Hydroxyde de potassium (potasse) : $KOH$\n- Hydroxyde de baryum : $Ba(OH)_2$ (dibasique fort)\n- Les ions $O^{2-}$ et $H^-$ donnent aussi des bases fortes mais sont peu usuels en solution aqueuse.\n\n**Remarque** : L'ammoniac $NH_3$ est une **base faible**, pas forte.\n\n## 5. Relation pH-Concentration pour une monobase forte\n\nPour une monobase forte de concentration $C_b$ (en $mol.L^{-1}$), la dissolution est totale :\n$$[OH^-] = C_b$$\n\nOn calcule d'abord le $pOH$ : $pOH = -\\\\log([OH^-]) = -\\\\log(C_b)$.\nPuis, à 25 °C, $pH = 14 - pOH$, d'où :\n$$pH = 14 + \\\\log(C_b)$$\n\n**Limites de validité** : Comme pour les acides, cette relation est valable pour $C_b \\\\geq 10^{-6} mol.L^{-1}$.\n\n**Exemple** : $NaOH$ à $0.001 \\\\, mol.L^{-1}$ : $pOH = -\\\\log(0.001) = 3$, donc $pH = 14 - 3 = 11$. On vérifie : $pH = 14 + \\\\log(0.001) = 14 - 3 = 11$.\n\n## 6. Mélanges et réaction de neutralisation\n\n**Mélange de deux solutions d'acides forts** : Les ions $H_3O^+$ s'additionnent. On calcule la concentration totale en $H_3O^+$ dans le mélange final, puis le pH.\n\n**Mélange de deux solutions de bases fortes** : Les ions $OH^-$ s'additionnent. On calcule la concentration totale en $OH^-$ dans le mélange final, puis le pH via le pOH.\n\n**Mélange d'un acide fort et d'une base forte : la neutralisation**\nC'est une réaction acide-base **totale** et **exothermique** :\n$$H_3O^+ + OH^- \\\\rightarrow 2H_2O$$\n\nPour déterminer le pH du mélange final :\n1.  Calculer les quantités de matière initiales $n_{H_3O^+}$ et $n_{OH^-}$.\n2.  Déterminer l'espèce en excès après réaction totale.\n3.  Calculer la concentration de l'espèce en excès ($H_3O^+$ ou $OH^-$) dans le volume total du mélange.\n4.  En déduire le pH.\n\n**Cas particulier de l'équivalence** : Si $n_{H_3O^+}^{initial} = n_{OH^-}^{initial}$, la réaction est exactement complète. Le mélange final ne contient que les ions spectateurs (ex. $Na^+$, $Cl^-$) et de l'eau. Le pH est celui de l'eau pure, soit **7 à 25 °C**.\n\n**Description du schéma 2 : Courbe de neutralisation acide fort-base forte**\nReprésenter un graphique avec le volume de base forte ajoutée en abscisse (de 0 à un volume supérieur à l'équivalence) et le pH en ordonnée (de 1 à 14). Tracer une courbe qui reste à un pH bas (ex. 2) au début, puis chute verticalement de façon très raide autour d'un point (le point d'équivalence, pH=7), pour enfin augmenter et tendre vers le pH de la base forte ajoutée. Marquer clairement le **point d'équivalence** (pH=7). Légender \"Zone acide\", \"Point d\\\\'équivalence (pH=7)\", \"Zone basique\", \"Saut de pH\".\n\n## 7. Applications et précautions en contexte ivoirien\n\n- **Déboucheurs de canalisations** : Contiennent souvent de la soude concentrée (base forte). Manipulation avec gants et lunettes.\n- **Détartrants** : Contiennent souvent de l'acide chlorhydrique (acide fort).\n- **Traitement des eaux usées** : Neutralisation des effluents acides des industries avant rejet dans le milieu naturel.\n- **Agriculture** : Utilisation de la chaux $Ca(OH)_2$ (base forte) pour corriger l'acidité des sols.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Acide fort : Dissociation totale dans l'eau. $[H_3O^+] = C_a$. $pH = -\\\\log(C_a)$.",
+    "Base forte : Dissociation totale dans l'eau. $[OH^-] = C_b$. $pH = 14 + \\\\log(C_b)$.",
+    "Exemples : $HCl, HNO_3$ (acides forts) ; $NaOH, KOH$ (bases fortes).",
+    "Neutralisation acide fort-base forte : $H_3O^+ + OH^- \\\\rightarrow 2H_2O$ (réaction totale, exothermique).",
+    "À l'équivalence du dosage d'un acide fort par une base forte (et vice-versa), le pH est égal à 7 à 25 °C."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Parmi les composés suivants, lequel est un acide fort ?",
+      "options": [
+        "Acide acétique $CH_3COOH$",
+        "Acide chlorhydrique $HCl$",
+        "Ammoniac $NH_3$",
+        "Acide carbonique $H_2CO_3$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle est la concentration en ions $H_3O^+$ dans une solution d'acide nitrique $HNO_3$ à $10^{-2} mol.L^{-1}$ ?",
+      "options": [
+        "$10^{-2} mol.L^{-1}$",
+        "$10^{-12} mol.L^{-1}$",
+        "$10^{-7} mol.L^{-1}$",
+        "$10^{-14} mol.L^{-1}$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Le pH d'une solution de soude $NaOH$ à $0.1 mol.L^{-1}$ est :",
+      "options": [
+        "1",
+        "7",
+        "13",
+        "0.1"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle relation est correcte pour une solution d'acide fort de concentration $C_a$ ?",
+      "options": [
+        "$pH = \\\\log(C_a)$",
+        "$pH = 14 - \\\\log(C_a)$",
+        "$pH = -\\\\log(C_a)$",
+        "$pH = 7$"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Lorsqu'on mélange à volume égal une solution d'acide chlorhydrique à $pH=2$ et une solution de soude à $pH=12$, à 25 °C :",
+      "options": [
+        "Le mélange est acide",
+        "Le mélange est basique",
+        "Le mélange est neutre (pH=7)",
+        "On ne peut pas prévoir"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "La réaction entre $H_3O^+$ et $OH^-$ est :",
+      "options": [
+        "Lente et endothermique",
+        "Totale et exothermique",
+        "Limitée et athermique",
+        "Spontanée mais très lente"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quelle est la base conjuguée de l'acide fort $HCl$ ?",
+      "options": [
+        "$H_3O^+$",
+        "$Cl^-$",
+        "$HCl$",
+        "$H_2O$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Pour préparer 1 L d'une solution à $pH = 3$ à partir d'acide chlorhydrique concentré, il faut une concentration $C_a$ de :",
+      "options": [
+        "$3 mol.L^{-1}$",
+        "$10^{-3} mol.L^{-1}$",
+        "$11 mol.L^{-1}$",
+        "$10^{-11} mol.L^{-1}$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "En Côte d'Ivoire, la soude $NaOH$ est utilisée dans la fabrication artisanale de savon. Quelle est sa nature chimique ?",
+      "options": [
+        "Acide fort",
+        "Base forte",
+        "Acide faible",
+        "Sel neutre"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "La relation $pH = -\\\\log(C_a)$ pour un acide fort n'est plus valable si la concentration $C_a$ est :",
+      "options": [
+        "Trop élevée",
+        "Trop basse (très diluée)",
+        "Égale à 1 mol.L^{-1}",
+        "Proche de 7"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "HCl est ?",
+      "options": [
+        "Faible",
+        "Fort",
+        "Base",
+        "Neutre"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Un acide fort en solution aqueuse est caractérisé par :",
+      "options": [
+        "Une réaction partielle avec l'eau",
+        "Une réaction totale avec l'eau",
+        "Un pH toujours supérieur à 7",
+        "L'absence d'ions H₃O⁺ en solution"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Le pH d'une solution d'acide chlorhydrique de concentration 0.01 mol·L⁻¹ est :",
+      "options": [
+        "1",
+        "2",
+        "12",
+        "13"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "La relation pH = 14 + log(C) est valable pour :",
+      "options": [
+        "Un acide fort",
+        "Une base forte",
+        "Un acide faible",
+        "L'eau pure"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Quelle est l'équation-bilan correcte pour la réaction de l'acide nitrique HNO₃ avec l'eau ?",
+      "options": [
+        "HNO₃ + H₂O ⇌ NO₃⁻ + H₃O⁺",
+        "HNO₃ + H₂O → NO₃⁻ + H₃O⁺",
+        "HNO₃ → H⁺ + NO₃⁻",
+        "HNO₃ + OH⁻ → NO₃⁻ + H₂O"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "On mélange des volumes égaux de HCl 0.1 M et de NaOH 0.1 M. Le pH du mélange à 25°C est :",
+      "options": [
+        "0",
+        "1",
+        "7",
+        "13"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Parmi les espèces suivantes, laquelle n'est PAS une base forte ?",
+      "options": [
+        "NaOH",
+        "KOH",
+        "Ca(OH)₂",
+        "NH₃"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "La limite de validité des formules pH = -log(C) et pH = 14+log(C) est due :",
+      "options": [
+        "À la saturation de la solution",
+        "À l'autoprotolyse de l'eau qui n'est plus négligeable à très faible concentration",
+        "À la décomposition des acides et bases",
+        "À la température qui varie"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Dans l'industrie ivoirienne du savon (à partir d'huile de palme), on utilise beaucoup :",
+      "options": [
+        "De l'acide chlorhydrique",
+        "De la soude caustique (NaOH)",
+        "De l'ammoniac",
+        "De l'acide acétique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "On mélange 20 mL de HCl 0.01 M et 30 mL de NaOH 0.01 M. Le mélange final est :",
+      "options": [
+        "Acide car HCl est en excès",
+        "Basique car NaOH est en excès",
+        "Neutre",
+        "Impossible à déterminer"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q21",
+      "type": "mcq",
+      "prompt": "Une solution aqueuse d'acide fort a une concentration 10⁻⁴ mol·L⁻¹. Son pH est environ :",
+      "options": [
+        "3",
+        "4",
+        "10",
+        "11"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "francais-premiere-la-production-ecrite-1-analyser-le-sujet-et-rechercher-les-i",
+  "title": "La Production Écrite (1) : Analyser le sujet et rechercher les idées",
+  "summary": "En prévision du concours de la meilleure plume organisé par la Mairie d'Abidjan, les élèves de Première A2 du Lycée Sainte Marie s'entraînent sur des sujets d'actualité. Le premier sujet proposé est : 'Certains estiment que les réseaux sociaux isolent les jeunes. Partagez-vous ce point de vue ?'. Pour construire une argumentation solide, ils doivent d'abord maîtriser l'analyse précise du sujet et la recherche méthodique des idées.",
+  "lesson": "## 1. Les deux visages d'un sujet de production écrite\n\nComme pour la dissertation, un sujet de production écrite (ou écriture d'argumentation) se compose de **DEUX parties inséparables** :\n\n```mermaid\ngraph LR\n    A[Sujet Production Écrite] --> B[PARTIE INFORMATION];\n    A --> C[PARTIE CONSIGNE];\n    B --> B1[Donne le thème, expose une thèse, une citation, une situation];\n    C --> C1[Indique la tâche argumentative à accomplir];\n    C --> C2[Le plus souvent: ÉTAYER ou RÉFUTER];\n```\n\n**Exemple de découpage** :\n> '« Le sport à l'école est une perte de temps qui devrait être consacré aux matières principales. »\n> **Réfutez** cette affirmation en vous appuyant sur des exemples précis.'\n\n- **INFORMATION** : La citation entre guillemets.\n- **CONSIGNE** : 'Réfutez cette affirmation en vous appuyant sur des exemples précis.'\n\n## 2. Analyser la PARTIE INFORMATION\n\nC'est le **contenu sur lequel vous allez réfléchir**. Il faut le décortiquer avec précision.\n\n### 2.1. Identifier le thème\nDe quoi parle-t-on en général ? Ex: l'éducation, l'environnement, la technologie, le sport, la famille...\n\n### 2.2. Repérer et reformuler la THÈSE\nC'est **l'opinion, l'affirmation** qui vous est donnée, et que vous allez devoir étayer ou réfuter.\n\n**Comment reformuler ?**\n- Reprenez l'idée avec **vos propres mots**, sans la déformer.\n- Clarifiez les termes abstraits.\n- Cette reformulation sera le **point de départ** de votre réflexion.\n\n**Exemple** :\n- *Sujet* : 'Les voyages forment la jeunesse.'\n- *Reformulation* : 'Voyager pendant sa jeunesse est un facteur d'éducation et d'enrichissement personnel.'\n\n### 2.3. Analyser les mots-clés et les implications\n- **Mots-clés** : Les termes importants, porteurs de sens. Il faut les **définir** mentalement.\n- **Implications** : Que suppose cette thèse ? Qu'est-ce qu'elle sous-entend ?\n\n**Exemple approfondi** :\n> *Sujet* : 'Le succès d'une œuvre littéraire se mesure à son nombre de lecteurs.'\n\n- **Thème** : Les critères de valeur d'une œuvre littéraire.\n- **Thèse à discuter** : Le critère quantitatif (nombre de lecteurs) est le bon critère de succès.\n- **Mots-clés à définir** :\n    - *Succès* : Reconnaissance, popularité, valeur ?\n    - *Œuvre littéraire* : Roman, poésie, théâtre – création artistique.\n    - *Se mesure* : Permet d'évaluer, de juger.\n    - *Nombre de lecteurs* : Critère quantitatif, commercial, de popularité.\n- **Implications/Problèmes soulevés** : Cette thèse oppose-t-elle succès commercial et valeur artistique ? La qualité est-elle liée à la quantité ?\n\n## 3. Analyser la PARTIE CONSIGNE\n\nC'est la **feuille de route**. Un seul mot change et tout votre devoir est différent.\n\n### 3.1. Le verbe d'action : le plus important\n\n| **Verbe de consigne** | **Signification (Que dois-je faire ?)** | **Stratégie argumentative** |\n| :--- | :--- | :--- |\n| **Étayer** (soutien le plus fréquent) | **Soutenir, défendre, appuyer** la thèse donnée dans l'information. | Trouver des **arguments POUR**, des exemples qui la confirment. Votre devoir est un **plaidoyer**. |\n| **Réfuter** | **Contester, critiquer, rejeter** la thèse donnée. | Trouver des **arguments CONTRE**, des contre-exemples. Votre devoir est une **critique**. |\n| **Discuter** | **Examiner le pour et le contre**, nuancer. | Trouver des arguments POUR et CONTRE, puis faire un bilan. |\n| **Vous demandez si...** / **Partagez-vous...** | Formulation interrogative qui invite à **prendre position** (souvent après une discussion). | Similaire à 'discuter', mais on attend une prise de position claire à la fin. |\n\n### 3.2. Les compléments de la consigne\n- **'en vous appuyant sur des exemples'** : Il faut absolument en donner, et des précis.\n- **'dans un développement argumenté'** : Votre texte doit être structuré (intro, arguments, conclusion).\n- **'vous composerez un texte d'une vingtaine de lignes'** : Indication de longueur à respecter.\n\n## 4. Rechercher des idées : la technique du brainstorming ciblé\n\nUne fois le sujet bien compris, il faut trouver de la matière. Ne restez pas le stylo en l'air !\n\n### 4.1. Délimiter les domaines de recherche\nPour éviter de tourner en rond, cherchez des idées dans **différents domaines**.\n\n```mermaid\nquadrantChart\n    title Domaines de recherche pour un sujet de société\n    x-axis \"Abstrait\" --> \"Concret\"\n    y-axis \"Individuel\" --> \"Collectif\"\n    \"Philosophie / Valeurs\": [0.2, 0.8]\n    \"Littérature / Arts\": [0.3, 0.7]\n    \"Histoire / Politique\": [0.7, 0.8]\n    \"Sciences / Technologie\": [0.8, 0.6]\n    \"Économie\": [0.6, 0.4]\n    \"Sociologie / Éducation\": [0.5, 0.5]\n    \"Expérience personnelle / Observation\": [0.2, 0.3]\n    \"Actualité / Médias\": [0.8, 0.3]\n```\n\n**Exemple pour le sujet 'Les réseaux sociaux isolent-ils les jeunes ?'** :\n- **Sociologie** : Changement des modes de communication, nouvelles sociabilités.\n- **Psychologie** : Sentiment de solitude, comparaison sociale, estime de soi.\n- **Éducation** : Usage à l'école, cyberharcèlement.\n- **Actualité** : Études récentes, discours d'experts.\n- **Expérience personnelle** : Votre usage, celui de vos amis (à manier avec prudence, pas trop d'ego).\n\n### 4.2. Distinguer ARGUMENTS et EXEMPLES\n\n- **Un argument** : C'est une **raison**, une justification abstraite qui soutient votre point de vue. Il répond à 'Pourquoi ?'.\n    - *Exemple d'argument* : 'Les réseaux sociaux peuvent isoler car ils remplacent les interactions face-à-face par des échanges virtuels souvent superficiels.'\n- **Un exemple** : C'est un **cas concret**, une illustration qui vient appuyer un argument. Il répond à 'Où ? Quand ? Qui ?'.\n    - *Exemple qui illustre* : 'Par exemple, on voit souvent des groupes d'amis dans un café, chacun scotché à son téléphone au lieu de discuter entre eux.'\n\n**Règle d'or** : **Un argument doit toujours être suivi d'au moins un exemple.** Un exemple sans argument qui le précède est gratuit et peu convaincant.\n\n### 4.3. Technique : La feuille de brouillon en deux colonnes\n\nSelon que vous devez **étayer** ou **réfuter**, organisez votre recherche.\n\n**Pour ÉTAYER une thèse** :\n| **Arguments POUR (Idées générales)** | **Exemples concrets (Illustrations)** |\n| :--- | :--- |\n| 1. Les réseaux sociaux créent du lien à distance. | - Garder contact avec la famille à l'étranger (cousins en France).\n| | - Groupes d'entraide scolaire sur WhatsApp. |\n| 2. Ils permettent de découvrir d'autres points de vue. | - Suivre des personnalités ou médias internationaux.\n| | - Participer à des débats sur des forums. |\n\n**Pour RÉFUTER une thèse** :\n| **Arguments CONTRE (Critiques de la thèse)** | **Exemples / Contre-exemples** |\n| :--- | :--- |\n| 1. Ils encouragent la passivité et la comparaison sociale. | - Le 'doomscrolling' (défilement passif de contenus négatifs).\n| | - L'anxiété générée par les images de vie 'parfaite' sur Instagram. |\n| 2. Ils peuvent fragmenter la société en bulles d'opinion. | - Algorithmes qui ne montrent que ce qui confirme nos idées (chambre d'écho).\n| | - Propagation de rumeurs et de théories du complot dans des groupes fermés. |\n\n## 5. Mise en pratique sur un sujet contextualisé\n\n**Sujet** : 'L'enseignement de l'histoire nationale à l'école est le meilleur moyen de forger un sentiment patriotique chez les jeunes Ivoiriens.'\n**Vous étayerez** cette affirmation.\n\n**Analyse guidée** :\n1.  **Découpage** :\n    - *Information* : 'L'enseignement de l'histoire nationale... sentiment patriotique chez les jeunes Ivoiriens.'\n    - *Consigne* : 'Vous étayerez cette affirmation.' → Je dois **défendre** cette idée.\n2.  **Analyse de l'information** :\n    - *Thème* : Éducation civique et construction identitaire.\n    - *Thèse à étayer* : L'enseignement scolaire de l'histoire nationale est l'outil principal pour développer le patriotisme des jeunes.\n    - *Mots-clés* : 'enseignement', 'histoire nationale', 'meilleur moyen', 'forger', 'sentiment patriotique', 'jeunes Ivoiriens'.\n3.  **Recherche d'idées (pour étayer)** :\n    - *Argument 1* : L'école est le lieu de socialisation par excellence, qui touche tous les jeunes, quel que soit leur milieu.\n        - *Exemple* : L'étude des héros nationaux (ex: les résistants à la colonisation) dans les manuels scolaires crée des références communes.\n    - *Argument 2* : L'histoire enseignée de manière critique permet de comprendre les sacrifices du passé et la valeur de la nation actuelle.\n        - *Exemple* : Étudier la lutte pour l'indépendance, la construction de la Côte d'Ivoire moderne, ses défis.\n    - *Argument 3* : C'est un contre-poids nécessaire aux récits familiaux ou communautaires parfois divergents, favorisant l'unité nationale.\n        - *Exemple* : Mettre en avant des figures et événements fédérateurs (Félix Houphouët-Boigny, la paix retrouvée après les crises).\n    - *Domaine de recherche utilisé* : Éducation, histoire, sociologie, actualité ivoirienne.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Un sujet de production écrite comporte **deux parties** : l'**information** (thème et thèse) et la **consigne** (tâche : étayer, réfuter, discuter).",
+    "Analyser l'information implique de **reformuler la thèse** avec ses mots et de **définir les mots-clés**.",
+    "Analyser la consigne est vital : **étayer** = défendre la thèse ; **réfuter** = la critiquer ; **discuter** = examiner pour et contre.",
+    "La recherche d'idées doit être **organisée** (brainstorming) et **ciblée** sur différents domaines (sociologie, histoire, expérience, actualité...).",
+    "Il faut distinguer **arguments** (raisons générales) et **exemples** (cas concrets), et les associer systématiquement.",
+    "L'utilisation d'une **feuille de brouillon en colonnes** (arguments/exemples) selon la consigne est une technique efficace pour préparer la rédaction."
+  ],
+  "exercise": {
+    "answer": "**Correction guidée**\n\n1. **Découpage du sujet** :\n   - **INFORMATION** : '« La lecture des grands classiques de la littérature est inutile à l'ère d'Internet, où l'information est instantanée et diversifiée. »'\n   - **CONSIGNE** : '**Réfutez** cette affirmation dans un texte argumenté.'\n\n2. **Analyse de l'information** :\n   a) **Reformulation de la thèse à réfuter** : 'À notre époque dominée par Internet, qui donne un accès rapide et varié à l'information, lire les œuvres majeures de la littérature du passé n'a plus d'utilité.'\n   b) **Mots-clés et définitions** :\n      - **Grands classiques de la littérature** : Œuvres canoniques, reconnues pour leur valeur artistique et leur influence (ex: romans de Victor Hugo, pièces de Molière, poésie de Senghor).\n      - **Inutile** : Qui ne sert à rien, sans bénéfice pratique ou immédiat.\n      - **Ère d'Internet** : Période contemporaine caractérisée par le numérique, la connectivité, l'accès dématérialisé à l'info.\n      - **Information instantanée et diversifiée** : Données disponibles en temps réel et couvrant une multitude de sujets (vs profondeur et lenteur supposée de la lecture littéraire).\n\n3. **Analyse de la consigne** :\n   - **Travail spécifique** : Je dois **réfuter**, c'est-à-dire **contester, critiquer, démontrer les limites ou la fausseté** de l'affirmation donnée.\n   - **Tonalité dominante du texte** : Elle sera **critique et argumentative**. Je vais démontrer que la thèse est erronée en présentant des contre-arguments et des exemples qui montrent l'**utilité persistante, voire essentielle**, des classiques.\n\n4. **Recherche d'idées (tableau pour réfuter)** :\n\n| **Arguments CONTRE la thèse (L'utilité des classiques)** | **Exemples concrets** |\n| :--- | :--- |\n| **1. Ils développent une culture et une sensibilité que l'info brute ne donne pas.** | - Lire 'Les Misérables' de Hugo ne nous informe pas sur la pauvreté actuelle à Abidjan, mais nous fait *ressentir* l'injustice et la compassion à travers le destin de Jean Valjean, développant ainsi notre empathie. |\n| **2. Ils offrent des clés de compréhension du présent et des questionnements universels.** | - 'Cahier d'un retour au pays natal' d'Aimé Césaire ou les œuvres de la Négritude aident à comprendre les enjeux identitaires et post-coloniaux encore très actuels en Côte d'Ivoire et en Afrique. L'info instantanée sur ces sujets est souvent superficielle. |\n| **3. Ils forment l'esprit critique et le jugement par la complexité des personnages et des situations.** | - Dans 'L'Étranger' de Camus, le personnage de Meursault oblige à réfléchir sur l'absurdité, la norme sociale, la justice. Cette réflexion nuancée contraste avec les jugements rapides et manichéens souvent véhiculés sur les réseaux sociaux. |\n\n*(On pourrait ajouter un argument sur la maîtrise de la langue, l'enrichissement du vocabulaire, la beauté esthétique, etc.)*",
+    "question": "**Exercice d'analyse et de recherche**\n\nVoici un sujet de production écrite. Suivez les étapes ci-dessous.\n\n**Sujet** : '« La lecture des grands classiques de la littérature est inutile à l'ère d'Internet, où l'information est instantanée et diversifiée. »\n**Réfutez** cette affirmation dans un texte argumenté.'\n\n1. **Découpez le sujet** : Soulignez la partie INFORMATION et encadrez la partie CONSIGNE.\n2. **Analysez l'information** :\n   a) Reformulez la thèse à réfuter avec vos propres mots.\n   b) Listez et définissez brièvement les 3 ou 4 mots-clés les plus importants.\n3. **Analysez la consigne** : Quel travail spécifique devez-vous faire ? Quelle sera la tonalité dominante de votre texte ?\n4. **Recherche d'idées** : Sur votre feuille de brouillon, commencez à remplir un tableau pour RÉFUTER. Trouvez au moins **DEUX arguments** contre cette thèse, et pour chaque argument, proposez **un exemple concret** (tiré de la littérature, de l'histoire, de l'actualité ou de l'expérience)."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La partie 'INFORMATION' d'un sujet de production écrite a pour rôle principal de :",
+      "options": [
+        "Donner la longueur du texte à produire.",
+        "Indiquer le verbe d'action à réaliser (étayer, réfuter).",
+        "Présenter le thème et la thèse sur laquelle vous devez réfléchir.",
+        "Fournir des exemples à reprendre."
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Si la consigne est 'Étayez cette affirmation', vous devez :",
+      "options": [
+        "Critiquer et rejeter l'affirmation.",
+        "Défendre et soutenir l'affirmation par des arguments et des exemples.",
+        "Raconter une histoire personnelle sur le thème.",
+        "Résumer l'affirmation."
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La reformulation de la thèse a pour but de :",
+      "options": [
+        "Changer l'opinion de l'auteur du sujet.",
+        "S'assurer que l'on a bien compris le sens de l'affirmation à traiter.",
+        "Allonger son introduction.",
+        "Trouver des synonymes pour tous les mots."
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Un 'argument' se distingue d'un 'exemple' car :",
+      "options": [
+        "L'argument est toujours plus long.",
+        "L'argument est une raison générale qui justifie un point de vue, tandis que l'exemple est un cas concret qui l'illustre.",
+        "L'exemple est abstrait, l'argument est concret.",
+        "Il n'y a pas de différence."
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Pour le sujet 'Les jeux vidéo rendent violents. Réfutez.', un bon domaine pour chercher des idées serait :",
+      "options": [
+        "La botanique.",
+        "Les études de psychologie et de sociologie sur l'impact des jeux vidéo.",
+        "La recette du garba.",
+        "L'histoire ancienne de la Rome antique."
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Analyser les 'mots-clés' d'un sujet permet de :",
+      "options": [
+        "Compter le nombre de mots.",
+        "Éviter de traiter le sujet en comprenant mal le sens des termes importants.",
+        "Gagner du temps en ne lisant que ces mots.",
+        "Trouver directement des exemples."
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "La technique du brainstorming sur feuille en deux colonnes (Arguments/Exemples) est particulièrement utile :",
+      "options": [
+        "Pour rédiger l'introduction directement au propre.",
+        "Pour organiser sa recherche d'idées de façon claire et éviter d'oublier d'illustrer ses arguments.",
+        "Pour compter les mots finaux.",
+        "Pour faire un dessin."
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Dans la consigne 'Discutez cette opinion.', le verbe 'discuter' signifie :",
+      "options": [
+        "Ne parler que des arguments en faveur.",
+        "Ne parler que des arguments contre.",
+        "Examiner les arguments pour et contre avant de tirer un bilan.",
+        "Raconter une discussion que vous avez eue."
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Un exemple pertinent pour un argument doit être :",
+      "options": [
+        "Tiré de votre imagination la plus folle.",
+        "Concret, précis et directement lié à l'argument qu'il illustre.",
+        "Aussi long que possible.",
+        "Emprunté intégralement à un autre texte."
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "La première chose à faire après avoir lu un sujet de production écrite est :",
+      "options": [
+        "Se précipiter pour écrire l'introduction.",
+        "Bien le découper en Information et Consigne pour comprendre ce qui est dit et ce qu'on me demande d'en faire.",
+        "Chercher une citation dans un livre.",
+        "Demander au voisin sa réponse."
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

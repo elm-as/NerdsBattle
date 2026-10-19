@@ -1,0 +1,71 @@
+{
+  "id": "maths-seconde-angles-orientes-et-trigonometrie",
+  "title": "Angles orientés et trigonométrie",
+  "summary": "Lors des Journées Mathématiques au Lycée Sainte Marie de Cocody, des élèves de seconde C s'étonnent de voir que le cosinus d'un angle peut être négatif. Leur professeur leur explique qu'il s'agit du cosinus d'un angle orienté, notion essentielle pour la navigation maritime le long du littoral ivoirien, la mécanique des engins agricoles, et l'étude des mouvements cycliques comme les saisons de récolte.",
+  "lesson": "## Angles orientés et trigonométrie\n\n### 1. Mesure d'un angle en radians\n\n**Définition** : Le radian est l'unité d'angle dans le système international.\n\n**Conversion** :\n- 180° = π radians\n- 1° = π/180 radians\n- 1 radian = 180°/π ≈ 57.3°\n\n**Formules pratiques** :\n- 90° = π/2\n- 60° = π/3\n- 45° = π/4\n- 30° = π/6\n\n**Exemple ivoirien** :\nLa rotation de la roue d'un tracteur : un tour complet = 360° = 2π radians\nSi la roue tourne d'un quart de tour : 90° = π/2 radians\n\n### 2. Angle orienté de deux vecteurs\n\n**Définition** : L'angle orienté (𝑢̂,𝑣̂) est l'angle de rotation pour amener 𝑢̂ sur 𝑣̂.\n\n**Propriétés** :\n- Mesure algébrique (signée)\n- (𝑣̂,𝑢̂) = -(𝑢̂,𝑣̂)\n- (𝑢̂,𝑣̂) + (𝑣̂,𝑤̂) = (𝑢̂,𝑤̂) [modulo 2π]\n\n**Mesure principale** : Mesure comprise dans ]-π, π]\n\n### 3. Cercle trigonométrique\n\n**Définition** : Cercle de centre O et de rayon 1 dans un repère orthonormé.\n\n**Orientation** : Sens trigonométrique (sens inverse des aiguilles d'une montre) = sens positif.\n\n**Point image** : Pour un angle θ, le point M sur le cercle tel que (𝑖̂,𝑂𝑀̂) = θ.\n\n### 4. Cosinus et sinus d'un angle orienté\n\n**Définition** :\nSi M est le point image de θ sur le cercle trigonométrique, alors :\n- cosθ = abscisse de M\n- sinθ = ordonnée de M\n- M(cosθ, sinθ)\n\n**Relation fondamentale** : cos²θ + sin²θ = 1\n\n### 5. Tangente d'un angle orienté\n\n**Définition** : tanθ = sinθ/cosθ (pour cosθ ≠ 0)\n\n**Représentation** : Sur le cercle trigonométrique, tanθ est l'ordonnée du point d'intersection de la droite (OM) avec la droite verticale x=1.\n\n### 6. Valeurs remarquables\n\nTableau des valeurs à connaître :\n\n| Angle | 0° | 30° | 45° | 60° | 90° | 180° | 270° | 360° |\n|-------|-----|-----|-----|-----|-----|------|------|------|\n| Radians | 0 | π/6 | π/4 | π/5 | π/2 | π | 3π/2 | 2π |\n| cos | 1 | √3/2 | √2/2 | 1/2 | 0 | -1 | 0 | 1 |\n| sin | 0 | 1/2 | √2/2 | √3/2 | 1 | 0 | -1 | 0 |\n| tan | 0 | √3/3 | 1 | √3 | ∞ | 0 | ∞ | 0 |\n\n### 7. Propriétés des fonctions trigonométriques\n\n**Parité** :\n- cos(-θ) = cosθ (fonction paire)\n- sin(-θ) = -sinθ (fonction impaire)\n- tan(-θ) = -tanθ (fonction impaire)\n\n**Périodicité** :\n- cos(θ + 2kπ) = cosθ, k∈ℤ\n- sin(θ + 2kπ) = sinθ\n- tan(θ + kπ) = tanθ\n\n**Symétries** :\n- cos(π - θ) = -cosθ\n- sin(π - θ) = sinθ\n- cos(π + θ) = -cosθ\n- sin(π + θ) = -sinθ\n- cos(2π - θ) = cosθ\n- sin(2π - θ) = -sinθ\n\n### 8. Détermination de la mesure principale\n\n**Méthode** :\nPour un angle θ donné en radians :\n1. Diviser θ par 2π : θ = 2kπ + α\n2. Choisir k tel que α ∈ ]-π, π]\n3. α est la mesure principale\n\n**Exemple** : θ = 13π/4\n13π/4 = 8π/4 + 5π/4 = 2π + 5π/4\nMais 5π/4 > π, donc on retire encore 2π : 5π/4 - 2π = 5π/4 - 8π/4 = -3π/4\n-3π/4 ∈ ]-π, π], donc mesure principale = -3π/4\n\n### 9. Applications en contexte ivoirien\n\n**Navigation côtière** :\n- Calcul de cap (angles orientés)\n- Détermination de position par triangulation\n\n**Agriculture** :\n- Orientation des rangées de plants par rapport au soleil\n- Calcul d'angles de pente des terrains\n\n**Construction** :\n- Calcul d'angles pour les charpentes\n- Orientation des bâtiments\n\n**Météorologie** :\n- Direction des vents (angles orientés)\n- Trajectoire des systèmes nuageux\n\n### 10. Résolution d'équations trigonométriques simples\n\n**Équations de base** :\n1. cosθ = a (avec -1 ≤ a ≤ 1)\n   Solutions : θ = ±arccos(a) + 2kπ\n\n2. sinθ = a (avec -1 ≤ a ≤ 1)\n   Solutions : θ = arcsin(a) + 2kπ ou θ = π - arcsin(a) + 2kπ\n\n3. tanθ = a (avec a∈ℝ)\n   Solutions : θ = arctan(a) + kπ\n\n**Exemple** : Résoudre cosθ = 1/2 sur [0, 2π[\ncosθ = 1/2 ⇒ θ = π/3 ou θ = 5π/3 (car cos(5π/3) = 1/2)\n\n### 11. Formules d'addition\n\n**À connaître** :\n- cos(a+b) = cosa·cosb - sina·sinb\n- sin(a+b) = sina·cosb + cosa·sinb\n- cos(a-b) = cosa·cosb + sina·sinb\n- sin(a-b) = sina·cosb - cosa·sinb\n\n**Conséquences** :\n- cos(2a) = cos²a - sin²a = 2cos²a - 1 = 1 - 2sin²a\n- sin(2a) = 2sina·cosa\n\n### 12. Utilisation du cercle trigonométrique\n\n**Lecture directe** :\n- cosθ : projection sur l'axe des abscisses\n- sinθ : projection sur l'axe des ordonnées\n- tanθ : longueur sur la tangente au point (1,0)\n\n**Quadrants** :\n- QI : 0 à π/2 : cos>0, sin>0\n- QII : π/2 à π : cos<0, sin>0\n- QIII : π à 3π/2 : cos<0, sin<0\n- QIV : 3π/2 à 2π : cos>0, sin<0\n\n### 13. Conversion degrés ↔ radians\n\n**Méthode pratique** :\n- De degrés à radians : multiplier par π/180\n- De radians à degrés : multiplier par 180/π\n\n**Exemples** :\n- 120° = 120×π/180 = 2π/3\n- 5π/6 radians = (5π/6)×(180/π) = 150°\n\n### 14. Angle orienté dans les transformations\n\n**Effet des transformations** :\n- Translation : conserve les angles orientés\n- Symétrie centrale : change le signe des angles orientés\n- Symétrie axiale : change le signe des angles orientés\n- Rotation : ajoute une constante aux angles orientés\n\n### 15. Applications géométriques\n\n**Calcul d'angles** :\nDans un triangle ABC :\n- Angle A = (𝐴𝐵̂,𝐴𝐶̂)\n- Utilisation du produit scalaire : cosA = (𝐴𝐵̂·𝐴𝐶̂)/(AB×AC)\n\n**Orientation d'un triangle** :\nL'orientation (sens trigonométrique ou horaire) se détermine par le signe du déterminant.\n\n### 16. Exercices types\n\n**Type 1** : Déterminer la mesure principale de 25π/3\n25π/3 = 24π/3 + π/3 = 8π + π/3\nMesure principale : π/3 (car 8π est multiple de 2π)\n\n**Type 2** : Résoudre sinθ = -√2/2 sur [0, 2π[\nsinθ = -√2/2 ⇒ θ = 5π/4 ou θ = 7π/4\n\n**Type 3** : Placer sur le cercle trigonométrique le point image de -π/6\nAngle de -30° : dans le sens horaire à partir de l'axe des x\nCoordonnées : (cos(-π/6), sin(-π/6)) = (√3/2, -1/2)\n\n### 17. Problèmes concrets\n\n**Problème 1** : Un bateau quitte le port d'Abidjan avec un cap de 60° (par rapport au Nord). Après 10 km, il change de cap de +120°. Quel est son nouveau cap ?\nNouveau cap = 60° + 120° = 180° (plein Sud)\n\n**Problème 2** : Une éolienne à Adiaké tourne à 15 tours par minute. Quelle est sa vitesse angulaire en rad/s ?\n15 tours/min = 15×2π rad/min = 30π rad/min = 30π/60 rad/s = π/2 rad/s\n\n### 18. Importance en physique\n\n**Mouvements circulaires** :\n- Position angulaire θ(t)\n- Vitesse angulaire ω = dθ/dt\n- Accélération angulaire α = dω/dt\n\n**Ondes et oscillations** :\n- Mouvement harmonique : x(t) = A·cos(ωt + φ)\n- Déphasage entre deux ondes\n\n### 19. Erreurs fréquentes\n\n- Confondre sens trigonométrique et horaire\n- Oublier que la mesure principale est dans ]-π, π]\n- Ne pas simplifier les fractions de π\n- Confondre cosθ et sinθ sur le cercle\n\n### 20. Synthèse\n\nLes angles orientés permettent :\n- De travailler avec des angles signés\n- D'étudier les rotations et orientations\n- De modéliser des phénomènes périodiques\n- De résoudre des problèmes de navigation et de mécanique\n\nLa trigonométrie étendue aux angles orientés est essentielle pour toutes les sciences de l'ingénieur.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "π radians = 180°",
+    "cos²θ + sin²θ = 1",
+    "Mesure principale ∈ ]-π, π]",
+    "Cercle trigonométrique : rayon 1"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "π radians équivaut à :",
+      "options": [
+        "90°",
+        "180°",
+        "270°",
+        "360°"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "cos(-θ) =",
+      "options": [
+        "cosθ",
+        "-cosθ",
+        "sinθ",
+        "-sinθ"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La mesure principale de 7π/3 est :",
+      "options": [
+        "7π/3",
+        "π/3",
+        "4π/3",
+        "-π/3"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Sur le cercle trigonométrique, sinθ est :",
+      "options": [
+        "L'abscisse",
+        "L'ordonnée",
+        "La pente",
+        "Le rayon"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

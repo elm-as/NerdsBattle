@@ -1,0 +1,58 @@
+{
+  "id": "svt-troisieme-l-heredite-et-la-genetique",
+  "title": "L'hérédité et la génétique",
+  "summary": "Kofi ressemble beaucoup à son père : même couleur de peau, même type de cheveux. Comment les caractères se transmettent-ils ?",
+  "lesson": "## L'hérédité\n\n### Définition\n\nL'**hérédité** est la transmission des caractères des parents aux enfants.\n\n### Les caractères héréditaires\n\n**Exemples :**\n- Couleur des yeux\n- Type de cheveux (lisses, frisés, crépus)\n- Couleur de la peau\n- Groupe sanguin\n- Forme du nez\n\n## Support de l'hérédité\n\n### Les chromosomes\n\n- Présents dans le **noyau** de toutes les cellules\n- L'être humain possède **46 chromosomes** (23 paires)\n- Les gamètes (ovule et spermatozoïde) ont **23 chromosomes**\n\n**Lors de la fécondation :**\n```\n23 chromosomes (père) + 23 chromosomes (mère) = 46 chromosomes (enfant)\n```\n\n### L'ADN\n\n**Définition :**\nL'**ADN** (Acide DésoxyriboNucléique) est la molécule qui porte l'information génétique.\n\n**Structure :**\n- Double hélice\n- Contient les **gènes**\n- Un gène = une information pour un caractère\n\n## Les groupes sanguins\n\n### Système ABO\n\nIl existe 4 groupes sanguins :\n- **A**\n- **B**\n- **AB**\n- **O**\n\n### Le facteur Rhésus\n\n- **Rh+** (positif) : présence de l'antigène Rh\n- **Rh-** (négatif) : absence de l'antigène Rh\n\n**Exemples complets :**\n- A+, A-, B+, B-, AB+, AB-, O+, O-\n\n### Transmission des groupes sanguins\n\n**Règles :**\n- Chaque parent transmet un allèle\n- A et B sont dominants sur O\n- AB = codominance\n\n**Exemple :**\nParents : A (AO) × B (BO)\nEnfants possibles : A, B, AB, O\n\n### Compatibilité sanguine\n\n**Receveur universel :** AB+ (peut recevoir tous les groupes)\n**Donneur universel :** O- (peut donner à tous les groupes)\n\n**Tableau de compatibilité :**\n\n| Receveur | Peut recevoir de |\n|----------|------------------|\n| A+ | A+, A-, O+, O- |\n| B+ | B+, B-, O+, O- |\n| AB+ | Tous les groupes |\n| O+ | O+, O- |\n\n### Don de sang en Côte d'Ivoire\n\n**Centres de transfusion :**\n- CNTS (Centre National de Transfusion Sanguine)\n- Banques de sang des hôpitaux\n\n**Conditions pour donner son sang :**\n- Âge : 18 à 60 ans\n- Poids : minimum 50 kg\n- Bonne santé\n- Pas de maladies transmissibles\n\n**Journée mondiale du don de sang :** 14 juin\n\n## Les maladies génétiques\n\n### Définition\n\nMaladies causées par une anomalie dans les gènes.\n\n**Exemples :**\n- **Drépanocytose** (maladie des globules rouges) - fréquente en Afrique\n- Hémophilie\n- Daltonisme (difficulté à voir les couleurs)\n- Albinisme\n\n### La drépanocytose en Côte d'Ivoire\n\n**Caractéristiques :**\n- Maladie héréditaire très répandue en CI\n- Déformation des globules rouges (forme de faucille)\n- Provoque des douleurs, anémie, infections\n\n**Dépistage :**\n- Test sanguin simple\n- Recommandé avant le mariage\n- Consultation génétique disponible\n\n**Prise en charge :**\n- Centres spécialisés (CHU Cocody, Treichville)\n- Traitement disponible\n- Suivi médical régulier",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Hérédité = transmission des caractères",
+    "46 chromosomes chez l'humain",
+    "ADN = support de l'information génétique",
+    "4 groupes sanguins : A, B, AB, O"
+  ],
+  "exercise": {
+    "question": "Les parents de Marie sont de groupe sanguin A et B. Marie est de groupe O. Comment est-ce possible ?",
+    "answer": "\n**Solution :**\n\nLes groupes sanguins ont des allèles :\n- Groupe A : peut être AA ou AO\n- Groupe B : peut être BB ou BO\n- Groupe O : obligatoirement OO\n\n**Pour que Marie soit O :**\n- Elle doit avoir reçu un allèle O de chaque parent\n- Son père A est donc AO\n- Sa mère B est donc BO\n\n**Transmission :**\n```\nPère AO × Mère BO\n    ↓\nMarie reçoit O + O = OO (groupe O)\n```\n\n**Réponse : C'est possible car les parents sont AO et BO, et Marie a hérité de l'allèle O de chacun.**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Combien de chromosomes possède une cellule humaine normale ?",
+      "options": [
+        "23",
+        "46",
+        "92",
+        "12"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel est le groupe sanguin donneur universel ?",
+      "options": [
+        "AB+",
+        "O-",
+        "A+",
+        "B-"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle maladie génétique est fréquente en Côte d'Ivoire ?",
+      "options": [
+        "Hémophilie",
+        "Daltonisme",
+        "Drépanocytose",
+        "Mucoviscidose"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

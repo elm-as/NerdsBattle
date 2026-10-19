@@ -1,0 +1,45 @@
+{
+  "id": "physique-premiere-ondes-et-interferences-mecaniques",
+  "title": "Ondes et interférences mécaniques",
+  "summary": "Pourquoi voit-on des rides circulaires quand on jette un caillou dans l'eau ?",
+  "lesson": "## 1. Propagation d'une onde\n\n### Célérité\nVitesse de propagation : c\n\n**Relation fondamentale :**\n\\[ \\lambda = cT = \\frac{c}{f} \\]\n\n### Double périodicité\n\n**Temporelle :** période T  \n**Spatiale :** longueur d'onde λ\n\n### Équation d'onde\n\\[ y_M(t) = Y_m \\sin\\left[2\\pi\\left(\\frac{t}{T} - \\frac{x}{\\lambda}\\right) + \\varphi\\right] \\]\n\n## 2. Points en phase et opposition\n\n**En phase :** Δx = nλ  \n**En opposition :** Δx = (2n+1)λ/2\n\n## 3. Interférences\n\n### Condition\nSources cohérentes (même fréquence, différence de phase constante)\n\n### Différence de marche\nδ = d₂ - d₁\n\n**Constructive :** δ = nλ  \n**Destructive :** δ = (2n+1)λ/2\n\n## 4. Ondes stationnaires\n\n### Corde vibrante\n\\[ \\ell = n\\frac{\\lambda}{2} = \\frac{n}{2f}\\sqrt{\\frac{F_T}{\\mu}} \\]\n\n### Fréquences propres\n\\[ f = \\frac{n}{2\\ell}\\sqrt{\\frac{F_T}{\\mu}} \\]\n\n## 5. Diffraction\n\nPhénomène de divergence quand l'ouverture est de l'ordre de λ\n\n## 6. Applications\n\n### Célérités usuelles\n\n**Son dans l'air :**\n- 0°C : 331 m/s\n- 20°C : 343 m/s\n\n**Ondes sur corde :**\n\\[ c = \\sqrt{\\frac{F_T}{\\mu}} \\]\n\n### Instruments à cordes\nPlus la corde est courte, tendue et légère, plus le son est aigu",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "λ = cT = c/f",
+    "Interférences : δ = d₂-d₁",
+    "Constructive : δ = nλ",
+    "Onde stationnaire : ℓ = nλ/2"
+  ],
+  "exercise": {
+    "question": "Une corde de 60 cm vibre sur 3 fuseaux à 150 Hz. Calculer la célérité.",
+    "answer": "\n**Solution :**\n\n3 fuseaux → ℓ = 3λ/2  \nλ = 2ℓ/3 = 2×0,6/3 = 0,4 m  \nc = λf = 0,4 × 150 = 60 m/s\n\n**Réponse : 60 m/s**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La longueur d'onde est :",
+      "options": [
+        "La période spatiale",
+        "La période temporelle",
+        "La célérité",
+        "La fréquence"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Pour une interférence constructive :",
+      "options": [
+        "δ = λ/2",
+        "δ = λ",
+        "δ = 3λ/2",
+        "δ = 2λ"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

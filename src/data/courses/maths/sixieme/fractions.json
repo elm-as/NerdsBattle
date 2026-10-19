@@ -1,14 +1,58 @@
 {
   "id": "maths-sixieme-fractions",
-  "title": "Introduction aux fractions",
-  "summary": "Les fractions sont partout : partager un gâteau, mesurer une distance, ou lire l'heure. Dans ce cours, tu découvriras ce qu'est une fraction, comment la lire, la représenter et la comparer. Prêt à devenir un as des fractions ?",
-  "lesson": "**Introduction**\n\nImagine que tu partages une pizza en 4 parts égales et que tu en manges 3. Tu as mangé « trois quarts » de la pizza. En mathématiques, on écrit cela $\\frac{3}{4}$. Une fraction exprime une partie d'un tout. Elle est composée de deux nombres : le numérateur (en haut) et le dénominateur (en bas).\n\n**1. Vocabulaire et lecture**\n\nDans $\\frac{3}{4}$, 3 est le **numérateur** (le nombre de parts que l'on prend) et 4 est le **dénominateur** (le nombre total de parts égales). On lit : « trois quarts ». Pour $\\frac{1}{2}$, on dit « un demi », $\\frac{1}{4}$ « un quart », $\\frac{1}{3}$ « un tiers ». Exemple : $\\frac{5}{8}$ se lit « cinq huitièmes ».\n\n**2. Représenter une fraction**\n\nUne fraction peut être représentée par un dessin (cercle, rectangle) ou sur une droite graduée. Par exemple, $\\frac{2}{3}$ signifie que l'on colore 2 parties sur 3 d'une figure. Sur une droite, on partage l'unité en 3 segments égaux et on place le point après 2 segments. Attention : les parts doivent être **égales** !\n\n**3. Équivalence de fractions**\n\nDeux fractions sont équivalentes si elles représentent la même quantité. Par exemple, $\\frac{1}{2} = \\frac{2}{4} = \\frac{3}{6}$. Pour obtenir une fraction équivalente, on multiplie (ou divise) le numérateur et le dénominateur par un même nombre non nul. $\\frac{1}{2} = \\frac{1 \\times 2}{2 \\times 2} = \\frac{2}{4}$. **Erreur fréquente** : oublier de multiplier les deux nombres.\n\n**4. Comparer des fractions**\n\n- **Même dénominateur** : on compare les numérateurs. Exemple : $\\frac{3}{5} < \\frac{4}{5}$ car 3 < 4.\n- **Même numérateur** : plus le dénominateur est grand, plus la fraction est petite. $\\frac{3}{4} > \\frac{3}{8}$ car les parts sont plus grandes (quarts > huitièmes).\n- **Différents numérateurs et dénominateurs** : on peut les transformer en fractions équivalentes avec un dénominateur commun. Par exemple, pour comparer $\\frac{1}{2}$ et $\\frac{2}{3}$, on écrit $\\frac{3}{6}$ et $\\frac{4}{6}$, donc $\\frac{1}{2} < \\frac{2}{3}$.\n\n**5. Additionner des fractions de même dénominateur**\n\nPour additionner deux fractions ayant le même dénominateur, on additionne les numérateurs et on garde le dénominateur. Exemple : $\\frac{2}{7} + \\frac{3}{7} = \\frac{2+3}{7} = \\frac{5}{7}$. **Attention** : n'additionne jamais les dénominateurs ! $\\frac{2}{7} + \\frac{3}{7} \\neq \\frac{5}{14}$.\n\n**Conclusion**\n\nLes fractions sont un outil essentiel pour exprimer des parts. Retiens les mots clés : numérateur, dénominateur, équivalence. Entraîne-toi à lire, représenter, comparer et additionner des fractions simples. Bientôt, tu pourras aborder des fractions plus complexes et même les nombres décimaux !",
-  "estimatedMinutes": 15,
-  "tags": [
-    "fractions",
-    "numérateur",
-    "dénominateur",
-    "équivalence",
-    "comparaison"
+  "title": "Fractions",
+  "summary": "Aminata partage une pizza en 8 parts égales avec ses amis. Elle en mange 3 parts. Quelle fraction de la pizza a-t-elle mangée ?",
+  "lesson": "## Les fractions\n\n### Qu'est-ce qu'une fraction ?\n\nUne fraction représente une ou plusieurs parts égales d'un tout.\n\n**Notation :** 3/8 se lit \"trois huitièmes\"\n- **3** est le numérateur (nombre de parts prises)\n- **8** est le dénominateur (nombre total de parts)\n\n### Fractions et partage\n\n**Exemple :** Une pizza divisée en 8 parts\n- Si je mange 3 parts, j'ai mangé 3/8 de la pizza\n- Si mon ami mange 2 parts, il a mangé 2/8 de la pizza\n- Ensemble, nous avons mangé 3/8 + 2/8 = 5/8 de la pizza\n\n### Fractions équivalentes\n\nCertaines fractions représentent la même quantité :\n- 1/2 = 2/4 = 4/8 = 5/10\n- 3/6 = 1/2\n- 6/9 = 2/3\n\n**Pour obtenir une fraction équivalente :**\nOn multiplie (ou divise) le numérateur ET le dénominateur par le même nombre.\n\n**Exemples :**\n- 2/3 = (2×2)/(3×2) = 4/6\n- 6/8 = (6÷2)/(8÷2) = 3/4\n\n### Simplification de fractions\n\nSimplifier une fraction, c'est trouver une fraction équivalente avec des nombres plus petits.\n\n**Méthode :** Diviser le numérateur et le dénominateur par leur plus grand diviseur commun.\n\n**Exemples :**\n- 18/30 = (18÷6)/(30÷6) = 3/5\n- 24/36 = (24÷12)/(36÷12) = 2/3\n\n### Addition de fractions (même dénominateur)\n\nQuand deux fractions ont le même dénominateur, on additionne les numérateurs :\n\n**Formule :** a/c + b/c = (a+b)/c\n\n**Exemples :**\n- 2/8 + 3/8 = 5/8\n- 1/5 + 2/5 = 3/5\n- 3/10 + 4/10 = 7/10\n\n### Comparaison de fractions (même dénominateur)\n\nQuand deux fractions ont le même dénominateur, la plus grande est celle qui a le plus grand numérateur.\n\n**Exemples :**\n- 5/8 > 3/8 (car 5 > 3)\n- 2/7 < 4/7 (car 2 < 4)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Fraction = numérateur / dénominateur",
+    "Fractions équivalentes : multiplier/diviser par le même nombre",
+    "Addition (même dénominateur) : on additionne les numérateurs",
+    "Simplification : diviser par le plus grand diviseur commun"
+  ],
+  "exercise": {
+    "answer": "\n**Solution :**\nFraction : 18/30\nPlus grand diviseur commun de 18 et 30 : 6\nFraction simplifiée : (18÷6)/(30÷6) = 3/5\n\n**Réponse : Les filles représentent 3/5 de la classe**\n        ",
+    "question": "Dans une classe de 30 élèves à Bouaké, 18 sont des filles. Quelle fraction représentent les filles ? Simplifie ta réponse."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle fraction représente la moitié ?",
+      "options": [
+        "1/4",
+        "1/2",
+        "2/3",
+        "3/4"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Combien font 2/6 + 3/6 ?",
+      "options": [
+        "5/12",
+        "5/6",
+        "1/2",
+        "6/6"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La fraction 6/9 simplifiée est :",
+      "options": [
+        "3/4",
+        "2/3",
+        "1/2",
+        "3/5"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
   ]
 }

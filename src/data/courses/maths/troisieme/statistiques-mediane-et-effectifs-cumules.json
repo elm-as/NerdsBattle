@@ -1,0 +1,32 @@
+{
+  "id": "maths-troisieme-statistiques-mediane-et-effectifs-cumules",
+  "title": "Statistiques : médiane et effectifs cumulés",
+  "summary": "20 élèves ont des notes variées. Quelle est la médiane ? Combien ont 12 ou moins ?",
+  "lesson": "## Statistiques : médiane et ECC\n\n### Médiane\nValeur centrale (série ordonnée)\n- Impair : valeur du milieu\n- Pair : moyenne des 2 centrales\n\n### Effectifs cumulés croissants (ECC)\nNombre de valeurs ≤ une valeur donnée\n\n### Fréquences cumulées (FCC)\nFCC = ECC / Total\n\n### Regroupement en classes\nPour grandes séries :\n- Classes de même amplitude\n- Centre de classe\n- Classe modale (plus grand effectif)\n\n### Moyenne continue\nMoyenne = Σ(centre × effectif) / Total",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Médiane : valeur centrale",
+    "ECC : nb valeurs ≤",
+    "FCC : ECC/Total",
+    "Classes : même amplitude"
+  ],
+  "exercise": {
+    "question": "15 notes. Médiane = 8ème valeur. Notes ≤12 ?",
+    "answer": "ECC(12) = 8"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "ECC représente :",
+      "options": [
+        "Total",
+        "Nb ≤ valeur",
+        "Moyenne",
+        "Médiane"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": "maths-premiere-statistique-a-une-variable",
+  "title": "Statistique à une variable",
+  "summary": "L'équipe de course à pieds d'un lycée de Yamoussoukro a un nouvel entraîneur. Celui-ci vient de recevoir le tableau indiquant le temps mis par chacun des 20 membres de l'équipe lors de la dernière épreuve de 10 km (temps en minutes) : 53, 51, 66, 63, 59, 61, 48, 41, 47, 46, 51, 60, 49, 46, 44, 43, 52, 39, 42, 53. Soucieux d'améliorer les performances, l'entraîneur veut partager l'équipe en six groupes de niveau équivalent selon des intervalles de temps de 5 min. Il souhaite présenter un affichage avec un hi",
+  "lesson": "## 1. Organisation des données en classes\n\nPour analyser une série statistique continue, on regroupe les données en intervalles appelés classes.\n\n**Exemple** : Temps de course regroupés en classes d'amplitude 5 min :\n- [35, 40[, [40, 45[, [45, 50[, [50, 55[, [55, 60[, [60, 65[, [65, 70[\n\n**Amplitude d'une classe** : différence entre la borne supérieure et la borne inférieure.\n\n## 2. Représentation graphique : l'histogramme\n\nDans un histogramme :\n- L'aire de chaque rectangle est proportionnelle à l'effectif (ou fréquence) de la classe\n- La hauteur du rectangle = effectif (ou fréquence) / amplitude\n\n```mathgraph\n{\n  \"type\": \"histogram\",\n  \"title\": \"Temps de course - Histogramme\",\n  \"data\": [\n    { \"interval\": [35, 40], \"value\": 1 },\n    { \"interval\": [40, 45], \"value\": 3 },\n    { \"interval\": [45, 50], \"value\": 4 },\n    { \"interval\": [50, 55], \"value\": 5 },\n    { \"interval\": [55, 60], \"value\": 3 },\n    { \"interval\": [60, 65], \"value\": 3 },\n    { \"interval\": [65, 70], \"value\": 1 }\n  ],\n  \"xLabel\": \"Temps (min)\",\n  \"yLabel\": \"Densité d'effectif\",\n  \"showGrid\": true,\n  \"showAxes\": true\n}\n```\n\n## 3. Caractéristiques de position\n\n### Moyenne\nPour une série regroupée en classes, on utilise les centres de classes $c_i$ :\n$$\\\\bar{x} = \\\\frac{\\\\sum n_i c_i}{N}$$\noù $n_i$ = effectif de la classe i, $N$ = effectif total.\n\n### Médiane $Me$\nValeur qui partage la série en deux groupes de même effectif :\n- 50% des valeurs sont inférieures ou égales à $Me$\n- 50% des valeurs sont supérieures ou égales à $Me$\n\n**Méthode graphique** : Abscisse du point d'ordonnée $N/2$ sur la courbe cumulative croissante.\n\n### Quartiles\n- $Q_1$ (premier quartile) : 25% des valeurs lui sont inférieures ou égales\n- $Q_3$ (troisième quartile) : 75% des valeurs lui sont inférieures ou égales\n\n### Mode et classe modale\n- Classe modale : classe ayant l'effectif le plus élevé\n- Mode : valeur représentative de la classe modale (souvent le centre)\n\n## 4. Caractéristiques de dispersion\n\n### Variance $V$\nMesure la dispersion autour de la moyenne :\n$$V = \\\\frac{1}{N} \\\\sum n_i (c_i - \\\\bar{x})^2$$\n\n### Écart-type $\\\\sigma$\nRacine carrée de la variance : $\\\\sigma = \\\\sqrt{V}$\n\n**Interprétation** : Plus l'écart-type est grand, plus les données sont dispersées autour de la moyenne.\n\n## 5. Tableau statistique complet\n\n| Classe (min) | Centre $c_i$ | Effectif $n_i$ | $n_i c_i$ | $n_i (c_i - \\\\bar{x})^2$ |\n|--------------|--------------|----------------|-----------|----------------------------|\n| [35, 40[     | 37.5         | 1              | 37.5      | Calcul à faire             |\n| [40, 45[     | 42.5         | 3              | 127.5     | Calcul à faire             |\n| [45, 50[     | 47.5         | 4              | 190.0     | Calcul à faire             |\n| [50, 55[     | 52.5         | 5              | 262.5     | Calcul à faire             |\n| [55, 60[     | 57.5         | 3              | 172.5     | Calcul à faire             |\n| [60, 65[     | 62.5         | 3              | 187.5     | Calcul à faire             |\n| [65, 70[     | 67.5         | 1              | 67.5      | Calcul à faire             |\n| **Total**    |              | **N=20**       | **1046.0**| **Somme**                  |\n\n## 6. Calculs pour la situation\n\n**Moyenne** : $\\\\bar{x} = \\\\frac{1046}{20} = 52.3$ min\n\n**Médiane** : La 10ème valeur dans la série ordonnée (39, 41, 42, 43, 44, 46, 46, 47, 48, 49, 51, 51, 52, 53, 53, 59, 60, 61, 63, 66) est 49.5 (moyenne des 10ème et 11ème valeurs).\n\n**Quartiles** : \n- $Q_1$ : valeur au rang $N/4 = 5$ → 44 min\n- $Q_3$ : valeur au rang $3N/4 = 15$ → 53 min\n\n**Écart interquartile** : $Q_3 - Q_1 = 9$ min\n\n## 7. Interprétation pour l'entraîneur\n\nLes 6 groupes de 5 minutes :\n1. Groupe 1 : [35, 40[ → 1 coureur (39 min)\n2. Groupe 2 : [40, 45[ → 3 coureurs (41, 42, 43, 44)\n3. Groupe 3 : [45, 50[ → 4 coureurs (46, 46, 47, 48, 49)\n4. Groupe 4 : [50, 55[ → 5 coureurs (51, 51, 52, 53, 53)\n5. Groupe 5 : [55, 60[ → 3 coureurs (59, 60)\n6. Groupe 6 : [60, 70[ → 4 coureurs (61, 63, 66)\n\n**Analyse** : La moitié des coureurs font entre 44 et 53 minutes (intervalle interquartile).\n\n## 8. Application à d'autres contextes ivoiriens\n\n**Exemple** : Revenus mensuels des ménages à Abidjan regroupés en classes, températures moyennes à Man par mois, production de cacao par région.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "L'histogramme représente une série regroupée en classes : les AIRES des rectangles sont proportionnelles aux effectifs",
+    "La moyenne se calcule avec les centres de classes : $\\\\bar{x} = \\\\frac{\\\\sum n_i c_i}{N}$",
+    "La médiane partage la série en deux groupes de même effectif",
+    "Les quartiles Q1 et Q3 délimitent respectivement 25% et 75% des données",
+    "La variance et l'écart-type mesurent la dispersion des données autour de la moyenne",
+    "L'écart interquartile $Q_3 - Q_1$ mesure la dispersion de la moitié centrale des données"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans un histogramme, quelle grandeur est proportionnelle à l'effectif d'une classe ?",
+      "options": [
+        "L'aire du rectangle",
+        "La hauteur du rectangle",
+        "La largeur du rectangle",
+        "Le périmètre du rectangle"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Pour calculer la moyenne d'une série regroupée en classes, on utilise :",
+      "options": [
+        "Les centres de classes",
+        "Les bornes inférieures",
+        "Les bornes supérieures",
+        "Les effectifs seulement"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Le premier quartile Q1 est la valeur pour laquelle :",
+      "options": [
+        "25% des données lui sont inférieures ou égales",
+        "50% des données lui sont inférieures ou égales",
+        "75% des données lui sont inférieures ou égales",
+        "100% des données lui sont inférieures ou égales"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Si l'écart-type d'une série est faible, cela signifie que :",
+      "options": [
+        "Les données sont peu dispersées autour de la moyenne",
+        "Les données sont très dispersées autour de la moyenne",
+        "La moyenne est élevée",
+        "La médiane est faible"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "La densité d'une classe est calculée par :",
+      "options": [
+        "effectif × amplitude",
+        "effectif / amplitude",
+        "amplitude / effectif",
+        "fréquence × effectif"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Dans un histogramme à classes d'amplitudes différentes, ce sont les ___ qui représentent les effectifs.",
+      "options": [
+        "Hauteurs",
+        "Largeurs",
+        "Aires",
+        "Périmètres"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quelle caractéristique partage la série en deux parties d'effectifs égaux ?",
+      "options": [
+        "Moyenne",
+        "Médiane",
+        "Mode",
+        "Écart-type"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "L'écart interquartile est :",
+      "options": [
+        "Q3 - Q1",
+        "Q1 + Q3",
+        "(Q1 + Q3)/2",
+        "Q3/Q1"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

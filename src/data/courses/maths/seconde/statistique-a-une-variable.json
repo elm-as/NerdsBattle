@@ -1,0 +1,123 @@
+{
+  "id": "maths-seconde-statistique-a-une-variable",
+  "title": "Statistique à une variable",
+  "summary": "Le professeur de géographie d'une classe de Seconde A du Lycée Moderne de San-Pédro demande à ses élèves de faire un exposé sur le niveau de vie des habitants d'un quartier. Ils disposent des revenus mensuels en milliers de FCFA : 65, 65, 65, 65, 65, 70, 70, 70, 70, 70, 70, 70, 70, 70, 75, 75, 75, 75. Comment organiser ces données pour déterminer si la population est pauvre (revenu < 90 000 FCFA) ou extrêmement pauvre ?",
+  "lesson": "## Statistique à une variable : analyse des données socio-économiques\n\n### 1. Définitions fondamentales\n\n**Population :** Ensemble des individus ou objets étudiés\n- Exemple ivoirien : habitants d'un quartier d'Abidjan, élèves d'un lycée, exploitations agricoles\n\n**Caractère :** Propriété étudiée sur la population\n- Quantitatif : prend des valeurs numériques (revenu, âge, taille)\n- Qualitatif : prend des modalités (profession, niveau d'éducation)\n\n**Série statistique :** Liste des valeurs du caractère pour chaque individu\n\n### 2. Organisation des données\n\n**Tableau statistique :**\n- Première colonne : valeurs ou modalités\n- Deuxième colonne : effectifs (nombre d'individus)\n- Troisième colonne : fréquences (effectif / effectif total)\n\n**Exemple ivoirien :** Revenus mensuels à Yopougon :\n| Revenu (×1000 FCFA) | Effectif | Fréquence |\n|---------------------|----------|-----------|\n| 65                  | 5        | 5/18 ≈ 0,28 |\n| 70                  | 9        | 9/18 = 0,5 |\n| 75                  | 4        | 4/18 ≈ 0,22 |\n| Total               | 18       | 1         |\n\n### 3. Indicateurs de tendance centrale\n\n**Moyenne :**\nx̄ = (Σ nixi) / N, où ni est l'effectif de la valeur xi, N l'effectif total\n\n**Exemple :** Moyenne des revenus = (5×65 + 9×70 + 4×75) / 18 = (325 + 630 + 300)/18 = 1255/18 ≈ 69,72 (soit 69 720 FCFA)\n\n**Médiane :** Valeur qui partage la série en deux groupes de même effectif\n\n**Méthode de calcul :**\n1. Ordonner les valeurs\n2. Si N impair : médiane = valeur du milieu\n3. Si N pair : médiane = moyenne des deux valeurs centrales\n\n**Exemple ivoirien :** Pour la série des revenus (18 valeurs, N pair) :\nLes 9ème et 10ème valeurs sont 70 et 70, donc médiane = 70 000 FCFA\n\n### 4. Effectifs et fréquences cumulés\n\n**Effectifs cumulés croissants :** Nombre d'individus dont la valeur est ≤ à xi\n\n**Effectifs cumulés décroissants :** Nombre d'individus dont la valeur est ≥ à xi\n\n**Fréquences cumulées :** Effectif cumulé / effectif total\n\n**Application :** Déterminer la proportion de la population ayant un revenu inférieur à un seuil (comme le seuil de pauvreté de 90 000 FCFA)\n\n### 5. Représentations graphiques\n\n**Diagramme en bâtons :** Pour caractères discrets\n- Axe horizontal : valeurs\n- Axe vertical : effectifs ou fréquences\n\n**Histogramme :** Pour caractères continus (classes)\n- Surface proportionnelle à l'effectif\n\n**Polygone des effectifs :** Joint les sommets des bâtons ou des histogrammes\n\n**Diagramme circulaire (camembert) :** Pour les fréquences\n- Angle = fréquence × 360°\n\n**Exemple ivoirien :** Répartition des types d'emploi dans le district d'Abidjan\n\n### 6. Série chronologique\n\n**Définition :** Série statistique où le caractère est une date ou une période\n\n**Représentation :** Diagramme en lignes\n\n**Applications en Côte d'Ivoire :**\n- Évolution du prix du cacao sur 10 ans\n- Croissance démographique d'Abidjan depuis 1960\n- Production électrique mensuelle\n\n### 7. Caractères discrets vs continus\n\n**Discret :** Valeurs isolées (nombre d'enfants, notes sur 20)\n\n**Continu :** Valeurs dans un intervalle (taille, poids, revenu)\n\n**Traitement différent :** Pour les continus, on regroupe en classes :\n- Exemple : Revenus [50 000; 70 000[, [70 000; 90 000[, etc.\n\n### 8. Calcul de la médiane pour série continue\n\n**Méthode graphique :** Par le polygone des effectifs cumulés\n\n**Méthode par interpolation linéaire :**\nMédiane = L₁ + [(N/2 - F₁)/f] × c\nOù : L₁ borne inférieure de la classe médiane, F₁ effectif cumulé avant la classe, f effectif de la classe, c amplitude de la classe\n\n### 9. Applications concrètes en Côte d'Ivoire\n\n**Exemple 1 :** Analyse des résultats du BEPC dans un lycée de Bouaké\n- Calcul de la moyenne de la classe\n- Détermination du taux de réussite\n- Répartition des mentions\n\n**Exemple 2 :** Étude des dépenses mensuelles d'une famille à Korhogo\n- Budget alimentation, logement, transport, santé\n- Calcul des pourcentages\n- Comparaison avec la moyenne nationale\n\n**Exemple 3 :** Production agricole mensuelle d'une coopérative à Daloa\n- Série chronologique\n- Tendances saisonnières\n- Prévisions\n\n### 10. Utilisation des outils technologiques\n\n**Calculatrice :** Fonctions statistiques\n- Entrée des données\n- Calcul automatique de la moyenne, écart-type\n- Tracé de diagrammes\n\n**Tableur (Excel, Calc) :**\n- Formules statistiques\n- Création de graphiques professionnels\n- Analyse plus poussée\n\n### 11. Interprétation des résultats\n\n**Ne pas se limiter aux calculs :**\n- Que signifie la moyenne dans le contexte ?\n- La médiane est-elle plus représentative ?\n- Y a-t-il des valeurs extrêmes qui faussent les indicateurs ?\n- Comparaison avec des données nationales (INS)\n\n### 12. Pièges à éviter\n\n- Confondre effectif et fréquence\n- Mauvais calcul de la médiane pour N pair\n- Classes mal définies pour les caractères continus\n- Graphiques sans échelle ou sans légende\n- Interprétation abusive des résultats\n\nLa statistique à une variable est un outil essentiel pour comprendre et analyser les réalités socio-économiques de la Côte d'Ivoire, permettant une prise de décision basée sur des données objectives plutôt que sur des impressions.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "La moyenne est sensible aux valeurs extrêmes, la médiane moins",
+    "Les effectifs cumulés permettent de trouver des proportions (ex: % de personnes sous un seuil)",
+    "Pour les séries continues, on utilise des classes d'amplitude convenable",
+    "Un diagramme adapté au type de données facilite l'interprétation"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La moyenne de la série : 5, 5, 5, 10, 10 est :",
+      "options": [
+        "5",
+        "7",
+        "8",
+        "10"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Pour N=25, la médiane est la valeur de rang :",
+      "options": [
+        "12",
+        "12,5",
+        "13",
+        "13,5"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "L'effectif cumulé croissant pour une valeur donne :",
+      "options": [
+        "Le nombre d'individus ayant cette valeur",
+        "Le nombre d'individus ayant des valeurs supérieures",
+        "Le nombre d'individus ayant des valeurs inférieures ou égales",
+        "La fréquence de cette valeur"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Dans un diagramme circulaire, une fréquence de 0,25 correspond à un angle de :",
+      "options": [
+        "45°",
+        "90°",
+        "180°",
+        "270°"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "La médiane d'une série est :",
+      "options": [
+        "Toujours égale à la moyenne",
+        "La valeur la plus fréquente",
+        "La valeur qui partage la série en deux",
+        "La somme des valeurs"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Si tous les salaires augmentent de 10%, la moyenne :",
+      "options": [
+        "Augmente de 10%",
+        "Reste la même",
+        "Augmente de 10 unités",
+        "Double"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Pour données groupées, on représente par :",
+      "options": [
+        "Diagramme en bâtons",
+        "Histogramme",
+        "Nuage de points",
+        "Courbe en S"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "L'écart-type mesure :",
+      "options": [
+        "La valeur centrale",
+        "La dispersion",
+        "La fréquence",
+        "L'effectif"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

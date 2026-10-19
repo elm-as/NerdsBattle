@@ -1,0 +1,59 @@
+{
+  "id": "maths-sixieme-triangles-particuliers",
+  "title": "Triangles particuliers",
+  "summary": "Les élèves du Collège Moderne de TABOU veulent acheter une nappe avec des motifs triangulaires. Ils décident d'identifier et de construire ces triangles.",
+  "lesson": "## Les triangles particuliers\n\n### Le triangle\n\nUn **triangle** est un polygone à trois côtés.\n\n**Éléments d'un triangle ABC :**\n- 3 sommets : A, B, C\n- 3 côtés : [AB], [BC], [CA]\n- 3 angles : ∠A, ∠B, ∠C\n\n**Propriété fondamentale :**\nLa somme des angles d'un triangle = 180°\n\n### Types de triangles (selon les côtés)\n\n**1. Triangle quelconque**\nAucune particularité, tous les côtés et angles différents.\n\n**2. Triangle isocèle**\n**Définition :** Deux côtés de même longueur.\n\n**Propriété :** Les angles à la base sont égaux.\n\n**Exemple :** Triangle ABC isocèle en A\n- AB = AC (côtés égaux)\n- ∠ABC = ∠ACB (angles à la base égaux)\n\n**3. Triangle équilatéral**\n**Définition :** Trois côtés de même longueur.\n\n**Propriétés :**\n- Les trois angles sont égaux\n- Chaque angle mesure 180° ÷ 3 = 60°\n\n### Type de triangle (selon les angles)\n\n**Triangle rectangle**\n**Définition :** Possède un angle droit (90°).\n\n**Vocabulaire :**\n- Le côté opposé à l'angle droit s'appelle l'**hypoténuse**\n- Les deux autres côtés sont les **côtés de l'angle droit**\n\n**Exemple :** Triangle ABC rectangle en A\n- ∠BAC = 90°\n- [BC] est l'hypoténuse\n\n### Hauteur d'un triangle\n\nUne **hauteur** d'un triangle est une droite passant par un sommet et perpendiculaire au côté opposé.\n\n**Propriété :** Un triangle a 3 hauteurs qui se coupent en un point.\n\n### Médiane d'un triangle\n\nUne **médiane** d'un triangle est un segment reliant un sommet au milieu du côté opposé.\n\n**Propriété :** Un triangle a 3 médianes qui se coupent en un point.\n\n### Médiatrice d'un côté\n\nLa **médiatrice** d'un côté est la droite perpendiculaire au côté passant par son milieu.\n\n**Propriété :** Les 3 médiatrices des côtés se coupent en un point qui est le centre du cercle passant par les 3 sommets.\n\n### Périmètre d'un triangle\n\n**Formule :** P = AB + BC + CA\n\n**Exemple :** Triangle de côtés 3 cm, 4 cm et 5 cm\nP = 3 + 4 + 5 = 12 cm\n\n### Aire d'un triangle\n\n**Formule :** A = (base × hauteur) ÷ 2\n\n**Exemple :** Base = 6 cm, hauteur = 4 cm\nA = (6 × 4) ÷ 2 = 24 ÷ 2 = 12 cm²",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Somme des angles = 180°",
+    "Triangle isocèle : 2 côtés égaux, 2 angles égaux",
+    "Triangle équilatéral : 3 côtés égaux, 3 angles de 60°",
+    "Triangle rectangle : 1 angle droit (90°)",
+    "Aire = (base × hauteur) ÷ 2"
+  ],
+  "exercise": {
+    "answer": "\n**Solution :**\nSomme des angles = 180°\nTroisième angle = 180° - 65° - 55° = 60°\n\n**Réponse : Le troisième angle est 60°. C'est un triangle quelconque (tous les angles différents).**\n        ",
+    "question": "Un triangle a deux angles de 65° et 55°. Calcule le troisième angle. Quel type de triangle est-ce ?"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la somme des angles d'un triangle ?",
+      "options": [
+        "90°",
+        "180°",
+        "270°",
+        "360°"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Combien un triangle équilatéral a-t-il de côtés égaux ?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Dans un triangle équilatéral, chaque angle mesure :",
+      "options": [
+        "30°",
+        "45°",
+        "60°",
+        "90°"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

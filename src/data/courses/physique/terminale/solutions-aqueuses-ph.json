@@ -1,0 +1,31 @@
+{
+  "id": "physique-terminale-solutions-aqueuses-ph",
+  "title": "Solutions aqueuses - pH",
+  "summary": "Mesure de l'acidité ?",
+  "lesson": "## pH\npH = -log[H₃O⁺]\npH + pOH = 14\nKe = 10⁻¹⁴\n\n## Échelle\npH < 7 : acide\npH = 7 : neutre\npH > 7 : basique",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "pH = -log[H₃O⁺]",
+    "pH + pOH = 14",
+    "Ke = 10⁻¹⁴"
+  ],
+  "exercise": {
+    "question": "[H₃O⁺] = 2×10⁻³. pH ?",
+    "answer": "pH = 2,7"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "pH eau pure ?",
+      "options": [
+        "0",
+        "7",
+        "14",
+        "1"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

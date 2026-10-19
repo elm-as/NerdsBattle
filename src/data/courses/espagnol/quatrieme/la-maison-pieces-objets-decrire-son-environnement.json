@@ -1,0 +1,110 @@
+{
+  "id": "espagnol-quatrieme-la-maison-pieces-objets-decrire-son-environnement",
+  "title": "La maison : pièces, objets, décrire son environnement",
+  "summary": "¿Cómo es tu casa? (Comment est ta maison ?)",
+  "lesson": "## La maison\n\n### Les pièces\n\n- la cocina (la cuisine)\n- el salón (le salon)\n- el dormitorio (la chambre)\n- el baño (la salle de bain)\n- el jardín (le jardin)\n- el comedor (la salle à manger)\n\n### Les meubles et objets\n\n- la cama (le lit)\n- la mesa (la table)\n- la silla (la chaise)\n- el sofá (le canapé)\n- la televisión (la télévision)\n- el armario (l'armoire)\n- la ventana (la fenêtre)\n- la puerta (la porte)\n\n### Expression \"Il y a\"\n\n- Hay (il y a) → invariable\n- Hay una mesa (Il y a une table)\n- Hay dos sillas (Il y a deux chaises)\n\n### Prépositions de lieu\n\n- en (dans)\n- sobre (sur)\n- debajo de (sous)\n- entre (entre)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "La cocina = la cuisine, el dormitorio = la chambre",
+    "Hay = il y a (invariable)",
+    "En mi casa hay... (Dans ma maison il y a...)",
+    "Sobre = sur, debajo de = sous"
+  ],
+  "exercise": {
+    "question": "Décris ta chambre en 5 phrases.",
+    "answer": "Mi dormitorio es grande. Hay una cama, un armario y una mesa. La mesa está cerca de la ventana. Hay libros sobre la mesa."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "'La cocina' signifie :",
+      "options": [
+        "La chambre",
+        "La cuisine",
+        "Le salon",
+        "Le jardin"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Pour dire 'Il y a deux chaises', on dit :",
+      "options": [
+        "Están dos sillas",
+        "Son dos sillas",
+        "Hay dos sillas",
+        "Tienen dos sillas"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-espagnol-1-mv9vnw19",
+      "type": "mcq",
+      "prompt": "Dans la phrase « El televisor está ______ la mesa », quelle préposition de lieu complète correctement l'énoncé pour signifier que la télévision est posée sur la table ?",
+      "options": [
+        "en",
+        "sobre",
+        "debajo de",
+        "entre"
+      ],
+      "answer": 1,
+      "explanation": "La préposition 'sobre' signifie 'sur' en espagnol. 'En' signifie 'dans', 'debajo de' signifie 'sous' et 'entre' signifie 'entre'. Donc, 'El televisor está sobre la mesa' est la formulation correcte."
+    },
+    {
+      "id": "auto-espagnol-2-mv9vnw19",
+      "type": "mcq",
+      "prompt": "Quel est le nom correct en espagnol pour désigner la pièce où l'on dort, souvent équipée d'un lit et d'une armoire ?",
+      "options": [
+        "el comedor",
+        "el dormitorio",
+        "el salón",
+        "el baño"
+      ],
+      "answer": 1,
+      "explanation": "'El dormitorio' est la chambre à coucher. 'El comedor' est la salle à manger, 'el salón' est le salon et 'el baño' est la salle de bain."
+    },
+    {
+      "id": "auto-espagnol-3-mv9vnw19",
+      "type": "mcq",
+      "prompt": "Complétez la phrase suivante avec le mot approprié : « En mi jardín hay un ______ y dos flores. » (Dans mon jardin, il y a un... et deux fleurs.)",
+      "options": [
+        "armario",
+        "jardín",
+        "sofá",
+        "árbol"
+      ],
+      "answer": 3,
+      "explanation": "Le mot manquant doit être un objet ou élément présent dans un jardin. 'Árbol' (arbre) est le seul choix logique parmi les options. 'Armario' (armoire), 'jardín' (jardin, redondant) et 'sofá' (canapé) ne correspondent pas au contexte extérieur d'un jardin de manière aussi naturelle qu'un arbre dans ce type d'exercice de vocabulaire de base."
+    },
+    {
+      "id": "auto-espagnol-4-mv9vnw19",
+      "type": "mcq",
+      "prompt": "Quelle est la traduction correcte de la phrase « Il y a une fenêtre dans la cuisine » en espagnol ?",
+      "options": [
+        "Hay una ventana en la cocina.",
+        "Hay un ventana en la cocina.",
+        "Hay una ventana sobre la cocina.",
+        "Hay una ventana debajo de la cocina."
+      ],
+      "answer": 0,
+      "explanation": "'Fenêtre' est féminin en espagnol ('la ventana'), donc l'article est 'una'. La préposition 'en' signifie 'dans'. Les autres options contiennent des erreurs de genre ('un ventana') ou de préposition ('sobre' = sur, 'debajo de' = sous)."
+    },
+    {
+      "id": "auto-espagnol-5-mv9vnw19",
+      "type": "mcq",
+      "prompt": "Si vous voulez dire que la chaise est située entre la table et le canapé, quelle structure grammaticale utilisez-vous ?",
+      "options": [
+        "La silla está en la mesa y el sofá.",
+        "La silla está sobre la mesa y el sofá.",
+        "La silla está entre la mesa y el sofá.",
+        "La silla está debajo de la mesa y el sofá."
+      ],
+      "answer": 2,
+      "explanation": "La préposition 'entre' signifie 'entre'. La structure 'entre A y B' est utilisée pour indiquer la position relative d'un objet par rapport à deux autres. 'En' signifie dans, 'sobre' sur, et 'debajo de' sous."
+    }
+  ]
+}

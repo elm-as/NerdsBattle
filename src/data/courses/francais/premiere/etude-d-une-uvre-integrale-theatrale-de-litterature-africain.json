@@ -1,0 +1,150 @@
+{
+  "id": "francais-premiere-etude-d-une-uvre-integrale-theatrale-de-litterature-africain",
+  "title": "Étude d'une œuvre intégrale théâtrale de littérature africaine ou étrangère",
+  "summary": "Dans le cadre d'un jumelage entre le Lycée Moderne de Yamoussoukro et un établissement français, les élèves de 1ère A1 reçoivent un lot d'ouvrages scolaires. Parmi ces livres, ils découvrent la pièce de théâtre 'Les Sofas' de Koffi Kwahulé ou 'Le Roi Christophe' d'Aimé Césaire, qu'ils doivent étudier prochainement. Ils décident de l'emprunter pour la lire, puis de s'organiser en classe pour introduire son étude, en construire le sens et en faire le bilan critique.",
+  "lesson": "## 1. Introduction aux genres dramatiques\n\nLe théâtre est un genre littéraire destiné à être **représenté**. Il repose sur le **dialogue** et l'**action**. Au-delà de la tragédie et de la comédie classiques, d'autres genres dramatiques se sont développés.\n\n### 1.1 Le drame bourgeois (XVIIIe siècle)\n- **Contexte** : Apparaît avec Diderot, s'adresse à la bourgeoisie montante.\n- **Caractéristiques** :\n  - Sujets tirés de la vie quotidienne et familiale.\n  - Personnages bourgeois (ni rois, ni héros).\n  - Visée morale : enseigner la vertu.\n  - Mélange de tonalités (pathétique et sérieux).\n- **Exemple** : 'Le Père de famille' de Diderot.\n\n### 1.2 Le drame romantique (XIXe siècle)\n- **Contexte** : Réaction contre les règles classiques, avec Victor Hugo comme théoricien.\n- **Caractéristiques** (selon la Préface de 'Cromwell') :\n  - **Mélange des genres** : sublime et grotesque, tragique et comique.\n  - **Libération des règles** : pas d'unités de temps et de lieu strictes.\n  - **Prééminence de l'histoire** et des couleurs locales.\n  - **Personnages complexes**, aux passions violentes.\n- **Exemple** : 'Hernani' de Victor Hugo (bataille d'Hernani, 1830).\n\n### 1.3 Le drame moderne (fin XIXe - XXe siècle)\n- **Contexte** : Influencé par le naturalisme (Zola) et le réalisme.\n- **Caractéristiques** :\n  - **Vérité psychologique** et sociale.\n  - **Décor réaliste**, souci du détail vrai.\n  - **Langage proche de la conversation**.\n  - Thèmes : conflits familiaux, questions sociales, condition humaine.\n- **Exemples** : 'Les Corbeaux' de Becque, 'Mort d'un commis voyageur' d'Arthur Miller.\n\n### 1.4 Le théâtre de l'absurde (milieu XXe siècle)\n- **Contexte** : Après la Seconde Guerre mondiale, sentiment d'absurdité de l'existence.\n- **Caractéristiques** :\n  - **Absence d'intrigue** logique, actions répétitives ou dénuées de sens.\n  - **Personnages déshumanisés**, sans psychologie profonde, souvent interchangeables.\n  - **Dialogues** faits de non-sens, de clichés, de ruptures de communication.\n  - **Visée** : montrer l'absurdité de la condition humaine, l'échec du langage.\n- **Auteurs majeurs** : Samuel Beckett ('En attendant Godot'), Eugène Ionesco ('La Cantatrice chauve'), Fernando Arrabal.\n\n## 2. L'action dramatique : analyser la structure\n\n### 2.1 La progression de l'intrigue\nUne pièce de théâtre suit généralement une **structure en 5 actes** (modèle classique) ou en tableaux/scènes. On peut l'analyser avec le **schéma narratif** adapté :\n\n1. **Situation initiale** : Équilibre (ou déséquilibre) présenté.\n2. **Élément perturbateur** : Événement qui déclenche l'action.\n3. **Péripéties** : Série d'actions et de rebondissements.\n4. **Dénouement** : Résolution du conflit.\n5. **Situation finale** : Nouvel équilibre (ou déséquilibre).\n\n### 2.2 Le schéma actantiel\nModèle développé par A.J. Greimas pour analyser les **forces en présence** dans un récit, applicable au théâtre.\n\n```mermaid\ngraph TD\n    S[Sujet] --> O[Objet]\n    D[Destinateur] --> S\n    S --> R[Destinataire]\n    A[Adjuvant] --> S\n    S --> O2[Opposant]\n\n    style S fill:#f9f,stroke:#333\n    style O fill:#bbf,stroke:#333\n    style D fill:#bfb,stroke:#333\n    style R fill:#fbf,stroke:#333\n    style A fill:#ffb,stroke:#333\n    style O2 fill:#fbb,stroke:#333\n```\n\n**Explication** :\n- **Sujet** : Le héros ou personnage principal qui poursuit un but.\n- **Objet** : Ce que veut atteindre le Sujet (amour, pouvoir, vengeance, vérité...).\n- **Destinateur** : Ce qui pousse le Sujet à agir (une valeur, une personne, une institution).\n- **Destinataire** : Celui qui bénéficie de la quête (souvent le Sujet lui-même).\n- **Adjuvant** : Forces ou personnages qui aident le Sujet.\n- **Opposant** : Forces ou personnages qui s'opposent au Sujet.\n\n**Application à une pièce africaine** : Dans 'Le Roi Christophe' d'Aimé Césaire :\n- **Sujet** : Christophe.\n- **Objet** : Bâtir une nation haïtienne libre et forte.\n- **Destinateur** : L'idéal de liberté et de dignité noire.\n- **Destinataire** : Le peuple haïtien.\n- **Adjuvants** : Ses proches, certains conseillers.\n- **Opposants** : Les anciens colons, les puissances étrangères, la trahison, sa propre démesure.\n\n## 3. Les spécificités du texte théâtral\n\n### 3.1 La double énonciation\nAu théâtre, tout énoncé a **deux destinataires** :\n1. **L'interlocuteur sur scène** (un autre personnage).\n2. **Le public** dans la salle.\n\nLe personnage parle **à la fois** pour communiquer avec les autres personnages **et** pour informer/émouvoir le spectateur. Cela explique certains procédés comme :\n- **Les apartés** : Le personnage parle « à part », censé n'être entendu que par le public.\n- **Les tirades** : Longs discours qui informent le public sur les pensées du personnage.\n- **Les monologues** : Le personnage est seul en scène et parle à haute voix, dévoilant ses états d'âme au public.\n\n### 3.2 Les didascalies\n- **Définition** : Indications scéniques écrites par l'auteur, généralement en italique, qui ne sont pas prononcées par les acteurs.\n- **Fonctions** :\n  - **Descriptive** : Décrire le décor, les costumes, l'apparence des personnages.\n  - **Comportementale** : Indiquer les gestes, les déplacements, les mimiques, les tons de voix.\n  - **Dramaturgique** : Préciser les entrées, sorties, bruitages, éclairages.\n- **Importance** : Elles font pleinement partie du texte théâtral et orientent la mise en scène et l'interprétation.\n\n### 3.3 La fonction des différentes parties d'une pièce\n- **Scène d'exposition** : Première(s) scène(s). Doit rapidement :\n  1. Présenter les personnages et leurs relations.\n  2. Exposer la situation initiale.\n  3. Annoncer l'enjeu dramatique.\n- **Nœud de l'intrigue** : Développement des conflits, péripéties, quiproquos.\n- **Scène de dénouement** : Résolution des conflits, révélation finale.\n- **Coup de théâtre** : Revirement soudain de situation qui modifie le cours de l'action.\n\n## 4. Présentation de l'œuvre : 'Les Sofas' de Koffi Kwahulé (exemple)\n\n### 4.1 L'auteur\n- **Koffi Kwahulé** (né en 1956 à Abengourou, Côte d'Ivoire).\n- Dramaturge, romancier, metteur en scène.\n- Style : Écriture rythmée, influencée par le jazz, exploration de la violence et des traumatismes.\n- Thèmes récurrents : Mémoire, identité, guerre civile, folie.\n\n### 4.2 'Les Sofas' (1996)\n- **Genre** : Drame moderne, avec éléments épiques.\n- **Contexte historique** : Fait référence aux **Sofas**, guerriers de l'empire mandingue de Samory Touré (XIXe siècle), mais évoque aussi les conflits contemporains.\n- **Structure** : Pièce en plusieurs tableaux, sans division classique en actes.\n- **Personnages principaux** : Des soldats, une femme, des figures symboliques.\n- **Thèmes centraux** : La guerre, la mémoire des ancêtres, la folie meurtrière, la difficile construction de la paix.\n\n### 4.3 Axe d'étude proposé\n**En quoi 'Les Sofas' de Kwahulé est-il une pièce qui interroge, à travers le prisme de l'histoire et de la guerre, la violence humaine et la possibilité (ou l'impossibilité) de la rédemption ?**\n\n## 5. Méthodologie d'analyse d'un extrait théâtral\n\n1. **Situer l'extrait** : Acte, scène, personnages présents, moment dans l'intrigue.\n2. **Lire les didascalies initiales** : Elles donnent le cadre.\n3. **Identifier le type de scène** :\n   - **Scène d'affrontement** (stichomythie : répliques très courtes et vives).\n   - **Scène de confidence** (tirade, monologue).\n   - **Scène de comédie** (quiproquo, jeux de mots).\n   - **Scène pathétique**.\n4. **Analyser le dialogue** :\n   - **Longueur des répliques** (équilibre/déséquilibre du pouvoir).\n   - **Types d'énoncés** (questions, ordres, affirmations).\n   - **Champs lexicaux** dominants.\n   - **Figures de style** (métaphores, répétitions, antithèses).\n5. **Prendre en compte la double énonciation** : Que comprend le public que les personnages ignorent ?\n6. **Étudier les didascalies internes** : Comment orientent-elles le jeu des acteurs ?\n7. **Dégager la fonction de la scène** dans la progression de l'action et la caractérisation des personnages.\n\n## 6. Exemple d'analyse d'un court extrait\n\n**Extrait hypothétique (inspiré de Kwahulé)** :\n\n> *(Nuit. Bruit de mitraille au loin. Un soldat, KALI, est assis sur une caisse. Il nettoie son fusil. Entre SIRA, une femme échevelée.)*\n\n> **SIRA** : Tu l'as encore fait ?\n> **KALI** *(sans la regarder)* : Fait quoi ?\n> **SIRA** : Ce que tu fais chaque nuit. Ce que tu ne peux t'empêcher de faire.\n> **KALI** *(riant bref)* : Et toi, tu ne peux t'empêcher de compter, Sira. Comme si tes chiffres pouvaient laver le sang.\n> **SIRA** : **Cinquante-trois.** Juste cette semaine. Cinquante-trois noms que la terre a oubliés.\n\n**Analyse** :\n- **Didascalies** : Créent une atmosphère de guerre ('Nuit', 'Bruit de mitraille'), présentent les personnages dans une action symbolique (nettoyer son arme).\n- **Dialogue** : Répliques courtes, tension palpable. Kali évite la question ('Fait quoi ?'), Sira insiste.\n- **Double énonciation** : Le public comprend que Kali a tué, bien que ce ne soit jamais dit explicitement. Le 'compte' de Sira informe le public de l'ampleur des morts.\n- **Symbolique** : Nettoyer le fusil vs laver le sang : opposition entre l'acte technique de la guerre et son irréversible horreur morale.\n- **Rythme** : La précision du chiffre 'Cinquante-trois' en début de réplique a un effet de coup de poing.\n\n## 7. Conclusion de l'étude d'une œuvre théâtrale\n\nPour conclure l'étude, il faut :\n1. **Rappeler l'axe d'étude** et montrer comment les différentes analyses y répondent.\n2. **Synthétiser les thèmes majeurs** abordés.\n3. **Mettre en lumière les choix d'écriture** spécifiques au théâtre (structure, dialogues, didascalies, double énonciation).\n4. **Dégager la portée de l'œuvre** :\n   - **Thématique** : Quel message sur l'homme, la société, l'histoire ?\n   - **Littéraire** : Quelle originalité dans l'écriture dramatique ?\n   - **Actuelle** : En quoi cette pièce parle-t-elle encore au public d'aujourd'hui, notamment en Côte d'Ivoire ou en Afrique ?\n5. **Porter un jugement critique argumenté** : Forces et limites de l'œuvre, réussite esthétique, impact émotionnel et intellectuel.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Le théâtre moderne comprend divers genres : drame bourgeois, drame romantique, drame moderne, théâtre de l'absurde, chacun avec ses codes.",
+    "L'analyse d'une pièce passe par l'étude de l'action dramatique (progression, schéma actantiel) et des spécificités du texte théâtral (didascalies, double énonciation).",
+    "La double énonciation est fondamentale : tout énoncé est adressé à la fois à un personnage et au public.",
+    "Les didascalies sont des indications scéniques essentielles à l'interprétation et à la mise en scène.",
+    "L'étude d'une œuvre théâtrale africaine comme 'Les Sofas' permet d'aborder des thèmes historiques et universels (guerre, mémoire, violence) à travers une écriture dramatique contemporaine."
+  ],
+  "exercise": {
+    "answer": "**1. Schéma actantiel pour 'La Révolte des Ancêtres' (Scène 2, Acte I)**\n\n- **Sujet** : KOFFI (le jeune homme). C'est lui qui mène l'action de la scène (la confrontation).\n- **Objet** : Faire entendre sa voix et celle des jeunes, convaincre son père de la nécessité du changement (objet concret : par exemple, construire une école moderne à la place d'un vieux sanctuaire).\n- **Destinateur** : Les valeurs de progrès, l'éducation, l'avenir du village, ou plus concrètement le groupe des jeunes du village qui l'ont mandaté.\n- **Destinataire** : Le village tout entier, et en premier lieu les jeunes générations qui bénéficieraient du changement.\n- **Adjuvant (possible)** : La mère de Koffi (silencieuse mais compatissante), un ancien du village ouvert au progrès, ou simplement la conviction intérieure de Koffi.\n- **Opposant (principal)** : ADJOUMANI (le père, chef traditionnel). Il incarne l'attachement aux traditions, la peur de la colère des ancêtres, l'autorité établie. D'autres opposants pourraient être les anciens conservateurs du conseil.\n\n**2. Début du dialogue avec éléments demandés**\n\n> *(La case du chef ADJOUMANI, au crépuscule. L'ombre des masques sacrés danse sur les murs de terre. ADJOUMANI, imposant, est assis sur son siège traditionnel. KOFFI se tient debout devant lui, le dos droit mais les poings serrés.)*\n\n> **ADJOUMANI** *(d'une voix grave)* : Mon fils, tu as demandé à me parler. Parle. Mais que tes mots respectent la demeure de tes aïeux.\n\n> **KOFFI** : Père... Chef. Ce n'est pas moi seul qui parle. Derrière moi, il y a tous ceux de mon âge qui regardent vers l'horizon et ne voient que la poussière de nos sentiers battus. *(Il fait un pas en avant, regardant tour à tour son père et, comme s'il s'adressait à la salle, l'espace devant lui.)* **Nous voulons bâtir, pas seulement conserver.**\n> *(Cette dernière phrase est prononcée plus fort, avec une ferveur qui dépasse le cadre du dialogue familial.)*\n\n> **ADJOUMANI** *(se redressant lentement)* : Bâtir ? Sur les cendres de quoi ? Sur le mépris des esprits qui ont protégé ce village depuis que le premier fromager a pris racine ? Ton 'horizon', Koffi, c'est l'oubli.\n\n**Explication des éléments :**\n- **Didascalie initiale** : Plante un décor à la fois réaliste (case, crépuscule) et symbolique (masques sacrés, ombres). Elle caractérise aussi la posture des personnages.\n- **Double énonciation** : La réplique de Koffi 'Nous voulons bâtir, pas seulement conserver.' est clairement adressée au public. L'indication 'comme s'il s'adressait à la salle' le souligne. Il informe le public de l'enjeu central (tradition vs progrès) et de sa position de porte-parole.\n- **Didascalie interne** : '*(d'une voix grave)*', '*(Il fait un pas...)*', '*(se redressant lentement)*'. Ces indications guident le jeu des acteurs et renseignent sur les émotions (gravité, fermeté, autorité).",
+    "question": "Vous avez à étudier la scène 2 de l'acte I d'une pièce intitulée 'La Révolte des Ancêtres' (fiction). Dans cette scène, le personnage de KOFFI, un jeune homme, affronte son père, le chef traditionnel ADJOUMANI, qui refuse de voir les changements dans le village.\n\n1. Proposez un **schéma actantiel** complet pour cette situation de conflit. Identifiez clairement le Sujet, l'Objet, le Destinateur, le Destinataire, un Adjuvant possible et un Opposant possible.\n2. En vous basant sur ce schéma, rédigez le début du dialogue de cette scène (4 à 6 répliques) en y intégrant :\n   - Une didascalie initiale pour planter le décor.\n   - Une réplique qui illustre clairement la double énonciation (Koffi s'adressant à son père mais informant aussi le public).\n   - Une didascalie interne pour préciser le ton ou le geste d'un personnage."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel genre dramatique, né au XVIIIe siècle, met en scène des personnages bourgeois et a une visée morale ?",
+      "options": [
+        "Le drame romantique",
+        "Le théâtre de l'absurde",
+        "Le drame bourgeois",
+        "La tragédie classique"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Dans le schéma actantiel, quelle est la fonction du 'Destinateur' ?",
+      "options": [
+        "C'est le but poursuivi par le héros",
+        "C'est celui qui bénéficie de l'action",
+        "C'est ce qui pousse le Sujet à agir",
+        "C'est le personnage qui aide le héros"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Que sont les didascalies dans un texte de théâtre ?",
+      "options": [
+        "Les paroles chantées par le chœur",
+        "Les indications scéniques de l'auteur",
+        "Les noms des personnages",
+        "Les titres des actes"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle est la caractéristique principale du théâtre de l'absurde ?",
+      "options": [
+        "Le respect strict des unités classiques",
+        "La représentation réaliste de la société",
+        "L'absence d'intrigue logique et la rupture de communication",
+        "L'utilisation exclusive de la versification"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Le concept de 'double énonciation' signifie que :",
+      "options": [
+        "Les acteurs jouent toujours deux rôles",
+        "Le texte est écrit en deux langues",
+        "Toute réplique s'adresse à la fois à un personnage et au public",
+        "Il y a toujours deux intrigues parallèles"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel dramaturge ivoirien, auteur de 'Les Sofas', est cité dans la leçon comme exemple ?",
+      "options": [
+        "Bernard Dadié",
+        "Ahmadou Kourouma",
+        "Koffi Kwahulé",
+        "Werewere Liking"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dans une pièce, quelle scène a pour fonction de présenter personnages, situation et enjeu ?",
+      "options": [
+        "La scène de dénouement",
+        "Le coup de théâtre",
+        "La scène d'exposition",
+        "Le monologue final"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Victor Hugo est le théoricien de quel genre dramatique ?",
+      "options": [
+        "Le drame bourgeois",
+        "Le théâtre de l'absurde",
+        "Le drame romantique",
+        "Le drame moderne"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel élément n'est PAS une composante du schéma actantiel ?",
+      "options": [
+        "Le Sujet",
+        "L'Objet",
+        "Le Narrateur",
+        "L'Adjuvant"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "La scène où un personnage parle seul en scène pour révéler ses pensées s'appelle :",
+      "options": [
+        "Une tirade",
+        "Un aparté",
+        "Un monologue",
+        "Un quiproquo"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

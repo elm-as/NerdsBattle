@@ -1,0 +1,57 @@
+{
+  "id": "francais-troisieme-l-infinitif-et-le-participe",
+  "title": "L'infinitif et le participe",
+  "summary": "En corrigeant ta copie, ton professeur a souligné des erreurs d'accord avec « é » et « er ». Comment distinguer ces deux formes et les accorder correctement ?",
+  "lesson": "## L'infinitif et le participe\n\n### L'infinitif\n\n**Définition**\nForme nominale du verbe qui ne varie pas. C'est la forme du dictionnaire.\nTerminaisons : -er, -ir, -oir, -re\n\n**Emplois de l'infinitif**\n\n*1. Sujet*\n*Exemple :* « **Réussir** au BEPC demande du travail. »\n\n*2. Attribut du sujet*\n*Exemple :* « Son rêve est **devenir** médecin. »\n\n*3. COD*\n*Exemple :* « J'aime **étudier**. »\n\n*4. Complément du nom*\n*Exemple :* « La volonté **de réussir** est importante. »\n\n*5. Complément de l'adjectif*\n*Exemple :* « Il est content **de partir**. »\n\n*6. Après une préposition*\n*Exemple :* « Il travaille **pour** réussir. » « Il étudie **avant de** sortir. »\n\n### Le participe\n\n**Le participe présent**\nFormation : radical + -ant\nIl est invariable.\n*Exemple :* « Les élèves **travaillant** sérieusement réussissent. »\n\n**Le participe passé**\nFormation variable selon le groupe :\n- 1er groupe : -é (mangé, parlé)\n- 2ème groupe : -i (fini, réussi)\n- 3ème groupe : -u, -s, -t (vu, pris, fait)\n\n### Accord du participe passé\n\n**1. Avec l'auxiliaire ÊTRE**\nLe participe passé s'accorde avec le sujet.\n*Exemple :* « Les filles **sont arrivées**. » (féminin pluriel)\n\n**2. Avec l'auxiliaire AVOIR**\nLe participe passé s'accorde avec le COD s'il est placé avant le verbe.\n*Exemple :* \n- « J'ai mangé **la pomme**. » (COD après → pas d'accord)\n- « La pomme que j'ai **mangée**. » (COD « que » avant → accord)\n\n**3. Sans auxiliaire (employé comme adjectif)**\nLe participe passé s'accorde avec le nom qu'il qualifie.\n*Exemple :* « Une leçon **apprise** est une leçon **comprise**. »\n\n### Distinguer -er et -é\n\n**Astuce** : Remplacer par un verbe du 3ème groupe (vendre, prendre, faire)\n\n- Si on peut dire « vendre » → infinitif → **-er**\n- Si on peut dire « vendu » → participe passé → **-é**\n\n*Exemples :*\n- « Je vais **manger**. » (Je vais vendre ✓) → infinitif\n- « J'ai **mangé**. » (J'ai vendu ✓) → participe passé\n- « Il faut **travailler**. » (Il faut vendre ✓) → infinitif\n- « Le travail **terminé**... » (Le travail vendu ✓) → participe passé\n\n### Tableau récapitulatif\n\n| Cas | Accord | Exemple |\n|-----|--------|---------|\n| PP avec être | Avec le sujet | Elle est partie |\n| PP avec avoir + COD avant | Avec le COD | La lettre que j'ai écrite |\n| PP avec avoir + COD après | Pas d'accord | J'ai écrit une lettre |\n| PP sans auxiliaire | Avec le nom | Une porte fermée |",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Infinitif : forme invariable (-er, -ir, -oir, -re), plusieurs fonctions",
+    "Participe passé : accords variables selon l'auxiliaire et la place du COD",
+    "Astuce -er/-é : remplacer par « vendre/vendu »"
+  ],
+  "exercise": {
+    "question": "Complète avec -er ou -é et justifie : 1) Il faut travaill__ pour réussir. 2) Le cours termin__, les élèves sont sortis. 3) Elle a prépar__ le repas. 4) Les devoirs qu'elle a prépas__ sont difficiles.",
+    "answer": "\n**Solution :**\n\n**1) Il faut travaill**er** pour réussir.**\n- Test : « Il faut vendre » ✓ → infinitif → **-er**\n- Après « il faut », le verbe est à l'infinitif\n\n**2) Le cours termin**é**, les élèves sont sortis.**\n- Test : « Le cours vendu » ✓ → participe passé → **-é**\n- Participe passé employé comme adjectif, accord avec « cours » (masculin singulier)\n\n**3) Elle a prépar**é** le repas.**\n- Test : « Elle a vendu » ✓ → participe passé → **-é**\n- Auxiliaire avoir + COD « le repas » après → pas d'accord\n\n**4) Les devoirs qu'elle a prépar**és** sont difficiles.**\n- Test : « qu'elle a vendus » ✓ → participe passé → **-é**\n- Auxiliaire avoir + COD « que » (= les devoirs) avant → accord masculin pluriel → **préparés**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "« Je vais manger » → « manger » est :",
+      "options": [
+        "Un participe passé",
+        "Un infinitif",
+        "Un adjectif",
+        "Un adverbe"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "« Les lettres que j'ai écrit__ » → la terminaison est :",
+      "options": [
+        "-e",
+        "-es",
+        "-é",
+        "-er"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Pour distinguer -er et -é, on remplace par :",
+      "options": [
+        "Être ou avoir",
+        "Vendre ou vendu",
+        "Faire ou fait",
+        "Un synonyme"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

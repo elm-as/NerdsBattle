@@ -1,0 +1,153 @@
+{
+  "id": "histoire-terminale-la-coree-du-sud-une-puissance-economique-emergente",
+  "title": "La Corée du Sud : une puissance économique émergente",
+  "summary": "Tes camarades de classe et toi suivez un film documentaire sur les Nouveaux Pays Industrialisés (NPI) sur la chaîne de télévision TF1. Le commentateur affirme que la Corée du Sud partie de rien, est devenue une puissance économique émergente qui s'impose au monde. Afin de mieux comprendre cette affirmation, et connaître l'évolution économique de ce pays, vous menez des recherches.",
+  "lesson": "## 1. Définition : Qu'est-ce qu'un pays émergent ?\n\n### 1.1 Caractéristiques des pays émergents\n\n**Définition :** Économies en transition entre pays en développement et pays développés, caractérisées par :\n\n```mermaid\ngraph TD\n    A[Pays Émergent] --> B[Croissance rapide]\n    A --> C[Industrialisation]\n    A --> D[Ouverture économique]\n    A --> E[Reformes structurelles]\n    A --> F[Intégration mondiale]\n    \n    B --> B1[PIB croissance >5%/an]\n    B --> B2[Montée classe moyenne]\n    \n    C --> C1[Transition secteur secondaire]\n    C --> C2[Valeur ajoutée manufacturière]\n    \n    D --> D1[Libéralisation]\n    D --> D2[Attraction IDE]\n    \n    E --> E1[Institutions]\n    E --> E2[Infrastructures]\n    \n    F --> F1[Commerce international]\n    F --> F2[Chaînes valeur globales]\n```\n\n**Indicateurs clés :**\n- **Croissance économique** : Supérieure à 5%/an\n- **Industrialisation** : Part manufacturière >20% PIB\n- **IDE** (Investissements Directs Étrangers) : Flux entrants significatifs\n- **Commerce extérieur** : Part croissante dans le PIB\n- **Développement humain** : IDH en progression\n\n### 1.2 Classification internationale\n\n**BRICS (créés en 2006) :**\n- Brésil, Russie, Inde, Chine, Afrique du Sud\n- **Caractéristique** : Grands marchés, ressources\n\n**MINT (créés en 2014) :**\n- Mexique, Indonésie, Nigéria, Turquie\n- **Caractéristique** : Démographie favorable\n\n**Autres émergents :**\n- **Tigres asiatiques** : Corée du Sud, Taïwan, Hong Kong, Singapour\n- **Nouveaux pays industrialisés** : Malaisie, Thaïlande, Philippines\n- **Pays frontière** : Vietnam, Bangladesh, Éthiopie\n\n### 1.3 Cas spécifique de la Corée du Sud\n\n**Statut particulier :**\n- **Émergent historique** : Années 1980-1990\n- **Aujourd'hui** : Pays développé (OCDE 1996)\n- **Rétrospective** : Étude d'un parcours émergent réussi\n\n## 2. Les secteurs d'activités économiques\n\n### 2.1 Structure sectorielle (2024)\n\n```mathgraph\n{\n  \"type\": \"pie\",\n  \"title\": \"Répartition du PIB sud-coréen par secteur (2024)\",\n  \"segments\": [\n    { \"label\": \"Services\", \"value\": 60, \"color\": \"#f59e0b\" },\n    { \"label\": \"Industrie\", \"value\": 38, \"color\": \"#3b82f6\" },\n    { \"label\": \"Agriculture\", \"value\": 2, \"color\": \"#10b981\" }\n  ]\n}\n```\n\n**Évolution 1960-2024 :**\n| Année | Agriculture | Industrie | Services |\n|-------|-------------|-----------|----------|\n| **1960** | 40% | 20% | 40% |\n| **1980** | 15% | 45% | 40% |\n| **2000** | 5% | 43% | 52% |\n| **2024** | 2% | 38% | 60% |\n\n**Tendance :** Transition complète vers économie post-industrielle\n\n### 2.2 Secteur primaire : agriculture et pêche\n\n**Agriculture moderne mais marginale :**\n- **Superficie agricole** : 18% territoire\n- **Riz** : Culture principale (autosuffisance 90%)\n- **Productivité** : Mécanisation avancée\n- **Problèmes** : Vieillissement agriculteurs (âge moyen 65 ans)\n\n**Pêche et aquaculture :**\n- **Production** : 3,2 millions tonnes/an\n- **Aquaculture** : 45% de la production\n- **Exportations** : 2 milliards USD\n- **Innovation** : Fermes marines high-tech\n\n### 2.3 Secteur secondaire : l'industrie\n\n**Poids économique :**\n- **Valeur ajoutée** : 38% PIB\n- **Emplois** : 25% main-d'œuvre\n- **Exportations** : 85% des exportations\n\n**Principales branches :**\n\n```mathgraph\n{\n  \"type\": \"histogram\",\n  \"title\": \"Valeur ajoutée industrielle par branche (2023)\",\n  \"xRange\": [0, 6],\n  \"yRange\": [0, 35],\n  \"bars\": [\n    { \"label\": \"Électronique\", \"value\": 32, \"color\": \"#3b82f6\" },\n    { \"label\": \"Automobile\", \"value\": 25, \"color\": \"#ef4444\" },\n    { \"label\": \"Chimie\", \"value\": 15, \"color\": \"#8b5cf6\" },\n    { \"label\": \"Construction navale\", \"value\": 8, \"color\": \"#10b981\" },\n    { \"label\": \"Acier\", \"value\": 6, \"color\": \"#f59e0b\" },\n    { \"label\": \"Autres\", \"value\": 14, \"color\": \"#000000\" }\n  ],\n  \"showGrid\": true,\n  \"xLabel\": \"Branche\",\n  \"yLabel\": \"% valeur ajoutée industrielle\"\n}\n```\n\n### 2.4 Secteur tertiaire : services\n\n**Composition :**\n- **Services financiers** : 25%\n- **Commerce de détail** : 20%\n- **Transport-logistique** : 15%\n- **Tourisme** : 10%\n- **Autres services** : 30%\n\n**Tourisme :**\n- **Arrivées** : 17 millions touristes/an\n- **Recettes** : 20 milliards USD\n- **Hallyu (vague coréenne)** : Attraction culturelle\n- **Jeux Olympiques** : Séoul 1988, PyeongChang 2018\n\n## 3. L'industrialisation : caractéristiques et spécificités\n\n### 3.1 Modèle d'industrialisation\n\n**Phases successives :**\n\n```mermaid\ntimeline\ntitle Phases d'industrialisation sud-coréenne\n    1960-1970 : Industries légères\n        : Textile, perruques, chaussures\n        : Main-d'œuvre à bas coût\n    1970-1980 : Industries lourdes\n        : Acier, chimie, construction navale\n        : Subventions étatiques\n    1980-1990 : High-tech\n        : Électronique, automobile\n        : R&D intensive\n    1990-2000 : Technologies de l'information\n        : Semi-conducteurs, télécoms\n        : Innovation digitale\n    2000-2020 : Économie créative\n        : K-pop, jeux vidéo, cinéma\n        : Soft power\n```\n\n### 3.2 Industrie sidérurgique\n\n**POSCO (Pohang Iron and Steel Company) :**\n- **Fondation** : 1968 avec aide japonaise\n- **Production** : 43 millions tonnes/an (4ème mondial)\n- **Technologie** : Procédé FINEX (révolutionnaire)\n- **Innovation** : Aciers haute résistance\n\n**Localisation :**\n- **Pohang** : Complexe intégré\n- **Gwangyang** : Plus grande aciérie\n- **Avantages** : Proximité ports, énergie\n\n**Rôle économique :**\n- **Approvisionnement** : Industries nationales\n- **Exportations** : 60% de la production\n- **Innovation** : Matériaux nouveaux\n- **Emplois** : 70.000 directs et indirects\n\n### 3.3 Construction navale\n\n**Leader mondial :**\n- **Part de marché** : 40% mondiale\n- **Chantiers navals** : HD Hyundai, Samsung Heavy, Daewoo Shipbuilding\n- **Spécialisation** : Navires LNG, porte-conteneurs, plates-formes\n\n**Technologies avancées :**\n- **Navires autonomes**\n- **Propulsion verte**\n- **Digitalisation chantiers**\n- **Robotisation construction**\n\n### 3.4 Industrie automobile\n\n**Hyundai Motor Group :**\n- **Production** : 7 millions véhicules/an (5ème mondial)\n- **Marques** : Hyundai, Kia, Genesis\n- **Innovation** : Véhicules électriques, hydrogène\n\n**Spécificités :**\n- **Intégration verticale** : Hyundai Steel, Mobis (pièces)\n- **Design** : Prix internationaux\n- **Qualité** : Garantie 10 ans (leader mondial)\n\n## 4. Les Technologies de l'Information et de la Communication (TIC)\n\n### 4.1 Infrastructure digitale\n\n**Connectivité exceptionnelle :**\n- **Internet fibre** : 85% ménages\n- **5G** : Couverture 95% population (1er mondial)\n- **Vitesse moyenne** : 130 Mbps (1er mondial)\n- **Coût** : 25 USD/mois (illimité)\n\n**Gouvernement électronique :**\n- **Administration en ligne** : 95% services\n- **Identité numérique** : Cartes résidents\n- **Vote électronique** : Expérimenté\n- **Transparence** : Données ouvertes\n\n### 4.2 Industrie des semi-conducteurs\n\n**Samsung Electronics :**\n- **Chiffre d'affaires** : 200 milliards USD\n- **Part de marché** : 40% mémoire mondiale\n- **Innovation** : Chips 3 nm\n- **Investissements** : 150 milliards USD (2021-2030)\n\n**SK Hynix :**\n- **2ème mondial** mémoire\n- **Spécialisation** : DRAM, NAND\n- **Recherche** : 15% CA en R&D\n\n**Clusters :**\n- **Giheung** : R&D Samsung\n- **Icheon** : Usines SK Hynix\n- **Pyeongtaek** : Plus grande usine mondiale\n\n### 4.3 Industrie des télécoms\n\n**Opérateurs :**\n- **SK Telecom** : Leader 5G\n- **KT Corporation** : Ancien monopole\n- **LG Uplus** : Spécialiste convergence\n\n**Services innovants :**\n- **5G standalone** : Réseau dédié\n- **IoT industriel**\n- **Smart cities** : Songdo, Busan\n- **Réalité augmentée**\n\n### 4.4 Jeux vidéo et e-sport\n\n**Industrie du jeu :**\n- **Chiffre d'affaires** : 15 milliards USD\n- **Entreprises** : Nexon, NCSoft, Krafton\n- **Jeux célèbres** : Lineage, PUBG, MapleStory\n\n**E-sport :**\n- **Infrastructures** : Stades dédiés\n- **Compétitions** : League of Legends Worlds\n- **Professionnels** : 5.000 joueurs pro\n- **Audience** : 5 millions spectateurs\n\n## 5. Performances de l'économie sud-coréenne\n\n### 5.1 Indicateurs macroéconomiques\n\n**Tableau comparatif 2024 :**\n| Indicateur | Corée du Sud | France | Japon | Chine |\n|------------|--------------|---------|--------|--------|\n| **PIB** | 1,8 trillions USD | 2,9 trillions | 4,2 trillions | 18,0 trillions |\n| **PIB/hab** | 35.000 USD | 45.000 | 34.000 | 13.000 |\n| **Croissance** | 2,5% | 1,0% | 1,2% | 5,0% |\n| **Inflation** | 2,8% | 5,0% | 3,2% | 2,5% |\n| **Chômage** | 3,0% | 7,0% | 2,5% | 5,0% |\n| **Exportations** | 650 milliards USD | 560 milliards | 700 milliards | 3.500 milliards |\n\n### 5.2 Compétitivité internationale\n\n**Classements mondiaux :**\n- **Indice de compétitivité** : 15ème/63 (IMD)\n- **Facilité de faire des affaires** : 5ème/190 (Banque Mondiale)\n- **Innovation** : 6ème/132 (Global Innovation Index)\n- **Connectivité** : 1er/139 (Network Readiness Index)\n\n**Avantages compétitifs :**\n1. **Infrastructures digitales**\n2. **Main-d'œuvre qualifiée**\n3. **Écosystème d'innovation**\n4. **Chaînes d'approvisionnement**\n\n### 5.3 Commerce extérieur\n\n**Structure des exportations (2023) :**\n\n```mathgraph\n{\n  \"type\": \"pie\",\n  \"title\": \"Structure des exportations sud-coréennes (2023)\",\n  \"segments\": [\n    { \"label\": \"Semi-conducteurs\", \"value\": 20, \"color\": \"#3b82f6\" },\n    { \"label\": \"Automobiles\", \"value\": 15, \"color\": \"#ef4444\" },\n    { \"label\": \"Pétrochimie\", \"value\": 12, \"color\": \"#8b5cf6\" },\n    { \"label\": \"Navires\", \"value\": 8, \"color\": \"#10b981\" },\n    { \"label\": \"Acier\", \"value\": 6, \"color\": \"#f59e0b\" },\n    { \"label\": \"Autres\", \"value\": 39, \"color\": \"#000000\" }\n  ]\n}\n```\n\n**Principaux partenaires :**\n- **Exportations vers** : Chine 25%, USA 15%, Vietnam 10%\n- **Importations depuis** : Chine 22%, USA 11%, Japon 9%\n\n**Balance commerciale :** Excédentaire (30 milliards USD)\n\n### 5.4 Investissements directs étrangers\n\n**Flux entrants (2023) :**\n- **Total** : 20 milliards USD\n- **Secteurs** : Services 60%, Industrie 35%, Primaire 5%\n- **Origines** : USA 30%, UE 25%, Japon 15%, Chine 10%\n\n**Flux sortants :**\n- **Total** : 40 milliards USD\n- **Destinations** : USA, Vietnam, Chine, Europe\n- **Motivations** : Marchés, technologie, ressources\n\n## 6. Limites du modèle de développement\n\n### 6.1 Dépendances économiques\n\n**Vulnérabilités structurelles :**\n\n```mermaid\ngraph TD\n    A[Dépendances économiques] --> B[Énergie]\n    A --> C[Chine]\n    A --> D[Jaebeol]\n    A --> E[Démographie]\n    \n    B --> B1[95% énergie importée]\n    B --> B2[Prix volatils]\n    B --> B3[Sécurité approvisionnement]\n    \n    C --> C1[25% exportations vers Chine]\n    C --> C2[Tensions géopolitiques]\n    C --> C3[Concurrence technologique]\n    \n    D --> D1[5 conglomérats = 60% PIB]\n    D --> D2[Risque systémique]\n    D --> D3[Étouffement PME]\n    \n    E --> E1[Vieillissement rapide]\n    E --> E2[Main-d'œuvre déclinante]\n    E --> E3[Système retraites]\n```\n\n### 6.2 Inégalités sociales\n\n**Fractures croissantes :**\n- **Coefficient Gini** : 0,36 (en hausse)\n- **Écart riche/pauvre** : 10% possèdent 45% richesse\n- **Jeunes** : Chômage 10%, contrats précaires\n- **Immobilité sociale** : Reproduction élites\n\n**Pression sociale :**\n- **Heures travail** : 2.024 heures/an (3ème OCDE)\n- **Suicides** : 25/100.000 (1er OCDE)\n- **Fécondité** : 0,72 enfant/femme (dernier mondial)\n- **Solitude** : Epidémie sociale\n\n### 6.3 Défis environnementaux\n\n**Émissions carbone :**\n- **Par habitant** : 12 tonnes CO2/an (2 fois moyenne OCDE)\n- **Sources** : Charbon 40%, industrie 30%\n- **Objectif** : Neutralité carbone 2050\n\n**Pollutions :**\n- **Air** : Particules fines (Chine, industries)\n- **Eau** : Rejets industriels\n- **Déchets** : Plastique, électronique\n\n### 6.4 Géopolitique régionale\n\n**Tensions Nord-Sud :**\n- **Dépenses militaires** : 2,8% PIB\n- **Conscription** : Service obligatoire 18 mois\n- **Cohabitation** difficile\n\n**Relations Chine-USA :**\n- **Position délicate** : Allié USA, dépendant Chine\n- **Technologie** : Concurrence semi-conducteurs\n- **Commerce** : Sanctions potentielles\n\n## 7. Politiques de correction des déséquilibres\n\n### 7.1 Stratégie 'Korean New Deal'\n\n**Investissements 2020-2025 :** 160 milliards USD\n\n**Deux piliers :**\n\n**1. Green New Deal :**\n- **Énergies renouvelables** : 20% mix 2030\n- **Véhicules verts** : 1,13 million unités 2025\n- **Bâtiments écologiques**\n- **Recyclage** : Économie circulaire\n\n**2. Digital New Deal :**\n- **IA nationale** : 2 milliards USD\n- **Données** : Plateforme nationale\n- **Éducation digitale** : Formation massive\n- **Smart infrastructure** : 5G, IoT\n\n### 7.2 Réforme des Jaebeol\n\n**Lois anti-concentration :**\n- **Succession** : Taxes renforcées\n- **Transparence** : Structure capitalistique\n- **Concurrence** : Limites acquisitions\n- **Responsabilité** : Conseil administration\n\n**Soutien aux PME :**\n- **Financement** : Fonds de 30 milliards USD\n- **Marchés publics** : 10% réservés\n- **Innovation** : Partenariats recherche\n- **Exportations** : Aides à l'internationalisation\n\n### 7.3 Politiques sociales\n\n**Lutte contre inégalités :**\n- **Salaire minimum** : Augmentation progressive\n- **Contrats réguliers** : Limitation précarité\n- **Logement social** : 2,7 millions logements\n- **Santé universelle** : Extension couverture\n\n**Soutien à la natalité :**\n- **Allocations** : 2.000 USD/mois/enfant\n- **Congés parentaux** : 1 an rémunéré\n- **Garderies** : Gratuites 0-5 ans\n- **Temps travail** : Réduction heures\n\n### 7.4 Diplomatie économique\n\n**Diversification partenaires :**\n- **ASEAN** : Initiative New Southern Policy\n- **Moyen-Orient** : Contrats construction\n- **Afrique** : Coopération développement\n- **Europe** : Accords de libre-échange\n\n**Sécurité économique :**\n- **Ressources stratégiques** : Stocks nationaux\n- **Chaînes d'approvisionnement** : Diversification\n- **Technologie** : Autonomie partielle\n\n## 8. Réalisation de graphiques\n\n### 8.1 Graphique d'évolution du PIB\n\n**Données 1960-2024 :**\n| Année | PIB (milliards USD) |\n|-------|---------------------|\n| 1960 | 3 |\n| 1970 | 10 |\n| 1980 | 65 |\n| 1990 | 283 |\n| 2000 | 562 |\n| 2010 | 1.094 |\n| 2020 | 1.631 |\n| 2024 | 1.800 |\n\n**Type de graphique :** Courbe logarithmique montrant croissance exponentielle\n\n### 8.2 Structure des exportations\n\n**Diagramme circulaire** avec les 5 principaux postes (voir section 5.3)\n\n### 8.3 Comparaison internationale\n\n**Graphique à barres multiples :**\n- **Axe X** : Pays (Corée, Japon, Allemagne, USA, Chine)\n- **Axe Y** : Dépenses R&D en % du PIB\n- **Légende** : Années (2000, 2010, 2020)\n\n## 9. Étude de cas : Le miracle de Samsung\n\n### 9.1 Histoire d'une success story\n\n**Fondation** : 1938 comme épicerie\n**Années 1960** : Textile, sucre\n**Années 1970** : Électronique, construction\n**Années 1980** : Semi-conducteurs\n**Années 1990** : Téléphonie mobile\n**Années 2000** : Smartphones, écrans\n**Années 2010** : Leader mondial smartphones\n**Années 2020** : Chips, 5G, biotechnologie\n\n### 9.2 Stratégies de croissance\n\n1. **Imitation** puis **innovation**\n2. **Qualité** obsessionnelle\n3. **Design** distinctif\n4. **Marketing** agressif\n5. **R&D** massive (20 milliards USD/an)\n\n### 9.3 Impact sur l'économie coréenne\n\n- **Exportations** : 20% des exportations totales\n- **R&D** : 25% de la R&D nationale\n- **Emplois** : 300.000 directs\n- **Image** : Ambassadeur national\n\n## 10. Conclusion : Leçons pour les pays en développement\n\n### 10.1 Recette du succès\n\n**Ingrédients essentiels :**\n1. **Vision à long terme**\n2. **Investissement éducation**\n3. **État développemental**\n4. **Orientation exportations**\n5. **Innovation continue**\n\n### 10.2 Adaptations nécessaires\n\n**Contexte ivoirien :**\n- **Avantages** : Ressources naturelles\n- **Défis** : Gouvernance, infrastructure\n- **Opportunités** : Jeunesse, croissance\n- **Menaces** : Instabilité, concurrence\n\n### 10.3 Scénarios futurs pour la Corée du Sud\n\n**Horizon 2040 :**\n- **Leadership technologique** possible\n- **Déclin démographique** certain\n- **Tensions géopolitiques** probables\n- **Transition écologique** nécessaire\n\n**Message final :**\n'Le modèle sud-coréen montre qu'avec stratégie, éducation et innovation, un pays peut transformer radicalement son destin économique. Mais chaque pays doit adapter ces principes à son contexte spécifique.'",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "La Corée du Sud est un cas d'école de pays émergent devenu développé, avec transition complète des secteurs (primaire 2%, secondaire 38%, tertiaire 60%)",
+    "L'industrialisation s'est faite par phases successives : industries légères (1960), lourdes (1970), high-tech (1980), TIC (1990), économie créative (2000)",
+    "Les TIC représentent un pilier économique avec leadership mondial en semi-conducteurs (Samsung 40% marché), 5G (1ère couverture mondiale) et jeux vidéo",
+    "L'industrie sidérurgique (POSCO, 4ème mondial) et la construction navale (40% marché mondial) restent des secteurs stratégiques",
+    "Les performances économiques sont remarquables : PIB 1.800 milliards USD (12ème mondial), croissance moyenne 7%/an depuis 1960, excédent commercial",
+    "Les limites du modèle incluent la dépendance énergétique (95% importé), les inégalités sociales (Gini 0,36), le vieillissement démographique (fécondité 0,72) et la concentration économique (5 conglomérats = 60% PIB)",
+    "Les politiques correctives incluent le 'Korean New Deal' (160 milliards USD), la réforme des Jaebeol et la diversification diplomatique",
+    "Les leçons pour la Côte d'Ivoire incluent l'importance de la planification stratégique, l'investissement dans l'éducation et l'innovation, mais nécessitent adaptation au contexte local"
+  ],
+  "exercise": {
+    "answer": "**NOTE DE SYNTHÈSE - MODÈLE SUD-CORÉEN**\n**À : Ministre du Plan et du Développement**\n**Objet : Analyse du modèle sud-coréen et recommandations pour la Côte d'Ivoire**\n**Date : 15 mars 2024**\n\n### **I. TROIS FORCES TRANSFÉRABLES DU MODÈLE CORÉEN**\n\n#### **1. La planification stratégique à long terme**\n**Mécanisme coréen :** Plans quinquennaux (1962-1996) avec objectifs clairs, suivi rigoureux et continuité politique malgré les changements de régime.\n\n**Transfert possible :** Création d'une **Agence de Prospective et de Planification Stratégique (APPS)** indépendante des alternances politiques, avec mandat de 10 ans renouvelable.\n\n**Application concrète :**\n- **Plan Décennal Cacao 2035** : Objectif 70% transformation locale\n- **Budgétisation pluriannuelle** : Engage les futurs gouvernements\n- **Indicateurs de performance** : Publication trimestrielle\n\n#### **2. L'écosystème éducation-recherche-entreprise**\n**Mécanisme coréen :** Triangulation État-Universités-Entreprises avec financement public de la R&D (4,6% PIB) et transfert technologique obligatoire.\n\n**Transfert possible :** Création de **Pôles d'Excellence Régionaux (PER)** spécialisés dans les filières stratégiques ivoiriennes.\n\n**Application concrète :**\n- **PER Cacao** à Yamoussoukro : Université INP-HB + CEMOI + recherche\n- **Financement** : 1% taxe sur exportations matières premières\n- **Contrats** : Obligation d'embauche locale pour les entreprises bénéficiaires\n\n#### **3. L'orientation exportatrice pragmatique**\n**Mécanisme coréen :** Protection temporaire des industries naissantes (années 1960-1980) puis ouverture progressive avec soutien à l'export.\n\n**Transfert possible :** **Stratégie de spécialisation intelligente** avec protection différenciée selon le niveau de transformation.\n\n**Application concrète :**\n- **Droits de douane** : 0% sur machines, 5% sur semi-transformés, 20% sur produits finis\n- **Crédits à l'export** : Taux préférentiels pour produits transformés\n- **Ambassades économiques** : Attachés commerciaux spécialisés\n\n### **II. TROIS RISQUES DE COPIE AVEUGLE**\n\n#### **1. Le modèle autoritaire initial**\n**Risque :** Reproduction des méthodes répressives de Park Chung-hee (1961-1979) qui, bien qu'efficaces économiquement, ont causé violations des droits humains.\n\n**Alternative ivoirienne :** **Développement démocratique** avec participation citoyenne, transparence et contre-pouvoirs forts.\n\n**Garde-fous nécessaires :**\n- **Contrôle parlementaire** renforcé\n- **Société civile** impliquée\n- **Médias indépendants**\n- **Justice économique** spécialisée\n\n#### **2. La concentration excessive dans les conglomérats**\n**Risque :** Création de Jaebeol ivoiriens qui étoufferaient les PME et créeraient des risques systémiques (comme la crise des chaebols en 1997).\n\n**Alternative ivoirienne :** **Écosystème équilibré** avec soutien différencié selon la taille des entreprises.\n\n**Mesures de régulation :**\n- **Plafond de parts de marché** : 30% maximum par entreprise dans un secteur\n- **Obligation de sous-traitance** aux PME locales\n- **Transparence des holdings**\n- **Fonds de garantie mutualisé** pour PME\n\n#### **3. L'hyper-compétition éducative**\n**Risque :** Reproduction du système éducatif sud-coréen générateur de stress, suicides et inégalités (coût des cours privés).\n\n**Alternative ivoirienne :** **Excellence inclusive** avec valorisation de toutes les intelligences et filières.\n\n**Réformes nécessaires :**\n- **Diversification des voies** : Technique, professionnelle, artistique\n- **Limitation des cours privés**\n- **Évaluation formative** vs sommative\n- **Santé mentale** intégrée au système\n\n### **III. TROIS PROJETS PILOTES ADAPTÉS**\n\n#### **Projet 1 : 'Cacao 4.0' à Yamoussoukro**\n**Objectif :** Créer la première chocolaterie intelligente d'Afrique\n\n**Composantes :**\n1. **Usine pilote** : Transformation numérique complète\n2. **Centre R&D** : Variétés résistantes, nouveaux produits\n3. **École des métiers** : Formation chocolatiers, techniciens\n4. **Incubateur** : Startups cacao-tech\n\n**Budget :** 50 milliards FCFA (État 40%, privé 40%, coopération 20%)\n**Durée :** 2025-2030\n**Indicateurs :** 1.000 emplois, 10 startups, 5 brevets\n\n#### **Projet 2 : 'Port numérique' à San-Pédro**\n**Objectif :** Faire de San-Pédro un hub logistique intelligent\n\n**Composantes :**\n1. **Terminal conteneurs automatisé**\n2. **Plateforme blockchain** : Traçabilité produits\n3. **Centre de données** : Gestion flux régionaux\n4. **École logistique** : Formation aux métiers portuaires 4.0\n\n**Budget :** 100 milliards FCFA (PPP)\n**Durée :** 2025-2032\n**Indicateurs :** +50% capacité, 2.000 emplois, -30% délais\n\n#### **Projet 3 : 'École du futur' à Bingerville**\n**Objectif :** Expérimenter un nouveau modèle éducatif intégrant les leçons coréennes sans les excès\n\n**Composantes :**\n1. **Pédagogie par projets** : Interdisciplinarité\n2. **Numérique éducatif** : Tablettes, réalité augmentée\n3. **Parité filles/garçons** en STEM\n4. **Santé intégrée** : Psychologue, nutritionniste\n\n**Budget :** 10 milliards FCFA\n**Durée :** 2025-2028\n**Indicateurs :** 500 élèves, 90% réussite bac, 70% poursuite en STEM\n\n### **IV. TABLEAU COMPARATIF DES INDICATEURS CLÉS**\n\n| Indicateur | Corée du Sud (2024) | Côte d'Ivoire (2024) | Objectif CI 2030 |\n|------------|---------------------|----------------------|------------------|\n| **PIB/habitant** | 35.000 USD | 2.500 USD | 5.000 USD |\n| **Croissance économique** | 2,5% | 7,5% | 8% |\n| **Dépenses éducation/PIB** | 4,6% | 4,2% | 6% |\n| **Dépenses R&D/PIB** | 4,6% | 0,3% | 1,5% |\n| **Exportations manufacturières** | 85% exports totaux | 20% exports totaux | 40% exports totaux |\n| **Taux transformation cacao** | - | 30% | 50% |\n| **Couverture 5G** | 95% population | 5% population | 50% population |\n| **Classement PISA** | 1er mathématiques | Non classé | Top 5 africain |\n| **Chômage jeunes** | 10% | 30% | 15% |\n| **Espérance vie** | 83,5 ans | 58 ans | 65 ans |\n\n### **CONCLUSION : UN MODÈLE À ADAPTER, PAS À COPIER**\n\nLa Corée du Sud offre des **principes universels** (éducation, innovation, planification) mais dans un **contexte historique unique** (aide américaine massive, guerre froide, dictature développementale).\n\n**Recommandation finale :** Adopter l'**esprit du modèle coréen** (ambition, discipline, innovation) dans des **formules ivoiriennes** (démocratique, inclusive, durable).\n\n**Priorité immédiate :** Lancer les 3 projets pilotes en 2025 avec évaluation rigoureuse pour ajustement avant généralisation.\n\n---\n\n**Annexes :**\n1. Fiches projets détaillées\n2. Étude de faisabilité économique\n3. Calendrier de mise en œuvre\n4. Contacts partenaires coréens",
+    "question": "Vous êtes consultant international chargé d'analyser le modèle sud-coréen pour le gouvernement ivoirien. Rédigez une note synthétique qui : 1) identifie 3 forces transférables du modèle coréen ; 2) analyse 3 risques de copie aveugle ; 3) propose 3 projets pilotes adaptés au contexte ivoirien ; 4) présente un tableau comparatif des indicateurs clés. Structurez votre réponse en 4 parties distinctes avec des sous-titres."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel pourcentage des exportations sud-coréennes provient des semi-conducteurs ?",
+      "options": [
+        "10%",
+        "15%",
+        "20%",
+        "25%"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle est la part de marché mondiale de la construction navale sud-coréenne ?",
+      "options": [
+        "20%",
+        "30%",
+        "40%",
+        "50%"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel est le rang mondial de la Corée du Sud pour la vitesse Internet ?",
+      "options": [
+        "1er",
+        "5ème",
+        "10ème",
+        "15ème"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel pourcentage de l'énergie est importé en Corée du Sud ?",
+      "options": [
+        "75%",
+        "85%",
+        "95%",
+        "100%"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel est le coefficient Gini en Corée du Sud ?",
+      "options": [
+        "0,26",
+        "0,36",
+        "0,46",
+        "0,56"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel est le budget du 'Korean New Deal' ?",
+      "options": [
+        "80 milliards USD",
+        "120 milliards USD",
+        "160 milliards USD",
+        "200 milliards USD"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quelle entreprise domine le marché mondial des smartphones ?",
+      "options": [
+        "Apple",
+        "Samsung",
+        "Xiaomi",
+        "Huawei"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel est le taux de fécondité en Corée du Sud ?",
+      "options": [
+        "0,72",
+        "1,22",
+        "1,72",
+        "2,22"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quand la Corée du Sud a-t-elle rejoint l'OCDE ?",
+      "options": [
+        "1986",
+        "1996",
+        "2006",
+        "2016"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel pourcentage du PIB représente l'industrie en Corée du Sud ?",
+      "options": [
+        "28%",
+        "33%",
+        "38%",
+        "43%"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

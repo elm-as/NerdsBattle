@@ -1,0 +1,125 @@
+{
+  "id": "maths-premiere-composees-de-transformations-du-plan",
+  "title": "Composées de transformations du plan",
+  "summary": "Lors d'une exposition sur l'architecture à Abidjan, des élèves observent une photo de maison avec des motifs géométriques répétés. Leur professeur explique que l'architecte a utilisé une image de base et la composée de deux transformations. Impressionnés, les élèves veulent apprendre à construire l'image d'un point par une composée de transformations.",
+  "lesson": "## 1. Translation de vecteur $$\\\\vec{u}$$\n\nNotation : $$t_{\\\\vec{u}}$$.\nPropriété : $$t_{\\\\vec{u}} \\\\circ t_{\\\\vec{v}} = t_{\\\\vec{u}+\\\\vec{v}}$$ (commutatif).\n\n## 2. Symétrie orthogonale d'axe Δ\n\nNotation : $$s_Δ$$.\nPropriétés : $$s_Δ \\\\circ s_Δ = Id$$ (involutive).\n\n## 3. Homothétie de centre Ω et de rapport k (k ≠ 0)\n\nNotation : $$h_{(Ω, k)}$$.\nPropriétés : $$h_{(Ω,k)} \\\\circ h_{(Ω,k')} = h_{(Ω, kk')}$$.\n\n## 4. Rotation de centre Ω et d'angle θ\n\nNotation : $$r_{(Ω, θ)}$$.\nPropriétés : $$r_{(Ω,θ)} \\\\circ r_{(Ω,θ')} = r_{(Ω, θ+θ')}$$.\n\n## 5. Composées de translations\n\n$$t_{\\\\vec{u}} \\\\circ t_{\\\\vec{v}} = t_{\\\\vec{u}+\\\\vec{v}} = t_{\\\\vec{v}} \\\\circ t_{\\\\vec{u}}$$.\n\nLa composée de deux translations est une translation.\n\n## 6. Composées de symétries orthogonales\n\n1. **Axes parallèles** : $$s_{Δ} \\\\circ s_{Δ'} = t_{2\\\\vec{v}}$$ où $$\\\\vec{v}$$ est le vecteur perpendiculaire aux axes de Δ à Δ'.\n\n2. **Axes sécants** : $$s_{Δ} \\\\circ s_{Δ'} = r_{(Ω, 2θ)}$$ où Ω est l'intersection et θ l'angle orienté (Δ', Δ).\n\n## 7. Composées d'homothéties\n\n1. **Même centre Ω** : $$h_{(Ω,k)} \\\\circ h_{(Ω,k')} = h_{(Ω, kk')}$$.\n\n2. **Centres différents** :\n   - Si kk' = 1 : translation\n   - Si kk' ≠ 1 : homothétie de rapport kk' dont le centre est aligné avec Ω et Ω'\n\n## 8. Composées de rotations\n\n1. **Même centre Ω** : $$r_{(Ω,θ)} \\\\circ r_{(Ω,θ')} = r_{(Ω, θ+θ')}$$.\n\n2. **Centres différents** :\n   - Si θ+θ' = 0 mod 2π : translation\n   - Sinon : rotation d'angle θ+θ'\n\n**Application à l'architecture** : Les motifs répétés peuvent être obtenus par translations successives (frises) ou par rotations autour d'un centre (rosaces).",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Composée de translations = translation de vecteur somme",
+    "Symétries d'axes parallèles ⇒ translation",
+    "Symétries d'axes sécants ⇒ rotation",
+    "Homothéties de même centre ⇒ homothétie de rapport produit",
+    "Rotations de même centre ⇒ rotation d'angle somme",
+    "La composée n'est pas commutative en général"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La composée de deux translations est :",
+      "options": [
+        "Une translation",
+        "Une rotation",
+        "Une homothétie",
+        "Une symétrie"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Si on compose deux symétries d'axes parallèles, on obtient :",
+      "options": [
+        "Une translation",
+        "Une rotation",
+        "Une homothétie",
+        "L'identité"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "$$h_{(Ω,2)} \\\\circ h_{(Ω,3)} =$$",
+      "options": [
+        "$$h_{(Ω,5)}$$",
+        "$$h_{(Ω,6)}$$",
+        "$$h_{(Ω,1)}$$",
+        "$$t$$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "La composée de transformations est-elle commutative ?",
+      "options": [
+        "Toujours",
+        "Jamais",
+        "Parfois",
+        "Seulement pour les translations"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "tᵥ ∘ tᵤ = ?",
+      "options": [
+        "tᵤ₊ᵥ",
+        "tᵤ₋ᵥ",
+        "t₀",
+        "tᵤ·ᵥ"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "r(O,π/3) ∘ r(O,π/6) =",
+      "options": [
+        "r(O,π/2)",
+        "r(O,π/18)",
+        "r(O,π/9)",
+        "Translation"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "h(O,2) ∘ h(O,3) =",
+      "options": [
+        "h(O,5)",
+        "h(O,6)",
+        "h(O,1)",
+        "h(O,2/3)"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Pour construire l'image par f∘g, on applique d'abord :",
+      "options": [
+        "f",
+        "g",
+        "Les deux simultanément",
+        "L'inverse"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

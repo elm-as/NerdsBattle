@@ -1,0 +1,32 @@
+{
+  "id": "physique-terminale-oscillations-electriques-libres-lc",
+  "title": "Oscillations électriques libres (LC)",
+  "summary": "Pourquoi un circuit LC oscille-t-il librement ?",
+  "lesson": "## I. Circuit LC idéal\n\n### 1.1 Description\nCircuit série : bobine L (inductance pure) + condensateur C\n\n### 1.2 Équation différentielle\n**Loi des mailles** : uL + uc = 0\nL(di/dt) + q/C = 0\n\nComme i = dq/dt :\nL(d²q/dt²) + q/C = 0\n\n**Forme canonique** :\n**d²q/dt² + (1/LC)q = 0**\n\n**Identification** : ω₀² = 1/(LC)\n\n### 1.3 Pulsation propre\n**ω₀ = 1/√(LC)** (rad/s)\n\n### 1.4 Période propre\n**T₀ = 2π/ω₀ = 2π√(LC)**\n\n**Formule de Thomson**\n\n### 1.5 Fréquence propre\n**f₀ = 1/T₀ = 1/(2π√(LC))**\n\n### 1.6 Solution\n**q(t) = Q₀ cos(ω₀t + φ)**\n\nOù :\n- Q₀ : amplitude (charge maximale)\n- φ : phase à l'origine\n\n**Intensité** :\ni(t) = dq/dt = -Q₀ω₀ sin(ω₀t + φ)\n\n**Tension aux bornes du condensateur** :\nuc(t) = q/C = (Q₀/C) cos(ω₀t + φ) = U₀ cos(ω₀t + φ)\n\n## II. Énergie dans le circuit LC\n\n### 2.1 Énergie électrique\n**Ec = ½Cu²c = ½q²/C**\n\n### 2.2 Énergie magnétique\n**Em = ½Li²**\n\n### 2.3 Énergie totale\n**E = Ec + Em = constante**\n\n**À t=0** (uc max, i=0) :\nE = ½CU₀² = ½Q₀²/C\n\n**À T/4** (uc=0, i max) :\nE = ½LI₀²\n\n**Conservation** :\n½Q₀²/C = ½LI₀²\n\n## III. Exemple numérique\nL = 0,1 H, C = 10 μF\n\n**Période** :\nT₀ = 2π√(0,1 × 10×10⁻⁶) = 2π√(10⁻⁶) = 2π × 10⁻³ ≈ **6,28 ms**\n\n**Fréquence** :\nf₀ = 1/T₀ ≈ **159 Hz**",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Équation : d²q/dt² + ω₀²q = 0",
+    "Période : T₀ = 2π√(LC) (formule de Thomson)",
+    "Énergie conservée : E = ½q²/C + ½Li² = constante",
+    "Oscillations sinusoïdales"
+  ],
+  "exercise": {
+    "question": "Circuit LC : L = 0,1 H, C = 10 μF. Calculer T₀ et f₀.",
+    "answer": "T₀ = 2π√(LC) = 2π√(10⁻⁶) ≈ 6,28 ms ; f₀ = 1/T₀ ≈ 159 Hz"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Formule de la période propre d'un circuit LC ?",
+      "options": [
+        "T₀ = √(LC)",
+        "T₀ = 2π√(LC)",
+        "T₀ = π√(LC)",
+        "T₀ = LC"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

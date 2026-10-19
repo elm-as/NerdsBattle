@@ -1,0 +1,72 @@
+{
+  "id": "physique-quatrieme-transformation-redressement-et-lissage-d-une-tension-alterna",
+  "title": "Transformation, redressement et lissage d'une tension alternative",
+  "summary": "À Anékro (Bongouanou), le village est relié au réseau électrique. Les élèves constatent que leur poste radio qui fonctionnait avec des piles (tension continue) fonctionne maintenant avec le secteur (tension alternative). Ils veulent comprendre comment.",
+  "lesson": "# Transformation, redressement et lissage\n\n## I. Le transformateur\n\n### A. Description\n\n**Transformateur** : Appareil qui **modifie** la valeur d'une tension **alternative**.\n\n**Composition** :\n1. **Noyau** en fer feuilleté (forme de cadre)\n2. **Enroulement primaire** (bobine d'entrée)\n3. **Enroulement secondaire** (bobine de sortie)\n\n```\n        Primaire  │ Noyau fer │  Secondaire\n                  │           │\n   U₁ ──⊏∿∿∿∿⊐───║═══════════║───⊏∿∿∿∿⊐── U₂\n                  │           │\n         N₁ spires│           │ N₂ spires\n```\n\n**Symbole électrique** :\n```\n      ┌──⊏∿∿⊐──┐\n  U₁  │        │  U₂\n      └────────┘\n    (Transformateur)\n```\n\n### B. Fonctionnement\n\n**Principe** : **Induction électromagnétique**\n1. Tension alternative U₁ → courant alternatif primaire\n2. Champ magnétique **variable** dans le noyau\n3. Induction de tension U₂ dans le secondaire\n\n⚠️ **IMPORTANT** : Fonctionne **SEULEMENT** avec tension **ALTERNATIVE** (pas avec tension continue).\n\n### C. Relation de transformation\n\n**Formule** :\n\n$$\\frac{U_2}{U_1} = \\frac{N_2}{N_1}$$\n\nOù :\n- U₁ = tension primaire (entrée)\n- U₂ = tension secondaire (sortie)\n- N₁ = nombre de spires du primaire\n- N₂ = nombre de spires du secondaire\n\n**Rapport de transformation** : k = N₂/N₁\n\n### D. Types de transformateurs\n\n**1. Transformateur abaisseur** : U₂ < U₁\n\n- N₂ < N₁\n- k < 1\n- Exemple : 220 V → 12 V\n\n```\n  220V ──⊏∿∿∿∿∿∿∿∿∿∿⊐──║──⊏∿∿⊐── 12V\n       1000 spires     50 spires\n       \n  k = 50/1000 = 0,05\n  U₂ = 220 × 0,05 = 11 V\n```\n\n**Applications** :\n- Chargeurs de téléphone (220V → 5V)\n- Adaptateurs (220V → 12V, 9V, 6V)\n- Sonnettes (220V → 6V)\n\n**2. Transformateur élévateur** : U₂ > U₁\n\n- N₂ > N₁\n- k > 1\n- Exemple : 220 V → 10 000 V\n\n```\n  220V ──⊏∿∿⊐──║──⊏∿∿∿∿∿∿∿∿∿⊐── 10000V\n       100 spires   4545 spires\n       \n  k = 4545/100 = 45,45\n  U₂ = 220 × 45,45 = 10000 V\n```\n\n**Applications** :\n- Transport d'électricité (15 kV → 225 kV)\n- Tubes néon, écrans cathodiques\n\n**Exemple en Côte d'Ivoire** :\n- Centrale d'Azito produit **15 kV**\n- Transformateurs élèvent à **225 kV** (transport longue distance Abidjan-Bouaké)\n- Transformateurs abaissent à **15 kV** puis **220 V** (distribution)\n\n### E. Symboles des générateurs\n\n**Générateur de tension continue** (pile) :\n```\n  ──┬──\n    │\n  ──┴──\n  (+ haut, - bas)\n```\n\n**Générateur de tension alternative sinusoïdale** :\n```\n  ──⊙~~\n  (cercle avec ~)\n```\n\n## II. Redressement de la tension\n\n### A. Problématique\n\n**Poste radio à Anékro** :\n- Fonctionne avec **tension continue** (piles 9V, 12V)\n- Secteur fournit **tension alternative** (220V)\n\n**Solution** : Transformer 220V → 12V (transformateur) puis convertir alternatif → continu (**redressement**).\n\n### B. La diode\n\n**Définition** : Composant électronique qui laisse passer le courant dans **un seul sens**.\n\n**Symbole** :\n```\n  ──▷|── \n   Anode Cathode\n   \n  (Sens passant : →)\n```\n\n**Fonctionnement** :\n- **Sens passant** (anode → cathode) : La diode **conduit** (comme un fil)\n- **Sens bloqué** (cathode → anode) : La diode **ne conduit pas** (circuit ouvert)\n\n```\nCourant →  ▷|  → Passe ✅\nCourant ←  ▷|  ← Bloqué ❌\n```\n\n### C. Redressement simple alternance\n\n**Montage** :\n```\nTension      Diode\nalternative ──▷|──→ Tension redressée\n   ~\n```\n\n**Principe** :\n- **Alternance positive** : Diode conduit → tension transmise\n- **Alternance négative** : Diode bloque → tension nulle\n\n**Oscillogrammes** :\n\nEntrée (alternatif) :\n```\n  ╱╲    ╱╲    ╱╲\n ╱  ╲  ╱  ╸  ╱  ╲\n╱────╲╱────╲╱────\n```\n\nSortie (redressée simple alternance) :\n```\n  ╱╲    ╱╲    ╱╲\n ╱  ╲  ╱  ╲  ╱  ╲\n─────────────────\n  (Que les alternances +)\n```\n\n**Inconvénient** : Perd 50% du signal (alternances négatives supprimées).\n\n### D. Redressement double alternance (pont de diodes)\n\n**Montage** : **Pont de Graëtz** (4 diodes)\n\n```\n        D1\n    ┌───▷|───┐\n    │        │\n~───┤        ├───→ Sortie\n    │        │    redressée\n    └───▷|───┘\n        D3\n        \n  (+ 2 autres diodes)\n```\n\n**Principe** :\n- **Alternance positive** : Diodes D1 et D2 conduisent → tension positive\n- **Alternance négative** : Diodes D3 et D4 conduisent → **inversent** le signal → tension positive\n\n**Oscillogrammes** :\n\nEntrée :\n```\n  ╱╲    ╱╲    ╱╲\n ╱  ╲  ╱  ╲  ╱  ╲\n╱────╲╱────╲╱────\n```\n\nSortie (redressée double alternance) :\n```\n  ╱╲ ╱╲ ╱╲ ╱╲ ╱╲\n ╱  V  V  V  V  ╲\n──────────────────\n  (Toutes les alternances +)\n```\n\n**Avantage** : Utilise **100%** du signal (pas de perte).\n\n## III. Lissage de la tension\n\n### A. Problème\n\nLa tension redressée est **pulsée** (monte-descend rapidement). Les appareils électroniques (radio, TV) nécessitent une tension **continue stable**.\n\n### B. Le condensateur\n\n**Définition** : Composant qui **stocke** de l'énergie électrique.\n\n**Symbole** :\n```\n  ──||──  ou  ──|╫|──\n  (Condensateur)\n```\n\n**Fonctionnement** :\n- **Charge** : Stocke l'énergie quand la tension monte\n- **Décharge** : Restitue l'énergie quand la tension descend\n\n### C. Lissage avec condensateur\n\n**Montage** :\n```\nRedresseur ──┬──→ Sortie\n             │    lissée\n            ═╪═  Condensateur\n             │\n            ───  (masse)\n```\n\n**Oscillogrammes** :\n\nTension redressée (avant condensateur) :\n```\n  ╱╲ ╱╲ ╱╲ ╱╲\n ╱  V  V  V  ╲\n──────────────\n  (Pulsée)\n```\n\nTension lissée (après condensateur) :\n```\n  ═════════════ (Quasi-continue)\n   Légères ondulations\n```\n\n**Principe** :\n- Tension monte : Condensateur se **charge**\n- Tension descend : Condensateur se **décharge** → **maintient** la tension\n\n**Résultat** : Tension **quasi-continue** avec de faibles ondulations (acceptable pour les appareils).\n\n## IV. Chaîne complète (cas du poste radio)\n\n**Schéma synoptique** :\n\n```\nSecteur     Transformateur  Redresseur    Condensateur\n220V ~  →    220V → 12V  →  12V redressé → 12V lissé\n                                            (continu)\n            ⊏∿∿⊐─║─⊏∿⊐      Pont diodes       ═╪═\n```\n\n**Étapes** :\n\n1. **Secteur** : 220 V alternatif (trop élevé)\n2. **Transformateur abaisseur** : 220 V → 12 V alternatif (adapté)\n3. **Pont de diodes** : 12 V alternatif → 12 V redressé (pulsé)\n4. **Condensateur** : 12 V pulsé → 12 V lissé ≈ continu\n5. **Alimentation** du poste radio : 12 V continu (comme avec des piles)\n\n**Application à Anékro** : Le poste radio contient ce circuit (transformateur + redresseur + condensateur) intégré. Branchement au secteur → circuit convertit 220V alternatif → 12V continu → radio fonctionne !\n\n## V. Applications en Côte d'Ivoire\n\n### A. Chargeurs de téléphone\n\n**Exemple** : Chargeur Samsung, iPhone...\n\n```\n220V ~ → Transfo → Redresseur → Condensateur → 5V continu (USB)\n```\n\n**Spécifications** :\n- Entrée : 220 V, 50 Hz\n- Sortie : 5 V, 2 A (courant continu)\n\n### B. Adaptateurs secteur\n\n**Exemples** : Ordinateurs portables, modems wifi, décodeurs Canal+\n\n- PC portable : 220V ~ → 19V continu\n- Modem : 220V ~ → 12V continu\n- Décodeur : 220V ~ → 9V continu\n\n### C. Alimentation des appareils électroniques\n\n**Tous les appareils électroniques** (TV, radio, ordinateur, téléphone) fonctionnent en **tension continue** à l'intérieur, même s'ils sont branchés au secteur (alternatif).\n\n**Bloc d'alimentation** (intégré ou externe) :\n- Transforme\n- Redresse\n- Lisse\n\n→ Fournit la tension continue nécessaire.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Transformateur : modifie tension alternative (U₂/U₁ = N₂/N₁)",
+    "Abaisseur : N₂<N₁ (220V→12V) / Élévateur : N₂>N₁ (15kV→225kV)",
+    "Diode : passe courant dans un seul sens (redressement)",
+    "Pont de diodes : redresse les 2 alternances (double alternance)",
+    "Condensateur : lisse la tension redressée → quasi-continue"
+  ],
+  "exercise": {
+    "answer": "**Nombre de spires** :\nFormule : U₂/U₁ = N₂/N₁\n12/220 = N₂/1100\nN₂ = (12 × 1100) / 220 = **60 spires**\n\n**Étapes de conversion** :\n1. **Transformateur abaisseur** : 220V~ (secteur) → 12V~ (alternatif abaissé) grâce aux spires (1100→60)\n2. **Pont de diodes (redresseur)** : 12V alternatif → 12V redressé (pulsé, toujours positif)\n3. **Condensateur (lissage)** : 12V pulsé → 12V lissé (quasi-continu, stable)\n4. **Sortie** : 12V continu alimentant la lampe LED",
+    "question": "À Anékro, un adaptateur de lampe LED indique : Entrée 220V~, Sortie 12V continu. Le transformateur a 1100 spires au primaire. Calcule le nombre de spires au secondaire. Explique ensuite les étapes de conversion 220V~ → 12V continu."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Un transformateur fonctionne avec :",
+      "options": [
+        "Tension continue uniquement",
+        "Tension alternative uniquement",
+        "Les deux types de tension",
+        "Aucune tension"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Si N₂ = 500 spires, N₁ = 2000 spires, U₁ = 220V, alors U₂ = ?",
+      "options": [
+        "880 V",
+        "110 V",
+        "55 V",
+        "27,5 V"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Le rôle d'une diode dans un redresseur est de :",
+      "options": [
+        "Augmenter la tension",
+        "Laisser passer le courant dans un seul sens",
+        "Lisser la tension",
+        "Transformer la tension"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel composant permet de lisser une tension redressée ?",
+      "options": [
+        "Diode",
+        "Transformateur",
+        "Condensateur",
+        "Résistance"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

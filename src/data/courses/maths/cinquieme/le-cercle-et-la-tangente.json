@@ -1,0 +1,110 @@
+{
+  "id": "maths-cinquieme-le-cercle-et-la-tangente",
+  "title": "Le cercle et la tangente",
+  "summary": "Un artisan fabrique une table ronde de 80 cm de diamètre. Quelle longueur de bordure doit-il prévoir ?",
+  "lesson": "## Le cercle\n\n### Vocabulaire\n- **Centre** : point situé à égale distance de tous les points du cercle\n- **Rayon** : distance du centre à un point du cercle\n- **Diamètre** : segment passant par le centre (D = 2 × rayon)\n- **Corde** : segment reliant deux points du cercle\n\n### Périmètre du cercle\n**Formule :** P = 2 × π × rayon = π × diamètre\noù π ≈ 3,14\n\n**Exemple :**\nCercle de rayon 5 cm\nP = 2 × 3,14 × 5 = 31,4 cm\n\n### Tangente\nUne **tangente** est une droite qui touche le cercle en un seul point.\nLa tangente est perpendiculaire au rayon en ce point.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Diamètre = 2 × rayon",
+    "Périmètre = π × diamètre",
+    "π ≈ 3,14",
+    "Tangente ⊥ rayon"
+  ],
+  "exercise": {
+    "answer": "\n**Solution :**\nP = π × diamètre\nP = 3,14 × 10 = 31,4 cm\n\n**Réponse : 31,4 cm**\n        ",
+    "question": "Un cercle a un diamètre de 10 cm. Calcule son périmètre. (π ≈ 3,14)"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Si le rayon est 6 cm, le diamètre est :",
+      "options": [
+        "3 cm",
+        "6 cm",
+        "12 cm",
+        "18 cm"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "La tangente et le rayon sont :",
+      "options": [
+        "Parallèles",
+        "Perpendiculaires",
+        "Confondus",
+        "Sécants"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-maths-1-mv9zpgv4",
+      "type": "mcq",
+      "prompt": "Pour la table ronde de 80 cm de diamètre mentionnée dans la situation, quelle est la longueur exacte de la bordure nécessaire, exprimée en fonction de $\\pi$ ?",
+      "options": [
+        "$40\\pi$ cm",
+        "$80\\pi$ cm",
+        "$160\\pi$ cm",
+        "$20\\pi$ cm"
+      ],
+      "answer": 1,
+      "explanation": "La longueur de la bordure correspond au périmètre du cercle. La formule est $P = \\pi \\times d$. Avec un diamètre $d = 80$ cm, on obtient $P = 80\\pi$ cm."
+    },
+    {
+      "id": "auto-maths-2-mv9zpgv4",
+      "type": "mcq",
+      "prompt": "Si l'artisan utilise l'approximation $\\pi \\approx 3,14$, quelle est la longueur numérique de la bordure pour la table de 80 cm de diamètre ?",
+      "options": [
+        "$251,2$ cm",
+        "$125,6$ cm",
+        "$502,4$ cm",
+        "$62,8$ cm"
+      ],
+      "answer": 0,
+      "explanation": "En utilisant la formule $P = \\pi \\times d$ avec $\\pi \\approx 3,14$ et $d = 80$, le calcul est $3,14 \\times 80 = 251,2$ cm."
+    },
+    {
+      "id": "auto-maths-3-mv9zpgv4",
+      "type": "mcq",
+      "prompt": "Soit un cercle de centre $O$ et de rayon $R$. Une tangente au cercle en un point $T$ forme un triangle rectangle $OTM$ avec un point $M$ sur la tangente tel que $OM = 2R$. Quelle est la mesure de l'angle $\\angle OMT$ ?",
+      "options": [
+        "$30^\\circ$",
+        "$45^\\circ$",
+        "$60^\\circ$",
+        "$90^\\circ$"
+      ],
+      "answer": 0,
+      "explanation": "Le triangle $OTM$ est rectangle en $T$ car la tangente est perpendiculaire au rayon $OT$. On a l'hypoténuse $OM = 2R$ et le côté adjacent à l'angle $M$ est $TM$ (inconnu), mais le côté opposé à l'angle $M$ est $OT = R$. En utilisant le sinus : $\\sin(\\angle OMT) = \\frac{OT}{OM} = \\frac{R}{2R} = \\frac{1}{2}$. L'angle dont le sinus est $0,5$ est $30^\\circ$."
+    },
+    {
+      "id": "auto-maths-4-mv9zpgv4",
+      "type": "mcq",
+      "prompt": "Deux cercles de rayons respectifs $3$ cm et $5$ cm sont tangents extérieurement. Quelle est la distance entre leurs centres ?",
+      "options": [
+        "$2$ cm",
+        "$8$ cm",
+        "$15$ cm",
+        "$10$ cm"
+      ],
+      "answer": 1,
+      "explanation": "Pour deux cercles tangents extérieurement, la distance entre leurs centres est égale à la somme de leurs rayons. Donc, $d = r_1 + r_2 = 3 + 5 = 8$ cm."
+    },
+    {
+      "id": "auto-maths-5-mv9zpgv4",
+      "type": "mcq",
+      "prompt": "Si le périmètre d'un cercle est de $12,56$ cm et que l'on prend $\\pi \\approx 3,14$, quel est le rayon de ce cercle ?",
+      "options": [
+        "$2$ cm",
+        "$4$ cm",
+        "$6$ cm",
+        "$8$ cm"
+      ],
+      "answer": 0,
+      "explanation": "La formule du périmètre est $P = 2\\pi r$. On a $12,56 = 2 \\times 3,14 \\times r$. Donc $12,56 = 6,28 \\times r$. En divisant par $6,28$, on trouve $r = \\frac{12,56}{6,28} = 2$ cm."
+    }
+  ]
+}

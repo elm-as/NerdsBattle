@@ -1,0 +1,46 @@
+{
+  "id": "maths-cinquieme-statistique-population-caractere-modalite",
+  "title": "Statistique : population, caractère, modalité",
+  "summary": "Le directeur d'une école veut étudier les moyens de transport des 200 élèves. Comment organiser cette enquête statistique ?",
+  "lesson": "## Vocabulaire statistique\n\n### Population\nLa **population** est l'ensemble sur lequel porte l'étude.\n\n**Exemple :** Les 200 élèves de l'école\n\n### Caractère\nLe **caractère** est la propriété étudiée sur la population.\n\n**Types de caractères :**\n- **Quantitatif** : s'exprime par un nombre (âge, taille, nombre d'enfants)\n- **Qualitatif** : ne s'exprime pas par un nombre (couleur préférée, moyen de transport, sport favori)\n\n**Exemple :** Le moyen de transport (caractère qualitatif)\n\n### Modalité\nLes **modalités** sont les différentes valeurs que peut prendre le caractère.\n\n**Exemple :**\n- Caractère : Moyen de transport\n- Modalités : À pied, Vélo, Bus, Voiture, Taxi\n\n### Tableau statistique\n\n| Moyen de transport | Effectif |\n|--------------------|----------|\n| À pied             | 80       |\n| Vélo               | 40       |\n| Bus                | 50       |\n| Voiture            | 20       |\n| Taxi               | 10       |\n| **Total**          | **200**  |\n\n## Diagrammes\n\n### Diagramme en bâtons\nPour représenter des données **discrètes** (nombres entiers).\n- Axe horizontal : modalités\n- Axe vertical : effectifs\n- Trait vertical pour chaque valeur\n\n### Diagramme à bandes\nPour représenter des données **qualitatives** ou **discrètes**.\n- Bandes horizontales ou verticales\n- Longueur proportionnelle à l'effectif\n- Permet de comparer facilement\n\n**Exemple :** Le diagramme à bandes montre clairement que \"À pied\" est le moyen le plus utilisé (bande la plus longue).",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Population = ensemble étudié",
+    "Caractère = propriété étudiée",
+    "Modalités = valeurs possibles du caractère",
+    "Diagramme en bâtons : données discrètes",
+    "Diagramme à bandes : données qualitatives"
+  ],
+  "exercise": {
+    "answer": "\n**Solution :**\n- **Population** : Les 30 élèves\n- **Caractère** : Sport préféré (qualitatif)\n- **Modalités** : Foot, Basket, Natation\n\n**Réponse : Population = 30 élèves, Caractère = sport préféré, Modalités = Foot, Basket, Natation**\n        ",
+    "question": "Dans une enquête sur les sports préférés de 30 élèves, on trouve : Foot (12), Basket (10), Natation (8). Identifie la population, le caractère et les modalités."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Le caractère 'âge' est :",
+      "options": [
+        "Qualitatif",
+        "Quantitatif",
+        "Une modalité",
+        "Une population"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Les différentes valeurs d'un caractère s'appellent :",
+      "options": [
+        "Populations",
+        "Effectifs",
+        "Modalités",
+        "Fréquences"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

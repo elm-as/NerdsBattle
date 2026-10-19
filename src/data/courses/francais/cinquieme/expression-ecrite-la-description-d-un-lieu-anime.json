@@ -1,0 +1,97 @@
+{
+  "id": "francais-cinquieme-expression-ecrite-la-description-d-un-lieu-anime",
+  "title": "Expression écrite : La description d'un lieu animé",
+  "summary": "Les élèves décrivent le marché de leur commune après une visite.",
+  "lesson": "## La description d'un lieu animé\n\n### Composantes à décrire\n- Le décor (éléments fixes)\n- Les personnes présentes\n- Les actions et mouvements\n- L'atmosphère (sons, odeurs)\n\n### Organisation spatiale\n- Indicateurs : au centre, à gauche, à droite, au fond\n- Ordre logique\n- Solliciter les 5 sens\n\n### Outils\n- Verbes de mouvement\n- Adjectifs descriptifs\n- Comparaisons\n- Temps : imparfait ou présent",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Décor, personnes, actions, atmosphère",
+    "Organisation spatiale avec indicateurs",
+    "Solliciter les 5 sens",
+    "Vocabulaire riche et varié"
+  ],
+  "exercise": {
+    "answer": "La cour s'anime pendant la récréation. Au centre, des élèves jouent au ballon. À gauche, des filles sautent à la corde. À droite, certains discutent sous l'arbre. Partout résonnent des rires joyeux.",
+    "question": "Décris en 5 lignes la cour de récréation en utilisant 3 indicateurs spatiaux."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Dans une description, les indicateurs spatiaux servent à :",
+      "options": [
+        "Conjuguer",
+        "Situer dans l'espace",
+        "Comparer",
+        "Nier"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-francais-1-mv9jlpq0",
+      "type": "mcq",
+      "prompt": "Lors de la rédaction d'une description d'un lieu animé comme le marché, quel temps verbal est généralement privilégié pour donner une impression de durée et de simultanéité des actions, tout en restant dans le registre de la narration descriptive ?",
+      "options": [
+        "Le passé composé",
+        "L'imparfait",
+        "Le futur simple",
+        "Le plus-que-parfait"
+      ],
+      "answer": 1,
+      "explanation": "L'imparfait est le temps de référence pour la description car il exprime la durée, la simultanéité et l'habitude. Il permet de peindre le décor et les actions en cours sans marquer de début ou de fin précis, contrairement au passé composé qui marque l'achèvement."
+    },
+    {
+      "id": "auto-francais-2-mv9jlpq0",
+      "type": "mcq",
+      "prompt": "Pour structurer spatialement la description du marché et guider le regard du lecteur, quel groupe de mots constitue des indicateurs de positionnement corrects ?",
+      "options": [
+        "Ensuite, puis, enfin, d'abord",
+        "Au centre, à gauche, à droite, au fond",
+        "Malgré, cependant, donc, or",
+        "Parce que, comme, puisque, afin que"
+      ],
+      "answer": 1,
+      "explanation": "Les indicateurs spatiaux (au centre, à gauche, etc.) servent à organiser la description dans l'espace. Les autres options correspondent respectivement à des connecteurs temporels, logiques et causaux, qui ne structurent pas la position physique des éléments."
+    },
+    {
+      "id": "auto-francais-3-mv9jlpq0",
+      "type": "mcq",
+      "prompt": "Dans le but de rendre la description du marché vivante et immersive, quelle catégorie de sens doit être sollicitée en priorité pour décrire l'atmosphère sonore et olfactive du lieu ?",
+      "options": [
+        "La vue et le toucher",
+        "L'ouïe et l'odorat",
+        "Le goût et la vue",
+        "Le toucher et l'ouïe"
+      ],
+      "answer": 1,
+      "explanation": "L'atmosphère d'un lieu animé est souvent définie par les bruits (cri des vendeurs, brouhaha) qui relèvent de l'ouïe, et les senteurs (épices, fruits) qui relèvent de l'odorat. Ces deux sens sont essentiels pour créer l'ambiance décrite dans la leçon."
+    },
+    {
+      "id": "auto-francais-4-mv9jlpq0",
+      "type": "mcq",
+      "prompt": "Pour dynamiser la description des personnes présentes au marché, quel type de vocabulaire est le plus approprié pour exprimer leurs déplacements et activités ?",
+      "options": [
+        "Des adjectifs qualificatifs statiques",
+        "Des verbes de mouvement",
+        "Des noms propres",
+        "Des adverbes de négation"
+      ],
+      "answer": 1,
+      "explanation": "Les verbes de mouvement (courir, marcher, porter, crier) sont les outils principaux pour décrire les actions et les mouvements des personnages, ce qui donne vie à la scène. Les adjectifs statiques décrivent l'état, pas l'action."
+    },
+    {
+      "id": "auto-francais-5-mv9jlpq0",
+      "type": "mcq",
+      "prompt": "Quelle figure de style est particulièrement efficace pour enrichir la description d'un lieu animé en établissant une ressemblance entre un élément du décor ou une action et un autre élément connu ?",
+      "options": [
+        "La métaphore",
+        "La comparaison",
+        "L'hyperbole",
+        "La personnification"
+      ],
+      "answer": 1,
+      "explanation": "La comparaison (utilisant des mots comme 'comme', 'semblable à', 'tel que') est explicitement listée dans les outils de la leçon. Elle permet d'illustrer une image par une autre, rendant la description plus concrète et imagée (ex: 'le marché grouillait de monde comme une ruche')."
+    }
+  ]
+}

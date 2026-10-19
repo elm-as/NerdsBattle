@@ -1,0 +1,153 @@
+{
+  "id": "physique-terminale-interaction-gravitationnelle",
+  "title": "Interaction gravitationnelle",
+  "summary": "Des élèves de Terminale C du Lycée Scientifique de Yamoussoukro regardent un match de football africain retransmis par satellite. Ils s'interrogent sur le fonctionnement de ces satellites qui semblent immobiles dans le ciel tout en transmettant des signaux sur toute l'Afrique de l'Ouest. Leur professeur leur propose d'étudier les lois de la gravitation qui régissent non seulement la chute des objets sur Terre mais aussi le mouvement des satellites et des planètes, essentiels pour les communications et la mé",
+  "lesson": "## 1. Introduction à la gravitation\n\nLa gravitation est l'une des quatre interactions fondamentales de l'Univers. Elle explique pourquoi les objets tombent sur Terre, pourquoi la Lune tourne autour de la Terre, et pourquoi les planètes tournent autour du Soleil. Cette force universelle a des applications pratiques en Côte d'Ivoire : prévisions météorologiques par satellite, systèmes de géolocalisation pour l'agriculture de précision, et télécommunications pour connecter les régions rurales.\n\n## 2. Loi de l'attraction universelle (Newton, 1687)\n\nDeux corps ponctuels de masses m₁ et m₂, distants de d, s'attirent mutuellement avec une force proportionnelle au produit de leurs masses et inversement proportionnelle au carré de leur distance :\n\n$\\\\overrightarrow{F}_{1/2} = -G \\\\frac{m_1 m_2}{d^2} \\\\overrightarrow{u}_{1\\\\to 2}$\n\nOù :\n- G = 6,67 × 10⁻¹¹ N·m²/kg² (constante de gravitation universelle)\n- $\\\\overrightarrow{u}_{1\\\\to 2}$ : vecteur unitaire dirigé de 1 vers 2\n- Le signe négatif indique que la force est attractive\n\nPour des corps à répartition sphérique de masse, la formule reste valable en prenant d comme distance entre leurs centres.\n\n## 3. Champ de gravitation\n\nLe champ de gravitation $\\\\overrightarrow{g}$ créé par une masse M en un point de l'espace est la force gravitationnelle qu'exercerait cette masse sur une masse unitaire placée en ce point :\n\n$\\\\overrightarrow{g} = \\\\frac{\\\\overrightarrow{F}}{m} = -G \\\\frac{M}{d^2} \\\\overrightarrow{u}$\n\nÀ la surface de la Terre (rayon Rₜ ≈ 6370 km, masse Mₜ ≈ 5,97 × 10²⁴ kg) :\n\n$g_0 = G \\\\frac{M_T}{R_T^2} \\\\approx 9,8\\\\ \\\\text{N/kg} = 9,8\\\\ \\\\text{m/s}^2$\n\nÀ une altitude h au-dessus de la surface : $g(h) = G \\\\frac{M_T}{(R_T + h)^2}$\n\n**Description du schéma 1: Champ de gravitation terrestre**\nReprésenter la Terre comme une sphère au centre. Tracer des vecteurs champ de gravitation $\\\\overrightarrow{g}$ radialement vers le centre de la Terre. Montrer que ces vecteurs sont plus longs près de la surface (g plus intense) et plus courts à haute altitude. Ajouter un satellite en orbite avec sa trajectoire circulaire. Indiquer R_T (rayon terrestre) et h (altitude). Légender : \"$\\\\overrightarrow{g}$ : vecteur champ de gravitation\", \"Intensité décroît avec l'altitude : $g(h) = G\\\\frac{M_T}{(R_T+h)^2}$\".\n\n## 4. Mouvement des satellites\n\n### 4.1. Nature du mouvement\nUn satellite en orbite autour de la Terre a un mouvement circulaire uniforme (en première approximation) dont le centre est le centre de la Terre. La force gravitationnelle joue le rôle de force centripète.\n\n### 4.2. Caractéristiques du mouvement\nPour un satellite en orbite circulaire à l'altitude h :\n\n- Force gravitationnelle = force centripète : $G \\\\frac{M_T m}{(R_T + h)^2} = m \\\\frac{v^2}{R_T + h}$\n\n- Vitesse linéaire : $v = \\\\sqrt{\\\\frac{GM_T}{R_T + h}}$\n\n- Période de révolution T : temps pour faire un tour complet\n$T = \\\\frac{2\\\\pi(R_T + h)}{v} = 2\\\\pi \\\\sqrt{\\\\frac{(R_T + h)^3}{GM_T}}$\n\n- Vitesse angulaire : $\\\\omega = \\\\frac{2\\\\pi}{T} = \\\\sqrt{\\\\frac{GM_T}{(R_T + h)^3}}$\n\n## 5. Troisième loi de Kepler\n\nPour un satellite en orbite autour d'un corps céleste, le carré de la période de révolution est proportionnel au cube du rayon de l'orbite :\n\n$\\\\frac{T^2}{a^3} = \\\\frac{4\\\\pi^2}{GM}$ (pour une orbite circulaire, a = rayon)\n\nOù M est la masse du corps central.\n\nCette loi permet de déterminer la masse d'une planète à partir de l'observation des mouvements de ses satellites.\n\n## 6. Satellites géostationnaires\n\n### 6.1. Définition\nUn satellite géostationnaire est un satellite qui :\n1. Tourne dans le plan équatorial\n2. Tourne dans le même sens que la rotation de la Terre (d'ouest en est)\n3. A une période de révolution égale à la période de rotation de la Terre (23h 56min 4s)\n4. Semble donc immobile pour un observateur terrestre\n\n### 6.2. Altitude des satellites géostationnaires\nDe $T = 2\\\\pi \\\\sqrt{\\\\frac{(R_T + h)^3}{GM_T}}$ avec T = 86164 s (période sidérale) :\n\n$(R_T + h)^3 = \\\\frac{GM_T T^2}{4\\\\pi^2}$\n\n$h = \\\\sqrt[3]{\\\\frac{GM_T T^2}{4\\\\pi^2}} - R_T \\\\approx 35\\\\ 786\\\\ \\\\text{km}$\n\n**Description du schéma 2: Orbites des satellites**\nReprésenter la Terre avec son équateur. Tracer trois types d'orbites: 1) Orbite basse (h ≈ 400-2000 km) circulaire passant près des pôles. 2) Orbite géostationnaire (h ≈ 35 786 km) circulaire dans le plan équatorial. 3) Orbite elliptique. Montrer que le satellite géostationnaire reste au-dessus du même point de l'équateur. Indiquer les altitudes caractéristiques. Légender: \"Orbite basse: satellites d'observation\", \"Orbite géostationnaire: satellites de télécommunication\", \"Période géostationnaire: T = 23h56min4s\".\n\n## 7. Applications des satellites géostationnaires\n\nEn Côte d'Ivoire, les satellites géostationnaires sont utilisés pour :\n1. Télécommunications (téléphonie, internet, radio, TV)\n2. Météorologie (prévisions, surveillance des cyclones)\n3. Navigation (système GPS complémentaire)\n4. Surveillance environnementale (déforestation, feux de brousse)\n\nLe pays bénéficie notamment des satellites de la flotte Météosat pour les prévisions agricoles et des satellites de télécommunications pour connecter les zones rurales.\n\n## 8. Notion d'impesanteur\n\nL'impesanteur (ou apesanteur) est l'état d'un corps pour lequel les forces de gravitation sont exactement compensées par les forces d'inertie. Dans un satellite en orbite :\n\n- La force gravitationnelle est la seule force subie\n- Cette force sert de force centripète pour le mouvement circulaire\n- À l'intérieur du satellite, tous les objets subissent la même accélération\n- Un objet lâché ne tombe pas car il suit la même trajectoire que le satellite\n\nCe n'est pas l'absence de gravité mais l'état de chute libre permanente.\n\n## 9. Calcul de la masse d'une planète\n\nÀ partir de la troisième loi de Kepler appliquée à un satellite naturel ou artificiel :\n\n$M = \\\\frac{4\\\\pi^2 a^3}{GT^2}$\n\nExemple : Pour la Lune (T = 27,3 jours, a = 384 400 km) :\n$M_T = \\\\frac{4\\\\pi^2 (3,844\\\\times10^8)^3}{6,67\\\\times10^{-11} \\\\times (27,3\\\\times24\\\\times3600)^2} \\\\approx 6,0\\\\times10^{24}\\\\ \\\\text{kg}$\n\n## 10. Applications en contexte ivoirien\n\n- Calcul de trajectoires pour les lancements depuis le Centre Spatial de Kourou (Guyane française)\n- Utilisation des données satellitaires pour l'agriculture de précision\n- Surveillance des ressources en eau et des zones côtières\n- Prévisions météorologiques pour l'agriculture et la pêche\n- Télé-enseignement dans les zones rurales via satellite\n\n**Description du schéma 3: Principe de l'impesanteur dans un satellite**\nReprésenter un satellite en orbite circulaire autour de la Terre. À l'intérieur du satellite, dessiner un astronaute et divers objets flottant librement. Montrer que tous ces objets suivent la même trajectoire que le satellite. Tracer la force gravitationnelle $\\\\overrightarrow{F}_g$ sur le satellite et sur chaque objet à l'intérieur. Expliquer que tous subissent la même accélération centripète. Légender: \"État d'impesanteur = chute libre permanente\", \"Tous les objets ont la même accélération $\\\\overrightarrow{a} = \\\\overrightarrow{g}$\", \"Pas de force de contact avec le plancher\".",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Loi de Newton : F = G·m₁m₂/d² (force attractive)",
+    "Champ de gravitation : g = G·M/d² dirigé vers la masse source",
+    "Pour un satellite circulaire : v = √(GM/(R+h)), T = 2π√((R+h)³/GM)",
+    "3ème loi de Kepler : T²/a³ = 4π²/(GM) pour un corps central de masse M",
+    "Satellite géostationnaire : orbite équatoriale, T = 23h56min4s, h ≈ 35 786 km",
+    "L'impesanteur est un état de chute libre, pas l'absence de gravité",
+    "g à la surface de la Terre : g₀ ≈ 9,8 m/s², diminue avec l'altitude",
+    "On peut calculer la masse d'une planète avec la 3ème loi de Kepler"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la valeur de la constante de gravitation universelle G ?",
+      "options": [
+        "6,67 × 10⁻¹¹ N·m²/kg²",
+        "9,81 N/kg",
+        "6,67 × 10¹¹ N·m²/kg²",
+        "3,00 × 10⁸ m/s"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La force gravitationnelle entre deux masses :",
+      "options": [
+        "Est proportionnelle au carré de la distance",
+        "Est inversement proportionnelle à la distance",
+        "Est inversement proportionnelle au carré de la distance",
+        "Est indépendante de la distance"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "L'altitude d'un satellite géostationnaire est d'environ :",
+      "options": [
+        "200 km",
+        "2000 km",
+        "35 800 km",
+        "384 000 km"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "La période d'un satellite géostationnaire est :",
+      "options": [
+        "1 heure",
+        "12 heures",
+        "24 heures",
+        "1 mois"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Selon la troisième loi de Kepler :",
+      "options": [
+        "T³/a² = constante",
+        "T²/a³ = constante",
+        "T/a = constante",
+        "T·a² = constante"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "L'état d'impesanteur dans un satellite en orbite est dû au fait que :",
+      "options": [
+        "Il n'y a pas de gravité",
+        "La gravité est très faible",
+        "Le satellite et tout son contenu sont en chute libre",
+        "La force centrifuge compense exactement le poids"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "La vitesse d'un satellite en orbite circulaire :",
+      "options": [
+        "Augmente avec l'altitude",
+        "Diminue avec l'altitude",
+        "Est indépendante de l'altitude",
+        "Est maximale à l'altitude géostationnaire"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Pour qu'un satellite paraisse immobile depuis la Terre, il faut que :",
+      "options": [
+        "Il soit très loin",
+        "Sa période soit égale à la période de rotation terrestre",
+        "Il soit à l'arrêt",
+        "Il soit sur une orbite polaire"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "À la surface de la Terre, g₀ ≈ 9,8 m/s². À une altitude de 3Rₜ (rayon terrestre), g vaut environ :",
+      "options": [
+        "9,8 m/s²",
+        "2,45 m/s²",
+        "0,61 m/s²",
+        "0,15 m/s²"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "La formule de la vitesse d'un satellite en orbite circulaire est :",
+      "options": [
+        "v = √(GM/R)",
+        "v = GM/R²",
+        "v = 2πR/T",
+        "v = gR"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

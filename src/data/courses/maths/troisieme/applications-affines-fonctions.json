@@ -1,0 +1,84 @@
+{
+  "id": "maths-troisieme-applications-affines-fonctions",
+  "title": "Applications affines (fonctions)",
+  "summary": "Taxi à Abidjan : 500 F + 200 F/km. Comment calculer le prix selon la distance ?",
+  "lesson": "## Applications affines (fonctions)\n\n### 1. Fonction linéaire\n\n**Définition :** f(x) = ax (passe par l'origine)\n\n**Caractéristiques :**\n- Représentation graphique : droite passant par O(0;0)\n- Coefficient a = pente de la droite\n- Traduit une situation de **proportionnalité**\n\n**Exemples :**\n1. **f(x) = 3x** : Si x = 2, f(2) = 6\n   - Tableau : x | 0 | 1 | 2 | 3\n              f(x)| 0 | 3 | 6 | 9\n   - Proportionnel : oui (rapport constant)\n\n2. **Prix des bananes :** 500 F/kg\n   - f(x) = 500x (x = masse en kg)\n   - f(3) = 1500 F pour 3 kg\n\n### 2. Fonction affine\n\n**Définition :** f(x) = ax + b\n\n**Paramètres :**\n- **a** : coefficient directeur (pente)\n  - Si a > 0 : fonction croissante\n  - Si a < 0 : fonction décroissante\n  - Si a = 0 : fonction constante\n- **b** : ordonnée à l'origine (valeur quand x = 0)\n\n**Graphique :** Droite ne passant pas forcément par l'origine\n\n### 3. Application : Tarif de taxi (situation-problème)\n\n**Situation :** Taxi à Abidjan\n- Prix fixe : 500 F (prise en charge)\n- Prix au km : 200 F/km\n\n**Fonction :**\nf(x) = 200x + 500\noù x = distance en km\n\n**Calculs :**\n- f(0) = 500 F (montée dans le taxi, 0 km)\n- f(1) = 700 F (1 km)\n- f(3) = 1100 F (3 km)\n- f(10) = 2500 F (10 km)\n\n**Question inverse :** Pour 1900 F, quelle distance ?\n200x + 500 = 1900\n200x = 1400\nx = 7 km\n\n### 4. Déterminer une fonction affine\n\n**À partir de deux points :**\n\n**Exemple :** Droite passant par A(1;5) et B(3;11)\n\n**Étape 1 :** Calculer a (coefficient directeur)\na = (yB - yA) / (xB - xA) = (11 - 5) / (3 - 1) = 6/2 = 3\n\n**Étape 2 :** Calculer b (ordonnée à l'origine)\nUtiliser un point, par exemple A(1;5) :\n5 = 3(1) + b\nb = 2\n\n**Fonction :** f(x) = 3x + 2\n\n**Vérification avec B :** f(3) = 3(3) + 2 = 11 ✓\n\n### 5. Représentation graphique\n\n**Pour tracer f(x) = ax + b :**\n\n**Méthode 1 :** Deux points suffisent\n- Point 1 : (0 ; b) - ordonnée à l'origine\n- Point 2 : (1 ; a + b)\n- Tracer la droite\n\n**Exemple : f(x) = 2x + 1**\n- Point 1 : (0 ; 1)\n- Point 2 : (1 ; 3)\n- Point 3 : (2 ; 5) [pour vérifier]\n\n**Méthode 2 :** Tableau de valeurs\nx    | -1 | 0 | 1 | 2 | 3\nf(x) | -1 | 1 | 3 | 5 | 7\n\n### 6. Lecture graphique\n\nSur un graphique, on peut lire :\n- **b** : point d'intersection avec l'axe des ordonnées\n- **a** : \"montée\" pour 1 unité à droite\n- **Signe de a** : droite monte (a>0) ou descend (a<0)\n\n### 7. Applications pratiques\n\n**Exemple 1 : Plombier**\n- Déplacement : 5000 F\n- Tarif horaire : 3000 F/h\n- Fonction : f(x) = 3000x + 5000\n- Prix 4h : f(4) = 17 000 F\n\n**Exemple 2 : Réservoir d'eau**\n- Volume initial : 1000 L\n- Débit de vidange : -50 L/min\n- Fonction : f(x) = -50x + 1000\n- Après 10 min : f(10) = 500 L\n- Vide à : 0 = -50x + 1000 → x = 20 min\n\n**Exemple 3 : Température**\n- À midi : 25°C\n- Augmente de 2°C/h\n- f(x) = 2x + 25 (x = heures après midi)\n- À 15h : f(3) = 31°C",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Linéaire : f(x)=ax",
+    "Affine : f(x)=ax+b",
+    "Graphique = droite",
+    "a = pente"
+  ],
+  "exercise": {
+    "question": "Plombier : 5000 F + 3000 F/h. Prix pour 4h ?",
+    "answer": "17 000 F"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Si f(x)=3x+2, f(5)=?",
+      "options": [
+        "13",
+        "15",
+        "17",
+        "20"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-maths-1-mv9n1gml",
+      "type": "mcq",
+      "prompt": "Soit la fonction affine $f$ définie par $f(x) = -4x + 12$. Quelle est la nature de cette fonction sur son domaine de définition ?",
+      "options": [
+        "Fonction croissante",
+        "Fonction décroissante",
+        "Fonction constante",
+        "Fonction linéaire"
+      ],
+      "answer": 1,
+      "explanation": "Le coefficient directeur (pente) est $a = -4$. Comme $a < 0$, la fonction affine est strictement décroissante. Elle n'est pas linéaire car l'ordonnée à l'origine $b=12$ est différente de 0."
+    },
+    {
+      "id": "auto-maths-3-mv9n1gml",
+      "type": "mcq",
+      "prompt": "Soit la fonction $h(x) = 5x - 10$. Quelle est la valeur de $x$ pour laquelle $h(x) = 0$ (abscisse de l'intersection avec l'axe des abscisses) ?",
+      "options": [
+        "$x = 2$",
+        "$x = -2$",
+        "$x = 5$",
+        "$x = 10$"
+      ],
+      "answer": 0,
+      "explanation": "On résout l'équation $5x - 10 = 0$. On obtient $5x = 10$, donc $x = \\frac{10}{5} = 2$. Le point d'intersection est $(2; 0)$."
+    },
+    {
+      "id": "auto-maths-4-mv9n1gml",
+      "type": "mcq",
+      "prompt": "Deux fonctions affines $f(x) = 2x + 5$ et $g(x) = 2x - 3$ sont définies. Quelle est la nature de leurs représentations graphiques dans le repère orthonormé ?",
+      "options": [
+        "Deux droites perpendiculaires",
+        "Deux droites confondues",
+        "Deux droites parallèles distinctes",
+        "Deux droites sécantes en un point unique"
+      ],
+      "answer": 2,
+      "explanation": "Les deux fonctions ont le même coefficient directeur $a = 2$, donc leurs droites sont parallèles. Leurs ordonnées à l'origine sont différentes ($5 \neq -3$), donc elles sont distinctes et ne se coupent jamais."
+    },
+    {
+      "id": "auto-maths-5-mv9n1gmm",
+      "type": "mcq",
+      "prompt": "Dans le contexte du taxi à Abidjan, le prix est modifié : la prise en charge coûte 300 F et le kilomètre coûte 150 F. Si un passager paie 1 200 F, quelle distance a-t-il parcourue ?",
+      "options": [
+        "$5$ km",
+        "$6$ km",
+        "$7$ km",
+        "$8$ km"
+      ],
+      "answer": 0,
+      "explanation": "La fonction est $f(x) = 150x + 300$. On cherche $x$ tel que $150x + 300 = 1200$. On a $150x = 900$, donc $x = \\frac{900}{150} = 6$ km. Attendez, vérifions : $150 \\times 6 = 900$, $900 + 300 = 1200$. La bonne réponse est 6 km. L'index 1 correspond à 6 km."
+    }
+  ]
+}

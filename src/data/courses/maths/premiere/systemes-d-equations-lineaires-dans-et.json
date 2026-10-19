@@ -1,0 +1,72 @@
+{
+  "id": "maths-premiere-systemes-d-equations-lineaires-dans-et",
+  "title": "Systèmes d'équations linéaires dans ℝ² et ℝ³",
+  "summary": "Trois élèves d'Abidjan étudient un mélange gazeux dans un eudiomètre. Le mélange initial (méthane, acétylène, oxygène) occupe 70 cm³. Après réaction, on obtient 30 cm³ de CO₂ et 10 cm³ d'O₂. Comment retrouver les volumes initiaux de chaque gaz ?",
+  "lesson": "## 1. Système de deux équations à deux inconnues\n\nUn système linéaire de deux équations à deux inconnues s'écrit :\n$$\\\\begin{cases} a_1x + b_1y = c_1 \\\\\\\\ a_2x + b_2y = c_2 \\\\end{cases}$$\noù $a_1, b_1, c_1, a_2, b_2, c_2 \\\\in \\\\mathbb{R}$.\n\n## 2. Déterminant du système\n\nOn appelle **déterminant** du système le nombre :\n$$D = a_1b_2 - a_2b_1$$\n\n**Exemple** : Pour $\\\\begin{cases} 2x + 3y = 5 \\\\\\\\ x - y = 1 \\\\end{cases}$,\\\\ on a $D = 2 \\\times (-1) - 1 \\\times 3 = -2 - 3 = -5$.\n\n## 3. Résolution par le déterminant (si D ≠ 0)\n\nSi $D \\\neq 0$, le système admet une **solution unique** :\n$$x = \\\\frac{c_1b_2 - c_2b_1}{D}, \\\\quad y = \\\\frac{a_1c_2 - a_2c_1}{D}$$\n\n**Application** : Résoudre le système ci-dessus.\n\n## 4. Interprétation géométrique\n\nDans ℝ², chaque équation représente une droite.\n- Si $D \\\neq 0$ : les droites sont sécantes (solution unique = point d'intersection).\n- Si $D = 0$ : les droites sont parallèles (soit aucune solution, soit une infinité si elles sont confondues).\n\n## 5. Système de trois équations à trois inconnues\n\nForme générale :\n$$\\\\begin{cases} a_1x + b_1y + c_1z = d_1 \\\\\\\\ a_2x + b_2y + c_2z = d_2 \\\\\\\\ a_3x + b_3y + c_3z = d_3 \\\\end{cases}$$\n\n## 6. Méthode de substitution\n\n1. Exprimer une inconnue en fonction des autres à partir d'une équation.\n2. Remplacer dans les autres équations.\n3. Se ramener à un système 2×2, puis résoudre.\n\n**Exemple** : Résoudre $\\\\begin{cases} x + y + z = 6 \\\\\\\\ 2x - y + z = 3 \\\\\\\\ x + 2y - z = 2 \\\\end{cases}$\n\n## 7. Méthode du pivot de Gauss\n\nC'est une méthode organisée par combinaisons linéaires pour échelonner le système.\n\n**Principe** :\n1. Choisir un \"pivot\" (coefficient non nul).\n2. Éliminer l'inconnue correspondante des autres lignes.\n3. Répéter sur le sous-système restant.\n\n## 8. Applications concrètes en Côte d'Ivoire\n\n- Répartition de budgets entre communes (Daloa, Man, Korhogo).\n- Mélanges de produits agricoles (cacao, café, noix de cajou).\n- Problèmes de dosage en chimie (lycées techniques).\n\n**Exemple** : Un coopérative de cacao à Soubré vend deux types de fèves : type A à 1200 F/kg, type B à 800 F/kg. Un client achète 50 kg pour 52 000 F. Combien de kg de chaque type ?",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Le déterminant D = a₁b₂ - a₂b₁ détermine l'unicité de la solution pour un système 2×2",
+    "Si D ≠ 0 : solution unique ; si D = 0 : soit aucune solution, soit une infinité",
+    "La méthode de substitution consiste à isoler une variable et remplacer",
+    "La méthode du pivot de Gauss organise les combinaisons linéaires pour échelonner",
+    "Un système 3×3 peut avoir une solution unique, aucune solution, ou une infinité de solutions"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Pour le système { 3x + 2y = 5 ; x - y = 0 }, quel est son déterminant D ?",
+      "options": [
+        "D = 1",
+        "D = -5",
+        "D = 5",
+        "D = -1"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Si D = 0 pour un système 2×2, que peut-on dire ?",
+      "options": [
+        "Il a toujours une infinité de solutions",
+        "Il n'a jamais de solution",
+        "Il a soit aucune solution, soit une infinité",
+        "Il a toujours une solution unique"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Dans la méthode du pivot de Gauss, que fait-on principalement ?",
+      "options": [
+        "On calcule des déterminants",
+        "On utilise des combinaisons linéaires pour échelonner",
+        "On trace des graphiques",
+        "On utilise seulement la substitution"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Combien d'équations et d'inconnues dans un système de ℝ³ ?",
+      "options": [
+        "2 équations, 3 inconnues",
+        "3 équations, 3 inconnues",
+        "3 équations, 2 inconnues",
+        "Cela varie"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

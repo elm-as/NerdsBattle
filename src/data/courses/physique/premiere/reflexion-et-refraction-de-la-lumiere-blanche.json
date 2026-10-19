@@ -1,0 +1,150 @@
+{
+  "id": "physique-premiere-reflexion-et-refraction-de-la-lumiere-blanche",
+  "title": "REFLEXION ET REFRACTION DE LA LUMIERE BLANCHE",
+  "summary": "Le professeur de Physique-Chimie du Lycée Municipal de Sikensi montre à ses élèves une image des jeux de lumière spectaculaires à l'ouverture des Jeux Olympiques de Londres. Émerveillés par les figures formées et les couleurs, les élèves veulent comprendre comment la lumière peut être dirigée, déviée et séparée. Ils décident d'étudier les phénomènes de réflexion et réfraction qui expliquent les arcs-en-ciel, les mirages dans le désert ivoirien, et le fonctionnement des fibres optiques utilisées dans les tél",
+  "lesson": "## 1. Introduction\n\nLa réflexion et la réfraction sont deux phénomènes fondamentaux qui se produisent quand la lumière rencontre une surface séparant deux milieux transparents. Ces phénomènes sont omniprésents dans la vie quotidienne en Côte d'Ivoire : reflets dans les vitres des buildings d'Abidjan, mirages sur les routes chaudes en saison sèche, arcs-en-ciel après les pluies tropicales, et la transmission d'Internet par fibre optique.\n\n## 2. Réflexion de la lumière\n\n### 2.1 Définitions\n- **Rayon incident** : rayon arrivant sur la surface\n- **Rayon réfléchi** : rayon repartant après réflexion\n- **Angle d'incidence i** : angle entre le rayon incident et la normale à la surface\n- **Angle de réflexion r** : angle entre le rayon réfléchi et la normale\n- **Plan d'incidence** : plan contenant le rayon incident et la normale\n\n**Description du schéma 1:** Représenter une surface plane (miroir). Tracer un rayon incident, la normale (pointillé perpendiculaire). Mesurer i et r. Montrer que i = r. Illustrer avec un exemple concret : reflet du soleil sur les vitres de la Cathédrale Saint-Paul d'Abidjan.\n\n### 2.2 Lois de la réflexion (lois de Snell-Descartes)\n1. **Première loi** : Le rayon incident, la normale et le rayon réfléchi sont dans le même plan (plan d'incidence).\n2. **Deuxième loi** : L'angle de réflexion est égal à l'angle d'incidence : $$r = i$$\n\n### 2.3 Types de réflexion\n- **Réflexion spéculaire** : sur surface lisse (miroir), donne une image nette\n- **Réflexion diffuse** : sur surface rugueuse (feuille de papier), diffuse la lumière dans toutes les directions\n\n### 2.4 Applications des miroirs\n- Miroirs plans (salles de bain, rétroviseurs)\n- Miroirs sphériques (phares de voiture, télescopes)\n- Miroirs de sécurité dans les magasins\n\n## 3. Réfraction de la lumière\n\n### 3.1 Définitions\n- **Rayon réfracté** : rayon qui pénètre dans le deuxième milieu\n- **Angle de réfraction r** : angle entre le rayon réfracté et la normale\n- **Indice de réfraction absolu n** : $$n = \\\\frac{c}{v}$$ (c : vitesse dans le vide, v : vitesse dans le milieu)\n\n### 3.2 Lois de la réfraction (lois de Snell-Descartes)\n1. **Première loi** : Le rayon incident, la normale et le rayon réfracté sont dans le même plan.\n2. **Deuxième loi** (loi de Snell) : $$n_1 \\\\sin i = n_2 \\\\sin r$$\n   où n₁ est l'indice du milieu incident, n₂ l'indice du milieu réfringent.\n\n### 3.3 Interprétation\n- Si n₂ > n₁ (milieu plus réfringent) : r < i (rayon se rapproche de la normale)\n- Si n₂ < n₁ (milieu moins réfringent) : r > i (rayon s'éloigne de la normale)\n\n**Description du schéma 2:** Montrer la réfraction air → eau. Rayon incident dans l'air (n₁≈1) avec angle i. Rayon réfracté dans l'eau (n₂=1,33) avec angle r < i. Inversement, eau → air : r > i. Cas limite : lorsque i dépasse l'angle limite, réflexion totale.\n\n## 4. Angle limite et réflexion totale\n\n### 4.1 Angle limite de réfraction\nQuand la lumière passe d'un milieu plus réfringent à un milieu moins réfringent (n₁ > n₂), l'angle de réfraction r peut atteindre au maximum 90°. L'angle d'incidence correspondant est l'angle limite ℓ :\n$$\\\\sin \\\\ell = \\\\frac{n_2}{n_1}$$\n\n### 4.2 Réflexion totale\nQuand i > ℓ, il n'y a plus de rayon réfracté : toute la lumière est réfléchie. C'est la réflexion totale.\n\n### 4.3 Exemple numérique\nPour le passage verre (n₁=1,5) → air (n₂=1) :\n$$\\\\sin \\\\ell = \\\\frac{1}{1,5} = 0,6667$$\n$$\\\\ell = \\\\arcsin(0,6667) \\\\approx 41,8°$$\nPour i > 41,8°, réflexion totale.\n\n## 5. Dispersion de la lumière blanche\n\n### 5.1 Principe\nL'indice de réfraction n dépend de la longueur d'onde λ (c'est la dispersion). En général, n diminue quand λ augmente (matériau normalement dispersif).\n\n### 5.2 Conséquence\nQuand la lumière blanche (mélange de toutes les couleurs) traverse un prisme :\n- Le violet (λ court, n plus grand) est plus dévié que le rouge (λ long, n plus petit)\n- Séparation des couleurs : spectre de la lumière blanche\n\n### 5.3 Arc-en-ciel\nPhénomène dû à la réflexion et réfraction dans les gouttes d'eau. Double arc-en-ciel possible.\n\n**Description du schéma 3:** Montrer la décomposition de la lumière blanche par un prisme. Rayon blanc incident. À la sortie, éventail de couleurs du violet (dévié au maximum) au rouge (dévié au minimum). Indiquer que n(violet) > n(rouge).\n\n## 6. Applications de la réflexion totale\n\n### 6.1 Fibres optiques\nPrincipe : la lumière est guidée par réflexions totales successives à l'intérieur d'une fibre en silice.\n\n**Applications en Côte d'Ivoire :**\n- Télécommunications (réseaux internet haut débit à Abidjan)\n- Endoscopie médicale (hôpitaux)\n- Éclairage décoratif\n- Capteurs\n\n### 6.2 Prismes à réflexion totale\nUtilisés dans les jumelles, périscopes, appareils photo reflex.\n\n### 6.3 Catadioptres\nSur les véhicules et panneaux routiers, ils renvoient la lumière vers sa source.\n\n### 6.4 Mirage\nPhénomène observé sur les routes chaudes : l'air près du sol est moins dense (n plus faible), la lumière subit une réflexion totale, donnant l'illusion d'une flaque d'eau.\n\n## 7. Applications pratiques en contexte ivoirien\n\n### 7.1 Télécommunications par fibre optique\nLe réseau de fibre optique se développe en Côte d'Ivoire, notamment à Abidjan. Avantages : débit élevé, immunité aux perturbations électromagnétiques.\n\n### 7.2 Instruments d'observation\nLes jumelles utilisées dans les réserves naturelles (Parc de la Comoé) utilisent des prismes pour redresser l'image.\n\n### 7.3 Éclairage public\nLes catadioptres sur les bornes kilométriques et panneaux réfléchissent les phares des voitures.\n\n### 7.4 Appareils de mesure\nLes niveaux à bulle utilisent un prisme pour agrandir l'image de la bulle.\n\n## 8. Étude expérimentale\n\n### 8.1 Matériel pour une séance TP\n- Source laser ou lampe avec fente\n- Disque optique gradué\n- Demi-cylindre ou bloc de plexiglas\n- Support\n- Rapporteur\n\n### 8.2 Protocole pour vérifier les lois\n1. Placer le demi-cylindre sur le disque\n2. Diriger le rayon laser vers le centre du disque\n3. Mesurer i et r pour différentes valeurs\n4. Tracer sin i en fonction de sin r : droite passant par l'origine de pente n₂/n₁\n\n### 8.3 Observation de la réflexion totale\n1. Placer la source dans le milieu plus réfringent (plexiglas)\n2. Augmenter progressivement i\n3. Observer que r augmente jusqu'à 90°\n4. Au-delà, plus de rayon réfracté, seulement réflexion\n\n## 9. Calculs pratiques\n\n### 9.1 Calcul d'angle de réfraction\nAir (n₁=1) → eau (n₂=1,33) avec i = 30° :\n$$\\\\sin r = \\\\frac{n_1 \\\\sin i}{n_2} = \\\\frac{1 \\\times \\\\sin 30°}{1,33} = \\\\frac{0,5}{1,33} = 0,376$$\n$$r = \\\\arcsin(0,376) \\\\approx 22,1°$$\n\n### 9.2 Angle limite\nEau (n₁=1,33) → air (n₂=1) :\n$$\\\\sin \\\\ell = \\\\frac{n_2}{n_1} = \\\\frac{1}{1,33} = 0,752$$\n$$\\\\ell = \\\\arcsin(0,752) \\\\approx 48,8°$$\n\n### 9.3 Déplacement latéral dans une vitre\nUne vitre d'épaisseur e = 5 mm, n = 1,5, i = 45° :\n$$\\\\sin r = \\\\frac{\\\\sin i}{n} = \\\\frac{\\\\sin 45°}{1,5} = \\\\frac{0,7071}{1,5} = 0,4714$$\n$$r = \\\\arcsin(0,4714) \\\\approx 28,1°$$\nDéplacement : $$d = e \\\times \\\\frac{\\\\sin(i - r)}{\\\\cos r} = 5 \\\times \\\\frac{\\\\sin(16,9°)}{\\\\cos 28,1°} = 5 \\\times \\\\frac{0,290}{0,882} \\\\approx 1,64 \\\\, \\\text{mm}$$\n\n### 9.4 Fibre optique\nUne fibre en silice : cœur n₁ = 1,48, gaine n₂ = 1,46. Ouverture numérique :\n$$NA = \\\\sqrt{n_1^2 - n_2^2} = \\\\sqrt{1,48^2 - 1,46^2} = \\\\sqrt{2,1904 - 2,1316} = \\\\sqrt{0,0588} = 0,243$$\nAngle d'acceptance maximal dans l'air : $$\\\theta_{max} = \\\\arcsin(NA) = \\\\arcsin(0,243) \\\\approx 14,1°$$\n\n**Description du schéma 4:** Schéma d'une fibre optique. Cœur (n₁) entouré de gaine (n₂ < n₁). Rayon incident dans l'air avec angle θ. Dans la fibre, réflexions totales successives. Montrer l'angle limite et l'angle d'acceptance. Application : connexion Internet à Abidjan.\n\n## 10. Méthodologie de résolution\n\n### 10.1 Pour un problème de réfraction\n1. Identifier les milieux et leurs indices n₁ et n₂\n2. Repérer les angles i et r par rapport à la normale\n3. Appliquer n₁ sin i = n₂ sin r\n4. Résoudre pour l'inconnue\n5. Vérifier la cohérence (r ≤ 90°)\n\n### 10.2 Pour la réflexion totale\n1. Vérifier si n₁ > n₂ (passage vers milieu moins réfringent)\n2. Calculer l'angle limite ℓ : sin ℓ = n₂/n₁\n3. Comparer i avec ℓ\n4. Si i < ℓ : réfraction partielle (appliquer Snell)\n5. Si i > ℓ : réflexion totale (r' = i, lois de la réflexion)\n\n### 10.3 Pour la dispersion\n1. Connaître la variation de n avec λ pour le matériau\n2. Appliquer Snell pour chaque couleur\n3. Calculer les angles de déviation différents\n\n### 10.4 Précautions\n- Toujours mesurer les angles par rapport à la normale\n- Attention au sens de propagation (milieu incident/réfringent)\n- Pour l'arc-en-ciel, c'est la réflexion interne dans les gouttes qui est importante\n- Dans les fibres, l'angle d'incidence doit être inférieur à l'angle d'acceptance",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Lois de la réflexion : i = r, rayons dans le même plan",
+    "Lois de la réfraction : n₁ sin i = n₂ sin r",
+    "Angle limite : sin ℓ = n₂/n₁ (si n₁ > n₂)",
+    "Réflexion totale : se produit quand i > ℓ",
+    "La dispersion sépare les couleurs car n dépend de λ"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "L'angle de réflexion est toujours égal à :",
+      "options": [
+        "90°",
+        "l'angle d'incidence",
+        "l'angle de réfraction",
+        "0°"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La loi de Snell s'écrit :",
+      "options": [
+        "n₁ sin i = n₂ sin r",
+        "n₁ i = n₂ r",
+        "sin i / sin r = constante",
+        "Les première et troisième"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La réflexion totale se produit quand :",
+      "options": [
+        "On passe à un milieu plus réfringent",
+        "i > angle limite",
+        "r > 90°",
+        "n₁ < n₂"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Pour l'air (n=1) → eau (n=1,33), si i=30°, alors r :",
+      "options": [
+        ">30°",
+        "=30°",
+        "<30°",
+        "=0°"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "L'angle limite pour verre (n=1,5) → air est d'environ :",
+      "options": [
+        "30°",
+        "42°",
+        "60°",
+        "90°"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "La dispersion est due au fait que :",
+      "options": [
+        "n dépend de λ",
+        "c dépend du milieu",
+        "i dépend de la couleur",
+        "r dépend de i"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dans une fibre optique, la lumière est guidée par :",
+      "options": [
+        "Réfraction",
+        "Diffraction",
+        "Réflexion totale",
+        "Diffusion"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Un objet sous l'eau semble :",
+      "options": [
+        "Plus profond",
+        "Moins profond",
+        "À la même profondeur",
+        "Déformé seulement"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Le plan contenant rayon incident et normale est :",
+      "options": [
+        "Plan de réflexion",
+        "Plan de réfraction",
+        "Plan d'incidence",
+        "Plan de dispersion"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Pour i=0° (incidence normale) :",
+      "options": [
+        "r=0°",
+        "r=90°",
+        "r=i",
+        "Pas de réfraction"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

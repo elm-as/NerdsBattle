@@ -1,0 +1,109 @@
+{
+  "id": "maths-terminale-integration",
+  "title": "Intégration",
+  "summary": "Pour calculer une aire sous une courbe, on utilise l'intégration. Comment procéder ?",
+  "lesson": "## Intégration\n\n### Primitive\nF est une primitive de f si F' = f\n\n**Primitives usuelles :**\n- ∫ xⁿ dx = xⁿ⁺¹/(n+1) + C (n ≠ −1)\n- ∫ 1/x dx = ln|x| + C\n- ∫ eˣ dx = eˣ + C\n- ∫ cos(x) dx = sin(x) + C\n- ∫ sin(x) dx = −cos(x) + C\n\n### Intégrale définie\n∫[a→b] f(x) dx = [F(x)]ᵇₐ = F(b) − F(a)\n\n**Interprétation :** Aire algébrique sous la courbe\n\n### Propriétés\n- Linéarité : ∫(αf + βg) = α∫f + β∫g\n- Relation de Chasles : ∫[a→c] = ∫[a→b] + ∫[b→c]",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Primitive : fonction dont la dérivée est f",
+    "Intégrale = aire sous la courbe",
+    "Relation de Chasles"
+  ],
+  "exercise": {
+    "question": "**Exercice 1 :** Calcule ∫[0→1] (2x + 1) dx\n\n**Exercice 2 :** Calcule ∫ (3x² + 2x − 1) dx\n\n**Exercice 3 :** Calcule l'aire entre la courbe y = x² et l'axe des abscisses sur [0 ; 2]\n\n**Exercice 4 :** Calcule ∫[1→e] (1/x) dx",
+    "answer": "\n**Solution Exercice 1 :**\nPrimitive : F(x) = x² + x\n∫[0→1] = [x² + x]₀¹ = (1 + 1) − (0 + 0) = 2\n**Réponse : ∫ = 2**\n\n**Solution Exercice 2 :**\n∫ (3x² + 2x − 1) dx = x³ + x² − x + C\n**Réponse : x³ + x² − x + C**\n\n**Solution Exercice 3 :**\nA = ∫[0→2] x² dx = [x³/3]₀²\n= 8/3 − 0 = 8/3\n**Réponse : A = 8/3 unités d'aire**\n\n**Solution Exercice 4 :**\n∫[1→e] (1/x) dx = [ln|x|]₁ᵉ\n= ln(e) − ln(1) = 1 − 0 = 1\n**Réponse : ∫ = 1**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 0,
+      "prompt": "Une primitive de 3x² est :",
+      "options": [
+        "x³",
+        "x³ + 5",
+        "6x",
+        "3x³"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "∫ eˣ dx = ?",
+      "options": [
+        "xeˣ",
+        "eˣ + C",
+        "eˣ⁺¹ + C",
+        "ln(x) + C"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-maths-1-mva4gac8",
+      "type": "mcq",
+      "prompt": "Soit $f$ une fonction continue sur l'intervalle $[a, b]$. Quelle est la valeur de l'intégrale définie $\\int_{a}^{b} f(x) \\, dx$ si la courbe représentative de $f$ est entièrement au-dessus de l'axe des abscisses sur cet intervalle ?",
+      "options": [
+        "L'aire algébrique comprise entre la courbe, l'axe des abscisses et les droites d'abscisses $a$ et $b$",
+        "La longueur de l'arc de courbe de $f$ entre $x=a$ et $x=b$",
+        "Le volume du solide engendré par la rotation de la courbe autour de l'axe des abscisses",
+        "La valeur maximale de la fonction $f$ sur l'intervalle $[a, b]$"
+      ],
+      "answer": 0,
+      "explanation": "Lorsque la fonction $f$ est positive (ou nulle) sur $[a, b]$, l'intégrale définie $\\int_{a}^{b} f(x) \\, dx$ représente géométriquement l'aire de la région délimitée par la courbe $y=f(x)$, l'axe des $x$, et les ordonnées $x=a$ et $x=b$. Les autres options correspondent à d'autres concepts mathématiques (longueur d'arc, volume de révolution, extremum)."
+    },
+    {
+      "id": "auto-maths-2-mva4gac8",
+      "type": "mcq",
+      "prompt": "On considère la fonction $f(x) = x^3 - 3x$. Quelle est une primitive $F(x)$ de $f$ telle que $F(0) = 5$ ?",
+      "options": [
+        "$F(x) = \\frac{x^4}{4} - \\frac{3x^2}{2} + 5$",
+        "$F(x) = \\frac{x^4}{4} - \\frac{3x^2}{2} - 5$",
+        "$F(x) = x^4 - 3x^2 + 5$",
+        "$F(x) = \\frac{x^4}{4} - \\frac{3x^2}{2}$"
+      ],
+      "answer": 0,
+      "explanation": "Une primitive de $x^3$ est $\\frac{x^4}{4}$ et une primitive de $-3x$ est $-\\frac{3x^2}{2}$. Donc $F(x) = \\frac{x^4}{4} - \\frac{3x^2}{2} + C$. En utilisant la condition initiale $F(0) = 5$, on obtient $\\frac{0^4}{4} - \\frac{3(0)^2}{2} + C = 5$, soit $C = 5$. La primitive est donc $F(x) = \\frac{x^4}{4} - \\frac{3x^2}{2} + 5$."
+    },
+    {
+      "id": "auto-maths-3-mva4gac8",
+      "type": "mcq",
+      "prompt": "Sachant que $\\int_{0}^{2} f(x) \\, dx = 4$ et $\\int_{2}^{5} f(x) \\, dx = -1$, quelle est la valeur de $\\int_{0}^{5} f(x) \\, dx$ ?",
+      "options": [
+        "$3$",
+        "$5$",
+        "$-1$",
+        "$4$"
+      ],
+      "answer": 0,
+      "explanation": "D'après la relation de Chasles pour les intégrales, $\\int_{0}^{5} f(x) \\, dx = \\int_{0}^{2} f(x) \\, dx + \\int_{2}^{5} f(x) \\, dx$. En substituant les valeurs données : $4 + (-1) = 3$."
+    },
+    {
+      "id": "auto-maths-4-mva4gac8",
+      "type": "mcq",
+      "prompt": "Quelle est la valeur de l'intégrale $\\int_{0}^{\\pi} \\sin(x) \\, dx$ ?",
+      "options": [
+        "$0$",
+        "$1$",
+        "$2$",
+        "$-2$"
+      ],
+      "answer": 2,
+      "explanation": "Une primitive de $\\sin(x)$ est $-\\cos(x)$. Ainsi, $\\int_{0}^{\\pi} \\sin(x) \\, dx = [-\\cos(x)]_{0}^{\\pi} = -\\cos(\\pi) - (-\\cos(0)) = -(-1) - (-1) = 1 + 1 = 2$."
+    },
+    {
+      "id": "auto-maths-5-mva4gac8",
+      "type": "mcq",
+      "prompt": "Soit $f$ une fonction continue et positive sur $[a, b]$. Si on double la fonction, c'est-à-dire si on considère $g(x) = 2f(x)$, comment varie l'intégrale $\\int_{a}^{b} g(x) \\, dx$ par rapport à $\\int_{a}^{b} f(x) \\, dx$ ?",
+      "options": [
+        "Elle est divisée par 2",
+        "Elle est multipliée par 2",
+        "Elle reste inchangée",
+        "Elle est multipliée par 4"
+      ],
+      "answer": 1,
+      "explanation": "D'après la propriété de linéarité de l'intégrale, $\\int_{a}^{b} (\\alpha f(x)) \\, dx = \\alpha \\int_{a}^{b} f(x) \\, dx$. Ici, $\\alpha = 2$, donc $\\int_{a}^{b} 2f(x) \\, dx = 2 \\int_{a}^{b} f(x) \\, dx$. L'intégrale est donc multipliée par 2."
+    }
+  ]
+}

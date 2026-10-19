@@ -1,0 +1,32 @@
+{
+  "id": "francais-cinquieme-grammaire-le-verbe-formes-et-emplois",
+  "title": "Grammaire : Le verbe - Formes et emplois",
+  "summary": "Les élèves étudient les différentes formes et emplois du verbe.",
+  "lesson": "## Le verbe : formes et emplois\n\n### Tournures\n- Pronominale : se laver, se promener\n- Impersonnelle : il pleut, il faut\n- Passive : La leçon est apprise (par les élèves)\n\n### Temps simples et composés\n- Simples : présent, imparfait, futur\n- Composés : passé composé, plus-que-parfait\n\n### Verbes irréguliers\nVerbes du 3ème groupe : faire, dire, pouvoir, vouloir, savoir...",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Tournures : pronominale, impersonnelle, passive",
+    "Temps simples vs temps composés",
+    "Conjugaison des verbes irréguliers",
+    "Valeurs des temps"
+  ],
+  "exercise": {
+    "answer": "La leçon est expliquée par le professeur.",
+    "question": "Transforme à la voix passive : 'Le professeur explique la leçon.'"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Un verbe pronominal contient :",
+      "options": [
+        "Un pronom réfléchi (se)",
+        "Un COD",
+        "Un auxiliaire",
+        "Une préposition"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

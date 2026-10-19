@@ -1,0 +1,45 @@
+{
+  "id": "physique-premiere-travail-de-la-force-electrostatique",
+  "title": "Travail de la force électrostatique",
+  "summary": "Comment une particule chargée gagne-t-elle de l'énergie dans un accélérateur ?",
+  "lesson": "## 1. Travail de la force électrique\n\n### Expression générale\n\\[ W(\\vec{F}) = q\\vec{E} \\cdot \\vec{AB} \\]\n\n### Dans un champ uniforme\n\\[ W(\\vec{F}) = -qE\\Delta x \\]\n\n## 2. Énergie potentielle électrique\n\n### Définition\n\\[ E_p = qEx \\] (champ uniforme)\n\n**Variation :**\n\\[ \\Delta E_p = -W(\\vec{F}) \\]\n\n### Référence\nSur plaque négative : E_p = 0\n\n## 3. Potentiel électrique\n\n### Définition\n\\[ V = \\frac{E_p}{q} \\]\n\n**Unité :** volt (V) = J·C⁻¹\n\n### Dans un champ uniforme\n\\[ V = Ex \\]\n\n### Nouvelle unité pour E\n\\[ 1 \\, V/m = 1 \\, N/C \\]\n\n## 4. Différence de potentiel (tension)\n\n### Définition\n\\[ U_{AB} = V_A - V_B \\]\n\\[ \\Delta V = V_f - V_i \\]\n\n### Nouvelle expression du travail\n\\[ W(\\vec{F}) = q(V_A - V_B) = -q\\Delta V \\]\n\n## 5. Électronvolt\n\n### Définition\nÉnergie acquise par un électron accéléré par 1 V\n\n\\[ 1 \\, eV = 1,6 \\times 10^{-19} \\, J \\]\n\n## 6. Applications\n\n### Accélération de particules\nParticule α (q = 2e) accélérée par U = 10⁴ V\n\nÉnergie cinétique :\n\\[ E_c = qU = 3,2 \\times 10^{-19} \\times 10^4 = 3,2 \\times 10^{-15} \\, J \\]\n\\[ = 20 \\, keV \\]",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "W(F) = q(V_A - V_B)",
+    "E_p = qV",
+    "1 V/m = 1 N/C",
+    "1 eV = 1,6×10⁻¹⁹ J"
+  ],
+  "exercise": {
+    "question": "Calculer l'énergie en eV d'un électron accéléré par 500 V.",
+    "answer": "\n**Solution :**\n\nq = 1,6×10⁻¹⁹ C  \nU = 500 V  \nE = qU = 1,6×10⁻¹⁹ × 500 = 8×10⁻¹⁷ J  \nEn eV : E = 500 eV (directement)\n\n**Réponse : 500 eV**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "L'unité de potentiel électrique est :",
+      "options": [
+        "Joule",
+        "Newton",
+        "Volt",
+        "Watt"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "1 eV correspond à :",
+      "options": [
+        "1,6×10⁻¹⁹ C",
+        "1,6×10⁻¹⁹ J",
+        "1,6×10⁻¹⁹ V",
+        "1 J"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "id": "francais-premiere-la-dissertation-litteraire",
+  "title": "La dissertation littéraire",
+  "summary": "Comment réussir une dissertation littéraire au bac ?",
+  "lesson": "## La dissertation littéraire\n\n### Analyser le sujet\n\n**Types de sujets**\n- Question ouverte\n- Citation à discuter\n- Affirmation à nuancer\n\n**Mots-clés**\n- Les identifier\n- Les définir\n- Les problématiser\n\n### Types de plans\n\n**Plan dialectique (thèse/antithèse/synthèse)**\n- I. Certes... (thèse proposée)\n- II. Mais... (limites, antithèse)\n- III. En réalité... (dépassement)\n\n**Plan thématique**\n- I. Premier aspect\n- II. Deuxième aspect\n- III. Troisième aspect\n\n**Plan analytique**\n- I. Causes\n- II. Manifestations\n- III. Conséquences\n\n### Structure de la dissertation\n\n**Introduction (3 parties)**\n1. Amorce (contexte)\n2. Problématique\n3. Annonce du plan\n\n**Développement**\n- 3 parties\n- 2-3 sous-parties chacune\n- Arguments + exemples littéraires\n\n**Conclusion (2 parties)**\n1. Bilan\n2. Ouverture\n\n### Conseils méthodologiques\n- Pas de \"je\"\n- Exemples littéraires précis\n- Transitions entre parties",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Analyser le sujet et problématiser",
+    "Plan dialectique souvent adapté",
+    "Introduction : amorce, problématique, plan",
+    "Exemples littéraires précis"
+  ],
+  "exercise": {
+    "question": "Pour le sujet 'Le roman doit-il être réaliste ?', propose un plan dialectique.",
+    "answer": "\n**Solution :**\nI. Le roman réaliste : miroir de la société\nII. Mais le roman peut aussi transfigurer le réel\nIII. Le roman entre réalisme et imaginaire\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans une dissertation, on utilise :",
+      "options": [
+        "'Je pense que'",
+        "Des formules impersonnelles",
+        "Des abréviations",
+        "Le langage familier"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La problématique est :",
+      "options": [
+        "Le sujet",
+        "Une question soulevée par le sujet",
+        "Le plan",
+        "La conclusion"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel est le premier type de sujet mentionné dans le programme pour la dissertation littéraire ?",
+      "options": [
+        "Sujet-question (problématique littéraire)",
+        "Sujet d'invention pure",
+        "Sujet de grammaire technique",
+        "Sujet historique détaillé"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Combien d'axes de réflexion sur les problématiques littéraires le programme identifie-t-il ?",
+      "options": [
+        "3 axes principaux",
+        "5 axes détaillés",
+        "1 axe central",
+        "7 axes thématiques"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Pour le sujet 'La littérature doit-elle éduquer le lecteur ?', quel type de plan serait le PLUS approprié ?",
+      "options": [
+        "Plan dialectique (thèse/antithèse/synthèse)",
+        "Plan chronologique",
+        "Plan thématique descriptif",
+        "Plan comparatif"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Dans la méthode des 3M pour la recherche d'idées, que représente le premier M ?",
+      "options": [
+        "Mémoire (connaissances littéraires)",
+        "Monde (contexte actuel)",
+        "Moi (réflexion personnelle)",
+        "Méthode (techniques d'écriture)"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quelle partie de la dissertation doit ABSOLUMENT contenir une reformulation du sujet ?",
+      "options": [
+        "L'introduction",
+        "Le premier paragraphe du développement",
+        "La conclusion uniquement",
+        "Les transitions entre parties"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Pour un sujet sur 'la fonction de la poésie en Afrique contemporaine', quel auteur ivoirien serait le PLUS pertinent à citer ?",
+      "options": [
+        "Bernard Dadié pour sa poésie engagée",
+        "Ahmadou Kourouma pour ses romans",
+        "Amadou Hampâté Bâ pour ses contes",
+        "Léonora Miano pour ses romans"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Dans un paragraphe argumentatif, que doit IMMÉDIATEMENT suivre l'énoncé de l'idée directrice ?",
+      "options": [
+        "L'explication et le développement de l'idée",
+        "Une citation longue sans analyse",
+        "Une nouvelle idée sans transition",
+        "La conclusion partielle"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quelle est la différence fondamentale entre dissertation littéraire et commentaire composé ?",
+      "options": [
+        "La dissertation part d'une question, le commentaire d'un texte",
+        "La dissertation est plus courte",
+        "Le commentaire nécessite plus de connaissances",
+        "La dissertation ignore les exemples littéraires"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Dans l'ouverture de la conclusion, que faut-il éviter ?",
+      "options": [
+        "Introduire une idée nouvelle non traitée",
+        "Faire référence à un auteur cité précédemment",
+        "Élargir à une question plus générale",
+        "Reformuler la problématique"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Pour le sujet 'L'écrivain est-il un créateur ou un témoin ?', quelle démarche est ESSENTIELLE ?",
+      "options": [
+        "Définir précisément 'créateur' et 'témoin'",
+        "Ignorer les termes complexes",
+        "Se concentrer sur un seul auteur",
+        "Faire l'histoire complète de la littérature"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

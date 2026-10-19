@@ -1,0 +1,44 @@
+{
+  "id": "maths-premiere-vecteurs-et-geometrie-analytique",
+  "title": "Vecteurs et géométrie analytique",
+  "summary": "En navigation ou en physique, on utilise les vecteurs pour décrire des déplacements. Comment les manipuler ?",
+  "lesson": "## Vecteurs et géométrie analytique\n\n### Coordonnées d'un vecteur\nSi A(xₐ ; yₐ) et B(xᵦ ; yᵦ) :\nvecteur AB (xᵦ − xₐ ; yᵦ − yₐ)\n\n### Norme\n||vecteur AB|| = √[(xᵦ − xₐ)² + (yᵦ − yₐ)²]\n\n### Produit scalaire\n**Définitions équivalentes :**\n1. ū · v̄ = ||ū|| × ||v̄|| × cos(ū, v̄)\n2. ū(x ; y) · v̄(x' ; y') = xx' + yy'\n\n### Orthogonalité\nū ⊥ v̄ ⟺ ū · v̄ = 0\n\n### Applications\n- Équation de droite\n- Équation de cercle\n- Calcul d'angles",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Coordonnées : différence des coordonnées",
+    "Produit scalaire : ū · v̄ = xx' + yy'",
+    "Orthogonalité ⟺ produit scalaire nul"
+  ],
+  "exercise": {
+    "question": "ū(2 ; 3) et v̄(1 ; −2). Calcule ū · v̄. Les vecteurs sont-ils orthogonaux ?",
+    "answer": "\n**Solution :**\nū · v̄ = 2×1 + 3×(−2) = 2 − 6 = −4\n\nComme ū · v̄ ≠ 0, les vecteurs ne sont pas orthogonaux.\n\n**Réponse : ū · v̄ = −4, non orthogonaux**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Si ū(3 ; 4), alors ||ū|| = ?",
+      "options": [
+        "7",
+        "5",
+        "12",
+        "25"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "ū(1 ; 2) · v̄(4 ; −2) = ?",
+      "options": [
+        "0",
+        "2",
+        "6",
+        "8"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

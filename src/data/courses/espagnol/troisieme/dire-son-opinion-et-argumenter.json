@@ -1,0 +1,45 @@
+{
+  "id": "espagnol-troisieme-dire-son-opinion-et-argumenter",
+  "title": "Dire son opinion et argumenter",
+  "summary": "¿Qué piensas de...? (Que penses-tu de... ?)",
+  "lesson": "## Exprimer son opinion\n\n### Phrases pour donner son avis\n\n**Affirmer :**\n- Creo que... (Je crois que...)\n- Pienso que... (Je pense que...)\n- En mi opinión... (À mon avis...)\n- Me parece que... (Il me semble que...)\n- Estoy seguro/a de que... (Je suis sûr/e que...)\n\n**Exemples :**\n- Creo que el español es importante. (Je crois que l'espagnol est important)\n- Pienso que la educación es fundamental. (Je pense que l'éducation est fondamentale)\n\n### Argumenter\n\n**Pour introduire des arguments :**\n- En primer lugar... (En premier lieu...)\n- Además... (De plus...)\n- Por ejemplo... (Par exemple...)\n- Por eso... (C'est pourquoi...)\n- Por lo tanto... (Par conséquent...)\n\n**Pour donner des raisons :**\n- Porque... (Parce que...)\n- Ya que... (Puisque...)\n- Dado que... (Étant donné que...)\n\n### Nuancer son opinion\n\n**Accord :**\n- Estoy de acuerdo (Je suis d'accord)\n- Tienes razón (Tu as raison)\n- Exactamente (Exactement)\n\n**Désaccord :**\n- No estoy de acuerdo (Je ne suis pas d'accord)\n- No creo que... + subjonctif (Je ne crois pas que...)\n- Me parece que no (Il me semble que non)\n\n**Exemples :**\n- Estoy de acuerdo contigo. (Je suis d'accord avec toi)\n- No creo que sea una buena idea. (Je ne crois pas que ce soit une bonne idée)\n\n### Connecteurs logiques\n\n- Sin embargo (Cependant)\n- Aunque (Bien que)\n- A pesar de (Malgré)\n- Por un lado... por otro lado (D'un côté... de l'autre)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Creo/Pienso que + opinion",
+    "Porque, además, por eso pour argumenter",
+    "Estoy de acuerdo / No estoy de acuerdo",
+    "No creo que + subjonctif"
+  ],
+  "exercise": {
+    "answer": "En mi opinión, aprender lenguas extranjeras es muy importante. En primer lugar, permite comunicarse con personas de otros países. Además, ayuda a entender otras culturas. Por eso, creo que todos los estudiantes deben estudiar idiomas.",
+    "question": "Donne ton opinion sur l'importance d'apprendre les langues étrangères."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Pour dire 'Je pense que', on utilise :",
+      "options": [
+        "Pienso en",
+        "Pienso de",
+        "\"Pienso que\"",
+        "Pienso a"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "'Estoy de acuerdo' signifie :",
+      "options": [
+        "\"Je suis d'accord\"",
+        "Je ne suis pas d'accord",
+        "J'hésite",
+        "Je doute"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

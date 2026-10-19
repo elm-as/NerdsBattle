@@ -1,0 +1,32 @@
+{
+  "id": "physique-troisieme-les-defauts-de-l-il-et-leurs-corrections",
+  "title": "Les défauts de l'œil et leurs corrections",
+  "summary": "Visite médicale au Lycée Inagohi de San Pédro : certains élèves se rapprochent du tableau, d'autres s'éloignent pour lire.",
+  "lesson": "# Les défauts de l'œil\n\n## I. L'œil normal (emmétrope)\n\n### Fonctionnement\n- Cristallin = lentille convergente\n- Accommodation : variation de vergence\n- Image nette sur rétine\n- Punctum proximum (PP) : 25 cm\n- Punctum remotum (PR) : infini\n\n## II. La myopie\n\n### Caractéristiques\n- Œil trop long\n- Image avant rétine\n- Voit mal de loin\n- PR < infini\n\n### Correction\nLentille divergente (C < 0)\n- Repousse l'image sur rétine\n- Vergence adaptée à chaque cas\n\n## III. L'hypermétropie\n\n### Caractéristiques\n- Œil trop court\n- Image derrière rétine\n- Voit mal de près\n- PP > 25 cm\n\n### Correction\nLentille convergente (C > 0)\n- Rapproche l'image sur rétine\n- Facilite la vision de près\n\n## IV. En Côte d'Ivoire\n\nImportance du dépistage scolaire pour identifier et corriger précocement les défauts visuels.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Myope : œil trop long, voit mal de loin",
+    "Correction myopie : divergente",
+    "Hypermétrope : œil court, voit mal de près",
+    "Correction hypermétropie : convergente"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La myopie se corrige avec :",
+      "options": [
+        "Lentille convergente",
+        "Lentille divergente",
+        "Pas de correction",
+        "Lunettes noires"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

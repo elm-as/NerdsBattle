@@ -1,0 +1,254 @@
+{
+  "id": "physique-seconde-solutions-acides-et-basiques-mesures-de-ph",
+  "title": "Solutions acides et basiques - Mesures de pH",
+  "summary": "Pendant un cours, un élève de 2nde A3 au Lycée Moderne de Grand-Lahou va chercher une règle dans la salle de collection de chimie. Il remarque sur des flacons des inscriptions intrigantes : « solution acide chlorhydrique C = 10⁻³ mol/L pH = 3 » et « solution soude C = 10⁻³ mol/L pH = 11 ». Étonné par cette relation apparemment inverse entre concentration et pH, et par le fait que deux solutions de même concentration aient des pH si différents, il partage cette observation avec sa classe. Ensemble, ils décid",
+  "lesson": "## 1. Introduction à l'acidité et la basicité\n\n**Concepts fondamentaux** :\n- **Acide** : substance qui libère des H⁺ (protons) en solution\n- **Base** : substance qui capte des H⁺ ou libère des OH⁻\n\n**Importance en Côte d'Ivoire** :\n- **Eau potable** : pH optimal 6,5-8,5\n- **Agriculture** : pH des sols (cacao préfère 6,0-7,0)\n- **Santé** : pH sanguin (7,35-7,45), acidité gastrique\n- **Industrie** : traitement des métaux, fabrication du savon\n- **Environnement** : pluies acides, acidification des océans\n\n**Échelle de pH** : de 0 (très acide) à 14 (très basique), 7 = neutre.\n\n**Description du schéma 1:** Échelle de pH avec exemples. Éléments : (1) Échelle 0-14 avec graduation, (2) Zone acide : 0-7 (rouge), neutre : 7 (vert), basique : 7-14 (bleu), (3) Exemples : acide gastrique (1-2), citron (2), café (5), eau pure (7), sang (7,4), eau de mer (8), ammoniaque (11), soude (13-14), (4) Indicateurs colorés associés.\n\n## 2. Solution d'acide chlorhydrique\n\n### **Préparation**\nDissolution du chlorure d'hydrogène HCl(g) dans l'eau.\n\n### **Équation de dissociation**\n$$\\\text{HCl}(g) + \\\text{H}_2\text{O}(l) \\\\rightarrow \\\text{H}_3\text{O}^+(aq) + \\\text{Cl}^-(aq)$$\n\n**Simplifiée** : $\\\text{HCl} \\\\rightarrow \\\text{H}^+ + \\\text{Cl}^-$ (en réalité H⁺ hydraté = H₃O⁺)\n\n### **Propriétés caractéristiques**\n1. **Goût aigre** (NE PAS goûter !)\n2. **Conductrice** (ions mobiles)\n3. **Action sur indicateurs** :\n   - Tournesol : rouge\n   - Hélianthine : rouge\n   - Bleu de bromothymol : jaune\n   - Phénolphtaléine : incolore\n4. **Action sur métaux** (Zn, Fe, Al) : dégagement H₂\n   $$\\\text{Zn}(s) + 2\\\text{H}_3\text{O}^+(aq) \\\\rightarrow \\\text{Zn}^{2+}(aq) + \\\text{H}_2(g) + 2\\\text{H}_2\text{O}(l)$$\n5. **Action sur carbonate** : dégagement CO₂\n   $$\\\text{CaCO}_3(s) + 2\\\text{H}_3\text{O}^+(aq) \\\\rightarrow \\\text{Ca}^{2+}(aq) + \\\text{CO}_2(g) + 3\\\text{H}_2\text{O}(l)$$\n\n### **Concentration en ions**\nPour HCl de concentration $C$ :\n- $[\\\text{H}_3\\\text{O}^+] = C$ (acide fort, dissociation totale)\n- $[\\\text{Cl}^-] = C$\n- $[\\\text{OH}^-]$ très faible (≈ 10⁻¹⁴/C)\n\n## 3. Ion hydronium H₃O⁺\n\n### **Structure**\nIon formé par association H⁺ + H₂O.\n\n### **Propriétés**\n- Très réactif\n- Fort pouvoir oxydant\n- Cause l'acidité\n\n### **Concentration et pH**\nPour une solution aqueuse à 25°C :\n$$[\\\text{H}_3\\\text{O}^+] = 10^{-\\\text{pH}}$$\n$$\\\text{pH} = -\\\\log([\\\text{H}_3\\\text{O}^+])$$\n\n**Exemple** : pH = 3 → $[\\\text{H}_3\\\text{O}^+] = 10^{-3} = 0,001 \\\\ \\\text{mol/L}$\n\n### **Produit ionique de l'eau**\nÀ 25°C : $$K_e = [\\\text{H}_3\\\text{O}^+] \\\times [\\\text{OH}^-] = 10^{-14}$$\n\n**Conséquence** : $[\\\text{OH}^-] = \\\\frac{10^{-14}}{[\\\text{H}_3\\\text{O}^+]}$\n\n**Description du schéma 2:** Relation entre pH et concentration H₃O⁺. Éléments : (1) Axe horizontal : pH 0 à 14, (2) Axe vertical : [H₃O⁺] (échelle logarithmique), (3) Courbe décroissante : [H₃O⁺] = 10^{-pH}, (4) Points marqués : pH=0 ([H₃O⁺]=1 M), pH=7 ([H₃O⁺]=10⁻⁷ M), pH=14 ([H₃O⁺]=10⁻¹⁴ M), (5) Relation avec [OH⁻] : complémentaire.\n\n## 4. Solution d'hydroxyde de sodium (soude)\n\n### **Préparation**\nDissolution de NaOH(s) dans l'eau.\n\n### **Équation de dissociation**\n$$\\\text{NaOH}(s) \\\\xrightarrow{\\\text{H}_2\\\text{O}} \\\text{Na}^+(aq) + \\\text{OH}^-(aq)$$\n\n### **Propriétés caractéristiques**\n1. **Goût amer, savonneux** (NE PAS goûter !)\n2. **Conductrice** (ions mobiles)\n3. **Action sur indicateurs** :\n   - Tournesol : bleu\n   - Hélianthine : jaune\n   - Bleu de bromothymol : bleu\n   - Phénolphtaléine : rose/violet\n4. **Action sur les ions métalliques** : précipités d'hydroxydes\n   $$\\\text{Fe}^{3+}(aq) + 3\\\text{OH}^-(aq) \\\\rightarrow \\\text{Fe(OH)}_3(s)$$\n5. **Action sur l'ion ammonium** : dégagement NH₃\n   $$\\\text{NH}_4^+(aq) + \\\text{OH}^-(aq) \\\\rightarrow \\\text{NH}_3(g) + \\\text{H}_2\text{O}(l)$$\n\n### **Concentration en ions**\nPour NaOH de concentration $C$ :\n- $[\\\text{Na}^+] = C$\n- $[\\\text{OH}^-] = C$ (base forte, dissociation totale)\n- $[\\\text{H}_3\\\text{O}^+]$ très faible (≈ 10⁻¹⁴/C)\n\n## 5. Ion hydroxyde OH⁻\n\n### **Propriétés**\n- Réactif avec les acides (neutralisation)\n- Précipite les ions métalliques (sauf alcalins, ammonium)\n- Corrosif pour la matière organique\n\n### **Relation avec le pH**\n$$[\\\text{OH}^-] = 10^{-\\\text{pOH}}$$\n$$\\\text{pOH} = -\\\\log([\\\text{OH}^-])$$\n$$\\\text{pH} + \\\text{pOH} = 14 \\\\ \\\text{(à 25°C)}$$\n\n**Exemple** : pH = 11 → pOH = 3 → $[\\\text{OH}^-] = 10^{-3} = 0,001 \\\\ \\\text{mol/L}$\n\n## 6. Mesure du pH\n\n### **Méthodes**\n1. **Papier pH** : bandelettes avec indicateurs colorés\n   - Avantages : rapide, économique\n   - Inconvénients : peu précis (±0,5 unité)\n\n2. **pH-mètre** : électrode de verre\n   - Avantages : précis (±0,01 unité), mesure continue\n   - Inconvénients : cher, nécessite étalonnage\n\n3. **Indicateurs colorés** : solutions qui changent de couleur\n   - Exemples : tournesol, phénolphtaléine, BBT\n   - Zone de virage caractéristique\n\n### **Étalonnage du pH-mètre**\n1. Rincer l'électrode\n2. Plonger dans solution tampon pH=7\n3. Ajuster à 7,00\n4. Rincer\n5. Plonger dans solution tampon pH=4 ou 10\n6. Ajuster la pente\n7. Mesurer l'échantillon\n\n**Description du schéma 3:** Mesure du pH. Éléments : (1) pH-mètre avec électrode, (2) Étalonnage avec tampons pH 7 et 4, (3) Mesure d'un échantillon inconnu, (4) Papier pH avec échelle colorée, (5) Comparaison des méthodes, (6) Précautions (rinçage, température).\n\n## 7. Domaine de pH des solutions\n\n### **Classification**\n- **Très acide** : pH < 3\n- **Acide faible** : 3 < pH < 7\n- **Neutre** : pH = 7 (à 25°C)\n- **Basique faible** : 7 < pH < 11\n- **Très basique** : pH > 11\n\n### **Influence de la dilution**\nPour un acide fort :\n- Dilution ×10 → pH augmente de 1 unité\n- Dilution ×100 → pH augmente de 2 unités\n\n**Limite** : très dilué, le pH tend vers 7 (influence de l'autoprotolyse de l'eau).\n\n### **Exemples de valeurs**\n| Solution | pH typique | [H₃O⁺] (mol/L) | [OH⁻] (mol/L) |\n|----------|------------|-----------------|---------------|\n| Acide gastrique | 1-2 | 0,1-0,01 | 10⁻¹³-10⁻¹² |\n| Citron | 2-3 | 0,01-0,001 | 10⁻¹²-10⁻¹¹ |\n| Vinaigre | 3 | 0,001 | 10⁻¹¹ |\n| Café | 5 | 10⁻⁵ | 10⁻⁹ |\n| Eau pure (25°C) | 7 | 10⁻⁷ | 10⁻⁷ |\n| Sang | 7,4 | 4×10⁻⁸ | 2,5×10⁻⁷ |\n| Eau de mer | 8 | 10⁻⁸ | 10⁻⁶ |\n| Bicarbonate | 8-9 | 10⁻⁸-10⁻⁹ | 10⁻⁶-10⁻⁵ |\n| Ammoniaque | 11 | 10⁻¹¹ | 0,001 |\n| Eau de Javel | 12 | 10⁻¹² | 0,01 |\n| Soude 0,1 M | 13 | 10⁻¹³ | 0,1 |\n\n## 8. Calculs de pH\n\n### **Acide fort monoprotique (HCl, HNO₃)**\n$$[\\\text{H}_3\\\text{O}^+] = C \\\\ \\\\Rightarrow \\\\ \\\text{pH} = -\\\\log(C)$$\n\n**Exemple** : HCl 0,01 M → pH = -log(0,01) = 2\n\n### **Base forte (NaOH, KOH)**\n$$[\\\text{OH}^-] = C \\\\ \\\\Rightarrow \\\\ \\\text{pOH} = -\\\\log(C) \\\\ \\\\Rightarrow \\\\ \\\text{pH} = 14 + \\\\log(C)$$\n\n**Exemple** : NaOH 0,001 M → pOH = 3 → pH = 11\n\n### **Mélanges et solutions diluées**\n- Si C < 10⁻⁶ M : influence de l'eau non négligeable\n- Mélanges : calculs d'équilibre plus complexes\n\n### **Exercice type**\n« Calcule le pH de :\n1. HCl 5×10⁻³ M\n2. NaOH 2×10⁻² M\n3. Mélange 50 mL HCl 0,1 M + 50 mL NaOH 0,1 M »\n\n**Solutions** :\n1. pH = -log(5×10⁻³) = -log(5) + 3 = -0,70 + 3 = 2,30\n2. pOH = -log(2×10⁻²) = -log(2) + 2 = -0,30 + 2 = 1,70 → pH = 14 - 1,70 = 12,30\n3. Neutralisation exacte → solution de NaCl → pH = 7 (à 25°C)\n\n## 9. Applications en Côte d'Ivoire\n\n### **Qualité de l'eau potable**\n- Norme OMS : pH 6,5-8,5\n- pH bas : corrosion des canalisations, métaux dissous\n- pH haut : goût désagréable, dépôts calcaires\n- Contrôle régulier nécessaire\n\n### **Agriculture**\n- **pH optimal sols** :\n  - Cacao : 6,0-7,0\n  - Café : 5,5-6,5\n  - Riz : 5,0-6,5\n  - Palmier à huile : 4,5-6,5\n- Correction : chaux (↑pH) ou soufre (↓pH)\n\n### **Santé**\n- **Sang** : 7,35-7,45 (acidose/alcalose dangereuses)\n- **Urine** : 4,6-8,0 (variable)\n- **Estomac** : 1,5-3,5 (HCl pour digestion)\n\n### **Industrie**\n- **Saponification** : milieu basique\n- **Tannerie** : traitement acide puis basique\n- **Papeterie** : contrôle pH pour blanchiment\n\n### **Environnement**\n- **Pluies acides** : pH < 5,6 (pollution SO₂, NOₓ)\n- **Lacs et rivières** : impact sur écosystèmes aquatiques\n- **Sol** : acidification par engrais ammoniacaux\n\n## 10. Sécurité et manipulations\n\n### **Risques des acides et bases**\n- **Corrosifs** : brûlures chimiques\n- **Projections** : danger pour yeux et peau\n- **Inhalation** : irritation voies respiratoires\n- **Mélanges** : réactions violentes (acide + base)\n\n### **Équipement de protection**\n1. **Lunettes** de sécurité\n2. **Blouse** de laboratoire\n3. **Gants** appropriés\n4. **Hotte** pour produits volatils\n\n### **Premiers secours**\n- **Projection sur peau** : rincer 15 min à l'eau\n- **Projection dans yeux** : rincer 15 min, consulter médecin\n- **Ingestion** : ne pas faire vomir, boire eau, consulter\n\n### **Stockage**\n- Bouchons bien fermés\n- Étiquettes claires\n- Séparation acides/bases\n- Armoire ventilée\n",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Le pH mesure l'acidité : pH = -log[H₃O⁺], avec [H₃O⁺] en mol/L",
+    "Une solution acide a pH < 7, basique a pH > 7, neutre a pH = 7 (à 25°C)",
+    "Pour un acide fort comme HCl : [H₃O⁺] = C et pH = -log(C)",
+    "Pour une base forte comme NaOH : [OH⁻] = C, pOH = -log(C), pH = 14 - pOH",
+    "Le produit ionique de l'eau à 25°C : Ke = [H₃O⁺][OH⁻] = 10⁻¹⁴"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Le pH d'une solution neutre à 25°C est :",
+      "options": [
+        "7",
+        "0",
+        "14",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Pour un acide fort de concentration C, [H₃O⁺] vaut :",
+      "options": [
+        "C",
+        "C/2",
+        "10⁻⁷",
+        "14 - C"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Si pH = 4, alors [H₃O⁺] vaut :",
+      "options": [
+        "10⁻⁴ mol/L",
+        "10⁴ mol/L",
+        "4 mol/L",
+        "10⁻¹⁰ mol/L"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Le produit ionique de l'eau à 25°C est :",
+      "options": [
+        "10⁻¹⁴",
+        "10⁻⁷",
+        "10⁷",
+        "14"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Une solution de NaOH 0,01 M a un pH d'environ :",
+      "options": [
+        "12",
+        "2",
+        "7",
+        "10"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "La phénolphtaléine est incolore en milieu :",
+      "options": [
+        "Acide",
+        "Basique",
+        "Neutre",
+        "Toujours"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "En diluant 10 fois un acide fort, le pH :",
+      "options": [
+        "Augmente de 1",
+        "Diminue de 1",
+        "Reste constant",
+        "Devient basique"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Pour une solution basique :",
+      "options": [
+        "pH > 7",
+        "[H₃O⁺] > [OH⁻]",
+        "pH < 7",
+        "[H₃O⁺] = [OH⁻]"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Le papier pH permet de :",
+      "options": [
+        "Mesurer approximativement le pH",
+        "Mesurer précisément la concentration",
+        "Changer le pH",
+        "Neutraliser les acides"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Si [OH⁻] = 10⁻³ M, le pH vaut :",
+      "options": [
+        "11",
+        "3",
+        "7",
+        "10"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Une solution acide a un pH :",
+      "options": [
+        "< 7",
+        "= 7",
+        "> 7",
+        "= 14"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Pour [H₃O⁺] = 0,001 mol/L, le pH est :",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "13"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "L'ion hydronium a pour formule :",
+      "options": [
+        "H⁺",
+        "OH⁻",
+        "H₃O⁺",
+        "H₂O"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Pour pH = 9, [OH⁻] ≈ :",
+      "options": [
+        "10⁻⁹ mol/L",
+        "10⁻⁵ mol/L",
+        "10⁻¹⁴ mol/L",
+        "10⁻⁷ mol/L"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Un indicateur universel est :",
+      "options": [
+        "Un seul colorant",
+        "Un mélange de colorants",
+        "Un pH-mètre",
+        "Une électrode"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "En diluant 10 fois une solution acide, son pH :",
+      "options": [
+        "Diminue",
+        "Augmente",
+        "Reste constant",
+        "Devient basique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Le pH de l'eau pure à 25°C est :",
+      "options": [
+        "0",
+        "5",
+        "7",
+        "14"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Le vinaigre a un pH d'environ 3. C'est une solution :",
+      "options": [
+        "Fortement acide",
+        "Faiblement acide",
+        "Neutre",
+        "Basique"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

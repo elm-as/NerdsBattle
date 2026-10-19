@@ -1,0 +1,153 @@
+{
+  "id": "histoire-terminale-les-secteurs-d-activites-economiques-de-la-cote-d-ivoire",
+  "title": "Les secteurs d'activités économiques de la Côte d'Ivoire",
+  "summary": "Lors d'une sortie d'étude organisée par votre établissement à l'exposition du SARA 2017 (Salon de l'Agriculture et des Ressources Animales) à Abidjan, tes camarades de classe et toi découvrez dans un des stands que l'économie de la Côte d'Ivoire repose sur ses secteurs d'activités. Vous voulez en savoir davantage, ainsi de retour à l'école, vous menez des recherches pour identifier les composantes des secteurs d'activités, les caractériser et apprécier l'importance de chaque secteur dans l'économie de la Cô",
+  "lesson": "## 1. Définition et classification des secteurs d'activités\n\n### 1.1 La classification économique traditionnelle :\n\n**Secteur primaire** : Activités d'extraction et de production de matières premières\n- **Agriculture**, **élevage**, **pêche**, **exploitation forestière**, **activités minières**\n- **Caractéristique** : Interface directe avec la nature\n\n**Secteur secondaire** : Activités de transformation des matières premières\n- **Industrie manufacturière**, **BTP** (Bâtiment et Travaux Publics), **énergie**\n- **Caractéristique** : Ajout de valeur par la transformation\n\n**Secteur tertiaire** : Activités de services\n- **Commerce**, **transport**, **banque**, **assurance**, **tourisme**, **administration**\n- **Caractéristique** : Production immatérielle\n\n### 1.2 Évolution de la classification (Clark-Fisher) :\n\n```mermaid\ntimeline\ntitle Loi des trois secteurs (Clark-Fisher)\n    Société traditionnelle : Secteur primaire dominant\n        : >70% emplois\n        : Ex: Côte d'Ivoire 1960\n    Société industrielle : Secteur secondaire dominant\n        : 40-50% emplois\n        : Ex: Corée du Sud 1990\n    Société post-industrielle : Secteur tertiaire dominant\n        : >70% emplois\n        : Ex: France 2020\n```\n\n**Position de la Côte d'Ivoire en 2024 :**\n- **Transition** : Primaire → Secondaire/Tertiaire\n- **Emplois** : Primaire 45\\\\%, Secondaire 15\\\\%, Tertiaire 40\\\\%\n- **Valeur ajoutée** : Primaire 22\\\\%, Secondaire 28\\\\%, Tertiaire 50\\\\%\n\n## 2. Le secteur primaire : Fondement historique de l'économie\n\n### 2.1 Agriculture : La 'rente verte' ivoirienne\n\n**Agriculture de rente (exportation) :**\n\n```mathgraph\n{\n  \"type\": \"histogram\",\n  \"title\": \"Production agricole d'exportation (2023)\",\n  \"xRange\": [0, 5],\n  \"yRange\": [0, 2500],\n  \"bars\": [\n    { \"label\": \"Cacao\", \"value\": 2200, \"color\": \"#8B4513\" },\n    { \"label\": \"Noix cajou\", \"value\": 1000, \"color\": \"#FFD700\" },\n    { \"label\": \"Caoutchouc\", \"value\": 800, \"color\": \"#000000\" },\n    { \"label\": \"Café\", \"value\": 100, \"color\": \"#6F4E37\" },\n    { \"label\": \"Coton\", \"value\": 400, \"color\": \"#FFFFFF\" }\n  ],\n  \"showGrid\": true,\n  \"xLabel\": \"Produit\",\n  \"yLabel\": \"Milliers de tonnes\"\n}\n```\n\n**Cacao** (Reine des cultures) :\n- **Production** : 2,2 millions tonnes (45\\\\% mondial)\n- **Superficie** : 2,5 millions ha\n- **Régions** : Sud-ouest (Soubré 25\\\\%), centre (Yamoussoukro)\n- **Emplois** : 1 million de familles\n- **Valeur** : \\\\$6 milliards (30\\\\% des exportations)\n\n**Noix de cajou** (Success story) :\n- **Production** : 1 million tonnes (1er mondial)\n- **Régions** : Nord (Korhogo, Boundiali)\n- **Transformation** : Seulement 10\\\\% localement\n- **Potentiel** : Beurre, lait, cosmétiques\n\n**Caoutchouc** :\n- **Production** : 800,000 tonnes (1er africain)\n- **Plantations** : 400,000 ha\n- **Zones** : Sud-est (Aboisso), Ouest (Guiglo)\n- **Utilisation** : Pneus, gants, préservatifs\n\n**Agriculture vivrière** :\n- **Igname** : 7 millions tonnes (1er mondial)\n- **Riz** : 1,5 million tonnes (auto-suffisance 60\\\\%)\n- **Banane plantain** : 1,8 million tonnes\n- **Manioc** : 3 millions tonnes\n- **Maïs** : 1 million tonnes\n\n### 2.2 Élevage et pêche :\n\n**Élevage** :\n- **Bovins** : 1,8 million têtes (Nord : Korhogo, Odienné)\n- **Ovins/caprins** : 3 millions têtes\n- **Volaille** : 40 millions (poulets de chair)\n- **Contraintes** : Maladies (peste), concurrence importations\n\n**Pêche** :\n- **Maritime** : 70,000 tonnes/an\n- **Continentale** : 30,000 tonnes/an\n- **Ports** : Abidjan, San-Pédro, Grand-Bassam\n- **Aquaculture** : Développement (tilapia, crevettes)\n\n### 2.3 Exploitation forestière :\n\n**Historique** :\n- **Forêts originelles** : 16 millions ha (1960)\n- **Déforestation** : 13 millions ha perdus\n- **Restant** : 3 millions ha (9\\\\% territoire)\n\n**Production** :\n- **Bois d'œuvre** : 2 millions m³/an\n- **Essences** : Teck, acajou, iroko\n- **Transformation** : Sciages, contreplaqués\n- **Durabilité** : Certificat FSC, reboisement\n\n### 2.4 Mines et énergie :\n\n**Mines** :\n- **Or** : 48 tonnes/an (5 mines industrielles)\n- **Manganèse** : 500,000 tonnes/an\n- **Nickel** : Démarrage 2024\n- **Fer** : Projet Bongo (2,5 milliards tonnes)\n\n**Énergie** :\n- **Pétrole** : 40,000 barils/jour\n- **Gaz** : 30 milliards m³ réserves\n- **Hydroélectricité** : 600 MW\n- **Solaire** : Projets (50 MW en développement)\n\n## 3. Le secteur secondaire : Industrialisation en cours\n\n### 3.1 Phases historiques de l'industrialisation :\n\n```mermaid\ntimeline\ntitle Évolution industrielle ivoirienne\n    1960-1980 : Industrialisation par substitution\n        : Agroalimentaire, textile\n        : Protectionnisme\n        : Taux croissance 8%\n    1980-1990 : Crise et ajustement\n        : Fermetures usines\n        : Programmes FMI\n        : Désindustrialisation\n    1990-2011 : Libéralisation\n        : Privatisations\n        : Concurrence importations\n        : Faible croissance\n    2012-2024 : Renaissance industrielle\n        : PND 2016-2020, 2021-2025\n        : Zones économiques spéciales\n        : Croissance 7-8%\n```\n\n### 3.2 Structure industrielle actuelle :\n\n**Répartition de la valeur ajoutée industrielle :**\n- **Agroalimentaire** : 25\\\\%\n- **BTP** : 20\\\\%\n- **Chimie/énergie** : 15\\\\%\n- **Métallurgie** : 10\\\\%\n- **Textile/habillement** : 8\\\\%\n- **Autres** : 22\\\\%\n\n### 3.3 Les branches industrielles majeures :\n\n**Agro-industrie** :\n- **Transformation cacao** : 30\\\\% localement (beurre, poudre, chocolat)\n- **Exemples** : CEMOI, Choco Ivoire, African Cocoa\n- **Huileries** : Palmiste, coton, soja\n- **Conserveries** : Ananas, thon (Pêche et Froid, SIPH)\n\n**Industrie chimique et pharmaceutique** :\n- **Raffinerie** : SIR (Société Ivoirienne de Raffinage)\n- **Fertilisants** : Ivoire Fertil, WAF\n- **Pharmacie** : 15 unités (PHARMA-CI, UNITHER)\n- **Cosmétiques** : Karité, beurre de cacao\n\n**BTP et matériaux de construction** :\n- **Ciment** : 4 producteurs (CIMAF, DANGOTE, SOCOCIM, NOVA CIM)\n- **Production** : 5 millions tonnes/an\n- **Béton, tuiles, carreaux**\n- **Grands projets** : Pont HKB, métro, autoroutes\n\n**Industrie légère** :\n- **Textile** : Déclin (concurrence asiatique)\n- **Montage** : Électroménager, mobilier\n- **Plastique** : Emballages, sacs\n\n### 3.4 Localisation industrielle :\n\n**Pôles industriels principaux :**\n\n```mermaid\ngraph TD\n    A[Pôles industriels Côte d'Ivoire] --> B[District d'Abidjan]\n    A --> C[Zone San-Pédro]\n    A --> D[Pôle Yamoussoukro-Bouaké]\n    A --> E[Pôle Korhogo]\n    A --> F[Pôle Man]\n    \n    B --> B1[Vridi: Pétrochimie]\n    B --> B2[Yopougon: Agroalimentaire]\n    B --> B3[Treichville: Divers]\n    B --> B4[PK24: ZES]\n    \n    C --> C1[Port: Logistique]\n    C --> C2[Agro-industrie]\n    C --> C3[Bois]\n    \n    D --> D1[Yamoussoukro: Cacao avancé]\n    D --> D2[Bouaké: Textile]\n    \n    E --> E1[Cajou]\n    E --> E2[Coton]\n    \n    F --> F1[Tourisme]\n    F --> F2[Artisanat]\n```\n\n**Zones Économiques Spéciales (ZES) :**\n1. **PK24** (Abidjan) : 200 ha, 50 entreprises\n2. **San-Pédro** : Logistique, bois\n3. **Yamoussoukro** : Agro-industrie\n4. **Bingerville** : Technologie\n\n## 4. Le secteur tertiaire : Services en expansion\n\n### 4.1 Commerce : Du informel au moderne\n\n**Commerce intérieur :**\n\n**Structure :**\n- **Informel** : 80\\\\% des unités commerciales\n- **Marchés** : 500 marchés régionaux\n- **Supermarchés** : 50 grandes surfaces (Carrefour, Score)\n- **Centres commerciaux** : 10 (Plateau, Marcory, Riviera)\n\n**Chiffres clés :**\n- **Chiffre d'affaires** : \\\\$15 milliards\n- **Emplois** : 2 millions\n- **Distribution** : Chaînes (Prosuma, CDCI)\n\n**Commerce extérieur :**\n\n**Exportations (2023) :**\n- **Total** : \\\\$16 milliards\n- **Agriculture** : 60\\\\% (cacao 30\\\\%, cajou 15\\\\%, caoutchouc 10\\\\%)\n- **Mines** : 20\\\\% (or 15\\\\%, manganèse 5\\\\%)\n- **Produits transformés** : 20\\\\%\n\n**Importations (2023) :**\n- **Total** : \\\\$18 milliards\n- **Biens d'équipement** : 30\\\\%\n- **Produits pétroliers** : 25\\\\%\n- **Biens de consommation** : 45\\\\%\n\n**Balance commerciale** : Déficitaire (\\\\$-2 milliards)\n\n**Principaux partenaires :**\n- **Exportations** : Pays-Bas (15\\\\%), États-Unis (12\\\\%), France (10\\\\%)\n- **Importations** : France (15\\\\%), Chine (12\\\\%), Nigeria (10\\\\%)\n\n### 4.2 Transport et logistique :\n\n**Portuaire :**\n- **Port d'Abidjan** : 25 millions tonnes/an\n- **Terminal à conteneurs** : 1,2 million EVP\n- **Projet** : Terminal 3 (2025) +50\\\\% capacité\n- **Port San-Pédro** : 2 millions tonnes (bois, cajou)\n\n**Routier :**\n- **Réseau** : 85,000 km (dont 6,500 bitumés)\n- **Corridors** : Abidjan-Ouaga (1,200 km), Abidjan-Bamako\n- **Transport** : 80\\\\% des marchandises\n\n**Aérien :**\n- **Aéroports** : 27 (dont 2 internationaux)\n- **Félix Houphouët-Boigny** : 2,5 millions passagers\n- **Compagnies** : Air Côte d'Ivoire (10 avions)\n\n**Ferroviaire :**\n- **Ligne existante** : Abidjan-Ouaga (1,200 km)\n- **Projet** : Modernisation SITARAIL\n- **Métro Abidjan** : Ligne 1 (2024), 37,5 km\n\n### 4.3 Tourisme : Potentiel sous-exploité\n\n**Atouts touristiques :**\n\n**Naturels :**\n- **Plages** : 520 km (Assinie, Grand-Bassam, San-Pédro)\n- **Parcs nationaux** : 8 (Taï, Comoé, Marahoué)\n- **Faune** : Éléphants, chimpanzés, hippopotames\n- **Paysages** : Monts Nimba, cascades de Man\n\n**Culturels :**\n- **Patrimoine UNESCO** : Grand-Bassam (historique)\n- **Musées** : Civilisations, costumes\n- **Festivals** : Fêtes des masques (Man), carnaval (Bouaké)\n- **Artisanat** : Sculpture, tissage, poterie\n\n**Infrastructures :**\n- **Hôtels** : 15,000 chambres (dont 5\\\\% 4-5 étoiles)\n- **Restaurants** : 2,000 établissements\n- **Agences** : 200 agences de voyage\n\n**Performances (2023) :**\n- **Arrivées touristes** : 400,000\n- **Recettes** : \\\\$500 millions\n- **Emplois** : 50,000 directs\n- **Potentiel** : 2 millions touristes/an\n\n**Défis :**\n- **Image** : Sécurité perçue\n- **Infrastructures** : Routes d'accès\n- **Formation** : Personnel qualifié\n- **Promotion** : Marketing international\n\n### 4.4 Services financiers :\n\n**Système bancaire :**\n- **Banques** : 28 établissements\n- **Crédits** : \\\\$15 milliards (40\\\\% à l'État)\n- **Dépôts** : \\\\$20 milliards\n- **Rentabilité** : ROE 15\\\\%\n\n**Assurances :**\n- **Compagnies** : 35 sociétés\n- **Chiffre d'affaires** : \\\\$1 milliard\n- **Taux de pénétration** : 2\\\\% (vs 8\\\\% Afrique du Sud)\n\n**Microfinance :**\n- **Institutions** : 50 IMF\n- **Clients** : 1,5 million\n- **Crédits** : \\\\$500 millions\n\n**Fintech :**\n- **Mobile money** : Orange Money, MTN Mobile Money\n- **Utilisateurs** : 15 millions\n- **Transactions** : \\\\$20 milliards/an\n- **Startups** : 200 fintechs\n\n### 4.5 Services publics et parapublics :\n\n**Administration :**\n- **Fonctionnaires** : 250,000\n- **Budget** : \\\\$15 milliards\n- **Décentralisation** : 31 régions, 201 communes\n\n**Santé :**\n- **Hôpitaux** : 3,000 établissements\n- **Personnel** : 20,000 médecins et infirmiers\n- **Couverture** : 70\\\\% de la population\n\n**Éducation :**\n- **Écoles** : 25,000 établissements\n- **Enseignants** : 200,000\n- **Étudiants** : 200,000 dans le supérieur\n\n## 5. Fiscalité par secteur d'activités\n\n### 5.1 Secteur primaire :\n\n**Agriculture :**\n- **Impôt foncier** : 0,5\\\\% à 2\\\\% de la valeur locative\n- **Taxe sur le chiffre d'affaires** : 5\\\\%\n- **Droits de sortie** : Variable selon produit\n\n**Mines :**\n- **Redevance minière** : 3\\\\% à 5\\\\%\n- **Impôt sur les bénéfices** : 25\\\\%\n- **Taxe surface** : \\\\$/ha\n\n### 5.2 Secteur secondaire :\n\n**Industrie :**\n- **Impôt sur les sociétés** : 25\\\\%\n- **TVA** : 18\\\\%\n- **Taxe professionnelle** : 0,5\\\\% à 1,5\\\\%\n\n**BTP :**\n- **Taxe sur les marchés publics** : 5,5\\\\%\n- **Retenue à la source** : 6\\\\%\n\n### 5.3 Secteur tertiaire :\n\n**Commerce :**\n- **Patente** : Forfait selon chiffre d'affaires\n- **TVA** : 18\\\\%\n- **Droits de douane** : 0\\\\% à 20\\\\%\n\n**Services financiers :**\n- **Taxe bancaire** : 0,5\\\\% des dépôts\n- **Taxe sur assurances** : 5\\\\% à 30\\\\%\n\n**Tourisme :**\n- **Taxe de séjour** : 500 à 2,000 FCFA/nuit\n- **TVA hôtelière** : 10\\\\% (taux réduit)\n\n### 5.4 Recettes fiscales par secteur (2023) :\n\n```mathgraph\n{\n  \"type\": \"pie\",\n  \"title\": \"Recettes fiscales par secteur d'activités (2023)\",\n  \"segments\": [\n    { \"label\": \"Tertiaire\", \"value\": 55, \"color\": \"#f59e0b\" },\n    { \"label\": \"Secondaire\", \"value\": 30, \"color\": \"#3b82f6\" },\n    { \"label\": \"Primaire\", \"value\": 15, \"color\": \"#10b981\" }\n  ]\n}\n```\n\n**Montants :**\n- **Tertiaire** : \\\\$5,1 milliards\n- **Secondaire** : \\\\$2,8 milliards\n- **Primaire** : \\\\$1,4 milliards\n- **Total** : \\\\$9,3 milliards\n\n## 6. Importance économique des secteurs\n\n### 6.1 Contribution au PIB :\n\n**Évolution 1960-2024 :**\n\n| Année | Primaire | Secondaire | Tertiaire |\n|-------|----------|------------|-----------|\n| **1960** | 45\\\\% | 10\\\\% | 45\\\\% |\n| **1980** | 30\\\\% | 25\\\\% | 45\\\\% |\n| **2000** | 25\\\\% | 20\\\\% | 55\\\\% |\n| **2024** | 22\\\\% | 28\\\\% | 50\\\\% |\n\n**Tendance :** Désagricolisation relative, industrialisation progressive, tertiarisation dominante mais stable.\n\n### 6.2 Emplois par secteur :\n\n**Répartition 2024 :**\n- **Primaire** : 4,5 millions (45\\\\%)\n- **Tertiaire** : 4 millions (40\\\\%)\n- **Secondaire** : 1,5 million (15\\\\%)\n\n**Productivité par secteur :**\n- **Secondaire** : \\\\$18,000/emploi\n- **Tertiaire** : \\\\$9,400/emploi\n- **Primaire** : \\\\$3,700/emploi\n\n### 6.3 Exportations par secteur :\n\n**2023 :**\n- **Primaire** : 80\\\\% (\\\\$12,8 milliards)\n- **Secondaire** : 20\\\\% (\\\\$3,2 milliards)\n- **Tertiaire** : Services exportés : \\\\$1 milliard\n\n**Problème** : Extraversion excessive, faible transformation.\n\n## 7. Défis et perspectives sectoriels\n\n### 7.1 Secteur primaire :\n\n**Défis :**\n1. **Climat** : Changements, sécheresses\n2. **Prix** : Volatilité marchés internationaux\n3. **Productivité** : Faible mécanisation\n4. **Durabilité** : Déforestation, érosion\n5. **Transformation** : Faible valeur ajoutée\n\n**Perspectives :**\n1. **Agriculture 4.0** : Drones, capteurs\n2. **Bio** : Marchés niches\n3. **Agro-écologie** : Résilience\n4. **Contrats** : Stabilisation revenus\n\n### 7.2 Secteur secondaire :\n\n**Défis :**\n1. **Compétitivité** : Coût énergie, main-d'œuvre\n2. **Infrastructures** : Électricité, transport\n3. **Financement** : Accès crédit PME\n4. **Compétences** : Manque techniciens\n5. **Concurrence** : Importations asiatiques\n\n**Perspectives :**\n1. **ZLECAf** : Marché continental\n2. **Écologie industrielle** : Circuits courts\n3. **Industrie 4.0** : Robotique, IoT\n4. **Clusters** : Pôles de compétitivité\n\n### 7.3 Secteur tertiaire :\n\n**Défis :**\n1. **Formalisation** : 80\\\\% informel\n2. **Qualité** : Services standards bas\n3. **Régulation** : Concurrence déloyale\n4. **Digitalisation** : Fracture numérique\n5. **Tourisme** : Image internationale\n\n**Perspectives :**\n1. **Économie numérique** : Fintech, e-commerce\n2. **Tourisme durable** : Écotourisme\n3. **Services aux entreprises** : Externalisation\n4. **Logistique** : Hub régional\n\n## 8. Étude de cas : Le SARA 2017\n\n### 8.1 Présentation :\n- **Nom complet** : Salon de l'Agriculture et des Ressources Animales\n- **Édition 2017** : 10ème édition\n- **Thème** : 'Agriculture, moteur de croissance et de développement durable'\n- **Visiteurs** : 500,000\n- **Exposants** : 1,500 (dont 30\\\\% étrangers)\n\n### 8.2 Secteurs représentés :\n\n**Primaire :**\n- **Stands** : Cacao, cajou, cultures vivrières\n- **Innovations** : Semences améliorées, irrigation\n- **Élevage** : Races améliorées, alimentation\n\n**Secondaire :**\n- **Machines agricoles** : Tracteurs, moissonneuses\n- **Transformation** : Unités mobiles de transformation\n- **Énergie** : Pompes solaires, biogaz\n\n**Tertiaire :**\n- **Services financiers** : Crédit agricole\n- **Formation** : Écoles d'agriculture\n- **Commerce** : Contrats d'exportation\n\n### 8.3 Impacts économiques :\n- **Contrats signés** : \\\\$500 millions\n- **Emplois créés** : 5,000 (temporaires)\n- **Retombées** : \\\\$50 millions (hôtellerie, transport)\n- **Image** : Promotion international\n\n### 8.4 Leçons pour les élèves :\n1. **Interdépendance** des secteurs\n2. **Importance** de l'innovation\n3. **Potentiel** des filières agricoles\n4. **Nécessité** de la transformation\n5. **Rôle** des services d'appui\n\n## 9. Analyse comparative\n\n### 9.1 Comparaison avec des pays similaires :\n\n**Ghana (voisin) :**\n- **Primaire** : 20\\\\% vs 22\\\\% (Côte d'Ivoire)\n- **Secondaire** : 30\\\\% vs 28\\\\%\n- **Tertiaire** : 50\\\\% vs 50\\\\%\n- **Différence** : Ghana plus industrialisé (pétrole)\n\n**Vietnam (pays émergent) :**\n- **Primaire** : 15\\\\% vs 22\\\\%\n- **Secondaire** : 35\\\\% vs 28\\\\%\n- **Tertiaire** : 50\\\\% vs 50\\\\%\n- **Différence** : Vietnam a réussi sa transformation industriell",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "L'économie ivoirienne est structurée en trois secteurs : primaire (22% PIB), secondaire (28%), tertiaire (50%)",
+    "Le secteur primaire reste dominant avec le cacao (45% mondial), la noix de cajou (1er mondial) et le caoutchouc (1er africain)",
+    "L'industrialisation connaît quatre phases : substitution (1960-80), crise (1980-90), libéralisation (1990-2011), renaissance (2012-2024)",
+    "Le secteur tertiaire est diversifié avec commerce (formel et informel), transports (port d'Abidjan 1er d'AO), tourisme (potentiel sous-exploité) et services financiers",
+    "La fiscalité varie par secteur : primaire (15% recettes), secondaire (30%), tertiaire (55%)",
+    "Les défis incluent la dépendance aux matières premières, la faible transformation locale, l'informalité et la productivité",
+    "Les perspectives reposent sur la ZLECAf, la transformation locale (objectif 50% cacao), le tourisme durable et la digitalisation",
+    "Le SARA 2017 illustre l'interdépendance des secteurs et le potentiel de l'agro-industrie"
+  ],
+  "exercise": {
+    "answer": "**GUIDE DU VISITEUR ÉDUCATIF - SARA 2025**\n**Parcours : 'De la plantation au produit fini, découvrez l'économie ivoirienne !'**\n\n### **ARRÊT 1 : LE CACAO, OR BRUN DU SECTEUR PRIMAIRE**\n\n**Stand : Coopérative ECAM d'Abengourou**\n\n**Activités :**\n- **Démonstration** : Récolte, fermentation, séchage des fèves\n- **Dégustation** : Fèves fraîches, fèves fermentées\n- **Atelier** : Reconnaître les fèves de qualité (coup test)\n- **Métiers présentés** : Producteur, certificateur, agronome\n\n**Données clés :** 2,2M tonnes/an, 1M familles, 45% mondial\n\n**Lien inter-sectoriel :** Ces fèves iront à l'usine de transformation...\n\n### **ARRÊT 2 : DE LA FÈVE AU CHOCOLAT, LA MAGIE DU SECONDAIRE**\n\n**Stand : Choco Ivoire (usine de Yamoussoukro)**\n\n**Activités :**\n- **Processus** : Torréfaction, broyage, conchage\n- **Transformation** : Pâte → beurre + poudre\n- **Fabrication** : Moulage chocolats (atelier participatif)\n- **Métiers présentés** : Chocolatier, responsable qualité, maintenance\n\n**Innovation :** Chocolat ivoirien 70% cacao, sans additifs\n\n**Lien inter-sectoriel :** Ce chocolat sera vendu dans...\n\n### **ARRÊT 3 : COMMERCE ET MARKETING, LE TERTIAIRE EN ACTION**\n\n**Stand : Supermarché Carrefour & Boutique en ligne 'Made in CI'**\n\n**Activités :**\n- **Packaging** : Conception emballage attractif\n- **Pricing** : Fixation prix (coûts + marge)\n- **Marketing** : Création publicité sur tablette\n- **Logistique** : Simulation chaîne du froid\n- **Vente** : Jeu de rôle vendeur-client\n- **E-commerce** : Commande en ligne sur kiosque\n- **Métiers présentés** : Marketeur, logisticien, développeur web\n\n**Données :** 30% seulement du cacao transformé localement\n\n### **ARRÊT 4 : CHAÎNE DE VALEUR INTÉGRÉE**\n\n**Stand interactif 'Du cacaoyer au consommateur'**\n\n**Jeu pédagogique :**\n1. **Équipes** : Producteurs, transformateurs, commerçants\n2. **Objectif** : Maximiser la valeur ajoutée à chaque étape\n3. **Variables** : Prix international, coûts transformation, taxes\n4. **Résultat** : Comprendre pourquoi transformer localement est rentable\n\n**Calcul :**\n- Fève brute : 1.500 FCFA/kg\n- Poudre : 3.000 FCFA/kg\n- Chocolat : 8.000 FCFA/kg\n- **Valeur ajoutée** : +433%\n\n### **ATELIERS SPÉCIAUX :**\n\n**A. Agriculture de précision :**\n- Drones de surveillance\n- Capteurs sol/humidité\n- Applications smartphone\n\n**B. Industrie 4.0 :**\n- Robotique emballage\n- IoT (Internet des Objets) pour traçabilité\n- Impression 3D moules chocolat\n\n**C. Services digitaux :**\n- Application de vente directe\n- Blockchain traçabilité\n- Réalité augmentée boutique\n\n### **MÉTIERS D'AVENIR PRÉSENTÉS :**\n\n**Primaire :**\n- **Ingénieur agro-écologue** : Agriculture durable\n- **Data farmer** : Analyse données cultures\n- **Généticien cacao** : Variétés résistantes\n\n**Secondaire :**\n- **Chocolatier-créateur** : Saveurs innovantes\n- **Technicien maintenance 4.0** : Usines connectées\n- **Designer packaging** : Écologique, attractif\n\n**Tertiaire :**\n- **E-commerçant spécialisé** : Circuits courts\n- **Expert blockchain alimentaire** : Traçabilité\n- **Influenceur gastronomique** : Promotion produits locaux\n\n### **CONCLUSION POUR LES ÉLÈVES :**\n\n**Message clé :** 'La richesse de la Côte d'Ivoire n'est pas dans l'exportation de matières premières brutes, mais dans leur transformation et leur commercialisation intelligente. Chaque secteur a besoin des autres pour créer de la valeur.'\n\n**Question de réflexion :** 'Si vous étiez entrepreneur, quel maillon de la chaîne choisiriez-vous et pourquoi ?'\n\n**Ressources :**\n- **Livret pédagogique** : Données, schémas, quiz\n- **Application SARA 2025** : Visite virtuelle, jeux\n- **Contacts** : Centres de formation, incubateurs\n\n**Prochain rendez-vous :** Concours 'Mon projet économique' avec prix de 1 million FCFA pour la meilleure idée de création d'entreprise intersectorielle !",
+    "question": "En tant qu'organisateur du SARA 2025, vous devez concevoir un parcours éducatif pour les élèves visiteurs. Créez un plan de visite qui : 1) présente un produit phare de chaque secteur (primaire, secondaire, tertiaire) ; 2) montre les liens entre les secteurs à travers une chaîne de valeur ; 3) inclut des ateliers interactifs ; 4) propose des métiers d'avenir dans chaque secteur. Rédigez un guide du visiteur pédagogique (300-400 mots) avec des activités concrètes."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel pourcentage du cacao mondial est produit par la Côte d'Ivoire ?",
+      "options": [
+        "25%",
+        "35%",
+        "45%",
+        "55%"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle est la part du secteur tertiaire dans le PIB ivoirien en 2024 ?",
+      "options": [
+        "40%",
+        "45%",
+        "50%",
+        "55%"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quel port ivoirien est le premier d'Afrique de l'Ouest ?",
+      "options": [
+        "Port de San-Pédro",
+        "Port d'Abidjan",
+        "Port de Grand-Bassam",
+        "Port d'Assinie"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Combien de touristes la Côte d'Ivoire reçoit-elle annuellement ?",
+      "options": [
+        "200,000",
+        "400,000",
+        "600,000",
+        "800,000"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel est l'objectif de transformation locale du cacao dans les perspectives ?",
+      "options": [
+        "40%",
+        "50%",
+        "60%",
+        "70%"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quelle est la principale culture de rente après le cacao ?",
+      "options": [
+        "Café",
+        "Coton",
+        "Noix de cajou",
+        "Hévéa"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel pourcentage des emplois se trouve dans le secteur primaire ?",
+      "options": [
+        "35%",
+        "45%",
+        "55%",
+        "65%"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quel est le principal défi du secteur industriel ivoirien ?",
+      "options": [
+        "Manque de main-d'œuvre",
+        "Coût de l'énergie",
+        "Absence de matières premières",
+        "Manque de marchés"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel acronyme désigne la Zone de Libre-Échange Continentale Africaine ?",
+      "options": [
+        "ZLECA",
+        "ZLECAf",
+        "ZLEA",
+        "ZLEC"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quelle phase d'industrialisation connaît la Côte d'Ivoire depuis 2012 ?",
+      "options": [
+        "Substitution",
+        "Crise",
+        "Libéralisation",
+        "Renaissance"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

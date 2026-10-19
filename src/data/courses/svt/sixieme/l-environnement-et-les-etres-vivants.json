@@ -1,0 +1,44 @@
+{
+  "id": "svt-sixieme-l-environnement-et-les-etres-vivants",
+  "title": "L'environnement et les êtres vivants",
+  "summary": "Lors d'une sortie scolaire dans la forêt du Banco près d'Abidjan, les élèves observent la nature.",
+  "lesson": "## Qu'est-ce qu'un environnement ?\n\nUn environnement est l'ensemble des éléments qui entourent un être vivant.\n\n### Les composantes de l'environnement\n\n**1. Les éléments vivants (biotiques)**\n- Les plantes : arbres, fleurs, herbes\n- Les animaux : oiseaux, insectes, mammifères\n- Les champignons et les bactéries\n\n**2. Les éléments non-vivants (abiotiques)**\n- L'eau (rivières, lacs, pluie)\n- L'air (oxygène, dioxyde de carbone)\n- Le sol (terre, roches, sable)\n- La lumière du soleil\n- La température\n\n## Caractéristiques des êtres vivants\n\nUn être vivant :\n1. **Se nourrit** - pour grandir et vivre\n2. **Respire** - pour obtenir de l'énergie\n3. **Grandit** - se développe\n4. **Se reproduit** - a des descendants\n\n### Exemples en Côte d'Ivoire\n\n**Êtres vivants :**\n- Le palmier à huile\n- L'éléphant de la forêt\n- Les papillons\n- Les poissons du fleuve Comoé\n\n**Non-vivants :**\n- Les rochers de Man\n- L'eau du lac de Kossou\n- Le sable de Grand-Bassam",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "L'environnement = vivant + non-vivant",
+    "Les êtres vivants se nourrissent, respirent, grandissent et se reproduisent",
+    "Tout est lié dans un écosystème"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Qu'est-ce qui caractérise un être vivant ?",
+      "options": [
+        "Il brille",
+        "Il se reproduit",
+        "Il est dur",
+        "Il est grand"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel élément est non-vivant ?",
+      "options": [
+        "Un baobab",
+        "Un oiseau",
+        "Le soleil",
+        "Une bactérie"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

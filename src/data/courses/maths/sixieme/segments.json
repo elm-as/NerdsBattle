@@ -1,0 +1,58 @@
+{
+  "id": "maths-sixieme-segments",
+  "title": "Segments",
+  "summary": "Les élèves du Collège Moderne de MAN doivent tracer les segments du terrain de sport. Comment s'assurer que les segments ont la bonne longueur et que les milieux sont bien placés ?",
+  "lesson": "## Les segments\n\n### Définition du segment\n\nUn segment est la portion de droite **limitée** entre deux points.\n\n**Notation :** [AB]\n- A et B sont les **extrémités** du segment\n- Le segment [AB] est le même que le segment [BA]\n\n### Longueur d'un segment\n\nLa longueur du segment [AB] se note **AB** (sans crochets).\n\n**Mesure :** On utilise une règle graduée.\n\n**Unités :** km, m, dm, cm, mm\n\n**Exemple :** Si AB = 5 cm, on dit que le segment [AB] mesure 5 centimètres.\n\n### Comparer des segments\n\n**À l'aide d'un compas :**\n- Écarter le compas de la longueur du premier segment\n- Reporter sur le deuxième segment\n- Comparer les longueurs\n\n**Segments de même longueur :**\nSi AB = CD, on dit que les segments [AB] et [CD] ont la même longueur.\nOn peut écrire : [AB] ≅ [CD]\n\n### Le milieu d'un segment\n\nLe milieu M d'un segment [AB] est le point qui partage le segment en deux parties égales.\n\n**Propriété :** M est le milieu de [AB] si et seulement si :\n- M appartient au segment [AB]\n- AM = MB\n- AB = 2 × AM = 2 × MB\n\n**Construction à la règle graduée :**\n1. Mesurer AB\n2. Calculer AB ÷ 2\n3. Reporter cette longueur depuis A\n\n**Exemple :** Si AB = 8 cm\n- AM = 8 ÷ 2 = 4 cm\n- M est à 4 cm de A et à 4 cm de B\n\n### La médiatrice d'un segment\n\nLa **médiatrice** d'un segment [AB] est la droite perpendiculaire au segment et passant par son milieu.\n\n**Construction à la règle et à l'équerre :**\n1. Trouver le milieu M de [AB]\n2. Tracer la perpendiculaire à (AB) passant par M\n\n**Propriété importante :**\nTous les points de la médiatrice sont à **égale distance** des extrémités A et B.\n\nSi M appartient à la médiatrice de [AB], alors MA = MB.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Segment limité : [AB]",
+    "Milieu M : AM = MB et AB = 2×AM",
+    "Médiatrice : droite perpendiculaire passant par le milieu",
+    "Points de la médiatrice : équidistants des extrémités"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Comment note-t-on un segment d'extrémités A et B ?",
+      "options": [
+        "(AB)",
+        "[AB]",
+        "[AB)",
+        "{AB}"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Si M est le milieu de [AB] avec AB = 10 cm, alors AM = ?",
+      "options": [
+        "5 cm",
+        "10 cm",
+        "20 cm",
+        "2,5 cm"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La médiatrice d'un segment est :",
+      "options": [
+        "Le milieu du segment",
+        "Perpendiculaire au segment",
+        "Parallèle au segment",
+        "Un point"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

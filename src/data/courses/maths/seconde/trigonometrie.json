@@ -1,0 +1,44 @@
+{
+  "id": "maths-seconde-trigonometrie",
+  "title": "Trigonométrie",
+  "summary": "En navigation ou en physique, la trigonométrie est essentielle. Comment l'utiliser au-delà du triangle rectangle ?",
+  "lesson": "## Trigonométrie\n\n### Cercle trigonométrique\n- Rayon = 1\n- Sens trigonométrique = sens inverse des aiguilles\n\n### Valeurs remarquables\n| Angle | 0° | 30° | 45° | 60° | 90° |\n|-------|-----|------|------|------|------|\n| sin | 0 | 1/2 | √2/2 | √3/2 | 1 |\n| cos | 1 | √3/2 | √2/2 | 1/2 | 0 |\n\n### Formules fondamentales\n- sin²(x) + cos²(x) = 1\n- tan(x) = sin(x) / cos(x)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Cercle trigo : rayon 1",
+    "Valeurs remarquables à connaître",
+    "sin²(x) + cos²(x) = 1"
+  ],
+  "exercise": {
+    "question": "Si cos(x) = 1/2 et x ∈ [0 ; π], calcule sin(x).",
+    "answer": "\n**Solution :**\nsin²(x) + cos²(x) = 1\nsin²(x) = 1 − (1/2)² = 1 − 1/4 = 3/4\nsin(x) = √(3/4) = √3/2 (positif car x ∈ [0 ; π])\n\n**Réponse : sin(x) = √3/2**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "sin(30°) = ?",
+      "options": [
+        "0",
+        "1/2",
+        "√2/2",
+        "√3/2"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "sin²(x) + cos²(x) = ?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "sin(2x)"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

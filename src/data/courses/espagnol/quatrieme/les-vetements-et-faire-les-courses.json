@@ -1,0 +1,45 @@
+{
+  "id": "espagnol-quatrieme-les-vetements-et-faire-les-courses",
+  "title": "Les vêtements et faire les courses",
+  "summary": "¿Qué ropa llevas hoy? (Quels vêtements portes-tu aujourd'hui ?)",
+  "lesson": "## Les vêtements et le shopping\n\n### Les vêtements\n\n- la camisa (la chemise)\n- la camiseta (le t-shirt)\n- los pantalones (le pantalon)\n- la falda (la jupe)\n- el vestido (la robe)\n- los zapatos (les chaussures)\n- las zapatillas (les baskets)\n- la chaqueta (la veste)\n\n### Les couleurs\n\n- rojo/a (rouge)\n- azul (bleu/e)\n- amarillo/a (jaune)\n- verde (vert/e)\n- negro/a (noir/e)\n- blanco/a (blanc/he)\n- naranja (orange)\n\n### Au magasin\n\n- ¿Cuánto cuesta? (Combien ça coûte ?)\n- ¿Qué talla usa? (Quelle taille faites-vous ?)\n- ¿Puedo probármelo? (Puis-je l'essayer ?)\n- Me queda bien/mal (Ça me va bien/mal)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "La camisa = la chemise, los pantalones = le pantalon",
+    "Llevar = porter (vêtements)",
+    "¿Cuánto cuesta? = Combien ça coûte ?",
+    "Les couleurs s'accordent : rojo/roja"
+  ],
+  "exercise": {
+    "question": "Décris les vêtements que tu portes aujourd'hui.",
+    "answer": "Hoy llevo una camiseta azul, pantalones negros y zapatillas blancas. También llevo una chaqueta roja."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "'Los zapatos' signifie :",
+      "options": [
+        "Les chaussettes",
+        "Les chaussures",
+        "Les baskets",
+        "Les sandales"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Pour demander le prix, on dit :",
+      "options": [
+        "¿Qué precio?",
+        "¿Cuánto cuesta?",
+        "¿Cómo cuesta?",
+        "¿Dónde cuesta?"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

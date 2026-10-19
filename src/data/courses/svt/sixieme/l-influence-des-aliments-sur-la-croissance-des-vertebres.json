@@ -1,0 +1,148 @@
+{
+  "id": "svt-sixieme-l-influence-des-aliments-sur-la-croissance-des-vertebres",
+  "title": "L'influence des aliments sur la croissance des vertébrés",
+  "summary": "Deux lots de poussins (A : riz uniquement ; B : maïs + poisson + coquillage) reçoivent des régimes différents. Le lot B a une meilleure croissance. Les élèves cherchent à comprendre la composition des aliments et leur influence sur la croissance.",
+  "lesson": "## 🍗 Le Carburant de la Croissance chez les Vertébrés\n\n### 1. La Composition des Aliments\nLes aliments que consomment les vertébrés sont complexes, mais se composent de :\n* Aliments Constructeurs (Bâtisseurs) :\n  * Protides (Viande, poisson, œufs) : Essentiels pour construire les muscles, la peau, les os.\n* Aliments Énergétiques :\n  * Glucides (Céréales, pain) et Lipides (graisses, huiles) : Fournissent l'énergie nécessaire à l'activité et au maintien de la température corporelle.\n* Autres Composants Essentiels :\n  * Sels Minéraux (Calcium pour les os), Vitamines (assurent le bon fonctionnement de l'organisme) et Eau.\n\n### 2. L'Influence sur la Croissance\nLa croissance dépend à la fois de la quantité et de la qualité de l'alimentation :\n* Influence de la Quantité : Une quantité insuffisante entraîne un retard ou un arrêt de croissance. Une quantité excessive peut causer l'obésité.\n* Influence de la Qualité : C'est le facteur le plus important pour la croissance. Si l'aliment est incomplet (comme le riz seul pour le lot A, pauvre en protéines), la croissance est mauvaise. L'ajout de poisson (riche en protides) et de coquillage (riche en sels minéraux) au lot B permet une meilleure croissance.\n\n### 3. Rôle des Aliments Simples\n* Les Protides sont les principaux responsables de la croissance et de la réparation (rôle bâtisseur).\n* Les Glucides et les Lipides sont les sources d'énergie (rôle énergétique).",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Les Protides sont les nutriments clés pour la croissance.",
+    "Une alimentation de bonne qualité (équilibrée) est plus importante que la quantité seule.",
+    "Les Glucides/Lipides donnent l'énergie, les Protides construisent."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel aliment simple a un rôle principalement constructeur ?",
+      "options": [
+        "L'Eau",
+        "Les Glucides",
+        "Les Vitamines",
+        "\"Les Protides\""
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Un manque de nourriture (quantité insuffisante) provoque :",
+      "options": [
+        "L'Obésité",
+        "Un bon fonctionnement",
+        "\"Un retard de croissance\"",
+        "La maladie"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Le calcium (un sel minéral) est essentiel pour :",
+      "options": [
+        "Les muscles",
+        "Les poils",
+        "\"Les os\"",
+        "La graisse"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel aliment simple fournit la majorité de l'énergie rapide ?",
+      "options": [
+        "Sels minéraux",
+        "\"Glucides\"",
+        "Protides",
+        "Vitamines"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "La croissance des vertébrés dépend de la... de l'alimentation.",
+      "options": [
+        "Couleur",
+        "Température",
+        "Provenance",
+        "\"Qualité et quantité\""
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel nutriment est le plus important pour la croissance ?",
+      "options": [
+        "Les glucides",
+        "Les protides",
+        "L'eau",
+        "Les lipides"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel aliment est riche en calcium ?",
+      "options": [
+        "Le riz",
+        "Le poisson avec arêtes",
+        "La mangue",
+        "Le pain"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Que se passe-t-il si on mange trop peu ?",
+      "options": [
+        "On grandit plus vite",
+        "On a un retard de croissance",
+        "On devient très fort",
+        "Rien"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel est le rôle principal des glucides ?",
+      "options": [
+        "Construire les muscles",
+        "Fournir de l'énergie",
+        "Solidifier les os",
+        "Réparer les tissus"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Pourquoi faut-il manger varié ?",
+      "options": [
+        "Pour le goût uniquement",
+        "Pour avoir tous les nutriments nécessaires",
+        "Pour grossir",
+        "Ce n'est pas important"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

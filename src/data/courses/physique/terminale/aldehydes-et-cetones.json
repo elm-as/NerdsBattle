@@ -1,0 +1,96 @@
+{
+  "id": "physique-terminale-aldehydes-et-cetones",
+  "title": "Aldéhydes et cétones",
+  "summary": "Formol vs acétone ?",
+  "lesson": "## Aldéhydes\nR-CHO\nTests : Schiff, Fehling, Tollens\n\n## Cétones\nR-CO-R'\nPas de réaction aux tests",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Aldéhyde : R-CHO",
+    "Cétone : R-CO-R'",
+    "Aldéhyde oxydable"
+  ],
+  "exercise": {
+    "question": "Miroir d'argent. Aldéhyde ou cétone ?",
+    "answer": "Aldéhyde"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Groupe carbonyle ?",
+      "options": [
+        "C-O",
+        "C=O",
+        "C≡O",
+        "C-OH"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-physique-1-mva63boe",
+      "type": "mcq",
+      "prompt": "Lors de la réaction d'oxydation douce d'un aldéhyde $R-CHO$ par l'agent de Fehling, quel est le produit organique principal formé et quel est l'état d'oxydation du carbone carbonyle dans le produit par rapport au réactif ?",
+      "options": [
+        "Un acide carboxylique $R-COOH$ ; l'état d'oxydation du carbone augmente",
+        "Un alcool primaire $R-CH_2OH$ ; l'état d'oxydation du carbone diminue",
+        "Un acide carboxylique $R-COOH$ ; l'état d'oxydation du carbone diminue",
+        "Un alcool primaire $R-CH_2OH$ ; l'état d'oxydation du carbone augmente"
+      ],
+      "answer": 0,
+      "explanation": "L'aldéhyde est un intermédiaire d'oxydation. L'agent de Fehling (solution alcaline de sulfate de cuivre(II) et tartrate) est un oxydant doux qui transforme le groupe aldéhyde $-CHO$ en groupe carboxylate $-COO^-$ (protoné en acide carboxylique $-COOH$ en milieu acide). L'oxydation correspond à une perte d'électrons, donc une augmentation de l'état d'oxydation du carbone carbonyle (de +1 à +3)."
+    },
+    {
+      "id": "auto-physique-2-mva63boe",
+      "type": "mcq",
+      "prompt": "Considérons la molécule de propanone (acétone) $CH_3-CO-CH_3$. Si on la soumet à un test de Tollens (ammoniacate d'argent), quelle est l'observation macroscopique attendue et quelle est la raison chimique fondamentale de cette observation ?",
+      "options": [
+        "Dépôt d'un miroir d'argent ; la propanone est un réducteur puissant",
+        "Aucun changement visible ; la propanone ne possède pas d'hydrogène sur le carbone carbonyle",
+        "Précipité rouge brique ; la propanone réagit avec l'ion argent",
+        "Décoloration de la solution ; la propanone est un acide faible"
+      ],
+      "answer": 1,
+      "explanation": "Le test de Tollens est spécifique aux aldéhydes. La réaction nécessite la présence d'un atome d'hydrogène lié directement au carbone carbonyle ($R-CHO$) pour permettre l'oxydation en acide carboxylique. La propanone est une cétone ($R-CO-R'$) qui ne possède pas d'hydrogène sur le carbone carbonyle, elle est donc stable vis-à-vis de cet oxydant doux et ne réagit pas, d'où l'absence de dépôt d'argent."
+    },
+    {
+      "id": "auto-physique-3-mva63boe",
+      "type": "mcq",
+      "prompt": "Le formol est une solution aqueuse de méthanal (formaldéhyde) $H-CHO$. Lors de son test avec la réactif de Schiff, quelle est la couleur caractéristique obtenue et quel est le mécanisme de détection principal ?",
+      "options": [
+        "Couleur rouge-violet ; formation d'une adduction entre l'aldéhyde et le chromophore du réactif",
+        "Couleur jaune ; précipitation d'un sel de chrome",
+        "Couleur bleue ; complexation avec l'ion cuivre(II)",
+        "Couleur verte ; formation d'une imine stable"
+      ],
+      "answer": 0,
+      "explanation": "Le réactif de Schiff est un colorant azoïque décoloré par l'acide sulfureux. En présence d'un aldéhyde comme le méthanal, l'aldéhyde réagit avec le réactif pour former une adduction qui restaure le système conjugué du chromophore, entraînant l'apparition d'une couleur rose, rouge ou violette. Ce test est sensible et spécifique aux aldéhydes."
+    },
+    {
+      "id": "auto-physique-4-mva63boe",
+      "type": "mcq",
+      "prompt": "Dans la structure d'une cétone générique $R-C(=O)-R'$, si $R$ et $R'$ sont deux groupes alkyles différents, la molécule est-elle chiral au niveau du carbone carbonyle ? Justifiez votre réponse par la géométrie de ce carbone.",
+      "options": [
+        "Oui, car le carbone carbonyle est lié à quatre groupes différents",
+        "Non, car le carbone carbonyle est $sp^2$ hybridé et la molécule présente un plan de symétrie local",
+        "Oui, car la double liaison $C=O$ crée un moment dipolaire qui induit la chiralité",
+        "Non, car les groupes $R$ et $R'$ sont toujours identiques dans les cétones"
+      ],
+      "answer": 1,
+      "explanation": "Le carbone carbonyle d'une cétone est hybridé $sp^2$ et adopte une géométrie trigonale plane. Il est lié à trois atomes (l'oxygène et deux carbones des chaînes $R$ et $R'$). Même si $R \neq R'$, le carbone carbonyle n'est pas un centre stéréogénique car il n'est pas lié à quatre groupes distincts (il est plan). La chiralité dans les cétones asymétriques peut exister sur d'autres carbones de la chaîne, mais jamais sur le carbone carbonyle lui-même."
+    },
+    {
+      "id": "auto-physique-5-mva63boe",
+      "type": "mcq",
+      "prompt": "On compare la réactivité du méthanal ($H-CHO$) et de l'éthanal ($CH_3-CHO$) vis-à-vis de l'addition nucléophile. Lequel des deux est le plus réactif et pourquoi, d'un point de vue électronique ?",
+      "options": [
+        "L'éthanal, car le groupe méthyle est électro-attracteur et active le carbone carbonyle",
+        "Le méthanal, car l'absence de groupe alkyle électro-donneur rend le carbone carbonyle plus électrophile",
+        "Ils ont la même réactivité, car le groupe carbonyle est identique",
+        "L'éthanal, car la stérique empêche la réaction sur le méthanal"
+      ],
+      "answer": 1,
+      "explanation": "Les groupes alkyles (comme le méthyle dans l'éthanal) sont électro-donneurs par effet inductif ($+I$). Ils augmentent la densité électronique sur le carbone carbonyle, le rendant moins électrophile et donc moins réactif vis-à-vis des nucléophiles. Le méthanal, n'ayant que des hydrogènes (effet inductif nul ou faible), possède un carbone carbonyle plus pauvre en électrons et donc plus réactif."
+    }
+  ]
+}

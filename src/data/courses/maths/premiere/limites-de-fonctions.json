@@ -1,0 +1,44 @@
+{
+  "id": "maths-premiere-limites-de-fonctions",
+  "title": "Limites de fonctions",
+  "summary": "Pour étudier le comportement d'une fonction à l'infini, on calcule des limites. Comment procéder ?",
+  "lesson": "## Limites de fonctions\n\n### Limites de référence\n- lim[x→+∞] xⁿ = +∞\n- lim[x→+∞] 1/x = 0\n- lim[x→0] 1/x² = +∞\n\n### Opérations sur les limites\nSomme, produit, quotient, composition\n\n### Formes indéterminées\nÀ lever :\n- ∞ − ∞\n- 0 × ∞\n- ∞ / ∞\n- 0 / 0\n\n**Méthodes :**\n- Factoriser\n- Multiplier par la quantité conjuguée\n- Mettre en facteur le terme de plus haut degré\n\n### Asymptotes\n- **Verticale** : lim[x→a] f(x) = ±∞\n- **Horizontale** : lim[x→±∞] f(x) = L\n- **Oblique** : y = ax + b",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Formes indéterminées à lever",
+    "Factoriser pour simplifier",
+    "Asymptotes : interprétation graphique"
+  ],
+  "exercise": {
+    "question": "Calcule lim[x→+∞] (3x² + 2x) / (x² − 1)",
+    "answer": "\n**Solution :**\nForme ∞/∞\nFactoriser par x² :\n= lim (3 + 2/x) / (1 − 1/x²)\n= (3 + 0) / (1 − 0) = 3\n\n**Réponse : lim = 3**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "lim[x→+∞] 1/x² = ?",
+      "options": [
+        "0",
+        "1",
+        "+∞",
+        "−∞"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "∞/∞ est une forme :",
+      "options": [
+        "Déterminée",
+        "Indéterminée",
+        "Nulle",
+        "Infinie"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

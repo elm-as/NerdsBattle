@@ -1,0 +1,71 @@
+{
+  "id": "francais-seconde-analyse-stylistique-et-thematique-de-la-poesie",
+  "title": "Analyse stylistique et thématique de la poésie",
+  "summary": "Pour le concours de critique littéraire organisé par la Revue Ivoirienne de Littérature, les élèves de Seconde A doivent produire une analyse détaillée de poèmes africains contemporains. Ils se plongent dans l'étude stylistique et thématique de la poésie pour affiner leur sens critique.",
+  "lesson": "## 1. La poésie comme travail sur la langue\n\n**Spécificité du langage poétique :**\n- **Densité** : concentration du sens.\n- **Suggestivité** : pouvoir d'évocation.\n- **Musicalité** : travail sur les sons et le rythme.\n\n## 2. Analyse métrique et rythmique approfondie\n\n**Au-delà du comptage des syllabes :**\n- **Césure et coupes** : respiration du vers.\n- **Enjambements, rejets, contre-rejets** : tension entre syntaxe et vers.\n- **Rythmes binaires/ternaires** : effets émotionnels.\n\n**Exercice :** Analyser le rythme d'un alexandrin de Senghor.\n\n## 3. Étude des sonorités : de la technique à l'interprétation\n\n**Allitération et assonance :**\n- **Fonction mimétique** : imitation des bruits.\n- **Fonction expressive** : création d'atmosphère.\n- **Fonction structurante** : unité sonore du poème.\n\n**Exemple :** Analyse des sonorités dans « Femme noire » de Senghor.\n\n## 4. Le système des images poétiques\n\n**Typologie des images :**\n- **Métaphore filée** : développement cohérent d'une comparaison implicite.\n- **Symboles** : images chargées de significations culturelles.\n- **Synesthésies** : mélange des sensations.\n\n**Analyse :** Les images de la négritude chez Césaire.\n\n## 5. Tableau des registres poétiques\n\n| Registre | Caractéristiques | Procédés typiques | Exemple africain |\n|----------|------------------|-------------------|------------------|\n| **Lyrique** | Expression des sentiments personnels | Apostrophe, exclamation, champs lexicaux des émotions | Poèmes d'amour de Jean-Joseph Rabearivelo |\n| **Épique** | Célébration des héros et des hauts faits | Hyperboles, énumérations, anaphores | Chants de geste traditionnels |\n| **Élégiaque** | Expression de la mélancolie, de la perte | Interrogations, images de l'automne, du soir | Poèmes de la diaspora africaine |\n| **Satirique** | Critique moqueuse des défauts | Ironie, antiphrase, caricature | Poésie engagée de Bernard Dadié |\n\n## 6. Poésie et engagement\n\n**La poésie comme arme :**\n- **Poésie de la négritude** : affirmation identitaire.\n- **Poésie de la résistance** : dénonciation politique.\n- **Poésie du témoignage** : voix des opprimés.\n\n**Analyse :** « Je ne suis pas seul » d'Aimé Césaire.\n\n## 7. Étude comparative de deux poètes africains\n\n**Comparaison Senghor / Césaire :**\n- **Senghor** : lyrisme, célébration, harmonie.\n- **Césaire** : violence verbale, révolte, imaginaire baroque.\n- **Points communs** : affirmation noire, usage de la langue française comme appropriation.\n\n## 8. Production : explication de texte poétique\n\n**Consigne :** Rédigez une explication détaillée du poème « Prière aux masques » de Senghor en analysant :\n1. **La structure et la versification**.\n2. **Le système des images et des symboles**.\n3. **La dimension spirituelle et identitaire**.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Analyser finement la versification (mètre, rimes, rythme) au-delà du simple comptage.",
+    "Interpréter les sonorités (allitérations, assonances) dans leurs fonctions expressives.",
+    "Étudier le système des images (métaphores, symboles) et leur cohérence.",
+    "Rédiger une explication de texte poétique qui relie forme et sens."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle figure consiste à s'adresser directement à un être absent ou abstrait ?",
+      "options": [
+        "La métaphore",
+        "L'apostrophe",
+        "L'anaphore",
+        "L'oxymore"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Un vers de 12 syllabes est un :",
+      "options": [
+        "Décasyllabe",
+        "Alexandrin",
+        "Octosyllabe",
+        "Hexasyllabe"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La répétition de la même voyelle dans plusieurs vers est une :",
+      "options": [
+        "Allitération",
+        "Assonance",
+        "Césure",
+        "Diérèse"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel registre exprime la mélancolie et la nostalgie ?",
+      "options": [
+        "Lyrique",
+        "Épique",
+        "Élégiaque",
+        "Satirique"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

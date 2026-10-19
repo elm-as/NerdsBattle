@@ -1,0 +1,32 @@
+{
+  "id": "physique-terminale-circuit-rlc-en-regime-sinusoidal-force",
+  "title": "Circuit RLC en régime sinusoïdal forcé",
+  "summary": "Comment réagit un circuit RLC à une tension alternative ?",
+  "lesson": "## I. Impédances complexes\n\n### 1.1 Résistance\n**ZR = R** (réelle, pas de déphasage)\n\n### 1.2 Bobine\n**ZL = jLω** (imaginaire pure)\nModule : |ZL| = Lω\n\n### 1.3 Condensateur\n**ZC = 1/(jCω) = -j/(Cω)**\nModule : |ZC| = 1/(Cω)\n\n## II. Circuit RLC série\n\n### 2.1 Impédance totale\n**Z = R + jLω - j/(Cω)**\n**Z = R + j(Lω - 1/(Cω))**\n\n### 2.2 Module de l'impédance\n**Z = √[R² + (Lω - 1/(Cω))²]**\n\n### 2.3 Déphasage\n**tan φ = (Lω - 1/(Cω))/R**\n\n- φ > 0 : circuit inductif (u en avance sur i)\n- φ < 0 : circuit capacitif (u en retard sur i)\n- φ = 0 : résonance\n\n## III. Résonance d'intensité\n\n### 3.1 Condition\n**Lω₀ = 1/(Cω₀)**\n\n**Pulsation de résonance** :\n**ω₀ = 1/√(LC)**\n\n### 3.2 À la résonance\n- Z = R (minimale)\n- I maximale : I₀ = U/R\n- φ = 0 (u et i en phase)\n- Comportement résistif pur\n\n## IV. Loi d'Ohm généralisée\n**U = ZI**\n\nEn sinusoïdal :\nu(t) = U√2 cos(ωt)\ni(t) = I√2 cos(ωt - φ)\n\nAvec : I = U/Z",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Z = √[R² + (Lω - 1/(Cω))²]",
+    "Résonance : ω₀ = 1/√(LC)",
+    "À résonance : Z = R (minimale), I maximale",
+    "tan φ = (Lω - 1/(Cω))/R"
+  ],
+  "exercise": {
+    "question": "Circuit RLC à résonance : R = 100 Ω, U = 10 V. Calculer I.",
+    "answer": "À résonance Z = R, donc I = U/R = 10/100 = 0,1 A"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "À la résonance, l'impédance Z vaut ?",
+      "options": [
+        "0",
+        "R",
+        "∞",
+        "L/C"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,409 @@
+{
+  "id": "physique-premiere-reactions-d-oxydoreduction-en-solution-aqueuse",
+  "title": "Réactions d'oxydoréduction en solution aqueuse",
+  "summary": "Un groupe d'élèves d'Agboville réalise une expérience : ils immergent de la paille de fer dans une solution de sulfate de cuivre(II). Ils observent un dépôt rouge-brun sur la paille et la décoloration de la solution. Intrigués par cette transformation, ils cherchent à l'interpréter et à comprendre les concepts d'oxydoréduction qui la gouvernent.",
+  "lesson": "## 1. Introduction\n\nLes **réactions d'oxydoréduction** (redox) sont des réactions chimiques où il y a **transfert d'électrons** entre les réactifs. Elles sont omniprésentes : corrosion des métaux à Abidjan (humidité), piles et batteries, métallurgie (extraction du fer), respiration cellulaire, traitement des eaux usées.\n\n## 2. Observation expérimentale\n\n**Expérience** : $Fe_{(s)} + CuSO_{4(aq)} \\\\rightarrow$\n\n**Observations** :\n1. La solution bleue de $Cu^{2+}$ se décolore.\n2. Un dépôt rouge-brun (cuivre métallique) apparaît sur la paille de fer.\n3. La paille de fer se corrode (diminution de masse).\n\n**Interprétation** : Le fer $Fe$ cède des électrons aux ions $Cu^{2+}$ qui se transforment en cuivre métallique $Cu$.\n\n## 3. Définitions fondamentales\n\n**Oxydation** : Perte d'électrons (augmentation du nombre d'oxydation).\n**Réduction** : Gain d'électrons (diminution du nombre d'oxydation).\n\n**Oxydant** : Espèce qui gagne des électrons (se réduit).\n**Réducteur** : Espèce qui perd des électrons (s'oxyde).\n\n**Couple oxydant/réducteur** : Deux espèces conjuguées différant par un ou plusieurs électrons. Notation : $Ox/Red$ (ex : $Cu^{2+}/Cu$, $Fe^{2+}/Fe$).\n\n## 4. Demi-équations électroniques\n\nReprésentent le transfert d'électrons pour chaque couple.\n\n**Pour le couple $Cu^{2+}/Cu$** :\n$$Cu^{2+}_{(aq)} + 2e^- \\\\rightleftharpoons Cu_{(s)}$$\n(L'oxydant $Cu^{2+}$ se réduit en gagnant 2 électrons)\n\n**Pour le couple $Fe^{2+}/Fe$** :\n$$Fe_{(s)} \\\\rightleftharpoons Fe^{2+}_{(aq)} + 2e^-$$\n(Le réducteur $Fe$ s'oxyde en perdant 2 électrons)\n\n**Description du schéma 1:** Schéma du transfert d'électrons entre le fer et l'ion cuivre. Représenter un atome Fe qui perd 2 e⁻, devenant Fe²⁺ en solution. Montrer les 2 e⁻ allant vers un ion Cu²⁺ qui devient un atome Cu solide.\n\n## 5. Équation-bilan de la réaction\n\nOn combine les deux demi-équations après égalisation des électrons (ici, déjà 2 e⁻ de chaque côté) :\n\nOxydation (Fe) : $Fe \\\\rightarrow Fe^{2+} + 2e^-$\nRédution (Cu²⁺) : $Cu^{2+} + 2e^- \\\\rightarrow Cu$\n\n**Équation bilan** :\n$$Fe_{(s)} + Cu^{2+}_{(aq)} \\\\rightarrow Fe^{2+}_{(aq)} + Cu_{(s)}$$\n\nOu avec l'ion spectateur $SO_4^{2-}$ :\n$$Fe_{(s)} + CuSO_{4(aq)} \\\\rightarrow FeSO_{4(aq)} + Cu_{(s)}$$\n\n## 6. Autre exemple : réaction Ag⁺/Cu\n\nPlaque de cuivre dans une solution de nitrate d'argent $AgNO_3$ :\n- Observations : Dépôt gris (argent) sur le cuivre, solution devient bleue (ions $Cu^{2+}$).\n\n**Demi-équations** :\n- $Cu \\\\rightarrow Cu^{2+} + 2e^-$ (oxydation)\n- $Ag^+ + e^- \\\\rightarrow Ag$ (réduction)\n\n**Égalisation des e⁻** : Multiplier la 2e par 2 : $2Ag^+ + 2e^- \\\\rightarrow 2Ag$\n\n**Équation bilan** :\n$$Cu_{(s)} + 2Ag^+_{(aq)} \\\\rightarrow Cu^{2+}_{(aq)} + 2Ag_{(s)}$$\n\n## 7. Nombre d'oxydation (n.o.)\n\n**Définition** : Charge fictive que posséderait un atome si les liaisons étaient ioniques.\n\n**Règles de calcul** :\n1. Élément seul : n.o. = 0 (ex : Fe, Cu, O₂)\n2. Ion monoatomique : n.o. = charge (ex : Na⁺ → +1, Cl⁻ → -1)\n3. Hydrogène : +1 sauf hydrures (-1)\n4. Oxygène : -2 sauf peroxydes (-1)\n5. Somme des n.o. dans un composé = charge totale\n\n**Exemples** :\n- $CuSO_4$ : Cu²⁺ (+2), S dans SO₄²⁻ (+6), O (-2) → vérif : +2 +6 +4×(-2)=0\n- $H_2O$ : H (+1)×2 + O (-2) = 0\n\n**Description du schéma 2:** Tableau de variations des nombres d'oxydation dans la réaction Fe + Cu²⁺ → Fe²⁺ + Cu. Montrer Fe (n.o.=0) → Fe²⁺ (n.o.=+2) : augmentation = oxydation ; Cu²⁺ (n.o.=+2) → Cu (n.o.=0) : diminution = réduction.\n\n## 8. Applications en Côte d'Ivoire\n\n1. **Corrosion** : Protection des structures métalliques (ponts, bateaux, pipelines).\n2. **Traitement des eaux** : Élimination de métaux lourds par réduction/oxydation.\n3. **Électroplating** : Dépôt d'une couche métallique (nickelage, chromage) pour la décoration ou protection.\n4. **Piles et accumulateurs** : Principe des batteries (voitures, téléphones).\n5. **Métallurgie** : Extraction des métaux de leurs minerais (ex : $Fe_2O_3 + 3CO \\\\rightarrow 2Fe + 3CO_2$).\n\n## 9. Écriture générale des demi-équations\n\nPour un couple $Ox/Red$ : $Ox + n e^- \\\\rightleftharpoons Red$\n\n**Ajustement** en milieu aqueux : ajouter $H^+$, $H_2O$ ou $OH^-$ pour équilibrer les atomes et les charges.\n\n**Exemples** :\n- $MnO_4^- + 8H^+ + 5e^- \\\\rightleftharpoons Mn^{2+} + 4H_2O$\n- $Cr_2O_7^{2-} + 14H^+ + 6e^- \\\\rightleftharpoons 2Cr^{3+} + 7H_2O$\n\n## 10. Méthode pour équilibrer une équation redox\n\n1. Identifier les variations de n.o.\n2. Écrire les demi-équations.\n3. Égaliser le nombre d'électrons transférés.\n4. Combiner les demi-équations.\n5. Vérifier l'équilibre atome et charge.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Une réaction d'oxydoréduction implique un transfert d'électrons",
+    "L'oxydation = perte d'e⁻ ; la réduction = gain d'e⁻",
+    "Oxydant et réducteur forment un couple : Ox + n e⁻ ⇌ Red",
+    "L'équation bilan s'obtient en combinant les demi-équations après égalisation des électrons"
+  ],
+  "exercise": {
+    "answer": "**1. Demi-équations :**\n- Couple Zn²⁺/Zn : $Zn_{(s)} \\\\rightleftharpoons Zn^{2+}_{(aq)} + 2e^-$ (oxydation)\n- Couple Ag⁺/Ag : $Ag^+_{(aq)} + e^- \\\\rightleftharpoons Ag_{(s)}$ (réduction)\n\n**2. Égalisation des électrons et équation bilan :**\nMultiplier la 2e demi-équation par 2 : $2Ag^+ + 2e^- \\\\rightarrow 2Ag$\nCombinaison : $Zn + 2Ag^+ + 2e^- \\\\rightarrow Zn^{2+} + 2Ag + 2e^-$\nSimplification :\n$$Zn_{(s)} + 2Ag^+_{(aq)} \\\\rightarrow Zn^{2+}_{(aq)} + 2Ag_{(s)}$$\n\n**3. Calcul stœchiométrique :**\nD'après l'équation : 1 mol Zn → 2 mol Ag\n- Quantité de Zn : $n_{Zn} = \\\\frac{m}{M} = \\\\frac{5,0}{65,4} \\\\approx 0,0765\\\\ \\\text{mol}$\n- Quantité d'Ag : $n_{Ag} = 2 \\\times n_{Zn} = 2 \\\times 0,0765 = 0,153\\\\ \\\text{mol}$\n- Masse d'Ag : $m_{Ag} = n_{Ag} \\\times M_{Ag} = 0,153 \\\times 107,9 \\\\approx 16,5\\\\ \\\text{g}$\n\n**Réponse :** Zn → Zn²⁺ + 2e⁻ ; Ag⁺ + e⁻ → Ag ; Zn + 2Ag⁺ → Zn²⁺ + 2Ag ; m_Ag théorique ≈ 16,5 g.",
+    "question": "1) Écrire les demi-équations électroniques des couples Zn²⁺/Zn et Ag⁺/Ag. 2) En déduire l'équation bilan de la réaction entre le zinc métallique et les ions argent. 3) On plonge une lame de zinc de 5,0 g dans un excès de solution de nitrate d'argent. Quelle masse d'argent obtiendra-t-on théoriquement ? Données : M(Zn)=65,4 g/mol ; M(Ag)=107,9 g/mol."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans une réaction redox, l'oxydant est l'espèce qui :",
+      "options": [
+        "Gagne des électrons",
+        "Perd des électrons",
+        "Ne change pas",
+        "Gagne des protons"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La réaction Fe + Cu²⁺ → Fe²⁺ + Cu montre que :",
+      "options": [
+        "Fe est réduit",
+        "Cu²⁺ est oxydé",
+        "Fe est oxydé",
+        "Aucun transfert d'électrons"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Le couple Cu²⁺/Cu a pour demi-équation :",
+      "options": [
+        "Cu → Cu²⁺ + 2e⁻",
+        "Cu²⁺ + 2e⁻ → Cu",
+        "Cu⁺ + e⁻ → Cu",
+        "Cu²⁺ → Cu + 2e⁻"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "L'oxydation correspond à :",
+      "options": [
+        "Une diminution du n.o.",
+        "Une augmentation du n.o.",
+        "Un gain d'électrons",
+        "Une réduction"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Pour équilibrer une équation redox, on doit d'abord :",
+      "options": [
+        "Écrire les demi-équations",
+        "Calculer les masses",
+        "Mesurer le pH",
+        "Chauffer"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Le réducteur est l'espèce qui :",
+      "options": [
+        "Subit une réduction",
+        "Subit une oxydation",
+        "Gagne des électrons",
+        "Est toujours un métal"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Dans Zn + 2Ag⁺ → Zn²⁺ + 2Ag, le nombre d'électrons transférés est :",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "0"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Le n.o. de l'oxygène dans H₂O est :",
+      "options": [
+        "-2",
+        "-1",
+        "+1",
+        "0"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Une réaction redox peut être utilisée pour :",
+      "options": [
+        "Extraire des métaux",
+        "Mesurer des volumes",
+        "Déterminer des températures",
+        "Préparer des solutions neutres"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Pour le couple MnO₄⁻/Mn²⁺ en milieu acide, les espèces à ajouter sont :",
+      "options": [
+        "OH⁻",
+        "H⁺ et H₂O",
+        "Cl⁻",
+        "Aucune"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Dans la réaction Zn + Cu²⁺ → Zn²⁺ + Cu, quelle espèce est l’oxydant ?",
+      "options": [
+        "Zn",
+        "Cu²⁺",
+        "Zn²⁺",
+        "Cu"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Que signifie l’oxydation d’une espèce chimique ?",
+      "options": [
+        "Gain d’électrons",
+        "Perte d’électrons",
+        "Gain de protons",
+        "Perte de neutrons"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Quelle est la demi-équation du couple Fe²⁺/Fe ?",
+      "options": [
+        "Fe²⁺ + 2e⁻ → Fe",
+        "Fe → Fe²⁺ + 2e⁻",
+        "Fe²⁺ + e⁻ → Fe⁺",
+        "Fe³⁺ + e⁻ → Fe²⁺"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Lorsqu’on plonge une lame de zinc dans une solution de sulfate de cuivre II, on observe :",
+      "options": [
+        "Un dépôt de zinc sur le cuivre",
+        "Un dépôt de cuivre sur le zinc",
+        "Aucun changement",
+        "Un dégagement de dihydrogène"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Combien d’électrons sont échangés dans la réaction Al + 3Ag⁺ → Al³⁺ + 3Ag ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Lequel de ces couples est correctement écrit ?",
+      "options": [
+        "Ag/Ag⁺",
+        "Fe³⁺/Fe²⁺",
+        "Cu/Cu²⁺",
+        "Zn²⁺/Zn⁰"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Pour équilibrer les charges dans une demi-équation en milieu acide, on peut ajouter :",
+      "options": [
+        "OH⁻",
+        "H₂O",
+        "H⁺",
+        "O²⁻"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Quelle masse de cuivre peut être obtenue par réaction de 11,2 g de fer avec un excès de CuSO₄ ? (Fe=56, Cu=63,5)",
+      "options": [
+        "6,35 g",
+        "12,7 g",
+        "63,5 g",
+        "127 g"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "La corrosion du fer (formation de rouille) est une réaction d’oxydoréduction avec :",
+      "options": [
+        "Le diazote de l’air",
+        "Le dioxygène et l’eau",
+        "Le dioxyde de carbone",
+        "L’argon"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "En Côte d’Ivoire, l’argenture artisanale de bijoux utilise une réaction redox entre :",
+      "options": [
+        "Cu et Fe²⁺",
+        "Ag⁺ et Cu",
+        "Zn et H⁺",
+        "Al et O₂"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q21",
+      "type": "mcq",
+      "prompt": "Que signifie l'oxydation d'une espèce chimique ?",
+      "options": [
+        "Gain d'électrons",
+        "Perte d'électrons",
+        "Gain de protons",
+        "Perte de protons"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q22",
+      "type": "mcq",
+      "prompt": "Quel est le couple redox pour Cu²⁺/Cu ?",
+      "options": [
+        "Cu²⁺ + e⁻ ⇌ Cu",
+        "Cu²⁺ + 2e⁻ ⇌ Cu",
+        "Cu → Cu²⁺ + 2e⁻",
+        "Cu + 2e⁻ → Cu²⁺"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q23",
+      "type": "mcq",
+      "prompt": "Dans Fe + Cu²⁺ → Fe²⁺ + Cu, quel est le réducteur ?",
+      "options": [
+        "Fe",
+        "Cu²⁺",
+        "Fe²⁺",
+        "Cu"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q24",
+      "type": "mcq",
+      "prompt": "Combien d'électrons sont échangés dans Al³⁺/Al ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q25",
+      "type": "mcq",
+      "prompt": "Qu'observe-t-on quand on plonge du fer dans CuSO₄ ?",
+      "options": [
+        "Dépôt blanc",
+        "Dépôt rouge",
+        "Gaz dégagé",
+        "Changement de température"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q26",
+      "type": "mcq",
+      "prompt": "Quelle demi-équation correspond à l'oxydation du zinc ?",
+      "options": [
+        "Zn²⁺ + 2e⁻ → Zn",
+        "Zn → Zn²⁺ + 2e⁻",
+        "Zn⁺ + e⁻ → Zn",
+        "Zn → Zn⁺ + e⁻"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q27",
+      "type": "mcq",
+      "prompt": "Quel métal est le plus réducteur ?",
+      "options": [
+        "Cu",
+        "Ag",
+        "Fe",
+        "Zn"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q28",
+      "type": "mcq",
+      "prompt": "Combien de moles d'Ag⁺ réagissent avec 1 mole de Cu ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q29",
+      "type": "mcq",
+      "prompt": "Quel test permet de détecter les ions Fe²⁺ ?",
+      "options": [
+        "KMnO₄ (décoloration)",
+        "NaOH (précipité vert)",
+        "AgNO₃ (précipité blanc)",
+        "Les deux premières"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q30",
+      "type": "mcq",
+      "prompt": "Quelle application utilise les réactions redox ?",
+      "options": [
+        "Galvanoplastie",
+        "Distillation",
+        "Chromatographie",
+        "Toutes"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

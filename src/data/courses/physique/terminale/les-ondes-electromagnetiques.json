@@ -1,0 +1,45 @@
+{
+  "id": "physique-terminale-les-ondes-electromagnetiques",
+  "title": "Les ondes électromagnétiques",
+  "summary": "Comment fonctionnent les téléphones portables et le WiFi ? Quelle est la nature des ondes radio ?",
+  "lesson": "## Nature des ondes EM\n\n### Définition\n\nLes **ondes électromagnétiques** sont :\n- Des perturbations du champ électromagnétique\n- Se propagent dans le vide\n- Vitesse : c = 3 × 10⁸ m/s\n\n### Relation fondamentale\n\n```\nc = λ × f\n```\n\nOù :\n- **c** = vitesse de la lumière (m/s)\n- **λ** = longueur d'onde (m)\n- **f** = fréquence (Hz)\n\n## Spectre électromagnétique\n\n**Par longueur d'onde croissante :**\n\n1. **Rayons gamma** : λ < 10⁻¹¹ m\n2. **Rayons X** : 10⁻¹¹ à 10⁻⁸ m\n3. **UV** : 10⁻⁸ à 4×10⁻⁷ m\n4. **Lumière visible** : 4×10⁻⁷ à 7×10⁻⁷ m\n5. **Infrarouge** : 7×10⁻⁷ à 10⁻³ m\n6. **Micro-ondes** : 10⁻³ à 1 m\n7. **Ondes radio** : > 1 m\n\n## Applications\n\n**Ondes radio :**\n- Radio, TV\n- Téléphones portables\n- WiFi, Bluetooth\n\n**Micro-ondes :**\n- Four à micro-ondes\n- Radar\n\n**Infrarouge :**\n- Télécommandes\n- Caméras thermiques\n\n**UV :**\n- Stérilisation\n- Bronzage (danger !)\n\n**Rayons X :**\n- Radiographie médicale\n\n### Exemple de calcul\n\n```\nWiFi : f = 2,4 GHz = 2,4 × 10⁹ Hz\nλ = c/f = 3×10⁸ / 2,4×10⁹ = 0,125 m = 12,5 cm\n```",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "c = λ × f",
+    "c = 3 × 10⁸ m/s",
+    "Spectre : gamma → radio",
+    "Applications diverses"
+  ],
+  "exercise": {
+    "question": "Une onde radio a une fréquence de 100 MHz. Calculer sa longueur d'onde.",
+    "answer": "\n**Données :**\n- f = 100 MHz = 100 × 10⁶ Hz = 10⁸ Hz\n- c = 3 × 10⁸ m/s\n\n**Solution :**\nλ = c/f = 3×10⁸ / 10⁸ = 3 m\n\n**Réponse : 3 m**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Vitesse de la lumière ?",
+      "options": [
+        "3×10⁶ m/s",
+        "3×10⁸ m/s",
+        "3×10¹⁰ m/s",
+        "300 m/s"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Formule de base ?",
+      "options": [
+        "c = λ/f",
+        "c = λ×f",
+        "c = f/λ",
+        "c = λ+f"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

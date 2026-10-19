@@ -1,0 +1,84 @@
+{
+  "id": "maths-quatrieme-angles-et-parallelisme-angles-alternes-internes-et-correspon",
+  "title": "Angles et parallélisme : angles alternes-internes et correspondants",
+  "summary": "Lors de la construction du nouveau marché d'Abobo, les ouvriers doivent vérifier que les poutres métalliques du toit sont bien parallèles. Ils utilisent un laser qui forme des angles avec les poutres pour s'assurer de leur parallélisme.",
+  "lesson": "## Angles alternes-internes et correspondants\n\n### Définitions fondamentales\n\nLorsque deux droites (d) et (d') sont coupées par une sécante (Δ), on obtient huit angles qui forment des paires particulières :\n\n**Angles correspondants** : Deux angles situés du même côté de la sécante, l'un entre les deux droites, l'autre à l'extérieur.\n\n**Angles alternes-internes** : Deux angles situés de part et d'autre de la sécante, à l'intérieur des deux droites.\n\n**Angles alternes-externes** : Deux angles situés de part et d'autre de la sécante, à l'extérieur des deux droites.\n\n### Propriétés des angles avec droites parallèles\n\n**Propriété 1** : Si deux droites sont parallèles, alors :\n- Les angles correspondants sont égaux\n- Les angles alternes-internes sont égaux\n- Les angles alternes-externes sont égaux\n\n**Propriété 2** (réciproque) : Si deux droites coupées par une sécante forment :\n- Des angles correspondants égaux, alors ces droites sont parallèles\n- Des angles alternes-internes égaux, alors ces droites sont parallèles\n\n### Application pratique\n\n**Exemple 1** : Sur le chantier du stade de Yamoussoukro, un ingénieur mesure deux angles correspondants formés par une poutre transversale avec deux poutres principales. Si les deux angles mesurent 65°, alors les poutres principales sont parallèles.\n\n**Exemple 2** : Dans un champ de cacao à Daloa, un agriculteur veut tracer des rangées parallèles d'arbres. Il utilise une corde tendue comme sécante et vérifie que les angles alternes-internes sont égaux.\n\n### Méthode de résolution\n\nPour démontrer que deux droites sont parallèles :\n1. Identifier la sécante\n2. Repérer une paire d'angles correspondants ou alternes-internes\n3. Vérifier qu'ils sont égaux\n4. Conclure que les droites sont parallèles",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Les angles correspondants sont égaux lorsque les droites sont parallèles",
+    "Les angles alternes-internes sont égaux lorsque les droites sont parallèles",
+    "La réciproque permet de démontrer le parallélisme",
+    "Une sécante est nécessaire pour former ces angles"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Que peut-on dire des angles alternes-internes lorsque deux droites sont parallèles ?",
+      "options": [
+        "Ils sont supplémentaires",
+        "\"Ils sont égaux\"",
+        "Ils sont complémentaires",
+        "Ils sont opposés par le sommet"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Si deux angles correspondants mesurent 45° chacun, que peut-on conclure sur les droites ?",
+      "options": [
+        "Elles sont perpendiculaires",
+        "Elles sont sécantes",
+        "\"Elles sont parallèles\"",
+        "On ne peut rien conclure"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Où se situent les angles alternes-internes par rapport à la sécante ?",
+      "options": [
+        "Du même côté, à l'extérieur des droites",
+        "\"De part et d'autre, à l'intérieur des droites\"",
+        "Du même côté, à l'intérieur des droites",
+        "De part et d'autre, à l'extérieur des droites"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Sur un chantier à San Pedro, un angle correspondant mesure 70° et l'autre 69°. Les structures sont-elles parallèles ?",
+      "options": [
+        "Oui, car la différence est minime",
+        "Oui, car ils sont complémentaires",
+        "\"Non, car les angles ne sont pas égaux\"",
+        "Non, car ils sont supplémentaires"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Combien de paires d'angles correspondants obtient-on quand deux droites sont coupées par une sécante ?",
+      "options": [
+        "2 paires",
+        "3 paires",
+        "5 paires",
+        "\"4 paires\""
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

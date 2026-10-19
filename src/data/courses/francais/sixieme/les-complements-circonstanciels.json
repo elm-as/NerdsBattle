@@ -1,0 +1,57 @@
+{
+  "id": "francais-sixieme-les-complements-circonstanciels",
+  "title": "Les compléments circonstanciels",
+  "summary": "Pour préciser où, quand et comment se passe une action, quels mots utiliser ?",
+  "lesson": "## Les compléments circonstanciels\n\n### Qu'est-ce qu'un complément circonstanciel ?\n\nUn **complément circonstanciel** (CC) donne des informations sur les **circonstances** de l'action : où ? quand ? comment ?\n\n**Caractéristiques :**\n- Il est **supprimable** (la phrase reste correcte sans lui)\n- Il est **déplaçable** (on peut le mettre à différents endroits)\n\n**Exemple :**\n\"Les élèves jouent **dans la cour** **à la récréation**.\"\n→ \"Les élèves jouent.\" (phrase correcte)\n\n## Les principaux compléments circonstanciels\n\n### Le Complément Circonstanciel de Lieu (CCL)\n\n**Question :** Où ?\n\n**Exemples :**\n- \"J'habite **à Abidjan**.\"\n- \"Nous allons **à l'école**.\"\n- \"Le marché se trouve **près de la maison**.\"\n- \"**Dans le village**, tout le monde se connaît.\"\n\n**Prépositions fréquentes :** à, dans, sur, sous, près de, loin de, chez, devant, derrière\n\n### Le Complément Circonstanciel de Temps (CCT)\n\n**Question :** Quand ?\n\n**Exemples :**\n- \"Je me lève **à 6 heures**.\"\n- \"**Hier**, nous sommes allés au cinéma.\"\n- \"Il viendra **demain**.\"\n- \"**Pendant les vacances**, je visite ma famille.\"\n\n**Mots fréquents :** hier, aujourd'hui, demain, maintenant, le matin, en 2024, pendant, depuis\n\n### Le Complément Circonstanciel de Manière (CCM)\n\n**Question :** Comment ?\n\n**Exemples :**\n- \"Il court **vite**.\"\n- \"Elle parle **avec douceur**.\"\n- \"Nous travaillons **sérieusement**.\"\n- \"**Avec courage**, il a affronté ses peurs.\"\n\n**Souvent :** adverbes en -ment, avec + nom\n\n## Comment les reconnaître ?\n\n### Test de suppression\n\n\"**Tous les matins**, mon père va **au travail** **en taxi**.\"\n\nSans les CC :\n\"Mon père va.\" ✓ (phrase correcte = ce sont bien des CC)\n\n### Test de déplacement\n\n\"Je vais à l'école **le matin**.\"\n→ \"**Le matin**, je vais à l'école.\" ✓\n\n## Exemples avec contexte ivoirien\n\n### À l'école\n\n\"**Chaque jour**, les élèves arrivent **à l'école** **en uniforme**.\"\n- CCT : Chaque jour\n- CCL : à l'école\n- CCM : en uniforme\n\n### Au marché\n\n\"**Tôt le matin**, les vendeuses installent **au marché** leurs marchandises **avec soin**.\"\n- CCT : Tôt le matin\n- CCL : au marché\n- CCM : avec soin\n\n### En famille\n\n\"**Le dimanche**, nous mangons **à la maison** **tous ensemble**.\"\n- CCT : Le dimanche\n- CCL : à la maison\n- CCM : tous ensemble",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "CC = complément supprimable et déplaçable",
+    "CCL (où ?), CCT (quand ?), CCM (comment ?)",
+    "Enrichissent la phrase avec des précisions"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Un complément circonstanciel est :",
+      "options": [
+        "Obligatoire",
+        "Supprimable",
+        "Le sujet",
+        "Le verbe"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Dans 'Je pars demain', 'demain' est un :",
+      "options": [
+        "CCL",
+        "CCT",
+        "CCM",
+        "COD"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La question pour trouver le CCL est :",
+      "options": [
+        "Quand ?",
+        "Comment ?",
+        "Où ?",
+        "Pourquoi ?"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

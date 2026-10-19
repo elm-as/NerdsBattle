@@ -1,0 +1,153 @@
+{
+  "id": "physique-cinquieme-association-de-lampes-electriques",
+  "title": "Association de lampes électriques",
+  "summary": "Quatre lampes électriques éclairent la salle de classe de la 5ème 5 du Lycée Moderne Jeunes Filles de Yopougon. Les élèves constatent que lorsqu'une lampe est grillée, les autres continuent de fonctionner. Elles veulent comprendre ces observations. Elles décident alors de réaliser puis de schématiser une association de lampes électriques alimentée par une pile.",
+  "lesson": "# Association de lampes électriques\n\n## I. Association en série\n\n### 1. Définition\nDans un circuit en **série**, les lampes sont branchées les unes à la suite des autres. Il n'y a qu'un seul chemin pour le courant électrique.\n\n### 2. Réalisation pratique\n**Matériel :** 1 pile, 2 ou 3 lampes, des fils de connexion\n\n**Montage :**\n- La borne + de la pile est reliée à la première lampe\n- Cette lampe est reliée à la deuxième lampe\n- La dernière lampe revient à la borne - de la pile\n\n### 3. Schéma d'un circuit en série\n```\n    +---[Pile]---[L₁]---[L₂]---[L₃]---+\n    |                                  |\n    +----------------------------------+\n```\n\n**Symboles :**\n- Pile : rectangle avec + et -\n- Lampe : cercle avec croix à l'intérieur\n- Fils : traits\n\n### 4. Comportement du circuit\n\n**a) Fonctionnement normal**\nToutes les lampes s'allument. L'éclat des lampes est plus faible que si elles étaient seules.\n\n**b) Lampe défectueuse (grillée)**\nSi une lampe grille, **toutes les lampes s'éteignent**. Le courant ne peut plus circuler car le circuit est ouvert.\n\n**c) Lampe en court-circuit**\nSi on met un fil directement aux bornes d'une lampe (court-circuit), cette lampe s'éteint mais **les autres lampes brillent plus fort**.\n\n### 5. Intérêt de l'association en série\n- Économie de générateurs (une seule pile pour plusieurs lampes)\n- Permet de créer des guirlandes de Noël\n- Utilisation dans certains montages électroniques\n\n### 6. Inconvénients\n- Si une lampe grille, tout le circuit s'éteint\n- Les lampes brillent moins fort\n- Difficile de localiser la lampe défectueuse\n\n## II. Association en dérivation (parallèle)\n\n### 1. Définition\nDans un circuit en **dérivation**, les lampes sont branchées en parallèle. Chaque lampe a son propre chemin pour le courant.\n\n### 2. Réalisation pratique\n**Matériel :** 1 pile, 2 ou 3 lampes, des fils de connexion\n\n**Montage :**\n- La borne + de la pile est reliée à un point commun\n- De ce point partent des fils vers chaque lampe\n- Toutes les lampes reviennent à un point commun\n- Ce point revient à la borne - de la pile\n\n### 3. Schéma d'un circuit en dérivation\n```\n            +---[L₁]---+\n            |          |\n    +---[Pile]--+---[L₂]---+---+\n    |       |          |       |\n    +-------+---[L₃]---+-------+\n```\n\n### 4. Comportement du circuit\n\n**a) Fonctionnement normal**\nToutes les lampes s'allument. Chaque lampe brille **normalement** (comme si elle était seule).\n\n**b) Lampe défectueuse (grillée)**\nSi une lampe grille, **les autres lampes continuent de fonctionner normalement**. Le courant peut passer par les autres branches.\n\n**c) Lampe en court-circuit**\nSi on met un fil directement aux bornes d'une lampe (court-circuit), **toutes les lampes s'éteignent** et le générateur peut être endommagé.\n\n### 5. Intérêt de l'association en dérivation\n- Si une lampe grille, les autres continuent de fonctionner\n- Chaque lampe brille normalement\n- On peut ajouter ou retirer des lampes facilement\n- C'est le montage utilisé dans les maisons\n\n### 6. Inconvénients\n- Consomme plus d'énergie du générateur\n- La pile s'use plus vite\n- Nécessite plus de fils pour le câblage\n\n## III. Comparaison des deux montages\n\n| Caractéristique | Série | Dérivation |\n|----------------|-------|------------|\n| Chemin du courant | 1 seul | Plusieurs |\n| Éclat des lampes | Faible | Normal |\n| Lampe grillée | Tout s'éteint | Autres continuent |\n| Court-circuit | Autres brillent plus | Tout s'éteint |\n| Utilisation | Guirlandes | Maisons |\n| Consommation | Faible | Élevée |\n\n## IV. Applications pratiques\n\n### 1. Installation domestique\nDans une maison en Côte d'Ivoire, toutes les lampes et prises sont en **dérivation** sur le secteur 220 V. Ainsi :\n- On peut allumer une lampe sans les autres\n- Si une lampe grille, les autres fonctionnent\n- Chaque appareil reçoit 220 V\n\n### 2. Guirlandes de Noël\nCertaines guirlandes utilisent le montage en **série** :\n- Économie d'énergie\n- Mais si une lampe grille, toute la guirlande s'éteint\n\n### 3. Adaptation au générateur\nPour choisir le bon générateur :\n- **En série** : tension totale = somme des tensions d'usage\n- **En dérivation** : chaque lampe doit recevoir sa tension d'usage\n\n**Exemple :**\n- 3 lampes de 4,5 V en série → pile de 13,5 V nécessaire\n- 3 lampes de 4,5 V en dérivation → pile de 4,5 V nécessaire",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Circuit en série : lampes branchées bout à bout, un seul chemin",
+    "En série : si une lampe grille, tout s'éteint",
+    "En série : lampes brillent moins fort",
+    "Circuit en dérivation : lampes en parallèle, plusieurs chemins",
+    "En dérivation : si une lampe grille, les autres continuent",
+    "En dérivation : chaque lampe brille normalement",
+    "Installation domestique : toujours en dérivation",
+    "Court-circuit : dangereux, peut détruire le générateur"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 0,
+      "prompt": "Dans un circuit en série, si une lampe grille :",
+      "options": [
+        "\"Toutes les lampes s'éteignent\"",
+        "Les autres brillent plus fort",
+        "Les autres continuent normalement",
+        "Rien ne change"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 0,
+      "prompt": "Dans un circuit en dérivation, chaque lampe :",
+      "options": [
+        "\"Brille normalement\"",
+        "Brille faiblement",
+        "S'éteint",
+        "Grille rapidement"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Le montage utilisé dans les maisons est :",
+      "options": [
+        "En série",
+        "Les deux",
+        "\"En dérivation\"",
+        "Aucun des deux"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "answer": 3,
+      "prompt": "Dans un circuit en dérivation, si on met un fil aux bornes d'une lampe (court-circuit) :",
+      "options": [
+        "Cette lampe brille plus",
+        "Rien ne se passe",
+        "Les autres brillent plus",
+        "\"Toutes les lampes s'éteignent\""
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "L'avantage principal du montage en série est :",
+      "options": [
+        "Grande luminosité",
+        "Indépendance des lampes",
+        "\"Économie d'énergie\"",
+        "Facilité de réparation"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-physique-1-mv9nl03q",
+      "type": "mcq",
+      "prompt": "Dans le contexte de la salle de classe où les lampes continuent de fonctionner si l'une grille, quel est le nombre de chemins possibles pour le courant électrique dans ce type d'association ?",
+      "options": [
+        "Un seul chemin unique",
+        "Deux chemins distincts",
+        "Un chemin par lampe branchée",
+        "Aucun chemin si une lampe est présente"
+      ],
+      "answer": 2,
+      "explanation": "L'observation que les autres lampes fonctionnent quand une grille indique un montage en dérivation. Dans un montage en dérivation, chaque branche (chaque lampe) constitue un chemin indépendant pour le courant. Donc, il y a un chemin par lampe."
+    },
+    {
+      "id": "auto-physique-2-mv9nl03q",
+      "type": "mcq",
+      "prompt": "Si l'on réalise un circuit en série avec 3 lampes identiques alimentées par une pile de 4,5 V, et que l'on mesure une tension de 1,5 V aux bornes de la première lampe, quelle est la tension aux bornes de la deuxième lampe ?",
+      "options": [
+        "1,5 V",
+        "3,0 V",
+        "4,5 V",
+        "0,5 V"
+      ],
+      "answer": 0,
+      "explanation": "Dans un circuit en série avec des lampes identiques, la tension de la source se partage également entre les récepteurs. Avec 3 lampes et 4,5 V, chaque lampe reçoit $4,5 \\div 3 = 1,5$ V. La tension aux bornes de la deuxième lampe est donc de 1,5 V."
+    },
+    {
+      "id": "auto-physique-3-mv9nl03q",
+      "type": "mcq",
+      "prompt": "Dans un circuit en série, si l'on ajoute une quatrième lampe identique aux trois premières déjà présentes, que se passe-t-il pour l'éclat des lampes ?",
+      "options": [
+        "L'éclat augmente car il y a plus de lampes",
+        "L'éclat reste identique",
+        "L'éclat diminue car la tension se partage entre plus de récepteurs",
+        "Les lampes s'éteignent immédiatement"
+      ],
+      "answer": 2,
+      "explanation": "En série, la tension totale de la pile est répartie entre toutes les lampes. En ajoutant une lampe, la tension disponible pour chaque lampe diminue ($V_{lampe} = V_{pile} / n$). Une tension plus faible aux bornes de chaque lampe entraîne une diminution de l'intensité du courant et donc une baisse de l'éclat."
+    },
+    {
+      "id": "auto-physique-4-mv9nl03q",
+      "type": "mcq",
+      "prompt": "Pour schématiser correctement une association de lampes en dérivation alimentée par une pile, comment les fils de connexion doivent-ils être disposés par rapport aux lampes ?",
+      "options": [
+        "Les lampes sont alignées les unes à la suite des autres sur un seul fil",
+        "Les lampes sont placées sur des branches parallèles qui partent d'un même point et rejoignent un autre point commun",
+        "Une seule lampe est branchée directement sur la pile, les autres sont en série avec elle",
+        "Les lampes sont branchées en alternance sur les bornes + et - de la pile"
+      ],
+      "answer": 1,
+      "explanation": "La définition d'un montage en dérivation (ou parallèle) implique que les récepteurs sont branchés sur des branches distinctes et parallèles. Le courant se divise à un nœud pour traverser chaque lampe indépendamment, puis se recombine à un autre nœud pour revenir à la source."
+    },
+    {
+      "id": "auto-physique-5-mv9nl03q",
+      "type": "mcq",
+      "prompt": "Dans un circuit en série, si l'on court-circuite la deuxième lampe avec un fil conducteur, que se passe-t-il pour la première et la troisième lampe ?",
+      "options": [
+        "Elles s'éteignent toutes les deux",
+        "Elles s'allument plus fort que normalement",
+        "Elles s'allument normalement comme avant",
+        "La première s'allume et la troisième s'éteint"
+      ],
+      "answer": 1,
+      "explanation": "Le court-circuit de la deuxième lampe supprime sa résistance du circuit. La tension totale de la pile se retrouve alors aux bornes des deux lampes restantes (la première et la troisième). La tension aux bornes de chacune augmente par rapport au cas nominal (où elle était divisée par 3), ce qui augmente l'intensité du courant et donc l'éclat des lampes restantes."
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "maths-seconde-fonctions-de-reference",
+  "title": "Fonctions de référence",
+  "summary": "Chaque type de fonction a des propriétés spécifiques. Lesquelles faut-il connaître ?",
+  "lesson": "## Fonctions de référence\n\n### Fonction carrée : f(x) = x²\n- Df = ℝ\n- Paire\n- Croissante sur [0 ; +∞[\n- Décroissante sur ]−∞ ; 0]\n- Minimum en 0\n\n### Fonction inverse : f(x) = 1/x\n- Df = ℝ*\n- Impaire\n- Décroissante sur ]−∞ ; 0[ et sur ]0 ; +∞[\n\n### Fonction racine carrée : f(x) = √x\n- Df = [0 ; +∞[\n- Croissante sur [0 ; +∞[\n\n### Fonction valeur absolue : f(x) = |x|\n- Df = ℝ\n- Paire\n- Décroissante sur ]−∞ ; 0], croissante sur [0 ; +∞[",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Carrée : parité paire, minimum en 0",
+    "Inverse : définie sur ℝ*",
+    "Racine : définie sur [0 ; +∞["
+  ],
+  "exercise": {
+    "question": "Résous graphiquement : x² = 4",
+    "answer": "\n**Solution :**\nOn cherche les abscisses des points d'intersection entre y = x² et y = 4.\n\n**Réponse : x = −2 ou x = 2**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 0,
+      "prompt": "La fonction carrée est :",
+      "options": [
+        "Paire",
+        "Impaire",
+        "Ni paire ni impaire",
+        "Constante"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Quel est l'ensemble de définition de f(x) = 1/x ?",
+      "options": [
+        "ℝ",
+        "ℝ*",
+        "[0 ; +∞[",
+        "]0 ; +∞["
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-maths-1-mv9mhy0t",
+      "type": "mcq",
+      "prompt": "Soit la fonction $f$ définie par $f(x) = \\sqrt{x}$. Quelle est la nature de la parité de cette fonction sur son ensemble de définition $[0 ; +\\infty[$ ?",
+      "options": [
+        "La fonction est paire",
+        "La fonction est impaire",
+        "La fonction est à la fois paire et impaire",
+        "La fonction n'est ni paire ni impaire"
+      ],
+      "answer": 3,
+      "explanation": "Pour qu'une fonction soit paire ou impaire, son ensemble de définition doit être symétrique par rapport à 0. Ici, $D_f = [0 ; +\\infty[$, qui n'est pas symétrique (si $x \\in D_f$, alors $-x \notin D_f$ pour $x > 0$). Par conséquent, la fonction ne peut être ni paire ni impaire."
+    },
+    {
+      "id": "auto-maths-2-mv9mhy0t",
+      "type": "mcq",
+      "prompt": "Considérons la fonction $g$ définie par $g(x) = \\frac{1}{x}$. Sur quel intervalle strictement positif la fonction est-elle strictement décroissante ?",
+      "options": [
+        "$]0 ; 1[$",
+        "$]0 ; +\\infty[$",
+        "$]1 ; +\\infty[$",
+        "$]0 ; 2[$"
+      ],
+      "answer": 1,
+      "explanation": "La fonction inverse $f(x) = \\frac{1}{x}$ est strictement décroissante sur tout intervalle qui ne contient pas 0. Sur l'ensemble des réels positifs $]0 ; +\\infty[$, la dérivée $f'(x) = -\\frac{1}{x^2}$ est strictement négative, ce qui confirme la décroissance sur tout l'intervalle $]0 ; +\\infty[$."
+    },
+    {
+      "id": "auto-maths-3-mv9mhy0u",
+      "type": "mcq",
+      "prompt": "Soit la fonction $h$ définie par $h(x) = |x|$. Quelle est la valeur du minimum de cette fonction sur $\\mathbb{R}$ et en quel point est-il atteint ?",
+      "options": [
+        "Minimum de 1 atteint en $x=1$",
+        "Minimum de 0 atteint en $x=0$",
+        "Minimum de -1 atteint en $x=-1$",
+        "La fonction n'admet pas de minimum"
+      ],
+      "answer": 1,
+      "explanation": "Par définition, $|x| \\ge 0$ pour tout $x \\in \\mathbb{R}$. La valeur 0 est atteinte lorsque $x=0$. La fonction est décroissante sur $]-\\infty ; 0]$ et croissante sur $[0 ; +\\infty[$, ce qui confirme que le point $x=0$ est un minimum global de valeur 0."
+    },
+    {
+      "id": "auto-maths-4-mv9mhy0u",
+      "type": "mcq",
+      "prompt": "Soit la fonction $u$ définie par $u(x) = x^2$. Si $a$ et $b$ sont deux réels tels que $0 \\le a < b$, quelle est la relation entre $u(a)$ et $u(b)$ ?",
+      "options": [
+        "$u(a) > u(b)$",
+        "$u(a) < u(b)$",
+        "$u(a) = u(b)$",
+        "$u(a) \\ge u(b)$"
+      ],
+      "answer": 1,
+      "explanation": "La fonction carrée est strictement croissante sur l'intervalle $[0 ; +\\infty[$. Puisque $a$ et $b$ appartiennent à cet intervalle et que $a < b$, la propriété de croissance stricte implique directement que $u(a) < u(b)$."
+    },
+    {
+      "id": "auto-maths-5-mv9mhy0u",
+      "type": "mcq",
+      "prompt": "Quelle est la parité de la fonction $v$ définie par $v(x) = \\frac{1}{x}$ sur son ensemble de définition $\\mathbb{R}^*$ ?",
+      "options": [
+        "Paire",
+        "Impaire",
+        "Ni paire ni impaire",
+        "À la fois paire et impaire"
+      ],
+      "answer": 1,
+      "explanation": "L'ensemble de définition $\\mathbb{R}^*$ est symétrique par rapport à 0. Pour tout $x \\in \\mathbb{R}^*$, on a $v(-x) = \\frac{1}{-x} = -\\frac{1}{x} = -v(x)$. Cette propriété caractérise une fonction impaire."
+    }
+  ]
+}

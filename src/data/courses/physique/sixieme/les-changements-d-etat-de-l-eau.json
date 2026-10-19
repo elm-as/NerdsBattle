@@ -1,0 +1,46 @@
+{
+  "id": "physique-sixieme-les-changements-d-etat-de-l-eau",
+  "title": "Les changements d'état de l'eau",
+  "summary": "Dans le cadre des activités du club de Physique-Chimie du Lycée Houphouët-Boigny de Korhogo, une conférence est prononcée sur le cycle de l'eau à l'intention des élèves des classes de 6ème. Afin de vérifier les informations recueillies au cours de cette conférence, les élèves de la classe de 6ème 5 qui y étaient, entreprennent de réaliser la fusion, la solidification, la vaporisation, la condensation et d'expliquer le cycle de l'eau.",
+  "lesson": "# Les changements d'état de l'eau\n\n## I. Solidification et fusion\n\n### Solidification\n**Définition**: passage de l'état liquide à l'état solide.\n**Température**: L'eau se solidifie à 0°C.\n\n### Fusion\n**Définition**: passage de l'état solide à l'état liquide.\n**Température**: La glace fond à 0°C.\n\n### Observations\n- **Volume**: augmente lors de la solidification (la glace flotte)\n- **Masse**: se conserve (même quantité de matière)\n\n## II. Vaporisation\n\n### Définition\nPassage de l'état liquide à l'état gazeux (vapeur d'eau).\n\n### Types de vaporisation\n- **Évaporation**: lente, à toute température\n- **Ébullition**: rapide, à 100°C (à pression normale)\n\n## III. Condensation\n\n### Définition\nPassage de l'état gazeux à l'état liquide.\n\n### Exemples\n- Buée sur un miroir froid\n- Rosée du matin\n- Gouttes sur un verre d'eau glacée\n\n## IV. Le cycle de l'eau\n\nL'eau circule continuellement dans la nature:\n\n1. **Évaporation**: eau des océans, rivières, lacs → vapeur d'eau\n2. **Condensation**: vapeur d'eau → nuages (gouttelettes)\n3. **Précipitations**: pluie, neige tombent sur terre\n4. **Ruissellement**: l'eau retourne vers les océans\n\nC'est un cycle continu grâce à l'énergie du Soleil.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Solidification: liquide → solide (0°C)",
+    "Fusion: solide → liquide (0°C)",
+    "Vaporisation: liquide → gaz",
+    "Condensation: gaz → liquide",
+    "Cycle de l'eau dans la nature"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "L'eau se solidifie à:",
+      "options": [
+        "0°C",
+        "100°C",
+        "37°C",
+        "-10°C"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Le passage de l'état gazeux à l'état liquide est:",
+      "options": [
+        "La fusion",
+        "La solidification",
+        "La condensation",
+        "La vaporisation"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

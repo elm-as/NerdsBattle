@@ -1,0 +1,44 @@
+{
+  "id": "maths-premiere-statistiques-a-deux-variables",
+  "title": "Statistiques à deux variables",
+  "summary": "On veut étudier le lien entre la taille et le poids d'un groupe de personnes. Comment analyser cette relation ?",
+  "lesson": "## Statistiques à deux variables\n\n### Nuage de points\nReprésentation graphique des couples (xᵢ ; yᵢ)\n\n### Point moyen\nG(x̄ ; ȳ) où x̄ et ȳ sont les moyennes\n\n### Covariance\nCov(X,Y) = moyenne des (xᵢ − x̄)(yᵢ − ȳ)\n\n### Coefficient de corrélation\nr = Cov(X,Y) / (σ_X × σ_Y)\n-1 ≤ r ≤ 1\n\n**Interprétation :**\n- |r| proche de 1 : forte corrélation\n- r proche de 0 : faible corrélation\n\n### Droite de régression\nDroite d'ajustement affine passant par G",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Point moyen G(x̄ ; ȳ)",
+    "Coefficient de corrélation r entre -1 et 1",
+    "Droite de régression pour prédiction"
+  ],
+  "exercise": {
+    "question": "Si le coefficient de corrélation r = 0,95, que peut-on dire ?",
+    "answer": "\n**Solution :**\n|r| = 0,95 proche de 1\n\nCela signifie qu'il y a une forte corrélation linéaire positive entre les deux variables.\n\n**Réponse : Forte corrélation linéaire positive**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Le coefficient de corrélation est toujours :",
+      "options": [
+        "Positif",
+        "Entre -1 et 1",
+        "Supérieur à 1",
+        "Nul"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La droite de régression passe toujours par :",
+      "options": [
+        "L'origine",
+        "Le point moyen G",
+        "Le premier point",
+        "Le dernier point"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": "svt-terminale-la-communication-nerveuse",
+  "title": "La communication nerveuse",
+  "summary": "Au cours d’une activité de jardinage de la coopérative scolaire, un élève du Lycée Moderne de Belleville de Bouaké se fait piquer par une épine. Immédiatement, il laisse tomber brusquement la daba. Pour comprendre cette réaction, ses camarades de classe décident de déterminer la nature du message nerveux et d’expliquer le mécanisme de sa transmission dans l’organisme.",
+  "lesson": "## 1. Introduction\n\nLe système nerveux permet la communication rapide dans l'organisme via des signaux électriques et chimiques. Cette leçon explore la nature et la transmission du message nerveux, de la perception d'un stimulus (piqûre) à la réponse motrice (lâcher l'outil).\n\n## 2. Nature du message nerveux : le potentiel d'action\n\n**A. Potentiel de membrane (ou de repos)**\nAu repos, le neurone maintient une différence de potentiel électrique de part et d'autre de sa membrane : l'intérieur est **négatif** (-70 mV) par rapport à l'extérieur. C'est le **potentiel de repos**.\n- Il est dû à la **pompe Na+/K+** (ATPase) qui expulse 3 Na+ pour faire entrer 2 K+, créant un gradient ionique.\n- La membrane est plus perméable au K+ qu'au Na+ au repos.\n\n**B. Potentiel d'action (PA)**\nLorsqu'un stimulus dépasse un **seuil** (environ -55 mV), il déclenche un potentiel d'action, signal électrique qui se propage le long de l'axone.\n\n**Phases du PA** (en un point de la membrane) :\n1. **Dépolarisation** : Ouverture des canaux voltage-dépendants Na+, entrée massive de Na+ → inversion de la polarité (intérieur devient positif, +30 mV).\n2. **Repolarisation** : Fermeture des canaux Na+, ouverture des canaux K+, sortie de K+ → retour vers le potentiel de repos.\n3. **Hyperpolarisation transitoire** : Sortie excessive de K+ rend l'intérieur légèrement plus négatif que le repos, puis retour à -70 mV.\n\n**Propriétés du PA** : Loi du **tout ou rien** (amplitude constante), **période réfractaire** (impossible de déclencher un nouveau PA immédiatement).\n\n**Description du schéma 7 : Courbe du potentiel d'action**\nGraphique avec en abscisse le temps (ms), en ordonnée le potentiel membranaire (mV). Représenter : (1) ligne de potentiel de repos à -70 mV, (2) un seuil à -55 mV, (3) une courbe montant brusquement jusqu'à +30 mV (dépolarisation), (4) redescente rapide (repolarisation), (5) léger creux en dessous de -70 mV (hyperpolarisation), puis retour à la ligne de base. Légender chaque phase.\n\n## 3. Structure du neurone\n\nLe neurone est la cellule unité du système nerveux.\n- **Corps cellulaire (soma)** : Contient le noyau et les organites.\n- **Dendrites** : Prolongements récepteurs des signaux entrants.\n- **Axone** : Prolongement unique conduisant le PA vers d'autres cellules. Peut être **myélinisé** (gainé de myéline formée par les cellules de Schwann (SNP) ou les oligodendrocytes (SNC)). La myéline accélère la conduction par **saltatoire** (de nœud de Ranvier en nœud).\n- **Terminaisons axonales (boutons synaptiques)** : Lieu de transmission du signal à la cellule suivante.\n\n**Description du schéma 8 : Structure d'un neurone moteur**\nDessiner un neurone typique : (1) corps cellulaire avec noyau, (2) dendrites ramifiées, (3) axone unique partant du cône d'émergence, (4) gaine de myéline (en segments), (5) nœuds de Ranvier, (6) boutons synaptiques à l'extrémité. Indiquer la direction de conduction du PA (du corps cellulaire vers les boutons).\n\n## 4. Structure du nerf\n\nUn nerf est un faisceau de **fibres nerveuses** (axones) regroupées par du tissu conjonctif.\n- **Épineurium** : Enveloppe externe du nerf.\n- **Périneurium** : Entoure chaque fascicule (faisceau d'axones).\n- **Endoneurium** : Entoure chaque fibre nerveuse (axone + gaine de myéline).\n\n**Description du schéma 9 : Coupe transversale d'un nerf**\nReprésenter un cercle (nerf) divisé en plusieurs fascicules. Chaque fascicule contient de nombreux petits cercles (axones en coupe). Entourer le nerf d'une ligne (épineurium), chaque fascicule d'une ligne (périneurium). Légender.\n\n## 5. La synapse : transmission du message\n\nLa synapse est la zone de communication entre deux neurones (ou entre un neurone et un muscle/glande).\n\n**A. Structure de la synapse chimique**\n1. **Élément présynaptique** (bouton du neurone émetteur) : Contient des **vésicules synaptiques** remplies de **neurotransmetteur** (ex : acétylcholine, dopamine).\n2. **Fente synaptique** (20-50 nm) : Espace extracellulaire.\n3. **Élément postsynaptique** (membrane du neurone ou muscle récepteur) : Possède des **récepteurs spécifiques** au neurotransmetteur.\n\n**B. Mécanisme de transmission synaptique**\n1. Arrivée du PA au bouton présynaptique.\n2. Ouverture des canaux Ca²⁺ voltage-dépendants, entrée de Ca²⁺.\n3. Exocytose des vésicules : Libération du neurotransmetteur dans la fente.\n4. Fixation du neurotransmetteur sur ses récepteurs postsynaptiques.\n5. Ouverture de canaux ioniques postsynaptiques (Na+, K+, Cl-).\n\n**C. Types de synapses**\n- **Synapse excitatrice** (EPSP) : Le neurotransmetteur (ex : glutamate) ouvre des canaux Na+ → dépolarisation locale (potentiel postsynaptique excitateur) qui peut, si la somme des EPSP atteint le seuil, déclencher un PA dans le neurone postsynaptique.\n- **Synapse inhibitrice** (IPSP) : Le neurotransmetteur (ex : GABA) ouvre des canaux K+ ou Cl- → hyperpolarisation locale (potentiel postsynaptique inhibiteur), rendant plus difficile l'atteinte du seuil.\n\n**Description du schéma 10 : Transmission synaptique excitatrice**\nReprésenter : (1) un axone présynaptique avec vésicules, (2) la fente synaptique, (3) une dendrite postsynaptique. Montrer les étapes : PA arrivant, flèche Ca²⁺ entrant, vésicules fusionnant avec la membrane, neurotransmetteurs (points) se fixant sur des récepteurs (en forme de Y), ouverture de canaux Na+ postsynaptiques, entrée de Na+. Légender chaque élément.\n\n## 6. Intégration neuronale\n\nUn neurone reçoit des centaines de signaux synaptiques (excitateurs et inhibiteurs). Il effectue une **sommation spatiale et temporelle** de ces potentiels postsynaptiques. Un PA est émis au niveau du **cône d'émergence** de l'axone si la somme dépasse le seuil.\n\n## 7. Application à la situation de la piqûre (réflexe myotatique)\n\n1. **Récepteurs** (nocicepteurs de la peau) génèrent des PA.\n2. **Neurones afférents** (sensitifs) conduisent le signal vers la moelle épinière.\n3. **Synapse dans la moelle** avec un **interneurone inhibiteur** et un **motoneurone**.\n4. Le motoneurone envoie un PA aux muscles fléchisseurs de la main.\n5. **Réponse** : Contraction des fléchisseurs → lâcher de l'outil. C'est un **arc réflexe** rapide, involontaire.\n\n## 8. Perturbations et pathologies (liens avec la leçon suivante sur les drogues)\n\nCertaines substances (drogues, toxines, médicaments) modulent la transmission synaptique : agonistes (mimétiques) ou antagonistes (bloqueurs) des neurotransmetteurs. Exemple : le curare bloque les récepteurs à l'acétylcholine à la synapse neuro-musculaire → paralysie.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Le message nerveux est un potentiel d'action (PA), signal électrique de nature tout-ou-rien qui se propage le long de l'axone.",
+    "Le neurone comprend un corps cellulaire, des dendrites, un axone (parfois myélinisé) et des terminaisons synaptiques.",
+    "Un nerf est un faisceau d'axones entourés de tissu conjonctif (épineurium, périneurium, endoneurium).",
+    "La synapse chimique transmet le signal via des neurotransmetteurs libérés dans la fente synaptique.",
+    "Il existe des synapses excitatrices (EPSP, dépolarisantes) et inhibitrices (IPSP, hyperpolarisantes). L'intégration de leurs signaux décide de l'émission d'un PA postsynaptique."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la valeur typique du potentiel de repos d'un neurone ?",
+      "options": [
+        "0 mV",
+        "-70 mV",
+        "+30 mV",
+        "-100 mV"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel ion entre massivement lors de la phase de dépolarisation du PA ?",
+      "options": [
+        "K+",
+        "Cl-",
+        "Na+",
+        "Ca2+"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle structure du neurone reçoit principalement les signaux entrants ?",
+      "options": [
+        "Axone",
+        "Dendrites",
+        "Corps cellulaire",
+        "Nœud de Ranvier"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quelle cellule forme la gaine de myéline dans le système nerveux périphérique ?",
+      "options": [
+        "Oligodendrocyte",
+        "Astrocyte",
+        "Cellule de Schwann",
+        "Microglie"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel est l'espace entre le bouton présynaptique et la membrane postsynaptique ?",
+      "options": [
+        "Nœud de Ranvier",
+        "Fente synaptique",
+        "Cône d'émergence",
+        "Gap junction"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel ion, en entrant dans le bouton présynaptique, déclenche l'exocytose des neurotransmetteurs ?",
+      "options": [
+        "Na+",
+        "K+",
+        "Ca2+",
+        "Mg2+"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Un neurotransmetteur qui ouvre des canaux Cl- sur la membrane postsynaptique aura quel effet ?",
+      "options": [
+        "Dépolarisation (EPSP)",
+        "Hyperpolarisation (IPSP)",
+        "Pas d'effet",
+        "Déclenche un PA direct"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quelle propriété signifie qu'un PA a toujours la même amplitude quelle que soit l'intensité du stimulus (si seuil atteint) ?",
+      "options": [
+        "Sommation",
+        "Période réfractaire",
+        "Loi du tout ou rien",
+        "Conduction saltatoire"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Dans un arc réflexe, quel type de neurone conduit le signal du récepteur vers la moelle épinière ?",
+      "options": [
+        "Motoneurone",
+        "Interneurone",
+        "Neurone sensitif afférent",
+        "Neurone efférent"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Quel neurotransmetteur est souvent impliqué dans les synapses excitatrices du SNC ?",
+      "options": [
+        "GABA",
+        "Glutamate",
+        "Sérotonine",
+        "Endorphine"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "maths-premiere-barycentre",
+  "title": "Barycentre",
+  "summary": "Une suspension est constituée d'un triangle ABC de masse négligeable avec des masses fixées à ses sommets : 2g en A, 3g en B, 4g en C. Issa, élève à San-Pédro, affirme que le point d'accroche G vérifie : $$2\\\\overrightarrow{GA} + 3\\\\overrightarrow{GB} + 4\\\\overrightarrow{GC} = \\\\vec{0}$$. Pour vérifier, la classe cherche à déterminer la position exacte de G à partir d'une construction géométrique.",
+  "lesson": "## 1. Point pondéré\n\nUn point pondéré est un couple (A, α) où A est un point et α un réel (coefficient ou masse).\n\n## 2. Barycentre de deux points\n\nSoient (A, α) et (B, β) avec α + β ≠ 0.\nIl existe un unique point G tel que :\n$$\\\\alpha\\\\overrightarrow{GA} + \\\\beta\\\\overrightarrow{GB} = \\\\vec{0}$$\n\nG est le barycentre de {(A, α), (B, β)}.\nNotation : G = bar{(A, α), (B, β)}.\n\n## 3. Propriété de réduction\n\nPour tout point M du plan :\n$$\\\\alpha\\\\overrightarrow{MA} + \\\\beta\\\\overrightarrow{MB} = (\\\\alpha + \\\\beta)\\\\overrightarrow{MG}$$\n\nConséquence : G = bar{(A, α), (B, β)} ⇔ $$\\\\overrightarrow{AG} = \\\\frac{\\\\beta}{\\\\alpha+\\\\beta}\\\\overrightarrow{AB}$$\n\n## 4. Barycentre de trois points\n\nSoient (A, α), (B, β), (C, γ) avec α + β + γ ≠ 0.\nIl existe un unique point G tel que :\n$$\\\\alpha\\\\overrightarrow{GA} + \\\\beta\\\\overrightarrow{GB} + \\\\gamma\\\\overrightarrow{GC} = \\\\vec{0}$$\n\nPour tout M : $$\\\\alpha\\\\overrightarrow{MA} + \\\\beta\\\\overrightarrow{MB} + \\\\gamma\\\\overrightarrow{MC} = (\\\\alpha+\\\\beta+\\\\gamma)\\\\overrightarrow{MG}$$\n\n## 5. Coordonnées du barycentre\n\nDans un repère, si A(x_A, y_A), B(x_B, y_B), C(x_C, y_C), alors G(x_G, y_G) avec :\n$$x_G = \\\\frac{\\\\alpha x_A + \\\\beta x_B + \\\\gamma x_C}{\\\\alpha + \\\\beta + \\\\gamma}$$\n$$y_G = \\\\frac{\\\\alpha y_A + \\\\beta y_B + \\\\gamma y_C}{\\\\alpha + \\\\beta + \\\\gamma}$$\n\n## 6. Isobarycentre\n\nSi tous les coefficients sont égaux, G est l'isobarycentre :\n- Pour 2 points : milieu du segment\n- Pour 3 points : centre de gravité du triangle\n\n## 7. Lignes de niveau\n\n1. Ensemble {M / $$\\\\alpha MA^2 + \\\\beta MB^2 = k$$} :\n   En utilisant la réduction : $$(\\\\alpha+\\\\beta)MG^2 + \\\\alpha GA^2 + \\\\beta GB^2 = k$$\n   Selon les valeurs, cercle, point ou vide.\n\n2. Ensemble {M / $$\\\\frac{MA}{MB} = k$$} (k > 0) :\n   Si k = 1 : médiatrice de [AB]\n   Si k ≠ 1 : cercle d'Apollonius\n\n## 8. Application à la suspension\n\nAvec A(0,0), B(6,0), C(3,4) (triangle quelconque) et masses 2, 3, 4 :\n$$x_G = \\\\frac{2×0 + 3×6 + 4×3}{2+3+4} = \\\\frac{0+18+12}{9} = \\\\frac{30}{9} = \\\\frac{10}{3}$$\n$$y_G = \\\\frac{2×0 + 3×0 + 4×4}{9} = \\\\frac{16}{9}$$\n\nG(10/3, 16/9) ≈ (3.33, 1.78).\nVérification : $$2\\\\overrightarrow{GA} + 3\\\\overrightarrow{GB} + 4\\\\overrightarrow{GC}$$\n= 2(0-10/3, 0-16/9) + 3(6-10/3, 0-16/9) + 4(3-10/3, 4-16/9)\n= (-20/3, -32/9) + (18-10, -48/9) + (12-40/3, 16-64/9)\n= (-20/3, -32/9) + (8, -16/3) + (-4/3, 80/9)\n= ( -20/3 + 8 - 4/3 , -32/9 - 48/9 + 80/9 )\n= ( -24/3 + 8 , 0 ) = (-8 + 8, 0) = (0,0) ✓",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "G = bar{(A,α),(B,β)} ⇔ $$\\\\alpha\\\\overrightarrow{GA}+\\\\beta\\\\overrightarrow{GB}=\\\\vec{0}$$",
+    "Pour tout M : $$\\\\alpha\\\\overrightarrow{MA}+\\\\beta\\\\overrightarrow{MB}=(\\\\alpha+\\\\beta)\\\\overrightarrow{MG}$$",
+    "Coordonnées : moyenne pondérée des coordonnées",
+    "Isobarycentre = centre de gravité pour des coefficients égaux",
+    "Ligne de niveau MA/MB = k (k≠1) est un cercle (Apollonius)"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Le barycentre de {(A,2),(B,3)} existe si :",
+      "options": [
+        "2+3=0",
+        "2+3≠0",
+        "2×3≠0",
+        "Toujours"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "L'isobarycentre de 3 points est le :",
+      "options": [
+        "Centre du cercle circonscrit",
+        "Orthocentre",
+        "Centre de gravité",
+        "Milieu"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Si G=bar{(A,α),(B,β)}, alors $$\\\\overrightarrow{AG} =$$ :",
+      "options": [
+        "$$\\\\frac{\\\\alpha}{\\\\alpha+\\\\beta}\\\\overrightarrow{AB}$$",
+        "$$\\\\frac{\\\\beta}{\\\\alpha+\\\\beta}\\\\overrightarrow{AB}$$",
+        "$$\\\\frac{\\\\alpha}{\\\\beta}\\\\overrightarrow{AB}$$",
+        "$$\\\\overrightarrow{AB}$$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "L'ensemble des points M tels que MA/MB=2 (A≠B) est :",
+      "options": [
+        "Une droite",
+        "Un cercle",
+        "Une parabole",
+        "Deux droites"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Le barycentre de (A,2) et (B,3) existe si :",
+      "options": [
+        "2+3=0",
+        "2+3≠0",
+        "2×3≠0",
+        "2=3"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Si G=bar{(A,1);(B,1)}, alors G est :",
+      "options": [
+        "Le milieu de [AB]",
+        "Le symétrique de A par rapport à B",
+        "N'importe où sur (AB)",
+        "En dehors de [AB]"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Pour tout point M, 2MA⃗ + 3MB⃗ = 5MG⃗ si G est :",
+      "options": [
+        "Milieu de [AB]",
+        "bar{(A,2);(B,3)}",
+        "bar{(A,3);(B,2)}",
+        "bar{(A,5)}"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Le centre de gravité d'un triangle ABC est :",
+      "options": [
+        "bar{(A,1);(B,1)}",
+        "bar{(A,1);(B,1);(C,1)}",
+        "bar{(A,2);(B,2);(C,2)}",
+        "Le milieu de [AB]"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

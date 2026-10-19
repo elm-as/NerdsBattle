@@ -1,0 +1,71 @@
+{
+  "id": "maths-seconde-fonctions-affines-par-intervalles",
+  "title": "Fonctions affines par intervalles",
+  "summary": "La SONATEL, opérateur téléphonique en Côte d'Ivoire, propose un forfait internet avec le tarif suivant : 5 000 FCFA pour les 10 premiers Go, puis 500 FCFA par Go supplémentaire. Comment modéliser le coût total en fonction du volume de données consommées ? Comment représenter graphiquement cette fonction et déterminer le coût pour différentes consommations ?",
+  "lesson": "## Fonctions affines par intervalles : modélisation des tarifs progressifs\n\n### 1. Définition et exemples\n\nUne fonction affine par intervalles est une fonction définie par différentes expressions affines sur différents intervalles de son ensemble de définition.\n\n**Forme générale :**\nf(x) = a₁x + b₁ si x ∈ I₁\n       a₂x + b₂ si x ∈ I₂\n       ...\n       aₖx + bₖ si x ∈ Iₖ\n\nOù les intervalles I₁, I₂, ..., Iₖ forment une partition de Df.\n\n### 2. Exemples ivoiriens courants\n\n**1. Tarifs postaux (La Poste) :**\n- Lettre ≤ 20g : 250 FCFA\n- 20g < poids ≤ 100g : 400 FCFA\n- Au-delà : 400 + 10×(poids-100) FCFA\n\n**2. Facture d'eau (SODECI) :**\n- Tranche 1 (0-10 m³) : 300 FCFA/m³\n- Tranche 2 (10-20 m³) : 500 FCFA/m³\n- Tranche 3 (>20 m³) : 800 FCFA/m³\n\n**3. Impôt sur le revenu :**\n- Tranches progressives selon le revenu mensuel\n\n**4. Transport urbain (SOTRA) :**\n- Tarif normal : 200 FCFA\n- Tarif réduit étudiants : 150 FCFA\n- Abonnement mensuel : forfait selon le nombre de voyages\n\n### 3. Représentation graphique\n\nLe graphique d'une fonction affine par intervalles est constitué de segments de droite (ou de demi-droites).\n\n**Étapes de construction :**\n1. Déterminer les intervalles de définition\n2. Pour chaque intervalle, tracer la droite correspondante\n3. Ne garder que la partie sur l'intervalle considéré\n4. Vérifier la continuité aux points de jonction\n\n**Exemple :** Forfait SONATEL\nf(x) = 5000 si 0 ≤ x ≤ 10\nf(x) = 5000 + 500(x-10) = 500x si x > 10\n\nGraphique : segment horizontal de (0,5000) à (10,5000), puis demi-droite de pente 500 à partir de (10,5000)\n\n### 4. Étude des variations\n\n**Méthode :** Étudier séparément sur chaque intervalle\n\n**Tableau de variations :** Inclure les bornes des intervalles\n\n**Exemple :**\nPour f(x) = 2x+1 si x<3, f(x) = 10-x si x≥3\n- Sur ]-∞,3[ : a=2>0 → croissante\n- Sur [3,+∞[ : a=-1<0 → décroissante\n- En x=3 : f(3)=7 (valeur limite)\n\n### 5. Continuité et discontinuité\n\n**Continuité en un point de jonction :**\nLimite à gauche = limite à droite = valeur en ce point\n\n**Exemple continu :** f(x) = 2x si x≤1, f(x) = x+1 si x>1\nEn x=1 : 2×1=2 et 1+1=2 → continu\n\n**Exemple discontinu :** f(x) = 3x si x<2, f(x) = 8 si x≥2\nEn x=2 : 3×2=6 à gauche, 8 à droite → discontinuité\n\n### 6. Valeurs particulières\n\n**Images aux bornes :** Calculer soigneusement\n\n**Maximum et minimum :** Peuvent se trouver aux bornes des intervalles ou aux extremums locaux des différentes affines\n\n### 7. Résolution d'équations f(x) = k\n\n**Méthode :** Résoudre séparément sur chaque intervalle\n\n**Exemple :** Résoudre f(x)=4 avec f(x)=2x si x<3, f(x)=10-x si x≥3\n1. Sur x<3 : 2x=4 → x=2 (valide car 2<3)\n2. Sur x≥3 : 10-x=4 → x=6 (valide car 6≥3)\nSolutions : x=2 et x=6\n\n### 8. Résolution d'inéquations\n\n**Méthode similaire :** Résoudre sur chaque intervalle, puis union des solutions\n\n**Exemple :** f(x) ≥ 5 avec la même fonction\n1. Sur x<3 : 2x≥5 → x≥2,5 → solution partielle : [2,5; 3[\n2. Sur x≥3 : 10-x≥5 → x≤5 → solution partielle : [3; 5]\nSolution totale : [2,5; 5]\n\n### 9. Modélisation de situations réelles\n\n**Étapes :**\n1. Identifier les différents régimes (tranches)\n2. Définir les intervalles correspondants\n3. Déterminer l'expression affine sur chaque intervalle\n4. Vérifier la cohérence aux limites\n\n**Exemple 1 :** Taxi urbain Abidjan\n- Prise en charge : 500 FCFA\n- 0-5 km : 250 FCFA/km\n- Au-delà de 5 km : 200 FCFA/km\n\nf(x) = 500 + 250x si 0 ≤ x ≤ 5\nf(x) = 500 + 250×5 + 200(x-5) = 1750 + 200x si x > 5\n\n**Exemple 2 :** Salaire avec commission\n- Fixe : 150 000 FCFA\n- Commission : 5% sur les ventes jusqu'à 1 000 000 FCFA\n- Au-delà : 8% sur la part supérieure\n\nf(x) = 150000 + 0,05x si 0 ≤ x ≤ 1 000 000\nf(x) = 150000 + 0,05×1000000 + 0,08(x-1000000) = 200000 + 0,08x si x > 1 000 000\n\n### 10. Applications économiques\n\n**Économie ivoirienne :**\n- Barèmes d'impôts et taxes\n- Tarifs progressifs des services publics\n- Stratégies de prix des entreprises\n- Calculs de rentabilité\n\n### 11. Utilisation de la calculatrice\n\n**Pour le tracé :**\n- Définir la fonction par morceaux\n- Choisir une fenêtre adaptée\n- Vérifier les points de jonction\n\n**Pour les calculs :**\n- Évaluer la fonction en des points\n- Résoudre graphiquement des équations\n\n### 12. Vérifications importantes\n\n**Aux points de jonction :**\n1. La fonction est-elle définie ?\n2. Y a-t-il continuité ?\n3. Les expressions des deux côtés donnent-elles la même image ?\n\n**Cohérence globale :**\n1. Les intervalles couvrent-ils tout le domaine ?\n2. Les pentes sont-elles cohérentes avec le phénomène modélisé ?\n3. Les valeurs sont-elles réalistes (prix non négatifs, etc.) ?\n\n### 13. Erreurs fréquentes\n\n- Mauvais traitement des bornes incluses/exclues\n- Oublier de restreindre les solutions à l'intervalle considéré\n- Graphique incohérent aux points de jonction\n- Confusion entre les différentes expressions\n- Mauvais calcul des expressions affines (surtout avec les parties constantes)\n\nLes fonctions affines par intervalles sont essentielles pour modéliser les systèmes de tarification, de taxation et de rémunération qui structurent l'économie ivoirienne, permettant ainsi une analyse précise des coûts et des revenus dans divers contextes.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Une fonction affine par intervalles a différentes expressions sur différents intervalles",
+    "Aux points de jonction, vérifier si la fonction est continue",
+    "Pour résoudre f(x)=k, il faut chercher les solutions sur chaque intervalle",
+    "Le graphique est composé de segments ou de portions de droites"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Pour f(x)=2x si x<1, f(x)=x+3 si x≥1, que vaut f(1) ?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "Non défini"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Le graphique d'une fonction affine par intervalles est composé de :",
+      "options": [
+        "Des courbes",
+        "Des segments de droite",
+        "Des points isolés",
+        "Des hyperboles"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Si f(x)=3x-1 pour x≤2 et f(x)=5 pour x>2, en x=2 il y a :",
+      "options": [
+        "Continuité",
+        "Discontinuité",
+        "Maximum",
+        "Minimum"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Pour résoudre f(x)=k avec f affine par intervalles, il faut :",
+      "options": [
+        "Résoudre sur ℝ",
+        "Résoudre sur chaque intervalle",
+        "Toujours utiliser un graphique",
+        "Dériver la fonction"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

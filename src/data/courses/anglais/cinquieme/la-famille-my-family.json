@@ -1,0 +1,123 @@
+{
+  "id": "anglais-cinquieme-la-famille-my-family",
+  "title": "La famille (My family)",
+  "summary": "Dans la cour du Lycée Moderne d'Alépé, les élèves de la 5ème parlent des membres de leurs familles en vue de se familiariser.",
+  "lesson": "## My Family - Ma famille\n\n### Les membres de la famille (Family members)\n\n**Les parents :**\n- father / dad - père / papa\n- mother / mom / mum - mère / maman\n- parents - les parents\n\n**Les enfants :**\n- son - fils\n- daughter - fille\n- brother - frère\n- sister - sœur\n- children - les enfants\n\n**Les grands-parents :**\n- grandfather / grandpa - grand-père\n- grandmother / grandma - grand-mère\n- grandparents - les grands-parents\n\n**Famille élargie :**\n- uncle - oncle\n- aunt - tante\n- cousin - cousin/cousine\n- nephew - neveu\n- niece - nièce\n\n### Les nombres de 21 à 100\n\n**20 à 29 :**\n- 20 - twenty\n- 21 - twenty-one\n- 22 - twenty-two\n- 25 - twenty-five\n- 29 - twenty-nine\n\n**Les dizaines :**\n- 30 - thirty\n- 40 - forty\n- 50 - fifty\n- 60 - sixty\n- 70 - seventy\n- 80 - eighty\n- 90 - ninety\n- 100 - one hundred\n\n### Demander et donner l'âge\n\n**Demander l'âge :**\n- How old are you? - Quel âge as-tu ?\n- How old is your brother? - Quel âge a ton frère ?\n\n**Donner l'âge :**\n- I am twelve years old. - J'ai douze ans.\n- She is fifteen. - Elle a quinze ans.\n- My father is forty-five. - Mon père a quarante-cinq ans.\n\n### Le verbe TO HAVE (avoir)\n\n| Sujet | TO HAVE | Exemple |\n|-------|---------|---------|\n| I | have | I have two brothers |\n| You | have | You have a sister |\n| He/She | has | She has one son |\n| We | have | We have grandparents |\n| They | have | They have three children |\n\n**Exemples :**\n- I have two brothers and one sister. - J'ai deux frères et une sœur.\n- My mother has four sisters. - Ma mère a quatre sœurs.\n- How many cousins do you have? - Combien de cousins as-tu ?",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Family: father, mother, brother, sister, uncle, aunt",
+    "Nombres 21-100: twenty-one, thirty, forty... one hundred",
+    "How old are you? / I am 12 years old",
+    "TO HAVE: I/You/We/They have, He/She has"
+  ],
+  "exercise": {
+    "question": "Complète : 1) My father ___ (have) two brothers. 2) I ___ (have) one sister. 3) How old ___ your mother?",
+    "answer": "\n**Solution :**\n1) My father **has** two brothers.\n2) I **have** one sister.\n3) How old **is** your mother?\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Comment dit-on 'grand-mère' ?",
+      "options": [
+        "Aunt",
+        "Mother",
+        "Grandmother",
+        "Sister"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 3,
+      "prompt": "Comment dit-on '45' en anglais ?",
+      "options": [
+        "Fourteen-five",
+        "Fourty-five",
+        "Fifty-four",
+        "Forty-five"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Quelle est la forme correcte ?",
+      "options": [
+        "She have a brother",
+        "She has a brother",
+        "She haves a brother",
+        "She is have a brother"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-anglais-1-mv9g611w",
+      "type": "mcq",
+      "prompt": "In the context of family relationships, if Kofi is the son of Ama, what is the correct English term for Ama in relation to Kofi?",
+      "options": [
+        "Aunt",
+        "Mother",
+        "Grandmother",
+        "Sister"
+      ],
+      "answer": 1,
+      "explanation": "The text defines 'mother' (or mom/mum) as the female parent. Since Kofi is the son, Ama is his mother. 'Aunt' is the sister of a parent, 'Grandmother' is the mother of a parent, and 'Sister' is a female sibling."
+    },
+    {
+      "id": "auto-anglais-2-mv9g611w",
+      "type": "mcq",
+      "prompt": "According to the lesson on numbers, how is the number 30 correctly written in English?",
+      "options": [
+        "Thirteens",
+        "Thirty",
+        "Thirtieth",
+        "Three zero"
+      ],
+      "answer": 1,
+      "explanation": "The section 'Les dizaines' explicitly lists '30 - thirty'. 'Thirteens' is grammatically incorrect, 'Thirtieth' is the ordinal form, and 'Three zero' is not the standard way to write the number in English."
+    },
+    {
+      "id": "auto-anglais-3-mv9g611w",
+      "type": "mcq",
+      "prompt": "Complete the sentence with the correct form of the verb 'to have': 'My father ______ forty-five years old.'",
+      "options": [
+        "has",
+        "have",
+        "is",
+        "are"
+      ],
+      "answer": 2,
+      "explanation": "In English, age is expressed using the verb 'to be', not 'to have'. The subject 'My father' is singular (he), so the correct form is 'is'. The example in the text confirms: 'My father is forty-five.'"
+    },
+    {
+      "id": "auto-anglais-4-mv9g611w",
+      "type": "mcq",
+      "prompt": "Which English word corresponds to the French term 'neveu' (male sibling of one's sibling)?",
+      "options": [
+        "Niece",
+        "Cousin",
+        "Nephew",
+        "Uncle"
+      ],
+      "answer": 2,
+      "explanation": "The 'Famille élargie' section lists 'nephew - neveu'. 'Niece' is 'nièce', 'Cousin' is 'cousin', and 'Uncle' is 'oncle'."
+    },
+    {
+      "id": "auto-anglais-5-mv9g611w",
+      "type": "mcq",
+      "prompt": "If you want to ask a classmate about the age of his sister, which question is grammatically correct?",
+      "options": [
+        "How old is your sister?",
+        "How old are your sister?",
+        "What age is your sister?",
+        "How much is your sister?"
+      ],
+      "answer": 0,
+      "explanation": "The subject 'your sister' is singular (she), so the verb 'to be' must be conjugated as 'is'. The pattern shown in the text is 'How old is your brother?', which applies directly to 'sister'."
+    }
+  ]
+}

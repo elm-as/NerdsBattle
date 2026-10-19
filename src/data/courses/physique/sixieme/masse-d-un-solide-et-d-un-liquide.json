@@ -1,0 +1,45 @@
+{
+  "id": "physique-sixieme-masse-d-un-solide-et-d-un-liquide",
+  "title": "Masse d'un solide et d'un liquide",
+  "summary": "Pour l'anniversaire du chef de classe de la 6ème3 du Lycée Moderne de Man, les filles de la classe veulent préparer un gâteau. Pour ce faire, elles doivent respecter la recette suivante : mélanger 200 g de farine, 50 g de beurre, 2g de levure et 100 mL de lait ; placer le mélange obtenu dans un four pendant 30 min. Afin de réussir leur préparation, avec les autres élèves, elles entreprennent de déterminer les quantités exactes des différents produits ci-dessus à l'aide d'instruments de mesures appropriés.",
+  "lesson": "# Masse d'un solide et d'un liquide\n\n## I. Notion de masse\n\nLa masse d'un corps est la quantité de matière qu'il contient.\n\n### Unité légale\nLe kilogramme (kg) est l'unité légale de masse.\n\n### Sous-multiples\n- 1 kg = 1000 g (grammes)\n- 1 g = 1000 mg (milligrammes)\n\n## II. La balance Roberval\n\n### Description\nBalance à deux plateaux avec un fléau horizontal qui s'équilibre.\n\n### Principe\nQuand les masses sur les deux plateaux sont égales, le fléau est horizontal.\n\n## III. Simple pesée\n\n**Méthode**:\n1. Placer le corps sur un plateau\n2. Placer des masses marquées sur l'autre plateau\n3. Ajuster jusqu'à l'équilibre\n4. Additionner les masses marquées\n\n## IV. Masse d'un liquide par simple pesée\n\n**Méthode**:\n1. Peser le récipient vide: m₁\n2. Verser le liquide et peser l'ensemble: m₂\n3. Masse du liquide: m = m₂ - m₁\n\n## V. Double pesée\n\n**Avantage**: plus précise car on évite les erreurs dues au fléau déréglé.\n\n**Méthode**:\n1. 1ère pesée: corps sur plateau gauche, masses marquées à droite\n2. 2ème pesée: corps sur plateau droit, masses marquées à gauche\n3. Masse réelle = moyenne des deux valeurs\n\n## VI. Autres types de balance\n\n- Balance électronique: affichage numérique\n- Balance de Roberval à lecture directe\n- Pèse-personne\n- Balance de précision (laboratoire)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Masse: quantité de matière",
+    "Unité légale: kilogramme (kg)",
+    "Simple pesée: masse = somme des masses marquées",
+    "Double pesée: plus précise"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "L'unité légale de masse est:",
+      "options": [
+        "Le gramme",
+        "Le kilogramme",
+        "La tonne",
+        "Le milligramme"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "1 kilogramme équivaut à:",
+      "options": [
+        "10 grammes",
+        "100 grammes",
+        "1000 grammes",
+        "10000 grammes"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

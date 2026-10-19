@@ -1,0 +1,58 @@
+{
+  "id": "francais-sixieme-le-passe-compose",
+  "title": "Le passé composé",
+  "summary": "Comment raconter ce qui s'est passé hier, la semaine dernière ?",
+  "lesson": "## Le passé composé\n\n### Emploi du passé composé\n\nLe passé composé exprime une **action terminée** dans le passé.\n\n**Exemples :**\n- \"Hier, j'**ai mangé** du riz.\"\n- \"La semaine dernière, nous **sommes allés** à Abidjan.\"\n- \"Ce matin, il **a fait** ses devoirs.\"\n\n### Formation du passé composé\n\n**Auxiliaire (être ou avoir) au présent + participe passé**\n\n## Passé composé avec AVOIR\n\nLa plupart des verbes se conjuguent avec **avoir**.\n\n### Formation du participe passé\n\n**Verbes en -ER → -É**\n- chanter → chanté\n- manger → mangé\n\n**Verbes en -IR → -I**\n- finir → fini\n- choisir → choisi\n\n**Verbes du 3ème groupe (irréguliers) :**\n- faire → **fait**\n- prendre → **pris**\n- voir → **vu**\n- avoir → **eu**\n- être → **été**\n- lire → **lu**\n- écrire → **écrit**\n- dire → **dit**\n- mettre → **mis**\n\n### Exemples avec AVOIR\n\n**MANGER :**\n- J'ai mangé\n- Tu as mangé\n- Il/Elle a mangé\n- Nous avons mangé\n- Vous avez mangé\n- Ils/Elles ont mangé\n\n**FINIR :**\n- J'ai fini, tu as fini, il a fini...\n\n**FAIRE :**\n- J'ai fait, tu as fait, il a fait...\n\n## Passé composé avec ÊTRE\n\n**14 verbes** se conjuguent avec **être** (verbes de déplacement et de transformation).\n\n### Les 14 verbes avec ÊTRE\n\n**Aller** → allé\n**Venir** → venu\n**Arriver** → arrivé\n**Partir** → parti\n**Entrer** → entré\n**Sortir** → sorti\n**Monter** → monté\n**Descendre** → descendu\n**Rester** → resté\n**Tomber** → tombé\n**Naître** → né\n**Mourir** → mort\n**Retourner** → retourné\n**Passer** → passé\n\n**Astuce :** \"DR & MRS VANDERTRAMP\" ou \"La maison d'être\"\n\n### Accord avec ÊTRE\n\nQuand on utilise **être**, le participe passé **s'accorde** avec le sujet.\n\n**Exemples :**\n- Il **est allé** (masculin singulier)\n- Elle **est allée** (féminin singulier → +e)\n- Ils **sont allés** (masculin pluriel → +s)\n- Elles **sont allées** (féminin pluriel → +es)\n\n### Exemples complets\n\n**ALLER :**\n- Je suis allé(e)\n- Tu es allé(e)\n- Il est allé / Elle est allée\n- Nous sommes allé(e)s\n- Vous êtes allé(e)(s)\n- Ils sont allés / Elles sont allées\n\n## Exemples dans des phrases\n\n### Avec AVOIR\n\n\"Hier, j'**ai mangé** de l'attiéké. Mes amis **ont bu** du jus de bissap. Nous **avons regardé** un film. C'**a été** une belle journée.\"\n\n### Avec ÊTRE\n\n\"Ce matin, Marie **est partie** tôt. Elle **est allée** à l'école. Ses frères **sont restés** à la maison. Ils **sont sortis** plus tard.\"\n\n### Mélange des deux\n\n\"La semaine dernière, nous **sommes allés** (être) au zoo. Nous **avons vu** (avoir) des lions. Mes sœurs **sont montées** (être) sur le toboggan. Elles **ont ri** (avoir) beaucoup.\"",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Passé composé = avoir/être (présent) + participe passé",
+    "Avoir : la plupart des verbes",
+    "Être : 14 verbes de déplacement + accord du participe passé",
+    "Participes irréguliers : fait, pris, vu, été, eu..."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Le passé composé se forme avec :",
+      "options": [
+        "Un auxiliaire + participe passé",
+        "Seulement le participe passé",
+        "Deux verbes à l'infinitif",
+        "L'imparfait"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Le verbe 'aller' se conjugue avec :",
+      "options": [
+        "avoir",
+        "être",
+        "les deux",
+        "aucun"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Avec 'être', le participe passé :",
+      "options": [
+        "Ne change jamais",
+        "S'accorde avec le sujet",
+        "S'accorde avec le COD",
+        "Prend toujours un 's'"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

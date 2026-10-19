@@ -1,0 +1,150 @@
+{
+  "id": "maths-terminale-similitudes-directes-du-plan",
+  "title": "Similitudes directes du plan",
+  "summary": "Le système ci-contre permet de soulever une charge placée en M jusqu'au point D. Il est ramené à un plan rapporté au repère orthonormal direct (A, AB; AD) où ABCD est un carré de centre O et P un point se déplaçant sur [BC]. On appelle N l'image de P par la rotation de centre A et d'angle π/2 et M le milieu de [NP]. Pour vérifier l'efficacité du système, les élèves d'une classe de terminale scientifique doivent déterminer les lieux géométriques du point M lorsque P décrit [BC]. Un élève affirme que le point",
+  "lesson": "## 1. Définition d'une similitude directe\n\nUne similitude directe est une transformation du plan qui multiplie les distances par un réel positif k (rapport) et conserve les angles orientés.\n\n**Forme générale** : z' = az + b avec a,b ∈ ℂ, a≠0, k=|a|, arg(a)=θ.\n\n## 2. Éléments caractéristiques\n\nUne similitude directe est caractérisée par :\n- Son rapport k > 0\n- Son angle θ\n- Son centre Ω (si k≠1)\n\n## 3. Types particuliers\n\n- Translation : k=1, θ=0 (ou a=1)\n- Rotation : k=1, θ≠0 (|a|=1)\n- Homothétie : k≠1, θ=0 (a réel >0)\n- Similitude directe générale : k≠1, θ≠0\n\n## 4. Composée d'homothétie et de rotation\n\n**Théorème** : Toute similitude directe de rapport k≠1 et d'angle θ est la composée commutative d'une homothétie de rapport k et d'une rotation d'angle θ (ou inversement).\n\n**Écriture complexe** : z' - ω = ke^{iθ}(z - ω) où ω est l'affixe du centre.\n\n## 5. Détermination d'une similitude\n\nPour déterminer une similitude directe, on peut connaître :\n1. Centre, rapport, angle\n2. Centre, un point et son image\n3. Rapport, angle, un point et son image\n4. Deux points et leurs images\n\n**Méthode avec deux points** : Soit f telle que f(A)=A', f(B)=B'. On cherche a,b tels que :\na z_A + b = z_{A'}\na z_B + b = z_{B'}\nRésoudre ce système pour trouver a,b.\n\n## 6. Conservation des propriétés\n\nUne similitude directe conserve :\n- Le parallélisme\n- L'orthogonalité\n- Les angles orientés\n- Le barycentre\n- Le contact (tangence)\n\n**Attention** : Elle ne conserve pas les distances (sauf si k=1).\n\n## 7. Similitude et figures semblables\n\nDeux figures sont semblables si l'une est l'image de l'autre par une similitude.\n\n**Exemple ivoirien** : Les plans des maisons traditionnelles baoulé à Bouaké présentent souvent des figures semblables (agrandissement réduction).\n\n## 8. Retour à la situation du système mécanique\n\nP ∈ [BC], ABCD carré de côté 1, A(0,0), B(1,0), C(1,1), D(0,1).\n\nRotation r : A centre, angle π/2 : N = r(P)\nSi P(1,t) avec t∈[0,1], alors N = r(P) :\nz_N = e^{iπ/2}(z_P - 0) = i(1+it) = i - t = -t + i\nDonc N(-t, 1)\n\nM milieu de [NP] : z_M = (z_P + z_N)/2 = (1+t + (-t+i))/2 = (1+i)/2\n\n**Surprise** : z_M = (1+i)/2 constant ! Donc M est fixe : le milieu du carré.\n\nLa similitude qui envoie P sur M ? z_M = 0.5z_P + 0.5i ?\nEn fait, M = h ∘ r(P) avec h homothétie de centre ? et rapport 0.5 ?\n\n## 9. Groupe des similitudes directes\n\nL'ensemble des similitudes directes muni de la composition forme un groupe.\n\n```mermaid\ngraph LR\n    A[Similitudes directes] --> B{Type?}\n    B -->|k=1, θ=0| C[Translation]\n    B -->|k=1, θ≠0| D[Rotation]\n    B -->|k≠1, θ=0| E[Homothétie]\n    B -->|k≠1, θ≠0| F[Similitude générale]\n```\n\n## 10. Applications aux lieux géométriques\n\n**Méthode** : Si M = f(P) où f est une similitude directe et P décrit une courbe C, alors M décrit f(C) qui est une courbe semblable à C.\n\n**Exemple** : P décrit un cercle de centre O, rayon R. f similitude de centre Ω, rapport k, angle θ. Alors M décrit un cercle de centre f(O), rayon kR.\n\n```mathgraph\n{\n  \"type\": \"function\",\n  \"title\": \"Similitude directe : image d'un triangle\",\n  \"xRange\": [-2, 6],\n  \"yRange\": [-2, 6],\n  \"functions\": [],\n  \"points\": [\n    { \"x\": 0, \"y\": 0, \"label\": \"A\", \"color\": \"#3b82f6\" },\n    { \"x\": 2, \"y\": 0, \"label\": \"B\", \"color\": \"#3b82f6\" },\n    { \"x\": 1, \"y\": 1.5, \"label\": \"C\", \"color\": \"#3b82f6\" },\n    { \"x\": 1, \"y\": 2, \"label\": \"Ω\", \"color\": \"black\", \"size\": 6 },\n    { \"x\": 2, \"y\": 4, \"label\": \"A'\", \"color\": \"#ef4444\" },\n    { \"x\": 4, \"y\": 4, \"label\": \"B'\", \"color\": \"#ef4444\" },\n    { \"x\": 3, \"y\": 5.5, \"label\": \"C'\", \"color\": \"#ef4444\" }\n  ],\n  \"polygons\": [\n    { \"points\": [[0,0], [2,0], [1,1.5]], \"color\": \"#3b82f6\", \"label\": \"Triangle original\" },\n    { \"points\": [[2,4], [4,4], [3,5.5]], \"color\": \"#ef4444\", \"label\": \"Image par similitude\" }\n  ],\n  \"showGrid\": true,\n  \"showAxes\": true,\n  \"annotations\": [\n    { \"text\": \"k=2, θ=0\", \"x\": 2.5, \"y\": 3 }\n  ]\n}\n```\n\n## 11. Bijection réciproque\n\nLa bijection réciproque d'une similitude directe de rapport k et d'angle θ est une similitude directe de rapport 1/k et d'angle -θ, de même centre.\n",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Similitude directe : z' = az+b avec a,b∈ℂ, a≠0, k=|a|, θ=arg(a)",
+    "Conserve les angles orientés, multiplie les distances par k",
+    "Toute similitude directe (k≠1) a un centre unique Ω",
+    "Similitude = homothétie ∘ rotation (commutatif)",
+    "Deux points et leurs images déterminent une similitude unique"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Une similitude directe conserve :",
+      "options": [
+        "Les distances",
+        "Les aires",
+        "Les angles orientés",
+        "Les milieux"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "L'écriture complexe d'une similitude directe est de la forme :",
+      "options": [
+        "z'=az+b, a∈ℝ",
+        "z'=az+b, a∈ℂ*",
+        "z'=az+bar{z}+b",
+        "z'=a/bar{z}+b"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Le rapport k d'une similitude z'=(3+4i)z+1 est :",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "7"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "La composée d'une homothétie de rapport 2 et d'une rotation d'angle 30° est :",
+      "options": [
+        "Une translation",
+        "Une homothétie",
+        "Une rotation",
+        "Une similitude directe"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Une similitude directe avec k=1 et θ=0 est :",
+      "options": [
+        "Une rotation",
+        "Une translation",
+        "L'identité",
+        "Une homothétie"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Le centre Ω d'une similitude directe vérifie :",
+      "options": [
+        "f(Ω)=0",
+        "f(Ω)=Ω",
+        "f(Ω)=∞",
+        "f(Ω)=1"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Si f est une similitude de rapport 3, alors l'image d'un segment de longueur 2 est un segment de longueur :",
+      "options": [
+        "2",
+        "3",
+        "6",
+        "9"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "La réciproque d'une similitude de rapport k et d'angle θ a pour rapport :",
+      "options": [
+        "k",
+        "1/k",
+        "-k",
+        "k²"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Deux triangles sont semblables si :",
+      "options": [
+        "Ils ont mêmes angles",
+        "Ils ont mêmes côtés",
+        "Ils sont isométriques",
+        "Ils ont même aire"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Pour déterminer une similitude directe, il suffit de connaître :",
+      "options": [
+        "Un point et son image",
+        "Deux points",
+        "Deux points et leurs images",
+        "Trois points"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "physique-sixieme-les-constituants-de-l-air",
+  "title": "Les constituants de l'air",
+  "summary": "Depuis quelques années, certaines personnes s'installent près de la zone industrielle de Yopougon où l'air est souvent pollué. Des élèves de la classe de 6ème 5, habitant cet endroit et qui sont membres du club environnement du Lycée Moderne de Yopougon veulent mener une campagne de sensibilisation auprès de leurs parents. Avec leurs camarades de classe, ils cherchent alors à connaître la composition de l'air, quelques sources de pollution et à indiquer des actions à mener pour réduire la pollution.",
+  "lesson": "# Les constituants de l'air\n\n## I. Composition de l'air\n\nL'air est un mélange de plusieurs gaz:\n\n### Constituants principaux\n- **Diazote (N₂)**: environ 78%\n- **Dioxygène (O₂)**: environ 21%\n- **Autres gaz**: environ 1% (dioxyde de carbone, vapeur d'eau, gaz rares)\n\n## II. Détermination expérimentale\n\nOn peut déterminer les proportions en utilisant:\n- La combustion du phosphore qui consomme l'oxygène\n- Le volume d'air diminue d'environ 1/5 (20%)\n\nCela montre que l'oxygène représente 1/5 du volume de l'air.\n\n## III. Pollution de l'air\n\n### Sources de pollution\n- **Industries**: fumées, gaz toxiques\n- **Véhicules**: gaz d'échappement (CO, CO₂, particules)\n- **Combustibles**: bois, charbon, ordures\n- **Aérosols**: sprays, insecticides\n- **Cigarettes**: fumée toxique\n\n### Conséquences\n- Maladies respiratoires\n- Effet de serre\n- Pluies acides\n- Détérioration de la couche d'ozone\n\n## IV. Actions pour réduire la pollution\n\n### Actions individuelles\n- Utiliser les transports en commun\n- Éviter de brûler les ordures\n- Planter des arbres\n- Utiliser des énergies propres\n\n### Actions collectives\n- Contrôler les émissions des industries\n- Développer les énergies renouvelables\n- Sensibiliser la population\n- Créer des espaces verts en ville",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Air: 78% azote, 21% oxygène, 1% autres",
+    "Pollution: industries, véhicules, combustions",
+    "Conséquences: maladies, effet de serre",
+    "Solutions: transports en commun, énergies propres"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Le gaz le plus abondant dans l'air est:",
+      "options": [
+        "L'oxygène",
+        "L'azote",
+        "Le dioxyde de carbone",
+        "L'hydrogène"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle proportion de l'air est constituée d'oxygène?",
+      "options": [
+        "10%",
+        "21%",
+        "50%",
+        "78%"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

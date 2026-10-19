@@ -1,0 +1,112 @@
+{
+  "id": "physique-quatrieme-propagation-de-la-lumiere",
+  "title": "Propagation de la lumière",
+  "summary": "Le toit de la salle de classe de la 4ème 2 du Lycée Moderne de Songon est percé par endroits. Par temps ensoleillé, les élèves remarquent la formation de taches lumineuses bien définies sur les tables. Pour comprendre ce phénomène, ils décident d'étudier comment la lumière se propage et de représenter schématiquement sa trajectoire.",
+  "lesson": "# Propagation de la lumière\n\n## Introduction\n\nLa lumière est essentielle à notre perception du monde. En observant les ombres nettes des arbres dans les rues d'Abidjan ou les faisceaux des phares dans le brouillard matinal à Daloa, nous constatons que la lumière se déplace de manière particulière. Cette leçon nous permettra de comprendre les lois fondamentales de la propagation lumineuse et leurs applications dans notre vie quotidienne en Côte d'Ivoire.\n\n## I. Milieux de propagation\n\n### A. Définitions importantes\n\n**Milieu transparent** : Un milieu qui laisse passer la lumière sans la diffuser de manière notable.\n\n```mermaid\nflowchart TD\n    A[Lumière] --> B[Milieu transparent<br>ex: Verre, Air pur]\n    B --> C[Lumière transmise<br>sans déformation]\n```\n\n**Exemples en Côte d'Ivoire** :\n- L'air pur au sommet du Mont Nimba\n- L'eau claire du fleuve Comoé\n- Les vitres des buildings du Plateau à Abidjan\n\n**Milieu homogène** : Un milieu dont les propriétés sont identiques en tout point.\n\n### B. Conditions pour la propagation rectiligne\nPour que la lumière se propage en ligne droite, il faut :\n1. Un milieu **transparent**\n2. Un milieu **homogène**\n\n**Contre-exemple** : L'air au-dessus d'une route goudronnée par forte chaleur à Bouaké n'est pas homogène (mirage).\n\n## II. Propagation rectiligne\n\n### A. Principe fondamental\nDans un milieu transparent et homogène, la lumière se propage **en ligne droite**.\n\n### B. Expérience des trois cartons percés\n\n**Matériel** : Source lumineuse, trois cartons percés, écran\n\n```mermaid\ngraph LR\n    A[● Source lumineuse] --> B[Carton 1 ○]\n    B --> C[Carton 2 ○]\n    C --> D[Carton 3 ○]\n    D --> E[Écran avec tache lumineuse]\n    \n    style A fill:#f9f,stroke:#333\n    style B fill:#ccf,stroke:#333\n    style C fill:#ccf,stroke:#333\n    style D fill:#ccf,stroke:#333\n    style E fill:#cfc,stroke:#333\n```\n\n**Protocole** :\n1. Disposer les trois cartons et l'écran sur une table\n2. Aligner les trous avec la source lumineuse\n3. Observer si la lumière atteint l'écran\n\n**Observation** : La lumière n'atteint l'écran que si les trois trous sont parfaitement alignés.\n\n**Conclusion expérimentale** : La trajectoire de la lumière est rectiligne.\n\n### C. Autres preuves de la propagation rectiligne\n\n1. **Les ombres nettes** :\n   - Sous le soleil de midi à Korhogo, les ombres ont des contours bien définis\n   - Cela prouve que la lumière ne contourne pas les obstacles\n\n2. **Les rayons solaires** :\n   - À travers les nuages à Man, on voit des « rayons de soleil » rectilignes\n   - Ces rayons sont visibles grâce à la diffusion par les particules en suspension\n\n## III. Rayon et faisceau lumineux\n\n### A. Le rayon lumineux\n**Définition** : C'est une ligne droite idéale qui représente la direction de propagation de la lumière.\n\n**Représentation** : Une flèche indiquant le sens de propagation.\n\n```mermaid\ngraph LR\n    A[Source] -->|Rayon lumineux| B[Objet]\n    \n    style A fill:#f9f,stroke:#333\n    style B fill:#ccf,stroke:#333\n```\n\n**Importance** : Le rayon lumineux est un modèle théorique qui simplifie l'étude de la lumière.\n\n### B. Le faisceau lumineux\n**Définition** : Ensemble de rayons lumineux issus d'une même source.\n\n**Types de faisceaux** :\n\n```mermaid\ngraph TD\n    A[Faisceaux lumineux] --> B[Convergent]\n    A --> C[Divergent]\n    A --> D[Parallèle]\n    \n    B --> E[Rayons qui se rapprochent]\n    C --> F[Rayons qui s'éloignent]\n    D --> G[Rayons parallèles]\n```\n\n1. **Faisceau convergent** : Les rayons se rapprochent vers un point\n2. **Faisceau divergent** : Les rayons s'éloignent d'un point\n3. **Faisceau parallèle** : Tous les rayons sont parallèles entre eux\n\n## IV. Vitesse de la lumière\n\n### A. Valeur fondamentale\nDans le vide, la lumière se propage à la vitesse :\n\n**c = 300 000 km/s = 3 × 10⁸ m/s**\n\n```mermaid\ngraph LR\n    A[Lumière] -->|Vitesse maximale| B[300 000 km/s]\n    B --> C[7,5 fois le tour<br>de la Terre en 1 seconde]\n```\n\n### B. Comparaison avec d'autres vitesses\n\n| Phénomène | Vitesse | Comparaison avec la lumière |\n|-----------|---------|----------------------------|\n| **Lumière dans le vide** | 300 000 km/s | Référence (1) |\n| **Son dans l'air** (orage à Abidjan) | 340 m/s | 882 000 fois plus lent |\n| **Avion de ligne** (Air Côte d'Ivoire) | 900 km/h | 1 200 000 fois plus lent |\n| **Voiture rapide** (autoroute) | 130 km/h | 8 300 000 fois plus lent |\n\n### C. Distance Terre-Soleil\nLa lumière du Soleil met environ **8 minutes** pour nous parvenir.\n\n**Calcul** :\n```\nDistance = Vitesse × Temps\nDistance = 300 000 km/s × (8 × 60) s\nDistance = 300 000 × 480\nDistance ≈ 144 000 000 km\n```\n\n## V. Année-lumière\n\n### A. Définition\nUne année-lumière (a.l.) est la distance parcourue par la lumière en **une année** dans le vide.\n\n```mermaid\nflowchart LR\n    A[1 année-lumière] =\n    B[Distance parcourue<br>par la lumière en 1 an]\n    B --> C[Unité de distance<br>pas de temps]\n```\n\n### B. Calcul détaillé\n\n```\n1. Durée d'une année en secondes :\n   1 an = 365,25 jours × 24 h × 3600 s\n        = 31 557 600 s\n\n2. Distance parcourue :\n   Distance = 300 000 km/s × 31 557 600 s\n            = 9 467 280 000 000 km\n            ≈ 9,5 × 10¹² km\n```\n\n### C. Applications astronomiques\n\n**Exemples de distances** :\n- Étoile la plus proche (Proxima du Centaure) : **4,2 années-lumière**\n- Notre galaxie (Voie Lactée) : **100 000 années-lumière** de diamètre\n- Galaxie d'Andromède : **2,5 millions d'années-lumière**\n\n## VI. Applications pratiques en Côte d'Ivoire\n\n### A. Visée et alignement\n\n```mermaid\ngraph TD\n    A[Œil du tireur] --> B[Guidon]\n    B --> C[Cible]\n    \n    style A fill:#f9f,stroke:#333\n    style B fill:#ccf,stroke:#333\n    style C fill:#cfc,stroke:#333\n```\n\n**Exemple** : Les tireurs sportifs au stade Félix Houphouët-Boigny à Abidjan alignent l'œil, le guidon et la cible selon le principe de la propagation rectiligne.\n\n### B. Chambre noire\n\n```mermaid\ngraph TD\n    A[Objet] --> B[Trou de la chambre noire]\n    B --> C[Écran]\n    C --> D[Image renversée]\n    \n    subgraph ChambreNoire\n        B\n        C\n    end\n```\n\n**Principe** : La lumière entre par un petit trou et forme une image renversée sur l'écran opposé.\n\n**Application historique** : Ancêtre de l'appareil photo.\n\n### C. Alignement en construction\n\n**Exemple** : Les maçons à Bouaké utilisent un fil à plomb et un niveau à bulle qui fonctionnent selon le principe de la propagation rectiligne.\n\n## VII. Expériences pratiques\n\n### A. Réalisation d'une chambre noire simplifiée\n\n**Matériel** : Boîte à chaussures, papier aluminium, aiguille, papier calque\n\n**Protocole** :\n1. Percer un petit trou dans un côté de la boîte\n2. Placer du papier calque sur le côté opposé\n3. Diriger le trou vers un objet éclairé\n4. Observer l'image sur le papier calque\n\n### B. Mesure indirecte de distance\n\n**Principe** : Utiliser le triangle rectangle et la propriété de Thalès\n\n**Application** : Estimation de la hauteur des cocotiers sur la côte à San-Pedro\n\n## Conclusion\n\nLa propagation rectiligne de la lumière est un principe fondamental qui explique de nombreux phénomènes observables en Côte d'Ivoire. De la formation des ombres aux techniques de visée, en passant par les calculs astronomiques, cette propriété trouve des applications dans de nombreux domaines. Comprendre cette loi physique nous permet non seulement d'expliquer notre environnement, mais aussi de développer des technologies adaptées aux besoins de notre pays.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "La lumière se propage en ligne droite dans un milieu transparent et homogène",
+    "Un rayon lumineux est une représentation idéalisée de la trajectoire de la lumière",
+    "La vitesse de la lumière dans le vide est de 300 000 km/s",
+    "Une année-lumière est une unité de distance (environ 9,5 × 10¹² km)",
+    "Les applications pratiques incluent la visée, la chambre noire et l'alignement en construction",
+    "La propagation rectiligne explique la formation d'ombres nettes et d'images renversées"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans quel type de milieu la lumière se propage-t-elle en ligne droite ?",
+      "options": [
+        "Dans un milieu transparent et homogène",
+        "Dans un milieu opaque et hétérogène",
+        "Dans un milieu translucide seulement",
+        "Dans tous les milieux sans exception"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle est la vitesse de la lumière dans le vide ?",
+      "options": [
+        "300 000 km/s",
+        "340 m/s",
+        "150 000 km/s",
+        "1 080 000 km/h"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Que représente une année-lumière ?",
+      "options": [
+        "Une distance",
+        "Une durée",
+        "Une vitesse",
+        "Une intensité lumineuse"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Pourquoi voit-on l'éclair avant d'entendre le tonnerre à Abidjan pendant un orage ?",
+      "options": [
+        "Parce que la lumière est plus rapide que le son",
+        "Parce que le son est produit après la lumière",
+        "Parce que l'éclair est plus brillant que le tonnerre",
+        "Parce que l'œil est plus sensible que l'oreille"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel principe physique permet aux maçons de Bouaké d'aligner parfaitement les briques ?",
+      "options": [
+        "La propagation rectiligne de la lumière",
+        "La réflexion de la lumière",
+        "La réfraction de la lumière",
+        "La diffraction de la lumière"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Dans quel milieu la lumière se propage-t-elle en ligne droite ?",
+      "options": [
+        "Milieu opaque uniquement",
+        "Milieu transparent et homogène",
+        "Tous les milieux",
+        "Aucun milieu"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Qu'est-ce qu'une année-lumière ?",
+      "options": [
+        "Le temps que met la lumière pour faire 1 km",
+        "La distance parcourue par la lumière en 1 an",
+        "La vitesse de la lumière en 1 an",
+        "L'âge de la lumière"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

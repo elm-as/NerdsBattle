@@ -1,70 +1,71 @@
 {
   "id": "maths-troisieme-angles-inscrits",
-  "title": "Angles inscrits et polygones réguliers",
-  "summary": "Ce chapitre te permettra de maîtriser les relations entre les angles inscrits et les angles au centre, et de découvrir les propriétés fascinantes des polygones réguliers. Ces notions sont essentielles pour résoudre de nombreux problèmes de géométrie au BEPC et pour comprendre la beauté mathématique des figures régulières.",
-  "lesson": "## Introduction & Mise en situation\n\nAs-tu déjà observé une rosace ou une étoile à cinq branches ? Ces figures sont construites à partir de polygones réguliers, et leurs angles suivent des règles précises. Dans ce chapitre, nous allons explorer les **angles inscrits** et les **polygones réguliers**. Ces notions te permettront de calculer des angles dans des cercles, de construire des figures parfaites, et de résoudre des problèmes géométriques complexes. Au BEPC, ces compétences sont souvent testées, alors attache ta ceinture !\n\n## 1. Définitions et Principes Fondamentaux\n\n### Angle inscrit et angle au centre\n\n- **Angle inscrit** : angle dont le sommet est sur un cercle et dont les côtés coupent ce cercle. Par exemple, dans un cercle de centre $O$, un angle inscrit $\\widehat{BAC}$ a son sommet $A$ sur le cercle et ses côtés $[AB)$ et $[AC)$ coupent le cercle en $B$ et $C$.\n- **Angle au centre** : angle dont le sommet est le centre du cercle. Par exemple, l'angle $\\widehat{BOC}$ a son sommet $O$ et intercepte le même arc $BC$ que l'angle inscrit $\\widehat{BAC}$.\n\n![Angle inscrit et angle au centre](https://via.placeholder.com/300x200?text=Angle+inscrit+et+angle+au+centre)\n\n### Arc intercepté\n\nL'arc de cercle situé à l'intérieur de l'angle inscrit est appelé **arc intercepté**. Dans l'exemple ci-dessus, l'arc $BC$ (qui ne contient pas $A$) est intercepté par l'angle $\\widehat{BAC}$.\n\n### Polygone régulier\n\nUn **polygone régulier** est un polygone dont tous les côtés ont la même longueur et tous les angles sont égaux. Par exemple, un triangle équilatéral, un carré, un pentagone régulier, etc. Tout polygone régulier peut être inscrit dans un cercle : ses sommets sont sur un même cercle, appelé **cercle circonscrit**.\n\n## 2. Propriétés et Méthodes d'application\n\n### Propriété fondamentale : angle inscrit et angle au centre\n\nDans un cercle, la mesure d'un angle inscrit est égale à la moitié de la mesure de l'angle au centre qui intercepte le même arc. Autrement dit, si $\\widehat{BAC}$ est un angle inscrit et $\\widehat{BOC}$ est l'angle au centre interceptant le même arc $BC$, alors :\n\n$$\\widehat{BAC} = \\frac{1}{2} \\widehat{BOC}$$\n\n**Exemple 1 :** Dans un cercle, un angle au centre mesure $80^\\circ$. Quel est la mesure de l'angle inscrit qui intercepte le même arc ?\n\n**Solution :** $\\widehat{BAC} = \\frac{1}{2} \\times 80^\\circ = 40^\\circ$.\n\n### Conséquences importantes\n\n- **Angles inscrits interceptant le même arc** : deux angles inscrits qui interceptent le même arc sont égaux. Par exemple, si $\\widehat{BAC}$ et $\\widehat{BDC}$ interceptent tous deux l'arc $BC$, alors $\\widehat{BAC} = \\widehat{BDC}$.\n- **Angle inscrit dans un demi-cercle** : si un angle inscrit intercepte un diamètre (c'est-à-dire que l'arc intercepté est un demi-cercle), alors cet angle est droit. Autrement dit, si $[BC]$ est un diamètre du cercle, alors $\\widehat{BAC} = 90^\\circ$.\n\n**Exemple 2 :** Dans un cercle, $A$, $B$, $C$ sont trois points sur le cercle, avec $[BC]$ un diamètre. Que vaut l'angle $\\widehat{BAC}$ ?\n\n**Solution :** Puisque $[BC]$ est un diamètre, l'angle inscrit $\\widehat{BAC}$ intercepte un demi-cercle, donc $\\widehat{BAC} = 90^\\circ$.\n\n### Angle au centre et angle inscrit dans un polygone régulier\n\nDans un polygone régulier à $n$ côtés, tous les sommets sont sur le cercle circonscrit. L'angle au centre qui intercepte un côté (c'est-à-dire l'angle formé par deux rayons consécutifs) mesure $\\frac{360^\\circ}{n}$. Par exemple, pour un pentagone régulier (5 côtés), l'angle au centre vaut $\\frac{360^\\circ}{5} = 72^\\circ$.\n\nL'angle intérieur d'un polygone régulier à $n$ côtés se calcule par la formule :\n\n$$\\text{Angle intérieur} = \\frac{(n-2) \\times 180^\\circ}{n}$$\n\n**Exemple 3 :** Calcule l'angle intérieur d'un hexagone régulier.\n\n**Solution :** Pour $n=6$, on a $\\frac{(6-2) \\times 180^\\circ}{6} = \\frac{4 \\times 180^\\circ}{6} = 120^\\circ$.\n\n### Méthode pour calculer des angles dans un cercle\n\n1. Identifie l'angle inscrit et l'angle au centre qui interceptent le même arc.\n2. Utilise la propriété de proportionnalité : angle inscrit = moitié de l'angle au centre.\n3. Si nécessaire, utilise les propriétés des triangles (somme des angles = 180°) pour déduire d'autres angles.\n\n### Construction d'un polygone régulier\n\nPour construire un polygone régulier à $n$ côtés inscrit dans un cercle :\n\n1. Trace un cercle de centre $O$.\n2. Trace un angle au centre de mesure $\\frac{360^\\circ}{n}$.\n3. Reporte cet angle tout autour du cercle pour obtenir les $n$ sommets.\n4. Relie les sommets consécutifs.\n\n## 3. Pièges fréquents & Mises en garde\n\n- **Confondre angle inscrit et angle au centre** : ne pas oublier que l'angle au centre a son sommet au centre du cercle, tandis que l'angle inscrit a son sommet sur le cercle.\n- **Ne pas vérifier que l'angle inscrit et l'angle au centre interceptent le même arc** : la propriété ne s'applique que si les deux angles interceptent le même arc.\n- **Oublier le facteur 1/2** : souvent, les élèves écrivent que l'angle inscrit est égal à l'angle au centre, ou qu'il est le double. Il faut toujours se rappeler : l'angle inscrit est la moitié de l'angle au centre.\n- **Pour les polygones réguliers, confondre angle au centre et angle intérieur** : l'angle au centre est l'angle entre deux rayons consécutifs, tandis que l'angle intérieur est l'angle à l'intérieur du polygone. Ils sont différents sauf pour le triangle équilatéral (60° pour les deux ? Non, l'angle au centre est 120°, l'angle intérieur est 60°).\n- **Ne pas utiliser la bonne formule pour l'angle intérieur** : vérifie toujours la valeur de $n$ (nombre de côtés) et applique correctement la formule.\n\n## Synthèse\n\n1. **Propriété clé** : Dans un cercle, un angle inscrit mesure la moitié de l'angle au centre qui intercepte le même arc.\n2. **Conséquences importantes** : Deux angles inscrits interceptant le même arc sont égaux ; un angle inscrit dans un demi-cercle est droit.\n3. **Polygones réguliers** : Tous les sommets d'un polygone régulier sont sur un cercle ; l'angle au centre vaut $\\frac{360^\\circ}{n}$ et l'angle intérieur vaut $\\frac{(n-2) \\times 180^\\circ}{n}$.",
-  "estimatedMinutes": 12,
-  "tags": [
-    "géométrie",
-    "angles",
-    "cercle",
-    "polygones",
-    "BEPC"
+  "title": "Angles inscrits",
+  "summary": "Au cours d'un exercice de recherche en classe de troisième au collège municipal de Man, une élève a réalisé au tableau une figure où les points B, C et P appartiennent au cercle de centre O et de rayon OA. En observant la figure, un autre élève affirme que deux angles de cette figure ont la même mesure. Les autres élèves veulent connaître ces angles et décident de déterminer la mesure des angles.",
+  "lesson": "## 1. Définitions\n\n- **Angle au centre** : Angle dont le sommet est le centre du cercle\n- **Angle inscrit** : Angle dont le sommet est sur le cercle et dont les côtés coupent le cercle\n- **Arc intercepté** : Arc de cercle situé à l'intérieur de l'angle\n\n## 2. Propriété fondamentale\n\n**La mesure d'un angle au centre est le double de celle d'un angle inscrit qui intercepte le même arc.**\n\nSi $\\\\widehat{BAC}$ est un angle inscrit et $\\\\widehat{BOC}$ l'angle au centre associé :\n$\\\text{mes}(\\\\widehat{BOC}) = 2 \\\times \\\text{mes}(\\\\widehat{BAC})$\n\n## 3. Angles inscrits interceptant le même arc\n\n**Deux angles inscrits qui interceptent le même arc ont la même mesure.**\n\n```mathgraph\n{\n  \"type\": \"points\",\n  \"title\": \"Angles inscrits interceptant le même arc\",\n  \"xRange\": [-5, 5],\n  \"yRange\": [-5, 5],\n  \"points\": [\n    { \"x\": 0, \"y\": 0, \"label\": \"O\" },\n    { \"x\": 3, \"y\": 0, \"label\": \"A\" },\n    { \"x\": 1.5, \"y\": 2.598, \"label\": \"B\" },\n    { \"x\": -1.5, \"y\": 2.598, \"label\": \"C\" },\n    { \"x\": 0.5, \"y\": 3.5, \"label\": \"P\" },\n    { \"x\": -0.5, \"y\": 3.5, \"label\": \"Q\" }\n  ],\n  \"circles\": [\n    { \"cx\": 0, \"cy\": 0, \"r\": 3, \"color\": \"#3b82f6\", \"fill\": false }\n  ],\n  \"showGrid\": true,\n  \"showAxes\": false,\n  \"angles\": [\n    { \"pointA\": \"B\", \"vertex\": \"A\", \"pointB\": \"C\", \"color\": \"#ef4444\", \"label\": \"∠BAC\", \"radius\": 0.8 },\n    { \"pointA\": \"B\", \"vertex\": \"P\", \"pointB\": \"C\", \"color\": \"#10b981\", \"label\": \"∠BPC\", \"radius\": 0.6 },\n    { \"pointA\": \"B\", \"vertex\": \"O\", \"pointB\": \"C\", \"color\": \"#f59e0b\", \"label\": \"∠BOC\", \"radius\": 1.0 }\n  ]\n}\n```\n\n## 4. Cas particuliers\n\n1. **Angle inscrit dans un demi-cercle** :\n   Tout angle inscrit qui intercepte un demi-cercle est un angle droit (90°).\n\n2. **Triangle inscrit dans un cercle** :\n   Si un triangle est inscrit dans un cercle, les angles opposés sont supplémentaires.\n\n## 5. Démonstration de la propriété\n\n```mermaid\ngraph TD\n    A[Angle inscrit BAC] --> B{Cas de figure}\n    B --> C[O sur un côté]\n    B --> D[O à l'intérieur]\n    B --> E[O à l'extérieur]\n    C --> F[Triangle isocèle OAB]\n    D --> G[Somme de deux cas précédents]\n    E --> H[Différence de deux cas précédents]\n    F --> I[Angle au centre = 2×angle inscrit]\n    G --> I\n    H --> I\n```\n\n## 6. Application à la situation de Man\n\nDans la figure décrite :\n- Points B, C, P sur le cercle de centre O\n- OA est un rayon\n\nLes angles qui ont la même mesure sont :\n- $\\\\widehat{BPC}$ et $\\\\widehat{BQC}$ (s'il existe un point Q sur le même arc BC)\n- Ou $\\\\widehat{BAC}$ et $\\\\widehat{BPC}$ s'ils interceptent le même arc BC\n\n**Exemple numérique** : Si $\\\\widehat{BOC} = 80^{\\\\circ}$, alors tout angle inscrit interceptant l'arc BC mesure $40^{\\\\circ}$.\n\n## 7. Utilisation en architecture ivoirienne\n\nLes propriétés des angles inscrits sont utilisées pour :\n- La conception d'arcs et de voûtes\n- Le tracé de rosaces et de motifs décoratifs\n- La vérification d'angles droits dans les constructions\n- Le calcul de portées de ponts en arc\n\n## 8. Exercice type BAC ivoirien\n\nSoit un cercle de centre O, points A, B, C sur le cercle avec $\\\\widehat{BAC} = 35^{\\\\circ}$.\nCalculer $\\\\widehat{BOC}$.\n\n**Solution** : $\\\\widehat{BOC} = 2 \\\times 35^{\\\\circ} = 70^{\\\\circ}$\n\n**Justification** : Angle au centre = 2 × angle inscrit interceptant le même arc.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Un angle au centre mesure le double d'un angle inscrit interceptant le même arc",
+    "Deux angles inscrits interceptant le même arc ont la même mesure",
+    "Un angle inscrit dans un demi-cercle est toujours droit",
+    "L'arc intercepté est la partie du cercle à l'intérieur de l'angle"
   ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
   "questions": [
     {
       "id": "q1",
       "type": "mcq",
-      "prompt": "Dans un cercle, un angle au centre mesure 110°. Quelle est la mesure de l'angle inscrit qui intercepte le même arc ?",
+      "prompt": "Un angle inscrit qui intercepte un arc de 100° mesure :",
       "options": [
-        "55°",
-        "110°",
-        "220°",
-        "45°"
+        "50°",
+        "100°",
+        "200°",
+        "25°"
       ],
       "answer": 0,
-      "explanation": "L'angle inscrit est la moitié de l'angle au centre : 110° / 2 = 55°."
+      "explanation": "Question issue du programme officiel."
     },
     {
       "id": "q2",
-      "type": "truefalse",
-      "prompt": "Deux angles inscrits qui interceptent le même arc sont toujours égaux.",
-      "answer": true,
-      "explanation": "C'est une propriété fondamentale : ils ont la même mesure car ils interceptent le même arc."
+      "type": "mcq",
+      "prompt": "Si deux angles inscrits interceptent le même arc, ils sont :",
+      "options": [
+        "Égaux",
+        "Complémentaires",
+        "Suppléméntaires",
+        "De somme 180°"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
     },
     {
       "id": "q3",
-      "type": "fill",
-      "prompt": "Un angle inscrit intercepte un diamètre. Quelle est sa mesure en degrés ?",
-      "answer": "90",
-      "explanation": "Un angle inscrit qui intercepte un diamètre est droit, donc il mesure 90°."
+      "type": "mcq",
+      "prompt": "Un triangle inscrit dans un demi-cercle est :",
+      "options": [
+        "Rectangle",
+        "Équilatéral",
+        "Isocèle",
+        "Quelconque"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
     },
     {
       "id": "q4",
       "type": "mcq",
-      "prompt": "Quel est l'angle au centre d'un hexagone régulier ?",
+      "prompt": "L'angle au centre associé à un angle inscrit de 30° mesure :",
       "options": [
+        "15°",
+        "30°",
         "60°",
-        "120°",
-        "90°",
-        "45°"
+        "90°"
       ],
-      "answer": 0,
-      "explanation": "L'angle au centre = 360° / n = 360° / 6 = 60°."
-    },
-    {
-      "id": "q5",
-      "type": "truefalse",
-      "prompt": "Dans un polygone régulier, l'angle intérieur est toujours égal à l'angle au centre.",
-      "answer": false,
-      "explanation": "Ils sont différents. Par exemple, dans un carré, l'angle au centre est 90° et l'angle intérieur est 90° (cas particulier), mais pour un pentagone, l'angle au centre est 72° et l'angle intérieur est 108°."
-    },
-    {
-      "id": "q6",
-      "type": "fill",
-      "prompt": "Calcule l'angle intérieur d'un pentagone régulier (en degrés).",
-      "answer": "108",
-      "explanation": "Formule : ((n-2)*180)/n = ((5-2)*180)/5 = (3*180)/5 = 540/5 = 108°."
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
     }
   ]
 }

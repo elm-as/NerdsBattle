@@ -1,0 +1,272 @@
+{
+  "id": "physique-terminale-loi-de-laplace",
+  "title": "Loi de Laplace",
+  "summary": "Dans un atelier de réparation de moteurs électriques à Treichville, des élèves de Terminale C observent un technicien tester un petit moteur à courant continu. Il explique que le principe de fonctionnement est basé sur la force qu'un champ magnétique exerce sur un conducteur parcouru par un courant. Les élèves sont fascinés de voir qu'un simple fil électrique dans un champ magnétique peut produire un mouvement mécanique. Ils décident d'étudier la loi de Laplace qui décrit cette interaction, et ses applicati",
+  "lesson": "## 1. Introduction à la loi de Laplace\n\nLa loi de Laplace (ou force de Laplace) décrit la force exercée par un champ magnétique sur un conducteur parcouru par un courant électrique. C'est le principe de base des moteurs électriques, des haut-parleurs, des instruments de mesure électriques, et de nombreux actionneurs électromécaniques. En Côte d'Ivoire, cette loi est essentielle pour comprendre et développer les technologies liées à l'électrification rurale, aux systèmes d'irrigation motorisés, et à l'industrie manufacturière qui utilise des machines-outils électriques.\n\n## 2. Expression de la force de Laplace\n\n### 2.1. Pour un élément de conducteur\nSur un élément de conducteur de longueur \\( d\\\\overrightarrow{\\\\ell} \\), parcouru par un courant I et placé dans un champ magnétique \\( \\\\overrightarrow{B} \\), s'exerce la force élémentaire :\n\n\\( d\\\\overrightarrow{F} = I \\\\, d\\\\overrightarrow{\\\\ell} \\\\times \\\\overrightarrow{B} \\)\n\n### 2.2. Pour un conducteur rectiligne\nSi le conducteur est rectiligne et plongé dans un champ magnétique uniforme, la force totale sur une longueur \\( \\\\overrightarrow{\\\\ell} \\) est :\n\n\\( \\\\overrightarrow{F} = I \\\\, \\\\overrightarrow{\\\\ell} \\\\times \\\\overrightarrow{B} \\)\n\nOù \\( \\\\overrightarrow{\\\\ell} \\) est un vecteur ayant la direction du conducteur, le sens du courant, et une norme égale à la longueur du conducteur dans le champ.\n\n## 3. Caractéristiques de la force de Laplace\n\n### 3.1. Direction\nPerpendiculaire au plan formé par \\( \\\\overrightarrow{\\\\ell} \\) et \\( \\\\overrightarrow{B} \\).\n\n### 3.2. Sens\nDonné par la règle des trois doigts de la main droite :\n- Pouce : sens du courant I (sens de \\( \\\\overrightarrow{\\\\ell} \\))\n- Index : sens de \\( \\\\overrightarrow{B} \\)\n- Majeur (perpendiculaire) : sens de \\( \\\\overrightarrow{F} \\)\n\n### 3.3. Norme\n\\( F = I \\\\ell B \\\\sin\\\\theta \\)\nOù θ est l'angle entre \\( \\\\overrightarrow{\\\\ell} \\) et \\( \\\\overrightarrow{B} \\).\n\nCas particuliers :\n- Si \\( \\\\overrightarrow{\\\\ell} \\\\parallel \\\\overrightarrow{B} \\) (θ = 0° ou 180°) : F = 0\n- Si \\( \\\\overrightarrow{\\\\ell} \\\\perp \\\\overrightarrow{B} \\) (θ = 90°) : F = I ℓ B (maximum)\n\n### 3.4. Point d'application\nLa force s'applique au milieu du conducteur (si champ uniforme).\n\n**Description du schéma 1: Force de Laplace sur un conducteur rectiligne**\nReprésenter un conducteur rectiligne horizontal parcouru par un courant I (flèche). Un champ magnétique \\( \\\\overrightarrow{B} \\) uniforme vertical sort de la page (points dans des cercles). La force \\( \\\\overrightarrow{F} \\) est perpendiculaire au plan formé par le conducteur et B. Avec la règle de la main droite : I vers la droite (pouce), B vers le haut (index), alors F sort vers l'observateur (majeur). Montrer les trois vecteurs mutuellement perpendiculaires. Légender : \"\\( \\\\overrightarrow{F} = I\\\\overrightarrow{\\\\ell} \\\\times \\\\overrightarrow{B} \\)\", \"Règle des trois doigts de la main droite\", \"\\( F = I\\\\ell B \\) (car \\( \\\\overrightarrow{\\\\ell} \\\\perp \\\\overrightarrow{B} \\))\".\n\n## 4. Relation avec la force de Lorentz\n\nLa force de Laplace est la résultante des forces de Lorentz sur les charges en mouvement dans le conducteur.\n\nPour un électron de charge -e se déplaçant à la vitesse de dérive \\( \\\\overrightarrow{v}_d \\) : \\( \\\\overrightarrow{f} = -e \\\\overrightarrow{v}_d \\\\times \\\\overrightarrow{B} \\)\n\nDans un conducteur de section S, avec n porteurs par unité de volume : nombre de porteurs dans un élément de longueur dℓ : nS dℓ\nForce totale : \\( d\\\\overrightarrow{F} = nS d\\\\ell (-e) \\\\overrightarrow{v}_d \\\\times \\\\overrightarrow{B} \\)\n\nOr \\( I = n e S v_d \\) (intensité du courant)\nDonc \\( d\\\\overrightarrow{F} = I \\\\, d\\\\overrightarrow{\\\\ell} \\\\times \\\\overrightarrow{B} \\)\n\n## 5. Mise en évidence expérimentale\n\n### 5.1. Expérience des rails de Laplace\nUn conducteur mobile peut rouler sur deux rails parallèles dans un champ magnétique. Quand on fait passer un courant, le conducteur se déplace.\n\n### 5.2. Expérience de la tige de Laplace\nUne tige conductrice suspendue peut osciller dans un champ magnétique quand elle est parcourue par un courant.\n\n## 6. Applications de la loi de Laplace\n\n### 6.1. Balance de Cotton\nInstrument permettant de mesurer l'intensité d'un champ magnétique uniforme.\n\nPrincipe : Un cadre rectangulaire partiellement plongé dans le champ subit une force de Laplace verticale. On équilibre cette force avec des masses marquées.\n\nCalcul : Pour un cadre de N spires, de longueur ℓ dans le champ, parcouru par I :\n\\( F = N I \\\\ell B \\)\nÀ l'équilibre : \\( N I \\\\ell B = m g \\)\nD'où \\( B = \\\\frac{mg}{N I \\\\ell} \\)\n\n### 6.2. Roue de Barlow\nPremier moteur électrique (1822). Une roue métallique partiellement plongée dans un liquide conducteur (mercure) tourne sous l'action de la force de Laplace.\n\n### 6.3. Moteur à courant continu\nPrincipe de base : une spire parcourue par un courant dans un champ magnétique tourne sous l'action de couples de forces de Laplace.\n\n**Description du schéma 2: Principe du moteur à courant continu**\nReprésenter une spire rectangulaire ABCD placée dans un champ magnétique radial (entre les pôles d'un aimant en U). La spire est parcourue par un courant I. Montrer les forces de Laplace sur chaque côté :\n- Sur AB : force \\( \\\\overrightarrow{F}_1 \\) vers le haut (si courant entrant)\n- Sur CD : force \\( \\\\overrightarrow{F}_2 \\) vers le bas (si courant sortant)\n- Sur BC et AD : forces radiales, pas de couple\nLe couple fait tourner la spire. Ajouter un collecteur (anneau coupé) et des balais pour inverser le courant à chaque demi-tour. Légender : \"Champ magnétique radial\", \"Forces de Laplace sur AB et CD\", \"Couple \\( \\\\Gamma = F \\\\times d \\)\", \"Collecteur et balais pour inversion du courant\".\n\n## 7. Haut-parleur électrodynamique\n\n### 7.1. Principe\nUn haut-parleur convertit un signal électrique en onde sonore grâce à la force de Laplace.\n\n### 7.2. Constitution\n1. Aimant permanent (génère un champ radial)\n2. Bobine mobile solidaire de la membrane\n3. Membrane (cône)\n4. Suspension\n\n### 7.3. Fonctionnement\nLe signal audio (courant variable) traverse la bobine placée dans le champ radial de l'aimant. La force de Laplace fait vibrer la bobine et la membrane, créant des ondes sonores.\n\nForce : \\( F = N I \\\\ell B \\) (N spires, longueur totale ℓ)\n\n### 7.4. Application en Côte d'Ivoire\nHaut-parleurs pour les systèmes de sonorisation, les radios communautaires, l'équipement des écoles et des lieux de culte.\n\n## 8. Calculs pratiques\n\n### 8.1. Force sur un conducteur rectiligne\nExemple : Un câble de ligne haute tension de 100 m dans le champ magnétique terrestre (B ≈ 50 μT) parcouru par I = 100 A.\n\\( F = I \\\\ell B \\\\sin\\\\theta \\)\nSi le câble est perpendiculaire au champ : F = 100 × 100 × 50×10⁻⁶ = 0,5 N (faible)\n\n### 8.2. Force dans un moteur\nExemple : Un moteur a 100 spires de 10 cm de longueur active dans B = 0,5 T, I = 2 A.\nForce sur un côté : F = N I ℓ B = 100 × 2 × 0,10 × 0,5 = 10 N\n\n## 9. Cas d'un cadre rectangulaire\n\n### 9.1. Forces sur les côtés\nPour un cadre rectangulaire de côtés a et b, parcouru par I, dans un champ \\( \\\\overrightarrow{B} \\) uniforme :\n- Sur les côtés de longueur a : forces égales et opposées (si champ uniforme), s'annulent\n- Sur les côtés de longueur b : forces égales et opposées, forment un couple\n\n### 9.2. Couple sur le cadre\n\\( \\\\Gamma = N I S B \\\\sin\\\\theta \\) (pour un cadre de N spires, surface S, incliné d'un angle θ par rapport à B)\n\nÀ θ = 90° : couple maximal\nÀ θ = 0° : couple nul (position d'équilibre stable)\nÀ θ = 180° : couple nul (position d'équilibre instable)\n\n**Description du schéma 3: Balance de Cotton**\nReprésenter le dispositif de la balance de Cotton :\n1. Aimant en U créant un champ magnétique uniforme horizontal entre ses pôles\n2. Cadre rectangulaire suspendu à un fléau de balance\n3. Partie inférieure du cadre (longueur ℓ) plongée dans le champ\n4. Plateau de l'autre côté du fléau pour les masses marquées\n5. Source de courant alimentant le cadre\nQuand un courant I passe dans le cadre, une force de Laplace verticale F s'exerce sur la partie horizontale inférieure. À l'équilibre : F = mg. Légender : \"\\( F = N I \\\\ell B \\)\", \"À l'équilibre : \\( N I \\\\ell B = m g \\)\", \"D'où \\( B = \\\\frac{mg}{N I \\\\ell} \\)\".\n\n## 10. Applications en contexte ivoirien\n\n### 10.1. Moteurs de pompes d'irrigation\nLes pompes électriques pour l'irrigation des cultures (riz, maraîchage) utilisent des moteurs à courant continu ou alternatif basés sur la force de Laplace.\n\n### 10.2. Générateurs électriques\nLe principe réciproque (mouvement d'un conducteur dans un champ magnétique induit un courant) est utilisé dans les alternateurs des centrales hydroélectriques.\n\n### 10.3. Instruments de mesure\nGalvanomètres, ampèremètres, voltmètres à cadre mobile utilisent la loi de Laplace pour convertir un courant en déplacement angulaire.\n\n### 10.4. Actionneurs linéaires\nPour l'automatisation dans les industries (agroalimentaire, textile).\n\n## 11. Exercice guidé : conception d'un petit moteur\n\nUn atelier scolaire de Bingerville veut construire un petit moteur à courant continu. Le cadre du rotor a les caractéristiques suivantes :\n- N = 50 spires\n- Dimensions : a = 3,0 cm, b = 4,0 cm (côtés du rectangle)\n- Champ magnétique radial : B = 0,20 T\n- Courant maximal : I = 1,5 A\n\n1. Calculer la surface S d'une spire.\n2. Calculer le couple maximal \\( \\\\Gamma_{\\\\text{max}} \\) sur le rotor.\n3. Le moteur doit fournir une puissance mécanique de 0,5 W à une vitesse de rotation de 3000 tr/min. Ce couple est-il suffisant ?\n4. Calculer la force de Laplace sur un côté de longueur b.\n5. Si on double le nombre de spires, que devient le couple maximal ?\n\nSolution :\n**1. Surface d'une spire :**\n\\( S = a \\\\times b = 0,030 \\\\times 0,040 = 1,2\\\\times10^{-3} \\\\ \\\\text{m}^2 \\)\n\n**2. Couple maximal :**\n\\( \\\\Gamma_{\\\\text{max}} = N I S B \\\\sin90^\\\\circ = 50 \\\\times 1,5 \\\\times 1,2\\\\times10^{-3} \\\\times 0,20 \\)\n\\( \\\\Gamma_{\\\\text{max}} = 50 \\\\times 1,5 \\\\times 2,4\\\\times10^{-4} = 1,8\\\\times10^{-2} \\\\ \\\\text{N·m} = 18 \\\\ \\\\text{mN·m} \\)\n\n**3. Vérification pour P = 0,5 W à 3000 tr/min :**\nVitesse angulaire : \\( \\\\omega = \\\\frac{3000 \\\\times 2\\\\pi}{60} = 100\\\\pi \\\\ \\\\text{rad/s} \\\\approx 314 \\\\ \\\\text{rad/s} \\)\nCouple nécessaire : \\( \\\\Gamma = \\\\frac{P}{\\\\omega} = \\\\frac{0,5}{314} \\\\approx 1,59\\\\times10^{-3} \\\\ \\\\text{N·m} = 1,59 \\\\ \\\\text{mN·m} \\)\nLe couple maximal disponible (18 mN·m) est largement suffisant (plus de 10 fois).\n\n**4. Force sur un côté de longueur b :**\nSur chaque côté de longueur b, il y a N/2 conducteurs en série (si le bobinage est réparti sur les deux côtés). Supposons que tous les conducteurs soient sur un seul côté pour simplifier :\n\\( F = N I b B = 50 \\\\times 1,5 \\\\times 0,040 \\\\times 0,20 = 0,6 \\\\ \\\\text{N} \\)\n\n**5. Si on double N :**\n\\( \\\\Gamma_{\\\\text{max}}' = 2 \\\\times \\\\Gamma_{\\\\text{max}} = 36 \\\\ \\\\text{mN·m} \\)\nLe couple est proportionnel au nombre de spires.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Loi de Laplace : \\( \\\\overrightarrow{F} = I \\\\, \\\\overrightarrow{\\\\ell} \\\\times \\\\overrightarrow{B} \\)",
+    "F perpendiculaire au plan formé par \\( \\\\overrightarrow{\\\\ell} \\) et \\( \\\\overrightarrow{B} \\)",
+    "Norme : \\( F = I \\\\ell B \\\\sin\\\\theta \\) (max pour θ = 90°)",
+    "Sens donné par la règle des trois doigts de la main droite",
+    "Relation avec force de Lorentz : F_Laplace = résultante des forces de Lorentz sur les porteurs",
+    "Balance de Cotton : \\( B = \\\\frac{mg}{N I \\\\ell} \\)",
+    "Couple sur un cadre : \\( \\\\Gamma = N I S B \\\\sin\\\\theta \\)",
+    "Haut-parleur : membrane vibrante actionnée par force de Laplace sur bobine",
+    "Moteur à courant continu : couple produit par forces de Laplace sur les spires",
+    "La force est proportionnelle à I, ℓ, B et dépend de l'orientation"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "L'expression de la force de Laplace sur un conducteur rectiligne est :",
+      "options": [
+        "\\( \\\\overrightarrow{F} = I \\\\overrightarrow{B} \\\\times \\\\overrightarrow{\\\\ell} \\)",
+        "\\( \\\\overrightarrow{F} = I \\\\overrightarrow{\\\\ell} \\\\times \\\\overrightarrow{B} \\)",
+        "\\( \\\\overrightarrow{F} = \\\\overrightarrow{\\\\ell} \\\\times (I\\\\overrightarrow{B}) \\)",
+        "\\( \\\\overrightarrow{F} = B \\\\overrightarrow{I} \\\\times \\\\overrightarrow{\\\\ell} \\)"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La force de Laplace est maximale quand :",
+      "options": [
+        "Le conducteur est parallèle au champ",
+        "Le conducteur est perpendiculaire au champ",
+        "Le courant est nul",
+        "Le champ est nul"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Dans une balance de Cotton, si on double le courant, la masse d'équilibre :",
+      "options": [
+        "Double",
+        "Diminue de moitié",
+        "Quadruple",
+        "Ne change pas"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Le couple sur un cadre rectangulaire de N spires, surface S, parcouru par I dans un champ B vaut :",
+      "options": [
+        "\\( \\\\Gamma = N I S B \\)",
+        "\\( \\\\Gamma = N I S B \\\\sin\\\\theta \\)",
+        "\\( \\\\Gamma = I S B \\\\sin\\\\theta \\)",
+        "\\( \\\\Gamma = N I B \\\\sin\\\\theta \\)"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Dans un haut-parleur, la force qui fait vibrer la membrane est :",
+      "options": [
+        "Une force électrostatique",
+        "Une force de Laplace",
+        "Une force de pression",
+        "Une force centrifuge"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Si un conducteur est parallèle au champ magnétique, la force de Laplace est :",
+      "options": [
+        "Maximale",
+        "Nulle",
+        "Dirigée selon le champ",
+        "Proportionnelle au carré du courant"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "La règle pour déterminer le sens de la force de Laplace est :",
+      "options": [
+        "La règle de la main gauche",
+        "La règle des trois doigts de la main droite",
+        "La règle du tire-bouchon",
+        "La règle du flux"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Dans un moteur à courant continu, le collecteur sert à :",
+      "options": [
+        "Augmenter le courant",
+        "Inverser périodiquement le courant dans la spire",
+        "Créer le champ magnétique",
+        "Réduire les frottements"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "La force de Laplace sur un conducteur de 1 m parcouru par 1 A dans un champ de 1 T vaut :",
+      "options": [
+        "1 N",
+        "0,5 N",
+        "2 N",
+        "Dépend de l'angle"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "La relation entre force de Laplace et force de Lorentz est :",
+      "options": [
+        "La force de Laplace est la force de Lorentz sur un électron",
+        "La force de Laplace est la somme des forces de Lorentz sur tous les porteurs",
+        "Ce sont deux forces indépendantes",
+        "La force de Lorentz est un cas particulier de la force de Laplace"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "L'expression vectorielle de la force de Laplace est :",
+      "options": [
+        "\\\\\\( \\\\vec{F} = q \\\\vec{v} \\\\times \\\\vec{B} \\\\)",
+        "\\\\\\( \\\\vec{F} = I \\\\vec{\\\\ell} \\\\times \\\\vec{B} \\\\)",
+        "\\\\\\( \\\\vec{F} = \\\\vec{\\\\ell} \\\\times \\\\vec{B} \\\\)",
+        "\\\\\\( \\\\vec{F} = I \\\\vec{B} \\\\times \\\\vec{\\\\ell} \\\\)"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Si un conducteur rectiligne est parallèle au champ magnétique, la force de Laplace est :",
+      "options": [
+        "Maximale",
+        "Nulle",
+        "Dirigée selon le conducteur",
+        "Proportionnelle à I²"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Un conducteur de 10 cm parcouru par un courant de 5 A est placé perpendiculairement à un champ de 0.2 T. La force de Laplace vaut :",
+      "options": [
+        "0.01 N",
+        "0.1 N",
+        "1.0 N",
+        "10 N"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Pour augmenter la force de Laplace sur un conducteur, on peut :",
+      "options": [
+        "Diminuer l'intensité du courant",
+        "Diminuer la longueur du conducteur dans le champ",
+        "Orienter le conducteur parallèlement au champ",
+        "Augmenter l'intensité du champ magnétique"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "La balance de Cotton utilise la loi de Laplace pour mesurer :",
+      "options": [
+        "La tension électrique",
+        "L'intensité du courant",
+        "L'intensité du champ magnétique",
+        "La résistance électrique"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Le sens de la force de Laplace sur un conducteur dépend :",
+      "options": [
+        "Uniquement du sens du courant",
+        "Uniquement du sens du champ magnétique",
+        "À la fois du sens du courant et du sens du champ",
+        "De la température du conducteur"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Si on triple à la fois le courant I et la longueur \\\\\\( \\\\ell \\\\) du conducteur, la force de Laplace est multipliée par :",
+      "options": [
+        "3",
+        "6",
+        "9",
+        "12"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Dans les grandes installations électriques ivoiriennes, la prise en compte des forces de Laplace est cruciale pour :",
+      "options": [
+        "Améliorer le goût du cacao",
+        "Dimensionner les conducteurs et leurs supports face aux courants de court-circuit",
+        "Réduire la consommation d'énergie",
+        "Augmenter la fréquence du courant"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Un conducteur formant un angle de 30° avec un champ B subit une force de Laplace. Par rapport au cas où il est perpendiculaire (90°), cette force est :",
+      "options": [
+        "Plus grande",
+        "Identique",
+        "Deux fois plus petite",
+        "Plus petite (\\\\\\( \\\\sin 30° = 0.5 \\\\))"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "francais-cinquieme-lecture-le-portrait",
+  "title": "Lecture : Le portrait",
+  "summary": "Les élèves s'exercent à analyser des portraits littéraires pour un concours.",
+  "lesson": "## Le portrait\n\n### Types de portraits\n- Portrait physique (apparence)\n- Portrait moral (caractère)\n- Portrait mixte (physique + moral)\n\n### Techniques\n- Organisation : haut vers bas, général au particulier\n- Vocabulaire évaluatif : mélioratif ou péjoratif\n- Temps : imparfait\n- Comparaisons et métaphores",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Physique (apparence) et moral (caractère)",
+    "Organisation logique de la description",
+    "Vocabulaire évaluatif : mélioratif/péjoratif",
+    "Outils : imparfait, adjectifs, comparaisons"
+  ],
+  "exercise": {
+    "answer": "Portrait mixte (physique : grand, mince, yeux + moral : généreux, aidait les autres)",
+    "question": "Identifie le type de portrait : 'Il était grand et mince. Ses yeux brillaient d'intelligence. Généreux, il aidait toujours les autres.'"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Un portrait physique s'appelle :",
+      "options": [
+        "Éthopée",
+        "Prosopographie",
+        "Métaphore",
+        "Comparaison"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Le vocabulaire mélioratif est :",
+      "options": [
+        "Péjoratif",
+        "Valorisant",
+        "Négatif",
+        "Neutre"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

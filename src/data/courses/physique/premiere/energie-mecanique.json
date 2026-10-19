@@ -1,0 +1,383 @@
+{
+  "id": "physique-premiere-energie-mecanique",
+  "title": "Énergie mécanique",
+  "summary": "À Agboville, sur la côte menant à la SODECI, un grumier chargé de billes de bois redescend brutalement après avoir échoué à monter. Des élèves de 1ère A2 analysent la transformation des énergies lors de cet incident et étudient le concept d'énergie mécanique.",
+  "lesson": "## 1. Introduction\n\nL'**énergie mécanique** d'un système est la somme de son énergie cinétique et de ses énergies potentielles. Ce concept unificateur permet de comprendre de nombreux phénomènes en mécanique, des montagnes russes aux centrales hydroélectriques ivoiriennes.\n\n## 2. Définition de l'énergie mécanique\n\nPour un solide dans un champ de pesanteur uniforme :\n$$E_m = E_c + E_{pp}$$\n$$E_m = \\\\frac{1}{2} m v^2 + m g z$$\n\nOù $v$ est la vitesse du centre d'inertie et $z$ son altitude.\n\n## 3. Principe de conservation\n\n**Dans un système isolé ou soumis uniquement à des forces conservatives**, l'énergie mécanique se conserve :\n$$E_m = \\\text{constante}$$\n$$E_{c1} + E_{pp1} = E_{c2} + E_{pp2}$$\n\n**Forces conservatives :** Le poids, la force élastique, la force électrostatique...\n\n**Description du schéma 1:** Schéma d'un pendule simple montrant la transformation continue d'énergie. Indiquer aux extrémités : Ep max, Ec = 0 ; au point le plus bas : Ep min, Ec max ; et la somme constante Em.\n\n## 4. Application : chute libre sans frottement\n\nPour un corps en chute libre (frottements négligeables) :\n- À l'altitude $h$ : $E_c = 0$, $E_{pp} = mgh$, $E_m = mgh$\n- À l'altitude $0$ : $E_c = \\\\frac{1}{2}mv^2$, $E_{pp} = 0$, $E_m = \\\\frac{1}{2}mv^2$\n\nConservation : $mgh = \\\\frac{1}{2}mv^2$ donc $v = \\\\sqrt{2gh}$\n\n## 5. Application : solide glissant sans frottement sur un plan incliné\n\nPour un solide partant du repos en haut d'un plan incliné de hauteur $h$ :\n- En haut : $E_c = 0$, $E_{pp} = mgh$, $E_m = mgh$\n- En bas : $E_c = \\\\frac{1}{2}mv^2$, $E_{pp} = 0$, $E_m = \\\\frac{1}{2}mv^2$\n\nMême résultat : $v = \\\\sqrt{2gh}$ (indépendant de l'angle d'inclinaison !)\n\n**Description du schéma 2:** Plan incliné avec un solide. Montrer la hauteur h, la longueur L, l'angle α. Indiquer les énergies en haut (Ep=mgh, Ec=0) et en bas (Ep=0, Ec=½mv²).\n\n## 6. Non-conservation de l'énergie mécanique\n\nEn présence de **forces non conservatives** (frottements, résistance de l'air) :\n$$\\\\Delta E_m = E_{m2} - E_{m1} = W_{nc}$$\n\noù $W_{nc}$ est le travail des forces non conservatives.\n\nTypiquement, les frottements dissipent l'énergie mécanique en chaleur : $\\\\Delta E_m < 0$.\n\n## 7. Applications aux situations ivoiriennes\n\n1. **Sécurité routière** : Les freins dissipent l'énergie mécanique des véhicules.\n\n2. **Production d'électricité** : Dans les centrales hydroélectriques comme celle de Soubré, on exploite la conversion d'énergie potentielle en cinétique puis électrique.\n\n3. **Sports** : Un footballeur à Yamoussoukro convertit de l'énergie chimique (muscles) en énergie mécanique du ballon.\n\n4. **Accidents** : L'incident du grumier à Agboville montre comment l'énergie potentielle se convertit dangereusement en énergie cinétique.\n\n## 8. Bilan énergétique\n\nPour un système réel, on écrit :\n$$E_{m\\\\ \\\text{initial}} + W_{\\\text{moteur}} = E_{m\\\\ \\\text{final}} + Q$$\n\noù $Q$ est l'énergie thermique dissipée.\n\n**Description du schéma 3:** Diagramme d'énergie pour un véhicule qui monte une pente avec frottements. Montrer l'énergie chimique du carburant, les conversions en énergie mécanique et thermique, et les différentes formes d'énergie finale.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "L'énergie mécanique est la somme des énergies cinétique et potentielles",
+    "Elle se conserve en l'absence de forces non conservatives",
+    "Les frottements dissipent l'énergie mécanique en chaleur",
+    "Ce principe permet de résoudre de nombreux problèmes sans connaître les forces détaillées"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "L'énergie mécanique est définie comme :",
+      "options": [
+        "Ec seulement",
+        "Epp seulement",
+        "Ec + Epp",
+        "Ec - Epp"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "L'énergie mécanique se conserve si :",
+      "options": [
+        "Il y a des frottements",
+        "Seules des forces conservatives agissent",
+        "Il y a un moteur",
+        "La vitesse est constante"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Dans une chute libre sans frottement :",
+      "options": [
+        "Ec diminue",
+        "Epp augmente",
+        "Em est constante",
+        "Em diminue"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Les frottements transforment l'énergie mécanique en :",
+      "options": [
+        "Énergie potentielle",
+        "Énergie cinétique",
+        "Énergie thermique",
+        "Énergie lumineuse"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Sur un plan incliné sans frottement, la vitesse en bas dépend :",
+      "options": [
+        "De la masse",
+        "De la hauteur seulement",
+        "De l'angle d'inclinaison",
+        "De la longueur du plan"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Un ressort comprimé possède :",
+      "options": [
+        "Seulement de l'Ec",
+        "Seulement de l'Ep élastique",
+        "De l'Em",
+        "Aucune énergie"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Si Em diminue de 100 J, et que seuls des frottements agissent :",
+      "options": [
+        "Wfrott = +100 J",
+        "Wfrott = -100 J",
+        "Wfrott = 0 J",
+        "Impossible à dire"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Dans un pendule réel (avec frottements) :",
+      "options": [
+        "Em est constante",
+        "Em augmente",
+        "Em diminue progressivement",
+        "Ec est toujours maximale"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Pour un skieur descendant une piste :",
+      "options": [
+        "Em augmente toujours",
+        "Em diminue toujours",
+        "Em peut diminuer ou augmenter",
+        "Em est constante"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Le principe de conservation de l'Em permet de :",
+      "options": [
+        "Calculer des vitesses sans connaître les forces",
+        "Négliger les frottements",
+        "Ignorer la masse",
+        "Simplifier tous les problèmes"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "L'énergie mécanique est définie par :",
+      "options": [
+        "Em = Ec + Epp",
+        "Em = Ec × Epp",
+        "Em = Ec - Epp",
+        "Em = Ec/Epp"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Pour une chute libre sans vitesse initiale de hauteur h :",
+      "options": [
+        "v = gh",
+        "v = √(2gh)",
+        "v = 2gh",
+        "v = g√h"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "En présence de frottements, ΔEm est :",
+      "options": [
+        "Positive",
+        "Négative",
+        "Nulle",
+        "Variable"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Un pendule à son amplitude maximale a :",
+      "options": [
+        "Ec max, Epp min",
+        "Ec min, Epp max",
+        "Ec et Epp max",
+        "Ec et Epp min"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Pour un ressort horizontal avec masse, au point d'équilibre :",
+      "options": [
+        "Ec = 0, Epe max",
+        "Ec max, Epe = 0",
+        "Ec et Epe max",
+        "Ec et Epe min"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "L'énergie dissipée par frottement se transforme en :",
+      "options": [
+        "Énergie potentielle",
+        "Énergie cinétique",
+        "Énergie thermique",
+        "Énergie lumineuse"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Si un objet monte, son Em :",
+      "options": [
+        "Augmente toujours",
+        "Diminue toujours",
+        "Peut rester constante",
+        "Devient négative"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Le travail des forces non conservatives est égal à :",
+      "options": [
+        "ΔEc",
+        "ΔEpp",
+        "ΔEm",
+        "La somme ΔEc+ΔEpp"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "L'énergie mécanique d'un système est définie comme :",
+      "options": [
+        "La somme des énergies cinétique et potentielle",
+        "Le produit des énergies cinétique et potentielle",
+        "La différence entre énergie cinétique et potentielle",
+        "Le quotient des énergies cinétique et potentielle"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "L'énergie mécanique se conserve lorsque :",
+      "options": [
+        "Seules des forces conservatives agissent",
+        "Des forces de frottement agissent",
+        "Le système est isolé",
+        "La vitesse est constante"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q21",
+      "type": "mcq",
+      "prompt": "Pour un solide en chute libre sans frottement, lâché d'une hauteur h, sa vitesse en bas est :",
+      "options": [
+        "$v = gh$",
+        "$v = \\\\sqrt{2gh}$",
+        "$v = 2gh$",
+        "$v = \\\\sqrt{gh}$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q22",
+      "type": "mcq",
+      "prompt": "Lorsqu'un camion descend une pente avec freinage, son énergie mécanique :",
+      "options": [
+        "Se conserve",
+        "Augmente",
+        "Diminue",
+        "Devient nulle"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q23",
+      "type": "mcq",
+      "prompt": "Le travail des forces de frottement est généralement :",
+      "options": [
+        "Positif",
+        "Négatif",
+        "Nul",
+        "Variable"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q24",
+      "type": "mcq",
+      "prompt": "Dans une centrale hydroélectrique, la transformation principale est :",
+      "options": [
+        "Énergie potentielle → énergie électrique",
+        "Énergie cinétique → énergie thermique",
+        "Énergie chimique → énergie mécanique",
+        "Énergie nucléaire → énergie électrique"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q25",
+      "type": "mcq",
+      "prompt": "Si l'énergie mécanique d'un système diminue de 100 J, cela signifie que :",
+      "options": [
+        "Les forces non conservatives ont fourni 100 J",
+        "Les forces non conservatives ont reçu 100 J",
+        "L'énergie potentielle a augmenté de 100 J",
+        "L'énergie cinétique a augmenté de 100 J"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q26",
+      "type": "mcq",
+      "prompt": "Pour un solide glissant sans frottement sur une piste, la vitesse en bas :",
+      "options": [
+        "Dépend de la masse",
+        "Dépend de la forme de la piste",
+        "Ne dépend que de la hauteur de chute",
+        "Est toujours nulle"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q27",
+      "type": "mcq",
+      "prompt": "En Côte d'Ivoire, le principe de conservation de l'énergie mécanique est crucial pour :",
+      "options": [
+        "Le dimensionnement des barrages",
+        "La culture du cacao",
+        "L'extraction du pétrole",
+        "Le traitement de l'or"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q28",
+      "type": "mcq",
+      "prompt": "Le rendement d'une transformation énergétique est défini comme :",
+      "options": [
+        "Énergie utile / Énergie fournie",
+        "Énergie fournie / Énergie utile",
+        "Énergie perdue / Énergie totale",
+        "Énergie initiale / Énergie finale"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

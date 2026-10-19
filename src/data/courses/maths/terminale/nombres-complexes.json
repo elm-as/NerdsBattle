@@ -1,0 +1,317 @@
+{
+  "id": "maths-terminale-nombres-complexes",
+  "title": "Nombres complexes",
+  "summary": "En électricité, on utilise les nombres complexes pour modéliser les courants alternatifs. Comment les manipuler ?",
+  "lesson": "## Nombres complexes\n\n### Forme algébrique\nz = a + ib où i² = −1\n- a : partie réelle Re(z)\n- b : partie imaginaire Im(z)\n\n### Conjugué\nSi z = a + ib, alors z̄ = a − ib\n\n**Propriétés :**\n- z + z̄ = 2a\n- z × z̄ = a² + b²\n- z̄̄ = z\n\n### Module et argument\n**Module :** |z| = √(a² + b²)\n**Argument :** arg(z) = θ tel que z = |z|(cos θ + i sin θ)\n\n### Forme trigonométrique\nz = r(cos θ + i sin θ) = r e^(iθ)\n\n### Formules de Moivre\n(cos θ + i sin θ)ⁿ = cos(nθ) + i sin(nθ)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "i² = −1 (unité imaginaire)",
+    "Module : distance à l'origine",
+    "Forme trigonométrique pour multiplication"
+  ],
+  "exercise": {
+    "question": "**Exercice 1 :** Calcule (1 + i)²\n\n**Exercice 2 :** Calcule le module et l'argument de z = 1 + i√3\n\n**Exercice 3 :** Résous dans ℂ : z² + 2z + 5 = 0\n\n**Exercice 4 :** Calcule (1 + i)⁴ en utilisant la forme trigonométrique",
+    "answer": "\n**Solution Exercice 1 :**\n(1 + i)² = 1² + 2i + i² = 1 + 2i − 1 = 2i\n**Réponse : 2i**\n\n**Solution Exercice 2 :**\nz = 1 + i√3\n|z| = √(1² + (√3)²) = √(1 + 3) = 2\ntan(θ) = √3/1 = √3 ⟹ θ = π/3\n**Réponse : |z| = 2, arg(z) = π/3**\n\n**Solution Exercice 3 :**\nz² + 2z + 5 = 0\nΔ = 4 − 20 = −16 = (4i)²\nz₁ = (−2 + 4i)/2 = −1 + 2i\nz₂ = (−2 − 4i)/2 = −1 − 2i\n**Réponse : S = {−1 + 2i ; −1 − 2i}**\n\n**Solution Exercice 4 :**\n1 + i = √2(cos(π/4) + i sin(π/4))\n(1 + i)⁴ = (√2)⁴(cos(4π/4) + i sin(4π/4))\n= 4(cos(π) + i sin(π))\n= 4(−1 + 0) = −4\n**Réponse : −4**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "i² = ?",
+      "options": [
+        "1",
+        "−1",
+        "i",
+        "0"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Le conjugué de 3 + 4i est :",
+      "options": [
+        "3 − 4i",
+        "−3 + 4i",
+        "−3 − 4i",
+        "4 + 3i"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle est la partie imaginaire du nombre complexe $z = 5 - 2i$ ?",
+      "options": [
+        "5",
+        "-2",
+        "2",
+        "-5"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Le conjugué de $z = -3 + 4i$ est :",
+      "options": [
+        "3 - 4i",
+        "-3 - 4i",
+        "3 + 4i",
+        "-3 + 4i"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Le module de $z = 1 + i$ est égal à :",
+      "options": [
+        "1",
+        "$\\\\sqrt{2}$",
+        "2",
+        "$\\\\sqrt{3}$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Une mesure principale d'un argument de $z = -1 + i$ est :",
+      "options": [
+        "$\\\\frac{\\\\pi}{4}$",
+        "$\\\\frac{3\\\\pi}{4}$",
+        "$-\\\\frac{\\\\pi}{4}$",
+        "$\\\\frac{5\\\\pi}{4}$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "La forme exponentielle de $z = \\\\sqrt{3} + i$ est :",
+      "options": [
+        "2$e^{i\\\\frac{\\\\pi}{3}}$",
+        "2$e^{i\\\\frac{\\\\pi}{6}}$",
+        "4$e^{i\\\\frac{\\\\pi}{6}}$",
+        "$\\\\sqrt{2}e^{i\\\\frac{\\\\pi}{4}}$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Soit $z = 2e^{i\\\\frac{2\\\\pi}{3}}$. Sa forme algébrique est :",
+      "options": [
+        "$-1 + i\\\\sqrt{3}$",
+        "$-1 - i\\\\sqrt{3}$",
+        "$1 + i\\\\sqrt{3}$",
+        "$2 + 2i\\\\sqrt{3}$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Combien y a-t-il de racines cubiques (3-ièmes) distinctes d'un nombre complexe non nul ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "Une infinité"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "L'équation $|z - 2i| = 3$ dans le plan complexe représente :",
+      "options": [
+        "Une droite",
+        "Un cercle de rayon 3",
+        "Un cercle de rayon 9",
+        "Un point"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Laquelle de ces propositions est VRAIE concernant le nombre $i$ ?",
+      "options": [
+        "$i$ est un nombre réel",
+        "$i^3 = -i$",
+        "$i = \\\\sqrt{-1}$ est la seule racine carrée de -1",
+        "$i^4 = -1$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Si $z = \\\\frac{1+i}{1-i}$, alors $|z|$ est égal à :",
+      "options": [
+        "0",
+        "1",
+        "$\\\\sqrt{2}$",
+        "$\\\\frac{1}{\\\\sqrt{2}}$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Le conjugué de 5 − 3i est :",
+      "options": [
+        "5 + 3i",
+        "−5 + 3i",
+        "−5 − 3i",
+        "3 + 5i"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Quelle est la partie réelle de $z = 5 - 3i$ ?",
+      "options": [
+        "5",
+        "-3",
+        "3",
+        "-5"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Soit $z = 2(\\\\cos\\\\frac{\\\\pi}{3} + i \\\\sin\\\\frac{\\\\pi}{3})$. Quelle est sa forme exponentielle ?",
+      "options": [
+        "$2e^{i\\\\frac{\\\\pi}{6}}$",
+        "$e^{i\\\\frac{\\\\pi}{3}}$",
+        "$2e^{i\\\\frac{\\\\pi}{3}}$",
+        "$\\\\frac{1}{2}e^{i\\\\frac{\\\\pi}{3}}$"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Le conjugué de $z = -4 + 7i$ est :",
+      "options": [
+        "$4+7i$",
+        "$-4-7i$",
+        "$4-7i$",
+        "$7-4i$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Si $|z| = 5$ et $\\\\text{arg}(z) = \\\\frac{\\\\pi}{2}$, quelle est la forme algébrique ?",
+      "options": [
+        "$5$",
+        "$5i$",
+        "$-5i$",
+        "$5+5i$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Que vaut $i^{2023}$ ?",
+      "options": [
+        "$i$",
+        "$-i$",
+        "$1$",
+        "$-1$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Les solutions de $z^2 = -9$ sont :",
+      "options": [
+        "$3$ et $-3$",
+        "$3i$ et $-3i$",
+        "$9i$ et $-9i$",
+        "$\\\\sqrt{9}$ et $-\\\\sqrt{9}$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Soit $z = 1+i$. Quel est son module ?",
+      "options": [
+        "$1$",
+        "$\\\\sqrt{2}$",
+        "$2$",
+        "$\\\\sqrt{3}$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q21",
+      "type": "mcq",
+      "prompt": "Les racines cubiques de l'unité forment dans le plan :",
+      "options": [
+        "Une droite",
+        "Un carré",
+        "Un triangle équilatéral",
+        "Un cercle"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q22",
+      "type": "mcq",
+      "prompt": "Pour que O, A($z_A$) et B($z_B$) soient alignés, il faut que :",
+      "options": [
+        "$\\\\frac{z_A}{z_B} \\\\in \\\\mathbb{R}$",
+        "$z_A \\\\times z_B = 0$",
+        "$|z_A| = |z_B|$",
+        "$\\\\text{Im}(z_A) = \\\\text{Im}(z_B)$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q23",
+      "type": "mcq",
+      "prompt": "La forme exponentielle de $1-i$ est :",
+      "options": [
+        "$\\\\sqrt{2}e^{-i\\\\frac{\\\\pi}{4}}$",
+        "$\\\\sqrt{2}e^{i\\\\frac{\\\\pi}{4}}$",
+        "$e^{-i\\\\frac{\\\\pi}{4}}$",
+        "$\\\\sqrt{2}e^{i\\\\frac{3\\\\pi}{4}}$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

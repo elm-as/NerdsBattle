@@ -1,0 +1,96 @@
+{
+  "id": "francais-sixieme-les-adjectifs-qualificatifs",
+  "title": "Les adjectifs qualificatifs",
+  "summary": "Comment décrire précisément les personnes et les objets qui nous entourent ?",
+  "lesson": "## L'adjectif qualificatif\n\n### Qu'est-ce qu'un adjectif ?\nUn adjectif qualificatif **qualifie** (décrit) le nom. Il donne des précisions sur le nom.\n\n**Exemples :**\n- Une **belle** maison\n- Un enfant **joyeux**\n- Des fruits **mûrs**\n\n### Accord de l'adjectif\nL'adjectif s'accorde en **genre** (masculin/féminin) et en **nombre** (singulier/pluriel) avec le nom.\n\n**Règles générales :**\n- Féminin : ajouter **-e**\n  - petit → petit**e**\n- Pluriel : ajouter **-s**\n  - petit → petit**s**\n\n### Place de l'adjectif\n**Avant le nom :**\n- petit, grand, beau, joli, jeune, vieux, gros, bon, mauvais\n- Exemple : Une **belle** journée\n\n**Après le nom :**\n- La plupart des autres adjectifs\n- Exemple : Un livre **intéressant**",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Adjectif = décrit le nom",
+    "Accord : genre et nombre",
+    "Place : avant ou après le nom"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Quel est l'adjectif dans : 'Un grand arbre' ?",
+      "options": [
+        "Un",
+        "grand",
+        "arbre",
+        "Il n'y en a pas"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Comment accorder 'petit' au féminin ?",
+      "options": [
+        "petit",
+        "petite",
+        "petits",
+        "petites"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-francais-1-mv9y2uc0",
+      "type": "mcq",
+      "prompt": "Dans la phrase « Les élèves studieux ont réussi l'examen », quel est le genre et le nombre de l'adjectif qualificatif « studieux » ?",
+      "options": [
+        "Masculin singulier",
+        "Masculin pluriel",
+        "Féminin singulier",
+        "Féminin pluriel"
+      ],
+      "answer": 1,
+      "explanation": "L'adjectif « studieux » qualifie le nom « élèves », qui est masculin et pluriel. Par conséquent, l'adjectif est au masculin pluriel."
+    },
+    {
+      "id": "auto-francais-2-mv9y2uc0",
+      "type": "mcq",
+      "prompt": "Parmi les adjectifs suivants, lequel est généralement placé APRÈS le nom qu'il qualifie ?",
+      "options": [
+        "Belle",
+        "Jeune",
+        "Intéressant",
+        "Gros"
+      ],
+      "answer": 2,
+      "explanation": "Les adjectifs comme « petit », « grand », « beau », « joli », « jeune », « vieux », « gros », « bon » et « mauvais » se placent avant le nom. La plupart des autres adjectifs, dont « intéressant », se placent après le nom."
+    },
+    {
+      "id": "auto-francais-3-mv9y2uc0",
+      "type": "mcq",
+      "prompt": "Quelle est la forme correcte de l'adjectif « petit » pour qualifier le nom féminin singulier « maison » ?",
+      "options": [
+        "petit",
+        "petite",
+        "petits",
+        "petites"
+      ],
+      "answer": 1,
+      "explanation": "Pour accorder l'adjectif au féminin singulier, on ajoute un « e » à la forme masculine. Donc, « petit » devient « petite »."
+    },
+    {
+      "id": "auto-francais-4-mv9y2uc0",
+      "type": "mcq",
+      "prompt": "Dans la phrase « Nous avons visité un musée fascinant », l'adjectif « fascinant » est placé après le nom. Quelle est la raison principale de cette position ?",
+      "options": [
+        "Parce que c'est un adjectif de taille",
+        "Parce que c'est un adjectif de couleur",
+        "Parce que c'est un adjectif qui ne fait pas partie des adjectifs courts et fréquents placés avant le nom",
+        "Parce que c'est un adjectif de forme"
+      ],
+      "answer": 2,
+      "explanation": "Les adjectifs courts et très fréquents (comme petit, grand, beau, etc.) sont placés avant le nom. Les autres adjectifs, comme « fascinant », sont généralement placés après le nom."
+    }
+  ]
+}

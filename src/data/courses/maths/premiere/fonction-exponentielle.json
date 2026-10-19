@@ -1,0 +1,44 @@
+{
+  "id": "maths-premiere-fonction-exponentielle",
+  "title": "Fonction exponentielle",
+  "summary": "La croissance des populations suit souvent une loi exponentielle. Comment la modéliser ?",
+  "lesson": "## Fonction exponentielle\n\n### Définition\nexp est l'unique fonction telle que :\n- exp' = exp\n- exp(0) = 1\n\nNotation : exp(x) = eˣ\n\n### Propriétés algébriques\n- eᵃ × eᵇ = eᵃ⁺ᵇ\n- eᵃ / eᵇ = eᵃ⁻ᵇ\n- (eᵃ)ⁿ = eᵃⁿ\n- e⁰ = 1\n- e⁻ˣ = 1/eˣ\n\n### Limites\n- lim[x→+∞] eˣ = +∞\n- lim[x→−∞] eˣ = 0\n- exp croît plus vite que tout polynôme\n\n### Dérivée\n(eᵘ)' = u'eᵘ",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "exp' = exp (propriété fondamentale)",
+    "eᵃ × eᵇ = eᵃ⁺ᵇ",
+    "Croissance exponentielle"
+  ],
+  "exercise": {
+    "question": "Résous : e²ˣ⁻¹ = e³",
+    "answer": "\n**Solution :**\ne²ˣ⁻¹ = e³\n2x − 1 = 3\n2x = 4\nx = 2\n\n**Réponse : x = 2**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "e² × e³ = ?",
+      "options": [
+        "e⁵",
+        "e⁶",
+        "2e³",
+        "3e²"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "(eˣ)' = ?",
+      "options": [
+        "1",
+        "x",
+        "eˣ",
+        "xeˣ"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

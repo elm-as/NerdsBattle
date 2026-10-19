@@ -1,0 +1,45 @@
+{
+  "id": "espagnol-troisieme-parler-de-ses-experiences-preterito-perfecto",
+  "title": "Parler de ses expériences (pretérito perfecto)",
+  "summary": "¿Has viajado alguna vez a otro país? (As-tu déjà voyagé dans un autre pays ?)",
+  "lesson": "## Le pretérito perfecto\n\n### Formation\n**HABER (présent) + PARTICIPE PASSÉ**\n\n**Conjugaison de HABER :**\n- yo he\n- tú has\n- él/ella ha\n- nosotros hemos\n- vosotros habéis\n- ellos han\n\n### Participes passés\n\n**Réguliers :**\n- -AR → -ADO : hablar → hablado\n- -ER/-IR → -IDO : comer → comido, vivir → vivido\n\n**Irréguliers courants :**\n- hacer → hecho\n- decir → dicho\n- ver → visto\n- escribir → escrito\n- poner → puesto\n- abrir → abierto\n- volver → vuelto\n- morir → muerto\n\n### Usage\nActions liées au présent ou expériences sans date précise :\n- He estudiado mucho hoy. (J'ai beaucoup étudié aujourd'hui)\n- ¿Has estado en España? (Es-tu déjà allé en Espagne ?)\n- Nunca he comido caracoles. (Je n'ai jamais mangé d'escargots)\n\n### Marqueurs temporels\n- hoy (aujourd'hui)\n- esta semana (cette semaine)\n- este año (cette année)\n- alguna vez (déjà, une fois)\n- nunca (jamais)\n- ya (déjà)\n- todavía no (pas encore)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "HABER + participe passé",
+    "Expériences de vie sans date précise",
+    "Actions liées au présent",
+    "Participe invariable"
+  ],
+  "exercise": {
+    "answer": "He visitado Grand-Bassam. He aprendido a nadar. Nunca he viajado en avión. He probado muchos platos típicos de Costa de Marfil.",
+    "question": "Parle de 3 expériences que tu as eues dans ta vie."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la forme correcte : 'J'ai mangé' ?",
+      "options": [
+        "Yo comí",
+        "\"Yo he comido\"",
+        "Yo como",
+        "Yo comía"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel est le participe passé de 'hacer' ?",
+      "options": [
+        "hacido",
+        "hacío",
+        "hací",
+        "\"hecho\""
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

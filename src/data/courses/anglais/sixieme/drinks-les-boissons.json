@@ -1,0 +1,58 @@
+{
+  "id": "anglais-sixieme-drinks-les-boissons",
+  "title": "Drinks - Les boissons",
+  "summary": "Au restaurant, le serveur demande : 'What would you like to drink?' Comment répondre ?",
+  "lesson": "## Drinks - Les boissons\n\n### Common Drinks\n\n- **Water** - eau\n- **Juice** - jus\n- **Milk** - lait\n- **Tea** - thé\n- **Coffee** - café\n- **Cola** - coca\n- **Lemonade** - limonade\n- **Chocolate milk** - chocolat au lait\n\n### Specific Juices\n\n- **Orange juice** - jus d'orange\n- **Apple juice** - jus de pomme\n- **Mango juice** - jus de mangue\n\n## Asking for Drinks\n\n**What would you like to drink?** - Que voulez-vous boire ?\n\n**Responses:**\n- I would like water, please.\n- I'd like orange juice.\n- Can I have milk, please?\n\n## Would Like (polite)\n\n**I would like** = Je voudrais (poli)\n**I'd like** = forme contractée\n\n- I **would like** tea, please.\n- She **would like** water.\n- They **would like** juice.\n\n## At a Restaurant\n\n**Waiter:** What would you like to drink?\n**Customer:** I'd like orange juice, please.\n**Waiter:** Here you are.\n**Customer:** Thank you!\n\n### Asking Politely\n\n- **Can I have** water, please?\n- **May I have** tea, please?\n- **Please** - S'il vous plaît\n- **Thank you** - Merci",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Water, juice, milk, tea, coffee",
+    "What would you like? pour demander",
+    "I would like... / I'd like... (poli)",
+    "Please et Thank you pour être poli"
+  ],
+  "exercise": {
+    "answer": "\n**Solution :**\nI would like orange juice, please. / I'd like orange juice, please.\n        ",
+    "question": "Traduis poliment : 'Je voudrais du jus d'orange, s'il vous plaît.'"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'jus' ?",
+      "options": [
+        "Water",
+        "Milk",
+        "Juice",
+        "Tea"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle forme est polie ?",
+      "options": [
+        "I want water",
+        "I would like water",
+        "Give me water",
+        "I need water"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Comment dire 's'il vous plaît' ?",
+      "options": [
+        "Thank you",
+        "Please",
+        "Sorry",
+        "Excuse me"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

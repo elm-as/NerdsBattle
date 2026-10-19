@@ -1,0 +1,57 @@
+{
+  "id": "francais-troisieme-les-complements-circonstanciels",
+  "title": "Les compléments circonstanciels",
+  "summary": "Ton professeur te demande de développer une phrase simple comme « L'élève travaille ». Comment ajouter des informations sur le temps, le lieu, la manière, etc. ?",
+  "lesson": "## Les compléments circonstanciels\n\n### Définition\nLes compléments circonstanciels (CC) précisent les circonstances de l'action exprimée par le verbe : quand, où, comment, pourquoi, etc.\n\n### Caractéristiques des CC\n- Ils sont **facultatifs** (on peut les supprimer)\n- Ils sont **déplaçables** dans la phrase\n- Ils peuvent être : GN, adverbe, proposition subordonnée, infinitif\n\n### Les principaux compléments circonstanciels\n\n**1. CC de temps** (Quand ?)\n*Exemples :*\n- « **Hier**, j'ai révisé. » (adverbe)\n- « **Pendant les vacances**, je lirai. » (GN)\n- « **Quand il pleut**, je reste à la maison. » (proposition)\n\n**2. CC de lieu** (Où ?)\n*Exemples :*\n- « Il étudie **à la bibliothèque**. » (GN)\n- « Elle habite **ici**. » (adverbe)\n- « Il va **où tu veux**. » (proposition)\n\n**3. CC de manière** (Comment ?)\n*Exemples :*\n- « Elle parle **doucement**. » (adverbe)\n- « Il marche **avec élégance**. » (GN)\n- « Il agit **comme un héros**. » (proposition)\n\n**4. CC de cause** (Pourquoi ? À cause de quoi ?)\n*Exemples :*\n- « Il est absent **à cause de la maladie**. » (GN)\n- « **Parce qu'il pleut**, je reste. » (proposition)\n- « Il tremble **de peur**. » (GN)\n\n**5. CC de but** (Dans quel but ? Pour quoi ?)\n*Exemples :*\n- « Il travaille **pour réussir**. » (infinitif)\n- « Elle économise **pour ses études**. » (GN)\n- « Il parle bas **pour que personne n'entende**. » (proposition)\n\n**6. CC de conséquence** (Avec quel résultat ?)\n*Exemples :*\n- « Il a travaillé **au point de s'épuiser**. » (infinitif)\n- « Il crie **si fort que tout le monde l'entend**. » (proposition)\n\n**7. CC de moyen** (Avec quoi ? Par quel moyen ?)\n*Exemples :*\n- « Il écrit **avec un stylo**. » (GN)\n- « Elle voyage **en avion**. » (GN)\n\n**8. CC de condition** (À quelle condition ?)\n*Exemples :*\n- « **Si tu travailles**, tu réussiras. » (proposition)\n- « **En cas de pluie**, restez à l'abri. » (GN)\n\n**9. CC de concession/opposition** (Malgré quoi ?)\n*Exemples :*\n- « **Bien qu'il soit malade**, il travaille. » (proposition)\n- « **Malgré la pluie**, il est sorti. » (GN)\n\n### Tableau récapitulatif\n\n| CC | Question | Mots introducteurs |\n|----|----------|-------------------|\n| Temps | Quand ? | pendant, depuis, avant, après, quand, lorsque |\n| Lieu | Où ? | à, dans, sur, sous, vers, chez, où |\n| Manière | Comment ? | avec, sans, en, comme, ainsi que |\n| Cause | Pourquoi ? | à cause de, parce que, puisque, car |\n| But | Pour quoi ? | pour, afin de, pour que, afin que |\n| Moyen | Avec quoi ? | avec, par, en, au moyen de |\n| Condition | À quelle condition ? | si, à condition que, en cas de |\n| Concession | Malgré quoi ? | malgré, bien que, quoique |\n\n### Enrichir une phrase simple\n\n**Phrase simple :** « L'élève travaille. »\n\n**Phrase enrichie :**\n« **Chaque soir** (CC temps), **à la maison** (CC lieu), l'élève travaille **avec sérieux** (CC manière) **pour réussir au BEPC** (CC but). »",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "CC = compléments facultatifs et déplaçables",
+    "Types : temps, lieu, manière, cause, but, conséquence, moyen, condition, concession",
+    "Natures : GN, adverbe, proposition subordonnée, infinitif"
+  ],
+  "exercise": {
+    "question": "Identifie la nature et le type de chaque CC : « Hier matin, à Abidjan, les élèves ont manifesté pacifiquement pour obtenir de meilleures conditions d'études. »",
+    "answer": "\n**Solution :**\n\n**Analyse de la phrase :**\n« **Hier matin**, **à Abidjan**, les élèves ont manifesté **pacifiquement** **pour obtenir de meilleures conditions d'études**. »\n\n| CC | Nature | Type |\n|----|--------|------|\n| **Hier matin** | GN (groupe nominal) | CC de temps (Quand ?) |\n| **à Abidjan** | GN prépositionnel | CC de lieu (Où ?) |\n| **pacifiquement** | Adverbe | CC de manière (Comment ?) |\n| **pour obtenir de meilleures conditions d'études** | Groupe infinitif prépositionnel | CC de but (Pour quoi ?) |\n\n**Remarque :** Ces CC sont tous facultatifs et déplaçables. On pourrait écrire : « Pacifiquement, pour obtenir de meilleures conditions d'études, les élèves ont manifesté hier matin à Abidjan. »\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Un complément circonstanciel est :",
+      "options": [
+        "Obligatoire",
+        "Facultatif",
+        "Toujours un adverbe",
+        "Toujours un GN"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "« Pour réussir » est un CC de :",
+      "options": [
+        "Temps",
+        "Lieu",
+        "But",
+        "Cause"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "« Parce qu'il pleut » exprime :",
+      "options": [
+        "Le but",
+        "La manière",
+        "La cause",
+        "La conséquence"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

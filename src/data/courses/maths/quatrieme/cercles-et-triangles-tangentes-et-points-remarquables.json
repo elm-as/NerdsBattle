@@ -1,0 +1,84 @@
+{
+  "id": "maths-quatrieme-cercles-et-triangles-tangentes-et-points-remarquables",
+  "title": "Cercles et triangles : tangentes et points remarquables",
+  "summary": "Les urbanistes d'Abidjan doivent aménager un parc triangulaire dans le quartier de Cocody. Ils doivent déterminer l'emplacement optimal d'une fontaine circulaire tangente aux trois allées et identifier les points stratégiques pour l'installation de bancs.",
+  "lesson": "## Cercles et triangles : tangentes et points remarquables\n\n### Tangente à un cercle\n\n**Définition** : Une tangente à un cercle est une droite qui touche le cercle en un seul point, appelé point de tangence.\n\n**Propriété fondamentale** : La tangente en un point d'un cercle est perpendiculaire au rayon passant par ce point.\n\n### Points remarquables d'un triangle\n\n**Médianes** : Droites joignant un sommet au milieu du côté opposé.\n- **Centre de gravité** : Point de concours des médianes\n- Situé aux 2/3 de chaque médiane en partant du sommet\n\n**Hauteurs** : Droites issues d'un sommet et perpendiculaires au côté opposé.\n- **Orthocentre** : Point de concours des hauteurs\n\n**Médiatrices** : Droites perpendiculaires aux côtés en leur milieu.\n- **Centre du cercle circonscrit** : Point de concours des médiatrices\n\n**Bissectrices** : Droites qui partagent les angles en deux angles égaux.\n- **Centre du cercle inscrit** : Point de concours des bissectrices\n\n### La droite des milieux\n\n**Théorème** : Dans un triangle, la droite qui joint les milieux de deux côtés est parallèle au troisième côté et mesure la moitié de sa longueur.\n\nSi M est milieu de [AB] et N milieu de [AC], alors :\n- (MN) // (BC)\n- MN = BC ÷ 2\n\n### Construction du cercle inscrit\n\n**Étapes de construction** :\n1. Tracer les bissectrices de deux angles du triangle\n2. Leur point d'intersection I est le centre du cercle inscrit\n3. Tracer la perpendiculaire de I à un côté pour trouver le rayon\n4. Tracer le cercle de centre I et de ce rayon\n\n### Applications ivoiriennes\n\n**Exemple 1** : Dans l'aménagement du parc du Banco, les jardiniers utilisent le centre du cercle inscrit pour placer un bassin d'eau à égale distance des trois allées principales.\n\n**Exemple 2** : Les architectes du pont de Grand-Bassam utilisent les propriétés des tangentes pour calculer les courbures des accès.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Une tangente est perpendiculaire au rayon au point de contact",
+    "Le centre de gravité est le point de concours des médianes",
+    "Le centre du cercle inscrit est le point de concours des bissectrices",
+    "La droite des milieux est parallèle au troisième côté"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la position d'une tangente par rapport au rayon au point de contact ?",
+      "options": [
+        "Parallèle",
+        "\"Perpendiculaire\"",
+        "Sécante",
+        "Quelconque"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel est le point de concours des médianes d'un triangle ?",
+      "options": [
+        "\"Le centre de gravité\"",
+        "L'orthocentre",
+        "Le centre du cercle inscrit",
+        "Le centre du cercle circonscrit"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Si dans un triangle, M et N sont les milieux de AB et AC, et que BC = 30 cm, que vaut MN ?",
+      "options": [
+        "30 cm",
+        "10 cm",
+        "20 cm",
+        "\"15 cm\""
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Comment obtient-on le centre du cercle inscrit dans un triangle ?",
+      "options": [
+        "\"En traçant les bissectrices\"",
+        "En traçant les médianes",
+        "En traçant les hauteurs",
+        "En traçant les médiatrices"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Le cercle inscrit dans un triangle est tangent :",
+      "options": [
+        "Aux trois sommets",
+        "Aux médianes",
+        "Aux hauteurs",
+        "\"Aux trois côtés\""
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

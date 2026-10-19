@@ -1,0 +1,71 @@
+{
+  "id": "espagnol-seconde-vocabulaire-la-famille-et-l-ecole",
+  "title": "Vocabulaire : La famille et l'école",
+  "summary": "Dans le cadre d'un projet d'échange avec un lycée de Barcelone, les élèves de 2nde C du Lycée Moderne de Gagnoa préparent des présentations sur leur famille et leur système scolaire. Ils doivent maîtriser le vocabulaire spécifique pour décrire avec précision leur environnement familial et éducatif.",
+  "lesson": "## 1. La famille nucléaire\n\n**Membres directs :**\n- Padre / Papá : père\n- Madre / Mamá : mère\n- Hijo : fils\n- Hija : fille\n- Hermano : frère\n- Hermana : sœur\n\n**Exemple :**\n- Mi padre se llama Amadou.\n- Tengo dos hermanos y una hermana.\n\n## 2. La famille élargie\n\n**Ascendants :**\n- Abuelo : grand-père\n- Abuela : grand-mère\n- Bisabuelo : arrière-grand-père\n\n**Collatéraux :**\n- Tío : oncle\n- Tía : tante\n- Primo/a : cousin/cousine\n- Sobrino : neveu\n- Sobrina : nièce\n\n## 3. Relations par alliance\n\n- Esposo / Marido : mari\n- Esposa / Mujer : femme\n- Suegro : beau-père\n- Suegra : belle-mère\n- Yerno : gendre\n- Nuera : belle-fille\n- Cuñado/a : beau-frère/belle-sœur\n\n## 4. Description des personnes\n\n**Âge :**\n- Mi hermana tiene 10 años.\n- Mis abuelos son mayores.\n\n**Profession :**\n- Mi madre es profesora.\n- Mi tío es agricultor.\n\n**Caractère :**\n- Mi padre es trabajador.\n- Mi hermana pequeña es simpática.\n\n## 5. Le système scolaire ivoirien\n\n**Niveaux :**\n- Educación primaria (6-11 ans)\n- Educación secundaria :\n  - Primer ciclo (12-15 ans) : 6ème à 3ème\n  - Segundo ciclo (16-18 ans) : 2nde, 1ère, Terminale\n- Educación superior : universidad\n\n**Types d'établissements :**\n- Liceo moderno : lycée moderne\n- Colegio : collège\n- Escuela primaria : école primaire\n\n## 6. Les matières scolaires\n\n**Tronc commun :**\n- Matemáticas : mathématiques\n- Francés : français\n- Español : espagnol\n- Historia y Geografía : histoire-géographie\n- Ciencias de la Vida y la Tierra : SVT\n\n**Série C (scientifique) :**\n- Física y Química : physique-chimie\n- Matemáticas avanzadas\n\n## 7. La vie au lycée\n\n**Lieux :**\n- Sala de clase : salle de classe\n- Biblioteca : bibliothèque\n- Patio : cour\n- Cantina : cantine\n- Campo deportivo : terrain de sport\n\n**Personnel :**\n- Director/a : directeur/trice\n- Profesor/a : professeur\n- Consejero/a escolar : conseiller d'éducation\n\n## 8. Activités scolaires\n\n**Pédagogiques :**\n- Hacer los deberes : faire les devoirs\n- Estudiar para un examen : étudier pour un examen\n- Participar en clase : participer en classe\n\n**Paraescolares :**\n- Club de español : club d'espagnol\n- Equipo de fútbol : équipe de football\n- Grupo teatral : groupe théâtral\n\n**Exemple contextualisé (Gagnoa) :**\n\"En el Liceo Moderno de Gagnoa, estudiamos muchas materias. Nuestro director se llama Señor Koné. Tenemos buenos profesores. Después de las clases, algunos alumnos participan en el club de español donde hablamos de la cultura hispana. Otros juegan al fútbol en el campo deportivo. Mi familia apoya mis estudios: mi padre es funcionario y mi madre es comerciante en el mercado.\"",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Distinguer famille nucléaire et élargie",
+    "Utiliser les termes corrects pour les relations familiales",
+    "Connaître le vocabulaire spécifique au système éducatif ivoirien",
+    "Décrire les activités scolaires avec précision"
+  ],
+  "exercise": {
+    "answer": "**Mi familia y mi vida escolar:**\n\nVivo en Gagnoa con mi familia. Mi padre se llama Ahmed y tiene 45 años. Es ingeniero agrícola y trabaja en una cooperativa de cacao. Mi madre se llama Aïcha, tiene 42 años y es enfermera en el hospital regional. Tengo dos hermanos: mi hermano mayor, Mohamed, tiene 20 años y estudia informática en Abidjan. Mi hermana pequeña, Fatou, tiene 12 años y va al colegio.\n\nYo estudio en el Liceo Moderno de Gagnoa, en la clase de 2nde C (científica). Nuestro liceo es grande y tiene buenas instalaciones. Estudio muchas materias: me gustan las matemáticas porque son lógicas, el español porque me interesa la cultura hispana, y la física que es fascinante. No me gusta mucho la historia porque hay que memorizar muchas fechas.\n\nParticipo en dos actividades extraescolares: el club de español donde preparamos un intercambio con un liceo de España, y el equipo de atletismo donde corro 400 metros. Los sábados, a veces ayudo a mi padre en la cooperativa.\n\nMis proyectos son terminar el bachillerato científico y después estudiar medicina en la Universidad de Cocody. Quiero ser médico para ayudar a la gente de mi región.",
+    "question": "Rédige une présentation de ta famille et de ta vie scolaire (15-18 phrases). Inclus : 1) Description de 4 membres de ta famille (noms, âges, professions), 2) Ton établissement et ta série, 3) 3 matières que tu étudies avec ton opinion, 4) 2 activités parascolaires, 5) Tes projets scolaires."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'grand-mère' en espagnol ?",
+      "options": [
+        "Abuelo",
+        "Abuela",
+        "Tía",
+        "Madre"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel est le terme pour 'lycée moderne' ?",
+      "options": [
+        "Colegio",
+        "Escuela primaria",
+        "Liceo moderno",
+        "Universidad"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Que signifie 'hermano' ?",
+      "options": [
+        "Père",
+        "Frère",
+        "Cousin",
+        "Oncle"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'conseiller d'éducation' ?",
+      "options": [
+        "Director",
+        "Profesor",
+        "Consejero escolar",
+        "Alumno"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

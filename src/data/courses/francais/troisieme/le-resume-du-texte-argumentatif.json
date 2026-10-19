@@ -1,0 +1,57 @@
+{
+  "id": "francais-troisieme-le-resume-du-texte-argumentatif",
+  "title": "Le résumé du texte argumentatif",
+  "summary": "Au BEPC, tu dois résumer un texte argumentatif. Comment identifier les idées essentielles et les reformuler avec tes propres mots ?",
+  "lesson": "## Le résumé du texte argumentatif\n\n### Définition\nTexte court reprenant les idées essentielles d'un texte argumentatif plus long.\n\n### Règles du résumé\n\n**1. Réduction**\n- Environ 1/4 de la longueur du texte original\n- Respecter le nombre de mots imposé\n\n**2. Fidélité**\n- Respecter les idées de l'auteur\n- Ne pas déformer sa pensée\n- Conserver l'ordre des idées\n\n**3. Reformulation**\n- Utiliser ses propres mots\n- Pas de recopie du texte original\n- Pas de citations entre guillemets\n\n**4. Objectivité**\n- Ne pas ajouter d'idées personnelles\n- Ne pas commenter ni critiquer\n- Rester neutre\n\n**5. Cohérence**\n- Enchaînement logique des idées\n- Utiliser des connecteurs\n- Texte fluide et compréhensible\n\n### Méthode pour résumer\n\n**Étape 1 : Lecture attentive** (2 fois minimum)\n- Comprendre le sens général\n- Identifier le thème et la thèse\n\n**Étape 2 : Repérage des idées principales**\n- Souligner les idées essentielles\n- Identifier la thèse et les arguments\n- Éliminer les exemples et détails secondaires\n\n**Étape 3 : Plan du texte**\n- Introduction : thème et thèse\n- Développement : arguments principaux\n- Conclusion : bilan de l'auteur\n\n**Étape 4 : Rédaction**\n- Reformuler avec ses propres mots\n- Respecter l'ordre des idées\n- Utiliser des connecteurs logiques\n\n**Étape 5 : Relecture**\n- Vérifier la cohérence\n- Compter les mots\n- Corriger l'orthographe\n\n### Connecteurs utiles pour résumer\n\n**Pour introduire :** L'auteur affirme que..., Selon l'auteur...\n**Pour enchaîner :** D'abord, ensuite, puis, enfin\n**Pour ajouter :** De plus, en outre, par ailleurs\n**Pour opposer :** Cependant, néanmoins, toutefois\n**Pour conclure :** Ainsi, donc, en conclusion\n\n### Ce qu'il faut éviter\n\n❌ Recopier des phrases du texte\n❌ Ajouter ses propres idées\n❌ Commencer par « Ce texte parle de... »\n❌ Utiliser « je » ou « nous »\n❌ Dépasser le nombre de mots imposé\n❌ Omettre des idées essentielles",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Résumé = 1/4 du texte original, reformulation, fidélité",
+    "Méthode : lecture, repérage, plan, rédaction, relecture",
+    "Pas de recopie, pas d'ajout personnel, pas de « je »"
+  ],
+  "exercise": {
+    "question": "Voici un texte de 120 mots. Résume-le en 30 mots maximum : « L'éducation est la clé du développement. Elle permet aux jeunes d'acquérir des connaissances et des compétences indispensables. Dans les pays développés, le taux d'alphabétisation dépasse 95%. Cependant, en Afrique, des millions d'enfants n'ont pas accès à l'école. Cette situation freine le progrès économique et social. Les gouvernements doivent investir dans l'éducation en construisant des écoles, en formant des enseignants et en distribuant gratuitement des manuels scolaires. La communauté internationale doit également apporter son soutien. »",
+    "answer": "\n**Solution (exemple de résumé en 30 mots) :**\n\nL'éducation favorise le développement en transmettant savoirs et compétences. Si les pays développés ont un fort taux d'alphabétisation, l'Afrique souffre de sous-scolarisation. Gouvernements et communauté internationale doivent agir.\n\n**Démarche :**\n- Idée 1 : éducation = développement\n- Idée 2 : inégalités d'accès (pays développés vs Afrique)\n- Idée 3 : nécessité d'investissements\n\n**Réponse : 30 mots, reformulation fidèle, idées essentielles conservées**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La longueur d'un résumé est environ :",
+      "options": [
+        "La moitié du texte",
+        "Le quart du texte",
+        "Le dixième du texte",
+        "Égale au texte"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Dans un résumé, on doit :",
+      "options": [
+        "Recopier le texte",
+        "Reformuler",
+        "Ajouter ses idées",
+        "Citer l'auteur"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "On ne doit PAS commencer un résumé par :",
+      "options": [
+        "L'auteur affirme",
+        "Selon le texte",
+        "Ce texte parle de",
+        "Il est question de"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "maths-quatrieme-perspective-cavaliere",
+  "title": "Perspective cavalière",
+  "summary": "Un architecte doit dessiner un bâtiment en volume sur une feuille plate. Comment représenter la profondeur ?",
+  "lesson": "## Perspective cavalière\n\n### Qu'est-ce que la perspective cavalière ?\nLa **perspective cavalière** est une méthode pour représenter un objet en 3D sur une feuille en 2D.\n\n### Règles de la perspective cavalière\n\n**1. La face avant :**\n- Se dessine en **vraie grandeur**\n- Parallèle au plan de la feuille\n- Angles et longueurs conservés\n\n**2. Les arêtes fuyantes (profondeur) :**\n- Tracées avec un angle (généralement 30° ou 45°)\n- Longueur réduite de **moitié** (coefficient 0,5)\n\n**3. Parallélisme :**\n- Les arêtes parallèles restent parallèles\n\n### Dessiner un parallélépipède rectangle\n\n**Étapes :**\n1. Dessiner la face avant (rectangle en vraie grandeur)\n2. Choisir l'angle des fuyantes (ex: 30°)\n3. Tracer les fuyantes (longueur ÷ 2)\n4. Compléter la face arrière\n5. Tracer les arêtes cachées en pointillés\n\n**Exemple : Cube de 4 cm d'arête**\n- Face avant : carré de 4 cm\n- Fuyantes à 30° de 2 cm (4 ÷ 2)\n- Arêtes cachées en pointillés\n\n### Solides usuels\n- **Parallélépipède** : 6 faces rectangulaires\n- **Cube** : 6 faces carrées\n- **Prisme droit** : base polygonale",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Face avant en vraie grandeur",
+    "Fuyantes réduites de moitié",
+    "Angle des fuyantes : 30° ou 45°",
+    "Arêtes cachées en pointillés"
+  ],
+  "exercise": {
+    "answer": "\n**Solution :**\nLongueur des fuyantes = Arête ÷ 2\nLongueur = 6 ÷ 2 = 3 cm\n\n**Réponse : 3 cm**\n        ",
+    "question": "Pour dessiner un cube de 6 cm d'arête en perspective cavalière (angle 45°), quelle est la longueur des fuyantes ?"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "En perspective cavalière, la face avant est dessinée :",
+      "options": [
+        "Réduite de moitié",
+        "En vraie grandeur",
+        "Agrandie",
+        "Déformée"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Les arêtes fuyantes sont réduites de :",
+      "options": [
+        "Un tiers",
+        "Moitié",
+        "Deux tiers",
+        "Rien"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

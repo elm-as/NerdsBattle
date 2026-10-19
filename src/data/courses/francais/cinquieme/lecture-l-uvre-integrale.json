@@ -1,0 +1,45 @@
+{
+  "id": "francais-cinquieme-lecture-l-uvre-integrale",
+  "title": "Lecture : L'œuvre intégrale",
+  "summary": "Les élèves étudient une œuvre intégrale pour la Journée Mondiale du Livre.",
+  "lesson": "## L'œuvre intégrale\n\n### Étapes de l'étude\n1. Introduction : présenter auteur, œuvre, contexte, axe d'étude\n2. Construction du sens : analyser des extraits choisis\n3. Conclusion : synthèse et jugement critique\n\n### Analyser un extrait\n- Identifier type de texte, personnages, thèmes\n- Repérer outils grammaticaux, lexicaux, figures de style\n- Interpréter le sens",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Présenter l'auteur et l'œuvre",
+    "Analyser des extraits représentatifs",
+    "Identifier thèmes et procédés d'écriture",
+    "Porter un jugement critique argumenté"
+  ],
+  "exercise": {
+    "answer": "1. L'auteur (nom, dates, nationalité) 2. L'œuvre (titre, genre, date de publication) 3. Le contexte (historique, social)",
+    "question": "Cite 3 éléments à présenter dans l'introduction de l'étude d'une œuvre."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "L'axe d'étude, c'est :",
+      "options": [
+        "Le résumé",
+        "L'angle d'analyse de l'œuvre",
+        "La biographie de l'auteur",
+        "La date de publication"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La portée d'une œuvre, c'est :",
+      "options": [
+        "Sa longueur",
+        "Son message",
+        "Son prix",
+        "Sa couverture"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

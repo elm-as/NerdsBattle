@@ -1,0 +1,71 @@
+{
+  "id": "francais-seconde-la-communication-et-les-fonctions-du-langage",
+  "title": "La communication et les fonctions du langage",
+  "summary": "À l’occasion du lancement du club littéraire du Lycée de Daloa, des comédiens sont invités pour une prestation. Séduits par leur talent, les élèves de Seconde C cherchent à comprendre les techniques de communication. À partir de textes courts, ils s’organisent pour identifier les fonctions du langage, les analyser et les utiliser en contexte.",
+  "lesson": "## 1. Les six fonctions du langage (Roman Jakobson)\n\nChaque fonction correspond à un élément de la situation de communication.\n\n## 2. Tableau des fonctions du langage\n\n| Fonction | Élément centré sur | Question clé | Indices textuels | Exemple |\n|----------|-------------------|--------------|------------------|---------|\n| **Référentielle** | Le **contexte** (le monde évoqué) | De quoi parle-t-on ? | Énoncés informatifs, descriptions, explications. | « La lagune Ébrié s’étend sur 120 km². » |\n| **Émotive/Expressive** | Le **destinateur** (l’émetteur) | Que ressent celui qui parle ? | Interjections, points d’exclamation, modalisateurs, vocabulaire affectif. | « Hélas ! Je suis vraiment déçu. » |\n| **Conative** | Le **destinataire** (le récepteur) | Que veut-on faire faire au destinataire ? | Impératifs, vocatif, questions oratoires, persuasifs. | « Écoutez-moi ! Agissez maintenant. » |\n| **Phatique** | Le **contact** (le canal) | Est-ce que la communication est établie ? | Formules de salutation, vérification du contact. | « Allô ? Tu m’entends ? Bonjour ! » |\n| **Métalinguistique** | Le **code** (la langue elle-même) | Comment utilisons-nous la langue ? | Définitions, explications sur le langage. | « « Chat » est un nom commun. » |\n| **Poétique** | Le **message** (la forme) | Comment le message est-il construit ? | Jeux sur les sons, rythmes, figures de style, originalité formelle. | « Le temps, ce grand sculpteur. » (métaphore) |\n\n## 3. Identifier la fonction dominante\n\nUn énoncé combine souvent plusieurs fonctions, mais une domine selon l’intention.\n\n**Exemples contextualisés :**\n- « La production de cacao a baissé de 10% cette année. » → **Fonction référentielle** (information).\n- « Quelle magnifique vue sur le mont Tonkpi ! » → **Fonction émotive** (expression d’un sentiment).\n- « Sortez vos cahiers et notez. » → **Fonction conative** (injonction).\n\n## 4. Analyse d’un texte court\n\n**Texte :** « Mes chers élèves (1), attention ! (2) Aujourd’hui, nous étudions les fonctions du langage. (3) « Langage » désigne ici un système de communication. (4) Quelle belle journée pour apprendre ! (5) M’entendez-vous au fond ? (6) »\n\n**Analyse :**\n1. **Vocatif** → Fonction conative.\n2. **Injonction** → Fonction conative.\n3. **Information** → Fonction référentielle.\n4. **Définition** → Fonction métalinguistique.\n5. **Expression d’enthousiasme** → Fonction émotive.\n6. **Vérification du contact** → Fonction phatique.\n\n## 5. Application à des situations réelles\n\n- **Publicité** : Fonction conative (inciter à acheter) + poétique (slogan accrocheur).\n- **Poème** : Fonction poétique dominante.\n- **Manuel scolaire** : Fonction référentielle et métalinguistique.\n- **Conversation téléphonique** : Fonction phatique au début (« Allô ? »).\n\n## 6. Production guidée\n\n**Consigne :** Rédigez un message court (3-4 lignes) pour :\n1. Convaincre un ami de participer au nettoyage de la plage de Grand-Bassam (privilégier fonction conative et émotive).\n2. Décrire objectivement le marché de Bouaké (fonction référentielle).\n\n## 7. Pièges à éviter\n\n- Confondre fonction **émotive** (sentiment de l’émetteur) et **conative** (action sur le destinataire).\n- Oublier que la fonction **phatique** sert à maintenir le contact, pas à transmettre un contenu.\n\n## 8. Exercice de synthèse\n\n**Pour chaque énoncé, indiquez la fonction dominante :**\n1. « La température maximale à Abidjan aujourd’hui est de 32°C. »\n2. « Que c’est beau ! »\n3. « Répétez, s’il vous plaît. »\n4. « Le mot « pont » rime avec « profond ». »",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Associer chaque fonction du langage (référentielle, émotive, conative, phatique, métalinguistique, poétique) à l’élément de communication qu’elle privilégie.",
+    "Repérer les indices linguistiques caractéristiques de chaque fonction (impératifs, interjections, définitions, etc.).",
+    "Identifier la fonction dominante d’un énoncé en fonction de son intention première.",
+    "Utiliser consciemment les fonctions du langage pour adapter son discours à la situation."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La fonction qui vise à agir sur le destinataire est :",
+      "options": [
+        "Référentielle",
+        "Émotive",
+        "Conative",
+        "Phatique"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "« Le ciel est bleu. » est un énoncé à fonction principalement :",
+      "options": [
+        "Poétique",
+        "Référentielle",
+        "Métalinguistique",
+        "Conative"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "« Chut ! » est un énoncé à fonction :",
+      "options": [
+        "Phatique",
+        "Conative (injonction de se taire)",
+        "Émotive",
+        "Métalinguistique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Expliquer le sens d’un mot relève de la fonction :",
+      "options": [
+        "Référentielle",
+        "Métalinguistique",
+        "Poétique",
+        "Phatique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "allemand-troisieme-les-preparatifs-d-un-voyage",
+  "title": "Les préparatifs d'un voyage",
+  "summary": "Un élève raconte ses préparatifs pour aller en Allemagne",
+  "lesson": "# Les préparatifs d'un voyage (Reisevorbereitungen)\n\n## Vocabulaire essentiel\n\n### Documents et bagages\n- **der Pass** (le passeport)\n- **das Visum** (le visa)\n- **der Koffer** (la valise)\n- **der Rucksack** (le sac à dos)\n- **die Fahrkarte** (le billet de train)\n- **das Flugticket** (le billet d'avion)\n- **die Reservierung** (la réservation)\n\n### Verbes utiles\n- **packen** (faire ses bagages)\n- **vorbereiten** (préparer)\n- **buchen** (réserver)\n- **reisen** (voyager)\n- **abfahren** (partir en train/voiture)\n- **abfliegen** (partir en avion)\n\n## Structures grammaticales\n\n### Le futur avec \"werden\"\n**Formation :** werden + infinitif\n\n| Pronom | werden | Exemple |\n|--------|--------|---------|\n| ich | werde | Ich **werde** nach Deutschland **reisen**. |\n| du | wirst | Du **wirst** den Koffer **packen**. |\n| er/sie/es | wird | Er **wird** das Ticket **buchen**. |\n| wir | werden | Wir **werden** früh **abfahren**. |\n| ihr | werdet | Ihr **werdet** viel **sehen**. |\n| sie/Sie | werden | Sie **werden** Berlin **besuchen**. |\n\n### Le futur avec \"wollen\"\n- Ich **will** nach Berlin fahren. (Je veux aller à Berlin.)\n- Wir **wollen** Deutschland besuchen. (Nous voulons visiter l'Allemagne.)\n\n## Expressions utiles\n\n### Avant le voyage\n- Ich muss meinen Koffer packen. (Je dois faire ma valise.)\n- Wir müssen die Tickets kaufen. (Nous devons acheter les billets.)\n- Hast du deinen Pass dabei? (As-tu ton passeport sur toi ?)\n\n### Pendant les préparatifs\n- Ich bereite meine Reise vor. (Je prépare mon voyage.)\n- Wir buchen ein Hotel. (Nous réservons un hôtel.)\n- Was nimmst du mit? (Qu'emportes-tu ?)\n\n## Dialogue modèle\n\n**Anna:** Ich fahre nächste Woche nach Deutschland!\n**Tom:** Toll! Hast du schon alles vorbereitet?\n**Anna:** Ja, ich habe mein Ticket gebucht und meinen Koffer gepackt.\n**Tom:** Was wirst du in Deutschland machen?\n**Anna:** Ich werde Berlin besuchen und viele Museen sehen.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Le futur se forme avec werden + infinitif",
+    "Il faut connaître le vocabulaire des voyages et documents",
+    "On peut aussi utiliser wollen pour exprimer une intention",
+    "Les verbes à particule séparable (abfahren, mitnehmen) se séparent au présent"
+  ],
+  "exercise": {
+    "answer": "1) Ich werde nach Deutschland reisen. 2) Wir müssen unsere Koffer packen. 3) Was nimmst du mit?",
+    "question": "Traduis en allemand : 1) Je vais voyager en Allemagne. 2) Nous devons préparer nos bagages. 3) Qu'est-ce que tu emportes ?"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'le passeport' en allemand ?",
+      "options": [
+        "der Koffer",
+        "\"der Pass\"",
+        "das Ticket",
+        "die Karte"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel auxiliaire utilise-t-on pour former le futur ?",
+      "options": [
+        "\"werden\"",
+        "haben",
+        "sein",
+        "wollen"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Que signifie 'Ich werde nach Berlin fahren' ?",
+      "options": [
+        "Je suis allé à Berlin",
+        "\"J'irai à Berlin\"",
+        "Je vais à Berlin",
+        "J'allais à Berlin"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

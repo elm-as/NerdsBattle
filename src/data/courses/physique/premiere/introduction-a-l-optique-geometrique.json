@@ -1,0 +1,280 @@
+{
+  "id": "physique-premiere-introduction-a-l-optique-geometrique",
+  "title": "INTRODUCTION A L’OPTIQUE GEOMETRIQUE",
+  "summary": "Des élèves du Lycée Moderne d'Adzopé découvrent dans une revue scientifique que la lumière est une onde dont la propagation peut être représentée par une fonction sinusoïdale. Ils ont déjà étudié en classe les propriétés élémentaires de la lumière (rayon lumineux, propagation rectiligne). Intrigués par cette nouvelle perspective, ils décident d'étudier les caractéristiques des ondes lumineuses et les différents types de faisceaux, avec des applications aux instruments optiques utilisés en Côte d'Ivoire (jum",
+  "lesson": "## 1. Introduction\n\nL'optique géométrique est la partie de la physique qui étudie la lumière en la considérant comme se propageant en ligne droite (rayons lumineux). Cette approximation est valable quand la longueur d'onde est très petite devant les dimensions des obstacles. En Côte d'Ivoire, l'optique géométrique trouve des applications dans de nombreux domaines : les instruments d'observation (pour l'ornithologie au Parc National de Taï), les systèmes d'éclairage, les panneaux solaires, et les dispositifs médicaux (endoscopes).\n\n## 2. Sources et récepteurs de lumière\n\n### 2.1 Source de lumière\nUne source de lumière est un objet qui émet de la lumière.\n\n**Classification :**\n- **Sources primaires** : émettent leur propre lumière (soleil, étoiles, lampes, flammes)\n- **Sources secondaires** : diffusent la lumière reçue (Lune, nuages, objets éclairés)\n- **Sources ponctuelles** : dimensions négligeables (étoile lointaine)\n- **Sources étendues** : dimensions non négligeables (tube fluorescent)\n\n### 2.2 Récepteurs de lumière\nUn récepteur est un dispositif qui détecte la lumière :\n- Œil humain\n- Photodiode, phototransistor\n- Pellicule photographique\n- Cellule photovoltaïque (panneaux solaires)\n\n**Description du schéma 1:** Comparer une source ponctuelle (point lumineux émettant des rayons dans toutes les directions) et une source étendue (surface lumineuse). Montrer un récepteur (œil ou cellule) recevant les rayons. Dans un village ivoirien non électrifié, montrer une lampe à pétrole (source primaire) éclairant un mur (source secondaire) et un panneau solaire (récepteur).\n\n## 3. Propagation de la lumière\n\n### 3.1 Rayon lumineux\nUn rayon lumineux est une ligne idéale suivant laquelle l'énergie lumineuse se propage. C'est une modélisation (le rayon n'a pas d'épaisseur).\n\n### 3.2 Faisceau lumineux\nUn faisceau lumineux est un ensemble de rayons.\n\n**Types de faisceaux :**\n- **Faisceau parallèle** : rayons parallèles (lumière du soleil arrivant sur Terre)\n- **Faisceau convergent** : rayons qui se dirigent vers un même point (foyer)\n- **Faisceau divergent** : rayons qui s'écartent à partir d'un point (source ponctuelle)\n\n### 3.3 Pinceau lumineux\nUn pinceau est un faisceau de faible ouverture (peu de rayons).\n\n### 3.4 Milieu de propagation\n- **Transparent** : laisse passer la lumière (verre, air pur, eau)\n- **Translucide** : diffuse la lumière (papier calque, verre dépoli)\n- **Opaque** : ne laisse pas passer la lumière (bois, métal, carton)\n\n## 4. Nature ondulatoire de la lumière\n\n### 4.1 La lumière est une onde électromagnétique\nLa lumière visible n'est qu'une petite partie du spectre électromagnétique (400 nm à 800 nm).\n\n### 4.2 Grandeurs caractéristiques\n- **Célérité c** : vitesse de propagation dans le vide\n  $$c = 3,00 \\\times 10^8 \\\\, \\\text{m/s}$$\n- **Longueur d'onde λ** : distance entre deux crêtes successives (en mètres)\n- **Fréquence ν** : nombre d'oscillations par seconde (en hertz)\n\n### 4.3 Relation fondamentale\n$$c = \\\\lambda \\\times \\\nu$$\n\n**Exemple :** lumière rouge λ = 700 nm = 7 × 10⁻⁷ m\n$$\\\nu = \\\\frac{c}{\\\\lambda} = \\\\frac{3 \\\times 10^8}{7 \\\times 10^{-7}} = 4,29 \\\times 10^{14} \\\\, \\\text{Hz}$$\n\n### 4.4 Lumière monochromatique\nUne lumière monochromatique est constituée d'une seule longueur d'onde (une seule couleur). Exemple : laser hélium-néon (λ = 632,8 nm, rouge).\n\n**Description du schéma 2:** Représenter une onde sinusoïdale se propagant. Indiquer la longueur d'onde λ (distance entre deux crêtes), l'amplitude A. Montrer que la célérité c = λ × ν. Pour différentes couleurs, donner λ : violet (400 nm), bleu (475 nm), vert (530 nm), jaune (580 nm), orange (620 nm), rouge (700 nm).\n\n## 5. Vitesse de la lumière dans les milieux\n\n### 5.1 Indice de réfraction\nL'indice de réfraction n d'un milieu est défini par :\n$$n = \\\\frac{c}{v}$$\noù v est la vitesse de la lumière dans le milieu.\n\n### 5.2 Valeurs typiques\n- Vide : n = 1 (par définition)\n- Air : n ≈ 1,0003 ≈ 1\n- Eau : n ≈ 1,33\n- Verre : n ≈ 1,5 à 1,7\n- Diamant : n ≈ 2,42\n\n### 5.3 Conséquence\nLa fréquence ν ne change pas quand la lumière passe d'un milieu à un autre, mais λ et v changent :\n$$\\\\lambda_{milieu} = \\\\frac{\\\\lambda_{vide}}{n}$$\n\n## 6. Production et visualisation des faisceaux\n\n### 6.1 Source laser\nLes lasers produisent des faisceaux parallèles, monochromatiques et cohérents. Utilisations en Côte d'Ivoire : pointeurs, niveaux de chantier, transmission de données.\n\n### 6.2 Faisceau convergent\nObtenu avec une lentille convergente ou un miroir concave.\n\n### 6.3 Faisceau divergent\nObtenu avec une lentille divergente ou un miroir convexe, ou directement depuis une source ponctuelle.\n\n### 6.4 Visualisation expérimentale\nDans un laboratoire scolaire, on peut utiliser :\n- Source laser et lentilles\n- Fumée ou poussière pour visualiser les faisceaux\n- Écran pour observer les taches lumineuses\n\n**Description du schéma 3:** Montrer trois types de faisceaux à partir d'une source ponctuelle S. 1) Faisceau divergent naturel (rayons qui s'écartent). 2) Faisceau parallèle après une lentille convergente placée à sa distance focale. 3) Faisceau convergent après une lentille convergente quand S est au-delà de la distance focale. Indiquer les positions des foyers.\n\n## 7. Applications en contexte ivoirien\n\n### 7.1 Éclairage public\nÀ Abidjan, les lampadaires utilisent des réflecteurs pour créer des faisceaux dirigés vers le sol (faisceaux divergents contrôlés).\n\n### 7.2 Panneaux solaires\nLa concentration de la lumière avec des miroirs paraboliques (faisceaux convergents) augmente le rendement des centrales solaires thermiques.\n\n### 7.3 Instruments d'observation\nLes jumelles utilisées pour observer la faune dans les parcs nationaux combinent des faisceaux convergents et divergents.\n\n### 7.4 Projecteurs\nLes projecteurs de stades ou de spectacles créent des faisceaux parallèles ou faiblement divergents.\n\n## 8. Mesure de la longueur d'onde\n\n### 8.1 Méthode des fentes d'Young\nEn faisant interférer la lumière à travers deux fentes étroites, on observe des franges d'interférence dont l'interfrange permet de calculer λ.\n\n### 8.2 Utilisation d'un réseau\nUn réseau de diffraction (nombreuses fentes parallèles) disperse la lumière selon différents angles qui dépendent de λ.\n\n### 8.3 Méthode simple avec un CD\nUn CD agit comme un réseau de réflexion. En éclairant un CD avec une lumière connue (laser), on observe des taches dont la position permet de déterminer le pas du réseau et inversement.\n\n## 9. Calculs pratiques\n\n### 9.1 Conversion longueur d'onde/fréquence\nLumière verte : λ = 550 nm = 5,5 × 10⁻⁷ m\n$$\\\nu = \\\\frac{c}{\\\\lambda} = \\\\frac{3 \\\times 10^8}{5,5 \\\times 10^{-7}} = 5,45 \\\times 10^{14} \\\\, \\\text{Hz}$$\n\n### 9.2 Longueur d'onde dans un milieu\nLumière rouge (λ_vide = 700 nm) dans l'eau (n = 1,33) :\n$$\\\\lambda_{eau} = \\\\frac{\\\\lambda_{vide}}{n} = \\\\frac{700}{1,33} = 526 \\\\, \\\text{nm}$$\n\n### 9.3 Temps de parcours\nLa lumière du Soleil met environ 8 minutes pour nous parvenir (distance 150 millions de km) :\n$$t = \\\\frac{d}{c} = \\\\frac{1,5 \\\times 10^{11}}{3 \\\times 10^8} = 500 \\\\, \\\text{s} \\\\approx 8,3 \\\\, \\\text{min}$$\n\n### 9.4 Énergie d'un photon\n$$E = h\\\nu = \\\\frac{hc}{\\\\lambda}$$ avec h = 6,63 × 10⁻³⁴ J·s\nPour λ = 550 nm :\n$$E = \\\\frac{6,63 \\\times 10^{-34} \\\times 3 \\\times 10^8}{5,5 \\\times 10^{-7}} = 3,62 \\\times 10^{-19} \\\\, \\\text{J}$$\nSoit environ 2,26 eV (1 eV = 1,6 × 10⁻¹⁹ J).\n\n## 10. Méthodologie de résolution\n\n### 10.1 Pour identifier un faisceau\n1. Tracer quelques rayons représentatifs\n2. Vérifier s'ils se rapprochent (convergent), s'éloignent (divergent) ou restent parallèles\n3. Localiser le foyer éventuel (point de convergence)\n\n### 10.2 Pour calculer λ\n1. Identifier la méthode expérimentale\n2. Noter les mesures (interfrange, angle de diffraction, etc.)\n3. Appliquer la formule appropriée\n4. Vérifier les unités (convertir en mètres)\n\n### 10.3 Pour les problèmes de propagation\n1. Utiliser c = λν\n2. Attention : ν est constante, mais λ et v varient avec le milieu\n3. Pour les changements de milieu, utiliser n = c/v = λ_vide/λ_milieu\n\n### 10.4 Précautions\n- La lumière visible va du violet (400 nm) au rouge (800 nm)\n- Un faisceau réel n'est jamais parfaitement parallèle (ouverture angulaire)\n- Dans les schémas, représenter au moins 3 rayons pour un faisceau\n- L'œil voit la fréquence (couleur), pas directement la longueur d'onde",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "La lumière se propage en ligne droite dans un milieu homogène",
+    "Relation fondamentale : c = λ × ν",
+    "Un faisceau convergent se rapproche vers un point, un faisceau divergent s'en éloigne",
+    "Indice de réfraction : n = c/v = λ_vide/λ_milieu",
+    "La lumière visible : 400 nm (violet) à 800 nm (rouge)"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La vitesse de la lumière dans le vide est :",
+      "options": [
+        "3 × 10⁵ m/s",
+        "3 × 10⁶ m/s",
+        "3 × 10⁸ m/s",
+        "3 × 10¹⁰ m/s"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Un faisceau dont les rayons se rapprochent est dit :",
+      "options": [
+        "Divergent",
+        "Convergent",
+        "Parallèle",
+        "Monochromatique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La relation entre λ, ν et c est :",
+      "options": [
+        "λ = cν",
+        "c = λ/ν",
+        "ν = cλ",
+        "c = λν"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Une lumière composée d'une seule longueur d'onde est dite :",
+      "options": [
+        "Polychromatique",
+        "Monochromatique",
+        "Blanche",
+        "Incohérente"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "L'indice de réfraction de l'air est environ :",
+      "options": [
+        "0",
+        "1",
+        "1,33",
+        "1,5"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "La fréquence de la lumière quand elle passe de l'air à l'eau :",
+      "options": [
+        "Augmente",
+        "Diminue",
+        "Reste la même",
+        "Devient nulle"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Une source qui émet sa propre lumière est dite :",
+      "options": [
+        "Secondaire",
+        "Primaire",
+        "Diffuse",
+        "Réceptrice"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Pour λ = 500 nm (vert), la fréquence est environ :",
+      "options": [
+        "6 × 10¹⁴ Hz",
+        "3 × 10⁸ Hz",
+        "1,5 × 10¹⁵ Hz",
+        "5 × 10¹⁴ Hz"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Un rayon lumineux est :",
+      "options": [
+        "Un fin pinceau",
+        "Une modélisation sans épaisseur",
+        "Un faisceau large",
+        "Une onde sphérique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Le domaine visible s'étend environ de :",
+      "options": [
+        "200 à 400 nm",
+        "400 à 800 nm",
+        "800 à 1600 nm",
+        "1 mm à 1 m"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "La vitesse de la lumière dans le vide est d'environ :",
+      "options": [
+        "3×10^5 m/s",
+        "3×10^6 m/s",
+        "3×10^8 m/s",
+        "3×10^10 m/s"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Un faisceau de rayons qui se rapprochent est dit :",
+      "options": [
+        "Parallèle",
+        "Divergent",
+        "Convergent",
+        "Aléatoire"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "La relation entre longueur d'onde λ, fréquence ν et célérité c est :",
+      "options": [
+        "λ = cν",
+        "c = λ/ν",
+        "ν = cλ",
+        "c = λν"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "Une lumière composée d'une seule couleur est dite :",
+      "options": [
+        "Polychromatique",
+        "Monochromatique",
+        "Blanche",
+        "Incohérente"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Dans l'optique géométrique, la lumière est représentée par :",
+      "options": [
+        "Des ondes",
+        "Des photons",
+        "Des rayons",
+        "Des particules"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "Le domaine visible pour l'œil humain s'étend environ de :",
+      "options": [
+        "200 nm à 400 nm",
+        "400 nm à 800 nm",
+        "800 nm à 1200 nm",
+        "1 mm à 1 m"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "En Côte d'Ivoire, les mirages sur les routes sont dus à :",
+      "options": [
+        "La réflexion",
+        "La réfraction",
+        "La diffraction",
+        "L'interférence"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "Si la fréquence d'une radiation lumineuse double, sa longueur d'onde :",
+      "options": [
+        "Double",
+        "Est divisée par deux",
+        "Reste la même",
+        "Est multipliée par quatre"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Un laser émet typiquement une lumière :",
+      "options": [
+        "Polychromatique",
+        "Monochromatique",
+        "Blanche",
+        "Infrarouge uniquement"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "La célérité de la lumière dans un milieu d'indice n est :",
+      "options": [
+        "v = nc",
+        "v = c/n",
+        "v = c + n",
+        "v = c - n"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

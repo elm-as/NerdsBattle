@@ -1,0 +1,58 @@
+{
+  "id": "maths-cinquieme-equations-du-premier-degre",
+  "title": "Équations du premier degré",
+  "summary": "Aya pense à un nombre. Si elle lui ajoute 7, elle obtient 15. Quel nombre a-t-elle choisi ?",
+  "lesson": "## Les équations du premier degré\n\n### Qu'est-ce qu'une équation ?\nUne **équation** est une égalité contenant une inconnue (généralement x).\n\n**Exemples :**\n- x + 7 = 15\n- 3x - 2 = 10\n- 2x + 5 = x + 8\n\n**Solution :** Une solution est la valeur de x qui rend l'égalité vraie.\n\n### Résolution d'équations simples\n\n**Principe :** On peut :\n- Ajouter ou soustraire le même nombre des deux côtés\n- Multiplier ou diviser les deux côtés par le même nombre (≠ 0)\n\n#### Type 1 : x + a = b\n**Exemple :** x + 7 = 15\n- On soustrait 7 des deux côtés\n- x + 7 - 7 = 15 - 7\n- x = 8\n\n**Vérification :** 8 + 7 = 15 ✓\n\n#### Type 2 : x - a = b\n**Exemple :** x - 3 = 10\n- On ajoute 3 des deux côtés\n- x - 3 + 3 = 10 + 3\n- x = 13\n\n#### Type 3 : ax = b\n**Exemple :** 5x = 20\n- On divise par 5 des deux côtés\n- 5x ÷ 5 = 20 ÷ 5\n- x = 4\n\n#### Type 4 : ax + b = c\n**Exemple :** 3x + 5 = 14\n\n**Méthode :**\n1. On isole le terme en x\n   3x = 14 - 5\n   3x = 9\n\n2. On divise par le coefficient de x\n   x = 9 ÷ 3\n   x = 3\n\n**Vérification :** 3 × 3 + 5 = 9 + 5 = 14 ✓\n\n### Mise en équation d'un problème\n\n**Exemple :**\n\"Je pense à un nombre, je le multiplie par 4 puis j'ajoute 7. Je trouve 31. Quel est ce nombre ?\"\n\nSoit x le nombre cherché.\nÉquation : 4x + 7 = 31\n\nRésolution :\n4x = 31 - 7\n4x = 24\nx = 6\n\n**Le nombre est 6.**",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Équation : égalité avec une inconnue",
+    "On peut ajouter/soustraire le même nombre des deux côtés",
+    "On peut multiplier/diviser par le même nombre (≠ 0)",
+    "Toujours vérifier la solution"
+  ],
+  "exercise": {
+    "answer": "\n**Solution :**\n2x - 5 = 11\n\nÉtape 1 : On isole 2x\n2x = 11 + 5\n2x = 16\n\nÉtape 2 : On divise par 2\nx = 16 ÷ 2\nx = 8\n\n**Vérification :** 2 × 8 - 5 = 16 - 5 = 11 ✓\n\n**Réponse : x = 8**\n        ",
+    "question": "Résous l'équation : 2x - 5 = 11"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La solution de x + 5 = 12 est :",
+      "options": [
+        "x = 5",
+        "x = 7",
+        "x = 17",
+        "x = 60"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La solution de 4x = 20 est :",
+      "options": [
+        "x = 5",
+        "x = 16",
+        "x = 24",
+        "x = 80"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "La solution de 2x + 3 = 11 est :",
+      "options": [
+        "x = 4",
+        "x = 7",
+        "x = 8",
+        "x = 14"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

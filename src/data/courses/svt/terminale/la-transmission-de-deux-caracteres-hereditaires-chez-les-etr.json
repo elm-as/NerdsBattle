@@ -1,0 +1,150 @@
+{
+  "id": "svt-terminale-la-transmission-de-deux-caracteres-hereditaires-chez-les-etr",
+  "title": "La transmission de deux caractères héréditaires chez les êtres vivants",
+  "summary": "Après les connaissances qu'ils ont acquises sur la transmission d'un caractère héréditaire chez l'Homme, des élèves de Terminale D découvrent sur Internet que les caractères sont transmis simultanément. Des croisements réalisés aussi bien chez les animaux que chez les végétaux permettent de les observer. Ils cherchent alors à expliquer les résultats de croisements faisant intervenir deux caractères héréditaires et à dégager les règles régissant cette transmission.",
+  "lesson": "## 1. Introduction: Du mono-hybridisme au di-hybridisme\n\nL'étude de la transmission simultanée de deux caractères permet de comprendre comment les gènes interagissent et sont distribués pendant la méiose. Ces principes sont fondamentaux en génétique, en sélection végétale et animale, et en médecine génétique.\n\n## 2. Rappel: Méiose et ségrégation indépendante (loi de Mendel)\n\n**Méiose**: Division réductionnelle produisant des gamètes haploïdes.\n- **Méiose I**: Séparation des chromosomes homologues\n- **Méiose II**: Séparation des chromatides sœurs\n\n**Enjeu**: Comment deux gènes situés sur des paires de chromosomes différentes se répartissent-ils dans les gamètes?\n\n## 3. Dihybridisme à gènes indépendants\n\n**A. Expérience fondatrice de Mendel** (pois, caractères: forme et couleur):\n- **Parentaux (P)**: Lisse-jaune (LLJJ) × Ridée-verte (llvv)\n- **F1**: Tous Lisse-jaune (LlJv) → dominance\n- **F2** (autofécondation F1):\n  - 315 Lisse-jaune\n  - 108 Lisse-verte\n  - 101 Ridée-jaune\n  - 32 Ridée-verte\n  - **Rapport**: 9:3:3:1\n\n**B. Interprétation**:\n- **Ségrégation indépendante**: La distribution des allèles d'un gène est indépendante de celle des allèles d'un autre gène (pour des gènes sur chromosomes différents)\n- **Gamètes F1**: LJ, Lv, lJ, lv en proportions égales (1/4 chacun)\n- **Échiquier de croisement** 4×4 → 16 cases équiprobables\n\n**C. Règles pour dihybridisme à gènes indépendants** (dominance complète):\n1. **En F1**: Uniformité, tous doubles hétérozygotes montrant les deux caractères dominants\n2. **En F2**: \n   - **Rapport phénotypique**: 9:3:3:1\n   - **Rapport génotypique**: (1:2:1) pour chaque gène, combiné\n   - **Nombre de phénotypes**: 4 (si dominance complète pour chaque gène)\n   - **Nombre de génotypes**: 3ⁿ = 3² = 9\n3. **Test-cross** (F1 × double récessif): \n   - Rapport phénotypique: 1:1:1:1\n   - Indépendance vérifiée\n\n**Description du schéma 1: Dihybridisme indépendant chez le pois**\nReprésentation: (1) Parents P: plantes homozygotes LLJJ et llvv. (2) Gamètes: LJ uniquement vs lv uniquement. (3) F1: tous LlJv (lisse-jaune). (4) Formation des gamètes F1: quatre types équiprobables par ségrégation indépendante. (5) Échiquier 4×4 avec les 16 combinaisons F2, coloriage des 4 phénotypes (9 jaunes-lisses, 3 verts-lisses, etc.).\n\n## 4. Dihybridisme à gènes liés\n\n**A. Notion de linkage** (gènes liés):\n- **Définition**: Gènes situés sur le même chromosome\n- **Conséquence**: Tend à être transmis ensemble (en bloc)\n- **Exception**: Enjambement (crossing-over) pendant la méiose I → recombinaison\n\n**B. Expérience de Morgan** (drosophile, caractères: couleur du corps et longueur des ailes):\n- **Parentaux**: ♀ Sauvage (gris, long) × ♂ Double mutant (noir, vestigial)\n- **F1**: Tous gris-long (hétérozygotes)\n- **Test-cross F1♀ × double récessif ♂**:\n  - **Parentaux**: 41.5% Gris-long + 41.5% Noir-vestigial (non recombinés)\n  - **Recombinés**: 8.5% Gris-vestigial + 8.5% Noir-long (recombinés)\n  - **Total recombination**: 17%\n\n**C. Interprétation**:\n- **Couplage** (phase d'accouplement): \n  - **Couplage cis**: Allèles dominants sur même chromosome (AB/ab)\n  - **Couplage trans**: Allèles dominants sur chromosomes homologues différents (Ab/aB)\n- **Fréquence de recombination** (RF) = % de gamètes recombinés\n  - RF = (Nombre recombinés / Total) × 100\n  - Varie de 0% (liage absolu) à 50% (indépendance apparente)\n\n**D. Règles pour dihybridisme à gènes liés**:\n1. **En F1**: Uniformité mais génotype dépend du couplage parental\n2. **Test-cross**: \n   - **Sans recombination**: 2 phénotypes (1:1) comme mono-hybridisme\n   - **Avec recombination**: 4 phénotypes en proportions inégales\n   - Rapports ≠ 1:1:1:1\n3. **Pas de rapport 9:3:3:1 en F2** si linkage complet\n\n**Description du schéma 2: Mécanisme du linkage et crossing-over**\n(1) Paire de chromosomes homologues avec gènes A et B proches. (2) Méiose sans crossing-over: deux types de gamètes parentaux (AB et ab). (3) Méiose avec crossing-over en prophase I: formation de chromosomes recombinés (Ab et aB). (4) Résultats de test-cross montrant majorité de parentaux, minorité de recombinés.\n\n## 5. Cartographie génétique\n\n**A. Distance génétique**:\n- **Unité**: Centimorgan (cM) ou unité de carte\n- **Définition**: 1 cM = 1% de recombinaison entre deux gènes\n- **Formule**: Distance (cM) = RF (%) × 1 cM/1%\n- **Exemple**: RF = 17% → distance = 17 cM\n\n**B. Carte factorielle (génétique)**:\n- Représentation linéaire des gènes sur un chromosome\n- Distances proportionnelles aux fréquences de recombination\n- **Principe**: Plus deux gènes sont éloignés, plus la probabilité d'enjambement entre eux est grande\n\n**C. Méthodes de cartographie**:\n1. **Croisements de test** pour déterminer les RF entre paires de gènes\n2. **Triplets de gènes** pour déterminer l'ordre:\n   - Le gène du milieu est celui avec les plus petites distances aux deux autres\n   - RF total ≠ somme des RF intermédiaires si double crossing-over\n\n**D. Correction pour doubles crossing-over**:\n- **Fonction de coïncidence** et **interférence**\n- Distances longues sous-estimées sans correction\n\n**Description du schéma 3: Construction d'une carte factorielle**\nExemple avec trois gènes A, B, C sur un chromosome. (1) Tableau des RF: A-B=20%, B-C=15%, A-C=35%. (2) Interprétation: l'ordre est A-B-C car A-C ≈ A-B + B-C. (3) Carte linéaire: chromosome avec échelle en cM, positions marquées: A à 0 cM, B à 20 cM, C à 35 cM. Flèches indiquant les distances.\n\n## 6. Application aux êtres vivants d'intérêt\n\n**A. Drosophile** (organisme modèle):\n- Nombreuses mutations visibles\n- Cartes génétiques détaillées\n- Étude des linkage et crossing-over\n\n**B. Mais** (Zea mays):\n- Cartographie importante pour la sélection\n- Marqueurs liés à des caractères agronomiques (rendement, résistance)\n\n**C. Humain**:\n- Cartographie par étude des pedigrees et marqueurs moléculaires\n- Cartes de linkage pour localiser les gènes de maladies\n\n## 7. Importance de l'hybridation\n\n**A. Définition**: Croisement entre individus de génotypes différents, souvent de lignées pures.\n\n**B. Objectifs**:\n1. **Vigueur hybride** (hétérosis): Supériorité des hybrides F1\n   - Expliquée par la dominance d'allèles favorables ou la superdominance\n   - Utilisée en agriculture (maïs hybride, riz hybride)\n2. **Combinaison de caractères désirables**:\n   - Résistance aux maladies + haute productivité\n   - Qualité nutritionnelle + rendement\n3. **Création de nouvelles variétés**\n4. **Études génétiques** fondamentales\n\n**C. Techniques associées**:\n1. **Rétrocroisement**: Pour introduire un caractère dans une lignée élite\n2. **Sélection assistée par marqueurs** (MAS): Utilise des marqueurs liés aux gènes d'intérêt\n3. **Cultures de tissus** et manipulation in vitro\n\n**D. Applications en Côte d'Ivoire**:\n- **Cacaoyer**: Hybrides pour résistance à la pourriture brune\n- **Riz**: Variétés hybrides à haut rendement (NERICA)\n- **Palmier à huile**: Hybrides tenera (Dura × Pisifera)\n- **Hévéa**: Clones sélectionnés pour le rendement en latex\n\n## 8. Limites et extensions\n\n**A. Interactions géniques** (épistasie):\n- Un gène masque l'expression d'un autre\n- Rapports phénotypiques modifiés (ex: 9:7, 9:3:4, 13:3)\n\n**B. Pléiotropie**:\n- Un gène affecte plusieurs caractères\n- Exemple: gène de la drépanocytose affecte forme des globules, résistance au paludisme, etc.\n\n**C. Marqueurs moléculaires**:\n- RFLP, microsatellites, SNP\n- Permettent une cartographie précise indépendante des phénotypes\n\n**D. Génétique quantitative**:\n- Caractères continus influencés par plusieurs gènes (QTL) + environnement\n- Analyses statistiques complexes\n\n**E. Applications biotechnologiques**:\n- **OGM**: Transfert de gènes entre espèces\n- **Édition génomique** (CRISPR-Cas9)\n- **Sélection génomique**",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Pour des gènes indépendants (chromosomes différents), la transmission suit la ségrégation indépendante (rapport 9:3:3:1 en F2, 1:1:1:1 en test-cross)",
+    "Pour des gènes liés (même chromosome), la transmission est influencée par le linkage, sauf en cas de recombination par crossing-over",
+    "La fréquence de recombination permet de calculer la distance génétique (en cM) et de construire des cartes factorielles",
+    "L'hybridation exploite la vigueur hybride et permet de combiner des caractères désirables, avec des applications importantes en agriculture",
+    "La compréhension de la transmission de plusieurs caractères est essentielle pour l'amélioration génétique, la médecine et la recherche fondamentale"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le rapport phénotypique attendu en F2 pour un dihybridisme à gènes indépendants avec dominance complète?",
+      "options": [
+        "3:1",
+        "1:2:1",
+        "9:3:3:1",
+        "1:1:1:1"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle est la fréquence de recombination maximale entre deux gènes liés?",
+      "options": [
+        "0%",
+        "25%",
+        "50%",
+        "100%"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle unité est utilisée pour la distance génétique?",
+      "options": [
+        "Angström",
+        "Nanomètre",
+        "Centimorgan",
+        "Base paire"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Quel type de croisement permet de vérifier l'indépendance de deux gènes?",
+      "options": [
+        "Croisement parental",
+        "Test-cross avec double récessif",
+        "Autofécondation",
+        "Rétrocroisement"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quel phénomène méiotique est responsable de la recombination entre gènes liés?",
+      "options": [
+        "Ségrégation indépendante",
+        "Crossing-over",
+        "Mutation",
+        "Non-disjonction"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Quel est le rapport en test-cross pour deux gènes indépendants?",
+      "options": [
+        "1:1",
+        "1:1:1:1",
+        "3:1",
+        "9:3:3:1"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Qu'est-ce que la vigueur hybride?",
+      "options": [
+        "La supériorité des hybrides F1",
+        "La résistance aux maladies",
+        "La stabilité des lignées pures",
+        "La fertilité réduite des hybrides"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Si deux gènes ont une fréquence de recombination de 30%, quelle est leur distance génétique?",
+      "options": [
+        "0.3 cM",
+        "3 cM",
+        "30 cM",
+        "300 cM"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Quel scientifique a établi les lois de la transmission des caractères?",
+      "options": [
+        "Darwin",
+        "Mendel",
+        "Morgan",
+        "Watson et Crick"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Que signifie le terme 'couplage cis'?",
+      "options": [
+        "Les allèles dominants sont sur des chromosomes homologues différents",
+        "Les allèles dominants sont sur le même chromosome",
+        "Les gènes sont sur des chromosomes différents",
+        "Il y a recombination systématique"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

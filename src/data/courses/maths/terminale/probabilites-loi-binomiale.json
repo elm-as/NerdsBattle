@@ -1,0 +1,44 @@
+{
+  "id": "maths-terminale-probabilites-loi-binomiale",
+  "title": "Probabilités : loi binomiale",
+  "summary": "On répète n fois une expérience identique. Comment calculer les probabilités des résultats ?",
+  "lesson": "## Loi binomiale\n\n### Épreuve de Bernoulli\nExpérience à 2 issues :\n- Succès : probabilité p\n- Échec : probabilité 1 − p\n\n### Schéma de Bernoulli\nn répétitions indépendantes d'une épreuve de Bernoulli\n\n### Loi binomiale B(n ; p)\nX = nombre de succès en n épreuves\n\n**Probabilité :**\nP(X = k) = C_n^k × p^k × (1−p)^(n−k)\n\noù C_n^k = n! / (k!(n−k)!)\n\n### Espérance et variance\n- E(X) = np\n- V(X) = np(1−p)\n- σ(X) = √[np(1−p)]",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Bernoulli : 2 issues, répétitions indépendantes",
+    "P(X = k) = C_n^k × p^k × (1−p)^(n−k)",
+    "E(X) = np"
+  ],
+  "exercise": {
+    "question": "On lance 5 fois une pièce équilibrée. Quelle est la probabilité d'obtenir exactement 3 fois pile ?",
+    "answer": "\n**Solution :**\nX suit B(5 ; 0,5)\nP(X = 3) = C_5^3 × (0,5)³ × (0,5)²\n= 10 × 0,125 × 0,25\n= 0,3125 = 31,25%\n\n**Réponse : P = 31,25%**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Pour une loi B(n ; p), l'espérance est :",
+      "options": [
+        "n",
+        "p",
+        "np",
+        "n+p"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "C_5^2 = ?",
+      "options": [
+        "5",
+        "10",
+        "20",
+        "25"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

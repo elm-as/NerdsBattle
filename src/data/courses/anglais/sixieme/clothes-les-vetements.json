@@ -1,0 +1,123 @@
+{
+  "id": "anglais-sixieme-clothes-les-vetements",
+  "title": "Clothes - Les vêtements",
+  "summary": "Awa demande : 'What are you wearing today?' Comment décrire ses vêtements ?",
+  "lesson": "## Clothes - Les vêtements\n\n### Basic Clothes\n\n- **Shirt** - chemise\n- **T-shirt** - t-shirt\n- **Trousers/Pants** - pantalon\n- **Jeans** - jean\n- **Skirt** - jupe\n- **Dress** - robe\n- **Shorts** - short\n- **Shoes** - chaussures\n- **Socks** - chaussettes\n- **Hat** - chapeau\n- **Cap** - casquette\n\n### Accessories - Accessoires\n\n- **Bag** - sac\n- **Belt** - ceinture\n- **Glasses** - lunettes\n- **Watch** - montre\n- **Tie** - cravate\n\n## Using WEAR\n\n**WEAR** = porter (sur soi)\n\n- I **wear** a shirt.\n- She **wears** a dress.\n- They **wear** jeans.\n\n**What are you wearing?** - Qu'est-ce que tu portes ?\n\n## PUT ON vs WEAR\n\n**PUT ON** = mettre (action)\n**WEAR** = porter (état)\n\n- I **put on** my shoes. (je mets mes chaussures)\n- I **wear** shoes. (je porte des chaussures)\n\n## Colors with Clothes\n\n**Color + clothes**\n\n- a **red** shirt\n- **blue** jeans\n- **black** shoes\n- a **white** dress",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Shirt, trousers, dress, shoes, hat",
+    "Wear = porter (I wear a shirt)",
+    "What are you wearing? pour demander",
+    "Color + vêtement (a red shirt)"
+  ],
+  "exercise": {
+    "answer": "\n**Solution :**\nI wear a blue t-shirt and black trousers/pants.\n        ",
+    "question": "Traduis : 'Je porte un t-shirt bleu et un pantalon noir.'"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Comment dit-on 'robe' ?",
+      "options": [
+        "Shirt",
+        "Skirt",
+        "Dress",
+        "Trousers"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Quelle phrase est correcte ?",
+      "options": [
+        "I wearing shoes",
+        "I wear shoes",
+        "I wears shoes",
+        "I am wears shoes"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Comment demander ce que quelqu'un porte ?",
+      "options": [
+        "What you wearing?",
+        "What are you wear?",
+        "What are you wearing?",
+        "What do you wearing?"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-anglais-1-mv9gcj9a",
+      "type": "mcq",
+      "prompt": "Awa says: 'I _______ my blue jeans every day.' Which verb correctly completes the sentence to describe a state or habit?",
+      "options": [
+        "put on",
+        "wear",
+        "dress",
+        "make"
+      ],
+      "answer": 1,
+      "explanation": "The verb 'wear' is used to describe the state of having clothes on one's body. 'Put on' refers to the action of putting clothes on, which is a temporary action, not a daily state. 'Dress' is usually used reflexively (dress oneself) or for a person (dress the baby), not directly with the clothing item in this context."
+    },
+    {
+      "id": "auto-anglais-2-mv9gcj9a",
+      "type": "mcq",
+      "prompt": "Which sentence correctly uses the difference between 'put on' and 'wear'?",
+      "options": [
+        "I wear my hat before I go out.",
+        "I put on my shoes, and now I wear them.",
+        "She wears her coat on the chair.",
+        "They put on a dress every morning."
+      ],
+      "answer": 1,
+      "explanation": "Option 1 is incorrect because 'wear' implies the state, but the context 'before I go out' suggests the action of putting it on. Option 2 is correct: 'put on' is the action of putting the shoes on, and 'wear' describes the subsequent state of having them on. Option 3 is illogical. Option 4 is grammatically possible but less precise than Option 2 for illustrating the distinction, as 'put on' is an action and 'wear' is a state; Option 2 clearly shows the transition from action to state."
+    },
+    {
+      "id": "auto-anglais-3-mv9gcj9a",
+      "type": "mcq",
+      "prompt": "What is the correct way to describe a piece of clothing that is red and is a shirt?",
+      "options": [
+        "a shirt red",
+        "a red shirt",
+        "a shirt of red",
+        "a red of shirt"
+      ],
+      "answer": 1,
+      "explanation": "In English, adjectives (colors) are placed before the noun they modify. Therefore, 'a red shirt' is the correct order. 'A shirt red' is incorrect word order. 'A shirt of red' is not standard English for describing color. 'A red of shirt' is grammatically incorrect."
+    },
+    {
+      "id": "auto-anglais-4-mv9gcj9a",
+      "type": "mcq",
+      "prompt": "Awa asks her friend: 'What are you _______ today?' Which word completes the question correctly?",
+      "options": [
+        "wearing",
+        "putting on",
+        "dressing",
+        "making"
+      ],
+      "answer": 0,
+      "explanation": "The question 'What are you wearing today?' asks about the state of the clothes the person has on. 'Wearing' is the present participle of 'wear', used in the present continuous tense to describe the current state. 'Putting on' would ask about the action of putting clothes on, which is less common in this general context. 'Dressing' is not used with 'what' in this way. 'Making' is unrelated."
+    },
+    {
+      "id": "auto-anglais-5-mv9gcj9a",
+      "type": "mcq",
+      "prompt": "Which of the following is an accessory, not a basic piece of clothing?",
+      "options": [
+        "Jeans",
+        "Skirt",
+        "Belt",
+        "T-shirt"
+      ],
+      "answer": 2,
+      "explanation": "According to the lesson, 'Belt' is listed under 'Accessories'. 'Jeans', 'Skirt', and 'T-shirt' are listed under 'Basic Clothes'. An accessory is an item that complements an outfit but is not essential for covering the body, like a belt, bag, or watch."
+    }
+  ]
+}

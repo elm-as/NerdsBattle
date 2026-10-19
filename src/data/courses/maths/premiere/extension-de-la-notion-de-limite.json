@@ -1,0 +1,72 @@
+{
+  "id": "maths-premiere-extension-de-la-notion-de-limite",
+  "title": "Extension de la notion de limite",
+  "summary": "Des élèves de Daloa étudient sur internet la trajectoire d'un mobile modélisée par f(t) = t/(2t+1) pour t ≥ 0. Ils constatent que pour t très grand, la trajectoire se rapproche de la droite y = 1/2. Comment expliquer ce comportement asymptotique ?",
+  "lesson": "## 1. Limite infinie en un point\n\nOn dit que $f$ tend vers $+\\\\infty$ quand $x$ tend vers $x_0$ si $f(x)$ devient arbitrairement grand quand $x$ est proche de $x_0$.\nNotation : $\\\\lim_{x \\\to x_0} f(x) = +\\\\infty$.\n\n**Exemple** : $\\\\lim_{x \\\to 0^+} \\\\frac{1}{x} = +\\\\infty$.\n\n## 2. Asymptote verticale\n\nSi $\\\\lim_{x \\\to x_0} f(x) = \\\\pm \\\\infty$, alors la droite d'équation $x = x_0$ est une **asymptote verticale** à la courbe de $f$.\n\n**Exemple** : Pour $f(x) = \\\\frac{1}{x-3}$, $\\\\lim_{x \\\to 3} f(x) = \\\\infty$, donc $x = 3$ est asymptote verticale.\n\n```mathgraph\n{\n  \"type\": \"function\",\n  \"title\": \"Asymptote verticale : f(x) = 1/(x-2)\",\n  \"xRange\": [-2, 6],\n  \"yRange\": [-8, 8],\n  \"functions\": [\n    { \"expression\": \"1/(x-2)\", \"color\": \"#8884d8\", \"name\": \"f(x) = 1/(x-2)\" }\n  ],\n  \"showGrid\": true,\n  \"showAxes\": true,\n  \"xLabel\": \"x\",\n  \"yLabel\": \"y\",\n  \"verticalLines\": [\n    { \"x\": 2, \"color\": \"#ff0000\", \"name\": \"Asymptote x=2\", \"lineStyle\": \"dashed\" }\n  ]\n}\n```\n\n## 3. Limite à l'infini\n\n- $\\\\lim_{x \\\to +\\\\infty} f(x) = L$ signifie que $f(x)$ s'approche de $L$ quand $x$ devient très grand.\n- $\\\\lim_{x \\\to -\\\\infty} f(x) = L$ signifie que $f(x)$ s'approche de $L$ quand $x$ devient très négatif.\n\n## 4. Asymptote horizontale\n\nSi $\\\\lim_{x \\\to +\\\\infty} f(x) = L$ (ou $x \\\to -\\\\infty$), alors la droite d'équation $y = L$ est une **asymptote horizontale** à la courbe de $f$.\n\n**Exemple** : $\\\\lim_{x \\\to +\\\\infty} \\\\frac{2x+1}{x} = 2$, donc $y = 2$ est asymptote horizontale.\n\n```mathgraph\n{\n  \"type\": \"function\",\n  \"title\": \"Asymptote horizontale : f(x) = (2x+1)/x\",\n  \"xRange\": [-5, 15],\n  \"yRange\": [-1, 5],\n  \"functions\": [\n    { \"expression\": \"(2*x+1)/x\", \"color\": \"#8884d8\", \"name\": \"f(x) = (2x+1)/x\" }\n  ],\n  \"showGrid\": true,\n  \"showAxes\": true,\n  \"xLabel\": \"x\",\n  \"yLabel\": \"y\",\n  \"horizontalLines\": [\n    { \"y\": 2, \"color\": \"#ff0000\", \"name\": \"Asymptote y=2\", \"lineStyle\": \"dashed\" }\n  ]\n}\n```\n\n## 5. Limites infinies à l'infini\n\nExemples classiques :\n- $\\\\lim_{x \\\to +\\\\infty} x^2 = +\\\\infty$\n- $\\\\lim_{x \\\to +\\\\infty} \\\\sqrt{x} = +\\\\infty$\n- $\\\\lim_{x \\\to +\\\\infty} \\\\frac{1}{x} = 0$\n\n## 6. Limites des fonctions polynômes à l'infini\n\nPour un polynôme $P(x) = a_nx^n + a_{n-1}x^{n-1} + ... + a_0$ ($a_n \\\neq 0$) :\n$$\\\\lim_{x \\\to \\\\pm \\\\infty} P(x) = \\\\lim_{x \\\to \\\\pm \\\\infty} a_nx^n = \\\\pm \\\\infty$$\nLe signe dépend du signe de $a_n$ et de la parité de $n$.\n\n```mathgraph\n{\n  \"type\": \"function\",\n  \"title\": \"Comportement des polynômes à l'infini\",\n  \"xRange\": [-5, 5],\n  \"yRange\": [-20, 20],\n  \"functions\": [\n    { \"expression\": \"x^3\", \"color\": \"#8884d8\", \"name\": \"P(x) = x³\" },\n    { \"expression\": \"-x^2\", \"color\": \"#82ca9d\", \"name\": \"P(x) = -x²\" }\n  ],\n  \"showGrid\": true,\n  \"showAxes\": true,\n  \"xLabel\": \"x\",\n  \"yLabel\": \"y\"\n}\n```\n\n## 7. Limites des fonctions rationnelles à l'infini\n\nPour $f(x) = \\\\frac{P(x)}{Q(x)}$ avec $P$ de degré $n$ et $Q$ de degré $m$ :\n- Si $n < m$ : $\\\\lim_{x \\\to \\\\pm \\\\infty} f(x) = 0$\n- Si $n = m$ : $\\\\lim_{x \\\to \\\\pm \\\\infty} f(x) = \\\\frac{a_n}{b_m}$ (rapport des coeff dominants)\n- Si $n > m$ : $\\\\lim_{x \\\to \\\\pm \\\\infty} f(x) = \\\\pm \\\\infty$\n\n## 8. Application à la situation d'apprentissage\n\nSoit $f(t) = \\\\frac{t}{2t+1}$ pour $t \\\\geq 0$.\n- $\\\\lim_{t \\\to +\\\\infty} f(t) = \\\\lim_{t \\\to +\\\\infty} \\\\frac{t}{2t} = \\\\lim_{t \\\to +\\\\infty} \\\\frac{1}{2} = \\\\frac{1}{2}$.\n- Donc la droite $y = \\\\frac{1}{2}$ est asymptote horizontale.\n\n```mathgraph\n{\n  \"type\": \"function\",\n  \"title\": \"Situation d'apprentissage : f(t) = t/(2t+1)\",\n  \"xRange\": [0, 20],\n  \"yRange\": [0, 1],\n  \"functions\": [\n    { \"expression\": \"x/(2*x+1)\", \"color\": \"#8884d8\", \"name\": \"f(t) = t/(2t+1)\" }\n  ],\n  \"showGrid\": true,\n  \"showAxes\": true,\n  \"xLabel\": \"t\",\n  \"yLabel\": \"f(t)\",\n  \"horizontalLines\": [\n    { \"y\": 0.5, \"color\": \"#ff0000\", \"name\": \"Asymptote y=1/2\", \"lineStyle\": \"dashed\" }\n  ]\n}\n```\n\n**Interprétation** : À long terme, la position du mobile se stabilise autour de la cote 0,5.\n\n**Exemple ivoirien** : Modélisation de la croissance d'une plantation d'hévéa à San-Pédro : le rendement tend vers une limite à long terme.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Une limite infinie en x₀ correspond à une asymptote verticale x = x₀",
+    "Une limite finie à l'infini correspond à une asymptote horizontale y = L",
+    "En ±∞, un polynôme se comporte comme son terme de plus haut degré",
+    "Une fonction rationnelle a pour limite en ±∞ le rapport des termes dominants",
+    "Les asymptotes aident à esquisser le comportement global d'une courbe"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Si lim_{x→x₀} f(x) = +∞, la courbe de f admet :",
+      "options": [
+        "Une asymptote horizontale",
+        "Une asymptote verticale",
+        "Un trou",
+        "Un maximum"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "lim_{x→+∞} (5x³ - 2x + 1) =",
+      "options": [
+        "0",
+        "5",
+        "+∞",
+        "-∞"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Pour f(x) = (2x+1)/(3x-4), lim_{x→+∞} f(x) vaut :",
+      "options": [
+        "0",
+        "2/3",
+        "1/2",
+        "+∞"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Une asymptote horizontale a pour équation :",
+      "options": [
+        "x = constante",
+        "y = constante",
+        "y = mx + p",
+        "x = y"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

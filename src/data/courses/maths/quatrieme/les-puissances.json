@@ -1,0 +1,45 @@
+{
+  "id": "maths-quatrieme-les-puissances",
+  "title": "Les puissances",
+  "summary": "Un biologiste étudie des bactéries. Chaque bactérie se divise en 2 toutes les heures. Combien y en aura-t-il après 5 heures en partant d'une bactérie ?",
+  "lesson": "## Les puissances\n\n### Notation\n**a^n** se lit \"a puissance n\" ou \"a exposant n\"\n\n**Signification :**\n- 2³ = 2 × 2 × 2 = 8\n- 5² = 5 × 5 = 25\n- 10⁴ = 10 × 10 × 10 × 10 = 10 000\n\n### Cas particuliers\n- a¹ = a\n- a⁰ = 1 (si a ≠ 0)\n\n### Propriétés\n\n**Multiplication :**\na^m × a^n = a^(m+n)\n\nExemple : 2³ × 2² = 2⁵ = 32\n\n**Division :**\na^m ÷ a^n = a^(m-n)\n\nExemple : 5⁴ ÷ 5² = 5² = 25\n\n**Puissance de puissance :**\n(a^m)^n = a^(m×n)\n\nExemple : (2²)³ = 2⁶ = 64\n\n### Problème des bactéries\n1 bactérie au départ\nAprès 1h : 2¹ = 2\nAprès 2h : 2² = 4\nAprès 5h : 2⁵ = 32 bactéries",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "a^n = a multiplié n fois par lui-même",
+    "a^m × a^n = a^(m+n)",
+    "a^m ÷ a^n = a^(m-n)",
+    "a⁰ = 1"
+  ],
+  "exercise": {
+    "answer": "\n**Solution :**\n3⁴ × 3² = 3^(4+2) = 3⁶\n\n3⁶ = 3 × 3 × 3 × 3 × 3 × 3 = 729\n\n**Réponse : 729**\n        ",
+    "question": "Calcule : 3⁴ × 3²"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Combien vaut 2⁵ ?",
+      "options": [
+        "10",
+        "25",
+        "32",
+        "64"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Simplifie : 5³ × 5⁴",
+      "options": [
+        "5⁷",
+        "5¹²",
+        "25⁷",
+        "125"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

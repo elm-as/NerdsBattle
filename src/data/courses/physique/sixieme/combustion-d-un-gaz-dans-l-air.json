@@ -1,0 +1,110 @@
+{
+  "id": "physique-sixieme-combustion-d-un-gaz-dans-l-air",
+  "title": "Combustion d'un gaz dans l'air",
+  "summary": "Depuis quelques jours, un groupe d'élèves en classe de 6ème 6 au Lycée Moderne Adjamé 220 logements constatent que les casseroles de la cantine noircissent au cours de la cuisson des repas, ce qui n'était pas le cas auparavant. Intrigués, ils veulent comprendre ces observations. En classe, ils décident de réaliser la combustion du butane à l'aide du labo gaz puis d'identifier les produits formés.",
+  "lesson": "# Combustion d'un gaz dans l'air\n\n## I. Combustion complète du butane\n\n### Réalisation\nLe butane brûle avec une flamme bleue quand l'apport d'air est suffisant.\n\n### Produits formés\n1. **Dioxyde de carbone (CO₂)**: trouble l'eau de chaux\n2. **Eau (H₂O)**: condensation sur les parois froides\n\n### Équation littérale\nButane + Dioxygène → Dioxyde de carbone + Eau\n\n### Caractéristiques\n- Flamme bleue\n- Pas de fumée\n- Pas de dépôt noir\n- Chaleur dégagée\n\n## II. Combustion incomplète du butane\n\n### Conditions\nSe produit quand l'apport d'air (dioxygène) est insuffisant.\n\n### Produits formés\n1. **Dioxyde de carbone (CO₂)**\n2. **Eau (H₂O)**\n3. **Monoxyde de carbone (CO)**: gaz très toxique\n4. **Carbone (suie)**: dépôt noir\n\n### Caractéristiques\n- Flamme jaune-orangée\n- Fumée noire\n- Dépôt de suie (noir de carbone)\n- Moins de chaleur\n\n## III. Dangers de la combustion incomplète\n\n### Le monoxyde de carbone (CO)\n- **Gaz invisible** et sans odeur\n- **Très toxique**: empêche le sang de transporter l'oxygène\n- **Mortel** à forte dose\n- Provoque maux de tête, vertiges, nausées, mort\n\n### La suie\n- Noircit les ustensiles\n- Salit l'environnement\n- Réduit l'efficacité du chauffage\n\n## IV. Prévention\n\n### Pour éviter la combustion incomplète\n- Assurer une bonne aération\n- Régler correctement les brûleurs\n- Entretenir régulièrement les appareils\n- Flamme doit être bleue\n- Ne pas obstruer les arrivées d'air\n\n### En cas d'intoxication au CO\n- Ouvrir portes et fenêtres\n- Sortir la personne au grand air\n- Appeler les secours\n- Ne pas utiliser l'appareil défectueux",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Combustion complète: flamme bleue, CO₂ + H₂O",
+    "Combustion incomplète: flamme jaune, suie, CO toxique",
+    "CO: gaz invisible, sans odeur, mortel",
+    "Prévention: bonne aération, entretien"
+  ],
+  "exercise": {
+    "answer": "Les casseroles noircissent à cause de la suie produite lors d'une combustion incomplète du gaz. Pour y remédier: régler les brûleurs pour avoir une flamme bleue, assurer une bonne aération.",
+    "question": "Explique pourquoi les casseroles de la cantine noircissent et comment y remédier."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Une flamme bleue indique une combustion:",
+      "options": [
+        "Incomplète",
+        "Complète",
+        "Impossible",
+        "Dangereuse"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Le monoxyde de carbone (CO) est:",
+      "options": [
+        "Visible et odorant",
+        "Invisible et sans odeur",
+        "Visible et sans odeur",
+        "Inoffensif"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-physique-1-mv9ob3sx",
+      "type": "mcq",
+      "prompt": "Dans le contexte de la cantine du Lycée Moderne Adjamé 220 logements, les élèves observent que les casseroles noircissent. Ce dépôt noir, appelé suie, est principalement constitué de :",
+      "options": [
+        "Dioxyde de carbone (CO₂)",
+        "Carbone (C)",
+        "Monoxyde de carbone (CO)",
+        "Vapeur d'eau condensée (H₂O)"
+      ],
+      "answer": 1,
+      "explanation": "Selon le cours, la combustion incomplète du butane produit du carbone sous forme de suie, qui se dépose sur les parois froides des casseroles et les noircit. Le CO₂ et le CO sont des gaz, et l'eau est un liquide."
+    },
+    {
+      "id": "auto-physique-2-mv9ob3sy",
+      "type": "mcq",
+      "prompt": "Pour identifier la présence du dioxyde de carbone (CO₂) parmi les produits de la combustion du butane, quelle manipulation expérimentale spécifique doit-on réaliser ?",
+      "options": [
+        "Approcher une allumette enflammée du gaz recueilli",
+        "Agiter le gaz avec de l'eau de chaux",
+        "Placer un tube à essai froid au-dessus de la flamme",
+        "Observer la couleur de la flamme produite"
+      ],
+      "answer": 1,
+      "explanation": "Le cours indique que le dioxyde de carbone trouble l'eau de chaux. C'est la réaction caractéristique permettant d'identifier ce gaz. L'eau de chaux devient laiteuse en présence de CO₂."
+    },
+    {
+      "id": "auto-physique-3-mv9ob3sy",
+      "type": "mcq",
+      "prompt": "Lors de la combustion complète du butane, si l'apport d'air est suffisant, quel est l'aspect visuel de la flamme et la nature des produits formés ?",
+      "options": [
+        "Flamme jaune-orangée et formation de suie",
+        "Flamme bleue et formation de CO₂ et H₂O uniquement",
+        "Flamme bleue et formation de CO et suie",
+        "Flamme verte et formation de CO₂ et CO"
+      ],
+      "answer": 1,
+      "explanation": "La combustion complète se caractérise par une flamme bleue et la formation exclusive de dioxyde de carbone (CO₂) et d'eau (H₂O), sans production de suie ni de monoxyde de carbone."
+    },
+    {
+      "id": "auto-physique-4-mv9ob3sy",
+      "type": "mcq",
+      "prompt": "Parmi les énoncés suivants concernant le monoxyde de carbone (CO) produit lors d'une combustion incomplète, lequel est correct ?",
+      "options": [
+        "C'est un gaz visible de couleur blanche qui a une forte odeur de brûlé.",
+        "C'est un gaz invisible et inodore qui empêche le sang de transporter l'oxygène.",
+        "C'est un gaz toxique qui trouble l'eau de chaux en la rendant laiteuse.",
+        "C'est un gaz qui se condense en gouttelettes d'eau sur les parois froides."
+      ],
+      "answer": 1,
+      "explanation": "Le cours précise que le monoxyde de carbone est un gaz invisible et sans odeur, très toxique car il empêche le sang de transporter l'oxygène. Il ne trouble pas l'eau de chaux (c'est le CO₂) et ne se condense pas en eau."
+    },
+    {
+      "id": "auto-physique-5-mv9ob3sz",
+      "type": "mcq",
+      "prompt": "En comparant la combustion complète et la combustion incomplète du butane, quelle est la différence principale en termes de rendement énergétique et de sécurité ?",
+      "options": [
+        "La combustion complète dégage moins de chaleur mais est plus sûre.",
+        "La combustion incomplète dégage plus de chaleur et produit du gaz inoffensif.",
+        "La combustion complète dégage plus de chaleur et ne produit pas de gaz toxique.",
+        "Les deux types de combustion dégagent la même quantité de chaleur et sont également dangereux."
+      ],
+      "answer": 2,
+      "explanation": "La combustion complète est plus efficace (dégage plus de chaleur) et ne produit que du CO₂ et de l'eau, donc pas de gaz toxique comme le CO. La combustion incomplète est moins efficace et dangereuse à cause du CO et de la suie."
+    }
+  ]
+}

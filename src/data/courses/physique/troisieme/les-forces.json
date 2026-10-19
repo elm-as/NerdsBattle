@@ -1,0 +1,32 @@
+{
+  "id": "physique-troisieme-les-forces",
+  "title": "Les forces",
+  "summary": "Foyer Collège de Dimbokro : seau d'eau semble moins lourd dans l'eau que hors de l'eau.",
+  "lesson": "# Les forces\n\n## I. Définition d'une force\n\nAction mécanique capable de :\n- Déformer un corps\n- Modifier son mouvement\n- Maintenir en équilibre\n\nUnité SI : newton (N)\n\n## II. Caractéristiques d'une force\n\n1. Point d'application : origine\n2. Direction : droite d'action\n3. Sens : flèche\n4. Intensité : valeur (N)\n\n## III. Poussée d'Archimède\n\n### Définition\nForce exercée par liquide sur corps immergé\n\n### Caractéristiques\n- Direction : verticale\n- Sens : vers le haut\n- Point d'application : centre poussée\n- Intensité : PA\n\n### Formules\nPA = P - P' (poids apparent)\nPA = ρL × Vi × g\n\nOù :\n- ρL = masse volumique liquide\n- Vi = volume immergé\n- g = 10 N/kg\n\n## IV. Types de forces\n\n### Forces à distance\n- Poids\n- Forces magnétiques\n\n### Forces de contact\n- Réaction support\n- Tension fil\n- Frottements",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Force : 4 caractéristiques",
+    "Unité : newton (N)",
+    "PA = ρL × Vi × g",
+    "PA dirigée vers le haut"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La poussée d'Archimède est dirigée :",
+      "options": [
+        "Vers le bas",
+        "Vers le haut",
+        "Horizontalement",
+        "Au centre"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

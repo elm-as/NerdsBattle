@@ -1,0 +1,71 @@
+{
+  "id": "maths-troisieme-applications-affines",
+  "title": "Applications affines",
+  "summary": "Pour la kermesse organisée par les élèves de troisième du Lycée Félix Houphouët-Boigny de KORHOGO, le comité d'organisation décide de louer du matériel de sonorisation pour une journée. Le premier fournisseur propose deux tarifs : Tarif 1 - 5 000 F CFA l'heure avec une caution de 10 000 F CFA ; Tarif 2 - forfait de 50 000 F CFA pour toute la manifestation. Le deuxième fournisseur propose : 7 000 F CFA l'heure. Les élèves de troisième 4 doivent déterminer le tarif le plus avantageux selon la durée de la mani",
+  "lesson": "## 1. Définition des applications affines\n\nUne application affine est une fonction de la forme $f(x) = ax + b$ où $a$ et $b$ sont des nombres réels.\n- $a$ est le coefficient directeur (pente)\n- $b$ est l'ordonnée à l'origine\n\n**Exemple** : Tarif du premier fournisseur : $f(x) = 5000x + 10000$\n\n## 2. Applications linéaires\n\nUne application linéaire est un cas particulier d'application affine avec $b = 0$ : $f(x) = ax$\nElle modélise les situations de proportionnalité.\n\n**Exemple ivoirien** : Prix du riz au marché de Bouaké : $P(x) = 350x$ (350 FCFA/kg)\n\n## 3. Représentation graphique\n\n```mathgraph\n{\n  \"type\": \"function\",\n  \"title\": \"Comparaison des tarifs de location\",\n  \"xRange\": [0, 12],\n  \"yRange\": [0, 100000],\n  \"functions\": [\n    { \"expression\": \"5000*x + 10000\", \"color\": \"#3b82f6\", \"name\": \"Tarif 1: 5000x+10000\" },\n    { \"expression\": \"7000*x\", \"color\": \"#ef4444\", \"name\": \"Tarif unique: 7000x\" },\n    { \"expression\": \"50000\", \"color\": \"#10b981\", \"name\": \"Forfait: 50000\", \"lineStyle\": \"dashed\" }\n  ],\n  \"showGrid\": true,\n  \"showAxes\": true,\n  \"xLabel\": \"Durée (heures)\",\n  \"yLabel\": \"Coût (FCFA)\",\n  \"points\": [\n    { \"x\": 8, \"y\": 50000, \"color\": \"#f59e0b\", \"label\": \"Égalité à 8h\" }\n  ]\n}\n```\n\n## 4. Sens de variation\n\n| Valeur de $a$ | Sens de variation | Représentation graphique |\n|---------------|-------------------|--------------------------|\n| $a > 0$ | Croissante | Droite montante |\n| $a < 0$ | Décroissante | Droite descendante |\n| $a = 0$ | Constante | Droite horizontale |\n\n## 5. Propriétés de linéarité\n\nPour une application linéaire $f(x) = ax$ :\n- $f(x + y) = f(x) + f(y)$\n- $f(kx) = kf(x)$ pour tout $k \\\\in \\\\mathbb{R}$\n\n## 6. Détermination d'une application affine\n\nPour trouver $a$ et $b$ connaissant deux points $(x_1, y_1)$ et $(x_2, y_2)$ :\n- $a = \\\\frac{y_2 - y_1}{x_2 - x_1}$\n- $b = y_1 - a x_1$\n\n**Exemple** : Une application affine passe par A(2, 5) et B(4, 9) :\n$a = \\\\frac{9-5}{4-2} = 2$, $b = 5 - 2 \\\times 2 = 1$ donc $f(x) = 2x + 1$\n\n## 7. Lecture graphique\n\n- **Image d'un nombre** : Lire l'ordonnée du point de la droite d'abscisse donnée\n- **Antécédent d'un nombre** : Lire l'abscisse du point de la droite d'ordonnée donnée\n\n## 8. Application à la situation de Korhogo\n\n1. **Premier fournisseur, Tarif 1** : $f_1(x) = 5000x + 10000$\n2. **Premier fournisseur, Tarif 2** : $f_2(x) = 50000$ (constant)\n3. **Deuxième fournisseur** : $f_3(x) = 7000x$\n\nComparons $f_1$ et $f_3$ : $5000x + 10000 = 7000x \\\\Rightarrow 2000x = 10000 \\\\Rightarrow x = 5$\n- Pour $x < 5$ h : $f_3$ est plus avantageux\n- Pour $x > 5$ h : $f_1$ est plus avantageux\n\nComparons $f_2$ et $f_1$ : $50000 = 5000x + 10000 \\\\Rightarrow 40000 = 5000x \\\\Rightarrow x = 8$\n- Pour $x < 8$ h : $f_1$ est plus avantageux que le forfait\n- Pour $x > 8$ h : le forfait est plus avantageux",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Une application affine a pour forme $f(x) = ax + b$",
+    "Une application linéaire est un cas particulier avec $b = 0$",
+    "Le coefficient directeur $a$ détermine le sens de variation",
+    "L'ordonnée à l'origine $b$ est l'image de 0"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la forme générale d'une application affine ?",
+      "options": [
+        "$ax^2 + bx + c$",
+        "$ax + b$",
+        "$\\\\frac{a}{x} + b$",
+        "$a^x + b$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Une application linéaire est :",
+      "options": [
+        "Toujours croissante",
+        "De la forme $ax + b$ avec $b=0$",
+        "De la forme $ax^2$",
+        "Toujours décroissante"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Si $f(x) = -2x + 3$, alors $f$ est :",
+      "options": [
+        "Croissante",
+        "Décroissante",
+        "Constante",
+        "Nulle"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "L'ordonnée à l'origine de $f(x) = 4x - 5$ est :",
+      "options": [
+        "4",
+        "-5",
+        "5",
+        "-4"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

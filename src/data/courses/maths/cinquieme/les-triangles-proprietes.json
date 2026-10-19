@@ -1,0 +1,45 @@
+{
+  "id": "maths-cinquieme-les-triangles-proprietes",
+  "title": "Les triangles : propriétés",
+  "summary": "L'architecte dessine le toit triangulaire d'une maison à Yamoussoukro. Quelles sont les propriétés des triangles ?",
+  "lesson": "## Les types de triangles\n\n### Selon les côtés\n\n**Triangle quelconque**\n- 3 côtés de longueurs différentes\n\n**Triangle isocèle**\n- 2 côtés égaux\n- 2 angles égaux\n\n**Triangle équilatéral**\n- 3 côtés égaux\n- 3 angles égaux (60° chacun)\n\n### Selon les angles\n\n**Triangle rectangle**\n- 1 angle droit (90°)\n- Théorème de Pythagore applicable\n\n**Triangle obtusangle**\n- 1 angle obtus (> 90°)\n\n**Triangle acutangle**\n- 3 angles aigus (< 90°)\n\n## Propriété importante\n\n**Somme des angles d'un triangle = 180°**\n\n**Exemple :**\nSi un triangle a des angles de 60° et 70°, le troisième angle mesure :\n180° - 60° - 70° = 50°",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Isocèle : 2 côtés égaux",
+    "Équilatéral : 3 côtés égaux",
+    "Rectangle : 1 angle de 90°",
+    "Somme des angles = 180°"
+  ],
+  "exercise": {
+    "answer": "\n**Solution :**\nSomme des angles = 180°\nTroisième angle = 180° - 45° - 65° = 70°\n\n**Réponse : 70°**\n        ",
+    "question": "Un triangle a deux angles de 45° et 65°. Calcule le troisième angle."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Combien d'angles égaux dans un triangle équilatéral ?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle est la somme des angles d'un triangle ?",
+      "options": [
+        "90°",
+        "180°",
+        "270°",
+        "360°"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

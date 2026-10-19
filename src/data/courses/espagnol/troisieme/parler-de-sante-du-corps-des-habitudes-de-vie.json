@@ -1,0 +1,45 @@
+{
+  "id": "espagnol-troisieme-parler-de-sante-du-corps-des-habitudes-de-vie",
+  "title": "Parler de santé, du corps, des habitudes de vie",
+  "summary": "¿Cómo te sientes? ¿Qué te duele? (Comment te sens-tu ? Qu'est-ce qui te fait mal ?)",
+  "lesson": "## La santé et le corps\n\n### Le corps humain\n\n**La tête et le visage :**\n- la cabeza (la tête)\n- los ojos (les yeux)\n- la nariz (le nez)\n- la boca (la bouche)\n- las orejas (les oreilles)\n- el pelo (les cheveux)\n\n**Le corps :**\n- el cuello (le cou)\n- los brazos (les bras)\n- las manos (les mains)\n- los dedos (les doigts)\n- el pecho (la poitrine)\n- la espalda (le dos)\n- el estómago (l'estomac)\n- las piernas (les jambes)\n- los pies (les pieds)\n\n### Exprimer la douleur\n\n**Le verbe DOLER (faire mal) :**\nStructure inversée comme GUSTAR\n\n- Me duele la cabeza. (J'ai mal à la tête)\n- Me duelen los pies. (J'ai mal aux pieds)\n- ¿Te duele algo? (Tu as mal quelque part ?)\n\n### Problèmes de santé\n\n- Tengo fiebre. (J'ai de la fièvre)\n- Tengo tos. (J'ai de la toux)\n- Tengo gripe. (J'ai la grippe)\n- Tengo dolor de... (J'ai mal à...)\n- Estoy resfriado/a. (Je suis enrhumé/e)\n- Estoy enfermo/a. (Je suis malade)\n\n### Le verbe SENTIRSE (se sentir)\n\n- Me siento bien/mal. (Je me sens bien/mal)\n- ¿Cómo te sientes? (Comment te sens-tu ?)\n- Me siento cansado/a. (Je me sens fatigué/e)\n- Me siento mareado/a. (Je me sens étourdi/e)\n\n### Habitudes de vie saine\n\n**Bonnes habitudes :**\n- hacer ejercicio (faire de l'exercice)\n- comer sano (manger sainement)\n- dormir bien (bien dormir)\n- beber agua (boire de l'eau)\n- descansar (se reposer)\n\n**Mauvaises habitudes :**\n- fumar (fumer)\n- comer comida basura (manger de la malbouffe)\n- no hacer deporte (ne pas faire de sport)\n\n### Conseils de santé\n\n- Debes... (Tu dois...)\n- Es importante... (Il est important de...)\n- Hay que... (Il faut...)\n- Tienes que... (Tu dois...)\n\n**Exemples :**\n- Debes descansar. (Tu dois te reposer)\n- Es importante beber mucha agua. (Il est important de boire beaucoup d'eau)\n- Tienes que ir al médico. (Tu dois aller chez le médecin)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Me duele + singulier / Me duelen + pluriel",
+    "Tengo + problème de santé",
+    "Me siento + adjectif",
+    "Debes/Tienes que + infinitif pour conseiller"
+  ],
+  "exercise": {
+    "answer": "Hago ejercicio tres veces por semana. Como frutas y verduras todos los días. Duermo ocho horas cada noche. Es importante hacer deporte y comer sano. También hay que beber mucha agua.",
+    "question": "Décris tes habitudes de vie et donne des conseils de santé."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'J'ai mal à la tête' ?",
+      "options": [
+        "\"Me duele la cabeza\"",
+        "Tengo mal de cabeza",
+        "Siento la cabeza",
+        "Estoy cabeza"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "'Hacer ejercicio' signifie :",
+      "options": [
+        "Faire des exercices scolaires",
+        "\"Faire de l'exercice physique\"",
+        "Faire attention",
+        "Faire du bruit"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

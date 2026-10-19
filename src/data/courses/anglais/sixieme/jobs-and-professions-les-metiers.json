@@ -1,0 +1,58 @@
+{
+  "id": "anglais-sixieme-jobs-and-professions-les-metiers",
+  "title": "Jobs and Professions - Les métiers",
+  "summary": "Yao demande : 'What does your father do?' Awa répond : 'He is a doctor.' Comment parler des métiers ?",
+  "lesson": "## Jobs and Professions - Les métiers\n\n### Common Jobs\n\n- **Doctor** - médecin\n- **Teacher** - enseignant(e)\n- **Nurse** - infirmier(ère)\n- **Engineer** - ingénieur\n- **Driver** - chauffeur\n- **Cook** - cuisinier\n- **Police officer** - policier\n- **Farmer** - agriculteur\n- **Student** - étudiant(e)\n- **Mechanic** - mécanicien\n- **Shopkeeper** - commerçant\n- **Secretary** - secrétaire\n\n## Asking About Jobs\n\n**What do you do?** - Que fais-tu ? (métier)\n**What does he/she do?** - Que fait-il/elle ?\n\n- I am **a** teacher.\n- He is **a** doctor.\n- She is **an** engineer.\n\n⚠️ **A/AN + métier**\n\n### A or AN?\n\n**A** devant consonne : a doctor, a teacher\n**AN** devant voyelle : an engineer, an actor\n\n## Work Verbs\n\n- **work** - travailler\n- **teach** - enseigner\n- **help** - aider\n- **drive** - conduire\n- **cook** - cuisiner\n\nMy father **works** in a hospital.\nMy mother **teaches** English.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Doctor, teacher, nurse, engineer, driver",
+    "What do you do? pour demander le métier",
+    "A/AN + métier (a doctor, an engineer)",
+    "He/She is a... pour répondre"
+  ],
+  "exercise": {
+    "answer": "\n**Solution :**\n1) My father is **a** teacher.\n2) She is **an** engineer.\n3) What **does** your mother do?\n        ",
+    "question": "Complète : 1) My father is ___ teacher. 2) She is ___ engineer. 3) What ___ your mother do?"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'médecin' ?",
+      "options": [
+        "Teacher",
+        "Doctor",
+        "Nurse",
+        "Engineer"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle phrase est correcte ?",
+      "options": [
+        "He is doctor",
+        "He is a doctor",
+        "He is the doctor",
+        "He doctor"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Comment demander le métier ?",
+      "options": [
+        "What you do?",
+        "What do you do?",
+        "What are you do?",
+        "What you are?"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

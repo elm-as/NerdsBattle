@@ -1,0 +1,59 @@
+{
+  "id": "maths-cinquieme-inequations-et-ordre",
+  "title": "Inéquations et ordre",
+  "summary": "Un taxi à Abidjan coûte 500 FCFA de base plus 200 FCFA par km. Kofi a 3000 FCFA. Quelle distance maximale peut-il parcourir ?",
+  "lesson": "## Les inéquations\n\n### Qu'est-ce qu'une inéquation ?\nUne **inéquation** est une inégalité contenant une inconnue.\n\n**Symboles :**\n- < : strictement inférieur\n- ≤ : inférieur ou égal\n- > : strictement supérieur\n- ≥ : supérieur ou égal\n\n**Exemples d'inéquations :**\n- x + 3 < 10\n- 2x ≥ 8\n- 5x - 2 > 13\n\n### Résolution d'inéquations\n\n**Règles :**\n1. On peut ajouter ou soustraire le même nombre des deux côtés\n2. On peut multiplier ou diviser par un nombre **positif**\n\n**ATTENTION :** Si on multiplie ou divise par un nombre **négatif**, on inverse le sens de l'inégalité !\n\n#### Exemple 1 : x + 3 < 10\nx + 3 < 10\nx < 10 - 3\nx < 7\n\n**Solution :** Tous les nombres strictement inférieurs à 7\n\n#### Exemple 2 : 2x ≥ 8\n2x ≥ 8\nx ≥ 8 ÷ 2\nx ≥ 4\n\n**Solution :** Tous les nombres supérieurs ou égaux à 4\n\n#### Exemple 3 : 3x - 5 > 7\n3x - 5 > 7\n3x > 7 + 5\n3x > 12\nx > 4\n\n**Solution :** x > 4\n\n### Représentation sur une droite graduée\n\n**Pour x < 7 :**\n- On représente tous les nombres à gauche de 7\n- Cercle vide en 7 (valeur exclue)\n\n**Pour x ≥ 4 :**\n- On représente tous les nombres à partir de 4 vers la droite\n- Point plein en 4 (valeur incluse)\n\n### Application au problème du taxi\n\nSoit x la distance en km.\nCoût total : 500 + 200x\nBudget : 3000 FCFA\n\nInéquation : 500 + 200x ≤ 3000\n\nRésolution :\n200x ≤ 3000 - 500\n200x ≤ 2500\nx ≤ 2500 ÷ 200\nx ≤ 12,5\n\n**Kofi peut parcourir au maximum 12,5 km.**",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Inéquation : inégalité avec inconnue",
+    "Symboles : <, ≤, >, ≥",
+    "On peut ajouter/soustraire des deux côtés",
+    "Division/multiplication par nombre positif : sens conservé",
+    "Cercle vide : valeur exclue, Point plein : valeur incluse"
+  ],
+  "exercise": {
+    "answer": "\n**Solution :**\n4x + 3 ≤ 19\n\nÉtape 1 : On isole 4x\n4x ≤ 19 - 3\n4x ≤ 16\n\nÉtape 2 : On divise par 4\nx ≤ 16 ÷ 4\nx ≤ 4\n\n**Réponse : x ≤ 4**\n\nSur la droite graduée : tous les nombres inférieurs ou égaux à 4 (point plein en 4)\n        ",
+    "question": "Résous l'inéquation : 4x + 3 ≤ 19"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "La solution de x + 5 < 12 est :",
+      "options": [
+        "x < 7",
+        "x < 17",
+        "x > 7",
+        "x = 7"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "La solution de 3x ≥ 15 est :",
+      "options": [
+        "x ≥ 3",
+        "x ≥ 5",
+        "x ≤ 5",
+        "x > 5"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Sur une droite, on représente x ≤ 5 avec :",
+      "options": [
+        "Un cercle vide en 5",
+        "Un point plein en 5",
+        "Une croix en 5",
+        "Rien en 5"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

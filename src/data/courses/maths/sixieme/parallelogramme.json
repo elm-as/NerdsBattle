@@ -1,0 +1,58 @@
+{
+  "id": "maths-sixieme-parallelogramme",
+  "title": "Parallélogramme",
+  "summary": "Un menuisier de TIEBISSOU observe les motifs d'un pagne. Il remarque des quadrilatères particuliers et décide de les identifier et de les reproduire.",
+  "lesson": "## Le parallélogramme\n\n### Définition\n\nUn **parallélogramme** est un quadrilatère dont **les côtés opposés sont parallèles deux à deux**.\n\n**Notation :** ABCD est un parallélogramme si :\n- (AB) // (DC)\n- (AD) // (BC)\n\n### Propriétés du parallélogramme\n\n**1. Les côtés**\n- Les côtés opposés sont **parallèles**\n- Les côtés opposés ont la **même longueur**\n  - AB = DC\n  - AD = BC\n\n**2. Les angles**\n- Les angles opposés sont **égaux**\n  - ∠A = ∠C\n  - ∠B = ∠D\n- Les angles consécutifs sont **supplémentaires** (leur somme = 180°)\n  - ∠A + ∠B = 180°\n  - ∠B + ∠C = 180°\n\n**3. Les diagonales**\n- Les diagonales se coupent en leur **milieu**\n- Le point d'intersection O est le **centre de symétrie** du parallélogramme\n\nSi O est le point d'intersection des diagonales [AC] et [BD] :\n- O est le milieu de [AC] : AO = OC\n- O est le milieu de [BD] : BO = OD\n\n### Cas particuliers de parallélogrammes\n\n**1. Le rectangle**\nParallélogramme avec 4 angles droits (90°).\n\n**Propriété supplémentaire :**\n- Les diagonales ont la même longueur : AC = BD\n\n**2. Le losange**\nParallélogramme avec 4 côtés égaux.\n\n**Propriété supplémentaire :**\n- Les diagonales sont perpendiculaires\n\n**3. Le carré**\nParallélogramme avec 4 angles droits ET 4 côtés égaux.\nLe carré est à la fois un rectangle et un losange.\n\n**Propriétés supplémentaires :**\n- Les diagonales ont la même longueur\n- Les diagonales sont perpendiculaires\n\n### Construction d'un parallélogramme\n\n**Méthode 1 : À partir de la définition**\n1. Tracer [AB]\n2. Tracer une parallèle à (AB) passant par un point D\n3. Tracer une parallèle à (AD) passant par B\n4. Le point C est à l'intersection\n\n**Méthode 2 : À partir des diagonales**\n1. Tracer les deux diagonales qui se coupent en leur milieu O\n2. Relier les 4 extrémités\n\n**Méthode 3 : À partir des côtés opposés**\n1. Tracer [AB] et [DC] de même longueur\n2. Relier A à D et B à C\n\n### Périmètre et aire\n\n**Périmètre :**\nP = 2 × (longueur + largeur) = 2 × (AB + AD)\n\n**Aire :**\nA = base × hauteur = AB × h\n(où h est la distance entre les deux côtés parallèles)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Côtés opposés parallèles et de même longueur",
+    "Angles opposés égaux, consécutifs supplémentaires",
+    "Diagonales se coupent en leur milieu",
+    "Centre de symétrie au point d'intersection des diagonales"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans un parallélogramme, les côtés opposés sont :",
+      "options": [
+        "Perpendiculaires",
+        "Parallèles seulement",
+        "Égaux et parallèles",
+        "Différents"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Où se coupent les diagonales d'un parallélogramme ?",
+      "options": [
+        "À leur extrémité",
+        "À leur milieu",
+        "Au tiers",
+        "N'importe où"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Si un parallélogramme a un angle de 60°, l'angle consécutif mesure :",
+      "options": [
+        "60°",
+        "90°",
+        "120°",
+        "180°"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

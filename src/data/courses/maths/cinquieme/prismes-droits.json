@@ -1,0 +1,45 @@
+{
+  "id": "maths-cinquieme-prismes-droits",
+  "title": "Prismes droits",
+  "summary": "Une entreprise de construction à Abidjan fabrique des poutres en béton en forme de prisme triangulaire. Comment calculer le volume de béton nécessaire ?",
+  "lesson": "## Les prismes droits\n\n### Définition\nUn **prisme droit** est un solide qui a :\n- Deux bases **parallèles** et **superposables** (même forme et même dimensions)\n- Des faces latérales qui sont des **rectangles** perpendiculaires aux bases\n\n### Types de prismes\nSelon la forme de la base :\n- **Prisme à base triangulaire** : 2 bases triangulaires, 3 faces rectangulaires\n- **Prisme à base carrée** : 2 bases carrées, 4 faces rectangulaires\n- **Prisme à base hexagonale** : 2 bases hexagonales, 6 faces rectangulaires\n\n**Cas particulier :** Le pavé droit est un prisme à base rectangulaire.\n\n### Volume d'un prisme droit\n\n**Formule générale :**\n**V = Aire de la base × hauteur**\n\n**Exemple : Prisme à base triangulaire**\n- Base triangle : base = 6 m, hauteur = 4 m\n- Aire base = (6 × 4) ÷ 2 = 12 m²\n- Hauteur du prisme : h = 10 m\n- Volume : V = 12 × 10 = 120 m³\n\n### Patron d'un prisme\nPour construire un prisme :\n1. Dessiner les deux bases\n2. Dessiner les rectangles des faces latérales\n3. Nombre de faces latérales = nombre de côtés de la base\n\n**Exemple :** Prisme triangulaire\n- 2 triangles (bases)\n- 3 rectangles (faces latérales)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Prisme = 2 bases parallèles et superposables",
+    "Faces latérales = rectangles",
+    "Volume = Aire base × hauteur",
+    "Nombre de faces latérales = nombre de côtés de la base"
+  ],
+  "exercise": {
+    "answer": "\n**Solution :**\nAire de la base carrée = côté² = 5² = 25 cm²\nHauteur du prisme = 12 cm\n\nVolume = Aire base × hauteur\nV = 25 × 12 = 300 cm³\n\n**Réponse : 300 cm³**\n        ",
+    "question": "Un prisme droit a une base carrée de côté 5 cm et une hauteur de 12 cm. Calcule son volume."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Les faces latérales d'un prisme droit sont toujours :",
+      "options": [
+        "Des carrés",
+        "Des rectangles",
+        "Des triangles",
+        "Des cercles"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Un prisme à base pentagonale a combien de faces latérales ?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

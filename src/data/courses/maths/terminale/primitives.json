@@ -1,0 +1,282 @@
+{
+  "id": "maths-terminale-primitives",
+  "title": "Primitives",
+  "summary": "Pour préparer un exposé en physique, une élève de terminale à Bouaké monte dans un ascenseur muni d'un pèse-personne et relève la mesure affichée au cours du trajet. En mécanique, on établit que l'accélération instantanée $a(t)$ est la dérivée de la vitesse $v(t)$. Ayant enregistré l'accélération, elle demande à ses camarades de l'aider à retrouver la fonction vitesse $v$ qui a pour dérivée l'accélération $a$. Ensemble, ils décident de faire des recherches sur l'opération inverse de la dérivation : le calcu",
+  "lesson": "## 1. Définition et existence d'une primitive\n\n**Définition :** Soit $f$ une fonction définie sur un intervalle $I$. On appelle **primitive** de $f$ sur $I$ toute fonction $F$ dérivable sur $I$ telle que pour tout $x \\\\in I$, $F'(x) = f(x)$.\n\n**Exemple :** $F(x) = x^2$ est une primitive de $f(x)=2x$ sur $\\\\mathbb{R}$ car $F'(x)=2x=f(x)$.\n\n**Théorème d'existence :** Toute fonction **continue** sur un intervalle $I$ admet des primitives sur $I$.\n\n**Remarque :** La dérivabilité de $f$ n'est pas requise pour l'existence d'une primitive, mais la continuité l'est.\n\n## 2. Ensemble des primitives (Théorème fondamental)\n\n**Théorème :** Soit $f$ une fonction continue sur un intervalle $I$ et $F_0$ une primitive de $f$ sur $I$. Alors **toutes** les primitives de $f$ sur $I$ sont les fonctions $F$ définies par $F(x) = F_0(x) + C$, où $C$ est une constante réelle arbitraire.\n\n**Conséquence :** Deux primitives d'une même fonction sur un intervalle diffèrent d'une constante.\nNotation : On note souvent $\\\\int f(x) \\\\, dx$ l'ensemble des primitives de $f$ (appelée intégrale indéfinie).\n$\\\\int f(x) \\\\, dx = F(x) + C, \\\\ C \\\\in \\\\mathbb{R}$.\n\n## 3. Primitives des fonctions de référence (tableau indispensable)\n\n| Fonction $f(x)$ | Une primitive $F(x)$ | Conditions |\n|---|---|---|\n| $a$ (constante) | $ax$ | $x \\\\in \\\\mathbb{R}$ |\n| $x^n$ ($n \\\\in \\\\mathbb{N}^*$) | $\\\\frac{x^{n+1}}{n+1}$ | $x \\\\in \\\\mathbb{R}$ |\n| $x^\\\\alpha$ ($\\\\alpha \\\\in \\\\mathbb{R} \\\\setminus \\\\{-1\\\\}$) | $\\\\frac{x^{\\\\alpha+1}}{\\\\alpha+1}$ | $x > 0$ |\n| $\\\\frac{1}{x}$ | $\\\\ln |x|$ | $x \\\\in \\\\mathbb{R}^*$ |\n| $e^x$ | $e^x$ | $x \\\\in \\\\mathbb{R}$ |\n| $\\\\cos x$ | $\\\\sin x$ | $x \\\\in \\\\mathbb{R}$ |\n| $\\\\sin x$ | $-\\\\cos x$ | $x \\\\in \\\\mathbb{R}$ |\n| $\\\\frac{1}{\\\\cos^2 x} = 1+\\\tan^2 x$ | $\\\tan x$ | $x \\\neq \\\\frac{\\\\pi}{2} + k\\\\pi$ |\n| $\\\\frac{1}{\\\\sqrt{1-x^2}}$ | $\\\\arcsin x$ | $x \\\\in ]-1,1[$ |\n| $\\\\frac{1}{1+x^2}$ | $\\\\arctan x$ | $x \\\\in \\\\mathbb{R}$ |\n\n## 4. Primitives et opérations algébriques\n\nLa primitive d'une combinaison linéaire est la combinaison linéaire des primitives (linéarité) :\nSi $F$ est primitive de $f$ et $G$ de $g$ sur $I$, et si $\\\\lambda$, $\\\\mu$ sont des réels, alors $\\\\lambda F + \\\\mu G$ est une primitive de $\\\\lambda f + \\\\mu g$ sur $I$.\n\n$$\\\\int (\\\\lambda f(x) + \\\\mu g(x)) \\\\, dx = \\\\lambda \\\\int f(x) \\\\, dx + \\\\mu \\\\int g(x) \\\\, dx$$\n\n## 5. Primitives de fonctions de la forme $u' \\\times f \\\\circ u$ (formules liées à la dérivation des composées)\n\nCes formules découlent directement de la formule de dérivation $(F \\\\circ u)' = u' \\\times (F' \\\\circ u) = u' \\\times (f \\\\circ u)$ si $F'=f$.\n\n| Si $F$ est une primitive de $f$, alors une primitive de $u'(x) \\\\cdot f(u(x))$ est $F(u(x))$. |\n|---|---|\n\n**Cas particuliers essentiels (à connaître) :**\n1. $\\\\int u'(x) e^{u(x)} \\\\, dx = e^{u(x)} + C$\n2. $\\\\int \\\\frac{u'(x)}{u(x)} \\\\, dx = \\\\ln |u(x)| + C$, pour $u(x) \\\neq 0$\n3. $\\\\int u'(x) \\\\cos(u(x)) \\\\, dx = \\\\sin(u(x)) + C$\n4. $\\\\int u'(x) \\\\sin(u(x)) \\\\, dx = -\\\\cos(u(x)) + C$\n5. $\\\\int u'(x) (u(x))^\\\\alpha \\\\, dx = \\\\frac{(u(x))^{\\\\alpha+1}}{\\\\alpha+1} + C$, pour $\\\\alpha \\\neq -1$\n\n## 6. Détermination d'une primitive unique (Condition initiale)\n\nSouvent, on cherche **la** primitive qui prend une valeur donnée en un point donné. C'est un problème de Cauchy élémentaire.\n\n**Méthode :**\n1. Trouver l'ensemble des primitives $F(x) + C$.\n2. Utiliser la condition $F(x_0) = y_0$ pour déterminer la constante $C$.\n\n**Exemple :** Trouver la primitive $F$ de $f(x)=2x$ telle que $F(1)=3$.\nEnsemble des primitives : $F(x)=x^2 + C$.\nCondition : $F(1)=1^2+C=3 \\\\Rightarrow C=2$.\nDonc $F(x)=x^2+2$.\n\n```mathgraph\n{\n  \"type\": \"function\",\n  \"title\": \"Primitives de f(x)=2x (F(x)=x²+C)\",\n  \"xRange\": [-2, 2],\n  \"yRange\": [-1, 5],\n  \"functions\": [\n    { \"expression\": \"x^2\", \"color\": \"#8884d8\", \"name\": \"C=0\" },\n    { \"expression\": \"x^2+1\", \"color\": \"#82ca9d\", \"name\": \"C=1\" },\n    { \"expression\": \"x^2+2\", \"color\": \"#ff7300\", \"name\": \"C=2 (F(1)=3)\", \"lineStyle\": \"dashed\" },\n    { \"expression\": \"x^2-1\", \"color\": \"#a4de6c\", \"name\": \"C=-1\" }\n  ],\n  \"showGrid\": true,\n  \"showAxes\": true,\n  \"points\": [ { \"x\": 1, \"y\": 3, \"color\": \"#ff0000\", \"label\": \"(1,3)\" } ]\n}\n```\n\n## 7. Techniques de calcul de primitives\n\n**Reconnaissance d'une forme $u' f(u)$ :** C'est la technique la plus courante.\nEx : $\\\\int \\\\frac{2x}{x^2+1} dx$. On reconnaît $u'(x)/u(x)$ avec $u(x)=x^2+1$, $u'(x)=2x$. Donc primitive = $\\\\ln(x^2+1) + C$.\n\n**Linéarisation d'expressions trigonométriques :** Utiliser les formules de Moivre/Euler pour transformer des produits en sommes.\nEx : $\\\\int \\\\cos^2 x \\\\, dx$. On linéarise : $\\\\cos^2 x = \\\\frac{1+\\\\cos(2x)}{2}$. Donc $\\\\int \\\\cos^2 x \\\\, dx = \\\\frac{1}{2}\\\\int (1+\\\\cos 2x) dx = \\\\frac{1}{2}(x + \\\\frac{1}{2}\\\\sin 2x) + C$.\n\n**Changement de variable :** Méthode puissante, souvent implicite quand on reconnaît $u' f(u)$.\n\n## 8. Exemple contextuel ivoirien (Retour à la situation de l'ascenseur)\n\nSupposons que l'élève ait mesuré une accélération modélisée par $a(t) = 0.5 \\\\cos(0.4 t)$ pour $t \\\\in [0, 10]$ (en m/s²), avec une vitesse initiale $v(0)=0$ m/s.\n1. Trouver toutes les fonctions $v(t)$ dont la dérivée est $a(t)$.\n2. Déterminer la fonction vitesse $v(t)$ correspondant à la mesure (avec condition initiale).\n3. En déduire la vitesse après 5 secondes.\n\n**Résolution :**\n1. On cherche les primitives de $a(t)=0.5 \\\\cos(0.4 t)$.\nOn reconnaît une forme $k \\\\cos(u(t))$ avec $u(t)=0.4t$, $u'(t)=0.4$. On a $a(t)=\\\\frac{0.5}{0.4} \\\times 0.4 \\\\cos(0.4t) = 1.25 \\\times u'(t) \\\\cos(u(t))$.\nOr une primitive de $u'(t) \\\\cos(u(t))$ est $\\\\sin(u(t))$.\nDonc $\\\\int 0.5 \\\\cos(0.4t) \\\\, dt = 1.25 \\\\sin(0.4t) + C$, où $C$ est une constante.\nAinsi, $v(t) = 1.25 \\\\sin(0.4t) + C$.\n\n2. Condition initiale : $v(0)=0$.\n$v(0) = 1.25 \\\\sin(0) + C = 0 + C = 0 \\\\Rightarrow C=0$.\nDonc la fonction vitesse est $v(t) = 1.25 \\\\sin(0.4t)$.\n\n3. Vitesse à $t=5$ s : $v(5) = 1.25 \\\\sin(0.4 \\\times 5) = 1.25 \\\\sin(2)$.\n$\\\\sin(2) \\\\approx 0.9093$ (radians). Donc $v(5) \\\\approx 1.25 \\\times 0.9093 \\\\approx 1.1366$ m/s.\n\nL'élève peut maintenant poursuivre son exposé en déterminant également la hauteur par intégration de la vitesse.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Une primitive $F$ de $f$ sur $I$ vérifie $F'(x)=f(x)$ pour tout $x$ dans $I$. Toute fonction continue sur un intervalle admet des primitives.",
+    "Si $F_0$ est une primitive de $f$, alors toutes ses primitives sont de la forme $F(x)=F_0(x)+C$, où $C$ est une constante arbitraire.",
+    "Le tableau des primitives des fonctions de référence est fondamental. Il se déduit du tableau des dérivées.",
+    "Pour une combinaison linéaire $\\\\lambda f + \\\\mu g$, une primitive est $\\\\lambda F + \\\\mu G$ (linéarité).",
+    "Les formules les plus utiles sont celles de la forme $\\\\int u'(x) f(u(x)) dx = F(u(x))$, où $F$ est primitive de $f$ (ex : $\\\\int u' e^u$, $\\\\int \\\\frac{u'}{u}$, $\\\\int u' u^{\\\\alpha}$).",
+    "Pour trouver la primitive unique vérifiant $F(x_0)=y_0$, on détermine d'abord la forme générale $F(x)+C$, puis on calcule $C$ à l'aide de la condition initiale.",
+    "La primitive est l'outil de base pour résoudre des équations différentielles simples (comme $y'=f(x)$) et pour le calcul intégral (théorème fondamental)."
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Une primitive de la fonction nulle $f(x)=0$ sur $\\\\mathbb{R}$ est :",
+      "options": [
+        "$x$",
+        "$0$",
+        "$1$",
+        "Toute fonction constante"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Si $F$ et $G$ sont deux primitives d'une même fonction $f$ sur un intervalle $I$, alors :",
+      "options": [
+        "$F=G$",
+        "$F-G$ est constante",
+        "$F+G$ est constante",
+        "$F \\\\times G$ est constante"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Une primitive de $f(x)=3x^2$ est :",
+      "options": [
+        "$x^3$",
+        "$6x$",
+        "$x^3+5$",
+        "$\\\\frac{x^3}{3}$"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "La primitive $F$ de $f(x)=\\\\frac{1}{x}$ sur $]0,+\\\\infty[$ telle que $F(1)=0$ est :",
+      "options": [
+        "$F(x)=\\\\ln x$",
+        "$F(x)=\\\\ln x +1$",
+        "$F(x)=\\\\ln(x+1)$",
+        "$F(x)=\\\\frac{1}{x^2}$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Une primitive de $g(x)=2x e^{x^2}$ est :",
+      "options": [
+        "$e^{x^2}$",
+        "$2e^{x^2}$",
+        "$x^2 e^{x^2}$",
+        "$\\\\frac{1}{2}e^{x^2}$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "L'ensemble des primitives de $h(x)=\\\\cos(3x)$ est :",
+      "options": [
+        "$\\\\sin(3x)+C$",
+        "$\\\\frac{1}{3}\\\\sin(3x)+C$",
+        "$-\\\\frac{1}{3}\\\\sin(3x)+C$",
+        "$3\\\\sin(3x)+C$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Pour calculer $\\\\int \\\\frac{\\\\cos x}{\\\\sin x} dx$ (pour $\\\\sin x>0$), on utilise la forme :",
+      "options": [
+        "$u' e^u$",
+        "$\\\\frac{u'}{u}$",
+        "$u' u^{\\\\alpha}$",
+        "$u' \\\\cos u$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "La fonction $f(x)=\\\\frac{1}{x}$ admet-elle des primitives sur $\\\\mathbb{R}^*$ ?",
+      "options": [
+        "Oui, $\\\\ln|x|$",
+        "Non, car elle n'est pas continue en 0",
+        "Oui, mais seulement sur $]0,+\\\\infty[$",
+        "Non, car elle n'est pas définie en 0"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Si $F(x)=x\\\\ln x - x$ est une primitive de $\\\\ln x$, alors $\\\\int (2\\\\ln x + 1) dx$ vaut :",
+      "options": [
+        "$2x\\\\ln x - 2x + x + C$",
+        "$2x\\\\ln x - x + C$",
+        "$x\\\\ln x - x + C$",
+        "$2x\\\\ln x - 2x + C$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q10",
+      "type": "mcq",
+      "prompt": "Pour trouver la primitive $F$ de $f(x)=e^{2x}$ avec $F(0)=3$, on trouve :",
+      "options": [
+        "$F(x)=\\\\frac{e^{2x}}{2}+3$",
+        "$F(x)=e^{2x}+2$",
+        "$F(x)=\\\\frac{e^{2x}}{2}+\\\\frac{5}{2}$",
+        "$F(x)=2e^{2x}+1$"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q11",
+      "type": "mcq",
+      "prompt": "Primitive de $f(x)=4x^3$ :",
+      "options": [
+        "$x^4$",
+        "$12x^2$",
+        "$x^4+C$",
+        "$4x^4+C$"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q12",
+      "type": "mcq",
+      "prompt": "Si $F$ et $G$ primitives de même $f$, alors :",
+      "options": [
+        "$F=G$",
+        "$F'=G'$",
+        "$F-G$ constante",
+        "$F+G$ constante"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q13",
+      "type": "mcq",
+      "prompt": "Primitive de $1/x$ sur $]0,+\\\\infty[$ :",
+      "options": [
+        "$\\\\ln x$",
+        "$1/x^2$",
+        "$e^x$",
+        "$\\\\sqrt{x}$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q14",
+      "type": "mcq",
+      "prompt": "$\\\\int\\\\cos x\\\\,dx$ =",
+      "options": [
+        "$\\\\sin x+C$",
+        "$-\\\\sin x+C$",
+        "$-\\\\cos x+C$",
+        "$\\\\cos x+C$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q15",
+      "type": "mcq",
+      "prompt": "Primitive de $e^{-2x}$ :",
+      "options": [
+        "$e^{-2x}$",
+        "$-2e^{-2x}$",
+        "$-\\\\frac{1}{2}e^{-2x}$",
+        "$\\\\frac{1}{2}e^{-2x}$"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q16",
+      "type": "mcq",
+      "prompt": "$f(x)=3x^2$, $F(1)=2$, alors $F(0)$ vaut :",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q17",
+      "type": "mcq",
+      "prompt": "Primitive de $\\\\frac{2x}{x^2+1}$ :",
+      "options": [
+        "$\\\\ln(x^2+1)$",
+        "$\\\\frac{2}{x^2+1}$",
+        "$\\\\arctan(x)$",
+        "$\\\\frac{1}{x^2+1}$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q18",
+      "type": "mcq",
+      "prompt": "$f'(x)=\\\\sin x$, $f(0)=1$, alors $f(x)$ :",
+      "options": [
+        "$\\\\cos x+1$",
+        "$-\\\\cos x+2$",
+        "$-\\\\cos x+1$",
+        "$\\\\sin x+1$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q19",
+      "type": "mcq",
+      "prompt": "Pour $x>0$, primitive de $x^{-1/2}$ :",
+      "options": [
+        "$2\\\\sqrt{x}$",
+        "$\\\\frac{1}{2\\\\sqrt{x}}$",
+        "$-\\\\frac{1}{2}x^{-3/2}$",
+        "$\\\\sqrt{x}$"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q20",
+      "type": "mcq",
+      "prompt": "Dérivée de $F(x)=\\\\frac{1}{3}\\\\sin(3x)$ :",
+      "options": [
+        "$\\\\sin(3x)$",
+        "$\\\\cos(3x)$",
+        "$3\\\\cos(3x)$",
+        "$\\\\frac{1}{3}\\\\cos(3x)$"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

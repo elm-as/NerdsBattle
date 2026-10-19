@@ -1,0 +1,136 @@
+{
+  "id": "allemand-quatrieme-le-parfait-perfekt-parler-au-passe",
+  "title": "Le parfait (Perfekt) - Parler au passé",
+  "summary": "Comment raconter ce qu'on a fait ?",
+  "lesson": "# Le parfait (Perfekt)\n\n## Qu'est-ce que le parfait ?\n\nLe parfait est le temps du **passé parlé** en allemand. On l'utilise pour raconter ce qu'on a fait.\n\n**Formation :** haben/sein (conjugué) + ... + participe passé (à la fin)\n\n## Formation du participe passé\n\n### Verbes réguliers\n**Schéma :** ge- + racine + -t\n\n| Infinitif | Participe passé |\n|-----------|-----------------|\n| machen | **ge**mach**t** |\n| lernen | **ge**lern**t** |\n| spielen | **ge**spiel**t** |\n| kaufen | **ge**kauf**t** |\n\n### Verbes irréguliers\n**Schéma :** ge- + racine modifiée + -en\n\n| Infinitif | Participe passé |\n|-----------|-----------------|\n| gehen | **ge**gang**en** |\n| kommen | **ge**komm**en** |\n| sehen | **ge**seh**en** |\n| essen | **ge**gess**en** |\n| trinken | **ge**trunk**en** |\n\n### Exceptions importantes\n\n**Verbes en -ieren** (pas de ge-) :\n- studieren → studier**t**\n- telefonieren → telefonier**t**\n\n**Verbes à particule séparable :**\n- aufmachen → **auf**ge**macht**\n- einkaufen → **ein**ge**kauft**\n\n## Haben ou sein ?\n\n### Avec HABEN (la majorité)\n\nUtilisé avec la plupart des verbes :\n\n**Exemples :**\n- Ich **habe** Fußball **gespielt**. (J'ai joué au foot.)\n- Er **hat** ein Buch **gekauft**. (Il a acheté un livre.)\n- Wir **haben** viel **gelernt**. (Nous avons beaucoup appris.)\n\n### Avec SEIN\n\nUtilisé avec :\n1. Les verbes de **déplacement** (gehen, fahren, kommen...)\n2. Les verbes de **changement d'état** (werden, wachsen...)\n3. Les verbes **sein** et **bleiben**\n\n**Exemples :**\n- Ich **bin** nach Hause **gegangen**. (Je suis allé à la maison.)\n- Er **ist** nach Abidjan **gefahren**. (Il est allé à Abidjan.)\n- Sie **ist** groß **geworden**. (Elle est devenue grande.)\n- Wir **sind** zu Hause **geblieben**. (Nous sommes restés à la maison.)\n\n## Structure de la phrase\n\n**Schéma :** Sujet + haben/sein + ... + participe passé\n\n**Exemples :**\n- Ich **habe** gestern Fußball **gespielt**.\n- Er **ist** um 8 Uhr **gekommen**.\n- Wir **haben** ein Eis **gegessen**.\n\n## Participes passés courants à mémoriser\n\n| Infinitif | Participe | Auxiliaire | Traduction |\n|-----------|-----------|------------|------------|\n| sein | gewesen | sein | être |\n| haben | gehabt | haben | avoir |\n| gehen | gegangen | sein | aller |\n| kommen | gekommen | sein | venir |\n| fahren | gefahren | sein | rouler |\n| essen | gegessen | haben | manger |\n| trinken | getrunken | haben | boire |\n| sehen | gesehen | haben | voir |\n| lesen | gelesen | haben | lire |\n| schreiben | geschrieben | haben | écrire |",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Parfait = passé parlé (haben/sein + participe passé)",
+    "Réguliers : ge- + racine + -t (gemacht, gelernt)",
+    "Irréguliers : ge- + racine modifiée + -en (gegangen, gegessen)",
+    "sein pour les déplacements et changements d'état"
+  ],
+  "exercise": {
+    "answer": "1) Ich habe Fußball gespielt. 2) Er ist nach Hause gegangen. 3) Wir haben Pizza gegessen.",
+    "question": "Mets au parfait : 1) Ich spiele Fußball. 2) Er geht nach Hause. 3) Wir essen Pizza."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 0,
+      "prompt": "Quel est le participe passé de 'machen' ?",
+      "options": [
+        "gemacht",
+        "gemachen",
+        "macht",
+        "machen"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Quel auxiliaire utilise-t-on avec 'gehen' ?",
+      "options": [
+        "haben",
+        "sein",
+        "werden",
+        "les deux"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Complète : Ich ___ ein Buch ___. (lesen)",
+      "options": [
+        "bin ... gelesen",
+        "habe ... gelesen",
+        "habe ... lesen",
+        "bin ... lesen"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Quel est le participe passé de 'essen' ?",
+      "options": [
+        "geesst",
+        "geessen",
+        "gegessen",
+        "esst"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-allemand-2-mv9fkho1",
+      "type": "mcq",
+      "answer": 0,
+      "prompt": "Complétez la phrase avec la forme correcte du Perfekt : 'Wir ___ gestern im Supermarkt ___ (einkaufen).'",
+      "options": [
+        "haben ... eingekauft",
+        "sind ... eingekauft",
+        "haben ... einkaufen",
+        "sind ... einkaufen"
+      ],
+      "explanation": "Le verbe 'einkaufen' est un verbe à particule séparable. Au Perfekt, la particule 'ein' s'insère entre 'ge' et la racine, formant 'eingekauft'. Comme 'einkaufen' exprime une action et non un changement d'état ou un déplacement, on utilise l'auxiliaire 'haben'. La phrase complète est : 'Wir haben gestern im Supermarkt eingekauft.'"
+    },
+    {
+      "id": "auto-allemand-1-mv9ft1vd",
+      "type": "mcq",
+      "prompt": "Quel est le participe passé correct du verbe 'telefonieren' dans une phrase au Perfekt ?",
+      "options": [
+        "getelefoniert",
+        "telefoniert",
+        "ge-telefoniert",
+        "telefonieren"
+      ],
+      "answer": 1,
+      "explanation": "Les verbes se terminant par '-ieren' forment leur participe passé sans le préfixe 'ge-'. Le schéma est simplement la racine + '-t'. Donc, 'telefonieren' devient 'telefoniert'."
+    },
+    {
+      "id": "auto-allemand-2-mv9ft1vd",
+      "type": "mcq",
+      "prompt": "Dans la phrase 'Er ist gestern nach Berlin ___ (fahren)', quel est le participe passé correct et pourquoi ?",
+      "options": [
+        "gefahren, car 'fahren' est un verbe de mouvement qui utilise 'sein'",
+        "gefahren, car 'fahren' est un verbe régulier",
+        "gefahren, car tous les verbes au passé utilisent 'haben'",
+        "fahren, car le participe passé n'est pas conjugué"
+      ],
+      "answer": 0,
+      "explanation": "Le verbe 'fahren' (aller/rouler) exprime un changement de lieu. Les verbes de mouvement et d'état qui impliquent un changement de lieu ou d'état utilisent l'auxiliaire 'sein'. Le participe passé de 'fahren' est 'gefahren' (verbe irrégulier : ge- + fahr + en)."
+    },
+    {
+      "id": "auto-allemand-4-mv9ft1vd",
+      "type": "mcq",
+      "prompt": "Complétez la phrase : 'Wir haben gestern einen Film ___ (sehen).'",
+      "options": [
+        "gesehen",
+        "gesieht",
+        "gesehn",
+        "sehen"
+      ],
+      "answer": 0,
+      "explanation": "Le verbe 'sehen' est un verbe irrégulier. Sa forme au participe passé suit le schéma 'ge- + racine modifiée + -en'. La racine de 'sehen' est 'seh', qui devient 'geseh' au participe passé, suivi de '-en'. Donc, 'gesehen' est la forme correcte."
+    },
+    {
+      "id": "auto-allemand-5-mv9ft1ve",
+      "type": "mcq",
+      "prompt": "Pourquoi utilise-t-on l'auxiliaire 'haben' avec le verbe 'kaufen' dans la phrase 'Ich habe ein Buch gekauft' ?",
+      "options": [
+        "Parce que 'kaufen' est un verbe de mouvement.",
+        "Parce que 'kaufen' est un verbe transitif qui ne marque pas de changement d'état ou de lieu.",
+        "Parce que 'kaufen' est un verbe irrégulier.",
+        "Parce que tous les verbes d'action utilisent 'haben'."
+      ],
+      "answer": 1,
+      "explanation": "L'auxiliaire 'sein' est réservé aux verbes de mouvement (changement de lieu) et aux verbes indiquant un changement d'état (comme 'werden', 'bleiben', 'aufstehen'). 'Kaufen' (acheter) est un verbe transitif qui ne implique ni déplacement ni changement d'état de la personne, donc on utilise l'auxiliaire 'haben'."
+    }
+  ]
+}

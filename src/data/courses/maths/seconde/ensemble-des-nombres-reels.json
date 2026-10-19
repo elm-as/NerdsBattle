@@ -1,0 +1,96 @@
+{
+  "id": "maths-seconde-ensemble-des-nombres-reels",
+  "title": "Ensemble des nombres réels",
+  "summary": "En économie, on utilise les nombres réels pour modéliser des grandeurs continues. Comment les classer ?",
+  "lesson": "## Les ensembles de nombres\n\n### Hiérarchie\n- ℕ : nombres naturels {0, 1, 2, 3, ...}\n- ℤ : nombres entiers relatifs {..., -2, -1, 0, 1, 2, ...}\n- ℚ : nombres rationnels (fractions)\n- ℝ : nombres réels (tous les nombres)\n\n### Intervalles\n- [a ; b] : fermé (inclut a et b)\n- ]a ; b[ : ouvert (exclut a et b)\n- [a ; b[ : semi-ouvert\n\n### Valeur absolue\n|x| = distance de x à 0 sur la droite des réels",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ",
+    "Intervalles : notation et représentation",
+    "Valeur absolue : toujours positive"
+  ],
+  "exercise": {
+    "question": "Écris en extension l'intervalle [−3 ; 5[ ∩ ℤ",
+    "answer": "\n**Solution :**\nEntiers dans [−3 ; 5[ : {-3, -2, -1, 0, 1, 2, 3, 4}\n\n**Réponse : {-3, -2, -1, 0, 1, 2, 3, 4}**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel ensemble contient √2 ?",
+      "options": [
+        "ℕ",
+        "ℤ",
+        "ℚ",
+        "ℝ"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "|−5| = ?",
+      "options": [
+        "-5",
+        "0",
+        "5",
+        "10"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle est la définition d'un nombre rationnel ?",
+      "options": [
+        "Nombre avec décimales infinies",
+        "Nombre qui peut s'écrire a/b avec b≠0",
+        "Nombre entier positif",
+        "Nombre négatif"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Comment résout-on |x-5|=2 ?",
+      "options": [
+        "x = 5 seulement",
+        "x = 7 seulement",
+        "x = 7 ou x = 3",
+        "x = 2 ou x = -2"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Quelle technique utilise-t-on pour prouver que √2 est irrationnel ?",
+      "options": [
+        "Raisonnement direct",
+        "Raisonnement par récurrence",
+        "Raisonnement par l'absurde",
+        "Raisonnement par contraposée"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Si A = {1000, 1500, 2000} FCFA (salaires), quel est un majorant ?",
+      "options": [
+        "500",
+        "1500",
+        "2000",
+        "2500"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

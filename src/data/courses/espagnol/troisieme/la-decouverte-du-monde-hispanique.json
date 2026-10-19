@@ -1,0 +1,71 @@
+{
+  "id": "espagnol-troisieme-la-decouverte-du-monde-hispanique",
+  "title": "La découverte du monde hispanique",
+  "summary": "Dans un quartier de Treichville, des élèves du Lycée Moderne regardent à la télévision un documentaire sur les pays qui parlent l'Espagnol. Ce documentaire suscite la curiosité des élèves. Dans la classe de 3ème 2 du Lycée, les élèves qui apprennent l'Espagnol reviennent sur ce documentaire. À l'aide des cartes du livre d'espagnol ils citent ces pays et les repèrent.",
+  "lesson": "## El mundo hispánico (Le monde hispanique)\n\n### L'Espagne (España)\nL'Espagne est située en **Europe du Sud**, dans la péninsule ibérique. C'est le berceau de la langue espagnole.\n\n**Informations clés :**\n- Capitale : **Madrid**\n- Langue officielle : **Español (Castillan)**\n- Monnaie : **Euro (€)**\n- Population : environ 47 millions d'habitants\n\n### Les pays de l'Amérique hispanique\n\nL'espagnol est parlé dans **19 pays d'Amérique** :\n\n**Amérique du Nord :**\n- **México** (Mexique) - Capitale : Ciudad de México\n\n**Amérique Centrale :**\n- **Guatemala** - Capitale : Ciudad de Guatemala\n- **Honduras** - Capitale : Tegucigalpa\n- **El Salvador** - Capitale : San Salvador\n- **Nicaragua** - Capitale : Managua\n- **Costa Rica** - Capitale : San José\n- **Panamá** - Capitale : Ciudad de Panamá\n\n**Caraïbes :**\n- **Cuba** - Capitale : La Habana\n- **República Dominicana** - Capitale : Santo Domingo\n- **Puerto Rico** (territoire américain)\n\n**Amérique du Sud :**\n- **Venezuela** - Capitale : Caracas\n- **Colombia** - Capitale : Bogotá\n- **Ecuador** - Capitale : Quito\n- **Perú** - Capitale : Lima\n- **Bolivia** - Capitales : La Paz / Sucre\n- **Chile** - Capitale : Santiago\n- **Argentina** - Capitale : Buenos Aires\n- **Uruguay** - Capitale : Montevideo\n- **Paraguay** - Capitale : Asunción\n\n### Le pays hispanophone d'Afrique\n\n**Guinea Ecuatorial** (Guinée Équatoriale) est le seul pays africain où l'espagnol est langue officielle.\n- Capitale : **Malabo**\n- Située dans le Golfe de Guinée\n- Ancienne colonie espagnole\n\n### La prononciation espagnole\n\n**Lettres et sons particuliers :**\n\n| Lettre | Prononciation | Exemple |\n|--------|---------------|---------|\n| **J** | \"rota\" (comme le \"r\" roulé français raclé) | jamón, José |\n| **LL** | \"y\" comme dans \"yoga\" | calle, llamar |\n| **Ñ** | \"gn\" comme dans \"montagne\" | España, niño |\n| **Z** | \"s\" en Amérique / \"th\" en Espagne | zapato, plaza |\n| **C** (devant e, i) | \"s\" en Amérique / \"th\" en Espagne | cielo, cena |\n| **H** | Muet (ne se prononce pas) | hola, hijo |\n| **R** | Roulé | pero, caro |\n| **RR** | Fortement roulé | perro, carro |\n| **V** | Prononcé comme \"b\" | vaca, vino |\n\n### Vocabulaire géographique\n\n- **el país** - le pays\n- **la capital** - la capitale\n- **el continente** - le continent\n- **la isla** - l'île\n- **la península** - la péninsule\n- **el océano** - l'océan\n- **el mar** - la mer\n- **la frontera** - la frontière\n- **hispanohablante** - hispanophone",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "L'espagnol est parlé dans 21 pays : l'Espagne, 19 pays d'Amérique et la Guinée Équatoriale",
+    "La Guinée Équatoriale est le seul pays hispanophone d'Afrique",
+    "Les sons particuliers : J (rota), LL (y), Ñ (gn), H (muet), RR (fortement roulé)",
+    "Plus de 500 millions de personnes parlent espagnol dans le monde"
+  ],
+  "exercise": {
+    "question": "Cite 5 pays hispanophones d'Amérique du Sud avec leurs capitales, puis écris une phrase en espagnol pour présenter chacun.",
+    "answer": "1. Argentina - Buenos Aires : Argentina es un país grande en América del Sur. Su capital es Buenos Aires.\n2. Colombia - Bogotá : Colombia está en el norte de América del Sur. La capital es Bogotá.\n3. Perú - Lima : Perú tiene una historia muy rica. Lima es la capital.\n4. Chile - Santiago : Chile es un país largo y estrecho. Su capital es Santiago.\n5. Venezuela - Caracas : Venezuela está cerca del mar Caribe. Caracas es la capital."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quel est le seul pays hispanophone d'Afrique ?",
+      "options": [
+        "Maroc",
+        "Guinée Équatoriale",
+        "Sénégal",
+        "Côte d'Ivoire"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Comment se prononce la lettre 'Ñ' en espagnol ?",
+      "options": [
+        "Comme le 'n' français",
+        "Comme 'gn' dans 'montagne'",
+        "Comme 'ni'",
+        "Elle ne se prononce pas"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelle est la capitale de l'Espagne ?",
+      "options": [
+        "Barcelona",
+        "Sevilla",
+        "Madrid",
+        "Valencia"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "La lettre 'H' en espagnol est :",
+      "options": [
+        "Aspirée",
+        "Muette",
+        "Prononcée comme 'j'",
+        "Prononcée comme 'r'"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

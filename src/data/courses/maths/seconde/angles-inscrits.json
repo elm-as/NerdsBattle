@@ -1,0 +1,71 @@
+{
+  "id": "maths-seconde-angles-inscrits",
+  "title": "Angles inscrits",
+  "summary": "Lors d'un concours de mathématiques à Yamoussoukro, une question intrigante est posée : 'Détermine l'ensemble des points M du plan tels que mes(AMB) = 60°, où A et B sont deux points fixes.' Les élèves découvrent qu'il s'agit de deux arcs de cercle appelés 'arcs capables'. Ils décident d'étudier les propriétés des angles inscrits pour résoudre ce problème et l'appliquer à des situations concrètes comme l'implantation de bâtiments ou l'optimisation de terrains.",
+  "lesson": "## Angles inscrits\n\n### 1. Définitions fondamentales\n\n**Angle inscrit** : Angle dont le sommet est sur le cercle et dont les côtés coupent le cercle.\n\n**Angle au centre** : Angle dont le sommet est le centre du cercle.\n\n**Arc intercepté** : Partie du cercle comprise entre les côtés de l'angle.\n\n### 2. Relation angle inscrit / angle au centre\n\n**Théorème fondamental** :\nLa mesure d'un angle inscrit est égale à la moitié de la mesure de l'angle au centre qui intercepte le même arc.\n\nSi Â est un angle inscrit interceptant l'arc BC,\net si O est le centre du cercle,\nalors Â = \\(\\frac{1}{2}\\) Ô où Ô est l'angle au centre interceptant le même arc BC.\n\n**Conséquence immédiate** :\nTous les angles inscrits interceptant le même arc sont égaux.\n\n### 3. Cas particuliers\n\n**a) Angle inscrit qui intercepte un diamètre** :\nSi [AB] est un diamètre, et M sur le cercle (M≠A,B),\nalors l'angle AMB est droit.\nAMB = 90°\n\n**Démonstration** : L'angle au centre AOB = 180° (angle plat)\nDonc AMB = 180°/2 = 90°\n\n**b) Angle formé par une corde et une tangente** :\nSi T est le point de tangence,\net si [AT] est la tangente au cercle en T,\nalors l'angle entre la corde [TB] et la tangente [AT] est égal à tout angle inscrit interceptant l'arc TB.\n\n### 4. Arcs capables\n\n**Définition** : Étant donné un segment [AB] et un angle α,\nl'ensemble des points M tels que AMB = α est la réunion de deux arcs de cercle symétriques par rapport à (AB).\n\nCes arcs sont appelés **arcs capables** de l'angle α sous-tendu par [AB].\n\n**Construction** :\n1. Tracer la médiatrice de [AB]\n2. Construire l'angle α en A avec [AB)\n3. Tracer la perpendiculaire en A à ce nouveau côté\n4. L'intersection avec la médiatrice donne le centre O du cercle\n5. Tracer le cercle de centre O passant par A (et B)\n6. L'arc capable est l'arc ne contenant pas A et B (ou son symétrique)\n\n### 5. Théorème des sinus\n\nDans un triangle ABC :\n\\(\\frac{a}{\\sin\\hat{A}} = \\frac{b}{\\sin\\hat{B}} = \\frac{c}{\\sin\\hat{C}} = 2R\\)\noù R est le rayon du cercle circonscrit.\n\n**Démonstration** :\nConsidérons le cercle circonscrit au triangle ABC.\nSoit O le centre, R le rayon.\nL'angle au centre AOB = 2Ĉ (angle inscrit/théorème)\nDans le triangle isocèle AOB, avec la trigonométrie :\nAB = 2R×sin(Ĉ) = c\nDonc c/sinĈ = 2R\n\n### 6. Aire d'un triangle\n\n**Formules** :\n1. A = \\(\\frac{1}{2}\\) × base × hauteur\n2. A = \\(\\frac{1}{2}\\) × ab × sinĈ\n3. A = \\(\\frac{1}{2}\\) × bc × sinÂ\n4. A = \\(\\frac{1}{2}\\) × ac × sinB̂\n\n**Formule de Héron** (hors programme mais utile) :\nA = √[p(p-a)(p-b)(p-c)] où p = demi-périmètre\n\n### 7. Quadrilatères inscriptibles\n\n**Théorème** : Un quadrilatère est inscriptible dans un cercle si et seulement si ses angles opposés sont supplémentaires.\n\nABCD inscriptible ⇔ Â + Ĉ = 180° et B̂ + D̂ = 180°\n\n**Cas particulier** : Losange, carré, rectangle sont inscriptibles.\n\n### 8. Angle inscrit et bissectrice\n\n**Propriété** : La bissectrice d'un angle inscrit passe par le milieu de l'arc intercepté (qui ne contient pas le sommet de l'angle).\n\n### 9. Applications pratiques\n\n**a) Topographie** : Déterminer la position d'un point connaissant les angles sous lesquels on voit deux autres points.\n**b) Architecture** : Construire des arcs, des voûtes.\n**c) Navigation** : Triangulation pour déterminer une position.\n**d) Astronomie** : Mesurer des distances angulaires.\n\n### 10. Construction d'arcs capables\n\n**Méthode pratique** :\nPour construire l'arc capable de l'angle α sous-tendu par [AB] :\n1. Tracer le segment [AB]\n2. Construire en A l'angle α avec [AB) comme premier côté\n3. Tracer la perpendiculaire en A à ce deuxième côté\n4. Tracer la médiatrice de [AB]\n5. L'intersection des deux droites est le centre O du cercle\n6. Tracer le cercle de centre O passant par A et B\n7. L'arc capable est l'arc d'extrémités A et B ne contenant pas le sommet de l'angle α\n\n### 11. Exemples numériques\n\n**Exemple 1** : Cercle de centre O, angle inscrit AMB = 35° interceptant l'arc AB.\nAlors l'angle au centre AOB = 2×35° = 70°.\n\n**Exemple 2** : Dans un triangle ABC, si Â=50°, B̂=70°, alors Ĉ=60° (somme=180°).\nSi le côté opposé à Â (a=BC) mesure 10cm, alors avec le théorème des sinus :\n10/sin50° = b/sin70° = c/sin60° = 2R\n10/sin50° ≈ 10/0.766 ≈ 13.05\nDonc b ≈ 13.05×sin70° ≈ 13.05×0.94 ≈ 12.27cm\nc ≈ 13.05×sin60° ≈ 13.05×0.866 ≈ 11.30cm\nR ≈ 13.05/2 = 6.525cm\n\n### 12. Exercice type : Problème de construction\n\n**Énoncé** : A et B sont deux points distants de 6cm. Construire l'ensemble des points M tels que AMB=45°.\n\n**Solution** :\n1. Tracer [AB] de 6cm\n2. En A, construire un angle de 45° avec [AB)\n3. Tracer la perpendiculaire en A à ce côté\n4. Tracer la médiatrice de [AB]\n5. L'intersection est O centre du cercle\n6. Tracer le cercle de centre O passant par A et B\n7. Les arcs capables sont les deux arcs d'extrémités A et B\n\n### 13. Angle inscrit défini par une corde et une demi-tangente\n\n**Théorème** : L'angle entre une corde [AT] et la tangente au cercle en T est égal à tout angle inscrit interceptant l'arc AT.\n\n**Application** : Pour mesurer un angle inaccessible, on peut utiliser cette propriété avec une tangente.\n\n### 14. Utilisation en géométrie analytique\n\nÉquation des arcs capables :\nPour A(xA,yA), B(xB,yB), et α donné,\nl'équation des points M(x,y) tels que AMB=α est :\n\\(\\frac{(x-x_A)(x-x_B)+(y-y_A)(y-y_B)}{\\sqrt{(x-x_A)^2+(y-y_A)^2}\\sqrt{(x-x_B)^2+(y-y_B)^2}} = \\cos\\alpha\\)\n\n### 15. Applications en contexte ivoirien\n\n**Urbanisme** :\n- Implantation de bâtiments avec contraintes d'angle de vue\n- Planification de parcs et espaces verts\n\n**Agriculture** :\n- Délimitation de parcelles avec des contraintes angulaires\n- Implantation de systèmes d'irrigation\n\n**Architecture** :\n- Conception d'arcs et de voûtes\n- Calcul des portées\n\n**Sport** :\n- Trajectoire optimale pour un lancer\n- Positionnement des joueurs\n\n### 16. Problèmes classiques\n\n**a) Problème du phare** : Deux observateurs voient un phare sous des angles donnés. Déterminer la position du phare.\n**b) Problème du champ** : Déterminer la position optimale pour un point d'eau équidistant de trois champs.\n**c) Problème de visibilité** : Déterminer les zones visibles depuis un point donné.\n\n### 17. Démonstrations importantes\n\n**Démonstration du théorème angle inscrit/angle au centre** :\nCas 1 : O centre à l'intérieur de l'angle inscrit\nCas 2 : O centre à l'extérieur\nCas 3 : O centre sur un côté\n\n**Démonstration du théorème des sinus** :\nVia le cercle circonscrit et la relation angle inscrit/angle au centre.\n\n### 18. Extensions\n\n**Angles de segments** : Angle formé par une corde et la tangente à une extrémité.\n**Polygones réguliers** : Tous les angles au centre sont égaux.\n**Puissance d'un point par rapport à un cercle** : (hors programme mais lié)\n\n### 19. Erreurs fréquentes\n\n- Confondre angle inscrit et angle au centre\n- Oublier que l'angle inscrit vaut la MOITIÉ de l'angle au centre\n- Ne pas identifier correctement l'arc intercepté\n- Utiliser le mauvier arc capable dans les constructions\n\n### 20. Synthèse\n\nLes angles inscrits permettent :\n- De résoudre des problèmes de construction\n- De calculer des angles inaccessibles\n- D'établir des relations métriques dans les triangles\n- De modéliser des situations réelles avec des contraintes angulaires\n\nIls relient la géométrie du cercle à la trigonométrie via le théorème des sinus.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Angle inscrit = ½ angle au centre même arc",
+    "Angle inscrit sur diamètre = 90°",
+    "Théorème des sinus : a/sinÂ = b/sinB̂ = c/sinĈ = 2R",
+    "Arcs capables : ensemble des M avec AMB constant"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Angle inscrit interceptant un diamètre mesure :",
+      "options": [
+        "45°",
+        "90°",
+        "180°",
+        "60°"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Si angle inscrit = 40°, angle au centre même arc =",
+      "options": [
+        "20°",
+        "40°",
+        "80°",
+        "160°"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Théorème des sinus : a/sinÂ =",
+      "options": [
+        "b/sinB̂",
+        "R",
+        "2R",
+        "c/sinĈ"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Arcs capables : ensemble des M avec",
+      "options": [
+        "MA=MB",
+        "AMB constant",
+        "M sur médiatrice",
+        "M sur cercle"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

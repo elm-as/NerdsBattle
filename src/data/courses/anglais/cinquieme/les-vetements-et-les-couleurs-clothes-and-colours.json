@@ -1,0 +1,58 @@
+{
+  "id": "anglais-cinquieme-les-vetements-et-les-couleurs-clothes-and-colours",
+  "title": "Les vêtements et les couleurs (Clothes and colours)",
+  "summary": "En visite à Takoradi (Ghana), un groupe d'élèves de 5ème du Lycée Moderne d'Aboisso écoute un commerçant ghanéen pour s'enquérir des prix des vêtements en vue d'en acheter.",
+  "lesson": "## Clothes and Colours - Vêtements et couleurs\n\n### Les vêtements (Clothes)\n\n**Vêtements du haut :**\n- shirt - la chemise\n- T-shirt - le T-shirt\n- blouse - le chemisier\n- sweater / jumper - le pull\n- jacket - la veste\n\n**Vêtements du bas :**\n- trousers / pants - le pantalon\n- jeans - le jean\n- skirt - la jupe\n- shorts - le short\n\n**Autres vêtements :**\n- dress - la robe\n- coat - le manteau\n- shoes - les chaussures\n- sandals - les sandales\n- boots - les bottes\n- socks - les chaussettes\n- hat - le chapeau\n- cap - la casquette\n\n### Les couleurs (Colours)\n\n**Couleurs de base :**\n- red - rouge\n- blue - bleu\n- yellow - jaune\n- green - vert\n- orange - orange\n- purple - violet\n- pink - rose\n- brown - marron\n- black - noir\n- white - blanc\n- grey - gris\n\n### Décrire ce qu'on porte\n\n**Structure : wear (porter)**\n\n- I wear a shirt. - Je porte une chemise.\n- She wears a dress. - Elle porte une robe.\n- They wear uniforms. - Ils portent des uniformes.\n\n**Avec les couleurs :**\n- I wear a **red** shirt. - Je porte une chemise rouge.\n- She wears **blue** jeans. - Elle porte un jean bleu.\n\n### Acheter des vêtements\n\n**Questions du client :**\n- How much is this shirt? - Combien coûte cette chemise ?\n- Do you have this in blue? - Avez-vous ceci en bleu ?\n- Can I try it on? - Puis-je l'essayer ?\n\n**Réponses du vendeur :**\n- It costs 5000 francs. - Ça coûte 5000 francs.\n- Yes, we have it in blue. - Oui, nous l'avons en bleu.\n- Of course, the fitting room is here. - Bien sûr, la cabine d'essayage est ici.\n\n### Tailles (Sizes)\n\n- small (S) - petit\n- medium (M) - moyen\n- large (L) - grand\n- extra large (XL) - très grand\n\n**Exemple de dialogue :**\n\"Good morning! I want to buy a shirt.\n- What colour do you want?\n- I want a blue shirt.\n- What size?\n- Medium, please.\n- Here you are. It costs 8000 francs.\"",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Vêtements: shirt, trousers, dress, shoes, jacket",
+    "Couleurs: red, blue, green, yellow, black, white",
+    "I wear... / She wears...",
+    "How much is...? / It costs..."
+  ],
+  "exercise": {
+    "question": "Traduis : 'Elle porte une jupe rouge et des chaussures noires. La jupe coûte 7000 francs.'",
+    "answer": "\n**Solution :**\nShe wears a red skirt and black shoes. The skirt costs 7000 francs.\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Comment dit-on 'chaussures' ?",
+      "options": [
+        "Socks",
+        "Boots",
+        "Shoes",
+        "Sandals"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quelle couleur est 'rouge' ?",
+      "options": [
+        "Blue",
+        "Red",
+        "Green",
+        "Yellow"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Comment demander le prix ?",
+      "options": [
+        "How much is it?",
+        "How many is it?",
+        "What is it?",
+        "Where is it?"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

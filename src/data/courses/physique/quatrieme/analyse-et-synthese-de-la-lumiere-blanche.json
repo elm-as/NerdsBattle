@@ -1,0 +1,138 @@
+{
+  "id": "physique-quatrieme-analyse-et-synthese-de-la-lumiere-blanche",
+  "title": "Analyse et synthèse de la lumière blanche",
+  "summary": "Un après-midi pluvieux et ensoleillé à Ferkessédougou, les élèves de 4ème 5 du Lycée Moderne observent un magnifique arc-en-ciel apparaître dans le ciel. Fascinés par ce spectacle coloré, ils cherchent à comprendre comment la lumière blanche du soleil peut se décomposer en autant de couleurs et comment on peut reconstituer cette lumière blanche à partir des couleurs observées.",
+  "lesson": "# Analyse et synthèse de la lumière blanche\n\n## Introduction\n\nLes couleurs qui embellissent notre environnement en Côte d'Ivoire – des verts luxuriants des forêts de Taï aux bleus profonds de l'océan à Grand-Bassam – résultent d'interactions complexes entre la lumière et la matière. Cette leçon dévoile les secrets de la lumière blanche et nous permet de comprendre des phénomènes aussi beaux que l'arc-en-ciel, fréquemment observable après les pluies dans nos régions.\n\n## I. La lumière blanche : composition\n\n### A. Découverte historique\n**Isaac Newton (1666)** : Premier à décomposer la lumière blanche avec un prisme.\n\n```mermaid\ngraph TD\n    A[Newton 1666] --> B[Expérience du prisme]\n    B --> C[Découverte du spectre]\n    C --> D[7 couleurs identifiées]\n    D --> E[Réfutation: lumière blanche pure]\n```\n\n### B. Nature de la lumière blanche\n\n**Définition** : La lumière blanche est une lumière **polychromatique** composée d'un continuum de couleurs.\n\n```mermaid\ngraph LR\n    A[Lumière blanche] --> B[Analyse]\n    B --> C[Spectre continu]\n    C --> D[Violet → Rouge]\n    \n    E[Lumière blanche] =\n    F[Superposition toutes couleurs]\n```\n\n## II. Analyse de la lumière blanche (dispersion)\n\n### A. Principe physique\n\n```mermaid\ngraph LR\n    A[Lumière blanche] --> B[Prisme]\n    B --> C[Dispersion]\n    C --> D[Diffraction]\n    \n    subgraph Explication\n        E[Indice réfraction variable]\n        F[Violet dévié plus]\n        G[Rouge dévié moins]\n    end\n```\n\n**Cause** : L'indice de réfraction du verre varie avec la longueur d'onde (loi de Cauchy).\n\n### B. Méthodes expérimentales\n\n#### 1. Avec un prisme\n```mermaid\ngraph TD\n    A[Source lumineuse] --> B[Fente]\n    B --> C[Prisme verre]\n    C --> D[Écran]\n    D --> E[Spectre continu]\n    \n    style A fill:#ffcc00\n    style E fill:#ccffff\n```\n\n**Protocole** :\n- Faire passer un fin faisceau de lumière blanche à travers un prisme\n- Projeter le spectre sur un écran blanc\n\n#### 2. Avec un réseau de diffraction\n**Principe** : Interférences constructives et destructives.\n\n#### 3. Avec un CD\n```mermaid\ngraph LR\n    A[CD/DVD] --> B[Micro-sillons]\n    B --> C[Réseau de diffraction naturel]\n    C --> D[Spectre coloré]\n    \n    E[Espacement sillons: 1,6 μm]\n    F[Idéal pour expériences scolaires]\n```\n\n#### 4. Avec un verre d'eau\n**Protocole simplifié** :\n- Placer un miroir dans un verre d'eau\n- Orienter pour projeter l'arc-en-ciel sur un mur\n\n### C. Ordre des couleurs\n\n```mermaid\ngraph LR\n    A[Violet] --> B[Indigo]\n    B --> C[Bleu]\n    C --> D[Vert]\n    D --> E[Jaune]\n    E --> F[Orange]\n    F --> G[Rouge]\n    \n    subgraph Mnémotechnique\n        H[VIBGYOR - anglais]\n        I[Victor Invente Bien<br>Grande Yourte Orange Rouge]\n    end\n```\n\n**Séquence complète** : Violet (400 nm), Indigo, Bleu, Vert, Jaune, Orange, Rouge (700 nm)\n\n## III. L'arc-en-ciel\n\n### A. Formation naturelle\n\n```mermaid\ngraph TD\n    A[Soleil bas] --> B[Gouttes d'eau sphériques]\n    B --> C[Réfraction entrante]\n    C --> D[Réflexion interne]\n    D --> E[Réfraction sortante]\n    E --> F[Dispersion]\n    F --> G[Arc-en-ciel]\n    \n    subgraph Angles\n        H[Arc principal: 42°]\n        I[Arc secondaire: 51°]\n    end\n```\n\n### B. Conditions optimales en Côte d'Ivoire\n1. **Saison des pluies** (mai à octobre)\n2. **Fin d'averse avec soleil**\n3. **Position** : Dos au soleil, face à la pluie\n\n### C. Double arc-en-ciel\n\n**Arc secondaire** :\n- Moins lumineux\n- Couleurs inversées (rouge à l'intérieur)\n- Deux réflexions dans les gouttes\n\n**Zone sombre d'Alexandre** : Bande sombre entre les deux arcs.\n\n## IV. Synthèse de la lumière blanche\n\n### A. Principe de la synthèse additive\n\n```mermaid\ngraph TD\n    A[Couleurs primaires additives] --> B[Rouge]\n    A --> C[Vert]\n    A --> D[Bleu]\n    \n    B --> E[Superposition]\n    C --> E\n    D --> E\n    E --> F[Lumière blanche]\n    \n    subgraph Couleurs secondaires\n        G[Rouge + Vert = Jaune]\n        H[Vert + Bleu = Cyan]\n        I[Bleu + Rouge = Magenta]\n    end\n```\n\n### B. Méthodes de synthèse\n\n#### 1. Disque de Newton\n\n```mermaid\ngraph LR\n    A[Disque 7 secteurs] --> B[Rotation rapide]\n    B --> C[Persistance rétinienne]\n    C --> D[Fusion couleurs]\n    D --> E[Perception blanc]\n    \n    F[Proportions Newton]\n    G[Non égales: jaune majoritaire]\n```\n\n**Fabrication** : Secteurs proportionnels à leur luminosité apparente.\n\n#### 2. Projection additive\n**Matériel** : 3 projecteurs avec filtres rouge, vert, bleu.\n\n### C. Applications technologiques\n\n```mermaid\ngraph TD\n    A[Applications RVB] --> B[Écrans LCD/LED]\n    A --> C[Photographie numérique]\n    A --> D[Éclairage scénique]\n    \n    B --> E[Télévisions Abidjan]\n    C --> F[Appareils photos]\n    D --> G[Palais Culture Abidjan]\n```\n\n## V. Rôle des filtres colorés\n\n### A. Principe de fonctionnement\n\n```mermaid\ngraph LR\n    A[Lumière blanche] --> B[Filtre coloré]\n    B --> C[Transmission sélective]\n    B --> D[Absorption sélective]\n    \n    subgraph Exemple filtre rouge\n        E[Transmet: rouge]\n        F[Absorbe: autres]\n    end\n```\n\n### B. Propriétés des filtres\n1. **Filtre rouge** : Transmet rouge, absorbe vert et bleu\n2. **Filtre vert** : Transmet vert, absorbe rouge et bleu\n3. **Filtre bleu** : Transmet bleu, absorbe rouge et vert\n\n### C. Applications pratiques\n\n**En Côte d'Ivoire** :\n- **Photographie** : Filtres pour paysages (renforcement des contrastes)\n- **Sécurité** : Lunettes de protection solaire\n- **Signalisation** : Feux tricolores\n\n## VI. Couleur des objets\n\n### A. Mécanisme fondamental\n\n```mermaid\ngraph TD\n    A[Lumière blanche] --> B[Objet]\n    B --> C[Absorption sélective]\n    B --> D[Diffusion/réflexion]\n    D --> E[Couleur perçue]\n    \n    subgraph Exemples\n        F[Feuille: absorbe rouge/bleu, diffuse vert]\n        G[Tomate: absorbe vert/bleu, diffuse rouge]\n        H[Ciel: diffusion Rayleigh bleue]\n    end\n```\n\n### B. Cas particuliers\n\n#### 1. Objet blanc\n- Diffuse toutes les couleurs\n- Exemple : Murs à la chaux des cases\n\n#### 2. Objet noir\n- Absorbe toutes les couleurs\n- Exemple : Asphalte des routes\n\n#### 3. Objet coloré\n- Absorbe certaines couleurs, en diffuse d'autres\n- Exemple : Boubous colorés des marchés\n\n### C. Métamérisme\n**Définition** : Un objet paraît de couleur différente selon l'éclairage.\n\n**Exemple pratique** :\n- Tissu acheté sous lumière fluorescente au marché d'Adjamé\n- Couleur différente à la lumière du jour\n\n## VII. Applications en Côte d'Ivoire\n\n### A. Industrie textile\n- Contrôle qualité des teintures\n- Reproduction fidèle des couleurs\n\n### B. Agriculture\n- Détection de maladies des plantes par couleur\n- Maturation des fruits (bananes, ananas)\n\n### C. Art et artisanat\n- Techniques de teinture traditionnelle (batik, tissage)\n- Conservation des œuvres d'art\n\n### D. Météorologie\n- Prévision via observation des couleurs du ciel\n- Arc-en-ciel comme indicateur de fin de pluie\n\n## VIII. Expériences pratiques\n\n### A. Fabrication d'un spectroscope\n\n**Matériel** : Boîte à chaussures, CD, fente en papier aluminium\n\n**Utilisation** : Analyser différentes sources lumineuses.\n\n### B. Comparaison de sources\n\n```mermaid\ngraph TD\n    A[Sources lumineuses] --> B[Soleil]\n    A --> C[Ampoule incandescente]\n    A --> D[Fluorescent]\n    A --> E[LED]\n    \n    B --> F[Spectre continu]\n    C --> F\n    D --> G[Raies mercure]\n    E --> H[Spectre étroit]\n```\n\n### C. Expérience du filtre\n**Observation** d'un objet coloré à travers différents filtres.\n\n## IX. Projet scientifique\n\n**Sujet** : « Étude des couchers de soleil à Abidjan »\n\n**Objectif** : Expliquer les couleurs rouges/oranges du coucher de soleil.\n\n**Explication** : Diffusion Rayleigh plus importante quand le soleil est bas.\n\n## Conclusion\n\nL'analyse et la synthèse de la lumière blanche révèlent la richesse cachée dans la lumière quotidienne. De l'arc-en-ciel qui suit nos averses tropicales aux écrans de nos téléphones, ces principes physiques trouvent des applications multiples dans notre vie en Côte d'Ivoire. Comprendre ces phénomènes, c'est apprendre à voir le monde avec un œil scientifique tout en appréciant sa beauté naturelle, particulièrement riche sous nos latitudes.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "La lumière blanche se compose de 7 couleurs : violet, indigo, bleu, vert, jaune, orange, rouge",
+    "La dispersion par un prisme sépare les couleurs selon leur longueur d'onde",
+    "L'arc-en-ciel se forme par réfraction et réflexion dans les gouttes d'eau",
+    "La synthèse additive des couleurs rouge, verte et bleue produit du blanc",
+    "Un filtre coloré absorbe sélectivement certaines couleurs",
+    "La couleur d'un objet dépend des lumières qu'il diffuse et absorbe"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Quelle est la séquence correcte des couleurs dans le spectre de la lumière blanche ?",
+      "options": [
+        "Violet, Indigo, Bleu, Vert, Jaune, Orange, Rouge",
+        "Rouge, Orange, Jaune, Vert, Bleu, Indigo, Violet",
+        "Bleu, Vert, Jaune, Orange, Rouge, Violet, Indigo",
+        "Vert, Bleu, Indigo, Violet, Rouge, Orange, Jaune"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Quel phénomène physique est principalement responsable de la formation de l'arc-en-ciel ?",
+      "options": [
+        "Dispersion de la lumière",
+        "Réflexion totale",
+        "Diffraction",
+        "Interférence"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Quelles sont les trois couleurs primaires en synthèse additive ?",
+      "options": [
+        "Rouge, Vert, Bleu",
+        "Cyan, Magenta, Jaune",
+        "Rouge, Jaune, Bleu",
+        "Orange, Vert, Violet"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Pourquoi une feuille d'arbre nous paraît-elle verte ?",
+      "options": [
+        "Parce qu'elle diffuse la lumière verte et absorbe les autres",
+        "Parce qu'elle émet de la lumière verte",
+        "Parce qu'elle absorbe la lumière verte",
+        "Parce qu'elle réfléchit toutes les couleurs"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Que se passe-t-il quand on fait tourner rapidement un disque de Newton ?",
+      "options": [
+        "Il apparaît blanc à cause de la persistance rétinienne",
+        "Il devient noir",
+        "On voit toutes les couleurs séparément",
+        "Il émet de la lumière"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Combien de couleurs principales contient la lumière blanche ?",
+      "options": [
+        "3 couleurs",
+        "5 couleurs",
+        "7 couleurs",
+        "10 couleurs"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Quel dispositif permet de décomposer la lumière blanche ?",
+      "options": [
+        "Un miroir",
+        "Un prisme",
+        "Une loupe",
+        "Un écran"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Quelles sont les 3 couleurs primaires de la lumière ?",
+      "options": [
+        "Rouge, Jaune, Bleu",
+        "Rouge, Vert, Bleu",
+        "Orange, Vert, Violet",
+        "Cyan, Magenta, Jaune"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q9",
+      "type": "mcq",
+      "prompt": "Un objet rouge éclairé en lumière verte paraît :",
+      "options": [
+        "Rouge",
+        "Vert",
+        "Noir",
+        "Jaune"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

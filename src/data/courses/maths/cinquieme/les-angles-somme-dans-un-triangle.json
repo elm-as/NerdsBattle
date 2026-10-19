@@ -1,0 +1,45 @@
+{
+  "id": "maths-cinquieme-les-angles-somme-dans-un-triangle",
+  "title": "Les angles : somme dans un triangle",
+  "summary": "Un menuisier trace un triangle pour une charpente. Deux angles mesurent 50° et 70°. Quel est le troisième angle ?",
+  "lesson": "## Somme des angles d'un triangle\n\n### Propriété fondamentale\n**Dans tout triangle, la somme des trois angles vaut 180°**\n\n**Exemple :**\nAngle A = 50°, Angle B = 70°\nAngle C = 180° - 50° - 70° = 60°\n\n### Triangles particuliers\n\n**Triangle rectangle :**\n- Un angle = 90°\n- Les deux autres : somme = 90°\n\n**Triangle isocèle :**\n- 2 angles égaux à la base\n- Si angles de base = 40°, sommet = 180° - 80° = 100°\n\n**Triangle équilatéral :**\n- 3 angles égaux\n- Chaque angle = 180° ÷ 3 = 60°",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Somme des angles = 180°",
+    "Triangle rectangle : 1 angle droit",
+    "Triangle équilatéral : 3 angles de 60°",
+    "Triangle isocèle : 2 angles égaux"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Un triangle a des angles de 60° et 80°. Quel est le troisième angle ?",
+      "options": [
+        "20°",
+        "40°",
+        "50°",
+        "60°"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Dans un triangle équilatéral, chaque angle mesure :",
+      "options": [
+        "45°",
+        "60°",
+        "90°",
+        "120°"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

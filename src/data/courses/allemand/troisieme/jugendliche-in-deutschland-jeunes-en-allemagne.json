@@ -1,0 +1,123 @@
+{
+  "id": "allemand-troisieme-jugendliche-in-deutschland-jeunes-en-allemagne",
+  "title": "Jugendliche in Deutschland (Jeunes en Allemagne)",
+  "summary": "Ce que font les jeunes en Allemagne, leurs droits, leurs loisirs",
+  "lesson": "# Jugendliche in Deutschland\n\n## Les loisirs des jeunes (Freizeitaktivitäten)\n\n### Activités populaires\n- **Sport treiben** (faire du sport)\n  - Fußball spielen (jouer au foot)\n  - schwimmen gehen (aller nager)\n  - Rad fahren (faire du vélo)\n- **Musik hören** (écouter de la musique)\n- **ins Kino gehen** (aller au cinéma)\n- **Freunde treffen** (rencontrer des amis)\n- **Computer spielen** (jouer sur ordinateur)\n- **in die Disco gehen** (aller en boîte)\n\n### Technologies et médias\n- das Handy / Smartphone (le portable)\n- das Internet (Internet)\n- soziale Netzwerke (réseaux sociaux)\n- WhatsApp, Instagram, TikTok\n\n## Droits des jeunes en Allemagne\n\n### Selon l'âge\n\n**Ab 14 Jahre** (À partir de 14 ans)\n- Religionsfreiheit (liberté religieuse)\n- Taschengeld verdienen (gagner de l'argent de poche)\n\n**Ab 16 Jahre** (À partir de 16 ans)\n- bis 24 Uhr in die Disco (en boîte jusqu'à minuit)\n- Bier und Wein trinken (boire bière et vin)\n- Moped fahren (conduire un cyclomoteur)\n\n**Ab 18 Jahre** (À partir de 18 ans)\n- wählen (voter)\n- Autofahren (conduire une voiture)\n- alle alkoholischen Getränke (toutes boissons alcoolisées)\n\n## La vie scolaire (Schulleben)\n\n### Système scolaire\n- **die Grundschule** (école primaire) : 6-10 ans\n- **das Gymnasium** (lycée général) : jusqu'au Abitur\n- **die Realschule** (lycée technique)\n- **die Hauptschule** (collège professionnel)\n\n### Journée type\n- 8:00 - Schulbeginn (début des cours)\n- 13:00 - Schulende (fin des cours)\n- Nachmittags - Hausaufgaben und Freizeit (devoirs et loisirs)\n\n## Argent de poche (Taschengeld)\n\nLa plupart des jeunes allemands reçoivent de l'argent de poche :\n- 12-13 ans : 20-25 € par mois\n- 14-15 ans : 30-35 € par mois\n- 16-17 ans : 40-50 € par mois\n\n## Comparaison Allemagne-Afrique\n\n| Aspect | Allemagne | Afrique |\n|--------|-----------|---------|\n| **Horaires école** | Matin seulement | Souvent toute la journée |\n| **Argent de poche** | Régulier, systématique | Variable selon familles |\n| **Indépendance** | Très tôt | Plus tardive |\n| **Loisirs** | Clubs organisés | Plus informels |\n\n## Vocabulaire utile\n\n### Verbes d'opinion\n- **Ich finde... gut/schlecht** (Je trouve... bien/mal)\n- **Ich mag...** (J'aime...)\n- **Ich interessiere mich für...** (Je m'intéresse à...)\n- **Meiner Meinung nach...** (À mon avis...)\n\n## Dialogue : Deux jeunes se rencontrent\n\n**Lena (Allemagne):** Was machst du gern in deiner Freizeit?\n**Kofi (Côte d'Ivoire):** Ich spiele gern Fußball mit Freunden. Und du?\n**Lena:** Ich gehe oft ins Kino oder treffe mich mit Freunden.\n**Kofi:** Bekommst du Taschengeld?\n**Lena:** Ja, 30 Euro pro Monat. Und du?\n**Kofi:** Bei uns ist das nicht so üblich. Aber ich helfe manchmal und verdiene etwas Geld.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Les jeunes allemands ont beaucoup de droits dès 14 ans",
+    "L'école en Allemagne finit souvent à 13h",
+    "L'argent de poche est systématique dans les familles allemandes",
+    "Les jeunes allemands sont très autonomes"
+  ],
+  "exercise": {
+    "answer": "1) Ich spiele gern Fußball / Ich höre gern Musik... 2) Ab 18 Jahre darf man in Deutschland wählen.",
+    "question": "Réponds en allemand : 1) Was machst du gern in deiner Freizeit? 2) Ab welchem Alter darf man in Deutschland wählen?"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 3,
+      "prompt": "À quel âge peut-on voter en Allemagne ?",
+      "options": [
+        "14 ans",
+        "16 ans",
+        "21 ans",
+        "\"18 ans\""
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 0,
+      "prompt": "Que signifie 'Taschengeld' ?",
+      "options": [
+        "\"Argent de poche\"",
+        "Porte-monnaie",
+        "Salaire",
+        "Économies"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "answer": 0,
+      "prompt": "À quelle heure finit l'école en Allemagne généralement ?",
+      "options": [
+        "\"13h\"",
+        "10h",
+        "16h",
+        "18h"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-allemand-1-mv9fzjii",
+      "type": "mcq",
+      "prompt": "Selon les droits des jeunes en Allemagne décrits dans le cours, quelle activité est autorisée à partir de 16 ans mais interdite avant cet âge ?",
+      "options": [
+        "Conduire une voiture (Autofahren)",
+        "Boire de la bière et du vin (Bier und Wein trinken)",
+        "Voter aux élections (wählen)",
+        "Gagner de l'argent de poche (Taschengeld verdienen)"
+      ],
+      "answer": 1,
+      "explanation": "Le cours indique explicitement que 'Bier und Wein trinken' est autorisé 'Ab 16 Jahre'. La conduite de voiture et le vote sont réservés aux 18 ans et plus, tandis que l'argent de poche est permis dès 14 ans."
+    },
+    {
+      "id": "auto-allemand-2-mv9fzjii",
+      "type": "mcq",
+      "prompt": "Quel terme allemand correspond à l'expression française 'aller nager' dans la liste des activités sportives populaires ?",
+      "options": [
+        "Rad fahren",
+        "Fußball spielen",
+        "schwimmen gehen",
+        "Sport treiben"
+      ],
+      "answer": 2,
+      "explanation": "Dans la section 'Sport treiben', le cours liste 'schwimmen gehen' comme la traduction de 'aller nager'. 'Rad fahren' signifie faire du vélo, 'Fußball spielen' jouer au foot, et 'Sport treiben' est le terme général pour faire du sport."
+    },
+    {
+      "id": "auto-allemand-3-mv9fzjii",
+      "type": "mcq",
+      "prompt": "Parmi les plateformes numériques mentionnées dans le cours, laquelle n'est PAS citée comme exemple de réseau social ou d'application de communication utilisée par les jeunes ?",
+      "options": [
+        "WhatsApp",
+        "Instagram",
+        "TikTok",
+        "Facebook"
+      ],
+      "answer": 3,
+      "explanation": "L'extrait du cours liste spécifiquement 'WhatsApp, Instagram, TikTok' sous la rubrique 'soziale Netzwerke'. Facebook, bien que populaire, n'apparaît pas dans la liste fournie dans le texte de référence."
+    },
+    {
+      "id": "auto-allemand-4-mv9fzjii",
+      "type": "mcq",
+      "prompt": "Quel droit fondamental est accordé aux jeunes allemands à partir de 14 ans, selon la section 'Droits des jeunes' ?",
+      "options": [
+        "La liberté religieuse (Religionsfreiheit)",
+        "La conduite d'un cyclomoteur (Moped fahren)",
+        "La consommation de toutes boissons alcoolisées",
+        "La participation au vote (wählen)"
+      ],
+      "answer": 0,
+      "explanation": "Le cours précise que 'Ab 14 Jahre', les jeunes ont droit à la 'Religionsfreiheit' et peuvent gagner de l'argent de poche. Les autres options correspondent aux seuils de 16 ans (Moped) et 18 ans (vote, alcool fort)."
+    },
+    {
+      "id": "auto-allemand-5-mv9fzjii",
+      "type": "mcq",
+      "prompt": "Quelle est la traduction correcte de l'expression 'Freunde treffen' dans le contexte des loisirs des jeunes ?",
+      "options": [
+        "Rencontrer des amis",
+        "Écouter de la musique",
+        "Aller au cinéma",
+        "Jouer sur ordinateur"
+      ],
+      "answer": 0,
+      "explanation": "Dans la liste des activités populaires, 'Freunde treffen' est explicitement traduit par 'rencontrer des amis'. Les autres options correspondent respectivement à 'Musik hören', 'ins Kino gehen' et 'Computer spielen'."
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "allemand-quatrieme-le-datif-dativ-le-cas-indirect",
+  "title": "Le datif (Dativ) - Le cas indirect",
+  "summary": "Comment exprimer le complément d'objet indirect ?",
+  "lesson": "# Le datif en allemand (Dativ)\n\n## Qu'est-ce que le datif ?\n\nLe datif marque le **complément d'objet indirect (COI)**.\n\n**Question clé :** Wem? (à qui ?)\n\n## Les articles au datif\n\n| Genre | Nominatif | Accusatif | Datif |\n|-------|-----------|-----------|-------|\n| Masculin | der | den | **dem** |\n| Féminin | die | die | **der** |\n| Neutre | das | das | **dem** |\n| Pluriel | die | die | **den** |\n\n⚠️ Au datif pluriel, les noms prennent un **-n** à la fin (sauf s'ils se terminent déjà par -n ou -s).\n\n**Exemples :**\n- die Kinder → den Kinder**n**\n- die Frauen → den Frauen (déjà -n)\n\n## Verbes qui régissent le datif\n\nCes verbes demandent toujours le datif :\n\n- **helfen** = aider\n- **danken** = remercier\n- **antworten** = répondre\n- **gehören** = appartenir\n- **gefallen** = plaire\n- **folgen** = suivre\n- **gratulieren** = féliciter\n\n### Exemples :\n- Ich helfe **dem Lehrer**. (J'aide le professeur.)\n- Er dankt **der Mutter**. (Il remercie la mère.)\n- Das Buch gehört **dem Kind**. (Le livre appartient à l'enfant.)\n- Die Musik gefällt **den Schülern**. (La musique plaît aux élèves.)\n\n## Prépositions avec datif\n\nCertaines prépositions demandent TOUJOURS le datif :\n\n- **mit** = avec\n- **nach** = après, vers\n- **aus** = de (provenance)\n- **zu** = à, vers\n- **von** = de (provenant de)\n- **bei** = chez, près de\n- **seit** = depuis\n\n### Exemples :\n- Ich gehe **mit dem Freund**. (Je vais avec l'ami.)\n- Er kommt **aus der Schule**. (Il vient de l'école.)\n- Sie fährt **zu der Oma** / **zur Oma**. (Elle va chez la grand-mère.)\n\n## Pronoms personnels au datif\n\n| Nominatif | Accusatif | Datif | Français |\n|-----------|-----------|-------|----------|\n| ich | mich | **mir** | me/moi |\n| du | dich | **dir** | te/toi |\n| er | ihn | **ihm** | lui (masc.) |\n| sie | sie | **ihr** | lui (fém.) |\n| es | es | **ihm** | lui (neutre) |\n| wir | uns | **uns** | nous |\n| ihr | euch | **euch** | vous |\n| sie/Sie | sie/Sie | **ihnen/Ihnen** | leur/vous |\n\n### Exemples :\n- Hilfst du **mir**? (M'aides-tu ?)\n- Ich danke **dir**. (Je te remercie.)\n- Das Buch gehört **ihm**. (Le livre lui appartient.)",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Datif = COI, question 'Wem?' (à qui?)",
+    "Articles datif : dem, der, dem, den",
+    "Verbes avec datif : helfen, danken, antworten, gehören, gefallen",
+    "Prépositions avec datif : mit, nach, aus, zu, von, bei, seit"
+  ],
+  "exercise": {
+    "answer": "1) dem Vater (masculin) 2) der Frau (féminin) 3) den Kindern (pluriel)",
+    "question": "Complète avec le bon article au datif : 1) Ich helfe ___ Vater. 2) Das Auto gehört ___ Frau. 3) Er dankt ___ Kindern."
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Quel est l'article masculin au datif ?",
+      "options": [
+        "der",
+        "den",
+        "dem",
+        "des"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Quel verbe régit le datif ?",
+      "options": [
+        "sehen",
+        "helfen",
+        "haben",
+        "kaufen"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Complète : Ich gehe ___ der Schule. (mit)",
+      "options": [
+        "mit die",
+        "mit den",
+        "mit der",
+        "mit dem"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Quel est le pronom datif pour 'ich' ?",
+      "options": [
+        "mich",
+        "mir",
+        "mein",
+        "me"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-allemand-1-mv9feooc",
+      "type": "mcq",
+      "prompt": "Dans la phrase « Die Lehrerin hilft ___ Studenten », quel est le complément d'objet indirect correct au datif ?",
+      "options": [
+        "den Studenten",
+        "dem Studenten",
+        "der Studenten",
+        "den Student"
+      ],
+      "answer": 0,
+      "explanation": "Le verbe 'helfen' régit le datif. 'Studenten' est un nom masculin au pluriel. L'article pluriel au datif est 'den'. De plus, au datif pluriel, les noms prennent la terminaison '-n' (sauf s'ils se terminent déjà par -n ou -s). Donc : den Studenten."
+    },
+    {
+      "id": "auto-allemand-2-mv9feooc",
+      "type": "mcq",
+      "prompt": "Complétez la phrase : « Ich danke ___ Frau Müller. »",
+      "options": [
+        "der",
+        "dem",
+        "den",
+        "die"
+      ],
+      "answer": 0,
+      "explanation": "Le verbe 'danken' (remercier) régit le datif. 'Frau Müller' est un nom féminin singulier. L'article féminin singulier au datif est 'der'. Donc : Ich danke der Frau Müller."
+    },
+    {
+      "id": "auto-allemand-3-mv9feooc",
+      "type": "mcq",
+      "prompt": "Quelle est la forme correcte du nom 'die Kinder' au datif pluriel ?",
+      "options": [
+        "den Kinder",
+        "den Kindern",
+        "dem Kinder",
+        "der Kinder"
+      ],
+      "answer": 1,
+      "explanation": "Au datif pluriel, l'article est 'den'. La règle stipule que les noms au datif pluriel prennent la terminaison '-n' à la fin, sauf s'ils se terminent déjà par '-n' ou '-s'. 'Kinder' ne se termine pas par -n ou -s, donc on ajoute -n : den Kindern."
+    },
+    {
+      "id": "auto-allemand-4-mv9feooc",
+      "type": "mcq",
+      "prompt": "Dans la phrase « Das Auto gehört ___ Mann », quel article doit-on utiliser ?",
+      "options": [
+        "den",
+        "dem",
+        "der",
+        "das"
+      ],
+      "answer": 1,
+      "explanation": "Le verbe 'gehören' (appartenir) régit le datif. 'Mann' est un nom masculin singulier. L'article masculin singulier au datif est 'dem'. Donc : Das Auto gehört dem Mann."
+    },
+    {
+      "id": "auto-allemand-5-mv9feooc",
+      "type": "mcq",
+      "prompt": "Quelle préposition parmi les suivantes exige TOUJOURS le datif en allemand ?",
+      "options": [
+        "für",
+        "ohne",
+        "aus",
+        "gegen"
+      ],
+      "answer": 2,
+      "explanation": "Les prépositions 'für', 'ohne' et 'gegen' exigent toujours l'accusatif. La préposition 'aus' (de, hors de) est une préposition de lieu d'origine qui exige toujours le datif. Exemple : Ich komme aus Frankreich."
+    }
+  ]
+}

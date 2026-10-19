@@ -1,0 +1,123 @@
+{
+  "id": "maths-seconde-generalites-sur-les-fonctions",
+  "title": "Généralités sur les fonctions",
+  "summary": "Les élèves de Seconde A du Lycée de Garçons de Bingerville ont planté un arbre au Jardin Botanique. La taille de cette plante augmente régulièrement : 0,05 m le premier mois, 0,10 m le deuxième, 0,15 m le troisième, 0,20 m le quatrième. Le professeur affirme que la taille est fonction du rang du mois et qu'on peut prévoir sa taille dans 2 ans. Comment modéliser cette croissance et quelles informations peut-on en déduire ?",
+  "lesson": "## Généralités sur les fonctions : modélisation mathématique des phénomènes\n\n### 1. Notion de fonction\n\nUne fonction f associe à tout élément x d'un ensemble de départ D un unique élément y d'un ensemble d'arrivée. On note : f : D → ℝ, x ↦ y = f(x)\n\n**En Côte d'Ivoire, les fonctions modélisent :**\n- La production agricole en fonction de la superficie\n- Le coût de l'électricité (CIE) en fonction de la consommation\n- La population d'une ville en fonction du temps\n- Le prix d'une matière première (cacao, café) en fonction de l'offre\n\n### 2. Ensemble de définition\n\nL'ensemble de définition Df d'une fonction f est l'ensemble des x pour lesquels f(x) existe.\n\n**Détermination pratique :**\n1. Pas de division par zéro\n2. Pas de racine carrée d'un nombre négatif (dans ℝ)\n3. Contraintes du contexte réel\n\n**Exemple ivoirien :** La fonction qui au nombre n de sacs de riz achetés associe le prix total : f(n) = 15 000n. Df = ℕ* (on ne peut acheter un nombre entier positif de sacs).\n\n### 3. Image et antécédent\n\n- **Image :** Si y = f(x), alors y est l'image de x par f\n- **Antécédent :** Si y = f(x), alors x est un antécédent de y par f\n\n**Attention :** Un nombre peut avoir plusieurs antécédents ou aucun.\n\n**Exemple concret :** Dans une école d'Abidjan, à chaque élève (x) correspond une note en mathématiques (f(x)). L'image d'un élève est sa note. La note 15/20 peut avoir plusieurs antécédents (plusieurs élèves ont 15).\n\n### 4. Différentes façons de définir une fonction\n\n1. **Par une formule explicite :** f(x) = 2x + 3\n2. **Par un tableau de valeurs :** Comme les relevés de température à Abobo\n3. **Par une représentation graphique :** Courbe du cours du cacao en bourse\n4. **Par un algorithme :** Calcul des impôts\n5. **Par une description verbale :** \"Le prix total est le produit du prix unitaire par la quantité\"\n\n### 5. Représentation graphique\n\nLa courbe représentative de f dans un repère est l'ensemble des points M(x, f(x)).\n\n**Lecture graphique :**\n- Image de x : ordonnée du point d'abscisse x\n- Antécédents de y : abscisses des points d'ordonnée y\n\n**Exemple ivoirien :** Courbe de la consommation d'eau à Abidjan en fonction de l'heure de la journée.\n\n### 6. Variations d'une fonction\n\n- **Fonction croissante :** Si x₁ < x₂ alors f(x₁) ≤ f(x₂) (strictement si <)\n- **Fonction décroissante :** Si x₁ < x₂ alors f(x₁) ≥ f(x₂) (strictement si >)\n- **Fonction constante :** f(x₁) = f(x₂) pour tous x₁, x₂\n\n**Tableau de variations :** Résume les intervalles de croissance et décroissance.\n\n**Application :** Étude de l'évolution du trafic routier à l'entrée d'Abidjan aux heures de pointe.\n\n### 7. Extremums sur un intervalle\n\n- **Maximum :** f(x₀) est le maximum de f sur I si pour tout x ∈ I, f(x) ≤ f(x₀)\n- **Minimum :** f(x₀) est le minimum de f sur I si pour tout x ∈ I, f(x) ≥ f(x₀)\n\n**Extremum = maximum ou minimum**\n\n**Exemple pratique :** Le chiffre d'affaires maximal d'une boutique de Yopougon dans la journée.\n\n### 8. Résolution graphique d'équations et d'inéquations\n\n- **Équation f(x) = k :** Abscisses des points d'intersection avec la droite horizontale y = k\n- **Inéquation f(x) ≥ k :** Abscisses des points où la courbe est au-dessus de y = k\n\n### 9. Fonctions de référence au programme\n\n1. **Fonctions affines :** f(x) = ax + b\n2. **Fonction carré :** f(x) = x²\n3. **Fonction inverse :** f(x) = 1/x\n\n### 10. Applications concrètes en Côte d'Ivoire\n\n**Exemple 1 :** Coût de production d'une usine d'embouteillage à San-Pédro\nC(q) = 500 000 + 200q (coûts fixes + variables)\n\n**Exemple 2 :** Recette d'un taxi Abidjan-Bouaké\nR(n) = 5000n (5000 FCFA par passager)\n\n**Exemple 3 :** Bénéfice d'une coopérative agricole\nB(q) = 3000q - (100 000 + 500q) = 2500q - 100 000\n\n### 11. Étude complète d'une fonction\n\n1. Déterminer l'ensemble de définition\n2. Calculer des images significatives\n3. Étudier les variations\n4. Déterminer les extremums\n5. Tracer la courbe représentative\n6. Interpréter dans le contexte\n\n### 12. Outils technologiques\n\n- Calculatrices graphiques\n- Logiciels de géométrie dynamique\n- Tableurs pour créer des tableaux de valeurs\n\n### 13. Erreurs fréquentes\n\n- Confondre image et antécédent\n- Oublier les contraintes de l'ensemble de définition\n- Mauvaise lecture graphique (échelle, unités)\n- Confondre maximum local et global\n- Ne pas vérifier la cohérence avec le problème réel\n\nLes fonctions sont un outil puissant pour modéliser, analyser et prévoir des phénomènes dans tous les domaines de la vie économique et sociale en Côte d'Ivoire, permettant une approche scientifique des problèmes de développement.",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Une fonction associe à chaque x au plus un f(x)",
+    "L'ensemble de définition dépend des opérations mathématiques et du contexte",
+    "Un nombre peut avoir plusieurs antécédents mais une seule image",
+    "Le tableau de variations résume croissance et décroissance"
+  ],
+  "exercise": {
+    "answer": "",
+    "question": ""
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Si f(3) = 7, alors :",
+      "options": [
+        "3 est l'image de 7",
+        "7 est l'image de 3",
+        "3 a pour antécédent 7",
+        "f(7) = 3"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "L'ensemble de définition de f(x) = 1/(x-2) est :",
+      "options": [
+        "ℝ",
+        "ℝ\\{0}",
+        "ℝ\\{2}",
+        "ℝ\\{-2}"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "prompt": "Une fonction croissante vérifie :",
+      "options": [
+        "Si x₁ < x₂ alors f(x₁) < f(x₂)",
+        "Si x₁ < x₂ alors f(x₁) ≤ f(x₂)",
+        "Si x₁ > x₂ alors f(x₁) < f(x₂)",
+        "f(x) est toujours positif"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q4",
+      "type": "mcq",
+      "prompt": "Le maximum d'une fonction sur [0, 5] est :",
+      "options": [
+        "La plus grande image",
+        "La plus petite image",
+        "Toujours en x = 5",
+        "Toujours en x = 0"
+      ],
+      "answer": 0,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q5",
+      "type": "mcq",
+      "prompt": "Qu'est-ce que l'ensemble de définition d'une fonction ?",
+      "options": [
+        "Les valeurs de f(x)",
+        "Les valeurs de x où f existe",
+        "Le maximum de f",
+        "La dérivée de f"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q6",
+      "type": "mcq",
+      "prompt": "Si f(2)=5 et f(3)=5, que peut-on dire ?",
+      "options": [
+        "5 a deux antécédents",
+        "f est constante",
+        "f n'est pas une fonction",
+        "2 et 3 ont la même image"
+      ],
+      "answer": 3,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q7",
+      "type": "mcq",
+      "prompt": "Comment teste-t-on si une courbe représente une fonction ?",
+      "options": [
+        "Droite horizontale",
+        "Droite verticale",
+        "Droite oblique",
+        "Courbe quelconque"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q8",
+      "type": "mcq",
+      "prompt": "Si x₁<x₂ implique f(x₁)<f(x₂), f est :",
+      "options": [
+        "Décroissante",
+        "Constante",
+        "Croissante stricte",
+        "Négative"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}

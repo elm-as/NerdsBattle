@@ -1,0 +1,109 @@
+{
+  "id": "maths-terminale-geometrie-dans-l-espace",
+  "title": "Géométrie dans l'espace",
+  "summary": "En architecture 3D, on doit maîtriser la géométrie dans l'espace. Comment l'aborder ?",
+  "lesson": "## Géométrie dans l'espace\n\n### Vecteurs de l'espace\nCoordonnées : ū(x ; y ; z)\nNorme : ||ū|| = √(x² + y² + z²)\nProduit scalaire : ū · v̄ = xx' + yy' + zz'\n\n### Équation de plan\n**Forme vectorielle :**\nUn plan est défini par un point A et deux vecteurs ū, v̄ non colinéaires\n\n**Équation cartésienne :**\nax + by + cz + d = 0\n\noù n⃗(a ; b ; c) est un vecteur normal au plan\n\n### Équation de droite\n**Forme paramétrique :**\nx = x₀ + at\ny = y₀ + bt\nz = z₀ + ct\n\noù ū(a ; b ; c) est un vecteur directeur\n\n### Positions relatives\n- Droites parallèles : vecteurs directeurs colinéaires\n- Droite ⊥ plan : vecteur directeur = vecteur normal",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Vecteur normal : perpendiculaire au plan",
+    "Équation de plan : ax + by + cz + d = 0",
+    "Produit scalaire pour orthogonalité"
+  ],
+  "exercise": {
+    "question": "Détermine un vecteur normal au plan d'équation 2x − 3y + z − 5 = 0",
+    "answer": "\n**Solution :**\nDans ax + by + cz + d = 0,\nle vecteur normal est n⃗(a ; b ; c)\n\n**Réponse : n⃗(2 ; −3 ; 1)**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Un plan est défini par :",
+      "options": [
+        "1 point",
+        "2 points",
+        "3 points non alignés",
+        "4 points"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Si ū est vecteur normal à un plan, et v̄ est vecteur directeur d'une droite D, alors D est perpendiculaire au plan si :",
+      "options": [
+        "ū · v̄ = 0",
+        "ū et v̄ sont colinéaires",
+        "||ū|| = ||v̄||",
+        "ū + v̄ = 0⃗"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-maths-1-mv9muyh8",
+      "type": "mcq",
+      "prompt": "Soit le vecteur $\\vec{u}$ de coordonnées $(3 ; -4 ; 12)$. Quelle est la valeur exacte de sa norme $||\\vec{u}||$ ?",
+      "options": [
+        "$13$",
+        "$\\sqrt{169}$",
+        "$15$",
+        "$\\sqrt{145}$"
+      ],
+      "answer": 2,
+      "explanation": "La norme d'un vecteur $\\vec{u}(x ; y ; z)$ est donnée par $\\sqrt{x^2 + y^2 + z^2}$. Ici, $||\\vec{u}|| = \\sqrt{3^2 + (-4)^2 + 12^2} = \\sqrt{9 + 16 + 144} = \\sqrt{169} = 13$. L'option 2 correspond à la valeur simplifiée exacte."
+    },
+    {
+      "id": "auto-maths-2-mv9muyh8",
+      "type": "mcq",
+      "prompt": "Considérons deux vecteurs $\\vec{a}(1 ; 2 ; -3)$ et $\\vec{b}(2 ; 4 ; -6)$. Quelle est la relation géométrique entre ces deux vecteurs ?",
+      "options": [
+        "Ils sont orthogonaux",
+        "Ils sont colinéaires",
+        "Ils sont égaux",
+        "Ils forment un angle de $45^\\circ$"
+      ],
+      "answer": 1,
+      "explanation": "Deux vecteurs sont colinéaires s'il existe un réel $k$ tel que $\\vec{b} = k\\vec{a}$. On observe que $2 = 2 \\times 1$, $4 = 2 \\times 2$ et $-6 = 2 \\times (-3)$. Donc $\\vec{b} = 2\\vec{a}$, ce qui signifie qu'ils sont colinéaires."
+    },
+    {
+      "id": "auto-maths-3-mv9muyh8",
+      "type": "mcq",
+      "prompt": "Quelle est l'équation cartésienne du plan $\\mathcal{P}$ passant par le point $A(1 ; 0 ; 2)$ et ayant pour vecteur normal $\\vec{n}(2 ; -1 ; 3)$ ?",
+      "options": [
+        "$2x - y + 3z - 8 = 0$",
+        "$2x - y + 3z + 8 = 0$",
+        "$2x - y + 3z - 4 = 0$",
+        "$2x + y - 3z + 8 = 0$"
+      ],
+      "answer": 0,
+      "explanation": "L'équation cartésienne est $ax + by + cz + d = 0$ avec $\\vec{n}(a ; b ; c)$. Ici $2x - y + 3z + d = 0$. En remplaçant par les coordonnées de $A(1 ; 0 ; 2)$, on obtient $2(1) - 0 + 3(2) + d = 0 \\Rightarrow 2 + 6 + d = 0 \\Rightarrow d = -8$. L'équation est donc $2x - y + 3z - 8 = 0$."
+    },
+    {
+      "id": "auto-maths-4-mv9muyh8",
+      "type": "mcq",
+      "prompt": "Soit la droite $D$ définie par les équations paramétriques : $x = 1 + 2t$, $y = -3 + t$, $z = 4 - t$. Quel est un vecteur directeur de cette droite ?",
+      "options": [
+        "$\\vec{u}(1 ; -3 ; 4)$",
+        "$\\vec{u}(2 ; 1 ; -1)$",
+        "$\\vec{u}(2 ; -3 ; 4)$",
+        "$\\vec{u}(1 ; 1 ; -1)$"
+      ],
+      "answer": 1,
+      "explanation": "Pour une droite paramétrée par $x = x_0 + at$, $y = y_0 + bt$, $z = z_0 + ct$, le vecteur directeur est $\\vec{u}(a ; b ; c)$. Ici, les coefficients de $t$ sont respectivement $2$, $1$ et $-1$. Le vecteur directeur est donc $\\vec{u}(2 ; 1 ; -1)$."
+    },
+    {
+      "id": "auto-maths-5-mv9muyh8",
+      "type": "mcq",
+      "prompt": "Soit $\\vec{u}(1 ; 0 ; 1)$ et $\\vec{v}(0 ; 1 ; 1)$. Quelle est la valeur du produit scalaire $\\vec{u} \\cdot \\vec{v}$ ?",
+      "options": [
+        "$0$",
+        "$1$",
+        "$2$",
+        "$\\sqrt{2}$"
+      ],
+      "answer": 1,
+      "explanation": "Le produit scalaire est défini par $\\vec{u} \\cdot \\vec{v} = xx' + yy' + zz'$. En substituant les coordonnées : $1 \\times 0 + 0 \\times 1 + 1 \\times 1 = 0 + 0 + 1 = 1$."
+    }
+  ]
+}

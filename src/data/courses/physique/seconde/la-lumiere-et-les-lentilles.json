@@ -1,0 +1,123 @@
+{
+  "id": "physique-seconde-la-lumiere-et-les-lentilles",
+  "title": "La lumière et les lentilles",
+  "summary": "Comment fonctionnent les lunettes ? Pourquoi une loupe permet-elle de voir plus gros ?",
+  "lesson": "## La propagation de la lumière\n\n### Sources de lumière\n\n**Sources primaires :**\nÉmettent leur propre lumière.\n- Soleil\n- Lampe\n- Bougie\n- Étoiles\n\n**Sources secondaires :**\nDiffusent la lumière reçue (ne l'émettent pas).\n- Lune\n- Objets éclairés\n\n### Propagation rectiligne\n\n**Principe :**\nDans un milieu homogène et transparent, la lumière se propage en **ligne droite**.\n\n**Conséquences :**\n- Formation des ombres\n- Éclipses\n- On ne peut pas voir derrière un obstacle\n\n**Vitesse de la lumière :**\n```\nc = 300 000 km/s (dans le vide)\nc ≈ 3 × 10⁸ m/s\n```\n\n## Les lentilles\n\n### Définition\n\nUne **lentille** est un objet transparent (verre, plastique) aux faces bombées ou creuses qui modifie la direction des rayons lumineux.\n\n### Lentilles convergentes\n\n**Forme :**\nPlus épaisses au centre qu'aux bords.\n\n**Symbole :**\n```\n  ╱╲\n ╱  ╲\n╱    ╲\n```\n\n**Effet :**\nConcentrent les rayons lumineux en un point appelé **foyer**.\n\n**Distance focale (f) :**\nDistance entre le centre de la lentille et le foyer.\n\n**Exemples :**\n- Loupe\n- Objectif d'appareil photo\n- Lunettes pour presbytes et hypermétropes\n\n### Lentilles divergentes\n\n**Forme :**\nPlus minces au centre qu'aux bords.\n\n**Symbole :**\n```\n╲    ╱\n ╲  ╱\n  ╲╱\n```\n\n**Effet :**\nDispersent les rayons lumineux.\n\n**Exemples :**\n- Lunettes pour myopes\n- Judas de porte\n\n## Construction d'images\n\n### Lentille convergente\n\n**3 rayons particuliers :**\n1. Rayon passant par le **centre** → pas dévié\n2. Rayon parallèle à l'axe → passe par le foyer **image**\n3. Rayon passant par le foyer **objet** → sort parallèle à l'axe\n\n**Position de l'objet et image :**\n\n**Objet très éloigné (> 2f) :**\n- Image **réelle**, **renversée**, **plus petite**\n- Appareil photo\n\n**Objet entre f et 2f :**\n- Image **réelle**, **renversée**, **plus grande**\n- Projecteur\n\n**Objet entre la lentille et f :**\n- Image **virtuelle**, **droite**, **plus grande**\n- Loupe\n\n### Relation de conjugaison\n\n**Formule des lentilles minces :**\n```\n1/f = 1/OA' - 1/OA\n```\n\nOù :\n- **f** = distance focale\n- **OA** = distance objet-lentille\n- **OA'** = distance image-lentille\n\n## Défauts de la vision et corrections\n\n### L'œil\n\n**Structure simplifiée :**\n- **Cornée** + **Cristallin** = système de lentilles convergentes\n- **Rétine** = écran où se forme l'image\n- **Iris** = diaphragme qui contrôle la quantité de lumière\n\n**Accommodation :**\nLe cristallin change de courbure pour faire la mise au point.\n\n### La myopie\n\n**Défaut :**\nImage se forme **avant** la rétine.\n- Voit mal de loin\n- Voit bien de près\n\n**Cause :**\nŒil trop long ou cristallin trop convergent.\n\n**Correction :**\nLentilles **divergentes** (lunettes, lentilles de contact).\n\n### L'hypermétropie\n\n**Défaut :**\nImage se forme **après** la rétine.\n- Voit mal de près\n- Voit bien de loin\n\n**Cause :**\nŒil trop court ou cristallin pas assez convergent.\n\n**Correction :**\nLentilles **convergentes**.\n\n### La presbytie\n\n**Défaut :**\nPerte d'accommodation avec l'âge.\n- Difficulté à lire de près\n\n**Correction :**\nLentilles **convergentes** (lunettes de lecture).\n\n## Applications des lentilles\n\n### Appareils optiques\n\n**Loupe :**\n- Lentille convergente\n- Grossit les objets\n\n**Appareil photo :**\n- Système de lentilles convergentes\n- Image réelle sur le capteur\n\n**Microscope :**\n- 2 lentilles convergentes (objectif + oculaire)\n- Fort grossissement\n\n**Lunette astronomique :**\n- Observer les astres\n- 2 lentilles convergentes\n\n### En Côte d'Ivoire\n\n**Opticiens :**\n- Vente de lunettes correctives\n- Tests de vue\n\n**Santé visuelle :**\n- Campagnes de dépistage\n- Importance de consulter un ophtalmologiste\n\n## La réfraction\n\n### Définition\n\n**Réfraction :**\nChangement de direction d'un rayon lumineux lorsqu'il passe d'un milieu transparent à un autre.\n\n**Exemples :**\n- Bâton qui semble \"cassé\" dans l'eau\n- Poisson qui semble plus proche qu'il n'est\n\n### Lois de la réfraction (lois de Snell-Descartes)\n\n**Loi qualitative :**\n- Le rayon réfracté se rapproche de la normale quand il passe dans un milieu plus réfringent (plus dense)\n- Exemple : air → eau\n\n### Indice de réfraction\n\n**Définition :**\nCaractérise la capacité d'un milieu à ralentir la lumière.\n\n**Symbole :** n\n\n**Exemples :**\n- Air : n ≈ 1\n- Eau : n = 1,33\n- Verre : n ≈ 1,5\n\n**Formule :**\n```\nn = c / v\n```\n\nOù :\n- **c** = vitesse de la lumière dans le vide\n- **v** = vitesse de la lumière dans le milieu",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Lumière se propage en ligne droite",
+    "Lentille convergente = concentre les rayons",
+    "Lentille divergente = disperse les rayons",
+    "Myopie → lentille divergente"
+  ],
+  "exercise": {
+    "question": "Une personne voit mal les objets éloignés mais bien les objets proches. Quel est son défaut visuel ? Quelle correction lui faut-il ?",
+    "answer": "\n**Solution :**\n\n**Symptômes :**\n- Voit mal de loin\n- Voit bien de près\n\n**Diagnostic :**\nCette personne est **myope**.\n\n**Explication :**\n- L'image se forme avant la rétine\n- L'œil est trop long ou le cristallin trop convergent\n\n**Correction :**\nIl faut des lentilles **divergentes** (lunettes ou lentilles de contact) pour repousser l'image sur la rétine.\n\n**Réponse : Myopie. Correction : lentilles divergentes.**\n        "
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "answer": 2,
+      "prompt": "Quelle est la vitesse de la lumière dans le vide ?",
+      "options": [
+        "3 000 km/s",
+        "30 000 km/s",
+        "300 000 km/s",
+        "3 000 000 km/s"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Une loupe est :",
+      "options": [
+        "Une lentille divergente",
+        "Une lentille convergente",
+        "Un miroir",
+        "Un prisme"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q3",
+      "type": "mcq",
+      "answer": 1,
+      "prompt": "Pour corriger la myopie, on utilise :",
+      "options": [
+        "Des lentilles convergentes",
+        "Des lentilles divergentes",
+        "Des miroirs",
+        "Aucune correction"
+      ],
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "auto-physique-1-mva5q855",
+      "type": "mcq",
+      "prompt": "Selon le principe de propagation rectiligne de la lumière, dans quel type de milieu la lumière se déplace-t-elle en ligne droite ?",
+      "options": [
+        "Dans un milieu hétérogène et opaque",
+        "Dans un milieu homogène et transparent",
+        "Dans un milieu dispersif et réfléchissant",
+        "Dans un milieu absorbant et diffusant"
+      ],
+      "answer": 1,
+      "explanation": "Le cours stipule explicitement que dans un milieu homogène et transparent, la lumière se propage en ligne droite. C'est la condition nécessaire pour observer des phénomènes comme les ombres nettes ou les éclipses."
+    },
+    {
+      "id": "auto-physique-2-mva5q857",
+      "type": "mcq",
+      "prompt": "Quelle caractéristique géométrique permet de distinguer visuellement une lentille convergente d'une lentille divergente ?",
+      "options": [
+        "La convergente est plus mince au centre qu'aux bords",
+        "La divergente est plus épaisse au centre qu'aux bords",
+        "La convergente est plus épaisse au centre qu'aux bords",
+        "Les deux types de lentilles ont la même épaisseur au centre et aux bords"
+      ],
+      "answer": 2,
+      "explanation": "Une lentille convergente est définie par sa forme bombée, ce qui la rend plus épaisse au centre qu'aux bords. À l'inverse, une lentille divergente est plus mince au centre qu'aux bords."
+    },
+    {
+      "id": "auto-physique-3-mva5q857",
+      "type": "mcq",
+      "prompt": "Dans le contexte de la correction des défauts de vision, quel type de lentille est utilisé pour corriger l'hypermétropie ?",
+      "options": [
+        "Une lentille divergente",
+        "Une lentille plan-convexe uniquement",
+        "Une lentille convergente",
+        "Une lentille cylindrique"
+      ],
+      "answer": 2,
+      "explanation": "L'hypermétropie (ainsi que la presbytie) est corrigée par des lentilles convergentes qui aident à focaliser la lumière plus tôt sur la rétine. Les lentilles divergentes servent à corriger la myopie."
+    },
+    {
+      "id": "auto-physique-4-mva5q857",
+      "type": "mcq",
+      "prompt": "Que représente la distance focale $f$ d'une lentille mince ?",
+      "options": [
+        "La distance entre le foyer et l'objet observé",
+        "La distance entre le centre optique de la lentille et le foyer",
+        "La distance entre les deux faces de la lentille",
+        "La distance entre l'œil de l'observateur et la lentille"
+      ],
+      "answer": 1,
+      "explanation": "La définition officielle donnée dans le cours indique que la distance focale est la distance entre le centre de la lentille (centre optique) et le foyer image."
+    },
+    {
+      "id": "auto-physique-5-mva5q857",
+      "type": "mcq",
+      "prompt": "Pourquoi la Lune est-elle classée comme une source secondaire de lumière ?",
+      "options": [
+        "Parce qu'elle émet sa propre lumière par fusion nucléaire",
+        "Parce qu'elle diffuse la lumière reçue du Soleil sans l'émettre elle-même",
+        "Parce qu'elle réfléchit la lumière des étoiles environnantes",
+        "Parce qu'elle est un corps transparent qui laisse passer la lumière"
+      ],
+      "answer": 1,
+      "explanation": "Les sources secondaires ne produisent pas de lumière propre ; elles diffusent ou réfléchissent la lumière qu'elles reçoivent d'une source primaire. La Lune n'est pas une source primaire car elle ne produit pas de lumière par elle-même, contrairement au Soleil."
+    }
+  ]
+}

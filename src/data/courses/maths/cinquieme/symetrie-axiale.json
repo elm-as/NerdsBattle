@@ -1,0 +1,45 @@
+{
+  "id": "maths-cinquieme-symetrie-axiale",
+  "title": "Symétrie axiale",
+  "summary": "Un architecte dessine le plan d'une maison. Comment peut-il utiliser la symétrie axiale pour faciliter son travail ?",
+  "lesson": "## La symétrie axiale\n\n### Définition\nDeux figures sont symétriques par rapport à une droite (axe) si l'une est le reflet de l'autre.\n\n**Propriétés :**\n- L'axe est la **médiatrice** du segment [AA']\n- Les distances sont conservées\n- Les angles sont conservés\n- L'axe de symétrie est **perpendiculaire** au segment [AA'] et passe par son milieu\n\n### Construction du symétrique d'un point\nPour construire le symétrique A' d'un point A par rapport à un axe (d) :\n1. Tracer la perpendiculaire à (d) passant par A\n2. Reporter la même distance de l'autre côté de l'axe\n3. Le point A' obtenu est le symétrique de A\n\n### Axe de symétrie d'une figure\nUne figure admet un axe de symétrie si elle se superpose à elle-même par pliage le long de cet axe.\n\n**Exemples :**\n- **Carré** : 4 axes de symétrie\n- **Rectangle** : 2 axes de symétrie\n- **Cercle** : une infinité d'axes (tous les diamètres)\n- **Triangle isocèle** : 1 axe (médiatrice de la base)\n- **Triangle équilatéral** : 3 axes\n\n### Différence avec symétrie centrale (vue en 6ème)\n- **Axiale** : image par « pliage » le long d'un axe\n- **Centrale** : image par « demi-tour » autour d'un point",
+  "estimatedMinutes": 10,
+  "keyPoints": [
+    "Axiale : axe = médiatrice du segment [AA']",
+    "Conserve distances et angles",
+    "Axe perpendiculaire à [AA']",
+    "Pliage le long de l'axe = superposition"
+  ],
+  "exercise": {
+    "answer": "\n**Solution :**\nOui, le segment [AB] admet un axe de symétrie : c'est la médiatrice du segment, c'est-à-dire la droite perpendiculaire au segment qui passe par son milieu.\n\n**Réponse : La médiatrice de [AB]**\n        ",
+    "question": "Un segment [AB] admet-il un axe de symétrie ? Si oui, lequel ?"
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mcq",
+      "prompt": "Dans une symétrie axiale, l'axe est :",
+      "options": [
+        "Le milieu",
+        "La médiatrice",
+        "Parallèle",
+        "Le centre"
+      ],
+      "answer": 1,
+      "explanation": "Question issue du programme officiel."
+    },
+    {
+      "id": "q2",
+      "type": "mcq",
+      "prompt": "Combien d'axes de symétrie possède un carré ?",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "8"
+      ],
+      "answer": 2,
+      "explanation": "Question issue du programme officiel."
+    }
+  ]
+}
