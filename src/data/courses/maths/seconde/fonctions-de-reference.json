@@ -2,7 +2,7 @@
   "id": "maths-seconde-fonctions-de-reference",
   "title": "Fonctions de référence",
   "summary": "Chaque type de fonction a des propriétés spécifiques. Lesquelles faut-il connaître ?",
-  "lesson": "## Fonctions de référence\n\n### Fonction carrée : f(x) = x²\n- Df = ℝ\n- Paire\n- Croissante sur [0 ; +∞[\n- Décroissante sur ]−∞ ; 0]\n- Minimum en 0\n\n### Fonction inverse : f(x) = 1/x\n- Df = ℝ*\n- Impaire\n- Décroissante sur ]−∞ ; 0[ et sur ]0 ; +∞[\n\n### Fonction racine carrée : f(x) = √x\n- Df = [0 ; +∞[\n- Croissante sur [0 ; +∞[\n\n### Fonction valeur absolue : f(x) = |x|\n- Df = ℝ\n- Paire\n- Décroissante sur ]−∞ ; 0], croissante sur [0 ; +∞[",
+  "lesson": "## Fonctions de référence\n\n### Fonction carrée : f(x) = x²\n- Df = ℝ\n- Paire\n- Croissante sur [0 ; +∞[\n- Décroissante sur ]−∞ ; 0]\n- Minimum en 0\n\n### Fonction inverse : f(x) = 1/x\n- Df = ℝ*\n- Impaire\n- Décroissante sur ]−∞ ; 0[ et sur ]0 ; +∞[\n\n### Fonction racine carrée : f(x) = √x\n- Df = [0 ; +∞[\n- Croissante sur [0 ; +∞[\n\n### Fonction valeur absolue : f(x) = |x|\n\n- Df = ℝ\n- Paire\n- Décroissante sur ]−∞ ; 0], croissante sur [0 ; +∞[",
   "estimatedMinutes": 10,
   "keyPoints": [
     "Carrée : parité paire, minimum en 0",
@@ -11,7 +11,7 @@
   ],
   "exercise": {
     "question": "Résous graphiquement : x² = 4",
-    "answer": "\n**Solution :**\nOn cherche les abscisses des points d'intersection entre y = x² et y = 4.\n\n**Réponse : x = −2 ou x = 2**\n        "
+    "answer": "\n**Solution :**\nOn cherche les abscisses des points d'intersection entre y = x² et y = 4.\n\n**Réponse : x = −2 ou x = 2**\n"
   },
   "questions": [
     {
@@ -51,7 +51,7 @@
         "La fonction n'est ni paire ni impaire"
       ],
       "answer": 3,
-      "explanation": "Pour qu'une fonction soit paire ou impaire, son ensemble de définition doit être symétrique par rapport à 0. Ici, $D_f = [0 ; +\\infty[$, qui n'est pas symétrique (si $x \\in D_f$, alors $-x \notin D_f$ pour $x > 0$). Par conséquent, la fonction ne peut être ni paire ni impaire."
+      "explanation": "Pour qu'une fonction soit paire ou impaire, son ensemble de définition doit être symétrique par rapport à 0. Ici, $D_f = [0 ; +\\infty[$, qui n'est pas symétrique (si $x \\in D_f$, alors $-x\notin D_f$ pour $x > 0$). Par conséquent, la fonction ne peut être ni paire ni impaire."
     },
     {
       "id": "auto-maths-2-mv9mhy0t",

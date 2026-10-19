@@ -11,7 +11,7 @@
   ],
   "exercise": {
     "question": "**Exercice 1 :** Calcule (1 + i)²\n\n**Exercice 2 :** Calcule le module et l'argument de z = 1 + i√3\n\n**Exercice 3 :** Résous dans ℂ : z² + 2z + 5 = 0\n\n**Exercice 4 :** Calcule (1 + i)⁴ en utilisant la forme trigonométrique",
-    "answer": "\n**Solution Exercice 1 :**\n(1 + i)² = 1² + 2i + i² = 1 + 2i − 1 = 2i\n**Réponse : 2i**\n\n**Solution Exercice 2 :**\nz = 1 + i√3\n|z| = √(1² + (√3)²) = √(1 + 3) = 2\ntan(θ) = √3/1 = √3 ⟹ θ = π/3\n**Réponse : |z| = 2, arg(z) = π/3**\n\n**Solution Exercice 3 :**\nz² + 2z + 5 = 0\nΔ = 4 − 20 = −16 = (4i)²\nz₁ = (−2 + 4i)/2 = −1 + 2i\nz₂ = (−2 − 4i)/2 = −1 − 2i\n**Réponse : S = {−1 + 2i ; −1 − 2i}**\n\n**Solution Exercice 4 :**\n1 + i = √2(cos(π/4) + i sin(π/4))\n(1 + i)⁴ = (√2)⁴(cos(4π/4) + i sin(4π/4))\n= 4(cos(π) + i sin(π))\n= 4(−1 + 0) = −4\n**Réponse : −4**\n        "
+    "answer": "\n**Solution Exercice 1 :**\n(1 + i)² = 1² + 2i + i² = 1 + 2i − 1 = 2i\n**Réponse : 2i**\n\n**Solution Exercice 2 :**\nz = 1 + i√3\n|z| = √(1² + (√3)²) = √(1 + 3) = 2\ntan(θ) = √3/1 = √3 ⟹ θ = π/3\n**Réponse : |z| = 2, arg(z) = π/3**\n\n**Solution Exercice 3 :**\nz² + 2z + 5 = 0\nΔ = 4 − 20 = −16 = (4i)²\nz₁ = (−2 + 4i)/2 = −1 + 2i\nz₂ = (−2 − 4i)/2 = −1 − 2i\n**Réponse : S = {−1 + 2i ; −1 − 2i}**\n\n**Solution Exercice 4 :**\n1 + i = √2(cos(π/4) + i sin(π/4))\n(1 + i)⁴ = (√2)⁴(cos(4π/4) + i sin(4π/4))\n= 4(cos(π) + i sin(π))\n= 4(−1 + 0) = −4\n**Réponse : −4**\n"
   },
   "questions": [
     {
@@ -72,9 +72,9 @@
       "prompt": "Le module de $z = 1 + i$ est égal à :",
       "options": [
         "1",
-        "$\\\\sqrt{2}$",
+        "$\\sqrt{2}$",
         "2",
-        "$\\\\sqrt{3}$"
+        "$\\sqrt{3}$"
       ],
       "answer": 1,
       "explanation": "Question issue du programme officiel."
@@ -84,10 +84,10 @@
       "type": "mcq",
       "prompt": "Une mesure principale d'un argument de $z = -1 + i$ est :",
       "options": [
-        "$\\\\frac{\\\\pi}{4}$",
-        "$\\\\frac{3\\\\pi}{4}$",
-        "$-\\\\frac{\\\\pi}{4}$",
-        "$\\\\frac{5\\\\pi}{4}$"
+        "$\\frac{\\pi}{4}$",
+        "$\\frac{3\\pi}{4}$",
+        "$-\\frac{\\pi}{4}$",
+        "$\\frac{5\\pi}{4}$"
       ],
       "answer": 1,
       "explanation": "Question issue du programme officiel."
@@ -95,12 +95,12 @@
     {
       "id": "q7",
       "type": "mcq",
-      "prompt": "La forme exponentielle de $z = \\\\sqrt{3} + i$ est :",
+      "prompt": "La forme exponentielle de $z = \\sqrt{3} + i$ est :",
       "options": [
-        "2$e^{i\\\\frac{\\\\pi}{3}}$",
-        "2$e^{i\\\\frac{\\\\pi}{6}}$",
-        "4$e^{i\\\\frac{\\\\pi}{6}}$",
-        "$\\\\sqrt{2}e^{i\\\\frac{\\\\pi}{4}}$"
+        "2$e^{i\\frac{\\pi}{3}}$",
+        "2$e^{i\\frac{\\pi}{6}}$",
+        "4$e^{i\\frac{\\pi}{6}}$",
+        "$\\sqrt{2}e^{i\\frac{\\pi}{4}}$"
       ],
       "answer": 1,
       "explanation": "Question issue du programme officiel."
@@ -108,12 +108,12 @@
     {
       "id": "q8",
       "type": "mcq",
-      "prompt": "Soit $z = 2e^{i\\\\frac{2\\\\pi}{3}}$. Sa forme algébrique est :",
+      "prompt": "Soit $z = 2e^{i\\frac{2\\pi}{3}}$. Sa forme algébrique est :",
       "options": [
-        "$-1 + i\\\\sqrt{3}$",
-        "$-1 - i\\\\sqrt{3}$",
-        "$1 + i\\\\sqrt{3}$",
-        "$2 + 2i\\\\sqrt{3}$"
+        "$-1 + i\\sqrt{3}$",
+        "$-1 - i\\sqrt{3}$",
+        "$1 + i\\sqrt{3}$",
+        "$2 + 2i\\sqrt{3}$"
       ],
       "answer": 0,
       "explanation": "Question issue du programme officiel."
@@ -151,7 +151,7 @@
       "options": [
         "$i$ est un nombre réel",
         "$i^3 = -i$",
-        "$i = \\\\sqrt{-1}$ est la seule racine carrée de -1",
+        "$i = \\sqrt{-1}$ est la seule racine carrée de -1",
         "$i^4 = -1$"
       ],
       "answer": 1,
@@ -160,12 +160,12 @@
     {
       "id": "q12",
       "type": "mcq",
-      "prompt": "Si $z = \\\\frac{1+i}{1-i}$, alors $|z|$ est égal à :",
+      "prompt": "Si $z = \\frac{1+i}{1-i}$, alors $|z|$ est égal à :",
       "options": [
         "0",
         "1",
-        "$\\\\sqrt{2}$",
-        "$\\\\frac{1}{\\\\sqrt{2}}$"
+        "$\\sqrt{2}$",
+        "$\\frac{1}{\\sqrt{2}}$"
       ],
       "answer": 1,
       "explanation": "Question issue du programme officiel."
@@ -199,12 +199,12 @@
     {
       "id": "q15",
       "type": "mcq",
-      "prompt": "Soit $z = 2(\\\\cos\\\\frac{\\\\pi}{3} + i \\\\sin\\\\frac{\\\\pi}{3})$. Quelle est sa forme exponentielle ?",
+      "prompt": "Soit $z = 2(\\cos\\frac{\\pi}{3} + i \\sin\\frac{\\pi}{3})$. Quelle est sa forme exponentielle ?",
       "options": [
-        "$2e^{i\\\\frac{\\\\pi}{6}}$",
-        "$e^{i\\\\frac{\\\\pi}{3}}$",
-        "$2e^{i\\\\frac{\\\\pi}{3}}$",
-        "$\\\\frac{1}{2}e^{i\\\\frac{\\\\pi}{3}}$"
+        "$2e^{i\\frac{\\pi}{6}}$",
+        "$e^{i\\frac{\\pi}{3}}$",
+        "$2e^{i\\frac{\\pi}{3}}$",
+        "$\\frac{1}{2}e^{i\\frac{\\pi}{3}}$"
       ],
       "answer": 2,
       "explanation": "Question issue du programme officiel."
@@ -225,7 +225,7 @@
     {
       "id": "q17",
       "type": "mcq",
-      "prompt": "Si $|z| = 5$ et $\\\\text{arg}(z) = \\\\frac{\\\\pi}{2}$, quelle est la forme algébrique ?",
+      "prompt": "Si $|z| = 5$ et $\\text{arg}(z) = \\frac{\\pi}{2}$, quelle est la forme algébrique ?",
       "options": [
         "$5$",
         "$5i$",
@@ -256,7 +256,7 @@
         "$3$ et $-3$",
         "$3i$ et $-3i$",
         "$9i$ et $-9i$",
-        "$\\\\sqrt{9}$ et $-\\\\sqrt{9}$"
+        "$\\sqrt{9}$ et $-\\sqrt{9}$"
       ],
       "answer": 1,
       "explanation": "Question issue du programme officiel."
@@ -267,9 +267,9 @@
       "prompt": "Soit $z = 1+i$. Quel est son module ?",
       "options": [
         "$1$",
-        "$\\\\sqrt{2}$",
+        "$\\sqrt{2}$",
         "$2$",
-        "$\\\\sqrt{3}$"
+        "$\\sqrt{3}$"
       ],
       "answer": 1,
       "explanation": "Question issue du programme officiel."
@@ -292,10 +292,10 @@
       "type": "mcq",
       "prompt": "Pour que O, A($z_A$) et B($z_B$) soient alignés, il faut que :",
       "options": [
-        "$\\\\frac{z_A}{z_B} \\\\in \\\\mathbb{R}$",
-        "$z_A \\\\times z_B = 0$",
+        "$\\frac{z_A}{z_B} \\in \\mathbb{R}$",
+        "$z_A \\times z_B = 0$",
         "$|z_A| = |z_B|$",
-        "$\\\\text{Im}(z_A) = \\\\text{Im}(z_B)$"
+        "$\\text{Im}(z_A) = \\text{Im}(z_B)$"
       ],
       "answer": 0,
       "explanation": "Question issue du programme officiel."
@@ -305,10 +305,10 @@
       "type": "mcq",
       "prompt": "La forme exponentielle de $1-i$ est :",
       "options": [
-        "$\\\\sqrt{2}e^{-i\\\\frac{\\\\pi}{4}}$",
-        "$\\\\sqrt{2}e^{i\\\\frac{\\\\pi}{4}}$",
-        "$e^{-i\\\\frac{\\\\pi}{4}}$",
-        "$\\\\sqrt{2}e^{i\\\\frac{3\\\\pi}{4}}$"
+        "$\\sqrt{2}e^{-i\\frac{\\pi}{4}}$",
+        "$\\sqrt{2}e^{i\\frac{\\pi}{4}}$",
+        "$e^{-i\\frac{\\pi}{4}}$",
+        "$\\sqrt{2}e^{i\\frac{3\\pi}{4}}$"
       ],
       "answer": 0,
       "explanation": "Question issue du programme officiel."

@@ -2,7 +2,7 @@
   "id": "maths-terminale-fonction-logarithme-neperien",
   "title": "Fonction logarithme népérien",
   "summary": "Le médico-scolaire de la commune d'Abobo organise une campagne de dépistage de la fièvre typhoïde. Après avoir examiné n élèves au hasard, le médecin affirme que la probabilité d'avoir au moins un élève non atteint est $1 - (0,325)^n$. Le chef de l'établissement veut connaître le nombre minimum d'élèves tel que cette probabilité soit supérieure à 0,98. Après des essais infructueux avec la calculatrice, le professeur de maths suggère d'utiliser les propriétés du logarithme népérien.",
-  "lesson": "## 1. Définition et notation\nLa fonction logarithme népérien, notée $\\\\ln$, est la fonction définie sur $]0,+\\\\infty[$ qui à $x>0$ associe l'unique réel y tel que $e^y = x$.\n\n**Propriété fondamentale** : $\\\\ln(e^x) = x$ pour tout $x∈\\\\mathbb{R}$ et $e^{\\\\ln x} = x$ pour tout $x>0$.\n\n## 2. Valeurs particulières\n\n- $\\\\ln(1) = 0$\n- $\\\\ln(e) = 1$\n- $e \\\\approx 2,71828$\n\n```mermaid\ngraph LR\n    A[x > 0] --> B[ln x = y]\n    B --> C[e^y = x]\n    C --> A\n```\n\n## 3. Signe et variations\n\n- $\\\\ln x < 0$ pour $0 < x < 1$\n- $\\\\ln x = 0$ pour $x = 1$\n- $\\\\ln x > 0$ pour $x > 1$\n\nLa fonction ln est strictement croissante sur $]0,+\\\\infty[$.\n\n## 4. Dérivée\n\nPour $x > 0$, $(\\\\ln x)' = \\\\frac{1}{x}$.\n\n**Conséquences** :\n- $(\\\\ln(ax+b))' = \\\\frac{a}{ax+b}$ pour $ax+b > 0$\n- $(a\\\\ln x + b)' = \\\\frac{a}{x}$\n\n## 5. Propriétés algébriques\n\nPour $a>0$, $b>0$, $n∈\\\\mathbb{Z}$ :\n\n1. $\\\\ln(ab) = \\\\ln a + \\\\ln b$\n2. $\\\\ln(\\\\frac{a}{b}) = \\\\ln a - \\\\ln b$\n3. $\\\\ln(a^n) = n\\\\ln a$\n4. $\\\\ln(\\\\sqrt{a}) = \\\\frac{1}{2}\\\\ln a$\n\n**Comparaison** : $\\\\ln a < \\\\ln b ⇔ a < b$\n\n## 6. Limites importantes\n\n| Limite | Résultat |\n|--------|----------|\n| $\\\\lim_{x \\\to 0^+} \\\\ln x$ | $-\\\\infty$ |\n| $\\\\lim_{x \\\to +\\\\infty} \\\\ln x$ | $+\\\\infty$ |\n| $\\\\lim_{x \\\to +\\\\infty} \\\\frac{\\\\ln x}{x}$ | $0$ |\n| $\\\\lim_{x \\\to 0^+} x\\\\ln x$ | $0$ |\n\n## 7. Équations et inéquations avec ln\n\n**Équations** : $\\\\ln A = \\\\ln B ⇔ A = B > 0$\n\n**Inéquations** : $\\\\ln A < \\\\ln B ⇔ 0 < A < B$\n\n**Exemple** : Résoudre $\\\\ln(2x-1) = 3$ :\n$2x-1 = e^3$ donc $x = \\\\frac{e^3+1}{2}$\n\n## 8. Étude de fonctions avec ln\n\n**Type 1** : $f(x) = a\\\\ln x + b$\n- Dérivée : $f'(x) = \\\\frac{a}{x}$\n- Variations : dépend du signe de a\n\n**Type 2** : $f(x) = \\\\ln(ax+b)$\n- Domaine : $ax+b > 0$\n- Dérivée : $f'(x) = \\\\frac{a}{ax+b}$\n\n```mathgraph\n{\n  \"type\": \"function\",\n  \"title\": \"Fonction logarithme népérien et ses variations\",\n  \"xRange\": [0.1, 5],\n  \"yRange\": [-3, 2],\n  \"functions\": [\n    { \"expression\": \"ln(x)\", \"color\": \"#3b82f6\", \"name\": \"ln(x)\" },\n    { \"expression\": \"2*ln(x) - 1\", \"color\": \"#ef4444\", \"name\": \"2ln(x)-1\" }\n  ],\n  \"showGrid\": true,\n  \"showAxes\": true,\n  \"xLabel\": \"x\",\n  \"yLabel\": \"y\",\n  \"points\": [\n    { \"x\": 1, \"y\": 0, \"color\": \"#10b981\", \"name\": \"(1,0)\" },\n    { \"x\": 2.718, \"y\": 1, \"color\": \"#8b5cf6\", \"name\": \"(e,1)\" }\n  ]\n}\n```\n\n## 9. Application à la situation de dépistage\n\nOn cherche n tel que : $1 - (0,325)^n > 0,98$\nSoit : $-(0,325)^n > -0,02$\n$(0,325)^n < 0,02$\n\nEn appliquant ln (fonction croissante) :\n$\\\\ln[(0,325)^n] < \\\\ln(0,02)$\n$n \\\\ln(0,325) < \\\\ln(0,02)$\n\nOr $\\\\ln(0,325) ≈ -1,124$ (négatif), donc en divisant, le sens change :\n$n > \\\\frac{\\\\ln(0,02)}{\\\\ln(0,325)} ≈ \\\\frac{-3,912}{-1,124} ≈ 3,48$\n\nDonc $n \\\\geq 4$ (car n entier). Il faut examiner au moins 4 élèves.\n\n## 10. Applications en économie ivoirienne\n\n- Calcul du temps de doublement d'un investissement\n- Modélisation de décroissance exponentielle (dépréciation)\n- Résolution d'équations exponentielles en finance",
+  "lesson": "## 1. Définition et notation\nLa fonction logarithme népérien, notée $\\ln$, est la fonction définie sur $]0,+\\infty[$ qui à $x>0$ associe l'unique réel y tel que $e^y = x$.\n\n**Propriété fondamentale** : $\\ln(e^x) = x$ pour tout $x∈\\mathbb{R}$ et $e^{\\ln x} = x$ pour tout $x>0$.\n\n## 2. Valeurs particulières\n\n- $\\ln(1) = 0$\n- $\\ln(e) = 1$\n- $e \\approx 2,71828$\n\n```mermaid\ngraph LR\n    A[x > 0] --> B[ln x = y]\n    B --> C[e^y = x]\n    C --> A\n```\n\n## 3. Signe et variations\n\n- $\\ln x < 0$ pour $0 < x < 1$\n- $\\ln x = 0$ pour $x = 1$\n- $\\ln x > 0$ pour $x > 1$\n\nLa fonction ln est strictement croissante sur $]0,+\\infty[$.\n\n## 4. Dérivée\n\nPour $x > 0$, $(\\ln x)' = \\frac{1}{x}$.\n\n**Conséquences** :\n- $(\\ln(ax+b))' = \\frac{a}{ax+b}$ pour $ax+b > 0$\n- $(a\\ln x + b)' = \\frac{a}{x}$\n\n## 5. Propriétés algébriques\n\nPour $a>0$, $b>0$, $n∈\\mathbb{Z}$ :\n\n1. $\\ln(ab) = \\ln a + \\ln b$\n2. $\\ln(\\frac{a}{b}) = \\ln a - \\ln b$\n3. $\\ln(a^n) = n\\ln a$\n4. $\\ln(\\sqrt{a}) = \\frac{1}{2}\\ln a$\n\n**Comparaison** : $\\ln a < \\ln b ⇔ a < b$\n\n## 6. Limites importantes\n\n| Limite | Résultat |\n|--------|----------|\n| $\\lim_{x \\to 0^+} \\ln x$ | $-\\infty$ |\n| $\\lim_{x \\to +\\infty} \\ln x$ | $+\\infty$ |\n| $\\lim_{x \\to +\\infty} \\frac{\\ln x}{x}$ | $0$ |\n| $\\lim_{x \\to 0^+} x\\ln x$ | $0$ |\n\n## 7. Équations et inéquations avec ln\n\n**Équations** : $\\ln A = \\ln B ⇔ A = B > 0$\n\n**Inéquations** : $\\ln A < \\ln B ⇔ 0 < A < B$\n\n**Exemple** : Résoudre $\\ln(2x-1) = 3$ :\n$2x-1 = e^3$ donc $x = \\frac{e^3+1}{2}$\n\n## 8. Étude de fonctions avec ln\n\n**Type 1** : $f(x) = a\\ln x + b$\n- Dérivée : $f'(x) = \\frac{a}{x}$\n- Variations : dépend du signe de a\n\n**Type 2** : $f(x) = \\ln(ax+b)$\n- Domaine : $ax+b > 0$\n- Dérivée : $f'(x) = \\frac{a}{ax+b}$\n\n```mathgraph\n{\n  \"type\": \"function\",\n  \"title\": \"Fonction logarithme népérien et ses variations\",\n  \"xRange\": [0.1, 5],\n  \"yRange\": [-3, 2],\n  \"functions\": [\n    { \"expression\": \"ln(x)\", \"color\": \"#3b82f6\", \"name\": \"ln(x)\" },\n    { \"expression\": \"2*ln(x) - 1\", \"color\": \"#ef4444\", \"name\": \"2ln(x)-1\" }\n  ],\n  \"showGrid\": true,\n  \"showAxes\": true,\n  \"xLabel\": \"x\",\n  \"yLabel\": \"y\",\n  \"points\": [\n    { \"x\": 1, \"y\": 0, \"color\": \"#10b981\", \"name\": \"(1,0)\" },\n    { \"x\": 2.718, \"y\": 1, \"color\": \"#8b5cf6\", \"name\": \"(e,1)\" }\n  ]\n}\n```\n\n## 9. Application à la situation de dépistage\n\nOn cherche n tel que : $1 - (0,325)^n > 0,98$\nSoit : $-(0,325)^n > -0,02$\n$(0,325)^n < 0,02$\n\nEn appliquant ln (fonction croissante) :\n$\\ln[(0,325)^n] < \\ln(0,02)$\n$n \\ln(0,325) < \\ln(0,02)$\n\nOr $\\ln(0,325) ≈ -1,124$ (négatif), donc en divisant, le sens change :\n$n > \\frac{\\ln(0,02)}{\\ln(0,325)} ≈ \\frac{-3,912}{-1,124} ≈ 3,48$\n\nDonc $n \\geq 4$ (car n entier). Il faut examiner au moins 4 élèves.\n\n## 10. Applications en économie ivoirienne\n\n- Calcul du temps de doublement d'un investissement\n- Modélisation de décroissance exponentielle (dépréciation)\n- Résolution d'équations exponentielles en finance",
   "estimatedMinutes": 10,
   "keyPoints": [
     "ln est définie seulement sur ]0,+∞[ et vérifie ln(ab)=ln a+ln b",
@@ -18,12 +18,12 @@
     {
       "id": "q1",
       "type": "mcq",
-      "prompt": "Le domaine de définition de $f(x) = \\\\ln(3x-2)$ est :",
+      "prompt": "Le domaine de définition de $f(x) = \\ln(3x-2)$ est :",
       "options": [
-        "$x > \\\\frac{2}{3}$",
-        "$x ≥ \\\\frac{2}{3}$",
-        "$x < \\\\frac{2}{3}$",
-        "$\\\\mathbb{R}$"
+        "$x > \\frac{2}{3}$",
+        "$x ≥ \\frac{2}{3}$",
+        "$x < \\frac{2}{3}$",
+        "$\\mathbb{R}$"
       ],
       "answer": 0,
       "explanation": "Question issue du programme officiel."
@@ -31,12 +31,12 @@
     {
       "id": "q2",
       "type": "mcq",
-      "prompt": "$\\\\ln(e^5)$ est égal à :",
+      "prompt": "$\\ln(e^5)$ est égal à :",
       "options": [
         "5",
         "e",
         "$e^5$",
-        "$5\\\\ln e$"
+        "$5\\ln e$"
       ],
       "answer": 0,
       "explanation": "Question issue du programme officiel."
@@ -44,7 +44,7 @@
     {
       "id": "q3",
       "type": "mcq",
-      "prompt": "Si $\\\\ln a < \\\\ln b$, alors :",
+      "prompt": "Si $\\ln a < \\ln b$, alors :",
       "options": [
         "a < b",
         "a > b",
@@ -57,12 +57,12 @@
     {
       "id": "q4",
       "type": "mcq",
-      "prompt": "La dérivée de $f(x) = 3\\\\ln x - 2x$ est :",
+      "prompt": "La dérivée de $f(x) = 3\\ln x - 2x$ est :",
       "options": [
-        "$\\\\frac{3}{x} - 2$",
-        "$\\\\frac{3}{x} - 2x$",
-        "$3\\\\ln x - 2$",
-        "$\\\\frac{1}{x} - 2$"
+        "$\\frac{3}{x} - 2$",
+        "$\\frac{3}{x} - 2x$",
+        "$3\\ln x - 2$",
+        "$\\frac{1}{x} - 2$"
       ],
       "answer": 0,
       "explanation": "Question issue du programme officiel."
@@ -70,12 +70,12 @@
     {
       "id": "q5",
       "type": "mcq",
-      "prompt": "Quel est le domaine de définition de $f(x)=\\\\ln(3x-6)$ ?",
+      "prompt": "Quel est le domaine de définition de $f(x)=\\ln(3x-6)$ ?",
       "options": [
-        "$\\\\mathbb{R}$",
-        "$]2,+\\\\infty[$",
-        "$]-\\\\infty,2[$",
-        "$]0,+\\\\infty[$"
+        "$\\mathbb{R}$",
+        "$]2,+\\infty[$",
+        "$]-\\infty,2[$",
+        "$]0,+\\infty[$"
       ],
       "answer": 1,
       "explanation": "Question issue du programme officiel."
@@ -83,12 +83,12 @@
     {
       "id": "q6",
       "type": "mcq",
-      "prompt": "Simplifier $\\\\ln(e^3 \\\\times 5)$ :",
+      "prompt": "Simplifier $\\ln(e^3 \\times 5)$ :",
       "options": [
-        "$3+\\\\ln 5$",
-        "$3\\\\ln 5$",
-        "$\\\\ln(5e^3)$",
-        "$5\\\\ln e^3$"
+        "$3+\\ln 5$",
+        "$3\\ln 5$",
+        "$\\ln(5e^3)$",
+        "$5\\ln e^3$"
       ],
       "answer": 0,
       "explanation": "Question issue du programme officiel."
@@ -96,7 +96,7 @@
     {
       "id": "q7",
       "type": "mcq",
-      "prompt": "La solution de $\\\\ln(x+2) = 0$ est :",
+      "prompt": "La solution de $\\ln(x+2) = 0$ est :",
       "options": [
         "x=0",
         "x=-1",
@@ -109,10 +109,10 @@
     {
       "id": "q8",
       "type": "mcq",
-      "prompt": "Quelle est la limite de $\\\\frac{\\\\ln x}{x}$ quand $x\\\\to+\\\\infty$ ?",
+      "prompt": "Quelle est la limite de $\\frac{\\ln x}{x}$ quand $x\\to+\\infty$ ?",
       "options": [
-        "$+\\\\infty$",
-        "$-\\\\infty$",
+        "$+\\infty$",
+        "$-\\infty$",
         "0",
         "1"
       ],

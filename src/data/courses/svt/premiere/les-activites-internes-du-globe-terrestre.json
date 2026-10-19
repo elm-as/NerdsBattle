@@ -13,7 +13,7 @@
   ],
   "exercise": {
     "question": "Un séisme se produit à 100 km de profondeur. Les ondes P arrivent à une station sismique 15 secondes après le séisme. Calculez la vitesse moyenne des ondes P et expliquez pourquoi les ondes S n'atteignent pas tous les points du globe.",
-    "answer": "\n**Solution :**\n\n**1. Calcul de la vitesse des ondes P :**\n\nDistance = 100 km = 100 000 m\nTemps = 15 s\n\nVitesse = Distance / Temps\nVitesse = 100 000 m / 15 s = 6 667 m/s ≈ 6,7 km/s\n\n**Réponse : La vitesse moyenne des ondes P est de 6,7 km/s.**\n\n**2. Propagation des ondes S :**\n\nLes ondes S sont des ondes de cisaillement qui ne peuvent se propager que dans les milieux solides.\n\nLe noyau externe de la Terre est liquide (constitué de fer et nickel fondus). Les ondes S ne peuvent donc pas le traverser.\n\nCela crée une **zone d'ombre** pour les ondes S entre 103° et 180° de distance angulaire par rapport à l'épicentre.\n\n**Réponse : Les ondes S ne se propagent pas dans le noyau externe liquide, créant une zone d'ombre sismique.**\n        "
+    "answer": "\n**Solution :**\n\n**1. Calcul de la vitesse des ondes P :**\n\nDistance = 100 km = 100 000 m\nTemps = 15 s\n\nVitesse = Distance / Temps\nVitesse = 100 000 m / 15 s = 6 667 m/s ≈ 6,7 km/s\n\n**Réponse : La vitesse moyenne des ondes P est de 6,7 km/s.**\n\n**2. Propagation des ondes S :**\n\nLes ondes S sont des ondes de cisaillement qui ne peuvent se propager que dans les milieux solides.\n\nLe noyau externe de la Terre est liquide (constitué de fer et nickel fondus). Les ondes S ne peuvent donc pas le traverser.\n\nCela crée une **zone d'ombre** pour les ondes S entre 103° et 180° de distance angulaire par rapport à l'épicentre.\n\n**Réponse : Les ondes S ne se propagent pas dans le noyau externe liquide, créant une zone d'ombre sismique.**\n"
   },
   "questions": [
     {
@@ -112,9 +112,9 @@
       "type": "mcq",
       "prompt": "Quelle formule utilise-t-on pour calculer la magnitude locale?",
       "options": [
-        "$M_L = \\\\log_{10}(A) - \\\\log_{10}(A_0)$",
-        "$M_L = \\\\sqrt{A \\\\times t}$",
-        "$M_L = \\\\frac{A}{t}$",
+        "$M_L = \\log_{10}(A) - \\log_{10}(A_0)$",
+        "$M_L = \\sqrt{A \\times t}$",
+        "$M_L = \\frac{A}{t}$",
         "$M_L = A^2 + t^2$"
       ],
       "answer": 0,

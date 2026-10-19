@@ -2,7 +2,7 @@
   "id": "physique-terminale-cinematique-du-point",
   "title": "Cinématique du point",
   "summary": "Lors des championnats scolaires régionaux au Lycée Moderne de San-Pédro, un élève de Terminale C parcourt une piste d'athlétisme comprenant une portion rectiligne de 100 m et un virage semi-circulaire. Sur la partie rectiligne, il part du repos et accélère pendant 5 secondes jusqu'à atteindre une vitesse constante de 8 m/s qu'il maintient dans le virage. Les élèves observent sa course et souhaitent analyser scientifiquement les différentes phases de son mouvement pour améliorer sa performance.",
-  "lesson": "## 1. Introduction à la cinématique\n\nLa cinématique est la branche de la mécanique qui étudie le mouvement des corps sans considérer les causes qui le produisent. Elle permet de décrire mathématiquement comment un objet se déplace dans l'espace en fonction du temps. En Côte d'Ivoire, cette discipline trouve des applications dans l'analyse des mouvements sportifs, l'étude du trafic routier sur l'autoroute du Nord, et l'optimisation des processus industriels dans les usines de transformation de cacao.\n\n## 2. Système de référence et repère\n\nPour décrire un mouvement, on a besoin d'un référentiel (solide de référence considéré comme fixe) et d'un repère (système de coordonnées). En physique, on utilise souvent le référentiel terrestre pour les mouvements à la surface de la Terre. Le repère cartésien est défini par une origine O et trois axes orthonormés (Ox, Oy, Oz).\n\n## 3. Vecteur position\n\nLe vecteur position $\\\\overrightarrow{OM}(t)$ indique la position d'un point M à l'instant t par rapport à l'origine O du repère. Dans le plan (Oxy), il s'exprime : $\\\\overrightarrow{OM}(t) = x(t)\\\\overrightarrow{i} + y(t)\\\\overrightarrow{j}$\n\n**Description du schéma 1: Représentation du vecteur position dans un plan**\nReprésenter un repère orthonormé (O, x, y) avec l'axe horizontal Ox et l'axe vertical Oy. Placer un point M à des coordonnées (x, y). Tracer le vecteur position $\\\\overrightarrow{OM}$ depuis l'origine O jusqu'au point M. Ajouter les composantes x et y projetées sur les axes. Indiquer l'angle θ que fait le vecteur avec l'axe Ox. Légender: \"O: origine du repère\", \"M: position du mobile\", \"$\\\\overrightarrow{OM}$: vecteur position\", \"x: abscisse\", \"y: ordonnée\".\n\n## 4. Vecteur vitesse\n\nLa vitesse instantanée est la dérivée du vecteur position par rapport au temps : $\\\\overrightarrow{v}(t) = \\\\frac{d\\\\overrightarrow{OM}}{dt} = \\\\frac{dx}{dt}\\\\overrightarrow{i} + \\\\frac{dy}{dt}\\\\overrightarrow{j}$\n\nSa norme est : $v = \\\\sqrt{\\\\left(\\\\frac{dx}{dt}\\\\right)^2 + \\\\left(\\\\frac{dy}{dt}\\\\right)^2}$\n\nLa direction du vecteur vitesse est tangente à la trajectoire.\n\n## 5. Vecteur accélération\n\nL'accélération instantanée est la dérivée du vecteur vitesse par rapport au temps : $\\\\overrightarrow{a}(t) = \\\\frac{d\\\\overrightarrow{v}}{dt} = \\\\frac{d^2\\\\overrightarrow{OM}}{dt^2} = \\\\frac{d^2x}{dt^2}\\\\overrightarrow{i} + \\\\frac{d^2y}{dt^2}\\\\overrightarrow{j}$\n\nL'accélération peut se décomposer en deux composantes :\n- Accélération tangentielle $a_t$ : suivant la tangente à la trajectoire\n- Accélération normale $a_n$ : suivant la normale à la trajectoire, dirigée vers le centre de courbure\n\n## 6. Mouvement rectiligne uniforme (MRU)\n\nUn mobile a un mouvement rectiligne uniforme si sa trajectoire est une droite et sa vitesse est constante.\n\nÉquations horaires :\n$x(t) = v_0 \\\\cdot t + x_0$\n$v(t) = v_0 = \\\\text{constante}$\n$a(t) = 0$\n\nExemple : Une voiture roulant à vitesse constante sur la route Abidjan-Yamoussoukro.\n\n**Description du schéma 2: Graphiques du mouvement rectiligne uniforme**\nReprésenter trois graphiques alignés verticalement. Premier graphique: position x en fonction du temps t, montrer une droite croissante de pente v0. Deuxième graphique: vitesse v en fonction du temps t, montrer une droite horizontale à la valeur v0. Troisième graphique: accélération a en fonction du temps t, montrer une droite horizontale à zéro. Ajouter les légendes: \"x(t) = v0·t + x0\", \"v(t) = v0 = constante\", \"a(t) = 0\".\n\n## 7. Mouvement rectiligne uniformément varié (MRUV)\n\nUn mobile a un mouvement rectiligne uniformément varié si sa trajectoire est une droite et son accélération est constante.\n\nÉquations horaires :\n$x(t) = \\\\frac{1}{2} a \\\\cdot t^2 + v_0 \\\\cdot t + x_0$\n$v(t) = a \\\\cdot t + v_0$\n$a(t) = a = \\\\text{constante}$\n\nRelation utile : $v^2 - v_0^2 = 2a(x - x_0)$\n\nExemple : Un camion transportant du cacao qui accélère ou freine uniformément.\n\n## 8. Mouvement circulaire uniforme (MCU)\n\nUn mobile a un mouvement circulaire uniforme si sa trajectoire est un cercle et sa vitesse angulaire est constante.\n\nÉquations horaires (coordonnées polaires) :\n$\\\\theta(t) = \\\\omega \\\\cdot t + \\\\theta_0$\n$s(t) = R \\\\cdot \\\\theta(t) = R\\\\omega t + s_0$ (avec s : abscisse curviligne)\n\nRelations :\n$v = R\\\\omega$ (vitesse linéaire)\n$a_n = \\\\frac{v^2}{R} = R\\\\omega^2$ (accélération normale centripète)\n$a_t = 0$ (accélération tangentielle nulle)\n\n**Description du schéma 3: Mouvement circulaire uniforme**\nReprésenter un cercle de centre O et de rayon R. Placer un point M sur le cercle avec sa position angulaire θ. Tracer le vecteur vitesse $\\\\overrightarrow{v}$ tangent au cercle au point M. Tracer le vecteur accélération normale $\\\\overrightarrow{a_n}$ dirigé vers le centre O. Indiquer le rayon R et l'angle θ. Ajouter la flèche circulaire montrant le sens de rotation. Légender: \"O: centre du cercle\", \"R: rayon\", \"$\\\\overrightarrow{v}$: vecteur vitesse tangentiel\", \"$\\\\overrightarrow{a_n}$: accélération normale centripète\", \"θ: angle polaire\".\n\n## 9. Exploitation d'un enregistrement\n\nEn TP, on peut utiliser des enregistrements (chronophotographie, capteurs) pour étudier le mouvement. On mesure les positions successives à intervalles de temps réguliers Δt. La vitesse instantanée au point M_i peut être approximée par : $v_i \\\\approx \\\\frac{M_{i+1}M_{i-1}}{2\\\\Delta t}$\n\n## 10. Applications en contexte ivoirien\n\n- Analyse du mouvement des engins agricoles dans les plantations\n- Étude de la circulation sur le pont Houphouët-Boigny à Abidjan\n- Optimisation des trajectoires dans les mines de fer du Mont Nimba\n- Analyse sportive pour les athlètes ivoiriens",
+  "lesson": "## 1. Introduction à la cinématique\n\nLa cinématique est la branche de la mécanique qui étudie le mouvement des corps sans considérer les causes qui le produisent. Elle permet de décrire mathématiquement comment un objet se déplace dans l'espace en fonction du temps. En Côte d'Ivoire, cette discipline trouve des applications dans l'analyse des mouvements sportifs, l'étude du trafic routier sur l'autoroute du Nord, et l'optimisation des processus industriels dans les usines de transformation de cacao.\n\n## 2. Système de référence et repère\n\nPour décrire un mouvement, on a besoin d'un référentiel (solide de référence considéré comme fixe) et d'un repère (système de coordonnées). En physique, on utilise souvent le référentiel terrestre pour les mouvements à la surface de la Terre. Le repère cartésien est défini par une origine O et trois axes orthonormés (Ox, Oy, Oz).\n\n## 3. Vecteur position\n\nLe vecteur position $\\overrightarrow{OM}(t)$ indique la position d'un point M à l'instant t par rapport à l'origine O du repère. Dans le plan (Oxy), il s'exprime : $\\overrightarrow{OM}(t) = x(t)\\overrightarrow{i} + y(t)\\overrightarrow{j}$\n\n**Description du schéma 1: Représentation du vecteur position dans un plan**\nReprésenter un repère orthonormé (O, x, y) avec l'axe horizontal Ox et l'axe vertical Oy. Placer un point M à des coordonnées (x, y). Tracer le vecteur position $\\overrightarrow{OM}$ depuis l'origine O jusqu'au point M. Ajouter les composantes x et y projetées sur les axes. Indiquer l'angle θ que fait le vecteur avec l'axe Ox. Légender: \"O: origine du repère\", \"M: position du mobile\", \"$\\overrightarrow{OM}$: vecteur position\", \"x: abscisse\", \"y: ordonnée\".\n\n## 4. Vecteur vitesse\n\nLa vitesse instantanée est la dérivée du vecteur position par rapport au temps : $\\overrightarrow{v}(t) = \\frac{d\\overrightarrow{OM}}{dt} = \\frac{dx}{dt}\\overrightarrow{i} + \\frac{dy}{dt}\\overrightarrow{j}$\n\nSa norme est : $v = \\sqrt{\\left(\\frac{dx}{dt}\\right)^2 + \\left(\\frac{dy}{dt}\\right)^2}$\n\nLa direction du vecteur vitesse est tangente à la trajectoire.\n\n## 5. Vecteur accélération\n\nL'accélération instantanée est la dérivée du vecteur vitesse par rapport au temps : $\\overrightarrow{a}(t) = \\frac{d\\overrightarrow{v}}{dt} = \\frac{d^2\\overrightarrow{OM}}{dt^2} = \\frac{d^2x}{dt^2}\\overrightarrow{i} + \\frac{d^2y}{dt^2}\\overrightarrow{j}$\n\nL'accélération peut se décomposer en deux composantes :\n- Accélération tangentielle $a_t$ : suivant la tangente à la trajectoire\n- Accélération normale $a_n$ : suivant la normale à la trajectoire, dirigée vers le centre de courbure\n\n## 6. Mouvement rectiligne uniforme (MRU)\n\nUn mobile a un mouvement rectiligne uniforme si sa trajectoire est une droite et sa vitesse est constante.\n\nÉquations horaires :\n$x(t) = v_0 \\cdot t + x_0$\n$v(t) = v_0 = \\text{constante}$\n$a(t) = 0$\n\nExemple : Une voiture roulant à vitesse constante sur la route Abidjan-Yamoussoukro.\n\n**Description du schéma 2: Graphiques du mouvement rectiligne uniforme**\nReprésenter trois graphiques alignés verticalement. Premier graphique: position x en fonction du temps t, montrer une droite croissante de pente v0. Deuxième graphique: vitesse v en fonction du temps t, montrer une droite horizontale à la valeur v0. Troisième graphique: accélération a en fonction du temps t, montrer une droite horizontale à zéro. Ajouter les légendes: \"x(t) = v0·t + x0\", \"v(t) = v0 = constante\", \"a(t) = 0\".\n\n## 7. Mouvement rectiligne uniformément varié (MRUV)\n\nUn mobile a un mouvement rectiligne uniformément varié si sa trajectoire est une droite et son accélération est constante.\n\nÉquations horaires :\n$x(t) = \\frac{1}{2} a \\cdot t^2 + v_0 \\cdot t + x_0$\n$v(t) = a \\cdot t + v_0$\n$a(t) = a = \\text{constante}$\n\nRelation utile : $v^2 - v_0^2 = 2a(x - x_0)$\n\nExemple : Un camion transportant du cacao qui accélère ou freine uniformément.\n\n## 8. Mouvement circulaire uniforme (MCU)\n\nUn mobile a un mouvement circulaire uniforme si sa trajectoire est un cercle et sa vitesse angulaire est constante.\n\nÉquations horaires (coordonnées polaires) :\n$\\theta(t) = \\omega \\cdot t + \\\theta_0$\n$s(t) = R \\cdot \\theta(t) = R\\omega t + s_0$ (avec s : abscisse curviligne)\n\nRelations :\n$v = R\\omega$ (vitesse linéaire)\n$a_n = \\frac{v^2}{R} = R\\omega^2$ (accélération normale centripète)\n$a_t = 0$ (accélération tangentielle nulle)\n\n**Description du schéma 3: Mouvement circulaire uniforme**\nReprésenter un cercle de centre O et de rayon R. Placer un point M sur le cercle avec sa position angulaire θ. Tracer le vecteur vitesse $\\overrightarrow{v}$ tangent au cercle au point M. Tracer le vecteur accélération normale $\\overrightarrow{a_n}$ dirigé vers le centre O. Indiquer le rayon R et l'angle θ. Ajouter la flèche circulaire montrant le sens de rotation. Légender: \"O: centre du cercle\", \"R: rayon\", \"$\\overrightarrow{v}$: vecteur vitesse tangentiel\", \"$\\overrightarrow{a_n}$: accélération normale centripète\", \"θ: angle polaire\".\n\n## 9. Exploitation d'un enregistrement\n\nEn TP, on peut utiliser des enregistrements (chronophotographie, capteurs) pour étudier le mouvement. On mesure les positions successives à intervalles de temps réguliers Δt. La vitesse instantanée au point M_i peut être approximée par : $v_i \\approx \\frac{M_{i+1}M_{i-1}}{2\\Delta t}$\n\n## 10. Applications en contexte ivoirien\n\n- Analyse du mouvement des engins agricoles dans les plantations\n- Étude de la circulation sur le pont Houphouët-Boigny à Abidjan\n- Optimisation des trajectoires dans les mines de fer du Mont Nimba\n- Analyse sportive pour les athlètes ivoiriens",
   "estimatedMinutes": 10,
   "keyPoints": [
     "Le vecteur position localise un point dans l'espace à chaque instant",
@@ -11,7 +11,7 @@
     "MRU: trajectoire droite, vitesse constante, accélération nulle",
     "MRUV: trajectoire droite, accélération constante",
     "MCU: trajectoire circulaire, vitesse angulaire constante, accélération centripète",
-    "La relation $v^2 - v_0^2 = 2a\\\\Delta x$ est très utile en MRUV",
+    "La relation $v^2 - v_0^2 = 2a\\Delta x$ est très utile en MRUV",
     "En MCU, l'accélération est purement normale (centripète)"
   ],
   "exercise": {
@@ -74,7 +74,7 @@
     {
       "id": "q5",
       "type": "mcq",
-      "prompt": "La relation $v^2 - v_0^2 = 2a\\\\Delta x$ est valable pour :",
+      "prompt": "La relation $v^2 - v_0^2 = 2a\\Delta x$ est valable pour :",
       "options": [
         "Tous les mouvements",
         "Mouvement rectiligne uniforme seulement",
@@ -141,10 +141,10 @@
       "type": "mcq",
       "prompt": "Dans l'étude d'un enregistrement, comment approxime-t-on la vitesse instantanée au point M_i ?",
       "options": [
-        "$v_i \\\\approx \\\\frac{M_iM_{i+1}}{\\\\Delta t}$",
-        "$v_i \\\\approx \\\\frac{M_{i-1}M_i}{\\\\Delta t}$",
-        "$v_i \\\\approx \\\\frac{M_{i+1}M_{i-1}}{2\\\\Delta t}$",
-        "$v_i \\\\approx \\\\frac{M_1M_n}{t_n - t_1}$"
+        "$v_i \\approx \\frac{M_iM_{i+1}}{\\Delta t}$",
+        "$v_i \\approx \\frac{M_{i-1}M_i}{\\Delta t}$",
+        "$v_i \\approx \\frac{M_{i+1}M_{i-1}}{2\\Delta t}$",
+        "$v_i \\approx \\frac{M_1M_n}{t_n - t_1}$"
       ],
       "answer": 2,
       "explanation": "Question issue du programme officiel."
@@ -180,10 +180,10 @@
       "type": "mcq",
       "prompt": "Pour un mouvement circulaire uniforme de rayon R et de vitesse angulaire ω, quelle est l'expression de l'accélération normale ?",
       "options": [
-        "$a_n = R\\\\omega$",
-        "$a_n = R\\\\omega²$",
-        "$a_n = \\\\frac{\\\\omega}{R}$",
-        "$a_n = \\\\frac{R}{\\\\omega}$"
+        "$a_n = R\\omega$",
+        "$a_n = R\\omega²$",
+        "$a_n = \\frac{\\omega}{R}$",
+        "$a_n = \\frac{R}{\\omega}$"
       ],
       "answer": 1,
       "explanation": "Question issue du programme officiel."
@@ -204,7 +204,7 @@
     {
       "id": "q15",
       "type": "mcq",
-      "prompt": "Dans l'équation horaire d'un MRUV : $x(t) = x_0 + v_0 t + \\\\frac{1}{2} a t²$, que représente le terme $\\\\frac{1}{2} a t²$ ?",
+      "prompt": "Dans l'équation horaire d'un MRUV : $x(t) = x_0 + v_0 t + \\frac{1}{2} a t²$, que représente le terme $\\frac{1}{2} a t²$ ?",
       "options": [
         "La position initiale",
         "La contribution de la vitesse initiale",
@@ -219,10 +219,10 @@
       "type": "mcq",
       "prompt": "Quelle relation lie la vitesse linéaire v et la vitesse angulaire ω dans un mouvement circulaire ?",
       "options": [
-        "$v = \\\\frac{\\\\omega}{R}$",
-        "$v = R\\\\omega$",
-        "$v = \\\\frac{R}{\\\\omega}$",
-        "$v = \\\\omega²R$"
+        "$v = \\frac{\\omega}{R}$",
+        "$v = R\\omega$",
+        "$v = \\frac{R}{\\omega}$",
+        "$v = \\omega²R$"
       ],
       "answer": 1,
       "explanation": "Question issue du programme officiel."

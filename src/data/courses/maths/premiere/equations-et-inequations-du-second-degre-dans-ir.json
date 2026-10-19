@@ -2,15 +2,15 @@
   "id": "maths-premiere-equations-et-inequations-du-second-degre-dans-ir",
   "title": "Équations et inéquations du second degré dans IR",
   "summary": "Une élève à Yamoussoukro décide de faire un jardin de tomates dans la grande cour familiale. Son père lui offre 20 m de grillage pour la clôture. Elle veut réaliser un jardin rectangulaire en laissant un côté sans clôture, avec une aire de 48 m². Les élèves de la classe décident de déterminer les dimensions du jardin en résolvant une équation du second degré.",
-  "lesson": "## 1. Introduction au polynôme du second degré\n\nUn polynôme du second degré est une expression de la forme :\n$$p(x) = ax^2 + bx + c$$\noù $$a \\\neq 0$$, et $$a, b, c \\\\in \\\\mathbb{R}$$.\n\n**Exemple ivoirien** : Le coût de production de cacao dans une plantation de San-Pédro peut être modélisé par $$C(x) = 0.05x^2 + 100x + 5000$$, où x est le nombre de kg produits.\n\n## 2. Discriminant d'un polynôme du second degré\n\nLe discriminant, noté $$\\\\Delta$$, est défini par :\n$$\\\\Delta = b^2 - 4ac$$\n\n**Exemple** : Pour $$p(x) = 3x^2 - 5x + 2$$ :\n$$\\\\Delta = (-5)^2 - 4 \\\times 3 \\\times 2 = 25 - 24 = 1$$\n\n## 3. Résolution de l'équation $$ax^2 + bx + c = 0$$\n\nLe nombre de solutions dépend du signe de $$\\\\Delta$$ :\n\n| Signe de $$\\\\Delta$$ | Nombre de solutions | Solutions |\n|-------------------|---------------------|-----------|\n| $$\\\\Delta > 0$$ | 2 solutions distinctes | $$x_1 = \\\\frac{-b - \\\\sqrt{\\\\Delta}}{2a}$$ et $$x_2 = \\\\frac{-b + \\\\sqrt{\\\\Delta}}{2a}$$ |\n| $$\\\\Delta = 0$$ | 1 solution double | $$x_0 = -\\\\frac{b}{2a}$$ |\n| $$\\\\Delta < 0$$ | Aucune solution réelle | Pas de solution dans $$\\\\mathbb{R}$$ |\n\n## 4. Somme et produit des racines\n\nSi $$x_1$$ et $$x_2$$ sont les racines de $$ax^2 + bx + c = 0$$, alors :\n$$x_1 + x_2 = -\\\\frac{b}{a}$$\n$$x_1 \\\\cdot x_2 = \\\\frac{c}{a}$$\n\n**Application** : Trouver deux nombres connaissant leur somme S et leur produit P revient à résoudre $$x^2 - Sx + P = 0$$.\n\n## 5. Signe d'un polynôme du second degré\n\nLe signe de $$p(x) = ax^2 + bx + c$$ dépend du signe de a et de $$\\\\Delta$$ :\n\n- Si $$\\\\Delta < 0$$ : $$p(x)$$ est du signe de a pour tout x réel.\n- Si $$\\\\Delta = 0$$ : $$p(x)$$ est du signe de a pour tout x, sauf en $$x_0$$ où il s'annule.\n- Si $$\\\\Delta > 0$$ : $$p(x)$$ est du signe de a à l'extérieur des racines, et du signe contraire entre les racines.\n\n## 6. Résolution d'inéquations du second degré\n\nPour résoudre $$ax^2 + bx + c \\\\geq 0$$ :\n1. On calcule $$\\\\Delta$$\n2. On détermine les racines si elles existent\n3. On applique la règle des signes\n\n**Exemple** : Résoudre $$2x^2 - 3x - 2 \\\\leq 0$$\n$$\\\\Delta = 25$$, racines : $$x_1 = -0.5$$, $$x_2 = 2$$\nSolution : $$x \\\\in [-0.5, 2]$$\n\n## 7. Équations se ramenant au second degré\n\nCertaines équations peuvent être transformées :\n\n1. **Équations bicarrées** : $$ax^4 + bx^2 + c = 0$$\n   On pose $$X = x^2$$ pour obtenir $$aX^2 + bX + c = 0$$\n\n2. **Équations irrationnelles simples** : $$\\\\sqrt{p(x)} = q(x)$$\n   On élève au carré sous conditions : $$p(x) \\\\geq 0$$ et $$q(x) \\\\geq 0$$\n\n## 8. Applications concrètes en Côte d'Ivoire\n\n**Problème** : Un transporteur d'Abidjan à Bouaké a des frais fixes de 50 000 FCFA et des frais variables de 200 FCFA par passager. Le prix du billet est de 1500 FCFA. Combien de passagers sont nécessaires pour un bénéfice d'au moins 100 000 FCFA ?\n\nModélisation : Bénéfice = Recette - Coût\n$$B(x) = 1500x - (200x + 50000) = 1300x - 50000$$\nOn résout $$1300x - 50000 \\\\geq 100000$$\nSolution : $$x \\\\geq \\\\approx 116$$ passagers.",
+  "lesson": "## 1. Introduction au polynôme du second degré\n\nUn polynôme du second degré est une expression de la forme :\n$$p(x) = ax^2 + bx + c$$\noù $$a\neq  0$$, et $$a, b, c \\in \\mathbb{R}$$.\n\n**Exemple ivoirien** : Le coût de production de cacao dans une plantation de San-Pédro peut être modélisé par $$C(x) = 0.05x^2 + 100x + 5000$$, où x est le nombre de kg produits.\n\n## 2. Discriminant d'un polynôme du second degré\n\nLe discriminant, noté $$\\Delta$$, est défini par :\n$$\\Delta = b^2 - 4ac$$\n\n**Exemple** : Pour $$p(x) = 3x^2 - 5x + 2$$ :\n$$\\Delta = (-5)^2 - 4 \\times 3 \\times 2 = 25 - 24 = 1$$\n\n## 3. Résolution de l'équation $$ax^2 + bx + c = 0$$\n\nLe nombre de solutions dépend du signe de $$\\Delta$$ :\n\n| Signe de $$\\Delta$$ | Nombre de solutions | Solutions |\n|-------------------|---------------------|-----------|\n| $$\\Delta > 0$$ | 2 solutions distinctes | $$x_1 = \\frac{-b - \\sqrt{\\Delta}}{2a}$$ et $$x_2 = \\frac{-b + \\sqrt{\\Delta}}{2a}$$ |\n| $$\\Delta = 0$$ | 1 solution double | $$x_0 = -\\frac{b}{2a}$$ |\n| $$\\Delta < 0$$ | Aucune solution réelle | Pas de solution dans $$\\mathbb{R}$$ |\n\n## 4. Somme et produit des racines\n\nSi $$x_1$$ et $$x_2$$ sont les racines de $$ax^2 + bx + c = 0$$, alors :\n$$x_1 + x_2 = -\\frac{b}{a}$$\n$$x_1 \\cdot x_2 = \\frac{c}{a}$$\n\n**Application** : Trouver deux nombres connaissant leur somme S et leur produit P revient à résoudre $$x^2 - Sx + P = 0$$.\n\n## 5. Signe d'un polynôme du second degré\n\nLe signe de $$p(x) = ax^2 + bx + c$$ dépend du signe de a et de $$\\Delta$$ :\n\n- Si $$\\Delta < 0$$ : $$p(x)$$ est du signe de a pour tout x réel.\n- Si $$\\Delta = 0$$ : $$p(x)$$ est du signe de a pour tout x, sauf en $$x_0$$ où il s'annule.\n- Si $$\\Delta > 0$$ : $$p(x)$$ est du signe de a à l'extérieur des racines, et du signe contraire entre les racines.\n\n## 6. Résolution d'inéquations du second degré\n\nPour résoudre $$ax^2 + bx + c \\geq 0$$ :\n1. On calcule $$\\Delta$$\n2. On détermine les racines si elles existent\n3. On applique la règle des signes\n\n**Exemple** : Résoudre $$2x^2 - 3x - 2 \\leq 0$$\n$$\\Delta = 25$$, racines : $$x_1 = -0.5$$, $$x_2 = 2$$\nSolution : $$x \\in [-0.5, 2]$$\n\n## 7. Équations se ramenant au second degré\n\nCertaines équations peuvent être transformées :\n\n1. **Équations bicarrées** : $$ax^4 + bx^2 + c = 0$$\n   On pose $$X = x^2$$ pour obtenir $$aX^2 + bX + c = 0$$\n\n2. **Équations irrationnelles simples** : $$\\sqrt{p(x)} = q(x)$$\n   On élève au carré sous conditions : $$p(x) \\geq 0$$ et $$q(x) \\geq 0$$\n\n## 8. Applications concrètes en Côte d'Ivoire\n\n**Problème** : Un transporteur d'Abidjan à Bouaké a des frais fixes de 50 000 FCFA et des frais variables de 200 FCFA par passager. Le prix du billet est de 1500 FCFA. Combien de passagers sont nécessaires pour un bénéfice d'au moins 100 000 FCFA ?\n\nModélisation : Bénéfice = Recette - Coût\n$$B(x) = 1500x - (200x + 50000) = 1300x - 50000$$\nOn résout $$1300x - 50000 \\geq 100000$$\nSolution : $$x \\geq \\approx 116$$ passagers.",
   "estimatedMinutes": 10,
   "keyPoints": [
-    "Le discriminant $$\\\\Delta = b^2 - 4ac$$ détermine le nombre de solutions",
-    "Si $$\\\\Delta > 0$$ : deux solutions distinctes",
-    "Si $$\\\\Delta = 0$$ : une solution double",
-    "Si $$\\\\Delta < 0$$ : pas de solution réelle",
+    "Le discriminant $$\\Delta = b^2 - 4ac$$ détermine le nombre de solutions",
+    "Si $$\\Delta > 0$$ : deux solutions distinctes",
+    "Si $$\\Delta = 0$$ : une solution double",
+    "Si $$\\Delta < 0$$ : pas de solution réelle",
     "La somme des racines vaut $$-b/a$$ et le produit vaut $$c/a$$",
-    "Le signe du polynôme dépend des signes de a et de $$\\\\Delta$$"
+    "Le signe du polynôme dépend des signes de a et de $$\\Delta$$"
   ],
   "exercise": {
     "answer": "",
@@ -22,10 +22,10 @@
       "type": "mcq",
       "prompt": "Quelle est la formule du discriminant d'un polynôme $$ax^2 + bx + c$$ ?",
       "options": [
-        "$$\\\\Delta = b^2 + 4ac$$",
-        "$$\\\\Delta = b^2 - 4ac$$",
-        "$$\\\\Delta = b^2 - 2ac$$",
-        "$$\\\\Delta = 4ac - b^2$$"
+        "$$\\Delta = b^2 + 4ac$$",
+        "$$\\Delta = b^2 - 4ac$$",
+        "$$\\Delta = b^2 - 2ac$$",
+        "$$\\Delta = 4ac - b^2$$"
       ],
       "answer": 1,
       "explanation": "Question issue du programme officiel."
@@ -33,7 +33,7 @@
     {
       "id": "q2",
       "type": "mcq",
-      "prompt": "Si $$\\\\Delta < 0$$, combien de solutions réelles possède l'équation $$ax^2 + bx + c = 0$$ ?",
+      "prompt": "Si $$\\Delta < 0$$, combien de solutions réelles possède l'équation $$ax^2 + bx + c = 0$$ ?",
       "options": [
         "0",
         "1",
@@ -61,9 +61,9 @@
       "type": "mcq",
       "prompt": "Pour quel type de polynôme du second degré a-t-on une solution double ?",
       "options": [
-        "$$\\\\Delta > 0$$",
-        "$$\\\\Delta = 0$$",
-        "$$\\\\Delta < 0$$",
+        "$$\\Delta > 0$$",
+        "$$\\Delta = 0$$",
+        "$$\\Delta < 0$$",
         "Quand b = 0"
       ],
       "answer": 1,

@@ -11,7 +11,7 @@
   ],
   "exercise": {
     "question": "**Exercice 1 :** Calcule lim[x→+∞] (2x² + 3x) / (x² − 1)\n\n**Exercice 2 :** Calcule lim[x→2] (x² − 4)/(x − 2)\n\n**Exercice 3 :** Calcule lim[x→+∞] (√(x² + x) − x)\n\n**Exercice 4 :** Montre que l'équation x³ − x − 1 = 0 admet au moins une solution dans [1 ; 2]",
-    "answer": "\n**Solution Exercice 1 :**\nForme indéterminée ∞/∞\nOn factorise par x² au numérateur et dénominateur :\n= lim[x→+∞] (2 + 3/x) / (1 − 1/x²) = 2/1 = 2\n**Réponse : lim = 2**\n\n**Solution Exercice 2 :**\nForme indéterminée 0/0\nOn factorise : x² − 4 = (x − 2)(x + 2)\n= lim[x→2] (x − 2)(x + 2)/(x − 2) = lim[x→2] (x + 2) = 4\n**Réponse : lim = 4**\n\n**Solution Exercice 3 :**\nForme indéterminée ∞ − ∞\nMultiplions par la quantité conjuguée :\n= lim[x→+∞] (x² + x − x²)/(√(x² + x) + x)\n= lim[x→+∞] x/(√(x² + x) + x)\n= lim[x→+∞] 1/(√(1 + 1/x) + 1) = 1/2\n**Réponse : lim = 1/2**\n\n**Solution Exercice 4 :**\nPosons f(x) = x³ − x − 1\nf(1) = 1 − 1 − 1 = −1 < 0\nf(2) = 8 − 2 − 1 = 5 > 0\nf est continue sur [1 ; 2] (fonction polynôme)\n0 est entre f(1) et f(2)\nPar le TVI, ∃ c ∈ [1 ; 2] tel que f(c) = 0\n**L'équation admet donc une solution dans [1 ; 2]**\n        "
+    "answer": "\n**Solution Exercice 1 :**\nForme indéterminée ∞/∞\nOn factorise par x² au numérateur et dénominateur :\n= lim[x→+∞] (2 + 3/x) / (1 − 1/x²) = 2/1 = 2\n**Réponse : lim = 2**\n\n**Solution Exercice 2 :**\nForme indéterminée 0/0\nOn factorise : x² − 4 = (x − 2)(x + 2)\n= lim[x→2] (x − 2)(x + 2)/(x − 2) = lim[x→2] (x + 2) = 4\n**Réponse : lim = 4**\n\n**Solution Exercice 3 :**\nForme indéterminée ∞ − ∞\nMultiplions par la quantité conjuguée :\n= lim[x→+∞] (x² + x − x²)/(√(x² + x) + x)\n= lim[x→+∞] x/(√(x² + x) + x)\n= lim[x→+∞] 1/(√(1 + 1/x) + 1) = 1/2\n**Réponse : lim = 1/2**\n\n**Solution Exercice 4 :**\nPosons f(x) = x³ − x − 1\nf(1) = 1 − 1 − 1 = −1 < 0\nf(2) = 8 − 2 − 1 = 5 > 0\nf est continue sur [1 ; 2] (fonction polynôme)\n0 est entre f(1) et f(2)\nPar le TVI, ∃ c ∈ [1 ; 2] tel que f(c) = 0\n**L'équation admet donc une solution dans [1 ; 2]**\n"
   },
   "questions": [
     {
@@ -82,11 +82,11 @@
     {
       "id": "q6",
       "type": "mcq",
-      "prompt": "Si $\\\\lim_{x \\\\to a} f(x) = 3$ et $\\\\lim_{x \\\\to a} g(x) = +\\\\infty$, alors $\\\\lim_{x \\\\to a} (f(x) + g(x))$ est :",
+      "prompt": "Si $\\lim_{x \\to a} f(x) = 3$ et $\\lim_{x \\to a} g(x) = +\\infty$, alors $\\lim_{x \\to a} (f(x) + g(x))$ est :",
       "options": [
         "3",
         "0",
-        "$+\\\\infty$",
+        "$+\\infty$",
         "Indéterminée"
       ],
       "answer": 2,
@@ -95,7 +95,7 @@
     {
       "id": "q7",
       "type": "mcq",
-      "prompt": "Pour lever l'indétermination $\\\\lim_{x \\\\to +\\\\infty} (\\\\sqrt{x+1} - \\\\sqrt{x})$, on utilise :",
+      "prompt": "Pour lever l'indétermination $\\lim_{x \\to +\\infty} (\\sqrt{x+1} - \\sqrt{x})$, on utilise :",
       "options": [
         "La factorisation",
         "L'expression conjuguée",
@@ -111,8 +111,8 @@
       "prompt": "Une fonction $f$ est continue en un point $a$ si :",
       "options": [
         "$f(a)$ est défini",
-        "$\\\\lim_{x \\\\to a} f(x)$ existe",
-        "$\\\\lim_{x \\\\to a} f(x) = f(a)$",
+        "$\\lim_{x \\to a} f(x)$ existe",
+        "$\\lim_{x \\to a} f(x) = f(a)$",
         "$f$ est dérivable en $a$"
       ],
       "answer": 2,
@@ -121,7 +121,7 @@
     {
       "id": "q9",
       "type": "mcq",
-      "prompt": "Si $\\\\lim_{x \\\\to +\\\\infty} f(x) = +\\\\infty$ et $\\\\lim_{x \\\\to +\\\\infty} \\\\frac{f(x)}{x} = 0$, la courbe de $f$ a une branche parabolique de direction :",
+      "prompt": "Si $\\lim_{x \\to +\\infty} f(x) = +\\infty$ et $\\lim_{x \\to +\\infty} \\frac{f(x)}{x} = 0$, la courbe de $f$ a une branche parabolique de direction :",
       "options": [
         "L'axe des abscisses (Ox)",
         "L'axe des ordonnées (Oy)",
@@ -186,7 +186,7 @@
     {
       "id": "q14",
       "type": "mcq",
-      "prompt": "$\\\\lim_{x \\\\to 0} \\\\frac{\\\\sin(5x)}{x}$ est égale à :",
+      "prompt": "$\\lim_{x \\to 0} \\frac{\\sin(5x)}{x}$ est égale à :",
       "options": [
         "0",
         "1",
@@ -202,7 +202,7 @@
       "prompt": "Pour prolonger par continuité une fonction $f$ en un point $a$ où elle n'est pas définie, il faut que :",
       "options": [
         "$f$ soit dérivable à gauche et à droite en $a$",
-        "$\\\\lim_{x \\\\to a} f(x)$ existe et soit finie",
+        "$\\lim_{x \\to a} f(x)$ existe et soit finie",
         "$f$ soit monotone autour de $a$",
         "$f$ ait une limite infinie en $a$"
       ],

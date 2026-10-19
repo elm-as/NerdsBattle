@@ -11,7 +11,7 @@
   ],
   "exercise": {
     "question": "Calcule lim[x→+∞] (3x² + 2x) / (x² − 1)",
-    "answer": "\n**Solution :**\nForme ∞/∞\nFactoriser par x² :\n= lim (3 + 2/x) / (1 − 1/x²)\n= (3 + 0) / (1 − 0) = 3\n\n**Réponse : lim = 3**\n        "
+    "answer": "\n**Solution :**\nForme ∞/∞\nFactoriser par x² :\n= lim (3 + 2/x) / (1 − 1/x²)\n= (3 + 0) / (1 − 0) = 3\n\n**Réponse : lim = 3**\n"
   },
   "questions": [
     {

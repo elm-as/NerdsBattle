@@ -2,14 +2,14 @@
   "id": "maths-terminale-statistiques-a-deux-variables",
   "title": "Statistiques à deux variables",
   "summary": "Un riche entrepreneur offre une de ses entreprises à son fils. Celui-ci prend connaissance des chiffres d'affaires annuels de l'entreprise à travers un tableau. Soucieux de faire progresser l'entreprise, il souhaite avoir une prévision du chiffre d'affaires en 2030. Avec ces données, et après analyse, tu te rends dans le CDI de ton Lycée pour faire des recherches sur les méthodes statistiques permettant d'établir de telles prévisions.",
-  "lesson": "## 1. Série statistique à deux variables\n\nOn étudie simultanément deux caractères quantitatifs $X$ et $Y$ sur une même population.\nLes données sont des couples $(x_i, y_i)$ pour $i=1,...,n$, où $n$ est l'effectif total.\n\n**Exemple :** Étudier la relation entre le budget publicitaire ($X$, en millions FCFA) et le chiffre d'affaires ($Y$, en millions FCFA) pour $n=6$ entreprises.\n\n**Tableau à double entrée :** Lorsque les variables sont discrètes et prennent peu de valeurs, on peut présenter les effectifs conjoints dans un tableau à double entrée. Sinon, on liste simplement les couples.\n\n**Séries marginales :** Ce sont les séries statistiques simples de $X$ et de $Y$ obtenues en ne considérant qu'une seule variable. On calcule leurs moyennes et écarts-types.\n\n## 2. Représentation graphique : le nuage de points\n\nDans un repère orthogonal, on place les points $M_i$ de coordonnées $(x_i, y_i)$. L'ensemble de ces points forme le **nuage de points**.\n\n**Point moyen :** Le point $G$ de coordonnées $(\\\\overline{x}, \\\\overline{y})$, où $\\\\overline{x}$ et $\\\\overline{y}$ sont les moyennes marginales de $X$ et $Y$.\n$$\\\\overline{x} = \\\\frac{1}{n} \\\\sum_{i=1}^{n} x_i \\\\quad \\\text{et} \\\\quad \\\\overline{y} = \\\\frac{1}{n} \\\\sum_{i=1}^{n} y_i$$\nLe point moyen est le \"centre de gravité\" du nuage.\n\n```mathgraph\n{\n  \"type\": \"points\",\n  \"title\": \"Nuage de points et point moyen G\",\n  \"xRange\": [0, 7],\n  \"yRange\": [80, 250],\n  \"points\": [\n    { \"x\": 1, \"y\": 99, \"label\": \"M1\" },\n    { \"x\": 2, \"y\": 130, \"label\": \"M2\" },\n    { \"x\": 3, \"y\": 92, \"label\": \"M3\" },\n    { \"x\": 4, \"y\": 108, \"label\": \"M4\" },\n    { \"x\": 5, \"y\": 232, \"label\": \"M5\" },\n    { \"x\": 6, \"y\": 150, \"label\": \"M6\" }\n  ],\n  \"showGrid\": true,\n  \"showAxes\": true,\n  \"xLabel\": \"Rang de l'année\",\n  \"yLabel\": \"Chiffre d'affaires (millions FCFA)\",\n  \"meanPoint\": { \"x\": 3.5, \"y\": (99+130+92+108+232+150)/6, \"color\": \"#ff0000\", \"label\": \"G\", \"size\": 8 }\n}\n```\n*(Les données sont celles de la situation d'apprentissage : années 2013-2018)*\n\n## 3. Covariance\n\nLa covariance mesure la façon dont les variables $X$ et $Y$ varient conjointement.\n\n**Définition :**\n$$\\\text{Cov}(X,Y) = \\\\frac{1}{n} \\\\sum_{i=1}^{n} (x_i - \\\\overline{x})(y_i - \\\\overline{y})$$\n\n**Formule de calcul pratique (König-Huygens) :**\n$$\\\text{Cov}(X,Y) = \\\\frac{1}{n} \\\\sum_{i=1}^{n} x_i y_i - \\\\overline{x} \\\\, \\\\overline{y}$$\n\n**Interprétation du signe :**\n- Si $\\\text{Cov} > 0$ : tendance à la **croissance conjointe** (quand $X$ augmente, $Y$ tend à augmenter).\n- Si $\\\text{Cov} < 0$ : tendance **inverse** (quand $X$ augmente, $Y$ tend à diminuer).\n- Si $\\\text{Cov} \\\\approx 0$ : pas de liaison linéaire apparente.\n\n## 4. Coefficient de corrélation linéaire\n\nIl mesure l'intensité de la liaison **linéaire** entre $X$ et $Y$, indépendamment des unités.\n\n**Définition :**\n$$r = \\\\frac{\\\text{Cov}(X,Y)}{\\\\sigma_X \\\\, \\\\sigma_Y}$$\noù $\\\\sigma_X$ et $\\\\sigma_Y$ sont les écarts-types des séries marginales.\n\n**Propriétés :**\n- $-1 \\\\leq r \\\\leq 1$.\n- $|r| \\\\approx 1$ : liaison linéaire forte. $r$ proche de $1$ : corrélation positive, $r$ proche de $-1$ : corrélation négative.\n- $|r| \\\\approx 0$ : absence de corrélation linéaire (mais il peut y avoir une autre liaison).\n\n## 5. Ajustement affine : Droite des moindres carrés\n\nLorsque le nuage semble aligné, on cherche la droite qui \"passe au plus près\" de tous les points, au sens des moindres carrés.\n\n**Droite de régression de $y$ en $x$ :** On prédit $y$ à partir de $x$. Son équation est $y = a x + b$, avec :\n$$a = \\\\frac{\\\text{Cov}(X,Y)}{\\\\sigma_X^2} = \\\\frac{\\\text{Cov}(X,Y)}{\\\text{Var}(X)} \\\\quad \\\text{et} \\\\quad b = \\\\overline{y} - a \\\\overline{x}$$\nCette droite **passe par le point moyen** $G$.\n\n**Remarque :** Il existe aussi la droite de régression de $x$ en $y$ (pour prédire $x$ à partir de $y$), mais elle n'a pas la même équation, sauf si $|r|=1$.\n\n## 6. Utilisation pour l'estimation et la prévision\n\nUne fois la droite d'ajustement déterminée, on peut :\n- **Estimer** une valeur de $Y$ pour une valeur de $X$ comprise dans l'intervalle des données (interpolation).\n- **Prévoir** une valeur de $Y$ pour une valeur de $X$ en dehors de cet intervalle (extrapolation). **Attention :** L'extrapolation est risquée, car la relation linéaire observée peut ne pas se prolonger.\n\n## 7. Exemple de calcul complet (sur les données de la situation)\n\nDonnées : $n=6$\n| Rang $x_i$ | 1 | 2 | 3 | 4 | 5 | 6 |\n|------------|---|---|---|---|---|---|\n| CA $y_i$ (millions) | 99 | 130 | 92 | 108 | 232 | 150 |\n\n1. **Point moyen :**\n$\\\\overline{x} = \\\\frac{1+2+3+4+5+6}{6} = \\\\frac{21}{6} = 3.5$\n$\\\\overline{y} = \\\\frac{99+130+92+108+232+150}{6} = \\\\frac{811}{6} \\\\approx 135.167$\n\n2. **Covariance :** On calcule $\\\\sum x_i y_i = 1\\\times99 + 2\\\times130 + ... + 6\\\times150 = 99+260+276+432+1160+900 = 3127$.\n$\\\text{Cov} = \\\\frac{3127}{6} - 3.5 \\\times 135.167 \\\\approx 521.167 - 473.0845 = 48.0825$.\n\n3. **Variance de $X$ :** $\\\\sigma_X^2 = \\\\frac{1^2+2^2+...+6^2}{6} - (3.5)^2 = \\\\frac{91}{6} - 12.25 \\\\approx 15.1667 - 12.25 = 2.9167$.\n\n4. **Coefficient $a$ et $b$ :**\n$a = \\\\frac{\\\text{Cov}}{\\\\sigma_X^2} = \\\\frac{48.0825}{2.9167} \\\\approx 16.485$.\n$b = \\\\overline{y} - a \\\\overline{x} = 135.167 - 16.485 \\\times 3.5 \\\\approx 135.167 - 57.6975 = 77.4695$.\n\n**Droite d'ajustement :** $y \\\\approx 16.485 x + 77.47$.\n\n5. **Prévision pour 2030 :**\nPour l'année 2030, le rang est $2030 - 2012 = 18$ (si 2013 est le rang 1).\n$y \\\\approx 16.485 \\\times 18 + 77.47 \\\\approx 296.73 + 77.47 = 374.2$.\nSelon ce modèle linéaire, le chiffre d'affaires prévu pour 2030 serait d'environ **374 millions** de FCFA.\n\n## 8. Mise en garde et analyse critique\n\n- La corrélation n'implique pas la causalité.\n- Un ajustement linéaire n'est valable que si le nuage est vraiment allongé.\n- Il faut toujours calculer et interpréter le coefficient $r$. Ici, on trouve $r \\\\approx 0.65$ (calcul non détaillé), ce qui indique une corrélation positive modérée, mais pas très forte. La prévision doit être prise avec prudence.",
+  "lesson": "## 1. Série statistique à deux variables\n\nOn étudie simultanément deux caractères quantitatifs $X$ et $Y$ sur une même population.\nLes données sont des couples $(x_i, y_i)$ pour $i=1,...,n$, où $n$ est l'effectif total.\n\n**Exemple :** Étudier la relation entre le budget publicitaire ($X$, en millions FCFA) et le chiffre d'affaires ($Y$, en millions FCFA) pour $n=6$ entreprises.\n\n**Tableau à double entrée :** Lorsque les variables sont discrètes et prennent peu de valeurs, on peut présenter les effectifs conjoints dans un tableau à double entrée. Sinon, on liste simplement les couples.\n\n**Séries marginales :** Ce sont les séries statistiques simples de $X$ et de $Y$ obtenues en ne considérant qu'une seule variable. On calcule leurs moyennes et écarts-types.\n\n## 2. Représentation graphique : le nuage de points\n\nDans un repère orthogonal, on place les points $M_i$ de coordonnées $(x_i, y_i)$. L'ensemble de ces points forme le **nuage de points**.\n\n**Point moyen :** Le point $G$ de coordonnées $(\\overline{x}, \\overline{y})$, où $\\overline{x}$ et $\\overline{y}$ sont les moyennes marginales de $X$ et $Y$.\n$$\\overline{x} = \\frac{1}{n} \\sum_{i=1}^{n} x_i \\quad \\text{et} \\quad \\overline{y} = \\frac{1}{n} \\sum_{i=1}^{n} y_i$$\nLe point moyen est le \"centre de gravité\" du nuage.\n\n```mathgraph\n{\n  \"type\": \"points\",\n  \"title\": \"Nuage de points et point moyen G\",\n  \"xRange\": [0, 7],\n  \"yRange\": [80, 250],\n  \"points\": [\n    { \"x\": 1, \"y\": 99, \"label\": \"M1\" },\n    { \"x\": 2, \"y\": 130, \"label\": \"M2\" },\n    { \"x\": 3, \"y\": 92, \"label\": \"M3\" },\n    { \"x\": 4, \"y\": 108, \"label\": \"M4\" },\n    { \"x\": 5, \"y\": 232, \"label\": \"M5\" },\n    { \"x\": 6, \"y\": 150, \"label\": \"M6\" }\n  ],\n  \"showGrid\": true,\n  \"showAxes\": true,\n  \"xLabel\": \"Rang de l'année\",\n  \"yLabel\": \"Chiffre d'affaires (millions FCFA)\",\n  \"meanPoint\": { \"x\": 3.5, \"y\": (99+130+92+108+232+150)/6, \"color\": \"#ff0000\", \"label\": \"G\", \"size\": 8 }\n}\n```\n*(Les données sont celles de la situation d'apprentissage : années 2013-2018)*\n\n## 3. Covariance\n\nLa covariance mesure la façon dont les variables $X$ et $Y$ varient conjointement.\n\n**Définition :**\n$$\\text{Cov}(X,Y) = \\frac{1}{n} \\sum_{i=1}^{n} (x_i - \\overline{x})(y_i - \\overline{y})$$\n\n**Formule de calcul pratique (König-Huygens) :**\n$$\\text{Cov}(X,Y) = \\frac{1}{n} \\sum_{i=1}^{n} x_i y_i - \\overline{x} \\\\, \\overline{y}$$\n\n**Interprétation du signe :**\n- Si $\\text{Cov} > 0$ : tendance à la **croissance conjointe** (quand $X$ augmente, $Y$ tend à augmenter).\n- Si $\\text{Cov} < 0$ : tendance **inverse** (quand $X$ augmente, $Y$ tend à diminuer).\n- Si $\\text{Cov} \\approx 0$ : pas de liaison linéaire apparente.\n\n## 4. Coefficient de corrélation linéaire\n\nIl mesure l'intensité de la liaison **linéaire** entre $X$ et $Y$, indépendamment des unités.\n\n**Définition :**\n$$r = \\frac{\\text{Cov}(X,Y)}{\\sigma_X \\\\, \\sigma_Y}$$\noù $\\sigma_X$ et $\\sigma_Y$ sont les écarts-types des séries marginales.\n\n**Propriétés :**\n- $-1 \\leq r \\leq 1$.\n- $|r| \\approx 1$ : liaison linéaire forte. $r$ proche de $1$ : corrélation positive, $r$ proche de $-1$ : corrélation négative.\n- $|r| \\approx 0$ : absence de corrélation linéaire (mais il peut y avoir une autre liaison).\n\n## 5. Ajustement affine : Droite des moindres carrés\n\nLorsque le nuage semble aligné, on cherche la droite qui \"passe au plus près\" de tous les points, au sens des moindres carrés.\n\n**Droite de régression de $y$ en $x$ :** On prédit $y$ à partir de $x$. Son équation est $y = a x + b$, avec :\n$$a = \\frac{\\text{Cov}(X,Y)}{\\sigma_X^2} = \\frac{\\text{Cov}(X,Y)}{\\text{Var}(X)} \\quad \\text{et} \\quad b = \\overline{y} - a \\overline{x}$$\nCette droite **passe par le point moyen** $G$.\n\n**Remarque :** Il existe aussi la droite de régression de $x$ en $y$ (pour prédire $x$ à partir de $y$), mais elle n'a pas la même équation, sauf si $|r|=1$.\n\n## 6. Utilisation pour l'estimation et la prévision\n\nUne fois la droite d'ajustement déterminée, on peut :\n- **Estimer** une valeur de $Y$ pour une valeur de $X$ comprise dans l'intervalle des données (interpolation).\n- **Prévoir** une valeur de $Y$ pour une valeur de $X$ en dehors de cet intervalle (extrapolation). **Attention :** L'extrapolation est risquée, car la relation linéaire observée peut ne pas se prolonger.\n\n## 7. Exemple de calcul complet (sur les données de la situation)\n\nDonnées : $n=6$\n\n| Rang $x_i$ | 1 | 2 | 3 | 4 | 5 | 6 |\n|------------|---|---|---|---|---|---|\n| CA $y_i$ (millions) | 99 | 130 | 92 | 108 | 232 | 150 |\n\n1. **Point moyen :**\n$\\overline{x} = \\frac{1+2+3+4+5+6}{6} = \\frac{21}{6} = 3.5$\n$\\overline{y} = \\frac{99+130+92+108+232+150}{6} = \\frac{811}{6} \\approx 135.167$\n\n2. **Covariance :** On calcule $\\sum x_i y_i = 1\\\times99 + 2\\\times130 + ... + 6\\\times150 = 99+260+276+432+1160+900 = 3127$.\n$\\text{Cov} = \\frac{3127}{6} - 3.5 \\times 135.167 \\approx 521.167 - 473.0845 = 48.0825$.\n\n3. **Variance de $X$ :** $\\sigma_X^2 = \\frac{1^2+2^2+...+6^2}{6} - (3.5)^2 = \\frac{91}{6} - 12.25 \\approx 15.1667 - 12.25 = 2.9167$.\n\n4. **Coefficient $a$ et $b$ :**\n$a = \\frac{\\text{Cov}}{\\sigma_X^2} = \\frac{48.0825}{2.9167} \\approx 16.485$.\n$b = \\overline{y} - a \\overline{x} = 135.167 - 16.485 \\times 3.5 \\approx 135.167 - 57.6975 = 77.4695$.\n\n**Droite d'ajustement :** $y \\approx 16.485 x + 77.47$.\n\n5. **Prévision pour 2030 :**\nPour l'année 2030, le rang est $2030 - 2012 = 18$ (si 2013 est le rang 1).\n$y \\approx 16.485 \\times 18 + 77.47 \\approx 296.73 + 77.47 = 374.2$.\nSelon ce modèle linéaire, le chiffre d'affaires prévu pour 2030 serait d'environ **374 millions** de FCFA.\n\n## 8. Mise en garde et analyse critique\n\n- La corrélation n'implique pas la causalité.\n- Un ajustement linéaire n'est valable que si le nuage est vraiment allongé.\n- Il faut toujours calculer et interpréter le coefficient $r$. Ici, on trouve $r \\approx 0.65$ (calcul non détaillé), ce qui indique une corrélation positive modérée, mais pas très forte. La prévision doit être prise avec prudence.",
   "estimatedMinutes": 10,
   "keyPoints": [
     "Une série statistique à deux variables est une liste de couples $(x_i, y_i)$. Le nuage de points est leur représentation graphique.",
-    "Le point moyen $G(\\\\overline{x}, \\\\overline{y})$ est le centre du nuage. La droite d'ajustement passe par ce point.",
+    "Le point moyen $G(\\overline{x}, \\overline{y})$ est le centre du nuage. La droite d'ajustement passe par ce point.",
     "La covariance mesure la tendance de liaison linéaire : positive si les variables varient dans le même sens, négative dans le cas contraire.",
-    "Le coefficient de corrélation linéaire $r$ ($-1\\\\leq r \\\\leq 1$) mesure l'intensité de la liaison linéaire. $|r|$ proche de 1 indique une forte corrélation.",
-    "La droite des moindres carrés (de $y$ en $x$) a pour équation $y=ax+b$ avec $a=\\\\frac{\\\\text{Cov}(X,Y)}{\\\\text{Var}(X)}$ et $b=\\\\overline{y}-a\\\\overline{x}$.",
+    "Le coefficient de corrélation linéaire $r$ ($-1\\leq r \\leq 1$) mesure l'intensité de la liaison linéaire. $|r|$ proche de 1 indique une forte corrélation.",
+    "La droite des moindres carrés (de $y$ en $x$) a pour équation $y=ax+b$ avec $a=\\frac{\\text{Cov}(X,Y)}{\\text{Var}(X)}$ et $b=\\overline{y}-a\\overline{x}$.",
     "On utilise l'ajustement pour estimer une valeur de $y$ correspondant à une valeur de $x$ (interpolation ou extrapolation).",
     "L'extrapolation (prévision en dehors du domaine d'étude) est risquée car la relation observée peut changer.",
     "Il ne faut pas confondre corrélation et causalité : deux variables peuvent être corrélées sans qu'il y ait un lien de cause à effet."
@@ -53,7 +53,7 @@
         "0 et 1",
         "-1 et 0",
         "-1 et 1",
-        "-\\\\infty$ et $+\\\\infty$"
+        "-\\infty$ et $+\\infty$"
       ],
       "answer": 2,
       "explanation": "Question issue du programme officiel."
@@ -63,10 +63,10 @@
       "type": "mcq",
       "prompt": "La droite des moindres carrés de $y$ en $x$ a pour coefficient directeur :",
       "options": [
-        "$\\\\frac{\\\\text{Cov}(X,Y)}{\\\\sigma_Y^2}$",
-        "$\\\\frac{\\\\text{Cov}(X,Y)}{\\\\sigma_X^2}$",
-        "$\\\\frac{\\\\sigma_X}{\\\\sigma_Y}$",
-        "$\\\\frac{\\\\overline{y}}{\\\\overline{x}}$"
+        "$\\frac{\\text{Cov}(X,Y)}{\\sigma_Y^2}$",
+        "$\\frac{\\text{Cov}(X,Y)}{\\sigma_X^2}$",
+        "$\\frac{\\sigma_X}{\\sigma_Y}$",
+        "$\\frac{\\overline{y}}{\\overline{x}}$"
       ],
       "answer": 1,
       "explanation": "Question issue du programme officiel."
@@ -87,12 +87,12 @@
     {
       "id": "q6",
       "type": "mcq",
-      "prompt": "Pour calculer $\\\\text{Cov}(X,Y)$, on peut utiliser la formule :",
+      "prompt": "Pour calculer $\\text{Cov}(X,Y)$, on peut utiliser la formule :",
       "options": [
-        "$\\\\frac{1}{n}\\\\sum x_i y_i - \\\\overline{x}\\\\overline{y}$",
-        "$\\\\frac{1}{n}\\\\sum (x_i + y_i)$",
-        "$\\\\overline{x} \\\\cdot \\\\overline{y}$",
-        "$\\\\frac{\\\\sigma_X}{\\\\sigma_Y}$"
+        "$\\frac{1}{n}\\sum x_i y_i - \\overline{x}\\overline{y}$",
+        "$\\frac{1}{n}\\sum (x_i + y_i)$",
+        "$\\overline{x} \\cdot \\overline{y}$",
+        "$\\frac{\\sigma_X}{\\sigma_Y}$"
       ],
       "answer": 0,
       "explanation": "Question issue du programme officiel."
@@ -144,7 +144,7 @@
         "$r=1$",
         "$r=-1$",
         "$r=0$",
-        "$\\\\text{Cov}(X,Y)=0$"
+        "$\\text{Cov}(X,Y)=0$"
       ],
       "answer": 3,
       "explanation": "Question issue du programme officiel."
@@ -180,10 +180,10 @@
       "type": "mcq",
       "prompt": "Pour la droite des moindres carrés y=ax+b, on a :",
       "options": [
-        "$a=\\\\frac{\\\\text{Cov}(x,y)}{\\\\sigma_x}$",
-        "$a=\\\\frac{\\\\text{Cov}(x,y)}{\\\\sigma_x^2}$",
-        "$a=\\\\frac{\\\\sigma_x}{\\\\text{Cov}(x,y)}$",
-        "$a=\\\\frac{\\\\sigma_x^2}{\\\\text{Cov}(x,y)}$"
+        "$a=\\frac{\\text{Cov}(x,y)}{\\sigma_x}$",
+        "$a=\\frac{\\text{Cov}(x,y)}{\\sigma_x^2}$",
+        "$a=\\frac{\\sigma_x}{\\text{Cov}(x,y)}$",
+        "$a=\\frac{\\sigma_x^2}{\\text{Cov}(x,y)}$"
       ],
       "answer": 1,
       "explanation": "Question issue du programme officiel."
@@ -219,10 +219,10 @@
       "type": "mcq",
       "prompt": "Pour calculer b dans y=ax+b, on utilise :",
       "options": [
-        "$b=\\\\bar{y}-a\\\\bar{x}$",
-        "$b=a\\\\bar{x}-\\\\bar{y}$",
-        "$b=\\\\frac{\\\\bar{y}}{\\\\bar{x}}$",
-        "$b=\\\\bar{x}\\\\bar{y}$"
+        "$b=\\bar{y}-a\\bar{x}$",
+        "$b=a\\bar{x}-\\bar{y}$",
+        "$b=\\frac{\\bar{y}}{\\bar{x}}$",
+        "$b=\\bar{x}\\bar{y}$"
       ],
       "answer": 0,
       "explanation": "Question issue du programme officiel."

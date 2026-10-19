@@ -12,7 +12,7 @@
   ],
   "exercise": {
     "question": "Un échantillon contient 800 noyaux radioactifs de demi-vie 5 jours. Combien en reste-t-il après 15 jours ?",
-    "answer": "\n**Solution :**\n\n**Données :**\n- N₀ = 800 noyaux\n- t₁/₂ = 5 jours\n- t = 15 jours\n\n**Formule :**\n```\nN(t) = N₀ × (1/2)^(t/t₁/₂)\n```\n\n**Calcul :**\n```\nN(15) = 800 × (1/2)^(15/5)\nN(15) = 800 × (1/2)³\nN(15) = 800 × 1/8\nN(15) = 100 noyaux\n```\n\n**Réponse : Il reste 100 noyaux radioactifs après 15 jours.**\n        "
+    "answer": "\n**Solution :**\n\n**Données :**\n- N₀ = 800 noyaux\n- t₁/₂ = 5 jours\n- t = 15 jours\n\n**Formule :**\n```\nN(t) = N₀ × (1/2)^(t/t₁/₂)\n```\n\n**Calcul :**\n```\nN(15) = 800 × (1/2)^(15/5)\nN(15) = 800 × (1/2)³\nN(15) = 800 × 1/8\nN(15) = 100 noyaux\n```\n\n**Réponse : Il reste 100 noyaux radioactifs après 15 jours.**\n"
   },
   "questions": [
     {

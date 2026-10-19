@@ -11,7 +11,7 @@
   ],
   "exercise": {
     "question": "Démontre par récurrence : 1 + 2 + 3 + ... + n = n(n+1)/2",
-    "answer": "\n**Solution :**\n**Initialisation (n=1) :** 1 = 1(2)/2 = 1 ✓\n\n**Hérédité :** Supposons P(n) vraie\n1 + ... + n + (n+1) = n(n+1)/2 + (n+1)\n= (n+1)[n/2 + 1]\n= (n+1)(n+2)/2 = P(n+1) ✓\n\n**Conclusion :** P(n) vraie pour tout n ≥ 1\n        "
+    "answer": "\n**Solution :**\n**Initialisation (n=1) :** 1 = 1(2)/2 = 1 ✓\n\n**Hérédité :** Supposons P(n) vraie\n1 + ... + n + (n+1) = n(n+1)/2 + (n+1)\n= (n+1)[n/2 + 1]\n= (n+1)(n+2)/2 = P(n+1) ✓\n\n**Conclusion :** P(n) vraie pour tout n ≥ 1\n"
   },
   "questions": [
     {

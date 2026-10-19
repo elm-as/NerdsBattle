@@ -2,7 +2,7 @@
   "id": "physique-premiere-energie-cinetique",
   "title": "Énergie cinétique",
   "summary": "À Toumodi, deux élèves en taxi remarquent que certains véhicules les dépassent. L'un affirme que ces véhicules ont une énergie cinétique plus grande. Pour comprendre, ils décident d'étudier en classe l'énergie cinétique et ses applications.",
-  "lesson": "## 1. Introduction\n\nL'**énergie cinétique** est l'énergie que possède un corps du fait de son mouvement. En Côte d'Ivoire, ce concept est crucial pour la sécurité routière (vitesse des véhicules à Abidjan), le transport des marchandises (camions à Bouaké) et les sports (football à Yamoussoukro).\n\n## 2. Définition de l'énergie cinétique\n\nDans un référentiel galiléen, l'énergie cinétique $E_c$ d'un solide de masse $m$ en mouvement de translation à la vitesse $v$ est :\n$$E_c = \\\\frac{1}{2} m v^2$$\n\nCette énergie est toujours positive ou nulle.\n\n## 3. Unité de l'énergie cinétique\n\nComme toute énergie, l'unité SI est le **joule (J)**.\n1 J = 1 kg·m²/s².\n\n## 4. Cas du mouvement de translation\n\nPour un solide en mouvement de translation, tous ses points ont la même vitesse instantanée. L'énergie cinétique se calcule alors simplement avec la vitesse du centre d'inertie.\n\n**Description du schéma 1:** Représenter un solide en mouvement de translation. Montrer que tous les points (A, B, C) ont des vecteurs vitesse identiques (même direction, même sens, même longueur). Indiquer la vitesse v et la masse m du solide.\n![Gemini_Generated_Image_r36i03r36i03r36i.png](https://djkkotmcvzfncdpgbwvx.supabase.co/storage/v1/object/public/lesson-images/lessons/premiere-a1/physique-chimie/1766265580209-4dhdrm.png)\n\n\n## 5. Théorème de l'énergie cinétique\n\nDans un référentiel galiléen, la variation d'énergie cinétique d'un solide entre deux positions A et B est égale à la somme des travaux des forces extérieures appliquées au solide :\n$$\\\\Delta E_c = E_{cB} - E_{cA} = \\\\sum W_{A \\\to B}(\\\\vec{F}_{ext})$$\n\nCe théorème est très utile pour résoudre des problèmes de mécanique sans connaître la trajectoire détaillée.\n\n## 6. Applications du théorème\n\n**Cas particulier :** Si la somme des travaux est nulle, l'énergie cinétique se conserve.\n\n**Exemple :** Chute libre (négligeant les frottements) : seule le poids travaille, et son travail se transforme intégralement en énergie cinétique.\n\n**Description du schéma 2:** Schéma d'une chute libre. Montrer un corps à deux hauteurs différentes h1 et h2, avec les vitesses v1 et v2. Illustrer la conservation de l'énergie mécanique : Ep1 + Ec1 = Ep2 + Ec2.\n![Gemini_Generated_Image_vi8bzcvi8bzcvi8b.png](https://djkkotmcvzfncdpgbwvx.supabase.co/storage/v1/object/public/lesson-images/lessons/premiere-a1/physique-chimie/1766265750708-jhp8qb.png)\n\n\n## 7. Calculs pratiques\n\n**Ordres de grandeur :**\n- Piéton (70 kg, 5 km/h ≈ 1,4 m/s) : $E_c \\\\approx 68$ J\n- Voiture (1000 kg, 50 km/h ≈ 13,9 m/s) : $E_c \\\\approx 96\\\\,000$ J\n- Camion (20 tonnes, 80 km/h ≈ 22,2 m/s) : $E_c \\\\approx 4,9$ MJ\n\n## 8. Sécurité routière en Côte d'Ivoire\n\nL'énergie cinétique explique pourquoi :\n1. Les accidents sont plus graves à vitesse élevée (E_c ∝ v²)\n2. Les poids lourds sont plus dangereux (E_c ∝ m)\n3. Il faut respecter les limites de vitesse, surtout à Abidjan où la circulation est dense\n\n**Description du schéma 3:** Graphique montrant l'énergie cinétique en fonction de la vitesse pour deux masses différentes (voiture et camion). Montrer la croissance quadratique (courbe parabolique). Axes : vitesse (abscisse), énergie cinétique (ordonnée).",
+  "lesson": "## 1. Introduction\n\nL'**énergie cinétique** est l'énergie que possède un corps du fait de son mouvement. En Côte d'Ivoire, ce concept est crucial pour la sécurité routière (vitesse des véhicules à Abidjan), le transport des marchandises (camions à Bouaké) et les sports (football à Yamoussoukro).\n\n## 2. Définition de l'énergie cinétique\n\nDans un référentiel galiléen, l'énergie cinétique $E_c$ d'un solide de masse $m$ en mouvement de translation à la vitesse $v$ est :\n$$E_c = \\frac{1}{2} m v^2$$\n\nCette énergie est toujours positive ou nulle.\n\n## 3. Unité de l'énergie cinétique\n\nComme toute énergie, l'unité SI est le **joule (J)**.\n1 J = 1 kg·m²/s².\n\n## 4. Cas du mouvement de translation\n\nPour un solide en mouvement de translation, tous ses points ont la même vitesse instantanée. L'énergie cinétique se calcule alors simplement avec la vitesse du centre d'inertie.\n\n**Description du schéma 1:** Représenter un solide en mouvement de translation. Montrer que tous les points (A, B, C) ont des vecteurs vitesse identiques (même direction, même sens, même longueur). Indiquer la vitesse v et la masse m du solide.\n![Gemini_Generated_Image_r36i03r36i03r36i.png](https://djkkotmcvzfncdpgbwvx.supabase.co/storage/v1/object/public/lesson-images/lessons/premiere-a1/physique-chimie/1766265580209-4dhdrm.png)\n\n\n## 5. Théorème de l'énergie cinétique\n\nDans un référentiel galiléen, la variation d'énergie cinétique d'un solide entre deux positions A et B est égale à la somme des travaux des forces extérieures appliquées au solide :\n$$\\Delta E_c = E_{cB} - E_{cA} = \\sum W_{A \\to B}(\\vec{F}_{ext})$$\n\nCe théorème est très utile pour résoudre des problèmes de mécanique sans connaître la trajectoire détaillée.\n\n## 6. Applications du théorème\n\n**Cas particulier :** Si la somme des travaux est nulle, l'énergie cinétique se conserve.\n\n**Exemple :** Chute libre (négligeant les frottements) : seule le poids travaille, et son travail se transforme intégralement en énergie cinétique.\n\n**Description du schéma 2:** Schéma d'une chute libre. Montrer un corps à deux hauteurs différentes h1 et h2, avec les vitesses v1 et v2. Illustrer la conservation de l'énergie mécanique : Ep1 + Ec1 = Ep2 + Ec2.\n![Gemini_Generated_Image_vi8bzcvi8bzcvi8b.png](https://djkkotmcvzfncdpgbwvx.supabase.co/storage/v1/object/public/lesson-images/lessons/premiere-a1/physique-chimie/1766265750708-jhp8qb.png)\n\n\n## 7. Calculs pratiques\n\n**Ordres de grandeur :**\n- Piéton (70 kg, 5 km/h ≈ 1,4 m/s) : $E_c \\approx 68$ J\n- Voiture (1000 kg, 50 km/h ≈ 13,9 m/s) : $E_c \\approx 96\\\\,000$ J\n- Camion (20 tonnes, 80 km/h ≈ 22,2 m/s) : $E_c \\approx 4,9$ MJ\n\n## 8. Sécurité routière en Côte d'Ivoire\n\nL'énergie cinétique explique pourquoi :\n1. Les accidents sont plus graves à vitesse élevée (E_c ∝ v²)\n2. Les poids lourds sont plus dangereux (E_c ∝ m)\n3. Il faut respecter les limites de vitesse, surtout à Abidjan où la circulation est dense\n\n**Description du schéma 3:** Graphique montrant l'énergie cinétique en fonction de la vitesse pour deux masses différentes (voiture et camion). Montrer la croissance quadratique (courbe parabolique). Axes : vitesse (abscisse), énergie cinétique (ordonnée).",
   "estimatedMinutes": 10,
   "keyPoints": [
     "L'énergie cinétique est proportionnelle à la masse et au carré de la vitesse",
@@ -255,9 +255,9 @@
       "prompt": "Quelle est l'expression correcte de l'énergie cinétique d'un solide de masse m et de vitesse v ?",
       "options": [
         "$E_c = mv^2$",
-        "$E_c = \\\\frac{1}{2}mv^2$",
+        "$E_c = \\frac{1}{2}mv^2$",
         "$E_c = mv$",
-        "$E_c = \\\\frac{1}{2}mv$"
+        "$E_c = \\frac{1}{2}mv$"
       ],
       "answer": 1,
       "explanation": "Question issue du programme officiel."
@@ -280,10 +280,10 @@
       "type": "mcq",
       "prompt": "Le théorème de l'énergie cinétique s'énonce :",
       "options": [
-        "$\\\\Delta E_c = \\\\sum P(\\\\vec{F})$",
-        "$\\\\Delta E_c = \\\\sum W(\\\\vec{F})$",
-        "$E_c = \\\\sum W(\\\\vec{F})$",
-        "$\\\\Delta E_c = \\\\sum F \\\\times d$"
+        "$\\Delta E_c = \\sum P(\\vec{F})$",
+        "$\\Delta E_c = \\sum W(\\vec{F})$",
+        "$E_c = \\sum W(\\vec{F})$",
+        "$\\Delta E_c = \\sum F \\times d$"
       ],
       "answer": 1,
       "explanation": "Question issue du programme officiel."
@@ -320,9 +320,9 @@
       "prompt": "Pour un solide en chute libre sans frottement, quelle relation lie la vitesse et la hauteur de chute ?",
       "options": [
         "$v = gh$",
-        "$v = \\\\sqrt{2gh}$",
+        "$v = \\sqrt{2gh}$",
         "$v = 2gh$",
-        "$v = \\\\sqrt{gh}$"
+        "$v = \\sqrt{gh}$"
       ],
       "answer": 1,
       "explanation": "Question issue du programme officiel."
@@ -371,10 +371,10 @@
       "type": "mcq",
       "prompt": "L'unité du joule peut s'exprimer en :",
       "options": [
-        "$kg \\\\cdot m/s$",
-        "$kg \\\\cdot m^2/s^2$",
+        "$kg \\cdot m/s$",
+        "$kg \\cdot m^2/s^2$",
         "$N/s$",
-        "$W \\\\cdot s^2$"
+        "$W \\cdot s^2$"
       ],
       "answer": 1,
       "explanation": "Question issue du programme officiel."

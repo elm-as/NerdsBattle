@@ -2,12 +2,12 @@
   "id": "maths-premiere-systemes-d-equations-lineaires-dans-ir-et-dans-ir",
   "title": "Systèmes d'équations linéaires dans IR² et dans IR³",
   "summary": "Trois élèves d'Abidjan font des recherches sur les hydrocarbures. Ils découvrent qu'un mélange de méthane, d'acétylène et d'oxygène occupe 70 cm³ initialement. Après réaction, il reste 30 cm³ de CO₂ et 10 cm³ d'O₂. Ils veulent déterminer les volumes initiaux de chaque gaz en résolvant un système d'équations linéaires.",
-  "lesson": "## 1. Système de deux équations à deux inconnues\n\nUn système linéaire 2×2 s'écrit :\n$$\\\\begin{cases} a_1x + b_1y = c_1 \\\\\\\\ a_2x + b_2y = c_2 \\\\end{cases}$$\n\noù $$a_1, b_1, c_1, a_2, b_2, c_2 \\\\in \\\\mathbb{R}$$.\n\n## 2. Déterminant d'un système 2×2\n\nLe déterminant est défini par :\n$$\\\\Delta = a_1b_2 - a_2b_1$$\n\n**Exemple** : Pour $$\\\\begin{cases} 2x + 3y = 7 \\\\\\\\ x - y = 1 \\\\end{cases}$$\n$$\\\\Delta = 2 \\\times (-1) - 1 \\\times 3 = -2 - 3 = -5$$\n\n## 3. Résolution par la méthode du déterminant\n\nSi $$\\\\Delta \\\neq 0$$, le système admet une unique solution :\n$$x = \\\\frac{\\\\Delta_x}{\\\\Delta}, \\\\quad y = \\\\frac{\\\\Delta_y}{\\\\Delta}$$\n\noù :\n$$\\\\Delta_x = c_1b_2 - c_2b_1$$\n$$\\\\Delta_y = a_1c_2 - a_2c_1$$\n\n## 4. Interprétation géométrique\n\nDans le plan :\n- Chaque équation représente une droite\n- Si $$\\\\Delta \\\neq 0$$ : les droites sont sécantes (une unique solution)\n- Si $$\\\\Delta = 0$$ : les droites sont parallèles (soit aucune, soit une infinité de solutions)\n\n## 5. Système de trois équations à trois inconnues\n\nForme générale :\n$$\\\\begin{cases} a_1x + b_1y + c_1z = d_1 \\\\\\\\ a_2x + b_2y + c_2z = d_2 \\\\\\\\ a_3x + b_3y + c_3z = d_3 \\\\end{cases}$$\n\n## 6. Méthode de substitution\n\n1. Exprimer une inconnue en fonction des autres à partir d'une équation\n2. Substituer cette expression dans les autres équations\n3. Résoudre le système réduit\n\n**Exemple ivoirien** : Un commerçant de Daloa vend des sacs de riz, de maïs et de mil. Les informations sur les quantités et prix totaux forment un système 3×3.\n\n## 7. Méthode du pivot de Gauss\n\nCette méthode consiste à échelonner le système par opérations élémentaires :\n\n1. Échanger deux équations\n2. Multiplier une équation par un scalaire non nul\n3. Ajouter à une équation un multiple d'une autre\n\nL'objectif est d'obtenir un système triangulaire.\n\n## 8. Applications économiques en Côte d'Ivoire\n\n**Problème** : Une coopérative agricole de Man produit du café, du cacao et de l'anacarde. En avril, la vente de 10 kg de café, 15 kg de cacao et 20 kg d'anacarde a rapporté 125 000 FCFA. En mai, 12 kg de café, 18 kg de cacao et 25 kg d'anacarde ont rapporté 150 000 FCFA. En juin, 8 kg de café, 20 kg de cacao et 15 kg d'anacarde ont rapporté 120 000 FCFA. Trouver le prix au kg de chaque produit.\n\nCe problème se traduit par un système 3×3 à résoudre.",
+  "lesson": "## 1. Système de deux équations à deux inconnues\n\nUn système linéaire 2×2 s'écrit :\n$$\\begin{cases} a_1x + b_1y = c_1 \\\\\\\\ a_2x + b_2y = c_2 \\end{cases}$$\n\noù $$a_1, b_1, c_1, a_2, b_2, c_2 \\in \\mathbb{R}$$.\n\n## 2. Déterminant d'un système 2×2\n\nLe déterminant est défini par :\n$$\\Delta = a_1b_2 - a_2b_1$$\n\n**Exemple** : Pour $$\\begin{cases} 2x + 3y = 7 \\\\\\\\ x - y = 1 \\end{cases}$$\n$$\\Delta = 2 \\times (-1) - 1 \\times 3 = -2 - 3 = -5$$\n\n## 3. Résolution par la méthode du déterminant\n\nSi $$\\Delta\neq  0$$, le système admet une unique solution :\n$$x = \\frac{\\Delta_x}{\\Delta}, \\quad y = \\frac{\\Delta_y}{\\Delta}$$\n\noù :\n$$\\Delta_x = c_1b_2 - c_2b_1$$\n$$\\Delta_y = a_1c_2 - a_2c_1$$\n\n## 4. Interprétation géométrique\n\nDans le plan :\n- Chaque équation représente une droite\n- Si $$\\Delta\neq  0$$ : les droites sont sécantes (une unique solution)\n- Si $$\\Delta = 0$$ : les droites sont parallèles (soit aucune, soit une infinité de solutions)\n\n## 5. Système de trois équations à trois inconnues\n\nForme générale :\n$$\\begin{cases} a_1x + b_1y + c_1z = d_1 \\\\\\\\ a_2x + b_2y + c_2z = d_2 \\\\\\\\ a_3x + b_3y + c_3z = d_3 \\end{cases}$$\n\n## 6. Méthode de substitution\n\n1. Exprimer une inconnue en fonction des autres à partir d'une équation\n2. Substituer cette expression dans les autres équations\n3. Résoudre le système réduit\n\n**Exemple ivoirien** : Un commerçant de Daloa vend des sacs de riz, de maïs et de mil. Les informations sur les quantités et prix totaux forment un système 3×3.\n\n## 7. Méthode du pivot de Gauss\n\nCette méthode consiste à échelonner le système par opérations élémentaires :\n\n1. Échanger deux équations\n2. Multiplier une équation par un scalaire non nul\n3. Ajouter à une équation un multiple d'une autre\n\nL'objectif est d'obtenir un système triangulaire.\n\n## 8. Applications économiques en Côte d'Ivoire\n\n**Problème** : Une coopérative agricole de Man produit du café, du cacao et de l'anacarde. En avril, la vente de 10 kg de café, 15 kg de cacao et 20 kg d'anacarde a rapporté 125 000 FCFA. En mai, 12 kg de café, 18 kg de cacao et 25 kg d'anacarde ont rapporté 150 000 FCFA. En juin, 8 kg de café, 20 kg de cacao et 15 kg d'anacarde ont rapporté 120 000 FCFA. Trouver le prix au kg de chaque produit.\n\nCe problème se traduit par un système 3×3 à résoudre.",
   "estimatedMinutes": 10,
   "keyPoints": [
-    "Un système 2×2 a une unique solution si $$\\\\Delta \\\neq 0$$",
-    "$$\\\\Delta = a_1b_2 - a_2b_1$$ est le déterminant du système",
-    "La solution est $$x = \\\\Delta_x/\\\\Delta$$, $$y = \\\\Delta_y/\\\\Delta$$ si $$\\\\Delta \\\neq 0$$",
+    "Un système 2×2 a une unique solution si $$\\Delta\neq  0$$",
+    "$$\\Delta = a_1b_2 - a_2b_1$$ est le déterminant du système",
+    "La solution est $$x = \\Delta_x/\\Delta$$, $$y = \\Delta_y/\\Delta$$ si $$\\Delta\neq  0$$",
     "Pour un système 3×3, on utilise substitution ou pivot de Gauss",
     "Un système peut avoir 0, 1 ou une infinité de solutions"
   ],
@@ -19,7 +19,7 @@
     {
       "id": "q1",
       "type": "mcq",
-      "prompt": "Pour le système $$\\\\begin{cases} 3x + 2y = 8 \\\\\\\\ x - y = 1 \\\\end{cases}$$, quel est le déterminant $$\\\\Delta$$ ?",
+      "prompt": "Pour le système $$\\begin{cases} 3x + 2y = 8 \\\\\\\\ x - y = 1 \\end{cases}$$, quel est le déterminant $$\\Delta$$ ?",
       "options": [
         "1",
         "-5",
@@ -32,7 +32,7 @@
     {
       "id": "q2",
       "type": "mcq",
-      "prompt": "Si $$\\\\Delta = 0$$ pour un système 2×2, que peut-on dire des droites représentées ?",
+      "prompt": "Si $$\\Delta = 0$$ pour un système 2×2, que peut-on dire des droites représentées ?",
       "options": [
         "Elles sont sécantes",
         "Elles sont parallèles",

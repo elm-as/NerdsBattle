@@ -2,7 +2,7 @@
   "id": "maths-terminale-fonction-exponentielle-neperienne",
   "title": "Fonction exponentielle népérienne",
   "summary": "Un étudiant en médecine effectuant un stage à l'infirmerie du Lycée de Yamoussoukro donne un médicament à un élève malade. La masse M (en mg) de médicament présente dans le sang t heures après la prise est modélisée par $M(t) = 50e^{-0,75t}$. Pour prescrire d'autres médicaments, le stagiaire veut visualiser l'évolution de M en fonction du temps. Le professeur de maths associe la classe à l'étude de la fonction exponentielle.",
-  "lesson": "## 1. Définition et notation\nLa fonction exponentielle népérienne, notée $\\\\exp$ ou $e^x$, est la fonction réciproque du logarithme népérien.\n\n**Définition** : Pour tout $x∈\\\\mathbb{R}$, $e^x$ est l'unique nombre réel strictement positif dont le logarithme népérien est x : $\\\\ln(e^x) = x$.\n\n## 2. Propriétés algébriques fondamentales\n\nPour tous $a,b∈\\\\mathbb{R}$, $n∈\\\\mathbb{Z}$ :\n\n1. $e^{a+b} = e^a \\\\cdot e^b$\n2. $e^{a-b} = \\\\frac{e^a}{e^b}$\n3. $(e^a)^n = e^{na}$\n4. $e^0 = 1$\n5. $e^a = e^b ⇔ a = b$\n6. $e^a < e^b ⇔ a < b$\n\n## 3. Signe et variations\n\n- $e^x > 0$ pour tout $x∈\\\\mathbb{R}$\n- $e^x = 1$ pour $x = 0$\n- $e^x < 1$ pour $x < 0$\n- $e^x > 1$ pour $x > 0$\n\nLa fonction $x → e^x$ est strictement croissante sur $\\\\mathbb{R}$.\n\n```mermaid\ngraph TD\n    A[Fonction exponentielle] --> B[Croissance rapide]\n    A --> C[Toujours positive]\n    A --> D[Réciproque de ln]\n    B --> E[Modélisation croissance]\n    C --> F[Modélisation positive]\n```\n\n## 4. Dérivée\n\nPour tout $x∈\\\\mathbb{R}$, $(e^x)' = e^x$.\n\n**Conséquences** :\n- $(e^{ax+b})' = ae^{ax+b}$\n- $(e^{u(x)})' = u'(x)e^{u(x)}$\n\n## 5. Limites importantes\n\n| Limite | Résultat |\n|--------|----------|\n| $\\\\lim_{x \\\to -\\\\infty} e^x$ | $0$ |\n| $\\\\lim_{x \\\to +\\\\infty} e^x$ | $+\\\\infty$ |\n| $\\\\lim_{x \\\to +\\\\infty} \\\\frac{e^x}{x}$ | $+\\\\infty$ |\n| $\\\\lim_{x \\\to -\\\\infty} xe^x$ | $0$ |\n\n## 6. Courbe représentative\n\nLa courbe de $x → e^x$ :\n- Passe par (0,1)\n- Est au-dessus de l'axe des abscisses\n- Admet l'axe des abscisses comme asymptote en $-\\\\infty$\n- Présente une croissance de plus en plus rapide\n\n```mathgraph\n{\n  \"type\": \"function\",\n  \"title\": \"Fonction exponentielle et décroissance exponentielle\",\n  \"xRange\": [-2, 4],\n  \"yRange\": [-1, 10],\n  \"functions\": [\n    { \"expression\": \"exp(x)\", \"color\": \"#3b82f6\", \"name\": \"exp(x)\" },\n    { \"expression\": \"50*exp(-0.75*x)\", \"color\": \"#ef4444\", \"name\": \"M(t)=50e^{-0.75t}\" }\n  ],\n  \"horizontalLines\": [\n    { \"y\": 0, \"color\": \"#10b981\", \"name\": \"Asymptote\", \"lineStyle\": \"dashed\" }\n  ],\n  \"showGrid\": true,\n  \"showAxes\": true,\n  \"xLabel\": \"x ou t\",\n  \"yLabel\": \"y\",\n  \"points\": [\n    { \"x\": 0, \"y\": 1, \"color\": \"#8b5cf6\", \"name\": \"(0,1)\" },\n    { \"x\": 0, \"y\": 50, \"color\": \"#ef4444\", \"name\": \"M(0)=50\" }\n  ]\n}\n```\n\n## 7. Équations et inéquations avec exp\n\n**Équations** : $e^{A} = e^{B} ⇔ A = B$\n\n**Inéquations** : $e^{A} < e^{B} ⇔ A < B$ (car exp est croissante)\n\n**Exemple** : Résoudre $e^{2x-1} = 3$ :\n$2x-1 = \\\\ln 3$ donc $x = \\\\frac{\\\\ln 3 + 1}{2}$\n\n## 8. Étude de fonctions avec exp\n\n**Type 1** : $f(x) = ae^x + b$\n- Dérivée : $f'(x) = ae^x$\n- Variations : dépend du signe de a\n\n**Type 2** : $f(x) = (ax+b)e^x$\n- Dérivée : $f'(x) = ae^x + (ax+b)e^x = (ax + a + b)e^x$\n\n**Type 3** : $f(x) = \\\\frac{e^x}{ax+b}$ (avec $ax+b \\\neq 0$)\n- Dérivée : $f'(x) = \\\\frac{e^x(ax+b) - ae^x}{(ax+b)^2} = \\\\frac{e^x(ax+b-a)}{(ax+b)^2}$\n\n## 9. Application à la situation médicale\n\nPour $M(t) = 50e^{-0,75t}$ :\n\n1. **Valeur initiale** : $M(0) = 50e^0 = 50$ mg\n2. **Limite** : $\\\\lim_{t \\\to +\\\\infty} M(t) = 0$ (le médicament est éliminé)\n3. **Dérivée** : $M'(t) = 50 \\\times (-0,75)e^{-0,75t} = -37,5e^{-0,75t} < 0$\n4. **Variations** : M est strictement décroissante (élimination progressive)\n5. **Demi-vie** : Temps t tel que $M(t) = 25$ mg :\n   $50e^{-0,75t} = 25$\n   $e^{-0,75t} = 0,5$\n   $-0,75t = \\\\ln 0,5$\n   $t = -\\\\frac{\\\\ln 0,5}{0,75} ≈ -\\\\frac{-0,693}{0,75} ≈ 0,924$ heure ≈ 55 minutes\n\n## 10. Applications en Côte d'Ivoire\n\n- Modélisation de la croissance démographique\n- Décroissance radioactive (dans la recherche)\n- Finance : intérêts composés continus\n- Pharmacologie : élimination des médicaments\n\n**Exemple économique** : Un investissement de 1 000 000 FCFA au taux de 5% annuel en composition continue donne après t ans : $A(t) = 1 000 000e^{0,05t}$.",
+  "lesson": "## 1. Définition et notation\nLa fonction exponentielle népérienne, notée $\\exp$ ou $e^x$, est la fonction réciproque du logarithme népérien.\n\n**Définition** : Pour tout $x∈\\mathbb{R}$, $e^x$ est l'unique nombre réel strictement positif dont le logarithme népérien est x : $\\ln(e^x) = x$.\n\n## 2. Propriétés algébriques fondamentales\n\nPour tous $a,b∈\\mathbb{R}$, $n∈\\mathbb{Z}$ :\n\n1. $e^{a+b} = e^a \\cdot e^b$\n2. $e^{a-b} = \\frac{e^a}{e^b}$\n3. $(e^a)^n = e^{na}$\n4. $e^0 = 1$\n5. $e^a = e^b ⇔ a = b$\n6. $e^a < e^b ⇔ a < b$\n\n## 3. Signe et variations\n\n- $e^x > 0$ pour tout $x∈\\mathbb{R}$\n- $e^x = 1$ pour $x = 0$\n- $e^x < 1$ pour $x < 0$\n- $e^x > 1$ pour $x > 0$\n\nLa fonction $x → e^x$ est strictement croissante sur $\\mathbb{R}$.\n\n```mermaid\ngraph TD\n    A[Fonction exponentielle] --> B[Croissance rapide]\n    A --> C[Toujours positive]\n    A --> D[Réciproque de ln]\n    B --> E[Modélisation croissance]\n    C --> F[Modélisation positive]\n```\n\n## 4. Dérivée\n\nPour tout $x∈\\mathbb{R}$, $(e^x)' = e^x$.\n\n**Conséquences** :\n- $(e^{ax+b})' = ae^{ax+b}$\n- $(e^{u(x)})' = u'(x)e^{u(x)}$\n\n## 5. Limites importantes\n\n| Limite | Résultat |\n|--------|----------|\n| $\\lim_{x \\to -\\infty} e^x$ | $0$ |\n| $\\lim_{x \\to +\\infty} e^x$ | $+\\infty$ |\n| $\\lim_{x \\to +\\infty} \\frac{e^x}{x}$ | $+\\infty$ |\n| $\\lim_{x \\to -\\infty} xe^x$ | $0$ |\n\n## 6. Courbe représentative\n\nLa courbe de $x → e^x$ :\n- Passe par (0,1)\n- Est au-dessus de l'axe des abscisses\n- Admet l'axe des abscisses comme asymptote en $-\\infty$\n- Présente une croissance de plus en plus rapide\n\n```mathgraph\n{\n  \"type\": \"function\",\n  \"title\": \"Fonction exponentielle et décroissance exponentielle\",\n  \"xRange\": [-2, 4],\n  \"yRange\": [-1, 10],\n  \"functions\": [\n    { \"expression\": \"exp(x)\", \"color\": \"#3b82f6\", \"name\": \"exp(x)\" },\n    { \"expression\": \"50*exp(-0.75*x)\", \"color\": \"#ef4444\", \"name\": \"M(t)=50e^{-0.75t}\" }\n  ],\n  \"horizontalLines\": [\n    { \"y\": 0, \"color\": \"#10b981\", \"name\": \"Asymptote\", \"lineStyle\": \"dashed\" }\n  ],\n  \"showGrid\": true,\n  \"showAxes\": true,\n  \"xLabel\": \"x ou t\",\n  \"yLabel\": \"y\",\n  \"points\": [\n    { \"x\": 0, \"y\": 1, \"color\": \"#8b5cf6\", \"name\": \"(0,1)\" },\n    { \"x\": 0, \"y\": 50, \"color\": \"#ef4444\", \"name\": \"M(0)=50\" }\n  ]\n}\n```\n\n## 7. Équations et inéquations avec exp\n\n**Équations** : $e^{A} = e^{B} ⇔ A = B$\n\n**Inéquations** : $e^{A} < e^{B} ⇔ A < B$ (car exp est croissante)\n\n**Exemple** : Résoudre $e^{2x-1} = 3$ :\n$2x-1 = \\ln 3$ donc $x = \\frac{\\ln 3 + 1}{2}$\n\n## 8. Étude de fonctions avec exp\n\n**Type 1** : $f(x) = ae^x + b$\n- Dérivée : $f'(x) = ae^x$\n- Variations : dépend du signe de a\n\n**Type 2** : $f(x) = (ax+b)e^x$\n- Dérivée : $f'(x) = ae^x + (ax+b)e^x = (ax + a + b)e^x$\n\n**Type 3** : $f(x) = \\frac{e^x}{ax+b}$ (avec $ax+b\neq 0$)\n- Dérivée : $f'(x) = \\frac{e^x(ax+b) - ae^x}{(ax+b)^2} = \\frac{e^x(ax+b-a)}{(ax+b)^2}$\n\n## 9. Application à la situation médicale\n\nPour $M(t) = 50e^{-0,75t}$ :\n\n1. **Valeur initiale** : $M(0) = 50e^0 = 50$ mg\n2. **Limite** : $\\lim_{t \\to +\\infty} M(t) = 0$ (le médicament est éliminé)\n3. **Dérivée** : $M'(t) = 50 \\times (-0,75)e^{-0,75t} = -37,5e^{-0,75t} < 0$\n4. **Variations** : M est strictement décroissante (élimination progressive)\n5. **Demi-vie** : Temps t tel que $M(t) = 25$ mg :\n   $50e^{-0,75t} = 25$\n   $e^{-0,75t} = 0,5$\n   $-0,75t = \\ln 0,5$\n   $t = -\\frac{\\ln 0,5}{0,75} ≈ -\\frac{-0,693}{0,75} ≈ 0,924$ heure ≈ 55 minutes\n\n## 10. Applications en Côte d'Ivoire\n\n- Modélisation de la croissance démographique\n- Décroissance radioactive (dans la recherche)\n- Finance : intérêts composés continus\n- Pharmacologie : élimination des médicaments\n\n**Exemple économique** : Un investissement de 1 000 000 FCFA au taux de 5% annuel en composition continue donne après t ans : $A(t) = 1 000 000e^{0,05t}$.",
   "estimatedMinutes": 10,
   "keyPoints": [
     "exp(x) > 0 pour tout x réel et exp(0) = 1",
@@ -18,7 +18,7 @@
     {
       "id": "q1",
       "type": "mcq",
-      "prompt": "$e^{\\\\ln 5}$ est égal à :",
+      "prompt": "$e^{\\ln 5}$ est égal à :",
       "options": [
         "5",
         "ln 5",
@@ -70,12 +70,12 @@
     {
       "id": "q5",
       "type": "mcq",
-      "prompt": "Que vaut $e^{\\\\ln 5 + \\\\ln 2}$ ?",
+      "prompt": "Que vaut $e^{\\ln 5 + \\ln 2}$ ?",
       "options": [
         "7",
         "10",
         "$e^{10}$",
-        "$\\\\ln 10$"
+        "$\\ln 10$"
       ],
       "answer": 1,
       "explanation": "Question issue du programme officiel."
@@ -83,12 +83,12 @@
     {
       "id": "q6",
       "type": "mcq",
-      "prompt": "La limite de $\\\\frac{e^x}{x^2}$ quand $x\\\\to+\\\\infty$ est :",
+      "prompt": "La limite de $\\frac{e^x}{x^2}$ quand $x\\to+\\infty$ est :",
       "options": [
         "0",
         "1",
-        "$+\\\\infty$",
-        "$-\\\\infty$"
+        "$+\\infty$",
+        "$-\\infty$"
       ],
       "answer": 2,
       "explanation": "Question issue du programme officiel."
@@ -112,9 +112,9 @@
       "prompt": "Une solution de $e^{2x} - 5e^x + 6 = 0$ est :",
       "options": [
         "x=0",
-        "x=\\\\ln 2",
-        "x=\\\\ln 3",
-        "x=\\\\ln 6"
+        "x=\\ln 2",
+        "x=\\ln 3",
+        "x=\\ln 6"
       ],
       "answer": 1,
       "explanation": "Question issue du programme officiel."

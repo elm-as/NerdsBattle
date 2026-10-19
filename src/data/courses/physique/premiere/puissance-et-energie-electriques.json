@@ -2,7 +2,7 @@
   "id": "physique-premiere-puissance-et-energie-electriques",
   "title": "Puissance et énergie électriques",
   "summary": "À Tiassalé, un professeur informe sa classe de 1ère A2 que son poste téléviseur consomme 70 W. Les élèves cherchent à comprendre le lien entre cette puissance et l'énergie consommée, ainsi que les implications sur la facture d'électricité et la gestion de l'énergie en Côte d'Ivoire.",
-  "lesson": "## 1. Introduction\n\nLa **puissance électrique** mesure la rapidité de conversion de l'énergie électrique en d'autres formes d'énergie. L'**énergie électrique** est la quantité totale convertie sur une durée. Ces concepts sont cruciaux pour comprendre la consommation des appareils ménagers à Abidjan, le dimensionnement des installations industrielles à San-Pédro, et la gestion du réseau électrique national.\n\n## 2. Puissance électrique reçue par un dipôle\n\nPour un dipôle soumis à une tension $U$ et traversé par un courant $I$, la puissance électrique **reçue** est :\n$$P = U \\\times I$$\n\n- Unité SI : **watt (W)** ; 1 W = 1 V·A\n- Sous-multiples : mW, kW (1 kW = 1000 W), MW\n\n**Convention récepteur** : $P > 0$ si le dipôle reçoit effectivement de la puissance.\n\n## 3. Énergie électrique reçue\n\nSi la puissance $P$ reste constante pendant une durée $Δt$, l'énergie électrique reçue est :\n$$E = P \\\times \\\\Delta t$$\n\nSi $U$ et $I$ sont constants : $E = U \\\times I \\\times \\\\Delta t$\n\n- Unité SI : **joule (J)** ; 1 J = 1 W·s\n- Unité pratique : **kilowattheure (kWh)** ; 1 kWh = 3,6 × 10⁶ J\n\n## 4. Cas particulier du conducteur ohmique\n\nPour un conducteur ohmique de résistance $R$, avec $U = RI$ (loi d'Ohm) :\n$$P = UI = RI^2 = \\\\frac{U^2}{R}$$\n\n**L'énergie reçue est intégralement convertie en chaleur** : c'est l'**effet Joule**.\n\n**Description du schéma 1:** Schéma d'un circuit simple : générateur → résistor. Indiquer U aux bornes du résistor, I qui le traverse. Montrer la conversion Énergie électrique → Énergie thermique (chaleur).\n\n## 5. Effet Joule : applications et inconvénients\n\n**Applications utiles** :\n- Chauffage (radiateurs, bouilloires, fers à repasser)\n- Éclairage à incandescence (anciennes ampoules)\n- Fusibles de protection\n\n**Inconvénients** :\n- Pertes dans les fils de transmission\n- Échauffement des composants électroniques\n- Rendement faible pour certaines applications\n\n## 6. Puissance fournie par un générateur\n\nPour un générateur de f.é.m. $E$, de résistance interne $r$, débitant un courant $I$ :\n- Puissance **générée** : $P_g = E \\\times I$\n- Puissance **fournie** à l'extérieur : $P_u = U \\\times I = (E - rI)I$\n- Puissance **perdue** par effet Joule dans r : $P_j = rI^2$\n\nBilan : $P_g = P_u + P_j$\n\n## 7. Rendement d'un générateur\n\nLe rendement est le rapport puissance utile / puissance générée :\n$$\\\\eta = \\\\frac{P_u}{P_g} = \\\\frac{U}{E} = 1 - \\\\frac{rI}{E}$$\n\nIl est maximal à faible courant débité.\n\n**Description du schéma 2:** Diagramme de flux d'énergie pour un générateur. Montrer l'énergie chimique → énergie électrique générée (Pg) → part utile (Pu) + pertes Joule (Pj).\n\n## 8. Bilan énergétique et facturation en Côte d'Ivoire\n\n**Exemple de calcul de consommation** :\nUn réfrigérateur de 150 W fonctionnant 24h/24 pendant 30 jours :\n$$E = P \\\times t = 0,15\\\\ \\\text{kW} \\\times (24 \\\times 30)\\\\ \\\text{h} = 0,15 \\\times 720 = 108\\\\ \\\text{kWh}$$\n\n**Prix** : À environ 75 FCFA/kWh (tarif CI-Energies), coût = 108 × 75 = 8 100 FCFA/mois.\n\n## 9. Économies d'énergie\n\n1. **Remplacer** les ampoules à incandescence par des LED (×10 moins de puissance)\n2. **Débrancher** les chargeurs inutilisés\n3. **Choisir** des appareils de classe énergétique A+++\n4. **Utiliser** des multiprises avec interrupteur\n\n**Description du schéma 3:** Graphique comparatif de consommation pour différents appareils. En abscisse : types d'appareils (Ampoule incandescente 60W, LED 6W, Réfrigérateur, TV, etc.). En ordonnée : puissance en W ou consommation mensuelle en kWh.",
+  "lesson": "## 1. Introduction\n\nLa **puissance électrique** mesure la rapidité de conversion de l'énergie électrique en d'autres formes d'énergie. L'**énergie électrique** est la quantité totale convertie sur une durée. Ces concepts sont cruciaux pour comprendre la consommation des appareils ménagers à Abidjan, le dimensionnement des installations industrielles à San-Pédro, et la gestion du réseau électrique national.\n\n## 2. Puissance électrique reçue par un dipôle\n\nPour un dipôle soumis à une tension $U$ et traversé par un courant $I$, la puissance électrique **reçue** est :\n$$P = U \\times I$$\n\n- Unité SI : **watt (W)** ; 1 W = 1 V·A\n- Sous-multiples : mW, kW (1 kW = 1000 W), MW\n\n**Convention récepteur** : $P > 0$ si le dipôle reçoit effectivement de la puissance.\n\n## 3. Énergie électrique reçue\n\nSi la puissance $P$ reste constante pendant une durée $Δt$, l'énergie électrique reçue est :\n$$E = P \\times \\Delta t$$\n\nSi $U$ et $I$ sont constants : $E = U \\times I \\times \\Delta t$\n\n- Unité SI : **joule (J)** ; 1 J = 1 W·s\n- Unité pratique : **kilowattheure (kWh)** ; 1 kWh = 3,6 × 10⁶ J\n\n## 4. Cas particulier du conducteur ohmique\n\nPour un conducteur ohmique de résistance $R$, avec $U = RI$ (loi d'Ohm) :\n$$P = UI = RI^2 = \\frac{U^2}{R}$$\n\n**L'énergie reçue est intégralement convertie en chaleur** : c'est l'**effet Joule**.\n\n**Description du schéma 1:** Schéma d'un circuit simple : générateur → résistor. Indiquer U aux bornes du résistor, I qui le traverse. Montrer la conversion Énergie électrique → Énergie thermique (chaleur).\n\n## 5. Effet Joule : applications et inconvénients\n\n**Applications utiles** :\n- Chauffage (radiateurs, bouilloires, fers à repasser)\n- Éclairage à incandescence (anciennes ampoules)\n- Fusibles de protection\n\n**Inconvénients** :\n- Pertes dans les fils de transmission\n- Échauffement des composants électroniques\n- Rendement faible pour certaines applications\n\n## 6. Puissance fournie par un générateur\n\nPour un générateur de f.é.m. $E$, de résistance interne $r$, débitant un courant $I$ :\n- Puissance **générée** : $P_g = E \\times I$\n- Puissance **fournie** à l'extérieur : $P_u = U \\times I = (E - rI)I$\n- Puissance **perdue** par effet Joule dans r : $P_j = rI^2$\n\nBilan : $P_g = P_u + P_j$\n\n## 7. Rendement d'un générateur\n\nLe rendement est le rapport puissance utile / puissance générée :\n$$\\eta = \\frac{P_u}{P_g} = \\frac{U}{E} = 1 - \\frac{rI}{E}$$\n\nIl est maximal à faible courant débité.\n\n**Description du schéma 2:** Diagramme de flux d'énergie pour un générateur. Montrer l'énergie chimique → énergie électrique générée (Pg) → part utile (Pu) + pertes Joule (Pj).\n\n## 8. Bilan énergétique et facturation en Côte d'Ivoire\n\n**Exemple de calcul de consommation** :\nUn réfrigérateur de 150 W fonctionnant 24h/24 pendant 30 jours :\n$$E = P \\times t = 0,15\\\\ \\text{kW} \\times (24 \\times 30)\\\\ \\text{h} = 0,15 \\times 720 = 108\\\\ \\text{kWh}$$\n\n**Prix** : À environ 75 FCFA/kWh (tarif CI-Energies), coût = 108 × 75 = 8 100 FCFA/mois.\n\n## 9. Économies d'énergie\n\n1. **Remplacer** les ampoules à incandescence par des LED (×10 moins de puissance)\n2. **Débrancher** les chargeurs inutilisés\n3. **Choisir** des appareils de classe énergétique A+++\n4. **Utiliser** des multiprises avec interrupteur\n\n**Description du schéma 3:** Graphique comparatif de consommation pour différents appareils. En abscisse : types d'appareils (Ampoule incandescente 60W, LED 6W, Réfrigérateur, TV, etc.). En ordonnée : puissance en W ou consommation mensuelle en kWh.",
   "estimatedMinutes": 10,
   "keyPoints": [
     "Puissance électrique : P = U×I (en watts)",
@@ -282,7 +282,7 @@
       "options": [
         "$U = E + rI$",
         "$U = E - rI$",
-        "$U = \\\\frac{E}{r}$",
+        "$U = \\frac{E}{r}$",
         "$U = EI$"
       ],
       "answer": 1,
@@ -293,9 +293,9 @@
       "type": "mcq",
       "prompt": "La puissance électrique reçue par un dipôle est donnée par :",
       "options": [
-        "$P = \\\\frac{U}{I}$",
+        "$P = \\frac{U}{I}$",
         "$P = UI$",
-        "$P = \\\\frac{I}{U}$",
+        "$P = \\frac{I}{U}$",
         "$P = U + I$"
       ],
       "answer": 1,
@@ -308,8 +308,8 @@
       "options": [
         "$P = RI$",
         "$P = RI^2$",
-        "$P = \\\\frac{R}{I^2}$",
-        "$P = \\\\frac{I^2}{R}$"
+        "$P = \\frac{R}{I^2}$",
+        "$P = \\frac{I^2}{R}$"
       ],
       "answer": 1,
       "explanation": "Question issue du programme officiel."
@@ -334,7 +334,7 @@
       "options": [
         "$U = E' - r'I$",
         "$U = E' + r'I$",
-        "$U = \\\\frac{E'}{r'I}$",
+        "$U = \\frac{E'}{r'I}$",
         "$U = E'r'I$"
       ],
       "answer": 1,

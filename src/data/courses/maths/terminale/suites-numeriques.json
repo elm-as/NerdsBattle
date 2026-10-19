@@ -2,7 +2,7 @@
   "id": "maths-terminale-suites-numeriques",
   "title": "Suites numeriques",
   "summary": "Le president de la promotion terminale du Lycee Municipal de Bouake dispose de 300 000 FCFA pour organiser les festivites de fin d'annee. Une banque propose deux options de placement : Option 1 (interets simples) : +2 500 FCFA/mois ; Option 2 (interets composes) : +3%/mois. Le budget necessaire est de 400 000 FCFA pour une manifestation prevue debut aout 2018. Les eleves doivent determiner l'option la plus avantageuse pour atteindre rapidement cet objectif en utilisant les suites arithmetiques et geometriqu",
-  "lesson": "## 1. Definition d'une suite numerique\nUne suite numerique est une fonction definie sur $\\\\mathbb{N}$ ou une partie de $\\\\mathbb{N}$, notee $(u_n)$ ou $n$ est l'indice.\n\n**Notation** : $u_n$ est le terme de rang $n$, $u_0$ ou $u_1$ est le premier terme.\n\n## 2. Suite arithmetique\n\n**Definition** : $(u_n)$ est arithmetique s'il existe un reel $r$ (la raison) tel que :\n$$u_{n+1} = u_n + r \\\\quad \\\text{pour tout } n$$\n\n**Exemple ivoirien** : Un taxi d'Abidjan parcourt chaque jour 50 km de plus que la veille. Si le premier jour il fait 100 km, on a $u_1=100$, $r=50$, donc $u_n=100+50(n-1)$.\n\n## 3. Terme general d'une suite arithmetique\n\nSi $(u_n)$ est arithmetique de raison $r$ :\n$$u_n = u_p + (n-p)r$$\nEn particulier avec le premier terme $u_0$ : $u_n = u_0 + nr$\nAvec le premier terme $u_1$ : $u_n = u_1 + (n-1)r$\n\n## 4. Sens de variation d'une suite arithmetique\n\n- Si $r > 0$ : $(u_n)$ est strictement croissante\n- Si $r < 0$ : $(u_n)$ est strictement decroissante\n- Si $r = 0$ : $(u_n)$ est constante\n\n**Preuve** : $u_{n+1} - u_n = r$ donc le signe de cette difference donne la variation.\n\n## 5. Somme des n premiers termes d'une suite arithmetique\n\n$$S_n = u_0 + u_1 + ... + u_{n-1} = n \\\times \\\\frac{u_0 + u_{n-1}}{2}$$\n\nOu si le premier terme est $u_1$ :\n$$S_n = u_1 + u_2 + ... + u_n = n \\\times \\\\frac{u_1 + u_n}{2}$$\n\n**Formule alternative** : $S_n = n \\\times u_0 + \\\\frac{n(n-1)}{2}r$\n\n## 6. Suite geometrique\n\n**Definition** : $(u_n)$ est geometrique s'il existe un reel $q$ (la raison, $q \\\neq 0$) tel que :\n$$u_{n+1} = u_n \\\times q \\\\quad \\\text{pour tout } n$$\n\n**Exemple** : Une population de moustiques a Korhogo triple chaque semaine. Si initialement $u_0=100$, alors $q=3$, $u_n=100 \\\times 3^n$.\n\n## 7. Terme general d'une suite geometrique\n\nSi $(u_n)$ est geometrique de raison $q$ :\n$$u_n = u_p \\\times q^{n-p}$$\nEn particulier avec le premier terme $u_0$ : $u_n = u_0 \\\times q^n$\nAvec le premier terme $u_1$ : $u_n = u_1 \\\times q^{n-1}$\n\n## 8. Sens de variation d'une suite geometrique\n\nDepend de $u_0$ et $q$ :\n\n| Condition | Variation |\n|-----------|-----------|\n| $u_0 > 0$ et $q > 1$ | Strictement croissante |\n| $u_0 > 0$ et $0 < q < 1$ | Strictement decroissante |\n| $u_0 > 0$ et $q = 1$ | Constante |\n| $u_0 < 0$ et $q > 1$ | Strictement decroissante |\n| $u_0 < 0$ et $0 < q < 1$ | Strictement croissante |\n\n## 9. Somme des n premiers termes d'une suite geometrique\n\nPour $q \\\neq 1$ :\n$$S_n = u_0 + u_1 + ... + u_{n-1} = u_0 \\\times \\\\frac{1 - q^n}{1 - q}$$\n\nOu si le premier terme est $u_1$ :\n$$S_n = u_1 + u_2 + ... + u_n = u_1 \\\times \\\\frac{1 - q^n}{1 - q}$$\n\nPour $q = 1$ : $S_n = n \\\times u_0$ (ou $n \\\times u_1$).\n\n## 10. Application a la situation bancaire\n\n**Donnees** : Capital initial $C_0 = 300\\\\,000$ FCFA, besoin $C_{\\\text{objectif}} = 400\\\\,000$ FCFA, placement du 1er janvier a debut aout (environ 7 mois).\n\n**Option 1 (interets simples)** : Suite arithmetique\n- Raison $r = 2\\\\,500$ FCFA/mois\n- $u_n = 300\\\\,000 + 2\\\\,500n$ ou $n$ = nombre de mois\n- Pour $u_n \\\\geq 400\\\\,000$ : $300\\\\,000 + 2\\\\,500n \\\\geq 400\\\\,000$\n  $2\\\\,500n \\\\geq 100\\\\,000$\n  $n \\\\geq 40$ mois (3 ans et 4 mois) -> Trop long!\n\n**Option 2 (interets composes)** : Suite geometrique\n- Raison $q = 1 + 0,03 = 1,03$\n- $v_n = 300\\\\,000 \\\times (1,03)^n$\n- Pour $v_n \\\\geq 400\\\\,000$ : $300\\\\,000 \\\times (1,03)^n \\\\geq 400\\\\,000$\n  $(1,03)^n \\\\geq \\\\frac{400\\\\,000}{300\\\\,000} = \\\\frac{4}{3} \\\\approx 1,3333$\n  En utilisant $\\\\ln$ : $n \\\\ln(1,03) \\\\geq \\\\ln(1,3333)$\n  $n \\\\geq \\\\frac{\\\\ln(1,3333)}{\\\\ln(1,03)} \\\\approx \\\\frac{0,2877}{0,0296} \\\\approx 9,72$ mois\n\n**Conclusion** : Avec l'option 2, il faut environ 10 mois, donc debut novembre 2018. Ni l'option 1 (40 mois) ni l'option 2 (10 mois) n'atteignent l'objectif avant aout 2018. Il faudrait chercher d'autres solutions!",
+  "lesson": "## 1. Definition d'une suite numerique\nUne suite numerique est une fonction definie sur $\\mathbb{N}$ ou une partie de $\\mathbb{N}$, notee $(u_n)$ ou $n$ est l'indice.\n\n**Notation** : $u_n$ est le terme de rang $n$, $u_0$ ou $u_1$ est le premier terme.\n\n## 2. Suite arithmetique\n\n**Definition** : $(u_n)$ est arithmetique s'il existe un reel $r$ (la raison) tel que :\n$$u_{n+1} = u_n + r \\quad \\text{pour tout } n$$\n\n**Exemple ivoirien** : Un taxi d'Abidjan parcourt chaque jour 50 km de plus que la veille. Si le premier jour il fait 100 km, on a $u_1=100$, $r=50$, donc $u_n=100+50(n-1)$.\n\n## 3. Terme general d'une suite arithmetique\n\nSi $(u_n)$ est arithmetique de raison $r$ :\n$$u_n = u_p + (n-p)r$$\nEn particulier avec le premier terme $u_0$ : $u_n = u_0 + nr$\nAvec le premier terme $u_1$ : $u_n = u_1 + (n-1)r$\n\n## 4. Sens de variation d'une suite arithmetique\n\n- Si $r > 0$ : $(u_n)$ est strictement croissante\n- Si $r < 0$ : $(u_n)$ est strictement decroissante\n- Si $r = 0$ : $(u_n)$ est constante\n\n**Preuve** : $u_{n+1} - u_n = r$ donc le signe de cette difference donne la variation.\n\n## 5. Somme des n premiers termes d'une suite arithmetique\n\n$$S_n = u_0 + u_1 + ... + u_{n-1} = n \\times \\frac{u_0 + u_{n-1}}{2}$$\n\nOu si le premier terme est $u_1$ :\n$$S_n = u_1 + u_2 + ... + u_n = n \\times \\frac{u_1 + u_n}{2}$$\n\n**Formule alternative** : $S_n = n \\times u_0 + \\frac{n(n-1)}{2}r$\n\n## 6. Suite geometrique\n\n**Definition** : $(u_n)$ est geometrique s'il existe un reel $q$ (la raison, $q\neq 0$) tel que :\n$$u_{n+1} = u_n \\times q \\quad \\text{pour tout } n$$\n\n**Exemple** : Une population de moustiques a Korhogo triple chaque semaine. Si initialement $u_0=100$, alors $q=3$, $u_n=100 \\times 3^n$.\n\n## 7. Terme general d'une suite geometrique\n\nSi $(u_n)$ est geometrique de raison $q$ :\n$$u_n = u_p \\times q^{n-p}$$\nEn particulier avec le premier terme $u_0$ : $u_n = u_0 \\times q^n$\nAvec le premier terme $u_1$ : $u_n = u_1 \\times q^{n-1}$\n\n## 8. Sens de variation d'une suite geometrique\n\nDepend de $u_0$ et $q$ :\n\n| Condition | Variation |\n|-----------|-----------|\n| $u_0 > 0$ et $q > 1$ | Strictement croissante |\n| $u_0 > 0$ et $0 < q < 1$ | Strictement decroissante |\n| $u_0 > 0$ et $q = 1$ | Constante |\n| $u_0 < 0$ et $q > 1$ | Strictement decroissante |\n| $u_0 < 0$ et $0 < q < 1$ | Strictement croissante |\n\n## 9. Somme des n premiers termes d'une suite geometrique\n\nPour $q\neq 1$ :\n$$S_n = u_0 + u_1 + ... + u_{n-1} = u_0 \\times \\frac{1 - q^n}{1 - q}$$\n\nOu si le premier terme est $u_1$ :\n$$S_n = u_1 + u_2 + ... + u_n = u_1 \\times \\frac{1 - q^n}{1 - q}$$\n\nPour $q = 1$ : $S_n = n \\times u_0$ (ou $n \\times u_1$).\n\n## 10. Application a la situation bancaire\n\n**Donnees** : Capital initial $C_0 = 300\\\\,000$ FCFA, besoin $C_{\\text{objectif}} = 400\\\\,000$ FCFA, placement du 1er janvier a debut aout (environ 7 mois).\n\n**Option 1 (interets simples)** : Suite arithmetique\n- Raison $r = 2\\\\,500$ FCFA/mois\n- $u_n = 300\\\\,000 + 2\\\\,500n$ ou $n$ = nombre de mois\n- Pour $u_n \\geq 400\\\\,000$ : $300\\\\,000 + 2\\\\,500n \\geq 400\\\\,000$\n  $2\\\\,500n \\geq 100\\\\,000$\n  $n \\geq 40$ mois (3 ans et 4 mois) -> Trop long!\n\n**Option 2 (interets composes)** : Suite geometrique\n- Raison $q = 1 + 0,03 = 1,03$\n- $v_n = 300\\\\,000 \\times (1,03)^n$\n- Pour $v_n \\geq 400\\\\,000$ : $300\\\\,000 \\times (1,03)^n \\geq 400\\\\,000$\n  $(1,03)^n \\geq \\frac{400\\\\,000}{300\\\\,000} = \\frac{4}{3} \\approx 1,3333$\n  En utilisant $\\ln$ : $n \\ln(1,03) \\geq \\ln(1,3333)$\n  $n \\geq \\frac{\\ln(1,3333)}{\\ln(1,03)} \\approx \\frac{0,2877}{0,0296} \\approx 9,72$ mois\n\n**Conclusion** : Avec l'option 2, il faut environ 10 mois, donc debut novembre 2018. Ni l'option 1 (40 mois) ni l'option 2 (10 mois) n'atteignent l'objectif avant aout 2018. Il faudrait chercher d'autres solutions!",
   "estimatedMinutes": 10,
   "keyPoints": [
     "Une suite arithmetique a une difference constante entre termes consecutifs : u_{n+1} - u_n = r",
@@ -122,7 +122,7 @@
     {
       "id": "q9",
       "type": "mcq",
-      "prompt": "La suite définie par $u_n = \\\\frac{1}{n}$ pour $n \\\\geq 1$ est :",
+      "prompt": "La suite définie par $u_n = \\frac{1}{n}$ pour $n \\geq 1$ est :",
       "options": [
         "Croissante",
         "Décroissante",
@@ -137,9 +137,9 @@
       "type": "mcq",
       "prompt": "Une suite croissante et majorée par 10 :",
       "options": [
-        "Diverge vers $+\\\\infty$",
+        "Diverge vers $+\\infty$",
         "Converge vers 10",
-        "Converge vers un réel $l \\\\leq 10$",
+        "Converge vers un réel $l \\leq 10$",
         "Peut ne pas converger"
       ],
       "answer": 2,
@@ -153,7 +153,7 @@
         "0",
         "5",
         "10",
-        "$+\\\\infty$"
+        "$+\\infty$"
       ],
       "answer": 0,
       "explanation": "Question issue du programme officiel."
@@ -161,12 +161,12 @@
     {
       "id": "q12",
       "type": "mcq",
-      "prompt": "Pour démontrer une propriété $\\\\mathcal{P}_n$ pour tout entier $n$ par récurrence, on doit :",
+      "prompt": "Pour démontrer une propriété $\\mathcal{P}_n$ pour tout entier $n$ par récurrence, on doit :",
       "options": [
-        "Vérifier $\\\\mathcal{P}_0$ et $\\\\mathcal{P}_{n} \\\\Rightarrow \\\\mathcal{P}_{n+1}$",
-        "Vérifier $\\\\mathcal{P}_1$ et $\\\\mathcal{P}_{n} \\\\Rightarrow \\\\mathcal{P}_{n+1}$",
-        "Vérifier $\\\\mathcal{P}_0$ et $\\\\mathcal{P}_{n+1} \\\\Rightarrow \\\\mathcal{P}_{n}$",
-        "Vérifier $\\\\mathcal{P}_0$, $\\\\mathcal{P}_1$ et $\\\\mathcal{P}_{n} \\\\Rightarrow \\\\mathcal{P}_{n+1}$"
+        "Vérifier $\\mathcal{P}_0$ et $\\mathcal{P}_{n} \\Rightarrow \\mathcal{P}_{n+1}$",
+        "Vérifier $\\mathcal{P}_1$ et $\\mathcal{P}_{n} \\Rightarrow \\mathcal{P}_{n+1}$",
+        "Vérifier $\\mathcal{P}_0$ et $\\mathcal{P}_{n+1} \\Rightarrow \\mathcal{P}_{n}$",
+        "Vérifier $\\mathcal{P}_0$, $\\mathcal{P}_1$ et $\\mathcal{P}_{n} \\Rightarrow \\mathcal{P}_{n+1}$"
       ],
       "answer": 0,
       "explanation": "Question issue du programme officiel."
@@ -174,12 +174,12 @@
     {
       "id": "q13",
       "type": "mcq",
-      "prompt": "Si $u_{n+1} = \\\\sqrt{u_n + 2}$ avec $u_0=1$ et si $(u_n)$ converge vers $l$, alors $l$ vérifie :",
+      "prompt": "Si $u_{n+1} = \\sqrt{u_n + 2}$ avec $u_0=1$ et si $(u_n)$ converge vers $l$, alors $l$ vérifie :",
       "options": [
-        "$l=\\\\sqrt{l+2}$",
+        "$l=\\sqrt{l+2}$",
         "$l=l+2$",
         "$l^2 = l+2$",
-        "$l = \\\\sqrt{l} + 2$"
+        "$l = \\sqrt{l} + 2$"
       ],
       "answer": 0,
       "explanation": "Question issue du programme officiel."
@@ -190,7 +190,7 @@
       "prompt": "La suite $(u_n)$ définie par $u_n = (-1)^n$ est :",
       "options": [
         "Convergente",
-        "Divergente vers $+\\\\infty$",
+        "Divergente vers $+\\infty$",
         "Divergente sans limite infinie",
         "Constante"
       ],
@@ -203,9 +203,9 @@
       "prompt": "La somme des $n$ premiers termes d'une suite arithmétique est :",
       "options": [
         "$n u_0$",
-        "$\\\\frac{n(n-1)}{2}r$",
-        "$n u_0 + \\\\frac{n(n-1)}{2}r$",
-        "$u_0 \\\\frac{1-q^n}{1-q}$"
+        "$\\frac{n(n-1)}{2}r$",
+        "$n u_0 + \\frac{n(n-1)}{2}r$",
+        "$u_0 \\frac{1-q^n}{1-q}$"
       ],
       "answer": 2,
       "explanation": "Question issue du programme officiel."
@@ -213,11 +213,11 @@
     {
       "id": "q16",
       "type": "mcq",
-      "prompt": "Si $\\\\lim_{n \\\\to +\\\\infty} u_n = 3$ et $\\\\lim_{n \\\\to +\\\\infty} v_n = +\\\\infty$, alors $\\\\lim_{n \\\\to +\\\\infty} (u_n + v_n) =$",
+      "prompt": "Si $\\lim_{n \\to +\\infty} u_n = 3$ et $\\lim_{n \\to +\\infty} v_n = +\\infty$, alors $\\lim_{n \\to +\\infty} (u_n + v_n) =$",
       "options": [
         "3",
         "0",
-        "$+\\\\infty$",
+        "$+\\infty$",
         "Indéterminé"
       ],
       "answer": 2,
@@ -239,12 +239,12 @@
     {
       "id": "q18",
       "type": "mcq",
-      "prompt": "$\\\\lim_{n \\\\to +\\\\infty} \\\\frac{n^2+1}{3n^2-5n} =$",
+      "prompt": "$\\lim_{n \\to +\\infty} \\frac{n^2+1}{3n^2-5n} =$",
       "options": [
         "0",
-        "$\\\\frac{1}{3}$",
+        "$\\frac{1}{3}$",
         "1",
-        "$+\\\\infty$"
+        "$+\\infty$"
       ],
       "answer": 1,
       "explanation": "Question issue du programme officiel."
@@ -265,7 +265,7 @@
     {
       "id": "q20",
       "type": "mcq",
-      "prompt": "La suite $u_n = \\\\frac{1}{n}$ a pour limite :",
+      "prompt": "La suite $u_n = \\frac{1}{n}$ a pour limite :",
       "options": [
         "0",
         "1",
@@ -280,8 +280,8 @@
       "type": "mcq",
       "prompt": "Si $u_{n+1} = 2u_n$ et $u_0=3$, alors $u_n =$",
       "options": [
-        "$3 \\\\times 2^n$",
-        "$2 \\\\times 3^n$",
+        "$3 \\times 2^n$",
+        "$2 \\times 3^n$",
         "$3n+2$",
         "$2n+3$"
       ],
@@ -291,7 +291,7 @@
     {
       "id": "q22",
       "type": "mcq",
-      "prompt": "Pour $|q|<1$, $\\\\lim_{n\\\\to\\\\infty} q^n =$",
+      "prompt": "Pour $|q|<1$, $\\lim_{n\\to\\infty} q^n =$",
       "options": [
         "0",
         "1",
@@ -306,8 +306,8 @@
       "type": "mcq",
       "prompt": "Le théorème des gendarmes s'applique quand :",
       "options": [
-        "$v_n \\\\leq u_n \\\\leq w_n$ et $\\\\lim v_n=\\\\lim w_n$",
-        "$u_n \\\\geq v_n$ et $\\\\lim v_n=+\\\\infty$",
+        "$v_n \\leq u_n \\leq w_n$ et $\\lim v_n=\\lim w_n$",
+        "$u_n \\geq v_n$ et $\\lim v_n=+\\infty$",
         "$u_n$ est monotone",
         "$u_n$ est géométrique"
       ],
@@ -321,8 +321,8 @@
       "options": [
         "$u_n=3n+2$",
         "$u_n=2n+3$",
-        "$u_n=2\\\\times3^n$",
-        "$u_n=3\\\\times2^n$"
+        "$u_n=2\\\times3^n$",
+        "$u_n=3\\\times2^n$"
       ],
       "answer": 0,
       "explanation": "Question issue du programme officiel."
@@ -343,11 +343,11 @@
     {
       "id": "q26",
       "type": "mcq",
-      "prompt": "La somme $1+2+\\\\cdots+n =$",
+      "prompt": "La somme $1+2+\\cdots+n =$",
       "options": [
         "$n^2$",
-        "$\\\\frac{n(n+1)}{2}$",
-        "$\\\\frac{n(n-1)}{2}$",
+        "$\\frac{n(n+1)}{2}$",
+        "$\\frac{n(n-1)}{2}$",
         "$2^n-1$"
       ],
       "answer": 1,

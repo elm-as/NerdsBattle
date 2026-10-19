@@ -1,14 +1,14 @@
 {
   "id": "physique-terminale-acide-faible-base-faible",
   "title": "Acide faible – Base faible",
-  "summary": "Lors d'une analyse de l'eau de la lagune Ébrié à Abidjan, un élève de Terminale C remarque que le pH mesuré (≈6) est légèrement acide, alors que l'eau de ruissellement urbain contient souvent des composés ammoniacaux (NH₃/NH₄⁺) qui sont basiques. Il découvre que la présence de matière organique en décomposition produit de l'acide acétique (vinaigre), un acide faible. Pour comprendre pourquoi ces solutions ne sont ni très acides ni très basiques malgré des concentrations non négligeables, il entreprend avec ",
-  "lesson": "## 1. Introduction : Réaction limitée avec l'eau\n\nContrairement aux acides et bases forts, les acides faibles et les bases faibles ne réagissent pas totalement avec l'eau. Ils établissent un **équilibre chimique** entre les formes non ionisées et les formes ionisées.\n\n## 2. Acide faible : définition et exemple avec l'acide acétique\n\n**Définition** : Un acide faible $AH$ est un acide qui réagit de façon **partielle** avec l'eau. La réaction est limitée et caractérisée par une constante d'équilibre $K_a$ appelée constante d'acidité.\n\n**Exemple type** : L'acide éthanoïque (acétique) $CH_3COOH$.\n$$CH_3COOH + H_2O \\\\rightleftharpoons CH_3COO^- + H_3O^+$$\nLa double flèche ($\\\\rightleftharpoons$) indique un **équilibre dynamique**. À l'état d'équilibre, les quatre espèces coexistent.\n\n**Coefficient d'ionisation $\\\\alpha$** : C'est le taux d'avancement de la réaction à l'équilibre. Pour un acide faible de concentration initiale $C_a$ :\n$$\\\\alpha = \\\\frac{[H_3O^+]_{eq}}{C_a}$$\n$0 < \\\\alpha < 1$. Pour un acide faible, $\\\\alpha$ est généralement bien inférieur à 1 (ex. : $\\\\alpha \\\\approx 0.01$ pour $CH_3COOH$ à $0.1 mol.L^{-1}$).\n\n## 3. Effet de la dilution sur l'ionisation d'un acide faible\n\n**Loi de dilution d'Ostwald** : Pour un acide faible, le coefficient d'ionisation $\\\\alpha$ **augmente** lorsque la concentration initiale $C_a$ **diminue** (lorsqu'on dilue la solution).\n\n**Explication qualitative** : La dilution déplace l'équilibre dans le sens de la dissociation (sens direct) qui produit un plus grand nombre d'ions (principe de Le Chatelier).\n\n**Relation approximative** : Pour un acide faible peu ionisé ($\\\\alpha \\\\ll 1$), on a $K_a \\\\approx C_a \\\\alpha^2$, d'où $\\\\alpha \\\\approx \\\\sqrt{\\\\frac{K_a}{C_a}}$. On voit bien que $\\\\alpha$ augmente quand $C_a$ diminue.\n\n**Description du schéma 1 : Évolution de l'équilibre avec la dilution**\nReprésenter trois béchers de tailles différentes symbolisant trois concentrations $C_a$ (élevée, moyenne, faible). Dans chaque bécher, schématiser des molécules $AH$ (beaucoup) et des ions $A^-$ et $H_3O^+$ (peu). Montrer que le rapport (nombre d'ions)/(nombre total de molécules $AH$) augmente quand on passe du bécher concentré au bécher dilué. Légender \"$C_a$ élevée, $\\\\alpha$ faible\", \"$C_a$ moyenne, $\\\\alpha$ moyen\", \"$C_a$ faible, $\\\\alpha$ élevé\", \"Dilution $\\\\rightarrow$ augmentation de $\\\\alpha$\".\n\n## 4. Calcul des concentrations à l'équilibre pour un acide faible\n\nPour un acide faible $AH$ de concentration initiale $C_a$, on peut établir un tableau d'avancement et utiliser la constante $K_a$.\n\nSi on note $x = [H_3O^+]_{eq}$, on a à l'équilibre : $[AH]_{eq} \\\\approx C_a - x$ (si $x \\\\ll C_a$) et $[A^-]_{eq} = x$.\nL'équilibre s'écrit : $K_a = \\\\frac{[A^-][H_3O^+]}{[AH]} = \\\\frac{x^2}{C_a - x}$.\n\n**Approximation des faibles concentrations** : Si $\\\\alpha$ est faible ($x \\\\ll C_a$), alors $C_a - x \\\\approx C_a$ et on a :\n$$x = [H_3O^+]_{eq} \\\\approx \\\\sqrt{K_a \\\\cdot C_a}$$\nPuis $pH = -\\\\log(x)$.\n\n**Exemple numérique** : Pour $CH_3COOH$ ($K_a \\\\approx 1.8 \\\times 10^{-5}$) à $C_a = 0.10 mol.L^{-1}$ :\n$x \\\\approx \\\\sqrt{1.8 \\\times 10^{-5} \\\times 0.10} = \\\\sqrt{1.8 \\\times 10^{-6}} \\\\approx 1.34 \\\times 10^{-3} mol.L^{-1}$\n$pH \\\\approx -\\\\log(1.34 \\\times 10^{-3}) \\\\approx 2.87$ (à comparer avec un acide fort à la même concentration : pH=1).\n\n## 5. Base faible : définition et exemple avec l'ammoniac\n\n**Définition** : Une base faible $B$ est une base qui réagit de façon **partielle** avec l'eau.\n\n**Exemple type** : L'ammoniac $NH_3$.\n$$NH_3 + H_2O \\\\rightleftharpoons NH_4^+ + OH^-$$\n\n**Coefficient d'ionisation $\\\\alpha$** : Pour une base faible de concentration initiale $C_b$ :\n$$\\\\alpha = \\\\frac{[OH^-]_{eq}}{C_b}$$\n\nLa dilution a le même effet : $\\\\alpha$ augmente quand $C_b$ diminue.\n\n## 6. Calcul des concentrations pour une base faible\n\nPour une base faible $B$ de concentration initiale $C_b$, avec $K_b$ sa constante de basicité.\nSi $x = [OH^-]_{eq}$, et si $x \\\\ll C_b$, on a :\n$$x = [OH^-]_{eq} \\\\approx \\\\sqrt{K_b \\\\cdot C_b}$$\nPuis $pOH = -\\\\log(x)$ et $pH = 14 - pOH$.\n\n**Relation entre $K_a$ et $K_b$ d'un couple** : Pour un couple acide-base $AH/A^-$, on a $K_a \\\times K_b = K_e = 10^{-14}$ à 25°C.\n\n**Exemple** : Pour $NH_3/NH_4^+$, $K_b \\\\approx 1.8 \\\times 10^{-5}$. Pour $C_b = 0.10 mol.L^{-1}$ :\n$x \\\\approx \\\\sqrt{1.8 \\\times 10^{-5} \\\times 0.10} \\\\approx 1.34 \\\times 10^{-3} mol.L^{-1}$\n$pOH \\\\approx 2.87$, donc $pH \\\\approx 14 - 2.87 = 11.13$ (une base forte à la même concentration donnerait pH=13).\n\n**Description du schéma 2 : Comparaison pH des acides/bases forts et faibles**\nReprésenter un diagramme à barres. En abscisse : \"Acide fort\", \"Acide faible\", \"Eau pure\", \"Base faible\", \"Base forte\". En ordonnée : le pH de 0 à 14. Pour chaque catégorie, prendre une concentration commune (ex. 0.1 mol.L^{-1}) et dessiner une barre allant jusqu'au pH correspondant. Barres : Acide fort (pH=1), Acide faible CH₃COOH (pH≈2.9), Eau pure (pH=7), Base faible NH₃ (pH≈11.1), Base forte (pH=13). Colorer les barres acides en rouge, basiques en bleu. Légender clairement les valeurs.\n\n## 7. Importance en contexte ivoirien\n\n- **Qualité des eaux naturelles** : Le pH des lacs et lagunes est souvent tamponné par des équilibres acides faibles/bases faibles (système $CO_2/HCO_3^-/CO_3^{2-}$).\n- **Agriculture** : L'ammoniac $NH_3$ (base faible) est un engrais azoté important. Sa transformation en $NH_4^+$ (acide faible) influence le pH du sol.\n- **Procédés alimentaires** : La fermentation produit des acides faibles (lactique, acétique) qui contribuent à la conservation et au goût.",
+  "summary": "Lors d'une analyse de l'eau de la lagune Ébrié à Abidjan, un élève de Terminale C remarque que le pH mesuré (≈6) est légèrement acide, alors que l'eau de ruissellement urbain contient souvent des composés ammoniacaux (NH₃/NH₄⁺) qui sont basiques. Il découvre que la présence de matière organique en décomposition produit de l'acide acétique (vinaigre), un acide faible. Pour comprendre pourquoi ces solutions ne sont ni très acides ni très basiques malgré des concentrations non négligeables, il entreprend avec",
+  "lesson": "## 1. Introduction : Réaction limitée avec l'eau\n\nContrairement aux acides et bases forts, les acides faibles et les bases faibles ne réagissent pas totalement avec l'eau. Ils établissent un **équilibre chimique** entre les formes non ionisées et les formes ionisées.\n\n## 2. Acide faible : définition et exemple avec l'acide acétique\n\n**Définition** : Un acide faible $AH$ est un acide qui réagit de façon **partielle** avec l'eau. La réaction est limitée et caractérisée par une constante d'équilibre $K_a$ appelée constante d'acidité.\n\n**Exemple type** : L'acide éthanoïque (acétique) $CH_3COOH$.\n$$CH_3COOH + H_2O \\rightleftharpoons CH_3COO^- + H_3O^+$$\nLa double flèche ($\\rightleftharpoons$) indique un **équilibre dynamique**. À l'état d'équilibre, les quatre espèces coexistent.\n\n**Coefficient d'ionisation $\\alpha$** : C'est le taux d'avancement de la réaction à l'équilibre. Pour un acide faible de concentration initiale $C_a$ :\n$$\\alpha = \\frac{[H_3O^+]_{eq}}{C_a}$$\n$0 < \\alpha < 1$. Pour un acide faible, $\\alpha$ est généralement bien inférieur à 1 (ex. : $\\alpha \\approx 0.01$ pour $CH_3COOH$ à $0.1 mol.L^{-1}$).\n\n## 3. Effet de la dilution sur l'ionisation d'un acide faible\n\n**Loi de dilution d'Ostwald** : Pour un acide faible, le coefficient d'ionisation $\\alpha$ **augmente** lorsque la concentration initiale $C_a$ **diminue** (lorsqu'on dilue la solution).\n\n**Explication qualitative** : La dilution déplace l'équilibre dans le sens de la dissociation (sens direct) qui produit un plus grand nombre d'ions (principe de Le Chatelier).\n\n**Relation approximative** : Pour un acide faible peu ionisé ($\\alpha \\ll 1$), on a $K_a \\approx C_a \\alpha^2$, d'où $\\alpha \\approx \\sqrt{\\frac{K_a}{C_a}}$. On voit bien que $\\alpha$ augmente quand $C_a$ diminue.\n\n**Description du schéma 1 : Évolution de l'équilibre avec la dilution**\nReprésenter trois béchers de tailles différentes symbolisant trois concentrations $C_a$ (élevée, moyenne, faible). Dans chaque bécher, schématiser des molécules $AH$ (beaucoup) et des ions $A^-$ et $H_3O^+$ (peu). Montrer que le rapport (nombre d'ions)/(nombre total de molécules $AH$) augmente quand on passe du bécher concentré au bécher dilué. Légender \"$C_a$ élevée, $\\alpha$ faible\", \"$C_a$ moyenne, $\\alpha$ moyen\", \"$C_a$ faible, $\\alpha$ élevé\", \"Dilution $\\rightarrow$ augmentation de $\\alpha$\".\n\n## 4. Calcul des concentrations à l'équilibre pour un acide faible\n\nPour un acide faible $AH$ de concentration initiale $C_a$, on peut établir un tableau d'avancement et utiliser la constante $K_a$.\n\nSi on note $x = [H_3O^+]_{eq}$, on a à l'équilibre : $[AH]_{eq} \\approx C_a - x$ (si $x \\ll C_a$) et $[A^-]_{eq} = x$.\nL'équilibre s'écrit : $K_a = \\frac{[A^-][H_3O^+]}{[AH]} = \\frac{x^2}{C_a - x}$.\n\n**Approximation des faibles concentrations** : Si $\\alpha$ est faible ($x \\ll C_a$), alors $C_a - x \\approx C_a$ et on a :\n$$x = [H_3O^+]_{eq} \\approx \\sqrt{K_a \\cdot C_a}$$\nPuis $pH = -\\log(x)$.\n\n**Exemple numérique** : Pour $CH_3COOH$ ($K_a \\approx 1.8 \\times 10^{-5}$) à $C_a = 0.10 mol.L^{-1}$ :\n$x \\approx \\sqrt{1.8 \\times 10^{-5} \\times 0.10} = \\sqrt{1.8 \\times 10^{-6}} \\approx 1.34 \\times 10^{-3} mol.L^{-1}$\n$pH \\approx -\\log(1.34 \\times 10^{-3}) \\approx 2.87$ (à comparer avec un acide fort à la même concentration : pH=1).\n\n## 5. Base faible : définition et exemple avec l'ammoniac\n\n**Définition** : Une base faible $B$ est une base qui réagit de façon **partielle** avec l'eau.\n\n**Exemple type** : L'ammoniac $NH_3$.\n$$NH_3 + H_2O \\rightleftharpoons NH_4^+ + OH^-$$\n\n**Coefficient d'ionisation $\\alpha$** : Pour une base faible de concentration initiale $C_b$ :\n$$\\alpha = \\frac{[OH^-]_{eq}}{C_b}$$\n\nLa dilution a le même effet : $\\alpha$ augmente quand $C_b$ diminue.\n\n## 6. Calcul des concentrations pour une base faible\n\nPour une base faible $B$ de concentration initiale $C_b$, avec $K_b$ sa constante de basicité.\nSi $x = [OH^-]_{eq}$, et si $x \\ll C_b$, on a :\n$$x = [OH^-]_{eq} \\approx \\sqrt{K_b \\cdot C_b}$$\nPuis $pOH = -\\log(x)$ et $pH = 14 - pOH$.\n\n**Relation entre $K_a$ et $K_b$ d'un couple** : Pour un couple acide-base $AH/A^-$, on a $K_a \\times K_b = K_e = 10^{-14}$ à 25°C.\n\n**Exemple** : Pour $NH_3/NH_4^+$, $K_b \\approx 1.8 \\times 10^{-5}$. Pour $C_b = 0.10 mol.L^{-1}$ :\n$x \\approx \\sqrt{1.8 \\times 10^{-5} \\times 0.10} \\approx 1.34 \\times 10^{-3} mol.L^{-1}$\n$pOH \\approx 2.87$, donc $pH \\approx 14 - 2.87 = 11.13$ (une base forte à la même concentration donnerait pH=13).\n\n**Description du schéma 2 : Comparaison pH des acides/bases forts et faibles**\nReprésenter un diagramme à barres. En abscisse : \"Acide fort\", \"Acide faible\", \"Eau pure\", \"Base faible\", \"Base forte\". En ordonnée : le pH de 0 à 14. Pour chaque catégorie, prendre une concentration commune (ex. 0.1 mol.L^{-1}) et dessiner une barre allant jusqu'au pH correspondant. Barres : Acide fort (pH=1), Acide faible CH₃COOH (pH≈2.9), Eau pure (pH=7), Base faible NH₃ (pH≈11.1), Base forte (pH=13). Colorer les barres acides en rouge, basiques en bleu. Légender clairement les valeurs.\n\n## 7. Importance en contexte ivoirien\n\n- **Qualité des eaux naturelles** : Le pH des lacs et lagunes est souvent tamponné par des équilibres acides faibles/bases faibles (système $CO_2/HCO_3^-/CO_3^{2-}$).\n- **Agriculture** : L'ammoniac $NH_3$ (base faible) est un engrais azoté important. Sa transformation en $NH_4^+$ (acide faible) influence le pH du sol.\n- **Procédés alimentaires** : La fermentation produit des acides faibles (lactique, acétique) qui contribuent à la conservation et au goût.",
   "estimatedMinutes": 10,
   "keyPoints": [
-    "Acide/base faible : réaction partielle avec l'eau ($\\\\rightleftharpoons$).",
-    "Coefficient d'ionisation $\\\\alpha$ : augmente avec la dilution (Loi d'Ostwald).",
-    "Pour un acide faible : $[H_3O^+]_{eq} \\\\approx \\\\sqrt{K_a \\\\cdot C_a}$ (si $\\\\alpha$ faible).",
-    "Pour une base faible : $[OH^-]_{eq} \\\\approx \\\\sqrt{K_b \\\\cdot C_b}$.",
+    "Acide/base faible : réaction partielle avec l'eau ($\\rightleftharpoons$).",
+    "Coefficient d'ionisation $\\alpha$ : augmente avec la dilution (Loi d'Ostwald).",
+    "Pour un acide faible : $[H_3O^+]_{eq} \\approx \\sqrt{K_a \\cdot C_a}$ (si $\\alpha$ faible).",
+    "Pour une base faible : $[OH^-]_{eq} \\approx \\sqrt{K_b \\cdot C_b}$.",
     "À concentration égale, le pH d'un acide faible est > à celui d'un acide fort ; le pH d'une base faible est < à celui d'une base forte."
   ],
   "exercise": {
@@ -21,9 +21,9 @@
       "type": "mcq",
       "prompt": "Quelle notation indique qu'une réaction est limitée (équilibre chimique) ?",
       "options": [
-        "$\\\\rightarrow$",
-        "$\\\\leftarrow$",
-        "$\\\\rightleftharpoons$",
+        "$\\rightarrow$",
+        "$\\leftarrow$",
+        "$\\rightleftharpoons$",
         "$=$"
       ],
       "answer": 2,
@@ -34,8 +34,8 @@
       "type": "mcq",
       "prompt": "Pour un acide faible, que se passe-t-il si on dilue la solution avec de l'eau ?",
       "options": [
-        "Le coefficient d'ionisation $\\\\alpha$ diminue.",
-        "Le coefficient d'ionisation $\\\\alpha$ augmente.",
+        "Le coefficient d'ionisation $\\alpha$ diminue.",
+        "Le coefficient d'ionisation $\\alpha$ augmente.",
         "Le pH diminue (devient plus acide).",
         "La concentration en $H_3O^+$ augmente."
       ],
@@ -45,12 +45,12 @@
     {
       "id": "q3",
       "type": "mcq",
-      "prompt": "Quelle est la relation approximative pour calculer $[H_3O^+]$ dans une solution d'acide faible de concentration $C_a$ et de constante $K_a$ ? (si $\\\\alpha$ faible)",
+      "prompt": "Quelle est la relation approximative pour calculer $[H_3O^+]$ dans une solution d'acide faible de concentration $C_a$ et de constante $K_a$ ? (si $\\alpha$ faible)",
       "options": [
         "$[H_3O^+] = C_a$",
-        "$[H_3O^+] = \\\\sqrt{K_a \\\\cdot C_a}$",
-        "$[H_3O^+] = \\\\frac{K_a}{C_a}$",
-        "$[H_3O^+] = K_a \\\\cdot C_a$"
+        "$[H_3O^+] = \\sqrt{K_a \\cdot C_a}$",
+        "$[H_3O^+] = \\frac{K_a}{C_a}$",
+        "$[H_3O^+] = K_a \\cdot C_a$"
       ],
       "answer": 1,
       "explanation": "Question issue du programme officiel."
@@ -73,10 +73,10 @@
       "type": "mcq",
       "prompt": "La réaction de l'ammoniac avec l'eau s'écrit :",
       "options": [
-        "$NH_3 + H_2O \\\\rightarrow NH_4^+ + OH^-$",
-        "$NH_3 + H_2O \\\\rightleftharpoons NH_4^+ + OH^-$",
-        "$NH_3 + H_3O^+ \\\\rightleftharpoons NH_4^+ + H_2O$",
-        "$NH_4^+ + OH^- \\\\rightleftharpoons NH_3 + H_2O$"
+        "$NH_3 + H_2O \\rightarrow NH_4^+ + OH^-$",
+        "$NH_3 + H_2O \\rightleftharpoons NH_4^+ + OH^-$",
+        "$NH_3 + H_3O^+ \\rightleftharpoons NH_4^+ + H_2O$",
+        "$NH_4^+ + OH^- \\rightleftharpoons NH_3 + H_2O$"
       ],
       "answer": 1,
       "explanation": "Question issue du programme officiel."
@@ -84,7 +84,7 @@
     {
       "id": "q6",
       "type": "mcq",
-      "prompt": "Pour un acide faible, le coefficient d'ionisation $\\\\alpha$ est :",
+      "prompt": "Pour un acide faible, le coefficient d'ionisation $\\alpha$ est :",
       "options": [
         "Toujours égal à 1",
         "Toujours supérieur à 1",
@@ -123,11 +123,11 @@
     {
       "id": "q9",
       "type": "mcq",
-      "prompt": "Pour une base faible, l'approximation $[OH^-] \\\\approx \\\\sqrt{K_b \\\\cdot C_b}$ est valable si :",
+      "prompt": "Pour une base faible, l'approximation $[OH^-] \\approx \\sqrt{K_b \\cdot C_b}$ est valable si :",
       "options": [
         "La concentration $C_b$ est très élevée.",
-        "Le coefficient d'ionisation $\\\\alpha$ est proche de 1.",
-        "Le coefficient d'ionisation $\\\\alpha$ est très faible.",
+        "Le coefficient d'ionisation $\\alpha$ est proche de 1.",
+        "Le coefficient d'ionisation $\\alpha$ est très faible.",
         "Le pH est supérieur à 12."
       ],
       "answer": 2,

@@ -1,15 +1,15 @@
 {
   "id": "maths-terminale-derivabilite-et-etude-de-fonctions",
   "title": "Dérivabilité et étude de fonctions",
-  "summary": "Un proviseur du lycée municipal de Man décide de mettre en place un système de collecte des eaux de pluie sur un mur aveugle. Le système est modélisé par deux tuyaux obliques symétriques et un tuyau vertical. En posant $\\\\theta$ un angle pertinent, la longueur totale des tuyaux est modélisée par la fonction $g(\\\\theta) = 2MB + MH$ sur $[0; \\\\frac{\\\\pi}{2}]$. Dans un souci de réduire les coûts, les élèves de terminale doivent étudier cette fonction pour trouver la longueur minimale de tuyaux à utiliser. Cett",
-  "lesson": "## 1. Dérivabilité en un point\n\n**Dérivée à gauche, à droite :**\n- $f$ est dérivable à gauche en $x_0$ si $\\\\lim_{x \\\to x_0^-} \\\\frac{f(x)-f(x_0)}{x-x_0}$ existe (finie). C'est le nombre dérivé à gauche, noté $f'_g(x_0)$.\n- Définition analogue à droite avec $f'_d(x_0)$.\n\n**Dérivabilité :** $f$ est dérivable en $x_0$ si $f'_g(x_0)$ et $f'_d(x_0)$ existent et sont **égales**. Alors $f'(x_0)$ est cette valeur commune.\n\n**Fonction définie par intervalles :** L'étude de la dérivabilité se fait au point de raccordement en calculant les dérivées à gauche et à droite.\nExemple : $f(x) = \\\\begin{cases} x^2 & \\\text{si } x \\\\leq 1 \\\\\\\\ 2x-1 & \\\text{si } x > 1 \\\\end{cases}$\nEn $x_0=1$ : $f'_g(1)=2\\\times1=2$, $f'_d(1)=2$. Elles sont égales, donc $f$ est dérivable en 1 et $f'(1)=2$.\n\n## 2. Dérivées successives et nouvelles notations\n\nSi $f'$ est elle-même dérivable, sa dérivée est la **dérivée seconde** de $f$, notée $f''$.\nOn peut itérer : $f''$, $f^{(3)}$, ..., $f^{(n)}$.\n\n**Nouvelles notations (de Leibniz) :**\n- $f'(x)$ se note aussi $\\\\frac{df}{dx}(x)$ ou $\\\\frac{d}{dx}f(x)$.\n- $f''(x)$ se note $\\\\frac{d^2f}{dx^2}(x)$.\n- $f^{(n)}(x)$ se note $\\\\frac{d^nf}{dx^n}(x)$.\n\nCes notations sont très utiles en physique et pour les équations différentielles.\n\n## 3. Dérivée d'une fonction composée (Théorème)\n\nSi $u$ est dérivable en $x$ et $v$ est dérivable en $u(x)$, alors $v \\\\circ u$ est dérivable en $x$ et $(v \\\\circ u)'(x) = v'(u(x)) \\\times u'(x)$.\n\n**Applications courantes :**\n- $((u(x))^n)' = n u'(x) (u(x))^{n-1}$, $n \\\\in \\\\mathbb{Z}$.\n- $(\\\\sqrt{u(x)})' = \\\\frac{u'(x)}{2\\\\sqrt{u(x)}}$ pour $u(x)>0$.\n- $(e^{u(x)})' = u'(x) e^{u(x)}$.\n- $(\\\\ln(u(x)))' = \\\\frac{u'(x)}{u(x)}$ pour $u(x)>0$.\n- $(\\\\sin(u(x)))' = u'(x) \\\\cos(u(x))$.\n\n## 4. Dérivée de la fonction réciproque\n\n**Théorème :** Soit $f$ une fonction continue strictement monotone sur un intervalle $I$, réalisant une bijection de $I$ sur $J=f(I)$. Si $f$ est dérivable en $x_0 \\\\in I$ et si $f'(x_0) \\\neq 0$, alors sa bijection réciproque $f^{-1}$ est dérivable en $y_0 = f(x_0)$ et :\n$(f^{-1})'(y_0) = \\\\frac{1}{f'(x_0)} = \\\\frac{1}{f'(f^{-1}(y_0))}$.\n\nExemple : Pour $f(x)=x^2$ sur $I=[0,+\\\\infty[$, $f^{-1}(x)=\\\\sqrt{x}$. On a $f'(x)=2x$. Pour $y_0>0$, $x_0=\\\\sqrt{y_0}$, alors $(f^{-1})'(y_0) = \\\\frac{1}{2\\\\sqrt{y_0}}$, ce qui est bien la dérivée de $\\\\sqrt{x}$.\n\n## 5. Inégalité des accroissements finis (IAF)\n\n**Première forme :** Soit $f$ dérivable sur $[a,b]$. S'il existe $m, M \\\\in \\\\mathbb{R}$ tels que pour tout $x \\\\in [a,b]$, $m \\\\leq f'(x) \\\\leq M$, alors :\n$m(b-a) \\\\leq f(b)-f(a) \\\\leq M(b-a)$.\n\n**Deuxième forme (conséquence) :** Si $|f'(x)| \\\\leq k$ sur $[a,b]$, alors $|f(b)-f(a)| \\\\leq k|b-a|$.\n\n**Utilisation :** Pour démontrer des inégalités ou encadrer des valeurs.\nExemple : Montrer que pour $x>0$, $\\\\frac{x}{1+x} < \\\\ln(1+x) < x$.\n\n## 6. Étude et représentation graphique de fonctions types\n\nOn doit savoir représenter ou étudier des fonctions comme :\n\n**Fonctions puissances et racines :** $x \\\\mapsto x^r$ ($r \\\\in \\\\mathbb{Q}$), $x \\\\mapsto \\\\sqrt[n]{x}$.\n**Fonctions trigonométriques affines :** $x \\\\mapsto \\\\cos(ax+b)$, $x \\\\mapsto \\\\sin(ax+b)$, $x \\\\mapsto \\\tan(ax+b)$.\n**Fonctions rationnelles simples :** $x \\\\mapsto \\\\frac{ax+b}{cx^2+dx+e}$, $x \\\\mapsto \\\\frac{ax^2+bx+c}{dx^2+ex+f}$.\n**Fonctions avec racine carrée :** $x \\\\mapsto \\\\sqrt{ax+b}$, $x \\\\mapsto \\\\sqrt{ax^2+bx+c}$.\n**Fonctions définies par raccordement, avec valeur absolue.**\n\n```mathgraph\n{\n  \"type\": \"function\",\n  \"title\": \"Fonctions avec valeur absolue et racine\",\n  \"xRange\": [-3, 3],\n  \"yRange\": [-1, 5],\n  \"functions\": [\n    { \"expression\": \"abs(x-1)\", \"color\": \"#8884d8\", \"name\": \"|x-1|\" },\n    { \"expression\": \"sqrt(x+2)\", \"color\": \"#82ca9d\", \"name\": \"√(x+2)\", \"range\": [-2, 3] }\n  ],\n  \"showGrid\": true,\n  \"showAxes\": true\n}\n```\n\n**Points d'inflexion :** Un point $A(a, f(a))$ est un point d'inflexion si la courbe traverse sa tangente en $A$. Si $f''$ s'annule en $a$ en changeant de signe, alors $A$ est un point d'inflexion.\n\n## 7. Stratégie générale d'étude d'une fonction\n\n1. **Ensemble de définition** (maximal).\n2. **Parité / Périodicité** (pour réduire l'intervalle d'étude).\n3. **Dérivabilité et calcul de la dérivée** $f'(x)$.\n4. **Signe de $f'(x)$** et **tableau de variations** (avec limites aux bornes).\n5. **Dérivée seconde** (pour convexité/concavité et points d'inflexion).\n6. **Limites et asymptotes** (verticales, horizontales, obliques).\n7. **Représentation graphique** (points remarquables, tangentes).\n\n## 8. Exemple contextuel ivoirien (étude de la situation du proviseur)\n\nSupposons qu'après modélisation géométrique, on trouve $g(\\\theta) = \\\\frac{4}{\\\\cos\\\theta} + 2\\\\sin\\\theta - 2$ pour $\\\theta \\\\in [0, \\\\frac{\\\\pi}{2}]$, représentant la longueur totale des tuyaux.\n1. Étudier les variations de $g$ sur $[0, \\\\frac{\\\\pi}{2}]$.\n2. En déduire la longueur minimale de tuyaux à prévoir.\n\n**Résolution :**\n1. $g$ est dérivable sur $[0, \\\\frac{\\\\pi}{2}]$ (combinaison de fonctions dérivables).\n$g'(\\\theta) = 4 \\\\cdot \\\\frac{\\\\sin\\\theta}{\\\\cos^2\\\theta} + 2\\\\cos\\\theta = \\\\frac{4\\\\sin\\\theta + 2\\\\cos^3\\\theta}{\\\\cos^2\\\theta}$.\nLe dénominateur $\\\\cos^2\\\theta > 0$ sur $[0, \\\\frac{\\\\pi}{2}[$. Étudions le signe du numérateur $N(\\\theta)=4\\\\sin\\\theta + 2\\\\cos^3\\\theta$.\n$N'(\\\theta) = 4\\\\cos\\\theta - 6\\\\cos^2\\\theta \\\\sin\\\theta = 2\\\\cos\\\theta(2 - 3\\\\cos\\\theta \\\\sin\\\theta)$.\nSur $[0, \\\\frac{\\\\pi}{2}]$, $\\\\cos\\\theta \\\\geq 0$. Le terme $(2 - 3\\\\cos\\\theta \\\\sin\\\theta)$ est positif pour $\\\theta$ proche de 0 ($2-0>0$) et peut devenir négatif. On trouve que $N(\\\theta)$ est d'abord croissante puis décroissante, avec $N(0)=2>0$ et $N(\\\\frac{\\\\pi}{2})=4>0$. Elle reste probablement positive. On vérifie en un point intermédiaire, $\\\theta=\\\\frac{\\\\pi}{4}$ : $N(\\\\frac{\\\\pi}{4})=4\\\\frac{\\\\sqrt{2}}{2}+2(\\\\frac{\\\\sqrt{2}}{2})^3 = 2\\\\sqrt{2}+ \\\\frac{\\\\sqrt{2}}{2} >0$.\nDonc $N(\\\theta) > 0$ sur $[0, \\\\frac{\\\\pi}{2}[$, et $g'(\\\theta) > 0$ sur cet intervalle.\n2. La fonction $g$ est donc **strictement croissante** sur $[0, \\\\frac{\\\\pi}{2}]$. Elle atteint donc son minimum à l'extrémité gauche.\n$g(0) = \\\\frac{4}{1} + 0 - 2 = 2$ mètres (c'est une valeur simplifiée pour l'exemple).\n**Conclusion :** La longueur minimale de tuyaux à utiliser est de 2 mètres, obtenue pour $\\\theta = 0$ (configuration particulière).",
+  "summary": "Un proviseur du lycée municipal de Man décide de mettre en place un système de collecte des eaux de pluie sur un mur aveugle. Le système est modélisé par deux tuyaux obliques symétriques et un tuyau vertical. En posant $\\theta$ un angle pertinent, la longueur totale des tuyaux est modélisée par la fonction $g(\\theta) = 2MB + MH$ sur $[0; \\frac{\\pi}{2}]$. Dans un souci de réduire les coûts, les élèves de terminale doivent étudier cette fonction pour trouver la longueur minimale de tuyaux à utiliser. Cett",
+  "lesson": "## 1. Dérivabilité en un point\n\n**Dérivée à gauche, à droite :**\n- $f$ est dérivable à gauche en $x_0$ si $\\lim_{x \\to x_0^-} \\frac{f(x)-f(x_0)}{x-x_0}$ existe (finie). C'est le nombre dérivé à gauche, noté $f'_g(x_0)$.\n- Définition analogue à droite avec $f'_d(x_0)$.\n\n**Dérivabilité :** $f$ est dérivable en $x_0$ si $f'_g(x_0)$ et $f'_d(x_0)$ existent et sont **égales**. Alors $f'(x_0)$ est cette valeur commune.\n\n**Fonction définie par intervalles :** L'étude de la dérivabilité se fait au point de raccordement en calculant les dérivées à gauche et à droite.\nExemple : $f(x) = \\begin{cases} x^2 & \\text{si } x \\leq 1 \\\\\\\\ 2x-1 & \\text{si } x > 1 \\end{cases}$\nEn $x_0=1$ : $f'_g(1)=2\\\times1=2$, $f'_d(1)=2$. Elles sont égales, donc $f$ est dérivable en 1 et $f'(1)=2$.\n\n## 2. Dérivées successives et nouvelles notations\n\nSi $f'$ est elle-même dérivable, sa dérivée est la **dérivée seconde** de $f$, notée $f''$.\nOn peut itérer : $f''$, $f^{(3)}$, ..., $f^{(n)}$.\n\n**Nouvelles notations (de Leibniz) :**\n- $f'(x)$ se note aussi $\\frac{df}{dx}(x)$ ou $\\frac{d}{dx}f(x)$.\n- $f''(x)$ se note $\\frac{d^2f}{dx^2}(x)$.\n- $f^{(n)}(x)$ se note $\\frac{d^nf}{dx^n}(x)$.\n\nCes notations sont très utiles en physique et pour les équations différentielles.\n\n## 3. Dérivée d'une fonction composée (Théorème)\n\nSi $u$ est dérivable en $x$ et $v$ est dérivable en $u(x)$, alors $v \\circ u$ est dérivable en $x$ et $(v \\circ u)'(x) = v'(u(x)) \\times u'(x)$.\n\n**Applications courantes :**\n- $((u(x))^n)' = n u'(x) (u(x))^{n-1}$, $n \\in \\mathbb{Z}$.\n- $(\\sqrt{u(x)})' = \\frac{u'(x)}{2\\sqrt{u(x)}}$ pour $u(x)>0$.\n- $(e^{u(x)})' = u'(x) e^{u(x)}$.\n- $(\\ln(u(x)))' = \\frac{u'(x)}{u(x)}$ pour $u(x)>0$.\n- $(\\sin(u(x)))' = u'(x) \\cos(u(x))$.\n\n## 4. Dérivée de la fonction réciproque\n\n**Théorème :** Soit $f$ une fonction continue strictement monotone sur un intervalle $I$, réalisant une bijection de $I$ sur $J=f(I)$. Si $f$ est dérivable en $x_0 \\in I$ et si $f'(x_0)\neq 0$, alors sa bijection réciproque $f^{-1}$ est dérivable en $y_0 = f(x_0)$ et :\n$(f^{-1})'(y_0) = \\frac{1}{f'(x_0)} = \\frac{1}{f'(f^{-1}(y_0))}$.\n\nExemple : Pour $f(x)=x^2$ sur $I=[0,+\\infty[$, $f^{-1}(x)=\\sqrt{x}$. On a $f'(x)=2x$. Pour $y_0>0$, $x_0=\\sqrt{y_0}$, alors $(f^{-1})'(y_0) = \\frac{1}{2\\sqrt{y_0}}$, ce qui est bien la dérivée de $\\sqrt{x}$.\n\n## 5. Inégalité des accroissements finis (IAF)\n\n**Première forme :** Soit $f$ dérivable sur $[a,b]$. S'il existe $m, M \\in \\mathbb{R}$ tels que pour tout $x \\in [a,b]$, $m \\leq f'(x) \\leq M$, alors :\n$m(b-a) \\leq f(b)-f(a) \\leq M(b-a)$.\n\n**Deuxième forme (conséquence) :** Si $|f'(x)| \\leq k$ sur $[a,b]$, alors $|f(b)-f(a)| \\leq k|b-a|$.\n\n**Utilisation :** Pour démontrer des inégalités ou encadrer des valeurs.\nExemple : Montrer que pour $x>0$, $\\frac{x}{1+x} < \\ln(1+x) < x$.\n\n## 6. Étude et représentation graphique de fonctions types\n\nOn doit savoir représenter ou étudier des fonctions comme :\n\n**Fonctions puissances et racines :** $x \\mapsto x^r$ ($r \\in \\mathbb{Q}$), $x \\mapsto \\sqrt[n]{x}$.\n**Fonctions trigonométriques affines :** $x \\mapsto \\cos(ax+b)$, $x \\mapsto \\sin(ax+b)$, $x \\mapsto \\tan(ax+b)$.\n**Fonctions rationnelles simples :** $x \\mapsto \\frac{ax+b}{cx^2+dx+e}$, $x \\mapsto \\frac{ax^2+bx+c}{dx^2+ex+f}$.\n**Fonctions avec racine carrée :** $x \\mapsto \\sqrt{ax+b}$, $x \\mapsto \\sqrt{ax^2+bx+c}$.\n**Fonctions définies par raccordement, avec valeur absolue.**\n\n```mathgraph\n{\n  \"type\": \"function\",\n  \"title\": \"Fonctions avec valeur absolue et racine\",\n  \"xRange\": [-3, 3],\n  \"yRange\": [-1, 5],\n  \"functions\": [\n    { \"expression\": \"abs(x-1)\", \"color\": \"#8884d8\", \"name\": \"|x-1|\" },\n    { \"expression\": \"sqrt(x+2)\", \"color\": \"#82ca9d\", \"name\": \"√(x+2)\", \"range\": [-2, 3] }\n  ],\n  \"showGrid\": true,\n  \"showAxes\": true\n}\n```\n\n**Points d'inflexion :** Un point $A(a, f(a))$ est un point d'inflexion si la courbe traverse sa tangente en $A$. Si $f''$ s'annule en $a$ en changeant de signe, alors $A$ est un point d'inflexion.\n\n## 7. Stratégie générale d'étude d'une fonction\n\n1. **Ensemble de définition** (maximal).\n2. **Parité / Périodicité** (pour réduire l'intervalle d'étude).\n3. **Dérivabilité et calcul de la dérivée** $f'(x)$.\n4. **Signe de $f'(x)$** et **tableau de variations** (avec limites aux bornes).\n5. **Dérivée seconde** (pour convexité/concavité et points d'inflexion).\n6. **Limites et asymptotes** (verticales, horizontales, obliques).\n7. **Représentation graphique** (points remarquables, tangentes).\n\n## 8. Exemple contextuel ivoirien (étude de la situation du proviseur)\n\nSupposons qu'après modélisation géométrique, on trouve $g(\\theta) = \\frac{4}{\\cos\\theta} + 2\\sin\\theta - 2$ pour $\\theta \\in [0, \\frac{\\pi}{2}]$, représentant la longueur totale des tuyaux.\n1. Étudier les variations de $g$ sur $[0, \\frac{\\pi}{2}]$.\n2. En déduire la longueur minimale de tuyaux à prévoir.\n\n**Résolution :**\n1. $g$ est dérivable sur $[0, \\frac{\\pi}{2}]$ (combinaison de fonctions dérivables).\n$g'(\\theta) = 4 \\cdot \\frac{\\sin\\theta}{\\cos^2\\theta} + 2\\cos\\theta = \\frac{4\\sin\\theta + 2\\cos^3\\theta}{\\cos^2\\theta}$.\nLe dénominateur $\\cos^2\\theta > 0$ sur $[0, \\frac{\\pi}{2}[$. Étudions le signe du numérateur $N(\\theta)=4\\sin\\theta + 2\\cos^3\\theta$.\n$N'(\\theta) = 4\\cos\\theta - 6\\cos^2\\theta \\sin\\theta = 2\\cos\\theta(2 - 3\\cos\\theta \\sin\\theta)$.\nSur $[0, \\frac{\\pi}{2}]$, $\\cos\\theta \\geq 0$. Le terme $(2 - 3\\cos\\theta \\sin\\theta)$ est positif pour $\\theta$ proche de 0 ($2-0>0$) et peut devenir négatif. On trouve que $N(\\theta)$ est d'abord croissante puis décroissante, avec $N(0)=2>0$ et $N(\\frac{\\pi}{2})=4>0$. Elle reste probablement positive. On vérifie en un point intermédiaire, $\\theta=\\frac{\\pi}{4}$ : $N(\\frac{\\pi}{4})=4\\frac{\\sqrt{2}}{2}+2(\\frac{\\sqrt{2}}{2})^3 = 2\\sqrt{2}+ \\frac{\\sqrt{2}}{2} >0$.\nDonc $N(\\theta) > 0$ sur $[0, \\frac{\\pi}{2}[$, et $g'(\\theta) > 0$ sur cet intervalle.\n2. La fonction $g$ est donc **strictement croissante** sur $[0, \\frac{\\pi}{2}]$. Elle atteint donc son minimum à l'extrémité gauche.\n$g(0) = \\frac{4}{1} + 0 - 2 = 2$ mètres (c'est une valeur simplifiée pour l'exemple).\n**Conclusion :** La longueur minimale de tuyaux à utiliser est de 2 mètres, obtenue pour $\\theta = 0$ (configuration particulière).",
   "estimatedMinutes": 10,
   "keyPoints": [
     "Une fonction est dérivable en $x_0$ si les dérivées à gauche et à droite existent et sont égales. Pour une fonction définie par morceaux, il faut les calculer au point de raccordement.",
-    "La dérivée de la composée $v(u(x))$ est $v'(u(x)) \\\\times u'(x)$. C'est la règle la plus importante pour dériver des fonctions complexes.",
-    "Si $f$ est une bijection dérivable avec $f'(x_0)\\\neq0$, alors $f^{-1}$ est dérivable en $y_0=f(x_0)$ et $(f^{-1})'(y_0)=\\\\frac{1}{f'(x_0)}$.",
+    "La dérivée de la composée $v(u(x))$ est $v'(u(x)) \\times u'(x)$. C'est la règle la plus importante pour dériver des fonctions complexes.",
+    "Si $f$ est une bijection dérivable avec $f'(x_0)\neq0$, alors $f^{-1}$ est dérivable en $y_0=f(x_0)$ et $(f^{-1})'(y_0)=\\frac{1}{f'(x_0)}$.",
     "L'inégalité des accroissements finis (IAF) permet d'encadrer $f(b)-f(a)$ si on connaît un encadrement de $f'$ sur $[a,b]$.",
-    "Pour représenter $x \\\\mapsto |u(x)|$, on étudie d'abord le signe de $u(x)$ pour 'enlever' la valeur absolue. La fonction peut ne pas être dérivable aux points où $u(x)=0$.",
+    "Pour représenter $x \\mapsto |u(x)|$, on étudie d'abord le signe de $u(x)$ pour 'enlever' la valeur absolue. La fonction peut ne pas être dérivable aux points où $u(x)=0$.",
     "Un point d'inflexion est un point où la courbe traverse sa tangente. Un changement de signe de $f''$ en $a$ est une condition suffisante.",
     "L'étude complète d'une fonction suit un ordre logique : domaine, parité/périodicité, limites, dérivée (variations), dérivée seconde (convexité), puis graphique."
   ],
@@ -34,12 +34,12 @@
     {
       "id": "q2",
       "type": "mcq",
-      "prompt": "La dérivée de $g(x) = \\\\sqrt{x^2+1}$ est :",
+      "prompt": "La dérivée de $g(x) = \\sqrt{x^2+1}$ est :",
       "options": [
-        "$\\\\frac{x}{\\\\sqrt{x^2+1}}$",
-        "$\\\\frac{1}{2\\\\sqrt{x^2+1}}$",
-        "$\\\\frac{2x}{\\\\sqrt{x^2+1}}$",
-        "$x\\\\sqrt{x^2+1}$"
+        "$\\frac{x}{\\sqrt{x^2+1}}$",
+        "$\\frac{1}{2\\sqrt{x^2+1}}$",
+        "$\\frac{2x}{\\sqrt{x^2+1}}$",
+        "$x\\sqrt{x^2+1}$"
       ],
       "answer": 0,
       "explanation": "Question issue du programme officiel."
@@ -47,12 +47,12 @@
     {
       "id": "q3",
       "type": "mcq",
-      "prompt": "Si $f'(x) \\\\geq 3$ pour tout $x \\\\in [1,4]$, alors d'après l'IAF :",
+      "prompt": "Si $f'(x) \\geq 3$ pour tout $x \\in [1,4]$, alors d'après l'IAF :",
       "options": [
-        "$f(4)-f(1) \\\\leq 9$",
-        "$f(4)-f(1) \\\\geq 9$",
+        "$f(4)-f(1) \\leq 9$",
+        "$f(4)-f(1) \\geq 9$",
         "$f(4)-f(1)=9$",
-        "$f(4)-f(1) \\\\leq 12$"
+        "$f(4)-f(1) \\leq 12$"
       ],
       "answer": 1,
       "explanation": "Question issue du programme officiel."
@@ -60,7 +60,7 @@
     {
       "id": "q4",
       "type": "mcq",
-      "prompt": "La notation $\\\\frac{d^2y}{dx^2}$ représente :",
+      "prompt": "La notation $\\frac{d^2y}{dx^2}$ représente :",
       "options": [
         "La dérivée première",
         "La dérivée seconde",
@@ -76,7 +76,7 @@
       "prompt": "Pour étudier la dérivabilité d'une fonction définie par morceaux en son point de raccordement $a$, on calcule :",
       "options": [
         "$f(a)$",
-        "$\\\\lim_{x \\\\to a} f(x)$",
+        "$\\lim_{x \\to a} f(x)$",
         "$f'_g(a)$ et $f'_d(a)$",
         "La dérivée de chaque morceau en $a$"
       ],
@@ -112,12 +112,12 @@
     {
       "id": "q8",
       "type": "mcq",
-      "prompt": "La dérivée de $h(x) = e^{\\\\sin x}$ est :",
+      "prompt": "La dérivée de $h(x) = e^{\\sin x}$ est :",
       "options": [
-        "$e^{\\\\cos x}$",
-        "$\\\\cos x \\\\cdot e^{\\\\sin x}$",
-        "$\\\\sin x \\\\cdot e^{\\\\cos x}$",
-        "$e^{\\\\sin x}$"
+        "$e^{\\cos x}$",
+        "$\\cos x \\cdot e^{\\sin x}$",
+        "$\\sin x \\cdot e^{\\cos x}$",
+        "$e^{\\sin x}$"
       ],
       "answer": 1,
       "explanation": "Question issue du programme officiel."
@@ -125,12 +125,12 @@
     {
       "id": "q9",
       "type": "mcq",
-      "prompt": "Pour représenter $k(x)=\\\\frac{|x|}{x}$, son ensemble de définition est :",
+      "prompt": "Pour représenter $k(x)=\\frac{|x|}{x}$, son ensemble de définition est :",
       "options": [
-        "$\\\\mathbb{R}$",
-        "$\\\\mathbb{R}^*$",
-        "$\\\\mathbb{R}^+$",
-        "$\\\\mathbb{R}^+^*$"
+        "$\\mathbb{R}$",
+        "$\\mathbb{R}^*$",
+        "$\\mathbb{R}^+$",
+        "$\\mathbb{R}^+^*$"
       ],
       "answer": 1,
       "explanation": "Question issue du programme officiel."
@@ -177,12 +177,12 @@
     {
       "id": "q13",
       "type": "mcq",
-      "prompt": "Dérivée de $\\\\sqrt{x^2+1}$ :",
+      "prompt": "Dérivée de $\\sqrt{x^2+1}$ :",
       "options": [
-        "$\\\\frac{x}{\\\\sqrt{x^2+1}}$",
-        "$\\\\frac{1}{2\\\\sqrt{x^2+1}}$",
-        "$\\\\frac{2x}{\\\\sqrt{x^2+1}}$",
-        "$\\\\frac{x}{2\\\\sqrt{x^2+1}}$"
+        "$\\frac{x}{\\sqrt{x^2+1}}$",
+        "$\\frac{1}{2\\sqrt{x^2+1}}$",
+        "$\\frac{2x}{\\sqrt{x^2+1}}$",
+        "$\\frac{x}{2\\sqrt{x^2+1}}$"
       ],
       "answer": 0,
       "explanation": "Question issue du programme officiel."
@@ -190,12 +190,12 @@
     {
       "id": "q14",
       "type": "mcq",
-      "prompt": "Si $|f'(x)|\\\\leq3$ sur [1,4], alors IAF donne :",
+      "prompt": "Si $|f'(x)|\\leq3$ sur [1,4], alors IAF donne :",
       "options": [
-        "$|f(4)-f(1)|\\\\leq9$",
-        "$|f(4)-f(1)|\\\\leq3$",
-        "$|f(4)-f(1)|\\\\leq12$",
-        "$|f(4)-f(1)|\\\\leq1$"
+        "$|f(4)-f(1)|\\leq9$",
+        "$|f(4)-f(1)|\\leq3$",
+        "$|f(4)-f(1)|\\leq12$",
+        "$|f(4)-f(1)|\\leq1$"
       ],
       "answer": 0,
       "explanation": "Question issue du programme officiel."
@@ -229,7 +229,7 @@
     {
       "id": "q17",
       "type": "mcq",
-      "prompt": "Soit $f(x)=x^3$, $f^{-1}(x)=\\\\sqrt[3]{x}$. $(f^{-1})'(8)$ vaut :",
+      "prompt": "Soit $f(x)=x^3$, $f^{-1}(x)=\\sqrt[3]{x}$. $(f^{-1})'(8)$ vaut :",
       "options": [
         "1/3",
         "1/12",
@@ -244,9 +244,9 @@
       "type": "mcq",
       "prompt": "Dérivée de $x^{3/2}$ (x>0) :",
       "options": [
-        "$\\\\frac{3}{2}x^{1/2}$",
-        "$\\\\frac{2}{3}x^{1/2}$",
-        "$\\\\frac{3}{2}x^{2/3}$",
+        "$\\frac{3}{2}x^{1/2}$",
+        "$\\frac{2}{3}x^{1/2}$",
+        "$\\frac{3}{2}x^{2/3}$",
         "$x^{1/2}$"
       ],
       "answer": 0,
@@ -255,7 +255,7 @@
     {
       "id": "q19",
       "type": "mcq",
-      "prompt": "Pour $f(x)=\\\\begin{cases}x^2 & x<1\\\\\\\\2x-1 & x\\\\geq1\\\\end{cases}$, vérifier en $x=1$ :",
+      "prompt": "Pour $f(x)=\\begin{cases}x^2 & x<1\\\\\\\\2x-1 & x\\geq1\\end{cases}$, vérifier en $x=1$ :",
       "options": [
         "limite",
         "continuité et dérivabilité",

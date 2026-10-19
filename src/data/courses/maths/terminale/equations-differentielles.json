@@ -2,15 +2,15 @@
   "id": "maths-terminale-equations-differentielles",
   "title": "Équations différentielles",
   "summary": "Un professeur cultive une colonie bactérienne de 1 000 bactéries à l'instant $t=0$ avec ses élèves. Ils constatent que l'accroissement de la population est proportionnel à cette population et que celle-ci double en 4 heures. L'expérience consiste à déterminer le nombre de bactéries après 12 heures. Pour cela, les élèves décident de faire des recherches afin de trouver l'équation qui régit ce phénomène et de la résoudre.",
-  "lesson": "## 1. Qu'est-ce qu'une équation différentielle ?\n\n**Définition :** Une équation différentielle est une équation dont l'inconnue est une **fonction**, et qui fait intervenir cette fonction et ses dérivées successives ($y', y'', ...$).\n\n**Ordre :** L'ordre d'une équation différentielle est l'ordre de la dérivée la plus élevée qui y figure.\nExemples :\n- $y' = 2x$ : équation du **premier ordre**.\n- $y'' + 3y' + 2y = 0$ : équation du **second ordre**.\n\n**Solution :** Une solution sur un intervalle $I$ est une fonction dérivable (ou plusieurs fois dérivable) sur $I$ qui satisfait l'équation pour tout $x \\\\in I$.\n\n## 2. Équation différentielle $y' = a y$ (avec $a$ constant)\n\nC'est l'équation de la croissance ou décroissance exponentielle.\n\n**Résolution :** Les solutions sur $\\\\mathbb{R}$ sont les fonctions :\n$$y(x) = K e^{a x}, \\\\quad K \\\\in \\\\mathbb{R}$$\n$K$ est la constante d'intégration, déterminée par une condition initiale.\n\n**Justification :** On a $y' = a y \\\\iff \\\\frac{y'}{y} = a$ (si $y \\\neq 0$). En intégrant : $\\\\ln|y| = a x + C \\\\iff y = \\\\pm e^C e^{a x} = K e^{a x}$, avec $K$ constante non nulle. On vérifie que $y=0$ est aussi solution (cas $K=0$).\n\n**Exemple :** Si $a=2$, les solutions sont $y(x)=K e^{2x}$.\n\n## 3. Équation différentielle $y' + a y = b$ (avec $a, b$ constants, $a \\\neq 0$)\n\n**Résolution :**\n1. **Solution générale de l'équation homogène associée** $y' + a y = 0$ : $y_h(x) = K e^{-a x}$.\n2. **Solution particulière de l'équation complète** $y' + a y = b$ : On cherche une solution constante $y_p = C$. Alors $y_p'=0$, donc $0 + a C = b \\\\Rightarrow C = \\\\frac{b}{a}$. Ainsi $y_p(x) = \\\\frac{b}{a}$.\n3. **Solution générale :** C'est la somme de la solution générale de l'homogène et d'une solution particulière :\n$$y(x) = y_h(x) + y_p(x) = K e^{-a x} + \\\\frac{b}{a}$$\n\n## 4. Équation différentielle $y'' = 0$\n\n**Résolution :** En intégrant deux fois : $y'(x) = A$ (constante), puis $y(x) = A x + B$, où $A$ et $B$ sont des constantes réelles.\nLes solutions sont les **fonctions affines**.\n\n## 5. Équation différentielle $y'' + \\\\omega^2 y = 0$ ($\\\\omega > 0$)\n\nC'est l'équation de l'**oscillateur harmonique** (systèmes oscillants sans amortissement).\n\n**Résolution :** Les solutions sur $\\\\mathbb{R}$ sont :\n$$y(x) = A \\\\cos(\\\\omega x) + B \\\\sin(\\\\omega x), \\\\quad A, B \\\\in \\\\mathbb{R}$$\nOn peut aussi écrire $y(x) = C \\\\cos(\\\\omega x + \\\\varphi)$ avec $C \\\\geq 0$ (amplitude) et $\\\\varphi$ (phase).\n\n**Justification (hors programme) :** On vérifie par dérivation que ces fonctions sont solutions. L'ensemble des solutions est un espace vectoriel de dimension 2.\n\n**Période :** Les solutions sont périodiques de période $T = \\\\frac{2\\\\pi}{\\\\omega}$.\n\n## 6. Équation différentielle $y'' - \\\\omega^2 y = 0$ ($\\\\omega > 0$)\n\nC'est l'équation de la **croissance/décroissance exponentielle combinée**.\n\n**Résolution :** Les solutions sur $\\\\mathbb{R}$ sont :\n$$y(x) = A e^{\\\\omega x} + B e^{-\\\\omega x}, \\\\quad A, B \\\\in \\\\mathbb{R}$$\n\n**Justification :** L'équation caractéristique associée est $r^2 - \\\\omega^2 = 0$, de racines $r = \\\\omega$ et $r = -\\\\omega$.\n\n## 7. Problème de Cauchy (Condition initiale)\n\nSouvent, on cherche **la** solution qui vérifie des conditions initiales, par exemple :\n- Pour une équation du premier ordre : $y(x_0) = y_0$.\n- Pour une équation du second ordre : $y(x_0) = y_0$ et $y'(x_0) = y_1$.\n\n**Méthode :** On trouve d'abord la solution générale (qui dépend de constantes). On impose ensuite les conditions initiales pour déterminer les valeurs de ces constantes.\n\n## 8. Résolution de la situation d'apprentissage\n\n**Modélisation :** L'accroissement de la population $P(t)$ est proportionnel à $P(t)$. Cela se traduit par $P'(t) = k P(t)$, où $k$ est une constante de proportionnalité. C'est une équation du type $y' = a y$.\n\n**Données :** $P(0) = 1000$ et la population double en 4 heures : $P(4) = 2 P(0) = 2000$.\n\n**Étape 1 : Solution générale**\n$P(t) = K e^{k t}$, avec $K$ et $k$ constants.\n\n**Étape 2 : Détermination de $K$ avec la condition initiale**\n$P(0)=1000 \\\\Rightarrow K e^{k \\\\cdot 0} = K \\\\cdot 1 = 1000 \\\\Rightarrow K = 1000$.\nDonc $P(t) = 1000 e^{k t}$.\n\n**Étape 3 : Détermination de $k$ avec la condition de doublement**\n$P(4)=2000 \\\\Rightarrow 1000 e^{4k} = 2000 \\\\Rightarrow e^{4k} = 2$.\nEn prenant le logarithme : $4k = \\\\ln 2 \\\\Rightarrow k = \\\\frac{\\\\ln 2}{4}$.\n\n**Étape 4 : Expression de la population**\n$$P(t) = 1000 \\\\, e^{\\\\frac{\\\\ln 2}{4} t} = 1000 \\\\, \\\\left(e^{\\\\ln 2}\\\\right)^{\\\\frac{t}{4}} = 1000 \\\times 2^{\\\\frac{t}{4}}$$\n\n**Étape 5 : Population après 12 heures**\n$P(12) = 1000 \\\times 2^{\\\\frac{12}{4}} = 1000 \\\times 2^{3} = 1000 \\\times 8 = 8000$.\n\n**Conclusion :** Après 12 heures, la colonie compterait environ **8 000 bactéries**.\n\n**Généralisation :** Le temps de doublement $t_d$ est constant dans un modèle exponentiel et vérifie $k t_d = \\\\ln 2$.",
+  "lesson": "## 1. Qu'est-ce qu'une équation différentielle ?\n\n**Définition :** Une équation différentielle est une équation dont l'inconnue est une **fonction**, et qui fait intervenir cette fonction et ses dérivées successives ($y', y'', ...$).\n\n**Ordre :** L'ordre d'une équation différentielle est l'ordre de la dérivée la plus élevée qui y figure.\nExemples :\n- $y' = 2x$ : équation du **premier ordre**.\n- $y'' + 3y' + 2y = 0$ : équation du **second ordre**.\n\n**Solution :** Une solution sur un intervalle $I$ est une fonction dérivable (ou plusieurs fois dérivable) sur $I$ qui satisfait l'équation pour tout $x \\in I$.\n\n## 2. Équation différentielle $y' = a y$ (avec $a$ constant)\n\nC'est l'équation de la croissance ou décroissance exponentielle.\n\n**Résolution :** Les solutions sur $\\mathbb{R}$ sont les fonctions :\n$$y(x) = K e^{a x}, \\quad K \\in \\mathbb{R}$$\n$K$ est la constante d'intégration, déterminée par une condition initiale.\n\n**Justification :** On a $y' = a y \\iff \\frac{y'}{y} = a$ (si $y\neq 0$). En intégrant : $\\ln|y| = a x + C \\iff y = \\pm e^C e^{a x} = K e^{a x}$, avec $K$ constante non nulle. On vérifie que $y=0$ est aussi solution (cas $K=0$).\n\n**Exemple :** Si $a=2$, les solutions sont $y(x)=K e^{2x}$.\n\n## 3. Équation différentielle $y' + a y = b$ (avec $a, b$ constants, $a\neq 0$)\n\n**Résolution :**\n1. **Solution générale de l'équation homogène associée** $y' + a y = 0$ : $y_h(x) = K e^{-a x}$.\n2. **Solution particulière de l'équation complète** $y' + a y = b$ : On cherche une solution constante $y_p = C$. Alors $y_p'=0$, donc $0 + a C = b \\Rightarrow C = \\frac{b}{a}$. Ainsi $y_p(x) = \\frac{b}{a}$.\n3. **Solution générale :** C'est la somme de la solution générale de l'homogène et d'une solution particulière :\n$$y(x) = y_h(x) + y_p(x) = K e^{-a x} + \\frac{b}{a}$$\n\n## 4. Équation différentielle $y'' = 0$\n\n**Résolution :** En intégrant deux fois : $y'(x) = A$ (constante), puis $y(x) = A x + B$, où $A$ et $B$ sont des constantes réelles.\nLes solutions sont les **fonctions affines**.\n\n## 5. Équation différentielle $y'' + \\omega^2 y = 0$ ($\\omega > 0$)\n\nC'est l'équation de l'**oscillateur harmonique** (systèmes oscillants sans amortissement).\n\n**Résolution :** Les solutions sur $\\mathbb{R}$ sont :\n$$y(x) = A \\cos(\\omega x) + B \\sin(\\omega x), \\quad A, B \\in \\mathbb{R}$$\nOn peut aussi écrire $y(x) = C \\cos(\\omega x + \\varphi)$ avec $C \\geq 0$ (amplitude) et $\\varphi$ (phase).\n\n**Justification (hors programme) :** On vérifie par dérivation que ces fonctions sont solutions. L'ensemble des solutions est un espace vectoriel de dimension 2.\n\n**Période :** Les solutions sont périodiques de période $T = \\frac{2\\pi}{\\omega}$.\n\n## 6. Équation différentielle $y'' - \\omega^2 y = 0$ ($\\omega > 0$)\n\nC'est l'équation de la **croissance/décroissance exponentielle combinée**.\n\n**Résolution :** Les solutions sur $\\mathbb{R}$ sont :\n$$y(x) = A e^{\\omega x} + B e^{-\\omega x}, \\quad A, B \\in \\mathbb{R}$$\n\n**Justification :** L'équation caractéristique associée est $r^2 - \\omega^2 = 0$, de racines $r = \\omega$ et $r = -\\omega$.\n\n## 7. Problème de Cauchy (Condition initiale)\n\nSouvent, on cherche **la** solution qui vérifie des conditions initiales, par exemple :\n- Pour une équation du premier ordre : $y(x_0) = y_0$.\n- Pour une équation du second ordre : $y(x_0) = y_0$ et $y'(x_0) = y_1$.\n\n**Méthode :** On trouve d'abord la solution générale (qui dépend de constantes). On impose ensuite les conditions initiales pour déterminer les valeurs de ces constantes.\n\n## 8. Résolution de la situation d'apprentissage\n\n**Modélisation :** L'accroissement de la population $P(t)$ est proportionnel à $P(t)$. Cela se traduit par $P'(t) = k P(t)$, où $k$ est une constante de proportionnalité. C'est une équation du type $y' = a y$.\n\n**Données :** $P(0) = 1000$ et la population double en 4 heures : $P(4) = 2 P(0) = 2000$.\n\n**Étape 1 : Solution générale**\n$P(t) = K e^{k t}$, avec $K$ et $k$ constants.\n\n**Étape 2 : Détermination de $K$ avec la condition initiale**\n$P(0)=1000 \\Rightarrow K e^{k \\cdot 0} = K \\cdot 1 = 1000 \\Rightarrow K = 1000$.\nDonc $P(t) = 1000 e^{k t}$.\n\n**Étape 3 : Détermination de $k$ avec la condition de doublement**\n$P(4)=2000 \\Rightarrow 1000 e^{4k} = 2000 \\Rightarrow e^{4k} = 2$.\nEn prenant le logarithme : $4k = \\ln 2 \\Rightarrow k = \\frac{\\ln 2}{4}$.\n\n**Étape 4 : Expression de la population**\n$$P(t) = 1000 \\\\, e^{\\frac{\\ln 2}{4} t} = 1000 \\\\, \\left(e^{\\ln 2}\\right)^{\\frac{t}{4}} = 1000 \\times 2^{\\frac{t}{4}}$$\n\n**Étape 5 : Population après 12 heures**\n$P(12) = 1000 \\times 2^{\\frac{12}{4}} = 1000 \\times 2^{3} = 1000 \\times 8 = 8000$.\n\n**Conclusion :** Après 12 heures, la colonie compterait environ **8 000 bactéries**.\n\n**Généralisation :** Le temps de doublement $t_d$ est constant dans un modèle exponentiel et vérifie $k t_d = \\ln 2$.",
   "estimatedMinutes": 10,
   "keyPoints": [
     "Une équation différentielle est une équation où l'inconnue est une fonction $y$ et qui fait intervenir $y$ et ses dérivées.",
     "L'équation $y' = a y$ a pour solutions $y(x)=K e^{a x}$ (croissance si $a>0$, décroissance si $a<0$).",
-    "L'équation $y' + a y = b$ a pour solution générale $y(x)=K e^{-a x} + \\\\frac{b}{a}$ (somme d'une solution particulière constante et de la solution de l'homogène).",
+    "L'équation $y' + a y = b$ a pour solution générale $y(x)=K e^{-a x} + \\frac{b}{a}$ (somme d'une solution particulière constante et de la solution de l'homogène).",
     "L'équation $y'' = 0$ a pour solutions les fonctions affines $y(x)=Ax+B$.",
-    "L'équation $y'' + \\\\omega^2 y = 0$ modélise des oscillations (type ressort). Ses solutions sont $A \\\\cos(\\\\omega x) + B \\\\sin(\\\\omega x)$ (fonctions sinusoïdales).",
-    "L'équation $y'' - \\\\omega^2 y = 0$ a pour solutions $A e^{\\\\omega x} + B e^{-\\\\omega x}$ (combinaisons d'exponentielles).",
+    "L'équation $y'' + \\omega^2 y = 0$ modélise des oscillations (type ressort). Ses solutions sont $A \\cos(\\omega x) + B \\sin(\\omega x)$ (fonctions sinusoïdales).",
+    "L'équation $y'' - \\omega^2 y = 0$ a pour solutions $A e^{\\omega x} + B e^{-\\omega x}$ (combinaisons d'exponentielles).",
     "Pour trouver la solution unique satisfaisant des conditions initiales (problème de Cauchy), on détermine les constantes dans la solution générale à l'aide de ces conditions.",
     "Les équations différentielles sont des outils puissants pour modéliser des phénomènes naturels : croissance de population ($y'=k y$), refroidissement ($T' = -k(T-T_{ext})$), circuits électriques, etc."
   ],
@@ -64,7 +64,7 @@
       "prompt": "Les solutions de $y'' + 4y = 0$ sont de la forme :",
       "options": [
         "$A e^{2x}+B e^{-2x}$",
-        "$A \\\\cos(2x)+B \\\\sin(2x)$",
+        "$A \\cos(2x)+B \\sin(2x)$",
         "$A x + B$",
         "$A e^{4x}$"
       ],
@@ -105,7 +105,7 @@
         "$y=x^2 + C$",
         "$y=2x + C$",
         "$y=e^{2x}+C$",
-        "$y=\\\\ln(2x)+C$"
+        "$y=\\ln(2x)+C$"
       ],
       "answer": 0,
       "explanation": "Question issue du programme officiel."
@@ -115,10 +115,10 @@
       "type": "mcq",
       "prompt": "Laquelle de ces fonctions est solution de $y'' - y = 0$ ?",
       "options": [
-        "$\\\\cos x$",
+        "$\\cos x$",
         "$e^x$",
         "$x^2$",
-        "$\\\\ln x$"
+        "$\\ln x$"
       ],
       "answer": 1,
       "explanation": "Question issue du programme officiel."
@@ -126,7 +126,7 @@
     {
       "id": "q9",
       "type": "mcq",
-      "prompt": "Pour une équation $y' + a y = b$, la solution tend vers $\\\\frac{b}{a}$ quand $x \\\\to +\\\\infty$ si :",
+      "prompt": "Pour une équation $y' + a y = b$, la solution tend vers $\\frac{b}{a}$ quand $x \\to +\\infty$ si :",
       "options": [
         "$a>0$",
         "$a<0$",
@@ -182,8 +182,8 @@
       "options": [
         "$Ke^{3x}$",
         "$Ke^{-3x}$",
-        "$K\\\\cos(3x)$",
-        "$K\\\\sin(3x)$"
+        "$K\\cos(3x)$",
+        "$K\\sin(3x)$"
       ],
       "answer": 1,
       "explanation": "Question issue du programme officiel."
@@ -235,7 +235,7 @@
         "$100e^{kt}$",
         "$100e^{-kt}$",
         "$100+kt$",
-        "$100\\\\cos(kt)$"
+        "$100\\cos(kt)$"
       ],
       "answer": 0,
       "explanation": "Question issue du programme officiel."
@@ -245,7 +245,7 @@
       "type": "mcq",
       "prompt": "Les solutions de $y'' - 9y = 0$ sont :",
       "options": [
-        "$A\\\\cos(3x)+B\\\\sin(3x)$",
+        "$A\\cos(3x)+B\\sin(3x)$",
         "$Ae^{3x}+Be^{-3x}$",
         "$Ax+B$",
         "$Ke^{-9x}$"

@@ -2,7 +2,7 @@
   "id": "physique-premiere-travail-et-puissance-d-une-force",
   "title": "Travail et puissance d'une force",
   "summary": "Un ouvrier pousse une caisse sur un sol horizontal. Comment calculer le travail qu'il effectue ?",
-  "lesson": "## 1. Travail d'une force constante\n\n### Définition\nLe travail d'une force constante \\( \\vec{F} \\) dont le point d'application se déplace de A vers B est :\n\n\\[ W_{A→B}(\\vec{F}) = \\vec{F} \\cdot \\vec{AB} = F \\times AB \\times \\cos\\alpha \\]\n\n**Unités :**\n- Force F en newton (N)\n- Déplacement AB en mètre (m) \n- Travail W en joule (J)\n\n### Signe du travail\n\n- **Travail moteur** (W > 0) : \\( 0° ≤ α < 90° \\)\n- **Travail nul** (W = 0) : \\( α = 90° \\)\n- **Travail résistant** (W < 0) : \\( 90° < α ≤ 180° \\)\n\n## 2. Travail du poids\n\nPour un solide de masse m se déplaçant dans un champ de pesanteur uniforme :\n\n\\[ W_{AB}(\\vec{P}) = mg(z_A - z_B) \\]\n\n**Propriété :** Le travail du poids ne dépend que des altitudes de départ et d'arrivée.\n\n## 3. Puissance d'une force\n\n### Puissance moyenne\n\\[ P_m = \\frac{W}{\\Delta t} \\]\n\n### Puissance instantanée  \n\\[ P = \\vec{F} \\cdot \\vec{v} \\]\n\n**Unités :** watt (W), 1 ch = 736 W\n\n## 4. Applications\n\n### Exemple 1 : Travail moteur\nUne force de 50 N déplace un objet de 10 m dans sa direction.\n\\[ W = 50 \\times 10 \\times \\cos 0° = 500 \\, J \\]\n\n### Exemple 2 : Travail du poids\nUn objet de 2 kg tombe de 5 m de hauteur :\n\\[ W = 2 \\times 10 \\times 5 = 100 \\, J \\]",
+  "lesson": "## 1. Travail d'une force constante\n\n### Définition\nLe travail d'une force constante \\( \\vec{F} \\) dont le point d'application se déplace de A vers B est :\n\n\\[ W_{A→B}(\\vec{F}) = \\vec{F} \\cdot \\vec{AB} = F \\times AB \\times \\cos\\alpha \\]\n\n**Unités :**\n- Force F en newton (N)\n- Déplacement AB en mètre (m)\n- Travail W en joule (J)\n\n### Signe du travail\n\n- **Travail moteur** (W > 0) : \\( 0° ≤ α < 90° \\)\n- **Travail nul** (W = 0) : \\( α = 90° \\)\n- **Travail résistant** (W < 0) : \\( 90° < α ≤ 180° \\)\n\n## 2. Travail du poids\n\nPour un solide de masse m se déplaçant dans un champ de pesanteur uniforme :\n\n\\[ W_{AB}(\\vec{P}) = mg(z_A - z_B) \\]\n\n**Propriété :** Le travail du poids ne dépend que des altitudes de départ et d'arrivée.\n\n## 3. Puissance d'une force\n\n### Puissance moyenne\n\\[ P_m = \\frac{W}{\\Delta t} \\]\n\n### Puissance instantanée\n\\[ P = \\vec{F} \\cdot \\vec{v} \\]\n\n**Unités :** watt (W), 1 ch = 736 W\n\n## 4. Applications\n\n### Exemple 1 : Travail moteur\nUne force de 50 N déplace un objet de 10 m dans sa direction.\n\\[ W = 50 \\times 10 \\times \\cos 0° = 500 \\, J \\]\n\n### Exemple 2 : Travail du poids\nUn objet de 2 kg tombe de 5 m de hauteur :\n\\[ W = 2 \\times 10 \\times 5 = 100 \\, J \\]",
   "estimatedMinutes": 10,
   "keyPoints": [
     "W = F × d × cosα",
@@ -12,7 +12,7 @@
   ],
   "exercise": {
     "question": "Calculer le travail pour tirer une caisse de 100 N sur 20 m avec une force de 80 N faisant 30° avec l'horizontale.",
-    "answer": "\n**Solution :**\n\nW = F × d × cosα  \n= 80 × 20 × cos30°  \n= 80 × 20 × 0,866  \n= 1385,6 J\n\n**Le travail est moteur.**\n        "
+    "answer": "\n**Solution :**\n\nW = F × d × cosα\n= 80 × 20 × cos30°\n= 80 × 20 × 0,866\n= 1385,6 J\n\n**Le travail est moteur.**\n"
   },
   "questions": [
     {

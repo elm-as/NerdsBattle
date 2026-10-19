@@ -12,7 +12,7 @@
   ],
   "exercise": {
     "question": "Un brin d'ADN a la séquence 5' - TAC GGC ATT - 3'. Donner la séquence de l'ARNm et des acides aminés correspondants. Codons : AUG=Met, CCG=Pro, UAA=Stop",
-    "answer": "\n**Solution :**\n\n**1. Transcription (ADN → ARNm) :**\n\nADN   : 5' - **TAC GGC ATT** - 3'\nARNm  : 5' - **AUG CCG UAA** - 3'\n\n**2. Traduction (ARNm → Protéine) :**\n\n- **AUG** → Méthionine (Met)\n- **CCG** → Proline (Pro)\n- **UAA** → Codon stop (arrêt)\n\n**Réponse :**\n- ARNm : 5' - AUG CCG UAA - 3'\n- Protéine : Met - Pro (puis arrêt)\n        "
+    "answer": "\n**Solution :**\n\n**1. Transcription (ADN → ARNm) :**\n\nADN   : 5' - **TAC GGC ATT** - 3'\nARNm  : 5' - **AUG CCG UAA** - 3'\n\n**2. Traduction (ARNm → Protéine) :**\n\n- **AUG** → Méthionine (Met)\n- **CCG** → Proline (Pro)\n- **UAA** → Codon stop (arrêt)\n\n**Réponse :**\n- ARNm : 5' - AUG CCG UAA - 3'\n- Protéine : Met - Pro (puis arrêt)\n"
   },
   "questions": [
     {

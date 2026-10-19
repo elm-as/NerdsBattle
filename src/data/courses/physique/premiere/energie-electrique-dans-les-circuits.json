@@ -2,7 +2,7 @@
   "id": "physique-premiere-energie-electrique-dans-les-circuits",
   "title": "Énergie électrique dans les circuits",
   "summary": "Pourquoi un radiateur électrique chauffe-t-il ? Comprendre les échanges énergétiques.",
-  "lesson": "## 1. Dipôles passifs (récepteurs)\n\n### Énergie reçue\n\\[ E_{reçue} = UIt \\]\n\n### Puissance reçue\n\\[ P_{reçue} = UI \\]\n\n## 2. Conducteur ohmique\n\n### Loi d'Ohm\n\\[ U = RI \\]\n\n### Effet Joule\nToute l'énergie électrique est convertie en chaleur\n\n**Énergie :**\n\\[ E = RI^2t = \\frac{U^2}{R}t \\]\n\n**Puissance :**\n\\[ P = RI^2 = \\frac{U^2}{R} \\]\n\n## 3. Récepteurs actifs\n\n### Loi d'Ohm\n\\[ U = e' + r'I \\]\n\n### Bilan énergétique\n\\[ E_{reçue} = e'It + r'I^2t \\]\n- Énergie utile : E_u = e'It\n- Pertes Joule : E_h = r'I²t\n\n### Rendement\n\\[ \\eta = \\frac{e'}{e' + r'I} \\]\n\n## 4. Générateurs\n\n### Loi d'Ohm\n\\[ U = e - rI \\]\n\n### Bilan énergétique\n\\[ E_g = E_{ext} + E_{th} \\]\n\\[ eI = UI + rI^2 \\]\n\n### Rendement\n\\[ \\eta = \\frac{U}{e} = 1 - \\frac{rI}{e} \\]\n\n## 5. Loi de Pouillet\n\n### Circuit série simple\n\\[ I = \\frac{e - e'}{r + r' + R} \\]\n\n### Généralisation\n\\[ I = \\frac{\\sum e - \\sum e'}{\\sum R} \\]\n\n## 6. Applications\n\n### Exemple : Fer à repasser\nP = 1200 W, U = 220 V\n\nIntensité : I = P/U = 1200/220 = 5,45 A  \nRésistance : R = U/I = 220/5,45 = 40,4 Ω  \nÉnergie en 1h : E = 1200 × 3600 = 4,32 MJ = 1,2 kWh",
+  "lesson": "## 1. Dipôles passifs (récepteurs)\n\n### Énergie reçue\n\\[ E_{reçue} = UIt \\]\n\n### Puissance reçue\n\\[ P_{reçue} = UI \\]\n\n## 2. Conducteur ohmique\n\n### Loi d'Ohm\n\\[ U = RI \\]\n\n### Effet Joule\nToute l'énergie électrique est convertie en chaleur\n\n**Énergie :**\n\\[ E = RI^2t = \\frac{U^2}{R}t \\]\n\n**Puissance :**\n\\[ P = RI^2 = \\frac{U^2}{R} \\]\n\n## 3. Récepteurs actifs\n\n### Loi d'Ohm\n\\[ U = e' + r'I \\]\n\n### Bilan énergétique\n\\[ E_{reçue} = e'It + r'I^2t \\]\n- Énergie utile : E_u = e'It\n- Pertes Joule : E_h = r'I²t\n\n### Rendement\n\\[ \\eta = \\frac{e'}{e' + r'I} \\]\n\n## 4. Générateurs\n\n### Loi d'Ohm\n\\[ U = e - rI \\]\n\n### Bilan énergétique\n\\[ E_g = E_{ext} + E_{th} \\]\n\\[ eI = UI + rI^2 \\]\n\n### Rendement\n\\[ \\eta = \\frac{U}{e} = 1 - \\frac{rI}{e} \\]\n\n## 5. Loi de Pouillet\n\n### Circuit série simple\n\\[ I = \\frac{e - e'}{r + r' + R} \\]\n\n### Généralisation\n\\[ I = \\frac{\\sum e - \\sum e'}{\\sum R} \\]\n\n## 6. Applications\n\n### Exemple : Fer à repasser\nP = 1200 W, U = 220 V\n\nIntensité : I = P/U = 1200/220 = 5,45 A\nRésistance : R = U/I = 220/5,45 = 40,4 Ω\nÉnergie en 1h : E = 1200 × 3600 = 4,32 MJ = 1,2 kWh",
   "estimatedMinutes": 10,
   "keyPoints": [
     "E = UIt, P = UI",
@@ -12,7 +12,7 @@
   ],
   "exercise": {
     "question": "Un radiateur de 1000 W sous 220 V. Calculer son intensité et sa résistance.",
-    "answer": "\n**Solution :**\n\nP = 1000 W, U = 220 V  \nI = P/U = 1000/220 = 4,55 A  \nR = U/I = 220/4,55 = 48,4 Ω\n\n**Réponse : I = 4,55 A, R = 48,4 Ω**\n        "
+    "answer": "\n**Solution :**\n\nP = 1000 W, U = 220 V\nI = P/U = 1000/220 = 4,55 A\nR = U/I = 220/4,55 = 48,4 Ω\n\n**Réponse : I = 4,55 A, R = 48,4 Ω**\n"
   },
   "questions": [
     {

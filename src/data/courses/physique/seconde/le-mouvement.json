@@ -12,7 +12,7 @@
   ],
   "exercise": {
     "question": "Un car de transport fait Abidjan-Bouaké (360 km) en 4 heures. Quelle est sa vitesse moyenne en km/h puis en m/s ?",
-    "answer": "\n**Solution :**\n\n1. **Vitesse en km/h :**\n   ```\n   v = d / t = 360 / 4 = 90 km/h\n   ```\n\n2. **Conversion en m/s :**\n   ```\n   v (m/s) = v (km/h) / 3,6\n   v = 90 / 3,6 = 25 m/s\n   ```\n\n**Réponses :**\n- Vitesse moyenne : **90 km/h**\n- Vitesse moyenne : **25 m/s**\n        "
+    "answer": "\n**Solution :**\n\n1. **Vitesse en km/h :**\n   ```\n   v = d / t = 360 / 4 = 90 km/h\n   ```\n\n2. **Conversion en m/s :**\n   ```\n   v (m/s) = v (km/h) / 3,6\n   v = 90 / 3,6 = 25 m/s\n   ```\n\n**Réponses :**\n- Vitesse moyenne : **90 km/h**\n- Vitesse moyenne : **25 m/s**\n"
   },
   "questions": [
     {
@@ -109,7 +109,7 @@
     {
       "id": "q8",
       "type": "mcq",
-      "prompt": "Que représente le vecteur position $\\\\overrightarrow{OM}$ ?",
+      "prompt": "Que représente le vecteur position $\\overrightarrow{OM}$ ?",
       "options": [
         "La position du mobile par rapport à l'origine",
         "La vitesse du mobile",

@@ -2,7 +2,7 @@
   "id": "maths-premiere-trigonometrie",
   "title": "Trigonométrie",
   "summary": "En physique ondulatoire, la trigonométrie est essentielle. Comment l'utiliser ?",
-  "lesson": "## Trigonométrie\n\n### Cercle trigonométrique\nCercle de rayon 1, sens trigonométrique\n\n### Valeurs remarquables\n| Angle | 0 | π/6 | π/4 | π/3 | π/2 |\n|-------|---|-----|-----|-----|-----|\n| sin   | 0 | 1/2 | √2/2 | √3/2 | 1 |\n| cos   | 1 | √3/2 | √2/2 | 1/2 | 0 |\n\n### Formules fondamentales\n- sin²(x) + cos²(x) = 1\n- tan(x) = sin(x) / cos(x)\n- cos(−x) = cos(x)\n- sin(−x) = −sin(x)\n\n### Formules d'addition\n- sin(a + b) = sin(a)cos(b) + cos(a)sin(b)\n- cos(a + b) = cos(a)cos(b) − sin(a)sin(b)",
+  "lesson": "## Trigonométrie\n\n### Cercle trigonométrique\nCercle de rayon 1, sens trigonométrique\n\n### Valeurs remarquables\n\n| Angle | 0 | π/6 | π/4 | π/3 | π/2 |\n|-------|---|-----|-----|-----|-----|\n| sin   | 0 | 1/2 | √2/2 | √3/2 | 1 |\n| cos   | 1 | √3/2 | √2/2 | 1/2 | 0 |\n\n### Formules fondamentales\n- sin²(x) + cos²(x) = 1\n- tan(x) = sin(x) / cos(x)\n- cos(−x) = cos(x)\n- sin(−x) = −sin(x)\n\n### Formules d'addition\n- sin(a + b) = sin(a)cos(b) + cos(a)sin(b)\n- cos(a + b) = cos(a)cos(b) − sin(a)sin(b)",
   "estimatedMinutes": 10,
   "keyPoints": [
     "Valeurs remarquables à connaître",
@@ -11,7 +11,7 @@
   ],
   "exercise": {
     "question": "Sachant que cos(x) = 3/5 et x ∈ [0 ; π/2], calcule sin(x).",
-    "answer": "\n**Solution :**\nsin²(x) + cos²(x) = 1\nsin²(x) = 1 − (3/5)² = 1 − 9/25 = 16/25\nsin(x) = 4/5 (positif car x ∈ [0 ; π/2])\n\n**Réponse : sin(x) = 4/5**\n        "
+    "answer": "\n**Solution :**\nsin²(x) + cos²(x) = 1\nsin²(x) = 1 − (3/5)² = 1 − 9/25 = 16/25\nsin(x) = 4/5 (positif car x ∈ [0 ; π/2])\n\n**Réponse : sin(x) = 4/5**\n"
   },
   "questions": [
     {

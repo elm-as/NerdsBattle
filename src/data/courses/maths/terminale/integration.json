@@ -11,7 +11,7 @@
   ],
   "exercise": {
     "question": "**Exercice 1 :** Calcule ∫[0→1] (2x + 1) dx\n\n**Exercice 2 :** Calcule ∫ (3x² + 2x − 1) dx\n\n**Exercice 3 :** Calcule l'aire entre la courbe y = x² et l'axe des abscisses sur [0 ; 2]\n\n**Exercice 4 :** Calcule ∫[1→e] (1/x) dx",
-    "answer": "\n**Solution Exercice 1 :**\nPrimitive : F(x) = x² + x\n∫[0→1] = [x² + x]₀¹ = (1 + 1) − (0 + 0) = 2\n**Réponse : ∫ = 2**\n\n**Solution Exercice 2 :**\n∫ (3x² + 2x − 1) dx = x³ + x² − x + C\n**Réponse : x³ + x² − x + C**\n\n**Solution Exercice 3 :**\nA = ∫[0→2] x² dx = [x³/3]₀²\n= 8/3 − 0 = 8/3\n**Réponse : A = 8/3 unités d'aire**\n\n**Solution Exercice 4 :**\n∫[1→e] (1/x) dx = [ln|x|]₁ᵉ\n= ln(e) − ln(1) = 1 − 0 = 1\n**Réponse : ∫ = 1**\n        "
+    "answer": "\n**Solution Exercice 1 :**\nPrimitive : F(x) = x² + x\n∫[0→1] = [x² + x]₀¹ = (1 + 1) − (0 + 0) = 2\n**Réponse : ∫ = 2**\n\n**Solution Exercice 2 :**\n∫ (3x² + 2x − 1) dx = x³ + x² − x + C\n**Réponse : x³ + x² − x + C**\n\n**Solution Exercice 3 :**\nA = ∫[0→2] x² dx = [x³/3]₀²\n= 8/3 − 0 = 8/3\n**Réponse : A = 8/3 unités d'aire**\n\n**Solution Exercice 4 :**\n∫[1→e] (1/x) dx = [ln|x|]₁ᵉ\n= ln(e) − ln(1) = 1 − 0 = 1\n**Réponse : ∫ = 1**\n"
   },
   "questions": [
     {

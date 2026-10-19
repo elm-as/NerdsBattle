@@ -11,7 +11,7 @@
   ],
   "exercise": {
     "question": "Calcule ∫ xe^x dx par parties",
-    "answer": "\n**Solution :**\nu = x, u' = 1\nv' = e^x, v = e^x\n\n∫ xe^x dx = xe^x − ∫ e^x dx\n= xe^x − e^x + C\n= e^x(x − 1) + C\n\n**Réponse : e^x(x − 1) + C**\n        "
+    "answer": "\n**Solution :**\nu = x, u' = 1\nv' = e^x, v = e^x\n\n∫ xe^x dx = xe^x − ∫ e^x dx\n= xe^x − e^x + C\n= e^x(x − 1) + C\n\n**Réponse : e^x(x − 1) + C**\n"
   },
   "questions": [
     {

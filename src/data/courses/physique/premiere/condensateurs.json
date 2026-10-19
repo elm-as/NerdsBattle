@@ -2,7 +2,7 @@
   "id": "physique-premiere-condensateurs",
   "title": "Condensateurs",
   "summary": "Comment fonctionnent les flashs d'appareils photo ? Le rôle des condensateurs.",
-  "lesson": "## 1. Définition et symbole\n\n### Constitution\nDeux armatures conductrices séparées par un isolant (diélectrique)\n\n### Symbole\n─||─\n\n## 2. Charge et décharge\n\n### Charge\nAccumulation de charges +Q et -Q sur les armatures\n\n### Relation charge-tension\n\\[ q = Cu_c \\]\n\n**Unités :**\n- q en coulomb (C)\n- C en farad (F)\n- u_c en volt (V)\n\n### Sous-multiples\n1 mF = 10⁻³ F, 1 μF = 10⁻⁶ F, 1 nF = 10⁻⁹ F, 1 pF = 10⁻¹² F\n\n## 3. Capacité d'un condensateur plan\n\n\\[ C = \\varepsilon_0 \\varepsilon_r \\frac{S}{d} \\]\n\n**Permittivité du vide :**\n\\[ \\varepsilon_0 = 8,85 \\times 10^{-12} \\, F\\cdot m^{-1} \\]\n\n## 4. Énergie emmagasinée\n\n\\[ E = \\frac{1}{2}Cu_c^2 = \\frac{1}{2}Qu_c = \\frac{Q^2}{2C} \\]\n\n## 5. Associations\n\n### En parallèle\n\\[ C_{eq} = C_1 + C_2 + ... + C_n \\]\n\n### En série\n\\[ \\frac{1}{C_{eq}} = \\frac{1}{C_1} + \\frac{1}{C_2} + ... + \\frac{1}{C_n} \\]\n\n## 6. Applications\n\n### Exemple : Condensateur de 100 μF chargé à 12 V\n\nCharge : Q = CU = 100×10⁻⁶ × 12 = 1,2 mC  \nÉnergie : E = ½CU² = ½×100×10⁻⁶×144 = 7,2 mJ\n\n### Flash photographique\nLe condensateur stocke l'énergie puis la restitue rapidement",
+  "lesson": "## 1. Définition et symbole\n\n### Constitution\nDeux armatures conductrices séparées par un isolant (diélectrique)\n\n### Symbole\n─||─\n\n## 2. Charge et décharge\n\n### Charge\nAccumulation de charges +Q et -Q sur les armatures\n\n### Relation charge-tension\n\\[ q = Cu_c \\]\n\n**Unités :**\n- q en coulomb (C)\n- C en farad (F)\n- u_c en volt (V)\n\n### Sous-multiples\n1 mF = 10⁻³ F, 1 μF = 10⁻⁶ F, 1 nF = 10⁻⁹ F, 1 pF = 10⁻¹² F\n\n## 3. Capacité d'un condensateur plan\n\n\\[ C = \\varepsilon_0 \\varepsilon_r \\frac{S}{d} \\]\n\n**Permittivité du vide :**\n\\[ \\varepsilon_0 = 8,85 \\times 10^{-12} \\, F\\cdot m^{-1} \\]\n\n## 4. Énergie emmagasinée\n\n\\[ E = \\frac{1}{2}Cu_c^2 = \\frac{1}{2}Qu_c = \\frac{Q^2}{2C} \\]\n\n## 5. Associations\n\n### En parallèle\n\\[ C_{eq} = C_1 + C_2 + ... + C_n \\]\n\n### En série\n\\[ \\frac{1}{C_{eq}} = \\frac{1}{C_1} + \\frac{1}{C_2} + ... + \\frac{1}{C_n} \\]\n\n## 6. Applications\n\n### Exemple : Condensateur de 100 μF chargé à 12 V\n\nCharge : Q = CU = 100×10⁻⁶ × 12 = 1,2 mC\nÉnergie : E = ½CU² = ½×100×10⁻⁶×144 = 7,2 mJ\n\n### Flash photographique\nLe condensateur stocke l'énergie puis la restitue rapidement",
   "estimatedMinutes": 10,
   "keyPoints": [
     "q = Cu_c",
@@ -12,7 +12,7 @@
   ],
   "exercise": {
     "question": "Trois condensateurs : 10 μF, 20 μF, 30 μF en parallèle sous 50 V. Calculer énergie totale.",
-    "answer": "\n**Solution :**\n\nC_eq = 10 + 20 + 30 = 60 μF  \nE = ½ × 60×10⁻⁶ × 50²  \n= ½ × 60×10⁻⁶ × 2500  \n= 0,075 J = 75 mJ\n\n**Réponse : 75 mJ**\n        "
+    "answer": "\n**Solution :**\n\nC_eq = 10 + 20 + 30 = 60 μF\nE = ½ × 60×10⁻⁶ × 50²\n= ½ × 60×10⁻⁶ × 2500\n= 0,075 J = 75 mJ\n\n**Réponse : 75 mJ**\n"
   },
   "questions": [
     {

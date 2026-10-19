@@ -11,7 +11,7 @@
   ],
   "exercise": {
     "question": "On lance 5 fois une pièce équilibrée. Quelle est la probabilité d'obtenir exactement 3 fois pile ?",
-    "answer": "\n**Solution :**\nX suit B(5 ; 0,5)\nP(X = 3) = C_5^3 × (0,5)³ × (0,5)²\n= 10 × 0,125 × 0,25\n= 0,3125 = 31,25%\n\n**Réponse : P = 31,25%**\n        "
+    "answer": "\n**Solution :**\nX suit B(5 ; 0,5)\nP(X = 3) = C_5^3 × (0,5)³ × (0,5)²\n= 10 × 0,125 × 0,25\n= 0,3125 = 31,25%\n\n**Réponse : P = 31,25%**\n"
   },
   "questions": [
     {

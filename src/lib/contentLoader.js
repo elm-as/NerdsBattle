@@ -48,11 +48,23 @@ function parsePath(path) {
 }
 
 function normalizeText(val) {
-  if (typeof val !== 'string') return val
-  if (val.includes('\\n')) {
-    return val.replaceAll('\\r\\n', '\n').replaceAll('\\n', '\n').replaceAll('\\t', '\t')
+  if (typeof val !== 'string' || !val) return val
+  let s = val
+  if (s.includes('\\n') || s.includes('\\r')) {
+    s = s.replaceAll('\\r\\n', '\n').replaceAll('\\n', '\n').replaceAll('\\t', '\t')
   }
-  return val
+  return s
+}
+
+function normalizeTitle(val) {
+  if (typeof val !== 'string' || !val) return val
+  let t = normalizeText(val).trim()
+  t = t.replace(/\\{2,}([a-zA-Z]+)/g, '\\$1')
+  if (!t.includes('$')) {
+    t = t.replace(/\\mathbb\{R\}\s*\\?times\s*\\mathbb\{R\}/g, '$\\mathbb{R} \\times \\mathbb{R}$')
+  }
+  t = t.replace(/\$\$+([\s\S]+?)\$\$+/g, (_, inner) => `$${inner}$`)
+  return t.replace(/\\+$/, '').trim()
 }
 
 console.log('[contentLoader] Modules chargés:', Object.keys(allModules).length)
@@ -68,7 +80,7 @@ export const COURSES = Object.entries(allModules)
       slug: meta.slug,
       subjectId: meta.subject,
       levelId: meta.level,
-      title: normalizeText(data.title),
+      title: normalizeTitle(data.title),
       summary: normalizeText(data.summary),
       lesson: normalizeText(data.lesson),
       keyPoints: Array.isArray(data.keyPoints) ? data.keyPoints.map(normalizeText) : data.keyPoints,

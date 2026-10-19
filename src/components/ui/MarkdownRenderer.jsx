@@ -192,6 +192,71 @@ const MarkdownSpan = ({ children }) => {
   return <span>{children}</span>;
 };
 
+/**
+ * Normalise défensivement le markdown pour garantir le parsing des tables GFM
+ * et éliminer les scories d'échappement (trailing backslashes, etc.)
+ */
+function sanitizeMarkdownContent(raw) {
+  if (typeof raw !== 'string' || !raw) return ''
+
+  let s = raw.replaceAll('\\r\\n', '\n').replaceAll('\\n', '\n')
+
+  // Corriger les artefacts d'échappement accidentel (\t -> tab, \n -> newline sur LaTeX)
+  s = s.replace(/\t(imes\b)/g, '\\t$1')
+  s = s.replace(/\t(ext\b)/g, '\\t$1')
+  s = s.replace(/\t(an\b)/g, '\\t$1')
+  s = s.replace(/\t(heta\b)/g, '\\t$1')
+  s = s.replace(/\t(au\b)/g, '\\t$1')
+  s = s.replace(/\t(o\b)/g, '\\t$1')
+
+  s = s.replace(/\\\s*\n\s*eq\b/g, '\\neq ')
+  s = s.replace(/\\\s*\n\s*u\b/g, '\\nu ')
+  s = s.replace(/\\\s*\n\s*rightarrow\b/g, '\\rightarrow ')
+
+  // Dé-doubler les backslashes devant les commandes LaTeX standard
+  s = s.replace(/\\{2,}([a-zA-Z]+)/g, '\\$1')
+
+  // Nettoyer les trailing backslashes ligne par ligne
+  const lines = s.split('\n')
+  const cleanedLines = []
+  let inMultilineLatex = false
+
+  for (let i = 0; i < lines.length; i++) {
+    let line = lines[i]
+
+    if (line.includes('\\begin{') && !line.includes('\\end{')) {
+      inMultilineLatex = true
+    } else if (line.includes('\\end{')) {
+      inMultilineLatex = false
+    }
+
+    if (/^\s*\\+\s*$/.test(line)) {
+      cleanedLines.push('')
+      continue
+    }
+
+    if (/^\s*\|.*\|\s*\\+\s*$/.test(line)) {
+      line = line.replace(/\|\s*\\+\s*$/, '|')
+    } else if (/\$\$\s*\\+\s*$/.test(line)) {
+      line = line.replace(/\$\$\s*\\+\s*$/, '$$')
+    } else if (!inMultilineLatex) {
+      line = line.replace(/([^\\])\\+$/, '$1').trimEnd()
+    }
+
+    cleanedLines.push(line)
+  }
+
+  s = cleanedLines.join('\n')
+
+  // Normaliser les tableaux GFM : ligne vide obligatoire avant et après
+  s = s.replace(/([^\n])\n(\|[^\n]+\|\r?\n\|[-:| ]+\|)/g, '$1\n\n$2')
+  s = s.replace(/(\|[^\n]+\|)\n([^\n|#\s])/g, '$1\n\n$2')
+
+  s = s.replace(/\n\s*\\+\s*\n/g, '\n\n')
+
+  return s
+}
+
 export default function MarkdownRenderer({ content, className = '', fontSize = 'base' }) {
   if (!content) return null;
 
@@ -229,9 +294,7 @@ export default function MarkdownRenderer({ content, className = '', fontSize = '
     span: MarkdownSpan,
   };
 
-  const normalizedContent = typeof content === 'string'
-    ? content.replaceAll('\\r\\n', '\n').replaceAll('\\n', '\n').replaceAll('\\t', '\t')
-    : content;
+  const normalizedContent = sanitizeMarkdownContent(content);
 
   return (
     <div className={`prose max-w-none dark:prose-invert leading-relaxed break-words overflow-x-hidden ${fontClasses[fontSize] || fontClasses.base} ${className}`}>

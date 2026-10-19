@@ -11,7 +11,7 @@
   ],
   "exercise": {
     "question": "**Exercice 1 :** Calcule lim[x→+∞] (x² − 3x) / x²\n\n**Exercice 2 :** Calcule lim[x→1] (x² − 1)/(x − 1)\n\n**Exercice 3 :** Détermine les asymptotes de f(x) = (2x² + 1)/x\n\n**Exercice 4 :** Montre que l'équation x³ = x + 2 admet une solution dans [1 ; 2]",
-    "answer": "\n**Solution Exercice 1 :**\n= lim[x→+∞] (1 − 3/x) = 1 − 0 = 1\n**Réponse : lim = 1**\n\n**Solution Exercice 2 :**\nForme 0/0\nx² − 1 = (x−1)(x+1)\n= lim[x→1] (x−1)(x+1)/(x−1) = lim[x→1] (x+1) = 2\n**Réponse : lim = 2**\n\n**Solution Exercice 3 :**\nf(x) = (2x² + 1)/x = 2x + 1/x\nlim[x→+∞] f(x) − 2x = lim[x→+∞] 1/x = 0\nAsymptote oblique : y = 2x\nlim[x→0⁺] f(x) = +∞ et lim[x→0⁻] f(x) = −∞\nAsymptote verticale : x = 0\n**Réponse : AV: x = 0, AO: y = 2x**\n\n**Solution Exercice 4 :**\nPosons f(x) = x³ − x − 2\nf(1) = 1 − 1 − 2 = −2 < 0\nf(2) = 8 − 2 − 2 = 4 > 0\nf continue sur [1 ; 2]\nPar TVI : ∃c ∈ [1 ; 2], f(c) = 0\n**L'équation admet une solution dans [1 ; 2]**\n        "
+    "answer": "\n**Solution Exercice 1 :**\n= lim[x→+∞] (1 − 3/x) = 1 − 0 = 1\n**Réponse : lim = 1**\n\n**Solution Exercice 2 :**\nForme 0/0\nx² − 1 = (x−1)(x+1)\n= lim[x→1] (x−1)(x+1)/(x−1) = lim[x→1] (x+1) = 2\n**Réponse : lim = 2**\n\n**Solution Exercice 3 :**\nf(x) = (2x² + 1)/x = 2x + 1/x\nlim[x→+∞] f(x) − 2x = lim[x→+∞] 1/x = 0\nAsymptote oblique : y = 2x\nlim[x→0⁺] f(x) = +∞ et lim[x→0⁻] f(x) = −∞\nAsymptote verticale : x = 0\n**Réponse : AV: x = 0, AO: y = 2x**\n\n**Solution Exercice 4 :**\nPosons f(x) = x³ − x − 2\nf(1) = 1 − 1 − 2 = −2 < 0\nf(2) = 8 − 2 − 2 = 4 > 0\nf continue sur [1 ; 2]\nPar TVI : ∃c ∈ [1 ; 2], f(c) = 0\n**L'équation admet une solution dans [1 ; 2]**\n"
   },
   "questions": [
     {

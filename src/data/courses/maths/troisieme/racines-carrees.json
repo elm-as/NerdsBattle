@@ -2,13 +2,13 @@
   "id": "maths-troisieme-racines-carrees",
   "title": "Racines carrées",
   "summary": "La ferme d'un agriculteur dans le village de Foula est de forme carrée et d'aire égale à 500 m². Il veut savoir la longueur de grillage nécessaire pour clôturer sa ferme. Son neveu, en classe de troisième au Collège Moderne de BOUNDIALI, collabore avec ses camarades pour calculer la longueur du côté de la ferme et son périmètre.",
-  "lesson": "## 1. Introduction aux nombres réels\n\nL'ensemble $\\\\mathbb{R}$ comprend tous les nombres rationnels et irrationnels. En Côte d'Ivoire, les racines carrées sont utilisées dans les calculs de distances, d'aires et de volumes en agriculture, construction et aménagement urbain.\n\n## 2. Définition de la racine carrée\n\nPour $a \\\\geq 0$, la racine carrée de $a$ est le nombre positif noté $\\\\sqrt{a}$ tel que : $$(\\\\sqrt{a})^2 = a$$\n\n**Exemples** : $\\\\sqrt{9} = 3$, $\\\\sqrt{25} = 5$, $\\\\sqrt{2} \\\\approx 1,414$\n\n## 3. Propriétés fondamentales\n\nPour $a \\\\geq 0$ et $b > 0$ :\n1. $\\\\sqrt{a \\\times b} = \\\\sqrt{a} \\\times \\\\sqrt{b}$\n2. $\\\\sqrt{\\\\frac{a}{b}} = \\\\frac{\\\\sqrt{a}}{\\\\sqrt{b}}$\n3. $\\\\sqrt{a^2} = |a|$ (valeur absolue)\n\n## 4. Valeur absolue d'un nombre réel\n\nLa valeur absolue de $a$ notée $|a|$ est définie par :\n$$|a| = \\\\begin{cases} a & \\\text{si } a \\\\geq 0 \\\\\\\\ -a & \\\text{si } a < 0 \\\\end{cases}$$\n\n## 5. Expressions conjuguées\n\nPour simplifier $\\\\frac{1}{\\\\sqrt{a} + \\\\sqrt{b}}$, on multiplie par l'expression conjuguée :\n$$\\\\frac{1}{\\\\sqrt{a} + \\\\sqrt{b}} = \\\\frac{\\\\sqrt{a} - \\\\sqrt{b}}{(\\\\sqrt{a} + \\\\sqrt{b})(\\\\sqrt{a} - \\\\sqrt{b})} = \\\\frac{\\\\sqrt{a} - \\\\sqrt{b}}{a - b}$$\n\n## 6. Calculs avec racines carrées\n\n**Exemple** : Calculons $\\\\sqrt{45} - \\\\sqrt{20} + \\\\sqrt{125}$\n\n$\\\\sqrt{45} = \\\\sqrt{9 \\\times 5} = 3\\\\sqrt{5}$\n$\\\\sqrt{20} = \\\\sqrt{4 \\\times 5} = 2\\\\sqrt{5}$\n$\\\\sqrt{125} = \\\\sqrt{25 \\\times 5} = 5\\\\sqrt{5}$\n\nDonc : $3\\\\sqrt{5} - 2\\\\sqrt{5} + 5\\\\sqrt{5} = 6\\\\sqrt{5}$\n\n## 7. Racines carrées de puissances\n\nPour $a \\\\geq 0$ et $n$ entier : $\\\\sqrt{a^{2n}} = a^n$\n\n**Exemple** : $\\\\sqrt{16} = \\\\sqrt{4^2} = 4$, $\\\\sqrt{x^4} = x^2$ pour $x \\\\geq 0$\n\n## 8. Applications en Côte d'Ivoire\n\n```mathgraph\n{\n  \"type\": \"function\",\n  \"title\": \"Fonction racine carrée - Calcul de périmètres\",\n  \"xRange\": [0, 25],\n  \"yRange\": [0, 10],\n  \"functions\": [\n    { \"expression\": \"sqrt(x)\", \"color\": \"#3b82f6\", \"name\": \"côté = √(aire)\" }\n  ],\n  \"showGrid\": true,\n  \"showAxes\": true,\n  \"xLabel\": \"Aire (m²)\",\n  \"yLabel\": \"Côté (m)\",\n  \"points\": [\n    { \"x\": 500, \"y\": 22.36, \"color\": \"#ef4444\", \"label\": \"Ferme de Foula\" }\n  ]\n}\n```\n\nCalcul du côté de la ferme : $\\\\sqrt{500} = \\\\sqrt{100 \\\times 5} = 10\\\\sqrt{5} \\\\approx 22,36$ m\nPérimètre : $4 \\\times 22,36 = 89,44$ m de grillage nécessaire.",
+  "lesson": "## 1. Introduction aux nombres réels\n\nL'ensemble $\\mathbb{R}$ comprend tous les nombres rationnels et irrationnels. En Côte d'Ivoire, les racines carrées sont utilisées dans les calculs de distances, d'aires et de volumes en agriculture, construction et aménagement urbain.\n\n## 2. Définition de la racine carrée\n\nPour $a \\geq 0$, la racine carrée de $a$ est le nombre positif noté $\\sqrt{a}$ tel que : $$(\\sqrt{a})^2 = a$$\n\n**Exemples** : $\\sqrt{9} = 3$, $\\sqrt{25} = 5$, $\\sqrt{2} \\approx 1,414$\n\n## 3. Propriétés fondamentales\n\nPour $a \\geq 0$ et $b > 0$ :\n1. $\\sqrt{a \\times b} = \\sqrt{a} \\times \\sqrt{b}$\n2. $\\sqrt{\\frac{a}{b}} = \\frac{\\sqrt{a}}{\\sqrt{b}}$\n3. $\\sqrt{a^2} = |a|$ (valeur absolue)\n\n## 4. Valeur absolue d'un nombre réel\n\nLa valeur absolue de $a$ notée $|a|$ est définie par :\n$$|a| = \\begin{cases} a & \\text{si } a \\geq 0 \\\\\\\\ -a & \\text{si } a < 0 \\end{cases}$$\n\n## 5. Expressions conjuguées\n\nPour simplifier $\\frac{1}{\\sqrt{a} + \\sqrt{b}}$, on multiplie par l'expression conjuguée :\n$$\\frac{1}{\\sqrt{a} + \\sqrt{b}} = \\frac{\\sqrt{a} - \\sqrt{b}}{(\\sqrt{a} + \\sqrt{b})(\\sqrt{a} - \\sqrt{b})} = \\frac{\\sqrt{a} - \\sqrt{b}}{a - b}$$\n\n## 6. Calculs avec racines carrées\n\n**Exemple** : Calculons $\\sqrt{45} - \\sqrt{20} + \\sqrt{125}$\n\n$\\sqrt{45} = \\sqrt{9 \\times 5} = 3\\sqrt{5}$\n$\\sqrt{20} = \\sqrt{4 \\times 5} = 2\\sqrt{5}$\n$\\sqrt{125} = \\sqrt{25 \\times 5} = 5\\sqrt{5}$\n\nDonc : $3\\sqrt{5} - 2\\sqrt{5} + 5\\sqrt{5} = 6\\sqrt{5}$\n\n## 7. Racines carrées de puissances\n\nPour $a \\geq 0$ et $n$ entier : $\\sqrt{a^{2n}} = a^n$\n\n**Exemple** : $\\sqrt{16} = \\sqrt{4^2} = 4$, $\\sqrt{x^4} = x^2$ pour $x \\geq 0$\n\n## 8. Applications en Côte d'Ivoire\n\n```mathgraph\n{\n  \"type\": \"function\",\n  \"title\": \"Fonction racine carrée - Calcul de périmètres\",\n  \"xRange\": [0, 25],\n  \"yRange\": [0, 10],\n  \"functions\": [\n    { \"expression\": \"sqrt(x)\", \"color\": \"#3b82f6\", \"name\": \"côté = √(aire)\" }\n  ],\n  \"showGrid\": true,\n  \"showAxes\": true,\n  \"xLabel\": \"Aire (m²)\",\n  \"yLabel\": \"Côté (m)\",\n  \"points\": [\n    { \"x\": 500, \"y\": 22.36, \"color\": \"#ef4444\", \"label\": \"Ferme de Foula\" }\n  ]\n}\n```\n\nCalcul du côté de la ferme : $\\sqrt{500} = \\sqrt{100 \\times 5} = 10\\sqrt{5} \\approx 22,36$ m\nPérimètre : $4 \\times 22,36 = 89,44$ m de grillage nécessaire.",
   "estimatedMinutes": 10,
   "keyPoints": [
-    "$\\\\sqrt{a}$ existe seulement pour $a \\\\geq 0$",
-    "$\\\\sqrt{a \\\times b} = \\\\sqrt{a} \\\times \\\\sqrt{b}$ mais $\\\\sqrt{a + b} \\\neq \\\\sqrt{a} + \\\\sqrt{b}$",
+    "$\\sqrt{a}$ existe seulement pour $a \\geq 0$",
+    "$\\sqrt{a \\times b} = \\sqrt{a} \\times \\sqrt{b}$ mais $\\sqrt{a + b}\neq \\sqrt{a} + \\sqrt{b}$",
     "Pour simplifier un quotient avec radical au dénominateur, on utilise l'expression conjuguée",
-    "$\\\\sqrt{a^2} = |a|$ (attention au signe)"
+    "$\\sqrt{a^2} = |a|$ (attention au signe)"
   ],
   "exercise": {
     "answer": "",
@@ -18,7 +18,7 @@
     {
       "id": "q1",
       "type": "mcq",
-      "prompt": "Que vaut $\\\\sqrt{49}$ ?",
+      "prompt": "Que vaut $\\sqrt{49}$ ?",
       "options": [
         "7",
         "-7",
@@ -33,10 +33,10 @@
       "type": "mcq",
       "prompt": "Quelle propriété est fausse ?",
       "options": [
-        "$\\\\sqrt{a+b} = \\\\sqrt{a} + \\\\sqrt{b}$",
-        "$\\\\sqrt{a \\\\times b} = \\\\sqrt{a} \\\\times \\\\sqrt{b}$",
-        "$\\\\sqrt{a^2} = |a|$",
-        "$\\\\sqrt{\\\\frac{a}{b}} = \\\\frac{\\\\sqrt{a}}{\\\\sqrt{b}}$"
+        "$\\sqrt{a+b} = \\sqrt{a} + \\sqrt{b}$",
+        "$\\sqrt{a \\times b} = \\sqrt{a} \\times \\sqrt{b}$",
+        "$\\sqrt{a^2} = |a|$",
+        "$\\sqrt{\\frac{a}{b}} = \\frac{\\sqrt{a}}{\\sqrt{b}}$"
       ],
       "answer": 0,
       "explanation": "Question issue du programme officiel."
@@ -44,12 +44,12 @@
     {
       "id": "q3",
       "type": "mcq",
-      "prompt": "Comment simplifie-t-on $\\\\frac{3}{\\\\sqrt{5}}$ ?",
+      "prompt": "Comment simplifie-t-on $\\frac{3}{\\sqrt{5}}$ ?",
       "options": [
-        "$\\\\frac{3\\\\sqrt{5}}{5}$",
-        "$\\\\frac{5}{3\\\\sqrt{5}}$",
-        "$3\\\\sqrt{5}$",
-        "$\\\\frac{\\\\sqrt{5}}{3}$"
+        "$\\frac{3\\sqrt{5}}{5}$",
+        "$\\frac{5}{3\\sqrt{5}}$",
+        "$3\\sqrt{5}$",
+        "$\\frac{\\sqrt{5}}{3}$"
       ],
       "answer": 0,
       "explanation": "Question issue du programme officiel."
@@ -57,7 +57,7 @@
     {
       "id": "q4",
       "type": "mcq",
-      "prompt": "Que vaut $\\\\sqrt{(-3)^2}$ ?",
+      "prompt": "Que vaut $\\sqrt{(-3)^2}$ ?",
       "options": [
         "3",
         "-3",

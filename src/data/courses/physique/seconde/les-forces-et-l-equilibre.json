@@ -12,7 +12,7 @@
   ],
   "exercise": {
     "question": "Un objet de 5 kg est suspendu. Quelle est la tension du fil ?",
-    "answer": "\nP = m × g = 5 × 10 = 50 N\nÉquilibre : T = P = 50 N\n\n**Réponse : 50 N**\n        "
+    "answer": "\nP = m × g = 5 × 10 = 50 N\nÉquilibre : T = P = 50 N\n\n**Réponse : 50 N**\n"
   },
   "questions": [
     {
@@ -73,7 +73,7 @@
       "answer": 3,
       "prompt": "Quelle est la condition mathématique nécessaire pour qu'un objet soumis à deux forces $\\vec{F_1}$ et $\\vec{F_2}$ soit en équilibre statique ?",
       "options": [
-        "$\\vec{F_1} + \\vec{F_2} \neq 0$",
+        "$\\vec{F_1} + \\vec{F_2}\neq 0$",
         "$\\vec{F_1} - \\vec{F_2} = 0$",
         "$\\vec{F_1} \\times \\vec{F_2} = 0$",
         "$\\vec{F_1} + \\vec{F_2} = 0$"
