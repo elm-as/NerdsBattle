@@ -64,11 +64,16 @@ export function sanitizeMarkdown(text) {
     }
     // Ligne se terminant par $$\ : "$$...$$\" -> "$$...$$"
     else if (/\$\$\s*\\+\s*$/.test(line)) {
-      line = line.replace(/\$\$\s*\\+\s*$/, '$$')
+      line = line.replace(/\$\$\s*\\+\s*$/, () => '$$')
     }
     // Hors bloc LaTeX multiligne : supprimer les backslashes traînants
     else if (!inMultilineLatex) {
       line = line.replace(/([^\\])\\+$/, '$1').trimEnd()
+    }
+
+    // Réparer les lignes de formule commençant par $$ mais terminées par un seul $
+    if (line.trim().startsWith('$$') && line.trim().endsWith('$') && !line.trim().endsWith('$$')) {
+      line = line.trim() + '$'
     }
 
     cleanedLines.push(line)
